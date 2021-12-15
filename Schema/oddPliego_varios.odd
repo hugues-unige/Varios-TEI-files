@@ -16,7 +16,7 @@
         </author>
       </titleStmt>
       <editionStmt>
-        <edition n="0.1">Version 0.1</edition>
+        <edition n="0.2">Version 0.2</edition>
       </editionStmt>
       <publicationStmt>
         <authority>Projet Desenrollando el cordel / Démêler le cordel / Untangling the
@@ -33,11 +33,12 @@
     </fileDesc>
     <revisionDesc>
       <listChange>
-        <listChange n="0.1">
+        <listChange>
           <change when="2021-12-08">Document creation</change>
+          <change when="2021-12-15">Adding item to fw, head, div, material elements ; Removal item "OCR4all" to application element; Removal item "titulo_verso" and "titulo_octava" to application head element</change>
         </listChange>
       </listChange>
-    </revisionDesc>
+      </revisionDesc>
   </teiHeader>
   <text>
     <body>
@@ -133,18 +134,33 @@
           <moduleRef key="textstructure" include="body closer div front TEI text trailer"/>
           <moduleRef key="namesdates" include="country settlement"/>
           <moduleRef key="msdescription"
-            include="acquisition additions altIdentifier collection condition decoDesc decoNote dim history layout layoutDesc locus locusGrp msContents msDesc msIdentifier msItem objectDesc origin physDesc provenance repository summary support supportDesc"/>
+            include="acquisition additions altIdentifier collection condition decoDesc decoNote dim history layout layoutDesc locus locusGrp material msContents msDesc msIdentifier msItem objectDesc origin physDesc provenance repository summary support supportDesc"/>
           <moduleRef key="drama" include="castItem castList set"/>
           <moduleRef key="transcr"
             include="am ex facsimile fw sourceDoc subst supplied surface surfaceGrp zone"/>
           <moduleRef key="linking" except=""/>
 
+          <elementSpec ident="div" mode="change">
+            <attList>
+              <attDef ident="type" mode="change" usage="opt">
+                <valList mode="add" type="open">
+                  <valItem ident="colofon"/>
+                  <valItem ident="productos_a_la_venta"/>
+                  <valItem ident="parte"/>
+                  <valItem ident="reparto"/>
+                </valList>
+              </attDef>
+            </attList>
+          </elementSpec>
+          
           <elementSpec ident="fw" mode="change">
             <attList>
               <attDef ident="type" mode="change" usage="opt">
                 <valList mode="add" type="open">
                   <valItem ident="impresorNum"/>
                   <valItem ident="paginaNum"/>
+                  <valItem ident="reclamo"/>
+                  <valItem ident="signatura_tipografica"/>
                 </valList>
               </attDef>
             </attList>
@@ -160,8 +176,6 @@
                   <valItem ident="estribillo"/>
                   <valItem ident="titulo_cancion"/>
                   <valItem ident="reparto_titulo"/>
-                  <valItem ident="titulo_verso"/>
-                  <valItem ident="titulo_octava"/>
                   <valItem ident="titulo_trovo"/>
                   <valItem ident="titulo_estrofa"/>
                 </valList>
@@ -175,6 +189,20 @@
                 <valList mode="add" type="open">
                   <valItem ident="cursiva"/>
                   <valItem ident="negrita"/>
+                </valList>
+              </attDef>
+            </attList>
+          </elementSpec>
+          
+          <elementSpec ident="material" mode="change">
+            <attList>
+              <attDef ident="subtype" mode="change" usage="opt">
+                <valList mode="add" type="open">
+                  <valItem ident="verde"/>
+                  <valItem ident="amarillo"/>
+                  <valItem ident="azul"/>
+                  <valItem ident="naranja"/>
+                  <valItem ident="rosa"/>
                 </valList>
               </attDef>
             </attList>
@@ -328,7 +356,6 @@
                 <valList type="semi">
                   <valItem ident="eScriptorium"/>
                   <valItem ident="Transkribus"/>
-                  <valItem ident="OCR4all"/>
                 </valList>
               </attDef>
             </attList>
