@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
   schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns:xi="http://www.w3.org/2001/XInclude" xmlns:svg="http://www.w3.org/2000/svg"
-  xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns="http://www.tei-c.org/ns/1.0"
-  xmlns:sch="http://purl.oclc.org/dsdl/schematron">
+  <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:s="http://purl.oclc.org/dsdl/schematron"
+    xmlns:rng="http://relaxng.org/ns/structure/1.0" xmlns:xi="http://www.w3.org/2001/XInclude"
+    xml:lang="en" xmlns:sch="http://purl.oclc.org/dsdl/schematron"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:foaf="http://xmlns.com/foaf/0.1/">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -36,6 +37,7 @@
         <listChange>
           <change when="2021-12-08">Document creation</change>
           <change when="2021-12-15">Adding item to fw, head, div, material elements ; Removal item "OCR4all" to application element; Removal item "titulo_verso" and "titulo_octava" to application head element</change>
+          <change when="2021-12-28">Adding appInfo and licence to head</change>
         </listChange>
       </listChange>
       </revisionDesc>
@@ -128,7 +130,7 @@
         <schemaSpec ident="oddPliego" prefix="tei_" start="TEI">
           <moduleRef key="tei"/>
           <moduleRef key="header"
-            include=" authority application availability biblFull category change classDecl correction creation edition editionStmt editorialDecl encodingDesc extent fileDesc idno keywords language langUsage listPrefixDef namespace normalization prefixDef profileDesc projectDesc publicationStmt punctuation rendition revisionDesc sourceDesc taxonomy teiHeader textClass titleStmt"/>
+            include=" authority appInfo application availability biblFull category change classDecl correction creation edition editionStmt editorialDecl encodingDesc extent fileDesc idno keywords language langUsage licence listPrefixDef namespace normalization prefixDef profileDesc projectDesc publicationStmt punctuation rendition revisionDesc sourceDesc taxonomy teiHeader textClass titleStmt"/>
           <moduleRef key="core"
             include="add author choice corr date del desc expan foreign gap graphic head hi item l lb lg list name note orig p pb publisher pubPlace ref resp respStmt sic sp speaker stage term title unclear"/>
           <moduleRef key="textstructure" include="body closer div front TEI text trailer"/>

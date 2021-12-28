@@ -5,7 +5,7 @@
          xmlns="http://relaxng.org/ns/structure/1.0"
          datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes"
          ns="http://www.tei-c.org/ns/1.0"><!--
-Schema generated from ODD source 2021-12-15T16:58:53Z. .
+Schema generated from ODD source 2021-12-28T12:28:33Z. .
 TEI Edition: Version 4.3.0. Last updated on
         31st August 2021, revision b4f72b1ff
 TEI Edition Location: https://www.tei-c.org/Vault/P5/Version 4.3.0/
@@ -435,11 +435,12 @@ Sample values include: 1] all; 2] most; 3] range</a:documentation>
    </define>
    <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
             id="oddPliego-att.datable.w3c-att-datable-w3c-when-constraint-rule-1">
-      <sch:rule xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                xmlns="http://www.tei-c.org/ns/1.0"
-                xmlns:math="http://www.w3.org/1998/Math/MathML"
+      <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
+                xmlns:foaf="http://xmlns.com/foaf/0.1/"
+                xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+                xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                xmlns:s="http://purl.oclc.org/dsdl/schematron"
                 xmlns:sch="http://purl.oclc.org/dsdl/schematron"
-                xmlns:svg="http://www.w3.org/2000/svg"
                 xmlns:xi="http://www.w3.org/2001/XInclude"
                 context="tei:*[@when]">
         <sch:report role="nonfatal" test="@notBefore|@notAfter|@from|@to">The @when attribute cannot be used with any other att.datable.w3c attributes.</sch:report>
@@ -447,11 +448,12 @@ Sample values include: 1] all; 2] most; 3] range</a:documentation>
    </pattern>
    <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
             id="oddPliego-att.datable.w3c-att-datable-w3c-from-constraint-rule-2">
-      <sch:rule xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                xmlns="http://www.tei-c.org/ns/1.0"
-                xmlns:math="http://www.w3.org/1998/Math/MathML"
+      <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
+                xmlns:foaf="http://xmlns.com/foaf/0.1/"
+                xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+                xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                xmlns:s="http://purl.oclc.org/dsdl/schematron"
                 xmlns:sch="http://purl.oclc.org/dsdl/schematron"
-                xmlns:svg="http://www.w3.org/2000/svg"
                 xmlns:xi="http://www.w3.org/2001/XInclude"
                 context="tei:*[@from]">
         <sch:report role="nonfatal" test="@notBefore">The @from and @notBefore attributes cannot be used together.</sch:report>
@@ -459,11 +461,12 @@ Sample values include: 1] all; 2] most; 3] range</a:documentation>
    </pattern>
    <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
             id="oddPliego-att.datable.w3c-att-datable-w3c-to-constraint-rule-3">
-      <sch:rule xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                xmlns="http://www.tei-c.org/ns/1.0"
-                xmlns:math="http://www.w3.org/1998/Math/MathML"
+      <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
+                xmlns:foaf="http://xmlns.com/foaf/0.1/"
+                xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+                xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                xmlns:s="http://purl.oclc.org/dsdl/schematron"
                 xmlns:sch="http://purl.oclc.org/dsdl/schematron"
-                xmlns:svg="http://www.w3.org/2000/svg"
                 xmlns:xi="http://www.w3.org/2001/XInclude"
                 context="tei:*[@to]">
         <sch:report role="nonfatal" test="@notAfter">The @to and @notAfter attributes cannot be used together.</sch:report>
@@ -490,11 +493,12 @@ Sample values include: 1] all; 2] most; 3] range</a:documentation>
    </define>
    <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
             id="oddPliego-att.datable-calendar-calendar-constraint-rule-4">
-      <sch:rule xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                xmlns="http://www.tei-c.org/ns/1.0"
-                xmlns:math="http://www.w3.org/1998/Math/MathML"
+      <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
+                xmlns:foaf="http://xmlns.com/foaf/0.1/"
+                xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+                xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                xmlns:s="http://purl.oclc.org/dsdl/schematron"
                 xmlns:sch="http://purl.oclc.org/dsdl/schematron"
-                xmlns:svg="http://www.w3.org/2000/svg"
                 xmlns:xi="http://www.w3.org/2001/XInclude"
                 context="tei:*[@calendar]">
             <sch:assert test="string-length(.) gt 0"> @calendar indicates one or more systems or calendars to
@@ -1036,11 +1040,12 @@ Suggested values include: 1] top; 2] bottom; 3] margin; 4] opposite; 5] overleaf
    </define>
    <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
             id="oddPliego-att.typed-subtypeTyped-constraint-rule-5">
-      <sch:rule xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                xmlns="http://www.tei-c.org/ns/1.0"
-                xmlns:math="http://www.w3.org/1998/Math/MathML"
+      <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
+                xmlns:foaf="http://xmlns.com/foaf/0.1/"
+                xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+                xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                xmlns:s="http://purl.oclc.org/dsdl/schematron"
                 xmlns:sch="http://purl.oclc.org/dsdl/schematron"
-                xmlns:svg="http://www.w3.org/2000/svg"
                 xmlns:xi="http://www.w3.org/2001/XInclude"
                 context="tei:*[@subtype]">
         <sch:assert test="@type">The <sch:name/> element should not be categorized in detail with @subtype unless also categorized in general with @type</sch:assert>
@@ -1068,11 +1073,12 @@ Suggested values include: 1] top; 2] bottom; 3] margin; 4] opposite; 5] overleaf
    </define>
    <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
             id="oddPliego-att.pointing-targetLang-targetLang-constraint-rule-6">
-      <sch:rule xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                xmlns="http://www.tei-c.org/ns/1.0"
-                xmlns:math="http://www.w3.org/1998/Math/MathML"
+      <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
+                xmlns:foaf="http://xmlns.com/foaf/0.1/"
+                xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+                xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                xmlns:s="http://purl.oclc.org/dsdl/schematron"
                 xmlns:sch="http://purl.oclc.org/dsdl/schematron"
-                xmlns:svg="http://www.w3.org/2000/svg"
                 xmlns:xi="http://www.w3.org/2001/XInclude"
                 context="tei:*[not(self::tei:schemaSpec)][@targetLang]">
             <sch:assert test="@target">@targetLang should only be used on <sch:name/> if @target is specified.</sch:assert>
@@ -1216,11 +1222,12 @@ Suggested values include: 1] top; 2] bottom; 3] margin; 4] opposite; 5] overleaf
    </define>
    <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
             id="oddPliego-att.spanning-spanTo-spanTo-2-constraint-rule-7">
-      <sch:rule xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                xmlns="http://www.tei-c.org/ns/1.0"
-                xmlns:math="http://www.w3.org/1998/Math/MathML"
+      <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
+                xmlns:foaf="http://xmlns.com/foaf/0.1/"
+                xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+                xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                xmlns:s="http://purl.oclc.org/dsdl/schematron"
                 xmlns:sch="http://purl.oclc.org/dsdl/schematron"
-                xmlns:svg="http://www.w3.org/2000/svg"
                 xmlns:xi="http://www.w3.org/2001/XInclude"
                 context="tei:*[@spanTo]">
             <sch:assert test="id(substring(@spanTo,2)) and following::*[@xml:id=substring(current()/@spanTo,2)]">
@@ -1257,11 +1264,12 @@ The element indicated by @spanTo (<sch:value-of select="@spanTo"/>) must follow 
    </define>
    <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
             id="oddPliego-att.styleDef-schemeVersion-schemeVersionRequiresScheme-constraint-rule-8">
-      <sch:rule xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                xmlns="http://www.tei-c.org/ns/1.0"
-                xmlns:math="http://www.w3.org/1998/Math/MathML"
+      <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
+                xmlns:foaf="http://xmlns.com/foaf/0.1/"
+                xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+                xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                xmlns:s="http://purl.oclc.org/dsdl/schematron"
                 xmlns:sch="http://purl.oclc.org/dsdl/schematron"
-                xmlns:svg="http://www.w3.org/2000/svg"
                 xmlns:xi="http://www.w3.org/2001/XInclude"
                 context="tei:*[@schemeVersion]">
             <sch:assert test="@scheme and not(@scheme = 'free')">
@@ -1732,17 +1740,6 @@ Sample values include: 1] duplicate; 2] duplicate-partial; 3] excessStart; 4] ex
          <ref name="tei_model.pPart.transcriptional"/>
       </choice>
    </define>
-   <define name="tei_model.linePart">
-      <choice>
-         <ref name="tei_model.hiLike"/>
-         <ref name="tei_choice"/>
-         <ref name="tei_add"/>
-         <ref name="tei_del"/>
-         <ref name="tei_unclear"/>
-         <ref name="tei_zone"/>
-         <ref name="tei_seg"/>
-      </choice>
-   </define>
    <define name="tei_model.ptrLike">
       <choice>
          <ref name="tei_ref"/>
@@ -2119,7 +2116,9 @@ Sample values include: 1] duplicate; 2] duplicate-partial; 3] excessStart; 4] ex
       </choice>
    </define>
    <define name="tei_model.availabilityPart">
-      <notAllowed/>
+      <choice>
+         <ref name="tei_licence"/>
+      </choice>
    </define>
    <define name="tei_model.certLike">
       <notAllowed/>
@@ -2436,6 +2435,11 @@ Sample values include: 1] duplicate; 2] duplicate-partial; 3] excessStart; 4] ex
          <ref name="tei_note"/>
       </choice>
    </define>
+   <define name="tei_model.applicationLike">
+      <choice>
+         <ref name="tei_application"/>
+      </choice>
+   </define>
    <define name="tei_model.teiHeaderPart">
       <choice>
          <ref name="tei_encodingDesc"/>
@@ -2451,6 +2455,7 @@ Sample values include: 1] duplicate; 2] duplicate-partial; 3] excessStart; 4] ex
          <ref name="tei_editorialDecl"/>
          <ref name="tei_listPrefixDef"/>
          <ref name="tei_classDecl"/>
+         <ref name="tei_appInfo"/>
       </choice>
    </define>
    <define name="tei_model.profileDescPart">
@@ -2467,7 +2472,6 @@ Sample values include: 1] duplicate; 2] duplicate-partial; 3] excessStart; 4] ex
          <ref name="tei_model.listLike"/>
          <ref name="tei_model.annotationLike"/>
          <ref name="tei_castList"/>
-         <ref name="tei_zone"/>
          <ref name="tei_seg"/>
          <ref name="tei_listAnnotation"/>
       </choice>
@@ -2517,10 +2521,11 @@ Sample values include: 1] duplicate; 2] duplicate-partial; 3] excessStart; 4] ex
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
                   id="oddPliego-p-abstractModel-structure-p-constraint-report-4">
             <rule context="tei:p">
-               <report xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                       xmlns:math="http://www.w3.org/1998/Math/MathML"
+               <report xmlns:foaf="http://xmlns.com/foaf/0.1/"
+                       xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+                       xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                       xmlns:s="http://purl.oclc.org/dsdl/schematron"
                        xmlns:sch="http://purl.oclc.org/dsdl/schematron"
-                       xmlns:svg="http://www.w3.org/2000/svg"
                        xmlns:xi="http://www.w3.org/2001/XInclude"
                        test="not(ancestor::tei:floatingText) and (ancestor::tei:p or ancestor::tei:ab)          and not(parent::tei:exemplum                |parent::tei:item                |parent::tei:note                |parent::tei:q                |parent::tei:quote                |parent::tei:remarks                |parent::tei:said                |parent::tei:sp                |parent::tei:stage                |parent::tei:cell                |parent::tei:figure                )">
         Abstract model violation: Paragraphs may not occur inside other paragraphs or ab elements.
@@ -2530,10 +2535,11 @@ Sample values include: 1] duplicate; 2] duplicate-partial; 3] excessStart; 4] ex
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
                   id="oddPliego-p-abstractModel-structure-l-constraint-report-5">
             <rule context="tei:p">
-               <report xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                       xmlns:math="http://www.w3.org/1998/Math/MathML"
+               <report xmlns:foaf="http://xmlns.com/foaf/0.1/"
+                       xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+                       xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                       xmlns:s="http://purl.oclc.org/dsdl/schematron"
                        xmlns:sch="http://purl.oclc.org/dsdl/schematron"
-                       xmlns:svg="http://www.w3.org/2000/svg"
                        xmlns:xi="http://www.w3.org/2001/XInclude"
                        test="(ancestor::tei:l or ancestor::tei:lg) and not(parent::tei:figure or parent::tei:note or ancestor::tei:floatingText)">
         Abstract model violation: Lines may not contain higher-level structural elements such as div, p, or ab, unless p is a child of figure or note, or is a descendant of floatingText.
@@ -2602,11 +2608,12 @@ Sample values include: 1] cursiva; 2] negrita</a:documentation>
          <ref name="tei_macro.limitedContent"/>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
                   id="oddPliego-desc-deprecationInfo-only-in-deprecated-constraint-rule-9">
-            <sch:rule xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                      xmlns="http://www.tei-c.org/ns/1.0"
-                      xmlns:math="http://www.w3.org/1998/Math/MathML"
+            <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
+                      xmlns:foaf="http://xmlns.com/foaf/0.1/"
+                      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+                      xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                      xmlns:s="http://purl.oclc.org/dsdl/schematron"
                       xmlns:sch="http://purl.oclc.org/dsdl/schematron"
-                      xmlns:svg="http://www.w3.org/2000/svg"
                       xmlns:xi="http://www.w3.org/2001/XInclude"
                       context="tei:desc[ @type eq 'deprecationInfo']">
                <sch:assert test="../@validUntil">Information about a
@@ -2858,10 +2865,11 @@ Sample values include: 1] rubbing; 2] mildew; 3] smoke</a:documentation>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
                   id="oddPliego-ref-refAtts-constraint-report-6">
             <rule context="tei:ref">
-               <report xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                       xmlns:math="http://www.w3.org/1998/Math/MathML"
+               <report xmlns:foaf="http://xmlns.com/foaf/0.1/"
+                       xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+                       xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                       xmlns:s="http://purl.oclc.org/dsdl/schematron"
                        xmlns:sch="http://purl.oclc.org/dsdl/schematron"
-                       xmlns:svg="http://www.w3.org/2000/svg"
                        xmlns:xi="http://www.w3.org/2001/XInclude"
                        test="@target and @cRef">Only one of the
 	attributes @target' and @cRef' may be supplied on <name/>
@@ -2946,11 +2954,12 @@ Sample values include: 1] rubbing; 2] mildew; 3] smoke</a:documentation>
          </group>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
                   id="oddPliego-list-gloss-list-must-have-labels-constraint-rule-10">
-            <sch:rule xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                      xmlns="http://www.tei-c.org/ns/1.0"
-                      xmlns:math="http://www.w3.org/1998/Math/MathML"
+            <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
+                      xmlns:foaf="http://xmlns.com/foaf/0.1/"
+                      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+                      xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                      xmlns:s="http://purl.oclc.org/dsdl/schematron"
                       xmlns:sch="http://purl.oclc.org/dsdl/schematron"
-                      xmlns:svg="http://www.w3.org/2000/svg"
                       xmlns:xi="http://www.w3.org/2001/XInclude"
                       context="tei:list[@type='gloss']">
 	              <sch:assert test="tei:label">The content of a "gloss" list should include a sequence of one or more pairs of a label element followed by an item element</sch:assert>
@@ -3203,10 +3212,11 @@ Sample values include: 1] main; 2] sub (subordinate); 3] alt (alternate); 4] sho
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
                   id="oddPliego-l-abstractModel-structure-l-constraint-report-7">
             <rule context="tei:l">
-               <report xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                       xmlns:math="http://www.w3.org/1998/Math/MathML"
+               <report xmlns:foaf="http://xmlns.com/foaf/0.1/"
+                       xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+                       xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                       xmlns:s="http://purl.oclc.org/dsdl/schematron"
                        xmlns:sch="http://purl.oclc.org/dsdl/schematron"
-                       xmlns:svg="http://www.w3.org/2000/svg"
                        xmlns:xi="http://www.w3.org/2001/XInclude"
                        test="ancestor::tei:l[not(.//tei:note//tei:l[. = current()])]">
         Abstract model violation: Lines may not contain lines or lg elements.
@@ -3263,11 +3273,12 @@ Sample values include: 1] main; 2] sub (subordinate); 3] alt (alternate); 4] sho
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
                   id="oddPliego-lg-atleast1oflggapl-constraint-assert-8">
             <rule context="tei:lg">
-               <sch:assert xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                           xmlns="http://www.tei-c.org/ns/1.0"
-                           xmlns:math="http://www.w3.org/1998/Math/MathML"
+               <sch:assert xmlns="http://www.tei-c.org/ns/1.0"
+                           xmlns:foaf="http://xmlns.com/foaf/0.1/"
+                           xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+                           xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                           xmlns:s="http://purl.oclc.org/dsdl/schematron"
                            xmlns:sch="http://purl.oclc.org/dsdl/schematron"
-                           xmlns:svg="http://www.w3.org/2000/svg"
                            xmlns:xi="http://www.w3.org/2001/XInclude"
                            test="count(descendant::tei:lg|descendant::tei:l|descendant::tei:gap) &gt; 0">An lg element
         must contain at least one child l, lg, or gap element.</sch:assert>
@@ -3276,10 +3287,11 @@ Sample values include: 1] main; 2] sub (subordinate); 3] alt (alternate); 4] sho
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
                   id="oddPliego-lg-abstractModel-structure-l-constraint-report-8">
             <rule context="tei:lg">
-               <report xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                       xmlns:math="http://www.w3.org/1998/Math/MathML"
+               <report xmlns:foaf="http://xmlns.com/foaf/0.1/"
+                       xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+                       xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                       xmlns:s="http://purl.oclc.org/dsdl/schematron"
                        xmlns:sch="http://purl.oclc.org/dsdl/schematron"
-                       xmlns:svg="http://www.w3.org/2000/svg"
                        xmlns:xi="http://www.w3.org/2001/XInclude"
                        test="ancestor::tei:l[not(.//tei:note//tei:lg[. = current()])]">
         Abstract model violation: Lines may not contain line groups.
@@ -3417,29 +3429,31 @@ Suggested values include: 1] setting; 2] entrance; 3] exit; 4] business; 5] nove
          </group>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
                   id="oddPliego-teiHeader-encodingDesc_check-constraint-rule-11">
-            <sch:rule xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                      xmlns="http://www.tei-c.org/ns/1.0"
-                      xmlns:math="http://www.w3.org/1998/Math/MathML"
+            <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
+                      xmlns:foaf="http://xmlns.com/foaf/0.1/"
+                      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+                      xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                      xmlns:s="http://purl.oclc.org/dsdl/schematron"
                       xmlns:sch="http://purl.oclc.org/dsdl/schematron"
-                      xmlns:svg="http://www.w3.org/2000/svg"
                       xmlns:xi="http://www.w3.org/2001/XInclude"
                       context="tei:teiHeader[parent::tei:TEI]">
-               <sch:assert test="./tei:encodingDesc">Element "teiHeader" incomplete; missing
+                  <sch:assert test="./tei:encodingDesc">Element "teiHeader" incomplete; missing
                     required element "encodingDesc".</sch:assert>
-            </sch:rule>
+                </sch:rule>
          </pattern>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
                   id="oddPliego-teiHeader-profileDesc_check-constraint-rule-12">
-            <sch:rule xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                      xmlns="http://www.tei-c.org/ns/1.0"
-                      xmlns:math="http://www.w3.org/1998/Math/MathML"
+            <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
+                      xmlns:foaf="http://xmlns.com/foaf/0.1/"
+                      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+                      xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                      xmlns:s="http://purl.oclc.org/dsdl/schematron"
                       xmlns:sch="http://purl.oclc.org/dsdl/schematron"
-                      xmlns:svg="http://www.w3.org/2000/svg"
                       xmlns:xi="http://www.w3.org/2001/XInclude"
                       context="tei:teiHeader[parent::tei:TEI]">
-               <sch:assert test="./tei:profileDesc">Element "teiHeader" incomplete; missing
+                  <sch:assert test="./tei:profileDesc">Element "teiHeader" incomplete; missing
                     required element "profileDesc".</sch:assert>
-            </sch:rule>
+                </sch:rule>
          </pattern>
          <ref name="tei_att.global.attributes"/>
          <empty/>
@@ -3655,6 +3669,16 @@ Suggested values include: 1] ISBN; 2] ISSN; 3] DOI; 4] URI; 5] VIAF; 6] ESTC; 7]
          <empty/>
       </element>
    </define>
+   <define name="tei_licence">
+      <element name="licence">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">contains information about a licence or other legal agreement applicable to the text. [2.2.4. Publication, Distribution, Licensing, etc.]</a:documentation>
+         <ref name="tei_macro.specialPara"/>
+         <ref name="tei_att.global.attributes"/>
+         <ref name="tei_att.pointing.attributes"/>
+         <ref name="tei_att.datable.attributes"/>
+         <empty/>
+      </element>
+   </define>
    <define name="tei_sourceDesc">
       <element name="sourceDesc">
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(source description) describes the source(s) from which an electronic text was derived or generated, typically a bibliographic description in the case of a digitized text, or a phrase such as "born digital" for a text which has no previous existence. [2.2.7. The Source Description]</a:documentation>
@@ -3672,16 +3696,17 @@ Suggested values include: 1] ISBN; 2] ISSN; 3] DOI; 4] URI; 5] VIAF; 6] ESTC; 7]
          </choice>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
                   id="oddPliego-sourceDesc-encodingDesc_check-constraint-rule-13">
-            <sch:rule xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                      xmlns="http://www.tei-c.org/ns/1.0"
-                      xmlns:math="http://www.w3.org/1998/Math/MathML"
+            <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
+                      xmlns:foaf="http://xmlns.com/foaf/0.1/"
+                      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+                      xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                      xmlns:s="http://purl.oclc.org/dsdl/schematron"
                       xmlns:sch="http://purl.oclc.org/dsdl/schematron"
-                      xmlns:svg="http://www.w3.org/2000/svg"
                       xmlns:xi="http://www.w3.org/2001/XInclude"
                       context="tei:sourceDesc[parent::tei:fileDesc]">
-               <sch:assert test="./tei:msDesc">Element "sourceDesc" incomplete; missing required
+                  <sch:assert test="./tei:msDesc">Element "sourceDesc" incomplete; missing required
                     element "msDesc".</sch:assert>
-            </sch:rule>
+                </sch:rule>
          </pattern>
          <ref name="tei_att.global.attributes"/>
          <ref name="tei_att.declarable.attributes"/>
@@ -3732,16 +3757,17 @@ Suggested values include: 1] ISBN; 2] ISSN; 3] DOI; 4] URI; 5] VIAF; 6] ESTC; 7]
          </oneOrMore>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
                   id="oddPliego-encodingDesc-encodingDesc_check-constraint-rule-14">
-            <sch:rule xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                      xmlns="http://www.tei-c.org/ns/1.0"
-                      xmlns:math="http://www.w3.org/1998/Math/MathML"
+            <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
+                      xmlns:foaf="http://xmlns.com/foaf/0.1/"
+                      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+                      xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                      xmlns:s="http://purl.oclc.org/dsdl/schematron"
                       xmlns:sch="http://purl.oclc.org/dsdl/schematron"
-                      xmlns:svg="http://www.w3.org/2000/svg"
                       xmlns:xi="http://www.w3.org/2001/XInclude"
                       context="tei:encodingDesc[parent::tei:teiHeader]">
-               <sch:assert test="./tei:classDecl">Element "encodingDesc" incomplete; missing
+                  <sch:assert test="./tei:classDecl">Element "encodingDesc" incomplete; missing
                     required element "classDecl".</sch:assert>
-            </sch:rule>
+                </sch:rule>
          </pattern>
          <ref name="tei_att.global.attributes"/>
          <empty/>
@@ -3768,17 +3794,18 @@ Suggested values include: 1] ISBN; 2] ISSN; 3] DOI; 4] URI; 5] VIAF; 6] ESTC; 7]
          </group>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
                   id="oddPliego-editorialDecl-corresp_check-constraint-rule-15">
-            <sch:rule xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                      xmlns="http://www.tei-c.org/ns/1.0"
-                      xmlns:math="http://www.w3.org/1998/Math/MathML"
+            <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
+                      xmlns:foaf="http://xmlns.com/foaf/0.1/"
+                      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+                      xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                      xmlns:s="http://purl.oclc.org/dsdl/schematron"
                       xmlns:sch="http://purl.oclc.org/dsdl/schematron"
-                      xmlns:svg="http://www.w3.org/2000/svg"
                       xmlns:xi="http://www.w3.org/2001/XInclude"
                       context="tei:editorialDecl[parent::tei:encodingDesc]">
-               <sch:assert test="@corresp='#automaticTranscription'">Element "editorialDecl"
+                  <sch:assert test="@corresp='#automaticTranscription'">Element "editorialDecl"
                     incomplete; missing attribute "@corresp" and value
                     "#automaticTranscription".</sch:assert>
-            </sch:rule>
+                </sch:rule>
          </pattern>
          <ref name="tei_att.global.attribute.xmlid"/>
          <ref name="tei_att.global.attribute.n"/>
@@ -3953,47 +3980,50 @@ Suggested values include: 1] ISBN; 2] ISSN; 3] DOI; 4] URI; 5] VIAF; 6] ESTC; 7]
          </oneOrMore>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
                   id="oddPliego-classDecl-taxonomy_check-constraint-rule-16">
-            <sch:rule xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                      xmlns="http://www.tei-c.org/ns/1.0"
-                      xmlns:math="http://www.w3.org/1998/Math/MathML"
+            <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
+                      xmlns:foaf="http://xmlns.com/foaf/0.1/"
+                      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+                      xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                      xmlns:s="http://purl.oclc.org/dsdl/schematron"
                       xmlns:sch="http://purl.oclc.org/dsdl/schematron"
-                      xmlns:svg="http://www.w3.org/2000/svg"
                       xmlns:xi="http://www.w3.org/2001/XInclude"
                       context="tei:taxonomy[parent::tei:classDecl][1]">
-               <sch:assert test="@xml:id='SegmOnto'">Element "classDecl" incomplete; missing
+                  <sch:assert test="@xml:id='SegmOnto'">Element "classDecl" incomplete; missing
                     required element "bibl" containing element "taxonomy" with attribute "@xml:id"
                     and value "SegmOnto".</sch:assert>
-            </sch:rule>
-            <sch:rule xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                      xmlns="http://www.tei-c.org/ns/1.0"
-                      xmlns:math="http://www.w3.org/1998/Math/MathML"
+                </sch:rule>
+            <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
+                      xmlns:foaf="http://xmlns.com/foaf/0.1/"
+                      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+                      xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                      xmlns:s="http://purl.oclc.org/dsdl/schematron"
                       xmlns:sch="http://purl.oclc.org/dsdl/schematron"
-                      xmlns:svg="http://www.w3.org/2000/svg"
                       xmlns:xi="http://www.w3.org/2001/XInclude"
                       context="tei:bibl[parent::tei:taxonomy/@xml:id='SegmOnto']">
-               <sch:assert test="./tei:title/text()='SegmOnto'">Element "classDecl" incomplete;
+                  <sch:assert test="./tei:title/text()='SegmOnto'">Element "classDecl" incomplete;
                     missing required element "bibl" containing element "title" with content
                     "SegmOnto".</sch:assert>
-               <sch:assert test="./tei:ptr/@target='https://github.com/segmonto'">Element
+                  <sch:assert test="./tei:ptr/@target='https://github.com/segmonto'">Element
                     "classDecl" incomplete; missing required element "bibl" containing element "ptr"
                     with attribute "@target" and value "https://github.com/segmonto".</sch:assert>
-            </sch:rule>
+                </sch:rule>
          </pattern>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
                   id="oddPliego-classDecl-appInfo_check-constraint-rule-18">
-            <sch:rule xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                      xmlns="http://www.tei-c.org/ns/1.0"
-                      xmlns:math="http://www.w3.org/1998/Math/MathML"
+            <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
+                      xmlns:foaf="http://xmlns.com/foaf/0.1/"
+                      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+                      xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                      xmlns:s="http://purl.oclc.org/dsdl/schematron"
                       xmlns:sch="http://purl.oclc.org/dsdl/schematron"
-                      xmlns:svg="http://www.w3.org/2000/svg"
                       xmlns:xi="http://www.w3.org/2001/XInclude"
                       context="tei:application[parent::tei:appInfo]">
-               <sch:assert test="./tei:label">Element "classDecl" incomplete; missing required
+                  <sch:assert test="./tei:label">Element "classDecl" incomplete; missing required
                     element "application" containing element "label".</sch:assert>
-               <sch:assert test="./tei:ptr/@target">Element "classDecl" incomplete; missing
+                  <sch:assert test="./tei:ptr/@target">Element "classDecl" incomplete; missing
                     required element "application" containing element "ptr" with attribute
                     "@target".</sch:assert>
-            </sch:rule>
+                </sch:rule>
          </pattern>
          <ref name="tei_att.global.attributes"/>
          <empty/>
@@ -4036,28 +4066,30 @@ Suggested values include: 1] ISBN; 2] ISSN; 3] DOI; 4] URI; 5] VIAF; 6] ESTC; 7]
          </choice>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
                   id="oddPliego-taxonomy-category_check-constraint-rule-19">
-            <sch:rule xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                      xmlns="http://www.tei-c.org/ns/1.0"
-                      xmlns:math="http://www.w3.org/1998/Math/MathML"
+            <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
+                      xmlns:foaf="http://xmlns.com/foaf/0.1/"
+                      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+                      xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                      xmlns:s="http://purl.oclc.org/dsdl/schematron"
                       xmlns:sch="http://purl.oclc.org/dsdl/schematron"
-                      xmlns:svg="http://www.w3.org/2000/svg"
                       xmlns:xi="http://www.w3.org/2001/XInclude"
                       context="tei:category[parent::tei:taxonomy/@xml:id='SegmOnto'][1]">
-               <sch:assert test="@xml:id='SegmOntoZones'">Element "taxonomy" incomplete; missing
+                  <sch:assert test="@xml:id='SegmOntoZones'">Element "taxonomy" incomplete; missing
                     required element "category" with attribute "@xml:id" and value
                     "SegmOntoZones".</sch:assert>
-            </sch:rule>
-            <sch:rule xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                      xmlns="http://www.tei-c.org/ns/1.0"
-                      xmlns:math="http://www.w3.org/1998/Math/MathML"
+                </sch:rule>
+            <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
+                      xmlns:foaf="http://xmlns.com/foaf/0.1/"
+                      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+                      xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                      xmlns:s="http://purl.oclc.org/dsdl/schematron"
                       xmlns:sch="http://purl.oclc.org/dsdl/schematron"
-                      xmlns:svg="http://www.w3.org/2000/svg"
                       xmlns:xi="http://www.w3.org/2001/XInclude"
                       context="tei:category[parent::tei:taxonomy/@xml:id='SegmOnto'][2]">
-               <sch:assert test="@xml:id='SegmOntoLines'">Element "taxonomy" incomplete; missing
+                  <sch:assert test="@xml:id='SegmOntoLines'">Element "taxonomy" incomplete; missing
                     required element "category" with attribute "@xml:id" and value
                     "SegmOntoLines".</sch:assert>
-            </sch:rule>
+                </sch:rule>
          </pattern>
          <ref name="tei_att.global.attributes"/>
          <empty/>
@@ -4080,112 +4112,160 @@ Suggested values include: 1] ISBN; 2] ISSN; 3] DOI; 4] URI; 5] VIAF; 6] ESTC; 7]
          </group>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
                   id="oddPliego-category-catDesc_check-constraint-rule-21">
-            <sch:rule xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                      xmlns="http://www.tei-c.org/ns/1.0"
-                      xmlns:math="http://www.w3.org/1998/Math/MathML"
+            <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
+                      xmlns:foaf="http://xmlns.com/foaf/0.1/"
+                      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+                      xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                      xmlns:s="http://purl.oclc.org/dsdl/schematron"
                       xmlns:sch="http://purl.oclc.org/dsdl/schematron"
-                      xmlns:svg="http://www.w3.org/2000/svg"
                       xmlns:xi="http://www.w3.org/2001/XInclude"
                       context="tei:catDesc[parent::tei:category/@xml:id='SegmOntoZones'][1]">
-               <sch:assert test="@xml:id='CustomZone'">Element "category" incomplete; missing
+                  <sch:assert test="@xml:id='CustomZone'">Element "category" incomplete; missing
                     required element "catDesc" with attribute "@xml:id" and value
                     "CustomZone".</sch:assert>
-               <sch:assert test="./tei:title/text()='CustomZone'">Element "category" with
+                  <sch:assert test="./tei:title/text()='CustomZone'">Element "category" with
                     attribute "@xml:id" and value "CustomZone" incomplete ; missing required element
                     "title" with content "CustomZone".</sch:assert>
-               <sch:assert test="./tei:ptr/@target='https://github.com/SegmOnto/examples/blob/main/zones/CustomZone/CustomZone.md'">Element "category" with attribute "@xml:id" and value "CustomZone" incomplete;
+                  <sch:assert test="./tei:ptr/@target='https://github.com/SegmOnto/examples/blob/main/zones/CustomZone/CustomZone.md'">Element "category" with attribute "@xml:id" and value "CustomZone" incomplete;
                     missing required element "ptr" with attribute "@target" and value
                     "https://github.com/SegmOnto/examples/blob/main/zones/CustomZone/CustomZone.md".</sch:assert>
-            </sch:rule>
-            <sch:rule xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                      xmlns="http://www.tei-c.org/ns/1.0"
-                      xmlns:math="http://www.w3.org/1998/Math/MathML"
+                </sch:rule>
+            <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
+                      xmlns:foaf="http://xmlns.com/foaf/0.1/"
+                      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+                      xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                      xmlns:s="http://purl.oclc.org/dsdl/schematron"
                       xmlns:sch="http://purl.oclc.org/dsdl/schematron"
-                      xmlns:svg="http://www.w3.org/2000/svg"
                       xmlns:xi="http://www.w3.org/2001/XInclude"
                       context="tei:catDesc[parent::tei:category/@xml:id='SegmOntoZones'][2]">
-               <sch:assert test="@xml:id='DamageZone'">Element "category" incomplete; missing
+                  <sch:assert test="@xml:id='DamageZone'">Element "category" incomplete; missing
                     required element "catDesc" with attribute "@xml:id" and value
                     "DamageZone".</sch:assert>
-               <sch:assert test="./tei:title/text()='DamageZone'">Element "category" with
+                  <sch:assert test="./tei:title/text()='DamageZone'">Element "category" with
                     attribute "@xml:id" and value "DamageZone" incomplete ; missing required element
                     "title" with content "DamageZone".</sch:assert>
-               <sch:assert test="./tei:ptr/@target='https://github.com/SegmOnto/examples/blob/main/zones/DamageZone/DamageZone.md'">Element "category" with attribute "@xml:id" and value "DamageZone" incomplete;
+                  <sch:assert test="./tei:ptr/@target='https://github.com/SegmOnto/examples/blob/main/zones/DamageZone/DamageZone.md'">Element "category" with attribute "@xml:id" and value "DamageZone" incomplete;
                     missing required element "ptr" with attribute "@target" and value
                     "https://github.com/SegmOnto/examples/blob/main/zones/DamageZone/DamageZone.md".</sch:assert>
-            </sch:rule>
-            <sch:rule xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                      xmlns="http://www.tei-c.org/ns/1.0"
-                      xmlns:math="http://www.w3.org/1998/Math/MathML"
+                </sch:rule>
+            <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
+                      xmlns:foaf="http://xmlns.com/foaf/0.1/"
+                      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+                      xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                      xmlns:s="http://purl.oclc.org/dsdl/schematron"
                       xmlns:sch="http://purl.oclc.org/dsdl/schematron"
-                      xmlns:svg="http://www.w3.org/2000/svg"
                       xmlns:xi="http://www.w3.org/2001/XInclude"
                       context="tei:catDesc[parent::tei:category/@xml:id='SegmOntoZones'][3]">
-               <sch:assert test="@xml:id='DigitizationArtefactZone'">Element "category"
+                  <sch:assert test="@xml:id='DigitizationArtefactZone'">Element "category"
                     incomplete; missing required element "catDesc" with attribute "@xml:id" and
                     value "DropCapitalZone".</sch:assert>
-               <sch:assert test="./tei:title/text()='DigitizationArtefactZone'">Element
+                  <sch:assert test="./tei:title/text()='DigitizationArtefactZone'">Element
                     "category" with attribute "@xml:id" and value "DigitizationArtefactZone"
                     incomplete ; missing required element "title" with content
                     "DigitizationArtefactZone".</sch:assert>
-               <sch:assert test="./tei:ptr/@target='https://github.com/SegmOnto/examples/blob/main/zones/DigitizationArtefactZone/DigitizationArtefactZone.md'">Element "category" with attribute "@xml:id" and value
+                  <sch:assert test="./tei:ptr/@target='https://github.com/SegmOnto/examples/blob/main/zones/DigitizationArtefactZone/DigitizationArtefactZone.md'">Element "category" with attribute "@xml:id" and value
                     "DigitizationArtefactZone" incomplete; missing required element "ptr" with
                     attribute "@target" and value
                     "https://github.com/SegmOnto/examples/blob/main/zones/DigitizationArtefactZone/DigitizationArtefactZone.md".</sch:assert>
-            </sch:rule>
-            <sch:rule xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                      xmlns="http://www.tei-c.org/ns/1.0"
-                      xmlns:math="http://www.w3.org/1998/Math/MathML"
+                </sch:rule>
+            <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
+                      xmlns:foaf="http://xmlns.com/foaf/0.1/"
+                      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+                      xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                      xmlns:s="http://purl.oclc.org/dsdl/schematron"
                       xmlns:sch="http://purl.oclc.org/dsdl/schematron"
-                      xmlns:svg="http://www.w3.org/2000/svg"
                       xmlns:xi="http://www.w3.org/2001/XInclude"
                       context="tei:catDesc[parent::tei:category/@xml:id='SegmOntoZones'][4]">
-               <sch:assert test="@xml:id='DropCapitalZone'">Element "category" incomplete;
+                  <sch:assert test="@xml:id='DropCapitalZone'">Element "category" incomplete;
                     missing required element "catDesc" with attribute "@xml:id" and value
                     "DropCapitalZone".</sch:assert>
-               <sch:assert test="./tei:title/text()='DropCapitalZone'">Element "category" with
+                  <sch:assert test="./tei:title/text()='DropCapitalZone'">Element "category" with
                     attribute "@xml:id" and value "DropCapitalZone" incomplete ; missing required
                     element "title" with content "DropCapitalZone".</sch:assert>
-               <sch:assert test="./tei:ptr/@target='https://github.com/SegmOnto/examples/blob/main/zones/DropCapitalZone/DropCapitalZone.md'">Element "category" with attribute "@xml:id" and value "DropCapitalZone"
+                  <sch:assert test="./tei:ptr/@target='https://github.com/SegmOnto/examples/blob/main/zones/DropCapitalZone/DropCapitalZone.md'">Element "category" with attribute "@xml:id" and value "DropCapitalZone"
                     incomplete; missing required element "ptr" with attribute "@target" and value
                     "https://github.com/SegmOnto/examples/blob/main/zones/DropCapitalZone/DropCapitalZone.md".</sch:assert>
-            </sch:rule>
-            <sch:rule xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                      xmlns="http://www.tei-c.org/ns/1.0"
-                      xmlns:math="http://www.w3.org/1998/Math/MathML"
+                </sch:rule>
+            <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
+                      xmlns:foaf="http://xmlns.com/foaf/0.1/"
+                      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+                      xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                      xmlns:s="http://purl.oclc.org/dsdl/schematron"
                       xmlns:sch="http://purl.oclc.org/dsdl/schematron"
-                      xmlns:svg="http://www.w3.org/2000/svg"
                       xmlns:xi="http://www.w3.org/2001/XInclude"
                       context="tei:catDesc[parent::tei:category/@xml:id='SegmOntoZones'][5]">
-               <sch:assert test="@xml:id='GraphicZone'">Element "category" incomplete; missing
+                  <sch:assert test="@xml:id='GraphicZone'">Element "category" incomplete; missing
                     required element "catDesc" with attribute "@xml:id" and value
                     "GraphicZone".</sch:assert>
-               <sch:assert test="./tei:title/text()='GraphicZone'">Element "category" with
+                  <sch:assert test="./tei:title/text()='GraphicZone'">Element "category" with
                     attribute "@xml:id" and value "GraphicZone" incomplete ; missing required
                     element "title" with content "GraphicZone".</sch:assert>
-               <sch:assert test="./tei:ptr/@target='https://github.com/SegmOnto/examples/blob/main/zones/GraphicZone/GraphicZone.md'">Element "category" with attribute "@xml:id" and value "GraphicZone" incomplete;
+                  <sch:assert test="./tei:ptr/@target='https://github.com/SegmOnto/examples/blob/main/zones/GraphicZone/GraphicZone.md'">Element "category" with attribute "@xml:id" and value "GraphicZone" incomplete;
                     missing required element "ptr" with attribute "@target" and value
                     "https://github.com/SegmOnto/examples/blob/main/zones/GraphicZone/GraphicZone.md".</sch:assert>
-            </sch:rule>
-            <sch:rule xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                      xmlns="http://www.tei-c.org/ns/1.0"
-                      xmlns:math="http://www.w3.org/1998/Math/MathML"
+                </sch:rule>
+            <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
+                      xmlns:foaf="http://xmlns.com/foaf/0.1/"
+                      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+                      xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                      xmlns:s="http://purl.oclc.org/dsdl/schematron"
                       xmlns:sch="http://purl.oclc.org/dsdl/schematron"
-                      xmlns:svg="http://www.w3.org/2000/svg"
                       xmlns:xi="http://www.w3.org/2001/XInclude"
                       context="tei:catDesc[parent::tei:category/@xml:id='SegmOntoLines'][1]">
-               <sch:assert test="@xml:id='DefaultLine'">Element "category" incomplete; missing
+                  <sch:assert test="@xml:id='DefaultLine'">Element "category" incomplete; missing
                     required element "catDesc" with attribute "@xml:id" and value
                     "Default".</sch:assert>
-               <sch:assert test="./tei:title/text()='DefaultLine'">Element "category" with
+                  <sch:assert test="./tei:title/text()='DefaultLine'">Element "category" with
                     attribute "@xml:id" and value "DefaultLine" incomplete; missing required element
                     "title" with content "DefaultLine".</sch:assert>
-               <sch:assert test="./tei:ptr/@target='https://github.com/SegmOnto/examples/blob/main/lines/DefaultLine/DefaultLine.md'">Element "category" with attribute "@xml:id" and value "DefaultLine" incomplete;
+                  <sch:assert test="./tei:ptr/@target='https://github.com/SegmOnto/examples/blob/main/lines/DefaultLine/DefaultLine.md'">Element "category" with attribute "@xml:id" and value "DefaultLine" incomplete;
                     missing required element "ptr" with attribute "@target" and value
                     "https://github.com/SegmOnto/examples/blob/main/lines/Default/Default.md".</sch:assert>
-            </sch:rule>
+                </sch:rule>
          </pattern>
          <ref name="tei_att.global.attributes"/>
+         <empty/>
+      </element>
+   </define>
+   <define name="tei_appInfo">
+      <element name="appInfo">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(application information) records information about an application which has edited the TEI file. [2.3.11. The Application Information Element]</a:documentation>
+         <oneOrMore>
+            <ref name="tei_model.applicationLike"/>
+         </oneOrMore>
+         <ref name="tei_att.global.attributes"/>
+         <empty/>
+      </element>
+   </define>
+   <define name="tei_application">
+      <element name="application">
+         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">provides information about an application which has acted upon the document. [2.3.11. The Application Information Element]</a:documentation>
+         <group>
+            <oneOrMore>
+               <ref name="tei_model.labelLike"/>
+            </oneOrMore>
+            <choice>
+               <zeroOrMore>
+                  <ref name="tei_model.ptrLike"/>
+               </zeroOrMore>
+               <zeroOrMore>
+                  <ref name="tei_model.pLike"/>
+               </zeroOrMore>
+            </choice>
+         </group>
+         <ref name="tei_att.global.attributes"/>
+         <ref name="tei_att.typed.attributes"/>
+         <ref name="tei_att.datable.attributes"/>
+         <attribute name="ident">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">supplies an identifier for the application, independent of its version number or display name.</a:documentation>
+            <data type="Name"/>
+         </attribute>
+         <attribute name="version">
+            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">supplies a version number for the application, independent of its identifier or display name.</a:documentation>
+            <data type="token">
+               <param name="pattern">[\d]+[a-z]*[\d]*(\.[\d]+[a-z]*[\d]*){0,3}</param>
+            </data>
+         </attribute>
          <empty/>
       </element>
    </define>
@@ -4353,38 +4433,42 @@ Suggested values include: 1] ISBN; 2] ISSN; 3] DOI; 4] URI; 5] VIAF; 6] ESTC; 7]
          </group>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
                   id="oddPliego-TEI-sourceDoc_check-constraint-rule-27">
-            <sch:rule xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                      xmlns="http://www.tei-c.org/ns/1.0"
-                      xmlns:math="http://www.w3.org/1998/Math/MathML"
+            <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
+                      xmlns:foaf="http://xmlns.com/foaf/0.1/"
+                      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+                      xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                      xmlns:s="http://purl.oclc.org/dsdl/schematron"
                       xmlns:sch="http://purl.oclc.org/dsdl/schematron"
-                      xmlns:svg="http://www.w3.org/2000/svg"
                       xmlns:xi="http://www.w3.org/2001/XInclude"
                       context="tei:TEI">
-               <sch:assert test="./tei:sourceDoc">Element "TEI" incomplete; missing required
+                  <sch:assert test="./tei:sourceDoc">Element "TEI" incomplete; missing required
                     element "sourceDoc".</sch:assert>
-            </sch:rule>
+                </sch:rule>
          </pattern>
-         <sch:ns xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                 xmlns="http://www.tei-c.org/ns/1.0"
-                 xmlns:math="http://www.w3.org/1998/Math/MathML"
+         <sch:ns xmlns="http://www.tei-c.org/ns/1.0"
+                 xmlns:foaf="http://xmlns.com/foaf/0.1/"
+                 xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+                 xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                 xmlns:s="http://purl.oclc.org/dsdl/schematron"
                  xmlns:sch="http://purl.oclc.org/dsdl/schematron"
-                 xmlns:svg="http://www.w3.org/2000/svg"
                  xmlns:xi="http://www.w3.org/2001/XInclude"
                  prefix="tei"
                  uri="http://www.tei-c.org/ns/1.0"/>
-         <sch:ns xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                 xmlns="http://www.tei-c.org/ns/1.0"
-                 xmlns:math="http://www.w3.org/1998/Math/MathML"
+         <sch:ns xmlns="http://www.tei-c.org/ns/1.0"
+                 xmlns:foaf="http://xmlns.com/foaf/0.1/"
+                 xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+                 xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                 xmlns:s="http://purl.oclc.org/dsdl/schematron"
                  xmlns:sch="http://purl.oclc.org/dsdl/schematron"
-                 xmlns:svg="http://www.w3.org/2000/svg"
                  xmlns:xi="http://www.w3.org/2001/XInclude"
                  prefix="xs"
                  uri="http://www.w3.org/2001/XMLSchema"/>
-         <sch:ns xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                 xmlns="http://www.tei-c.org/ns/1.0"
-                 xmlns:math="http://www.w3.org/1998/Math/MathML"
+         <sch:ns xmlns="http://www.tei-c.org/ns/1.0"
+                 xmlns:foaf="http://xmlns.com/foaf/0.1/"
+                 xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+                 xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                 xmlns:s="http://purl.oclc.org/dsdl/schematron"
                  xmlns:sch="http://purl.oclc.org/dsdl/schematron"
-                 xmlns:svg="http://www.w3.org/2000/svg"
                  xmlns:xi="http://www.w3.org/2001/XInclude"
                  prefix="rng"
                  uri="http://relaxng.org/ns/structure/1.0"/>
@@ -4684,10 +4768,11 @@ Suggested values include: 1] ISBN; 2] ISSN; 3] DOI; 4] URI; 5] VIAF; 6] ESTC; 7]
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
                   id="oddPliego-div-abstractModel-structure-l-constraint-report-9">
             <rule context="tei:div">
-               <report xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                       xmlns:math="http://www.w3.org/1998/Math/MathML"
+               <report xmlns:foaf="http://xmlns.com/foaf/0.1/"
+                       xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+                       xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                       xmlns:s="http://purl.oclc.org/dsdl/schematron"
                        xmlns:sch="http://purl.oclc.org/dsdl/schematron"
-                       xmlns:svg="http://www.w3.org/2000/svg"
                        xmlns:xi="http://www.w3.org/2001/XInclude"
                        test="(ancestor::tei:l or ancestor::tei:lg) and not(ancestor::tei:floatingText)">
         Abstract model violation: Lines may not contain higher-level structural elements such as div, unless div is a descendant of floatingText.
@@ -4697,10 +4782,11 @@ Suggested values include: 1] ISBN; 2] ISSN; 3] DOI; 4] URI; 5] VIAF; 6] ESTC; 7]
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
                   id="oddPliego-div-abstractModel-structure-p-constraint-report-10">
             <rule context="tei:div">
-               <report xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                       xmlns:math="http://www.w3.org/1998/Math/MathML"
+               <report xmlns:foaf="http://xmlns.com/foaf/0.1/"
+                       xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+                       xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                       xmlns:s="http://purl.oclc.org/dsdl/schematron"
                        xmlns:sch="http://purl.oclc.org/dsdl/schematron"
-                       xmlns:svg="http://www.w3.org/2000/svg"
                        xmlns:xi="http://www.w3.org/2001/XInclude"
                        test="(ancestor::tei:p or ancestor::tei:ab) and not(ancestor::tei:floatingText)">
         Abstract model violation: p and ab may not contain higher-level structural elements such as div, unless div is a descendant of floatingText.
@@ -5280,10 +5366,11 @@ Sample values include: 1] binding; 2] endband; 3] slipcase; 4] support; 5] tie</
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
                   id="oddPliego-msIdentifier-msId_minimal-constraint-report-11">
             <rule context="tei:msIdentifier">
-               <report xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                       xmlns:math="http://www.w3.org/1998/Math/MathML"
+               <report xmlns:foaf="http://xmlns.com/foaf/0.1/"
+                       xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+                       xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                       xmlns:s="http://purl.oclc.org/dsdl/schematron"
                        xmlns:sch="http://purl.oclc.org/dsdl/schematron"
-                       xmlns:svg="http://www.w3.org/2000/svg"
                        xmlns:xi="http://www.w3.org/2001/XInclude"
                        test="not(parent::tei:msPart) and (local-name(*[1])='idno' or local-name(*[1])='altIdentifier' or normalize-space(.)='')">An msIdentifier must contain either a repository or location.</report>
             </rule>
@@ -5876,101 +5963,6 @@ Suggested values include: 1] paper; 2] parch (parchment); 3] mixed</a:documentat
          </attribute>
       </optional>
    </define>
-   <define name="tei_att.coordinated.attributes">
-      <ref name="tei_att.coordinated.attribute.start"/>
-      <ref name="tei_att.coordinated.attribute.ulx"/>
-      <ref name="tei_att.coordinated.attribute.uly"/>
-      <ref name="tei_att.coordinated.attribute.lrx"/>
-      <ref name="tei_att.coordinated.attribute.lry"/>
-      <ref name="tei_att.coordinated.attribute.points"/>
-   </define>
-   <define name="tei_att.coordinated.attribute.start">
-      <optional>
-         <attribute name="start">
-            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">indicates the element within a transcription of the text containing at least the start of the writing represented by this zone or surface.</a:documentation>
-            <data type="anyURI"/>
-         </attribute>
-      </optional>
-   </define>
-   <define name="tei_att.coordinated.attribute.ulx">
-      <optional>
-         <attribute name="ulx">
-            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">gives the x coordinate value for the upper left corner of a rectangular space.</a:documentation>
-            <choice>
-               <data type="double"/>
-               <data type="token">
-                  <param name="pattern">(\-?[\d]+/\-?[\d]+)</param>
-               </data>
-               <data type="decimal"/>
-            </choice>
-         </attribute>
-      </optional>
-   </define>
-   <define name="tei_att.coordinated.attribute.uly">
-      <optional>
-         <attribute name="uly">
-            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">gives the y coordinate value for the upper left corner of a rectangular space.</a:documentation>
-            <choice>
-               <data type="double"/>
-               <data type="token">
-                  <param name="pattern">(\-?[\d]+/\-?[\d]+)</param>
-               </data>
-               <data type="decimal"/>
-            </choice>
-         </attribute>
-      </optional>
-   </define>
-   <define name="tei_att.coordinated.attribute.lrx">
-      <optional>
-         <attribute name="lrx">
-            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">gives the x coordinate value for the lower right corner of a rectangular space.</a:documentation>
-            <choice>
-               <data type="double"/>
-               <data type="token">
-                  <param name="pattern">(\-?[\d]+/\-?[\d]+)</param>
-               </data>
-               <data type="decimal"/>
-            </choice>
-         </attribute>
-      </optional>
-   </define>
-   <define name="tei_att.coordinated.attribute.lry">
-      <optional>
-         <attribute name="lry">
-            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">gives the y coordinate value for the lower right corner of a rectangular space.</a:documentation>
-            <choice>
-               <data type="double"/>
-               <data type="token">
-                  <param name="pattern">(\-?[\d]+/\-?[\d]+)</param>
-               </data>
-               <data type="decimal"/>
-            </choice>
-         </attribute>
-      </optional>
-   </define>
-   <define name="tei_att.coordinated.attribute.points">
-      <optional>
-         <attribute name="points">
-            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">identifies a two dimensional area by means of a series of pairs of numbers, each of which gives the x,y coordinates of a point on a line enclosing the area.</a:documentation>
-            <list>
-               <data type="token">
-                  <param name="pattern">(-?[0-9]+(\.[0-9]+)?,-?[0-9]+(\.[0-9]+)?)</param>
-               </data>
-               <data type="token">
-                  <param name="pattern">(-?[0-9]+(\.[0-9]+)?,-?[0-9]+(\.[0-9]+)?)</param>
-               </data>
-               <data type="token">
-                  <param name="pattern">(-?[0-9]+(\.[0-9]+)?,-?[0-9]+(\.[0-9]+)?)</param>
-               </data>
-               <zeroOrMore>
-                  <data type="token">
-                     <param name="pattern">(-?[0-9]+(\.[0-9]+)?,-?[0-9]+(\.[0-9]+)?)</param>
-                  </data>
-               </zeroOrMore>
-            </list>
-         </attribute>
-      </optional>
-   </define>
    <define name="tei_facsimile">
       <element name="facsimile">
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">contains a representation of some written source in the form of a set of images rather than as transcribed or encoded text. [11.1. Digital Facsimiles]</a:documentation>
@@ -5981,8 +5973,8 @@ Suggested values include: 1] paper; 2] parch (parchment); 3] mixed</a:documentat
             <oneOrMore>
                <choice>
 	                 <ref name="tei_model.graphicLike"/>
-	                 <ref name="tei_surface"/>
-	                 <ref name="tei_surfaceGrp"/>
+	
+	
                </choice>
             </oneOrMore>
       
@@ -5999,23 +5991,22 @@ Suggested values include: 1] paper; 2] parch (parchment); 3] mixed</a:documentat
             <choice>
                <ref name="tei_model.global"/>
                <ref name="tei_model.graphicLike"/>
-               <ref name="tei_surface"/>
-               <ref name="tei_surfaceGrp"/>
             </choice>
          </oneOrMore>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
                   id="oddPliego-sourceDoc-id_check-constraint-rule-28">
-            <sch:rule xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                      xmlns="http://www.tei-c.org/ns/1.0"
-                      xmlns:math="http://www.w3.org/1998/Math/MathML"
+            <sch:rule xmlns="http://www.tei-c.org/ns/1.0"
+                      xmlns:foaf="http://xmlns.com/foaf/0.1/"
+                      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+                      xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                      xmlns:s="http://purl.oclc.org/dsdl/schematron"
                       xmlns:sch="http://purl.oclc.org/dsdl/schematron"
-                      xmlns:svg="http://www.w3.org/2000/svg"
                       xmlns:xi="http://www.w3.org/2001/XInclude"
                       context="tei:sourceDoc">
-               <sch:assert test="@xml:id='automaticTranscription'">Element "sourceDoc"
+                  <sch:assert test="@xml:id='automaticTranscription'">Element "sourceDoc"
                     incomplete; missing attribute "@xml:id" and value
                     "automaticTranscription".</sch:assert>
-            </sch:rule>
+                </sch:rule>
          </pattern>
          <ref name="tei_att.global.attribute.n"/>
          <ref name="tei_att.global.attribute.xmllang"/>
@@ -6042,223 +6033,6 @@ Suggested values include: 1] paper; 2] parch (parchment); 3] mixed</a:documentat
             <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(identifier) provides a unique identifier for the element bearing the attribute.</a:documentation>
             <data type="ID"/>
          </attribute>
-         <empty/>
-      </element>
-   </define>
-   <define name="tei_surface">
-      <element name="surface">
-         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">defines a written surface as a two-dimensional coordinate space, optionally grouping one or more graphic representations of that space, zones of interest within that space, and transcriptions of the writing within them. [11.1. Digital Facsimiles 11.2.2. Embedded Transcription]</a:documentation>
-         <group>
-            <zeroOrMore>
-               <choice>
-                  <ref name="tei_model.global"/>
-                  <ref name="tei_model.labelLike"/>
-                  <ref name="tei_model.graphicLike"/>
-               </choice>
-            </zeroOrMore>
-            <zeroOrMore>
-               <group>
-                  <choice>
-                     <ref name="tei_zone"/>
-                     <ref name="tei_surface"/>
-                     <ref name="tei_surfaceGrp"/>
-                  </choice>
-                  <zeroOrMore>
-                     <ref name="tei_model.global"/>
-                  </zeroOrMore>
-               </group>
-            </zeroOrMore>
-         </group>
-         <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="oddPliego-surface-line_path_check-constraint-rule-29">
-            <sch:rule xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                      xmlns="http://www.tei-c.org/ns/1.0"
-                      xmlns:math="http://www.w3.org/1998/Math/MathML"
-                      xmlns:sch="http://purl.oclc.org/dsdl/schematron"
-                      xmlns:svg="http://www.w3.org/2000/svg"
-                      xmlns:xi="http://www.w3.org/2001/XInclude"
-                      context="tei:surface[parent::tei:sourceDoc]">
-               <sch:assert test="./tei:graphic">Element "surface" incomplete; missing element
-                    'graphic'.</sch:assert>
-            </sch:rule>
-         </pattern>
-         <ref name="tei_att.global.attribute.n"/>
-         <ref name="tei_att.global.attribute.xmllang"/>
-         <ref name="tei_att.global.attribute.xmlbase"/>
-         <ref name="tei_att.global.attribute.xmlspace"/>
-         <ref name="tei_att.global.rendition.attribute.rend"/>
-         <ref name="tei_att.global.rendition.attribute.style"/>
-         <ref name="tei_att.global.rendition.attribute.rendition"/>
-         <ref name="tei_att.global.linking.attribute.corresp"/>
-         <ref name="tei_att.global.linking.attribute.synch"/>
-         <ref name="tei_att.global.linking.attribute.sameAs"/>
-         <ref name="tei_att.global.linking.attribute.copyOf"/>
-         <ref name="tei_att.global.linking.attribute.next"/>
-         <ref name="tei_att.global.linking.attribute.prev"/>
-         <ref name="tei_att.global.linking.attribute.exclude"/>
-         <ref name="tei_att.global.linking.attribute.select"/>
-         <ref name="tei_att.global.facs.attribute.facs"/>
-         <ref name="tei_att.global.change.attribute.change"/>
-         <ref name="tei_att.global.responsibility.attribute.resp"/>
-         <ref name="tei_att.global.source.attribute.source"/>
-         <ref name="tei_att.coordinated.attributes"/>
-         <ref name="tei_att.declaring.attributes"/>
-         <ref name="tei_att.typed.attribute.subtype"/>
-         <attribute name="xml:id">
-            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(identifier) provides a unique identifier for the element bearing the attribute.</a:documentation>
-            <data type="ID"/>
-         </attribute>
-         <optional>
-            <attribute name="cert">
-               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(certainty) signifies the degree of certainty associated with the intervention or interpretation.</a:documentation>
-               <choice>
-                  <value>gold</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Gold standard, corrected by a researcher</a:documentation>
-                  <value>silver</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Silver standard, produced automatically</a:documentation>
-                  <value>other</value>
-                  <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">Other standard</a:documentation>
-               </choice>
-            </attribute>
-         </optional>
-         <attribute name="type">
-            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">characterizes the element in some sense, using any convenient classification scheme or typology.</a:documentation>
-            <data type="token">
-               <param name="pattern">[^\p{C}\p{Z}]+</param>
-            </data>
-         </attribute>
-         <optional>
-            <attribute name="attachment">
-               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">describes the method by which this surface is or was connected to the main surface
-Sample values include: 1] glued; 2] pinned; 3] sewn</a:documentation>
-               <data type="token">
-                  <param name="pattern">[^\p{C}\p{Z}]+</param>
-               </data>
-            </attribute>
-         </optional>
-         <optional>
-            <attribute name="flipping">
-               <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">indicates whether the surface is attached and folded in such a way as to provide two writing surfaces</a:documentation>
-               <data type="boolean"/>
-            </attribute>
-         </optional>
-         <empty/>
-      </element>
-   </define>
-   <define name="tei_surfaceGrp">
-      <element name="surfaceGrp">
-         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">defines any kind of useful grouping of written surfaces, for example the recto and verso of a single leaf, which the encoder wishes to treat as a single unit. [11.1. Digital Facsimiles]</a:documentation>
-         <oneOrMore>
-            <choice>
-               <ref name="tei_model.global"/>
-               <ref name="tei_surface"/>
-               <ref name="tei_surfaceGrp"/>
-            </choice>
-         </oneOrMore>
-         <ref name="tei_att.global.attributes"/>
-         <ref name="tei_att.declaring.attributes"/>
-         <ref name="tei_att.typed.attributes"/>
-         <empty/>
-      </element>
-   </define>
-   <define name="tei_zone">
-      <element name="zone">
-         <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">defines any two-dimensional area within a <code xmlns="http://www.w3.org/1999/xhtml">&lt;surface&gt;</code> element. [11.1. Digital Facsimiles 11.2.2. Embedded Transcription]</a:documentation>
-         <zeroOrMore>
-            <choice>
-               <text/>
-               <ref name="tei_model.gLike"/>
-               <ref name="tei_model.graphicLike"/>
-               <ref name="tei_model.global"/>
-               <ref name="tei_surface"/>
-               <ref name="tei_model.linePart"/>
-            </choice>
-         </zeroOrMore>
-         <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="oddPliego-zone-line_path_check-constraint-rule-30">
-            <sch:rule xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                      xmlns="http://www.tei-c.org/ns/1.0"
-                      xmlns:math="http://www.w3.org/1998/Math/MathML"
-                      xmlns:sch="http://purl.oclc.org/dsdl/schematron"
-                      xmlns:svg="http://www.w3.org/2000/svg"
-                      xmlns:xi="http://www.w3.org/2001/XInclude"
-                      context="tei:zone[parent::tei:zone]">
-               <sch:assert test="./tei:path and ./tei:line">Element "zone" incomplete; missing
-                    element 'path' and 'line'.</sch:assert>
-            </sch:rule>
-         </pattern>
-         <ref name="tei_att.global.attribute.n"/>
-         <ref name="tei_att.global.attribute.xmllang"/>
-         <ref name="tei_att.global.attribute.xmlbase"/>
-         <ref name="tei_att.global.attribute.xmlspace"/>
-         <ref name="tei_att.global.rendition.attribute.rend"/>
-         <ref name="tei_att.global.rendition.attribute.style"/>
-         <ref name="tei_att.global.rendition.attribute.rendition"/>
-         <ref name="tei_att.global.linking.attribute.synch"/>
-         <ref name="tei_att.global.linking.attribute.sameAs"/>
-         <ref name="tei_att.global.linking.attribute.copyOf"/>
-         <ref name="tei_att.global.linking.attribute.next"/>
-         <ref name="tei_att.global.linking.attribute.prev"/>
-         <ref name="tei_att.global.linking.attribute.exclude"/>
-         <ref name="tei_att.global.linking.attribute.select"/>
-         <ref name="tei_att.global.facs.attribute.facs"/>
-         <ref name="tei_att.global.change.attribute.change"/>
-         <ref name="tei_att.global.responsibility.attribute.cert"/>
-         <ref name="tei_att.global.responsibility.attribute.resp"/>
-         <ref name="tei_att.coordinated.attribute.start"/>
-         <ref name="tei_att.coordinated.attribute.ulx"/>
-         <ref name="tei_att.coordinated.attribute.uly"/>
-         <ref name="tei_att.coordinated.attribute.lrx"/>
-         <ref name="tei_att.coordinated.attribute.lry"/>
-         <ref name="tei_att.typed.attributes"/>
-         <ref name="tei_att.written.attributes"/>
-         <attribute name="xml:id">
-            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(identifier) provides a unique identifier for the element bearing the attribute.</a:documentation>
-            <data type="ID"/>
-         </attribute>
-         <attribute name="corresp">
-            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(corresponds) points to elements that correspond to the current element in some way.</a:documentation>
-            <list>
-               <oneOrMore>
-                  <data type="anyURI"/>
-               </oneOrMore>
-            </list>
-         </attribute>
-         <attribute name="source">
-            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">specifies the source from which some aspect of this element is drawn.</a:documentation>
-            <list>
-               <oneOrMore>
-                  <data type="anyURI"/>
-               </oneOrMore>
-            </list>
-         </attribute>
-         <attribute name="points">
-            <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">identifies a two dimensional area by means of a series of pairs of numbers, each of which gives the x,y coordinates of a point on a line enclosing the area.</a:documentation>
-            <list>
-               <data type="token">
-                  <param name="pattern">(-?[0-9]+(\.[0-9]+)?,-?[0-9]+(\.[0-9]+)?)</param>
-               </data>
-               <data type="token">
-                  <param name="pattern">(-?[0-9]+(\.[0-9]+)?,-?[0-9]+(\.[0-9]+)?)</param>
-               </data>
-               <data type="token">
-                  <param name="pattern">(-?[0-9]+(\.[0-9]+)?,-?[0-9]+(\.[0-9]+)?)</param>
-               </data>
-               <zeroOrMore>
-                  <data type="token">
-                     <param name="pattern">(-?[0-9]+(\.[0-9]+)?,-?[0-9]+(\.[0-9]+)?)</param>
-                  </data>
-               </zeroOrMore>
-            </list>
-         </attribute>
-         <optional>
-            <attribute xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0"
-                       name="rotate"
-                       a:defaultValue="0">
-               <a:documentation>indicates the amount by which this zone has been rotated clockwise, with respect to the normal orientation of the parent <code xmlns="http://www.w3.org/1999/xhtml">&lt;surface&gt;</code> element as implied by the dimensions given in the <code xmlns="http://www.w3.org/1999/xhtml">&lt;msDesc&gt;</code> element or by the coordinates of the <code xmlns="http://www.w3.org/1999/xhtml">&lt;surface&gt;</code> itself. The orientation is expressed in arc degrees.</a:documentation>
-               <data type="nonNegativeInteger"/>
-            </attribute>
-         </optional>
          <empty/>
       </element>
    </define>
@@ -6320,12 +6094,13 @@ Sample values include: 1] impresorNum; 2] paginaNum; 3] reclamo; 4] signatura_ti
             </choice>
          </oneOrMore>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="oddPliego-subst-substContents1-constraint-assert-43">
+                  id="oddPliego-subst-substContents1-constraint-assert-41">
             <rule context="tei:subst">
-               <assert xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                       xmlns:math="http://www.w3.org/1998/Math/MathML"
+               <assert xmlns:foaf="http://xmlns.com/foaf/0.1/"
+                       xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+                       xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                       xmlns:s="http://purl.oclc.org/dsdl/schematron"
                        xmlns:sch="http://purl.oclc.org/dsdl/schematron"
-                       xmlns:svg="http://www.w3.org/2000/svg"
                        xmlns:xi="http://www.w3.org/2001/XInclude"
                        test="child::tei:add and (child::tei:del or child::tei:surplus)">
                   <name/> must have at least one child add and at least one child del or surplus</assert>
@@ -6454,13 +6229,14 @@ Sample values include: 1] impresorNum; 2] paginaNum; 3] reclamo; 4] signatura_ti
          <a:documentation xmlns:a="http://relaxng.org/ns/compatibility/annotations/1.0">(link) defines an association or hypertextual link among elements or passages, of some type not more precisely specifiable by other elements. [16.1. Links]</a:documentation>
          <empty/>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="oddPliego-link-linkTargets3-constraint-assert-44">
+                  id="oddPliego-link-linkTargets3-constraint-assert-42">
             <rule context="tei:link">
-               <sch:assert xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                           xmlns="http://www.tei-c.org/ns/1.0"
-                           xmlns:math="http://www.w3.org/1998/Math/MathML"
+               <sch:assert xmlns="http://www.tei-c.org/ns/1.0"
+                           xmlns:foaf="http://xmlns.com/foaf/0.1/"
+                           xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+                           xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                           xmlns:s="http://purl.oclc.org/dsdl/schematron"
                            xmlns:sch="http://purl.oclc.org/dsdl/schematron"
-                           xmlns:svg="http://www.w3.org/2000/svg"
                            xmlns:xi="http://www.w3.org/2001/XInclude"
                            test="contains(normalize-space(@target),' ')">You must supply at least two values for @target or  on <sch:name/>
                </sch:assert>
@@ -6498,10 +6274,11 @@ Sample values include: 1] impresorNum; 2] paginaNum; 3] reclamo; 4] signatura_ti
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
                   id="oddPliego-ab-abstractModel-structure-ab-constraint-report-12">
             <rule context="tei:ab">
-               <report xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                       xmlns:math="http://www.w3.org/1998/Math/MathML"
+               <report xmlns:foaf="http://xmlns.com/foaf/0.1/"
+                       xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+                       xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                       xmlns:s="http://purl.oclc.org/dsdl/schematron"
                        xmlns:sch="http://purl.oclc.org/dsdl/schematron"
-                       xmlns:svg="http://www.w3.org/2000/svg"
                        xmlns:xi="http://www.w3.org/2001/XInclude"
                        test="not(ancestor::tei:floatingText) and (ancestor::tei:p or ancestor::tei:ab)          and not(parent::tei:exemplum         |parent::tei:item         |parent::tei:note         |parent::tei:q         |parent::tei:quote         |parent::tei:remarks         |parent::tei:said         |parent::tei:sp         |parent::tei:stage         |parent::tei:cell         |parent::tei:figure)">
         Abstract model violation: ab may not occur inside paragraphs or other ab elements.
@@ -6511,10 +6288,11 @@ Sample values include: 1] impresorNum; 2] paginaNum; 3] reclamo; 4] signatura_ti
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
                   id="oddPliego-ab-abstractModel-structure-l-constraint-report-13">
             <rule context="tei:ab">
-               <report xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                       xmlns:math="http://www.w3.org/1998/Math/MathML"
+               <report xmlns:foaf="http://xmlns.com/foaf/0.1/"
+                       xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+                       xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                       xmlns:s="http://purl.oclc.org/dsdl/schematron"
                        xmlns:sch="http://purl.oclc.org/dsdl/schematron"
-                       xmlns:svg="http://www.w3.org/2000/svg"
                        xmlns:xi="http://www.w3.org/2001/XInclude"
                        test="(ancestor::tei:l or ancestor::tei:lg) and not(parent::tei:figure or parent::tei:note or ancestor::tei:floatingText)">
         Abstract model violation: Lines may not contain higher-level divisions such as p or ab, unless ab is a child of figure or note, or is a descendant of floatingText.
@@ -6679,12 +6457,13 @@ Suggested values include: 1] d (days); 2] h (hours); 3] min (minutes); 4] s (sec
             </choice>
          </zeroOrMore>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="oddPliego-join-joinTargets3-constraint-assert-45">
+                  id="oddPliego-join-joinTargets3-constraint-assert-43">
             <rule context="tei:join">
-               <assert xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                       xmlns:math="http://www.w3.org/1998/Math/MathML"
+               <assert xmlns:foaf="http://xmlns.com/foaf/0.1/"
+                       xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+                       xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                       xmlns:s="http://purl.oclc.org/dsdl/schematron"
                        xmlns:sch="http://purl.oclc.org/dsdl/schematron"
-                       xmlns:svg="http://www.w3.org/2000/svg"
                        xmlns:xi="http://www.w3.org/2001/XInclude"
                        test="contains(@target,' ')">
 You must supply at least two values for @target on <name/>
@@ -6830,13 +6609,14 @@ You must supply at least two values for @target on <name/>
             <ref name="tei_model.standOffPart"/>
          </oneOrMore>
          <pattern xmlns="http://purl.oclc.org/dsdl/schematron"
-                  id="oddPliego-standOff-nested_standOff_should_be_typed-constraint-assert-46">
+                  id="oddPliego-standOff-nested_standOff_should_be_typed-constraint-assert-44">
             <rule context="tei:standOff">
-               <sch:assert xmlns:rng="http://relaxng.org/ns/structure/1.0"
-                           xmlns="http://www.tei-c.org/ns/1.0"
-                           xmlns:math="http://www.w3.org/1998/Math/MathML"
+               <sch:assert xmlns="http://www.tei-c.org/ns/1.0"
+                           xmlns:foaf="http://xmlns.com/foaf/0.1/"
+                           xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+                           xmlns:rng="http://relaxng.org/ns/structure/1.0"
+                           xmlns:s="http://purl.oclc.org/dsdl/schematron"
                            xmlns:sch="http://purl.oclc.org/dsdl/schematron"
-                           xmlns:svg="http://www.w3.org/2000/svg"
                            xmlns:xi="http://www.w3.org/2001/XInclude"
                            test="@type or not(ancestor::tei:standOff)">This
       <sch:name/> element must have a @type attribute, since it is
@@ -6885,7 +6665,9 @@ You must supply at least two values for @target on <name/>
             <zeroOrMore>
                <ref name="tei_revisionDesc"/>
             </zeroOrMore>
-      
+            <zeroOrMore>
+               <ref name="tei_licence"/>
+            </zeroOrMore>
             <zeroOrMore>
                <ref name="tei_model.annotationPart.body"/>
             </zeroOrMore>
