@@ -2,7 +2,8 @@
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
     xmlns:xs="http://www.w3.org/2001/XMLSchema"
     xmlns:alto="http://www.loc.gov/standards/alto/ns-v4#"
-    xpath-default-namespace="http://www.loc.gov/standards/alto/ns-v4#" version="2.0">
+    xpath-default-namespace="http://www.loc.gov/standards/alto/ns-v4#" version="2.0"
+    exclude-result-prefixes="#all">
     <xsl:output method="xml" indent="yes"
         xpath-default-namespace="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng"/>
     <xsl:strip-space elements="*"/>
@@ -44,7 +45,7 @@
                                     https://www.geonames.org/2510911/sevilla.html - Pamplona :
                                     https://www.geonames.org/3114472/pamplona.html - Játiva :
                                     https://www.geonames.org/2516345/xativa.html </pubPlace>
-                                <date/>
+                                <date cert=""></date>
                             </publicationStmt>
                         </biblFull>
                         <msDesc>
@@ -59,11 +60,7 @@
                                 <!-- Pas de cote disponible pour ce corpus ? -->
                                 <idno type="DOI"/>
                                 <altIdentifier>
-                                    <idno type="num_impresor">
-                                        <xsl:apply-templates
-                                            select="/alto/Layout/Page/PrintSpace/TextBlock[@TAGREFS = 'BT95']/TextLine/String/@CONTENT"
-                                        />
-                                    </idno>
+                                    <idno type="num_impresor"/>
                                 </altIdentifier>
                             </msIdentifier>
                             <msContents>
@@ -79,23 +76,7 @@
                                         <support>
                                             <dim>in-4</dim>
                                         </support>
-                                        <extent>
-                                            <xsl:choose>
-                                                <xsl:when
-                                                  test="/alto/Layout/Page/PrintSpace/TextBlock/@TAGREFS = 'BT97'">
-                                                  <xsl:element name="num"
-                                                  namespace="http://www.tei-c.org/ns/1.0">
-                                                  <xsl:attribute name="subtype">
-                                                  <xsl:text>número_pliego</xsl:text>
-                                                  </xsl:attribute>
-                                                  <xsl:apply-templates/>
-                                                  </xsl:element>
-                                                </xsl:when>
-                                                <xsl:otherwise>
-                                                  <xsl:text> 4 p.</xsl:text>
-                                                </xsl:otherwise>
-                                            </xsl:choose>
-                                        </extent>
+                                        <extent unite="página"> 4 </extent>
                                         <condition>Bueno</condition>
                                     </supportDesc>
                                     <layoutDesc>
@@ -104,25 +85,9 @@
                                 </objectDesc>
                                 <decoDesc>
                                     <decoNote n="" type="num_grabados"/>
-                                    <decoNote type="lista_grabados">
-                                        <list>
-                                            <xsl:for-each
-                                                select="/alto/Layout/Page/PrintSpace/TextBlock/@TAGREFS = 'BT21'">
-                                                <xsl:element name="item"
-                                                  namespace="http://www.tei-c.org/ns/1.0">
-                                                  <xsl:attribute name="corresp"/>
-                                                </xsl:element>
-                                            </xsl:for-each>
-                                        </list>
-                                    </decoNote>
+                                    <decoNote type="lista_grabados"> </decoNote>
                                     <decoNote type="ornamento">
-                                        <list>
-                                            <xsl:for-each
-                                                select="/alto/Layout/Page/PrintSpace/TextBlock/@TAGREFS = 'BT16'">
-                                                <xsl:element name="item"
-                                                  namespace="http://www.tei-c.org/ns/1.0"/>
-                                            </xsl:for-each>
-                                        </list>
+                                        <list> </list>
                                     </decoNote>
                                 </decoDesc>
                             </physDesc>
@@ -173,445 +138,2812 @@
                 </revisionDesc>
             </teiHeader>
             <sourceDoc>
-                <xsl:element name="surface" namespace="http://www.tei-c.org/ns/1.0">
-                    <xsl:attribute name="id">
-                        <xsl:value-of select="substring-before(/alto/Description/sourceImageInformation/fileName,'.')"/>
-                    </xsl:attribute>
-                    <xsl:element name="graphic">
-                        <xsl:attribute name="url">
-                            <xsl:value-of select="/alto/Description/sourceImageInformation/fileName"/>
+                <xsl:for-each select="//alto">
+                    <xsl:element name="surface" namespace="http://www.tei-c.org/ns/1.0">
+                        <xsl:attribute name="id">
+                            <xsl:value-of
+                                select="substring-before(self::alto/Description/sourceImageInformation/fileName, '.')"
+                            />
                         </xsl:attribute>
-                    </xsl:element>
-                    <xsl:for-each select="/alto/Layout/Page/PrintSpace/TextBlock">
-                      <xsl:choose>
-                          <xsl:when test="@TAGREFS = 'BT12'">
-                              <xsl:element name="zone">
-                                  <xsl:attribute name="id">
-                                      <xsl:value-of select="substring-before(/alto/Description/sourceImageInformation/fileName,'.')"/>
-                                      <xsl:text>_</xsl:text>
-                                      <xsl:value-of select="./@TAGREFS"/>
-                                      <xsl:text>_</xsl:text>
-                                      <xsl:value-of select="count(preceding::TextBlock[@TAGREFS = 'BT12'])+1"/>
-                                  </xsl:attribute>
-                                  <xsl:attribute name="n">
-                                      <xsl:value-of select="count(preceding::TextBlock[@TAGREFS = 'BT12'])+1"/>
-                                  </xsl:attribute>
-                                  <xsl:attribute name="type">
-                                      <xsl:value-of select="/alto/Tags/OtherTag[@ID= 'BT12']/@LABEL"/>
-                                  </xsl:attribute>
-                                  <xsl:attribute name="subtype">
-                                      <xsl:text>none</xsl:text>
-                                  </xsl:attribute>
-                                  <xsl:attribute name="points">
-                                      <xsl:value-of select="./Shape/Polygon/@POINTS"/>
-                                  </xsl:attribute>
-                                  <xsl:attribute name="source">
-                                      <xsl:value-of select="/alto/Description/sourceImageInformation/fileName"/>
-                                  </xsl:attribute>
-                                  <xsl:attribute name="corresp">
-                                      <xsl:value-of select="/alto/Description/sourceImageInformation/fileName"/>
-                                  </xsl:attribute>
-                                  <xsl:for-each select="./TextLine">
-                                              <xsl:element name="zone">
+                        <xsl:element name="graphic">
+                            <xsl:attribute name="url">
+                                <xsl:text>www.portail_DH//arks:/</xsl:text>
+                                <xsl:text>f</xsl:text>
+                                <xsl:value-of
+                                    select="substring-before(substring(self::alto/Description/sourceImageInformation/fileName, 12), '.')"/>
+                                <xsl:text>/full/full/0/native.</xsl:text>
+                                <xsl:value-of
+                                    select="substring-after(./Description/sourceImageInformation/fileName, '.')"
+                                />
+                            </xsl:attribute>
+                        </xsl:element>
+                        <xsl:for-each select="./Layout/Page/PrintSpace/TextBlock">
+                            <xsl:choose>
+                                <xsl:when test="@TAGREFS = 'BT12'">
+                                    <xsl:element name="zone">
+                                        <xsl:attribute name="id">
+                                            <xsl:value-of
+                                                select="substring-before(ancestor-or-self::alto/Description/sourceImageInformation/fileName, '.')"/>
+                                            <xsl:text>_</xsl:text>
+                                            <xsl:value-of select="./@TAGREFS"/>
+                                            <xsl:text>_</xsl:text>
+                                            <xsl:number format="1" count="TextBlock"
+                                                level="multiple"/>
+                                        </xsl:attribute>
+                                        <xsl:attribute name="n">
+                                            <xsl:number format="1" count="TextBlock"
+                                                level="multiple"/>
+                                        </xsl:attribute>
+                                        <xsl:attribute name="type">
+                                            <xsl:value-of
+                                                select="ancestor-or-self::alto/Tags/OtherTag[@ID = 'BT12']/@LABEL"
+                                            />
+                                        </xsl:attribute>
+                                        <xsl:attribute name="subtype">
+                                            <xsl:text>none</xsl:text>
+                                        </xsl:attribute>
+                                        <xsl:attribute name="points">
+                                            <xsl:variable name="value"
+                                                select="./Shape/Polygon/@POINTS"/>
+                                            <xsl:analyze-string select="$value"
+                                                regex="([0-9]+)\s([0-9]+)">
+                                                <xsl:matching-substring>
+                                                  <xsl:for-each select="$value">
+                                                  <xsl:value-of select="regex-group(1)"/>
+                                                  <xsl:text>,</xsl:text>
+                                                  <xsl:value-of select="regex-group(2)"/>
+                                                  <xsl:text> </xsl:text>
+                                                  </xsl:for-each>
+                                                </xsl:matching-substring>
+                                            </xsl:analyze-string>
+                                        </xsl:attribute>
+                                        <xsl:attribute name="source">
+                                            <xsl:text>www.portail_DH//arks:/</xsl:text>
+                                            <xsl:text>f</xsl:text>
+                                            <xsl:value-of
+                                                select="substring-before(substring(ancestor-or-self::alto/Description/sourceImageInformation/fileName, 12), '.')"/>
+                                            <xsl:text>/</xsl:text>
+                                            <xsl:value-of select="@HPOS"/>
+                                            <xsl:text>,</xsl:text>
+                                            <xsl:value-of select="@VPOS"/>
+                                            <xsl:text>,</xsl:text>
+                                            <xsl:value-of select="@WIDTH"/>
+                                            <xsl:text>,</xsl:text>
+                                            <xsl:value-of select="@HEIGHT"/>
+                                            <xsl:text>/full/0/native</xsl:text>
+                                        </xsl:attribute>
+                                        <xsl:attribute name="corresp">
+                                            <xsl:value-of
+                                                select="ancestor-or-self::alto/Tags/OtherTag[@ID = 'BT12']/@LABEL"
+                                            />
+                                        </xsl:attribute>
+                                        <xsl:for-each select="./TextLine">
+                                            <xsl:element name="zone">
+                                                <xsl:attribute name="id">
+                                                  <xsl:value-of
+                                                  select="substring-before(ancestor-or-self::alto/Description/sourceImageInformation/fileName, '.')"/>
+                                                  <xsl:text>_</xsl:text>
+                                                  <xsl:value-of
+                                                  select="ancestor::TextBlock/@TAGREFS"/>
+                                                  <xsl:text>_</xsl:text>
+                                                  <xsl:number format="1_" count="TextBlock"
+                                                  level="multiple"/>
+                                                  <xsl:value-of select="./@TAGREFS"/>
+                                                  <xsl:text>_</xsl:text>
+                                                  <xsl:number format="1" count="TextLine"
+                                                  level="multiple"/>
+                                                </xsl:attribute>
+                                                <xsl:attribute name="type">
+                                                  <xsl:text>DefaultLine</xsl:text>
+                                                </xsl:attribute>
+                                                <xsl:attribute name="subtype">
+                                                  <xsl:text>none</xsl:text>
+                                                </xsl:attribute>
+                                                <xsl:attribute name="points">
+                                                  <xsl:variable name="value"
+                                                  select="./Shape/Polygon/@POINTS"/>
+                                                  <xsl:analyze-string select="$value"
+                                                  regex="([0-9]+)\s([0-9]+)">
+                                                  <xsl:matching-substring>
+                                                  <xsl:for-each select="$value">
+                                                  <xsl:value-of select="regex-group(1)"/>
+                                                  <xsl:text>,</xsl:text>
+                                                  <xsl:value-of select="regex-group(2)"/>
+                                                  <xsl:text> </xsl:text>
+                                                  </xsl:for-each>
+                                                  </xsl:matching-substring>
+                                                  </xsl:analyze-string>
+                                                </xsl:attribute>
+                                                <xsl:attribute name="source">
+                                                  <xsl:text>www.portail_DH//arks:/</xsl:text>
+                                                  <xsl:text>f</xsl:text>
+                                                  <xsl:value-of
+                                                  select="substring-before(substring(ancestor-or-self::alto/Description/sourceImageInformation/fileName, 12), '.')"/>
+                                                  <xsl:text>/</xsl:text>
+                                                  <xsl:value-of select="@HPOS"/>
+                                                  <xsl:text>,</xsl:text>
+                                                  <xsl:value-of select="@VPOS"/>
+                                                  <xsl:text>,</xsl:text>
+                                                  <xsl:value-of select="@WIDTH"/>
+                                                  <xsl:text>,</xsl:text>
+                                                  <xsl:value-of select="@HEIGHT"/>
+                                                  <xsl:text>/full/0/native</xsl:text>
+                                                </xsl:attribute>
+                                                <xsl:element name="path">
                                                   <xsl:attribute name="id">
-                                                      <xsl:value-of select="substring-before(/alto/Description/sourceImageInformation/fileName,'.')"/>
-                                                      <xsl:text>_</xsl:text>
-                                                      <xsl:value-of select="ancestor::TextBlock/@TAGREFS"/>
-                                                      <xsl:text>_</xsl:text>
-                                                      <xsl:value-of select="count(preceding::TextBlock[@TAGREFS = 'BT12'])+1"/>
-                                                      <xsl:text>_</xsl:text>
-                                                      <xsl:value-of select="count(preceding::TextLine)+1"/>
-                                                  </xsl:attribute>
-                                                  <xsl:attribute name="type">
-                                                      <xsl:text>DefaultLine</xsl:text>
-                                                  </xsl:attribute>
-                                                  <xsl:attribute name="subtype">
-                                                      <xsl:text>none</xsl:text>
+                                                  <xsl:value-of
+                                                  select="substring-before(ancestor-or-self::alto/Description/sourceImageInformation/fileName, '.')"/>
+                                                  <xsl:text>_</xsl:text>
+                                                  <xsl:value-of
+                                                  select="ancestor::TextBlock/@TAGREFS"/>
+                                                  <xsl:text>_</xsl:text>
+                                                  <xsl:number format="1_" count="TextBlock"
+                                                  level="multiple"/>
+                                                  <xsl:value-of select="./@TAGREFS"/>
+                                                  <xsl:text>_</xsl:text>
+                                                  <xsl:number format="1_" count="TextLine"
+                                                  level="multiple"/>
+                                                  <xsl:text>1</xsl:text>
                                                   </xsl:attribute>
                                                   <xsl:attribute name="points">
-                                                      <xsl:value-of select="./Shape/Polygon/@POINTS"/>
+                                                  <xsl:variable name="value" select="./@BASELINE"/>
+                                                  <xsl:analyze-string select="$value"
+                                                  regex="([0-9]+)\s([0-9]+)">
+                                                  <xsl:matching-substring>
+                                                  <xsl:for-each select="$value">
+                                                  <xsl:value-of select="regex-group(1)"/>
+                                                  <xsl:text>,</xsl:text>
+                                                  <xsl:value-of select="regex-group(2)"/>
+                                                  <xsl:text> </xsl:text>
+                                                  </xsl:for-each>
+                                                  </xsl:matching-substring>
+                                                  </xsl:analyze-string>
+                                                  </xsl:attribute>
+                                                </xsl:element>
+                                                <xsl:element name="line">
+                                                  <xsl:value-of select="./String/@CONTENT"/>
+                                                </xsl:element>
+                                            </xsl:element>
+                                        </xsl:for-each>
+                                    </xsl:element>
+                                </xsl:when>
+                                <xsl:when test="@TAGREFS = 'BT14'">
+                                    <xsl:element name="zone">
+                                        <xsl:attribute name="id">
+                                            <xsl:value-of
+                                                select="substring-before(ancestor-or-self::alto/Description/sourceImageInformation/fileName, '.')"/>
+                                            <xsl:text>_</xsl:text>
+                                            <xsl:value-of select="./@TAGREFS"/>
+                                            <xsl:text>_</xsl:text>
+                                            <xsl:number format="1" count="TextBlock"
+                                                level="multiple"/>
+                                        </xsl:attribute>
+                                        <xsl:attribute name="n">
+                                            <xsl:number format="1" count="TextBlock"
+                                                level="multiple"/>
+                                        </xsl:attribute>
+                                        <xsl:attribute name="type">
+                                            <xsl:value-of
+                                                select="ancestor-or-self::alto/Tags/OtherTag[@ID = 'BT14']/@LABEL"
+                                            />
+                                        </xsl:attribute>
+                                        <xsl:attribute name="subtype">
+                                            <xsl:text>none</xsl:text>
+                                        </xsl:attribute>
+                                        <xsl:attribute name="points">
+                                            <xsl:variable name="value"
+                                                select="./Shape/Polygon/@POINTS"/>
+                                            <xsl:analyze-string select="$value"
+                                                regex="([0-9]+)\s([0-9]+)">
+                                                <xsl:matching-substring>
+                                                  <xsl:for-each select="$value">
+                                                  <xsl:value-of select="regex-group(1)"/>
+                                                  <xsl:text>,</xsl:text>
+                                                  <xsl:value-of select="regex-group(2)"/>
+                                                  <xsl:text> </xsl:text>
+                                                  </xsl:for-each>
+                                                </xsl:matching-substring>
+                                            </xsl:analyze-string>
+                                        </xsl:attribute>
+                                        <xsl:attribute name="source">
+                                            <xsl:text>www.portail_DH//arks:/</xsl:text>
+                                            <xsl:text>f</xsl:text>
+                                            <xsl:value-of
+                                                select="substring-before(substring(ancestor-or-self::alto/Description/sourceImageInformation/fileName, 12), '.')"/>
+                                            <xsl:text>/</xsl:text>
+                                            <xsl:value-of select="@HPOS"/>
+                                            <xsl:text>,</xsl:text>
+                                            <xsl:value-of select="@VPOS"/>
+                                            <xsl:text>,</xsl:text>
+                                            <xsl:value-of select="@WIDTH"/>
+                                            <xsl:text>,</xsl:text>
+                                            <xsl:value-of select="@HEIGHT"/>
+                                            <xsl:text>/full/0/native</xsl:text>
+                                        </xsl:attribute>
+                                        <xsl:attribute name="corresp">
+                                            <xsl:value-of
+                                                select="ancestor-or-self::alto/Tags/OtherTag[@ID = 'BT14']/@LABEL"
+                                            />
+                                        </xsl:attribute>
+                                        <xsl:for-each select="./TextLine">
+                                            <xsl:choose>
+                                                <xsl:when test="./@TAGREFS = 'LT40'">
+                                                  <xsl:element name="zone">
+                                                  <xsl:attribute name="id">
+                                                  <xsl:value-of
+                                                  select="substring-before(/Description/sourceImageInformation/fileName, '.')"/>
+                                                  <xsl:text>_</xsl:text>
+                                                  <xsl:value-of
+                                                  select="ancestor::TextBlock/@TAGREFS"/> 
+                                                  <xsl:text>_</xsl:text>  <xsl:number format="1_"
+                                                  count="TextBlock" level="multiple"/> 
+                                                  <xsl:value-of select="./@TAGREFS"/> 
+                                                  <xsl:text>_</xsl:text>  <xsl:number format="1"
+                                                  count="TextLine" level="multiple"/>
+                                                  </xsl:attribute>
+                                                  <xsl:attribute name="type">
+                                                  <xsl:value-of
+                                                  select="substring-before(ancestor-or-self::alto/Tags/OtherTag[@ID = 'LT40']/@LABEL, ':')"
+                                                  />
+                                                  </xsl:attribute>
+                                                  <xsl:attribute name="subtype">
+                                                  <xsl:value-of
+                                                  select="substring-after(ancestor-or-self::alto/Tags/OtherTag[@ID = 'LT40']/@LABEL, ':')"
+                                                  />
+                                                  </xsl:attribute>
+                                                  <xsl:attribute name="points">
+                                                  <xsl:variable name="value"
+                                                  select="./Shape/Polygon/@POINTS"/>
+                                                  <xsl:analyze-string select="$value"
+                                                  regex="([0-9]+)\s([0-9]+)">
+                                                  <xsl:matching-substring>
+                                                  <xsl:for-each select="$value">
+                                                  <xsl:value-of select="regex-group(1)"/>
+                                                  <xsl:text>,</xsl:text>
+                                                  <xsl:value-of select="regex-group(2)"/>
+                                                  <xsl:text> </xsl:text>
+                                                  </xsl:for-each>
+                                                  </xsl:matching-substring>
+                                                  </xsl:analyze-string>
+                                                  </xsl:attribute>
+                                                  <xsl:attribute name="source">
+                                                  <xsl:text>www.portail_DH//arks:/</xsl:text>
+                                                  <xsl:text>f</xsl:text>
+                                                  <xsl:value-of
+                                                  select="substring-before(substring(ancestor-or-self::alto/Description/sourceImageInformation/fileName, 12), '.')"/>
+                                                  <xsl:text>/</xsl:text>
+                                                  <xsl:value-of select="@HPOS"/>
+                                                  <xsl:text>,</xsl:text>
+                                                  <xsl:value-of select="@VPOS"/>
+                                                  <xsl:text>,</xsl:text>
+                                                  <xsl:value-of select="@WIDTH"/>
+                                                  <xsl:text>,</xsl:text>
+                                                  <xsl:value-of select="@HEIGHT"/>
+                                                  <xsl:text>/full/0/native</xsl:text>
                                                   </xsl:attribute>
                                                   <xsl:element name="path">
-                                                      <xsl:attribute name="id">
-                                                          <xsl:value-of select="substring-before(/alto/Description/sourceImageInformation/fileName,'.')"/>
-                                                          <xsl:text>_</xsl:text>
-                                                          <xsl:value-of select="ancestor::TextBlock/@TAGREFS"/>
-                                                          <xsl:text>_</xsl:text>
-                                                          <xsl:value-of select="count(preceding::TextBlock[@TAGREFS = 'BT12'])+1"/>
-                                                          <xsl:text>_</xsl:text>
-                                                          <xsl:value-of select="count(preceding::TextLine)+1"/>
-                                                          <xsl:text>_</xsl:text>
-                                                          <xsl:value-of select="count(preceding::TextLine/@BASELINE)+1"/>
-                                                      </xsl:attribute>
-                                                      <xsl:attribute name="points">
-                                                          <xsl:value-of select="./@BASELINE"/>
-                                                      </xsl:attribute>
+                                                  <xsl:attribute name="id">
+                                                  <xsl:value-of
+                                                  select="substring-before(ancestor-or-self::alto/Description/sourceImageInformation/fileName, '.')"/>
+                                                  <xsl:text>_</xsl:text>
+                                                  <xsl:value-of
+                                                  select="ancestor::TextBlock/@TAGREFS"/> 
+                                                  <xsl:text>_</xsl:text>  <xsl:number format="1_"
+                                                  count="TextBlock" level="multiple"/> 
+                                                  <xsl:value-of select="./@TAGREFS"/> 
+                                                  <xsl:text>_</xsl:text>  <xsl:number format="1_"
+                                                  count="TextLine" level="multiple"/> 
+                                                  <xsl:text>1</xsl:text>
+                                                  </xsl:attribute>
+                                                  <xsl:attribute name="points">
+                                                  <xsl:variable name="value" select="./@BASELINE"/>
+                                                  <xsl:analyze-string select="$value"
+                                                  regex="([0-9]+)\s([0-9]+)">
+                                                  <xsl:matching-substring>
+                                                  <xsl:for-each select="$value">
+                                                  <xsl:value-of select="regex-group(1)"/>
+                                                  <xsl:text>,</xsl:text>
+                                                  <xsl:value-of select="regex-group(2)"/>
+                                                  <xsl:text> </xsl:text>
+                                                  </xsl:for-each>
+                                                  </xsl:matching-substring>
+                                                  </xsl:analyze-string>
+                                                  </xsl:attribute>
                                                   </xsl:element>
                                                   <xsl:element name="line">
-                                                      <xsl:value-of select="./String/@CONTENT"/>
+                                                  <xsl:value-of select="./String/@CONTENT"/>
                                                   </xsl:element>
-                                              </xsl:element>
-                                     </xsl:for-each>
-                              </xsl:element>
-                          </xsl:when>
-                          <xsl:when test="@TAGREFS = 'BT14'">
-                             <xsl:element name="zone">
-                                 <xsl:attribute name="id">
-                                     <xsl:value-of select="substring-before(/alto/Description/sourceImageInformation/fileName,'.')"/>
-                                 <xsl:text>_</xsl:text>
-                                     <xsl:value-of select="./@TAGREFS"/>
-                                     <xsl:text>_</xsl:text>
-                                     <xsl:value-of select="count(preceding::TextBlock[@TAGREFS = 'BT14'])+1"/>
-                                 </xsl:attribute>
-                                 <xsl:attribute name="n">
-                                     <xsl:value-of select="count(preceding::TextBlock[@TAGREFS = 'BT14'])+1"/>
-                                 </xsl:attribute>
-                                 <xsl:attribute name="type">
-                                     <xsl:value-of select="/alto/Tags/OtherTag[@ID= 'BT14']/@LABEL"/>
-                                 </xsl:attribute>
-                                 <xsl:attribute name="subtype">
-                                     <xsl:text>none</xsl:text>
-                                 </xsl:attribute>
-                                 <xsl:attribute name="points">
-                                     <xsl:value-of select="./Shape/Polygon/@POINTS"/>
-                                 </xsl:attribute>
-                                 <xsl:attribute name="source">
-                                     <xsl:value-of select="/alto/Description/sourceImageInformation/fileName"/>
-                                 </xsl:attribute>
-                                 <xsl:attribute name="corresp">
-                                     <xsl:value-of select="/alto/Description/sourceImageInformation/fileName"/>
-                                 </xsl:attribute>
-                                 <xsl:for-each select="./TextLine">
-                                     <xsl:choose>
-                                         <xsl:when test="./@TAGREFS = 'LT40'">
-                                             <xsl:element name="zone">
-                                                 <xsl:attribute name="id">
-                                                     <xsl:value-of select="substring-before(/alto/Description/sourceImageInformation/fileName,'.')"/>
-                                                     <xsl:text>_</xsl:text>
-                                                     <xsl:value-of select="ancestor::TextBlock/@TAGREFS"/>
-                                                     <xsl:text>_</xsl:text>
-                                                     <xsl:value-of select="count(preceding::TextBlock[@TAGREFS = 'BT14'])+1"/>
-                                                         <xsl:text>_</xsl:text>
-                                                         <xsl:value-of select="./@TAGREFS"/>
-                                                     <xsl:text>_</xsl:text>
-                                                     <xsl:value-of select="count(preceding::TextLine[@TAGREFS = 'LT40'])+1"/>
-                                                 </xsl:attribute>
-                                                 <xsl:attribute name="type">
-                                                     <xsl:value-of select="substring-before(/alto/Tags/OtherTag[@ID= 'LT40']/@LABEL, ':')"/>
-                                                 </xsl:attribute>
-                                                 <xsl:attribute name="subtype">
-                                                     <xsl:value-of select="substring-after(/alto/Tags/OtherTag[@ID= 'LT40']/@LABEL, ':')"/>
-                                                 </xsl:attribute>
-                                                 <xsl:attribute name="points">
-                                                     <xsl:value-of select="./Shape/Polygon/@POINTS"/>
-                                                 </xsl:attribute>
-                                                 <xsl:element name="path">
-                                                     <xsl:attribute name="id">
-                                                         <xsl:value-of select="substring-before(/alto/Description/sourceImageInformation/fileName,'.')"/>
-                                                         <xsl:text>_</xsl:text>
-                                                         <xsl:value-of select="ancestor::TextBlock/@TAGREFS"/>
-                                                         <xsl:text>_</xsl:text>
-                                                         <xsl:value-of select="count(preceding::TextBlock[@TAGREFS = 'BT14'])+1"/>
-                                                         <xsl:text>_</xsl:text>
-                                                         <xsl:value-of select="./@TAGREFS"/>
-                                                         <xsl:text>_</xsl:text>
-                                                         <xsl:value-of select="count(preceding::TextLine[@TAGREFS = 'LT40'])+1"/>
-                                                         <xsl:text>_</xsl:text>
-                                                         <xsl:value-of select="count(preceding::TextLine[@TAGREFS = 'LT40']/@BASELINE)+1"/>
-                                                     </xsl:attribute>
-                                                     <xsl:attribute name="points">
-                                                         <xsl:value-of select="./@BASELINE"/>
-                                                     </xsl:attribute>
-                                                 </xsl:element>
-                                                 <xsl:element name="line">
-                                                     <xsl:value-of select="./String/@CONTENT"/>
-                                                 </xsl:element>
-                                             </xsl:element>
-                                         </xsl:when>
-                                         <xsl:otherwise>
-                                             <xsl:element name="zone">
-                                                 <xsl:attribute name="id">
-                                                     <xsl:value-of select="substring-before(/alto/Description/sourceImageInformation/fileName,'.')"/>
-                                                     <xsl:text>_</xsl:text>
-                                                     <xsl:value-of select="ancestor::TextBlock/@TAGREFS"/>
-                                                     <xsl:text>_</xsl:text>
-                                                     <xsl:value-of select="count(preceding::TextBlock[@TAGREFS = 'BT14'])+1"/>
-                                                     <xsl:text>_</xsl:text>
-                                                     <xsl:value-of select="count(preceding::TextLine)+1"/>
-                                                 </xsl:attribute>
-                                                 <xsl:attribute name="type">
-                                                     <xsl:text>DefaultLine</xsl:text>
-                                                 </xsl:attribute>
-                                                 <xsl:attribute name="subtype">
-                                                     <xsl:text>none</xsl:text>
-                                                 </xsl:attribute>
-                                                 <xsl:attribute name="points">
-                                                     <xsl:value-of select="./Shape/Polygon/@POINTS"/>
-                                                 </xsl:attribute>
-                                                 <xsl:element name="path">
-                                                     <xsl:attribute name="id">
-                                                         <xsl:value-of select="substring-before(/alto/Description/sourceImageInformation/fileName,'.')"/>
-                                                         <xsl:text>_</xsl:text>
-                                                         <xsl:value-of select="ancestor::TextBlock/@TAGREFS"/>
-                                                         <xsl:text>_</xsl:text>
-                                                         <xsl:value-of select="count(preceding::TextBlock[@TAGREFS = 'BT14'])+1"/>
-                                                         <xsl:text>_</xsl:text>
-                                                         <xsl:value-of select="count(preceding::TextLine)+1"/>
-                                                         <xsl:text>_</xsl:text>
-                                                         <xsl:value-of select="count(preceding::TextLine/@BASELINE)+1"/>
-                                                     </xsl:attribute>
-                                                     <xsl:attribute name="points">
-                                                         <xsl:value-of select="./@BASELINE"/>
-                                                     </xsl:attribute>
-                                                 </xsl:element>
-                                                 <xsl:element name="line">
-                                                     <xsl:value-of select="./String/@CONTENT"/>
-                                                 </xsl:element>
-                                             </xsl:element>
-                                         </xsl:otherwise>
-                                     </xsl:choose>
-                                    
-                                 </xsl:for-each>
-                             </xsl:element> 
-                          </xsl:when>
-                          <xsl:when test="@TAGREFS = 'BT16'">
-                              <xsl:element name="zone">
-                                  <xsl:attribute name="id">
-                                      <xsl:value-of select="substring-before(/alto/Description/sourceImageInformation/fileName,'.')"/>
-                                      <xsl:text>_</xsl:text>
-                                      <xsl:value-of select="./@TAGREFS"/>
-                                      <xsl:text>_</xsl:text>
-                                      <xsl:value-of select="count(preceding::TextBlock[@TAGREFS = 'BT16'])+1"/>
-                                  </xsl:attribute>
-                                  <xsl:attribute name="n">
-                                      <xsl:value-of select="count(preceding::TextBlock[@TAGREFS = 'BT16'])+1"/>
-                                  </xsl:attribute>
-                                  <xsl:attribute name="type">
-                                      <xsl:value-of select="substring-before(/alto/Tags/OtherTag[@ID= 'BT16']/@LABEL, ':')"/>
-                                      
-                                  </xsl:attribute>
-                                  <xsl:attribute name="subtype">
-                                      <xsl:value-of select="substring-after(/alto/Tags/OtherTag[@ID= 'BT16']/@LABEL, ':')"/>
-                                  </xsl:attribute>
-                                  <xsl:attribute name="points">
-                                      <xsl:value-of select="./Shape/Polygon/@POINTS"/>
-                                  </xsl:attribute>
-                                  <xsl:attribute name="source">
-                                      <xsl:value-of select="/alto/Description/sourceImageInformation/fileName"/>
-                                  </xsl:attribute>
-                                  <xsl:attribute name="corresp">
-                                      <xsl:value-of select="/alto/Description/sourceImageInformation/fileName"/>
-                                  </xsl:attribute>
-                                  </xsl:element>
-                          </xsl:when>
-                          <xsl:when test="@TAGREFS = 'BT17'">
-                              <xsl:element name="zone">
-                                  <xsl:attribute name="id">
-                                      <xsl:value-of select="substring-before(/alto/Description/sourceImageInformation/fileName,'.')"/>
-                                      <xsl:text>_</xsl:text>
-                                      <xsl:value-of select="./@TAGREFS"/>
-                                      <xsl:text>_</xsl:text>
-                                      <xsl:value-of select="count(preceding::TextBlock[@TAGREFS = 'BT17'])+1"/>
-                                  </xsl:attribute>
-                                  <xsl:attribute name="n">
-                                      <xsl:value-of select="count(preceding::TextBlock[@TAGREFS = 'BT17'])+1"/>
-                                  </xsl:attribute>
-                                  <xsl:attribute name="type">
-                                      <xsl:value-of select="substring-before(/alto/Tags/OtherTag[@ID= 'BT17']/@LABEL, ':')"/>
-                                      
-                                  </xsl:attribute>
-                                  <xsl:attribute name="subtype">
-                                      <xsl:text>none</xsl:text>
-                                  </xsl:attribute>
-                                  <xsl:attribute name="points">
-                                      <xsl:value-of select="./Shape/Polygon/@POINTS"/>
-                                  </xsl:attribute>
-                                  <xsl:attribute name="source">
-                                      <xsl:value-of select="/alto/Description/sourceImageInformation/fileName"/>
-                                  </xsl:attribute>
-                                  <xsl:attribute name="corresp">
-                                      <xsl:value-of select="/alto/Description/sourceImageInformation/fileName"/>
-                                  </xsl:attribute>
-                              </xsl:element>
-                          </xsl:when>
-                          <xsl:when test="@TAGREFS = 'BT19'">
-                              <xsl:element name="zone">
-                                  <xsl:attribute name="id">
-                                      <xsl:value-of select="substring-before(/alto/Description/sourceImageInformation/fileName,'.')"/>
-                                      <xsl:text>_</xsl:text>
-                                      <xsl:value-of select="./@TAGREFS"/>
-                                      <xsl:text>_</xsl:text>
-                                      <xsl:value-of select="count(preceding::TextBlock[@TAGREFS = 'BT19'])+1"/>
-                                  </xsl:attribute>
-                                  <xsl:attribute name="n">
-                                      <xsl:value-of select="count(preceding::TextBlock[@TAGREFS = 'BT19'])+1"/>
-                                  </xsl:attribute>
-                                  <xsl:attribute name="type">
-                                      <xsl:value-of select="substring-before(/alto/Tags/OtherTag[@ID= 'BT19']/@LABEL, ':')"/>
-                                      
-                                  </xsl:attribute>
-                                  <xsl:attribute name="subtype">
-                                      <xsl:value-of select="substring-after(/alto/Tags/OtherTag[@ID= 'BT19']/@LABEL, ':')"/>
-                                  </xsl:attribute>
-                                  <xsl:attribute name="points">
-                                      <xsl:value-of select="./Shape/Polygon/@POINTS"/>
-                                  </xsl:attribute>
-                                  <xsl:attribute name="source">
-                                      <xsl:value-of select="/alto/Description/sourceImageInformation/fileName"/>
-                                  </xsl:attribute>
-                                  <xsl:attribute name="corresp">
-                                      <xsl:value-of select="/alto/Description/sourceImageInformation/fileName"/>
-                                  </xsl:attribute>
-                                  <xsl:for-each select="./TextLine">
-                                      <xsl:element name="zone">
-                                          <xsl:attribute name="id">
-                                              <xsl:value-of select="substring-before(/alto/Description/sourceImageInformation/fileName,'.')"/>
-                                              <xsl:text>_</xsl:text>
-                                              <xsl:value-of select="ancestor::TextBlock/@TAGREFS"/>
-                                              <xsl:text>_</xsl:text>
-                                              <xsl:value-of select="count(preceding::TextBlock[@TAGREFS = 'BT19'])+1"/>
-                                              <xsl:text>_</xsl:text>
-                                              <xsl:value-of select="count(preceding::TextLine)+1"/>
-                                          </xsl:attribute>
-                                          <xsl:attribute name="type">
-                                              <xsl:text>DefaultLine</xsl:text>
-                                          </xsl:attribute>
-                                          <xsl:attribute name="subtype">
-                                              <xsl:text>none</xsl:text>
-                                          </xsl:attribute>
-                                          <xsl:attribute name="points">
-                                              <xsl:value-of select="./Shape/Polygon/@POINTS"/>
-                                          </xsl:attribute>
-                                          <xsl:element name="path">
-                                              <xsl:attribute name="id">
-                                                  <xsl:value-of select="substring-before(/alto/Description/sourceImageInformation/fileName,'.')"/>
+                                                  </xsl:element>
+                                                </xsl:when>
+                                                <xsl:when test="./@TAGREFS = 'LT69'">
+                                                  <xsl:element name="zone">
+                                                  <xsl:attribute name="id">
+                                                  <xsl:value-of
+                                                  select="substring-before(/Description/sourceImageInformation/fileName, '.')"/>
                                                   <xsl:text>_</xsl:text>
-                                                  <xsl:value-of select="ancestor::TextBlock/@TAGREFS"/>
+                                                  <xsl:value-of
+                                                  select="ancestor::TextBlock/@TAGREFS"/> 
+                                                  <xsl:text>_</xsl:text>  <xsl:number format="1_"
+                                                  count="TextBlock" level="multiple"/> 
+                                                  <xsl:value-of select="./@TAGREFS"/> 
+                                                  <xsl:text>_</xsl:text>  <xsl:number format="1"
+                                                  count="TextLine" level="multiple"/>
+                                                  </xsl:attribute>
+                                                  <xsl:attribute name="type">
+                                                  <xsl:value-of
+                                                  select="substring-before(ancestor-or-self::alto/Tags/OtherTag[@ID = 'LT69']/@LABEL, ':')"
+                                                  />
+                                                  </xsl:attribute>
+                                                  <xsl:attribute name="subtype">
+                                                  <xsl:value-of
+                                                  select="substring-after(ancestor-or-self::alto/Tags/OtherTag[@ID = 'LT69']/@LABEL, ':')"
+                                                  />
+                                                  </xsl:attribute>
+                                                  <xsl:attribute name="points">
+                                                  <xsl:variable name="value"
+                                                  select="./Shape/Polygon/@POINTS"/>
+                                                  <xsl:analyze-string select="$value"
+                                                  regex="([0-9]+)\s([0-9]+)">
+                                                  <xsl:matching-substring>
+                                                  <xsl:for-each select="$value">
+                                                  <xsl:value-of select="regex-group(1)"/>
+                                                  <xsl:text>,</xsl:text>
+                                                  <xsl:value-of select="regex-group(2)"/>
+                                                  <xsl:text> </xsl:text>
+                                                  </xsl:for-each>
+                                                  </xsl:matching-substring>
+                                                  </xsl:analyze-string>
+                                                  </xsl:attribute>
+                                                  <xsl:attribute name="source">
+                                                  <xsl:text>www.portail_DH//arks:/</xsl:text>
+                                                  <xsl:text>f</xsl:text>
+                                                  <xsl:value-of
+                                                  select="substring-before(substring(ancestor-or-self::alto/Description/sourceImageInformation/fileName, 12), '.')"/>
+                                                  <xsl:text>/</xsl:text>
+                                                  <xsl:value-of select="@HPOS"/>
+                                                  <xsl:text>,</xsl:text>
+                                                  <xsl:value-of select="@VPOS"/>
+                                                  <xsl:text>,</xsl:text>
+                                                  <xsl:value-of select="@WIDTH"/>
+                                                  <xsl:text>,</xsl:text>
+                                                  <xsl:value-of select="@HEIGHT"/>
+                                                  <xsl:text>/full/0/native</xsl:text>
+                                                  </xsl:attribute>
+                                                  <xsl:element name="path">
+                                                  <xsl:attribute name="id">
+                                                  <xsl:value-of
+                                                  select="substring-before(ancestor-or-self::alto/Description/sourceImageInformation/fileName, '.')"/>
                                                   <xsl:text>_</xsl:text>
-                                                  <xsl:value-of select="count(preceding::TextBlock[@TAGREFS = 'BT19'])+1"/>
+                                                  <xsl:value-of
+                                                  select="ancestor::TextBlock/@TAGREFS"/> 
+                                                  <xsl:text>_</xsl:text>  <xsl:number format="1_"
+                                                  count="TextBlock" level="multiple"/> 
+                                                  <xsl:value-of select="./@TAGREFS"/> 
+                                                  <xsl:text>_</xsl:text>  <xsl:number format="1_"
+                                                  count="TextLine" level="multiple"/> 
+                                                  <xsl:text>1</xsl:text>
+                                                  </xsl:attribute>
+                                                  <xsl:attribute name="points">
+                                                  <xsl:variable name="value" select="./@BASELINE"/>
+                                                  <xsl:analyze-string select="$value"
+                                                  regex="([0-9]+)\s([0-9]+)">
+                                                  <xsl:matching-substring>
+                                                  <xsl:for-each select="$value">
+                                                  <xsl:value-of select="regex-group(1)"/>
+                                                  <xsl:text>,</xsl:text>
+                                                  <xsl:value-of select="regex-group(2)"/>
+                                                  <xsl:text> </xsl:text>
+                                                  </xsl:for-each>
+                                                  </xsl:matching-substring>
+                                                  </xsl:analyze-string>
+                                                  </xsl:attribute>
+                                                  </xsl:element>
+                                                  <xsl:element name="line">
+                                                  <xsl:value-of select="./String/@CONTENT"/>
+                                                  </xsl:element>
+                                                  </xsl:element>
+                                                </xsl:when>
+                                                <xsl:when test="./@TAGREFS = 'LT74'">
+                                                  <xsl:element name="zone">
+                                                  <xsl:attribute name="id">
+                                                  <xsl:value-of
+                                                  select="substring-before(/Description/sourceImageInformation/fileName, '.')"/>
                                                   <xsl:text>_</xsl:text>
-                                                  <xsl:value-of select="count(preceding::TextLine)+1"/>
+                                                  <xsl:value-of
+                                                  select="ancestor::TextBlock/@TAGREFS"/> 
+                                                  <xsl:text>_</xsl:text>  <xsl:number format="1_"
+                                                  count="TextBlock" level="multiple"/> 
+                                                  <xsl:value-of select="./@TAGREFS"/> 
+                                                  <xsl:text>_</xsl:text>  <xsl:number format="1"
+                                                  count="TextLine" level="multiple"/>
+                                                  </xsl:attribute>
+                                                  <xsl:attribute name="type">
+                                                  <xsl:value-of
+                                                  select="ancestor-or-self::alto/Tags/OtherTag[@ID = 'LT74']"
+                                                  />
+                                                  </xsl:attribute>
+                                                  <xsl:attribute name="subtype">
+                                                  <xsl:text>none</xsl:text>
+                                                  </xsl:attribute>
+                                                  <xsl:attribute name="points">
+                                                  <xsl:variable name="value"
+                                                  select="./Shape/Polygon/@POINTS"/>
+                                                  <xsl:analyze-string select="$value"
+                                                  regex="([0-9]+)\s([0-9]+)">
+                                                  <xsl:matching-substring>
+                                                  <xsl:for-each select="$value">
+                                                  <xsl:value-of select="regex-group(1)"/>
+                                                  <xsl:text>,</xsl:text>
+                                                  <xsl:value-of select="regex-group(2)"/>
+                                                  <xsl:text> </xsl:text>
+                                                  </xsl:for-each>
+                                                  </xsl:matching-substring>
+                                                  </xsl:analyze-string>
+                                                  </xsl:attribute>
+                                                  <xsl:attribute name="source">
+                                                  <xsl:text>www.portail_DH//arks:/</xsl:text>
+                                                  <xsl:text>f</xsl:text>
+                                                  <xsl:value-of
+                                                  select="substring-before(substring(ancestor-or-self::alto/Description/sourceImageInformation/fileName, 12), '.')"/>
+                                                  <xsl:text>/</xsl:text>
+                                                  <xsl:value-of select="@HPOS"/>
+                                                  <xsl:text>,</xsl:text>
+                                                  <xsl:value-of select="@VPOS"/>
+                                                  <xsl:text>,</xsl:text>
+                                                  <xsl:value-of select="@WIDTH"/>
+                                                  <xsl:text>,</xsl:text>
+                                                  <xsl:value-of select="@HEIGHT"/>
+                                                  <xsl:text>/full/0/native</xsl:text>
+                                                  </xsl:attribute>
+                                                  <xsl:element name="path">
+                                                  <xsl:attribute name="id">
+                                                  <xsl:value-of
+                                                  select="substring-before(ancestor-or-self::alto/Description/sourceImageInformation/fileName, '.')"/>
                                                   <xsl:text>_</xsl:text>
-                                                  <xsl:value-of select="count(preceding::TextLine/@BASELINE)+1"/>
-                                              </xsl:attribute>
-                                              <xsl:attribute name="points">
-                                                  <xsl:value-of select="./@BASELINE"/>
-                                              </xsl:attribute>
-                                          </xsl:element>
-                                          <xsl:element name="line">
-                                              <xsl:value-of select="./String/@CONTENT"/>
-                                          </xsl:element>
-                                      </xsl:element>
-                                  </xsl:for-each>
-                              </xsl:element>
-                          </xsl:when>
-                          <xsl:when test="@TAGREFS = 'BT20'">
-                              <xsl:element name="zone">
-                                  <xsl:attribute name="id">
-                                      <xsl:value-of select="substring-before(/alto/Description/sourceImageInformation/fileName,'.')"/>
-                                      <xsl:text>_</xsl:text>
-                                      <xsl:value-of select="./@TAGREFS"/>
-                                      <xsl:text>_</xsl:text>
-                                      <xsl:value-of select="count(preceding::TextBlock[@TAGREFS = 'BT20'])+1"/>
-                                  </xsl:attribute>
-                                  <xsl:attribute name="n">
-                                      <xsl:value-of select="count(preceding::TextBlock[@TAGREFS = 'BT20'])+1"/>
-                                  </xsl:attribute>
-                                  <xsl:attribute name="type">
-                                      <xsl:value-of select="substring-before(/alto/Tags/OtherTag[@ID= 'BT20']/@LABEL, ':')"/>
-                                      
-                                  </xsl:attribute>
-                                  <xsl:attribute name="subtype">
-                                      <xsl:value-of select="substring-after(/alto/Tags/OtherTag[@ID= 'BT20']/@LABEL, ':')"/>
-                                  </xsl:attribute>
-                                  <xsl:attribute name="points">
-                                      <xsl:value-of select="./Shape/Polygon/@POINTS"/>
-                                  </xsl:attribute>
-                                  <xsl:attribute name="source">
-                                      <xsl:value-of select="/alto/Description/sourceImageInformation/fileName"/>
-                                  </xsl:attribute>
-                                  <xsl:attribute name="corresp">
-                                      <xsl:value-of select="/alto/Description/sourceImageInformation/fileName"/>
-                                  </xsl:attribute>
-                                  <xsl:for-each select="./TextLine">
-                                      <xsl:element name="zone">
-                                          <xsl:attribute name="id">
-                                              <xsl:value-of select="substring-before(/alto/Description/sourceImageInformation/fileName,'.')"/>
-                                              <xsl:text>_</xsl:text>
-                                              <xsl:value-of select="ancestor::TextBlock/@TAGREFS"/>
-                                              <xsl:text>_</xsl:text>
-                                              <xsl:value-of select="count(preceding::TextBlock[@TAGREFS = 'BT20'])+1"/>
-                                              <xsl:text>_</xsl:text>
-                                              <xsl:value-of select="count(preceding::TextLine)+1"/>
-                                          </xsl:attribute>
-                                          <xsl:attribute name="type">
-                                              <xsl:text>DefaultLine</xsl:text>
-                                          </xsl:attribute>
-                                          <xsl:attribute name="subtype">
-                                              <xsl:text>none</xsl:text>
-                                          </xsl:attribute>
-                                          <xsl:attribute name="points">
-                                              <xsl:value-of select="./Shape/Polygon/@POINTS"/>
-                                          </xsl:attribute>
-                                          <xsl:element name="path">
-                                              <xsl:attribute name="id">
-                                                  <xsl:value-of select="substring-before(/alto/Description/sourceImageInformation/fileName,'.')"/>
+                                                  <xsl:value-of
+                                                  select="ancestor::TextBlock/@TAGREFS"/> 
+                                                  <xsl:text>_</xsl:text>  <xsl:number format="1_"
+                                                  count="TextBlock" level="multiple"/> 
+                                                  <xsl:value-of select="./@TAGREFS"/> 
+                                                  <xsl:text>_</xsl:text>  <xsl:number format="1_"
+                                                  count="TextLine" level="multiple"/> 
+                                                  <xsl:text>1</xsl:text>
+                                                  </xsl:attribute>
+                                                  <xsl:attribute name="points">
+                                                  <xsl:variable name="value" select="./@BASELINE"/>
+                                                  <xsl:analyze-string select="$value"
+                                                  regex="([0-9]+)\s([0-9]+)">
+                                                  <xsl:matching-substring>
+                                                  <xsl:for-each select="$value">
+                                                  <xsl:value-of select="regex-group(1)"/>
+                                                  <xsl:text>,</xsl:text>
+                                                  <xsl:value-of select="regex-group(2)"/>
+                                                  <xsl:text> </xsl:text>
+                                                  </xsl:for-each>
+                                                  </xsl:matching-substring>
+                                                  </xsl:analyze-string>
+                                                  </xsl:attribute>
+                                                  </xsl:element>
+                                                  <xsl:element name="line">
+                                                  <xsl:value-of select="./String/@CONTENT"/>
+                                                  </xsl:element>
+                                                  </xsl:element>
+                                                </xsl:when>
+                                                <xsl:otherwise>
+                                                  <xsl:element name="zone">
+                                                  <xsl:attribute name="id">
+                                                  <xsl:value-of
+                                                  select="substring-before(ancestor-or-self::alto/Description/sourceImageInformation/fileName, '.')"/>
                                                   <xsl:text>_</xsl:text>
-                                                  <xsl:value-of select="ancestor::TextBlock/@TAGREFS"/>
+                                                  <xsl:value-of
+                                                  select="ancestor::TextBlock/@TAGREFS"/>
                                                   <xsl:text>_</xsl:text>
-                                                  <xsl:value-of select="count(preceding::TextBlock[@TAGREFS = 'BT20'])+1"/>
+                                                  <xsl:number format="1_" count="TextBlock"
+                                                  level="multiple"/>
+                                                  <xsl:value-of select="./@TAGREFS"/>
                                                   <xsl:text>_</xsl:text>
-                                                  <xsl:value-of select="count(preceding::TextLine)+1"/>
+                                                  <xsl:number format="1" count="TextLine"
+                                                  level="multiple"/>
+                                                  </xsl:attribute>
+                                                  <xsl:attribute name="type">
+                                                  <xsl:text>DefaultLine</xsl:text>
+                                                  </xsl:attribute>
+                                                  <xsl:attribute name="subtype">
+                                                  <xsl:text>none</xsl:text>
+                                                  </xsl:attribute>
+                                                  <xsl:attribute name="points">
+                                                  <xsl:variable name="value"
+                                                  select="./Shape/Polygon/@POINTS"/>
+                                                  <xsl:analyze-string select="$value"
+                                                  regex="([0-9]+)\s([0-9]+)">
+                                                  <xsl:matching-substring>
+                                                  <xsl:for-each select="$value">
+                                                  <xsl:value-of select="regex-group(1)"/>
+                                                  <xsl:text>,</xsl:text>
+                                                  <xsl:value-of select="regex-group(2)"/>
+                                                  <xsl:text> </xsl:text>
+                                                  </xsl:for-each>
+                                                  </xsl:matching-substring>
+                                                  </xsl:analyze-string>
+                                                  </xsl:attribute>
+                                                  <xsl:attribute name="source">
+                                                  <xsl:text>www.portail_DH//arks:/</xsl:text>
+                                                  <xsl:text>f</xsl:text>
+                                                  <xsl:value-of
+                                                  select="substring-before(substring(ancestor-or-self::alto/Description/sourceImageInformation/fileName, 12), '.')"/>
+                                                  <xsl:text>/</xsl:text>
+                                                  <xsl:value-of select="@HPOS"/>
+                                                  <xsl:text>,</xsl:text>
+                                                  <xsl:value-of select="@VPOS"/>
+                                                  <xsl:text>,</xsl:text>
+                                                  <xsl:value-of select="@WIDTH"/>
+                                                  <xsl:text>,</xsl:text>
+                                                  <xsl:value-of select="@HEIGHT"/>
+                                                  <xsl:text>/full/0/native</xsl:text>
+                                                  </xsl:attribute>
+                                                  <xsl:element name="path">
+                                                  <xsl:attribute name="id">
+                                                  <xsl:value-of
+                                                  select="substring-before(ancestor-or-self::alto/Description/sourceImageInformation/fileName, '.')"/>
                                                   <xsl:text>_</xsl:text>
-                                                  <xsl:value-of select="count(preceding::TextLine/@BASELINE)+1"/>
-                                              </xsl:attribute>
-                                              <xsl:attribute name="points">
-                                                  <xsl:value-of select="./@BASELINE"/>
-                                              </xsl:attribute>
-                                          </xsl:element>
-                                          <xsl:element name="line">
-                                              <xsl:value-of select="./String/@CONTENT"/>
-                                          </xsl:element>
-                                      </xsl:element>
-                                  </xsl:for-each>
-                              </xsl:element>
-                          </xsl:when>
-                          <xsl:when test="@TAGREFS = 'BT21'">
-                              <xsl:element name="zone">
-                                  <xsl:attribute name="id">
-                                      <xsl:value-of select="substring-before(/alto/Description/sourceImageInformation/fileName,'.')"/>
-                                      <xsl:text>_</xsl:text>
-                                      <xsl:value-of select="./@TAGREFS"/>
-                                      <xsl:text>_</xsl:text>
-                                      <xsl:value-of select="count(preceding::TextBlock[@TAGREFS = 'BT21'])+1"/>
-                                  </xsl:attribute>
-                                  <xsl:attribute name="n">
-                                      <xsl:value-of select="count(preceding::TextBlock[@TAGREFS = 'BT21'])+1"/>
-                                  </xsl:attribute>
-                                  <xsl:attribute name="type">
-                                      <xsl:value-of select="substring-before(/alto/Tags/OtherTag[@ID= 'BT21']/@LABEL, ':')"/>
-                                      
-                                  </xsl:attribute>
-                                  <xsl:attribute name="subtype">
-                                      <xsl:value-of select="substring-after(/alto/Tags/OtherTag[@ID= 'BT21']/@LABEL, ':')"/>
-                                  </xsl:attribute>
-                                  <xsl:attribute name="points">
-                                      <xsl:value-of select="./Shape/Polygon/@POINTS"/>
-                                  </xsl:attribute>
-                                  <xsl:attribute name="source">
-                                      <xsl:value-of select="/alto/Description/sourceImageInformation/fileName"/>
-                                  </xsl:attribute>
-                                  <xsl:attribute name="corresp">
-                                      <xsl:value-of select="/alto/Description/sourceImageInformation/fileName"/>
-                                  </xsl:attribute>
-                              </xsl:element>
-                          </xsl:when>
-                     
-                      </xsl:choose>  
-                    </xsl:for-each>
-                   
-                    
-                </xsl:element>
+                                                  <xsl:value-of
+                                                  select="ancestor::TextBlock/@TAGREFS"/>
+                                                  <xsl:text>_</xsl:text>
+                                                  <xsl:number format="1_" count="TextBlock"
+                                                  level="multiple"/>
+                                                  <xsl:value-of select="./@TAGREFS"/>
+                                                  <xsl:text>_</xsl:text>
+                                                  <xsl:number format="1_" count="TextLine"
+                                                  level="multiple"/>
+                                                  <xsl:text>1</xsl:text>
+                                                  </xsl:attribute>
+                                                  <xsl:attribute name="points">
+                                                  <xsl:variable name="value" select="./@BASELINE"/>
+                                                  <xsl:analyze-string select="$value"
+                                                  regex="([0-9]+)\s([0-9]+)">
+                                                  <xsl:matching-substring>
+                                                  <xsl:for-each select="$value">
+                                                  <xsl:value-of select="regex-group(1)"/>
+                                                  <xsl:text>,</xsl:text>
+                                                  <xsl:value-of select="regex-group(2)"/>
+                                                  <xsl:text> </xsl:text>
+                                                  </xsl:for-each>
+                                                  </xsl:matching-substring>
+                                                  </xsl:analyze-string>
+                                                  </xsl:attribute>
+                                                  </xsl:element>
+                                                  <xsl:element name="line">
+                                                  <xsl:value-of select="./String/@CONTENT"/>
+                                                  </xsl:element>
+                                                  </xsl:element>
+                                                </xsl:otherwise>
+                                            </xsl:choose>
+
+                                        </xsl:for-each>
+                                    </xsl:element>
+                                </xsl:when>
+                                <xsl:when test="@TAGREFS = 'BT16'">
+                                    <xsl:element name="zone">
+                                        <xsl:attribute name="id">
+                                            <xsl:value-of
+                                                select="substring-before(ancestor-or-self::alto/Description/sourceImageInformation/fileName, '.')"/>
+                                            <xsl:text>_</xsl:text>
+                                            <xsl:value-of select="./@TAGREFS"/>
+                                            <xsl:text>_</xsl:text>
+                                            <xsl:number format="1" count="TextBlock"
+                                                level="multiple"/>
+                                        </xsl:attribute>
+                                        <xsl:attribute name="n">
+                                            <xsl:number format="1" count="TextBlock"
+                                                level="multiple"/>
+                                        </xsl:attribute>
+                                        <xsl:attribute name="type">
+                                            <xsl:value-of
+                                                select="substring-before(ancestor-or-self::alto/Tags/OtherTag[@ID = 'BT16']/@LABEL, ':')"/>
+
+                                        </xsl:attribute>
+                                        <xsl:attribute name="subtype">
+                                            <xsl:value-of
+                                                select="substring-after(ancestor-or-self::alto/Tags/OtherTag[@ID = 'BT16']/@LABEL, ':')"
+                                            />
+                                        </xsl:attribute>
+                                        <xsl:attribute name="points">
+                                            <xsl:variable name="value"
+                                                select="./Shape/Polygon/@POINTS"/>
+                                            <xsl:analyze-string select="$value"
+                                                regex="([0-9]+)\s([0-9]+)">
+                                                <xsl:matching-substring>
+                                                  <xsl:for-each select="$value">
+                                                  <xsl:value-of select="regex-group(1)"/>
+                                                  <xsl:text>,</xsl:text>
+                                                  <xsl:value-of select="regex-group(2)"/>
+                                                  <xsl:text> </xsl:text>
+                                                  </xsl:for-each>
+                                                </xsl:matching-substring>
+                                            </xsl:analyze-string>
+                                        </xsl:attribute>
+                                        <xsl:attribute name="source">
+                                            <xsl:text>www.portail_DH//arks:/</xsl:text>
+                                            <xsl:text>f</xsl:text>
+                                            <xsl:value-of
+                                                select="substring-before(substring(ancestor-or-self::alto/Description/sourceImageInformation/fileName, 12), '.')"/>
+                                            <xsl:text>/</xsl:text>
+                                            <xsl:value-of select="@HPOS"/>
+                                            <xsl:text>,</xsl:text>
+                                            <xsl:value-of select="@VPOS"/>
+                                            <xsl:text>,</xsl:text>
+                                            <xsl:value-of select="@WIDTH"/>
+                                            <xsl:text>,</xsl:text>
+                                            <xsl:value-of select="@HEIGHT"/>
+                                            <xsl:text>/full/0/native</xsl:text>
+                                        </xsl:attribute>
+                                        <xsl:attribute name="corresp">
+                                            <xsl:value-of
+                                                select="ancestor-or-self::alto/Tags/OtherTag[@ID = 'BT16']/@LABEL"
+                                            />
+                                        </xsl:attribute>
+                                         <xsl:for-each select="./TextLine">
+                                            <xsl:choose>
+                                                <xsl:when test="./@TAGREFS = 'LT40'">
+                                                  <xsl:element name="zone">
+                                                  <xsl:attribute name="id">
+                                                  <xsl:value-of
+                                                  select="substring-before(/Description/sourceImageInformation/fileName, '.')"/>
+                                                  <xsl:text>_</xsl:text>
+                                                  <xsl:value-of
+                                                  select="ancestor::TextBlock/@TAGREFS"/> 
+                                                  <xsl:text>_</xsl:text>  <xsl:number format="1_"
+                                                  count="TextBlock" level="multiple"/> 
+                                                  <xsl:value-of select="./@TAGREFS"/> 
+                                                  <xsl:text>_</xsl:text>  <xsl:number format="1"
+                                                  count="TextLine" level="multiple"/>
+                                                  </xsl:attribute>
+                                                  <xsl:attribute name="type">
+                                                  <xsl:value-of
+                                                  select="substring-before(ancestor-or-self::alto/Tags/OtherTag[@ID = 'LT40']/@LABEL, ':')"
+                                                  />
+                                                  </xsl:attribute>
+                                                  <xsl:attribute name="subtype">
+                                                  <xsl:value-of
+                                                  select="substring-after(ancestor-or-self::alto/Tags/OtherTag[@ID = 'LT40']/@LABEL, ':')"
+                                                  />
+                                                  </xsl:attribute>
+                                                  <xsl:attribute name="points">
+                                                  <xsl:variable name="value"
+                                                  select="./Shape/Polygon/@POINTS"/>
+                                                  <xsl:analyze-string select="$value"
+                                                  regex="([0-9]+)\s([0-9]+)">
+                                                  <xsl:matching-substring>
+                                                  <xsl:for-each select="$value">
+                                                  <xsl:value-of select="regex-group(1)"/>
+                                                  <xsl:text>,</xsl:text>
+                                                  <xsl:value-of select="regex-group(2)"/>
+                                                  <xsl:text> </xsl:text>
+                                                  </xsl:for-each>
+                                                  </xsl:matching-substring>
+                                                  </xsl:analyze-string>
+                                                  </xsl:attribute>
+                                                  <xsl:attribute name="source">
+                                                  <xsl:text>www.portail_DH//arks:/</xsl:text>
+                                                  <xsl:text>f</xsl:text>
+                                                  <xsl:value-of
+                                                  select="substring-before(substring(ancestor-or-self::alto/Description/sourceImageInformation/fileName, 12), '.')"/>
+                                                  <xsl:text>/</xsl:text>
+                                                  <xsl:value-of select="@HPOS"/>
+                                                  <xsl:text>,</xsl:text>
+                                                  <xsl:value-of select="@VPOS"/>
+                                                  <xsl:text>,</xsl:text>
+                                                  <xsl:value-of select="@WIDTH"/>
+                                                  <xsl:text>,</xsl:text>
+                                                  <xsl:value-of select="@HEIGHT"/>
+                                                  <xsl:text>/full/0/native</xsl:text>
+                                                  </xsl:attribute>
+                                                  <xsl:element name="path">
+                                                  <xsl:attribute name="id">
+                                                  <xsl:value-of
+                                                  select="substring-before(ancestor-or-self::alto/Description/sourceImageInformation/fileName, '.')"/>
+                                                  <xsl:text>_</xsl:text>
+                                                  <xsl:value-of
+                                                  select="ancestor::TextBlock/@TAGREFS"/> 
+                                                  <xsl:text>_</xsl:text>  <xsl:number format="1_"
+                                                  count="TextBlock" level="multiple"/> 
+                                                  <xsl:value-of select="./@TAGREFS"/> 
+                                                  <xsl:text>_</xsl:text>  <xsl:number format="1_"
+                                                  count="TextLine" level="multiple"/> 
+                                                  <xsl:text>1</xsl:text>
+                                                  </xsl:attribute>
+                                                  <xsl:attribute name="points">
+                                                  <xsl:variable name="value" select="./@BASELINE"/>
+                                                  <xsl:analyze-string select="$value"
+                                                  regex="([0-9]+)\s([0-9]+)">
+                                                  <xsl:matching-substring>
+                                                  <xsl:for-each select="$value">
+                                                  <xsl:value-of select="regex-group(1)"/>
+                                                  <xsl:text>,</xsl:text>
+                                                  <xsl:value-of select="regex-group(2)"/>
+                                                  <xsl:text> </xsl:text>
+                                                  </xsl:for-each>
+                                                  </xsl:matching-substring>
+                                                  </xsl:analyze-string>
+                                                  </xsl:attribute>
+                                                  </xsl:element>
+                                                  <xsl:element name="line">
+                                                  <xsl:value-of select="./String/@CONTENT"/>
+                                                  </xsl:element>
+                                                  </xsl:element>
+                                                </xsl:when>
+                                                <xsl:when test="./@TAGREFS = 'LT69'">
+                                                  <xsl:element name="zone">
+                                                  <xsl:attribute name="id">
+                                                  <xsl:value-of
+                                                  select="substring-before(/Description/sourceImageInformation/fileName, '.')"/>
+                                                  <xsl:text>_</xsl:text>
+                                                  <xsl:value-of
+                                                  select="ancestor::TextBlock/@TAGREFS"/> 
+                                                  <xsl:text>_</xsl:text>  <xsl:number format="1_"
+                                                  count="TextBlock" level="multiple"/> 
+                                                  <xsl:value-of select="./@TAGREFS"/> 
+                                                  <xsl:text>_</xsl:text>  <xsl:number format="1"
+                                                  count="TextLine" level="multiple"/>
+                                                  </xsl:attribute>
+                                                  <xsl:attribute name="type">
+                                                  <xsl:value-of
+                                                  select="substring-before(ancestor-or-self::alto/Tags/OtherTag[@ID = 'LT69']/@LABEL, ':')"
+                                                  />
+                                                  </xsl:attribute>
+                                                  <xsl:attribute name="subtype">
+                                                  <xsl:value-of
+                                                  select="substring-after(ancestor-or-self::alto/Tags/OtherTag[@ID = 'LT69']/@LABEL, ':')"
+                                                  />
+                                                  </xsl:attribute>
+                                                  <xsl:attribute name="points">
+                                                  <xsl:variable name="value"
+                                                  select="./Shape/Polygon/@POINTS"/>
+                                                  <xsl:analyze-string select="$value"
+                                                  regex="([0-9]+)\s([0-9]+)">
+                                                  <xsl:matching-substring>
+                                                  <xsl:for-each select="$value">
+                                                  <xsl:value-of select="regex-group(1)"/>
+                                                  <xsl:text>,</xsl:text>
+                                                  <xsl:value-of select="regex-group(2)"/>
+                                                  <xsl:text> </xsl:text>
+                                                  </xsl:for-each>
+                                                  </xsl:matching-substring>
+                                                  </xsl:analyze-string>
+                                                  </xsl:attribute>
+                                                  <xsl:attribute name="source">
+                                                  <xsl:text>www.portail_DH//arks:/</xsl:text>
+                                                  <xsl:text>f</xsl:text>
+                                                  <xsl:value-of
+                                                  select="substring-before(substring(ancestor-or-self::alto/Description/sourceImageInformation/fileName, 12), '.')"/>
+                                                  <xsl:text>/</xsl:text>
+                                                  <xsl:value-of select="@HPOS"/>
+                                                  <xsl:text>,</xsl:text>
+                                                  <xsl:value-of select="@VPOS"/>
+                                                  <xsl:text>,</xsl:text>
+                                                  <xsl:value-of select="@WIDTH"/>
+                                                  <xsl:text>,</xsl:text>
+                                                  <xsl:value-of select="@HEIGHT"/>
+                                                  <xsl:text>/full/0/native</xsl:text>
+                                                  </xsl:attribute>
+                                                  <xsl:element name="path">
+                                                  <xsl:attribute name="id">
+                                                  <xsl:value-of
+                                                  select="substring-before(ancestor-or-self::alto/Description/sourceImageInformation/fileName, '.')"/>
+                                                  <xsl:text>_</xsl:text>
+                                                  <xsl:value-of
+                                                  select="ancestor::TextBlock/@TAGREFS"/> 
+                                                  <xsl:text>_</xsl:text>  <xsl:number format="1_"
+                                                  count="TextBlock" level="multiple"/> 
+                                                  <xsl:value-of select="./@TAGREFS"/> 
+                                                  <xsl:text>_</xsl:text>  <xsl:number format="1_"
+                                                  count="TextLine" level="multiple"/> 
+                                                  <xsl:text>1</xsl:text>
+                                                  </xsl:attribute>
+                                                  <xsl:attribute name="points">
+                                                  <xsl:variable name="value" select="./@BASELINE"/>
+                                                  <xsl:analyze-string select="$value"
+                                                  regex="([0-9]+)\s([0-9]+)">
+                                                  <xsl:matching-substring>
+                                                  <xsl:for-each select="$value">
+                                                  <xsl:value-of select="regex-group(1)"/>
+                                                  <xsl:text>,</xsl:text>
+                                                  <xsl:value-of select="regex-group(2)"/>
+                                                  <xsl:text> </xsl:text>
+                                                  </xsl:for-each>
+                                                  </xsl:matching-substring>
+                                                  </xsl:analyze-string>
+                                                  </xsl:attribute>
+                                                  </xsl:element>
+                                                  <xsl:element name="line">
+                                                  <xsl:value-of select="./String/@CONTENT"/>
+                                                  </xsl:element>
+                                                  </xsl:element>
+                                                </xsl:when>
+                                                <xsl:when test="./@TAGREFS = 'LT74'">
+                                                  <xsl:element name="zone">
+                                                  <xsl:attribute name="id">
+                                                  <xsl:value-of
+                                                  select="substring-before(/Description/sourceImageInformation/fileName, '.')"/>
+                                                  <xsl:text>_</xsl:text>
+                                                  <xsl:value-of
+                                                  select="ancestor::TextBlock/@TAGREFS"/> 
+                                                  <xsl:text>_</xsl:text>  <xsl:number format="1_"
+                                                  count="TextBlock" level="multiple"/> 
+                                                  <xsl:value-of select="./@TAGREFS"/> 
+                                                  <xsl:text>_</xsl:text>  <xsl:number format="1"
+                                                  count="TextLine" level="multiple"/>
+                                                  </xsl:attribute>
+                                                  <xsl:attribute name="type">
+                                                  <xsl:value-of
+                                                  select="ancestor-or-self::alto/Tags/OtherTag[@ID = 'LT74']"
+                                                  />
+                                                  </xsl:attribute>
+                                                  <xsl:attribute name="subtype">
+                                                  <xsl:text>none</xsl:text>
+                                                  </xsl:attribute>
+                                                  <xsl:attribute name="points">
+                                                  <xsl:variable name="value"
+                                                  select="./Shape/Polygon/@POINTS"/>
+                                                  <xsl:analyze-string select="$value"
+                                                  regex="([0-9]+)\s([0-9]+)">
+                                                  <xsl:matching-substring>
+                                                  <xsl:for-each select="$value">
+                                                  <xsl:value-of select="regex-group(1)"/>
+                                                  <xsl:text>,</xsl:text>
+                                                  <xsl:value-of select="regex-group(2)"/>
+                                                  <xsl:text> </xsl:text>
+                                                  </xsl:for-each>
+                                                  </xsl:matching-substring>
+                                                  </xsl:analyze-string>
+                                                  </xsl:attribute>
+                                                  <xsl:attribute name="source">
+                                                  <xsl:text>www.portail_DH//arks:/</xsl:text>
+                                                  <xsl:text>f</xsl:text>
+                                                  <xsl:value-of
+                                                  select="substring-before(substring(ancestor-or-self::alto/Description/sourceImageInformation/fileName, 12), '.')"/>
+                                                  <xsl:text>/</xsl:text>
+                                                  <xsl:value-of select="@HPOS"/>
+                                                  <xsl:text>,</xsl:text>
+                                                  <xsl:value-of select="@VPOS"/>
+                                                  <xsl:text>,</xsl:text>
+                                                  <xsl:value-of select="@WIDTH"/>
+                                                  <xsl:text>,</xsl:text>
+                                                  <xsl:value-of select="@HEIGHT"/>
+                                                  <xsl:text>/full/0/native</xsl:text>
+                                                  </xsl:attribute>
+                                                  <xsl:element name="path">
+                                                  <xsl:attribute name="id">
+                                                  <xsl:value-of
+                                                  select="substring-before(ancestor-or-self::alto/Description/sourceImageInformation/fileName, '.')"/>
+                                                  <xsl:text>_</xsl:text>
+                                                  <xsl:value-of
+                                                  select="ancestor::TextBlock/@TAGREFS"/> 
+                                                  <xsl:text>_</xsl:text>  <xsl:number format="1_"
+                                                  count="TextBlock" level="multiple"/> 
+                                                  <xsl:value-of select="./@TAGREFS"/> 
+                                                  <xsl:text>_</xsl:text>  <xsl:number format="1_"
+                                                  count="TextLine" level="multiple"/> 
+                                                  <xsl:text>1</xsl:text>
+                                                  </xsl:attribute>
+                                                  <xsl:attribute name="points">
+                                                  <xsl:variable name="value" select="./@BASELINE"/>
+                                                  <xsl:analyze-string select="$value"
+                                                  regex="([0-9]+)\s([0-9]+)">
+                                                  <xsl:matching-substring>
+                                                  <xsl:for-each select="$value">
+                                                  <xsl:value-of select="regex-group(1)"/>
+                                                  <xsl:text>,</xsl:text>
+                                                  <xsl:value-of select="regex-group(2)"/>
+                                                  <xsl:text> </xsl:text>
+                                                  </xsl:for-each>
+                                                  </xsl:matching-substring>
+                                                  </xsl:analyze-string>
+                                                  </xsl:attribute>
+                                                  </xsl:element>
+                                                  <xsl:element name="line">
+                                                  <xsl:value-of select="./String/@CONTENT"/>
+                                                  </xsl:element>
+                                                  </xsl:element>
+                                                </xsl:when>
+                                                <xsl:otherwise>
+                                                  <xsl:element name="zone">
+                                                  <xsl:attribute name="id">
+                                                  <xsl:value-of
+                                                  select="substring-before(ancestor-or-self::alto/Description/sourceImageInformation/fileName, '.')"/>
+                                                  <xsl:text>_</xsl:text>
+                                                  <xsl:value-of
+                                                  select="ancestor::TextBlock/@TAGREFS"/>
+                                                  <xsl:text>_</xsl:text>
+                                                  <xsl:number format="1_" count="TextBlock"
+                                                  level="multiple"/>
+                                                  <xsl:value-of select="./@TAGREFS"/>
+                                                  <xsl:text>_</xsl:text>
+                                                  <xsl:number format="1" count="TextLine"
+                                                  level="multiple"/>
+                                                  </xsl:attribute>
+                                                  <xsl:attribute name="type">
+                                                  <xsl:text>DefaultLine</xsl:text>
+                                                  </xsl:attribute>
+                                                  <xsl:attribute name="subtype">
+                                                  <xsl:text>none</xsl:text>
+                                                  </xsl:attribute>
+                                                  <xsl:attribute name="points">
+                                                  <xsl:variable name="value"
+                                                  select="./Shape/Polygon/@POINTS"/>
+                                                  <xsl:analyze-string select="$value"
+                                                  regex="([0-9]+)\s([0-9]+)">
+                                                  <xsl:matching-substring>
+                                                  <xsl:for-each select="$value">
+                                                  <xsl:value-of select="regex-group(1)"/>
+                                                  <xsl:text>,</xsl:text>
+                                                  <xsl:value-of select="regex-group(2)"/>
+                                                  <xsl:text> </xsl:text>
+                                                  </xsl:for-each>
+                                                  </xsl:matching-substring>
+                                                  </xsl:analyze-string>
+                                                  </xsl:attribute>
+                                                  <xsl:attribute name="source">
+                                                  <xsl:text>www.portail_DH//arks:/</xsl:text>
+                                                  <xsl:text>f</xsl:text>
+                                                  <xsl:value-of
+                                                  select="substring-before(substring(ancestor-or-self::alto/Description/sourceImageInformation/fileName, 12), '.')"/>
+                                                  <xsl:text>/</xsl:text>
+                                                  <xsl:value-of select="@HPOS"/>
+                                                  <xsl:text>,</xsl:text>
+                                                  <xsl:value-of select="@VPOS"/>
+                                                  <xsl:text>,</xsl:text>
+                                                  <xsl:value-of select="@WIDTH"/>
+                                                  <xsl:text>,</xsl:text>
+                                                  <xsl:value-of select="@HEIGHT"/>
+                                                  <xsl:text>/full/0/native</xsl:text>
+                                                  </xsl:attribute>
+                                                  <xsl:element name="path">
+                                                  <xsl:attribute name="id">
+                                                  <xsl:value-of
+                                                  select="substring-before(ancestor-or-self::alto/Description/sourceImageInformation/fileName, '.')"/>
+                                                  <xsl:text>_</xsl:text>
+                                                  <xsl:value-of
+                                                  select="ancestor::TextBlock/@TAGREFS"/>
+                                                  <xsl:text>_</xsl:text>
+                                                  <xsl:number format="1_" count="TextBlock"
+                                                  level="multiple"/>
+                                                  <xsl:value-of select="./@TAGREFS"/>
+                                                  <xsl:text>_</xsl:text>
+                                                  <xsl:number format="1_" count="TextLine"
+                                                  level="multiple"/>
+                                                  <xsl:text>1</xsl:text>
+                                                  </xsl:attribute>
+                                                  <xsl:attribute name="points">
+                                                  <xsl:variable name="value" select="./@BASELINE"/>
+                                                  <xsl:analyze-string select="$value"
+                                                  regex="([0-9]+)\s([0-9]+)">
+                                                  <xsl:matching-substring>
+                                                  <xsl:for-each select="$value">
+                                                  <xsl:value-of select="regex-group(1)"/>
+                                                  <xsl:text>,</xsl:text>
+                                                  <xsl:value-of select="regex-group(2)"/>
+                                                  <xsl:text> </xsl:text>
+                                                  </xsl:for-each>
+                                                  </xsl:matching-substring>
+                                                  </xsl:analyze-string>
+                                                  </xsl:attribute>
+                                                  </xsl:element>
+                                                  <xsl:element name="line">
+                                                  <xsl:value-of select="./String/@CONTENT"/>
+                                                  </xsl:element>
+                                                  </xsl:element>
+                                                </xsl:otherwise>
+                                            </xsl:choose>
+                                        </xsl:for-each>
+                                    </xsl:element>
+                                </xsl:when>
+                                <xsl:when test="@TAGREFS = 'BT17'">
+                                    <xsl:element name="zone">
+                                        <xsl:attribute name="id">
+                                            <xsl:value-of
+                                                select="substring-before(ancestor-or-self::alto/Description/sourceImageInformation/fileName, '.')"/>
+                                            <xsl:text>_</xsl:text>
+                                            <xsl:value-of select="./@TAGREFS"/>
+                                            <xsl:text>_</xsl:text>
+                                            <xsl:number format="1" count="TextBlock"
+                                                level="multiple"/>
+                                        </xsl:attribute>
+                                        <xsl:attribute name="n">
+                                            <xsl:number format="1" count="TextBlock"
+                                                level="multiple"/>
+                                        </xsl:attribute>
+                                        <xsl:attribute name="type">
+                                            <xsl:value-of
+                                                select="ancestor-or-self::alto/Tags/OtherTag[@ID = 'BT17']/@LABEL"
+                                            />
+                                        </xsl:attribute>
+                                        <xsl:attribute name="subtype">
+                                            <xsl:text>none</xsl:text>
+                                        </xsl:attribute>
+                                        <xsl:attribute name="points">
+                                            <xsl:variable name="value"
+                                                select="./Shape/Polygon/@POINTS"/>
+                                            <xsl:analyze-string select="$value"
+                                                regex="([0-9]+)\s([0-9]+)">
+                                                <xsl:matching-substring>
+                                                  <xsl:for-each select="$value">
+                                                  <xsl:value-of select="regex-group(1)"/>
+                                                  <xsl:text>,</xsl:text>
+                                                  <xsl:value-of select="regex-group(2)"/>
+                                                  <xsl:text> </xsl:text>
+                                                  </xsl:for-each>
+                                                </xsl:matching-substring>
+                                            </xsl:analyze-string>
+                                        </xsl:attribute>
+                                        <xsl:attribute name="source">
+                                            <xsl:text>www.portail_DH//arks:/</xsl:text>
+                                            <xsl:text>f</xsl:text>
+                                            <xsl:value-of
+                                                select="substring-before(substring(ancestor-or-self::alto/Description/sourceImageInformation/fileName, 12), '.')"/>
+                                            <xsl:text>/</xsl:text>
+                                            <xsl:value-of select="@HPOS"/>
+                                            <xsl:text>,</xsl:text>
+                                            <xsl:value-of select="@VPOS"/>
+                                            <xsl:text>,</xsl:text>
+                                            <xsl:value-of select="@WIDTH"/>
+                                            <xsl:text>,</xsl:text>
+                                            <xsl:value-of select="@HEIGHT"/>
+                                            <xsl:text>/full/0/native</xsl:text>
+                                        </xsl:attribute>
+                                        <xsl:attribute name="corresp">
+                                            <xsl:value-of
+                                                select="ancestor-or-self::alto/Tags/OtherTag[@ID = 'BT17']/@LABEL"
+                                            />
+                                        </xsl:attribute>
+                                    </xsl:element>
+                                </xsl:when>
+                                <xsl:when test="@TAGREFS = 'BT21'">
+                                    <xsl:element name="zone">
+                                        <xsl:attribute name="id">
+                                            <xsl:value-of
+                                                select="substring-before(ancestor-or-self::alto/Description/sourceImageInformation/fileName, '.')"/>
+                                            <xsl:text>_</xsl:text>
+                                            <xsl:value-of select="./@TAGREFS"/>
+                                            <xsl:text>_</xsl:text>
+                                            <xsl:number format="1" count="TextBlock"
+                                                level="multiple"/>
+                                        </xsl:attribute>
+                                        <xsl:attribute name="n">
+                                            <xsl:number format="1" count="TextBlock"
+                                                level="multiple"/>
+                                        </xsl:attribute>
+                                        <xsl:attribute name="type">
+                                            <xsl:value-of
+                                                select="substring-before(ancestor-or-self::alto/Tags/OtherTag[@ID = 'BT21']/@LABEL, ':')"/>
+                                            
+                                        </xsl:attribute>
+                                        <xsl:attribute name="subtype">
+                                            <xsl:value-of
+                                                select="substring-after(ancestor-or-self::alto/Tags/OtherTag[@ID = 'BT21']/@LABEL, ':')"
+                                            />
+                                        </xsl:attribute>
+                                        <xsl:attribute name="points">
+                                            <xsl:variable name="value"
+                                                select="./Shape/Polygon/@POINTS"/>
+                                            <xsl:analyze-string select="$value"
+                                                regex="([0-9]+)\s([0-9]+)">
+                                                <xsl:matching-substring>
+                                                    <xsl:for-each select="$value">
+                                                        <xsl:value-of select="regex-group(1)"/>
+                                                        <xsl:text>,</xsl:text>
+                                                        <xsl:value-of select="regex-group(2)"/>
+                                                        <xsl:text> </xsl:text>
+                                                    </xsl:for-each>
+                                                </xsl:matching-substring>
+                                            </xsl:analyze-string>
+                                        </xsl:attribute>
+                                        <xsl:attribute name="source">
+                                            <xsl:text>www.portail_DH//arks:/</xsl:text>
+                                            <xsl:text>f</xsl:text>
+                                            <xsl:value-of
+                                                select="substring-before(substring(ancestor-or-self::alto/Description/sourceImageInformation/fileName, 12), '.')"/>
+                                            <xsl:text>/</xsl:text>
+                                            <xsl:value-of select="@HPOS"/>
+                                            <xsl:text>,</xsl:text>
+                                            <xsl:value-of select="@VPOS"/>
+                                            <xsl:text>,</xsl:text>
+                                            <xsl:value-of select="@WIDTH"/>
+                                            <xsl:text>,</xsl:text>
+                                            <xsl:value-of select="@HEIGHT"/>
+                                            <xsl:text>/full/0/native</xsl:text>
+                                        </xsl:attribute>
+                                        <xsl:attribute name="corresp">
+                                            <xsl:value-of
+                                                select="ancestor-or-self::alto/Tags/OtherTag[@ID = 'BT21']/@LABEL"
+                                            />
+                                        </xsl:attribute>
+                                    </xsl:element>
+                                </xsl:when>
+                                <xsl:when test="@TAGREFS = 'BT19'">
+                                    <xsl:element name="zone">
+                                        <xsl:attribute name="id">
+                                            <xsl:value-of
+                                                select="substring-before(ancestor-or-self::alto/Description/sourceImageInformation/fileName, '.')"/>
+                                            <xsl:text>_</xsl:text>
+                                            <xsl:value-of select="./@TAGREFS"/>
+                                            <xsl:text>_</xsl:text>
+                                            <xsl:number format="1" count="TextBlock"
+                                                level="multiple"/>
+                                        </xsl:attribute>
+                                        <xsl:attribute name="n">
+                                            <xsl:number format="1" count="TextBlock"
+                                                level="multiple"/>
+                                        </xsl:attribute>
+                                        <xsl:attribute name="type">
+                                            <xsl:value-of
+                                                select="substring-before(ancestor-or-self::alto/Tags/OtherTag[@ID = 'BT19']/@LABEL, ':')"
+                                            />
+                                        </xsl:attribute>
+                                        <xsl:attribute name="subtype">
+                                            <xsl:value-of
+                                                select="substring-after(ancestor-or-self::alto/Tags/OtherTag[@ID = 'BT19']/@LABEL, ':')"
+                                            />
+                                        </xsl:attribute>
+                                        <xsl:attribute name="points">
+                                            <xsl:variable name="value"
+                                                select="./Shape/Polygon/@POINTS"/>
+                                            <xsl:analyze-string select="$value"
+                                                regex="([0-9]+)\s([0-9]+)">
+                                                <xsl:matching-substring>
+                                                  <xsl:for-each select="$value">
+                                                  <xsl:value-of select="regex-group(1)"/>
+                                                  <xsl:text>,</xsl:text>
+                                                  <xsl:value-of select="regex-group(2)"/>
+                                                  <xsl:text> </xsl:text>
+                                                  </xsl:for-each>
+                                                </xsl:matching-substring>
+                                            </xsl:analyze-string>
+                                        </xsl:attribute>
+                                        <xsl:attribute name="source">
+                                            <xsl:text>www.portail_DH//arks:/</xsl:text>
+                                            <xsl:text>f</xsl:text>
+                                            <xsl:value-of
+                                                select="substring-before(substring(ancestor-or-self::alto/Description/sourceImageInformation/fileName, 12), '.')"/>
+                                            <xsl:text>/</xsl:text>
+                                            <xsl:value-of select="@HPOS"/>
+                                            <xsl:text>,</xsl:text>
+                                            <xsl:value-of select="@VPOS"/>
+                                            <xsl:text>,</xsl:text>
+                                            <xsl:value-of select="@WIDTH"/>
+                                            <xsl:text>,</xsl:text>
+                                            <xsl:value-of select="@HEIGHT"/>
+                                            <xsl:text>/full/0/native</xsl:text>
+                                        </xsl:attribute>
+                                        <xsl:attribute name="corresp">
+                                            <xsl:value-of
+                                                select="ancestor-or-self::alto/Tags/OtherTag[@ID = 'BT19']/@LABEL"
+                                            />
+                                        </xsl:attribute>
+                                        <xsl:for-each select="./TextLine">
+                                            <xsl:element name="zone">
+                                                <xsl:attribute name="id">
+                                                  <xsl:value-of
+                                                  select="substring-before(ancestor-or-self::alto/Description/sourceImageInformation/fileName, '.')"/>
+                                                  <xsl:text>_</xsl:text>
+                                                  <xsl:value-of
+                                                  select="ancestor::TextBlock/@TAGREFS"/>
+                                                  <xsl:text>_</xsl:text>
+                                                  <xsl:number format="1_" count="TextBlock"
+                                                  level="multiple"/>
+                                                  <xsl:value-of select="./@TAGREFS"/>
+                                                  <xsl:text>_</xsl:text>
+                                                  <xsl:number format="1" count="TextLine"
+                                                  level="multiple"/>
+                                                </xsl:attribute>
+                                                <xsl:attribute name="type">
+                                                  <xsl:text>DefaultLine</xsl:text>
+                                                </xsl:attribute>
+                                                <xsl:attribute name="subtype">
+                                                  <xsl:text>none</xsl:text>
+                                                </xsl:attribute>
+                                                <xsl:attribute name="points">
+                                                  <xsl:variable name="value"
+                                                  select="./Shape/Polygon/@POINTS"/>
+                                                  <xsl:analyze-string select="$value"
+                                                  regex="([0-9]+)\s([0-9]+)">
+                                                  <xsl:matching-substring>
+                                                  <xsl:for-each select="$value">
+                                                  <xsl:value-of select="regex-group(1)"/>
+                                                  <xsl:text>,</xsl:text>
+                                                  <xsl:value-of select="regex-group(2)"/>
+                                                  <xsl:text> </xsl:text>
+                                                  </xsl:for-each>
+                                                  </xsl:matching-substring>
+                                                  </xsl:analyze-string>
+                                                </xsl:attribute>
+                                                <xsl:attribute name="source">
+                                                  <xsl:text>www.portail_DH//arks:/</xsl:text>
+                                                  <xsl:text>f</xsl:text>
+                                                  <xsl:value-of
+                                                  select="substring-before(substring(ancestor-or-self::alto/Description/sourceImageInformation/fileName, 12), '.')"/>
+                                                  <xsl:text>/</xsl:text>
+                                                  <xsl:value-of select="@HPOS"/>
+                                                  <xsl:text>,</xsl:text>
+                                                  <xsl:value-of select="@VPOS"/>
+                                                  <xsl:text>,</xsl:text>
+                                                  <xsl:value-of select="@WIDTH"/>
+                                                  <xsl:text>,</xsl:text>
+                                                  <xsl:value-of select="@HEIGHT"/>
+                                                  <xsl:text>/full/0/native</xsl:text>
+                                                </xsl:attribute>
+                                                <xsl:element name="path">
+                                                  <xsl:attribute name="id">
+                                                  <xsl:value-of
+                                                  select="substring-before(ancestor-or-self::alto/Description/sourceImageInformation/fileName, '.')"/>
+                                                  <xsl:text>_</xsl:text>
+                                                  <xsl:value-of
+                                                  select="ancestor::TextBlock/@TAGREFS"/>
+                                                  <xsl:text>_</xsl:text>
+                                                  <xsl:number format="1_" count="TextBlock"
+                                                  level="multiple"/>
+                                                  <xsl:value-of select="./@TAGREFS"/>
+                                                  <xsl:text>_</xsl:text>
+                                                  <xsl:number format="1_" count="TextLine"
+                                                  level="multiple"/>
+                                                  <xsl:text>1</xsl:text>
+                                                  </xsl:attribute>
+                                                  <xsl:attribute name="points">
+                                                  <xsl:variable name="value" select="./@BASELINE"/>
+                                                  <xsl:analyze-string select="$value"
+                                                  regex="([0-9]+)\s([0-9]+)">
+                                                  <xsl:matching-substring>
+                                                  <xsl:for-each select="$value">
+                                                  <xsl:value-of select="regex-group(1)"/>
+                                                  <xsl:text>,</xsl:text>
+                                                  <xsl:value-of select="regex-group(2)"/>
+                                                  <xsl:text> </xsl:text>
+                                                  </xsl:for-each>
+                                                  </xsl:matching-substring>
+                                                  </xsl:analyze-string>
+                                                  </xsl:attribute>
+                                                </xsl:element>
+                                                <xsl:element name="line">
+                                                  <xsl:value-of select="./String/@CONTENT"/>
+                                                </xsl:element>
+                                            </xsl:element>
+                                        </xsl:for-each>
+                                    </xsl:element>
+                                </xsl:when>
+                                <xsl:when test="@TAGREFS = 'BT20'">
+                                    <xsl:element name="zone">
+                                        <xsl:attribute name="id">
+                                            <xsl:value-of
+                                                select="substring-before(ancestor-or-self::alto/Description/sourceImageInformation/fileName, '.')"/>
+                                            <xsl:text>_</xsl:text>
+                                            <xsl:value-of select="./@TAGREFS"/>
+                                            <xsl:text>_</xsl:text>
+                                            <xsl:number format="1" count="TextBlock"
+                                                level="multiple"/>
+                                        </xsl:attribute>
+                                        <xsl:attribute name="n">
+                                            <xsl:number format="1" count="TextBlock"
+                                                level="multiple"/>
+                                        </xsl:attribute>
+                                        <xsl:attribute name="type">
+                                            <xsl:value-of
+                                                select="substring-before(ancestor-or-self::alto/Tags/OtherTag[@ID = 'BT19']/@LABEL, ':')"
+                                            />
+                                        </xsl:attribute>
+                                        <xsl:attribute name="subtype">
+                                            <xsl:value-of
+                                                select="substring-after(ancestor-or-self::alto/Tags/OtherTag[@ID = 'BT20']/@LABEL, ':')"
+                                            />
+                                        </xsl:attribute>
+                                        <xsl:attribute name="points">
+                                            <xsl:variable name="value"
+                                                select="./Shape/Polygon/@POINTS"/>
+                                            <xsl:analyze-string select="$value"
+                                                regex="([0-9]+)\s([0-9]+)">
+                                                <xsl:matching-substring>
+                                                  <xsl:for-each select="$value">
+                                                  <xsl:value-of select="regex-group(1)"/>
+                                                  <xsl:text>,</xsl:text>
+                                                  <xsl:value-of select="regex-group(2)"/>
+                                                  <xsl:text> </xsl:text>
+                                                  </xsl:for-each>
+                                                </xsl:matching-substring>
+                                            </xsl:analyze-string>
+                                        </xsl:attribute>
+                                        <xsl:attribute name="source">
+                                            <xsl:text>www.portail_DH//arks:/</xsl:text>
+                                            <xsl:text>f</xsl:text>
+                                            <xsl:value-of
+                                                select="substring-before(substring(ancestor-or-self::alto/Description/sourceImageInformation/fileName, 12), '.')"/>
+                                            <xsl:text>/</xsl:text>
+                                            <xsl:value-of select="@HPOS"/>
+                                            <xsl:text>,</xsl:text>
+                                            <xsl:value-of select="@VPOS"/>
+                                            <xsl:text>,</xsl:text>
+                                            <xsl:value-of select="@WIDTH"/>
+                                            <xsl:text>,</xsl:text>
+                                            <xsl:value-of select="@HEIGHT"/>
+                                            <xsl:text>/full/0/native</xsl:text>
+                                        </xsl:attribute>
+                                        <xsl:attribute name="corresp">
+                                            <xsl:value-of
+                                                select="ancestor-or-self::alto/Tags/OtherTag[@ID = 'BT20']/@LABEL"
+                                            />
+                                        </xsl:attribute>
+                                        <xsl:for-each select="./TextLine">
+                                            <xsl:element name="zone">
+                                                <xsl:attribute name="id">
+                                                  <xsl:value-of
+                                                  select="substring-before(ancestor-or-self::alto/Description/sourceImageInformation/fileName, '.')"/>
+                                                  <xsl:text>_</xsl:text>
+                                                  <xsl:value-of
+                                                  select="ancestor::TextBlock/@TAGREFS"/>
+                                                  <xsl:text>_</xsl:text>
+                                                  <xsl:number format="1_" count="TextBlock"
+                                                  level="multiple"/>
+                                                  <xsl:value-of select="./@TAGREFS"/>
+                                                  <xsl:text>_</xsl:text>
+                                                  <xsl:number format="1" count="TextLine"
+                                                  level="multiple"/>
+                                                </xsl:attribute>
+                                                <xsl:attribute name="type">
+                                                  <xsl:text>DefaultLine</xsl:text>
+                                                </xsl:attribute>
+                                                <xsl:attribute name="subtype">
+                                                  <xsl:text>none</xsl:text>
+                                                </xsl:attribute>
+                                                <xsl:attribute name="points">
+                                                  <xsl:variable name="value"
+                                                  select="./Shape/Polygon/@POINTS"/>
+                                                  <xsl:analyze-string select="$value"
+                                                  regex="([0-9]+)\s([0-9]+)">
+                                                  <xsl:matching-substring>
+                                                  <xsl:for-each select="$value">
+                                                  <xsl:value-of select="regex-group(1)"/>
+                                                  <xsl:text>,</xsl:text>
+                                                  <xsl:value-of select="regex-group(2)"/>
+                                                  <xsl:text> </xsl:text>
+                                                  </xsl:for-each>
+                                                  </xsl:matching-substring>
+                                                  </xsl:analyze-string>
+                                                </xsl:attribute>
+                                                <xsl:attribute name="source">
+                                                  <xsl:text>www.portail_DH//arks:/</xsl:text>
+                                                  <xsl:text>f</xsl:text>
+                                                  <xsl:value-of
+                                                  select="substring-before(substring(ancestor-or-self::alto/Description/sourceImageInformation/fileName, 12), '.')"/>
+                                                  <xsl:text>/</xsl:text>
+                                                  <xsl:value-of select="@HPOS"/>
+                                                  <xsl:text>,</xsl:text>
+                                                  <xsl:value-of select="@VPOS"/>
+                                                  <xsl:text>,</xsl:text>
+                                                  <xsl:value-of select="@WIDTH"/>
+                                                  <xsl:text>,</xsl:text>
+                                                  <xsl:value-of select="@HEIGHT"/>
+                                                  <xsl:text>/full/0/native</xsl:text>
+                                                </xsl:attribute>
+                                                <xsl:element name="path">
+                                                  <xsl:attribute name="id">
+                                                  <xsl:value-of
+                                                  select="substring-before(ancestor-or-self::alto/Description/sourceImageInformation/fileName, '.')"/>
+                                                  <xsl:text>_</xsl:text>
+                                                  <xsl:value-of
+                                                  select="ancestor::TextBlock/@TAGREFS"/>
+                                                  <xsl:text>_</xsl:text>
+                                                  <xsl:number format="1_" count="TextBlock"
+                                                  level="multiple"/>
+                                                  <xsl:value-of select="./@TAGREFS"/>
+                                                  <xsl:text>_</xsl:text>
+                                                  <xsl:number format="1_" count="TextLine"
+                                                  level="multiple"/>
+                                                  <xsl:text>1</xsl:text>
+                                                  </xsl:attribute>
+                                                  <xsl:attribute name="points">
+                                                  <xsl:variable name="value" select="./@BASELINE"/>
+                                                  <xsl:analyze-string select="$value"
+                                                  regex="([0-9]+)\s([0-9]+)">
+                                                  <xsl:matching-substring>
+                                                  <xsl:for-each select="$value">
+                                                  <xsl:value-of select="regex-group(1)"/>
+                                                  <xsl:text>,</xsl:text>
+                                                  <xsl:value-of select="regex-group(2)"/>
+                                                  <xsl:text> </xsl:text>
+                                                  </xsl:for-each>
+                                                  </xsl:matching-substring>
+                                                  </xsl:analyze-string>
+                                                  </xsl:attribute>
+                                                </xsl:element>
+                                                <xsl:element name="line">
+                                                  <xsl:value-of select="./String/@CONTENT"/>
+                                                </xsl:element>
+                                            </xsl:element>
+                                        </xsl:for-each>
+                                    </xsl:element>
+                                </xsl:when>
+                                <xsl:when test="@TAGREFS = 'BT21'">
+                                    <xsl:element name="zone">
+                                        <xsl:attribute name="id">
+                                            <xsl:value-of
+                                                select="substring-before(ancestor-or-self::alto/Description/sourceImageInformation/fileName, '.')"/>
+                                            <xsl:text>_</xsl:text>
+                                            <xsl:value-of select="./@TAGREFS"/>
+                                            <xsl:text>_</xsl:text>
+                                            <xsl:number format="1" count="TextBlock"
+                                                level="multiple"/>
+                                        </xsl:attribute>
+                                        <xsl:attribute name="n">
+                                            <xsl:number format="1" count="TextBlock"
+                                                level="multiple"/>
+                                        </xsl:attribute>
+                                        <xsl:attribute name="type">
+                                            <xsl:value-of
+                                                select="substring-before(ancestor-or-self::alto/Tags/OtherTag[@ID = 'BT21']/@LABEL, ':')"/>
+
+                                        </xsl:attribute>
+                                        <xsl:attribute name="subtype">
+                                            <xsl:value-of
+                                                select="substring-after(ancestor-or-self::alto/Tags/OtherTag[@ID = 'BT21']/@LABEL, ':')"
+                                            />
+                                        </xsl:attribute>
+                                        <xsl:attribute name="points">
+                                            <xsl:variable name="value"
+                                                select="./Shape/Polygon/@POINTS"/>
+                                            <xsl:analyze-string select="$value"
+                                                regex="([0-9]+)\s([0-9]+)">
+                                                <xsl:matching-substring>
+                                                  <xsl:for-each select="$value">
+                                                  <xsl:value-of select="regex-group(1)"/>
+                                                  <xsl:text>,</xsl:text>
+                                                  <xsl:value-of select="regex-group(2)"/>
+                                                  <xsl:text> </xsl:text>
+                                                  </xsl:for-each>
+                                                </xsl:matching-substring>
+                                            </xsl:analyze-string>
+                                        </xsl:attribute>
+                                        <xsl:attribute name="source">
+                                            <xsl:text>www.portail_DH//arks:/</xsl:text>
+                                            <xsl:text>f</xsl:text>
+                                            <xsl:value-of
+                                                select="substring-before(substring(ancestor-or-self::alto/Description/sourceImageInformation/fileName, 12), '.')"/>
+                                            <xsl:text>/</xsl:text>
+                                            <xsl:value-of select="@HPOS"/>
+                                            <xsl:text>,</xsl:text>
+                                            <xsl:value-of select="@VPOS"/>
+                                            <xsl:text>,</xsl:text>
+                                            <xsl:value-of select="@WIDTH"/>
+                                            <xsl:text>,</xsl:text>
+                                            <xsl:value-of select="@HEIGHT"/>
+                                            <xsl:text>/full/0/native</xsl:text>
+                                        </xsl:attribute>
+                                        <xsl:attribute name="corresp">
+                                            <xsl:value-of
+                                                select="ancestor-or-self::alto/Tags/OtherTag[@ID = 'BT21']/@LABEL"
+                                            />
+                                        </xsl:attribute>
+                                    </xsl:element>
+                                </xsl:when>
+                                <xsl:when test="@TAGREFS = 'BT25'">
+                                    <xsl:element name="zone">
+                                        <xsl:attribute name="id">
+                                            <xsl:value-of
+                                                select="substring-before(ancestor-or-self::alto/Description/sourceImageInformation/fileName, '.')"/>
+                                            <xsl:text>_</xsl:text>
+                                            <xsl:value-of select="./@TAGREFS"/>
+                                            <xsl:text>_</xsl:text>
+                                            <xsl:number format="1" count="TextBlock"
+                                                level="multiple"/>
+                                        </xsl:attribute>
+                                        <xsl:attribute name="n">
+                                            <xsl:number format="1" count="TextBlock"
+                                                level="multiple"/>
+                                        </xsl:attribute>
+                                        <xsl:attribute name="type">
+                                            <xsl:value-of
+                                                select="substring-before(ancestor-or-self::alto/Tags/OtherTag[@ID = 'BT25']/@LABEL, ':')"/>
+
+                                        </xsl:attribute>
+                                        <xsl:attribute name="subtype">
+                                            <xsl:value-of
+                                                select="substring-after(ancestor-or-self::alto/Tags/OtherTag[@ID = 'BT25']/@LABEL, ':')"
+                                            />
+                                        </xsl:attribute>
+                                        <xsl:attribute name="points">
+                                            <xsl:variable name="value"
+                                                select="./Shape/Polygon/@POINTS"/>
+                                            <xsl:analyze-string select="$value"
+                                                regex="([0-9]+)\s([0-9]+)">
+                                                <xsl:matching-substring>
+                                                  <xsl:for-each select="$value">
+                                                  <xsl:value-of select="regex-group(1)"/>
+                                                  <xsl:text>,</xsl:text>
+                                                  <xsl:value-of select="regex-group(2)"/>
+                                                  <xsl:text> </xsl:text>
+                                                  </xsl:for-each>
+                                                </xsl:matching-substring>
+                                            </xsl:analyze-string>
+                                        </xsl:attribute>
+                                        <xsl:attribute name="source">
+                                            <xsl:text>www.portail_DH//arks:/</xsl:text>
+                                            <xsl:text>f</xsl:text>
+                                            <xsl:value-of
+                                                select="substring-before(substring(ancestor-or-self::alto/Description/sourceImageInformation/fileName, 12), '.')"/>
+                                            <xsl:text>/</xsl:text>
+                                            <xsl:value-of select="@HPOS"/>
+                                            <xsl:text>,</xsl:text>
+                                            <xsl:value-of select="@VPOS"/>
+                                            <xsl:text>,</xsl:text>
+                                            <xsl:value-of select="@WIDTH"/>
+                                            <xsl:text>,</xsl:text>
+                                            <xsl:value-of select="@HEIGHT"/>
+                                            <xsl:text>/full/0/native</xsl:text>
+                                        </xsl:attribute>
+                                        <xsl:attribute name="corresp">
+                                            <xsl:value-of
+                                                select="ancestor-or-self::alto/Tags/OtherTag[@ID = 'BT25']/@LABEL"
+                                            />
+                                        </xsl:attribute>
+                                        <xsl:for-each select="./TextLine">
+                                            <xsl:element name="zone">
+                                                <xsl:attribute name="id">
+                                                  <xsl:value-of
+                                                  select="substring-before(ancestor-or-self::alto/Description/sourceImageInformation/fileName, '.')"/>
+                                                  <xsl:text>_</xsl:text>
+                                                  <xsl:value-of
+                                                  select="ancestor::TextBlock/@TAGREFS"/>
+                                                  <xsl:text>_</xsl:text>
+                                                  <xsl:number format="1_" count="TextBlock"
+                                                  level="multiple"/>
+                                                  <xsl:value-of select="./@TAGREFS"/>
+                                                  <xsl:text>_</xsl:text>
+                                                  <xsl:number format="1" count="TextLine"
+                                                  level="multiple"/>
+                                                </xsl:attribute>
+                                                <xsl:attribute name="type">
+                                                  <xsl:text>DefaultLine</xsl:text>
+                                                </xsl:attribute>
+                                                <xsl:attribute name="subtype">
+                                                  <xsl:text>none</xsl:text>
+                                                </xsl:attribute>
+                                                <xsl:attribute name="points">
+                                                  <xsl:variable name="value"
+                                                  select="./Shape/Polygon/@POINTS"/>
+                                                  <xsl:analyze-string select="$value"
+                                                  regex="([0-9]+)\s([0-9]+)">
+                                                  <xsl:matching-substring>
+                                                  <xsl:for-each select="$value">
+                                                  <xsl:value-of select="regex-group(1)"/>
+                                                  <xsl:text>,</xsl:text>
+                                                  <xsl:value-of select="regex-group(2)"/>
+                                                  <xsl:text> </xsl:text>
+                                                  </xsl:for-each>
+                                                  </xsl:matching-substring>
+                                                  </xsl:analyze-string>
+                                                </xsl:attribute>
+                                                <xsl:attribute name="source">
+                                                  <xsl:text>www.portail_DH//arks:/</xsl:text>
+                                                  <xsl:text>f</xsl:text>
+                                                  <xsl:value-of
+                                                  select="substring-before(substring(ancestor-or-self::alto/Description/sourceImageInformation/fileName, 12), '.')"/>
+                                                  <xsl:text>/</xsl:text>
+                                                  <xsl:value-of select="@HPOS"/>
+                                                  <xsl:text>,</xsl:text>
+                                                  <xsl:value-of select="@VPOS"/>
+                                                  <xsl:text>,</xsl:text>
+                                                  <xsl:value-of select="@WIDTH"/>
+                                                  <xsl:text>,</xsl:text>
+                                                  <xsl:value-of select="@HEIGHT"/>
+                                                  <xsl:text>/full/0/native</xsl:text>
+                                                </xsl:attribute>
+                                                <xsl:element name="path">
+                                                  <xsl:attribute name="id">
+                                                  <xsl:value-of
+                                                  select="substring-before(ancestor-or-self::alto/Description/sourceImageInformation/fileName, '.')"/>
+                                                  <xsl:text>_</xsl:text>
+                                                  <xsl:value-of
+                                                  select="ancestor::TextBlock/@TAGREFS"/>
+                                                  <xsl:text>_</xsl:text>
+                                                  <xsl:number format="1_" count="TextBlock"
+                                                  level="multiple"/>
+                                                  <xsl:value-of select="./@TAGREFS"/>
+                                                  <xsl:text>_</xsl:text>
+                                                  <xsl:number format="1_" count="TextLine"
+                                                  level="multiple"/>
+                                                  <xsl:text>1</xsl:text>
+                                                  </xsl:attribute>
+                                                  <xsl:attribute name="points">
+                                                  <xsl:variable name="value" select="./@BASELINE"/>
+                                                  <xsl:analyze-string select="$value"
+                                                  regex="([0-9]+)\s([0-9]+)">
+                                                  <xsl:matching-substring>
+                                                  <xsl:for-each select="$value">
+                                                  <xsl:value-of select="regex-group(1)"/>
+                                                  <xsl:text>,</xsl:text>
+                                                  <xsl:value-of select="regex-group(2)"/>
+                                                  <xsl:text> </xsl:text>
+                                                  </xsl:for-each>
+                                                  </xsl:matching-substring>
+                                                  </xsl:analyze-string>
+                                                  </xsl:attribute>
+                                                </xsl:element>
+                                                <xsl:element name="line">
+                                                  <xsl:value-of select="./String/@CONTENT"/>
+                                                </xsl:element>
+                                            </xsl:element>
+                                        </xsl:for-each>
+                                    </xsl:element>
+                                </xsl:when>
+                                <xsl:when test="@TAGREFS = 'BT28'">
+                                    <xsl:element name="zone">
+                                        <xsl:attribute name="id">
+                                            <xsl:value-of
+                                                select="substring-before(ancestor-or-self::alto/Description/sourceImageInformation/fileName, '.')"/>
+                                            <xsl:text>_</xsl:text>
+                                            <xsl:value-of select="./@TAGREFS"/>
+                                            <xsl:text>_</xsl:text>
+                                            <xsl:number format="1" count="TextBlock"
+                                                level="multiple"/>
+                                        </xsl:attribute>
+                                        <xsl:attribute name="n">
+                                            <xsl:number format="1" count="TextBlock"
+                                                level="multiple"/>
+                                        </xsl:attribute>
+                                        <xsl:attribute name="type">
+                                            <xsl:value-of
+                                                select="substring-before(ancestor-or-self::alto/Tags/OtherTag[@ID = 'BT28']/@LABEL, ':')"/>
+
+                                        </xsl:attribute>
+                                        <xsl:attribute name="subtype">
+                                            <xsl:value-of
+                                                select="substring-after(ancestor-or-self::alto/Tags/OtherTag[@ID = 'BT28']/@LABEL, ':')"
+                                            />
+                                        </xsl:attribute>
+                                        <xsl:attribute name="points">
+                                            <xsl:variable name="value"
+                                                select="./Shape/Polygon/@POINTS"/>
+                                            <xsl:analyze-string select="$value"
+                                                regex="([0-9]+)\s([0-9]+)">
+                                                <xsl:matching-substring>
+                                                  <xsl:for-each select="$value">
+                                                  <xsl:value-of select="regex-group(1)"/>
+                                                  <xsl:text>,</xsl:text>
+                                                  <xsl:value-of select="regex-group(2)"/>
+                                                  <xsl:text> </xsl:text>
+                                                  </xsl:for-each>
+                                                </xsl:matching-substring>
+                                            </xsl:analyze-string>
+                                        </xsl:attribute>
+                                        <xsl:attribute name="source">
+                                            <xsl:text>www.portail_DH//arks:/</xsl:text>
+                                            <xsl:text>f</xsl:text>
+                                            <xsl:value-of
+                                                select="substring-before(substring(ancestor-or-self::alto/Description/sourceImageInformation/fileName, 12), '.')"/>
+                                            <xsl:text>/</xsl:text>
+                                            <xsl:value-of select="@HPOS"/>
+                                            <xsl:text>,</xsl:text>
+                                            <xsl:value-of select="@VPOS"/>
+                                            <xsl:text>,</xsl:text>
+                                            <xsl:value-of select="@WIDTH"/>
+                                            <xsl:text>,</xsl:text>
+                                            <xsl:value-of select="@HEIGHT"/>
+                                            <xsl:text>/full/0/native</xsl:text>
+                                        </xsl:attribute>
+                                        <xsl:attribute name="corresp">
+                                            <xsl:value-of
+                                                select="ancestor-or-self::alto/Tags/OtherTag[@ID = 'BT28']/@LABEL"
+                                            />
+                                        </xsl:attribute>
+                                        <xsl:for-each select="./TextLine">
+                                            <xsl:element name="zone">
+                                                <xsl:attribute name="id">
+                                                  <xsl:value-of
+                                                  select="substring-before(ancestor-or-self::alto/Description/sourceImageInformation/fileName, '.')"/>
+                                                  <xsl:text>_</xsl:text>
+                                                  <xsl:value-of
+                                                  select="ancestor::TextBlock/@TAGREFS"/>
+                                                  <xsl:text>_</xsl:text>
+                                                  <xsl:number format="1_" count="TextBlock"
+                                                  level="multiple"/>
+                                                  <xsl:value-of select="./@TAGREFS"/>
+                                                  <xsl:text>_</xsl:text>
+                                                  <xsl:number format="1" count="TextLine"
+                                                  level="multiple"/>
+                                                </xsl:attribute>
+                                                <xsl:attribute name="type">
+                                                  <xsl:text>DefaultLine</xsl:text>
+                                                </xsl:attribute>
+                                                <xsl:attribute name="subtype">
+                                                  <xsl:text>none</xsl:text>
+                                                </xsl:attribute>
+                                                <xsl:attribute name="points">
+                                                  <xsl:variable name="value"
+                                                  select="./Shape/Polygon/@POINTS"/>
+                                                  <xsl:analyze-string select="$value"
+                                                  regex="([0-9]+)\s([0-9]+)">
+                                                  <xsl:matching-substring>
+                                                  <xsl:for-each select="$value">
+                                                  <xsl:value-of select="regex-group(1)"/>
+                                                  <xsl:text>,</xsl:text>
+                                                  <xsl:value-of select="regex-group(2)"/>
+                                                  <xsl:text> </xsl:text>
+                                                  </xsl:for-each>
+                                                  </xsl:matching-substring>
+                                                  </xsl:analyze-string>
+                                                </xsl:attribute>
+                                                <xsl:attribute name="source">
+                                                  <xsl:text>www.portail_DH//arks:/</xsl:text>
+                                                  <xsl:text>f</xsl:text>
+                                                  <xsl:value-of
+                                                  select="substring-before(substring(ancestor-or-self::alto/Description/sourceImageInformation/fileName, 12), '.')"/>
+                                                  <xsl:text>/</xsl:text>
+                                                  <xsl:value-of select="@HPOS"/>
+                                                  <xsl:text>,</xsl:text>
+                                                  <xsl:value-of select="@VPOS"/>
+                                                  <xsl:text>,</xsl:text>
+                                                  <xsl:value-of select="@WIDTH"/>
+                                                  <xsl:text>,</xsl:text>
+                                                  <xsl:value-of select="@HEIGHT"/>
+                                                  <xsl:text>/full/0/native</xsl:text>
+                                                </xsl:attribute>
+                                                <xsl:element name="path">
+                                                  <xsl:attribute name="id">
+                                                  <xsl:value-of
+                                                  select="substring-before(ancestor-or-self::alto/Description/sourceImageInformation/fileName, '.')"/>
+                                                  <xsl:text>_</xsl:text>
+                                                  <xsl:value-of
+                                                  select="ancestor::TextBlock/@TAGREFS"/>
+                                                  <xsl:text>_</xsl:text>
+                                                  <xsl:number format="1_" count="TextBlock"
+                                                  level="multiple"/>
+                                                  <xsl:value-of select="./@TAGREFS"/>
+                                                  <xsl:text>_</xsl:text>
+                                                  <xsl:number format="1_" count="TextLine"
+                                                  level="multiple"/>
+                                                  <xsl:text>1</xsl:text>
+                                                  </xsl:attribute>
+                                                  <xsl:attribute name="points">
+                                                  <xsl:variable name="value" select="./@BASELINE"/>
+                                                  <xsl:analyze-string select="$value"
+                                                  regex="([0-9]+)\s([0-9]+)">
+                                                  <xsl:matching-substring>
+                                                  <xsl:for-each select="$value">
+                                                  <xsl:value-of select="regex-group(1)"/>
+                                                  <xsl:text>,</xsl:text>
+                                                  <xsl:value-of select="regex-group(2)"/>
+                                                  <xsl:text> </xsl:text>
+                                                  </xsl:for-each>
+                                                  </xsl:matching-substring>
+                                                  </xsl:analyze-string>
+                                                  </xsl:attribute>
+                                                </xsl:element>
+                                                <xsl:element name="line">
+                                                  <xsl:value-of select="./String/@CONTENT"/>
+                                                </xsl:element>
+                                            </xsl:element>
+                                        </xsl:for-each>
+                                    </xsl:element>
+                                </xsl:when>
+                                <xsl:when test="@TAGREFS = 'BT29'">
+                                    <xsl:element name="zone">
+                                        <xsl:attribute name="id">
+                                            <xsl:value-of
+                                                select="substring-before(ancestor-or-self::alto/Description/sourceImageInformation/fileName, '.')"/>
+                                            <xsl:text>_</xsl:text>
+                                            <xsl:value-of select="./@TAGREFS"/>
+                                            <xsl:text>_</xsl:text>
+                                            <xsl:number format="1" count="TextBlock"
+                                                level="multiple"/>
+                                        </xsl:attribute>
+                                        <xsl:attribute name="n">
+                                            <xsl:number format="1" count="TextBlock"
+                                                level="multiple"/>
+                                        </xsl:attribute>
+                                        <xsl:attribute name="type">
+                                            <xsl:value-of
+                                                select="substring-before(ancestor-or-self::alto/Tags/OtherTag[@ID = 'BT29']/@LABEL, ':')"/>
+
+                                        </xsl:attribute>
+                                        <xsl:attribute name="subtype">
+                                            <xsl:value-of
+                                                select="substring-after(ancestor-or-self::alto/Tags/OtherTag[@ID = 'BT29']/@LABEL, ':')"
+                                            />
+                                        </xsl:attribute>
+                                        <xsl:attribute name="points">
+                                            <xsl:variable name="value"
+                                                select="./Shape/Polygon/@POINTS"/>
+                                            <xsl:analyze-string select="$value"
+                                                regex="([0-9]+)\s([0-9]+)">
+                                                <xsl:matching-substring>
+                                                  <xsl:for-each select="$value">
+                                                  <xsl:value-of select="regex-group(1)"/>
+                                                  <xsl:text>,</xsl:text>
+                                                  <xsl:value-of select="regex-group(2)"/>
+                                                  <xsl:text> </xsl:text>
+                                                  </xsl:for-each>
+                                                </xsl:matching-substring>
+                                            </xsl:analyze-string>
+                                        </xsl:attribute>
+                                        <xsl:attribute name="source">
+                                            <xsl:text>www.portail_DH//arks:/</xsl:text>
+                                            <xsl:text>f</xsl:text>
+                                            <xsl:value-of
+                                                select="substring-before(substring(ancestor-or-self::alto/Description/sourceImageInformation/fileName, 12), '.')"/>
+                                            <xsl:text>/</xsl:text>
+                                            <xsl:value-of select="@HPOS"/>
+                                            <xsl:text>,</xsl:text>
+                                            <xsl:value-of select="@VPOS"/>
+                                            <xsl:text>,</xsl:text>
+                                            <xsl:value-of select="@WIDTH"/>
+                                            <xsl:text>,</xsl:text>
+                                            <xsl:value-of select="@HEIGHT"/>
+                                            <xsl:text>/full/0/native</xsl:text>
+                                        </xsl:attribute>
+                                        <xsl:attribute name="corresp">
+                                            <xsl:value-of
+                                                select="ancestor-or-self::alto/Tags/OtherTag[@ID = 'BT29']/@LABEL"
+                                            />
+                                        </xsl:attribute>
+                                        <xsl:for-each select="./TextLine">
+                                            <xsl:element name="zone">
+                                                <xsl:attribute name="id">
+                                                  <xsl:value-of
+                                                  select="substring-before(ancestor-or-self::alto/Description/sourceImageInformation/fileName, '.')"/>
+                                                  <xsl:text>_</xsl:text>
+                                                  <xsl:value-of
+                                                  select="ancestor::TextBlock/@TAGREFS"/>
+                                                  <xsl:text>_</xsl:text>
+                                                  <xsl:number format="1_" count="TextBlock"
+                                                  level="multiple"/>
+                                                  <xsl:value-of select="./@TAGREFS"/>
+                                                  <xsl:text>_</xsl:text>
+                                                  <xsl:number format="1" count="TextLine"
+                                                  level="multiple"/>
+                                                </xsl:attribute>
+                                                <xsl:attribute name="type">
+                                                  <xsl:text>DefaultLine</xsl:text>
+                                                </xsl:attribute>
+                                                <xsl:attribute name="subtype">
+                                                  <xsl:text>none</xsl:text>
+                                                </xsl:attribute>
+                                                <xsl:attribute name="points">
+                                                  <xsl:variable name="value"
+                                                  select="./Shape/Polygon/@POINTS"/>
+                                                  <xsl:analyze-string select="$value"
+                                                  regex="([0-9]+)\s([0-9]+)">
+                                                  <xsl:matching-substring>
+                                                  <xsl:for-each select="$value">
+                                                  <xsl:value-of select="regex-group(1)"/>
+                                                  <xsl:text>,</xsl:text>
+                                                  <xsl:value-of select="regex-group(2)"/>
+                                                  <xsl:text> </xsl:text>
+                                                  </xsl:for-each>
+                                                  </xsl:matching-substring>
+                                                  </xsl:analyze-string>
+                                                </xsl:attribute>
+                                                <xsl:attribute name="source">
+                                                  <xsl:text>www.portail_DH//arks:/</xsl:text>
+                                                  <xsl:text>f</xsl:text>
+                                                  <xsl:value-of
+                                                  select="substring-before(substring(ancestor-or-self::alto/Description/sourceImageInformation/fileName, 12), '.')"/>
+                                                  <xsl:text>/</xsl:text>
+                                                  <xsl:value-of select="@HPOS"/>
+                                                  <xsl:text>,</xsl:text>
+                                                  <xsl:value-of select="@VPOS"/>
+                                                  <xsl:text>,</xsl:text>
+                                                  <xsl:value-of select="@WIDTH"/>
+                                                  <xsl:text>,</xsl:text>
+                                                  <xsl:value-of select="@HEIGHT"/>
+                                                  <xsl:text>/full/0/native</xsl:text>
+                                                </xsl:attribute>
+                                                <xsl:element name="path">
+                                                  <xsl:attribute name="id">
+                                                  <xsl:value-of
+                                                  select="substring-before(ancestor-or-self::alto/Description/sourceImageInformation/fileName, '.')"/>
+                                                  <xsl:text>_</xsl:text>
+                                                  <xsl:value-of
+                                                  select="ancestor::TextBlock/@TAGREFS"/>
+                                                  <xsl:text>_</xsl:text>
+                                                  <xsl:number format="1_" count="TextBlock"
+                                                  level="multiple"/>
+                                                  <xsl:value-of select="./@TAGREFS"/>
+                                                  <xsl:text>_</xsl:text>
+                                                  <xsl:number format="1_" count="TextLine"
+                                                  level="multiple"/>
+                                                  <xsl:text>1</xsl:text>
+                                                  </xsl:attribute>
+                                                  <xsl:attribute name="points">
+                                                  <xsl:variable name="value" select="./@BASELINE"/>
+                                                  <xsl:analyze-string select="$value"
+                                                  regex="([0-9]+)\s([0-9]+)">
+                                                  <xsl:matching-substring>
+                                                  <xsl:for-each select="$value">
+                                                  <xsl:value-of select="regex-group(1)"/>
+                                                  <xsl:text>,</xsl:text>
+                                                  <xsl:value-of select="regex-group(2)"/>
+                                                  <xsl:text> </xsl:text>
+                                                  </xsl:for-each>
+                                                  </xsl:matching-substring>
+                                                  </xsl:analyze-string>
+                                                  </xsl:attribute>
+                                                </xsl:element>
+                                                <xsl:element name="line">
+                                                  <xsl:value-of select="./String/@CONTENT"/>
+                                                </xsl:element>
+                                            </xsl:element>
+                                        </xsl:for-each>
+                                    </xsl:element>
+                                </xsl:when>
+                                <xsl:when test="@TAGREFS = 'BT95'">
+                                    <xsl:element name="zone">
+                                        <xsl:attribute name="id">
+                                            <xsl:value-of
+                                                select="substring-before(ancestor-or-self::alto/Description/sourceImageInformation/fileName, '.')"/>
+                                            <xsl:text>_</xsl:text>
+                                            <xsl:value-of select="./@TAGREFS"/>
+                                            <xsl:text>_</xsl:text>
+                                            <xsl:number format="1" count="TextBlock"
+                                                level="multiple"/>
+                                        </xsl:attribute>
+                                        <xsl:attribute name="n">
+                                            <xsl:number format="1" count="TextBlock"
+                                                level="multiple"/>
+                                        </xsl:attribute>
+                                        <xsl:attribute name="type">
+                                            <xsl:value-of
+                                                select="substring-before(ancestor-or-self::alto/Tags/OtherTag[@ID = 'BT95']/@LABEL, ':')"/>
+
+                                        </xsl:attribute>
+                                        <xsl:attribute name="subtype">
+                                            <xsl:value-of
+                                                select="substring-after(ancestor-or-self::alto/Tags/OtherTag[@ID = 'BT95']/@LABEL, ':')"
+                                            />
+                                        </xsl:attribute>
+                                        <xsl:attribute name="points">
+                                            <xsl:variable name="value"
+                                                select="./Shape/Polygon/@POINTS"/>
+                                            <xsl:analyze-string select="$value"
+                                                regex="([0-9]+)\s([0-9]+)">
+                                                <xsl:matching-substring>
+                                                  <xsl:for-each select="$value">
+                                                  <xsl:value-of select="regex-group(1)"/>
+                                                  <xsl:text>,</xsl:text>
+                                                  <xsl:value-of select="regex-group(2)"/>
+                                                  <xsl:text> </xsl:text>
+                                                  </xsl:for-each>
+                                                </xsl:matching-substring>
+                                            </xsl:analyze-string>
+                                        </xsl:attribute>
+                                        <xsl:attribute name="source">
+                                            <xsl:text>www.portail_DH//arks:/</xsl:text>
+                                            <xsl:text>f</xsl:text>
+                                            <xsl:value-of
+                                                select="substring-before(substring(ancestor-or-self::alto/Description/sourceImageInformation/fileName, 12), '.')"/>
+                                            <xsl:text>/</xsl:text>
+                                            <xsl:value-of select="@HPOS"/>
+                                            <xsl:text>,</xsl:text>
+                                            <xsl:value-of select="@VPOS"/>
+                                            <xsl:text>,</xsl:text>
+                                            <xsl:value-of select="@WIDTH"/>
+                                            <xsl:text>,</xsl:text>
+                                            <xsl:value-of select="@HEIGHT"/>
+                                            <xsl:text>/full/0/native</xsl:text>
+                                        </xsl:attribute>
+                                        <xsl:attribute name="corresp">
+                                            <xsl:value-of
+                                                select="ancestor-or-self::alto/Tags/OtherTag[@ID = 'BT95']/@LABEL"
+                                            />
+                                        </xsl:attribute>
+                                        <xsl:for-each select="./TextLine">
+                                            <xsl:element name="zone">
+                                                <xsl:attribute name="id">
+                                                  <xsl:value-of
+                                                  select="substring-before(ancestor-or-self::alto/Description/sourceImageInformation/fileName, '.')"/>
+                                                  <xsl:text>_</xsl:text>
+                                                  <xsl:value-of
+                                                  select="ancestor::TextBlock/@TAGREFS"/>
+                                                  <xsl:text>_</xsl:text>
+                                                  <xsl:number format="1_" count="TextBlock"
+                                                  level="multiple"/>
+                                                  <xsl:value-of select="./@TAGREFS"/>
+                                                  <xsl:text>_</xsl:text>
+                                                  <xsl:number format="1" count="TextLine"
+                                                  level="multiple"/>
+                                                </xsl:attribute>
+                                                <xsl:attribute name="type">
+                                                  <xsl:text>DefaultLine</xsl:text>
+                                                </xsl:attribute>
+                                                <xsl:attribute name="subtype">
+                                                  <xsl:text>none</xsl:text>
+                                                </xsl:attribute>
+                                                <xsl:attribute name="points">
+                                                  <xsl:variable name="value"
+                                                  select="./Shape/Polygon/@POINTS"/>
+                                                  <xsl:analyze-string select="$value"
+                                                  regex="([0-9]+)\s([0-9]+)">
+                                                  <xsl:matching-substring>
+                                                  <xsl:for-each select="$value">
+                                                  <xsl:value-of select="regex-group(1)"/>
+                                                  <xsl:text>,</xsl:text>
+                                                  <xsl:value-of select="regex-group(2)"/>
+                                                  <xsl:text> </xsl:text>
+                                                  </xsl:for-each>
+                                                  </xsl:matching-substring>
+                                                  </xsl:analyze-string>
+                                                </xsl:attribute>
+                                                <xsl:attribute name="source">
+                                                  <xsl:text>www.portail_DH//arks:/</xsl:text>
+                                                  <xsl:text>f</xsl:text>
+                                                  <xsl:value-of
+                                                  select="substring-before(substring(ancestor-or-self::alto/Description/sourceImageInformation/fileName, 12), '.')"/>
+                                                  <xsl:text>/</xsl:text>
+                                                  <xsl:value-of select="@HPOS"/>
+                                                  <xsl:text>,</xsl:text>
+                                                  <xsl:value-of select="@VPOS"/>
+                                                  <xsl:text>,</xsl:text>
+                                                  <xsl:value-of select="@WIDTH"/>
+                                                  <xsl:text>,</xsl:text>
+                                                  <xsl:value-of select="@HEIGHT"/>
+                                                  <xsl:text>/full/0/native</xsl:text>
+                                                </xsl:attribute>
+                                                <xsl:element name="path">
+                                                  <xsl:attribute name="id">
+                                                  <xsl:value-of
+                                                  select="substring-before(ancestor-or-self::alto/Description/sourceImageInformation/fileName, '.')"/>
+                                                  <xsl:text>_</xsl:text>
+                                                  <xsl:value-of
+                                                  select="ancestor::TextBlock/@TAGREFS"/>
+                                                  <xsl:text>_</xsl:text>
+                                                  <xsl:number format="1_" count="TextBlock"
+                                                  level="multiple"/>
+                                                  <xsl:value-of select="./@TAGREFS"/>
+                                                  <xsl:text>_</xsl:text>
+                                                  <xsl:number format="1_" count="TextLine"
+                                                  level="multiple"/>
+                                                  <xsl:text>1</xsl:text>
+                                                  </xsl:attribute>
+                                                  <xsl:attribute name="points">
+                                                  <xsl:variable name="value" select="./@BASELINE"/>
+                                                  <xsl:analyze-string select="$value"
+                                                  regex="([0-9]+)\s([0-9]+)">
+                                                  <xsl:matching-substring>
+                                                  <xsl:for-each select="$value">
+                                                  <xsl:value-of select="regex-group(1)"/>
+                                                  <xsl:text>,</xsl:text>
+                                                  <xsl:value-of select="regex-group(2)"/>
+                                                  <xsl:text> </xsl:text>
+                                                  </xsl:for-each>
+                                                  </xsl:matching-substring>
+                                                  </xsl:analyze-string>
+                                                  </xsl:attribute>
+                                                </xsl:element>
+                                                <xsl:element name="line">
+                                                  <xsl:value-of select="./String/@CONTENT"/>
+                                                </xsl:element>
+                                            </xsl:element>
+                                        </xsl:for-each>
+                                    </xsl:element>
+                                </xsl:when>
+                                <xsl:when test="@TAGREFS = 'BT97'">
+                                    <xsl:element name="zone">
+                                        <xsl:attribute name="id">
+                                            <xsl:value-of
+                                                select="substring-before(ancestor-or-self::alto/Description/sourceImageInformation/fileName, '.')"/>
+                                            <xsl:text>_</xsl:text>
+                                            <xsl:value-of select="./@TAGREFS"/>
+                                            <xsl:text>_</xsl:text>
+                                            <xsl:number format="1" count="TextBlock"
+                                                level="multiple"/>
+                                        </xsl:attribute>
+                                        <xsl:attribute name="n">
+                                            <xsl:number format="1" count="TextBlock"
+                                                level="multiple"/>
+                                        </xsl:attribute>
+                                        <xsl:attribute name="type">
+                                            <xsl:value-of
+                                                select="substring-before(ancestor-or-self::alto/Tags/OtherTag[@ID = 'BT97']/@LABEL, ':')"/>
+
+                                        </xsl:attribute>
+                                        <xsl:attribute name="subtype">
+                                            <xsl:value-of
+                                                select="substring-after(ancestor-or-self::alto/Tags/OtherTag[@ID = 'BT97']/@LABEL, ':')"
+                                            />
+                                        </xsl:attribute>
+                                        <xsl:attribute name="points">
+                                            <xsl:variable name="value"
+                                                select="./Shape/Polygon/@POINTS"/>
+                                            <xsl:analyze-string select="$value"
+                                                regex="([0-9]+)\s([0-9]+)">
+                                                <xsl:matching-substring>
+                                                  <xsl:for-each select="$value">
+                                                  <xsl:value-of select="regex-group(1)"/>
+                                                  <xsl:text>,</xsl:text>
+                                                  <xsl:value-of select="regex-group(2)"/>
+                                                  <xsl:text> </xsl:text>
+                                                  </xsl:for-each>
+                                                </xsl:matching-substring>
+                                            </xsl:analyze-string>
+                                        </xsl:attribute>
+                                        <xsl:attribute name="source">
+                                            <xsl:text>www.portail_DH//arks:/</xsl:text>
+                                            <xsl:text>f</xsl:text>
+                                            <xsl:value-of
+                                                select="substring-before(substring(ancestor-or-self::alto/Description/sourceImageInformation/fileName, 12), '.')"/>
+                                            <xsl:text>/</xsl:text>
+                                            <xsl:value-of select="@HPOS"/>
+                                            <xsl:text>,</xsl:text>
+                                            <xsl:value-of select="@VPOS"/>
+                                            <xsl:text>,</xsl:text>
+                                            <xsl:value-of select="@WIDTH"/>
+                                            <xsl:text>,</xsl:text>
+                                            <xsl:value-of select="@HEIGHT"/>
+                                            <xsl:text>/full/0/native</xsl:text>
+                                        </xsl:attribute>
+                                        <xsl:attribute name="corresp">
+                                            <xsl:value-of
+                                                select="ancestor-or-self::alto/Tags/OtherTag[@ID = 'BT97']/@LABEL"
+                                            />
+                                        </xsl:attribute>
+                                        <xsl:for-each select="./TextLine">
+                                            <xsl:element name="zone">
+                                                <xsl:attribute name="id">
+                                                  <xsl:value-of
+                                                  select="substring-before(ancestor-or-self::alto/Description/sourceImageInformation/fileName, '.')"/>
+                                                  <xsl:text>_</xsl:text>
+                                                  <xsl:value-of
+                                                  select="ancestor::TextBlock/@TAGREFS"/>
+                                                  <xsl:text>_</xsl:text>
+                                                  <xsl:number format="1_" count="TextBlock"
+                                                  level="multiple"/>
+                                                  <xsl:value-of select="./@TAGREFS"/>
+                                                  <xsl:text>_</xsl:text>
+                                                  <xsl:number format="1" count="TextLine"
+                                                  level="multiple"/>
+                                                </xsl:attribute>
+                                                <xsl:attribute name="type">
+                                                  <xsl:text>DefaultLine</xsl:text>
+                                                </xsl:attribute>
+                                                <xsl:attribute name="subtype">
+                                                  <xsl:text>none</xsl:text>
+                                                </xsl:attribute>
+                                                <xsl:attribute name="points">
+                                                  <xsl:variable name="value"
+                                                  select="./Shape/Polygon/@POINTS"/>
+                                                  <xsl:analyze-string select="$value"
+                                                  regex="([0-9]+)\s([0-9]+)">
+                                                  <xsl:matching-substring>
+                                                  <xsl:for-each select="$value">
+                                                  <xsl:value-of select="regex-group(1)"/>
+                                                  <xsl:text>,</xsl:text>
+                                                  <xsl:value-of select="regex-group(2)"/>
+                                                  <xsl:text> </xsl:text>
+                                                  </xsl:for-each>
+                                                  </xsl:matching-substring>
+                                                  </xsl:analyze-string>
+                                                </xsl:attribute>
+                                                <xsl:attribute name="source">
+                                                  <xsl:text>www.portail_DH//arks:/</xsl:text>
+                                                  <xsl:text>f</xsl:text>
+                                                  <xsl:value-of
+                                                  select="substring-before(substring(ancestor-or-self::alto/Description/sourceImageInformation/fileName, 12), '.')"/>
+                                                  <xsl:text>/</xsl:text>
+                                                  <xsl:value-of select="@HPOS"/>
+                                                  <xsl:text>,</xsl:text>
+                                                  <xsl:value-of select="@VPOS"/>
+                                                  <xsl:text>,</xsl:text>
+                                                  <xsl:value-of select="@WIDTH"/>
+                                                  <xsl:text>,</xsl:text>
+                                                  <xsl:value-of select="@HEIGHT"/>
+                                                  <xsl:text>/full/0/native</xsl:text>
+                                                </xsl:attribute>
+                                                <xsl:element name="path">
+                                                  <xsl:attribute name="id">
+                                                  <xsl:value-of
+                                                  select="substring-before(ancestor-or-self::alto/Description/sourceImageInformation/fileName, '.')"/>
+                                                  <xsl:text>_</xsl:text>
+                                                  <xsl:value-of
+                                                  select="ancestor::TextBlock/@TAGREFS"/>
+                                                  <xsl:text>_</xsl:text>
+                                                  <xsl:number format="1_" count="TextBlock"
+                                                  level="multiple"/>
+                                                  <xsl:value-of select="./@TAGREFS"/>
+                                                  <xsl:text>_</xsl:text>
+                                                  <xsl:number format="1_" count="TextLine"
+                                                  level="multiple"/>
+                                                  <xsl:text>1</xsl:text>
+                                                  </xsl:attribute>
+                                                  <xsl:attribute name="points">
+                                                  <xsl:variable name="value" select="./@BASELINE"/>
+                                                  <xsl:analyze-string select="$value"
+                                                  regex="([0-9]+)\s([0-9]+)">
+                                                  <xsl:matching-substring>
+                                                  <xsl:for-each select="$value">
+                                                  <xsl:value-of select="regex-group(1)"/>
+                                                  <xsl:text>,</xsl:text>
+                                                  <xsl:value-of select="regex-group(2)"/>
+                                                  <xsl:text> </xsl:text>
+                                                  </xsl:for-each>
+                                                  </xsl:matching-substring>
+                                                  </xsl:analyze-string>
+                                                  </xsl:attribute>
+                                                </xsl:element>
+                                                <xsl:element name="line">
+                                                  <xsl:value-of select="./String/@CONTENT"/>
+                                                </xsl:element>
+                                            </xsl:element>
+                                        </xsl:for-each>
+                                    </xsl:element>
+                                </xsl:when>
+                                <xsl:when test="@TAGREFS = 'BT205'">
+                                    <xsl:element name="zone">
+                                        <xsl:attribute name="id">
+                                            <xsl:value-of
+                                                select="substring-before(ancestor-or-self::alto/Description/sourceImageInformation/fileName, '.')"/>
+                                            <xsl:text>_</xsl:text>
+                                            <xsl:value-of select="./@TAGREFS"/>
+                                            <xsl:text>_</xsl:text>
+                                            <xsl:number format="1" count="TextBlock"
+                                                level="multiple"/>
+                                        </xsl:attribute>
+                                        <xsl:attribute name="n">
+                                            <xsl:number format="1" count="TextBlock"
+                                                level="multiple"/>
+                                        </xsl:attribute>
+                                        <xsl:attribute name="type">
+                                            <xsl:value-of
+                                                select="substring-before(ancestor-or-self::alto/Tags/OtherTag[@ID = 'BT205']/@LABEL, ':')"/>
+
+                                        </xsl:attribute>
+                                        <xsl:attribute name="subtype">
+                                            <xsl:value-of
+                                                select="substring-after(ancestor-or-self::alto/Tags/OtherTag[@ID = 'BT205']/@LABEL, ':')"
+                                            />
+                                        </xsl:attribute>
+                                        <xsl:attribute name="points">
+                                            <xsl:variable name="value"
+                                                select="./Shape/Polygon/@POINTS"/>
+                                            <xsl:analyze-string select="$value"
+                                                regex="([0-9]+)\s([0-9]+)">
+                                                <xsl:matching-substring>
+                                                  <xsl:for-each select="$value">
+                                                  <xsl:value-of select="regex-group(1)"/>
+                                                  <xsl:text>,</xsl:text>
+                                                  <xsl:value-of select="regex-group(2)"/>
+                                                  <xsl:text> </xsl:text>
+                                                  </xsl:for-each>
+                                                </xsl:matching-substring>
+                                            </xsl:analyze-string>
+                                        </xsl:attribute>
+                                        <xsl:attribute name="source">
+                                            <xsl:text>www.portail_DH//arks:/</xsl:text>
+                                            <xsl:text>f</xsl:text>
+                                            <xsl:value-of
+                                                select="substring-before(substring(ancestor-or-self::alto/Description/sourceImageInformation/fileName, 12), '.')"/>
+                                            <xsl:text>/</xsl:text>
+                                            <xsl:value-of select="@HPOS"/>
+                                            <xsl:text>,</xsl:text>
+                                            <xsl:value-of select="@VPOS"/>
+                                            <xsl:text>,</xsl:text>
+                                            <xsl:value-of select="@WIDTH"/>
+                                            <xsl:text>,</xsl:text>
+                                            <xsl:value-of select="@HEIGHT"/>
+                                            <xsl:text>/full/0/native</xsl:text>
+                                        </xsl:attribute>
+                                        <xsl:attribute name="corresp">
+                                            <xsl:value-of
+                                                select="ancestor-or-self::alto/Tags/OtherTag[@ID = 'BT205']/@LABEL"
+                                            />
+                                        </xsl:attribute>
+                                        <xsl:for-each select="./TextLine">
+                                            <xsl:choose>
+                                                <xsl:when test="./@TAGREFS = 'LT40'">
+                                                  <xsl:element name="zone">
+                                                  <xsl:attribute name="id">
+                                                  <xsl:value-of
+                                                  select="substring-before(/Description/sourceImageInformation/fileName, '.')"/>
+                                                  <xsl:text>_</xsl:text>
+                                                  <xsl:value-of
+                                                  select="ancestor::TextBlock/@TAGREFS"/> 
+                                                  <xsl:text>_</xsl:text>  <xsl:number format="1_"
+                                                  count="TextBlock" level="multiple"/> 
+                                                  <xsl:value-of select="./@TAGREFS"/> 
+                                                  <xsl:text>_</xsl:text>  <xsl:number format="1"
+                                                  count="TextLine" level="multiple"/>
+                                                  </xsl:attribute>
+                                                  <xsl:attribute name="type">
+                                                  <xsl:value-of
+                                                  select="substring-before(ancestor-or-self::alto/Tags/OtherTag[@ID = 'LT40']/@LABEL, ':')"
+                                                  />
+                                                  </xsl:attribute>
+                                                  <xsl:attribute name="subtype">
+                                                  <xsl:value-of
+                                                  select="substring-after(ancestor-or-self::alto/Tags/OtherTag[@ID = 'LT40']/@LABEL, ':')"
+                                                  />
+                                                  </xsl:attribute>
+                                                  <xsl:attribute name="points">
+                                                  <xsl:variable name="value"
+                                                  select="./Shape/Polygon/@POINTS"/>
+                                                  <xsl:analyze-string select="$value"
+                                                  regex="([0-9]+)\s([0-9]+)">
+                                                  <xsl:matching-substring>
+                                                  <xsl:for-each select="$value">
+                                                  <xsl:value-of select="regex-group(1)"/>
+                                                  <xsl:text>,</xsl:text>
+                                                  <xsl:value-of select="regex-group(2)"/>
+                                                  <xsl:text> </xsl:text>
+                                                  </xsl:for-each>
+                                                  </xsl:matching-substring>
+                                                  </xsl:analyze-string>
+                                                  </xsl:attribute>
+                                                  <xsl:attribute name="source">
+                                                  <xsl:text>www.portail_DH//arks:/</xsl:text>
+                                                  <xsl:text>f</xsl:text>
+                                                  <xsl:value-of
+                                                  select="substring-before(substring(ancestor-or-self::alto/Description/sourceImageInformation/fileName, 12), '.')"/>
+                                                  <xsl:text>/</xsl:text>
+                                                  <xsl:value-of select="@HPOS"/>
+                                                  <xsl:text>,</xsl:text>
+                                                  <xsl:value-of select="@VPOS"/>
+                                                  <xsl:text>,</xsl:text>
+                                                  <xsl:value-of select="@WIDTH"/>
+                                                  <xsl:text>,</xsl:text>
+                                                  <xsl:value-of select="@HEIGHT"/>
+                                                  <xsl:text>/full/0/native</xsl:text>
+                                                  </xsl:attribute>
+                                                  <xsl:element name="path">
+                                                  <xsl:attribute name="id">
+                                                  <xsl:value-of
+                                                  select="substring-before(ancestor-or-self::alto/Description/sourceImageInformation/fileName, '.')"/>
+                                                  <xsl:text>_</xsl:text>
+                                                  <xsl:value-of
+                                                  select="ancestor::TextBlock/@TAGREFS"/> 
+                                                  <xsl:text>_</xsl:text>  <xsl:number format="1_"
+                                                  count="TextBlock" level="multiple"/> 
+                                                  <xsl:value-of select="./@TAGREFS"/> 
+                                                  <xsl:text>_</xsl:text>  <xsl:number format="1_"
+                                                  count="TextLine" level="multiple"/> 
+                                                  <xsl:text>1</xsl:text>
+                                                  </xsl:attribute>
+                                                  <xsl:attribute name="points">
+                                                  <xsl:variable name="value" select="./@BASELINE"/>
+                                                  <xsl:analyze-string select="$value"
+                                                  regex="([0-9]+)\s([0-9]+)">
+                                                  <xsl:matching-substring>
+                                                  <xsl:for-each select="$value">
+                                                  <xsl:value-of select="regex-group(1)"/>
+                                                  <xsl:text>,</xsl:text>
+                                                  <xsl:value-of select="regex-group(2)"/>
+                                                  <xsl:text> </xsl:text>
+                                                  </xsl:for-each>
+                                                  </xsl:matching-substring>
+                                                  </xsl:analyze-string>
+                                                  </xsl:attribute>
+                                                  </xsl:element>
+                                                  <xsl:element name="line">
+                                                  <xsl:value-of select="./String/@CONTENT"/>
+                                                  </xsl:element>
+                                                  </xsl:element>
+                                                </xsl:when>
+                                                <xsl:when test="./@TAGREFS = 'LT69'">
+                                                  <xsl:element name="zone">
+                                                  <xsl:attribute name="id">
+                                                  <xsl:value-of
+                                                  select="substring-before(/Description/sourceImageInformation/fileName, '.')"/>
+                                                  <xsl:text>_</xsl:text>
+                                                  <xsl:value-of
+                                                  select="ancestor::TextBlock/@TAGREFS"/> 
+                                                  <xsl:text>_</xsl:text>  <xsl:number format="1_"
+                                                  count="TextBlock" level="multiple"/> 
+                                                  <xsl:value-of select="./@TAGREFS"/> 
+                                                  <xsl:text>_</xsl:text>  <xsl:number format="1"
+                                                  count="TextLine" level="multiple"/>
+                                                  </xsl:attribute>
+                                                  <xsl:attribute name="type">
+                                                  <xsl:value-of
+                                                  select="substring-before(ancestor-or-self::alto/Tags/OtherTag[@ID = 'LT69']/@LABEL, ':')"
+                                                  />
+                                                  </xsl:attribute>
+                                                  <xsl:attribute name="subtype">
+                                                  <xsl:value-of
+                                                  select="substring-after(ancestor-or-self::alto/Tags/OtherTag[@ID = 'LT69']/@LABEL, ':')"
+                                                  />
+                                                  </xsl:attribute>
+                                                  <xsl:attribute name="points">
+                                                  <xsl:variable name="value"
+                                                  select="./Shape/Polygon/@POINTS"/>
+                                                  <xsl:analyze-string select="$value"
+                                                  regex="([0-9]+)\s([0-9]+)">
+                                                  <xsl:matching-substring>
+                                                  <xsl:for-each select="$value">
+                                                  <xsl:value-of select="regex-group(1)"/>
+                                                  <xsl:text>,</xsl:text>
+                                                  <xsl:value-of select="regex-group(2)"/>
+                                                  <xsl:text> </xsl:text>
+                                                  </xsl:for-each>
+                                                  </xsl:matching-substring>
+                                                  </xsl:analyze-string>
+                                                  </xsl:attribute>
+                                                  <xsl:attribute name="source">
+                                                  <xsl:text>www.portail_DH//arks:/</xsl:text>
+                                                  <xsl:text>f</xsl:text>
+                                                  <xsl:value-of
+                                                  select="substring-before(substring(ancestor-or-self::alto/Description/sourceImageInformation/fileName, 12), '.')"/>
+                                                  <xsl:text>/</xsl:text>
+                                                  <xsl:value-of select="@HPOS"/>
+                                                  <xsl:text>,</xsl:text>
+                                                  <xsl:value-of select="@VPOS"/>
+                                                  <xsl:text>,</xsl:text>
+                                                  <xsl:value-of select="@WIDTH"/>
+                                                  <xsl:text>,</xsl:text>
+                                                  <xsl:value-of select="@HEIGHT"/>
+                                                  <xsl:text>/full/0/native</xsl:text>
+                                                  </xsl:attribute>
+                                                  <xsl:element name="path">
+                                                  <xsl:attribute name="id">
+                                                  <xsl:value-of
+                                                  select="substring-before(ancestor-or-self::alto/Description/sourceImageInformation/fileName, '.')"/>
+                                                  <xsl:text>_</xsl:text>
+                                                  <xsl:value-of
+                                                  select="ancestor::TextBlock/@TAGREFS"/> 
+                                                  <xsl:text>_</xsl:text>  <xsl:number format="1_"
+                                                  count="TextBlock" level="multiple"/> 
+                                                  <xsl:value-of select="./@TAGREFS"/> 
+                                                  <xsl:text>_</xsl:text>  <xsl:number format="1_"
+                                                  count="TextLine" level="multiple"/> 
+                                                  <xsl:text>1</xsl:text>
+                                                  </xsl:attribute>
+                                                  <xsl:attribute name="points">
+                                                  <xsl:variable name="value" select="./@BASELINE"/>
+                                                  <xsl:analyze-string select="$value"
+                                                  regex="([0-9]+)\s([0-9]+)">
+                                                  <xsl:matching-substring>
+                                                  <xsl:for-each select="$value">
+                                                  <xsl:value-of select="regex-group(1)"/>
+                                                  <xsl:text>,</xsl:text>
+                                                  <xsl:value-of select="regex-group(2)"/>
+                                                  <xsl:text> </xsl:text>
+                                                  </xsl:for-each>
+                                                  </xsl:matching-substring>
+                                                  </xsl:analyze-string>
+                                                  </xsl:attribute>
+                                                  </xsl:element>
+                                                  <xsl:element name="line">
+                                                  <xsl:value-of select="./String/@CONTENT"/>
+                                                  </xsl:element>
+                                                  </xsl:element>
+                                                </xsl:when>
+                                                <xsl:when test="./@TAGREFS = 'LT74'">
+                                                  <xsl:element name="zone">
+                                                  <xsl:attribute name="id">
+                                                  <xsl:value-of
+                                                  select="substring-before(/Description/sourceImageInformation/fileName, '.')"/>
+                                                  <xsl:text>_</xsl:text>
+                                                  <xsl:value-of
+                                                  select="ancestor::TextBlock/@TAGREFS"/> 
+                                                  <xsl:text>_</xsl:text>  <xsl:number format="1_"
+                                                  count="TextBlock" level="multiple"/> 
+                                                  <xsl:value-of select="./@TAGREFS"/> 
+                                                  <xsl:text>_</xsl:text>  <xsl:number format="1"
+                                                  count="TextLine" level="multiple"/>
+                                                  </xsl:attribute>
+                                                  <xsl:attribute name="type">
+                                                  <xsl:value-of
+                                                  select="ancestor-or-self::alto/Tags/OtherTag[@ID = 'LT74']"
+                                                  />
+                                                  </xsl:attribute>
+                                                  <xsl:attribute name="subtype">
+                                                  <xsl:text>none</xsl:text>
+                                                  </xsl:attribute>
+                                                  <xsl:attribute name="points">
+                                                  <xsl:variable name="value"
+                                                  select="./Shape/Polygon/@POINTS"/>
+                                                  <xsl:analyze-string select="$value"
+                                                  regex="([0-9]+)\s([0-9]+)">
+                                                  <xsl:matching-substring>
+                                                  <xsl:for-each select="$value">
+                                                  <xsl:value-of select="regex-group(1)"/>
+                                                  <xsl:text>,</xsl:text>
+                                                  <xsl:value-of select="regex-group(2)"/>
+                                                  <xsl:text> </xsl:text>
+                                                  </xsl:for-each>
+                                                  </xsl:matching-substring>
+                                                  </xsl:analyze-string>
+                                                  </xsl:attribute>
+                                                  <xsl:attribute name="source">
+                                                  <xsl:text>www.portail_DH//arks:/</xsl:text>
+                                                  <xsl:text>f</xsl:text>
+                                                  <xsl:value-of
+                                                  select="substring-before(substring(ancestor-or-self::alto/Description/sourceImageInformation/fileName, 12), '.')"/>
+                                                  <xsl:text>/</xsl:text>
+                                                  <xsl:value-of select="@HPOS"/>
+                                                  <xsl:text>,</xsl:text>
+                                                  <xsl:value-of select="@VPOS"/>
+                                                  <xsl:text>,</xsl:text>
+                                                  <xsl:value-of select="@WIDTH"/>
+                                                  <xsl:text>,</xsl:text>
+                                                  <xsl:value-of select="@HEIGHT"/>
+                                                  <xsl:text>/full/0/native</xsl:text>
+                                                  </xsl:attribute>
+                                                  <xsl:element name="path">
+                                                  <xsl:attribute name="id">
+                                                  <xsl:value-of
+                                                  select="substring-before(ancestor-or-self::alto/Description/sourceImageInformation/fileName, '.')"/>
+                                                  <xsl:text>_</xsl:text>
+                                                  <xsl:value-of
+                                                  select="ancestor::TextBlock/@TAGREFS"/> 
+                                                  <xsl:text>_</xsl:text>  <xsl:number format="1_"
+                                                  count="TextBlock" level="multiple"/> 
+                                                  <xsl:value-of select="./@TAGREFS"/> 
+                                                  <xsl:text>_</xsl:text>  <xsl:number format="1_"
+                                                  count="TextLine" level="multiple"/> 
+                                                  <xsl:text>1</xsl:text>
+                                                  </xsl:attribute>
+                                                  <xsl:attribute name="points">
+                                                  <xsl:variable name="value" select="./@BASELINE"/>
+                                                  <xsl:analyze-string select="$value"
+                                                  regex="([0-9]+)\s([0-9]+)">
+                                                  <xsl:matching-substring>
+                                                  <xsl:for-each select="$value">
+                                                  <xsl:value-of select="regex-group(1)"/>
+                                                  <xsl:text>,</xsl:text>
+                                                  <xsl:value-of select="regex-group(2)"/>
+                                                  <xsl:text> </xsl:text>
+                                                  </xsl:for-each>
+                                                  </xsl:matching-substring>
+                                                  </xsl:analyze-string>
+                                                  </xsl:attribute>
+                                                  </xsl:element>
+                                                  <xsl:element name="line">
+                                                  <xsl:value-of select="./String/@CONTENT"/>
+                                                  </xsl:element>
+                                                  </xsl:element>
+                                                </xsl:when>
+                                                <xsl:otherwise>
+                                                  <xsl:element name="zone">
+                                                  <xsl:attribute name="id">
+                                                  <xsl:value-of
+                                                  select="substring-before(ancestor-or-self::alto/Description/sourceImageInformation/fileName, '.')"/>
+                                                  <xsl:text>_</xsl:text>
+                                                  <xsl:value-of
+                                                  select="ancestor::TextBlock/@TAGREFS"/>
+                                                  <xsl:text>_</xsl:text>
+                                                  <xsl:number format="1_" count="TextBlock"
+                                                  level="multiple"/>
+                                                  <xsl:value-of select="./@TAGREFS"/>
+                                                  <xsl:text>_</xsl:text>
+                                                  <xsl:number format="1" count="TextLine"
+                                                  level="multiple"/>
+                                                  </xsl:attribute>
+                                                  <xsl:attribute name="type">
+                                                  <xsl:text>DefaultLine</xsl:text>
+                                                  </xsl:attribute>
+                                                  <xsl:attribute name="subtype">
+                                                  <xsl:text>none</xsl:text>
+                                                  </xsl:attribute>
+                                                  <xsl:attribute name="points">
+                                                  <xsl:variable name="value"
+                                                  select="./Shape/Polygon/@POINTS"/>
+                                                  <xsl:analyze-string select="$value"
+                                                  regex="([0-9]+)\s([0-9]+)">
+                                                  <xsl:matching-substring>
+                                                  <xsl:for-each select="$value">
+                                                  <xsl:value-of select="regex-group(1)"/>
+                                                  <xsl:text>,</xsl:text>
+                                                  <xsl:value-of select="regex-group(2)"/>
+                                                  <xsl:text> </xsl:text>
+                                                  </xsl:for-each>
+                                                  </xsl:matching-substring>
+                                                  </xsl:analyze-string>
+                                                  </xsl:attribute>
+                                                  <xsl:attribute name="source">
+                                                  <xsl:text>www.portail_DH//arks:/</xsl:text>
+                                                  <xsl:text>f</xsl:text>
+                                                  <xsl:value-of
+                                                  select="substring-before(substring(ancestor-or-self::alto/Description/sourceImageInformation/fileName, 12), '.')"/>
+                                                  <xsl:text>/</xsl:text>
+                                                  <xsl:value-of select="@HPOS"/>
+                                                  <xsl:text>,</xsl:text>
+                                                  <xsl:value-of select="@VPOS"/>
+                                                  <xsl:text>,</xsl:text>
+                                                  <xsl:value-of select="@WIDTH"/>
+                                                  <xsl:text>,</xsl:text>
+                                                  <xsl:value-of select="@HEIGHT"/>
+                                                  <xsl:text>/full/0/native</xsl:text>
+                                                  </xsl:attribute>
+                                                  <xsl:element name="path">
+                                                  <xsl:attribute name="id">
+                                                  <xsl:value-of
+                                                  select="substring-before(ancestor-or-self::alto/Description/sourceImageInformation/fileName, '.')"/>
+                                                  <xsl:text>_</xsl:text>
+                                                  <xsl:value-of
+                                                  select="ancestor::TextBlock/@TAGREFS"/>
+                                                  <xsl:text>_</xsl:text>
+                                                  <xsl:number format="1_" count="TextBlock"
+                                                  level="multiple"/>
+                                                  <xsl:value-of select="./@TAGREFS"/>
+                                                  <xsl:text>_</xsl:text>
+                                                  <xsl:number format="1_" count="TextLine"
+                                                  level="multiple"/>
+                                                  <xsl:text>1</xsl:text>
+                                                  </xsl:attribute>
+                                                  <xsl:attribute name="points">
+                                                  <xsl:variable name="value" select="./@BASELINE"/>
+                                                  <xsl:analyze-string select="$value"
+                                                  regex="([0-9]+)\s([0-9]+)">
+                                                  <xsl:matching-substring>
+                                                  <xsl:for-each select="$value">
+                                                  <xsl:value-of select="regex-group(1)"/>
+                                                  <xsl:text>,</xsl:text>
+                                                  <xsl:value-of select="regex-group(2)"/>
+                                                  <xsl:text> </xsl:text>
+                                                  </xsl:for-each>
+                                                  </xsl:matching-substring>
+                                                  </xsl:analyze-string>
+                                                  </xsl:attribute>
+                                                  </xsl:element>
+                                                  <xsl:element name="line">
+                                                  <xsl:value-of select="./String/@CONTENT"/>
+                                                  </xsl:element>
+                                                  </xsl:element>
+                                                </xsl:otherwise>
+                                            </xsl:choose>
+                                        </xsl:for-each>
+                                    </xsl:element>
+                                </xsl:when>
+                                <xsl:when test="@TAGREFS = 'BT206'">
+                                    <xsl:element name="zone">
+                                        <xsl:attribute name="id">
+                                            <xsl:value-of
+                                                select="substring-before(ancestor-or-self::alto/Description/sourceImageInformation/fileName, '.')"/>
+                                            <xsl:text>_</xsl:text>
+                                            <xsl:value-of select="./@TAGREFS"/>
+                                            <xsl:text>_</xsl:text>
+                                            <xsl:number format="1" count="TextBlock"
+                                                level="multiple"/>
+                                        </xsl:attribute>
+                                        <xsl:attribute name="n">
+                                            <xsl:number format="1" count="TextBlock"
+                                                level="multiple"/>
+                                        </xsl:attribute>
+                                        <xsl:attribute name="type">
+                                            <xsl:value-of
+                                                select="substring-before(ancestor-or-self::alto/Tags/OtherTag[@ID = 'BT206']/@LABEL, ':')"/>
+
+                                        </xsl:attribute>
+                                        <xsl:attribute name="subtype">
+                                            <xsl:value-of
+                                                select="substring-after(ancestor-or-self::alto/Tags/OtherTag[@ID = 'BT206']/@LABEL, ':')"
+                                            />
+                                        </xsl:attribute>
+                                        <xsl:attribute name="points">
+                                            <xsl:variable name="value"
+                                                select="./Shape/Polygon/@POINTS"/>
+                                            <xsl:analyze-string select="$value"
+                                                regex="([0-9]+)\s([0-9]+)">
+                                                <xsl:matching-substring>
+                                                  <xsl:for-each select="$value">
+                                                  <xsl:value-of select="regex-group(1)"/>
+                                                  <xsl:text>,</xsl:text>
+                                                  <xsl:value-of select="regex-group(2)"/>
+                                                  <xsl:text> </xsl:text>
+                                                  </xsl:for-each>
+                                                </xsl:matching-substring>
+                                            </xsl:analyze-string>
+                                        </xsl:attribute>
+                                        <xsl:attribute name="source">
+                                            <xsl:text>www.portail_DH//arks:/</xsl:text>
+                                            <xsl:text>f</xsl:text>
+                                            <xsl:value-of
+                                                select="substring-before(substring(ancestor-or-self::alto/Description/sourceImageInformation/fileName, 12), '.')"/>
+                                            <xsl:text>/</xsl:text>
+                                            <xsl:value-of select="@HPOS"/>
+                                            <xsl:text>,</xsl:text>
+                                            <xsl:value-of select="@VPOS"/>
+                                            <xsl:text>,</xsl:text>
+                                            <xsl:value-of select="@WIDTH"/>
+                                            <xsl:text>,</xsl:text>
+                                            <xsl:value-of select="@HEIGHT"/>
+                                            <xsl:text>/full/0/native</xsl:text>
+                                        </xsl:attribute>
+                                        <xsl:attribute name="corresp">
+                                            <xsl:value-of
+                                                select="ancestor-or-self::alto/Tags/OtherTag[@ID = 'BT97']/@LABEL"
+                                            />
+                                        </xsl:attribute>
+                                        <xsl:for-each select="./TextLine">
+                                            <xsl:element name="zone">
+                                                <xsl:attribute name="id">
+                                                  <xsl:value-of
+                                                  select="substring-before(ancestor-or-self::alto/Description/sourceImageInformation/fileName, '.')"/>
+                                                  <xsl:text>_</xsl:text>
+                                                  <xsl:value-of
+                                                  select="ancestor::TextBlock/@TAGREFS"/>
+                                                  <xsl:text>_</xsl:text>
+                                                  <xsl:number format="1_" count="TextBlock"
+                                                  level="multiple"/>
+                                                  <xsl:value-of select="./@TAGREFS"/>
+                                                  <xsl:text>_</xsl:text>
+                                                  <xsl:number format="1" count="TextLine"
+                                                  level="multiple"/>
+                                                </xsl:attribute>
+                                                    <xsl:attribute name="type">
+                                                        <xsl:value-of
+                                                            select="ancestor-or-self::alto/Tags/OtherTag[@ID = 'LT74']"
+                                                        />
+                                                    </xsl:attribute>
+                                                <xsl:attribute name="subtype">
+                                                    <xsl:text>none</xsl:text>
+                                                </xsl:attribute>
+                                                <xsl:attribute name="points">
+                                                  <xsl:variable name="value"
+                                                  select="./Shape/Polygon/@POINTS"/>
+                                                  <xsl:analyze-string select="$value"
+                                                  regex="([0-9]+)\s([0-9]+)">
+                                                  <xsl:matching-substring>
+                                                  <xsl:for-each select="$value">
+                                                  <xsl:value-of select="regex-group(1)"/>
+                                                  <xsl:text>,</xsl:text>
+                                                  <xsl:value-of select="regex-group(2)"/>
+                                                  <xsl:text> </xsl:text>
+                                                  </xsl:for-each>
+                                                  </xsl:matching-substring>
+                                                  </xsl:analyze-string>
+                                                </xsl:attribute>
+                                                <xsl:attribute name="source">
+                                                  <xsl:text>www.portail_DH//arks:/</xsl:text>
+                                                  <xsl:text>f</xsl:text>
+                                                  <xsl:value-of
+                                                  select="substring-before(substring(ancestor-or-self::alto/Description/sourceImageInformation/fileName, 12), '.')"/>
+                                                  <xsl:text>/</xsl:text>
+                                                  <xsl:value-of select="@HPOS"/>
+                                                  <xsl:text>,</xsl:text>
+                                                  <xsl:value-of select="@VPOS"/>
+                                                  <xsl:text>,</xsl:text>
+                                                  <xsl:value-of select="@WIDTH"/>
+                                                  <xsl:text>,</xsl:text>
+                                                  <xsl:value-of select="@HEIGHT"/>
+                                                  <xsl:text>/full/0/native</xsl:text>
+                                                </xsl:attribute>
+                                                <xsl:element name="path">
+                                                  <xsl:attribute name="id">
+                                                  <xsl:value-of
+                                                  select="substring-before(ancestor-or-self::alto/Description/sourceImageInformation/fileName, '.')"/>
+                                                  <xsl:text>_</xsl:text>
+                                                  <xsl:value-of
+                                                  select="ancestor::TextBlock/@TAGREFS"/>
+                                                  <xsl:text>_</xsl:text>
+                                                  <xsl:number format="1_" count="TextBlock"
+                                                  level="multiple"/>
+                                                  <xsl:value-of select="./@TAGREFS"/>
+                                                  <xsl:text>_</xsl:text>
+                                                  <xsl:number format="1_" count="TextLine"
+                                                  level="multiple"/>
+                                                  <xsl:text>1</xsl:text>
+                                                  </xsl:attribute>
+                                                  <xsl:attribute name="points">
+                                                  <xsl:variable name="value" select="./@BASELINE"/>
+                                                  <xsl:analyze-string select="$value"
+                                                  regex="([0-9]+)\s([0-9]+)">
+                                                  <xsl:matching-substring>
+                                                  <xsl:for-each select="$value">
+                                                  <xsl:value-of select="regex-group(1)"/>
+                                                  <xsl:text>,</xsl:text>
+                                                  <xsl:value-of select="regex-group(2)"/>
+                                                  <xsl:text> </xsl:text>
+                                                  </xsl:for-each>
+                                                  </xsl:matching-substring>
+                                                  </xsl:analyze-string>
+                                                  </xsl:attribute>
+                                                </xsl:element>
+                                                <xsl:element name="line">
+                                                  <xsl:value-of select="./String/@CONTENT"/>
+                                                </xsl:element>
+                                            </xsl:element>
+                                        </xsl:for-each>
+                                    </xsl:element>
+                                </xsl:when>
+                            </xsl:choose>
+                        </xsl:for-each>
+                    </xsl:element>
+                </xsl:for-each>
             </sourceDoc>
             <text>
                 <body>
@@ -620,68 +2952,126 @@
             </text>
         </TEI>
     </xsl:template>
-    <xsl:template match="/alto/Description"/>
-    <xsl:template match="/alto/Tags"/>
-    <xsl:template match="alto:Layout/alto:Page">
+    <xsl:template match="alto/Tags"/>
+    <xsl:template match="alto/Description"/>
+    <xsl:template match="alto/Layout"/>
+    <xsl:template match="alto">
         <xsl:element name="div" namespace="http://www.tei-c.org/ns/1.0">
             <xsl:element name="pb" namespace="http://www.tei-c.org/ns/1.0">
-                <xsl:attribute name="facs">
-                    <xsl:value-of select="/alto/Description/sourceImageInformation/fileName"/>
+                <xsl:attribute name="n">
+                    <xsl:value-of
+                        select="substring-before(substring(Description/sourceImageInformation/fileName, 12), '.')"/>
                     <xsl:apply-templates/>
                 </xsl:attribute>
-                <xsl:attribute name="n"/>
+                <xsl:attribute name="facs">
+                    <xsl:value-of
+                        select="substring-before(Description/sourceImageInformation/fileName, '.')"/>
+                    <xsl:apply-templates/>
+                </xsl:attribute>
             </xsl:element>
-            <xsl:for-each select="alto:PrintSpace/alto:TextBlock">
+            <xsl:for-each select="Layout/Page/PrintSpace/TextBlock">
                 <xsl:choose>
-                    <xsl:when test="@TAGREFS = 'BT25'">
+                    <xsl:when test="@TAGREFS = 'BT12'">
+                        <xsl:element name="head" namespace="http://www.tei-c.org/ns/1.0">
+                            <xsl:attribute name="type">
+                                <xsl:text></xsl:text>
+                            </xsl:attribute>
+                            <xsl:for-each select="./TextLine/String">
+                                <xsl:element name="lb" namespace="http://www.tei-c.org/ns/1.0"/>
+                                <xsl:value-of select="@CONTENT"/>
+                                <xsl:apply-templates/>
+                            </xsl:for-each>
+                        </xsl:element>
+                    </xsl:when>
+                    <xsl:when test="@TAGREFS = 'BT14'">
+                        <xsl:choose>
+                            <xsl:when
+                                test="child::*/child::String[matches(@CONTENT, '([A-Z].{0,7}[.,]) ([A-Z¿¡].*)')]">
+                                <xsl:for-each select=".//String">
+                                    <xsl:variable name="value"
+                                        select="@CONTENT[ancestor::TextBlock[@TAGREFS = 'BT14']]"/>
+                                    <xsl:analyze-string select="$value"
+                                        regex="([A-Z].{{0,7}}[.,]) ([A-Z¿¡].*)">
+                                        <xsl:matching-substring>
+                                            <xsl:for-each select="regex-group(1)">
+                                                <xsl:element name="sp"
+                                                    namespace="http://www.tei-c.org/ns/1.0">
+                                                    <xsl:element name="speaker"
+                                                        namespace="http://www.tei-c.org/ns/1.0">
+                                                        <xsl:value-of select="regex-group(1)"/>
+                                                    </xsl:element>
+                                                    <xsl:element name="l"
+                                                        namespace="http://www.tei-c.org/ns/1.0">
+                                                        <xsl:value-of select="regex-group(2)"/>
+                                                    </xsl:element>
+                                                </xsl:element>
+                                            </xsl:for-each>
+                                        </xsl:matching-substring>
+                                        <xsl:non-matching-substring>
+                                            <xsl:element name="l"
+                                                namespace="http://www.tei-c.org/ns/1.0">
+                                                <xsl:value-of select="$value"/>
+                                            </xsl:element>
+                                        </xsl:non-matching-substring>
+                                    </xsl:analyze-string>
+                                </xsl:for-each>
+                            </xsl:when>
+                            <xsl:when
+                                test="child::*/child::String[matches(@CONTENT, '([A-Z]{3,}(.)$)')]">
+                                <xsl:for-each select="./String">
+                                    <xsl:variable name="value"
+                                        select="@CONTENT[ancestor::TextBlock[@TAGREFS = 'BT14']]"/>
+                                    <xsl:analyze-string select="$value" regex="([A-Z]{{3,}}(.)?$)">
+                                        <xsl:matching-substring>
+                                            <xsl:for-each select="regex-group(1)">
+                                                <xsl:element name="div"
+                                                    namespace="http://www.tei-c.org/ns/1.0">
+                                                    <xsl:attribute name="n">
+                                                        <xsl:value-of select="regex-group(0)"/>
+                                                    </xsl:attribute>
+                                                    <xsl:element name="head"
+                                                        namespace="http://www.tei-c.org/ns/1.0">
+                                                        <xsl:attribute name="type">
+                                                            <xsl:text>titulo_estrofa</xsl:text>
+                                                        </xsl:attribute>
+                                                        <xsl:value-of select="$value"/>
+                                                    </xsl:element>
+                                                </xsl:element>
+                                            </xsl:for-each>
+                                        </xsl:matching-substring>
+                                        <xsl:non-matching-substring>
+                                            <xsl:element name="l"
+                                                namespace="http://www.tei-c.org/ns/1.0">
+                                                <xsl:value-of select="$value"/>
+                                            </xsl:element>
+                                        </xsl:non-matching-substring>
+                                    </xsl:analyze-string>
+                                </xsl:for-each>
+                            </xsl:when>
+                            <xsl:otherwise>
+                                <xsl:element name="p" namespace="http://www.tei-c.org/ns/1.0">
+                                    <xsl:for-each select="./TextLine/String">
+                                        <xsl:element name="lb"
+                                            namespace="http://www.tei-c.org/ns/1.0"/>
+                                            <xsl:value-of select="@CONTENT"/>
+                                            <xsl:apply-templates/>
+                                    </xsl:for-each>
+                                </xsl:element>
+                            </xsl:otherwise>
+                        </xsl:choose>
+                    </xsl:when>
+                    <xsl:when test="@TAGREFS = 'BT19'">
                         <xsl:for-each select="./TextLine/String">
-                            <xsl:element name="fw" namespace="http://www.tei-c.org/ns/1.0">
-                                <xsl:attribute name="type">
-                                    <xsl:text>paginaNum</xsl:text>
-                                </xsl:attribute>
-                                <xsl:apply-templates
-                                    select="/alto/Layout/Page/PrintSpace/TextBlock[@TAGREFS = 'BT25']/TextLine/String/@CONTENT"
-                                />
-                            </xsl:element>
+                        <xsl:element name="fw" namespace="http://www.tei-c.org/ns/1.0">
+                            <xsl:attribute name="type">
+                                <xsl:text>reclamo</xsl:text>
+                            </xsl:attribute>
+                                <xsl:value-of select="@CONTENT"/>
+                                <xsl:apply-templates/>
+                        </xsl:element>
                         </xsl:for-each>
                     </xsl:when>
-                    <xsl:when test="@TAGREFS = 'BT92'">
-                        <xsl:element name="head" namespace="http://www.tei-c.org/ns/1.0">
-                            <xsl:attribute name="type">
-                                <xsl:text>primer_titulo</xsl:text>
-                            </xsl:attribute>
-                            <xsl:for-each select="./TextLine/String">
-                                <xsl:element name="lb" namespace="http://www.tei-c.org/ns/1.0"/>
-                                <xsl:value-of select="@CONTENT"/>
-                                <xsl:apply-templates/>
-                            </xsl:for-each>
-                        </xsl:element>
-                    </xsl:when>
-                    <xsl:when test="@TAGREFS = 'BT93'">
-                        <xsl:element name="head" namespace="http://www.tei-c.org/ns/1.0">
-                            <xsl:attribute name="type">
-                                <xsl:text>subtitulo</xsl:text>
-                            </xsl:attribute>
-                            <xsl:for-each select="./TextLine/String">
-                                <xsl:element name="lb" namespace="http://www.tei-c.org/ns/1.0"/>
-                                <xsl:value-of select="@CONTENT"/>
-                                <xsl:apply-templates/>
-                            </xsl:for-each>
-                        </xsl:element>
-                    </xsl:when>
-                    <xsl:when test="@TAGREFS = 'BT94'">
-                        <xsl:element name="head" namespace="http://www.tei-c.org/ns/1.0">
-                            <xsl:attribute name="type">
-                                <xsl:text>titulo_parte</xsl:text>
-                            </xsl:attribute>
-                            <xsl:for-each select="./TextLine/String">
-                                <xsl:element name="lb" namespace="http://www.tei-c.org/ns/1.0"/>
-                                <xsl:value-of select="@CONTENT"/>
-                                <xsl:apply-templates/>
-                            </xsl:for-each>
-                        </xsl:element>
-                    </xsl:when>
-                    <xsl:when test="@TAGREFS = 'BT20'">
+                    <xsl:when test="@TAGREFS = 'BT21'">
                         <xsl:for-each select="./TextLine/String">
                             <xsl:element name="fw" namespace="http://www.tei-c.org/ns/1.0">
                                 <xsl:attribute name="type">
@@ -692,90 +3082,63 @@
                             </xsl:element>
                         </xsl:for-each>
                     </xsl:when>
-                    <xsl:when test="@TAGREFS = 'BT14'">
-                        <xsl:choose>
-                            <xsl:when
-                                test="child::*/child::String[matches(@CONTENT, '([A-Z].{0,7}[.,]) ([A-Z¿¡].*)')]">
-                                <xsl:for-each select="//String">
-                                    <xsl:variable name="value"
-                                        select="@CONTENT[ancestor::TextBlock[@TAGREFS = 'BT14']]"/>
-                                    <xsl:analyze-string select="$value"
-                                        regex="([A-Z].{{0,7}}[.,]) ([A-Z¿¡].*)">
-                                        <xsl:matching-substring>
-                                            <xsl:for-each select="regex-group(1)">
-                                                <xsl:element name="sp"
-                                                  namespace="http://www.tei-c.org/ns/1.0">
-                                                  <xsl:element name="speaker"
-                                                  namespace="http://www.tei-c.org/ns/1.0">
-                                                  <xsl:value-of select="regex-group(1)"/>
-                                                  </xsl:element>
-                                                  <xsl:element name="l"
-                                                  namespace="http://www.tei-c.org/ns/1.0">
-                                                  <xsl:value-of select="regex-group(2)"/>
-                                                  </xsl:element>
-                                                </xsl:element>
-                                            </xsl:for-each>
-                                        </xsl:matching-substring>
-                                        <xsl:non-matching-substring>
-                                            <xsl:element name="l"
-                                                namespace="http://www.tei-c.org/ns/1.0">
-                                                <xsl:value-of select="(.)"/>
-                                            </xsl:element>
-                                        </xsl:non-matching-substring>
-                                    </xsl:analyze-string>
-                                </xsl:for-each>
-                            </xsl:when>
-                            <xsl:when
-                                test="child::*/child::String[matches(@CONTENT, '([A-Z]*(.)$)')]">
-                                <xsl:for-each select="//String">
-                                    <xsl:variable name="value"
-                                        select="@CONTENT[ancestor::TextBlock[@TAGREFS = 'BT14']]"/>
-                                    <xsl:analyze-string select="$value" regex="([A-Z]{{1,3}}(.)?$)">
-                                        <xsl:matching-substring>
-                                            <xsl:for-each select="regex-group(1)">
-                                                <xsl:element name="div"
-                                                  namespace="http://www.tei-c.org/ns/1.0">
-                                                  <xsl:attribute name="n">
-                                                  <xsl:value-of select="regex-group(0)"/>
-                                                  </xsl:attribute>
-                                                  <xsl:element name="head"
-                                                  namespace="http://www.tei-c.org/ns/1.0">
-                                                  <xsl:attribute name="type">
-                                                  <xsl:text>titulo_estrofa</xsl:text>
-                                                  </xsl:attribute>
-                                                  <xsl:value-of select="$value"/>
-                                                  </xsl:element>
-                                                </xsl:element>
-                                            </xsl:for-each>
-                                        </xsl:matching-substring>
-                                        <xsl:non-matching-substring>
-                                            <xsl:element name="l"
-                                                namespace="http://www.tei-c.org/ns/1.0">
-                                                <xsl:value-of select="(.)"/>
-                                            </xsl:element>
-                                        </xsl:non-matching-substring>
-                                    </xsl:analyze-string>
-                                </xsl:for-each>
-                            </xsl:when>
-                            <xsl:otherwise>
-                                <xsl:element name="lg" namespace="http://www.tei-c.org/ns/1.0">
-                                    <xsl:for-each select="./TextLine/String">
-                                        <xsl:element name="l"
-                                            namespace="http://www.tei-c.org/ns/1.0">
-                                            <xsl:value-of select="@CONTENT"/>
-                                            <xsl:apply-templates/>
-                                        </xsl:element>
-                                    </xsl:for-each>
-                                </xsl:element>
-                            </xsl:otherwise>
-                        </xsl:choose>
+                    <xsl:when test="@TAGREFS = 'BT25'">
+                        <xsl:for-each select="./TextLine/String">
+                            <xsl:element name="fw" namespace="http://www.tei-c.org/ns/1.0">
+                                <xsl:attribute name="type">
+                                    <xsl:text>paginaNum</xsl:text>
+                                </xsl:attribute>
+                                <xsl:apply-templates/>
+                            </xsl:element>
+                        </xsl:for-each>
                     </xsl:when>
                     <xsl:when test="@TAGREFS = 'BT29'">
+                        <xsl:element name="note" namespace="http://www.tei-c.org/ns/1.0">
+                            <xsl:element name="p" namespace="http://www.tei-c.org/ns/1.0">
+                                <xsl:for-each select="./TextLine/String">
+                                    <xsl:element name="lb" namespace="http://www.tei-c.org/ns/1.0"/>
+                                    <xsl:apply-templates/>
+                                </xsl:for-each>
+                            </xsl:element>
+                        </xsl:element>
+                    </xsl:when>
+                    <xsl:when test="@TAGREFS = 'BT95'">
                         <xsl:element name="fw" namespace="http://www.tei-c.org/ns/1.0">
                             <xsl:attribute name="type">
-                                <xsl:text>nota</xsl:text>
+                                <xsl:text>impresorNum</xsl:text>
+                            </xsl:attribute>
+                                <xsl:for-each select="./TextLine/String">
+                                    <xsl:apply-templates/>
+                                </xsl:for-each>
+                        </xsl:element>
+                    </xsl:when>
+                    <xsl:when test="@TAGREFS = 'BT97'">
+                        <xsl:element name="fw" namespace="http://www.tei-c.org/ns/1.0">
+                            <xsl:attribute name="type">
+                                <xsl:text>numeroPliego</xsl:text>
                             </xsl:attribute>
                             <xsl:for-each select="./TextLine/String">
+                                <xsl:apply-templates/>
+                            </xsl:for-each>
+                        </xsl:element>
+                    </xsl:when>
+                    <xsl:when test="@TAGREFS = 'BT205'">
+                        <xsl:element name="lg" namespace="http://www.tei-c.org/ns/1.0">
+                            <xsl:for-each select="./TextLine/String">
+                                <xsl:element name="l" namespace="http://www.tei-c.org/ns/1.0">
+                                    <xsl:value-of select="@CONTENT"/>
+                                    <xsl:apply-templates/>
+                                </xsl:element>
+                            </xsl:for-each>
+                        </xsl:element>
+                    </xsl:when>
+                    <xsl:when test="@TAGREFS = 'BT206'">
+                        <xsl:element name="head" namespace="http://www.tei-c.org/ns/1.0">
+                            <xsl:attribute name="type">
+                                <xsl:text></xsl:text>
+                            </xsl:attribute>
+                            <xsl:for-each select="./TextLine/String">
+                                <xsl:element name="lb" namespace="http://www.tei-c.org/ns/1.0"/>
                                 <xsl:value-of select="@CONTENT"/>
                                 <xsl:apply-templates/>
                             </xsl:for-each>
@@ -827,11 +3190,10 @@
                                 </xsl:when>
                                 <xsl:otherwise>
                                     <xsl:for-each select="@CONTENT">
-                                        <xsl:element name="l"
-                                            namespace="http://www.tei-c.org/ns/1.0">
-                                            <xsl:value-of select="."/>
-                                            <xsl:apply-templates/>
-                                        </xsl:element>
+                                        <xsl:element name="lb"
+                                            namespace="http://www.tei-c.org/ns/1.0"/>
+                                        <xsl:value-of select="."/>
+                                        <xsl:apply-templates/>
                                     </xsl:for-each>
                                 </xsl:otherwise>
                             </xsl:choose>
@@ -840,7 +3202,7 @@
                 </xsl:choose>
             </xsl:for-each>
         </xsl:element>
-        <xsl:if test="/alto/Layout/Page/PrintSpace/TextBlock/TextLine/@TAGREFS = 'LT40'">
+        <xsl:if test="Layout/Page/PrintSpace/TextBlock/TextLine/@TAGREFS = 'LT40'">
             <xsl:element name="trailer" namespace="http://www.tei-c.org/ns/1.0">
                 <xsl:for-each select="//String//ancestor::TextLine[@TAGREFS = 'LT40']">
                     <xsl:value-of select="./String/@CONTENT"/>
@@ -848,7 +3210,7 @@
                 </xsl:for-each>
             </xsl:element>
         </xsl:if>
-        <xsl:if test="/alto/Layout/Page/PrintSpace/TextBlock/@TAGREFS = 'BT28'">
+        <xsl:if test="Layout/Page/PrintSpace/TextBlock/@TAGREFS = 'BT28'">
             <xsl:element name="div" namespace="http://www.tei-c.org/ns/1.0">
                 <xsl:attribute name="type">
                     <xsl:text>colofon</xsl:text>
@@ -861,5 +3223,6 @@
                     </xsl:for-each>
                 </xsl:element>
             </xsl:element>
-        </xsl:if> </xsl:template>
+        </xsl:if>
+    </xsl:template>
 </xsl:stylesheet>
