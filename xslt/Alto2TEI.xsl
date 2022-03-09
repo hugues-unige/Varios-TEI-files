@@ -76,7 +76,7 @@
                                         <support>
                                             <dim>in-4</dim>
                                         </support>
-                                        <extent unite="página"> 4 </extent>
+                                        <extent unite="página"> 4</extent>
                                         <condition>Bueno</condition>
                                     </supportDesc>
                                     <layoutDesc>
@@ -147,11 +147,11 @@
                         </xsl:attribute>
                         <xsl:element name="graphic">
                             <xsl:attribute name="url">
-                                <xsl:text>www.portail_DH//arks:/</xsl:text>
-                                <xsl:text>f</xsl:text>
-                                <xsl:value-of
-                                    select="substring-before(substring(self::alto/Description/sourceImageInformation/fileName, 12), '.')"/>
-                                <xsl:text>/full/full/0/native.</xsl:text>
+                                 <xsl:text>https://iiif-dev.unige.ch/iiif/2/</xsl:text>
+                                                   <xsl:text>fedora/</xsl:text>
+                                                  
+                                
+                                <xsl:text>full/full/0/default.</xsl:text>
                                 <xsl:value-of
                                     select="substring-after(./Description/sourceImageInformation/fileName, '.')"
                                 />
@@ -198,10 +198,10 @@
                                             </xsl:analyze-string>
                                         </xsl:attribute>
                                         <xsl:attribute name="source">
-                                            <xsl:text>www.portail_DH//arks:/</xsl:text>
-                                            <xsl:text>f</xsl:text>
-                                            <xsl:value-of
-                                                select="substring-before(substring(ancestor-or-self::alto/Description/sourceImageInformation/fileName, 12), '.')"/>
+                                             <xsl:text>https://iiif-dev.unige.ch/iiif/2/</xsl:text>
+                                                   <xsl:text>fedora/</xsl:text>
+                                                  
+                                            
                                             <xsl:text>/</xsl:text>
                                             <xsl:value-of select="@HPOS"/>
                                             <xsl:text>,</xsl:text>
@@ -210,7 +210,7 @@
                                             <xsl:value-of select="@WIDTH"/>
                                             <xsl:text>,</xsl:text>
                                             <xsl:value-of select="@HEIGHT"/>
-                                            <xsl:text>/full/0/native</xsl:text>
+                                            <xsl:text>/full/0/default</xsl:text>
                                         </xsl:attribute>
                                         <xsl:attribute name="corresp">
                                             <xsl:value-of
@@ -255,11 +255,10 @@
                                                   </xsl:analyze-string>
                                                 </xsl:attribute>
                                                 <xsl:attribute name="source">
-                                                  <xsl:text>www.portail_DH//arks:/</xsl:text>
-                                                  <xsl:text>f</xsl:text>
-                                                  <xsl:value-of
-                                                  select="substring-before(substring(ancestor-or-self::alto/Description/sourceImageInformation/fileName, 12), '.')"/>
-                                                  <xsl:text>/</xsl:text>
+                                                   <xsl:text>https://iiif-dev.unige.ch/iiif/2/</xsl:text>
+                                                   <xsl:text>fedora/</xsl:text>
+                                                  
+                                                  
                                                   <xsl:value-of select="@HPOS"/>
                                                   <xsl:text>,</xsl:text>
                                                   <xsl:value-of select="@VPOS"/>
@@ -267,7 +266,7 @@
                                                   <xsl:value-of select="@WIDTH"/>
                                                   <xsl:text>,</xsl:text>
                                                   <xsl:value-of select="@HEIGHT"/>
-                                                  <xsl:text>/full/0/native</xsl:text>
+                                                  <xsl:text>/full/0/default</xsl:text>
                                                 </xsl:attribute>
                                                 <xsl:element name="path">
                                                   <xsl:attribute name="id">
@@ -346,10 +345,10 @@
                                             </xsl:analyze-string>
                                         </xsl:attribute>
                                         <xsl:attribute name="source">
-                                            <xsl:text>www.portail_DH//arks:/</xsl:text>
-                                            <xsl:text>f</xsl:text>
-                                            <xsl:value-of
-                                                select="substring-before(substring(ancestor-or-self::alto/Description/sourceImageInformation/fileName, 12), '.')"/>
+                                             <xsl:text>https://iiif-dev.unige.ch/iiif/2/</xsl:text>
+                                                   <xsl:text>fedora/</xsl:text>
+                                                  
+                                            
                                             <xsl:text>/</xsl:text>
                                             <xsl:value-of select="@HPOS"/>
                                             <xsl:text>,</xsl:text>
@@ -358,7 +357,7 @@
                                             <xsl:value-of select="@WIDTH"/>
                                             <xsl:text>,</xsl:text>
                                             <xsl:value-of select="@HEIGHT"/>
-                                            <xsl:text>/full/0/native</xsl:text>
+                                            <xsl:text>/full/0/default</xsl:text>
                                         </xsl:attribute>
                                         <xsl:attribute name="corresp">
                                             <xsl:value-of
@@ -407,11 +406,10 @@
                                                   </xsl:analyze-string>
                                                   </xsl:attribute>
                                                   <xsl:attribute name="source">
-                                                  <xsl:text>www.portail_DH//arks:/</xsl:text>
-                                                  <xsl:text>f</xsl:text>
-                                                  <xsl:value-of
-                                                  select="substring-before(substring(ancestor-or-self::alto/Description/sourceImageInformation/fileName, 12), '.')"/>
-                                                  <xsl:text>/</xsl:text>
+                                                   <xsl:text>https://iiif-dev.unige.ch/iiif/2/</xsl:text>
+                                                   <xsl:text>fedora/</xsl:text>
+                                                  
+                                                  
                                                   <xsl:value-of select="@HPOS"/>
                                                   <xsl:text>,</xsl:text>
                                                   <xsl:value-of select="@VPOS"/>
@@ -419,7 +417,7 @@
                                                   <xsl:value-of select="@WIDTH"/>
                                                   <xsl:text>,</xsl:text>
                                                   <xsl:value-of select="@HEIGHT"/>
-                                                  <xsl:text>/full/0/native</xsl:text>
+                                                  <xsl:text>/full/0/default</xsl:text>
                                                   </xsl:attribute>
                                                   <xsl:element name="path">
                                                   <xsl:attribute name="id">
@@ -495,11 +493,10 @@
                                                   </xsl:analyze-string>
                                                   </xsl:attribute>
                                                   <xsl:attribute name="source">
-                                                  <xsl:text>www.portail_DH//arks:/</xsl:text>
-                                                  <xsl:text>f</xsl:text>
-                                                  <xsl:value-of
-                                                  select="substring-before(substring(ancestor-or-self::alto/Description/sourceImageInformation/fileName, 12), '.')"/>
-                                                  <xsl:text>/</xsl:text>
+                                                   <xsl:text>https://iiif-dev.unige.ch/iiif/2/</xsl:text>
+                                                   <xsl:text>fedora/</xsl:text>
+                                                  
+                                                  
                                                   <xsl:value-of select="@HPOS"/>
                                                   <xsl:text>,</xsl:text>
                                                   <xsl:value-of select="@VPOS"/>
@@ -507,7 +504,7 @@
                                                   <xsl:value-of select="@WIDTH"/>
                                                   <xsl:text>,</xsl:text>
                                                   <xsl:value-of select="@HEIGHT"/>
-                                                  <xsl:text>/full/0/native</xsl:text>
+                                                  <xsl:text>/full/0/default</xsl:text>
                                                   </xsl:attribute>
                                                   <xsl:element name="path">
                                                   <xsl:attribute name="id">
@@ -581,11 +578,10 @@
                                                   </xsl:analyze-string>
                                                   </xsl:attribute>
                                                   <xsl:attribute name="source">
-                                                  <xsl:text>www.portail_DH//arks:/</xsl:text>
-                                                  <xsl:text>f</xsl:text>
-                                                  <xsl:value-of
-                                                  select="substring-before(substring(ancestor-or-self::alto/Description/sourceImageInformation/fileName, 12), '.')"/>
-                                                  <xsl:text>/</xsl:text>
+                                                   <xsl:text>https://iiif-dev.unige.ch/iiif/2/</xsl:text>
+                                                   <xsl:text>fedora/</xsl:text>
+                                                  
+                                                  
                                                   <xsl:value-of select="@HPOS"/>
                                                   <xsl:text>,</xsl:text>
                                                   <xsl:value-of select="@VPOS"/>
@@ -593,7 +589,7 @@
                                                   <xsl:value-of select="@WIDTH"/>
                                                   <xsl:text>,</xsl:text>
                                                   <xsl:value-of select="@HEIGHT"/>
-                                                  <xsl:text>/full/0/native</xsl:text>
+                                                  <xsl:text>/full/0/default</xsl:text>
                                                   </xsl:attribute>
                                                   <xsl:element name="path">
                                                   <xsl:attribute name="id">
@@ -667,11 +663,10 @@
                                                   </xsl:analyze-string>
                                                   </xsl:attribute>
                                                   <xsl:attribute name="source">
-                                                  <xsl:text>www.portail_DH//arks:/</xsl:text>
-                                                  <xsl:text>f</xsl:text>
-                                                  <xsl:value-of
-                                                  select="substring-before(substring(ancestor-or-self::alto/Description/sourceImageInformation/fileName, 12), '.')"/>
-                                                  <xsl:text>/</xsl:text>
+                                                   <xsl:text>https://iiif-dev.unige.ch/iiif/2/</xsl:text>
+                                                   <xsl:text>fedora/</xsl:text>
+                                                  
+                                                  
                                                   <xsl:value-of select="@HPOS"/>
                                                   <xsl:text>,</xsl:text>
                                                   <xsl:value-of select="@VPOS"/>
@@ -679,7 +674,7 @@
                                                   <xsl:value-of select="@WIDTH"/>
                                                   <xsl:text>,</xsl:text>
                                                   <xsl:value-of select="@HEIGHT"/>
-                                                  <xsl:text>/full/0/native</xsl:text>
+                                                  <xsl:text>/full/0/default</xsl:text>
                                                   </xsl:attribute>
                                                   <xsl:element name="path">
                                                   <xsl:attribute name="id">
@@ -763,10 +758,10 @@
                                             </xsl:analyze-string>
                                         </xsl:attribute>
                                         <xsl:attribute name="source">
-                                            <xsl:text>www.portail_DH//arks:/</xsl:text>
-                                            <xsl:text>f</xsl:text>
-                                            <xsl:value-of
-                                                select="substring-before(substring(ancestor-or-self::alto/Description/sourceImageInformation/fileName, 12), '.')"/>
+                                             <xsl:text>https://iiif-dev.unige.ch/iiif/2/</xsl:text>
+                                                   <xsl:text>fedora/</xsl:text>
+                                                  
+                                            
                                             <xsl:text>/</xsl:text>
                                             <xsl:value-of select="@HPOS"/>
                                             <xsl:text>,</xsl:text>
@@ -775,7 +770,7 @@
                                             <xsl:value-of select="@WIDTH"/>
                                             <xsl:text>,</xsl:text>
                                             <xsl:value-of select="@HEIGHT"/>
-                                            <xsl:text>/full/0/native</xsl:text>
+                                            <xsl:text>/full/0/default</xsl:text>
                                         </xsl:attribute>
                                         <xsl:attribute name="corresp">
                                             <xsl:value-of
@@ -824,11 +819,10 @@
                                                   </xsl:analyze-string>
                                                   </xsl:attribute>
                                                   <xsl:attribute name="source">
-                                                  <xsl:text>www.portail_DH//arks:/</xsl:text>
-                                                  <xsl:text>f</xsl:text>
-                                                  <xsl:value-of
-                                                  select="substring-before(substring(ancestor-or-self::alto/Description/sourceImageInformation/fileName, 12), '.')"/>
-                                                  <xsl:text>/</xsl:text>
+                                                   <xsl:text>https://iiif-dev.unige.ch/iiif/2/</xsl:text>
+                                                   <xsl:text>fedora/</xsl:text>
+                                                  
+                                                  
                                                   <xsl:value-of select="@HPOS"/>
                                                   <xsl:text>,</xsl:text>
                                                   <xsl:value-of select="@VPOS"/>
@@ -836,7 +830,7 @@
                                                   <xsl:value-of select="@WIDTH"/>
                                                   <xsl:text>,</xsl:text>
                                                   <xsl:value-of select="@HEIGHT"/>
-                                                  <xsl:text>/full/0/native</xsl:text>
+                                                  <xsl:text>/full/0/default</xsl:text>
                                                   </xsl:attribute>
                                                   <xsl:element name="path">
                                                   <xsl:attribute name="id">
@@ -912,11 +906,10 @@
                                                   </xsl:analyze-string>
                                                   </xsl:attribute>
                                                   <xsl:attribute name="source">
-                                                  <xsl:text>www.portail_DH//arks:/</xsl:text>
-                                                  <xsl:text>f</xsl:text>
-                                                  <xsl:value-of
-                                                  select="substring-before(substring(ancestor-or-self::alto/Description/sourceImageInformation/fileName, 12), '.')"/>
-                                                  <xsl:text>/</xsl:text>
+                                                   <xsl:text>https://iiif-dev.unige.ch/iiif/2/</xsl:text>
+                                                   <xsl:text>fedora/</xsl:text>
+                                                  
+                                                  
                                                   <xsl:value-of select="@HPOS"/>
                                                   <xsl:text>,</xsl:text>
                                                   <xsl:value-of select="@VPOS"/>
@@ -924,7 +917,7 @@
                                                   <xsl:value-of select="@WIDTH"/>
                                                   <xsl:text>,</xsl:text>
                                                   <xsl:value-of select="@HEIGHT"/>
-                                                  <xsl:text>/full/0/native</xsl:text>
+                                                  <xsl:text>/full/0/default</xsl:text>
                                                   </xsl:attribute>
                                                   <xsl:element name="path">
                                                   <xsl:attribute name="id">
@@ -998,11 +991,10 @@
                                                   </xsl:analyze-string>
                                                   </xsl:attribute>
                                                   <xsl:attribute name="source">
-                                                  <xsl:text>www.portail_DH//arks:/</xsl:text>
-                                                  <xsl:text>f</xsl:text>
-                                                  <xsl:value-of
-                                                  select="substring-before(substring(ancestor-or-self::alto/Description/sourceImageInformation/fileName, 12), '.')"/>
-                                                  <xsl:text>/</xsl:text>
+                                                   <xsl:text>https://iiif-dev.unige.ch/iiif/2/</xsl:text>
+                                                   <xsl:text>fedora/</xsl:text>
+                                                  
+                                                  
                                                   <xsl:value-of select="@HPOS"/>
                                                   <xsl:text>,</xsl:text>
                                                   <xsl:value-of select="@VPOS"/>
@@ -1010,7 +1002,7 @@
                                                   <xsl:value-of select="@WIDTH"/>
                                                   <xsl:text>,</xsl:text>
                                                   <xsl:value-of select="@HEIGHT"/>
-                                                  <xsl:text>/full/0/native</xsl:text>
+                                                  <xsl:text>/full/0/default</xsl:text>
                                                   </xsl:attribute>
                                                   <xsl:element name="path">
                                                   <xsl:attribute name="id">
@@ -1084,11 +1076,10 @@
                                                   </xsl:analyze-string>
                                                   </xsl:attribute>
                                                   <xsl:attribute name="source">
-                                                  <xsl:text>www.portail_DH//arks:/</xsl:text>
-                                                  <xsl:text>f</xsl:text>
-                                                  <xsl:value-of
-                                                  select="substring-before(substring(ancestor-or-self::alto/Description/sourceImageInformation/fileName, 12), '.')"/>
-                                                  <xsl:text>/</xsl:text>
+                                                   <xsl:text>https://iiif-dev.unige.ch/iiif/2/</xsl:text>
+                                                   <xsl:text>fedora/</xsl:text>
+                                                  
+                                                  
                                                   <xsl:value-of select="@HPOS"/>
                                                   <xsl:text>,</xsl:text>
                                                   <xsl:value-of select="@VPOS"/>
@@ -1096,7 +1087,7 @@
                                                   <xsl:value-of select="@WIDTH"/>
                                                   <xsl:text>,</xsl:text>
                                                   <xsl:value-of select="@HEIGHT"/>
-                                                  <xsl:text>/full/0/native</xsl:text>
+                                                  <xsl:text>/full/0/default</xsl:text>
                                                   </xsl:attribute>
                                                   <xsl:element name="path">
                                                   <xsl:attribute name="id">
@@ -1177,10 +1168,10 @@
                                             </xsl:analyze-string>
                                         </xsl:attribute>
                                         <xsl:attribute name="source">
-                                            <xsl:text>www.portail_DH//arks:/</xsl:text>
-                                            <xsl:text>f</xsl:text>
-                                            <xsl:value-of
-                                                select="substring-before(substring(ancestor-or-self::alto/Description/sourceImageInformation/fileName, 12), '.')"/>
+                                             <xsl:text>https://iiif-dev.unige.ch/iiif/2/</xsl:text>
+                                                   <xsl:text>fedora/</xsl:text>
+                                                  
+                                            
                                             <xsl:text>/</xsl:text>
                                             <xsl:value-of select="@HPOS"/>
                                             <xsl:text>,</xsl:text>
@@ -1189,7 +1180,7 @@
                                             <xsl:value-of select="@WIDTH"/>
                                             <xsl:text>,</xsl:text>
                                             <xsl:value-of select="@HEIGHT"/>
-                                            <xsl:text>/full/0/native</xsl:text>
+                                            <xsl:text>/full/0/default</xsl:text>
                                         </xsl:attribute>
                                         <xsl:attribute name="corresp">
                                             <xsl:value-of
@@ -1239,10 +1230,10 @@
                                             </xsl:analyze-string>
                                         </xsl:attribute>
                                         <xsl:attribute name="source">
-                                            <xsl:text>www.portail_DH//arks:/</xsl:text>
-                                            <xsl:text>f</xsl:text>
-                                            <xsl:value-of
-                                                select="substring-before(substring(ancestor-or-self::alto/Description/sourceImageInformation/fileName, 12), '.')"/>
+                                             <xsl:text>https://iiif-dev.unige.ch/iiif/2/</xsl:text>
+                                                   <xsl:text>fedora/</xsl:text>
+                                                  
+                                            
                                             <xsl:text>/</xsl:text>
                                             <xsl:value-of select="@HPOS"/>
                                             <xsl:text>,</xsl:text>
@@ -1251,7 +1242,7 @@
                                             <xsl:value-of select="@WIDTH"/>
                                             <xsl:text>,</xsl:text>
                                             <xsl:value-of select="@HEIGHT"/>
-                                            <xsl:text>/full/0/native</xsl:text>
+                                            <xsl:text>/full/0/default</xsl:text>
                                         </xsl:attribute>
                                         <xsl:attribute name="corresp">
                                             <xsl:value-of
@@ -1301,10 +1292,10 @@
                                             </xsl:analyze-string>
                                         </xsl:attribute>
                                         <xsl:attribute name="source">
-                                            <xsl:text>www.portail_DH//arks:/</xsl:text>
-                                            <xsl:text>f</xsl:text>
-                                            <xsl:value-of
-                                                select="substring-before(substring(ancestor-or-self::alto/Description/sourceImageInformation/fileName, 12), '.')"/>
+                                             <xsl:text>https://iiif-dev.unige.ch/iiif/2/</xsl:text>
+                                                   <xsl:text>fedora/</xsl:text>
+                                                  
+                                            
                                             <xsl:text>/</xsl:text>
                                             <xsl:value-of select="@HPOS"/>
                                             <xsl:text>,</xsl:text>
@@ -1313,7 +1304,7 @@
                                             <xsl:value-of select="@WIDTH"/>
                                             <xsl:text>,</xsl:text>
                                             <xsl:value-of select="@HEIGHT"/>
-                                            <xsl:text>/full/0/native</xsl:text>
+                                            <xsl:text>/full/0/default</xsl:text>
                                         </xsl:attribute>
                                         <xsl:attribute name="corresp">
                                             <xsl:value-of
@@ -1358,11 +1349,10 @@
                                                   </xsl:analyze-string>
                                                 </xsl:attribute>
                                                 <xsl:attribute name="source">
-                                                  <xsl:text>www.portail_DH//arks:/</xsl:text>
-                                                  <xsl:text>f</xsl:text>
-                                                  <xsl:value-of
-                                                  select="substring-before(substring(ancestor-or-self::alto/Description/sourceImageInformation/fileName, 12), '.')"/>
-                                                  <xsl:text>/</xsl:text>
+                                                   <xsl:text>https://iiif-dev.unige.ch/iiif/2/</xsl:text>
+                                                   <xsl:text>fedora/</xsl:text>
+                                                  
+                                                  
                                                   <xsl:value-of select="@HPOS"/>
                                                   <xsl:text>,</xsl:text>
                                                   <xsl:value-of select="@VPOS"/>
@@ -1370,7 +1360,7 @@
                                                   <xsl:value-of select="@WIDTH"/>
                                                   <xsl:text>,</xsl:text>
                                                   <xsl:value-of select="@HEIGHT"/>
-                                                  <xsl:text>/full/0/native</xsl:text>
+                                                  <xsl:text>/full/0/default</xsl:text>
                                                 </xsl:attribute>
                                                 <xsl:element name="path">
                                                   <xsl:attribute name="id">
@@ -1451,10 +1441,10 @@
                                             </xsl:analyze-string>
                                         </xsl:attribute>
                                         <xsl:attribute name="source">
-                                            <xsl:text>www.portail_DH//arks:/</xsl:text>
-                                            <xsl:text>f</xsl:text>
-                                            <xsl:value-of
-                                                select="substring-before(substring(ancestor-or-self::alto/Description/sourceImageInformation/fileName, 12), '.')"/>
+                                             <xsl:text>https://iiif-dev.unige.ch/iiif/2/</xsl:text>
+                                                   <xsl:text>fedora/</xsl:text>
+                                                  
+                                            
                                             <xsl:text>/</xsl:text>
                                             <xsl:value-of select="@HPOS"/>
                                             <xsl:text>,</xsl:text>
@@ -1463,7 +1453,7 @@
                                             <xsl:value-of select="@WIDTH"/>
                                             <xsl:text>,</xsl:text>
                                             <xsl:value-of select="@HEIGHT"/>
-                                            <xsl:text>/full/0/native</xsl:text>
+                                            <xsl:text>/full/0/default</xsl:text>
                                         </xsl:attribute>
                                         <xsl:attribute name="corresp">
                                             <xsl:value-of
@@ -1508,11 +1498,10 @@
                                                   </xsl:analyze-string>
                                                 </xsl:attribute>
                                                 <xsl:attribute name="source">
-                                                  <xsl:text>www.portail_DH//arks:/</xsl:text>
-                                                  <xsl:text>f</xsl:text>
-                                                  <xsl:value-of
-                                                  select="substring-before(substring(ancestor-or-self::alto/Description/sourceImageInformation/fileName, 12), '.')"/>
-                                                  <xsl:text>/</xsl:text>
+                                                   <xsl:text>https://iiif-dev.unige.ch/iiif/2/</xsl:text>
+                                                   <xsl:text>fedora/</xsl:text>
+                                                  
+                                                  
                                                   <xsl:value-of select="@HPOS"/>
                                                   <xsl:text>,</xsl:text>
                                                   <xsl:value-of select="@VPOS"/>
@@ -1520,7 +1509,7 @@
                                                   <xsl:value-of select="@WIDTH"/>
                                                   <xsl:text>,</xsl:text>
                                                   <xsl:value-of select="@HEIGHT"/>
-                                                  <xsl:text>/full/0/native</xsl:text>
+                                                  <xsl:text>/full/0/default</xsl:text>
                                                 </xsl:attribute>
                                                 <xsl:element name="path">
                                                   <xsl:attribute name="id">
@@ -1601,10 +1590,10 @@
                                             </xsl:analyze-string>
                                         </xsl:attribute>
                                         <xsl:attribute name="source">
-                                            <xsl:text>www.portail_DH//arks:/</xsl:text>
-                                            <xsl:text>f</xsl:text>
-                                            <xsl:value-of
-                                                select="substring-before(substring(ancestor-or-self::alto/Description/sourceImageInformation/fileName, 12), '.')"/>
+                                             <xsl:text>https://iiif-dev.unige.ch/iiif/2/</xsl:text>
+                                                   <xsl:text>fedora/</xsl:text>
+                                                  
+                                            
                                             <xsl:text>/</xsl:text>
                                             <xsl:value-of select="@HPOS"/>
                                             <xsl:text>,</xsl:text>
@@ -1613,7 +1602,7 @@
                                             <xsl:value-of select="@WIDTH"/>
                                             <xsl:text>,</xsl:text>
                                             <xsl:value-of select="@HEIGHT"/>
-                                            <xsl:text>/full/0/native</xsl:text>
+                                            <xsl:text>/full/0/default</xsl:text>
                                         </xsl:attribute>
                                         <xsl:attribute name="corresp">
                                             <xsl:value-of
@@ -1663,10 +1652,10 @@
                                             </xsl:analyze-string>
                                         </xsl:attribute>
                                         <xsl:attribute name="source">
-                                            <xsl:text>www.portail_DH//arks:/</xsl:text>
-                                            <xsl:text>f</xsl:text>
-                                            <xsl:value-of
-                                                select="substring-before(substring(ancestor-or-self::alto/Description/sourceImageInformation/fileName, 12), '.')"/>
+                                             <xsl:text>https://iiif-dev.unige.ch/iiif/2/</xsl:text>
+                                                   <xsl:text>fedora/</xsl:text>
+                                                  
+                                            
                                             <xsl:text>/</xsl:text>
                                             <xsl:value-of select="@HPOS"/>
                                             <xsl:text>,</xsl:text>
@@ -1675,7 +1664,7 @@
                                             <xsl:value-of select="@WIDTH"/>
                                             <xsl:text>,</xsl:text>
                                             <xsl:value-of select="@HEIGHT"/>
-                                            <xsl:text>/full/0/native</xsl:text>
+                                            <xsl:text>/full/0/default</xsl:text>
                                         </xsl:attribute>
                                         <xsl:attribute name="corresp">
                                             <xsl:value-of
@@ -1720,11 +1709,10 @@
                                                   </xsl:analyze-string>
                                                 </xsl:attribute>
                                                 <xsl:attribute name="source">
-                                                  <xsl:text>www.portail_DH//arks:/</xsl:text>
-                                                  <xsl:text>f</xsl:text>
-                                                  <xsl:value-of
-                                                  select="substring-before(substring(ancestor-or-self::alto/Description/sourceImageInformation/fileName, 12), '.')"/>
-                                                  <xsl:text>/</xsl:text>
+                                                   <xsl:text>https://iiif-dev.unige.ch/iiif/2/</xsl:text>
+                                                   <xsl:text>fedora/</xsl:text>
+                                                  
+                                                  
                                                   <xsl:value-of select="@HPOS"/>
                                                   <xsl:text>,</xsl:text>
                                                   <xsl:value-of select="@VPOS"/>
@@ -1732,7 +1720,7 @@
                                                   <xsl:value-of select="@WIDTH"/>
                                                   <xsl:text>,</xsl:text>
                                                   <xsl:value-of select="@HEIGHT"/>
-                                                  <xsl:text>/full/0/native</xsl:text>
+                                                  <xsl:text>/full/0/default</xsl:text>
                                                 </xsl:attribute>
                                                 <xsl:element name="path">
                                                   <xsl:attribute name="id">
@@ -1813,10 +1801,10 @@
                                             </xsl:analyze-string>
                                         </xsl:attribute>
                                         <xsl:attribute name="source">
-                                            <xsl:text>www.portail_DH//arks:/</xsl:text>
-                                            <xsl:text>f</xsl:text>
-                                            <xsl:value-of
-                                                select="substring-before(substring(ancestor-or-self::alto/Description/sourceImageInformation/fileName, 12), '.')"/>
+                                             <xsl:text>https://iiif-dev.unige.ch/iiif/2/</xsl:text>
+                                                   <xsl:text>fedora/</xsl:text>
+                                                  
+                                            
                                             <xsl:text>/</xsl:text>
                                             <xsl:value-of select="@HPOS"/>
                                             <xsl:text>,</xsl:text>
@@ -1825,7 +1813,7 @@
                                             <xsl:value-of select="@WIDTH"/>
                                             <xsl:text>,</xsl:text>
                                             <xsl:value-of select="@HEIGHT"/>
-                                            <xsl:text>/full/0/native</xsl:text>
+                                            <xsl:text>/full/0/default</xsl:text>
                                         </xsl:attribute>
                                         <xsl:attribute name="corresp">
                                             <xsl:value-of
@@ -1870,11 +1858,10 @@
                                                   </xsl:analyze-string>
                                                 </xsl:attribute>
                                                 <xsl:attribute name="source">
-                                                  <xsl:text>www.portail_DH//arks:/</xsl:text>
-                                                  <xsl:text>f</xsl:text>
-                                                  <xsl:value-of
-                                                  select="substring-before(substring(ancestor-or-self::alto/Description/sourceImageInformation/fileName, 12), '.')"/>
-                                                  <xsl:text>/</xsl:text>
+                                                   <xsl:text>https://iiif-dev.unige.ch/iiif/2/</xsl:text>
+                                                   <xsl:text>fedora/</xsl:text>
+                                                  
+                                                  
                                                   <xsl:value-of select="@HPOS"/>
                                                   <xsl:text>,</xsl:text>
                                                   <xsl:value-of select="@VPOS"/>
@@ -1882,7 +1869,7 @@
                                                   <xsl:value-of select="@WIDTH"/>
                                                   <xsl:text>,</xsl:text>
                                                   <xsl:value-of select="@HEIGHT"/>
-                                                  <xsl:text>/full/0/native</xsl:text>
+                                                  <xsl:text>/full/0/default</xsl:text>
                                                 </xsl:attribute>
                                                 <xsl:element name="path">
                                                   <xsl:attribute name="id">
@@ -1963,10 +1950,10 @@
                                             </xsl:analyze-string>
                                         </xsl:attribute>
                                         <xsl:attribute name="source">
-                                            <xsl:text>www.portail_DH//arks:/</xsl:text>
-                                            <xsl:text>f</xsl:text>
-                                            <xsl:value-of
-                                                select="substring-before(substring(ancestor-or-self::alto/Description/sourceImageInformation/fileName, 12), '.')"/>
+                                             <xsl:text>https://iiif-dev.unige.ch/iiif/2/</xsl:text>
+                                                   <xsl:text>fedora/</xsl:text>
+                                                  
+                                            
                                             <xsl:text>/</xsl:text>
                                             <xsl:value-of select="@HPOS"/>
                                             <xsl:text>,</xsl:text>
@@ -1975,7 +1962,7 @@
                                             <xsl:value-of select="@WIDTH"/>
                                             <xsl:text>,</xsl:text>
                                             <xsl:value-of select="@HEIGHT"/>
-                                            <xsl:text>/full/0/native</xsl:text>
+                                            <xsl:text>/full/0/default</xsl:text>
                                         </xsl:attribute>
                                         <xsl:attribute name="corresp">
                                             <xsl:value-of
@@ -2020,11 +2007,10 @@
                                                   </xsl:analyze-string>
                                                 </xsl:attribute>
                                                 <xsl:attribute name="source">
-                                                  <xsl:text>www.portail_DH//arks:/</xsl:text>
-                                                  <xsl:text>f</xsl:text>
-                                                  <xsl:value-of
-                                                  select="substring-before(substring(ancestor-or-self::alto/Description/sourceImageInformation/fileName, 12), '.')"/>
-                                                  <xsl:text>/</xsl:text>
+                                                   <xsl:text>https://iiif-dev.unige.ch/iiif/2/</xsl:text>
+                                                   <xsl:text>fedora/</xsl:text>
+                                                  
+                                                  
                                                   <xsl:value-of select="@HPOS"/>
                                                   <xsl:text>,</xsl:text>
                                                   <xsl:value-of select="@VPOS"/>
@@ -2032,7 +2018,7 @@
                                                   <xsl:value-of select="@WIDTH"/>
                                                   <xsl:text>,</xsl:text>
                                                   <xsl:value-of select="@HEIGHT"/>
-                                                  <xsl:text>/full/0/native</xsl:text>
+                                                  <xsl:text>/full/0/default</xsl:text>
                                                 </xsl:attribute>
                                                 <xsl:element name="path">
                                                   <xsl:attribute name="id">
@@ -2113,10 +2099,10 @@
                                             </xsl:analyze-string>
                                         </xsl:attribute>
                                         <xsl:attribute name="source">
-                                            <xsl:text>www.portail_DH//arks:/</xsl:text>
-                                            <xsl:text>f</xsl:text>
-                                            <xsl:value-of
-                                                select="substring-before(substring(ancestor-or-self::alto/Description/sourceImageInformation/fileName, 12), '.')"/>
+                                             <xsl:text>https://iiif-dev.unige.ch/iiif/2/</xsl:text>
+                                                   <xsl:text>fedora/</xsl:text>
+                                                  
+                                            
                                             <xsl:text>/</xsl:text>
                                             <xsl:value-of select="@HPOS"/>
                                             <xsl:text>,</xsl:text>
@@ -2125,7 +2111,7 @@
                                             <xsl:value-of select="@WIDTH"/>
                                             <xsl:text>,</xsl:text>
                                             <xsl:value-of select="@HEIGHT"/>
-                                            <xsl:text>/full/0/native</xsl:text>
+                                            <xsl:text>/full/0/default</xsl:text>
                                         </xsl:attribute>
                                         <xsl:attribute name="corresp">
                                             <xsl:value-of
@@ -2170,11 +2156,10 @@
                                                   </xsl:analyze-string>
                                                 </xsl:attribute>
                                                 <xsl:attribute name="source">
-                                                  <xsl:text>www.portail_DH//arks:/</xsl:text>
-                                                  <xsl:text>f</xsl:text>
-                                                  <xsl:value-of
-                                                  select="substring-before(substring(ancestor-or-self::alto/Description/sourceImageInformation/fileName, 12), '.')"/>
-                                                  <xsl:text>/</xsl:text>
+                                                   <xsl:text>https://iiif-dev.unige.ch/iiif/2/</xsl:text>
+                                                   <xsl:text>fedora/</xsl:text>
+                                                  
+                                                  
                                                   <xsl:value-of select="@HPOS"/>
                                                   <xsl:text>,</xsl:text>
                                                   <xsl:value-of select="@VPOS"/>
@@ -2182,7 +2167,7 @@
                                                   <xsl:value-of select="@WIDTH"/>
                                                   <xsl:text>,</xsl:text>
                                                   <xsl:value-of select="@HEIGHT"/>
-                                                  <xsl:text>/full/0/native</xsl:text>
+                                                  <xsl:text>/full/0/default</xsl:text>
                                                 </xsl:attribute>
                                                 <xsl:element name="path">
                                                   <xsl:attribute name="id">
@@ -2263,10 +2248,10 @@
                                             </xsl:analyze-string>
                                         </xsl:attribute>
                                         <xsl:attribute name="source">
-                                            <xsl:text>www.portail_DH//arks:/</xsl:text>
-                                            <xsl:text>f</xsl:text>
-                                            <xsl:value-of
-                                                select="substring-before(substring(ancestor-or-self::alto/Description/sourceImageInformation/fileName, 12), '.')"/>
+                                             <xsl:text>https://iiif-dev.unige.ch/iiif/2/</xsl:text>
+                                                   <xsl:text>fedora/</xsl:text>
+                                                  
+                                            
                                             <xsl:text>/</xsl:text>
                                             <xsl:value-of select="@HPOS"/>
                                             <xsl:text>,</xsl:text>
@@ -2275,7 +2260,7 @@
                                             <xsl:value-of select="@WIDTH"/>
                                             <xsl:text>,</xsl:text>
                                             <xsl:value-of select="@HEIGHT"/>
-                                            <xsl:text>/full/0/native</xsl:text>
+                                            <xsl:text>/full/0/default</xsl:text>
                                         </xsl:attribute>
                                         <xsl:attribute name="corresp">
                                             <xsl:value-of
@@ -2320,11 +2305,10 @@
                                                   </xsl:analyze-string>
                                                 </xsl:attribute>
                                                 <xsl:attribute name="source">
-                                                  <xsl:text>www.portail_DH//arks:/</xsl:text>
-                                                  <xsl:text>f</xsl:text>
-                                                  <xsl:value-of
-                                                  select="substring-before(substring(ancestor-or-self::alto/Description/sourceImageInformation/fileName, 12), '.')"/>
-                                                  <xsl:text>/</xsl:text>
+                                                   <xsl:text>https://iiif-dev.unige.ch/iiif/2/</xsl:text>
+                                                   <xsl:text>fedora/</xsl:text>
+                                                  
+                                                  
                                                   <xsl:value-of select="@HPOS"/>
                                                   <xsl:text>,</xsl:text>
                                                   <xsl:value-of select="@VPOS"/>
@@ -2332,7 +2316,7 @@
                                                   <xsl:value-of select="@WIDTH"/>
                                                   <xsl:text>,</xsl:text>
                                                   <xsl:value-of select="@HEIGHT"/>
-                                                  <xsl:text>/full/0/native</xsl:text>
+                                                  <xsl:text>/full/0/default</xsl:text>
                                                 </xsl:attribute>
                                                 <xsl:element name="path">
                                                   <xsl:attribute name="id">
@@ -2413,10 +2397,10 @@
                                             </xsl:analyze-string>
                                         </xsl:attribute>
                                         <xsl:attribute name="source">
-                                            <xsl:text>www.portail_DH//arks:/</xsl:text>
-                                            <xsl:text>f</xsl:text>
-                                            <xsl:value-of
-                                                select="substring-before(substring(ancestor-or-self::alto/Description/sourceImageInformation/fileName, 12), '.')"/>
+                                             <xsl:text>https://iiif-dev.unige.ch/iiif/2/</xsl:text>
+                                                   <xsl:text>fedora/</xsl:text>
+                                                  
+                                            
                                             <xsl:text>/</xsl:text>
                                             <xsl:value-of select="@HPOS"/>
                                             <xsl:text>,</xsl:text>
@@ -2425,7 +2409,7 @@
                                             <xsl:value-of select="@WIDTH"/>
                                             <xsl:text>,</xsl:text>
                                             <xsl:value-of select="@HEIGHT"/>
-                                            <xsl:text>/full/0/native</xsl:text>
+                                            <xsl:text>/full/0/default</xsl:text>
                                         </xsl:attribute>
                                         <xsl:attribute name="corresp">
                                             <xsl:value-of
@@ -2474,11 +2458,10 @@
                                                   </xsl:analyze-string>
                                                   </xsl:attribute>
                                                   <xsl:attribute name="source">
-                                                  <xsl:text>www.portail_DH//arks:/</xsl:text>
-                                                  <xsl:text>f</xsl:text>
-                                                  <xsl:value-of
-                                                  select="substring-before(substring(ancestor-or-self::alto/Description/sourceImageInformation/fileName, 12), '.')"/>
-                                                  <xsl:text>/</xsl:text>
+                                                   <xsl:text>https://iiif-dev.unige.ch/iiif/2/</xsl:text>
+                                                   <xsl:text>fedora/</xsl:text>
+                                                  
+                                                  
                                                   <xsl:value-of select="@HPOS"/>
                                                   <xsl:text>,</xsl:text>
                                                   <xsl:value-of select="@VPOS"/>
@@ -2486,7 +2469,7 @@
                                                   <xsl:value-of select="@WIDTH"/>
                                                   <xsl:text>,</xsl:text>
                                                   <xsl:value-of select="@HEIGHT"/>
-                                                  <xsl:text>/full/0/native</xsl:text>
+                                                  <xsl:text>/full/0/default</xsl:text>
                                                   </xsl:attribute>
                                                   <xsl:element name="path">
                                                   <xsl:attribute name="id">
@@ -2562,11 +2545,10 @@
                                                   </xsl:analyze-string>
                                                   </xsl:attribute>
                                                   <xsl:attribute name="source">
-                                                  <xsl:text>www.portail_DH//arks:/</xsl:text>
-                                                  <xsl:text>f</xsl:text>
-                                                  <xsl:value-of
-                                                  select="substring-before(substring(ancestor-or-self::alto/Description/sourceImageInformation/fileName, 12), '.')"/>
-                                                  <xsl:text>/</xsl:text>
+                                                   <xsl:text>https://iiif-dev.unige.ch/iiif/2/</xsl:text>
+                                                   <xsl:text>fedora/</xsl:text>
+                                                  
+                                                  
                                                   <xsl:value-of select="@HPOS"/>
                                                   <xsl:text>,</xsl:text>
                                                   <xsl:value-of select="@VPOS"/>
@@ -2574,7 +2556,7 @@
                                                   <xsl:value-of select="@WIDTH"/>
                                                   <xsl:text>,</xsl:text>
                                                   <xsl:value-of select="@HEIGHT"/>
-                                                  <xsl:text>/full/0/native</xsl:text>
+                                                  <xsl:text>/full/0/default</xsl:text>
                                                   </xsl:attribute>
                                                   <xsl:element name="path">
                                                   <xsl:attribute name="id">
@@ -2648,11 +2630,10 @@
                                                   </xsl:analyze-string>
                                                   </xsl:attribute>
                                                   <xsl:attribute name="source">
-                                                  <xsl:text>www.portail_DH//arks:/</xsl:text>
-                                                  <xsl:text>f</xsl:text>
-                                                  <xsl:value-of
-                                                  select="substring-before(substring(ancestor-or-self::alto/Description/sourceImageInformation/fileName, 12), '.')"/>
-                                                  <xsl:text>/</xsl:text>
+                                                   <xsl:text>https://iiif-dev.unige.ch/iiif/2/</xsl:text>
+                                                   <xsl:text>fedora/</xsl:text>
+                                                  
+                                                  
                                                   <xsl:value-of select="@HPOS"/>
                                                   <xsl:text>,</xsl:text>
                                                   <xsl:value-of select="@VPOS"/>
@@ -2660,7 +2641,7 @@
                                                   <xsl:value-of select="@WIDTH"/>
                                                   <xsl:text>,</xsl:text>
                                                   <xsl:value-of select="@HEIGHT"/>
-                                                  <xsl:text>/full/0/native</xsl:text>
+                                                  <xsl:text>/full/0/default</xsl:text>
                                                   </xsl:attribute>
                                                   <xsl:element name="path">
                                                   <xsl:attribute name="id">
@@ -2734,11 +2715,10 @@
                                                   </xsl:analyze-string>
                                                   </xsl:attribute>
                                                   <xsl:attribute name="source">
-                                                  <xsl:text>www.portail_DH//arks:/</xsl:text>
-                                                  <xsl:text>f</xsl:text>
-                                                  <xsl:value-of
-                                                  select="substring-before(substring(ancestor-or-self::alto/Description/sourceImageInformation/fileName, 12), '.')"/>
-                                                  <xsl:text>/</xsl:text>
+                                                   <xsl:text>https://iiif-dev.unige.ch/iiif/2/</xsl:text>
+                                                   <xsl:text>fedora/</xsl:text>
+                                                  
+                                                  
                                                   <xsl:value-of select="@HPOS"/>
                                                   <xsl:text>,</xsl:text>
                                                   <xsl:value-of select="@VPOS"/>
@@ -2746,7 +2726,7 @@
                                                   <xsl:value-of select="@WIDTH"/>
                                                   <xsl:text>,</xsl:text>
                                                   <xsl:value-of select="@HEIGHT"/>
-                                                  <xsl:text>/full/0/native</xsl:text>
+                                                  <xsl:text>/full/0/default</xsl:text>
                                                   </xsl:attribute>
                                                   <xsl:element name="path">
                                                   <xsl:attribute name="id">
@@ -2829,10 +2809,10 @@
                                             </xsl:analyze-string>
                                         </xsl:attribute>
                                         <xsl:attribute name="source">
-                                            <xsl:text>www.portail_DH//arks:/</xsl:text>
-                                            <xsl:text>f</xsl:text>
-                                            <xsl:value-of
-                                                select="substring-before(substring(ancestor-or-self::alto/Description/sourceImageInformation/fileName, 12), '.')"/>
+                                             <xsl:text>https://iiif-dev.unige.ch/iiif/2/</xsl:text>
+                                                   <xsl:text>fedora/</xsl:text>
+                                                  
+                                            
                                             <xsl:text>/</xsl:text>
                                             <xsl:value-of select="@HPOS"/>
                                             <xsl:text>,</xsl:text>
@@ -2841,7 +2821,7 @@
                                             <xsl:value-of select="@WIDTH"/>
                                             <xsl:text>,</xsl:text>
                                             <xsl:value-of select="@HEIGHT"/>
-                                            <xsl:text>/full/0/native</xsl:text>
+                                            <xsl:text>/full/0/default</xsl:text>
                                         </xsl:attribute>
                                         <xsl:attribute name="corresp">
                                             <xsl:value-of
@@ -2888,11 +2868,10 @@
                                                   </xsl:analyze-string>
                                                 </xsl:attribute>
                                                 <xsl:attribute name="source">
-                                                  <xsl:text>www.portail_DH//arks:/</xsl:text>
-                                                  <xsl:text>f</xsl:text>
-                                                  <xsl:value-of
-                                                  select="substring-before(substring(ancestor-or-self::alto/Description/sourceImageInformation/fileName, 12), '.')"/>
-                                                  <xsl:text>/</xsl:text>
+                                                   <xsl:text>https://iiif-dev.unige.ch/iiif/2/</xsl:text>
+                                                   <xsl:text>fedora/</xsl:text>
+                                                  
+                                                  
                                                   <xsl:value-of select="@HPOS"/>
                                                   <xsl:text>,</xsl:text>
                                                   <xsl:value-of select="@VPOS"/>
@@ -2900,7 +2879,7 @@
                                                   <xsl:value-of select="@WIDTH"/>
                                                   <xsl:text>,</xsl:text>
                                                   <xsl:value-of select="@HEIGHT"/>
-                                                  <xsl:text>/full/0/native</xsl:text>
+                                                  <xsl:text>/full/0/default</xsl:text>
                                                 </xsl:attribute>
                                                 <xsl:element name="path">
                                                   <xsl:attribute name="id">
