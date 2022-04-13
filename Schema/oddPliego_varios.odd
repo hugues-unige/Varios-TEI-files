@@ -132,19 +132,19 @@
           <moduleRef key="header"
             include=" authority appInfo application availability biblFull category change classDecl correction creation edition editionStmt editorialDecl encodingDesc extent fileDesc idno keywords language langUsage licence listPrefixDef namespace normalization prefixDef profileDesc projectDesc publicationStmt punctuation rendition revisionDesc sourceDesc taxonomy teiHeader textClass titleStmt"/>
           <moduleRef key="core"
-            include="add author choice corr date del desc expan foreign gap graphic head hi item l lb lg list name note orig p pb publisher pubPlace ref resp respStmt sic sp speaker stage term title unclear"/>
+            include="add author choice corr date del desc expan foreign gap graphic head hi item l lb lg list measure name note orig p pb publisher pubPlace ref resp respStmt sic sp speaker stage term title unclear"/>
           <moduleRef key="textstructure" include="body closer div front TEI text trailer"/>
           <moduleRef key="namesdates" include="country settlement"/>
           <moduleRef key="msdescription"
-            include="acquisition additions altIdentifier collection condition decoDesc decoNote dim history layout layoutDesc locus locusGrp material msContents msDesc msIdentifier msItem objectDesc origin physDesc provenance repository summary support supportDesc"/>
+            include="acquisition additions altIdentifier collection condition decoDesc decoNote dim history layout layoutDesc locus locusGrp material msContents msDesc msIdentifier msItem objectDesc origin physDesc provenance repository stamp summary support supportDesc"/>
           <moduleRef key="drama" include="castItem castList set"/>
           <moduleRef key="transcr"
-            include="am ex facsimile fw sourceDoc subst supplied surface surfaceGrp zone"/>
+            include="am ex facsimile fw line path sourceDoc subst supplied surface surfaceGrp zone"/>
           <moduleRef key="linking" except=""/>
 
           <elementSpec ident="div" mode="change">
             <attList>
-              <attDef ident="type" mode="change" usage="opt">
+              <attDef ident="type" mode="change">
                 <valList mode="add" type="open">
                   <valItem ident="colofon"/>
                   <valItem ident="productos_a_la_venta"/>
@@ -157,7 +157,7 @@
           
           <elementSpec ident="fw" mode="change">
             <attList>
-              <attDef ident="type" mode="change" usage="opt">
+              <attDef ident="type" mode="change">
                 <valList mode="add" type="open">
                   <valItem ident="impresorNum"/>
                   <valItem ident="paginaNum"/>
@@ -170,7 +170,7 @@
 
           <elementSpec ident="head" mode="change">
             <attList>
-              <attDef ident="type" mode="change" usage="opt">
+              <attDef ident="type" mode="change">
                 <valList mode="add" type="open">
                   <valItem ident="subtitulo"/>
                   <valItem ident="titulo_parte"/>
@@ -187,7 +187,7 @@
 
           <elementSpec ident="hi" mode="change">
             <attList>
-              <attDef ident="rend" mode="change" usage="opt">
+              <attDef ident="rend" mode="change">
                 <valList mode="add" type="open">
                   <valItem ident="cursiva"/>
                   <valItem ident="negrita"/>
@@ -198,7 +198,7 @@
           
           <elementSpec ident="material" mode="change">
             <attList>
-              <attDef ident="subtype" mode="change" usage="opt">
+              <attDef ident="subtype" mode="change">
                 <valList mode="add" type="open">
                   <valItem ident="verde"/>
                   <valItem ident="amarillo"/>
@@ -209,7 +209,7 @@
               </attDef>
             </attList>
           </elementSpec>
-
+          
           <!-- SegmOnto -->
           <elementSpec ident="TEI" mode="change">
             <constraintSpec ident="sourceDoc_check" scheme="schematron">
@@ -457,7 +457,6 @@
             </constraintSpec>
           </elementSpec>
 
-          <!-- À supprimer si pas utilisé-->
           <elementSpec ident="sourceDoc" mode="change">
             <constraintSpec ident="id_check" scheme="schematron">
               <constraint>
@@ -522,7 +521,6 @@
           <elementSpec ident="path" mode="change">
             <attList>
               <attDef ident="xml:id" mode="change" usage="req"/>
-              <attDef ident="type" mode="change" usage="req"/>
               <attDef ident="points" mode="change" usage="req"/>
             </attList>
           </elementSpec>
