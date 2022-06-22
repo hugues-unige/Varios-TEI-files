@@ -44,7 +44,7 @@
                             </editionStmt>
                             <publicationStmt>
                                 <publisher/>
-                                *À COMPLETER* Si nom 
+                                *À COMPLETER* / [s.n]
                                 <pubPlace ref="">
                                        # - Carmona:https://www.geonames.org/2520118/carmona.html 
                                         - Madrid :  https://www.geonames.org/3117735/madrid.html
@@ -55,7 +55,7 @@
                                         - Játiva : https://www.geonames.org/2516345/xativa.html 
                                     </pubPlace>
                                 <date cert=""/>
-                                *À COMPLETER* si date de pub
+                                *À COMPLETER* /  [s.a]
                             </publicationStmt>
                         </biblFull>
                         <msDesc>
@@ -125,9 +125,10 @@
                                             <xsl:attribute name="type">
                                                 <xsl:text>lista_grabados</xsl:text>
                                             </xsl:attribute>
+                                            <xsl:element name="list">
                                             <xsl:for-each
                                                 select="//alto/Layout/Page/PrintSpace/TextBlock[@TAGREFS = 'BT224']">
-                                                <xsl:element name="list">
+                                                <xsl:element name="item">
                                                   <xsl:attribute name="corresp">
                                                   <xsl:text>grabado_v_</xsl:text>
                                                   <xsl:value-of
@@ -136,8 +137,8 @@
                                                   <xsl:number format="1"
                                                   count="TextBlock[@TAGREFS = 'BT224']"
                                                   level="multiple"/>
+                                                  <xsl:text>.xml</xsl:text>
                                                   </xsl:attribute>
-                                                  <xsl:element name="item">
                                                   <xsl:text>grabado_v_</xsl:text>
                                                   <xsl:value-of
                                                   select="substring(//alto[1]/Description/sourceImageInformation/fileName, 8, 3)"/>
@@ -145,9 +146,9 @@
                                                   <xsl:number format="1"
                                                   count="TextBlock[@TAGREFS = 'BT224']"
                                                   level="multiple"/>
-                                                  </xsl:element>
                                                 </xsl:element>
                                             </xsl:for-each>
+                                        </xsl:element>
                                         </xsl:element>
                                     </xsl:if>
                                     <xsl:if
@@ -157,19 +158,11 @@
                                             <xsl:attribute name="type">
                                                 <xsl:text>lista_ornamentos</xsl:text>
                                             </xsl:attribute>
+                                            <xsl:element name="list">
                                             <xsl:for-each
                                                 select="//alto/Layout/Page/PrintSpace/TextBlock[@TAGREFS = 'BT225']">
-                                                <xsl:element name="list">
+                                                <xsl:element name="item">
                                                   <xsl:attribute name="corresp">
-                                                  <xsl:text>ornamento_v_</xsl:text>
-                                                  <xsl:value-of
-                                                  select="substring(//alto[1]/Description/sourceImageInformation/fileName, 8, 3)"/>
-                                                  <xsl:text>_</xsl:text>
-                                                  <xsl:number format="1"
-                                                  count="TextBlock[@TAGREFS = 'BT224']"
-                                                  level="multiple"/>
-                                                  </xsl:attribute>
-                                                  <xsl:element name="item">
                                                   <xsl:text>ornamento_v_</xsl:text>
                                                   <xsl:value-of
                                                   select="substring(//alto[1]/Description/sourceImageInformation/fileName, 8, 3)"/>
@@ -177,16 +170,24 @@
                                                   <xsl:number format="1"
                                                   count="TextBlock[@TAGREFS = 'BT225']"
                                                   level="multiple"/>
-                                                  </xsl:element>
+                                                  </xsl:attribute>
+                                                  <xsl:text>ornamento_v_</xsl:text>
+                                                  <xsl:value-of
+                                                  select="substring(//alto[1]/Description/sourceImageInformation/fileName, 8, 3)"/>
+                                                  <xsl:text>_</xsl:text>
+                                                  <xsl:number format="1"
+                                                  count="TextBlock[@TAGREFS = 'BT225']"
+                                                  level="multiple"/>
                                                 </xsl:element>
                                             </xsl:for-each>
+                                        </xsl:element>
                                         </xsl:element>
                                     </xsl:if>
                                 </decoDesc>
                                 <additions> *À COMPLETER* Quand l’adresse de vente a été remplacée par une autre ( papier collé) + plus pour les cachets ? </additions>
                             </physDesc>
                             <history>
-                                <origin> <p>*À COMPLETER*:nom de l’imprimeur + @xml:id</p>
+                                <origin> <p>*À COMPLETER*:nom de l’imprimeur </p>
                                 </origin>
                                 <provenance><p>*À COMPLETER*: nom du vendeur ( si plusieurs vendeurs le premier supposé)</p>
                                 </provenance>
@@ -316,13 +317,13 @@
                                             <xsl:value-of
                                                 select="substring-before(ancestor-or-self::alto/Description/sourceImageInformation/fileName, '.')"/>
                                             <xsl:text>/</xsl:text>
-                                            <xsl:value-of select="@HPOS"/>
+                                            <xsl:value-of select="substring-before(@HPOS,'.')"/>
                                             <xsl:text>,</xsl:text>
-                                            <xsl:value-of select="@VPOS"/>
+                                            <xsl:value-of select="substring-before(@VPOS,'.')"/>
                                             <xsl:text>,</xsl:text>
-                                            <xsl:value-of select="@WIDTH"/>
+                                            <xsl:value-of select="substring-before(@WIDTH,'.')"/>
                                             <xsl:text>,</xsl:text>
-                                            <xsl:value-of select="@HEIGHT"/>
+                                            <xsl:value-of select="substring-before(@HEIGHT,'.')"/>
                                             <xsl:text>/full/0/default</xsl:text>
                                         </xsl:attribute>
                                         <xsl:attribute name="corresp">
@@ -371,13 +372,13 @@
                                                   <xsl:value-of
                                                   select="substring-before(ancestor-or-self::alto/Description/sourceImageInformation/fileName, '.')"/>
                                                   <xsl:text>/</xsl:text>
-                                                  <xsl:value-of select="@HPOS"/>
+<xsl:value-of select="substring-before(@HPOS,'.')"/>
                                                   <xsl:text>,</xsl:text>
-                                                  <xsl:value-of select="@VPOS"/>
+                                                  <xsl:value-of select="substring-before(@VPOS,'.')"/>
                                                   <xsl:text>,</xsl:text>
-                                                  <xsl:value-of select="@WIDTH"/>
+                                                  <xsl:value-of select="substring-before(@WIDTH,'.')"/>
                                                   <xsl:text>,</xsl:text>
-                                                  <xsl:value-of select="@HEIGHT"/>
+                                                  <xsl:value-of select="substring-before(@HEIGHT,'.')"/>
                                                   <xsl:text>/full/0/default</xsl:text>
                                                 </xsl:attribute>
                                                 <xsl:attribute name="corresp">
@@ -468,13 +469,13 @@
                                             <xsl:value-of
                                                 select="substring-before(ancestor-or-self::alto/Description/sourceImageInformation/fileName, '.')"/>
                                             <xsl:text>/</xsl:text>
-                                            <xsl:value-of select="@HPOS"/>
+                                            <xsl:value-of select="substring-before(@HPOS,'.')"/>
                                             <xsl:text>,</xsl:text>
-                                            <xsl:value-of select="@VPOS"/>
+                                            <xsl:value-of select="substring-before(@VPOS,'.')"/>
                                             <xsl:text>,</xsl:text>
-                                            <xsl:value-of select="@WIDTH"/>
+                                            <xsl:value-of select="substring-before(@WIDTH,'.')"/>
                                             <xsl:text>,</xsl:text>
-                                            <xsl:value-of select="@HEIGHT"/>
+                                            <xsl:value-of select="substring-before(@HEIGHT,'.')"/>
                                             <xsl:text>/full/0/default</xsl:text>
                                         </xsl:attribute>
                                         <xsl:attribute name="corresp">
@@ -527,13 +528,13 @@
                                                   <xsl:value-of
                                                   select="substring-before(ancestor-or-self::alto/Description/sourceImageInformation/fileName, '.')"/>
                                                   <xsl:text>/</xsl:text>
-                                                  <xsl:value-of select="@HPOS"/>
+<xsl:value-of select="substring-before(@HPOS,'.')"/>
                                                   <xsl:text>,</xsl:text>
-                                                  <xsl:value-of select="@VPOS"/>
+                                                  <xsl:value-of select="substring-before(@VPOS,'.')"/>
                                                   <xsl:text>,</xsl:text>
-                                                  <xsl:value-of select="@WIDTH"/>
+                                                  <xsl:value-of select="substring-before(@WIDTH,'.')"/>
                                                   <xsl:text>,</xsl:text>
-                                                  <xsl:value-of select="@HEIGHT"/>
+                                                  <xsl:value-of select="substring-before(@HEIGHT,'.')"/>
                                                   <xsl:text>/full/0/default</xsl:text>
                                                   </xsl:attribute>
                                                       <xsl:attribute name="corresp">
@@ -621,13 +622,13 @@
                                                   <xsl:value-of
                                                   select="substring-before(ancestor-or-self::alto/Description/sourceImageInformation/fileName, '.')"/>
                                                   <xsl:text>/</xsl:text>
-                                                  <xsl:value-of select="@HPOS"/>
+<xsl:value-of select="substring-before(@HPOS,'.')"/>
                                                   <xsl:text>,</xsl:text>
-                                                  <xsl:value-of select="@VPOS"/>
+                                                  <xsl:value-of select="substring-before(@VPOS,'.')"/>
                                                   <xsl:text>,</xsl:text>
-                                                  <xsl:value-of select="@WIDTH"/>
+                                                  <xsl:value-of select="substring-before(@WIDTH,'.')"/>
                                                   <xsl:text>,</xsl:text>
-                                                  <xsl:value-of select="@HEIGHT"/>
+                                                  <xsl:value-of select="substring-before(@HEIGHT,'.')"/>
                                                   <xsl:text>/full/0/default</xsl:text>
                                                   </xsl:attribute>
                                                       <xsl:attribute name="corresp">
@@ -713,13 +714,13 @@
                                                   <xsl:value-of
                                                   select="substring-before(ancestor-or-self::alto/Description/sourceImageInformation/fileName, '.')"/>
                                                   <xsl:text>/</xsl:text>
-                                                  <xsl:value-of select="@HPOS"/>
+<xsl:value-of select="substring-before(@HPOS,'.')"/>
                                                   <xsl:text>,</xsl:text>
-                                                  <xsl:value-of select="@VPOS"/>
+                                                  <xsl:value-of select="substring-before(@VPOS,'.')"/>
                                                   <xsl:text>,</xsl:text>
-                                                  <xsl:value-of select="@WIDTH"/>
+                                                  <xsl:value-of select="substring-before(@WIDTH,'.')"/>
                                                   <xsl:text>,</xsl:text>
-                                                  <xsl:value-of select="@HEIGHT"/>
+                                                  <xsl:value-of select="substring-before(@HEIGHT,'.')"/>
                                                   <xsl:text>/full/0/default</xsl:text>
                                                   </xsl:attribute>
                                                       <xsl:attribute name="corresp">
@@ -805,13 +806,13 @@
                                                   <xsl:value-of
                                                   select="substring-before(ancestor-or-self::alto/Description/sourceImageInformation/fileName, '.')"/>
                                                   <xsl:text>/</xsl:text>
-                                                  <xsl:value-of select="@HPOS"/>
+<xsl:value-of select="substring-before(@HPOS,'.')"/>
                                                   <xsl:text>,</xsl:text>
-                                                  <xsl:value-of select="@VPOS"/>
+                                                  <xsl:value-of select="substring-before(@VPOS,'.')"/>
                                                   <xsl:text>,</xsl:text>
-                                                  <xsl:value-of select="@WIDTH"/>
+                                                  <xsl:value-of select="substring-before(@WIDTH,'.')"/>
                                                   <xsl:text>,</xsl:text>
-                                                  <xsl:value-of select="@HEIGHT"/>
+                                                  <xsl:value-of select="substring-before(@HEIGHT,'.')"/>
                                                   <xsl:text>/full/0/default</xsl:text>
                                                   </xsl:attribute>
                                                       <xsl:attribute name="corresp">
@@ -905,13 +906,13 @@
                                             <xsl:value-of
                                                 select="substring-before(ancestor-or-self::alto/Description/sourceImageInformation/fileName, '.')"/>
                                             <xsl:text>/</xsl:text>
-                                            <xsl:value-of select="@HPOS"/>
+                                            <xsl:value-of select="substring-before(@HPOS,'.')"/>
                                             <xsl:text>,</xsl:text>
-                                            <xsl:value-of select="@VPOS"/>
+                                            <xsl:value-of select="substring-before(@VPOS,'.')"/>
                                             <xsl:text>,</xsl:text>
-                                            <xsl:value-of select="@WIDTH"/>
+                                            <xsl:value-of select="substring-before(@WIDTH,'.')"/>
                                             <xsl:text>,</xsl:text>
-                                            <xsl:value-of select="@HEIGHT"/>
+                                            <xsl:value-of select="substring-before(@HEIGHT,'.')"/>
                                             <xsl:text>/full/0/default</xsl:text>
                                         </xsl:attribute>
                                         <xsl:attribute name="corresp">
@@ -964,13 +965,13 @@
                                                   <xsl:value-of
                                                   select="substring-before(ancestor-or-self::alto/Description/sourceImageInformation/fileName, '.')"/>
                                                   <xsl:text>/</xsl:text>
-                                                  <xsl:value-of select="@HPOS"/>
+<xsl:value-of select="substring-before(@HPOS,'.')"/>
                                                   <xsl:text>,</xsl:text>
-                                                  <xsl:value-of select="@VPOS"/>
+                                                  <xsl:value-of select="substring-before(@VPOS,'.')"/>
                                                   <xsl:text>,</xsl:text>
-                                                  <xsl:value-of select="@WIDTH"/>
+                                                  <xsl:value-of select="substring-before(@WIDTH,'.')"/>
                                                   <xsl:text>,</xsl:text>
-                                                  <xsl:value-of select="@HEIGHT"/>
+                                                  <xsl:value-of select="substring-before(@HEIGHT,'.')"/>
                                                   <xsl:text>/full/0/default</xsl:text>
                                                   </xsl:attribute>
                                                       <xsl:attribute name="corresp">
@@ -1058,13 +1059,13 @@
                                                   <xsl:value-of
                                                   select="substring-before(ancestor-or-self::alto/Description/sourceImageInformation/fileName, '.')"/>
                                                   <xsl:text>/</xsl:text>
-                                                  <xsl:value-of select="@HPOS"/>
+<xsl:value-of select="substring-before(@HPOS,'.')"/>
                                                   <xsl:text>,</xsl:text>
-                                                  <xsl:value-of select="@VPOS"/>
+                                                  <xsl:value-of select="substring-before(@VPOS,'.')"/>
                                                   <xsl:text>,</xsl:text>
-                                                  <xsl:value-of select="@WIDTH"/>
+                                                  <xsl:value-of select="substring-before(@WIDTH,'.')"/>
                                                   <xsl:text>,</xsl:text>
-                                                  <xsl:value-of select="@HEIGHT"/>
+                                                  <xsl:value-of select="substring-before(@HEIGHT,'.')"/>
                                                   <xsl:text>/full/0/default</xsl:text>
                                                   </xsl:attribute>
                                                       <xsl:attribute name="corresp">
@@ -1150,13 +1151,13 @@
                                                   <xsl:value-of
                                                   select="substring-before(ancestor-or-self::alto/Description/sourceImageInformation/fileName, '.')"/>
                                                   <xsl:text>/</xsl:text>
-                                                  <xsl:value-of select="@HPOS"/>
+<xsl:value-of select="substring-before(@HPOS,'.')"/>
                                                   <xsl:text>,</xsl:text>
-                                                  <xsl:value-of select="@VPOS"/>
+                                                  <xsl:value-of select="substring-before(@VPOS,'.')"/>
                                                   <xsl:text>,</xsl:text>
-                                                  <xsl:value-of select="@WIDTH"/>
+                                                  <xsl:value-of select="substring-before(@WIDTH,'.')"/>
                                                   <xsl:text>,</xsl:text>
-                                                  <xsl:value-of select="@HEIGHT"/>
+                                                  <xsl:value-of select="substring-before(@HEIGHT,'.')"/>
                                                   <xsl:text>/full/0/default</xsl:text>
                                                   </xsl:attribute>
                                                       <xsl:attribute name="corresp">
@@ -1242,13 +1243,13 @@
                                                   <xsl:value-of
                                                   select="substring-before(ancestor-or-self::alto/Description/sourceImageInformation/fileName, '.')"/>
                                                   <xsl:text>/</xsl:text>
-                                                  <xsl:value-of select="@HPOS"/>
+<xsl:value-of select="substring-before(@HPOS,'.')"/>
                                                   <xsl:text>,</xsl:text>
-                                                  <xsl:value-of select="@VPOS"/>
+                                                  <xsl:value-of select="substring-before(@VPOS,'.')"/>
                                                   <xsl:text>,</xsl:text>
-                                                  <xsl:value-of select="@WIDTH"/>
+                                                  <xsl:value-of select="substring-before(@WIDTH,'.')"/>
                                                   <xsl:text>,</xsl:text>
-                                                  <xsl:value-of select="@HEIGHT"/>
+                                                  <xsl:value-of select="substring-before(@HEIGHT,'.')"/>
                                                   <xsl:text>/full/0/default</xsl:text>
                                                   </xsl:attribute>
                                                       <xsl:attribute name="corresp">
@@ -1341,13 +1342,13 @@
                                             <xsl:value-of
                                                 select="substring-before(ancestor-or-self::alto/Description/sourceImageInformation/fileName, '.')"/>
                                             <xsl:text>/</xsl:text>
-                                            <xsl:value-of select="@HPOS"/>
+                                            <xsl:value-of select="substring-before(@HPOS,'.')"/>
                                             <xsl:text>,</xsl:text>
-                                            <xsl:value-of select="@VPOS"/>
+                                            <xsl:value-of select="substring-before(@VPOS,'.')"/>
                                             <xsl:text>,</xsl:text>
-                                            <xsl:value-of select="@WIDTH"/>
+                                            <xsl:value-of select="substring-before(@WIDTH,'.')"/>
                                             <xsl:text>,</xsl:text>
-                                            <xsl:value-of select="@HEIGHT"/>
+                                            <xsl:value-of select="substring-before(@HEIGHT,'.')"/>
                                             <xsl:text>/full/0/default</xsl:text>
                                         </xsl:attribute>
                                         <xsl:attribute name="corresp">
@@ -1401,13 +1402,13 @@
                                             <xsl:value-of
                                                 select="substring-before(ancestor-or-self::alto/Description/sourceImageInformation/fileName, '.')"/>
                                             <xsl:text>/</xsl:text>
-                                            <xsl:value-of select="@HPOS"/>
+                                            <xsl:value-of select="substring-before(@HPOS,'.')"/>
                                             <xsl:text>,</xsl:text>
-                                            <xsl:value-of select="@VPOS"/>
+                                            <xsl:value-of select="substring-before(@VPOS,'.')"/>
                                             <xsl:text>,</xsl:text>
-                                            <xsl:value-of select="@WIDTH"/>
+                                            <xsl:value-of select="substring-before(@WIDTH,'.')"/>
                                             <xsl:text>,</xsl:text>
-                                            <xsl:value-of select="@HEIGHT"/>
+                                            <xsl:value-of select="substring-before(@HEIGHT,'.')"/>
                                             <xsl:text>/full/0/default</xsl:text>
                                         </xsl:attribute>
                                         <xsl:attribute name="corresp">
@@ -1461,13 +1462,13 @@
                                             <xsl:value-of
                                                 select="substring-before(ancestor-or-self::alto/Description/sourceImageInformation/fileName, '.')"/>
                                             <xsl:text>/</xsl:text>
-                                            <xsl:value-of select="@HPOS"/>
+                                            <xsl:value-of select="substring-before(@HPOS,'.')"/>
                                             <xsl:text>,</xsl:text>
-                                            <xsl:value-of select="@VPOS"/>
+                                            <xsl:value-of select="substring-before(@VPOS,'.')"/>
                                             <xsl:text>,</xsl:text>
-                                            <xsl:value-of select="@WIDTH"/>
+                                            <xsl:value-of select="substring-before(@WIDTH,'.')"/>
                                             <xsl:text>,</xsl:text>
-                                            <xsl:value-of select="@HEIGHT"/>
+                                            <xsl:value-of select="substring-before(@HEIGHT,'.')"/>
                                             <xsl:text>/full/0/default</xsl:text>
                                         </xsl:attribute>
                                         <xsl:attribute name="corresp">
@@ -1516,13 +1517,13 @@
                                                   <xsl:value-of
                                                   select="substring-before(ancestor-or-self::alto/Description/sourceImageInformation/fileName, '.')"/>
                                                   <xsl:text>/</xsl:text>
-                                                  <xsl:value-of select="@HPOS"/>
+<xsl:value-of select="substring-before(@HPOS,'.')"/>
                                                   <xsl:text>,</xsl:text>
-                                                  <xsl:value-of select="@VPOS"/>
+                                                  <xsl:value-of select="substring-before(@VPOS,'.')"/>
                                                   <xsl:text>,</xsl:text>
-                                                  <xsl:value-of select="@WIDTH"/>
+                                                  <xsl:value-of select="substring-before(@WIDTH,'.')"/>
                                                   <xsl:text>,</xsl:text>
-                                                  <xsl:value-of select="@HEIGHT"/>
+                                                  <xsl:value-of select="substring-before(@HEIGHT,'.')"/>
                                                   <xsl:text>/full/0/default</xsl:text>
                                                 </xsl:attribute>
                                                 <xsl:attribute name="corresp">
@@ -1612,13 +1613,13 @@
                                             <xsl:value-of
                                                 select="substring-before(ancestor-or-self::alto/Description/sourceImageInformation/fileName, '.')"/>
                                             <xsl:text>/</xsl:text>
-                                            <xsl:value-of select="@HPOS"/>
+                                            <xsl:value-of select="substring-before(@HPOS,'.')"/>
                                             <xsl:text>,</xsl:text>
-                                            <xsl:value-of select="@VPOS"/>
+                                            <xsl:value-of select="substring-before(@VPOS,'.')"/>
                                             <xsl:text>,</xsl:text>
-                                            <xsl:value-of select="@WIDTH"/>
+                                            <xsl:value-of select="substring-before(@WIDTH,'.')"/>
                                             <xsl:text>,</xsl:text>
-                                            <xsl:value-of select="@HEIGHT"/>
+                                            <xsl:value-of select="substring-before(@HEIGHT,'.')"/>
                                             <xsl:text>/full/0/default</xsl:text>
                                         </xsl:attribute>
                                         <xsl:attribute name="corresp">
@@ -1667,13 +1668,13 @@
                                                   <xsl:value-of
                                                   select="substring-before(ancestor-or-self::alto/Description/sourceImageInformation/fileName, '.')"/>
                                                   <xsl:text>/</xsl:text>
-                                                  <xsl:value-of select="@HPOS"/>
+<xsl:value-of select="substring-before(@HPOS,'.')"/>
                                                   <xsl:text>,</xsl:text>
-                                                  <xsl:value-of select="@VPOS"/>
+                                                  <xsl:value-of select="substring-before(@VPOS,'.')"/>
                                                   <xsl:text>,</xsl:text>
-                                                  <xsl:value-of select="@WIDTH"/>
+                                                  <xsl:value-of select="substring-before(@WIDTH,'.')"/>
                                                   <xsl:text>,</xsl:text>
-                                                  <xsl:value-of select="@HEIGHT"/>
+                                                  <xsl:value-of select="substring-before(@HEIGHT,'.')"/>
                                                   <xsl:text>/full/0/default</xsl:text>
                                                 </xsl:attribute>
                                                 <xsl:attribute name="corresp">
@@ -1763,13 +1764,13 @@
                                             <xsl:value-of
                                                 select="substring-before(ancestor-or-self::alto/Description/sourceImageInformation/fileName, '.')"/>
                                             <xsl:text>/</xsl:text>
-                                            <xsl:value-of select="@HPOS"/>
+                                            <xsl:value-of select="substring-before(@HPOS,'.')"/>
                                             <xsl:text>,</xsl:text>
-                                            <xsl:value-of select="@VPOS"/>
+                                            <xsl:value-of select="substring-before(@VPOS,'.')"/>
                                             <xsl:text>,</xsl:text>
-                                            <xsl:value-of select="@WIDTH"/>
+                                            <xsl:value-of select="substring-before(@WIDTH,'.')"/>
                                             <xsl:text>,</xsl:text>
-                                            <xsl:value-of select="@HEIGHT"/>
+                                            <xsl:value-of select="substring-before(@HEIGHT,'.')"/>
                                             <xsl:text>/full/0/default</xsl:text>
                                         </xsl:attribute>
                                         <xsl:attribute name="corresp">
@@ -1823,13 +1824,13 @@
                                             <xsl:value-of
                                                 select="substring-before(ancestor-or-self::alto/Description/sourceImageInformation/fileName, '.')"/>
                                             <xsl:text>/</xsl:text>
-                                            <xsl:value-of select="@HPOS"/>
+                                            <xsl:value-of select="substring-before(@HPOS,'.')"/>
                                             <xsl:text>,</xsl:text>
-                                            <xsl:value-of select="@VPOS"/>
+                                            <xsl:value-of select="substring-before(@VPOS,'.')"/>
                                             <xsl:text>,</xsl:text>
-                                            <xsl:value-of select="@WIDTH"/>
+                                            <xsl:value-of select="substring-before(@WIDTH,'.')"/>
                                             <xsl:text>,</xsl:text>
-                                            <xsl:value-of select="@HEIGHT"/>
+                                            <xsl:value-of select="substring-before(@HEIGHT,'.')"/>
                                             <xsl:text>/full/0/default</xsl:text>
                                         </xsl:attribute>
                                         <xsl:attribute name="corresp">
@@ -1878,13 +1879,13 @@
                                                   <xsl:value-of
                                                   select="substring-before(ancestor-or-self::alto/Description/sourceImageInformation/fileName, '.')"/>
                                                   <xsl:text>/</xsl:text>
-                                                  <xsl:value-of select="@HPOS"/>
+<xsl:value-of select="substring-before(@HPOS,'.')"/>
                                                   <xsl:text>,</xsl:text>
-                                                  <xsl:value-of select="@VPOS"/>
+                                                  <xsl:value-of select="substring-before(@VPOS,'.')"/>
                                                   <xsl:text>,</xsl:text>
-                                                  <xsl:value-of select="@WIDTH"/>
+                                                  <xsl:value-of select="substring-before(@WIDTH,'.')"/>
                                                   <xsl:text>,</xsl:text>
-                                                  <xsl:value-of select="@HEIGHT"/>
+                                                  <xsl:value-of select="substring-before(@HEIGHT,'.')"/>
                                                   <xsl:text>/full/0/default</xsl:text>
                                                 </xsl:attribute>
                                                 <xsl:attribute name="corresp">
@@ -1974,13 +1975,13 @@
                                             <xsl:value-of
                                                 select="substring-before(ancestor-or-self::alto/Description/sourceImageInformation/fileName, '.')"/>
                                             <xsl:text>/</xsl:text>
-                                            <xsl:value-of select="@HPOS"/>
+                                            <xsl:value-of select="substring-before(@HPOS,'.')"/>
                                             <xsl:text>,</xsl:text>
-                                            <xsl:value-of select="@VPOS"/>
+                                            <xsl:value-of select="substring-before(@VPOS,'.')"/>
                                             <xsl:text>,</xsl:text>
-                                            <xsl:value-of select="@WIDTH"/>
+                                            <xsl:value-of select="substring-before(@WIDTH,'.')"/>
                                             <xsl:text>,</xsl:text>
-                                            <xsl:value-of select="@HEIGHT"/>
+                                            <xsl:value-of select="substring-before(@HEIGHT,'.')"/>
                                             <xsl:text>/full/0/default</xsl:text>
                                         </xsl:attribute>
                                         <xsl:attribute name="corresp">
@@ -2029,13 +2030,13 @@
                                                   <xsl:value-of
                                                   select="substring-before(ancestor-or-self::alto/Description/sourceImageInformation/fileName, '.')"/>
                                                   <xsl:text>/</xsl:text>
-                                                  <xsl:value-of select="@HPOS"/>
+<xsl:value-of select="substring-before(@HPOS,'.')"/>
                                                   <xsl:text>,</xsl:text>
-                                                  <xsl:value-of select="@VPOS"/>
+                                                  <xsl:value-of select="substring-before(@VPOS,'.')"/>
                                                   <xsl:text>,</xsl:text>
-                                                  <xsl:value-of select="@WIDTH"/>
+                                                  <xsl:value-of select="substring-before(@WIDTH,'.')"/>
                                                   <xsl:text>,</xsl:text>
-                                                  <xsl:value-of select="@HEIGHT"/>
+                                                  <xsl:value-of select="substring-before(@HEIGHT,'.')"/>
                                                   <xsl:text>/full/0/default</xsl:text>
                                                 </xsl:attribute>
                                                 <xsl:attribute name="corresp">
@@ -2125,13 +2126,13 @@
                                             <xsl:value-of
                                                 select="substring-before(ancestor-or-self::alto/Description/sourceImageInformation/fileName, '.')"/>
                                             <xsl:text>/</xsl:text>
-                                            <xsl:value-of select="@HPOS"/>
+                                            <xsl:value-of select="substring-before(@HPOS,'.')"/>
                                             <xsl:text>,</xsl:text>
-                                            <xsl:value-of select="@VPOS"/>
+                                            <xsl:value-of select="substring-before(@VPOS,'.')"/>
                                             <xsl:text>,</xsl:text>
-                                            <xsl:value-of select="@WIDTH"/>
+                                            <xsl:value-of select="substring-before(@WIDTH,'.')"/>
                                             <xsl:text>,</xsl:text>
-                                            <xsl:value-of select="@HEIGHT"/>
+                                            <xsl:value-of select="substring-before(@HEIGHT,'.')"/>
                                             <xsl:text>/full/0/default</xsl:text>
                                         </xsl:attribute>
                                         <xsl:attribute name="corresp">
@@ -2180,13 +2181,13 @@
                                                   <xsl:value-of
                                                   select="substring-before(ancestor-or-self::alto/Description/sourceImageInformation/fileName, '.')"/>
                                                   <xsl:text>/</xsl:text>
-                                                  <xsl:value-of select="@HPOS"/>
+<xsl:value-of select="substring-before(@HPOS,'.')"/>
                                                   <xsl:text>,</xsl:text>
-                                                  <xsl:value-of select="@VPOS"/>
+                                                  <xsl:value-of select="substring-before(@VPOS,'.')"/>
                                                   <xsl:text>,</xsl:text>
-                                                  <xsl:value-of select="@WIDTH"/>
+                                                  <xsl:value-of select="substring-before(@WIDTH,'.')"/>
                                                   <xsl:text>,</xsl:text>
-                                                  <xsl:value-of select="@HEIGHT"/>
+                                                  <xsl:value-of select="substring-before(@HEIGHT,'.')"/>
                                                   <xsl:text>/full/0/default</xsl:text>
                                                 </xsl:attribute>
                                                 <xsl:attribute name="corresp">
@@ -2276,13 +2277,13 @@
                                             <xsl:value-of
                                                 select="substring-before(ancestor-or-self::alto/Description/sourceImageInformation/fileName, '.')"/>
                                             <xsl:text>/</xsl:text>
-                                            <xsl:value-of select="@HPOS"/>
+                                            <xsl:value-of select="substring-before(@HPOS,'.')"/>
                                             <xsl:text>,</xsl:text>
-                                            <xsl:value-of select="@VPOS"/>
+                                            <xsl:value-of select="substring-before(@VPOS,'.')"/>
                                             <xsl:text>,</xsl:text>
-                                            <xsl:value-of select="@WIDTH"/>
+                                            <xsl:value-of select="substring-before(@WIDTH,'.')"/>
                                             <xsl:text>,</xsl:text>
-                                            <xsl:value-of select="@HEIGHT"/>
+                                            <xsl:value-of select="substring-before(@HEIGHT,'.')"/>
                                             <xsl:text>/full/0/default</xsl:text>
                                         </xsl:attribute>
                                         <xsl:attribute name="corresp">
@@ -2331,13 +2332,13 @@
                                                   <xsl:value-of
                                                   select="substring-before(ancestor-or-self::alto/Description/sourceImageInformation/fileName, '.')"/>
                                                   <xsl:text>/</xsl:text>
-                                                  <xsl:value-of select="@HPOS"/>
+<xsl:value-of select="substring-before(@HPOS,'.')"/>
                                                   <xsl:text>,</xsl:text>
-                                                  <xsl:value-of select="@VPOS"/>
+                                                  <xsl:value-of select="substring-before(@VPOS,'.')"/>
                                                   <xsl:text>,</xsl:text>
-                                                  <xsl:value-of select="@WIDTH"/>
+                                                  <xsl:value-of select="substring-before(@WIDTH,'.')"/>
                                                   <xsl:text>,</xsl:text>
-                                                  <xsl:value-of select="@HEIGHT"/>
+                                                  <xsl:value-of select="substring-before(@HEIGHT,'.')"/>
                                                   <xsl:text>/full/0/default</xsl:text>
                                                 </xsl:attribute>
                                                 <xsl:attribute name="corresp">
@@ -2427,13 +2428,13 @@
                                             <xsl:value-of
                                                 select="substring-before(ancestor-or-self::alto/Description/sourceImageInformation/fileName, '.')"/>
                                             <xsl:text>/</xsl:text>
-                                            <xsl:value-of select="@HPOS"/>
+                                            <xsl:value-of select="substring-before(@HPOS,'.')"/>
                                             <xsl:text>,</xsl:text>
-                                            <xsl:value-of select="@VPOS"/>
+                                            <xsl:value-of select="substring-before(@VPOS,'.')"/>
                                             <xsl:text>,</xsl:text>
-                                            <xsl:value-of select="@WIDTH"/>
+                                            <xsl:value-of select="substring-before(@WIDTH,'.')"/>
                                             <xsl:text>,</xsl:text>
-                                            <xsl:value-of select="@HEIGHT"/>
+                                            <xsl:value-of select="substring-before(@HEIGHT,'.')"/>
                                             <xsl:text>/full/0/default</xsl:text>
                                         </xsl:attribute>
                                         <xsl:attribute name="corresp">
@@ -2482,13 +2483,13 @@
                                                   <xsl:value-of
                                                   select="substring-before(ancestor-or-self::alto/Description/sourceImageInformation/fileName, '.')"/>
                                                   <xsl:text>/</xsl:text>
-                                                  <xsl:value-of select="@HPOS"/>
+<xsl:value-of select="substring-before(@HPOS,'.')"/>
                                                   <xsl:text>,</xsl:text>
-                                                  <xsl:value-of select="@VPOS"/>
+                                                  <xsl:value-of select="substring-before(@VPOS,'.')"/>
                                                   <xsl:text>,</xsl:text>
-                                                  <xsl:value-of select="@WIDTH"/>
+                                                  <xsl:value-of select="substring-before(@WIDTH,'.')"/>
                                                   <xsl:text>,</xsl:text>
-                                                  <xsl:value-of select="@HEIGHT"/>
+                                                  <xsl:value-of select="substring-before(@HEIGHT,'.')"/>
                                                   <xsl:text>/full/0/default</xsl:text>
                                                 </xsl:attribute>
                                                 <xsl:attribute name="corresp">
@@ -2578,13 +2579,13 @@
                                             <xsl:value-of
                                                 select="substring-before(ancestor-or-self::alto/Description/sourceImageInformation/fileName, '.')"/>
                                             <xsl:text>/</xsl:text>
-                                            <xsl:value-of select="@HPOS"/>
+                                            <xsl:value-of select="substring-before(@HPOS,'.')"/>
                                             <xsl:text>,</xsl:text>
-                                            <xsl:value-of select="@VPOS"/>
+                                            <xsl:value-of select="substring-before(@VPOS,'.')"/>
                                             <xsl:text>,</xsl:text>
-                                            <xsl:value-of select="@WIDTH"/>
+                                            <xsl:value-of select="substring-before(@WIDTH,'.')"/>
                                             <xsl:text>,</xsl:text>
-                                            <xsl:value-of select="@HEIGHT"/>
+                                            <xsl:value-of select="substring-before(@HEIGHT,'.')"/>
                                             <xsl:text>/full/0/default</xsl:text>
                                         </xsl:attribute>
                                         <xsl:attribute name="corresp">
@@ -2630,13 +2631,13 @@
                                                   <xsl:text>fedora_</xsl:text>
                                                   <xsl:value-of select="substring-before(ancestor-or-self::alto/Description/sourceImageInformation/fileName, '.')"/>
                                                   <xsl:text>/</xsl:text>
-                                                  <xsl:value-of select="@HPOS"/>
+<xsl:value-of select="substring-before(@HPOS,'.')"/>
                                                   <xsl:text>,</xsl:text>
-                                                  <xsl:value-of select="@VPOS"/>
+                                                  <xsl:value-of select="substring-before(@VPOS,'.')"/>
                                                   <xsl:text>,</xsl:text>
-                                                  <xsl:value-of select="@WIDTH"/>
+                                                  <xsl:value-of select="substring-before(@WIDTH,'.')"/>
                                                   <xsl:text>,</xsl:text>
-                                                  <xsl:value-of select="@HEIGHT"/>
+                                                  <xsl:value-of select="substring-before(@HEIGHT,'.')"/>
                                                   <xsl:text>/full/0/default</xsl:text>
                                                   </xsl:attribute>
                                                       <xsl:attribute name="corresp">
@@ -2712,13 +2713,13 @@
                                                   <xsl:text>fedora_</xsl:text>
                                                   <xsl:value-of select="substring-before(ancestor-or-self::alto/Description/sourceImageInformation/fileName, '.')"/>
                                                   <xsl:text>/</xsl:text>
-                                                  <xsl:value-of select="@HPOS"/>
+<xsl:value-of select="substring-before(@HPOS,'.')"/>
                                                   <xsl:text>,</xsl:text>
-                                                  <xsl:value-of select="@VPOS"/>
+                                                  <xsl:value-of select="substring-before(@VPOS,'.')"/>
                                                   <xsl:text>,</xsl:text>
-                                                  <xsl:value-of select="@WIDTH"/>
+                                                  <xsl:value-of select="substring-before(@WIDTH,'.')"/>
                                                   <xsl:text>,</xsl:text>
-                                                  <xsl:value-of select="@HEIGHT"/>
+                                                  <xsl:value-of select="substring-before(@HEIGHT,'.')"/>
                                                   <xsl:text>/full/0/default</xsl:text>
                                                   </xsl:attribute>
                                                       <xsl:attribute name="corresp">
@@ -2797,13 +2798,13 @@
                                                   <xsl:value-of
                                                   select="substring-before(ancestor-or-self::alto/Description/sourceImageInformation/fileName, '.')"/>
                                                   <xsl:text>/</xsl:text>
-                                                  <xsl:value-of select="@HPOS"/>
+<xsl:value-of select="substring-before(@HPOS,'.')"/>
                                                   <xsl:text>,</xsl:text>
-                                                  <xsl:value-of select="@VPOS"/>
+                                                  <xsl:value-of select="substring-before(@VPOS,'.')"/>
                                                   <xsl:text>,</xsl:text>
-                                                  <xsl:value-of select="@WIDTH"/>
+                                                  <xsl:value-of select="substring-before(@WIDTH,'.')"/>
                                                   <xsl:text>,</xsl:text>
-                                                  <xsl:value-of select="@HEIGHT"/>
+                                                  <xsl:value-of select="substring-before(@HEIGHT,'.')"/>
                                                   <xsl:text>/full/0/default</xsl:text>
                                                   </xsl:attribute>
                                                       <xsl:attribute name="corresp">
@@ -2879,13 +2880,13 @@
                                                   <xsl:text>fedora_</xsl:text>
                                                   <xsl:value-of select="substring-before(ancestor-or-self::alto/Description/sourceImageInformation/fileName, '.')"/>
                                                   <xsl:text>/</xsl:text>
-                                                  <xsl:value-of select="@HPOS"/>
+<xsl:value-of select="substring-before(@HPOS,'.')"/>
                                                   <xsl:text>,</xsl:text>
-                                                  <xsl:value-of select="@VPOS"/>
+                                                  <xsl:value-of select="substring-before(@VPOS,'.')"/>
                                                   <xsl:text>,</xsl:text>
-                                                  <xsl:value-of select="@WIDTH"/>
+                                                  <xsl:value-of select="substring-before(@WIDTH,'.')"/>
                                                   <xsl:text>,</xsl:text>
-                                                  <xsl:value-of select="@HEIGHT"/>
+                                                  <xsl:value-of select="substring-before(@HEIGHT,'.')"/>
                                                   <xsl:text>/full/0/default</xsl:text>
                                                   </xsl:attribute>
                                                       <xsl:attribute name="corresp">
@@ -2965,13 +2966,13 @@
                                             <xsl:text>fedora_</xsl:text>
                                             <xsl:value-of select="substring-before(ancestor-or-self::alto/Description/sourceImageInformation/fileName, '.')"/>
                                             <xsl:text>/</xsl:text>
-                                            <xsl:value-of select="@HPOS"/>
+                                            <xsl:value-of select="substring-before(@HPOS,'.')"/>
                                             <xsl:text>,</xsl:text>
-                                            <xsl:value-of select="@VPOS"/>
+                                            <xsl:value-of select="substring-before(@VPOS,'.')"/>
                                             <xsl:text>,</xsl:text>
-                                            <xsl:value-of select="@WIDTH"/>
+                                            <xsl:value-of select="substring-before(@WIDTH,'.')"/>
                                             <xsl:text>,</xsl:text>
-                                            <xsl:value-of select="@HEIGHT"/>
+                                            <xsl:value-of select="substring-before(@HEIGHT,'.')"/>
                                             <xsl:text>/full/0/default</xsl:text>
                                         </xsl:attribute>
                                         <xsl:attribute name="corresp">
@@ -3013,13 +3014,13 @@
                                                   <xsl:text>fedora_</xsl:text>
                                                   <xsl:value-of select="substring-before(ancestor-or-self::alto/Description/sourceImageInformation/fileName, '.')"/>
                                                   <xsl:text>/</xsl:text>
-                                                  <xsl:value-of select="@HPOS"/>
+<xsl:value-of select="substring-before(@HPOS,'.')"/>
                                                   <xsl:text>,</xsl:text>
-                                                  <xsl:value-of select="@VPOS"/>
+                                                  <xsl:value-of select="substring-before(@VPOS,'.')"/>
                                                   <xsl:text>,</xsl:text>
-                                                  <xsl:value-of select="@WIDTH"/>
+                                                  <xsl:value-of select="substring-before(@WIDTH,'.')"/>
                                                   <xsl:text>,</xsl:text>
-                                                  <xsl:value-of select="@HEIGHT"/>
+                                                  <xsl:value-of select="substring-before(@HEIGHT,'.')"/>
                                                   <xsl:text>/full/0/default</xsl:text>
                                                 </xsl:attribute>
                                                 <xsl:attribute name="corresp">
@@ -3118,7 +3119,7 @@
                                     <xsl:variable name="value"
                                         select="@CONTENT[ancestor::TextBlock[@TAGREFS = 'BT226']]"/>
                                     <xsl:analyze-string select="$value"
-                                        regex="([A-Z].{{0,7}}[.,]) ([A-Z¿¡].*)">
+                                        regex="^([A-Z].{{0,7}}[.,]) ([A-Z¿¡].*)">
                                         <xsl:matching-substring>
                                             <xsl:for-each select="regex-group(1)">
                                                 <xsl:element name="sp"
@@ -3154,7 +3155,6 @@
                                                 <xsl:element name="div"
                                                   namespace="http://www.tei-c.org/ns/1.0">
                                                   <xsl:attribute name="n">
-                                                  <xsl:value-of select="regex-group(0)"/>
                                                   </xsl:attribute>
                                                   <xsl:element name="head"
                                                   namespace="http://www.tei-c.org/ns/1.0">
@@ -3193,7 +3193,7 @@
                                 <xsl:attribute name="type">
                                     <xsl:text>reclamo</xsl:text>
                                 </xsl:attribute>
-                                <xsl:value-of select="@CONTENT"/>
+                                <xsl:value-of select="./@CONTENT"/>
                                 <xsl:apply-templates/>
                             </xsl:element>
                         </xsl:for-each>
@@ -3204,7 +3204,7 @@
                                 <xsl:attribute name="type">
                                     <xsl:text>reclamo</xsl:text>
                                 </xsl:attribute>
-                                <xsl:value-of select="@CONTENT"/>
+                                <xsl:value-of select="./@CONTENT"/>
                                 <xsl:apply-templates/>
                             </xsl:element>
                         </xsl:for-each>
@@ -3215,6 +3215,7 @@
                                 <xsl:attribute name="type">
                                     <xsl:text>paginaNum</xsl:text>
                                 </xsl:attribute>
+                                <xsl:value-of select="./@CONTENT"/>
                                 <xsl:apply-templates/>
                             </xsl:element>
                         </xsl:for-each>
@@ -3224,6 +3225,7 @@
                             <xsl:element name="p" namespace="http://www.tei-c.org/ns/1.0">
                                 <xsl:for-each select="./TextLine/String">
                                     <xsl:element name="lb" namespace="http://www.tei-c.org/ns/1.0"/>
+                                    <xsl:value-of select="./@CONTENT"/>
                                     <xsl:apply-templates/>
                                 </xsl:for-each>
                             </xsl:element>
@@ -3234,7 +3236,7 @@
                             <xsl:attribute name="type">
                                 <xsl:text>impresorNum</xsl:text>
                             </xsl:attribute>
-                            <xsl:for-each select="./TextLine/String">
+                            <xsl:for-each select="./TextLine/String/@CONTENT">
                                 <xsl:apply-templates/>
                             </xsl:for-each>
                         </xsl:element>
@@ -3255,7 +3257,7 @@
                                 test="child::*/child::String[matches(@CONTENT, '([A-Z].{0,7}[.,]) ([A-Z¿¡].*)')]">
                                 <xsl:for-each select=".//String">
                                     <xsl:variable name="value"
-                                        select="@CONTENT[ancestor::TextBlock[@TAGREFS = 'BT226']]"/>
+                                        select="@CONTENT[ancestor::TextBlock[@TAGREFS = 'BT227']]"/>
                                     <xsl:analyze-string select="$value"
                                         regex="([A-Z].{{0,7}}[.,]) ([A-Z¿¡].*)">
                                         <xsl:matching-substring>
@@ -3284,9 +3286,9 @@
                             </xsl:when>
                             <xsl:when
                                 test="child::*/child::String[matches(@CONTENT, '([A-Z]{3,}(.)$)')]">
-                                <xsl:for-each select="./String">
+                                <xsl:for-each select=".//String">
                                     <xsl:variable name="value"
-                                        select="@CONTENT[ancestor::TextBlock[@TAGREFS = 'BT226']]"/>
+                                        select="@CONTENT[ancestor::TextBlock[@TAGREFS = 'BT227']]"/>
                                     <xsl:analyze-string select="$value" regex="([A-Z]{{3,}}(.)?$)">
                                         <xsl:matching-substring>
                                             <xsl:for-each select="regex-group(1)">
@@ -3329,13 +3331,7 @@
                     <xsl:when test="@TAGREFS = 'BT223'">
                         <xsl:element name="head" namespace="http://www.tei-c.org/ns/1.0">
                             <xsl:attribute name="type">
-                                <xsl:text>titulo_parte
-                  subtitulo_parte
-                  estribillo
-                  titulo_cancion
-                  reparto_titulo
-                  titulo_trovo
-                  titulo_estrofa</xsl:text>
+                                <xsl:text>primer_titulo /titulo_parte /subtitulo_parte /estribillo /titulo_cancion / reparto_titulo /titulo_trovo /titulo_estrofa</xsl:text>
                             </xsl:attribute>
                             <xsl:for-each select="./TextLine/String">
                                 <xsl:element name="lb" namespace="http://www.tei-c.org/ns/1.0"/>
@@ -3401,15 +3397,15 @@
                     </xsl:when>
                 </xsl:choose>
             </xsl:for-each>
+            <xsl:if test="Layout/Page/PrintSpace/TextBlock/TextLine/@TAGREFS = 'LT82'">
+                <xsl:element name="trailer" namespace="http://www.tei-c.org/ns/1.0">
+                    <xsl:for-each select="//String//ancestor::TextLine[@TAGREFS = 'LT82']">
+                        <xsl:value-of select="./String/@CONTENT"/>
+                        <xsl:apply-templates/>
+                    </xsl:for-each>
+                </xsl:element>
+            </xsl:if>
         </xsl:element>
-        <xsl:if test="Layout/Page/PrintSpace/TextBlock/TextLine/@TAGREFS = 'LT82'">
-            <xsl:element name="trailer" namespace="http://www.tei-c.org/ns/1.0">
-                <xsl:for-each select="//String//ancestor::TextLine[@TAGREFS = 'LT82']">
-                    <xsl:value-of select="./String/@CONTENT"/>
-                    <xsl:apply-templates/>
-                </xsl:for-each>
-            </xsl:element>
-        </xsl:if>
         <xsl:if test="Layout/Page/PrintSpace/TextBlock/@TAGREFS = 'BT228'">
             <xsl:element name="div" namespace="http://www.tei-c.org/ns/1.0">
                 <xsl:attribute name="type" namespace="http://www.tei-c.org/ns/1.0">
