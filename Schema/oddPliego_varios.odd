@@ -130,7 +130,7 @@
         <schemaSpec ident="oddPliego" prefix="tei_" start="TEI">
           <moduleRef key="tei"/>
           <moduleRef key="header"
-            include=" authority appInfo application availability biblFull category change classDecl correction creation edition editionStmt editorialDecl encodingDesc extent fileDesc idno keywords language langUsage licence listPrefixDef namespace normalization prefixDef profileDesc projectDesc publicationStmt punctuation rendition revisionDesc sourceDesc taxonomy teiHeader textClass titleStmt"/>
+            include=" authority appInfo application availability biblFull category change classDecl correction creation edition editionStmt editorialDecl encodingDesc extent fileDesc idno keywords language langUsage licence listPrefixDef namespace normalization notesStmt prefixDef profileDesc projectDesc publicationStmt punctuation rendition revisionDesc sourceDesc taxonomy teiHeader textClass titleStmt"/>
           <moduleRef key="core"
             include="add author choice corr date del desc expan foreign gap graphic head hi item l lb lg list measure name note orig p pb publisher pubPlace ref resp respStmt sic sp speaker stage term title unclear"/>
           <moduleRef key="textstructure" include="body closer div front TEI text trailer"/>
@@ -139,8 +139,9 @@
             include="acquisition additions altIdentifier collection condition decoDesc decoNote dim history layout layoutDesc locus locusGrp material msContents msDesc msIdentifier msItem objectDesc origin physDesc provenance repository stamp summary support supportDesc"/>
           <moduleRef key="drama" include="castItem castList set"/>
           <moduleRef key="transcr"
-            include="am ex facsimile fw line path sourceDoc subst supplied surface surfaceGrp zone"/>
+            include="am damage ex facsimile fw line path sourceDoc subst supplied surface surfaceGrp zone"/>
           <moduleRef key="linking" except=""/>
+          <moduleRef key="figures" include="notatedMusic"/>
 
           <elementSpec ident="div" mode="change">
             <attList>
