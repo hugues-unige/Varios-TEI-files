@@ -1,0 +1,2378 @@
+<?xml-model href="../Schema/oddPliego_varios.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:alto="http://www.loc.gov/standards/alto/ns-v4#"
+      xml:id="Carmona_002">
+      <teiHeader>
+            <fileDesc>
+                  <titleStmt>
+                        <title>Colección de Canciones andaluzas</title>
+                        <respStmt xml:id="PJ">
+                              <name>Pauline Jacsont</name>
+                              <resp>Segmentación y transcripción</resp>
+                        </respStmt>
+                        <respStmt xml:id="BP">
+                              <name>Belinda Palacios</name>
+                              <resp>Corrección de la transcripción</resp>
+                        </respStmt>
+                        <respStmt xml:id="EL">
+                              <name>Elina Leblanc</name>
+                              <resp>Codificación TEI</resp>
+                        </respStmt>
+                  </titleStmt>
+                  <publicationStmt>
+                        <authority role="rightsHolder">Bibliothèque Universitaire de
+                              Genève</authority>
+                        <availability status="restricted">
+                              <licence n="cc by nc sa"
+                                    target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                        </availability>
+                  </publicationStmt>
+                  <sourceDesc>
+                        <biblFull>
+                              <titleStmt>
+                                    <title type="titulo_completo">Colección de Canciones
+                                          andaluzas.</title>
+                                    <title type="titulo_breve"/>
+                              </titleStmt>
+                              <editionStmt>
+                                    <p/>
+                              </editionStmt>
+                              <publicationStmt>
+                                    <publisher>José María Marés</publisher>
+                                    <pubPlace ref="https://www.geonames.org/3117735/madrid.html">Madrid</pubPlace>
+                                    <date cert="high">1870</date>
+                              </publicationStmt>
+                        </biblFull>
+                        <msDesc>
+                              <msIdentifier>
+                                    <country>Suisse</country>
+                                    <settlement>Genève</settlement>
+                                    <repository>Bibliothèque Universitaire de Genève <ref
+                                                target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"
+                                          />
+                                    </repository>
+                                    <idno type="cote"/>
+                                    <idno type="DOI">10.5281/zenodo.6821398</idno>
+                                    <altIdentifier>
+                                          <idno type="num_impresor">76</idno>
+                                    </altIdentifier>
+                              </msIdentifier>
+                              <msContents>
+                                    <summary>Quatro canciones</summary>
+                                    <msItem>
+                                          <locus>1-2</locus>
+                                          <title>Las ligas de mi morena.</title>
+                                    </msItem>
+                                    <msItem>
+                                          <locus>2-3</locus>
+                                          <title>La zal de la canela.</title>
+                                    </msItem>
+                                    <msItem>
+                                          <locus>3-4</locus>
+                                          <title>La jaca e tersiopelo.</title>
+                                    </msItem>
+                                    <msItem>
+                                          <locus>4</locus>
+                                          <title>Er mosito er barrio.</title>
+                                    </msItem>
+                              </msContents>
+                              <physDesc>
+                                    <objectDesc>
+                                          <supportDesc>
+                                                <support>
+                                                  <dim>in-4</dim>
+                                                  <material rend="amarillo"/>
+                                                </support>
+                                                <extent>
+                                                  <measure unit="página" quantity="4"/>4 p.</extent>
+                                                <condition>Bueno</condition>
+                                          </supportDesc>
+                                          <layoutDesc>
+                                                <p>2 columnas</p>
+                                          </layoutDesc>
+                                    </objectDesc>
+                                    <decoDesc>
+                                          <summary n="1">Un grabado (p.1)</summary>
+                                          <decoNote type="lista_grabados">
+                                                <list>
+                                                  <item corresp="grabado_c_002_1.xml">grabado_c_002_1</item>
+                                                </list>
+                                          </decoNote>
+                                    </decoDesc>
+                                    <additions/>
+                              </physDesc>
+                              <history/>
+                        </msDesc>
+                  </sourceDesc>
+            </fileDesc>
+            <encodingDesc>
+                  <projectDesc>
+                        <p>Este archivo fue creado en el marco del proyecto Desenrollando el
+                              Cordel/Démêler le cordel/Untangling the cordel, dirigido por la
+                              profesora Constance Carta de la Universidad de Ginebra, con el apoyo
+                              de la Fundación filantrópica Famille Sandoz-Monique de Meuron.</p>
+                  </projectDesc>
+                  <editorialDecl corresp="#automaticTranscription">
+                        <correction>
+                              <p>OCR corregido</p>
+                        </correction>
+                        <normalization>
+                              <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto
+                                    original.</p>
+                        </normalization>
+                        <punctuation>
+                              <p>Se conserva la puntuación original.</p>
+                        </punctuation>
+                  </editorialDecl>
+            </encodingDesc>
+            <profileDesc>
+                  <langUsage>
+                        <language ident="es">Español</language>
+                  </langUsage>
+                  <textClass>
+                        <keywords xml:base="http://datos.bne.es/tema/">
+                              <term target="XX525577.html" type="tipo_texto">Canciones</term>
+                              <term type="tipo_estrofa"/>
+                              <term type="verso_prosa">Verso</term>
+                              <term type="sagrado_profano">Profano</term>
+                        </keywords>
+                  </textClass>
+            </profileDesc>
+            <revisionDesc>
+                  <change when="2023-11-02" who="#EL">Création du fichier TEI P5 et encodage du
+                        corps du texte</change>
+            </revisionDesc>
+      </teiHeader>
+      <!--<sourceDoc xml:id="automaticTranscription">
+            <surface xml:id="Carmona_002_1" type="page" cert="silver">
+                  <graphic
+                        url="https://iiif-dev.unige.ch/iiif/2/fedora_Carmona_002_1/full/full/0/default.jpg"/>
+                  <zone xml:id="Carmona_002_1_BT221_1" n="1" type="CustomZone" subtype="impresorNum"
+                        points="1420,29 1420,104 1175,104 1175,29 "
+                        source="https://iiif-dev.unige.ch/iiif/2/fedora_Carmona_002_1/,,,/full/0/default"
+                        corresp="CustomZone:impresorNum">
+                        <zone xml:id="Carmona_002_1_BT221_1_LT83_1" type="DefaultLine"
+                              subtype="none" points=""
+                              source="https://iiif-dev.unige.ch/iiif/2/fedora_Carmona_002_1/,,,/full/0/default"
+                              corresp="DefaultLine">
+                              <path xml:id="Carmona_002_1_BT221_1_LT83_1_1"
+                                    points="1191,73 1410,81 "/>
+                              <line/>
+                        </zone>
+                  </zone>
+                  <zone xml:id="Carmona_002_1_BT223_2" n="2" type="CustomZone" subtype="title"
+                        points="1308,1106 1321,1769 450,1750 455,1111 "
+                        source="https://iiif-dev.unige.ch/iiif/2/fedora_Carmona_002_1/,,,/full/0/default"
+                        corresp="CustomZone:title">
+                        <zone xml:id="Carmona_002_1_BT223_2_LT84_1" type="HeadingLine"
+                              subtype="none"
+                              points="858,1273 858,1293 910,1291 910,1268 903,1215 852,1215 858,1273 "
+                              source="https://iiif-dev.unige.ch/iiif/2/fedora_Carmona_002_1/,,,/full/0/default"
+                              corresp="HeadingLine">
+                              <path xml:id="Carmona_002_1_BT223_2_LT84_1_1"
+                                    points="860,1274 912,1271 "/>
+                              <line>DE</line>
+                        </zone>
+                        <zone xml:id="Carmona_002_1_BT223_2_LT84_2" type="HeadingLine"
+                              subtype="none"
+                              points="493,1496 491,1525 618,1519 653,1531 659,1533 661,1533 663,1535 817,1535 817,1533 819,1533 877,1523 893,1533 895,1533 897,1533 899,1533 986,1525 1031,1537 1037,1540 1039,1540 1041,1540 1055,1537 1117,1529 1168,1540 1177,1542 1179,1542 1181,1542 1183,1542 1212,1529 1281,1542 1286,1509 1286,1365 1195,1365 1191,1361 1150,1340 1148,1340 1068,1340 1066,1340 1064,1340 1062,1340 1062,1342 1043,1359 1041,1359 998,1340 996,1340 994,1340 916,1344 914,1344 912,1344 912,1346 901,1355 899,1357 897,1355 881,1342 879,1342 877,1342 875,1342 873,1342 871,1342 856,1355 852,1357 840,1353 807,1344 805,1344 803,1344 801,1344 776,1353 762,1357 753,1351 729,1334 727,1334 725,1334 690,1334 688,1334 686,1334 684,1334 684,1336 669,1349 663,1355 649,1349 630,1342 628,1342 626,1342 493,1344 493,1496 "
+                              source="https://iiif-dev.unige.ch/iiif/2/fedora_Carmona_002_1/,,,/full/0/default"
+                              corresp="HeadingLine">
+                              <path xml:id="Carmona_002_1_BT223_2_LT84_2_1"
+                                    points="495,1498 1288,1511 "/>
+                              <line>CANCIONES ANDALUZAS.</line>
+                        </zone>
+                  </zone>
+                  <zone xml:id="Carmona_002_1_BT227_3" n="3" type="MainZone" subtype="columns"
+                        points="699,1855 699,2176 172,2176 172,1855 "
+                        source="https://iiif-dev.unige.ch/iiif/2/fedora_Carmona_002_1/,,,/full/0/default"
+                        corresp="MainZone:columns">
+                        <zone
+                              xml:id="Carmona_002_1_BT227&#x2028; _&#x2028; 3_&#x2028; LT83&#x2028; _&#x2028; 1"
+                              type="DefaultLine" subtype="none"
+                              points="626,1884 606,1882 585,1882 564,1880 544,1880 523,1878 503,1876 482,1876 462,1874 441,1874 421,1872 400,1872 380,1870 367,1868 351,1872 310,1866 297,1866 277,1864 256,1864 256,1915 254,1930 628,1944 632,1923 630,1884 626,1884 "
+                              source="https://iiif-dev.unige.ch/iiif/2/fedora_Carmona_002_1/,,,/full/0/default"
+                              corresp="DefaultLine">
+                              <path
+                                    xml:id="Carmona_002_1_BT227&#x2028; _&#x2028; 3_&#x2028; LT83&#x2028; _&#x2028; 1_&#x2028; 1"
+                                    points="256,1915 632,1923 " corresp="DefaultLine"/>
+                              <line>Yo no te puedo ecir,</line>
+                        </zone>
+                        <zone
+                              xml:id="Carmona_002_1_BT227&#x2028; _&#x2028; 3_&#x2028; LT83&#x2028; _&#x2028; 2"
+                              type="DefaultLine" subtype="none"
+                              points="351,1917 324,1928 203,1911 203,1958 201,1979 657,1979 659,1965 657,1934 419,1932 367,1919 351,1917 "
+                              source="https://iiif-dev.unige.ch/iiif/2/fedora_Carmona_002_1/,,,/full/0/default"
+                              corresp="DefaultLine">
+                              <path
+                                    xml:id="Carmona_002_1_BT227&#x2028; _&#x2028; 3_&#x2028; LT83&#x2028; _&#x2028; 2_&#x2028; 1"
+                                    points="203,1958 659,1965 " corresp="DefaultLine"/>
+                              <line>Colasa, lo que me gusta</line>
+                        </zone>
+                        <zone
+                              xml:id="Carmona_002_1_BT227&#x2028; _&#x2028; 3_&#x2028; LT83&#x2028; _&#x2028; 3"
+                              type="DefaultLine" subtype="none"
+                              points="201,2002 199,2024 513,2024 542,2045 550,2051 552,2051 554,2051 556,2053 673,2053 675,2006 671,1965 201,1967 201,2002 "
+                              source="https://iiif-dev.unige.ch/iiif/2/fedora_Carmona_002_1/,,,/full/0/default"
+                              corresp="DefaultLine">
+                              <path
+                                    xml:id="Carmona_002_1_BT227&#x2028; _&#x2028; 3_&#x2028; LT83&#x2028; _&#x2028; 3_&#x2028; 1"
+                                    points="201,2002 675,2006 " corresp="DefaultLine"/>
+                              <line>sobre una pierna robusta</line>
+                        </zone>
+                        <zone
+                              xml:id="Carmona_002_1_BT227&#x2028; _&#x2028; 3_&#x2028; LT83&#x2028; _&#x2028; 4"
+                              type="DefaultLine" subtype="none"
+                              points="201,2047 199,2061 523,2065 527,2051 525,2016 201,2012 201,2047 "
+                              source="https://iiif-dev.unige.ch/iiif/2/fedora_Carmona_002_1/,,,/full/0/default"
+                              corresp="DefaultLine">
+                              <path
+                                    xml:id="Carmona_002_1_BT227&#x2028; _&#x2028; 3_&#x2028; LT83&#x2028; _&#x2028; 4_&#x2028; 1"
+                                    points="201,2047 527,2051 " corresp="DefaultLine"/>
+                              <line>una liga coloráa.</line>
+                        </zone>
+                        <zone
+                              xml:id="Carmona_002_1_BT227&#x2028; _&#x2028; 3_&#x2028; LT83&#x2028; _&#x2028; 5"
+                              type="DefaultLine" subtype="none"
+                              points="199,2047 199,2090 197,2104 589,2106 593,2094 589,2053 230,2057 207,2047 199,2047 "
+                              source="https://iiif-dev.unige.ch/iiif/2/fedora_Carmona_002_1/,,,/full/0/default"
+                              corresp="DefaultLine">
+                              <path
+                                    xml:id="Carmona_002_1_BT227&#x2028; _&#x2028; 3_&#x2028; LT83&#x2028; _&#x2028; 5_&#x2028; 1"
+                                    points="199,2090 593,2094 " corresp="DefaultLine"/>
+                              <line>Levanta los faralaes</line>
+                        </zone>
+                        <zone
+                              xml:id="Carmona_002_1_BT227&#x2028; _&#x2028; 3_&#x2028; LT83&#x2028; _&#x2028; 6"
+                              type="DefaultLine" subtype="none"
+                              points="199,2139 197,2170 244,2166 256,2174 269,2184 271,2184 273,2184 275,2186 318,2186 318,2184 320,2184 322,2184 322,2182 330,2176 341,2166 365,2166 378,2178 384,2182 384,2184 386,2184 388,2184 439,2186 441,2186 443,2186 458,2180 482,2168 495,2180 497,2182 497,2184 499,2184 501,2184 503,2184 591,2182 593,2143 589,2094 199,2096 199,2139 "
+                              source="https://iiif-dev.unige.ch/iiif/2/fedora_Carmona_002_1/,,,/full/0/default"
+                              corresp="DefaultLine">
+                              <path
+                                    xml:id="Carmona_002_1_BT227&#x2028; _&#x2028; 3_&#x2028; LT83&#x2028; _&#x2028; 6_&#x2028; 1"
+                                    points="199,2139 593,2143 " corresp="DefaultLine"/>
+                              <line>y luce la pantorriya,</line>
+                        </zone>
+                  </zone>
+                  <zone xml:id="Carmona_002_1_BT227_4" n="4" type="MainZone" subtype="columns"
+                        points="1552,1884 1552,2190 862,2190 862,1884 "
+                        source="https://iiif-dev.unige.ch/iiif/2/fedora_Carmona_002_1/,,,/full/0/default"
+                        corresp="MainZone:columns">
+                        <zone
+                              xml:id="Carmona_002_1_BT227&#x2028; _&#x2028; 4_&#x2028; LT83&#x2028; _&#x2028; 1"
+                              type="DefaultLine" subtype="none"
+                              points="1304,1880 1284,1880 1263,1880 1242,1880 1222,1880 1201,1880 1181,1880 1160,1880 1140,1880 1125,1880 1123,1882 1119,1887 1082,1887 1080,1882 1078,1880 1078,1880 1058,1880 1047,1880 1043,1882 1041,1882 912,1882 897,1897 893,1928 891,1946 1035,1946 1140,1960 1142,1960 1144,1960 1226,1950 1251,1967 1253,1969 1255,1969 1257,1969 1360,1971 1364,1940 1362,1884 1310,1880 1304,1880 "
+                              source="https://iiif-dev.unige.ch/iiif/2/fedora_Carmona_002_1/,,,/full/0/default"
+                              corresp="DefaultLine">
+                              <path
+                                    xml:id="Carmona_002_1_BT227&#x2028; _&#x2028; 4_&#x2028; LT83&#x2028; _&#x2028; 1_&#x2028; 1"
+                                    points="893,1928 1364,1940 " corresp="DefaultLine"/>
+                              <line>que vales mas, Colasiya,</line>
+                        </zone>
+                        <zone
+                              xml:id="Carmona_002_1_BT227&#x2028; _&#x2028; 4_&#x2028; LT83&#x2028; _&#x2028; 2"
+                              type="DefaultLine" subtype="none"
+                              points="895,1975 893,1993 1277,1993 1279,1981 1277,1944 895,1938 895,1975 "
+                              source="https://iiif-dev.unige.ch/iiif/2/fedora_Carmona_002_1/,,,/full/0/default"
+                              corresp="DefaultLine">
+                              <path
+                                    xml:id="Carmona_002_1_BT227&#x2028; _&#x2028; 4_&#x2028; LT83&#x2028; _&#x2028; 2_&#x2028; 1"
+                                    points="895,1975 1279,1981 " corresp="DefaultLine"/>
+                              <line>que toita una toráa.</line>
+                        </zone>
+                        <zone
+                              xml:id="Carmona_002_1_BT227&#x2028; _&#x2028; 4_&#x2028; LT83&#x2028; _&#x2028; 3"
+                              type="DefaultLine" subtype="none"
+                              points="1520,1989 1499,1987 1479,1985 1458,1981 1438,1979 1425,1973 1380,1969 1378,1969 1376,1969 1357,1979 1351,1981 1343,1979 1312,1967 1310,1967 1308,1967 1306,1967 1279,1977 1273,1977 1273,1981 1267,1981 1257,1985 1121,1979 1109,1979 1088,1979 1068,1979 1047,1979 1027,1979 1006,1977 986,1977 965,1977 945,1977 945,2016 942,2034 1528,2057 1532,2032 1532,1991 1520,1989 "
+                              source="https://iiif-dev.unige.ch/iiif/2/fedora_Carmona_002_1/,,,/full/0/default"
+                              corresp="DefaultLine">
+                              <path
+                                    xml:id="Carmona_002_1_BT227&#x2028; _&#x2028; 4_&#x2028; LT83&#x2028; _&#x2028; 3_&#x2028; 1"
+                                    points="945,2016 1532,2032 " corresp="DefaultLine"/>
+                              <line>Vaya un ángel retrechero, ¡juy!</line>
+                        </zone>
+                        <zone
+                              xml:id="Carmona_002_1_BT227&#x2028; _&#x2028; 4_&#x2028; LT83&#x2028; _&#x2028; 4"
+                              type="DefaultLine" subtype="none"
+                              points="891,2059 889,2082 1078,2088 1086,2096 1105,2112 1105,2114 1107,2114 1109,2114 1111,2114 1160,2108 1171,2121 1173,2121 1173,2123 1175,2123 1177,2123 1179,2125 1462,2125 1464,2075 1464,2041 891,2016 891,2059 "
+                              source="https://iiif-dev.unige.ch/iiif/2/fedora_Carmona_002_1/,,,/full/0/default"
+                              corresp="DefaultLine">
+                              <path
+                                    xml:id="Carmona_002_1_BT227&#x2028; _&#x2028; 4_&#x2028; LT83&#x2028; _&#x2028; 4_&#x2028; 1"
+                                    points="891,2059 1464,2075 " corresp="DefaultLine"/>
+                              <line>me tienen como alma en pena,</line>
+                        </zone>
+                        <zone
+                              xml:id="Carmona_002_1_BT227&#x2028; _&#x2028; 4_&#x2028; LT83&#x2028; _&#x2028; 5"
+                              type="DefaultLine" subtype="none"
+                              points="897,2104 895,2119 1084,2121 1088,2108 1086,2075 897,2065 897,2104 "
+                              source="https://iiif-dev.unige.ch/iiif/2/fedora_Carmona_002_1/,,,/full/0/default"
+                              corresp="DefaultLine">
+                              <path
+                                    xml:id="Carmona_002_1_BT227&#x2028; _&#x2028; 4_&#x2028; LT83&#x2028; _&#x2028; 5_&#x2028; 1"
+                                    points="897,2104 1088,2108 " corresp="DefaultLine"/>
+                              <line>¡salero!....</line>
+                        </zone>
+                        <zone
+                              xml:id="Carmona_002_1_BT227&#x2028; _&#x2028; 4_&#x2028; LT83&#x2028; _&#x2028; 6"
+                              type="DefaultLine" subtype="none"
+                              points="889,2147 887,2176 957,2184 998,2207 1000,2207 1002,2207 1004,2207 1006,2207 1033,2188 1045,2182 1099,2182 1123,2197 1136,2205 1138,2205 1140,2205 1142,2205 1195,2201 1238,2199 1247,2205 1253,2211 1255,2211 1257,2211 1259,2213 1331,2213 1333,2156 1333,2114 889,2106 889,2147 "
+                              source="https://iiif-dev.unige.ch/iiif/2/fedora_Carmona_002_1/,,,/full/0/default"
+                              corresp="DefaultLine">
+                              <path
+                                    xml:id="Carmona_002_1_BT227&#x2028; _&#x2028; 4_&#x2028; LT83&#x2028; _&#x2028; 6_&#x2028; 1"
+                                    points="889,2147 1333,2156 " corresp="DefaultLine"/>
+                              <line>las ligas de mi morena.</line>
+                        </zone>
+                  </zone>
+                  <zone xml:id="Carmona_002_1_BT224_5" n="5" type="GraphicZone"
+                        subtype="illustration" points="1278,124 1278,1087 514,1087 514,124 "
+                        source="https://iiif-dev.unige.ch/iiif/2/fedora_Carmona_002_1/,,,/full/0/default"
+                        corresp="GraphicZone:illustration"/>
+            </surface>
+            <surface xml:id="Carmona_002_2" type="page" cert="silver">
+                  <graphic
+                        url="https://iiif-dev.unige.ch/iiif/2/fedora_Carmona_002_2/full/full/0/default.jpg"/>
+                  <zone xml:id="Carmona_002_2_BT227_1" n="1" type="MainZone" subtype="columns"
+                        points="778,75 778,1368 160,1368 160,75 "
+                        source="https://iiif-dev.unige.ch/iiif/2/fedora_Carmona_002_2/,,,/full/0/default"
+                        corresp="MainZone:columns">
+                        <zone
+                              xml:id="Carmona_002_2_BT227&#x2028; _&#x2028; 1_&#x2028; LT83&#x2028; _&#x2028; 1"
+                              type="DefaultLine" subtype="none"
+                              points="750,121 729,119 709,117 688,117 673,115 303,109 295,111 274,113 254,115 233,117 233,155 233,169 758,175 760,155 760,121 750,121 "
+                              source="https://iiif-dev.unige.ch/iiif/2/fedora_Carmona_002_2/,,,/full/0/default"
+                              corresp="DefaultLine">
+                              <path
+                                    xml:id="Carmona_002_2_BT227&#x2028; _&#x2028; 1_&#x2028; LT83&#x2028; _&#x2028; 1_&#x2028; 1"
+                                    points="233,155 760,155 " corresp="DefaultLine"/>
+                              <line>Por Dios, serrana, por Dios,</line>
+                        </zone>
+                        <zone
+                              xml:id="Carmona_002_2_BT227&#x2028; _&#x2028; 1_&#x2028; LT83&#x2028; _&#x2028; 2"
+                              type="DefaultLine" subtype="none"
+                              points="186,196 186,214 696,219 700,194 696,163 183,163 186,196 "
+                              source="https://iiif-dev.unige.ch/iiif/2/fedora_Carmona_002_2/,,,/full/0/default"
+                              corresp="DefaultLine">
+                              <path
+                                    xml:id="Carmona_002_2_BT227&#x2028; _&#x2028; 1_&#x2028; LT83&#x2028; _&#x2028; 2_&#x2028; 1"
+                                    points="186,196 700,194 " corresp="DefaultLine"/>
+                              <line>que vea esa pierna un poco;</line>
+                        </zone>
+                        <zone
+                              xml:id="Carmona_002_2_BT227&#x2028; _&#x2028; 1_&#x2028; LT83&#x2028; _&#x2028; 3"
+                              type="DefaultLine" subtype="none"
+                              points="188,239 188,256 719,266 721,239 719,202 188,204 188,239 "
+                              source="https://iiif-dev.unige.ch/iiif/2/fedora_Carmona_002_2/,,,/full/0/default"
+                              corresp="DefaultLine">
+                              <path
+                                    xml:id="Carmona_002_2_BT227&#x2028; _&#x2028; 1_&#x2028; LT83&#x2028; _&#x2028; 3_&#x2028; 1"
+                                    points="188,239 721,239 " corresp="DefaultLine"/>
+                              <line>que me estás volviendo loco,</line>
+                        </zone>
+                        <zone
+                              xml:id="Carmona_002_2_BT227&#x2028; _&#x2028; 1_&#x2028; LT83&#x2028; _&#x2028; 4"
+                              type="DefaultLine" subtype="none"
+                              points="190,285 190,303 620,299 620,285 620,250 190,243 190,285 "
+                              source="https://iiif-dev.unige.ch/iiif/2/fedora_Carmona_002_2/,,,/full/0/default"
+                              corresp="DefaultLine">
+                              <path
+                                    xml:id="Carmona_002_2_BT227&#x2028; _&#x2028; 1_&#x2028; LT83&#x2028; _&#x2028; 4_&#x2028; 1"
+                                    points="190,285 620,285 " corresp="DefaultLine"/>
+                              <line>por instantes, puñaláa.</line>
+                        </zone>
+                        <zone
+                              xml:id="Carmona_002_2_BT227&#x2028; _&#x2028; 1_&#x2028; LT83&#x2028; _&#x2028; 5"
+                              type="DefaultLine" subtype="none"
+                              points="616,287 595,287 574,287 554,287 533,287 512,287 491,287 471,287 463,287 181,291 183,328 183,347 655,349 659,324 653,283 616,283 616,287 "
+                              source="https://iiif-dev.unige.ch/iiif/2/fedora_Carmona_002_2/,,,/full/0/default"
+                              corresp="DefaultLine">
+                              <path
+                                    xml:id="Carmona_002_2_BT227&#x2028; _&#x2028; 1_&#x2028; LT83&#x2028; _&#x2028; 5_&#x2028; 1"
+                                    points="183,328 659,324 " corresp="DefaultLine"/>
+                              <line>Déjame que absorto mire</line>
+                        </zone>
+                        <zone
+                              xml:id="Carmona_002_2_BT227&#x2028; _&#x2028; 1_&#x2028; LT83&#x2028; _&#x2028; 6"
+                              type="DefaultLine" subtype="none"
+                              points="179,369 179,388 580,392 582,369 582,336 179,336 179,369 "
+                              source="https://iiif-dev.unige.ch/iiif/2/fedora_Carmona_002_2/,,,/full/0/default"
+                              corresp="DefaultLine">
+                              <path
+                                    xml:id="Carmona_002_2_BT227&#x2028; _&#x2028; 1_&#x2028; LT83&#x2028; _&#x2028; 6_&#x2028; 1"
+                                    points="179,369 582,369 " corresp="DefaultLine"/>
+                              <line>de tu edificio la base;</line>
+                        </zone>
+                        <zone
+                              xml:id="Carmona_002_2_BT227&#x2028; _&#x2028; 1_&#x2028; LT83&#x2028; _&#x2028; 7"
+                              type="DefaultLine" subtype="none"
+                              points="181,411 179,425 202,436 204,436 206,436 384,427 425,438 427,438 429,438 671,427 673,415 671,372 181,378 181,411 "
+                              source="https://iiif-dev.unige.ch/iiif/2/fedora_Carmona_002_2/,,,/full/0/default"
+                              corresp="DefaultLine">
+                              <path
+                                    xml:id="Carmona_002_2_BT227&#x2028; _&#x2028; 1_&#x2028; LT83&#x2028; _&#x2028; 7_&#x2028; 1"
+                                    points="181,411 673,415 " corresp="DefaultLine"/>
+                              <line>deja que el alma se abrase</line>
+                        </zone>
+                        <zone
+                              xml:id="Carmona_002_2_BT227&#x2028; _&#x2028; 1_&#x2028; LT83&#x2028; _&#x2028; 8"
+                              type="DefaultLine" subtype="none"
+                              points="589,415 587,415 502,425 498,425 494,425 367,413 365,413 181,421 181,458 179,473 305,493 308,493 310,493 345,483 363,477 386,485 421,496 423,496 425,496 475,489 549,479 611,496 618,462 618,427 591,415 589,415 "
+                              source="https://iiif-dev.unige.ch/iiif/2/fedora_Carmona_002_2/,,,/full/0/default"
+                              corresp="DefaultLine">
+                              <path
+                                    xml:id="Carmona_002_2_BT227&#x2028; _&#x2028; 1_&#x2028; LT83&#x2028; _&#x2028; 8_&#x2028; 1"
+                                    points="181,458 618,462 " corresp="DefaultLine"/>
+                              <line>contemplándote, saláa.</line>
+                        </zone>
+                        <zone
+                              xml:id="Carmona_002_2_BT227&#x2028; _&#x2028; 1_&#x2028; LT83&#x2028; _&#x2028; 9"
+                              type="DefaultLine" subtype="none"
+                              points="227,558 227,570 686,578 688,558 686,514 642,514 640,512 630,504 630,502 628,502 626,502 514,502 512,502 510,502 508,502 496,512 491,516 382,516 372,510 351,502 349,502 347,502 345,502 326,510 320,512 227,510 227,558 "
+                              source="https://iiif-dev.unige.ch/iiif/2/fedora_Carmona_002_2/,,,/full/0/default"
+                              corresp="DefaultLine">
+                              <path
+                                    xml:id="Carmona_002_2_BT227&#x2028; _&#x2028; 1_&#x2028; LT83&#x2028; _&#x2028; 9_&#x2028; 1"
+                                    points="227,558 688,558 " corresp="DefaultLine"/>
+                              <line>Vaya una curra, ¡salero!</line>
+                        </zone>
+                        <zone
+                              xml:id="Carmona_002_2_BT227&#x2028; _&#x2028; 1_&#x2028; LT83&#x2028; _&#x2028; 10"
+                              type="DefaultLine" subtype="none"
+                              points="179,603 179,617 647,620 649,603 649,562 179,560 179,603 "
+                              source="https://iiif-dev.unige.ch/iiif/2/fedora_Carmona_002_2/,,,/full/0/default"
+                              corresp="DefaultLine">
+                              <path
+                                    xml:id="Carmona_002_2_BT227&#x2028; _&#x2028; 1_&#x2028; LT83&#x2028; _&#x2028; 10_&#x2028; 1"
+                                    points="179,603 649,603 " corresp="DefaultLine"/>
+                              <line>¡que viva la gente güena!</line>
+                        </zone>
+                        <zone
+                              xml:id="Carmona_002_2_BT227&#x2028; _&#x2028; 1_&#x2028; LT83&#x2028; _&#x2028; 11"
+                              type="DefaultLine" subtype="none"
+                              points="766,607 181,607 181,644 179,659 299,675 301,675 403,667 458,663 769,677 773,648 769,607 766,607 "
+                              source="https://iiif-dev.unige.ch/iiif/2/fedora_Carmona_002_2/,,,/full/0/default"
+                              corresp="DefaultLine">
+                              <path
+                                    xml:id="Carmona_002_2_BT227&#x2028; _&#x2028; 1_&#x2028; LT83&#x2028; _&#x2028; 11_&#x2028; 1"
+                                    points="181,644 773,648 " corresp="DefaultLine"/>
+                              <line>valen más que el mundo entero</line>
+                        </zone>
+                        <zone
+                              xml:id="Carmona_002_2_BT227&#x2028; _&#x2028; 1_&#x2028; LT83&#x2028; _&#x2028; 12"
+                              type="DefaultLine" subtype="none"
+                              points="175,690 173,710 248,725 250,725 423,717 436,727 438,727 440,727 442,727 512,717 599,727 601,727 603,727 605,727 605,725 613,715 616,694 613,659 175,646 175,690 "
+                              source="https://iiif-dev.unige.ch/iiif/2/fedora_Carmona_002_2/,,,/full/0/default"
+                              corresp="DefaultLine">
+                              <path
+                                    xml:id="Carmona_002_2_BT227&#x2028; _&#x2028; 1_&#x2028; LT83&#x2028; _&#x2028; 12_&#x2028; 1"
+                                    points="175,690 616,694 " corresp="DefaultLine"/>
+                              <line>las ligas de mi morena.</line>
+                        </zone>
+                        <zone
+                              xml:id="Carmona_002_2_BT227&#x2028; _&#x2028; 1_&#x2028; LT83&#x2028; _&#x2028; 13"
+                              type="DefaultLine" subtype="none"
+                              points="680,750 673,748 382,750 355,739 353,739 351,739 349,739 347,739 345,739 345,741 334,752 264,752 227,737 225,789 223,801 684,814 688,793 686,752 680,750 "
+                              source="https://iiif-dev.unige.ch/iiif/2/fedora_Carmona_002_2/,,,/full/0/default"
+                              corresp="DefaultLine">
+                              <path
+                                    xml:id="Carmona_002_2_BT227&#x2028; _&#x2028; 1_&#x2028; LT83&#x2028; _&#x2028; 13_&#x2028; 1"
+                                    points="225,789 688,793 " corresp="DefaultLine"/>
+                              <line>Vaya unos ojos ladrones,</line>
+                        </zone>
+                        <zone
+                              xml:id="Carmona_002_2_BT227&#x2028; _&#x2028; 1_&#x2028; LT83&#x2028; _&#x2028; 14"
+                              type="DefaultLine" subtype="none"
+                              points="175,837 175,851 595,857 597,837 597,801 175,799 175,837 "
+                              source="https://iiif-dev.unige.ch/iiif/2/fedora_Carmona_002_2/,,,/full/0/default"
+                              corresp="DefaultLine">
+                              <path
+                                    xml:id="Carmona_002_2_BT227&#x2028; _&#x2028; 1_&#x2028; LT83&#x2028; _&#x2028; 14_&#x2028; 1"
+                                    points="175,837 597,837 " corresp="DefaultLine"/>
+                              <line>temerarios y atrevíos;</line>
+                        </zone>
+                        <zone
+                              xml:id="Carmona_002_2_BT227&#x2028; _&#x2028; 1_&#x2028; LT83&#x2028; _&#x2028; 15"
+                              type="DefaultLine" subtype="none"
+                              points="173,884 173,905 572,896 663,907 665,884 665,849 173,847 173,884 "
+                              source="https://iiif-dev.unige.ch/iiif/2/fedora_Carmona_002_2/,,,/full/0/default"
+                              corresp="DefaultLine">
+                              <path
+                                    xml:id="Carmona_002_2_BT227&#x2028; _&#x2028; 1_&#x2028; LT83&#x2028; _&#x2028; 15_&#x2028; 1"
+                                    points="173,884 665,884 " corresp="DefaultLine"/>
+                              <line>¿por qué me miran reñíos,</line>
+                        </zone>
+                        <zone
+                              xml:id="Carmona_002_2_BT227&#x2028; _&#x2028; 1_&#x2028; LT83&#x2028; _&#x2028; 16"
+                              type="DefaultLine" subtype="none"
+                              points="177,923 177,938 593,938 593,923 591,888 177,888 177,923 "
+                              source="https://iiif-dev.unige.ch/iiif/2/fedora_Carmona_002_2/,,,/full/0/default"
+                              corresp="DefaultLine">
+                              <path
+                                    xml:id="Carmona_002_2_BT227&#x2028; _&#x2028; 1_&#x2028; LT83&#x2028; _&#x2028; 16_&#x2028; 1"
+                                    points="177,923 593,923 " corresp="DefaultLine"/>
+                              <line>si no les hice por qué?</line>
+                        </zone>
+                        <zone
+                              xml:id="Carmona_002_2_BT227&#x2028; _&#x2028; 1_&#x2028; LT83&#x2028; _&#x2028; 17"
+                              type="DefaultLine" subtype="none"
+                              points="245,925 225,925 204,925 183,925 183,963 181,985 649,985 651,969 647,925 341,934 250,925 245,925 "
+                              source="https://iiif-dev.unige.ch/iiif/2/fedora_Carmona_002_2/,,,/full/0/default"
+                              corresp="DefaultLine">
+                              <path
+                                    xml:id="Carmona_002_2_BT227&#x2028; _&#x2028; 1_&#x2028; LT83&#x2028; _&#x2028; 17_&#x2028; 1"
+                                    points="183,963 651,969 " corresp="DefaultLine"/>
+                              <line>Vaya unas cejas reondas,</line>
+                        </zone>
+                        <zone
+                              xml:id="Carmona_002_2_BT227&#x2028; _&#x2028; 1_&#x2028; LT83&#x2028; _&#x2028; 18"
+                              type="DefaultLine" subtype="none"
+                              points="568,969 547,969 531,969 514,977 510,977 502,977 446,967 444,967 442,967 440,967 440,969 432,977 429,977 175,977 177,1016 177,1033 636,1025 638,1008 634,977 572,969 568,969 "
+                              source="https://iiif-dev.unige.ch/iiif/2/fedora_Carmona_002_2/,,,/full/0/default"
+                              corresp="DefaultLine">
+                              <path
+                                    xml:id="Carmona_002_2_BT227&#x2028; _&#x2028; 1_&#x2028; LT83&#x2028; _&#x2028; 18_&#x2028; 1"
+                                    points="177,1016 638,1008 " corresp="DefaultLine"/>
+                              <line>y qué pestañas... salero!</line>
+                        </zone>
+                        <zone
+                              xml:id="Carmona_002_2_BT227&#x2028; _&#x2028; 1_&#x2028; LT83&#x2028; _&#x2028; 19"
+                              type="DefaultLine" subtype="none"
+                              points="179,1058 179,1072 669,1076 673,1051 667,1014 177,1023 179,1058 "
+                              source="https://iiif-dev.unige.ch/iiif/2/fedora_Carmona_002_2/,,,/full/0/default"
+                              corresp="DefaultLine">
+                              <path
+                                    xml:id="Carmona_002_2_BT227&#x2028; _&#x2028; 1_&#x2028; LT83&#x2028; _&#x2028; 19_&#x2028; 1"
+                                    points="179,1058 673,1051 " corresp="DefaultLine"/>
+                              <line>¡vaya un mirar retrechero!</line>
+                        </zone>
+                        <zone
+                              xml:id="Carmona_002_2_BT227&#x2028; _&#x2028; 1_&#x2028; LT83&#x2028; _&#x2028; 20"
+                              type="DefaultLine" subtype="none"
+                              points="179,1105 179,1128 272,1120 289,1128 289,1130 291,1130 293,1130 295,1130 297,1130 303,1128 349,1118 378,1128 380,1128 382,1128 469,1120 489,1128 502,1134 504,1134 506,1134 690,1128 690,1099 684,1064 177,1068 179,1105 "
+                              source="https://iiif-dev.unige.ch/iiif/2/fedora_Carmona_002_2/,,,/full/0/default"
+                              corresp="DefaultLine">
+                              <path
+                                    xml:id="Carmona_002_2_BT227&#x2028; _&#x2028; 1_&#x2028; LT83&#x2028; _&#x2028; 20_&#x2028; 1"
+                                    points="179,1105 690,1099 " corresp="DefaultLine"/>
+                              <line>¡vaya una jembra gachona!</line>
+                        </zone>
+                        <zone
+                              xml:id="Carmona_002_2_BT227&#x2028; _&#x2028; 1_&#x2028; LT83&#x2028; _&#x2028; 21"
+                              type="DefaultLine" subtype="none"
+                              points="731,1153 719,1151 568,1159 508,1153 432,1142 429,1142 427,1142 425,1142 413,1153 411,1155 297,1155 291,1155 243,1140 241,1140 239,1140 237,1140 214,1151 214,1194 212,1211 737,1219 742,1200 737,1153 731,1153 "
+                              source="https://iiif-dev.unige.ch/iiif/2/fedora_Carmona_002_2/,,,/full/0/default"
+                              corresp="DefaultLine">
+                              <path
+                                    xml:id="Carmona_002_2_BT227&#x2028; _&#x2028; 1_&#x2028; LT83&#x2028; _&#x2028; 21_&#x2028; 1"
+                                    points="214,1194 742,1200 " corresp="DefaultLine"/>
+                              <line>Que soy capaz, si me muero</line>
+                        </zone>
+                        <zone
+                              xml:id="Carmona_002_2_BT227&#x2028; _&#x2028; 1_&#x2028; LT83&#x2028; _&#x2028; 22"
+                              type="DefaultLine" subtype="none"
+                              points="175,1242 173,1256 347,1256 349,1256 374,1266 376,1266 378,1266 576,1256 578,1246 578,1209 175,1206 175,1242 "
+                              source="https://iiif-dev.unige.ch/iiif/2/fedora_Carmona_002_2/,,,/full/0/default"
+                              corresp="DefaultLine">
+                              <path
+                                    xml:id="Carmona_002_2_BT227&#x2028; _&#x2028; 1_&#x2028; LT83&#x2028; _&#x2028; 22_&#x2028; 1"
+                                    points="175,1242 578,1246 " corresp="DefaultLine"/>
+                              <line>de placer en la faena,</line>
+                        </zone>
+                        <zone
+                              xml:id="Carmona_002_2_BT227&#x2028; _&#x2028; 1_&#x2028; LT83&#x2028; _&#x2028; 23"
+                              type="DefaultLine" subtype="none"
+                              points="173,1289 173,1310 651,1312 653,1289 653,1252 173,1250 173,1289 "
+                              source="https://iiif-dev.unige.ch/iiif/2/fedora_Carmona_002_2/,,,/full/0/default"
+                              corresp="DefaultLine">
+                              <path
+                                    xml:id="Carmona_002_2_BT227&#x2028; _&#x2028; 1_&#x2028; LT83&#x2028; _&#x2028; 23_&#x2028; 1"
+                                    points="173,1289 653,1289 " corresp="DefaultLine"/>
+                              <line>de llevarme... !ole salero!</line>
+                        </zone>
+                        <zone
+                              xml:id="Carmona_002_2_BT227&#x2028; _&#x2028; 1_&#x2028; LT83&#x2028; _&#x2028; 24"
+                              type="DefaultLine" subtype="none"
+                              points="173,1333 171,1366 233,1370 235,1370 237,1370 239,1370 239,1368 243,1366 254,1355 279,1366 320,1380 322,1380 324,1382 407,1382 407,1380 409,1380 411,1380 434,1361 438,1357 444,1361 460,1370 463,1370 465,1370 467,1370 483,1361 489,1359 620,1359 622,1339 620,1302 173,1293 173,1333 "
+                              source="https://iiif-dev.unige.ch/iiif/2/fedora_Carmona_002_2/,,,/full/0/default"
+                              corresp="DefaultLine">
+                              <path
+                                    xml:id="Carmona_002_2_BT227&#x2028; _&#x2028; 1_&#x2028; LT83&#x2028; _&#x2028; 24_&#x2028; 1"
+                                    points="173,1333 622,1339 " corresp="DefaultLine"/>
+                              <line>las ligas de mi morena.</line>
+                        </zone>
+                  </zone>
+                  <zone xml:id="Carmona_002_2_BT227_2" n="2" type="MainZone" subtype="columns"
+                        points="1480,106 1480,1359 833,1359 833,106 "
+                        source="https://iiif-dev.unige.ch/iiif/2/fedora_Carmona_002_2/,,,/full/0/default"
+                        corresp="MainZone:columns">
+                        <zone
+                              xml:id="Carmona_002_2_BT227&#x2028; _&#x2028; 2_&#x2028; LT83&#x2028; _&#x2028; 1"
+                              type="DefaultLine" subtype="none"
+                              points="1285,113 1265,113 1244,113 1223,113 1203,111 1182,111 1161,111 1147,111 1141,111 1120,111 1103,109 1101,113 1099,113 1093,113 1072,109 1058,109 1037,109 1017,109 996,107 988,107 913,111 915,152 915,167 1304,169 1308,148 1304,113 1285,113 "
+                              source="https://iiif-dev.unige.ch/iiif/2/fedora_Carmona_002_2/,,,/full/0/default"
+                              corresp="DefaultLine">
+                              <path
+                                    xml:id="Carmona_002_2_BT227&#x2028; _&#x2028; 2_&#x2028; LT83&#x2028; _&#x2028; 1_&#x2028; 1"
+                                    points="915,152 1308,148 " corresp="DefaultLine"/>
+                              <line>Tan dura de corazon</line>
+                        </zone>
+                        <zone
+                              xml:id="Carmona_002_2_BT227&#x2028; _&#x2028; 2_&#x2028; LT83&#x2028; _&#x2028; 2"
+                              type="DefaultLine" subtype="none"
+                              points="868,196 868,219 1302,217 1302,196 1302,163 868,163 868,196 "
+                              source="https://iiif-dev.unige.ch/iiif/2/fedora_Carmona_002_2/,,,/full/0/default"
+                              corresp="DefaultLine">
+                              <path
+                                    xml:id="Carmona_002_2_BT227&#x2028; _&#x2028; 2_&#x2028; LT83&#x2028; _&#x2028; 2_&#x2028; 1"
+                                    points="868,196 1302,196 " corresp="DefaultLine"/>
+                              <line>es la negra de mis ojos,</line>
+                        </zone>
+                        <zone
+                              xml:id="Carmona_002_2_BT227&#x2028; _&#x2028; 2_&#x2028; LT83&#x2028; _&#x2028; 3"
+                              type="DefaultLine" subtype="none"
+                              points="870,241 870,266 1039,266 1039,264 1041,264 1066,254 1085,266 1087,266 1089,266 1091,266 1093,266 1120,254 1182,266 1184,266 1186,266 1229,256 1314,264 1316,264 1318,264 1339,254 1364,270 1366,270 1368,270 1370,272 1465,272 1467,235 1461,202 868,206 870,241 "
+                              source="https://iiif-dev.unige.ch/iiif/2/fedora_Carmona_002_2/,,,/full/0/default"
+                              corresp="DefaultLine">
+                              <path
+                                    xml:id="Carmona_002_2_BT227&#x2028; _&#x2028; 2_&#x2028; LT83&#x2028; _&#x2028; 3_&#x2028; 1"
+                                    points="870,241 1467,235 " corresp="DefaultLine"/>
+                              <line>que hasta verme hecho despojos</line>
+                        </zone>
+                        <zone
+                              xml:id="Carmona_002_2_BT227&#x2028; _&#x2028; 2_&#x2028; LT83&#x2028; _&#x2028; 4"
+                              type="DefaultLine" subtype="none"
+                              points="870,285 870,299 1333,299 1333,285 1331,243 870,250 870,285 "
+                              source="https://iiif-dev.unige.ch/iiif/2/fedora_Carmona_002_2/,,,/full/0/default"
+                              corresp="DefaultLine">
+                              <path
+                                    xml:id="Carmona_002_2_BT227&#x2028; _&#x2028; 2_&#x2028; LT83&#x2028; _&#x2028; 4_&#x2028; 1"
+                                    points="870,285 1333,285 " corresp="DefaultLine"/>
+                              <line>no se ha de compadecer.</line>
+                        </zone>
+                        <zone
+                              xml:id="Carmona_002_2_BT227&#x2028; _&#x2028; 2_&#x2028; LT83&#x2028; _&#x2028; 5"
+                              type="DefaultLine" subtype="none"
+                              points="992,287 971,287 950,287 930,287 909,287 888,287 868,285 868,326 866,336 1374,349 1378,330 1376,293 994,287 992,287 "
+                              source="https://iiif-dev.unige.ch/iiif/2/fedora_Carmona_002_2/,,,/full/0/default"
+                              corresp="DefaultLine">
+                              <path
+                                    xml:id="Carmona_002_2_BT227&#x2028; _&#x2028; 2_&#x2028; LT83&#x2028; _&#x2028; 5_&#x2028; 1"
+                                    points="868,326 1378,330 " corresp="DefaultLine"/>
+                              <line>Por más que la digo: reina,</line>
+                        </zone>
+                        <zone
+                              xml:id="Carmona_002_2_BT227&#x2028; _&#x2028; 2_&#x2028; LT83&#x2028; _&#x2028; 6"
+                              type="DefaultLine" subtype="none"
+                              points="866,372 866,390 1360,386 1360,372 1358,334 866,336 866,372 "
+                              source="https://iiif-dev.unige.ch/iiif/2/fedora_Carmona_002_2/,,,/full/0/default"
+                              corresp="DefaultLine">
+                              <path
+                                    xml:id="Carmona_002_2_BT227&#x2028; _&#x2028; 2_&#x2028; LT83&#x2028; _&#x2028; 6_&#x2028; 1"
+                                    points="866,372 1360,372 " corresp="DefaultLine"/>
+                              <line>¿hasta cuándo ha de durar</line>
+                        </zone>
+                        <zone
+                              xml:id="Carmona_002_2_BT227&#x2028; _&#x2028; 2_&#x2028; LT83&#x2028; _&#x2028; 7"
+                              type="DefaultLine" subtype="none"
+                              points="868,415 868,431 1227,429 1227,415 1227,382 868,382 868,415 "
+                              source="https://iiif-dev.unige.ch/iiif/2/fedora_Carmona_002_2/,,,/full/0/default"
+                              corresp="DefaultLine">
+                              <path
+                                    xml:id="Carmona_002_2_BT227&#x2028; _&#x2028; 2_&#x2028; LT83&#x2028; _&#x2028; 7_&#x2028; 1"
+                                    points="868,415 1227,415 " corresp="DefaultLine"/>
+                              <line>este modo de jugar</line>
+                        </zone>
+                        <zone
+                              xml:id="Carmona_002_2_BT227&#x2028; _&#x2028; 2_&#x2028; LT83&#x2028; _&#x2028; 8"
+                              type="DefaultLine" subtype="none"
+                              points="1215,417 1194,417 1174,417 1153,417 1132,417 1112,417 1091,417 1070,417 1050,417 1029,417 1008,417 988,417 967,417 946,417 926,417 905,417 884,417 882,415 882,415 880,415 878,415 876,415 864,421 866,460 866,487 1366,487 1366,456 1362,417 1215,415 1215,417 "
+                              source="https://iiif-dev.unige.ch/iiif/2/fedora_Carmona_002_2/,,,/full/0/default"
+                              corresp="DefaultLine">
+                              <path
+                                    xml:id="Carmona_002_2_BT227&#x2028; _&#x2028; 2_&#x2028; LT83&#x2028; _&#x2028; 8_&#x2028; 1"
+                                    points="866,460 1366,456 " corresp="DefaultLine"/>
+                              <line>que tienes, mi malagueña?</line>
+                        </zone>
+                        <zone
+                              xml:id="Carmona_002_2_BT227&#x2028; _&#x2028; 2_&#x2028; LT83&#x2028; _&#x2028; 9"
+                              type="DefaultLine" subtype="none"
+                              points="866,560 866,576 1285,568 1287,553 1277,498 1254,516 1149,502 1147,502 1064,518 1029,496 1025,493 1023,493 1021,493 1019,493 1017,493 1010,496 977,514 944,514 921,496 919,493 917,493 915,493 913,493 864,493 866,560 "
+                              source="https://iiif-dev.unige.ch/iiif/2/fedora_Carmona_002_2/,,,/full/0/default"
+                              corresp="DefaultLine">
+                              <path
+                                    xml:id="Carmona_002_2_BT227&#x2028; _&#x2028; 2_&#x2028; LT83&#x2028; _&#x2028; 9_&#x2028; 1"
+                                    points="866,560 1287,553 " corresp="DefaultLine"/>
+                              <line>¡Colasiya.... Resalero!</line>
+                        </zone>
+                        <zone
+                              xml:id="Carmona_002_2_BT227&#x2028; _&#x2028; 2_&#x2028; LT83&#x2028; _&#x2028; 10"
+                              type="DefaultLine" subtype="none"
+                              points="862,603 862,620 1347,617 1347,603 1347,568 862,560 862,603 "
+                              source="https://iiif-dev.unige.ch/iiif/2/fedora_Carmona_002_2/,,,/full/0/default"
+                              corresp="DefaultLine">
+                              <path
+                                    xml:id="Carmona_002_2_BT227&#x2028; _&#x2028; 2_&#x2028; LT83&#x2028; _&#x2028; 10_&#x2028; 1"
+                                    points="862,603 1347,603 " corresp="DefaultLine"/>
+                              <line>hermosa, blanca azucena,</line>
+                        </zone>
+                        <zone
+                              xml:id="Carmona_002_2_BT227&#x2028; _&#x2028; 2_&#x2028; LT83&#x2028; _&#x2028; 11"
+                              type="DefaultLine" subtype="none"
+                              points="859,651 859,663 1405,665 1407,644 1401,607 857,607 859,651 "
+                              source="https://iiif-dev.unige.ch/iiif/2/fedora_Carmona_002_2/,,,/full/0/default"
+                              corresp="DefaultLine">
+                              <path
+                                    xml:id="Carmona_002_2_BT227&#x2028; _&#x2028; 2_&#x2028; LT83&#x2028; _&#x2028; 11_&#x2028; 1"
+                                    points="859,651 1407,644 " corresp="DefaultLine"/>
+                              <line>no te enfaes... porque quiero</line>
+                        </zone>
+                        <zone
+                              xml:id="Carmona_002_2_BT227&#x2028; _&#x2028; 2_&#x2028; LT83&#x2028; _&#x2028; 12"
+                              type="DefaultLine" subtype="none"
+                              points="862,696 862,721 1058,729 1060,729 1062,729 1091,719 1101,715 1108,719 1124,729 1126,729 1128,729 1130,729 1132,729 1134,729 1151,719 1159,715 1300,715 1302,696 1302,661 862,653 862,696 "
+                              source="https://iiif-dev.unige.ch/iiif/2/fedora_Carmona_002_2/,,,/full/0/default"
+                              corresp="DefaultLine">
+                              <path
+                                    xml:id="Carmona_002_2_BT227&#x2028; _&#x2028; 2_&#x2028; LT83&#x2028; _&#x2028; 12_&#x2028; 1"
+                                    points="862,696 1302,696 " corresp="DefaultLine"/>
+                              <line>las ligas de mi morena.</line>
+                        </zone>
+                        <zone
+                              xml:id="Carmona_002_2_BT227&#x2028; _&#x2028; 2_&#x2028; LT83&#x2028; _&#x2028; 13"
+                              type="DefaultLine" subtype="none"
+                              points="866,834 864,851 1283,859 1287,843 1285,810 866,793 866,834 "
+                              source="https://iiif-dev.unige.ch/iiif/2/fedora_Carmona_002_2/,,,/full/0/default"
+                              corresp="DefaultLine">
+                              <path
+                                    xml:id="Carmona_002_2_BT227&#x2028; _&#x2028; 2_&#x2028; LT83&#x2028; _&#x2028; 13_&#x2028; 1"
+                                    points="866,834 1287,843 " corresp="DefaultLine"/>
+                              <line>verte pronto declaráa,</line>
+                        </zone>
+                        <zone
+                              xml:id="Carmona_002_2_BT227&#x2028; _&#x2028; 2_&#x2028; LT83&#x2028; _&#x2028; 14"
+                              type="DefaultLine" subtype="none"
+                              points="1447,762 1426,752 1411,744 1356,735 1354,735 1351,735 1312,750 1308,750 1306,750 1271,725 1269,725 1267,725 1265,725 1263,725 1261,725 1223,748 1217,752 1180,752 1174,748 1145,725 1143,725 1141,725 1139,725 1136,725 1099,746 1089,752 1048,752 1041,746 1021,727 1021,725 1019,725 1017,725 928,725 926,725 924,725 921,725 921,727 909,737 909,791 909,812 1341,822 1343,822 1345,822 1351,822 1391,812 1447,822 1449,791 1449,762 1447,762 "
+                              source="https://iiif-dev.unige.ch/iiif/2/fedora_Carmona_002_2/,,,/full/0/default"
+                              corresp="DefaultLine">
+                              <path
+                                    xml:id="Carmona_002_2_BT227&#x2028; _&#x2028; 2_&#x2028; LT83&#x2028; _&#x2028; 14_&#x2028; 1"
+                                    points="909,791 1449,791 " corresp="DefaultLine"/>
+                              <line>Vamos, gachona, que quiero</line>
+                        </zone>
+                        <zone
+                              xml:id="Carmona_002_2_BT227&#x2028; _&#x2028; 2_&#x2028; LT83&#x2028; _&#x2028; 15"
+                              type="DefaultLine" subtype="none"
+                              points="864,882 864,894 1211,899 1213,882 1213,847 864,847 864,882 "
+                              source="https://iiif-dev.unige.ch/iiif/2/fedora_Carmona_002_2/,,,/full/0/default"
+                              corresp="DefaultLine">
+                              <path
+                                    xml:id="Carmona_002_2_BT227&#x2028; _&#x2028; 2_&#x2028; LT83&#x2028; _&#x2028; 15_&#x2028; 1"
+                                    points="864,882 1213,882 " corresp="DefaultLine"/>
+                              <line>y esa liga coloráa,</line>
+                        </zone>
+                        <zone
+                              xml:id="Carmona_002_2_BT227&#x2028; _&#x2028; 2_&#x2028; LT83&#x2028; _&#x2028; 16"
+                              type="DefaultLine" subtype="none"
+                              points="1046,884 1025,884 1004,884 983,884 963,884 942,884 921,884 901,884 880,884 878,880 859,880 859,925 859,942 1327,946 1329,925 1329,890 1046,884 1046,884 "
+                              source="https://iiif-dev.unige.ch/iiif/2/fedora_Carmona_002_2/,,,/full/0/default"
+                              corresp="DefaultLine">
+                              <path
+                                    xml:id="Carmona_002_2_BT227&#x2028; _&#x2028; 2_&#x2028; LT83&#x2028; _&#x2028; 16_&#x2028; 1"
+                                    points="859,925 1329,925 " corresp="DefaultLine"/>
+                              <line>hacerla dos mil pedazos.</line>
+                        </zone>
+                        <zone
+                              xml:id="Carmona_002_2_BT227&#x2028; _&#x2028; 2_&#x2028; LT83&#x2028; _&#x2028; 17"
+                              type="DefaultLine" subtype="none"
+                              points="864,969 864,983 1267,987 1269,969 1269,934 864,927 864,969 "
+                              source="https://iiif-dev.unige.ch/iiif/2/fedora_Carmona_002_2/,,,/full/0/default"
+                              corresp="DefaultLine">
+                              <path
+                                    xml:id="Carmona_002_2_BT227&#x2028; _&#x2028; 2_&#x2028; LT83&#x2028; _&#x2028; 17_&#x2028; 1"
+                                    points="864,969 1269,969 " corresp="DefaultLine"/>
+                              <line>Menea toa esa tienda</line>
+                        </zone>
+                        <zone
+                              xml:id="Carmona_002_2_BT227&#x2028; _&#x2028; 2_&#x2028; LT83&#x2028; _&#x2028; 18"
+                              type="DefaultLine" subtype="none"
+                              points="1254,971 1234,971 862,977 862,1012 862,1029 1329,1031 1331,1012 1329,969 1254,969 1254,971 "
+                              source="https://iiif-dev.unige.ch/iiif/2/fedora_Carmona_002_2/,,,/full/0/default"
+                              corresp="DefaultLine">
+                              <path
+                                    xml:id="Carmona_002_2_BT227&#x2028; _&#x2028; 2_&#x2028; LT83&#x2028; _&#x2028; 18_&#x2028; 1"
+                                    points="862,1012 1331,1012 " corresp="DefaultLine"/>
+                              <line>de ropa con mas soltura;</line>
+                        </zone>
+                        <zone
+                              xml:id="Carmona_002_2_BT227&#x2028; _&#x2028; 2_&#x2028; LT83&#x2028; _&#x2028; 19"
+                              type="DefaultLine" subtype="none"
+                              points="864,1058 864,1074 1333,1074 1333,1058 1333,1025 864,1016 864,1058 "
+                              source="https://iiif-dev.unige.ch/iiif/2/fedora_Carmona_002_2/,,,/full/0/default"
+                              corresp="DefaultLine">
+                              <path
+                                    xml:id="Carmona_002_2_BT227&#x2028; _&#x2028; 2_&#x2028; LT83&#x2028; _&#x2028; 19_&#x2028; 1"
+                                    points="864,1058 1333,1058 " corresp="DefaultLine"/>
+                              <line>!várgame Dios, criatura!</line>
+                        </zone>
+                        <zone
+                              xml:id="Carmona_002_2_BT227&#x2028; _&#x2028; 2_&#x2028; LT83&#x2028; _&#x2028; 20"
+                              type="DefaultLine" subtype="none"
+                              points="866,1103 866,1132 957,1132 975,1147 975,1149 977,1149 979,1149 981,1149 1442,1130 1442,1103 1442,1068 866,1062 866,1103 "
+                              source="https://iiif-dev.unige.ch/iiif/2/fedora_Carmona_002_2/,,,/full/0/default"
+                              corresp="DefaultLine">
+                              <path
+                                    xml:id="Carmona_002_2_BT227&#x2028; _&#x2028; 2_&#x2028; LT83&#x2028; _&#x2028; 20_&#x2028; 1"
+                                    points="866,1103 1442,1103 " corresp="DefaultLine"/>
+                              <line>vente pronto entre mis brazos.</line>
+                        </zone>
+                        <zone
+                              xml:id="Carmona_002_2_BT227&#x2028; _&#x2028; 2_&#x2028; LT83&#x2028; _&#x2028; 21"
+                              type="DefaultLine" subtype="none"
+                              points="1343,1167 1323,1163 1304,1159 1298,1163 1294,1165 1289,1163 1256,1153 1254,1153 1252,1153 1250,1153 1248,1153 1236,1161 1227,1167 1139,1167 909,1149 909,1200 907,1217 944,1231 946,1231 948,1231 1054,1219 1062,1219 1360,1225 1364,1204 1364,1171 1343,1167 "
+                              source="https://iiif-dev.unige.ch/iiif/2/fedora_Carmona_002_2/,,,/full/0/default"
+                              corresp="DefaultLine">
+                              <path
+                                    xml:id="Carmona_002_2_BT227&#x2028; _&#x2028; 2_&#x2028; LT83&#x2028; _&#x2028; 21_&#x2028; 1"
+                                    points="909,1200 1364,1204 " corresp="DefaultLine"/>
+                              <line>Y luego en el fondeaero</line>
+                        </zone>
+                        <zone
+                              xml:id="Carmona_002_2_BT227&#x2028; _&#x2028; 2_&#x2028; LT83&#x2028; _&#x2028; 22"
+                              type="DefaultLine" subtype="none"
+                              points="859,1246 859,1264 1246,1264 1246,1246 1246,1215 859,1215 859,1246 "
+                              source="https://iiif-dev.unige.ch/iiif/2/fedora_Carmona_002_2/,,,/full/0/default"
+                              corresp="DefaultLine">
+                              <path
+                                    xml:id="Carmona_002_2_BT227&#x2028; _&#x2028; 2_&#x2028; LT83&#x2028; _&#x2028; 22_&#x2028; 1"
+                                    points="859,1246 1246,1246 " corresp="DefaultLine"/>
+                              <line>echaremos la caena,</line>
+                        </zone>
+                        <zone
+                              xml:id="Carmona_002_2_BT227&#x2028; _&#x2028; 2_&#x2028; LT83&#x2028; _&#x2028; 23"
+                              type="DefaultLine" subtype="none"
+                              points="866,1293 866,1306 1271,1312 1273,1293 1271,1250 866,1256 866,1293 "
+                              source="https://iiif-dev.unige.ch/iiif/2/fedora_Carmona_002_2/,,,/full/0/default"
+                              corresp="DefaultLine">
+                              <path
+                                    xml:id="Carmona_002_2_BT227&#x2028; _&#x2028; 2_&#x2028; LT83&#x2028; _&#x2028; 23_&#x2028; 1"
+                                    points="866,1293 1273,1293 " corresp="DefaultLine"/>
+                              <line>y diré: ¡vivan, salero,</line>
+                        </zone>
+                        <zone
+                              xml:id="Carmona_002_2_BT227&#x2028; _&#x2028; 2_&#x2028; LT83&#x2028; _&#x2028; 24"
+                              type="DefaultLine" subtype="none"
+                              points="1149,1295 1128,1295 1108,1295 1087,1295 1066,1295 1046,1295 1025,1295 1004,1295 983,1295 963,1295 942,1295 921,1295 901,1295 880,1295 878,1291 859,1291 859,1337 859,1361 1182,1355 1227,1366 1232,1366 1234,1366 1236,1366 1238,1366 1265,1355 1294,1366 1298,1337 1298,1297 1151,1295 1149,1295 "
+                              source="https://iiif-dev.unige.ch/iiif/2/fedora_Carmona_002_2/,,,/full/0/default"
+                              corresp="DefaultLine">
+                              <path
+                                    xml:id="Carmona_002_2_BT227&#x2028; _&#x2028; 2_&#x2028; LT83&#x2028; _&#x2028; 24_&#x2028; 1"
+                                    points="859,1337 1298,1337 " corresp="DefaultLine"/>
+                              <line>las ligas de mi morena!</line>
+                        </zone>
+                  </zone>
+                  <zone xml:id="Carmona_002_2_BT223_3" n="3" type="CustomZone" subtype="title"
+                        points="1315,1378 1315,1535 363,1535 363,1378 "
+                        source="https://iiif-dev.unige.ch/iiif/2/fedora_Carmona_002_2/,,,/full/0/default"
+                        corresp="CustomZone:title">
+                        <zone xml:id="Carmona_002_2_BT223_3_LT84_1" type="HeadingLine"
+                              subtype="none"
+                              points="845,1378 843,1378 783,1386 748,1390 719,1384 694,1378 692,1378 690,1378 688,1378 686,1378 686,1380 682,1382 671,1392 651,1382 640,1378 638,1378 636,1378 634,1378 626,1382 605,1392 547,1380 537,1378 535,1378 533,1378 531,1378 531,1380 512,1399 475,1399 407,1378 398,1378 398,1463 396,1535 421,1537 471,1576 473,1576 475,1576 477,1578 514,1578 514,1576 516,1576 518,1576 541,1560 663,1560 682,1574 682,1576 684,1576 686,1576 688,1576 764,1560 808,1576 810,1576 812,1576 814,1576 870,1550 928,1576 930,1576 932,1576 934,1576 936,1576 959,1560 971,1570 973,1570 975,1570 977,1570 1029,1564 1043,1576 1043,1578 1046,1578 1048,1578 1050,1578 1130,1562 1176,1578 1178,1578 1180,1578 1182,1578 1184,1578 1184,1576 1225,1541 1289,1541 1292,1467 1289,1401 1114,1380 1112,1380 1110,1380 1074,1395 1060,1401 1023,1401 1012,1392 1002,1382 1000,1382 998,1382 996,1382 994,1382 992,1382 979,1390 967,1401 930,1401 888,1388 847,1378 845,1378 "
+                              source="https://iiif-dev.unige.ch/iiif/2/fedora_Carmona_002_2/,,,/full/0/default"
+                              corresp="HeadingLine">
+                              <path xml:id="Carmona_002_2_BT223_3_LT84_1_1"
+                                    points="399,1465 1294,1469 "/>
+                              <line>LA ZAL DE LA CANELA.</line>
+                        </zone>
+                  </zone>
+                  <zone xml:id="Carmona_002_2_BT227_4" n="4" type="MainZone" subtype="columns"
+                        points="786,1586 786,2211 151,2211 151,1586 "
+                        source="https://iiif-dev.unige.ch/iiif/2/fedora_Carmona_002_2/,,,/full/0/default"
+                        corresp="MainZone:columns">
+                        <zone
+                              xml:id="Carmona_002_2_BT227&#x2028; _&#x2028; 4_&#x2028; LT83&#x2028; _&#x2028; 1"
+                              type="DefaultLine" subtype="none"
+                              points="589,1599 568,1597 547,1597 527,1597 506,1595 485,1595 465,1595 444,1593 423,1593 403,1593 382,1591 361,1591 341,1591 332,1589 217,1589 217,1628 214,1638 599,1645 603,1634 601,1599 589,1599 "
+                              source="https://iiif-dev.unige.ch/iiif/2/fedora_Carmona_002_2/,,,/full/0/default"
+                              corresp="DefaultLine">
+                              <path
+                                    xml:id="Carmona_002_2_BT227&#x2028; _&#x2028; 4_&#x2028; LT83&#x2028; _&#x2028; 1_&#x2028; 1"
+                                    points="217,1628 603,1634 " corresp="DefaultLine"/>
+                              <line>Con ese cabeyo rojo</line>
+                        </zone>
+                        <zone
+                              xml:id="Carmona_002_2_BT227&#x2028; _&#x2028; 4_&#x2028; LT83&#x2028; _&#x2028; 2"
+                              type="DefaultLine" subtype="none"
+                              points="173,1678 173,1700 717,1700 717,1678 717,1638 173,1634 173,1678 "
+                              source="https://iiif-dev.unige.ch/iiif/2/fedora_Carmona_002_2/,,,/full/0/default"
+                              corresp="DefaultLine">
+                              <path
+                                    xml:id="Carmona_002_2_BT227&#x2028; _&#x2028; 4_&#x2028; LT83&#x2028; _&#x2028; 2_&#x2028; 1"
+                                    points="173,1678 717,1678 " corresp="DefaultLine"/>
+                              <line>que al mármol roba la calma,</line>
+                        </zone>
+                        <zone
+                              xml:id="Carmona_002_2_BT227&#x2028; _&#x2028; 4_&#x2028; LT83&#x2028; _&#x2028; 3"
+                              type="DefaultLine" subtype="none"
+                              points="177,1719 175,1731 665,1740 669,1723 667,1686 177,1682 177,1719 "
+                              source="https://iiif-dev.unige.ch/iiif/2/fedora_Carmona_002_2/,,,/full/0/default"
+                              corresp="DefaultLine">
+                              <path
+                                    xml:id="Carmona_002_2_BT227&#x2028; _&#x2028; 4_&#x2028; LT83&#x2028; _&#x2028; 3_&#x2028; 1"
+                                    points="177,1719 669,1723 " corresp="DefaultLine"/>
+                              <line>y ez el iman de mi antojo,</line>
+                        </zone>
+                        <zone
+                              xml:id="Carmona_002_2_BT227&#x2028; _&#x2028; 4_&#x2028; LT83&#x2028; _&#x2028; 4"
+                              type="DefaultLine" subtype="none"
+                              points="483,1723 463,1723 442,1723 421,1721 401,1721 380,1721 359,1721 349,1721 210,1727 175,1717 173,1764 171,1781 663,1783 667,1769 665,1731 500,1723 483,1723 "
+                              source="https://iiif-dev.unige.ch/iiif/2/fedora_Carmona_002_2/,,,/full/0/default"
+                              corresp="DefaultLine">
+                              <path
+                                    xml:id="Carmona_002_2_BT227&#x2028; _&#x2028; 4_&#x2028; LT83&#x2028; _&#x2028; 4_&#x2028; 1"
+                                    points="173,1764 667,1769 " corresp="DefaultLine"/>
+                              <line>haz puesto, niña del alma,</line>
+                        </zone>
+                        <zone
+                              xml:id="Carmona_002_2_BT227&#x2028; _&#x2028; 4_&#x2028; LT83&#x2028; _&#x2028; 5"
+                              type="DefaultLine" subtype="none"
+                              points="171,1808 169,1822 597,1831 601,1814 599,1777 171,1767 171,1808 "
+                              source="https://iiif-dev.unige.ch/iiif/2/fedora_Carmona_002_2/,,,/full/0/default"
+                              corresp="DefaultLine">
+                              <path
+                                    xml:id="Carmona_002_2_BT227&#x2028; _&#x2028; 4_&#x2028; LT83&#x2028; _&#x2028; 5_&#x2028; 1"
+                                    points="171,1808 601,1814 " corresp="DefaultLine"/>
+                              <line>mi corazon en remojo .</line>
+                        </zone>
+                        <zone
+                              xml:id="Carmona_002_2_BT227&#x2028; _&#x2028; 4_&#x2028; LT83&#x2028; _&#x2028; 6"
+                              type="DefaultLine" subtype="none"
+                              points="769,1824 582,1824 576,1820 566,1814 566,1814 547,1814 543,1818 541,1822 533,1818 523,1814 504,1814 496,1814 485,1818 469,1824 450,1818 442,1814 440,1814 214,1814 217,1857 217,1880 771,1882 775,1853 771,1826 769,1824 "
+                              source="https://iiif-dev.unige.ch/iiif/2/fedora_Carmona_002_2/,,,/full/0/default"
+                              corresp="DefaultLine">
+                              <path
+                                    xml:id="Carmona_002_2_BT227&#x2028; _&#x2028; 4_&#x2028; LT83&#x2028; _&#x2028; 6_&#x2028; 1"
+                                    points="217,1857 775,1853 " corresp="DefaultLine"/>
+                              <line>Zi algun mángria lo murmura</line>
+                        </zone>
+                        <zone
+                              xml:id="Carmona_002_2_BT227&#x2028; _&#x2028; 4_&#x2028; LT83&#x2028; _&#x2028; 7"
+                              type="DefaultLine" subtype="none"
+                              points="173,1899 171,1919 175,1924 177,1924 177,1926 179,1926 181,1926 183,1926 409,1919 520,1915 580,1926 591,1926 593,1926 603,1926 692,1919 713,1930 719,1905 717,1872 173,1860 173,1899 "
+                              source="https://iiif-dev.unige.ch/iiif/2/fedora_Carmona_002_2/,,,/full/0/default"
+                              corresp="DefaultLine">
+                              <path
+                                    xml:id="Carmona_002_2_BT227&#x2028; _&#x2028; 4_&#x2028; LT83&#x2028; _&#x2028; 7_&#x2028; 1"
+                                    points="173,1899 719,1905 " corresp="DefaultLine"/>
+                              <line>que ze lo cuente á zu abuela,</line>
+                        </zone>
+                        <zone
+                              xml:id="Carmona_002_2_BT227&#x2028; _&#x2028; 4_&#x2028; LT83&#x2028; _&#x2028; 8"
+                              type="DefaultLine" subtype="none"
+                              points="572,1905 551,1905 407,1905 407,1944 407,1957 452,1971 454,1971 456,1971 580,1957 580,1944 580,1905 572,1905 "
+                              source="https://iiif-dev.unige.ch/iiif/2/fedora_Carmona_002_2/,,,/full/0/default"
+                              corresp="DefaultLine">
+                              <path
+                                    xml:id="Carmona_002_2_BT227&#x2028; _&#x2028; 4_&#x2028; LT83&#x2028; _&#x2028; 8_&#x2028; 1"
+                                    points="407,1944 580,1944 " corresp="DefaultLine"/>
+                              <line>criatura!</line>
+                        </zone>
+                        <zone
+                              xml:id="Carmona_002_2_BT227&#x2028; _&#x2028; 4_&#x2028; LT83&#x2028; _&#x2028; 9"
+                              type="DefaultLine" subtype="none"
+                              points="564,1946 556,1946 531,1953 438,1953 425,1946 419,1946 415,1940 415,1940 405,1934 403,1934 330,1930 328,1930 326,1930 293,1944 262,1936 260,1936 258,1936 256,1936 254,1936 254,1938 243,1948 239,1953 171,1953 171,1990 171,2004 626,2015 628,1990 626,1930 564,1944 564,1946 "
+                              source="https://iiif-dev.unige.ch/iiif/2/fedora_Carmona_002_2/,,,/full/0/default"
+                              corresp="DefaultLine">
+                              <path
+                                    xml:id="Carmona_002_2_BT227&#x2028; _&#x2028; 4_&#x2028; LT83&#x2028; _&#x2028; 9_&#x2028; 1"
+                                    points="171,1990 628,1990 " corresp="DefaultLine"/>
+                              <line>ay, benaya eza cintura,</line>
+                        </zone>
+                        <zone
+                              xml:id="Carmona_002_2_BT227&#x2028; _&#x2028; 4_&#x2028; LT83&#x2028; _&#x2028; 10"
+                              type="DefaultLine" subtype="none"
+                              points="173,2035 173,2074 657,2079 659,2035 659,2002 173,2000 173,2035 "
+                              source="https://iiif-dev.unige.ch/iiif/2/fedora_Carmona_002_2/,,,/full/0/default"
+                              corresp="DefaultLine">
+                              <path
+                                    xml:id="Carmona_002_2_BT227&#x2028; _&#x2028; 4_&#x2028; LT83&#x2028; _&#x2028; 10_&#x2028; 1"
+                                    points="173,2035 659,2035 " corresp="DefaultLine"/>
+                              <line>que ez la zal de la canela.</line>
+                        </zone>
+                        <zone
+                              xml:id="Carmona_002_2_BT227&#x2028; _&#x2028; 4_&#x2028; LT83&#x2028; _&#x2028; 11"
+                              type="DefaultLine" subtype="none"
+                              points="175,2126 173,2141 589,2151 593,2130 589,2062 516,2072 502,2062 498,2058 496,2058 494,2058 491,2058 454,2064 407,2072 396,2064 388,2058 386,2058 384,2058 382,2058 175,2068 175,2126 "
+                              source="https://iiif-dev.unige.ch/iiif/2/fedora_Carmona_002_2/,,,/full/0/default"
+                              corresp="DefaultLine">
+                              <path
+                                    xml:id="Carmona_002_2_BT227&#x2028; _&#x2028; 4_&#x2028; LT83&#x2028; _&#x2028; 11_&#x2028; 1"
+                                    points="175,2126 593,2130 " corresp="DefaultLine"/>
+                              <line>Tú zabes y yo bien zé</line>
+                        </zone>
+                        <zone
+                              xml:id="Carmona_002_2_BT227&#x2028; _&#x2028; 4_&#x2028; LT83&#x2028; _&#x2028; 12"
+                              type="DefaultLine" subtype="none"
+                              points="444,2130 438,2130 436,2130 423,2132 384,2141 363,2134 341,2128 339,2128 336,2128 334,2128 318,2136 310,2141 279,2139 192,2130 190,2130 188,2130 186,2130 175,2136 175,2176 175,2229 227,2219 241,2232 252,2240 254,2240 256,2240 258,2240 299,2232 310,2229 318,2232 339,2238 341,2238 343,2238 345,2238 347,2238 355,2232 370,2223 378,2232 382,2234 382,2236 384,2236 386,2236 479,2240 481,2240 483,2240 485,2240 485,2238 491,2234 504,2221 533,2234 547,2238 549,2238 551,2238 554,2238 556,2238 560,2234 576,2219 667,2219 713,2234 717,2176 717,2120 632,2120 630,2120 628,2120 626,2120 624,2124 599,2141 454,2130 444,2130 "
+                              source="https://iiif-dev.unige.ch/iiif/2/fedora_Carmona_002_2/,,,/full/0/default"
+                              corresp="DefaultLine">
+                              <path
+                                    xml:id="Carmona_002_2_BT227&#x2028; _&#x2028; 4_&#x2028; LT83&#x2028; _&#x2028; 12_&#x2028; 1"
+                                    points="175,2176 717,2176 " corresp="DefaultLine"/>
+                              <line>que en el punto en que te ví</line>
+                        </zone>
+                  </zone>
+                  <zone xml:id="Carmona_002_2_BT227_5" n="5" type="MainZone" subtype="columns"
+                        points="1465,1588 1465,2215 832,2215 832,1588 "
+                        source="https://iiif-dev.unige.ch/iiif/2/fedora_Carmona_002_2/,,,/full/0/default"
+                        corresp="MainZone:columns">
+                        <zone
+                              xml:id="Carmona_002_2_BT227&#x2028; _&#x2028; 5_&#x2028; LT83&#x2028; _&#x2028; 1"
+                              type="DefaultLine" subtype="none"
+                              points="1285,1587 1283,1587 1281,1587 1279,1587 1267,1595 1261,1599 1254,1595 1236,1587 1234,1587 1232,1587 1229,1587 1227,1587 1227,1589 1219,1595 1215,1601 1128,1601 1120,1597 1091,1587 1089,1587 1087,1587 1085,1587 1083,1587 1070,1597 1068,1601 1006,1601 996,1599 907,1587 905,1587 903,1587 857,1599 857,1634 857,1653 1310,1653 1310,1634 1310,1593 1287,1587 1285,1587 "
+                              source="https://iiif-dev.unige.ch/iiif/2/fedora_Carmona_002_2/,,,/full/0/default"
+                              corresp="DefaultLine">
+                              <path
+                                    xml:id="Carmona_002_2_BT227&#x2028; _&#x2028; 5_&#x2028; LT83&#x2028; _&#x2028; 1_&#x2028; 1"
+                                    points="857,1634 1310,1634 " corresp="DefaultLine"/>
+                              <line>mi corazon te entregué.</line>
+                        </zone>
+                        <zone
+                              xml:id="Carmona_002_2_BT227&#x2028; _&#x2028; 5_&#x2028; LT83&#x2028; _&#x2028; 2"
+                              type="DefaultLine" subtype="none"
+                              points="1277,1636 1256,1636 1236,1636 1215,1636 1194,1636 1174,1636 1153,1636 1132,1636 1112,1636 1091,1636 1070,1636 1050,1636 1029,1636 1008,1636 988,1636 967,1636 946,1636 926,1636 905,1636 884,1636 864,1636 864,1682 864,1698 1314,1705 1316,1682 1316,1636 1298,1636 1277,1636 "
+                              source="https://iiif-dev.unige.ch/iiif/2/fedora_Carmona_002_2/,,,/full/0/default"
+                              corresp="DefaultLine">
+                              <path
+                                    xml:id="Carmona_002_2_BT227&#x2028; _&#x2028; 5_&#x2028; LT83&#x2028; _&#x2028; 2_&#x2028; 1"
+                                    points="864,1682 1316,1682 " corresp="DefaultLine"/>
+                              <line>Zi yo te digo: alto aquí,</line>
+                        </zone>
+                        <zone
+                              xml:id="Carmona_002_2_BT227&#x2028; _&#x2028; 5_&#x2028; LT83&#x2028; _&#x2028; 3"
+                              type="DefaultLine" subtype="none"
+                              points="1316,1684 1296,1684 1281,1684 862,1690 862,1725 862,1742 1389,1740 1389,1725 1387,1682 1316,1682 1316,1684 "
+                              source="https://iiif-dev.unige.ch/iiif/2/fedora_Carmona_002_2/,,,/full/0/default"
+                              corresp="DefaultLine">
+                              <path
+                                    xml:id="Carmona_002_2_BT227&#x2028; _&#x2028; 5_&#x2028; LT83&#x2028; _&#x2028; 3_&#x2028; 1"
+                                    points="862,1725 1389,1725 " corresp="DefaultLine"/>
+                              <line>no digas que no hay de qué</line>
+                        </zone>
+                        <zone
+                              xml:id="Carmona_002_2_BT227&#x2028; _&#x2028; 5_&#x2028; LT83&#x2028; _&#x2028; 4"
+                              type="DefaultLine" subtype="none"
+                              points="1242,1727 1110,1729 899,1733 878,1727 864,1727 864,1769 862,1785 936,1798 938,1798 940,1798 973,1789 988,1785 1004,1789 1031,1795 1033,1795 1035,1795 1079,1791 1095,1789 1099,1791 1116,1802 1118,1802 1120,1802 1122,1802 1124,1802 1153,1791 1170,1787 1246,1787 1258,1795 1269,1804 1271,1804 1273,1804 1275,1804 1339,1795 1399,1789 1440,1798 1444,1775 1442,1740 1244,1727 1242,1727 "
+                              source="https://iiif-dev.unige.ch/iiif/2/fedora_Carmona_002_2/,,,/full/0/default"
+                              corresp="DefaultLine">
+                              <path
+                                    xml:id="Carmona_002_2_BT227&#x2028; _&#x2028; 5_&#x2028; LT83&#x2028; _&#x2028; 4_&#x2028; 1"
+                                    points="864,1769 1444,1775 " corresp="DefaultLine"/>
+                              <line>Porque ez tanta tu hermosura,</line>
+                        </zone>
+                        <zone
+                              xml:id="Carmona_002_2_BT227&#x2028; _&#x2028; 5_&#x2028; LT83&#x2028; _&#x2028; 5"
+                              type="DefaultLine" subtype="none"
+                              points="859,1814 857,1847 1017,1839 1027,1845 1037,1853 1039,1853 1041,1853 1043,1853 1046,1853 1066,1845 1093,1833 1283,1837 1287,1820 1287,1783 859,1777 859,1814 "
+                              source="https://iiif-dev.unige.ch/iiif/2/fedora_Carmona_002_2/,,,/full/0/default"
+                              corresp="DefaultLine">
+                              <path
+                                    xml:id="Carmona_002_2_BT227&#x2028; _&#x2028; 5_&#x2028; LT83&#x2028; _&#x2028; 5_&#x2028; 1"
+                                    points="859,1814 1287,1820 " corresp="DefaultLine"/>
+                              <line>que perderé la cautela,</line>
+                        </zone>
+                        <zone
+                              xml:id="Carmona_002_2_BT227&#x2028; _&#x2028; 5_&#x2028; LT83&#x2028; _&#x2028; 6"
+                              type="DefaultLine" subtype="none"
+                              points="1097,1857 1095,1872 1265,1876 1269,1862 1267,1824 1097,1824 1097,1857 "
+                              source="https://iiif-dev.unige.ch/iiif/2/fedora_Carmona_002_2/,,,/full/0/default"
+                              corresp="DefaultLine">
+                              <path
+                                    xml:id="Carmona_002_2_BT227&#x2028; _&#x2028; 5_&#x2028; LT83&#x2028; _&#x2028; 6_&#x2028; 1"
+                                    points="1097,1857 1269,1862 " corresp="DefaultLine"/>
+                              <line>criatura!</line>
+                        </zone>
+                        <zone
+                              xml:id="Carmona_002_2_BT227&#x2028; _&#x2028; 5_&#x2028; LT83&#x2028; _&#x2028; 7"
+                              type="DefaultLine" subtype="none"
+                              points="859,1907 859,1922 1327,1928 1331,1903 1327,1870 857,1860 859,1907 "
+                              source="https://iiif-dev.unige.ch/iiif/2/fedora_Carmona_002_2/,,,/full/0/default"
+                              corresp="DefaultLine">
+                              <path
+                                    xml:id="Carmona_002_2_BT227&#x2028; _&#x2028; 5_&#x2028; LT83&#x2028; _&#x2028; 7_&#x2028; 1"
+                                    points="859,1907 1331,1903 " corresp="DefaultLine"/>
+                              <line>en guiñando eza cintura,</line>
+                        </zone>
+                        <zone
+                              xml:id="Carmona_002_2_BT227&#x2028; _&#x2028; 5_&#x2028; LT83&#x2028; _&#x2028; 8"
+                              type="DefaultLine" subtype="none"
+                              points="862,1948 862,1977 1048,1977 1058,1984 1072,1994 1074,1994 1077,1994 1079,1996 1308,1996 1308,1994 1310,1994 1318,1990 1333,1981 1343,1992 1349,1948 1349,1919 862,1917 862,1948 "
+                              source="https://iiif-dev.unige.ch/iiif/2/fedora_Carmona_002_2/,,,/full/0/default"
+                              corresp="DefaultLine">
+                              <path
+                                    xml:id="Carmona_002_2_BT227&#x2028; _&#x2028; 5_&#x2028; LT83&#x2028; _&#x2028; 8_&#x2028; 1"
+                                    points="862,1948 1349,1948 " corresp="DefaultLine"/>
+                              <line>que ez la zal de la canela.</line>
+                        </zone>
+                        <zone
+                              xml:id="Carmona_002_2_BT227&#x2028; _&#x2028; 5_&#x2028; LT83&#x2028; _&#x2028; 9"
+                              type="DefaultLine" subtype="none"
+                              points="905,2048 905,2072 1401,2072 1401,2043 1397,1984 1079,1979 1077,1979 1074,1979 1046,1992 1043,1994 903,1994 905,2048 "
+                              source="https://iiif-dev.unige.ch/iiif/2/fedora_Carmona_002_2/,,,/full/0/default"
+                              corresp="DefaultLine">
+                              <path
+                                    xml:id="Carmona_002_2_BT227&#x2028; _&#x2028; 5_&#x2028; LT83&#x2028; _&#x2028; 9_&#x2028; 1"
+                                    points="905,2048 1401,2043 " corresp="DefaultLine"/>
+                              <line>Ay, zi un galan turuleque</line>
+                        </zone>
+                        <zone
+                              xml:id="Carmona_002_2_BT227&#x2028; _&#x2028; 5_&#x2028; LT83&#x2028; _&#x2028; 10"
+                              type="DefaultLine" subtype="none"
+                              points="940,2048 919,2048 917,2046 857,2046 857,2087 855,2105 913,2118 915,2118 1033,2112 1112,2108 1370,2120 1374,2091 1374,2058 942,2048 940,2048 "
+                              source="https://iiif-dev.unige.ch/iiif/2/fedora_Carmona_002_2/,,,/full/0/default"
+                              corresp="DefaultLine">
+                              <path
+                                    xml:id="Carmona_002_2_BT227&#x2028; _&#x2028; 5_&#x2028; LT83&#x2028; _&#x2028; 10_&#x2028; 1"
+                                    points="857,2087 1374,2091 " corresp="DefaultLine"/>
+                              <line>la paz e mi pecho inquieta,</line>
+                        </zone>
+                        <zone
+                              xml:id="Carmona_002_2_BT227&#x2028; _&#x2028; 5_&#x2028; LT83&#x2028; _&#x2028; 11"
+                              type="DefaultLine" subtype="none"
+                              points="859,2132 857,2147 1320,2161 1325,2139 1323,2105 859,2095 859,2132 "
+                              source="https://iiif-dev.unige.ch/iiif/2/fedora_Carmona_002_2/,,,/full/0/default"
+                              corresp="DefaultLine">
+                              <path
+                                    xml:id="Carmona_002_2_BT227&#x2028; _&#x2028; 5_&#x2028; LT83&#x2028; _&#x2028; 11_&#x2028; 1"
+                                    points="859,2132 1325,2139 " corresp="DefaultLine"/>
+                              <line>dile, niña, que no peque,</line>
+                        </zone>
+                        <zone
+                              xml:id="Carmona_002_2_BT227&#x2028; _&#x2028; 5_&#x2028; LT83&#x2028; _&#x2028; 12"
+                              type="DefaultLine" subtype="none"
+                              points="857,2178 855,2209 928,2211 930,2213 946,2225 948,2225 950,2225 952,2225 1048,2217 1091,2215 1116,2221 1141,2227 1143,2227 1145,2229 1298,2229 1300,2182 1298,2143 857,2143 857,2178 "
+                              source="https://iiif-dev.unige.ch/iiif/2/fedora_Carmona_002_2/,,,/full/0/default"
+                              corresp="DefaultLine">
+                              <path
+                                    xml:id="Carmona_002_2_BT227&#x2028; _&#x2028; 5_&#x2028; LT83&#x2028; _&#x2028; 12_&#x2028; 1"
+                                    points="857,2178 1300,2182 " corresp="DefaultLine"/>
+                              <line>ó en la punta de la jeta</line>
+                        </zone>
+                  </zone>
+            </surface>
+            <surface xml:id="Carmona_002_3" type="page" cert="silver">
+                  <graphic
+                        url="https://iiif-dev.unige.ch/iiif/2/fedora_Carmona_002_3/full/full/0/default.jpg"/>
+                  <zone xml:id="Carmona_002_3_BT227_1" n="1" type="MainZone" subtype="columns"
+                        points="295,104 863,104 863,495 295,495 295,104 "
+                        source="https://iiif-dev.unige.ch/iiif/2/fedora_Carmona_002_3/295,104,568,391/full/0/default"
+                        corresp="MainZone:columns">
+                        <zone
+                              xml:id="Carmona_002_3_BT227&#x2028; _&#x2028; 1_&#x2028; LT83&#x2028; _&#x2028; 1"
+                              type="DefaultLine" subtype="none"
+                              points="814,121 793,121 773,121 752,121 731,121 711,119 690,119 669,119 649,119 628,119 607,119 587,119 566,117 545,117 525,117 504,117 483,117 463,117 442,115 421,115 401,115 380,115 359,115 339,115 320,115 320,148 318,163 822,175 826,152 824,121 814,121 "
+                              source="https://iiif-dev.unige.ch/iiif/2/fedora_Carmona_002_3/,,,/full/0/default"
+                              corresp="DefaultLine">
+                              <path
+                                    xml:id="Carmona_002_3_BT227&#x2028; _&#x2028; 1_&#x2028; LT83&#x2028; _&#x2028; 1_&#x2028; 1"
+                                    points="320,148 826,152 " corresp="DefaultLine"/>
+                              <line>le he de pintar un jabeque.</line>
+                        </zone>
+                        <zone
+                              xml:id="Carmona_002_3_BT227&#x2028; _&#x2028; 1_&#x2028; LT83&#x2028; _&#x2028; 2"
+                              type="DefaultLine" subtype="none"
+                              points="316,239 316,260 347,260 376,285 376,287 378,287 380,287 382,289 541,289 541,287 543,287 580,266 595,260 678,270 688,270 690,270 692,270 715,262 725,272 731,239 731,206 316,198 316,239 "
+                              source="https://iiif-dev.unige.ch/iiif/2/fedora_Carmona_002_3/,,,/full/0/default"
+                              corresp="DefaultLine">
+                              <path
+                                    xml:id="Carmona_002_3_BT227&#x2028; _&#x2028; 1_&#x2028; LT83&#x2028; _&#x2028; 2_&#x2028; 1"
+                                    points="316,239 731,239 " corresp="DefaultLine"/>
+                              <line>ó le arrimaré candela,</line>
+                        </zone>
+                        <zone
+                              xml:id="Carmona_002_3_BT227&#x2028; _&#x2028; 1_&#x2028; LT83&#x2028; _&#x2028; 3"
+                              type="DefaultLine" subtype="none"
+                              points="365,196 363,210 771,219 775,198 773,161 365,150 365,196 "
+                              source="https://iiif-dev.unige.ch/iiif/2/fedora_Carmona_002_3/,,,/full/0/default"
+                              corresp="DefaultLine">
+                              <path
+                                    xml:id="Carmona_002_3_BT227&#x2028; _&#x2028; 1_&#x2028; LT83&#x2028; _&#x2028; 3_&#x2028; 1"
+                                    points="365,196 775,198 " corresp="DefaultLine"/>
+                              <line>Naide goce tu ternura</line>
+                        </zone>
+                        <zone
+                              xml:id="Carmona_002_3_BT227&#x2028; _&#x2028; 1_&#x2028; LT83&#x2028; _&#x2028; 4"
+                              type="DefaultLine" subtype="none"
+                              points="318,328 318,347 582,341 599,351 601,351 603,351 605,351 607,351 609,351 630,338 704,338 731,351 733,351 735,353 845,353 847,324 843,272 729,272 727,272 725,272 723,272 702,291 483,291 452,274 450,274 448,274 446,274 444,274 405,291 316,276 318,328 "
+                              source="https://iiif-dev.unige.ch/iiif/2/fedora_Carmona_002_3/,,,/full/0/default"
+                              corresp="DefaultLine">
+                              <path
+                                    xml:id="Carmona_002_3_BT227&#x2028; _&#x2028; 1_&#x2028; LT83&#x2028; _&#x2028; 4_&#x2028; 1"
+                                    points="318,328 847,324 " corresp="DefaultLine"/>
+                              <line>puez me encanta eza cintura</line>
+                        </zone>
+                        <zone
+                              xml:id="Carmona_002_3_BT227&#x2028; _&#x2028; 1_&#x2028; LT83&#x2028; _&#x2028; 5"
+                              type="DefaultLine" subtype="none"
+                              points="556,283 556,303 725,305 727,283 727,252 556,252 556,283 "
+                              source="https://iiif-dev.unige.ch/iiif/2/fedora_Carmona_002_3/,,,/full/0/default"
+                              corresp="DefaultLine">
+                              <path
+                                    xml:id="Carmona_002_3_BT227&#x2028; _&#x2028; 1_&#x2028; LT83&#x2028; _&#x2028; 5_&#x2028; 1"
+                                    points="556,283 727,283 " corresp="DefaultLine"/>
+                              <line>criatura!</line>
+                        </zone>
+                        <zone
+                              xml:id="Carmona_002_3_BT227&#x2028; _&#x2028; 1_&#x2028; LT83&#x2028; _&#x2028; 6"
+                              type="DefaultLine" subtype="none"
+                              points="324,374 324,396 795,390 797,369 793,338 322,338 324,374 "
+                              source="https://iiif-dev.unige.ch/iiif/2/fedora_Carmona_002_3/,,,/full/0/default"
+                              corresp="DefaultLine">
+                              <path
+                                    xml:id="Carmona_002_3_BT227&#x2028; _&#x2028; 1_&#x2028; LT83&#x2028; _&#x2028; 6_&#x2028; 1"
+                                    points="324,374 797,369 " corresp="DefaultLine"/>
+                              <line>que ez la zal de la canela.</line>
+                        </zone>
+                        <zone
+                              xml:id="Carmona_002_3_BT227&#x2028; _&#x2028; 1_&#x2028; LT83&#x2028; _&#x2028; 7"
+                              type="DefaultLine" subtype="none"
+                              points="367,415 367,431 833,438 835,415 835,382 367,382 367,415 "
+                              source="https://iiif-dev.unige.ch/iiif/2/fedora_Carmona_002_3/,,,/full/0/default"
+                              corresp="DefaultLine">
+                              <path
+                                    xml:id="Carmona_002_3_BT227&#x2028; _&#x2028; 1_&#x2028; LT83&#x2028; _&#x2028; 7_&#x2028; 1"
+                                    points="367,415 835,415 " corresp="DefaultLine"/>
+                              <line>Ay! que ez tal mi frenesí,</line>
+                        </zone>
+                        <zone
+                              xml:id="Carmona_002_3_BT227&#x2028; _&#x2028; 1_&#x2028; LT83&#x2028; _&#x2028; 8"
+                              type="DefaultLine" subtype="none"
+                              points="318,458 316,483 421,489 423,491 436,504 438,504 440,504 442,504 444,504 446,504 456,496 469,487 514,487 537,500 556,514 558,514 560,514 562,514 564,514 599,506 603,504 605,506 613,512 613,514 616,514 618,514 620,516 737,516 740,462 740,425 318,419 318,458 "
+                              source="https://iiif-dev.unige.ch/iiif/2/fedora_Carmona_002_3/,,,/full/0/default"
+                              corresp="DefaultLine">
+                              <path
+                                    xml:id="Carmona_002_3_BT227&#x2028; _&#x2028; 1_&#x2028; LT83&#x2028; _&#x2028; 8_&#x2028; 1"
+                                    points="318,458 740,462 " corresp="DefaultLine"/>
+                              <line>que zi tú eres ingrata,</line>
+                        </zone>
+                  </zone>
+                  <zone xml:id="Carmona_002_3_BT227_2" n="2" type="MainZone" subtype="columns"
+                        points="980,110 1506,110 1506,498 980,498 980,110 "
+                        source="https://iiif-dev.unige.ch/iiif/2/fedora_Carmona_002_3/980,110,526,388/full/0/default"
+                        corresp="MainZone:columns">
+                        <zone
+                              xml:id="Carmona_002_3_BT227&#x2028; _&#x2028; 2_&#x2028; LT83&#x2028; _&#x2028; 1"
+                              type="DefaultLine" subtype="none"
+                              points="1455,121 1434,121 1413,121 1393,121 1372,121 1351,119 1331,119 1310,119 1289,119 1269,119 1248,119 1227,117 1207,117 1186,117 1165,117 1145,117 1124,117 1103,115 1083,115 1062,115 1041,115 1021,115 1000,115 1002,155 1002,171 1463,173 1467,150 1461,121 1455,121 "
+                              source="https://iiif-dev.unige.ch/iiif/2/fedora_Carmona_002_3/,,,/full/0/default"
+                              corresp="DefaultLine">
+                              <path
+                                    xml:id="Carmona_002_3_BT227&#x2028; _&#x2028; 2_&#x2028; LT83&#x2028; _&#x2028; 1_&#x2028; 1"
+                                    points="1002,155 1467,150 " corresp="DefaultLine"/>
+                              <line>no me importa que por tí</line>
+                        </zone>
+                        <zone
+                              xml:id="Carmona_002_3_BT227&#x2028; _&#x2028; 2_&#x2028; LT83&#x2028; _&#x2028; 2"
+                              type="DefaultLine" subtype="none"
+                              points="1002,196 1000,208 1463,217 1467,200 1465,165 1002,159 1002,196 "
+                              source="https://iiif-dev.unige.ch/iiif/2/fedora_Carmona_002_3/,,,/full/0/default"
+                              corresp="DefaultLine">
+                              <path
+                                    xml:id="Carmona_002_3_BT227&#x2028; _&#x2028; 2_&#x2028; LT83&#x2028; _&#x2028; 2_&#x2028; 1"
+                                    points="1002,196 1467,200 " corresp="DefaultLine"/>
+                              <line>me dé la ley por corbata</line>
+                        </zone>
+                        <zone
+                              xml:id="Carmona_002_3_BT227&#x2028; _&#x2028; 2_&#x2028; LT83&#x2028; _&#x2028; 3"
+                              type="DefaultLine" subtype="none"
+                              points="1004,241 1002,260 1416,264 1420,245 1418,204 1004,198 1004,241 "
+                              source="https://iiif-dev.unige.ch/iiif/2/fedora_Carmona_002_3/,,,/full/0/default"
+                              corresp="DefaultLine">
+                              <path
+                                    xml:id="Carmona_002_3_BT227&#x2028; _&#x2028; 2_&#x2028; LT83&#x2028; _&#x2028; 3_&#x2028; 1"
+                                    points="1004,241 1420,245 " corresp="DefaultLine"/>
+                              <line>los calzones del buchí.</line>
+                        </zone>
+                        <zone
+                              xml:id="Carmona_002_3_BT227&#x2028; _&#x2028; 2_&#x2028; LT83&#x2028; _&#x2028; 4"
+                              type="DefaultLine" subtype="none"
+                              points="1258,245 1238,245 1217,245 1196,243 1190,243 1176,243 1155,243 1134,243 1114,243 1093,243 1072,243 1052,243 1052,283 1050,299 1467,312 1471,289 1471,252 1261,245 1258,245 "
+                              source="https://iiif-dev.unige.ch/iiif/2/fedora_Carmona_002_3/,,,/full/0/default"
+                              corresp="DefaultLine">
+                              <path
+                                    xml:id="Carmona_002_3_BT227&#x2028; _&#x2028; 2_&#x2028; LT83&#x2028; _&#x2028; 4_&#x2028; 1"
+                                    points="1052,283 1471,289 " corresp="DefaultLine"/>
+                              <line>Yo quiero la zepultura</line>
+                        </zone>
+                        <zone
+                              xml:id="Carmona_002_3_BT227&#x2028; _&#x2028; 2_&#x2028; LT83&#x2028; _&#x2028; 5"
+                              type="DefaultLine" subtype="none"
+                              points="1002,328 1000,349 1012,359 1015,359 1017,359 1019,359 1079,349 1089,357 1089,359 1091,359 1093,359 1095,359 1145,349 1165,361 1167,361 1170,361 1172,361 1256,353 1275,351 1461,357 1465,334 1463,299 1002,287 1002,328 "
+                              source="https://iiif-dev.unige.ch/iiif/2/fedora_Carmona_002_3/,,,/full/0/default"
+                              corresp="DefaultLine">
+                              <path
+                                    xml:id="Carmona_002_3_BT227&#x2028; _&#x2028; 2_&#x2028; LT83&#x2028; _&#x2028; 5_&#x2028; 1"
+                                    points="1002,328 1465,334 " corresp="DefaultLine"/>
+                              <line>zi allí con amor me vela,</line>
+                        </zone>
+                        <zone
+                              xml:id="Carmona_002_3_BT227&#x2028; _&#x2028; 2_&#x2028; LT83&#x2028; _&#x2028; 6"
+                              type="DefaultLine" subtype="none"
+                              points="1242,372 1240,386 1407,400 1411,378 1409,338 1242,338 1242,372 "
+                              source="https://iiif-dev.unige.ch/iiif/2/fedora_Carmona_002_3/,,,/full/0/default"
+                              corresp="DefaultLine">
+                              <path
+                                    xml:id="Carmona_002_3_BT227&#x2028; _&#x2028; 2_&#x2028; LT83&#x2028; _&#x2028; 6_&#x2028; 1"
+                                    points="1242,372 1411,378 " corresp="DefaultLine"/>
+                              <line>criatura!</line>
+                        </zone>
+                        <zone
+                              xml:id="Carmona_002_3_BT227&#x2028; _&#x2028; 2_&#x2028; LT83&#x2028; _&#x2028; 7"
+                              type="DefaultLine" subtype="none"
+                              points="1002,427 1343,431 1347,419 1345,384 1256,384 1246,378 1229,369 1227,369 1225,369 1223,369 1203,376 1178,382 1165,374 1157,367 1155,367 1153,367 1151,367 1120,372 1052,380 1006,365 1004,415 1002,427 "
+                              source="https://iiif-dev.unige.ch/iiif/2/fedora_Carmona_002_3/,,,/full/0/default"
+                              corresp="DefaultLine">
+                              <path
+                                    xml:id="Carmona_002_3_BT227&#x2028; _&#x2028; 2_&#x2028; LT83&#x2028; _&#x2028; 7_&#x2028; 1"
+                                    points="1004,415 1347,419 " corresp="DefaultLine"/>
+                              <line>eza divina cintura</line>
+                        </zone>
+                        <zone
+                              xml:id="Carmona_002_3_BT227&#x2028; _&#x2028; 2_&#x2028; LT83&#x2028; _&#x2028; 8"
+                              type="DefaultLine" subtype="none"
+                              points="1335,419 1314,419 1294,419 1273,419 1252,419 1244,419 1004,423 1004,460 1002,512 1103,514 1105,514 1108,514 1110,514 1110,512 1116,508 1126,496 1147,504 1149,504 1151,504 1153,504 1155,504 1155,502 1161,496 1167,504 1170,504 1170,506 1172,506 1174,506 1252,516 1254,516 1256,516 1296,500 1312,491 1318,498 1327,504 1327,506 1329,506 1331,506 1333,506 1335,506 1351,498 1364,491 1488,491 1490,467 1490,429 1335,417 1335,419 "
+                              source="https://iiif-dev.unige.ch/iiif/2/fedora_Carmona_002_3/,,,/full/0/default"
+                              corresp="DefaultLine">
+                              <path
+                                    xml:id="Carmona_002_3_BT227&#x2028; _&#x2028; 2_&#x2028; LT83&#x2028; _&#x2028; 8_&#x2028; 1"
+                                    points="1004,460 1490,467 " corresp="DefaultLine"/>
+                              <line>que en la zal de la canela.</line>
+                        </zone>
+                  </zone>
+                  <zone xml:id="Carmona_002_3_BT223_3" n="3" type="CustomZone" subtype="title"
+                        points="558,550 1386,550 1386,650 558,650 558,550 "
+                        source="https://iiif-dev.unige.ch/iiif/2/fedora_Carmona_002_3/558,550,828,100/full/0/default"
+                        corresp="CustomZone:title">
+                        <zone xml:id="Carmona_002_3_BT223_3_LT84_1" type="HeadingLine"
+                              subtype="none"
+                              points="1360,560 1339,558 1318,558 1298,555 1277,555 1258,553 1176,555 1170,549 1167,547 1153,547 1132,545 1112,545 1105,545 1101,549 1093,555 1023,549 998,547 996,547 979,549 915,558 907,549 905,551 884,551 864,551 843,553 822,553 802,553 781,553 760,555 746,555 742,558 740,555 719,555 698,558 678,558 657,558 636,560 616,560 597,560 597,620 597,648 740,659 742,659 744,659 746,659 746,657 756,648 758,646 839,646 847,646 913,659 915,659 1087,644 1093,644 1095,644 1110,657 1112,657 1114,657 1116,659 1254,659 1254,657 1376,640 1376,615 1370,560 1360,560 "
+                              source="https://iiif-dev.unige.ch/iiif/2/fedora_Carmona_002_3/,,,/full/0/default"
+                              corresp="HeadingLine">
+                              <path xml:id="Carmona_002_3_BT223_3_LT84_1_1"
+                                    points="597,620 1376,615 "/>
+                              <line>LA JACA E TERSIOPELO.</line>
+                        </zone>
+                  </zone>
+                  <zone xml:id="Carmona_002_3_BT227_4" n="4" type="MainZone" subtype="columns"
+                        points="278,708 900,708 900,2239 278,2239 278,708 "
+                        source="https://iiif-dev.unige.ch/iiif/2/fedora_Carmona_002_3/278,708,622,1531/full/0/default"
+                        corresp="MainZone:columns">
+                        <zone
+                              xml:id="Carmona_002_3_BT227&#x2028; _&#x2028; 4_&#x2028; LT83&#x2028; _&#x2028; 1"
+                              type="DefaultLine" subtype="none"
+                              points="754,737 733,735 713,733 692,731 671,729 657,727 456,721 444,723 423,723 403,723 382,725 361,725 361,764 359,779 769,791 773,770 771,737 754,737 "
+                              source="https://iiif-dev.unige.ch/iiif/2/fedora_Carmona_002_3/,,,/full/0/default"
+                              corresp="DefaultLine">
+                              <path
+                                    xml:id="Carmona_002_3_BT227&#x2028; _&#x2028; 4_&#x2028; LT83&#x2028; _&#x2028; 1_&#x2028; 1"
+                                    points="361,764 773,770 " corresp="DefaultLine"/>
+                              <line>Una jaca e tersiopelo,</line>
+                        </zone>
+                        <zone
+                              xml:id="Carmona_002_3_BT227&#x2028; _&#x2028; 4_&#x2028; LT83&#x2028; _&#x2028; 2"
+                              type="DefaultLine" subtype="none"
+                              points="318,812 318,826 640,830 642,812 642,775 318,770 318,812 "
+                              source="https://iiif-dev.unige.ch/iiif/2/fedora_Carmona_002_3/,,,/full/0/default"
+                              corresp="DefaultLine">
+                              <path
+                                    xml:id="Carmona_002_3_BT227&#x2028; _&#x2028; 4_&#x2028; LT83&#x2028; _&#x2028; 2_&#x2028; 1"
+                                    points="318,812 642,812 " corresp="DefaultLine"/>
+                              <line>un retaco y caliá,</line>
+                        </zone>
+                        <zone
+                              xml:id="Carmona_002_3_BT227&#x2028; _&#x2028; 4_&#x2028; LT83&#x2028; _&#x2028; 3"
+                              type="DefaultLine" subtype="none"
+                              points="316,853 314,870 735,872 740,857 737,822 316,818 316,853 "
+                              source="https://iiif-dev.unige.ch/iiif/2/fedora_Carmona_002_3/,,,/full/0/default"
+                              corresp="DefaultLine">
+                              <path
+                                    xml:id="Carmona_002_3_BT227&#x2028; _&#x2028; 4_&#x2028; LT83&#x2028; _&#x2028; 3_&#x2028; 1"
+                                    points="316,853 740,857 " corresp="DefaultLine"/>
+                              <line>son, gachona e mi viá,</line>
+                        </zone>
+                        <zone
+                              xml:id="Carmona_002_3_BT227&#x2028; _&#x2028; 4_&#x2028; LT83&#x2028; _&#x2028; 4"
+                              type="DefaultLine" subtype="none"
+                              points="314,901 314,921 760,921 760,901 760,865 314,863 314,901 "
+                              source="https://iiif-dev.unige.ch/iiif/2/fedora_Carmona_002_3/,,,/full/0/default"
+                              corresp="DefaultLine">
+                              <path
+                                    xml:id="Carmona_002_3_BT227&#x2028; _&#x2028; 4_&#x2028; LT83&#x2028; _&#x2028; 4_&#x2028; 1"
+                                    points="314,901 760,901 " corresp="DefaultLine"/>
+                              <line>mis bienes y mi caudal.</line>
+                        </zone>
+                        <zone
+                              xml:id="Carmona_002_3_BT227&#x2028; _&#x2028; 4_&#x2028; LT83&#x2028; _&#x2028; 5"
+                              type="DefaultLine" subtype="none"
+                              points="463,903 442,903 421,903 401,903 380,903 359,903 339,903 318,903 318,940 316,965 783,965 785,948 785,911 473,903 463,903 "
+                              source="https://iiif-dev.unige.ch/iiif/2/fedora_Carmona_002_3/,,,/full/0/default"
+                              corresp="DefaultLine">
+                              <path
+                                    xml:id="Carmona_002_3_BT227&#x2028; _&#x2028; 4_&#x2028; LT83&#x2028; _&#x2028; 5_&#x2028; 1"
+                                    points="318,940 785,948 " corresp="DefaultLine"/>
+                              <line>Pero tengo unas patiyas,</line>
+                        </zone>
+                        <zone
+                              xml:id="Carmona_002_3_BT227&#x2028; _&#x2028; 4_&#x2028; LT83&#x2028; _&#x2028; 6"
+                              type="DefaultLine" subtype="none"
+                              points="318,989 318,1006 758,1008 760,989 758,952 318,952 318,989 "
+                              source="https://iiif-dev.unige.ch/iiif/2/fedora_Carmona_002_3/,,,/full/0/default"
+                              corresp="DefaultLine">
+                              <path
+                                    xml:id="Carmona_002_3_BT227&#x2028; _&#x2028; 4_&#x2028; LT83&#x2028; _&#x2028; 6_&#x2028; 1"
+                                    points="318,989 760,989 " corresp="DefaultLine"/>
+                              <line>qué patiyas... puñaláa!</line>
+                        </zone>
+                        <zone
+                              xml:id="Carmona_002_3_BT227&#x2028; _&#x2028; 4_&#x2028; LT83&#x2028; _&#x2028; 7"
+                              type="DefaultLine" subtype="none"
+                              points="750,992 729,992 709,992 688,992 667,992 647,992 626,992 605,992 585,992 564,992 543,992 523,992 502,992 481,992 460,992 440,992 419,992 398,992 378,992 357,992 336,992 316,989 316,1029 314,1043 804,1047 808,1033 806,992 750,989 750,992 "
+                              source="https://iiif-dev.unige.ch/iiif/2/fedora_Carmona_002_3/,,,/full/0/default"
+                              corresp="DefaultLine">
+                              <path
+                                    xml:id="Carmona_002_3_BT227&#x2028; _&#x2028; 4_&#x2028; LT83&#x2028; _&#x2028; 7_&#x2028; 1"
+                                    points="316,1029 808,1033 " corresp="DefaultLine"/>
+                              <line>quez lo mejor que za visto</line>
+                        </zone>
+                        <zone
+                              xml:id="Carmona_002_3_BT227&#x2028; _&#x2028; 4_&#x2028; LT83&#x2028; _&#x2028; 8"
+                              type="DefaultLine" subtype="none"
+                              points="314,1074 312,1095 709,1097 713,1078 711,1039 314,1039 314,1074 "
+                              source="https://iiif-dev.unige.ch/iiif/2/fedora_Carmona_002_3/,,,/full/0/default"
+                              corresp="DefaultLine">
+                              <path
+                                    xml:id="Carmona_002_3_BT227&#x2028; _&#x2028; 4_&#x2028; LT83&#x2028; _&#x2028; 8_&#x2028; 1"
+                                    points="314,1074 713,1078 " corresp="DefaultLine"/>
+                              <line>desde Jesucristo acá.</line>
+                        </zone>
+                        <zone
+                              xml:id="Carmona_002_3_BT227&#x2028; _&#x2028; 4_&#x2028; LT83&#x2028; _&#x2028; 9"
+                              type="DefaultLine" subtype="none"
+                              points="882,1091 870,1085 365,1076 365,1122 365,1140 634,1140 688,1149 721,1153 723,1153 742,1151 789,1140 882,1153 884,1122 884,1093 882,1091 "
+                              source="https://iiif-dev.unige.ch/iiif/2/fedora_Carmona_002_3/,,,/full/0/default"
+                              corresp="DefaultLine">
+                              <path
+                                    xml:id="Carmona_002_3_BT227&#x2028; _&#x2028; 4_&#x2028; LT83&#x2028; _&#x2028; 9_&#x2028; 1"
+                                    points="365,1122 884,1122 " corresp="DefaultLine"/>
+                              <line>Ven, gachona, que tu Jaque</line>
+                        </zone>
+                        <zone
+                              xml:id="Carmona_002_3_BT227&#x2028; _&#x2028; 4_&#x2028; LT83&#x2028; _&#x2028; 10"
+                              type="DefaultLine" subtype="none"
+                              points="436,1124 415,1124 394,1124 374,1124 372,1122 312,1122 312,1163 310,1175 711,1182 715,1167 713,1128 444,1124 436,1124 "
+                              source="https://iiif-dev.unige.ch/iiif/2/fedora_Carmona_002_3/,,,/full/0/default"
+                              corresp="DefaultLine">
+                              <path
+                                    xml:id="Carmona_002_3_BT227&#x2028; _&#x2028; 4_&#x2028; LT83&#x2028; _&#x2028; 10_&#x2028; 1"
+                                    points="312,1163 715,1167 " corresp="DefaultLine"/>
+                              <line>te espera en el olivar;</line>
+                        </zone>
+                        <zone
+                              xml:id="Carmona_002_3_BT227&#x2028; _&#x2028; 4_&#x2028; LT83&#x2028; _&#x2028; 11"
+                              type="DefaultLine" subtype="none"
+                              points="314,1209 312,1223 756,1231 760,1213 756,1163 659,1173 314,1171 314,1209 "
+                              source="https://iiif-dev.unige.ch/iiif/2/fedora_Carmona_002_3/,,,/full/0/default"
+                              corresp="DefaultLine">
+                              <path
+                                    xml:id="Carmona_002_3_BT227&#x2028; _&#x2028; 4_&#x2028; LT83&#x2028; _&#x2028; 11_&#x2028; 1"
+                                    points="314,1209 760,1213 " corresp="DefaultLine"/>
+                              <line>sonsoniche y cayandito,</line>
+                        </zone>
+                        <zone
+                              xml:id="Carmona_002_3_BT227&#x2028; _&#x2028; 4_&#x2028; LT83&#x2028; _&#x2028; 12"
+                              type="DefaultLine" subtype="none"
+                              points="314,1254 312,1273 797,1271 800,1258 795,1215 314,1221 314,1254 "
+                              source="https://iiif-dev.unige.ch/iiif/2/fedora_Carmona_002_3/,,,/full/0/default"
+                              corresp="DefaultLine">
+                              <path
+                                    xml:id="Carmona_002_3_BT227&#x2028; _&#x2028; 4_&#x2028; LT83&#x2028; _&#x2028; 12_&#x2028; 1"
+                                    points="314,1254 800,1258 " corresp="DefaultLine"/>
+                              <line>que tu maire va á espertá.</line>
+                        </zone>
+                        <zone
+                              xml:id="Carmona_002_3_BT227&#x2028; _&#x2028; 4_&#x2028; LT83&#x2028; _&#x2028; 13"
+                              type="DefaultLine" subtype="none"
+                              points="367,1299 365,1316 644,1330 647,1330 845,1320 847,1304 847,1271 367,1256 367,1299 "
+                              source="https://iiif-dev.unige.ch/iiif/2/fedora_Carmona_002_3/,,,/full/0/default"
+                              corresp="DefaultLine">
+                              <path
+                                    xml:id="Carmona_002_3_BT227&#x2028; _&#x2028; 4_&#x2028; LT83&#x2028; _&#x2028; 13_&#x2028; 1"
+                                    points="367,1299 847,1304 " corresp="DefaultLine"/>
+                              <line>Yo no la temo á la ronda,</line>
+                        </zone>
+                        <zone
+                              xml:id="Carmona_002_3_BT227&#x2028; _&#x2028; 4_&#x2028; LT83&#x2028; _&#x2028; 14"
+                              type="DefaultLine" subtype="none"
+                              points="318,1347 318,1372 721,1361 721,1347 721,1314 318,1312 318,1347 "
+                              source="https://iiif-dev.unige.ch/iiif/2/fedora_Carmona_002_3/,,,/full/0/default"
+                              corresp="DefaultLine">
+                              <path
+                                    xml:id="Carmona_002_3_BT227&#x2028; _&#x2028; 4_&#x2028; LT83&#x2028; _&#x2028; 14_&#x2028; 1"
+                                    points="318,1347 721,1347 " corresp="DefaultLine"/>
+                              <line>porque me conoce ya,</line>
+                        </zone>
+                        <zone
+                              xml:id="Carmona_002_3_BT227&#x2028; _&#x2028; 4_&#x2028; LT83&#x2028; _&#x2028; 15"
+                              type="DefaultLine" subtype="none"
+                              points="318,1388 316,1409 543,1403 554,1407 572,1415 574,1415 576,1415 696,1405 702,1405 706,1405 812,1415 814,1415 816,1415 818,1415 828,1403 831,1392 828,1359 318,1355 318,1388 "
+                              source="https://iiif-dev.unige.ch/iiif/2/fedora_Carmona_002_3/,,,/full/0/default"
+                              corresp="DefaultLine">
+                              <path
+                                    xml:id="Carmona_002_3_BT227&#x2028; _&#x2028; 4_&#x2028; LT83&#x2028; _&#x2028; 15_&#x2028; 1"
+                                    points="318,1388 831,1392 " corresp="DefaultLine"/>
+                              <line>y los perros con mendrugos</line>
+                        </zone>
+                        <zone
+                              xml:id="Carmona_002_3_BT227&#x2028; _&#x2028; 4_&#x2028; LT83&#x2028; _&#x2028; 16"
+                              type="DefaultLine" subtype="none"
+                              points="667,1392 647,1392 626,1392 605,1392 603,1392 587,1399 585,1399 554,1390 543,1390 523,1390 502,1390 485,1390 316,1395 316,1432 314,1446 787,1457 791,1438 789,1403 667,1392 667,1392 "
+                              source="https://iiif-dev.unige.ch/iiif/2/fedora_Carmona_002_3/,,,/full/0/default"
+                              corresp="DefaultLine">
+                              <path
+                                    xml:id="Carmona_002_3_BT227&#x2028; _&#x2028; 4_&#x2028; LT83&#x2028; _&#x2028; 16_&#x2028; 1"
+                                    points="316,1432 791,1438 " corresp="DefaultLine"/>
+                              <line>no se acuerdan de ladrar;</line>
+                        </zone>
+                        <zone
+                              xml:id="Carmona_002_3_BT227&#x2028; _&#x2028; 4_&#x2028; LT83&#x2028; _&#x2028; 17"
+                              type="DefaultLine" subtype="none"
+                              points="316,1477 314,1498 740,1504 744,1483 742,1442 316,1438 316,1477 "
+                              source="https://iiif-dev.unige.ch/iiif/2/fedora_Carmona_002_3/,,,/full/0/default"
+                              corresp="DefaultLine">
+                              <path
+                                    xml:id="Carmona_002_3_BT227&#x2028; _&#x2028; 4_&#x2028; LT83&#x2028; _&#x2028; 17_&#x2028; 1"
+                                    points="316,1477 744,1483 " corresp="DefaultLine"/>
+                              <line>y si acaso me ladrasen,</line>
+                        </zone>
+                        <zone
+                              xml:id="Carmona_002_3_BT227&#x2028; _&#x2028; 4_&#x2028; LT83&#x2028; _&#x2028; 18"
+                              type="DefaultLine" subtype="none"
+                              points="626,1483 605,1483 585,1481 564,1481 543,1481 523,1481 502,1481 496,1481 316,1483 316,1519 314,1529 725,1543 729,1525 727,1492 636,1483 626,1483 "
+                              source="https://iiif-dev.unige.ch/iiif/2/fedora_Carmona_002_3/,,,/full/0/default"
+                              corresp="DefaultLine">
+                              <path
+                                    xml:id="Carmona_002_3_BT227&#x2028; _&#x2028; 4_&#x2028; LT83&#x2028; _&#x2028; 18_&#x2028; 1"
+                                    points="316,1519 729,1525 " corresp="DefaultLine"/>
+                              <line>de una sola bofetáa...</line>
+                        </zone>
+                        <zone
+                              xml:id="Carmona_002_3_BT227&#x2028; _&#x2028; 4_&#x2028; LT83&#x2028; _&#x2028; 19"
+                              type="DefaultLine" subtype="none"
+                              points="316,1560 314,1576 870,1591 874,1566 872,1533 316,1521 316,1560 "
+                              source="https://iiif-dev.unige.ch/iiif/2/fedora_Carmona_002_3/,,,/full/0/default"
+                              corresp="DefaultLine">
+                              <path
+                                    xml:id="Carmona_002_3_BT227&#x2028; _&#x2028; 4_&#x2028; LT83&#x2028; _&#x2028; 19_&#x2028; 1"
+                                    points="316,1560 874,1566 " corresp="DefaultLine"/>
+                              <line>los mando mas de cien leguas</line>
+                        </zone>
+                        <zone
+                              xml:id="Carmona_002_3_BT227&#x2028; _&#x2028; 4_&#x2028; LT83&#x2028; _&#x2028; 20"
+                              type="DefaultLine" subtype="none"
+                              points="316,1607 314,1624 659,1626 663,1612 661,1572 316,1570 316,1607 "
+                              source="https://iiif-dev.unige.ch/iiif/2/fedora_Carmona_002_3/,,,/full/0/default"
+                              corresp="DefaultLine">
+                              <path
+                                    xml:id="Carmona_002_3_BT227&#x2028; _&#x2028; 4_&#x2028; LT83&#x2028; _&#x2028; 20_&#x2028; 1"
+                                    points="316,1607 663,1612 " corresp="DefaultLine"/>
+                              <line>encima la eterniá.</line>
+                        </zone>
+                        <zone
+                              xml:id="Carmona_002_3_BT227&#x2028; _&#x2028; 4_&#x2028; LT83&#x2028; _&#x2028; 21"
+                              type="DefaultLine" subtype="none"
+                              points="510,1612 489,1612 469,1609 469,1653 467,1665 644,1680 647,1680 808,1669 810,1657 808,1624 516,1612 510,1612 "
+                              source="https://iiif-dev.unige.ch/iiif/2/fedora_Carmona_002_3/,,,/full/0/default"
+                              corresp="DefaultLine">
+                              <path
+                                    xml:id="Carmona_002_3_BT227&#x2028; _&#x2028; 4_&#x2028; LT83&#x2028; _&#x2028; 21_&#x2028; 1"
+                                    points="469,1653 810,1657 " corresp="DefaultLine"/>
+                              <line>Ven, gachona, etc.</line>
+                        </zone>
+                        <zone
+                              xml:id="Carmona_002_3_BT227&#x2028; _&#x2028; 4_&#x2028; LT83&#x2028; _&#x2028; 22"
+                              type="DefaultLine" subtype="none"
+                              points="543,1655 523,1655 502,1655 481,1655 479,1653 479,1653 423,1661 357,1651 357,1696 355,1717 866,1723 870,1700 868,1665 554,1655 543,1655 "
+                              source="https://iiif-dev.unige.ch/iiif/2/fedora_Carmona_002_3/,,,/full/0/default"
+                              corresp="DefaultLine">
+                              <path
+                                    xml:id="Carmona_002_3_BT227&#x2028; _&#x2028; 4_&#x2028; LT83&#x2028; _&#x2028; 22_&#x2028; 1"
+                                    points="357,1696 870,1700 " corresp="DefaultLine"/>
+                              <line>Cuando en grupa e mi jaca</line>
+                        </zone>
+                        <zone
+                              xml:id="Carmona_002_3_BT227&#x2028; _&#x2028; 4_&#x2028; LT83&#x2028; _&#x2028; 23"
+                              type="DefaultLine" subtype="none"
+                              points="485,1698 483,1698 481,1698 421,1709 314,1692 314,1740 312,1754 779,1769 783,1750 779,1711 638,1711 626,1705 622,1700 620,1700 618,1700 616,1700 595,1702 525,1711 487,1698 485,1698 "
+                              source="https://iiif-dev.unige.ch/iiif/2/fedora_Carmona_002_3/,,,/full/0/default"
+                              corresp="DefaultLine">
+                              <path
+                                    xml:id="Carmona_002_3_BT227&#x2028; _&#x2028; 4_&#x2028; LT83&#x2028; _&#x2028; 23_&#x2028; 1"
+                                    points="314,1740 783,1750 " corresp="DefaultLine"/>
+                              <line>vamos, niña, á Portugal,</line>
+                        </zone>
+                        <zone
+                              xml:id="Carmona_002_3_BT227&#x2028; _&#x2028; 4_&#x2028; LT83&#x2028; _&#x2028; 24"
+                              type="DefaultLine" subtype="none"
+                              points="314,1785 312,1802 417,1814 419,1814 777,1810 779,1789 777,1756 314,1744 314,1785 "
+                              source="https://iiif-dev.unige.ch/iiif/2/fedora_Carmona_002_3/,,,/full/0/default"
+                              corresp="DefaultLine">
+                              <path
+                                    xml:id="Carmona_002_3_BT227&#x2028; _&#x2028; 4_&#x2028; LT83&#x2028; _&#x2028; 24_&#x2028; 1"
+                                    points="314,1785 779,1789 " corresp="DefaultLine"/>
+                              <line>dicen los mozos al verte:</line>
+                        </zone>
+                        <zone
+                              xml:id="Carmona_002_3_BT227&#x2028; _&#x2028; 4_&#x2028; LT83&#x2028; _&#x2028; 25"
+                              type="DefaultLine" subtype="none"
+                              points="316,1831 314,1841 731,1845 735,1835 733,1802 316,1800 316,1831 "
+                              source="https://iiif-dev.unige.ch/iiif/2/fedora_Carmona_002_3/,,,/full/0/default"
+                              corresp="DefaultLine">
+                              <path
+                                    xml:id="Carmona_002_3_BT227&#x2028; _&#x2028; 4_&#x2028; LT83&#x2028; _&#x2028; 25_&#x2028; 1"
+                                    points="316,1831 735,1835 " corresp="DefaultLine"/>
+                              <line>vaya una curra saláa!</line>
+                        </zone>
+                        <zone
+                              xml:id="Carmona_002_3_BT227&#x2028; _&#x2028; 4_&#x2028; LT83&#x2028; _&#x2028; 26"
+                              type="DefaultLine" subtype="none"
+                              points="316,1878 314,1897 748,1901 752,1882 750,1845 316,1841 316,1878 "
+                              source="https://iiif-dev.unige.ch/iiif/2/fedora_Carmona_002_3/,,,/full/0/default"
+                              corresp="DefaultLine">
+                              <path
+                                    xml:id="Carmona_002_3_BT227&#x2028; _&#x2028; 4_&#x2028; LT83&#x2028; _&#x2028; 26_&#x2028; 1"
+                                    points="316,1878 752,1882 " corresp="DefaultLine"/>
+                              <line>y nosotros en la venta,</line>
+                        </zone>
+                        <zone
+                              xml:id="Carmona_002_3_BT227&#x2028; _&#x2028; 4_&#x2028; LT83&#x2028; _&#x2028; 27"
+                              type="DefaultLine" subtype="none"
+                              points="316,1919 314,1936 764,1946 769,1926 769,1891 316,1884 316,1919 "
+                              source="https://iiif-dev.unige.ch/iiif/2/fedora_Carmona_002_3/,,,/full/0/default"
+                              corresp="DefaultLine">
+                              <path
+                                    xml:id="Carmona_002_3_BT227&#x2028; _&#x2028; 4_&#x2028; LT83&#x2028; _&#x2028; 27_&#x2028; 1"
+                                    points="316,1919 769,1926 " corresp="DefaultLine"/>
+                              <line>entre vino y palmotear,</line>
+                        </zone>
+                        <zone
+                              xml:id="Carmona_002_3_BT227&#x2028; _&#x2028; 4_&#x2028; LT83&#x2028; _&#x2028; 28"
+                              type="DefaultLine" subtype="none"
+                              points="314,1967 314,1996 818,1996 818,1967 818,1934 314,1926 314,1967 "
+                              source="https://iiif-dev.unige.ch/iiif/2/fedora_Carmona_002_3/,,,/full/0/default"
+                              corresp="DefaultLine">
+                              <path
+                                    xml:id="Carmona_002_3_BT227&#x2028; _&#x2028; 4_&#x2028; LT83&#x2028; _&#x2028; 28_&#x2028; 1"
+                                    points="314,1967 818,1967 " corresp="DefaultLine"/>
+                              <line>bailamos cuatro fandangos</line>
+                        </zone>
+                        <zone
+                              xml:id="Carmona_002_3_BT227&#x2028; _&#x2028; 4_&#x2028; LT83&#x2028; _&#x2028; 29"
+                              type="DefaultLine" subtype="none"
+                              points="316,2015 316,2035 585,2029 591,2031 618,2039 620,2039 622,2039 624,2039 661,2029 663,2029 665,2029 717,2039 719,2039 721,2039 744,2027 744,2015 744,1979 316,1979 316,2015 "
+                              source="https://iiif-dev.unige.ch/iiif/2/fedora_Carmona_002_3/,,,/full/0/default"
+                              corresp="DefaultLine">
+                              <path
+                                    xml:id="Carmona_002_3_BT227&#x2028; _&#x2028; 4_&#x2028; LT83&#x2028; _&#x2028; 29_&#x2028; 1"
+                                    points="316,2015 744,2015 " corresp="DefaultLine"/>
+                              <line>y unas boleras que ya.</line>
+                        </zone>
+                        <zone
+                              xml:id="Carmona_002_3_BT227&#x2028; _&#x2028; 4_&#x2028; LT83&#x2028; _&#x2028; 30"
+                              type="DefaultLine" subtype="none"
+                              points="611,2017 591,2017 570,2017 549,2017 529,2017 508,2017 487,2017 467,2017 467,2056 465,2070 804,2072 808,2060 806,2025 611,2017 611,2017 "
+                              source="https://iiif-dev.unige.ch/iiif/2/fedora_Carmona_002_3/,,,/full/0/default"
+                              corresp="DefaultLine">
+                              <path
+                                    xml:id="Carmona_002_3_BT227&#x2028; _&#x2028; 4_&#x2028; LT83&#x2028; _&#x2028; 30_&#x2028; 1"
+                                    points="467,2056 808,2060 " corresp="DefaultLine"/>
+                              <line>Ven, gachona, etc.</line>
+                        </zone>
+                        <zone
+                              xml:id="Carmona_002_3_BT227&#x2028; _&#x2028; 4_&#x2028; LT83&#x2028; _&#x2028; 31"
+                              type="DefaultLine" subtype="none"
+                              points="686,2060 665,2060 644,2060 624,2058 618,2064 616,2064 491,2064 487,2062 454,2050 452,2050 450,2050 355,2058 355,2097 353,2112 367,2120 370,2120 372,2120 374,2122 779,2122 781,2105 781,2068 698,2060 686,2060 "
+                              source="https://iiif-dev.unige.ch/iiif/2/fedora_Carmona_002_3/,,,/full/0/default"
+                              corresp="DefaultLine">
+                              <path
+                                    xml:id="Carmona_002_3_BT227&#x2028; _&#x2028; 4_&#x2028; LT83&#x2028; _&#x2028; 31_&#x2028; 1"
+                                    points="355,2097 781,2105 " corresp="DefaultLine"/>
+                              <line>Allí libres de sorpresa,</line>
+                        </zone>
+                        <zone
+                              xml:id="Carmona_002_3_BT227&#x2028; _&#x2028; 4_&#x2028; LT83&#x2028; _&#x2028; 32"
+                              type="DefaultLine" subtype="none"
+                              points="314,2139 312,2151 700,2157 704,2145 704,2112 314,2105 314,2139 "
+                              source="https://iiif-dev.unige.ch/iiif/2/fedora_Carmona_002_3/,,,/full/0/default"
+                              corresp="DefaultLine">
+                              <path
+                                    xml:id="Carmona_002_3_BT227&#x2028; _&#x2028; 4_&#x2028; LT83&#x2028; _&#x2028; 32_&#x2028; 1"
+                                    points="314,2139 704,2145 " corresp="DefaultLine"/>
+                              <line>sin cuidaos ni pesar,</line>
+                        </zone>
+                        <zone
+                              xml:id="Carmona_002_3_BT227&#x2028; _&#x2028; 4_&#x2028; LT83&#x2028; _&#x2028; 33"
+                              type="DefaultLine" subtype="none"
+                              points="895,2165 888,2153 316,2153 316,2188 316,2223 398,2225 421,2246 423,2246 425,2246 427,2248 512,2248 512,2246 514,2246 549,2229 558,2225 560,2229 576,2244 576,2246 578,2246 580,2246 582,2248 692,2248 692,2246 694,2246 731,2234 756,2225 895,2236 897,2188 897,2170 895,2165 "
+                              source="https://iiif-dev.unige.ch/iiif/2/fedora_Carmona_002_3/,,,/full/0/default"
+                              corresp="DefaultLine">
+                              <path
+                                    xml:id="Carmona_002_3_BT227&#x2028; _&#x2028; 4_&#x2028; LT83&#x2028; _&#x2028; 33_&#x2028; 1"
+                                    points="316,2188 897,2188 " corresp="DefaultLine"/>
+                              <line>entre un bríndis y otro bríndis</line>
+                        </zone>
+                  </zone>
+                  <zone xml:id="Carmona_002_3_BT227_5" n="5" type="MainZone" subtype="columns"
+                        points="961,714 1638,714 1638,2226 961,2226 961,714 "
+                        source="https://iiif-dev.unige.ch/iiif/2/fedora_Carmona_002_3/961,714,677,1512/full/0/default"
+                        corresp="MainZone:columns">
+                        <zone
+                              xml:id="Carmona_002_3_BT227&#x2028; _&#x2028; 5_&#x2028; LT83&#x2028; _&#x2028; 1"
+                              type="DefaultLine" subtype="none"
+                              points="1374,744 1354,744 1333,741 1312,741 1292,739 1271,739 1250,737 1229,737 1209,735 1188,735 1167,733 1147,733 1126,731 1105,731 1099,729 1002,731 1002,768 1000,781 1374,789 1378,775 1376,744 1374,744 "
+                              source="https://iiif-dev.unige.ch/iiif/2/fedora_Carmona_002_3/,,,/full/0/default"
+                              corresp="DefaultLine">
+                              <path
+                                    xml:id="Carmona_002_3_BT227&#x2028; _&#x2028; 5_&#x2028; LT83&#x2028; _&#x2028; 1_&#x2028; 1"
+                                    points="1002,768 1378,775 " corresp="DefaultLine"/>
+                              <line>nos juramos adorar;</line>
+                        </zone>
+                        <zone
+                              xml:id="Carmona_002_3_BT227&#x2028; _&#x2028; 5_&#x2028; LT83&#x2028; _&#x2028; 2"
+                              type="DefaultLine" subtype="none"
+                              points="1271,775 1250,772 1229,772 1209,772 1205,772 1072,781 1052,770 1050,770 1048,770 1046,770 1043,770 1031,781 1004,770 1004,818 1004,828 1515,830 1517,812 1511,762 1339,779 1289,775 1271,775 "
+                              source="https://iiif-dev.unige.ch/iiif/2/fedora_Carmona_002_3/,,,/full/0/default"
+                              corresp="DefaultLine">
+                              <path
+                                    xml:id="Carmona_002_3_BT227&#x2028; _&#x2028; 5_&#x2028; LT83&#x2028; _&#x2028; 2_&#x2028; 1"
+                                    points="1004,818 1517,812 " corresp="DefaultLine"/>
+                              <line>y despues de haber logrado</line>
+                        </zone>
+                        <zone
+                              xml:id="Carmona_002_3_BT227&#x2028; _&#x2028; 5_&#x2028; LT83&#x2028; _&#x2028; 3"
+                              type="DefaultLine" subtype="none"
+                              points="1165,818 1145,818 1124,818 1103,818 1083,818 1062,818 1041,818 1021,818 1017,812 1000,812 1000,857 998,876 1004,882 1004,884 1006,884 1008,884 1010,884 1056,874 1068,872 1089,876 1139,884 1141,884 1201,880 1285,876 1298,886 1300,886 1302,886 1304,886 1306,886 1325,878 1442,892 1447,865 1447,824 1178,816 1165,818 "
+                              source="https://iiif-dev.unige.ch/iiif/2/fedora_Carmona_002_3/,,,/full/0/default"
+                              corresp="DefaultLine">
+                              <path
+                                    xml:id="Carmona_002_3_BT227&#x2028; _&#x2028; 5_&#x2028; LT83&#x2028; _&#x2028; 3_&#x2028; 1"
+                                    points="1000,857 1447,865 " corresp="DefaultLine"/>
+                              <line>la conciencia descargar,</line>
+                        </zone>
+                        <zone
+                              xml:id="Carmona_002_3_BT227&#x2028; _&#x2028; 5_&#x2028; LT83&#x2028; _&#x2028; 4"
+                              type="DefaultLine" subtype="none"
+                              points="1002,903 1000,919 1409,919 1411,907 1409,870 1002,863 1002,903 "
+                              source="https://iiif-dev.unige.ch/iiif/2/fedora_Carmona_002_3/,,,/full/0/default"
+                              corresp="DefaultLine">
+                              <path
+                                    xml:id="Carmona_002_3_BT227&#x2028; _&#x2028; 5_&#x2028; LT83&#x2028; _&#x2028; 4_&#x2028; 1"
+                                    points="1002,903 1411,907 " corresp="DefaultLine"/>
+                              <line>repetimos: vaya otra,</line>
+                        </zone>
+                        <zone
+                              xml:id="Carmona_002_3_BT227&#x2028; _&#x2028; 5_&#x2028; LT83&#x2028; _&#x2028; 5"
+                              type="DefaultLine" subtype="none"
+                              points="1397,907 1376,907 1356,907 1335,907 1314,907 1310,907 1004,911 1004,948 1004,965 1021,977 1023,977 1025,977 1027,977 1134,967 1157,965 1174,967 1209,975 1211,975 1304,971 1463,965 1515,977 1519,948 1517,903 1397,905 1397,907 "
+                              source="https://iiif-dev.unige.ch/iiif/2/fedora_Carmona_002_3/,,,/full/0/default"
+                              corresp="DefaultLine">
+                              <path
+                                    xml:id="Carmona_002_3_BT227&#x2028; _&#x2028; 5_&#x2028; LT83&#x2028; _&#x2028; 5_&#x2028; 1"
+                                    points="1004,948 1519,948 " corresp="DefaultLine"/>
+                              <line>várgame Dios, qué bromáa!</line>
+                        </zone>
+                        <zone
+                              xml:id="Carmona_002_3_BT227&#x2028; _&#x2028; 5_&#x2028; LT83&#x2028; _&#x2028; 6"
+                              type="DefaultLine" subtype="none"
+                              points="1364,950 1343,950 1323,950 1302,950 1281,950 1261,950 1240,950 1219,950 1198,950 1178,950 1157,950 1157,987 1155,1000 1242,1012 1244,1012 1494,1006 1496,996 1494,952 1380,950 1364,950 "
+                              source="https://iiif-dev.unige.ch/iiif/2/fedora_Carmona_002_3/,,,/full/0/default"
+                              corresp="DefaultLine">
+                              <path
+                                    xml:id="Carmona_002_3_BT227&#x2028; _&#x2028; 5_&#x2028; LT83&#x2028; _&#x2028; 6_&#x2028; 1"
+                                    points="1157,987 1496,996 " corresp="DefaultLine"/>
+                              <line>Ven, gachona, etc.</line>
+                        </zone>
+                        <zone
+                              xml:id="Carmona_002_3_BT227&#x2028; _&#x2028; 5_&#x2028; LT83&#x2028; _&#x2028; 7"
+                              type="DefaultLine" subtype="none"
+                              points="1628,1012 1608,1002 1593,994 1573,1002 1571,1002 1566,1002 1492,992 1490,992 1488,992 1486,992 1484,992 1484,996 1480,996 1475,1000 1469,1004 1370,1004 1360,996 1358,994 1339,994 1329,992 1308,994 1246,1000 1196,992 1182,989 1180,989 1174,989 1163,989 1079,1000 1031,987 1029,1033 1027,1049 1060,1068 1062,1068 1064,1068 1066,1068 1068,1068 1085,1056 1174,1062 1176,1062 1178,1062 1198,1054 1203,1051 1205,1054 1215,1062 1217,1062 1219,1062 1221,1062 1223,1062 1238,1054 1244,1051 1345,1051 1356,1058 1378,1072 1380,1072 1382,1072 1385,1074 1447,1074 1447,1072 1449,1072 1451,1072 1451,1070 1461,1062 1473,1051 1544,1054 1554,1064 1560,1070 1560,1072 1562,1072 1564,1072 1566,1072 1633,1066 1635,1037 1635,1016 1628,1012 "
+                              source="https://iiif-dev.unige.ch/iiif/2/fedora_Carmona_002_3/,,,/full/0/default"
+                              corresp="DefaultLine">
+                              <path
+                                    xml:id="Carmona_002_3_BT227&#x2028; _&#x2028; 5_&#x2028; LT83&#x2028; _&#x2028; 7_&#x2028; 1"
+                                    points="1029,1033 1635,1037 " corresp="DefaultLine"/>
+                              <line>Qué me importa á mí que el mundo</line>
+                        </zone>
+                        <zone
+                              xml:id="Carmona_002_3_BT227&#x2028; _&#x2028; 5_&#x2028; LT83&#x2028; _&#x2028; 8"
+                              type="DefaultLine" subtype="none"
+                              points="1000,1078 998,1097 1393,1097 1395,1082 1393,1037 1000,1041 1000,1078 "
+                              source="https://iiif-dev.unige.ch/iiif/2/fedora_Carmona_002_3/,,,/full/0/default"
+                              corresp="DefaultLine">
+                              <path
+                                    xml:id="Carmona_002_3_BT227&#x2028; _&#x2028; 5_&#x2028; LT83&#x2028; _&#x2028; 8_&#x2028; 1"
+                                    points="1000,1078 1395,1082 " corresp="DefaultLine"/>
+                              <line>me persiga sin cesar,</line>
+                        </zone>
+                        <zone
+                              xml:id="Carmona_002_3_BT227&#x2028; _&#x2028; 5_&#x2028; LT83&#x2028; _&#x2028; 9"
+                              type="DefaultLine" subtype="none"
+                              points="998,1122 996,1142 1597,1144 1602,1128 1600,1076 1434,1076 1432,1076 1430,1076 1420,1078 1376,1089 998,1087 998,1122 "
+                              source="https://iiif-dev.unige.ch/iiif/2/fedora_Carmona_002_3/,,,/full/0/default"
+                              corresp="DefaultLine">
+                              <path
+                                    xml:id="Carmona_002_3_BT227&#x2028; _&#x2028; 5_&#x2028; LT83&#x2028; _&#x2028; 9_&#x2028; 1"
+                                    points="998,1122 1602,1128 " corresp="DefaultLine"/>
+                              <line>si hayo en tu pecho un albergue</line>
+                        </zone>
+                        <zone
+                              xml:id="Carmona_002_3_BT227&#x2028; _&#x2028; 5_&#x2028; LT83&#x2028; _&#x2028; 10"
+                              type="DefaultLine" subtype="none"
+                              points="1002,1169 1002,1186 1473,1186 1473,1169 1473,1136 1002,1136 1002,1169 "
+                              source="https://iiif-dev.unige.ch/iiif/2/fedora_Carmona_002_3/,,,/full/0/default"
+                              corresp="DefaultLine">
+                              <path
+                                    xml:id="Carmona_002_3_BT227&#x2028; _&#x2028; 5_&#x2028; LT83&#x2028; _&#x2028; 10_&#x2028; 1"
+                                    points="1002,1169 1473,1169 " corresp="DefaultLine"/>
+                              <line>que no pueden penetrar?</line>
+                        </zone>
+                        <zone
+                              xml:id="Carmona_002_3_BT227&#x2028; _&#x2028; 5_&#x2028; LT83&#x2028; _&#x2028; 11"
+                              type="DefaultLine" subtype="none"
+                              points="1188,1171 1186,1171 1176,1171 1163,1180 1041,1180 1012,1169 1000,1169 1000,1211 998,1227 1533,1231 1538,1219 1538,1182 1198,1182 1190,1171 1188,1171 "
+                              source="https://iiif-dev.unige.ch/iiif/2/fedora_Carmona_002_3/,,,/full/0/default"
+                              corresp="DefaultLine">
+                              <path
+                                    xml:id="Carmona_002_3_BT227&#x2028; _&#x2028; 5_&#x2028; LT83&#x2028; _&#x2028; 11_&#x2028; 1"
+                                    points="1000,1211 1538,1219 " corresp="DefaultLine"/>
+                              <line>En estando yo en tus brazos</line>
+                        </zone>
+                        <zone
+                              xml:id="Carmona_002_3_BT227&#x2028; _&#x2028; 5_&#x2028; LT83&#x2028; _&#x2028; 12"
+                              type="DefaultLine" subtype="none"
+                              points="1000,1260 998,1271 1405,1279 1409,1264 1407,1227 1000,1225 1000,1260 "
+                              source="https://iiif-dev.unige.ch/iiif/2/fedora_Carmona_002_3/,,,/full/0/default"
+                              corresp="DefaultLine">
+                              <path
+                                    xml:id="Carmona_002_3_BT227&#x2028; _&#x2028; 5_&#x2028; LT83&#x2028; _&#x2028; 12_&#x2028; 1"
+                                    points="1000,1260 1409,1264 " corresp="DefaultLine"/>
+                              <line>con mi jaca preparáa,</line>
+                        </zone>
+                        <zone
+                              xml:id="Carmona_002_3_BT227&#x2028; _&#x2028; 5_&#x2028; LT83&#x2028; _&#x2028; 13"
+                              type="DefaultLine" subtype="none"
+                              points="1393,1264 1372,1264 1351,1264 1331,1264 1310,1264 1289,1264 1269,1264 1248,1264 1227,1264 1207,1264 1186,1262 1165,1262 1145,1262 1124,1262 1103,1262 1083,1262 1062,1262 1041,1262 1021,1262 1000,1262 1000,1304 998,1320 1558,1322 1562,1308 1562,1262 1393,1260 1393,1264 "
+                              source="https://iiif-dev.unige.ch/iiif/2/fedora_Carmona_002_3/,,,/full/0/default"
+                              corresp="DefaultLine">
+                              <path
+                                    xml:id="Carmona_002_3_BT227&#x2028; _&#x2028; 5_&#x2028; LT83&#x2028; _&#x2028; 13_&#x2028; 1"
+                                    points="1000,1304 1562,1308 " corresp="DefaultLine"/>
+                              <line>vengan todos cuantos quieran</line>
+                        </zone>
+                        <zone
+                              xml:id="Carmona_002_3_BT227&#x2028; _&#x2028; 5_&#x2028; LT83&#x2028; _&#x2028; 14"
+                              type="DefaultLine" subtype="none"
+                              points="1000,1351 1000,1372 1306,1366 1306,1351 1304,1308 1000,1310 1000,1351 "
+                              source="https://iiif-dev.unige.ch/iiif/2/fedora_Carmona_002_3/,,,/full/0/default"
+                              corresp="DefaultLine">
+                              <path
+                                    xml:id="Carmona_002_3_BT227&#x2028; _&#x2028; 5_&#x2028; LT83&#x2028; _&#x2028; 14_&#x2028; 1"
+                                    points="1000,1351 1306,1351 " corresp="DefaultLine"/>
+                              <line>robar mi feliciá.</line>
+                        </zone>
+                        <zone
+                              xml:id="Carmona_002_3_BT227&#x2028; _&#x2028; 5_&#x2028; LT83&#x2028; _&#x2028; 15"
+                              type="DefaultLine" subtype="none"
+                              points="1153,1392 1151,1405 1492,1409 1496,1397 1494,1359 1153,1355 1153,1392 "
+                              source="https://iiif-dev.unige.ch/iiif/2/fedora_Carmona_002_3/,,,/full/0/default"
+                              corresp="DefaultLine">
+                              <path
+                                    xml:id="Carmona_002_3_BT227&#x2028; _&#x2028; 5_&#x2028; LT83&#x2028; _&#x2028; 15_&#x2028; 1"
+                                    points="1153,1392 1496,1397 " corresp="DefaultLine"/>
+                              <line>Ven, gachona, etc.</line>
+                        </zone>
+                        <zone
+                              xml:id="Carmona_002_3_BT227&#x2028; _&#x2028; 5_&#x2028; LT83&#x2028; _&#x2028; 16"
+                              type="DefaultLine" subtype="none"
+                              points="1188,1395 1167,1395 1165,1390 1153,1392 1081,1401 1046,1390 1043,1436 1041,1448 1562,1454 1566,1442 1566,1405 1223,1405 1194,1395 1188,1395 "
+                              source="https://iiif-dev.unige.ch/iiif/2/fedora_Carmona_002_3/,,,/full/0/default"
+                              corresp="DefaultLine">
+                              <path
+                                    xml:id="Carmona_002_3_BT227&#x2028; _&#x2028; 5_&#x2028; LT83&#x2028; _&#x2028; 16_&#x2028; 1"
+                                    points="1043,1436 1566,1442 " corresp="DefaultLine"/>
+                              <line>Que á ninguno tengo miedo</line>
+                        </zone>
+                        <zone
+                              xml:id="Carmona_002_3_BT227&#x2028; _&#x2028; 5_&#x2028; LT83&#x2028; _&#x2028; 17"
+                              type="DefaultLine" subtype="none"
+                              points="1103,1438 1083,1438 1062,1438 1041,1436 1039,1434 1000,1434 1000,1479 998,1496 1430,1504 1434,1485 1434,1450 1108,1438 1103,1438 "
+                              source="https://iiif-dev.unige.ch/iiif/2/fedora_Carmona_002_3/,,,/full/0/default"
+                              corresp="DefaultLine">
+                              <path
+                                    xml:id="Carmona_002_3_BT227&#x2028; _&#x2028; 5_&#x2028; LT83&#x2028; _&#x2028; 17_&#x2028; 1"
+                                    points="1000,1479 1434,1485 " corresp="DefaultLine"/>
+                              <line>bien lo pueo acreditar,</line>
+                        </zone>
+                        <zone
+                              xml:id="Carmona_002_3_BT227&#x2028; _&#x2028; 5_&#x2028; LT83&#x2028; _&#x2028; 18"
+                              type="DefaultLine" subtype="none"
+                              points="1416,1485 1395,1485 1374,1485 1354,1485 1333,1485 1312,1485 1292,1485 1279,1483 1002,1483 1002,1525 1000,1545 1554,1547 1558,1529 1554,1483 1416,1483 1416,1485 "
+                              source="https://iiif-dev.unige.ch/iiif/2/fedora_Carmona_002_3/,,,/full/0/default"
+                              corresp="DefaultLine">
+                              <path
+                                    xml:id="Carmona_002_3_BT227&#x2028; _&#x2028; 5_&#x2028; LT83&#x2028; _&#x2028; 18_&#x2028; 1"
+                                    points="1002,1525 1558,1529 " corresp="DefaultLine"/>
+                              <line>pues más que el viento ligero</line>
+                        </zone>
+                        <zone
+                              xml:id="Carmona_002_3_BT227&#x2028; _&#x2028; 5_&#x2028; LT83&#x2028; _&#x2028; 19"
+                              type="DefaultLine" subtype="none"
+                              points="998,1568 998,1583 1378,1591 1380,1568 1380,1537 998,1535 998,1568 "
+                              source="https://iiif-dev.unige.ch/iiif/2/fedora_Carmona_002_3/,,,/full/0/default"
+                              corresp="DefaultLine">
+                              <path
+                                    xml:id="Carmona_002_3_BT227&#x2028; _&#x2028; 5_&#x2028; LT83&#x2028; _&#x2028; 19_&#x2028; 1"
+                                    points="998,1568 1380,1568 " corresp="DefaultLine"/>
+                              <line>es mi jaca pa volar:</line>
+                        </zone>
+                        <zone
+                              xml:id="Carmona_002_3_BT227&#x2028; _&#x2028; 5_&#x2028; LT83&#x2028; _&#x2028; 20"
+                              type="DefaultLine" subtype="none"
+                              points="1000,1614 1000,1632 1424,1632 1424,1614 1424,1581 1000,1581 1000,1614 "
+                              source="https://iiif-dev.unige.ch/iiif/2/fedora_Carmona_002_3/,,,/full/0/default"
+                              corresp="DefaultLine">
+                              <path
+                                    xml:id="Carmona_002_3_BT227&#x2028; _&#x2028; 5_&#x2028; LT83&#x2028; _&#x2028; 20_&#x2028; 1"
+                                    points="1000,1614 1424,1614 " corresp="DefaultLine"/>
+                              <line>díganlo sinó los mozos</line>
+                        </zone>
+                        <zone
+                              xml:id="Carmona_002_3_BT227&#x2028; _&#x2028; 5_&#x2028; LT83&#x2028; _&#x2028; 21"
+                              type="DefaultLine" subtype="none"
+                              points="1000,1659 1000,1678 1428,1674 1428,1659 1428,1618 1000,1618 1000,1659 "
+                              source="https://iiif-dev.unige.ch/iiif/2/fedora_Carmona_002_3/,,,/full/0/default"
+                              corresp="DefaultLine">
+                              <path
+                                    xml:id="Carmona_002_3_BT227&#x2028; _&#x2028; 5_&#x2028; LT83&#x2028; _&#x2028; 21_&#x2028; 1"
+                                    points="1000,1659 1428,1659 " corresp="DefaultLine"/>
+                              <line>que están á mi recaláa</line>
+                        </zone>
+                        <zone
+                              xml:id="Carmona_002_3_BT227&#x2028; _&#x2028; 5_&#x2028; LT83&#x2028; _&#x2028; 22"
+                              type="DefaultLine" subtype="none"
+                              points="1000,1702 1000,1717 1418,1721 1420,1702 1418,1665 1000,1669 1000,1702 "
+                              source="https://iiif-dev.unige.ch/iiif/2/fedora_Carmona_002_3/,,,/full/0/default"
+                              corresp="DefaultLine">
+                              <path
+                                    xml:id="Carmona_002_3_BT227&#x2028; _&#x2028; 5_&#x2028; LT83&#x2028; _&#x2028; 22_&#x2028; 1"
+                                    points="1000,1702 1420,1702 " corresp="DefaultLine"/>
+                              <line>esperando para darme</line>
+                        </zone>
+                        <zone
+                              xml:id="Carmona_002_3_BT227&#x2028; _&#x2028; 5_&#x2028; LT83&#x2028; _&#x2028; 23"
+                              type="DefaultLine" subtype="none"
+                              points="1000,1750 1000,1769 1490,1771 1492,1750 1492,1713 1000,1711 1000,1750 "
+                              source="https://iiif-dev.unige.ch/iiif/2/fedora_Carmona_002_3/,,,/full/0/default"
+                              corresp="DefaultLine">
+                              <path
+                                    xml:id="Carmona_002_3_BT227&#x2028; _&#x2028; 5_&#x2028; LT83&#x2028; _&#x2028; 23_&#x2028; 1"
+                                    points="1000,1750 1492,1750 " corresp="DefaultLine"/>
+                              <line>arcance... ¡quite osté allá!</line>
+                        </zone>
+                        <zone
+                              xml:id="Carmona_002_3_BT227&#x2028; _&#x2028; 5_&#x2028; LT83&#x2028; _&#x2028; 24"
+                              type="DefaultLine" subtype="none"
+                              points="1302,1752 1281,1752 1261,1752 1240,1752 1219,1752 1198,1752 1178,1752 1157,1752 1157,1789 1155,1804 1492,1818 1496,1800 1496,1760 1302,1752 1302,1752 "
+                              source="https://iiif-dev.unige.ch/iiif/2/fedora_Carmona_002_3/,,,/full/0/default"
+                              corresp="DefaultLine">
+                              <path
+                                    xml:id="Carmona_002_3_BT227&#x2028; _&#x2028; 5_&#x2028; LT83&#x2028; _&#x2028; 24_&#x2028; 1"
+                                    points="1157,1789 1496,1800 " corresp="DefaultLine"/>
+                              <line>Ven, gachona, etc.</line>
+                        </zone>
+                        <zone
+                              xml:id="Carmona_002_3_BT227&#x2028; _&#x2028; 5_&#x2028; LT83&#x2028; _&#x2028; 25"
+                              type="DefaultLine" subtype="none"
+                              points="1043,1835 1041,1855 1440,1855 1442,1843 1442,1806 1043,1793 1043,1835 "
+                              source="https://iiif-dev.unige.ch/iiif/2/fedora_Carmona_002_3/,,,/full/0/default"
+                              corresp="DefaultLine">
+                              <path
+                                    xml:id="Carmona_002_3_BT227&#x2028; _&#x2028; 5_&#x2028; LT83&#x2028; _&#x2028; 25_&#x2028; 1"
+                                    points="1043,1835 1442,1843 " corresp="DefaultLine"/>
+                              <line>Es sobre tóo mi jaca,</line>
+                        </zone>
+                        <zone
+                              xml:id="Carmona_002_3_BT227&#x2028; _&#x2028; 5_&#x2028; LT83&#x2028; _&#x2028; 26"
+                              type="DefaultLine" subtype="none"
+                              points="1416,1843 1413,1843 1411,1843 1314,1851 1296,1853 1287,1851 1261,1841 1258,1841 1256,1841 1198,1847 1163,1851 1000,1841 1000,1882 998,1895 1422,1909 1426,1888 1426,1853 1418,1845 1418,1843 1416,1843 "
+                              source="https://iiif-dev.unige.ch/iiif/2/fedora_Carmona_002_3/,,,/full/0/default"
+                              corresp="DefaultLine">
+                              <path
+                                    xml:id="Carmona_002_3_BT227&#x2028; _&#x2028; 5_&#x2028; LT83&#x2028; _&#x2028; 26_&#x2028; 1"
+                                    points="1000,1882 1426,1888 " corresp="DefaultLine"/>
+                              <line>una jaca... que ya, ya,</line>
+                        </zone>
+                        <zone
+                              xml:id="Carmona_002_3_BT227&#x2028; _&#x2028; 5_&#x2028; LT83&#x2028; _&#x2028; 27"
+                              type="DefaultLine" subtype="none"
+                              points="1002,1930 1002,1950 1447,1942 1447,1930 1447,1897 1002,1888 1002,1930 "
+                              source="https://iiif-dev.unige.ch/iiif/2/fedora_Carmona_002_3/,,,/full/0/default"
+                              corresp="DefaultLine">
+                              <path
+                                    xml:id="Carmona_002_3_BT227&#x2028; _&#x2028; 5_&#x2028; LT83&#x2028; _&#x2028; 27_&#x2028; 1"
+                                    points="1002,1930 1447,1930 " corresp="DefaultLine"/>
+                              <line>y mi trabuco mas terne</line>
+                        </zone>
+                        <zone
+                              xml:id="Carmona_002_3_BT227&#x2028; _&#x2028; 5_&#x2028; LT83&#x2028; _&#x2028; 28"
+                              type="DefaultLine" subtype="none"
+                              points="1000,1971 998,1984 1407,1994 1411,1975 1407,1932 1000,1932 1000,1971 "
+                              source="https://iiif-dev.unige.ch/iiif/2/fedora_Carmona_002_3/,,,/full/0/default"
+                              corresp="DefaultLine">
+                              <path
+                                    xml:id="Carmona_002_3_BT227&#x2028; _&#x2028; 5_&#x2028; LT83&#x2028; _&#x2028; 28_&#x2028; 1"
+                                    points="1000,1971 1411,1975 " corresp="DefaultLine"/>
+                              <line>que la mesma Trenía;</line>
+                        </zone>
+                        <zone
+                              xml:id="Carmona_002_3_BT227&#x2028; _&#x2028; 5_&#x2028; LT83&#x2028; _&#x2028; 29"
+                              type="DefaultLine" subtype="none"
+                              points="1002,2019 1002,2039 1457,2037 1457,2015 1451,1981 1000,1981 1002,2019 "
+                              source="https://iiif-dev.unige.ch/iiif/2/fedora_Carmona_002_3/,,,/full/0/default"
+                              corresp="DefaultLine">
+                              <path
+                                    xml:id="Carmona_002_3_BT227&#x2028; _&#x2028; 5_&#x2028; LT83&#x2028; _&#x2028; 29_&#x2028; 1"
+                                    points="1002,2019 1457,2015 " corresp="DefaultLine"/>
+                              <line>y sobre tóo, es mi negra</line>
+                        </zone>
+                        <zone
+                              xml:id="Carmona_002_3_BT227&#x2028; _&#x2028; 5_&#x2028; LT83&#x2028; _&#x2028; 30"
+                              type="DefaultLine" subtype="none"
+                              points="1000,2060 1000,2074 1442,2083 1444,2060 1444,2029 1000,2029 1000,2060 "
+                              source="https://iiif-dev.unige.ch/iiif/2/fedora_Carmona_002_3/,,,/full/0/default"
+                              corresp="DefaultLine">
+                              <path
+                                    xml:id="Carmona_002_3_BT227&#x2028; _&#x2028; 5_&#x2028; LT83&#x2028; _&#x2028; 30_&#x2028; 1"
+                                    points="1000,2060 1444,2060 " corresp="DefaultLine"/>
+                              <line>más gitana y más saláa</line>
+                        </zone>
+                        <zone
+                              xml:id="Carmona_002_3_BT227&#x2028; _&#x2028; 5_&#x2028; LT83&#x2028; _&#x2028; 31"
+                              type="DefaultLine" subtype="none"
+                              points="1002,2101 1000,2120 1428,2120 1430,2105 1428,2070 1002,2066 1002,2101 "
+                              source="https://iiif-dev.unige.ch/iiif/2/fedora_Carmona_002_3/,,,/full/0/default"
+                              corresp="DefaultLine">
+                              <path
+                                    xml:id="Carmona_002_3_BT227&#x2028; _&#x2028; 5_&#x2028; LT83&#x2028; _&#x2028; 31_&#x2028; 1"
+                                    points="1002,2101 1430,2105 " corresp="DefaultLine"/>
+                              <line>que todos los africanos</line>
+                        </zone>
+                        <zone
+                              xml:id="Carmona_002_3_BT227&#x2028; _&#x2028; 5_&#x2028; LT83&#x2028; _&#x2028; 32"
+                              type="DefaultLine" subtype="none"
+                              points="1000,2145 998,2167 1407,2170 1411,2149 1409,2112 1000,2108 1000,2145 "
+                              source="https://iiif-dev.unige.ch/iiif/2/fedora_Carmona_002_3/,,,/full/0/default"
+                              corresp="DefaultLine">
+                              <path
+                                    xml:id="Carmona_002_3_BT227&#x2028; _&#x2028; 5_&#x2028; LT83&#x2028; _&#x2028; 32_&#x2028; 1"
+                                    points="1000,2145 1411,2149 " corresp="DefaultLine"/>
+                              <line>del Arbolí de Granáa.</line>
+                        </zone>
+                        <zone
+                              xml:id="Carmona_002_3_BT227&#x2028; _&#x2028; 5_&#x2028; LT83&#x2028; _&#x2028; 33"
+                              type="DefaultLine" subtype="none"
+                              points="1155,2192 1153,2221 1194,2240 1196,2240 1198,2240 1335,2232 1463,2223 1492,2242 1500,2196 1500,2157 1155,2149 1155,2192 "
+                              source="https://iiif-dev.unige.ch/iiif/2/fedora_Carmona_002_3/,,,/full/0/default"
+                              corresp="DefaultLine">
+                              <path
+                                    xml:id="Carmona_002_3_BT227&#x2028; _&#x2028; 5_&#x2028; LT83&#x2028; _&#x2028; 33_&#x2028; 1"
+                                    points="1155,2192 1500,2196 " corresp="DefaultLine"/>
+                              <line>Ven, gachona, etc.</line>
+                        </zone>
+                  </zone>
+            </surface>
+      </sourceDoc>-->
+      <text>
+            <body>
+                  <div>
+                        <div>
+                              <pb n="1" source="Carmona_002_1.jpg"
+                                    facs="fedora_Carmona_002_1/full/full/0/default.jpg"/>
+                              
+                              <fw type="impresorNum">(Núm. 76.)</fw>
+                              
+                              <head type="primer_titulo">
+                                    <lb/><hi rend="negrita">COLECCION.</hi>
+                                    <lb/>DE<lb/><hi rend="negrita">CANCIONES ANDALUZAS.</hi></head>
+
+                              <div type="cancion" n="1">
+                                    <head type="titulo_cancion">LAS LIGAS DE MI MORENA.</head>
+
+                                    <lg>
+                                          <l rend="indent">Yo no te puedo ecir,</l>
+                                          <l>Colasa, lo que me gusta</l>
+                                          <l>sobre una pierna robusta</l>
+                                          <l>una liga coloráa.</l>
+                                          <l>Levanta los faralaes</l>
+                                          <l>y luce la pantorriya,</l>
+                                          <l>que vales mas, Colasiya,</l>
+                                          <l>que toita una toráa.</l>
+                                    </lg>
+
+                                    <lg>
+                                          <l rend="indent">Vaya un ángel retrechero, ¡juy!</l>
+                                          <l>me tienen como alma en pena,</l>
+                                          <l>¡salero!....</l>
+                                          <l>las ligas de mi morena.</l>
+                                    </lg>
+
+                                    <pb n="2" source="Carmona_002_2.jpg"
+                                          facs="fedora_Carmona_002_2/full/full/0/default.jpg"/>
+
+                                    <lg>
+                                          <l rend="indent">Por Dios, serrana, por Dios,</l>
+                                          <l>que vea esa pierna un poco;</l>
+                                          <l>que me estás volviendo loco,</l>
+                                          <l>por instantes, puñaláa.</l>
+                                          <l>Déjame que absorto mire</l>
+                                          <l>de tu edificio la base;</l>
+                                          <l>deja que el alma se abrase</l>
+                                          <l>contemplándote, saláa.</l>
+                                    </lg>
+
+                                    <lg>
+                                          <l rend="indent">Vaya una curra, ¡salero!</l>
+                                          <l>¡que viva la gente güena!</l>
+                                          <l>valen más que el mundo entero</l>
+                                          <l>las ligas de mi morena.</l>
+                                    </lg>
+
+                                    <lg>
+                                          <l rend="indent">Vaya unos ojos ladrones,</l>
+                                          <l>temerarios y atrevíos;</l>
+                                          <l>¿por qué me miran reñíos,</l>
+                                          <l>si no les hice por qué?</l>
+                                          <l>Vaya unas cejas reondas,</l>
+                                          <l>y qué pestañas... salero!</l>
+                                          <l>¡vaya un mirar retrechero!</l>
+                                          <l>¡vaya una jembra gachona!</l>
+                                    </lg>
+
+                                    <lg>
+                                          <l rend="indent">Que soy capaz, si me muero</l>
+                                          <l>de placer en la faena,</l>
+                                          <l>de llevarme... !ole salero!</l>
+                                          <l>las ligas de mi morena.</l>
+                                    </lg>
+
+                                    <lg>
+                                          <l rend="indent">Tan dura de corazon</l>
+                                          <l>es la negra de mis ojos,</l>
+                                          <l>que hasta verme hecho despojos</l>
+                                          <l>no se ha de compadecer.</l>
+                                          <l>Por más que la digo: reina,</l>
+                                          <l>¿hasta cuándo ha de durar</l>
+                                          <l>este modo de jugar</l>
+                                          <l>que tienes, mi malagueña?</l>
+                                    </lg>
+
+                                    <lg>
+                                          <l rend="indent">¡Colasiya.... Resalero!</l>
+                                          <l>hermosa, blanca azucena,</l>
+                                          <l>no te enfaes... porque quiero</l>
+                                          <l>las ligas de mi morena.</l>
+                                    </lg>
+
+                                    <lg>
+                                          <l rend="indent">verte pronto declaráa,</l>
+                                          <l>Vamos, gachona, que quiero</l>
+                                          <l>y esa liga coloráa,</l>
+                                          <l>hacerla dos mil pedazos.</l>
+                                          <l>Menea toa esa tienda</l>
+                                          <l>de ropa con mas soltura;</l>
+                                          <l>!várgame Dios, criatura!</l>
+                                          <l>vente pronto entre mis brazos.</l>
+                                    </lg>
+
+                                    <lg>
+                                          <l rend="indent">Y luego en el fondeaero</l>
+                                          <l>echaremos la caena,</l>
+                                          <l>y diré: ¡vivan, salero,</l>
+                                          <l>las ligas de mi morena!</l>
+                                    </lg>
+                              </div>
+
+                              <div type="cancion" n="2">
+                                    <head type="titulo_cancion" rend="negrita"><lb/>LA ZAL DE LA
+                                          CANELA.</head>
+
+                                    <lg>
+                                          <l rend="indent">Con ese cabeyo rojo</l>
+                                          <l>que al mármol roba la calma,</l>
+                                          <l>y ez el iman de mi antojo,</l>
+                                          <l>haz puesto, niña del alma,</l>
+                                          <l>mi corazon en remojo .</l>
+                                          <l rend="indent">Zi algun mángria lo murmura</l>
+                                          <l>que ze lo cuente á zu abuela,</l>
+                                          <l>criatura!</l>
+                                          <l>ay, benaya eza cintura,</l>
+                                          <l>que ez la zal de la canela.</l>
+                                    </lg>
+
+                                    <lg>
+                                          <l rend="indent">Tú zabes y yo bien zé</l>
+                                          <l>que en el punto en que te ví</l>
+                                          <l>mi corazon te entregué.</l>
+                                          <l>Zi yo te digo: alto aquí,</l>
+                                          <l>no digas que no hay de qué</l>
+                                          <l>Porque ez tanta tu hermosura,</l>
+                                          <l>que perderé la cautela,</l>
+                                          <l>criatura!</l>
+                                          <l>en guiñando eza cintura,</l>
+                                          <l>que ez la zal de la canela.</l>
+                                    </lg>
+
+                                    <lg>
+                                          <l rend="indent">Ay, zi un galan turuleque</l>
+                                          <l>la paz e mi pecho inquieta,</l>
+                                          <l>dile, niña, que no peque,</l>
+                                          <l>ó en la punta de la jeta</l>
+
+                                          <pb n="3" source="Carmona_002_3.jpg"
+                                                facs="fedora_Carmona_002_3/full/full/0/default.jpg"/>
+
+                                          <l>le he de pintar un jabeque.</l>
+                                          <l>ó le arrimaré candela,</l>
+                                          <l rend="indent">Naide goce tu ternura</l>
+                                          <l>puez me encanta eza cintura</l>
+                                          <l>criatura!</l>
+                                          <l>que ez la zal de la canela.</l>
+                                    </lg>
+
+                                    <lg>
+                                          <l rend="indent">Ay! que ez tal mi frenesí,</l>
+                                          <l>que zi tú eres ingrata,</l>
+                                          <l>no me importa que por tí</l>
+                                          <l>me dé la ley por corbata</l>
+                                          <l>los calzones del buchí.</l>
+                                          <l rend="indent">Yo quiero la zepultura</l>
+                                          <l>zi allí con amor me vela,</l>
+                                          <l>criatura!</l>
+                                          <l>eza divina cintura</l>
+                                          <l>que en la zal de la canela.</l>
+                                    </lg>
+                              </div>
+
+                              <div type="cancion" n="3">
+                                    <head type="titulo_cancion" rend="negrita"><lb/>LA JACA E
+                                          TERSIOPELO.</head>
+
+                                    <lg>
+                                          <l rend="indent">Una jaca e tersiopelo,</l>
+                                          <l>un retaco y caliá,</l>
+                                          <l>son, gachona e mi viá,</l>
+                                          <l>mis bienes y mi caudal.</l>
+                                          <l>Pero tengo unas patiyas,</l>
+                                          <l>qué patiyas... puñaláa!</l>
+                                          <l>quez lo mejor que za visto</l>
+                                          <l>desde Jesucristo acá.</l>
+                                    </lg>
+
+                                    <lg rend="cursiva">
+                                          <l rend="indent">Ven, gachona, que tu Jaque</l>
+                                          <l>te espera en el olivar;</l>
+                                          <l>sonsoniche y cayandito,</l>
+                                          <l>que tu maire va á espertá.</l>
+                                    </lg>
+
+                                    <lg>
+                                          <l rend="indent">Yo no la temo á la ronda,</l>
+                                          <l>porque me conoce ya,</l>
+                                          <l>y los perros con mendrugos</l>
+                                          <l>no se acuerdan de ladrar;</l>
+                                          <l>y si acaso me ladrasen,</l>
+                                          <l>de una sola bofetáa...</l>
+                                          <l>los mando mas de cien leguas</l>
+                                          <l>encima la eterniá.</l>
+                                    </lg>
+
+                                    <l rend="indent"><hi rend="cursiva">Ven, gachona, etc.</hi></l>
+
+                                    <lg>
+                                          <l rend="indent">Cuando en grupa e mi jaca</l>
+                                          <l>vamos, niña, á Portugal,</l>
+                                          <l>dicen los mozos al verte:</l>
+                                          <l>vaya una curra saláa!</l>
+                                          <l>y nosotros en la venta,</l>
+                                          <l>entre vino y palmotear,</l>
+                                          <l>bailamos cuatro fandangos</l>
+                                          <l>y unas boleras que ya.</l>
+                                    </lg>
+
+                                    <l rend="indent"><hi rend="cursiva">Ven, gachona, etc.</hi></l>
+
+                                    <lg>
+                                          <l rend="indent">Allí libres de sorpresa,</l>
+                                          <l>sin cuidaos ni pesar,</l>
+                                          <l>entre un bríndis y otro bríndis</l>
+                                          <l>nos juramos adorar;</l>
+                                          <l>y despues de haber logrado</l>
+                                          <l>la conciencia descargar,</l>
+                                          <l>repetimos: vaya otra,</l>
+                                          <l>várgame Dios, qué bromáa!</l>
+                                    </lg>
+
+                                    <l rend="indent"><hi rend="cursiva">Ven, gachona, etc.</hi></l>
+
+                                    <lg>
+                                          <l rend="indent">Qué me importa á mí que el mundo</l>
+                                          <l>me persiga sin cesar,</l>
+                                          <l>si hayo en tu pecho un albergue</l>
+                                          <l>que no pueden penetrar?</l>
+                                          <l>En estando yo en tus brazos</l>
+                                          <l>con mi jaca preparáa,</l>
+                                          <l>vengan todos cuantos quieran</l>
+                                          <l>robar mi feliciá.</l>
+                                    </lg>
+
+                                    <l rend="indent"><hi rend="cursiva">Ven, gachona, etc.</hi></l>
+
+                                    <lg>
+                                          <l rend="indent">Que á ninguno tengo miedo</l>
+                                          <l>bien lo pueo acreditar,</l>
+                                          <l>pues más que el viento ligero</l>
+                                          <l>es mi jaca pa volar:</l>
+                                          <l>díganlo sinó los mozos</l>
+                                          <l>que están á mi recaláa</l>
+                                          <l>esperando para darme</l>
+                                          <l>arcance... ¡quite osté allá!</l>
+                                    </lg>
+
+                                    <l rend="indent"><hi rend="cursiva">Ven, gachona, etc.</hi></l>
+
+                                    <lg>
+                                          <l rend="indent">Es sobre tóo mi jaca,</l>
+                                          <l>una jaca... que ya, ya,</l>
+                                          <l>y mi trabuco mas terne</l>
+                                          <l>que la mesma Trenía;</l>
+                                          <l>y sobre tóo, es mi negra</l>
+                                          <l>más gitana y más saláa</l>
+                                          <l>que todos los africanos</l>
+                                          <l>del Arbolí de Granáa.</l>
+                                    </lg>
+
+                                    <l rend="indent"><hi rend="cursiva">Ven, gachona, etc.</hi></l>
+                              </div>
+                        </div>
+                  </div>
+            </body>
+      </text>
+</TEI>
