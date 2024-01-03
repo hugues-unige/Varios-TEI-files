@@ -1,179 +1,176 @@
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../Schema/oddPliego_varios.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:alto="http://www.loc.gov/standards/alto/ns-v4#"
-      xml:id="Varios_455">
-      <teiHeader>
-            <fileDesc>
-                  <titleStmt>
-                        <title>Historia del infante don Pedro de Portugal</title>
-                        <respStmt xml:id="PJ">
-                              <name>Pauline Jacsont</name>
-                              <resp>Segmentación y transcripción</resp>
-                        </respStmt>
-                        <respStmt xml:id="LB">
-                              <name>Luana Bermúdez</name>
-                              <resp>Corrección de la transcripción</resp>
-                        </respStmt>
-                        <respStmt xml:id="EL">
-                              <name>Elina Leblanc</name>
-                              <resp>Codificación TEI</resp>
-                        </respStmt>
-                  </titleStmt>
-                  <publicationStmt>
-                        <authority role="rightsHolder">Bibliothèque Universitaire de
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:alto="http://www.loc.gov/standards/alto/ns-v4#" xml:id="Varios_455">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Historia del infante don Pedro de Portugal</title>
+        <respStmt xml:id="PJ">
+          <name>Pauline Jacsont</name>
+          <resp>Segmentación y transcripción</resp>
+        </respStmt>
+        <respStmt xml:id="LB">
+          <name>Luana Bermúdez</name>
+          <resp>Corrección de la transcripción</resp>
+        </respStmt>
+        <respStmt xml:id="EL">
+          <name>Elina Leblanc</name>
+          <resp>Codificación TEI</resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <authority role="rightsHolder">Bibliothèque Universitaire de
                               Genève</authority>
-                        <availability status="restricted">
-                              <licence n="cc by nc sa"
-                                    target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
-                        </availability>
-                  </publicationStmt>
-                  <sourceDesc>
-                        <biblFull>
-                              <titleStmt>
-                                    <title type="titulo_completo">Historia del infante don Pedro de
+        <availability status="restricted">
+          <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <biblFull>
+          <titleStmt>
+            <title type="titulo_completo">Historia del infante don Pedro de
                                           Portugal, en la que se refiere lo que secedió en el viaje
                                           que hizo alrededor del mundo.</title>
-                                    <title type="titulo_breve">Historia del infante don Pedro de
+            <title type="titulo_breve">Historia del infante don Pedro de
                                           Portugal</title>
-                              </titleStmt>
-                              <editionStmt>
-                                    <p/>
-                              </editionStmt>
-                              <publicationStmt>
-                                    <publisher>Sucesores de Hernando</publisher>
-                                    <pubPlace ref="https://www.geonames.org/3117735/madrid.html">Madrid</pubPlace>
-                                    <date cert="low">[s.a]</date>
-                              </publicationStmt>
-                        </biblFull>
-                        <msDesc>
-                              <msIdentifier>
-                                    <country>Suisse</country>
-                                    <settlement>Genève</settlement>
-                                    <repository>Bibliothèque Universitaire de Genève <ref
-                                                target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"/>
+          </titleStmt>
+          <editionStmt>
+            <p/>
+          </editionStmt>
+          <publicationStmt>
+            <publisher>Sucesores de Hernando</publisher>
+            <pubPlace ref="https://www.geonames.org/3117735/madrid.html">Madrid</pubPlace>
+            <date cert="low">[s.a]</date>
+          </publicationStmt>
+        </biblFull>
+        <msDesc>
+          <msIdentifier>
+            <country>Suisse</country>
+            <settlement>Genève</settlement>
+            <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"/>
                                     </repository>
-                                    <idno type="cote"/>
-                                    <idno type="DOI">10.5281/zenodo.6802914</idno>
-                                    <altIdentifier>
-                                          <idno type="num_impresor"/>
-                                    </altIdentifier>
-                              </msIdentifier>
-                              <msContents>
-                                    <summary>Diez partes</summary>
-                                    <msItem>
-                                          <locus>3-5</locus>
-                                          <title>Capitulo primero</title>
-                                    </msItem>
-                                    <msItem>
-                                          <locus>5-7</locus>
-                                          <title>Capitulo II</title>
-                                    </msItem>
-                                    <msItem>
-                                          <locus>7-10</locus>
-                                          <title>Capitulo III</title>
-                                    </msItem>
-                                    <msItem>
-                                          <locus>10-12</locus>
-                                          <title>Capitulo IV</title>
-                                    </msItem>
-                                    <msItem>
-                                          <locus>12-14</locus>
-                                          <title>Capitulo V</title>
-                                    </msItem>
-                                    <msItem>
-                                          <locus>14-17</locus>
-                                          <title>Capitulo VI</title>
-                                    </msItem>
-                                    <msItem>
-                                          <locus>17-20</locus>
-                                          <title>Capitulo VII</title>
-                                    </msItem>
-                                    <msItem>
-                                          <locus>20-22</locus>
-                                          <title>Capitulo VIII</title>
-                                    </msItem>
-                                    <msItem>
-                                          <locus>22-23</locus>
-                                          <title>Capitulo IX</title>
-                                    </msItem>
-                                    <msItem>
-                                          <locus>23-24</locus>
-                                          <title>Capitulo X</title>
-                                    </msItem>
-                              </msContents>
-                              <physDesc>
-                                    <objectDesc>
-                                          <supportDesc>
-                                                <support>
-                                                  <dim>in-4</dim>
-                                                  <material rend="amarillo"/>
-                                                </support>
-                                                <extent>
-                                                  <measure unit="página" quantity="2"/>2 p.</extent>
-                                                <condition>Bueno</condition>
-                                          </supportDesc>
-                                          <layoutDesc>
-                                                <p>2 columnas</p>
-                                          </layoutDesc>
-                                    </objectDesc>
-                                    <decoDesc>
-                                          <summary n="2">Dos grabados (p.1) </summary>
-                                          <decoNote type="lista_grabados">
-                                                <list>
-                                                  <item corresp="grabado_v_455_1.xml">grabado_v_455_1</item>
-                                                  <item corresp="grabado_v_455_2.xml">grabado_v_455_2</item>
-                                                </list>
-                                          </decoNote>
-                                          <decoNote type="lista_ornamentos">
-                                                <list>
-                                                  <item corresp="ornamento_v_455_1">ornamento_v_455_1</item>
-                                                </list>
-                                          </decoNote>
-                                    </decoDesc>
-                                    <additions/>
-                              </physDesc>
-                              <history/>
-                        </msDesc>
-                  </sourceDesc>
-            </fileDesc>
-            <encodingDesc>
-                  <projectDesc>
-                        <p>Este archivo fue creado en el marco del proyecto Desenrollando el
+            <idno type="cote"/>
+            <idno type="DOI">10.5281/zenodo.6802914</idno>
+            <altIdentifier>
+              <idno type="num_impresor"/>
+            </altIdentifier>
+          </msIdentifier>
+          <msContents>
+            <summary>Diez partes</summary>
+            <msItem>
+              <locus>3-5</locus>
+              <title>Capitulo primero</title>
+            </msItem>
+            <msItem>
+              <locus>5-7</locus>
+              <title>Capitulo II</title>
+            </msItem>
+            <msItem>
+              <locus>7-10</locus>
+              <title>Capitulo III</title>
+            </msItem>
+            <msItem>
+              <locus>10-12</locus>
+              <title>Capitulo IV</title>
+            </msItem>
+            <msItem>
+              <locus>12-14</locus>
+              <title>Capitulo V</title>
+            </msItem>
+            <msItem>
+              <locus>14-17</locus>
+              <title>Capitulo VI</title>
+            </msItem>
+            <msItem>
+              <locus>17-20</locus>
+              <title>Capitulo VII</title>
+            </msItem>
+            <msItem>
+              <locus>20-22</locus>
+              <title>Capitulo VIII</title>
+            </msItem>
+            <msItem>
+              <locus>22-23</locus>
+              <title>Capitulo IX</title>
+            </msItem>
+            <msItem>
+              <locus>23-24</locus>
+              <title>Capitulo X</title>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <support>
+                  <dim>in-4</dim>
+                  <material rend="amarillo"/>
+                </support>
+                <extent><measure unit="página" quantity="2"/>2 p.</extent>
+                <condition>Bueno</condition>
+              </supportDesc>
+              <layoutDesc>
+                <p>2 columnas</p>
+              </layoutDesc>
+            </objectDesc>
+            <decoDesc>
+              <summary n="2">Dos grabados (p.1) </summary>
+              <decoNote type="lista_grabados">
+                <list>
+                  <item corresp="grabado_v_455_1.xml">grabado_v_455_1</item>
+                  <item corresp="grabado_v_455_2.xml">grabado_v_455_2</item>
+                </list>
+              </decoNote>
+              <decoNote type="lista_ornamentos">
+                <list>
+                  <item corresp="ornamento_v_455_1">ornamento_v_455_1</item>
+                </list>
+              </decoNote>
+            </decoDesc>
+            <additions/>
+          </physDesc>
+          <history/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>Este archivo fue creado en el marco del proyecto Desenrollando el
                               Cordel/Démêler le cordel/Untangling the cordel, dirigido por la
                               profesora Constance Carta de la Universidad de Ginebra, con el apoyo
                               de la Fundación filantrópica Famille Sandoz-Monique de Meuron.</p>
-                  </projectDesc>
-                  <editorialDecl corresp="#automaticTranscription">
-                        <correction>
-                              <p>OCR corregido</p>
-                        </correction>
-                        <normalization>
-                              <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto
+      </projectDesc>
+      <editorialDecl corresp="#automaticTranscription">
+        <correction>
+          <p>OCR corregido</p>
+        </correction>
+        <normalization>
+          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto
                                     original.</p>
-                        </normalization>
-                        <punctuation>
-                              <p>Se conserva la puntuación original.</p>
-                        </punctuation>
-                  </editorialDecl>
-            </encodingDesc>
-            <profileDesc>
-                  <langUsage>
-                        <language ident="es">Español</language>
-                  </langUsage>
-                  <textClass>
-                        <keywords xml:base="http://datos.bne.es/tema/">
-                              <term type="tipo_texto">Historias</term>
-                              <term type="tipo_estrofa"/>
-                              <term type="verso_prosa">Prosa</term>
-                              <term type="sagrado_profano">Profano</term>
-                        </keywords>
-                  </textClass>
-            </profileDesc>
-            <revisionDesc>
-                  <change when="2023-12-12" who="#EL">Création du fichier TEI P5 et encodage du
+        </normalization>
+        <punctuation>
+          <p>Se conserva la puntuación original.</p>
+        </punctuation>
+      </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+        <language ident="es">Español</language>
+      </langUsage>
+      <textClass>
+        <keywords xml:base="http://datos.bne.es/tema/">
+          <term type="tipo_texto">Historias</term>
+          <term type="tipo_estrofa"/>
+          <term type="verso_prosa">Prosa</term>
+          <term type="sagrado_profano">Profano</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+    <revisionDesc>
+      <change when="2023-12-12" who="#EL">Création du fichier TEI P5 et encodage du
                         corps du texte</change>
-            </revisionDesc>
-      </teiHeader>
-      <!--<sourceDoc xml:id="automaticTranscription">
+    </revisionDesc>
+  </teiHeader>
+  <!--<sourceDoc xml:id="automaticTranscription">
       <surface xml:id="Varios_455_1" type="page" cert="silver">
          <graphic url="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_455_1/full/full/0/default.jpg"/>
          <zone xml:id="Varios_455_1_BT224_1"
@@ -11074,51 +11071,33 @@
          </zone>
       </surface>
    </sourceDoc>-->
-      <text>
-            <body>
-                  <div>
-                        
-                              <pb n="1" source="Varios_455_1.jpg"
-                                    facs="fedora_Varios_455_1/full/full/0/default.jpg"/>
-
-                              <fw type="pliegosNum">(TRES PLIEGOS)</fw>
-
-                              <head type="primer_titulo">
-                                    <lb/>HISTORIA<lb/>DEL INFANTE<lb/><hi rend="negrita">DON PEDRO
-                                          DE PORTUGAL</hi>
-                                    <lb/>en la que se refiere lo que le sucedió en el viaje que
+  <text>
+    <body>
+      <div>
+        <pb n="1" source="Varios_455_1.jpg" facs="fedora_Varios_455_1/full/full/0/default.jpg"/>
+        <fw type="pliegosNum">(TRES PLIEGOS)</fw>
+        <head type="primer_titulo"><lb/>HISTORIA<lb/>DEL INFANTE<lb/><hi rend="negrita">DON PEDRO
+                                          DE PORTUGAL</hi><lb/>en la que se refiere lo que le sucedió en el viaje que
                                     hizo<lb/>alrededor del mundo. <lb/>ESCRITA POR GÓMEZ DE
                                     SANTISTEBAN, UNO DE LOS QUE LLEVÓ EN SU COMPAÑÍA</head>
-
-                              <div type="colofon">
-                                    <p>
-                                          <lb/>MADRID Despacho : Sucesores de Hernando, Arenal,
+        <div type="colofon">
+          <p><lb/>MADRID Despacho : Sucesores de Hernando, Arenal,
                                           11.</p>
-
-                                    <pb n="2" source="Varios_455_2.jpg"
-                                          facs="fedora_Varios_455_2/full/full/0/default.jpg"/>
-                                    <p><lb/>ES PROPRIEDAD</p>
-                              </div>
-
-                              <div>
-                                    <pb n="3" source="Varios_455_3.jpg"
-                                          facs="fedora_Varios_455_3/full/full/0/default.jpg"/>
-
-                                    <head type="primer_titulo" rend="negrita">
-                                          <lb/>HISTORIA<lb/>DEL INFANTE<lb/>DON PEDRO DE
+          <pb n="2" source="Varios_455_2.jpg" facs="fedora_Varios_455_2/full/full/0/default.jpg"/>
+          <p><lb/>ES PROPRIEDAD</p>
+        </div>
+        <div>
+          <pb n="3" source="Varios_455_3.jpg" facs="fedora_Varios_455_3/full/full/0/default.jpg"/>
+          <head type="primer_titulo" rend="negrita"><lb/>HISTORIA<lb/>DEL INFANTE<lb/>DON PEDRO DE
                                           PORTUGAL.</head>
-
-                                    <div type="capitulo" n="1">
-                                          <head type="titulo_parte"><lb/>CAPITULO PRIMERO.</head>
-                                          
-                                          <head type="subtitulo_parte" rend="cursiva">
-                                                <lb/>Cómo el infante D. Pedro de Portugal se
+          <div type="capitulo" n="1">
+            <head type="titulo_parte"><lb/>CAPITULO PRIMERO.</head>
+            <head type="subtitulo_parte" rend="cursiva"><lb/>Cómo el infante D. Pedro de Portugal se
                                                 partió de la villa de <lb/>Barcelós á tomar la
                                                 bendicion de su padre, con designio de ver
                                                 <lb/>todas las parte del mundo, y de cómo dió
                                                 principio á su jornada.</head>
-                                          
-                                          <p><lb/>El infante D. Pedro fué hijo del rey D. Pedro de
+            <p><lb/>El infante D. Pedro fué hijo del rey D. Pedro de
                                                 Portugal, pri- <lb/>mero de este nombre. Deseaba con
                                                 ánsia recorrer el mundo y ver <lb/>cuanto en él
                                                 habia. Dominado únicamente por tan irresistible de-
@@ -11142,8 +11121,7 @@
                                                 veinte mil doblas de oro y una porcion <lb/>de joyas
                                                 de inestimable valor, despidiéndole con su
                                                 bendicion.</p>
-                                          
-                                          <p><lb/>Partió en seguida el infante para Valladolid á
+            <p><lb/>Partió en seguida el infante para Valladolid á
                                                 despedirse de <lb/>su primo el rey D. Juan I de
                                                 Castilla, quien apenas supo de su <lb/>llegada
                                                 salió á recibirle; y enterado de la intencion que
@@ -11155,8 +11133,7 @@
                                                 su deseada empresa. <hi rend="cursiva"><lb/>Aquí
                                                   principia la relacion de Gomes
                                                 Santistéban.</hi></p>
-                                          
-                                          <p><lb/>Salimos de Valladolid todos juntos con direccion
+            <p><lb/>Salimos de Valladolid todos juntos con direccion
                                                 á Lisboa, <lb/>donde permanecimos cinco dias
                                                 aguardando viento favorable para <lb/>dar á la vela
                                                 con una fragata maltesa, donde debiamos embar-
@@ -11164,9 +11141,7 @@
                                                 Venecia. En efecto, dimos <lb/>la vela para aquel
                                                 puerto, al que arribamos con toda felicidad,
                                                 
-                                                <pb
-                                                  n="4" source="Varios_455_4.jpg"
-                                                  facs="fedora_Varios_455_4/full/full/0/default.jpg"/>
+                                                <pb n="4" source="Varios_455_4.jpg" facs="fedora_Varios_455_4/full/full/0/default.jpg"/>
                                                 
                                                 <fw type="paginaNum">- 4 -</fw>
                                                 
@@ -11181,8 +11156,7 @@
                                                 indepen-<lb/>diente con gobierno republicano. En el
                                                 dia pertenece otra vez á<lb/>los Estados de
                                                 Italia.</p>
-                                          
-                                          <p><lb/>A los nueve dias nos volvimos á embarcar en un
+            <p><lb/>A los nueve dias nos volvimos á embarcar en un
                                                 navío ho-<lb/>landés que salió para Chipre, á
                                                 donde llegamos sin contratiempo<lb/>alguno que sea
                                                 de contar, despues de veinte y siete dias de
@@ -11198,8 +11172,7 @@
                                                 otro que el de ver mundo: mucho se ale-<lb/>gró de
                                                 esto el rey y nos dió pase para poder seguir
                                                 adelante.</p>
-                                          
-                                          <p><lb/>Habiéndonos despedido, emprendimos el camino para
+            <p><lb/>Habiéndonos despedido, emprendimos el camino para
                                                 Turquia<lb/>dirigiéndonos hácia Damasco, en donde
                                                 entonces residia el prin-<lb/>cipal soberano, señor
                                                 de la media luna ó de medio mundo, al cual<lb/>nos
@@ -11231,14 +11204,11 @@
                                                 áspero,<lb/>yermo y solitario, que en catorce
                                                 jornadas que hicimos no des-<lb/>cubrimos el menor
                                                 indicio de poblacion alguna.</p>
-
-                                          <p><lb/>Al dia quince de nuestra marcha hallamos un
+            <p><lb/>Al dia quince de nuestra marcha hallamos un
                                                 monasterio,<lb/>cuya comunidad era de unos buenos
                                                 ermitaños; el portero nos
                                                 
-                                                <pb n="5"
-                                                  source="Varios_455_5.jpg"
-                                                  facs="fedora_Varios_455_5/full/full/0/default.jpg"/>
+                                                <pb n="5" source="Varios_455_5.jpg" facs="fedora_Varios_455_5/full/full/0/default.jpg"/>
                                                 
                                                 <fw type="paginaNum">— 5—</fw>
                                                 
@@ -11263,25 +11233,20 @@
                                                 obsequiaron y asistieron<lb/>muy bien, sin permitir
                                                 que á nuestra despedida se les hiciese la<lb/>menor
                                                 expresion de gratitud.</p>
-                                    </div>
-
-                                    <div type="capitulo" n="2">
-                                          <head type="titulo_parte">
-                                                <lb/>CAPITULO II.</head>
-
-                                          <head type="subtitulo_parte" rend="cursiva"><lb/>Como el
+          </div>
+          <div type="capitulo" n="2">
+            <head type="titulo_parte"><lb/>CAPITULO II.</head>
+            <head type="subtitulo_parte" rend="cursiva"><lb/>Como el
                                                 infante pasó á Noruega, á Babilonia y despues á
                                                 la<lb/>tierra Santa.</head>
-
-                                          <p><lb/>Muy complacidos nos despedimos de aquellos
+            <p><lb/>Muy complacidos nos despedimos de aquellos
                                                 humildes ermi-<lb/>taños, quienes nos desearon un
                                                 feliz viaje; é informados no distar<lb/>mas que
                                                 seis millas de allí una poblacion, nos dirigimos á
                                                 ella,<lb/>donde tomamos cuatro dromedarios y lo
                                                 demás necesario para el<lb/>camino de Noruega, á
                                                 donde pensaba pasar el infante.</p>
-
-                                          <p><lb/>Los dromedarios llevaban una especie de aguaderas
+            <p><lb/>Los dromedarios llevaban una especie de aguaderas
                                                 anchas,<lb/>capaces de ir colocados en ellas á
                                                 derecha é izquierda las catorce<lb/>personas de
                                                 nuestra comitiva: en medio de las cargas se
@@ -11296,8 +11261,7 @@
                                                 ir bien sujetados á<lb/>las aguaderas para evitar
                                                 una caida; pues al que, por desgracia,<lb/>llega á
                                                 suceder esto, por milagro se libra de la muerte.</p>
-
-                                          <p><lb/>Ocho dias caminamos en esta conformidad, al cabo
+            <p><lb/>Ocho dias caminamos en esta conformidad, al cabo
                                                 de los cuales<lb/>llegamos al reino de Noruega, cuyo
                                                 terreno fértil abunda de<lb/>hermosos y frondosos
                                                 árboles, que producen variedad de
@@ -11307,8 +11271,7 @@
                                                 diez y ocho de noche: las cosechas son duplicadas al
                                                 año,
                                                 
-                                                <pb n="6" source="Varios_455_6.jpg"
-                                                  facs="fedora_Varios_455_6/full/full/0/default.jpg"/>
+                                                <pb n="6" source="Varios_455_6.jpg" facs="fedora_Varios_455_6/full/full/0/default.jpg"/>
                                                 
                                                 <fw type="paginaNum">— 6 —</fw>
                                                 
@@ -11317,9 +11280,7 @@
                                                 motivo porque el infante no quiso de- <lb/>tenerse
                                                 mucho tiempo en aquel país para pasar á
                                                 Babilonia.</p>
-
-                                          <p>
-                                                <lb/>A nuestra llegada á tan famosa ciudad pasamos
+            <p><lb/>A nuestra llegada á tan famosa ciudad pasamos
                                                 á prestar <lb/>obediencia al gran Babilon, hijo del
                                                 Soldan de Egipto, el cual, <lb/>con la mayor
                                                 severidad, nos interrogó de qué nacion éramos,
@@ -11331,9 +11292,7 @@
                                                 que preguntaba, y que el motivo de <lb/>pasar por
                                                 sus dominios, era por ir en romería á visitar al
                                                 Preste <lb/>Juan de las Indias.</p>
-
-                                          <p>
-                                                <lb/>Con esta relacion mandó nos detuviéramos
+            <p><lb/>Con esta relacion mandó nos detuviéramos
                                                 algunos dias, en <lb/>los que se le informó de la
                                                 grandeza de nuestro soberano con los <lb/>ritos,
                                                 costumbres y ceremonias de los paises cristianos:
@@ -11379,9 +11338,7 @@
                                                 al huerto de Jetse- <lb/>maní ó de las Olivas. en
                                                 cuyo sitio no ha vuelto á nacer yerba
                                                 
-                                                <pb n="7"
-                                                  source="Varios_455_7.jpg"
-                                                  facs="fedora_Varios_455_7/full/full/0/default.jpg"/>
+                                                <pb n="7" source="Varios_455_7.jpg" facs="fedora_Varios_455_7/full/full/0/default.jpg"/>
                                                 
                                                 <fw type="paginaNum">—— 7 ——</fw>
                                                 
@@ -11404,26 +11361,19 @@
                                                 ciudad: el monte Tabor, donde<lb/>fué trasfigurado
                                                 el Señor y donde fué enterrado Moisés,
                                                 igno-<lb/>rándose el sitio de su sepulcro.</p>
-
-                                          <p><lb/>Pasamos tambien al desierto donde ayunó el
+            <p><lb/>Pasamos tambien al desierto donde ayunó el
                                                 Señor, en el cual<lb/>vimos los sepulcros de
                                                 Daniel, el de Jeremías y el de
                                                 Zacarías,<lb/>volviéndonos despues al convento á
                                                 despedirnos del padre guar-<lb/>dian, para emprender
                                                 el camino de Armenia.</p>
-                                    </div>
-
-                                    <div type="capitulo" n="3">
-                                          <head type="titulo_parte">
-                                                <lb/>CAPÍTULO III.</head>
-
-                                          <head type="subtitulo_parte" rend="cursiva">
-                                                <lb/>Como el infante D. Pedro llega á la Armenia,
+          </div>
+          <div type="capitulo" n="3">
+            <head type="titulo_parte"><lb/>CAPÍTULO III.</head>
+            <head type="subtitulo_parte" rend="cursiva"><lb/>Como el infante D. Pedro llega á la Armenia,
                                                 donde se presentó<lb/>al rey, pasando despues á
                                                 otras provincias. </head>
-
-                                          <p>
-                                                <lb/>Entramos por las sierras de Armenia, que son
+            <p><lb/>Entramos por las sierras de Armenia, que son
                                                 las Mas esca-<lb/>brosas y ásperas, pero fértiles
                                                 al mismo tiempo, que hay en el<lb/>mundo; y aunque
                                                 vulgarmente se dice estar los campos llenos
@@ -11440,8 +11390,7 @@
                                                 partes; por lo que con alguna razon fundada se dice
                                                 que<lb/>aquellos campos están llenos de leche y
                                                 miel.</p>
-
-                                          <p><lb/>Ninguno de los animales que pueblan aquellas
+            <p><lb/>Ninguno de los animales que pueblan aquellas
                                                 ásperas mon-<lb/>tañas bebe agua hasta que viene
                                                 el unicornio, que por lo regu-<lb/>lar suele ser al
                                                 medio dia, hora que por su instinto saben
@@ -11452,16 +11401,13 @@
                                                 vívoras de terri-<lb/>ble magnitud echan al agua;
                                                 por cuya razon ningun caminante
                                                 
-                                                <pb n="8"
-                                                  source="Varios_455_8.jpg"
-                                                  facs="fedora_Varios_455_8/full/full/0/default.jpg"/>
+                                                <pb n="8" source="Varios_455_8.jpg" facs="fedora_Varios_455_8/full/full/0/default.jpg"/>
                                                 
                                                 <fw type="paginaNum">— 8 —</fw>
                                                 
                                                 <lb/>se atreve á beberla, teniendo que llevarla en
                                                 vasijas, como tuvi- <lb/>mos que hacer nosotros.</p>
-
-                                          <p><lb/>Por medio de estas sierras áridas pasa un
+            <p><lb/>Por medio de estas sierras áridas pasa un
                                                 caudaloso rio, el <lb/>cual circumbala dos altísimas
                                                 montañas que se descubren desde <lb/>mas de treinta
                                                 leguas por la parte del mar, sobre cuyas encum-
@@ -11472,8 +11418,7 @@
                                                 muchedumbre <lb/>de aves que sobre ella paran, y á
                                                 la que nadie puede llegar sin <lb/>exponerse á un
                                                 inminente peligro por lo inexpugnable del sitio.</p>
-
-                                          <p><lb/>Despues pasamos á la ciudad de Armenia, que es
+            <p><lb/>Despues pasamos á la ciudad de Armenia, que es
                                                 una de las <lb/>mas fuertes y populosas del mundo;
                                                 á nuestra llegada fuimos <lb/>presentados al rey,
                                                 quien nos preguntó nuestra procedencia y á
@@ -11494,8 +11439,7 @@
                                                 <lb/>de Castilla y Leon, entregó al infante
                                                 quinientas piezas de oro <lb/>nara ayuda del viaje,
                                                 que emprendimos para Babilonia, en Egipto.</p>
-
-                                          <p><lb/>Habiendo llegado á aquella ciudad nos presentamos
+            <p><lb/>Habiendo llegado á aquella ciudad nos presentamos
                                                 al rey, y <lb/>despues de haberle informado García
                                                 Ramirez quiénes éramos y <lb/>á qué provincia
                                                 nos encaminábamos, se complació en conocer-
@@ -11517,15 +11461,13 @@
                                                 solicitud, permanecien- <lb/>do á su lado cerca de
                                                 un mes, regalándonos y obsequiándonos <l>muy bien
                                                   y cumplidamente.</l></p>
-
-                                          <p><lb/>Una tarde que salimos á pasearnos por la ciudad,
+            <p><lb/>Una tarde que salimos á pasearnos por la ciudad,
                                                 vimos en <lb/>una de las plazas más públicas el
                                                 cruel suplicio á que estaba des- <lb/>tinado un
                                                 infeliz moro, enterrado hasta el cuello con señales
                                                 de
                                                 
-                                                <pb n="9" source="Varios_455_9.jpg"
-                                                  facs="fedora_Varios_455_9/full/full/0/default.jpg"/>
+                                                <pb n="9" source="Varios_455_9.jpg" facs="fedora_Varios_455_9/full/full/0/default.jpg"/>
                                                 
                                                 <fw type="paginaNum">— 9 —</fw>
                                                 
@@ -11545,8 +11487,7 @@
                                                 <lb/>por parte de persona alguna, so pena de sufrir
                                                 el mismo castigo <l>el que intentase
                                                 libertarle.</l></p>
-
-                                          <p><lb/>Siendo ya tiempo de seguir nuestro viaje, pedimos
+            <p><lb/>Siendo ya tiempo de seguir nuestro viaje, pedimos
                                                 licencia <lb/>al soldan para ello ; y despues de
                                                 habérnosla concedido, junta- <lb/>mente con muchas
                                                 joyas y piedras preciosas que regaló al in-
@@ -11572,8 +11513,7 @@
                                                 en libertad, pero con la condicion de que cada uno
                                                 <lb/>habíamos de pagar veinte escudos de oro y
                                                 salir al momento de <lb/>su territorio.</p>
-
-                                          <p><lb/>Despues de haber satisfecho la cantidad impuesta,
+            <p><lb/>Despues de haber satisfecho la cantidad impuesta,
                                                 salimos <lb/>de aquella ciudad para la de Sobranza,
                                                 cuyo soberano, sospe- <lb/>chando mal de nosotros,
                                                 ordenó nos retirásemos luego al punto <lb/>de su
@@ -11583,8 +11523,7 @@
                                                 afrentosa; y que por el desacato de habernos inter-
                                                 <lb/>nado en ellos sin el debido permiso, pagásemos
                                                 cincuenta escu- <lb/>dos de oro por cada uno.</p>
-
-                                          <p><lb/>Notificada que nos fué esta sentencia, no pudimos
+            <p><lb/>Notificada que nos fué esta sentencia, no pudimos
                                                 ménos de <lb/>darla cumplimiento en todas sus
                                                 partes, con tanta celeridad, que <lb/>en pocos dias
                                                 atravesamos un desierto que tenia más de doscien-
@@ -11592,16 +11531,10 @@
                                                 alguna, hasta la ciu- <lb/>dad de Asian, cuyos
                                                 habitantes nos recibieron con toda urbani- <lb/>dad
                                                 y agrado, haciéndonos pagar un corto tributo.</p>
-
-                                          <fw type="pliegosNum">D. Pedro de Portugal. 2</fw>
-
-                                          <pb n="10" source="Varios_455_10.jpg"
-                                                facs="fedora_Varios_455_10/full/full/0/default.jpg"/>
-                                          
-                                          <fw type="paginaNum">— 10 —</fw>
-                                          
-                                          <p>
-                                                <lb/>Salmos despues para la poblacion de Torna, cuyo
+            <fw type="pliegosNum">D. Pedro de Portugal. 2</fw>
+            <pb n="10" source="Varios_455_10.jpg" facs="fedora_Varios_455_10/full/full/0/default.jpg"/>
+            <fw type="paginaNum">— 10 —</fw>
+            <p><lb/>Salmos despues para la poblacion de Torna, cuyo
                                                 gobernador<lb/>nos mandó seguir nuestra marcha, sin
                                                 que tuviésemos que abo-<lb/>nar tributo alguno, de
                                                 lo que nos mostramos muy reconocidos,<lb/>y seguimos
@@ -11611,21 +11544,16 @@
                                                 quiso el infante nos detuviéramos en<lb/>ella á
                                                 causa de ser hermosa y sus habitantes muy afables
                                                 con los<lb/>peregrinos.</p>
-                                    </div>
-
-                                    <div type="capitulo" n="4">
-                                          <head type="titulo_parte">
-                                                <lb/>CAPÍTULO IV.</head>
-
-                                          <head type="subtitulo_parte" rend="cursiva"><lb/>Cómo el
+          </div>
+          <div type="capitulo" n="4">
+            <head type="titulo_parte"><lb/>CAPÍTULO IV.</head>
+            <head type="subtitulo_parte" rend="cursiva"><lb/>Cómo el
                                                 infante D. Pedro con su acompañamiento pasó á
                                                 la<lb/>ciudad de Capadocia y se presentó al gran
                                                 Morato, de quien<lb/>fué mal recibido, y despues
                                                 tomó el camino para visitar al<lb/>grande y supremo
                                                 Tamerlan.</head>
-
-                                          <p>
-                                                <lb/>Salimos de la ciudad de Pasiban para la de
+            <p><lb/>Salimos de la ciudad de Pasiban para la de
                                                 Capadocia, á don-<lb/>de llegamos sin el menor
                                                 contratiempo ; habiéndonos presentado<lb/>al gran
                                                 Morato ó virey de aquel Estado, nos recibió tan
@@ -11660,17 +11588,14 @@
                                                 bajo del cual, en un<lb/>tronco de ébano guarnecido
                                                 de brocado, cubierto de pedrería, es-<lb/>taba
                                                 sentado aquel grande y poderoso señor.</p>
-
-                                          <p><lb/>Luego que estuvimos ante su presencia, hincamos
+            <p><lb/>Luego que estuvimos ante su presencia, hincamos
                                                 todos la<lb/>rodilla á un tiempo, por no manifestar
                                                 que entre nosotros iba su-<lb/>perior alguno. A
                                                 pocos pasos repetimos el acatamiento hasta
                                                 tres<lb/>veces: á la inmediacion suya nos postramos
                                                 del todo en tierra, y
                                                 
-                                                <pb n="11"
-                                                  source="Varios_455_11.jpg"
-                                                  facs="fedora_Varios_455_11/full/full/0/default.jpg"/>
+                                                <pb n="11" source="Varios_455_11.jpg" facs="fedora_Varios_455_11/full/full/0/default.jpg"/>
                                                 
                                                 <fw type="paginaNum">— 11 —</fw>
                                                 
@@ -11709,8 +11634,7 @@
                                                 fué-<lb/>semos á la inmediacion suya, cuya honra
                                                 queria hacernos porque<lb/>éramos vasallos de su
                                                 hijo el rey de Leon, segun él decia.</p>
-
-                                          <p><lb/>En esta forma caminamos á la mezquita: luego que
+            <p><lb/>En esta forma caminamos á la mezquita: luego que
                                                 entramos<lb/>en ella mandó que nos mostrasen todas
                                                 las alhajas que habia, las<lb/>cuales eran tantas y
                                                 tan costosas, que es imposible calcular
@@ -11738,8 +11662,7 @@
                                                 la<lb/>comimos de mala gana y contra nuestra
                                                 voluntad, solo porque no<lb/>creyeran haciamos
                                                 desprecio. Veinte dias nos tuvo en su palacio
-                                                <pb n="12" source="Varios_455_12.jpg"
-                                                  facs="fedora_Varios_455_12/full/full/0/default.jpg"/>
+                                                <pb n="12" source="Varios_455_12.jpg" facs="fedora_Varios_455_12/full/full/0/default.jpg"/>
                                                 
                                                 <fw type="paginaNum">— 12 —</fw>
                                                 
@@ -11753,8 +11676,7 @@
                                                 con-<lb/>cedió con mil doblas de oro y muchos
                                                 ofrecimientos y amistades<lb/>para nuestro soberano,
                                                 y nos despedimos.</p>
-
-                                          <p><lb/>Nos dirigimos luego á la ciudad de Seta, y de
+            <p><lb/>Nos dirigimos luego á la ciudad de Seta, y de
                                                 ésta á la de<lb/>Trasis, catorce leguas distante
                                                 de Sodoma y Gomorra, cuyas dos<lb/>poblaciones
                                                 están convertidas en lagos de agua negra cubierta
@@ -11792,19 +11714,13 @@
                                                 y la<lb/>mala intemperie de aquellos climas hubiese
                                                 podido borrar ni aun<lb/>la mas mínima parte de la
                                                 estátua.</p>
-                                    </div>
-
-                                    <div type="capitulo" n="5">
-                                          <head type="titulo_parte">
-                                                <lb/>CAPITULO V.</head>
-
-                                          <head type="subtitulo_parte" rend="cursiva">
-                                                <lb/>Como el infante D. Pedro y su compañía pasaron
+          </div>
+          <div type="capitulo" n="5">
+            <head type="titulo_parte"><lb/>CAPITULO V.</head>
+            <head type="subtitulo_parte" rend="cursiva"><lb/>Como el infante D. Pedro y su compañía pasaron
                                                 á la Arabia,<lb/>luego á Zagaur, monte Cálboe y
                                                 despues al de Sinaí. </head>
-
-                                          <p>
-                                                <lb/>Tomamos al siguiente dia el camino de la ciudad
+            <p><lb/>Tomamos al siguiente dia el camino de la ciudad
                                                 de Sabá, en<lb/>la que existia un barrio ocupado
                                                 por una generacion, cuyos<lb/>hombres tenian la cara
                                                 á semejanza de perros, dándoles por los<lb/>demás
@@ -11812,16 +11728,13 @@
                                                 muy<lb/>feroces y de malas propiedades; las mujeres
                                                 de esta raza no ma-
                                                 
-                                                <pb n="13"
-                                                  source="Varios_455_13.jpg"
-                                                  facs="fedora_Varios_455_13/full/full/0/default.jpg"/>
+                                                <pb n="13" source="Varios_455_13.jpg" facs="fedora_Varios_455_13/full/full/0/default.jpg"/>
                                                 
                                                 <fw type="paginaNum">— 13 —</fw>
                                                 
                                                 <lb/>nifiestan tanta fealdad, y son muy buenas y
                                                 compasivas.</p>
-
-                                          <p><lb/>Pedimos licencia para ver al rey, y habiéndola
+            <p><lb/>Pedimos licencia para ver al rey, y habiéndola
                                                 concedido nos<lb/>presentamos á él: luego que nos
                                                 tuvo delante, nos preguntó con<lb/>la mayor
                                                 severidad quiénes éramos y á dónde íbamos por
@@ -11836,8 +11749,7 @@
                                                 manifestado<lb/>mandó pagásemos veinte escudos de
                                                 oro de tributo, y que dentro<lb/>de veinte y cuatro
                                                 horas saliésemos de allí para nuestro destino.</p>
-                                          
-                                          <p><lb/>Al momento seguimos el camino de la Arabia, y para
+            <p><lb/>Al momento seguimos el camino de la Arabia, y para
                                                 poder<lb/>cruzar los grandes arenales que hay en
                                                 aquellas regiones remo-<lb/>tas, alquilamos cuatro
                                                 dromedarios, sin los cuales era
@@ -11852,8 +11764,7 @@
                                                 mueren<lb/>sofocados, de cuyos cuerpos se saca la
                                                 carne momia por algunos<lb/>naturales que se dedican
                                                 á ello, aunque con el peligro de perecer.</p>
-
-                                          <p><lb/>Cuatro dias tardamos en pasar aquellos arenales,
+            <p><lb/>Cuatro dias tardamos en pasar aquellos arenales,
                                                 que á no<lb/>haber tomado la precaucion de llevar
                                                 los dromedarios, sin duda<lb/>hubiéramos quedado
                                                 sepultados en las arenas, por los recios<lb/>vientos
@@ -11866,8 +11777,7 @@
                                                 pagando un<lb/>corto tributo que se nos exigió, nos
                                                 marchamos para la de Za-<lb/>gaur, en cuyo campo
                                                 murió Saul y todo su ejército.</p>
-
-                                          <p><lb/>A nuestra llegada visitamos al gobernador y
+            <p><lb/>A nuestra llegada visitamos al gobernador y
                                                 despues de ha-<lb/>bernos exigido diez piezas de oro
                                                 por cada uno, nos dejó marchar<lb/>para el monte
                                                 Sinaí, en el que habia un convento de
@@ -11877,17 +11787,14 @@
                                                 cariño<lb/>que manifestó haciéndonos sus
                                                 huéspedes y teniéndonos en aquel<lb/>sagrado
                                                 recinto sobre unos dos meses.</p>
-
-                                          <p><lb/>En esta tierra no se conoce el ganado vacuno, pero
+            <p><lb/>En esta tierra no se conoce el ganado vacuno, pero
                                                 para cul-<lb/>tivar los campos y demás tierras
                                                 salen los legos del convento por<lb/>aquellos montes
                                                 y cogen unicornios, búfalos, dromedarios,
                                                 mar-<lb/>files y daines cuando son cachorrillos; los
                                                 traen al convento,
                                                 
-                                                <pb n="14"
-                                                  source="Varios_455_14.jpg"
-                                                  facs="fedora_Varios_455_14/full/full/0/default.jpg"/>
+                                                <pb n="14" source="Varios_455_14.jpg" facs="fedora_Varios_455_14/full/full/0/default.jpg"/>
                                                 
                                                 <fw type="paginaNum">— 14 —</fw>
                                                 
@@ -11922,8 +11829,7 @@
                                                 cons-<lb/>truida con el mayor primor, de ébano y
                                                 marfil, cuya guarnicion <lb/>es de plata, así como
                                                 la cerradura y llave.</p>
-
-                                          <p><lb/>Despues de habernos mostrado algunas preciosidades
+            <p><lb/>Despues de habernos mostrado algunas preciosidades
                                                 y reli-<lb/>quias que encerraba aquel pequeño
                                                 santuario, nos despedimos de<lb/>los dos venerables
                                                 religiosos, volviendo á bajar por la
@@ -11932,18 +11838,13 @@
                                                 sus indivíduos para seguir nuestro ca-<lb/>mino,
                                                 habiendo antes confesado todos y recibido el
                                                 Divino<lb/>Manjar.</p>
-                                    </div>
-
-                                    <div type="capitulo" n="6">
-                                          <head type="titulo_parte">
-                                                <lb/>CAPITULO VI.</head>
-
-                                          <head type="subtitulo_parte" rend="cursiva">
-                                                <lb/>Como el infante D. Pedro y su comitiva pasaron
+          </div>
+          <div type="capitulo" n="6">
+            <head type="titulo_parte"><lb/>CAPITULO VI.</head>
+            <head type="subtitulo_parte" rend="cursiva"><lb/>Como el infante D. Pedro y su comitiva pasaron
                                                 á las ciudades<lb/>del gran Roboan, la de Meca,
                                                 Sonterra, y en Judea á la de<lb/>Cananea. </head>
-                                          <p>
-                                                <lb/>Despues de haber salido del convento y tomado
+            <p><lb/>Despues de haber salido del convento y tomado
                                                 el camino de<lb/>Roboan, entramos en dicha ciudad,
                                                 cuyo bajá mandó á los mo-<lb/>ros fuesen con
                                                 nosotros y nos presentasen presos en la de
@@ -11958,9 +11859,7 @@
                                                 para que dispusiera de<lb/>nosotros lo que tuviera
                                                 por conveniente, mandó que entrásemos,
                                                 
-                                                <pb n="15"
-                                                  source="Varios_455_15.jpg"
-                                                  facs="fedora_Varios_455_15/full/full/0/default.jpg"/>
+                                                <pb n="15" source="Varios_455_15.jpg" facs="fedora_Varios_455_15/full/full/0/default.jpg"/>
                                                 
                                                 <fw type="paginaNum">— 15 —</fw>
                                                 
@@ -11999,8 +11898,7 @@
                                                 que se sostenga en el aire sin inclinarse á ningun
                                                 <lb/>lado, lo que atribuyen á milagro aquellos
                                                 miserables fanáticos.</p>
-
-                                          <p><lb/>Despues nos dirigimos á ver los jardines reales,
+            <p><lb/>Despues nos dirigimos á ver los jardines reales,
                                                 en los que <lb/>se ven tantas y tan maravillosas
                                                 invenciones, que excedian á <lb/>cuantas hasta
                                                 allí habiamos contemplado en los reinos y provin-
@@ -12028,9 +11926,7 @@
                                                 reina que las dirija y <lb/>justicia que las
                                                 gobieme: labran sus campos, ejercitan todas.
                                                 
-                                                <pb
-                                                  n="16" source="Varios_455_16.jpg"
-                                                  facs="fedora_Varios_455_16/full/full/0/default.jpg"/>
+                                                <pb n="16" source="Varios_455_16.jpg" facs="fedora_Varios_455_16/full/full/0/default.jpg"/>
                                                 
                                                 <fw type="paginaNum">— 16 —</fw>
                                                 
@@ -12081,8 +11977,7 @@
                                                 todo, ya os podeis retirar, y agradeced <lb/>que
                                                 atendiendo á vuestra ignorancia no manda la reina
                                                 mi se- <lb/>nora que se os castigue severamente.</p>
-
-                                          <p><lb/>García Ramirez, con mucha cortesía y humildad,
+            <p><lb/>García Ramirez, con mucha cortesía y humildad,
                                                 respondió <lb/>que luego al punto saldríamos de
                                                 aquel país, estando reconocidos <lb/>al favor que
                                                 se dignaba dispensarnos; esperando de la mucha
@@ -12097,9 +11992,7 @@
                                                 en <lb/>toda la Judea, en la que están los
                                                 descendientes de las tribus de
                                                 
-                                                <pb n="17"
-                                                  source="Varios_455_17.jpg"
-                                                  facs="fedora_Varios_455_17/full/full/0/default.jpg"/>
+                                                <pb n="17" source="Varios_455_17.jpg" facs="fedora_Varios_455_17/full/full/0/default.jpg"/>
                                                 
                                                 <fw type="paginaNum">— 17 —</fw>
                                                 
@@ -12119,8 +12012,7 @@
                                                 contestes, mandó ponernos en libertad, pero que sin
                                                 <lb/>detenernos siguiéramos nuestra marcha hasta
                                                 salir de su terri- <lb/>torio.</p>
-
-                                          <p><lb/>En uno de los pueblos del tránsito presenciamos
+            <p><lb/>En uno de los pueblos del tránsito presenciamos
                                                 una cosa ra- <lb/>ra para nosotros, y fué un
                                                 entierro en que iban en procesion va- <lb/>rias
                                                 gentes de ambos sexos, vestidos de cilicios y con
@@ -12137,27 +12029,20 @@
                                                 gente no creen en la venida de Jesucristo; y sólo
                                                 se disponen <lb/>para la aparicion del
                                                 Ante-Cristo.</p>
-
-                                          <p><lb/>Los únicos jueces que gobiernan aquellas tribus
+            <p><lb/>Los únicos jueces que gobiernan aquellas tribus
                                                 son los pro- <lb/>curadores electos por el pueblo;
                                                 éstos están sujetos al Preste <lb/>Juan, á quien
                                                 le contribuyen anualmente con el tributo de cien
                                                 <lb/>dromedarios cargados de trigo y diez mil doblas
                                                 de oro.</p>
-                                    </div>
-
-                                    <div type="capitulo" n="7">
-                                          <head type="titulo_parte">
-                                                <lb/>CAPITULO VII.</head>
-
-                                          <head type="subtitulo_parte" rend="cursiva">
-                                                <lb/>Como el infante don Pedro y demás de su ac
+          </div>
+          <div type="capitulo" n="7">
+            <head type="titulo_parte"><lb/>CAPITULO VII.</head>
+            <head type="subtitulo_parte" rend="cursiva"><lb/>Como el infante don Pedro y demás de su ac
                                                 ompañamiento pasa-<lb/>ron á la ciudad de Luca,
                                                 donde habitan los gigantes, y desde<lb/>allí á la
                                                 ciudad de Albes, residencia del Preste Juan. </head>
-
-                                          <p>
-                                                <lb/>Salimos de Cananea, y luego nos encaminamos á
+            <p><lb/>Salimos de Cananea, y luego nos encaminamos á
                                                 la ciudad<lb/>de Luca, en cuyo camino gastamos
                                                 quince dias; este viaje fué<lb/>para nosotros el
                                                 más peligroso que hicimos en nuestra
@@ -12174,8 +12059,7 @@
                                                 
                                                 <fw type="pliegosNum">D. Pedro de Portugal. 3</fw>
                                                 
-                                                <pb n="18" source="Varios_455_18.jpg"
-                                                  facs="fedora_Varios_455_18/full/full/0/default.jpg"/>
+                                                <pb n="18" source="Varios_455_18.jpg" facs="fedora_Varios_455_18/full/full/0/default.jpg"/>
                                                 
                                                 <fw type="paginaNum">— 18 —</fw>
                                                 
@@ -12188,8 +12072,7 @@
                                                 susto que se deja conocer, y al cabo <lb/>de algunas
                                                 jornadas llegamos con toda felicidad á la ciudad de
                                                 <lb/>Albes, donde habita el Preste Juan.</p>
-
-                                          <p><lb/>Esta ciudad, la más populosa y respetable, la
+            <p><lb/>Esta ciudad, la más populosa y respetable, la
                                                 más rica y forta- <lb/>lecida que hay en aquella
                                                 parte del mundo, tiene de circunferen- <lb/>cia más
                                                 de doce leguas: en su muralla ó cerca tiene ciento
@@ -12242,9 +12125,7 @@
                                                 que contestó el ca- <lb/>pitan nos aguardásemos en
                                                 aquel sitio hasta que él pasara la no-
                                                 
-                                                <pb n="19"
-                                                  source="Varios_455_19.jpg"
-                                                  facs="fedora_Varios_455_19/full/full/0/default.jpg"/>
+                                                <pb n="19" source="Varios_455_19.jpg" facs="fedora_Varios_455_19/full/full/0/default.jpg"/>
                                                 
                                                 <fw type="paginaNum">— 19 —</fw>
                                                 
@@ -12281,8 +12162,7 @@
                                                 poner otra mesa, en la que sentados todos los demás
                                                 de la <lb/>comitiva del infante, nos sirvieron la
                                                 comida con magnificencia.</p>
-
-                                          <p><lb/>Observamos con estrañeza que todos los dias
+            <p><lb/>Observamos con estrañeza que todos los dias
                                                 ponian en la <lb/>mesa del Preste Juan cuatro
                                                 fuentes de plata: en una habia la <lb/>cabeza ó
                                                 cráneo de un difunto en representacion de la
@@ -12299,8 +12179,7 @@
                                                 los <lb/>dias, y luego con muchas oraciones daba
                                                 señales de observar la <lb/>verdadera religion como
                                                 buen cristianismo</p>
-
-                                          <p><lb/>Tres meses estuvimos en aquella córte muy bien
+            <p><lb/>Tres meses estuvimos en aquella córte muy bien
                                                 tratados y <lb/>asistidos de todo lo necesario, en
                                                 cuyo tiempo vimos cosas muy <lb/>maravillosas. Los
                                                 sacerdotes son casados en aquella tierra; pe-
@@ -12313,13 +12192,9 @@
                                                 este precepto tiene irremisible pena <lb/>de muerte,
                                                 por cuyo delito vimos quitar la vida á dos de
                                                 ellas,</p>
-
-                                          <pb n="20" source="Varios_455_20.jpg"
-                                                facs="fedora_Varios_455_20/full/full/0/default.jpg"/>
-                                          
-                                          <fw type="paginaNum">— 20 —</fw>
-
-                                          <p><lb/>En cada iglesia asisten de continuo cuatro
+            <pb n="20" source="Varios_455_20.jpg" facs="fedora_Varios_455_20/full/full/0/default.jpg"/>
+            <fw type="paginaNum">— 20 —</fw>
+            <p><lb/>En cada iglesia asisten de continuo cuatro
                                                 sacerdotes, los que <lb/>alternan por semanas, y
                                                 para salir los cuatro tienen que quedar <lb/>otros
                                                 en su lugar. Hay otros que tienen la obligacion de
@@ -12338,8 +12213,7 @@
                                                 seglares en la parte que <lb/>les toca respecto á
                                                 lo civil, viviendo todos en tanta paz y armo-
                                                 <lb/>nía, que apenas se advierte un disgusto.</p>
-
-                                          <p><lb/>Pocos dias antes de venirnos mandó el Preste á
+            <p><lb/>Pocos dias antes de venirnos mandó el Preste á
                                                 dos sacerdo- <lb/>tes que nos mostraran el cuerpo de
                                                 Santo Tomás: fuimos á la <lb/>iglesia donde está
                                                 el santo y le vimos: está colocado en el altar
@@ -12358,21 +12232,16 @@
                                                 cuerpo del santo nos vol- <lb/>vimos á Palacio á
                                                 dar las gracias al Preste por el favor que nos
                                                 <lb/>habia dispensado.</p>
-                                    </div>
-
-                                    <div type="capitulo" n="8">
-                                          <head type="titulo_parte">
-                                                <lb/>CAPITULO VIII.</head>
-
-                                          <head type="subtitulo_parte" rend="cursiva"><lb/>Del
+          </div>
+          <div type="capitulo" n="8">
+            <head type="titulo_parte"><lb/>CAPITULO VIII.</head>
+            <head type="subtitulo_parte" rend="cursiva"><lb/>Del
                                                 ceremonial que se observa para elegir al Preste
                                                 Juan, y de<lb/>cmoó el infante D. Pedro y los suyos
                                                 hicieron una excursion<lb/>por una tierra donde los
                                                 hombres tienen el acento como el la-<lb/>drido de
                                                 los perros.</head>
-
-                                          <p>
-                                                <lb/>Inmediatamente que muere el Preste, como esta
+            <p><lb/>Inmediatamente que muere el Preste, como esta
                                                 dignidad no<lb/>es hereditaria, se reunen en la
                                                 ciudad todos los obispos y abades<lb/>del reino, y
                                                 en solemne procesion se dirigen á la iglesia
@@ -12386,9 +12255,7 @@
                                                 ha<lb/>sido electo á besar la mano al santo, y los
                                                 demas prelados se la
                                                 
-                                                <pb n="21"
-                                                  source="Varios_455_21.jpg"
-                                                  facs="fedora_Varios_455_21/full/full/0/default.jpg"/>
+                                                <pb n="21" source="Varios_455_21.jpg" facs="fedora_Varios_455_21/full/full/0/default.jpg"/>
                                                 
                                                 <fw type="paginaNum">— 21 —</fw>
                                                 
@@ -12396,8 +12263,7 @@
                                                 bendicion, se vuel- <lb/>ven a formar la procesion y
                                                 le conducen al palacio desde cuyo <lb/>momento da
                                                 principio su autoridad gobernando sus dominios.</p>
-
-                                          <p><lb/>Viendo el infante el mucho tiempo que hacia que
+            <p><lb/>Viendo el infante el mucho tiempo que hacia que
                                                 estábamos <lb/>detenidos en aquella ciudad, pidió
                                                 licencia para pasar á otra par- <lb/>te, y el
                                                 Preste le aconsejó no siguiera su camino hácia
@@ -12456,35 +12322,27 @@
                                                 <lb/>camellos, con cuyo auxilio tuvimos lo
                                                 suficiente para volvernos
                                                 
-                                                <pb n="22"
-                                                  source="Varios_455_22.jpg"
-                                                  facs="fedora_Varios_455_22/full/full/0/default.jpg"/>
+                                                <pb n="22" source="Varios_455_22.jpg" facs="fedora_Varios_455_22/full/full/0/default.jpg"/>
                                                 
                                                 <fw type="paginaNum">— 22 —</fw>
                                                 
                                                 <lb/>á España: asimismo le dió una carta para el
                                                 rey de Leon.</p>
-                                    </div>
-
-                                    <div type="capitulo" n="9">
-                                          <head type="titulo_parte">
-                                                <lb/>CAPITULO IX</head>
-
-                                          <head type="subtitulo_parte" rend="cursiva">
-                                                <lb/>Carta del Preste Juan de las Indias para el rey
+          </div>
+          <div type="capitulo" n="9">
+            <head type="titulo_parte"><lb/>CAPITULO IX</head>
+            <head type="subtitulo_parte" rend="cursiva"><lb/>Carta del Preste Juan de las Indias para el rey
                                                 D. Juan el se-<lb/>gundo de Castilla, en la que se
                                                 le dá cuenta de los ritos y ce-<lb/>remonias, de su
                                                 reino, y costumbres de los habitantes que
                                                 le<lb/>pueblan.</head>
-
-                                          <p><lb/>Poderoso y cristianísimo rey D. Juan, salud en
+            <p><lb/>Poderoso y cristianísimo rey D. Juan, salud en
                                                 Nuestro Se- <lb/>ñor Jesucristo. Os hago saber que
                                                 nuestra ley es la de gracia, <lb/>creyendo fiel y
                                                 verdaderamente en Dios Padre, Hijo y Espíritu
                                                 <lb/>Santo, tres personas distintas y un solo Dios
                                                 verdadero.</p>
-
-                                          <p><lb/>Y por cuanto si apeteceis saber las
+            <p><lb/>Y por cuanto si apeteceis saber las
                                                 particularidades de mis <lb/>extensos dominios, os
                                                 manifiesto que tengo bajo mi autori- <lb/>dad 64
                                                 reyes; me obedecen 12 arzobispos, 30 obispos y 4
@@ -12499,8 +12357,7 @@
                                                 dromedarios, elefan- <lb/>tes, camellos y
                                                 unicornios, se labran los campos y hacen las la-
                                                 <lb/>bores que necesitamos.</p>
-
-                                          <p><lb/>Tengo en mis Estados un territorio cuyos
+            <p><lb/>Tengo en mis Estados un territorio cuyos
                                                 habitantes no tie- <lb/>nen mas de un ojo en medio
                                                 de la frente; cuando muere alguno <lb/>se le comen
                                                 entre sus parientes, á los cuales llaman gomeos;
@@ -12513,8 +12370,7 @@
                                                 cubrir mucha parte de la tierra; habiendo tradicion
                                                 que <lb/>no saldrán de aquel sitio hasta que venga
                                                 el Ante-Cristo.</p>
-
-                                          <p><lb/>Hay otra provincia con una clase de gentes que
+            <p><lb/>Hay otra provincia con una clase de gentes que
                                                   tienen los
                                                 <lb/>piés redondos; son pacíficos, y se ocupan nada
                                                 mas que en labrar <lb/>sus tierras. En otra isla
@@ -12531,17 +12387,14 @@
                                                 gigantes de la altu- <lb/>ra de dos hombres los que
                                                 no me pagan tributo, aunque están á
                                                 
-                                                <pb n="23"
-                                                  source="Varios_455_23.jpg"
-                                                  facs="fedora_Varios_455_23/full/full/0/default.jpg"/>
+                                                <pb n="23" source="Varios_455_23.jpg" facs="fedora_Varios_455_23/full/full/0/default.jpg"/>
                                                 
                                                 <lb/>mi mando; si así como son de grandes fueran
                                                 belicosos y guer- <lb/>reros, pudieran conquistar el
                                                 mundo; pero son tan pacíficos, que <lb/>solo se
                                                 ocupan en labranza de tierra; sus antecesores fueron
                                                 los <lb/>que formaron la torre de Babilonia.</p>
-
-                                          <p><lb/>Cuando tenemos que salir á campaña no usamos
+            <p><lb/>Cuando tenemos que salir á campaña no usamos
                                                 otro estan- <lb/>darte ni bandera que la Santa Cruz.
                                                 Todos los años vamos á visi- <lb/>tar el cuerpo
                                                 del profeta David; y para pasar los desiertos arena-
@@ -12550,8 +12403,7 @@
                                                 las muchas serpientes, dragones y otros
                                                 <lb/>animales que hay con siete cabezas, los cuales
                                                 son muy voraces.</p>
-
-                                          <p><lb/>Cuatro meses en el año vivimos con nuestras
+            <p><lb/>Cuatro meses en el año vivimos con nuestras
                                                 mujeres, y pa- <lb/>sados, nos separamos hasta otro
                                                 año: esto se entiende los que so- <lb/>mos
                                                 sacerdotes, pues los seglares viven siempre juntos:
@@ -12564,24 +12416,18 @@
                                                 Administramos y guardamos muy recta, justi-
                                                 <lb/>cia, castigando á los malos y premiando á los
                                                 buenos.</p>
-
-                                          <p><lb/>En esta forma, caro y amado hermano, gobierno
+            <p><lb/>En esta forma, caro y amado hermano, gobierno
                                                 estas pro- <lb/>vincias y en la misma creo dirigís
                                                 las vuestras: así lo cree del <lb/>celo cristiano
                                                 con que os juzga poseido vuestro hermano <hi rend="cursiva"><lb/>El
                                                 Preste Juan de las Indias.</hi></p>
-                                    </div>
-
-                                    <div type="capitulo" n="10">
-                                          <head type="titulo_parte">
-                                                <lb/>CAPITULO X.</head>
-
-                                          <head type="subtitulo_parte" rend="cursiva">
-                                                <lb/>De como el infante D. Pedro se despidió del
+          </div>
+          <div type="capitulo" n="10">
+            <head type="titulo_parte"><lb/>CAPITULO X.</head>
+            <head type="subtitulo_parte" rend="cursiva"><lb/>De como el infante D. Pedro se despidió del
                                                 Preste Juan y se<lb/>vino á España con su
                                                 acompañamiento. </head>
-                                          <p>
-                                                <lb/>Cuando el infante se hubo entregado de la carta
+            <p><lb/>Cuando el infante se hubo entregado de la carta
                                                 y demás que<lb/>le habia dado el Preste Juan, á
                                                 quien besó la mano, nos despe-<lb/>dimos de los
                                                 arzobispos y obispos de palacio con muchas
@@ -12603,9 +12449,7 @@
                                                 mujeres y niños. Desde aquel<lb/>punto tomamos el
                                                 camino que habiamos llevado cuando fuimos
                                                 
-                                                <pb n="24"
-                                                  source="Varios_455_24.jpg"
-                                                  facs="fedora_Varios_455_24/full/full/0/default.jpg"/>
+                                                <pb n="24" source="Varios_455_24.jpg" facs="fedora_Varios_455_24/full/full/0/default.jpg"/>
                                                 
                                                 <fw type="paginaNum">— 24 —</fw>
                                                 
@@ -12633,17 +12477,15 @@
                                                 padre, al que contó <lb/>cuanto queda manifestado
                                                 en tan dilatada y peligrosa jornada, <l>gastando en
                                                   ella tres años y cuatro meses.</l></p>
-
-                                          <p><lb/>Muy complacido quedó el rey de que su hijo
+            <p><lb/>Muy complacido quedó el rey de que su hijo
                                                 hubiese vuelto <lb/>con felicidad: á todos los que
                                                 le acompañamos mandó se nos die- <lb/>sen rentas
                                                 con que poder mantenernos por los dias de nuestra
                                                 vi- <lb/>da, con lo que nos retiramos cada uno á
                                                 disfrutarlas en el seno <lb/>nuestras familias.</p>
-                                    </div>
-                              </div>
-                        
-                  </div>
-            </body>
-      </text>
+          </div>
+        </div>
+      </div>
+    </body>
+  </text>
 </TEI>
