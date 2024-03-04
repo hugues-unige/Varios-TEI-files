@@ -32,7 +32,7 @@
           <publicationStmt>
             <publisher>Vidal Arrabal</publisher>
             <pubPlace ref="https://www.geonames.org/3111933/reus.html">Reus</pubPlace>
-            <date cert="high">[s.a]</date>
+            <date cert="low" when="1800-01-01">[s.a.]</date>
           </publicationStmt>
         </biblFull>
         <msDesc>
@@ -41,6 +41,7 @@
             <settlement>Genève</settlement>
             <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"/>
                                     </repository>
+            <collection>Colección Varios</collection>
             <idno type="cote"/>
             <idno type="DOI">10.5281/zenodo.6783825</idno>
             <altIdentifier>
@@ -69,7 +70,7 @@
               </layoutDesc>
             </objectDesc>
             <decoDesc>
-              <summary n="1">Uno grabado (p.1) </summary>
+              <summary n="1">Un grabado (p.1) </summary>
               <decoNote type="lista_grabados">
                 <list>
                   <item corresp="grabado_v_388_1.xml">grabado_v_388_1</item>
@@ -101,7 +102,7 @@
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR non corregido</p>
+          <p>OCR no corregido</p>
         </correction>
         <normalization>
           <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto
@@ -129,9 +130,10 @@
     <revisionDesc>
       <change when="2023-12-13" who="#PJ">Création du fichier TEI P5 et encodage du
                         corps du texte</change>
+<change when="2024-01-09" who="#EL">Add the IIIF links</change>
     </revisionDesc>
   </teiHeader>
-  <sourceDoc xml:id="automaticTranscription">
+  <facsimile><graphic url="varios/Varios_388_1.jpg/full/200,/0/default.jpg"/></facsimile><sourceDoc xml:id="automaticTranscription">
     <surface xml:id="Varios_388_1" type="page" cert="silver">
       <graphic url="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_388_1/full/full/0/default.jpg"/>
       <zone xml:id="Varios_388_1_BT221_1" n="1" type="CustomZone" subtype="impresorNum" points="1323,342 1323,419 1082,422 1070,342 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_388_1/1070,342,253,80/full/0/default" corresp="CustomZone:impresorNum">
@@ -1368,7 +1370,7 @@
   <text>
     <body>
       <div>
-        <pb n="1" source="Varios_388_1.jpg" facs="fedora_Varios_388_1/full/full/0/default.jpg"/>
+        <pb n="1" source="Varios_388_1.jpg" facs="varios/Varios_388_1.jpg/"/>
         <fw type="impresorNum">(Num. 67.)</fw>
         <div>
           <head type="titulo_parte" rend="negrita"><lb/>CURIOSA RELACION</head>
@@ -1402,7 +1404,7 @@
               <l>ven, Remedio de pobreza.</l>
               <l>venid conmigo mi Dios.</l>
             </lg>
-            <pb n="2" source="Varios_388_2.jpg" facs="fedora_Varios_388_2/full/full/0/default.jpg"/>
+            <pb n="2" source="Varios_388_2.jpg" facs="varios/Varios_388_2.jpg/"/>
             <lg>
               <l>Entre el enredo y mentira,</l>
               <l>entre tantos embusteros,</l>
@@ -1514,7 +1516,7 @@
               <l rend="cursiva">que no con ellos vendido.</l>
             </lg>
           </div>
-          <pb n="3" source="Varios_388_3.jpg" facs="fedora_Varios_388_3/full/full/0/default.jpg"/>
+          <pb n="3" source="Varios_388_3.jpg" facs="varios/Varios_388_3.jpg/"/>
           <div type="parte" n="2">
             <head type="titulo_parte" rend="negrita"><lb/>LAMEMTOS DE UN AMANTE APASIONADO.</head>
             <head type="subtitulo_parte" rend="negrita"><lb/>Á TÍ.</head>
@@ -1614,7 +1616,7 @@
               <l>no te imprime un beso ardiente</l>
               <l>sobre el labio de carmin?</l>
             </lg>
-            <pb n="4" source="Varios_388_4.jpg" facs="fedora_Varios_388_4/full/full/0/default.jpg"/>
+            <pb n="4" source="Varios_388_4.jpg" facs="varios/Varios_388_4.jpg/"/>
             <lg>
               <l>?Es verdad que le consuelas</l>
               <l>con los recuerdos punzantes,</l>

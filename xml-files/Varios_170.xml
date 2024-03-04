@@ -1,18 +1,17 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../Schema/oddPliego_varios.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:alto="http://www.loc.gov/standards/alto/ns-v4#" xml:id="Varios_170">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Varios_170">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Doña Josefa Ramirez.</title>
+        <title>Doña Josefa Ramirez</title>
         <respStmt>
           <name/>
           <resp>Codificación TEI</resp>
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <authority role="rightsHolder">Bibliothèque Universitaire de
-                            Genève</authority>
+        <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
         <availability status="restricted">
           <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
         </availability>
@@ -20,16 +19,18 @@
       <sourceDesc>
         <biblFull>
           <titleStmt>
-            <title type="titulo_completo">Doña Josefa Ramirez.Romance, en que se da cuenta de los arrojos, y valientes arrestos de esta Dama natural de Valencia, y la felicidad con que salió de todos ellos.</title>
-            <title type="titulo_breve">Doña Josefa Ramirez. </title>
+            <title type="titulo_completo">Doña Josefa Ramirez.Romance, en que se da cuenta de los
+              arrojos, y valientes arrestos de esta Dama natural de Valencia, y la felicidad con que
+              salió de todos ellos.</title>
+            <title type="titulo_breve">Doña Josefa Ramirez.</title>
           </titleStmt>
           <editionStmt>
             <p/>
           </editionStmt>
           <publicationStmt>
-            <publisher>Don Juan Garcia</publisher>
-            <pubPlace ref="Cordoba">https://www.geonames.org/2519240/cordoba.html</pubPlace>
-            <date cert="high">[s.a]</date>
+            <publisher>Juan García</publisher>
+            <pubPlace ref="https://www.geonames.org/2519240/cordoba.html">Córdoba</pubPlace>
+            <date cert="low" when="1800-01-01">[s.a.]</date>
           </publicationStmt>
         </biblFull>
         <msDesc>
@@ -37,7 +38,8 @@
             <country>Suisse</country>
             <settlement>Genève</settlement>
             <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"/>
-                  </repository>
+            </repository>
+            <collection>Colección Varios</collection>
             <idno type="cote"/>
             <idno type="DOI">10.5281/zenodo.6587258</idno>
             <altIdentifier>
@@ -45,10 +47,15 @@
             </altIdentifier>
           </msIdentifier>
           <msContents>
-            <summary/>
+            <summary>Dos partes</summary>
             <msItem>
-              <locus/>
-              <title/>
+              <locus>1-2</locus>
+              <title>Primera parte</title>
+            </msItem>
+            <msItem>
+              <locus>3-8</locus>
+              <title>Doña Josefa Ramirez. Romance, en que se refiere el cautiverio de esta Dama, y
+                los varios sucesos que pasó hasta el fin de su vida. Segunda parte.</title>
             </msItem>
           </msContents>
           <physDesc>
@@ -88,18 +95,17 @@
     </fileDesc>
     <encodingDesc>
       <projectDesc>
-        <p>Este archivo fue creado en el marco del proyecto Desenrollando el
-                            Cordel/Démêler le cordel/Untangling the cordel, dirigido por la
-                            profesora Constance Carta de la Universidad de Ginebra, con el apoyo de
-                            la Fundación filantrópica Famille Sandoz-Monique de Meuron.</p>
+        <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+          cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la Universidad
+          de Ginebra, con el apoyo de la Fundación filantrópica Famille Sandoz-Monique de
+          Meuron.</p>
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR non corregido</p>
+          <p>OCR no corregido</p>
         </correction>
         <normalization>
-          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto
-                                original.</p>
+          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
         </normalization>
         <punctuation>
           <p>Se conserva la puntuación original.</p>
@@ -121,9 +127,13 @@
     </profileDesc>
     <revisionDesc>
       <change when="2023-04-12" who="#PJ">Création du fichier TEI P5 et encodage du corps du
-                        texte</change>
+        texte</change>
+      <change when="2024-01-09" who="#EL">Add the IIIF links</change>
     </revisionDesc>
   </teiHeader>
+  <facsimile>
+    <graphic url="varios/Varios_170_1.jpg/full/200,/0/default.jpg"/>
+  </facsimile>
   <sourceDoc xml:id="automaticTranscription">
     <surface xml:id="Varios_170_1" type="page" cert="silver">
       <graphic url="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_170_1/full/full/0/default.jpg"/>
@@ -2480,13 +2490,17 @@
   <text>
     <body>
       <div>
-        <pb n="1" source="Varios_170_1.jpg" facs="fedora_Varios_170_1/full/full/0/default.jpg"/>
+        <pb n="1" source="Varios_170_1.jpg" facs="varios/Varios_170_1.jpg/"/>
         <div>
           <head type="primer_titulo"><lb/>DOÑA JOSEFA RAMIREZ.</head>
-          <head type="subtitulo_parte"><lb/>ROMANCE, EN QUE SE DA CUENTA DE LOS ARROJOS,<lb/>y valientes arrestos de esta Dama natural de Valencia,<lb/>y la felicidad con que salió de todos ellos.<lb/>PRIMERA PARTE.</head>
-          <head type="titulo_parte"><lb/>PRIMERA PARTE.</head>
-          <lg>
-            <l>A La que es Madre del Verbo,</l>
+          <head type="subtitulo"><lb/>ROMANCE, EN QUE SE DA CUENTA DE LOS ARROJOS,<lb/>y valientes
+            arrestos de esta Dama natural de Valencia,<lb/>y la felicidad con que salió de todos
+            ellos.<lb/>PRIMERA PARTE.</head>
+
+          <div n="1" type="parte">
+            <head type="titulo_parte"><lb/>PRIMERA PARTE.</head>
+
+            <l><hi rend="negrita">A</hi> La que es Madre del Verbo,</l>
             <l>Maria Señora nuestra,</l>
             <l>le pido humilde y postrado</l>
             <l>me dé gracia, con que pueda</l>
@@ -2506,8 +2520,6 @@
             <l>solo al mirar su belleza</l>
             <l>Apénas cumplió esta niña</l>
             <l>diez y ocho primaveras,</l>
-          </lg>
-          <lg>
             <l>muchos Señores la ronda</l>
             <l>sus celosias y puertas,</l>
             <l>y entre tantos pretendientes</l>
@@ -2528,9 +2540,9 @@
             <l>de que mis padres consientan,</l>
             <l>que yó con usted me case:</l>
             <l>mas esta noche en la rexa</l>
-          </lg>
-          <pb n="2" source="Varios_170_2.jpg" facs="fedora_Varios_170_2/full/full/0/default.jpg"/>
-          <lg>
+
+            <pb n="2" source="Varios_170_2.jpg" facs="varios/Varios_170_2.jpg/"/>
+
             <l>de mi jardín os aguardo</l>
             <l>á eso de la once y media.</l>
             <l>Dios os guarde, Caballero.</l>
@@ -2573,8 +2585,6 @@
             <l>perdoname amada prenda.</l>
             <l>Esta voz que oyó la Dama,</l>
             <l>cayó amortecida en tierra;</l>
-          </lg>
-          <lg>
             <l>volviendo en sí del letargo,</l>
             <l>decia de esta manera:</l>
             <l>qué es esto que me sucede!</l>
@@ -2617,523 +2627,512 @@
             <l>del caso le dieron cuenta.</l>
             <l>Dicen con que Don Leonardo</l>
             <l>y Don Gaspar de Contreras</l>
-          </lg>
-          <pb n="3" source="Varios_170_3.jpg" facs="fedora_Varios_170_3/full/full/0/default.jpg"/>
-          <div>
-            <head type="titulo_parte"><lb/>DOÑA JOSEFA RAMIREZ.<lb/>ROMANCE, EN QUE SE REFIERE EL CAUTIVERIO DE<lb/>esta Dama, y los varios sucesos que pasó hasta<lb/>el fin de su vida.</head>
+          </div>
+
+          <div n="2" type="parte">
+            <pb n="3" source="Varios_170_3.jpg" facs="varios/Varios_170_3.jpg/"/>
+
+            <head type="titulo_parte"><lb/>DOÑA JOSEFA RAMIREZ.<lb/>ROMANCE, EN QUE SE REFIERE EL
+              CAUTIVERIO DE<lb/>esta Dama, y los varios sucesos que pasó hasta<lb/>el fin de su
+              vida.</head>
             <head type="titulo_parte"><lb/>SEGUNDA PARTE.</head>
-            <lg>
-              <l>YA dixe, como salió</l>
-              <l>amparada del silencio</l>
-              <l>de Cartagena una noche</l>
-              <l>llena de mil pensamientos</l>
-              <l>Doña Josefa Ramirez,</l>
-              <l>y marchando para el Reyno</l>
-              <l>de Cataluña, una tarde</l>
-              <l>al encuentro le salieron</l>
-              <l>siete Vandidos, tras ella</l>
-              <l>los reconoció al momento.</l>
-              <l>Del caballo se desmonta,</l>
-              <l>de aquesta suerte diciendo:</l>
-              <l>apartarse del camino,</l>
-              <l>presto quitarse de enmedio,</l>
-              <l>ó le quitaré la vida</l>
-              <l>al que fuere desatento.</l>
-              <l>Esto dixo, y disparó</l>
-              <l>con tan bellísimo acierto</l>
-              <l>el trabuco, que se lleva</l>
-              <l>de un tiro los tres primeros,</l>
-              <l>que los cogió perfilados.</l>
-              <l>Y los otros que esto vieron</l>
-              <l>se pusieron en campaña;</l>
-              <l>mas la Dama con esfuerzo,</l>
-              <l>sin punto de cobardia</l>
-              <l>hizose fuerte con ellos:</l>
-              <l>de los siete mató cinco,</l>
-              <l>y los otros dos huyeron</l>
-              <l>ya con heridas de muerte;</l>
-              <l>mas no les valió por eso</l>
-              <l>que ella arrogante les sigue,</l>
-              <l>y de merced le pidieron</l>
-              <l>les otorgase las vidas.</l>
-            </lg>
-            <lg>
-              <l>Metió la mano en su pecho,</l>
-              <l>dice: para estar segura,</l>
-              <l>quitar estorbos de enmedio;</l>
-              <l>y al soplo de una pistola</l>
-              <l>á ambos los dexó muertos;</l>
-              <l>y montando en su caballo</l>
-              <l>(como quien nada habia hecho)</l>
-              <l>llegó en fin á Barcelona,</l>
-              <l>á donde supo de cierto,</l>
-              <l>que ya la andaba buscando</l>
-              <l>su Padre con grande anhelo.</l>
-              <l>Y al instante determina</l>
-              <l>vender su caballo luego,</l>
-              <l>y embarcarse para Roma,</l>
-              <l>sin reparar en los riesgos</l>
-              <l>que puedan sobrevenirle,</l>
-              <l>como adelante veremos.</l>
-              <l>Al fin se embarcó en las ondas</l>
-              <l>del salado mar soberbio.</l>
-              <l>Mas fue su suerte tan mala</l>
-              <l>que á los dos dias se vieron</l>
-              <l>de Corsarios Argelinos</l>
-              <l>infelices prisioneros.</l>
-              <l>Desembarcanlos en tierra,</l>
-              <l>y á pregones los vendieron,</l>
-              <l>y compró á Doña Josefa</l>
-              <l>en un moderado precio</l>
-              <l>un Renegado muy rico,</l>
-              <l>hombre de grande respeto.</l>
-              <l>Preguntóle á su cautivo</l>
-              <l>por su nombre, y al momento</l>
-              <l>respondió: Pedro me llamo,</l>
-              <l>Señor, al servicio vuestro.</l>
-            </lg>
-            <pb n="4" source="Varios_170_4.jpg" facs="fedora_Varios_170_4/full/full/0/default.jpg"/>
-            <lg>
-              <l>En qué oficio te ocup abas?</l>
-              <l>El oficio que yo tengo</l>
-              <l>es, Señor, maestro de armas.</l>
-              <l>En buen oficio por cierto</l>
-              <l>te exercitabas cristiano;</l>
-              <l>mas daros otro pretendo.</l>
-              <l>Vos no sabeis escribir ?</l>
-              <l>Algo entiendo tambien de eso,</l>
-              <l>no con toda perfeccion,</l>
-              <l>porque usado no lo tengo.</l>
-              <l>Viendo su disposicion,</l>
-              <l>le entregó todo el manejo</l>
-              <l>de su casa, y al instante</l>
-              <l>mandó su amo á los Negros</l>
-              <l>que tenia, le enseñasen</l>
-              <l>la arabiga lengua, y ellos</l>
-              <l>lo pusieron por la obra,</l>
-              <l>y la aprendió en breve tiempo.</l>
-              <l>Tan buenas cuentas le daba</l>
-              <l>á su amo, y tan contento</l>
-              <l>lo tenia, que no sabe</l>
-              <l>que hacerse con su escudero.</l>
-              <l>En este tiempo la mora,</l>
-              <l>muger de su amo mesmo,</l>
-              <l>á Don Pedro regalaba,</l>
-              <l>y hacia algunos cortejos.</l>
-              <l>Y un dia que fue su amo</l>
-              <l>á caza con los monteros,</l>
-              <l>lo llamó y le dixo á solas:</l>
-              <l>Cristiano, yo por ti muero,</l>
-              <l>yo no duerco ni descanso;</l>
-              <l>en mi no cabe sosiego,</l>
-              <l>y si merezco la dicha,</l>
-              <l>de que premies mis afectos,</l>
-              <l>te prometo que serás</l>
-              <l>el dueño de aqueste pueblo.</l>
-              <l>Por no descubrir su falta,</l>
-              <l>con muy buenos documentos</l>
-              <l>Don Pedro la disuadia,</l>
-              <l>de aquesta suerte diciendo:</l>
-              <l>mirad que soy vuestro esclavo,</l>
-              <l>y que si no tengo hierros,</l>
-            </lg>
-            <lg>
-              <l>esa es merced que me hizo</l>
-              <l>mi amo por ser tan bueno,</l>
-              <l>y pues de mi se ha fiado,</l>
-              <l>hacerle ofensa no quiero;</l>
-              <l>y asi, Señora, dexadme,</l>
-              <l>y no toqueis mas en esto.</l>
-              <l>Viendo la Mora el desaire</l>
-              <l>que el Cristiano le hebia hecho,</l>
-              <l>jura por el gran Mahoma,</l>
-              <l>que ha de vengar su desprecio.</l>
-              <l>Apenas entró su esposo,</l>
-              <l>le salió al recibimiento</l>
-              <l>aquella falsa enemiga,</l>
-              <l>le hechó los brazos al cuello,</l>
-              <l>y con un llanto fingido</l>
-              <l>le dixo poned remedio</l>
-              <l>en vuestra casa, Señor,</l>
-              <l>porque el Mayordomo vuestro</l>
-              <l>quiso atrevido ofenderte,</l>
-              <l>muy lascivo y deshonesto</l>
-              <l>á mi aposento se arroja,</l>
-              <l>traxo en la mano este acero</l>
-              <l>de un puñal, con amenazas</l>
-              <l>queria lograr su intento:</l>
-              <l>mas yo como una leona</l>
-              <l>me levanté de mi lecho</l>
-              <l>se lo quité de la mano ,</l>
-              <l>el qual veislo aqui le tengo.</l>
-              <l>Salió afuera el Renegado</l>
-              <l>enfurecido y soberbio,</l>
-              <l>y á sus criados les manda</l>
-              <l>de que pongan á Don Pedro</l>
-              <l>en una obscura mazmora,</l>
-              <l>y lo cargasen de hierro,</l>
-              <l>y que no le diesen agua,</l>
-              <l>tampoco el mantenimiento,</l>
-              <l>para que alli se muriese,</l>
-              <l>pagando su atrevimiento.</l>
-              <l>Un Moro piadoso habia,</l>
-              <l>compadecido de verlo,</l>
-              <l>que á escondidas de su amo</l>
-              <l>le llevaba el alimento,</l>
-            </lg>
-            <pb n="5" source="Varios_170_5.jpg" facs="fedora_Varios_170_5/full/full/0/default.jpg"/>
-            <lg>
-              <l>y tambien le daba el agua</l>
-              <l>con cariñosos afectos,</l>
-              <l>que entre los infieles hay</l>
-              <l>tambien nobles pensamientos.</l>
-              <l>Y al cabo de cinco dias,</l>
-              <l>por ver si se habia muerto,</l>
-              <l>dió la vuelta el Renegado,</l>
-              <l>y viendo vivo á Don Pedro,</l>
-              <l>con furia toma un cordel,</l>
-              <l>para azotarle soberbio,</l>
-              <l>y al tiempo de descargarle,</l>
-              <l>le dixo: Señor, teneos,</l>
-              <l>y advertid que es testimonio,</l>
-              <l>por lo que estoy padeciendo,</l>
-              <l>Yo soy muger, no soy hombre,</l>
-              <l>y para prueba de aquesto</l>
-              <l>un pecho le manifiesta ;</l>
-              <l>y él dice : basta con eso.</l>
-              <l>De la prision la sacó,</l>
-              <l>dandole abrazos muy tiernos,</l>
-              <l>le dice: Cristiana amiga,</l>
-              <l>dadme parte del suceso.</l>
-              <l>Yo, Señor, os lo diré ,</l>
-              <l>sin faltar un punto de ello.</l>
-              <l>Apénas fuisteis al campo ,</l>
-              <l>mi ama declaró su intento;</l>
-              <l>yo Señor, la disuadia,</l>
-              <l>dandola buenos consejos,</l>
-              <l>mas no pude convencerila;</l>
-              <l>viendo no habia remedio,</l>
-              <l>le volví Señor, la espalda,</l>
-              <l>y me vine á mi aposento,</l>
-              <l>y por aquesta ccasion</l>
-              <l>hizo, Señor, juramento</l>
-              <l>de tomar de mi venganza;</l>
-              <l>como vos lo estais ya viendo.</l>
-              <l>Mandó al punto el Renegado,</l>
-              <l>que la prenda, y al momento</l>
-              <l>executan el mandato</l>
-              <l>de su amo, y la metieron</l>
-              <l>en una obscura mazmorra,</l>
-              <l>mientras se prendia el fuego.</l>
-            </lg>
-            <lg>
-              <l>Llena una tina de aceyte,</l>
-              <l>mandó que pusiesen fuego,</l>
-              <l>y asi al instante que hirvió,</l>
-              <l>á Abeceli la trageron,</l>
-              <l>y amarrada á una columna,</l>
-              <l>se lo hechaban por el cuerpo.</l>
-              <l>Mandó apartasen la tina,</l>
-              <l>y que la arrojen al fuego,</l>
-              <l>donde pereció la Mora,</l>
-              <l>pagando su atrevimiento.</l>
-              <l>Y al cabo de pocos dias,</l>
-              <l>con felices pensamientos</l>
-              <l>ha llamado el Renegado</l>
-              <l>á aquel hermoso portento</l>
-              <l>de Doña Joseſa, y ella</l>
-              <l>acudió luego al momento.</l>
-              <l>Vos, Señor, que me mandais ?</l>
-              <l>Venios á mi aposento,</l>
-              <l>y á solas os lo diré,</l>
-              <l>que es de importancia el secreto.</l>
-              <l>Ya sabeis, Doña Josefa,</l>
-              <l>la votuntad que yo os tengo,</l>
-              <l>y solo de vos me fio</l>
-              <l>para descubrir mi pecho.</l>
-              <l>Pretendo pasar á Roma</l>
-              <l>á ser de mi culpa absuelto,</l>
-              <l>y despues el recogerme</l>
-              <l>en un sagrado Convento.</l>
-              <l>Tú te pasarás á España,</l>
-              <l>que ya prevenidos tengo</l>
-              <l>dos mil doblones, los quales</l>
-              <l>entre los dos partiremos:</l>
-              <l>mira que te vas mañana</l>
-              <l>pues se halla en este pueblo</l>
-              <l>un tratante Mercader,</l>
-              <l>á quien pagado le tengo</l>
-              <l>tn viage, y con él vas</l>
-              <l>segura de muchos riesgos</l>
-              <l>él va á parar á Alicante,</l>
-              <l>de España famoso puerto.</l>
-              <l>Le entregó los mil doblones</l>
-              <l>atados en un lenzuelo;</l>
-            </lg>
-            <pb n="6" source="Varios_170_6.jpg" facs="fedora_Varios_170_6/full/full/0/default.jpg"/>
-            <lg>
-              <l>se fue á recoger su ropa</l>
-              <l>y joyas de mucho precio;</l>
-              <l>mandó el amo la llevasen</l>
-              <l>al navio, asi lo hicieron.</l>
-              <l>Embarcose el Renegado,</l>
-              <l>á Alicante se vinieron:</l>
-              <l>tiernamente se despiden,</l>
-              <l>y él con sus grandes deseos</l>
-              <l>para Roma se embarcó,</l>
-              <l>siendole feliz el viento,</l>
-              <l>en breve tiempo llegó</l>
-              <l>á Roma, y con gran contento</l>
-              <l>pasó á ver su Santidad,</l>
-              <l>parte le dió del suceso,</l>
-              <l>y confesando sus culpas</l>
-              <l>con grande arrepentimiento,</l>
-              <l>en un Convento se acoge,</l>
-              <l>donde llorando sus yerros,</l>
-              <l>hizo grandes penitencias</l>
-              <l>para merecer el cielo.</l>
-              <l>Pero volvamos ahora</l>
-              <l>á la Dama, que al momento</l>
-              <l>en Alicante compró</l>
-              <l>un caballo que a los vientos</l>
-              <l>imitaba en su carrera,</l>
-              <l>por lo veloz y ligero.</l>
-              <l>Pasó á Valencia, y en ella</l>
-              <l>entró con mucho secreto:</l>
-              <l>se ha irformado de sus padres</l>
-              <l>y supo que estaban buenos;</l>
-              <l>y una noche determina</l>
-              <l>el ir disfrazada á verlos,</l>
-              <l>y á eso de las oraciones</l>
-              <l>ensilló el caballo, y luego</l>
-              <l>montó en él y fue á su casa;</l>
-              <l>á abrirle salió un buen viejo,</l>
-              <l>y ella cortés le pregunta,</l>
-              <l>destocandose el sombrero:</l>
-            </lg>
-            <lg>
-              <l>vive aqui el Señor Don Juan</l>
-              <l>Ramirez y Marmolejo ?</l>
-              <l>Si Señor, le respondió;</l>
-              <l>y entonces entró allá dentro.</l>
-              <l>Se sentaron lado a lado,</l>
-              <l>y dixo: sabed por cierto,</l>
-              <l>que vuestra hija, Señor,</l>
-              <l>hoy se halla en este pueblo:</l>
-              <l>tres años y medio ha estado</l>
-              <l>metida en un cautiverio,</l>
-              <l>sirviendo, no como esclava,</l>
-              <l>porque era absoluto dueño</l>
-              <l>de la casa de su amo,</l>
-              <l>y al cabo de aqueste tiempo</l>
-              <l>le ha dado la libertad</l>
-              <l>y gran porcion de dinero.</l>
-              <l>Don Juan que atento escuchaba</l>
-              <l>las razones del mancebo,</l>
-              <l>al oirle se enternece,</l>
-              <l>y lloraba sin consuelo.</l>
-              <l>Ay hija de mis entrañas!</l>
-              <l>ó si permitiera el cielo,</l>
-              <l>que yo la viese en mi casa!</l>
-              <l>mis congoxas fueran menos;</l>
-              <l>la madre por otro lado</l>
-              <l>haciase al sentimiento.</l>
-              <l>Del asiento se levanta,</l>
-              <l>y arrodillada en el suelo,</l>
-              <l>dixo : cese vuestro llanto,</l>
-              <l>que á vuestra hija estais viendo;</l>
-              <l>y ahora, padre y Señor,</l>
-              <l>perdonad mi grave yerro,</l>
-              <l>y lo que pretendo es</l>
-              <l>meterme en un Monasterio.</l>
-              <l>Lo pusieron por la obra,</l>
-              <l>y se ha entrado en un Convento</l>
-              <l>de Religiosas Franciscas,</l>
-              <l>donde vivió dando exemplo.</l>
-            </lg>
+
+            <l><hi rend="negrita">Y</hi>A dixe, como salió</l>
+            <l>amparada del silencio</l>
+            <l>de Cartagena una noche</l>
+            <l>llena de mil pensamientos</l>
+            <l>Doña Josefa Ramirez,</l>
+            <l>y marchando para el Reyno</l>
+            <l>de Cataluña, una tarde</l>
+            <l>al encuentro le salieron</l>
+            <l>siete Vandidos, tras ella</l>
+            <l>los reconoció al momento.</l>
+            <l>Del caballo se desmonta,</l>
+            <l>de aquesta suerte diciendo:</l>
+            <l>apartarse del camino,</l>
+            <l>presto quitarse de enmedio,</l>
+            <l>ó le quitaré la vida</l>
+            <l>al que fuere desatento.</l>
+            <l>Esto dixo, y disparó</l>
+            <l>con tan bellísimo acierto</l>
+            <l>el trabuco, que se lleva</l>
+            <l>de un tiro los tres primeros,</l>
+            <l>que los cogió perfilados.</l>
+            <l>Y los otros que esto vieron</l>
+            <l>se pusieron en campaña;</l>
+            <l>mas la Dama con esfuerzo,</l>
+            <l>sin punto de cobardia</l>
+            <l>hizose fuerte con ellos:</l>
+            <l>de los siete mató cinco,</l>
+            <l>y los otros dos huyeron</l>
+            <l>ya con heridas de muerte;</l>
+            <l>mas no les valió por eso</l>
+            <l>que ella arrogante les sigue,</l>
+            <l>y de merced le pidieron</l>
+            <l>les otorgase las vidas.</l>
+            <l>Metió la mano en su pecho,</l>
+            <l>dice: para estar segura,</l>
+            <l>quitar estorbos de enmedio;</l>
+            <l>y al soplo de una pistola</l>
+            <l>á ambos los dexó muertos;</l>
+            <l>y montando en su caballo</l>
+            <l>(como quien nada habia hecho)</l>
+            <l>llegó en fin á Barcelona,</l>
+            <l>á donde supo de cierto,</l>
+            <l>que ya la andaba buscando</l>
+            <l>su Padre con grande anhelo.</l>
+            <l>Y al instante determina</l>
+            <l>vender su caballo luego,</l>
+            <l>y embarcarse para Roma,</l>
+            <l>sin reparar en los riesgos</l>
+            <l>que puedan sobrevenirle,</l>
+            <l>como adelante veremos.</l>
+            <l>Al fin se embarcó en las ondas</l>
+            <l>del salado mar soberbio.</l>
+            <l>Mas fue su suerte tan mala</l>
+            <l>que á los dos dias se vieron</l>
+            <l>de Corsarios Argelinos</l>
+            <l>infelices prisioneros.</l>
+            <l>Desembarcanlos en tierra,</l>
+            <l>y á pregones los vendieron,</l>
+            <l>y compró á Doña Josefa</l>
+            <l>en un moderado precio</l>
+            <l>un Renegado muy rico,</l>
+            <l>hombre de grande respeto.</l>
+            <l>Preguntóle á su cautivo</l>
+            <l>por su nombre, y al momento</l>
+            <l>respondió: Pedro me llamo,</l>
+            <l>Señor, al servicio vuestro.</l>
+
+            <pb n="4" source="Varios_170_4.jpg" facs="varios/Varios_170_4.jpg/"/>
+
+            <l>En qué oficio te ocup abas?</l>
+            <l>El oficio que yo tengo</l>
+            <l>es, Señor, maestro de armas.</l>
+            <l>En buen oficio por cierto</l>
+            <l>te exercitabas cristiano;</l>
+            <l>mas daros otro pretendo.</l>
+            <l>Vos no sabeis escribir ?</l>
+            <l>Algo entiendo tambien de eso,</l>
+            <l>no con toda perfeccion,</l>
+            <l>porque usado no lo tengo.</l>
+            <l>Viendo su disposicion,</l>
+            <l>le entregó todo el manejo</l>
+            <l>de su casa, y al instante</l>
+            <l>mandó su amo á los Negros</l>
+            <l>que tenia, le enseñasen</l>
+            <l>la arabiga lengua, y ellos</l>
+            <l>lo pusieron por la obra,</l>
+            <l>y la aprendió en breve tiempo.</l>
+            <l>Tan buenas cuentas le daba</l>
+            <l>á su amo, y tan contento</l>
+            <l>lo tenia, que no sabe</l>
+            <l>que hacerse con su escudero.</l>
+            <l>En este tiempo la mora,</l>
+            <l>muger de su amo mesmo,</l>
+            <l>á Don Pedro regalaba,</l>
+            <l>y hacia algunos cortejos.</l>
+            <l>Y un dia que fue su amo</l>
+            <l>á caza con los monteros,</l>
+            <l>lo llamó y le dixo á solas:</l>
+            <l>Cristiano, yo por ti muero,</l>
+            <l>yo no duerco ni descanso;</l>
+            <l>en mi no cabe sosiego,</l>
+            <l>y si merezco la dicha,</l>
+            <l>de que premies mis afectos,</l>
+            <l>te prometo que serás</l>
+            <l>el dueño de aqueste pueblo.</l>
+            <l>Por no descubrir su falta,</l>
+            <l>con muy buenos documentos</l>
+            <l>Don Pedro la disuadia,</l>
+            <l>de aquesta suerte diciendo:</l>
+            <l>mirad que soy vuestro esclavo,</l>
+            <l>y que si no tengo hierros,</l>
+            <l>esa es merced que me hizo</l>
+            <l>mi amo por ser tan bueno,</l>
+            <l>y pues de mi se ha fiado,</l>
+            <l>hacerle ofensa no quiero;</l>
+            <l>y asi, Señora, dexadme,</l>
+            <l>y no toqueis mas en esto.</l>
+            <l>Viendo la Mora el desaire</l>
+            <l>que el Cristiano le hebia hecho,</l>
+            <l>jura por el gran Mahoma,</l>
+            <l>que ha de vengar su desprecio.</l>
+            <l>Apenas entró su esposo,</l>
+            <l>le salió al recibimiento</l>
+            <l>aquella falsa enemiga,</l>
+            <l>le hechó los brazos al cuello,</l>
+            <l>y con un llanto fingido</l>
+            <l>le dixo poned remedio</l>
+            <l>en vuestra casa, Señor,</l>
+            <l>porque el Mayordomo vuestro</l>
+            <l>quiso atrevido ofenderte,</l>
+            <l>muy lascivo y deshonesto</l>
+            <l>á mi aposento se arroja,</l>
+            <l>traxo en la mano este acero</l>
+            <l>de un puñal, con amenazas</l>
+            <l>queria lograr su intento:</l>
+            <l>mas yo como una leona</l>
+            <l>me levanté de mi lecho</l>
+            <l>se lo quité de la mano ,</l>
+            <l>el qual veislo aqui le tengo.</l>
+            <l>Salió afuera el Renegado</l>
+            <l>enfurecido y soberbio,</l>
+            <l>y á sus criados les manda</l>
+            <l>de que pongan á Don Pedro</l>
+            <l>en una obscura mazmora,</l>
+            <l>y lo cargasen de hierro,</l>
+            <l>y que no le diesen agua,</l>
+            <l>tampoco el mantenimiento,</l>
+            <l>para que alli se muriese,</l>
+            <l>pagando su atrevimiento.</l>
+            <l>Un Moro piadoso habia,</l>
+            <l>compadecido de verlo,</l>
+            <l>que á escondidas de su amo</l>
+            <l>le llevaba el alimento,</l>
+
+            <pb n="5" source="Varios_170_5.jpg" facs="varios/Varios_170_5.jpg/"/>
+
+            <l>y tambien le daba el agua</l>
+            <l>con cariñosos afectos,</l>
+            <l>que entre los infieles hay</l>
+            <l>tambien nobles pensamientos.</l>
+            <l>Y al cabo de cinco dias,</l>
+            <l>por ver si se habia muerto,</l>
+            <l>dió la vuelta el Renegado,</l>
+            <l>y viendo vivo á Don Pedro,</l>
+            <l>con furia toma un cordel,</l>
+            <l>para azotarle soberbio,</l>
+            <l>y al tiempo de descargarle,</l>
+            <l>le dixo: Señor, teneos,</l>
+            <l>y advertid que es testimonio,</l>
+            <l>por lo que estoy padeciendo,</l>
+            <l>Yo soy muger, no soy hombre,</l>
+            <l>y para prueba de aquesto</l>
+            <l>un pecho le manifiesta ;</l>
+            <l>y él dice : basta con eso.</l>
+            <l>De la prision la sacó,</l>
+            <l>dandole abrazos muy tiernos,</l>
+            <l>le dice: Cristiana amiga,</l>
+            <l>dadme parte del suceso.</l>
+            <l>Yo, Señor, os lo diré ,</l>
+            <l>sin faltar un punto de ello.</l>
+            <l>Apénas fuisteis al campo ,</l>
+            <l>mi ama declaró su intento;</l>
+            <l>yo Señor, la disuadia,</l>
+            <l>dandola buenos consejos,</l>
+            <l>mas no pude convencerila;</l>
+            <l>viendo no habia remedio,</l>
+            <l>le volví Señor, la espalda,</l>
+            <l>y me vine á mi aposento,</l>
+            <l>y por aquesta ccasion</l>
+            <l>hizo, Señor, juramento</l>
+            <l>de tomar de mi venganza;</l>
+            <l>como vos lo estais ya viendo.</l>
+            <l>Mandó al punto el Renegado,</l>
+            <l>que la prenda, y al momento</l>
+            <l>executan el mandato</l>
+            <l>de su amo, y la metieron</l>
+            <l>en una obscura mazmorra,</l>
+            <l>mientras se prendia el fuego.</l>
+            <l>Llena una tina de aceyte,</l>
+            <l>mandó que pusiesen fuego,</l>
+            <l>y asi al instante que hirvió,</l>
+            <l>á Abeceli la trageron,</l>
+            <l>y amarrada á una columna,</l>
+            <l>se lo hechaban por el cuerpo.</l>
+            <l>Mandó apartasen la tina,</l>
+            <l>y que la arrojen al fuego,</l>
+            <l>donde pereció la Mora,</l>
+            <l>pagando su atrevimiento.</l>
+            <l>Y al cabo de pocos dias,</l>
+            <l>con felices pensamientos</l>
+            <l>ha llamado el Renegado</l>
+            <l>á aquel hermoso portento</l>
+            <l>de Doña Joseſa, y ella</l>
+            <l>acudió luego al momento.</l>
+            <l>Vos, Señor, que me mandais ?</l>
+            <l>Venios á mi aposento,</l>
+            <l>y á solas os lo diré,</l>
+            <l>que es de importancia el secreto.</l>
+            <l>Ya sabeis, Doña Josefa,</l>
+            <l>la votuntad que yo os tengo,</l>
+            <l>y solo de vos me fio</l>
+            <l>para descubrir mi pecho.</l>
+            <l>Pretendo pasar á Roma</l>
+            <l>á ser de mi culpa absuelto,</l>
+            <l>y despues el recogerme</l>
+            <l>en un sagrado Convento.</l>
+            <l>Tú te pasarás á España,</l>
+            <l>que ya prevenidos tengo</l>
+            <l>dos mil doblones, los quales</l>
+            <l>entre los dos partiremos:</l>
+            <l>mira que te vas mañana</l>
+            <l>pues se halla en este pueblo</l>
+            <l>un tratante Mercader,</l>
+            <l>á quien pagado le tengo</l>
+            <l>tn viage, y con él vas</l>
+            <l>segura de muchos riesgos</l>
+            <l>él va á parar á Alicante,</l>
+            <l>de España famoso puerto.</l>
+            <l>Le entregó los mil doblones</l>
+            <l>atados en un lenzuelo;</l>
+
+            <pb n="6" source="Varios_170_6.jpg" facs="varios/Varios_170_6.jpg/"/>
+
+            <l>se fue á recoger su ropa</l>
+            <l>y joyas de mucho precio;</l>
+            <l>mandó el amo la llevasen</l>
+            <l>al navio, asi lo hicieron.</l>
+            <l>Embarcose el Renegado,</l>
+            <l>á Alicante se vinieron:</l>
+            <l>tiernamente se despiden,</l>
+            <l>y él con sus grandes deseos</l>
+            <l>para Roma se embarcó,</l>
+            <l>siendole feliz el viento,</l>
+            <l>en breve tiempo llegó</l>
+            <l>á Roma, y con gran contento</l>
+            <l>pasó á ver su Santidad,</l>
+            <l>parte le dió del suceso,</l>
+            <l>y confesando sus culpas</l>
+            <l>con grande arrepentimiento,</l>
+            <l>en un Convento se acoge,</l>
+            <l>donde llorando sus yerros,</l>
+            <l>hizo grandes penitencias</l>
+            <l>para merecer el cielo.</l>
+            <l>Pero volvamos ahora</l>
+            <l>á la Dama, que al momento</l>
+            <l>en Alicante compró</l>
+            <l>un caballo que a los vientos</l>
+            <l>imitaba en su carrera,</l>
+            <l>por lo veloz y ligero.</l>
+            <l>Pasó á Valencia, y en ella</l>
+            <l>entró con mucho secreto:</l>
+            <l>se ha irformado de sus padres</l>
+            <l>y supo que estaban buenos;</l>
+            <l>y una noche determina</l>
+            <l>el ir disfrazada á verlos,</l>
+            <l>y á eso de las oraciones</l>
+            <l>ensilló el caballo, y luego</l>
+            <l>montó en él y fue á su casa;</l>
+            <l>á abrirle salió un buen viejo,</l>
+            <l>y ella cortés le pregunta,</l>
+            <l>destocandose el sombrero:</l>
+            <l>vive aqui el Señor Don Juan</l>
+            <l>Ramirez y Marmolejo ?</l>
+            <l>Si Señor, le respondió;</l>
+            <l>y entonces entró allá dentro.</l>
+            <l>Se sentaron lado a lado,</l>
+            <l>y dixo: sabed por cierto,</l>
+            <l>que vuestra hija, Señor,</l>
+            <l>hoy se halla en este pueblo:</l>
+            <l>tres años y medio ha estado</l>
+            <l>metida en un cautiverio,</l>
+            <l>sirviendo, no como esclava,</l>
+            <l>porque era absoluto dueño</l>
+            <l>de la casa de su amo,</l>
+            <l>y al cabo de aqueste tiempo</l>
+            <l>le ha dado la libertad</l>
+            <l>y gran porcion de dinero.</l>
+            <l>Don Juan que atento escuchaba</l>
+            <l>las razones del mancebo,</l>
+            <l>al oirle se enternece,</l>
+            <l>y lloraba sin consuelo.</l>
+            <l>Ay hija de mis entrañas!</l>
+            <l>ó si permitiera el cielo,</l>
+            <l>que yo la viese en mi casa!</l>
+            <l>mis congoxas fueran menos;</l>
+            <l>la madre por otro lado</l>
+            <l>haciase al sentimiento.</l>
+            <l>Del asiento se levanta,</l>
+            <l>y arrodillada en el suelo,</l>
+            <l>dixo : cese vuestro llanto,</l>
+            <l>que á vuestra hija estais viendo;</l>
+            <l>y ahora, padre y Señor,</l>
+            <l>perdonad mi grave yerro,</l>
+            <l>y lo que pretendo es</l>
+            <l>meterme en un Monasterio.</l>
+            <l>Lo pusieron por la obra,</l>
+            <l>y se ha entrado en un Convento</l>
+            <l>de Religiosas Franciscas,</l>
+            <l>donde vivió dando exemplo.</l>
+
+            <p><lb/>Con licencia: En Córdoba en la Imprenta de Don Juan Garcia <lb/>Rodriguez de la
+              Torre, calle de la Librería.</p>
+
+            <pb n="7" source="Varios_170_7.jpg" facs="varios/Varios_170_7.jpg/"/>
+
+            <l>salieron con gran sigilo</l>
+            <l>de la ciudad de Valencia.</l>
+            <l>Doña Josefa responde:</l>
+            <l>pues que ocasion les molesta</l>
+            <l>á esos nobles Caballeros</l>
+            <l>para salir de su tierra ?</l>
+            <l>quizas iran á algun pleyto</l>
+            <l>de alguna de sus haciendas,</l>
+            <l>que quien tiene mayorazgos,</l>
+            <l>nunca le faltan quimeras.</l>
+            <l>No es mal pleyto el que les siguen</l>
+            <l>(ellos dieron por respuesta)</l>
+            <l>pues son los que dieron muerte</l>
+            <l>á Don Padro Valenzuela.</l>
+            <l>Disimulando su enojo,</l>
+            <l>respondió con gran reserva:</l>
+            <l>mucha fuerza se me hace,</l>
+            <l>mas no es posible que crea,</l>
+            <l>que esos nobles Caballeros</l>
+            <l>hiciesen accion como ella,</l>
+            <l>que fue una accion muy villana,</l>
+            <l>y le resisten sus venas</l>
+            <l>sangre noble, y esto basta,</l>
+            <l>saber que hay quien lo defienda;</l>
+            <l>y eso no se puede hablar,</l>
+            <l>sino es por cosa muy cierta.</l>
+            <l>Sabed que es mucha verdad</l>
+            <l>lo que os digo, y si no fuera,</l>
+            <l>nada me importa el decirlo.</l>
+            <l>Mas ella con gran cautela</l>
+            <l>respondió : Dios los asista;</l>
+            <l>y á donde el viage llevan?</l>
+            <l>Y ellos mismos le informaron,</l>
+            <l>que iban acia Cartagena.</l>
+            <l>Salió del juego, diciendo:</l>
+            <l>buena suerte ha estado esta;</l>
+            <l>ya tendra mi pena alivio,</l>
+            <l>si se me logra la idea.</l>
+            <l>Y montando en un caballo,</l>
+            <l>que al zéfiro puso rienda,</l>
+            <l>á Cartagena marchaba</l>
+            <l>con muy pronta diligencia.</l>
+            <l>Llegó una tarde feliz</l>
+            <l>á eso de las dos y media,</l>
+            <l>y en un meson se acogió,</l>
+            <l>y dixo á la mesonera:</l>
+            <l>cuideme de ese caballo,</l>
+            <l>que yo presto doy la buelta</l>
+            <l>y sin desarmarse fué</l>
+            <l>á la playa, por si encuentra</l>
+            <l>algunos de sus paisanos,</l>
+            <l>que el verlos tanto desea.</l>
+            <l>No los pudo descubrir,</l>
+            <l>y ácia el meson dió la buelta,</l>
+            <l>y á la patrona le dixo,</l>
+            <l>le previniese la cena.</l>
+            <l>y que le hiciese la cama</l>
+            <l>en una quadra que tenga</l>
+            <l>las ventanas á la calle</l>
+            <l>sin darle á entender su idea.</l>
+            <l>Apenas anocheció,</l>
+            <l>pronta se puso á la rexa</l>
+            <l>de la ventana, escuchando</l>
+            <l>quanto en la calle conversan.</l>
+            <l>Oyó decir á unos hombres</l>
+            <l>aquestas palabras mesmas:</l>
+            <l>para mañana á la noche</l>
+            <l>tengo una funcion muy regia</l>
+            <l>en casa Don Juan Mancilla,</l>
+            <l>porque en su casa se hospedan</l>
+            <l>dos famosos Caballeros</l>
+            <l>naturales de Valencia,</l>
+            <l>y quiere regocijarlos,</l>
+            <l>y ha de hacer una Comedia</l>
+            <l>y otros muchos Entremeses;</l>
+            <l>mas no quiere que se sepa,</l>
+            <l>porque en Valencia mataron</l>
+            <l>á un hombre de grandes prendas.</l>
+            <l>Tente hombre, no prosigas,</l>
+            <l>calla ya tu infame lengua,</l>
+            <l>que no sabes quien te escucha,</l>
+            <l>porque si bien lo supieras,</l>
+            <l>no dieras cuenta á tu amigo.</l>
+            <l>O quanto mas nos valiera</l>
+
+            <pb n="8" source="Varios_170_8.jpg" facs="varios/Varios_170_8.jpg/"/>
+
+            <l>muchas veces el callar!</l>
+            <l>que el que no habla no yerra.</l>
+            <l>Séneca muy bien lo explica,</l>
+            <l>que es una de sus sentencias.</l>
+            <l>Ya satisfecha del caso</l>
+            <l>se quedó Doña Josefa,</l>
+            <l>y apénas amaneció,</l>
+            <l>hizo vivas diligencias</l>
+            <l>por descubrirlos, y al fin</l>
+            <l>en la playa los encuentra.</l>
+            <l>Quando los tuvo presentes,</l>
+            <l>les dice de esta manera:</l>
+            <l>me conoceis Caballeros ?</l>
+            <l>Sabed soy Doña Josefa,</l>
+            <l>aquella á quien agraviasteis</l>
+            <l>en la ciudad de Valencia;</l>
+            <l>vengo á tomar la venganza</l>
+            <l>por Don Pedro Valenzuela,</l>
+            <l>que habiendo muerto á mi amante</l>
+            <l>poco importa que yo muera.</l>
+            <l>Sacan los tres las espadas,</l>
+            <l>y á la batalla se aprestan,</l>
+            <l>y á dos idas y venidas</l>
+            <l>le alcanzó Doña Josefa</l>
+            <l>al valiente Don Leonardo</l>
+            <l>una estocada tan recia,</l>
+            <l>que lo pasó por el pecho,</l>
+            <l>dando con él en la tierra.</l>
+            <l>Esto que vió Don Gaspar,</l>
+            <l>cerró con Doña Josefa;</l>
+            <l>mas poco le aprovechó,</l>
+            <l>porque ella con gran destreza</l>
+            <l>le quitó de la cintura</l>
+            <l>una almarada, y con ella</l>
+            <l>lo pasó por el costado,</l>
+            <l>y ambos difuntos los dexa.</l>
+            <l>Se alborotó la Ciudad,</l>
+            <l>y acudió con gran presteza</l>
+            <l>el Señor Gobernador,</l>
+            <l>para llevarse la presa.</l>
+            <l>Mas ella con arrogancia</l>
+            <l>dixo : sepa Vuexcelencia,</l>
+            <l>que mi espada á nedie teme,</l>
+            <l>aunque un exercito venga;</l>
+            <l>dixo, y chocando con ellos,</l>
+            <l>á uno toma y á otro dexa.</l>
+            <l>Tres ministros le mató,</l>
+            <l>y en medio de esta refriega</l>
+            <l>se le ha quebrado la espada</l>
+            <l>echó mano con presteza</l>
+            <l>al trabuco que tenia,</l>
+            <l>y á barrer la calle empieza.</l>
+            <l>Tan buena traza se daba</l>
+            <l>á disparar, que se lleva</l>
+            <l>dos ó tres de cada tiro,</l>
+            <l>y la calle le franquean</l>
+            <l>con que llegó á refugiarse</l>
+            <l>dentro de la misma lglesia</l>
+            <l>del Serafico Francisco</l>
+            <l>adonde á curarse queda</l>
+            <l>dos balazos, pues llevaba</l>
+            <l>muy mal herida una pierna,</l>
+            <l>Buena ya de su accidente</l>
+            <l>pidió á los Padres licencia</l>
+            <l>para salir del Convento,</l>
+            <l>y mandó que le traxeran</l>
+            <l>el caballo que tenia</l>
+            <l>en un meson de allí cerca.</l>
+            <l>Fue un Donado y se lo traxo,</l>
+            <l>y agradeció la fineza;</l>
+            <l>sin ser de nadie sentida</l>
+            <l>se salió de Cartagena.</l>
+            <l>Y ahora Pedro de Fuentes</l>
+            <l>á aquesta plana primera</l>
+            <l>da fin, que en la otra segunda</l>
+            <l>dará noticias enteras</l>
+            <l>en lo que vino á parar</l>
+            <l>la hermosa Doña Josefa.</l>
           </div>
-          <div type="colofon">
-            <p><lb/>Con licencia: En Córdoba en la Imprenta de Don Juan Garcia
-                           <lb/>Rodriguez de la Torre, calle de la Librería.</p>
-          </div>
-          <pb n="7" source="Varios_170_7.jpg" facs="fedora_Varios_170_7/full/full/0/default.jpg"/>
-          <div>
-            <lg>
-              <l>salieron con gran sigilo</l>
-              <l>de la ciudad de Valencia.</l>
-              <l>Doña Josefa responde:</l>
-              <l>pues que ocasion les molesta</l>
-              <l>á esos nobles Caballeros</l>
-              <l>para salir de su tierra ?</l>
-              <l>quizas iran á algun pleyto</l>
-              <l>de alguna de sus haciendas,</l>
-              <l>que quien tiene mayorazgos,</l>
-              <l>nunca le faltan quimeras.</l>
-              <l>No es mal pleyto el que les siguen</l>
-              <l>(ellos dieron por respuesta)</l>
-              <l>pues son los que dieron muerte</l>
-              <l>á Don Padro Valenzuela.</l>
-              <l>Disimulando su enojo,</l>
-              <l>respondió con gran reserva:</l>
-              <l>mucha fuerza se me hace,</l>
-              <l>mas no es posible que crea,</l>
-              <l>que esos nobles Caballeros</l>
-              <l>hiciesen accion como ella,</l>
-              <l>que fue una accion muy villana,</l>
-              <l>y le resisten sus venas</l>
-              <l>sangre noble, y esto basta,</l>
-              <l>saber que hay quien lo defienda;</l>
-              <l>y eso no se puede hablar,</l>
-              <l>sino es por cosa muy cierta.</l>
-              <l>Sabed que es mucha verdad</l>
-              <l>lo que os digo, y si no fuera,</l>
-              <l>nada me importa el decirlo.</l>
-              <l>Mas ella con gran cautela</l>
-              <l>respondió : Dios los asista;</l>
-              <l>y á donde el viage llevan?</l>
-              <l>Y ellos mismos le informaron,</l>
-              <l>que iban acia Cartagena.</l>
-              <l>Salió del juego, diciendo:</l>
-              <l>buena suerte ha estado esta;</l>
-              <l>ya tendra mi pena alivio,</l>
-              <l>si se me logra la idea.</l>
-              <l>Y montando en un caballo,</l>
-              <l>que al zéfiro puso rienda,</l>
-              <l>á Cartagena marchaba</l>
-              <l>con muy pronta diligencia.</l>
-            </lg>
-            <lg>
-              <l>Llegó una tarde feliz</l>
-              <l>á eso de las dos y media,</l>
-              <l>y en un meson se acogió,</l>
-              <l>y dixo á la mesonera:</l>
-              <l>cuideme de ese caballo,</l>
-              <l>que yo presto doy la buelta</l>
-              <l>y sin desarmarse fué</l>
-              <l>á la playa, por si encuentra</l>
-              <l>algunos de sus paisanos,</l>
-              <l>que el verlos tanto desea.</l>
-              <l>No los pudo descubrir,</l>
-              <l>y ácia el meson dió la buelta,</l>
-              <l>y á la patrona le dixo,</l>
-              <l>le previniese la cena.</l>
-              <l>y que le hiciese la cama</l>
-              <l>en una quadra que tenga</l>
-              <l>las ventanas á la calle</l>
-              <l>sin darle á entender su idea.</l>
-              <l>Apenas anocheció,</l>
-              <l>pronta se puso á la rexa</l>
-              <l>de la ventana, escuchando</l>
-              <l>quanto en la calle conversan.</l>
-              <l>Oyó decir á unos hombres</l>
-              <l>aquestas palabras mesmas:</l>
-              <l>para mañana á la noche</l>
-              <l>tengo una funcion muy regia</l>
-              <l>en casa Don Juan Mancilla,</l>
-              <l>porque en su casa se hospedan</l>
-              <l>dos famosos Caballeros</l>
-              <l>naturales de Valencia,</l>
-              <l>y quiere regocijarlos,</l>
-              <l>y ha de hacer una Comedia</l>
-              <l>y otros muchos Entremeses;</l>
-              <l>mas no quiere que se sepa,</l>
-              <l>porque en Valencia mataron</l>
-              <l>á un hombre de grandes prendas.</l>
-              <l>Tente hombre, no prosigas,</l>
-              <l>calla ya tu infame lengua,</l>
-              <l>que no sabes quien te escucha,</l>
-              <l>porque si bien lo supieras,</l>
-              <l>no dieras cuenta á tu amigo.</l>
-              <l>O quanto mas nos valiera</l>
-            </lg>
-            <pb n="8" source="Varios_170_8.jpg" facs="fedora_Varios_170_8/full/full/0/default.jpg"/>
-            <lg>
-              <l>muchas veces el callar!</l>
-              <l>que el que no habla no yerra.</l>
-              <l>Séneca muy bien lo explica,</l>
-              <l>que es una de sus sentencias.</l>
-              <l>Ya satisfecha del caso</l>
-              <l>se quedó Doña Josefa,</l>
-              <l>y apénas amaneció,</l>
-              <l>hizo vivas diligencias</l>
-              <l>por descubrirlos, y al fin</l>
-              <l>en la playa los encuentra.</l>
-              <l>Quando los tuvo presentes,</l>
-              <l>les dice de esta manera:</l>
-              <l>me conoceis Caballeros ?</l>
-              <l>Sabed soy Doña Josefa,</l>
-              <l>aquella á quien agraviasteis</l>
-              <l>en la ciudad de Valencia;</l>
-              <l>vengo á tomar la venganza</l>
-              <l>por Don Pedro Valenzuela,</l>
-              <l>que habiendo muerto á mi amante</l>
-              <l>poco importa que yo muera.</l>
-              <l>Sacan los tres las espadas,</l>
-              <l>y á la batalla se aprestan,</l>
-              <l>y á dos idas y venidas</l>
-              <l>le alcanzó Doña Josefa</l>
-              <l>al valiente Don Leonardo</l>
-              <l>una estocada tan recia,</l>
-              <l>que lo pasó por el pecho,</l>
-              <l>dando con él en la tierra.</l>
-              <l>Esto que vió Don Gaspar,</l>
-              <l>cerró con Doña Josefa;</l>
-              <l>mas poco le aprovechó,</l>
-              <l>porque ella con gran destreza</l>
-              <l>le quitó de la cintura</l>
-              <l>una almarada, y con ella</l>
-              <l>lo pasó por el costado,</l>
-              <l>y ambos difuntos los dexa.</l>
-              <l>Se alborotó la Ciudad,</l>
-              <l>y acudió con gran presteza</l>
-              <l>el Señor Gobernador,</l>
-            </lg>
-            <lg>
-              <l>para llevarse la presa.</l>
-              <l>Mas ella con arrogancia</l>
-              <l>dixo : sepa Vuexcelencia,</l>
-              <l>que mi espada á nedie teme,</l>
-              <l>aunque un exercito venga;</l>
-              <l>dixo, y chocando con ellos,</l>
-              <l>á uno toma y á otro dexa.</l>
-              <l>Tres ministros le mató,</l>
-              <l>y en medio de esta refriega</l>
-              <l>se le ha quebrado la espada</l>
-              <l>echó mano con presteza</l>
-              <l>al trabuco que tenia,</l>
-              <l>y á barrer la calle empieza.</l>
-              <l>Tan buena traza se daba</l>
-              <l>á disparar, que se lleva</l>
-              <l>dos ó tres de cada tiro,</l>
-              <l>y la calle le franquean</l>
-              <l>con que llegó á refugiarse</l>
-              <l>dentro de la misma lglesia</l>
-              <l>del Serafico Francisco</l>
-              <l>adonde á curarse queda</l>
-              <l>dos balazos, pues llevaba</l>
-              <l>muy mal herida una pierna,</l>
-              <l>Buena ya de su accidente</l>
-              <l>pidió á los Padres licencia</l>
-              <l>para salir del Convento,</l>
-              <l>y mandó que le traxeran</l>
-              <l>el caballo que tenia</l>
-              <l>en un meson de allí cerca.</l>
-              <l>Fue un Donado y se lo traxo,</l>
-              <l>y agradeció la fineza;</l>
-              <l>sin ser de nadie sentida</l>
-              <l>se salió de Cartagena.</l>
-              <l>Y ahora Pedro de Fuentes</l>
-              <l>á aquesta plana primera</l>
-              <l>da fin, que en la otra segunda</l>
-              <l>dará noticias enteras</l>
-              <l>en lo que vino á parar</l>
-              <l>la hermosa Doña Josefa.</l>
-            </lg>
-          </div>
-          <div type="colofon">
-            <p><lb/>Con licencia: En Córdoba en la Imprenta de Don Juan Garcia
-                        <lb/>Rodriguez de la Torre, calle de la Librería.</p>
-          </div>
+        </div>
+        
+        <div type="colofon">
+          <p><lb/>Con licencia: En Córdoba en la Imprenta de Don Juan Garcia <lb/>Rodriguez de la
+            Torre, calle de la Librería.</p>
         </div>
       </div>
     </body>

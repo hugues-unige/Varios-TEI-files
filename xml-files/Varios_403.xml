@@ -4,9 +4,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>SATIRA GRACIOSA, en que se da cuenta á todos los hombres de los
-                              motivos que hay para no casarse, y lo que se pasa con las mugeres por
-                              los males que ocasionan.</title>
+        <title>SATIRA GRACIOSA</title>
         <respStmt>
           <name xml:id="PJ">Pauline Jacsont</name>
           <resp>Codificación TEI</resp>
@@ -32,9 +30,9 @@
             <p/>
           </editionStmt>
           <publicationStmt>
-            <publisher>Imp. á cargo de José M. Marés</publisher>
+            <publisher>José María Marés</publisher>
             <pubPlace ref="https://www.geonames.org/3117735/madrid.html">Madrid</pubPlace>
-            <date cert="high">1857</date>
+            <date cert="high" when="1857-01-01">1857</date>
           </publicationStmt>
         </biblFull>
         <msDesc>
@@ -43,6 +41,7 @@
             <settlement>Genève</settlement>
             <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"/>
                                     </repository>
+            <collection>Colección Varios</collection>
             <idno type="cote"/>
             <idno type="DOI">10.5281/zenodo.6787628</idno>
             <altIdentifier>
@@ -105,7 +104,7 @@
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR non corregido</p>
+          <p>OCR no corregido</p>
         </correction>
         <normalization>
           <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto
@@ -132,9 +131,10 @@
     <revisionDesc>
       <change when="2023-12-20" who="#PJ">Création du fichier TEI P5 et encodage du
                         corps du texte</change>
+<change when="2024-01-09" who="#EL">Add the IIIF links</change>
     </revisionDesc>
   </teiHeader>
-  <sourceDoc xml:id="automaticTranscription">
+  <facsimile><graphic url="varios/Varios_403_1.jpg/full/200,/0/default.jpg"/></facsimile><sourceDoc xml:id="automaticTranscription">
     <surface xml:id="Varios_403_1" type="page" cert="silver">
       <graphic url="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_403_1/full/full/0/default.jpg"/>
       <zone xml:id="Varios_403_1_BT221_1" n="1" type="CustomZone" subtype="impresorNum" points="1383,353 1383,432 1104,432 1104,353 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_403_1/1104.0,353.0,279.0,79.0/full/0/default" corresp="CustomZone:impresorNum">
@@ -1250,7 +1250,7 @@
   <text>
     <body>
       <div>
-        <pb n="1" source="Varios_403_1.jpg" facs="fedora_Varios_403_1/full/full/0/default.jpg"/>
+        <pb n="1" source="Varios_403_1.jpg" facs="varios/Varios_403_1.jpg/"/>
         <fw type="impresorNum">(Número 20.)</fw>
         <div type="parte" n="1">
           <head type="primer_titulo" rend="negrita"><lb/>SATIRA GRACIOSA,</head>
@@ -1284,7 +1284,7 @@
             <l>por la mañanita</l>
             <l>al instante marcha</l>
           </lg>
-          <pb n="2" source="Varios_403_2.jpg" facs="fedora_Varios_403_2/full/full/0/default.jpg"/>
+          <pb n="2" source="Varios_403_2.jpg" facs="varios/Varios_403_2.jpg/"/>
           <lg>
             <l>con el azadon,</l>
             <l>la alforjilla y hacha,</l>
@@ -1375,7 +1375,7 @@
             <l>lindamente riñen</l>
             <l>el yerno y la suegra ;</l>
           </lg>
-          <pb n="3" source="Varios_403_3.jpg" facs="fedora_Varios_403_3/full/full/0/default.jpg"/>
+          <pb n="3" source="Varios_403_3.jpg" facs="varios/Varios_403_3.jpg/"/>
           <lg>
             <l>entre madre é hija</l>
             <l>quiérenle arañar,</l>
@@ -1457,7 +1457,7 @@
             <l>todo está pasando.</l>
           </lg>
         </div>
-        <pb n="4" source="Varios_403_4.jpg" facs="fedora_Varios_403_4/full/full/0/default.jpg"/>
+        <pb n="4" source="Varios_403_4.jpg" facs="varios/Varios_403_4.jpg/"/>
         <div type="parte" n="2">
           <head type="titulo_parte" rend="negrita"><lb/>LETRILLA GRACIOSA Y NUEVA</head>
           <head type="subtitulo_parte" rend="cursiva"><lb/>compuesta por un

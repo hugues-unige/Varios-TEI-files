@@ -28,9 +28,9 @@
             <p/>
           </editionStmt>
           <publicationStmt>
-            <publisher>[s.n]</publisher>
+            <publisher>[s.n.]</publisher>
             <pubPlace ref="https://www.geonames.org/3117735/madrid.html">Madrid</pubPlace>
-            <date cert="high">[s.a]</date>
+            <date cert="low" when="1800-01-01">[s.a.]</date>
           </publicationStmt>
         </biblFull>
         <msDesc>
@@ -39,6 +39,7 @@
             <settlement>Genève</settlement>
             <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"/>
                                     </repository>
+            <collection>Colección Varios</collection>
             <idno type="cote"/>
             <idno type="DOI">10.5281/zenodo.6795086</idno>
             <altIdentifier>
@@ -68,7 +69,7 @@
               </layoutDesc>
             </objectDesc>
             <decoDesc>
-              <summary n="1">Uno grabados (p.1) </summary>
+              <summary n="1">Un grabados (p.1) </summary>
               <decoNote type="lista_grabados">
                 <list>
                   <item corresp="grabado_v_430_1.xml">grabado_v_430_1</item>
@@ -99,7 +100,7 @@
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR non corregido</p>
+          <p>OCR no corregido</p>
         </correction>
         <normalization>
           <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto
@@ -124,9 +125,10 @@
     <revisionDesc>
       <change when="2023-12-29" who="#PJ">Création du fichier TEI P5 et encodage du
                         corps du texte</change>
+<change when="2024-01-09" who="#EL">Add the IIIF links</change>
     </revisionDesc>
   </teiHeader>
-  <sourceDoc xml:id="automaticTranscription">
+  <facsimile><graphic url="varios/Varios_430_1.jpg/full/200,/0/default.jpg"/></facsimile><sourceDoc xml:id="automaticTranscription">
     <surface xml:id="Varios_430_1" type="page" cert="silver">
       <graphic url="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_430_1/full/full/0/default.jpg"/>
       <zone xml:id="Varios_430_1_BT222_1" n="1" type="CustomZone" subtype="numero_pliego" points="1376,33 1376,0 1023,0 1023,33 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_430_1/1023.0,0.0,353.0,33.0/full/0/default" corresp="CustomZone:numero_pliego">
@@ -2674,7 +2676,7 @@
       </zone>
       <zone xml:id="Varios_430_21_BT226_3" n="3" type="DefaultLine" subtype="DefaultLine" points="1402,1311 1411,2119 66,2119 57,1315 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_430_21/57.0,1311.0,1354.0,808.0/full/0/default" corresp="MainZone">
         <zone xml:id="Varios_430_21_BT226_3_LT84_1" type="DefaultLine" subtype="none" points="539,1263 527,1263 515,1263 503,1263 492,1263 480,1263 468,1263 456,1263 445,1263 433,1263 421,1263 409,1263 397,1263 386,1263 374,1263 362,1263 350,1263 339,1263 327,1263 315,1263 303,1263 291,1263 280,1263 268,1263 256,1263 244,1263 233,1263 221,1263 209,1263 197,1263 186,1263 174,1263 162,1263 150,1263 138,1263 140,1270 140,1281 203,1289 204,1289 206,1289 221,1283 224,1281 234,1283 282,1289 283,1289 541,1283 542,1269 540,1263 539,1263 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_430_21/138.0,1263.0,404.0,26.0/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_430_21_BT226_3_LT84_1_1" points="140,1270 542,1269 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
+          <path xml:id="Varios_430_21_BT226_3_LT84_1_1" points="140,1270 542,1269 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
           <line>tablecimiento y su muerte.</line>
         </zone>
         <zone xml:id="Varios_430_21_BT226_3_LT83_2" type="DefaultLine" subtype="none" points="176,1352 176,1364 1337,1365 1339,1350 1338,1317 1304,1307 1303,1307 1302,1307 1247,1316 1245,1317 1149,1317 1146,1316 1131,1307 1130,1307 1129,1307 1080,1313 977,1307 975,1307 974,1307 953,1314 946,1316 878,1313 736,1309 735,1309 734,1309 718,1312 700,1317 632,1312 611,1311 609,1311 608,1311 605,1312 595,1316 588,1312 583,1309 582,1309 581,1309 580,1309 556,1312 518,1317 485,1311 469,1309 468,1309 452,1311 415,1317 372,1311 356,1309 290,1309 289,1309 288,1309 284,1310 270,1317 175,1310 176,1352 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_430_21/175.0,1307.0,1164.0,58.0/full/0/default" corresp="DefaultLine">
@@ -4436,7 +4438,7 @@
       </zone>
       <zone xml:id="Varios_430_5_BT226_3" n="3" type="DefaultLine" subtype="DefaultLine" points="1404,2111 72,2111 73,1923 1404,1923 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_430_5/72.0,1923.0,1332.0,188.0/full/0/default" corresp="MainZone">
         <zone xml:id="Varios_430_5_BT226_3_LT84_1" type="DefaultLine" subtype="none" points="566,1693 595,1701 596,1701 598,1702 722,1702 722,1701 724,1701 737,1697 747,1695 899,1701 901,1683 900,1647 567,1647 567,1682 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_430_5/566.0,1647.0,335.0,55.0/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_430_5_BT226_3_LT84_1_1" points="567,1682 901,1683 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
+          <path xml:id="Varios_430_5_BT226_3_LT84_1_1" points="567,1682 901,1683 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
           <line>CAPITULO II</line>
         </zone>
         <zone xml:id="Varios_430_5_BT226_3_LT83_2" type="DefaultLine" subtype="none" points="115,1749 114,1765 250,1770 251,1770 253,1770 254,1770 262,1766 267,1763 320,1763 355,1766 448,1772 449,1772 486,1766 494,1765 507,1766 565,1772 566,1772 567,1772 584,1766 587,1765 721,1765 724,1766 731,1770 732,1770 733,1770 734,1770 790,1766 795,1766 797,1766 818,1773 819,1773 820,1773 821,1773 844,1767 964,1773 965,1773 966,1773 981,1766 983,1766 1027,1766 1030,1766 1042,1774 1043,1774 1044,1774 1045,1774 1087,1767 1157,1774 1158,1774 1224,1767 1296,1774 1297,1774 1344,1766 1345,1754 1345,1716 1325,1708 1324,1708 1323,1708 1305,1712 1284,1701 1283,1701 1282,1701 1281,1701 1248,1710 1224,1697 1223,1697 1222,1697 1139,1709 1073,1697 1072,1697 991,1703 881,1696 880,1696 879,1696 855,1704 794,1696 793,1696 792,1696 765,1707 627,1695 626,1695 586,1701 525,1697 523,1697 522,1697 487,1716 481,1719 115,1717 115,1749 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_430_5/114.0,1695.0,1231.0,79.0/full/0/default" corresp="DefaultLine">
@@ -4997,7 +4999,7 @@
           <line>tas desconocidas.</line>
         </zone>
         <zone xml:id="Varios_430_8_BT226_1_LT84_21" type="DefaultLine" subtype="none" points="585,1077 585,1089 913,1090 914,1074 909,1030 894,1034 889,1030 880,1024 878,1024 877,1024 876,1024 875,1024 857,1032 846,1037 837,1034 825,1028 824,1028 823,1028 822,1028 797,1035 788,1037 786,1036 772,1025 771,1025 769,1025 768,1025 704,1032 696,1026 695,1026 694,1026 692,1026 691,1026 668,1038 652,1030 651,1030 650,1030 649,1030 647,1030 626,1043 623,1045 588,1045 585,1077 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_430_8/585.0,1024.0,329.0,66.0/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_430_8_BT226_1_LT84_21_1" points="585,1077 914,1074 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
+          <path xml:id="Varios_430_8_BT226_1_LT84_21_1" points="585,1077 914,1074 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
           <line>CAPITULO III</line>
         </zone>
       </zone>
@@ -5331,7 +5333,7 @@
   <text>
     <body>
       <div>
-        <pb n="1" source="Varios_430_1.jpg" facs="fedora_Varios_430_1/full/full/0/default.jpg"/>
+        <pb n="1" source="Varios_430_1.jpg" facs="varios/Varios_430_1.jpg/"/>
         <fw type="numeroPliego">(TRES PLIEGOS)</fw>
         <head type="primer_titulo"><lb/><hi rend="negrita">HISTORIA</hi><lb/>DE<lb/>CRISTÓBAL
                               COLÓN</head>
@@ -5341,11 +5343,11 @@
           <p><lb/>DESPACHOS: <lb/>MADRID <lb/>Hernando, Arenal, 11.
                                     <lb/>BARCELONA <lb/>Bou de la Plaza Nueva, 13.</p>
         </div>
-        <pb n="2" source="Varios_430_2.jpg" facs="fedora_Varios_430_2/full/full/0/default.jpg"/>
+        <pb n="2" source="Varios_430_2.jpg" facs="varios/Varios_430_2.jpg/"/>
         <div type="propiedad">
           <p><lb/>ES PROPIEDAD</p>
         </div>
-        <pb n="3" source="Varios_430_3.jpg" facs="fedora_Varios_430_3/full/full/0/default.jpg"/>
+        <pb n="3" source="Varios_430_3.jpg" facs="varios/Varios_430_3.jpg/"/>
         <div type="capitulo" n="1">
           <head type="primer_titulo" rend="negrita"><lb/>HISTORIA<lb/>DE<lb/>CRISTOBAL COLÓN<lb/></head>
           <head type="titulo_parte"><lb/>CAPÍTULO PRIMERO</head>
@@ -5384,7 +5386,7 @@
                                     más eminentes de aquella nación, y lue- <lb/>go se casó con
                                     la hija del capitán que había descubierto las <lb/>dos islas
                                     del África. Los diarios y los mapas de este hábil na- </p>
-          <pb n="4" source="Varios_430_4.jpg" facs="fedora_Varios_430_4/full/full/0/default.jpg"/>
+          <pb n="4" source="Varios_430_4.jpg" facs="varios/Varios_430_4.jpg/"/>
           <fw type="paginaNum">—4—</fw>
           <p><lb/>vegante despertaron en Colón una idea que,
                                     robusteciéndose <lb/>un día y otro día, le hizo concebir el
@@ -5431,7 +5433,7 @@
                                     con mucha benevolencia; mas antes de <lb/>decidirse á otorgarle
                                     lo que pedía, quisieron someter el pro- <lb/>yecto al examen de
                                     los hombres que se tenían por sabios en </p>
-          <pb n="5" source="Varios_430_5.jpg" facs="fedora_Varios_430_5/full/full/0/default.jpg"/>
+          <pb n="5" source="Varios_430_5.jpg" facs="varios/Varios_430_5.jpg/"/>
           <fw type="paginaNum">—5—</fw>
           <p><lb/>el reino. Estos, cuyos conocimientos eran muy inferiores á
                                     <lb/>los de Colón, informaron al monarca desfavorablemente des-
@@ -5479,7 +5481,7 @@
                                     desconocidas.</head>
           <p><lb/>La reina Isabel facilitó á Colón lo necesario para la
                                     expe-<lb/>dición al Nuevo Mundo; mas los recursos fueron tan
-                                    limita- <pb n="6" source="Varios_430_6.jpg" facs="fedora_Varios_430_6/full/full/0/default.jpg"/>
+                                    limita- <pb n="6" source="Varios_430_6.jpg" facs="varios/Varios_430_6.jpg/"/>
                                     <fw type="paginaNum">—6—</fw>
                                     <lb/>dos, que el genovés tuvo que asociarse á dos ricos
                                     negocian- <lb/>tes de Palos para que le supliesen lo que
@@ -5527,7 +5529,7 @@
                                     imaginación la enorme distancia que les <lb/>separaba de sus
                                     casas, principiaron á inquietarse contra el <lb/>hombre que les
                                     había engañado, arrastrándoles á tan terri- </p>
-          <pb n="7" source="Varios_430_7.jpg" facs="fedora_Varios_430_7/full/full/0/default.jpg"/>
+          <pb n="7" source="Varios_430_7.jpg" facs="varios/Varios_430_7.jpg/"/>
           <fw type="paginaNum">—7—</fw>
           <p><lb/>bles peligros. El almirante, con su fecundo ingenio,
                                     supo<lb/>tranquilizar los animos; mas en el mismo día se
@@ -5573,7 +5575,7 @@
                                     revoltosos, pidiendo con terribles amenazas<lb/>á Colón que
                                     les volviese pronto á su patria.<lb/>El almirante, que por
                                     instantes veia indudables indicios</p>
-          <pb n="8" source="Varios_430_8.jpg" facs="fedora_Varios_430_8/full/full/0/default.jpg"/>
+          <pb n="8" source="Varios_430_8.jpg" facs="varios/Varios_430_8.jpg/"/>
           <fw type="paginaNum">—8—</fw>
           <p><lb/>de acercarse al término de su empresa, les pidió que le
                                     con-<lb/>cedieran tres días, en cuyo tiempo si no descubría la
@@ -5621,7 +5623,7 @@
                                     <lb/>delante, dan gracias al Todopoderoso, y en seguida Colón
                                     <lb/>hace la ceremonia de tomar solemne posesión á nombre de
                                     los <lb/>Reves Católicos el día 12 de Octubre de 1492. <lb/>El
-                                    estruendo de las salvas de artillería, los ecos de la mú- <pb n="9" source="Varios_430_9.jpg" facs="fedora_Varios_430_9/full/full/0/default.jpg"/>
+                                    estruendo de las salvas de artillería, los ecos de la mú- <pb n="9" source="Varios_430_9.jpg" facs="varios/Varios_430_9.jpg/"/>
                                     <fw type="paginaNum">—9—</fw>
                                     <lb/>sica marcial y la confusa gritería de la flota conmovieron
                                     á los <lb/>habitantes de aquel pais, que al principio huyeron
@@ -5668,7 +5670,7 @@
                                     la más velera, se adelantó á las otras dos, con <lb/>ánimo
                                     de llegar mucho antes que el almirante y hacer por</p>
           <fw type="reclamo">CRISTÓBAL COLÓN. 2</fw>
-          <pb n="10" source="Varios_430_10.jpg" facs="fedora_Varios_430_10/full/full/0/default.jpg"/>
+          <pb n="10" source="Varios_430_10.jpg" facs="varios/Varios_430_10.jpg/"/>
           <fw type="paginaNum">—10—</fw>
           <p><lb/>sí un buen acopio de oro. Colón conoció la intención y
                                     le man-<lb/>dó detenerse; pero Pinzón desobedeció y
@@ -5715,7 +5717,7 @@
                                     que, ya cascada y con demasiado porte, pare-<lb/>cía imposible
                                     que hubiese de hacer tan larga travesía en un<lb/>mar aún
                                     desconocido.</p>
-          <pb n="11" source="Varios_430_11.jpg" facs="fedora_Varios_430_11/full/full/0/default.jpg"/>
+          <pb n="11" source="Varios_430_11.jpg" facs="varios/Varios_430_11.jpg/"/>
           <p><lb/>—11—<lb/>Después de haber andado algún tiempo, se
                                     descubrió á lo<lb/>lejos una embarcación, y dirigiéndose
                                     hacia el almirante, fué<lb/>grande su alegría cuando al
@@ -5760,7 +5762,7 @@
                                     á salir de aquella tierra, y cuando ya es-<lb/>taba muy cerca
                                     de España, otra tormenta casi tan terrible<lb/>como la primera,
                                     puso á riesgo su carabela de no acabar su</p>
-          <pb n="12" source="Varios_430_12.jpg" facs="fedora_Varios_430_12/full/full/0/default.jpg"/>
+          <pb n="12" source="Varios_430_12.jpg" facs="varios/Varios_430_12.jpg/"/>
           <fw type="paginaNum">—12—</fw>
           <p><lb/>carrera. Por fin, el cielo calmó sus iras, y el almirante se
                                     halló <lb/>en la desembocadura del Tajo. Envió inmediatamente
@@ -5809,7 +5811,7 @@
                                     cual murió á pocos días. <lb/>Llegó Colón á la corte,
                                     donde le aguardaban llenos de im- <lb/>paciencia los reyes
                                     Fernando é Isabel. En las calles de su <lb/>tránsito un
-                                    inmenso gentío se agolpaba para ver y admirar <pb n="13" source="Varios_430_13.jpg" facs="fedora_Varios_430_13/full/full/0/default.jpg"/>
+                                    inmenso gentío se agolpaba para ver y admirar <pb n="13" source="Varios_430_13.jpg" facs="varios/Varios_430_13.jpg/"/>
                                     <fw type="paginaNum">—13—</fw>
                                     <lb/>aquel hombre que creian superior á todos los de su siglo.
                                     El <lb/>aparato con que marchaba era verdaderamente admirable.
@@ -5855,7 +5857,7 @@
                                     viaje, que en veintiocho <lb/>días anduvo ochocientas leguas,
                                     llegando en domingo á una <lb/>isla que denominó la Dominica.
                                     Sucesivamente fué descubrien- <lb/>do algunas otras, siendo de
-                                    ellas las principales la Mari-Galan- <pb n="14" source="Varios_430_14.jpg" facs="fedora_Varios_430_14/full/full/0/default.jpg"/>
+                                    ellas las principales la Mari-Galan- <pb n="14" source="Varios_430_14.jpg" facs="varios/Varios_430_14.jpg/"/>
                                     <fw type="paginaNum">—14—</fw>
                                     <lb/>te y la Guadalupe. Al principio ninguna persona
                                     encontraron<lb/>porque los habitantes de las islas huían á las
@@ -5900,7 +5902,7 @@
                                     Colón á dis-<lb/>gustarse del género de vida que llevaban en
                                     su nuevo estable-<lb/>cimiento. El os se habían imaginado en la
                                     expedición un ma-<lb/>nantial de riquezas y un sin número de
-                                    delicias, y cuando se <pb n="15" source="Varios_430_15.jpg" facs="fedora_Varios_430_15/full/full/0/default.jpg"/>
+                                    delicias, y cuando se <pb n="15" source="Varios_430_15.jpg" facs="varios/Varios_430_15.jpg/"/>
                                     <fw type="paginaNum">—15—</fw>
                                     <lb/>vieron precisados á trabajar, á sufrir las incomodidades
                                     de un <lb/>clima muy ardoroso y á obedecer las órdenes de un
@@ -5945,7 +5947,7 @@
                                     dedicado. Los colonos, la- <lb/>mentándose de su triste estado,
                                     maldecían el momento en que <lb/>dejandose llevar de las
                                     seductoras esperanzas de enriquecerse, <lb/>habían abandonado
-                                    su patria y su familia. A la cabeza de los <pb n="16" source="Varios_430_16.jpg" facs="fedora_Varios_430_16/full/full/0/default.jpg"/>
+                                    su patria y su familia. A la cabeza de los <pb n="16" source="Varios_430_16.jpg" facs="varios/Varios_430_16.jpg/"/>
                                     <fw type="paginaNum">—16—</fw>
                                     <lb/>descontentos se hallaba el capellán de la armada,
                                     incitando <lb/>los ánimos en rebelión contra el almirante.
@@ -5991,7 +5993,7 @@
                                     para estar completamente restablecido. <lb/>Trece años hacía
                                     que los dos hermanos se habían separado <lb/>para ir Bartolomé
                                     á lnglaterra en solicitud de los auxilios nece- <lb/>sarios
-                                    para realizar los proyectos del descubrimiento del Nue- <pb n="17" source="Varios_430_17.jpg" facs="fedora_Varios_430_17/full/full/0/default.jpg"/>
+                                    para realizar los proyectos del descubrimiento del Nue- <pb n="17" source="Varios_430_17.jpg" facs="varios/Varios_430_17.jpg/"/>
                                     <fw type="paginaNum">—17—</fw>
                                     <lb/>yo Mundo. Muchas dificultades se presentaron á Bartolomé
                                     <lb/>para el logro de sus pretensiones, mas al fin consiguió
@@ -6040,7 +6042,7 @@
                                     Colón ofreciéndole su <lb/>auxilio para el día de la batalla.
                                     Aceptó los generosos ofreci- <fw type="reclamo">CRISTÓBAL
                                           COLÓN. 3</fw>
-                                    <pb n="18" source="Varios_430_18.jpg" facs="fedora_Varios_430_18/full/full/0/default.jpg"/>
+                                    <pb n="18" source="Varios_430_18.jpg" facs="varios/Varios_430_18.jpg/"/>
                                     <fw type="paginaNum">—18—</fw>
                                     <lb/>mientos del indio, y los dos jefes salieron á campaña,
                                     cada<lb/>cual con muy corto número de soldados.<lb/>Los
@@ -6089,7 +6091,7 @@
                                     <lb/>contribuciones desmesuradas de todo lo que más valor
                                     tenía <lb/>para él como producciones de aquellos países. Los
                                     indios, <lb/>acostumbrados á una vida indolente, se resistían
-                                    á los trabajos <pb n="19" source="Varios_430_19.jpg" facs="fedora_Varios_430_19/full/full/0/default.jpg"/>
+                                    á los trabajos <pb n="19" source="Varios_430_19.jpg" facs="varios/Varios_430_19.jpg/"/>
                                     <fw type="paginaNum">—19—</fw>
                                     <lb/>penosos que les exigía dar cumplimiento á los impuestos
                                     de <lb/>Colón; mas los soldados de éste se hacían pagar á
@@ -6135,7 +6137,7 @@
                                     nueva <lb/>flota, de modo que se pasó un año antes de que
                                     pudiesen salir <lb/>los navíos con provisiones para la colonia,
                                     y después otro año <lb/>pasó hasta que pudo Colón embarcarse
-                                    con la escuadra para <lb/>sus nuevos descubrimientos. <pb n="20" source="Varios_430_20.jpg" facs="fedora_Varios_430_20/full/full/0/default.jpg"/>
+                                    con la escuadra para <lb/>sus nuevos descubrimientos. <pb n="20" source="Varios_430_20.jpg" facs="varios/Varios_430_20.jpg/"/>
                                     <fw type="paginaNum">—20—</fw>
                                     <lb/>En esta expedición, el almirante, al cabo de algunos días
                                     <lb/>de navegación, descubrió una isla en forma de tres
@@ -6181,7 +6183,7 @@
                                     viajes fué un tal Ojeda, compañero que había sido de Co-
                                     <lb/>lón en su primera salida, el cual, con varios navíos que
                                     le ar- <lb/>maron algunos negociantes de Sevilla, y con los
-                                    diarios y noti- <pb n="21" source="Varios_430_21.jpg" facs="fedora_Varios_430_21/full/full/0/default.jpg"/>
+                                    diarios y noti- <pb n="21" source="Varios_430_21.jpg" facs="varios/Varios_430_21.jpg/"/>
                                     <fw type="paginaNum">—21—</fw>
                                     <lb/>cias dadas por Colón á la corte que le facilitaron los
                                     enemigos <lb/>del almirante, se hizo á la vela en compañía de
@@ -6228,7 +6230,7 @@
                                     en ella había, declaran- <lb/>do públicamente que le había
                                     enviado el rey á la colonia pa- <lb/>ra destituir á Colón.
                                     Soltó á todos los que tenía presos el al- <lb/>mirante, y á
-                                    éste le citó por un alguacil para que compare- <pb n="22" source="Varios_430_22.jpg" facs="fedora_Varios_430_22/full/full/0/default.jpg"/>
+                                    éste le citó por un alguacil para que compare- <pb n="22" source="Varios_430_22.jpg" facs="varios/Varios_430_22.jpg/"/>
                                     <fw type="paginaNum">—22—</fw>
                                     <lb/>ciese en su presencia. Colón obedece sin tardanza, y su
                                     juez, <lb/>negándose á verle, manda que le pongan un par de
@@ -6274,7 +6276,7 @@
                                     que últimamente había descubierto, sería fácil llegar á
                                     <lb/>la India por un camino mucho más corto que el descubierto
                                     <lb/>por el portugués Vasco de Gama. Los Reyes Católicos
-                                    acogie- <pb n="23" source="Varios_430_23.jpg" facs="fedora_Varios_430_23/full/full/0/default.jpg"/>
+                                    acogie- <pb n="23" source="Varios_430_23.jpg" facs="varios/Varios_430_23.jpg/"/>
                                     <fw type="paginaNum">—23—</fw>
                                     <lb/>ron bien aquel nuevo proyecto, aprestándole una escuadra
                                     <lb/>para emprender una nueva expedición. <lb/>Solamente cuatro
@@ -6320,7 +6322,7 @@
                                     la colonia, y embarca- <lb/>dos de nuevo, Colón se hizo á la
                                     vela con tres navíos en muy <lb/>mal estado, dejando abandonado
                                     uno que de nada le servía. <lb/>En este viaje le fué muy
-                                    contraria la suerte; sufrió una te- <pb n="24" source="Varios_430_24.jpg" facs="fedora_Varios_430_24/full/full/0/default.jpg"/>
+                                    contraria la suerte; sufrió una te- <pb n="24" source="Varios_430_24.jpg" facs="varios/Varios_430_24.jpg/"/>
                                     <fw type="paginaNum">—24—</fw>
                                     <lb/>rrible tormenta que destrozando sus naves mal acondiciona-
                                     <lb/>das, le quedó solamente un navío medio deshecho. <lb/>La
@@ -6361,8 +6363,8 @@
                                     lo cual todavía no se ha <lb/>verificado.</p>
           <trailer><lb/>FIN</trailer>
         </div>
-        <pb n="25" source="Varios_430_25.jpg" facs="fedora_Varios_430_25/full/full/0/default.jpg"/>
-        <pb n="26" source="Varios_430_26.jpg" facs="fedora_Varios_430_26/full/full/0/default.jpg"/>
+        <pb n="25" source="Varios_430_25.jpg" facs="varios/Varios_430_25.jpg/"/>
+        <pb n="26" source="Varios_430_26.jpg" facs="varios/Varios_430_26.jpg/"/>
         <div type="productos_a_la_venta">
           <head type="titulo_parte"><lb/>HISTORIAS QUE SE HALLAN EN EL MISMO DESPACHO.</head>
           <p><lb/>Pliegos.</p>

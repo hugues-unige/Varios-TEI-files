@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../Schema/oddPliego_varios.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:alto="http://www.loc.gov/standards/alto/ns-v4#" xml:id="Varios_145">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Varios_145">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -11,8 +11,7 @@
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <authority role="rightsHolder">Bibliothèque Universitaire de
-                            Genève</authority>
+        <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
         <availability status="restricted">
           <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
         </availability>
@@ -20,16 +19,17 @@
       <sourceDesc>
         <biblFull>
           <titleStmt>
-            <title type="titulo_completo">RELACION CHISTOSA. TITULÀDA: TODAS ME GUSTAN, SEGUIDA DE OTRA SERIA, CUYO TITULO ES DESENGAÑOS DE LAS DONCELLAS.</title>
+            <title type="titulo_completo">RELACION CHISTOSA. TITULÀDA: TODAS ME GUSTAN, SEGUIDA DE
+              OTRA SERIA, CUYO TITULO ES DESENGAÑOS DE LAS DONCELLAS.</title>
             <title type="titulo_breve">TODAS ME GUSTAN</title>
           </titleStmt>
           <editionStmt>
             <p/>
           </editionStmt>
           <publicationStmt>
-            <publisher>[s.n]</publisher>
+            <publisher>[s.n.]</publisher>
             <pubPlace ref="https://www.geonames.org/3117735/madrid.html">Madrid</pubPlace>
-            <date cert="high">1856</date>
+            <date cert="high" when="1856-01-01">1856</date>
           </publicationStmt>
         </biblFull>
         <msDesc>
@@ -37,7 +37,8 @@
             <country>Suisse</country>
             <settlement>Genève</settlement>
             <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"/>
-                  </repository>
+            </repository>
+            <collection>Colección Varios</collection>
             <idno type="cote"/>
             <idno type="DOI">10.5281/zenodo.6586639</idno>
             <altIdentifier>
@@ -45,10 +46,15 @@
             </altIdentifier>
           </msIdentifier>
           <msContents>
-            <summary/>
+            <summary>Dos partes</summary>
             <msItem>
-              <locus/>
-              <title/>
+              <locus>1-3</locus>
+              <title>Relacion chistosa titulada: Todas me gustan, segunda de otra seria, cuyo titulo
+                es Desengaños de las doncellas.</title>
+            </msItem>
+            <msItem>
+              <locus>3-4</locus>
+              <title>Desengaños de la doncellas</title>
             </msItem>
           </msContents>
           <physDesc>
@@ -66,8 +72,7 @@
               </layoutDesc>
             </objectDesc>
             <decoDesc>
-              <summary n="1">Uno grabado
-                                        (p.1) </summary>
+              <summary n="1">Un grabado (p.1)</summary>
               <decoNote type="lista_grabados">
                 <list>
                   <item corresp="grabado_v_145_1.xml">grabado_v_145_1</item>
@@ -92,18 +97,17 @@
     </fileDesc>
     <encodingDesc>
       <projectDesc>
-        <p>Este archivo fue creado en el marco del proyecto Desenrollando el
-                            Cordel/Démêler le cordel/Untangling the cordel, dirigido por la
-                            profesora Constance Carta de la Universidad de Ginebra, con el apoyo de
-                            la Fundación filantrópica Famille Sandoz-Monique de Meuron.</p>
+        <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+          cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la Universidad
+          de Ginebra, con el apoyo de la Fundación filantrópica Famille Sandoz-Monique de
+          Meuron.</p>
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR non corregido</p>
+          <p>OCR no corregido</p>
         </correction>
         <normalization>
-          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto
-                                original.</p>
+          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
         </normalization>
         <punctuation>
           <p>Se conserva la puntuación original.</p>
@@ -125,9 +129,13 @@
     </profileDesc>
     <revisionDesc>
       <change when="2022-09-15" who="#PJ">Création du fichier TEI P5 et encodage du corps du
-                        texte</change>
+        texte</change>
+      <change when="2024-01-09" who="#EL">Add the IIIF links</change>
     </revisionDesc>
   </teiHeader>
+  <facsimile>
+    <graphic url="varios/Varios_145_1.jpg/full/200,/0/default.jpg"/>
+  </facsimile>
   <sourceDoc xml:id="automaticTranscription">
     <surface xml:id="Varios_145_1" type="page" cert="silver">
       <graphic url="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_145_1/full/full/0/default.jpg"/>
@@ -489,7 +497,7 @@
           <line>no lo puedo remediar,</line>
         </zone>
         <zone xml:id="Varios_145_2_BT227_2__15" type="DefaultLine" subtype="none" points="959,987 959,1002 1372,1004 1376,981 1370,944 957,948 959,987 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_145_2/957,944,419,60/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_145_2_BT227_2__15_1" points="960,989 1378,983 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
+          <path xml:id="Varios_145_2_BT227_2__15_1" points="960,989 1378,983 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
           <line>es conocida pasion,</line>
         </zone>
         <zone xml:id="Varios_145_2_BT227_2_LT83_16" type="DefaultLine" subtype="none" points="959,1039 955,1000 1050,983 1050,983 1052,983 1052,983 1052,983 1091,992 1105,994 1221,983 1256,981 1256,981 1258,981 1269,981 1385,987 1411,973 1420,967 1422,967 1422,967 1424,967 1424,967 1424,967 1566,965 1573,1025 1569,1056 1354,1043 1285,1058 1281,1058 1281,1058 1281,1058 1279,1058 1279,1058 1277,1058 1275,1058 1234,1045 1198,1058 1188,1062 1188,1062 1186,1062 1186,1062 1184,1062 1184,1062 1184,1062 1163,1058 1136,1051 1128,1058 1122,1064 1122,1066 1122,1066 1120,1066 1120,1066 1120,1066 1118,1066 1118,1066 1118,1066 1116,1066 1116,1066 1114,1066 1114,1066 1093,1058 1081,1054 959,1058 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_145_2/955,965,618,101/full/0/default" corresp="DefaultLine">
@@ -561,7 +569,7 @@
           <line>sea chata ó narigona,</line>
         </zone>
         <zone xml:id="Varios_145_2_BT227_2__33" type="DefaultLine" subtype="none" points="967,1870 967,1886 1039,1899 1041,1899 1043,1899 1068,1888 1072,1886 1077,1888 1093,1899 1095,1899 1097,1899 1099,1899 1155,1891 1188,1884 1201,1891 1215,1897 1217,1897 1219,1897 1221,1897 1244,1891 1273,1882 1320,1891 1323,1891 1409,1880 1509,1893 1513,1862 1509,1831 1234,1822 1232,1822 1229,1822 1205,1835 1203,1835 1194,1835 1126,1826 1124,1826 965,1837 967,1870 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_145_2/965,1822,548,77/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_145_2_BT227_2__33_1" points="969,1871 1515,1864 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
+          <path xml:id="Varios_145_2_BT227_2__33_1" points="969,1871 1515,1864 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
           <line>que tenga garbo, que no,</line>
         </zone>
         <zone xml:id="Varios_145_2_BT227_2_LT83_34" type="DefaultLine" subtype="none" points="979,1922 975,1891 1046,1888 1064,1872 1064,1872 1066,1872 1066,1872 1066,1872 1068,1872 1068,1872 1068,1872 1070,1872 1070,1872 1072,1872 1120,1884 1161,1870 1161,1870 1163,1870 1163,1870 1165,1870 1165,1870 1165,1870 1167,1870 1167,1870 1170,1870 1190,1882 1345,1866 1345,1866 1347,1866 1347,1866 1438,1878 1442,1911 1442,1928 979,1944 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_145_2/975,1866,467,78/full/0/default" corresp="DefaultLine">
@@ -713,7 +721,7 @@
         </zone>
         <zone xml:id="Varios_145_3_BT227_2_LT83_5" type="DefaultLine" subtype="none" points="839,467 835,429 969,415 971,415 1374,417 1378,458 1378,473 839,483 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_145_3/835,415,543,68/full/0/default" corresp="DefaultLine">
           <path xml:id="Varios_145_3_BT227_2_LT83_5_1" points="839,467 1378,458 " corresp="DefaultLine"/>
-          <line>que han sido,  serán, y son,</line>
+          <line>que han sido, serán, y son,</line>
         </zone>
         <zone xml:id="Varios_145_3_BT227_2_LT83_6" type="DefaultLine" subtype="none" points="837,514 833,477 1296,473 1302,504 1302,520 837,535 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_145_3/833,473,469,62/full/0/default" corresp="DefaultLine">
           <path xml:id="Varios_145_3_BT227_2_LT83_6_1" points="837,514 1302,504 " corresp="DefaultLine"/>
@@ -1234,12 +1242,15 @@
   <text>
     <body>
       <div>
-        <pb n="1" source="Varios_145_1.jpg" facs="fedora_Varios_145_1/full/full/0/default.jpg"/>
-        <div type="parte" n="1">
-          <head type="primer_titulo"><lb/>SEGUIDA DE OTRA SERIA, CUYO TITULO ES<lb/>DESENGAÑOS DE LAS DONCELLAS.</head>
-          <head type="subtitulo_parte"><lb/>SEGUIDA DE OTRA SERIA, CUYO TITULO ES<lb/>DESENGAÑOS DE LAS DONCELLAS.</head>
-          <lg>
-            <l>Ya que quieren las señoras,</l>
+        <div>
+          <pb n="1" source="Varios_145_1.jpg" facs="varios/Varios_145_1.jpg/"/>
+
+          <head type="primer_titulo"><lb/><hi rend="negrita">RELACION CHISTOSA,</hi>
+            <lb/>TITULADA: <lb/><hi rend="negrita">TODAS ME GUSTAN,</hi></head>
+          <head type="subtitulo"><lb/>SEGUIDA DE OTRA SERIA, CUYO TITULO ES<lb/><hi rend="negrita">DESENGAÑOS DE LAS DONCELLAS.</hi></head>
+
+          <div n="1">
+            <l rend="indent">Ya que quieren las señoras,</l>
             <l>que diga una Relacion,</l>
             <l>es preciso obedecerlas,</l>
             <l>es muy justo y es razon:</l>
@@ -1251,8 +1262,6 @@
             <l>los bofes y el corazon;</l>
             <l>estos puños, estos brazos....</l>
             <l>mas tente, dónde voy yo?</l>
-          </lg>
-          <lg>
             <l>Qué modo de hablar tan tosco</l>
             <l>á vista de tal primor!</l>
             <l>Perdonadme, señoritas,</l>
@@ -1265,9 +1274,9 @@
             <l>pellas de dulce limon,</l>
             <l>y todo me desbarato</l>
             <l>en vuestro obsequio y honor,</l>
-          </lg>
-          <pb n="2" source="Varios_145_2.jpg" facs="fedora_Varios_145_2/full/full/0/default.jpg"/>
-          <lg>
+
+            <pb n="2" source="Varios_145_2.jpg" facs="varios/Varios_145_2.jpg/"/>
+
             <l>tente, borrico del diablo,</l>
             <l>pues sí agarro un varejon...</l>
             <l>Jesus, Maria y José!</l>
@@ -1311,8 +1320,6 @@
             <l>y dénme ustedes patatas;</l>
             <l>mas detente, borrachon,</l>
             <l>borrico de Belcebú,</l>
-          </lg>
-          <lg>
             <l>no basta decirte, sóo?</l>
             <l>En viendo yo las madamas</l>
             <l>se me muda el facistol,</l>
@@ -1356,9 +1363,9 @@
             <l>donde llega mi aficion,</l>
             <l>aunque sea una viaja</l>
             <l>que pase de ochenta y dos,</l>
-          </lg>
-          <pb n="3" source="Varios_145_3.jpg" facs="fedora_Varios_145_3/full/full/0/default.jpg"/>
-          <lg>
+
+            <pb n="3" source="Varios_145_3.jpg" facs="varios/Varios_145_3.jpg/"/>
+
             <l>con siete ú ocho jorobas</l>
             <l>y mas fea que un ladron,</l>
             <l>porque parece muger</l>
@@ -1380,13 +1387,11 @@
             <l>por las señoras mugeres,</l>
             <l>y si tocan haré son,</l>
             <l>y con la espada en la mano</l>
-          </lg>
-          <lg>
             <l>daré vueltas al redor,</l>
             <l>diciendo: fuera de ahí,</l>
             <l>cierra España batallon!</l>
             <l>Sí, las quiero muy de veras,</l>
-            <l>que han sido,  serán, y son,</l>
+            <l>que han sido, serán, y son,</l>
             <l>la cosa mas admirable</l>
             <l>que su Majestad crió.</l>
             <l>Perdonadme, señoritas,</l>
@@ -1403,131 +1408,124 @@
             <l>con la mayor sumision,</l>
             <l>de lo poco que os alabo</l>
             <l>os pido á todas perdon.</l>
-          </lg>
-        </div>
-        <div type="parte" n="2">
-          <head type="titulo_parte"><lb/>DESENGAÑOS DE LAS DONCELLAS.</head>
-          <lg>
-            <l>¿Qué importa que dé hermosura</l>
+          </div>
+
+          <div n="2">
+            <head type="titulo_parte"><lb/>DESENGAÑOS DE LAS DONCELLAS.</head>
+
+            <l rend="indent">¿Qué importa que dé hermosura</l>
             <l>el cielo á una niña llene</l>
             <l>si sus mismas perfecciones</l>
             <l>en contra de ella se vuelven?</l>
-            <l>Apenas llegó á los años</l>
+            <l rend="indent">Apenas llegó á los años</l>
             <l>que los corazones vencen,</l>
             <l>y que su rostro y su talle</l>
             <l>fuertes pasiones encienden.</l>
-            <l>Apenas en el teatro</l>
+            <l rend="indent">Apenas en el teatro</l>
             <l>del gran mundo se embellece,</l>
             <l>y cual astro nuevo sale</l>
             <l>en su delicioso oriente.</l>
-            <l>Enjambre de adoradores</l>
+            <l rend="indent">Enjambre de adoradores</l>
             <l>acuden á su aliciente,</l>
             <l>á tributarla homenages,</l>
             <l>á recibir rosicleses.</l>
-            <l>Otros astros abandonan,</l>
+            <l rend="indent">Otros astros abandonan,</l>
             <l>que eclipse al punto padecen,</l>
-          </lg>
-          <lg>
             <l>y el triunfo de la que nace,</l>
             <l>derrota de la que muere.</l>
-            <l>Sitiada siempre la niña,</l>
+            <l rend="indent">Sitiada siempre la niña,</l>
             <l>alucinada é inocente,</l>
             <l>rendimientos vé tan solo,</l>
             <l>y adoracion reverente.</l>
-            <l>Cuál númen en sus altares</l>
+            <l rend="indent">Cuál númen en sus altares</l>
             <l>mira el incienso perenne,</l>
             <l>sin refrenar fraude ó dolo</l>
             <l>de su ser se enorgullece.</l>
-            <l>Los obsequios, los recibe</l>
+            <l rend="indent">Los obsequios, los recibe</l>
             <l>como moneda corriente,</l>
             <l>sin recelar que la digan</l>
             <l>lo que ellos mismos no creen.</l>
-            <l>Que no todas son hermosas,</l>
+            <l rend="indent">Que no todas son hermosas,</l>
             <l>y no todas ciertamente</l>
             <l>las perfecciones reunen</l>
             <l>en grado muy eminente.</l>
-          </lg>
-        </div>
-      </div>
-      <div>
-        <div>
-          <pb n="4" source="Varios_145_4.jpg" facs="fedora_Varios_145_4/full/full/0/default.jpg"/>
-          <lg>
-            <l>Y sin embargo, aduladas</l>
+
+            <pb n="4" source="Varios_145_4.jpg" facs="varios/Varios_145_4.jpg/"/>
+
+            <l rend="indent">Y sin embargo, aduladas</l>
             <l>de los locos pretendientes</l>
             <l>oyen sin duda alabanzas</l>
             <l>que no todas las merecen.</l>
-            <l>Uno las titula diosas,</l>
+            <l rend="indent">Uno las titula diosas,</l>
             <l>otro ángel, otro fenix.</l>
             <l>y sin amor aseguran</l>
             <l>que morir antes prefieren...</l>
-            <l>Juramentos se prodigan,</l>
+            <l rend="indent">Juramentos se prodigan,</l>
             <l>músicas y cartas llueven,</l>
             <l>hay empeños, desafios,</l>
             <l>y aun amenazas de muerte.</l>
-            <l>¡ Ay necias! Que esas palabras,</l>
+            <l rend="indent">¡ Ay necias! Que esas palabras,</l>
             <l>ese almibar y esas mieles,</l>
             <l>veneno son que os matan,</l>
             <l>lazos y redes que os tienden.</l>
-            <l>Vosotras no sois de bronce,</l>
+            <l rend="indent">Vosotras no sois de bronce,</l>
             <l>vuestra sangre no es de nieve,</l>
             <l>para amar tambien nacisteis,</l>
             <l>y ese amor tal vez os pierde.</l>
-            <l>De vuestro poco Teson</l>
+            <l rend="indent">De vuestro poco Teson</l>
             <l>pagais las resultas siempre,</l>
             <l>y vuestra inocencia misma</l>
             <l>sacrificais las mas veces.</l>
-            <l>No indagais si es hombre honrado</l>
+            <l rend="indent">No indagais si es hombre honrado</l>
             <l>si buen genio ó malo tiene,</l>
             <l>y si haceros muy dichosas</l>
             <l>vuestra union con él promete.</l>
-            <l>¿Son bonítos? son galanes?</l>
+            <l rend="indent">¿Son bonítos? son galanes?</l>
             <l>son graciosos y elocuentes?</l>
             <l>brillan? gastan? Pues ya todo</l>
             <l>lo que necesitan tienen.</l>
-            <l>Accedeis á sus caricias;</l>
+            <l rend="indent">Accedeis á sus caricias;</l>
             <l>os conquistan.. ay!.. os vencen...</l>
-          </lg>
-          <lg>
             <l>y en la plaza conquistada</l>
             <l>el vencedor dicta leyes.</l>
             <l>no es mucho que entonces entre</l>
-            <l>Y si luego os abandona!</l>
+            <l rend="indent">Y si luego os abandona!</l>
             <l>en vuestro pecho el furor,</l>
             <l>y la rábia mas vehemente.</l>
-            <l>¡Cuántas por este mal pago</l>
+            <l rend="indent">¡Cuántas por este mal pago</l>
             <l>se dieron, locas la muerte,</l>
             <l>dando luto á sus familias,</l>
             <l>y trastorno á sus parientes!</l>
-            <l>¡Cuántas viéndose infelices,</l>
+            <l rend="indent">¡Cuántas viéndose infelices,</l>
             <l>y sin remedio evidente,</l>
             <l>cometieron crimen vil</l>
             <l>contra el fruto de su vientre!</l>
-            <l>Y cuando daño tan grande</l>
+            <l rend="indent">Y cuando daño tan grande</l>
             <l>á las cautas no sucede,</l>
             <l>cuantas la edad del amor</l>
             <l>majaderamente pierden.</l>
-            <l>¡Cuántas por fin desde entonces</l>
+            <l rend="indent">¡Cuántas por fin desde entonces</l>
             <l>aunque el lance no resuene,</l>
             <l>vieron consumir sus años</l>
             <l>en angustias y cordeles!</l>
-            <l>¡Cuántas que jóvenes son</l>
+            <l rend="indent">¡Cuántas que jóvenes son</l>
             <l>presumiendo serlo siempre,</l>
             <l>hacen de los hombres burla,</l>
             <l>colmándolos de desdenes!</l>
-            <l>Y vienen dias y dias,</l>
+            <l rend="indent">Y vienen dias y dias,</l>
             <l>y pasan meses y meses;</l>
             <l>y al fin quedan para tias</l>
             <l>y como nacieron mueren!</l>
-            <l>Dejo aparte otros mil males,</l>
+            <l rend="indent">Dejo aparte otros mil males,</l>
             <l>que á las doncellas comprenden,</l>
             <l>porque me dilato mucho</l>
             <l>y el papel llama á ser breve.</l>
-          </lg>
-          <trailer>FIN.</trailer>
+            <trailer>FIN.</trailer>
+          </div>
         </div>
         <div type="colofon">
-          <p><lb/>MADRID.— 1856. Se hallará de venta en la Plaza de Riego (antes de la Cebada, núm. 96.)</p>
+          <p><lb/>MADRID.— 1856. <lb/>Se hallará de venta en la Plaza de Riego (antes de la Cebada,
+            núm. 96.)</p>
         </div>
       </div>
     </body>

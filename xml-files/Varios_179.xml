@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../Schema/oddPliego_varios.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:alto="http://www.loc.gov/standards/alto/ns-v4#" xml:id="Varios_179">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Varios_179">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -11,8 +11,7 @@
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <authority role="rightsHolder">Bibliothèque Universitaire de
-                              Genève</authority>
+        <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
         <availability status="restricted">
           <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
         </availability>
@@ -20,8 +19,7 @@
       <sourceDesc>
         <biblFull>
           <titleStmt>
-            <title type="titulo_completo">Lo tot sans en Barcelona,
-                                          castanyas y panallets.</title>
+            <title type="titulo_completo">Lo tot sans en Barcelona, castanyas y panallets.</title>
             <title type="titulo_breve">Lo tot sans en Barcelona</title>
           </titleStmt>
           <editionStmt>
@@ -30,7 +28,7 @@
           <publicationStmt>
             <publisher>T. Gaspar</publisher>
             <pubPlace ref="https://www.geonames.org/3128760/barcelona.html">Barcelona</pubPlace>
-            <date cert="high">[s.a]</date>
+            <date cert="low" when="1800-01-01">[s.a.]</date>
           </publicationStmt>
         </biblFull>
         <msDesc>
@@ -38,7 +36,8 @@
             <country>Suisse</country>
             <settlement>Genève</settlement>
             <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"/>
-                                    </repository>
+            </repository>
+            <collection>Colección Varios</collection>
             <idno type="cote"/>
             <idno type="DOI">10.5281/zenodo.6594952</idno>
             <altIdentifier>
@@ -67,7 +66,7 @@
               </layoutDesc>
             </objectDesc>
             <decoDesc>
-              <summary n="1">Uno grabado (p.1) </summary>
+              <summary n="1">Un grabado (p.1)</summary>
               <decoNote type="lista_grabados">
                 <list>
                   <item corresp="grabado_v_179_1.xml">grabado_v_179_1</item>
@@ -92,18 +91,17 @@
     </fileDesc>
     <encodingDesc>
       <projectDesc>
-        <p>Este archivo fue creado en el marco del proyecto Desenrollando el
-                              Cordel/Démêler le cordel/Untangling the cordel, dirigido por la
-                              profesora Constance Carta de la Universidad de Ginebra, con el apoyo
-                              de la Fundación filantrópica Famille Sandoz-Monique de Meuron.</p>
+        <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+          cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la Universidad
+          de Ginebra, con el apoyo de la Fundación filantrópica Famille Sandoz-Monique de
+          Meuron.</p>
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR non corregido</p>
+          <p>OCR no corregido</p>
         </correction>
         <normalization>
-          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto
-                                    original.</p>
+          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
         </normalization>
         <punctuation>
           <p>Se conserva la puntuación original.</p>
@@ -112,7 +110,7 @@
     </encodingDesc>
     <profileDesc>
       <langUsage>
-        <language ident="es">Español</language>
+        <language ident="ca">Catalán</language>
       </langUsage>
       <textClass>
         <keywords xml:base="http://datos.bne.es/tema/">
@@ -124,10 +122,14 @@
       </textClass>
     </profileDesc>
     <revisionDesc>
-      <change when="2023-04-19" who="#PJ">Création du fichier TEI P5 et encodage du
-                        corps du texte</change>
+      <change when="2023-04-19" who="#PJ">Création du fichier TEI P5 et encodage du corps du
+        texte</change>
+      <change when="2024-01-09" who="#EL">Add the IIIF links</change>
     </revisionDesc>
   </teiHeader>
+  <facsimile>
+    <graphic url="varios/Varios_179_1.jpg/full/200,/0/default.jpg"/>
+  </facsimile>
   <sourceDoc xml:id="automaticTranscription">
     <surface xml:id="Varios_179_1" type="page" cert="silver">
       <graphic url="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_179_1/full/full/0/default.jpg"/>
@@ -1287,15 +1289,20 @@
   <text>
     <body>
       <div>
-        <pb n="1" source="Varios_179_1.jpg" facs="fedora_Varios_179_1/full/full/0/default.jpg"/>
+        <pb n="1" source="Varios_179_1.jpg" facs="varios/Varios_179_1.jpg/"/>
         <div>
           <head type="primer_titulo"><lb/>LO TOT SANS<lb/>EN BARCELONA,<lb/>CASTANYAS Y
-                                    PANALLETS.</head>
-          <head type="subtitulo_parte" rend="negrita"><lb/>Per la festa de Tots Sans<lb/>tan célebre en
-                                    Barceloma<lb/>un amich al potble dona<lb/>consells molt
-                                    interesants.</head>
+            PANALLETS.</head>
+
+          <lg rend="negrita">
+            <l rend="indent">Per la festa de Tots Sans</l>
+            <l>tan célebre en Barcelona</l>
+            <l>un amich al potble dona</l>
+            <l>consells molt interesants.</l>
+          </lg>
+
           <lg>
-            <l>Si potble barcelonés</l>
+            <l rend="indent">Si potble barcelonés</l>
             <l>en mi tens un bon amich</l>
             <l>y ho veurás ab lo que dich</l>
             <l>sens quem desmenteixi en res,</l>
@@ -1307,7 +1314,7 @@
             <l>Castanyas y Panallets.</l>
           </lg>
           <lg>
-            <l>En dia de tal tabola</l>
+            <l rend="indent">En dia de tal tabola</l>
             <l>voldria jo..... ¡en veritat!</l>
             <l>que tota la societat</l>
             <l>fos una familia sola,</l>
@@ -1318,9 +1325,10 @@
             <l>pera fer la Castanyada</l>
             <l>abrasanse el gran y el xich.</l>
           </lg>
-          <pb n="2" source="Varios_179_2.jpg" facs="fedora_Varios_179_2/full/full/0/default.jpg"/>
+
+          <pb n="2" source="Varios_179_2.jpg" facs="varios/Varios_179_2.jpg/"/>
           <lg>
-            <l>Voldria que en abundant</l>
+            <l rend="indent">Voldria que en abundant</l>
             <l>tingueseu los talls y el trago</l>
             <l>y que ningu y fes lo vago,</l>
             <l>la ocasió aprofitant,</l>
@@ -1332,7 +1340,7 @@
             <l>cap pusa , ni cap mosquit.</l>
           </lg>
           <lg>
-            <l>Pero si no potsé aixó</l>
+            <l rend="indent">Pero si no potsé aixó</l>
             <l>hi ha de habé algu que no tinga,</l>
             <l>li diré que ab mi sem vinga ,</l>
             <l>que no li faltará... no :</l>
@@ -1344,7 +1352,7 @@
             <l>la Castanya ó Panallet.</l>
           </lg>
           <lg>
-            <l>Al Señor Don Fanfarron</l>
+            <l rend="indent">Al Señor Don Fanfarron</l>
             <l>que perque te algun picat</l>
             <l>va sempre tan estufat</l>
             <l>que ni pot pasá pel Born,</l>
@@ -1353,7 +1361,7 @@
             <l>Castanya.</l>
           </lg>
           <lg>
-            <l>A Don Ricardo famós</l>
+            <l rend="indent">A Don Ricardo famós</l>
             <l>modelo de humilitat</l>
             <l>que ni el bou vol estufat,</l>
             <l>ni tenir un rey al cos ,</l>
@@ -1362,14 +1370,16 @@
             <l>Panallet.</l>
           </lg>
           <lg>
-            <l>A Don Sedes sapiencia</l>
+            <l rend="indent">A Don Sedes sapiencia</l>
             <l>que parla sempre llatí</l>
             <l>que ni vol la boca obrí</l>
             <l>perque el poch parlar es ciencia,</l>
             <l>que tracta ab tota indecencia</l>
             <l>al que'l piñol li reganya.</l>
             <l>Castanya.</l>
-            <l>Pero al Senyo Don Prudenci</l>
+          </lg>
+          <lg>
+            <l rend="indent">Pero al Senyo Don Prudenci</l>
             <l>que encara que lletrat es,</l>
             <l>no se aferra en sos parés</l>
             <l>el es que algu lo convenci,</l>
@@ -1378,7 +1388,7 @@
             <l>Panallet.</l>
           </lg>
           <lg>
-            <l>A tots los semi-lletrats,</l>
+            <l rend="indent">A tots los semi-lletrats,</l>
             <l>autors de obras romancistas ,</l>
             <l>redactors periodistas</l>
             <l>que son tots un desgraciats ,</l>
@@ -1387,7 +1397,7 @@
             <l>Castanya.</l>
           </lg>
           <lg>
-            <l>Pero si en avant ni ha cap,</l>
+            <l rend="indent">Pero si en avant ni ha cap,</l>
             <l>que fins hara no ni hagut ,</l>
             <l>que tinga un poc de virtut,</l>
             <l>que emplehi be lo que sap,</l>
@@ -1396,7 +1406,7 @@
             <l>Panallet.</l>
           </lg>
           <lg>
-            <l>A mi senyo Don Simplici ,</l>
+            <l rend="indent">A mi senyo Don Simplici ,</l>
             <l>asistent de Doña Urraca</l>
             <l>que li grata la butxaca,</l>
             <l>y el te á punt de haná al hospici</l>
@@ -1405,7 +1415,7 @@
             <l>Castanya.</l>
           </lg>
           <lg>
-            <l>Pero á Don Simeon</l>
+            <l rend="indent">Pero á Don Simeon</l>
             <l>que de Urracas no bol bromas</l>
             <l>per no quedarse sens plomas ,</l>
             <l>con lo Gallo de Moron ,</l>
@@ -1414,7 +1424,7 @@
             <l>Panallet.</l>
           </lg>
           <lg>
-            <l>A Don Cornelio lo espós</l>
+            <l rend="indent">A Don Cornelio lo espós</l>
             <l>de Madama Egipciaca ,</l>
             <l>quel sap afarmá á la estaca</l>
             <l>com si fos un Cá ó un Os ,</l>
@@ -1423,17 +1433,19 @@
             <l>Castanya.</l>
           </lg>
           <lg>
-            <l>Pero á Don Pantaleon</l>
+            <l rend="indent">Pero á Don Pantaleon</l>
             <l>marit de Donya Cotorra</l>
             <l>queno vol que la senyora</l>
             <l>se li posia el pantalon</l>
             <l>y que sap ab gran tesson</l>
-          </lg>
-          <pb n="3" source="Varios_179_3.jpg" facs="fedora_Varios_179_3/full/full/0/default.jpg"/>
-          <lg>
+
+            <pb n="3" source="Varios_179_3.jpg" facs="varios/Varios_179_3.jpg/"/>
+
             <l>si va tort , ferla anar dret.</l>
             <l>Panallet.</l>
-            <l>A Don Bartolo xipéll ,</l>
+          </lg>
+          <lg>
+            <l rend="indent">A Don Bartolo xipéll ,</l>
             <l>que apenas del niu eixit :</l>
             <l>vola per tot atrevit</l>
             <l>com si fos ya un gros aucell,</l>
@@ -1442,7 +1454,7 @@
             <l>Castanya.</l>
           </lg>
           <lg>
-            <l>Pero á Don Primo rufiá</l>
+            <l rend="indent">Pero á Don Primo rufiá</l>
             <l>que encara que de bech groch</l>
             <l>va volant á poch á poch</l>
             <l>y te bon comte allí ahon va ;</l>
@@ -1451,7 +1463,7 @@
             <l>Panallet.</l>
           </lg>
           <lg>
-            <l>A tots aquets francesets</l>
+            <l rend="indent">A tots aquets francesets</l>
             <l>que semblan fregalls de aygera,</l>
             <l>que pudan com una quera</l>
             <l>y van ab la orga ó miquets</l>
@@ -1460,7 +1472,7 @@
             <l>Castanya.</l>
           </lg>
           <lg>
-            <l>Pero si ni ha algun de bó</l>
+            <l rend="indent">Pero si ni ha algun de bó</l>
             <l>que vinga ab lo bon intent</l>
             <l>de plantá un establiment ,</l>
             <l>útil á la nació</l>
@@ -1469,7 +1481,7 @@
             <l>Panallet.</l>
           </lg>
           <lg>
-            <l>Los xufleros Valencians</l>
+            <l rend="indent">Los xufleros Valencians</l>
             <l>que sembla poden fer vaca</l>
             <l>ab lo porquet de la estaca</l>
             <l>bruts de roba, cara y mans ,</l>
@@ -1478,7 +1490,7 @@
             <l>Castanya.</l>
           </lg>
           <lg>
-            <l>Pero si podem lográ ,</l>
+            <l rend="indent">Pero si podem lográ ,</l>
             <l>ya que son de regadiu ,</l>
             <l>ques tiguian dintre de un riu ,</l>
             <l>quels netegia aquí ó allá ,</l>
@@ -1487,7 +1499,7 @@
             <l>Panallet.</l>
           </lg>
           <lg>
-            <l>Si ve aquí algun canastrero</l>
+            <l rend="indent">Si ve aquí algun canastrero</l>
             <l>dels que rodan pels carres ,</l>
             <l>venent mistos y papers</l>
             <l>ó altres cosas que son cero</l>
@@ -1496,7 +1508,7 @@
             <l>Castanya.</l>
           </lg>
           <lg>
-            <l>Pero si es que vol dir clá</l>
+            <l rend="indent">Pero si es que vol dir clá</l>
             <l>mes que siguia de amagat ,</l>
             <l>confesan be la veritat</l>
             <l>de las trampetas que fa</l>
@@ -1505,7 +1517,7 @@
             <l>Panallet.</l>
           </lg>
           <lg>
-            <l>A los senyors escribents,</l>
+            <l rend="indent">A los senyors escribents,</l>
             <l>amanuenses de advocats</l>
             <l>que van tots estarrufats</l>
             <l>y semblan uns opulents,</l>
@@ -1514,7 +1526,7 @@
             <l>Castanya.</l>
           </lg>
           <lg>
-            <l>Pero als pobrets escribents</l>
+            <l rend="indent">Pero als pobrets escribents</l>
             <l>quen diuen memorialistas,</l>
             <l>que sempre ab las caras tristas</l>
             <l>están é impacients ,</l>
@@ -1523,7 +1535,7 @@
             <l>Panallet.</l>
           </lg>
           <lg>
-            <l>Al senyor procuradó</l>
+            <l rend="indent">Al senyor procuradó</l>
             <l>dels que jon dich Don Patés ,</l>
             <l>que maneja los dinés</l>
             <l>no seus, sino del senyó ,</l>
@@ -1532,7 +1544,7 @@
             <l>Castanya.</l>
           </lg>
           <lg>
-            <l>Pero si regonegut</l>
+            <l rend="indent">Pero si regonegut</l>
             <l>conexen lo mal que fá ,</l>
             <l>tracta en un tot de esmená</l>
             <l>lo mal modo que ha tingut,</l>
@@ -1541,9 +1553,11 @@
             <l>Panallet.</l>
           </lg>
           <lg>
-            <l>A toda aquesta briballa,</l>
+            <l rend="indent">A toda aquesta briballa,</l>
             <l>ho dihemne canalleta</l>
-            <pb n="4" source="Varios_179_4.jpg" facs="fedora_Varios_179_4/full/full/0/default.jpg"/>
+
+            <pb n="4" source="Varios_179_4.jpg" facs="varios/Varios_179_4.jpg/"/>
+
             <l>bue en tenint una peseta</l>
             <l>ja per tot arma batalla</l>
             <l>que corre, riu, salta y balla,</l>
@@ -1551,7 +1565,7 @@
             <l>Castanya.</l>
           </lg>
           <lg>
-            <l>Pero si de la masega</l>
+            <l rend="indent">Pero si de la masega</l>
             <l>algun ó altre non fa cas</l>
             <l>y sap arrufar lo nas</l>
             <l>en sentint que put á pega</l>
@@ -1560,7 +1574,7 @@
             <l>Panallet.</l>
           </lg>
           <lg>
-            <l>A mi senyora la Guida</l>
+            <l rend="indent">A mi senyora la Guida</l>
             <l>que no es si no de nom</l>
             <l>ques menja ab los ulls tothom</l>
             <l>y es en un tot presumida,</l>
@@ -1569,7 +1583,7 @@
             <l>Castanya.</l>
           </lg>
           <lg>
-            <l>Pero à Donya Prudencia,</l>
+            <l rend="indent">Pero à Donya Prudencia,</l>
             <l>guapa, amable, joveneta</l>
             <l>y per mes li fan la aleta</l>
             <l>sap comportarse ab decencia,</l>
@@ -1578,7 +1592,7 @@
             <l>Panallet.</l>
           </lg>
           <lg>
-            <l>Si ha alguna bojeta vella</l>
+            <l rend="indent">Si ha alguna bojeta vella</l>
             <l>que ni la edad ha pugut</l>
             <l>ferli perdre la habitut</l>
             <l>del que feya cuant novella</l>
@@ -1587,7 +1601,7 @@
             <l>Castanya.</l>
           </lg>
           <lg>
-            <l>Pero la bona velleta</l>
+            <l rend="indent">Pero la bona velleta</l>
             <l>haguia estat lo que haguia estat</l>
             <l>que conformanse á sa edat</l>
             <l>ara , diu , jo , ya li feta,</l>
@@ -1596,7 +1610,7 @@
             <l>Panallet.</l>
           </lg>
           <lg>
-            <l>A la viuda bandereta ,</l>
+            <l rend="indent">A la viuda bandereta ,</l>
             <l>que lo marit va plorar</l>
             <l>lo dia quel va enterrar ,</l>
             <l>y que despues gracióseta</l>
@@ -1605,7 +1619,7 @@
             <l>Castanya.</l>
           </lg>
           <lg>
-            <l>sa memoria un poch conserva,</l>
+            <l rend="indent">sa memoria un poch conserva,</l>
             <l>Pero á la que del espós</l>
             <l>que va ab la mes gran reservá</l>
             <l>si es que algú li busca el cos,</l>
@@ -1614,7 +1628,7 @@
             <l>Panallet.</l>
           </lg>
           <lg>
-            <l>A tot aquet enferfech</l>
+            <l rend="indent">A tot aquet enferfech</l>
             <l>de mosas altas y nanas,</l>
             <l>que de una hora lluny las ganas</l>
             <l>fan veurer de no está en sech,</l>
@@ -1623,7 +1637,7 @@
             <l>Castanya.</l>
           </lg>
           <lg>
-            <l>En fi jo á naquet dia</l>
+            <l rend="indent">En fi jo á naquet dia</l>
             <l>á tothom regalaré,</l>
             <l>pero á cada hu daré</l>
             <l>alló de que digne sia</l>
@@ -1633,7 +1647,9 @@
             <l>podra dir tot satisfet</l>
             <l>á mi ham dará un Panallet;</l>
             <l>á mi una bona Castanya.</l>
-            <l>Sols falta dirvos que jo</l>
+          </lg>
+          <lg>
+            <l rend="indent">Sols falta dirvos que jo</l>
             <l>també so de carn y ossos ,</l>
             <l>que per mes quem fasia trosos</l>
             <l>no puch ser per totom bó:</l>
@@ -1644,7 +1660,7 @@
             <l>En lloch de dam panallets,</l>
             <l>nom dona sino castanyas.</l>
           </lg>
-          <p><lb/>Es propietat.</p>
+          <p rend="cursiva"><lb/>Es propietat.</p>
         </div>
         <div type="colofon">
           <p><lb/>Barcelona: Imp. de T. Gaspar, bajada de la Cárcel.</p>

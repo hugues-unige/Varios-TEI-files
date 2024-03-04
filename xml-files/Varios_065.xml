@@ -1,18 +1,17 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../Schema/oddPliego_varios.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:alto="http://www.loc.gov/standards/alto/ns-v4#" xml:id="Varios_065">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Varios_065">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>CARTA AMOROSA QUE ESCRIBE UN SOLDADO A SU AMANTE Y CONTESTACION DE ELLA A EL escritas ambas en trovos nuevos.</title>
+        <title>CARTA AMOROSA QUE ESCRIBE UN SOLDADO A SU AMANTE</title>
         <respStmt>
           <name/>
           <resp>Codificación TEI</resp>
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <authority role="rightsHolder">Bibliothèque Universitaire de
-                            Genève</authority>
+        <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
         <availability status="restricted">
           <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
         </availability>
@@ -20,16 +19,17 @@
       <sourceDesc>
         <biblFull>
           <titleStmt>
-            <title type="titulo_completo">CARTA AMOROSA QUE ESCRIBE UN SOLDADO A SU AMANTE Y CONTESTACION DE ELLA A EL escritas ambas en trovos nuevos.</title>
-            <title type="titulo_breve">CARTA AMOROSA</title>
+            <title type="titulo_completo">CARTA AMOROSA QUE ESCRIBE UN SOLDADO A SU AMANTE Y
+              CONTESTACION DE ELLA A EL escritas ambas en trovos nuevos.</title>
+            <title type="titulo_breve">CARTA AMOROSA QUE ESCRIBE UN SOLDADO A SU AMANTE</title>
           </titleStmt>
           <editionStmt>
             <p/>
           </editionStmt>
           <publicationStmt>
-            <publisher>Española</publisher>
+            <publisher>Tipografía Española</publisher>
             <pubPlace ref="https://www.geonames.org/3128760/barcelona.html">Barcelona</pubPlace>
-            <date>[s.a]</date>
+            <date cert="low" when="1800-01-01">[s.a.]</date>
           </publicationStmt>
         </biblFull>
         <msDesc>
@@ -37,7 +37,8 @@
             <country>Suisse</country>
             <settlement>Genève</settlement>
             <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"/>
-                  </repository>
+            </repository>
+            <collection>Colección Varios</collection>
             <idno type="cote"/>
             <idno type="DOI">10.5281/zenodo.6562924</idno>
             <altIdentifier>
@@ -45,10 +46,15 @@
             </altIdentifier>
           </msIdentifier>
           <msContents>
-            <summary/>
+            <summary>Dos partes</summary>
             <msItem>
-              <locus/>
-              <title/>
+              <locus>1-2</locus>
+              <title>Carta amorosa que escribe un soldado a su amante y contestacion de ella a el
+                escritas ambas en trovos nuevos.</title>
+            </msItem>
+            <msItem>
+              <locus>3-4</locus>
+              <title>Contestacion de la amante al soldado</title>
             </msItem>
           </msContents>
           <physDesc>
@@ -90,18 +96,17 @@
     </fileDesc>
     <encodingDesc>
       <projectDesc>
-        <p>Este archivo fue creado en el marco del proyecto Desenrollando el
-                            Cordel/Démêler le cordel/Untangling the cordel, dirigido por la
-                            profesora Constance Carta de la Universidad de Ginebra, con el apoyo de
-                            la Fundación filantrópica Famille Sandoz-Monique de Meuron.</p>
+        <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+          cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la Universidad
+          de Ginebra, con el apoyo de la Fundación filantrópica Famille Sandoz-Monique de
+          Meuron.</p>
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR non corregido</p>
+          <p>OCR no corregido</p>
         </correction>
         <normalization>
-          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto
-                                original.</p>
+          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
         </normalization>
         <punctuation>
           <p>Se conserva la puntuación original.</p>
@@ -123,9 +128,13 @@
     </profileDesc>
     <revisionDesc>
       <change when="2022-06-15" who="#PJ">Création du fichier TEI P5 et encodage du corps du
-                        texte</change>
+        texte</change>
+      <change when="2024-01-09" who="#EL">Add the IIIF links</change>
     </revisionDesc>
   </teiHeader>
+  <facsimile>
+    <graphic url="varios/Varios_065_1.jpg/full/200,/0/default.jpg"/>
+  </facsimile>
   <sourceDoc xml:id="automaticTranscription">
     <surface xml:id="Varios_065_1" type="page" cert="silver">
       <graphic url="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_065_1/full/full/0/default.jpg"/>
@@ -1353,331 +1362,325 @@
     <body>
       <div>
         <div>
-          <pb n="1" source="Varios_065_1.jpg" facs="fedora_Varios_065_1/full/full/0/default.jpg"/>
+          <pb n="1" source="Varios_065_1.jpg" facs="varios/Varios_065_1.jpg/"/>
+
           <fw type="impresorNum">Núm. 55.</fw>
+
           <head type="primer_titulo"><lb/>GARTA AMOROSA</head>
-          <head type="subtitulo_parte"><lb/>QUE ESCRIBE UN SOLDADO A SU AMANTE<lb/>Y CONTESTACION DE ELLA À EL<lb/><hi rend="cursiva">escritas ambas en trovos nuevos.</hi></head>
-          <lg>
-            <l>Apreciada prenda mia:</l>
+          <head type="subtitulo"><lb/>QUE ESCRIBE UN SOLDADO A SU AMANTE<lb/>Y CONTESTACION DE ELLA
+            À EL<lb/><hi rend="cursiva">escritas ambas en trovos nuevos.</hi></head>
+
+          <div>
+            <l rend="indent">Apreciada prenda mia:</l>
             <l>hoy que no hay ejercicio,</l>
             <l>meto la pluma al tintero</l>
             <l>y estos rengiones te escribo.</l>
-            <l>De salud sigo muy bien,</l>
+            <l rend="indent">De salud sigo muy bien,</l>
             <l>de amores cual cada día;</l>
             <l>por lo tanto desearía</l>
             <l>que así te hallases tambien,</l>
             <l rend="cursiva">apreciada prenda mia.</l>
-            <l>Las fatigas del oficio</l>
+            <l rend="indent">Las fatigas del oficio</l>
             <l>ya no me cansan cualantes;</l>
             <l>y así, cual cosa de vicio,</l>
             <l>aprovecho estos instantes</l>
             <l rend="cursiva">hoy que no hay ejercicio.</l>
-            <l>En tu corazón sincero</l>
+            <l rend="indent">En tu corazón sincero</l>
             <l>vivo siempre confiado;</l>
             <l>pero como saber quiero</l>
             <l>si alguna vez me has engañado,</l>
             <l rend="cursiva">meto la pluma al tintero.</l>
-          </lg>
-          <lg>
-            <l>Sin saber de tí no vivo,</l>
+            <l rend="indent">Sin saber de tí no vivo,</l>
             <l>que el que está ansente está muerto</l>
             <l>ó cuando menos cautivo;</l>
             <l>quiero piobarte que es cierto</l>
             <l rend="cursiva">y estos renglones te escribo.</l>
-            <l>Tengo el corazón más negro</l>
+            <l rend="indent">Tengo el corazón más negro</l>
             <l>que el hollín de chimenea;</l>
             <l>hage Dios por mi salud</l>
             <l>que dentro poco te vea.</l>
-            <l>Ya sabes cuánto me alegro</l>
+            <l rend="indent">Ya sabes cuánto me alegro</l>
             <l>cuando tus cartas recibo,</l>
             <l>con memorias de mi suegro;</l>
             <l>pero ahora que te escribo</l>
             <l rend="cursiva">tengo el corazón más negro.</l>
-            <l>La fatigosa tarea</l>
+            <l rend="indent">La fatigosa tarea</l>
             <l>de la vida del soldado,</l>
             <l>sin mentir, que es cosa fea,</l>
             <l>me tiene mas chamuscado</l>
             <l rend="cursiva">que el hollin de chimenea.</l>
-          </lg>
-          <pb n="2" source="Varios_065_2.jpg" facs="fedora_Varios_065_2/full/full/0/default.jpg"/>
-          <lg>
-            <l>Yo la verdad, más prefiero</l>
+
+            <pb n="2" source="Varios_065_2.jpg" facs="varios/Varios_065_2.jpg/"/>
+
+            <l rend="indent">Yo la verdad, más prefiero</l>
             <l>gozar de tu juventud;</l>
             <l>pues lejos de tí me muero,</l>
             <l>y que vuela placentero</l>
             <l rend="cursiva">haga Dios por mi salud.</l>
-            <l>Por cuartel quiero mi aldea</l>
+            <l rend="indent">Por cuartel quiero mi aldea</l>
             <l>y por capitán á tí,</l>
             <l>nuestros besos por pelea</l>
             <l>y será muy fácil, si,</l>
             <l rend="cursiva">que dentro poco te vea.</l>
-            <l>Quiero mucho más morirme</l>
+            <l rend="indent">Quiero mucho más morirme</l>
             <l>entre tus brazos, rendido,</l>
             <l>antes que me dé en la frente</l>
             <l>la bala del enemigo.</l>
-            <l>Si aun me quieres tú á mí</l>
+            <l rend="indent">Si aun me quieres tú á mí</l>
             <l>haz el favor de decirme:</l>
             <l>yo también te quiero á tí,</l>
             <l>y antes que no sea así</l>
             <l rend="cursiva">quiero mucho más morirme.</l>
-            <l>Cuando esto esté concluído</l>
+            <l rend="indent">Cuando esto esté concluído</l>
             <l>mi promesa cumpliré</l>
             <l>y al verme ya tu marido,</l>
             <l>gustoso me moriré</l>
             <l rend="cursiva">entre tus brazos rendido.</l>
-            <l>No creo que falsamente</l>
+            <l rend="indent">No creo que falsamente</l>
             <l>trates de jurarme amor,</l>
             <l>esto fuera inconsecuente;</l>
             <l>y asi dímelo por favor</l>
             <l rend="cursiva">antes que me dé en la frente.</l>
-            <l>Yo hasta morir te he de amar,</l>
+            <l rend="indent">Yo hasta morir te he de amar,</l>
             <l>sin engaño te lo digo;</l>
             <l>de tí no me he de apartar</l>
             <l>si contigo me ha de hallar</l>
             <l rend="cursiva">la bala del enemigo.</l>
-            <l>De dia no sale el sol.</l>
+            <l rend="indent">De dia no sale el sol.</l>
             <l>ni de noche las estrellas;</l>
             <l>tú sin mí no ves á él,</l>
             <l>yo sin tí no veo á ellas</l>
-            <l>Hermosa niña á quien amo,</l>
+            <l rend="indent">Hermosa niña á quien amo,</l>
             <l>luz de purpúreo arrebol,</l>
             <l>no respondes si te llamo</l>
             <l>y por eso ahora esclamo</l>
             <l rend="cursiva">de día no sale el sol.</l>
-            <l>Corría tras de tus huellas</l>
+            <l rend="indent">Corría tras de tus huellas</l>
             <l>en busca de tus sonrisas,</l>
             <l>y ahora no me hablas de ellas</l>
             <l>ni de mañana les brisas,</l>
             <l rend="cursiva">ni de noche las estrellas.</l>
-            <l>Viertes llanto, ya lo sé,</l>
+            <l rend="indent">Viertes llanto, ya lo sé,</l>
             <l>por la ausencia de un doncel;</l>
             <l>se lo he dicho al coronel,</l>
             <l>y se lo dije porque</l>
             <l rend="cursiva">tú sin mi no ves á él.</l>
-          </lg>
-          <lg>
+            <l rend="indent">Por el pueblo y la ciudad</l>
             <l>encuentro niñas muy bellas,</l>
-            <l>Por el pueblo y la ciudad</l>
             <l>me muestran su voluntad;</l>
             <l>pero te digo en verdad:</l>
-            <l>yo sin ti no veo á ellas.</l>
+            <l rend="cursiva">yo sin ti no veo á ellas.</l>
+            <l rend="indent">Cuando veo que se pierde</l>
             <l>del fusil el fogonazo,</l>
-            <l>Cuando veo que se pierde</l>
             <l>me preguntó algunas veces:</l>
             <l>¿perderé yo la que amo?</l>
-            <l>Escuché en cierta canción,</l>
+            <l rend="indent">Escuché en cierta canción,</l>
             <l>decir la esperanza es verde;</l>
             <l>y yo en alguna ocasión</l>
             <l>digo que tiene razón.</l>
-            <l>cuando veo que se pierde.</l>
-            <l>Si como deseo ya,</l>
+            <l rend="cursiva">cuando veo que se pierde.</l>
+            <l rend="indent">Si como deseo ya,</l>
             <l>me duermo yo en tu regazo,</l>
             <l>tanta mi dicha será</l>
             <l>que no me despertará</l>
-            <l>del fusil el fogonazo.</l>
-            <l>Aunque mi pecho confía</l>
+            <l rend="cursiva">del fusil el fogonazo.</l>
+            <l rend="indent">Aunque mi pecho confía</l>
             <l>pagarte el amor con creces,</l>
             <l>del dolor hasta las heces,</l>
             <l>si yo apuraré algún dia,</l>
-            <l>me pregunto algunas veces.</l>
-            <l>Para vivir con sosiego</l>
+            <l rend="cursiva">me pregunto algunas veces.</l>
+            <l rend="indent">Para vivir con sosiego</l>
             <l>tu juramento reclamo:</l>
             <l>dicen que el amor es ciego;</l>
             <l>yo pregunto desde luego:</l>
-            <l>¿perderé yo la que amo?</l>
-            <l>No me olvideis que soy fiel.</l>
+            <l rend="cursiva">¿perderé yo la que amo?</l>
+            <l rend="indent">No me olvideis que soy fiel.</l>
             <l>sin tí no podré vivir;</l>
             <l>ahora te dige adios,</l>
             <l>hasta que vuelva á escribir.</l>
-            <l>Tú eres rosa y yo clavel,</l>
+            <l rend="indent">Tú eres rosa y yo clavel,</l>
             <l>yo lirio y tú azucena,</l>
             <l>tu azúcar y yo miel;</l>
             <l>si no quieres darme pena</l>
-            <l>no me olvides que soy fiel.</l>
-            <l>¿Qué mas te puedo escribir?</l>
+            <l rend="cursiva">no me olvides que soy fiel.</l>
+            <l rend="indent">¿Qué mas te puedo escribir?</l>
             <l>¿qué más te puedo cantar?</l>
             <l>¿qué más te puedo decir?</l>
             <l>si me llegas a olvidar,</l>
-            <l>sin tí no podré vivir.</l>
-            <l>Somos un alma los dos,</l>
+            <l rend="cursiva">sin tí no podré vivir.</l>
+            <l rend="indent">Somos un alma los dos,</l>
             <l>vivimos de igual aliento,</l>
             <l>vamos de iguel diche en pos...</l>
             <l>¡Ay! que me llama el sargento,</l>
-            <l>ahora te digo adios.</l>
-            <l>Me levanto de la silla</l>
+            <l rend="cursiva">ahora te digo adios.</l>
+            <l rend="indent">Me levanto de la silla</l>
             <l>y me dispongo á partir;</l>
             <l>da expresiones á Pepilla,</l>
             <l>adios hermosa chiquilla</l>
-            <l>hasta que vuelva á escribir.</l>
-          </lg>
-        </div>
-      </div>
-      <div>
-        <div>
-          <pb n="3" source="Varios_065_3.jpg" facs="fedora_Varios_065_3/full/full/0/default.jpg"/>
-          <fw type="reclamo">CONTESTACION DE LA AMANTE AL SULDADO</fw>
-          <lg>
-            <l>Cuando recibí tu carta</l>
+            <l rend="cursiva">hasta que vuelva á escribir.</l>
+          </div>
+
+          <div>
+            <pb n="3" source="Varios_065_3.jpg" facs="varios/Varios_065_3.jpg/"/>
+
+            <head type="titulo_parte">CONTESTACION DE LA AMANTE AL SULDADO</head>
+
+            <l rend="indent">Cuando recibí tu carta</l>
             <l>me dió un salto el corazón;</l>
             <l>que ya la estaba aguardando</l>
             <l>con lagrimitas de amor.</l>
-            <l>Aunque mi alma esté harta</l>
+            <l rend="indent">Aunque mi alma esté harta</l>
             <l>de tanto tiempo esperar</l>
             <l>y el corazón se me parta,</l>
             <l>mucho me puede alegrar</l>
-            <l>cuando recibi tu carta.</l>
-            <l>Tus palabras dulces son,</l>
+            <l rend="cursiva">cuando recibi tu carta.</l>
+            <l rend="indent">Tus palabras dulces son,</l>
             <l>escribe muchas como estas;</l>
             <l>que al ver en esta ocasión</l>
             <l>tus amorosas protestas</l>
-            <l>me dió un salto et corazón.</l>
-            <l>Yo la recibí llorando,</l>
+            <l rend="cursiva">me dió un salto et corazón.</l>
+            <l rend="indent">Yo la recibí llorando,</l>
             <l>muy bien lo puedes creer</l>
             <l>porque solo vivo amando</l>
             <l>y sepas que desde ayer</l>
-            <l>que ya ta estaba aguardando.</l>
-            <l>La leí con mucho ardor</l>
+            <l rend="cursiva">que ya ta estaba aguardando.</l>
+            <l rend="indent">La leí con mucho ardor</l>
             <l>á la luz de una velita,</l>
             <l>y fué tanto mi dolor,</l>
-          </lg>
-          <lg>
             <l>que la dejé manchadita</l>
-            <l>con lagrimitas de amor.</l>
-            <l>De tu amor vivo de día,</l>
+            <l rend="cursiva">con lagrimitas de amor.</l>
+            <l rend="indent">De tu amor vivo de día,</l>
             <l>con tu amor de noche sueño,</l>
             <l>escribe más á menudo</l>
             <l>por dar calma á mi tormento.</l>
-            <l>Hoy cuando el alba sonría</l>
+            <l rend="indent">Hoy cuando el alba sonría</l>
             <l>y concluya de dormir,</l>
             <l>será grande mi alegría;</l>
             <l>porque yo para existir</l>
-            <l>de tu amor vivo de día.</l>
-            <l>Llega la hora de acostarme</l>
+            <l rend="cursiva">de tu amor vivo de día.</l>
+            <l rend="indent">Llega la hora de acostarme</l>
             <l>y formo tenaz empeño</l>
             <l>de tu amor en olvidarme;</l>
             <l>y aunque quiera desviarme,</l>
-            <l>con tu amor de noche sueño.</l>
-            <l>Del tuyo, mi bien, no dudo;</l>
+            <l rend="cursiva">con tu amor de noche sueño.</l>
+            <l rend="indent">Del tuyo, mi bien, no dudo;</l>
             <l>que fuera el dudar amargo,</l>
             <l>aunque á veces estés mudo,</l>
             <l>por esto ahora te encargo</l>
-            <l>escribe mas á menudo.</l>
-            <l>En tí está mi pensamiento,</l>
-          </lg>
-        </div>
-      </div>
-      <div>
-        <div>
-          <pb n="4" source="Varios_065_4.jpg" facs="fedora_Varios_065_4/full/full/0/default.jpg"/>
-          <l>mi alma vive contigo;</l>
-          <l>siquiera sea un momento,</l>
-          <l>piensa tú una vez conmigo</l>
-          <l>por dar calma é mi ton mento</l>
-          <l>No tiene la llor su aroma,</l>
-          <l>ni los campos su verdor,</l>
-          <l>ni el sol su brillo cual antes,</l>
-          <l>de la susencia de mi amor,</l>
-          <l>Cuando mi cabeza osoma</l>
-          <l>por la veija del jardín</l>
-          <l>una flor mi mano toca,</l>
-          <l>voy a olerla y digo al fin:</l>
-          <l>no tiene la for su aroma.</l>
-          <l>Salgo al campo con ardor</l>
-          <l>y de pradera en prudera</l>
-          <l>recorro todo el redor,</l>
-          <l>esclamando lastimera:</l>
-          <l>ni los campos su verdor.</l>
-          <l>¡Ojos de tieles amantes!</l>
-          <l>¿quién así os ciega? ¿quién?</l>
-          <l>vuestros amores constantes:</l>
-          <l>los míos ahora no ven</l>
-          <l>ni el sol su brillo cual antes.</l>
-          <l>Cubre mi frente el sudor,</l>
-          <l>porque ya quiere asaltarme</l>
-          <l>un recuerdo de dolor</l>
-          <l>¿Cuándo no hebré de quejarme</l>
-          <l>de la ausencia de mi amor?</l>
-          <l>Está el rey en su palacio,</l>
-          <l>mi amante de centinela,</l>
-          <l>mis ojos soñando amores</l>
-          <l>y mi corazón en vela.</l>
-          <l>Del lugar que aman tanto</l>
-          <l>te lleva el rey á otro espacio;</l>
-          <l>no le importa tu quebranto.</l>
-          <l>pues mientras tú viertas llanto</l>
-          <l>esta el rey en su palacio.</l>
-          <l>Si mi amor oreoiendo vá,</l>
-          <l>la uusencia me desconsuela;</l>
-          <l>no concilio el sueño ya,</l>
-          <l>porque mientras duermo, está</l>
-          <l>mi amante de centinela.</l>
-          <l>Tus noches sufriendo van</l>
-          <l>de los frios los rigores;</l>
-          <l>díle, pues, el capitán</l>
-          <l>que hoy aquí de noche están</l>
-          <l>mas ojos soñando amnores.</l>
-          <l>Con ardiente frenesí,</l>
-          <l>cuando estés de centinela;</l>
-          <l>pon tu pensamiento en mí,</l>
-          <lg>
+            <l rend="cursiva">escribe mas á menudo.</l>
+            <l rend="indent">En tí está mi pensamiento,</l>
+
+            <pb n="4" source="Varios_065_4.jpg" facs="varios/Varios_065_4.jpg/"/>
+
+            <l>mi alma vive contigo;</l>
+            <l>siquiera sea un momento,</l>
+            <l>piensa tú una vez conmigo</l>
+            <l rend="cursiva">por dar calma é mi ton mento</l>
+            <l rend="indent">No tiene la llor su aroma,</l>
+            <l>ni los campos su verdor,</l>
+            <l>ni el sol su brillo cual antes,</l>
+            <l>de la susencia de mi amor,</l>
+            <l rend="indent">Cuando mi cabeza osoma</l>
+            <l>por la veija del jardín</l>
+            <l>una flor mi mano toca,</l>
+            <l>voy a olerla y digo al fin:</l>
+            <l rend="cursiva">no tiene la for su aroma.</l>
+            <l rend="indent">Salgo al campo con ardor</l>
+            <l>y de pradera en prudera</l>
+            <l>recorro todo el redor,</l>
+            <l>esclamando lastimera:</l>
+            <l rend="cursiva">ni los campos su verdor.</l>
+            <l rend="indent">¡Ojos de tieles amantes!</l>
+            <l>¿quién así os ciega? ¿quién?</l>
+            <l>vuestros amores constantes:</l>
+            <l>los míos ahora no ven</l>
+            <l rend="cursiva">ni el sol su brillo cual antes.</l>
+            <l rend="indent">Cubre mi frente el sudor,</l>
+            <l>porque ya quiere asaltarme</l>
+            <l>un recuerdo de dolor</l>
+            <l>¿Cuándo no hebré de quejarme</l>
+            <l rend="cursiva">de la ausencia de mi amor?</l>
+            <l rend="indent">Está el rey en su palacio,</l>
+            <l>mi amante de centinela,</l>
+            <l>mis ojos soñando amores</l>
+            <l>y mi corazón en vela.</l>
+            <l rend="indent">Del lugar que aman tanto</l>
+            <l>te lleva el rey á otro espacio;</l>
+            <l>no le importa tu quebranto.</l>
+            <l>pues mientras tú viertas llanto</l>
+            <l rend="cursiva">esta el rey en su palacio.</l>
+            <l rend="indent">Si mi amor oreoiendo vá,</l>
+            <l>la uusencia me desconsuela;</l>
+            <l>no concilio el sueño ya,</l>
+            <l>porque mientras duermo, está</l>
+            <l rend="cursiva">mi amante de centinela.</l>
+            <l rend="indent">Tus noches sufriendo van</l>
+            <l>de los frios los rigores;</l>
+            <l>díle, pues, el capitán</l>
+            <l>que hoy aquí de noche están</l>
+            <l rend="cursiva">mas ojos soñando amnores.</l>
+            <l rend="indent">Con ardiente frenesí,</l>
+            <l>cuando estés de centinela;</l>
+            <l>pon tu pensamiento en mí,</l>
             <l>que estarán mi amor por ú</l>
             <l>y mi corazón en vela.</l>
-            <l>que te amo, mucho más;</l>
-            <l>Que te espero, ya lo sabes,</l>
+            <l rend="cursiva">que te amo, mucho más.</l>
+            <l rend="indent">Que te espero, ya lo sabes,</l>
             <l>el día que yo te vea</l>
             <l>será mi felicidad.</l>
             <l>de que pronto te veré,</l>
-            <l>Por ahora no te alabes</l>
+            <l rend="indent">Por ahora no te alabes</l>
             <l>pues paro el tiempo que acabes</l>
             <l>tan solo decirte sé,</l>
             <l>que te espero ya lo sabes.</l>
-            <l>cuando caiste soldado</l>
-            <l>Que son las cosas verás,</l>
+            <l rend="cursiva">cuando caiste soldado</l>
+            <l rend="indent">Que son las cosas verás,</l>
             <l>te amaba yu lo sabras,</l>
             <l>y ahora no sé que me ha dado</l>
             <l>que te amo mucho más.</l>
-            <l>no sé si será bromazo,</l>
-            <l>Tengo en mi fija una idea,</l>
+            <l rend="cursiva">no sé si será bromazo,</l>
+            <l rend="indent">Tengo en mi fija una idea,</l>
             <l>pero sea lo que sea,</l>
             <l>tengo de darte un abrezo</l>
-            <l>el diz que yo te vea.</l>
-            <l>Primero fuiste mi amigo,</l>
+            <l rend="cursiva">el diz que yo te vea.</l>
+            <l rend="indent">Primero fuiste mi amigo,</l>
             <l>despues mi amante en verdad;</l>
             <l>y ahora solo te digo:</l>
             <l>cuando me case contigo</l>
-            <l>será mi felicidaa.</l>
-            <l>Soy leal en el amor</l>
+            <l rend="cursiva">será mi felicidaa.</l>
+            <l rend="indent">Soy leal en el amor</l>
             <l>como franca en el querer,</l>
             <l>¡ay! que el arroz se me pega</l>
             <l>y aun tenemos que comer.</l>
-            <l>Por mí no pases dolor,</l>
+            <l rend="indent">Por mí no pases dolor,</l>
             <l>nl desconfies de mí;</l>
             <l>tú no me seas traidor,</l>
             <l>que yo he de probarte si</l>
-            <l>soy leal en el amor.</l>
-            <l>Si amas alguna mujer</l>
+            <l rend="cursiva">soy leal en el amor.</l>
+            <l rend="indent">Si amas alguna mujer</l>
             <l>no me mientes otra cosa:</l>
             <l>yo siempre igual he de ser,</l>
             <l>aunque no soy tan hermosa</l>
-            <l>como franca en el querer.</l>
-            <l>El amor fino se entrega</l>
+            <l rend="cursiva">como franca en el querer.</l>
+            <l rend="indent">El amor fino se entrega</l>
             <l>á un solo corazón;</l>
             <l>esto ninguno lo niega,</l>
             <l>voy á darte la razón...</l>
-            <l>¡ay! que el arroz se me pega.</l>
-            <l>Adios, mi bien, mi querer,</l>
+            <l rend="cursiva">¡ay! que el arroz se me pega.</l>
+            <l rend="indent">Adios, mi bien, mi querer,</l>
             <l>no te puedo escribir más;</l>
             <l>prooura pronto volver.</l>
             <l>Esta tarde viene Blas</l>
-            <l>y aun tenemos que comer.</l>
-          </lg>
+            <l rend="cursiva">y aun tenemos que comer.</l>
+          </div>
         </div>
+
         <div type="colofón_vendedor">
-          <p><lb/>Se halla de venta en la Papéleria del Sucesor de Antonio Bosch
-                        <lb/>Bou de la Plaza Nueva. 13. Barcelona 
-                        </p>
+          <p rend="cursiva"><lb/>Se halla de venta en la Papéleria del Sucesor de Antonio Bosch
+            <lb/>Bou de la Plaza Nueva. 13. Barcelona </p>
         </div>
-        <div type="colofon_impresora">
+
+        <div type="colofon_impresor">
           <p><lb/>Tip. Española, Hospital, 87.</p>
         </div>
       </div>

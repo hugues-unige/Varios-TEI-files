@@ -1,18 +1,17 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../Schema/oddPliego_varios.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:alto="http://www.loc.gov/standards/alto/ns-v4#" xml:id="Varios_057">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Varios_057">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>DON JUAN TENORIO Ó EL NUEVO CONVIDADO DE PIEDRA.</title>
+        <title>DON JUAN TENORIO</title>
         <respStmt>
           <name/>
           <resp>Codificación TEI</resp>
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <authority role="rightsHolder">Bibliothèque Universitaire de
-                              Genève</authority>
+        <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
         <availability status="restricted">
           <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
         </availability>
@@ -20,8 +19,7 @@
       <sourceDesc>
         <biblFull>
           <titleStmt>
-            <title type="titulo_completo">DON JUAN TENORIO Ó EL NUEVO
-                                          CONVIDADO DE PIEDRA.</title>
+            <title type="titulo_completo">DON JUAN TENORIO Ó EL NUEVO CONVIDADO DE PIEDRA.</title>
             <title type="titulo_breve">DON JUAN TENORIO</title>
           </titleStmt>
           <editionStmt>
@@ -30,7 +28,7 @@
           <publicationStmt>
             <publisher>José Clara</publisher>
             <pubPlace ref="https://www.geonames.org/3128760/barcelona.html">Barcelona</pubPlace>
-            <date>[s.a]</date>
+            <date cert="low" when="1800-01-01">[s.a.]</date>
           </publicationStmt>
         </biblFull>
         <msDesc>
@@ -38,7 +36,8 @@
             <country>Suisse</country>
             <settlement>Genève</settlement>
             <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"/>
-                                    </repository>
+            </repository>
+            <collection>Colección Varios</collection>
             <idno type="cote"/>
             <idno type="DOI">10.5281/zenodo.6557729</idno>
             <altIdentifier>
@@ -46,10 +45,14 @@
             </altIdentifier>
           </msIdentifier>
           <msContents>
-            <summary/>
+            <summary>Dos partes</summary>
             <msItem>
-              <locus/>
-              <title/>
+              <locus>1-2</locus>
+              <title>Primera parte.</title>
+            </msItem>
+            <msItem>
+              <locus>3-4</locus>
+              <title>Segunda parte.</title>
             </msItem>
           </msContents>
           <physDesc>
@@ -67,7 +70,7 @@
               </layoutDesc>
             </objectDesc>
             <decoDesc>
-              <summary n="1">Uno grabado (p.1) </summary>
+              <summary n="1">Un grabado (p.1) </summary>
               <decoNote type="lista_grabados">
                 <list>
                   <item corresp="grabado_v_057_1.xml">grabado_v_057_1</item>
@@ -78,8 +81,7 @@
           </physDesc>
           <history>
             <origin>
-              <p>Depósito de JOSÉ CLARA, Bou de la Plaza Nueva, núm.
-                                                20.</p>
+              <p>Depósito de JOSÉ CLARA, Bou de la Plaza Nueva, núm. 20.</p>
             </origin>
             <provenance/>
             <acquisition/>
@@ -89,18 +91,17 @@
     </fileDesc>
     <encodingDesc>
       <projectDesc>
-        <p>Este archivo fue creado en el marco del proyecto Desenrollando el
-                              Cordel/Démêler le cordel/Untangling the cordel, dirigido por la
-                              profesora Constance Carta de la Universidad de Ginebra, con el apoyo
-                              de la Fundación filantrópica Famille Sandoz-Monique de Meuron.</p>
+        <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+          cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la Universidad
+          de Ginebra, con el apoyo de la Fundación filantrópica Famille Sandoz-Monique de
+          Meuron.</p>
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR non corregido</p>
+          <p>OCR no corregido</p>
         </correction>
         <normalization>
-          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto
-                                    original.</p>
+          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
         </normalization>
         <punctuation>
           <p>Se conserva la puntuación original.</p>
@@ -121,10 +122,14 @@
       </textClass>
     </profileDesc>
     <revisionDesc>
-      <change when="2022-06-14" who="#PJ">Création du fichier TEI P5 et encodage du
-                        corps du texte</change>
+      <change when="2022-06-14" who="#PJ">Création du fichier TEI P5 et encodage du corps du
+        texte</change>
+      <change when="2024-01-09" who="#EL">Add the IIIF links</change>
     </revisionDesc>
   </teiHeader>
+  <facsimile>
+    <graphic url="varios/Varios_057_1.jpg/full/200,/0/default.jpg"/>
+  </facsimile>
   <sourceDoc xml:id="automaticTranscription">
     <surface xml:id="Varios_057_1" type="page" cert="silver">
       <graphic url="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_057_1/full/full/0/default.jpg"/>
@@ -146,7 +151,7 @@
       </zone>
       <zone xml:id="Varios_057_1_BT227_3" n="3" type="MainZone" subtype="columns" points="629,1962 655,2127 193,2127 184,1752 228,1700 348,1700 436,1695 669,1699 679,1727 682,1803 647,1814 638,1873 717,1908 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_057_1/184,1695,533,432/full/0/default" corresp="MainZone:columns">
         <zone xml:id="Varios_057_1_BT227_3_LT84_1" type="DefaultLine" subtype="none" points="357,1686 353,1645 677,1638 684,1684 684,1691 357,1693 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_057_1/353,1638,331,55/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_057_1_BT227_3_LT84_1_1" points="359,1689 686,1685 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
+          <path xml:id="Varios_057_1_BT227_3_LT84_1_1" points="359,1689 686,1685 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
           <line>PRIMERA PARTE.</line>
         </zone>
         <zone xml:id="Varios_057_1_BT227_3_LT83_2" type="DefaultLine" subtype="none" points="219,1730 214,1697 649,1686 655,1719 655,1728 219,1739 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_057_1/214,1686,441,53/full/0/default" corresp="DefaultLine">
@@ -1674,8 +1679,7 @@
       <zone xml:id="Varios_057_4_BT228_7" n="7" type="MarginTextZone" subtype="colophon" points="264,2306 271,2252 333,2243 1140,2225 1661,2223 1666,2272 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_057_4/264,2223,1402,83/full/0/default" corresp="MarginTextZone:colophon">
         <zone xml:id="Varios_057_4_BT228_7_LT83_1" type="DefaultLine" subtype="none" points="271,2293 263,2252 285,2239 287,2239 287,2239 289,2239 289,2239 289,2239 291,2239 429,2245 594,2230 596,2230 596,2230 671,2239 682,2230 682,2228 682,2228 684,2228 684,2228 684,2228 686,2228 686,2228 688,2228 688,2228 767,2234 840,2223 840,2223 842,2223 842,2223 912,2232 919,2223 921,2223 921,2221 921,2221 923,2221 923,2221 923,2221 925,2221 925,2221 927,2221 927,2221 1000,2230 1015,2219 1015,2219 1017,2219 1017,2219 1019,2219 1019,2219 1019,2219 1022,2219 1022,2219 1085,2228 1230,2214 1232,2214 1656,2214 1660,2256 1658,2359 1537,2335 1458,2357 1458,2357 1456,2357 1456,2357 1454,2357 1454,2357 1454,2357 1452,2357 1452,2357 1452,2357 1434,2348 1425,2357 1419,2363 1419,2363 1419,2366 1419,2366 1416,2366 1416,2366 1416,2366 1414,2366 1414,2366 1412,2366 1412,2366 1412,2366 1410,2366 1410,2366 1386,2357 1353,2344 1248,2355 1171,2361 1171,2361 1169,2361 1169,2361 1166,2361 1166,2361 1166,2361 1151,2352 1094,2320 1079,2335 1079,2337 1079,2337 1076,2337 1076,2337 1076,2337 1074,2337 1074,2337 1072,2337 1072,2337 1072,2337 1008,2326 973,2350 956,2363 954,2363 954,2363 954,2363 951,2363 951,2363 951,2363 949,2363 949,2363 949,2363 908,2355 881,2377 881,2379 881,2379 879,2379 879,2379 879,2379 877,2379 877,2379 875,2379 875,2379 875,2379 872,2379 872,2379 842,2366 809,2383 809,2383 809,2383 807,2383 807,2383 807,2383 730,2385 728,2385 728,2385 726,2385 726,2385 726,2385 682,2363 633,2388 633,2388 633,2388 631,2388 631,2388 631,2388 552,2390 550,2390 550,2390 550,2390 548,2390 548,2390 546,2390 467,2344 454,2337 271,2339 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_057_4/263,2214,1397,176/full/0/default" corresp="DefaultLine">
           <path xml:id="Varios_057_4_BT228_7_LT83_1_1" points="274,2294 1662,2258 "/>
-          <line>Barcelona.— Depósito de JOSÉ CLARA, Bou de la Plaza Nueva, núm.
-                                    20.</line>
+          <line>Barcelona.— Depósito de JOSÉ CLARA, Bou de la Plaza Nueva, núm. 20.</line>
         </zone>
       </zone>
       <zone xml:id="Varios_057_4_BT226_8" n="8" type="MainZone" subtype="none" points="1340,2161 1338,2108 1577,2111 1593,2152 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_057_4/1338,2108,255,53/full/0/default" corresp="MainZone">
@@ -1689,412 +1693,426 @@
   <text>
     <body>
       <div>
-        <pb n="1" source="Varios_057_1.jpg" facs="fedora_Varios_057_1/full/full/0/default.jpg"/>
-        <fw type="impresorNum"/>
-        <div n="1" type="parte">
-          <div>
-            <head type="primer_titulo"><lb/>DON JUAN TENORIO<lb/>Ó EL NUEVO CONVIDADO DE
-                                          PIEDRA.</head>
-            <div>
-              <head type="titulo_parte"><lb/>PRIMERA PARTE.</head>
-              <lg>
-                <l>Allá en Sevilla en los años</l>
-                <l>de mil quinientos cuarenta</l>
-                <l>vivió aquel Don Juan Tenorio</l>
-                <l>que todo el mundo celebra.</l>
-                <l>Entre él y D. Luis Mejía</l>
-                <l>hubo un tiempo gran franqueza;</l>
-                <l>mas por cuestion de amorios</l>
-                <l>no fué cosa duradera.</l>
-                <l>Estos son los personajes</l>
-                <l>célebres en la leyenda</l>
-                <l>del drama D. Juan Tenorio</l>
-                <l>que comienzo en una venta.</l>
-              </lg>
-              <p><lb/>I.</p>
-              <lg>
-                <l>Es Carnaval: antifáz</l>
-                <l>Ileva D. Juan en la cara</l>
-                <l>y sentado en una mesa</l>
-                <l>está escribiendo una carta.</l>
-                <l>Carta para doña Inés,</l>
-                <l>hija del Comendaror,</l>
-                <l>que en un convento encerrada</l>
-                <l>tendrá buena educacion.</l>
-                <l>Ciutti se lleva la carta</l>
-                <l>para entregarsela á Brigida,</l>
-                <l>una vieja compradora</l>
-                <l>del Convento de la niña</l>
-                <l>que á Ciulti le da una llave,</l>
-                <l>y al sonar la hora precisa</l>
-                <l>entrarán en el convento</l>
-                <l>á ejecular su conquista.</l>
-              </lg>
-              <p><lb/>II.</p>
-              <lg>
-                <l>Para casa Buttarelli</l>
-                <pb n="2" source="Varios_057_2.jpg" facs="fedora_Varios_057_2/full/full/0/default.jpg"/>
-                <l>hace un año se citaron</l>
-                <l>Tenorio y D. Luis Mejia;</l>
-                <l>y en tal noche cumple el año.</l>
-                <l>El objeto es ver quién es</l>
-                <l>el que en el tiempo marcado</l>
-                <l>ha conquistado mas hembras</l>
-                <l>y ha vencido a mas contrarios.</l>
-                <l>El padre de doña lnés</l>
-                <l>lo sabe y va a la taberna:</l>
-                <l>tambien lo supo el buen padre</l>
-                <l>d D. Juan y alli se sienta.</l>
-                <l>Los dos llevan antifaz</l>
-                <l>para que no se les vea.</l>
-                <l>Van llegando compañeros</l>
-                <l>de D. Juan y de Mejía,</l>
-                <l>para ver quien vence á quien,</l>
-                <l>si es que acuden á la cita.</l>
-                <l>Entran ya dos embozados</l>
-                <l>con antifaz en el rostro:</l>
-                <l>es el uno Luis Mejia;</l>
-                <l>el otro D. Juan Tenorio.</l>
-                <l>Se reconocen, se sientan</l>
-                <l>y sus hazañas relatan:</l>
-                <l>amores y desafios</l>
-                <l>y juego y vino y patrañas.</l>
-                <l>Dice D. Juan:—¿Fui á Italia</l>
-                <l>y fije alli mi cartel:</l>
-                <l>aqui esta D. Juan Tenorio</l>
-                <l>para quien quiera algo de él.»</l>
-                <l>Y como alla las mujeres</l>
-                <l>son bellas en general,</l>
-                <l>en sus lances amorosos</l>
-                <l>no hubo medio ni final.</l>
-                <l>Revolvió toda la Italia</l>
-                <l>y en Roma hubo de escapar</l>
-                <l>montado en un mal rocin</l>
-                <l>pues le querian ahorcar.</l>
-                <l>En Napoles no faltó</l>
-                <l>y allí lució á su manera,</l>
-                <l>desafiando á los mancebos,</l>
-                <l>conquistando á las mancebas,</l>
-                <l>Y asi subió á los palacios</l>
-                <l>y á las cabañas bajó</l>
-                <l>y por doquiera que fué</l>
-                <l>la razon atropelló,</l>
-                <l>escarneció la virtud</l>
-                <l>y la justicia burló:</l>
-                <l>no reconoció sagrado</l>
-                <l>ni hubo ocasion ni lugar</l>
-                <l>que respetase, malvado,</l>
-                <l>ni al clerigo ni al seglar.</l>
-                <l>Mejia cuenta tambien</l>
-                <l>los escándalos que ha dado</l>
-                <l>en galanteos, en riñas</l>
-                <l>y en otros indignos artos.</l>
-                <l>Dice que perdió su hacienda,</l>
-                <l>pero hará que la reponga</l>
-                <l>su boda comprometida</l>
-                <l>con doña Ana de Pantoja.</l>
-                <l>Las victimas por fin suman:</l>
-                <l>todos muestran interés:</l>
-                <l>suma D. Juan treinta y dos:</l>
-                <l>D. Luis, solo veinte y tres,</l>
-                <l>de hacer dos conquistas más:</l>
-                <l>Hace D. Juan una apuesta</l>
-                <l>la de una dama, y novicia</l>
-                <l>que esté para profesar.</l>
-                <l>El Comendalar entonces</l>
-                <l>se encara frente D. Juan</l>
-                <l>y. respecto a doña lnés,</l>
-                <l>jura no la logrará.</l>
-                <l>D. Diego increpa muy duro</l>
-                <l>á Juan, le llama «mal hijo,»</l>
-                <l>y se aleja perdonándole</l>
-                <l>de Dios en el santo juicio.</l>
-                <l>Prende una ronda á Mejía</l>
-                <l>y otra prende á Juan Tenorio:</l>
-                <l>para ganarse la apuesta</l>
-                <l>ambos lo han hecho á propósito.</l>
-              </lg>
-              <p><lb/>III.</p>
-              <lg>
-                <l>Con doña Ana de Pantoja</l>
-                <l>habla D. Luis en la reja,</l>
-                <l>y, dentro de breves dias,</l>
-                <l>promete casar con ella.</l>
-                <l>Retirase al fin doña Ana:</l>
-                <l>D. Luis á Tenorio mira;</l>
-                <l>pues ambos han escapado</l>
-                <l>de la cárcel le la villa.</l>
-                <l>—¿Quien va?—Quiero el paso franco—</l>
-                <l>dicen y sacan la espada,</l>
-                <l>más los criados de Tenorio</l>
-                <l>á D. Luis luego maniatan.</l>
-                <l>Viene Brigida la beata</l>
-                <l>y con Tenorio combina</l>
-                <l>el modo con que D. Juan</l>
-                <l>se llevará la novicia.</l>
-                <l>De Inés exagera Brigida</l>
-                <l>la virtud y la belleza,</l>
-                <l>y D. Juan se lo agradece</l>
-                <l>con un bolso de monedas.</l>
-                <l>Tenorio llama á la reja</l>
-                <l>de la criada de doña Ana,</l>
-                <l>y ésta le entrega una llave</l>
-                <l>por cierto muy bien pagada.</l>
-                <l>D. Juan ya esta en sus glorias,</l>
-                <l>y estará pese á su padre,</l>
-                <l>«á las nueve en el convento</l>
-                <l>y á las diez en esta calle.»</l>
-              </lg>
-              <p><lb/>IV.</p>
-              <lg>
-                <l>La Abadesa á doña Inés</l>
-                <l>aconseja santamente,</l>
-                <l>per ella, mansa paloma,</l>
-                <l>piensa en D. Juan solamente.</l>
-                <l>La carta ya le dió Brigida,</l>
-                <l>ella tiene el alma cándida</l>
-                <l>y la vieja asaz hipócrita</l>
-                <l>la incita á leer la carta.</l>
-                <pb n="3" source="Varios_057_3.jpg" facs="fedora_Varios_057_3/full/full/0/default.jpg"/>
-                <l>«Doña Inés del alma mia»</l>
-                <l>la carta comienza asi;</l>
-                <l>Inés con estas palabras</l>
-                <l>ya siente su pecho hervir.</l>
-                <l>Va leyendo la inocente</l>
-                <l>y los ojos se le enturbian,</l>
-                <l>pero la dice la vieja:</l>
-                <l>«Seguid, seguid la lectura.»</l>
-                <l>Dan las nueve: el toque de ánimas</l>
-                <l>ya lo anuncian las campanas,</l>
-                <l>suenan pasos: es D. Juan!</l>
-                <l>Inés le vé y se desmaya.</l>
-                <l>Tenorio la toma en brazos</l>
-                <l>y al instante se la lleva:</l>
-                <l>Brigida quiere seguirla,</l>
-                <l>y Ciutti carga con ella.</l>
-                <l>La Abadesa entra en la sala</l>
-                <l>porque ruido sintió:</l>
-                <l>llega D. Gonzalo y dice</l>
-                <l>que allá viene por su honor.</l>
-                <l>Pronto la carta vé en tierra;</l>
-                <l>leyendo está con afan:</l>
-                <l>vé que á su hija es dirigida</l>
-                <l>y la firma es de D. Juan.</l>
-                <l>Don Gonzato sale en busca</l>
-                <l>de su hija y dice al partir:</l>
-                <l>«Señora voy por mi honor</l>
-                <l>que os roban á vos de aquí.»</l>
-              </lg>
-              <p><lb/>V.</p>
-              <lg>
-                <l>En las márgenes del rio</l>
-                <l>tiene una quinta D. Juan;</l>
-                <l>la triste Inés no recuerda</l>
-                <l>que nunca estuviese allá.</l>
-                <l>Al saber que es de Tenorio</l>
-                <l>quiere salir de la quinta,</l>
-                <l>pero él la calma diciendo:</l>
-                <l>«Cálmate ya vida mia.»</l>
-                <l>Don luan se postra á sus piés</l>
-                <l>y la dice seductor:</l>
-                <l>«¿No es verdad, hermosa mia,</l>
-                <l>que todn respira amor?</l>
-                <l>Don Juan le toma la mano,</l>
-                <l>filtra el amor por sus ojos</l>
-                <l>y ella entrega, triste incauta,</l>
-                <l>su corazon á Tenorio.</l>
-                <l>En esto llega Mejía</l>
-                <l>para vengar á doña Ana,</l>
-                <l>ya que él entró por sorpresa</l>
-                <l>en el salon de la dama.</l>
-                <l>Viene Gonzalo despues</l>
-                <l>á reclamarle su hija:</l>
-                <l>Tenorio que ama de veras,</l>
-                <l>le recibe de rodillas.</l>
-                <l>Le ruega que le perdone</l>
-                <l>porque siente pasion pura,</l>
-                <l>por lués y, si el le acepta,</l>
-                <l>su salvacion es segura,</l>
-                <l>Don Gonzalo le desprecia;</l>
-                <l>D. Luis le llama cobarde:</l>
-                <l>Tenorio ruega á los dos,</l>
-                <l>mas no quieren escucharle.</l>
-                <l>Don Juan de un pistoletazo</l>
-                <l>mata al padre de su Inés;</l>
-                <l>cruza con D. Luis la espada,</l>
-                <l>le hiere y muere á sus piés:</l>
-                <l>y mientras se lanza al rio,</l>
-                <l>buscando la salvacion,</l>
-                <l>dice:—«ya de mi en la tierra</l>
-                <l>responda el cielo; yo no.»—</l>
-              </lg>
+        <div>
+          <pb n="1" source="Varios_057_1.jpg" facs="varios/Varios_057_1.jpg/"/>
+
+          <fw type="impresorNum">Núm. 11.</fw>
+
+          <head type="primer_titulo"><lb/>DON JUAN TENORIO<lb/>Ó EL NUEVO CONVIDADO DE
+            PIEDRA.</head>
+
+          <div n="1" type="parte">
+            <head type="titulo_parte"><lb/>PRIMERA PARTE.</head>
+
+            <l rend="indent">Allá en Sevilla en los años</l>
+            <l>de mil quinientos cuarenta</l>
+            <l>vivió aquel Don Juan Tenorio</l>
+            <l>que todo el mundo celebra.</l>
+            <l rend="indent">Entre él y D. Luis Mejía</l>
+            <l>hubo un tiempo gran franqueza;</l>
+            <l>mas por cuestion de amorios</l>
+            <l>no fué cosa duradera.</l>
+            <l rend="indent">Estos son los personajes</l>
+            <l>célebres en la leyenda</l>
+            <l>del drama D. Juan Tenorio</l>
+            <l>que comienzo en una venta.</l>
+
+            <div n="1">
+              <head>I.</head>
+              <l rend="indent">Es Carnaval: antifáz</l>
+              <l>Ileva D. Juan en la cara</l>
+              <l>y sentado en una mesa</l>
+              <l>está escribiendo una carta.</l>
+              <l rend="indent">Carta para doña Inés,</l>
+              <l>hija del Comendaror,</l>
+              <l>que en un convento encerrada</l>
+              <l>tendrá buena educacion.</l>
+              <l rend="indent">Ciutti se lleva la carta</l>
+              <l>para entregarsela á Brigida,</l>
+              <l>una vieja compradora</l>
+              <l>del Convento de la niña</l>
+              <l>que á Ciulti le da una llave,</l>
+              <l>y al sonar la hora precisa</l>
+              <l>entrarán en el convento</l>
+              <l>á ejecular su conquista.</l>
             </div>
-            <div>
-              <head type="titulo_parte"><lb/>SEGUNDA PARTE.</head>
-              <lg>
-                <l>Cinco años han trascurrido</l>
-                <l>que estuvo ausente Tenorio,</l>
-                <l>y al fin regresa á Sevilla</l>
-                <l>á buscar dulce reposo.</l>
-                <l>se ha convertido en panteon,</l>
-                <l>Al llegar vé que el palacio</l>
-                <l>porque esta fué de su padre</l>
-                <l>suprema disposicion.</l>
-                <l>de Gonzalo y de don Diego,</l>
-                <l>Allí están las sepulturas</l>
-                <l>de Mejia... y la de Inés</l>
-                <l>que murió de sentimiento.</l>
-                <l>En cada una hay una estátua</l>
-                <l>que es el retrato del muerto,</l>
-                <l>y el escultor vá á marcharse,</l>
-                <l>de sus obras satisfecho.</l>
-                <l>En esto llega don Juan:</l>
-                <l>no le conoce el artista,</l>
-                <l>y le cuenta de Tenorio,</l>
-                <l>los crímenes y conquistas.</l>
-                <l>Al saber que aquel que le habla</l>
-                <l>es don Juan, el escultor</l>
-                <l>le entrega la llave, y huye</l>
-                <l>lleno de angustia y pavor.</l>
-                <l>Tenorio altivo á lo sumo</l>
-                <l>ha quedado solo alli,</l>
-                <l>y dice hablando á los muertos:</l>
-                <l>«No os podeis quejar de mí.»</l>
-                <l>Pero al contemplar la estátua</l>
-                <l>de su Inés, en la conciencia</l>
-                <l>siente atroz remordimiento</l>
-                <l>y un malestar que le enerva.</l>
-                <l>Y arrodillado ante el mármol</l>
-                <l>que guarda su imágen pura,</l>
-                <l>la pide le guarde un sitio</l>
-                <l>en la misma sepultura.</l>
-                <l>Entonces desaparece</l>
-                <l>la estátua de doña Inés;</l>
-                <l>mas su sombra se apercibe</l>
-                <l>del panteon en la pared.</l>
-                <l>—Humillate y serás salvo</l>
-                <l>le dice la sombra pura:</l>
-                <l>—muy pronto tendrás un puesto</l>
-                <l>en mi misma sepultura.—</l>
-                <l>La sombra desaparece:</l>
-                <l>don Juun Tenorio delira,</l>
-                <l>y contempla las estátuas</l>
-                <pb n="4" source="Varios_057_4.jpg" facs="fedora_Varios_057_4/full/full/0/default.jpg"/>
-                <l>que extremecidas vacilan.</l>
-                <l>Pero él dice temerario.</l>
-                <l>«No: no me causan pavor</l>
-                <l>vuestros semblantes esquivos;</l>
-                <l>yo soy vuestro matador.</l>
-                <l>«Si aprestais venganza fiera</l>
-                <l>en vuestro alcázar mortuorio,</l>
-                <l>¡dáos prisa! Aqui os espera</l>
-                <l>otra vez don Juan Tenorio.»</l>
-                <l>Don Juan ha quedado absorto</l>
-                <l>y en este momento entran</l>
-                <l>sus antiguos compañeros,</l>
-                <l>Avellancda y Centellas.</l>
-                <l>Sospechan que tiene miedo,</l>
-                <l>y él por probar lo contrario,</l>
-                <l>les convida, y además</l>
-                <l>á la estátua de Gonzalo.</l>
-                <l>Y mientras los tres se ausentan</l>
-                <l>con la algazara mayor,</l>
-                <l>Tenorio dice á la estátua:</l>
-                <l>—«¡Lo dicho, Comendador!»—</l>
-              </lg>
-              <p><lb/>VI.</p>
-              <lg>
-                <l>Don Juan y sus dos amigos</l>
-                <l>cenando están en la quinta,</l>
-                <l>y tienen para el difunto</l>
-                <l>dispuestos cubierto y silla.</l>
-                <l>Y cuando van á brindar</l>
-                <l>por la gloria de Gonzalo</l>
-                <l>en la puerta de la calle</l>
-                <l>suena fuerte aldabonazo.</l>
-                <l>Ya suena otro en la escalera...</l>
-                <l>otro en la sala contigua...</l>
-                <l>todos se espantan... A Ciutti</l>
-                <l>le tiemblan las pantorrillas.</l>
-                <l>—«¿Señores, a qué llamar?.</l>
-                <l>dice Tenorio arrogante,</l>
-                <l>—los muertos se han de filtrar</l>
-                <l>por la pared ¡adelante!</l>
-                <l>La estátua de don Gonzalo</l>
-                <l>atraviesa el grueso muro,</l>
-                <l>y á la sala del convite</l>
-                <l>se vé presentar de súbito</l>
-                <l>Centellas y Avellaneda</l>
-                <l>se quedan desvanecidos:</l>
-                <l>la estátua dice á Tenorio:</l>
-                <l>—mañana no estarás viyo.</l>
-                <l>Para que salves tu alma,</l>
-                <l>Dios en su santa clemencia</l>
-                <l>te concede un solo dia</l>
-                <l>para implorar penitencia..</l>
-                <l>Vase la Estátua, Tenorío</l>
-                <l>cree que todo fué broma;</l>
-                <l>mas la verdad le repite,</l>
-                <l>de Inés la mágica sombra.</l>
-                <l>á sus amigos que, presto</l>
-                <l>Entónces don Juan despierta</l>
-                <l>creen que él les ha hechizado</l>
-                <l>con un vino que ha compuesto,</l>
-                <l>Disputan subiendo el tono:</l>
-                <l>mas no les teme D. Juan,</l>
-                <l>y desafiando á Centellas</l>
-                <l>dice:—Vamos; Capitan.</l>
-              </lg>
-              <p><lb/>VII.</p>
-              <lg>
-                <l>Vuelve don Juan ya muy pálido</l>
-                <l>á la mansion de los muertos,</l>
-                <l>y la estátua de Gonzalo</l>
-                <l>no ha vuelto aun á su puesto.</l>
-                <l>Esta le ofreció un convite</l>
-                <l>y Tenorio lo acepto:</l>
-                <l>la Estátua al fin aparece:</l>
-                <l>—¿Qué quieres? Aquí estoy yo.—</l>
-                <l>Fantasmas y fuegos fátuos,</l>
-                <l>osamentas y esqueletos:</l>
-                <l>en derredor de Tenorio,</l>
-                <l>van colocándose tétricos.</l>
-                <l>El Comendador le ofrece,</l>
-                <l>fuego y ceniza no más;</l>
-                <l>y le llice majestuoso:</l>
-                <l>—«Te doy lo que tú serás».—</l>
-                <l>Despues le ofreco la mano</l>
-                <l>en señal de despedida:</l>
-                <l>don Juan se la dá, y entónces</l>
-                <l>teme por su eterna vida.</l>
-                <l>Viendo su muerte cercana,</l>
-                <l>dice:—Señor, creo en tí,</l>
-                <l>si mi maldad fué incauta,</l>
-                <l>Señor, ten piedad de mí.»—</l>
-                <l>—¡Ya es tarde!—dice Gonzalo:</l>
-                <l>mas doña lnés aparece</l>
-                <l>y á don Juan que perdon pide</l>
-                <l>su mano, tierna, le ofrece.</l>
-                <l>Vuelven los muertos y estátuas</l>
-                <l>á sus puestos y á sus tumbas,</l>
-                <l>pues Dios perdonó á D. Juan</l>
-                <l>al pié de la sepultura.</l>
-                <l>Y mientras la pura Inés</l>
-                <l>y don Juan ya perdonado</l>
-                <l>se disponen á cruzar</l>
-                <l>sus almas el ancho espacio,</l>
-                <l>don Juan ante la evidencia</l>
-                <l>dice ver, claro y notorio,</l>
-                <l>que es el Dios de la clemencia</l>
-                <l>el Dios de Don JUAN TENORIO.</l>
-              </lg>
-              <p><lb/>Es propiedad,</p>
+
+            <div n="2">
+              <head>II.</head>
+              <l rend="indent">Para casa Buttarelli</l>
+
+              <pb n="2" source="Varios_057_2.jpg" facs="varios/Varios_057_2.jpg/"/>
+
+              <l>hace un año se citaron</l>
+              <l>Tenorio y D. Luis Mejia;</l>
+              <l>y en tal noche cumple el año.</l>
+              <l rend="indent">El objeto es ver quién es</l>
+              <l>el que en el tiempo marcado</l>
+              <l>ha conquistado mas hembras</l>
+              <l>y ha vencido a mas contrarios.</l>
+              <l rend="indent">El padre de doña lnés</l>
+              <l>lo sabe y va a la taberna:</l>
+              <l>tambien lo supo el buen padre</l>
+              <l>d D. Juan y alli se sienta.</l>
+              <l>Los dos llevan antifaz</l>
+              <l>para que no se les vea.</l>
+              <l rend="indent">Van llegando compañeros</l>
+              <l>de D. Juan y de Mejía,</l>
+              <l>para ver quien vence á quien,</l>
+              <l>si es que acuden á la cita.</l>
+              <l rend="indent">Entran ya dos embozados</l>
+              <l>con antifaz en el rostro:</l>
+              <l>es el uno Luis Mejia;</l>
+              <l>el otro D. Juan Tenorio.</l>
+              <l rend="indent">Se reconocen, se sientan</l>
+              <l>y sus hazañas relatan:</l>
+              <l>amores y desafios</l>
+              <l>y juego y vino y patrañas.</l>
+              <l rend="indent">Dice D. Juan:—¿Fui á Italia</l>
+              <l>y fije alli mi cartel:</l>
+              <l>aqui esta D. Juan Tenorio</l>
+              <l>para quien quiera algo de él.»</l>
+              <l rend="indent">Y como alla las mujeres</l>
+              <l>son bellas en general,</l>
+              <l>en sus lances amorosos</l>
+              <l>no hubo medio ni final.</l>
+              <l rend="indent">Revolvió toda la Italia</l>
+              <l>y en Roma hubo de escapar</l>
+              <l>montado en un mal rocin</l>
+              <l>pues le querian ahorcar.</l>
+              <l rend="indent">En Napoles no faltó</l>
+              <l>y allí lució á su manera,</l>
+              <l>desafiando á los mancebos,</l>
+              <l>conquistando á las mancebas,</l>
+              <l rend="indent">Y asi subió á los palacios</l>
+              <l>y á las cabañas bajó</l>
+              <l>y por doquiera que fué</l>
+              <l>la razon atropelló,</l>
+              <l>escarneció la virtud</l>
+              <l>y la justicia burló:</l>
+              <l>no reconoció sagrado</l>
+              <l>ni hubo ocasion ni lugar</l>
+              <l>que respetase, malvado,</l>
+              <l>ni al clerigo ni al seglar.</l>
+              <l rend="indent">Mejia cuenta tambien</l>
+              <l>los escándalos que ha dado</l>
+              <l>en galanteos, en riñas</l>
+              <l>y en otros indignos artos.</l>
+              <l rend="indent">Dice que perdió su hacienda,</l>
+              <l>pero hará que la reponga</l>
+              <l>su boda comprometida</l>
+              <l>con doña Ana de Pantoja.</l>
+              <l rend="indent">Las victimas por fin suman:</l>
+              <l>todos muestran interés:</l>
+              <l>suma D. Juan treinta y dos:</l>
+              <l>D. Luis, solo veinte y tres,</l>
+              <l>de hacer dos conquistas más:</l>
+              <l rend="indent">Hace D. Juan una apuesta</l>
+              <l>la de una dama, y novicia</l>
+              <l>que esté para profesar.</l>
+              <l rend="indent">El Comendador entonces</l>
+              <l>se encara frente D. Juan</l>
+              <l>y. respecto a doña lnés,</l>
+              <l>jura no la logrará.</l>
+              <l>D. Diego increpa muy duro</l>
+              <l>á Juan, le llama «mal hijo,»</l>
+              <l>y se aleja perdonándole</l>
+              <l>de Dios en el santo juicio.</l>
+              <l rend="indent">Prende una ronda á Mejía</l>
+              <l>y otra prende á Juan Tenorio:</l>
+              <l>para ganarse la apuesta</l>
+              <l>ambos lo han hecho á propósito.</l>
             </div>
-            <div type="colofon">
-              <p><lb/>Barcelona.— Depósito de JOSÉ CLARA, Bou de la
-                                                Plaza Nueva, núm. 20.</p>
+
+            <div n="3">
+              <head>III.</head>
+              <l rend="indent">Con doña Ana de Pantoja</l>
+              <l>habla D. Luis en la reja,</l>
+              <l>y, dentro de breves dias,</l>
+              <l>promete casar con ella.</l>
+              <l rend="indent">Retirase al fin doña Ana:</l>
+              <l>D. Luis á Tenorio mira;</l>
+              <l>pues ambos han escapado</l>
+              <l>de la cárcel le la villa.</l>
+              <l rend="indent">—¿Quien va?—Quiero el paso franco—</l>
+              <l>dicen y sacan la espada,</l>
+              <l>más los criados de Tenorio</l>
+              <l>á D. Luis luego maniatan.</l>
+              <l rend="indent">Viene Brigida la beata</l>
+              <l>y con Tenorio combina</l>
+              <l>el modo con que D. Juan</l>
+              <l>se llevará la novicia.</l>
+              <l rend="indent">De Inés exagera Brigida</l>
+              <l>la virtud y la belleza,</l>
+              <l>y D. Juan se lo agradece</l>
+              <l>con un bolso de monedas.</l>
+              <l rend="indent">Tenorio llama á la reja</l>
+              <l>de la criada de doña Ana,</l>
+              <l>y ésta le entrega una llave</l>
+              <l>por cierto muy bien pagada.</l>
+              <l rend="indent">D. Juan ya esta en sus glorias,</l>
+              <l>y estará pese á su padre,</l>
+              <l>«á las nueve en el convento</l>
+              <l>y á las diez en esta calle.»</l>
+            </div>
+
+            <div n="4">
+              <head>IV.</head>
+              <l rend="indent">La Abadesa á doña Inés</l>
+              <l>aconseja santamente,</l>
+              <l>per ella, mansa paloma,</l>
+              <l>piensa en D. Juan solamente.</l>
+              <l rend="indent">La carta ya le dió Brigida,</l>
+              <l>ella tiene el alma cándida</l>
+              <l>y la vieja asaz hipócrita</l>
+              <l>la incita á leer la carta.</l>
+
+              <pb n="3" source="Varios_057_3.jpg" facs="varios/Varios_057_3.jpg/"/>
+
+              <l rend="indent">«Doña Inés del alma mia»</l>
+              <l>la carta comienza asi;</l>
+              <l>Inés con estas palabras</l>
+              <l>ya siente su pecho hervir.</l>
+              <l rend="indent">Va leyendo la inocente</l>
+              <l>y los ojos se le enturbian,</l>
+              <l>pero la dice la vieja:</l>
+              <l>«Seguid, seguid la lectura.»</l>
+              <l rend="indent">Dan las nueve: el toque de ánimas</l>
+              <l>ya lo anuncian las campanas,</l>
+              <l>suenan pasos: es D. Juan!</l>
+              <l>Inés le vé y se desmaya.</l>
+              <l rend="indent">Tenorio la toma en brazos</l>
+              <l>y al instante se la lleva:</l>
+              <l>Brigida quiere seguirla,</l>
+              <l>y Ciutti carga con ella.</l>
+              <l rend="indent">La Abadesa entra en la sala</l>
+              <l>porque ruido sintió:</l>
+              <l>llega D. Gonzalo y dice</l>
+              <l>que allá viene por su honor.</l>
+              <l rend="indent">Pronto la carta vé en tierra;</l>
+              <l>leyendo está con afan:</l>
+              <l>vé que á su hija es dirigida</l>
+              <l>y la firma es de D. Juan.</l>
+              <l rend="indent">Don Gonzato sale en busca</l>
+              <l>de su hija y dice al partir:</l>
+              <l>«Señora voy por mi honor</l>
+              <l>que os roban á vos de aquí.»</l>
+            </div>
+
+            <div n="5">
+              <head>V.</head>
+              <l rend="indent">En las márgenes del rio</l>
+              <l>tiene una quinta D. Juan;</l>
+              <l>la triste Inés no recuerda</l>
+              <l>que nunca estuviese allá.</l>
+              <l rend="indent">Al saber que es de Tenorio</l>
+              <l>quiere salir de la quinta,</l>
+              <l>pero él la calma diciendo:</l>
+              <l>«Cálmate ya vida mia.»</l>
+              <l rend="indent">Don luan se postra á sus piés</l>
+              <l>y la dice seductor:</l>
+              <l>«¿No es verdad, hermosa mia,</l>
+              <l>que todo respira amor?</l>
+              <l rend="indent">Don Juan le toma la mano,</l>
+              <l>filtra el amor por sus ojos</l>
+              <l>y ella entrega, triste incauta,</l>
+              <l>su corazon á Tenorio.</l>
+              <l rend="indent">En esto llega Mejía</l>
+              <l>para vengar á doña Ana,</l>
+              <l>ya que él entró por sorpresa</l>
+              <l>en el salon de la dama.</l>
+              <l rend="indent">Viene Gonzalo despues</l>
+              <l>á reclamarle su hija:</l>
+              <l>Tenorio que ama de veras,</l>
+              <l>le recibe de rodillas.</l>
+              <l rend="indent">Le ruega que le perdone</l>
+              <l>porque siente pasion pura,</l>
+              <l>por lués y, si el le acepta,</l>
+              <l>su salvacion es segura,</l>
+              <l rend="indent">Don Gonzalo le desprecia;</l>
+              <l>D. Luis le llama cobarde:</l>
+              <l>Tenorio ruega á los dos,</l>
+              <l>mas no quieren escucharle.</l>
+              <l rend="indent">Don Juan de un pistoletazo</l>
+              <l>mata al padre de su Inés;</l>
+              <l>cruza con D. Luis la espada,</l>
+              <l>le hiere y muere á sus piés:</l>
+              <l>y mientras se lanza al rio,</l>
+              <l>buscando la salvacion,</l>
+              <l>dice:—«ya de mi en la tierra</l>
+              <l>responda el cielo; yo no.»—</l>
             </div>
           </div>
+
+          <div n="2" type="parte">
+            <head type="titulo_parte"><lb/>SEGUNDA PARTE.</head>
+
+            <l rend="indent">Cinco años han trascurrido</l>
+            <l>que estuvo ausente Tenorio,</l>
+            <l>y al fin regresa á Sevilla</l>
+            <l>á buscar dulce reposo.</l>
+            <l>se ha convertido en panteon,</l>
+            <l rend="indent">Al llegar vé que el palacio</l>
+            <l>porque esta fué de su padre</l>
+            <l>suprema disposicion.</l>
+            <l>de Gonzalo y de don Diego,</l>
+            <l rend="indent">Allí están las sepulturas</l>
+            <l>de Mejia... y la de Inés</l>
+            <l>que murió de sentimiento.</l>
+            <l rend="indent">En cada una hay una estátua</l>
+            <l>que es el retrato del muerto,</l>
+            <l>y el escultor vá á marcharse,</l>
+            <l>de sus obras satisfecho.</l>
+            <l rend="indent">En esto llega don Juan:</l>
+            <l>no le conoce el artista,</l>
+            <l>y le cuenta de Tenorio,</l>
+            <l>los crímenes y conquistas.</l>
+            <l rend="indent">Al saber que aquel que le habla</l>
+            <l>es don Juan, el escultor</l>
+            <l>le entrega la llave, y huye</l>
+            <l>lleno de angustia y pavor.</l>
+            <l rend="indent">Tenorio altivo á lo sumo</l>
+            <l>ha quedado solo alli,</l>
+            <l>y dice hablando á los muertos:</l>
+            <l>«No os podeis quejar de mí.»</l>
+            <l rend="indent">Pero al contemplar la estátua</l>
+            <l>de su Inés, en la conciencia</l>
+            <l>siente atroz remordimiento</l>
+            <l>y un malestar que le enerva.</l>
+            <l rend="indent">Y arrodillado ante el mármol</l>
+            <l>que guarda su imágen pura,</l>
+            <l>la pide le guarde un sitio</l>
+            <l>en la misma sepultura.</l>
+            <l rend="indent">Entonces desaparece</l>
+            <l>la estátua de doña Inés;</l>
+            <l>mas su sombra se apercibe</l>
+            <l>del panteon en la pared.</l>
+            <l rend="indent">—Humillate y serás salvo</l>
+            <l>le dice la sombra pura:</l>
+            <l>—muy pronto tendrás un puesto</l>
+            <l>en mi misma sepultura.—</l>
+            <l rend="indent">La sombra desaparece:</l>
+            <l>don Juun Tenorio delira,</l>
+            <l>y contempla las estátuas</l>
+
+            <pb n="4" source="Varios_057_4.jpg" facs="varios/Varios_057_4.jpg/"/>
+
+            <l>que extremecidas vacilan.</l>
+            <l rend="indent">Pero él dice temerario.</l>
+            <l>«No: no me causan pavor</l>
+            <l>vuestros semblantes esquivos;</l>
+            <l>yo soy vuestro matador.</l>
+            <l rend="indent">«Si aprestais venganza fiera</l>
+            <l>en vuestro alcázar mortuorio,</l>
+            <l>¡dáos prisa! Aqui os espera</l>
+            <l>otra vez don Juan Tenorio.»</l>
+            <l rend="indent">Don Juan ha quedado absorto</l>
+            <l>y en este momento entran</l>
+            <l>sus antiguos compañeros,</l>
+            <l>Avellancda y Centellas.</l>
+            <l rend="indent">Sospechan que tiene miedo,</l>
+            <l>y él por probar lo contrario,</l>
+            <l>les convida, y además</l>
+            <l>á la estátua de Gonzalo.</l>
+            <l rend="indent">Y mientras los tres se ausentan</l>
+            <l>con la algazara mayor,</l>
+            <l>Tenorio dice á la estátua:</l>
+            <l>—«¡Lo dicho, Comendador!»—</l>
+
+            <div n="6">
+              <head>VI.</head>
+              <l rend="indent">Don Juan y sus dos amigos</l>
+              <l>cenando están en la quinta,</l>
+              <l>y tienen para el difunto</l>
+              <l>dispuestos cubierto y silla.</l>
+              <l rend="indent">Y cuando van á brindar</l>
+              <l>por la gloria de Gonzalo</l>
+              <l>en la puerta de la calle</l>
+              <l>suena fuerte aldabonazo.</l>
+              <l rend="indent">Ya suena otro en la escalera...</l>
+              <l>otro en la sala contigua...</l>
+              <l>todos se espantan... A Ciutti</l>
+              <l>le tiemblan las pantorrillas.</l>
+              <l rend="indent">—«¿Señores, a qué llamar?.</l>
+              <l>dice Tenorio arrogante,</l>
+              <l>—los muertos se han de filtrar</l>
+              <l>por la pared ¡adelante!</l>
+              <l rend="indent">La estátua de don Gonzalo</l>
+              <l>atraviesa el grueso muro,</l>
+              <l>y á la sala del convite</l>
+              <l>se vé presentar de súbito</l>
+              <l rend="indent">Centellas y Avellaneda</l>
+              <l>se quedan desvanecidos:</l>
+              <l>la estátua dice á Tenorio:</l>
+              <l>—mañana no estarás viyo.</l>
+              <l rend="indent">Para que salves tu alma,</l>
+              <l>Dios en su santa clemencia</l>
+              <l>te concede un solo dia</l>
+              <l>para implorar penitencia..</l>
+              <l rend="indent">Vase la Estátua, Tenorío</l>
+              <l>cree que todo fué broma;</l>
+              <l>mas la verdad le repite,</l>
+              <l>de Inés la mágica sombra.</l>
+              <l>á sus amigos que, presto</l>
+              <l rend="indent">Entónces don Juan despierta</l>
+              <l>creen que él les ha hechizado</l>
+              <l>con un vino que ha compuesto,</l>
+              <l rend="indent">Disputan subiendo el tono:</l>
+              <l>mas no les teme D. Juan,</l>
+              <l>y desafiando á Centellas</l>
+              <l>dice:—Vamos; Capitan.</l>
+            </div>
+
+            <div n="7">
+              <head>VII.</head>
+              <l rend="indent">Vuelve don Juan ya muy pálido</l>
+              <l>á la mansion de los muertos,</l>
+              <l>y la estátua de Gonzalo</l>
+              <l>no ha vuelto aun á su puesto.</l>
+              <l rend="indent">Esta le ofreció un convite</l>
+              <l>y Tenorio lo acepto:</l>
+              <l>la Estátua al fin aparece:</l>
+              <l>—¿Qué quieres? Aquí estoy yo.—</l>
+              <l rend="indent">Fantasmas y fuegos fátuos,</l>
+              <l>osamentas y esqueletos:</l>
+              <l>en derredor de Tenorio,</l>
+              <l>van colocándose tétricos.</l>
+              <l rend="indent">El Comendador le ofrece,</l>
+              <l>fuego y ceniza no más;</l>
+              <l>y le llice majestuoso:</l>
+              <l>—«Te doy lo que tú serás».—</l>
+              <l rend="indent">Despues le ofreco la mano</l>
+              <l>en señal de despedida:</l>
+              <l>don Juan se la dá, y entónces</l>
+              <l>teme por su eterna vida.</l>
+              <l rend="indent">Viendo su muerte cercana,</l>
+              <l>dice:—Señor, creo en tí,</l>
+              <l>si mi maldad fué incauta,</l>
+              <l>Señor, ten piedad de mí.»—</l>
+              <l rend="indent">—¡Ya es tarde!—dice Gonzalo:</l>
+              <l>mas doña lnés aparece</l>
+              <l>y á don Juan que perdon pide</l>
+              <l>su mano, tierna, le ofrece.</l>
+              <l rend="indent">Vuelven los muertos y estátuas</l>
+              <l>á sus puestos y á sus tumbas,</l>
+              <l>pues Dios perdonó á D. Juan</l>
+              <l>al pié de la sepultura.</l>
+              <l rend="indent">Y mientras la pura Inés</l>
+              <l>y don Juan ya perdonado</l>
+              <l>se disponen á cruzar</l>
+              <l>sus almas el ancho espacio,</l>
+              <l>don Juan ante la evidencia</l>
+              <l>dice ver, claro y notorio,</l>
+              <l>que es el Dios de la clemencia</l>
+              <l>el Dios de Don JUAN TENORIO.</l>
+              <p rend="cursiva"><lb/>Es propiedad.</p>
+            </div>
+          </div>
+        </div>
+        
+        <div type="colofon">
+          <p><lb/><hi rend="cursiva">Barcelona.— Depósito de</hi> JOSÉ CLARA, <hi rend="cursiva">Bou
+              de la Plaza Nueva, núm.</hi> 20.</p>
         </div>
       </div>
     </body>

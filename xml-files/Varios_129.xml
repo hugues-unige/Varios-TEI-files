@@ -1,18 +1,17 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../Schema/oddPliego_varios.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:alto="http://www.loc.gov/standards/alto/ns-v4#" xml:id="Varios_129">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Varios_129">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>COPLAS FUNEBRES, LASTIMOSAS Y CONTEMPLATIVAS,</title>
+        <title>COPLAS FUNEBRES, LASTIMOSAS Y CONTEMPLATIVAS</title>
         <respStmt>
           <name/>
           <resp>Codificación TEI</resp>
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <authority role="rightsHolder">Bibliothèque Universitaire de
-                              Genève</authority>
+        <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
         <availability status="restricted">
           <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
         </availability>
@@ -20,14 +19,11 @@
       <sourceDesc>
         <biblFull>
           <titleStmt>
-            <title type="titulo_completo">COPLAS FUNEBRES, LASTIMOSAS Y
-                                          CONTEMPLATIVAS, de los lamentos que dán las benditas
-                                          ànimas del Purgatorio implorando<lb/>el favor y auxilio á
-                                          todos los fieles cristianos, el socorro y alivto de
-                                          sus<lb/>mayores penas y tormentos, esperando las saguen de
-                                          alli para descansar<lb/>en el Señor.</title>
-            <title type="titulo_breve">COPLAS FUNEBRES, LASTIMOSAS Y
-                                          CONTEMPLATIVAS,</title>
+            <title type="titulo_completo">COPLAS FUNEBRES, LASTIMOSAS Y CONTEMPLATIVAS, de los
+              lamentos que dán las benditas ànimas del Purgatorio implorando el favor y auxilio á
+              todos los fieles cristianos, el socorro y alivio de sus mayores penas y tormentos,
+              esperando las saquen de alli para descansar en el Señor.</title>
+            <title type="titulo_breve">COPLAS FUNEBRES, LASTIMOSAS Y CONTEMPLATIVAS,</title>
           </titleStmt>
           <editionStmt>
             <p/>
@@ -35,7 +31,7 @@
           <publicationStmt>
             <publisher>Sucesores de Hernando</publisher>
             <pubPlace ref="https://www.geonames.org/3117735/madrid.html">Madrid</pubPlace>
-            <date>[s.a]</date>
+            <date cert="low" when="1800-01-01">[s.a.]</date>
           </publicationStmt>
         </biblFull>
         <msDesc>
@@ -43,7 +39,8 @@
             <country>Suisse</country>
             <settlement>Genève</settlement>
             <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"/>
-                                    </repository>
+            </repository>
+            <collection>Colección Varios</collection>
             <idno type="cote"/>
             <idno type="DOI">10.5281/zenodo.6577479</idno>
             <altIdentifier>
@@ -51,10 +48,14 @@
             </altIdentifier>
           </msIdentifier>
           <msContents>
-            <summary/>
+            <summary>Dos partes</summary>
             <msItem>
-              <locus/>
-              <title/>
+              <locus>1-2</locus>
+              <title>Primera parte.</title>
+            </msItem>
+            <msItem>
+              <locus>3-4</locus>
+              <title>Segunda parte.</title>
             </msItem>
           </msContents>
           <physDesc>
@@ -76,7 +77,7 @@
               <decoNote type="lista_grabados">
                 <list>
                   <item corresp="grabado_v_129_1.xml">grabado_v_129_1</item>
-                  <item corresp="grabado_v_129_1.xml">grabado_v_129_1</item>
+                  <item corresp="grabado_v_129_2.xml">grabado_v_129_2</item>
                 </list>
               </decoNote>
             </decoDesc>
@@ -98,18 +99,17 @@
     </fileDesc>
     <encodingDesc>
       <projectDesc>
-        <p>Este archivo fue creado en el marco del proyecto Desenrollando el
-                              Cordel/Démêler le cordel/Untangling the cordel, dirigido por la
-                              profesora Constance Carta de la Universidad de Ginebra, con el apoyo
-                              de la Fundación filantrópica Famille Sandoz-Monique de Meuron.</p>
+        <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+          cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la Universidad
+          de Ginebra, con el apoyo de la Fundación filantrópica Famille Sandoz-Monique de
+          Meuron.</p>
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR non corregido</p>
+          <p>OCR no corregido</p>
         </correction>
         <normalization>
-          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto
-                                    original.</p>
+          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
         </normalization>
         <punctuation>
           <p>Se conserva la puntuación original.</p>
@@ -122,17 +122,22 @@
       </langUsage>
       <textClass>
         <keywords xml:base="http://datos.bne.es/tema/">
-          <term target="XX5501105.html" type="tipo_estrofa">Coplas</term>
+          <term target="XX527614.html" type="tipo_texto">Romances</term>
+          <term target="XX4843218.html" type="tipo_estrofa">Romances</term>
           <term type="verso_prosa">Verso</term>
           <term type="sagrado_profano">Sagrado</term>
         </keywords>
       </textClass>
     </profileDesc>
     <revisionDesc>
-      <change when="2022-09-04" who="#PJ">Création du fichier TEI P5 et encodage du
-                        corps du texte</change>
+      <change when="2022-09-04" who="#PJ">Création du fichier TEI P5 et encodage du corps du
+        texte</change>
+      <change when="2024-01-09" who="#EL">Add the IIIF links</change>
     </revisionDesc>
   </teiHeader>
+  <facsimile>
+    <graphic url="varios/Varios_129_1.jpg/full/200,/0/default.jpg"/>
+  </facsimile>
   <sourceDoc xml:id="automaticTranscription">
     <surface xml:id="Varios_129_1" type="page" cert="silver">
       <graphic url="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_129_1/full/full/0/default.jpg"/>
@@ -1350,17 +1355,23 @@
   <text>
     <body>
       <div>
-        <pb n="1" source="Varios_129_1.jpg" facs="fedora_Varios_129_1/full/full/0/default.jpg"/>
-        <fw type="numeroPliego">(Núm. 125).</fw>
-        <head type="primer_titulo"><lb/><hi rend="negrita">COPLAS FUNEBRES,</hi><lb/>LASTIMOSAS Y CONTEMPLATIVAS,</head>
-        <head type="subtitulo_parte" rend="negrita"><lb/>de los lamentos que dán las benditas ànimas del Purgatorio
-                              implorando<lb/>el favor y auxilio á todos los fieles cristianos, el
-                              socorro y alivto de sus<lb/>mayores penas y tormentos, esperando las
-                              saguen de alli para descansar<lb/>en el Señor.</head>
-        <div type="parte" n="1">
-          <head type="titulo_parte"><lb/>PRIMERA PARTE.</head>
-          <lg>
-            <l>Oid. mortales, oid,</l>
+        <div>
+          <pb n="1" source="Varios_129_1.jpg" facs="varios/Varios_129_1.jpg/"/>
+
+          <fw type="numeroPliego">(Núm. 125).</fw>
+
+          <head type="primer_titulo"><lb/><hi rend="negrita">COPLAS FUNEBRES,</hi><lb/>LASTIMOSAS Y
+            CONTEMPLATIVAS,</head>
+
+          <head type="subtitulo_parte" rend="cursiva"><lb/>de los lamentos que dán las benditas
+            ànimas del Purgatorio implorando<lb/>el favor y auxilio á todos los fieles cristianos,
+            el socorro y alivto de sus<lb/>mayores penas y tormentos, esperando las saguen de alli
+            para descansar<lb/>en el Señor.</head>
+
+          <div type="parte" n="1">
+            <head type="titulo_parte"><lb/>PRIMERA PARTE.</head>
+
+            <l rend="indent">Oid, mortales, oid,</l>
             <l>devotos contemplativos,</l>
             <l>almas piadosas y santas,</l>
             <l>de corazon compasivo;</l>
@@ -1378,8 +1389,6 @@
             <l>y los lamentables gritos</l>
             <l>que las ánimas nos dan</l>
             <l>desde el Purgatorio mismo,</l>
-          </lg>
-          <lg>
             <l>expresando sus tormentos,</l>
             <l>sus penas y sus martiríos,</l>
             <l>pues de contínuo están dando</l>
@@ -1398,9 +1407,9 @@
             <l>¡Misericordia, cristianos!</l>
             <l>¡piedad, parientes y amigos</l>
             <l>acordaos de nosotras</l>
-          </lg>
-          <pb n="2" source="Varios_129_2.jpg" facs="fedora_Varios_129_2/full/full/0/default.jpg"/>
-          <lg>
+
+            <pb n="2" source="Varios_129_2.jpg" facs="varios/Varios_129_2.jpg/"/>
+
             <l>por amor de Jesucristo</l>
             <l>Pecador que con tus culpas</l>
             <l>tienes á Dios ofendido,</l>
@@ -1449,8 +1458,6 @@
             <l>Qué decis, fieles cristianos?</l>
             <l>Corazones compasivos,</l>
             <l>tened piedad de estas pobres,</l>
-          </lg>
-          <lg>
             <l>no esteis endurecidos.</l>
             <l>porque aquí estamos gritand</l>
             <l>ya los padres á los hijos,</l>
@@ -1499,13 +1506,14 @@
             <l>procuradnos el alivio »</l>
             <l>Y en otra parte daré</l>
             <l>el romance concluido</l>
-          </lg>
-        </div>
-        <pb n="3" source="Varios_129_3.jpg" facs="fedora_Varios_129_3/full/full/0/default.jpg"/>
-        <div>
-          <head type="titulo_parte"><lb/>SEGUNDA PARTE.</head>
-          <lg>
-            <l>Voy a referir aas penas</l>
+          </div>
+
+          <div type="parte" n="2">
+            <pb n="3" source="Varios_129_3.jpg" facs="varios/Varios_129_3.jpg/"/>
+
+            <head type="titulo_parte"><lb/>SEGUNDA PARTE.</head>
+
+            <l rend="indent">Voy a referir aas penas</l>
             <l>y tormentosos martirios</l>
             <l>que las ánimas padecen</l>
             <l>en el purgatorio dicho.</l>
@@ -1540,8 +1548,6 @@
             <l>en pavesa convertido,</l>
             <l>una Catalina mártir</l>
             <l>por la fe de besueristo.</l>
-          </lg>
-          <lg>
             <l>fué arrojada en una rueda</l>
             <l>de navajas y cuchillos.</l>
             <l>Cotejando todo esto</l>
@@ -1577,9 +1583,9 @@
             <l>y procuremos su alivio;</l>
             <l>ofrezcamos oraciones,</l>
             <l>limosnas y sacrificios.</l>
-          </lg>
-          <pb n="4" source="Varios_129_4.jpg" facs="fedora_Varios_129_4/full/full/0/default.jpg"/>
-          <lg>
+
+            <pb n="4" source="Varios_129_4.jpg" facs="varios/Varios_129_4.jpg/"/>
+
             <l>que es tan alta y agradable.</l>
             <l>esta devocion en Cristo,</l>
             <l>que dice: si yo estuviera</l>
@@ -1621,61 +1627,58 @@
             <l>cada uno un estandarte</l>
             <l>lleva con un lema escrito</l>
             <l>que decia en un renglon:</l>
-          </lg>
-          <div n="1">
-            <head type="titulo_estrofa">MILICIA DE JESUCRISTO.</head>
-            <lg>
-              <l>Admirado de ver esto</l>
-              <l>¡e ejército enemigo,</l>
-              <l>les envió una embaiada</l>
-              <l>y de esta suerte les dijo.</l>
-              <l>¿De dónde os vino, señor,</l>
-              <l>este esfuerzo imprevisto?</l>
-              <l>y el muy bizarro jefe</l>
-              <l>atento ha respondido:</l>
-              <l>decidle á vuestro rey</l>
-              <l>de parte de Dios venimos,</l>
-              <l>nosotros somos soldados</l>
-              <l>de la milicia de Cristo,</l>
-              <l>que por su piedad gozamos</l>
-              <l>la gloria del Cielo empíreo;</l>
-              <l>ánimas del purgatorio</l>
-              <l>al descanso hemos subido.</l>
-              <l>Que á este rey sus Estados</l>
-              <l>le vuelva, si no decimos</l>
-              <l>que él y todo su reino</l>
-              <l>será luego destruido.</l>
-              <l>Le fué dada la noticia</l>
-              <l>al rey invasor maligno;</l>
-              <l>quedó tan maravillado</l>
-              <l>de este admirable prodigio</l>
-              <l>que devolvió sus Estados</l>
-              <l>al otro rey su enemigo.</l>
-              <l>Hicieron con él las paces.</l>
-              <l>y el ejército lucido</l>
-              <l>al punto subió á los cielos</l>
-              <l>y á los devotos les dijo</l>
-              <l>veis que las ánimas libran</l>
-              <l>á los buenos del peligro.</l>
-              <l>Y nos dicen ahora á todos.</l>
-              <l>devotos, á vos pedimos</l>
-              <l>una misa ó un rosario</l>
-              <l>por amor de Jesucristo;</l>
-              <l>mandadnos un Vía-Crucis</l>
-              <l>en caridad encendidos;</l>
-              <l>aplicad un jubileo</l>
-              <l>ó un piadoso ejercicio,</l>
-              <l>una bula por nosotras</l>
-              <l>y vereis cómo salimos</l>
-              <l>de las penas en que estamos</l>
-              <l>y rogaremos á Cristo</l>
-              <l>que vayais á acompañarnos</l>
-              <l>en su gloria, Cielo empíreo,</l>
-              <l>donde requiescant in pace</l>
-              <l>por los siglos de los siglos. AMEN</l>
-            </lg>
+            <l>MILICIA DE JESUCRISTO.</l>
+            <l>Admirado de ver esto</l>
+            <l>¡e ejército enemigo,</l>
+            <l>les envió una embaiada</l>
+            <l>y de esta suerte les dijo.</l>
+            <l>¿De dónde os vino, señor,</l>
+            <l>este esfuerzo imprevisto?</l>
+            <l>y el muy bizarro jefe</l>
+            <l>atento ha respondido:</l>
+            <l>decidle á vuestro rey</l>
+            <l>de parte de Dios venimos,</l>
+            <l>nosotros somos soldados</l>
+            <l>de la milicia de Cristo,</l>
+            <l>que por su piedad gozamos</l>
+            <l>la gloria del Cielo empíreo;</l>
+            <l>ánimas del purgatorio</l>
+            <l>al descanso hemos subido.</l>
+            <l>Que á este rey sus Estados</l>
+            <l>le vuelva, si no decimos</l>
+            <l>que él y todo su reino</l>
+            <l>será luego destruido.</l>
+            <l>Le fué dada la noticia</l>
+            <l>al rey invasor maligno;</l>
+            <l>quedó tan maravillado</l>
+            <l>de este admirable prodigio</l>
+            <l>que devolvió sus Estados</l>
+            <l>al otro rey su enemigo.</l>
+            <l>Hicieron con él las paces.</l>
+            <l>y el ejército lucido</l>
+            <l>al punto subió á los cielos</l>
+            <l>y á los devotos les dijo</l>
+            <l>veis que las ánimas libran</l>
+            <l>á los buenos del peligro.</l>
+            <l>Y nos dicen ahora á todos.</l>
+            <l>devotos, á vos pedimos</l>
+            <l>una misa ó un rosario</l>
+            <l>por amor de Jesucristo;</l>
+            <l>mandadnos un Vía-Crucis</l>
+            <l>en caridad encendidos;</l>
+            <l>aplicad un jubileo</l>
+            <l>ó un piadoso ejercicio,</l>
+            <l>una bula por nosotras</l>
+            <l>y vereis cómo salimos</l>
+            <l>de las penas en que estamos</l>
+            <l>y rogaremos á Cristo</l>
+            <l>que vayais á acompañarnos</l>
+            <l>en su gloria, Cielo empíreo,</l>
+            <l>donde <hi rend="cursiva">requiescant in pace</hi></l>
+            <l>por los siglos de los siglos. AMEN</l>
           </div>
         </div>
+        
         <div type="colofon">
           <p><lb/>MADRID.— Despacho : Sucesores de Hernando, Arenal. 11.</p>
         </div>

@@ -28,9 +28,9 @@
             <p/>
           </editionStmt>
           <publicationStmt>
-            <publisher>Industrias Gráficas “Olympia”</publisher>
+            <publisher>Industrias Gráficas Olympia</publisher>
             <pubPlace ref="https://www.geonames.org/3128760/barcelona.html">Barcelona</pubPlace>
-            <date cert="high">[s.a]</date>
+            <date cert="low" when="1800-01-01">[s.a.]</date>
           </publicationStmt>
         </biblFull>
         <msDesc>
@@ -39,6 +39,7 @@
             <settlement>Genève</settlement>
             <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"/>
                                     </repository>
+            <collection>Colección Varios</collection>
             <idno type="cote"/>
             <idno type="DOI">10.5281/zenodo.6783796</idno>
             <altIdentifier>
@@ -102,7 +103,7 @@
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR non corregido</p>
+          <p>OCR no corregido</p>
         </correction>
         <normalization>
           <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto
@@ -129,9 +130,10 @@
     <revisionDesc>
       <change when="2023-12-13" who="#PJ">Création du fichier TEI P5 et encodage du
                         corps du texte</change>
+<change when="2024-01-09" who="#EL">Add the IIIF links</change>
     </revisionDesc>
   </teiHeader>
-  <sourceDoc xml:id="automaticTranscription">
+  <facsimile><graphic url="varios/Varios_387_1.jpg/full/200,/0/default.jpg"/></facsimile><sourceDoc xml:id="automaticTranscription">
     <surface xml:id="Varios_387_1" type="page" cert="silver">
       <graphic url="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_387_1/full/full/0/default.jpg"/>
       <zone xml:id="Varios_387_1_BT223_1" n="1" type="CustomZone" subtype="title" points="1476,330 1465,485 272,497 263,339 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_387_1/263,330,1213,167/full/0/default" corresp="CustomZone:title">
@@ -612,7 +614,7 @@
       </zone>
       <zone xml:id="Varios_387_3_BT227_5" n="5" type="MainZone" subtype="columns" points="1415,1305 1415,2379 463,2379 463,1305 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_387_3/463,1305,952,1074/full/0/default" corresp="MainZone:columns">
         <zone xml:id="Varios_387_3_BT227_5__1" type="DefaultLine" subtype="none" points="961,1306 940,1306 919,1306 919,1324 917,1333 959,1335 963,1326 961,1306 961,1306 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_387_3/917,1306,46,29/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_387_3_BT227_5__1_1" points="920,1325 964,1327 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
+          <path xml:id="Varios_387_3_BT227_5__1_1" points="920,1325 964,1327 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
           <line>I</line>
         </zone>
         <zone xml:id="Varios_387_3_BT227_5_LT83_2" type="DefaultLine" subtype="none" points="1077,1306 1056,1306 1035,1306 1033,1306 967,1310 952,1326 932,1326 919,1314 917,1316 909,1306 890,1306 876,1306 851,1314 841,1306 828,1306 808,1306 795,1306 773,1312 735,1306 725,1306 704,1306 684,1306 663,1306 642,1306 622,1306 601,1306 580,1306 560,1306 539,1306 518,1306 498,1306 477,1306 477,1345 475,1372 1258,1388 1263,1364 1261,1308 1174,1308 1172,1308 1170,1308 1139,1320 1087,1306 1077,1306 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_387_3/475,1306,788,82/full/0/default" corresp="DefaultLine">
@@ -680,7 +682,7 @@
           <line>Luego te arrastra y te ahoga.</line>
         </zone>
         <zone xml:id="Varios_387_3_BT227_5__18" type="DefaultLine" subtype="none" points="909,1957 909,1971 952,1967 952,1957 952,1907 909,1907 909,1957 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_387_3/909,1907,43,64/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_387_3_BT227_5__18_1" points="910,1959 953,1959 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
+          <path xml:id="Varios_387_3_BT227_5__18_1" points="910,1959 953,1959 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
           <line>II</line>
         </zone>
         <zone xml:id="Varios_387_3_BT227_5_LT83_19" type="DefaultLine" subtype="none" points="486,1978 485,2004 610,2007 611,2007 667,1999 890,2012 891,2012 1012,2007 1039,2018 1040,2018 1041,2018 1149,2019 1152,1993 1152,1957 1128,1950 1127,1950 1125,1950 1069,1955 1036,1956 1028,1952 1008,1938 1007,1938 1006,1938 1004,1938 978,1939 963,1927 963,1926 961,1926 960,1926 884,1924 883,1924 882,1924 880,1924 864,1939 824,1939 822,1939 821,1939 817,1941 797,1950 788,1939 774,1926 774,1924 773,1924 771,1924 770,1924 769,1924 745,1937 740,1941 735,1937 722,1924 720,1924 719,1924 672,1920 671,1920 669,1920 644,1933 616,1946 607,1937 607,1935 606,1935 605,1935 603,1935 602,1935 574,1945 533,1945 515,1927 515,1926 514,1926 512,1926 486,1924 486,1978 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_387_3/485,1920,667,99/full/0/default" corresp="DefaultLine">
@@ -779,7 +781,7 @@
           <line>brazo y luego por la noche la vi con un cabo en el</line>
         </zone>
         <zone xml:id="Varios_387_4_BT227_2__11" type="DefaultLine" subtype="none" points="1230,922 1230,977 1348,968 1348,922 1348,880 1230,878 1230,922 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_387_4/1230,878,118,99/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_387_4_BT227_2__11_1" points="1231,923 1349,923 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
+          <path xml:id="Varios_387_4_BT227_2__11_1" points="1231,923 1349,923 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
           <line>(teatro</line>
         </zone>
         <zone xml:id="Varios_387_4_BT227_2_LT83_12" type="DefaultLine" subtype="none" points="575,918 582,924 584,924 585,924 694,925 695,925 929,920 930,908 929,885 577,880 577,904 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_387_4/575,880,355,45/full/0/default" corresp="DefaultLine">
@@ -958,7 +960,7 @@
   <text>
     <body>
       <div>
-        <pb n="1" source="Varios_387_1.jpg" facs="fedora_Varios_387_1/full/full/0/default.jpg"/>
+        <pb n="1" source="Varios_387_1.jpg" facs="varios/Varios_387_1.jpg/"/>
         <div type="parte" n="1">
           <head type="subtitulo_parte" rend="negrita"><lb/>PREMIADO POR S. M. EL REY D. ALFONSO XIII</head>
           <head type="titulo_parte" rend="negrita"><lb/>LA CANCION DEL SOLDADO<lb/>Aires militares
@@ -966,7 +968,7 @@
           <div type="colofon">
             <p><lb/>Imp. Aldana, 12.—BARCELONA.</p>
           </div>
-          <pb n="2" source="Varios_387_2.jpg" facs="fedora_Varios_387_2/full/full/0/default.jpg"/>
+          <pb n="2" source="Varios_387_2.jpg" facs="varios/Varios_387_2.jpg/"/>
           <div type="parte" n="1">
             <head type="titulo_parte" rend="negrita"><lb/>La canción del Soldado</head>
             <lg>
@@ -1040,7 +1042,7 @@
               <l>se me ensancha el corazón.</l>
             </lg>
           </div>
-          <pb n="3" source="Varios_387_3.jpg" facs="fedora_Varios_387_3/full/full/0/default.jpg"/>
+          <pb n="3" source="Varios_387_3.jpg" facs="varios/Varios_387_3.jpg/"/>
           <div type="parte" n="2">
             <head type="titulo_part" rend="negrita"><lb/>La canción del soldado</head>
             <head type="subtitulo_parte"><lb/>SEGUNDA PARTE</head>
@@ -1130,7 +1132,7 @@
               <l>A la orilla, etc., etc.</l>
             </lg>
           </div>
-          <pb n="4" source="Varios_387_4.jpg" facs="fedora_Varios_387_4/full/full/0/default.jpg"/>
+          <pb n="4" source="Varios_387_4.jpg" facs="varios/Varios_387_4.jpg/"/>
           <div type="parte" n="4">
             <head type="titulo_parte"><lb/>Que la mar es muy traidora</head>
             <lg>

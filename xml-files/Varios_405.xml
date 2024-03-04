@@ -28,9 +28,9 @@
             <p/>
           </editionStmt>
           <publicationStmt>
-            <publisher>Despacho: Hernando</publisher>
+            <publisher>Hernando</publisher>
             <pubPlace ref="https://www.geonames.org/3117735/madrid.html">Madrid</pubPlace>
-            <date cert="high">[s.a]</date>
+            <date cert="low" when="1800-01-01">[s.a.]</date>
           </publicationStmt>
         </biblFull>
         <msDesc>
@@ -39,6 +39,7 @@
             <settlement>Genève</settlement>
             <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"/>
                                     </repository>
+            <collection>Colección Varios</collection>
             <idno type="cote"/>
             <idno type="DOI">10.5281/zenodo.6787652</idno>
             <altIdentifier>
@@ -99,7 +100,7 @@
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR non corregido</p>
+          <p>OCR no corregido</p>
         </correction>
         <normalization>
           <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto
@@ -126,9 +127,10 @@
     <revisionDesc>
       <change when="2023-12-20" who="#PJ">Création du fichier TEI P5 et encodage du
                         corps du texte</change>
+<change when="2024-01-09" who="#EL">Add the IIIF links</change>
     </revisionDesc>
   </teiHeader>
-  <sourceDoc xml:id="automaticTranscription">
+  <facsimile><graphic url="varios/Varios_405_1.jpg/full/200,/0/default.jpg"/></facsimile><sourceDoc xml:id="automaticTranscription">
     <surface xml:id="Varios_405_1" type="page" cert="silver">
       <graphic url="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_405_1/full/full/0/default.jpg"/>
       <zone xml:id="Varios_405_1_BT221_1" n="1" type="CustomZone" subtype="impresorNum" points="1167,229 1431,229 1431,309 1167,309 1167,229 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_405_1/1167.0,229.0,264.0,80.0/full/0/default" corresp="CustomZone:impresorNum">
@@ -2684,7 +2686,7 @@
   <text>
     <body>
       <div>
-        <pb n="1" source="Varios_405_1.jpg" facs="fedora_Varios_405_1/full/full/0/default.jpg"/>
+        <pb n="1" source="Varios_405_1.jpg" facs="varios/Varios_405_1.jpg/"/>
         <fw type="impresorNum">(Número 3.)</fw>
         <div type="parte" n="1">
           <head type="primer_titulo"><lb/>NUEVA Y CURIOSA RELACION<lb/><hi rend="negrita">DE LA
@@ -2721,7 +2723,7 @@
             <l>con la mujer más hermosa</l>
             <l>que habia en todo aquel reino,</l>
           </lg>
-          <pb n="2" source="Varios_405_2.jpg" facs="fedora_Varios_405_2/full/full/0/default.jpg"/>
+          <pb n="2" source="Varios_405_2.jpg" facs="varios/Varios_405_2.jpg/"/>
           <fw type="paginaNum">— 2</fw>
           <lg>
             <l>tan discreta y tan bizarra</l>
@@ -2818,7 +2820,7 @@
             <l>—Este quiere intentar</l>
             <l>un villano atrevimiento.</l>
           </lg>
-          <pb n="3" source="Varios_405_3.jpg" facs="fedora_Varios_405_3/full/full/0/default.jpg"/>
+          <pb n="3" source="Varios_405_3.jpg" facs="varios/Varios_405_3.jpg/"/>
           <fw type="paginaNum">— 3 —</fw>
           <lg>
             <l>mas antes que lo ejecute</l>
@@ -2914,7 +2916,7 @@
             <l>viene ya don Alejandro</l>
             <l>echando plumas al viento.</l>
           </lg>
-          <pb n="4" source="Varios_405_4.jpg" facs="fedora_Varios_405_4/full/full/0/default.jpg"/>
+          <pb n="4" source="Varios_405_4.jpg" facs="varios/Varios_405_4.jpg/"/>
           <fw type="paginaNum">— 4 —</fw>
           <lg>
             <l>Doña Inés á Federico</l>
@@ -3010,7 +3012,7 @@
             <l>y la dice:—Devota mia,</l>
             <l>libre estás, no tengas miedo,</l>
           </lg>
-          <pb n="5" source="Varios_405_5.jpg" facs="fedora_Varios_405_5/full/full/0/default.jpg"/>
+          <pb n="5" source="Varios_405_5.jpg" facs="varios/Varios_405_5.jpg/"/>
           <fw type="paginaNum">— 5 —</fw>
           <lg>
             <l>que ya vendré á visitarte,</l>
@@ -3099,7 +3101,7 @@
             <l>Pasaban todos los dias</l>
             <l>las cosas que aquí refiero.</l>
           </lg>
-          <pb n="6" source="Varios_405_6.jpg" facs="fedora_Varios_405_6/full/full/0/default.jpg"/>
+          <pb n="6" source="Varios_405_6.jpg" facs="varios/Varios_405_6.jpg/"/>
           <fw type="paginaNum">— 6 —</fw>
           <lg>
             <l>Vamos á don Federico,</l>
@@ -3195,7 +3197,7 @@
             <l>y luego los veian sanos</l>
             <l>dentro de muy breve tiempo.</l>
           </lg>
-          <pb n="7" source="Varios_405_7.jpg" facs="fedora_Varios_405_7/full/full/0/default.jpg"/>
+          <pb n="7" source="Varios_405_7.jpg" facs="varios/Varios_405_7.jpg/"/>
           <fw type="paginaNum">— 7 —</fw>
           <lg>
             <l>Va la nueva al general</l>
@@ -3291,7 +3293,7 @@
             <l>el rostro a la peregrina,</l>
             <l>y el traslado de su pecho</l>
           </lg>
-          <pb n="8" source="Varios_405_8.jpg" facs="fedora_Varios_405_8/full/full/0/default.jpg"/>
+          <pb n="8" source="Varios_405_8.jpg" facs="varios/Varios_405_8.jpg/"/>
           <fw type="paginaNum">— 8—</fw>
           <lg>
             <l>viendo que era todo uno,</l>

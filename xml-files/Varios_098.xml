@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../Schema/oddPliego_varios.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:alto="http://www.loc.gov/standards/alto/ns-v4#" xml:id="Varios_098">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Varios_098">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -11,8 +11,7 @@
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <authority role="rightsHolder">Bibliothèque Universitaire de
-                              Genève</authority>
+        <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
         <availability status="restricted">
           <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
         </availability>
@@ -20,19 +19,17 @@
       <sourceDesc>
         <biblFull>
           <titleStmt>
-            <title type="titulo_completo">RELACION DE UN GANZO DE UN
-                                          CORtijo, manifestando el chasco que le sucedió la noche de
-                                          S. Juan, en este presente año.</title>
-            <title type="titulo_breve">RELACION DE UN GANZO DE UN
-                                          CORtijo</title>
+            <title type="titulo_completo">RELACION DE UN GANZO DE UN CORtijo, manifestando el chasco
+              que le sucedió la noche de S. Juan, en este presente año.</title>
+            <title type="titulo_breve">RELACION DE UN GANZO DE UN CORtijo</title>
           </titleStmt>
           <editionStmt>
             <p/>
           </editionStmt>
           <publicationStmt>
-            <publisher>Imprenta de Aragon </publisher>
+            <publisher>Imprenta de Aragon</publisher>
             <pubPlace ref="https://www.geonames.org/2510911/sevilla.html">Sevilla</pubPlace>
-            <date>[s.a]</date>
+            <date cert="low" when="1800-01-01">[s.a.]</date>
           </publicationStmt>
         </biblFull>
         <msDesc>
@@ -40,7 +37,8 @@
             <country>Suisse</country>
             <settlement>Genève</settlement>
             <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"/>
-                                    </repository>
+            </repository>
+            <collection>Colección Varios</collection>
             <idno type="cote"/>
             <idno type="DOI">10.5281/zenodo.6575969</idno>
             <altIdentifier>
@@ -82,18 +80,17 @@
     </fileDesc>
     <encodingDesc>
       <projectDesc>
-        <p>Este archivo fue creado en el marco del proyecto Desenrollando el
-                              Cordel/Démêler le cordel/Untangling the cordel, dirigido por la
-                              profesora Constance Carta de la Universidad de Ginebra, con el apoyo
-                              de la Fundación filantrópica Famille Sandoz-Monique de Meuron.</p>
+        <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+          cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la Universidad
+          de Ginebra, con el apoyo de la Fundación filantrópica Famille Sandoz-Monique de
+          Meuron.</p>
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR non corregido</p>
+          <p>OCR no corregido</p>
         </correction>
         <normalization>
-          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto
-                                    original.</p>
+          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
         </normalization>
         <punctuation>
           <p>Se conserva la puntuación original.</p>
@@ -114,10 +111,14 @@
       </textClass>
     </profileDesc>
     <revisionDesc>
-      <change when="2022-08-31" who="#PJ">Création du fichier TEI P5 et encodage du
-                        corps du texte</change>
+      <change when="2022-08-31" who="#PJ">Création du fichier TEI P5 et encodage du corps du
+        texte</change>
+      <change when="2024-01-09" who="#EL">Add the IIIF links</change>
     </revisionDesc>
   </teiHeader>
+  <facsimile>
+    <graphic url="varios/Varios_098_1.jpg/full/200,/0/default.jpg"/>
+  </facsimile>
   <sourceDoc xml:id="automaticTranscription">
     <surface xml:id="Varios_098_1" type="page" cert="silver">
       <graphic url="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_098_1/full/full/0/default.jpg"/>
@@ -816,13 +817,12 @@
   <text>
     <body>
       <div>
-        <pb n="1" source="Varios_098_1.jpg" facs="fedora_Varios_098_1/full/full/0/default.jpg"/>
+        <pb n="1" source="Varios_098_1.jpg" facs="varios/Varios_098_1.jpg/"/>
         <div>
           <head type="primer_titulo"><lb/>RELACION DE UN GANZO DE UN COR-<lb/>tijo, manifestando el
-                                    chasco que le sucedió la no-<lb/>che de S. Juan, en este
-                                    presente año.</head>
-          <lg>
-            <l>Dios gracias, aca estamos toos</l>
+            chasco que le sucedió la no-<lb/>che de S. Juan, en este presente año.</head>
+          
+            <l rend="indent"><hi rend="negrita">D</hi>ios gracias, aca estamos toos</l>
             <l>carambita que me entrampan,</l>
             <l>¿es Sivilla esta Zuidad?</l>
             <l>por que segun por la mapa</l>
@@ -864,8 +864,6 @@
             <l>al ver tan grande proigio</l>
             <l>yo me jise una batata</l>
             <l>sin saber que le iria,</l>
-          </lg>
-          <lg>
             <l>con los ojos me jablaba</l>
             <l>y soltando de su boca.</l>
             <l>la sal que se le erramaba</l>
@@ -883,7 +881,6 @@
             <l>Tambien le compre un muñeco</l>
             <l>de una manera tan rara.</l>
             <l>que tirandole de un jilo</l>
-            <l>I</l>
             <l>Cuando golvi la encontré</l>
             <l>risueña como una pascua:</l>
             <l>me mandó que suba arriba,</l>
@@ -908,9 +905,9 @@
             <l>parece que me apretaba,</l>
             <l>cual quearia mi cuerpo</l>
             <l>cuando vi entrar en la sala</l>
-          </lg>
-          <pb n="2" source="Varios_098_2.jpg" facs="fedora_Varios_098_2/full/full/0/default.jpg"/>
-          <lg>
+          
+          <pb n="2" source="Varios_098_2.jpg" facs="varios/Varios_098_2.jpg/"/>
+          
             <l>uns vieja y agarró,</l>
             <l>la bazinilla y se planta:</l>
             <l>que truenos! que lluvía!</l>
@@ -924,7 +921,7 @@
             <l>se me regolvió de popa</l>
             <l>con las naguas levantaas</l>
             <l>y en medio de los josicos</l>
-            <l>me p!antificó las nargas:</l>
+            <l>me plantificó las nargas:</l>
             <l>en fin se limpió y no mas</l>
             <l>y decia la malvas</l>
             <l>esta lana á estao al sol</l>
@@ -950,10 +947,8 @@
             <l>empeze á llorar, de suerte</l>
             <l>que las lagrimas que echaba</l>
             <l>eran mas gordas que peros</l>
-          </lg>
-          <lg>
-            <l>pa todos mis camaraas</l>
-            <l>Sin dua do ténió el Disblá</l>
+            <l>pa toos mis camaraas</l>
+            <l>sin dua lo ténió el Diabló</l>
             <l>Luego fue y en una taza</l>
             <l>trajo un betum y pintome</l>
             <l>como á Demonio la cara,</l>
@@ -991,12 +986,12 @@
             <l>y á las malditas muchachas</l>
             <l>pues de esta suerte me han puestao</l>
             <l>voy cosriendo á buscas agua.</l>
-          </lg>
-          <trailer>FIN.</trailer>
+          
+          <trailer rend="negrita">FIN.</trailer>
         </div>
+        
         <div type="colofon">
-          <p><lb/>Con licencia: En Sevilla en la Imprenta de Aragon y
-                                    Compañia.</p>
+          <p><lb/>Con licencia: En Sevilla en la Imprenta de Aragon y Compañia.</p>
         </div>
       </div>
     </body>

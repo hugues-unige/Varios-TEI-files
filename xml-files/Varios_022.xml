@@ -1,18 +1,17 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../Schema/oddPliego_varios.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:alto="http://www.loc.gov/standards/alto/ns-v4#" xml:id="Varios_022">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Varios_022">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>VERDADERO Y NUEVO EJEMPLAR</title>
+        <title>Verdadero y nuevo ejemplar</title>
         <respStmt>
           <name/>
           <resp>Codificación TEI</resp>
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <authority role="rightsHolder">Bibliothèque Universitaire de
-                            Genève</authority>
+        <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
         <availability status="restricted">
           <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
         </availability>
@@ -20,15 +19,19 @@
       <sourceDesc>
         <biblFull>
           <titleStmt>
-            <title type="titulo_completo">VERDADERO Y NUEVO EJEMPLAR en el que se dá cuenta y declara la cruel muerte que le han dado á un tal Joaquin de Mata y á su hijo, entre su esposa y un querido en el pueblo de Santa Fé, provincia de Granada, en este presente año.</title>
-            <title type="titulo_breve">VERDADERO Y NUEVO EJEMPLAR</title>
+            <title type="titulo_completo">Verdadero y nuevo ejemplar en el que se dá cuenta y
+              declara la cruel muerte que le han dado á un tal Joaquin de Mata y á su hijo, entre
+              su esposa y un querido en el pueblo de Santa Fé, provincia de Granada, en este
+              presente año.</title>
+            <title type="titulo_breve">Verdadero y nuevo ejemplar</title>
           </titleStmt>
           <editionStmt>
             <p/>
           </editionStmt>
           <publicationStmt>
-            <publisher>del Diario</publisher>
-            <pubPlace>[s.l]</pubPlace>
+            <publisher>Imprenta del Diario</publisher>
+            <pubPlace>[s.l.]</pubPlace>
+            <date when="1800-01-01" cert="low">[s.a.]</date>
           </publicationStmt>
         </biblFull>
         <msDesc>
@@ -36,7 +39,8 @@
             <country>Suisse</country>
             <settlement>Genève</settlement>
             <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"/>
-                  </repository>
+            </repository>
+            <collection>Colección Varios</collection>
             <idno type="cote"/>
             <idno type="DOI">10.5281/zenodo.6546823</idno>
             <altIdentifier>
@@ -65,7 +69,7 @@
               </layoutDesc>
             </objectDesc>
             <decoDesc>
-              <summary n="1">Uno grabado (p.1)</summary>
+              <summary n="1">Un grabado (p.1)</summary>
               <decoNote type="lista_grabados">
                 <list>
                   <item corresp="grabado_v_022_1.xml">grabado_v_022_1</item>
@@ -86,18 +90,17 @@
     </fileDesc>
     <encodingDesc>
       <projectDesc>
-        <p>Este archivo fue creado en el marco del proyecto Desenrollando el
-                            Cordel/Démêler le cordel/Untangling the cordel, dirigido por la
-                            profesora Constance Carta de la Universidad de Ginebra, con el apoyo de
-                            la Fundación filantrópica Famille Sandoz-Monique de Meuron.</p>
+        <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+          cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la Universidad
+          de Ginebra, con el apoyo de la Fundación filantrópica Famille Sandoz-Monique de
+          Meuron.</p>
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR non corregido</p>
+          <p>OCR no corregido</p>
         </correction>
         <normalization>
-          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto
-                                original.</p>
+          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
         </normalization>
         <punctuation>
           <p>Se conserva la puntuación original.</p>
@@ -119,10 +122,11 @@
     </profileDesc>
     <revisionDesc>
       <change when="2022-05-06" who="#PJ">Création du fichier TEI P5 et encodage du corps du
-                        texte</change>
+        texte</change>
+<change when="2024-01-09" who="#EL">Add the IIIF links</change>
     </revisionDesc>
   </teiHeader>
-  <sourceDoc xml:id="automaticTranscription">
+  <facsimile><graphic url="varios/Varios_022_1.jpg/full/200,/0/default.jpg"/></facsimile><sourceDoc xml:id="automaticTranscription">
     <surface xml:id="Varios_022_1" type="page" cert="silver">
       <graphic url="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_022_1/full/full/0/default.jpg"/>
       <zone xml:id="Varios_022_1_BT223_1" n="1" type="CustomZone" subtype="title" points="1577,1436 1581,1901 1405,1901 1405,1993 1056,1993 1056,2022 656,2022 656,1993 286,1993 286,1927 92,1927 92,1436 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_022_1/92,1436,1489,586/full/0/default" corresp="CustomZone:title">
@@ -1293,304 +1297,300 @@
     <body>
       <div>
         <div>
-          <pb n="1" source="Varios_022_1.jpg" facs="fedora_Varios_022_1/full/full/0/default.jpg"/>
-          <head type="primer_titulo"><lb/><hi rend="negrita">VERDADERO Y NUEVO EJEMPLAR</hi><lb/>en el que se dá cuenta y declara la cruel<lb/>muerte que le han dado á un tal Joaquin de<lb/>Mata y á su hijo, entre su esposa y un<lb/>querido en el pueblo de Santa Fé, provincia<lb/>de Granada, en este presente año.</head>
-          <lg>
-            <l>Que ponga todo cristiauo</l>
-            <l>atencion á estas palabras,</l>
-            <l>las que esplica este papel,</l>
-            <l>que interesa el observarlas;</l>
-            <l>lea el curioso lector</l>
-            <l>las ideas tan villanas</l>
-          </lg>
-          <lg>
-            <l>que ha ejecutado una jóven</l>
-            <l>llamada Francisca Llala;</l>
-            <l>huérfana de padre y madre</l>
-            <l>se crió con una hermana,</l>
-            <l>con bastante honestidad,</l>
-            <l>con honrader y enseñanza.</l>
-          </lg>
-          <pb n="2" source="Varios_022_2.jpg" facs="fedora_Varios_022_2/full/full/0/default.jpg"/>
-          <lg>
-            <l>Se casó con un viudo</l>
-            <l>llamado Joanquin de mata,</l>
-            <l>que solamente en dinero,</l>
-            <l>siete mil duros contaba;</l>
-            <l>tenia además tres viñas,</l>
-            <l>seis cortijos de labranza,</l>
-            <l>con un hijo que tenia</l>
-            <l>que á seis años no llegaba,</l>
-            <l>nunca madrasta le dijo</l>
-            <l>de tanto que la estimaba,</l>
-            <l>igualmente que á la madre</l>
-            <l>lo mismo la respetaba.</l>
-            <l>Todos le tenian envidia</l>
-            <l>de lo bien que se llevaba:</l>
-            <l>no hallaban gusto que darle</l>
-            <l>sino lo que deseaba</l>
-            <l>A los tres años y medio</l>
-            <l>que ya se hallaba casada,</l>
-            <l>de un mozo se enamoró.</l>
-            <l>sirviendo en la misma casa,</l>
-            <l>llamado José Morales;</l>
-            <l>y al año que se trataban</l>
-            <l>donde lo llegó á saber</l>
-            <l>el amo lo que pasaba;</l>
-            <l>como no estaba muy fijo,</l>
-            <l>con grande recelo andaba</l>
-            <l>ni de noche ni de dia</l>
-            <l>no paraba de celarla;</l>
-            <l>ella lo llegó á saber</l>
-            <l>que su esposo la celaba,</l>
-            <l>y á su querido le dijo</l>
-            <l>estas pícaras palabras:</l>
-            <l>José Morales, me encuentro</l>
-            <l>de mi esposo despreciada,</l>
-            <l>no sé quien se lo habrá dicho</l>
-            <l>de que tú conmigo tratas.</l>
-            <l>Por saber quien habria sído</l>
-            <l>al demonio ma entregara</l>
-            <l>le habia de hacer pedazos</l>
-            <l>á fuerza de puñaladas</l>
-            <l>Anda, no seas ignorante,</l>
-            <l>el querido contestaba:</l>
-            <l>déjate de tonterías</l>
-            <l>que por bien más se adelanta.</l>
-            <l>Dí ¿qué vas á adelantar</l>
-            <l>con hablar esas palabras?</l>
-            <l>si tu esposo te abandona,</l>
-            <l>yo jamás te despreciara.</l>
-            <l>Entonces le dijo ella:</l>
-          </lg>
-          <lg>
-            <l>Si tú me das la palabra,</l>
-            <l>en est́a noche que viene</l>
-            <l>le damos la muerte amarga,</l>
-            <l>á mi esposo y á su hijo,</l>
-            <l>y tambien á la criada,</l>
-            <l>á deshora de la noche</l>
-            <l>sin que nadie entienda nada.</l>
-            <l>Para que nada se piense</l>
-            <l>yo tambien quedo amarrada</l>
-            <l>atada de piés y manos,</l>
-            <l>con la cara ensangrentada.</l>
-            <l>Te entrego todo el dinero,</l>
-            <l>y te marchas á tu casa,</l>
-            <l>y al rato principiaré</l>
-            <l>á decir en voces altas:</l>
-            <l>Vecinos, favorecedme</l>
-            <l>de esta hora desgraciada;</l>
-            <l>le han dado muerte á mi esposo,</l>
-            <l>á mi hijo y á la criada;</l>
-            <l>acudirán los vecinos,</l>
-            <l>y al verme tan mal tratada,</l>
-            <l>nunca se calcularán</l>
-            <l>que yo tal cosa pensara.</l>
-            <l>Pues has pensado muy bien,</l>
-            <l>el querido contestaba:</l>
-            <l>á las doce de la noche</l>
-            <l>está puesta la palabra;</l>
-            <l>para que nada se piensen</l>
-            <l>te acuestas en su compaña</l>
-            <l>deja entornada la puerta</l>
-            <l>de la calle y de la sala.</l>
-            <l>Ya se quedaron conformes</l>
-            <l>para la hora citada,</l>
-            <l>por un pícaro interés</l>
-            <l>le dió cierta la palabra</l>
-            <l>A deshora de la noche</l>
-            <l>aquella mujer ingrata</l>
-            <l>con mucha dispertacion,</l>
-            <l>al querido le esperaba.</l>
-            <l>Cuando el querido llegó</l>
-            <l>ya prevenida se hallaba,</l>
-            <l>con aquel mal corazon</l>
-            <l>á la cama se llegaba,</l>
-            <l>con un martillo muy fuerte</l>
-            <l>en la cabeza le daba,</l>
-            <l>le abrieron siete agujeros,</l>
-            <l>sin compasión le tiraban.</l>
-            <l>Lo dejaron sin aliento,</l>
-            <l>con la muerte peleaba,</l>
-          </lg>
-          <pb n="3" source="Varios_022_3.jpg" facs="fedora_Varios_022_3/full/full/0/default.jpg"/>
-          <lg>
-            <l>revolcándose en la sangre,</l>
-            <l>estas palabras hablaba;</l>
-            <l>aunque me has dado la muerte,</l>
-            <l>mujer, estás perdonada</l>
-            <l>te pido que no abandones</l>
-            <l>al hijo de mis entrañas.</l>
-            <l>Con muchísima sorberbia</l>
-            <l>á el querido le mandaba:</l>
-            <l>« tírale, no seas cobarde,</l>
-            <l>que no hable una palabra.»</l>
-            <l>El querido le tiró</l>
-            <l>una cruel puñalada,</l>
-            <l>y el corazon le partió,</l>
-            <l>que no dijo, Dios me valga.</l>
-            <l>El cuchillo de la mano.</l>
-            <l>al querido le quitaba,</l>
-            <l>despues que ya estaba muerto</l>
-            <l>le dió cineo puñaladas.</l>
-            <l>En seguida se dirijen</l>
-            <l>aquellas malas entrañas</l>
-            <l>para la cama del niño,</l>
-            <l>la cabeza le cortaba.</l>
-            <l>Se dirigieron al cuarto</l>
-            <l>donde estaba la criada.</l>
-            <l>la cogieron entre sueños,</l>
-            <l>con silencio principiaban</l>
-            <l>á descerrajar la puerta,</l>
-            <l>la criada presenciaba</l>
-            <l>que trasteaban la puerta,</l>
-            <l>y entonces sobresaltada</l>
-            <l>asustada respondia:</l>
-            <l>á estas horas propasadas,</l>
-            <l>¿quién ha llamado á la puerta?</l>
-            <l>el alma le contestaba.</l>
-            <l>Abre lijera la puerta,</l>
-            <l>picara mujer, ingrata:</l>
-            <l>ahora me vas á pagar</l>
-            <l>con darte la muerte amarga:</l>
-            <l>lo que le has dicho á mi esposo</l>
-            <l>solo con la vida pagas,</l>
-            <l>te voy á sacar la lengua</l>
-            <l>por habladora y tunanta.</l>
-            <l>Viéndose tan cometida,</l>
-            <l>de veras la suplicaba</l>
-            <l>á la reina de los cielos,</l>
-            <l>Virgen y Madre Sagrada</l>
-            <l>á la pura Concepcion</l>
-            <l>que en su pecho conservaba</l>
-            <l>llena de angustia y de pena</l>
-          </lg>
-          <lg>
-            <l>esta súplica le echaba:</l>
-            <l>«Purísima Concepcion</l>
-            <l>amparo de quien te llama:</l>
-            <l>alcanzad con vuestro Hijo</l>
-            <l>con vuestra divina gracia,</l>
-            <l>que me saque de estas penas</l>
-            <l>de esta hora desgraciada</l>
-            <l>que no tengo más remedio,</l>
-            <l>que voy á ser asesinada;</l>
-            <l>cubridme con vuestro manto,</l>
-            <l>con vuestra divina gracia</l>
-            <l>con tu poder y bondad</l>
-            <l>Madre de Dios consagrada »</l>
-            <l>En aquel mismo momento</l>
-            <l>pye á un sereno que canta</l>
-            <l>en aquella misma calle</l>
-            <l>las dos de la madrugada</l>
-            <l>se asomó por una reja</l>
-            <l>y al sereno lo llamaba</l>
-            <l>llorando amargamente,</l>
-            <l>sin poder romper el habla.</l>
-            <l>El sereno se aproxima</l>
-            <l>y escuchaba estas palabras</l>
-            <l>que decia amagarmente:</l>
-            <l>«Amparadme buenas almas»</l>
-            <l>Tocaba el pito de seña</l>
-            <l>y á las puertas se acercaba</l>
-            <l>la ronda y la autoridad</l>
-            <l>muy prontamente llamaba,</l>
-            <l>ligeramente á la puerta</l>
-            <l>se asomó Francisca Llala</l>
-            <l>por nn balcon y decia;</l>
-            <l>á estas horas propasadas,</l>
-            <l>quién ha llamado á la puerta?</l>
-            <l>Lo autoridad contestaba:</l>
-            <l>Abre ligero y no tardes,</l>
-            <l>la autoridad es la que llama»</l>
-            <l>Viéndose ya descubierta,</l>
-            <l>llena de ira y de rubia,</l>
-            <l>con un cuchillo en la mano</l>
-            <l>al querido le tiraba:</l>
-            <l>el cuerpo le destrozó</l>
-            <l>á fuerza de puñaladas</l>
-            <l>révolcándose en la sangre</l>
-            <l>lo dejó en aquella sala,</l>
-            <l>seducida del demonio</l>
-            <l>para el patio se marchaba,</l>
-            <l>y tuvo valor de tirarse</l>
-            <l>á un pozo de quince varas.</l>
-          </lg>
-          <pb n="4" source="Varios_022_4.jpg" facs="fedora_Varios_022_4/full/full/0/default.jpg"/>
-          <lg>
-            <l>Prontamente la justicia</l>
-            <l>la puerta descerrajaba,</l>
-            <l>y admirados se quedaron</l>
-            <l>cuando entraron en la sala</l>
-            <l>que estaba José Morales</l>
-            <l>con las últimas palabras</l>
-            <l>dice: ¡no hay quien me umpare!</l>
-            <l>que la confesion me falta,</l>
-            <l>le preguntun: ¿quién te ha herido?</l>
-            <l>Morales le contestaba:</l>
-            <l>«una picara mujer</l>
-            <l>llamada Francisca Llala.</l>
-            <l>Por consejos que me ha dado</l>
-            <l>hemos hecho esta desgracia,</l>
-            <l>á su esposo y á su hijo</l>
-            <l>le dimos la muerte amarga;</l>
-            <l>la criada se ha librado</l>
-            <l>por que se hallaba encerrada</l>
-            <l>que si no tambien le hacemos</l>
-            <l>que sufriera la muerte amarga.</l>
-            <l>Viendo quese ha descubierto,</l>
-            <l>se ha vengado la tunanta</l>
-            <l>en darme muerte cruel</l>
-            <l>hablándole como estaba.</l>
-            <l>Perdonadme, hermanos mios,</l>
-            <l>ya el remedio no se halla</l>
-            <l>que ya me falta el aliento</l>
-            <l>pedirle á Dios por mi alma.»</l>
-            <l>Entraba en la habitacion</l>
-            <l>donde estaba la criada,</l>
-            <l>la encontraron de rodillas</l>
-            <l>con esta divina estampa,</l>
-            <l>es la Pura Concepcion</l>
-            <l>patrona de toda España,</l>
-          </lg>
-          <lg>
-            <l>cuando vió á la autoridad</l>
-            <l>al suelo cayó insultada;</l>
-            <l>en cuanto se reportó</l>
-            <l>entonces la consolaban,</l>
-            <l>le cuenta á la autoridad</l>
-            <l>todo lo que le pasaba</l>
-            <l>principiaron á buscar</l>
-            <l>á la tal Francísca Llala</l>
-            <l>por mucho que le buscaron</l>
-            <l>no pudieron encontrarla;</l>
-            <l>viendo que no la encontraron</l>
-            <l>para el patio se marchab an,</l>
-            <l>se aproximaron al pozo</l>
-            <l>y el ruido presenciaban</l>
-            <l>por muy pronto que acudieron</l>
-            <l>con las cuerdas á sacarla</l>
-            <l>ya no encontraron remedio</l>
-            <l>que la sacaron ahogada.</l>
-            <l>Enterada la Justicia</l>
-            <l>de que la pobre criada</l>
-            <l>no tenia culpa ninguna</l>
-            <l>no la culparon de nada</l>
-            <l>el pueblo maravillado</l>
-            <l>mil gracias á Dios le daba</l>
-            <l>al ver de que salió libre</l>
-            <l>la pobre infeliz criada;</l>
-            <l>le hicieron una funcion</l>
-            <l>á la patrona de España,</l>
-            <l>que es la Pura Concepcion.</l>
-            <l>Madre de Dios consagrada</l>
-            <l>la que guia al caminante</l>
-            <l>y al desgraciado lo ampara,</l>
-            <l>levemos con devocion</l>
-            <l>á esta Vírgen Soberana.</l>
-          </lg>
+          <pb n="1" source="Varios_022_1.jpg" facs="varios/Varios_022_1.jpg/"/>
+
+          <head type="primer_titulo"><lb/><hi rend="negrita">VERDADERO Y NUEVO EJEMPLAR</hi><lb/>en
+            el que se dá cuenta y declara la cruel<lb/>muerte que le han dado á un tal Joaquin
+            de<lb/>Mata y á su hijo, entre su esposa y un<lb/>querido en el pueblo de Santa Fé,
+            provincia<lb/>de Granada, en este presente año.</head>
+
+          <l rend="indent">Que ponga todo cristiauo</l>
+          <l>atencion á estas palabras,</l>
+          <l>las que esplica este papel,</l>
+          <l>que interesa el observarlas;</l>
+          <l>lea el curioso lector</l>
+          <l>las ideas tan villanas</l>
+          <l>que ha ejecutado una jóven</l>
+          <l>llamada Francisca Llala;</l>
+          <l>huérfana de padre y madre</l>
+          <l>se crió con una hermana,</l>
+          <l>con bastante honestidad,</l>
+          <l>con honrader y enseñanza.</l>
+
+          <pb n="2" source="Varios_022_2.jpg" facs="varios/Varios_022_2.jpg/"/>
+
+          <l rend="indent">Se casó con un viudo</l>
+          <l>llamado Joanquin de mata,</l>
+          <l>que solamente en dinero,</l>
+          <l>siete mil duros contaba;</l>
+          <l>tenia además tres viñas,</l>
+          <l>seis cortijos de labranza,</l>
+          <l>con un hijo que tenia</l>
+          <l>que á seis años no llegaba,</l>
+          <l>nunca madrasta le dijo</l>
+          <l>de tanto que la estimaba,</l>
+          <l>igualmente que á la madre</l>
+          <l>lo mismo la respetaba.</l>
+          <l rend="indent">Todos le tenian envidia</l>
+          <l>de lo bien que se llevaba:</l>
+          <l>no hallaban gusto que darle</l>
+          <l>sino lo que deseaba</l>
+          <l>A los tres años y medio</l>
+          <l>que ya se hallaba casada,</l>
+          <l>de un mozo se enamoró.</l>
+          <l>sirviendo en la misma casa,</l>
+          <l>llamado José Morales;</l>
+          <l>y al año que se trataban</l>
+          <l>donde lo llegó á saber</l>
+          <l>el amo lo que pasaba;</l>
+          <l>como no estaba muy fijo,</l>
+          <l>con grande recelo andaba</l>
+          <l>ni de noche ni de dia</l>
+          <l>no paraba de celarla;</l>
+          <l>ella lo llegó á saber</l>
+          <l>que su esposo la celaba,</l>
+          <l>y á su querido le dijo</l>
+          <l>estas pícaras palabras:</l>
+          <l rend="indent">José Morales, me encuentro</l>
+          <l>de mi esposo despreciada,</l>
+          <l>no sé quien se lo habrá dicho</l>
+          <l>de que tú conmigo tratas.</l>
+          <l>Por saber quien habria sído</l>
+          <l>al demonio ma entregara</l>
+          <l>le habia de hacer pedazos</l>
+          <l>á fuerza de puñaladas</l>
+          <l rend="indent">Anda, no seas ignorante,</l>
+          <l>el querido contestaba:</l>
+          <l>déjate de tonterías</l>
+          <l>que por bien más se adelanta.</l>
+          <l>Dí ¿qué vas á adelantar</l>
+          <l>con hablar esas palabras?</l>
+          <l>si tu esposo te abandona,</l>
+          <l>yo jamás te despreciara.</l>
+          <l rend="indent">Entonces le dijo ella:</l>
+          <l>Si tú me das la palabra,</l>
+          <l>en est́a noche que viene</l>
+          <l>le damos la muerte amarga,</l>
+          <l>á mi esposo y á su hijo,</l>
+          <l>y tambien á la criada,</l>
+          <l>á deshora de la noche</l>
+          <l>sin que nadie entienda nada.</l>
+          <l rend="indent">Para que nada se piense</l>
+          <l>yo tambien quedo amarrada</l>
+          <l>atada de piés y manos,</l>
+          <l>con la cara ensangrentada.</l>
+          <l rend="indent">Te entrego todo el dinero,</l>
+          <l>y te marchas á tu casa,</l>
+          <l>y al rato principiaré</l>
+          <l>á decir en voces altas:</l>
+          <l rend="indent">Vecinos, favorecedme</l>
+          <l>de esta hora desgraciada;</l>
+          <l>le han dado muerte á mi esposo,</l>
+          <l>á mi hijo y á la criada;</l>
+          <l>acudirán los vecinos,</l>
+          <l>y al verme tan mal tratada,</l>
+          <l>nunca se calcularán</l>
+          <l>que yo tal cosa pensara.</l>
+          <l rend="indent">Pues has pensado muy bien,</l>
+          <l>el querido contestaba:</l>
+          <l>á las doce de la noche</l>
+          <l>está puesta la palabra;</l>
+          <l>para que nada se piensen</l>
+          <l>te acuestas en su compaña</l>
+          <l>deja entornada la puerta</l>
+          <l>de la calle y de la sala.</l>
+          <l rend="indent">Ya se quedaron conformes</l>
+          <l>para la hora citada,</l>
+          <l>por un pícaro interés</l>
+          <l>le dió cierta la palabra</l>
+          <l rend="indent">A deshora de la noche</l>
+          <l>aquella mujer ingrata</l>
+          <l>con mucha dispertacion,</l>
+          <l>al querido le esperaba.</l>
+          <l rend="indent">Cuando el querido llegó</l>
+          <l>ya prevenida se hallaba,</l>
+          <l>con aquel mal corazon</l>
+          <l>á la cama se llegaba,</l>
+          <l>con un martillo muy fuerte</l>
+          <l>en la cabeza le daba,</l>
+          <l>le abrieron siete agujeros,</l>
+          <l>sin compasión le tiraban.</l>
+          <l rend="indent">Lo dejaron sin aliento,</l>
+          <l>con la muerte peleaba,</l>
+
+          <pb n="3" source="Varios_022_3.jpg" facs="varios/Varios_022_3.jpg/"/>
+
+          <l>revolcándose en la sangre,</l>
+          <l>estas palabras hablaba;</l>
+          <l>aunque me has dado la muerte,</l>
+          <l>mujer, estás perdonada</l>
+          <l>te pido que no abandones</l>
+          <l>al hijo de mis entrañas.</l>
+          <l rend="indent">Con muchísima sorberbia</l>
+          <l>á el querido le mandaba:</l>
+          <l>« tírale, no seas cobarde,</l>
+          <l>que no hable una palabra.»</l>
+          <l>El querido le tiró</l>
+          <l>una cruel puñalada,</l>
+          <l>y el corazon le partió,</l>
+          <l>que no dijo, Dios me valga.</l>
+          <l rend="indent">El cuchillo de la mano.</l>
+          <l>al querido le quitaba,</l>
+          <l>despues que ya estaba muerto</l>
+          <l>le dió cineo puñaladas.</l>
+          <l>En seguida se dirijen</l>
+          <l>aquellas malas entrañas</l>
+          <l>para la cama del niño,</l>
+          <l>la cabeza le cortaba.</l>
+          <l rend="indent">Se dirigieron al cuarto</l>
+          <l>donde estaba la criada.</l>
+          <l>la cogieron entre sueños,</l>
+          <l>con silencio principiaban</l>
+          <l>á descerrajar la puerta,</l>
+          <l>la criada presenciaba</l>
+          <l>que trasteaban la puerta,</l>
+          <l>y entonces sobresaltada</l>
+          <l>asustada respondia:</l>
+          <l>á estas horas propasadas,</l>
+          <l>¿quién ha llamado á la puerta?</l>
+          <l>el alma le contestaba.</l>
+          <l rend="indent">Abre lijera la puerta,</l>
+          <l>picara mujer, ingrata:</l>
+          <l>ahora me vas á pagar</l>
+          <l>con darte la muerte amarga:</l>
+          <l>lo que le has dicho á mi esposo</l>
+          <l>solo con la vida pagas,</l>
+          <l>te voy á sacar la lengua</l>
+          <l>por habladora y tunanta.</l>
+          <l rend="indent">Viéndose tan cometida,</l>
+          <l>de veras la suplicaba</l>
+          <l>á la reina de los cielos,</l>
+          <l>Virgen y Madre Sagrada</l>
+          <l>á la pura Concepcion</l>
+          <l>que en su pecho conservaba</l>
+          <l>llena de angustia y de pena</l>
+          <l>esta súplica le echaba:</l>
+          <l rend="indent">«Purísima Concepcion</l>
+          <l>amparo de quien te llama:</l>
+          <l>alcanzad con vuestro Hijo</l>
+          <l>con vuestra divina gracia,</l>
+          <l>que me saque de estas penas</l>
+          <l>de esta hora desgraciada</l>
+          <l>que no tengo más remedio,</l>
+          <l>que voy á ser asesinada;</l>
+          <l>cubridme con vuestro manto,</l>
+          <l>con vuestra divina gracia</l>
+          <l>con tu poder y bondad</l>
+          <l>Madre de Dios consagrada »</l>
+          <l>En aquel mismo momento</l>
+          <l>pye á un sereno que canta</l>
+          <l>en aquella misma calle</l>
+          <l>las dos de la madrugada</l>
+          <l>se asomó por una reja</l>
+          <l>y al sereno lo llamaba</l>
+          <l>llorando amargamente,</l>
+          <l>sin poder romper el habla.</l>
+          <l rend="indent">El sereno se aproxima</l>
+          <l>y escuchaba estas palabras</l>
+          <l>que decia amagarmente:</l>
+          <l>«Amparadme buenas almas»</l>
+          <l>Tocaba el pito de seña</l>
+          <l>y á las puertas se acercaba</l>
+          <l>la ronda y la autoridad</l>
+          <l>muy prontamente llamaba,</l>
+          <l>ligeramente á la puerta</l>
+          <l>se asomó Francisca Llala</l>
+          <l>por nn balcon y decia;</l>
+          <l>á estas horas propasadas,</l>
+          <l>quién ha llamado á la puerta?</l>
+          <l>Lo autoridad contestaba:</l>
+          <l>Abre ligero y no tardes,</l>
+          <l>la autoridad es la que llama»</l>
+          <l>Viéndose ya descubierta,</l>
+          <l>llena de ira y de rubia,</l>
+          <l>con un cuchillo en la mano</l>
+          <l>al querido le tiraba:</l>
+          <l>el cuerpo le destrozó</l>
+          <l>á fuerza de puñaladas</l>
+          <l>révolcándose en la sangre</l>
+          <l>lo dejó en aquella sala,</l>
+          <l>seducida del demonio</l>
+          <l>para el patio se marchaba,</l>
+          <l>y tuvo valor de tirarse</l>
+          <l>á un pozo de quince varas.</l>
+
+          <pb n="4" source="Varios_022_4.jpg" facs="varios/Varios_022_4.jpg/"/>
+
+          <l>Prontamente la justicia</l>
+          <l>la puerta descerrajaba,</l>
+          <l>y admirados se quedaron</l>
+          <l>cuando entraron en la sala</l>
+          <l>que estaba José Morales</l>
+          <l>con las últimas palabras</l>
+          <l>dice: ¡no hay quien me umpare!</l>
+          <l>que la confesion me falta,</l>
+          <l>le preguntun: ¿quién te ha herido?</l>
+          <l>Morales le contestaba:</l>
+          <l>«una picara mujer</l>
+          <l>llamada Francisca Llala.</l>
+          <l rend="indent">Por consejos que me ha dado</l>
+          <l>hemos hecho esta desgracia,</l>
+          <l>á su esposo y á su hijo</l>
+          <l>le dimos la muerte amarga;</l>
+          <l>la criada se ha librado</l>
+          <l>por que se hallaba encerrada</l>
+          <l>que si no tambien le hacemos</l>
+          <l>que sufriera la muerte amarga.</l>
+          <l>Viendo quese ha descubierto,</l>
+          <l>se ha vengado la tunanta</l>
+          <l>en darme muerte cruel</l>
+          <l>hablándole como estaba.</l>
+          <l>Perdonadme, hermanos mios,</l>
+          <l>ya el remedio no se halla</l>
+          <l>que ya me falta el aliento</l>
+          <l>pedirle á Dios por mi alma.»</l>
+          <l>Entraba en la habitacion</l>
+          <l>donde estaba la criada,</l>
+          <l>la encontraron de rodillas</l>
+          <l>con esta divina estampa,</l>
+          <l>es la Pura Concepcion</l>
+          <l>patrona de toda España,</l>
+          <l>cuando vió á la autoridad</l>
+          <l>al suelo cayó insultada;</l>
+          <l>en cuanto se reportó</l>
+          <l>entonces la consolaban,</l>
+          <l>le cuenta á la autoridad</l>
+          <l>todo lo que le pasaba</l>
+          <l>principiaron á buscar</l>
+          <l>á la tal Francísca Llala</l>
+          <l>por mucho que le buscaron</l>
+          <l>no pudieron encontrarla;</l>
+          <l>viendo que no la encontraron</l>
+          <l>para el patio se marchab an,</l>
+          <l>se aproximaron al pozo</l>
+          <l>y el ruido presenciaban</l>
+          <l>por muy pronto que acudieron</l>
+          <l>con las cuerdas á sacarla</l>
+          <l>ya no encontraron remedio</l>
+          <l>que la sacaron ahogada.</l>
+          <l rend="indent">Enterada la Justicia</l>
+          <l>de que la pobre criada</l>
+          <l>no tenia culpa ninguna</l>
+          <l>no la culparon de nada</l>
+          <l>el pueblo maravillado</l>
+          <l>mil gracias á Dios le daba</l>
+          <l>al ver de que salió libre</l>
+          <l>la pobre infeliz criada;</l>
+          <l>le hicieron una funcion</l>
+          <l>á la patrona de España,</l>
+          <l>que es la Pura Concepcion.</l>
+          <l>Madre de Dios consagrada</l>
+          <l>la que guia al caminante</l>
+          <l>y al desgraciado lo ampara,</l>
+          <l>levemos con devocion</l>
+          <l>á esta Vírgen Soberana.</l>
         </div>
+        
         <div type="colofon">
           <p><lb/>Imprenta del Diario.</p>
         </div>

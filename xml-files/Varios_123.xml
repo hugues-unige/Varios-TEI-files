@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../Schema/oddPliego_varios.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:alto="http://www.loc.gov/standards/alto/ns-v4#" xml:id="Varios_123">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Varios_123">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -20,16 +20,16 @@
         <biblFull>
           <titleStmt>
             <title type="titulo_completo">RECEPTA DEL DOCTOR SABI PER CU-rar lo mal de
-                     impaciencia.</title>
+              impaciencia.</title>
             <title type="titulo_breve"/>
           </titleStmt>
           <editionStmt>
             <p/>
           </editionStmt>
           <publicationStmt>
-            <publisher>Estampa de Pau Roca</publisher>
+            <publisher>Pau Roca</publisher>
             <pubPlace ref="https://www.geonames.org/3117533/manresa.html">Manresa</pubPlace>
-            <date>[s.a]</date>
+            <date cert="low" when="1800-01-01">[s.a.]</date>
           </publicationStmt>
         </biblFull>
         <msDesc>
@@ -37,7 +37,8 @@
             <country>Suisse</country>
             <settlement>Genève</settlement>
             <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"/>
-                  </repository>
+            </repository>
+            <collection>Colección Varios</collection>
             <idno type="cote"/>
             <idno type="DOI">10.5281/zenodo.6577380</idno>
             <altIdentifier>
@@ -66,7 +67,7 @@
               </layoutDesc>
             </objectDesc>
             <decoDesc>
-              <summary n="6">Dos grabados (p.1) </summary>
+              <summary n="6">Dos grabados (p.1, 2)</summary>
               <decoNote type="lista_grabados">
                 <list>
                   <item corresp="grabado_v_123_1.xml">grabado_v_123_1</item>
@@ -95,13 +96,13 @@
     <encodingDesc>
       <projectDesc>
         <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
-               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
-               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
-               Sandoz-Monique de Meuron.</p>
+          cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la Universidad
+          de Ginebra, con el apoyo de la Fundación filantrópica Famille Sandoz-Monique de
+          Meuron.</p>
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR non corregido</p>
+          <p>OCR no corregido</p>
         </correction>
         <normalization>
           <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
@@ -126,9 +127,13 @@
     </profileDesc>
     <revisionDesc>
       <change when="2022-09-01" who="#PJ">Création du fichier TEI P5 et encodage du corps du
-            texte</change>
+        texte</change>
+      <change when="2024-01-09" who="#EL">Add the IIIF links</change>
     </revisionDesc>
   </teiHeader>
+  <facsimile>
+    <graphic url="varios/Varios_123_1.jpg/full/200,/0/default.jpg"/>
+  </facsimile>
   <sourceDoc xml:id="automaticTranscription">
     <surface xml:id="Varios_123_1" type="page" cert="silver">
       <graphic url="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_123_1/full/full/0/default.jpg"/>
@@ -397,10 +402,13 @@
   <text>
     <body>
       <div>
-        <pb n="1" source="Varios_123_1.jpg" facs="fedora_Varios_123_1/full/full/0/default.jpg"/>
-        <div type="parte" n="1">
-          <head type="primer_titulo"><lb/>RECEPTA DEL DOCTOR SABI PER CU.<lb/>rar lo mal de impaciencia.</head>
-          <lg>
+        <div>
+          <pb n="1" source="Varios_123_1.jpg" facs="varios/Varios_123_1.jpg/"/>
+          
+          <div>
+            <head type="primer_titulo"><lb/>RECEPTA DEL DOCTOR SABI PER CU.<lb/>rar lo mal de
+              impaciencia.</head>
+
             <l>Si acás vols tenir paciencia,</l>
             <l>ó la que tens aumentar,</l>
             <l>paciencia deurás gastar</l>
@@ -411,9 +419,7 @@
             <l>quel' gastarla no empobreix;</l>
             <l>antes bè gastanse creix,</l>
             <l>yn' te mes qui mes ne gasta.</l>
-          </lg>
-          <lg>
-            <l>Tú impacient aqui tens</l>
+            <l rend="indent">Tú impacient aqui tens</l>
             <l>una recepta segura,</l>
             <l>ab que ton mal tindrá cura</l>
             <l>si tal medicina prens ;</l>
@@ -423,16 +429,17 @@
             <l>basta que bajas prenent</l>
             <l>bons tragos de sufriment</l>
             <l>quant vinga un succés contrari.</l>
-          </lg>
-          <p/>
+          </div>
+          
+          <div type="colofon">
+            <p><lb/><hi rend="cursiva">Manresa</hi> : En la Estampa de Pau Roca.</p>
+          </div>
         </div>
-        <div type="colofon">
-          <p><lb/>Manresa : En la Estampa de Pau Roca.</p>
-        </div>
-        <pb n="2" source="Varios_123_2.jpg" facs="fedora_Varios_123_2/full/full/0/default.jpg"/>
+        
         <div>
-          <lg>
-            <l>So un generós Caball</l>
+          <pb n="2" source="Varios_123_2.jpg" facs="varios/Varios_123_2.jpg/"/>
+          
+            <l rend="indent">So un generós Caball</l>
             <l>de tan bon pas,</l>
             <l>que als quatre porto'l compás</l>
             <l>per las baixadas,</l>
@@ -450,8 +457,6 @@
             <l>tres ó cuatre horas,</l>
             <l>afavorit de las Donas</l>
             <l>may ne so estát</l>
-          </lg>
-          <lg>
             <l>per donarmen un grapát</l>
             <l>tan sols de grana,</l>
             <l>la Mestresa es Vigatana,</l>
@@ -470,7 +475,6 @@
             <l>jo no dich pestas,</l>
             <l>esperant fer millors festas</l>
             <l>sent dels Gitanos.</l>
-          </lg>
         </div>
       </div>
     </body>

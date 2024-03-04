@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../Schema/oddPliego_varios.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:alto="http://www.loc.gov/standards/alto/ns-v4#" xml:id="Varios_155">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Varios_155">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -11,8 +11,7 @@
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <authority role="rightsHolder">Bibliothèque Universitaire de
-                              Genève</authority>
+        <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
         <availability status="restricted">
           <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
         </availability>
@@ -20,10 +19,9 @@
       <sourceDesc>
         <biblFull>
           <titleStmt>
-            <title type="titulo_completo">ALEGRES VILLANCICOS AL SANTO
-                                          NACIMIENTO DEL HIJO DE DIOS</title>
-            <title type="titulo_breve">AL SANTO NACIMIENTO DEL HIJO DE
-                                          DIOS</title>
+            <title type="titulo_completo">ALEGRES VILLANCICOS AL SANTO NACIMIENTO DEL HIJO DE
+              DIOS</title>
+            <title type="titulo_breve"/>
           </titleStmt>
           <editionStmt>
             <p/>
@@ -31,7 +29,7 @@
           <publicationStmt>
             <publisher>Sucesores de Hernando</publisher>
             <pubPlace ref="https://www.geonames.org/3117735/madrid.html">Madrid</pubPlace>
-            <date>[s.a]</date>
+            <date cert="low" when="1800-01-01">[s.a.]</date>
           </publicationStmt>
         </biblFull>
         <msDesc>
@@ -39,7 +37,8 @@
             <country>Suisse</country>
             <settlement>Genève</settlement>
             <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"/>
-                                    </repository>
+            </repository>
+            <collection>Colección Varios</collection>
             <idno type="cote"/>
             <idno type="DOI">10.5281/zenodo.6587104</idno>
             <altIdentifier>
@@ -47,10 +46,14 @@
             </altIdentifier>
           </msIdentifier>
           <msContents>
-            <summary/>
+            <summary>Dos villancicos</summary>
             <msItem>
-              <locus/>
-              <title/>
+              <locus>1-3</locus>
+              <title>ALEGRES VILLANCICOS AL SANTO NACIMIENTO DEL HIJO DE DIOS</title>
+            </msItem>
+            <msItem>
+              <locus>3-4</locus>
+              <title>VILLANCICOS Y PASTORELA AL NACIMIENTO DEL HIJO DE DIOS</title>
             </msItem>
           </msContents>
           <physDesc>
@@ -68,7 +71,7 @@
               </layoutDesc>
             </objectDesc>
             <decoDesc>
-              <summary n="1">Uno grabado (p.1) </summary>
+              <summary n="1">Un grabado (p.1) </summary>
               <decoNote type="lista_grabados">
                 <list>
                   <item corresp="grabado_v_155_1.xml">grabado_v_155_1</item>
@@ -98,18 +101,17 @@
     </fileDesc>
     <encodingDesc>
       <projectDesc>
-        <p>Este archivo fue creado en el marco del proyecto Desenrollando el
-                              Cordel/Démêler le cordel/Untangling the cordel, dirigido por la
-                              profesora Constance Carta de la Universidad de Ginebra, con el apoyo
-                              de la Fundación filantrópica Famille Sandoz-Monique de Meuron.</p>
+        <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+          cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la Universidad
+          de Ginebra, con el apoyo de la Fundación filantrópica Famille Sandoz-Monique de
+          Meuron.</p>
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR non corregido</p>
+          <p>OCR no corregido</p>
         </correction>
         <normalization>
-          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto
-                                    original.</p>
+          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
         </normalization>
         <punctuation>
           <p>Se conserva la puntuación original.</p>
@@ -130,10 +132,14 @@
       </textClass>
     </profileDesc>
     <revisionDesc>
-      <change when="2022-09-19" who="#PJ">Création du fichier TEI P5 et encodage du
-                        corps du texte</change>
+      <change when="2022-09-19" who="#PJ">Création du fichier TEI P5 et encodage du corps du
+        texte</change>
+      <change when="2024-01-09" who="#EL">Add the IIIF links</change>
     </revisionDesc>
   </teiHeader>
+  <facsimile>
+    <graphic url="varios/Varios_155_1.jpg/full/200,/0/default.jpg"/>
+  </facsimile>
   <sourceDoc xml:id="automaticTranscription">
     <surface xml:id="Varios_155_1" type="page" cert="silver">
       <graphic url="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_155_1/full/full/0/default.jpg"/>
@@ -1487,502 +1493,500 @@
   <text>
     <body>
       <div>
-        <pb n="1" source="Varios_155_1.jpg" facs="fedora_Varios_155_1/full/full/0/default.jpg"/>
-        <fw type="numeroPliego">(Núm. 150)</fw>
-        <head type="primer_titulo"><lb/>ALEGRES VILLANCICOS</head>
-        <div type="parte" n="1">
-          <head type="titulo_parte"><lb/>AL SANTO NACIMIENTO DEL HIJO DE
-                                    DIOS</head>
+        <div>
+          <pb n="1" source="Varios_155_1.jpg" facs="varios/Varios_155_1.jpg/"/>
+
+          <fw type="impresorNum">(Núm. 150)</fw>
+
           <div>
-            <head type="titulo_estrofa">INTRODUCCIÓN</head>
-            <lg>
-              <l>La Sagrada Virgen sale</l>
-              <l>para ponerse en camino,</l>
-              <l>preñada de nueve meses</l>
-              <l>padeciendo pena y frío.</l>
-              <l>San José va con la Virgen</l>
-              <l>cuidando de su regalo,</l>
-              <l>que es de Ezequiel la carroza.</l>
-              <l>y al cielo envidia ha causado.</l>
-            </lg>
-            <sp>
-              <speaker rend="cursiva">San José</speaker>
-              <stage>dijo á la Virgen:</stage>
-              <l>Animaos, tierna Esposa,</l>
-              <l>no os falte ahora esfuerzo,</l>
-              <l>que pues ya los gellos cantan,</l>
-              <l>cerca tendremos el pueblo.</l>
-            </sp>
-            <sp>
-              <speaker rend="cursiva">La Virgen.</speaker>
-              <l>Estimo la voluntad</l>
-              <l>y el valor os agradezco;</l>
-              <l>á vuestros brazos me acojo</l>
-              <l>para descansar en ellos.</l>
-            </sp>
-            <sp>
-              <speaker rend="cursiva">San José.</speaker>
-              <l>Descansad, que yo seré,</l>
-              <l>mientras os dure el silencio,</l>
-              <l>el Argos mán religioso</l>
-              <l>que tiene la tierra y cielo.</l>
-            </sp>
-            <sp>
-              <speaker rend="cursiva">La Virgen.</speaker>
-              <l>Ya, José demuestra duda,</l>
-              <l>la voz nos ha satisfecho,</l>
-              <l>pues dicen que en un portal</l>
-              <l>ha de ser el Nacimiento.</l>
-              <l>San José.</l>
-              <l>Aquí hay una puerta abierta</l>
-              <l>y que sin duda sospecho</l>
-              <l>es la en que hemos de parar;</l>
-              <l>entremos, Virgen, adentro.</l>
-              <l>En este portal se entraron</l>
-              <l>y se acogen á un pesebre,</l>
-              <l>donde juntando unas pajas,</l>
-              <l>allí tuvieron su albergue.</l>
-              <l>En punto de media noche</l>
-              <l>nació el Autor Soberano,</l>
-              <l>con el fin de rescatar</l>
-              <l>á todo el género humano.</l>
-            </sp>
+            <head type="primer_titulo"><lb/>ALEGRES VILLANCICOS AL SANTO NACIMIENTO DEL HIJO DE
+              DIOS</head>
+
+            <div n="1">
+              <head type="titulo_estrofa">INTRODUCCIÓN</head>
+              <lg>
+                <l rend="indent">La Sagrada Virgen sale</l>
+                <l>para ponerse en camino,</l>
+                <l>preñada de nueve meses</l>
+                <l>padeciendo pena y frío.</l>
+                <l rend="indent">San José va con la Virgen</l>
+                <l>cuidando de su regalo,</l>
+                <l>que es de Ezequiel la carroza.</l>
+                <l>y al cielo envidia ha causado.</l>
+              </lg>
+              <sp>
+                <speaker rend="cursiva">San Jose dijo á la Virgen:́</speaker>
+                <l rend="indent">Animaos, tierna Esposa,</l>
+                <l>no os falte ahora esfuerzo,</l>
+                <l>que pues ya los gellos cantan,</l>
+                <l>cerca tendremos el pueblo.</l>
+              </sp>
+              <sp>
+                <speaker rend="cursiva">La Virgen.</speaker>
+                <l rend="indent">Estimo la voluntad</l>
+                <l>y el valor os agradezco;</l>
+                <l>á vuestros brazos me acojo</l>
+                <l>para descansar en ellos.</l>
+              </sp>
+              <sp>
+                <speaker rend="cursiva">San José.</speaker>
+                <l rend="indent">Descansad, que yo seré,</l>
+                <l>mientras os dure el silencio,</l>
+                <l>el Argos mán religioso</l>
+                <l>que tiene la tierra y cielo.</l>
+              </sp>
+              <sp>
+                <speaker rend="cursiva">La Virgen.</speaker>
+                <l rend="indent">Ya, José demuestra duda,</l>
+                <l>la voz nos ha satisfecho,</l>
+                <l>pues dicen que en un portal</l>
+                <l>ha de ser el Nacimiento.</l>
+              </sp>
+              <sp>
+                <speaker rend="cursiva">San José.</speaker>
+                <l rend="indent">Aquí hay una puerta abierta</l>
+                <l>y que sin duda sospecho</l>
+                <l>es la en que hemos de parar;</l>
+                <l>entremos, Virgen, adentro.</l>
+                <l rend="indent">En este portal se entraron</l>
+                <l>y se acogen á un pesebre,</l>
+                <l>donde juntando unas pajas,</l>
+                <l>allí tuvieron su albergue.</l>
+                <l rend="indent">En punto de media noche</l>
+                <l>nació el Autor Soberano,</l>
+                <l>con el fin de rescatar</l>
+                <l>á todo el género humano.</l>
+              </sp>
+            </div>
+
+            <div n="2">
+              <head type="titulo_estrofa">VILLANCICO PRIMERO</head>
+              <lg>
+                <l><hi rend="cursiva">Dúo.</hi> De un invierno muy cruel</l>
+                <l>en la noche más callada,</l>
+                <l>un pastor todo asustado</l>
+                <l>se salió de su cabaña.</l>
+                <l>Dirigido de una luz</l>
+
+                <pb n="2" source="Varios_155_2.jpg" facs="varios/Varios_155_2.jpg/"/>
+
+                <l>caminó por la montaña,</l>
+                <l>y á Belén llegó aturdido</l>
+                <l>sin saber lo que le pasa;</l>
+                <l>vuelve corriendo á los montes</l>
+                <l>dando gritos de algazara,</l>
+                <l>despertando á los pastores</l>
+                <l>que duermen en su majada.</l>
+              </lg>
+            </div>
+
+            <div n="3">
+              <head type="titulo_estrofa">PASTORELA</head>
+              <lg>
+                <l>SOLO. Zagales de estos montes,</l>
+                <l>venid, venid conmigo,</l>
+                <l>veréis la maravilla</l>
+                <l>que jamás habréis visto.</l>
+              </lg>
+              <lg>
+                <l>CORO. Vamos, vamos allá</l>
+                <l>alegres y festivos,</l>
+                <l>y en tanto que llegamos</l>
+                <l>refiere lo que has visto.</l>
+              </lg>
+              <lg>
+                <l>SOLO. Venid hacia Belén,</l>
+                <l>y en un portal pajizo</l>
+                <l>hallaréis tres personas</l>
+                <l>de rostro peregrino.</l>
+              </lg>
+              <lg>
+                <l>CORO. Vamos, vamos, etc.</l>
+              </lg>
+              <lg>
+                <l>1.ª Una Zagala hermosa,</l>
+                <l>mas blanca que el armiño,</l>
+                <l>en un portal obscuro</l>
+                <l>parió un precioso Niño;</l>
+                <l>en sus brazos lo tiene,</l>
+                <l>¡prodigios de prodigios!,</l>
+                <l>cuantos le ven adoran</l>
+                <l>á quel divino hechizo.</l>
+              </lg>
+              <lg>
+                <l>CORO. Vamos, vamos, etc.</l>
+              </lg>
+              <lg>
+                <l>2.ª Compendio de hermosura</l>
+                <l>es el recién nacido;</l>
+                <l>las gracias y virtudes</l>
+                <l>en El se han reunido.</l>
+                <l>Venid, pues, y veréis</l>
+                <l>qué amable y complacido</l>
+                <l>recibe á los que miran</l>
+                <l>postrados y rendidos.</l>
+              </lg>
+              <lg>
+                <l>CORO. Vamos, vamos, etc.</l>
+              </lg>
+              <lg>
+                <l>3.ª Un venerable anciano</l>
+                <l>de humildes atavíos,</l>
+                <l>parece ser el padre</l>
+                <l>del Niño que ha nacido;</l>
+                <l>absorto de alegría</l>
+                <l>y lleno de cariño,</l>
+                <l>mira al tierno Infante</l>
+                <l>con amor excesivo.</l>
+              </lg>
+              <lg>
+                <l>CORO. Vamos, vamos, etc.</l>
+              </lg>
+            </div>
+
+            <div n="4">
+              <head type="titulo_estrofa">VILLANCICO SEGUNDO</head>
+              <lg>
+                <l>SOLO. Hoy han llegado al portal</l>
+                <l>los niños que en otros años</l>
+                <l>al recién nacido Infante</l>
+                <l>su tonada le cantaron;</l>
+                <l>en éste dicen que traen</l>
+                <l>una nueva muy del caso,</l>
+                <l>que divertirá esta noche</l>
+                <l>si la oyen con cuidado.</l>
+              </lg>
+              <lg>
+                <l>CORO. Aprisa, pastores,</l>
+                <l>corriendo, muchachos,</l>
+                <l>cantemos alegres</l>
+                <l>al Dios Soberano.</l>
+              </lg>
+              <lg>
+                <l>NIÑOS. Traemos tonadas</l>
+                <l>de gusto extremado;</l>
+                <l>si quieren oirlas,</l>
+                <l>estén con cuidado.</l>
+              </lg>
+              <lg>
+                <l>CORO. Decidla, que todos</l>
+                <l>atentos estamos.</l>
+              </lg>
+            </div>
+
+            <div n="5">
+              <head type="titulo_estrofa">TONADA.— NIÑOS.</head>
+              <lg>
+                <l>1.ª A Belén hoy corriendo llegamos,</l>
+                <l>¡ay Niño del alma!,</l>
+                <l>á besar esa cuna en que naces,</l>
+                <l>llorando tus gracias.</l>
+                <l>¡Ay qué perlitas</l>
+                <l>tan redonditas,</l>
+                <l>tan nacaradas!,</l>
+                <l>quién las bebiera,</l>
+                <l>quién las gustara.</l>
+              </lg>
+              <lg>
+                <l>CORO. Preciosa idea,</l>
+                <l>nueva tonada;</l>
+                <l>viva ese Infante,</l>
+                <l>viva su gracia,</l>
+                <l>viva el encanto</l>
+                <l>de nuestras almas.</l>
+              </lg>
+              <lg>
+                <l>2.ª Tu boquita la esmaltan rubíes</l>
+                <l>que queman y abrasan;</l>
+                <l>de grana tus labios son cinta</l>
+                <l>que prenden el alma.</l>
+                <l>¡Qué cadenitas</l>
+                <l>tan torneaditas</l>
+                <l>son sus miradas;</l>
+                <l>ellas me rinden,</l>
+                <l>ellas me abrasan!</l>
+              </lg>
+              <lg>
+                <l>CORO. Preciosa idea, etc.</l>
+              </lg>
+              <lg>
+                <l>3.ª En tus ojos descubro dos soles</l>
+                <l>flechando mil gracias,</l>
+
+                <pb n="3" source="Varios_155_3.jpg" facs="varios/Varios_155_3.jpg/"/>
+
+                <l>y de ambos tu Madre es la Niña,</l>
+                <l>pues tanto la amas.</l>
+                <l>La niña bella</l>
+                <l>es pura estrella,</l>
+                <l>no sino el alba</l>
+                <l>que trae el día</l>
+                <l>risueña y blanda.</l>
+              </lg>
+              <lg>
+                <l>CORO. Preciosa idea, etc.</l>
+              </lg>
+            </div>
+
+            <div n="6">
+              <head type="titulo_estrofa">VILLANCICO TERCERO</head>
+              <lg>
+                <l><hi rend="cursiva">DÚO.</hi> Las zagalas y pastores</l>
+                <l>reunidos en tropel,</l>
+                <l>llegan á Belén cantando</l>
+                <l>fatigados de correr;</l>
+                <l>pero al ver tanta grandeza</l>
+                <l>en un humilde portal,</l>
+                <l>se conmueven de terneza</l>
+                <l>y no se atreven á entrar.</l>
+              </lg>
+            </div>
+
+            <div n="7">
+              <head type="titulo_estrofa">PASTORELA</head>
+              <lg>
+                <l>SOLO. Zagales y pastoras,</l>
+                <l>venid, venid, llegad,</l>
+                <l>y al Niño que ha nacido</l>
+                <l>festivo saludad.</l>
+              </lg>
+              <lg>
+                <l>CORO. Qué pasmo, qué prodigio,</l>
+                <l>milagro sin igual,</l>
+                <l>que en un portal se hospeda</l>
+                <l>la Corte celestial.</l>
+              </lg>
+              <lg>
+                <l>SOLO. Canten las dos zagalas,</l>
+                <l>que es noche de cantar</l>
+                <l>alguna tonadilla</l>
+                <l>con aire pastoral.</l>
+              </lg>
+              <lg>
+                <l>CORO. Canten las maravillas</l>
+                <l>que encierra este portal,</l>
+                <l>y den la bienvenida</l>
+                <l>al hermoso Zagal.</l>
+              </lg>
+            </div>
+
+            <div n="8">
+              <head type="titulo_estrofa">TONADILLA A DÚO</head>
+              <lg>
+                <l>ESTRIB. Bien venido seas,</l>
+                <l>Pastor inmortal,</l>
+                <l>pues traes á la tierra</l>
+                <l>la dichosa paz.</l>
+              </lg>
+              <lg>
+                <l>CORO. Bienvenido seas, etc.</l>
+              </lg>
+            </div>
+
+            <div n="9">
+              <head type="titulo_estrofa">COPLAS</head>
+              <lg>
+                <l>1.ª Zagalillo chiquitito,</l>
+                <l>graciosillo sin igual,</l>
+                <l>que has venido á nuestros montes</l>
+                <l>los ganados á guardar,</l>
+                <l>si del cielo vienes,</l>
+                <l>divino Zagal,</l>
+                <l>dichosa la tierra</l>
+                <l>que te ha de gozar.</l>
+              </lg>
+              <lg>
+                <l>CORO. Bien venido seas, etc.</l>
+              </lg>
+              <lg>
+                <l>2.ª Es el portal de Belén</l>
+                <l>hoy el palacio real,</l>
+                <l>donde habita el Rey de reyes,</l>
+                <l>Dios de eterna Majestad:</l>
+                <l>mil veces dichoso,</l>
+                <l>feliz el mortal</l>
+                <l>que tu compañía</l>
+                <l>ha de disfrutar.</l>
+              </lg>
+              <lg>
+                <l>CORO. Bien vinido seas, etc.</l>
+              </lg>
+              <lg>
+                <l>3.ª De una Madre tan divina</l>
+                <l>y de un Padre celestial,</l>
+                <l>ha nacido el Zagalito</l>
+                <l>que nos viene á pastorear;</l>
+                <l>pues eres tan sabio,</l>
+                <l>Tú nos llevarás</l>
+                <l>al eterno aprisco</l>
+                <l>de felicidad.</l>
+              </lg>
+              <lg>
+                <l>CORO. Bien venido seas, etc.</l>
+              </lg>
+            </div>
           </div>
+
           <div>
-            <head type="titulo_estrofa">VILLANCICO PRIMERO</head>
-            <sp>
-              <speaker>Dúo.</speaker>
-              <l>De un invierno muy cruel</l>
-              <l>en la noche más callada,</l>
-              <l>un pastor todo asustado</l>
-              <l>se salió de su cabaña.</l>
-              <l>Dirigido de una luz</l>
-              <pb n="2" source="Varios_155_2.jpg" facs="fedora_Varios_155_2/full/full/0/default.jpg"/>
-              <l>caminó por la montaña,</l>
-              <l>y á Belén llegó aturdido</l>
-              <l>sin saber lo que le pasa;</l>
-              <l>vuelve corriendo á los montes</l>
-              <l>dando gritos de algazara,</l>
-              <l>despertando á los pastores</l>
-              <l>que duermen en su majada.</l>
-            </sp>
-          </div>
-          <div>
-            <head type="titulo_estrofa">PASTORELA</head>
-            <sp>
-              <speaker>SOLO.</speaker>
-              <l>Zagales de estos montes,</l>
-              <l>venid, venid conmigo,</l>
-              <l>veréis la maravilla</l>
-              <l>que jamás habréis visto.</l>
-            </sp>
-            <sp>
-              <speaker>CORO.</speaker>
-              <l>Vamos, vamos allá</l>
-              <l>alegres y festivos,</l>
-              <l>y en tanto que llegamos</l>
-              <l>refiere lo que has visto.</l>
-            </sp>
-            <sp>
-              <speaker>SOLO.</speaker>
-              <l>Venid hacia Belén,</l>
-              <l>y en un portal pajizo</l>
-              <l>hallaréis tres personas</l>
-              <l>de rostro peregrino.</l>
-            </sp>
-            <sp>
-              <speaker>CORO.</speaker>
-              <l>Vamos, vamos, etc.</l>
-            </sp>
-            <lg>
-              <l>1.ª Una Zagala hermosa,</l>
-              <l>mas blanca que el armiño,</l>
-              <l>en un portal obscuro</l>
-              <l>parió un precioso Niño;</l>
-              <l>en sus brazos lo tiene,</l>
-              <l>¡prodigios de prodigios!,</l>
-              <l>cuantos le ven adoran</l>
-              <l>á quel divino hechizo.</l>
-            </lg>
-            <sp>
-              <speaker>CORO.</speaker>
-              <l>Vamos, vamos, etc.</l>
-            </sp>
-            <lg>
-              <l>2.ª Compendio de hermosura</l>
-              <l>es el recién nacido;</l>
-              <l>las gracias y virtudes</l>
-              <l>en El se han reunido.</l>
-              <l>Venid, pues, y veréis</l>
-              <l>qué amable y complacido</l>
-              <l>recibe á los que miran</l>
-              <l>postrados y rendidos.</l>
-            </lg>
-            <sp>
-              <speaker>CORO.</speaker>
-              <l>Vamos, vamos, etc.</l>
-            </sp>
-            <lg>
-              <l>3.ª Un venerable anciano</l>
-              <l>de humildes atavíos,</l>
-              <l>parece ser el padre</l>
-              <l>del Niño que ha nacido;</l>
-              <l>absorto de alegría</l>
-              <l>y lleno de cariño,</l>
-              <l>mira al tierno Infante</l>
-              <l>con amor excesivo.</l>
-            </lg>
-            <sp>
-              <speaker>CORO.</speaker>
-              <l>Vamos, vamos, etc.</l>
-            </sp>
-          </div>
-          <div>
-            <head type="titulo_estrofa">VILLANCICO SEGUNDO</head>
-            <sp>
-              <speaker>SOLO.</speaker>
-              <l>Hoy han llegado al portal</l>
-              <l>los niños que en otros años</l>
-              <l>al recién nacido Infante</l>
-              <l>su tonada le cantaron;</l>
-              <l>en éste dicen que traen</l>
-              <l>una nueva muy del caso,</l>
-              <l>que divertirá esta noche</l>
-              <l>si la oyen con cuidado.</l>
-            </sp>
-            <sp>
-              <speaker>CORO.</speaker>
-              <l>Aprisa, pastores,</l>
-              <l>corriendo, muchachos,</l>
-              <l>cantemos alegres</l>
-              <l>al Dios Soberano.</l>
-            </sp>
-            <sp>
-              <speaker>NIÑOS.</speaker>
-              <l>Traemos tonadas</l>
-              <l>de gusto extremado;</l>
-              <l>si quieren oirlas,</l>
-              <l>estén con cuidado.</l>
-            </sp>
-            <sp>
-              <speaker>CORO.</speaker>
-              <l>Decidla, que todos</l>
-              <l>atentos estamos.</l>
-            </sp>
-          </div>
-          <div>
-            <head type="titulo_estrofa">TONADA.— NIÑOS.</head>
-            <lg>
-              <l>1.ª A Belén hoy corriendo llegamos,</l>
-              <l>¡ay Niño del alma!,</l>
-              <l>á besar esa cuna en que naces,</l>
-              <l>llorando tus gracias.</l>
-              <l>¡Ay qué perlitas</l>
-              <l>tan redonditas,</l>
-              <l>tan nacaradas!,</l>
-              <l>quién las bebiera,</l>
-              <l>quién las gustara.</l>
-            </lg>
-            <sp>
-              <speaker>CORO.</speaker>
-              <l>Preciosa idea,</l>
-              <l>nueva tonada;</l>
-              <l>viva ese Infante,</l>
-              <l>viva su gracia,</l>
-              <l>viva el encanto</l>
-              <l>de nuestras almas.</l>
-            </sp>
-            <lg>
-              <l>2.ª Tu boquita la esmaltan rubíes</l>
-              <l>que queman y abrasan;</l>
-              <l>de grana tus labios son cinta</l>
-              <l>que prenden el alma.</l>
-              <l>¡Qué cadenitas</l>
-              <l>tan torneaditas</l>
-              <l>son sus miradas;</l>
-              <l>ellas me rinden,</l>
-              <l>ellas me abrasan!</l>
-            </lg>
-            <sp>
-              <speaker>CORO.</speaker>
-              <l>Preciosa idea, etc.</l>
-            </sp>
-            <lg>
-              <l>3.ª En tus ojos descubro dos soles</l>
-              <l>flechando mil gracias,</l>
-              <pb n="3" source="Varios_155_3.jpg" facs="fedora_Varios_155_3/full/full/0/default.jpg"/>
-              <l>y de ambos tu Madre es la Niña,</l>
-              <l>pues tanto la amas.</l>
-              <l>La niña bella</l>
-              <l>es pura estrella,</l>
-              <l>no sino el alba</l>
-              <l>que trae el día</l>
-              <l>risueña y blanda.</l>
-            </lg>
-            <sp>
-              <speaker>CORO.</speaker>
-              <l>Preciosa idea, etc.</l>
-            </sp>
-          </div>
-          <div>
-            <head type="titulo_estrofa">VILLANCICO TERCERO</head>
-            <sp>
-              <speaker>DÚO.</speaker>
-              <l>Las zagalas y pastores</l>
-              <l>reunidos en tropel,</l>
-              <l>llegan á Belén cantando</l>
-              <l>fatigados de correr;</l>
-              <l>pero al ver tanta grandeza</l>
-              <l>en un humilde portal,</l>
-              <l>se conmueven de terneza</l>
-              <l>y no se atreven á entrar.</l>
-            </sp>
-          </div>
-          <div>
-            <head type="titulo_estrofa">PASTORELA</head>
-            <sp>
-              <speaker>SOLO.</speaker>
-              <l>Zagales y pastoras,</l>
-              <l>venid, venid, llegad,</l>
-              <l>y al Niño que ha nacido</l>
-              <l>festivo saludad.</l>
-            </sp>
-            <sp>
-              <speaker>CORO.</speaker>
-              <l>Qué pasmo, qué prodigio,</l>
-              <l>milagro sin igual,</l>
-              <l>que en un portal se hospeda</l>
-              <l>la Corte celestial.</l>
-            </sp>
-            <sp>
-              <speaker>SOLO.</speaker>
-              <l>Canten las dos zagalas,</l>
-              <l>que es noche de cantar</l>
-              <l>alguna tonadilla</l>
-              <l>con aire pastoral.</l>
-            </sp>
-            <sp>
-              <speaker>CORO.</speaker>
-              <l>Canten las maravillas</l>
-              <l>que encierra este portal,</l>
-              <l>y den la bienvenida</l>
-              <l>al hermoso Zagal.</l>
-            </sp>
-          </div>
-          <div>
-            <head type="titulo_estrofa">TONADILLA A DÚO</head>
-            <sp>
-              <speaker>ESTRIB.</speaker>
-              <l>Bien venido seas,</l>
-              <l>Pastor inmortal,</l>
-              <l>pues traes á la tierra</l>
-              <l>la dichosa paz.</l>
-            </sp>
-            <sp>
-              <speaker>CORO.</speaker>
-              <l>Bienvenido seas, etc.</l>
-            </sp>
-          </div>
-          <div>
-            <head type="titulo_estrofa">COPLAS</head>
-            <lg>
-              <l>1.ª Zagalillo chiquitito,</l>
-              <l>graciosillo sin igual,</l>
-              <l>que has venido á nuestros montes</l>
-              <l>los ganados á guardar,</l>
-              <l>si del cielo vienes,</l>
-              <l>divino Zagal,</l>
-              <l>dichosa la tierra</l>
-              <l>que te ha de gozar.</l>
-            </lg>
-            <sp>
-              <speaker>CORO.</speaker>
-              <l>Bien venido seas, etc.</l>
-            </sp>
-            <lg>
-              <l>2.ª Es el portal de Belén</l>
-              <l>hoy el palacio real,</l>
-              <l>donde habita el Rey de reyes,</l>
-              <l>Dios de eterna Majestad:</l>
-              <l>mil veces dichoso,</l>
-              <l>feliz el mortal</l>
-              <l>que tu compañía</l>
-              <l>ha de disfrutar.</l>
-            </lg>
-            <sp>
-              <speaker>CORO.</speaker>
-              <l>Bien vinido seas, etc.</l>
-            </sp>
-            <lg>
-              <l>3.ª De una Madre tan divina</l>
-              <l>y de un Padre celestial,</l>
-              <l>ha nacido el Zagalito</l>
-              <l>que nos viene á pastorear;</l>
-              <l>pues eres tan sabio,</l>
-              <l>Tú nos llevarás</l>
-              <l>al eterno aprisco</l>
-              <l>de felicidad.</l>
-            </lg>
-            <sp>
-              <speaker>CORO.</speaker>
-              <l>Bien venido seas, etc.</l>
-            </sp>
-          </div>
-          <div type="parte" n="2">
             <head type="titulo_parte"><lb/>VILLANCICOS Y PASTORELA AL NACIMIENTO DEL HIJO DE
-                                          DIOS</head>
-            <div>
-              <lg>
-                <l>Bien venido á vuestro valle,</l>
-                <l>Pastorcito el celestial,</l>
-                <l>que el ganado ya perdido</l>
-                <l>le pudiéramos nombrar;</l>
-                <l>pero sólo con tu vista</l>
-                <l>ya se vuelve á restaurar.</l>
-              </lg>
-            </div>
-            <div>
+              DIOS</head>
+
+            <lg>
+              <l rend="indent">Bien venido á vuestro valle,</l>
+              <l>Pastorcito el celestial,</l>
+              <l>que el ganado ya perdido</l>
+              <l>le pudiéramos nombrar;</l>
+              <l>pero sólo con tu vista</l>
+              <l>ya se vuelve á restaurar.</l>
+            </lg>
+
+            <lg>
               <head type="estribillo">ESTRIBILLO</head>
-              <l>¡Ay qué lindo, ay qué bello,</l>
-              <l>ay qué hermoso, ay, ay, ay!</l>
-              <l>que el amor á tus ovejas</l>
-              <l>del Cielo te hizo bajar.</l>
-            </div>
-            <div>
-              <lg>
-                <l>Como al punto que has nacido</l>
-                <l>de pastor señas nos das,</l>
-                <l>los pastores los primeros</l>
-                <l>ya te vienen á obsequiar;</l>
-                <l>no deseches las ofertas</l>
-                <l>que vienen á tributar:</l>
-              </lg>
-              <lg rend="cursiva">
-                <l>Ay qué lindo, ay qué bello, etc.</l>
-              </lg>
-              <pb n="4" source="Varios_155_4.jpg" facs="fedora_Varios_155_4/full/full/0/default.jpg"/>
-              <lg>
-                <l>Bato te ofrece un cordero,</l>
-                <l>y Menga un lindo pañal,</l>
-                <l>un rico queso Gilote</l>
-                <l>y un pernil grande Pascual;</l>
-                <l>tortas gustosas Bartolo,</l>
-                <l>Geroma un dulce panal:</l>
-              </lg>
-              <lg rend="cursiva">
-                <l>¡Ay qué lindo, ay qué bello, etc.</l>
-              </lg>
-              <lg>
-                <l>Yo te ofrezco. vida mía,</l>
-                <l>un hermoso recental,</l>
-                <l>los candores del armiño</l>
-                <l>su blancura envidiará;</l>
-                <l>el misterio de la oferta</l>
-                <l>no lo puedes tú dudar:</l>
-              </lg>
-              <lg rend="cursiva">
-                <l>¡Ay qué lindo, ay qué bello, etc.</l>
-              </lg>
-              <lg>
-                <l>Pastorcito de los cielos,</l>
-                <l>yo te vengo á regalar</l>
-                <l>con una blanca paloma,</l>
-                <l>que es regalo singular;</l>
-                <l>allá, Niño, en los cantares</l>
-                <l>el misterio le hallarás:</l>
-              </lg>
-              <lg rend="cursiva">
-                <l>¡Ay qué lindo, ay qué bello, etc.</l>
-              </lg>
-              <lg>
-                <l>Una rosca yo te ofrezco,</l>
-                <l>pero te la doy con tal</l>
-                <l>que me libres, Niño mío,</l>
-                <l>de tanto pelafustán</l>
-                <l>que hacen la rosca del galgo</l>
-                <l>por querernos enroscar:</l>
-              </lg>
-              <lg rend="cursiva">
-                <l>¡Ay qué lindo, ay qué bello, etc.</l>
-              </lg>
-              <lg>
-                <l>Yo te ofrenco unas manzanas</l>
-                <l>muy dulces al paladar,</l>
-                <l>porque quites la aspereza</l>
-                <l>de la manzana de Adán;</l>
-                <l>no receles en tomarlas,</l>
-                <l>porque no te amargarán:</l>
-              </lg>
-              <lg rend="cursiva">
-                <l>¡Ay qué lindo, ay qué bello, etc.</l>
-              </lg>
-              <lg>
-                <l>Pastorcito, Niño hermoso,</l>
-                <l>no dudo perdonarás</l>
-                <l>de los simples pastorcillos</l>
-                <l>su mucha sinceridad;</l>
-                <l>el ganado ya nos llama;</l>
-                <l>adiós, Niño, queda en paz:</l>
-              </lg>
-              <lg rend="cursiva">
-                <l>¡Ay qué lindo, ay qué bello, etc.</l>
-              </lg>
-              <lg>
-                <l>vienes á la tierra á dar,</l>
-                <l>Pastorcito que del cielo</l>
-                <l>si á guardar ganado vienes,</l>
-                <l>poco tienes que guardar,</l>
-                <l>porque todo en este mundo,</l>
-                <l>muy perdido lo hallarás:</l>
-              </lg>
-              <lg rend="cursiva">
-                <l>¡Ay qué lindo, ay qué bello, etc.</l>
-              </lg>
-              <lg>
-                <l>Tú lo quieres restaurar,</l>
-                <l>Si el rebaño tan perdido</l>
-                <l>yo me temo, Pastor mío.</l>
-                <l>tengas harto que afanar;</l>
-                <l>pues hay muchas malas reses,</l>
-                <l>y si no, tú lo verás:</l>
-              </lg>
-              <lg rend="cursiva">
-                <l>¡Ay qué lindo, ay qué bello, etc.</l>
-              </lg>
-              <lg>
-                <l>Tus amantes ovejuelas</l>
-                <l>compasión te causarán,</l>
-                <l>porque sin pastor ni pasto</l>
-                <l>á todas las has de hallar;</l>
-                <l>mas con tu sola asistencia</l>
-                <l>de uno y otro gozarán:</l>
-              </lg>
-              <lg rend="cursiva">
-                <l>¡Ay qué lindo, ay qué bello, etc.</l>
-              </lg>
-              <lg>
-                <l>Ten la honda prevenida</l>
-                <l>si al desierto, Niño, vas,</l>
-                <l>que habrá alguno que con piedras</l>
-                <l>fiero te acometerá:</l>
-                <l>mas las piedras de sus manos</l>
-                <l>contra él mismo volverán:</l>
-              </lg>
-              <lg rend="cursiva">
-                <l>¡Ay qué lindo, ay qué bello, etc.</l>
-              </lg>
-              <lg>
-                <l>Ycon esto los pastores</l>
-                <l>parabienes hoy te dan,</l>
-                <l>porque ven que en Ti han logrado</l>
-                <l>un Pastor que es celestial.</l>
-                <l>Adiós, Niño, que el ganado</l>
-                <l>nos precisa ya tornar:</l>
-                <l>¡Ay qué lindo, ay qué ballo, etc.</l>
-              </lg>
-            </div>
+              <l rend="cursiva">¡Ay qué lindo, ay qué bello,</l>
+              <l rend="cursiva">ay qué hermoso, ay, ay, ay!</l>
+              <l rend="cursiva">que el amor á tus ovejas</l>
+              <l rend="cursiva">del Cielo te hizo bajar.</l>
+            </lg>
+
+            <lg>
+              <l rend="indent">Como al punto que has nacido</l>
+              <l>de pastor señas nos das,</l>
+              <l>los pastores los primeros</l>
+              <l>ya te vienen á obsequiar;</l>
+              <l>no deseches las ofertas</l>
+              <l>que vienen á tributar:</l>
+            </lg>
+
+            <lg rend="cursiva">
+              <l>Ay qué lindo, ay qué bello, etc.</l>
+            </lg>
+
+            <pb n="4" source="Varios_155_4.jpg" facs="varios/Varios_155_4.jpg/"/>
+
+            <lg>
+              <l rend="indent">Bato te ofrece un cordero,</l>
+              <l>y Menga un lindo pañal,</l>
+              <l>un rico queso Gilote</l>
+              <l>y un pernil grande Pascual;</l>
+              <l>tortas gustosas Bartolo,</l>
+              <l>Geroma un dulce panal:</l>
+            </lg>
+            <lg rend="cursiva">
+              <l>¡Ay qué lindo, ay qué bello, etc.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Yo te ofrezco. vida mía,</l>
+              <l>un hermoso recental,</l>
+              <l>los candores del armiño</l>
+              <l>su blancura envidiará;</l>
+              <l>el misterio de la oferta</l>
+              <l>no lo puedes tú dudar:</l>
+            </lg>
+            <lg rend="cursiva">
+              <l>¡Ay qué lindo, ay qué bello, etc.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Pastorcito de los cielos,</l>
+              <l>yo te vengo á regalar</l>
+              <l>con una blanca paloma,</l>
+              <l>que es regalo singular;</l>
+              <l>allá, Niño, en los cantares</l>
+              <l>el misterio le hallarás:</l>
+            </lg>
+            <lg rend="cursiva">
+              <l>¡Ay qué lindo, ay qué bello, etc.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Una rosca yo te ofrezco,</l>
+              <l>pero te la doy con tal</l>
+              <l>que me libres, Niño mío,</l>
+              <l>de tanto pelafustán</l>
+              <l>que hacen la rosca del galgo</l>
+              <l>por querernos enroscar:</l>
+            </lg>
+            <lg rend="cursiva">
+              <l>¡Ay qué lindo, ay qué bello, etc.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Yo te ofrenco unas manzanas</l>
+              <l>muy dulces al paladar,</l>
+              <l>porque quites la aspereza</l>
+              <l>de la manzana de Adán;</l>
+              <l>no receles en tomarlas,</l>
+              <l>porque no te amargarán:</l>
+            </lg>
+            <lg rend="cursiva">
+              <l>¡Ay qué lindo, ay qué bello, etc.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Pastorcito, Niño hermoso,</l>
+              <l>no dudo perdonarás</l>
+              <l>de los simples pastorcillos</l>
+              <l>su mucha sinceridad;</l>
+              <l>el ganado ya nos llama;</l>
+              <l>adiós, Niño, queda en paz:</l>
+            </lg>
+            <lg rend="cursiva">
+              <l>¡Ay qué lindo, ay qué bello, etc.</l>
+            </lg>
+            <lg>
+              <l rend="indent">vienes á la tierra á dar,</l>
+              <l>Pastorcito que del cielo</l>
+              <l>si á guardar ganado vienes,</l>
+              <l>poco tienes que guardar,</l>
+              <l>porque todo en este mundo,</l>
+              <l>muy perdido lo hallarás:</l>
+            </lg>
+            <lg rend="cursiva">
+              <l>¡Ay qué lindo, ay qué bello, etc.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Tú lo quieres restaurar,</l>
+              <l>Si el rebaño tan perdido</l>
+              <l>yo me temo, Pastor mío.</l>
+              <l>tengas harto que afanar;</l>
+              <l>pues hay muchas malas reses,</l>
+              <l>y si no, tú lo verás:</l>
+            </lg>
+            <lg rend="cursiva">
+              <l>¡Ay qué lindo, ay qué bello, etc.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Tus amantes ovejuelas</l>
+              <l>compasión te causarán,</l>
+              <l>porque sin pastor ni pasto</l>
+              <l>á todas las has de hallar;</l>
+              <l>mas con tu sola asistencia</l>
+              <l>de uno y otro gozarán:</l>
+            </lg>
+            <lg rend="cursiva">
+              <l>¡Ay qué lindo, ay qué bello, etc.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Ten la honda prevenida</l>
+              <l>si al desierto, Niño, vas,</l>
+              <l>que habrá alguno que con piedras</l>
+              <l>fiero te acometerá:</l>
+              <l>mas las piedras de sus manos</l>
+              <l>contra él mismo volverán:</l>
+            </lg>
+            <lg rend="cursiva">
+              <l>¡Ay qué lindo, ay qué bello, etc.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Ycon esto los pastores</l>
+              <l>parabienes hoy te dan,</l>
+              <l>porque ven que en Ti han logrado</l>
+              <l>un Pastor que es celestial.</l>
+              <l>Adiós, Niño, que el ganado</l>
+              <l>nos precisa ya tornar:</l>
+            </lg>
+            <lg rend="cursiva">
+              <l>¡Ay qué lindo, ay qué ballo, etc.</l>
+            </lg>
           </div>
         </div>
+        
         <div type="colofon">
           <p><lb/>Madrid. — Despacho: Arenal, 11, librería.</p>
         </div>

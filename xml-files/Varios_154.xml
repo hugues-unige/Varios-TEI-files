@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../Schema/oddPliego_varios.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:alto="http://www.loc.gov/standards/alto/ns-v4#" xml:id="Varios_154">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Varios_154">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -11,8 +11,7 @@
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <authority role="rightsHolder">Bibliothèque Universitaire de
-                            Genève</authority>
+        <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
         <availability status="restricted">
           <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
         </availability>
@@ -20,7 +19,8 @@
       <sourceDesc>
         <biblFull>
           <titleStmt>
-            <title type="titulo_completo">DECIMAS GLOSADAS PARA CANTAR LOS AFICIONADOS, COMPUESTAS POR UN AFICIONADO.</title>
+            <title type="titulo_completo">DECIMAS GLOSADAS PARA CANTAR LOS AFICIONADOS, COMPUESTAS
+              POR UN AFICIONADO.</title>
             <title type="titulo_breve">DECIMAS GLOSADAS</title>
           </titleStmt>
           <editionStmt>
@@ -29,7 +29,7 @@
           <publicationStmt>
             <publisher>Manuel Piles y Castro</publisher>
             <pubPlace ref="https://www.geonames.org/12023270/russafa.html">Russafa</pubPlace>
-            <date>[s.a]</date>
+            <date cert="low" when="1800-01-01">[s.a.]</date>
           </publicationStmt>
         </biblFull>
         <msDesc>
@@ -37,7 +37,8 @@
             <country>Suisse</country>
             <settlement>Genève</settlement>
             <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"/>
-                  </repository>
+            </repository>
+            <collection>Colección Varios</collection>
             <idno type="cote"/>
             <idno type="DOI">10.5281/zenodo.6587102</idno>
             <altIdentifier>
@@ -45,10 +46,15 @@
             </altIdentifier>
           </msIdentifier>
           <msContents>
-            <summary/>
+            <summary>Dos canciones</summary>
             <msItem>
-              <locus/>
-              <title/>
+              <locus>1-3</locus>
+              <title>Decimas glosadas para cantar los aficionados, compuesta par un
+                aficionado.</title>
+            </msItem>
+            <msItem>
+              <locus>4</locus>
+              <title>Cancion del avechucho.</title>
             </msItem>
           </msContents>
           <physDesc>
@@ -66,8 +72,7 @@
               </layoutDesc>
             </objectDesc>
             <decoDesc>
-              <summary n="3">Dos grabados
-                                        (p.1) </summary>
+              <summary n="3">Dos grabados (p.1) </summary>
               <decoNote type="lista_grabados">
                 <list>
                   <item corresp="grabado_v_154_1.xml">grabado_v_154_1</item>
@@ -91,18 +96,17 @@
     </fileDesc>
     <encodingDesc>
       <projectDesc>
-        <p>Este archivo fue creado en el marco del proyecto Desenrollando el
-                            Cordel/Démêler le cordel/Untangling the cordel, dirigido por la
-                            profesora Constance Carta de la Universidad de Ginebra, con el apoyo de
-                            la Fundación filantrópica Famille Sandoz-Monique de Meuron.</p>
+        <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+          cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la Universidad
+          de Ginebra, con el apoyo de la Fundación filantrópica Famille Sandoz-Monique de
+          Meuron.</p>
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR non corregido</p>
+          <p>OCR no corregido</p>
         </correction>
         <normalization>
-          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto
-                                original.</p>
+          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
         </normalization>
         <punctuation>
           <p>Se conserva la puntuación original.</p>
@@ -115,7 +119,7 @@
       </langUsage>
       <textClass>
         <keywords xml:base="http://datos.bne.es/tema/">
-          <term type="tipo_texto">Décimas glosadas</term>
+          <term target="XX546895.html" type="tipo_texto">Décimas</term>
           <term target="XX546895.html" type="tipo_estrofa">Décimas</term>
           <term type="verso_prosa">Verso</term>
           <term type="sagrado_profano">Sagrado</term>
@@ -124,9 +128,13 @@
     </profileDesc>
     <revisionDesc>
       <change when="2022-09-17" who="#PJ">Création du fichier TEI P5 et encodage du corps du
-                        texte</change>
+        texte</change>
+      <change when="2024-01-09" who="#EL">Add the IIIF links</change>
     </revisionDesc>
   </teiHeader>
+  <facsimile>
+    <graphic url="varios/Varios_154_1.jpg/full/200,/0/default.jpg"/>
+  </facsimile>
   <sourceDoc xml:id="automaticTranscription">
     <surface xml:id="Varios_154_1" type="page" cert="silver">
       <graphic url="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_154_1/full/full/0/default.jpg"/>
@@ -1128,296 +1136,305 @@
   <text>
     <body>
       <div>
-        <pb n="1" source="Varios_154_1.jpg" facs="fedora_Varios_154_1/full/full/0/default.jpg"/>
-        <div type="parte" n="1">
-          <head type="primer_titulo" rend="negrita"><lb/>DECIMAS GLOSADAS</head>
-          <head type="subtitulo_parte"><lb/>PARA CANTAR LOS AFICIONADOS,<lb/>COMPUESTAS<lb/>POR UN AFICIONADO.</head>
-          <head type="titulo_parte" rend="negrita"><lb/>POR UN AFICIONADO.</head>
-          <lg>
-            <l>Los Pedros y los Vicentes</l>
-            <l>son feos y tartamudos,</l>
-            <l>embusteros, vagamundos,</l>
-            <l>farfallosos y sin dientes,</l>
-            <l>de rabadilla calientes;</l>
-            <l>les gusta mucho el beber:</l>
-            <l>á estos tunos les diré,</l>
-            <l>ya que son tan imprudentes,</l>
-            <l>de los Pedros y Vicentes</l>
-            <l>Libera nos, Domine.</l>
-          </lg>
-          <lg>
-            <l>Los Pepes y los Antonios</l>
-            <l>son de genio muy altivos,</l>
-            <l>siempre se muestran esquivos,</l>
-            <l>son peores que demonios;</l>
-            <l>lo mismo los Cilidonios,</l>
-            <l>les gusta mucho el correr;</l>
-            <l>al lado de una muger</l>
-            <l>se ponen con gran contento;</l>
-            <l>y asi que logran su intento,</l>
-            <l>Libera nos, Domine,</l>
-          </lg>
-          <lg>
-            <l>Los Raimundos son celosos,</l>
-            <l>todos los Migueles varios,</l>
-            <l>Manueles estrafalarios,</l>
-            <l>los Bautistas vanidosos,</l>
-            <l>borrachos son los Alfonsos,</l>
-            <l>falsos en su proceder,</l>
-            <l>y á los Juanes les diré,</l>
-            <l>que están siempre empoltroni¬</l>
-            <l>de todos estos perdidos (dos,</l>
-            <l>Libera nos, Domine,</l>
-          </lg>
-          <pb n="2" source="Varios_154_2.jpg" facs="fedora_Varios_154_2/full/full/0/default.jpg"/>
-          <lg>
-            <l>Los Joaquines son golosos,</l>
-            <l>los Elias juguetones,</l>
-            <l>los Bartolos soplones,</l>
-            <l>los Franciscos melindrosos,</l>
-            <l>todos los Pablos mocosos,</l>
-            <l>Jorges de mal proceder,</l>
-            <l>los Ramones á mi ver</l>
-            <l>se precian de muy discretos,</l>
-            <l>de ustos y los Anacletos</l>
-            <l>Libera nos, Domine.</l>
-          </lg>
-          <lg>
-            <l>Los mocitos son golosos,</l>
-            <l>ingratos y presumidos,</l>
-            <l>falsos, desagradecidos,</l>
-            <l>mentecatos vanidosos;</l>
-            <l>se precian de buenos mozos,</l>
-            <l>son galantones tambien,</l>
-            <l>con mucha razon diré,</l>
-            <l>ya que son tan pintureros,</l>
-            <l>de los mozos zalameros</l>
-            <l>Libera nos, Domine.</l>
-          </lg>
-          <lg>
-            <l>Los casados son celosos,</l>
-            <l>enredadores, mezquinos,</l>
-            <l>de su conveniencia amigos,</l>
-            <l>con su muger desdeñosos,</l>
-            <l>con las otras cariñosos,</l>
-            <l>siempre van con mala fe,</l>
-            <l>por lo mismo les diré.</l>
-            <l>ya que son tan caprichosos,</l>
-            <l>de casados orgullosos</l>
-            <l>Libera nos, Domine.</l>
-          </lg>
-          <lg>
-            <l>Los viudos son achaquiosos,</l>
-            <l>no pueden sufrir calores,</l>
-            <l>siempre estan con mil dolores</l>
-            <l>de migraña, ó son flatosos;</l>
-            <l>ellos son muy maliciosos,</l>
-            <l>y en viendo alguna muger,</l>
-            <l>todo se les vá en correr</l>
-            <l>en busca de picos pardos,</l>
-            <l>de viudos endemoniados</l>
-            <l>Libera nos, Domine.</l>
-          </lg>
-          <lg>
-            <l>Los viejos son muy taimados,</l>
-            <l>poltrones, casamenteras,</l>
-            <l>melindrosos, embusteros,</l>
-            <l>farfallosos, endiablados;</l>
-            <l>cheperudos, desdientados,</l>
-            <l>calvos á mas no poder,</l>
-            <l>en todo se han de meter,</l>
-            <l>porque son tan relamidos,</l>
-            <l>de viejos empoltronidos</l>
-            <l>Libera nos, Domine.</l>
-          </lg>
-          <lg rend="cursiva">
-            <l>De las mugeres del dia,</l>
-            <l>Las faltas voy á esplicar,</l>
-            <l>Y asi las quiero cantar</l>
-            <l>A estilo de letania.</l>
-          </lg>
-          <lg>
-            <l>Aborrecen la verdad</l>
-            <l>las Blasas y las Luisas,</l>
-            <l>en las Josefas y Elisas</l>
-            <l>no ballarás fidelidad;</l>
-            <l>amás contiesan su edad</l>
-            <l>las Marías y Gabrielas,</l>
-            <l>se pagan de bagatelas,</l>
-            <l>y en resbalando de un pie,</l>
-            <l>de todas sus pamplinelas</l>
-            <l>Libera nos, Domine.</l>
-          </lg>
-          <lg>
-            <l>De las Rosas y Florencias</l>
-            <l>debes evitar el toque,</l>
-            <l>sino pregúntalo á Roque,</l>
-            <l>y te dirá sus dolencias;</l>
-            <l>nunca vayas con Fulgencias,</l>
-            <l>ni con las pausadas Martas,</l>
-            <l>porque nunca se ven hartas</l>
-            <l>aunque aprieten su corsé,</l>
-            <l>y si de ellas no te apartas</l>
-            <l>Libera nos, Domine.</l>
-          </lg>
-          <pb n="3" source="Varios_154_3.jpg" facs="fedora_Varios_154_3/full/full/0/default.jpg"/>
-          <lg>
-            <l>Las Franciscas son celosas,</l>
-            <l>no hay agrado en las Dolores,</l>
-            <l>y á pocos niegan favores</l>
-            <l>las Felicianas melosas,</l>
-            <l>las Ritas son quisquillosas,</l>
-            <l>embusteras las Vicentas,</l>
-            <l>las Antonias poco atentas,</l>
-            <l>y en las Carmelas no hay fe,</l>
-            <l>de sus pagas y sus cuentas</l>
-            <l>Libera nos, Domine.</l>
-          </lg>
-          <lg>
-            <l>Las Mercedes son coquetas,</l>
-            <l>las Romualdas desabridas,</l>
-            <l>las Angelas presumidas,</l>
-            <l>las Filomenas inquietas,</l>
-            <l>y necias las Enriquetas,</l>
-            <l>las Cándidas son soplonas,</l>
-            <l>y embustes en las Ramonas</l>
-            <l>es lo que siempre encontré,</l>
-            <l>de las Diegas juguetonas</l>
-            <l>Libera nos, Domine.</l>
-          </lg>
-          <lg>
-            <l>Poco culo en las Gregorias,</l>
-            <l>chata nariz en las Blasas,</l>
-            <l>largo pie en las Nicolasas,</l>
-            <l>y gran boca en las Vitorias</l>
-            <l>nos refieren las historias;</l>
-            <l>las Petras y Margaritas</l>
-            <l>nada tienen de bonitas,</l>
-            <l>y dice el doctor Campé:</l>
-            <l>de las calientes Pepitas</l>
-            <l>Libera nos, Domine.</l>
-          </lg>
-          <lg rend="cursiva">
-            <l>Adios águila imperial,</l>
-            <l>Adios sirena encantada,</l>
-            <l>Adios ángel amoroso,</l>
-            <l>Adios ninfa idolatrada.</l>
-          </lg>
-          <lg>
-            <l>Adios tus rubios cabellos,</l>
-            <l>Adios sol resplandeciente,</l>
-            <l>Adios tu agraciada frente,</l>
-            <l>Adios sienes de ángel bello,</l>
-            <l>Adios mejillas del cielo,</l>
-            <l>Adios perlita oriental,</l>
-            <l>Adios tu genio jovial,</l>
-            <l>Adios hermoso jazmin,</l>
-            <l>Adios que me urge el partir,</l>
-            <l rend="cursiva">Adios águila imperial.</l>
-          </lg>
-          <lg>
-            <l>Adios ojitos de diosa,</l>
-            <l>Adios nariz de coral,</l>
-            <l>Adios boca angelical,</l>
-            <l>Adios carrillos de rosa,</l>
-            <l>Adios aurora preciosa,</l>
-            <l>Adios memoria ilustrada,</l>
-            <l>Adios estrella adorada,</l>
-            <l>Adios serafin hermoso,</l>
-            <l>Adios que el irme es forzoso,</l>
-            <l rend="cursiva">Adios sirena encantada.</l>
-          </lg>
-          <lg>
-            <l>Adios cara de deidad,</l>
-            <l>Adios cuello de esmeraldas,</l>
-            <l>Adios tus lindas espaldas,</l>
-            <l>Adios pecho de bondad,</l>
-            <l>Adios colmo de beldad,</l>
-            <l>Adios astro luminoso,</l>
-            <l>Adios lucero precioso,</l>
-            <l>Adios luz del firmamento,</l>
-            <l>Adios que de tí me ausento,</l>
-            <l rend="cursiva">Adios ángel amoroso.</l>
-          </lg>
-          <lg>
-            <l>Adios tu talle garboso,</l>
-            <l>Adios tus benignas mianos,</l>
-            <l>Adios sol de los arcanos,</l>
-            <l>Adios bien mio amoroso,</l>
-            <l>Adios cuerpo cariñoso,</l>
-            <l>Adios damita adorada,</l>
-            <l>Adios prenda regalada,</l>
-            <l>Adios luna sin menguante,</l>
-            <l>Adios que se va tu amante,</l>
-            <l rend="cursiva">Adios nínfa idolatrada.</l>
-          </lg>
-        </div>
-        <pb n="4" source="Varios_154_4.jpg" facs="fedora_Varios_154_4/full/full/0/default.jpg"/>
         <div>
-          <head type="titulo_parte"><lb/>CANCION DEL AVECHUCHO.</head>
-          <lg>
-            <l>Una niña la otra noche</l>
-            <l>Sin alientos se quedó,</l>
-            <l>Sorprendida con la imágen</l>
-            <l>De un Avechucho que vió;</l>
-            <l>Pero luego reportada</l>
-            <l>Y que atenta le observó,</l>
-            <l>De esta suerte suspiró.</l>
-          </lg>
-          <lg rend="cursiva">
-            <l>Ay, ay, ay, Avechucho sí,</l>
-            <l>Avechucho quiero yo,</l>
-            <l>Ay, ay, ay, duechucho si,</l>
-            <l>Su piquito me consoló.</l>
-          </lg>
-          <lg>
-            <l>Tanta gracia el Avechucho,</l>
-            <l>A la niña le causó,</l>
-            <l>Que en seguida placentera</l>
-            <l>En su mano le cogió;</l>
-            <l>Ya lo besa y lo acaricia,</l>
-            <l>De tal suerte lo halagó,</l>
-            <l>Que en su falda dormidito</l>
-            <l>El tunante se quedó.</l>
-            <l rend="cursiva">Ay., ay, ay, etc.</l>
-          </lg>
-          <lg>
-            <l>Poco tiempo el Avechucho,</l>
-            <l>De su sueño disfrutó,</l>
-            <l>Que impaciente la tal niña</l>
-            <l>Sin querer lo despertó:</l>
-            <l>El entonces soñoliento</l>
-            <l>Sus alitas sacudió,</l>
-            <l>Y en el pecho de la niña</l>
-            <l>De un brinquito se monto.</l>
-            <l rend="cursiva">Ay ay, ay, etc.</l>
-          </lg>
-          <lg>
-            <l>Fue en un todo el Avechucho</l>
-            <l>De la niña diversion,</l>
-            <l>Siempre que picar podia</l>
-            <l>No perdia la ocasion;</l>
-            <l>Y tambien fue el resultado</l>
-            <l>Por lo mucho que jugó,</l>
-            <l>El quedarse el Avechucho</l>
-            <l>Como el gallo de Moron,</l>
-            <l rend="cursiva">Ay, ay, ay, etc.</l>
-          </lg>
-          <lg>
-            <l>Ojo alerta, niñas bellas,</l>
-            <l>Que escuchais esta cancion;</l>
-            <l>Buscad luego un Avechucho</l>
-            <l>Por recreo y diversion;</l>
-            <l>Pero cuenta que al cuidarle</l>
-            <l>Tengais consideracion,</l>
-            <l>En quererle, mucho esmero,</l>
-            <l>Y en jugar, moderacion.</l>
-            <l rend="cursiva">Ay. ay, ay, etc.</l>
-          </lg>
-          <trailer>FIN.</trailer>
+          <pb n="1" source="Varios_154_1.jpg" facs="varios/Varios_154_1.jpg/"/>
+
+          <div n="1">
+            <head type="primer_titulo"><lb/><hi rend="negrita">DECIMAS GLOSADAS</hi><lb/>PARA CANTAR
+              LOS AFICIONADOS,<lb/>COMPUESTAS<lb/><hi rend="negrita">POR UN AFICIONADO.</hi></head>
+
+            <lg>
+              <l rend="indent">Los Pedros y los Vicentes</l>
+              <l>son feos y tartamudos,</l>
+              <l>embusteros, vagamundos,</l>
+              <l>farfallosos y sin dientes,</l>
+              <l>de rabadilla calientes;</l>
+              <l>les gusta mucho el beber:</l>
+              <l>á estos tunos les diré,</l>
+              <l>ya que son tan imprudentes,</l>
+              <l>de los Pedros y Vicentes</l>
+              <l>Libera nos, Domine.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Los Pepes y los Antonios</l>
+              <l>son de genio muy altivos,</l>
+              <l>siempre se muestran esquivos,</l>
+              <l>son peores que demonios;</l>
+              <l>lo mismo los Cilidonios,</l>
+              <l>les gusta mucho el correr;</l>
+              <l>al lado de una muger</l>
+              <l>se ponen con gran contento;</l>
+              <l>y asi que logran su intento,</l>
+              <l>Libera nos, Domine,</l>
+            </lg>
+            <lg>
+              <l rend="indent">Los Raimundos son celosos,</l>
+              <l>todos los Migueles varios,</l>
+              <l>Manueles estrafalarios,</l>
+              <l>los Bautistas vanidosos,</l>
+              <l>borrachos son los Alfonsos,</l>
+              <l>falsos en su proceder,</l>
+              <l>y á los Juanes les diré,</l>
+              <l>que están siempre empoltroni¬<add place="debajo">(dos,</add></l>
+              <l>de todos estos perdidos</l>
+              <l>Libera nos, Domine,</l>
+            </lg>
+
+            <pb n="2" source="Varios_154_2.jpg" facs="varios/Varios_154_2.jpg/"/>
+
+            <lg>
+              <l rend="indent">Los Joaquines son golosos,</l>
+              <l>los Elias juguetones,</l>
+              <l>los Bartolos soplones,</l>
+              <l>los Franciscos melindrosos,</l>
+              <l>todos los Pablos mocosos,</l>
+              <l>Jorges de mal proceder,</l>
+              <l>los Ramones á mi ver</l>
+              <l>se precian de muy discretos,</l>
+              <l>de ustos y los Anacletos</l>
+              <l>Libera nos, Domine.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Los mocitos son golosos,</l>
+              <l>ingratos y presumidos,</l>
+              <l>falsos, desagradecidos,</l>
+              <l>mentecatos vanidosos;</l>
+              <l>se precian de buenos mozos,</l>
+              <l>son galantones tambien,</l>
+              <l>con mucha razon diré,</l>
+              <l>ya que son tan pintureros,</l>
+              <l>de los mozos zalameros</l>
+              <l>Libera nos, Domine.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Los casados son celosos,</l>
+              <l>enredadores, mezquinos,</l>
+              <l>de su conveniencia amigos,</l>
+              <l>con su muger desdeñosos,</l>
+              <l>con las otras cariñosos,</l>
+              <l>siempre van con mala fe,</l>
+              <l>por lo mismo les diré.</l>
+              <l>ya que son tan caprichosos,</l>
+              <l>de casados orgullosos</l>
+              <l>Libera nos, Domine.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Los viudos son achaquiosos,</l>
+              <l>no pueden sufrir calores,</l>
+              <l>siempre estan con mil dolores</l>
+              <l>de migraña, ó son flatosos;</l>
+              <l>ellos son muy maliciosos,</l>
+              <l>y en viendo alguna muger,</l>
+              <l>todo se les vá en correr</l>
+              <l>en busca de picos pardos,</l>
+              <l>de viudos endemoniados</l>
+              <l>Libera nos, Domine.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Los viejos son muy taimados,</l>
+              <l>poltrones, casamenteras,</l>
+              <l>melindrosos, embusteros,</l>
+              <l>farfallosos, endiablados;</l>
+              <l>cheperudos, desdientados,</l>
+              <l>calvos á mas no poder,</l>
+              <l>en todo se han de meter,</l>
+              <l>porque son tan relamidos,</l>
+              <l>de viejos empoltronidos</l>
+              <l>Libera nos, Domine.</l>
+            </lg>
+            <lg rend="cursiva">
+              <l rend="indent">De las mugeres del dia,</l>
+              <l>Las faltas voy á esplicar,</l>
+              <l>Y asi las quiero cantar</l>
+              <l>A estilo de letania.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Aborrecen la verdad</l>
+              <l>las Blasas y las Luisas,</l>
+              <l>en las Josefas y Elisas</l>
+              <l>no ballarás fidelidad;</l>
+              <l>amás contiesan su edad</l>
+              <l>las Marías y Gabrielas,</l>
+              <l>se pagan de bagatelas,</l>
+              <l>y en resbalando de un pie,</l>
+              <l>de todas sus pamplinelas</l>
+              <l>Libera nos, Domine.</l>
+            </lg>
+            <lg>
+              <l rend="indent">De las Rosas y Florencias</l>
+              <l>debes evitar el toque,</l>
+              <l>sino pregúntalo á Roque,</l>
+              <l>y te dirá sus dolencias;</l>
+              <l>nunca vayas con Fulgencias,</l>
+              <l>ni con las pausadas Martas,</l>
+              <l>porque nunca se ven hartas</l>
+              <l>aunque aprieten su corsé,</l>
+              <l>y si de ellas no te apartas</l>
+              <l>Libera nos, Domine.</l>
+            </lg>
+            <pb n="3" source="Varios_154_3.jpg" facs="varios/Varios_154_3.jpg/"/>
+            <lg>
+              <l rend="indent">Las Franciscas son celosas,</l>
+              <l>no hay agrado en las Dolores,</l>
+              <l>y á pocos niegan favores</l>
+              <l>las Felicianas melosas,</l>
+              <l>las Ritas son quisquillosas,</l>
+              <l>embusteras las Vicentas,</l>
+              <l>las Antonias poco atentas,</l>
+              <l>y en las Carmelas no hay fe,</l>
+              <l>de sus pagas y sus cuentas</l>
+              <l>Libera nos, Domine.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Las Mercedes son coquetas,</l>
+              <l>las Romualdas desabridas,</l>
+              <l>las Angelas presumidas,</l>
+              <l>las Filomenas inquietas,</l>
+              <l>y necias las Enriquetas,</l>
+              <l>las Cándidas son soplonas,</l>
+              <l>y embustes en las Ramonas</l>
+              <l>es lo que siempre encontré,</l>
+              <l>de las Diegas juguetonas</l>
+              <l>Libera nos, Domine.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Poco culo en las Gregorias,</l>
+              <l>chata nariz en las Blasas,</l>
+              <l>largo pie en las Nicolasas,</l>
+              <l>y gran boca en las Vitorias</l>
+              <l>nos refieren las historias;</l>
+              <l>las Petras y Margaritas</l>
+              <l>nada tienen de bonitas,</l>
+              <l>y dice el doctor Campé:</l>
+              <l>de las calientes Pepitas</l>
+              <l>Libera nos, Domine.</l>
+            </lg>
+            <lg rend="cursiva">
+              <l rend="indent">Adios águila imperial,</l>
+              <l>Adios sirena encantada,</l>
+              <l>Adios ángel amoroso,</l>
+              <l>Adios ninfa idolatrada.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Adios tus rubios cabellos,</l>
+              <l>Adios sol resplandeciente,</l>
+              <l>Adios tu agraciada frente,</l>
+              <l>Adios sienes de ángel bello,</l>
+              <l>Adios mejillas del cielo,</l>
+              <l>Adios perlita oriental,</l>
+              <l>Adios tu genio jovial,</l>
+              <l>Adios hermoso jazmin,</l>
+              <l>Adios que me urge el partir,</l>
+              <l rend="cursiva">Adios águila imperial.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Adios ojitos de diosa,</l>
+              <l>Adios nariz de coral,</l>
+              <l>Adios boca angelical,</l>
+              <l>Adios carrillos de rosa,</l>
+              <l>Adios aurora preciosa,</l>
+              <l>Adios memoria ilustrada,</l>
+              <l>Adios estrella adorada,</l>
+              <l>Adios serafin hermoso,</l>
+              <l>Adios que el irme es forzoso,</l>
+              <l rend="cursiva">Adios sirena encantada.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Adios cara de deidad,</l>
+              <l>Adios cuello de esmeraldas,</l>
+              <l>Adios tus lindas espaldas,</l>
+              <l>Adios pecho de bondad,</l>
+              <l>Adios colmo de beldad,</l>
+              <l>Adios astro luminoso,</l>
+              <l>Adios lucero precioso,</l>
+              <l>Adios luz del firmamento,</l>
+              <l>Adios que de tí me ausento,</l>
+              <l rend="cursiva">Adios ángel amoroso.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Adios tu talle garboso,</l>
+              <l>Adios tus benignas mianos,</l>
+              <l>Adios sol de los arcanos,</l>
+              <l>Adios bien mio amoroso,</l>
+              <l>Adios cuerpo cariñoso,</l>
+              <l>Adios damita adorada,</l>
+              <l>Adios prenda regalada,</l>
+              <l>Adios luna sin menguante,</l>
+              <l>Adios que se va tu amante,</l>
+              <l rend="cursiva">Adios nínfa idolatrada.</l>
+            </lg>
+          </div>
+
+          <div n="2">
+            <pb n="4" source="Varios_154_4.jpg" facs="varios/Varios_154_4.jpg/"/>
+
+            <head type="titulo_parte" rend="negrita"><lb/>CANCION DEL AVECHUCHO.</head>
+
+            <lg>
+              <l rend="indent">Una niña la otra noche</l>
+              <l>Sin alientos se quedó,</l>
+              <l>Sorprendida con la imágen</l>
+              <l>De un Avechucho que vió;</l>
+              <l>Pero luego reportada</l>
+              <l>Y que atenta le observó,</l>
+              <l>De esta suerte suspiró.</l>
+            </lg>
+            <lg rend="cursiva">
+              <l rend="indent">Ay, ay, ay, Avechucho sí,</l>
+              <l>Avechucho quiero yo,</l>
+              <l>Ay, ay, ay, duechucho si,</l>
+              <l>Su piquito me consoló.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Tanta gracia el Avechucho,</l>
+              <l>A la niña le causó,</l>
+              <l>Que en seguida placentera</l>
+              <l>En su mano le cogió;</l>
+              <l>Ya lo besa y lo acaricia,</l>
+              <l>De tal suerte lo halagó,</l>
+              <l>Que en su falda dormidito</l>
+              <l>El tunante se quedó.</l>
+              <l rend="cursiva">Ay., ay, ay, etc.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Poco tiempo el Avechucho,</l>
+              <l>De su sueño disfrutó,</l>
+              <l>Que impaciente la tal niña</l>
+              <l>Sin querer lo despertó:</l>
+              <l>El entonces soñoliento</l>
+              <l>Sus alitas sacudió,</l>
+              <l>Y en el pecho de la niña</l>
+              <l>De un brinquito se monto.</l>
+              <l rend="cursiva">Ay ay, ay, etc.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Fue en un todo el Avechucho</l>
+              <l>De la niña diversion,</l>
+              <l>Siempre que picar podia</l>
+              <l>No perdia la ocasion;</l>
+              <l>Y tambien fue el resultado</l>
+              <l>Por lo mucho que jugó,</l>
+              <l>El quedarse el Avechucho</l>
+              <l>Como el gallo de Moron,</l>
+              <l rend="cursiva">Ay, ay, ay, etc.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Ojo alerta, niñas bellas,</l>
+              <l>Que escuchais esta cancion;</l>
+              <l>Buscad luego un Avechucho</l>
+              <l>Por recreo y diversion;</l>
+              <l>Pero cuenta que al cuidarle</l>
+              <l>Tengais consideracion,</l>
+              <l>En quererle, mucho esmero,</l>
+              <l>Y en jugar, moderacion.</l>
+              <l rend="cursiva">Ay. ay, ay, etc.</l>
+            </lg>
+            <trailer>FIN.</trailer>
+          </div>
         </div>
         <div type="colofon">
-          <p><lb/>RUZAFA: IMPRENTA DE MANUEL PILES Y CASTRO. Se hallará de venta en Valencia, calle de San Fernando, pueste de papel.</p>
+          <p><lb/>RUZAFA: IMPRENTA DE MANUEL PILES Y CASTRO. <hi rend="cursiva"><lb/>Se hallará de venta en Valencia, calle
+            de San Fernando, <lb/>puesto de papel.</hi></p>
         </div>
       </div>
     </body>

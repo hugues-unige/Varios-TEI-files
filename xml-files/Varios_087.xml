@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../Schema/oddPliego_varios.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:alto="http://www.loc.gov/standards/alto/ns-v4#" xml:id="Varios_087">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Varios_087">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -11,8 +11,7 @@
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <authority role="rightsHolder">Bibliothèque Universitaire de
-                              Genève</authority>
+        <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
         <availability status="restricted">
           <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
         </availability>
@@ -20,17 +19,17 @@
       <sourceDesc>
         <biblFull>
           <titleStmt>
-            <title type="titulo_completo">DECIMAS NUEVAS GLOSADAS, PARA
-                                          CANTAR LOS AFICIONADOS.</title>
+            <title type="titulo_completo">DECIMAS NUEVAS GLOSADAS, PARA CANTAR LOS
+              AFICIONADOS.</title>
             <title type="titulo_breve"/>
           </titleStmt>
           <editionStmt>
             <p/>
           </editionStmt>
           <publicationStmt>
-            <publisher>[s.n]</publisher>
-            <pubPlace/>
-            <date>[s.a]</date>
+            <publisher>[s.n.]</publisher>
+            <pubPlace>[s.l.]</pubPlace>
+            <date cert="low" when="1800-01-01">[s.a.]</date>
           </publicationStmt>
         </biblFull>
         <msDesc>
@@ -38,7 +37,8 @@
             <country>Suisse</country>
             <settlement>Genève</settlement>
             <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"/>
-                                    </repository>
+            </repository>
+            <collection>Colección Varios</collection>
             <idno type="cote"/>
             <idno type="DOI">10.5281/zenodo.6566043</idno>
             <altIdentifier>
@@ -76,14 +76,14 @@
               </decoNote>
             </decoDesc>
             <additions>
-              <stamp>COL LECCIÓ MANUEL MASSÓ</stamp>
+              <stamp>COLLECCIÓ MANUEL MASSÓ</stamp>
             </additions>
           </physDesc>
           <history>
             <origin/>
             <provenance/>
             <acquisition>
-              <stamp>COL LECCIÓ MANUEL MASSÓ</stamp>
+              <stamp>COLLECCIÓ MANUEL MASSÓ</stamp>
             </acquisition>
           </history>
         </msDesc>
@@ -91,18 +91,17 @@
     </fileDesc>
     <encodingDesc>
       <projectDesc>
-        <p>Este archivo fue creado en el marco del proyecto Desenrollando el
-                              Cordel/Démêler le cordel/Untangling the cordel, dirigido por la
-                              profesora Constance Carta de la Universidad de Ginebra, con el apoyo
-                              de la Fundación filantrópica Famille Sandoz-Monique de Meuron.</p>
+        <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+          cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la Universidad
+          de Ginebra, con el apoyo de la Fundación filantrópica Famille Sandoz-Monique de
+          Meuron.</p>
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR non corregido</p>
+          <p>OCR no corregido</p>
         </correction>
         <normalization>
-          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto
-                                    original.</p>
+          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
         </normalization>
         <punctuation>
           <p>Se conserva la puntuación original.</p>
@@ -115,8 +114,7 @@
       </langUsage>
       <textClass>
         <keywords xml:base="http://datos.bne.es/tema/">
-          <term type="tipo_texto">Glosas</term>
-          <term type="tipo_texto">Trovos</term>
+          <term target="XX546895.html" type="tipo_texto">Décimas</term>
           <term target="XX546895.html" type="tipo_estrofa">Décimas</term>
           <term type="verso_prosa">Verso</term>
           <term type="sagrado_profano">Profano</term>
@@ -124,10 +122,14 @@
       </textClass>
     </profileDesc>
     <revisionDesc>
-      <change when="2022-07-26" who="#PJ">Création du fichier TEI P5 et encodage du
-                        corps du texte</change>
+      <change when="2022-07-26" who="#PJ">Création du fichier TEI P5 et encodage du corps du
+        texte</change>
+      <change when="2024-01-09" who="#EL">Add the IIIF links</change>
     </revisionDesc>
   </teiHeader>
+  <facsimile>
+    <graphic url="varios/Varios_087_1.jpg/full/200,/0/default.jpg"/>
+  </facsimile>
   <sourceDoc xml:id="automaticTranscription">
     <surface xml:id="Varios_087_1" type="page" cert="silver">
       <graphic url="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_087_1/full/full/0/default.jpg"/>
@@ -1411,339 +1413,435 @@
   <text>
     <body>
       <div>
-        <pb n="1" source="Varios_087_1.jpg" facs="fedora_Varios_087_1/full/full/0/default.jpg"/>
+        <pb n="1" source="Varios_087_1.jpg" facs="varios/Varios_087_1.jpg/"/>
+
         <fw type="numeroPliego">(Núm. 77.)</fw>
-        <div>
-          <head type="primer_titulo"><lb/>DECIMAS NUEVAS GLOSADAS,<lb/>PARA CANTAR LOS
-                                    AFICIONADOS.</head>
-          <lg>
-            <l rend="cursiva">Ayer me desembarque</l>
-            <l rend="cursiva">en el muelle de la Habana,</l>
-            <l rend="cursiva">vendiendo la moda ufana</l>
-            <l rend="cursiva">que en Puerto-Rico compré,</l>
-            <l>Fuí teniente en Barcelona</l>
-            <l>y en Valencia regidor,</l>
-            <l>en Cádiz fuí matador</l>
-            <l>y mendigante en Pamplona</l>
-            <l>órden tuve de corona,</l>
-            <l>pero misa no canté,</l>
-            <l>los hábitos arrastré,</l>
-            <l>senté plaza de soldado,</l>
-            <l>y oficial abanderado</l>
-            <l rend="cursiva">ayer me desembarqué.</l>
-            <l>En Málaga fuí sargento</l>
-            <l>de guardas de aquella costa,</l>
-            <l>despues maestro de posta,</l>
-            <l>capitan de un regimiento,</l>
-            <l>coronel fuí, como cuento,</l>
-            <l>y me embarqué una mañana,</l>
-          </lg>
-          <lg>
-            <l>en una fragata ufana,</l>
-            <l>marché de navegacion,</l>
-            <l>y me hallo de comision</l>
-            <l rend="cursiva">en el muelle de la Habana</l>
-            <l>En Cuba fuí pregonero,</l>
-            <l>y chalan en moreria,</l>
-            <l>fui zángano en Almería,</l>
-            <l>en Tolon fuí zapatero,</l>
-            <l>en Nápoles consejero,</l>
-            <l>y mi suerte fué profana,</l>
-            <l>de sacristan en Santa Ana,</l>
-            <l>en Veracruz contratante,</l>
-            <l>y hoy me hallo comerciante,</l>
-            <l rend="cursiva">vendiendo la moda ufana.</l>
-            <l>Fui general en Matanza</l>
-            <l>y en Santo Domingo fraile,</l>
-            <l>intendente en Buenos-Aires,</l>
-            <l>en Lóndres maestro de danza,</l>
-            <l>en Valladolid por chanza</l>
-            <l>manteo de cura tomé,</l>
-          </lg>
-          <pb n="2" source="Varios_087_2.jpg" facs="fedora_Varios_087_2/full/full/0/default.jpg"/>
-          <lg>
-            <l>y de allí, no se por qué,</l>
-            <l>fuí de mandarin á China,</l>
-            <l>y me hallo vendiendo larina</l>
-            <l rend="cursiva">que en Puerto-Ricó compré.</l>
-            <l rend="cursiva">Estando eñ misa un soldado</l>
-            <l rend="cursiva">en un naipe entretenido,</l>
-            <l rend="cursiva">le reprendió su sargento,</l>
-            <l rend="cursiva">y él hizo el desentendido.</l>
-            <l>Al capitan le acusó</l>
-            <l>el sargento al mismo instante,</l>
-            <l>y con humildad bastante</l>
-            <l>de esta suerte se explicó:</l>
-            <l>Señor, el naipe que yo</l>
-            <l>en la iglesia he barajado</l>
-            <l>en él tengo yo cifrado</l>
-            <l>un libro muy singular,</l>
-            <l>el cual se puso á explicar</l>
-            <l rend="cursiva">estando en misa un soldado.</l>
-            <l>Miro en elas, muy ufano,</l>
-            <l>en él un Dios verdadero;</l>
-            <l>en el dos, yo considero</l>
-            <l>lo divino con lo humano;</l>
-            <l>en el tres, como cristiano,</l>
-            <l>el Misterio he comprendido</l>
-            <l>en el cuatro, he conocido</l>
-            <l>los procederes del hombre,</l>
-            <l>contemplaba en Dios y Hombre</l>
-            <l rend="cursiva">en un naipe entretenido.</l>
-            <l>En el cinco contemplaba</l>
-            <l>las llagas del Redentor;</l>
-            <l>y con crecido dolor</l>
-            <l>las lágrimas derramaba,</l>
-            <l>sobre si seis golpes daba</l>
-            <l>con el mayor sentimiento;</l>
-            <l>ví en el siete muy atento</l>
-            <l>los dolores de Maria,</l>
-            <l>mas sin saber le que hacia</l>
-            <l rend="cursiva">le reprendió su sargento:</l>
-            <l>A las bienaventuranzas</l>
-            <l>de una á ocho esplicaba;</l>
-            <l>en el nueve contemplaba</l>
-            <l>los nueve coros de gloria</l>
-            <l>el caballo por memoria</l>
-            <l>de la reina Sabat miro;</l>
-            <l>el rey por un Dios divino,</l>
-          </lg>
-          <lg>
-            <l>la sota nada observó:</l>
-            <l>el capitan le escuchó,</l>
-            <l rend="cursiva">y él hizo el desentendido.</l>
-            <l rend="cursiva">Adios, madre de mi vida</l>
-            <l rend="cursiva">tronco de todas mis ramas</l>
-            <l rend="cursiva">ya se va el hijo querido</l>
-            <l rend="cursiva">nacido de tus entrañas.</l>
-            <l>Ya me despido, señora</l>
-            <l>madre de mi corazon,</l>
-            <l>écheme la bendicion</l>
-            <l>que ya es llegada la hora;</l>
-            <l>tan solo mi pecho llora</l>
-            <l>la ausencia de mi partida</l>
-            <l rend="cursiva">adios, hermana querida,</l>
-            <l>no llores ni pases penas</l>
-            <l>que voy á tierras ajenas:</l>
-            <l>adíos, madre de mi vida.</l>
-            <l>Hermano, por Dios te pido</l>
-            <l>consueles á nuestra madre,</l>
-            <l>quedas en lugar de padre,</l>
-            <l>le darás gusto cumplido,</l>
-            <l>mientras yo tan afligido</l>
-            <l>me veo en tan triste calma;</l>
-            <l>adios, hermano del alma,</l>
-            <l>repite mi triste voz;</l>
-            <l>madre, encomiéndame á Dios,</l>
-            <l rend="cursiva">tronco de todas mis ramas.</l>
-            <l>Siento salir de mi pueblo,</l>
-            <l>pero el dejarlo es forzoso,</l>
-            <l>ya se acabó mi reposo</l>
-            <l>y á padecer desde luego;</l>
-            <l>así, señores, les ruego</l>
-            <l>á todo el que haya ofendido,</l>
-            <l>mil veces perdon le pido</l>
-            <l>al verme en tanta afliccion;</l>
-            <l>madre de mi corazon,</l>
-            <l rend="cursiva">ya se va el hijo querido.</l>
-            <l>Por último, me despido</l>
-            <l>dehermanos, primos, parientes,</l>
-            <l>de amigos y demás gentes,</l>
-            <l>y de un amante querido;</l>
-            <l>adios, digo enternecido,</l>
-            <l>que voy á tierras extrañas,</l>
-            <l>a padecer en campaña,</l>
-            <l>mas por eso no me aflijos:</l>
-          </lg>
-          <pb n="3" source="Varios_087_3.jpg" facs="fedora_Varios_087_3/full/full/0/default.jpg"/>
-          <lg>
-            <l>nadre, no olvides al hijo</l>
-            <l rend="cursiva">nacido de tus entrañas.</l>
-            <l rend="cursiva">Regalada prenda mia,</l>
-            <l rend="cursiva">me alegraré que te hallles</l>
-            <l rend="cursiva">con la salud de los dos,</l>
-            <l rend="cursiva">pido al Cielo que te guarde</l>
-            <l>Hermosa bella pintura,</l>
-            <l>deidad, jardin peregrino,</l>
-            <l>á vuestras plantas rendido</l>
-            <l>la remito á tu hermosura</l>
-            <l>esta carta con ternura,</l>
-            <l>porque con mucha alegría</l>
-            <l>en este dichoso dia</l>
-            <l>saber quiero si estás buena,</l>
-            <l>ramillete de azucena,</l>
-            <l rend="cursiva">regalada prenda mia.</l>
-            <l>De mi corazon recibe</l>
-            <l>muy expresivas memorias</l>
-            <l>haciéndotelas notorias</l>
-            <l>por el amor que en mí vive,</l>
-            <l>y te advierto que si escribes.</l>
-            <l>la respuesta que no tarde;</l>
-            <l>y porque el sol no te dañe</l>
-            <l>ni te dé su resplandor,</l>
-            <l>con gran fineza y amor</l>
-            <l rend="cursiva">me alegraré que te halles.</l>
-            <l>Aquí suspendo mi pluma</l>
-            <l>por no mostrar mi dolor,</l>
-            <l>soy tu amante y servidor</l>
-            <l>porque es para mí fortuna,</l>
-            <l>pero si al afumbrar la luna</l>
-            <l>te escribiere, quiera Dios.</l>
-            <l>lo que podreis leer vos,</l>
-            <l>que siempre seré constante,</l>
-            <l>y consérvese un amante</l>
-            <l rend="cursiva">con la salud de los dos.</l>
-            <l>Dulce hechizo de mi vida,</l>
-            <l>yo me hallo sin consuelo,</l>
-            <l>y es porque hallarte no puedo</l>
-            <l>pues que la suerte lo priva:</l>
-            <l>cuando la carta recibas</l>
-            <l>de este desdichado amante,</l>
-            <l>¡qué abrazos quisiera darte</l>
-            <l>con amor y con terneza!</l>
-            <l>y para mayor firmeza</l>
-          </lg>
-          <lg>
-            <l rend="cursiva">pido al cuelo que te guarde.</l>
-            <l rend="cursiva">Hasta morir, alma mia,</l>
-            <l rend="cursiva">he de ser tu fino amante,</l>
-            <l rend="cursiva">y te adoraré constante</l>
-            <l rend="cursiva">con todo el mundo á porfia.</l>
-            <l>La prueba de que te quíero</l>
-            <l>te daré á satisfaccion,</l>
-            <l>que es darte mi corazon</l>
-            <l>con cariño verdadero,</l>
-            <l>es cierto que por tí muero,</l>
-            <l>sin tí no tengo alegria,</l>
-            <l>porque de noche y de dia</l>
-            <l>en mi pensamiento estás,</l>
-            <l>y que te amaré verás</l>
-            <l rend="cursiva">hasta morir, alma mia.</l>
-            <l>Las potenciasme has robado</l>
-            <l>tú eres la hermosa á quien</l>
-            <l>he de cumplir sin vaiven</l>
-            <l>la palabra que te he dado;</l>
-            <l>el mas fino enamorado</l>
-            <l>no estará tan vigilante,</l>
-            <l>y aunque estoy de tí distante</l>
-            <l>no menguarán mis amores:</l>
-            <l>y á pesar de infamadores</l>
-            <l rend="cursiva">he de ser tu fino amante.</l>
-            <l>La prenda de mas valor</l>
-            <l>te quisiera presentar,</l>
-            <l>por ver si querias dar</l>
-            <l>la recompensa á mi amor:</l>
-            <l>tener quisiera el honor</l>
-            <l>de servirte como amante;</l>
-            <l>mi amorno tendrá menguante,</l>
-            <l>y si hubiese quien lo impida</l>
-            <l>sacrificaré mi vida</l>
-            <l rend="cursiva">y te adoraré constante.</l>
-            <l>Es justo que satisfaga</l>
-            <l>tu amor á mi voluntad,</l>
-            <l>pues vemos con claridad</l>
-            <l>que amor con amor se paga;</l>
-            <l>dí lo que quieres que haga,</l>
-            <l>tu voluntad es la mia,</l>
-            <l>en mí no habrá cobardía;</l>
-            <l>mis finezas has de ver,</l>
-            <l>y siempre te he de querer</l>
-            <l rend="cursiva">con todo el mundo á porfia.</l>
-          </lg>
-          <pb n="4" source="Varios_087_4.jpg" facs="fedora_Varios_087_4/full/full/0/default.jpg"/>
-          <lg>
-            <l rend="cursiva">Ahí tienes mi corazon</l>
-            <l rend="cursiva">de pesadumbres marchito,</l>
-            <l rend="cursiva">lo lleva ese pajarito</l>
-            <l rend="cursiva">á darte satisfaccion.</l>
-            <l>Ya puedes con un puñal</l>
-            <l>quitarme la vida aquí,</l>
-            <l>porque no quede de mí</l>
-            <l>memoria, rastro ó señal;</l>
-            <l>pero no, no hagas tal</l>
-            <l>que me matas á traicion,</l>
-            <l>y no esjusto ni razon</l>
-            <l>de tu pensamiento sábio,</l>
-            <l>si quieres vengar tu agravio</l>
-            <l rend="cursiva">ahí tienes mi corazon.</l>
-            <l>Ahí lo verás retratado</l>
-            <l>aunque bien podrás decir</l>
-            <l>que va mucho en presumir</l>
-            <l>de lo vivo á lo pintado;</l>
-            <l>y si lo hallares culpado</l>
-            <l>que tuviese algun delito,</l>
-            <l>á tus manos lo remito</l>
-            <l>para que te vengues de él</l>
-            <l>no porque va en el papel,</l>
-            <l rend="cursiva">de pesadumbres marchito</l>
-            <l>Es mi corazon igual</l>
-            <l>al que estampado te envío,</l>
-            <l>aunque no lo es propio mio</l>
-            <l>copia es del original,</l>
-            <l>y así no le pagues mal</l>
-            <l>que es un triste pobrecito;</l>
-            <l>arrullalo en tu pechito</l>
-            <l>que por tí suspira y llora,</l>
-            <l>y porque lo veas, señora,</l>
-            <l rend="cursiva">lo lleva ese pajarito.</l>
-            <l>Qué dolor tanexcesivo</l>
-            <l>le causa tu espectativa,</l>
-            <l>mas con ánsia de que viva,</l>
-            <l>si tú no le das alivio,</l>
-            <l>considéralo cautivo</l>
-            <l>en tu perfecta prision;</l>
-            <l>te quiero sin dilacion,</l>
-            <l>lo castigas sin violencia,</l>
-            <l>y así viene á tu presencia.</l>
-            <l rend="cursiva">á darte satisface</l>
-          </lg>
-          <lg>
-            <l rend="cursiva">A tus pies. bello lucero</l>
-            <l rend="cursiva">tienes á mi corazon,</l>
-            <l rend="cursiva">con suficiente razon</l>
-            <l rend="cursiva">dándose por prisionero.</l>
-            <l>Luego que ví tu hermosur</l>
-            <l>me puse á considerar</l>
-            <l>si fuere posible hallar</l>
-            <l>igual á ti, criatura,</l>
-            <l>pues tu gracia y hermosura</l>
-            <l>dice el motivo primero</l>
-            <l>que ocasionó mi desvelo,</l>
-            <l>y fué la causa primera</l>
-            <l>que hicieron que me rindiera</l>
-            <l rend="cursiva">á tus pies, bello lucero.</l>
-            <l>Mi pecado es manifiesto,</l>
-            <l>consiste solo en amarte,</l>
-            <l>pues he querido expresarte</l>
-            <l>en este papel molesto,</l>
-            <l>y proseguiré mi intento</l>
-            <l>si me prestas atencion;</l>
-            <l>y así no des ocasion</l>
-            <l>á mi desgraciada suerte,</l>
-            <l>pues con sentencia de muerta</l>
-            <l rend="cursiva">tienes á mi corazon.</l>
-            <l>Nunca fué culpa el amar,</l>
-            <l>y si por culpa lo tienes,</l>
-            <l>y conseguirlo pretendes,</l>
-            <l>perdona mi libertad:</l>
-            <l>yo nunca debo dejar</l>
-            <l>de rendirte adoracion</l>
-            <l>y seguir mi pretension</l>
-            <l>hasta que lo halle logrado,</l>
-            <l>pues estoy enamorado</l>
-            <l rend="cursiva">con suficiente razon.</l>
-            <l>A vista de tu belleza</l>
-            <l>quedó rendido mi pecho,</l>
-            <l>en fuego de amor deshecho</l>
-            <l>se quejaba en su tristeza;</l>
-            <l>y viendo con la destreza</l>
-            <l>que tus hermosos luceros</l>
-            <l>mostraban ser carceleros,</l>
-            <l>para quitar su valor,</l>
-            <l>á tu tribunal pasó</l>
-            <l rend="cursiva">dándose por prisionero.</l>
-          </lg>
-        </div>
+
+        <head type="primer_titulo"><lb/>DECIMAS NUEVAS GLOSADAS,<lb/>PARA CANTAR LOS
+          AFICIONADOS.</head>
+
+        <lg rend="cursiva">
+          <l rend="indent">Ayer me desembarque</l>
+          <l>en el muelle de la Habana,</l>
+          <l>vendiendo la moda ufana</l>
+          <l>que en Puerto-Rico compré,</l>
+        </lg>
+
+        <lg>
+          <l rend="indent">Fuí teniente en Barcelona</l>
+          <l>y en Valencia regidor,</l>
+          <l>en Cádiz fuí matador</l>
+          <l>y mendigante en Pamplona</l>
+          <l>órden tuve de corona,</l>
+          <l>pero misa no canté,</l>
+          <l>los hábitos arrastré,</l>
+          <l>senté plaza de soldado,</l>
+          <l>y oficial abanderado</l>
+          <l rend="cursiva">ayer me desembarqué.</l>
+        </lg>
+
+        <lg>
+          <l rend="indent">En Málaga fuí sargento</l>
+          <l>de guardas de aquella costa,</l>
+          <l>despues maestro de posta,</l>
+          <l>capitan de un regimiento,</l>
+          <l>coronel fuí, como cuento,</l>
+          <l>y me embarqué una mañana,</l>
+          <l>en una fragata ufana,</l>
+          <l>marché de navegacion,</l>
+          <l>y me hallo de comision</l>
+          <l rend="cursiva">en el muelle de la Habana</l>
+        </lg>
+
+        <lg>
+          <l rend="indent">En Cuba fuí pregonero,</l>
+          <l>y chalan en moreria,</l>
+          <l>fui zángano en Almería,</l>
+          <l>en Tolon fuí zapatero,</l>
+          <l>en Nápoles consejero,</l>
+          <l>y mi suerte fué profana,</l>
+          <l>de sacristan en Santa Ana,</l>
+          <l>en Veracruz contratante,</l>
+          <l>y hoy me hallo comerciante,</l>
+          <l rend="cursiva">vendiendo la moda ufana.</l>
+        </lg>
+
+        <lg>
+          <l rend="indent">Fui general en Matanza</l>
+          <l>y en Santo Domingo fraile,</l>
+          <l>intendente en Buenos-Aires,</l>
+          <l>en Lóndres maestro de danza,</l>
+          <l>en Valladolid por chanza</l>
+          <l>manteo de cura tomé,</l>
+
+          <pb n="2" source="Varios_087_2.jpg" facs="varios/Varios_087_2.jpg/"/>
+
+          <l>y de allí, no se por qué,</l>
+          <l>fuí de mandarin á China,</l>
+          <l>y me hallo vendiendo larina</l>
+          <l rend="cursiva">que en Puerto-Ricó compré.</l>
+        </lg>
+
+        <lg rend="cursiva">
+          <l rend="indent">Estando eñ misa un soldado</l>
+          <l>en un naipe entretenido,</l>
+          <l>le reprendió su sargento,</l>
+          <l>y él hizo el desentendido.</l>
+        </lg>
+
+        <lg>
+          <l rend="indent">Al capitan le acusó</l>
+          <l>el sargento al mismo instante,</l>
+          <l>y con humildad bastante</l>
+          <l>de esta suerte se explicó:</l>
+          <l>Señor, el naipe que yo</l>
+          <l>en la iglesia he barajado</l>
+          <l>en él tengo yo cifrado</l>
+          <l>un libro muy singular,</l>
+          <l>el cual se puso á explicar</l>
+          <l rend="cursiva">estando en misa un soldado.</l>
+        </lg>
+
+        <lg>
+          <l rend="indent">Miro en elas, muy ufano,</l>
+          <l>en él un Dios verdadero;</l>
+          <l>en el dos, yo considero</l>
+          <l>lo divino con lo humano;</l>
+          <l>en el tres, como cristiano,</l>
+          <l>el Misterio he comprendido</l>
+          <l>en el cuatro, he conocido</l>
+          <l>los procederes del hombre,</l>
+          <l>contemplaba en Dios y Hombre</l>
+          <l rend="cursiva">en un naipe entretenido.</l>
+        </lg>
+
+        <lg>
+          <l rend="indent">En el cinco contemplaba</l>
+          <l>las llagas del Redentor;</l>
+          <l>y con crecido dolor</l>
+          <l>las lágrimas derramaba,</l>
+          <l>sobre si seis golpes daba</l>
+          <l>con el mayor sentimiento;</l>
+          <l>ví en el siete muy atento</l>
+          <l>los dolores de Maria,</l>
+          <l>mas sin saber le que hacia</l>
+          <l rend="cursiva">le reprendió su sargento:</l>
+        </lg>
+
+        <lg>
+          <l rend="indent">A las bienaventuranzas</l>
+          <l>de una á ocho esplicaba;</l>
+          <l>en el nueve contemplaba</l>
+          <l>los nueve coros de gloria</l>
+          <l>el caballo por memoria</l>
+          <l>de la reina Sabat miro;</l>
+          <l>el rey por un Dios divino,</l>
+          <l>la sota nada observó:</l>
+          <l>el capitan le escuchó,</l>
+          <l rend="cursiva">y él hizo el desentendido.</l>
+        </lg>
+
+        <lg rend="cursiva">
+          <l rend="indent">Adios, madre de mi vida</l>
+          <l>tronco de todas mis ramas</l>
+          <l>ya se va el hijo querido</l>
+          <l>nacido de tus entrañas.</l>
+        </lg>
+
+
+        <lg>
+          <l rend="indent">Ya me despido, señora</l>
+          <l>madre de mi corazon,</l>
+          <l>écheme la bendicion</l>
+          <l>que ya es llegada la hora;</l>
+          <l>tan solo mi pecho llora</l>
+          <l>la ausencia de mi partida</l>
+          <l>adios, hermana querida,</l>
+          <l>no llores ni pases penas</l>
+          <l>que voy á tierras ajenas:</l>
+          <l rend="cursiva">adíos, madre de mi vida.</l>
+        </lg>
+
+        <lg>
+          <l rend="indent">Hermano, por Dios te pido</l>
+          <l>consueles á nuestra madre,</l>
+          <l>quedas en lugar de padre,</l>
+          <l>le darás gusto cumplido,</l>
+          <l>mientras yo tan afligido</l>
+          <l>me veo en tan triste calma;</l>
+          <l>adios, hermano del alma,</l>
+          <l>repite mi triste voz;</l>
+          <l>madre, encomiéndame á Dios,</l>
+          <l rend="cursiva">tronco de todas mis ramas.</l>
+        </lg>
+
+        <lg>
+          <l rend="indent">Siento salir de mi pueblo,</l>
+          <l>pero el dejarlo es forzoso,</l>
+          <l>ya se acabó mi reposo</l>
+          <l>y á padecer desde luego;</l>
+          <l>así, señores, les ruego</l>
+          <l>á todo el que haya ofendido,</l>
+          <l>mil veces perdon le pido</l>
+          <l>al verme en tanta afliccion;</l>
+          <l>madre de mi corazon,</l>
+          <l rend="cursiva">ya se va el hijo querido.</l>
+        </lg>
+
+        <lg>
+          <l rend="indent">Por último, me despido</l>
+          <l>dehermanos, primos, parientes,</l>
+          <l>de amigos y demás gentes,</l>
+          <l>y de un amante querido;</l>
+          <l>adios, digo enternecido,</l>
+          <l>que voy á tierras extrañas,</l>
+          <l>a padecer en campaña,</l>
+          <l>mas por eso no me aflijos:</l>
+
+          <pb n="3" source="Varios_087_3.jpg" facs="varios/Varios_087_3.jpg/"/>
+
+          <l>nadre, no olvides al hijo</l>
+          <l rend="cursiva">nacido de tus entrañas.</l>
+        </lg>
+
+        <lg rend="cursiva">
+          <l rend="indent">Regalada prenda mia,</l>
+          <l>me alegraré que te hallles</l>
+          <l>con la salud de los dos,</l>
+          <l>pido al Cielo que te guarde.</l>
+        </lg>
+
+        <lg>
+          <l rend="indent">Hermosa bella pintura,</l>
+          <l>deidad, jardin peregrino,</l>
+          <l>á vuestras plantas rendido</l>
+          <l>la remito á tu hermosura</l>
+          <l>esta carta con ternura,</l>
+          <l>porque con mucha alegría</l>
+          <l>en este dichoso dia</l>
+          <l>saber quiero si estás buena,</l>
+          <l>ramillete de azucena,</l>
+          <l rend="cursiva">regalada prenda mia.</l>
+        </lg>
+
+        <lg>
+          <l rend="indent">De mi corazon recibe</l>
+          <l>muy expresivas memorias</l>
+          <l>haciéndotelas notorias</l>
+          <l>por el amor que en mí vive,</l>
+          <l>y te advierto que si escribes.</l>
+          <l>la respuesta que no tarde;</l>
+          <l>y porque el sol no te dañe</l>
+          <l>ni te dé su resplandor,</l>
+          <l>con gran fineza y amor</l>
+          <l rend="cursiva">me alegraré que te halles.</l>
+        </lg>
+
+        <lg>
+          <l rend="indent">Aquí suspendo mi pluma</l>
+          <l>por no mostrar mi dolor,</l>
+          <l>soy tu amante y servidor</l>
+          <l>porque es para mí fortuna,</l>
+          <l>pero si al afumbrar la luna</l>
+          <l>te escribiere, quiera Dios.</l>
+          <l>lo que podreis leer vos,</l>
+          <l>que siempre seré constante,</l>
+          <l>y consérvese un amante</l>
+          <l rend="cursiva">con la salud de los dos.</l>
+        </lg>
+
+        <lg>
+          <l rend="indent">Dulce hechizo de mi vida,</l>
+          <l>yo me hallo sin consuelo,</l>
+          <l>y es porque hallarte no puedo</l>
+          <l>pues que la suerte lo priva:</l>
+          <l>cuando la carta recibas</l>
+          <l>de este desdichado amante,</l>
+          <l>¡qué abrazos quisiera darte</l>
+          <l>con amor y con terneza!</l>
+          <l>y para mayor firmeza</l>
+          <l rend="cursiva">pido al cuelo que te guarde.</l>
+        </lg>
+
+        <lg rend="cursiva">
+          <l>Hasta morir, alma mia,</l>
+          <l>he de ser tu fino amante,</l>
+          <l>y te adoraré constante</l>
+          <l>con todo el mundo á porfia.</l>
+        </lg>
+
+        <lg>
+          <l rend="indent">La prueba de que te quíero</l>
+          <l>te daré á satisfaccion,</l>
+          <l>que es darte mi corazon</l>
+          <l>con cariño verdadero,</l>
+          <l>es cierto que por tí muero,</l>
+          <l>sin tí no tengo alegria,</l>
+          <l>porque de noche y de dia</l>
+          <l>en mi pensamiento estás,</l>
+          <l>y que te amaré verás</l>
+          <l rend="cursiva">hasta morir, alma mia.</l>
+        </lg>
+
+        <lg>
+          <l rend="indent">Las potenciasme has robado</l>
+          <l>tú eres la hermosa á quien</l>
+          <l>he de cumplir sin vaiven</l>
+          <l>la palabra que te he dado;</l>
+          <l>el mas fino enamorado</l>
+          <l>no estará tan vigilante,</l>
+          <l>y aunque estoy de tí distante</l>
+          <l>no menguarán mis amores:</l>
+          <l>y á pesar de infamadores</l>
+          <l rend="cursiva">he de ser tu fino amante.</l>
+        </lg>
+
+        <lg>
+          <l rend="indent">La prenda de mas valor</l>
+          <l>te quisiera presentar,</l>
+          <l>por ver si querias dar</l>
+          <l>la recompensa á mi amor:</l>
+          <l>tener quisiera el honor</l>
+          <l>de servirte como amante;</l>
+          <l>mi amorno tendrá menguante,</l>
+          <l>y si hubiese quien lo impida</l>
+          <l>sacrificaré mi vida</l>
+          <l rend="cursiva">y te adoraré constante.</l>
+        </lg>
+
+        <lg>
+          <l rend="indent">Es justo que satisfaga</l>
+          <l>tu amor á mi voluntad,</l>
+          <l>pues vemos con claridad</l>
+          <l>que amor con amor se paga;</l>
+          <l>dí lo que quieres que haga,</l>
+          <l>tu voluntad es la mia,</l>
+          <l>en mí no habrá cobardía;</l>
+          <l>mis finezas has de ver,</l>
+          <l>y siempre te he de querer</l>
+          <l rend="cursiva">con todo el mundo á porfia.</l>
+        </lg>
+
+        <pb n="4" source="Varios_087_4.jpg" facs="varios/Varios_087_4.jpg/"/>
+
+        <lg rend="cursiva">
+          <l rend="indent">Ahí tienes mi corazon</l>
+          <l>de pesadumbres marchito,</l>
+          <l>lo lleva ese pajarito</l>
+          <l>á darte satisfaccion.</l>
+        </lg>
+
+        <lg>
+          <l rend="indent">Ya puedes con un puñal</l>
+          <l>quitarme la vida aquí,</l>
+          <l>porque no quede de mí</l>
+          <l>memoria, rastro ó señal;</l>
+          <l>pero no, no hagas tal</l>
+          <l>que me matas á traicion,</l>
+          <l>y no esjusto ni razon</l>
+          <l>de tu pensamiento sábio,</l>
+          <l>si quieres vengar tu agravio</l>
+          <l rend="cursiva">ahí tienes mi corazon.</l>
+        </lg>
+
+        <lg>
+          <l rend="indent">Ahí lo verás retratado</l>
+          <l>aunque bien podrás decir</l>
+          <l>que va mucho en presumir</l>
+          <l>de lo vivo á lo pintado;</l>
+          <l>y si lo hallares culpado</l>
+          <l>que tuviese algun delito,</l>
+          <l>á tus manos lo remito</l>
+          <l>para que te vengues de él</l>
+          <l>no porque va en el papel,</l>
+          <l rend="cursiva">de pesadumbres marchito</l>
+        </lg>
+
+        <lg>
+          <l rend="indent">Es mi corazon igual</l>
+          <l>al que estampado te envío,</l>
+          <l>aunque no lo es propio mio</l>
+          <l>copia es del original,</l>
+          <l>y así no le pagues mal</l>
+          <l>que es un triste pobrecito;</l>
+          <l>arrullalo en tu pechito</l>
+          <l>que por tí suspira y llora,</l>
+          <l>y porque lo veas, señora,</l>
+          <l rend="cursiva">lo lleva ese pajarito.</l>
+        </lg>
+
+        <lg>
+          <l rend="indent">Qué dolor tanexcesivo</l>
+          <l>le causa tu espectativa,</l>
+          <l>mas con ánsia de que viva,</l>
+          <l>si tú no le das alivio,</l>
+          <l>considéralo cautivo</l>
+          <l>en tu perfecta prision;</l>
+          <l>te quiero sin dilacion,</l>
+          <l>lo castigas sin violencia,</l>
+          <l>y así viene á tu presencia.</l>
+          <l rend="cursiva">á darte satisface</l>
+        </lg>
+
+        <lg>
+          <l rend="cursiva">A tus pies. bello lucero</l>
+          <l rend="cursiva">tienes á mi corazon,</l>
+          <l rend="cursiva">con suficiente razon</l>
+          <l rend="cursiva">dándose por prisionero.</l>
+        </lg>
+
+        <lg>
+          <l rend="indent">Luego que ví tu hermosur</l>
+          <l>me puse á considerar</l>
+          <l>si fuere posible hallar</l>
+          <l>igual á ti, criatura,</l>
+          <l>pues tu gracia y hermosura</l>
+          <l>dice el motivo primero</l>
+          <l>que ocasionó mi desvelo,</l>
+          <l>y fué la causa primera</l>
+          <l>que hicieron que me rindiera</l>
+          <l rend="cursiva">á tus pies, bello lucero.</l>
+        </lg>
+
+        <lg>
+          <l rend="indent">Mi pecado es manifiesto,</l>
+          <l>consiste solo en amarte,</l>
+          <l>pues he querido expresarte</l>
+          <l>en este papel molesto,</l>
+          <l>y proseguiré mi intento</l>
+          <l>si me prestas atencion;</l>
+          <l>y así no des ocasion</l>
+          <l>á mi desgraciada suerte,</l>
+          <l>pues con sentencia de muerta</l>
+          <l rend="cursiva">tienes á mi corazon.</l>
+        </lg>
+
+        <lg>
+          <l rend="indent">Nunca fué culpa el amar,</l>
+          <l>y si por culpa lo tienes,</l>
+          <l>y conseguirlo pretendes,</l>
+          <l>perdona mi libertad:</l>
+          <l>yo nunca debo dejar</l>
+          <l>de rendirte adoracion</l>
+          <l>y seguir mi pretension</l>
+          <l>hasta que lo halle logrado,</l>
+          <l>pues estoy enamorado</l>
+          <l rend="cursiva">con suficiente razon.</l>
+        </lg>
+
+        <lg>
+          <l rend="indent">A vista de tu belleza</l>
+          <l>quedó rendido mi pecho,</l>
+          <l>en fuego de amor deshecho</l>
+          <l>se quejaba en su tristeza;</l>
+          <l>y viendo con la destreza</l>
+          <l>que tus hermosos luceros</l>
+          <l>mostraban ser carceleros,</l>
+          <l>para quitar su valor,</l>
+          <l>á tu tribunal pasó</l>
+          <l rend="cursiva">dándose por prisionero.</l>
+        </lg>
+
       </div>
     </body>
   </text>

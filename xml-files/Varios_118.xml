@@ -1,18 +1,17 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../Schema/oddPliego_varios.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:alto="http://www.loc.gov/standards/alto/ns-v4#" xml:id="Varios_118">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Varios_118">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>COPLAS NUEVAS GLOSADAS EN DECIMAS, Y UNOS TROBOS DIVERTIDOS.</title>
+        <title>COPLAS NUEVAS GLOSADAS EN DECIMAS</title>
         <respStmt>
           <name/>
           <resp>Codificación TEI</resp>
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <authority role="rightsHolder">Bibliothèque Universitaire de
-                              Genève</authority>
+        <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
         <availability status="restricted">
           <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
         </availability>
@@ -20,17 +19,17 @@
       <sourceDesc>
         <biblFull>
           <titleStmt>
-            <title type="titulo_completo">COPLAS NUEVAS GLOSADAS EN DECIMAS,
-                                          Y UNOS TROBOS DIVERTIDOS.</title>
-            <title type="titulo_breve">GLOSADAS EN DECIMAS</title>
+            <title type="titulo_completo">COPLAS NUEVAS GLOSADAS EN DECIMAS, Y UNOS TROBOS
+              DIVERTIDOS.</title>
+            <title type="titulo_breve">COPLAS NUEVAS GLOSADAS EN DECIMAS</title>
           </titleStmt>
           <editionStmt>
             <p/>
           </editionStmt>
           <publicationStmt>
-            <publisher>José M. Marès</publisher>
+            <publisher>José María Marés</publisher>
             <pubPlace ref="https://www.geonames.org/3117735/madrid.html">Madrid</pubPlace>
-            <date cert="high">1844</date>
+            <date cert="high" when="1844-01-01">1844</date>
           </publicationStmt>
         </biblFull>
         <msDesc>
@@ -38,7 +37,8 @@
             <country>Suisse</country>
             <settlement>Genève</settlement>
             <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"/>
-                                    </repository>
+            </repository>
+            <collection>Colección Varios</collection>
             <idno type="cote"/>
             <idno type="DOI">10.5281/zenodo.6577102</idno>
             <altIdentifier>
@@ -46,10 +46,30 @@
             </altIdentifier>
           </msIdentifier>
           <msContents>
-            <summary/>
+            <summary>Coplas y trovos</summary>
             <msItem>
-              <locus/>
-              <title/>
+              <locus>1-3</locus>
+              <title>COPLAS NUEVAS GLOSADAS EN DECIMAS, Y UNOS TROBOS DIVERTIDOS</title>
+            </msItem>
+            <msItem>
+              <locus>3</locus>
+              <title>Trovo I.</title>
+            </msItem>
+            <msItem>
+              <locus>3</locus>
+              <title>Trovo II.</title>
+            </msItem>
+            <msItem>
+              <locus>3-4</locus>
+              <title>Trovo III.</title>
+            </msItem>
+            <msItem>
+              <locus>4</locus>
+              <title>Trovo IV.</title>
+            </msItem>
+            <msItem>
+              <locus>4</locus>
+              <title>Trovo V.</title>
             </msItem>
           </msContents>
           <physDesc>
@@ -67,7 +87,7 @@
               </layoutDesc>
             </objectDesc>
             <decoDesc>
-              <summary n="1">Uno grabado (p.1) </summary>
+              <summary n="1">Un grabado (p.1)</summary>
               <decoNote type="lista_grabados">
                 <list>
                   <item corresp="grabado_v_118_1.xml">grabado_v_118_1</item>
@@ -88,18 +108,17 @@
     </fileDesc>
     <encodingDesc>
       <projectDesc>
-        <p>Este archivo fue creado en el marco del proyecto Desenrollando el
-                              Cordel/Démêler le cordel/Untangling the cordel, dirigido por la
-                              profesora Constance Carta de la Universidad de Ginebra, con el apoyo
-                              de la Fundación filantrópica Famille Sandoz-Monique de Meuron.</p>
+        <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+          cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la Universidad
+          de Ginebra, con el apoyo de la Fundación filantrópica Famille Sandoz-Monique de
+          Meuron.</p>
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR non corregido</p>
+          <p>OCR no corregido</p>
         </correction>
         <normalization>
-          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto
-                                    original.</p>
+          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
         </normalization>
         <punctuation>
           <p>Se conserva la puntuación original.</p>
@@ -122,10 +141,14 @@
       </textClass>
     </profileDesc>
     <revisionDesc>
-      <change when="2022-08-03" who="#PJ">Création du fichier TEI P5 et encodage du
-                        corps du texte</change>
+      <change when="2022-08-03" who="#PJ">Création du fichier TEI P5 et encodage du corps du
+        texte</change>
+      <change when="2024-01-09" who="#EL">Add the IIIF links</change>
     </revisionDesc>
   </teiHeader>
+  <facsimile>
+    <graphic url="varios/Varios_118_1.jpg/full/200,/0/default.jpg"/>
+  </facsimile>
   <sourceDoc xml:id="automaticTranscription">
     <surface xml:id="Varios_118_1" type="page" cert="silver">
       <graphic url="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_118_1/full/full/0/default.jpg"/>
@@ -700,7 +723,7 @@
       </zone>
       <zone xml:id="Varios_118_3_BT227_2" n="2" type="MainZone" subtype="columns" points="945,1877 945,2099 934,2099 934,2353 283,2313 293,1567 303,1486 344,1463 313,1453 313,1284 394,1203 556,1150 524,1143 863,1143 863,1186 937,1186 937,1482 950,1482 950,1877 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_118_3/283,1143,667,1210/full/0/default" corresp="MainZone:columns">
         <zone xml:id="Varios_118_3_BT227_2_LT84_1" type="DefaultLine" subtype="none" points="571,1190 571,1130 809,1140 809,1195 804,1211 566,1203 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_118_3/566,1130,243,81/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_118_3_BT227_2_LT84_1_1" points="574,1193 812,1198 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
+          <path xml:id="Varios_118_3_BT227_2_LT84_1_1" points="574,1193 812,1198 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
           <line>TROVO I.</line>
         </zone>
         <zone xml:id="Varios_118_3_BT227_2_LT83_2" type="DefaultLine" subtype="none" points="397,1271 397,1211 592,1236 667,1226 703,1223 703,1223 705,1223 705,1223 708,1223 708,1223 728,1231 753,1241 774,1233 796,1226 799,1226 799,1226 799,1226 802,1226 802,1226 802,1226 804,1226 804,1226 807,1226 824,1236 837,1243 903,1243 908,1286 903,1307 392,1294 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_118_3/392,1211,516,96/full/0/default" corresp="DefaultLine">
@@ -804,7 +827,7 @@
       </zone>
       <zone xml:id="Varios_118_3_BT227_4" n="4" type="MainZone" subtype="columns" points="1631,503 1702,546 1712,606 1662,968 1763,1051 1733,1254 1753,1463 1641,1779 1644,1798 1016,1798 1016,1482 1026,1482 1026,1186 1042,1186 1042,969 1049,969 1049,553 1057,553 1057,515 1261,515 1261,451 1652,451 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_118_3/1016,451,747,1347/full/0/default" corresp="MainZone:columns">
         <zone xml:id="Varios_118_3_BT227_4_LT84_1" type="DefaultLine" subtype="none" points="1297,485 1297,429 1550,437 1550,485 1548,505 1295,503 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_118_3/1295,429,255,76/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_118_3_BT227_4_LT84_1_1" points="1300,487 1553,487 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
+          <path xml:id="Varios_118_3_BT227_4_LT84_1_1" points="1300,487 1553,487 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
           <line>TROVO II.</line>
         </zone>
         <zone xml:id="Varios_118_3_BT227_4_LT83_2" type="DefaultLine" subtype="none" points="1138,571 1138,515 1214,533 1396,538 1414,530 1424,525 1424,525 1424,525 1426,525 1426,525 1429,525 1429,525 1429,525 1432,525 1432,525 1432,525 1434,525 1434,525 1434,528 1437,528 1439,530 1447,543 1672,546 1672,594 1667,616 1133,594 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_118_3/1133,515,539,101/full/0/default" corresp="DefaultLine">
@@ -906,7 +929,7 @@
       </zone>
       <zone xml:id="Varios_118_3_BT227_5" n="5" type="MainZone" subtype="columns" points="1662,1929 1601,2343 1272,2374 985,2356 985,2120 978,2120 978,2028 998,2028 998,1921 1016,1921 1016,1821 1647,1821 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_118_3/978,1821,684,553/full/0/default" corresp="MainZone:columns">
         <zone xml:id="Varios_118_3_BT227_5_LT84_1" type="DefaultLine" subtype="none" points="1229,1850 1229,1790 1492,1807 1492,1858 1487,1873 1224,1868 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_118_3/1224,1790,268,83/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_118_3_BT227_5_LT84_1_1" points="1232,1853 1495,1860 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
+          <path xml:id="Varios_118_3_BT227_5_LT84_1_1" points="1232,1853 1495,1860 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
           <line>TROVO III.</line>
         </zone>
         <zone xml:id="Varios_118_3_BT227_5_LT83_2" type="DefaultLine" subtype="none" points="1072,1893 1072,1835 1199,1855 1313,1850 1351,1850 1353,1850 1353,1850 1406,1858 1464,1865 1472,1863 1492,1853 1492,1853 1495,1853 1495,1853 1495,1853 1497,1853 1497,1853 1614,1873 1614,1916 1609,1936 1067,1913 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_118_3/1067,1835,547,101/full/0/default" corresp="DefaultLine">
@@ -1047,7 +1070,7 @@
       </zone>
       <zone xml:id="Varios_118_4_BT227_3" n="3" type="MainZone" subtype="columns" points="1109,1272 1109,1403 1229,1403 1229,1455 1181,1455 1181,1561 1165,1561 1165,1754 1084,1754 1084,1839 1234,1839 1234,1910 1151,1910 1151,2015 566,2020 516,1193 547,1171 708,1171 708,1061 1065,1061 1006,1120 1075,1144 1075,1188 1196,1188 1196,1272 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_118_4/516,1061,718,959/full/0/default" corresp="MainZone:columns">
         <zone xml:id="Varios_118_4_BT227_3_LT84_1" type="DefaultLine" subtype="none" points="733,1120 726,1069 1001,1061 1009,1112 1009,1130 733,1140 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_118_4/726,1061,283,79/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_118_4_BT227_3_LT84_1_1" points="733,1120 1009,1112 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
+          <path xml:id="Varios_118_4_BT227_3_LT84_1_1" points="733,1120 1009,1112 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
           <line>TROVO IV.</line>
         </zone>
         <zone xml:id="Varios_118_4_BT227_3_LT83_2" type="DefaultLine" subtype="none" points="594,1211 589,1142 700,1142 700,1142 700,1142 703,1142 703,1142 703,1142 705,1142 705,1142 708,1145 731,1163 933,1163 953,1152 979,1142 979,1142 981,1142 981,1142 981,1142 984,1142 984,1142 1060,1157 1065,1200 1062,1223 594,1236 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_118_4/589,1142,476,94/full/0/default" corresp="DefaultLine">
@@ -1117,7 +1140,7 @@
       </zone>
       <zone xml:id="Varios_118_4_BT227_4" n="4" type="MainZone" subtype="columns" points="1763,776 1854,809 1803,1150 1884,1254 1874,1423 1915,1506 1854,1658 1834,1908 1803,1969 1672,2010 1266,2014 1266,1910 1261,1910 1261,1791 1254,1791 1254,1754 1238,1754 1238,1577 1240,1577 1240,1387 1236,1387 1236,1272 1228,1272 1228,1096 1216,1096 1216,709 1748,709 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_118_4/1216,709,699,1305/full/0/default" corresp="MainZone:columns">
         <zone xml:id="Varios_118_4_BT227_4_LT84_1" type="DefaultLine" subtype="none" points="1432,755 1432,712 1697,712 1697,755 1697,768 1432,768 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_118_4/,,,/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_118_4_BT227_4_LT84_1_1" points="1434,758 1699,756 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
+          <path xml:id="Varios_118_4_BT227_4_LT84_1_1" points="1434,758 1699,756 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
           <line>TROVO V.</line>
         </zone>
         <zone xml:id="Varios_118_4_BT227_4_LT83_2" type="DefaultLine" subtype="none" points="1285,849 1277,809 1305,793 1305,793 1305,793 1308,793 1308,793 1308,793 1310,793 1487,804 1558,791 1558,791 1558,791 1561,791 1801,804 1806,844 1806,859 1285,862 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_118_4/1277,791,529,71/full/0/default" corresp="DefaultLine">
@@ -1234,325 +1257,371 @@
   <text>
     <body>
       <div>
-        <pb n="1" source="Varios_118_1.jpg" facs="fedora_Varios_118_1/full/full/0/default.jpg"/>
-        <fw type="impresorNum">(Núm. 59.)</fw>
-        <div type="parte" n="1">
-          <head type="primer_titulo"><lb/>COPLAS NUEVAS<lb/>GLOSADAS EN DECIMAS,<lb/>Y UNOS TROBOS
-                                    DIVERTIDOS.</head>
-          <lg rend="cursiva">
-            <l>Para hambre un presidiario,</l>
-            <l>para cruz la de un soldado,</l>
-            <l>para astuto un alguacil,</l>
-            <l>para paciencia un casado.</l>
-          </lg>
-          <lg>
-            <l>Maginarias y cadenas,</l>
-            <l>muy repetidas las listas,</l>
-            <l>revistas y mas revistas</l>
-            <l>son sus ordinarias penas :</l>
-            <l>de aire las barrigas llenas,</l>
-            <l>de palos un prontuario,</l>
-            <l>de males es un sumario</l>
-            <l>y muy poco de comer;</l>
-            <l>al estremo llega á ser;</l>
-            <l rend="cursiva">para hambre un presidiario.</l>
-            <l>Desde el cabo al capitan,</l>
-            <l>del teniente al coronel,</l>
-          </lg>
-          <lg>
-            <l>dentro y fuera del cuartel</l>
-            <l>en contra el soldado van;</l>
-            <l>por un miserable pan</l>
-            <l>y un rancho muy mal guisado,</l>
-            <l>siempre con el fusil cargado,</l>
-            <l>garrotazos à la par;</l>
-            <l>dice bien aquel cantar,</l>
-            <l rend="cursiva">pára cruz la de un soldado.</l>
-            <l>Siempre anda vigilante</l>
-            <l>por si algo puede pescar,</l>
-            <l>multas haciendo pager,</l>
-            <l>gritando como un gigante,</l>
-            <l>y en su proceder constante,</l>
-            <l>en su trato varonil</l>
-            <l>algunos hay entre mil,</l>
-            <l>pues es tal su condicion</l>
-          </lg>
-          <pb n="2" source="Varios_118_2.jpg" facs="fedora_Varios_118_2/full/full/0/default.jpg"/>
-          <lg>
-            <l>que por la misma razon</l>
-            <l rend="cursiva">para astuto un alguacil.</l>
-            <l>Un padecer infinito</l>
-            <l>tiene el hombre en su mager;</l>
-            <l>si este se llega á encoger</l>
-            <l>al punto lo hace cabrito :</l>
-            <l>tan manso està el pobrecito,</l>
-            <l>que aun el hablar no le es dado,</l>
-            <l>cavilando el desdichado</l>
-            <l>entre esperar y gemir,</l>
-            <l>de aqui sale aquel decir</l>
-            <l rend="cursiva">para paciencia un casado.</l>
-          </lg>
-          <lg rend="cursiva">
-            <l>En dándome de almorzar,</l>
-            <l>de comer al medio dia,</l>
-            <l>y de cenar á la noche,</l>
-            <l>me atrevo á pasar el dia.</l>
-          </lg>
-          <lg>
-            <l>Si acaso alguna muger</l>
-            <l>pretende que yo la quiera,</l>
-            <l>toda una semana entera</l>
-            <l>me ha de dar bien de comer,</l>
-            <l>y tambien para beber,</l>
-            <l>dinero para gastar,</l>
-            <l>con amor me ha de tratar,</l>
-            <l>y no me ha de armar quimera,</l>
-            <l>y dejaré que me quiera</l>
-            <l rend="cursiva">en dándome de almorzar.</l>
-            <l>Me ha de calzar y vestir</l>
-            <l>de una ropita muy fina,</l>
-            <l>buen capon, buena gallina,</l>
-            <l>buen catre para dormir:</l>
-            <l>tambien me ha de preferir</l>
-            <l>una gran botillería,</l>
-            <l>de licor buena bebida</l>
-            <l>para poder yo brindar;</l>
-            <l>tambien me tiene que dar</l>
-            <l rend="cursiva">de comer al medio dia.</l>
-            <l>Un page me ha de buscar</l>
-            <l>que venga siempre á mi lado,</l>
-            <l>que me sirva con agrado</l>
-            <l>lo que yo quiera mandar:</l>
-            <l>cusndo vaya à pascar</l>
-            <l>me ha de llevar en birlecho</l>
-            <l>en un caballo ó en coche,</l>
-            <l>á la comedia y al baile,</l>
-            <l>buen refresco por la tarde,</l>
-            <l rend="cursiva">y de cenar por la noche.</l>
-            <l>Me ha de tener en sus brazos,</l>
-            <l>me ha de cantar ¡ah bonito!</l>
-            <l>Con todo su requisito</l>
-            <l>me dormiré en su regazo,</l>
-            <l>y sin ningun embarazo,</l>
-            <l>con gran placer y alegria,</l>
-            <l>diciéndeme, vida mia,</l>
-            <l>tú eres mi dueño adorado,</l>
-            <l>y en cumpliendo la tratado</l>
-            <l>me atrevo á pasar el dia.</l>
-          </lg>
-          <lg rend="cursiva">
-            <l>Qué largas las horas con</l>
-            <l>en el reloj de mi afan,</l>
-            <l>y què poco á poco dan</l>
-            <l>alivio á mi corazon.</l>
-          </lg>
-          <lg>
-            <l>Para míno hay sol ni luna,</l>
-            <l>noche, mañana ni dia,</l>
-            <l>pensando en tí, vida mia,</l>
-            <l>persiguiendo mi fortuna;</l>
-            <l>pienso á las dos y á la una,</l>
-            <l>pongo en tí sola aficion,</l>
-            <l>te entrego mi corazon,</l>
-            <l>á las tres busco la suerte,</l>
-            <l>vida mia, para verte;</l>
-            <l rend="cursiva">qué largas las horas son.</l>
-            <l>Con tanto amor te idolatro,</l>
-            <l>y con tal fé te venero,</l>
-            <l>las tres potencias te entrego</l>
-            <l>á las cinco y à las cuatro ;</l>
-            <l>los sentidos con recato</l>
-            <l>mis cariños en tí están,</l>
-            <l>y las seis ya llegarán</l>
-            <l>solo por ver tu hermosura,</l>
-            <l>porque no hay hora segura</l>
-            <l rend="cursiva">en el reloj de mi afan.</l>
-            <l>No hay rigor que me sujete,</l>
-            <l>pensando en tí me desvelo,</l>
-          </lg>
-          <pb n="3" source="Varios_118_3.jpg" facs="fedora_Varios_118_3/full/full/0/default.jpg"/>
-          <lg>
-            <l>porque el reloj de mi anhelo</l>
-            <l>me tiene pronto á las siete;</l>
-            <l>á las ocho me promete</l>
-            <l>qué mis penas cesaràn</l>
-            <l>y que á las nueve seràn</l>
-            <l>mis fatigas bien pesadas,</l>
-            <l>¡qué horas tan desgraciadas!</l>
-            <l rend="cursiva">y què poco á poco dan.</l>
-            <l>Señora, bien cierto es</l>
-            <l>que la noche paso en vela</l>
-            <l>en contínua centinela</l>
-            <l>solo por verte à las diez;</l>
-            <l>à las once pienso que es</l>
-            <l>bien pagada mi aficion,</l>
-            <l>y cuando las doce son</l>
-            <l>te busco determinado</l>
-            <l>para que dés de contado</l>
-            <l rend="cursiva">alivio á mi corazon.</l>
-          </lg>
-          <div>
+        <div>
+          <pb n="1" source="Varios_118_1.jpg" facs="varios/Varios_118_1.jpg/"/>
+
+          <fw type="impresorNum">(<hi rend="cursiva">Núm.</hi> 59.)</fw>
+
+          <div n="1">
+            <head type="primer_titulo"><lb/>COPLAS NUEVAS<lb/>GLOSADAS EN DECIMAS,<lb/>Y UNOS TROBOS
+              DIVERTIDOS.</head>
+
+            <lg rend="cursiva">
+              <l rend="indent">Para hambre un presidiario,</l>
+              <l>para cruz la de un soldado,</l>
+              <l>para astuto un alguacil,</l>
+              <l>para paciencia un casado.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Maginarias y cadenas,</l>
+              <l>muy repetidas las listas,</l>
+              <l>revistas y mas revistas</l>
+              <l>son sus ordinarias penas :</l>
+              <l>de aire las barrigas llenas,</l>
+              <l>de palos un prontuario,</l>
+              <l>de males es un sumario</l>
+              <l>y muy poco de comer;</l>
+              <l>al estremo llega á ser;</l>
+              <l rend="cursiva">para hambre un presidiario.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Desde el cabo al capitan,</l>
+              <l>del teniente al coronel,</l>
+              <l>dentro y fuera del cuartel</l>
+              <l>en contra el soldado van;</l>
+              <l>por un miserable pan</l>
+              <l>y un rancho muy mal guisado,</l>
+              <l>siempre con el fusil cargado,</l>
+              <l>garrotazos à la par;</l>
+              <l>dice bien aquel cantar,</l>
+              <l rend="cursiva">pára cruz la de un soldado.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Siempre anda vigilante</l>
+              <l>por si algo puede pescar,</l>
+              <l>multas haciendo pager,</l>
+              <l>gritando como un gigante,</l>
+              <l>y en su proceder constante,</l>
+              <l>en su trato varonil</l>
+              <l>algunos hay entre mil,</l>
+              <l>pues es tal su condicion</l>
+
+              <pb n="2" source="Varios_118_2.jpg" facs="varios/Varios_118_2.jpg/"/>
+
+              <l>que por la misma razon</l>
+              <l rend="cursiva">para astuto un alguacil.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Un padecer infinito</l>
+              <l>tiene el hombre en su mager;</l>
+              <l>si este se llega á encoger</l>
+              <l>al punto lo hace cabrito :</l>
+              <l>tan manso està el pobrecito,</l>
+              <l>que aun el hablar no le es dado,</l>
+              <l>cavilando el desdichado</l>
+              <l>entre esperar y gemir,</l>
+              <l>de aqui sale aquel decir</l>
+              <l rend="cursiva">para paciencia un casado.</l>
+            </lg>
+            <lg rend="cursiva">
+              <l rend="indent">En dándome de almorzar,</l>
+              <l>de comer al medio dia,</l>
+              <l>y de cenar á la noche,</l>
+              <l>me atrevo á pasar el dia.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Si acaso alguna muger</l>
+              <l>pretende que yo la quiera,</l>
+              <l>toda una semana entera</l>
+              <l>me ha de dar bien de comer,</l>
+              <l>y tambien para beber,</l>
+              <l>dinero para gastar,</l>
+              <l>con amor me ha de tratar,</l>
+              <l>y no me ha de armar quimera,</l>
+              <l>y dejaré que me quiera</l>
+              <l rend="cursiva">en dándome de almorzar.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Me ha de calzar y vestir</l>
+              <l>de una ropita muy fina,</l>
+              <l>buen capon, buena gallina,</l>
+              <l>buen catre para dormir:</l>
+              <l>tambien me ha de preferir</l>
+              <l>una gran botillería,</l>
+              <l>de licor buena bebida</l>
+              <l>para poder yo brindar;</l>
+              <l>tambien me tiene que dar</l>
+              <l rend="cursiva">de comer al medio dia.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Un page me ha de buscar</l>
+              <l>que venga siempre á mi lado,</l>
+              <l>que me sirva con agrado</l>
+              <l>lo que yo quiera mandar:</l>
+              <l>cusndo vaya à pascar</l>
+              <l>me ha de llevar en birlecho</l>
+              <l>en un caballo ó en coche,</l>
+              <l>á la comedia y al baile,</l>
+              <l>buen refresco por la tarde,</l>
+              <l rend="cursiva">y de cenar por la noche.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Me ha de tener en sus brazos,</l>
+              <l>me ha de cantar ¡ah bonito!</l>
+              <l>Con todo su requisito</l>
+              <l>me dormiré en su regazo,</l>
+              <l>y sin ningun embarazo,</l>
+              <l>con gran placer y alegria,</l>
+              <l>diciéndeme, vida mia,</l>
+              <l>tú eres mi dueño adorado,</l>
+              <l>y en cumpliendo la tratado</l>
+              <l rend="cursiva">me atrevo á pasar el dia.</l>
+            </lg>
+            <lg rend="cursiva">
+              <l rend="indent">Qué largas las horas con</l>
+              <l>en el reloj de mi afan,</l>
+              <l>y què poco á poco dan</l>
+              <l>alivio á mi corazon.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Para míno hay sol ni luna,</l>
+              <l>noche, mañana ni dia,</l>
+              <l>pensando en tí, vida mia,</l>
+              <l>persiguiendo mi fortuna;</l>
+              <l>pienso á las dos y á la una,</l>
+              <l>pongo en tí sola aficion,</l>
+              <l>te entrego mi corazon,</l>
+              <l>á las tres busco la suerte,</l>
+              <l>vida mia, para verte;</l>
+              <l rend="cursiva">qué largas las horas son.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Con tanto amor te idolatro,</l>
+              <l>y con tal fé te venero,</l>
+              <l>las tres potencias te entrego</l>
+              <l>á las cinco y à las cuatro ;</l>
+              <l>los sentidos con recato</l>
+              <l>mis cariños en tí están,</l>
+              <l>y las seis ya llegarán</l>
+              <l>solo por ver tu hermosura,</l>
+              <l>porque no hay hora segura</l>
+              <l rend="cursiva">en el reloj de mi afan.</l>
+            </lg>
+            <lg>
+              <l rend="indent">No hay rigor que me sujete,</l>
+              <l>pensando en tí me desvelo,</l>
+
+              <pb n="3" source="Varios_118_3.jpg" facs="varios/Varios_118_3.jpg/"/>
+
+              <l>porque el reloj de mi anhelo</l>
+              <l>me tiene pronto á las siete;</l>
+              <l>á las ocho me promete</l>
+              <l>qué mis penas cesaràn</l>
+              <l>y que á las nueve seràn</l>
+              <l>mis fatigas bien pesadas,</l>
+              <l>¡qué horas tan desgraciadas!</l>
+              <l rend="cursiva">y què poco á poco dan.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Señora, bien cierto es</l>
+              <l>que la noche paso en vela</l>
+              <l>en contínua centinela</l>
+              <l>solo por verte à las diez;</l>
+              <l>à las once pienso que es</l>
+              <l>bien pagada mi aficion,</l>
+              <l>y cuando las doce son</l>
+              <l>te busco determinado</l>
+              <l>para que dés de contado</l>
+              <l rend="cursiva">alivio á mi corazon.</l>
+            </lg>
+          </div>
+
+          <div n="2">
             <head type="titulo_estrofa">TROVO I.</head>
             <lg rend="cursiva">
-              <l>Para formarse la fruta</l>
+              <l rend="indent">Para formarse la fruta</l>
               <l>nace primero la flor;</l>
               <l>la que de pequeña es chusca</l>
               <l>¿ qué será cuando mayor?</l>
             </lg>
             <lg>
-              <l>La doncella que está enjuta</l>
+              <l rend="indent">La doncella que está enjuta</l>
               <l>y quiere apagar su fuego,</l>
               <l>se convierte en disoluta,</l>
               <l>que todo àrbol quiere riego</l>
               <l rend="cursiva">para formarse la fruta.</l>
-              <l>No puede entrar en calor</l>
+            </lg>
+            <lg>
+              <l rend="indent">No puede entrar en calor</l>
               <l>sin tener parte fogosa,</l>
               <l>es tan ardiente el amor,</l>
               <l>que hasta para nacer rosa</l>
               <l rend="cursiva">nace primero la flor.</l>
-              <l>Armo entre mí una disputa,</l>
+            </lg>
+            <lg>
+              <l rend="indent">Armo entre mí una disputa,</l>
               <l>y no doy con la razon,</l>
               <l>¿en qué pende el no dar fruta</l>
               <l>recibiendo la sazon,</l>
               <l rend="cursiva">la que de pequeña es chusca?</l>
-              <l>La que á humedecer su flor</l>
-              <l>desde jóven se despeña,</l>
             </lg>
             <lg>
+              <l rend="indent">La que á humedecer su flor</l>
+              <l>desde jóven se despeña,</l>
               <l>dice un sabio en su interior;</l>
               <l>siendo esto de pequeña</l>
               <l rend="cursiva">¿ qué será cuando mayor?</l>
             </lg>
           </div>
-          <div>
+
+          <div n="3">
             <head type="titulo_estrofa">TROVO II.</head>
             <lg rend="cursiva">
-              <l>Tengo mi amor repartido</l>
+              <l rend="indent">Tengo mi amor repartido</l>
               <l>entre tres ó cuatro damas;</l>
               <l>yo me divierto con todas</l>
               <l>y ellas conmigo se engañan.</l>
             </lg>
             <lg>
-              <l>Hago como que soy fino</l>
+              <l rend="indent">Hago como que soy fino</l>
               <l>y me manifiesto franco,</l>
               <l>á todas las doy oido,</l>
               <l>pero para darlas chasco</l>
               <l rend="cursiva">tengo mi amor repartido.</l>
-              <l>Yo me enciendo en vivas llamas</l>
+            </lg>
+            <lg>
+              <l rend="indent">Yo me enciendo en vivas llamas</l>
               <l>de un ardiente frenesí,</l>
               <l>soy como un tronco sin ramas,</l>
               <l>y no me sujetan á mí</l>
               <l rend="cursiva">entre tres ó cuatro damas.</l>
-              <l>Dejaré correr la bola</l>
+            </lg>
+            <lg>
+              <l rend="indent">Dejaré correr la bola</l>
               <l>porque al fin vendrá á parar,</l>
               <l>y aun que me entiendan la moda</l>
               <l>á mí poco se me dá</l>
               <l rend="cursiva">yo me divierto con todas.</l>
-              <l>Por cualquier parte que vaya</l>
+            </lg>
+            <lg>
+              <l rend="indent">Por cualquier parte que vaya</l>
               <l>tropiezo con unas y otras,</l>
               <l>puede ser de que yo caiga,</l>
               <l>pero pobrecitas tontas,</l>
               <l rend="cursiva">y ellas conmigo se engañan.</l>
             </lg>
           </div>
-          <div>
+
+          <div n="4">
             <head type="titulo_estrofa">TROVO III.</head>
             <lg rend="cursiva">
-              <l>El hombre para ser bueno</l>
+              <l rend="indent">El hombre para ser bueno</l>
               <l>debe tener tres partidas,</l>
               <l>hablar bien y obrar mejor.</l>
               <l>y no alabarse en su vida.</l>
             </lg>
             <lg>
-              <l>No ha de codiciar lo ajeno,</l>
+              <l rend="indent">No ha de codiciar lo ajeno,</l>
               <l>ni el sesto ha de quebrantar,</l>
               <l>ni el sétimo ni el noveno;</l>
               <l>al prógimo debe amar</l>
               <l rend="cursiva">el hombre para ser bueno.</l>
             </lg>
-            <pb n="4" source="Varios_118_4.jpg" facs="fedora_Varios_118_4/full/full/0/default.jpg"/>
+
+            <pb n="4" source="Varios_118_4.jpg" facs="varios/Varios_118_4.jpg/"/>
+
             <lg>
-              <l>Estas prudentes medidas</l>
+              <l rend="indent">Estas prudentes medidas</l>
               <l>que el hombre debe tomar,</l>
               <l>sen por Dios establecidas;</l>
               <l>si las ha de observar</l>
               <l rend="cursiva">debe tener tres partidas.</l>
-              <l>La prudencia y el valor</l>
+            </lg>
+            <lg>
+              <l rend="indent">La prudencia y el valor</l>
               <l>regularàn sus acciones,</l>
               <l>la honradez y pundonor</l>
               <l>à mas de estas perfecciones</l>
               <l rend="cursiva">hablar bien y obrar mejor.</l>
-              <l>La inocencia protegida</l>
+            </lg>
+            <lg>
+              <l rend="indent">La inocencia protegida</l>
               <l>por el hombre debe ser,</l>
               <l>la pobreza socorrida,</l>
               <l>oculto si puede ser,</l>
               <l rend="cursiva">y no alabarse en su vida.</l>
             </lg>
           </div>
-          <div>
+
+          <div n="5">
             <head type="titulo_estrofa">TROVO IV.</head>
             <lg rend="cursiva">
-              <l>El corazon tengo triste,</l>
+              <l rend="indent">El corazon tengo triste,</l>
               <l>porque siempre estoy pensando</l>
               <l>que otro ha de coger la flor</l>
               <l>del jardin de mi regalo.</l>
             </lg>
             <lg>
-              <l>A mí nohay quien me conquiste</l>
+              <l rend="indent">A mí nohay quien me conquiste</l>
               <l>ni me ponga en bien estar,</l>
               <l>soy como un leon que embiste:</l>
               <l>de que me pongo à pensar</l>
               <l rend="cursiva">el corazon tengo triste.</l>
-              <l>Mi alma se halla pensando,</l>
+            </lg>
+            <lg>
+              <l rend="indent">Mi alma se halla pensando,</l>
               <l>y siempre de noche y día</l>
               <l>mi corazon suspirando;</l>
               <l>conmigo no hay alegria</l>
               <l rend="cursiva">porque siempre estoy pensando.</l>
-              <l>No encuentro cosa mejor</l>
-              <l>que es amar á tu hermosura,</l>
             </lg>
             <lg>
+              <l rend="indent">No encuentro cosa mejor</l>
+              <l>que es amar á tu hermosura,</l>
               <l>y te adoro con fervor,</l>
               <l>pero estoy en amargura</l>
               <l rend="cursiva">que otro ha de coger la flor.</l>
-              <l>Yo siempre estoy maquinandó,</l>
+            </lg>
+            <lg>
+              <l rend="indent">Yo siempre estoy maquinandó,</l>
               <l>y si la ocasion llegàra,</l>
               <l>muerte le diera al tirano,</l>
               <l>si asi la flor maltratára</l>
               <l rend="cursiva">del jardin de mi regalo.</l>
             </lg>
           </div>
-          <div>
+
+          <div n="6">
             <head type="titulo_estrofa">TROVO V.</head>
-            <lg>
-              <l>Por tu flor bella madama</l>
+            <lg rend="cursiva">
+              <l rend="indent">Por tu flor bella madama</l>
               <l>solo en ta jardin entré,</l>
               <l>no pude alcanzar el árbol,</l>
               <l>la fruta sí la caté.</l>
             </lg>
             <lg>
-              <l>El dinero me gastaba</l>
+              <l rend="indent">El dinero me gastaba</l>
               <l>con cosillas para tí,</l>
               <l>à mí poco se me daba,</l>
               <l>que lo hacia con el fin</l>
               <l rend="cursiva">por tu flor bella madama.</l>
             </lg>
             <lg>
-              <l>Yo muy bien lo esplicaré</l>
+              <l rend="indent">Yo muy bien lo esplicaré</l>
               <l>á los que escuchando estàn,</l>
               <l>á solas te lo diré,</l>
               <l>que por la fruta de Adan</l>
               <l rend="cursiva">solo en tu jardin entrè.</l>
             </lg>
             <lg>
-              <l>Yo no desciendo de hidalgo,</l>
+              <l rend="indent">Yo no desciendo de hidalgo,</l>
               <l>soy del segundo Afavonio,</l>
               <l>mira si te digo algo,</l>
               <l>que por culpa del demonio</l>
               <l rend="cursiva">no pude alcanzar el árbol</l>
             </lg>
             <lg>
-              <l>Es cierto me enamoré</l>
+              <l rend="indent">Es cierto me enamoré</l>
               <l>resalada prenda mia,</l>
               <l>de lo que intenté logré,</l>
               <l>lo logré con alma y vida,</l>
@@ -1562,7 +1631,7 @@
           </div>
         </div>
         <div type="colofon">
-          <p><lb/>Madrid. Imprenta de Josè M. Marès.= 1844.</p>
+          <p><lb/><hi rend="cursiva">Madrid. Imprenta de Josè M. Marès</hi>.= 1844.</p>
         </div>
       </div>
     </body>

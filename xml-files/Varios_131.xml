@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../Schema/oddPliego_varios.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:alto="http://www.loc.gov/standards/alto/ns-v4#" xml:id="Varios_131">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Varios_131">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -11,8 +11,7 @@
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <authority role="rightsHolder">Bibliothèque Universitaire de
-                              Genève</authority>
+        <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
         <availability status="restricted">
           <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
         </availability>
@@ -20,18 +19,17 @@
       <sourceDesc>
         <biblFull>
           <titleStmt>
-            <title type="titulo_completo">SATIRA BURLESCA DE LA VIDA,
-                                          MILAGROS, USOS Y COSTUMBRES DE CUATRO CLASES DE MUGERES
-                                          QUE HAY EN MADRID.</title>
+            <title type="titulo_completo">SATIRA BURLESCA DE LA VIDA, MILAGROS, USOS Y COSTUMBRES DE
+              CUATRO CLASES DE MUGERES QUE HAY EN MADRID.</title>
             <title type="titulo_breve">SATIRA BURLESCA DE LA VIDA</title>
           </titleStmt>
           <editionStmt>
             <p/>
           </editionStmt>
           <publicationStmt>
-            <publisher>D. J. M. Marés</publisher>
+            <publisher>José María Marés</publisher>
             <pubPlace ref="https://www.geonames.org/3117735/madrid.html">Madrid</pubPlace>
-            <date cert="high">1849</date>
+            <date cert="high" when="1849-01-01">1849</date>
           </publicationStmt>
         </biblFull>
         <msDesc>
@@ -39,7 +37,8 @@
             <country>Suisse</country>
             <settlement>Genève</settlement>
             <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"/>
-                                    </repository>
+            </repository>
+            <collection>Colección Varios</collection>
             <idno type="cote"/>
             <idno type="DOI">10.5281/zenodo.6586349</idno>
             <altIdentifier>
@@ -68,7 +67,7 @@
               </layoutDesc>
             </objectDesc>
             <decoDesc>
-              <summary n="4">Cuatro grabados (p.1) </summary>
+              <summary n="4">Cuatro grabados (p.1)</summary>
               <decoNote type="lista_grabados">
                 <list>
                   <item corresp="grabado_v_131_1.xml">grabado_v_131_1</item>
@@ -97,18 +96,17 @@
     </fileDesc>
     <encodingDesc>
       <projectDesc>
-        <p>Este archivo fue creado en el marco del proyecto Desenrollando el
-                              Cordel/Démêler le cordel/Untangling the cordel, dirigido por la
-                              profesora Constance Carta de la Universidad de Ginebra, con el apoyo
-                              de la Fundación filantrópica Famille Sandoz-Monique de Meuron.</p>
+        <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+          cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la Universidad
+          de Ginebra, con el apoyo de la Fundación filantrópica Famille Sandoz-Monique de
+          Meuron.</p>
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR non corregido</p>
+          <p>OCR no corregido</p>
         </correction>
         <normalization>
-          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto
-                                    original.</p>
+          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
         </normalization>
         <punctuation>
           <p>Se conserva la puntuación original.</p>
@@ -121,18 +119,22 @@
       </langUsage>
       <textClass>
         <keywords xml:base="http://datos.bne.es/tema/">
-          <term target="XX4876797.html" type="tipo_texto">Sainetes</term>
-          <term type="tipo_estrofa"/>
+          <term target="XX4876797.html" type="tipo_texto">Sátiras</term>
+          <term target="XX4843218.html" type="tipo_estrofa">Romances</term>
           <term type="verso_prosa">Verso</term>
           <term type="sagrado_profano">Profano</term>
         </keywords>
       </textClass>
     </profileDesc>
     <revisionDesc>
-      <change when="2023-01-21" who="#PJ">Création du fichier TEI P5 et encodage du
-                        corps du texte</change>
+      <change when="2023-01-21" who="#PJ">Création du fichier TEI P5 et encodage du corps du
+        texte</change>
+      <change when="2024-01-09" who="#EL">Add the IIIF links</change>
     </revisionDesc>
   </teiHeader>
+  <facsimile>
+    <graphic url="varios/Varios_131_1.jpg/full/200,/0/default.jpg"/>
+  </facsimile>
   <sourceDoc xml:id="automaticTranscription">
     <surface xml:id="Varios_131_1" type="page" cert="silver">
       <graphic url="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_131_1/full/full/0/default.jpg"/>
@@ -1479,8 +1481,7 @@
         </zone>
         <zone xml:id="Varios_131_4_BT221_3_LT182_2" type="DefaultLine" subtype="none" points="1671,2337 1649,2311 1627,2304 1605,2304 1583,2304 1568,2304 1539,2309 1533,2304 1517,2304 1502,2304 1487,2311 1480,2311 1375,2302 1364,2302 1342,2302 1340,2300 1333,2309 1322,2300 1320,2300 1318,2300 1316,2300 1313,2300 1311,2300 1296,2313 1294,2313 1287,2313 1217,2302 1215,2302 1125,2313 1101,2315 1072,2313 965,2304 947,2309 925,2311 903,2315 881,2317 859,2317 837,2315 815,2313 794,2311 780,2309 778,2315 774,2320 245,2320 247,2372 247,2429 370,2427 372,2427 375,2427 432,2392 504,2403 506,2403 565,2392 603,2423 605,2423 607,2423 609,2425 690,2425 690,2423 693,2423 695,2423 730,2396 783,2412 785,2412 787,2412 789,2412 791,2412 820,2388 848,2388 879,2412 881,2412 883,2412 886,2414 886,2412 888,2412 890,2412 910,2396 1006,2405 1008,2405 1011,2405 1013,2405 1033,2392 1070,2416 1072,2416 1074,2416 1076,2416 1127,2412 1129,2412 1131,2412 1131,2409 1144,2396 1162,2405 1164,2405 1166,2405 1316,2381 1333,2394 1335,2394 1337,2394 1340,2394 1403,2381 1482,2398 1484,2398 1487,2398 1539,2379 1585,2412 1588,2412 1590,2412 1592,2414 1675,2414 1677,2355 1671,2337 1671,2337 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_131_4/245.0,2300.0,1432.0,129.0/full/0/default" corresp="DefaultLine">
           <path xml:id="Varios_131_4_BT221_3_LT182_2_1" points="249,2374 1678,2356 "/>
-          <line>Madrid, 1849.—Imprenta de D. J. M. Marés, calle de Relatores,
-                                    n. 17.</line>
+          <line>Madrid, 1849.—Imprenta de D. J. M. Marés, calle de Relatores, n. 17.</line>
         </zone>
       </zone>
       <zone xml:id="Varios_131_4_BT226_4" n="4" type="MainZone" subtype="none" points="894,2212 894,2289 1016,2289 1016,2212 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_131_4/894.0,2212.0,122.0,77.0/full/0/default" corresp="MainZone"/>
@@ -1489,36 +1490,38 @@
   <text>
     <body>
       <div>
-        <pb n="1" source="Varios_131_1.jpg" facs="fedora_Varios_131_1/full/full/0/default.jpg"/>
-        <head type="primer_titulo"><lb/>SATIRA BURLESCA<lb/>DE LA VIDA, MILAGROS, USOS Y COSTUMBRES DE
-                              CUATRO<lb/>CLASES DE MUGERES QUE HAY EN MADRID.</head>
-        <lg>
-          <l>Atencion, oigan y escuchen</l>
-          <l>una cosa de importancia,</l>
-          <l>muy alegre y divertida</l>
-          <l>para todas las madamas:</l>
-          <l>distingo de estas del dia,</l>
-          <l>que por no trabajar andan</l>
-          <l>haciendo al blanco y al negro,</l>
-          <l>al portugués, al de Italia,</l>
-          <l>al francés, al genovés,</l>
-          <l>al de Rusia y de Alemania,</l>
-          <l>se entiende si tiene cuartos,</l>
-          <l>que si no los hay, no hay nada.</l>
-        </lg>
         <div>
-          <head type="titulo_estrofa">ESTRIVILLO.</head>
+          <pb n="1" source="Varios_131_1.jpg" facs="varios/Varios_131_1.jpg/"/>
+
+          <head type="primer_titulo"><lb/><hi rend="negrita">SATIRA BURLESCA</hi><lb/>DE LA VIDA,
+            MILAGROS, USOS Y COSTUMBRES DE CUATRO<lb/>CLASES DE MUGERES QUE HAY EN MADRID.</head>
+
           <lg>
+            <l rend="indent">Atencion, oigan y escuchen</l>
+            <l>una cosa de importancia,</l>
+            <l>muy alegre y divertida</l>
+            <l>para todas las madamas:</l>
+            <l>distingo de estas del dia,</l>
+            <l>que por no trabajar andan</l>
+            <l>haciendo al blanco y al negro,</l>
+            <l>al portugués, al de Italia,</l>
+            <l>al francés, al genovés,</l>
+            <l>al de Rusia y de Alemania,</l>
+            <l>se entiende si tiene cuartos,</l>
+            <l>que si no los hay, no hay nada.</l>
+          </lg>
+
+          <lg rend="cursiva">
+            <head type="estrivillo">ESTRIVILLO.</head>
             <l>Alerta jóvenes,</l>
             <l>alerta vaya,</l>
             <l>guardarse todos</l>
             <l>de esta canalla.</l>
-            <l>Cuántas señoritas de estas</l>
-            <l>nos echamos á la cara</l>
           </lg>
-        </div>
-        <div>
+
           <lg>
+            <l rend="indent">Cuántas señoritas de estas</l>
+            <l>nos echamos á la cara</l>
             <l>por las calles y paseos,</l>
             <l>tan gallardonas y ufanas,</l>
             <l>que nos parecen marquesas</l>
@@ -1540,9 +1543,9 @@
             <l>otra: yo soy prima hermana</l>
             <l>de un caballero sobrino</l>
             <l>del marqués de la Romana ;</l>
-          </lg>
-          <pb n="2" source="Varios_131_2.jpg" facs="fedora_Varios_131_2/full/full/0/default.jpg"/>
-          <lg>
+
+            <pb n="2" source="Varios_131_2.jpg" facs="varios/Varios_131_2.jpg/"/>
+
             <l>y de este modo á los bobos</l>
             <l>les van sacando la plata.</l>
           </lg>
@@ -1550,7 +1553,7 @@
             <l rend="cursiva">Alerta jóvenes, etc.</l>
           </lg>
           <lg>
-            <l>Hay cuatro clases de tias</l>
+            <l rend="indent">Hay cuatro clases de tias</l>
             <l>hoy en el dia en Madrid,</l>
             <l>si ustedes quieren saberlas</l>
             <l>pronto las voy á decir.</l>
@@ -1571,7 +1574,7 @@
             <l rend="cursiva">Alerta jóvenes, etc.</l>
           </lg>
           <lg>
-            <l>Os voy á decir quien son</l>
+            <l rend="indent">Os voy á decir quien son</l>
             <l>las señeras comerciantas,</l>
             <l>se entiende, de este comercio</l>
             <l>que hasta en él mi abuela anda;</l>
@@ -1594,7 +1597,7 @@
             <l rend="cursiva">Alerta jóvenes, etc.</l>
           </lg>
           <lg>
-            <l>De las cazadoras voy</l>
+            <l rend="indent">De las cazadoras voy</l>
             <l>á hablar algo sin tardanza;</l>
             <l>quién son, ya las conoceis,</l>
             <l>son unas tias taimadas:</l>
@@ -1604,8 +1607,6 @@
             <l>y tambien por las posadas,</l>
             <l>á ver si vienen señores,</l>
             <l>y se ponen de ordenanza</l>
-          </lg>
-          <lg>
             <l>á la puerta, y cuando salen,</l>
             <l>con amorosas palabras</l>
             <l>les dicen: caballerito,</l>
@@ -1627,7 +1628,7 @@
             <l rend="cursiva">Alerta jóvenes, etc.</l>
           </lg>
           <lg>
-            <l>Si quereis saber quien son</l>
+            <l rend="indent">Si quereis saber quien son</l>
             <l>las señoritas murgantas:</l>
             <l>son las que en esta guerra</l>
             <l>emigraron de sus casas,</l>
@@ -1644,7 +1645,7 @@
             <l rend="cursiva">Alerta jóvenes, etc.</l>
           </lg>
           <lg>
-            <l>Estas son las que olvidaron</l>
+            <l rend="indent">Estas son las que olvidaron</l>
             <l>à su padre, madre y casa,</l>
             <l>por saciar bien su apetito:</l>
             <l>¡infelices insensatas!</l>
@@ -1665,11 +1666,11 @@
             <l rend="cursiva">Alerta jóvenes, etc.</l>
           </lg>
           <lg>
-            <l>Estas entre siete ú ocho</l>
+            <l rend="indent">Estas entre siete ú ocho</l>
             <l>pagan una chica sala,</l>
-          </lg>
-          <pb n="3" source="Varios_131_3.jpg" facs="fedora_Varios_131_3/full/full/0/default.jpg"/>
-          <lg>
+
+            <pb n="3" source="Varios_131_3.jpg" facs="varios/Varios_131_3.jpg/"/>
+
             <l>y con la ropa que visten</l>
             <l>hacen de noche la cama:</l>
             <l>las sayas son los colchones,</l>
@@ -1692,7 +1693,7 @@
             <l rend="cursiva">Alerta jóvenes, etc.</l>
           </lg>
           <lg>
-            <l>Y tambien los carreteros,</l>
+            <l rend="indent">Y tambien los carreteros,</l>
             <l>que es la gente mas ufana</l>
             <l>que andan por los caminos,</l>
             <l>esos llegan de mañana</l>
@@ -1715,7 +1716,7 @@
             <l rend="cursiva">Alerta jóvenes, etc.</l>
           </lg>
           <lg>
-            <l>Luego salen de Madrid</l>
+            <l rend="indent">Luego salen de Madrid</l>
             <l>los carreteros de fama,</l>
             <l>contándose unos á otros</l>
             <l>sus regocijos y hazañas :</l>
@@ -1740,7 +1741,7 @@
             <l rend="cursiva">Alerta jóvenes, etc.</l>
           </lg>
           <lg>
-            <l>No entienda que es á uno solo</l>
+            <l rend="indent">No entienda que es á uno solo</l>
             <l>al que estas cosas le pasan,</l>
             <l>que son á todos los mas</l>
             <l>los que por caminos andan,</l>
@@ -1765,7 +1766,7 @@
             <l rend="cursiva">Alerta jóvenes, etc.</l>
           </lg>
           <lg>
-            <l>Muchas de estas por el dia</l>
+            <l rend="indent">Muchas de estas por el dia</l>
             <l>no suelen salir de casa,</l>
             <l>hasta que llega la nocbe</l>
             <l>que buscan donde pegarla:</l>
@@ -1786,11 +1787,11 @@
             <l rend="cursiva">Alerta jóvenes, etc.</l>
           </lg>
           <lg>
-            <l>Tambien el embarcadero</l>
+            <l rend="indent">Tambien el embarcadero</l>
             <l>á la Fuentecilla llaman,</l>
-          </lg>
-          <pb n="4" source="Varios_131_4.jpg" facs="fedora_Varios_131_4/full/full/0/default.jpg"/>
-          <lg>
+
+            <pb n="4" source="Varios_131_4.jpg" facs="varios/Varios_131_4.jpg/"/>
+
             <l>porque al dar las oraciones</l>
             <l>embarcan y desembarcan:</l>
             <l>allí se arman mil tertulias,</l>
@@ -1814,7 +1815,7 @@
             <l rend="cursiva">Alerta jóvenes, etc.</l>
           </lg>
           <lg>
-            <l>Un galleguito, señores,</l>
+            <l rend="indent">Un galleguito, señores,</l>
             <l>se encontró una grande ganga</l>
             <l>con una de estas que digo,</l>
             <l>que fué con ella á su casa,</l>
@@ -1839,7 +1840,7 @@
             <l rend="cursiva">Alerta jóvenes, etc.</l>
           </lg>
           <lg>
-            <l>Viéndose el gallego solo</l>
+            <l rend="indent">Viéndose el gallego solo</l>
             <l>todo el cuarto registraba,</l>
             <l>y echando mano al bolsillo,</l>
             <l>al ver que sin él estaba,</l>
@@ -1864,7 +1865,7 @@
             <l rend="cursiva">Alerta jóvenes, etc.</l>
           </lg>
           <lg>
-            <l>Falta decir otra cosa</l>
+            <l rend="indent">Falta decir otra cosa</l>
             <l>que dentro de Madrid pasa</l>
             <l>con una gente que dicen,</l>
             <l>la partida de la manta:</l>
@@ -1887,17 +1888,17 @@
             <l>para que todo viviente</l>
             <l>se guarde de esta canalla.</l>
           </lg>
-          <lg rend="indent">
-            <l rend="cursiva">Alerta jóvenes,</l>
-            <l rend="cursiva">alerta vaya,</l>
-            <l rend="cursiva">guardarse todos</l>
-            <l rend="cursiva">de esta canalla.</l>
+          <lg rend="cursiva">
+            <l rend="indent">Alerta jóvenes,</l>
+            <l>alerta vaya,</l>
+            <l>guardarse todos</l>
+            <l>de esta canalla.</l>
           </lg>
           <trailer>FIN.</trailer>
         </div>
-        <div type="colofon_vendedor">
-          <p> Madrid, 1849.=Imprenta de D. J. M. Marés, calle de Relatores, n.
-                                    17. </p>
+        
+        <div type="colofon">
+          <p><hi rend="cursiva">Madrid,</hi> 1849.=<hi rend="cursiva">Imprenta de D. J. M. Marés, calle de Relatores, n.</hi> 17. </p>
         </div>
       </div>
     </body>

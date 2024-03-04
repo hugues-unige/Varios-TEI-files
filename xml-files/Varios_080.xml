@@ -1,20 +1,17 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../Schema/oddPliego_varios.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:alto="http://www.loc.gov/standards/alto/ns-v4#" xml:id="Varios_080">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Varios_080">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>DELIRIO DE ESPRONCEDA Ó ÚLTIMOS MOMENTOS DE ESTE CÉLEBRE
-                              POETA.</title>
+        <title>DELIRIO DE ESPRONCEDA Ó ÚLTIMOS MOMENTOS DE ESTE CÉLEBRE POETA.</title>
         <respStmt>
           <name/>
           <resp>Codificación TEI</resp>
-          <note type="propiedad">Joan Grau.</note>
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <authority role="rightsHolder">Bibliothèque Universitaire de
-                              Genève</authority>
+        <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
         <availability status="restricted">
           <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
         </availability>
@@ -22,17 +19,17 @@
       <sourceDesc>
         <biblFull>
           <titleStmt>
-            <title type="titulo_completo">DELIRIO DE ESPRONCEDA Ó ÚLTIMOS
-                                          MOMENTOS DE ESTE CÉLEBRE POETA.</title>
+            <title type="titulo_completo">DELIRIO DE ESPRONCEDA Ó ÚLTIMOS MOMENTOS DE ESTE CÉLEBRE
+              POETA.</title>
             <title type="titulo_breve"/>
           </titleStmt>
           <editionStmt>
             <p/>
           </editionStmt>
           <publicationStmt>
-            <publisher>Joan Gran</publisher>
+            <publisher>Joan Grau</publisher>
             <pubPlace ref="https://www.geonames.org/3111933/reus.html">Reus</pubPlace>
-            <date>[s.a]</date>
+            <date cert="low" when="1800-01-01">[s.a.]</date>
           </publicationStmt>
         </biblFull>
         <msDesc>
@@ -40,7 +37,8 @@
             <country>Suisse</country>
             <settlement>Genève</settlement>
             <repository>Bibliothèque Universitaire de Genève<ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"/>
-                                    </repository>
+            </repository>
+            <collection>Colección Varios</collection>
             <idno type="cote"/>
             <idno type="DOI">10.5281/zenodo.6565931</idno>
             <altIdentifier>
@@ -48,10 +46,16 @@
             </altIdentifier>
           </msIdentifier>
           <msContents>
-            <summary/>
+            <summary>Dos canciones</summary>
             <msItem>
-              <locus/>
-              <title/>
+              <locus>1-2</locus>
+              <title>Delirio de espronceda ó últimos momentos de este célebre poeta.</title>
+            </msItem>
+            <msItem>
+              <locus>3-4</locus>
+              <title>Paródia del deliri de esprondeca, escrit ab uns disbaráts que cantan lo credo
+                per J. F. (a). Q.</title>
+              <author role="letrista">J. F. (a). Q.</author>
             </msItem>
           </msContents>
           <physDesc>
@@ -96,18 +100,17 @@
     </fileDesc>
     <encodingDesc>
       <projectDesc>
-        <p>Este archivo fue creado en el marco del proyecto Desenrollando el
-                              Cordel/Démêler le cordel/Untangling the cordel, dirigido por la
-                              profesora Constance Carta de la Universidad de Ginebra, con el apoyo
-                              de la Fundación filantrópica Famille Sandoz-Monique de Meuron.</p>
+        <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+          cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la Universidad
+          de Ginebra, con el apoyo de la Fundación filantrópica Famille Sandoz-Monique de
+          Meuron.</p>
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR non corregido</p>
+          <p>OCR no corregido</p>
         </correction>
         <normalization>
-          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto
-                                    original.</p>
+          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
         </normalization>
         <punctuation>
           <p>Se conserva la puntuación original.</p>
@@ -128,10 +131,14 @@
       </textClass>
     </profileDesc>
     <revisionDesc>
-      <change when="2022-06-22" who="#PJ">Création du fichier TEI P5 et encodage du
-                        corps du texte</change>
+      <change when="2022-06-22" who="#PJ">Création du fichier TEI P5 et encodage du corps du
+        texte</change>
+      <change when="2024-01-09" who="#EL">Add the IIIF links</change>
     </revisionDesc>
   </teiHeader>
+  <facsimile>
+    <graphic url="varios/Varios_080_1.jpg/full/200,/0/default.jpg"/>
+  </facsimile>
   <sourceDoc xml:id="automaticTranscription">
     <surface xml:id="Varios_080_1" type="page" cert="silver">
       <graphic url="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_080_1/full/full/0/default.jpg"/>
@@ -587,13 +594,12 @@
       <graphic url="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_080_3/full/full/0/default.jpg"/>
       <zone xml:id="Varios_080_3_BT226_1" n="1" type="MainZone" subtype="none" points="1015,270 347,288 380,229 395,212 1486,212 1494,237 1469,262 1097,275 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_080_3/347,212,1147,76/full/0/default" corresp="MainZone">
         <zone xml:id="Varios_080_3_BT226_1_LT84_1" type="DefaultLine" subtype="none" points="272,183 268,97 403,74 405,74 407,74 452,86 481,74 483,74 485,74 487,74 489,74 514,90 520,95 529,90 549,80 551,80 663,74 665,74 667,74 694,86 709,93 731,86 748,80 750,80 752,80 754,80 769,84 793,93 820,84 845,76 847,76 849,76 851,76 868,82 890,90 921,82 928,80 930,80 932,80 946,80 1056,90 1178,90 1192,76 1198,70 1198,68 1201,68 1203,68 1205,68 1207,68 1225,74 1261,86 1335,72 1372,66 1374,66 1492,66 1494,66 1496,66 1496,68 1498,68 1507,76 1517,68 1519,66 1521,66 1523,66 1525,66 1579,68 1583,173 1581,192 1325,183 1246,183 1236,194 1236,196 1234,196 1232,196 1229,196 1219,194 1172,186 1087,196 1056,198 1054,198 986,196 802,188 272,198 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_080_3/268,66,1315,132/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_080_3_BT226_1_LT84_1_1" points="272,183 1583,173 " corresp=" &#10;                                                  DefaultLine"/>
+          <path xml:id="Varios_080_3_BT226_1_LT84_1_1" points="272,183 1583,173 " corresp=" &#xA;                                                  DefaultLine"/>
           <line>PARÓDIA DEL DELIRI DE ESPRONCEDA,</line>
         </zone>
         <zone xml:id="_BT226_1_LT82_2" type="CustomLine" subtype="trailer" points="390,258 386,221 465,208 467,208 1463,210 1467,250 1467,264 1424,276 1422,276 1420,276 1370,266 1368,266 1248,266 1246,266 1238,274 1238,276 1236,276 1234,276 1232,276 1118,268 1116,268 1105,276 1105,279 1103,279 1101,279 1099,279 955,268 936,268 934,268 919,281 917,281 915,281 913,281 388,272 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_080_3/386,208,1081,73/full/0/default" corresp="CustomLine:trailer">
           <path xml:id="Varios_080_3_BT226_1_LT82_2_1" points="390,258 1467,250 " corresp="CustomLine:trailer"/>
-          <line>escrit ab uns disbaráts que cantan lo credo per J. F. (a).
-                                    Q.</line>
+          <line>escrit ab uns disbaráts que cantan lo credo per J. F. (a). Q.</line>
         </zone>
       </zone>
       <zone xml:id="Varios_080_3_BT227_2" n="2" type="MainZone" subtype="columns" points="1494,586 1486,667 1436,686 1453,708 1370,725 1535,735 1535,783 1411,810 1428,998 1395,1097 1329,1105 1519,1116 1494,1262 1585,1297 1569,1345 1502,1355 1444,1488 1478,1504 1478,1552 1430,1568 1428,1601 1535,1686 1535,1717 1494,1816 1420,1874 1486,1884 1527,1934 1478,2023 1602,2050 1610,2105 1422,2122 1469,2238 1028,2238 1028,1959 1002,1959 1008,1909 1074,1882 1008,1857 1000,1824 1000,1554 1066,1488 1000,1469 992,1248 1008,1132 1091,1099 1000,1089 992,1080 992,368 1463,338 1626,347 1635,386 1378,429 1413,512 1535,529 1544,568 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_080_3/992,338,643,1900/full/0/default" corresp="MainZone:columns">
@@ -1254,13 +1260,12 @@
       <zone xml:id="Varios_080_4_BT228_3" n="3" type="MarginTextZone" subtype="colophon" points="1662,2308 1217,2337 163,2332 204,2243 1653,2252 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_080_4/163,2243,1499,94/full/0/default" corresp="MarginTextZone:colophon">
         <zone xml:id="Varios_080_4_BT228_3_LT83_1" type="DefaultLine" subtype="none" points="239,2287 239,2234 1647,2245 1649,2295 1647,2302 1300,2317 1298,2317 1298,2317 1296,2317 1296,2317 1254,2302 1254,2300 236,2295 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_080_4/,,,/full/0/default" corresp="DefaultLine">
           <path xml:id="Varios_080_4_BT228_3_LT83_1_1" points="241,2288 1651,2297 "/>
-          <line>REUS. –En la llibrería de Joan Grau, hi ha gran surtit de
-                                    romansos, historias, llibrets, come¬</line>
+          <line>REUS. –En la llibrería de Joan Grau, hi ha gran surtit de romansos, historias,
+            llibrets, come¬</line>
         </zone>
         <zone xml:id="Varios_080_4_BT228_3_LT83_2" type="DefaultLine" subtype="none" points="193,2315 193,2282 1256,2287 1256,2324 1254,2339 1103,2344 1092,2355 1092,2357 1090,2357 1087,2357 1085,2357 1044,2348 1011,2363 1008,2363 1006,2363 1004,2363 958,2344 905,2361 903,2361 901,2361 899,2361 897,2361 862,2339 837,2355 835,2355 833,2355 831,2355 829,2355 798,2346 747,2361 745,2361 743,2361 741,2361 739,2361 715,2342 690,2359 688,2359 686,2359 686,2361 460,2361 458,2359 456,2359 386,2337 377,2335 348,2337 234,2346 232,2346 188,2335 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_080_4/188,2282,1068,81/full/0/default" corresp="DefaultLine">
           <path xml:id="Varios_080_4_BT228_3_LT83_2_1" points="195,2317 1257,2325 "/>
-          <line>dias, sainetes, paper per escriure, capsas de cerillas y
-                                    llibrets per fumar</line>
+          <line>dias, sainetes, paper per escriure, capsas de cerillas y llibrets per fumar</line>
         </zone>
       </zone>
       <zone xml:id="Varios_080_4_BT226_4" n="4" type="MainZone" subtype="none" points="1515,2223 1008,2241 965,2232 973,2182 1498,2182 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_080_4/965,2182,550,59/full/0/default" corresp="MainZone">
@@ -1275,370 +1280,367 @@
   <text>
     <body>
       <div>
-        <pb n="1" source="Varios_080_1.jpg" facs="fedora_Varios_080_1/full/full/0/default.jpg"/>
-        <div type="parte" n="1">
-          <head type="primer_titulo"><lb/>DELIRIO DE ESPRONCEDA<lb/>Ó ÚLTIMOS MOMENTOS DE ESTE
-                                    CÉLEBRE POETA.</head>
-          <lg>
-            <l>Me agrada ver un cielo</l>
-            <l>Con negros nubarrones </l>
-            <l>Y oir los aquilones </l>
-            <l>IIorrísonos bramar. </l>
-            <l>Me agrada ver la noche </l>
-            <l>Sin luna y sin estrellas, </l>
-            <l>Y solo las centellas </l>
-            <l>La tierra iluminar.</l>
-          </lg>
-          <lg>
-            <l>Me gustá un cementerio</l>
-            <l>De muertos bien relleno,</l>
-            <l>Manando sangre y cieno,</l>
-            <l>Que robe el respirar.</l>
-            <l>Y allí un sepulturero</l>
-            <l>De tétrica mirada,</l>
-            <l>Con mano despiadada</l>
-            <l>Los cráneos machacar.</l>
-          </lg>
-          <lg>
-            <l>Me gusta que al averno </l>
-            <l>Se lleven los mortales, </l>
-            <l>Y en él todos los males </l>
-            <l>Les hagan padecer. </l>
-            <l>Les abran las entrañas, </l>
-            <l>Les rompen los tendones, </l>
-            <l>Rasguen los corazones. </l>
-            <l>Sin de ellos caso hacer.</l>
-          </lg>
-          <lg>
-            <l>Me agrada ver la bomba </l>
-            <l>Caer mansa del cielo, </l>
-            <l>Inmóvil en el suelo </l>
-            <l>Sin mecha al parecer. </l>
-            <l>Y luego embravecida </l>
-            <l>Que estalle y que se agite </l>
-            <l>Y muertes mil vomite, </l>
-            <l>Me sirve de placer.</l>
-          </lg>
-          <pb n="2" source="Varios_080_2.jpg" facs="fedora_Varios_080_2/full/full/0/default.jpg"/>
-          <lg>
-            <l>Con su hórrido estampido,</l>
-            <l>Que el trueno me despierte</l>
-            <l>Y el mundo adormecido</l>
-            <l>Se llegue á estremecer.</l>
-            <l>Rayos cada momento</l>
-            <l>Caigan sobre el sin cuento;...</l>
-            <l>Que se hunda el firmamento</l>
-            <l>Me agrada mucho ver.</l>
-          </lg>
-          <lg>
-            <l>La llama de un incendio</l>
-            <l>Que corra devorando</l>
-            <l>Escombros apilando,</l>
-            <l>Deseo yo encender.</l>
-          </lg>
-          <lg>
-            <l>Tostarse allí un anciano,</l>
-            <l>Volverse todo tea,</l>
-            <l>Y oir como vocea.....</l>
-            <l>¡Que gusto! ¡que placer!</l>
-          </lg>
-          <lg>
-            <l>Allá en umbrío bosque</l>
-            <l>Solar desmoronado,</l>
-            <l>Me place en sumo grado</l>
-            <l>La luna al reflejar.</l>
-          </lg>
-          <lg>
-            <l>Moverse las veletas</l>
-            <l>Con áspero chirrido,</l>
-            <l>Igual al alarido</l>
-            <l>Que anuncia el espirar.</l>
-          </lg>
-          <lg>
-            <l>Me agrada una campiña</l>
-            <l>De nieve tapizada,</l>
-            <l>De flores despojada</l>
-            <l>Sin fruto ni verdor.</l>
-          </lg>
-          <lg>
-            <l>Sin pájaros que canten,</l>
-            <l>Ni sol haya que alumbre,</l>
-            <l>Y solo se vislumbre</l>
-            <l>La muerte en derredor.</l>
-          </lg>
-          <lg>
-            <l>Insólita avenida</l>
-            <l>Que inunda fértil vega,</l>
-            <l>De cumbre á cumbre llega,</l>
-            <l>Y llena de pavor.</l>
-          </lg>
-          <lg>
-            <l>Y las vides sin pausa,</l>
-            <l>Se lleva los ganados</l>
-            <l>Y estragos miles causa.....</l>
-            <l>¡Que cuadro seductor!!...</l>
-          </lg>
-          <lg>
-            <l>El juego y las botellas</l>
-            <l>Las voces y las risas,</l>
-            <l>En torno de las bellas</l>
-            <l>Beodos apurar.</l>
-          </lg>
-          <lg>
-            <l>Y en sus te..... lascivas,</l>
-            <l>Un beso á cada trago</l>
-            <l>Con voluptuoso alhago,</l>
-            <l>Alegres estampar.</l>
-          </lg>
-          <lg>
-            <l>Romper despues las copas,</l>
-            <l>Los vasos, las barajas,</l>
-            <l>Vibrarse las navajas</l>
-            <l>Buscando el corazon.</l>
-            <l>Oir despues los brindis</l>
-            <l>Mezclados con quejidos</l>
-            <l>Que lanzan los heridos</l>
-            <l>En llanto y confusion.</l>
-          </lg>
-          <lg>
-            <l>Quisiera ver al uno</l>
-            <l>Que arrastra un intestino;</l>
-            <l>Al otro pedir vino</l>
-            <l>Muriendo en un rincon.</l>
-            <l>Y todos ya borrachos,</l>
-            <l>Eu trino desusado,</l>
-            <l>Y al Dios niño velado</l>
-            <l>Impúdica cancion.</l>
-          </lg>
-          <lg>
-            <l>Y mientas las queridas</l>
-            <l>Tendidas en sus lechos,</l>
-            <l>Sin chales en los pechos</l>
-            <l>Y flojo el cinturon.</l>
-            <l>Mostrando sus encantos</l>
-            <l>Sin órden el cabello,</l>
-            <l>Al aire el muslo bello</l>
-            <l>Y el dedo en el.....</l>
-          </lg>
-          <trailer>FIN.</trailer>
+        <div>
+          <pb n="1" source="Varios_080_1.jpg" facs="varios/Varios_080_1.jpg/"/>
+
+          <div n="1">
+            <head type="primer_titulo" rend="negrita"><lb/>DELIRIO DE ESPRONCEDA<lb/>Ó ÚLTIMOS
+              MOMENTOS DE ESTE CÉLEBRE POETA.</head>
+
+            <lg>
+              <l rend="indent">Me agrada ver un cielo</l>
+              <l>Con negros nubarrones </l>
+              <l>Y oir los aquilones </l>
+              <l>IIorrísonos bramar. </l>
+              <l rend="indent">Me agrada ver la noche </l>
+              <l>Sin luna y sin estrellas, </l>
+              <l>Y solo las centellas </l>
+              <l>La tierra iluminar.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Me gustá un cementerio</l>
+              <l>De muertos bien relleno,</l>
+              <l>Manando sangre y cieno,</l>
+              <l>Que robe el respirar.</l>
+              <l rend="indent">Y allí un sepulturero</l>
+              <l>De tétrica mirada,</l>
+              <l>Con mano despiadada</l>
+              <l>Los cráneos machacar.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Me gusta que al averno </l>
+              <l>Se lleven los mortales, </l>
+              <l>Y en él todos los males </l>
+              <l>Les hagan padecer. </l>
+              <l rend="indent">Les abran las entrañas, </l>
+              <l>Les rompen los tendones, </l>
+              <l>Rasguen los corazones. </l>
+              <l>Sin de ellos caso hacer.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Me agrada ver la bomba </l>
+              <l>Caer mansa del cielo, </l>
+              <l>Inmóvil en el suelo </l>
+              <l>Sin mecha al parecer. </l>
+              <l rend="indent">Y luego embravecida </l>
+              <l>Que estalle y que se agite </l>
+              <l>Y muertes mil vomite, </l>
+              <l>Me sirve de placer.</l>
+            </lg>
+
+            <pb n="2" source="Varios_080_2.jpg" facs="varios/Varios_080_2.jpg/"/>
+
+            <lg>
+              <l rend="indent">Con su hórrido estampido,</l>
+              <l>Que el trueno me despierte</l>
+              <l>Y el mundo adormecido</l>
+              <l>Se llegue á estremecer.</l>
+              <l rend="indent">Rayos cada momento</l>
+              <l>Caigan sobre el sin cuento;...</l>
+              <l>Que se hunda el firmamento</l>
+              <l>Me agrada mucho ver.</l>
+            </lg>
+            <lg>
+              <l rend="indent">La llama de un incendio</l>
+              <l>Que corra devorando</l>
+              <l>Escombros apilando,</l>
+              <l>Deseo yo encender.</l>
+              <l rend="indent">Tostarse allí un anciano,</l>
+              <l>Volverse todo tea,</l>
+              <l>Y oir como vocea.....</l>
+              <l>¡Que gusto! ¡que placer!</l>
+            </lg>
+            <lg>
+              <l rend="indent">Allá en umbrío bosque</l>
+              <l>Solar desmoronado,</l>
+              <l>Me place en sumo grado</l>
+              <l>La luna al reflejar.</l>
+              <l rend="indent">Moverse las veletas</l>
+              <l>Con áspero chirrido,</l>
+              <l>Igual al alarido</l>
+              <l>Que anuncia el espirar.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Me agrada una campiña</l>
+              <l>De nieve tapizada,</l>
+              <l>De flores despojada</l>
+              <l>Sin fruto ni verdor.</l>
+              <l rend="indent">Sin pájaros que canten,</l>
+              <l>Ni sol haya que alumbre,</l>
+              <l>Y solo se vislumbre</l>
+              <l>La muerte en derredor.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Insólita avenida</l>
+              <l>Que inunda fértil vega,</l>
+              <l>De cumbre á cumbre llega,</l>
+              <l>Y llena de pavor.</l>
+              <l rend="indent">Y las vides sin pausa,</l>
+              <l>Se lleva los ganados</l>
+              <l>Y estragos miles causa.....</l>
+              <l>¡Que cuadro seductor!!...</l>
+            </lg>
+            <lg>
+              <l rend="indent">El juego y las botellas</l>
+              <l>Las voces y las risas,</l>
+              <l>En torno de las bellas</l>
+              <l>Beodos apurar.</l>
+              <l rend="indent">Y en sus te..... lascivas,</l>
+              <l>Un beso á cada trago</l>
+              <l>Con voluptuoso alhago,</l>
+              <l>Alegres estampar.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Romper despues las copas,</l>
+              <l>Los vasos, las barajas,</l>
+              <l>Vibrarse las navajas</l>
+              <l>Buscando el corazon.</l>
+              <l rend="indent">Oir despues los brindis</l>
+              <l>Mezclados con quejidos</l>
+              <l>Que lanzan los heridos</l>
+              <l>En llanto y confusion.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Quisiera ver al uno</l>
+              <l>Que arrastra un intestino;</l>
+              <l>Al otro pedir vino</l>
+              <l>Muriendo en un rincon.</l>
+              <l rend="indent">Y todos ya borrachos,</l>
+              <l>Eu trino desusado,</l>
+              <l>Y al Dios niño velado</l>
+              <l>Impúdica cancion.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Y mientas las queridas</l>
+              <l>Tendidas en sus lechos,</l>
+              <l>Sin chales en los pechos</l>
+              <l>Y flojo el cinturon.</l>
+              <l rend="indent">Mostrando sus encantos</l>
+              <l>Sin órden el cabello,</l>
+              <l>Al aire el muslo bello</l>
+              <l>Y el dedo en el.....</l>
+            </lg>
+            <trailer>FIN.</trailer>
+          </div>
+
+          <div n="2">
+            <pb n="3" source="Varios_080_3.jpg" facs="varios/Varios_080_3.jpg/"/>
+
+            <head type="titulo_cancion"><lb/>PARÓDIA DEL DELIRI DE ESPRONCEDA,</head>
+            <head type="subtitulo_cancion" rend="cursiva"><lb/>escrit ab uns disbaráts que cantan
+              lo credo per J. F. (a). Q.</head>
+
+            <lg>
+              <l rend="indent">Me agrada á la taverna</l>
+              <l>estarmi allí un bon rato:</l>
+              <l>que váygi 'l vi barato</l>
+              <l>y ab forsa patricóns.</l>
+              <l rend="indent">Senti 'ls homens com cridan</l>
+              <l>arrencanse 'ls mustatxos,</l>
+              <l>y alli cuatre burratxos</l>
+              <l>movén forsa rahóns.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Me agradan dugas donas</l>
+              <l>barallanse á trumpadas,</l>
+              <l>totas espiolxadas</l>
+              <l>y 'l cáp con una cól.</l>
+              <l rend="indent">Cuan ne diu l'una á l' altre</l>
+              <l>bacona y pu.....tinera,</l>
+              <l>parlán de tal manera</l>
+              <l>trayén drapéts al sol.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Me agrada mol un pillo</l>
+              <l>tot esquinsát de roba,</l>
+              <l>veurer com un pá roba</l>
+              <l>mes destre que un falcó.</l>
+              <l rend="indent">Agutsils que 'l empáytin</l>
+              <l>anán al seu derrera,</l>
+              <l>y éll sense cap quimera</l>
+              <l>va tucán pirandó.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Me agrada veurer un carro</l>
+              <l>cuan l' animál desboca</l>
+              <l>y á la terra no toca</l>
+              <l>de tan afurién.</l>
+              <l rend="indent">Criaturas per terra</l>
+              <l>semblán lo espáy que troni</l>
+              <l>y ab crits de Santantoni</l>
+              <l>fuigí tota la gént.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Me agrada veurer 'l cólera</l>
+              <l>armát portán la dalla;</l>
+              <l>cuan ningu no treballa</l>
+              <l>y pléns de mala sórt.</l>
+              <l rend="indent">Veurer portas tancadas</l>
+              <l>sentir ays de agonía,</l>
+              <l>y á tota fisomia</l>
+              <l>veurer pintada la mórt.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Me agrada un any que hi háigi</l>
+              <l>una malura entera</l>
+              <l>també la filoxera</l>
+              <l>y que fassi bon frét.</l>
+              <l rend="indent">Y que 's morin las plantas</l>
+              <l>també bastán me agrada,</l>
+              <l>que hi háigi grán secada</l>
+              <l>y tot mori de sét.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Me agrada veurer un ámo</l>
+              <l>ben ipócrita y raro,</l>
+              <l>ben egüista y avaro</l>
+              <l>y forsa regañós.</l>
+              <l rend="indent">Que tot lo dia cridi</l>
+              <l>y que se enfadi luego</l>
+              <l>y no dongui sosego</l>
+              <l>als seus traballadós.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Me agrada una madrasta</l>
+              <l>de aquellas tan dolentas</l>
+              <l>que may están contentas</l>
+              <l>y tiran pel seu rám.</l>
+              <l rend="indent">Que pegui als seus fillastres</l>
+              <l>perque son tots criaturas</l>
+              <l>fentlos passá amarguras</l>
+              <l>matán á tols de fám.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Me agrada mol veurer</l>
+              <l>la bojeria entera,</l>
+              <l>gent de tota manera</l>
+              <l>tots bruts y esquinsats.</l>
+              <l rend="indent">Veurer lo pare dels locos</l>
+              <l>entre aquells homenassos</l>
+              <l>rompén á tots los nassos</l>
+              <l>donánlos estufáts.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Me agrada una masia</l>
+              <l>cuan hi vá captá un pobra</l>
+              <l>demanán si álgo sobra,</l>
+              <l>y 'l pagan ab rahóns.</l>
+              <l rend="indent">Veurer un gós com l' aburda</l>
+              <l>ab la boca badada</l>
+              <l>y ab una mossegada</l>
+              <l>se li endú 'ls pantalóns.</l>
+            </lg>
+
+            <pb n="4" source="Varios_080_4.jpg" facs="varios/Varios_080_4.jpg/"/>
+
+            <lg>
+              <l rend="indent">Me agrada la miséria</l>
+              <l>que un traballadó passa</l>
+              <l>anán la féyna escassa</l>
+              <l>sense tení un calé.</l>
+              <l rend="indent">Ab la mullé malalta,</l>
+              <l>nóys que de fám no hi veuhen</l>
+              <l>y que de casa 'ls treuhen</l>
+              <l>per no pagá 'l llugué.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Me agrada á mi una noya</l>
+              <l>que sigui tortamuda,</l>
+              <l>mitg guertxa y geperuda</l>
+              <l>y que tingui mols máls.</l>
+              <l rend="indent">Que sigui coixa y nana,</l>
+              <l>tonta com una malva</l>
+              <l>que sigui bastán calva</l>
+              <l>sense dens ni caixáls.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Me agrada veurer un quinto</l>
+              <l>mitg dominat pel vissi,</l>
+              <l>cuan apren lo exercici</l>
+              <l>y es rúch com un pané.</l>
+              <l rend="indent">Que 'l jefe que l'ensenya</l>
+              <l>sigui dolén de veras</l>
+              <l>que á clatallóts y á peras</l>
+              <l>lo deixi fet malbé.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Me agrada veurer un xato</l>
+              <l>que háigi de purtá ulleras</l>
+              <l>cuan de totas maneras</l>
+              <l>sempre li están cayén.</l>
+              <l rend="indent">Com es tan curt de vista</l>
+              <l>no veu cap carrillada</l>
+              <l>y ab una ensopegada</l>
+              <l>se rom lo entenimént.</l>
+            </lg>
+            <lg>
+              <l rend="indent">L' istiu tambe me agrada</l>
+              <l>no anán may á las foscas</l>
+              <l>que hi háigi forsa moscas</l>
+              <l>que 't fassin consumí.</l>
+              <l rend="indent">Lo llit ben plé de pussas</l>
+              <l>cohins que mortifiquin</l>
+              <l>que tot sovin te piquin</l>
+              <l>y no 't déixin dormí.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Me agrada una guitarra</l>
+              <l>ab las veus destempladas</l>
+              <l>las cordas esmuladas,</l>
+              <l>la saliva mi creix.</l>
+              <l rend="indent">no sápiga 'l que toca,</l>
+              <l>Que el ximple que la agafa</l>
+              <l>y que aquéll gran tanoca</l>
+              <l>sempra toqui 'l mateix.</l>
+            </lg>
+            <lg>
+              <l rend="indent">ab mirada tranquila,</l>
+              <l>Me agrada també veurer</l>
+              <l>lo tren com descarrila</l>
+              <l>fen grán atrossitát.</l>
+              <l rend="indent">y 'l demés que si enreda,</l>
+              <l>Los pasatjés fets trossos</l>
+              <l>y aixi 'l que esguerrát queda</l>
+              <l>no aurá de aná á suldát.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Me agrada 'l menjá palla,</l>
+              <l>y cruas las sardinas,</l>
+              <l>rabassóns y fayxinas</l>
+              <l>ya s dich que es bon menjá.</l>
+              <l rend="indent">Los náps també me agradan</l>
+              <l>sense avéy sal ni óli,</l>
+              <l>y per beura patróli</l>
+              <l>sal fumán y quitrá.</l>
+            </lg>
+            <lg>
+              <l rend="indent">La mar també me agrada</l>
+              <l>si 'ls marinés navegan;</l>
+              <l>si vey dos com se ofegan</l>
+              <l>llavórs es cuan me enrich.</l>
+              <l rend="indent">Cuan l'un se aferra ab l'altre,</l>
+              <l>ab crits que alli 's cunfonan...</l>
+              <l>y cuan tot dos se enfonan</l>
+              <l>no eu vist res tan bonich.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Me agrada á mi una cosa</l>
+              <l>ni que á ningú no agradi,</l>
+              <l>y es que totóm se enfadi</l>
+              <l>sense sabé perqué.</l>
+              <l rend="indent">De di lo mateix sempre</l>
+              <l>tinch la boca cansada:</l>
+              <l>de tan que tót me agrada</l>
+              <l>ya no me agrada ré....</l>
+            </lg>
+            <p>YA ESTA ACABAT.</p>
+            <p rend="cursiva"><lb/>(Es propietat de Joan Grau.)</p>
+          </div>
         </div>
-        <pb n="3" source="Varios_080_3.jpg" facs="fedora_Varios_080_3/full/full/0/default.jpg"/>
-        <div type="parte" n="2">
-          <head type="titulo_cancion"><lb/>PARÓDIA DEL DELIRI DE ESPRONCEDA,</head>
-          <p><lb/>escrit ab uns disbaráts que cantan lo credo per J. F. (a).
-                                    Q.</p>
-          <lg>
-            <l>Me agrada á la taverna</l>
-            <l>estarmi allí un bon rato:</l>
-            <l>que váygi 'l vi barato</l>
-            <l>y ab forsa patricóns.</l>
-            <l>Senti 'ls homens com cridan</l>
-            <l>arrencanse 'ls mustatxos,</l>
-            <l>y alli cuatre burratxos</l>
-            <l>movén forsa rahóns.</l>
-          </lg>
-          <lg>
-            <l>Me agradan dugas donas</l>
-            <l>barallanse á trumpadas,</l>
-            <l>totas espiolxadas</l>
-            <l>y 'l cáp con una cól.</l>
-            <l>Cuan ne diu l'una á l' altre</l>
-            <l>bacona y pu.....tinera,</l>
-            <l>parlán de tal manera</l>
-            <l>trayén drapéts al sol.</l>
-          </lg>
-          <lg>
-            <l>Me agrada mol un pillo</l>
-            <l>tot esquinsát de roba,</l>
-            <l>veurer com un pá roba</l>
-            <l>mes destre que un falcó.</l>
-            <l>Agutsils que 'l empáytin</l>
-            <l>anán al seu derrera,</l>
-            <l>y éll sense cap quimera</l>
-            <l>va tucán pirandó.</l>
-          </lg>
-          <lg>
-            <l>Me agrada veurer un carro</l>
-            <l>cuan l' animál desboca</l>
-            <l>y á la terra no toca</l>
-            <l>de tan afurién.</l>
-            <l>Criaturas per terra</l>
-            <l>semblán lo espáy que troni</l>
-            <l>y ab crits de Santantoni</l>
-            <l>fuigí tota la gént.</l>
-          </lg>
-          <lg>
-            <l>Me agrada veurer 'l cólera</l>
-            <l>armát portán la dalla;</l>
-            <l>cuan ningu no treballa</l>
-            <l>y pléns de mala sórt.</l>
-            <l>Veurer portas tancadas</l>
-            <l>sentir ays de agonía,</l>
-            <l>y á tota fisomia</l>
-            <l>veurer pintada la mórt.</l>
-          </lg>
-          <lg>
-            <l>Me agrada un any que hi háigi</l>
-            <l>una malura entera</l>
-            <l>també la filoxera</l>
-            <l>y que fassi bon frét.</l>
-            <l>Y que 's morin las plantas</l>
-            <l>també bastán me agrada,</l>
-            <l>que hi háigi grán secada</l>
-            <l>y tot mori de sét.</l>
-          </lg>
-          <lg>
-            <l>Me agrada veurer un ámo</l>
-            <l>ben ipócrita y raro,</l>
-            <l>ben egüista y avaro</l>
-            <l>y forsa regañós.</l>
-            <l>Que tot lo dia cridi</l>
-            <l>y que se enfadi luego</l>
-            <l>y no dongui sosego</l>
-            <l>als seus traballadós.</l>
-          </lg>
-          <lg>
-            <l>Me agrada una madrasta</l>
-            <l>de aquellas tan dolentas</l>
-            <l>que may están contentas</l>
-            <l>y tiran pel seu rám.</l>
-            <l>Que pegui als seus fillastres</l>
-            <l>perque son tots criaturas</l>
-            <l>fentlos passá amarguras</l>
-            <l>matán á tols de fám.</l>
-          </lg>
-          <lg>
-            <l>Me agrada mol veurer</l>
-            <l>la bojeria entera,</l>
-            <l>gent de tota manera</l>
-            <l>tots bruts y esquinsats.</l>
-            <l>Veurer lo pare dels locos</l>
-            <l>entre aquells homenassos</l>
-            <l>rompén á tots los nassos</l>
-            <l>donánlos estufáts.</l>
-          </lg>
-          <lg>
-            <l>Me agrada una masia</l>
-            <l>cuan hi vá captá un pobra</l>
-            <l>demanán si álgo sobra,</l>
-            <l>y 'l pagan ab rahóns.</l>
-            <l>Veurer un gós com l' aburda</l>
-            <l>ab la boca badada</l>
-            <l>y ab una mossegada</l>
-            <l>se li endú 'ls pantalóns.</l>
-          </lg>
-          <pb n="4" source="Varios_080_4.jpg" facs="fedora_Varios_080_4/full/full/0/default.jpg"/>
-          <lg>
-            <l>Me agrada la miséria</l>
-            <l>que un traballadó passa</l>
-            <l>anán la féyna escassa</l>
-            <l>sense tení un calé.</l>
-            <l>Ab la mullé malalta,</l>
-            <l>nóys que de fám no hi veuhen</l>
-            <l>y que de casa 'ls treuhen</l>
-            <l>per no pagá 'l llugué.</l>
-          </lg>
-          <lg>
-            <l>Me agrada á mi una noya</l>
-            <l>que sigui tortamuda,</l>
-            <l>mitg guertxa y geperuda</l>
-            <l>y que tingui mols máls.</l>
-            <l>Que sigui coixa y nana,</l>
-            <l>tonta com una malva</l>
-            <l>que sigui bastán calva</l>
-            <l>sense dens ni caixáls.</l>
-          </lg>
-          <lg>
-            <l>Me agrada veurer un quinto</l>
-            <l>mitg dominat pel vissi,</l>
-            <l>cuan apren lo exercici</l>
-            <l>y es rúch com un pané.</l>
-            <l>Que 'l jefe que l'ensenya</l>
-            <l>sigui dolén de veras</l>
-            <l>que á clatallóts y á peras</l>
-            <l>lo deixi fet malbé.</l>
-          </lg>
-          <lg>
-            <l>Me agrada veurer un xato</l>
-            <l>que háigi de purtá ulleras</l>
-            <l>cuan de totas maneras</l>
-            <l>sempre li están cayén.</l>
-            <l>Com es tan curt de vista</l>
-            <l>no veu cap carrillada</l>
-            <l>y ab una ensopegada</l>
-            <l>se rom lo entenimént.</l>
-          </lg>
-          <lg>
-            <l>L' istiu tambe me agrada</l>
-            <l>no anán may á las foscas</l>
-            <l>que hi háigi forsa moscas</l>
-            <l>que 't fassin consumí.</l>
-            <l>Lo llit ben plé de pussas</l>
-            <l>cohins que mortifiquin</l>
-            <l>que tot sovin te piquin</l>
-            <l>y no 't déixin dormí.</l>
-          </lg>
-          <lg>
-            <l>Me agrada una guitarra</l>
-            <l>ab las veus destempladas</l>
-            <l>las cordas esmuladas,</l>
-            <l>la saliva mi creix.</l>
-            <l>no sápiga 'l que toca,</l>
-            <l>Que el ximple que la agafa</l>
-            <l>y que aquéll gran tanoca</l>
-            <l>sempra toqui 'l mateix.</l>
-          </lg>
-          <lg>
-            <l>ab mirada tranquila,</l>
-            <l>Me agrada també veurer</l>
-            <l>lo tren com descarrila</l>
-            <l>fen grán atrossitát.</l>
-            <l>y 'l demés que si enreda,</l>
-            <l>Los pasatjés fets trossos</l>
-            <l>y aixi 'l que esguerrát queda</l>
-            <l>no aurá de aná á suldát.</l>
-          </lg>
-          <lg>
-            <l>Me agrada 'l menjá palla,</l>
-            <l>y cruas las sardinas,</l>
-            <l>rabassóns y fayxinas</l>
-            <l>ya s dich que es bon menjá.</l>
-            <l>Los náps també me agradan</l>
-            <l>sense avéy sal ni óli,</l>
-            <l>y per beura patróli</l>
-            <l>sal fumán y quitrá.</l>
-          </lg>
-          <lg>
-            <l>La mar també me agrada</l>
-            <l>si 'ls marinés navegan;</l>
-            <l>si vey dos com se ofegan</l>
-            <l>llavórs es cuan me enrich.</l>
-            <l>Cuan l'un se aferra ab l'altre,</l>
-            <l>ab crits que alli 's cunfonan...</l>
-            <l>y cuan tot dos se enfonan</l>
-            <l>no eu vist res tan bonich.</l>
-          </lg>
-          <lg>
-            <l>Me agrada á mi una cosa</l>
-            <l>ni que á ningú no agradi,</l>
-            <l>y es que totóm se enfadi</l>
-            <l>sense sabé perqué.</l>
-            <l>De di lo mateix sempre</l>
-            <l>tinch la boca cansada:</l>
-            <l>de tan que tót me agrada</l>
-            <l>ya no me agrada ré....</l>
-          </lg>
-          <p><lb/>(Es propietat de Joan Grau.)</p>
-          <p/>
-          <trailer>YA ESTA ACABAT.</trailer>
-        </div>
+
         <div type="colofon">
-          <p><lb/>REUS. –En la llibrería de Joan Grau,</p>
-        </div>
-        <div type="productos_a_la_venta ">
-          <p>hi ha gran surtit de romansos, historias, llibrets, come¬dias,
-                                    sainetes, paper per escriure, capsas de cerillas y llibrets per
-                                    fumar </p>
+          <p><lb/>REUS. –En la llibrería de Joan Grau, hi ha gran surtit de romansos, historias, llibrets, come¬dias, sainetes, paper per
+            escriure, capsas de cerillas y llibrets per fumar.</p>
         </div>
       </div>
     </body>

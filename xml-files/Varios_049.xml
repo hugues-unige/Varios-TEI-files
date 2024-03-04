@@ -1,19 +1,17 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../Schema/oddPliego_varios.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:alto="http://www.loc.gov/standards/alto/ns-v4#" xml:id="Varios_049">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Varios_049">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title><lb/>POLKA EL PILÉ. NUEVA TRIQUINA.</title>
+        <title>POLKA EL PILÉ</title>
         <respStmt>
           <name/>
           <resp>Codificación TEI</resp>
-          <note type="propiedad">Pajoly Castell</note>
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <authority role="rightsHolder">Bibliothèque Universitaire de
-                              Genève</authority>
+        <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
         <availability status="restricted">
           <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
         </availability>
@@ -21,17 +19,16 @@
       <sourceDesc>
         <biblFull>
           <titleStmt>
-            <title type="titulo_completo">POLKA EL PILÉ. NUEVA
-                                          TRIQUINA.</title>
+            <title type="titulo_completo">POLKA EL PILÉ. NUEVA TRIQUINA.</title>
             <title type="titulo_breve">POLKA EL PILÉ.</title>
           </titleStmt>
           <editionStmt>
             <p/>
           </editionStmt>
           <publicationStmt>
-            <publisher>Barcelona</publisher>
-            <pubPlace ref="https://www.geonames.org/3128760/barcelona.html">Barcelona, Asalto, n.° 69.</pubPlace>
-            <date>[s.a]</date>
+            <publisher>Imprenta Peninsular</publisher>
+            <pubPlace ref="https://www.geonames.org/3128760/barcelona.html">Barcelona</pubPlace>
+            <date cert="low" when="1800-01-01">[s.a.]</date>
           </publicationStmt>
         </biblFull>
         <msDesc>
@@ -39,7 +36,8 @@
             <country>Suisse</country>
             <settlement>Genève</settlement>
             <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"/>
-                                    </repository>
+            </repository>
+            <collection>Colección Varios</collection>
             <idno type="cote"/>
             <idno type="DOI">10.5281/zenodo.6556271</idno>
             <altIdentifier>
@@ -47,10 +45,14 @@
             </altIdentifier>
           </msIdentifier>
           <msContents>
-            <summary/>
+            <summary>Dos canciones</summary>
             <msItem>
-              <locus/>
-              <title/>
+              <locus>1-2</locus>
+              <title>Polka el pilé. Nueva triquina.</title>
+            </msItem>
+            <msItem>
+              <locus>3-4</locus>
+              <title>Las tres flores. Americana.</title>
             </msItem>
           </msContents>
           <physDesc>
@@ -68,7 +70,7 @@
               </layoutDesc>
             </objectDesc>
             <decoDesc>
-              <summary n="2">Dos (p.1 + 3) </summary>
+              <summary n="2">Dos grabados (p. 1, 3)</summary>
               <decoNote type="lista_grabados">
                 <list>
                   <item corresp="grabado_v_049_1.xml">grabado_v_049_1</item>
@@ -83,8 +85,8 @@
               <p>Barcelona.—Imprenta Peninsular, Asalto, n.° 69.</p>
             </origin>
             <provenance>
-              <p>Se hala de venta en casa los Sucesores de Antonio
-                                                Bosch, Bon de la Plaza Nueva, n.° 13.</p>
+              <p>Se hala de venta en casa los Sucesores de Antonio Bosch, Bon de la Plaza Nueva, n.°
+                13.</p>
             </provenance>
             <acquisition/>
           </history>
@@ -93,18 +95,17 @@
     </fileDesc>
     <encodingDesc>
       <projectDesc>
-        <p>Este archivo fue creado en el marco del proyecto Desenrollando el
-                              Cordel/Démêler le cordel/Untangling the cordel, dirigido por la
-                              profesora Constance Carta de la Universidad de Ginebra, con el apoyo
-                              de la Fundación filantrópica Famille Sandoz-Monique de Meuron.</p>
+        <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+          cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la Universidad
+          de Ginebra, con el apoyo de la Fundación filantrópica Famille Sandoz-Monique de
+          Meuron.</p>
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR non corregido</p>
+          <p>OCR no corregido</p>
         </correction>
         <normalization>
-          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto
-                                    original.</p>
+          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
         </normalization>
         <punctuation>
           <p>Se conserva la puntuación original.</p>
@@ -125,11 +126,12 @@
       </textClass>
     </profileDesc>
     <revisionDesc>
-      <change when="2022-05-15" who="#PJ">Création du fichier TEI P5 et encodage du
-                        corps du texte</change>
+      <change when="2022-05-15" who="#PJ">Création du fichier TEI P5 et encodage du corps du
+        texte</change>
+<change when="2024-01-09" who="#EL">Add the IIIF links</change>
     </revisionDesc>
   </teiHeader>
-  <sourceDoc xml:id="automaticTranscription">
+  <facsimile><graphic url="varios/Varios_049_1.jpg/full/200,/0/default.jpg"/></facsimile><sourceDoc xml:id="automaticTranscription">
     <surface xml:id="Varios_049_1" type="page" cert="silver">
       <graphic url="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_049_1/full/full/0/default.jpg"/>
       <zone xml:id="Varios_049_1_BT223_1" n="1" type="CustomZone" subtype="title" points="1743,1548 1586,1564 1266,1564 1266,1617 1477,1617 1506,1647 1515,1724 1480,1741 842,1724 589,1739 589,1724 331,1724 331,1596 386,1596 386,1541 282,1541 278,1531 96,1522 114,1340 1673,1349 1717,1367 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_049_1/96,1340,1647,401/full/0/default" corresp="CustomZone:title">
@@ -1022,8 +1024,8 @@
       <zone xml:id="Varios_049_4_BT228_4" n="4" type="MarginTextZone" subtype="colophon" points="218,2323 218,2426 1628,2426 1628,2311 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_049_4/218,2311,1410,115/full/0/default" corresp="MarginTextZone:colophon">
         <zone xml:id="Varios_049_4_BT228_4_LT83_1" type="DefaultLine" subtype="none" points="239,2366 236,2309 1511,2317 1513,2317 1539,2304 1539,2304 1539,2304 1541,2304 1541,2304 1544,2304 1544,2304 1544,2304 1546,2304 1546,2304 1577,2317 1579,2363 1577,2394 1313,2394 1311,2392 1311,2392 1309,2392 1309,2392 1309,2392 1307,2392 1307,2392 1307,2390 1287,2374 1261,2385 1261,2385 1259,2385 1259,2385 1259,2385 1256,2385 1256,2385 1169,2374 715,2374 658,2383 644,2385 644,2385 642,2385 642,2385 611,2383 504,2374 401,2377 397,2381 388,2390 388,2392 388,2392 386,2392 386,2392 386,2392 383,2392 383,2392 383,2392 381,2392 236,2379 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_049_4/236,2304,1343,90/full/0/default" corresp="DefaultLine">
           <path xml:id="Varios_049_4_BT228_4_LT83_1_1" points="241,2367 1580,2366 "/>
-          <line>Se hala de venta en casa los Sucesores de Antonio Bosch, Bon de
-                                    la Plaza Nueva, n.° 13.</line>
+          <line>Se hala de venta en casa los Sucesores de Antonio Bosch, Bon de la Plaza Nueva, n.°
+            13.</line>
         </zone>
         <zone xml:id="Varios_049_4_BT228_4_LT83_2" type="DefaultLine" subtype="none" points="508,2405 506,2363 1309,2366 1313,2401 1311,2440 929,2429 914,2442 914,2444 914,2444 912,2444 912,2444 912,2444 912,2444 910,2444 910,2444 908,2444 908,2444 908,2444 905,2444 905,2444 905,2444 905,2444 903,2444 883,2431 783,2431 761,2444 758,2444 758,2444 758,2444 756,2444 756,2444 754,2444 754,2444 754,2444 752,2444 752,2444 752,2444 750,2444 750,2444 750,2442 736,2431 697,2431 655,2444 653,2444 653,2444 653,2444 508,2447 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_049_4/506,2363,807,84/full/0/default" corresp="DefaultLine">
           <path xml:id="Varios_049_4_BT228_4_LT83_2_1" points="508,2405 1313,2401 "/>
@@ -1041,280 +1043,295 @@
   <text>
     <body>
       <div>
-        <pb n="1" source="Varios_049_1.jpg" facs="fedora_Varios_049_1/full/full/0/default.jpg"/>
-        <head type="primer_titulo"><lb/>POLKA EL PILÉ.<lb/>NUEVA TRIQUINA.</head>
-        <div n="1" type="parte">
-          <head type="titulo_cancion"><lb/>NUEVA TRIQUINA.</head>
-          <lg>
-            <l>Voy á deciros del amor</l>
-            <l>lo que á las niñas pasará</l>
-            <l>si no demuestran corazon</l>
-            <l>y al que primero pase</l>
-            <l>su cariño dan.</l>
-          </lg>
-          <lg>
-            <l>Es necesario ver</l>
-            <l>si es un jóven formal</l>
-            <l>ó para entretener</l>
-            <l>amor viene á bnscar.</l>
-            <l>Si tiene el corazon</l>
-            <l>dispuesto para amar</l>
-            <l>con aficion</l>
-          </lg>
-          <lg>
-            <l>Sin cesar</l>
-            <l>os mirará</l>
-            <l>y el amor</l>
-            <l>os fingirá;</l>
-            <l>ojo pues</l>
-            <l>que algun min</l>
-            <l>no os engañe</l>
-            <l>con mal fin.</l>
-          </lg>
-          <lg>
-            <l>Los mozos del dia</l>
-            <l>que Satanás mas pilluelos son,</l>
-            <l>no os fieis de ninguno</l>
-            <l>que son todos iguales hoy,</l>
-            <l>y á las que los creen</l>
-          </lg>
-          <pb n="2" source="Varios_049_2.jpg" facs="fedora_Varios_049_2/full/full/0/default.jpg"/>
-          <fw type="paginaNum">2</fw>
-          <lg>
-            <l>merecen si les sucede mal,</l>
-            <l>que son todos santos</l>
-            <l>con la piel de Satanás.</l>
-          </lg>
-          <lg>
-            <l>En el Casino Universal</l>
-            <l>de la Canuda fuíme ayer</l>
-            <l>vi las muchachas con su sal</l>
-            <l>bailar con sus amantes</l>
-            <l>el baile el pilé.</l>
-          </lg>
-          <lg>
-            <l>En brazos del galan</l>
-            <l>una niña pasó</l>
-            <l>y al mirarme al pasar</l>
-            <l>se me ruborizó.</l>
-            <l>Despues la fuí á buscar</l>
-            <l>y conmigo bailó</l>
-            <l>con gran afan.</l>
-          </lg>
-          <lg>
-            <l>Me escuchó</l>
-            <l>lo que conté</l>
-            <l>y creyó</l>
-            <l>yo no sé qué.</l>
-            <l>La ofrecí</l>
-            <l>mi dulce amor</l>
-            <l>y al momento</l>
-            <l>lo tomó.</l>
-          </lg>
-          <lg>
-            <l>Fáciles las niñas</l>
-            <l>son las que van á los bailes hoy</l>
-            <l>y les pasa el tiempo</l>
-            <l>y con este al fin la ocasion.</l>
-            <l>Y por vestir santos</l>
-            <l>algunas que creen bellas ser</l>
-            <l>se quedan al cabo</l>
-            <l>y hurañas suelen volver.</l>
-          </lg>
-          <lg>
-            <l>Tiene Cupido dios del'amor</l>
-            <l>unas partidas sin igual</l>
-            <l>que á los muchachos por favor,</l>
-            <l>á veces les consuelan</l>
-            <l>de tan grave mal.</l>
-          </lg>
-          <lg>
-            <l>Apunta al corazon</l>
-            <l>del hombre mas formal</l>
-            <l>y quita su corazon</l>
-            <l>un saco de percal,</l>
-            <l>O bien un polizon</l>
-            <l>es causa de su mal</l>
-            <l>sin curacion.</l>
-          </lg>
-          <lg>
-            <l>Pronto van</l>
-            <l>sin ton ni son</l>
-            <l>sin hallar</l>
-            <l>nada mejor</l>
-            <l>que aquel ser</l>
-            <l>tan especial</l>
-            <l>que es muchacha</l>
-            <l>por su mal.</l>
-          </lg>
-          <lg>
-            <l>Luego se desespera</l>
-            <l>y solo la culpa tiene él;</l>
-            <l>la mujer maldice</l>
-            <l>y con ella al cabo es cruel.</l>
-            <l>Y cuando no tiene</l>
-            <l>una niña a quien mirar ó ver</l>
-            <l>los pelos se arranca</l>
-            <l>y da contra la pared.</l>
-          </lg>
-          <lg>
-            <l>Junto á la reja va el galan</l>
-            <l>para sus penas reponer</l>
-            <l>que ya lé espera con alan</l>
-            <l>la que con engaños</l>
-            <l>se hace querer.</l>
-            <l>Despues de hablar con él</l>
-            <l>y de decirle adios,</l>
-            <l>ya se olvida del fiel</l>
-            <l>y piensa en otros dos</l>
-            <l>y como no es cruel</l>
-            <l>de todos anda en pos</l>
-            <l>sin oir á Dios.</l>
-          </lg>
-          <lg>
-            <l>Vuelve aquel</l>
-            <l>que se marchó</l>
-            <l>y la infiel</l>
-            <l>le finge amor.</l>
-            <l>Con afan</l>
-            <l>le dice al fin</l>
-            <l>que le causa</l>
-            <l>gran tilin.</l>
-          </lg>
-          <lg>
-            <l>A todos lo mismo</l>
-            <l>asegura y no es mentira, no</l>
-            <l>que de igual manera</l>
-            <l>por ella atendidos son,</l>
-            <l>Y si alguno pesca</l>
-            <l>este cree al solo amante ser</l>
-            <l>y mira á su esposa</l>
-            <l>como la mas fiel mujer.</l>
-          </lg>
-          <pb n="3" source="Varios_049_3.jpg" facs="fedora_Varios_049_3/full/full/0/default.jpg"/>
+        <div>
+          <pb n="1" source="Varios_049_1.jpg" facs="varios/Varios_049_1.jpg/"/>
+
+          <head type="primer_titulo"><lb/><hi rend="negrita">POLKA EL PILÉ.</hi><lb/>NUEVA
+            TRIQUINA.</head>
+
+          <div n="1">
+            <head type="titulo_cancion"><lb/>NUEVA TRIQUINA.</head>
+
+            <lg>
+              <l rend="indent">Voy á deciros del amor</l>
+              <l>lo que á las niñas pasará</l>
+              <l>si no demuestran corazon</l>
+              <l>y al que primero pase</l>
+              <l>su cariño dan.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Es necesario ver</l>
+              <l>si es un jóven formal</l>
+              <l>ó para entretener</l>
+              <l>amor viene á bnscar.</l>
+              <l rend="indent">Si tiene el corazon</l>
+              <l>dispuesto para amar</l>
+              <l>con aficion</l>
+            </lg>
+            <lg>
+              <l rend="indent">Sin cesar</l>
+              <l>os mirará</l>
+              <l>y el amor</l>
+              <l>os fingirá;</l>
+              <l>ojo pues</l>
+              <l>que algun min</l>
+              <l>no os engañe</l>
+              <l>con mal fin.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Los mozos del dia</l>
+              <l>que Satanás mas pilluelos son,</l>
+              <l rend="indent">no os fieis de ninguno</l>
+              <l>que son todos iguales hoy,</l>
+              <l rend="indent">y á las que los creen</l>
+
+              <pb n="2" source="Varios_049_2.jpg" facs="varios/Varios_049_2.jpg/"/>
+
+              <fw type="paginaNum">2</fw>
+
+              <l>merecen si les sucede mal,</l>
+              <l rend="indent">que son todos santos</l>
+              <l>con la piel de Satanás.</l>
+            </lg>
+            <lg>
+              <l rend="indent">En el Casino Universal</l>
+              <l>de la Canuda fuíme ayer</l>
+              <l>vi las muchachas con su sal</l>
+              <l>bailar con sus amantes</l>
+              <l rend="indent">el baile el pilé.</l>
+            </lg>
+            <lg>
+              <l rend="indent">En brazos del galan</l>
+              <l>una niña pasó</l>
+              <l>y al mirarme al pasar</l>
+              <l>se me ruborizó.</l>
+              <l>Despues la fuí á buscar</l>
+              <l>y conmigo bailó</l>
+              <l rend="indent">con gran afan.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Me escuchó</l>
+              <l>lo que conté</l>
+              <l>y creyó</l>
+              <l>yo no sé qué.</l>
+              <l rend="indent">La ofrecí</l>
+              <l>mi dulce amor</l>
+              <l>y al momento</l>
+              <l>lo tomó.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Fáciles las niñas</l>
+              <l>son las que van á los bailes hoy</l>
+              <l rend="indent">y les pasa el tiempo</l>
+              <l>y con este al fin la ocasion.</l>
+              <l rend="indent">Y por vestir santos</l>
+              <l>algunas que creen bellas ser</l>
+              <l rend="indent">se quedan al cabo</l>
+              <l>y hurañas suelen volver.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Tiene Cupido dios del'amor</l>
+              <l>unas partidas sin igual</l>
+              <l>que á los muchachos por favor,</l>
+              <l>á veces les consuelan</l>
+              <l rend="indent">de tan grave mal.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Apunta al corazon</l>
+              <l>del hombre mas formal</l>
+              <l>y quita su corazon</l>
+              <l>un saco de percal,</l>
+              <l>O bien un polizon</l>
+              <l>es causa de su mal</l>
+              <l rend="indent">sin curacion.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Pronto van</l>
+              <l>sin ton ni son</l>
+              <l>sin hallar</l>
+              <l>nada mejor</l>
+              <l>que aquel ser</l>
+              <l>tan especial</l>
+              <l>que es muchacha</l>
+              <l>por su mal.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Luego se desespera</l>
+              <l>y solo la culpa tiene él;</l>
+              <l rend="indent">la mujer maldice</l>
+              <l>y con ella al cabo es cruel.</l>
+              <l rend="indent">Y cuando no tiene</l>
+              <l>una niña a quien mirar ó ver</l>
+              <l rend="indent">los pelos se arranca</l>
+              <l rend="indent">y da contra la pared.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Junto á la reja va el galan</l>
+              <l>para sus penas reponer</l>
+              <l>que ya lé espera con alan</l>
+              <l>la que con engaños</l>
+              <l rend="indent">se hace querer.</l>
+              <l rend="indent">Despues de hablar con él</l>
+              <l>y de decirle adios,</l>
+              <l>ya se olvida del fiel</l>
+              <l>y piensa en otros dos</l>
+              <l>y como no es cruel</l>
+              <l>de todos anda en pos</l>
+              <l rend="indent">sin oir á Dios.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Vuelve aquel</l>
+              <l>que se marchó</l>
+              <l>y la infiel</l>
+              <l>le finge amor.</l>
+              <l rend="indent">Con afan</l>
+              <l>le dice al fin</l>
+              <l>que le causa</l>
+              <l>gran tilin.</l>
+            </lg>
+            <lg>
+              <l rend="indent">A todos lo mismo</l>
+              <l>asegura y no es mentira, no</l>
+              <l rend="indent">que de igual manera</l>
+              <l>por ella atendidos son,</l>
+              <l rend="indent">Y si alguno pesca</l>
+              <l>este cree al solo amante ser</l>
+              <l rend="indent">y mira á su esposa</l>
+              <l>como la mas fiel mujer.</l>
+            </lg>
+          </div>
+
+          <div n="2">
+            <pb n="3" source="Varios_049_3.jpg" facs="varios/Varios_049_3.jpg/"/>
+
+            <head type="titulo_cancion"><lb/><hi rend="negrita">LAS TRES
+              FLORES.</hi><lb/>AMERICANA.</head>
+
+            <lg>
+              <l rend="indent">Hay tres flores delicadas</l>
+              <l>de he rmosura y de color</l>
+              <l>y las tres enemoradas</l>
+              <l>las desvela el mismo amor.</l>
+              <l rend="indent">Rosa esbelta es la primera</l>
+              <l>de perfume celestial,</l>
+              <l>tiene llena el alma entera</l>
+              <l>de cariño divinal.</l>
+            </lg>
+            <lg>
+              <l>Son sus hojas</l>
+              <l>coloradas</l>
+              <l>cual el tinte</l>
+              <l>del rubor.</l>
+              <l>Como todas</l>
+              <l>tiene espinas</l>
+              <l>que se clavan</l>
+              <l>al traidor.</l>
+            </lg>
+
+            <pb n="4" source="Varios_049_4.jpg" facs="varios/Varios_049_4.jpg/"/>
+
+            <fw type="paginaNum">-4-</fw>
+
+            <lg>
+              <l rend="indent">De una linda mariposa</l>
+              <l>las tres descan la miel</l>
+              <l>que cual todas voluptuosa</l>
+              <l>en amor no es nunca fiel.</l>
+              <l>La flor bella se cimbrea</l>
+              <l>al mirarla á su redor</l>
+              <l>y la espera y la desea</l>
+              <l>cual la niña á su amador.</l>
+            </lg>
+            <lg>
+              <l rend="indent">De las tres la mas modesta</l>
+              <l>Violeta, en el jardin,</l>
+              <l>la recatada y honesta</l>
+              <l>sin pasion nunca ruin.</l>
+              <l rend="indent">Tambien quiere con desvelo</l>
+              <l>á la mariposa infiel,</l>
+              <l>es su cariño su cielo</l>
+              <l>y es la mariposa cruel.</l>
+              <l>Escondida</l>
+              <l>entre unas matas</l>
+              <l>no se atreve</l>
+              <l>á desplegar</l>
+              <l>Su belleza</l>
+              <l>sin segundo</l>
+              <l>que no tiene</l>
+              <l>flor igual.</l>
+              <l rend="indent">Es su corona penetrante</l>
+              <l>que embrioga al respirar,</l>
+              <l>tiene miedo del amante,</l>
+              <l>y le busca á su pesar.</l>
+              <l rend="indent">Mariposa turbulenta</l>
+              <l>á su cáliz llega al fin</l>
+              <l>y aquel beso que la alienta</l>
+              <l>es la envidia del jardin.</l>
+            </lg>
+            <lg>
+              <l rend="indent">La otra for es Azucena</l>
+              <l>que á la nieve envidia da</l>
+              <l>con su aroma el jardin llena</l>
+              <l>y aspirarla el aura vá.</l>
+              <l rend="indent">Cual la vírgen se relata</l>
+              <l>y no se atreve al amor</l>
+              <l>y en sus hojas se retrata</l>
+              <l>la inocencia y el candor.</l>
+            </lg>
+            <lg>
+              <l>Mariposa</l>
+              <l>atolondrada</l>
+              <l>no te acerques</l>
+              <l>al berjel.</l>
+              <l rend="indent">Que hay tres flores</l>
+              <l>que te adoran</l>
+              <l>y á ninguna</l>
+              <l>seras fiel.</l>
+              <l rend="indent">La Azucena por tí muere</l>
+              <l>y la causa serás tú,</l>
+              <l>mariposa á la flor hiere</l>
+              <l>que á tu alma vierte luz.</l>
+              <l rend="indent">La flor besa sin resabios</l>
+              <l>y liba su dulce miel</l>
+              <l>mortal herida en sus lábios</l>
+              <l>el amor lleva la infel.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Va le mariposa errante</l>
+              <l>satisfecha su pasion.</l>
+              <l>busca en vano algun amante</l>
+              <l>que le de su corazon.</l>
+              <l rend="indent">Ve una flor hermosa y bella.</l>
+              <l>que le mira con desden</l>
+              <l>no quiere no ser su bien,</l>
+              <l>Sin consuelo</l>
+              <l>el aire surca</l>
+              <l>maldiciendo</l>
+              <l>su pasion.</l>
+              <l rend="indent">Hasta entonces</l>
+              <l>venció á todos</l>
+              <l>ahora siente</l>
+              <l>su afliccion.</l>
+              <l rend="indent">Mariposa enemorada</l>
+              <l>no pretendes al clavel</l>
+              <l>que una niña agraciada</l>
+              <l>sus ojos ya puso en él.</l>
+              <l rend="indent">Ya reposa en dulce lecho</l>
+              <l>pues su mano le arrancó;</l>
+              <l>y en la ondulacion del pecho.</l>
+              <l>dulcemente se durmió.</l>
+            </lg>
+            <p rend="cursiva">Es propiedad de Pujol y Castell.</p>
+          </div>
         </div>
-        <div n="2" type="parte">
-          <head type="titulo_cancion"><lb/>LAS TRES FLORES.<lb/>AMERICANA.</head>
-          <lg>
-            <l>Hay tres flores delicadas</l>
-            <l>de he rmosura y de color</l>
-            <l>y las tres enemoradas</l>
-            <l>las desvela el mismo amor.</l>
-            <l>Rosa esbelta es la primera</l>
-            <l>de perfume celestial,</l>
-            <l>tiene llena el alma entera</l>
-            <l>de cariño divinal.</l>
-          </lg>
-          <lg>
-            <l>Son sus hojas</l>
-            <l>coloradas</l>
-            <l>cual el tinte</l>
-            <l>del rubor.</l>
-            <l>Como todas</l>
-            <l>tiene espinas</l>
-            <l>que se clavan</l>
-            <l>al traidor.</l>
-          </lg>
-          <pb n="4" source="Varios_049_4.jpg" facs="fedora_Varios_049_4/full/full/0/default.jpg"/>
-          <fw type="paginaNum">-4-</fw>
-          <lg>
-            <l>De una linda mariposa</l>
-            <l>las tres descan la miel</l>
-            <l>que cual todas voluptuosa</l>
-            <l>en amor no es nunca fiel.</l>
-            <l>La flor bella se cimbrea</l>
-            <l>al mirarla á su redor</l>
-            <l>y la espera y la desea</l>
-            <l>cual la niña á su amador.</l>
-          </lg>
-          <lg>
-            <l>De las tres la mas modesta</l>
-            <l>Violeta, en el jardin,</l>
-            <l>la recatada y honesta</l>
-            <l>sin pasion nunca ruin.</l>
-            <l>Tambien quiere con desvelo</l>
-            <l>á la mariposa infiel,</l>
-            <l>es su cariño su cielo</l>
-            <l>y es la mariposa cruel.</l>
-            <l>Escondida</l>
-            <l>entre unas matas</l>
-            <l>no se atreve</l>
-            <l>á desplegar</l>
-            <l>Su belleza</l>
-            <l>sin segundo</l>
-            <l>que no tiene</l>
-            <l>flor igual.</l>
-            <l>Es su corona penetrante</l>
-            <l>que embrioga al respirar,</l>
-            <l>tiene miedo del amante,</l>
-            <l>y le busca á su pesar.</l>
-            <l>Mariposa turbulenta</l>
-            <l>á su cáliz llega al fin</l>
-            <l>y aquel beso que la alienta</l>
-            <l>es la envidia del jardin.</l>
-          </lg>
-          <lg>
-            <l>La otra for es Azucena</l>
-            <l>que á la nieve envidia da</l>
-            <l>con su aroma el jardin llena</l>
-            <l>y aspirarla el aura vá.</l>
-            <l>Cual la vírgen se relata</l>
-            <l>y no se atreve al amor</l>
-            <l>y en sus hojas se retrata</l>
-            <l>la inocencia y el candor.</l>
-          </lg>
-          <lg>
-            <l>Mariposa</l>
-            <l>atolondrada</l>
-            <l>no te acerques</l>
-            <l>al berjel.</l>
-            <l>Que hay tres flores</l>
-            <l>que te adoran</l>
-            <l>y á ninguna</l>
-            <l>seras fiel.</l>
-            <l>La Azucena por tí muere</l>
-            <l>y la causa serás tú,</l>
-            <l>mariposa á la flor hiere</l>
-            <l>que á tu alma vierte luz.</l>
-            <l>La fior besa sin resabios</l>
-            <l>y liba su dulce miel</l>
-            <l>mortal herida en sus lábios</l>
-            <l>el amor lleva la infel.</l>
-          </lg>
-          <lg>
-            <l>Va le mariposa errante</l>
-            <l>satisfecha su pasion.</l>
-            <l>busca en vano algun amante</l>
-            <l>que le de su corazon.</l>
-            <l>Ve una flor hermosa y bella.</l>
-            <l>que le mira con desden</l>
-            <l>no quiere no ser su bien,</l>
-            <l>Sin consuelo</l>
-            <l>el aire surca</l>
-            <l>maldiciendo</l>
-            <l>su pasion.</l>
-            <l>Hasta entonces</l>
-            <l>venció á todos</l>
-            <l>ahora siente</l>
-            <l>su afliccion.</l>
-            <l>Mariposa enemorada</l>
-            <l>no pretendes al clavel</l>
-            <l>que una niña agraciada</l>
-            <l>sus ojos ya puso en él.</l>
-            <l>Ya reposa en dulce lecho</l>
-            <l>pues su mano le arrancó;</l>
-            <l>y en la ondulacion del pecho.</l>
-            <l>dulcemente se durmió.</l>
-          </lg>
-          <p><lb/>Es propiedad de Pajoly Castell.</p>
-        </div>
+        
         <div type="colofon_vendedor">
-          <p><lb/>Se hala de venta en casa los Sucesores de Antonio
-                                          Bosch, Bon de la Plaza Nueva, n.° 13.</p>
+          <p><lb/>Se hala de venta en casa los Sucesores de Antonio Bosch, Bon de la Plaza Nueva,
+            n.° 13.</p>
         </div>
+        
         <div type="colofon_impresora">
-          <p><lb/>Barcelona.—Imprenta
-                                          Peninsular, Asalto, n.° 69.</p>
+          <p><lb/>Barcelona.—Imprenta Peninsular, Asalto, n.° 69.</p>
         </div>
       </div>
     </body>

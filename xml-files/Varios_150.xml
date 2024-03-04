@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../Schema/oddPliego_varios.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:alto="http://www.loc.gov/standards/alto/ns-v4#" xml:id="Varios_150">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Varios_150">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -11,8 +11,7 @@
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <authority role="rightsHolder">Bibliothèque Universitaire de
-                            Genève</authority>
+        <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
         <availability status="restricted">
           <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
         </availability>
@@ -21,15 +20,15 @@
         <biblFull>
           <titleStmt>
             <title type="titulo_completo">Decimas glosadas</title>
-            <title type="titulo_breve">Decimas glosadas</title>
+            <title type="titulo_breve"/>
           </titleStmt>
           <editionStmt>
             <p/>
           </editionStmt>
           <publicationStmt>
-            <publisher>Imprenta de Blas Bellver</publisher>
+            <publisher>Blas Bellver</publisher>
             <pubPlace ref="https://www.geonames.org/2516345/xativa.html">Xàtiva</pubPlace>
-            <date cert="high">1847</date>
+            <date cert="high" when="1847-01-01">1847</date>
           </publicationStmt>
         </biblFull>
         <msDesc>
@@ -37,7 +36,8 @@
             <country>Suisse</country>
             <settlement>Genève</settlement>
             <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"/>
-                  </repository>
+            </repository>
+            <collection>Colección Varios</collection>
             <idno type="cote"/>
             <idno type="DOI">10.5281/zenodo.6586669</idno>
             <altIdentifier>
@@ -45,10 +45,14 @@
             </altIdentifier>
           </msIdentifier>
           <msContents>
-            <summary/>
+            <summary>Dos canciones</summary>
             <msItem>
-              <locus/>
-              <title/>
+              <locus>1-4</locus>
+              <title>Decimas glosadas.</title>
+            </msItem>
+            <msItem>
+              <locus>4</locus>
+              <title>Trovos</title>
             </msItem>
           </msContents>
           <physDesc>
@@ -66,8 +70,7 @@
               </layoutDesc>
             </objectDesc>
             <decoDesc>
-              <summary n="2">Dos grabados
-                                        (p.1) </summary>
+              <summary n="2">Dos grabados (p.1)</summary>
               <decoNote type="lista_grabados">
                 <list>
                   <item corresp="grabado_v_150_1.xml">grabado_v_150_1</item>
@@ -89,18 +92,17 @@
     </fileDesc>
     <encodingDesc>
       <projectDesc>
-        <p>Este archivo fue creado en el marco del proyecto Desenrollando el
-                            Cordel/Démêler le cordel/Untangling the cordel, dirigido por la
-                            profesora Constance Carta de la Universidad de Ginebra, con el apoyo de
-                            la Fundación filantrópica Famille Sandoz-Monique de Meuron.</p>
+        <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+          cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la Universidad
+          de Ginebra, con el apoyo de la Fundación filantrópica Famille Sandoz-Monique de
+          Meuron.</p>
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR non corregido</p>
+          <p>OCR no corregido</p>
         </correction>
         <normalization>
-          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto
-                                original.</p>
+          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
         </normalization>
         <punctuation>
           <p>Se conserva la puntuación original.</p>
@@ -113,8 +115,7 @@
       </langUsage>
       <textClass>
         <keywords xml:base="http://datos.bne.es/tema/">
-          <term type="tipo_texto">Décimas glosadas</term>
-          <term type="tipo_texto">Poemas</term>
+          <term target="XX546895.html" type="tipo_texto">Décimas</term>
           <term target="XX546895.html" type="tipo_estrofa">Décimas</term>
           <term type="tipo_estrofa">Quintillas</term>
           <term type="verso_prosa">Verso</term>
@@ -124,9 +125,13 @@
     </profileDesc>
     <revisionDesc>
       <change when="2023-03-10" who="#PJ">Création du fichier TEI P5 et encodage du corps du
-                        texte</change>
+        texte</change>
+      <change when="2024-01-09" who="#EL">Add the IIIF links</change>
     </revisionDesc>
   </teiHeader>
+  <facsimile>
+    <graphic url="varios/Varios_150_1.jpg/full/200,/0/default.jpg"/>
+  </facsimile>
   <sourceDoc xml:id="automaticTranscription">
     <surface xml:id="Varios_150_1" type="page" cert="silver">
       <graphic url="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_150_1/full/full/0/default.jpg"/>
@@ -1180,307 +1185,332 @@
   <text>
     <body>
       <div>
-        <pb n="1" source="Varios_150_1.jpg" facs="fedora_Varios_150_1/full/full/0/default.jpg"/>
         <div>
-          <head type="primer_titulo"><lb/>DECIMAS GLOSADAS.</head>
-          <lg rend="cursiva">
-            <l>Me dirás si aquella rosa</l>
-            <l>permanece en su constancia,</l>
-            <l>si ha perdido su fragancia</l>
-            <l>y si otro amante la goza.</l>
-          </lg>
-          <lg>
-            <l>Si la ausencia habrá borrado</l>
-            <l>aquel querer tan constante,</l>
-            <l>si posesion de mi amante</l>
-            <l>otro amante habra tomado:</l>
-            <l>vivo en un sumo cuidado</l>
-            <l>y con ansia tan penosa</l>
-            <l>que el corazon no reposa;</l>
-            <l>y asi quisiera saber</l>
-            <l>si mudó de parecer</l>
-            <l rend="cursiva">me diras si aquella rosa.</l>
-            <l>Soy el feliz jardinero</l>
-            <l>que gocé de sus sabores,</l>
-            <l>yo le cultivé sus flores</l>
-            <l>con todo el mayor esmero;</l>
-            <l>mas ahora considero.</l>
-            <l>que en su querer hay mudanza</l>
-            <l>pero mi amor no se cansa,</l>
-            <l>que es tan fina mi pasion,</l>
-            <l>por eso mi corazon</l>
-            <l rend="cursiva">permanece en su constancia.</l>
-          </lg>
-          <lg>
-            <l>El amor me dice que</l>
-            <l>su pasion ya me dejó,</l>
-            <l>y el corazan dice no,</l>
-            <l>que es verdadera su fe:</l>
-            <l>por otra parte se vé,</l>
-            <l>que si no hubiera mudanza</l>
-            <l>me escribiera sin tardanza,</l>
-            <l>y asi diré sin cuidado,</l>
-            <l>esta flor ya se há secado</l>
-            <l rend="cursiva">ò ha perdido su fragancia.</l>
-            <l>Donde estais tiempos pasados!</l>
-            <l>por dónde andais , glorias mias,</l>
-            <l>donde estais , mis alegrias,</l>
-            <l>todo el tiempo lo ha borrado;</l>
-            <l>pero no, que es mi cuidado</l>
-            <l>solo sospecha dudosa,</l>
-            <l>y no puede hacer tal cosa</l>
-            <l>una tan fina muger ,</l>
-            <l>y asi no quiero creer</l>
-            <l rend="cursiva">de que otro amante la goza.</l>
-          </lg>
-          <pb n="2" source="Varios_150_2.jpg" facs="fedora_Varios_150_2/full/full/0/default.jpg"/>
-          <lg rend="cursiva">
-            <l>Flor, 'serafin ó deidad,</l>
-            <l>bello clavel de cupido,</l>
-            <l>págame como es debido,</l>
-            <l>amor fineza y lealtad.</l>
-          </lg>
-          <lg>
-            <l>Con mucho gusto te adoro,</l>
-            <l>tanto te llego à que er</l>
-            <l>que solo por ti he de ser</l>
-            <l>esclavo con grillos de oro;</l>
-            <l>y sujeto á tu decoro</l>
-            <l>estaré con lealtad,</l>
-            <l>y tu hermosura será</l>
-            <l>en mi pecho colocada,</l>
-            <l>pues eres la idolatrada</l>
-            <l rend="cursiva">flor, serafin ó deidad.</l>
-            <l>Si consigo ser dichoso</l>
-            <l>será felice mi suerte,</l>
-            <l>y seré para quererte</l>
-            <l>obgeto mas prodigioso:</l>
-            <l>si yo soy el venturoso,</l>
-            <l>aqui me tienes rendido,</l>
-            <l>que no me olvides te pido,</l>
-            <l>no me mires con enojos</l>
-            <l>pues eres para mis ojos</l>
-            <l rend="cursiva">bello clavel de cupido.</l>
-          </lg>
-          <lg>
-            <l>De esto, mi amor, no te enfades</l>
-            <l>que no pretendo enfadarte,</l>
-            <l>que seré para adorarte</l>
-            <l>la puerta de las deidades;</l>
-            <l>culpa mis necesidades</l>
-            <l>no me culpes de atrevido;</l>
-            <l>advierte lo que te digo</l>
-            <l>que amor con amor se paga;</l>
-            <l>para sanar esta llaga</l>
-            <l rend="cursiva">págame como es debido.</l>
-            <l>En fin , si tu amor me ama</l>
-            <l>y me llegas à querer ,</l>
-            <l>en mi llegarás á ver</l>
-            <l>dar la vida por mi dama:</l>
-            <l>si conoces esta fama</l>
-            <l>siempre será mi lealtad,</l>
-            <l>y con fina voluntad</l>
-            <l>á servirte me sujeto</l>
-            <l>con obediencia y respeto,</l>
-            <l rend="cursiva">amor fineza y lealtad.</l>
-          </lg>
-          <lg rend="cursiva">
-            <l>Si acaso no me conoces</l>
-            <l>y me quieres conocer,</l>
-            <l>Pedro Buscarlo me llamo,</l>
-            <l>marido de mi muger.</l>
-          </lg>
-          <lg>
-            <l>Vivo dentro del lugar</l>
-            <l>en una casa parada,</l>
-            <l>que si la encuentras cerrada,</l>
-            <l>no tiene por donde entrar:</l>
-            <l>si me vienes á buscar</l>
-            <l>y no me hallas, dame voces,</l>
-            <l>aunque las des bien atroces:</l>
-            <l>señas formales te doy:</l>
-            <l>padre de mis hijos soy,</l>
-            <l rend="cursiva">si acaso no me conoces.</l>
-          </lg>
-          <lg>
-            <l>Pregunta por el cuadrado,</l>
-            <l>que es tocador de vihuela:</l>
-            <l>yo soy nieto de mi abuela,</l>
-            <l>un hombre recio ò delgado,</l>
-            <l>moreno ó muy encarnado;</l>
-            <l>mi estatura, al parecer,</l>
-            <l>alta ó baja debe ser;</l>
-            <l>y te digo como amigo,</l>
-            <l>que si es caso das conmigo</l>
-            <l rend="cursiva">ya me puedes conocer.</l>
-          </lg>
-          <pb n="3" source="Varios_150_3.jpg" facs="fedora_Varios_150_3/full/full/0/default.jpg"/>
-          <lg>
-            <l>Si el pueblo te se acabó</l>
-            <l>y no me hubieres hallado,</l>
-            <l>vuelve á andar lo que has andado</l>
-            <l>que allá enfrente vivo yo:</l>
-            <l>no me solicites, no,</l>
-            <l>no me hagas mas reclamos,</l>
-            <l>que yo de veras te amo,</l>
-            <l>y te digo como amigo,</l>
-            <l>el nombre que tengo digo:</l>
-            <l rend="cursiva">Pedro Buscarlo me llamo.</l>
-          </lg>
-          <lg>
-            <l>Las maderas son de pino,</l>
-            <l>no lo tienes que dudar;</l>
-            <l>mi casa viene á parar</l>
-            <l>enfrente de mi vecino;</l>
-            <l>ven por el mismo camino</l>
-            <l>cuando me vengas á ver:</l>
-            <l>es cosa que puede ser,</l>
-            <l>yo te haré mil regocijos,</l>
-            <l>que soy padre de mis hijos,</l>
-            <l rend="cursiva">marido de mi muger.</l>
-          </lg>
-          <lg rend="cursiva">
-            <l>De Ronda quiero los peros,</l>
-            <l>de Málaga las patatas,</l>
-            <l>las narangitas del moro,</l>
-            <l>y de Vegé las muchachas.</l>
-          </lg>
-          <lg>
-            <l>De Estremadura el chorizo,</l>
-            <l>de Lisboa el salchichon,</l>
-            <l>de Andalucía el jamon,</l>
-            <l>de Guardamar el panizo,</l>
-            <l>de Abanilla los rollizos,</l>
-            <l>de Castilla el buen carnero,</l>
-            <l>de Ballecas el pan quiero,</l>
-            <l>de la Majada el melon,</l>
-            <l>de Gijona el buen turron,</l>
-            <l rend="cursiva">de Ronda quiero los peros.</l>
-            <l>Las ropas de Gibraltar,</l>
-            <l>el aceite de Sevilla,</l>
-            <l>de Villena las criadillas,</l>
-            <l>y las peras de Altamar;</l>
-            <l>de las minas el metal,</l>
-            <l>de América la plata,</l>
-            <l>y la cruz de Carabaca;</l>
-            <l>el arroz de la ribera,</l>
-            <l>y las peras de Orihuela,</l>
-            <l rend="cursiva">de Malaga las patatas.</l>
-          </lg>
-          <lg>
-            <l>La uva de Elda y Monforte,</l>
-            <l>y del aire la paloma,</l>
-            <l>de Montagudo la poma,</l>
-            <l>y los conejos del monte,</l>
-            <l>y de la campana el toque,</l>
-            <l>y las manzanas del Norte;</l>
-            <l>de la tierra fina el oro,</l>
-            <l>las almendras de Petrel,</l>
-            <l>las camuesas de Belen,</l>
-            <l rend="cursiva">las narangitas del moro.</l>
-            <l>De la mar quiero el pagel,</l>
-            <l>el buen atun y el lenguado,</l>
-            <l>de Alicante el bacalado,</l>
-            <l>de la colmena la miel,</l>
-            <l>de Alcoy el paño y papel,</l>
-            <l>los quesitos de la Mancha;</l>
-            <l>para navegar fragata,</l>
-            <l>para pasear carroza,</l>
-            <l>del rosal quiero la rosa,</l>
-            <l rend="cursiva">y de Vegé las muchachas.</l>
-          </lg>
-          <lg rend="cursiva">
-            <l>A Dios, madre de mi vida,</l>
-            <l>tronco de todas mis ramas ,</l>
-            <l>ya se va el hijo querido</l>
-            <l>nacido de tus entrañas.</l>
-          </lg>
-          <pb n="4" source="Varios_150_4.jpg" facs="fedora_Varios_150_4/full/full/0/default.jpg"/>
-          <lg>
-            <l>Ya me despido, señora,</l>
-            <l>madre de mi corazon;</l>
-            <l>hécheme la bendicion</l>
-            <l>que ya es llegada la hora:</l>
-            <l>tan solo mi pecho llora</l>
-            <l>la ausencia de mi partida:</l>
-            <l>á Dios, hermana querida,</l>
-            <l>no llores ni pases penas</l>
-            <l>que voy á tierras agenas;</l>
-            <l rend="cursiva">á Dios, madre de mi vida.</l>
-            <l>Hermano, por Dios te pido</l>
-            <l>consueles á nuestra madre;</l>
-            <l>quedas en lugar de padre:</l>
-            <l>le darás gusto cumplido</l>
-            <l>mientras yo tan afligido</l>
-            <l>me veo en tan triste calma:</l>
-            <l>á Dios, hermanos del alma,</l>
-            <l>repite mi triste voz:</l>
-            <l>madre encomiéndeme á Dios,</l>
-            <l rend="cursiva">tronco de todas mis ramas.</l>
-          </lg>
-          <lg>
-            <l>Siento salir de mi pueb o;</l>
-            <l>pero el dejarlo es forzoso:</l>
-            <l>yá se acabó mi reposo,</l>
-            <l>y á padecer desde luego:</l>
-            <l>señores, por eso os ruego,</l>
-            <l>á todo el que haya ofendido,</l>
-            <l>señores, perdon os pido»</l>
-            <l>al verme en tal afliccion:</l>
-            <l>madre de mi corazon,</l>
-            <l rend="cursiva">ya se va el hijo querido.</l>
-            <l>Por último me despido</l>
-            <l>De hermanos, primos parientes</l>
-            <l>De amigos y demas gentes</l>
-            <l>y de un amante querido:</l>
-            <l>à Dios, digo enternecido,</l>
-            <l>que voy á tierras estrañas</l>
-            <l>á padecer en campañas;</l>
-            <l>mas por eso no me aflijo:</l>
-            <l>ya se va el hijo querido</l>
-            <l rend="cursiva">nacido de tus entrañas.</l>
-          </lg>
+          <pb n="1" source="Varios_150_1.jpg" facs="varios/Varios_150_1.jpg/"/>
+          <div>
+            <head type="primer_titulo"><lb/>DECIMAS GLOSADAS.</head>
+            <lg rend="cursiva">
+              <l rend="indent">Me dirás si aquella rosa</l>
+              <l>permanece en su constancia,</l>
+              <l>si ha perdido su fragancia</l>
+              <l>y si otro amante la goza.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Si la ausencia habrá borrado</l>
+              <l>aquel querer tan constante,</l>
+              <l>si posesion de mi amante</l>
+              <l>otro amante habra tomado:</l>
+              <l>vivo en un sumo cuidado</l>
+              <l>y con ansia tan penosa</l>
+              <l>que el corazon no reposa;</l>
+              <l>y asi quisiera saber</l>
+              <l>si mudó de parecer</l>
+              <l rend="cursiva">me diras si aquella rosa.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Soy el feliz jardinero</l>
+              <l>que gocé de sus sabores,</l>
+              <l>yo le cultivé sus flores</l>
+              <l>con todo el mayor esmero;</l>
+              <l>mas ahora considero.</l>
+              <l>que en su querer hay mudanza</l>
+              <l>pero mi amor no se cansa,</l>
+              <l>que es tan fina mi pasion,</l>
+              <l>por eso mi corazon</l>
+              <l rend="cursiva">permanece en su constancia.</l>
+            </lg>
+            <lg>
+              <l rend="indent">El amor me dice que</l>
+              <l>su pasion ya me dejó,</l>
+              <l>y el corazan dice no,</l>
+              <l>que es verdadera su fe:</l>
+              <l>por otra parte se vé,</l>
+              <l>que si no hubiera mudanza</l>
+              <l>me escribiera sin tardanza,</l>
+              <l>y asi diré sin cuidado,</l>
+              <l>esta flor ya se há secado</l>
+              <l rend="cursiva">ò ha perdido su fragancia.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Donde estais tiempos pasados!</l>
+              <l>por dónde andais , glorias mias,</l>
+              <l>donde estais , mis alegrias,</l>
+              <l>todo el tiempo lo ha borrado;</l>
+              <l>pero no, que es mi cuidado</l>
+              <l>solo sospecha dudosa,</l>
+              <l>y no puede hacer tal cosa</l>
+              <l>una tan fina muger ,</l>
+              <l>y asi no quiero creer</l>
+              <l rend="cursiva">de que otro amante la goza.</l>
+            </lg>
+
+            <pb n="2" source="Varios_150_2.jpg" facs="varios/Varios_150_2.jpg/"/>
+
+            <lg rend="cursiva">
+              <l rend="indent">Flor, 'serafin ó deidad,</l>
+              <l>bello clavel de cupido,</l>
+              <l>págame como es debido,</l>
+              <l>amor fineza y lealtad.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Con mucho gusto te adoro,</l>
+              <l>tanto te llego à que er</l>
+              <l>que solo por ti he de ser</l>
+              <l>esclavo con grillos de oro;</l>
+              <l>y sujeto á tu decoro</l>
+              <l>estaré con lealtad,</l>
+              <l>y tu hermosura será</l>
+              <l>en mi pecho colocada,</l>
+              <l>pues eres la idolatrada</l>
+              <l rend="cursiva">flor, serafin ó deidad.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Si consigo ser dichoso</l>
+              <l>será felice mi suerte,</l>
+              <l>y seré para quererte</l>
+              <l>obgeto mas prodigioso:</l>
+              <l>si yo soy el venturoso,</l>
+              <l>aqui me tienes rendido,</l>
+              <l>que no me olvides te pido,</l>
+              <l>no me mires con enojos</l>
+              <l>pues eres para mis ojos</l>
+              <l rend="cursiva">bello clavel de cupido.</l>
+            </lg>
+            <lg>
+              <l rend="indent">De esto, mi amor, no te enfades</l>
+              <l>que no pretendo enfadarte,</l>
+              <l>que seré para adorarte</l>
+              <l>la puerta de las deidades;</l>
+              <l>culpa mis necesidades</l>
+              <l>no me culpes de atrevido;</l>
+              <l>advierte lo que te digo</l>
+              <l>que amor con amor se paga;</l>
+              <l>para sanar esta llaga</l>
+              <l rend="cursiva">págame como es debido.</l>
+            </lg>
+            <lg>
+              <l rend="indent">En fin , si tu amor me ama</l>
+              <l>y me llegas à querer ,</l>
+              <l>en mi llegarás á ver</l>
+              <l>dar la vida por mi dama:</l>
+              <l>si conoces esta fama</l>
+              <l>siempre será mi lealtad,</l>
+              <l>y con fina voluntad</l>
+              <l>á servirte me sujeto</l>
+              <l>con obediencia y respeto,</l>
+              <l rend="cursiva">amor fineza y lealtad.</l>
+            </lg>
+            <lg rend="cursiva">
+              <l rend="indent">Si acaso no me conoces</l>
+              <l>y me quieres conocer,</l>
+              <l>Pedro Buscarlo me llamo,</l>
+              <l>marido de mi muger.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Vivo dentro del lugar</l>
+              <l>en una casa parada,</l>
+              <l>que si la encuentras cerrada,</l>
+              <l>no tiene por donde entrar:</l>
+              <l>si me vienes á buscar</l>
+              <l>y no me hallas, dame voces,</l>
+              <l>aunque las des bien atroces:</l>
+              <l>señas formales te doy:</l>
+              <l>padre de mis hijos soy,</l>
+              <l rend="cursiva">si acaso no me conoces.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Pregunta por el cuadrado,</l>
+              <l>que es tocador de vihuela:</l>
+              <l>yo soy nieto de mi abuela,</l>
+              <l>un hombre recio ò delgado,</l>
+              <l>moreno ó muy encarnado;</l>
+              <l>mi estatura, al parecer,</l>
+              <l>alta ó baja debe ser;</l>
+              <l>y te digo como amigo,</l>
+              <l>que si es caso das conmigo</l>
+              <l rend="cursiva">ya me puedes conocer.</l>
+            </lg>
+
+            <pb n="3" source="Varios_150_3.jpg" facs="varios/Varios_150_3.jpg/"/>
+
+            <lg>
+              <l rend="indent">Si el pueblo te se acabó</l>
+              <l>y no me hubieres hallado,</l>
+              <l>vuelve á andar lo que has andado</l>
+              <l>que allá enfrente vivo yo:</l>
+              <l>no me solicites, no,</l>
+              <l>no me hagas mas reclamos,</l>
+              <l>que yo de veras te amo,</l>
+              <l>y te digo como amigo,</l>
+              <l>el nombre que tengo digo:</l>
+              <l rend="cursiva">Pedro Buscarlo me llamo.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Las maderas son de pino,</l>
+              <l>no lo tienes que dudar;</l>
+              <l>mi casa viene á parar</l>
+              <l>enfrente de mi vecino;</l>
+              <l>ven por el mismo camino</l>
+              <l>cuando me vengas á ver:</l>
+              <l>es cosa que puede ser,</l>
+              <l>yo te haré mil regocijos,</l>
+              <l>que soy padre de mis hijos,</l>
+              <l rend="cursiva">marido de mi muger.</l>
+            </lg>
+            <lg rend="cursiva">
+              <l rend="indent">De Ronda quiero los peros,</l>
+              <l>de Málaga las patatas,</l>
+              <l>las narangitas del moro,</l>
+              <l>y de Vegé las muchachas.</l>
+            </lg>
+            <lg>
+              <l rend="indent">De Estremadura el chorizo,</l>
+              <l>de Lisboa el salchichon,</l>
+              <l>de Andalucía el jamon,</l>
+              <l>de Guardamar el panizo,</l>
+              <l>de Abanilla los rollizos,</l>
+              <l>de Castilla el buen carnero,</l>
+              <l>de Ballecas el pan quiero,</l>
+              <l>de la Majada el melon,</l>
+              <l>de Gijona el buen turron,</l>
+              <l rend="cursiva">de Ronda quiero los peros.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Las ropas de Gibraltar,</l>
+              <l>el aceite de Sevilla,</l>
+              <l>de Villena las criadillas,</l>
+              <l>y las peras de Altamar;</l>
+              <l>de las minas el metal,</l>
+              <l>de América la plata,</l>
+              <l>y la cruz de Carabaca;</l>
+              <l>el arroz de la ribera,</l>
+              <l>y las peras de Orihuela,</l>
+              <l rend="cursiva">de Malaga las patatas.</l>
+            </lg>
+            <lg>
+              <l rend="indent">La uva de Elda y Monforte,</l>
+              <l>y del aire la paloma,</l>
+              <l>de Montagudo la poma,</l>
+              <l>y los conejos del monte,</l>
+              <l>y de la campana el toque,</l>
+              <l>y las manzanas del Norte;</l>
+              <l>de la tierra fina el oro,</l>
+              <l>las almendras de Petrel,</l>
+              <l>las camuesas de Belen,</l>
+              <l rend="cursiva">las narangitas del moro.</l>
+            </lg>
+            <lg>
+              <l rend="indent">De la mar quiero el pagel,</l>
+              <l>el buen atun y el lenguado,</l>
+              <l>de Alicante el bacalado,</l>
+              <l>de la colmena la miel,</l>
+              <l>de Alcoy el paño y papel,</l>
+              <l>los quesitos de la Mancha;</l>
+              <l>para navegar fragata,</l>
+              <l>para pasear carroza,</l>
+              <l>del rosal quiero la rosa,</l>
+              <l rend="cursiva">y de Vegé las muchachas.</l>
+            </lg>
+            <lg rend="cursiva">
+              <l rend="indent">A Dios, madre de mi vida,</l>
+              <l>tronco de todas mis ramas ,</l>
+              <l>ya se va el hijo querido</l>
+              <l>nacido de tus entrañas.</l>
+            </lg>
+
+            <pb n="4" source="Varios_150_4.jpg" facs="varios/Varios_150_4.jpg/"/>
+
+            <lg>
+              <l rend="indent">Ya me despido, señora,</l>
+              <l>madre de mi corazon;</l>
+              <l>hécheme la bendicion</l>
+              <l>que ya es llegada la hora:</l>
+              <l>tan solo mi pecho llora</l>
+              <l>la ausencia de mi partida:</l>
+              <l>á Dios, hermana querida,</l>
+              <l>no llores ni pases penas</l>
+              <l>que voy á tierras agenas;</l>
+              <l rend="cursiva">á Dios, madre de mi vida.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Hermano, por Dios te pido</l>
+              <l>consueles á nuestra madre;</l>
+              <l>quedas en lugar de padre:</l>
+              <l>le darás gusto cumplido</l>
+              <l>mientras yo tan afligido</l>
+              <l>me veo en tan triste calma:</l>
+              <l>á Dios, hermanos del alma,</l>
+              <l>repite mi triste voz:</l>
+              <l>madre encomiéndeme á Dios,</l>
+              <l rend="cursiva">tronco de todas mis ramas.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Siento salir de mi pueb o;</l>
+              <l>pero el dejarlo es forzoso:</l>
+              <l>yá se acabó mi reposo,</l>
+              <l>y á padecer desde luego:</l>
+              <l>señores, por eso os ruego,</l>
+              <l>á todo el que haya ofendido,</l>
+              <l>señores, perdon os pido»</l>
+              <l>al verme en tal afliccion:</l>
+              <l>madre de mi corazon,</l>
+              <l rend="cursiva">ya se va el hijo querido.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Por último me despido</l>
+              <l>De hermanos, primos parientes</l>
+              <l>De amigos y demas gentes</l>
+              <l>y de un amante querido:</l>
+              <l>à Dios, digo enternecido,</l>
+              <l>que voy á tierras estrañas</l>
+              <l>á padecer en campañas;</l>
+              <l>mas por eso no me aflijo:</l>
+              <l>ya se va el hijo querido</l>
+              <l rend="cursiva">nacido de tus entrañas.</l>
+            </lg>
+          </div>
+
+          <div>
+            <head type="titulo_parte" rend="negrita"><lb/>TROVOS.</head>
+            <lg rend="cursiva">
+              <l rend="indent">De Cariñena el buen vino,</l>
+              <l>naranjas de Carcagente,</l>
+              <l>de Torrente el cebollino,</l>
+              <l>dátiles buenos en Elche.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Nabos de Fuente de Espino,</l>
+              <l>pimientos de la Ribera,</l>
+              <l>de Cuenca el mejor pepino.</l>
+              <l>castañas las de la Vera,</l>
+              <l rend="cursiva">de Cariñena el buen vino.</l>
+            </lg>
+            <lg>
+              <l rend="indent">La pera de Benavente,</l>
+              <l>de Foyos buenos melones,</l>
+              <l>rábanos los de Mogente,</l>
+              <l>de Gijona los turrones,</l>
+              <l rend="cursiva">naranjas de Carcagente.</l>
+            </lg>
+            <lg>
+              <l rend="indent">De Manresa el paño fino,</l>
+              <l>de la Mancha las sandías,</l>
+              <l>de Estremadura el tocino,</l>
+              <l>el alasor de Gandía,</l>
+              <l rend="cursiva">de Torrente el cebollino.</l>
+            </lg>
+            <lg>
+              <l rend="indent">De Santander escabeche,</l>
+              <l>de Logroño las manzanas,</l>
+              <l>de la Sierra buena leche,</l>
+              <l>buenas mozas en Triana,</l>
+              <l rend="cursiva">dátiles buenos en Elche.</l>
+            </lg>
+          </div>
         </div>
-        <div>
-          <head type="titulo_parte"><lb/>TROVOS.</head>
-          <lg>
-            <lb/>
-            <l>De Cariñena el buen vino,</l>
-            <l>naranjas de Carcagente,</l>
-            <l>de Torrente el cebollino,</l>
-            <l>dátiles buenos en Elche.</l>
-          </lg>
-          <lg>
-            <l>Nabos de Fuente de Espino,</l>
-            <l>pimientos de la Ribera,</l>
-            <l>de Cuenca el mejor pepino.</l>
-            <l>castañas las de la Vera,</l>
-            <l rend="cursiva">de Cariñena el buen vino.</l>
-          </lg>
-          <lg>
-            <l>La pera de Benavente,</l>
-            <l>de Foyos buenos melones,</l>
-            <l>rábanos los de Mogente,</l>
-            <l>de Gijona los turrones,</l>
-            <l rend="cursiva">naranjas de Carcagente.</l>
-          </lg>
-          <lg>
-            <l>De Manresa el paño fino,</l>
-            <l>de la Mancha las sandías,</l>
-            <l>de Estremadura el tocino,</l>
-            <l>el alasor de Gandía,</l>
-            <l rend="cursiva">de Torrente el cebollino.</l>
-          </lg>
-          <lg>
-            <l>De Santander escabeche,</l>
-            <l>de Logroño las manzanas,</l>
-            <l>de la Sierra buena leche,</l>
-            <l>buenas mozas en Triana,</l>
-            <l rend="cursiva">dátiles buenos en Elche.</l>
-          </lg>
-        </div>
+        
         <div type="colofon">
-          <p><lb/>Játiva : Imprenta de Blas Bellver. Año 1847.</p>
+          <p><lb/><hi rend="cursiva">Játiva : Imprenta de Blas Bellver. Año</hi> 1847.</p>
         </div>
       </div>
     </body>

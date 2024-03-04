@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../Schema/oddPliego_varios.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:alto="http://www.loc.gov/standards/alto/ns-v4#" xml:id="Varios_178">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Varios_178">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -11,8 +11,7 @@
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <authority role="rightsHolder">Bibliothèque Universitaire de
-                              Genève</authority>
+        <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
         <availability status="restricted">
           <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
         </availability>
@@ -20,22 +19,20 @@
       <sourceDesc>
         <biblFull>
           <titleStmt>
-            <title type="titulo_completo">Horrible Catástrofe que el dia 27
-                                          de Agosto del año de gracia 1883 sumergió en el mar de
-                                          la Sonda la isla de KRAKATOA con las ciudades de AUGER,
-                                          TJERINGEN, TELOGBETONG, parte de las costas de las islas
-                                          de SUMATRA y JAVA, pérdida de los buques SIAK, VILHELMINA
-                                          y otros muchos, y causando una mortandad de mas de 30.OOo
-                                          víctimas!!!!</title>
+            <title type="titulo_completo">Horrible Catástrofe que el dia 27 de Agosto del año de
+              gracia 1883 sumergió en el mar de la Sonda la isla de KRAKATOA con las ciudades de
+              AUGER, TJERINGEN, TELOGBETONG, parte de las costas de las islas de SUMATRA y JAVA,
+              pérdida de los buques SIAK, VILHELMINA y otros muchos, y causando una mortandad de
+              mas de 30.000 víctimas!!!!</title>
             <title type="titulo_breve">Horrible Catástrofe</title>
           </titleStmt>
           <editionStmt>
             <p/>
           </editionStmt>
           <publicationStmt>
-            <publisher>B. Rotger</publisher>
+            <publisher>Bartolomé Rotger</publisher>
             <pubPlace ref="https://www.geonames.org/2512989/palma.html">Palma</pubPlace>
-            <date cert="low">tras 1883</date>
+            <date cert="low" when="1884-01-01" notBefore="1883-08-27">[s.a.]</date>
           </publicationStmt>
         </biblFull>
         <msDesc>
@@ -43,7 +40,8 @@
             <country>Suisse</country>
             <settlement>Genève</settlement>
             <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"/>
-                                    </repository>
+            </repository>
+            <collection>Colección Varios</collection>
             <idno type="cote"/>
             <idno type="DOI">10.5281/zenodo.6594945</idno>
             <altIdentifier>
@@ -51,10 +49,14 @@
             </altIdentifier>
           </msIdentifier>
           <msContents>
-            <summary/>
+            <summary>Dos partes</summary>
             <msItem>
-              <locus/>
-              <title/>
+              <locus>1-2</locus>
+              <title>Primera parte</title>
+            </msItem>
+            <msItem>
+              <locus>3-4</locus>
+              <title>Segunda parte.</title>
             </msItem>
           </msContents>
           <physDesc>
@@ -72,7 +74,7 @@
               </layoutDesc>
             </objectDesc>
             <decoDesc>
-              <summary n="1">Uno grabado (p.1) </summary>
+              <summary n="1">Un grabado (p.1) </summary>
               <decoNote type="lista_grabados">
                 <list>
                   <item corresp="grabado_v_178_1.xml">grabado_v_178_1</item>
@@ -80,8 +82,7 @@
               </decoNote>
             </decoDesc>
             <additions>
-              <stamp>Palma. Tienda de M Borrás. Cuesta del
-                                                Teatro</stamp>
+              <stamp>Palma. Tienda de M Borrás. Cuesta del Teatro</stamp>
             </additions>
           </physDesc>
           <history>
@@ -90,8 +91,7 @@
             </origin>
             <provenance>
               <p>
-                <stamp>Palma. Tienda de M Borrás. Cuesta del
-                                                  Teatro</stamp>
+                <stamp>Palma. Tienda de M Borrás. Cuesta del Teatro</stamp>
               </p>
             </provenance>
             <acquisition/>
@@ -101,18 +101,17 @@
     </fileDesc>
     <encodingDesc>
       <projectDesc>
-        <p>Este archivo fue creado en el marco del proyecto Desenrollando el
-                              Cordel/Démêler le cordel/Untangling the cordel, dirigido por la
-                              profesora Constance Carta de la Universidad de Ginebra, con el apoyo
-                              de la Fundación filantrópica Famille Sandoz-Monique de Meuron.</p>
+        <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+          cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la Universidad
+          de Ginebra, con el apoyo de la Fundación filantrópica Famille Sandoz-Monique de
+          Meuron.</p>
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR non corregido</p>
+          <p>OCR no corregido</p>
         </correction>
         <normalization>
-          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto
-                                    original.</p>
+          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
         </normalization>
         <punctuation>
           <p>Se conserva la puntuación original.</p>
@@ -125,18 +124,22 @@
       </langUsage>
       <textClass>
         <keywords xml:base="http://datos.bne.es/tema/">
-          <term type="tipo_texto">Quintillas</term>
-          <term type="tipo_estrofa">Quintillas</term>
+          <term type="tipo_texto"/>
+          <term type="tipo_estrofa"/>
           <term type="verso_prosa">Verso</term>
           <term type="sagrado_profano">Profano</term>
         </keywords>
       </textClass>
     </profileDesc>
     <revisionDesc>
-      <change when="2023-04-19" who="#PJ">Création du fichier TEI P5 et encodage du
-                        corps du texte</change>
+      <change when="2023-04-19" who="#PJ">Création du fichier TEI P5 et encodage du corps du
+        texte</change>
+      <change when="2024-01-09" who="#EL">Add the IIIF links</change>
     </revisionDesc>
   </teiHeader>
+  <facsimile>
+    <graphic url="varios/Varios_178_1.jpg/full/200,/0/default.jpg"/>
+  </facsimile>
   <sourceDoc xml:id="automaticTranscription">
     <surface xml:id="Varios_178_1" type="page" cert="silver">
       <graphic url="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_178_1/full/full/0/default.jpg"/>
@@ -147,13 +150,11 @@
         </zone>
         <zone xml:id="Varios_178_1_BT223_1_LT183_2" type="CustomZone" subtype="none" points="1680,1535 1658,1529 1636,1527 1614,1524 1592,1522 1585,1520 1342,1518 1327,1502 1324,1502 1322,1502 1250,1500 1248,1500 1245,1500 1208,1516 1186,1502 1184,1502 1182,1502 1094,1502 1092,1502 1090,1502 1057,1518 1022,1502 1019,1502 1017,1502 940,1520 934,1520 932,1520 908,1502 905,1502 903,1502 901,1502 899,1502 846,1516 778,1500 776,1500 774,1500 772,1500 754,1513 686,1502 684,1502 682,1502 642,1518 640,1518 627,1518 600,1518 576,1498 574,1498 572,1498 570,1498 122,1516 122,1566 122,1592 1684,1592 1686,1570 1680,1535 1680,1535 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_178_1/122.0,1498.0,1564.0,94.0/full/0/default" corresp="DefaultLine">
           <path xml:id="Varios_178_1_BT223_1_LT183_2_1" points="124,1568 1687,1573 "/>
-          <line>que el dia 27 de Agosto del año de gracia 1883 sumergió en el
-                                    mar</line>
+          <line>que el dia 27 de Agosto del año de gracia 1883 sumergió en el mar</line>
         </zone>
         <zone xml:id="Varios_178_1_BT223_1_LT183_3" type="CustomZone" subtype="none" points="177,1623 175,1638 1638,1645 1642,1625 1640,1579 177,1570 177,1623 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_178_1/175.0,1570.0,1467.0,75.0/full/0/default" corresp="DefaultLine">
           <path xml:id="Varios_178_1_BT223_1_LT183_3_1" points="178,1625 1644,1627 "/>
-          <line>de la Sonda la isla de KRAKATOA con las ciudades de
-                                    AUGER,</line>
+          <line>de la Sonda la isla de KRAKATOA con las ciudades de AUGER,</line>
         </zone>
         <zone xml:id="Varios_178_1_BT223_1_LT183_4" type="CustomZone" subtype="none" points="1107,1625 1085,1625 1063,1625 1041,1625 1019,1625 997,1625 976,1625 954,1625 932,1625 910,1625 888,1625 866,1625 844,1625 822,1625 800,1625 778,1625 756,1625 734,1625 712,1625 690,1625 668,1625 647,1625 625,1625 603,1625 581,1625 559,1625 537,1625 515,1625 493,1625 471,1625 449,1625 427,1625 405,1625 383,1625 361,1625 339,1625 318,1625 296,1625 274,1625 252,1625 230,1625 232,1678 232,1693 1572,1697 1574,1675 1570,1627 1123,1625 1107,1625 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_178_1/230.0,1625.0,1344.0,72.0/full/0/default" corresp="DefaultLine">
           <path xml:id="Varios_178_1_BT223_1_LT183_4_1" points="233,1679 1577,1678 "/>
@@ -1143,350 +1144,360 @@
   <text>
     <body>
       <div>
-        <pb n="1" source="Varios_178_1.jpg" facs="fedora_Varios_178_1/full/full/0/default.jpg"/>
-        <div type="parte" n="1">
+        <pb n="1" source="Varios_178_1.jpg" facs="varios/Varios_178_1.jpg/"/>
+        
           <head type="primer_titulo"><lb/>HORRIBLE CATÁSTROFE</head>
-          <head type="subtitulo_parte"><lb/>que el dia 27 de Agosto del año de gracia 1883 sumergió
-                                    en el mar<lb/>de la Sonda la isla de KRAKATOA con las ciudades
-                                    de AUGER,<lb/>TJERINGEN, TELOGBETONG, parte de las costas de las
-                                    islas<lb/>de SUMATRA y JAVA, pérdida de los buques
-                                    SIAK,<lb/>VILHELMINA y otros muchos, y causando
-                                    una<lb/>mortandad de mas de 30.OOo víctimas!!!!</head>
+          <head type="subtitulo"><lb/>que el dia 27 de Agosto del año de gracia 1883
+            sumergió en el mar<lb/>de la Sonda la isla de KRAKATOA con las ciudades de
+            AUGER,<lb/>TJERINGEN, TELOGBETONG, parte de las costas de las islas<lb/>de SUMATRA y
+            JAVA, pérdida de los buques SIAK,<lb/>VILHELMINA y otros muchos, y causando
+            una<lb/>mortandad de mas de 30.000 víctimas!!!!</head>
+          
+        <div type="parte" n="1">
           <lg>
             <head type="titulo_estrofa">1.</head>
-            <l>¿Cómo hablar de terremotos</l>
+            <l rend="indent">¿Cómo hablar de terremotos</l>
             <l>Con que el Santo Dios castiga</l>
             <l>A los de climas remotos,</l>
             <l>Sin llorar lágrima viva?</l>
           </lg>
           <lg>
             <head type="titulo_estrofa">2.</head>
-            <l>Ay! el corazon se hace</l>
+            <l rend="indent">Ay! el corazon se hace</l>
             <l>Dos pedazos en el pecho</l>
             <l>Y el papel es muy estrecho</l>
             <l>Para contar el desastre.</l>
           </lg>
           <lg>
             <head type="titulo_estrofa">3.</head>
-            <l>Mas allá de Filipínas</l>
+            <l rend="indent">Mas allá de Filipínas</l>
             <l>En medio de la mar brava</l>
             <l>Están, entre otras islas,</l>
             <l>Las de Sumatra y de Java.</l>
           </lg>
           <lg>
             <head type="titulo_estrofa">4.</head>
-            <l>Las separa el mar de Sonda</l>
+            <l rend="indent">Las separa el mar de Sonda</l>
             <l>Que agitan los temporales,</l>
             <l>Y hacen ganancia redonda</l>
             <l>Los que pescan los corales.</l>
           </lg>
-          <pb n="2" source="Varios_178_2.jpg" facs="fedora_Varios_178_2/full/full/0/default.jpg"/>
+          
+          <pb n="2" source="Varios_178_2.jpg" facs="varios/Varios_178_2.jpg/"/>
+          
           <lg>
             <head type="titulo_estrofa">5.</head>
-            <l>Por esto muy codiciadas</l>
+            <l rend="indent">Por esto muy codiciadas</l>
             <l>Fueron de los Holandeses;</l>
             <l>Y sufrieron mil reveses</l>
             <l>Antes de ser conquistadas.</l>
           </lg>
           <lg>
             <head type="titulo_estrofa">6.</head>
-            <l>Y cuando las poseyeron,</l>
+            <l rend="indent">Y cuando las poseyeron,</l>
             <l>Mas aplacada su rabia,</l>
             <l>La gran ciudad de Batavia</l>
             <l>Allí en Java construyeron.</l>
           </lg>
           <lg>
             <head type="titulo_estrofa">7.</head>
-            <l>Y Batavia, la ciudad</l>
+            <l rend="indent">Y Batavia, la ciudad</l>
             <l>De colonias holandesas</l>
             <l>Contiene muchas bellezas</l>
             <l>De pompa y autoridad.</l>
           </lg>
           <lg>
             <head type="titulo_estrofa">8.</head>
-            <l>Tgeringen, Tolokbeton</l>
+            <l rend="indent">Tgeringen, Tolokbeton</l>
             <l>Y Auger, pueblos de entorno,</l>
             <l>Le sirven como de adorno,</l>
             <l>Formándole un cinturon.</l>
           </lg>
           <lg>
             <head type="titulo_estrofa">9.</head>
-            <l>Batavia es el corazon</l>
+            <l rend="indent">Batavia es el corazon</l>
             <l>De las colonias de oriente,</l>
             <l>Por esto lleva en su frente</l>
             <l>Grandeza y ostentacion.</l>
           </lg>
           <lg>
             <head type="titulo_estrofa">10.</head>
-            <l>La cruzan por todas partes</l>
+            <l rend="indent">La cruzan por todas partes</l>
             <l>Telegrafos y caminos</l>
             <l>Para esplotar á los chinos</l>
             <l>Los productos de sus artes.</l>
           </lg>
           <lg>
             <head type="titulo_estrofa">11.</head>
-            <l>Y los buques europeos</l>
+            <l rend="indent">Y los buques europeos</l>
             <l>Acuden con muchas ansias</l>
             <l>A sus bahías y puertos</l>
             <l>Para hacer buenas ganancias.</l>
           </lg>
           <lg>
             <head type="titulo_estrofa">12.</head>
-            <l>Y no muy lejos están</l>
+            <l rend="indent">Y no muy lejos están</l>
             <l>Las islas de Krakatoa</l>
             <l>Como una serpiente boa</l>
             <l>Que asecha con su volcan.</l>
           </lg>
           <lg>
             <head type="titulo_estrofa">13.</head>
-            <l>Sus habitantes gozaban</l>
+            <l rend="indent">Sus habitantes gozaban</l>
             <l>Climas de dulce calor</l>
             <l>Pero la fe del Señor</l>
             <l>¡Desdichados! no guardaban.</l>
           </lg>
           <lg>
             <head type="titulo_estrofa">14.</head>
-            <l>¡Desdichada Krakatoa!</l>
+            <l rend="indent">¡Desdichada Krakatoa!</l>
             <l>El Señor que está en los cielos</l>
             <l>Te sumergió en hondos duelos</l>
             <l>Diciendo:—Llegó tu hora.</l>
           </lg>
           <lg>
             <head type="titulo_estrofa">15.</head>
-            <l>Y tus bosques y ciudades</l>
+            <l rend="indent">Y tus bosques y ciudades</l>
             <l>Y tus árboles gigantes</l>
             <l>Que perecen arrogantes;</l>
             <l>Sufren ya calamidades.</l>
           </lg>
           <lg>
             <head type="titulo_estrofa">16.</head>
-            <l>Todo á merced de las olas</l>
+            <l rend="indent">Todo á merced de las olas</l>
             <l>con espanto terrorífico</l>
             <l>en el océano Pacífico</l>
             <l>cayó destrozado á solas.</l>
           </lg>
           <lg>
             <head type="titulo_estrofa">17.</head>
-            <l>Y nadie puede encontrar</l>
+            <l rend="indent">Y nadie puede encontrar</l>
             <l>Aunque busque con fe loca</l>
             <l>Un palmo de Krakatoa</l>
             <l>Que no esté dentro del mar.</l>
           </lg>
           <lg>
             <head type="titulo_estrofa">18.</head>
-            <l>Y si quereis inquirir</l>
+            <l rend="indent">Y si quereis inquirir</l>
             <l>Como sucedió el percance,</l>
             <l>Leed la Segunda Parte</l>
             <l>Que yo os lo voy á decir.</l>
           </lg>
-          <trailer><lb/>Fin de la primera parte.</trailer>
+          <trailer rend="negrita"><lb/>Fin de la primera parte.</trailer>
         </div>
-        <pb n="3" source="Varios_178_3.jpg" facs="fedora_Varios_178_3/full/full/0/default.jpg"/>
-        <div>
+        
+        <div n="2" type="parte">
+          <pb n="3" source="Varios_178_3.jpg" facs="varios/Varios_178_3.jpg/"/>
+          
           <head type="titulo_parte"><lb/>SEGUNDA PARTE.</head>
+          
           <lg>
             <head type="titulo_estrofa">1.</head>
-            <l>Nubes muy negras muy negras</l>
+            <l rend="indent">Nubes muy negras muy negras</l>
             <l>Cubrieron algunos dias</l>
             <l>El cielo y sus cercanías,</l>
             <l>Y eran de fuego las piedras.</l>
           </lg>
           <lg>
             <head type="titulo_estrofa">2.</head>
-            <l>El patron del Bafikuhnteo</l>
+            <l rend="indent">El patron del <hi rend="cursiva">Bafikuhnteo</hi></l>
             <l>A quien los mares no asustan</l>
             <l>Dijo—Chicos, no me gustan</l>
             <l>Aquellas señas que veo.</l>
           </lg>
           <lg>
             <head type="titulo_estrofa">3.</head>
-            <l>Diciendo así señalaba</l>
+            <l rend="indent">Diciendo así señalaba</l>
             <l>El sol poniente en ocaso,</l>
             <l>Pero no le hizo caso</l>
             <l>Ninguno del que mandaba.</l>
           </lg>
           <lg>
             <head type="titulo_estrofa">4.</head>
-            <l>Y cuando un cubo de agua</l>
+            <l rend="indent">Y cuando un cubo de agua</l>
             <l>Fué un marinero á sacar</l>
             <l>Vió que estaba ardiendo el mar</l>
             <l>Y que el cubo se encallaba.</l>
           </lg>
           <lg>
             <head type="titulo_estrofa">5.</head>
-            <l>Y las olas que crecian</l>
+            <l rend="indent">Y las olas que crecian</l>
             <l>Siempre mas atronadoras</l>
             <l>Claramente hacer veian</l>
             <l>Estraordinarias cosas.</l>
           </lg>
           <lg>
             <head type="titulo_estrofa">6.</head>
-            <l>La tierra empezó á moverse</l>
+            <l rend="indent">La tierra empezó á moverse</l>
             <l>Con un terremoto sordo,</l>
             <l>Y ya la gente de abordo</l>
             <l>No se podia tenerse.</l>
           </lg>
           <lg>
             <head type="titulo_estrofa">7.</head>
-            <l>El buque de guerra Siak</l>
+            <l rend="indent">El buque de guerra <hi rend="cursiva">Siak</hi></l>
             <l>Reforzó bien las amarras,</l>
             <l>Pues los hombres se guarecen</l>
             <l>Cuando los cielos batallan.</l>
           </lg>
           <lg>
             <head type="titulo_estrofa">8.</head>
-            <l>Luego sin saber de donde</l>
+            <l rend="indent">Luego sin saber de donde</l>
             <l>Cayó como una ceniza</l>
             <l>Que en muy poco tiempo esconde</l>
             <l>Lo que alcanzaba la vista.</l>
           </lg>
           <lg>
             <head type="titulo_estrofa">9.</head>
-            <l>Las aves muertas al suelo</l>
+            <l rend="indent">Las aves muertas al suelo</l>
             <l>caian que era un espanto.</l>
             <l>Llamaradas por el ciclo</l>
             <l>Cruzaban de tanto en tanto.</l>
           </lg>
           <lg>
             <head type="titulo_estrofa">10.</head>
-            <l>Y como un perro que ahulla</l>
+            <l rend="indent">Y como un perro que ahulla</l>
             <l>Con gemido prolongado</l>
             <l>De lejos sordo barullo</l>
             <l>Les llegaba hasta su lado.</l>
           </lg>
           <lg>
             <head type="titulo_estrofa">11.</head>
-            <l>Mas fuertes sacudimientos</l>
+            <l rend="indent">Mas fuertes sacudimientos</l>
             <l>Fueron sintiéndose luego,</l>
             <l>Y la lluvia por momentos</l>
             <l>Abrasaba como fuego.</l>
           </lg>
           <lg>
             <head type="titulo_estrofa">12.</head>
-            <l>Angel esterminador</l>
+            <l rend="indent">Angel esterminador</l>
             <l>Parecia que venia,</l>
             <l>Y arrastraba con furor</l>
             <l>Cuanto á su paso caia.</l>
           </lg>
           <lg>
             <head type="titulo_estrofa">13.</head>
-            <l>La gente salió á la calle</l>
+            <l rend="indent">La gente salió á la calle</l>
             <l>Dando gritos espantosos,</l>
             <l>Y allí ya no encuentra nadie</l>
             <l>Sus hijos ni sus esposos.</l>
           </lg>
           <lg>
             <head type="titulo_estrofa">14.</head>
-            <l>Un jóven telegrafista</l>
+            <l rend="indent">Un jóven telegrafista</l>
             <l>Que hacia composicion</l>
             <l>De los hilos del telegrafo</l>
             <l>Ha contado lo que vió.</l>
           </lg>
-          <pb n="4" source="Varios_178_4.jpg" facs="fedora_Varios_178_4/full/full/0/default.jpg"/>
+          
+          <pb n="4" source="Varios_178_4.jpg" facs="varios/Varios_178_4.jpg/"/>
+          
           <lg>
             <head type="titulo_estrofa">15.</head>
-            <l>«Era el dia veinte y siete,</l>
+            <l rend="indent">«Era el dia veinte y siete,</l>
             <l>Mientras estaba en el campo</l>
             <l>Cayó una lluvia de fuego</l>
             <l>Y abandoné mi trabajo.</l>
           </lg>
           <lg>
             <head type="titulo_estrofa">16.</head>
-            <l>Me guareci en una cueva</l>
+            <l rend="indent">Me guareci en una cueva</l>
             <l>Y mientras allí estaba</l>
             <l>Vi una ola inmensa y nueva,</l>
             <l>Y al verla he perdido el habla.</l>
           </lg>
           <lg>
             <head type="titulo_estrofa">17.</head>
-            <l>Vi que entraba tierra adentro</l>
+            <l rend="indent">Vi que entraba tierra adentro</l>
             <l>Torciéndose á su placer,</l>
             <l>Y creo que ya en su centro</l>
             <l>No está la ciudad de Auger.»</l>
           </lg>
           <lg>
             <head type="titulo_estrofa">18.</head>
-            <l>El dia veinte y nueve</l>
+            <l rend="indent">El dia veinte y nueve</l>
             <l>Los de Batavia buscaban</l>
             <l>Una esplicacion que llevo</l>
             <l>Las razones que ignoraban.</l>
           </lg>
           <lg>
             <head type="titulo_estrofa">19.</head>
-            <l>Y vieron que buena parte</l>
+            <l rend="indent">Y vieron que buena parte</l>
             <l>De aquella isla de Java</l>
             <l>La sepultó la mar brava</l>
             <l>Con espantoso desastre.</l>
           </lg>
           <lg>
             <head type="titulo_estrofa">20.</head>
-            <l>Todos los Faros de Sonda</l>
+            <l rend="indent">Todos los Faros de Sonda</l>
             <l>Los ha sepultado el mar</l>
             <l>Entre la espumosa onda</l>
             <l>Y el trueno del huracán.</l>
           </lg>
           <lg>
             <head type="titulo_estrofa">21.</head>
-            <l>Auger, Tjeringen,</l>
+            <l rend="indent">Auger, Tjeringen,</l>
             <l>Tolokbeston en su asiento</l>
             <l>Se hundieron en un momento</l>
             <l>Para nunca mas volver.</l>
           </lg>
           <lg>
             <head type="titulo_estrofa">22.</head>
-            <l>¿Y Krakatoa? Inmolada</l>
+            <l rend="indent">¿Y Krakatoa? Inmolada</l>
             <l>Tambien Krakatoa ha sido.</l>
             <l>La podeis dar en olvido.</l>
             <l>¡¡No hay mas que la mar salada!!</l>
           </lg>
           <lg>
             <head type="titulo_estrofa">23.</head>
-            <l>¡Oh infortunio soberano!</l>
+            <l rend="indent">¡Oh infortunio soberano!</l>
             <l>¡Oh fiera calamidad!</l>
             <l>¡Y cuanta y cuanta ciudad</l>
             <l>Se sepultó en el océano!</l>
           </lg>
           <lg>
             <head type="titulo_estrofa">24.</head>
-            <l>Ni uno solo salvo está:</l>
+            <l rend="indent">Ni uno solo salvo está:</l>
             <l>Ni uno de los que vivian</l>
             <l>En Krakatoa podrá</l>
             <l>Decirnos lo que ocurria.</l>
           </lg>
           <lg>
             <head type="titulo_estrofa">25.</head>
-            <l>Señor Dios de las Bondades,</l>
+            <l rend="indent">Señor Dios de las Bondades,</l>
             <l>Tu, Señor Rey de los cielos.</l>
             <l>Que conoces nuestros duelos</l>
             <l>¡Ya no mas calamidades!</l>
           </lg>
           <lg>
             <head type="titulo_estrofa">26.</head>
-            <l>Si nuestras lágrimas puras</l>
+            <l rend="indent">Si nuestras lágrimas puras</l>
             <l>Pueden alcanzar perdon</l>
             <l>Para esas pobres criaturas</l>
             <l>Que no esperan salvacion.</l>
           </lg>
           <lg>
             <head type="titulo_estrofa">27.</head>
-            <l>Toma del fondo del alma</l>
+            <l rend="indent">Toma del fondo del alma</l>
             <l>Lo que mas grato te sea</l>
             <l>Como halagüeña presea</l>
             <l>De la descada calma.</l>
           </lg>
           <lg>
             <head type="titulo_estrofa">28.</head>
-            <l>Y haz que en los futuros dias</l>
+            <l rend="indent">Y haz que en los futuros dias</l>
             <l>Sea la tierra un eden</l>
             <l>Y luego de ti gocemos</l>
             <l>Por siempre en la gloria. Amen.</l>
           </lg>
-          <p><lb/>(Es propiedad.)</p>
-          <trailer>FIN.</trailer>
+          <p rend="cursiva"><lb/>(Es propiedad.)</p>
+          <trailer rend="negrita">FIN.</trailer>
         </div>
-        <div type="colofon_impresora">
+        
+        <div type="colofon_impresor">
           <p><lb/>Palma. —Impr. de B. Rotger.</p>
         </div>
+        
         <div type="colofon_vendedor">
           <p><lb/>PALMA. Tienda de M Borras. Cuesta del Teatro.</p>
         </div>

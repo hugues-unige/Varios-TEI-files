@@ -4,8 +4,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>TROVOS NUEVOS Y DIVERTIDOS, PARA CANTAR LOS AFICIONADOS, CON
-                              GUITARRA.</title>
+        <title>TROVOS NUEVOS Y DIVERTIDOS</title>
         <respStmt>
           <name xml:id="PJ">Pauline Jacsont</name>
           <resp>Codificación TEI</resp>
@@ -29,9 +28,9 @@
             <p/>
           </editionStmt>
           <publicationStmt>
-            <publisher>Establecimiento de Juan B. Vidal</publisher>
+            <publisher>Juan Bautista Vidal</publisher>
             <pubPlace ref="https://www.geonames.org/3111933/reus.html">Reus</pubPlace>
-            <date cert="high">[s.a]</date>
+            <date cert="low" when="1800-01-01">[s.a.]</date>
           </publicationStmt>
         </biblFull>
         <msDesc>
@@ -40,6 +39,7 @@
             <settlement>Genève</settlement>
             <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"/>
                                     </repository>
+            <collection>Colección Varios</collection>
             <idno type="cote"/>
             <idno type="DOI">10.5281/zenodo.6783429</idno>
             <altIdentifier>
@@ -68,7 +68,7 @@
               </layoutDesc>
             </objectDesc>
             <decoDesc>
-              <summary n="1">Uno grabados (p.1) </summary>
+              <summary n="1">Un grabados (p.1) </summary>
               <decoNote type="lista_grabados">
                 <list>
                   <item corresp="grabado_v_367_1.xml">grabado_v_367_1</item>
@@ -100,7 +100,7 @@
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR non corregido</p>
+          <p>OCR no corregido</p>
         </correction>
         <normalization>
           <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto
@@ -127,9 +127,10 @@
     <revisionDesc>
       <change when="2023-12-06" who="#PJ">Création du fichier TEI P5 et encodage du
                         corps du texte</change>
+<change when="2024-01-09" who="#EL">Add the IIIF links</change>
     </revisionDesc>
   </teiHeader>
-  <sourceDoc xml:id="automaticTranscription">
+  <facsimile><graphic url="varios/Varios_367_1.jpg/full/200,/0/default.jpg"/></facsimile><sourceDoc xml:id="automaticTranscription">
     <surface xml:id="Varios_367_1" type="page" cert="silver">
       <graphic url="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_367_1/full/full/0/default.jpg"/>
       <zone xml:id="Varios_367_1_BT221_1" n="1" type="CustomZone" subtype="impresorNum" points="1478,265 1478,372 1235,372 1235,265 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_367_1/1235,265,243,107/full/0/default" corresp="CustomZone:impresorNum">
@@ -1114,7 +1115,7 @@
   <text>
     <body>
       <div>
-        <pb n="1" source="Varios_367_1.jpg" facs="fedora_Varios_367_1/full/full/0/default.jpg"/>
+        <pb n="1" source="Varios_367_1.jpg" facs="varios/Varios_367_1.jpg/"/>
         <fw type="impresorNum">(Núm. 54).</fw>
         <div type="parte" n="1">
           <head type="primer_titulo"><lb/>TROVOS NUEVOS Y DIVERTIDOS,</head>
@@ -1160,7 +1161,7 @@
             <l>No quiso, no, mi dolor</l>
             <l rend="cursiva">Enseñarme, de querer.</l>
           </lg>
-          <pb n="2" source="Varios_367_2.jpg" facs="fedora_Varios_367_2/full/full/0/default.jpg"/>
+          <pb n="2" source="Varios_367_2.jpg" facs="varios/Varios_367_2.jpg/"/>
           <lg>
             <l>Allá en la verde pradera</l>
             <l>Matizada de mil flores,</l>
@@ -1255,7 +1256,7 @@
             <l>O bien mata á ella el secreto,</l>
             <l rend="cursiva">O el secreto á la mujer.</l>
           </lg>
-          <pb n="3" source="Varios_367_3.jpg" facs="fedora_Varios_367_3/full/full/0/default.jpg"/>
+          <pb n="3" source="Varios_367_3.jpg" facs="varios/Varios_367_3.jpg/"/>
           <lg rend="cursiva">
             <l>Enseguida que nací</l>
             <l>Buen mozo, se me llamó,</l>
@@ -1348,7 +1349,7 @@
             <l>O tú me vuelves á amar</l>
             <l rend="cursiva">O me despido de tí.</l>
           </lg>
-          <pb n="4" source="Varios_367_4.jpg" facs="fedora_Varios_367_4/full/full/0/default.jpg"/>
+          <pb n="4" source="Varios_367_4.jpg" facs="varios/Varios_367_4.jpg/"/>
           <lg rend="cursiva">
             <l>Este mundo es una bola</l>
             <l>Y es claro que ha de rodar;</l>

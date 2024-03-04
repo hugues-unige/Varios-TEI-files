@@ -1,19 +1,17 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../Schema/oddPliego_varios.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:alto="http://www.loc.gov/standards/alto/ns-v4#" xml:id="Varios_019">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Varios_019">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>DÉCIMAS TROVADAS, que cantan al valiente ejército español vencedor de
-                              la raza mahometana en Africa.</title>
+        <title>Décimas trovadas</title>
         <respStmt>
           <name/>
           <resp>Codificación TEI</resp>
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <authority role="rightsHolder">Bibliothèque Universitaire de
-                              Genève</authority>
+        <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
         <availability status="restricted">
           <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
         </availability>
@@ -21,18 +19,18 @@
       <sourceDesc>
         <biblFull>
           <titleStmt>
-            <title type="titulo_completo">DÉCIMAS TROVADAS, que cantan al
-                                          valiente ejército español vencedor de la raza mahometana
-                                          en Africa.</title>
-            <title type="titulo_breve">DÉCIMAS TROVADAS</title>
+            <title type="titulo_completo">Décimas trovadas, que cantan al valiente ejército español
+              vencedor de la raza mahometana en Africa.</title>
+            <title type="titulo_breve">Décimas trovadas</title>
           </titleStmt>
           <editionStmt>
             <p/>
           </editionStmt>
           <publicationStmt>
-            <publisher>M. Moreno</publisher>
-            <pubPlace ref="https://www.geonames.org/2520118/carmona.html">Carmona</pubPlace>
-            <date>[s.a]</date>
+            <publisher>José María Moreno</publisher>
+            <pubPlace ref="https://www.geonames.org/2520118/carmona.html">Carmona
+              (Sevilla)</pubPlace>
+            <date cert="low" when="1800-01-01">[s.a.]</date>
           </publicationStmt>
         </biblFull>
         <msDesc>
@@ -40,18 +38,27 @@
             <country>Suisse</country>
             <settlement>Genève</settlement>
             <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"/>
-                                    </repository>
+            </repository>
+            <collection>Colleción Moreno</collection>
             <idno type="cote"/>
             <idno type="DOI">10.5281/zenodo.6536285</idno>
             <altIdentifier>
-              <idno type="num_impresor">Nùm. 367.</idno>
+              <idno type="num_impresor">Núm. 367.</idno>
             </altIdentifier>
           </msIdentifier>
           <msContents>
-            <summary/>
+            <summary>Tres décimas</summary>
             <msItem>
-              <locus/>
-              <title/>
+              <locus>1-2</locus>
+              <title>Décimas trovadas, que cantan al valiente ejército español vencedor de la raza mahometana en Africa.</title>
+            </msItem>
+            <msItem>
+              <locus>2-3</locus>
+              <title>Prim.</title>
+            </msItem>
+            <msItem>
+              <locus>4</locus>
+              <title>Toma de Tetuan.</title>
             </msItem>
           </msContents>
           <physDesc>
@@ -69,7 +76,7 @@
               </layoutDesc>
             </objectDesc>
             <decoDesc>
-              <summary n="3">Duos grabados (p.1) </summary>
+              <summary n="2">Dos grabados (p.1)</summary>
               <decoNote type="lista_grabados">
                 <list>
                   <item corresp="grabado_v_019_1.xml">grabado_v_019_1</item>
@@ -81,8 +88,7 @@
           </physDesc>
           <history>
             <origin>
-              <p>Carmona.-Imp. y lib, de don Insé M. Moreno, Madre de
-                                                Dios, 1.</p>
+              <p>Carmona.-Imp. y lib, de don Insé M. Moreno, Madre de Dios, 1.</p>
             </origin>
             <provenance/>
             <acquisition/>
@@ -92,18 +98,17 @@
     </fileDesc>
     <encodingDesc>
       <projectDesc>
-        <p>Este archivo fue creado en el marco del proyecto Desenrollando el
-                              Cordel/Démêler le cordel/Untangling the cordel, dirigido por la
-                              profesora Constance Carta de la Universidad de Ginebra, con el apoyo
-                              de la Fundación filantrópica Famille Sandoz-Monique de Meuron.</p>
+        <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+          cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la Universidad
+          de Ginebra, con el apoyo de la Fundación filantrópica Famille Sandoz-Monique de
+          Meuron.</p>
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR non corregido</p>
+          <p>OCR no corregido</p>
         </correction>
         <normalization>
-          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto
-                                    original.</p>
+          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
         </normalization>
         <punctuation>
           <p>Se conserva la puntuación original.</p>
@@ -124,11 +129,12 @@
       </textClass>
     </profileDesc>
     <revisionDesc>
-      <change when="2022-05-04" who="#PJ">Création du fichier TEI P5 et encodage du
-                        corps du texte</change>
+      <change when="2022-05-04" who="#PJ">Création du fichier TEI P5 et encodage du corps du
+        texte</change>
+<change when="2024-01-09" who="#EL">Add the IIIF links</change>
     </revisionDesc>
   </teiHeader>
-  <sourceDoc xml:id="automaticTranscription">
+  <facsimile><graphic url="varios/Varios_019_1.jpg/full/200,/0/default.jpg"/></facsimile><sourceDoc xml:id="automaticTranscription">
     <surface xml:id="Varios_019_1" type="page" cert="silver">
       <graphic url="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_019_1/full/full/0/default.jpg"/>
       <zone xml:id="Varios_019_1_BT221_1" n="1" type="CustomZone" subtype="impresorNum" points="1240,199 1228,252 1474,252 1468,196 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_019_1/1228,196,246,56/full/0/default" corresp="CustomZone:impresorNum">
@@ -337,19 +343,19 @@
       </zone>
       <zone xml:id="Varios_019_2_BT226_4" n="4" type="MainZone" subtype="none" points="1205,1510 1147,1659 537,1651 537,1512 611,1449 1097,1432 1199,1468 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_019_2/537,1432,668,227/full/0/default" corresp="MainZone">
         <zone xml:id="Varios_019_2_BT226_4_LT84_1" type="DefaultLine" subtype="none" points="622,1494 613,1446 644,1430 644,1430 644,1430 647,1430 647,1430 649,1430 704,1430 704,1430 704,1430 706,1430 706,1430 706,1430 709,1430 729,1444 729,1444 735,1444 862,1428 862,1428 864,1428 864,1428 955,1440 957,1440 959,1440 1015,1426 1017,1426 1017,1426 1019,1426 1019,1426 1021,1426 1021,1426 1021,1426 1043,1438 1178,1438 1182,1488 1182,1510 622,1510 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_019_2/613,1426,569,84/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_019_2_BT226_4_LT84_1_1" points="622,1494 1182,1488 " corresp=" &#10;                                                  DefaultLine"/>
+          <path xml:id="Varios_019_2_BT226_4_LT84_1_1" points="622,1494 1182,1488 " corresp=" &#xA;                                                  DefaultLine"/>
           <line>Por mis soldados valientes</line>
         </zone>
         <zone xml:id="Varios_019_2_BT226_4_LT84_2" type="DefaultLine" subtype="none" points="570,1543 568,1500 979,1492 981,1492 981,1492 983,1492 1031,1504 1029,1543 1029,1562 570,1562 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_019_2/568,1492,463,70/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_019_2_BT226_4_LT84_2_1" points="570,1543 1029,1543 " corresp=" &#10;                                                  DefaultLine"/>
+          <path xml:id="Varios_019_2_BT226_4_LT84_2_1" points="570,1543 1029,1543 " corresp=" &#xA;                                                  DefaultLine"/>
           <line>pierdo todo mi tesoro,</line>
         </zone>
         <zone xml:id="Varios_019_2_BT226_4_LT84_3" type="DefaultLine" subtype="none" points="572,1591 568,1556 690,1541 690,1541 692,1541 692,1541 777,1552 820,1539 822,1539 822,1539 822,1539 824,1539 990,1552 994,1587 992,1597 572,1609 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_019_2/568,1539,426,70/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_019_2_BT226_4_LT84_3_1" points="572,1591 994,1587 " corresp=" &#10;                                                  DefaultLine"/>
+          <path xml:id="Varios_019_2_BT226_4_LT84_3_1" points="572,1591 994,1587 " corresp=" &#xA;                                                  DefaultLine"/>
           <line>con valor y bizarría</line>
         </zone>
         <zone xml:id="Varios_019_2_BT226_4_LT84_4" type="DefaultLine" subtype="none" points="572,1636 568,1597 593,1585 593,1585 593,1585 595,1585 595,1585 597,1585 597,1585 597,1585 599,1585 599,1585 599,1585 601,1585 601,1585 613,1597 616,1597 1120,1593 1124,1640 1120,1671 1035,1655 808,1653 783,1669 781,1669 781,1669 781,1669 781,1669 779,1669 779,1669 779,1669 777,1669 777,1669 777,1669 775,1669 719,1657 661,1669 655,1669 655,1669 655,1669 653,1669 653,1669 651,1669 651,1669 651,1669 649,1669 649,1669 649,1669 649,1667 632,1653 570,1667 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_019_2/568,1585,556,86/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_019_2_BT226_4_LT84_4_1" points="572,1636 1124,1640 " corresp=" &#10;                                                  DefaultLine"/>
+          <path xml:id="Varios_019_2_BT226_4_LT84_4_1" points="572,1636 1124,1640 " corresp=" &#xA;                                                  DefaultLine"/>
           <line>daré fin de vuestros moros.</line>
         </zone>
       </zone>
@@ -927,8 +933,7 @@
       <zone xml:id="Varios_019_4_BT228_7" n="7" type="MarginTextZone" subtype="colophon" points="1680,2229 1681,2273 1536,2294 1328,2283 634,2274 245,2249 245,2190 389,2179 1471,2182 1628,2176 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_019_4/245,2176,1436,118/full/0/default" corresp="MarginTextZone:colophon">
         <zone xml:id="Varios_019_4_BT228_7_LT83_1" type="DefaultLine" subtype="none" points="258,2232 258,2179 427,2195 482,2184 493,2182 493,2182 493,2182 495,2182 495,2182 497,2182 497,2182 497,2182 500,2182 502,2184 526,2199 640,2199 651,2186 653,2186 653,2184 653,2184 655,2184 655,2184 655,2184 658,2184 658,2184 660,2184 660,2184 660,2184 662,2184 675,2188 717,2201 978,2203 1039,2195 1081,2190 1081,2190 1083,2190 1083,2190 1083,2190 1085,2190 1085,2190 1087,2190 1087,2190 1087,2190 1094,2197 1103,2203 1125,2197 1144,2193 1147,2193 1147,2193 1149,2193 1149,2193 1149,2193 1151,2193 1151,2193 1153,2193 1153,2193 1160,2199 1171,2206 1269,2201 1355,2197 1357,2197 1357,2197 1357,2197 1390,2203 1425,2210 1454,2206 1498,2197 1498,2197 1498,2197 1500,2197 1640,2210 1642,2256 1636,2309 1561,2285 1509,2285 1471,2304 1465,2306 1465,2306 1465,2306 1462,2306 1462,2306 1460,2306 1460,2306 1460,2306 1458,2306 1458,2306 1456,2306 1456,2306 1456,2304 1454,2302 1432,2282 1344,2280 1318,2298 1316,2298 1316,2298 1316,2298 1316,2298 1313,2298 1313,2298 1313,2298 1311,2298 1311,2298 1309,2298 1309,2298 1309,2298 1309,2298 1276,2282 1169,2282 1155,2293 1149,2298 1149,2300 1147,2300 1147,2300 1147,2300 1144,2300 1144,2300 1144,2302 1105,2302 1103,2300 1103,2300 1101,2300 1101,2300 1101,2300 1098,2300 1085,2291 1074,2282 1065,2289 1052,2300 1052,2300 1050,2300 1050,2300 1048,2300 1048,2300 1048,2300 1046,2300 879,2289 804,2298 804,2298 802,2298 802,2298 756,2291 756,2291 754,2291 754,2291 752,2291 752,2291 736,2278 726,2269 710,2278 695,2285 695,2285 695,2285 693,2285 693,2285 690,2285 690,2285 688,2285 688,2285 664,2276 638,2267 572,2267 565,2271 550,2285 550,2285 548,2285 548,2285 546,2285 546,2285 546,2285 543,2285 543,2285 543,2285 541,2285 541,2285 539,2285 517,2271 508,2267 460,2267 454,2269 386,2291 383,2291 383,2291 383,2291 381,2291 381,2291 379,2291 379,2291 379,2291 329,2265 322,2263 258,2263 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_019_4/258,2179,1384,130/full/0/default" corresp="DefaultLine">
           <path xml:id="Varios_019_4_BT228_7_LT83_1_1" points="261,2233 592,2243 1645,2258 "/>
-          <line>Carmona. —Imp. y lib, de don José M. Moreno, Madre de Dios,
-                                    1.</line>
+          <line>Carmona. —Imp. y lib, de don José M. Moreno, Madre de Dios, 1.</line>
         </zone>
       </zone>
     </surface>
@@ -936,35 +941,40 @@
   <text>
     <body>
       <div>
-        <pb n="1" source="Varios_019_1.jpg" facs="fedora_Varios_019_1/full/full/0/default.jpg"/>
-        <fw type="impresorNum"/>
-        <div n="1" type="parte">
-          <head type="primer_titulo"><lb/>DÉCIMAS TROVADAS,<lb/>que cantan al valiente ejército
-                                    español vencedor<lb/>de la raza mahometana en Africa.</head>
+        <pb n="1" source="Varios_019_1.jpg" facs="varios/Varios_019_1.jpg/"/>
+
+        <fw type="impresorNum">Núm. 367</fw>
+
+        <div n="1">
+          <head type="primer_titulo"><lb/><hi rend="negrita">DÉCIMAS TROVADAS,</hi><lb/>que cantan
+            al valiente ejército español vencedor<lb/>de la raza mahometana en Africa.</head>
+
           <lg rend="cursiva">
-            <l>Dios libre á los españóles</l>
+            <l rend="indent">Dios libre á los españóles</l>
             <l>de las terribles balallas,</l>
             <l>todos saldrán victoriosos</l>
             <l>si no faltan las metrallas.</l>
           </lg>
+
           <lg>
-            <l>Sagrada Virgen del Mar,</l>
+            <l rend="indent">Sagrada Virgen del Mar,</l>
             <l>sois patrona de Almería,</l>
             <l>gracias á Dios, madre mia,</l>
             <l>que se tomó á Tetuan.</l>
             <l>Con mucho celo y afan</l>
-          </lg>
-          <lg>
             <l>te nombran ya las naciones,</l>
             <l>por Madre de defensores,</l>
             <l>siendo tu hijo el tesoro,</l>
             <l>y de las manos del moro,</l>
-            <l>Dios libre á los españoles.</l>
+            <l rend="cursiva">Dios libre á los españoles.</l>
           </lg>
-          <pb n="2" source="Varios_019_2.jpg" facs="fedora_Varios_019_2/full/full/0/default.jpg"/>
+
+          <pb n="2" source="Varios_019_2.jpg" facs="varios/Varios_019_2.jpg/"/>
+
           <fw type="paginaNum">2</fw>
+
           <lg>
-            <l>Caando entramos en accion</l>
+            <l rend="indent">Cuando entramos en accion</l>
             <l>aclamamos á tu imperio,</l>
             <l>defendiendo los misterios</l>
             <l>de Vos, Pura Encarnacion.</l>
@@ -976,8 +986,9 @@
             <l>y vos libradnos, Señora,</l>
             <l rend="cursiva">de las terribles batallas.</l>
           </lg>
+
           <lg>
-            <l>Vivan nuestros generales,</l>
+            <l rend="indent">Vivan nuestros generales,</l>
             <l>O'Donnell, Rios y Prim,</l>
             <l>Donnell, Rios y Prim,</l>
             <l>Echagüe, que ha de batir</l>
@@ -989,8 +1000,9 @@
             <l>que si no falta la armada</l>
             <l rend="cursiva">todos saldrán victoriosos.</l>
           </lg>
+
           <lg>
-            <l>Defended vuestra banderas</l>
+            <l rend="indent">Defended vuestra banderas</l>
             <l>hasta morir en accion,</l>
             <l>que el honor de un español</l>
             <l>es morir brillante en guerra,</l>
@@ -1002,11 +1014,17 @@
             <l rend="cursiva">si no faltan las metrallas.</l>
           </lg>
         </div>
-        <div n="2" type="parte">
-          <head type="titulo_trovo"><lb/>Prim.</head>
-          <p><lb/>Por mis soldados valientes<lb/>pierdo todo mi
-                                    tesoro,<lb/>con valor y bizarría<lb/>daré fin de vuestros
-                                    moros.</p>
+
+        <div n="2">
+          <head type="primer_titulo"><lb/>Prim.</head>
+
+          <lg rend="cursiva">
+            <l>Por mis soldados valientes</l>
+            <l>pierdo todo mi tesoro,</l>
+            <l>con valor y bizarría</l>
+            <l>daré fin de vuestros moros.</l>
+          </lg>
+
           <lg>
             <l>Ni el acero de su alfange,</l>
             <l>ni las fuerzas del Sultan,</l>
@@ -1017,116 +1035,129 @@
             <l>que ha venido del Oriente</l>
             <l>á destruir tu nacion:</l>
             <l>yo pierdo mi corazon</l>
-            <l>por mis soldados valientes.</l>
+            <l rend="cursiva">por mis soldados valientes.</l>
           </lg>
-          <div n="DESAFIO.">
+
+          <lg>
             <head type="titulo_estrofa">DESAFIO.</head>
-            <lg>
-              <l>Ven al campo, Emperador,</l>
-              <l>si vos os quereis batir,</l>
-              <l>hoy te desafia Prim,</l>
-              <l>como valiente español;</l>
-              <l>y venga toda la Nacion</l>
-              <l>y vuestros dioses de oro,</l>
-              <l>á quienes guardais decoro</l>
-              <l>siendo falsos y embusteros,</l>
-              <l>que yo por el Rey del Cielo,</l>
-              <l rend="cursiva">pierdo todo mi tesoro.</l>
-            </lg>
-            <pb n="3" source="Varios_019_3.jpg" facs="fedora_Varios_019_3/full/full/0/default.jpg"/>
-            <fw type="paginaNum">3</fw>
-            <lg>
-              <l>Moro, sin ley verdadera,</l>
-              <l>¿de qué sirven tus cañones,</l>
-              <l>si con diez mil españoles</l>
-              <l>té haré salir de tus tierras?</l>
-              <l>Venganza tomar quisiera,</l>
-              <l>pero vuestra cobardía</l>
-              <l>con espingarda y gumía,</l>
-              <l>dale frente á mis lanceros,</l>
-              <l>y verás mis coraceros</l>
-              <l rend="cursiva">con valor y bizarria.</l>
-            </lg>
-            <lg>
-              <l>Húsares y tiradores,</l>
-              <l>lanceros y coraceros,</l>
-              <l>ingenieros, granaderos,</l>
-              <l>fusileros, cazadores;</l>
-              <l>perseguid á esos traidores,</l>
-              <l>y destrozadle los poros;</l>
-              <l>si respetais los decoros</l>
-              <l>sea con fuertes cuchilladas,</l>
-              <l>yo con mi valiente espada,</l>
-              <l>daré fin de vuestros moros.</l>
-            </lg>
-            <lg rend="cursiva">
-              <l>Vivan nuestros generales</l>
-              <l>del Ejército español,</l>
-              <l>con sus valientes soldados</l>
-              <l>de España nuestra Nacion.</l>
-            </lg>
-            <lg>
-              <l>Salid al campo de Marruecos,</l>
-              <l>darle el frente á mis Cristianos,</l>
-              <l>os harán cantar de plano</l>
-              <l>aunque vengais de refresco.</l>
-              <l>Si de ignorancia peco</l>
-              <l>para mi serán los males;</l>
-              <l>con mis soldados leales</l>
-              <l>me coloqué en Tetuan,</l>
-              <l>y en toda España dirán</l>
-              <l rend="cursiva">vivan nuestros generales.</l>
-            </lg>
-            <lg>
-              <l>Bien puedes mudar de traje</l>
-              <l>y vestir á lo español;</l>
-              <l>yo con mi plana mayor</l>
-              <l>me he de colocar en Tárger.</l>
-              <l>No me privará tu altanje</l>
-              <l>de que gane tus estados,</l>
-              <l>por traidores y malvados</l>
-              <l>como así debe de ser;</l>
-              <l>viva la Reina Isabel</l>
-              <l rend="cursiva">con mis valientes soldados.</l>
-            </lg>
-            <lg>
-              <l>Vengan los moros ampones</l>
-              <l>prestándome fantasía,</l>
-              <l>que yo les daré agonia</l>
-              <l>con mis valientes cañones.</l>
-              <l>Venga tu mala traicion,</l>
-              <l>venga tu mala region,</l>
-              <l>bárbaros sin religion,</l>
-              <l>¿de qué os sirve atacar,</l>
-              <l>si os teneis que acordar,</l>
-              <l rend="cursiva">del Ejército español?</l>
-            </lg>
-            <lg>
-              <l>Con dos cuartos de aguardiente</l>
-              <l>que se tomen mis soldados,</l>
-              <l>los encuentro preparados</l>
-              <l>para destruir tu gente.</l>
-              <l>Quieres ser independiente</l>
-              <l>sin pagar contribucion:</l>
-              <l>yo te haré una obligacion</l>
-              <l>y en ella no has de faltar,</l>
-              <l>ó te tienes que acordar</l>
-              <l rend="cursiva">de España nuestra Nacion.</l>
-            </lg>
-          </div>
-        </div>
-        <div n="3" type="parte">
-          <pb n="4" source="Varios_019_4.jpg" facs="fedora_Varios_019_4/full/full/0/default.jpg"/>
-          <fw type="paginaNum">4</fw>
-          <head type="titulo_parte"><lb/>TOMA DE TETUAN.</head>
+            <l>Ven al campo, Emperador,</l>
+            <l>si vos os quereis batir,</l>
+            <l>hoy te desafia Prim,</l>
+            <l>como valiente español;</l>
+            <l>y venga toda la Nacion</l>
+            <l>y vuestros dioses de oro,</l>
+            <l>á quienes guardais decoro</l>
+            <l>siendo falsos y embusteros,</l>
+            <l>que yo por el Rey del Cielo,</l>
+            <l rend="cursiva">pierdo todo mi tesoro.</l>
+          </lg>
+
+          <pb n="3" source="Varios_019_3.jpg" facs="varios/Varios_019_3.jpg/"/>
+
+          <fw type="paginaNum">3</fw>
+
+          <lg>
+            <l rend="indent">Moro, sin ley verdadera,</l>
+            <l>¿de qué sirven tus cañones,</l>
+            <l>si con diez mil españoles</l>
+            <l>té haré salir de tus tierras?</l>
+            <l>Venganza tomar quisiera,</l>
+            <l>pero vuestra cobardía</l>
+            <l>con espingarda y gumía,</l>
+            <l>dale frente á mis lanceros,</l>
+            <l>y verás mis coraceros</l>
+            <l rend="cursiva">con valor y bizarria.</l>
+          </lg>
+          
+          <lg>
+            <l rend="indent">Húsares y tiradores,</l>
+            <l>lanceros y coraceros,</l>
+            <l>ingenieros, granaderos,</l>
+            <l>fusileros, cazadores;</l>
+            <l>perseguid á esos traidores,</l>
+            <l>y destrozadle los poros;</l>
+            <l>si respetais los decoros</l>
+            <l>sea con fuertes cuchilladas,</l>
+            <l>yo con mi valiente espada,</l>
+            <l rend="cursiva">daré fin de vuestros moros.</l>
+          </lg>
+          
           <lg rend="cursiva">
-            <l>Viva la Reina Isabel,</l>
+            <l>Vivan nuestros generales</l>
+            <l>del Ejército español,</l>
+            <l>con sus valientes soldados</l>
+            <l>de España nuestra Nacion.</l>
+          </lg>
+          
+          <lg>
+            <l rend="indent">Salid al campo de Marruecos,</l>
+            <l>darle el frente á mis Cristianos,</l>
+            <l>os harán cantar de plano</l>
+            <l>aunque vengais de refresco.</l>
+            <l>Si de ignorancia peco</l>
+            <l>para mi serán los males;</l>
+            <l>con mis soldados leales</l>
+            <l>me coloqué en Tetuan,</l>
+            <l>y en toda España dirán</l>
+            <l rend="cursiva">vivan nuestros generales.</l>
+          </lg>
+          
+          <lg>
+            <l rend="indent">Bien puedes mudar de traje</l>
+            <l>y vestir á lo español;</l>
+            <l>yo con mi plana mayor</l>
+            <l>me he de colocar en Tárger.</l>
+            <l>No me privará tu altanje</l>
+            <l>de que gane tus estados,</l>
+            <l>por traidores y malvados</l>
+            <l>como así debe de ser;</l>
+            <l>viva la Reina Isabel</l>
+            <l rend="cursiva">con mis valientes soldados.</l>
+          </lg>
+          
+          <lg>
+            <l rend="indent">Vengan los moros ampones</l>
+            <l>prestándome fantasía,</l>
+            <l>que yo les daré agonia</l>
+            <l>con mis valientes cañones.</l>
+            <l>Venga tu mala traicion,</l>
+            <l>venga tu mala region,</l>
+            <l>bárbaros sin religion,</l>
+            <l>¿de qué os sirve atacar,</l>
+            <l>si os teneis que acordar,</l>
+            <l rend="cursiva">del Ejército español?</l>
+          </lg>
+          
+          <lg>
+            <l rend="indent">Con dos cuartos de aguardiente</l>
+            <l>que se tomen mis soldados,</l>
+            <l>los encuentro preparados</l>
+            <l>para destruir tu gente.</l>
+            <l>Quieres ser independiente</l>
+            <l>sin pagar contribucion:</l>
+            <l>yo te haré una obligacion</l>
+            <l>y en ella no has de faltar,</l>
+            <l>ó te tienes que acordar</l>
+            <l rend="cursiva">de España nuestra Nacion.</l>
+          </lg>
+        </div>
+        
+        <div n="3">
+          <pb n="4" source="Varios_019_4.jpg" facs="varios/Varios_019_4.jpg/"/>
+          
+          <fw type="paginaNum">4</fw>
+          
+          <head type="titulo_parte"><lb/>TOMA DE TETUAN.</head>
+          
+          <lg rend="cursiva">
+            <l rend="indent">Viva la Reina Isabel,</l>
             <l>viva nuestra gran victoria,</l>
             <l>viva la España valiente</l>
             <l>que se ha colmado de gloria.</l>
           </lg>
+          
           <lg>
-            <l>Valerosos campeones.</l>
+            <l rend="indent">Valerosos campeones.</l>
             <l>adelante, hijos mios,</l>
             <l>les grita Zabala y Rios,</l>
             <l>ved del moro los pendones:</l>
@@ -1137,8 +1168,9 @@
             <l>y en gritos altizonantes</l>
             <l rend="cursiva">Viva la Reina Isabel.</l>
           </lg>
+          
           <lg>
-            <l>Al son de nuestro elarin,</l>
+            <l rend="indent">Al son de nuestro elarin,</l>
             <l>vuelve á repetir Olano,</l>
             <l>á ellos, sí, mis hermanos,</l>
             <l>les gritaba el bravo Prim:</l>
@@ -1149,8 +1181,9 @@
             <l>hoy fijarán los autores,</l>
             <l rend="cursiva">aiva nuestra gran victoria.</l>
           </lg>
+          
           <lg>
-            <l>O'Donnell, gefe arrogante,</l>
+            <l rend="indent">O'Donnell, gefe arrogante,</l>
             <l>que nombre habeis alcanzado,</l>
             <l>muéstrate al par del soldado</l>
             <l>en defensa del Infante:</l>
@@ -1161,8 +1194,9 @@
             <l>vencistes al africano,</l>
             <l rend="cursiva">viva la España valiente.</l>
           </lg>
+          
           <lg>
-            <l>Ya no lucha el africano,</l>
+            <l rend="indent">Ya no lucha el africano,</l>
             <l>y á Tetuan nos entrega,</l>
             <l>dejándose en la refriega</l>
             <l>los turbantes del tirano:</l>
@@ -1173,11 +1207,12 @@
             <l>viva toda la nación,</l>
             <l rend="cursiva">que se ha colmado de gloria.</l>
           </lg>
-          <trailer>FIN.</trailer>
+          
+          <trailer rend="negrita">FIN.</trailer>
         </div>
+        
         <div type="colofon">
-          <p><lb/>Carmona. —Imp. y lib, de don José M. Moreno, Madre de
-                                    Dios, 1.</p>
+          <p><lb/>Carmona. —Imp. y lib, de don José M. Moreno, Madre de Dios, 1.</p>
         </div>
       </div>
     </body>

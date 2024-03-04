@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../Schema/oddPliego_varios.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:alto="http://www.loc.gov/standards/alto/ns-v4#" xml:id="Varios_192">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Varios_192">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -11,8 +11,7 @@
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <authority role="rightsHolder">Bibliothèque Universitaire de
-                              Genève</authority>
+        <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
         <availability status="restricted">
           <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
         </availability>
@@ -20,18 +19,17 @@
       <sourceDesc>
         <biblFull>
           <titleStmt>
-            <title type="titulo_completo">Canso nova. Prendas apreciables de
-                                          la Tuyas Ripoll sirventa del mol content D. Xirinola
-                                          Panallons, titulat lo gran buxacas.</title>
-            <title type="titulo_breve">Canso nova</title>
+            <title type="titulo_completo">CANSO NOVA. Prendas apreciables de la Tuyas Ripoll
+              sirventa del mol content D. Xirinola Panallons, titulat lo gran buxacas.</title>
+            <title type="titulo_breve">CANSO NOVA.</title>
           </titleStmt>
           <editionStmt>
             <p/>
           </editionStmt>
           <publicationStmt>
-            <publisher>En la Imprenta de Ignasi Estivill.</publisher>
+            <publisher>Ignacio Estivill</publisher>
             <pubPlace ref="https://www.geonames.org/3128760/barcelona.html">Barcelona</pubPlace>
-            <date cert="high">1854</date>
+            <date cert="high" when="1854-01-01">1854</date>
           </publicationStmt>
         </biblFull>
         <msDesc>
@@ -39,7 +37,8 @@
             <country>Suisse</country>
             <settlement>Genève</settlement>
             <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"/>
-                                    </repository>
+            </repository>
+            <collection>Colección Varios</collection>
             <idno type="cote"/>
             <idno type="DOI">10.5281/zenodo.6597445</idno>
             <altIdentifier>
@@ -68,7 +67,7 @@
               </layoutDesc>
             </objectDesc>
             <decoDesc>
-              <summary n="2">Duo (p.1) </summary>
+              <summary n="2">Dos grabados (p.1) </summary>
               <decoNote type="lista_grabados">
                 <list>
                   <item corresp="grabado_v_192_1.xml">grabado_v_192_1</item>
@@ -95,18 +94,17 @@
     </fileDesc>
     <encodingDesc>
       <projectDesc>
-        <p>Este archivo fue creado en el marco del proyecto Desenrollando el
-                              Cordel/Démêler le cordel/Untangling the cordel, dirigido por la
-                              profesora Constance Carta de la Universidad de Ginebra, con el apoyo
-                              de la Fundación filantrópica Famille Sandoz-Monique de Meuron.</p>
+        <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+          cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la Universidad
+          de Ginebra, con el apoyo de la Fundación filantrópica Famille Sandoz-Monique de
+          Meuron.</p>
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR non corregido</p>
+          <p>OCR no corregido</p>
         </correction>
         <normalization>
-          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto
-                                    original.</p>
+          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
         </normalization>
         <punctuation>
           <p>Se conserva la puntuación original.</p>
@@ -127,10 +125,14 @@
       </textClass>
     </profileDesc>
     <revisionDesc>
-      <change when="2023-08-06" who="#PJ">Création du fichier TEI P5 et encodage du
-                        corps du texte</change>
+      <change when="2023-08-06" who="#PJ">Création du fichier TEI P5 et encodage du corps du
+        texte</change>
+      <change when="2024-01-09" who="#EL">Add the IIIF links</change>
     </revisionDesc>
   </teiHeader>
+  <facsimile>
+    <graphic url="varios/Varios_192_1.jpg/full/200,/0/default.jpg"/>
+  </facsimile>
   <sourceDoc xml:id="automaticTranscription">
     <surface xml:id="Varios_192_1" type="page" cert="silver">
       <graphic url="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_192_1/full/full/0/default.jpg"/>
@@ -1167,12 +1169,12 @@
   <text>
     <body>
       <div>
-        <pb n="1" source="Varios_192_1.jpg" facs="fedora_Varios_192_1/full/full/0/default.jpg"/>
+        <pb n="1" source="Varios_192_1.jpg" facs="varios/Varios_192_1.jpg/"/>
         <div>
           <head type="primer_titulo"><lb/>CANSO NOVA.</head>
-          <head type="titulo_parte"><lb/>Prendas apreciables de la Tuyas Ripoll
-                                    sirventa<lb/>del mol content D. Xirinola Panallons, titulat
-                                    lo<lb/>gran buxacas.</head>
+          <head type="subtitulo"><lb/>Prendas apreciables de la Tuyas Ripoll sirventa<lb/>del mol
+            content D. Xirinola Panallons, titulat lo<lb/>gran buxacas.</head>
+
           <lg>
             <l rend="indent">De Don Xirinola</l>
             <l>Corba y Penellons</l>
@@ -1182,8 +1184,6 @@
             <l>la Tuyas Ripoll,</l>
             <l>com lo peix al aigua</l>
             <l>estaba l'taboll ;</l>
-          </lg>
-          <lg>
             <l>que era una criada</l>
             <l>tant bona per ell,</l>
             <l>que en tot Catalunya</l>
@@ -1193,9 +1193,11 @@
             <l rend="cursiva">Criada com ella ,</l>
             <l rend="cursiva">non trubaré cap.</l>
           </lg>
-          <pb n="2" source="Varios_192_2.jpg" facs="fedora_Varios_192_2/full/full/0/default.jpg"/>
+
+          <pb n="2" source="Varios_192_2.jpg" facs="varios/Varios_192_2.jpg/"/>
+
           <lg>
-            <l>Vosaltres comares ,</l>
+            <l rend="indent">Vosaltres comares ,</l>
             <l>diu per tot arreu ;</l>
             <l>busqueume n' una altre,</l>
             <l>doneu forsa veus.</l>
@@ -1212,7 +1214,7 @@
             <l rend="cursiva">Criada &amp;c.</l>
           </lg>
           <lg>
-            <l>Cuant jo la vatx pendrer ,</l>
+            <l rend="indent">Cuant jo la vatx pendrer ,</l>
             <l>la vaix concertar</l>
             <l>que á las mevas ordres</l>
             <l>hauria de estar,</l>
@@ -1225,7 +1227,7 @@
             <l rend="cursiva">Criada &amp;c.</l>
           </lg>
           <lg>
-            <l>A la nit primera ,</l>
+            <l rend="indent">A la nit primera ,</l>
             <l>sent tot concluit ,</l>
             <l>li vatx dir , minyona ,</l>
             <l>ya pots aná al llit :</l>
@@ -1238,11 +1240,9 @@
             <l rend="cursiva">Criada &amp;c.</l>
           </lg>
           <lg>
-            <l>L' endema jo m' llevo</l>
+            <l rend="indent">L' endema jo m' llevo</l>
             <l>de bon dematí ;</l>
             <l>y per mas tareyas</l>
-          </lg>
-          <lg>
             <l>tinguí de sortí :</l>
             <l>cuant vatx torná á casa</l>
             <l>á esmorsá á las nou ,</l>
@@ -1253,7 +1253,7 @@
             <l rend="cursiva">Criada &amp;c.</l>
           </lg>
           <lg>
-            <l>¿Que es aixó? Vatx dirli :</l>
+            <l rend="indent">¿Que es aixó? Vatx dirli :</l>
             <l>¿Qué las aqui al llit?</l>
             <l>— Com no m' diu que m' llevia</l>
             <l>encara m' hi estich :</l>
@@ -1266,7 +1266,7 @@
             <l rend="cursiva">Criada &amp;e.</l>
           </lg>
           <lg>
-            <l>Yo li vatx di un dia :</l>
+            <l rend="indent">Yo li vatx di un dia :</l>
             <l>si may gana tens,</l>
             <l>á dalt hi ha tocino ,</l>
             <l>fes croixer las dents :</l>
@@ -1279,7 +1279,7 @@
             <l rend="cursiva">Criada &amp;c.</l>
           </lg>
           <lg>
-            <l>Un dia l' cigarro</l>
+            <l rend="indent">Un dia l' cigarro</l>
             <l>vatx dir que encengués ;</l>
             <l>y l' tira á las brasas ,</l>
             <l>sense mes ni mes :</l>
@@ -1289,11 +1289,11 @@
             <l>no m' vatx recordar :</l>
             <l>despres jo l' volia,</l>
             <l>y era tot cremat.</l>
-            <pb n="3" source="Varios_192_3.jpg" facs="fedora_Varios_192_3/full/full/0/default.jpg"/>
+            <pb n="3" source="Varios_192_3.jpg" facs="varios/Varios_192_3.jpg/"/>
             <l rend="cursiva">Criada &amp;c.</l>
           </lg>
           <lg>
-            <l>Li vatx dir : té un duro ,</l>
+            <l rend="indent">Li vatx dir : té un duro ,</l>
             <l>ves lo á cambiar :</l>
             <l>y un altre en pessa</l>
             <l>luego m' va tornar:</l>
@@ -1306,7 +1306,7 @@
             <l rend="cursiva">Criada &amp;c.</l>
           </lg>
           <lg>
-            <l>Una volta una unsa</l>
+            <l rend="indent">Una volta una unsa</l>
             <l>també li vatx da ,</l>
             <l>putx moneda suelta</l>
             <l>no tenia allá ;</l>
@@ -1319,7 +1319,7 @@
             <l rend="cursiva">Criada &amp;c.</l>
           </lg>
           <lg>
-            <l>Dotse carniceras</l>
+            <l rend="indent">Dotse carniceras</l>
             <l>va dur de moltó ,</l>
             <l>de ovella altres tantas ,</l>
             <l>de bou ¿ que m' se jo ?</l>
@@ -1332,14 +1332,12 @@
             <l rend="cursiva">Criada &amp;c.</l>
           </lg>
           <lg>
-            <l>Tenint en ma casa</l>
+            <l rend="indent">Tenint en ma casa</l>
             <l>uua gran funció</l>
             <l>li dich, duu melindros,</l>
             <l>pastas y vi bó :</l>
             <l>va portar garrofas ;</l>
             <l>y l' pitjó de tot</l>
-          </lg>
-          <lg>
             <l>que va dur pastetas</l>
             <l>d'un sabaterot :</l>
             <l>dos cuartos sobraren ,</l>
@@ -1347,7 +1345,7 @@
             <l rend="cursiva">Criada cte.</l>
           </lg>
           <lg>
-            <l>L' any passat per festas</l>
+            <l rend="indent">L' any passat per festas</l>
             <l>tenint dos capons ,</l>
             <l>li vatx donar l' ordre</l>
             <l>que 'ls poses al forn.</l>
@@ -1360,7 +1358,7 @@
             <l rend="cursiva">Criada etc.</l>
           </lg>
           <lg>
-            <l>Donantli un porró ,</l>
+            <l rend="indent">Donantli un porró ,</l>
             <l>dich : ves al Sellé ,</l>
             <l>treu vi de la bota ,</l>
             <l>pújamal ben ple :</l>
@@ -1373,7 +1371,7 @@
             <l rend="cursiva">Criada etc.</l>
           </lg>
           <lg>
-            <l>Las cosas que feya</l>
+            <l rend="indent">Las cosas que feya</l>
             <l>no ho creará ningú :</l>
             <l>lo mati al llevarse</l>
             <l>estaba en dejú ;</l>
@@ -1386,9 +1384,11 @@
             <l rend="cursiva">Criada etc.</l>
           </lg>
           <lg>
-            <l>La escombra de casa</l>
+            <l rend="indent">La escombra de casa</l>
             <l>may me va espatllar ,</l>
-            <pb n="4" source="Varios_192_4.jpg" facs="fedora_Varios_192_4/full/full/0/default.jpg"/>
+            
+            <pb n="4" source="Varios_192_4.jpg" facs="varios/Varios_192_4.jpg/"/>
+            
             <l>putx pols y trenyinas</l>
             <l>may las va tocar :</l>
             <l>tots farcits de aranyas</l>
@@ -1400,7 +1400,7 @@
             <l rend="cursiva">Criada etc.</l>
           </lg>
           <lg>
-            <l>En cuant á la cuyna</l>
+            <l rend="indent">En cuant á la cuyna</l>
             <l>allá era l' seu fort :</l>
             <l>putx fins los dibendres</l>
             <l>menjabam de porch ;</l>
@@ -1413,7 +1413,7 @@
             <l rend="cursiva">Criada etc.</l>
           </lg>
           <lg>
-            <l>Se va menjá un dia</l>
+            <l rend="indent">Se va menjá un dia</l>
             <l>divuit ulls de Col ,</l>
             <l>y cuatre tupins</l>
             <l>plens de caragols :</l>
@@ -1426,7 +1426,7 @@
             <l rend="cursiva">Criada etc.</l>
           </lg>
           <lg>
-            <l>Pero li agradaban</l>
+            <l rend="indent">Pero li agradaban</l>
             <l>molt be 'ls guisadets ;</l>
             <l>mes no las monjetas ,</l>
             <l>tampoch fasolets :</l>
@@ -1439,7 +1439,7 @@
             <l rend="cursiva">Criada etc.</l>
           </lg>
           <lg>
-            <l>Vosaltres comares</l>
+            <l rend="indent">Vosaltres comares</l>
             <l>que tot ho sabeu,</l>
             <l>busqueumen una altre.</l>
             <l>que gran plé m' fareu</l>
@@ -1452,7 +1452,7 @@
             <l rend="cursiva">Criada etc.</l>
           </lg>
           <lg>
-            <l>Ab esta per ara</l>
+            <l rend="indent">Ab esta per ara</l>
             <l>nos despedirém ;</l>
             <l>desitjant que gustian</l>
             <l>de aquest pensament ,</l>
@@ -1467,11 +1467,11 @@
           </lg>
           <trailer>FIN.</trailer>
         </div>
-        <div type="propriedad">
-          <p><lb/>AB LLICENCIA :</p>
+        <div>
+          <p rend="cursiva"><lb/>AB LLICENCIA :</p>
         </div>
         <div type="colofon">
-          <p><lb/>Barcelna : En la Imprenta de Ignasi Estivil. — 1854.</p>
+          <p><lb/><hi rend="cursiva">Barcelona</hi> : En la Imprenta de Ignasi Estivil. — 1854.</p>
         </div>
       </div>
     </body>

@@ -1,18 +1,17 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../Schema/oddPliego_varios.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:alto="http://www.loc.gov/standards/alto/ns-v4#" xml:id="Varios_089">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Varios_089">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>SATIRA NUEVA QUE ESPLICA DEL MODO QUE HAN CORTEJADO LAS VIUDAS Y LAS DONCELLAS A LOS MILITARES EN EL TIEMPO DE LA GUERRA CIVIL DE ESPANA.</title>
+        <title>SATIRA NUEVA</title>
         <respStmt>
           <name/>
           <resp>Codificación TEI</resp>
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <authority role="rightsHolder">Bibliothèque Universitaire de
-                            Genève</authority>
+        <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
         <availability status="restricted">
           <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
         </availability>
@@ -20,16 +19,18 @@
       <sourceDesc>
         <biblFull>
           <titleStmt>
-            <title type="titulo_completo">SATIRA NUEVA QUE ESPLICA DEL MODO QUE HAN CORTEJADO LAS VIUDAS Y LAS DONCELLAS A LOS MILITARES EN EL TIEMPO DE LA GUERRA CIVIL DE ESPANA.</title>
+            <title type="titulo_completo">SATIRA NUEVA QUE ESPLICA DEL MODO QUE HAN CORTEJADO LAS
+              VIUDAS Y LAS DONCELLAS A LOS MILITARES EN EL TIEMPO DE LA GUERRA CIVIL DE
+              ESPANA.</title>
             <title type="titulo_breve">SATIRA NUEVA</title>
           </titleStmt>
           <editionStmt>
             <p/>
           </editionStmt>
           <publicationStmt>
-            <publisher>D. Ildefonso Mompié de Montegudo</publisher>
+            <publisher>Ildefonso Mompié de Montegudo</publisher>
             <pubPlace ref="https://www.geonames.org/2509954/valencia.html">Valencia</pubPlace>
-            <date>1842</date>
+            <date cert="high" when="1842-01-01">1842</date>
           </publicationStmt>
         </biblFull>
         <msDesc>
@@ -37,7 +38,8 @@
             <country>Suisse</country>
             <settlement>Genève</settlement>
             <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"/>
-                  </repository>
+            </repository>
+            <collection>Colección Varios</collection>
             <idno type="cote"/>
             <idno type="DOI">10.5281/zenodo.6566059</idno>
             <altIdentifier>
@@ -56,7 +58,7 @@
               <supportDesc>
                 <support>
                   <dim>in-4</dim>
-                  <material>*À COMPLETER*: Pour indiquer la couleur du papier @subtype : verde, amarillo, azul, naranja, rosa</material>
+                  <material/>
                 </support>
                 <extent><measure unit="página" quantity="4"/>4 p.</extent>
                 <condition>Bueno</condition>
@@ -66,8 +68,7 @@
               </layoutDesc>
             </objectDesc>
             <decoDesc>
-              <summary n="3">Tres grabados
-                                        (p.1) </summary>
+              <summary n="3">Tres grabados (p.1) </summary>
               <decoNote type="lista_grabados">
                 <list>
                   <item corresp="grabado_v_089_1.xml">grabado_v_089_1</item>
@@ -90,18 +91,17 @@
     </fileDesc>
     <encodingDesc>
       <projectDesc>
-        <p>Este archivo fue creado en el marco del proyecto Desenrollando el
-                            Cordel/Démêler le cordel/Untangling the cordel, dirigido por la
-                            profesora Constance Carta de la Universidad de Ginebra, con el apoyo de
-                            la Fundación filantrópica Famille Sandoz-Monique de Meuron.</p>
+        <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+          cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la Universidad
+          de Ginebra, con el apoyo de la Fundación filantrópica Famille Sandoz-Monique de
+          Meuron.</p>
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR non corregido</p>
+          <p>OCR no corregido</p>
         </correction>
         <normalization>
-          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto
-                                original.</p>
+          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
         </normalization>
         <punctuation>
           <p>Se conserva la puntuación original.</p>
@@ -115,7 +115,7 @@
       <textClass>
         <keywords xml:base="http://datos.bne.es/tema/">
           <term target="XX5499740.html" type="tipo_texto">Sátiras</term>
-          <term type="tipo_estrofa"/>
+          <term type="tipo_estrofa" target="XX551260.html">Coplas</term>
           <term type="verso_prosa">Verso</term>
           <term type="sagrado_profano">Profano</term>
         </keywords>
@@ -123,9 +123,13 @@
     </profileDesc>
     <revisionDesc>
       <change when="2022-07-26" who="#PJ">Création du fichier TEI P5 et encodage du corps du
-                        texte</change>
+        texte</change>
+      <change when="2024-01-09" who="#EL">Add the IIIF links</change>
     </revisionDesc>
   </teiHeader>
+  <facsimile>
+    <graphic url="varios/Varios_089_1.jpg/full/200,/0/default.jpg"/>
+  </facsimile>
   <sourceDoc xml:id="automaticTranscription">
     <surface xml:id="Varios_089_1" type="page" cert="silver">
       <graphic url="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_089_1/full/full/0/default.jpg"/>
@@ -1158,17 +1162,22 @@
   <text>
     <body>
       <div>
-        <pb n="1" source="Varios_089_1.jpg" facs="fedora_Varios_089_1/full/full/0/default.jpg"/>
-        <fw type="impresorNum">52.</fw>
+        <pb n="1" source="Varios_089_1.jpg" facs="varios/Varios_089_1.jpg/"/>
+        
+        <fw type="impresorNum" rend="negrita">52.</fw>
+        
         <div>
-          <head type="primer_titulo"><lb/>SATIRA NUEVA<lb/>QUE ESPLICA DEL MODO QUE HAN CORTEJADO<lb/>LAS VIUDAS Y LAS DONCELLAS A LOS MILITARES EN EL TIEMPO<lb/>DE LA GUERRA CIVIL DE ESPANA.</head>
-          <p><lb/>I.</p>
+          <head type="primer_titulo"><lb/>SATIRA NUEVA<lb/>QUE ESPLICA DEL MODO QUE HAN
+            CORTEJADO<lb/>LAS VIUDAS Y LAS DONCELLAS A LOS MILITARES EN EL TIEMPO<lb/>DE LA GUERRA
+            CIVIL DE ESPANA.</head>
+          
           <lg>
-            <l>¿Cómo se gobernarán</l>
+            <head type="titulo_estrofa"><lb/>I.</head>
+            <l rend="indent">¿Cómo se gobernarán</l>
             <l>las viudas y las doncellas,</l>
             <l>porque ya no tienen tropas</l>
             <l>para divertirse ellas?</l>
-            <l>Unas con los cabos,</l>
+            <l rend="indent">Unas con los cabos,</l>
             <l>otras con sargentos,</l>
             <l>y otras oficiales</l>
             <l>para divertimientos;</l>
@@ -1177,13 +1186,14 @@
             <l>se solian dar</l>
             <l>besitos y abrazos.</l>
           </lg>
-          <p><lb/>II.</p>
+          
           <lg>
-            <l>Todo se ha puesto muy caro</l>
+            <head type="titulo_estrofa"><lb/>II.</head>
+            <l rend="indent">Todo se ha puesto muy caro</l>
             <l>los zapatos y alpargatas,</l>
             <l>porque los rompen las mozas</l>
             <l>corriendo por ver si hay cartas</l>
-            <l>De los militares</l>
+            <l rend="indent">De los militares</l>
             <l>que ellas cortejaban,</l>
             <l>porque á los mozitos</l>
             <l>ya los despreciaban;</l>
@@ -1192,13 +1202,14 @@
             <l>que estas no dejaban</l>
             <l>piedras por las calles.</l>
           </lg>
-          <p><lb/>III.</p>
+          
           <lg>
-            <l>Aquí den un tropezon</l>
+            <head type="titulo_estrofa"><lb/>III.</head>
+            <l rend="indent">Aquí den un tropezon</l>
             <l>y andan con grande anhelo,</l>
             <l>solo por poder llegar</l>
             <l>cuanto antes al correo.</l>
-            <l>Y cuando encuentran</l>
+            <l rend="indent">Y cuando encuentran</l>
             <l>á un hombre letrado,</l>
             <l>preguntan si hay carta</l>
             <l>de cierto soldado,</l>
@@ -1207,10 +1218,12 @@
             <l>pues me prometia</l>
             <l>casarse conmigo.</l>
           </lg>
-          <pb n="2" source="Varios_089_2.jpg" facs="fedora_Varios_089_2/full/full/0/default.jpg"/>
-          <p><lb/>IV.</p>
+          
+          <pb n="2" source="Varios_089_2.jpg" facs="varios/Varios_089_2.jpg/"/>
+          
           <lg>
-            <l>A las diez y a las once</l>
+            <head type="titulo_estrofa"><lb/>IV.</head>
+            <l rend="indent">A las diez y a las once</l>
             <l>de la noche, por las calles</l>
             <l>se encontraban las doncellas</l>
             <l>juntas con los militares.</l>
@@ -1223,9 +1236,10 @@
             <l>y si no queria,</l>
             <l>cojer una vara.</l>
           </lg>
-          <p><lb/>V.</p>
+          
           <lg>
-            <l>Siempre de noche y de dia</l>
+            <head type="titulo_estrofa"><lb/>V.</head>
+            <l rend="indent">Siempre de noche y de dia</l>
             <l>militares cortejaban,</l>
             <l>y tambien algunas veces</l>
             <l>en su casa se quedaban.</l>
@@ -1238,13 +1252,14 @@
             <l>llega el diablo</l>
             <l>y muy pronto sopla.</l>
           </lg>
-          <p><lb/>VI.</p>
+          
           <lg>
-            <l>Las vindas y las doncellas</l>
+            <head type="titulo_estrofa"><lb/>VI.</head>
+            <l rend="indent">Las vindas y las doncellas</l>
             <l>ahora quieren cortejar</l>
             <l>á los mozos de los pueblos,</l>
             <l>y estos no quieren hablar.</l>
-            <l>Y así les dicen:</l>
+            <l rend="indent">Y así les dicen:</l>
             <l>marchad por las calles,</l>
             <l>mirad si encontrais</l>
             <l>á los militares;</l>
@@ -1253,13 +1268,14 @@
             <l>caso de nosotros</l>
             <l>sino de las tropas.</l>
           </lg>
-          <p><lb/>VII.</p>
+          
           <lg>
-            <l>Ahora yo quiero hablar</l>
+            <head type="titulo_estrofa"><lb/>VII.</head>
+            <l rend="indent">Ahora yo quiero hablar</l>
             <l>de esa viuda descarada,</l>
             <l>que en tiempo de militares</l>
             <l>en su casa los entraba.</l>
-            <l>Cuida á tus hijos</l>
+            <l rend="indent">Cuida á tus hijos</l>
             <l>del otro marido,</l>
             <l>y á los militares</l>
             <l>ponlos en olvido;</l>
@@ -1268,13 +1284,14 @@
             <l>tienen una novia</l>
             <l>para cortejar.</l>
           </lg>
-          <p><lb/>VIII.</p>
+          
           <lg>
-            <l>En pasando cuatro dias</l>
+            <head type="titulo_estrofa"><lb/>VIII.</head>
+            <l rend="indent">En pasando cuatro dias</l>
             <l>que no veian militares,</l>
             <l>oigan la conversacion</l>
             <l>que llevaban por las calles.</l>
-            <l>Decia una moza,</l>
+            <l rend="indent">Decia una moza,</l>
             <l>¡Jesus ! cuánto tiempo</l>
             <l>pues hace que yo</l>
             <l>no he visto al sargento;</l>
@@ -1283,13 +1300,14 @@
             <l>permitalo Dios</l>
             <l>que no haya ninguno.</l>
           </lg>
-          <p><lb/>IX.</p>
+          
           <lg>
-            <l>Ciegas, locas y perdidas</l>
+            <head type="titulo_estrofa"><lb/>IX.</head>
+            <l rend="indent">Ciegas, locas y perdidas</l>
             <l>andasteis los siete años</l>
             <l>de esta desastrada guerra</l>
             <l>por cortejar á soldados.</l>
-            <l>Y ahora son pocas</l>
+            <l rend="indent">Y ahora son pocas</l>
             <l>las que se han casado</l>
             <l>apesar de eso,</l>
             <l>con ningun soldado;</l>
@@ -1298,14 +1316,17 @@
             <l>este es el estilo</l>
             <l>de la noble tropa.</l>
           </lg>
-          <p><lb/>X.</p>
+          
           <lg>
-            <l>Aun no escarmentarás</l>
+            <head type="titulo_estrofa"><lb/>X.</head>
+            <l rend="indent">Aun no escarmentarás</l>
             <l>tú, doncella desgraciada,</l>
             <l>que no llegarás jamás</l>
             <l>a poder estar casada.</l>
-            <pb n="3" source="Varios_089_3.jpg" facs="fedora_Varios_089_3/full/full/0/default.jpg"/>
-            <l>Porque has cortejado</l>
+            
+            <pb n="3" source="Varios_089_3.jpg" facs="varios/Varios_089_3.jpg/"/>
+            
+            <l rend="indent">Porque has cortejado</l>
             <l>tanto al militar,</l>
             <l>y al mozo del pueblo</l>
             <l>no has querido hablar;</l>
@@ -1314,13 +1335,14 @@
             <l>y te hacen la burla</l>
             <l>si te ven al frente.</l>
           </lg>
-          <p><lb/>XI.</p>
+          
           <lg>
-            <l>Doncella que has cortejado</l>
+            <head type="titulo_estrofa"><lb/>XI.</head>
+            <l rend="indent">Doncella que has cortejado</l>
             <l>tanto tanto al militar,</l>
             <l>te pondrás miel en la boca</l>
             <l>si moso has de engañar.</l>
-            <l>Siendo la miel dulce,</l>
+            <l rend="indent">Siendo la miel dulce,</l>
             <l>puede suceder</l>
             <l>traerlo á tu lado</l>
             <l>y hacerle caer:</l>
@@ -1329,13 +1351,14 @@
             <l>y te quederás</l>
             <l>siempre para tia.</l>
           </lg>
-          <p><lb/>XII.</p>
+          
           <lg>
-            <l>Tambien hay muchas de estas</l>
+            <head type="titulo_estrofa"><lb/>XII.</head>
+            <l rend="indent">Tambien hay muchas de estas</l>
             <l>que no viendo al soldado,</l>
             <l>lo iban ellas á boscar</l>
             <l>adonde estabá alojado.</l>
-            <l>Y si no lo hallaban</l>
+            <l rend="indent">Y si no lo hallaban</l>
             <l>en su alojamiento,</l>
             <l>ellas preguntaban</l>
             <l>á cualquier sargento:</l>
@@ -1344,13 +1367,14 @@
             <l>to vendrás por casa</l>
             <l>pronto, en seguida.</l>
           </lg>
-          <p><lb/>XIII.</p>
+          
           <lg>
-            <l>El militar fué prudente</l>
+            <head type="titulo_estrofa"><lb/>XIII.</head>
+            <l rend="indent">El militar fué prudente</l>
             <l>y á la dama obedecia,</l>
             <l>asi que llega á su casa</l>
             <l>ella á él le decia:</l>
-            <l>Todos me murmuran</l>
+            <l rend="indent">Todos me murmuran</l>
             <l>porque hablo contigo,</l>
             <l>y que no serás,</l>
             <l>dicen, mi marido;</l>
@@ -1359,13 +1383,14 @@
             <l>te irás á tu casa</l>
             <l>y me dejarás sola.</l>
           </lg>
-          <p><lb/>XIV.</p>
+          
           <lg>
-            <l>De algunas madres de estas</l>
+            <head type="titulo_estrofa"><lb/>XIV.</head>
+            <l rend="indent">De algunas madres de estas</l>
             <l>ahora yo quiero hablar,</l>
             <l>por sus hijas cortejaban</l>
             <l>las madres al militar.</l>
-            <l>Cuando el militar</l>
+            <l rend="indent">Cuando el militar</l>
             <l>iba á su casa,</l>
             <l>decia su madre,</l>
             <l>está en la plaza;</l>
@@ -1374,13 +1399,14 @@
             <l>y ciertas palabras</l>
             <l>ella te dirá.</l>
           </lg>
-          <p><lb/>XV.</p>
+          
           <lg>
-            <l>Tambien hay algunas de estas</l>
+            <head type="titulo_estrofa"><lb/>XV.</head>
+            <l rend="indent">Tambien hay algunas de estas</l>
             <l>que á escondidas de sus padres,</l>
             <l>se iban á otras casas</l>
             <l>por corte jar militares:</l>
-            <l>Y en dicha casa</l>
+            <l rend="indent">Y en dicha casa</l>
             <l>sin duda seria,</l>
             <l>la que de alcahueta</l>
             <l>su tia servia;</l>
@@ -1389,29 +1415,31 @@
             <l>de hacer tontadas</l>
             <l>viudas y doncellas.</l>
           </lg>
-          <p><lb/>XVI.</p>
+          
           <lg>
-            <l>Venid, mozitos, venid,</l>
+            <head type="titulo_estrofa"><lb/>XVI.</head>
+            <l rend="indent">Venid, mozitos, venid,</l>
             <l>y ahora vercis llorar</l>
             <l>las vindas y las doncellas</l>
             <l>porque marcha el militar.</l>
-            <l>Y así esclaman,</l>
+            <l rend="indent">Y así esclaman,</l>
             <l>¡pobres de nosotras!</l>
             <l>¿cómo pa saremos</l>
             <l>ahora sin tropas</l>
-            <pb n="4" source="Varios_089_4.jpg" facs="fedora_Varios_089_4/full/full/0/default.jpg"/>
+            <pb n="4" source="Varios_089_4.jpg" facs="varios/Varios_089_4.jpg/"/>
             <l>que se hen marchado</l>
             <l>muchos á sus casas,</l>
             <l>y nos quedaremos</l>
             <l>un poco enredadas ?</l>
           </lg>
-          <p><lb/>XVII.</p>
+          
           <lg>
+            <head type="titulo_estrofa"><lb/>XVII.</head>
             <l>¿Cómo me podrás negar,</l>
             <l>doncella, lo que he cantado,</l>
             <l>si te han visto encerrar</l>
             <l>en casa con un soldado ?</l>
-            <l>Estuviste sola</l>
+            <l rend="indent">Estuviste sola</l>
             <l>toda una tarde,</l>
             <l>y allí no estaba</l>
             <l>siquiera tu madre;</l>
@@ -1420,13 +1448,14 @@
             <l>pues te permitia</l>
             <l>una cosa fea.</l>
           </lg>
-          <p><lb/>XVIII.</p>
+          
           <lg>
-            <l>Ahora escarmentadas,</l>
+            <head type="titulo_estrofa"><lb/>XVIII.</head>
+            <l rend="indent">Ahora escarmentadas,</l>
             <l>ahora que no hay remedio,</l>
             <l>muchas gracias que te quiero</l>
             <l>algun mozito del pueblo.</l>
-            <l>Y si no te quiere,</l>
+            <l rend="indent">Y si no te quiere,</l>
             <l>¿ qué tendrás que hacer?</l>
             <l>ponerte á ropera</l>
             <l>si quieres comer;</l>
@@ -1437,10 +1466,9 @@
           </lg>
           <trailer>FIN.</trailer>
         </div>
+        
         <div type="colofon">
-          <p><lb/>VALENCIA.
-                        <lb/>IMPRENTA DE D. ILDEFONSO MOMPIÈ DE MONTAGUDO.
-                        <lb/>AÑO 1842.</p>
+          <p><lb/><hi rend="cursiva">VALENCIA</hi>: <lb/>IMPRENTA DE D. ILDEFONSO MOMPIÈ DE MONTAGUDO. <lb/>AÑO 1842.</p>
         </div>
       </div>
     </body>

@@ -1,18 +1,17 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../Schema/oddPliego_varios.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:alto="http://www.loc.gov/standards/alto/ns-v4#" xml:id="Varios_025">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Varios_025">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>JUANA LA VALEROSA Hechos memorables y atrocidades que cometio esta joven por vengar su amor mal correspondido</title>
+        <title>Juana la Valerosa</title>
         <respStmt>
           <name/>
           <resp>Codificación TEI</resp>
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <authority role="rightsHolder">Bibliothèque Universitaire de
-                            Genève</authority>
+        <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
         <availability status="restricted">
           <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
         </availability>
@@ -20,8 +19,9 @@
       <sourceDesc>
         <biblFull>
           <titleStmt>
-            <title type="titulo_completo">JUANA LA VALEROSA Hechos memorables y atrocidades que cometio esta joven por vengar su amor mal correspondido</title>
-            <title type="titulo_breve">JUANA LA VALEROSA</title>
+            <title type="titulo_completo">Juana la Valerosa. Hechos memorables y atrocidades que
+              cometio esta joven por vengar su amor mal correspondido</title>
+            <title type="titulo_breve">Juana la Valerosa</title>
           </titleStmt>
           <editionStmt>
             <p/>
@@ -29,7 +29,7 @@
           <publicationStmt>
             <publisher>El Abanico</publisher>
             <pubPlace ref="https://www.geonames.org/3128760/barcelona.html">Barcelona</pubPlace>
-            <date>[s.a]</date>
+            <date cert="low" when="1800-01-01">[s.a.]</date>
           </publicationStmt>
         </biblFull>
         <msDesc>
@@ -37,7 +37,8 @@
             <country>Suisse</country>
             <settlement>Genève</settlement>
             <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"/>
-                  </repository>
+            </repository>
+            <collection>Colección Varios</collection>
             <idno type="cote"/>
             <idno type="DOI">10.5281/zenodo.6546882</idno>
             <altIdentifier>
@@ -66,7 +67,7 @@
               </layoutDesc>
             </objectDesc>
             <decoDesc>
-              <summary n="2">Uno grabado (p.1) </summary>
+              <summary n="2">Un grabado (p.1) </summary>
               <decoNote type="lista_grabados">
                 <list>
                   <item corresp="grabado_v_025_1.xml">grabado_v_025_1</item>
@@ -91,18 +92,17 @@
     </fileDesc>
     <encodingDesc>
       <projectDesc>
-        <p>Este archivo fue creado en el marco del proyecto Desenrollando el
-                            Cordel/Démêler le cordel/Untangling the cordel, dirigido por la
-                            profesora Constance Carta de la Universidad de Ginebra, con el apoyo de
-                            la Fundación filantrópica Famille Sandoz-Monique de Meuron.</p>
+        <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+          cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la Universidad
+          de Ginebra, con el apoyo de la Fundación filantrópica Famille Sandoz-Monique de
+          Meuron.</p>
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR non corregido</p>
+          <p>OCR no corregido</p>
         </correction>
         <normalization>
-          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto
-                                original.</p>
+          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
         </normalization>
         <punctuation>
           <p>Se conserva la puntuación original.</p>
@@ -124,16 +124,17 @@
     </profileDesc>
     <revisionDesc>
       <change when="2022-05-07" who="#PJ">Création du fichier TEI P5 et encodage du corps du
-                        texte</change>
+        texte</change>
+<change when="2024-01-09" who="#EL">Add the IIIF links</change>
     </revisionDesc>
   </teiHeader>
-  <sourceDoc xml:id="automaticTranscription">
+  <facsimile><graphic url="varios/Varios_025_1.jpg/full/200,/0/default.jpg"/></facsimile><sourceDoc xml:id="automaticTranscription">
     <surface xml:id="Varios_025_1" type="page" cert="silver">
       <graphic url="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_025_1/full/full/0/default.jpg"/>
       <zone xml:id="Varios_025_1_BT223_1" n="1" type="CustomZone" subtype="title" points="1631,1453 1631,1856 1395,1856 1395,2021 315,2021 315,1840 108,1840 108,1453 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_025_1/108,1453,1523,568/full/0/default" corresp="CustomZone:title">
         <zone xml:id="Varios_025_1_BT223_1_LT84_1" type="HeadingLine" subtype="none" points="120,1656 122,1481 261,1483 267,1481 324,1445 326,1445 326,1445 326,1445 329,1445 329,1445 331,1445 331,1445 331,1445 333,1445 375,1459 388,1445 388,1445 390,1445 390,1445 390,1445 392,1445 392,1445 394,1445 465,1445 465,1445 465,1445 467,1445 467,1445 467,1445 469,1445 469,1448 484,1461 524,1445 524,1445 526,1445 526,1445 528,1445 528,1445 528,1445 530,1445 530,1445 530,1445 532,1445 587,1483 596,1489 603,1483 647,1445 647,1445 649,1445 649,1445 649,1445 651,1445 651,1445 651,1445 653,1445 653,1445 653,1445 655,1445 655,1445 658,1445 658,1445 708,1483 710,1485 712,1483 767,1448 769,1448 769,1448 769,1448 772,1448 772,1448 774,1448 774,1448 774,1448 776,1448 776,1448 776,1448 778,1448 778,1448 820,1483 833,1494 846,1485 890,1448 890,1448 892,1448 892,1448 892,1448 894,1448 894,1448 897,1448 954,1448 954,1448 954,1448 956,1448 956,1448 956,1448 958,1448 958,1448 980,1465 1006,1448 1008,1448 1008,1448 1011,1448 1011,1448 1011,1448 1013,1448 1013,1448 1015,1448 1015,1448 1015,1448 1017,1448 1017,1448 1041,1467 1076,1454 1076,1454 1079,1454 1079,1454 1081,1454 1081,1454 1081,1454 1083,1454 1083,1454 1085,1454 1085,1454 1085,1456 1118,1485 1118,1487 1120,1485 1175,1452 1177,1452 1177,1452 1180,1452 1180,1452 1180,1452 1182,1452 1182,1452 1184,1452 1184,1452 1223,1465 1280,1454 1280,1454 1280,1454 1283,1454 1283,1454 1285,1454 1285,1454 1285,1454 1287,1454 1287,1454 1287,1456 1313,1481 1355,1454 1357,1454 1357,1454 1359,1454 1359,1454 1359,1454 1362,1454 1362,1454 1362,1454 1364,1454 1364,1454 1366,1454 1410,1481 1458,1456 1458,1456 1458,1456 1460,1456 1460,1456 1462,1456 1462,1456 1462,1456 1465,1456 1465,1456 1465,1456 1467,1456 1467,1456 1500,1485 1546,1461 1546,1461 1546,1461 1548,1461 1548,1461 1550,1461 1550,1461 1550,1461 1552,1461 1552,1461 1555,1461 1555,1461 1555,1463 1583,1489 1577,1689 1572,1711 1004,1691 993,1693 976,1700 973,1700 973,1700 973,1700 971,1700 971,1700 899,1691 857,1686 813,1689 682,1695 679,1695 679,1695 679,1695 603,1682 590,1680 583,1682 548,1691 546,1691 546,1691 546,1691 543,1691 543,1691 469,1680 324,1686 322,1686 322,1686 322,1686 320,1686 320,1686 289,1673 234,1684 234,1684 234,1684 232,1684 232,1684 230,1684 230,1684 230,1684 228,1684 228,1684 228,1682 214,1671 146,1682 146,1682 144,1682 144,1682 144,1682 142,1682 142,1682 140,1682 114,1667 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_025_1/,,,/full/0/default" corresp="HeadingLine">
           <path xml:id="Varios_025_1_BT223_1_LT84_1_1" points="121,1657 579,1675 616,1678 777,1687 890,1678 1578,1690 "/>
-          <line>JUANA  LA VALEROSA</line>
+          <line>JUANA LA VALEROSA</line>
         </zone>
         <zone xml:id="Varios_025_1_BT223_1_LT84_2" type="HeadingLine" subtype="none" points="133,1789 133,1728 201,1737 230,1728 241,1726 243,1726 243,1726 243,1726 245,1726 245,1726 247,1726 247,1726 247,1726 250,1726 250,1726 250,1728 252,1728 252,1728 261,1739 377,1730 425,1728 427,1728 427,1728 427,1728 429,1728 429,1728 429,1728 438,1732 462,1743 508,1732 532,1728 532,1728 532,1728 535,1728 535,1728 535,1728 563,1735 594,1739 625,1735 655,1730 655,1730 658,1730 658,1730 658,1730 682,1735 719,1746 936,1752 967,1741 967,1741 969,1741 969,1741 971,1741 971,1741 971,1741 973,1741 973,1741 973,1741 976,1741 976,1741 976,1743 978,1743 987,1757 1087,1759 1140,1759 1162,1743 1162,1741 1162,1741 1164,1741 1164,1741 1166,1741 1166,1741 1166,1741 1169,1741 1169,1741 1186,1743 1252,1752 1346,1746 1355,1746 1357,1746 1357,1746 1357,1746 1359,1746 1359,1746 1359,1746 1359,1746 1362,1746 1386,1761 1583,1750 1585,1820 1581,1844 1528,1835 1487,1844 1441,1853 1441,1853 1441,1853 1438,1853 1438,1853 1438,1853 1386,1842 1329,1829 1287,1840 1256,1849 1254,1849 1254,1849 1252,1849 1252,1849 1252,1849 1250,1849 1250,1849 1250,1849 1248,1849 1248,1849 1248,1846 1239,1840 1234,1835 1201,1838 1177,1840 1177,1840 1175,1840 1175,1840 1173,1840 1173,1840 1171,1840 1171,1840 1169,1838 1149,1824 1026,1833 1024,1833 1024,1833 1024,1833 956,1820 936,1833 934,1833 934,1833 934,1833 934,1833 932,1833 932,1833 930,1833 930,1833 930,1833 925,1833 855,1818 765,1831 693,1840 693,1840 690,1840 339,1835 339,1835 339,1835 337,1835 298,1822 258,1809 131,1818 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_025_1/131,1726,1454,127/full/0/default" corresp="HeadingLine">
           <path xml:id="Varios_025_1_BT223_1_LT84_2_1" points="135,1792 1586,1822 "/>
@@ -1405,334 +1406,328 @@
     <body>
       <div>
         <div>
-          <pb n="1" source="Varios_025_1.jpg" facs="fedora_Varios_025_1/full/full/0/default.jpg"/>
+          <pb n="1" source="Varios_025_1.jpg" facs="varios/Varios_025_1.jpg/"/>
+
           <head type="primer_titulo" rend="negrita"><lb/>JUANA LA VALEROSA</head>
-          <head type="subtitulo_parte"><lb/>Hechos memorables y atrocidades que cometio esta joven<lb/>por vengar su amor mal correspondido</head>
-          <lg>
-            <l>En una ciudad de España</l>
-            <l>que en hechos notables brilla,</l>
-            <l>entre las que hay situadas</l>
-            <l>en el centro de Castilla,</l>
-            <l>Nació de padres honrados</l>
-            <l>una niña muy galana,</l>
-          </lg>
-          <lg>
-            <l>que en la pila del bautismo</l>
-            <l>le dieron por nombre Juana.</l>
-            <l>Esta niña fué creciendo</l>
-            <l>en robustez y belleza</l>
-            <l>y en ánimo varonil</l>
-            <l>que le dió naturaleza.</l>
-          </lg>
-          <pb n="2" source="Varios_025_2.jpg" facs="fedora_Varios_025_2/full/full/0/default.jpg"/>
-          <lg>
-            <l>Desde su primera edad</l>
-            <l>tuvo afición á la caza</l>
-            <l>siguiendo á su padre en ella</l>
-            <l>muestras dando de gran traza.</l>
-            <l>Con su afición varonil</l>
-            <l>se fué haciendo tan famosa</l>
-            <l>que el renombre se le dió</l>
-            <l>de <hi rend="cursiva">Juana la Valerosa</hi>.</l>
-            <l>Su talento natural</l>
-            <l>en todo sobresalía</l>
-            <l>y en su pueril edad</l>
-            <l>completa instrucción tenía.</l>
-            <l>De los jóvenes del pueblo</l>
-            <l>era en extremo apreciada</l>
-            <l>y en particular de uno</l>
-            <l>que Panchito se llamaba.</l>
-            <l>Hijo era de un labrador,</l>
-            <l>hidalgo, muy orgulloso,</l>
-            <l>que no quiso que de Juana</l>
-            <l>fuera su hijo el esposo.</l>
-            <l>Otra boda le tenía</l>
-            <l>preparada más famosa</l>
-            <l>con una rica heredera</l>
-            <l>que llamaban Sinforosa.</l>
-            <l>Al saberlo, dijo á él Juana:</l>
-            <l>«ten cuidado en desairarme</l>
-            <l>que si lo haces Panchito,</l>
-            <l>mira que sabré vengarme».</l>
-            <l>El joven le respondió</l>
-            <l>de su amor haciendo alarde</l>
-            <l>mas al fin llegó á ceder</l>
-            <l>al mandato de su padre.</l>
-            <l>Se puso al saberlo Juana</l>
-            <l>como leona furiosa</l>
-            <l>y juró luego vengarse</l>
-            <l>de Panchito y Sinforosa.</l>
-            <l>Las bodas se celebraron</l>
-            <l>con gran pompa y alegría,</l>
-            <l>sólo el corazón de Juana</l>
-            <l>en llamas de rabia ardía.</l>
-            <l>Entre el tumulto de gentes</l>
-            <l>aprovechando el momento</l>
-            <l>logró Juana introducirse</l>
-            <l>del novio en el aposento.</l>
-            <l>Y luego que los dos novios</l>
-            <l>en su lecho se acostaron,</l>
-            <l>en lugar de amor, la muerte</l>
-            <l>á manos de Juana hallaron.</l>
-            <l>Cosióles á puñaladas</l>
-            <l>y con la sangre que mana</l>
-            <l>hirviendo de sus heridas</l>
-            <l>escribe su triunfo ufana:</l>
-            <l>« A los filos de un puñal</l>
-          </lg>
-          <lg>
-            <l>» murió Pancho y Sinforosa,</l>
-            <l>» para vengar mis agravios</l>
-            <l>» yo, Juana la Valerosa».</l>
-            <l>Con la punta de un puñal.</l>
-            <l>bañado en sangre, grabado</l>
-            <l>en la pared de la alcoba,</l>
-            <l>este escrito fué encontrado.</l>
-            <l>tan bárbaro asesinato,</l>
-            <l>Al divulgarse en el pueblo</l>
-            <l>uana se había fugado</l>
-            <l>de él para mucho rato.</l>
-            <l>Tomando la carabina</l>
-            <l>del padre, y una pistola,</l>
-            <l>sin ser de nadie sentida</l>
-            <l>fugó aquella noche sola.</l>
-            <l>Tres días por despoblado</l>
-            <l>huyendo anduvo al intento;</l>
-            <l>sólo las frutas silvestres</l>
-            <l>sirviéndole de alimento.</l>
-            <l>Pero al declinar el día,</l>
-            <l>el tercero de su marcha,</l>
-            <l>vió á dos hombres la seguían</l>
-            <l>mas no por eso se espanta.</l>
-            <l>Se pone detrás de un roble</l>
-            <l>para hacer frente atrevida</l>
-            <l>y les grita: « Alto, señores,</l>
-            <l>caso que aprecien la vida».</l>
-            <l>Los hombres iban armados</l>
-            <l>y le dicen: «Mira niña,</l>
-            <l>que nosotros no venimos</l>
-            <l>á tener contigo riña.</l>
-            <l>» Venimos solo á decirte</l>
-            <l>que te has extraviado</l>
-            <l>y volverte si tú quieres</l>
-            <l>al camino que has errado.»</l>
-            <l>Pero á tan buenas razones</l>
-            <l>su inquieto temor no calma,</l>
-            <l>y repite: «¡Alto! ó el que avance</l>
-            <l>que encomiende á Dios su alma»</l>
-            <l>Avanzan sin presunción,</l>
-            <l>que fuera tan decidida,</l>
-            <l>pero ella haciendo fuego</l>
-            <l>al uno quitó la vida.</l>
-            <l>Pretendió el otro vengar</l>
-            <l>de su amigo la cruel suerte,</l>
-            <l>dispara... pero no acierta;</l>
-            <l>tira Juana y le dá muerte.</l>
-            <l>Y en la corteza del roble,</l>
-            <l>que le sirvió de muralla,</l>
-            <l>escribió con su puñal:</l>
-            <l>«El que aquí estos muertos halle</l>
-            <l>» que sepa que una mujer</l>
-            <l>»les dió muerte y no alevosa</l>
-          </lg>
-          <pb n="3" source="Varios_025_3.jpg" facs="fedora_Varios_025_3/full/full/0/default.jpg"/>
-          <lg>
-            <l>»más diestra en armas que ellos</l>
-            <l>»fué, Juana la Valerosa».</l>
-            <l>sin que le anime el despecho,</l>
-            <l>Al resplandor de la luna</l>
-            <l>despoja de sus vestidos</l>
-            <l>Juana á los dos que ha muerto.</l>
-            <l>Se ampara de sus bolsillos</l>
-            <l>que bien provistos tenían</l>
-            <l>y de sus mejores prendas</l>
-            <l>de la ropa que traían.</l>
-            <l>Vístese con ellos de hombre</l>
-            <l>por si fuese perseguida,</l>
-            <l>y evitar con el disfraz</l>
-            <l>ser de pronto conocida</l>
-            <l>Creyéndose más segura</l>
-            <l>con el traje que ha tomado</l>
-            <l>y provista de dinero</l>
-            <l>resuelve el irse en poblado.</l>
-            <l>Entra en Madrid un domingo</l>
-            <l>donde presumir pudiera</l>
-            <l>que entre un inmenso gentío</l>
-            <l>menos conocida fuera.</l>
-            <l>Pero vé con gran sospresa</l>
-            <l>que entre la gente curiosa</l>
-            <l>sólo se habla de los hechos</l>
-            <l>de Juana la Valerosa.</l>
-            <l>Un cartel en las esquinas</l>
-            <l>que sus señas describía</l>
-            <l>y al que viva la entregara</l>
-            <l>mil escudos se ofrecía.</l>
-            <l>Medita su situación</l>
-            <l>que en verdad era apurada</l>
-            <l>mas por ello no se espanta,</l>
-            <l>y no se arredra por nada.</l>
-            <l>Tan sólo en desfigurarse</l>
-            <l>muestra un poquito de anhelo</l>
-            <l>y de rubio que tenía</l>
-            <l>se tiñe de negro el pelo.</l>
-            <l>La desfigura en un todo</l>
-            <l>una postiza patilla,</l>
-            <l>un pequeñito bigote</l>
-            <l>y algo de barba y perilla</l>
-            <l>Y de su transformación</l>
-            <l>hallándose satisfecha,</l>
-            <l>se viste á lo cortesano</l>
-            <l>y todo temor deshecha.</l>
-            <l>Se hospeda en una posada</l>
-            <l>despesa de estudiantes,</l>
-            <l>y de una niña que había</l>
-            <l>todos quieren ser amantes.</l>
-            <l>Pero ella al ver á Dionisio</l>
-            <l>dombre que Juana se daba,</l>
-            <l>nespreciando á los demás,</l>
-          </lg>
-          <lg>
-            <l>demostró que á el sólo amaba.</l>
-            <l>fuera el creebro de quicio,</l>
-            <l>Los otros enturecidos</l>
-            <l>y los tres que eran á la vez</l>
-            <l>desaff́an á Dionisio.</l>
-            <l>La carabina y pistola</l>
-            <l>que es su arma favorita,</l>
-            <l>tomó Juana y se marchó</l>
-            <l>con gran frescura á la cita</l>
-            <l>Los dos están á traición,</l>
-            <l>ocultos entre una mata</l>
-            <l>disparan, pero uno yerra</l>
-            <l>y al otro el tiro le falta.</l>
-            <l>Con la mayor rapidez</l>
-            <l>al ver ella tal vileza</l>
-            <l>les deja á pistoletazos</l>
-            <l>sin sesos en la cabeza.</l>
-            <l>El otro que allí aguardaba</l>
-            <l>del vil plan el resultado,</l>
-            <l>al ver la idea frustada</l>
-            <l>quiere escapar de contado.</l>
-            <l>Pero disparando Juana</l>
-            <l>contra de él su carabina,</l>
-            <l>lo derriba antes que pueda</l>
-            <l>resguardarse en una encina</l>
-            <l>Les registra los bolsillos</l>
-            <l>en que halla algún escudito</l>
-            <l>y en la cartera del uno</l>
-            <l>le puso el siguiente escrito:</l>
-            <l>¿Por querer matarme á mí</l>
-            <l>s á traición alevosa</l>
-            <l>pmaté á estos tres cobardes</l>
-            <l>¿yo, Juana la Valerosa.»</l>
-            <l>Divulgóse por Madrid</l>
-            <l>esta hazaña tan famosa,</l>
-            <l>y todo el pueblo desea</l>
-            <l>ver Juana la Valerosa.</l>
-            <l>En vano son las pesquisas</l>
-            <l>con que el góbierno se afana,</l>
-            <l>en vano se aumentan premios</l>
-            <l>nadie puede dar con Juana.</l>
-            <l>Mientras que ella por las calles</l>
-            <l>yse pasea libremente</l>
-            <l>escuchando en los corrillos</l>
-            <l>lo que de ella habla la gente,</l>
-            <l>Un día oye á un charlatán</l>
-            <l>que decía á lo valiente,</l>
-            <l>que para vencer á Juana</l>
-            <l>bastaría él solamente.</l>
-            <l>Corre ella á un café,</l>
-            <l>pide papel y tintero</l>
-            <l>y de la muerte de aquel</l>
-            <l>de antemano hace el letrero.</l>
-          </lg>
-          <pb n="4" source="Varios_025_4.jpg" facs="fedora_Varios_025_4/full/full/0/default.jpg"/>
-          <lg>
-            <l>Vuélvese luego á la plaza</l>
-            <l>el jaque aún blasonaba,</l>
-            <l>pero era de noche y llovía</l>
-            <l>y la gente se marchaba</l>
-            <l>Sigue Juana al jaqueton,</l>
-            <l>y al entrar en calle obscura</l>
-            <l>cogiéndole del pescuezo</l>
-            <l>del valiente se asegura.</l>
-            <l>Y le dice: «yo soy Juana,</l>
-            <l>venga usté aquí señor guapo,</l>
-            <l>al oir esto, escapar</l>
-            <l>quisiera como un gazapo,</l>
-            <l>Pero Juana de furor</l>
-            <l>encendida, nada mengua</l>
-            <l>y apretándole el gaznate</l>
-            <l>le saca y corta la lengua.</l>
-            <l>Cae tendido en el suelo</l>
-            <l>sin que pueda dar un grito,</l>
-            <l>y Juana le deja alií</l>
-            <l>el papel que trae escrito.</l>
-            <l>«Para escarmiento á la gente</l>
-            <l>»vil, charlatana y medrosa,</l>
-            <l>»dejé á este jaque sin lengua,</l>
-            <l>»yo, Juana la Valerosa».</l>
-            <l>Alborotóse otra vez</l>
-            <l>Madrid con tal ateotado</l>
-            <l>pero el prender á la Juana</l>
-            <l>es siempre caso negado.</l>
-            <l>Gente hay que negaría</l>
-            <l>su existencia y que pretende</l>
-            <l>que Juana la Valerosa</l>
-            <l>es algún demonio ó duende</l>
-            <l>Pero no, era mujer</l>
-            <l>que enamorada tie un hombré</l>
-            <l>la perdió sin compasión</l>
-            <l>oir jaunque el hecho asombre!</l>
-            <l>Como Juana nunca tuvo</l>
-            <l>propicio al Dios del amor,</l>
-            <l>amó otra vez á un ingrato</l>
-            <l>que cual Judas fué traidor</l>
-          </lg>
-          <lg>
-            <l>Ambicioso de dinero</l>
-            <l>delató á su tierna amante</l>
-            <l>y el premio de su perfidia</l>
-            <l>recibió en oro contante.</l>
-            <l>la causa fué sustanciada</l>
-            <l>Presa juana desde luego</l>
-            <l>y conforme era de ver</l>
-            <l>á muerte fué condenada.</l>
-            <l>se quedó tan so prendida,</l>
-            <l>Al leerle la sentencia</l>
-            <l>que sólo exclamó: ¡Dios míol</l>
-            <l>quedando juana sira vida.</l>
-            <l>de su propio puño escrito,</l>
-            <l>Se le halló un pliego cerrado</l>
-            <l>que iba dirigido al padre</l>
-            <l>del desdichado Panchito,</l>
-            <l>En él decia: «Cuando</l>
-            <l>á vos sea dirigida</l>
-            <l>esta cazta habré pagado</l>
-            <l>yo ya el tributo de la vida.</l>
-            <l>de lo que le haya ofendido,</l>
-            <l>Y habré á Dios cuenta dado</l>
-            <l>y desde ahora os perdono</l>
-            <l>a parte que habeis tenido.</l>
-            <l>De vuestro hijo contrariando</l>
-            <l>os inocentes amores..</l>
-            <l>fuisteis parte en su desgracia,</l>
-            <l>fuisteis parte en mis errores,</l>
-            <l>Pero repito os perdono</l>
-            <l>porque tan sólo es mi intento,</l>
-            <l>el que sirva mi desdicha</l>
-            <l>á los padres de escarmiento.</l>
-            <l>A los pacires que abusando</l>
-            <l>de su grave autoridad</l>
-            <l>pretenden dar á sus hijos</l>
-            <l>estado sin voluntad.</l>
-            <l>Y lo mismo también digo</l>
-            <l>al que esta mi historia lea,</l>
-            <l>y ruego á Dios nos dé á todos</l>
-            <l>su santa gloria.—Así sea.»</l>
-          </lg>
+          <head type="subtitulo_parte"><lb/>Hechos memorables y atrocidades que cometio esta
+            joven<lb/>por vengar su amor mal correspondido</head>
+
+          <l rend="indent">En una ciudad de España</l>
+          <l>que en hechos notables brilla,</l>
+          <l>entre las que hay situadas</l>
+          <l>en el centro de Castilla,</l>
+          <l rend="indent">Nació de padres honrados</l>
+          <l>una niña muy galana,</l>
+          <l>que en la pila del bautismo</l>
+          <l>le dieron por nombre Juana.</l>
+          <l rend="indent">Esta niña fué creciendo</l>
+          <l>en robustez y belleza</l>
+          <l>y en ánimo varonil</l>
+          <l>que le dió naturaleza.</l>
+
+          <pb n="2" source="Varios_025_2.jpg" facs="varios/Varios_025_2.jpg/"/>
+
+          <l rend="indent">Desde su primera edad</l>
+          <l>tuvo afición á la caza</l>
+          <l>siguiendo á su padre en ella</l>
+          <l>muestras dando de gran traza.</l>
+          <l rend="indent">Con su afición varonil</l>
+          <l>se fué haciendo tan famosa</l>
+          <l>que el renombre se le dió</l>
+          <l>de <hi rend="cursiva">Juana la Valerosa</hi>.</l>
+          <l rend="indent">Su talento natural</l>
+          <l>en todo sobresalía</l>
+          <l>y en su pueril edad</l>
+          <l>completa instrucción tenía.</l>
+          <l rend="indent">De los jóvenes del pueblo</l>
+          <l>era en extremo apreciada</l>
+          <l>y en particular de uno</l>
+          <l>que Panchito se llamaba.</l>
+          <l rend="indent">Hijo era de un labrador,</l>
+          <l>hidalgo, muy orgulloso,</l>
+          <l>que no quiso que de Juana</l>
+          <l>fuera su hijo el esposo.</l>
+          <l rend="indent">Otra boda le tenía</l>
+          <l>preparada más famosa</l>
+          <l>con una rica heredera</l>
+          <l>que llamaban Sinforosa.</l>
+          <l rend="indent">Al saberlo, dijo á él Juana:</l>
+          <l>«ten cuidado en desairarme</l>
+          <l>que si lo haces Panchito,</l>
+          <l>mira que sabré vengarme».</l>
+          <l rend="indent">El joven le respondió</l>
+          <l>de su amor haciendo alarde</l>
+          <l>mas al fin llegó á ceder</l>
+          <l>al mandato de su padre.</l>
+          <l rend="indent">Se puso al saberlo Juana</l>
+          <l>como leona furiosa</l>
+          <l>y juró luego vengarse</l>
+          <l>de Panchito y Sinforosa.</l>
+          <l rend="indent">Las bodas se celebraron</l>
+          <l>con gran pompa y alegría,</l>
+          <l>sólo el corazón de Juana</l>
+          <l>en llamas de rabia ardía.</l>
+          <l rend="indent">Entre el tumulto de gentes</l>
+          <l>aprovechando el momento</l>
+          <l>logró Juana introducirse</l>
+          <l>del novio en el aposento.</l>
+          <l rend="indent">Y luego que los dos novios</l>
+          <l>en su lecho se acostaron,</l>
+          <l>en lugar de amor, la muerte</l>
+          <l>á manos de Juana hallaron.</l>
+          <l rend="indent">Cosióles á puñaladas</l>
+          <l>y con la sangre que mana</l>
+          <l>hirviendo de sus heridas</l>
+          <l>escribe su triunfo ufana:</l>
+          <l rend="indent">« A los filos de un puñal</l>
+          <l>» murió Pancho y Sinforosa,</l>
+          <l>» para vengar mis agravios</l>
+          <l>» yo, Juana la Valerosa».</l>
+          <l rend="indent">Con la punta de un puñal.</l>
+          <l>bañado en sangre, grabado</l>
+          <l>en la pared de la alcoba,</l>
+          <l>este escrito fué encontrado.</l>
+          <l rend="indent">tan bárbaro asesinato,</l>
+          <l>Al divulgarse en el pueblo</l>
+          <l>uana se había fugado</l>
+          <l>de él para mucho rato.</l>
+          <l rend="indent">Tomando la carabina</l>
+          <l>del padre, y una pistola,</l>
+          <l>sin ser de nadie sentida</l>
+          <l>fugó aquella noche sola.</l>
+          <l rend="indent">Tres días por despoblado</l>
+          <l>huyendo anduvo al intento;</l>
+          <l>sólo las frutas silvestres</l>
+          <l>sirviéndole de alimento.</l>
+          <l rend="indent">Pero al declinar el día,</l>
+          <l>el tercero de su marcha,</l>
+          <l>vió á dos hombres la seguían</l>
+          <l>mas no por eso se espanta.</l>
+          <l rend="indent">Se pone detrás de un roble</l>
+          <l>para hacer frente atrevida</l>
+          <l>y les grita: « Alto, señores,</l>
+          <l>caso que aprecien la vida».</l>
+          <l rend="indent">Los hombres iban armados</l>
+          <l>y le dicen: «Mira niña,</l>
+          <l>que nosotros no venimos</l>
+          <l>á tener contigo riña.</l>
+          <l rend="indent">» Venimos solo á decirte</l>
+          <l>que te has extraviado</l>
+          <l>y volverte si tú quieres</l>
+          <l>al camino que has errado.»</l>
+          <l rend="indent">Pero á tan buenas razones</l>
+          <l>su inquieto temor no calma,</l>
+          <l>y repite: «¡Alto! ó el que avance</l>
+          <l>que encomiende á Dios su alma»</l>
+          <l rend="indent">Avanzan sin presunción,</l>
+          <l>que fuera tan decidida,</l>
+          <l>pero ella haciendo fuego</l>
+          <l>al uno quitó la vida.</l>
+          <l rend="indent">Pretendió el otro vengar</l>
+          <l>de su amigo la cruel suerte,</l>
+          <l>dispara... pero no acierta;</l>
+          <l>tira Juana y le dá muerte.</l>
+          <l rend="indent">Y en la corteza del roble,</l>
+          <l>que le sirvió de muralla,</l>
+          <l>escribió con su puñal:</l>
+          <l>«El que aquí estos muertos halle</l>
+          <l>» que sepa que una mujer</l>
+          <l>»les dió muerte y no alevosa</l>
+
+          <pb n="3" source="Varios_025_3.jpg" facs="varios/Varios_025_3.jpg/"/>
+
+          <l>»más diestra en armas que ellos</l>
+          <l>»fué, Juana la Valerosa».</l>
+          <l rend="indent">Al resplandor de la luna</l>
+          <l>sin que le anime el despecho,</l>
+          <l>despoja de sus vestidos</l>
+          <l>Juana á los dos que ha muerto.</l>
+          <l rend="indent">Se ampara de sus bolsillos</l>
+          <l>que bien provistos tenían</l>
+          <l>y de sus mejores prendas</l>
+          <l>de la ropa que traían.</l>
+          <l rend="indent">Vístese con ellos de hombre</l>
+          <l>por si fuese perseguida,</l>
+          <l>y evitar con el disfraz</l>
+          <l>ser de pronto conocida</l>
+          <l rend="indent">Creyéndose más segura</l>
+          <l>con el traje que ha tomado</l>
+          <l>y provista de dinero</l>
+          <l>resuelve el irse en poblado.</l>
+          <l rend="indent">Entra en Madrid un domingo</l>
+          <l>donde presumir pudiera</l>
+          <l>que entre un inmenso gentío</l>
+          <l>menos conocida fuera.</l>
+          <l rend="indent">Pero vé con gran sospresa</l>
+          <l>que entre la gente curiosa</l>
+          <l>sólo se habla de los hechos</l>
+          <l>de Juana la Valerosa.</l>
+          <l rend="indent">Un cartel en las esquinas</l>
+          <l>que sus señas describía</l>
+          <l>y al que viva la entregara</l>
+          <l>mil escudos se ofrecía.</l>
+          <l rend="indent">Medita su situación</l>
+          <l>que en verdad era apurada</l>
+          <l>mas por ello no se espanta,</l>
+          <l>y no se arredra por nada.</l>
+          <l rend="indent">Tan sólo en desfigurarse</l>
+          <l>muestra un poquito de anhelo</l>
+          <l>y de rubio que tenía</l>
+          <l>se tiñe de negro el pelo.</l>
+          <l rend="indent">La desfigura en un todo</l>
+          <l>una postiza patilla,</l>
+          <l>un pequeñito bigote</l>
+          <l>y algo de barba y perilla</l>
+          <l rend="indent">Y de su transformación</l>
+          <l>hallándose satisfecha,</l>
+          <l>se viste á lo cortesano</l>
+          <l>y todo temor deshecha.</l>
+          <l rend="indent">Se hospeda en una posada</l>
+          <l>despesa de estudiantes,</l>
+          <l>y de una niña que había</l>
+          <l>todos quieren ser amantes.</l>
+          <l rend="indent">Pero ella al ver á Dionisio</l>
+          <l>dombre que Juana se daba,</l>
+          <l>nespreciando á los demás,</l>
+          <l>demostró que á el sólo amaba.</l>
+          <l rend="indent">fuera el creebro de quicio,</l>
+          <l>Los otros enturecidos</l>
+          <l>y los tres que eran á la vez</l>
+          <l>desaff́an á Dionisio.</l>
+          <l rend="indent">La carabina y pistola</l>
+          <l>que es su arma favorita,</l>
+          <l>tomó Juana y se marchó</l>
+          <l>con gran frescura á la cita</l>
+          <l rend="indent">Los dos están á traición,</l>
+          <l>ocultos entre una mata</l>
+          <l>disparan, pero uno yerra</l>
+          <l>y al otro el tiro le falta.</l>
+          <l rend="indent">Con la mayor rapidez</l>
+          <l>al ver ella tal vileza</l>
+          <l>les deja á pistoletazos</l>
+          <l>sin sesos en la cabeza.</l>
+          <l rend="indent">El otro que allí aguardaba</l>
+          <l>del vil plan el resultado,</l>
+          <l>al ver la idea frustada</l>
+          <l>quiere escapar de contado.</l>
+          <l rend="indent">Pero disparando Juana</l>
+          <l>contra de él su carabina,</l>
+          <l>lo derriba antes que pueda</l>
+          <l>resguardarse en una encina</l>
+          <l rend="indent">Les registra los bolsillos</l>
+          <l>en que halla algún escudito</l>
+          <l>y en la cartera del uno</l>
+          <l>le puso el siguiente escrito:</l>
+          <l rend="indent">¿Por querer matarme á mí</l>
+          <l>s á traición alevosa</l>
+          <l>pmaté á estos tres cobardes</l>
+          <l>¿yo, Juana la Valerosa.»</l>
+          <l rend="indent">Divulgóse por Madrid</l>
+          <l>esta hazaña tan famosa,</l>
+          <l>y todo el pueblo desea</l>
+          <l>ver Juana la Valerosa.</l>
+          <l rend="indent">En vano son las pesquisas</l>
+          <l>con que el góbierno se afana,</l>
+          <l>en vano se aumentan premios</l>
+          <l>nadie puede dar con Juana.</l>
+          <l rend="indent">Mientras que ella por las calles</l>
+          <l>yse pasea libremente</l>
+          <l>escuchando en los corrillos</l>
+          <l>lo que de ella habla la gente,</l>
+          <l rend="indent">Un día oye á un charlatán</l>
+          <l>que decía á lo valiente,</l>
+          <l>que para vencer á Juana</l>
+          <l>bastaría él solamente.</l>
+          <l rend="indent">Corre ella á un café,</l>
+          <l>pide papel y tintero</l>
+          <l>y de la muerte de aquel</l>
+          <l>de antemano hace el letrero.</l>
+
+          <pb n="4" source="Varios_025_4.jpg" facs="varios/Varios_025_4.jpg/"/>
+
+          <l rend="indent">Vuélvese luego á la plaza</l>
+          <l>el jaque aún blasonaba,</l>
+          <l>pero era de noche y llovía</l>
+          <l>y la gente se marchaba</l>
+          <l rend="indent">Sigue Juana al jaqueton,</l>
+          <l>y al entrar en calle obscura</l>
+          <l>cogiéndole del pescuezo</l>
+          <l>del valiente se asegura.</l>
+          <l rend="indent">Y le dice: «yo soy Juana,</l>
+          <l>venga usté aquí señor guapo,</l>
+          <l>al oir esto, escapar</l>
+          <l>quisiera como un gazapo,</l>
+          <l rend="indent">Pero Juana de furor</l>
+          <l>encendida, nada mengua</l>
+          <l>y apretándole el gaznate</l>
+          <l>le saca y corta la lengua.</l>
+          <l rend="indent">Cae tendido en el suelo</l>
+          <l>sin que pueda dar un grito,</l>
+          <l>y Juana le deja alií</l>
+          <l>el papel que trae escrito.</l>
+          <l rend="indent">«Para escarmiento á la gente</l>
+          <l>»vil, charlatana y medrosa,</l>
+          <l>»dejé á este jaque sin lengua,</l>
+          <l>»yo, Juana la Valerosa».</l>
+          <l rend="indent">Alborotóse otra vez</l>
+          <l>Madrid con tal ateotado</l>
+          <l>pero el prender á la Juana</l>
+          <l>es siempre caso negado.</l>
+          <l rend="indent">Gente hay que negaría</l>
+          <l>su existencia y que pretende</l>
+          <l>que Juana la Valerosa</l>
+          <l>es algún demonio ó duende</l>
+          <l rend="indent">Pero no, era mujer</l>
+          <l>que enamorada tie un hombré</l>
+          <l>la perdió sin compasión</l>
+          <l>oir jaunque el hecho asombre!</l>
+          <l rend="indent">Como Juana nunca tuvo</l>
+          <l>propicio al Dios del amor,</l>
+          <l>amó otra vez á un ingrato</l>
+          <l>que cual Judas fué traidor</l>
+          <l rend="indent">Ambicioso de dinero</l>
+          <l>delató á su tierna amante</l>
+          <l>y el premio de su perfidia</l>
+          <l>recibió en oro contante.</l>
+          <l rend="indent">la causa fué sustanciada</l>
+          <l>Presa juana desde luego</l>
+          <l>y conforme era de ver</l>
+          <l>á muerte fué condenada.</l>
+          <l rend="indent">se quedó tan so prendida,</l>
+          <l>Al leerle la sentencia</l>
+          <l>que sólo exclamó: ¡Dios míol</l>
+          <l>quedando juana sira vida.</l>
+          <l rend="indent">de su propio puño escrito,</l>
+          <l>Se le halló un pliego cerrado</l>
+          <l>que iba dirigido al padre</l>
+          <l>del desdichado Panchito,</l>
+          <l rend="indent">En él decia: «Cuando</l>
+          <l>á vos sea dirigida</l>
+          <l>esta cazta habré pagado</l>
+          <l>yo ya el tributo de la vida.</l>
+          <l rend="indent">de lo que le haya ofendido,</l>
+          <l>Y habré á Dios cuenta dado</l>
+          <l>y desde ahora os perdono</l>
+          <l>a parte que habeis tenido.</l>
+          <l rend="indent">De vuestro hijo contrariando</l>
+          <l>os inocentes amores..</l>
+          <l>fuisteis parte en su desgracia,</l>
+          <l>fuisteis parte en mis errores,</l>
+          <l rend="indent">Pero repito os perdono</l>
+          <l>porque tan sólo es mi intento,</l>
+          <l>el que sirva mi desdicha</l>
+          <l>á los padres de escarmiento.</l>
+          <l rend="indent">A los pacires que abusando</l>
+          <l>de su grave autoridad</l>
+          <l>pretenden dar á sus hijos</l>
+          <l>estado sin voluntad.</l>
+          <l rend="indent">Y lo mismo también digo</l>
+          <l>al que esta mi historia lea,</l>
+          <l>y ruego á Dios nos dé á todos</l>
+          <l>su santa gloria.—Así sea.»</l>
           <trailer>FIN</trailer>
         </div>
+        
         <div type="colofon">
           <p><lb/>Imps. Hospital. 19 «El Abanico».</p>
         </div>

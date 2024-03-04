@@ -1,18 +1,17 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../Schema/oddPliego_varios.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:alto="http://www.loc.gov/standards/alto/ns-v4#" xml:id="Varios_023">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Varios_023">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>EL DUO DE LA AFRICANA</title>
+        <title>El duo de la Africana</title>
         <respStmt>
           <name/>
           <resp>Codificación TEI</resp>
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <authority role="rightsHolder">Bibliothèque Universitaire de
-                            Genève</authority>
+        <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
         <availability status="restricted">
           <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
         </availability>
@@ -20,17 +19,16 @@
       <sourceDesc>
         <biblFull>
           <titleStmt>
-            <title type="titulo_completo">EL DUO DE LA AFRICANA JOTA</title>
-            <title type="titulo_breve">EL DUO DE LA AFRICANA</title>
+            <title type="titulo_completo">El duo de la Africana. Jota</title>
+            <title type="titulo_breve">El duo de la Africana</title>
           </titleStmt>
           <editionStmt>
             <p/>
           </editionStmt>
           <publicationStmt>
             <publisher>El Abanico</publisher>
-            <pubPlace ref="https://www.geonames.org/3128760/barcelona.html">Barcelona
-                              :https://www.geonames.org/3128760/barcelona.html</pubPlace>
-            <date>[s.a]</date>
+            <pubPlace ref="https://www.geonames.org/3128760/barcelona.html">Barcelona</pubPlace>
+            <date cert="low" when="1800-01-01">[s.a.]</date>
           </publicationStmt>
         </biblFull>
         <msDesc>
@@ -38,7 +36,8 @@
             <country>Suisse</country>
             <settlement>Genève</settlement>
             <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"/>
-                  </repository>
+            </repository>
+            <collection>Colección Varios</collection>
             <idno type="cote"/>
             <idno type="DOI">10.5281/zenodo.6546827</idno>
             <altIdentifier>
@@ -46,10 +45,18 @@
             </altIdentifier>
           </msIdentifier>
           <msContents>
-            <summary/>
+            <summary>Tres canciones</summary>
             <msItem>
-              <locus/>
-              <title/>
+              <locus>1-3</locus>
+              <title>El duo de la Africana. Jota</title>
+            </msItem>
+            <msItem>
+              <locus>3-4</locus>
+              <title>Walz Inglés</title>
+            </msItem>
+            <msItem>
+              <locus>4</locus>
+              <title>Lázaro á Dolores</title>
             </msItem>
           </msContents>
           <physDesc>
@@ -67,7 +74,7 @@
               </layoutDesc>
             </objectDesc>
             <decoDesc>
-              <summary n="1">Uno grabado (p.1) </summary>
+              <summary n="1">Un grabado (p.1)</summary>
               <decoNote type="lista_grabados">
                 <list>
                   <item corresp="grabado_v_023_1.xml">grabado_v_023_1</item>
@@ -88,18 +95,17 @@
     </fileDesc>
     <encodingDesc>
       <projectDesc>
-        <p>Este archivo fue creado en el marco del proyecto Desenrollando el
-                            Cordel/Démêler le cordel/Untangling the cordel, dirigido por la
-                            profesora Constance Carta de la Universidad de Ginebra, con el apoyo de
-                            la Fundación filantrópica Famille Sandoz-Monique de Meuron.</p>
+        <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+          cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la Universidad
+          de Ginebra, con el apoyo de la Fundación filantrópica Famille Sandoz-Monique de
+          Meuron.</p>
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR non corregido</p>
+          <p>OCR no corregido</p>
         </correction>
         <normalization>
-          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto
-                                original.</p>
+          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
         </normalization>
         <punctuation>
           <p>Se conserva la puntuación original.</p>
@@ -121,10 +127,11 @@
     </profileDesc>
     <revisionDesc>
       <change when="2022-05-06" who="#PJ">Création du fichier TEI P5 et encodage du corps du
-                        texte</change>
+        texte</change>
+<change when="2024-01-09" who="#EL">Add the IIIF links</change>
     </revisionDesc>
   </teiHeader>
-  <sourceDoc xml:id="automaticTranscription">
+  <facsimile><graphic url="varios/Varios_023_1.jpg/full/200,/0/default.jpg"/></facsimile><sourceDoc xml:id="automaticTranscription">
     <surface xml:id="Varios_023_1" type="page" cert="silver">
       <graphic url="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_023_1/full/full/0/default.jpg"/>
       <zone xml:id="Varios_023_1_BT223_1" n="1" type="CustomZone" subtype="title" points="1708,1575 1454,1627 184,1645 105,1636 70,1531 87,1410 991,1402 1761,1410 1770,1443 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_023_1/70,1402,1700,243/full/0/default" corresp="CustomZone:title">
@@ -1396,11 +1403,14 @@
   <text>
     <body>
       <div>
-        <div n="1" type="parte">
-          <pb n="1" source="Varios_023_1.jpg" facs="fedora_Varios_023_1/full/full/0/default.jpg"/>
-          <head type="primer_titulo"><lb/><hi rend="negrita">EL DUO DE LA AFRICANA</hi><lb/>JOTA</head>
+        <div n="1">
+          <pb n="1" source="Varios_023_1.jpg" facs="varios/Varios_023_1.jpg/"/>
+
+          <head type="primer_titulo"><lb/><hi rend="negrita">EL DUO DE LA
+            AFRICANA</hi><lb/>JOTA</head>
+
           <lg>
-            <l>Comprendo lo grave</l>
+            <l rend="indent">Comprendo lo grave</l>
             <l>de mi situación,</l>
             <l>y escúchame, Vasco,</l>
             <l>y ten compasión.</l>
@@ -1415,9 +1425,7 @@
             <l>Márchate ya.</l>
             <l>Mamá te llora;</l>
             <l>ve con mamá.</l>
-          </lg>
-          <lg>
-            <l>Africana gitana</l>
+            <l rend="indent">–Africana gitana</l>
             <l>nacida muy cerca</l>
             <l>del puente de Triana,</l>
             <l>por qué te vi yo.</l>
@@ -1425,7 +1433,7 @@
             <l>que amores decía,</l>
             <l>clavada en la mía</l>
             <l>por qué me engañó?</l>
-            <l>Ay! baturro fogoso,</l>
+            <l rend="indent">–Ay! baturro fogoso,</l>
             <l>nacido muy cerca</l>
             <l>del Ebro famoso</l>
             <l>¿por qué te vi yo,</l>
@@ -1433,10 +1441,10 @@
             <l>de noche y de día</l>
             <l>con loca osadía</l>
             <l>por qué me siguio?</l>
-          </lg>
-          <pb n="2" source="Varios_023_2.jpg" facs="fedora_Varios_023_2/full/full/0/default.jpg"/>
-          <lg>
-            <l>—Africana gitana</l>
+
+            <pb n="2" source="Varios_023_2.jpg" facs="varios/Varios_023_2.jpg/"/>
+
+            <l rend="indent">—Africana gitana</l>
             <l>nacida muy cerca</l>
             <l>del puente de Triana,</l>
             <l>si yo te seguí</l>
@@ -1444,7 +1452,7 @@
             <l>temiendo no verte,</l>
             <l>muy honda y muy dentro</l>
             <l>del alma sentí.</l>
-            <l>—Ay! baturro fogoso,</l>
+            <l rend="indent">—Ay! baturro fogoso,</l>
             <l>nacido muy cerca</l>
             <l>del Ebro famoso</l>
             <l>no sigas ya más,</l>
@@ -1463,47 +1471,46 @@
             <l>—Verás que dichosos</l>
             <l>seremos allí.</l>
           </lg>
+
           <lg>
-            <l>No cantes más la africana</l>
+            <l rend="indent">No cantes más la africana</l>
             <l>vente conmigo Aragón,</l>
             <l>y allí la Jota que es gloria</l>
             <l>nos cantaremos los dos.</l>
-            <l>Vente conmigo y no temas</l>
+            <l rend="indent">Vente conmigo y no temas</l>
             <l>estos lugares dejar,</l>
             <l>que la que aquí es prima dona</l>
             <l>reina en mi casa será.</l>
-            <l>Ay que cosas dices,</l>
+            <l rend="indent">Ay que cosas dices,</l>
             <l>yo estoy muy nerviosa.</l>
             <l>déjame tranquila,</l>
             <l>cállate esas cosas.</l>
-            <l>Ten por Dios prudencia,</l>
+            <l rend="indent">Ten por Dios prudencia,</l>
             <l>cesa en tu porfía</l>
             <l>porque si te oyeran</l>
             <l>buena se armaría.</l>
-            <l>Esas ilusiones</l>
+            <l rend="indent">Esas ilusiones</l>
             <l>no has de realizar,</l>
             <l>basta ya Pepito</l>
             <l>deja de soñar.</l>
-            <l>Pues que te quiero y me quieres</l>
+            <l rend="indent">Pues que te quiero y me quieres</l>
             <l>vente y no dudes ya más</l>
             <l>vente por Dios, vida mía,</l>
             <l>que alguna vez volveráa.</l>
-          </lg>
-          <lg>
-            <l>Aunque te quiero y me quiera</l>
+            <l rend="indent">Aunque te quiero y me quiera</l>
             <l>vete y no dudes ya más;</l>
             <l>Aunque te quiero y me quiera</l>
             <l>vete con Dios alma mía,</l>
             <l>que alguna vez volveras.</l>
             <l>con el gitarrillo,</l>
-            <l>Entonando coplas</l>
+            <l rend="indent">Entonando coplas</l>
             <l>te diré gitana,</l>
             <l>te diré bién mío,</l>
             <l>te diré mi gloria</l>
             <l>te diré lucero</l>
             <l>te diré mi encanto,</l>
             <l>te diré mi cielo.</l>
-            <l>Cantaré a tu boca,</l>
+            <l rend="indent">Cantaré a tu boca,</l>
             <l>cantaré á tus manos</l>
             <l>cantaré á tus ojos</l>
             <l>cantaré á tu garbo</l>
@@ -1513,13 +1520,13 @@
             <l>dilo por favor.</l>
             <l>—Calla por Dios que me matas,</l>
             <l>ten ya de mi compasión!</l>
-            <l>Vete por fin de mi lado</l>
+            <l rend="indent">Vete por fin de mi lado</l>
             <l>ó serás mi perdicion!</l>
             <l>Vete tranquilo y no sientas</l>
             <l>estos lugares dejar,</l>
             <l>aunque sin Vasco, Selika</l>
             <l>muera desolada de tanto pesar.</l>
-            <l>Entonando coplas</l>
+            <l rend="indent">Entonando coplas</l>
             <l>con el guitarrillo,</l>
             <l>te diré mi encanto,</l>
             <l>te diré mi amor,</l>
@@ -1536,19 +1543,20 @@
             <l>él solo es el dueño</l>
             <l>de mi corazón).</l>
           </lg>
+
           <lg>
-            <l>Dice un marido á su esposa</l>
+            <l rend="indent">Dice un marido á su esposa</l>
             <l>cuando la luna de miel</l>
             <l>tu eres la mujer mas bella</l>
             <l>que en este mundo encontré.</l>
-            <l>Sin ti no tengo alegría,</l>
+            <l rend="indent">Sin ti no tengo alegría,</l>
             <l>sin tí no puedo vivir</l>
-          </lg>
-          <pb n="3" source="Varios_023_3.jpg" facs="fedora_Varios_023_3/full/full/0/default.jpg"/>
-          <lg>
+
+            <pb n="3" source="Varios_023_3.jpg" facs="varios/Varios_023_3.jpg/"/>
+
             <l>y si me engañases nunca</l>
             <l>lo podría resistir.</l>
-            <l>Eres un portento</l>
+            <l rend="indent">Eres un portento</l>
             <l>por mí de hermosura,</l>
             <l>eres de mi vida</l>
             <l>diosa de dulzura.</l>
@@ -1560,63 +1568,63 @@
             <l>pide por favor,</l>
             <l>porque nada puede</l>
             <l>negarte mi amor.</l>
-            <l>Pero pasada la luna</l>
+            <l rend="indent">Pero pasada la luna</l>
             <l>ó los tres meses ó seis,</l>
             <l>ya se fastidian y aburren</l>
             <l>el marido y la mujer.</l>
-            <l>No pasa un día sin riñas,</l>
+            <l rend="indent">No pasa un día sin riñas,</l>
             <l>se llaman de un modo ruin,</l>
             <l>y la casa es un infierno</l>
             <l>del escándalo sin fin.</l>
-            <l>La vara en la mano</l>
+            <l rend="indent">La vara en la mano</l>
             <l>los ojos ardiendo</l>
             <l>le dice el marido</l>
             <l>tras ella corriendo:</l>
-            <l>Eres holgazana,</l>
+            <l rend="indent">Eres holgazana,</l>
             <l>eres bachillerra,</l>
             <l>eres insufrible,</l>
             <l>eres también puerca,</l>
             <l>eres habladora,</l>
-          </lg>
-          <lg>
             <l>eres descarada,</l>
             <l>eres una furia,</l>
             <l>eres descuidada.</l>
             <l>¡Ay que mal nos hizo</l>
             <l>el que nos casó!</l>
+            <l rend="indent">¡Ay me hubiese roto</l>
             <l>una pierna o dos.</l>
-            <l>¡Ay me hubiese roto</l>
-            <l>Y cuando llegan á viejos</l>
+            <l rend="indent">Y cuando llegan á viejos</l>
             <l>vuelve otra vez la ilusión</l>
             <l>y no pueden uno y otro</l>
             <l>sufrir la separación.</l>
-            <l>Y se animan y acarician</l>
+            <l rend="indent">Y se animan y acarician</l>
             <l>con tanta solicitud</l>
             <l>como en los mejores días</l>
             <l>de su alegre juventud,</l>
             <l>ven monono mío,</l>
-            <l>Ven pollita mía,</l>
+            <l rend="indent">Ven pollita mía,</l>
             <l>no me dejes solo</l>
             <l>porque tengo frío.</l>
             <l>Ay como te adoro,</l>
             <l>cuan dulce es tu afán</l>
             <l>estar á tu lado</l>
             <l>es al cielo estar.</l>
-            <l>Aquellas palizas</l>
+            <l rend="indent">Aquellas palizas</l>
             <l>que un día te daba</l>
             <l>eran ciertas pruebas</l>
             <l>de cuanto te amaba.</l>
-            <l>Pero ahora niña</l>
+            <l rend="indent">Pero ahora niña</l>
             <l>eres tú mi bien,</l>
             <l>como el mejor</l>
             <l>de luna de miel.</l>
           </lg>
         </div>
-        <div n="2" type="parte">
-          <head type="titulo_cancion"><lb/>WALZ INGLÉS</head>
-          <lg>
-            <l>I</l>
-            <l>Crucé la España</l>
+
+        <div n="2">
+          <head type="primer_titulo"><lb/>WALZ INGLÉS</head>
+
+          <lg n="1">
+            <head type="titulo_estrofa">I</head>
+            <l rend="indent">Crucé la España</l>
             <l>rico país,</l>
             <l>que lindas damas</l>
             <l>se ven allí;</l>
@@ -1624,17 +1632,15 @@
             <l>capaz de hacer</l>
             <l>bailar un tango</l>
             <l>á un lord ingles.</l>
-            <l>Nadie es capaz</l>
+            <l rend="indent">Nadie es capaz</l>
             <l>á resistir</l>
             <l>el fuego aquel,</l>
-          </lg>
-          <lg>
             <l>sin sentirse morir;</l>
             <l>son sus miradas</l>
             <l>fino puñal</l>
             <l>que al mundo matan</l>
             <l>con tanta sal.</l>
-            <l>Una española rubia</l>
+            <l rend="indent">Una española rubia</l>
             <l>da el opio al mismo sol,</l>
             <l>una linda morena</l>
             <l>encanta una nación:</l>
@@ -1643,10 +1649,12 @@
             <l>no se cual me gusta más,</l>
             <l>todas en fin.</l>
           </lg>
-          <pb n="4" source="Varios_023_4.jpg" facs="fedora_Varios_023_4/full/full/0/default.jpg"/>
-          <lg>
-            <l>2</l>
-            <l>En vano busco</l>
+
+          <pb n="4" source="Varios_023_4.jpg" facs="varios/Varios_023_4.jpg/"/>
+
+          <lg n="2">
+            <head type="titulo_estrofa">2</head>
+            <l rend="indent">En vano busco</l>
             <l>felicidad,</l>
             <l>si en este mundo</l>
             <l>no existe ya,</l>
@@ -1654,7 +1662,7 @@
             <l>debo vivir</l>
             <l>y entre amarguras</l>
             <l>puedo morir.</l>
-            <l>Noche cruel</l>
+            <l rend="indent">Noche cruel</l>
             <l>en que nací</l>
             <l>entonces ya</l>
             <l>á mi madre perdí,</l>
@@ -1662,7 +1670,7 @@
             <l>y ella se fué,</l>
             <l>solo y tan solo</l>
             <l>solo quedé.</l>
-            <l>No para aquí mi tristeza</l>
+            <l rend="indent">No para aquí mi tristeza</l>
             <l>negra situación;</l>
             <l>una desentreñada</l>
             <l>burló mi corazón.</l>
@@ -1671,36 +1679,38 @@
             <l>muera de dolor y pena</l>
             <l>mi corazón.</l>
           </lg>
-          <lg>
-            <l>3</l>
-            <l>Abre esa reja</l>
+
+          <lg n="3">
+            <head type="titulo_estrofa">3</head>
+            <l rend="indent">Abre esa reja</l>
             <l>mi dulce amor</l>
             <l>y oye el delirio</l>
             <l>de un trovador.</l>
-            <l>Mi pecho exhala</l>
+            <l rend="indent">Mi pecho exhala</l>
             <l>notas por ti</l>
             <l>que son gemidos</l>
             <l>con frenesí.</l>
-            <l>Deja tu lecho</l>
+            <l rend="indent">Deja tu lecho</l>
             <l>y oyes mi voz</l>
             <l>y así verás</l>
             <l>que es todo amor,</l>
-            <l>Sal hechicera</l>
+            <l rend="indent">Sal hechicera</l>
             <l>niña gentil,</l>
             <l>que por ti muero</l>
             <l>y sin resistir.</l>
-            <l>Tú eres la flor galana</l>
+            <l rend="indent">Tú eres la flor galana</l>
             <l>que nace al mes de Abril,</l>
             <l>tú eres mi dulce encanto</l>
             <l>un bello querubín.</l>
-            <l>Yo á tu reja me acerco</l>
+            <l rend="indent">Yo á tu reja me acerco</l>
             <l>sólo por escuchar</l>
             <l>ese sí tan descado</l>
             <l>bello ideal.</l>
           </lg>
-          <lg>
-            <l>4.</l>
-            <l>No hay quien te mire,</l>
+
+          <lg n="4">
+            <head type="titulo_estrofa">4.</head>
+            <l rend="indent">No hay quien te mire,</l>
             <l>rico vergel,</l>
             <l>que no suspire</l>
             <l>tan solo al ver</l>
@@ -1708,37 +1718,38 @@
             <l>rubia y gentil,</l>
             <l>tu lindo talle</l>
             <l>fino y sutil.</l>
-            <l>Púrpura bella,</l>
+            <l rend="indent">Púrpura bella,</l>
             <l>mágico sol,</l>
             <l>rayos de fuego</l>
             <l>tus ojos son.</l>
-            <l>Ten amor mío</l>
+            <l rend="indent">Ten amor mío</l>
             <l>ten compasión,</l>
             <l>que en él se abrasa</l>
             <l>mi corazón.</l>
-            <l>Dime niña hechicera</l>
+            <l rend="indent">Dime niña hechicera</l>
             <l>imagen del amor,</l>
             <l>cuando calmas la pena</l>
             <l>de tu fiel amador.</l>
-            <l>Contéstame pichona</l>
+            <l rend="indent">Contéstame pichona</l>
             <l>pero no con desdén,</l>
             <l>y ast envolvernos podremos</l>
             <l>en el Edén.</l>
           </lg>
         </div>
-        <div n="3" type="parte">
-          <head type="titulo_cancion"><lb/>LÁZARO A DOLORES</head>
-          <lg>
-            <l>¡Di que es verdad que me llamas,</l>
-            <l>dí que es verdad que no sueño,</l>
-            <l>di que es verdad que me amas,</l>
-            <l>dilo, Dolores, por Dios!</l>
-            <l>¡Di que mi suerte lo quiso,</l>
-            <l>que de tu amor soy el dueño.</l>
-            <l>Dilo y será un paraíso</l>
-            <l>la tierra para los dos!</l>
-          </lg>
+
+        <div n="3">
+          <head type="titulo_cancion"><lb/>LÁZARO Á DOLORES</head>
+
+          <l>¡Di que es verdad que me llamas,</l>
+          <l>dí que es verdad que no sueño,</l>
+          <l>di que es verdad que me amas,</l>
+          <l>dilo, Dolores, por Dios!</l>
+          <l rend="indent">¡Di que mi suerte lo quiso,</l>
+          <l>que de tu amor soy el dueño.</l>
+          <l>Dilo y será un paraíso</l>
+          <l>la tierra para los dos!</l>
         </div>
+
         <div type="colofon">
           <p><lb/>Imps. Hospital, 19, «El Abanico»</p>
         </div>

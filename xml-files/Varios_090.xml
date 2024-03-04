@@ -1,19 +1,17 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../Schema/oddPliego_varios.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:alto="http://www.loc.gov/standards/alto/ns-v4#" xml:id="Varios_090">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Varios_090">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>LAS TRES CANCIONES TITULÁDA: EL ROSINYOL, SIMPLES AVECILLAS Y LA
-                              NIÑA HERMOSA.</title>
+        <title>LAS TRES CANCIONES TITULÁDA: EL ROSINYOL, SIMPLES AVECILLAS Y LA NIÑA HERMOSA.</title>
         <respStmt>
           <name/>
           <resp>Codificación TEI</resp>
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <authority role="rightsHolder">Bibliothèque Universitaire de
-                              Genève</authority>
+        <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
         <availability status="restricted">
           <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
         </availability>
@@ -21,8 +19,8 @@
       <sourceDesc>
         <biblFull>
           <titleStmt>
-            <title type="titulo_completo">LAS TRES CANCIONES TITULÁDA: EL
-                                          ROSINYOL, SIMPLES AVECILLAS Y LA NIÑA HERMOSA.</title>
+            <title type="titulo_completo">LAS TRES CANCIONES TITULÁDA: EL ROSINYOL, SIMPLES
+              AVECILLAS Y LA NIÑA HERMOSA.</title>
             <title type="titulo_breve"/>
           </titleStmt>
           <editionStmt>
@@ -31,7 +29,7 @@
           <publicationStmt>
             <publisher>Tipografía Española</publisher>
             <pubPlace ref="https://www.geonames.org/3128760/barcelona.html">Barcelona</pubPlace>
-            <date>1870</date>
+            <date when="1870-01-01" cert="high">1870</date>
           </publicationStmt>
         </biblFull>
         <msDesc>
@@ -39,7 +37,8 @@
             <country>Suisse</country>
             <settlement>Genève</settlement>
             <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"/>
-                                    </repository>
+            </repository>
+            <collection>Colección Varios</collection>
             <idno type="cote"/>
             <idno type="DOI">10.5281/zenodo.6566067</idno>
             <altIdentifier>
@@ -47,10 +46,18 @@
             </altIdentifier>
           </msIdentifier>
           <msContents>
-            <summary/>
+            <summary>Tres canciones</summary>
             <msItem>
-              <locus/>
-              <title/>
+              <locus>1-2</locus>
+              <title>El rossinyol.</title>
+            </msItem>
+            <msItem>
+              <locus>3-4</locus>
+              <title>Las simples avecillas.</title>
+            </msItem>
+            <msItem>
+              <locus>4</locus>
+              <title>La niña hermosa.</title>
             </msItem>
           </msContents>
           <physDesc>
@@ -73,8 +80,8 @@
                 <list>
                   <item corresp="grabado_v_090_1.xml">grabado_v_090_1</item>
                   <item corresp="grabado_v_090_2.xml">grabado_v_090_2</item>
-                  <item corresp="grabado_v_090_1.xml">grabado_v_090_3</item>
-                  <item corresp="grabado_v_090_2.xml">grabado_v_090_4</item>
+                  <item corresp="grabado_v_090_3.xml">grabado_v_090_3</item>
+                  <item corresp="grabado_v_090_4.xml">grabado_v_090_4</item>
                 </list>
               </decoNote>
             </decoDesc>
@@ -84,13 +91,11 @@
           </physDesc>
           <history>
             <origin>
-              <p>Tipografia Española, calle del Hospital, núm. 87,
-                                                bajos.—1879.</p>
+              <p>Tipografia Española, calle del Hospital, núm. 87, bajos.—1879.</p>
             </origin>
             <provenance>
-              <stamp>Se hallará de venta en casu los sucesores de
-                                                Antonio Bosch, calle del Bou de la Plaza Nueva, núm.
-                                                13, tienda.</stamp>
+              <stamp>Se hallará de venta en casu los sucesores de Antonio Bosch, calle del Bou de la
+                Plaza Nueva, núm. 13, tienda.</stamp>
             </provenance>
             <acquisition>
               <stamp>COL LECCIÓ MANUEL MASSÓ</stamp>
@@ -101,18 +106,17 @@
     </fileDesc>
     <encodingDesc>
       <projectDesc>
-        <p>Este archivo fue creado en el marco del proyecto Desenrollando el
-                              Cordel/Démêler le cordel/Untangling the cordel, dirigido por la
-                              profesora Constance Carta de la Universidad de Ginebra, con el apoyo
-                              de la Fundación filantrópica Famille Sandoz-Monique de Meuron.</p>
+        <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+          cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la Universidad
+          de Ginebra, con el apoyo de la Fundación filantrópica Famille Sandoz-Monique de
+          Meuron.</p>
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR non corregido</p>
+          <p>OCR no corregido</p>
         </correction>
         <normalization>
-          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto
-                                    original.</p>
+          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
         </normalization>
         <punctuation>
           <p>Se conserva la puntuación original.</p>
@@ -121,7 +125,7 @@
     </encodingDesc>
     <profileDesc>
       <langUsage>
-        <language ident="es">Español</language>
+        <language ident="ca">Catalán</language>
       </langUsage>
       <textClass>
         <keywords xml:base="http://datos.bne.es/tema/">
@@ -133,10 +137,14 @@
       </textClass>
     </profileDesc>
     <revisionDesc>
-      <change when="2022-07-26" who="#PJ">Création du fichier TEI P5 et encodage du
-                        corps du texte</change>
+      <change when="2022-07-26" who="#PJ">Création du fichier TEI P5 et encodage du corps du
+        texte</change>
+      <change when="2024-01-09" who="#EL">Add the IIIF links</change>
     </revisionDesc>
   </teiHeader>
+  <facsimile>
+    <graphic url="varios/Varios_090_1.jpg/full/200,/0/default.jpg"/>
+  </facsimile>
   <sourceDoc xml:id="automaticTranscription">
     <surface xml:id="Varios_090_1" type="page" cert="silver">
       <graphic url="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_090_1/full/full/0/default.jpg"/>
@@ -857,238 +865,259 @@
   <text>
     <body>
       <div>
-        <pb n="1" source="Varios_090_1.jpg" facs="fedora_Varios_090_1/full/full/0/default.jpg"/>
-        <fw type="impresorNum">Núm. 82.</fw>
-        <head type="primer_titulo"><lb/>LAS TRES CANCIONES TITULÁDA: EL ROSINYOL, SIMPLES<lb/>AVECILLAS Y
-                              LA NIÑA HERMOSA.</head>
-        <div type="cancion" n="1">
-          <head type="titulo_cancion">
-            <lb/>
-            <hi rend="negrita">EL ROSSINYOL.</hi>
-          </head>
-          <lg>
-            <l>El Rossinyol prenia la fresca,</l>
-            <l>sobre de un roure se posa á cantá,</l>
-            <l>ell ne dicta una cansoneta</l>
-            <l>per las doncellas poder alegrar.</l>
-          </lg>
-          <lg>
-            <l>El Rossinyol á la primavera</l>
-            <l>canta, se alegre y fa lo niu tot sol</l>
-            <l>sempre lo fa al ciment de una branca</l>
-            <l>que no la alcansa aquell qui la vol.</l>
-          </lg>
-          <lg>
-            <l>Si al Rossinyol ne té vuit pessetas</l>
-            <l>son trenta rals que prou se pot di,</l>
-            <l>ell las dóna á la seva amoreta</l>
-            <l>un sant diumenge de bon dématí.</l>
-          </lg>
-          <lg>
-            <l>Vos, doncelleta que aneu á la plassa</l>
-            <l>yque una sistella de flos ne portau,</l>
-            <l>vostras miradas per mí son falsas</l>
-            <l>y al Rossinyol vos sempre al traveseu.</l>
-          </lg>
-          <pb n="2" source="Varios_090_2.jpg" facs="fedora_Varios_090_2/full/full/0/default.jpg"/>
-          <lg>
-            <l>Cuant sos promesos de cop son entesos</l>
-            <l>la afició luego als fá casar,</l>
-            <l>el Rossinyol ab aquella alegría</l>
-            <l>antes del dia se posa á cantar.</l>
-          </lg>
-          <lg>
-            <l>Cuant son casats al primer vespra</l>
-            <l>ja de aquet món tenen el consol,</l>
-            <l>el Rossinyol ab aquella alegría</l>
-            <l>sempre los canta aquell so tant dols.</l>
-          </lg>
-          <lg>
-            <l>Cuant son casats al cap dels nou mesos</l>
-            <l>tot son suspirs, llantos y plors,</l>
-            <l>el Rossinyol ab aquella alegría</l>
-            <l>sempie los canta sereu mes de dos.</l>
-          </lg>
-          <lg>
-            <l>Dichós el pare y també la mare</l>
-            <l>que Dèu los dó un galan hercuet,</l>
-            <l>el Rossinyol ab aquella alegría</l>
-            <l>sempre los deya guardeulo del fret.</l>
-          </lg>
-          <lg>
-            <l>Si el Rossinyol ne té bon sangro</l>
-            <l>cuant té als petits dintre del niu,</l>
-            <l>ell los estima y als porta recapta</l>
-            <l>y sempre los diu: juguem ferm feliu.</l>
-          </lg>
-          <lg>
-            <l>Si ell tè vicis, quina desgracia,</l>
-            <l>sovint las tustan ab lo bastó,</l>
-            <l>el Rossinyol mólt sen alegra</l>
-            <l>y los va cantant aquesta cansó.</l>
-          </lg>
-          <lg>
-            <l>Si ell te sogra y mustachuda,</l>
-            <l>si es iracunda, qué aflixió,</l>
-            <l>el Rossinyol ja los contempla</l>
-            <l>dalt la branqueta ab són bon So.</l>
-          </lg>
-          <lg>
-            <l>Si ab cota blava ell si barreja,</l>
-            <l>seguit no hi falta desunió,</l>
-            <l>el Rossinyol ab aquella alegría</l>
-            <l>canta á la Aurora ab gran primor.</l>
-          </lg>
-          <lg>
-            <l>Mólt amenut segueix sos passos,</l>
-            <l>saber qui tracta ab afissió,</l>
-            <l>el Rossinyol de aixó sen burla,</l>
-            <l>pren la rosada ab són bon to.</l>
-          </lg>
-          <lg>
-            <l>Si la esperimenta, quina desgracia,</l>
-            <l>ell sen va á riurer al Roselló,</l>
-            <l>el Rossinyol ab sa melodia</l>
-            <l>canta y se alegra de tot aixó.</l>
-          </lg>
-          <lg>
-            <l>Qui no te culpa tot aixó paga,</l>
-            <l>es la familia, es viu dolor,</l>
-            <l>el Rossinyol ya vos avisa</l>
-            <l>ab alabansas del Senyor.</l>
-          </lg>
-          <lg>
-            <l>Lo Rossinyol ja vos alaba</l>
-            <l>á tots los que sóu uns bons casats,</l>
-            <l>á los que son mólt al contrari</l>
-            <l>sempre vos canta desgraciats.</l>
-          </lg>
-          <trailer>FIN.</trailer>
-          <pb n="3" source="Varios_090_3.jpg" facs="fedora_Varios_090_3/full/full/0/default.jpg"/>
+        <div>
+          <pb n="1" source="Varios_090_1.jpg" facs="varios/Varios_090_1.jpg/"/>
+
+          <fw type="impresorNum">Núm. 82.</fw>
+
+          <head type="primer_titulo"><lb/>LAS TRES CANCIONES TITULÁDA: EL ROSINYOL,
+            SIMPLES<lb/>AVECILLAS Y LA NIÑA HERMOSA.</head>
+
+          <div type="cancion" n="1">
+            <head type="titulo_cancion" rend="negrita">EL ROSSINYOL.</head>
+
+            <lg>
+              <l rend="indent">El Rossinyol prenia la fresca,</l>
+              <l>sobre de un roure se posa á cantá,</l>
+              <l>ell ne dicta una cansoneta</l>
+              <l>per las doncellas poder alegrar.</l>
+            </lg>
+            <lg>
+              <l>El Rossinyol á la primavera</l>
+              <l>canta, se alegre y fa lo niu tot sol</l>
+              <l>sempre lo fa al ciment de una branca</l>
+              <l>que no la alcansa aquell qui la vol.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Si al Rossinyol ne té vuit pessetas</l>
+              <l>son trenta rals que prou se pot di,</l>
+              <l>ell las dóna á la seva amoreta</l>
+              <l>un sant diumenge de bon dématí.</l>
+            </lg>
+            <lg>
+              <l>Vos, doncelleta que aneu á la plassa</l>
+              <l>yque una sistella de flos ne portau,</l>
+              <l>vostras miradas per mí son falsas</l>
+              <l>y al Rossinyol vos sempre al traveseu.</l>
+            </lg>
+
+            <pb n="2" source="Varios_090_2.jpg" facs="varios/Varios_090_2.jpg/"/>
+
+            <lg>
+              <l>Cuant sos promesos de cop son entesos</l>
+              <l>la afició luego als fá casar,</l>
+              <l>el Rossinyol ab aquella alegría</l>
+              <l>antes del dia se posa á cantar.</l>
+            </lg>
+            <lg>
+              <l>Cuant son casats al primer vespra</l>
+              <l>ja de aquet món tenen el consol,</l>
+              <l>el Rossinyol ab aquella alegría</l>
+              <l>sempre los canta aquell so tant dols.</l>
+            </lg>
+            <lg>
+              <l>Cuant son casats al cap dels nou mesos</l>
+              <l>tot son suspirs, llantos y plors,</l>
+              <l>el Rossinyol ab aquella alegría</l>
+              <l>sempie los canta sereu mes de dos.</l>
+            </lg>
+            <lg>
+              <l>Dichós el pare y també la mare</l>
+              <l>que Dèu los dó un galan hercuet,</l>
+              <l>el Rossinyol ab aquella alegría</l>
+              <l>sempre los deya guardeulo del fret.</l>
+            </lg>
+            <lg>
+              <l>Si el Rossinyol ne té bon sangro</l>
+              <l>cuant té als petits dintre del niu,</l>
+              <l>ell los estima y als porta recapta</l>
+              <l>y sempre los diu: juguem ferm feliu.</l>
+            </lg>
+            <lg>
+              <l>Si ell tè vicis, quina desgracia,</l>
+              <l>sovint las tustan ab lo bastó,</l>
+              <l>el Rossinyol mólt sen alegra</l>
+              <l>y los va cantant aquesta cansó.</l>
+            </lg>
+            <lg>
+              <l>Si ell te sogra y mustachuda,</l>
+              <l>si es iracunda, qué aflixió,</l>
+              <l>el Rossinyol ja los contempla</l>
+              <l>dalt la branqueta ab són bon So.</l>
+            </lg>
+            <lg>
+              <l>Si ab cota blava ell si barreja,</l>
+              <l>seguit no hi falta desunió,</l>
+              <l>el Rossinyol ab aquella alegría</l>
+              <l>canta á la Aurora ab gran primor.</l>
+            </lg>
+            <lg>
+              <l>Mólt amenut segueix sos passos,</l>
+              <l>saber qui tracta ab afissió,</l>
+              <l>el Rossinyol de aixó sen burla,</l>
+              <l>pren la rosada ab són bon to.</l>
+            </lg>
+            <lg>
+              <l>Si la esperimenta, quina desgracia,</l>
+              <l>ell sen va á riurer al Roselló,</l>
+              <l>el Rossinyol ab sa melodia</l>
+              <l>canta y se alegra de tot aixó.</l>
+            </lg>
+            <lg>
+              <l>Qui no te culpa tot aixó paga,</l>
+              <l>es la familia, es viu dolor,</l>
+              <l>el Rossinyol ya vos avisa</l>
+              <l>ab alabansas del Senyor.</l>
+            </lg>
+            <lg>
+              <l>Lo Rossinyol ja vos alaba</l>
+              <l>á tots los que sóu uns bons casats,</l>
+              <l>á los que son mólt al contrari</l>
+              <l>sempre vos canta desgraciats.</l>
+            </lg>
+            <trailer>FIN.</trailer>
+          </div>
+
+          <div type="cancion" n="2">
+            <pb n="3" source="Varios_090_3.jpg" facs="varios/Varios_090_3.jpg/"/>
+
+            <head type="titulo_cancion" rend="negrita"><lb/>LAS SIMPLES AVECILLAS.</head>
+
+            <lg>
+              <head type="titulo_estrofa"><lb/>I.</head>
+              <l>Simples avecillas</l>
+              <l>Que el vuelo veloz</l>
+              <l>Con que de los aires</l>
+              <l>Surcais la region,</l>
+              <l>Parad un momento</l>
+              <l>Y atended mi voz</l>
+              <l>A Corila amada</l>
+              <l>Mas bella que el sol.</l>
+            </lg>
+
+            <lg>
+              <head type="titulo_estrofa"><lb/>CORO.</head>
+              <l>Llevadle el suspiro</l>
+              <l>exhala de amor.....</l>
+            </lg>
+
+            <lg>
+              <head type="titulo_estrofa">II.</head>
+              <l>Feliz á su lado</l>
+              <l>Al prado me vió</l>
+              <l>Gozando en su seno</l>
+              <l>De amor la ilusion,</l>
+              <l>«Mas ay!» cuán velosa</l>
+              <l>Mi dicha pasó</l>
+              <l>Y pues yo no puedo</l>
+              <l>Percibir de amor...</l>
+              <l>Llevadle el suspiro</l>
+              <l>Que exhala de amor.</l>
+            </lg>
+
+            <lg>
+              <head type="titulo_estrofa">III.</head>
+              <l>El destino infausto</l>
+              <l>Con duro rigor</l>
+              <l>De sus dulces brazos</l>
+              <l>Cruel me arrancó;</l>
+              <l>Mas aun por ella</l>
+              <l>Late el corazon,</l>
+              <l>Cual latir entonces</l>
+              <l>Ella lo sintió.....</l>
+
+              <pb n="4" source="Varios_090_4.jpg" facs="varios/Varios_090_4.jpg/"/>
+
+              <l>Llevadle el suspiro</l>
+              <l>Que exhala de amor.</l>
+            </lg>
+
+            <lg>
+              <head type="titulo_estrofa"><lb/>IV.</head>
+              <l>Decidle que siempre</l>
+              <l>En mi corazon</l>
+              <l>Reinará constante</l>
+              <l>Su gracia y candor,</l>
+              <l>Decid que no tema</l>
+              <l>Que la olvide, no;</l>
+              <l>Y para que vea</l>
+              <l>Cuan constante soy...</l>
+              <l>Llevadle el suspiro</l>
+              <l>Que exhala de amor.</l>
+            </lg>
+
+            <trailer>FIN.</trailer>
+          </div>
+
+          <div type="cancion" n="3">
+            <head type="titulo_cancion"><lb/>LA NINA HERMOSA</head>
+
+            <lg>
+              <head type="titulo_estrofa"><lb/>I.</head>
+              <l rend="indent">Yo amo á una niña hermosa.</l>
+              <l>Pero es una ingrata fiera,</l>
+              <l>Es del alma prisionera</l>
+              <l>Es una sierpe engañosa:</l>
+              <l>Es Venus; es amorosa:</l>
+              <l>Mas qué digo, pero miento,</l>
+              <l>Es fiera, leon sungriento,</l>
+              <l>No es sino esmeralda y perla,</l>
+              <l>Entre olvidarla y quererla</l>
+              <l>Precipitado me siento...</l>
+            </lg>
+
+            <lg>
+              <head type="titulo_estrofa"><lb/>II.</head>
+              <l rend="indent">Es una estrella, es un cielo</l>
+              <l>Aquella deidad que adoro,</l>
+              <l>Es su cuerpo rubio oro.</l>
+              <l>Es de todo mi consuelo.</l>
+              <l>Por no verla me desvelo,</l>
+              <l>Mas que fiera la imploro.</l>
+              <l>Pero como la desdoro.</l>
+              <l>Yo mismo me contradigo.</l>
+              <l>Si me obliga y no me obligo</l>
+              <l>Aborrecer la que adoro.</l>
+            </lg>
+
+            <lg>
+              <head type="titulo_estrofa"><lb/>III.</head>
+              <l rend="indent">Es mi fé tan espresiva,</l>
+              <l>Es mi pena tan incierta,</l>
+              <l>Que quisiera verla muerta,</l>
+              <l>Y al instante verla viva.</l>
+              <l>El dolor de ella me priva</l>
+              <l>El escuchar su decoro,</l>
+              <l>Yo la aborrezco y la adoro</l>
+              <l>Al ver su bello semblante;</l>
+              <l>La aborrezco en un instante</l>
+              <l>Y al mismo instante la lloro...</l>
+            </lg>
+
+            <lg>
+              <head type="titulo_estrofa"><lb/>IV.</head>
+              <l rend="indent">Por fin no lo puedo ver,</l>
+              <l>Y si la dejo me pesa,</l>
+              <l>Si gozo de su belleza</l>
+              <l>Es tormento á mi placer,</l>
+              <l>Dejarla no puede ser,</l>
+              <l>Olvidarla es sentimiento,</l>
+              <l>Vivir con ella es tormento,</l>
+              <l>Entre uno y otro dolor</l>
+              <l>Me sirve de mas amor</l>
+              <l>Mi propio aborrecimiento.</l>
+            </lg>
+            <trailer>FIN.</trailer>
+          </div>
         </div>
-        <div type="cancion" n="2">
-          <head type="titulo_cancion"><lb/>LAS SIMPLES AVECILLAS.</head>
-          <p><lb/>I.</p>
-          <lg>
-            <l>Simples avecillas</l>
-            <l>Que el vuelo veloz</l>
-            <l>Con que de los aires</l>
-            <l>Surcais la region,</l>
-            <l>Parad un momento</l>
-            <l>Y atended mi voz</l>
-            <l>A Corila amada</l>
-            <l>Mas bella que el sol.</l>
-          </lg>
-          <p><lb/>CORO.</p>
-          <lg>
-            <l>Llevadle el suspiro</l>
-            <l>exhala de amor.....</l>
-            <l>II.</l>
-            <l>Feliz á su lado</l>
-            <l>Al prado me vió</l>
-            <l>Gozando en su seno</l>
-            <l>De amor la ilusion,</l>
-            <l>«Mas ay!» cuán velosa</l>
-            <l>Mi dicha pasó</l>
-            <l>Y pues yo no puedo</l>
-            <l>Percibir de amor...</l>
-            <l>Llevadle el suspiro</l>
-            <l>Que exhala de amor.</l>
-          </lg>
-          <p><lb/>III.</p>
-          <lg>
-            <l>El destino infausto</l>
-            <l>Con duro rigor</l>
-            <l>De sus dulces brazos</l>
-            <l>Cruel me arrancó;</l>
-            <l>Mas aun por ella</l>
-            <l>Late el corazon,</l>
-            <l>Cual latir entonces</l>
-            <l>Ella lo sintió.....</l>
-            <pb n="4" source="Varios_090_4.jpg" facs="fedora_Varios_090_4/full/full/0/default.jpg"/>
-            <l>Llevadle el suspiro</l>
-            <l>Que exhala de amor.</l>
-          </lg>
-          <p><lb/>IV.</p>
-          <lg>
-            <l>Decidle que siempre</l>
-            <l>En mi corazon</l>
-            <l>Reinará constante</l>
-            <l>Su gracia y candor,</l>
-            <l>Decid que no tema</l>
-            <l>Que la olvide, no;</l>
-            <l>Y para que vea</l>
-            <l>Cuan constante soy...</l>
-          </lg>
-          <lg>
-            <l>Llevadle el suspiro</l>
-            <l>Que exhala de amor.</l>
-          </lg>
-          <trailer>FIN.</trailer>
+        
+        <div type="colofon_vendedor">
+          <p rend="cursiva"><lb/>Se hallará de venta en casa los sucesores de Antonio Bosch, calle
+            del Bou de la Plaza Nueva, núm, 13, tienda</p>
         </div>
-        <div type="cancion" n="3">
-          <head type="titulo_cancion"><lb/>LA NINA HERMOSA</head>
-          <p><lb/>I.</p>
-          <lg>
-            <l>Yo amo á una niña hermosa.</l>
-            <l>Pero es una ingrata fiera,</l>
-            <l>Es del alma prisionera</l>
-            <l>Es una sierpe engañosa:</l>
-            <l>Es Venus; es amorosa:</l>
-            <l>Mas qué digo, pero miento,</l>
-            <l>Es fiera, leon sungriento,</l>
-            <l>No es sino esmeralda y perla,</l>
-            <l>Entre olvidarla y quererla</l>
-            <l>Precipitado me siento...</l>
-          </lg>
-          <p><lb/>II.</p>
-          <lg>
-            <l>Es una estrella, es un cielo</l>
-            <l>Aquella deidad que adoro,</l>
-            <l>Es su cuerpo rubio oro.</l>
-            <l>Es de todo mi consuelo.</l>
-            <l>Por no verla me desvelo,</l>
-            <l>Mas que fiera la imploro.</l>
-            <l>Pero como la desdoro.</l>
-            <l>Yo mismo me contradigo.</l>
-            <l>Si me obliga y no me obligo</l>
-            <l>Aborrecer la que adoro.</l>
-          </lg>
-          <p><lb/>III.</p>
-          <lg>
-            <l>Es mi fé tan espresiva,</l>
-            <l>Es mi pena tan incierta,</l>
-            <l>Que quisiera verla muerta,</l>
-            <l>Y al instante verla viva.</l>
-            <l>El dolor de ella me priva</l>
-            <l>El escuchar su decoro,</l>
-            <l>Yo la aborrezco y la adoro</l>
-            <l>Al ver su bello semblante;</l>
-            <l>La aborrezco en un instante</l>
-            <l>Y al mismo instante la lloro...</l>
-          </lg>
-          <p><lb/>IV.</p>
-          <lg>
-            <l>Por fin no lo puedo ver,</l>
-            <l>Y si la dejo me pesa,</l>
-            <l>Si gozo de su belleza</l>
-            <l>Es tormento á mi placer,</l>
-            <l>Dejarla no puede ser,</l>
-            <l>Olvidarla es sentimiento,</l>
-            <l>Vivir con ella es tormento,</l>
-            <l>Entre uno y otro dolor</l>
-            <l>Me sirve de mas amor</l>
-            <l>Mi propio aborrecimiento.</l>
-          </lg>
-          <trailer>FIN.</trailer>
-        </div>
-        <div type="colofón_vendedor">
-          <p><lb/>Se hallará de venta en casa los sucesores de Antonio Bosch,
-                                    calle del Bou de la Plaza Nueva, núm, 13, tienda</p>
-        </div>
-        <div type="colofon_impresora">
-          <p><lb/>Barcelona.— Tipografia Española, calle del Hospital, núm. 87,
-                                    bajos.—1879.</p>
+
+        <div type="colofon_impresor">
+          <p><lb/>Barcelona.— Tipografia Española, calle del Hospital, núm. 87, bajos.—1879.</p>
         </div>
       </div>
     </body>

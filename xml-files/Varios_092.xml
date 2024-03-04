@@ -1,19 +1,17 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../Schema/oddPliego_varios.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:alto="http://www.loc.gov/standards/alto/ns-v4#" xml:id="Varios_092">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Varios_092">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>CARTA AMOROSA QUE ESCRIBE UN AMANTE Á SU QUERIDA, AÑADIDA CON UN DIÁLAGO AMOR Y ESPERANZA.</title>
+        <title>CARTA AMOROSA</title>
         <respStmt>
           <name/>
           <resp>Codificación TEI</resp>
-          <note type="propiedad">Por J.  F. (a) Queri.</note>
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <authority role="rightsHolder">Bibliothèque Universitaire de
-                            Genève</authority>
+        <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
         <availability status="restricted">
           <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
         </availability>
@@ -21,16 +19,17 @@
       <sourceDesc>
         <biblFull>
           <titleStmt>
-            <title type="titulo_completo">CARTA AMOROSA QUE ESCRIBE UN AMANTE Á SU QUERIDA, AÑADIDA CON UN DIÁLAGO AMOR Y ESPERANZA.</title>
+            <title type="titulo_completo">CARTA AMOROSA QUE ESCRIBE UN AMANTE Á SU QUERIDA, AÑADIDA
+              CON UN DIÁLAGO AMOR Y ESPERANZA. Por J. F. (a) Queri.</title>
             <title type="titulo_breve">CARTA AMOROSA</title>
           </titleStmt>
           <editionStmt>
             <p/>
           </editionStmt>
           <publicationStmt>
-            <publisher>Imp. Española</publisher>
+            <publisher>Imprenta Española</publisher>
             <pubPlace ref="https://www.geonames.org/3111933/reus.html">Reus</pubPlace>
-            <date cert="high">1882</date>
+            <date cert="high" when="1882-01-01">1882</date>
           </publicationStmt>
         </biblFull>
         <msDesc>
@@ -38,7 +37,8 @@
             <country>Suisse</country>
             <settlement>Genève</settlement>
             <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"/>
-                  </repository>
+            </repository>
+            <collection>Colección Varios</collection>
             <idno type="cote"/>
             <idno type="DOI">10.5281/zenodo.6575910</idno>
             <altIdentifier>
@@ -46,10 +46,14 @@
             </altIdentifier>
           </msIdentifier>
           <msContents>
-            <summary/>
+            <summary>Carta y diálogo</summary>
             <msItem>
-              <locus/>
-              <title/>
+              <locus>1-2</locus>
+              <title>Carta amorosa que escribe un amante á su querida</title>
+            </msItem>
+            <msItem>
+              <locus>3-4</locus>
+              <title>Diálogo entre Sarafí y Gandalla.</title>
             </msItem>
           </msContents>
           <physDesc>
@@ -67,13 +71,12 @@
               </layoutDesc>
             </objectDesc>
             <decoDesc>
-              <summary n="3">Tres grabados
-                                        (p.1 + 3) </summary>
+              <summary n="3">Tres grabados (p.1 + 3)</summary>
               <decoNote type="lista_grabados">
                 <list>
                   <item corresp="grabado_v_092_1.xml">grabado_v_092_1</item>
-                  <item corresp="grabado_v_092_1.xml">grabado_v_092_1</item>
                   <item corresp="grabado_v_092_2.xml">grabado_v_092_2</item>
+                  <item corresp="grabado_v_092_3.xml">grabado_v_092_3</item>
                 </list>
               </decoNote>
             </decoDesc>
@@ -97,18 +100,17 @@
     </fileDesc>
     <encodingDesc>
       <projectDesc>
-        <p>Este archivo fue creado en el marco del proyecto Desenrollando el
-                            Cordel/Démêler le cordel/Untangling the cordel, dirigido por la
-                            profesora Constance Carta de la Universidad de Ginebra, con el apoyo de
-                            la Fundación filantrópica Famille Sandoz-Monique de Meuron.</p>
+        <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+          cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la Universidad
+          de Ginebra, con el apoyo de la Fundación filantrópica Famille Sandoz-Monique de
+          Meuron.</p>
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR non corregido</p>
+          <p>OCR no corregido</p>
         </correction>
         <normalization>
-          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto
-                                original.</p>
+          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
         </normalization>
         <punctuation>
           <p>Se conserva la puntuación original.</p>
@@ -122,6 +124,7 @@
       <textClass>
         <keywords xml:base="http://datos.bne.es/tema/">
           <term target="XX5491920.html" type="tipo_texto">Cartas</term>
+          <term target="XX5379362.html" type="tipo_texto">Diálogos</term>
           <term type="tipo_estrofa">Trovos</term>
           <term type="verso_prosa">Verso</term>
           <term type="sagrado_profano">Profano</term>
@@ -130,9 +133,13 @@
     </profileDesc>
     <revisionDesc>
       <change when="2022-08-31" who="#PJ">Création du fichier TEI P5 et encodage du corps du
-                        texte</change>
+        texte</change>
+      <change when="2024-01-09" who="#EL">Add the IIIF links</change>
     </revisionDesc>
   </teiHeader>
+  <facsimile>
+    <graphic url="varios/Varios_092_1.jpg/full/200,/0/default.jpg"/>
+  </facsimile>
   <sourceDoc xml:id="automaticTranscription">
     <surface xml:id="Varios_092_1" type="page" cert="silver">
       <graphic url="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_092_1/full/full/0/default.jpg"/>
@@ -151,7 +158,7 @@
         </zone>
         <zone xml:id="Varios_092_1_BT223_1_LT84_4" type="HeadingLine" subtype="none" points="701,1389 701,1351 1120,1372 1120,1415 1118,1426 1012,1433 1010,1433 1010,1433 1010,1433 1008,1433 1008,1433 1008,1433 1006,1433 993,1422 991,1422 991,1422 982,1428 982,1430 982,1430 980,1430 980,1430 980,1430 978,1430 978,1430 978,1430 976,1430 924,1426 924,1426 922,1426 922,1426 922,1426 920,1426 920,1426 920,1424 917,1424 913,1420 909,1411 697,1409 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_092_1/697,1351,423,82/full/0/default" corresp="HeadingLine">
           <path xml:id="Varios_092_1_BT223_1_LT84_4_1" points="704,1392 799,1396 850,1396 1121,1417 "/>
-          <line>Por J.  F. (a) Queri.</line>
+          <line>Por J. F. (a) Queri.</line>
         </zone>
       </zone>
       <zone xml:id="Varios_092_1_BT227_2" n="2" type="MainZone" subtype="columns" points="660,1940 507,1985 626,2046 593,2123 602,2328 438,2441 25,2397 25,2063 112,2009 25,1966 34,1588 60,1545 207,1510 617,1519 669,1554 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_092_1/25,1510,644,931/full/0/default" corresp="MainZone:columns">
@@ -1113,11 +1120,13 @@
         </zone>
         <zone xml:id="Varios_092_4_BT228_3_LT83_3" type="DefaultLine" subtype="none" points="118,2167 118,2118 1724,2167 1724,2208 1720,2219 114,2184 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_092_4/114,2118,1610,101/full/0/default" corresp="DefaultLine">
           <path xml:id="Varios_092_4_BT228_3_LT83_3_1" points="120,2169 222,2171 275,2173 1725,2209 "/>
-          <line>lllibréts, comedias, sainetes, estampas, calcomanias, cromos; paper per escriture. so-</line>
+          <line>lllibréts, comedias, sainetes, estampas, calcomanias, cromos; paper per escriture.
+            so-</line>
         </zone>
         <zone xml:id="Varios_092_4_BT228_3_LT83_4" type="DefaultLine" subtype="none" points="137,2214 137,2174 1515,2206 1518,2242 1515,2264 1472,2264 1432,2288 1429,2288 1429,2288 1427,2288 1427,2288 1427,2288 1425,2288 1425,2288 1425,2288 1423,2288 1423,2288 1423,2288 1421,2288 1421,2288 1393,2262 1393,2262 1391,2262 1339,2285 1339,2285 1337,2285 1337,2285 1337,2285 1335,2285 1335,2285 1332,2285 1332,2285 1332,2285 1330,2285 1330,2285 1330,2283 1311,2266 1264,2281 1261,2281 1261,2281 1261,2281 1259,2281 1259,2281 1257,2281 1257,2281 1257,2281 1255,2281 1231,2266 1167,2268 1164,2268 1164,2268 1164,2268 1162,2268 1162,2268 1162,2268 1160,2268 1160,2268 1154,2262 1149,2260 1145,2262 1119,2281 1117,2281 1117,2281 1117,2281 1115,2281 1115,2281 1115,2281 1113,2281 1113,2281 1111,2281 1111,2281 1111,2281 1109,2281 1109,2281 1087,2262 1083,2262 990,2253 960,2262 938,2268 936,2268 936,2268 936,2268 934,2268 934,2268 932,2268 932,2268 932,2268 919,2262 908,2255 900,2262 885,2275 885,2275 882,2275 882,2275 882,2275 880,2275 880,2275 880,2277 781,2277 779,2275 607,2270 607,2270 607,2270 605,2270 605,2270 602,2270 602,2270 602,2268 594,2262 583,2251 527,2245 478,2262 473,2262 471,2262 471,2262 471,2262 469,2262 469,2262 469,2262 467,2262 467,2262 465,2262 465,2262 465,2262 465,2260 465,2260 447,2242 374,2255 374,2255 372,2255 372,2255 372,2255 370,2255 370,2255 368,2255 368,2255 346,2238 254,2238 241,2249 241,2249 239,2249 239,2249 239,2249 236,2249 236,2249 236,2251 234,2249 234,2249 232,2249 232,2249 232,2249 230,2249 230,2249 219,2238 137,2260 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_092_4/137,2174,1381,114/full/0/default" corresp="DefaultLine">
           <path xml:id="Varios_092_4_BT228_3_LT83_4_1" points="139,2217 232,2218 471,2223 1520,2245 "/>
-          <line>bres da cartas, efectos de escriptori,. capsas de serillas y llibrets per fumar</line>
+          <line>bres da cartas, efectos de escriptori,. capsas de serillas y llibrets per
+            fumar</line>
         </zone>
         <zone xml:id="Varios_092_4_BT228_3_LT83_5" type="DefaultLine" subtype="none" points="1035,2303 1035,2249 1115,2266 1132,2253 1134,2253 1134,2253 1134,2253 1134,2253 1136,2253 1136,2253 1136,2253 1139,2253 1139,2253 1141,2253 1141,2253 1141,2253 1141,2253 1143,2253 1143,2253 1143,2255 1143,2255 1158,2273 1337,2273 1350,2264 1358,2255 1358,2255 1360,2255 1360,2255 1360,2255 1363,2255 1363,2255 1363,2255 1365,2255 1365,2255 1365,2255 1412,2266 1429,2270 1440,2268 1470,2257 1472,2257 1472,2257 1472,2257 1475,2257 1509,2260 1509,2260 1511,2260 1511,2260 1511,2260 1513,2260 1513,2260 1513,2262 1524,2273 1528,2277 1537,2273 1554,2264 1554,2264 1554,2264 1556,2264 1556,2264 1559,2264 1559,2264 1559,2264 1561,2264 1561,2264 1563,2264 1580,2275 1587,2279 1602,2275 1636,2268 1636,2268 1636,2268 1638,2268 1638,2268 1638,2268 1694,2281 1694,2316 1688,2352 1666,2341 1647,2350 1643,2352 1643,2352 1643,2352 1640,2352 1640,2352 1638,2352 1365,2348 1365,2348 1365,2348 1363,2348 1363,2348 1339,2339 1320,2333 1296,2337 1257,2346 1257,2346 1257,2346 1255,2346 1255,2346 1253,2346 1253,2346 1253,2346 1251,2346 1251,2346 1251,2344 1248,2344 1242,2335 1238,2331 1173,2331 1167,2333 1152,2344 1149,2344 1149,2344 1149,2344 1147,2344 1147,2344 1145,2344 1145,2344 1145,2344 1143,2344 1143,2344 1143,2344 1119,2331 1113,2329 1033,2329 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_092_4/1033,2249,661,103/full/0/default" corresp="DefaultLine">
           <path xml:id="Varios_092_4_BT228_3_LT83_5_1" points="1035,2303 1694,2316 "/>
@@ -1139,379 +1148,403 @@
   <text>
     <body>
       <div>
-        <pb n="1" source="Varios_092_1.jpg" facs="fedora_Varios_092_1/full/full/0/default.jpg"/>
-        <head type="primer_titulo"><lb/>CARTA AMOROSA</head>
-        <div type="parte" n="1">
-          <head type="titulo_parte"><lb/>CARTA AMOROSA<lb/>QUE ESCRIBE UN AMANTE Á SU QUERIDA, AÑADIDA CON UN DIÁLAGO<lb/>AMOR Y ESPERANZA.</head>
-          <p><lb/>Por J.  F. (a) Queri.</p>
-          <lg>
-            <l>Ángel mio, mi contento</l>
-            <l>escúchame con cuidado</l>
-            <l>esta carta que he dictado</l>
-            <l>ante Dios del firmamento,</l>
-            <l>Fija en ella el pensamiento</l>
-            <l>con un poco de atención,</l>
-            <l>y así verás la intención</l>
-            <l>de este amante que te adora;</l>
-            <l>pues sin cesar siempre llora</l>
-            <l>mi afligido corazon.</l>
-            <l>Brillante flor anorosa</l>
-            <l>que de su caliz divino</l>
-            <l>esparces un torbellino</l>
-            <l>con una aroma dichosa.</l>
-            <l>Flor eres la mas hermosa,</l>
-            <l>encantadora ilusion.....</l>
-            <l>tú que dentro un corazon</l>
-            <l>penetra tu fortaleza,</l>
-            <l>y tu cándida pureza</l>
-          </lg>
-          <lg>
-            <l>es la misma creación</l>
-            <l>Tú que en el mundo glorioso</l>
-            <l>puedes dar tierna memoria,</l>
-            <l>y al mismo tiempo la gloria</l>
-            <l>á mi corazon lloroso</l>
-            <l>Eres el ángel hermoso</l>
-            <l>que dia y noche yo anhelo,</l>
-            <l>y con tú rápido vuelo</l>
-            <l>penetras toda mi alma,</l>
-            <l>y al mirarte hallo una calmna</l>
-            <l>mas pura que el mismo cielo.</l>
-            <l>alcanzó mi triste frente</l>
-            <l>Al verte tan solo un dia.</l>
-            <l>una gloria eternamente</l>
-            <l>con placeres de alegria</l>
-            <l>Y la afligida alma mia</l>
-            <l>conoció tu hermosa flor</l>
-            <l>que la formó el Criador</l>
-          </lg>
-          <pb n="2" source="Varios_092_2.jpg" facs="fedora_Varios_092_2/full/full/0/default.jpg"/>
-          <lg>
-            <l>para causarme tormento.</l>
-            <l>y al fin en mi pecho siento</l>
-            <l>el mas encendido amor.</l>
-          </lg>
-          <lg>
-            <l>Si de tu labio divino</l>
-            <l>alcanzára un dulce «si»</l>
-            <l>no se que fuera de mi</l>
-            <l>aguardando tu destino.</l>
-            <l>Si tu acento peregrino</l>
-            <l>me dijera «yo te adoro»</l>
-            <l>enjugando tu mi lloro</l>
-            <l>que en llorar por ti me anejo,</l>
-            <l>esas lágrimas de fuego</l>
-            <l>fueran mas puras que el oro.</l>
-          </lg>
-          <lg>
-            <l>¡Tén compasion por piedad</l>
-            <l>de ese amante adolorido....!</l>
-            <l>Dame siquiera un gemido</l>
-            <l>para mi tranquilidad.</l>
-            <l>De tu fiel divinidad</l>
-            <l>espero dulces amores;</l>
-            <l>y esa fuente de dolores</l>
-            <l>que siento con desvario,</l>
-            <l>cálmala pues ángel mio</l>
-            <l>y cesarán mis temores.</l>
-          </lg>
-          <lg>
-            <l>Amame por compasion</l>
-            <l>que mi alma desespera,</l>
-            <l>ese olor de primavera</l>
-            <l>desea mi corazon.</l>
-            <l>Calma pues la agitacion</l>
-            <l>de mi mente tenobrosa,</l>
-            <l>dame de tu boca hermosa</l>
-            <l>el dulce bien que yo anhelo</l>
-            <l>y tendré el mayor consuelo</l>
-            <l>en esta vida amorosa.</l>
-          </lg>
-          <lg>
-            <l>Yo te enseñaré en la vida</l>
-            <l>Al despedirme desmayo</l>
-            <l>con un calor abrasante;</l>
-            <l>lo que es el prado y las flores,</l>
-            <l>que despiden sus olores.</l>
-            <l>en la selva forecida.</l>
-            <l>Contempla dulce querida</l>
-            <l>el canto del ruiseñor;</l>
-            <l>con su eco encantador;</l>
-            <l>el cual entona en su nido</l>
-            <l>con un rino distraido</l>
-            <l>en los prados del amor.</l>
-          </lg>
-          <lg>
-            <l>y la tórtola afligida</l>
-            <l>canta con una tristura,</l>
-            <l>que demuestra la dulzura</l>
-            <l>de verse con otra huida</l>
-            <l>Y aquella yerba tendida</l>
-            <l>por arroyuelos bañada</l>
-            <l>dle flores engalanada</l>
-            <l>el sol le dá su decoro,</l>
-            <l>y brillante como el oro</l>
-            <l>es esta vida adorada.</l>
-          </lg>
-          <lg>
-            <l>Una lágrima de amor</l>
-            <l>que vertieres prenda mia.</l>
-            <l>creo que me mataria</l>
-            <l>ese llanto seductor.</l>
-            <l>Quita por Dios mi dolor</l>
-            <l>calma al menos mi penar,</l>
-            <l>que yo quisiera adorar</l>
-            <l>ee rostro de azucena</l>
-            <l>y esa tan horrible pena</l>
-            <l>bien la podrás consolar.</l>
-          </lg>
-          <lg>
-            <l>Sin ti no podré vivir;</l>
-            <l>todo por mi son abrojos</l>
-            <l>si mo mostrases enojos</l>
-            <l>quizá me vieras morir.</l>
-            <l>Nuca ceso de gemir</l>
-            <l>pierdo por fin la razón;</l>
-            <l>y una desesperacion</l>
-            <l>me causa ver tu hermosura,</l>
-            <l>que me siento una locura</l>
-            <l>que me arranca el corazon.</l>
-          </lg>
-          <lg>
-            <l>Adios flor de hermoso Mayo</l>
-            <l>flor hermosa que tus ojas</l>
-            <l>son las flechas que me arrojas</l>
-            <l>con la rapidez del rayo.</l>
-            <l>contesta prenda al instante</l>
-            <l>para mitigar mi pena...</l>
-            <l>¡Loco amor!!! Con tu cadena</l>
-            <l>sujetarás á tu amnante.</l>
-          </lg>
-          <trailer>FIN.</trailer>
+        <div>
+          <pb n="1" source="Varios_092_1.jpg" facs="varios/Varios_092_1.jpg/"/>
+
+          <head type="primer_titulo"><lb/>CARTA AMOROSA<lb/>QUE ESCRIBE UN AMANTE Á SU QUERIDA,
+            AÑADIDA CON UN DIÁLAGO<lb/>AMOR Y ESPERANZA.</head>
+
+          <p><lb/>Por J. F. (a) Queri.</p>
+
+          <div n="1">
+            <lg>
+              <l rend="indent">Ángel mio, mi contento</l>
+              <l>escúchame con cuidado</l>
+              <l>esta carta que he dictado</l>
+              <l>ante Dios del firmamento,</l>
+              <l>Fija en ella el pensamiento</l>
+              <l>con un poco de atención,</l>
+              <l>y así verás la intención</l>
+              <l>de este amante que te adora;</l>
+              <l>pues sin cesar siempre llora</l>
+              <l>mi afligido corazon.</l>
+            </lg>
+
+            <lg>
+              <l rend="indent">Brillante flor anorosa</l>
+              <l>que de su caliz divino</l>
+              <l>esparces un torbellino</l>
+              <l>con una aroma dichosa.</l>
+              <l>Flor eres la mas hermosa,</l>
+              <l>encantadora ilusion.....</l>
+              <l>tú que dentro un corazon</l>
+              <l>penetra tu fortaleza,</l>
+              <l>y tu cándida pureza</l>
+              <l>es la misma creación</l>
+            </lg>
+
+            <lg>
+              <l rend="indent">Tú que en el mundo glorioso</l>
+              <l>puedes dar tierna memoria,</l>
+              <l>y al mismo tiempo la gloria</l>
+              <l>á mi corazon lloroso</l>
+              <l>Eres el ángel hermoso</l>
+              <l>que dia y noche yo anhelo,</l>
+              <l>y con tú rápido vuelo</l>
+              <l>penetras toda mi alma,</l>
+              <l>y al mirarte hallo una calmna</l>
+              <l>mas pura que el mismo cielo.</l>
+            </lg>
+
+            <lg>
+              <l rend="indent">Al verte tan solo un dia.</l>
+              <l>alcanzó mi triste frente</l>
+              <l>una gloria eternamente</l>
+              <l>con placeres de alegria</l>
+              <l>Y la afligida alma mia</l>
+              <l>conoció tu hermosa flor</l>
+              <l>que la formó el Criador</l>
+
+              <pb n="2" source="Varios_092_2.jpg" facs="varios/Varios_092_2.jpg/"/>
+
+              <l>para causarme tormento.</l>
+              <l>y al fin en mi pecho siento</l>
+              <l>el mas encendido amor.</l>
+            </lg>
+
+            <lg>
+              <l rend="indent">Si de tu labio divino</l>
+              <l>alcanzára un dulce «si»</l>
+              <l>no se que fuera de mi</l>
+              <l>aguardando tu destino.</l>
+              <l>Si tu acento peregrino</l>
+              <l>me dijera «yo te adoro»</l>
+              <l>enjugando tu mi lloro</l>
+              <l>que en llorar por ti me anejo,</l>
+              <l>esas lágrimas de fuego</l>
+              <l>fueran mas puras que el oro.</l>
+            </lg>
+            <lg>
+              <l rend="indent">¡Tén compasion por piedad</l>
+              <l>de ese amante adolorido....!</l>
+              <l>Dame siquiera un gemido</l>
+              <l>para mi tranquilidad.</l>
+              <l>De tu fiel divinidad</l>
+              <l>espero dulces amores;</l>
+              <l>y esa fuente de dolores</l>
+              <l>que siento con desvario,</l>
+              <l>cálmala pues ángel mio</l>
+              <l>y cesarán mis temores.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Amame por compasion</l>
+              <l>que mi alma desespera,</l>
+              <l>ese olor de primavera</l>
+              <l>desea mi corazon.</l>
+              <l>Calma pues la agitacion</l>
+              <l>de mi mente tenobrosa,</l>
+              <l>dame de tu boca hermosa</l>
+              <l>el dulce bien que yo anhelo</l>
+              <l>y tendré el mayor consuelo</l>
+              <l>en esta vida amorosa.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Yo te enseñaré en la vida</l>
+              <l>Al despedirme desmayo</l>
+              <l>con un calor abrasante;</l>
+              <l>lo que es el prado y las flores,</l>
+              <l>que despiden sus olores.</l>
+              <l>en la selva forecida.</l>
+              <l>Contempla dulce querida</l>
+              <l>el canto del ruiseñor;</l>
+              <l>con su eco encantador;</l>
+              <l>el cual entona en su nido</l>
+              <l>con un rino distraido</l>
+              <l>en los prados del amor.</l>
+            </lg>
+            <lg>
+              <l rend="indent">y la tórtola afligida</l>
+              <l>canta con una tristura,</l>
+              <l>que demuestra la dulzura</l>
+              <l>de verse con otra huida</l>
+              <l>Y aquella yerba tendida</l>
+              <l>por arroyuelos bañada</l>
+              <l>dle flores engalanada</l>
+              <l>el sol le dá su decoro,</l>
+              <l>y brillante como el oro</l>
+              <l>es esta vida adorada.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Una lágrima de amor</l>
+              <l>que vertieres prenda mia.</l>
+              <l>creo que me mataria</l>
+              <l>ese llanto seductor.</l>
+              <l>Quita por Dios mi dolor</l>
+              <l>calma al menos mi penar,</l>
+              <l>que yo quisiera adorar</l>
+              <l>ee rostro de azucena</l>
+              <l>y esa tan horrible pena</l>
+              <l>bien la podrás consolar.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Sin ti no podré vivir;</l>
+              <l>todo por mi son abrojos</l>
+              <l>si mo mostrases enojos</l>
+              <l>quizá me vieras morir.</l>
+              <l>Nuca ceso de gemir</l>
+              <l>pierdo por fin la razón;</l>
+              <l>y una desesperacion</l>
+              <l>me causa ver tu hermosura,</l>
+              <l>que me siento una locura</l>
+              <l>que me arranca el corazon.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Adios flor de hermoso Mayo</l>
+              <l>flor hermosa que tus ojas</l>
+              <l>son las flechas que me arrojas</l>
+              <l>con la rapidez del rayo.</l>
+              <l>contesta prenda al instante</l>
+              <l>para mitigar mi pena...</l>
+              <l>¡Loco amor!!! Con tu cadena</l>
+              <l>sujetarás á tu amnante.</l>
+            </lg>
+            <trailer>FIN.</trailer>
+          </div>
+
+          <div n="2">
+            <pb n="3" source="Varios_092_3.jpg" facs="varios/Varios_092_3.jpg/"/>
+
+            <head type="primer_titulo" rend="negrita"><lb/>DIÁLAGO ENTRE SARAFÍ Y GANDALLA.</head>
+
+            <sp>
+              <speaker rend="cursiva">Serafí.</speaker>
+              <l>Ola Gandalla ahónt vás.</l>
+              <l>t'as turnát prim coni un pal</l>
+              <l>¿que potsé bas estat malalte</l>
+              <l>!Jesús quina cara fas!</l>
+            </sp>
+            <sp>
+              <speaker rend="cursiva">Gandalla</speaker>
+              <l>A fé de mon que no hu sé:</l>
+              <l>perque m cunsu de rudá,</l>
+              <l>demanant per treballá</l>
+              <l>y de feyna ningu 'n te</l>
+            </sp>
+            <sp>
+              <speaker>S.</speaker>
+              <l>¿Tampoch no traballas tú?</l>
+              <l>si que estém ben arreglats</l>
+              <l>potsé que estém embruixats</l>
+              <l>y 'l perqué, no hu sap ningú</l>
+            </sp>
+            <sp>
+              <speaker>C.</speaker>
+              <l>Batua las panturrillas</l>
+              <l>de un llagost ab curriolas..</l>
+              <l>¿vols vindre cap a Bañolas</l>
+              <l>á tucá las campanillas?</l>
+            </sp>
+            <sp>
+              <speaker>S.</speaker>
+              <l>Sempre vey que estas trempat</l>
+              <l>y res te dona quimera.</l>
+              <l>¡Ay amich!! la pastisera.</l>
+              <l>ya casi 'm te despachat</l>
+            </sp>
+            <sp>
+              <speaker>G.</speaker>
+              <l>Moltas arrobas de pa</l>
+              <l>temps fa que li estich devént</l>
+              <l>y axis, sens cap cumpliment</l>
+              <l>també 'm va dí; no ni hó</l>
+            </sp>
+            <sp>
+              <speaker>S.</speaker>
+              <l>Si veyas á casa nostre.</l>
+              <l>vo que tinch tanta brivalla.</l>
+              <l>te pusarias. Gandalla</l>
+            </sp>
+            <sp>
+              <speaker>G.</speaker>
+              <l>Lu que es yo, las criaturas</l>
+              <l>tot seguit barras al sostre.</l>
+              <l>cuasi 'm fan den mil tinetas</l>
+              <l>Lo un no té sabatetas.</l>
+            </sp>
+            <sp>
+              <speaker>S.</speaker>
+              <l>A la semana que tallu,</l>
+              <l>tinch de pagá las custuras.</l>
+              <l>compra oli, compra sabó.</l>
+              <l>bona nit, tira 'l teló;</l>
+              <l>¡y tantisim que traballu!!!...</l>
+            </sp>
+            <sp>
+              <speaker>G.</speaker>
+              <l>Mira: cuan era fadrí</l>
+              <l>la sort me entrava pels nasus,</l>
+              <l>ara vostit de padasus</l>
+              <l>y á terra tinch de durmi.</l>
+            </sp>
+            <sp>
+              <speaker>S.</speaker>
+              <l>Ya veurás: ¿saps quina hora es?</l>
+              <l>tinch de aná al ferru-carril</l>
+              <l>que ha de arribá un agusil</l>
+              <l>qqne potsé den purtá pes.</l>
+            </sp>
+
+            <pb n="4" source="Varios_092_4.jpg" facs="varios/Varios_092_4.jpg/"/>
+
+            <sp>
+              <speaker>G.</speaker>
+              <l>¿Que li tens de du 'l buui,</l>
+              <l>o purtarli lar mangala?</l>
+              <l>aquesta ocurrensia es mala,</l>
+              <l>depues te diran gandul</l>
+            </sp>
+            <sp>
+              <speaker>S.</speaker>
+              <l>Pues veyám lu que farem</l>
+              <l>perque la gana me apreta,</l>
+              <l>las dens ne tocan retreta</l>
+              <l>y cuasi 'm tornu tot sém.</l>
+            </sp>
+            <sp>
+              <speaker>G.</speaker>
+              <l>Ya veurás: si dus dinés,</l>
+              <l>me pots cumvidá á dina,</l>
+              <l>perque avuy no he tastat pa</l>
+              <l>y no crech tasta res mes.</l>
+            </sp>
+            <sp>
+              <speaker>S.</speaker>
+              <l>Quina fam,.. ya estem ben frecsus...</l>
+              <l>ya han fuigit las alegrias...</l>
+              <l>qui pugués torna ab 'quells dias</l>
+              <l>que anavem á fe rumescus.</l>
+            </sp>
+            <sp>
+              <speaker>G.</speaker>
+              <l>Cuan feyam dillums, dimars,</l>
+              <l>may se faltava chuliu...</l>
+              <l>ara sempre vaig de istru</l>
+              <l>sempre errants y paláts.</l>
+            </sp>
+            <sp>
+              <speaker>S.</speaker>
+              <l>Ya podrian fe una cosa,</l>
+              <l>de ana á matllevá una pela</l>
+              <l>á vasa la Manuela,</l>
+              <l>la parenta de la Rosa.</l>
+            </sp>
+            <sp>
+              <speaker>G.</speaker>
+              <l>¿Qué vols di la mustachuda,</l>
+              <l>la chica del pela naps</l>
+              <l>que anava arraplegá draps</l>
+              <l>ab la Paula geperuda?</l>
+            </sp>
+            <sp>
+              <speaker>S.</speaker>
+              <l>No home, tú no me entens:</l>
+              <l>es aquella que cap nit</l>
+              <l>vol durmi ab lu sen marit,</l>
+              <l>perque ya té massa temps.</l>
+            </sp>
+            <sp>
+              <speaker>G.</speaker>
+              <l>Ah...ya hi caich, ¡válgam Jesus!!</l>
+              <l>un dia 'm va dá una gorra:</l>
+              <l>Serafi aixó deixou corra</l>
+              <l>que es mes estreta que un nús</l>
+            </sp>
+            <sp>
+              <speaker>S.</speaker>
+              <l>¿Pués que farem sens treball?</l>
+              <l>¿que amirém á fe pilotas?</l>
+              <l>¿pusemse á limpia botas</l>
+              <l>que yo ya tinch un respall?</l>
+            </sp>
+            <sp>
+              <speaker>G.</speaker>
+              <l>Te pots linmpiá la gola</l>
+              <l>ara que si cria pols</l>
+              <l>treñinas com á llansols,</l>
+              <l>y de fam lo pols tremola.</l>
+            </sp>
+            <sp>
+              <speaker>S.</speaker>
+              <l>Ya que no 'm pots duná ausili,</l>
+              <l>men vay y deixému está:</l>
+              <l>perque qui vol treballá</l>
+              <l>ya sen pot ana á presiri.</l>
+            </sp>
+            <sp>
+              <speaker>C.</speaker>
+              <l>Ya saps fill meu. si te empeñas</l>
+              <l>que tens de turná 'l que déus....</l>
+              <l>ay quin fret que tinch als peus</l>
+              <l>¿Qué tens unas espardeñas?</l>
+            </sp>
+            <sp>
+              <speaker>S.</speaker>
+              <l>Si las porta furadadas;</l>
+              <l>ya veus que no duch mitjons</l>
+              <l>y ara que tinch panallons</l>
+              <l>m 'ls matan á trapitjadas,</l>
+            </sp>
+            <sp>
+              <speaker>G.</speaker>
+              <l>Pues men vay á prendre'l Sol</l>
+              <l>perque la grana 'm sufoca</l>
+              <l>y am tinch de tapá la boca</l>
+              <l>lu mateix que un caragol.</l>
+            </sp>
+            <sp>
+              <speaker>S.</speaker>
+              <l>Yo tornu á la carretera</l>
+              <l>á veura si 'm darán feyna</l>
+              <l>pero si 'm tan page 'l eyna,</l>
+              <l>vet aqui un altre quimera.</l>
+            </sp>
+            <sp>
+              <speaker>G.</speaker>
+              <l>Si del jurnal quet darán</l>
+              <l>no 'n tindrás per lo calsat:</l>
+              <l>cuan estarás rebentát,</l>
+              <l>despues te despacharán.</l>
+            </sp>
+            <sp>
+              <speaker>S.</speaker>
+              <l>¿Pues que hi farem noy? paciensia,</l>
+              <l>mira la cuestió es menjá,</l>
+              <l>potsé despues surtirá</l>
+              <l>altre mille conveniencia.</l>
+            </sp>
+            <sp>
+              <speaker>G.</speaker>
+              <l>Pues serafi fescu 'l cam</l>
+              <l>que la born se me cansa</l>
+              <l>sobre tot gran cofiansa</l>
+              <l>y guerra contra la fam.</l>
+            </sp>
+            <trailer>FI.</trailer>
+          </div>
+
+          <div type="propiedad">
+            <p rend="cursiva"><lb/>Es propietat de Joan Grau.</p>
+          </div>
         </div>
-        <pb n="3" source="Varios_092_3.jpg" facs="fedora_Varios_092_3/full/full/0/default.jpg"/>
-        <div type="parte" n="2">
-          <head type="titulo_parte"><lb/>DIÁLAGO ENTRE SARAFÍ Y GANDALLA.</head>
-          <sp>
-            <speaker>Serafí.</speaker>
-            <l>Ola Gandalla ahónt vás.</l>
-            <l>t'as turnát prim coni un pal</l>
-            <l>¿que potsé bas estat malalte</l>
-            <l>!Jesús quina cara fas!</l>
-          </sp>
-          <sp>
-            <speaker>Gandalla</speaker>
-            <l>A fé de mon que no hu sé:</l>
-            <l>perque m cunsu de rudá,</l>
-            <l>demanant per treballá</l>
-            <l>y de feyna ningu 'n te</l>
-          </sp>
-          <sp>
-            <speaker>S.</speaker>
-            <l>¿Tampoch no traballas tú?</l>
-            <l>si que estém ben arreglats</l>
-            <l>potsé que estém embruixats</l>
-            <l>y 'l perqué, no hu sap ningú</l>
-          </sp>
-          <sp>
-            <speaker>C.</speaker>
-            <l>Batua las panturrillas</l>
-            <l>de un llagost ab curriolas..</l>
-            <l>¿vols vindre cap a Bañolas</l>
-            <l>á tucá las campanillas?</l>
-          </sp>
-          <sp>
-            <speaker>S.</speaker>
-            <l>Sempre vey que estas trempat</l>
-            <l>y res te dona quimera.</l>
-            <l>¡Ay amich!! la pastisera.</l>
-            <l>ya casi 'm te despachat</l>
-          </sp>
-          <sp>
-            <speaker>G.</speaker>
-            <l>Moltas arrobas de pa</l>
-            <l>temps fa que li estich devént</l>
-            <l>y axis, sens cap cumpliment</l>
-            <l>també 'm va dí; no ni hó</l>
-          </sp>
-          <sp>
-            <speaker>S.</speaker>
-            <l>Si veyas á casa nostre.</l>
-            <l>vo que tinch tanta brivalla.</l>
-            <l>te pusarias. Gandalla</l>
-          </sp>
-          <sp>
-            <speaker>G.</speaker>
-            <l>Lu que es yo, las criaturas</l>
-            <l>tot seguit barras al sostre.</l>
-            <l>cuasi 'm fan den mil tinetas</l>
-            <l>Lo un no té sabatetas.</l>
-          </sp>
-          <sp>
-            <speaker>S.</speaker>
-            <l>A la semana que tallu,</l>
-            <l>tinch de pagá las custuras.</l>
-            <l>compra oli, compra sabó.</l>
-            <l>bona nit, tira 'l teló;</l>
-            <l>¡y tantisim que traballu!!!...</l>
-          </sp>
-          <sp>
-            <speaker>G.</speaker>
-            <l>Mira: cuan era fadrí</l>
-            <l>la sort me entrava pels nasus,</l>
-            <l>ara vostit de padasus</l>
-            <l>y á terra tinch de durmi.</l>
-          </sp>
-          <sp>
-            <speaker>S.</speaker>
-            <l>Ya veurás: ¿saps quina hora es?</l>
-            <l>tinch de aná al ferru-carril</l>
-            <l>que ha de arribá un agusil</l>
-            <l>qqne potsé den purtá pes.</l>
-          </sp>
-          <pb n="4" source="Varios_092_4.jpg" facs="fedora_Varios_092_4/full/full/0/default.jpg"/>
-          <sp>
-            <speaker>G..</speaker>
-            <l>¿Que li tens de du 'l buui,</l>
-            <l>o purtarli lar mangala?</l>
-            <l>aquesta ocurrensia es mala,</l>
-            <l>depues te diran gandul</l>
-          </sp>
-          <sp>
-            <speaker>S.</speaker>
-            <l>Pues veyám lu que farem</l>
-            <l>perque la gana me apreta,</l>
-            <l>las dens ne tocan retreta</l>
-            <l>y cuasi 'm tornu tot sém.</l>
-          </sp>
-          <sp>
-            <speaker>G.</speaker>
-            <l>Ya veurás: si dus dinés,</l>
-            <l>me pots cumvidá á dina,</l>
-            <l>perque avuy no he tastat pa</l>
-            <l>y no crech tasta res mes.</l>
-          </sp>
-          <sp>
-            <speaker>S.</speaker>
-            <l>Quina fam,.. ya estem ben frecsus...</l>
-            <l>ya han fuigit las alegrias...</l>
-            <l>qui pugués torna ab 'quells dias</l>
-            <l>que anavem á fe rumescus.</l>
-          </sp>
-          <sp>
-            <speaker>G.</speaker>
-            <l>Cuan feyam dillums, dimars,</l>
-            <l>may se faltava chuliu...</l>
-            <l>ara sempre vaig de istru</l>
-            <l>sempre errants y paláts.</l>
-          </sp>
-          <sp>
-            <speaker>S.</speaker>
-            <l>Ya podrian fe una cosa,</l>
-            <l>de ana á matllevá una pela</l>
-            <l>á vasa la Manuela,</l>
-            <l>la parenta de la Rosa.</l>
-          </sp>
-          <sp>
-            <speaker>G.</speaker>
-            <l>¿Qué vols di la mustachuda,</l>
-            <l>la chica del pela naps</l>
-            <l>que anava arraplegá draps</l>
-            <l>ab la Paula geperuda?</l>
-          </sp>
-          <sp>
-            <speaker>S.</speaker>
-            <l>No home, tú no me entens:</l>
-            <l>es aquella que cap nit</l>
-            <l>vol durmi ab lu sen marit,</l>
-            <l>perque ya té massa temps.</l>
-          </sp>
-          <sp>
-            <speaker>G.</speaker>
-            <l>Ah...ya hi caich, ¡válgam Jesus!!</l>
-            <l>un dia 'm va dá una gorra:</l>
-            <l>Serafi aixó deixou corra</l>
-            <l>que es mes estreta que un nús</l>
-          </sp>
-          <sp>
-            <speaker>S.</speaker>
-            <l>¿Pués que farem sens treball?</l>
-            <l>¿que amirém á fe pilotas?</l>
-            <l>¿pusemse á limpia botas</l>
-            <l>que yo ya tinch un respall?</l>
-          </sp>
-          <sp>
-            <speaker>G.</speaker>
-            <l>Te pots linmpiá la gola</l>
-            <l>ara que si cria pols</l>
-            <l>treñinas com á llansols,</l>
-            <l>y de fam lo pols tremola.</l>
-          </sp>
-          <sp>
-            <speaker>S.</speaker>
-            <l>Ya que no 'm pots duná ausili,</l>
-            <l>men vay y deixému está:</l>
-            <l>perque qui vol treballá</l>
-            <l>ya sen pot ana á presiri.</l>
-          </sp>
-          <sp>
-            <speaker>C.</speaker>
-            <l>Ya saps fill meu. si te empeñas</l>
-            <l>que tens de turná 'l que déus....</l>
-            <l>ay quin fret que tinch als peus</l>
-            <l>¿Qué tens unas espardeñas?</l>
-          </sp>
-          <sp>
-            <speaker>S.</speaker>
-            <l>Si las porta furadadas;</l>
-            <l>ya veus que no duch mitjons</l>
-            <l>y ara que tinch panallons</l>
-            <l>m 'ls matan á trapitjadas,</l>
-          </sp>
-          <sp>
-            <speaker>G.</speaker>
-            <l>Pues men vay á prendre'l Sol</l>
-            <l>perque la grana 'm sufoca</l>
-            <l>y am tinch de tapá la boca</l>
-            <l>lu mateix que un caragol.</l>
-          </sp>
-          <sp>
-            <speaker>S.</speaker>
-            <l>Yo tornu á la carretera</l>
-            <l>á veura si 'm darán feyna</l>
-            <l>pero si 'm tan page 'l eyna,</l>
-            <l>vet aqui un altre quimera.</l>
-          </sp>
-          <sp>
-            <speaker>G.</speaker>
-            <l>Si del jurnal quet darán</l>
-            <l>no 'n tindrás per lo calsat:</l>
-            <l>cuan estarás rebentát,</l>
-            <l>despues te despacharán.</l>
-          </sp>
-          <sp>
-            <speaker>S.</speaker>
-            <l>¿Pues que hi farem noy? paciensia,</l>
-            <l>mira la cuestió es menjá,</l>
-            <l>potsé despues surtirá</l>
-            <l>altre mille conveniencia.</l>
-          </sp>
-          <sp>
-            <speaker>G.</speaker>
-            <l>Pues serafi fescu 'l cam</l>
-            <l>que la born se me cansa</l>
-            <l>sobre tot gran cofiansa</l>
-            <l>y guerra contra la fam.</l>
-          </sp>
-          <trailer>FI.</trailer>
-        </div>
-        <div type="propiedad">
-          <p><lb/>Es propietat de Joan Grau.</p>
-        </div>
+
         <div type="colofón_vendedor">
-          <p><lb/>REUS. En la llibreria de Juan Grau. hi há gran surtit de romnsos, historias.<lb/> lllibréts, comedias, sainetes, estampas, calcomanias, cromos; paper per escriture. so- <lb/>bres da cartas, efectos de escriptori,. capsas de serillas y llibrets per fumar <lb/>rruny: núm 5, Lliberia de Juan </p>
+          <p><lb/>REUS. En la llibreria de Juan Grau. hi há gran surtit de romnsos, historias.<lb/>
+            lllibréts, comedias, sainetes, estampas, calcomanias, cromos; paper per escriture. so-
+            <lb/>bres da cartas, efectos de escriptori,. capsas de serillas y llibrets per fumar
+            <lb/>rruny: núm 5, Lliberia de Juan </p>
         </div>
-        <div type="colofon_impresora">
+
+        <div type="colofon_impresor">
           <p><lb/>REUS: Imp. Española—1882</p>
         </div>
       </div>

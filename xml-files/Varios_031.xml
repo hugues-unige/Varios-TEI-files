@@ -1,16 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../Schema/oddPliego_varios.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:alto="http://www.loc.gov/standards/alto/ns-v4#" xml:id="Varios_031">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Varios_031">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>EL CANTOR DE LAS HERMOSAS. TROVAS DE AMOR DEDICADAS AL BELLO SECSO POR UNOS
-               AFICIONADOS.</title>
+        <title>EL CANTOR DE LAS HERMOSAS</title>
         <respStmt>
           <name/>
           <resp>Codificación TEI</resp>
-          <note type="propiedad">– J. P.–</note>
-          <note type="propiedad">– J. A. C.–</note>
         </respStmt>
       </titleStmt>
       <publicationStmt>
@@ -22,17 +19,17 @@
       <sourceDesc>
         <biblFull>
           <titleStmt>
-            <title type="titulo_completo">EL CANTOR DE LAS HERMOSAS. TROVAS DE AMOR DEDICADAS
-                     AL BELLO SECSO POR UNOS AFICIONADOS.</title>
-            <title type="titulo_breve">EL CANTOR DE LAS HERMOSAS</title>
+            <title type="titulo_completo">EL CANTOR DE LAS HERMOSAS. TROVAS DE AMOR DEDICADAS AL
+              BELLO SECSO POR UNOS AFICIONADOS.</title>
+            <title type="titulo_breve">EL CANTOR DE LAS HERMOSAS.</title>
           </titleStmt>
           <editionStmt>
             <p/>
           </editionStmt>
           <publicationStmt>
-            <publisher>Narciso Ramirez</publisher>
+            <publisher>Narciso Ramírez</publisher>
             <pubPlace ref="https://www.geonames.org/3128760/barcelona.html">Barcelona</pubPlace>
-            <date>[s.a]</date>
+            <date cert="low" when="1800-01-01">[s.a.]</date>
           </publicationStmt>
         </biblFull>
         <msDesc>
@@ -40,7 +37,8 @@
             <country>Suisse</country>
             <settlement>Genève</settlement>
             <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"/>
-                  </repository>
+            </repository>
+            <collection>Colección Varios</collection>
             <idno type="cote"/>
             <idno type="DOI">10.5281/zenodo.6554174</idno>
             <altIdentifier>
@@ -48,10 +46,21 @@
             </altIdentifier>
           </msIdentifier>
           <msContents>
-            <summary/>
+            <summary>Tres canciones</summary>
             <msItem>
-              <locus/>
-              <title/>
+              <locus>1-2</locus>
+              <title>Las rosas de abril.</title>
+              <author role="letrista">J. A. C.</author>
+            </msItem>
+            <msItem>
+              <locus>3</locus>
+              <title>La desesperation</title>
+              <author role="letrista">J. P.</author>
+            </msItem>
+            <msItem>
+              <locus>4</locus>
+              <title>Quejas de amor</title>
+              <author role="letrista">J. P.</author>
             </msItem>
           </msContents>
           <physDesc>
@@ -69,7 +78,7 @@
               </layoutDesc>
             </objectDesc>
             <decoDesc>
-              <summary n="2">Dos grabados (p.1 + p.2) </summary>
+              <summary n="2">Dos grabados (p.1, 3) </summary>
               <decoNote type="lista_grabados">
                 <list>
                   <item corresp="grabado_v_031_1.xml">grabado_v_031_1</item>
@@ -99,13 +108,13 @@
     <encodingDesc>
       <projectDesc>
         <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
-               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
-               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
-               Sandoz-Monique de Meuron.</p>
+          cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la Universidad
+          de Ginebra, con el apoyo de la Fundación filantrópica Famille Sandoz-Monique de
+          Meuron.</p>
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR non corregido</p>
+          <p>OCR no corregido</p>
         </correction>
         <normalization>
           <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
@@ -130,10 +139,11 @@
     </profileDesc>
     <revisionDesc>
       <change when="2022-05-11" who="#PJ">Création du fichier TEI P5 et encodage du corps du
-            texte</change>
+        texte</change>
+<change when="2024-01-09" who="#EL">Add the IIIF links</change>
     </revisionDesc>
   </teiHeader>
-  <sourceDoc xml:id="automaticTranscription">
+  <facsimile><graphic url="varios/Varios_031_1.jpg/full/200,/0/default.jpg"/></facsimile><sourceDoc xml:id="automaticTranscription">
     <surface xml:id="Varios_031_1" type="page" cert="silver">
       <graphic url="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_031_1/full/full/0/default.jpg"/>
       <zone xml:id="Varios_031_1_BT222_1" n="1" type="CustomZone" subtype="numero_pliego" points="677,111 677,150 769,150 769,111 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_031_1/677,111,92,39/full/0/default" corresp="CustomZone:numero_pliego">
@@ -224,7 +234,7 @@
       </zone>
       <zone xml:id="Varios_031_2_BT227_2" n="2" type="MainZone" subtype="columns" points="286,330 267,354 265,378 318,372 354,372 364,396 400,400 404,457 285,466 288,441 66,453 49,437 57,396 58,377 99,377 119,375 119,293 49,288 57,144 201,136 198,111 215,95 243,107 251,122 238,135 252,144 404,144 416,234 368,260 281,271 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_031_2/49,95,367,371/full/0/default" corresp="MainZone:columns">
         <zone xml:id="Varios_031_2_BT227_2__1" type="DefaultLine" subtype="none" points="206,122 204,100 219,93 219,93 219,93 220,93 220,93 221,93 221,93 221,93 222,93 222,93 223,93 242,104 239,122 239,127 206,127 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_031_2/204,93,38,34/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_031_2_BT227_2__1_1" points="207,123 240,123 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
+          <path xml:id="Varios_031_2_BT227_2__1_1" points="207,123 240,123 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
           <line>I.</line>
         </zone>
         <zone xml:id="Varios_031_2_BT227_2_LT83_2" type="DefaultLine" subtype="none" points="77,184 73,156 101,147 102,147 102,147 103,147 103,147 153,151 167,145 167,145 168,145 168,145 168,145 169,145 169,145 169,145 170,145 170,145 171,145 179,150 192,144 192,144 192,144 193,144 193,144 194,144 194,144 224,148 229,144 229,143 229,143 230,143 230,143 230,143 231,143 231,143 232,143 300,144 306,140 306,139 306,139 307,139 307,139 307,139 308,139 308,139 309,139 309,139 359,144 361,169 361,178 77,190 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_031_2/73,139,288,51/full/0/default" corresp="DefaultLine">
@@ -794,31 +804,37 @@
     <body>
       <div>
         <div>
-          <pb n="1" source="Varios_031_1.jpg" facs="fedora_Varios_031_1/full/full/0/default.jpg"/>
+          <pb n="1" source="Varios_031_1.jpg" facs="varios/Varios_031_1.jpg/"/>
+
           <fw type="numeroPliego">Núm. 23</fw>
+
           <head type="primer_titulo" rend="negrita"><lb/>EL<lb/>CANTOR DE LAS HERMOSAS.</head>
-          <head type="subtitulo_parte"><lb/>TROVAS DE AMOR DEDICADAS AL BELLO SECSO POR
-                  UNOS<lb/>AFICIONADOS.</head>
-          <div n="1" type="parte">
-            <head type="titulo_cancion"><lb/>70. LAS ROSAS DE ABBIL.<lb/><hi rend="negrita">HIMNO
-                     COREADO.</hi><lb/>Coro</head>
-            <lg>
+          <head type="subtitulo"><lb/>TROVAS DE AMOR DEDICADAS AL BELLO SECSO POR
+            UNOS<lb/>AFICIONADOS.</head>
+
+          <div n="1">
+            <head type="titulo_cancion">70. <hi rend="negrita">LAS ROSAS DE ABRIL.</hi></head>
+            <head type="subtitulo_cancion" rend="negrita">HIMNO COREADO.</head>
+
+            <lg n="0">
+              <head type="titulo_estrofa">CORO.</head>
               <l>Ostentad, ostentad, niñas bellas</l>
               <l>Vuestra faz virginal y galana,</l>
               <l>Cual la flor en alegre mañana</l>
-              <l>Su cáliz jentil ;</l>
-            </lg>
-            <lg>
+              <l rend="indent">Su cáliz jentil ;</l>
               <l>Y esos lábios divinos de fuego.</l>
               <l>Besará dulcemente la brisa,</l>
               <l>Que en el valle acaricia sumisa</l>
-              <l>Las rosas de abril.</l>
+              <l rend="indent">Las rosas de abril.</l>
             </lg>
-            <pb n="2" source="Varios_031_2.jpg" facs="fedora_Varios_031_2/full/full/0/default.jpg"/>
+
+            <pb n="2" source="Varios_031_2.jpg" facs="varios/Varios_031_2.jpg/"/>
+
             <fw type="paginaNum">90</fw>
-            <p><lb/>I.</p>
-            <lg>
-              <l>De la noche las plácidas horas</l>
+
+            <lg n="1">
+              <head type="titulo_estrofa"><lb/>I.</head>
+              <l rend="indent">De la noche las plácidas horas</l>
               <l>Tierads niñas venid á gozar,</l>
               <l>Y en su curso, de amor seductoras,</l>
               <l>Oiréis dulces trovas vibrar.</l>
@@ -830,9 +846,10 @@
               <l>De la luna á la májica luz.</l>
               <l>—CORO—</l>
             </lg>
-            <p><lb/>II.</p>
-            <lg>
-              <l>Salid pues, ondulando los rizos</l>
+
+            <lg n="2">
+              <head type="titulo_estrofa"><lb/>II.</head>
+              <l rend="indent">Salid pues, ondulando los rizos</l>
               <l>En redor de esa angélica sien</l>
               <l>La que colma Natura de hechizos</l>
               <l>Que las flores ostentan tambien.</l>
@@ -844,8 +861,9 @@
               <l>Y embalsaman su rico pensil</l>
               <l>—CORO—</l>
             </lg>
-            <p><lb/>III.</p>
-            <lg>
+
+            <lg n="3">
+              <head type="titulo_estrofa"><lb/>III.</head>
               <l>En los vastos dominios de Flora</l>
               <l>Cuanta ROSA su cáliz abrió,</l>
               <l>Y al primer arrebol de la Auroras</l>
@@ -858,9 +876,10 @@
               <l>Vuestra frente gozó en eclipsar.</l>
               <l>—CORO—</l>
             </lg>
-            <p><lb/>IV.</p>
-            <lg>
-              <l>Acojed con bondad los suspiros</l>
+
+            <lg n="4">
+              <head type="titulo_estrofa"><lb/>IV.</head>
+              <l rend="indent">Acojed con bondad los suspiros</l>
               <l>Que exalamos hermosas, de amor,</l>
               <l>Y á vosotras conduce en sus jiros</l>
               <l>De la brisa el soplar seductor,</l>
@@ -871,8 +890,9 @@
               <l>De zafir,</l>
               <l>Que haga el pecho de gozo latir,</l>
             </lg>
-            <lg>
-              <l>CORO</l>
+
+            <lg n="5">
+              <head type="titulo_estrofa">CORO</head>
               <l>Ostentad, ostentad, niñas bellas,</l>
               <l>Vuestra faz virjinal y galana,</l>
               <l>Cual la flor en alegre mañana</l>
@@ -882,15 +902,20 @@
               <l>Que en el valle acaricia sumisa</l>
               <l>Las rosas de abril</l>
             </lg>
+
             <p><lb/>— J. A. C. </p>
-            <pb n="3" source="Varios_031_3.jpg" facs="fedora_Varios_031_3/full/full/0/default.jpg"/>
-            <fw type="paginaNum">91</fw>
           </div>
-          <div n="2" type="parte">
+
+          <div n="2">
+            <pb n="3" source="Varios_031_3.jpg" facs="varios/Varios_031_3.jpg/"/>
+
+            <fw type="paginaNum">91</fw>
+
             <head type="titulo_cancion" rend="negrita"><lb/>71. LA DESESPERACION.</head>
-            <lg>
-              <l>I.</l>
-              <l>Desde el dia feliz que mis ojos</l>
+
+            <lg n="1">
+              <head type="titulo_estrofa">I.</head>
+              <l rend="indent">Desde el dia feliz que mis ojos</l>
               <l>Tu beldad por mi mal contemplaron,</l>
               <l>Mi sosiego y mi dicha acabaron</l>
               <l>Y anegado en el llanto me ví.</l>
@@ -899,9 +924,10 @@
               <l>Que erijido en mi pecho hay un templo,</l>
               <l>Y tu eres el Dios que hay allí.</l>
             </lg>
-            <lg>
-              <l>II.</l>
-              <l>Ya dos veces mis trémulos labios</l>
+
+            <lg n="2">
+              <head type="titulo_estrofa">II.</head>
+              <l rend="indent">Ya dos veces mis trémulos labios</l>
               <l>Tus rosadas mejillas besaron</l>
               <l>Y en delirios de amor aspiraron</l>
               <l>De la dicha suprema el ambár.</l>
@@ -910,9 +936,10 @@
               <l>Y ay! perdida la plácida calma.</l>
               <l>No quisiste su ardor mitigar</l>
             </lg>
-            <lg>
-              <l>III.</l>
-              <l>Yo me muero de amor, ánjel mio,</l>
+
+            <lg n="3">
+              <head type="titulo_estrofa">III.</head>
+              <l rend="indent">Yo me muero de amor, ánjel mio,</l>
               <l>En tu excelsa belleza arrobado!</l>
               <l>Compasion! compasion! ó á tu lado</l>
               <l>Me verás de dolor sucumbir.</l>
@@ -922,14 +949,18 @@
               <l>Solo ballára una tregua al sufrir.</l>
             </lg>
             <p><lb/>—J. P.—</p>
-            <pb n="4" source="Varios_031_4.jpg" facs="fedora_Varios_031_4/full/full/0/default.jpg"/>
-            <fw type="paginaNum">92</fw>
           </div>
-          <div n="3" type="parte">
+
+          <div n="3">
+            <pb n="4" source="Varios_031_4.jpg" facs="varios/Varios_031_4.jpg/"/>
+
+            <fw type="paginaNum">92</fw>
+
             <head type="titulo_cancion"><lb/>QUEJAS DE AMOR.</head>
-            <lg>
-              <l>I.</l>
-              <l>Apenas la Luna hermosa</l>
+
+            <lg n="1">
+              <head type="titulo_estrofa">I.</head>
+              <l rend="indent">Apenas la Luna hermosa</l>
               <l>Refleja su lumbre pura,</l>
               <l>Endulzando la amargura</l>
               <l>De mi triste corazon.</l>
@@ -938,9 +969,10 @@
               <l>Dó se anida mi tormento,</l>
               <l>Mi esperanza y mi ilusion.</l>
             </lg>
-            <lg>
-              <l>II.</l>
-              <l>Luenguos dias trascurrieron</l>
+
+            <lg n="2">
+              <head type="titulo_estrofa">II.</head>
+              <l rend="indent">Luenguos dias trascurrieron</l>
               <l>Dés que vide su belleza</l>
               <l>E impregnada de tristeza</l>
               <l>Vela mi alma sin cesar</l>
@@ -949,9 +981,10 @@
               <l>Y hoy se niega despiadada</l>
               <l>Mi amargura á consolar.</l>
             </lg>
-            <lg>
-              <l>III.</l>
-              <l>Tal vez sonríe en su lecho</l>
+
+            <lg n="3">
+              <head type="titulo_estrofa">III.</head>
+              <l rend="indent">Tal vez sonríe en su lecho</l>
               <l>Soñando eternas caricias,</l>
               <l>O aspirando mil delicias</l>
               <l>Con sus labios de coral ;</l>
@@ -960,9 +993,10 @@
               <l>Dó pasa la noche henchida</l>
               <l>En un sueño anjelical.</l>
             </lg>
-            <lg>
-              <l>IV.</l>
-              <l>Dulce brisa que en tus jiros</l>
+
+            <lg n="4">
+              <head type="titulo_estrofa">IV.</head>
+              <l rend="indent">Dulce brisa que en tus jiros</l>
               <l>Lamentas mi eterno lloro,</l>
               <l>A mi bien cuanto le adoro</l>
               <l>Le dirás por compasion;</l>
@@ -971,16 +1005,21 @@
               <l>La triste y amante QUEJA</l>
               <l>De mi pobre corazon.</l>
             </lg>
+            
             <p><lb/>—J.P.—</p>
             <p><lb/>Es propiedad.</p>
           </div>
-          <div type="colofon_vendedor">
-            <p><lb/>Se hallará en casa de Antonio Bosch, calle baja de S. Pedro núm. 71.</p>
-          </div>
-          <div type="colofon_impresora">
-            <p><lb/>Barcelona : Imp. de N. Ramirez , Calle de Escudillers, num. 40.</p>
-          </div>
         </div>
+
+        <div type="colofon_vendedor">
+          <p rend="cursiva"><lb/>Se hallará en casa de Antonio Bosch, calle baja de S. Pedro núm.
+            71.</p>
+        </div>
+
+        <div type="colofon_impresor">
+          <p><lb/>Barcelona : Imp. de N. Ramirez , Calle de Escudillers, num. 40.</p>
+        </div>
+
       </div>
     </body>
   </text>

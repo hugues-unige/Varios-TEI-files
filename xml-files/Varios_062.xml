@@ -1,18 +1,17 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../Schema/oddPliego_varios.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:alto="http://www.loc.gov/standards/alto/ns-v4#" xml:id="Varios_062">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Varios_062">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>EL HAMBRIENTO BURLADO.</title>
+        <title>EL HAMBRIENTO BURLADO</title>
         <respStmt>
           <name/>
           <resp>Codificación TEI</resp>
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <authority role="rightsHolder">Bibliothèque Universitaire de
-                              Genève</authority>
+        <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
         <availability status="restricted">
           <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
         </availability>
@@ -20,16 +19,16 @@
       <sourceDesc>
         <biblFull>
           <titleStmt>
-            <title type="titulo_completo">EL HAMBRIENTO BURLADO.</title>
-            <title type="titulo_breve"/>
+            <title type="titulo_completo">EL HAMBRIENTO BURLADO. Primera parte.</title>
+            <title type="titulo_breve">EL HAMBRIENTO BURLADO.</title>
           </titleStmt>
           <editionStmt>
             <p/>
           </editionStmt>
           <publicationStmt>
-            <publisher>[s.n]</publisher>
-            <pubPlace ref="https://www.geonames.org/3128760/barcelona.html">Barcelona </pubPlace>
-            <date>[s.a]</date>
+            <publisher>[s.n.]</publisher>
+            <pubPlace ref="https://www.geonames.org/3128760/barcelona.html">Barcelona</pubPlace>
+            <date cert="low" when="1800-01-01">[s.a.]</date>
           </publicationStmt>
         </biblFull>
         <msDesc>
@@ -37,7 +36,8 @@
             <country>Suisse</country>
             <settlement>Genève</settlement>
             <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"/>
-                                    </repository>
+            </repository>
+            <collection>Colección Varios</collection>
             <idno type="cote"/>
             <idno type="DOI">10.5281/zenodo.6562901</idno>
             <altIdentifier>
@@ -66,7 +66,7 @@
               </layoutDesc>
             </objectDesc>
             <decoDesc>
-              <summary n="2">dos tres cuatro cinco seis grabados (p.1) </summary>
+              <summary n="2">Dos grabados (p.1)</summary>
               <decoNote type="lista_grabados">
                 <list>
                   <item corresp="grabado_v_062_1.xml">grabado_v_062_1</item>
@@ -76,8 +76,7 @@
             </decoDesc>
             <additions>
               <stamp>Palma Se vende tienda de M Borrás</stamp>
-              <stamp>SE HALLA VENTA A. BORRAS CUESTA DEL TEATRO
-                                                PALMA</stamp>
+              <stamp>SE HALLA VENTA A. BORRAS CUESTA DEL TEATRO PALMA</stamp>
             </additions>
           </physDesc>
           <history>
@@ -92,18 +91,17 @@
     </fileDesc>
     <encodingDesc>
       <projectDesc>
-        <p>Este archivo fue creado en el marco del proyecto Desenrollando el
-                              Cordel/Démêler le cordel/Untangling the cordel, dirigido por la
-                              profesora Constance Carta de la Universidad de Ginebra, con el apoyo
-                              de la Fundación filantrópica Famille Sandoz-Monique de Meuron.</p>
+        <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+          cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la Universidad
+          de Ginebra, con el apoyo de la Fundación filantrópica Famille Sandoz-Monique de
+          Meuron.</p>
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR non corregido</p>
+          <p>OCR no corregido</p>
         </correction>
         <normalization>
-          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto
-                                    original.</p>
+          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
         </normalization>
         <punctuation>
           <p>Se conserva la puntuación original.</p>
@@ -124,10 +122,14 @@
       </textClass>
     </profileDesc>
     <revisionDesc>
-      <change when="2022-07-20" who="#PJ">Création du fichier TEI P5 et encodage du
-                        corps du texte</change>
+      <change when="2022-07-20" who="#PJ">Création du fichier TEI P5 et encodage du corps du
+        texte</change>
+      <change when="2024-01-09" who="#EL">Add the IIIF links</change>
     </revisionDesc>
   </teiHeader>
+  <facsimile>
+    <graphic url="varios/Varios_062_1.jpg/full/200,/0/default.jpg"/>
+  </facsimile>
   <sourceDoc xml:id="automaticTranscription">
     <surface xml:id="Varios_062_1" type="page" cert="silver">
       <graphic url="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_062_1/full/full/0/default.jpg"/>
@@ -160,23 +162,22 @@
       <zone xml:id="Varios_062_1_BT226_4" n="4" type="MainZone" subtype="none" points="1167,1663 1523,1663 1557,1698 1549,1765 1296,1800 87,1792 78,1698 26,1687 26,1654 76,1649 408,1649 408,1659 755,1659 755,1673 892,1673 892,1661 1167,1661 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_062_1/26,1649,1531,151/full/0/default" corresp="MainZone">
         <zone xml:id="_BT226LT84_LT844_LT84LT83LT84_LT841" type="DefaultLine" subtype="none" points="26,1676 26,1624 311,1633 350,1624 379,1620 379,1620 379,1620 381,1620 496,1626 594,1630 644,1626 699,1622 699,1622 701,1622 701,1622 703,1622 703,1622 703,1622 705,1622 705,1622 705,1624 710,1626 725,1639 830,1628 869,1624 869,1624 871,1624 871,1624 873,1624 873,1624 873,1624 875,1624 875,1624 880,1628 891,1637 932,1628 936,1628 936,1628 936,1628 939,1628 939,1628 945,1628 1056,1644 1242,1630 1246,1630 1248,1630 1248,1630 1248,1630 1250,1630 1250,1630 1250,1630 1252,1630 1252,1630 1252,1633 1270,1646 1329,1630 1333,1630 1333,1630 1333,1630 1335,1630 1536,1633 1536,1696 1531,1707 23,1689 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_062_1/23,1620,1513,87/full/0/default" corresp="DefaultLine">
           <path xml:id="Varios_062_1_BT226LT84_LT844_LT84LT83LT84_LT841_LT841" points="26,1676 1536,1696 " corresp="DefaultLine"/>
-          <line>La escena figura una guardilla de un nigromántico, en la cual
-                                    hay una mesita con un</line>
+          <line>La escena figura una guardilla de un nigromántico, en la cual hay una mesita con
+            un</line>
         </zone>
         <zone xml:id="_BT226LT84_LT844_LT84LT83LT84_LT842" type="DefaultLine" subtype="none" points="87,1709 87,1676 1538,1696 1540,1728 1536,1737 84,1718 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_062_1/84,1676,1456,61/full/0/default" corresp="DefaultLine">
           <path xml:id="Varios_062_1_BT226LT84_LT844_LT84LT83LT84_LT842_LT841" points="89,1711 1542,1730 " corresp="DefaultLine"/>
-          <line>candil medio apagado, una cazolita tapada con comida, varias
-                                    botellas en los es-</line>
+          <line>candil medio apagado, una cazolita tapada con comida, varias botellas en los
+            es-</line>
         </zone>
         <zone xml:id="_BT226LT84_LT844_LT84LT83LT84_LT843" type="DefaultLine" subtype="none" points="87,1742 87,1702 1533,1726 1536,1761 1533,1772 1377,1781 1374,1781 969,1763 836,1759 727,1759 344,1765 342,1765 342,1765 339,1765 296,1755 257,1765 254,1765 254,1765 254,1765 252,1765 252,1765 250,1765 250,1765 250,1765 248,1765 248,1765 248,1763 246,1763 239,1752 84,1748 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_062_1/84,1702,1452,79/full/0/default" corresp="DefaultLine">
           <path xml:id="Varios_062_1_BT226LT84_LT844_LT84LT83LT84_LT843_LT841" points="87,1742 1536,1761 " corresp="DefaultLine"/>
-          <line>tantes de la sala, y otra encima de la mesa; un cubierto y una
-                                    navaja pequeña, pan</line>
+          <line>tantes de la sala, y otra encima de la mesa; un cubierto y una navaja pequeña,
+            pan</line>
         </zone>
         <zone xml:id="_BT226LT84_LT844_LT84LT83LT84_LT844" type="DefaultLine" subtype="none" points="87,1772 87,1735 1294,1757 1296,1789 1292,1805 82,1787 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_062_1/82,1735,1214,70/full/0/default" corresp="DefaultLine">
           <path xml:id="Varios_062_1_BT226LT84_LT844_LT84LT83LT84_LT844_LT841" points="87,1772 1296,1789 " corresp="DefaultLine"/>
-          <line>y un vaso. Una ventana. Aparece D. Panfilo restregándose las
-                                    manos.</line>
+          <line>y un vaso. Una ventana. Aparece D. Panfilo restregándose las manos.</line>
         </zone>
       </zone>
       <zone xml:id="Varios_062_1_BT227_5" n="5" type="MainZone" subtype="columns" points="773,2151 747,2445 69,2462 78,2099 17,2088 7,2027 52,2001 38,1872 17,1811 87,1811 777,1827 777,2005 767,2005 767,2076 575,2076 575,2118 634,2118 634,2133 755,2133 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_062_1/7,1811,770,651/full/0/default" corresp="MainZone:columns">
@@ -1919,41 +1920,40 @@
   <text>
     <body>
       <div>
-        <pb n="1" source="Varios_062_1.jpg" facs="fedora_Varios_062_1/full/full/0/default.jpg"/>
+        <pb n="1" source="Varios_062_1.jpg" facs="varios/Varios_062_1.jpg/"/>
         <div>
-          <head type="primer_titulo"><lb/>EL HAMBRIENTO BURLADO.<lb/>PERSONAJES.</head>
-          <head type="titulo_parte"><lb/>PRIMERA PARTE.</head>
+          <head type="primer_titulo"><lb/>EL HAMBRIENTO BURLADO.</head>
+          <head type="subtitulo"><lb/>PRIMERA PARTE.</head>
+          
           <castList>
+            <head type="reparto_titulo">PERSONAJES.</head>
             <castItem>D. PÁNFILO.</castItem>
             <castItem>D. TORTUGA.</castItem>
           </castList>
-          <stage><lb/>La escena figura una guardilla de un nigromántico, en la cual
-                                          hay una mesita con un
-                                    <lb/>candil medio apagado, una cazolita tapada con comida, varias
-                                          botellas en los es-
-                                    <lb/>tantes de la sala, y otra encima de la mesa; un cubierto y
-                                          una navaja pequeña, pan
-                                    <lb/>y un vaso. Una ventana. Aparece D. Panfilo restregándose las
-                                          manos.
-                              </stage>
+          
+          <stage><lb/>La escena figura una guardilla de un nigromántico, en la cual hay una mesita
+            con un <lb/>candil medio apagado, una cazolita tapada con comida, varias botellas en los
+            es- <lb/>tantes de la sala, y otra encima de la mesa; un cubierto y una navaja pequeña,
+            pan <lb/>y un vaso. Una ventana. Aparece D. Panfilo restregándose las manos. </stage>
+          
           <sp>
             <speaker>DON PÁNFILO.</speaker>
             <l>Vamos por fin á cenar,</l>
             <l>¡parece que el hambre aprieta!</l>
             <l>¡Oh, querida, estate quieta,</l>
-            <stage>(Se toca la barriga.)</stage>
+            <stage rend="cursiva">(Se toca la barriga.)</stage>
             <l>presto te vas á llenar!</l>
             <l>Buen guizote, ponte en facha.</l>
-            <stage>(Destapa la casuela y la amenaza con el tenedor.)</stage>
+            <stage rend="cursiva">(Destapa la casuela y la amenaza con el tenedor.)</stage>
             <l>¡Uy!!! rindete, date, date.....</l>
             <l>No hay cuartel. ¡Sopla gaznate!!!</l>
-            <stage>(Se quema.)</stage>
+            <stage rend="cursiva">(Se quema.)</stage>
             <l>Que me he abrasado la gacha.</l>
             <l>Te abandono.....¡ Qué chubasco!</l>
-            <stage>(Deja el tenedor y va á la ventana,)</stage>
+            <stage rend="cursiva">(Deja el tenedor y va á la ventana,)</stage>
             <l>¡Cómo truena y llueve ahora! ..</l>
             <l>Llora, prenda mia, llora,</l>
-            <stage>(Se toca la barriga.)</stage>
+            <stage rend="cursiva">(Se toca la barriga.)</stage>
             <l>no hagas caso de tal chasco,</l>
             <l>que despues con simetria</l>
             <l>atacaremos la plaza;</l>
@@ -1961,31 +1961,32 @@
             <l>pondremos la artillería.</l>
             <l>Y quién se resi ste al son</l>
             <l>del cañon y fusil? ¡hum!!!</l>
-            <stage>(Acciona con las brazos como si tirase con el
-                                          fusil.)</stage>
+            <stage rend="cursiva">(Acciona con las brazos como si tirase con el fusil.)</stage>
             <l>Hacen los unos ¡prum! ¡pum!....</l>
             <l>y los otros ¡pom! ¡porr..... om....!</l>
-            <stage>(Como con el cañon.)</stage>
+            <stage rend="cursiva">(Como con el cañon.)</stage>
             <l>Ahora lo vas á ver</l>
             <l>como en menos de un mínuto</l>
             <l>me verás dueño absoluto</l>
             <l>del guisado: voy á poner....</l>
-            <stage>(Hace lo que va diciendo.)</stage>
+            <stage rend="cursiva">(Hace lo que va diciendo.)</stage>
             <l>estas dos sillas aqui,</l>
             <l>que figuren los cañones;</l>
-            <pb n="2" source="Varios_062_2.jpg" facs="fedora_Varios_062_2/full/full/0/default.jpg"/>
+            
+            <pb n="2" source="Varios_062_2.jpg" facs="varios/Varios_062_2.jpg/"/>
+            
             <fw type="paginaNum">2</fw>
+            
             <l>voy á encender los mechones,</l>
             <l>y al asalto; ¡vamos! sí.</l>
             <l>Voy á buscar de contado</l>
             <l>balas y alguna granada,</l>
             <l>voy á convertirlo en nada</l>
             <l>despues de haberlo tragado.</l>
-            <stage>(Vase y vuelve.)</stage>
+            <stage rend="cursiva">(Vase y vuelve.)</stage>
             <l>Aqui está esto, aqui estotro.</l>
-            <stage>(Desde este momento empezará á hacer como si atacase un
-                                          fuerte y al mismo tiempo los versos se lo
-                                          espresarán.)</stage>
+            <stage rend="cursiva">(Desde este momento empezará á hacer como <lb/>si atacase un fuerte y al mismo tiempo
+              los <lb/>versos se lo espresarán.)</stage>
             <l>Pues ya que no falta na,</l>
             <l>empezaremos, allá va,</l>
             <l>por el lado, por el otro,</l>
@@ -1998,22 +1999,21 @@
             <l>y tomarle es imposible</l>
             <l>que no sea por asalto.</l>
             <l>¡A cargar, si, luego, luego!</l>
-            <stage>(Hace como que carga los cañones.)</stage>
+            <stage rend="cursiva">(Hace como que carga los cañones.)</stage>
             <l>Vengan pues las escaleras,</l>
             <l>desplegar nuestras banderas;</l>
             <l>empezemos: ¡fuego!!! ¡fuegoitl</l>
             <l>y yo siempre al frente vuestro</l>
             <l>cual valiente campeon.</l>
             <l>La música..... con este son</l>
-            <stage>(Remeda la música con la boca.)</stage>
+            <stage rend="cursiva">(Remeda la música con la boca.)</stage>
             <l>el potaje será nuestro.</l>
             <l>No mas fuego, ya no mas,</l>
             <l>arma en mano y asaltemos,</l>
             <l>solo asi vencer podremos;</l>
             <l>no se dé cuartel jamás.</l>
-            <stage><lb/>(Queda pegan- <lb/>do sablazos y tirando bolitas de papel que
-                                          fi- <lb/>guren balas. Luego asoma D. Tortuga por la ventana y
-                                          dice:</stage>
+            <stage rend="cursiva"><lb/>(Queda pegan- <lb/>do sablazos y tirando bolitas de papel que fi- <lb/>guren
+              balas. Luego asoma D. Tortuga por la ventana y dice:</stage>
           </sp>
           <sp>
             <speaker>D. TORTUGA. </speaker>
@@ -2021,14 +2021,14 @@
             <l>aburrido y fatigado.</l>
             <l>Mas, ¡Jesús!.... ¿qué endemoniado</l>
             <l>será aquel? Escucharé.</l>
-            <stage>(Ve á D. Pánfilo.)</stage>
+            <stage rend="cursiva">(Ve á D. Pánfilo.)</stage>
             <l>Porque no haga ruido,</l>
             <l>me quitaré los zapatos.....</l>
           </sp>
           <sp>
             <speaker>D. PÁN.</speaker>
             <l>Rindete, vil, ó te mato....</l>
-            <stage>(Amenazando con la navaja á la cazuela.)</stage>
+            <stage rend="cursiva">(Amenazando con la navaja á la cazuela.)</stage>
             <l>¿Te rindes? Pues ya he vencido.</l>
           </sp>
           <sp>
@@ -2043,21 +2043,21 @@
           <sp>
             <speaker>D. PÁN, </speaker>
             <l>¡Porvida!.. no tengo vino,</l>
-            <stage>(Riendo.)</stage>
+            <stage rend="cursiva">(Riendo.)</stage>
             <l>porque este es el del marqués.</l>
             <l>Pues, señor, cenar sin él</l>
             <l>fugra deshonrar la cena</l>
             <l>voy á casa Cachumena,</l>
             <l>que me dá de moscatel.</l>
             <l>Te dejo aqui sitiada;</l>
-            <stage>(Vase.)</stage>
+            <stage rend="cursiva">(Vase.)</stage>
             <l>cuidado con escapar.....</l>
           </sp>
           <sp>
             <speaker>D. TOR.</speaker>
             <l>Por tonto, me han de pelar</l>
             <l>si al venir encuentras nada,</l>
-            <stage>(Sale á la escena.)</stage>
+            <stage rend="cursiva">(Sale á la escena.)</stage>
             <l>soy feliz, no hay que dudar.</l>
             <l>¡Oh! despues de haber pasado</l>
             <l>dos dias sin haber probado</l>
@@ -2081,20 +2081,20 @@
             <l>Y por acabar mas pronto,</l>
             <l>Ocupo todo el cubierto,</l>
             <l>pues ya que encontré buen puerto,</l>
-            <stage>(Coge todo el cubierto)</stage>
+            <stage rend="cursiva">(Coge todo el cubierto)</stage>
             <l>no nos hagamos el tonto.</l>
             <l>Conque, señor, tum, tr.....u.....m.....</l>
-            <stage>(Hace lo que D. Pánfilo y come.)</stage>
+            <stage rend="cursiva">(Hace lo que D. Pánfilo y come.)</stage>
             <l>Por aqui, pim, pan, pim, pan,</l>
             <l>traga, traga, gavilan,</l>
             <l>vamos pronto; bum, bu.ru.....m.....</l>
             <l>Ahora que pringue queda,</l>
-            <stage>(Arrebaña la cazuela con el pan.)</stage>
+            <stage rend="cursiva">(Arrebaña la cazuela con el pan.)</stage>
             <l>haremos servir el pan,</l>
             <l>y acabado le verán</l>
             <l>antes que él venirse pueda.</l>
             <l>¡Por desgracia ya voló</l>
-            <stage>(Suena un poco de ruido.)</stage>
+            <stage rend="cursiva">(Suena un poco de ruido.)</stage>
             <l>en un santiameni! ¡Qué susto!</l>
             <l>asi que le encontré el gusto</l>
             <l>cuando ya se me acabó;</l>
@@ -2107,14 +2107,17 @@
             <l>no puedo llenar barriga,</l>
             <l>la llenaré de buen vino.</l>
             <l>Vamos, pichona, aquí ven;</l>
-            <stage>(A la botella.)</stage>
-            <pb n="3" source="Varios_062_3.jpg" facs="fedora_Varios_062_3/full/full/0/default.jpg"/>
+            <stage rend="cursiva">(A la botella.)</stage>
+            
+            <pb n="3" source="Varios_062_3.jpg" facs="varios/Varios_062_3.jpg/"/>
+            
             <fw type="paginaNum">3</fw>
+            
             <l>pues que ya todo el castillo</l>
             <l>está pasado á cuchillo,</l>
             <l>no es razon que quedes bien.</l>
             <l>Asi, arriba, mondongo,</l>
-            <stage>(Bebe.)</stage>
+            <stage rend="cursiva">(Bebe.)</stage>
             <l>á la salud de mi estrella,</l>
             <l>pues me dió, aunque mala ella,</l>
             <l>lo que en mi barriga pongo.</l>
@@ -2126,7 +2129,7 @@
             <l>por si queda algo. Nada....</l>
             <l>paga tú de una bocada,</l>
             <l>te trago, no hay que dudar.</l>
-            <stage>(Coge el pan y se lo come.)</stage>
+            <stage rend="cursiva">(Coge el pan y se lo come.)</stage>
             <l>Por fin muerto todo está,</l>
             <l>á nadie se dió cuartel;</l>
             <l>cuando venga el moscatel,</l>
@@ -2134,7 +2137,7 @@
             <l>Mas ahora recordemos</l>
             <l>por dó tengo de salir,</l>
             <l>por aqui no puedo ir.</l>
-            <stage>(Señalando la ventana.)</stage>
+            <stage rend="cursiva">(Señalando la ventana.)</stage>
             <l>¿En donde nos escondemos?</l>
             <l>Por la puerta... ¡vive yo!!!</l>
             <l>demonio del bribonazo,</l>
@@ -2142,7 +2145,7 @@
             <l>la puerta al irse cerró</l>
             <l>Tortuga, ¡que desventura!</l>
             <l>Por la señal de la cruz...</l>
-            <stage>(D. Pánfilo desde la escalera.)</stage>
+            <stage rend="cursiva">(D. Pánfilo desde la escalera.)</stage>
             <l>Al fin se apagó la luz</l>
             <l>y he de subir á oscuras.</l>
           </sp>
@@ -2158,7 +2161,7 @@
             <l>los dos quedamos igual.</l>
             <l>Ahora me esconderé</l>
             <l>debajode esta mesita...</l>
-            <stage>(Se esconde.)</stage>
+            <stage rend="cursiva">(Se esconde.)</stage>
             <l>¡Santa Bárbara bendita!</l>
             <l>¿como, pues, me salvaré?</l>
             <l>¡Oh, Dios mio. ¡que sudor</l>
@@ -2166,8 +2169,7 @@
             <l>la llave en la cerradura</l>
             <l>ha metido el gran señor.</l>
             <l>Sus pasos me escandalizan.....</l>
-            <stage>(Don Pánfito abre la puerta y, estando. el cuarto á
-                                          oscuras, esclama.)</stage>
+            <stage rend="cursiva">(Don Pánfito abre la puerta y, estando <lb/>el cuarto á oscuras, esclama.)</stage>
           </sp>
           <sp>
             <speaker>D. PÁN.</speaker>
@@ -2177,33 +2179,33 @@
             <l>¿Qué haré? vamos, entremos:</l>
             <l>veamos si dice existo</l>
             <l>por aquí un solo misto,</l>
-            <stage>(Entra.)</stage>
+            <stage rend="cursiva">(Entra.)</stage>
             <l>y al punto la encenderemos.</l>
             <l>¡Por la Virgen portuguesa!</l>
-            <stage>(Tropieza</stage>
+            <stage rend="cursiva">(Tropieza</stage>
             <l>que en este punto instantáneo</l>
             <l>me voy á romper el cráneo</l>
             <l>ó á lo menos la cabeza.</l>
             <l>Veremos en la bolsita</l>
-            <stage>(Coge la bolsa de un clavo.)</stage>
+            <stage rend="cursiva">(Coge la bolsa de<lb/> un clavo.)</stage>
             <l>si ha quedado alguno; sí,</l>
             <l>dejo la botella aquí</l>
             <l>y enciendo la candelita.</l>
-            <stage>(Deja la botella del vino.)</stage>
+            <stage rend="cursiva">(Deja la botella l<lb/>del vino.)</stage>
             <l>¡Qué susto he esperimentado</l>
             <l>cuando sin luz me encontré...</l>
             <l>Ahora me vengaré</l>
             <l>conlacena decontado.</l>
-            <stage>(Enciende la vela.)</stage>
+            <stage rend="cursiva">(Enciende la vela.)</stage>
             <l>Buenas noches, se encendió:</l>
-            <stage>(Enciende el candil.)</stage>
+            <stage rend="cursiva">(Enciende <lb/>el candil.)</stage>
             <l>ahora vamos al candil;</l>
             <l>ya estás tú, trastote vil,</l>
-            <stage>(Apaga la vela.)</stage>
+            <stage rend="cursiva">(Apaga la vela.)</stage>
             <l>te apago á tí...se apagó.</l>
             <l>¡Oh que placer es el mio!...</l>
             <l>tengo cuanto yo deseo...</l>
-            <stage>(vá á cenar.)</stage>
+            <stage rend="cursiva">(vá á cenar.)</stage>
             <l>pero; Dios mio, ¡que veo!</l>
             <l>me lo han dejado vacio.</l>
             <l>Si será, si no será,</l>
@@ -2214,7 +2216,7 @@
             <l>lo dejaba derretido</l>
             <l>asi se hubiera engullido</l>
             <l>la bebida del marqnés,</l>
-            <stage>(D. Tortuga debajo la mesa.)</stage>
+            <stage rend="cursiva">(D. Tortuga debajo <lb/>la mesa.)</stage>
             <l>¡Ay de mi cuando lo vea!</l>
           </sp>
           <sp>
@@ -2233,12 +2235,12 @@
             <l>Lo ha dejado bien lamido.</l>
             <l>mas ¡que veo! se ha bebido</l>
             <l>este veneno tambien!</l>
-            <stage>(Ric.)</stage>
+            <stage rend="cursiva">(Ric.)</stage>
           </sp>
           <sp>
             <speaker>D. TOR.</speaker>
             <l>¡Cómo rie el gran gaznápiro,</l>
-            <stage>(Ric.)</stage>
+            <stage rend="cursiva">(Ric.)</stage>
             <l>como si fuera de veras!...</l>
           </sp>
           <sp>
@@ -2265,7 +2267,7 @@
             <l>que era esto algun vinazo...</l>
             <l>Mas ¿por dónde el bribonazo</l>
             <l>aqui dentro se ha colado?</l>
-            <stage>(Señalando la ventana.)</stage>
+            <stage rend="cursiva">(Señalando <lb/>la ventana.)</stage>
             <l>Por aqui tuvo su entrada,</l>
             <l>y por aquí se salió,</l>
             <l>por la puerta... ¡Oh! eso no,</l>
@@ -2274,8 +2276,11 @@
             <l>que si yo le encuentro aqui,</l>
             <l>¡por Satanás! pesi á mí,</l>
             <l>que sin mas le descuartizo.</l>
-            <pb n="4" source="Varios_062_4.jpg" facs="fedora_Varios_062_4/full/full/0/default.jpg"/>
+            
+            <pb n="4" source="Varios_062_4.jpg" facs="varios/Varios_062_4.jpg/"/>
+            
             <fw type="paginaNum">4</fw>
+            
             <l>Pero vamos, que el marqués</l>
             <l>querrá mañana el veneno;</l>
             <l>el que lo bebió, ¡qué trueno</l>
@@ -2285,7 +2290,7 @@
             <speaker>D. TOR.</speaker>
             <l>¡Oh, Santa Inés!</l>
             <l>¿Conque es verdad lo que dice?</l>
-            <stage>(Saliendo.)</stage>
+            <stage rend="cursiva">(Saliendo.)</stage>
             <l>¿Conque ostoy envenenado?</l>
             <l>¡Oh! yo soy el desdichado</l>
             <l>que por hambre... tinfelice!</l>
@@ -2304,12 +2309,12 @@
             <l>que eso será lo mas cierto,</l>
             <l>en donde yazca yo muerto</l>
             <l>escribireis un letrero.</l>
-            <stage>(Escribe con un lápiz.)</stage>
+            <stage rend="cursiva">(Escribe con <lb/>un lápiz.)</stage>
           </sp>
           <sp>
             <speaker>D. PÁN.</speaker>
             <l>Que diga...</l>
-            <stage>(Lee.)</stage>
+            <stage rend="cursiva">(Lee.)</stage>
           </sp>
           <sp>
             <speaker>D. TOR.</speaker>
@@ -2356,7 +2361,7 @@
             <l>antiguo amigo de industria,</l>
             <l>pon séria esa cara mustía,</l>
             <l>que vá á revolverto el seso.</l>
-            <stage>(D. Tortuga bebe.)</stage>
+            <stage rend="cursiva">(D. Tortuga <lb/>bebe.)</stage>
             <l>Muy bien; ahora verás</l>
             <l>lo que vas á padecer,</l>
             <l>pero aguanta, vas á ver</l>
@@ -2377,7 +2382,7 @@
             <l>quede tu cuerpo vacio,</l>
             <l>entonces en Dios conflo</l>
             <l>que pronto serás sulvado.</l>
-            <stage>D. Tortaga talarea.</stage>
+            <stage rend="cursiva">(D. Tortuga <lb/>talarea.)</stage>
             <l>¡Viva esa talareral...</l>
             <l>Si no hubieras padecido,</l>
             <l>asi hubieras finido</l>
@@ -2397,13 +2402,13 @@
             <l>y allí mil fuerzas harás</l>
             <l>hasta que al fin echarás.</l>
             <l>lo que tú te has engullido.</l>
-            <stage>(Se van.)</stage>
+            <stage rend="cursiva">(Se van.)</stage>
             <l>Aqui, aqui siéntate,</l>
-            <stage>(Dice desde dentro.)</stage>
+            <stage rend="cursiva">(Dice desde dentro.)</stage>
             <l>haz fuerzas, aunque revientes,</l>
             <l>arroja por bombo y dientes,</l>
             <l>que ya á buscarte vendré.</l>
-            <stage>(Sale y dice.)</stage>
+            <stage rend="cursiva">(Sale y dice.)</stage>
             <l>¡Don Tortuga! ¡Qué alegríal</l>
             <l>Mas...¡qué descuidado está!...</l>
             <l>sin duda que sus tronadas</l>
@@ -2446,6 +2451,7 @@
             <l>un aplauso general.</l>
           </sp>
         </div>
+        
         <div type="colofon">
           <p><lb/>PALMA. Tienda de M. Borrás. Cuesta del Teatro</p>
         </div>

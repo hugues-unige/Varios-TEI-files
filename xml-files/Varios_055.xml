@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../Schema/oddPliego_varios.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:alto="http://www.loc.gov/standards/alto/ns-v4#" xml:id="Varios_055">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Varios_055">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -11,8 +11,7 @@
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <authority role="rightsHolder">Bibliothèque Universitaire de
-                              Genève</authority>
+        <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
         <availability status="restricted">
           <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
         </availability>
@@ -20,8 +19,10 @@
       <sourceDesc>
         <biblFull>
           <titleStmt>
-            <title type="titulo_completo">LA ESTISORA</title>
+            <title type="titulo_completo">LA ESTISORA. Tercera part. La mes retalladora que s' ha
+              conegut hasta la hora present.</title>
             <title type="titulo_breve">LA ESTISORA</title>
+            <author>J.F.</author>
           </titleStmt>
           <editionStmt>
             <p/>
@@ -29,7 +30,7 @@
           <publicationStmt>
             <publisher>El Abanico</publisher>
             <pubPlace ref="https://www.geonames.org/3128760/barcelona.html">Barcelona</pubPlace>
-            <date>[s.a]</date>
+            <date cert="low" when="1800-01-01">[s.a.]</date>
           </publicationStmt>
         </biblFull>
         <msDesc>
@@ -37,7 +38,8 @@
             <country>Suisse</country>
             <settlement>Genève</settlement>
             <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"/>
-                                    </repository>
+            </repository>
+            <collection>Colección Varios</collection>
             <idno type="cote"/>
             <idno type="DOI">10.5281/zenodo.6557707</idno>
             <altIdentifier>
@@ -66,7 +68,7 @@
               </layoutDesc>
             </objectDesc>
             <decoDesc>
-              <summary n="1">Uno grabado (p.1) </summary>
+              <summary n="1">Un grabado (p.1)</summary>
               <decoNote type="lista_grabados">
                 <list>
                   <item corresp="grabado_v_055_1.xml">grabado_v_055_1</item>
@@ -87,18 +89,17 @@
     </fileDesc>
     <encodingDesc>
       <projectDesc>
-        <p>Este archivo fue creado en el marco del proyecto Desenrollando el
-                              Cordel/Démêler le cordel/Untangling the cordel, dirigido por la
-                              profesora Constance Carta de la Universidad de Ginebra, con el apoyo
-                              de la Fundación filantrópica Famille Sandoz-Monique de Meuron.</p>
+        <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+          cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la Universidad
+          de Ginebra, con el apoyo de la Fundación filantrópica Famille Sandoz-Monique de
+          Meuron.</p>
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR non corregido</p>
+          <p>OCR no corregido</p>
         </correction>
         <normalization>
-          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto
-                                    original.</p>
+          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
         </normalization>
         <punctuation>
           <p>Se conserva la puntuación original.</p>
@@ -119,10 +120,14 @@
       </textClass>
     </profileDesc>
     <revisionDesc>
-      <change when="2022-06-01" who="#PJ">Création du fichier TEI P5 et encodage du
-                        corps du texte</change>
+      <change when="2022-06-01" who="#PJ">Création du fichier TEI P5 et encodage du corps du
+        texte</change>
+      <change when="2024-01-09" who="#EL">Add the IIIF links</change>
     </revisionDesc>
   </teiHeader>
+  <facsimile>
+    <graphic url="varios/Varios_055_1.jpg/full/200,/0/default.jpg"/>
+  </facsimile>
   <sourceDoc xml:id="automaticTranscription">
     <surface xml:id="Varios_055_1" type="page" cert="silver">
       <graphic url="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_055_1/full/full/0/default.jpg"/>
@@ -137,13 +142,11 @@
         </zone>
         <zone xml:id="Varios_055_1_BT223_1_LT84_3" type="HeadingLine" subtype="none" points="85,1770 85,1704 129,1721 304,1721 348,1702 377,1689 377,1689 379,1689 379,1689 379,1689 640,1686 642,1686 642,1686 644,1686 644,1686 644,1686 647,1686 647,1686 660,1700 675,1713 717,1715 772,1697 787,1693 789,1693 789,1693 789,1693 791,1693 791,1693 794,1693 811,1697 868,1713 949,1695 958,1695 958,1695 958,1695 960,1695 960,1695 962,1695 962,1695 962,1695 965,1695 965,1695 984,1708 1030,1708 1065,1695 1105,1682 1107,1682 1107,1682 1107,1682 1109,1682 1109,1682 1175,1695 1252,1708 1274,1693 1278,1689 1278,1689 1280,1689 1280,1689 1283,1689 1283,1689 1283,1689 1285,1689 1285,1689 1285,1689 1287,1689 1287,1689 1298,1693 1320,1704 1333,1693 1346,1680 1346,1680 1348,1680 1348,1680 1348,1680 1351,1680 1351,1680 1351,1680 1353,1680 1353,1680 1355,1680 1355,1680 1390,1693 1430,1706 1535,1695 1535,1695 1537,1695 1537,1695 1539,1695 1588,1706 1669,1691 1675,1754 1673,1792 1344,1794 1342,1794 1342,1794 1340,1794 1340,1794 1340,1794 1337,1794 1333,1792 1296,1768 1228,1770 1212,1785 1212,1787 1212,1787 1210,1787 1210,1787 1210,1787 1208,1787 1208,1787 1208,1787 1206,1787 1206,1787 1204,1787 1204,1787 1160,1772 1133,1789 1131,1789 1131,1789 1131,1789 1131,1789 1129,1789 1129,1789 1127,1789 1127,1789 1127,1789 1125,1789 1125,1789 1125,1789 1079,1770 1033,1787 1033,1787 1030,1787 1030,1787 1030,1787 1028,1787 1028,1787 1026,1787 1026,1787 1026,1787 1004,1776 987,1789 978,1796 976,1796 976,1796 976,1796 973,1796 973,1796 973,1796 971,1796 971,1796 969,1796 969,1796 947,1789 945,1787 945,1787 934,1798 934,1798 932,1798 932,1798 932,1798 930,1798 930,1798 930,1800 859,1800 857,1798 857,1798 855,1798 855,1798 855,1798 853,1798 840,1787 826,1778 785,1785 785,1785 783,1785 783,1785 783,1785 780,1785 780,1785 780,1785 778,1785 778,1785 765,1774 675,1776 664,1787 658,1792 658,1794 658,1794 655,1794 655,1794 653,1794 653,1794 653,1794 651,1794 651,1794 649,1794 649,1794 649,1794 647,1794 638,1787 616,1774 421,1785 333,1789 331,1789 331,1789 329,1789 307,1785 282,1778 261,1785 234,1792 232,1792 232,1792 230,1792 230,1792 230,1792 193,1783 168,1778 160,1783 135,1805 135,1805 133,1805 133,1805 133,1805 131,1805 131,1805 129,1805 129,1805 129,1805 127,1805 127,1805 81,1783 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_055_1/81,1680,1594,125/full/0/default" corresp="HeadingLine">
           <path xml:id="Varios_055_1_BT223_1_LT84_3_1" points="87,1772 1676,1756 "/>
-          <line>La mes retalladora que s' ha conegut hasta la hora
-                                    present</line>
+          <line>La mes retalladora que s' ha conegut hasta la hora present</line>
         </zone>
         <zone xml:id="Varios_055_1_BT223_1_LT84_4" type="HeadingLine" subtype="none" points="146,1901 144,1855 502,1855 508,1851 519,1842 522,1842 522,1842 522,1842 524,1842 524,1842 524,1842 526,1842 658,1849 690,1851 693,1849 706,1838 706,1838 708,1838 708,1838 708,1838 710,1838 710,1838 710,1838 712,1838 848,1849 868,1849 872,1849 890,1835 892,1835 892,1835 892,1835 894,1835 894,1835 897,1835 897,1835 899,1835 943,1846 945,1846 945,1846 1002,1835 1002,1835 1002,1835 1004,1835 1191,1844 1199,1844 1201,1844 1267,1831 1267,1831 1267,1831 1269,1831 1269,1831 1272,1831 1311,1842 1612,1842 1618,1884 1618,1895 908,1899 903,1901 883,1912 883,1912 883,1912 881,1912 881,1912 881,1912 879,1912 739,1903 721,1903 719,1903 699,1914 699,1914 699,1914 697,1914 697,1914 697,1914 695,1914 587,1906 585,1906 583,1906 511,1916 511,1916 508,1916 144,1908 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_055_1/144,1831,1474,85/full/0/default" corresp="HeadingLine">
           <path xml:id="Varios_055_1_BT223_1_LT84_4_1" points="149,1902 1619,1885 "/>
-          <line>Versos escrits ab las puntas de la mateixa estisora, per J.
-                                    F.</line>
+          <line>Versos escrits ab las puntas de la mateixa estisora, per J. F.</line>
         </zone>
       </zone>
       <zone xml:id="Varios_055_1_BT228_2" n="2" type="MarginTextZone" subtype="colophon" points="734,2284 627,2339 717,2366 726,2407 579,2416 578,2481 70,2489 61,2068 140,1999 809,1999 778,2057 669,2072 585,2129 668,2160 747,2227 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_055_1/61,1999,748,490/full/0/default" corresp="MarginTextZone:colophon">
@@ -1385,335 +1388,331 @@
   <text>
     <body>
       <div>
-        <pb n="1" source="Varios_055_1.jpg" facs="fedora_Varios_055_1/full/full/0/default.jpg"/>
-        <head type="primer_titulo"><lb/>LA ESTISORA</head>
+        <pb n="1" source="Varios_055_1.jpg" facs="varios/Varios_055_1.jpg/"/>
+
+        <head type="primer_titulo" rend="negrita"><lb/>LA ESTISORA</head>
+
         <div>
-          <head type="subtitulo_parte"><lb/>TERCERA PART<lb/>La mes retalladora
-                                    que s'ha conegut hasta la hora present<lb/>Versos escrits ab las
-                                    puntas de la mateixa estisora, per J. F.</head>
-          <lg>
-            <l>Gent de Deu: ya arribat la hora,</l>
-            <l>que ha sortit una estisora</l>
-            <l>més talladora que cap:</l>
-            <l>tot ho retalla á tot drap.</l>
-            <l>Es una de las mes grossas,</l>
-            <l>en sa vida hi ha tingut mossas;</l>
-            <l>y arriba á fe tants treballs,</l>
-            <l>que hasta retallá retalls.</l>
-            <l>No se ha escapat may un gat</l>
-            <l>sense está ben retallat.</l>
-          </lg>
-          <lg>
-            <l>En la vida ha estat peruca</l>
-            <l>perque fins mossega y truca:</l>
-            <l>Y com que aixó es catalá</l>
-            <l>se te de parla molt clá.</l>
-            <l>Yo no se si 'm faré entendre</l>
-            <l>pero ya 'm sabreu compendre,</l>
-            <l>vosaltres ya sou astuts</l>
-            <l>y no sou gaire aurelluts.</l>
-            <l>Yo 'm pensu tenir bon llavi</l>
-            <l>pero soch mes ruel que sabi,</l>
-          </lg>
-          <pb n="2" source="Varios_055_2.jpg" facs="fedora_Varios_055_2/full/full/0/default.jpg"/>
-          <lg>
-            <l>pues pera pogué menjá</l>
-            <l>vinch aqui á baladrejá.</l>
-            <l>com no vull mal á ningú</l>
-            <l>me agrada parlá ab comú:</l>
-            <l>Si ab aixó tots y ballém,</l>
-            <l>com mes serém mes riurém.</l>
-            <l>Ya sabeu que home de bé</l>
-            <l>no ni ha cap de verdadé,</l>
-            <l>qui no te una falta 'n te dos;</l>
-            <l>si es rich, potsé no es piadós</l>
-            <l>ó de la miseria 's enriu</l>
-            <l>per no se caritatiu,</l>
-            <l>ó 's creu que al mon ha vingut</l>
-            <l>pera se un rey absolut,</l>
-            <l>ó desendeix de una pell</l>
-            <l>que ningú la te com ell.</l>
-            <l>Y anquets lus pasa una cosa</l>
-            <l>que tutom luegu 'ls fa nosa:</l>
-            <l>pues que no hu prenguin en riure</l>
-            <l>que sens altres no 's pot viure,</l>
-            <l>y ha de contá de segú</l>
-            <l>que un home sol no es ningú,</l>
-            <l>perque aquell que no fa ré</l>
-            <l>los altres tot li an de fé,</l>
-            <l>y si ningú re li fes</l>
-            <l>podría menjá dinés.</l>
-            <l>Lo treball es lo que dona</l>
-            <l>lo sustento a la persona</l>
-            <l>¡Ya estariam arreglats</l>
-            <l>si tots estesim parats!</l>
-            <l>Ya sertam ben amichs</l>
-            <l>si acás tots fosim ben richs...</l>
-            <l>Com ningú treballaria</l>
-            <l>de teca no ni hauria,</l>
-            <l>ni roba pera vestir.</l>
-            <l>Ya fora un cas ben felis</l>
-            <l>lo veure a tothom nuhet</l>
-            <l>y tremolán si fes fret.</l>
-            <l>Que se 't veu alguna cosa...</l>
-            <l>que ti parin una llosa,</l>
-            <l>y aquell que 'l agafa es seu</l>
-            <l>segons va dir San Mateu.</l>
-            <l>De casas tampoch ni hauria!</l>
-            <l>¿donchs y al día que plouria</l>
-            <l>ó nevaría ó fes vent?</l>
-            <l>sense un piset ben calent,</l>
-            <l>no ho podriam resistí</l>
-            <l>y 'ns hauriam de mori.</l>
-          </lg>
-          <lg>
-            <l>Esteu ben desprehocupats,</l>
-            <l>que las grans necesitats</l>
-            <l>no las podém dispensá,</l>
-            <l>y aixi se han de respectá.</l>
-            <l>Ya veyeu, la rahó 'm sobra:</l>
-            <l>ya que un es rich, laltre pobre</l>
-            <l>y 'l mon avuy está així,</l>
-            <l>al que 'l te de manteni</l>
-            <l>que 'l tractin ab més cordura;</l>
-            <l>que avuy, tan sols amargura</l>
-            <l>donan sense posá fé</l>
-            <l>á 'n aquell que tot ho manté.</l>
-            <l>Los que no treballan gens</l>
-            <l>prenen molt bons alimens,</l>
-            <l>y 'l que te de treballá</l>
-            <l>ab prou feynas pot menjá.</l>
-            <l>Aixó es lo mon al revés;</l>
-            <l>perque aquell que no fa rés</l>
-            <l>ab poch menjá ja 'n te prou;</l>
-            <l>mentres que ara 's menja un bon</l>
-            <l>y l' infeliz que treballa</l>
-            <l>se te de menjá la palla;</l>
-            <l>y 'ls diuhen que son contraris,</l>
-            <l>que son revolusionaris</l>
-            <l>que son cafres desentesus:</l>
-            <l>Aixó hu diuhen los burgesus,</l>
-            <l>y es clá, lo pobre apurat</l>
-            <l>tan vé, que fa un disbarat.</l>
-            <l>ya podeu aná xiulán;</l>
-            <l>Las lleys claras ¿quinas son?</l>
-            <l>que tots em vingut al mon,</l>
-            <l>tant los richs com los pobrets,</l>
-            <l>tots varem naixe nuhets:</l>
-            <l>¿pues perque no ya drets iguals</l>
-            <l>havent nascut racionals?</l>
-            <l>Un que sempre ha treballat</l>
-            <l>ne tingui de aná á soldat.</l>
-            <l>¡Y aquell que may ha fet re</l>
-            <l>se 'n escapi tan lleujé!!!</l>
-            <l>¡Que es trist, rahó ó no rahó</l>
-            <l>vagi 'l pobre á la presó...!</l>
-            <l>Pero sabeu y entengueu</l>
-            <l>que y aurá un castich de Déu.</l>
-            <l>Déu va dí:.. siguéu jermans</l>
-            <l>y que may y aigi tirans;</l>
-            <l>ab tota l' anima y cor</l>
-            <l>porteuse tots gran amor...</l>
-            <l>poro si, ja avisarán,</l>
-          </lg>
-          <pb n="3" source="Varios_055_3.jpg" facs="fedora_Varios_055_3/full/full/0/default.jpg"/>
-          <lg>
-            <l>cuan 'l ase diu no vull beure</l>
-            <l>tan seval que hu deixeu jeure,</l>
-            <l>y aixís no y aurá remey,</l>
-            <l>fins que Déu fará de rey,</l>
-            <l>y al dolén castigará</l>
-            <l>ab la justicia á la má.</l>
-            <l>Llavorans tots los dolens</l>
-            <l>mudarán los pensaments,</l>
-            <l>y veurem que nit y día</l>
-            <l>tot nos causará alegría.</l>
-            <l>pero fills, á mi me part</l>
-            <l>que aixó vindrá bastant tart;</l>
-            <l>pero en tal cas que vingués</l>
-            <l>ningú may perdría rés.</l>
-            <l>Toquem un altre cantó</l>
-            <l>per veure qui te rahó.</l>
-            <l>Jo vey que no es decorós</l>
-            <l>que un pobre siga orgullós,</l>
-            <l>com sabeu que molts ni há</l>
-            <l>que apenas s' els pot parlá;</l>
-            <l>perque ja que treballadó</l>
-            <l>que si 's presenta ocasió</l>
-            <l>de un treball se encarregat,</l>
-            <l>¡no si torna poch malvat...!</l>
-            <l>Maltracta tota la gent,</l>
-            <l>fa torná al amo dolent</l>
-            <l>si es que el amo aigi estat bó.</l>
-            <l>Que tal ¿veritat aixó?...</l>
-            <l>Si homens si, que 'm direu,</l>
-            <l>si jo filo per tot arreu.</l>
-            <l>Si de tot aixó que passa</l>
-            <l>ne se una mica massa.</l>
-            <l>Aixó casi hu sap tutom</l>
-            <l>si es dulén un majordóm.</l>
-            <l>Veurém també algún pelat</l>
-            <l>que vol aná ben mudat,</l>
-            <l>que sense fé centinela</l>
-            <l>li agrada gastá la pela,</l>
-            <l>y cada día al café</l>
-            <l>com aquell que ya hu pot fé;</l>
-            <l>y vingan copas y puros</l>
-            <l>y ananse jugan los duros,</l>
-            <l>sense pará de fe mossas,</l>
-            <l>y cap á conquistá móssas,</l>
-            <l>y causá la perdisió</l>
-            <l>de un altre treballadó,</l>
-            <l>que haventli fet un favor</l>
-            <l>me 'l deix pelat y mitj mort.</l>
-          </lg>
-          <lg>
-            <l>Lo que aixó torbi ben fet</l>
-            <l>no será sinó un ximplet,</l>
-            <l>que tindría mol grós lo fetje</l>
-            <l>ab sentiment d'un cretje.</l>
-            <l>Sino que sempre tinch pó</l>
-            <l>que vinguin de tras cantó.</l>
-            <l>á ventarme un clatallót</l>
-            <l>algun estrany ó ximplot,</l>
-            <l>ya us en diria algunas</l>
-            <l>ab las lletras com á prunas,</l>
-            <l>pero ya me han ordenat</l>
-            <l>que tingui el bech ben xullat,</l>
-            <l>sinó 'm clavarían pera;</l>
-            <l>y cantant la miserera</l>
-            <l>m' auría de consolá</l>
-            <l>sense pogué ximullá.</l>
-            <l>De les noyas, que 'n dirém</l>
-            <l>si acás no las retallém?</l>
-            <l>També tenía pensat</l>
-            <l>de darlas un cop d' estat.</l>
-            <l>Ellas molt alegres viuhen</l>
-            <l>mentres de 'ls altres se riuhen,</l>
-            <l>sens pensá que moltas d' ellas,</l>
-            <l>tan casadas com donsellas,</l>
-            <l>que avuy fan cuasi be totas</l>
-            <l>mes faltas que las pilotas.</l>
-            <l>Ellas per na ben vestidas</l>
-            <l>se fórjan deu mil mentidas...</l>
-            <l>venense... lo que val mes</l>
-            <l>per la ambició dels calés.</l>
-            <l>¡No 'n fan pocas de traficas</l>
-            <l>sols per aná ben bonicas..</l>
-            <l>y per menjá tots los dias</l>
-            <l>las mes bonas llepolías:</l>
-            <l>pero en cabat. ¡Ay deu meu,</l>
-            <l>cuant surt alló que no 's véu!...</l>
-            <l>Quin llanto, santa Quiteria</l>
-            <l>cuan la cosa 's posa seria...!</l>
-            <l>Tot lo que abans era mel</l>
-            <l>se 'ls torna vinagre y fel;</l>
-            <l>y resulta tal ponsonya,</l>
-            <l>que yo, men dono vergonya...</l>
-            <l>en ſi no hu vull esplicá,</l>
-            <l>aixó no hu vull retallá.</l>
-            <l>Y parlán de casaments,</l>
-            <l>ne fan uns de tan dolens.</l>
-            <l>que per que los tals nos fésin.</l>
-            <l>que las iglesias tanquesin.</l>
-          </lg>
-          <pb n="4" source="Varios_055_4.jpg" facs="fedora_Varios_055_4/full/full/0/default.jpg"/>
-          <lg>
-            <l>ni 'ls valgués lo nou istil</l>
-            <l>del matrimoñi civil.</l>
-            <l>Mireuse be 'ls resultats</l>
-            <l>al poch temps que son casats.</l>
-            <l>Y si a cás tenen criaturas...</l>
-            <l>¡San Blay, quinas amarguras !!</l>
-            <l>tan goig que feyan fadrinas,</l>
-            <l>y después, semblan tunyinas,</l>
-            <l>no 's pantinan, tot son polls;</l>
-            <l>lus surten deu mil penjolls.</l>
-            <l>Fadrinas anavan macas,</l>
-            <l>y ara tot ellas son tacas.</l>
-            <l>Las sabatetas ab flochs</l>
-            <l>se han tornat garrichs garrochs,</l>
-            <l>son pit que era ben format</l>
-            <l>lo veureu tot desbrotxat,</l>
-            <l>tan monas que eran sas caras,</l>
-            <l>y ara brutas de mascaras</l>
-            <l>veureu al pobre marit</l>
-            <l>que 's veu tot repenedit:</l>
-            <l>no para de blasfemá</l>
-            <l>del dia que 's va casá.</l>
-            <l>de qui li va da entenent,</l>
-            <l>de formá aquell casament;</l>
-            <l>y apurat fins dal al coll</l>
-            <l>no para may lo suróll.</l>
-            <l>Lo mes dolen y 'l mes plagá</l>
-            <l>en cuan ell se queda en vaga,</l>
-            <l>y la quitxalla vol pá</l>
-            <l>y no 'ls hi poden doná.</l>
-            <l>Vaiga: ¿No ya matrimonis?</l>
-            <l>Lo que es avúy: francament,</l>
-            <l>ho sento di en molta gent,</l>
-            <l>que hasta el que está ben casat</l>
-            <l>li sembla que está enganyat.</l>
-            <l>Y ara us vull fe una altre gracia:</l>
-            <l>parlém de la aristocracia.</l>
-            <l>De aquets que 'n diuhen los richs</l>
-            <l>que sempre son tan bonichs,</l>
-            <l>que van tots plens de postisus.</l>
-            <l>¿Que us penseu que son felisus?</l>
-            <l>Ca barret, ca noy, ni mena;</l>
-            <l>ja passan la seva pena</l>
-            <l>Com que forman casaments</l>
-          </lg>
-          <lg>
-            <l>perque 'ls pervingvin mes bens,</l>
-            <l>en fí, ya sabeu lo que és</l>
-            <l>casarse per lo interés.</l>
-            <l>Molts se casan ab tal sort</l>
-            <l>sense sabé que es amor.</l>
-            <l>Ni que tingan tans dinés,</l>
-            <l>tenen cuestions de alló mes.</l>
-            <l>No si posan pochs de tiesus</l>
-            <l>cuan es cuestió de interesus.</l>
-            <l>Tenin tan de dineral</l>
-            <l>tan sols per valor de un ral,</l>
-            <l>una senyora mol curra</l>
-            <l>se deixá pega una surra.</l>
-            <l>¡Valgam Déu y santa Clara..</l>
-            <l>quina dona mes avara...!</l>
-            <l>Y, cregueume, que 'n tenía</l>
-            <l>de música y sinfonía.</l>
-            <l>Y per cuestió de amorios</l>
-            <l>los senyors, ja son bons fios</l>
-            <l>Ja mols de élls si no hu sabeu,</l>
-            <l>no están contens ab lo seu.</l>
-            <l>També ja 'ls seus embulichs</l>
-            <l>fen veure que son amichs.</l>
-            <l>Jo se que alguna vegada</l>
-            <l>també corra la trompada,</l>
-            <l>y al véurels tan ben posats</l>
-            <l>diréu que no trencan plats.</l>
-            <l>Y ellas tan serias y ufanas...</l>
-            <l>y no ja pas tantas ranas</l>
-            <l>com ellas fan en un any</l>
-            <l>a las voras de un estany;</l>
-            <l>de modu, que 'l mon está</l>
-            <l>casi a punt de rebentá,</l>
-            <l>y un día fará un estruendo,</l>
-            <l>tan terrible y tan tremendo,</l>
-            <l>que no quedará ni un gat</l>
-            <l>que no quedi esquelebrat.</l>
-            <l>Sols quedará vensedora</l>
-            <l>aquesta gran estisora,</l>
-            <l>pera pugué retallá</l>
-            <l>an aquell que se escapará.</l>
-            <l>Perdoneume si aixó cou</l>
-            <l>per avuy ja ni ha prou.</l>
-          </lg>
-          <trailer>FÍ</trailer>
+          <head type="titulo_parte" rend="negrita"><lb/>TERCERA PART</head>
+          <head type="subtitulo_parte"><lb/>La mes retalladora que s'ha conegut hasta la hora
+            present</head>
+
+          <p><lb/>Versos escrits ab las puntas de la mateixa estisora, per J.F.</p>
+
+          <l rend="indent">Gent de Deu: ya arribat la hora,</l>
+          <l>que ha sortit una estisora</l>
+          <l>més talladora que cap:</l>
+          <l>tot ho retalla á tot drap.</l>
+          <l rend="indent">Es una de las mes grossas,</l>
+          <l>en sa vida hi ha tingut mossas;</l>
+          <l>y arriba á fe tants treballs,</l>
+          <l>que hasta retallá retalls.</l>
+          <l rend="indent">No se ha escapat may un gat</l>
+          <l>sense está ben retallat.</l>
+          <l rend="indent">En la vida ha estat peruca</l>
+          <l>perque fins mossega y truca:</l>
+          <l>Y com que aixó es catalá</l>
+          <l>se te de parla molt clá.</l>
+          <l rend="indent">Yo no se si 'm faré entendre</l>
+          <l>pero ya 'm sabreu compendre,</l>
+          <l>vosaltres ya sou astuts</l>
+          <l>y no sou gaire aurelluts.</l>
+          <l>Yo 'm pensu tenir bon llavi</l>
+          <l>pero soch mes ruel que sabi,</l>
+
+          <pb n="2" source="Varios_055_2.jpg" facs="varios/Varios_055_2.jpg/"/>
+
+          <l>pues pera pogué menjá</l>
+          <l>vinch aqui á baladrejá.</l>
+          <l>com no vull mal á ningú</l>
+          <l>me agrada parlá ab comú:</l>
+          <l>Si ab aixó tots y ballém,</l>
+          <l>com mes serém mes riurém.</l>
+          <l>Ya sabeu que home de bé</l>
+          <l>no ni ha cap de verdadé,</l>
+          <l>qui no te una falta 'n te dos;</l>
+          <l>si es rich, potsé no es piadós</l>
+          <l>ó de la miseria 's enriu</l>
+          <l>per no se caritatiu,</l>
+          <l>ó 's creu que al mon ha vingut</l>
+          <l>pera se un rey absolut,</l>
+          <l>ó desendeix de una pell</l>
+          <l>que ningú la te com ell.</l>
+          <l>Y anquets lus pasa una cosa</l>
+          <l>que tutom luegu 'ls fa nosa:</l>
+          <l>pues que no hu prenguin en riure</l>
+          <l>que sens altres no 's pot viure,</l>
+          <l>y ha de contá de segú</l>
+          <l>que un home sol no es ningú,</l>
+          <l>perque aquell que no fa ré</l>
+          <l>los altres tot li an de fé,</l>
+          <l>y si ningú re li fes</l>
+          <l>podría menjá dinés.</l>
+          <l>Lo treball es lo que dona</l>
+          <l>lo sustento a la persona</l>
+          <l>¡Ya estariam arreglats</l>
+          <l>si tots estesim parats!</l>
+          <l>Ya sertam ben amichs</l>
+          <l>si acás tots fosim ben richs...</l>
+          <l>Com ningú treballaria</l>
+          <l>de teca no ni hauria,</l>
+          <l>ni roba pera vestir.</l>
+          <l>Ya fora un cas ben felis</l>
+          <l>lo veure a tothom nuhet</l>
+          <l>y tremolán si fes fret.</l>
+          <l>Que se 't veu alguna cosa...</l>
+          <l>que ti parin una llosa,</l>
+          <l>y aquell que 'l agafa es seu</l>
+          <l>segons va dir San Mateu.</l>
+          <l>De casas tampoch ni hauria!</l>
+          <l>¿donchs y al día que plouria</l>
+          <l>ó nevaría ó fes vent?</l>
+          <l>sense un piset ben calent,</l>
+          <l>no ho podriam resistí</l>
+          <l>y 'ns hauriam de mori.</l>
+          <l>Esteu ben desprehocupats,</l>
+          <l>que las grans necesitats</l>
+          <l>no las podém dispensá,</l>
+          <l>y aixi se han de respectá.</l>
+          <l>Ya veyeu, la rahó 'm sobra:</l>
+          <l>ya que un es rich, laltre pobre</l>
+          <l>y 'l mon avuy está així,</l>
+          <l>al que 'l te de manteni</l>
+          <l>que 'l tractin ab més cordura;</l>
+          <l>que avuy, tan sols amargura</l>
+          <l>donan sense posá fé</l>
+          <l>á 'n aquell que tot ho manté.</l>
+          <l>Los que no treballan gens</l>
+          <l>prenen molt bons alimens,</l>
+          <l>y 'l que te de treballá</l>
+          <l>ab prou feynas pot menjá.</l>
+          <l>Aixó es lo mon al revés;</l>
+          <l>perque aquell que no fa rés</l>
+          <l>ab poch menjá ja 'n te prou;</l>
+          <l>mentres que ara 's menja un bon</l>
+          <l>y l' infeliz que treballa</l>
+          <l>se te de menjá la palla;</l>
+          <l>y 'ls diuhen que son contraris,</l>
+          <l>que son revolusionaris</l>
+          <l>que son cafres desentesus:</l>
+          <l>Aixó hu diuhen los burgesus,</l>
+          <l>y es clá, lo pobre apurat</l>
+          <l>tan vé, que fa un disbarat.</l>
+          <l>ya podeu aná xiulán;</l>
+          <l>Las lleys claras ¿quinas son?</l>
+          <l>que tots em vingut al mon,</l>
+          <l>tant los richs com los pobrets,</l>
+          <l>tots varem naixe nuhets:</l>
+          <l>¿pues perque no ya drets iguals</l>
+          <l>havent nascut racionals?</l>
+          <l>Un que sempre ha treballat</l>
+          <l>ne tingui de aná á soldat.</l>
+          <l>¡Y aquell que may ha fet re</l>
+          <l>se 'n escapi tan lleujé!!!</l>
+          <l>¡Que es trist, rahó ó no rahó</l>
+          <l>vagi 'l pobre á la presó...!</l>
+          <l>Pero sabeu y entengueu</l>
+          <l>que y aurá un castich de Déu.</l>
+          <l>Déu va dí:.. siguéu jermans</l>
+          <l>y que may y aigi tirans;</l>
+          <l>ab tota l' anima y cor</l>
+          <l>porteuse tots gran amor...</l>
+          <l>poro si, ja avisarán,</l>
+
+          <pb n="3" source="Varios_055_3.jpg" facs="varios/Varios_055_3.jpg/"/>
+
+          <l>cuan 'l ase diu no vull beure</l>
+          <l>tan seval que hu deixeu jeure,</l>
+          <l>y aixís no y aurá remey,</l>
+          <l>fins que Déu fará de rey,</l>
+          <l>y al dolén castigará</l>
+          <l>ab la justicia á la má.</l>
+          <l>Llavorans tots los dolens</l>
+          <l>mudarán los pensaments,</l>
+          <l>y veurem que nit y día</l>
+          <l>tot nos causará alegría.</l>
+          <l>pero fills, á mi me part</l>
+          <l>que aixó vindrá bastant tart;</l>
+          <l>pero en tal cas que vingués</l>
+          <l>ningú may perdría rés.</l>
+          <l>Toquem un altre cantó</l>
+          <l>per veure qui te rahó.</l>
+          <l>Jo vey que no es decorós</l>
+          <l>que un pobre siga orgullós,</l>
+          <l>com sabeu que molts ni há</l>
+          <l>que apenas s' els pot parlá;</l>
+          <l>perque ja que treballadó</l>
+          <l>que si 's presenta ocasió</l>
+          <l>de un treball se encarregat,</l>
+          <l>¡no si torna poch malvat...!</l>
+          <l>Maltracta tota la gent,</l>
+          <l>fa torná al amo dolent</l>
+          <l>si es que el amo aigi estat bó.</l>
+          <l>Que tal ¿veritat aixó?...</l>
+          <l>Si homens si, que 'm direu,</l>
+          <l>si jo filo per tot arreu.</l>
+          <l>Si de tot aixó que passa</l>
+          <l>ne se una mica massa.</l>
+          <l>Aixó casi hu sap tutom</l>
+          <l>si es dulén un majordóm.</l>
+          <l>Veurém també algún pelat</l>
+          <l>que vol aná ben mudat,</l>
+          <l>que sense fé centinela</l>
+          <l>li agrada gastá la pela,</l>
+          <l>y cada día al café</l>
+          <l>com aquell que ya hu pot fé;</l>
+          <l>y vingan copas y puros</l>
+          <l>y ananse jugan los duros,</l>
+          <l>sense pará de fe mossas,</l>
+          <l>y cap á conquistá móssas,</l>
+          <l>y causá la perdisió</l>
+          <l>de un altre treballadó,</l>
+          <l>que haventli fet un favor</l>
+          <l>me 'l deix pelat y mitj mort.</l>
+          <l>Lo que aixó torbi ben fet</l>
+          <l>no será sinó un ximplet,</l>
+          <l>que tindría mol grós lo fetje</l>
+          <l>ab sentiment d'un cretje.</l>
+          <l>Sino que sempre tinch pó</l>
+          <l>que vinguin de tras cantó.</l>
+          <l>á ventarme un clatallót</l>
+          <l>algun estrany ó ximplot,</l>
+          <l>ya us en diria algunas</l>
+          <l>ab las lletras com á prunas,</l>
+          <l>pero ya me han ordenat</l>
+          <l>que tingui el bech ben xullat,</l>
+          <l>sinó 'm clavarían pera;</l>
+          <l>y cantant la miserera</l>
+          <l>m' auría de consolá</l>
+          <l>sense pogué ximullá.</l>
+          <l>De les noyas, que 'n dirém</l>
+          <l>si acás no las retallém?</l>
+          <l>També tenía pensat</l>
+          <l>de darlas un cop d' estat.</l>
+          <l>Ellas molt alegres viuhen</l>
+          <l>mentres de 'ls altres se riuhen,</l>
+          <l>sens pensá que moltas d' ellas,</l>
+          <l>tan casadas com donsellas,</l>
+          <l>que avuy fan cuasi be totas</l>
+          <l>mes faltas que las pilotas.</l>
+          <l>Ellas per na ben vestidas</l>
+          <l>se fórjan deu mil mentidas...</l>
+          <l>venense... lo que val mes</l>
+          <l>per la ambició dels calés.</l>
+          <l>¡No 'n fan pocas de traficas</l>
+          <l>sols per aná ben bonicas..</l>
+          <l>y per menjá tots los dias</l>
+          <l>las mes bonas llepolías:</l>
+          <l>pero en cabat. ¡Ay deu meu,</l>
+          <l>cuant surt alló que no 's véu!...</l>
+          <l>Quin llanto, santa Quiteria</l>
+          <l>cuan la cosa 's posa seria...!</l>
+          <l>Tot lo que abans era mel</l>
+          <l>se 'ls torna vinagre y fel;</l>
+          <l>y resulta tal ponsonya,</l>
+          <l>que yo, men dono vergonya...</l>
+          <l>en ſi no hu vull esplicá,</l>
+          <l>aixó no hu vull retallá.</l>
+          <l>Y parlán de casaments,</l>
+          <l>ne fan uns de tan dolens.</l>
+          <l>que per que los tals nos fésin.</l>
+          <l>que las iglesias tanquesin.</l>
+
+          <pb n="4" source="Varios_055_4.jpg" facs="varios/Varios_055_4.jpg/"/>
+
+          <l>ni 'ls valgués lo nou istil</l>
+          <l>del matrimoñi civil.</l>
+          <l>Mireuse be 'ls resultats</l>
+          <l>al poch temps que son casats.</l>
+          <l>Y si a cás tenen criaturas...</l>
+          <l>¡San Blay, quinas amarguras !!</l>
+          <l>tan goig que feyan fadrinas,</l>
+          <l>y después, semblan tunyinas,</l>
+          <l>no 's pantinan, tot son polls;</l>
+          <l>lus surten deu mil penjolls.</l>
+          <l>Fadrinas anavan macas,</l>
+          <l>y ara tot ellas son tacas.</l>
+          <l>Las sabatetas ab flochs</l>
+          <l>se han tornat garrichs garrochs,</l>
+          <l>son pit que era ben format</l>
+          <l>lo veureu tot desbrotxat,</l>
+          <l>tan monas que eran sas caras,</l>
+          <l>y ara brutas de mascaras</l>
+          <l>veureu al pobre marit</l>
+          <l>que 's veu tot repenedit:</l>
+          <l>no para de blasfemá</l>
+          <l>del dia que 's va casá.</l>
+          <l>de qui li va da entenent,</l>
+          <l>de formá aquell casament;</l>
+          <l>y apurat fins dal al coll</l>
+          <l>no para may lo suróll.</l>
+          <l>Lo mes dolen y 'l mes plagá</l>
+          <l>en cuan ell se queda en vaga,</l>
+          <l>y la quitxalla vol pá</l>
+          <l>y no 'ls hi poden doná.</l>
+          <l>Vaiga: ¿No ya matrimonis?</l>
+          <l>Lo que es avúy: francament,</l>
+          <l>ho sento di en molta gent,</l>
+          <l>que hasta el que está ben casat</l>
+          <l>li sembla que está enganyat.</l>
+          <l>Y ara us vull fe una altre gracia:</l>
+          <l>parlém de la aristocracia.</l>
+          <l>De aquets que 'n diuhen los richs</l>
+          <l>que sempre son tan bonichs,</l>
+          <l>que van tots plens de postisus.</l>
+          <l>¿Que us penseu que son felisus?</l>
+          <l>Ca barret, ca noy, ni mena;</l>
+          <l>ja passan la seva pena</l>
+          <l>Com que forman casaments</l>
+          <l>perque 'ls pervingvin mes bens,</l>
+          <l>en fí, ya sabeu lo que és</l>
+          <l>casarse per lo interés.</l>
+          <l>Molts se casan ab tal sort</l>
+          <l>sense sabé que es amor.</l>
+          <l>Ni que tingan tans dinés,</l>
+          <l>tenen cuestions de alló mes.</l>
+          <l>No si posan pochs de tiesus</l>
+          <l>cuan es cuestió de interesus.</l>
+          <l>Tenin tan de dineral</l>
+          <l>tan sols per valor de un ral,</l>
+          <l>una senyora mol curra</l>
+          <l>se deixá pega una surra.</l>
+          <l>¡Valgam Déu y santa Clara..</l>
+          <l>quina dona mes avara...!</l>
+          <l>Y, cregueume, que 'n tenía</l>
+          <l>de música y sinfonía.</l>
+          <l>Y per cuestió de amorios</l>
+          <l>los senyors, ja son bons fios</l>
+          <l>Ja mols de élls si no hu sabeu,</l>
+          <l>no están contens ab lo seu.</l>
+          <l>També ja 'ls seus embulichs</l>
+          <l>fen veure que son amichs.</l>
+          <l>Jo se que alguna vegada</l>
+          <l>també corra la trompada,</l>
+          <l>y al véurels tan ben posats</l>
+          <l>diréu que no trencan plats.</l>
+          <l>Y ellas tan serias y ufanas...</l>
+          <l>y no ja pas tantas ranas</l>
+          <l>com ellas fan en un any</l>
+          <l>a las voras de un estany;</l>
+          <l>de modu, que 'l mon está</l>
+          <l>casi a punt de rebentá,</l>
+          <l>y un día fará un estruendo,</l>
+          <l>tan terrible y tan tremendo,</l>
+          <l>que no quedará ni un gat</l>
+          <l>que no quedi esquelebrat.</l>
+          <l>Sols quedará vensedora</l>
+          <l>aquesta gran estisora,</l>
+          <l>pera pugué retallá</l>
+          <l>an aquell que se escapará.</l>
+          <l>Perdoneume si aixó cou</l>
+          <l>per avuy ja ni ha prou.</l>
+
+          <trailer rend="negrita">FÍ</trailer>
         </div>
+
         <div type="colofon">
-          <p><lb/>Imps.
-                                    Hospital, 19, (El Abanico)</p>
+          <p><lb/>Imps. Hospital, 19, (El Abanico)</p>
         </div>
       </div>
     </body>

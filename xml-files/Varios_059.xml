@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../Schema/oddPliego_varios.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:alto="http://www.loc.gov/standards/alto/ns-v4#" xml:id="Varios_059">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Varios_059">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -11,8 +11,7 @@
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <authority role="rightsHolder">Bibliothèque Universitaire de
-                              Genève</authority>
+        <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
         <availability status="restricted">
           <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
         </availability>
@@ -20,11 +19,9 @@
       <sourceDesc>
         <biblFull>
           <titleStmt>
-            <title type="titulo_completo">TESTAMENT Y ENTERRO DE UNA PUSSA
-                                          ESPLICAT AB GRANS GATADAS COM HU VEURÁ LO QUEHU LLEIGEIXI.
-                                          PER J. F. (A) Q.</title>
-            <title type="titulo_breve">TESTAMENT Y ENTERRO DE UNA
-                                          PUSSA</title>
+            <title type="titulo_completo">TESTAMENT Y ENTERRO DE UNA PUSSA ESPLICAT AB GRANS GATADAS
+              COM HU VEURÁ LO QUEHU LLEIGEIXI. PER J. F. (A) Q.</title>
+            <title type="titulo_breve">TESTAMENT Y ENTERRO DE UNA PUSSA</title>
           </titleStmt>
           <editionStmt>
             <p/>
@@ -32,7 +29,7 @@
           <publicationStmt>
             <publisher>La Fleca</publisher>
             <pubPlace ref="https://www.geonames.org/3111933/reus.html">Reus</pubPlace>
-            <date>[s.a]</date>
+            <date cert="low" when="1800-01-01">[s.a.]</date>
           </publicationStmt>
         </biblFull>
         <msDesc>
@@ -40,7 +37,8 @@
             <country>Suisse</country>
             <settlement>Genève</settlement>
             <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"/>
-                                    </repository>
+            </repository>
+            <collection>Colección Varios</collection>
             <idno type="cote"/>
             <idno type="DOI">10.5281/zenodo.6557750</idno>
             <altIdentifier>
@@ -48,10 +46,18 @@
             </altIdentifier>
           </msIdentifier>
           <msContents>
-            <summary/>
+            <summary>Tres partes</summary>
             <msItem>
-              <locus/>
+              <locus>1-2</locus>
               <title/>
+            </msItem>
+            <msItem>
+              <locus>2-3</locus>
+              <title>Mon testament</title>
+            </msItem>
+            <msItem>
+              <locus>3-4</locus>
+              <title>Enterro....</title>
             </msItem>
           </msContents>
           <physDesc>
@@ -69,7 +75,7 @@
               </layoutDesc>
             </objectDesc>
             <decoDesc>
-              <summary n="1">Uno grabado (p.1) </summary>
+              <summary n="1">Un grabado (p.1) </summary>
               <decoNote type="lista_grabados">
                 <list>
                   <item corresp="grabado_v_059_1.xml">grabado_v_059_1</item>
@@ -96,18 +102,17 @@
     </fileDesc>
     <encodingDesc>
       <projectDesc>
-        <p>Este archivo fue creado en el marco del proyecto Desenrollando el
-                              Cordel/Démêler le cordel/Untangling the cordel, dirigido por la
-                              profesora Constance Carta de la Universidad de Ginebra, con el apoyo
-                              de la Fundación filantrópica Famille Sandoz-Monique de Meuron.</p>
+        <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+          cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la Universidad
+          de Ginebra, con el apoyo de la Fundación filantrópica Famille Sandoz-Monique de
+          Meuron.</p>
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR non corregido</p>
+          <p>OCR no corregido</p>
         </correction>
         <normalization>
-          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto
-                                    original.</p>
+          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
         </normalization>
         <punctuation>
           <p>Se conserva la puntuación original.</p>
@@ -116,7 +121,7 @@
     </encodingDesc>
     <profileDesc>
       <langUsage>
-        <language ident="es">Español</language>
+        <language ident="ca">Catalán</language>
       </langUsage>
       <textClass>
         <keywords xml:base="http://datos.bne.es/tema/">
@@ -128,10 +133,14 @@
       </textClass>
     </profileDesc>
     <revisionDesc>
-      <change when="2022-06-15" who="#PJ">Création du fichier TEI P5 et encodage du
-                        corps du texte</change>
+      <change when="2022-06-15" who="#PJ">Création du fichier TEI P5 et encodage du corps du
+        texte</change>
+      <change when="2024-01-09" who="#EL">Add the IIIF links</change>
     </revisionDesc>
   </teiHeader>
+  <facsimile>
+    <graphic url="varios/Varios_059_1.jpg/full/200,/0/default.jpg"/>
+  </facsimile>
   <sourceDoc xml:id="automaticTranscription">
     <surface xml:id="Varios_059_1" type="page" cert="silver">
       <graphic url="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_059_1/full/full/0/default.jpg"/>
@@ -1264,18 +1273,18 @@
       <zone xml:id="Varios_059_4_BT228_7" n="7" type="MarginTextZone" subtype="colophon" points="973,2436 166,2425 166,2287 219,2243 1656,2260 1673,2390 1070,2434 1120,2445 925,2445 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_059_4/166,2243,1507,202/full/0/default" corresp="MarginTextZone:colophon">
         <zone xml:id="Varios_059_4_BT228_7_LT83_1" type="DefaultLine" subtype="none" points="201,2278 201,2223 1651,2236 1664,2291 1660,2309 199,2295 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_059_4/199,2223,1465,86/full/0/default" corresp="DefaultLine">
           <path xml:id="Varios_059_4_BT228_7_LT83_1_1" points="201,2278 1664,2291 "/>
-          <line>REUS.—En casa de Joan Grau, carré de Aleus, núm. 1, es venen
-                                    romansos, sainets.</line>
+          <line>REUS.—En casa de Joan Grau, carré de Aleus, núm. 1, es venen romansos,
+            sainets.</line>
         </zone>
         <zone xml:id="Varios_059_4_BT228_7_LT83_2" type="DefaultLine" subtype="none" points="164,2322 164,2274 1076,2291 1107,2291 1226,2282 1228,2282 1228,2282 1228,2282 1230,2282 1230,2282 1230,2282 1250,2293 1252,2293 1269,2293 1419,2285 1421,2285 1421,2285 1421,2285 1423,2285 1423,2285 1423,2285 1445,2295 1445,2295 1447,2295 1642,2287 1645,2287 1645,2287 1645,2287 1647,2287 1647,2287 1649,2287 1649,2287 1666,2300 1664,2337 1660,2346 162,2339 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_059_4/162,2274,1504,72/full/0/default" corresp="DefaultLine">
           <path xml:id="Varios_059_4_BT228_7_LT83_2_1" points="164,2322 1664,2337 "/>
-          <line>histories l llibrets a preus equitatius. Dipósit de llibrets
-                                    per a fumar l capses de mistos, gran</line>
+          <line>histories l llibrets a preus equitatius. Dipósit de llibrets per a fumar l capses
+            de mistos, gran</line>
         </zone>
         <zone xml:id="Varios_059_4_BT228_7_LT83_3" type="DefaultLine" subtype="none" points="164,2370 164,2331 1662,2342 1664,2381 1662,2425 1074,2425 1072,2423 1072,2423 1070,2423 1070,2423 1068,2423 1068,2423 1048,2407 1022,2390 726,2398 712,2398 710,2398 710,2398 704,2398 640,2388 614,2396 607,2398 607,2398 605,2398 605,2398 603,2398 162,2383 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_059_4/162,2331,1502,94/full/0/default" corresp="DefaultLine">
           <path xml:id="Varios_059_4_BT228_7_LT83_3_1" points="164,2370 1664,2381 "/>
-          <line>surtit de paper d'escriure, sobres per cartes, plomes, mangos i
-                                    llapideres. Gran surtit de</line>
+          <line>surtit de paper d'escriure, sobres per cartes, plomes, mangos i llapideres. Gran
+            surtit de</line>
         </zone>
         <zone xml:id="Varios_059_4_BT228_7_LT83_4" type="DefaultLine" subtype="none" points="162,2420 162,2370 1061,2383 1061,2420 1061,2477 835,2477 833,2475 833,2475 831,2475 831,2475 811,2469 754,2444 706,2444 693,2458 693,2460 693,2460 690,2460 690,2460 690,2460 688,2460 688,2460 686,2460 686,2460 686,2460 684,2460 684,2460 640,2442 590,2460 590,2460 587,2460 587,2460 587,2460 585,2460 585,2460 585,2460 583,2460 583,2460 583,2460 581,2460 581,2460 559,2444 162,2444 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_059_4/162,2370,899,107/full/0/default" corresp="DefaultLine">
           <path xml:id="Varios_059_4_BT228_7_LT83_4_1" points="162,2420 1061,2420 "/>
@@ -1287,321 +1296,313 @@
   <text>
     <body>
       <div>
-        <pb n="1" source="Varios_059_1.jpg" facs="fedora_Varios_059_1/full/full/0/default.jpg"/>
-        <head type="primer_titulo"><lb/>TESTAMEAT Y ENTERRO<lb/>DE UNA PUSSA</head>
         <div>
+          <pb n="1" source="Varios_059_1.jpg" facs="varios/Varios_059_1.jpg/"/>
+
+          <head type="primer_titulo" rend="negrita"><lb/>TESTAMEAT Y ENTERRO<lb/>DE UNA PUSSA</head>
           <head type="subtitulo_parte"><lb/>ESPLICAT AB GRANS GATADAS COM HU VEURÁ LO QUE<lb/>HU
-                                    LLEIGEIXI. PER J. F. (A) Q.</head>
-          <lg>
-            <l>A una ciutat molt grandiosa</l>
+            LLEIGEIXI. PER J. F. (A) Q.</head>
+
+          <div>
+            <l rend="indent">A una ciutat molt grandiosa</l>
             <l>un gran cas va sucsuhi</l>
             <l>perque allí si va morí</l>
             <l>la pusa mes horrorosa.</l>
-            <l>Potsé n'han sentit parlá</l>
+            <l rend="indent">Potsé n'han sentit parlá</l>
             <l>de sons fets i sas assanyes</l>
             <l>perque ab sas males entranyes</l>
             <l>a mitg mon va derrotá.</l>
-            <l>Li van trobá el testament,</l>
+            <l rend="indent">Li van trobá el testament,</l>
             <l>que crec que el va escriura ella,</l>
-          </lg>
-          <lg>
             <l>dintre el forat d'una orella</l>
             <l>i el va lleigi molta gent.</l>
-            <l>Com era cosa desenta</l>
+            <l rend="indent">Com era cosa desenta</l>
             <l>tothom lo volgué lleigi,</l>
             <l>i per poderlo adquirí</l>
             <l>lo varen portá a la imprenta.</l>
-            <l>Passava d'un milió</l>
+            <l rend="indent">Passava d'un milió</l>
             <l>los examplars que es van fe,</l>
             <l>i aquet romanso o papé</l>
             <l>es una copia d'alló.</l>
-          </lg>
-          <pb n="2" source="Varios_059_2.jpg" facs="fedora_Varios_059_2/full/full/0/default.jpg"/>
-          <lg>
-            <l>Com que ya veurán vostés</l>
+
+            <pb n="2" source="Varios_059_2.jpg" facs="varios/Varios_059_2.jpg/"/>
+
+            <l rend="indent">Com que ya veurán vostés</l>
             <l>que aixó deu se veritat,</l>
             <l>o sino en aquella ciutat</l>
             <l>no hu haurían pas imprés.</l>
-            <l>Ya saben que aquest mon</l>
+            <l rend="indent">Ya saben que aquest mon</l>
             <l>entre entradas i sortidas</l>
             <l>cuasi que tot son mentides...</l>
             <l>pero aixó si que no u son.</l>
-          </lg>
-          <lg>
-            <l>Perqué el que va lleigí alló,</l>
+            <l rend="indent">Perqué el que va lleigí alló,</l>
             <l>podía se buñolero</l>
             <l>pero no, res d'embustero,</l>
             <l>d'aixó ya us en responc yo.</l>
-            <l>Dons com anava diént</l>
+            <l rend="indent">Dons com anava diént</l>
             <l>perque cuasi res no ey dit,</l>
             <l>aquell gran famós escrit,</l>
             <l>deya aixó:</l>
-          </lg>
-        </div>
-        <div>
-          <head type="titulo_parte"><lb/>MON TESTAMENT</head>
-          <lg>
-            <l>Ya se que ey fet molt de mal</l>
+          </div>
+
+          <div>
+            <head type="titulo_parte"><lb/>MON TESTAMENT</head>
+
+            <l rend="indent">Ya se que ey fet molt de mal</l>
             <l>perque cap pussa fa bé,</l>
             <l>pero quant me moriré</l>
             <l>m'han de fe un gran funeral.</l>
-            <l>Cantareume «el gori gori»</l>
+            <l rend="indent">Cantareume «el gori gori»</l>
             <l>aixó si, ben entonat:</l>
             <l>si algú de mi está cremat</l>
             <l>tampoc no caldrá que plori.</l>
-            <l>Deixo yo primé que tot</l>
+            <l rend="indent">Deixo yo primé que tot</l>
             <l>han aquell que ey fet gratá mes,</l>
             <l>lo mes petit interés:</l>
             <l>li deixo els quartos per dot.</l>
-            <l>Las pelas las vull deixá,</l>
+            <l rend="indent">Las pelas las vull deixá,</l>
             <l>sense contá las agafas,</l>
             <l>als que siguin mes estafas</l>
             <l>i aixís no haurán d'estafá.</l>
-            <l>Las monedas de vint rals</l>
+            <l rend="indent">Las monedas de vint rals</l>
             <l>son duros i els deixeré</l>
             <l>han aquell que no paga ré,</l>
             <l>m'agradan homes formals.</l>
-            <l>I tot lo demés de plata,</l>
+            <l rend="indent">I tot lo demés de plata,</l>
             <l>o deixo sense interés</l>
             <l>han aquell que sens mes ni mes</l>
             <l>han molts que están bons los mata.</l>
-            <l>Ara tinc de deixá l'ort</l>
+            <l rend="indent">Ara tinc de deixá l'ort</l>
             <l>i no ya qui s'el mereixi...</l>
             <l>pero es precís que yo el deixi</l>
             <l>antes nom vinga la mort.</l>
-            <l>Las dobletas de cinc duros</l>
+            <l rend="indent">Las dobletas de cinc duros</l>
             <l>la maitat son pels gurrerus</l>
             <l>i els altres pels embusteros</l>
             <l>i aixís surtirán d'apuros.</l>
-            <l>Las dobles de quatre son</l>
+            <l rend="indent">Las dobles de quatre son</l>
             <l>pels mes dropus i dolents,</l>
             <l>i si acás no están contents,</l>
             <l>que vinguin al altre mon.</l>
-          </lg>
-          <lg>
-            <l>que cuasi ensenyan la seba,</l>
+            <l rend="indent">que cuasi ensenyan la seba,</l>
             <l>Als que van vestits de draps</l>
             <l>«com aixó es voluntad meva»</l>
             <l>los deixo als meus mals de caps.</l>
-            <l>Al que es lleva dematí</l>
+            <l rend="indent">Al que es lleva dematí</l>
             <l>pera guanyarse la vida,</l>
             <l>han aquell pobre al dono a dida</l>
             <l>o han aquell li deixo al dormí.</l>
-            <l>Al que sempre surt i entra,</l>
+            <l rend="indent">Al que sempre surt i entra,</l>
             <l>que mortifica la gent</l>
             <l>i que may está content:</l>
             <l>li deixo un bon mal de ventre.</l>
-            <l>Al que em fará l'ataut</l>
+            <l rend="indent">Al que em fará l'ataut</l>
             <l>li dono tot lo que em sobre</l>
             <l>pero si per cas es pobre</l>
             <l>o deixo ab un geperút.</l>
-            <l>Al que per mi toqui a morts,</l>
+            <l rend="indent">Al que per mi toqui a morts,</l>
             <l>que deurá se el campané</l>
             <l>han aquel li deixo també</l>
             <l>totas las vinyas i orts.</l>
-            <l>Als fossés los vull deixá</l>
+            <l rend="indent">Als fossés los vull deixá</l>
             <l>tot lo que costa una guerra</l>
             <l>i sent mil jornals de terra</l>
             <l>per quant m'hagin d'enterrá.</l>
-            <l>Al que trobin que es mes xato</l>
+            <l rend="indent">Al que trobin que es mes xato</l>
             <l>«aixó hu deixo encarregat»</l>
             <l>ni que tinga el nas xafat</l>
             <l>li han de dá el meu retrato.</l>
-            <l>Al que no es vulga casá</l>
+            <l rend="indent">Al que no es vulga casá</l>
             <l>i vulgui formá maranyas,</l>
             <l>li deixo totas las banyas</l>
             <l>del remat de bestiá.</l>
-            <l>A la noya mes felís</l>
+            <l rend="indent">A la noya mes felís</l>
             <l>pel dia que fassi boda</l>
             <l>li deixo totas las modas,</l>
             <l>de portaru tot postís,</l>
-          </lg>
-          <pb n="3" source="Varios_059_3.jpg" facs="fedora_Varios_059_3/full/full/0/default.jpg"/>
-          <lg>
-            <l>An aquell que no siga bort,</l>
+
+            <pb n="3" source="Varios_059_3.jpg" facs="varios/Varios_059_3.jpg/"/>
+
+            <l rend="indent">An aquell que no siga bort,</l>
             <l>si per cas es jugadó</l>
             <l>i el treballá li fa pó,</l>
             <l>li deixo la meva sórt.</l>
-            <l>Als que van per tot arreu</l>
+            <l rend="indent">Als que van per tot arreu</l>
             <l>i que sempre están cridant,</l>
             <l>i un empleo van buscan</l>
             <l>los deixo la meva veu.</l>
-          </lg>
-          <lg>
-            <l>Ya es poden acontentá:</l>
+            <l rend="indent">Ya es poden acontentá:</l>
             <l>canteume el Kirie leysòn</l>
             <l>perque yo men vay del mon</l>
             <l>i tot o tinc de deixá.</l>
-            <l>Aquí teniu I'últim vot</l>
+            <l rend="indent">Aquí teniu I'últim vot</l>
             <l>i aquí os deixo en nom de Deu,</l>
             <l>i com que no ya res meu</l>
             <l>os u tinc de deixá tot.</l>
-          </lg>
-        </div>
-        <div>
-          <head type="titulo_parte"><lb/>ENTERRO....</head>
-          <lg>
-            <l>A las tres del dematí</l>
+          </div>
+
+          <div>
+            <head type="titulo_parte"><lb/>ENTERRO....</head>
+
+            <l rend="indent">A las tres del dematí</l>
             <l>an aquella gran ciutat,</l>
             <l>ningú de tot lo veinat</l>
             <l>se va cuidá de dormí.</l>
-            <l>Norante tres escallóts</l>
+            <l rend="indent">Norante tres escallóts</l>
             <l>grossos a no pugué mes</l>
             <l>sonaban per los carrés</l>
             <l>i els tucavan nou ninots.</l>
-            <l>Aguereu vist la gentusa;</l>
+            <l rend="indent">Aguereu vist la gentusa;</l>
             <l>espentas, crits, quin tresbals!!...</l>
             <l>tan be rics, com manestrals</l>
             <l>tothom a veure la pussa.</l>
-            <l>Una colla d'esmulets</l>
+            <l rend="indent">Una colla d'esmulets</l>
             <l>estaven encarregats</l>
             <l>de fe miulá tots los gats</l>
             <l>i de dispará cuhuets.</l>
-            <l>Van llogá nou geperuts</l>
+            <l rend="indent">Van llogá nou geperuts</l>
             <l>« ara que hi soc tot o xerru »</l>
             <l>per avisá per l'enterro</l>
             <l>sens pará de fe estornuts.</l>
-            <l>«A cala pussa tot Deu»</l>
+            <l rend="indent">«A cala pussa tot Deu»</l>
             <l>deya un boig en castella:</l>
             <l>«L'enterro aurém d'arreglá»</l>
             <l>va, feu vía que ya si veu.</l>
-            <l>Va compareixén canalla</l>
+            <l rend="indent">Va compareixén canalla</l>
             <l>tots agafats per la ma,</l>
             <l>i dos d'allá l'Ampurdá</l>
             <l>anavan tocan la gralla.</l>
-            <l>A las vuit del dematí</l>
+            <l rend="indent">A las vuit del dematí</l>
             <l>l'enterro ya es comensava,</l>
             <l>lo mes mal que pluviscava</l>
             <l>al moment que va surtí.</l>
-            <l>Al davant «haveu d'entendre»</l>
+            <l rend="indent">Al davant «haveu d'entendre»</l>
             <l>i anava un que es diu Rumescu</l>
             <l>que ballaba el tiu frescu</l>
             <l>i un altra li anava a ensendra.</l>
-          </lg>
-          <lg>
-            <l>En seguida una bandera</l>
+            <l rend="indent">En seguida una bandera</l>
             <l>feta de llae d'una bassa,</l>
             <l>no diré que valgués massa</l>
             <l>pero de bonica hu era.</l>
-            <l>Després anavan passán</l>
+            <l rend="indent">Després anavan passán</l>
             <l>una colla de fulanos</l>
             <l>tot ballán lo ball dels nanos</l>
             <l>i entre mitg d'ells un gegant.</l>
-            <l>Al detrás deu minyonetas</l>
+            <l rend="indent">Al detrás deu minyonetas</l>
             <l>i totas salta que salta,</l>
             <l>i l'una detrás l'altre</l>
             <l>tot anan fen figaretas.</l>
-            <l>I tot fen ram, patam, plam</l>
+            <l rend="indent">I tot fen ram, patam, plam</l>
             <l>i bramán i fen mols trinus</l>
             <l>seguían un mun de guinus</l>
             <l>i tots ab uns mocs de pam.</l>
-            <l>I un vestit de Moro Musa</l>
+            <l rend="indent">I un vestit de Moro Musa</l>
             <l>marxava portant dos covens:</l>
             <l>junt ab una colla de jovens</l>
             <l>que tots anavan de pussa.</l>
-            <l>Era un vestit imitat</l>
+            <l rend="indent">Era un vestit imitat</l>
             <l>ab las pussas que vayém;</l>
             <l>era una cosa ab extrém</l>
             <l>alló tan ben arreglat.</l>
-            <l>Després una gran música</l>
+            <l rend="indent">Després una gran música</l>
             <l>tocán un fandango trist:</l>
             <l>«diu que may del mon s'ha vist</l>
             <l>una cosa tan bonica.»</l>
-            <l>Eran a cual mes ganduls</l>
+            <l rend="indent">Eran a cual mes ganduls</l>
             <l>los músics i els grans panarras,</l>
             <l>se daban cops a las barras</l>
             <l>i patacades al cul.</l>
-            <l>I després d'aixó passavan</l>
+            <l rend="indent">I després d'aixó passavan</l>
             <l>una colla de bagasses</l>
             <l>i com estavan tan grasses</l>
             <l>totas alhora ploraran.</l>
-          </lg>
-          <pb n="4" source="Varios_059_4.jpg" facs="fedora_Varios_059_4/full/full/0/default.jpg"/>
-          <lg>
-            <l>Tot un acompayament</l>
+
+            <pb n="4" source="Varios_059_4.jpg" facs="varios/Varios_059_4.jpg/"/>
+
+            <l rend="indent">Tot un acompayament</l>
             <l>de mes de deu mil persones</l>
             <l>jayus, nois, homens i donas,</l>
             <l>ya en podeu contá de gent.</l>
-            <l>L'un vestit de vermell,</l>
+            <l rend="indent">L'un vestit de vermell,</l>
             <l>l'altre tot vestit de vert,</l>
             <l>alló era un desconcert,</l>
             <l>ningú tenta servell.</l>
-            <l>Com que ab aixó ningú es cansa.</l>
+            <l rend="indent">Com que ab aixó ningú es cansa.</l>
             <l>ya podeu aná cantán...</l>
             <l>que tot anant caminan</l>
             <l>ballavan la quantre dansa.</l>
-            <l>Allí giscles, allí plos,</l>
+            <l rend="indent">Allí giscles, allí plos,</l>
             <l>xiulets, badalls i hasta rots:</l>
             <l>es a dí que de tots, tots</l>
             <l>era el mes escandalós.</l>
-            <l>Una barraca de canyes</l>
+            <l rend="indent">Una barraca de canyes</l>
             <l>tirada per quatre bous,</l>
             <l>tots portavan vestits nous</l>
             <l>pero no portavan banyes.</l>
-            <l>I tots los que feyan llum</l>
+            <l rend="indent">I tots los que feyan llum</l>
             <l>per achas, trossos de corda :</l>
             <l>i una dona que era sorda</l>
             <l>cridava: feu massa fum.</l>
-            <l>Després vingué l'ataut,</l>
+            <l rend="indent">Després vingué l'ataut,</l>
             <l>tota feta de redoltas</l>
             <l>i cantava las ensoltas</l>
             <l>un gitano que era mut.</l>
-            <l>La ataut sense costellas:</l>
+            <l rend="indent">La ataut sense costellas:</l>
             <l>tot lo jas era d'espart;</l>
-          </lg>
-          <lg>
             <l>i com es mol regular</l>
             <l>lo portavan quatre vellas.</l>
-            <l>anavan al cap de dol</l>
+            <l rend="indent">anavan al cap de dol</l>
             <l>¡I quinas caras mes feyas</l>
             <l>i anavan ab desconsol</l>
             <l>quatre escura chimaneas!</l>
-            <l>que donava molts trotolls,</l>
+            <l rend="indent">que donava molts trotolls,</l>
             <l>Després un carro de ferro</l>
             <l>tot ple de chinches i polls...</l>
             <l>era el final del enterro.</l>
-            <l>que era dal d'una montanya,</l>
+            <l rend="indent">que era dal d'una montanya,</l>
             <l>Quant van acabá el cami</l>
             <l>¡quina cosa mes estranya</l>
             <l>lo que allí va sucsuhí!</l>
-            <l>comensá el mon a fe brams,</l>
+            <l rend="indent">comensá el mon a fe brams,</l>
             <l>Se va posá a pluviscá</l>
             <l>pluja, pedra, trons i llams,</l>
             <l>alló feya esparverá.</l>
-            <l>Ningú s'estava segú,</l>
+            <l rend="indent">Ningú s'estava segú,</l>
             <l>tothom temía la mort;</l>
             <l>se sen un tro molt refort...</l>
             <l>ya no es va veure ningú..</l>
-            <l>¿Dones veyám qui esplicará</l>
+            <l rend="indent">¿Dones veyám qui esplicará</l>
             <l>lo que alli va sucsuhí,</l>
             <l>si tothom se va morí</l>
             <l>vustés deurán preguntá?</l>
-            <l>Sols hu sap aquet papé</l>
+            <l rend="indent">Sols hu sap aquet papé</l>
             <l>las assanyas tal com son,</l>
             <l>que a vingut... del altre mon,</l>
             <l>de quin modu, no hu sé.</l>
-          </lg>
-          <lg>
-            <l>Qui vulgui passá un bon rato</l>
-            <l>i olvidar mals pensaments,</l>
-            <l>que esquitxi cinc centimens</l>
-            <l>que em sembla que es prou barato.</l>
-          </lg>
-          <trailer>FI</trailer>
+
+            <lg>
+              <l rend="indent">Qui vulgui passá un bon rato</l>
+              <l>i olvidar mals pensaments,</l>
+              <l>que esquitxi cinc centimens</l>
+              <l>que em sembla que es prou barato.</l>
+            </lg>
+            <trailer rend="negrita">FI</trailer>
+          </div>
         </div>
-        <div type="propiedad">
-          <p><lb/>Es propietat de Joan Grau.</p>
+        
+        <div>
+          <p rend="negrita"><lb/>Es propietat de Joan Grau.</p>
         </div>
+        
         <div type="colofon">
           <p><lb/>Imp. «La Fleca»</p>
         </div>
+        
         <div type="productos_a_la_venta">
-          <p><lb/>REUS.—En casa de Joan Grau, carré de Aleus, núm. 1, es venen
-                                    romansos, sainets. histories l llibrets a preus equitatius.
-                                    Dipósit de llibrets per a fumar l capses de mistos, gran surtit
-                                    de paper d'escriure, sobres per cartes, plomes, mangos i
-                                    llapideres. Gran surtit de paraigues, sombriles, vanos, juguets
-                                    i nines, etc., etc.</p>
+          <p><lb/>REUS.—En casa de Joan Grau, carré de Aleus, núm. 1, es venen romansos, sainets.
+            histories l llibrets a preus equitatius. Dipósit de llibrets per a fumar l capses de
+            mistos, gran surtit de paper d'escriure, sobres per cartes, plomes, mangos i llapideres.
+            Gran surtit de paraigues, sombriles, vanos, juguets i nines, etc., etc.</p>
         </div>
       </div>
     </body>

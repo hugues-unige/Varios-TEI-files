@@ -27,9 +27,9 @@
             <p/>
           </editionStmt>
           <publicationStmt>
-            <publisher>Imps. “El Abanico”</publisher>
+            <publisher>El Abanico</publisher>
             <pubPlace ref="https://www.geonames.org/3128760/barcelona.html">Barcelona</pubPlace>
-            <date cert="high">[s.a]</date>
+            <date cert="low" when="1800-01-01">[s.a.]</date>
           </publicationStmt>
         </biblFull>
         <msDesc>
@@ -38,6 +38,7 @@
             <settlement>Genève</settlement>
             <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"/>
                                     </repository>
+            <collection>Colección Varios</collection>
             <idno type="cote"/>
             <idno type="DOI">10.5281/zenodo.6783932</idno>
             <altIdentifier>
@@ -106,7 +107,7 @@
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR non corregido</p>
+          <p>OCR no corregido</p>
         </correction>
         <normalization>
           <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto
@@ -133,9 +134,10 @@
     <revisionDesc>
       <change when="2023-11-01" who="#PJ">Création du fichier TEI P5 et encodage du
                         corps du texte</change>
+<change when="2024-01-09" who="#EL">Add the IIIF links</change>
     </revisionDesc>
   </teiHeader>
-  <sourceDoc xml:id="automaticTranscription">
+  <facsimile><graphic url="varios/Varios_400_1.jpg/full/200,/0/default.jpg"/></facsimile><sourceDoc xml:id="automaticTranscription">
     <surface xml:id="Varios_400_1" type="page" cert="silver">
       <graphic url="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_400_1/full/full/0/default.jpg"/>
       <zone xml:id="Varios_400_1_BT221_1" n="1" type="CustomZone" subtype="impresorNum" points="1534,110 1534,191 1279,191 1279,110 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_400_1/1279,110,255,81/full/0/default" corresp="CustomZone:impresorNum">
@@ -1592,7 +1594,7 @@
   <text>
     <body>
       <div>
-        <pb n="1" source="Varios_400_1.jpg" facs="fedora_Varios_400_1/full/full/0/default.jpg"/>
+        <pb n="1" source="Varios_400_1.jpg" facs="varios/Varios_400_1.jpg/"/>
         <fw type="impresorNum">(Núm. 571)</fw>
         <div type="parte" n="1">
           <head type="primer_titulo"><lb/>DÉCIMAS AGUDAS Y ALEGRES.</head>
@@ -1649,7 +1651,7 @@
         </div>
         <div>
           <div>
-            <pb n="2" source="Varios_400_2.jpg" facs="fedora_Varios_400_2/full/full/0/default.jpg"/>
+            <pb n="2" source="Varios_400_2.jpg" facs="varios/Varios_400_2.jpg/"/>
             <lg rend="cursiva">
               <l>Sa señora jeu enterra</l>
               <l>y es señó jeu en es llit,</l>
@@ -1750,7 +1752,7 @@
               <l>y per aixó sentim dí</l>
               <l rend="cursiva">cap barca com es correu.</l>
             </lg>
-            <pb n="3" source="Varios_400_3.jpg" facs="fedora_Varios_400_3/full/full/0/default.jpg"/>
+            <pb n="3" source="Varios_400_3.jpg" facs="varios/Varios_400_3.jpg/"/>
             <lg>
               <l>Sa vida d'un mariné</l>
               <l>es una vida penosa,</l>
@@ -1842,7 +1844,7 @@
               <l rend="cursiva">es molt poch es guany que té.</l>
             </lg>
           </div>
-          <pb n="4" source="Varios_400_4.jpg" facs="fedora_Varios_400_4/full/full/0/default.jpg"/>
+          <pb n="4" source="Varios_400_4.jpg" facs="varios/Varios_400_4.jpg/"/>
           <div type="colofón_vendedor">
             <p><lb/>En la tenda de M. BORRAS y á se caseta de fusta costa
                                           des teatro se tro-<lb/>barán els siguients<lb/>FOLLETOS

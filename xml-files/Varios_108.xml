@@ -1,19 +1,17 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../Schema/oddPliego_varios.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:alto="http://www.loc.gov/standards/alto/ns-v4#" xml:id="Varios_108">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Varios_108">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>COPLAS NUEVAS GLOSADAS EN DECIMAS, PARA CANTAR LOS
-                              AFICIONADOS.</title>
+        <title>COPLAS NUEVAS GLOSADAS EN DECIMAS, PARA CANTAR LOS AFICIONADOS</title>
         <respStmt>
           <name/>
           <resp>Codificación TEI</resp>
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <authority role="rightsHolder">Bibliothèque Universitaire de
-                              Genève</authority>
+        <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
         <availability status="restricted">
           <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
         </availability>
@@ -21,17 +19,17 @@
       <sourceDesc>
         <biblFull>
           <titleStmt>
-            <title type="titulo_completo">COPLAS NUEVAS GLOSADAS EN DECIMAS,
-                                          PARA CANTAR LOS AFICIONADOS.</title>
+            <title type="titulo_completo">COPLAS NUEVAS GLOSADAS EN DECIMAS, PARA CANTAR LOS
+              AFICIONADOS.</title>
             <title type="titulo_breve"/>
           </titleStmt>
           <editionStmt>
             <p/>
           </editionStmt>
           <publicationStmt>
-            <publisher>Imprenta de Laborda</publisher>
+            <publisher>Laborda</publisher>
             <pubPlace ref="https://www.geonames.org/2510911/sevilla.html">Sevilla</pubPlace>
-            <date>[s.a]</date>
+            <date cert="low" when="1800-01-01">[s.a.]</date>
           </publicationStmt>
         </biblFull>
         <msDesc>
@@ -39,7 +37,8 @@
             <country>Suisse</country>
             <settlement>Genève</settlement>
             <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"/>
-                                    </repository>
+            </repository>
+            <collection>Colección Varios</collection>
             <idno type="cote"/>
             <idno type="DOI">10.5281/zenodo.6576167</idno>
             <altIdentifier>
@@ -91,18 +90,17 @@
     </fileDesc>
     <encodingDesc>
       <projectDesc>
-        <p>Este archivo fue creado en el marco del proyecto Desenrollando el
-                              Cordel/Démêler le cordel/Untangling the cordel, dirigido por la
-                              profesora Constance Carta de la Universidad de Ginebra, con el apoyo
-                              de la Fundación filantrópica Famille Sandoz-Monique de Meuron.</p>
+        <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+          cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la Universidad
+          de Ginebra, con el apoyo de la Fundación filantrópica Famille Sandoz-Monique de
+          Meuron.</p>
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR non corregido</p>
+          <p>OCR no corregido</p>
         </correction>
         <normalization>
-          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto
-                                    original.</p>
+          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
         </normalization>
         <punctuation>
           <p>Se conserva la puntuación original.</p>
@@ -116,17 +114,21 @@
       <textClass>
         <keywords xml:base="http://datos.bne.es/tema/">
           <term target="XX525577.html" type="tipo_texto">Canciones</term>
-          <term target="XX5501105.html" type="tipo_estrofa">Coplas</term>
+          <term target="XX546895.html" type="tipo_estrofa">Décimas</term>
           <term type="verso_prosa">Verso</term>
           <term type="sagrado_profano">Profano</term>
         </keywords>
       </textClass>
     </profileDesc>
     <revisionDesc>
-      <change when="2022-09-01" who="#PJ">Création du fichier TEI P5 et encodage du
-                        corps du texte</change>
+      <change when="2022-09-01" who="#PJ">Création du fichier TEI P5 et encodage du corps du
+        texte</change>
+      <change when="2024-01-09" who="#EL">Add the IIIF links</change>
     </revisionDesc>
   </teiHeader>
+  <facsimile>
+    <graphic url="varios/Varios_108_1.jpg/full/200,/0/default.jpg"/>
+  </facsimile>
   <sourceDoc xml:id="automaticTranscription">
     <surface xml:id="Varios_108_1" type="page" cert="silver">
       <graphic url="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_108_1/full/full/0/default.jpg"/>
@@ -1436,8 +1438,7 @@
       <zone xml:id="Varios_108_4_BT228_8" n="8" type="MarginTextZone" subtype="colophon" points="549,2306 541,2382 1783,2413 1779,2338 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_108_4/541,2306,1242,107/full/0/default" corresp="MarginTextZone:colophon">
         <zone xml:id="Varios_108_4_BT228_8_LT83_1" type="DefaultLine" subtype="none" points="549,2341 546,2298 1738,2321 1740,2366 1740,2412 1695,2432 1695,2432 1692,2432 1692,2432 1692,2432 1690,2432 1619,2429 1578,2460 1578,2460 1576,2460 1576,2460 1576,2460 1573,2460 1573,2460 1571,2460 1571,2460 1571,2460 1396,2419 1371,2412 1361,2419 1335,2442 1335,2442 1333,2442 1333,2442 1333,2442 1330,2442 1330,2442 1330,2442 1328,2442 1328,2442 1325,2442 1325,2442 1325,2442 1323,2442 1323,2442 1323,2439 1302,2419 1282,2401 1244,2414 1242,2414 1242,2414 1242,2414 1239,2414 1239,2414 1239,2414 1237,2414 1178,2394 1001,2394 961,2427 943,2442 943,2442 941,2442 941,2442 941,2442 938,2442 938,2442 936,2442 936,2442 819,2429 779,2424 546,2432 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_108_4/546,2298,1194,162/full/0/default" corresp="DefaultLine">
           <path xml:id="Varios_108_4_BT228_8_LT83_1_1" points="551,2343 855,2341 1741,2368 "/>
-          <line>Valencia: Imprenta de Laborda, calle de la Bolsería, número
-                                    18.</line>
+          <line>Valencia: Imprenta de Laborda, calle de la Bolsería, número 18.</line>
         </zone>
       </zone>
     </surface>
@@ -1445,18 +1446,21 @@
   <text>
     <body>
       <div>
-        <pb n="1" source="Varios_108_1.jpg" facs="fedora_Varios_108_1/full/full/0/default.jpg"/>
         <div>
+          <pb n="1" source="Varios_108_1.jpg" facs="varios/Varios_108_1.jpg/"/>
+
           <head type="primer_titulo"><lb/>COPLAS NUEVAS<lb/>GLOSADAS EN DECIMAS,<lb/>PARA CANTAR LOS
-                                    AFICIONADOS.</head>
-          <lg>
-            <l>Determinado me siento</l>
+            AFICIONADOS.</head>
+
+          <lg rend="cursiva">
+            <l rend="indent">Determinado me siento</l>
             <l>A aborrecer lo que adoro,</l>
             <l>En el mismo instante lloro</l>
             <l>Mi propio aborrecimiento.</l>
           </lg>
+
           <lg>
-            <l>Amo á una deidad hermosa,</l>
+            <l rend="indent">Amo á una deidad hermosa,</l>
             <l>Pero es una ingrata fiera,</l>
             <l>Tengo el alma prisionera,</l>
             <l>Por una sierpe engañosa,</l>
@@ -1465,8 +1469,11 @@
             <l>Es un rayo, un leon sangriento,</l>
             <l>O una esmeralda, una perla;</l>
             <l>Y entre adorarla y quererla</l>
-            <l>Determinado me siento.</l>
-            <l>Es un serafin, un cielo,</l>
+            <l rend="cursiva">Determinado me siento.</l>
+          </lg>
+
+          <lg>
+            <l rend="indent">Es un serafin, un cielo,</l>
             <l>Esta belleza que adoro,</l>
             <l>Es un demonio, es un toro,</l>
             <l>Es todo mi desconsuelo;</l>
@@ -1475,10 +1482,11 @@
             <l>No sé comó me desdoro,</l>
             <l>Yo propio me contradigo,</l>
             <l>Ya me obligo, no me obligo</l>
-            <l>A aborrecer lo que adoro.</l>
+            <l rend="cursiva">A aborrecer lo que adoro.</l>
           </lg>
+
           <lg>
-            <l>Mi pena es tan escesiva,</l>
+            <l rend="indent">Mi pena es tan escesiva,</l>
             <l>Y mi pasion tan violenta,</l>
             <l>Que quisiera verla muerta,</l>
             <l>Y en el mismo instante viva:</l>
@@ -1487,8 +1495,11 @@
             <l>Yo la aborrezco y la adoro</l>
             <l>En ver su fino semblante;</l>
             <l>Pensando serle inconstante,</l>
-            <l>En el mismo instante lloro.</l>
-            <l>En fin no la puedo ver,</l>
+            <l rend="cursiva">En el mismo instante lloro.</l>
+          </lg>
+
+          <lg>
+            <l rend="indent">En fin no la puedo ver,</l>
             <l>Y si la miro, me pesa,</l>
             <l>Me recreo en su belleza</l>
             <l>Siendo pesar mi placer.</l>
@@ -1497,17 +1508,20 @@
             <l>Olvidarla, sentimiento,</l>
             <l>En uno y otro dolor</l>
             <l>Me mata en cruel ardor</l>
-            <l>Mi propio aborrecimiento.</l>
+            <l rend="cursiva">Mi propio aborrecimiento.</l>
           </lg>
-          <pb n="2" source="Varios_108_2.jpg" facs="fedora_Varios_108_2/full/full/0/default.jpg"/>
-          <lg>
-            <l>Tú me robastes el alma,</l>
+
+          <pb n="2" source="Varios_108_2.jpg" facs="varios/Varios_108_2.jpg/"/>
+
+          <lg rend="cursiva">
+            <l rend="indent">Tú me robastes el alma,</l>
             <l>La vida y el corazon,</l>
             <l>Todos mis cinco sentidos,</l>
             <l>El destino y la razon.</l>
           </lg>
+
           <lg>
-            <l>A tu puerta gime y llora</l>
+            <l rend="indent">A tu puerta gime y llora</l>
             <l>Un afligido pastor,</l>
             <l>Sin vista, porque tu amor</l>
             <l>Ciego me tiene, señora:</l>
@@ -1516,8 +1530,11 @@
             <l>Me dejas en cruel calma,</l>
             <l>Negándome hasta mi fé,</l>
             <l>Mas yo siempre te diré,</l>
-            <l>Tú me robastes el alma.</l>
-            <l>No basta haberme quitado</l>
+            <l rend="cursiva">Tú me robastes el alma.</l>
+          </lg>
+
+          <lg>
+            <l rend="indent">No basta haberme quitado</l>
             <l>La vista, y tenerme ciego,</l>
             <l>Sino que avivas el fuego</l>
             <l>En donde me has arrojado:</l>
@@ -1526,10 +1543,11 @@
             <l>De tú injusta sinrazon,</l>
             <l>Y le contaré á Cupido,</l>
             <l>Que por quererte he perdido</l>
-            <l>La vida y el corazon.</l>
+            <l rend="cursiva">La vida y el corazon.</l>
           </lg>
+
           <lg>
-            <l>Hasta que llegue la muerte</l>
+            <l rend="indent">Hasta que llegue la muerte</l>
             <l>Constante te he de adorar,</l>
             <l>Y sino te puedo hablar</l>
             <l>Me consolaré con verte:</l>
@@ -1538,8 +1556,11 @@
             <l>Diciéndoles que tú has sido</l>
             <l>La que el alma me ha robado</l>
             <l>Y tambien me ha cautivado</l>
-            <l>Todos mis cinco sentidos.</l>
-            <l>Adios, mi prenda querida,</l>
+            <l rend="cursiva">Todos mis cinco sentidos.</l>
+          </lg>
+
+          <lg>
+            <l rend="indent">Adios, mi prenda querida,</l>
             <l>Mi veneno apetecido</l>
             <l>Por quien muero, por quien viro,</l>
             <l>Adios, vida de mi vida:</l>
@@ -1548,16 +1569,18 @@
             <l>Que se aumente tu pasion,</l>
             <l>Y me trates de querer.</l>
             <l>Porque por tí he de perder</l>
-            <l>El destino y la razon.</l>
+            <l rend="cursiva">El destino y la razon.</l>
           </lg>
-          <lg>
-            <l>No se puede hacer culpable</l>
+
+          <lg rend="cursiva">
+            <l rend="indent">No se puede hacer culpable</l>
             <l>Al hombre que solicita.</l>
             <l>Mas culpable es la muger</l>
             <l>Que sin reparar lo admita.</l>
           </lg>
+
           <lg>
-            <l>Si la pluma de Doctores,</l>
+            <l rend="indent">Si la pluma de Doctores,</l>
             <l>Afirman con Salomon,</l>
             <l>Que la muger y ocasion</l>
             <l>Son los dos puntos mejores:</l>
@@ -1566,8 +1589,11 @@
             <l>Al hombre, y mas estimable:</l>
             <l>Es una hermosa muger,</l>
             <l>Pudiéndola pues querer</l>
-            <l>No se puede hacer culpable.</l>
-            <l>Por la violenta pasion</l>
+            <l rend="cursiva">No se puede hacer culpable.</l>
+          </lg>
+
+          <lg>
+            <l rend="indent">Por la violenta pasion</l>
             <l>Que agita á todo mortal,</l>
             <l>En vl hombre es natural</l>
             <l>La amorosa pretension:</l>
@@ -1576,10 +1602,11 @@
             <l>Ni su estimacion marchita,</l>
             <l>Pues el rigor de su afan,</l>
             <l>No toma, si no le dan.</l>
-            <l>El hombre que solicita.</l>
+            <l rend="cursiva">El hombre que solicita.</l>
           </lg>
+
           <lg>
-            <l>El incendio mas violento,</l>
+            <l rend="indent">El incendio mas violento,</l>
             <l>Si dá en la nieve ó el hielo,</l>
             <l>Se apaga y queda sin fuego</l>
             <l>Su ardoroso movimiento:</l>
@@ -1588,8 +1615,11 @@
             <l>No puede el fuego prender;</l>
             <l>Mas si la muger presenta</l>
             <l>Estopa, que el fuego alienta,</l>
-            <l>Mas culpable es la muger.</l>
-            <l>Al hombre se le ordenó</l>
+            <l rend="cursiva">Mas culpable es la muger.</l>
+          </lg>
+
+          <lg>
+            <l rend="indent">Al hombre se le ordenó</l>
             <l>Comer su pan con sudor,</l>
             <l>Y á la muger con dolor</l>
             <l>Dar à luz lo que engendró:</l>
@@ -1598,17 +1628,20 @@
             <l>Pues tengo por mas maldita,</l>
             <l>Y mas que al hombre culpada</l>
             <l>La muger solicitada,</l>
-            <l>Que sin reparar lo admita.</l>
+            <l rend="cursiva">Que sin reparar lo admita.</l>
           </lg>
-          <pb n="3" source="Varios_108_3.jpg" facs="fedora_Varios_108_3/full/full/0/default.jpg"/>
+
+          <pb n="3" source="Varios_108_3.jpg" facs="varios/Varios_108_3.jpg/"/>
+
           <lg>
-            <l>En aquesta soledad</l>
+            <l rend="indent">En aquesta soledad</l>
             <l>Lloro un bien que no poseo,</l>
             <l>Pues sin libertad me veo</l>
             <l>En lo mejor de mi edad.</l>
           </lg>
+
           <lg>
-            <l>El sol, estrellas y Luna,</l>
+            <l rend="indent">El sol, estrellas y Luna,</l>
             <l>Signos y demas planetas,</l>
             <l>Vístanse negras vayetas</l>
             <l>Al ver mi mala fortuna:</l>
@@ -1617,8 +1650,11 @@
             <l>Publiquen pues la verdad</l>
             <l>De estos acentos que espreso,</l>
             <l>Pues estoy amás de preso</l>
-            <l>En aquesta soledad.</l>
-            <l>El hombre, peces y aves,</l>
+            <l rend="cursiva">En aquesta soledad.</l>
+          </lg>
+
+          <lg>
+            <l rend="indent">El hombre, peces y aves,</l>
             <l>El aire, tierra y el fuego,</l>
             <l>Al ver mi gran desconsuelo,</l>
             <l>Pidan creces á los mares:</l>
@@ -1627,10 +1663,11 @@
             <l>Mirando el estado fiero.</l>
             <l>Y penas que estoy pasando,</l>
             <l>Pues amás de estan penando,</l>
-            <l>Lloro un bien que no poseo.</l>
+            <l rend="cursiva">Lloro un bien que no poseo.</l>
           </lg>
+
           <lg>
-            <l>Las rosas y demas flores,</l>
+            <l rend="indent">Las rosas y demas flores,</l>
             <l>Aunque en su abril divertidas,</l>
             <l>De fino color vestidas</l>
             <l>Publiquen mis sinsabores:</l>
@@ -1639,8 +1676,11 @@
             <l>Y hasta las plantas anhelo</l>
             <l>Que me ayuden á llorar,</l>
             <l>Lloren, lloren sin cesar,</l>
-            <l>Pues sin libertad me veo.</l>
-            <l>Hasta las mas duras rocas</l>
+            <l rend="cursiva">Pues sin libertad me veo.</l>
+          </lg>
+
+          <lg>
+            <l rend="indent">Hasta las mas duras rocas</l>
             <l>Que incapaces son de hablar,</l>
             <l>Para sentir mi penar,</l>
             <l>Abran de su centro bocas:</l>
@@ -1649,16 +1689,18 @@
             <l>Diga tambien la verdad</l>
             <l>Cuanto este mundo contiene,</l>
             <l>Quién es quien preso, me tiene</l>
-            <l>En la mejor de mi edad.</l>
+            <l rend="cursiva">En la mejor de mi edad.</l>
           </lg>
-          <lg>
-            <l>Una paloma maté</l>
+
+          <lg rend="cursiva">
+            <l rend="indent">Una paloma maté</l>
             <l>Pero mucho me costó,</l>
             <l>No hay duda que ella cayó,</l>
             <l>Despues de muerta se fué.</l>
           </lg>
+
           <lg>
-            <l>Señores, voy a contar</l>
+            <l rend="indent">Señores, voy a contar</l>
             <l>Lo que à mi me ha sucedido,</l>
             <l>Aquel que fuere entendido</l>
             <l>Sabrá este asunto esplicar:</l>
@@ -1667,8 +1709,11 @@
             <l>Una escopeta compré</l>
             <l>Con polvora y municion,</l>
             <l>Y en una cierta ocasion</l>
-            <l>Una paloma maté.</l>
-            <l>Mucho tiempo fui buscando,</l>
+            <l rend="cursiva">Una paloma maté.</l>
+          </lg>
+
+          <lg>
+            <l rend="indent">Mucho tiempo fui buscando,</l>
             <l>Sin poder vaciar, el tiro,</l>
             <l>Cuando en un árbol la miro,</l>
             <l>Como se estaba espulgando:</l>
@@ -1677,10 +1722,11 @@
             <l>Mas lurgo la seguí yo</l>
             <l>Sin poderla asegurar,</l>
             <l>En fin la víne à apuntar</l>
-            <l>Pero mucho me costó.</l>
+            <l rend="cursiva">Pero mucho me costó.</l>
           </lg>
+
           <lg>
-            <l>Con toda aquella armonia</l>
+            <l rend="indent">Con toda aquella armonia</l>
             <l>Que requiere la ocasion,</l>
             <l>Vine á ver el perdigon</l>
             <l>Que entraba en la caseria:</l>
@@ -1689,8 +1735,11 @@
             <l>Pero siguiéndola yo</l>
             <l>Hasta poderle tirar,</l>
             <l>En fin la vine à matar,</l>
-            <l>No hay duda que ella cayó.</l>
-            <l>¡Quién mas infeliz que yo</l>
+            <l rend="cursiva">No hay duda que ella cayó.</l>
+          </lg>
+
+          <lg>
+            <l rend="indent">¡Quién mas infeliz que yo</l>
             <l>En el mundo habrá nacido!</l>
             <l>¡A quién le habrá sucedido</l>
             <l>Lo que à mí me sucedió!</l>
@@ -1699,17 +1748,20 @@
             <l>Y dos mil trabajos pasé</l>
             <l>Por cogerla, ella volando</l>
             <l>Sin saher cómo ni cuando,</l>
-            <l>Después de muerta se fue.</l>
+            <l rend="cursiva">Después de muerta se fue.</l>
           </lg>
-          <pb n="4" source="Varios_108_4.jpg" facs="fedora_Varios_108_4/full/full/0/default.jpg"/>
-          <lg>
-            <l>Una vieja me lo dio.</l>
+
+          <pb n="4" source="Varios_108_4.jpg" facs="varios/Varios_108_4.jpg/"/>
+
+          <lg rend="cursiva">
+            <l rend="indent">Una vieja me lo dio.</l>
             <l>Que tambien lo dan las viejas,</l>
             <l>Tiene cresta como el gallo,</l>
             <l>Y como el raton orejas.</l>
           </lg>
+
           <lg>
-            <l>Cuando con ella encontré,</l>
+            <l rend="indent">Cuando con ella encontré,</l>
             <l>Trabamos conversacion,</l>
             <l>Dándome larga razon</l>
             <l>De Dios y su santa Fé.</l>
@@ -1718,8 +1770,11 @@
             <l>Y el que sangre derramó</l>
             <l>Por manos, pies y costado,</l>
             <l>Este consejo sagrado</l>
-            <l>Una vieja me lo dió.</l>
-            <l>La vieja me dijo: hijito;</l>
+            <l rend="cursiva">Una vieja me lo dió.</l>
+          </lg>
+
+          <lg>
+            <l rend="indent">La vieja me dijo: hijito;</l>
             <l>Procura tomar enmienda</l>
             <l>No viviendo tan sin rienda,</l>
             <l>Dando gusto à tu apetito:</l>
@@ -1728,10 +1783,11 @@
             <l>Evitarás sérias quejas.</l>
             <l>Que el Señor te puede dar;</l>
             <l>Un buen consejo tomar,</l>
-            <l>Qué tambien lo dan las viejas.</l>
+            <l rend="cursiva">Qué tambien lo dan las viejas.</l>
           </lg>
+
           <lg>
-            <l>Me dijo hiciera memoria</l>
+            <l rend="indent">Me dijo hiciera memoria</l>
             <l>Que Dios era santo y justo,</l>
             <l>No perdiera por un gusto</l>
             <l>Una eternidad de gloria:</l>
@@ -1740,7 +1796,10 @@
             <l>No quieras pues con desmayo</l>
             <l>Perder un bien por un mal,</l>
             <l>Porque el pecado mortal</l>
-            <l>Tiene cresta como el gallo.</l>
+            <l rend="cursiva">Tiene cresta como el gallo.</l>
+          </lg>
+
+          <lg>
             <l>El diablo hizo presente</l>
             <l>Toda su fisonomía,</l>
             <l>Aparentando tenia</l>
@@ -1750,16 +1809,18 @@
             <l>Lleno de escasas bermejas,</l>
             <l>Dientes como el garavato,</l>
             <l>Hocieo y cara de gato,</l>
-            <l>Y como el raton orejas.</l>
+            <l rend="cursiva">Y como el raton orejas.</l>
           </lg>
-          <lg>
-            <l>Adios ciudad de la Habana,</l>
+
+          <lg rend="cursiva">
+            <l rend="indent">Adios ciudad de la Habana,</l>
             <l>Adios dije, puerto hermoso.</l>
             <l>Adios Morro, adios Cabaña,</l>
             <l>Adios murallas y foso.</l>
           </lg>
+
           <lg>
-            <l>El tiempo que estuve allí</l>
+            <l rend="indent">El tiempo que estuve allí</l>
             <l>Disfrutando sus favores,</l>
             <l>No pasaba los rigores</l>
             <l>De la intemperie de aqui:</l>
@@ -1768,8 +1829,11 @@
             <l>Aunque á mí no fué tirana,</l>
             <l>Forzoso me fue el venir,</l>
             <l>Esclamando allá al partir.</l>
-            <l>Adios ciudad de la Habana.</l>
-            <l>Ella es un jardin de flores</l>
+            <l rend="cursiva">Adios ciudad de la Habana.</l>
+          </lg>
+
+          <lg>
+            <l rend="indent">Ella es un jardin de flores</l>
             <l>Blancas, pardas y morenas,</l>
             <l>Que parecen azucenas.</l>
             <l>De diferentes colores:</l>
@@ -1778,10 +1842,11 @@
             <l>Me despedí alli lloroso,</l>
             <l>Dejándome las chinitas,</l>
             <l>Adios, blancas, morenitas.</l>
-            <l>adios dije, puerto, hermoso.</l>
+            <l rend="cursiva">adios dije, puerto, hermoso.</l>
           </lg>
+
           <lg>
-            <l>Adios á su artillería</l>
+            <l rend="indent">Adios á su artillería</l>
             <l>Y à toda su gente junta,</l>
             <l>Príncipe, altares y Punta,</l>
             <l>Y la pulida bahía:</l>
@@ -1790,8 +1855,11 @@
             <l>Plaza de armas ufana,</l>
             <l>Puerto de tierra y marina,</l>
             <l>Adios regla peregrina,</l>
-            <l>¡dios Morra, adios Cabaña.</l>
-            <l>Adios casa de prision</l>
+            <l rend="cursiva">¡dios Morra, adios Cabaña.</l>
+          </lg>
+
+          <lg>
+            <l rend="indent">Adios casa de prision</l>
             <l>Con san Lázaro y Salud</l>
             <l>Barrio de tanta quietud</l>
             <l>Y de tanta diversion:</l>
@@ -1800,13 +1868,14 @@
             <l>Adios ciudad, muelle hermoso,</l>
             <l>Adios hombres y mugeres,</l>
             <l>Adios todos mis placeres,</l>
-            <l>Adios murallas y foso.</l>
+            <l rend="cursiva">Adios murallas y foso.</l>
           </lg>
+
           <trailer>F I N.</trailer>
         </div>
+        
         <div type="colofon">
-          <p><lb/>Valencia: Imprenta de Laborda, calle de la Bolsería, número
-                                    18.</p>
+          <p><lb/>Valencia: <hi rend="cursiva">Imprenta de Laborda, calle de la Bolsería, número</hi> 18.</p>
         </div>
       </div>
     </body>

@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../Schema/oddPliego_varios.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:alto="http://www.loc.gov/standards/alto/ns-v4#" xml:id="Varios_117">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Varios_117">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -11,8 +11,7 @@
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <authority role="rightsHolder">Bibliothèque Universitaire de
-                              Genève</authority>
+        <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
         <availability status="restricted">
           <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
         </availability>
@@ -20,9 +19,8 @@
       <sourceDesc>
         <biblFull>
           <titleStmt>
-            <title type="titulo_completo">Los amores de una chula. RELACIÓN
-                                          VERDADERA DEL TRÁGICO FIN DE UNA MUJER MUNDANA LLAMADA
-                                          ANTONIA</title>
+            <title type="titulo_completo">Los amores de una chula. RELACIÓN VERDADERA DEL TRÁGICO
+              FIN DE UNA MUJER MUNDANA LLAMADA ANTONIA</title>
             <title type="titulo_breve">Los amores de una chula.</title>
           </titleStmt>
           <editionStmt>
@@ -31,7 +29,7 @@
           <publicationStmt>
             <publisher>Sucesores de Hernando</publisher>
             <pubPlace ref="https://www.geonames.org/3117735/madrid.html">Madrid</pubPlace>
-            <date>[s.a]</date>
+            <date cert="low" when="1800-01-01">[s.a.]</date>
           </publicationStmt>
         </biblFull>
         <msDesc>
@@ -39,7 +37,8 @@
             <country>Suisse</country>
             <settlement>Genève</settlement>
             <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"/>
-                                    </repository>
+            </repository>
+            <collection>Colección Varios</collection>
             <idno type="cote"/>
             <idno type="DOI">10.5281/zenodo.6577089</idno>
             <altIdentifier>
@@ -47,10 +46,25 @@
             </altIdentifier>
           </msIdentifier>
           <msContents>
-            <summary/>
+            <summary>Cuatro partes</summary>
             <msItem>
-              <locus/>
-              <title/>
+              <locus>2-3</locus>
+              <title>Primera parte Manifièstase en ella quién era Antonia, cómo se puso en amores
+                con un majo nombrado Pepe, y las circunstancias de ambos.</title>
+            </msItem>
+            <msItem>
+              <locus>3-4</locus>
+              <title>Parte segunda En la que se da cuenta de las relaciones amorosas de Antonia y de
+                Pepe (el Señorito), con lo demás que verá el curioso lector.</title>
+            </msItem>
+            <msItem>
+              <locus>4-8</locus>
+              <title>Parte tercera Que trata del fin trágico que tuvo Antonia, con otros detalles
+                interesantes.</title>
+            </msItem>
+            <msItem>
+              <locus>8</locus>
+              <title>Conclusión</title>
             </msItem>
           </msContents>
           <physDesc>
@@ -68,7 +82,7 @@
               </layoutDesc>
             </objectDesc>
             <decoDesc>
-              <summary n="1">Uno grabados (p.1) </summary>
+              <summary n="1">Un grabado (p.1)</summary>
               <decoNote type="lista_grabados">
                 <list>
                   <item corresp="grabado_v_117_1.xml">grabado_v_117_1</item>
@@ -91,18 +105,17 @@
     </fileDesc>
     <encodingDesc>
       <projectDesc>
-        <p>Este archivo fue creado en el marco del proyecto Desenrollando el
-                              Cordel/Démêler le cordel/Untangling the cordel, dirigido por la
-                              profesora Constance Carta de la Universidad de Ginebra, con el apoyo
-                              de la Fundación filantrópica Famille Sandoz-Monique de Meuron.</p>
+        <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+          cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la Universidad
+          de Ginebra, con el apoyo de la Fundación filantrópica Famille Sandoz-Monique de
+          Meuron.</p>
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR non corregido</p>
+          <p>OCR no corregido</p>
         </correction>
         <normalization>
-          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto
-                                    original.</p>
+          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
         </normalization>
         <punctuation>
           <p>Se conserva la puntuación original.</p>
@@ -123,10 +136,14 @@
       </textClass>
     </profileDesc>
     <revisionDesc>
-      <change when="2022-08-03" who="#PJ">Création du fichier TEI P5 et encodage du
-                        corps du texte</change>
+      <change when="2022-08-03" who="#PJ">Création du fichier TEI P5 et encodage du corps du
+        texte</change>
+      <change when="2024-01-09" who="#EL">Add the IIIF links</change>
     </revisionDesc>
   </teiHeader>
+  <facsimile>
+    <graphic url="varios/Varios_117_1.jpg/full/200,/0/default.jpg"/>
+  </facsimile>
   <sourceDoc xml:id="automaticTranscription">
     <surface xml:id="Varios_117_1" type="page" cert="silver">
       <graphic url="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_117_1/full/full/0/default.jpg"/>
@@ -182,8 +199,7 @@
         </zone>
         <zone xml:id="Varios_117_2_BT223_1_LT84_2" type="HeadingLine" subtype="none" points="435,444 435,364 629,364 629,364 629,364 632,364 632,364 632,364 632,364 635,364 672,391 700,369 700,366 700,366 703,366 703,366 703,366 705,366 705,366 708,366 759,366 759,366 759,366 761,366 761,366 761,366 764,366 764,366 764,369 791,394 829,381 832,381 832,381 834,381 958,381 958,381 958,381 961,381 961,381 961,381 963,381 963,381 963,384 974,394 996,381 996,381 996,381 999,381 999,381 1001,381 1001,381 1001,381 1004,381 1004,381 1004,381 1032,396 1163,396 1186,381 1189,381 1189,381 1189,381 1191,381 1191,381 1194,381 1194,381 1194,381 1267,394 1297,381 1297,381 1300,381 1300,381 1300,381 1302,381 1302,381 1305,381 1305,381 1305,381 1330,394 1356,369 1356,366 1356,366 1358,366 1358,366 1358,366 1361,366 1361,366 1361,366 1363,366 1363,366 1366,366 1366,366 1366,366 1368,366 1368,366 1401,394 1449,381 1452,381 1452,381 1454,381 1454,381 1454,381 1523,394 1553,366 1553,366 1553,364 1553,364 1555,364 1555,364 1555,364 1558,364 1558,364 1558,364 1561,364 1561,364 1563,364 1571,366 1682,394 1763,366 1768,444 1765,472 1672,460 1588,472 1578,472 1578,472 1576,472 1576,472 1576,472 1573,472 1573,472 1573,472 1571,472 1550,460 1540,470 1540,472 1540,472 1540,472 1538,472 1538,472 1538,472 1535,472 1535,472 1533,472 432,460 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_117_2/432,364,1336,108/full/0/default" corresp="HeadingLine">
           <path xml:id="Varios_117_2_BT223_1_LT84_2_1" points="435,444 1768,444 "/>
-          <line>Manifièstase en ella quién era Antonia, cómo se puso en amores
-                                    con un majo</line>
+          <line>Manifièstase en ella quién era Antonia, cómo se puso en amores con un majo</line>
         </zone>
         <zone xml:id="Varios_117_2_BT223_1_LT84_3" type="HeadingLine" subtype="none" points="667,490 667,444 1533,455 1535,498 1533,538 1386,548 1383,548 1383,548 1383,548 1381,548 1381,548 1378,548 1378,548 1378,546 1366,536 1358,530 1239,530 1204,533 1065,546 1065,546 1062,546 1062,546 1060,546 1060,546 1060,546 1057,546 1057,546 1057,543 1042,530 1039,528 1032,528 958,541 958,541 956,541 956,541 817,525 814,525 814,525 791,541 789,541 789,541 789,541 786,541 786,541 784,541 784,541 662,520 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_117_2/662,444,873,104/full/0/default" corresp="HeadingLine">
           <path xml:id="Varios_117_2_BT223_1_LT84_3_1" points="667,490 1535,498 "/>
@@ -672,13 +688,11 @@
         </zone>
         <zone xml:id="Varios_117_3_BT223_4_LT84_2" type="HeadingLine" subtype="none" points="354,1350 354,1281 440,1284 440,1284 440,1284 442,1284 442,1284 442,1284 442,1284 480,1304 543,1291 543,1291 543,1291 546,1291 546,1291 549,1291 549,1291 549,1291 551,1291 551,1291 551,1294 564,1304 609,1294 609,1294 609,1294 612,1294 612,1294 753,1309 807,1297 832,1291 832,1291 832,1291 834,1291 834,1291 834,1291 837,1291 837,1291 852,1299 882,1314 989,1314 1024,1304 1049,1297 1052,1297 1052,1297 1052,1297 1055,1297 1055,1297 1115,1307 1156,1314 1237,1312 1325,1309 1328,1309 1328,1309 1328,1309 1330,1309 1330,1309 1330,1309 1343,1317 1356,1322 1378,1317 1414,1309 1414,1309 1414,1309 1416,1309 1687,1329 1687,1377 1682,1405 1444,1388 1330,1398 1313,1398 1310,1398 1310,1398 1310,1398 1308,1398 1308,1398 1308,1398 1305,1398 1305,1398 1287,1385 1265,1395 1257,1398 1257,1398 1254,1398 1254,1398 1254,1398 1252,1398 1178,1393 933,1372 774,1372 751,1382 743,1385 743,1385 741,1385 741,1385 741,1385 738,1385 738,1385 695,1380 594,1367 546,1377 511,1382 511,1382 511,1382 508,1382 349,1370 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_117_3/349,1281,1338,124/full/0/default" corresp="HeadingLine">
           <path xml:id="Varios_117_3_BT223_4_LT84_2_1" points="354,1350 1687,1377 "/>
-          <line>En la que se da cuenta de las relaciones amorosas de Antonia y
-                                    de Pepe</line>
+          <line>En la que se da cuenta de las relaciones amorosas de Antonia y de Pepe</line>
         </zone>
         <zone xml:id="Varios_117_3_BT223_4_LT84_3" type="HeadingLine" subtype="none" points="549,1408 549,1352 1512,1380 1515,1425 1510,1466 1432,1453 1406,1466 1388,1474 1388,1474 1386,1474 1386,1474 1386,1474 1383,1474 1383,1474 1320,1463 1282,1458 1237,1461 1166,1468 1166,1468 1163,1468 1163,1468 1161,1468 1161,1468 1161,1468 1146,1461 1120,1446 1012,1446 986,1458 966,1466 966,1466 966,1466 963,1466 963,1466 961,1466 961,1466 961,1466 905,1456 822,1441 771,1441 751,1453 741,1461 738,1461 738,1461 738,1461 736,1461 736,1461 736,1461 733,1461 543,1448 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_117_3/543,1352,972,122/full/0/default" corresp="HeadingLine">
           <path xml:id="Varios_117_3_BT223_4_LT84_3_1" points="549,1408 1515,1425 "/>
-          <line>(el Señorito), con lo demás que verá el curioso
-                                    lector.</line>
+          <line>(el Señorito), con lo demás que verá el curioso lector.</line>
         </zone>
       </zone>
       <zone xml:id="Varios_117_3_BT227_5" n="5" type="MainZone" subtype="columns" points="958,1722 958,1811 887,1811 887,1931 807,1931 807,1967 1004,1967 1004,2034 919,2034 919,2397 905,2434 834,2485 323,2455 344,1466 933,1475 933,1632 1002,1632 1002,1722 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_117_3/323,1466,681,1019/full/0/default" corresp="MainZone:columns">
@@ -1129,8 +1143,7 @@
         </zone>
         <zone xml:id="Varios_117_4_BT223_4_LT84_2" type="HeadingLine" subtype="none" points="490,2121 480,2050 538,2030 541,2030 543,2030 614,2047 619,2047 624,2047 675,2032 678,2032 680,2032 741,2045 746,2045 771,2025 774,2025 776,2025 779,2025 1143,2037 1156,2037 1158,2037 1186,2017 1189,2017 1191,2017 1194,2017 1265,2027 1302,2015 1305,2015 1308,2015 1388,2030 1426,2012 1429,2012 1432,2012 1621,2022 1743,2007 1745,2007 1748,2007 1811,2027 1814,2095 1814,2138 1667,2144 1664,2144 1662,2144 1659,2144 1659,2141 1634,2118 1533,2133 1530,2133 1426,2121 1399,2146 1399,2149 1396,2149 1394,2149 1391,2149 1388,2149 1381,2149 1295,2123 1262,2149 1262,2151 1259,2151 1257,2151 1254,2151 1234,2151 1052,2128 1012,2144 1009,2144 1006,2144 1004,2144 966,2131 832,2149 829,2149 827,2149 802,2136 622,2138 602,2161 599,2161 599,2164 597,2164 594,2164 592,2164 589,2164 579,2161 521,2144 495,2164 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_117_4/480,2007,1334,157/full/0/default" corresp="HeadingLine">
           <path xml:id="Varios_117_4_BT223_4_LT84_2_1" points="490,2121 1814,2095 "/>
-          <line>Que trata del fin trágico que tuvo Antonia, con otros detalles
-                                    interesantes.</line>
+          <line>Que trata del fin trágico que tuvo Antonia, con otros detalles interesantes.</line>
         </zone>
       </zone>
       <zone xml:id="Varios_117_4_BT227_5" n="5" type="MainZone" subtype="columns" points="1027,2525 936,2566 526,2566 475,2546 465,2485 465,2184 586,2164 1054,2164 1054,2258 1023,2258 1023,2404 1046,2404 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_117_4/465,2164,589,402/full/0/default" corresp="MainZone:columns">
@@ -2646,24 +2659,28 @@
   <text>
     <body>
       <div>
-        <pb n="1" source="Varios_117_1.jpg" facs="fedora_Varios_117_1/full/full/0/default.jpg"/>
+        <pb n="1" source="Varios_117_1.jpg" facs="varios/Varios_117_1.jpg/"/>
+
         <fw type="impresorNum">(Núm. 102.)</fw>
+
         <head type="primer_titulo"><lb/>Los amores de una chula.</head>
-        <head type="subtitulo_parte"><lb/>RELACIÓN VERDADERA<lb/>DEL<lb/>TRÁGICO FIN DE UNA MUJER
-                              MUNDANA<lb/>LLAMADA ANTONIA</head>
+        <head type="subtitulo"><lb/>RELACIÓN VERDADERA<lb/>DEL<hi rend="cursiva"><lb/>TRÁGICO FIN
+            DE UNA MUJER MUNDANA<lb/>LLAMADA ANTONIA</hi></head>
+
         <div type="colofon">
           <p><lb/>MADRID Despacho : Sucesorés de Hernando, Arenal, 11.</p>
         </div>
-      </div>
-      <div>
-        <pb n="2" source="Varios_117_2.jpg" facs="fedora_Varios_117_2/full/full/0/default.jpg"/>
-        <div type="parte" n="1">
-          <head type="titulo_parte"><lb/>PARTE PRIMERA</head>
-          <head type="subtitulo_parte"><lb/>Manifièstase en ella quién era
-                                    Antonia, cómo se puso en amores con un majo<lb/>nombrado Pene,
-                                    y las circunstancias de ambos.</head>
-          <lg>
-            <l>En una ciudad heroica</l>
+
+        <div>
+          <pb n="2" source="Varios_117_2.jpg" facs="varios/Varios_117_2.jpg/"/>
+
+          <div type="parte" n="1">
+            <head type="titulo_parte"><lb/>PARTE PRIMERA</head>
+            <head type="subtitulo_parte" rend="cursiva"><lb/>Manifièstase en ella quién era
+              Antonia, cómo se puso en amores con un majo<lb/>nombrado Pepe, y las circunstancias
+              de ambos.</head>
+
+            <l rend="indent">En una ciudad heroica</l>
             <l>de la espléndida Galicia,</l>
             <l>rica, fuerte y pintoresca,</l>
             <l>que es de extranjeros envidia,</l>
@@ -2699,9 +2716,7 @@
             <l>era ésta su favorita,</l>
             <l>tratándola con marcadas</l>
             <l>deferencias expresivas.</l>
-          </lg>
-          <lg>
-            <l>Quiso el azar que á tal templo</l>
+            <l rend="indent">Quiso el azar que á tal templo</l>
             <l>de placer y de ignominia</l>
             <l>fuera de broma una noche</l>
             <l>cierto hombre de mala vida,</l>
@@ -2715,7 +2730,7 @@
             <l>en francachelas y orgías,</l>
             <l>y su fama de rumboso</l>
             <l>le acompañaba adonde iba,</l>
-            <l>pues siempre que el Señorito</l>
+            <l>pues siempre que <hi rend="cursiva">el Señorito</hi></l>
             <l>iba de broma bebia,</l>
             <l>y en su embriaguez, derrochaba</l>
             <l>de una manera inaudita.</l>
@@ -2733,9 +2748,7 @@
             <l>que heredó de su familia</l>
             <l>y el ser ésta bien mirada</l>
             <l>en la ciudad por su vida.</l>
-          </lg>
-          <lg>
-            <l>Pepe—puesto que José</l>
+            <l rend="indent">Pepe—puesto que José</l>
             <l>era su nombre de pila,—</l>
             <l>cuando hubo entrado en la casa</l>
             <l>vió en el las miradas fijas</l>
@@ -2748,8 +2761,11 @@
             <l>del vicio, se hallan conciencias</l>
             <l>que á fraternizar no atinan</l>
             <l>con esas perversas gentes</l>
-            <pb n="3" source="Varios_117_3.jpg" facs="fedora_Varios_117_3/full/full/0/default.jpg"/>
+
+            <pb n="3" source="Varios_117_3.jpg" facs="varios/Varios_117_3.jpg/"/>
+
             <fw type="paginaNum">— 3 —</fw>
+
             <l>de condiciones malignas,</l>
             <l>que sólo del mal disfrutan</l>
             <l>y hallan en ello alegría.</l>
@@ -2771,29 +2787,27 @@
             <l>con vinos y golosínas,</l>
             <l>entregándose sin freno</l>
             <l>á la más tremenda orgía.</l>
-          </lg>
-          <lg>
             <l>Iba á terminar la noche</l>
             <l>cuando puso la fatiga</l>
             <l>término á la francachela</l>
             <l>El sueño á todos domina,</l>
             <l>y ebrios, cansados y roncos</l>
             <l>de cantar, todos desfilan.</l>
-            <l>El Señorilo y Antonia</l>
+            <l><hi rend="cursiva">El Señorito</hi> y Antonia</l>
             <l>á su amorosa porfía</l>
             <l>se entregan, y luego al sueño:</l>
             <l>la casa queda tranquila</l>
             <l>y el vicio ufano reposa</l>
             <l>cuando va á romper el día.</l>
-          </lg>
-        </div>
-        <div type="parte" n="2">
-          <head type="titulo_parte"><lb/>PARTE SEGUNDA</head>
-          <head type="subtitulo_parte"><lb/>En la que se da cuenta de las
-                                    relaciones amorosas de Antonia y de Pepe<lb/>(el Señorito), con
-                                    lo demás que verá el curioso lector.</head>
-          <lg>
-            <l>Entre la gente del bronce</l>
+          </div>
+
+          <div type="parte" n="2">
+            <head type="titulo_parte"><lb/>PARTE SEGUNDA</head>
+            <head type="subtitulo_parte" rend="cursiva"><lb/>En la que se da cuenta de las
+              relaciones amorosas de Antonia y de Pepe<lb/>(el Señorito), con lo demás que verá
+              el curioso lector.</head>
+
+            <l rend="indent">Entre la gente del bronce</l>
             <l>coméntase aquel concierto</l>
             <l>entre Pepe el Señorito</l>
             <l>y Antonia, raro suceso,</l>
@@ -2805,7 +2819,7 @@
             <l>criminoso contrajeron.</l>
             <l>El vicio más refinado</l>
             <l>(que ella era en esto un portento)</l>
-            <l>enloqueció al Señorito</l>
+            <l>enloqueció <hi rend="cursiva">al Señorito</hi></l>
             <l>y mantúvolo sujeto;</l>
             <l>los regalos y derroches—</l>
             <l>de que Pepe era maestro—</l>
@@ -2815,8 +2829,6 @@
             <l>hasta no más de su dueño.</l>
             <l>Y así deslizóse rápido</l>
             <l>entre placeres el tiempo,</l>
-          </lg>
-          <lg>
             <l>viviendo en uno y el otro</l>
             <l>con sus amores muy ciegos.</l>
             <l>Convites, joyas y trajes</l>
@@ -2839,8 +2851,11 @@
             <l>sin paz, calma ni sosiego.</l>
             <l>A medida que él notaba</l>
             <l>crecer el aburrimiento,</l>
-            <pb n="4" source="Varios_117_4.jpg" facs="fedora_Varios_117_4/full/full/0/default.jpg"/>
+
+            <pb n="4" source="Varios_117_4.jpg" facs="varios/Varios_117_4.jpg/"/>
+
             <fw type="paginaNum">— 4 —</fw>
+
             <l>ella sentía crecer</l>
             <l>la tortura de los celos;</l>
             <l>y al cabo la vida aquella</l>
@@ -2857,9 +2872,7 @@
             <l>que él se dispuso resuelto</l>
             <l>á salir de la ciudad</l>
             <l>á su amor buscando término.</l>
-          </lg>
-          <lg>
-            <l>En vano fué que la hablara</l>
+            <l rend="indent">En vano fué que la hablara</l>
             <l>de negocios; del mal sesgo</l>
             <l>que para sus interesos</l>
             <l>tomaban las cosas.... Presto</l>
@@ -2905,14 +2918,14 @@
             <l>de Madrid el derrotero</l>
             <l>tomó, sin pensar que allí</l>
             <l>debía hallar fin funesto.</l>
-          </lg>
-        </div>
-        <div type="parte" n="3">
-          <head type="titulo_parte"><lb/>PARTE TERCERA</head>
-          <head type="subtitulo_parte"><lb/>Que trata del fin trágico que tuvo
-                                    Antonia, con otros detalles interesantes.</head>
-          <lg>
-            <l>Noticioso de que Antonia</l>
+          </div>
+
+          <div type="parte" n="3">
+            <head type="titulo_parte"><lb/>PARTE TERCERA</head>
+            <head type="subtitulo_parte" rend="cursiva"><lb/>Que trata del fin trágico que tuvo
+              Antonia, con otros detalles interesantes.</head>
+
+            <l rend="indent">Noticioso de que Antonia</l>
             <l>había el viaje emprendido,</l>
             <l>Pepe trató de evitar</l>
             <l>el tremendo compromiso</l>
@@ -2928,10 +2941,11 @@
             <l>tras de un proceso tristísimo.</l>
             <l>A solas con su conciencia</l>
             <l>Pepe vió de aquel sombrío</l>
-          </lg>
-          <pb n="5" source="Varios_117_5.jpg" facs="fedora_Varios_117_5/full/full/0/default.jpg"/>
-          <fw type="paginaNum">— 5 —</fw>
-          <lg>
+
+            <pb n="5" source="Varios_117_5.jpg" facs="varios/Varios_117_5.jpg/"/>
+
+            <fw type="paginaNum">— 5 —</fw>
+
             <l>pasado toda la historia</l>
             <l>con sangre y con llanto escrito.</l>
             <l>Una madre desgraciada</l>
@@ -2979,8 +2993,6 @@
             <l>el recuerdo del pasado,</l>
             <l>porque aun puede hallar castigo</l>
             <l>en el pueblo, lo que impune</l>
-          </lg>
-          <lg>
             <l>quedó, por caso rarísimo.</l>
             <l>A tal fin, Pepe le encarga</l>
             <l>á un sujeto conocido</l>
@@ -2990,7 +3002,7 @@
             <l>de escándalo, pues de fijo</l>
             <l>las consecuencias fatales</l>
             <l>serían, grave el peligro.</l>
-            <l>La celosa á Madrid llega</l>
+            <l rend="indent">La celosa á Madrid llega</l>
             <l>y de nuevo halla al querido</l>
             <l>que de amor la tiene loca</l>
             <l>y que aviva su cariño.</l>
@@ -3017,7 +3029,7 @@
             <l>con sus celos extremados,</l>
             <l>con su pesado cariño.....</l>
             <l>Y hay que sucumbir, no ecuentra</l>
-            <l>salvación el Señorito.</l>
+            <l>salvación <hi rend="cursiva">el Señorito</hi>.</l>
             <l>Como única solución</l>
             <l>que conjure aquel conficto</l>
             <l>diario de golpe y riñas</l>
@@ -3027,14 +3039,15 @@
             <l>donde mujeres no haya</l>
             <l>que á Antonia saquen de quicio.</l>
             <l>Y de acnerdo con su amante,</l>
-            <pb n="6" source="Varios_117_6.jpg" facs="fedora_Varios_117_6/full/full/0/default.jpg"/>
+
+            <pb n="6" source="Varios_117_6.jpg" facs="varios/Varios_117_6.jpg/"/>
+
             <fw type="paginaNum">— 6 —</fw>
+
             <l>la casa de lenocinio</l>
             <l>dejan, y vanse de huéspedes</l>
             <l>á otro lugar más pacífico.</l>
-          </lg>
-          <lg>
-            <l>Pasan por ser matrimonio,</l>
+            <l rend="indent">Pasan por ser matrimonio,</l>
             <l>y en su habitación metidos,</l>
             <l>no salen durante el día</l>
             <l>ni por ninguno son vistos.</l>
@@ -3055,7 +3068,7 @@
             <l>hasta que dan en la broma</l>
             <l>de asistir al mismo sitio—</l>
             <l>entre otras muchas mujeres,</l>
-            <l>flor y nata del oficio,—</l>
+            <l>flor y nata del <hi rend="cursiva">oficio</hi>,—</l>
             <l>dos antiguas compañeras</l>
             <l>de Antonia, las dos testigos</l>
             <l>de la suerte de su amiga,</l>
@@ -3090,9 +3103,7 @@
             <l>como si fuera granizo,</l>
             <l>al son de las maldiciones</l>
             <l>y de furor entre gritos.</l>
-          </lg>
-          <lg>
-            <l>Una noche noche infausta!</l>
+            <l rend="indent">Una noche ¡noche infausta!</l>
             <l>tras de una tarde de ruido,</l>
             <l>los dos amantes salieron</l>
             <l>enojados y sombrios.</l>
@@ -3113,7 +3124,7 @@
             <l>que las noches anteriores,</l>
             <l>se oyó en otro saloncillo</l>
             <l>la voz de una de las hembras</l>
-            <l>que hablaba del Señorito.</l>
+            <l>que hablaba del <hi rend="cursiva">Señorito</hi>.</l>
             <l>Antonia, el rostro ceñudo,</l>
             <l>dirigióse á su querido</l>
             <l>con ironías y burlas,</l>
@@ -3125,10 +3136,10 @@
             <l>desatándose de pronto,</l>
             <l>produjeron el conflicto.</l>
             <l>Insultos y maldiciones</l>
-          </lg>
-          <pb n="7" source="Varios_117_7.jpg" facs="fedora_Varios_117_7/full/full/0/default.jpg"/>
-          <fw type="paginaNum">— 7 —</fw>
-          <lg>
+
+            <pb n="7" source="Varios_117_7.jpg" facs="varios/Varios_117_7.jpg/"/>
+            <fw type="paginaNum">— 7 —</fw>
+
             <l>eran cambiados sin tino;</l>
             <l>siguieron las bofetadas</l>
             <l>con denuestos y gemidos;</l>
@@ -3158,9 +3169,7 @@
             <l>diciendo mil desatinos</l>
             <l>y profiriendo amenazas</l>
             <l>en furioso paroxismo.</l>
-          </lg>
-          <lg>
-            <l>Las tres de la madrugada</l>
+            <l rend="indent">Las tres de la madrugada</l>
             <l>serian ya de por filo,</l>
             <l>cuando regresó excitado</l>
             <l>aun Pepe á su domicilio.</l>
@@ -3189,9 +3198,7 @@
             <l>de gran altura, y un grito</l>
             <l>que lanzó Pepe, diciendo:</l>
             <l>«¡Esa mujer me ha perdido!»</l>
-          </lg>
-          <lg>
-            <l>¿Qué paso allí No se sabe</l>
+            <l rend="indent">¿Qué paso allí No se sabe</l>
             <l>La policía intervino</l>
             <l>y en la calle se vió Pepe</l>
             <l>por los agentes cogido.</l>
@@ -3221,14 +3228,14 @@
             <l>fué ante el juez, y declaró</l>
             <l>que la muerte fué un suicidio;</l>
             <l>pero hasta aclarar el hecho,</l>
-            <l>fué llevado al Abanico</l>
+            <l>fué llevado al <hi rend="cursiva">Abanico</hi></l>
             <l>y encerrado en una celda.</l>
             <l>¡Digno fin de tal principio!</l>
-          </lg>
-          <pb n="8" source="Varios_117_8.jpg" facs="fedora_Varios_117_8/full/full/0/default.jpg"/>
-          <fw type="paginaNum">— 8 —</fw>
-          <lg>
-            <l>Asi aquella desgraciada</l>
+
+            <pb n="8" source="Varios_117_8.jpg" facs="varios/Varios_117_8.jpg/"/>
+            <fw type="paginaNum">— 8 —</fw>
+
+            <l rend="indent">Asi aquella desgraciada</l>
             <l>acabó. Vivió en el vicio,</l>
             <l>y extraviada por él,</l>
             <l>falta de moral sentido,</l>
@@ -3246,8 +3253,6 @@
             <l>será para su martirio,</l>
             <l>que él amor es bendición</l>
             <l>para quien sigue el camino</l>
-          </lg>
-          <lg>
             <l>del bien, y es castigo horrendo</l>
             <l>para quien se entrega al vicio.</l>
             <l>En la vida bochornosa</l>
@@ -3266,45 +3271,44 @@
             <l>la vida es sólo un castigo.</l>
             <l>¡Dios de aquella pobre Antonia</l>
             <l>perdone los extravios!</l>
-          </lg>
-        </div>
-        <div type="parte" n="4">
-          <head type="titulo_parte"><lb/>CONCLUSIÓN</head>
-          <lg>
-            <l>En su celda solitaria,</l>
-            <l>allá en la Cárcel Modelo,</l>
-            <l>Pepe se acuerda de Antonia,</l>
-            <l>tal vez con remordimiento.</l>
-            <l>En otra ocasión estuvo</l>
-            <l>por distinta causa preso,</l>
-            <l>y en vez de hallar correctivo</l>
-            <l>salió peor, más perverso.</l>
-            <l>Pero aquella reclusión,</l>
-            <l>que vuelve loco al que es bueno,</l>
-            <l>acaso haga ver más claro</l>
-            <l>al que hasta ahora vivió ciego,</l>
-            <l>si es que no acaba sus días</l>
-            <l>de un presidio en el encierro.</l>
-          </lg>
-          <lg>
-            <l>La opinión horrorizada</l>
-            <l>por crímenes tan horrendos,</l>
-            <l>pide ejemplares castigos</l>
-            <l>para esos hombres funestos</l>
-            <l>que viven para hacer daño</l>
-            <l>constantemente á los buenos;</l>
-            <l>porque si no de otro modo,</l>
-            <l>daño hacen con el ejemplo;</l>
-            <l>que nada hay que desaliente</l>
-            <l>como ver impunes hechos</l>
-            <l>que repugna la conciencia,</l>
-            <l>repetidos con exceso,</l>
-            <l>sin que el castigo acompañe</l>
-            <l>á los que viven sin freno</l>
-            <l>revolcándose en el lodo</l>
-            <l>de los vicios más funestos.</l>
-          </lg>
-          <trailer>FIN</trailer>
+          </div>
+          
+          <div type="parte" n="4">
+            <head type="titulo_parte" rend="negrita"><lb/>CONCLUSIÓN</head>
+            
+              <l rend="indent">En su celda solitaria,</l>
+              <l>allá en la Cárcel Modelo,</l>
+              <l>Pepe se acuerda de Antonia,</l>
+              <l>tal vez con remordimiento.</l>
+              <l>En otra ocasión estuvo</l>
+              <l>por distinta causa preso,</l>
+              <l>y en vez de hallar correctivo</l>
+              <l>salió peor, más perverso.</l>
+              <l>Pero aquella reclusión,</l>
+              <l>que vuelve loco al que es bueno,</l>
+              <l>acaso haga ver más claro</l>
+              <l>al que hasta ahora vivió ciego,</l>
+              <l>si es que no acaba sus días</l>
+              <l>de un presidio en el encierro.</l>
+              <l>La opinión horrorizada</l>
+              <l>por crímenes tan horrendos,</l>
+              <l>pide ejemplares castigos</l>
+              <l>para esos hombres funestos</l>
+              <l>que viven para hacer daño</l>
+              <l>constantemente á los buenos;</l>
+              <l>porque si no de otro modo,</l>
+              <l>daño hacen con el ejemplo;</l>
+              <l>que nada hay que desaliente</l>
+              <l>como ver impunes hechos</l>
+              <l>que repugna la conciencia,</l>
+              <l>repetidos con exceso,</l>
+              <l>sin que el castigo acompañe</l>
+              <l>á los que viven sin freno</l>
+              <l>revolcándose en el lodo</l>
+              <l>de los vicios más funestos.</l>
+            
+            <trailer rend="negrita">FIN</trailer>
+          </div>
         </div>
       </div>
     </body>

@@ -27,9 +27,9 @@
             <p/>
           </editionStmt>
           <publicationStmt>
-            <publisher>Imprenta de José Noguera</publisher>
+            <publisher>José Noguera</publisher>
             <pubPlace ref="https://www.geonames.org/3117735/madrid.html">Madrid</pubPlace>
-            <date cert="high">1872</date>
+            <date cert="high" when="1872-01-01">1872</date>
           </publicationStmt>
         </biblFull>
         <msDesc>
@@ -38,6 +38,7 @@
             <settlement>Genève</settlement>
             <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"/>
                                     </repository>
+            <collection>Colección Varios</collection>
             <idno type="cote"/>
             <idno type="DOI">10.5281/zenodo.6772936</idno>
             <altIdentifier>
@@ -95,7 +96,7 @@
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR non corregido</p>
+          <p>OCR no corregido</p>
         </correction>
         <normalization>
           <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto
@@ -123,9 +124,10 @@
     <revisionDesc>
       <change when="2023-11-27" who="#PJ">Création du fichier TEI P5 et encodage du
                         corps du texte</change>
+<change when="2024-01-09" who="#EL">Add the IIIF links</change>
     </revisionDesc>
   </teiHeader>
-  <sourceDoc xml:id="automaticTranscription">
+  <facsimile><graphic url="varios/Varios_354_1.jpg/full/200,/0/default.jpg"/></facsimile><sourceDoc xml:id="automaticTranscription">
     <surface xml:id="Varios_354_1" type="page" cert="silver">
       <graphic url="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_354_1/full/full/0/default.jpg"/>
       <zone xml:id="Varios_354_1_BT221_1" n="1" type="CustomZone" subtype="impresorNum" points="1028,256 1028,338 695,338 695,256 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_354_1/695,256,333,82/full/0/default" corresp="CustomZone:impresorNum">
@@ -1420,7 +1422,7 @@
   <text>
     <body>
       <div>
-        <pb n="1" source="Varios_354_1.jpg" facs="fedora_Varios_354_1/full/full/0/default.jpg"/>
+        <pb n="1" source="Varios_354_1.jpg" facs="varios/Varios_354_1.jpg/"/>
         <fw type="impresorNum">NÚMERO 38.</fw>
         <div type="parte" n="1">
           <head type="primer_titulo"><lb/>El Rastro.</head>
@@ -1463,7 +1465,7 @@
             <l>fué vínculo de las almas,</l>
             <l>fué un sentimiento y no un pacto.</l>
           </lg>
-          <pb n="2" source="Varios_354_2.jpg" facs="fedora_Varios_354_2/full/full/0/default.jpg"/>
+          <pb n="2" source="Varios_354_2.jpg" facs="varios/Varios_354_2.jpg/"/>
           <lg>
             <l>En que esta tierra fué patria</l>
             <l>de aquellos que cultivaron</l>
@@ -1568,7 +1570,7 @@
           <note>
             <p><lb/>(1) Léase Bairon</p>
           </note>
-          <pb n="3" source="Varios_354_3.jpg" facs="fedora_Varios_354_3/full/full/0/default.jpg"/>
+          <pb n="3" source="Varios_354_3.jpg" facs="varios/Varios_354_3.jpg/"/>
           <lg>
             <l>Y venced preocupaciones,</l>
             <l>que hoy por hoy, seguros vamos,</l>
@@ -1695,7 +1697,7 @@
           <sp>
             <l>—¡Quién lleva una camisa</l>
             <l>para la novia!</l>
-            <pb n="4" source="Varios_354_4.jpg" facs="fedora_Varios_354_4/full/full/0/default.jpg"/>
+            <pb n="4" source="Varios_354_4.jpg" facs="varios/Varios_354_4.jpg/"/>
             <l>Véase la clase.</l>
           </sp>
           <sp>

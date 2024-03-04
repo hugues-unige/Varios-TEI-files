@@ -1,19 +1,17 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../Schema/oddPliego_varios.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:alto="http://www.loc.gov/standards/alto/ns-v4#" xml:id="Varios_094">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Varios_094">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>CANCION NUEVA A MI HERMOSA ELVIRA. PARA CANTARSE CON
-                              GUITARRA.</title>
+        <title>CANCION NUEVA A MI HERMOSA ELVIRA</title>
         <respStmt>
           <name/>
           <resp>Codificación TEI</resp>
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <authority role="rightsHolder">Bibliothèque Universitaire de
-                              Genève</authority>
+        <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
         <availability status="restricted">
           <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
         </availability>
@@ -21,17 +19,17 @@
       <sourceDesc>
         <biblFull>
           <titleStmt>
-            <title type="titulo_completo">CANCION NUEVA A MI HERMOSA ELVIRA.
-                                          PARA CANTARSE CON GUITARRA.</title>
-            <title type="titulo_breve"/>
+            <title type="titulo_completo">CANCION NUEVA A MI HERMOSA ELVIRA. PARA CANTARSE CON
+              GUITARRA.</title>
+            <title type="titulo_breve">CANCION NUEVA A MI HERMOSA ELVIRA.</title>
           </titleStmt>
           <editionStmt>
             <p/>
           </editionStmt>
           <publicationStmt>
-            <publisher>Antonio de Llorens</publisher>
+            <publisher>Antonio Llorens</publisher>
             <pubPlace ref="https://www.geonames.org/3128760/barcelona.html">Barcelona</pubPlace>
-            <date>[s.a]</date>
+            <date cert="low" when="1800-01-01">[s.a.]</date>
           </publicationStmt>
         </biblFull>
         <msDesc>
@@ -39,7 +37,8 @@
             <country>Suisse</country>
             <settlement>Genève</settlement>
             <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"/>
-                                    </repository>
+            </repository>
+            <collection>Colección Varios</collection>
             <idno type="cote"/>
             <idno type="DOI">10.5281/zenodo.6575926</idno>
             <altIdentifier>
@@ -73,7 +72,7 @@
                 <list>
                   <item corresp="grabado_v_094_1.xml">grabado_v_094_1</item>
                   <item corresp="grabado_v_094_2.xml">grabado_v_094_2</item>
-                  <item corresp="grabado_v_094_1.xml">grabado_v_094_3</item>
+                  <item corresp="grabado_v_094_3.xml">grabado_v_094_3</item>
                 </list>
               </decoNote>
             </decoDesc>
@@ -83,8 +82,7 @@
           </physDesc>
           <history>
             <origin>
-              <p>Imps. de Antonio Llorens, Palma de Sta. Catalina,
-                                                6.</p>
+              <p>Imps. de Antonio Llorens, Palma de Sta. Catalina, 6.</p>
             </origin>
             <provenance/>
             <acquisition>
@@ -96,18 +94,17 @@
     </fileDesc>
     <encodingDesc>
       <projectDesc>
-        <p>Este archivo fue creado en el marco del proyecto Desenrollando el
-                              Cordel/Démêler le cordel/Untangling the cordel, dirigido por la
-                              profesora Constance Carta de la Universidad de Ginebra, con el apoyo
-                              de la Fundación filantrópica Famille Sandoz-Monique de Meuron.</p>
+        <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+          cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la Universidad
+          de Ginebra, con el apoyo de la Fundación filantrópica Famille Sandoz-Monique de
+          Meuron.</p>
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR non corregido</p>
+          <p>OCR no corregido</p>
         </correction>
         <normalization>
-          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto
-                                    original.</p>
+          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
         </normalization>
         <punctuation>
           <p>Se conserva la puntuación original.</p>
@@ -128,10 +125,14 @@
       </textClass>
     </profileDesc>
     <revisionDesc>
-      <change when="2022-07-27" who="#PJ">Création du fichier TEI P5 et encodage du
-                        corps du texte</change>
+      <change when="2022-07-27" who="#PJ">Création du fichier TEI P5 et encodage du corps du
+        texte</change>
+      <change when="2024-01-09" who="#EL">Add the IIIF links</change>
     </revisionDesc>
   </teiHeader>
+  <facsimile>
+    <graphic url="varios/Varios_094_1.jpg/full/200,/0/default.jpg"/>
+  </facsimile>
   <sourceDoc xml:id="automaticTranscription">
     <surface xml:id="Varios_094_1" type="page" cert="silver">
       <graphic url="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_094_1/full/full/0/default.jpg"/>
@@ -1097,8 +1098,7 @@
       <zone xml:id="Varios_094_4_BT228_3" n="3" type="MarginTextZone" subtype="colophon" points="1158,2278 1524,2278 1585,2304 1585,2355 354,2393 350,2337 429,2287 901,2287 1018,2286 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_094_4/350,2278,1235,115/full/0/default" corresp="MarginTextZone:colophon">
         <zone xml:id="Varios_094_4_BT228_3_LT83_1" type="DefaultLine" subtype="none" points="381,2355 377,2276 443,2274 445,2274 445,2274 447,2274 447,2274 447,2274 449,2274 449,2274 449,2274 465,2287 482,2274 482,2274 484,2274 484,2274 484,2274 486,2274 486,2274 489,2274 489,2274 489,2274 491,2274 491,2274 493,2274 522,2287 537,2274 539,2271 539,2271 541,2271 541,2271 541,2271 543,2271 543,2271 546,2271 546,2271 579,2274 699,2285 739,2274 750,2269 752,2269 752,2269 752,2269 754,2269 754,2269 780,2271 844,2282 866,2271 868,2271 868,2271 870,2271 870,2271 870,2271 872,2271 894,2271 1039,2280 1046,2271 1048,2271 1048,2271 1048,2269 1048,2269 1050,2269 1050,2269 1050,2269 1052,2269 1052,2269 1055,2269 1552,2269 1557,2339 1557,2401 1379,2405 1377,2405 1377,2405 1375,2405 1375,2405 1375,2405 1373,2405 1373,2405 1373,2403 1366,2398 1329,2363 1296,2359 1120,2359 1085,2377 1085,2377 1083,2377 1083,2377 1083,2377 1081,2377 1081,2377 1079,2377 1079,2377 1079,2377 1076,2377 1076,2377 1063,2366 1048,2377 1048,2379 1048,2379 1046,2379 1046,2379 1044,2379 1044,2379 1044,2379 991,2381 989,2381 989,2381 989,2381 987,2381 987,2381 984,2381 967,2370 921,2390 883,2403 883,2403 881,2403 881,2403 881,2403 879,2403 756,2394 756,2394 754,2394 754,2394 754,2394 752,2394 752,2394 752,2392 743,2385 726,2366 697,2381 697,2381 697,2381 695,2381 695,2381 695,2381 693,2381 693,2381 690,2381 690,2381 690,2381 664,2368 651,2383 638,2394 638,2396 638,2396 636,2396 636,2396 636,2396 633,2396 633,2396 631,2396 550,2394 550,2394 550,2394 548,2394 548,2394 548,2394 546,2394 546,2394 530,2381 526,2379 381,2379 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_094_4/377,2269,1180,136/full/0/default" corresp="DefaultLine">
           <path xml:id="Varios_094_4_BT228_3_LT83_1_1" points="383,2356 1559,2340 "/>
-          <line>Barcelona: Imps. de Antonio Llorens, Palma de Sta. Catalina,
-                                    6.</line>
+          <line>Barcelona: Imps. de Antonio Llorens, Palma de Sta. Catalina, 6.</line>
         </zone>
       </zone>
       <zone xml:id="Varios_094_4_BT226_4" n="4" type="MainZone" subtype="none" points="918,2183 918,2263 1026,2263 1026,2183 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_094_4/918,2183,108,80/full/0/default" corresp="MainZone">
@@ -1113,268 +1113,275 @@
     <body>
       <div>
         <div>
-          <pb n="1" source="Varios_094_1.jpg" facs="fedora_Varios_094_1/full/full/0/default.jpg"/>
-          <head type="primer_titulo"><lb/>CANCION NUEVA<lb/>A MI<lb/>HERMOSA ELVIRA.<lb/>PARA
-                                    CANTARSE CON GUITARRA.</head>
-          <p><lb/>1.</p>
-          <lg>
-            <l>Bella Elvira, dueño mio,</l>
-            <l>tierno hechizo, dulce bien,</l>
-            <l>princesa de mi alvedrío,</l>
-            <l>mi gloria, mi hermoso Eden:</l>
-            <l>Ven, Elvira</l>
-            <l>ven y mira</l>
-            <l>cual palpita</l>
-            <l>con ardor;</l>
-            <l>Ese pecho</l>
-            <l>que se inflama</l>
-            <l>en la llama</l>
-            <l>de tu amor.</l>
-          </lg>
-          <p><lb/>2.ª</p>
-          <lg>
-            <l>Oye, Elvira, atiende, deja</l>
-            <l>que en tus ojos me embelese,</l>
-            <l>no los vuelves, ay! no, deja</l>
-            <l>que los mire, que los bese:</l>
-            <l>Que tus ojos</l>
-            <l>sin enojos</l>
-            <l>son hermosos</l>
-            <l>como el sol.</l>
-            <l>Y es su brillo</l>
-            <l>que enamora</l>
-            <l>de la aurora</l>
-            <l>el arrebol.</l>
-          </lg>
-          <pb n="2" source="Varios_094_2.jpg" facs="fedora_Varios_094_2/full/full/0/default.jpg"/>
-          <p><lb/>3.ª</p>
-          <lg>
-            <l>Esos brazos dame, hermosa,</l>
-            <l>deja que contra mi pecho</l>
-            <l>esa pasion ardorosa</l>
-            <l>te pinte en abrazo estrecho:</l>
-            <l>Que tus brazos</l>
-            <l>yo sean lazos,</l>
-            <l>tierna Elvira</l>
-            <l>de mi fé:</l>
-            <l>Y abrazados</l>
-            <l>y estrechados</l>
-            <l>mis cuidados</l>
-            <l>te diré.</l>
-          </lg>
-          <p><lb/>4.ª</p>
-          <lg>
-            <l>Oh! tus lábios cuan hermosos</l>
-            <l>sonrosados, tentadores,</l>
-            <l>pequenitos, vaporosos,</l>
-            <l>donde juegan los amores:</l>
-            <l>Quiero un beso,</l>
-            <l>mi embeleso,</l>
-            <l>yinda rosa</l>
-            <l>del abril.</l>
-            <l>Otro Elvira</l>
-            <l>Ay! un momento</l>
-            <l>dáme ciento,</l>
-            <l>dáme mil.</l>
-          </lg>
-          <p><lb/>5.ª</p>
-          <lg>
-            <l>Quien, Elvira, no te adora</l>
-            <l>si eres bello serafin,</l>
-            <l>y en sus ojos no devora</l>
-            <l>tus mejillas de carmin?</l>
-            <l>Oh! sus rosas</l>
-            <l>tan hermosas</l>
-            <l>con mi labio</l>
-            <l>humedecer.</l>
-            <l>Marchitarlas,</l>
-            <l>y adorarlas,</l>
-            <l>y besarlas</l>
-            <l>que placer!</l>
-          </lg>
-          <p><lb/>6.ª</p>
-          <lg>
-            <l>Esa blonda cabellera</l>
-            <l>que meco er arro sutil,</l>
-            <l>como rosa ¡ay hechicera</l>
-            <l>tu garganta de marfil!</l>
-            <l>tan ardiente</l>
-            <l>Oh! mi frente</l>
-            <l>en tu seno</l>
-            <l>ocultaré.</l>
-            <l>á tus hechizos</l>
-            <l>Y por colmo</l>
-            <l>con tus rizos</l>
-            <l>tócame.</l>
-          </lg>
-          <p><lb/>7.ª</p>
-          <lg>
-            <l>Cuan celeste melodía</l>
-            <l>en tu voz percibo yo!</l>
-            <l>ay! si me hablas, mona mia,</l>
-            <l>creo que un ángel me habló!</l>
-            <l>y cantemos</l>
-            <l>Ven, volemos</l>
-            <l>y gocemos</l>
-            <l>de placer:</l>
-            <l>Que es el cielo</l>
-            <l>de la vida</l>
-            <l>tan querida</l>
-            <l>una mujer.</l>
-          </lg>
-          <p><lb/>8.ª</p>
-          <lg>
-            <l>Oh! que ha de ser á tu lado</l>
-            <l>bella la vida, muy bella,</l>
-            <l>siempre sentirse inundado</l>
-            <l>de la luz la blanca estrella:</l>
-            <l>Siempre unidos</l>
-            <l>y queridos</l>
-            <l>esa vida</l>
-            <l>atravesar;</l>
-            <l>Con delicia</l>
-            <l>con terneza,</l>
-            <l>sin tristeza,</l>
-            <l>sin pesar.</l>
-          </lg>
-          <trailer>FIN.</trailer>
-          <pb n="3" source="Varios_094_3.jpg" facs="fedora_Varios_094_3/full/full/0/default.jpg"/>
-        </div>
-        <div type="cancion" n="2">
-          <head type="titulo_cancion"><lb/>VIDA DE LAS DONCELLAS.</head>
-          <lg>
-            <l>Por las señoras doncellas,</l>
+          <div n="1">
+            <pb n="1" source="Varios_094_1.jpg" facs="varios/Varios_094_1.jpg/"/>
+
+            <head type="primer_titulo"><lb/>CANCION NUEVA<lb/>A MI<lb/><hi rend="negrita">HERMOSA
+                ELVIRA.</hi><lb/>PARA CANTARSE CON GUITARRA.</head>
+
+            <lg>
+              <head type="titulo_estrofa"><lb/>1.</head>
+              <l rend="indent">Bella Elvira, dueño mio,</l>
+              <l>tierno hechizo, dulce bien,</l>
+              <l>princesa de mi alvedrío,</l>
+              <l>mi gloria, mi hermoso Eden:</l>
+              <l rend="indent">Ven, Elvira</l>
+              <l>ven y mira</l>
+              <l>cual palpita</l>
+              <l>con ardor;</l>
+              <l rend="indent">Ese pecho</l>
+              <l>que se inflama</l>
+              <l>en la llama</l>
+              <l>de tu amor.</l>
+            </lg>
+
+            <lg>
+              <head type="titulo_estrofa"><lb/>2.ª</head>
+              <l rend="indent">Oye, Elvira, atiende, deja</l>
+              <l>que en tus ojos me embelese,</l>
+              <l>no los vuelves, ay! no, deja</l>
+              <l>que los mire, que los bese:</l>
+              <l rend="indent">Que tus ojos</l>
+              <l>sin enojos</l>
+              <l>son hermosos</l>
+              <l>como el sol.</l>
+              <l rend="indent">Y es su brillo</l>
+              <l>que enamora</l>
+              <l>de la aurora</l>
+              <l>el arrebol.</l>
+            </lg>
+            <pb n="2" source="Varios_094_2.jpg" facs="varios/Varios_094_2.jpg/"/>
+
+            <lg>
+              <head type="titulo_estrofa"><lb/>3.ª</head>
+              <l rend="indent">Esos brazos dame, hermosa,</l>
+              <l>deja que contra mi pecho</l>
+              <l>esa pasion ardorosa</l>
+              <l>te pinte en abrazo estrecho:</l>
+              <l rend="indent">Que tus brazos</l>
+              <l>yo sean lazos,</l>
+              <l>tierna Elvira</l>
+              <l>de mi fé:</l>
+              <l rend="indent">Y abrazados</l>
+              <l>y estrechados</l>
+              <l>mis cuidados</l>
+              <l>te diré.</l>
+            </lg>
+
+            <lg>
+              <head type="titulo_estrofa"><lb/>4.ª</head>
+              <l rend="indent">Oh! tus lábios cuan hermosos</l>
+              <l>sonrosados, tentadores,</l>
+              <l>pequenitos, vaporosos,</l>
+              <l>donde juegan los amores:</l>
+              <l rend="indent">Quiero un beso,</l>
+              <l>mi embeleso,</l>
+              <l>yinda rosa</l>
+              <l>del abril.</l>
+              <l rend="indent">Otro Elvira</l>
+              <l>Ay! un momento</l>
+              <l>dáme ciento,</l>
+              <l>dáme mil.</l>
+            </lg>
+
+            <lg>
+              <head type="titulo_estrofa"><lb/>5.ª</head>
+              <l rend="indent">Quien, Elvira, no te adora</l>
+              <l>si eres bello serafin,</l>
+              <l>y en sus ojos no devora</l>
+              <l>tus mejillas de carmin?</l>
+              <l rend="indent">Oh! sus rosas</l>
+              <l>tan hermosas</l>
+              <l>con mi labio</l>
+              <l>humedecer.</l>
+              <l rend="indent">Marchitarlas,</l>
+              <l>y adorarlas,</l>
+              <l>y besarlas</l>
+              <l>que placer!</l>
+            </lg>
+
+            <lg>
+              <head type="titulo_estrofa"><lb/>6.ª</head>
+              <l rend="indent">Esa blonda cabellera</l>
+              <l>que meco er arro sutil,</l>
+              <l>como rosa ¡ay hechicera</l>
+              <l>tu garganta de marfil!</l>
+              <l rend="indent">tan ardiente</l>
+              <l>Oh! mi frente</l>
+              <l>en tu seno</l>
+              <l>ocultaré.</l>
+              <l rend="indent">á tus hechizos</l>
+              <l>Y por colmo</l>
+              <l>con tus rizos</l>
+              <l>tócame.</l>
+            </lg>
+
+            <lg>
+              <head type="titulo_estrofa"><lb/>7.ª</head>
+              <l rend="indent">Cuan celeste melodía</l>
+              <l>en tu voz percibo yo!</l>
+              <l>ay! si me hablas, mona mia,</l>
+              <l>creo que un ángel me habló!</l>
+              <l rend="indent">y cantemos</l>
+              <l>Ven, volemos</l>
+              <l>y gocemos</l>
+              <l>de placer:</l>
+              <l rend="indent">Que es el cielo</l>
+              <l>de la vida</l>
+              <l>tan querida</l>
+              <l>una mujer.</l>
+            </lg>
+
+            <lg>
+              <head type="titulo_estrofa"><lb/>8.ª</head>
+              <l rend="indent">Oh! que ha de ser á tu lado</l>
+              <l>bella la vida, muy bella,</l>
+              <l>siempre sentirse inundado</l>
+              <l>de la luz la blanca estrella:</l>
+              <l rend="indent">Siempre unidos</l>
+              <l>y queridos</l>
+              <l>esa vida</l>
+              <l>atravesar;</l>
+              <l rend="indent">Con delicia</l>
+              <l>con terneza,</l>
+              <l>sin tristeza,</l>
+              <l>sin pesar.</l>
+            </lg>
+            <trailer>FIN.</trailer>
+          </div>
+
+          <div n="2">
+            <pb n="3" source="Varios_094_3.jpg" facs="varios/Varios_094_3.jpg/"/>
+            <head type="primer_titulo"><lb/>VIDA DE LAS DONCELLAS.</head>
+
+            <l rend="indent">Por las señoras doncellas,</l>
             <l>señoras voy á empezar</l>
             <l>que todas saltan y brincan</l>
             <l>cuando se quieren casar.</l>
-            <l>Gastan muchos dengues,</l>
+            <l rend="indent">Gastan muchos dengues,</l>
             <l>mil trajes y ropas;</l>
             <l>comiendo y bebiendo</l>
             <l>á hora y deshora.</l>
-            <l>Pasan una vida</l>
+            <l rend="indent">Pasan una vida</l>
             <l>muy bien regalada</l>
             <l>siempre retozando</l>
             <l>como unas menguadas.</l>
-            <l>Pero si las pica</l>
+            <l rend="indent">Pero si las pica</l>
             <l>el moño ó el pié,</l>
             <l>todo se ha perdido,</l>
             <l>ya me entiende usted.</l>
-            <l>Mientras están con sus padres</l>
+            <l rend="indent">Mientras están con sus padres</l>
             <l>están muy bien estimadas,</l>
             <l>las compran mil aderezos,</l>
-          </lg>
-          <lg>
             <l>porque vayan adornadas.</l>
-            <l>Ellas siempre van,</l>
+            <l rend="indent">Ellas siempre van,</l>
             <l>las mas de las tardes,</l>
             <l>en cuatro ó en cinco</l>
             <l>buscando los bailes.</l>
-            <l>Corren como un trueno</l>
+            <l rend="indent">Corren como un trueno</l>
             <l>tras de la guitarra,</l>
             <l>y sus pobres madres</l>
             <l>llevando la carga.</l>
-            <l>Pero si las pica</l>
+            <l rend="indent">Pero si las pica</l>
             <l>el moño ó la pierna,</l>
             <l>yodo se ha perdido</l>
             <l>Dios la ampare buena.</l>
-            <l>Aunque se acuesten temprano</l>
+            <l rend="indent">Aunque se acuesten temprano</l>
             <l>ellas madrugan muy poco,</l>
             <l>porque tienen á su madre</l>
             <l>que cuida de padre y mozo.</l>
-            <l>Se están en la cama</l>
+            <l rend="indent">Se están en la cama</l>
             <l>muy bien reclocadas,</l>
-          </lg>
-          <pb n="4" source="Varios_094_4.jpg" facs="fedora_Varios_094_4/full/full/0/default.jpg"/>
-          <lg>
+
+            <pb n="4" source="Varios_094_4.jpg" facs="varios/Varios_094_4.jpg/"/>
+
             <l>hasta que su madre</l>
             <l>mil veces las llama.</l>
-            <l>Luego se levantan</l>
+            <l rend="indent">Luego se levantan</l>
             <l>medio endormiscadas,</l>
             <l>se alisan el moño,</l>
             <l>se lavan la cara.</l>
-            <l>Desde allí á muy poco,</l>
+            <l rend="indent">Desde allí á muy poco,</l>
             <l>con muy grande esfuerzo,</l>
             <l>antes de ir por agua</l>
             <l>buscan el almuerzo.</l>
-            <l>Pero si las pica</l>
+            <l rend="indent">Pero si las pica</l>
             <l>el moño ó el brazo</l>
             <l>toda la alegría</l>
             <l>se volvió trabajo.</l>
-            <l>Otras que son señoritas</l>
+            <l rend="indent">Otras que son señoritas</l>
             <l>y suelen tener criadas,</l>
             <l>estas están de sus padres</l>
             <l>muy queridas y estimadas.</l>
-            <l>Por la mañanita</l>
+            <l rend="indent">Por la mañanita</l>
             <l>el buen chocolate,</l>
             <l>y luego el almuerzo</l>
             <l>viene vigilante.</l>
-            <l>Reciben visitas</l>
+            <l rend="indent">Reciben visitas</l>
             <l>de mucha importancia,</l>
             <l>y luego la siesta</l>
             <l>despues de la yanta.</l>
-            <l>Y luego á la tarde</l>
+            <l rend="indent">Y luego á la tarde</l>
             <l>se van á paseo,</l>
             <l>si es en el verano</l>
             <l>con mucho recreo.</l>
-            <l>Pero si las pica</l>
+            <l rend="indent">Pero si las pica</l>
             <l>el moño ó la cara,</l>
             <l>por irse á jalenes</l>
             <l>se marchan á zarra.</l>
-            <l>Otras hay que sirven á amos,</l>
+            <l rend="indent">Otras hay que sirven á amos,</l>
             <l>con abogados ó curas,</l>
             <l>estas se suelen comer</l>
             <l>de la olla la mejor chula.</l>
-            <l>Y si ven al amo</l>
+            <l rend="indent">Y si ven al amo</l>
             <l>con mucha alegría,</l>
             <l>le guiñan el ojo</l>
-          </lg>
-          <lg>
             <l>con zalamería.</l>
             <l>dan conversacion,</l>
-            <l>Reciben visitas,</l>
+            <l rend="indent">Reciben visitas,</l>
             <l>barren bien la casa,</l>
             <l>limpian el velon.</l>
             <l>el moño ó el ojo</l>
-            <l>Pero si las pica</l>
+            <l rend="indent">Pero si las pica</l>
             <l>todos los garbanzos</l>
             <l>se echan á remojo.</l>
             <l>y quieren casarse presto,</l>
-            <l>Otras que son jovencitas</l>
+            <l rend="indent">Otras que son jovencitas</l>
             <l>estas no piensan en nada</l>
             <l>sino en regar el tiesto.</l>
-            <l>Crian clavellinas,</l>
+            <l rend="indent">Crian clavellinas,</l>
             <l>claveles y rosas,</l>
             <l>y algunas no quieren</l>
             <l>juntarse con otras.</l>
-            <l>Y si ven al novio</l>
+            <l rend="indent">Y si ven al novio</l>
             <l>le vuelven la espalda,</l>
             <l>su madre las dice:</l>
             <l>¿qué has hecho, Fulana?</l>
-            <l>Pero si las pica</l>
+            <l rend="indent">Pero si las pica</l>
             <l>el moño ó la frente,</l>
             <l>el cuerpo y el alma</l>
             <l>se pone caliente...</l>
-            <l>Aquí se acaba, señores,</l>
+            <l rend="indent">Aquí se acaba, señores,</l>
             <l>la vida de las doncellas;</l>
             <l>me parece que he cantado</l>
             <l>lo que pasa en todas ellas.</l>
-            <l>Ustedes perdonen</l>
+            <l rend="indent">Ustedes perdonen</l>
             <l>si las he agraviado</l>
             <l>en toda esta historia</l>
             <l>que yo he relatado.</l>
-            <l>No me hagan repulgos,</l>
+            <l rend="indent">No me hagan repulgos,</l>
             <l>ni recrujan dientes,</l>
             <l>que yo se lo he dicho</l>
             <l>á las de Cofrentes.</l>
-            <l>Y ahora las digo,</l>
+            <l rend="indent">Y ahora las digo,</l>
             <l>de orejas muy cacho,</l>
             <l>que Dios las de un novio</l>
             <l>aunque sea MACHO.</l>
-          </lg>
-          <div type="colofon">
-            <p><lb/>Barcelona: Imps. de Antonio Llorens, Palma de Sta.
-                                          Catalina, 6.</p>
           </div>
+        </div>
+        
+        <div type="colofon">
+          <p><lb/>Barcelona: Imps. de Antonio Llorens, Palma de Sta. Catalina, 6.</p>
         </div>
       </div>
     </body>

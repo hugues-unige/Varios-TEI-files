@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../Schema/oddPliego_varios.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:alto="http://www.loc.gov/standards/alto/ns-v4#" xml:id="Varios_076">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Varios_076">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -11,8 +11,7 @@
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <authority role="rightsHolder">Bibliothèque Universitaire de
-                            Genève</authority>
+        <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
         <availability status="restricted">
           <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
         </availability>
@@ -20,7 +19,8 @@
       <sourceDesc>
         <biblFull>
           <titleStmt>
-            <title type="titulo_completo">LAS TRES CANCIONES NUEVAS : EL PRISIONERO, EL CONTRABANDISTA Y EL VOLCAN.</title>
+            <title type="titulo_completo">LAS TRES CANCIONES NUEVAS : EL PRISIONERO, EL
+              CONTRABANDISTA Y EL VOLCAN.</title>
             <title type="titulo_breve"/>
           </titleStmt>
           <editionStmt>
@@ -29,7 +29,7 @@
           <publicationStmt>
             <publisher>Juan Bautista Vidal</publisher>
             <pubPlace ref="https://www.geonames.org/3111933/reus.html">Reus</pubPlace>
-            <date>[s.a]</date>
+            <date cert="low" when="1800-01-01">[s.a.]</date>
           </publicationStmt>
         </biblFull>
         <msDesc>
@@ -37,7 +37,8 @@
             <country>Suisse</country>
             <settlement>Genève</settlement>
             <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"/>
-                  </repository>
+            </repository>
+            <collection>Colección Varios</collection>
             <idno type="cote"/>
             <idno type="DOI">10.5281/zenodo.6565898</idno>
             <altIdentifier>
@@ -45,10 +46,18 @@
             </altIdentifier>
           </msIdentifier>
           <msContents>
-            <summary/>
+            <summary>Tres canciones</summary>
             <msItem>
-              <locus/>
-              <title/>
+              <locus>1-2</locus>
+              <title>El prisionero.</title>
+            </msItem>
+            <msItem>
+              <locus>2-3</locus>
+              <title>El contrabandista</title>
+            </msItem>
+            <msItem>
+              <locus>4</locus>
+              <title>El volcan</title>
             </msItem>
           </msContents>
           <physDesc>
@@ -66,11 +75,11 @@
               </layoutDesc>
             </objectDesc>
             <decoDesc>
-              <summary n="2">Dos grabados (p.1 + 2) </summary>
+              <summary n="2">Dos grabados (p.1, 2)</summary>
               <decoNote type="lista_grabados">
                 <list>
                   <item corresp="grabado_v_076_1.xml">grabado_v_076_1</item>
-                  <item corresp="grabado_v_076_1.xml">grabado_v_076_1</item>
+                  <item corresp="grabado_v_076_2.xml">grabado_v_076_2</item>
                 </list>
               </decoNote>
             </decoDesc>
@@ -88,18 +97,17 @@
     </fileDesc>
     <encodingDesc>
       <projectDesc>
-        <p>Este archivo fue creado en el marco del proyecto Desenrollando el
-                            Cordel/Démêler le cordel/Untangling the cordel, dirigido por la
-                            profesora Constance Carta de la Universidad de Ginebra, con el apoyo de
-                            la Fundación filantrópica Famille Sandoz-Monique de Meuron.</p>
+        <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+          cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la Universidad
+          de Ginebra, con el apoyo de la Fundación filantrópica Famille Sandoz-Monique de
+          Meuron.</p>
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR non corregido</p>
+          <p>OCR no corregido</p>
         </correction>
         <normalization>
-          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto
-                                original.</p>
+          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
         </normalization>
         <punctuation>
           <p>Se conserva la puntuación original.</p>
@@ -121,9 +129,13 @@
     </profileDesc>
     <revisionDesc>
       <change when="2022-06-20" who="#PJ">Création du fichier TEI P5 et encodage du corps du
-                        texte</change>
+        texte</change>
+      <change when="2024-01-09" who="#EL">Add the IIIF links</change>
     </revisionDesc>
   </teiHeader>
+  <facsimile>
+    <graphic url="varios/Varios_076_1.jpg/full/200,/0/default.jpg"/>
+  </facsimile>
   <sourceDoc xml:id="automaticTranscription">
     <surface xml:id="Varios_076_1" type="page" cert="silver">
       <graphic url="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_076_1/full/full/0/default.jpg"/>
@@ -974,256 +986,272 @@
   <text>
     <body>
       <div>
-        <pb n="1" source="Varios_076_1.jpg" facs="fedora_Varios_076_1/full/full/0/default.jpg"/>
-        <fw type="numeroPliego"/>
-        <head type="primer_titulo"><lb/>LAS TRES CANCIONES NUEVAS:<lb/>EL PRISIONERO, EL CONTRABANDISTA Y EL VOLCAN.</head>
-        <div type="parte" n="1">
-          <head type="titulo_cancion"><lb/>EL PRISIONERO.</head>
-          <lg>
-            <l>1.ª Prisionero triste y solo</l>
-            <l>aquí me pongo á llorar,</l>
-            <l>sin tener quien me consuele</l>
-            <l>en mi amarga soledad.</l>
-          </lg>
-          <lg>
-            <l>CORO.</l>
-            <l rend="cursiva">¡Ay tirana suerte mia!</l>
-            <l rend="cursiva">¿ Hasta cuando has de durar?</l>
-          </lg>
-          <lg>
-            <l>2.ª Toda la ciudad tenia</l>
-            <l>para poder pasear,</l>
-            <l>y un momento imprevisto</l>
-            <l>me quedé sin libertad.</l>
-            <l rend="cursiva">¡Ay tirana suerte mial etc.</l>
-          </lg>
-          <lg>
-            <l>3.ª Centinela de mi vista,</l>
-            <l>ya te puedes retirar,</l>
-            <pb n="2" source="Varios_076_2.jpg" facs="fedora_Varios_076_2/full/full/0/default.jpg"/>
-            <l>esta si que es mayor pena,</l>
-            <l>que es oir, ver y callar.</l>
-            <l rend="cursiva">¡Ay tirana suerte mia! etc.</l>
-          </lg>
-          <lg>
-            <l>4.ª Viéndome sin libertad</l>
-            <l>cai por fin desmayado,</l>
-            <l>de un centinela guardado</l>
-            <l>para mi pena doblar.</l>
-            <l rend="cursiva">¡Ay tirana suerte mia! etc.</l>
-          </lg>
-          <lg>
-            <l>5.ª Preso y cargado de hierro</l>
-            <l>me ven de esta manera,</l>
-            <l>con los huesos tan podridos</l>
-            <l>de la humedad de la tierra.</l>
-            <l rend="cursiva">¡Ay tirana suerte mia! etc.</l>
-          </lg>
-          <lg>
-            <l>6.ª Las rejas del calabozo</l>
-            <l>todas bañadas están,</l>
-            <l>con lágrimas de mis ojos</l>
-            <l>sin poderlo remediar.</l>
-            <l rend="cursiva">¡Ay tirana suerte mia! etc.</l>
-          </lg>
-          <lg>
-            <l>7.ª Las rejas y calabozo</l>
-            <l>de mi no tienen piedad,</l>
-            <l>que han de hacer mis tristes ojos</l>
-            <l>nada más sinó llorar.</l>
-            <l rend="cursiva">¡Ay tirana suerte mia! etc.</l>
-          </lg>
-          <lg>
-            <l>8.ª Me despido hermoso cielo</l>
-            <l>de tu hermosa claredad;</l>
-            <l>y mi amante me concede</l>
-            <l>amor, patria y libertad.</l>
-            <l rend="cursiva">¡Ay tirana suerte mia! etc.</l>
-          </lg>
-          <trailer>FIN.</trailer>
+        <div>
+          <pb n="1" source="Varios_076_1.jpg" facs="varios/Varios_076_1.jpg/"/>
+
+          <fw type="numeroPliego">(Núm. 37).</fw>
+          
+          <head type="primer_titulo"><lb/>LAS TRES CANCIONES NUEVAS:<lb/><hi rend="negrita">EL
+              PRISIONERO, EL CONTRABANDISTA Y EL VOLCAN.</hi></head>
+
+          <div n="1">
+            <head type="titulo_cancion"><lb/>EL PRISIONERO.</head>
+            <lg>
+              <l>1.ª Prisionero triste y solo</l>
+              <l>aquí me pongo á llorar,</l>
+              <l>sin tener quien me consuele</l>
+              <l>en mi amarga soledad.</l>
+            </lg>
+            <lg>
+              <head type="titulo_estrofa">CORO.</head>
+              <l rend="indent"><hi rend="cursiva">¡Ay tirana suerte mia!</hi></l>
+              <l rend="cursiva">¿ Hasta cuando has de durar?</l>
+            </lg>
+            <lg>
+              <l>2.ª Toda la ciudad tenia</l>
+              <l>para poder pasear,</l>
+              <l>y un momento imprevisto</l>
+              <l>me quedé sin libertad.</l>
+              <l rend="indent"><hi rend="cursiva">¡Ay tirana suerte mia! etc.</hi></l>
+            </lg>
+            <lg>
+              <l>3.ª Centinela de mi vista,</l>
+              <l>ya te puedes retirar,</l>
+
+              <pb n="2" source="Varios_076_2.jpg" facs="varios/Varios_076_2.jpg/"/>
+
+              <l>esta si que es mayor pena,</l>
+              <l>que es oir, ver y callar.</l>
+              <l rend="indent"><hi rend="cursiva">¡Ay tirana suerte mia! etc.</hi></l>
+            </lg>
+            <lg>
+              <l>4.ª Viéndome sin libertad</l>
+              <l>cai por fin desmayado,</l>
+              <l>de un centinela guardado</l>
+              <l>para mi pena doblar.</l>
+              <l rend="indent"><hi rend="cursiva">¡Ay tirana suerte mia! etc.</hi></l>
+            </lg>
+            <lg>
+              <l>5.ª Preso y cargado de hierro</l>
+              <l>me ven de esta manera,</l>
+              <l>con los huesos tan podridos</l>
+              <l>de la humedad de la tierra.</l>
+              <l rend="indent"><hi rend="cursiva">¡Ay tirana suerte mia! etc.</hi></l>
+            </lg>
+            <lg>
+              <l>6.ª Las rejas del calabozo</l>
+              <l>todas bañadas están,</l>
+              <l>con lágrimas de mis ojos</l>
+              <l>sin poderlo remediar.</l>
+              <l rend="indent"><hi rend="cursiva">¡Ay tirana suerte mia! etc.</hi></l>
+            </lg>
+            <lg>
+              <l>7.ª Las rejas y calabozo</l>
+              <l>de mi no tienen piedad,</l>
+              <l>que han de hacer mis tristes ojos</l>
+              <l>nada más sinó llorar.</l>
+              <l rend="indent"><hi rend="cursiva">¡Ay tirana suerte mia! etc.</hi></l>
+            </lg>
+            <lg>
+              <l>8.ª Me despido hermoso cielo</l>
+              <l>de tu hermosa claredad;</l>
+              <l>y mi amante me concede</l>
+              <l>amor, patria y libertad.</l>
+              <l rend="indent"><hi rend="cursiva">¡Ay tirana suerte mia! etc.</hi></l>
+            </lg>
+            <trailer>FIN.</trailer>
+          </div>
+
+          <div n="2">
+            <head type="titulo_cancion"><lb/>EL CONTRABANDISTA.</head>
+            <lg>
+              <l>1.ª Ciudadano soy del campo</l>
+              <l>contrabandista en mi tierra</l>
+              <l>paso género á lnglaterra</l>
+              <l>y tabaco en Portugal</l>
+              <l>porque no temo á los hombres</l>
+              <l>ni aunque fuera á la ronda</l>
+              <l>de una legu a á la redonda</l>
+              <l>ninguno se ha de acercar...</l>
+            </lg>
+
+            <pb n="3" source="Varios_076_3.jpg" facs="varios/Varios_076_3.jpg/"/>
+
+            <lg>
+              <head type="titulo_estrofa">CORO.</head>
+              <l rend="indent"><hi rend="cursiva">Es la onza para el libre</hi></l>
+              <l rend="cursiva">y la muerte despreciar</l>
+              <l rend="cursiva">á la ley de sus contrarios,</l>
+              <l rend="cursiva">soberanos proclamar.</l>
+            </lg>
+            <lg>
+              <l>2.ª Soy señor contrabandista</l>
+              <l>nadie tiene que dudar</l>
+              <l>paso ratos de penar</l>
+              <l>los mas dias sobresaltos;</l>
+              <l>cuando llego á la frontera</l>
+              <l>la paso sin mas zozobra</l>
+              <l>y á mi potrito le digo</l>
+              <l>huye que viene la ronda.</l>
+              <l rend="indent"><hi rend="cursiva">Es la onza para el libre etc.</hi></l>
+            </lg>
+            <lg>
+              <l>3.ª Desde la costa á los montes</l>
+              <l>de Córdoba la mas bella</l>
+              <l>paso como una centella</l>
+              <l>con mi potro el andador;</l>
+              <l>si se acerca algun cristiano</l>
+              <l>á perturbarme el camino</l>
+              <l>yo al punto lo espavilo</l>
+              <l>aunque sea el mas feroz...</l>
+              <l rend="indent"><hi rend="cursiva">Es la onza para el libre etc.</hi></l>
+            </lg>
+            <lg>
+              <l>4.ª Son las estrellas mi guia</l>
+              <l>y la luna es mi timon</l>
+              <l>los montes son mis delicias</l>
+              <l>un barranco es mi colchon:</l>
+              <l>en el reposo tranquilo</l>
+              <l>como el rey en su palacio</l>
+              <l>sin temor de que me pillen</l>
+              <l>la justicia ni el resguardo.</l>
+              <l rend="indent"><hi rend="cursiva">Es la onza para el libre etc.</hi></l>
+            </lg>
+            <lg>
+              <l>5.ª Los montes son mis palacios;</l>
+              <l>por compañas las botellas</l>
+              <l>para amigas las estrellas</l>
+              <l>para riqueza Gibraltar,</l>
+              <l>porque me rio de hombres</l>
+              <l>como de leyes me rio</l>
+              <l>yo á nadie he obedecido</l>
+              <l>porque todo es mi lugar..</l>
+              <l rend="indent"><hi rend="cursiva">Es la onza para el libre etc.</hi></l>
+            </lg>
+            <lg>
+              <l>6.ª El moro me dá el tesoro</l>
+              <l>de las piedras mas preciosas</l>
+              <l>el inglés me dá otras cosas</l>
+              <l>tan buenas como el francés;</l>
+              <l>Portugal me dá despues</l>
+              <l>la proteccion en entrar</l>
+              <l>y si quiero descargar</l>
+              <l>todo lo vendo muy bien...</l>
+              <l rend="indent"><hi rend="cursiva">Es la onza para el libre etc.</hi></l>
+            </lg>
+            <lg>
+              <l>7.ª Cuando diviso las costas</l>
+              <l>de mi patria la mas bella</l>
+              <l>corro como una centella</l>
+              <l>y al momento descargar;</l>
+              <l>vengan fardos marineros</l>
+              <l>no temer que no hay cuidado</l>
+              <l>soy solo y el que se arrima</l>
+              <l>lo parto de un trabucazo.</l>
+              <l rend="indent"><hi rend="cursiva">Es la onza para el libre etc.</hi></l>
+            </lg>
+            <lg>
+              <l>8.ª Portugal me dá tabaco</l>
+              <l>y pedrerias el moro</l>
+              <l>el inglés me dá un tesoro</l>
+              <l>pero en trapos de algodon:</l>
+              <l>el español me dá penas</l>
+              <l>pero mezeladas con oro</l>
+              <l>mas que el inglés y el moro</l>
+              <l>viva siempre el ESPAÑOL.</l>
+              <l rend="indent"><hi rend="cursiva">Es la onza para el libre etc.</hi></l>
+            </lg>
+            <trailer>FIN.</trailer>
+          </div>
+
+          <div n="3">
+            <pb n="4" source="Varios_076_4.jpg" facs="varios/Varios_076_4.jpg/"/>
+
+            <head type="titulo_cancion" rend="negrita"><lb/>EL VOLCAN</head>
+
+            <lg>
+              <l rend="indent">Cual volcan que mil llamas arroja</l>
+              <l>y despide centellas al viento</l>
+              <l>fuego igual consumirse yo siento</l>
+              <l>asi vive mi pecho al amor.</l>
+              <l rend="indent">A la par que me mata esa llama</l>
+              <l>y la voz á la vida atropella,</l>
+              <l>no podria vivir yo sin ella</l>
+              <l>cual sin sol no puede la flor</l>
+            </lg>
+            <lg>
+              <l rend="indent">El hechizo eres tú de mi ojos</l>
+              <l>el camino de tus lábios mi cielo,</l>
+              <l>al mirarte solo hallo consuelo</l>
+              <l>porque creo á mi Dios contemplar.</l>
+              <l rend="indent">En tí cifro mi dicha y mi gloria</l>
+              <l>desde que yo vi tu hermosura,</l>
+              <l>te consagré toda mi ternura</l>
+              <l>y en mi pecho te hice un altar.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Puede el sol retirar sus destellos,</l>
+              <l>navegar por los vientos las naves,</l>
+              <l>y azurrear por mares las aves,</l>
+              <l>mas dejar de amarte, eso no.</l>
+              <l rend="indent">Que el amor que mi pecho consume</l>
+              <l>el acero que mi alma traspasa,</l>
+              <l>es un fuego voraz que me abrasa</l>
+              <l>que tu dulce mirar me encendió.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Son tus ojos mi guia y antorcha,</l>
+              <l>que me alumbra cual estrella al fin;</l>
+              <l>donde paso las horas mirando</l>
+              <l>sí, tus lábios de hermoso carmin.</l>
+              <l rend="indent">Sola á tí, sola á tí, solo entrego</l>
+              <l>si mi pecho, ábrelo y verás</l>
+              <l>como late, te gime y te llora</l>
+              <l>y te adora hermosa beldad.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Loco busco por prados y selvas</l>
+              <l>una rosa rociada en abril</l>
+              <l>porque escrita la tengo en mi pecho</l>
+              <l>y por ella desprecio cien mil.</l>
+              <l rend="indent">¡ Oh ! que dia serás mi consorte</l>
+              <l>y en tus manos mis lábios posar,</l>
+              <l>y en mis brazos darte de abrazos</l>
+              <l>y estrecharte peca amarte mas.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Eres niña la estrella del Norte</l>
+              <l>y tú sola me das resplandor;</l>
+              <l>cual gilguero te canto amoroso</l>
+              <l>mi constancia, cariño y amor.</l>
+              <l rend="indent">Ven aurora la llave del sueno,</l>
+              <l>con los rayos de tu hermoso sol,</l>
+              <l>y despierta aquella alma que duerme</l>
+              <l>que palpita de gozo y amor.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Son las horas instantes llegados</l>
+              <l>que en mi pecho fallece la voz,</l>
+              <l>un suspiro solo para decirte</l>
+              <l>ángel mio quédate con Dios.</l>
+              <l rend="indent">Solo al verte quedo satisfecho</l>
+              <l>y de tí no me puedo apartar,</l>
+              <l>te profeso el amor que te tengo</l>
+              <l>de adorarte, olvidarte jamás.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Cual humilde cordero te pide</l>
+              <l>le perdones hermosa deidad,</l>
+              <l>y de tus lábios sienta la palabra</l>
+              <l>bondadosa en un todo en amar.</l>
+              <l rend="indent">Adios perla, diamante envidiado</l>
+              <l>adios Vénus la que supo amar</l>
+              <l>adios ángel bajado del cielo</l>
+              <l>cual te adoro cada dia mas.</l>
+            </lg>
+          </div>
         </div>
-        <div type="parte" n="2">
-          <head type="titulo_cancion"><lb/>EL CONTRABANDISTA.</head>
-          <lg>
-            <l>1.ª Ciudadano soy del campo</l>
-            <l>contrabandista en mi tierra</l>
-            <l>paso género á lnglaterra</l>
-            <l>y tabaco en Portugal</l>
-            <l>porque no temo á los hombres</l>
-            <l>ni aunque fuera á la ronda</l>
-            <l>de una legu a á la redonda</l>
-            <l>ninguno se ha de acercar...</l>
-          </lg>
-          <pb n="3" source="Varios_076_3.jpg" facs="fedora_Varios_076_3/full/full/0/default.jpg"/>
-          <lg>
-            <l>CORO.</l>
-            <l rend="cursiva">Es la onza para el libre</l>
-            <l rend="cursiva">y la muerte despreciar</l>
-            <l rend="cursiva">á la ley de sus contrarios,</l>
-            <l rend="cursiva">soberanos proclamar.</l>
-          </lg>
-          <lg>
-            <l>2.ª Soy señor contrabandista</l>
-            <l>nadie tiene que dudar</l>
-            <l>paso ratos de penar</l>
-            <l>los mas dias sobresaltos;</l>
-            <l>cuando llego á la frontera</l>
-            <l>la paso sin mas zozobra</l>
-            <l>y á mi potrito le digo</l>
-            <l>huye que viene la ronda.</l>
-            <l rend="cursiva">Es la onza para el libre etc.</l>
-          </lg>
-          <lg>
-            <l>3.ª Desde la costa á los montes</l>
-            <l>de Córdoba la mas bella</l>
-            <l>paso como una centella</l>
-            <l>con mi potro el andador;</l>
-            <l>si se acerca algun cristiano</l>
-            <l>á perturbarme el camino</l>
-            <l>yo al punto lo espavilo</l>
-            <l>aunque sea el mas feroz...</l>
-            <l rend="cursiva">Es la onza para el libre etc.</l>
-          </lg>
-          <lg>
-            <l>4.ª Son las estrellas mi guia</l>
-            <l>y la luna es mi timon</l>
-            <l>los montes son mis delicias</l>
-            <l>un barranco es mi colchon:</l>
-            <l>en el reposo tranquilo</l>
-            <l>como el rey en su palacio</l>
-            <l>sin temor de que me pillen</l>
-            <l>la justicia ni el resguardo.</l>
-            <l rend="cursiva">Es la onza para el libre etc.</l>
-          </lg>
-          <lg>
-            <l>5.ª Los montes son mis palacios;</l>
-            <l>por compañas las botellas</l>
-            <l>para amigas las estrellas</l>
-            <l>para riqueza Gibraltar,</l>
-            <l>porque me rio de hombres</l>
-            <l>como de leyes me rio</l>
-            <l>yo á nadie he obedecido</l>
-            <l>porque todo es mi lugar..</l>
-            <l rend="cursiva">Es la onza para el libre etc.</l>
-          </lg>
-          <lg>
-            <l>6.ª El moro me dá el tesoro</l>
-            <l>de las piedras mas preciosas</l>
-            <l>el inglés me dá otras cosas</l>
-            <l>tan buenas como el francés;</l>
-            <l>Portugal me dá despues</l>
-            <l>la proteccion en entrar</l>
-            <l>y si quiero descargar</l>
-            <l>todo lo vendo muy bien...</l>
-            <l rend="cursiva">Es la onza para el libre etc.</l>
-          </lg>
-          <lg>
-            <l>7.ª Cuando diviso las costas</l>
-            <l>de mi patria la mas bella</l>
-            <l>corro como una centella</l>
-            <l>y al momento descargar;</l>
-            <l>vengan fardos marineros</l>
-            <l>no temer que no hay cuidado</l>
-            <l>soy solo y el que se arrima</l>
-            <l>lo parto de un trabucazo.</l>
-            <l rend="cursiva">Es la onza para el libre etc.</l>
-          </lg>
-          <lg>
-            <l>8.ª Portugal me dá tabaco</l>
-            <l>y pedrerias el moro</l>
-            <l>el inglés me dá un tesoro</l>
-            <l>pero en trapos de algodon:</l>
-            <l>el español me dá penas</l>
-            <l>pero mezeladas con oro</l>
-            <l>mas que el inglés y el moro</l>
-            <l>viva siempre el ESPAÑOL.</l>
-            <l rend="cursiva">Es la onza para el libre etc.</l>
-          </lg>
-          <pb n="4" source="Varios_076_4.jpg" facs="fedora_Varios_076_4/full/full/0/default.jpg"/>
-        </div>
-        <div type="parte" n="3">
-          <head type="titulo_cancion"><lb/>EL VOLCAN</head>
-          <lg>
-            <l>Cual volcan que mil llamas arroja</l>
-            <l>y despide centellas al viento</l>
-            <l>fuego igual consumirse yo siento</l>
-            <l>asi vive mi pecho al amor.</l>
-            <l>A la par que me mata esa llama</l>
-            <l>y la voz á la vida atropella,</l>
-            <l>no podria vivir yo sin ella</l>
-            <l>cual sin sol no puede la flor</l>
-          </lg>
-          <lg>
-            <l>El hechizo eres tú de mi ojos</l>
-            <l>el camino de tus lábios mi cielo,</l>
-            <l>al mirarte solo hallo consuelo</l>
-            <l>porque creo á mi Dios contemplar.</l>
-            <l>En tí cifro mi dicha y mi gloria</l>
-            <l>desde que yo vi tu hermosura,</l>
-            <l>te consagré toda mi ternura</l>
-            <l>y en mi pecho te hice un altar.</l>
-          </lg>
-          <lg>
-            <l>Puede el sol retirar sus destellos,</l>
-            <l>navegar por los vientos las naves,</l>
-            <l>y azurrear por mares las aves,</l>
-            <l>mas dejar de amarte, eso no.</l>
-            <l>Que el amor que mi pecho consume</l>
-            <l>el acero que mi alma traspasa,</l>
-            <l>es un fuego voraz que me abrasa</l>
-            <l>que tu dulce mirar me encendió.</l>
-          </lg>
-          <lg>
-            <l>Son tus ojos mi guia y antorcha,</l>
-            <l>que me alumbra cual estrella al fin;</l>
-            <l>donde paso las horas mirando</l>
-            <l>sí, tus lábios de hermoso carmin.</l>
-            <l>Sola á tí, sola á tí, solo entrego</l>
-            <l>si mi pecho, ábrelo y verás</l>
-            <l>como late, te gime y te llora</l>
-            <l>y te adora hermosa beldad.</l>
-          </lg>
-          <lg>
-            <l>Loco busco por prados y selvas</l>
-            <l>una rosa rociada en abril</l>
-            <l>porque escrita la tengo en mi pecho</l>
-            <l>y por ella desprecio cien mil.</l>
-            <l>¡ Ob ! que dia serás mi consorte</l>
-            <l>y en tus manos mis lábios posar,</l>
-            <l>y en mis brazos darte de abrazos</l>
-            <l>y estrecharte peca amarte mas.</l>
-          </lg>
-          <lg>
-            <l>Eres niña la estrella del Norte</l>
-            <l>y tú sola me das resplandor;</l>
-            <l>cual gilguero te canto amoroso</l>
-            <l>mi constancia, cariño y amor.</l>
-            <l>Ven aurora la llave del sueno,</l>
-            <l>con los rayos de tu hermoso sol,</l>
-            <l>y despierta aquella alma que duerme</l>
-            <l>que palpita de gozo y amor.</l>
-          </lg>
-          <lg>
-            <l>Son las horas instantes llegados</l>
-            <l>que en mi pecho fallece la voz,</l>
-            <l>un suspiro solo para decirte</l>
-            <l>ángel mio quédate con Dios.</l>
-            <l>Solo al verte quedo satisfecho</l>
-            <l>y de tí no me puedo apartar,</l>
-            <l>te profeso el amor que te tengo</l>
-            <l>de adorarte, olvidarte jamás.</l>
-          </lg>
-          <lg>
-            <l>Cual humilde cordero te pide</l>
-            <l>le perdones hermosa deidad,</l>
-            <l>y de tus lábios sienta la palabra</l>
-            <l>bondadosa en un todo en amar.</l>
-            <l>Adios perla, diamante envidiado</l>
-            <l>adios Vénus la que supo amar</l>
-            <l>adios ángel bajado del cielo</l>
-            <l>cual te adoro cada dia mas.</l>
-          </lg>
-        </div>
+
         <div type="colofon">
           <p><lb/>Reus: Establecimiento de Juan Bautista Vidal, Arrabal alto de Jesús, núm. 5.</p>
         </div>

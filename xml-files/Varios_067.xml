@@ -1,19 +1,17 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../Schema/oddPliego_varios.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:alto="http://www.loc.gov/standards/alto/ns-v4#" xml:id="Varios_067">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Varios_067">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>COPLAS NUEVAS EL NIÑO PERDIDO SEGUIDAS DE LA CONVERSIÓN DE LA
-                              SAMARITANA</title>
+        <title>COPLAS NUEVAS EL NIÑO PERDIDO</title>
         <respStmt>
           <name/>
           <resp>Codificación TEI</resp>
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <authority role="rightsHolder">Bibliothèque Universitaire de
-                              Genève</authority>
+        <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
         <availability status="restricted">
           <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
         </availability>
@@ -21,8 +19,8 @@
       <sourceDesc>
         <biblFull>
           <titleStmt>
-            <title type="titulo_completo">COPLAS NUEVAS EL NIÑO PERDIDO
-                                          SEGUIDAS DE LA CONVERSIÓN DE LA SAMARITANA</title>
+            <title type="titulo_completo">COPLAS NUEVAS EL NIÑO PERDIDO SEGUIDAS DE LA CONVERSIÓN DE
+              LA SAMARITANA</title>
             <title type="titulo_breve">COPLAS NUEVAS EL NIÑO PERDIDO</title>
           </titleStmt>
           <editionStmt>
@@ -31,7 +29,7 @@
           <publicationStmt>
             <publisher>El Abanico</publisher>
             <pubPlace ref="https://www.geonames.org/3128760/barcelona.html">Barcelona</pubPlace>
-            <date>[s.a]</date>
+            <date cert="low" when="1800-01-01">[s.a.]</date>
           </publicationStmt>
         </biblFull>
         <msDesc>
@@ -39,7 +37,8 @@
             <country>Suisse</country>
             <settlement>Genève</settlement>
             <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"/>
-                                    </repository>
+            </repository>
+            <collection>Colección Varios</collection>
             <idno type="cote"/>
             <idno type="DOI">10.5281/zenodo.6562943</idno>
             <altIdentifier>
@@ -47,10 +46,14 @@
             </altIdentifier>
           </msIdentifier>
           <msContents>
-            <summary/>
+            <summary>Un canción y un romance</summary>
             <msItem>
-              <locus/>
-              <title/>
+              <locus>1-2</locus>
+              <title>Coplas nuevas el niño perdido</title>
+            </msItem>
+            <msItem>
+              <locus>3-4</locus>
+              <title>Conversion de la samaritana</title>
             </msItem>
           </msContents>
           <physDesc>
@@ -90,18 +93,17 @@
     </fileDesc>
     <encodingDesc>
       <projectDesc>
-        <p>Este archivo fue creado en el marco del proyecto Desenrollando el
-                              Cordel/Démêler le cordel/Untangling the cordel, dirigido por la
-                              profesora Constance Carta de la Universidad de Ginebra, con el apoyo
-                              de la Fundación filantrópica Famille Sandoz-Monique de Meuron.</p>
+        <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+          cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la Universidad
+          de Ginebra, con el apoyo de la Fundación filantrópica Famille Sandoz-Monique de
+          Meuron.</p>
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR non corregido</p>
+          <p>OCR no corregido</p>
         </correction>
         <normalization>
-          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto
-                                    original.</p>
+          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
         </normalization>
         <punctuation>
           <p>Se conserva la puntuación original.</p>
@@ -122,10 +124,14 @@
       </textClass>
     </profileDesc>
     <revisionDesc>
-      <change when="2022-06-15" who="#PJ">Création du fichier TEI P5 et encodage du
-                        corps du texte</change>
+      <change when="2022-06-15" who="#PJ">Création du fichier TEI P5 et encodage du corps du
+        texte</change>
+      <change when="2024-01-09" who="#EL">Add the IIIF links</change>
     </revisionDesc>
   </teiHeader>
+  <facsimile>
+    <graphic url="varios/Varios_067_1.jpg/full/200,/0/default.jpg"/>
+  </facsimile>
   <sourceDoc xml:id="automaticTranscription">
     <surface xml:id="Varios_067_1" type="page" cert="silver">
       <graphic url="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_067_1/full/full/0/default.jpg"/>
@@ -1287,179 +1293,178 @@
   <text>
     <body>
       <div>
-        <pb n="1" source="Varios_067_1.jpg" facs="fedora_Varios_067_1/full/full/0/default.jpg"/>
-        <div type="parte" n="1">
+        <div>
+          <pb n="1" source="Varios_067_1.jpg" facs="varios/Varios_067_1.jpg/"/>
+
           <head type="primer_titulo"><lb/>COPLAS NUEVAS<lb/>EL NIÑO PERDIDO</head>
           <head type="titulo_parte"><lb/>SEGUIDAS <lb/>DE LA CONVERSIÓN DE LA SAMARITANA</head>
-          <lg>
-            <l>En nombre de Dios empiezo</l>
-            <l>por aquel que tiene gracia</l>
-            <l>todos le llaman gracioso</l>
-            <l>y á mi la gracia me falta.</l>
-          </lg>
-          <div>
-            <head type="titulo_estrofa"><lb/>Coro</head>
-            <lg>
-              <l>Si escuchais atentos</l>
-              <l>como habeis oído</l>
-              <l>cantaré las coplas</l>
-              <l>del Niño perdido.</l>
-              <l>Madre en la puerta hay un niño</l>
-              <l>más hermoso que el sol bello,</l>
-              <l>preciso es que tendrá frío,</l>
-              <l>porque el pobre viene en cueros.</l>
-              <l>Niña, dile que entre</l>
-              <l>se calentará,</l>
-              <l>porque en esta tierra</l>
-              <l>ya no hay caridad.</l>
+
+          <div n="1">
+            <lg rend="indent">
+              <l>En nombre de Dios empiezo</l>
+              <l>por aquel que tiene gracia</l>
+              <l>todos le llaman gracioso</l>
+              <l>y á mi la gracia me falta.</l>
+              <l>CORO.</l>
             </lg>
-            <lg>
-              <l>Entró el niño y se sentó</l>
-              <l>conforme se calentaba</l>
-              <l>la patrona le pregunta</l>
-              <l>de que tierra ó de que patria.</l>
-              <l>Y el Niño le responde</l>
-              <l>de lejanas tierras</l>
-              <l>mi madre es del cielo</l>
-              <l>y yo bajé á la tierra.</l>
-              <l>Niño, si quieres cenar</l>
-              <l>guisaremos de contado,</l>
-              <l>te quedarás con nosotros</l>
-              <l>por hijo muy estimado.</l>
-              <l>Y el niño responde</l>
-              <l>eso no patrona</l>
-              <l>que tengo una madre</l>
-              <l>que el cielo la adora.</l>
-              <l>Voy á hacer la cama al niño</l>
-              <l>en mi alcoba y con primor,</l>
-            </lg>
-            <pb n="2" source="Varios_067_2.jpg" facs="fedora_Varios_067_2/full/full/0/default.jpg"/>
-            <lg>
-              <l>No me la haga usted patrona</l>
-              <l>que mi cama es en ricón.</l>
-              <l>El suelo es mi cama</l>
-              <l>desde que nací.</l>
-              <l>hasta que en cruz muera</l>
-              <l>tengo andar asi.</l>
-              <l>Dime Niño, por qué lloras?</l>
-              <l>Porque he perdido á mi madre.</l>
-              <l>Si ested me dijera</l>
-              <l>donde la encontrara</l>
-              <l>de rodillas fuera,</l>
-              <l>hasta que la hallara.</l>
-              <l>Mi madre de penas</l>
-              <l>no podrá comer</l>
-              <l>aunque tenga gana</l>
-              <l>no tendrá con qulen.</l>
-              <l>San José dice á María</l>
-              <l>tú que has ido con el niño,</l>
-              <l>y ahora me veo solo</l>
-              <l>el corazón me has partido.</l>
-              <l>El niño es perdido,</l>
-              <l>las penas dobladas,</l>
-              <l>los dos lo buscaron</l>
-              <l>por calles y plazas.</l>
-              <l>Con gran dolor le buscaron</l>
-              <l>dia y noche sin descanso</l>
-              <l>la Virgen va preguntando</l>
-              <l>á los vecinos del pueblo.</l>
-              <l>Que si había visto</l>
-              <l>un Sol de los Soles</l>
-              <l>el que nos alumbra</l>
-              <l>con sus resplandores.</l>
-              <l>Al cabo de los tres días</l>
-              <l>ya lo hallaron en el templo,</l>
-              <l>hasta un rico fué á pedirle</l>
-              <l>las alas que le pusieron.</l>
-              <l>Rico, te prometo</l>
-              <l>aunque soy muchacho</l>
-              <l>de darte el castigo</l>
-              <l>como habéis logrado.</l>
-              <l>La Virgen fué de camino.</l>
-              <l>un labrador ha encontrado</l>
-              <l>labrador, qué haces aqui?</l>
-              <l>No lo veis, piedras sembrando.</l>
-              <l>La Virgen le respondió</l>
-              <l>con palabras buenas</l>
-              <l>pues si piedras siembras</l>
-              <l>piedras se te vuelvan.</l>
-              <l>Un poquito más adelante</l>
-              <l>otro labrador encuentra,</l>
-              <l>labrador que estais haciendo?</l>
-              <l>y el labrador dijo:</l>
-              <l>trigo estoy sembrando</l>
-              <l>para el otro año.</l>
-              <l>Vete mañana á segarlo</l>
-              <l>vete pobre labrador,</l>
-              <l>quien te da esta tal gracia</l>
-            </lg>
-            <lg>
-              <l>es tu propio Criador.</l>
-              <l>Escucha buen labrador,</l>
-              <l>si os preguntasen por mí,</l>
-              <l>humildemente direis,</l>
-              <l>con una mujer lo vi.</l>
-              <l>Hace mucho tiempo</l>
-              <l>sí, señor, los ví</l>
-              <l>pues que yo sembraba</l>
-              <l>este trigo aqui.</l>
-              <l>El labrador de buena fé,</l>
-              <l>de noche se fué á su casa</l>
-              <l>y á su mujer le contó</l>
-              <l>todo y todo lo que pasa.</l>
-              <l>Ay esposa mía</l>
-              <l>Dios ha permitido</l>
-              <l>que mañana iremos</l>
-              <l>á segar el trigo.</l>
-              <l>Salen con sus segadores</l>
-              <l>y de ver aquel prodigio</l>
-              <l>todos dan gracias á Dios</l>
-              <l>y aquel inocente niño.</l>
-              <l>Vieron que venían</l>
-              <l>por aquel camino</l>
-              <l>cuatro caballeros,</l>
-              <l>preguntamos si le han visto.</l>
-              <l>Escuche buen anciano,</l>
-              <l>no diría usted si ha visto</l>
-              <l>por aquí pues que pasaron</l>
-              <l>una mujer con un niño?</l>
-              <l>Cuando yo sembraba</l>
-              <l>señor, este trigo,</l>
-              <l>por aqui pasaron</l>
-              <l>pues iban perdidos.</l>
-              <l>Blasfemando de coraje</l>
-              <l>al pronto se despidieron</l>
-              <l>pues la intención que tenían</l>
-              <l>era de llevárselos presos.</l>
-              <l>Luego presentarlos</l>
-              <l>al león soberbio</l>
-              <l>para darle muerte</l>
-              <l>al Dios verdadero.</l>
-              <l>Volvieron á preguntarnos</l>
-              <l>la mujer es muy bonita</l>
-              <l>es el niño muy hermoso,</l>
-              <l>de hallarlo nos convendría.</l>
-              <l>Pues habrá pasado</l>
-              <l>con ellos también</l>
-              <l>un hombre anciano</l>
-              <l>parecido á él.</l>
-              <l>Tendrá cincuenta años buenos</l>
-              <l>el de mas edad es pues</l>
-              <l>que José le llaman,</l>
-              <l>iban á Belén.</l>
-              <l>A encontrarlo voy,</l>
-              <l>que perdido está,</l>
-              <l>y ha de morir pronto,</l>
-              <l>lo manda Caifás.</l>
-            </lg>
+
+            <l rend="indent">Si escuchais atentos</l>
+            <l>como habeis oído</l>
+            <l>cantaré las coplas</l>
+            <l>del Niño perdido.</l>
+            <l rend="indent">Madre en la puerta hay un niño</l>
+            <l>más hermoso que el sol bello,</l>
+            <l>preciso es que tendrá frío,</l>
+            <l>porque el pobre viene en cueros.</l>
+            <l rend="indent">Niña, dile que entre</l>
+            <l>se calentará,</l>
+            <l>porque en esta tierra</l>
+            <l>ya no hay caridad.</l>
+            <l rend="indent">Entró el niño y se sentó</l>
+            <l>conforme se calentaba</l>
+            <l>la patrona le pregunta</l>
+            <l>de que tierra ó de que patria.</l>
+            <l rend="indent">Y el Niño le responde</l>
+            <l>de lejanas tierras</l>
+            <l>mi madre es del cielo</l>
+            <l>y yo bajé á la tierra.</l>
+            <l rend="indent">Niño, si quieres cenar</l>
+            <l>guisaremos de contado,</l>
+            <l>te quedarás con nosotros</l>
+            <l>por hijo muy estimado.</l>
+            <l rend="indent">Y el niño responde</l>
+            <l>eso no patrona</l>
+            <l>que tengo una madre</l>
+            <l>que el cielo la adora.</l>
+            <l rend="indent">Voy á hacer la cama al niño</l>
+            <l>en mi alcoba y con primor,</l>
+
+            <pb n="2" source="Varios_067_2.jpg" facs="varios/Varios_067_2.jpg/"/>
+
+            <l>No me la haga usted patrona</l>
+            <l>que mi cama es en ricón.</l>
+            <l rend="indent">El suelo es mi cama</l>
+            <l>desde que nací.</l>
+            <l>hasta que en cruz muera</l>
+            <l>tengo andar asi.</l>
+            <l>Dime Niño, por qué lloras?</l>
+            <l>Porque he perdido á mi madre.</l>
+            <l rend="indent">Si ested me dijera</l>
+            <l>donde la encontrara</l>
+            <l>de rodillas fuera,</l>
+            <l>hasta que la hallara.</l>
+            <l rend="indent">Mi madre de penas</l>
+            <l>no podrá comer</l>
+            <l>aunque tenga gana</l>
+            <l>no tendrá con qulen.</l>
+            <l rend="indent">San José dice á María</l>
+            <l>tú que has ido con el niño,</l>
+            <l>y ahora me veo solo</l>
+            <l>el corazón me has partido.</l>
+            <l rend="indent">El niño es perdido,</l>
+            <l>las penas dobladas,</l>
+            <l>los dos lo buscaron</l>
+            <l>por calles y plazas.</l>
+            <l rend="indent">Con gran dolor le buscaron</l>
+            <l>dia y noche sin descanso</l>
+            <l>la Virgen va preguntando</l>
+            <l>á los vecinos del pueblo.</l>
+            <l rend="indent">Que si había visto</l>
+            <l>un Sol de los Soles</l>
+            <l>el que nos alumbra</l>
+            <l>con sus resplandores.</l>
+            <l rend="indent">Al cabo de los tres días</l>
+            <l>ya lo hallaron en el templo,</l>
+            <l>hasta un rico fué á pedirle</l>
+            <l>las alas que le pusieron.</l>
+            <l rend="indent">Rico, te prometo</l>
+            <l>aunque soy muchacho</l>
+            <l>de darte el castigo</l>
+            <l>como habéis logrado.</l>
+            <l rend="indent">La Virgen fué de camino.</l>
+            <l>un labrador ha encontrado</l>
+            <l>labrador, qué haces aqui?</l>
+            <l>No lo veis, piedras sembrando.</l>
+            <l rend="indent">La Virgen le respondió</l>
+            <l>con palabras buenas</l>
+            <l>pues si piedras siembras</l>
+            <l>piedras se te vuelvan.</l>
+            <l rend="indent">Un poquito más adelante</l>
+            <l>otro labrador encuentra,</l>
+            <l>labrador que estais haciendo?</l>
+            <l>y el labrador dijo:</l>
+            <l>trigo estoy sembrando</l>
+            <l>para el otro año.</l>
+            <l rend="indent">Vete mañana á segarlo</l>
+            <l>vete pobre labrador,</l>
+            <l>quien te da esta tal gracia</l>
+            <l>es tu propio Criador.</l>
+            <l rend="indent">Escucha buen labrador,</l>
+            <l>si os preguntasen por mí,</l>
+            <l>humildemente direis,</l>
+            <l>con una mujer lo vi.</l>
+            <l rend="indent">Hace mucho tiempo</l>
+            <l>sí, señor, los ví</l>
+            <l>pues que yo sembraba</l>
+            <l>este trigo aqui.</l>
+            <l rend="indent">El labrador de buena fé,</l>
+            <l>de noche se fué á su casa</l>
+            <l>y á su mujer le contó</l>
+            <l>todo y todo lo que pasa.</l>
+            <l rend="indent">Ay esposa mía</l>
+            <l>Dios ha permitido</l>
+            <l>que mañana iremos</l>
+            <l>á segar el trigo.</l>
+            <l rend="indent">Salen con sus segadores</l>
+            <l>y de ver aquel prodigio</l>
+            <l>todos dan gracias á Dios</l>
+            <l>y aquel inocente niño.</l>
+            <l rend="indent">Vieron que venían</l>
+            <l>por aquel camino</l>
+            <l>cuatro caballeros,</l>
+            <l>preguntamos si le han visto.</l>
+            <l rend="indent">Escuche buen anciano,</l>
+            <l>no diría usted si ha visto</l>
+            <l>por aquí pues que pasaron</l>
+            <l>una mujer con un niño?</l>
+            <l rend="indent">Cuando yo sembraba</l>
+            <l>señor, este trigo,</l>
+            <l>por aqui pasaron</l>
+            <l>pues iban perdidos.</l>
+            <l rend="indent">Blasfemando de coraje</l>
+            <l>al pronto se despidieron</l>
+            <l>pues la intención que tenían</l>
+            <l>era de llevárselos presos.</l>
+            <l rend="indent">Luego presentarlos</l>
+            <l>al león soberbio</l>
+            <l>para darle muerte</l>
+            <l>al Dios verdadero.</l>
+            <l rend="indent">Volvieron á preguntarnos</l>
+            <l>la mujer es muy bonita</l>
+            <l>es el niño muy hermoso,</l>
+            <l>de hallarlo nos convendría.</l>
+            <l rend="indent">Pues habrá pasado</l>
+            <l>con ellos también</l>
+            <l>un hombre anciano</l>
+            <l>parecido á él.</l>
+            <l rend="indent">Tendrá cincuenta años buenos</l>
+            <l>el de mas edad es pues</l>
+            <l>que José le llaman,</l>
+            <l>iban á Belén.</l>
+            <l rend="indent">A encontrarlo voy,</l>
+            <l>que perdido está,</l>
+            <l>y ha de morir pronto,</l>
+            <l>lo manda Caifás.</l>
+
             <trailer>FIN</trailer>
           </div>
-        </div>
-        <pb n="3" source="Varios_067_3.jpg" facs="fedora_Varios_067_3/full/full/0/default.jpg"/>
-        <div type="parte" n="2">
-          <head type="titulo_parte"><lb/>CONVERSION <lb/>DE LA <lb/>SAMARITANA</head>
-          <lg>
-            <l>Un viernes partió el señor</l>
+
+          <div n="2">
+            <pb n="3" source="Varios_067_3.jpg" facs="varios/Varios_067_3.jpg/"/>
+
+            <head type="titulo_parte"><lb/>CONVERSION <lb/>DE LA <lb/>SAMARITANA</head>
+
+            <l rend="indent">Un viernes partió el señor</l>
             <l>á la ciudad de Samaria,</l>
             <l>y antes de entrar en poblado</l>
             <l>el calor le fatigaba,</l>
@@ -1475,8 +1480,6 @@
             <l>una bebida de agua,</l>
             <l>que El en premio le daría</l>
             <l>otra de importancia,</l>
-          </lg>
-          <lg>
             <l>que jamás tendría sed</l>
             <l>como llegase a gustarla:</l>
             <l>á lo que le respondió,</l>
@@ -1493,9 +1496,9 @@
             <l>marido ni soy casada.</l>
             <l>El Señor dijo: es verdad,</l>
             <l>dices bien, Samaritana,</l>
-          </lg>
-          <pb n="4" source="Varios_067_4.jpg" facs="fedora_Varios_067_4/full/full/0/default.jpg"/>
-          <lg>
+
+            <pb n="4" source="Varios_067_4.jpg" facs="varios/Varios_067_4.jpg/"/>
+
             <l>que de cinco que tenías</l>
             <l>sin ninguno ahora te hallas;</l>
             <l>tuviste cinco galanes</l>
@@ -1534,57 +1537,56 @@
             <l>por Dios la Samaritana,</l>
             <l>para poder alcanzar</l>
             <l>en premio la guerra santa.</l>
-          </lg>
-          <div>
-            <head type="titulo_estrofa"><lb/>DESPEDIDA DE LA SAMARITANA</head>
-            <lg>
-              <l>Después que fué copvertida</l>
+
+            <div>
+              <head type="titulo_parte" rend="negrita"><lb/>DESPEDIDA DE LA SAMARITANA</head>
+              <l rend="indent">Después que fué copvertida</l>
               <l>la gentil Samaratina</l>
               <l>asi clamaba al Mesias:</l>
-              <l>Señor, ¿quereis que me vaya</l>
+              <l rend="indent">Señor, ¿quereis que me vaya</l>
               <l>ó acabe con vos mi vida?</l>
-              <l>Díjole Cristo: excelente,</l>
+              <l rend="indent">Díjole Cristo: excelente,</l>
               <l>antes que á mi patria exceisa</l>
               <l>á Samaria irás prudente</l>
               <l>á publicar la grandeza</l>
               <l>del Autor Omnipotente.</l>
-              <l>Allí fué el mayor dolor;</l>
+              <l rend="indent">Allí fué el mayor dolor;</l>
               <l>cuardo ya se despedía</l>
               <l>del Supremo Redentor,</l>
               <l>con amargura decía:</l>
               <l>adios mi dulce Criador.</l>
-              <l>Adios, pozo de jacob,</l>
+              <l rend="indent">Adios, pozo de jacob,</l>
               <l>adios archivo profundo,</l>
               <l>adios, engañoso error,</l>
               <l>adios, galanes y el mundo</l>
               <l>que me voy con mi Señor.</l>
-              <l>Adios, cántaro, decía,</l>
+              <l rend="indent">Adios, cántaro, decía,</l>
               <l>adios, soga de terror,</l>
               <l>adios, agua cristalina</l>
               <l>ya se acabó mi ambición</l>
               <l>que me voy con el Mesías.</l>
-              <l>Adios, garrucha y pozal,</l>
+              <l rend="indent">Adios, garrucha y pozal,</l>
               <l>adios, carril ponzonzo,</l>
               <l>decía con mucho afán,</l>
               <l>que me voy al Reino hermoso,</l>
               <l>del empíreo celestial.</l>
-              <l>Adios Jesús amoroso,</l>
+              <l rend="indent">Adios Jesús amoroso,</l>
               <l>con lágrimas repetía,</l>
               <l>adíos, adios, dueño hermoso,</l>
               <l>de tan dulce compañía</l>
               <l>no me fuera amado esposo.</l>
-              <l>La Majestad soberana</l>
+              <l rend="indent">La Majestad soberana</l>
               <l>dijo: ves, esposa afable</l>
               <l>á predicar á Samaria,</l>
               <l>y vendrás á acompañarme</l>
               <l>á las alturas sagradas.</l>
-              <l>Por tan dulces despedidas</l>
+              <l rend="indent">Por tan dulces despedidas</l>
               <l>te ruego, Samaritana,</l>
               <l>que supliques al Mesías</l>
               <l>que corones nuestras almas</l>
               <l>en las altas jerarquías.</l>
-            </lg>
-            <trailer>FIN</trailer>
+              <trailer>FIN</trailer>
+            </div>
           </div>
         </div>
         <div type="colofon">

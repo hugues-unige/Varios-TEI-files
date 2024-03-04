@@ -1,20 +1,17 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../Schema/oddPliego_varios.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:alto="http://www.loc.gov/standards/alto/ns-v4#" xml:id="Varios_151">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Varios_151">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>TROBOS DISCRETOS Y DIVERTIDOS, PARA ENTRETENER Á LOS CURIOSOS Y
-                              CANTAR LOS GALANES á sus queridas damas, y espocialmente los que se
-                              sienten agraviados por no ser correspondidos.</title>
+        <title>TROBOS DISCRETOS Y DIVERTIDOS</title>
         <respStmt>
           <name/>
           <resp>Codificación TEI</resp>
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <authority role="rightsHolder">Bibliothèque Universitaire de
-                              Genève</authority>
+        <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
         <availability status="restricted">
           <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
         </availability>
@@ -22,10 +19,9 @@
       <sourceDesc>
         <biblFull>
           <titleStmt>
-            <title type="titulo_completo">TROBOS DISCRETOS Y DIVERTIDOS,
-                                          PARA ENTRETENER Á LOS CURIOSOS Y CANTAR LOS GALANES á
-                                          sus queridas damas, y espocialmente los que se sienten
-                                          agraviados por no ser correspondidos.</title>
+            <title type="titulo_completo">TROBOS DISCRETOS Y DIVERTIDOS, PARA ENTRETENER Á LOS
+              CURIOSOS Y CANTAR LOS GALANES á sus queridas damas, y espocialmente los que se
+              sienten agraviados por no ser correspondidos.</title>
             <title type="titulo_breve">TROBOS DISCRETOS Y DIVERTIDOS</title>
           </titleStmt>
           <editionStmt>
@@ -34,7 +30,7 @@
           <publicationStmt>
             <publisher>Juan Bautista Vidal</publisher>
             <pubPlace ref="https://www.geonames.org/3111933/reus.html">Reus</pubPlace>
-            <date cert="high">1847</date>
+            <date cert="high" when="1847-01-01">1847</date>
           </publicationStmt>
         </biblFull>
         <msDesc>
@@ -42,7 +38,8 @@
             <country>Suisse</country>
             <settlement>Genève</settlement>
             <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"/>
-                                    </repository>
+            </repository>
+            <collection>Colección Varios</collection>
             <idno type="cote"/>
             <idno type="DOI">10.5281/zenodo.6587077</idno>
             <altIdentifier>
@@ -71,7 +68,7 @@
               </layoutDesc>
             </objectDesc>
             <decoDesc>
-              <summary n="2">Dos grabados (p.1) </summary>
+              <summary n="2">Dos grabados (p.1)</summary>
               <decoNote type="lista_grabados">
                 <list>
                   <item corresp="grabado_v_151_1.xml">grabado_v_151_1</item>
@@ -97,18 +94,17 @@
     </fileDesc>
     <encodingDesc>
       <projectDesc>
-        <p>Este archivo fue creado en el marco del proyecto Desenrollando el
-                              Cordel/Démêler le cordel/Untangling the cordel, dirigido por la
-                              profesora Constance Carta de la Universidad de Ginebra, con el apoyo
-                              de la Fundación filantrópica Famille Sandoz-Monique de Meuron.</p>
+        <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+          cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la Universidad
+          de Ginebra, con el apoyo de la Fundación filantrópica Famille Sandoz-Monique de
+          Meuron.</p>
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR non corregido</p>
+          <p>OCR no corregido</p>
         </correction>
         <normalization>
-          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto
-                                    original.</p>
+          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
         </normalization>
         <punctuation>
           <p>Se conserva la puntuación original.</p>
@@ -129,10 +125,14 @@
       </textClass>
     </profileDesc>
     <revisionDesc>
-      <change when="2022-09-17" who="#PJ">Création du fichier TEI P5 et encodage du
-                        corps du texte</change>
+      <change when="2022-09-17" who="#PJ">Création du fichier TEI P5 et encodage du corps du
+        texte</change>
+      <change when="2024-01-09" who="#EL">Add the IIIF links</change>
     </revisionDesc>
   </teiHeader>
+  <facsimile>
+    <graphic url="varios/Varios_151_1.jpg/full/200,/0/default.jpg"/>
+  </facsimile>
   <sourceDoc xml:id="automaticTranscription">
     <surface xml:id="Varios_151_1" type="page" cert="silver">
       <graphic url="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_151_1/full/full/0/default.jpg"/>
@@ -1256,311 +1256,420 @@
   <text>
     <body>
       <div>
-        <pb n="1" source="Varios_151_1.jpg" facs="fedora_Varios_151_1/full/full/0/default.jpg"/>
-        <fw type="numeroPliego">Núm. 13</fw>
-        <div type="parte" n="1">
-          <head type="primer_titulo"><lb/>TROBOS DISCRETOS Y DIVERTIDOS,</head>
-          <head type="subtitulo_parte"><lb/>PARA ENTRETENER Á LOS CURIOSOS Y
-                                    CANTAR LOS GALANES<lb/>á sus queridas damas, y espocialmente
-                                    los que se sienten<lb/>agraviados por no ser
-                                    correspondidos.</head>
-          <head type="titulo_trovo">TROBO PRIMERO.</head>
-          <lg>
-            <l rend="cursiva">El que corteja y no sabe</l>
-            <l rend="cursiva">la cuerda que ha de tirar,</l>
-            <l rend="cursiva">por buen sacristan que sea</l>
-            <l rend="cursiva">no llegará á repicar.</l>
-            <l>Nadie en el mundo se alabe.</l>
+        <div n="1">
+          <pb n="1" source="Varios_151_1.jpg" facs="varios/Varios_151_1.jpg/"/>
+          <fw type="impresorNum">Núm. 13</fw>
+
+          <head type="primer_titulo" rend="cursiva"><lb/>TROBOS DISCRETOS Y DIVERTIDOS,</head>
+          <head type="subtitulo"><lb/>PARA ENTRETENER Á LOS CURIOSOS Y CANTAR LOS GALANES<lb/>á
+            sus queridas damas, y espocialmente los que se sienten<lb/>agraviados por no ser
+            correspondidos.</head>
+
+          <lg n="1">
+            <head type="titulo_estrofa">TROBO PRIMERO.</head>
+            <lg rend="cursiva">
+              <l rend="indent">El que corteja y no sabe</l>
+              <l>la cuerda que ha de tirar,</l>
+              <l>por buen sacristan que sea</l>
+              <l>no llegará á repicar.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Nadie en el mundo se alabe.</l>
+              <l>ni quiera ser disoluto,</l>
+              <l>porque es muy cierto y se sabe</l>
+              <l>que nunca cogerá fruto</l>
+              <l rend="cursiva">el que corteja y no sale.</l>
+            </lg>
+            <lg>
+              <l rend="indent">El que quiera cortejar</l>
+              <l>en este mundo tirano,</l>
+              <l>no se detenga en gastar,</l>
+
+              <pb n="2" source="Varios_151_2.jpg" facs="varios/Varios_151_2.jpg/"/>
+
+              <fw type="paginaNum">2</fw>
+
+              <l>ya se le vendrá á la mano</l>
+              <l rend="cursiva">la cuerda que ha de tirar.</l>
+            </lg>
+            <lg>
+              <l rend="indent">El que corteja á una fea</l>
+              <l>bien se puede preparar,</l>
+              <l>que ellas tienen mucha idea,</l>
+              <l>al fin le vendrá á engañar</l>
+              <l rend="cursiva">por buen sacristan que sea.</l>
+            </lg>
+            <lg>
+              <l rend="indent">El que pretenda alcanzar</l>
+              <l>debe ser su pretension</l>
+              <l>bolsa abierta antes de hablar;</l>
+              <l>mas como no haga esta accion</l>
+              <l rend="cursiva">no llegará á repicar.</l>
+            </lg>
           </lg>
-          <lg>
-            <l>ni quiera ser disoluto,</l>
-            <l>porque es muy cierto y se sabe</l>
-            <l>que nunca cogerá fruto</l>
-            <l rend="cursiva">el que corteja y no sale.</l>
-            <l>El que quiera cortejar</l>
-            <l>en este mundo tirano,</l>
-            <l>no se detenga en gastar,</l>
+
+          <lg n="2">
+            <head type="titulo_estrofa"><lb/>2.</head>
+            <lg rend="cursiva">
+              <l rend="indent">Todo el mundo nos murmura</l>
+              <l>que te sientas á mi lado,</l>
+              <l>en estando yo gustoso</l>
+              <l>todo el mundo está pagado.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Mi fina fé te asegura</l>
+              <l>de nunca mas olvidarte,</l>
+              <l>pero por mi desventura</l>
+              <l>si alguna vez llego á hablarte,</l>
+              <l rend="cursiva">todo el mundo nos murmura.</l>
+            </lg>
+            <lg>
+              <l rend="indent">De que yo te he idolatrado</l>
+              <l>se vé por cosa muy clara:</l>
+              <l>vida y alma te he entregado,</l>
+              <l>y hay sujeto que repara</l>
+              <l rend="cursiva">que te sientas á mi lado.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Yo te quiero sin rebozo,</l>
+              <l>y sin recelo de nada,</l>
+              <l>ponme el semblante amoroso,</l>
+              <l>jamás estés disgustada</l>
+              <l rend="cursiva">en estando yo gustoso.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Ya sabes que te he estimado,</l>
+              <l>á tí y á nadie mas no:</l>
+              <l>de nada te dé cuidado,</l>
+              <l>porque en queriendo los dos,</l>
+              <l rend="cursiva">todo el mundo está pagado.</l>
+            </lg>
           </lg>
-          <pb n="2" source="Varios_151_2.jpg" facs="fedora_Varios_151_2/full/full/0/default.jpg"/>
-          <fw type="paginaNum">2</fw>
-          <lg>
-            <l>ya se le vendrá á la mano</l>
-            <l rend="cursiva">la cuerda que ha de tirar.</l>
-            <l>El que corteja á una fea</l>
-            <l>bien se puede preparar,</l>
-            <l>que ellas tienen mucha idea,</l>
-            <l>al fin le vendrá á engañar</l>
-            <l rend="cursiva">por buen sacristan que sea.</l>
-            <l>El que pretenda alcanzar</l>
-            <l>debe ser su pretension</l>
-            <l>bolsa abierta antes de hablar;</l>
-            <l>mas como no haga esta accion</l>
-            <l rend="cursiva">no llegará á repicar.</l>
+
+          <lg n="3">
+            <head type="titulo_estrofa"><lb/>3.</head>
+            <lg rend="cursiva">
+              <l rend="indent">Todo el resto de mi vida</l>
+              <l>yo te tengo de querer:</l>
+              <l>dificulto el olvidarte</l>
+              <l>porque no sé aborrecer.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Ha sido mortal herida</l>
+              <l>que has dado á mi corazon</l>
+              <l>en dudar que eres querida;</l>
+              <l>será firme mi pasion</l>
+              <l rend="cursiva">todo el resto de mi vida.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Firme mi amor ha de ser</l>
+              <l>á costa de mis desvelos:</l>
+              <l>mudanza en mí no ha de haber,</l>
+              <l>aunque me atormenten zelos</l>
+              <l rend="cursiva">yo te tengo de querer.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Muy fino seré en amarte,</l>
+              <l>y te puedo asegurar,</l>
+              <l>que jamás he de faltarte</l>
+              <l>pues llegándome á enterrar,</l>
+              <l rend="cursiva">dificulto el olvidarte.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Será eterno mi querer,</l>
+              <l>sin que la muerte lo impida</l>
+              <l>si mudas de parecer</l>
+              <l>sabré yo perder la vida,</l>
+              <l rend="cursiva">porque no sé aborrecer.</l>
+            </lg>
           </lg>
-          <p><lb/>2.</p>
-          <lg>
-            <l rend="cursiva">Todo el mundo nos murmura</l>
-            <l rend="cursiva">que te sientas á mi lado,</l>
-            <l rend="cursiva">en estando yo gustoso</l>
-            <l rend="cursiva">todo el mundo está pagado.</l>
-            <l>Mi fina fé te asegura</l>
-            <l>de nunca mas olvidarte,</l>
-            <l>pero por mi desventura</l>
-            <l>si alguna vez llego á hablarte,</l>
-            <l rend="cursiva">todo el mundo nos murmura.</l>
-            <l>De que yo te he idolatrado</l>
-            <l>se vé por cosa muy clara:</l>
-            <l>vida y alma te he entregado,</l>
-            <l>y hay sujeto que repara</l>
-            <l rend="cursiva">que te sientas á mi lado.</l>
-            <l>Yo te quiero sin rebozo,</l>
-            <l>y sin recelo de nada,</l>
-            <l>ponme el semblante amoroso,</l>
-            <l>jamás estés disgustada</l>
-            <l rend="cursiva">en estando yo gustoso.</l>
-            <l>Ya sabes que te he estimado,</l>
-            <l>á tí y á nadie mas no:</l>
-            <l>de nada te dé cuidado,</l>
-            <l>porque en queriendo los dos,</l>
-            <l rend="cursiva">todo el mundo está pagado.</l>
+
+          <lg n="4">
+            <head type="titulo_estrofa"><lb/>4.</head>
+            <lg rend="cursiva">
+              <l rend="indent">Ten paciencia, dueño mio,</l>
+              <l>que ya vendrá la ocasion,</l>
+              <l>que en tus amorosos brazos</l>
+              <l>descanse mi corazon.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Lograr vuestro bien confio,</l>
+              <l>porque no ha de ser eterno</l>
+              <l>hado que nos trata impío,</l>
+              <l>él perderá su gobierno:</l>
+              <l rend="cursiva">ten pacienvia, dueño mio.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Un volcan es tu pasion,</l>
+              <l>y es un vesubio la mia:</l>
+              <l>ten ánimo, corazon,</l>
+              <l>no desmayes, prenda mia,</l>
+              <l rend="cursiva">que ya vendrá la ocasion.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Ya despues de mis acasos</l>
+              <l>no espero mayor ventura</l>
+              <l>que es disfrutar tus regazos,</l>
+              <l>enlazando mi ventura</l>
+              <l rend="cursiva">en tus amorosos brazos.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Despues de la salvacion</l>
+              <l>no espero mayor laurel,</l>
+
+              <pb n="3" source="Varios_151_3.jpg" facs="varios/Varios_151_3.jpg/"/>
+
+              <l>mas gloria ni mas blason,</l>
+              <l>que sobre tu pecho fiel</l>
+              <l rend="cursiva">descanse mi corazon.</l>
+            </lg>
           </lg>
-          <p><lb/>3.</p>
-          <lg>
-            <l rend="cursiva">Todo el resto de mi vida</l>
-            <l rend="cursiva">yo te tengo de querer:</l>
-            <l rend="cursiva">dificulto el olvidarte</l>
-            <l rend="cursiva">porque no sé aborrecer.</l>
-            <l>lla sido mortal herida</l>
-            <l>que has dado á mi corazon</l>
-            <l>en dudar que eres querida;</l>
-            <l>será firme mi pasion</l>
-            <l rend="cursiva">todo el resto de mi vida.</l>
-            <l>Firme mi amor ha de ser</l>
-            <l>á costa de mis desvelos:</l>
-            <l>mudanza en mí no ha de haber,</l>
-            <l>aunque me atormenten zelos</l>
-            <l rend="cursiva">yo te tengo de querer.</l>
-            <l>Muy fino seré en amarte,</l>
-            <l>y te puedo asegurar,</l>
-            <l>que jamás he de faltarte</l>
-            <l>pues llegándome á enterrar,</l>
-            <l rend="cursiva">dificulto el olvidarte.</l>
-            <l>Será eterno mi querer,</l>
-            <l>sin que la muerte lo impida</l>
-            <l>si mudas de parecer</l>
-            <l>sabré yo perder la vida,</l>
-            <l rend="cursiva">porque no sé aborrecer.</l>
+
+          <lg n="5">
+            <head type="titulo_estrofa"><lb/>5.</head>
+            <lg rend="cursiva">
+              <l rend="indent">Dime, dama, si me quieres,</l>
+              <l>por Dios descubre tu pecho,</l>
+              <l>que no quiero en este mundo</l>
+              <l>gastar tiempo sin provecho.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Me adulan los pareceres</l>
+              <l>de tu pecho de diamante,</l>
+              <l>de gusto, gozo y placeres,</l>
+              <l>para pasar adelante</l>
+              <l rend="cursiva">dime dama, si me quieres.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Ya sabes que yo sospecho</l>
+              <l>de verte con otro hablar,</l>
+              <l>y si en lance tan estrecho</l>
+              <l>gustas de verme penar,</l>
+              <l rend="cursiva">por Dios descubre tu pecho.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Es mi querer tan profundo</l>
+              <l>que si me olvidas sabré</l>
+              <l>clamar á Dios, en quien fundo</l>
+              <l>mi dicha, con que haré ver</l>
+              <l rend="cursiva">que no quiero en este mundo.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Si otro quiere tu derecho,</l>
+              <l>aunque seas la mas querida,</l>
+              <l>dímelo pues, pecho á pecho,</l>
+              <l>que no quiero en esta vida</l>
+              <l rend="cursiva">gastar tiempo sin provecho.</l>
+            </lg>
           </lg>
-          <p><lb/>4.</p>
-          <lg>
-            <l rend="cursiva">Ten paciencia, dueño mio,</l>
-            <l rend="cursiva">que ya vendrá la ocasion,</l>
-            <l rend="cursiva">que en tus amorosos brazos</l>
-            <l rend="cursiva">descanse mi corazon.</l>
-            <l>Lograr vuestro bien confio,</l>
-            <l>porque no ha de ser eterno</l>
-            <l>hado que nos trata impío,</l>
-            <l>él perderá su gobierno:</l>
-            <l rend="cursiva">ten pacienvia, dueño mio.</l>
-            <l>Un volcan es tu pasion,</l>
-            <l>y es un vesubio la mia:</l>
-            <l>ten ánimo, corazon,</l>
-            <l>no desmayes, prenda mia,</l>
-            <l rend="cursiva">que ya vendrá la ocasion.</l>
-            <l>Ya despues de mis acasos</l>
-            <l>no espero mayor ventura</l>
-            <l>que es disfrutar tus regazos,</l>
-            <l>enlazando mi ventura</l>
-            <l rend="cursiva">en tus amorosos brazos.</l>
-            <l>Despues de la salvacion</l>
-            <l>no espero mayor laurel,</l>
+
+          <lg n="6">
+            <head type="titulo_estrofa"><lb/>6.</head>
+            <lg rend="cursiva">
+              <l rend="indent">Ya me has vuelto las espaldas</l>
+              <l>porque tienes nuevo amor,</l>
+              <l>bien puedes corresponderle,</l>
+              <l>pues lo merece mejor.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Sobre alfombras de esmeraldas</l>
+              <l>un galan enternecido,</l>
+              <l>al pié de unas verdes palmas</l>
+              <l>con ansias dice à Cupido:</l>
+              <l rend="cursiva">ya me has vuelto las espaldas.</l>
+            </lg>
+            <lg>
+              <l rend="indent">De tu desden el favor</l>
+              <l>me penetró toda el alma,</l>
+              <l>olvidando á tu rigor,</l>
+              <l>mi vida, se encuentra en calma</l>
+              <l rend="cursiva">porque tienes nuevo amor.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Me alegrara conocerle</l>
+              <l>para envidiarle la dicha,</l>
+              <l>y pues deseas tenerle,</l>
+              <l>mentras lloro mi desdicha</l>
+              <l rend="cursiva">bien puedes corresponderte.</l>
+            </lg>
+            <lg>
+              <l rend="indent">¡ Oh que pena ! ¡ oh qué rigor !</l>
+              <l>¡ qué suerte ! ¡ qué desventura!</l>
+              <l>por mí se acabe el horror,</l>
+              <l>él goce de tu hermosura</l>
+              <l rend="cursiva">pues lo merece mejor.</l>
+            </lg>
           </lg>
-          <pb n="3" source="Varios_151_3.jpg" facs="fedora_Varios_151_3/full/full/0/default.jpg"/>
-          <lg>
-            <l>mas gloria ni mas blason,</l>
-            <l>que sobre tu pecho fiel</l>
-            <l rend="cursiva">descanse mi corazon.</l>
+
+          <lg n="7">
+            <head type="titulo_estrofa"><lb/>7.</head>
+            <lg rend="cursiva">
+              <l rend="indent">Señora ya te olvidé</l>
+              <l>á lo hecho no hay remedio,</l>
+              <l>arrepentido no estoy,</l>
+              <l>busca quien te dé consuelo.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Siempre constante te amé</l>
+              <l>con muy fina voluntad,</l>
+              <l>y fino te idolatré;</l>
+              <l>pero al ver tu falsedad,</l>
+              <l rend="cursiva">señora ya te olvide.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Llegaste á mostrarme tédio,</l>
+              <l>procuré desenojarte,</l>
+              <l>mas viendo no hallaba medio,</l>
+              <l>ya me resolví á dejarte,</l>
+              <l rend="cursiva">á lo hecho no hay remedio.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Por muy bien empleado doy</l>
+              <l>de tu vista el ausentarme,</l>
+              <l>y aunque sepa desde hoy</l>
+              <l>que el no verte ha de matarme,</l>
+              <l rend="cursiva">arrepentido no estoy.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Ya falleció mi desvelo,</l>
+              <l>ya mi cuidado murió,</l>
+              <l>ya no quiero mas tu cielo,</l>
+              <l>y pues que te olvidé yo</l>
+              <l rend="cursiva">busca quien te dé consuelo.</l>
+            </lg>
           </lg>
-          <p><lb/>5.</p>
-          <lg>
-            <l rend="cursiva">Dime, dama, si me quieres,</l>
-            <l rend="cursiva">por Dios descubre tu pecho,</l>
-            <l rend="cursiva">que no quiero en este mundo</l>
-            <l>gastar tiempo sin provecho.</l>
-            <l>Me adulan los pareceres</l>
-            <l>de tu pecho de diamante,</l>
-            <l>de gusto, gozo y placeres,</l>
-            <l>para pasar adelante</l>
-            <l rend="cursiva">dime dama, si me quieres.</l>
-            <l>Ya sabes que yo sospecho</l>
-            <l>de verte con otro hablar,</l>
-            <l>y si en lance tan estrecho</l>
-            <l>gustas de verme penar,</l>
-            <l rend="cursiva">por Dios descubre tu pecho.</l>
-            <l>Es mi querer tan profundo</l>
-            <l>que si me olvidas sabré</l>
-            <l>clamar á Dios, en quien fundo</l>
-            <l>mi dicha, con que haré ver</l>
-            <l rend="cursiva">que no quiero en este mundo.</l>
-            <l>Si otro quiere tu derecho,</l>
-            <l>aunque seas la mas querida,</l>
-            <l>dímelo pues, pecho á pecho,</l>
-            <l>que no quiero en esta vida</l>
-            <l rend="cursiva">gastar tiempo sin provecho.</l>
+
+          <lg n="8">
+            <head type="titulo_estrofa"><lb/>8.</head>
+            <lg rend="cursiva">
+              <l rend="indent">Si fueras la reina Ester</l>
+              <l>y á su hermosura llegaras</l>
+              <l>por tu falso proceder,</l>
+
+              <pb n="4" source="Varios_151_4.jpg" facs="varios/Varios_151_4.jpg/"/>
+
+              <fw type="paginaNum">4</fw>
+
+              <l>si de rey me coronaras</l>
+              <l>no te volviera á querer.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Muy tarde fui en conocer</l>
+              <l>tu traicion por mi desgracia,</l>
+              <l>todo lo he llegado á ver,</l>
+              <l>no volverás á mi gracia</l>
+              <l rend="cursiva">si fueras la reina Ester.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Y si el mundo eternizaras</l>
+              <l>é hicieras favores plenos,</l>
+              <l>á mí no me conquistáras</l>
+              <l>si fueras la diosa Venus,</l>
+              <l rend="cursiva">y á su hermosura llegáras.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Si me pudiera volver</l>
+              <l>basilisco ponzoñoso,</l>
+              <l>lcon sangriento, cruel</l>
+              <l>te diera la muerte ansioso</l>
+              <l rend="cursiva">por tu falso proceder.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Si de plata fabricáras</l>
+              <l>un palacio y nuevo reino,</l>
+              <l>y dentro me colocáras,</l>
+              <l>lo tu viera por infierno</l>
+              <l rend="cursiva">si de rey me coronáras.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Aunque me intentas vencer</l>
+              <l>con tu loco desvario,</l>
+              <l>que tu corazon es mio,</l>
+              <l rend="cursiva">no te volviera á querer.</l>
+            </lg>
           </lg>
-          <p><lb/>6.</p>
-          <lg>
-            <l rend="cursiva">Ya me has vuelto las espaldas</l>
-            <l rend="cursiva">porque tienes nuevo amor,</l>
-            <l rend="cursiva">bien puedes corresponderle,</l>
-            <l rend="cursiva">pues lo merece mejor.</l>
-            <l>Sobre alfombras de esmeraldas</l>
-            <l>un galan enternecido,</l>
-            <l>al pié de unas verdes palmas</l>
-            <l>con ansias dice à Cupido:</l>
-            <l rend="cursiva">ya me has vuelto las espaldas.</l>
-            <l>De tu desden el favor</l>
-            <l>me penetró toda el alma,</l>
-            <l>olvidando á tu rigor,</l>
+
+          <lg n="9">
+            <head type="titulo_estrofa"><lb/>9.</head>
+            <lg rend="cursiva">
+              <l rend="indent">Aire, fuego, mar y tierra,</l>
+              <l>hablad, si teneis sentidos:</l>
+              <l>decid: ¿ donde está mi amante ?</l>
+              <l>¿ donde lo hallaré escondido ?</l>
+            </lg>
+            <lg>
+              <l rend="indent">Dentro de mi pecho encierra</l>
+              <l>el dolor, mas lo perdí,</l>
+              <l>amor firme me da guerra</l>
+              <l>ya se han vuelto contra mí</l>
+              <l rend="cursiva">aire, fuego, mar y tierra.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Ya mis gustos son perdidos,</l>
+              <l>vivo con ansias mortales,</l>
+              <l>paré terribles gemidos;</l>
+              <l>aves, peces y animales,</l>
+              <l rend="cursiva">hablad, si teneis sentidos.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Yo no sosiego un instante,</l>
+              <l>se me arrancan las entrañas</l>
+              <l>del dolor mas penetrante,</l>
+              <l>riscos, valles y montañas</l>
+              <l rend="cursiva">decid, donde está mi amante ?</l>
+            </lg>
+            <lg>
+              <l rend="indent">Pues yo ya lo habré perdido,</l>
+              <l>que este es mi mayor tormento,</l>
+              <l>siendo mi dueño querido,</l>
+              <l>mundo, cielo y elementos,</l>
+              <l rend="cursiva">donde lo hallaré escondido ?</l>
+            </lg>
           </lg>
-          <lg>
-            <l>mi vida, se encuentra en calma</l>
-            <l rend="cursiva">porque tienes nuevo amor.</l>
-            <l>Me alegrara conocerle</l>
-            <l>para envidiarle la dicha,</l>
-            <l>y pues deseas tenerle,</l>
-            <l>mentras lloro mi desdicha</l>
-            <l rend="cursiva">bien puedes corresponderte.</l>
-            <l>¡ Oh que pena ! ¡ oh qué rigor !</l>
-            <l>¡ qué suerte ! ¡ qué desventura!</l>
-            <l>por mí se acabe el horror,</l>
-            <l>él goce de tu hermosura</l>
-            <l rend="cursiva">pues lo merece mejor.</l>
+
+          <lg n="10">
+            <head type="titulo_estrofa"><lb/>10.</head>
+            <lg rend="cursiva">
+              <l rend="indent">Serás dueña de mi vida</l>
+              <l>si sabes corresponder,</l>
+              <l>pero temo tu mudanza,</l>
+              <l>porque al fin eres mujer.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Puedes estar persuadida</l>
+              <l>de que soy tu fino amante;</l>
+              <l>tú dices ser mi querida,</l>
+              <l>mientras me seas constante</l>
+              <l rend="cursiva">serás dueño de mi vida.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Quisiera darte á leer</l>
+              <l>escritos del corazon,</l>
+              <l>bien sé yo que habias de ver</l>
+              <l>lo firme de mi aficion</l>
+              <l rend="cursiva">si sabes corresponder.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Que tenga en tí confianza</l>
+              <l>me aconseja tu favor,</l>
+              <l>yo tengo plena probanza</l>
+              <l>de lo firme de tu amor,</l>
+              <l rend="cursiva">pero temo tu mudanza.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Por mas que llegue á querer,</l>
+              <l>en tí no me he de cegar</l>
+              <l>por si me has de aborrecer,</l>
+              <l>que es muy facil olvidar,</l>
+              <l rend="cursiva">porque al fin eres mujer.</l>
+            </lg>
           </lg>
-          <p><lb/>7.</p>
-          <lg>
-            <l rend="cursiva">Señora ya te olvidé</l>
-            <l rend="cursiva">á lo hecho no hay remedio,</l>
-            <l rend="cursiva">arrepentido no estoy,</l>
-            <l rend="cursiva">busca quien te dé consuelo.</l>
-            <l>Siempre constante te amé</l>
-            <l>con muy fina voluntad,</l>
-            <l>y fino te idolatré;</l>
-            <l>pero al ver tu falsedad,</l>
-            <l rend="cursiva">señora ya te olvide.</l>
-            <l>Llegaste á mostrarme tédio,</l>
-            <l>procuré desenojarte,</l>
-            <l>mas viendo no hallaba medio,</l>
-            <l>ya me resolví á dejarte,</l>
-            <l rend="cursiva">á lo hecho no hay remedio.</l>
-            <l>Por muy bien empleado doy</l>
-            <l>de tu vista el ausentarme,</l>
-            <l>y aunque sepa desde hoy</l>
-            <l>que el no verte ha de matarme,</l>
-            <l rend="cursiva">arrepentido no estoy.</l>
-            <l>Ya falleció mi desvelo,</l>
-            <l>ya mi cuidado murió,</l>
-            <l>ya no quiero mas tu cielo,</l>
-            <l>y pues que te olvidé yo</l>
-            <l rend="cursiva">busca quien te dé consuelo.</l>
-          </lg>
-          <p><lb/>8.</p>
-          <lg>
-            <l rend="cursiva">Si fueras la reina Ester</l>
-            <l rend="cursiva">y á su hermosura llegaras</l>
-            <l rend="cursiva">por tu falso proceder,</l>
-          </lg>
-          <pb n="4" source="Varios_151_4.jpg" facs="fedora_Varios_151_4/full/full/0/default.jpg"/>
-          <fw type="paginaNum">4</fw>
-          <lg>
-            <l rend="cursiva">si de rey me coronaras</l>
-            <l rend="cursiva">no te volviera á querer.</l>
-            <l>Muy tarde fui en conocer</l>
-            <l>tu traicion por mi desgracia,</l>
-            <l>todo lo he llegado á ver,</l>
-            <l>no volverás á mi gracia</l>
-            <l rend="cursiva">si fueras la reina Ester.</l>
-            <l>Y si el mundo eternizaras</l>
-            <l>é hicieras favores plenos,</l>
-            <l>á mí no me conquistáras</l>
-            <l>si fueras la diosa Venus,</l>
-            <l rend="cursiva">y á su hermosura llegáras.</l>
-            <l>Si me pudiera volver</l>
-            <l>basilisco ponzoñoso,</l>
-            <l>lcon sangriento, cruel</l>
-            <l>te diera la muerte ansioso</l>
-            <l rend="cursiva">por tu falso proceder.</l>
-            <l>Si de plata fabricáras</l>
-            <l>un palacio y nuevo reino,</l>
-            <l>y dentro me colocáras,</l>
-            <l>lo tu viera por infierno</l>
-            <l rend="cursiva">si de rey me coronáras.</l>
-            <l>Aunque me intentas vencer</l>
-            <l>con tu loco desvario,</l>
-            <l>que tu corazon es mio,</l>
-            <l rend="cursiva">no te volviera á querer.</l>
-          </lg>
-          <p><lb/>9.</p>
-          <lg>
-            <l rend="cursiva">Aire, fuego, mar y tierra,</l>
-            <l rend="cursiva">hablad, si teneis sentidos:</l>
-            <l rend="cursiva">decid: ¿ donde está mi amante ?</l>
-            <l rend="cursiva">¿ donde lo hallaré escondido ?</l>
-            <l>Dentro de mi pecho encierra</l>
-            <l>el dolor, mas lo perdí,</l>
-            <l>amor firme me da guerra</l>
-            <l>ya se han vuelto contra mí</l>
-            <l rend="cursiva">aire, fuego, mar y tierra.</l>
-            <l>Ya mis gustos son perdidos,</l>
-            <l>vivo con ansias mortales,</l>
-          </lg>
-          <lg>
-            <l>paré terribles gemidos;</l>
-            <l>aves, peces y animales,</l>
-            <l rend="cursiva">hablad, si teneis sentidos.</l>
-            <l>Yo no sosiego un instante,</l>
-            <l>se me arrancan las entrañas</l>
-            <l>del dolor mas penetrante,</l>
-            <l>riscos, valles y montañas</l>
-            <l rend="cursiva">decid, donde está mi amante ?</l>
-            <l>Pues yo ya lo habré perdido,</l>
-            <l>que este es mi mayor tormento,</l>
-            <l>siendo mi dueño querido,</l>
-            <l>mundo, cielo y elementos,</l>
-            <l rend="cursiva">donde lo hallaré escondido ?</l>
-          </lg>
-          <p><lb/>10.</p>
-          <lg>
-            <l rend="cursiva">Serás dueña de mi vida</l>
-            <l rend="cursiva">si sabes corresponder,</l>
-            <l rend="cursiva">pero temo tu mudanza,</l>
-            <l rend="cursiva">porque al fin eres mujer.</l>
-            <l>Puedes estar persuadida</l>
-            <l>de que soy tu fino amante;</l>
-            <l>tú dices ser mi querida,</l>
-            <l>mientras me seas constante</l>
-            <l rend="cursiva">serás dueño de mi vida.</l>
-            <l>Quisiera darte á leer</l>
-            <l>escritos del corazon,</l>
-            <l>bien sé yo que habias de ver</l>
-            <l>lo firme de mi aficion</l>
-            <l rend="cursiva">si sabes corresponder.</l>
-            <l>Que tenga en tí confianza</l>
-            <l>me aconseja tu favor,</l>
-            <l>yo tengo plena probanza</l>
-            <l>de lo firme de tu amor,</l>
-            <l rend="cursiva">pero temo tu mudanza.</l>
-            <l>Por mas que llegue á querer,</l>
-            <l>en tí no me he de cegar</l>
-            <l>por si me has de aborrecer,</l>
-            <l>que es muy facil olvidar,</l>
-            <l rend="cursiva">porque al fin eres mujer.</l>
-          </lg>
+          
           <trailer>FIN.</trailer>
         </div>
+        
         <div type="colofon">
-          <p><lb/>REUS. Imp. y lib. de Juan Bautista Vidal calle Mayor
-                                    Año 1847.</p>
+          <p><lb/>REUS. Imp. y lib. de Juan Bautista Vidal calle Mayor <lb/>Año 1847.</p>
         </div>
       </div>
     </body>

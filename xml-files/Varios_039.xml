@@ -1,21 +1,17 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../Schema/oddPliego_varios.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:alto="http://www.loc.gov/standards/alto/ns-v4#" xml:id="Varios_039">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Varios_039">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>EL CANTOR DE LAS HERMOSAS. TROVAS DE AMOR DEDICADAS AL BELLO SEXO POR UNOS
-                     AFICIONADOS.</title>
+        <title>EL CANTOR DE LAS HERMOSAS</title>
         <respStmt>
           <name/>
           <resp>Codificación TEI</resp>
-          <note type="propiedad">–F. B.–</note>
-          <note type="propiedad">–J. A. C.–</note>
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <authority role="rightsHolder">Bibliothèque Universitaire de
-                            Genève</authority>
+        <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
         <availability status="restricted">
           <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
         </availability>
@@ -23,17 +19,17 @@
       <sourceDesc>
         <biblFull>
           <titleStmt>
-            <title type="titulo_completo">EL CANTOR DE LAS HERMOSAS. TROVAS DE AMOR DEDICADAS
-                           AL BELLO SEXO POR UNOS AFICIONADOS.</title>
+            <title type="titulo_completo">EL CANTOR DE LAS HERMOSAS. TROVAS DE AMOR DEDICADAS AL
+              BELLO SEXO POR UNOS AFICIONADOS.</title>
             <title type="titulo_breve">EL CANTOR DE LAS HERMOSAS</title>
           </titleStmt>
           <editionStmt>
             <p/>
           </editionStmt>
           <publicationStmt>
-            <publisher>Tipografia Española</publisher>
-            <pubPlace ref="https://www.geonames.org/3128760/barcelona.html">Barcelona, , Hospital, 87.</pubPlace>
-            <date>[s.a]</date>
+            <publisher>Tipografía Española</publisher>
+            <pubPlace ref="https://www.geonames.org/3128760/barcelona.html">Barcelona</pubPlace>
+            <date cert="low" when="1800-01-01">[s.a.]</date>
           </publicationStmt>
         </biblFull>
         <msDesc>
@@ -41,7 +37,8 @@
             <country>Suisse</country>
             <settlement>Genève</settlement>
             <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"/>
-                  </repository>
+            </repository>
+            <collection>Colección Varios</collection>
             <idno type="cote"/>
             <idno type="DOI">10.5281/zenodo.6554293</idno>
             <altIdentifier>
@@ -49,10 +46,20 @@
             </altIdentifier>
           </msIdentifier>
           <msContents>
-            <summary/>
+            <summary>Tres canciones</summary>
             <msItem>
-              <locus/>
-              <title/>
+              <locus>1-2</locus>
+              <title>El hijo del trueno</title>
+              <author role="letrista">F. B.</author>
+            </msItem>
+            <msItem>
+              <locus>3-4</locus>
+              <title>Anyorament</title>
+              <author role="letrista">J. A. C.</author>
+            </msItem>
+            <msItem>
+              <locus>4</locus>
+              <title>Aria de la viejecita</title>
             </msItem>
           </msContents>
           <physDesc>
@@ -70,11 +77,11 @@
               </layoutDesc>
             </objectDesc>
             <decoDesc>
-              <summary n="2">Dos grabados (p.1 + p.3) </summary>
+              <summary n="2">Dos grabados (p.1, 3)</summary>
               <decoNote type="lista_grabados">
                 <list>
                   <item corresp="grabado_v_039_1.xml">grabado_v_039_1</item>
-                  <item corresp="grabado_v_039_1.xml">grabado_v_039_1</item>
+                  <item corresp="grabado_v_039_2.xml">grabado_v_039_2</item>
                 </list>
               </decoNote>
             </decoDesc>
@@ -94,18 +101,17 @@
     </fileDesc>
     <encodingDesc>
       <projectDesc>
-        <p>Este archivo fue creado en el marco del proyecto Desenrollando el
-                            Cordel/Démêler le cordel/Untangling the cordel, dirigido por la
-                            profesora Constance Carta de la Universidad de Ginebra, con el apoyo de
-                            la Fundación filantrópica Famille Sandoz-Monique de Meuron.</p>
+        <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+          cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la Universidad
+          de Ginebra, con el apoyo de la Fundación filantrópica Famille Sandoz-Monique de
+          Meuron.</p>
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR non corregido</p>
+          <p>OCR no corregido</p>
         </correction>
         <normalization>
-          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto
-                                original.</p>
+          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
         </normalization>
         <punctuation>
           <p>Se conserva la puntuación original.</p>
@@ -115,6 +121,7 @@
     <profileDesc>
       <langUsage>
         <language ident="es">Español</language>
+        <language ident="ca">Catalán</language>
       </langUsage>
       <textClass>
         <keywords xml:base="http://datos.bne.es/tema/">
@@ -127,10 +134,11 @@
     </profileDesc>
     <revisionDesc>
       <change when="2022-05-14" who="#PJ">Création du fichier TEI P5 et encodage du corps du
-                        texte</change>
+        texte</change>
+<change when="2024-01-09" who="#EL">Add the IIIF links</change>
     </revisionDesc>
   </teiHeader>
-  <sourceDoc xml:id="automaticTranscription">
+  <facsimile><graphic url="varios/Varios_039_1.jpg/full/200,/0/default.jpg"/></facsimile><sourceDoc xml:id="automaticTranscription">
     <surface xml:id="Varios_039_1" type="page" cert="silver">
       <graphic url="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_039_1/full/full/0/default.jpg"/>
       <zone xml:id="Varios_039_1_BT221_1" n="1" type="CustomZone" subtype="impresorNum" points="1309,142 1309,221 1572,221 1572,142 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_039_1/1309,142,263,79/full/0/default" corresp="CustomZone:impresorNum">
@@ -1059,7 +1067,8 @@
       <zone xml:id="Varios_039_4_BT228_7" n="7" type="MarginTextZone" subtype="colophon" points="204,2199 193,2243 1650,2256 1650,2199 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_039_4/193,2199,1457,57/full/0/default" corresp="MarginTextZone:colophon">
         <zone xml:id="Varios_039_4_BT228_7_LT83_1" type="DefaultLine" subtype="none" points="245,2228 241,2186 318,2173 320,2173 456,2186 467,2186 469,2186 484,2173 486,2173 489,2173 491,2173 493,2173 526,2186 532,2188 671,2188 671,2186 682,2177 682,2175 684,2175 686,2175 688,2175 743,2186 765,2190 833,2186 962,2179 965,2179 1046,2188 1101,2193 1149,2188 1210,2182 1212,2182 1256,2188 1298,2195 1309,2188 1318,2182 1320,2182 1322,2182 1324,2182 1618,2190 1618,2239 1614,2249 243,2236 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_039_4/241,2173,1377,76/full/0/default" corresp="DefaultLine">
           <path xml:id="Varios_039_4_BT228_7_LT83_1_1" points="245,2228 802,2225 1618,2239 "/>
-          <line>Se hallará de venta en casa de los sucesores de A. Bosch, calle Bou de la Plaza Nueva, 13</line>
+          <line>Se hallará de venta en casa de los sucesores de A. Bosch, calle Bou de la Plaza
+            Nueva, 13</line>
         </zone>
       </zone>
       <zone xml:id="Varios_039_4_BT228_8" n="8" type="MarginTextZone" subtype="colophon" points="502,2256 506,2335 1373,2342 1386,2266 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_039_4/502,2256,884,86/full/0/default" corresp="MarginTextZone:colophon">
@@ -1075,279 +1084,306 @@
     <body>
       <div>
         <div>
-          <pb n="1" source="Varios_039_1.jpg" facs="fedora_Varios_039_1/full/full/0/default.jpg"/>
+          <pb n="1" source="Varios_039_1.jpg" facs="varios/Varios_039_1.jpg/"/>
+          
           <fw type="impresorNum">Núm. 50.</fw>
+          
           <head type="primer_titulo" rend="negrita"><lb/>EL<lb/>CANTOR DE LAS HERMOSAS.</head>
-          <head type="subtitulo_parte"><lb/>TROVAS DE AMOR DEDICADAS AL BELLO SEXO<lb/>POR UNOS
-                        AFICIONADOS.</head>
+          <head type="subtitulo"><lb/>TROVAS DE AMOR DEDICADAS AL BELLO SEXO<lb/>POR UNOS
+            AFICIONADOS.</head>
+
+          <div n="1">
+            <head type="titulo_cancion"><lb/>EL HIIO DEL TRUENO</head>
+
+            <lg n="1">
+              <head type="titulo_estrofa">1</head>
+              <l rend="indent">Naci en la cumbre de una montaña,</l>
+              <l>Vibrando el rayo desvastador,</l>
+              <l>Crecí en el fondo de una cabaña,</l>
+              <l>Hoy que soy hombre, muero de amor.</l>
+              <l rend="indent">Hijo del trueno me apellidaron,</l>
+              <l>Que en noche horrible vine á nacer;</l>
+              <l>Y unos bandidos alimentaron</l>
+              <l>A la cuidada que me dió el ser.</l>
+            </lg>
+
+            <pb n="2" source="Varios_039_2.jpg" facs="varios/Varios_039_2.jpg/"/>
+
+            <fw type="paginaNum">-2-</fw>
+
+            <lg n="2">
+              <head type="titulo_estrofa">2</head>
+              <l rend="indent">Hijo del trueno nada me arredra,</l>
+              <l>Nunca el peligro yo conoci,</l>
+              <l>El pecho mío, fuerte cual piedra,</l>
+              <l>A tus encantos solo rendi.</l>
+              <l rend="indent">De él solo sale canto sentido</l>
+              <l>Que dá los aires del trovador,</l>
+              <l>Como lo canta al salir del nido</l>
+              <l>El pagarillo cabe una for.</l>
+            </lg>
+
+            <lg n="3">
+              <head type="titulo_estrofa">3</head>
+              <l rend="indent">Mis tristes notas mi triste acento</l>
+              <l>Vuelan mezclados en mi canción;</l>
+              <l>Si es que penetran en tu aposento,</l>
+              <l>No la desdeñes, ten compasión.</l>
+              <l rend="indent">Si por desdicha no la escuchares,</l>
+              <l>Si por desgracia no llegó á ti,</l>
+              <l>Como se aumentan más mis pesares.</l>
+              <l>Hermosa, entonces... ¡pobre de mí!</l>
+            </lg>
+
+            <lg n="4">
+              <head type="titulo_estrofa">4</head>
+              <l rend="indent">Oye y escucha que el pecho mío</l>
+              <l>Sin tí, consuelo no puede hallar</l>
+              <l>Tú eres la dueña de mi albedrio</l>
+              <l>Tú á mí la dicha me puedes dar.</l>
+              <l rend="indent">Sál, que la noche lóbrega y fria,</l>
+              <l>Sin contemplarte cáusame enojos:</l>
+              <l>Sál, porque el alma tan solo ansia</l>
+              <l>Los resplandores que dan tus ojos.</l>
+            </lg>
+
+            <lg n="5">
+              <head type="titulo_estrofa">5</head>
+              <l rend="indent">Pues si al tormento que estoy sufriendo</l>
+              <l>Se añade el doble de tu desdén,</l>
+              <l>Mi triste vida se irá extiguiendo</l>
+              <l>Que tus encantos son mi sostén.</l>
+              <l rend="indent">Pues los placeres que el mundo ofrece</l>
+              <l>No son placeres si tu no estás</l>
+              <l>Sin ti, de encantos todo carece,</l>
+              <l>Gloria cumplida, sin ti jamás.</l>
+            </lg>
+
+            <lg n="6">
+              <head type="titulo_estrofa">6</head>
+              <l rend="indent">La palida luna azás debilmente</l>
+              <l>Proyecta mi sombra y alumbra á la vez</l>
+              <l>Mi ardiente volcánica frente,</l>
+              <l>Que temo ser planco de injusta altivez.</l>
+              <l rend="indent">No, no; no rechaces amor tan profundo</l>
+              <l>Que puesto á tus plantas perenne estaré,</l>
+              <l>Qué me importa el cielo, ni que me importa <add place="debajo">(al
+                mundo.</add></l>
+              <l>Yo juré adorarte y te adoraré</l>
+            </lg>
+
+            <lg n="7">
+              <head type="titulo_estrofa">7</head>
+              <l rend="indent">La noche se aleja, se acerca la aurora,</l>
+              <l>Mi ayes, mis quejas perdiéndose van;</l>
+              <l>Tu ausencia, mi pecho doliente ya llora</l>
+              <l>Y mis esperanzas su despido dán.</l>
+              <l rend="indent">Cruel, si mis ayes oiste tranquila</l>
+              <l>Cruel, si mis quejas tu pecho escuchó,</l>
+              <l>El mío en constancia y amor no vacila,</l>
+              <l>Jamás el perjurio mis labios manchó</l>
+            </lg>
+
+            <lg n="8">
+              <head type="titulo_estrofa">8</head>
+              <l rend="indent">Desprecio la muerte, no temo morir,</l>
+              <l>Allá en mi cabaña do el trueuo retumbra,</l>
+              <l>El rayo fulgente no me puede herir,</l>
+              <l>Cambiando mi cuna por mísera tumba.</l>
+              <l rend="indent">Allí varias veces luché con las fieras,</l>
+              <l>Y fuerte cual roble, la muerte les di:</l>
+              <l>Que alli de los montes entre sus laderas</l>
+              <l>A ser hombre fuerte de niño aprendi.</l>
+            </lg>
+
+            <lg n="9">
+              <head type="titulo_estrofa">9</head>
+              <l rend="indent">Bandidos salvajes, los montes cercanos</l>
+              <l>Recorren veloces tu vida á buscar,</l>
+              <l>Respeto me tienen, pues ven en mis ma¬<add place="dejajo">(nos</add></l>
+              <l>Los medios de hacerme querer respetar.</l>
+              <l rend="indent">Ni el hombre salvaje, ni la loba ligera,</l>
+              <l>Ni rayos, ni nieves, ni sol estival,</l>
+              <l>Jamás doblegaron mi cuerpo de fiera,</l>
+              <l>Mas tú la rendiste, alma angelical.</l>
+            </lg>
+
+            <lg n="10">
+              <head type="titulo_estrofa">10</head>
+              <l rend="indent">Mi madre amada, llora mis penas.</l>
+              <l>Y cuando quiere calmar mi mal,</l>
+              <l>Dice llorando que por mis venas</l>
+              <l>Corren torrentes de sangre real.</l>
+              <l rend="indent">Y si no sales á la ventana,</l>
+              <l>Perla de Oriente, nitida flor.</l>
+              <l>Bajo tus muros verás mañana</l>
+              <l>Nota una lira, muerto un cantor.</l>
+            </lg>
+            <p><lb/>F. B.</p>
+          </div>
+
+          <div n="2">
+            <pb n="3" source="Varios_039_3.jpg" facs="varios/Varios_039_3.jpg/"/>
+
+            <head type="titulo_cancion"><lb/>162 ANYORAMENT</head>
+
+            <lg n="1">
+              <head type="titulo_estrofa">I</head>
+              <l>Sento en mi gran frisansa;</l>
+              <l rend="indent">Viu se insinúa</l>
+              <l rend="indent">Fer malestar.</l>
+              <l>Tot lo del mon me cansa..</l>
+              <l rend="indent">Lo cor se 'm núa</l>
+              <l rend="indent">Y ¡ay! vull plorar.</l>
+              <l>Jove, aborresch la vida,</l>
+              <l rend="indent">¡Trista, afiaqueixo</l>
+              <l rend="indent">Terriblement!</l>
+              <l>Y ¡ay! ma mare afligida</l>
+              <l rend="indent">Diu que pateixo</l>
+              <l rend="indent">D' anyorament.</l>
+              <l>Cert que 's un fer torment</l>
+              <l rend="indent">Lo mal d' ausencia</l>
+              <l>Cert que 's un fer torment</l>
+              <l rend="indent">L' anyorament.</l>
+            </lg>
+
+            <lg n="2">
+              <head type="titulo_estrofa">II</head>
+              <l>Ronch soná un crit de guerra</l>
+              <l rend="indent">Que ay! va robarme</l>
+              <l rend="indent">Lo promés meu;</l>
+              <l>Pobra, de llunya terra</l>
+              <l rend="indent">Sempre estimarme</l>
+              <l rend="indent">Jurá per Deu...</l>
+              <l>Des llavors sens sossego</l>
+              <l rend="indent">Febrós abrumo</l>
+              <l rend="indent">Mon pensament;</l>
+              <l>Jorn y nit per ell prego...</l>
+              <l rend="indent">Y ¡ay! me consumo</l>
+              <l rend="indent">D' anyorament.</l>
+              <l>Cert que 's un fer torment</l>
+              <l rend="indent">Lo mal d'ausencia</l>
+              <l>Cert que 's un fer torment</l>
+              <l rend="indent">l'anyorameut.</l>
+            </lg>
+
+            <lg n="3">
+              <head type="titulo_estrofa">III</head>
+              <l>Los aucells no cantan</l>
+              <l rend="indent">Pas com solían</l>
+              <l rend="indent">Trist surt lo sol.</l>
+              <l>Las flors als ulls encantan</l>
+              <l rend="indent">Ni olors me envian,</l>
+
+              <pb n="4" source="Varios_039_4.jpg" facs="varios/Varios_039_4.jpg/"/>
+
+              <fw type="paginaNum">-4-</fw>
+
+              <l rend="indent">¡Tot vesteix dol!</l>
+              <l>Presa de greu fatiga</l>
+              <l rend="indent">Soleta ploro</l>
+              <l rend="indent">mon goig ausent</l>
+              <l>Ell á tornar molt triga</l>
+              <l rend="indent">Y en tant yo 'm moro</l>
+              <l rend="indent">D' anyorament.</l>
+              <l>Cert que 's un fer torment</l>
+              <l rend="indent">Lo mal d' ausencia.</l>
+              <l>Cert que 's un fer torment</l>
+              <l rend="indent">L' anyorament.</l>
+            </lg>
+            <p><lb/>J. A. C.</p>
+          </div>
+
+          <div n="3">
+            <head type="titulo_cancion" rend="negrita"><lb/>ARIA DE LA VIEJECITA</head>
+
+            <lg n="1">
+              <head type="titulo_estrofa" rend="negrita">Carlos</head>
+              <l>Al espejo,</l>
+              <l>al salir,</l>
+              <l>me miré,</l>
+              <l>y un consejo</l>
+              <l>al espejo</l>
+              <l>pedí,</l>
+              <l>y el espejo</l>
+              <l>me dijo:</l>
+              <l>sí, ve,</l>
+              <l>si disfrutas</l>
+              <l>mejor</l>
+              <l>para tí.</l>
+              <l rend="indent">En carroza abierta</l>
+              <l>hasta aquí he llegado,</l>
+              <l>y en la misma puerta</l>
+              <l>me gritó un soldado:</l>
+              <l>¡Eh! ¡Eh!</l>
+              <l>Viejecita que vas al sarao</l>
+              <l rend="indent">no sé por qué vas.</l>
+              <l>El que baile contigo esta noche</l>
+              <l rend="indent">no pierde el compás.</l>
+              <l>Yo le dije: si voy al sarao,</l>
+              <l rend="indent">no voz á bailar.</l>
+              <l>¿Voy á ver si recuerdo los tiempos</l>
+              <l rend="indent">que alegres pasaron</l>
+              <l rend="indent">y no vuelven más!</l>
+            </lg>
+
+            <lg n="2">
+              <head type="titulo_estrofa" rend="negrita">Coro</head>
+              <l>Es graciosa la vieja</l>
+              <l rend="indent">y es grata su voz,</l>
+              <l rend="indent">y sus frases denuncian</l>
+              <l rend="indent">su fina intención.</l>
+            </lg>
+
+            <lg n="3">
+              <head type="titulo_estrofa" rend="negrita">Carlos</head>
+              <l>Al espejo</l>
+              <l>al salir</l>
+              <l>me miré,</l>
+              <l>y mi busto</l>
+              <l>á mi gusto</l>
+              <l>allí ví.</l>
+              <l>Y al hallar</l>
+              <l>tan chiquito</l>
+              <l>mi pie</l>
+              <l>el convite</l>
+              <l>aceptar</l>
+              <l>decidí.</l>
+              <l>En carroza abierta</l>
+              <l>hasta aquí he llegado,</l>
+              <l>y en la misma puerta</l>
+              <l>me gritó un soldado:</l>
+              <l>¡Eh! ¡eh!</l>
+              <l>Viejecita que vas al sarao,</l>
+              <l rend="indent">no debes entrar</l>
+              <l>esa plaza ruinosa ya nadie</l>
+              <l rend="indent">la quiere tomar.</l>
+              <l>Yo le dije: Esta plaza fué fuerte,</l>
+              <l rend="indent">y amor la sitió,</l>
+              <l>y á los fuegos y ardientes miradas</l>
+              <l rend="indent">y amantes suspiros</l>
+              <l>al fin se rindió.</l>
+            </lg>
+
+            <lg n="4">
+              <head type="titulo_estrofa" rend="negrita">Todos</head>
+              <l>Viejecita que vas al sarao,</l>
+              <l rend="indent">etc., etc.</l>
+              <l>Hoy viene aquí</l>
+              <l rend="indent">á recordar</l>
+              <l>otro tiempo en que fué</l>
+              <l>su belleza sin par.</l>
+            </lg>
+          </div>
         </div>
-        <div n="1" type="parte">
-          <head type="titulo_cancion"><lb/>EL HIIO DEL TRUENO</head>
-          <p><lb/>1</p>
-          <lg>
-            <l>Naci en la cumbre de una montaña,</l>
-            <l>Vibrando el rayo desvastador,</l>
-            <l>Crecí en el fondo de una cabaña,</l>
-            <l>Hoy que soy hombre, muero de amor.</l>
-          </lg>
-          <lg>
-            <l>Hijo del trueno me apellidaron,</l>
-            <l>Que en noche horrible vine á nacer;</l>
-            <l>Y unos bandidos alimentaron</l>
-            <l>A la cuidada que me dió el ser.</l>
-          </lg>
-          <pb n="2" source="Varios_039_2.jpg" facs="fedora_Varios_039_2/full/full/0/default.jpg"/>
-          <fw type="paginaNum">-2-</fw>
-          <lg>
-            <l>2</l>
-            <l>Hijo del trueno nada me arredra,</l>
-            <l>Nunca el peligro yo conoci,</l>
-            <l>El pecho mío, fuerte cual piedra,</l>
-            <l>A tus encantos solo rendi.</l>
-            <l>De él solo sale canto sentido</l>
-            <l>Que dá los aires del trovador,</l>
-            <l>Como lo canta al salir del nido</l>
-            <l>El pagarillo cabe una for.</l>
-          </lg>
-          <lg>
-            <l>3</l>
-            <l>Mis tristes notas mi triste acento</l>
-            <l>Vuelan mezclados en mi canción;</l>
-            <l>Si es que penetran en tu aposento,</l>
-            <l>No la desdeñes, ten compasión.</l>
-            <l>Si por desdicha no la escuchares,</l>
-            <l>Si por desgracia no llegó á ti,</l>
-            <l>Como se aumentan más mis pesares.</l>
-            <l>Hermosa, entonces... ¡pobre de mí!</l>
-          </lg>
-          <lg>
-            <l>4</l>
-            <l>Oye y escucha que el pecho mío</l>
-            <l>Sin tí, consuelo no puede hallar</l>
-            <l>Tú eres la dueña de mi albedrio</l>
-            <l>Tú á mí la dicha me puedes dar.</l>
-            <l>Sál, que la noche lóbrega y fria,</l>
-            <l>Sin contemplarte cáusame enojos:</l>
-            <l>Sál, porque el alma tan solo ansia</l>
-            <l>Los resplandores que dan tus ojos.</l>
-          </lg>
-          <lg>
-            <l>5</l>
-            <l>Pues si al tormento que estoy sufriendo</l>
-            <l>Se añade el doble de tu desdén,</l>
-            <l>Mi triste vida se irá extiguiendo</l>
-            <l>Que tus encantos son mi sostén.</l>
-            <l>Pues los placeres que el mundo ofrece</l>
-            <l>No son placeres si tu no estás</l>
-            <l>Sin ti, de encantos todo carece,</l>
-            <l>Gloria cumplida, sin ti jamás.</l>
-          </lg>
-          <lg>
-            <l>6</l>
-            <l>La palida luna azás debilmente</l>
-            <l>Proyecta mi sombra y alumbra á la vez</l>
-            <l>Mi ardiente volcánica frente,</l>
-            <l>Que temo ser planco de injusta altivez.</l>
-            <l>No, no; no rechaces amor tan profundo</l>
-            <l>Que puesto á tus plantas perenne estaré,</l>
-            <l>Qué me importa el cielo, ni que me importa</l>
-            <l>Yo juré adorarte y te adoraré (al mundo.</l>
-          </lg>
-          <lg>
-            <l>7</l>
-            <l>La noche se aleja, se acerca la aurora,</l>
-            <l>Mi ayes, mis quejas perdiéndose van;</l>
-            <l>Tu ausencia, mi pecho doliente ya llora</l>
-            <l>Y mis esperanzas su despido dán.</l>
-            <l>Cruel, si mis ayes oiste tranquila</l>
-            <l>Cruel, si mis quejas tu pecho escuchó,</l>
-            <l>El mío en constancia y amor no vacila,</l>
-            <l>Jamás el perjurio mis labios manchó</l>
-          </lg>
-          <lg>
-            <l>8</l>
-            <l>Desprecio la muerte, no temo morir,</l>
-            <l>Allá en mi cabaña do el trueuo retumbra,</l>
-            <l>El rayo fulgente no me puede herir,</l>
-            <l>Cambiando mi cuna por mísera tumba.</l>
-            <l>Allí varias veces luché con las fieras,</l>
-            <l>Y fuerte cual roble, la muerte les di:</l>
-            <l>Que alli de los montes entre sus laderas</l>
-            <l>A ser hombre fuerte de niño aprendi.</l>
-          </lg>
-          <lg>
-            <l>9</l>
-            <l>Bandidos salvajes, los montes cercanos</l>
-            <l>Recorren veloces tu vida á buscar,</l>
-            <l>Respeto me tienen, pues ven en mis ma¬</l>
-            <l>(noS</l>
-            <l>Los medios de hacerme querer respetar.</l>
-            <l>Ni el hombre salvaje, ni la loba ligera,</l>
-            <l>Ni rayos, ni nieves, ni sol estival,</l>
-            <l>Jamás doblegaron mi cuerpo de fiera,</l>
-            <l>Mas tú la rendiste, alma angelical.</l>
-          </lg>
-          <lg>
-            <l>10</l>
-            <l>Mi madre amada, llora mis penas.</l>
-            <l>Y cuando quiere calmar mi mal,</l>
-            <l>Dice llorando que por mis venas</l>
-            <l>Corren torrentes de sangre real.</l>
-            <l>Y si no sales á la ventana,</l>
-            <l>Perla de Oriente, nitida flor.</l>
-            <l>Bajo tus muros verás mañana</l>
-            <l>Nota una lira, muerto un cantor.</l>
-          </lg>
-          <p><lb/>F. B.</p>
-          <pb n="3" source="Varios_039_3.jpg" facs="fedora_Varios_039_3/full/full/0/default.jpg"/>
-        </div>
-        <div n="3" type="parte">
-          <head type="titulo_cancion"><lb/>162. ANYORAMENT</head>
-          <lg>
-            <l>Sento en mi gran frisansa;</l>
-            <l>Viu se insinúa</l>
-            <l>Fer malestar.</l>
-            <l>Tot lo del mon me cansa..</l>
-            <l>Lo cor se 'm núa</l>
-            <l>Y ¡ay! vull plorar.</l>
-            <l>Jove, aborresch la vida,</l>
-            <l>¡Trista, afiaqueixo</l>
-            <l>Terriblement!</l>
-            <l>Y ¡ay! ma mare afligida</l>
-            <l>Diu que pateixo</l>
-            <l>D' anyorament.</l>
-            <l>Cert que 's un fer torment</l>
-            <l>Lo mal d' ausencia</l>
-            <l>Cert que 's un fer torment</l>
-            <l>L' anyorament.</l>
-          </lg>
-          <lg>
-            <l>II</l>
-            <l>Ronch soná un crit de guerra</l>
-            <l>Que ay! va robarme</l>
-            <l>Lo promés meu;</l>
-            <l>Pobra, de llunya terra</l>
-            <l>Sempre estimarme</l>
-            <l>Jurá per Deu...</l>
-            <l>Des llavors sens sossego</l>
-            <l>Febrós abrumo</l>
-            <l>Mon pensament;</l>
-            <l>Jorn y nit per ell prego...</l>
-            <l>Y ¡ay! me consumo</l>
-            <l>D' anyorament.</l>
-            <l>Cert que 's un fer torment</l>
-            <l>Lo mal d'ausencia</l>
-            <l>Cert que 's un fer torment</l>
-            <l>l'anyorameut.</l>
-          </lg>
-          <lg>
-            <l>III</l>
-            <l>Los aucells no cantan</l>
-            <l>Pas com solían</l>
-            <l>Trist surt lo sol.</l>
-            <l>Las flors als ulls encantan</l>
-            <l>Ni olors me envian,</l>
-            <pb n="4" source="Varios_039_4.jpg" facs="fedora_Varios_039_4/full/full/0/default.jpg"/>
-            <l>¡Tot vesteix dol!</l>
-            <l>Presa de greu fatiga</l>
-            <l>Soleta ploro</l>
-            <l>mon goig ausent</l>
-            <l>Ell á tornar molt triga</l>
-            <l>Y en tant yo 'm moro</l>
-          </lg>
-          <fw type="paginaNum">-4-</fw>
-          <lg>
-            <l>D' anyora ment.</l>
-            <l>Cert que 's un fer torment</l>
-            <l>Lo mal d' ausencia.</l>
-            <l>Cert que 's un fer torment</l>
-            <l>L' anyorament.</l>
-          </lg>
-          <p><lb/>J. A. C.</p>
-        </div>
-        <div n="4" type="parte">
-          <head type="titulo_cancion"><lb/>ARIA DE LA VIEJECITA</head>
-          <sp>
-            <speaker>Carlos</speaker>
-            <l>Carlos</l>
-            <l>Al espejo,</l>
-            <l>al salir,</l>
-            <l>me miré,</l>
-            <l>y un consejo</l>
-            <l>al espejo</l>
-            <l>pedí,</l>
-            <l>y el espejo</l>
-            <l>me dijo:</l>
-            <l>sí, ve,</l>
-            <l>si disfrutas</l>
-            <l>mejor</l>
-            <l>para tí.</l>
-            <l>En carroza abierta</l>
-            <l>hasta aquí he llegado,</l>
-            <l>y en la misma puerta</l>
-            <l>me gritó un soldado:</l>
-            <l>¡Eh! ¡Eh!</l>
-            <l>Viejecita que vas al sarao</l>
-            <l>no sé por qué vas.</l>
-            <l>El que baile contigo esta noche</l>
-            <l>no pierde el compás.</l>
-            <l>Yo le dije: si voy al sarao,</l>
-            <l>no voz á bailar.</l>
-            <l>¿Voy á ver si recuerdo los tiempos</l>
-            <l>que alegres pasaron</l>
-            <l>y no vuelven más!</l>
-          </sp>
-          <sp>
-            <speaker>Coro</speaker>
-            <l>Es graciosa la vieja</l>
-            <l>y es grata su voz,</l>
-            <l>y sus frases denuncian</l>
-            <l>su fina intención.</l>
-          </sp>
-          <sp>
-            <speaker>Carlos</speaker>
-            <l>Al espejo</l>
-            <l>al salir</l>
-            <l>me miré,</l>
-            <l>y mi busto</l>
-            <l>á mi gusto</l>
-            <l>allí ví.</l>
-            <l>Y al hallar</l>
-            <l>tan chiquito</l>
-            <l>mi pie</l>
-            <l>el convite</l>
-            <l>aceptar</l>
-            <l>decidí.</l>
-            <l>En carroza abierta</l>
-            <l>hasta aquí he llegado,</l>
-            <l>y en la misma puerta</l>
-            <l>me gritó un soldado:</l>
-            <l>¡Eh! ¡eh!</l>
-            <l>Viejecita que vas al sarao,</l>
-            <l>no debes entrar</l>
-            <l>esa plaza ruinosa ya nadie</l>
-            <l>la quiere tomar.</l>
-            <l>Yo le dije: Esta plaza fué fuerte,</l>
-            <l>y amor la sitió,</l>
-            <l>y á los fuegos y ardientes miradas</l>
-            <l>y amantes suspiros</l>
-            <l>al fin se rindió.</l>
-          </sp>
-          <sp>
-            <speaker>Todos</speaker>
-            <l>Viejecita que vas al sarao,</l>
-            <l>etc., etc.</l>
-            <l>Hoy viene aquí</l>
-            <l>á recordar</l>
-            <l>otro tiempo en que fué</l>
-            <l>su belleza sin par.</l>
-          </sp>
-        </div>
+
         <div type="colofon_vendedor">
-          <p><lb/>Se hallará de venta en casa de los sucesores de A. Bosch, calle Bou de la Plaza Nueva, 13<lb/>Tipografia Española, Hospital, 87. — Barcelona.</p>
+          <p><lb/>Se hallará de venta en casa de los sucesores de A. Bosch, calle Bou de la Plaza
+            Nueva, 13<lb/>Tipografia Española, Hospital, 87. — Barcelona.</p>
         </div>
-        <div type="colofon_impresora">
-          <p><lb/>Tipografia Española, Hospital, 87. — Barcelona.</p>
+        
+        <div type="colofon_impresor">
+          <p><lb/><hi rend="cursiva">Tipografia Española, Hospital, 87.</hi> — Barcelona.</p>
         </div>
       </div>
     </body>

@@ -1,19 +1,17 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../Schema/oddPliego_varios.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:alto="http://www.loc.gov/standards/alto/ns-v4#" xml:id="Varios_093">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Varios_093">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>SÁTIRA GRACIOSA EN QUE SE DECLARAN LAS CONTINUAS DISPUTAS QUE OCURREN
-                              ENTRE SUEGRA Y NUERA</title>
+        <title>SÁTIRA GRACIOSA EN QUE SE DECLARAN LAS CONTINUAS DISPUTAS QUE OCURREN ENTRE SUEGRA Y NUERA</title>
         <respStmt>
           <name/>
           <resp>Codificación TEI</resp>
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <authority role="rightsHolder">Bibliothèque Universitaire de
-                              Genève</authority>
+        <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
         <availability status="restricted">
           <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
         </availability>
@@ -21,18 +19,17 @@
       <sourceDesc>
         <biblFull>
           <titleStmt>
-            <title type="titulo_completo">SÁTIRA GRACIOSA EN QUE SE DECLARAN
-                                          LAS CONTINUAS DISPUTAS QUE OCURREN ENTRE SUEGRA Y
-                                          NUERA</title>
-            <title type="titulo_breve">SUEGRA Y NUERA</title>
+            <title type="titulo_completo">SÁTIRA GRACIOSA EN QUE SE DECLARAN LAS CONTINUAS DISPUTAS
+              QUE OCURREN ENTRE SUEGRA Y NUERA</title>
+            <title type="titulo_breve"/>
           </titleStmt>
           <editionStmt>
             <p/>
           </editionStmt>
           <publicationStmt>
-            <publisher>Librería y Casa Editorial Hernando</publisher>
+            <publisher>Hernando</publisher>
             <pubPlace ref="https://www.geonames.org/3117735/madrid.html">Madrid</pubPlace>
-            <date>[s.a]</date>
+            <date cert="low" when="1800-01-01">[s.a.]</date>
           </publicationStmt>
         </biblFull>
         <msDesc>
@@ -40,7 +37,8 @@
             <country>Suisse</country>
             <settlement>Genève</settlement>
             <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"/>
-                                    </repository>
+            </repository>
+            <collection>Colección Varios</collection>
             <idno type="cote"/>
             <idno type="DOI">10.5281/zenodo.6575918</idno>
             <altIdentifier>
@@ -96,18 +94,17 @@
     </fileDesc>
     <encodingDesc>
       <projectDesc>
-        <p>Este archivo fue creado en el marco del proyecto Desenrollando el
-                              Cordel/Démêler le cordel/Untangling the cordel, dirigido por la
-                              profesora Constance Carta de la Universidad de Ginebra, con el apoyo
-                              de la Fundación filantrópica Famille Sandoz-Monique de Meuron.</p>
+        <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+          cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la Universidad
+          de Ginebra, con el apoyo de la Fundación filantrópica Famille Sandoz-Monique de
+          Meuron.</p>
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR non corregido</p>
+          <p>OCR no corregido</p>
         </correction>
         <normalization>
-          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto
-                                    original.</p>
+          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
         </normalization>
         <punctuation>
           <p>Se conserva la puntuación original.</p>
@@ -129,10 +126,14 @@
       </textClass>
     </profileDesc>
     <revisionDesc>
-      <change when="2022-08-31" who="#PJ">Création du fichier TEI P5 et encodage du
-                        corps du texte</change>
+      <change when="2022-08-31" who="#PJ">Création du fichier TEI P5 et encodage du corps du
+        texte</change>
+      <change when="2024-01-09" who="#EL">Add the IIIF links</change>
     </revisionDesc>
   </teiHeader>
+  <facsimile>
+    <graphic url="varios/Varios_093_1.jpg/full/200,/0/default.jpg"/>
+  </facsimile>
   <sourceDoc xml:id="automaticTranscription">
     <surface xml:id="Varios_093_1" type="page" cert="silver">
       <graphic url="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_093_1/full/full/0/default.jpg"/>
@@ -1295,8 +1296,7 @@
       <zone xml:id="Varios_093_4_BT228_3" n="3" type="MarginTextZone" subtype="colophon" points="311,2141 311,2268 1659,2268 1659,2141 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_093_4/311,2141,1348,127/full/0/default" corresp="MarginTextZone:colophon">
         <zone xml:id="Varios_093_4_BT228_3_LT83_1" type="DefaultLine" subtype="none" points="335,2206 335,2160 550,2160 559,2155 574,2147 576,2147 579,2147 581,2147 658,2155 682,2157 699,2155 741,2147 743,2147 877,2147 879,2147 881,2147 888,2153 892,2157 905,2153 925,2147 927,2147 929,2147 932,2147 934,2147 934,2149 938,2153 947,2160 1465,2147 1530,2147 1533,2147 1535,2147 1557,2157 1592,2147 1596,2206 1594,2236 1570,2236 1568,2239 1552,2252 1552,2254 1550,2254 1548,2254 1548,2256 1199,2256 1197,2254 1195,2254 1193,2254 1175,2241 1153,2228 894,2228 868,2245 857,2254 855,2254 853,2254 853,2256 638,2256 636,2254 633,2254 631,2254 622,2247 587,2228 425,2228 401,2249 399,2252 399,2254 397,2254 394,2254 392,2254 333,2249 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_093_4/333,2147,1263,109/full/0/default" corresp="DefaultLine">
           <path xml:id="Varios_093_4_BT228_3_LT83_1_1" points="335,2206 1596,2206 "/>
-          <line>Madrid. — Despacho: Librería y Casa Editorial Hernando (S. A.)
-                                    Arenal, 11</line>
+          <line>Madrid. — Despacho: Librería y Casa Editorial Hernando (S. A.) Arenal, 11</line>
         </zone>
       </zone>
       <zone xml:id="Varios_093_4_BT226_4" n="4" type="MainZone" subtype="none" points="907,2010 907,2089 1036,2089 1036,2010 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_093_4/907,2010,129,79/full/0/default" corresp="MainZone">
@@ -1312,13 +1312,16 @@
   <text>
     <body>
       <div>
-        <pb n="1" source="Varios_093_1.jpg" facs="fedora_Varios_093_1/full/full/0/default.jpg"/>
-        <fw type="impresorNum">(Núm. 30)</fw>
         <div>
+        <pb n="1" source="Varios_093_1.jpg" facs="varios/Varios_093_1.jpg/"/>
+        
+        <fw type="impresorNum">(Núm. 30)</fw>
+        
           <head type="titulo_parte"><lb/>SÁTIRA GRACIOSA<lb/>EN QUE SE DECLARAN LAS CONTINUAS
-                                    DISPUTAS<lb/>QUE OCURREN ENTRE<lb/>SUEGRA Y NUERA</head>
+            DISPUTAS<lb/>QUE OCURREN ENTRE<lb/><hi rend="negrita">SUEGRA Y NUERA</hi></head>
+          
           <sp>
-            <speaker>Nuera.—</speaker>
+            <speaker rend="cursiva">Nuera.—</speaker>
             <l>Mai haya quien me casó</l>
             <l>para tanto litigar</l>
             <l>con una maldita suegra</l>
@@ -1333,7 +1336,7 @@
             <l>por mi vida, a fel</l>
           </sp>
           <sp>
-            <speaker>Suegra.—</speaker>
+            <speaker rend="cursiva">Suegra.—</speaker>
             <l>Mal haya quien me juntó</l>
             <l>con esa maldita nuera</l>
             <l>desde que entró en mi casa</l>
@@ -1347,9 +1350,9 @@
             <l>y con los mocitos</l>
             <l>siempre la hallo hablando</l>
           </sp>
-          <pb n="2" source="Varios_093_2.jpg" facs="fedora_Varios_093_2/full/full/0/default.jpg"/>
+          <pb n="2" source="Varios_093_2.jpg" facs="varios/Varios_093_2.jpg/"/>
           <sp>
-            <speaker>N. —</speaker>
+            <speaker rend="cursiva">N. —</speaker>
             <l>Mi marido me engañó</l>
             <l>cuando me habló de casarse;</l>
             <l>¿por qué no me dió a entender</l>
@@ -1364,7 +1367,7 @@
             <l>mirándome fuera.</l>
           </sp>
           <sp>
-            <speaker>S.—</speaker>
+            <speaker rend="cursiva">S.—</speaker>
             <l>Tú nuera, tú me engañaste,</l>
             <l>y al pobre de tu marido,</l>
             <l>diciendo trabajarías,</l>
@@ -1379,7 +1382,7 @@
             <l>palabra ni media.</l>
           </sp>
           <sp>
-            <speaker>N.—</speaker>
+            <speaker rend="cursiva">N.—</speaker>
             <l>N.— No me vaya usted enfadando,</l>
             <l>que yo diré a mi marido</l>
             <l>que la saque de mi lado</l>
@@ -1394,7 +1397,7 @@
             <l>y me deje en calma.</l>
           </sp>
           <sp>
-            <speaker>S. —</speaker>
+            <speaker rend="cursiva">S. —</speaker>
             <l>Sólo por ir acechando</l>
             <l>para vigilar tu vida,</l>
             <l>y ver cuáles son tus pasos,</l>
@@ -1409,7 +1412,7 @@
             <l>y no que se pierda.</l>
           </sp>
           <sp>
-            <speaker>N. —</speaker>
+            <speaker rend="cursiva">N. —</speaker>
             <l>¿Cómo, mala vieja,</l>
             <l>si la está desperdiciando</l>
             <l>hurtándome lo que puede,</l>
@@ -1424,7 +1427,7 @@
             <l>dárselo a entender.</l>
           </sp>
           <sp>
-            <speaker>S.</speaker>
+            <speaker rend="cursiva">S.</speaker>
             <l>Embustera sin sentido,</l>
             <l>¿qué saco yo de tu casa?;</l>
             <l>a Dios pongo por testigo</l>
@@ -1439,7 +1442,7 @@
             <l>he de renegar.</l>
           </sp>
           <sp>
-            <speaker>N. —</speaker>
+            <speaker rend="cursiva">N. —</speaker>
             <l>Usted hace guisadillos</l>
             <l>diciendo que está colando;</l>
             <l>nunca le falta el jarrito,</l>
@@ -1454,12 +1457,14 @@
             <l>maldita fantasma.</l>
           </sp>
           <sp>
-            <speaker>S.</speaker>
+            <speaker rend="cursiva">S.</speaker>
             <l>Y tú que a mi hijo dices</l>
             <l>que estás siempre desganada,</l>
             <l>y cuando el pobre se va</l>
             <l>te comes buena empanada.</l>
-            <pb n="3" source="Varios_093_3.jpg" facs="fedora_Varios_093_3/full/full/0/default.jpg"/>
+            
+            <pb n="3" source="Varios_093_3.jpg" facs="varios/Varios_093_3.jpg/"/>
+            
             <l>¡Oh, qué picardía!;</l>
             <l>demonio de nuera,</l>
             <l>ruega que mi hijo</l>
@@ -1470,7 +1475,7 @@
             <l>pan de dos semanas.</l>
           </sp>
           <sp>
-            <speaker>N. –</speaker>
+            <speaker rend="cursiva">N. –</speaker>
             <l>Suegra, usted al vecindario</l>
             <l>se pasa todos los dias</l>
             <l>a tomar el chocolate,</l>
@@ -1485,7 +1490,7 @@
             <l>se lo contaré.</l>
           </sp>
           <sp>
-            <speaker>S.</speaker>
+            <speaker rend="cursiva">S.</speaker>
             <l>Y tú, nuera, el otro dia</l>
             <l>le vendiste a mi vecino</l>
             <l>tres libras de chocolate,</l>
@@ -1500,7 +1505,7 @@
             <l>tales villanías?</l>
           </sp>
           <sp>
-            <speaker>N. –</speaker>
+            <speaker rend="cursiva">N. –</speaker>
             <l>¡Ay suegral tu taltriquera</l>
             <l>llena está de chucherías,</l>
             <l>como azúcar en terrón</l>
@@ -1515,7 +1520,7 @@
             <l>aquesto es rabiar.</l>
           </sp>
           <sp>
-            <speaker>S. –</speaker>
+            <speaker rend="cursiva">S. –</speaker>
             <l>Tú también con las vecinas</l>
             <l>te pasas a hacer visitas,</l>
             <l>y con las mozas jugando</l>
@@ -1530,7 +1535,7 @@
             <l>a mi hijo engañaste.</l>
           </sp>
           <sp>
-            <speaker>N. –</speaker>
+            <speaker rend="cursiva">N. –</speaker>
             <l>Y usted cuando se va a misa,</l>
             <l>levantándose a las diez,</l>
             <l>y luego no vuelve a casa</l>
@@ -1545,7 +1550,7 @@
             <l>allí la comida.</l>
           </sp>
           <sp>
-            <speaker>S. –</speaker>
+            <speaker rend="cursiva">S. –</speaker>
             <l>Tú tienes la obligación</l>
             <l>de servirme la comida;</l>
             <l>soy madre de tu marido,</l>
@@ -1560,7 +1565,7 @@
             <l>no chiste palabra.</l>
           </sp>
           <sp>
-            <speaker>N. –</speaker>
+            <speaker rend="cursiva">N. –</speaker>
             <l>¿á quién dice zancajosa,</l>
             <l>si siempre le cuelga el moco,</l>
             <l>porque su casta es mocosa</l>
@@ -1569,14 +1574,16 @@
             <l>por boca y narices</l>
             <l>sólo de tabaco</l>
             <l>cincuenta cahices?</l>
-            <pb n="4" source="Varios_093_4.jpg" facs="fedora_Varios_093_4/full/full/0/default.jpg"/>
+            
+            <pb n="4" source="Varios_093_4.jpg" facs="varios/Varios_093_4.jpg/"/>
+            
             <l>Ella es la cochina,</l>
             <l>pues los mocos echa;</l>
             <l>no es mucho, pues es.</l>
             <l>su propia cosecha</l>
           </sp>
           <sp>
-            <speaker>S. –</speaker>
+            <speaker rend="cursiva">S. –</speaker>
             <l>Eso tú, pícara nuera,</l>
             <l>madre de la suciedad,</l>
             <l>pues juzgo si se perdiera</l>
@@ -1591,7 +1598,7 @@
             <l>de escalera ábajo</l>
           </sp>
           <sp>
-            <speaker>N. –</speaker>
+            <speaker rend="cursiva">N. –</speaker>
             <l>¿Qué dicé la Vieja chocha?,</l>
             <l>¿sabe con quién está hablando?;</l>
             <l>soy la mujer de su hijo</l>
@@ -1606,7 +1613,7 @@
             <l>en esa corcova.</l>
           </sp>
           <sp>
-            <speaker>S. –</speaker>
+            <speaker rend="cursiva">S. –</speaker>
             <l>¡Ah, pícara relamida!,</l>
             <l>¿de este modo has de hablar</l>
             <l>a la honrada de tu suegra?</l>
@@ -1658,9 +1665,9 @@
           </sp>
           <trailer>FIN</trailer>
         </div>
+        
         <div type="colofon">
-          <p><lb/>Madrid. — Despacho: Librería y Casa Editorial Hernando (S.
-                                    A.) Arenal, 11</p>
+          <p><lb/>Madrid. — Despacho: Librería y Casa Editorial Hernando (S. A.) Arenal, 11</p>
         </div>
       </div>
     </body>

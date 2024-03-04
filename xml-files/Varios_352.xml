@@ -27,9 +27,9 @@
             <p/>
           </editionStmt>
           <publicationStmt>
-            <publisher>Libreria de Joan Grau</publisher>
+            <publisher>Joan Grau</publisher>
             <pubPlace ref="https://www.geonames.org/3111933/reus.html">Reus</pubPlace>
-            <date cert="high">[s.a]</date>
+            <date cert="low" when="1800-01-01">[s.a.]</date>
           </publicationStmt>
         </biblFull>
         <msDesc>
@@ -38,6 +38,7 @@
             <settlement>Genève</settlement>
             <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"/>
                   </repository>
+            <collection>Colección Varios</collection>
             <idno type="cote"/>
             <idno type="DOI">10.5281/zenodo.6772920</idno>
             <altIdentifier>
@@ -99,7 +100,7 @@
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR non corregido</p>
+          <p>OCR no corregido</p>
         </correction>
         <normalization>
           <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto
@@ -126,9 +127,10 @@
     <revisionDesc>
       <change when="2023-11-27" who="#PJ">Création du fichier TEI P5 et encodage du corps du
                         texte</change>
+<change when="2024-01-09" who="#EL">Add the IIIF links</change>
     </revisionDesc>
   </teiHeader>
-  <sourceDoc xml:id="automaticTranscription">
+  <facsimile><graphic url="varios/Varios_352_1.jpg/full/200,/0/default.jpg"/></facsimile><sourceDoc xml:id="automaticTranscription">
     <surface xml:id="Varios_352_1" type="page" cert="silver">
       <graphic url="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_352_1/full/full/0/default.jpg"/>
       <zone xml:id="Varios_352_1_BT223_1" n="1" type="CustomZone" subtype="title" points="1449,1274 1449,1670 139,1670 139,1274 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_352_1/139,1274,1310,396/full/0/default" corresp="CustomZone:title">
@@ -1306,7 +1308,7 @@
           <line>Tus ojos tan brillantes</line>
         </zone>
         <zone xml:id="Varios_352_4_BT227_3__22" type="DefaultLine" subtype="none" points="1230,1399 1230,1408 1296,1406 1296,1399 1296,1356 1230,1356 1230,1399 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_352_4/1230,1356,66,52/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_352_4_BT227_3__22_1" points="1232,1401 1297,1401 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
+          <path xml:id="Varios_352_4_BT227_3__22_1" points="1232,1401 1297,1401 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
           <line>6.ª</line>
         </zone>
         <zone xml:id="Varios_352_4_BT227_3_LT83_23" type="DefaultLine" subtype="none" points="910,1495 1249,1495 1250,1481 1247,1444 1227,1453 1186,1444 1184,1444 1183,1444 1182,1444 1182,1445 1174,1453 1103,1453 1012,1441 1011,1441 1009,1441 1008,1441 971,1451 961,1443 961,1441 959,1441 958,1441 957,1441 955,1441 933,1447 913,1440 911,1478 910,1495 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_352_4/910,1440,340,55/full/0/default" corresp="DefaultLine">
@@ -1395,7 +1397,7 @@
   <text>
     <body>
       <div>
-        <pb n="1" source="Varios_352_1.jpg" facs="fedora_Varios_352_1/full/full/0/default.jpg"/>
+        <pb n="1" source="Varios_352_1.jpg" facs="varios/Varios_352_1.jpg/"/>
         <div type="parte" n="1">
           <head type="subtitulo_parte"><lb/>CONVERSA DE DOS INDIVIDUOS<lb/>de una aristocrasia mol abundán, anomenats</head>
           <head type="primer_titulo"><lb/>BATISTA Y LLETEROLA.</head>
@@ -1433,7 +1435,7 @@
             <l>que 's troba una mica be</l>
             <l>pero 'l que no menja re</l>
             <l>vinticuatre y sis catorsa.</l>
-            <pb n="2" source="Varios_352_2.jpg" facs="fedora_Varios_352_2/full/full/0/default.jpg"/>
+            <pb n="2" source="Varios_352_2.jpg" facs="varios/Varios_352_2.jpg/"/>
             <l>Ya que ningu ans aconsola</l>
             <l>y en cap puesto ya repós</l>
             <l>val mes que 'ns vestim de gós</l>
@@ -1549,7 +1551,7 @@
             <l>la mare 'm va di al momen:</l>
             <l>y á que fa, am posa aprenen.</l>
           </sp>
-          <pb n="3" source="Varios_352_3.jpg" facs="fedora_Varios_352_3/full/full/0/default.jpg"/>
+          <pb n="3" source="Varios_352_3.jpg" facs="varios/Varios_352_3.jpg/"/>
           <sp>
             <speaker>Batista.</speaker>
             <l>¿De aqué?</l>
@@ -1683,7 +1685,7 @@
           </sp>
           <p><lb/>(Es propietat de Juan Grau.)</p>
         </div>
-        <pb n="4" source="Varios_352_4.jpg" facs="fedora_Varios_352_4/full/full/0/default.jpg"/>
+        <pb n="4" source="Varios_352_4.jpg" facs="varios/Varios_352_4.jpg/"/>
         <div type="parte" n="2">
           <head type="titulo_parte"><lb/>AMERICANA COREADA<lb/>LA FLOR.</head>
           <lg>

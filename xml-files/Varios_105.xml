@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../Schema/oddPliego_varios.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:alto="http://www.loc.gov/standards/alto/ns-v4#" xml:id="Varios_105">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Varios_105">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -11,8 +11,7 @@
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <authority role="rightsHolder">Bibliothèque Universitaire de
-                              Genève</authority>
+        <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
         <availability status="restricted">
           <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
         </availability>
@@ -21,8 +20,8 @@
         <biblFull>
           <titleStmt>
             <title type="titulo_completo">LA PESCATERA CATALANA</title>
-            <title type="titulo_breve">LA PESCATERA CATALANA,LO CANSONÉ DE
-                                          LAS BARRAQUETAS Y UNA PER LO POBLE BAIX</title>
+            <title type="titulo_breve">LA PESCATERA CATALANA,LO CANSONÉ DE LAS BARRAQUETAS Y UNA
+              PER LO POBLE BAIX</title>
           </titleStmt>
           <editionStmt>
             <p/>
@@ -30,7 +29,7 @@
           <publicationStmt>
             <publisher>Cristina Segura</publisher>
             <pubPlace ref="https://www.geonames.org/3128760/barcelona.html">Barcelona</pubPlace>
-            <date>[s.a]</date>
+            <date cert="low" when="1800-01-01">[s.a.]</date>
           </publicationStmt>
         </biblFull>
         <msDesc>
@@ -38,7 +37,8 @@
             <country>Suisse</country>
             <settlement>Genève</settlement>
             <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"/>
-                                    </repository>
+            </repository>
+            <collection>Colección Varios</collection>
             <idno type="cote"/>
             <idno type="DOI">10.5281/zenodo.6576136</idno>
             <altIdentifier>
@@ -46,10 +46,18 @@
             </altIdentifier>
           </msIdentifier>
           <msContents>
-            <summary/>
+            <summary>Tres canciones</summary>
             <msItem>
-              <locus/>
-              <title/>
+              <locus>1-2</locus>
+              <title>La pescatera catalana</title>
+            </msItem>
+            <msItem>
+              <locus>3-4</locus>
+              <title>Lo cansoné de las barraquetas</title>
+            </msItem>
+            <msItem>
+              <locus>4</locus>
+              <title>Una per lo poble baix</title>
             </msItem>
           </msContents>
           <physDesc>
@@ -71,7 +79,7 @@
               <decoNote type="lista_grabados">
                 <list>
                   <item corresp="grabado_v_105_1.xml">grabado_v_105_1</item>
-                  <item corresp="grabado_v_105_1.xml">grabado_v_105_1</item>
+                  <item corresp="grabado_v_105_2.xml">grabado_v_105_2</item>
                 </list>
               </decoNote>
             </decoDesc>
@@ -89,18 +97,17 @@
     </fileDesc>
     <encodingDesc>
       <projectDesc>
-        <p>Este archivo fue creado en el marco del proyecto Desenrollando el
-                              Cordel/Démêler le cordel/Untangling the cordel, dirigido por la
-                              profesora Constance Carta de la Universidad de Ginebra, con el apoyo
-                              de la Fundación filantrópica Famille Sandoz-Monique de Meuron.</p>
+        <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+          cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la Universidad
+          de Ginebra, con el apoyo de la Fundación filantrópica Famille Sandoz-Monique de
+          Meuron.</p>
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR non corregido</p>
+          <p>OCR no corregido</p>
         </correction>
         <normalization>
-          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto
-                                    original.</p>
+          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
         </normalization>
         <punctuation>
           <p>Se conserva la puntuación original.</p>
@@ -109,22 +116,26 @@
     </encodingDesc>
     <profileDesc>
       <langUsage>
-        <language ident="es">Español</language>
+        <language ident="ca">Catalán</language>
       </langUsage>
       <textClass>
         <keywords xml:base="http://datos.bne.es/tema/">
           <term target="XX525577.html" type="tipo_texto">Canciones</term>
           <term target="XX5501105.html" type="tipo_estrofa">Coplas</term>
-          <term type="verso_prosa">Verso</term>
+          <term type="verso_prosa">Verso y prosa</term>
           <term type="sagrado_profano">Profano</term>
         </keywords>
       </textClass>
     </profileDesc>
     <revisionDesc>
-      <change when="2022-08-02" who="#PJ">Création du fichier TEI P5 et encodage du
-                        corps du texte</change>
+      <change when="2022-08-02" who="#PJ">Création du fichier TEI P5 et encodage du corps du
+        texte</change>
+      <change when="2024-01-09" who="#EL">Add the IIIF links</change>
     </revisionDesc>
   </teiHeader>
+  <facsimile>
+    <graphic url="varios/Varios_105_1.jpg/full/200,/0/default.jpg"/>
+  </facsimile>
   <sourceDoc xml:id="automaticTranscription">
     <surface xml:id="Varios_105_1" type="page" cert="silver">
       <graphic url="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_105_1/full/full/0/default.jpg"/>
@@ -1008,8 +1019,8 @@
       <zone xml:id="Varios_105_4_BT228_6" n="6" type="MarginTextZone" subtype="colophon" points="1763,2366 1844,2414 1824,2455 1712,2475 776,2475 546,2455 475,2414 481,2365 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_105_4/475,2365,1369,110/full/0/default" corresp="MarginTextZone:colophon">
         <zone xml:id="Varios_105_4_BT228_6_LT83_1" type="DefaultLine" subtype="none" points="503,2424 503,2361 1836,2363 1839,2429 1834,2470 1259,2462 1219,2472 1138,2497 1135,2497 1135,2497 1135,2500 877,2500 875,2497 875,2497 872,2497 872,2497 872,2497 870,2497 870,2497 855,2485 814,2497 812,2497 812,2497 812,2497 809,2497 809,2497 807,2497 731,2477 713,2492 713,2492 710,2492 710,2492 710,2492 708,2492 708,2492 708,2495 619,2495 617,2492 617,2492 614,2492 614,2492 614,2492 612,2492 612,2492 612,2490 599,2477 498,2475 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_105_4/498,2361,1341,139/full/0/default" corresp="DefaultLine">
           <path xml:id="Varios_105_4_BT228_6_LT83_1_1" points="503,2424 1839,2429 "/>
-          <line>Barcelona.—Impresos de Cristina Segura, Vda. de A. Llorens,
-                                    Palma Sta. Catalina, 6.</line>
+          <line>Barcelona.—Impresos de Cristina Segura, Vda. de A. Llorens, Palma Sta. Catalina,
+            6.</line>
         </zone>
       </zone>
     </surface>
@@ -1017,252 +1028,282 @@
   <text>
     <body>
       <div>
-        <pb n="1" source="Varios_105_1.jpg" facs="fedora_Varios_105_1/full/full/0/default.jpg"/>
-        <fw type="impresorNum">Núm. 47</fw>
-        <div type="parte" n="1">
-          <head type="primer_titulo"><lb/>LA PESCATERA CATALANA,<lb/>LO CANSONÉ DE LAS
-                                    BARRAQUETAS<lb/>Y<lb/>UNA PER LO POBLE BAIX</head>
-          <p><lb/>I</p>
-          <lg>
-            <l>Ara ha arribat, noyas, ara,</l>
-            <l>lo bo y milló de la plassa.</l>
-            <l>Sardina á deu!... y no es cara</l>
-            <l>quan va la pesquera escassa.</l>
-            <l>Que belluga!... Alsa, vehinas,</l>
-            <l>baxeu ab plats y dinés</l>
-            <l>á provehí de sardinas</l>
-            <l>á deu cuartos y no mes.</l>
-            <l>Baxeu abans de la fuga.</l>
-            <l>A deu quartos lo últim preu!</l>
-            <l>á deu la sardina, á deu;</l>
-            <l>del art, noyas, que belluga!</l>
-          </lg>
-          <p><lb/>II</p>
-          <lg>
-            <l>¿No baxeu? Posemla á nou.</l>
-            <l>—Vinga. salada! axó es plata.</l>
-            <l>—¿Qué diu?.. si la dem á sou?</l>
-            <l>Mal con un llam no la mata !</l>
-            <pb n="2" source="Varios_105_2.jpg" facs="fedora_Varios_105_2/full/full/0/default.jpg"/>
-            <l>¿Ahont va la marmota xorca,</l>
-            <l>motllo de fe granadés!</l>
-            <l>ja 't pots pentiná á la moda</l>
-            <l>si no traginas calés!</l>
-            <l>Arri allá, mala berruga,</l>
-            <l>á regatejá com cal!</l>
-            <l>A ral, no menos de ral!</l>
-            <l>alsa, noyas, que belluga!</l>
-          </lg>
-          <p><lb/>III</p>
-          <lg>
-            <l>Anant el peix tan barato,</l>
-            <l>¿qui ab la carn dinés esmersa?</l>
-            <l>—Veniu aquí vos, bon Bato;</l>
-            <l>¿quant ne voleu? ¿mitja tersa?</l>
-            <l>Cóm salta de la balansa!</l>
-            <l>El mocadó, bon pagés!</l>
-            <l>pareu hé, que 'l bras se 'm cansa...</l>
-            <l>á vuyt quartos y bon pes!</l>
-            <l>¿Perque es tart tant se amohina?</l>
-            <l>si es peix que ab un bull es cuyt.</l>
-            <l>A vuyt va, noyas, á vuyt!</l>
-            <l>á vuyt quartos la sardina!</l>
-          </lg>
-          <p><lb/>IV</p>
-          <lg>
-            <l>Tan poca pressa 'm fa rabia!</l>
-            <l>¿Qué vol vosté, bona mossa?</l>
-            <l>Dexim despatxá aquesta avia</l>
-            <l>que tragina bona bossa.</l>
-            <l>¿Qué diu, padrina?... Es mitar sorda.</l>
-            <l>Va á set quartos y es de pam!</l>
-            <l>¿qué ha respost? Uix! ja tens orde...</l>
-            <l>¿A cinch quartos?... Plega el ram.</l>
-            <l>¿De ahont ha eixit la mala vella?</l>
-            <l>¿A cinch?... no hi fará cap pet.</l>
-            <l>A set! no menos de set!</l>
-            <l>sardina per la graella!</l>
-          </lg>
-          <p><lb/>V</p>
-          <lg>
-            <l>Vaya un minyó com un sol!</l>
-            <l>Si jo nosfos pescatera!</l>
-            <l>—Ey, estigui! ¿Quánt ne vol?</l>
-            <l>¿que 'n peso una carnicera?</l>
-            <l>¿Que put, dius?... ay pelatrecas!</l>
-            <l>tu deus pudí, escarransit!</l>
-            <l>Ja si may sardina tecas,</l>
-            <l>te pugui da un bon enfit</l>
-            <l>Uix de aquí, mitja tortuga;</l>
-            <l>esquena de cent y un pis!</l>
-            <l>A sis la sardina, á sis !</l>
-            <l>alsa, noyas, que helluga!</l>
-          </lg>
-          <p><lb/>VI</p>
-          <lg>
-            <l>Pari, noya, que 'l temps corre,</l>
-            <l>posisshi sota una fulla.</l>
-            <l>¿Qué diu que he tocat (ay porra!</l>
-            <l>de las balansas la agulla?</l>
-            <l>A robá á Serra Morena!</l>
-            <l>de no semblarte me alabo,</l>
-            <l>que 'l teu fill sufreix condena</l>
-            <l>perque feu quatre y el cabo</l>
-            <l>Al infern, vella butxina;</l>
-            <l>no se com Deu me detinch!</l>
-            <l>—A cinch va al últim, á cinch!</l>
-            <l>Acabeume la sardina.</l>
-          </lg>
-          <p><lb/>VII</p>
-          <lg>
-            <l>a cinch la tersa s' afina!</l>
-            <l>A cinch la menjada bona!</l>
-            <l>á cinch, á cinch la sardina,</l>
-            <l>que ja 'n tinch per poca estona.</l>
-            <l>Que s' acaba! Vingui, noya;</l>
-            <l>no pot se á menos de cinch.</l>
-            <l>Aqui no hi ha cap amploya:</l>
-            <l>tot es bo lo que jo tinch!</l>
-            <l>¿A quatre diu? qu' es berruga!</l>
-            <l>Vinguil aixís me la acabés...</l>
-            <l>A quatre, á quatre y no mes</l>
-            <l>la sardina que belluga!...</l>
-          </lg>
-          <pb n="3" source="Varios_105_3.jpg" facs="fedora_Varios_105_3/full/full/0/default.jpg"/>
-        </div>
-        <div type="parte" n="2">
-          <head type="titulo_cancion"><lb/>LO CANSONÉ DE LAS BARRAQUETAS</head>
-          <lg>
-            <l>A beure á tot bitxo aposto.</l>
-            <l>¡Vinga mosto!</l>
-            <l>Y al que hons tassons no jala,</l>
-            <l>El mateix que una cigala</l>
-            <l>Jo 'l faig ballá panxa adalt.</l>
-            <l>(Perque válgam la moreta del oncle, só</l>
-            <l>capás de fe engullí un regiment de suissos</l>
-            <l>per la gargamella del mes pintat, y arran¬</l>
-            <l>cá las entretelas del cor del que desprecía</l>
-            <l>una finesa meval)</l>
-            <l>Y el que s' hi torna si l' truco...</l>
-            <l>Fnig que l' suco!!!</l>
-            <l>Va al Hospital per desfilas!...</l>
-            <l>Tant se val !</l>
-            <l>Perque jo entre bonas filas</l>
-            <l>Só <hi rend="cursiva">el terne del arrabal.</hi></l>
-            <l>Faig las conquistas á cossas;</l>
-          </lg>
-          <lg>
-            <l>¡Quinas mossas!</l>
-            <l>L' una caso, y l' altra planto,</l>
-            <l>Pero á totas las encanto</l>
-            <l>Be per forsa ó de bon grat.</l>
-            <l>(Perque jo, fills meus, no está per ala¬</l>
-            <l>barme; pero en que tragini la fila mes rat¬</l>
-            <l>llada que un <hi rend="cursiva">mapa-mundi</hi>, per las moltas</l>
-            <l>llargandaxadas que 'ls xurís hi han fet, axó</l>
-            <l>es una honra; y despues que quan convé</l>
-            <l>só mes dols que una malva!)</l>
-            <l>A una el <hi rend="cursiva">guerxo</hi> donant fondo...</l>
-            <l>¡Quin arondo!</l>
-            <l>Teu el xurí y 'm diu: «Entra!»</l>
-            <l>¡Vaya un gat!</l>
-            <l>Li vaig té un trauet al ventre</l>
-            <l>Que may mes ha atximullat.</l>
-            <l>Al carrincló fil del Nanu,</l>
-          </lg>
-          <pb n="4" source="Varios_105_4.jpg" facs="fedora_Varios_105_4/full/full/0/default.jpg"/>
-          <lg>
-            <l>Un aratxí á cal Mussega.</l>
-            <l>¿Turbas manu?</l>
-            <l>Ab deu mes movent gran brega</l>
-            <l>Ferme pirá van volé...</l>
-            <l>(Per las enramadas del cap del avil Es</l>
-            <l>pensan aquets matons de pega que un hom</l>
-            <l>es de mel y sucre com aquells <hi rend="cursiva">polkos</hi> de</l>
-            <l>butxaca neta y casaca ab curriolas, que</l>
-            <l>ab una ventallada corren mes terra que</l>
-            <l>Noé!...)</l>
-            <l>Fico baix á la butxaca:</l>
-            <l>Qui s' atraca?</l>
-            <l>Y ab la trifulca y la gresca,</l>
-            <l>¡Ja se ve!</l>
-            <l>Men va endinyá á set la pesca,</l>
-            <l>Pels tiroys de cabanré.</l>
-            <l>Un dematí al obre-Panxas</l>
-            <l>(¡Quinas anxas!)</l>
-            <l>Diu un <hi rend="cursiva">cuaja</hi> al meu derrera,</l>
-            <l>Que so un pinxo de pastera</l>
-            <l>Mes talós que un carbassó!</l>
-            <l>(Válgam els set calses de amargura, y</l>
-            <l>els primés sagraments que dirán demá á la</l>
-            <l>missa!!! De pensarhi tan sols tinch las</l>
-          </lg>
-          <lg>
-            <l>sanchs mes negras que 'l quitrá de la</l>
-            <l>platxa!)</l>
-            <l>Lí vento un bolet ab forma...</l>
-            <l>¡Quina morma!</l>
-            <l>Y arrancant de la xarrasca...</l>
-            <l>¡Ay Senyó!</l>
-            <l>Dexantlo ab la última basca</l>
-            <l>yo vaig tocá pirandó.</l>
-            <l>Veig un <hi rend="cursiva">chinel</hi> que 'm fá 'l tato!</l>
-            <l>¡Pira, bato!</l>
-            <l>Y ab aquins clissos diquela!</l>
-            <l>No armem bronca! Manu-jela!</l>
-            <l>No 'l resultés algun mal.</l>
-            <l>(Vaya una fatxa estupenda! Set mesos ha</l>
-            <l>que no ha jalat misto! Axís la viga de la</l>
-            <l>esquena li pogués serví per cadireta del</l>
-            <l><hi rend="cursiva">aragonés</hi>!... Pensá que haig de xepescá</l>
-            <l>per ell y no 'n tindria per una ronda de</l>
-            <l>peñí...!)</l>
-            <l>Vaig á la cangrí si 'm cassa...</l>
-            <l>¡Y axó es massa!...</l>
-            <l>T' embestexo si m' apuras...!</l>
-            <l>Mes... no val!</l>
-            <l>Sonsi á la muy!... Sols pels guras</l>
-            <l>Guilla el <hi rend="cursiva">terne d' arrabal.</hi></l>
-          </lg>
-        </div>
-        <div type="parte" n="3">
-          <head type="titulo_cancion"><lb/>UNA PER LO POBLE BAIX</head>
-          <lg>
-            <l>Un refrán assegura</l>
+        <div>
+          <pb n="1" source="Varios_105_1.jpg" facs="varios/Varios_105_1.jpg/"/>
+
+          <fw type="impresorNum">Núm. 47</fw>
+
+          <div n="1">
+            <head type="primer_titulo"><lb/>LA PESCATERA CATALANA,<lb/>LO CANSONÉ DE LAS
+              BARRAQUETAS<lb/>Y<lb/>UNA PER LO POBLE BAIX</head>
+
+            <lg>
+              <head type="titulo_estrofa"><lb/>I</head>
+              <l rend="indent">Ara ha arribat, noyas, ara,</l>
+              <l>lo bo y milló de la plassa.</l>
+              <l rend="indent">Sardina á deu!... y no es cara</l>
+              <l>quan va la pesquera escassa.</l>
+              <l rend="indent">Que belluga!... Alsa, vehinas,</l>
+              <l>baxeu ab plats y dinés</l>
+              <l>á provehí de sardinas</l>
+              <l>á deu cuartos y no mes.</l>
+              <l rend="indent">Baxeu abans de la fuga.</l>
+              <l>A deu quartos lo últim preu!</l>
+              <l>á deu la sardina, á deu;</l>
+              <l>del art, noyas, que belluga!</l>
+            </lg>
+
+            <lg>
+              <head type="titulo_estrofa"><lb/>II</head>
+              <l rend="indent">¿No baxeu? Posemla á nou.</l>
+              <l>—Vinga. salada! axó es plata.</l>
+              <l>—¿Qué diu?... si la dem á sou?</l>
+              <l>Mal con un llam no la mata !</l>
+
+              <pb n="2" source="Varios_105_2.jpg" facs="varios/Varios_105_2.jpg/"/>
+
+              <l rend="indent">¿Ahont va la marmota xorca,</l>
+              <l>motllo de fe granadés!</l>
+              <l>ja 't pots pentiná á la moda</l>
+              <l>si no traginas calés!</l>
+              <l rend="indent">Arri allá, mala berruga,</l>
+              <l>á regatejá com cal!</l>
+              <l>A ral, no menos de ral!</l>
+              <l>alsa, noyas, que belluga!</l>
+            </lg>
+
+            <lg>
+              <head type="titulo_estrofa"><lb/>III</head>
+              <l rend="indent">Anant el peix tan barato,</l>
+              <l>¿qui ab la carn dinés esmersa?</l>
+              <l>—Veniu aquí vos, bon Bato;</l>
+              <l>¿quant ne voleu? ¿mitja tersa?</l>
+              <l rend="indent">Cóm salta de la balansa!</l>
+              <l>El mocadó, bon pagés!</l>
+              <l>pareu hé, que 'l bras se 'm cansa...</l>
+              <l>á vuyt quartos y bon pes!</l>
+              <l rend="indent">¿Perque es tart tant se amohina?</l>
+              <l>si es peix que ab un bull es cuyt.</l>
+              <l>A vuyt va, noyas, á vuyt!</l>
+              <l>á vuyt quartos la sardina!</l>
+            </lg>
+
+            <lg>
+              <head type="titulo_estrofa"><lb/>IV</head>
+              <l rend="indent">Tan poca pressa 'm fa rabia!</l>
+              <l>¿Qué vol vosté, bona mossa?</l>
+              <l>Dexim despatxá aquesta avia</l>
+              <l>que tragina bona bossa.</l>
+              <l rend="indent">¿Qué diu, padrina?... Es mitar sorda.</l>
+              <l>Va á set quartos y es de pam!</l>
+              <l>¿qué ha respost? Uix! ja tens orde...</l>
+              <l>¿A cinch quartos?... Plega el ram.</l>
+              <l rend="indent">¿De ahont ha eixit la mala vella?</l>
+              <l>¿A cinch?... no hi fará cap pet.</l>
+              <l>A set! no menos de set!</l>
+              <l>sardina per la graella!</l>
+            </lg>
+
+            <lg>
+              <head type="titulo_estrofa"><lb/>V</head>
+              <l rend="indent">Vaya un minyó com un sol!</l>
+              <l>Si jo nosfos pescatera!</l>
+              <l>—Ey, estigui! ¿Quánt ne vol?</l>
+              <l>¿que 'n peso una carnicera?</l>
+              <l rend="indent">¿Que put, dius?... ay pelatrecas!</l>
+              <l>tu deus pudí, escarransit!</l>
+              <l>Ja si may sardina tecas,</l>
+              <l>te pugui da un bon enfit</l>
+              <l rend="indent">Uix de aquí, mitja tortuga;</l>
+              <l>esquena de cent y un pis!</l>
+              <l>A sis la sardina, á sis !</l>
+              <l>alsa, noyas, que helluga!</l>
+            </lg>
+
+            <lg>
+              <head type="titulo_estrofa"><lb/>VI</head>
+              <l rend="indent">Pari, noya, que 'l temps corre,</l>
+              <l>posisshi sota una fulla.</l>
+              <l>¿Qué diu que he tocat (ay porra!</l>
+              <l>de las balansas la agulla?</l>
+              <l rend="indent">A robá á Serra Morena!</l>
+              <l>de no semblarte me alabo,</l>
+              <l>que 'l teu fill sufreix condena</l>
+              <l>perque feu quatre y el cabo</l>
+              <l rend="indent">Al infern, vella butxina;</l>
+              <l>no se com Deu me detinch!</l>
+              <l>—A cinch va al últim, á cinch!</l>
+              <l>Acabeume la sardina.</l>
+            </lg>
+
+            <lg>
+              <head type="titulo_estrofa"><lb/>VII</head>
+              <l rend="indent">A cinch la tersa s' afina!</l>
+              <l>A cinch la menjada bona!</l>
+              <l>á cinch, á cinch la sardina,</l>
+              <l>que ja 'n tinch per poca estona.</l>
+              <l rend="indent">Que s' acaba! Vingui, noya;</l>
+              <l>no pot se á menos de cinch.</l>
+              <l>Aqui no hi ha cap amploya:</l>
+              <l>tot es bo lo que jo tinch!</l>
+              <l rend="indent">¿A quatre diu? qu' es berruga!</l>
+              <l>Vinguil aixís me la acabés...</l>
+              <l>A quatre, á quatre y no mes</l>
+              <l>la sardina que belluga!...</l>
+            </lg>
+          </div>
+
+          <div n="2">
+            <pb n="3" source="Varios_105_3.jpg" facs="varios/Varios_105_3.jpg/"/>
+
+            <head type="titulo_cancion"><lb/>LO CANSONÉ DE LAS BARRAQUETAS</head>
+
+            <lg>
+              <l>A beure á tot bitxo aposto.</l>
+              <l>¡Vinga mosto!</l>
+              <l>Y al que hons tassons no jala,</l>
+              <l>El mateix que una cigala</l>
+              <l>Jo 'l faig ballá panxa adalt.</l>
+            </lg>
+            <p rend="indent"><lb/>(Perque válgam la moreta del oncle, só <lb/>capás de fe
+              engullí un regiment de suissos <lb/>per la gargamella del mes pintat, y arran¬
+              <lb/>cá las entretelas del cor del que desprecía <lb/>una finesa meval)</p>
+            <lg>
+              <l>Y el que s' hi torna si l' truco...</l>
+              <l>Fnig que l' suco!!!</l>
+              <l>Va al Hospital per desfilas!...</l>
+              <l>Tant se val !</l>
+              <l>Perque jo entre bonas filas</l>
+              <l>Só <hi rend="cursiva">el terne del arrabal.</hi></l>
+            </lg>
+
+            <lg>
+              <l>Faig las conquistas á cossas;</l>
+              <l>¡Quinas mossas!</l>
+              <l>L' una caso, y l' altra planto,</l>
+              <l>Pero á totas las encanto</l>
+              <l>Be per forsa ó de bon grat.</l>
+            </lg>
+
+            <p rend="indent"><lb/>(Perque jo, fills meus, no está per ala¬ <lb/>barme; pero en que
+              tragini la fila mes rat¬ <lb/>llada que un <hi rend="cursiva">mapa-mundi</hi>, per las
+              moltas <lb/>llargandaxadas que 'ls xurís hi han fet, axó <lb/>es una honra; y
+              despues que quan convé <lb/>só mes dols que una malva!)</p>
+
+            <lg>
+              <l>A una el <hi rend="cursiva">guerxo</hi> donant fondo...</l>
+              <l>¡Quin arondo!</l>
+              <l>Teu el xurí y 'm diu: «Entra!»</l>
+              <l>¡Vaya un gat!</l>
+              <l>Li vaig té un trauet al ventre</l>
+              <l>Que may mes ha atximullat.</l>
+            </lg>
+
+            <lg>
+              <l>Al carrincló fil del Nanu,</l>
+
+              <pb n="4" source="Varios_105_4.jpg" facs="varios/Varios_105_4.jpg/"/>
+
+              <l>Un aratxí á cal Mussega.</l>
+              <l>¿Turbas manu?</l>
+              <l>Ab deu mes movent gran brega</l>
+              <l>Ferme pirá van volé...</l>
+            </lg>
+
+            <p rend="indent"><lb/>(Per las enramadas del cap del avil Es <lb/>pensan aquets matons
+              de pega que un hom <lb/>es de mel y sucre com aquells <hi rend="cursiva">polkos</hi>
+              de <lb/>butxaca neta y casaca ab curriolas, que <lb/>ab una ventallada corren mes
+              terra que <lb/>Noé!...)</p>
+
+            <lg>
+              <l>Fico baix á la butxaca:</l>
+              <l>Qui s' atraca?</l>
+              <l>Y ab la trifulca y la gresca,</l>
+              <l>¡Ja se ve!</l>
+              <l>Men va endinyá á set la pesca,</l>
+              <l>Pels tiroys de cabanré.</l>
+            </lg>
+
+            <lg>
+              <l>Un dematí al obre-Panxas</l>
+              <l>(¡Quinas anxas!)</l>
+              <l>Diu un <hi rend="cursiva">cuaja</hi> al meu derrera,</l>
+              <l>Que so un pinxo de pastera</l>
+              <l>Mes talós que un carbassó!</l>
+            </lg>
+
+            <p rend="indent"><lb/>(Válgam els set calses de amargura, y <lb/>els primés sagraments
+              que dirán demá á la <lb/>missa!!! De pensarhi tan sols tinch las <lb/>sanchs mes
+              negras que 'l quitrá de la <lb/>platxa!)</p>
+
+            <lg>
+              <l>Lí vento un bolet ab forma...</l>
+              <l>¡Quina morma!</l>
+              <l>Y arrancant de la xarrasca...</l>
+              <l>¡Ay Senyó!</l>
+              <l>Dexantlo ab la última basca</l>
+              <l>yo vaig tocá pirandó.</l>
+            </lg>
+
+            <lg>
+              <l>Veig un <hi rend="cursiva">chinel</hi> que 'm fá 'l tato!</l>
+              <l>¡Pira, bato!</l>
+              <l>Y ab aquins clissos diquela!</l>
+              <l>No armem bronca! Manu-jela!</l>
+              <l>No 'l resultés algun mal.</l>
+            </lg>
+
+            <p rend="indent"><lb/>(Vaya una fatxa estupenda! Set mesos ha <lb/>que no ha jalat
+              misto! Axís la viga de la <lb/>esquena li pogués serví per cadireta del <lb/><hi rend="cursiva">aragonés</hi>!... Pensá que haig de xepescá <lb/>per ell y no 'n
+              tindria per una ronda de <lb/>peñí...!)</p>
+
+            <lg>
+              <l>Vaig á la cangrí si 'm cassa...</l>
+              <l>¡Y axó es massa!...</l>
+              <l>T' embestexo si m' apuras...!</l>
+              <l>Mes... no val!</l>
+              <l>Sonsi á la muy!... Sols pels guras</l>
+              <l>Guilla el <hi rend="cursiva">terne d' arrabal.</hi></l>
+            </lg>
+          </div>
+
+          <div n="3">
+            <head type="titulo_cancion"><lb/>UNA PER LO POBLE BAIX</head>
+
+            <l rend="indent">Un refrán assegura</l>
             <l>que aquell que canta,</l>
             <l>si es espanyol, es prova</l>
             <l>que no te blanca:</l>
             <l>y ab cansons ara</l>
             <l>veig que tots se aficionan?. . .</l>
             <l>¡senyal de gana!</l>
-            <l>Com las cansons son pocas,</l>
+            <l rend="indent">Com las cansons son pocas,</l>
             <l>jo m' imagino,</l>
             <l>que ab gust rebreu las moltas</l>
             <l>que aquí us dedico;</l>
             <l>perque ja tracto,</l>
             <l>sent pels pobres, de darlas</l>
             <l>bastant barato.</l>
-          </lg>
-          <lg>
-            <l>No espereu que aqui insulti,</l>
+            <l rend="indent">No espereu que aqui insulti,</l>
             <l>com ara es moda,</l>
             <l>per parcials agravis</l>
             <l>may cap persona;</l>
             <l>pero á vegadas</l>
             <l>donaré á certas classes</l>
             <l>bonas sumantas.</l>
-            <l>Con que, minyons y noyas,</l>
+            <l rend="indent">Con que, minyons y noyas,</l>
             <l>ficant ma en bossa,</l>
             <l>del paperet en cambi</l>
             <l>deixeu la mosca:</l>
             <l>no sigueu lendis,</l>
             <l>que no 's perdrá cap casa</l>
             <l>pas per CINCH CENTIMS.</l>
-          </lg>
+          </div>
         </div>
+        
         <div type="colofon">
-          <p><lb/>Barcelona.—Impresos de Cristina Segura, Vda. de A. Llorens,
-                                    Palma Sta. Catalina, 6.</p>
+          <p><lb/>Barcelona.—Impresos de Cristina Segura, Vda. de A. Llorens, Palma Sta. Catalina,
+            6.</p>
         </div>
       </div>
     </body>

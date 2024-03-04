@@ -1,19 +1,17 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../Schema/oddPliego_varios.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:alto="http://www.loc.gov/standards/alto/ns-v4#" xml:id="Varios_096">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Varios_096">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>DÉCIMAS compuestas por un reo estando en capilla en la ciudad de
-                              Sevilla, llamado Vicente Perez, corneta de la Habana.</title>
+        <title>DÉCIMAS</title>
         <respStmt>
           <name/>
           <resp>Codificación TEI</resp>
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <authority role="rightsHolder">Bibliothèque Universitaire de
-                              Genève</authority>
+        <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
         <availability status="restricted">
           <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
         </availability>
@@ -21,18 +19,17 @@
       <sourceDesc>
         <biblFull>
           <titleStmt>
-            <title type="titulo_completo">DÉCIMAS compuestas por un reo
-                                          estando en capilla en la ciudad de Sevilla, llamado
-                                          Vicente Perez, corneta de la Habana.</title>
-            <title type="titulo_breve"/>
+            <title type="titulo_completo">DÉCIMAS compuestas por un reo estando en capilla en la
+              ciudad de Sevilla, llamado Vicente Perez, corneta de la Habana.</title>
+            <title type="titulo_breve">DÉCIMAS</title>
           </titleStmt>
           <editionStmt>
             <p/>
           </editionStmt>
           <publicationStmt>
-            <publisher>D. JOSE MARIA MARES</publisher>
-            <pubPlace ref="https://www.geonames.org/3117735/madrid.html">Madrid </pubPlace>
-            <date cert="high">1851</date>
+            <publisher>José María Marés</publisher>
+            <pubPlace ref="https://www.geonames.org/3117735/madrid.html">Madrid</pubPlace>
+            <date cert="high" when="1851-01-01">1851</date>
           </publicationStmt>
         </biblFull>
         <msDesc>
@@ -40,7 +37,8 @@
             <country>Suisse</country>
             <settlement>Genève</settlement>
             <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"/>
-                                    </repository>
+            </repository>
+            <collection>Colección Varios</collection>
             <idno type="cote"/>
             <idno type="DOI">10.5281/zenodo.6575945</idno>
             <altIdentifier>
@@ -48,10 +46,21 @@
             </altIdentifier>
           </msIdentifier>
           <msContents>
-            <summary/>
+            <summary>Tres canciones</summary>
             <msItem>
-              <locus/>
-              <title/>
+              <locus>1-2</locus>
+              <title>Décimas compuestas por un reo estando en capilla en la ciudad de Sevilla,
+                llamado Vicente Perez, corneta de la Habana.</title>
+            </msItem>
+            <msItem>
+              <locus>3</locus>
+              <title>Otras décimas sin glosar.</title>
+            </msItem>
+            <msItem>
+              <locus>4</locus>
+              <title>Suplicio del corneta Perez. Palabras que el referido Perez dirigió á el
+                piqueta, ofreciendo cuatro duros para los cuatro, que habian apuntar á su pecho el
+                mortifero plomo.</title>
             </msItem>
           </msContents>
           <physDesc>
@@ -73,7 +82,7 @@
               <decoNote type="lista_grabados">
                 <list>
                   <item corresp="grabado_v_096_1.xml">grabado_v_096_1</item>
-                  <item corresp="grabado_v_096_1.xml">grabado_v_096_1</item>
+                  <item corresp="grabado_v_096_2.xml">grabado_v_096_2</item>
                 </list>
               </decoNote>
             </decoDesc>
@@ -84,8 +93,7 @@
               <p>IMPRENTA de D. JOSE MARIA MARES</p>
             </origin>
             <provenance>
-              <p>*À COMPLETER*: nom du vendeur ( si plusieurs vendeurs
-                                                le premier supposé)</p>
+              <p>*À COMPLETER*: nom du vendeur ( si plusieurs vendeurs le premier supposé)</p>
             </provenance>
             <acquisition>
               <p>*À COMPLETER* autres propriétaires</p>
@@ -97,18 +105,17 @@
     </fileDesc>
     <encodingDesc>
       <projectDesc>
-        <p>Este archivo fue creado en el marco del proyecto Desenrollando el
-                              Cordel/Démêler le cordel/Untangling the cordel, dirigido por la
-                              profesora Constance Carta de la Universidad de Ginebra, con el apoyo
-                              de la Fundación filantrópica Famille Sandoz-Monique de Meuron.</p>
+        <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+          cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la Universidad
+          de Ginebra, con el apoyo de la Fundación filantrópica Famille Sandoz-Monique de
+          Meuron.</p>
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR non corregido</p>
+          <p>OCR no corregido</p>
         </correction>
         <normalization>
-          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto
-                                    original.</p>
+          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
         </normalization>
         <punctuation>
           <p>Se conserva la puntuación original.</p>
@@ -129,10 +136,14 @@
       </textClass>
     </profileDesc>
     <revisionDesc>
-      <change when="2022-07-27" who="#PJ">Création du fichier TEI P5 et encodage du
-                        corps du texte</change>
+      <change when="2022-07-27" who="#PJ">Création du fichier TEI P5 et encodage du corps du
+        texte</change>
+      <change when="2024-01-09" who="#EL">Add the IIIF links</change>
     </revisionDesc>
   </teiHeader>
+  <facsimile>
+    <graphic url="varios/Varios_096_1.jpg/full/200,/0/default.jpg"/>
+  </facsimile>
   <sourceDoc xml:id="automaticTranscription">
     <surface xml:id="Varios_096_1" type="page" cert="silver">
       <graphic url="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_096_1/full/full/0/default.jpg"/>
@@ -143,8 +154,7 @@
         </zone>
         <zone xml:id="Varios_096_1_BT223_1_LT84_2" type="HeadingLine" subtype="none" points="138,1356 133,1323 173,1310 175,1310 175,1310 177,1310 177,1310 285,1321 307,1310 307,1310 307,1310 309,1310 309,1310 311,1310 311,1310 311,1310 313,1310 350,1323 359,1325 366,1323 386,1314 386,1314 388,1314 388,1314 388,1314 390,1314 620,1323 695,1325 699,1323 717,1314 717,1314 717,1314 719,1314 719,1314 719,1314 721,1314 721,1314 723,1314 723,1314 723,1314 726,1314 739,1323 747,1329 822,1329 826,1323 835,1316 835,1314 835,1314 837,1314 837,1314 837,1314 840,1314 840,1314 943,1307 945,1307 945,1307 945,1307 1011,1323 1037,1329 1046,1323 1063,1310 1063,1310 1065,1310 1065,1310 1068,1310 1068,1310 1068,1310 1070,1310 1070,1310 1070,1310 1072,1310 1116,1323 1120,1325 1123,1323 1155,1301 1158,1301 1158,1301 1158,1301 1160,1301 1160,1301 1162,1301 1357,1301 1357,1301 1357,1301 1359,1301 1359,1301 1359,1301 1362,1301 1362,1301 1362,1303 1381,1321 1395,1312 1397,1312 1397,1312 1397,1312 1399,1312 1399,1312 1399,1312 1401,1312 1401,1312 1471,1325 1473,1362 1471,1391 1030,1391 1028,1388 1028,1388 1019,1386 973,1378 668,1386 611,1386 609,1386 609,1386 609,1386 607,1386 607,1386 605,1386 581,1375 135,1382 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_096_1/133,1301,1340,90/full/0/default" corresp="HeadingLine">
           <path xml:id="Varios_096_1_BT223_1_LT84_2_1" points="140,1358 1476,1364 "/>
-          <line>compuestas por un reo estando en capilla en la ciudad de
-                                    Sevilla,</line>
+          <line>compuestas por un reo estando en capilla en la ciudad de Sevilla,</line>
         </zone>
         <zone xml:id="Varios_096_1_BT223_1_LT84_3" type="HeadingLine" subtype="none" points="359,1406 359,1362 1265,1375 1267,1415 1263,1439 355,1430 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_096_1/,,,/full/0/default" corresp="HeadingLine">
           <path xml:id="Varios_096_1_BT223_1_LT84_3_1" points="360,1408 1269,1416 "/>
@@ -953,7 +963,7 @@
           <line>con acento claro y fuerte,</line>
         </zone>
         <zone xml:id="Varios_096_3_BT227_3__23" type="DefaultLine" subtype="none" points="756,1475 750,1430 864,1426 866,1426 866,1426 868,1426 878,1428 917,1438 959,1428 973,1423 975,1423 975,1423 977,1423 977,1423 977,1423 979,1423 979,1423 979,1423 986,1428 1002,1436 1015,1428 1015,1426 1015,1426 1017,1426 1017,1426 1017,1426 1019,1426 1019,1426 1021,1426 1285,1426 1289,1463 1289,1483 756,1488 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_096_3/,,,/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_096_3_BT227_3__23_1" points="757,1476 1292,1465 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
+          <path xml:id="Varios_096_3_BT227_3__23_1" points="757,1476 1292,1465 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
           <line>publiquen hasta la muerte</line>
         </zone>
         <zone xml:id="Varios_096_3_BT227_3_LT83_24" type="DefaultLine" subtype="none" points="756,1519 754,1483 1039,1483 1041,1481 1058,1471 1060,1471 1060,1471 1062,1471 1062,1471 1062,1471 1064,1471 1064,1471 1066,1471 1108,1481 1110,1481 1110,1481 1126,1469 1128,1469 1128,1469 1128,1469 1130,1469 1130,1469 1130,1469 1132,1469 1132,1469 1134,1469 1134,1469 1134,1469 1155,1479 1165,1469 1165,1469 1167,1469 1167,1469 1167,1469 1170,1469 1170,1469 1170,1469 1172,1469 1314,1481 1318,1512 1314,1539 754,1535 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_096_3/,,,/full/0/default" corresp="DefaultLine">
@@ -1037,13 +1047,11 @@
       <zone xml:id="Varios_096_4_BT223_2" n="2" type="CustomZone" subtype="title" points="264,1359 654,1359 654,1208 1318,1208 1316,1339 1696,1339 1696,1511 1226,1511 1226,1603 818,1603 818,1516 264,1516 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_096_4/264,1208,1432,395/full/0/default" corresp="CustomZone:title">
         <zone xml:id="Varios_096_4_BT223_2_LT84_1" type="HeadingLine" subtype="none" points="326,1428 324,1375 407,1391 434,1373 436,1373 438,1373 440,1373 443,1373 493,1386 563,1369 565,1369 568,1369 570,1369 605,1386 638,1371 640,1371 642,1371 704,1384 758,1384 772,1371 772,1369 774,1369 776,1369 778,1369 780,1369 833,1382 881,1364 883,1364 886,1364 936,1375 967,1358 973,1356 976,1356 978,1356 997,1358 1125,1375 1204,1358 1206,1358 1208,1358 1210,1358 1228,1373 1274,1360 1276,1360 1278,1360 1329,1371 1344,1358 1346,1358 1348,1358 1351,1358 1443,1369 1473,1347 1473,1345 1476,1345 1478,1345 1651,1342 1658,1404 1656,1432 1581,1421 1568,1432 1568,1434 1566,1434 1563,1434 1125,1445 1123,1445 1120,1445 1116,1445 1070,1432 1057,1443 1057,1445 1055,1445 1052,1445 1050,1445 1048,1445 1006,1434 987,1448 984,1448 982,1448 980,1448 978,1448 976,1448 976,1445 962,1434 822,1452 807,1452 804,1452 780,1452 572,1443 559,1454 559,1456 557,1456 554,1456 552,1456 548,1456 427,1445 326,1461 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_096_4/324,1342,1334,119/full/0/default" corresp="HeadingLine">
           <path xml:id="Varios_096_4_BT223_2_LT84_1_1" points="329,1430 584,1429 825,1426 1660,1405 "/>
-          <line>que el referido Perez dirigió á el piquete, ofreciendo cuatro
-                                    duros</line>
+          <line>que el referido Perez dirigió á el piquete, ofreciendo cuatro duros</line>
         </zone>
         <zone xml:id="Varios_096_4_BT223_2_LT84_2" type="HeadingLine" subtype="none" points="324,1500 318,1456 410,1454 410,1452 451,1437 454,1437 456,1437 697,1443 712,1432 715,1432 717,1432 719,1432 978,1432 995,1421 997,1421 1000,1421 1002,1421 1068,1434 1070,1434 1072,1434 1098,1421 1101,1421 1103,1421 1105,1421 1144,1432 1149,1432 1158,1432 1263,1417 1265,1417 1656,1419 1660,1461 1660,1527 1425,1531 1423,1531 1421,1531 1419,1531 1379,1500 1329,1500 1061,1518 1059,1518 1057,1518 1055,1518 1044,1511 1024,1529 1024,1531 1022,1531 1019,1531 1017,1531 1015,1531 997,1524 969,1540 960,1544 958,1544 956,1544 919,1540 844,1533 811,1542 798,1546 796,1546 794,1546 791,1546 785,1544 763,1531 750,1544 747,1544 745,1544 743,1544 741,1544 739,1544 728,1533 693,1544 686,1546 684,1546 682,1546 679,1546 673,1544 640,1537 587,1546 513,1559 438,1562 436,1562 434,1562 407,1551 372,1535 326,1551 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_096_4/318,1417,1342,145/full/0/default" corresp="HeadingLine">
           <path xml:id="Varios_096_4_BT223_2_LT84_2_1" points="326,1501 578,1491 670,1489 1557,1465 1592,1465 1661,1463 "/>
-          <line>para los cuatro, que habtan de apuntar á su pecho el mortifero
-                                    plomo.</line>
+          <line>para los cuatro, que habtan de apuntar á su pecho el mortifero plomo.</line>
         </zone>
       </zone>
       <zone xml:id="Varios_096_4_BT228_3" n="3" type="MarginTextZone" subtype="colophon" points="360,2473 360,2631 1637,2631 1637,2473 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_096_4/360,2473,1277,158/full/0/default" corresp="MarginTextZone:colophon">
@@ -1053,8 +1061,7 @@
         </zone>
         <zone xml:id="Varios_096_4_BT228_3_LT83_2" type="DefaultLine" subtype="none" points="414,2620 410,2569 522,2569 532,2563 561,2543 563,2543 563,2543 563,2543 565,2543 565,2543 565,2543 568,2543 730,2550 767,2539 769,2539 769,2539 769,2539 772,2539 835,2543 835,2543 837,2543 837,2543 837,2543 840,2543 840,2543 851,2552 859,2558 877,2550 899,2541 899,2541 901,2541 901,2541 903,2541 903,2541 903,2541 940,2547 1004,2561 1228,2536 1278,2532 1278,2532 1280,2532 1280,2532 1283,2532 1283,2532 1283,2532 1287,2534 1327,2554 1436,2541 1436,2541 1438,2541 1438,2541 1441,2541 1441,2541 1441,2541 1462,2552 1491,2526 1491,2526 1491,2526 1493,2526 1493,2526 1493,2526 1495,2526 1495,2526 1495,2526 1598,2523 1605,2598 1603,2620 414,2631 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_096_4/410,2523,1195,108/full/0/default" corresp="DefaultLine">
           <path xml:id="Varios_096_4_BT228_3_LT83_2_1" points="416,2621 1607,2599 "/>
-          <line>IMPRENTA de D. JOSE MARIA MARES, calle de Relatores, número
-                                    17.</line>
+          <line>IMPRENTA de D. JOSE MARIA MARES, calle de Relatores, número 17.</line>
         </zone>
       </zone>
       <zone xml:id="Varios_096_4_BT224_4" n="4" type="GraphicZone" subtype="illustration" points="1410,595 1436,630 1419,1145 535,1145 541,683 536,598 1237,587 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_096_4/535,587,901,558/full/0/default" corresp="GraphicZone:illustration"/>
@@ -1064,287 +1071,319 @@
   <text>
     <body>
       <div>
-        <pb n="1" source="Varios_096_1.jpg" facs="fedora_Varios_096_1/full/full/0/default.jpg"/>
-        <fw type="impresorNum">(Núm. 235.) </fw>
         <div>
-          <head type="primer_titulo">
-            <lb/>
-            <hi rend="negrita">DÉCIMAS</hi>
-            <lb/>
-            <hi rend="cursiva">compuestas por un reo estando en capilla en la ciudad de
-                                          Sevilla,</hi>
-            <lb/>
-            <hi rend="cursiva">llamado Vicente
-                                          Perez, corneta de la Habana.</hi>
-          </head>
-          <lg rend="cursiva">
-            <l>En amarga oscuridad</l>
-            <l>lloro un bien que no poseo,</l>
-            <l>que sin libertad me veo</l>
-            <l>en lo mejor de mi edad.</l>
-          </lg>
-          <lg>
-            <l>Apenas sale la aurora</l>
-            <l>cuando alegre la mañana</l>
-            <l>consuela de buena gana</l>
-            <l>á quien tan triste la llora;</l>
-            <l>yo os suplico ¡oh gran Señora!</l>
-            <l>solo por ver claridad,</l>
-            <l>que en triste infelicidad</l>
-            <l>contempla la dicha agena,</l>
-            <l>yo solo lloro la pena</l>
-            <l rend="cursiva">en amarga oscuridad.</l>
-            <l>Apenas nace la rosa</l>
-            <l>repartiendo sus olores</l>
-            <l>aunque cercada de flores</l>
-            <l>ella es la mas olorosa;</l>
-            <l>como se vé tan hermosa</l>
-            <l>yo tan solo no la veo,</l>
-            <l>porque soy aquel trofeo</l>
-            <l>donde reinan los pesares,</l>
-          </lg>
-          <lg>
-            <l>hechos mis ojos dos mares</l>
-            <l rend="cursiva">lloro un bien que no poseo.</l>
-            <l>Nace tambien el clavel</l>
-            <l>oloroso en abundancia,</l>
-            <l>y por su mucha fragancia</l>
-            <l>lo cortan si está en su ser,</l>
-            <l>pero tiene aquel placer</l>
-            <l>de rematar con su empleo;</l>
-            <l>mas yo con mi buen deseo</l>
-            <l>de dejar en pie la mata,</l>
-            <l>lloro aqui mi suerte ingrata</l>
-            <l rend="cursiva">que sin libertad me veo.</l>
-            <l>Nace el ave en la montaña</l>
-            <l>y en la campiña florida,</l>
-            <l>como se ve divertida</l>
-            <l>solo el cazador la engaña;</l>
-            <l>gozando de la campaña</l>
-            <l>con su amante sin cesar,</l>
-            <l>goza de su libertad</l>
-            <l>cantando alegre y festivo;</l>
-            <l>solo yo soy el cautivo</l>
-            <l rend="cursiva">en lo mejor de mi edad.</l>
-          </lg>
-          <pb n="2" source="Varios_096_2.jpg" facs="fedora_Varios_096_2/full/full/0/default.jpg"/>
-          <lg>
-            <l>Amparar á un afligido</l>
-            <l>es obra de caridad,</l>
-            <l>ejecutad la piedad</l>
-            <l>con quien se halla desvalido.</l>
-          </lg>
-          <lg>
-            <l>Qué hade hacerun desdichado,</l>
-            <l>pues que implora lo que siente;</l>
-            <l>señora, os haré presente</l>
-            <l>mi infortunado estado;</l>
-            <l>yo estoy aqui arrojado</l>
-            <l>por haberme escedido,</l>
-            <l>en esta prision metido</l>
-            <l>donde mi mal se origina;</l>
-            <l>por Dios os pido, heroina,</l>
-            <l>amparar á un afligido.</l>
-          </lg>
-          <lg>
-            <l>Hoy mi desdicha, señora,</l>
-            <l>me ha obligado, y asi es,</l>
-            <l>que la invoque esta vez</l>
-            <l>por piadosa defensora;</l>
-            <l>asi mi pecho lo implora,</l>
-            <l>con mucha seguridad;</l>
-            <l>de que tendrá la bondad</l>
-            <l>de condolerse, y asi,</l>
-            <l>lo que hiciere por mí</l>
-            <l>es obra de caridad.</l>
-          </lg>
-          <lg>
-            <l>Bien se sabe que el que es pobre</l>
-            <l>de recursos y dinero,</l>
-            <l>lo amparan los caballeros</l>
-            <l>con oro, plata y con cobre:</l>
-            <l>y por que á veces les sobre</l>
-            <l>su noble benignidad,</l>
-            <l>su respeto y humildad,</l>
-            <l>que es lo que Cristo enseñó;</l>
-            <l>y asi hacedlo, por Dios,</l>
-            <l>ejecutad la piedad.</l>
-          </lg>
-          <lg>
-            <l>En fin, señora piadosa,</l>
-            <l>por tu esposo y por tu niño</l>
-            <l>á quien le debe el cariño,</l>
-            <l>pido seais generosa;</l>
-            <l>y por la Sangre preciosa,</l>
-            <l>por quien fuimos redimidos,</l>
-            <l>por todo esto os pido</l>
-            <l>postrado ante vuestros pies,</l>
-            <l>que obreis con interes</l>
-            <l>con quien se halla desvalido.</l>
-          </lg>
-          <lg>
-            <l>Válgame Dios, qué de cosas</l>
-            <l>he visto en aqueste puesto;</l>
-            <l>he visto mi sepultura,</l>
-            <l>antes de haberme muerto.</l>
-          </lg>
-          <lg>
-            <l>Solo yo con causa plena</l>
-            <l>me encuentro muy lastimado,</l>
-            <l>pues me veo fatigado</l>
-            <l>en tan indecible pena;</l>
-            <l>veo grillos y cadenas</l>
-            <l>y tambien gruesas esposas;</l>
-            <l>¡qué escenas tan lastimosas!</l>
-            <l>y yo á su lado fenezco</l>
-            <l>por lo mucho que padezco;</l>
-            <l>¡válgame Dios, qué de cosas!</l>
-          </lg>
-          <lg>
-            <l>El hedor del calabozo</l>
-            <l>y el fragor de tanta gente</l>
-            <l>me tienen todo impaciente</l>
-            <l>sin consuelo ni reposo;</l>
-            <l>todo se encuentra asqueroso</l>
-            <l>desazonado y molesto,</l>
-            <l>y por lo tanto yo advierto,</l>
-            <l>sin mentira ni jurar</l>
-            <l>que á muchos hombres llorar</l>
-            <l>he visto en aqueste puesto.</l>
-          </lg>
-          <lg>
-            <l>No hay sazon en la comida,</l>
-            <l>encuentro el agua amargosa,</l>
-            <l>muchas veces asquerosa,</l>
-            <l>hedionda y corrompida;</l>
-            <l>solo espero la salida</l>
-            <l>de mazmorra tan oscura,</l>
-            <l>y á mas, lo que hoy me apura</l>
-            <l>con delirantes antojos,</l>
-            <l>que con la muerte en los ojos</l>
-          </lg>
-          <lg>
-            <l>he visto mi sepultura.</l>
-            <l>Lo que á mí mas me atormenta</l>
-            <l>en tan increible pena,</l>
-            <l>son los grillos y cadenas,</l>
-            <l>en esta prision violenta;</l>
-            <l>pero me he hecho la cuenta</l>
-            <l>que soy ya cadaver yerto</l>
-            <l>pasando cruel tormento,</l>
-            <l>y en tan insufribles penas,</l>
-            <l>no corre sangre en mis venas</l>
-            <l>antes de haberme muerto.</l>
-          </lg>
-          <pb n="3" source="Varios_096_3.jpg" facs="fedora_Varios_096_3/full/full/0/default.jpg"/>
+          <pb n="1" source="Varios_096_1.jpg" facs="varios/Varios_096_1.jpg/"/>
+
+          <fw type="impresorNum">(Núm. 235.) </fw>
+
+          <div n="1">
+            <head type="primer_titulo" rend="negrita">
+              <lb/>DÉCIMAS </head>
+
+            <head type="subtitulo" rend="cursiva"><lb/>compuestas por un reo estando en capilla en
+              la ciudad de Sevilla, <lb/>llamado Vicente Perez, corneta de la Habana.</head>
+
+            <lg rend="cursiva">
+              <l rend="indent">En amarga oscuridad</l>
+              <l>lloro un bien que no poseo,</l>
+              <l>que sin libertad me veo</l>
+              <l>en lo mejor de mi edad.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Apenas sale la aurora</l>
+              <l>cuando alegre la mañana</l>
+              <l>consuela de buena gana</l>
+              <l>á quien tan triste la llora;</l>
+              <l>yo os suplico ¡oh gran Señora!</l>
+              <l>solo por ver claridad,</l>
+              <l>que en triste infelicidad</l>
+              <l>contempla la dicha agena,</l>
+              <l>yo solo lloro la pena</l>
+              <l rend="cursiva">en amarga oscuridad.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Apenas nace la rosa</l>
+              <l>repartiendo sus olores</l>
+              <l>aunque cercada de flores</l>
+              <l>ella es la mas olorosa;</l>
+              <l>como se vé tan hermosa</l>
+              <l>yo tan solo no la veo,</l>
+              <l>porque soy aquel trofeo</l>
+              <l>donde reinan los pesares,</l>
+              <l>hechos mis ojos dos mares</l>
+              <l rend="cursiva">lloro un bien que no poseo.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Nace tambien el clavel</l>
+              <l>oloroso en abundancia,</l>
+              <l>y por su mucha fragancia</l>
+              <l>lo cortan si está en su ser,</l>
+              <l>pero tiene aquel placer</l>
+              <l>de rematar con su empleo;</l>
+              <l>mas yo con mi buen deseo</l>
+              <l>de dejar en pie la mata,</l>
+              <l>lloro aqui mi suerte ingrata</l>
+              <l rend="cursiva">que sin libertad me veo.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Nace el ave en la montaña</l>
+              <l>y en la campiña florida,</l>
+              <l>como se ve divertida</l>
+              <l>solo el cazador la engaña;</l>
+              <l>gozando de la campaña</l>
+              <l>con su amante sin cesar,</l>
+              <l>goza de su libertad</l>
+              <l>cantando alegre y festivo;</l>
+              <l>solo yo soy el cautivo</l>
+              <l rend="cursiva">en lo mejor de mi edad.</l>
+            </lg>
+
+            <pb n="2" source="Varios_096_2.jpg" facs="varios/Varios_096_2.jpg/"/>
+
+            <lg rend="cursiva">
+              <l rend="indent">Amparar á un afligido</l>
+              <l>es obra de caridad,</l>
+              <l>ejecutad la piedad</l>
+              <l>con quien se halla desvalido.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Qué hade hacerun desdichado,</l>
+              <l>pues que implora lo que siente;</l>
+              <l>señora, os haré presente</l>
+              <l>mi infortunado estado;</l>
+              <l>yo estoy aqui arrojado</l>
+              <l>por haberme escedido,</l>
+              <l>en esta prision metido</l>
+              <l>donde mi mal se origina;</l>
+              <l>por Dios os pido, heroina,</l>
+              <l rend="cursiva">amparar á un afligido.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Hoy mi desdicha, señora,</l>
+              <l>me ha obligado, y asi es,</l>
+              <l>que la invoque esta vez</l>
+              <l>por piadosa defensora;</l>
+              <l>asi mi pecho lo implora,</l>
+              <l>con mucha seguridad;</l>
+              <l>de que tendrá la bondad</l>
+              <l>de condolerse, y asi,</l>
+              <l>lo que hiciere por mí</l>
+              <l rend="cursiva">es obra de caridad.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Bien se sabe que el que es pobre</l>
+              <l>de recursos y dinero,</l>
+              <l>lo amparan los caballeros</l>
+              <l>con oro, plata y con cobre:</l>
+              <l>y por que á veces les sobre</l>
+              <l>su noble benignidad,</l>
+              <l>su respeto y humildad,</l>
+              <l>que es lo que Cristo enseñó;</l>
+              <l>y asi hacedlo, por Dios,</l>
+              <l rend="cursiva">ejecutad la piedad.</l>
+            </lg>
+            <lg>
+              <l rend="indent">En fin, señora piadosa,</l>
+              <l>por tu esposo y por tu niño</l>
+              <l>á quien le debe el cariño,</l>
+              <l>pido seais generosa;</l>
+              <l>y por la Sangre preciosa,</l>
+              <l>por quien fuimos redimidos,</l>
+              <l>por todo esto os pido</l>
+              <l>postrado ante vuestros pies,</l>
+              <l>que obreis con interes</l>
+              <l rend="cursiva">con quien se halla desvalido.</l>
+            </lg>
+            <lg rend="cursiva">
+              <l rend="indent">Válgame Dios, qué de cosas</l>
+              <l>he visto en aqueste puesto;</l>
+              <l>he visto mi sepultura,</l>
+              <l>antes de haberme muerto.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Solo yo con causa plena</l>
+              <l>me encuentro muy lastimado,</l>
+              <l>pues me veo fatigado</l>
+              <l>en tan indecible pena;</l>
+              <l>veo grillos y cadenas</l>
+              <l>y tambien gruesas esposas;</l>
+              <l>¡qué escenas tan lastimosas!</l>
+              <l>y yo á su lado fenezco</l>
+              <l>por lo mucho que padezco;</l>
+              <l rend="cursiva">¡válgame Dios, qué de cosas!</l>
+            </lg>
+            <lg>
+              <l rend="indent">El hedor del calabozo</l>
+              <l>y el fragor de tanta gente</l>
+              <l>me tienen todo impaciente</l>
+              <l>sin consuelo ni reposo;</l>
+              <l>todo se encuentra asqueroso</l>
+              <l>desazonado y molesto,</l>
+              <l>y por lo tanto yo advierto,</l>
+              <l>sin mentira ni jurar</l>
+              <l>que á muchos hombres llorar</l>
+              <l rend="cursiva">he visto en aqueste puesto.</l>
+            </lg>
+            <lg>
+              <l rend="indent">No hay sazon en la comida,</l>
+              <l>encuentro el agua amargosa,</l>
+              <l>muchas veces asquerosa,</l>
+              <l>hedionda y corrompida;</l>
+              <l>solo espero la salida</l>
+              <l>de mazmorra tan oscura,</l>
+              <l>y á mas, lo que hoy me apura</l>
+              <l>con delirantes antojos,</l>
+              <l>que con la muerte en los ojos</l>
+              <l rend="cursiva">he visto mi sepultura.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Lo que á mí mas me atormenta</l>
+              <l>en tan increible pena,</l>
+              <l>son los grillos y cadenas,</l>
+              <l>en esta prision violenta;</l>
+              <l>pero me he hecho la cuenta</l>
+              <l>que soy ya cadaver yerto</l>
+              <l>pasando cruel tormento,</l>
+              <l>y en tan insufribles penas,</l>
+              <l>no corre sangre en mis venas</l>
+              <l rend="cursiva">antes de haberme muerto.</l>
+            </lg>
+          </div>
+
+          <div n="2">
+            <pb n="3" source="Varios_096_3.jpg" facs="varios/Varios_096_3.jpg/"/>
+
+            <head type="titulo_cancion" rend="negrita"><lb/>OTRAS DECIMAS SIN GLOSAR.</head>
+
+            <lg>
+              <l rend="indent">En la cárcel de Sevilla</l>
+              <l>á las seis de la mañana,</l>
+              <l>á un corneta de la Habana</l>
+              <l>lo han metido en la capilla;</l>
+              <l>ya irán con las campanillas</l>
+              <l>pidiendo la Caridad,</l>
+              <l>y algunos en la ciudad</l>
+              <l>daran hasta una peseta</l>
+              <l>por el alma del corneta</l>
+              <l>que pasa á la eternidad.</l>
+            </lg>
+
+            <lg>
+              <l rend="indent">En el reino de Valencia</l>
+              <l>ha nacido el desgraciado</l>
+              <l>que ha de ser hoy fusilado</l>
+              <l>como espresa la sentencia;</l>
+              <l>y espera de la clemencia</l>
+              <l>del sol que á Sevilla baña,</l>
+              <l>que es la princesa de España</l>
+              <l>hija de aquel gran monarca,</l>
+              <l>que con su influjo, la parca</l>
+              <l>suspenderá la guadaña.</l>
+            </lg>
+
+            <lg>
+              <l rend="indent">Serenísima señora,</l>
+              <l>noble infanta de Castilla,</l>
+              <l>de un jóven que está en capilla,</l>
+              <l>os ruego seais protectora;</l>
+              <l>sed, por Dios, mi intercesora,</l>
+              <l>que por vuestra mediacion,</l>
+              <l>pueda obtenerse el perdon</l>
+              <l>de vuestra querida hermana</l>
+              <l>que es la mejor Soberana</l>
+              <l>que ha tenido la nacion.</l>
+            </lg>
+
+            <lg>
+              <l rend="indent">El mas grande sentimiento</l>
+              <l>y el martirio mas profundo,</l>
+              <l>que me lleva al otro mundo</l>
+              <l>es la infamia del sargento;</l>
+              <l>y hasta el último momento</l>
+              <l>de mi vida pensaré,</l>
+              <l>que ese la causa fue</l>
+              <l>de toda mi perdicion,</l>
+              <l>negándome hasta el perdon</l>
+              <l>que humilde le supliqué.</l>
+            </lg>
+
+            <lg>
+              <l rend="indent">Pero dia llegará</l>
+              <l>para los justos propício,</l>
+              <l>que Dios le llame á juicio,</l>
+              <l>y sus culpas juzgará;</l>
+              <l>alli el corneta estará,</l>
+              <l>siendo de todo testigo,</l>
+              <l>y presenciando el castigo,</l>
+              <l>que Dios le ha de destinar,</l>
+              <l>por no querer perdonar</l>
+              <l>en el mundo á un enemigo.</l>
+            </lg>
+
+            <lg>
+              <l rend="indent">Quince años de servicio</l>
+              <l>cumplí muy honradamente,</l>
+              <l>el pago, pobre Vicente,</l>
+              <l>es morir en un suplicio;</l>
+              <l>es para perder el juicio</l>
+              <l>semejante ingratitud,</l>
+              <l>al ver que estoy con salud</l>
+              <l>y que mañana de cierto,</l>
+              <l>estaré cadaver y erto</l>
+              <l>en un fúnebre ataud.</l>
+            </lg>
+
+            <lg>
+              <l rend="indent">Con trompas de oro la fama</l>
+              <l>con acento claro y fuerte,</l>
+              <l>publiquen hasta la muerte</l>
+              <l>fue mi amigo el cabo Llama;</l>
+              <l>sentado sobre mi cama,</l>
+              <l>me dijo con claridad:</l>
+              <l>es tanta la lealtad</l>
+              <l>que te tengo como amigo,</l>
+              <l>que hasta quisiera contigo</l>
+              <l>partir á la eternidad.</l>
+            </lg>
+
+            <lg>
+              <l rend="indent">Con mucha serenidad</l>
+              <l>hoy que es dia diez y siete,</l>
+              <l>iré en medio del piquete</l>
+              <l>camino á la eternidad;</l>
+              <l>y la santa Caridad</l>
+              <l>con su vestimenta oscura,</l>
+              <l>dando muestras de ternura</l>
+              <l>cumpliendo su ministerio,</l>
+              <l>irán hácia el cementerio</l>
+              <l>para darme sepultura.</l>
+            </lg>
+          </div>
+
+          <div n="3">
+            <pb n="4" source="Varios_096_4.jpg" facs="varios/Varios_096_4.jpg/"/>
+
+            <head type="primer_titulo"><lb/>SUPLICIO DEL CORNETA PEREZ.</head>
+
+            <head type="subtitulo_parte" rend="cursiva"><lb/><hi rend="negrita">PALABRAS</hi><hi rend="cursiva"><lb/>que el referido Perez dirigió á el piquete, ofreciendo cuatro
+                duros<lb/>para los cuatro, que habtan de apuntar á su pecho el mortifero
+                plomo.</hi></head>
+
+            <l rend="indent">SOLDADOS: YA QUE MI SUERTE</l>
+            <l>ME HA PUESTO EN ESTOS APUROS,</l>
+            <l>OS REGALO CUATRO DUROS</l>
+            <l>PORQUE ME DEIS BUENA MUERTE;</l>
+            <l>SOLO PEREZ OS ADVIERTE</l>
+            <l>PARA QUE APUNTEIS DERECHO,</l>
+            <l>AUNQUE DELITO NO HE HECHO</l>
+            <l>PARA TAL CARNICERIA,</l>
+            <l>TOMANDO LA APUNTERIA</l>
+            <l>DOS AL CRANEO Y DOS AL PECHO.</l>
+          </div>
         </div>
-        <div type="cancion" n="2">
-          <head type="titulo_cancion" rend="negrita"><lb/>OTRAS DECIMAS SIN GLOSAR.</head>
-          <lg>
-            <l>En la cárcel de Sevilla</l>
-            <l>á las seis de la mañana,</l>
-            <l>á un corneta de la Habana</l>
-            <l>lo han metido en la capilla;</l>
-            <l>ya irán con las campanillas</l>
-            <l>pidiendo la Caridad,</l>
-            <l>y algunos en la ciudad</l>
-            <l>daran hasta una peseta</l>
-            <l>por el alma del corneta</l>
-            <l>que pasa á la eternidad.</l>
-            <l>En el reino de Valencia</l>
-            <l>ha nacido el desgraciado</l>
-            <l>que ha de ser hoy fusilado</l>
-            <l>como espresa la sentencia;</l>
-            <l>y espera de la clemencia</l>
-            <l>del sol que á Sevilla baña,</l>
-            <l>que es la princesa de España</l>
-            <l>hija de aquel gran monarca,</l>
-            <l>que con su influjo, la parca</l>
-            <l>suspenderá la guadaña.</l>
-            <l>Serenísima señora,</l>
-            <l>noble infanta de Castilla,</l>
-            <l>de un jóven que está en capilla,</l>
-            <l>os ruego seais protectora;</l>
-            <l>sed, por Dios, mi intercesora,</l>
-            <l>que por vuestra mediacion,</l>
-            <l>pueda obtenerse el perdon</l>
-            <l>de vuestra querida hermana</l>
-            <l>que es la mejor Soberana</l>
-            <l>que ha tenido la nacion.</l>
-            <l>El mas grande sentimiento</l>
-            <l>y el martirio mas profundo,</l>
-            <l>que me lleva al otro mundo</l>
-            <l>es la infamia del sargento;</l>
-            <l>y hasta el último momento</l>
-            <l>de mi vida pensaré,</l>
-            <l>que ese la causa fue</l>
-            <l>de toda mi perdicion,</l>
-            <l>negándome hasta el perdon</l>
-            <l>que humilde le supliqué.</l>
-          </lg>
-          <lg>
-            <l>Pero dia llegará</l>
-            <l>para los justos propício,</l>
-            <l>que Dios le llame á juicio,</l>
-            <l>y sus culpas juzgará;</l>
-            <l>alli el corneta estará,</l>
-            <l>siendo de todo testigo,</l>
-            <l>y presenciando el castigo,</l>
-            <l>que Dios le ha de destinar,</l>
-            <l>por no querer perdonar</l>
-            <l>en el mundo á un enemigo.</l>
-            <l>Quince años de servicio</l>
-            <l>cumplí muy honradamente,</l>
-            <l>el pago, pobre Vicente,</l>
-            <l>es morir en un suplicio;</l>
-            <l>es para perder el juicio</l>
-            <l>semejante ingratitud,</l>
-            <l>al ver que estoy con salud</l>
-            <l>y que mañana de cierto,</l>
-            <l>estaré cadaver y erto</l>
-            <l>en un fúnebre ataud.</l>
-            <l>Con trompas de oro la fama</l>
-            <l>con acento claro y fuerte,</l>
-            <l>publiquen hasta la muerte</l>
-            <l>fue mi amigo el cabo Llama;</l>
-            <l>sentado sobre mi cama,</l>
-            <l>me dijo con claridad:</l>
-            <l>es tanta la lealtad</l>
-            <l>que te tengo como amigo,</l>
-            <l>que hasta quisiera contigo</l>
-            <l>partir á la eternidad.</l>
-            <l>Con mucha serenidad</l>
-            <l>hoy que es dia diez y siete,</l>
-            <l>iré en medio del piquete</l>
-            <l>camino á la eternidad;</l>
-            <l>y la santa Caridad</l>
-            <l>con su vestimenta oscura,</l>
-            <l>dando muestras de ternura</l>
-            <l>cumpliendo su ministerio,</l>
-            <l>irán hácia el cementerio</l>
-            <l>para darme sepultura.</l>
-          </lg>
-          <pb n="4" source="Varios_096_4.jpg" facs="fedora_Varios_096_4/full/full/0/default.jpg"/>
-        </div>
-        <div type="cancion" n="3">
-          <head type="titulo_cancion"><lb/>SUPLICIO DEL CORNETA PEREZ.<lb/>PALABRAS</head>
-          <head type="subtitulo_parte" rend="cursiva"><lb/>que el referido Perez dirigió á el piquete, ofreciendo
-                                    cuatro duros<lb/>para los cuatro, que habtan de apuntar á su
-                                    pecho el mortifero plomo.</head>
-          <l>SOLDADOS: YA QUE MI SUERTE</l>
-          <l>ME HA PUESTO EN ESTOS APUROS,</l>
-          <l>OS REGALO CUATRO DUROS</l>
-          <l>PORQUE ME DEIS BUENA MUERTE;</l>
-          <l>SOLO PEREZ OS ADVIERTE</l>
-          <l>PARA QUE APUNTEIS DERECHO,</l>
-          <l>AUNQUE DELITO NO HE HECHO</l>
-          <l>PARA TAL CARNICERIA,</l>
-          <l>TOMANDO LA APUNTERIA</l>
-          <l>DOS AL CRANEO Y DOS AL PECHO.</l>
-        </div>
+        
         <div type="colofon">
-          <p><lb/>Madrid : 1831. IMPRENTA de D. JOSE MARIA MARES, calle de
-                                    Relatores, número 17.</p>
+          <p><lb/>Madrid : 1831. IMPRENTA de D. JOSE MARIA MARES, calle de Relatores, número 17.</p>
         </div>
       </div>
     </body>

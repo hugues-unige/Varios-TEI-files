@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../Schema/oddPliego_varios.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:alto="http://www.loc.gov/standards/alto/ns-v4#" xml:id="Varios_121">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Varios_121">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -11,8 +11,7 @@
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <authority role="rightsHolder">Bibliothèque Universitaire de
-                              Genève</authority>
+        <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
         <availability status="restricted">
           <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
         </availability>
@@ -20,19 +19,17 @@
       <sourceDesc>
         <biblFull>
           <titleStmt>
-            <title type="titulo_completo"> RELACION DE UN GANZO DE UN
-                                          CORtijo, manifestando el chasco que le sucedió la noche
-                                          de S. Juan, en este presente año.</title>
-            <title type="titulo_breve">Relacion de un Ganzo de un
-                                          Cortijo</title>
+            <title type="titulo_completo"> RELACION DE UN GANZO DE UN CORtijo, manifestando el
+              chasco que le sucedió la noche de S. Juan, en este presente año.</title>
+            <title type="titulo_breve">Relacion de un Ganzo de un Cortijo</title>
           </titleStmt>
           <editionStmt>
             <p/>
           </editionStmt>
           <publicationStmt>
-            <publisher>Aragon y Compañia</publisher>
+            <publisher>Aragón y Compañía</publisher>
             <pubPlace ref="https://www.geonames.org/2510911/sevilla.html">Sevilla</pubPlace>
-            <date cert="high">[s.a]</date>
+            <date cert="low" when="1800-01-01">[s.a.]</date>
           </publicationStmt>
         </biblFull>
         <msDesc>
@@ -40,7 +37,8 @@
             <country>Suisse</country>
             <settlement>Genève</settlement>
             <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"/>
-                                    </repository>
+            </repository>
+            <collection>Colección Varios</collection>
             <idno type="cote"/>
             <idno type="DOI">10.5281/zenodo.6577358</idno>
             <altIdentifier>
@@ -83,18 +81,17 @@
     </fileDesc>
     <encodingDesc>
       <projectDesc>
-        <p>Este archivo fue creado en el marco del proyecto Desenrollando el
-                              Cordel/Démêler le cordel/Untangling the cordel, dirigido por la
-                              profesora Constance Carta de la Universidad de Ginebra, con el apoyo
-                              de la Fundación filantrópica Famille Sandoz-Monique de Meuron.</p>
+        <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+          cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la Universidad
+          de Ginebra, con el apoyo de la Fundación filantrópica Famille Sandoz-Monique de
+          Meuron.</p>
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR non corregido</p>
+          <p>OCR no corregido</p>
         </correction>
         <normalization>
-          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto
-                                    original.</p>
+          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
         </normalization>
         <punctuation>
           <p>Se conserva la puntuación original.</p>
@@ -115,10 +112,14 @@
       </textClass>
     </profileDesc>
     <revisionDesc>
-      <change when="2023-01-20" who="#PJ">Création du fichier TEI P5 et encodage du
-                        corps du texte</change>
+      <change when="2023-01-20" who="#PJ">Création du fichier TEI P5 et encodage du corps du
+        texte</change>
+      <change when="2024-01-09" who="#EL">Add the IIIF links</change>
     </revisionDesc>
   </teiHeader>
+  <facsimile>
+    <graphic url="varios/Varios_121_1.jpg/full/200,/0/default.jpg"/>
+  </facsimile>
   <sourceDoc xml:id="automaticTranscription">
     <surface xml:id="Varios_121_2" type="page" cert="silver">
       <graphic url="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_121_2/full/full/0/default.jpg"/>
@@ -1155,140 +1156,136 @@
       <div>
         <div n="1">
           <div>
-            <pb n="1" source="Varios_121_3.jpg" facs="fedora_Varios_121_3/full/full/0/default.jpg"/>
-            <head type="primer_titulo"><lb/>RELACION DE UN GANZO DE UN COR-<lb/>tijo,
-                                          manifestando el chasco que le sucedió la no-<lb/>che de
-                                          S. Juan, en este presente año.</head>
-            <lg>
-              <l>Dios gracias, aca estamos toos</l>
-              <l>carambita que me entrampan,</l>
-              <l>¿es Sivilla esta Zuidad?</l>
-              <l>por que segun por la mapa</l>
-              <l>de muchachas y mancebos</l>
-              <l>no es otra cosa, mal haya</l>
-              <l>tal tierra amen</l>
-              <l>y tengo razon sobraa</l>
-              <l>para jablar isparates</l>
-              <l>de Sivilla y su comarca.</l>
-              <l>Sobre que estoy escamao</l>
-              <l>por porquito dejo el alma</l>
-              <l>en tan pustifera tierra</l>
-              <l>á mano de mi desgracia:</l>
-              <l>vaya solo un berrion</l>
-              <l>de mi historia bien formaa.</l>
-              <l>Yo salí de mi Cortijo,</l>
-              <l>en hora bueua ó en mala,</l>
-              <l>noche de S. Juan Batista</l>
-              <l>macuerdo que se llamaba</l>
-              <l>y vine á parar al puente</l>
-              <l>erecho alla por Triana.</l>
-              <l>Ojalá que en el camino</l>
-              <l>se me quebrara una pata,</l>
-              <l>y hubiera guelto al Cortijo</l>
-              <l>entre dos jaldas de paja</l>
-              <l>por no pasar tal virguenza.</l>
-              <l>Apenas puse las patas</l>
-              <l>en las calles de Sivilla</l>
-              <l>repare que siceaba</l>
-              <l>una mozuela, y desde</l>
-              <l>una ventanita alta</l>
-              <l>me jiso señas, mas yo</l>
-              <l>que no me merezco naa</l>
-              <l>me arrime aya ¡que muchacha!</l>
-              <l>¡que cachigorda!</l>
-              <l>¡que patas que me enseñaba!</l>
-              <l>y que buen troncho de pelo</l>
-              <l>que tenia la malvaa;</l>
-              <l>al ver tan grande proigio</l>
-              <l>yo me jise una batata</l>
-              <l>sin saber que le iria,</l>
-            </lg>
-            <lg>
-              <l>con los ojos me jablaba</l>
-              <l>y soltando de su boca</l>
-              <l>la sal que se le erramaba</l>
-              <l>¿que me traes? me ijo:</l>
-              <l>yo naa, le respondi,</l>
-              <l>mas si te agraa</l>
-              <l>aqui traigo algunos cuartos,</l>
-              <l>y me respondió pues baya</l>
-              <l>si algo traes yo te espero</l>
-              <l>y pelaremos la paba.</l>
-              <l>Sali como un torbellino</l>
-              <l>y compre piñones, pasas,</l>
-              <l>y un panal de aquellos grandes</l>
-              <l>que dan para vever agua.</l>
-              <l>Tambien le compre un muñeco</l>
-              <l>de una manera tan rara</l>
-              <l>que tirandole de un jilo</l>
-              <l>jasia dos mil muanzas.</l>
-              <l>Cuando golvi la encontré</l>
-              <l>risueña como una pascua:</l>
-              <l>me mandó que suba arriba</l>
-              <l>y por una reja falsa</l>
-              <l>me encaramé muy ligero</l>
-              <l>y le bi lo que llevava:</l>
-              <l>¿pero que jembra?</l>
-              <l>si se me ablandó la panza</l>
-              <l>y toditito mi cuerpo</l>
-              <l>se me gizo una sarandaja,</l>
-              <l>y yo como no soy lerdo</l>
-              <l>cuando vi que se arrimaba</l>
-              <l>por entre los mismos jierros</l>
-              <l>arrempujé con pijanza</l>
-              <l>la cabeza por pegalle</l>
-              <l>tan solo una tarascaa.</l>
-              <l>Ella juyo y yo quee</l>
-              <l>sin poer sacar la gaita;</l>
-              <l>paso entre paso se fue</l>
-              <l>y yo mientras mas tiraba</l>
-              <l>el mismo Demonio amigo</l>
-              <l>parece que me apretaba,</l>
-              <l>cual quearia mi cuerpo</l>
-              <l>cuando vi entrar en la sala</l>
-            </lg>
-            <pb n="2" source="Varios_121_2.jpg" facs="fedora_Varios_121_2/full/full/0/default.jpg"/>
-            <lg>
-              <l>una vieja y agarró</l>
-              <l>la bazinilla y se planta:</l>
-              <l>que truenos! que lluvia!</l>
-              <l>que juracan! que desata!</l>
-              <l>pero yo á too callao</l>
-              <l>porque en mi no reparara.</l>
-              <l>Mas apenas acabó</l>
-              <l>fue erecha á la ventana</l>
-              <l>y pensando que era yo</l>
-              <l>algun berijon de lana</l>
-              <l>se me regolvió de popa</l>
-              <l>con las naguas levantaas</l>
-              <l>y en medio de los josicos</l>
-              <l>me plantificó las nalgas</l>
-              <l>en fin se limpió y no mas</l>
-              <l>y decia la malvaa</l>
-              <l>esta lana á estao al sol</l>
-              <l>que está caliente, su alma</l>
-              <l>se caliente en los infiernos</l>
-              <l>pues me llenó de surrapa</l>
-              <l>ojos, narizes y boca:</l>
-              <l>cuando no eché yo allí el alma,</l>
-              <l>tripas, cuajar y asauras</l>
-              <l>pienso que nunca he de echarla,</l>
-              <l>y llamando á un hijo suyo</l>
-              <l>vino dando voces altas;</l>
-              <l>yo ije (para mi sallo)</l>
-              <l>ya esta corona la anza;</l>
-              <l>empeze á rezar el creo,</l>
-              <l>no queo Santo ni Santa</l>
-              <l>en toito el Calandario</l>
-              <l>á quien no me encomendara;</l>
-              <l>mas apenas que me vió</l>
-              <l>por las orejas me agarra,</l>
-              <l>con tal coraje tiró</l>
-              <l>que yo por la puerta falsa</l>
-              <l>empeze á llorar, de suerte</l>
-              <l>que las lagrimas que echaba</l>
-              <l>eran mas gordas que peros</l>
-            </lg>
+            <pb n="1" source="Varios_121_3.jpg" facs="varios/Varios_121_3.jpg/"/>
+            <head type="primer_titulo"><lb/>RELACION DE UN GANZO DE UN COR-<lb/>tijo, manifestando
+              el chasco que le sucedió la no-<lb/>che de S. Juan, en este presente año.</head>
+
+            <l><hi rend="negrita">D</hi>ios gracias, aca estamos toos</l>
+            <l>carambita que me entrampan,</l>
+            <l>¿es Sivilla esta Zuidad?</l>
+            <l>por que segun por la mapa</l>
+            <l>de muchachas y mancebos</l>
+            <l>no es otra cosa, mal haya</l>
+            <l>tal tierra amen</l>
+            <l>y tengo razon sobraa</l>
+            <l>para jablar isparates</l>
+            <l>de Sivilla y su comarca.</l>
+            <l>Sobre que estoy escamao</l>
+            <l>por porquito dejo el alma</l>
+            <l>en tan pustifera tierra</l>
+            <l>á mano de mi desgracia:</l>
+            <l>vaya solo un berrion</l>
+            <l>de mi historia bien formaa.</l>
+            <l>Yo salí de mi Cortijo,</l>
+            <l>en hora bueua ó en mala,</l>
+            <l>noche de S. Juan Batista</l>
+            <l>macuerdo que se llamaba</l>
+            <l>y vine á parar al puente</l>
+            <l>erecho alla por Triana.</l>
+            <l>Ojalá que en el camino</l>
+            <l>se me quebrara una pata,</l>
+            <l>y hubiera guelto al Cortijo</l>
+            <l>entre dos jaldas de paja</l>
+            <l>por no pasar tal virguenza.</l>
+            <l>Apenas puse las patas</l>
+            <l>en las calles de Sivilla</l>
+            <l>repare que siceaba</l>
+            <l>una mozuela, y desde</l>
+            <l>una ventanita alta</l>
+            <l>me jiso señas, mas yo</l>
+            <l>que no me merezco naa</l>
+            <l>me arrime aya ¡que muchacha!</l>
+            <l>¡que cachigorda!</l>
+            <l>¡que patas que me enseñaba!</l>
+            <l>y que buen troncho de pelo</l>
+            <l>que tenia la malvaa;</l>
+            <l>al ver tan grande proigio</l>
+            <l>yo me jise una batata</l>
+            <l>sin saber que le iria,</l>
+            <l>con los ojos me jablaba</l>
+            <l>y soltando de su boca</l>
+            <l>la sal que se le erramaba</l>
+            <l>¿que me traes? me ijo:</l>
+            <l>yo naa, le respondi,</l>
+            <l>mas si te agraa</l>
+            <l>aqui traigo algunos cuartos,</l>
+            <l>y me respondió pues baya</l>
+            <l>si algo traes yo te espero</l>
+            <l>y pelaremos la paba.</l>
+            <l>Sali como un torbellino</l>
+            <l>y compre piñones, pasas,</l>
+            <l>y un panal de aquellos grandes</l>
+            <l>que dan para vever agua.</l>
+            <l>Tambien le compre un muñeco</l>
+            <l>de una manera tan rara</l>
+            <l>que tirandole de un jilo</l>
+            <l>jasia dos mil muanzas.</l>
+            <l>Cuando golvi la encontré</l>
+            <l>risueña como una pascua:</l>
+            <l>me mandó que suba arriba</l>
+            <l>y por una reja falsa</l>
+            <l>me encaramé muy ligero</l>
+            <l>y le bi lo que llevava:</l>
+            <l>¿pero que jembra?</l>
+            <l>si se me ablandó la panza</l>
+            <l>y toditito mi cuerpo</l>
+            <l>se me gizo una sarandaja,</l>
+            <l>y yo como no soy lerdo</l>
+            <l>cuando vi que se arrimaba</l>
+            <l>por entre los mismos jierros</l>
+            <l>arrempujé con pijanza</l>
+            <l>la cabeza por pegalle</l>
+            <l>tan solo una tarascaa.</l>
+            <l>Ella juyo y yo quee</l>
+            <l>sin poer sacar la gaita;</l>
+            <l>paso entre paso se fue</l>
+            <l>y yo mientras mas tiraba</l>
+            <l>el mismo Demonio amigo</l>
+            <l>parece que me apretaba,</l>
+            <l>cual quearia mi cuerpo</l>
+            <l>cuando vi entrar en la sala</l>
+
+            <pb n="2" source="Varios_121_2.jpg" facs="varios/Varios_121_2.jpg/"/>
+
+            <l>una vieja y agarró</l>
+            <l>la bazinilla y se planta:</l>
+            <l>que truenos! que lluvia!</l>
+            <l>que juracan! que desata!</l>
+            <l>pero yo á too callao</l>
+            <l>porque en mi no reparara.</l>
+            <l>Mas apenas acabó</l>
+            <l>fue erecha á la ventana</l>
+            <l>y pensando que era yo</l>
+            <l>algun berijon de lana</l>
+            <l>se me regolvió de popa</l>
+            <l>con las naguas levantaas</l>
+            <l>y en medio de los josicos</l>
+            <l>me plantificó las nalgas</l>
+            <l>en fin se limpió y no mas</l>
+            <l>y decia la malvaa</l>
+            <l>esta lana á estao al sol</l>
+            <l>que está caliente, su alma</l>
+            <l>se caliente en los infiernos</l>
+            <l>pues me llenó de surrapa</l>
+            <l>ojos, narizes y boca:</l>
+            <l>cuando no eché yo allí el alma,</l>
+            <l>tripas, cuajar y asauras</l>
+            <l>pienso que nunca he de echarla,</l>
+            <l>y llamando á un hijo suyo</l>
+            <l>vino dando voces altas;</l>
+            <l>yo ije (para mi sallo)</l>
+            <l>ya esta corona la anza;</l>
+            <l>empeze á rezar el creo,</l>
+            <l>no queo Santo ni Santa</l>
+            <l>en toito el Calandario</l>
+            <l>á quien no me encomendara;</l>
+            <l>mas apenas que me vió</l>
+            <l>por las orejas me agarra,</l>
+            <l>con tal coraje tiró</l>
+            <l>que yo por la puerta falsa</l>
+            <l>empeze á llorar, de suerte</l>
+            <l>que las lagrimas que echaba</l>
+            <l>eran mas gordas que peros</l>
             <l>pa toos mis camaraas,</l>
             <l>sin duda lo tentó el diablo:</l>
             <l>luego fué y en una taza,</l>
@@ -1328,149 +1325,146 @@
             <l>y á las malditas muchachas</l>
             <l>pues de esta suerte me han puesto</l>
             <l>voy corriendo á buscar agua.</l>
-            <trailer>FIN.</trailer>
+            <trailer rend="negrita">FIN.</trailer>
           </div>
+
           <div type="colofon_vendedor">
-            <p><lb/>Con licencia: En Sevilla en la Imprenta de Aragon y
-                                          Compañia.</p>
+            <p><lb/>Con licencia: En Sevilla en la Imprenta de Aragon y Compañia.</p>
           </div>
         </div>
+
         <div n="2">
           <div>
-            <pb n="3" source="Varios_121_3.jpg" facs="fedora_Varios_121_3/full/full/0/default.jpg"/>
-            <head type="primer_titulo"><lb/>RELACION DE UN GANZO DE UN COR-<lb/>tijo,
-                                          manifestando el chasco que le sucedió la no-<lb/>che de
-                                          S. Juan, en este presente año.</head>
-            <lg>
-              <l>Dios gracias, aca estamos toos</l>
-              <l>carambita que me entrampan,</l>
-              <l>¿es Sivilla esta Zuidad?</l>
-              <l>por que segun por la mapa</l>
-              <l>de muchachas y mancebos</l>
-              <l>no es otra cosa, mal haya</l>
-              <l>tal tierra amen</l>
-              <l>y tengo razon sobraa</l>
-              <l>para jablar isparates</l>
-              <l>de Sivilla y su comarca.</l>
-              <l>Sobre que estoy escamao</l>
-              <l>por porquito dejo el alma</l>
-              <l>en tan pustifera tierra</l>
-              <l>á mano de mi desgracia:</l>
-              <l>vaya solo un berrion</l>
-              <l>de mi historia bien formaa.</l>
-              <l>Yo salí de mi Cortijo,</l>
-              <l>en hora bueua ó en mala,</l>
-              <l>noche de S. Juan Batista</l>
-              <l>macuerdo que se llamaba</l>
-              <l>y vine á parar al puente</l>
-              <l>erecho alla por Triana.</l>
-              <l>Ojalá que en el camino</l>
-              <l>se me quebrara una pata,</l>
-              <l>y hubiera guelto al Cortijo</l>
-              <l>entre dos jaldas de paja</l>
-              <l>por no pasar tal virguenza.</l>
-              <l>Apenas puse las patas</l>
-              <l>en las calles de Sivilla</l>
-              <l>repare que siceaba</l>
-              <l>una mozuela, y desde</l>
-              <l>una ventanita alta</l>
-              <l>me jiso señas, mas yo</l>
-              <l>que no me merezco naa</l>
-              <l>me arrime aya ¡que muchacha!</l>
-              <l>¡que cachigorda!</l>
-              <l>¡que patas que me enseñaba!</l>
-              <l>y que buen troncho de pelo</l>
-              <l>que tenia la malvaa;</l>
-              <l>al ver tan grande proigio</l>
-              <l>yo me jise una batata</l>
-              <l>sin saber que le iria,</l>
-            </lg>
-            <lg>
-              <l>con los ojos me jablaba</l>
-              <l>y soltando de su boca</l>
-              <l>la sal que se le erramaba</l>
-              <l>¿que me traes? me ijo:</l>
-              <l>yo naa, le respondi,</l>
-              <l>mas si te agraa</l>
-              <l>aqui traigo algunos cuartos,</l>
-              <l>y me respondió pues baya</l>
-              <l>si algo traes yo te espero</l>
-              <l>y pelaremos la paba.</l>
-              <l>Sali como un torbellino</l>
-              <l>y compre piñones, pasas,</l>
-              <l>y un panal de aquellos grandes</l>
-              <l>que dan para vever agua.</l>
-              <l>Tambien le compre un muñeco</l>
-              <l>de una manera tan rara</l>
-              <l>que tirandole de un jilo</l>
-              <l>jasia dos mil muanzas.</l>
-              <l>Cuando golvi la encontré</l>
-              <l>risueña como una pascua:</l>
-              <l>me mandó que suba arriba</l>
-              <l>y por una reja falsa</l>
-              <l>me encaramé muy ligero</l>
-              <l>y le bi lo que llevava:</l>
-              <l>¿pero que jembra?</l>
-              <l>si se me ablandó la panza</l>
-              <l>y toditito mi cuerpo</l>
-              <l>se me gizo una sarandaja,</l>
-              <l>y yo como no soy lerdo</l>
-              <l>cuando vi que se arrimaba</l>
-              <l>por entre los mismos jierros</l>
-              <l>arrempujé con pijanza</l>
-              <l>la cabeza por pegalle</l>
-              <l>tan solo una tarascaa.</l>
-              <l>Ella juyo y yo quee</l>
-              <l>sin poer sacar la gaita;</l>
-              <l>paso entre paso se fue</l>
-              <l>y yo mientras mas tiraba</l>
-              <l>el mismo Demonio amigo</l>
-              <l>parece que me apretaba,</l>
-              <l>cual quearia mi cuerpo</l>
-              <l>cuando vi entrar en la sala</l>
-            </lg>
-            <pb n="4" source="Varios_121_4.jpg" facs="fedora_Varios_121_4/full/full/0/default.jpg"/>
-            <lg>
-              <l>una vieja y agarró</l>
-              <l>la bazinilla y se planta:</l>
-              <l>que truenos! que lluvia!</l>
-              <l>que juracan! que desata!</l>
-              <l>pero yo á too callao</l>
-              <l>porque en mi no reparara.</l>
-              <l>Mas apenas acabó</l>
-              <l>fue erecha á la ventana</l>
-              <l>y pensando que era yo</l>
-              <l>algun berijon de lana</l>
-              <l>se me regolvió de popa</l>
-              <l>con las naguas levantaas</l>
-              <l>y en medio de los josicos</l>
-              <l>me plantificó las nalgas</l>
-              <l>en fin se limpió y no mas</l>
-              <l>y decia la malvaa</l>
-              <l>esta lana á estao al sol</l>
-              <l>que está caliente, su alma</l>
-              <l>se caliente en los infiernos</l>
-              <l>pues me llenó de surrapa</l>
-              <l>ojos, narizes y boca:</l>
-              <l>cuando no eché yo allí el alma,</l>
-              <l>tripas, cuajar y asauras</l>
-              <l>pienso que nunca he de echarla,</l>
-              <l>y llamando á un hijo suyo</l>
-              <l>vino dando voces altas;</l>
-              <l>yo ije (para mi sallo)</l>
-              <l>ya esta corona la anza;</l>
-              <l>empeze á rezar el creo,</l>
-              <l>no queo Santo ni Santa</l>
-              <l>en toito el Calandario</l>
-              <l>á quien no me encomendara;</l>
-              <l>mas apenas que me vió</l>
-              <l>por las orejas me agarra,</l>
-              <l>con tal coraje tiró</l>
-              <l>que yo por la puerta falsa</l>
-              <l>empeze á llorar, de suerte</l>
-              <l>que las lagrimas que echaba</l>
-              <l>eran mas gordas que peros</l>
-            </lg>
+            <pb n="3" source="Varios_121_3.jpg" facs="varios/Varios_121_3.jpg/"/>
+            <head type="primer_titulo"><lb/>RELACION DE UN GANZO DE UN COR-<lb/>tijo, manifestando
+              el chasco que le sucedió la no-<lb/>che de S. Juan, en este presente año.</head>
+
+            <l><hi rend="negrita">D</hi>ios gracias, aca estamos toos</l>
+            <l>carambita que me entrampan,</l>
+            <l>¿es Sivilla esta Zuidad?</l>
+            <l>por que segun por la mapa</l>
+            <l>de muchachas y mancebos</l>
+            <l>no es otra cosa, mal haya</l>
+            <l>tal tierra amen</l>
+            <l>y tengo razon sobraa</l>
+            <l>para jablar isparates</l>
+            <l>de Sivilla y su comarca.</l>
+            <l>Sobre que estoy escamao</l>
+            <l>por porquito dejo el alma</l>
+            <l>en tan pustifera tierra</l>
+            <l>á mano de mi desgracia:</l>
+            <l>vaya solo un berrion</l>
+            <l>de mi historia bien formaa.</l>
+            <l>Yo salí de mi Cortijo,</l>
+            <l>en hora bueua ó en mala,</l>
+            <l>noche de S. Juan Batista</l>
+            <l>macuerdo que se llamaba</l>
+            <l>y vine á parar al puente</l>
+            <l>erecho alla por Triana.</l>
+            <l>Ojalá que en el camino</l>
+            <l>se me quebrara una pata,</l>
+            <l>y hubiera guelto al Cortijo</l>
+            <l>entre dos jaldas de paja</l>
+            <l>por no pasar tal virguenza.</l>
+            <l>Apenas puse las patas</l>
+            <l>en las calles de Sivilla</l>
+            <l>repare que siceaba</l>
+            <l>una mozuela, y desde</l>
+            <l>una ventanita alta</l>
+            <l>me jiso señas, mas yo</l>
+            <l>que no me merezco naa</l>
+            <l>me arrime aya ¡que muchacha!</l>
+            <l>¡que cachigorda!</l>
+            <l>¡que patas que me enseñaba!</l>
+            <l>y que buen troncho de pelo</l>
+            <l>que tenia la malvaa;</l>
+            <l>al ver tan grande proigio</l>
+            <l>yo me jise una batata</l>
+            <l>sin saber que le iria,</l>
+            <l>con los ojos me jablaba</l>
+            <l>y soltando de su boca</l>
+            <l>la sal que se le erramaba</l>
+            <l>¿que me traes? me ijo:</l>
+            <l>yo naa, le respondi,</l>
+            <l>mas si te agraa</l>
+            <l>aqui traigo algunos cuartos,</l>
+            <l>y me respondió pues baya</l>
+            <l>si algo traes yo te espero</l>
+            <l>y pelaremos la paba.</l>
+            <l>Sali como un torbellino</l>
+            <l>y compre piñones, pasas,</l>
+            <l>y un panal de aquellos grandes</l>
+            <l>que dan para vever agua.</l>
+            <l>Tambien le compre un muñeco</l>
+            <l>de una manera tan rara</l>
+            <l>que tirandole de un jilo</l>
+            <l>jasia dos mil muanzas.</l>
+            <l>Cuando golvi la encontré</l>
+            <l>risueña como una pascua:</l>
+            <l>me mandó que suba arriba</l>
+            <l>y por una reja falsa</l>
+            <l>me encaramé muy ligero</l>
+            <l>y le bi lo que llevava:</l>
+            <l>¿pero que jembra?</l>
+            <l>si se me ablandó la panza</l>
+            <l>y toditito mi cuerpo</l>
+            <l>se me gizo una sarandaja,</l>
+            <l>y yo como no soy lerdo</l>
+            <l>cuando vi que se arrimaba</l>
+            <l>por entre los mismos jierros</l>
+            <l>arrempujé con pijanza</l>
+            <l>la cabeza por pegalle</l>
+            <l>tan solo una tarascaa.</l>
+            <l>Ella juyo y yo quee</l>
+            <l>sin poer sacar la gaita;</l>
+            <l>paso entre paso se fue</l>
+            <l>y yo mientras mas tiraba</l>
+            <l>el mismo Demonio amigo</l>
+            <l>parece que me apretaba,</l>
+            <l>cual quearia mi cuerpo</l>
+            <l>cuando vi entrar en la sala</l>
+
+            <pb n="4" source="Varios_121_4.jpg" facs="varios/Varios_121_4.jpg/"/>
+
+            <l>una vieja y agarró</l>
+            <l>la bazinilla y se planta:</l>
+            <l>que truenos! que lluvia!</l>
+            <l>que juracan! que desata!</l>
+            <l>pero yo á too callao</l>
+            <l>porque en mi no reparara.</l>
+            <l>Mas apenas acabó</l>
+            <l>fue erecha á la ventana</l>
+            <l>y pensando que era yo</l>
+            <l>algun berijon de lana</l>
+            <l>se me regolvió de popa</l>
+            <l>con las naguas levantaas</l>
+            <l>y en medio de los josicos</l>
+            <l>me plantificó las nalgas</l>
+            <l>en fin se limpió y no mas</l>
+            <l>y decia la malvaa</l>
+            <l>esta lana á estao al sol</l>
+            <l>que está caliente, su alma</l>
+            <l>se caliente en los infiernos</l>
+            <l>pues me llenó de surrapa</l>
+            <l>ojos, narizes y boca:</l>
+            <l>cuando no eché yo allí el alma,</l>
+            <l>tripas, cuajar y asauras</l>
+            <l>pienso que nunca he de echarla,</l>
+            <l>y llamando á un hijo suyo</l>
+            <l>vino dando voces altas;</l>
+            <l>yo ije (para mi sallo)</l>
+            <l>ya esta corona la anza;</l>
+            <l>empeze á rezar el creo,</l>
+            <l>no queo Santo ni Santa</l>
+            <l>en toito el Calandario</l>
+            <l>á quien no me encomendara;</l>
+            <l>mas apenas que me vió</l>
+            <l>por las orejas me agarra,</l>
+            <l>con tal coraje tiró</l>
+            <l>que yo por la puerta falsa</l>
+            <l>empeze á llorar, de suerte</l>
+            <l>que las lagrimas que echaba</l>
+            <l>eran mas gordas que peros</l>
             <l>pa toos mis camaraas,</l>
             <l>sin duda lo tentó el diablo:</l>
             <l>luego fué y en una taza,</l>
@@ -1510,11 +1504,11 @@
             <l>y á las malditas muchachas</l>
             <l>pues de esta suerte me han puesto</l>
             <l>voy corriendo á buscar agua.</l>
-            <trailer>FIN.</trailer>
+            <trailer rend="negrita">FIN.</trailer>
           </div>
+          
           <div type="colofon_vendedor">
-            <p><lb/>Con licencia: En Sevilla en la Imprenta de Aragon y
-                                          Compañia.</p>
+            <p><lb/>Con licencia: En Sevilla en la Imprenta de Aragon y Compañia.</p>
           </div>
         </div>
       </div>

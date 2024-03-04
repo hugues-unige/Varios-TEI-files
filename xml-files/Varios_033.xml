@@ -1,22 +1,17 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../Schema/oddPliego_varios.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:alto="http://www.loc.gov/standards/alto/ns-v4#" xml:id="Varios_033">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Varios_033">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>EL CANTOR DE LAS HERMOSAS. TROVAS DE AMOR DEDICADAS AL BELLO SECSO
-                              POR UNOS AFICIONADOS.</title>
+        <title>EL CANTOR DE LAS HERMOSAS</title>
         <respStmt>
           <name/>
           <resp>Codificación TEI</resp>
-          <note type="propiedad">A. C.</note>
-          <note type="propiedad">E. S.</note>
-          <note type="propiedad">P. A.</note>
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <authority role="rightsHolder">Bibliothèque Universitaire de
-                              Genève</authority>
+        <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
         <availability status="restricted">
           <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
         </availability>
@@ -24,18 +19,17 @@
       <sourceDesc>
         <biblFull>
           <titleStmt>
-            <title type="titulo_completo">EL CANTOR DE LAS HERMOSAS. TROVAS
-                                          DE AMOR DEDICADAS AL BELLO SECSO POR UNOS
-                                          AFICIONADOS.</title>
-            <title type="titulo_breve">EL CANTOR DE LAS HERMOSAS</title>
+            <title type="titulo_completo">EL CANTOR DE LAS HERMOSAS. TROVAS DE AMOR DEDICADAS AL
+              BELLO SECSO POR UNOS AFICIONADOS.</title>
+            <title type="titulo_breve">EL CANTOR DE LAS HERMOSAS.</title>
           </titleStmt>
           <editionStmt>
             <p/>
           </editionStmt>
           <publicationStmt>
-            <publisher>Narciso Ramirez y Comp. ª</publisher>
+            <publisher>Narciso Ramírez</publisher>
             <pubPlace ref="https://www.geonames.org/3128760/barcelona.html">Barcelona</pubPlace>
-            <date>[s.a]</date>
+            <date cert="low" when="1800-01-01">[s.a.]</date>
           </publicationStmt>
         </biblFull>
         <msDesc>
@@ -43,7 +37,8 @@
             <country>Suisse</country>
             <settlement>Genève</settlement>
             <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"/>
-                                    </repository>
+            </repository>
+            <collection>Colección Varios</collection>
             <idno type="cote"/>
             <idno type="DOI">10.5281/zenodo.6554210</idno>
             <altIdentifier>
@@ -51,10 +46,21 @@
             </altIdentifier>
           </msIdentifier>
           <msContents>
-            <summary/>
+            <summary>Tres canciones</summary>
             <msItem>
-              <locus/>
-              <title/>
+              <locus>1-2</locus>
+              <title>Flor querida</title>
+              <author ref="letrista">A. C.</author>
+            </msItem>
+            <msItem>
+              <locus>2</locus>
+              <title>La mascarilla</title>
+              <author ref="letrista">E. S.</author>
+            </msItem>
+            <msItem>
+              <locus>3-4</locus>
+              <title>Lo pinxo de platxa</title>
+              <author ref="letrista">P. A.</author>
             </msItem>
           </msContents>
           <physDesc>
@@ -84,12 +90,10 @@
           </physDesc>
           <history>
             <origin>
-              <p>Barcelona : — Imprenta de Narciso Ramirez y Comp. ª,
-                                                pasaje de Escudillers, 4.</p>
+              <p>Barcelona : — Imprenta de Narciso Ramirez y Comp. ª, pasaje de Escudillers, 4.</p>
             </origin>
             <provenance>
-              <p>Se halla de venta en casa Antonio Bosch, Bou de la
-                                                Plaza Nova, 13, tienda.</p>
+              <p>Se halla de venta en casa Antonio Bosch, Bou de la Plaza Nova, 13, tienda.</p>
             </provenance>
             <acquisition/>
           </history>
@@ -98,18 +102,17 @@
     </fileDesc>
     <encodingDesc>
       <projectDesc>
-        <p>Este archivo fue creado en el marco del proyecto Desenrollando el
-                              Cordel/Démêler le cordel/Untangling the cordel, dirigido por la
-                              profesora Constance Carta de la Universidad de Ginebra, con el apoyo
-                              de la Fundación filantrópica Famille Sandoz-Monique de Meuron.</p>
+        <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+          cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la Universidad
+          de Ginebra, con el apoyo de la Fundación filantrópica Famille Sandoz-Monique de
+          Meuron.</p>
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR non corregido</p>
+          <p>OCR no corregido</p>
         </correction>
         <normalization>
-          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto
-                                    original.</p>
+          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
         </normalization>
         <punctuation>
           <p>Se conserva la puntuación original.</p>
@@ -130,11 +133,12 @@
       </textClass>
     </profileDesc>
     <revisionDesc>
-      <change when="2022-05-11" who="#PJ">Création du fichier TEI P5 et encodage du
-                        corps du texte</change>
+      <change when="2022-05-11" who="#PJ">Création du fichier TEI P5 et encodage du corps du
+        texte</change>
+<change when="2024-01-09" who="#EL">Add the IIIF links</change>
     </revisionDesc>
   </teiHeader>
-  <sourceDoc xml:id="automaticTranscription">
+  <facsimile><graphic url="varios/Varios_033_1.jpg/full/200,/0/default.jpg"/></facsimile><sourceDoc xml:id="automaticTranscription">
     <surface xml:id="Varios_033_1" type="page" cert="silver">
       <graphic url="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_033_1/full/full/0/default.jpg"/>
       <zone xml:id="Varios_033_1_BT222_1" n="1" type="CustomZone" subtype="numero_pliego" points="1224,145 1224,231 1249,231 1257,231 1478,231 1478,145 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_033_1/1224,145,254,86/full/0/default" corresp="CustomZone:numero_pliego">
@@ -913,8 +917,7 @@
       <zone xml:id="Varios_033_4_BT228_5" n="5" type="MarginTextZone" subtype="colophon" points="210,2105 203,2018 464,2006 1669,2012 1674,2090 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_033_4/203,2006,1471,99/full/0/default" corresp="MarginTextZone:colophon">
         <zone xml:id="Varios_033_4_BT228_5_LT83_1" type="DefaultLine" subtype="none" points="225,2065 223,1987 381,2000 489,1987 504,1987 506,1987 517,1987 605,2002 616,1993 616,1991 618,1991 620,1991 622,1991 686,1998 730,1989 756,1984 758,1984 761,1984 778,1989 846,2011 1158,2011 1184,1993 1199,1982 1201,1982 1204,1982 1206,1982 1324,1982 1327,1982 1329,1982 1329,1984 1340,1993 1355,2008 1625,2008 1645,1995 1656,2059 1653,2070 225,2092 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_033_4/223,1982,1433,110/full/0/default" corresp="DefaultLine">
           <path xml:id="Varios_033_4_BT228_5_LT83_1_1" points="227,2067 1657,2061 "/>
-          <line>Se halla de venta en casa Antonio Bosch, Bou de la Plaza Nova,
-                                    13, tienda.</line>
+          <line>Se halla de venta en casa Antonio Bosch, Bou de la Plaza Nova, 13, tienda.</line>
         </zone>
       </zone>
       <zone xml:id="Varios_033_4_BT226_6" n="6" type="MainZone" subtype="none" points="1137,1694 1137,1820 1493,1820 1493,1694 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_033_4/1137,1694,356,126/full/0/default" corresp="MainZone">
@@ -926,8 +929,8 @@
       <zone xml:id="Varios_033_4_BT228_7" n="7" type="MarginTextZone" subtype="colophon" points="1605,2171 1577,2206 1609,2263 1517,2248 328,2246 307,2188 338,2133 947,2111 1561,2111 1591,2128 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_033_4/307,2111,1302,152/full/0/default" corresp="MarginTextZone:colophon">
         <zone xml:id="Varios_033_4_BT228_7_LT83_1" type="DefaultLine" subtype="none" points="320,2193 315,2157 451,2142 451,2142 454,2142 454,2142 456,2142 456,2142 456,2142 458,2142 475,2155 495,2155 726,2155 734,2151 767,2140 769,2140 769,2140 769,2140 772,2140 772,2140 774,2140 774,2140 802,2151 807,2151 809,2151 842,2140 844,2140 844,2140 844,2140 846,2140 846,2140 846,2140 848,2140 848,2140 870,2149 875,2151 881,2149 914,2140 916,2140 916,2140 919,2140 919,2140 919,2140 921,2140 921,2140 921,2140 923,2140 923,2140 932,2149 936,2151 1552,2142 1559,2186 1555,2256 1513,2239 1484,2252 1484,2252 1484,2252 1482,2252 1482,2252 1480,2252 1480,2252 1480,2252 1478,2252 1478,2252 1478,2252 1476,2252 1476,2252 1456,2234 1423,2254 1412,2263 1410,2263 1410,2263 1410,2263 1408,2263 1408,2263 1408,2265 1300,2265 1298,2263 1298,2263 1296,2263 1296,2263 1296,2263 1294,2263 1280,2252 1278,2252 1274,2252 1241,2263 1239,2263 1239,2263 1239,2263 1237,2263 1237,2263 1234,2263 1234,2263 1234,2263 1212,2252 1180,2234 1142,2252 1125,2258 1125,2258 1123,2258 1123,2258 1123,2258 1120,2258 1120,2258 1118,2258 1118,2258 1118,2258 1103,2249 1074,2236 879,2236 868,2247 851,2263 851,2265 851,2265 848,2265 848,2265 848,2265 846,2265 846,2265 846,2265 844,2265 844,2265 745,2252 706,2267 706,2267 704,2267 704,2267 701,2267 701,2267 579,2254 539,2267 539,2267 537,2267 537,2267 535,2267 535,2267 535,2267 532,2267 532,2267 530,2267 530,2267 513,2254 500,2265 500,2267 500,2267 497,2267 497,2267 497,2267 495,2267 495,2267 495,2269 443,2269 440,2267 440,2267 438,2267 438,2267 438,2267 436,2267 399,2241 392,2239 320,2239 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_033_4/315,2140,1244,129/full/0/default" corresp="DefaultLine">
           <path xml:id="Varios_033_4_BT228_7_LT83_1_1" points="322,2195 1561,2188 "/>
-          <line>Barcelona : — Imprenta de Narciso Ramirez y Comp. ª, pasaje de
-                                    Escudillers, 4.</line>
+          <line>Barcelona : — Imprenta de Narciso Ramirez y Comp. ª, pasaje de Escudillers,
+            4.</line>
         </zone>
       </zone>
     </surface>
@@ -936,125 +939,156 @@
     <body>
       <div>
         <div>
-          <pb n="1" source="Varios_033_1.jpg" facs="fedora_Varios_033_1/full/full/0/default.jpg"/>
+          <pb n="1" source="Varios_033_1.jpg" facs="varios/Varios_033_1.jpg/"/>
+
           <fw type="impresorNum">Número 27.</fw>
+
           <head type="primer_titulo" rend="negrita"><lb/>EL<lb/>CANTOR DE LAS HERMOSAS.</head>
-          <head type="subtitulo_parte"><lb/>TROVAS DE AMOR DEDICADAS AL BELLO
-                                    SECSO POR UNOS <lb/>AFICIONADOS.</head>
-          <div n="1" type="parte">
-            <head type="titulo_cancion"><lb/>81 FLOR QUERIDA.<lb/><hi rend="negrita">CANCION.</hi></head>
-            <lg>
-              <l>I.</l>
-              <l>Ya pasaron los dìas alegres</l>
+          <head type="subtitulo"><lb/>TROVAS DE AMOR DEDICADAS AL BELLO SECSO POR UNOS
+            <lb/>AFICIONADOS.</head>
+
+          <div n="1">
+            <head type="titulo_cancion">81 FLOR QUERIDA.</head>
+            <head type="subtitulo_cancion" rend="negrita">CANCION.</head>
+
+            <lg n="1">
+              <head type="titulo_estrofa">I.</head>
+              <l rend="indent">Ya pasaron los dìas alegres</l>
               <l>Que á mi suerte ampararon amores,</l>
               <l>Y Cupido sembraba de flores</l>
               <l>El pensil que empezaba á gozar;</l>
-              <l>Y esas flores que loco creia</l>
+              <l rend="indent">Y esas flores que loco creia</l>
               <l>Que jamás las veria marchitas,</l>
               <l>Al soplar cierzo vil, cual malditas</l>
               <l>Una à una las vi deshojar.</l>
             </lg>
-            <lg>
-              <l>II.</l>
-              <l>Se salvó la mi dor predilecta</l>
+
+            <lg n="2">
+              <head type="titulo_estrofa">II.</head>
+              <l rend="indent">Se salvó la mi dor predilecta</l>
               <l>Que ostentaba modesta corola,</l>
               <l>Pues amor con destreza cogióla</l>
               <l>Y en mi pecho leal la posó.</l>
-              <l>Esa flor es mi cara Pepita,</l>
+              <l rend="indent">Esa flor es mi cara Pepita,</l>
               <l>Tan modesta á la par que sencilla</l>
               <l>Que al igual de la tierna avecilla</l>
               <l>Nunca doto en su amor albergó.</l>
             </lg>
-            <pb n="2" source="Varios_033_2.jpg" facs="fedora_Varios_033_2/full/full/0/default.jpg"/>
-            <lg>
-              <l>III.</l>
-              <l>Peregrino su rostro, rosadas</l>
+
+            <pb n="2" source="Varios_033_2.jpg" facs="varios/Varios_033_2.jpg/"/>
+
+            <lg n="3">
+              <head type="titulo_estrofa">III.</head>
+              <l rend="indent">Peregrino su rostro, rosadas</l>
               <l>Sus mejillas, ardientes y hermosas;</l>
               <l>En sus lábios corolas de rosas</l>
               <l>Ostentaba y el bello carmin.</l>
-              <l>En mis sueños tranquilos, radiante</l>
+              <l rend="indent">En mis sueños tranquilos, radiante</l>
               <l>Víla siempre cruzar y esplendente;</l>
               <l>Y en insólito amor, en mi mente,</l>
               <l>La forjaba de Dios querubin.</l>
             </lg>
-            <lg>
-              <l>IV.</l>
-              <l>¿No recuerdas, Pepita, los dias</l>
+
+            <lg n="4">
+              <head type="titulo_estrofa">IV.</head>
+              <l rend="indent">¿No recuerdas, Pepita, los dias</l>
               <l>Que en la vasta y umbrosa pradera</l>
               <l>Cuando el Mayo en teliz primavera</l>
               <l>Presta al campo encantado verdor?</l>
-              <l>¿ Y al gozar del balsamado ambiente</l>
+              <l rend="indent">¿ Y al gozar del balsamado ambiente</l>
               <l>Por la flor campesina impregnado,</l>
               <l>Cuán risueña y gentil á mi lado</l>
               <l>Me juraste ser dueño en tu amor ?</l>
             </lg>
-            <lg>
-              <l>V.</l>
-              <l>¡ Oh, Pepita ! jamás transitorio</l>
+
+            <lg n="5">
+              <head type="titulo_estrofa">V.</head>
+              <l rend="indent">¡ Oh, Pepita ! jamás transitorio</l>
               <l>Fué el afecto que puro juraste;</l>
               <l>Siempre firme, tan solo anhelaste</l>
               <l>La promesa de amante cumplir.</l>
-              <l>Y asi humilde y amante rendido</l>
+              <l rend="indent">Y asi humilde y amante rendido</l>
               <l>Yo te ofrezco mi alma y mi vida,</l>
-              <l>Pues serás para mi, flor querida,</l>
+              <l>Pues serás para mi, <hi rend="cursiva">flor querida</hi>,</l>
               <l>La que endulces mi amargo existir.</l>
             </lg>
             <p><lb/>A.C. </p>
           </div>
-          <div>
-            <head type="titulo_cancion"><lb/>82 LA MASCARILLA.<lb/>CANCION</head>
-            <lg>
-              <l>I.</l>
-              <l>Aqui esta la mascarilla</l>
-              <l>con su dominó y su chal.</l>
-              <l>que de ballar cansadita,</l>
-              <l>viene un rato á reposar.</l>
-              <l>En el baile, en el paseo</l>
-              <l>á caballo, en coche, á pié,</l>
-              <l>todo el mundo, el apeleo</l>
-              <l>me está dando, ya se vé.</l>
-              <l>Mas yo miro</l>
-              <l>del chiquillo</l>
-              <l>si el bolsillo</l>
-              <l>es templá.</l>
-              <l>Y á no estarlo</l>
-              <l>digo airosa;</l>
-              <l>á otra moza,</l>
-              <l>camará.</l>
+
+          <div n="2">
+            <head type="titulo_cancion"><lb/>82 <hi rend="negrita">LA MASCARILLA.</hi></head>
+            <head type="subtitulo_cancion">CANCION.</head>
+
+            <lg n="1">
+              <head type="titulo_estrofa">I.</head>
+              <lg>
+                <l rend="indent">Aqui esta la mascarilla</l>
+                <l>con su dominó y su chal.</l>
+                <l>que de ballar cansadita,</l>
+                <l>viene un rato á reposar.</l>
+              </lg>
+
+              <lg>
+                <l rend="indent">En el baile, en el paseo</l>
+                <l>á caballo, en coche, á pié,</l>
+                <l>todo el mundo, el apeleo</l>
+                <l>me está dando, ya se vé.</l>
+              </lg>
+
+              <lg>
+                <l rend="indent">Mas yo miro</l>
+                <l>del chiquillo</l>
+                <l>si el bolsillo</l>
+                <l>es templá.</l>
+              </lg>
+
+              <lg>
+                <l rend="indent">Y á no estarlo</l>
+                <l>digo airosa;</l>
+                <l>á otra moza,</l>
+                <l>camará.</l>
+              </lg>
             </lg>
-            <lg>
-              <l>II.</l>
-              <l>Soy reina del coquetismo,</l>
+
+            <lg n="2">
+              <head type="titulo_estrofa">II.</head>
+              <l rend="indent">Soy reina del coquetismo,</l>
               <l>y amante de zascandiles;</l>
               <l>los pisaverdes, á miles,</l>
               <l>acnden á mi taller.</l>
-              <l>Y en el baile, en el paseo, etc.</l>
+              <l rend="indent">Y en el baile, en el paseo, etc.</l>
             </lg>
-            <lg>
-              <l>III.</l>
-              <l>Las mujeres me detestan</l>
+
+            <lg n="3">
+              <head type="titulo_estrofa">III.</head>
+              <l rend="indent">Las mujeres me detestan</l>
               <l>porque los hombres me quieren.</l>
               <l>y por mas que ellas no quieran</l>
               <l>siempre yo he de decir:</l>
-              <l>Que en el baile, en el paseo, etc.</l>
+              <l rend="indent">Que en el baile, en el paseo, etc.</l>
             </lg>
-            <lg>
-              <l>IV.</l>
-              <l>Cubre con la mascarilla</l>
+
+            <lg n="4">
+              <head type="titulo_estrofa">IV.</head>
+              <l rend="indent">Cubre con la mascarilla</l>
               <l>su rostro la mujer fea,</l>
               <l>mas yo quiero que me vea</l>
               <l>el mundo, y me oiga decir:</l>
-              <l>Que en e baila, en el paseo, etc.</l>
+              <l rend="indent">Que en e baila, en el paseo, etc.</l>
             </lg>
             <p><lb/>E. S.</p>
-            <pb n="3" source="Varios_033_3.jpg" facs="fedora_Varios_033_3/full/full/0/default.jpg"/>
-            <fw type="paginaNum">107</fw>
           </div>
-          <div>
-            <head type="titulo_cancion"><lb/>83. LO PINXO DE PLATXA.</head>
-            <lg>
-              <l>I.</l>
-              <l>Una vida regalada</l>
+
+          <div n="3">
+            <pb n="3" source="Varios_033_3.jpg" facs="varios/Varios_033_3.jpg/"/>
+
+            <fw type="paginaNum">107</fw>
+
+            <head type="titulo_cancion"><lb/>83. <hi rend="negrita">LO PINXO DE PLATXA.</hi></head>
+
+            <lg n="1">
+              <head type="titulo_estrofa">I.</head>
+              <l rend="indent">Una vida regalada</l>
               <l>Com la que passo, fills meus,</l>
               <l>No la tenen los marquesos,</l>
               <l>Ni'ls mes richs, ni 'ls bons hereus:</l>
@@ -1071,9 +1105,10 @@
               <l>Puch di que 'l beseju</l>
               <l>Al que me la fá:</l>
             </lg>
-            <lg>
-              <l>II.</l>
-              <l>Vaitx quedá sens pare y mare,</l>
+
+            <lg n="2">
+              <head type="titulo_estrofa">II.</head>
+              <l rend="indent">Vaitx quedá sens pare y mare,</l>
               <l>Lo meu negosi ba sé</l>
               <l>Majordom de traurer barcas</l>
               <l>Yescribent del bon papé.</l>
@@ -1090,11 +1125,14 @@
               <l>Li ensenyo la estella</l>
               <l>Y may mes menja pá.</l>
             </lg>
-            <pb n="4" source="Varios_033_4.jpg" facs="fedora_Varios_033_4/full/full/0/default.jpg"/>
+
+            <pb n="4" source="Varios_033_4.jpg" facs="varios/Varios_033_4.jpg/"/>
+
             <fw type="paginaNum">108</fw>
-            <lg>
-              <l>III.</l>
-              <l>Un dia estanme á la platxa</l>
+
+            <lg n="3">
+              <head type="titulo_estrofa">III.</head>
+              <l rend="indent">Un dia estanme á la platxa</l>
               <l>En una astora sentat,</l>
               <l>En veitx vení un pobre cundú,</l>
               <l>Ab una jeva al costat,</l>
@@ -1111,9 +1149,10 @@
               <l>Tiru de parriure</l>
               <l>Rascantli la pell.</l>
             </lg>
-            <lg>
-              <l>IV.</l>
-              <l>Una nit sellán de un burlu</l>
+
+            <lg n="4">
+              <head type="titulo_estrofa">IV.</head>
+              <l rend="indent">Una nit sellán de un burlu</l>
               <l>Una bronca vaix teni,</l>
               <l>Men van sortí set arondus,</l>
               <l>Jo no estaba per rañi,</l>
@@ -1130,9 +1169,10 @@
               <l>Y ab menos de un credu</l>
               <l>Va aná á sopá ab Déu.</l>
             </lg>
-            <lg>
-              <l>V.</l>
-              <l>Soch perseguit de la gura,</l>
+
+            <lg n="5">
+              <head type="titulo_estrofa">V.</head>
+              <l rend="indent">Soch perseguit de la gura,</l>
               <l>Repós nom dona un moment,</l>
               <l>Tan sols ne veitx un que passi</l>
               <l>No crech que m' afani l' vent,</l>
@@ -1149,17 +1189,18 @@
               <l>Si abaro m' xivelan.</l>
               <l>Per cobrá 'ls calés.</l>
             </lg>
+
             <p><lb/>P. A.</p>
-            <p><lb/>( Es propiedad.)</p>
+            <p><lb/>(Es propiedad.)</p>
           </div>
-          <div type="colofon_impresora">
-            <p><lb/>Barcelona : — Imprenta de Narciso Ramirez y Comp. ª,
-                                          pasaje de Escudillers, 4.</p>
-          </div>
-          <div type="colofon_vendedor">
-            <p><lb/>Se halla de venta en casa Antonio Bosch, Bou de la Plaza
-                                          Nova, 13, tienda.</p>
-          </div>
+        </div>
+
+        <div type="colofon_vendedor">
+          <p rend="cursiva"><lb/>Se halla de venta en casa Antonio Bosch, Bou de la Plaza Nova, 13, tienda.</p>
+        </div>
+        
+        <div type="colofon_impresor">
+          <p><lb/>Barcelona : — Imprenta de Narciso Ramirez y Comp. ª, pasaje de Escudillers, 4.</p>
         </div>
       </div>
     </body>

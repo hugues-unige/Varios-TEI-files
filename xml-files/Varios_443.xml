@@ -4,9 +4,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>HISTORIA VERDADERA, Y EXEMPLAR DEL GRAN MARTIR ESPAÑOL SAN LORENZO,
-                              SACADA DE SAN AMBROSIO, EUSEBIO, Schedel Chronicon Mundi, Simeon
-                              Metafrafte, y otros.</title>
+        <title>HISTORIA VERDADERA, Y EXEMPLAR DEL GRAN MARTIR ESPAÑOL SAN LORENZO</title>
         <respStmt>
           <name xml:id="PJ">Pauline Jacsont</name>
           <resp>Codificación TEI</resp>
@@ -33,9 +31,9 @@
             <p/>
           </editionStmt>
           <publicationStmt>
-            <publisher>Librería de Francisco Benedito</publisher>
+            <publisher>Francisco Benedito</publisher>
             <pubPlace ref="https://www.geonames.org/2513416/murcia.html">Murcia</pubPlace>
-            <date cert="high">1772</date>
+            <date cert="high" when="1772-01-01">1772</date>
           </publicationStmt>
         </biblFull>
         <msDesc>
@@ -44,6 +42,7 @@
             <settlement>Genève</settlement>
             <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"/>
                                     </repository>
+            <collection>Colección Varios</collection>
             <idno type="cote"/>
             <idno type="DOI">10.5281/zenodo.6802792</idno>
             <altIdentifier>
@@ -72,7 +71,7 @@
               </layoutDesc>
             </objectDesc>
             <decoDesc>
-              <summary n="1">Uno grabados (p.1) </summary>
+              <summary n="1">Un grabados (p.1) </summary>
               <decoNote type="lista_grabados">
                 <list>
                   <item corresp="grabado_v_443_1.xml">grabado_v_443_1</item>
@@ -100,7 +99,7 @@
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR non corregido</p>
+          <p>OCR no corregido</p>
         </correction>
         <normalization>
           <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto
@@ -123,11 +122,10 @@
       </textClass>
     </profileDesc>
     <revisionDesc>
-      <change when="2024-01-01" who="#PJ">Création du fichier TEI P5 et encodage du
-                        corps du texte</change>
+<change when="2024-01-09" who="#EL">Add the IIIF links</change>
     </revisionDesc>
   </teiHeader>
-  <sourceDoc xml:id="automaticTranscription">
+  <facsimile><graphic url="varios/Varios_443_1.jpg/full/200,/0/default.jpg"/></facsimile><sourceDoc xml:id="automaticTranscription">
     <surface xml:id="Varios_443_1" type="page" cert="silver">
       <graphic url="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_443_1/full/full/0/default.jpg"/>
       <zone xml:id="Varios_443_1_BT223_1" n="1" type="CustomZone" subtype="title" points="961,635 961,1306 88,1309 95,635 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_443_1/88,635,873,674/full/0/default" corresp="CustomZone:title">
@@ -3157,7 +3155,7 @@
   <text>
     <body>
       <div>
-        <pb n="1" source="Varios_443_1.jpg" facs="fedora_Varios_443_1/full/full/0/default.jpg"/>
+        <pb n="1" source="Varios_443_1.jpg" facs="varios/Varios_443_1.jpg/"/>
         <head type="primer_titulo" rend="negrita"><lb/><hi rend="negrita">HISTORIA</hi><lb/>VERDADERA, Y EXEMPLAR<lb/>DEL GRAN MARTIR
                               ESPAÑOL<lb/><hi rend="negrita">SAN LORENZO,</hi><lb/>SACADA DE SAN AMBROSIO, EUSEBIO</head>
         <head type="subtitulo_parte"><lb/>Schedel Chronicon Mundi, Simeon
@@ -3168,8 +3166,8 @@
                                     Benedito, vive en la Plateria, donde se hallarà esta, y otras
                                     diferentes. Año de 1772.</p>
         </div>
-        <pb n="2" source="Varios_443_2.jpg" facs="fedora_Varios_443_2/full/full/0/default.jpg"/>
-        <pb n="3" source="Varios_443_3.jpg" facs="fedora_Varios_443_3/full/full/0/default.jpg"/>
+        <pb n="2" source="Varios_443_2.jpg" facs="varios/Varios_443_2.jpg/"/>
+        <pb n="3" source="Varios_443_3.jpg" facs="varios/Varios_443_3.jpg/"/>
         <fw type="paginaNum">3</fw>
         <div type="parte" n="1">
           <head type="titulo_parte"><lb/>RESUMEN DE LA HISTORIA.</head>
@@ -3207,7 +3205,7 @@
                                     los Autores fuè el primero que se celebrò en <lb/>España en
                                     la Ciudad de Toledo) la Fè Catholica este <fw type="signaturas">A2</fw>
                                     <fw type="reclamos">Santo</fw>
-                                    <pb n="4" source="Varios_443_4.jpg" facs="fedora_Varios_443_4/full/full/0/default.jpg"/>
+                                    <pb n="4" source="Varios_443_4.jpg" facs="varios/Varios_443_4.jpg/"/>
                                     <fw type="paginaNum">4</fw>
                                     <fw type="titulo_corriente" rend="cursiva">Historia
                                           verdadera</fw>
@@ -3241,7 +3239,7 @@
                                     desde Tybe- <lb/>rio, y antes se havian olvidado, por conocerlas
                                     feas, <lb/>tyranas, y execrables, aun á fus falsos Dioses. De
                                           <fw type="reclamos">mu-</fw>
-                                    <pb n="5" source="Varios_443_5.jpg" facs="fedora_Varios_443_5/full/full/0/default.jpg"/>
+                                    <pb n="5" source="Varios_443_5.jpg" facs="varios/Varios_443_5.jpg/"/>
                                     <fw type="paginaNum">5</fw>
                                     <fw type="titulo_corriente" rend="cursiva">de San Lorenzo
                                           Martyr.</fw>
@@ -3273,7 +3271,7 @@
           <p rend="cursiva"><lb/>Què piedad es manchar con sangre humana <lb/>El
                                     Templo! O causa infiel de las maldades! <lb/>Què, ignoran de los
                                     Dioses la clemente <lb/>Naturaleza impios los mortales! <fw type="reclamos">Id,</fw>
-                                    <pb n="6" source="Varios_443_6.jpg" facs="fedora_Varios_443_6/full/full/0/default.jpg"/>
+                                    <pb n="6" source="Varios_443_6.jpg" facs="varios/Varios_443_6.jpg/"/>
                                     <fw type="titulo_corriente" rend="cursiva">Historia
                                           verdadera</fw>
                                     <lb/>Id, y llenad de religioso incienso <lb/>En fragrantes
@@ -3300,7 +3298,7 @@
                                     <lb/>ciones que Gelon, Tyrano de Siracusa, puso en la <lb/>paz
                                     que capitulò con ellos, prohibir las victimas hu- <lb/>manas.
                                     Pero aunque suspendieron tan inhumanos <fw type="reclamos">fa-</fw>
-                                    <pb n="7" source="Varios_443_7.jpg" facs="fedora_Varios_443_7/full/full/0/default.jpg"/>
+                                    <pb n="7" source="Varios_443_7.jpg" facs="varios/Varios_443_7.jpg/"/>
                                     <fw type="titulo_corriente" rend="cursiva">de San Lorenzo
                                           Martyr</fw>
                                     <lb/>sacrificios, ò los minoraron, no los dejaron hasta que
@@ -3332,7 +3330,7 @@
                                     para practicar sus in- <lb/>humanidades, y ejecutar sus
                                     idolatrados cultos. En <lb/>eltos tiempos tan crueles campearon
                                     nuestros ilus- <fw type="reclamos">tres</fw>
-                                    <pb n="8" source="Varios_443_8.jpg" facs="fedora_Varios_443_8/full/full/0/default.jpg"/>
+                                    <pb n="8" source="Varios_443_8.jpg" facs="varios/Varios_443_8.jpg/"/>
                                     <fw type="paginaNum">8</fw>
                                     <fw type="titulo_corriente" rend="cursiva">Historia
                                           verdadera</fw>
@@ -3367,7 +3365,7 @@
                                     priva- <lb/>das de sus bienes y hacienda, fuesen
                                     desterradas.</p>
           <fw type="reclamos">En</fw>
-          <pb n="9" source="Varios_443_9.jpg" facs="fedora_Varios_443_9/full/full/0/default.jpg"/>
+          <pb n="9" source="Varios_443_9.jpg" facs="varios/Varios_443_9.jpg/"/>
           <fw type="titulo_corriente" rend="cursiva">de San Lorenzo Martyr.</fw>
           <fw type="paginaNum">
             <choice>
@@ -3404,7 +3402,7 @@
                                     te llevo en mi corazon, ni <lb/>"te desecho por cobarde, y
                                     pusilanime ; antes te <fw type="signaturas">B</fw>
                                     <fw type="reclamos">"hago</fw>
-                                    <pb n="10" source="Varios_443_10.jpg" facs="fedora_Varios_443_10/full/full/0/default.jpg"/>
+                                    <pb n="10" source="Varios_443_10.jpg" facs="varios/Varios_443_10.jpg/"/>
                                     <fw type="paginaNum">10</fw>
                                     <lb/>"hago saber, que te queda otra batalla mas terrible
                                     <lb/>"que la mia, y otros tormentos mas rigurosos: que <lb/>"por
@@ -3434,7 +3432,7 @@
                                     <lb/>de ellos tiernamente, consolandolos al mismo tiempo.
                                     <lb/>De aqui pasò á otra casa de un Christiano, lla- <lb/>mado
                                     Narciso, donde hallò un gran numero de <fw type="reclamos">Chris-</fw>
-                                    <pb n="11" source="Varios_443_11.jpg" facs="fedora_Varios_443_11/full/full/0/default.jpg"/>
+                                    <pb n="11" source="Varios_443_11.jpg" facs="varios/Varios_443_11.jpg/"/>
                                     <fw type="paginaNum">11</fw>
                                     <fw type="titulo_corriente" rend="cursiva">de San Lorenzo
                                           Martyr.</fw>
@@ -3468,7 +3466,7 @@
                                           los pobres los thesoros que me encargaste.</hi> Mas co-
                                     <lb/>mo los Ministros de justicia oyesen estas palabras á <fw type="signaturas">B2</fw>
                                     <fw type="reclamos">la</fw>
-                                    <pb n="12" source="Varios_443_12.jpg" facs="fedora_Varios_443_12/full/full/0/default.jpg"/>
+                                    <pb n="12" source="Varios_443_12.jpg" facs="varios/Varios_443_12.jpg/"/>
                                     <fw type="paginaNum">12</fw>
                                     <fw type="titulo_corriente" rend="cursiva">Historia
                                           verdadera</fw>
@@ -3500,7 +3498,7 @@
                                     ellos la señal de la Cruz. <lb/>Viendo Hypolito los milagros
                                     que el Santo hacia, <lb/>ablandòse, y comenzò à conversar
                                     bastante continuo <fw type="reclamos">con</fw>
-                                    <pb n="13" source="Varios_443_13.jpg" facs="fedora_Varios_443_13/full/full/0/default.jpg"/>
+                                    <pb n="13" source="Varios_443_13.jpg" facs="varios/Varios_443_13.jpg/"/>
                                     <fw type="titulo_corriente" rend="cursiva">de San Lorenzo
                                           Martyr.</fw>
                                     <fw type="paginaNum">13</fw>
@@ -3533,7 +3531,7 @@
                                     <lb/>tres dias de termino para recogerlos, que èl se los
                                     <lb/>traherìa.</p>
           <fw type="reclamos">Tu-</fw>
-          <pb n="14" source="Varios_443_14.jpg" facs="fedora_Varios_443_14/full/full/0/default.jpg"/>
+          <pb n="14" source="Varios_443_14.jpg" facs="varios/Varios_443_14.jpg/"/>
           <fw type="paginaNum">14</fw>
           <fw type="titulo_corriente" rend="cursiva">Historia verdadera</fw>
           <p><lb/>Tuvolo por bien el Emperador, y mandò á Hy- <lb/>polito, que
@@ -3564,7 +3562,7 @@
                                     <lb/>para que entendiese que por todos ellos havia de pa-
                                     <lb/>sar, si no se rendia á su voluntad.</p>
           <fw type="reclamos">Em-</fw>
-          <pb n="15" source="Varios_443_15.jpg" facs="fedora_Varios_443_15/full/full/0/default.jpg"/>
+          <pb n="15" source="Varios_443_15.jpg" facs="varios/Varios_443_15.jpg/"/>
           <fw type="paginaNum">15</fw>
           <fw type="titulo_corriente" rend="cursiva">de San Lorenzo Martyr.</fw>
           <p>Empezaron à traer aquellos inhumanos verdugos los escorpiones de
@@ -3593,7 +3591,7 @@
                                     las que èl deseaba padecer : y asi le dixo al Tyrano: ,,Hombre
                                     desventurado, piensas "atemorizarme con tormentos ? Pues quiero
                                     que en- <fw type="reclamos">"tien-</fw>
-                                    <pb n="16" source="Varios_443_16.jpg" facs="fedora_Varios_443_16/full/full/0/default.jpg"/>
+                                    <pb n="16" source="Varios_443_16.jpg" facs="varios/Varios_443_16.jpg/"/>
                                     <fw type="paginaNum">16</fw>
                                     <fw type="titulo_corriente" rend="cursiva">Historia
                                           verdadera</fw>
@@ -3626,7 +3624,7 @@
                                     que has de sacri- <lb/>ficarles, ò padecer tantos, y tan
                                     grandes tormentos, <lb/>quantos ningun hombre hasta oy ha
                                     padecido. <fw type="reclamos">Ref-</fw>
-                                    <pb n="17" source="Varios_443_17.jpg" facs="fedora_Varios_443_17/full/full/0/default.jpg"/>
+                                    <pb n="17" source="Varios_443_17.jpg" facs="varios/Varios_443_17.jpg/"/>
                                     <fw type="titulo_corriente" rend="cursiva">de San Lorenzo
                                           Martyr.</fw>
                                     <fw type="paginaNum">17</fw>
@@ -3660,7 +3658,7 @@
                                     de la tribulacion.</p>
           <fw type="signaturas">C</fw>
           <fw type="reclamos">Aca-</fw>
-          <pb n="18" source="Varios_443_18.jpg" facs="fedora_Varios_443_18/full/full/0/default.jpg"/>
+          <pb n="18" source="Varios_443_18.jpg" facs="varios/Varios_443_18.jpg/"/>
           <fw type="paginaNum">18</fw>
           <fw type="titulo_corriente" rend="cursiva">Historia verdadera</fw>
           <p><lb/>Acabada esta oracion del santo Martyr, enviò el
@@ -3691,7 +3689,7 @@
                                     ? A esto <lb/>dixo el Santo : En el nombre de mi Señor Jesu-
                                     <lb/>Christo yo no temo tus tormentos. El Tyrano le di- <lb/>xo,
                                     que si no sacrificaba à los Dioses, toda aquella <fw type="reclamos">no-</fw>
-                                    <pb n="19" source="Varios_443_19.jpg" facs="fedora_Varios_443_19/full/full/0/default.jpg"/>
+                                    <pb n="19" source="Varios_443_19.jpg" facs="varios/Varios_443_19.jpg/"/>
                                     <fw type="paginaNum">19</fw>
                                     <fw type="titulo_corriente" rend="cursiva">de San Lorenzo
                                           Martyr.</fw>
@@ -3722,7 +3720,7 @@
                                     espuma por la boca, con la cara turbada, <lb/>dando bramidos de
                                     rabia, y de furor, porque con <lb/>tantos martyrios y tantas
                                     trazas como havia inven- <lb/>tado fu crueldad, no podia
-                                    reducir, ni vencer al San- <fw type="signaturas">C2</fw><fw type="reclamos">to.</fw><pb n="20" source="Varios_443_20.jpg" facs="fedora_Varios_443_20/full/full/0/default.jpg"/><fw type="paginaNum">20</fw><fw type="titulo_corriente" rend="cursiva">Historia
+                                    reducir, ni vencer al San- <fw type="signaturas">C2</fw><fw type="reclamos">to.</fw><pb n="20" source="Varios_443_20.jpg" facs="varios/Varios_443_20.jpg/"/><fw type="paginaNum">20</fw><fw type="titulo_corriente" rend="cursiva">Historia
                                           verdadera</fw><lb/>to. Los Sayones atizaban el fuego, y sus perversas
                                     <lb/>lenguas para decirle blasfemias y afrentas. Los con-
                                     <lb/>currentes y circunstantes estaban atonitos y pasma-
@@ -3752,7 +3750,7 @@
                                     <lb/>,,otra, y tu puedas comer de mis carnes sazona- <lb/>,,das,
                                     y no, como pensabas, de las riquezas de la lgle- <lb/>,,sia, que
                                     ya estàn guardadas en el tesoro del Cielo, <fw type="reclamos">donde</fw>
-                                    <pb n="21" source="Varios_443_21.jpg" facs="fedora_Varios_443_21/full/full/0/default.jpg"/>
+                                    <pb n="21" source="Varios_443_21.jpg" facs="varios/Varios_443_21.jpg/"/>
                                     <fw type="paginaNum">21</fw>
                                     <fw type="titulo_corriente" rend="cursiva">de San Lorenzo
                                           Martyr.</fw>
@@ -3786,7 +3784,7 @@
           <p><lb/>Este admirable martyrio, que por ser tan estra- <lb/>ño, qual
                                     no se encuentra otro en la Iglesia de Dios <lb/>de tan
                                     singulares circunitancias, fue tan esclareci- <fw type="reclamos">do,</fw>
-                                    <pb n="22" source="Varios_443_22.jpg" facs="fedora_Varios_443_22/full/full/0/default.jpg"/>
+                                    <pb n="22" source="Varios_443_22.jpg" facs="varios/Varios_443_22.jpg/"/>
                                     <fw type="paginaNum">22</fw>
                                     <fw type="titulo_corriente" rend="cursiva">Historia
                                           verdadera</fw>
@@ -3818,7 +3816,7 @@
                                     pero el <lb/>Santo lo despreciò, y desde entonces fue entrega-
                                     <lb/>do al Prefecto para que le quitase la vida. Fue este
                                     <lb/>luego á su casa para echarse sobre sus bienes; y ha- <fw type="reclamos">vien-</fw>
-                                    <pb n="23" source="Varios_443_23.jpg" facs="fedora_Varios_443_23/full/full/0/default.jpg"/>
+                                    <pb n="23" source="Varios_443_23.jpg" facs="varios/Varios_443_23.jpg/"/>
                                     <fw type="titulo_corriente" rend="cursiva">de San Lorenzo
                                           Martyr.</fw>
                                     <fw type="paginaNum">23</fw>
@@ -3849,7 +3847,7 @@
                                     Alemanes, y alzan- <lb/>dosele treinta Capitanes Romanos por
                                     Emperado- <lb/>res; y en las contiendas de estos sublevados vino
                                     a <lb/>morir desastradamente: con que pagò aqui sus enor- <fw type="reclamos">mes</fw>
-                                    <pb n="24" source="Varios_443_24.jpg" facs="fedora_Varios_443_24/full/full/0/default.jpg"/>
+                                    <pb n="24" source="Varios_443_24.jpg" facs="varios/Varios_443_24.jpg/"/>
                                     <fw type="paginaNum">24</fw>
                                     <fw type="titulo_corriente" rend="cursiva">Historia de San
                                           Lorenzo Martyr.</fw>

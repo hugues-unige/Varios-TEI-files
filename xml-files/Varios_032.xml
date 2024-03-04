@@ -1,19 +1,17 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../Schema/oddPliego_varios.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:alto="http://www.loc.gov/standards/alto/ns-v4#" xml:id="Varios_032">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Varios_032">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>EL CANTOR DE LAS HERMOSAS. TROVAS DE AMOR DEDICADAS AL BELLO SECSO
-                              POR UNOS AFICIONADOS.</title>
+        <title>EL CANTOR DE LAS HERMOSAS</title>
         <respStmt>
           <name/>
           <resp>Codificación TEI</resp>
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <authority role="rightsHolder">Bibliothèque Universitaire de
-                              Genève</authority>
+        <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
         <availability status="restricted">
           <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
         </availability>
@@ -21,10 +19,9 @@
       <sourceDesc>
         <biblFull>
           <titleStmt>
-            <title type="titulo_completo">EL CANTOR DE LAS HERMOSAS. TROVAS
-                                          DE AMOR DEDICADAS AL BELLO SECSO POR UNOS
-                                          AFICIONADOS.</title>
-            <title type="titulo_breve">EL CANTOR DE LAS HERMOSAS</title>
+            <title type="titulo_completo">EL CANTOR DE LAS HERMOSAS. TROVAS DE AMOR DEDICADAS AL
+              BELLO SECSO POR UNOS AFICIONADOS.</title>
+            <title type="titulo_breve">EL CANTOR DE LAS HERMOSAS.</title>
           </titleStmt>
           <editionStmt>
             <p/>
@@ -32,7 +29,7 @@
           <publicationStmt>
             <publisher>T. Gaspar</publisher>
             <pubPlace ref="https://www.geonames.org/3128760/barcelona.html">Barcelona</pubPlace>
-            <date>[s.a]</date>
+            <date cert="low" when="1800-01-01">[s.a.]</date>
           </publicationStmt>
         </biblFull>
         <msDesc>
@@ -40,7 +37,8 @@
             <country>Suisse</country>
             <settlement>Genève</settlement>
             <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"/>
-                                    </repository>
+            </repository>
+            <collection>Colección Varios</collection>
             <idno type="cote"/>
             <idno type="DOI">10.5281/zenodo.6554186</idno>
             <altIdentifier>
@@ -48,10 +46,20 @@
             </altIdentifier>
           </msIdentifier>
           <msContents>
-            <summary/>
+            <summary>Tres canciones</summary>
             <msItem>
-              <locus/>
-              <title/>
+              <locus>1-2</locus>
+              <title>La ausencia.</title>
+              <author role="letrista">J. A. C.</author>
+            </msItem>
+            <msItem>
+              <locus>3</locus>
+              <title>Salero y olé.</title>
+              <author role="letrista">C.</author>
+            </msItem>
+            <msItem>
+              <locus>4</locus>
+              <title>Anda bajando.</title>
             </msItem>
           </msContents>
           <physDesc>
@@ -69,7 +77,7 @@
               </layoutDesc>
             </objectDesc>
             <decoDesc>
-              <summary n="1">Uno grabado (p.1) </summary>
+              <summary n="1">Un grabado (p.1)</summary>
               <decoNote type="lista_grabados">
                 <list>
                   <item corresp="grabado_v_032_1.xml">grabado_v_032_1</item>
@@ -83,8 +91,7 @@
               <p>Imp. de T. Gaspar.</p>
             </origin>
             <provenance>
-              <p>Se hallará en casa de Antonio Bosch, calle baja de S.
-                                                Pedro núm. 71</p>
+              <p>Se hallará en casa de Antonio Bosch, calle baja de S. Pedro núm. 71</p>
             </provenance>
             <acquisition/>
           </history>
@@ -93,18 +100,17 @@
     </fileDesc>
     <encodingDesc>
       <projectDesc>
-        <p>Este archivo fue creado en el marco del proyecto Desenrollando el
-                              Cordel/Démêler le cordel/Untangling the cordel, dirigido por la
-                              profesora Constance Carta de la Universidad de Ginebra, con el apoyo
-                              de la Fundación filantrópica Famille Sandoz-Monique de Meuron.</p>
+        <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+          cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la Universidad
+          de Ginebra, con el apoyo de la Fundación filantrópica Famille Sandoz-Monique de
+          Meuron.</p>
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR non corregido</p>
+          <p>OCR no corregido</p>
         </correction>
         <normalization>
-          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto
-                                    original.</p>
+          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
         </normalization>
         <punctuation>
           <p>Se conserva la puntuación original.</p>
@@ -125,11 +131,12 @@
       </textClass>
     </profileDesc>
     <revisionDesc>
-      <change when="2022-05-11" who="#PJ">Création du fichier TEI P5 et encodage du
-                        corps du texte</change>
+      <change when="2022-05-11" who="#PJ">Création du fichier TEI P5 et encodage du corps du
+        texte</change>
+<change when="2024-01-09" who="#EL">Add the IIIF links</change>
     </revisionDesc>
   </teiHeader>
-  <sourceDoc xml:id="automaticTranscription">
+  <facsimile><graphic url="varios/Varios_032_1.jpg/full/200,/0/default.jpg"/></facsimile><sourceDoc xml:id="automaticTranscription">
     <surface xml:id="Varios_032_1" type="page" cert="silver">
       <graphic url="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_032_1/full/full/0/default.jpg"/>
       <zone xml:id="Varios_032_1_BT223_1" n="1" type="CustomZone" subtype="title" points="1506,429 1541,471 1430,479 1054,476 1039,537 690,553 649,486 180,507 159,417 140,392 184,259 324,245 741,239 747,118 929,126 992,252 1511,242 1509,315 1555,318 1555,413 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_032_1/140,118,1415,435/full/0/default" corresp="CustomZone:title">
@@ -481,7 +488,7 @@
       </zone>
       <zone xml:id="Varios_032_3_BT226_3" n="3" type="MainZone" subtype="none" points="886,462 886,560 1060,550 1070,462 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_032_3/886,462,184,98/full/0/default" corresp="MainZone">
         <zone xml:id="Varios_032_3_BT226_3_LT84_1" type="DefaultLine" subtype="none" points="909,520 907,458 963,473 1039,471 1046,516 1041,564 1021,558 1017,562 1010,570 1008,570 1008,572 1006,572 1004,572 963,574 961,574 959,574 905,553 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_032_3/905,458,141,116/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_032_3_BT226_3_LT84_1_1" points="909,520 1046,516 " corresp=" &#10;                                                  DefaultLine"/>
+          <path xml:id="Varios_032_3_BT226_3_LT84_1_1" points="909,520 1046,516 " corresp=" &#xA;                                                  DefaultLine"/>
           <line>JOTA.</line>
         </zone>
       </zone>
@@ -941,8 +948,7 @@
       <zone xml:id="Varios_032_4_BT228_6" n="6" type="MarginTextZone" subtype="colophon" points="172,2340 172,2430 451,2430 455,2430 1659,2430 1659,2340 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_032_4/172,2340,1487,90/full/0/default" corresp="MarginTextZone:colophon">
         <zone xml:id="Varios_032_4_BT228_6_LT83_1" type="DefaultLine" subtype="none" points="219,2390 221,2322 232,2331 271,2322 289,2320 291,2320 293,2320 296,2320 298,2322 307,2331 329,2322 337,2320 339,2320 342,2320 344,2320 346,2320 346,2322 348,2322 372,2346 403,2346 449,2333 451,2333 454,2333 600,2342 631,2322 640,2315 642,2315 644,2315 647,2315 719,2315 721,2315 723,2315 723,2317 728,2322 739,2333 765,2322 780,2315 783,2315 962,2313 965,2313 967,2313 980,2320 1011,2337 1061,2324 1063,2324 1065,2324 1142,2333 1171,2320 1182,2315 1184,2315 1186,2315 1188,2315 1191,2315 1197,2320 1219,2333 1285,2320 1300,2317 1302,2317 1322,2320 1408,2333 1425,2320 1432,2313 1434,2313 1436,2313 1438,2313 1441,2313 1454,2320 1478,2333 1612,2333 1625,2320 1636,2374 1631,2396 1533,2390 1520,2398 1509,2405 1506,2405 1504,2405 1504,2407 1432,2407 1430,2405 1379,2398 1320,2392 1311,2401 1305,2405 1305,2407 1302,2407 1300,2407 1186,2409 1184,2409 1182,2409 1155,2401 1133,2394 1114,2401 1094,2409 1092,2409 1090,2409 1087,2409 1085,2409 1085,2407 1076,2401 1072,2396 1065,2401 1059,2407 1059,2409 1057,2409 1055,2409 1052,2409 1006,2403 982,2398 973,2403 956,2412 954,2412 951,2412 949,2412 947,2412 936,2403 929,2396 868,2396 851,2403 826,2414 824,2414 824,2416 688,2416 686,2414 684,2414 658,2405 640,2398 629,2405 611,2416 609,2416 607,2416 605,2416 515,2405 464,2401 438,2407 394,2418 392,2418 390,2418 388,2418 348,2407 331,2403 219,2407 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_032_4/219,2313,1417,105/full/0/default" corresp="DefaultLine">
           <path xml:id="Varios_032_4_BT228_6_LT83_1_1" points="219,2390 1636,2374 "/>
-          <line>Se hallará en casa Antonio Bosch, calle mas baja de san Padro,
-                                    númere 7I.</line>
+          <line>Se hallará en casa Antonio Bosch, calle mas baja de san Padro, númere 7I.</line>
         </zone>
       </zone>
       <zone xml:id="Varios_032_4_BT228_7" n="7" type="MarginTextZone" subtype="colophon" points="201,2434 190,2512 468,2518 736,2523 736,2430 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_032_4/190,2430,546,93/full/0/default" corresp="MarginTextZone:colophon">
@@ -958,27 +964,31 @@
     <body>
       <div>
         <div>
-          <pb n="1" source="Varios_032_1.jpg" facs="fedora_Varios_032_1/full/full/0/default.jpg"/>
-          <head type="primer_titulo" rend="negrita"><lb/>EL<lb/>CANTOR DE LAS HERMOSAS.</head>
-          <head type="subtitulo_parte"><lb/>TROVAS DE AMOR DEDICADAS AL BELLO
-                                    SECSO POR UNOS<lb/>AFICIONADOS.</head>
+          <pb n="1" source="Varios_032_1.jpg" facs="varios/Varios_032_1.jpg/"/>
+
           <fw type="impresorNum">Núm. 21</fw>
-          <div n="1" type="parte">
+
+          <head type="primer_titulo" rend="negrita"><lb/>EL<lb/>CANTOR DE LAS HERMOSAS.</head>
+
+          <head type="subtitulo"><lb/>TROVAS DE AMOR DEDICADAS AL BELLO SECSO POR
+            UNOS<lb/>AFICIONADOS.</head>
+
+          <div n="1">
             <head type="titulo_cancion" rend="negrita"><lb/>14. LA AUSENCIA.</head>
-            <p><lb/>I.</p>
-            <lg>
+
+            <lg n="1">
+              <head type="titulo_estrofa"><lb/>I.</head>
               <l>Al pié de un valle</l>
               <l>Que en su desliz</l>
               <l>Manso arroyuelo</l>
-            </lg>
-            <lg>
               <l>Besa sutil.</l>
               <l>Pulsa su lira</l>
               <l>BARDO infeliz</l>
-            </lg>
-            <pb n="2" source="Varios_032_2.jpg" facs="fedora_Varios_032_2/full/full/0/default.jpg"/>
-            <fw type="paginaNum">82</fw>
-            <lg>
+
+              <pb n="2" source="Varios_032_2.jpg" facs="varios/Varios_032_2.jpg/"/>
+
+              <fw type="paginaNum">82</fw>
+
               <l>Y en tono fléor</l>
               <l>Goza en decir:</l>
               <l>— « Torna á mis brazos,</l>
@@ -990,8 +1000,9 @@
               <l>« Déjame al menos</l>
               <l>« Verte y morir!»</l>
             </lg>
-            <p><lb/>II.</p>
-            <lg>
+
+            <lg n="2">
+              <head type="titulo_estrofa"><lb/>II.</head>
               <l>« Un tiempo, Laura,</l>
               <l>« Besar feliz</l>
               <l>«De tus mejillas</l>
@@ -1009,8 +1020,9 @@
               <l>« Déjame al menos</l>
               <l>« Verte y morir !</l>
             </lg>
-            <p><lb/>III.</p>
-            <lg>
+
+            <lg n="3">
+              <head type="titulo_estrofa"><lb/>III.</head>
               <l>«Era á mi alma</l>
               <l>« Tu sonreir,</l>
               <l>«Cual el rocio</l>
@@ -1028,9 +1040,10 @@
               <l>« Déjame al menos</l>
               <l>«Verte y morir !»</l>
             </lg>
-            <p><lb/>IV.</p>
-            <lg>
-              <l>— La Luna encubre</l>
+
+            <lg n="4">
+              <head type="titulo_estrofa"><lb/>IV.</head>
+              <l>—La Luna encubre</l>
               <l>Blanco el cariz,</l>
               <l>Y de la lira</l>
               <l>Cesa el plañir,</l>
@@ -1042,105 +1055,124 @@
               <l>Del infeliz</l>
               <l>Lejos cual eco</l>
               <l>Va à repetir:</l>
-              <l>— « Ah ! yo te adoro</l>
+              <l>—« Ah ! yo te adoro</l>
               <l>« Divina HURL...!</l>
               <l>« Déjame al menos</l>
               <l>«Verte y morir.</l>
             </lg>
             <p><lb/>—J. A. C.—</p>
-            <pb n="3" source="Varios_032_3.jpg" facs="fedora_Varios_032_3/full/full/0/default.jpg"/>
-            <fw type="paginaNum">83</fw>
           </div>
-          <div n="1" type="parte">
-            <head type="titulo_cancion" rend="negrita"><lb/>65 SALERO Y OLÉ.</head>
-            <lg>
-              <l>I.</l>
+
+          <div n="2">
+            <pb n="3" source="Varios_032_3.jpg" facs="varios/Varios_032_3.jpg/"/>
+
+            <fw type="paginaNum">83</fw>
+
+            <head type="titulo_cancion"><lb/>65. <hi rend="negrita">SALERO Y OLÉ.</hi></head>
+
+            <lg n="1">
+              <head type="titulo_estrofa">I.</head>
               <l>Desde el dia en que mis ojos</l>
-              <l>salero ! salada! y olé!</l>
+              <l rend="indent"><hi rend="cursiva">salero ! salada! y olé!</hi></l>
               <l>Te vieron niña adorada,</l>
               <l>Mi corazon dia y noche</l>
-              <l>salero! salada! y olé!</l>
+              <l rend="indent"><hi rend="cursiva">salero! salada! y olé!</hi></l>
               <l>Al fuego de amor se abrasa.</l>
             </lg>
-            <lg>
-              <l>II.</l>
+
+            <lg n="2">
+              <head type="titulo_estrofa">II.</head>
               <l>Del verjel de los amores</l>
-              <l>salero ! salada! etc.</l>
+              <l rend="indent"><hi rend="cursiva">salero ! salada! etc.</hi></l>
               <l>La flor escojida eres,</l>
               <l>Pues eres la mas hermosa</l>
-              <l>salero ! etc.</l>
+              <l rend="indent"><hi rend="cursiva">salero ! etc.</hi></l>
               <l>Entre todas las mujeres.</l>
             </lg>
-            <lg>
-              <l>III.</l>
+
+            <lg n="3">
+              <head type="titulo_estrofa">III.</head>
               <l>En el fondo de mi alma</l>
               <l>Un altar rico se eleva,</l>
               <l>Donde se te rinde culto</l>
               <l>Y tu imájen se venera.</l>
             </lg>
-            <lg>
-              <l>IV.</l>
+
+            <lg n="4">
+              <head type="titulo_estrofa">IV.</head>
               <l>Diz que te enoja el mirarte</l>
               <l>Un tanto descolorida,</l>
               <l>Y un beso de amor tan solo</l>
               <l>Tu color animaria.</l>
             </lg>
-            <lg>
-              <l>V.</l>
+
+            <lg n="5">
+              <head type="titulo_estrofa">V.</head>
               <l>No hagas alarde pichona</l>
               <l>De una ingratitud finjida,</l>
               <l>Que la for cuanto mas bella</l>
               <l>Mas temprano se marchita.</l>
             </lg>
-            <lg>
-              <l>VI.</l>
+
+            <lg n="6">
+              <head type="titulo_estrofa">VI.</head>
               <l>Mirame niña del alma</l>
               <l>Con esos brillantes soles,</l>
               <l>Que al corazon dan consuelo</l>
               <l>Sus divinos resplandores.</l>
             </lg>
-            <lg>
-              <l>VII.</l>
+
+            <lg n="7">
+              <head type="titulo_estrofa">VII.</head>
               <l>Si mi dolor te conmueve</l>
               <l>Sácame hermosa de dudas.</l>
               <l>Que aunque tarde me consueles</l>
               <l>Mas vale tarde que nunca.</l>
             </lg>
-            <lg>
-              <l>VIII.</l>
+
+            <lg n="8">
+              <head type="titulo_estrofa">VIII.</head>
               <l>Antes que mis tristes ojos</l>
               <l>Dejen un dia de verte,</l>
               <l>Prefiero yo, vida mia,</l>
               <l>Una y mil veces la muerte.</l>
             </lg>
-            <lg>
-              <l>IX.</l>
+
+            <lg n="9">
+              <head type="titulo_estrofa">IX.</head>
               <l>Puede el sol perder su brillo</l>
               <l>Puede el mar fiero secarse</l>
               <l>Mas no puede el alma mia,</l>
               <l>Jamás dejar de adorarte.</l>
             </lg>
-            <lg>
-              <l>X.</l>
+
+            <lg n="10">
+              <head type="titulo_estrofa">X.</head>
               <l>Adios paloma divina.</l>
               <l>La que mi alma idolatra,</l>
               <l>Nunca por piedad me olvides</l>
               <l>Que en tii cifro mi esperanza.— C.</l>
             </lg>
-            <pb n="4" source="Varios_032_4.jpg" facs="fedora_Varios_032_4/full/full/0/default.jpg"/>
-            <fw type="paginaNum">84</fw>
           </div>
-          <div>
-            <head type="titulo_cancion" rend="negrita"><lb/>66. ANDA BAJANDO.<lb/>NUEVO TANGO AMERICANO SEGUIDO
-                                          DEL NONITO.</head>
+
+          <div n="3">
+            <pb n="4" source="Varios_032_4.jpg" facs="varios/Varios_032_4.jpg/"/>
+
+            <fw type="paginaNum">84</fw>
+
+            <head type="titulo_cancion" rend="negrita"><lb/>66. ANDA BAJANDO.</head>
+            <head type="subtitulo_cancion"><lb/>NUEVO TANGO AMERICANO SEGUIDO DEL NONITO.</head>
+
             <lg>
               <l>Leven leveleven Iuḿ!</l>
               <l>Anda! bajando ! jum ! jum!</l>
             </lg>
+
             <lg>
-              <l>( Ahí está Periquillo.... anda</l>
+              <l rend="indent">( Ahí está Periquillo.... anda</l>
               <l>bajando !... anda bajando! )</l>
             </lg>
+
             <lg>
               <l>El neguito va á la compa...</l>
               <l>Anda bajando ! jum ! jum!</l>
@@ -1151,13 +1183,15 @@
               <l>Ques la branca mas hermosa</l>
               <l>Anda bajando... jum ! jum!</l>
             </lg>
+
             <lg>
-              <l>( Anda bajando!.. Bon dia mi</l>
+              <l rend="indent">( Anda bajando!.. Bon dia mi</l>
               <l>amo, su mecé ! A ver si me da</l>
               <l>usté un cuartillo de aguardiente</l>
               <l>pa el pobe nego... pobe nego!..</l>
               <l>juy! esto está bueno, camarà!!.</l>
             </lg>
+
             <lg>
               <l>Ayà van cuatro nenguitos</l>
               <l>Toos cuatro valentones,</l>
@@ -1168,6 +1202,7 @@
               <l>Que por esa cruz bendita</l>
               <l>Yo te tengo de queré.</l>
             </lg>
+
             <lg>
               <l>Ay! Jesú ! que me ha jecho daño!</l>
               <l>Ay! Jesú! me muero de hambe!</l>
@@ -1175,12 +1210,14 @@
               <l>Le dan mucho guapi-guapi</l>
               <l>Y dan poco ñame-ñame !</l>
             </lg>
+
             <lg>
-              <l>(Pobe nego! pobe nego! y</l>
+              <l rend="indent">(Pobe nego! pobe nego! y</l>
               <l>tiene unos nenguitos como com-</l>
               <l>pai Farago y su mecé... Pobe</l>
               <l>nego!)</l>
             </lg>
+
             <lg>
               <l>Ay! nonito ! señora Manuela :</l>
               <l>Ay! nonito! que vaya á la plaza !</l>
@@ -1193,22 +1230,23 @@
               <l>Ay! nonito ! que compa cerezas :</l>
               <l>Ay! nonito ! que compa gaspacho !</l>
               <l>Que dale gaspacho! que dale gaspacho!</l>
-              <l>Guilindin ! guilindon !... guido!!</l>
-              <l>Guilindin! guilindon !... cuernos!!</l>
-              <l>Guilindin! guilindon!... fuego !!!!</l>
-              <l>Ay casuque...! ay manduque !</l>
-              <l>Ay nonito ! nonito ! nonito !</l>
-              <l>Guilindin guilindon! guindon !</l>
+              <l rend="indent">Guilindin ! guilindon !... guido!!</l>
+              <l rend="indent">Guilindin! guilindon !... cuernos!!</l>
+              <l rend="indent">Guilindin! guilindon!... fuego !!!!</l>
+              <l rend="indent">Ay casuque...! ay manduque !</l>
+              <l rend="indent">Ay nonito ! nonito ! nonito !</l>
+              <l rend="indent">Guilindin guilindon! guindon !</l>
             </lg>
             <p><lb/>Es propiedad.</p>
           </div>
-          <div type="colofon_impresora">
-            <p><lb/>Barcelona: Imp. de T. Gaspar.</p>
-          </div>
-          <div type="colofon_vendedor">
-            <p><lb/>Se hallará en casa Antonio Bosch, calle mas baja de san
-                                          Padro, númere 7I.</p>
-          </div>
+        </div>
+        
+        <div type="colofon_vendedor">
+          <p rend="cursiva"><lb/>Se hallará en casa Antonio Bosch, calle mas baja de san Padro, númere 7I.</p>
+        </div>
+        
+        <div type="colofon_impresor">
+          <p><lb/>Barcelona: Imp. de T. Gaspar.</p>
         </div>
       </div>
     </body>

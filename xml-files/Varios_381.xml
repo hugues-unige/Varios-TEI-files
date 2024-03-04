@@ -4,8 +4,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>CANCIONES DE DESPEDIDA QUE DIRIGEN LOS QUINTOS A SUS QUERIDAS
-                              DAMAS.</title>
+        <title>CANCIONES DE DESPEDIDA QUE DIRIGEN LOS QUINTOS A SUS QUERIDAS DAMAS.</title>
         <respStmt>
           <name xml:id="PJ">Pauline Jacsont</name>
           <resp>Codificación TEI</resp>
@@ -29,9 +28,9 @@
             <p/>
           </editionStmt>
           <publicationStmt>
-            <publisher>Establecimiento de Juan Bta. Vidal</publisher>
+            <publisher>Juan Bautista Vidal</publisher>
             <pubPlace ref="https://www.geonames.org/3111933/reus.html">Reus</pubPlace>
-            <date cert="high">[s.a]</date>
+            <date cert="low" when="1800-01-01">[s.a.]</date>
           </publicationStmt>
         </biblFull>
         <msDesc>
@@ -40,6 +39,7 @@
             <settlement>Genève</settlement>
             <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"/>
                                     </repository>
+            <collection>Colección Varios</collection>
             <idno type="cote"/>
             <idno type="DOI">10.5281/zenodo.6783741</idno>
             <altIdentifier>
@@ -107,7 +107,7 @@
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR non corregido</p>
+          <p>OCR no corregido</p>
         </correction>
         <normalization>
           <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto
@@ -134,9 +134,10 @@
     <revisionDesc>
       <change when="2023-12-11" who="#PJ">Création du fichier TEI P5 et encodage du
                         corps du texte</change>
+<change when="2024-01-09" who="#EL">Add the IIIF links</change>
     </revisionDesc>
   </teiHeader>
-  <sourceDoc xml:id="automaticTranscription">
+  <facsimile><graphic url="varios/Varios_381_1.jpg/full/200,/0/default.jpg"/></facsimile><sourceDoc xml:id="automaticTranscription">
     <surface xml:id="Varios_381_1" type="page" cert="silver">
       <graphic url="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_381_1/full/full/0/default.jpg"/>
       <zone xml:id="Varios_381_1_BT221_1" n="1" type="CustomZone" subtype="impresorNum" points="1555,214 1555,293 1385,293 1385,214 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_381_1/1385,214,170,79/full/0/default" corresp="CustomZone:impresorNum">
@@ -1030,7 +1031,7 @@
   <text>
     <body>
       <div>
-        <pb n="1" source="Varios_381_1.jpg" facs="fedora_Varios_381_1/full/full/0/default.jpg"/>
+        <pb n="1" source="Varios_381_1.jpg" facs="varios/Varios_381_1.jpg/"/>
         <fw type="impresorNum">(N.° 52)</fw>
         <div>
           <head type="primer_titulo"><lb/>CANCIONES</head>
@@ -1064,7 +1065,7 @@
             <l rend="indent">Eres la aurora brillante</l>
             <l>y eres el sol de la España,</l>
           </lg>
-          <pb n="2" source="Varios_381_2.jpg" facs="fedora_Varios_381_2/full/full/0/default.jpg"/>
+          <pb n="2" source="Varios_381_2.jpg" facs="varios/Varios_381_2.jpg/"/>
           <lg>
             <l>eres luna de Alicante</l>
             <l>y eres reina coronada.</l>
@@ -1143,7 +1144,7 @@
             <l>y de las flores la reina</l>
             <l>yo he de ser tu enamorado.</l>
           </lg>
-          <pb n="3" source="Varios_381_3.jpg" facs="fedora_Varios_381_3/full/full/0/default.jpg"/>
+          <pb n="3" source="Varios_381_3.jpg" facs="varios/Varios_381_3.jpg/"/>
           <lg>
             <l rend="indent">Sal Matilde á ese balcon</l>
             <l>y sal de ese tu aposento,</l>
@@ -1222,7 +1223,7 @@
             <l>seamos fieles constantes</l>
             <l>y hagamos pronto la boda.</l>
           </lg>
-          <pb n="4" source="Varios_381_4.jpg" facs="fedora_Varios_381_4/full/full/0/default.jpg"/>
+          <pb n="4" source="Varios_381_4.jpg" facs="varios/Varios_381_4.jpg/"/>
           <lg>
             <l rend="indent">Antonia tiene un jardin</l>
             <l>de rosas y flor de amor,</l>

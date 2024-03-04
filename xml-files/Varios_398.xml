@@ -4,8 +4,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>CARTA EN TROVOS, EN LA QUE UN AMANTE APASIONADO SE DECLARA Á SU DAMA,
-                              Y LA CONTESTACION CARIÑOSA QUE ELLA LE DA.</title>
+        <title>CARTA EN TROVOS</title>
         <respStmt>
           <name xml:id="PJ">Pauline Jacsont</name>
           <resp>Codificación TEI</resp>
@@ -30,9 +29,9 @@
             <p/>
           </editionStmt>
           <publicationStmt>
-            <publisher>Despacho de Marés y Compañía,</publisher>
+            <publisher>José María Marés</publisher>
             <pubPlace ref="https://www.geonames.org/3117735/madrid.html">Madrid</pubPlace>
-            <date cert="high">[s.a]</date>
+            <date cert="low" when="1800-01-01">[s.a.]</date>
           </publicationStmt>
         </biblFull>
         <msDesc>
@@ -41,6 +40,7 @@
             <settlement>Genève</settlement>
             <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"/>
                                     </repository>
+            <collection>Colección Varios</collection>
             <idno type="cote"/>
             <idno type="DOI">10.5281/zenodo.6783920</idno>
             <altIdentifier>
@@ -100,7 +100,7 @@
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR non corregido</p>
+          <p>OCR no corregido</p>
         </correction>
         <normalization>
           <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto
@@ -127,9 +127,10 @@
     <revisionDesc>
       <change when="2023-12-17" who="#PJ">Création du fichier TEI P5 et encodage du
                         corps du texte</change>
+<change when="2024-01-09" who="#EL">Add the IIIF links</change>
     </revisionDesc>
   </teiHeader>
-  <sourceDoc xml:id="automaticTranscription">
+  <facsimile><graphic url="varios/Varios_398_1.jpg/full/200,/0/default.jpg"/></facsimile><sourceDoc xml:id="automaticTranscription">
     <surface xml:id="Varios_398_1" type="page" cert="silver">
       <graphic url="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_398_1/full/full/0/default.jpg"/>
       <zone xml:id="Varios_398_1_BT221_1" n="1" type="CustomZone" subtype="impresorNum" points="1444,234 1444,308 1181,308 1181,234 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_398_1/1181,234,263,74/full/0/default" corresp="CustomZone:impresorNum">
@@ -1106,7 +1107,7 @@
   <text>
     <body>
       <div>
-        <pb n="1" source="Varios_398_1.jpg" facs="fedora_Varios_398_1/full/full/0/default.jpg"/>
+        <pb n="1" source="Varios_398_1.jpg" facs="varios/Varios_398_1.jpg/"/>
         <fw type="impresorNum">(Núm. 102.)</fw>
         <div type="parte" n="1">
           <head type="primer_titulo"><lb/>CARTA EN TROVOS,</head>
@@ -1155,7 +1156,7 @@
             <l>considerando nací</l>
             <l>para adorarte y quererte</l>
           </lg>
-          <pb n="2" source="Varios_398_2.jpg" facs="fedora_Varios_398_2/full/full/0/default.jpg"/>
+          <pb n="2" source="Varios_398_2.jpg" facs="varios/Varios_398_2.jpg/"/>
           <lg>
             <l>"desde el momento que ví."</l>
             <l>Yo te amo con terneza,</l>
@@ -1247,7 +1248,7 @@
             <l>Minerva que he de adorar</l>
             <l>y tuyo de aquesta suerte</l>
           </lg>
-          <pb n="3" source="Varios_398_3.jpg" facs="fedora_Varios_398_3/full/full/0/default.jpg"/>
+          <pb n="3" source="Varios_398_3.jpg" facs="varios/Varios_398_3.jpg/"/>
           <lg>
             <l>"seré Marte en el amor."</l>
             <l>Seré Eneas y tú Dido,</l>
@@ -1311,7 +1312,7 @@
             <l>Con atencion merecida</l>
             <l>contemplé tus espresiones:</l>
           </lg>
-          <pb n="4" source="Varios_398_4.jpg" facs="fedora_Varios_398_4/full/full/0/default.jpg"/>
+          <pb n="4" source="Varios_398_4.jpg" facs="varios/Varios_398_4.jpg/"/>
           <lg>
             <l>me han dejado enternecida,</l>
             <l>y apreciando tus favores</l>

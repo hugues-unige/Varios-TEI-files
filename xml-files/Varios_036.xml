@@ -1,22 +1,17 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../Schema/oddPliego_varios.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:alto="http://www.loc.gov/standards/alto/ns-v4#" xml:id="Varios_036">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Varios_036">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>EL CANTOR DE LAS HERMOSAS. TROVAS DE AMOR DEDICADAS AL BELLO SECSO POR UNOS
-               AFICIONADOS.</title>
+        <title>EL CANTOR DE LAS HERMOSAS</title>
         <respStmt>
           <name/>
           <resp>Codificación TEI</resp>
-          <note type="propiedad">EDUARDO SALA</note>
-          <note type="propiedad">ANTONIO FAURA.</note>
-          <note type="propiedad">ISIDRO FERRER.</note>
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <authority role="rightsHolder">Bibliothèque Universitaire de
-                            Genève</authority>
+        <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
         <availability status="restricted">
           <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
         </availability>
@@ -24,17 +19,17 @@
       <sourceDesc>
         <biblFull>
           <titleStmt>
-            <title type="titulo_completo">EL CANTOR DE LAS HERMOSAS. TROVAS DE AMOR DEDICADAS
-                        AL BELLO SECSO POR UNOS AFICIONADOS.</title>
-            <title type="titulo_breve">EL CANTOR DE LAS HERMOSAS</title>
+            <title type="titulo_completo">EL CANTOR DE LAS HERMOSAS. TROVAS DE AMOR DEDICADAS AL
+              BELLO SECSO POR UNOS AFICIONADOS.</title>
+            <title type="titulo_breve">EL CANTOR DE LAS HERMOSAS.</title>
           </titleStmt>
           <editionStmt>
             <p/>
           </editionStmt>
           <publicationStmt>
-            <publisher>Imprenta de los hijos de Domenech</publisher>
-            <pubPlace ref="https://www.geonames.org/3128760/barcelona.html">Barcelona, Basea, 30.</pubPlace>
-            <date cert="high">1867.</date>
+            <publisher>Hijos de Domenech</publisher>
+            <pubPlace ref="https://www.geonames.org/3128760/barcelona.html">Barcelona</pubPlace>
+            <date cert="high" when="1867-01-01">1867</date>
           </publicationStmt>
         </biblFull>
         <msDesc>
@@ -42,7 +37,8 @@
             <country>Suisse</country>
             <settlement>Genève</settlement>
             <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"/>
-                  </repository>
+            </repository>
+            <collection>Colección Varios</collection>
             <idno type="cote"/>
             <idno type="DOI">10.5281/zenodo.6554258</idno>
             <altIdentifier>
@@ -50,10 +46,25 @@
             </altIdentifier>
           </msIdentifier>
           <msContents>
-            <summary/>
+            <summary>Cuatro canciones</summary>
             <msItem>
-              <locus/>
-              <title/>
+              <locus>1-2</locus>
+              <title>Al partir.</title>
+              <author role="letrista">Eduardo Sala</author>
+            </msItem>
+            <msItem>
+              <locus>2-3</locus>
+              <title>El secreto</title>
+              <author role="letrista">Antonio Faura</author>
+            </msItem>
+            <msItem>
+              <locus>3</locus>
+              <title>El llanto</title>
+            </msItem>
+            <msItem>
+              <locus>4</locus>
+              <title>Caramellas</title>
+              <author role="letrista">Isidro Ferrer</author>
             </msItem>
           </msContents>
           <physDesc>
@@ -71,7 +82,7 @@
               </layoutDesc>
             </objectDesc>
             <decoDesc>
-              <summary n="1">Uno grabado (p.1) </summary>
+              <summary n="1">Un grabado (p.1)</summary>
               <decoNote type="lista_grabados">
                 <list>
                   <item corresp="grabado_v_036_1.xml">grabado_v_036_1</item>
@@ -82,7 +93,7 @@
           </physDesc>
           <history>
             <origin>
-              <p>Barcelona. — lmprenta de los hijos de Domenech, Basea, 30.—1867.</p>
+              <p>Barcelona. — Imprenta de los hijos de Domenech, Basea, 30.—1867.</p>
             </origin>
             <provenance>
               <p>Se halla de venta en casa Antonio Bosch, Bou de la Plaza Nueva, 13, tienda.</p>
@@ -97,18 +108,17 @@
     </fileDesc>
     <encodingDesc>
       <projectDesc>
-        <p>Este archivo fue creado en el marco del proyecto Desenrollando el
-                            Cordel/Démêler le cordel/Untangling the cordel, dirigido por la
-                            profesora Constance Carta de la Universidad de Ginebra, con el apoyo de
-                            la Fundación filantrópica Famille Sandoz-Monique de Meuron.</p>
+        <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+          cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la Universidad
+          de Ginebra, con el apoyo de la Fundación filantrópica Famille Sandoz-Monique de
+          Meuron.</p>
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR non corregido</p>
+          <p>OCR no corregido</p>
         </correction>
         <normalization>
-          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto
-                                original.</p>
+          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
         </normalization>
         <punctuation>
           <p>Se conserva la puntuación original.</p>
@@ -130,10 +140,11 @@
     </profileDesc>
     <revisionDesc>
       <change when="2022-05-12" who="#PJ">Création du fichier TEI P5 et encodage du corps du
-                        texte</change>
+        texte</change>
+<change when="2024-01-09" who="#EL">Add the IIIF links</change>
     </revisionDesc>
   </teiHeader>
-  <sourceDoc xml:id="automaticTranscription">
+  <facsimile><graphic url="varios/Varios_036_1.jpg/full/200,/0/default.jpg"/></facsimile><sourceDoc xml:id="automaticTranscription">
     <surface xml:id="Varios_036_1" type="page" cert="silver">
       <graphic url="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_036_1/full/full/0/default.jpg"/>
       <zone xml:id="Varios_036_1_BT221_1" n="1" type="CustomZone" subtype="impresorNum" points="1278,118 1278,240 1594,240 1594,118 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_036_1/1278,118,316,122/full/0/default" corresp="CustomZone:impresorNum">
@@ -970,16 +981,21 @@
     <body>
       <div>
         <div>
-          <pb n="1" source="Varios_036_1.jpg" facs="fedora_Varios_036_1/full/full/0/default.jpg"/>
+          <pb n="1" source="Varios_036_1.jpg" facs="varios/Varios_036_1.jpg/"/>
+
           <fw type="impresorNum">Número 34.</fw>
+
           <head type="primer_titulo" rend="negrita"><lb/>EL<lb/>CANTOR DE LAS HERMOSAS.</head>
-          <head type="subtitulo_parte"><lb/>TROVAS DE AMOR DEDICADAS AL BELLO SECSO <lb/>POR UNOS
-                  AFICIONADOS.</head>
-          <div n="1" type="parte">
-            <head type="titulo_cancion"><lb/><hi rend="negrita">AL PARTIR.</hi><lb/>CANCION.</head>
-            <lg>
-              <l>I.</l>
-              <l>El ado impío</l>
+          <head type="subtitulo"><lb/>TROVAS DE AMOR DEDICADAS AL BELLO SECSO <lb/>POR UNOS
+            AFICIONADOS.</head>
+
+          <div n="1">
+            <head type="titulo_cancion" rend="negrita">AL PARTIR.</head>
+            <head type="subtitulo_cancion" rend="negrita">CANCION.</head>
+
+            <lg n="1">
+              <head type="titulo_estrofa">I.</head>
+              <l rend="indent">El ado impío</l>
               <l>mi cara Elisa</l>
               <l>hoy me precisa</l>
               <l>de aquí partir;</l>
@@ -988,9 +1004,10 @@
               <l>dejar de amarte</l>
               <l>fuera morir.</l>
             </lg>
-            <lg>
-              <l>II.</l>
-              <l>Remotos climas</l>
+
+            <lg n="2">
+              <head type="titulo_estrofa">II.</head>
+              <l rend="indent">Remotos climas</l>
               <l>paises lejanos,</l>
               <l>montes y llanos</l>
               <l>recorrerè.</l>
@@ -999,11 +1016,14 @@
               <l>de tronco adusto</l>
               <l>yo esculpiré.</l>
             </lg>
-            <pb n="2" source="Varios_036_2.jpg" facs="fedora_Varios_036_2/full/full/0/default.jpg"/>
+
+            <pb n="2" source="Varios_036_2.jpg" facs="varios/Varios_036_2.jpg/"/>
+
             <fw type="paginaNum">134</fw>
-            <lg>
-              <l>III.</l>
-              <l>Y el caminante</l>
+
+            <lg n="3">
+              <head type="titulo_estrofa">III.</head>
+              <l rend="indent">Y el caminante</l>
               <l>que aquello mire.</l>
               <l>quizá suspire</l>
               <l>lleno de amor.</l>
@@ -1012,9 +1032,10 @@
               <l>el fiel diseño</l>
               <l>de tu candor.</l>
             </lg>
-            <lg>
-              <l>IV.</l>
-              <l>Mas yo gozoso</l>
+
+            <lg n="4">
+              <head type="titulo_estrofa">IV.</head>
+              <l rend="indent">Mas yo gozoso</l>
               <l>le diré amante</l>
               <l>es el semblante</l>
               <l>de mi deidad.</l>
@@ -1023,9 +1044,10 @@
               <l>y mi estasio</l>
               <l>en su beldad.</l>
             </lg>
-            <lg>
-              <l>V.</l>
-              <l>Ahora la veo</l>
+
+            <lg n="5">
+              <head type="titulo_estrofa">V.</head>
+              <l rend="indent">Ahora la veo</l>
               <l>cual mariposa</l>
               <l>posarse airosa</l>
               <l>en un rosal.</l>
@@ -1034,9 +1056,10 @@
               <l>verla dejaban</l>
               <l>como un cristal.</l>
             </lg>
-            <lg>
-              <l>VI.</l>
-              <l>Y cuando el hado</l>
+
+            <lg n="6">
+              <head type="titulo_estrofa">VI.</head>
+              <l rend="indent">Y cuando el hado</l>
               <l>menos impio</l>
               <l>dulce bien mio</l>
               <l>me vuelva aqui.</l>
@@ -1045,85 +1068,98 @@
               <l>no mas separarme</l>
               <l>podrán de ti.</l>
             </lg>
+
             <p><lb/>EDUARDO SALA.</p>
           </div>
-          <div n="2" type="parte">
-            <head type="titulo_cancion"><lb/>109 EL SECRETO.<lb/>A ADELA.</head>
-            <lg>
-              <l>I.</l>
-              <l>Deten tu raudo curso</l>
+
+          <div n="2">
+            <head type="titulo_cancion">109 EL SECRETO.</head>
+            <head type="subtitulo_cancion" rend="negrita">A ADELA.</head>
+
+            <lg n="1">
+              <head type="titulo_estrofa">I.</head>
+              <l rend="indent">Deten tu raudo curso</l>
               <l>Castatide divina,</l>
               <l>Tu agua cristalina</l>
               <l>Reprima el susurrar:</l>
-              <l>El céfiro sus giros</l>
+              <l rend="indent">El céfiro sus giros</l>
               <l>No dé por la enramada,</l>
               <l>La yerba aljofarada</l>
               <l>Oculte mi pisar.</l>
             </lg>
-            <lg>
-              <l>II.</l>
-              <l>La menudilla grama</l>
+
+            <lg n="2">
+              <head type="titulo_estrofa">II.</head>
+              <l rend="indent">La menudilla grama</l>
               <l>Me servirá de alfombra,</l>
               <l>Los árboles su sombra</l>
               <l>Me prestarán tambien:</l>
-              <l>Y hasta las tiernas aves</l>
+              <l rend="indent">Y hasta las tiernas aves</l>
               <l>En sus mullidas camas,</l>
               <l>Formadas en las ramas</l>
               <l>Recónditas estén.</l>
             </lg>
-            <lg>
-              <l>III.</l>
-              <l>De noche entre el misterio</l>
+
+            <lg n="3">
+              <head type="titulo_estrofa">III.</head>
+              <l rend="indent">De noche entre el misterio</l>
               <l>Escuché de mi amada</l>
               <l>La frase entre cortada</l>
-              <l>Que diga te «amaré.»</l>
-              <l>Y entonces yo anegado</l>
+              <l>Que diga <hi rend="cursiva">te «amaré.»</hi></l>
+              <l rend="indent">Y entonces yo anegado</l>
               <l>En mi halagueña suerte</l>
-              <l>Repito: «hasta la muerte</l>
-              <l>Constante te seré.»</l>
+              <l>Repito: <hi rend="cursiva">«hasta la muerte</hi></l>
+              <l rend="cursiva">Constante te seré.»</l>
             </lg>
-            <lg>
-              <l>IV.</l>
-              <l>El plateado disco</l>
+
+            <lg n="4">
+              <head type="titulo_estrofa">IV.</head>
+              <l rend="indent">El plateado disco</l>
               <l>De la esmaltada luna</l>
               <l>Hermosa cual ninguna</l>
               <l>Me deja ver su faz.</l>
-              <l>Que ciñe á su hermosura</l>
+              <l rend="indent">Que ciñe á su hermosura</l>
               <l>Angélica senrisa</l>
               <l>Que en alas de la brisa</l>
               <l>Desliza harto fugaz.</l>
             </lg>
-            <pb n="3" source="Varios_036_3.jpg" facs="fedora_Varios_036_3/full/full/0/default.jpg"/>
+
+            <pb n="3" source="Varios_036_3.jpg" facs="varios/Varios_036_3.jpg/"/>
+
             <fw type="paginaNum">135</fw>
-            <lg>
-              <l>V.</l>
-              <l>La flor, su hermoso cáliz</l>
+
+            <lg n="5">
+              <head type="titulo_estrofa">V.</head>
+              <l rend="indent">La flor, su hermoso cáliz</l>
               <l>Declina blandamente,</l>
               <l>Besando la corriente</l>
               <l>Que ondula en su redor.</l>
-              <l>Al ver, hermosa Adela,</l>
+              <l rend="indent">Al ver, hermosa Adela,</l>
               <l>Tu alba faz en ella,</l>
               <l>Cual rutilante estrella,</l>
               <l>El valle del amor.</l>
             </lg>
-            <lg>
-              <l>VI.</l>
-              <l>Balsámicas aromas</l>
+
+            <lg n="6">
+              <head type="titulo_estrofa">VI.</head>
+              <l rend="indent">Balsámicas aromas</l>
               <l>De tu sonrisa pura</l>
               <l>Respiro, y la dulzura</l>
               <l>De tu meloso hablar.</l>
-              <l>Y mientras el destino</l>
+              <l rend="indent">Y mientras el destino</l>
               <l>Me exija ser discreto,</l>
               <l>Te juro yo, el SECRETO</l>
               <l>De nuestro amor guardar.</l>
             </lg>
             <p><lb/>ANTONIO FAURA.</p>
           </div>
-          <div n="3" type="parte">
+
+          <div n="3">
             <head type="titulo_cancion"><lb/>110 EL LLANTO.</head>
-            <lg>
-              <l>I.</l>
-              <l>Llorando siempre por tí</l>
+
+            <lg n="1">
+              <head type="titulo_estrofa">I.</head>
+              <l rend="indent">Llorando siempre por tí</l>
               <l>Llorando eternamente</l>
               <l>Sin que me venga á la mente</l>
               <l>Un consuelo de tu amor,</l>
@@ -1132,9 +1168,10 @@
               <l>Pérfida, me abandonastes</l>
               <l>Entregándome al dolor.</l>
             </lg>
-            <lg>
-              <l>II.</l>
-              <l>Siempre vivo yo penando</l>
+
+            <lg n="2">
+              <head type="titulo_estrofa">II.</head>
+              <l rend="indent">Siempre vivo yo penando</l>
               <l>Como amor lleno de hiel</l>
               <l>Sin que tu pecho cruel</l>
               <l>Mi Ilanto quiera escuchar.</l>
@@ -1143,9 +1180,10 @@
               <l>Y á quien por ti padece</l>
               <l>Solo le queda ay! el llorar.</l>
             </lg>
-            <lg>
-              <l>III.</l>
-              <l>Desgraciado que te amé</l>
+
+            <lg n="3">
+              <head type="titulo_estrofa">III.</head>
+              <l rend="indent">Desgraciado que te amé</l>
               <l>En tú fé siempre crei</l>
               <l>Mas entonces ay de mí</l>
               <l>Me condenaste á sufrir</l>
@@ -1154,23 +1192,30 @@
               <l>Lo que al mundo mas amaba!!!</l>
               <l>Solo anhelo ay! el morir!</l>
             </lg>
-            <pb n="4" source="Varios_036_4.jpg" facs="fedora_Varios_036_4/full/full/0/default.jpg"/>
-            <fw type="paginaNum">136</fw>
           </div>
-          <div n="4" type="parte">
-            <head type="titulo_cancion"><lb/>111 CARAMELLAS.<lb/>WALS COREIJAT.</head>
+
+          <div n="4">
+            <pb n="4" source="Varios_036_4.jpg" facs="varios/Varios_036_4.jpg/"/>
+
+            <fw type="paginaNum">136</fw>
+
+            <head type="titulo_cancion">111 <hi rend="negrita">CARAMELLAS.</hi></head>
+            <head type="titulo_cancion">WALS COREIJAT.</head>
+
             <lg>
               <l>Surtiu, hermosas noyas</l>
               <l>que ja naix lo ric sol,</l>
               <l>y entre las salsaredas</l>
               <l>canta lo russinyol.</l>
             </lg>
+
             <lg>
               <l>Goseu dichosa Pascua</l>
               <l>y ohiu alegrament,</l>
               <l>que ab dolsa melodía</l>
               <l>vos saluda l' juvent.</l>
             </lg>
+
             <lg>
               <l>Los cors plens de alegría</l>
               <l>tenim, bells angelets,</l>
@@ -1181,18 +1226,21 @@
               <l>surtiu, surtiu, que quedan</l>
               <l>tals cánties dins del cor.</l>
             </lg>
+
             <lg>
               <l>Ja despertan las floretas</l>
               <l>ja ohran són bell capull,</l>
               <l>correu, sortiu donselletas</l>
               <l>que de amor nostre cor bull.</l>
             </lg>
+
             <lg>
               <l>Surtíu, que la llum del dia</l>
               <l>ab son color carmesí,</l>
               <l>á vostres plantas nos guia</l>
               <l>per podervos divertí.</l>
             </lg>
+
             <lg>
               <l>Los cors plens de alegría</l>
               <l>tenim, bells angelets,</l>
@@ -1203,16 +1251,18 @@
               <l>surtiu, surtiu, que quedan</l>
               <l>tals cántics dins del cor.</l>
             </lg>
+
             <p><lb/>ISIDRO FERRER.</p>
-            <p><lb/>(Es propiedad.)
-               </p>
+            <p><lb/>(Es propiedad.)</p>
           </div>
-          <div type="colofon_vendedor">
-            <p><lb/>Se halla de venta en casa Antonio Bosch, Bou de la Plaza Nueva, 13, tienda.</p>
-          </div>
-          <div type="colofon_impresora">
-            <p><lb/>Barcelona. — lmprenta de los hijos de Domenech, Basea, 30.—1867.</p>
-          </div>
+        </div>
+
+        <div type="colofon_vendedor">
+          <p rend="cursiva"><lb/>Se halla de venta en casa Antonio Bosch, Bou de la Plaza Nueva, 13, tienda.</p>
+        </div>
+        
+        <div type="colofon_impresor">
+          <p><lb/>Barcelona. — Imprenta de los hijos de Domenech, Basea, 30.—1867.</p>
         </div>
       </div>
     </body>

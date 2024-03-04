@@ -1,18 +1,17 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../Schema/oddPliego_varios.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:alto="http://www.loc.gov/standards/alto/ns-v4#" xml:id="Varios_156">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Varios_156">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>VILLANCICOS QUE SE CANTAN EN CÁDIZ POR NOCHE BUENA.</title>
+        <title>VILLANCICOS QUE SE CANTAN EN CÁDIZ POR NOCHE BUENA</title>
         <respStmt>
           <name/>
           <resp>Codificación TEI</resp>
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <authority role="rightsHolder">Bibliothèque Universitaire de
-                              Genève</authority>
+        <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
         <availability status="restricted">
           <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
         </availability>
@@ -20,8 +19,8 @@
       <sourceDesc>
         <biblFull>
           <titleStmt>
-            <title type="titulo_completo">VILLANCICOS QUE SE CANTAN EN CÁDIZ
-                                          POR NOCHE BUENA.</title>
+            <title type="titulo_completo">VILLANCICOS QUE SE CANTAN EN CÁDIZ POR NOCHE
+              BUENA.</title>
             <title type="titulo_breve"/>
           </titleStmt>
           <editionStmt>
@@ -30,7 +29,7 @@
           <publicationStmt>
             <publisher>Sucesores de Hernando</publisher>
             <pubPlace ref="https://www.geonames.org/3117735/madrid.html">Madrid</pubPlace>
-            <date>[s.a]</date>
+            <date cert="low" when="1800-01-01">[s.a.]</date>
           </publicationStmt>
         </biblFull>
         <msDesc>
@@ -38,7 +37,8 @@
             <country>Suisse</country>
             <settlement>Genève</settlement>
             <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"/>
-                                    </repository>
+            </repository>
+            <collection>Colección Varios</collection>
             <idno type="cote"/>
             <idno type="DOI">10.5281/zenodo.6587108</idno>
             <altIdentifier>
@@ -57,9 +57,7 @@
               <supportDesc>
                 <support>
                   <dim>in-4</dim>
-                  <material>*À COMPLETER*: Pour indiquer la couleur
-                                                  du papier @subtype : verde, amarillo, azul,
-                                                  naranja, rosa</material>
+                  <material/>
                 </support>
                 <extent><measure unit="página" quantity="4"/>4 p.</extent>
                 <condition>Bueno</condition>
@@ -69,7 +67,7 @@
               </layoutDesc>
             </objectDesc>
             <decoDesc>
-              <summary n="1">Uno grabado (p.1) </summary>
+              <summary n="1">Un grabado (p.1) </summary>
               <decoNote type="lista_grabados">
                 <list>
                   <item corresp="grabado_v_156_1.xml">grabado_v_156_1</item>
@@ -94,18 +92,17 @@
     </fileDesc>
     <encodingDesc>
       <projectDesc>
-        <p>Este archivo fue creado en el marco del proyecto Desenrollando el
-                              Cordel/Démêler le cordel/Untangling the cordel, dirigido por la
-                              profesora Constance Carta de la Universidad de Ginebra, con el apoyo
-                              de la Fundación filantrópica Famille Sandoz-Monique de Meuron.</p>
+        <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+          cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la Universidad
+          de Ginebra, con el apoyo de la Fundación filantrópica Famille Sandoz-Monique de
+          Meuron.</p>
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR non corregido</p>
+          <p>OCR no corregido</p>
         </correction>
         <normalization>
-          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto
-                                    original.</p>
+          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
         </normalization>
         <punctuation>
           <p>Se conserva la puntuación original.</p>
@@ -126,10 +123,14 @@
       </textClass>
     </profileDesc>
     <revisionDesc>
-      <change when="2022-09-19" who="#PJ">Création du fichier TEI P5 et encodage du
-                        corps du texte</change>
+      <change when="2022-09-19" who="#PJ">Création du fichier TEI P5 et encodage du corps du
+        texte</change>
+      <change when="2024-01-09" who="#EL">Add the IIIF links</change>
     </revisionDesc>
   </teiHeader>
+  <facsimile>
+    <graphic url="varios/Varios_156_1.jpg/full/200,/0/default.jpg"/>
+  </facsimile>
   <sourceDoc xml:id="automaticTranscription">
     <surface xml:id="Varios_156_1" type="page" cert="silver">
       <graphic url="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_156_1/full/full/0/default.jpg"/>
@@ -1140,42 +1141,41 @@
   <text>
     <body>
       <div>
-        <pb n="1" source="Varios_156_1.jpg" facs="fedora_Varios_156_1/full/full/0/default.jpg"/>
-        <div type="parte" n="1">
-          <head type="primer_titulo"><lb/>VILLANCICOS</head>
-          <head type="subtitulo_parte"><lb/>QUE SE CANTAN EN CÁDIZ POR NOCHE
-                                    BUENA.</head>
-          <lg>
-            <l>En un portal de Belén</l>
+        <div>
+          <div>
+            <pb n="1" source="Varios_156_1.jpg" facs="varios/Varios_156_1.jpg/"/>
+
+            <head type="primer_titulo"><lb/>VILLANCICOS QUE SE CANTAN EN CÁDIZ POR NOCHE
+              BUENA.</head>
+
+            <l rend="indent">En un portal de Belén</l>
             <l>espuesto al aire y al frio,</l>
             <l>nació un niño muy hermoso,</l>
             <l>el más bello y peregrino.</l>
-            <l>Sus mejillas son dos rosas,</l>
+            <l rend="indent">Sus mejillas son dos rosas,</l>
             <l>sus labios clavel partido,</l>
             <l>y es todo tan agraciado</l>
             <l>que se atrae el cariño.</l>
-            <l>Vamos, pues, á adorarle</l>
+            <l rend="indent">Vamos, pues, á adorarle</l>
             <l>con afectos muy rendidos,</l>
             <l>y más que la lengua el alma</l>
             <l>le diga con amor fino:</l>
-          </lg>
-          <lg>
-            <l>«Amor mio, yo os adoro,</l>
+            <l rend="indent">«Amor mio, yo os adoro,</l>
             <l>mi Jesús, mi bien querido,</l>
             <l>¿cómo babeis tardado tanto?</l>
             <l>¡cuán deseado habeis sido!</l>
-            <l>»Bendita seais, Señora,</l>
+            <l rend="indent">»Bendita seais, Señora,</l>
             <l>y sea el Fruto bendito</l>
             <l>que salió de tus entrañas</l>
             <l>solo para redimirnos.</l>
-            <l>»Jesús, María y José,</l>
+            <l rend="indent">»Jesús, María y José,</l>
             <l>sed mi amparo, norte y guia,</l>
             <l>para gozar en el cielo</l>
             <l>vuestra amable compañía.»</l>
-          </lg>
-          <pb n="2" source="Varios_156_2.jpg" facs="fedora_Varios_156_2/full/full/0/default.jpg"/>
-          <lg>
-            <l>Noche de alegría,</l>
+
+            <pb n="2" source="Varios_156_2.jpg" facs="varios/Varios_156_2.jpg/"/>
+
+            <l rend="indent">Noche de alegría,</l>
             <l>vamos á bailar,</l>
             <l>que nace el Mesías</l>
             <l>en carne mortal.</l>
@@ -1183,15 +1183,15 @@
             <l>con luz celestial</l>
             <l>un humilde establo?</l>
             <l>¡cosa singular!</l>
-            <l>El sol que ha sabido</l>
+            <l rend="indent">El sol que ha sabido</l>
             <l>un suceso tal,</l>
             <l>de puro corrido</l>
             <l>á esconderse va,</l>
-            <l>epultando al mundo</l>
-            <l>Sn la oscuridad;</l>
-            <l>e ero este asombro</l>
+            <l>sepultando al mundo</l>
+            <l>en la oscuridad;</l>
+            <l>pero este asombro</l>
             <l>Poco durará,</l>
-            <l>p Porque á media noche</l>
+            <l rend="indent">Porque á media noche</l>
             <l>de Belén saldrá</l>
             <l>un Sol muy brillante</l>
             <l>y disipará</l>
@@ -1199,7 +1199,7 @@
             <l>Tanto alumbrará,</l>
             <l>que la especie humana</l>
             <l>mucho ganará.</l>
-            <l>Ven, dichosa noche,</l>
+            <l rend="indent">Ven, dichosa noche,</l>
             <l>llega, llega ya,</l>
             <l>que el mundo te espera</l>
             <l>con mucha ansiedad.</l>
@@ -1207,7 +1207,7 @@
             <l>Dios de la verdad,</l>
             <l>y al género humano</l>
             <l>le bendicirá.</l>
-            <l>Hoy brillante al mundo</l>
+            <l rend="indent">Hoy brillante al mundo</l>
             <l>y lleno de humildad,</l>
             <l>nace un Sol divino</l>
             <l>con tal propiedad,</l>
@@ -1215,9 +1215,7 @@
             <l>de su claridad</l>
             <l>anuncian del hombre</l>
             <l>la felicidad.</l>
-          </lg>
-          <lg>
-            <l>Este sol perfecto</l>
+            <l rend="indent">Este sol perfecto</l>
             <l>lleno de bondad,</l>
             <l>crió al universo</l>
             <l>por su Voluntad;</l>
@@ -1225,7 +1223,7 @@
             <l>con benignidad,</l>
             <l>que El padeció muerte</l>
             <l>y nos libró del mal.</l>
-            <l>Es el Sér supremo</l>
+            <l rend="indent">Es el Sér supremo</l>
             <l>en poder sin igual,</l>
             <l>y hoy en Belén nace</l>
             <l>en un pobre portal;</l>
@@ -1233,7 +1231,7 @@
             <l>y su felicidad,</l>
             <l>vino á demostrarnos</l>
             <l>su amor y humildad.</l>
-            <l>Albricias, mortales,</l>
+            <l rend="indent">Albricias, mortales,</l>
             <l>pues ya se cumplió</l>
             <l>lo que há muchos siglos</l>
             <l>se profetizó.</l>
@@ -1241,7 +1239,7 @@
             <l>que el Padre ordenó,</l>
             <l>y el género humano</l>
             <l>su dicha logró.</l>
-            <l>Ya el Verbo del Padre</l>
+            <l rend="indent">Ya el Verbo del Padre</l>
             <l>por nos descendió,</l>
             <l>y en María Virgen</l>
             <l>albergué tomó;</l>
@@ -1249,7 +1247,7 @@
             <l>que en ella moró,</l>
             <l>en un portalejo</l>
             <l>de Belén nació.</l>
-            <l>Por el regocijo</l>
+            <l rend="indent">Por el regocijo</l>
             <l>que en esta ocasion</l>
             <l>tuvistes, María,</l>
             <l>en tu corazon,</l>
@@ -1257,174 +1255,195 @@
             <l>por tu intercesion,</l>
             <l>muy felices Pascuas,</l>
             <l>gracia y salvacion.</l>
-          </lg>
+          </div>
+
+          <div>
+            <pb n="3" source="Varios_156_3.jpg" facs="varios/Varios_156_3.jpg/"/>
+
+            <head type="titulo_parte"><lb/>PRIMERA PASTORELA.</head>
+
+            <lg>
+              <l rend="indent">Vamos á Belén,</l>
+              <l>que en el frio invierno</l>
+              <l>nació un Niño tierno</l>
+              <l>para nuestro bien.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Los que en gracia estén</l>
+              <l>del Hijo y la Madre,</l>
+              <l>al Reino del Padre</l>
+              <l>subirán tambien.</l>
+            </lg>
+            <lg>
+              <l rend="indent">¿Duermes, mi Niño, si?</l>
+              <l>¿duermes, mi amante, ya?</l>
+              <l>duérmete, dulce Adonis,</l>
+              <l>duérmete, duerme en paz.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Bato, el del cerrillo,</l>
+              <l>hace las natillas,</l>
+              <l>Menga las papillas</l>
+              <l>que dan al Chiquillo.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Laura hila, y Marto</l>
+              <l>quiere que su Menga</l>
+              <l>al Niño entretenga</l>
+              <l>con en canto un rato.</l>
+            </lg>
+            <lg>
+              <l rend="indent">entre paja y neno,</l>
+              <l>entre mula y buey,</l>
+              <l>Jesús Nazareno</l>
+              <l>vino á darnos ley.</l>
+            </lg>
+            <lg>
+              <l rend="indent">El sacro <hi rend="cursiva">Agnus Dei</hi>,</l>
+              <l>de quien dijo tanto</l>
+              <l>el Bautista Santo</l>
+              <l>Hombre, Dios y Rey.</l>
+            </lg>
+            <lg>
+              <l rend="indent">A adorar á mi Niño</l>
+              <l>van las zagalas,</l>
+              <l>con razon, pues en ello</l>
+              <l>les va su gracia.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Tú toca la pandera</l>
+              <l>y yo la zambomba,</l>
+              <l>alegremos al Niño</l>
+              <l>que es Rey de la gloria.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Carrasclá, que Niño tan rubio,</l>
+              <l>carrasclá, que gordito está,</l>
+              <l>carrasclá, que madré que tiene,</l>
+              <l>carrasclá, carrasclá, carrasclá.</l>
+            </lg>
+          </div>
+
+          <div>
+            <head type="titulo_parte"><lb/>SEGUNDA PASTORELA.</head>
+            <lg>
+              <l rend="indent">A Belén camina,</l>
+              <l>quisiera saber,</l>
+              <l>un hombre de noche</l>
+              <l>con una mujer;</l>
+              <l>si la lleva hurtada</l>
+              <l>es de imaginar:</l>
+              <l>antes de las doce</l>
+              <l>á Belén llegar.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Respondió José:</l>
+              <l>no la traigo hurtada,</l>
+              <l>que esta gran Señora</l>
+              <l>es mi Esposa amada;</l>
+              <l>y el que me la dió</l>
+              <l>me la pudo dar:</l>
+              <l>antes de las doce</l>
+              <l>á Belén llegar.</l>
+            </lg>
+            <pb n="4" source="Varios_156_4.jpg" facs="varios/Varios_156_4.jpg/"/>
+            <lg>
+              <l rend="indent">Respondió María,</l>
+              <l>como es tan discreta:</l>
+              <l>pues Dios nos juntó</l>
+              <l>y estoy muy contenta;</l>
+              <l>por otro ninguno</l>
+              <l>no lo he de olvidar:</l>
+              <l>antes de las doce</l>
+              <l>á Belén llegar.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Iban caminando</l>
+              <l>con resignacion,</l>
+              <l>diciendo palabras</l>
+              <l>de consolacion;</l>
+              <l>son palabras santas</l>
+              <l>dignas de escuchar:</l>
+              <l>antes de las doce</l>
+              <l>á Belén llegar.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Iban caminando,</l>
+              <l>y luego encontraron</l>
+              <l>unos pasajeros</l>
+              <l>y les preguntaron,</l>
+              <l>si para Belén</l>
+              <l>hay mucho que andar:</l>
+              <l>antes de las doce</l>
+              <l>á Belén llegar.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Llega San José</l>
+              <l>á pedir posada,</l>
+              <l>que esta gran Señora</l>
+              <l>la traigo preñada,</l>
+              <l>responde el ventero:</l>
+              <l>no tengo posada,</l>
+              <l>Dios te dé consuelo;</l>
+              <l>y se pone á andar:</l>
+              <l>antes de las doce</l>
+              <l>á Belén llegar.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Dice San José:</l>
+              <l>haslo en caridad,</l>
+              <l>que el Rey de los cielos</l>
+              <l>está en un portal.</l>
+              <l>Respondió el ventero:</l>
+              <l>ya os podeis mar har</l>
+              <l>antes de las doce</l>
+              <l>á Belén llegar.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Iban caminando</l>
+              <l>y luego encontraron</l>
+              <l>un triste portal</l>
+              <l>muy desamparado;</l>
+              <l>allí se pararon</l>
+              <l>para descansar:</l>
+              <l>antes de las doce</l>
+              <l>á Belén llegar.</l>
+            </lg>
+            <lg>
+              <l rend="indent">—Acuéstate, esposo.</l>
+              <l>que vendrás cansado,</l>
+              <l>y de mí no tengas</l>
+              <l>pena ni cuidado;</l>
+              <l>en siendo la hora</l>
+              <l>ya te he de avisar;</l>
+              <l>antes de las doce</l>
+              <l>á Belén llegar.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Allí nació el Niño</l>
+              <l>en aquel pesebre,</l>
+              <l>entre paja y heno</l>
+              <l>y un poco de verde;</l>
+              <l>allí nació el Niño,</l>
+              <l>en aquel portal,</l>
+              <l>y los Santos Reyes</l>
+              <l>le van á adorar:</l>
+              <l>antes de las doce</l>
+              <l>á Belén llegar.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Se acabó la copla,</l>
+              <l>vamos adelante,</l>
+              <l>para los que escuchan</l>
+              <l>ha sido bastante;</l>
+              <l>perdonen, señores,</l>
+              <l>por el mal cantar</l>
+              <l>antes de las doce</l>
+              <l>á Belén llegar.</l>
+            </lg>
+          </div>
         </div>
-        <pb n="3" source="Varios_156_3.jpg" facs="fedora_Varios_156_3/full/full/0/default.jpg"/>
-        <div type="parte" n="2">
-          <head type="titulo_parte"><lb/>PRIMERA PASTORELA.</head>
-          <lg>
-            <l>Vamos á Belén,</l>
-            <l>que en el frio invierno</l>
-            <l>nació un Niño tierno</l>
-            <l>para nuestro bien.</l>
-            <l>Los que en gracia estén</l>
-            <l>del Hijo y la Madre,</l>
-            <l>al Reino del Padre</l>
-            <l>subirán tambien.</l>
-            <l>¿Duermes, mi Niño, si?</l>
-            <l>¿duermes, mi amante, ya?</l>
-            <l>duérmete, dulce Adonis,</l>
-            <l>duérmete, duerme en paz.</l>
-            <l>Bato, el del cerrillo,</l>
-            <l>hace las natillas,</l>
-            <l>Menga las papillas</l>
-            <l>que dan al Chiquillo.</l>
-            <l>Laura hila, y Marto</l>
-            <l>quiere que su Menga</l>
-            <l>al Niño entretenga</l>
-            <l>con en canto un rato.</l>
-          </lg>
-          <lg>
-            <l>entre paja y neno,</l>
-            <l>entre mula y buey,</l>
-            <l>Jesús Nazareno</l>
-            <l>vino á darnos ley.</l>
-            <l>El sacro Agnus Deí,</l>
-            <l>de quien dijo tanto</l>
-            <l>el Bautista Santo</l>
-            <l>Hombre, Dios y Rey.</l>
-            <l>A adorar á mi Niño</l>
-            <l>van las zagalas,</l>
-            <l>con razon, pues en ello</l>
-            <l>les va su gracia.</l>
-            <l>Tú toca la pandera</l>
-            <l>y yo la zambomba,</l>
-            <l>alegremos al Niño</l>
-            <l>que es Rey de la gloria.</l>
-            <l>Carrasclá, que Niño tan rubio,</l>
-            <l>carrasclá, que gordito está,</l>
-            <l>carrasclá, que madré que tiene,</l>
-            <l>carrasclá, carrasclá, carrasclá.</l>
-          </lg>
-        </div>
-        <div type="parte" n="3">
-          <head type="titulo_parte"><lb/>SEGUNDA PASTORELA.</head>
-          <lg>
-            <l>A Belén camina,</l>
-            <l>quisiera saber,</l>
-            <l>un hombre de noche</l>
-            <l>con una mujer;</l>
-            <l>si la lleva hurtada</l>
-            <l>es de imaginar:</l>
-            <l>antes de las doce</l>
-            <l>á Belén llegar.</l>
-          </lg>
-          <lg>
-            <l>Respondió José:</l>
-            <l>no la traigo hurtada,</l>
-            <l>que esta gran Señora</l>
-            <l>es mi Esposa amada;</l>
-            <l>y el que me la dió</l>
-            <l>me la pudo dar:</l>
-            <l>antes de las doce</l>
-            <l>á Belén llegar.</l>
-          </lg>
-          <pb n="4" source="Varios_156_4.jpg" facs="fedora_Varios_156_4/full/full/0/default.jpg"/>
-          <lg>
-            <l>Respondió María,</l>
-            <l>como es tan discreta:</l>
-            <l>pues Dios nos juntó</l>
-            <l>y estoy muy contenta;</l>
-            <l>por otro ninguno</l>
-            <l>no lo he de olvidar:</l>
-            <l>antes de las doce</l>
-            <l>á Belén llegar.</l>
-          </lg>
-          <lg>
-            <l>Iban caminando</l>
-            <l>con resignacion,</l>
-            <l>diciendo palabras</l>
-            <l>de consolacion;</l>
-            <l>son palabras santas</l>
-            <l>dignas de escuchar:</l>
-            <l>antes de las doce</l>
-            <l>á Belén llegar.</l>
-          </lg>
-          <lg>
-            <l>Iban caminando,</l>
-            <l>y luego encontraron</l>
-            <l>unos pasajeros</l>
-            <l>y les preguntaron,</l>
-            <l>si para Belén</l>
-            <l>hay mucho que andar:</l>
-            <l>antes de las doce</l>
-            <l>á Belén llegar.</l>
-          </lg>
-          <lg>
-            <l>Llega San José</l>
-            <l>á pedir posada,</l>
-            <l>que esta gran Señora</l>
-            <l>la traigo preñada,</l>
-            <l>responde el ventero:</l>
-            <l>no tengo posada,</l>
-            <l>Dios te dé consuelo;</l>
-            <l>y se pone á andar:</l>
-            <l>antes de las doce</l>
-            <l>á Belén llegar.</l>
-          </lg>
-          <lg>
-            <l>Dice San José:</l>
-            <l>haslo en caridad,</l>
-            <l>que el Rey de los cielos</l>
-            <l>está en un portal.</l>
-            <l>Respondió el ventero:</l>
-            <l>ya os podeis mar har</l>
-            <l>antes de las doce</l>
-            <l>á Belén llegar.</l>
-          </lg>
-          <lg>
-            <l>Iban caminando</l>
-            <l>y luego encontraron</l>
-            <l>un triste portal</l>
-            <l>muy desamparado;</l>
-            <l>allí se pararon</l>
-            <l>para descansar:</l>
-            <l>antes de las doce</l>
-            <l>á Belén llegar.</l>
-          </lg>
-          <lg>
-            <l>—Acuéstate, esposo.</l>
-            <l>que vendrás cansado,</l>
-            <l>y de mí no tengas</l>
-            <l>pena ni cuidado;</l>
-            <l>en siendo la hora</l>
-            <l>ya te he de avisar;</l>
-            <l>antes de las doce</l>
-            <l>á Belén llegar.</l>
-          </lg>
-          <lg>
-            <l>Allí nació el Niño</l>
-            <l>en aquel pesebre,</l>
-            <l>entre paja y heno</l>
-            <l>y un poco de verde;</l>
-            <l>allí nació el Niño,</l>
-            <l>en aquel portal,</l>
-            <l>y los Santos Reyes</l>
-            <l>le van á adorar:</l>
-            <l>antes de las doce</l>
-            <l>á Belén llegar.</l>
-          </lg>
-          <lg>
-            <l>Se acabó la copla,</l>
-            <l>vamos adelante,</l>
-            <l>para los que escuchan</l>
-            <l>ha sido bastante;</l>
-            <l>perdonen, señores,</l>
-            <l>por el mal cantar</l>
-            <l>antes de las doce</l>
-            <l>á Belén llegar.</l>
-          </lg>
-        </div>
+        
         <div type="colofon">
           <p><lb/>MADRID.— Despacho : Sucesores de Hernando, Arenal, 11.</p>
         </div>

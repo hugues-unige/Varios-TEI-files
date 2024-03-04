@@ -1,19 +1,17 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../Schema/oddPliego_varios.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:alto="http://www.loc.gov/standards/alto/ns-v4#" xml:id="Varios_153">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Varios_153">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>GRACIOSOS VILLANCICOS QUE CANTAN las colegialas de Loreto en esta
-                              córte por Noche-Buena.</title>
+        <title>GRACIOSOS VILLANCICOS</title>
         <respStmt>
           <name/>
           <resp>Codificación TEI</resp>
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <authority role="rightsHolder">Bibliothèque Universitaire de
-                              Genève</authority>
+        <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
         <availability status="restricted">
           <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
         </availability>
@@ -21,9 +19,8 @@
       <sourceDesc>
         <biblFull>
           <titleStmt>
-            <title type="titulo_completo">GRACIOSOS VILLANCICOS QUE CANTAN
-                                          las colegialas de Loreto en esta córte por Noche-
-                                          Buena.</title>
+            <title type="titulo_completo">GRACIOSOS VILLANCICOS QUE CANTAN las colegialas de Loreto
+              en esta córte por Noche-Buena.</title>
             <title type="titulo_breve">GRACIOSOS VILLANCICOS</title>
           </titleStmt>
           <editionStmt>
@@ -32,7 +29,7 @@
           <publicationStmt>
             <publisher>Sucesores de Hernando</publisher>
             <pubPlace ref="https://www.geonames.org/3117735/madrid.html">Madrid</pubPlace>
-            <date>[s.a]</date>
+            <date cert="low" when="1800-01-01">[s.a.]</date>
           </publicationStmt>
         </biblFull>
         <msDesc>
@@ -40,7 +37,8 @@
             <country>Suisse</country>
             <settlement>Genève</settlement>
             <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"/>
-                                    </repository>
+            </repository>
+            <collection>Colección Varios</collection>
             <idno type="cote"/>
             <idno type="DOI">10.5281/zenodo.6587097</idno>
             <altIdentifier>
@@ -48,10 +46,15 @@
             </altIdentifier>
           </msIdentifier>
           <msContents>
-            <summary/>
+            <summary>Dos villancicos</summary>
             <msItem>
-              <locus/>
-              <title/>
+              <locus>1-3</locus>
+              <title>GRACIOSOS VILLANCICOS QUE CANTAN las colegialas de Loreto en esta córte por
+                Noche-Buena.</title>
+            </msItem>
+            <msItem>
+              <locus>4</locus>
+              <title>OTROS VILLANCICOS AL NACIMIENTO DEL HIJO DE DIOS.</title>
             </msItem>
           </msContents>
           <physDesc>
@@ -69,11 +72,11 @@
               </layoutDesc>
             </objectDesc>
             <decoDesc>
-              <summary n="2">Dos grabados (p.1 + 3) </summary>
+              <summary n="2">Dos grabados (p.1 + 3)</summary>
               <decoNote type="lista_grabados">
                 <list>
                   <item corresp="grabado_v_153_1.xml">grabado_v_153_1</item>
-                  <item corresp="grabado_v_153_1.xml">grabado_v_153_2</item>
+                  <item corresp="grabado_v_153_2.xml">grabado_v_153_2</item>
                 </list>
               </decoNote>
             </decoDesc>
@@ -91,18 +94,17 @@
     </fileDesc>
     <encodingDesc>
       <projectDesc>
-        <p>Este archivo fue creado en el marco del proyecto Desenrollando el
-                              Cordel/Démêler le cordel/Untangling the cordel, dirigido por la
-                              profesora Constance Carta de la Universidad de Ginebra, con el apoyo
-                              de la Fundación filantrópica Famille Sandoz-Monique de Meuron.</p>
+        <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+          cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la Universidad
+          de Ginebra, con el apoyo de la Fundación filantrópica Famille Sandoz-Monique de
+          Meuron.</p>
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR non corregido</p>
+          <p>OCR no corregido</p>
         </correction>
         <normalization>
-          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto
-                                    original.</p>
+          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
         </normalization>
         <punctuation>
           <p>Se conserva la puntuación original.</p>
@@ -123,10 +125,14 @@
       </textClass>
     </profileDesc>
     <revisionDesc>
-      <change when="2022-09-17" who="#PJ">Création du fichier TEI P5 et encodage du
-                        corps du texte</change>
+      <change when="2022-09-17" who="#PJ">Création du fichier TEI P5 et encodage du corps du
+        texte</change>
+      <change when="2024-01-09" who="#EL">Add the IIIF links</change>
     </revisionDesc>
   </teiHeader>
+  <facsimile>
+    <graphic url="varios/Varios_153_1.jpg/full/200,/0/default.jpg"/>
+  </facsimile>
   <sourceDoc xml:id="automaticTranscription">
     <surface xml:id="Varios_153_1" type="page" cert="silver">
       <graphic url="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_153_1/full/full/0/default.jpg"/>
@@ -1073,7 +1079,7 @@
           <line>que ella sola sea digna</line>
         </zone>
         <zone xml:id="Varios_153_4_BT227_3__20" type="DefaultLine" subtype="none" points="997,1393 997,1408 1416,1408 1416,1393 1416,1356 997,1356 997,1393 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_153_4/997,1356,419,52/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_153_4_BT227_3__20_1" points="1000,1394 1419,1395 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
+          <path xml:id="Varios_153_4_BT227_3__20_1" points="1000,1394 1419,1395 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
           <line>de nuestra salvacion.</line>
         </zone>
         <zone xml:id="Varios_153_4_BT227_3_LT83_21" type="DefaultLine" subtype="none" points="1050,1441 1048,1404 1487,1402 1489,1441 1489,1459 1050,1459 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_153_4/1048,1402,441,57/full/0/default" corresp="DefaultLine">
@@ -1175,135 +1181,175 @@
     <body>
       <div>
         <div>
-          <pb n="1" source="Varios_153_1.jpg" facs="fedora_Varios_153_1/full/full/0/default.jpg"/>
-          <head type="primer_titulo"><lb/>GRACIOSOS VILLANCICOS<lb/>QUE CANTAN</head>
-          <head type="subtitulo_parte"><lb/>las colegialas de Loreto en esta
-                                    córte por Noche-Buena.</head>
-          <lg rend="cursiva">
-            <l>CORO. </l>
-            <l>Venid, pastorcitos,</l>
-            <l>venid á tomar</l>
-            <l>del Recien nacido</l>
-            <l>leccion de humildad.</l>
-          </lg>
-          <lg>
-            <l>De frio cubierto</l>
-            <l>Jesús Niño está,</l>
-            <l>demostrando al mundo</l>
-            <l>su grande humildad.</l>
-            <l>Las escarchas sufre</l>
-            <l>queriendo mostrar</l>
-            <l>á los hombres to los</l>
-            <l>su amor singular.</l>
-            <l>Las lluvias sufriendo</l>
-            <l>por salvar está,</l>
-            <l>sin que lo merezca,</l>
-            <l>á todo mortal.</l>
-          </lg>
-          <lg>
-            <l>Su tierna cabeza</l>
-            <l>quiere recostar</l>
-            <l>en un vil pesebre</l>
-            <l>do pajas están.</l>
-            <l>Los palacios deja,</l>
-            <l>porque quiere dar</l>
-            <l>al género humano</l>
-            <l>leccion de humildad.</l>
-            <l>Y á grandes ciudades</l>
-            <l>veis como no va,</l>
-            <l>prefiriendo á estas</l>
-            <l>un pobre Portal.</l>
-          </lg>
-          <pb n="2" source="Varios_153_2.jpg" facs="fedora_Varios_153_2/full/full/0/default.jpg"/>
-          <lg>
-            <l>¡Ay qué hermoso!</l>
-            <l>¡ay qué bello!</l>
-            <l>¡ay qué gracia tan linda!</l>
-            <l>¡ay qué luz tan brillante!</l>
-            <l>¡ay que perla tan fina!</l>
-            <l>digámosle, amigas,</l>
-            <l>alguna cosita.</l>
-            <l>Nene de mi alma,</l>
-            <l>Nene de mi vida,</l>
-            <l>¡ay cómo arrebatas</l>
-            <l>todas mis caricias!</l>
-            <l>Sabed que en el valle</l>
-            <l>todo es alegria,</l>
-            <l>pues nos ha venido</l>
-            <l>á ver nuestra dicha.</l>
-            <l>Nació un bello Infante</l>
-            <l>que es una delicia,</l>
-            <l>y no hay flor alguna</l>
-            <l>que á El no se rinda</l>
-          </lg>
-          <l>Mirad cual su Madre</l>
-          <l>tierna le acaricia,</l>
-          <l>el sol y la aurora</l>
-          <l>tan cerca les mira.</l>
-          <l>¿Posible es, Bien mio,</l>
-          <l>que tu Sangre misma</l>
-          <l>ha de estar por mí</l>
-          <l>al rigor vertida?</l>
-          <l>cómo Tú tiritas,</l>
-          <l>Ay, Infante mia,</l>
-          <l>cuando los mundanos</l>
-          <l>sus cuerpos abrigan.</l>
-          <l>Has venido al mundo</l>
-          <l>de tal tiranía,</l>
-          <l>que ha de coronarte</l>
-          <l>con duras espinas.</l>
-          <l>Albricias, albricias,</l>
-          <l>pueblo del Señor,</l>
-          <l>pues que ya se acerca</l>
-          <l>vuestra redencion.</l>
-        </div>
-        <div>
-          <head type="titulo_cancion"><lb/>RECITADO</head>
-          <l>Amados israelitas, ya dichosos,</l>
-          <l>felices peregrinos venturosos,</l>
-          <l>ya el alto Dios, de su bondad movido</l>
-          <l>El mismo á libertaros ha venido.</l>
-          <l>¿Quién semejante á tí, pueblo agraciado.</l>
-          <l>pues eres del Altísimo tan amado?</l>
-          <l>Conserva este favor en la memoria</l>
-          <l>que El te dará paz, y despues la gloria.</l>
           <div>
-            <head type="titulo_estrofa"><lb/>COPLAS.</head>
-            <lg>
-              <l>Hoy á la media noche</l>
-              <l>sale el divino Sol,</l>
-              <l>que ahuyenta las tinieblas</l>
-              <l>del vicio y del error.</l>
-              <l>Y el hombre se trasforma</l>
-              <l>en otro ser mejor,</l>
-              <l>pues siendo antes esclavo</l>
-              <l>hoy viene á ser señor.</l>
-              <l>Recibe de la gracia</l>
-              <l>el divino esplendor,</l>
-              <l>que es de los serafines</l>
-              <l>pasmo y admiracion.</l>
+            <pb n="1" source="Varios_153_1.jpg" facs="varios/Varios_153_1.jpg/"/>
+            <head type="primer_titulo" rend="negrita"><lb/>GRACIOSOS VILLANCICOS</head>
+            <head type="subtitulo_parte"><lb/>QUE CANTAN<lb/><hi rend="cursiva">las colegialas de
+                Loreto en esta córte por Noche-Buena.</hi></head>
+
+            <lg rend="cursiva">
+              <head>CORO.</head>
+              <l rend="indent">Venid, pastorcitos,</l>
+              <l>venid á tomar</l>
+              <l>del Recien nacido</l>
+              <l>leccion de humildad.</l>
             </lg>
             <lg>
-              <l>Ya lleno de contento,</l>
-              <l>de ternura y candor,</l>
-              <l>tributa adoraciones</l>
-              <l>al dulce Redentor.</l>
-              <l>Dale alabanza y gloria,</l>
-              <l>dale, hombre, el corazon.</l>
-              <l>no le reserves nada,</l>
-              <l>que es tu Dios y Señor.</l>
-              <l>Ese precioso Niño</l>
-              <l>que nace hoy por tu amor.</l>
-              <l>si no se lo dan todo</l>
-              <l>se queda con dolor.</l>
+              <l rend="indent">De frio cubierto</l>
+              <l>Jesús Niño está,</l>
+              <l>demostrando al mundo</l>
+              <l>su grande humildad.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Las escarchas sufre</l>
+              <l>queriendo mostrar</l>
+              <l>á los hombres to los</l>
+              <l>su amor singular.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Las lluvias sufriendo</l>
+              <l>por salvar está,</l>
+              <l>sin que lo merezca,</l>
+              <l>á todo mortal.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Su tierna cabeza</l>
+              <l>quiere recostar</l>
+              <l>en un vil pesebre</l>
+              <l>do pajas están.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Los palacios deja,</l>
+              <l>porque quiere dar</l>
+              <l>al género humano</l>
+              <l>leccion de humildad.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Y á grandes ciudades</l>
+              <l>veis como no va,</l>
+              <l>prefiriendo á estas</l>
+              <l>un pobre Portal.</l>
+            </lg>
+
+            <pb n="2" source="Varios_153_2.jpg" facs="varios/Varios_153_2.jpg/"/>
+
+            <lg>
+              <l rend="indent">¡Ay qué hermoso!</l>
+              <l>¡ay qué bello!</l>
+              <l>¡ay qué gracia tan linda!</l>
+              <l>¡ay qué luz tan brillante!</l>
+              <l>¡ay que perla tan fina!</l>
+              <l>digámosle, amigas,</l>
+              <l>alguna cosita.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Nene de mi alma,</l>
+              <l>Nene de mi vida,</l>
+              <l>¡ay cómo arrebatas</l>
+              <l>todas mis caricias!</l>
+            </lg>
+            <lg>
+              <l rend="indent">Sabed que en el valle</l>
+              <l>todo es alegria,</l>
+              <l>pues nos ha venido</l>
+              <l>á ver nuestra dicha.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Nació un bello Infante</l>
+              <l>que es una delicia,</l>
+              <l>y no hay flor alguna</l>
+              <l>que á El no se rinda</l>
+            </lg>
+            <lg>
+              <l rend="indent">Mirad cual su Madre</l>
+              <l>tierna le acaricia,</l>
+              <l>el sol y la aurora</l>
+              <l>tan cerca les mira.</l>
+            </lg>
+            <lg>
+              <l rend="indent">¿Posible es, Bien mio,</l>
+              <l>que tu Sangre misma</l>
+              <l>ha de estar por mí</l>
+              <l>al rigor vertida?</l>
+            </lg>
+            <lg>
+              <l rend="indent">cómo Tú tiritas,</l>
+              <l>Ay, Infante mia,</l>
+              <l>cuando los mundanos</l>
+              <l>sus cuerpos abrigan.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Has venido al mundo</l>
+              <l>de tal tiranía,</l>
+              <l>que ha de coronarte</l>
+              <l>con duras espinas.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Albricias, albricias,</l>
+              <l>pueblo del Señor,</l>
+              <l>pues que ya se acerca</l>
+              <l>vuestra redencion.</l>
             </lg>
           </div>
-        </div>
-        <pb n="3" source="Varios_153_3.jpg" facs="fedora_Varios_153_3/full/full/0/default.jpg"/>
-        <div>
-          <head type="titulo_cancion"><lb/>PASTORELA.</head>
-          <lg>
-            <l>Pastores sencillos,</l>
+
+          <div>
+            <head type="titulo_cancion"><lb/>RECITADO</head>
+            <l rend="indent">Amados israelitas, ya dichosos,</l>
+            <l>felices peregrinos venturosos,</l>
+            <l>ya el alto Dios, de su bondad movido</l>
+            <l>El mismo á libertaros ha venido.</l>
+            <l rend="indent">¿Quién semejante á tí, pueblo agraciado.</l>
+            <l>pues eres del Altísimo tan amado?</l>
+            <l>Conserva este favor en la memoria</l>
+            <l>que El te dará paz, y despues la gloria.</l>
+
+            <div>
+              <head type="titulo_estrofa"><lb/>COPLAS.</head>
+
+              <lg>
+                <l rend="indent">Hoy á la media noche</l>
+                <l>sale el divino Sol,</l>
+                <l>que ahuyenta las tinieblas</l>
+                <l>del vicio y del error.</l>
+              </lg>
+              <lg>
+                <l rend="indent">Y el hombre se trasforma</l>
+                <l>en otro ser mejor,</l>
+                <l>pues siendo antes esclavo</l>
+                <l>hoy viene á ser señor.</l>
+              </lg>
+              <lg>
+                <l rend="indent">Recibe de la gracia</l>
+                <l>el divino esplendor,</l>
+                <l>que es de los serafines</l>
+                <l>pasmo y admiracion.</l>
+              </lg>
+              <lg>
+                <l rend="indent">Ya lleno de contento,</l>
+                <l>de ternura y candor,</l>
+                <l>tributa adoraciones</l>
+                <l>al dulce Redentor.</l>
+              </lg>
+              <lg>
+                <l rend="indent">Dale alabanza y gloria,</l>
+                <l>dale, hombre, el corazon.</l>
+                <l>no le reserves nada,</l>
+                <l>que es tu Dios y Señor.</l>
+              </lg>
+              <lg>
+                <l rend="indent">Ese precioso Niño</l>
+                <l>que nace hoy por tu amor.</l>
+                <l>si no se lo dan todo</l>
+                <l>se queda con dolor.</l>
+              </lg>
+            </div>
+          </div>
+
+          <div>
+            <pb n="3" source="Varios_153_3.jpg" facs="varios/Varios_153_3.jpg/"/>
+            <head type="titulo_cancion"><lb/>PASTORELA.</head>
+
+            <l rend="indent">Pastores sencillos,</l>
             <l>que al frio y al hielo</l>
             <l>dejais en el monte</l>
             <l>los tiernos corderos.</l>
@@ -1321,139 +1367,178 @@
             <l>¡qué raro portento!</l>
             <l>ver en un establo</l>
             <l>al Rey de los Cielos.</l>
-            <l>Niño queridito,</l>
+            <l rend="indent">Niño queridito,</l>
             <l>gloria de los Cielos,</l>
             <l>que derramas perlas</l>
             <l>en un pobre lecho.</l>
-            <l>Ay, Jesus amante,</l>
+            <l rend="indent">Ay, Jesus amante,</l>
             <l>y cómo te han puesto</l>
             <l>tus ánsias ardientes,</l>
             <l>tus finos deseos.</l>
-            <l>Cuando en las alturas</l>
+            <l rend="indent">Cuando en las alturas</l>
             <l>repartes á cientos,</l>
             <l>ni aun tienes cuna</l>
-          </lg>
-          <lg>
             <l>en un portalejo.</l>
-            <l>Niño divino,</l>
+            <l rend="indent">Niño divino,</l>
             <l>Niño adorado.</l>
             <l>mi Dueño amado,</l>
             <l>mi buen Pastor.</l>
-            <l>Los corderillos</l>
+            <l rend="indent">Los corderillos</l>
             <l>que más te aman</l>
             <l>humildes claman</l>
             <l>por oir tu voz.</l>
-            <l>En el pesebre</l>
+            <l rend="indent">En el pesebre</l>
             <l>sobre las pajas</l>
             <l>en pobres fajas</l>
             <l>está tu amor.</l>
-            <l>Llora y tirita</l>
+            <l rend="indent">Llora y tirita</l>
             <l>mas no de frio,</l>
             <l>del hombre impio</l>
             <l>siente el rigor.</l>
-            <l>Al mundo viene</l>
+            <l rend="indent">Al mundo viene</l>
             <l>con gran desvelo,</l>
             <l>para consuelo</l>
             <l>del pecador.</l>
-            <l>Si los corderos</l>
+            <l rend="indent">Si los corderos</l>
             <l>pacen al prado,</l>
             <l>y con cuidado</l>
             <l>buscan la flor,</l>
-            <l>El pastor silba,</l>
+            <l rend="indent">El pastor silba,</l>
             <l>y les advierte</l>
             <l>que allí hay muerte</l>
             <l>y perdicion.</l>
-          </lg>
+
+          </div>
+
+          <div>
+            <pb n="4" source="Varios_153_4.jpg" facs="varios/Varios_153_4.jpg/"/>
+            <head type="titulo_cancion"><lb/>OTROS VILLANCICOS AL NACIMIENTO DEL HIJO DE
+              DIOS.</head>
+
+            <lg>
+              <l rend="indent">Veremos esta noche</l>
+              <l>el prodigio mayor,</l>
+              <l>por redimir al hombre</l>
+              <l>nacerá el Hombre-Dios.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Nacerá en unas pajas</l>
+              <l>el Sumo Criador,</l>
+              <l>y entre un buey y una mula</l>
+              <l>se verá al mismo Sol.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Anuncía á los pastores</l>
+              <l>un ángel del Señor;</l>
+              <l>que en Belén ha nacido</l>
+              <l>el Niño Salvador.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Guiados de una estrella</l>
+              <l>buscan al Niño Dios,</l>
+              <l>tres reyes, y le ofrecen</l>
+              <l>cada uno su don.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Baltasar le dá mirra,</l>
+              <l>oro le dá Melchor,</l>
+              <l>y Gaspar le dá incienso</l>
+              <l>como á Hombre y como á Dios.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Todo sea alegría,</l>
+              <l>todo satisfaccion,</l>
+              <l>porque ya tiene el hombre</l>
+              <l>seguro Redentor.</l>
+            </lg>
+            <lg>
+              <l rend="indent">La ley escrita estaba,</l>
+              <l>la gracia ya empezó,</l>
+              <l>para dar paz al hombre</l>
+              <l>glorla al inmenso Dios.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Ya esta ventura tiene</l>
+              <l>tan grande estimacion,</l>
+              <l>que al hombre deja libre,</l>
+              <l>pues que esclavo nació.</l>
+            </lg>
+            <lg>
+              <l rend="indent">De esta esclavitud, sola</l>
+              <l>la Madre se libró,</l>
+              <l>y el hijo hoy deja á todos</l>
+              <l>libres de aquel borron.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Cuántas gracias debemos</l>
+              <l>tributar al Señor,</l>
+              <l>pues de eternas tinieblas</l>
+              <l>eterna luz nos dió.</l>
+            </lg>
+            <lg>
+              <l rend="indent">celebrando al Señor</l>
+              <l>Cantemos y bailemos</l>
+              <l>de los Cielos y tierra</l>
+              <l>que en Belén hoy nació.</l>
+            </lg>
+            <lg>
+              <l rend="indent">con puro corazon,</l>
+              <l>Vamos á Belén todos</l>
+              <l>que este natal divino</l>
+              <l>es nuestra redencion.</l>
+            </lg>
+            <lg>
+              <l rend="indent">su fiel adoracion,</l>
+              <l>Cada uno le ofrece</l>
+              <l>que aunque tan pobre nace</l>
+              <l>el Niño, es nuestro Dios.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Corramos, pues, á darle</l>
+              <l>el alma y corazon,</l>
+              <l>porque este es el tributo</l>
+              <l>mas propio al Hombre-Dios.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Bendigámoste todos</l>
+              <l>con tanta devocion,</l>
+              <l>que ella sola sea digna</l>
+              <l>de nuestra salvacion.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Que con ella podamos</l>
+              <l>sirviéndoos con amor,</l>
+              <l>lograr la eterna vida</l>
+              <l>en la celeste Sion.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Toca la flauta, Bato,</l>
+              <l>el pandero Melchor,</l>
+              <l>canten Mega y Benita,</l>
+              <l>traiga la bota Anton.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Los demás cada uno</l>
+              <l>cargue con aquel don</l>
+              <l>que contemple mas propio</l>
+              <l>de nuestro Salvador.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Menga lleva los tarros</l>
+              <l>de miel que recogió,</l>
+              <l>cuatró gallinas Gila</l>
+              <l>y Gaspar un capon.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Bartolo un corderillo</l>
+              <l>y un cabrito Melchor,</l>
+              <l>y Bato le decia:</l>
+              <l>tú y él componeis dos.</l>
+            </lg>
+            <trailer>FIN.</trailer>
+          </div>
         </div>
-        <pb n="4" source="Varios_153_4.jpg" facs="fedora_Varios_153_4/full/full/0/default.jpg"/>
-        <div>
-          <head type="titulo_cancion"><lb/>OTROS VILLANCICO'S AL NACIMIENTO DEL HIJO DE DIOS.</head>
-          <lg>
-            <l>Veremos esta noche</l>
-            <l>el prodigio mayor,</l>
-            <l>por redimir al hombre</l>
-            <l>nacerá el Hombre-Dios.</l>
-            <l>Nacerá en unas pajas</l>
-            <l>el Sumo Criador,</l>
-            <l>y entre un buey y una mula</l>
-            <l>se verá al mismo Sol.</l>
-            <l>Anuncía á los pastores</l>
-            <l>un ángel del Señor;</l>
-            <l>que en Belén ha nacido</l>
-            <l>el Niño Salvador.</l>
-            <l>Guiados de una estrella</l>
-            <l>buscan al Niño Dios,</l>
-            <l>tres reyes, y le ofrecen</l>
-            <l>cada uno su don.</l>
-            <l>Baltasar le dá mirra,</l>
-            <l>oro le dá Melchor,</l>
-            <l>y Gaspar le dá incienso</l>
-            <l>como á Hombre y como á Dios.</l>
-            <l>Todo sea alegría,</l>
-            <l>todo satisfaccion,</l>
-            <l>porque ya tiene el hombre</l>
-            <l>seguro Redentor.</l>
-            <l>La ley escrita estaba,</l>
-            <l>la gracia ya empezó,</l>
-            <l>para dar paz al hombre</l>
-            <l>glorla al inmenso Dios.</l>
-            <l>Ya esta ventura tiene</l>
-            <l>tan grande estimacion,</l>
-            <l>que al hombre deja libre,</l>
-            <l>pues que esclavo nació.</l>
-            <l>De esta esclavitud, sola</l>
-            <l>la Madre se libró,</l>
-            <l>y el hijo hoy deja á todos</l>
-            <l>libres de aquel borron.</l>
-            <l>Cuántas gracias debemos</l>
-            <l>tributar al Señor,</l>
-            <l>pues de eternas tinieblas</l>
-            <l>eterna luz nos dió.</l>
-          </lg>
-          <lg>
-            <l>celebrando al Señor</l>
-            <l>Cantemos y bailemos</l>
-            <l>de los Cielos y tierra</l>
-            <l>que en Belén hoy nació.</l>
-            <l>con puro corazon,</l>
-            <l>Vamos á Belén todos</l>
-            <l>que este natal divino</l>
-            <l>es nuestra redencion.</l>
-            <l>su fiel adoracion,</l>
-            <l>Cada uno le ofrece</l>
-            <l>que aunque tan pobre nace</l>
-            <l>el Niño, es nuestro Dios.</l>
-            <l>Corramos, pues, á darle</l>
-            <l>el alma y corazon,</l>
-            <l>porque este es el tributo</l>
-            <l>mas propio al Hombre-Dios.</l>
-            <l>Bendigámoste todos</l>
-            <l>con tanta devocion,</l>
-            <l>que ella sola sea digna</l>
-            <l>de nuestra salvacion.</l>
-            <l>Que con ella podamos</l>
-            <l>sirviéndoos con amor,</l>
-            <l>lograr la eterna vida</l>
-            <l>en la celeste Sion.</l>
-            <l>Toca la flauta, Bato,</l>
-            <l>el pandero Melchor,</l>
-            <l>canten Mega y Benita,</l>
-            <l>traiga la bota Anton.</l>
-            <l>Los demás cada uno</l>
-            <l>cargue con aquel don</l>
-            <l>que contemple mas propio</l>
-            <l>de nuestro Salvador.</l>
-            <l>Menga lleva los tarros</l>
-            <l>de miel que recogió,</l>
-            <l>cuatró gallinas Gila</l>
-            <l>y Gaspar un capon.</l>
-            <l>Bartolo un corderillo</l>
-            <l>y un cabrito Melchor,</l>
-            <l>y Bato le decia:</l>
-            <l>tú y él componeis dos.</l>
-          </lg>
-          <trailer>FIN.</trailer>
-        </div>
+        
         <div type="colofon">
           <p><lb/>MADRID.— Despacho : Sucesores de Hernando. Arenal, 11.</p>
         </div>

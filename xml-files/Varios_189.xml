@@ -1,19 +1,17 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../Schema/oddPliego_varios.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:alto="http://www.loc.gov/standards/alto/ns-v4#" xml:id="Varios_189">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Varios_189">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>CONVERSACIÓ EN QUE SIS CRIADAS TREYAN A VENAL LA CONDICIÓ DE SAS
-                              MESTRESSAS.</title>
+        <title>CONVERSACIÓ EN QUE SIS CRIADAS TREYAN A VENAL LA CONDICIÓ DE SAS MESTRESSAS.</title>
         <respStmt>
           <name/>
           <resp>Codificación TEI</resp>
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <authority role="rightsHolder">Bibliothèque Universitaire de
-                              Genève</authority>
+        <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
         <availability status="restricted">
           <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
         </availability>
@@ -21,17 +19,17 @@
       <sourceDesc>
         <biblFull>
           <titleStmt>
-            <title type="titulo_completo">Conversació en que sis criadas
-                                          treyan a venal la condició de sas mestressas.</title>
+            <title type="titulo_completo">Conversació en que sis criadas treyan a venal la condició
+              de sas mestressas.</title>
             <title type="titulo_breve">Conversació</title>
           </titleStmt>
           <editionStmt>
             <p/>
           </editionStmt>
           <publicationStmt>
-            <publisher>Estampa dels Hereus de la V. Pla</publisher>
+            <publisher>Herederos de la Viuda de Pla</publisher>
             <pubPlace ref="https://www.geonames.org/3128760/barcelona.html">Barcelona</pubPlace>
-            <date cert="high">[s.a]</date>
+            <date cert="low" when="1800-01-01">[s.a.]</date>
           </publicationStmt>
         </biblFull>
         <msDesc>
@@ -39,7 +37,8 @@
             <country>Suisse</country>
             <settlement>Genève</settlement>
             <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"/>
-                                    </repository>
+            </repository>
+            <collection>Colección Varios</collection>
             <idno type="cote"/>
             <idno type="DOI">10.5281/zenodo.6595038</idno>
             <altIdentifier>
@@ -68,7 +67,7 @@
               </layoutDesc>
             </objectDesc>
             <decoDesc>
-              <summary n="1">Uno grabados (p.1) </summary>
+              <summary n="1">Un grabado (p.1)</summary>
               <decoNote type="lista_grabados">
                 <list>
                   <item corresp="grabado_v_189_1.xml">grabado_v_189_1</item>
@@ -93,18 +92,17 @@
     </fileDesc>
     <encodingDesc>
       <projectDesc>
-        <p>Este archivo fue creado en el marco del proyecto Desenrollando el
-                              Cordel/Démêler le cordel/Untangling the cordel, dirigido por la
-                              profesora Constance Carta de la Universidad de Ginebra, con el apoyo
-                              de la Fundación filantrópica Famille Sandoz-Monique de Meuron.</p>
+        <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+          cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la Universidad
+          de Ginebra, con el apoyo de la Fundación filantrópica Famille Sandoz-Monique de
+          Meuron.</p>
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR non corregido</p>
+          <p>OCR no corregido</p>
         </correction>
         <normalization>
-          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto
-                                    original.</p>
+          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
         </normalization>
         <punctuation>
           <p>Se conserva la puntuación original.</p>
@@ -113,7 +111,7 @@
     </encodingDesc>
     <profileDesc>
       <langUsage>
-        <language ident="es">Español</language>
+        <language ident="ca">Catalán</language>
       </langUsage>
       <textClass>
         <keywords xml:base="http://datos.bne.es/tema/">
@@ -125,10 +123,14 @@
       </textClass>
     </profileDesc>
     <revisionDesc>
-      <change when="2023-08-05" who="#PJ">Création du fichier TEI P5 et encodage du
-                        corps du texte</change>
+      <change when="2023-08-05" who="#PJ">Création du fichier TEI P5 et encodage du corps du
+        texte</change>
+      <change when="2024-01-09" who="#EL">Add the IIIF links</change>
     </revisionDesc>
   </teiHeader>
+  <facsimile>
+    <graphic url="varios/Varios_189_1.jpg/full/200,/0/default.jpg"/>
+  </facsimile>
   <sourceDoc xml:id="automaticTranscription">
     <surface xml:id="Varios_189_1" type="page" cert="silver">
       <graphic url="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_189_1/full/full/0/default.jpg"/>
@@ -1359,8 +1361,7 @@
       <zone xml:id="Varios_189_4_BT221_3" n="3" type="MarginTextZone" subtype="colophon" points="710,2418 1656,2418 1673,2460 1638,2495 710,2504 666,2486 710,2418 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_189_4/666.0,2418.0,1007.0,86.0/full/0/default" corresp="MarginTextZone:colophon">
         <zone xml:id="Varios_189_4_BT221_3_LT182_1" type="DefaultLine" subtype="none" points="1634,2418 1612,2418 1590,2418 1568,2418 1546,2418 1524,2418 1502,2418 1480,2418 1458,2418 1436,2418 1414,2418 1392,2418 1370,2418 1348,2418 1327,2418 1305,2418 1283,2418 1261,2418 1239,2418 1217,2418 1195,2418 1173,2418 1151,2418 1129,2418 1107,2418 1085,2418 1063,2418 1041,2418 1019,2418 997,2418 976,2418 954,2418 932,2418 910,2418 888,2418 866,2418 844,2418 822,2418 800,2418 778,2418 756,2418 734,2418 712,2418 695,2440 690,2466 688,2495 1166,2488 1195,2501 1199,2501 1201,2501 1204,2501 1206,2501 1212,2501 1250,2490 1261,2499 1261,2501 1263,2501 1265,2501 1267,2501 1287,2501 1430,2490 1649,2501 1653,2471 1649,2418 1634,2418 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_189_4/688.0,2418.0,965.0,83.0/full/0/default" corresp="CustomZone">
           <path xml:id="Varios_189_4_BT221_3_LT182_1_1" points="690,2466 1653,2471 "/>
-          <line>Barcelona: Estampa dels Hereus de la V. Pla , carrer de la
-                                    Princesa.</line>
+          <line>Barcelona: Estampa dels Hereus de la V. Pla , carrer de la Princesa.</line>
         </zone>
       </zone>
     </surface>
@@ -1369,283 +1370,277 @@
     <body>
       <div>
         <div>
-          <pb n="1" source="Varios_189_1.jpg" facs="fedora_Varios_189_1/full/full/0/default.jpg"/>
+          <pb n="1" source="Varios_189_1.jpg" facs="varios/Varios_189_1.jpg/"/>
           <div>
-            <head type="primer_titulo"><lb/>CONVERSACIÓ<lb/>EN QUE SIS CRIADAS<lb/>TREYAN A VENAL
-                                          LA CONDICIÓ DE SAS MESTRESSAS.</head>
-            <lg>
-              <l>Un dia estant retirat</l>
-              <l>en una part molt secreta,</l>
-              <l>sens serne vist ni ohit,</l>
-              <l>escoltí una conversa</l>
-              <l>de un cónclave de junta</l>
-              <l>de criadas diferentas:</l>
-              <l>totas se estavan queixant,</l>
-              <l>quiscuna en campanya treya</l>
-              <l>lo que li estava passant</l>
-              <l>en casa de la mestressa,</l>
-              <l>y las raras condicions</l>
-              <l>que unas y altras sufreixan,</l>
-              <l>Lo cónclave era de sis :</l>
-              <l>una se diu Marieta ,</l>
-              <l>dos Antonia y Margarida ;</l>
-              <l>la quarta se din Elena ;</l>
-            </lg>
-            <lg>
-              <l>Rosa té l' altra per nom,</l>
-              <l>y la sisena Beleta :</l>
-              <l>jo no tinguí millor rato</l>
-              <l>que sentir tal tratagema :</l>
-              <l>axí comensá la Rosa</l>
-              <l>á introduhir la conversa.</l>
-              <l>Filletas , vos vull contar,</l>
-              <l>procurau estar atentas ,</l>
-              <l>y sabréu lo que jo passo</l>
-              <l>en casa de la mestressa :</l>
-              <l>advertint que antes de dirho ,</l>
-              <l>vos vull explicar la feyna</l>
-              <l>que tots los dias jo fas</l>
-              <l>en casa de la mestressa.</l>
-              <l>Al matí avans las cinch</l>
-              <l>he de saltar del Ilit Ilesta :</l>
-            </lg>
-            <pb n="2" source="Varios_189_2.jpg" facs="fedora_Varios_189_2/full/full/0/default.jpg"/>
-            <lg>
-              <l>si tardo un poch á vestirme ,</l>
-              <l>si es que llesta no m' llevo,</l>
-              <l>Perque passo moltas nits</l>
-              <l>sens fer un aguller de feyna,</l>
-              <l>ja la sentiréu cridar</l>
-              <l>ab grans crits dihent : Ah fleuma;</l>
-              <l>may te acabas de vestir ;</l>
-              <l>per molt quem vestesca llesta.</l>
-              <l>Després de estar ja llevada,</l>
-              <l>la criatura me entrega,</l>
-              <l>y gronxantla en lo bressol,</l>
-              <l>passo fins quel dia entra</l>
-              <l>per las cletxas dels portals</l>
-              <l>y espiralls de las finestras.</l>
-              <l>Encench foch , si es es hivern ;</l>
-              <l>y si es estiu ab gran pressa</l>
-              <l>men vaig á cercar la carn ;</l>
-              <l>peró lo dia magre fentne,</l>
-              <l>compro tot lo menester ,</l>
-              <l>peix , enciam , salsas y pebre,</l>
-              <l>y en son temps compro escarola,</l>
-              <l>y altras cosas caseras,</l>
-              <l>las que se han de menester</l>
-              <l>y se necessita de ellas :</l>
-              <l>luego poso l' olla al foch,</l>
-              <l>lo platillo y altras eynas ;</l>
-              <l>ab la criatura als brassos</l>
-              <l>he de fer totas las feynas.</l>
-              <l>Quant arreglat lo esmorsar ,</l>
-              <l>quedo de estas feynas llesta,</l>
-              <l>baixa ab molt gran senyorío</l>
-              <l>la bona de la mestressa,</l>
-              <l>las gracias men va donant</l>
-              <l>ab paraulas que molt pesan,</l>
-              <l>renyant continuament</l>
-              <l>que las vehinas ho sentan.</l>
-              <l>Ja veyen que feyna fas ;</l>
-              <l>jo no entench de lo ques queixan ;</l>
-              <l>crech que pensan som esclavas;</l>
-              <l>jo no sé lo que pretenan.</l>
-              <l>¿ No he de tenir sentiment,</l>
-              <l>que sent lo descans de ellas,</l>
-              <l>no oygam una paraula</l>
-              <l>dita ab amor? es gran pena.</l>
-              <l>Mes al instant respongué</l>
-              <l>la bona de la Marieta :</l>
-            </lg>
-            <lg>
-              <l>Es just lo teu sentiment ;</l>
-              <l>peró escoltau ma queixa.</l>
-              <l>Jo servesch en una casa,</l>
-              <l>que té un geni la mestressa</l>
-              <l>molt contrari de la teva ;</l>
-              <l>peró jo passo ma pena,</l>
-              <l>que tot lo dia está renyanta ;</l>
-              <l>encara que ab molta fleuma ;</l>
-              <l>y per ser beata ó santa,</l>
-              <l>es gelosa que reventa;</l>
-              <l>sempre pensa lo mes mal ;</l>
-              <l>jo en forat ni en finestra</l>
-              <l>no só senyora de eixir,</l>
-              <l>ademés que ella ho veja,</l>
-              <l>que luego tinch de sentir,</l>
-              <l>que no es cosa de donsellas,</l>
-              <l>sinó estar recatadas,</l>
-              <l>dihentme ques volen pérdrer ;</l>
-              <l>y es tanta la gelosía,</l>
-              <l>que sempre me busca excusas</l>
-              <l>perque no vaja á comprar,</l>
-              <l>ni menos á la taberna</l>
-              <l>á cercar oli ni vi,</l>
-              <l>ni lo que se m'oferesca.</l>
-              <l>Ara en quant á anar pulida,</l>
-              <l>Deu vos guart si ella veya</l>
-              <l>que portés lo front lluhent,</l>
-              <l>las faldillas ab tabellas ,</l>
-              <l>lo devantal ben plegat,</l>
-              <l>y sabatas ab civellas ;</l>
-              <l>luego me faria patá</l>
-              <l>que axó es cosa de rameras.</l>
-              <l>No puch dir res als fadrins</l>
-              <l>ni de burlas ni de veras,</l>
-              <l>ni menos als aprenents ;</l>
-              <l>¿se pot estar mes subjecta?</l>
-              <l>Ay Den men guart , respongué</l>
-              <l>la que se deya Beleta,</l>
-              <l>no hi estaria en tals casas,</l>
-              <l>encara que de or me fessan :</l>
-              <l>axó es ho pera sas fillas :</l>
-              <l>peró las criadas de ellas</l>
-              <l>no han de estar tan oprimidas,</l>
-              <l>ademés desta manera:</l>
-              <l>no hi estaria una hora</l>
-              <l>ab tals paternostreras,</l>
-            </lg>
-            <pb n="3" source="Varios_189_3.jpg" facs="fedora_Varios_189_3/full/full/0/default.jpg"/>
-            <lg>
-              <l>que apar que diuhen rosaris,</l>
-              <l>y de baix en baix son pestas.</l>
-              <l>La mia no té tal mal,</l>
-              <l>ni me priva que m' alégria ;</l>
-              <l>jo parlo ab quim' dòna gust,</l>
-              <l>tinch la llibertat cumplerta,</l>
-              <l>ni m' renya com á la Rosa :</l>
-              <l>no obstant tinch un altra pena;</l>
-              <l>perque tot ho porto á coll,</l>
-              <l>tant lo que en casa se ordena,</l>
-              <l>com lo cóurer las viandas,</l>
-              <l>y menjarets si convenen,</l>
-              <l>perque de la seva casa</l>
-              <l>may sen cuyda la mestressa.</l>
-              <l>Deixaula anar á visita,</l>
-              <l>y empleada en la juguesca ;</l>
-              <l>es perfeta per axó,</l>
-              <l>no per manar ni fer feyna.</l>
-              <l>Al amo tè embobat,</l>
-              <l>perque es una paperera ;</l>
-              <l>quant li ha contat son papé,</l>
-              <l>queda ab tanta boca oberta.</l>
-              <l>No es molta la llibertat,</l>
-              <l>perque he de fer tanta feyna;</l>
-              <l>cert , filletas , que men canso,</l>
-              <l>y no estich del tot contenta.</l>
-              <l>No téns rahó de queixarte,</l>
-              <l>va respóndrer la Elena :</l>
-              <l>perque segons has contat,</l>
-              <l>tu vens á ser la mestressa.</l>
-              <l>Jo la casa que servesch,</l>
-              <l>es axí suficienta ;</l>
-              <l>també tinch la llibertat,</l>
-              <l>mes peró no es tan cumplerta</l>
-              <l>com la que tu has referit,</l>
-              <l>encara que so lliberta,</l>
-              <l>si gusto de passejarme</l>
-              <l>en lo dia de la festa ;</l>
-              <l>si vull péndrer barená,</l>
-              <l>per mi res se tanca en clau,</l>
-              <l>tota la casa es oberta.</l>
-              <l>Peró es molt gran lo treball,</l>
-              <l>vos ho asseguro , filletas ;</l>
-              <l>puig sempre estich fins al coll,</l>
-              <l>sempre vaig detrás la merda,</l>
-              <l>per ser casa de familia;</l>
-            </lg>
-            <lg>
-              <l>sempre la escombra per terra :</l>
-              <l>tot lo dia me veuréu</l>
-              <l>netejantlos lo darrera,</l>
-              <l>fent jochs al un y al altre,</l>
-              <l>y cantantlos cansonetas;</l>
-              <l>cert que es cosa molt cansada</l>
-              <l>lo víurer de esta manera ,</l>
-              <l>que sens tenir criaturas,</l>
-              <l>tan carregada men veja.</l>
-              <l>Ara en quant á lo demés,</l>
-              <l>tant lo amo com la mestressa</l>
-              <l>cert que son de bona pasta,</l>
-              <l>personas que molt mereixen.</l>
-              <l>Respongué la Margarida :</l>
-              <l>Filletas , la mia pena</l>
-              <l>es tan gran com la veuréu :</l>
-              <l>perque la mia mestressa</l>
-              <l>no fia de Jesucrist :</l>
-              <l>fins de un trist diner de pebra</l>
-              <l>tinch que donarni noticia,</l>
-              <l>no estant ja may satisfeta ;</l>
-              <l>la sua boca may calla,</l>
-              <l>y mireu si es ben estreta</l>
-              <l>y en extrém interessada,</l>
-              <l>suposant vol que servesca</l>
-              <l>pera tres ó quatre nits</l>
-              <l>tot lo vinagre que queda</l>
-              <l>del enciam ó escarola</l>
-              <l>que tret de la taula resta.</l>
-              <l>Los lluquets los divideix</l>
-              <l>y fa de ells tantas esberlas,</l>
-              <l>que es un miracle poder</l>
-              <l>ab ellas lo foch encéndrer.</l>
-              <l>Consideréu del carbó,</l>
-              <l>y juntament de la llenya,</l>
-              <l>que cosas no té que dirne,</l>
-              <l>que si crema ó si no crema :</l>
-              <l>sis' trenca tassa ó brocal,</l>
-              <l>ó altra cosa casera</l>
-              <l>de olletas y tupins,</l>
-              <l>com també plats y escudellas,</l>
-              <l>ollas grans y tapadoras,</l>
-              <l>ó altras cosas de minestra,</l>
-              <l>aquí sí que es la quimera,</l>
-              <l>li dura dos ó tres horas,</l>
-              <l>y es tanta la sua pena,</l>
-            </lg>
-            <pb n="4" source="Varios_189_4.jpg" facs="fedora_Varios_189_4/full/full/0/default.jpg"/>
-            <lg>
-              <l>que está com unas metzinas,</l>
-              <l>de cólera se reventa.</l>
-              <l>Ara en quant ab lo menjar,</l>
-              <l>sempre pera mi es quaresma :</l>
-              <l>reparau si es forta cosa</l>
-              <l>fer en tot l' any penitencia.</l>
-              <l>Jo ja no puch sufrir mes ;</l>
-              <l>y vos encomano, filletas,</l>
-              <l>si m' sabeu alguna casa;</l>
-              <l>perque luego de potencia</l>
-              <l>men aniria al instant,</l>
-              <l>per eixir de dita pena ;</l>
-              <l>vos ho demano plorant,</l>
-              <l>que fassau la diligencia.</l>
-              <l>Y aixecant la veu la Antonia</l>
-              <l>de las ditas la darrera,</l>
-              <l>calla , no plores , li diu ,</l>
-              <l>axó es cosa de ximpletas :</l>
-              <l>¿ tu has de sufrir tal cosa,</l>
-              <l>com també la Marieta,</l>
-              <l>ab las finestras tancadas</l>
-              <l>per lo gust de la mestressa ?</l>
-              <l>¿ No veyen també la Rosa</l>
-              <l>que se reventa de feyna</l>
-              <l>moltas nits , y ja may para</l>
-              <l>pera tenirla contenta ?</l>
-              <l>Ab mestressa axó es tenir</l>
-              <l>sobrada de paciencia,</l>
-              <l>y la que millor se aporta</l>
-              <l>de totas es la Beleta,</l>
-              <l>que encara que té que fer,</l>
-              <l>al fi de tot es mestressa.</l>
-              <l>Mes de la Elena me espanto,</l>
-              <l>que tinga tanta paciencia,</l>
-              <l>de estar ab tanta companya</l>
-              <l>passant ab ells tanta pena,</l>
-              <l>anant tant escarressada,</l>
-              <l>y tot l' any darrera merda.</l>
-              <l>Jo servesch á un capellá,</l>
-              <l>la companya no m' enquieta,</l>
-            </lg>
+            <head type="primer_titulo"><lb/>CONVERSACIÓ<lb/>EN QUE SIS CRIADAS<lb/>TREYAN A VENAL LA
+              CONDICIÓ DE SAS MESTRESSAS.</head>
+
+            <l rend="indent">Un dia estant retirat</l>
+            <l>en una part molt secreta,</l>
+            <l>sens serne vist ni ohit,</l>
+            <l>escoltí una conversa</l>
+            <l>de un cónclave de junta</l>
+            <l>de criadas diferentas:</l>
+            <l>totas se estavan queixant,</l>
+            <l>quiscuna en campanya treya</l>
+            <l>lo que li estava passant</l>
+            <l>en casa de la mestressa,</l>
+            <l>y las raras condicions</l>
+            <l>que unas y altras sufreixan,</l>
+            <l>Lo cónclave era de sis :</l>
+            <l>una se diu Marieta ,</l>
+            <l>dos Antonia y Margarida ;</l>
+            <l>la quarta se din Elena ;</l>
+            <l>Rosa té l' altra per nom,</l>
+            <l>y la sisena Beleta :</l>
+            <l>jo no tinguí millor rato</l>
+            <l>que sentir tal tratagema :</l>
+            <l>axí comensá la Rosa</l>
+            <l>á introduhir la conversa.</l>
+            <l>Filletas , vos vull contar,</l>
+            <l>procurau estar atentas ,</l>
+            <l>y sabréu lo que jo passo</l>
+            <l>en casa de la mestressa :</l>
+            <l>advertint que antes de dirho ,</l>
+            <l>vos vull explicar la feyna</l>
+            <l>que tots los dias jo fas</l>
+            <l>en casa de la mestressa.</l>
+            <l>Al matí avans las cinch</l>
+            <l>he de saltar del Ilit Ilesta :</l>
+
+            <pb n="2" source="Varios_189_2.jpg" facs="varios/Varios_189_2.jpg/"/>
+
+            <l>si tardo un poch á vestirme ,</l>
+            <l>si es que llesta no m' llevo,</l>
+            <l>Perque passo moltas nits</l>
+            <l>sens fer un aguller de feyna,</l>
+            <l>ja la sentiréu cridar</l>
+            <l>ab grans crits dihent : Ah fleuma;</l>
+            <l>may te acabas de vestir ;</l>
+            <l>per molt quem vestesca llesta.</l>
+            <l>Després de estar ja llevada,</l>
+            <l>la criatura me entrega,</l>
+            <l>y gronxantla en lo bressol,</l>
+            <l>passo fins quel dia entra</l>
+            <l>per las cletxas dels portals</l>
+            <l>y espiralls de las finestras.</l>
+            <l>Encench foch , si es es hivern ;</l>
+            <l>y si es estiu ab gran pressa</l>
+            <l>men vaig á cercar la carn ;</l>
+            <l>peró lo dia magre fentne,</l>
+            <l>compro tot lo menester ,</l>
+            <l>peix , enciam , salsas y pebre,</l>
+            <l>y en son temps compro escarola,</l>
+            <l>y altras cosas caseras,</l>
+            <l>las que se han de menester</l>
+            <l>y se necessita de ellas :</l>
+            <l>luego poso l' olla al foch,</l>
+            <l>lo platillo y altras eynas ;</l>
+            <l>ab la criatura als brassos</l>
+            <l>he de fer totas las feynas.</l>
+            <l>Quant arreglat lo esmorsar ,</l>
+            <l>quedo de estas feynas llesta,</l>
+            <l>baixa ab molt gran senyorío</l>
+            <l>la bona de la mestressa,</l>
+            <l>las gracias men va donant</l>
+            <l>ab paraulas que molt pesan,</l>
+            <l>renyant continuament</l>
+            <l>que las vehinas ho sentan.</l>
+            <l>Ja veyen que feyna fas ;</l>
+            <l>jo no entench de lo ques queixan ;</l>
+            <l>crech que pensan som esclavas;</l>
+            <l>jo no sé lo que pretenan.</l>
+            <l>¿ No he de tenir sentiment,</l>
+            <l>que sent lo descans de ellas,</l>
+            <l>no oygam una paraula</l>
+            <l>dita ab amor? es gran pena.</l>
+            <l>Mes al instant respongué</l>
+            <l>la bona de la Marieta :</l>
+            <l>Es just lo teu sentiment ;</l>
+            <l>peró escoltau ma queixa.</l>
+            <l>Jo servesch en una casa,</l>
+            <l>que té un geni la mestressa</l>
+            <l>molt contrari de la teva ;</l>
+            <l>peró jo passo ma pena,</l>
+            <l>que tot lo dia está renyanta ;</l>
+            <l>encara que ab molta fleuma ;</l>
+            <l>y per ser beata ó santa,</l>
+            <l>es gelosa que reventa;</l>
+            <l>sempre pensa lo mes mal ;</l>
+            <l>jo en forat ni en finestra</l>
+            <l>no só senyora de eixir,</l>
+            <l>ademés que ella ho veja,</l>
+            <l>que luego tinch de sentir,</l>
+            <l>que no es cosa de donsellas,</l>
+            <l>sinó estar recatadas,</l>
+            <l>dihentme ques volen pérdrer ;</l>
+            <l>y es tanta la gelosía,</l>
+            <l>que sempre me busca excusas</l>
+            <l>perque no vaja á comprar,</l>
+            <l>ni menos á la taberna</l>
+            <l>á cercar oli ni vi,</l>
+            <l>ni lo que se m'oferesca.</l>
+            <l>Ara en quant á anar pulida,</l>
+            <l>Deu vos guart si ella veya</l>
+            <l>que portés lo front lluhent,</l>
+            <l>las faldillas ab tabellas ,</l>
+            <l>lo devantal ben plegat,</l>
+            <l>y sabatas ab civellas ;</l>
+            <l>luego me faria patá</l>
+            <l>que axó es cosa de rameras.</l>
+            <l>No puch dir res als fadrins</l>
+            <l>ni de burlas ni de veras,</l>
+            <l>ni menos als aprenents ;</l>
+            <l>¿se pot estar mes subjecta?</l>
+            <l>Ay Den men guart , respongué</l>
+            <l>la que se deya Beleta,</l>
+            <l>no hi estaria en tals casas,</l>
+            <l>encara que de or me fessan :</l>
+            <l>axó es ho pera sas fillas :</l>
+            <l>peró las criadas de ellas</l>
+            <l>no han de estar tan oprimidas,</l>
+            <l>ademés desta manera:</l>
+            <l>no hi estaria una hora</l>
+            <l>ab tals paternostreras,</l>
+
+            <pb n="3" source="Varios_189_3.jpg" facs="varios/Varios_189_3.jpg/"/>
+
+            <l>que apar que diuhen rosaris,</l>
+            <l>y de baix en baix son pestas.</l>
+            <l>La mia no té tal mal,</l>
+            <l>ni me priva que m' alégria ;</l>
+            <l>jo parlo ab quim' dòna gust,</l>
+            <l>tinch la llibertat cumplerta,</l>
+            <l>ni m' renya com á la Rosa :</l>
+            <l>no obstant tinch un altra pena;</l>
+            <l>perque tot ho porto á coll,</l>
+            <l>tant lo que en casa se ordena,</l>
+            <l>com lo cóurer las viandas,</l>
+            <l>y menjarets si convenen,</l>
+            <l>perque de la seva casa</l>
+            <l>may sen cuyda la mestressa.</l>
+            <l>Deixaula anar á visita,</l>
+            <l>y empleada en la juguesca ;</l>
+            <l>es perfeta per axó,</l>
+            <l>no per manar ni fer feyna.</l>
+            <l>Al amo tè embobat,</l>
+            <l>perque es una paperera ;</l>
+            <l>quant li ha contat son papé,</l>
+            <l>queda ab tanta boca oberta.</l>
+            <l>No es molta la llibertat,</l>
+            <l>perque he de fer tanta feyna;</l>
+            <l>cert , filletas , que men canso,</l>
+            <l>y no estich del tot contenta.</l>
+            <l>No téns rahó de queixarte,</l>
+            <l>va respóndrer la Elena :</l>
+            <l>perque segons has contat,</l>
+            <l>tu vens á ser la mestressa.</l>
+            <l>Jo la casa que servesch,</l>
+            <l>es axí suficienta ;</l>
+            <l>també tinch la llibertat,</l>
+            <l>mes peró no es tan cumplerta</l>
+            <l>com la que tu has referit,</l>
+            <l>encara que so lliberta,</l>
+            <l>si gusto de passejarme</l>
+            <l>en lo dia de la festa ;</l>
+            <l>si vull péndrer barená,</l>
+            <l>per mi res se tanca en clau,</l>
+            <l>tota la casa es oberta.</l>
+            <l>Peró es molt gran lo treball,</l>
+            <l>vos ho asseguro , filletas ;</l>
+            <l>puig sempre estich fins al coll,</l>
+            <l>sempre vaig detrás la merda,</l>
+            <l>per ser casa de familia;</l>
+            <l>sempre la escombra per terra :</l>
+            <l>tot lo dia me veuréu</l>
+            <l>netejantlos lo darrera,</l>
+            <l>fent jochs al un y al altre,</l>
+            <l>y cantantlos cansonetas;</l>
+            <l>cert que es cosa molt cansada</l>
+            <l>lo víurer de esta manera ,</l>
+            <l>que sens tenir criaturas,</l>
+            <l>tan carregada men veja.</l>
+            <l>Ara en quant á lo demés,</l>
+            <l>tant lo amo com la mestressa</l>
+            <l>cert que son de bona pasta,</l>
+            <l>personas que molt mereixen.</l>
+            <l>Respongué la Margarida :</l>
+            <l>Filletas , la mia pena</l>
+            <l>es tan gran com la veuréu :</l>
+            <l>perque la mia mestressa</l>
+            <l>no fia de Jesucrist :</l>
+            <l>fins de un trist diner de pebra</l>
+            <l>tinch que donarni noticia,</l>
+            <l>no estant ja may satisfeta ;</l>
+            <l>la sua boca may calla,</l>
+            <l>y mireu si es ben estreta</l>
+            <l>y en extrém interessada,</l>
+            <l>suposant vol que servesca</l>
+            <l>pera tres ó quatre nits</l>
+            <l>tot lo vinagre que queda</l>
+            <l>del enciam ó escarola</l>
+            <l>que tret de la taula resta.</l>
+            <l>Los lluquets los divideix</l>
+            <l>y fa de ells tantas esberlas,</l>
+            <l>que es un miracle poder</l>
+            <l>ab ellas lo foch encéndrer.</l>
+            <l>Consideréu del carbó,</l>
+            <l>y juntament de la llenya,</l>
+            <l>que cosas no té que dirne,</l>
+            <l>que si crema ó si no crema :</l>
+            <l>sis' trenca tassa ó brocal,</l>
+            <l>ó altra cosa casera</l>
+            <l>de olletas y tupins,</l>
+            <l>com també plats y escudellas,</l>
+            <l>ollas grans y tapadoras,</l>
+            <l>ó altras cosas de minestra,</l>
+            <l>aquí sí que es la quimera,</l>
+            <l>li dura dos ó tres horas,</l>
+            <l>y es tanta la sua pena,</l>
+
+            <pb n="4" source="Varios_189_4.jpg" facs="varios/Varios_189_4.jpg/"/>
+
+            <l>que está com unas metzinas,</l>
+            <l>de cólera se reventa.</l>
+            <l>Ara en quant ab lo menjar,</l>
+            <l>sempre pera mi es quaresma :</l>
+            <l>reparau si es forta cosa</l>
+            <l>fer en tot l' any penitencia.</l>
+            <l>Jo ja no puch sufrir mes ;</l>
+            <l>y vos encomano, filletas,</l>
+            <l>si m' sabeu alguna casa;</l>
+            <l>perque luego de potencia</l>
+            <l>men aniria al instant,</l>
+            <l>per eixir de dita pena ;</l>
+            <l>vos ho demano plorant,</l>
+            <l>que fassau la diligencia.</l>
+            <l>Y aixecant la veu la Antonia</l>
+            <l>de las ditas la darrera,</l>
+            <l>calla , no plores , li diu ,</l>
+            <l>axó es cosa de ximpletas :</l>
+            <l>¿ tu has de sufrir tal cosa,</l>
+            <l>com també la Marieta,</l>
+            <l>ab las finestras tancadas</l>
+            <l>per lo gust de la mestressa ?</l>
+            <l>¿ No veyen també la Rosa</l>
+            <l>que se reventa de feyna</l>
+            <l>moltas nits , y ja may para</l>
+            <l>pera tenirla contenta ?</l>
+            <l>Ab mestressa axó es tenir</l>
+            <l>sobrada de paciencia,</l>
+            <l>y la que millor se aporta</l>
+            <l>de totas es la Beleta,</l>
+            <l>que encara que té que fer,</l>
+            <l>al fi de tot es mestressa.</l>
+            <l>Mes de la Elena me espanto,</l>
+            <l>que tinga tanta paciencia,</l>
+            <l>de estar ab tanta companya</l>
+            <l>passant ab ells tanta pena,</l>
+            <l>anant tant escarressada,</l>
+            <l>y tot l' any darrera merda.</l>
+            <l>Jo servesch á un capellá,</l>
+            <l>la companya no m' enquieta,</l>
+
             <l>ni en tot lo discurs del any</l>
             <l>may la mestressa me renya :</l>
             <l>es senyor de bona pasta,</l>
@@ -1687,9 +1682,9 @@
             <l>doná fi la tal comedia.</l>
             <trailer>FI.</trailer>
           </div>
+          
           <div type="colofon">
-            <p>Barcelona: Estampa dels Hereus de la V. Pla , carrer de la
-                                          Princesa.</p>
+            <p><hi rend="cursiva">Barcelona</hi>: Estampa dels Hereus de la V. Pla , carrer de la Princesa.</p>
           </div>
         </div>
       </div>

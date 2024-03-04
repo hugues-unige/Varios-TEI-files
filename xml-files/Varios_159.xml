@@ -1,19 +1,17 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../Schema/oddPliego_varios.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:alto="http://www.loc.gov/standards/alto/ns-v4#" xml:id="Varios_159">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Varios_159">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>CALENDARIO NUEVO Y CURIOSO, PARA EL PRESENTE AÑO Y TODOS LOS
-                              VENIDEROS.</title>
+        <title>CALENDARIO NUEVO Y CURIOSO, PARA EL PRESENTE AÑO Y TODOS LOS VENIDEROS.</title>
         <respStmt>
           <name/>
           <resp>Codificación TEI</resp>
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <authority role="rightsHolder">Bibliothèque Universitaire de
-                              Genève</authority>
+        <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
         <availability status="restricted">
           <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
         </availability>
@@ -21,17 +19,17 @@
       <sourceDesc>
         <biblFull>
           <titleStmt>
-            <title type="titulo_completo">CALENDARIO NUEVO Y CURIOSO, PARA
-                                          EL PRESENTE AÑO Y TODOS LOS VENIDEROS.</title>
+            <title type="titulo_completo">CALENDARIO NUEVO Y CURIOSO, PARA EL PRESENTE AÑO Y TODOS
+              LOS VENIDEROS.</title>
             <title type="titulo_breve">CALENDARIO NUEVO Y CURIOSO</title>
           </titleStmt>
           <editionStmt>
             <p/>
           </editionStmt>
           <publicationStmt>
-            <publisher>D. José Marés</publisher>
+            <publisher>José María Marés</publisher>
             <pubPlace ref="https://www.geonames.org/3117735/madrid.html">Madrid</pubPlace>
-            <date cert="high">1854</date>
+            <date cert="high" when="1854-01-01">1854</date>
           </publicationStmt>
         </biblFull>
         <msDesc>
@@ -39,7 +37,8 @@
             <country>Suisse</country>
             <settlement>Genève</settlement>
             <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"/>
-                                    </repository>
+            </repository>
+            <collection>Colección Varios</collection>
             <idno type="cote"/>
             <idno type="DOI">10.5281/zenodo.6587122</idno>
             <altIdentifier>
@@ -93,18 +92,17 @@
     </fileDesc>
     <encodingDesc>
       <projectDesc>
-        <p>Este archivo fue creado en el marco del proyecto Desenrollando el
-                              Cordel/Démêler le cordel/Untangling the cordel, dirigido por la
-                              profesora Constance Carta de la Universidad de Ginebra, con el apoyo
-                              de la Fundación filantrópica Famille Sandoz-Monique de Meuron.</p>
+        <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+          cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la Universidad
+          de Ginebra, con el apoyo de la Fundación filantrópica Famille Sandoz-Monique de
+          Meuron.</p>
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR non corregido</p>
+          <p>OCR no corregido</p>
         </correction>
         <normalization>
-          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto
-                                    original.</p>
+          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
         </normalization>
         <punctuation>
           <p>Se conserva la puntuación original.</p>
@@ -125,10 +123,14 @@
       </textClass>
     </profileDesc>
     <revisionDesc>
-      <change when="2022-09-19" who="#PJ">Création du fichier TEI P5 et encodage du
-                        corps du texte</change>
+      <change when="2022-09-19" who="#PJ">Création du fichier TEI P5 et encodage du corps du
+        texte</change>
+      <change when="2024-01-09" who="#EL">Add the IIIF links</change>
     </revisionDesc>
   </teiHeader>
+  <facsimile>
+    <graphic url="varios/Varios_159_1.jpg/full/200,/0/default.jpg"/>
+  </facsimile>
   <sourceDoc xml:id="automaticTranscription">
     <surface xml:id="Varios_159_1" type="page" cert="silver">
       <graphic url="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_159_1/full/full/0/default.jpg"/>
@@ -143,8 +145,7 @@
         </zone>
         <zone xml:id="Varios_159_1_BT223_2_LT84_3" type="HeadingLine" subtype="none" points="1445,1686 1425,1669 1403,1651 1381,1645 1359,1643 1337,1638 1316,1636 1307,1634 1250,1643 1212,1625 1206,1625 1193,1623 1140,1629 1116,1619 1114,1619 1112,1619 1026,1634 921,1632 912,1619 910,1619 910,1616 908,1616 905,1616 903,1616 901,1616 899,1616 883,1625 870,1614 870,1612 868,1612 866,1612 864,1612 862,1612 818,1625 767,1603 765,1603 763,1603 671,1612 629,1599 627,1599 625,1599 622,1599 620,1599 598,1614 581,1601 579,1601 576,1601 574,1601 572,1601 537,1610 524,1601 506,1601 484,1599 462,1599 456,1597 432,1601 423,1594 418,1594 397,1594 375,1592 353,1592 331,1590 309,1588 287,1588 265,1586 243,1586 223,1599 138,1597 131,1601 116,1608 109,1651 107,1658 219,1686 383,1693 386,1693 388,1693 390,1693 410,1678 414,1675 517,1675 543,1684 585,1697 587,1697 590,1697 592,1697 594,1697 607,1689 618,1682 647,1691 688,1704 690,1704 693,1704 730,1695 767,1689 916,1693 951,1711 965,1715 967,1715 969,1715 989,1713 1046,1702 1131,1715 1133,1715 1210,1708 1252,1728 1263,1732 1265,1732 1460,1739 1467,1702 1458,1693 1445,1686 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_159_1/107,1586,1360,153/full/0/default" corresp="HeadingLine">
           <path xml:id="Varios_159_1_BT223_2_LT84_3_1" points="111,1653 403,1654 1469,1704 "/>
-          <line>Con el se acertará en la eleccion de esposa por medio de los
-                                    signos</line>
+          <line>Con el se acertará en la eleccion de esposa por medio de los signos</line>
         </zone>
         <zone xml:id="Varios_159_1_BT223_2_LT84_4" type="HeadingLine" subtype="none" points="399,1708 399,1669 1164,1697 1164,1730 1164,1759 1125,1776 1125,1776 1123,1776 1123,1776 1123,1776 1120,1776 1120,1776 1118,1776 1118,1776 1118,1776 1116,1776 1092,1761 1013,1772 1013,1772 1011,1772 1011,1772 1011,1772 1008,1772 1008,1772 1008,1772 1006,1772 1006,1772 1006,1770 991,1757 938,1772 936,1772 936,1772 934,1772 881,1770 881,1770 881,1770 879,1770 879,1770 877,1770 877,1770 853,1752 736,1765 736,1765 734,1765 734,1765 734,1765 732,1765 695,1754 622,1761 622,1761 620,1761 620,1761 618,1761 618,1761 618,1761 616,1761 616,1761 603,1750 493,1757 491,1757 491,1757 491,1757 489,1757 489,1757 489,1757 486,1757 486,1757 469,1741 429,1754 427,1754 427,1754 427,1754 425,1754 425,1754 423,1754 423,1754 423,1754 392,1739 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_159_1/392,1669,772,107/full/0/default" corresp="HeadingLine">
           <path xml:id="Varios_159_1_BT223_2_LT84_4_1" points="399,1708 1164,1730 "/>
@@ -1188,8 +1189,7 @@
       <zone xml:id="Varios_159_4_BT228_4" n="4" type="MarginTextZone" subtype="colophon" points="1392,2217 1638,2234 1629,2300 1392,2320 629,2328 412,2328 264,2330 272,2207 719,2217 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_159_4/264,2207,1374,123/full/0/default" corresp="MarginTextZone:colophon">
         <zone xml:id="Varios_159_4_BT228_4_LT83_1" type="DefaultLine" subtype="none" points="293,2282 291,2228 723,2236 763,2223 765,2223 765,2223 765,2223 767,2223 767,2223 769,2223 811,2234 848,2219 866,2210 866,2210 868,2210 868,2210 870,2210 927,2210 927,2210 927,2210 960,2217 1044,2234 1065,2214 1070,2212 1070,2210 1070,2210 1072,2210 1072,2210 1072,2210 1074,2210 1074,2210 1076,2210 1103,2210 1103,2210 1103,2210 1105,2210 1105,2210 1105,2210 1107,2210 1107,2210 1112,2214 1133,2234 1175,2212 1186,2208 1186,2208 1186,2208 1188,2208 1188,2208 1191,2208 1309,2208 1309,2208 1309,2208 1311,2208 1311,2208 1311,2208 1313,2208 1313,2208 1313,2210 1316,2210 1337,2234 1449,2234 1476,2210 1476,2208 1476,2208 1476,2208 1478,2208 1478,2208 1478,2208 1480,2208 1480,2208 1482,2208 1598,2208 1603,2276 1603,2326 1544,2331 1526,2346 1526,2348 1526,2348 1524,2348 1524,2348 1522,2348 1522,2348 1522,2348 1405,2352 1403,2352 1403,2352 1403,2352 1401,2352 1401,2352 1357,2333 1316,2315 1280,2315 1259,2335 1245,2346 1245,2348 1245,2348 1243,2348 1243,2348 1243,2348 1241,2348 1241,2348 1239,2348 1239,2348 1239,2348 1237,2348 1237,2348 1234,2348 1217,2337 1199,2326 1171,2337 1149,2346 1149,2346 1147,2346 1147,2346 1144,2346 1144,2346 1144,2346 1142,2346 1142,2346 1142,2346 1140,2346 1140,2346 1140,2344 1133,2339 1112,2317 969,2331 969,2331 967,2331 967,2331 965,2331 965,2331 965,2331 962,2331 962,2331 962,2328 949,2317 919,2328 916,2328 916,2328 916,2328 914,2328 914,2328 912,2328 912,2328 912,2328 910,2328 910,2328 910,2326 899,2317 798,2317 747,2348 732,2357 730,2357 730,2357 730,2357 728,2357 728,2357 728,2359 522,2359 519,2357 519,2357 517,2357 517,2357 517,2357 515,2357 515,2357 511,2352 478,2324 410,2320 361,2357 361,2357 361,2357 359,2357 359,2357 359,2357 357,2357 357,2357 357,2359 293,2359 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_159_4/291,2208,1312,151/full/0/default" corresp="DefaultLine">
           <path xml:id="Varios_159_4_BT228_4_LT83_1_1" points="293,2282 1603,2276 "/>
-          <line>Madrid: 1854. Imprenta de D. José Marés, Belatores núm.
-                                    17.</line>
+          <line>Madrid: 1854. Imprenta de D. José Marés, Belatores núm. 17.</line>
         </zone>
       </zone>
     </surface>
@@ -1197,291 +1197,284 @@
   <text>
     <body>
       <div>
-        <pb n="1" source="Varios_159_1.jpg" facs="fedora_Varios_159_1/full/full/0/default.jpg"/>
-        <fw type="numeroPliego">(Núm. 189.)</fw>
-        <div type="parte" n="1">
+        <div>
+          <pb n="1" source="Varios_159_1.jpg" facs="varios/Varios_159_1.jpg/"/>
+
+          <fw type="impresorNum">(Núm. 189.)</fw>
+
           <head type="primer_titulo" rend="negrita"><lb/>CALENDARIO NUEVO Y CURIOSO,</head>
-          <head type="subtitulo_parte"><lb/>CALENDARIO NUEVO Y CURIOSO,<lb/>PARA EL PRESENTE AÑO Y
-                                    TODOS LOS VENIDEROS.</head>
-          <p rend="cursiva"><lb/>Con el se acertará en la eleccion de esposa
-                                    por medio de los signos<lb/>planetarios y nombres de las
-                                    mugeres.</p>
-          <lg>
-            <l>Al que no entienda los astros</l>
-            <l>ni conozca los planetas,</l>
-            <l>ni las estrellas consulte,</l>
-            <l>ni constelaciones sepa,</l>
-            <l>ni los signos del zodiaco</l>
-            <l>bien conocidos le sean,</l>
-            <l>le doy este Calendario;</l>
-            <l>pero con tal que se entienda</l>
-            <l>que ha de darme el conquibus</l>
-          </lg>
-          <lg>
-            <l>ó la mosca que se cuenta</l>
-            <l>aunque le lleve de gratis.</l>
-            <l>De este modo cuando lea</l>
-            <l>con un poco de atencion,</l>
-            <l>se instruirá al pie de la letra</l>
-            <l>de la condicion y genio</l>
-            <l>de aquella muger que quiera</l>
-            <l>tomar para matrimonio.</l>
-            <l>Atencion que ya comienza</l>
-          </lg>
-          <pb n="2" source="Varios_159_2.jpg" facs="fedora_Varios_159_2/full/full/0/default.jpg"/>
-          <lg>
-            <l>lo que en el caso presente</l>
-            <l>debe servirle de regla.</l>
-            <l>Supongamos que la chica</l>
-            <l>que quiere se llama Andrea,</l>
-            <l>Feliciana, Sinforosa,</l>
-            <l>Eulogia, Jacinta, Eusebia,</l>
-            <l>y que en lunes ha nacido,</l>
-            <l>esta será muy veleta</l>
-            <l>é inconstante, pues la luna</l>
-            <l>ejerce toda su influencia</l>
-            <l>en su dia natalicio;</l>
-            <l>y si tal vez se le agrega</l>
-            <l>ser en el signo de Acuario</l>
-            <l>no dejará de ser puerca</l>
-            <l>ó meona por lo menos,</l>
-            <l>reñida con las tareas.</l>
-            <l>Si bajo el signo de Tauro</l>
-            <l>nació la niña, aqui es ella:</l>
-            <l>la gustarán las visitas</l>
-            <l>y será muy callejera,</l>
-            <l>tendrá entrantes y salientes</l>
-            <l>y hará cuantas deligencias</l>
-            <l>pueda para que el marido</l>
-            <l>saque el signo en la cabeza.</l>
-            <l>Si se llamase Narcisa,</l>
-            <l>Julia,Juliana, Inocencia,</l>
-            <l>Ursula,Garpara, Engracia,</l>
-            <l>Baltasara ó Genoveva,</l>
-            <l>y en martes naciere, entonces</l>
-            <l>debe ser muy pendenciera,</l>
-            <l>chismosa, refunfuñoná;</l>
-            <l>mas honrada si no acierta</l>
-            <l>á nacer en signo de Aries</l>
-            <l>que es de malas consecuencias,</l>
-            <l>de Capricornio ó de Tauro,</l>
-            <l>tres nombres que muy mal suena.</l>
-            <l>Si la jóven se llamare</l>
-            <l>por acaso Micaela,</l>
-            <l>deberá ser muy golosa;</l>
-            <l>la gustarán las conservas,</l>
-            <l>las yemas, los caramelos</l>
-          </lg>
-          <lg>
-            <l>y otras tales frioleras :</l>
-            <l>no será mal parecida,</l>
-            <l>si remilgada y compuesta,</l>
-            <l>algun tanto melindrosa.</l>
-            <l>Pero si tiene la estrella</l>
-            <l>de haber nácido en el dia</l>
-            <l>que toque la presidencia</l>
-            <l>á Mercurio, es necesario</l>
-            <l>que haya de ser erabustera,</l>
-            <l>algo amiga de la raspa,</l>
-            <l>muy voltaria y muy coqueta,</l>
-            <l>sin mantener su palabra.</l>
-            <l>Lo mismo serán Nemesia,</l>
-            <l>Nicasia,Clara, Biviana,</l>
-            <l>Anastasia, Rafaela,</l>
-            <l>Ramona,Matilde, Luisa;</l>
-            <l>y si á todo esto se agrega</l>
-            <l>que el signo Escorpion domine,</l>
-            <l>ó el Sagitario siquiera,</l>
-            <l>tendrán lengua maldiciente</l>
-            <l>cortante cual hacha ó sierra.</l>
-            <l>Si fuera el signo de Libra</l>
-            <l>será inclinada á las pesas,</l>
-            <l>gustará infaliblemente</l>
-            <l>de andar en compras y ventas,</l>
-            <l>trueques, cambios y contratas.</l>
-            <l>Si es Júpiter el planeta</l>
-            <l>que preside al nacimiento</l>
-            <l>de una Juana, será bella,</l>
-            <l>blanca, rubia, magestuosa;</l>
-            <l>mas no obstante, serà séria,</l>
-            <l>poco garvo, mucha calma,</l>
-            <l>un tanto ó cuanto tontuela</l>
-            <l>y no de muchas palabras.</l>
-            <l>Si el signo Leo se mezcla</l>
-            <l>en su nacimiento, es fijo</l>
-            <l>que será furiosa, fiera,</l>
-            <l>furibunda, y todo cuanto</l>
-            <l>en tal concepto se quiera.</l>
-            <l>Antonia,Isabel, Jacoba,</l>
-            <l>Liberata,Ana y Elena,</l>
-          </lg>
-          <pb n="3" source="Varios_159_3.jpg" facs="fedora_Varios_159_3/full/full/0/default.jpg"/>
-          <lg>
-            <l>si casualmente nacieren</l>
-            <l>bajo la preciosa estrella</l>
-            <l>de Venus, serán muy lindas,</l>
-            <l>vivas, alegres, chanceras,</l>
-            <l>juguetonas y graciosas</l>
-            <l>pero sin pasar de fiestas.</l>
-            <l>Mas de Gé minis el signo</l>
-            <l>estas intenciones trueca</l>
-            <l>alguna vez y se burla</l>
-            <l>de la mas fina prudencia;</l>
-            <l>pues no apeteciendo juntas</l>
-            <l>el signo de la doncella,</l>
-            <l>la virgen desaparece</l>
-            <l>porque el Sagitario llega.</l>
-            <l>Si bajo Saturno nace</l>
-            <l>la que se llama Manuela,</l>
-            <l>Hilaria,Venancia, Justa,</l>
-            <l>Sabina,Marta ó Candelas,</l>
-            <l>es de áspera condicion</l>
-            <l>rostrifruncida y traviesa,</l>
-            <l>vigotuda y hocicona.</l>
-            <l>Pero si el Cáncer se acerca</l>
-            <l>al tiempo que nacer quiere,</l>
-            <l>ejerce tal influencia</l>
-            <l>que llega á hacerse insufrible;</l>
-            <l>inaguantable, y se emplea</l>
-            <l>en trazas abominables,</l>
-            <l>discurre ardides y tretas,</l>
-            <l>compone drogas, venenos,</l>
-            <l>y nunca se ve contenta</l>
-            <l>sino cuando causa males,</l>
-            <l>disensiones y quimeras.</l>
-            <l>A la que Urano preside</l>
-            <l>llámese Francisca, Petra,</l>
-            <l>Paula,Agustina, Teodora</l>
-            <l>ó Catalina ó Lorenza,</l>
-            <l>es tranquila, sosegada</l>
-            <l>de una pasta muy buena;</l>
-            <l>abunda en melancolia,</l>
-            <l>no es escasa de pereza,</l>
-            <l>aunque corta en el aseo;</l>
-          </lg>
-          <lg>
-            <l>mas bastante zalamera.</l>
-            <l>A la que preside el Piscis</l>
-            <l>con su signo está contenta,</l>
-            <l>es alegre y juguetona,</l>
-            <l>asi lo serán Clementa,</l>
-            <l>Margarita, Joaquina,</l>
-            <l>Carlota,Victoria, Aleja,</l>
-            <l>Asuncion,Rita ó Bernarda,</l>
-            <l>habla mucho, canta, juega,</l>
-            <l>baila, brinca, mas con todo,</l>
-            <l>en medio de tantas fiestas</l>
-            <l>tiene muchos malos ratos,</l>
-            <l>pues facilmente se altera,</l>
-            <l>se incomoda, se alborota,</l>
-            <l>pero se queda serena</l>
-            <l>y vuelve á su alegria</l>
-            <l>en un volver de cabeza.</l>
-            <l>No sabe guardar rencores,</l>
-            <l>y buenamente se presta</l>
-            <l>por su bondadoso genio</l>
-            <l>para servir á cualquiera.</l>
-            <l>Las Ineses y Domingas,</l>
-            <l>las Gertrudis, Magdalenas,</l>
-            <l>Cayetanas y Simonas,</l>
-            <l>son gazmoñas las mas de ellas,</l>
-            <l>pecan un poco en devotas</l>
-            <l>y son algo marrulleras;</l>
-            <l>sin embargo suele haber</l>
-            <l>escepcion en esta regla,</l>
-            <l>si el signo Virgen las toma</l>
-            <l>á su favor, y se empeña</l>
-            <l>en darlas su proteccion,</l>
-            <l>porque en vez de zalameras</l>
-            <l>las hace francas, sencillas,</l>
-            <l>gustosas y placenteras</l>
-            <l>en el trato de los hombres.</l>
-            <l>Persigue el Aries á Eugenias,</l>
-            <l>á las Alfonsas, Cristinas,</l>
-            <l>Alfonsas,Cristinas,</l>
-            <l>Constanzas y Doroteas;</l>
-            <l>pero las defiende Marte</l>
-            <l>con su espada y su rodela.</l>
-          </lg>
-          <pb n="4" source="Varios_159_4.jpg" facs="fedora_Varios_159_4/full/full/0/default.jpg"/>
-          <lg>
-            <l>En continua oposicion</l>
-            <l>el viejo Saturno queda</l>
-            <l>con el bribon Capricornio,</l>
-            <l>pues siempre con voz siniestra</l>
-            <l>y en ademan imponente</l>
-            <l>amenaza su cabeza,</l>
-            <l>si echar por tierra tratare</l>
-            <l>á las lgnacias, Teresas,</l>
-            <l>Eulalias,Rosas, Genaras,</l>
-            <l>Cecilias y Timoteas.</l>
-            <l>Venus con el signo Virgo</l>
-            <l>tiene pesadas contiendas;</l>
-            <l>mas Júpiter, á su hija</l>
-            <l>trata de ponerla en regla,</l>
-            <l>y al signo Acuario interpone</l>
-            <l>con que un tanto la refresca,</l>
-            <l>y mezclándose la Luna</l>
-            <l>á veces en la pendencia,</l>
-            <l>con repetidas visitas</l>
-            <l>del cuidado saca fuera</l>
-            <l>á las Gregorias, Marías,</l>
-            <l>Victorianas y Tadeas,</l>
-            <l>Javieras,Carmen, Angustias,</l>
-            <l>Concepciones y Mateas:</l>
-            <l>las Josefas, Petronilas,</l>
-            <l>Josefas,Petronilas,</l>
-            <l>Dolores,Blasas Vicentas,</l>
-            <l>siempre son olvidadizas,</l>
-            <l>doloridas y frioleras,</l>
-            <l>trabajadoras á ratos</l>
-            <l>y á lo mejor emperezan,</l>
-            <l>segun que Marte ó Saturno</l>
-            <l>acuden con su influencia.</l>
-            <l>Mi Calendarío no falla,</l>
-            <l>y á cualquiera hago la apuesta</l>
-          </lg>
-          <lg>
-            <l>que observándole en on todo</l>
-            <l>sino la acierta la yerra,</l>
-            <l>lo mismo que en lo demas</l>
-            <l>nos lo indica la esperiencia.</l>
-            <l>Los signos lo estan mostrando,</l>
-            <l>nos lo cantan los planetas;</l>
-            <l>con que ojo al Cristo, muchachos,</l>
-            <l>comprádmelos á docenas,</l>
-            <l>por ciento ó por millares,</l>
-            <l>ó por manos ó por resmas,</l>
-            <l>como querais me convengo</l>
-            <l>con tal que salga mi cuenta.</l>
-            <l>No hay mucho que discurrir,</l>
-            <l>ni romperse la cabeza,</l>
-            <l>ni derretirse los sesos,</l>
-            <l>ni hay que quemarse las cejas;</l>
-            <l>solo se exige cuidado,</l>
-            <l>atencion y diligencia</l>
-            <l>en aprender bien los nombros</l>
-            <l>de muger, signo y planeta:</l>
-            <l>fijarse en sus variedades</l>
-            <l>y notar las competencias</l>
-            <l>que hay entre los unos y otros.</l>
-            <l>Aprendidas bien las reglas</l>
-            <l>puede el que quiera casarse</l>
-            <l>dormir bien á pierna suelta</l>
-            <l>y no dársele cuidado</l>
-            <l>en la eleccion que pretenda</l>
-            <l>hacer de esposa á su gusto.</l>
-            <l>Mas si acaso sucediera</l>
-            <l>que en algo me equivocase,</l>
-            <l>justo es que todos convengan</l>
-            <l>que la voluntad de Dios</l>
-            <l>en todo y por todo es hecha.</l>
-          </lg>
+          <head type="subtitulo_parte"><lb/>PARA EL PRESENTE AÑO Y TODOS LOS VENIDEROS.</head>
+
+          <p rend="cursiva"><lb/>Con el se acertará en la eleccion de esposa por medio de los
+            signos<lb/>planetarios y nombres de las mugeres.</p>
+
+          <l rend="indent">Al que no entienda los astros</l>
+          <l>ni conozca los planetas,</l>
+          <l>ni las estrellas consulte,</l>
+          <l>ni constelaciones sepa,</l>
+          <l>ni los signos del zodiaco</l>
+          <l>bien conocidos le sean,</l>
+          <l>le doy este Calendario;</l>
+          <l>pero con tal que se entienda</l>
+          <l>que ha de darme el conquibus</l>
+          <l>ó la mosca que se cuenta</l>
+          <l>aunque le lleve de gratis.</l>
+          <l>De este modo cuando lea</l>
+          <l>con un poco de atencion,</l>
+          <l>se instruirá al pie de la letra</l>
+          <l>de la condicion y genio</l>
+          <l>de aquella muger que quiera</l>
+          <l>tomar para matrimonio.</l>
+          <l>Atencion que ya comienza</l>
+
+          <pb n="2" source="Varios_159_2.jpg" facs="varios/Varios_159_2.jpg/"/>
+
+          <l>lo que en el caso presente</l>
+          <l>debe servirle de regla.</l>
+          <l>Supongamos que la chica</l>
+          <l>que quiere se llama Andrea,</l>
+          <l>Feliciana, Sinforosa,</l>
+          <l>Eulogia, Jacinta, Eusebia,</l>
+          <l>y que en lunes ha nacido,</l>
+          <l>esta será muy veleta</l>
+          <l>é inconstante, pues la luna</l>
+          <l>ejerce toda su influencia</l>
+          <l>en su dia natalicio;</l>
+          <l>y si tal vez se le agrega</l>
+          <l>ser en el signo de Acuario</l>
+          <l>no dejará de ser puerca</l>
+          <l>ó meona por lo menos,</l>
+          <l>reñida con las tareas.</l>
+          <l>Si bajo el signo de Tauro</l>
+          <l>nació la niña, aqui es ella:</l>
+          <l>la gustarán las visitas</l>
+          <l>y será muy callejera,</l>
+          <l>tendrá entrantes y salientes</l>
+          <l>y hará cuantas deligencias</l>
+          <l>pueda para que el marido</l>
+          <l>saque el signo en la cabeza.</l>
+          <l>Si se llamase Narcisa,</l>
+          <l>Julia,Juliana, Inocencia,</l>
+          <l>Ursula,Garpara, Engracia,</l>
+          <l>Baltasara ó Genoveva,</l>
+          <l>y en martes naciere, entonces</l>
+          <l>debe ser muy pendenciera,</l>
+          <l>chismosa, refunfuñoná;</l>
+          <l>mas honrada si no acierta</l>
+          <l>á nacer en signo de Aries</l>
+          <l>que es de malas consecuencias,</l>
+          <l>de Capricornio ó de Tauro,</l>
+          <l>tres nombres que muy mal suena.</l>
+          <l>Si la jóven se llamare</l>
+          <l>por acaso Micaela,</l>
+          <l>deberá ser muy golosa;</l>
+          <l>la gustarán las conservas,</l>
+          <l>las yemas, los caramelos</l>
+          <l>y otras tales frioleras :</l>
+          <l>no será mal parecida,</l>
+          <l>si remilgada y compuesta,</l>
+          <l>algun tanto melindrosa.</l>
+          <l>Pero si tiene la estrella</l>
+          <l>de haber nácido en el dia</l>
+          <l>que toque la presidencia</l>
+          <l>á Mercurio, es necesario</l>
+          <l>que haya de ser erabustera,</l>
+          <l>algo amiga de la raspa,</l>
+          <l>muy voltaria y muy coqueta,</l>
+          <l>sin mantener su palabra.</l>
+          <l>Lo mismo serán Nemesia,</l>
+          <l>Nicasia,Clara, Biviana,</l>
+          <l>Anastasia, Rafaela,</l>
+          <l>Ramona,Matilde, Luisa;</l>
+          <l>y si á todo esto se agrega</l>
+          <l>que el signo Escorpion domine,</l>
+          <l>ó el Sagitario siquiera,</l>
+          <l>tendrán lengua maldiciente</l>
+          <l>cortante cual hacha ó sierra.</l>
+          <l>Si fuera el signo de Libra</l>
+          <l>será inclinada á las pesas,</l>
+          <l>gustará infaliblemente</l>
+          <l>de andar en compras y ventas,</l>
+          <l>trueques, cambios y contratas.</l>
+          <l>Si es Júpiter el planeta</l>
+          <l>que preside al nacimiento</l>
+          <l>de una Juana, será bella,</l>
+          <l>blanca, rubia, magestuosa;</l>
+          <l>mas no obstante, serà séria,</l>
+          <l>poco garvo, mucha calma,</l>
+          <l>un tanto ó cuanto tontuela</l>
+          <l>y no de muchas palabras.</l>
+          <l>Si el signo Leo se mezcla</l>
+          <l>en su nacimiento, es fijo</l>
+          <l>que será furiosa, fiera,</l>
+          <l>furibunda, y todo cuanto</l>
+          <l>en tal concepto se quiera.</l>
+          <l>Antonia,Isabel, Jacoba,</l>
+          <l>Liberata,Ana y Elena,</l>
+
+          <pb n="3" source="Varios_159_3.jpg" facs="varios/Varios_159_3.jpg/"/>
+
+          <l>si casualmente nacieren</l>
+          <l>bajo la preciosa estrella</l>
+          <l>de Venus, serán muy lindas,</l>
+          <l>vivas, alegres, chanceras,</l>
+          <l>juguetonas y graciosas</l>
+          <l>pero sin pasar de fiestas.</l>
+          <l>Mas de Gé minis el signo</l>
+          <l>estas intenciones trueca</l>
+          <l>alguna vez y se burla</l>
+          <l>de la mas fina prudencia;</l>
+          <l>pues no apeteciendo juntas</l>
+          <l>el signo de la doncella,</l>
+          <l>la virgen desaparece</l>
+          <l>porque el Sagitario llega.</l>
+          <l>Si bajo Saturno nace</l>
+          <l>la que se llama Manuela,</l>
+          <l>Hilaria,Venancia, Justa,</l>
+          <l>Sabina,Marta ó Candelas,</l>
+          <l>es de áspera condicion</l>
+          <l>rostrifruncida y traviesa,</l>
+          <l>vigotuda y hocicona.</l>
+          <l>Pero si el Cáncer se acerca</l>
+          <l>al tiempo que nacer quiere,</l>
+          <l>ejerce tal influencia</l>
+          <l>que llega á hacerse insufrible;</l>
+          <l>inaguantable, y se emplea</l>
+          <l>en trazas abominables,</l>
+          <l>discurre ardides y tretas,</l>
+          <l>compone drogas, venenos,</l>
+          <l>y nunca se ve contenta</l>
+          <l>sino cuando causa males,</l>
+          <l>disensiones y quimeras.</l>
+          <l>A la que Urano preside</l>
+          <l>llámese Francisca, Petra,</l>
+          <l>Paula,Agustina, Teodora</l>
+          <l>ó Catalina ó Lorenza,</l>
+          <l>es tranquila, sosegada</l>
+          <l>de una pasta muy buena;</l>
+          <l>abunda en melancolia,</l>
+          <l>no es escasa de pereza,</l>
+          <l>aunque corta en el aseo;</l>
+          <l>mas bastante zalamera.</l>
+          <l>A la que preside el Piscis</l>
+          <l>con su signo está contenta,</l>
+          <l>es alegre y juguetona,</l>
+          <l>asi lo serán Clementa,</l>
+          <l>Margarita, Joaquina,</l>
+          <l>Carlota,Victoria, Aleja,</l>
+          <l>Asuncion,Rita ó Bernarda,</l>
+          <l>habla mucho, canta, juega,</l>
+          <l>baila, brinca, mas con todo,</l>
+          <l>en medio de tantas fiestas</l>
+          <l>tiene muchos malos ratos,</l>
+          <l>pues facilmente se altera,</l>
+          <l>se incomoda, se alborota,</l>
+          <l>pero se queda serena</l>
+          <l>y vuelve á su alegria</l>
+          <l>en un volver de cabeza.</l>
+          <l>No sabe guardar rencores,</l>
+          <l>y buenamente se presta</l>
+          <l>por su bondadoso genio</l>
+          <l>para servir á cualquiera.</l>
+          <l>Las Ineses y Domingas,</l>
+          <l>las Gertrudis, Magdalenas,</l>
+          <l>Cayetanas y Simonas,</l>
+          <l>son gazmoñas las mas de ellas,</l>
+          <l>pecan un poco en devotas</l>
+          <l>y son algo marrulleras;</l>
+          <l>sin embargo suele haber</l>
+          <l>escepcion en esta regla,</l>
+          <l>si el signo Virgen las toma</l>
+          <l>á su favor, y se empeña</l>
+          <l>en darlas su proteccion,</l>
+          <l>porque en vez de zalameras</l>
+          <l>las hace francas, sencillas,</l>
+          <l>gustosas y placenteras</l>
+          <l>en el trato de los hombres.</l>
+          <l>Persigue el Aries á Eugenias,</l>
+          <l>á las Alfonsas, Cristinas,</l>
+          <l>Alfonsas,Cristinas,</l>
+          <l>Constanzas y Doroteas;</l>
+          <l>pero las defiende Marte</l>
+          <l>con su espada y su rodela.</l>
+
+          <pb n="4" source="Varios_159_4.jpg" facs="varios/Varios_159_4.jpg/"/>
+
+          <l>En continua oposicion</l>
+          <l>el viejo Saturno queda</l>
+          <l>con el bribon Capricornio,</l>
+          <l>pues siempre con voz siniestra</l>
+          <l>y en ademan imponente</l>
+          <l>amenaza su cabeza,</l>
+          <l>si echar por tierra tratare</l>
+          <l>á las lgnacias, Teresas,</l>
+          <l>Eulalias,Rosas, Genaras,</l>
+          <l>Cecilias y Timoteas.</l>
+          <l>Venus con el signo Virgo</l>
+          <l>tiene pesadas contiendas;</l>
+          <l>mas Júpiter, á su hija</l>
+          <l>trata de ponerla en regla,</l>
+          <l>y al signo Acuario interpone</l>
+          <l>con que un tanto la refresca,</l>
+          <l>y mezclándose la Luna</l>
+          <l>á veces en la pendencia,</l>
+          <l>con repetidas visitas</l>
+          <l>del cuidado saca fuera</l>
+          <l>á las Gregorias, Marías,</l>
+          <l>Victorianas y Tadeas,</l>
+          <l>Javieras,Carmen, Angustias,</l>
+          <l>Concepciones y Mateas:</l>
+          <l>las Josefas, Petronilas,</l>
+          <l>Josefas,Petronilas,</l>
+          <l>Dolores,Blasas Vicentas,</l>
+          <l>siempre son olvidadizas,</l>
+          <l>doloridas y frioleras,</l>
+          <l>trabajadoras á ratos</l>
+          <l>y á lo mejor emperezan,</l>
+          <l>segun que Marte ó Saturno</l>
+          <l>acuden con su influencia.</l>
+          <l>Mi Calendarío no falla,</l>
+          <l>y á cualquiera hago la apuesta</l>
+          <l>que observándole en on todo</l>
+          <l>sino la acierta la yerra,</l>
+          <l>lo mismo que en lo demas</l>
+          <l>nos lo indica la esperiencia.</l>
+          <l>Los signos lo estan mostrando,</l>
+          <l>nos lo cantan los planetas;</l>
+          <l>con que ojo al Cristo, muchachos,</l>
+          <l>comprádmelos á docenas,</l>
+          <l>por ciento ó por millares,</l>
+          <l>ó por manos ó por resmas,</l>
+          <l>como querais me convengo</l>
+          <l>con tal que salga mi cuenta.</l>
+          <l>No hay mucho que discurrir,</l>
+          <l>ni romperse la cabeza,</l>
+          <l>ni derretirse los sesos,</l>
+          <l>ni hay que quemarse las cejas;</l>
+          <l>solo se exige cuidado,</l>
+          <l>atencion y diligencia</l>
+          <l>en aprender bien los nombros</l>
+          <l>de muger, signo y planeta:</l>
+          <l>fijarse en sus variedades</l>
+          <l>y notar las competencias</l>
+          <l>que hay entre los unos y otros.</l>
+          <l>Aprendidas bien las reglas</l>
+          <l>puede el que quiera casarse</l>
+          <l>dormir bien á pierna suelta</l>
+          <l>y no dársele cuidado</l>
+          <l>en la eleccion que pretenda</l>
+          <l>hacer de esposa á su gusto.</l>
+          <l>Mas si acaso sucediera</l>
+          <l>que en algo me equivocase,</l>
+          <l>justo es que todos convengan</l>
+          <l>que la voluntad de Dios</l>
+          <l>en todo y por todo es hecha.</l>
+
           <trailer>FIN.</trailer>
         </div>
+        
         <div type="colofon">
-          <p><lb/>Madrid: 1854. Imprenta de D. José Marés, Belatores núm.
-                                    17.</p>
+          <p><lb/>Madrid: 1854. Imprenta de D. José Marés, Belatores núm. 17.</p>
         </div>
       </div>
     </body>

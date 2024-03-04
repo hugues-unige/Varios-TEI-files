@@ -1,20 +1,17 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../Schema/oddPliego_varios.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:alto="http://www.loc.gov/standards/alto/ns-v4#" xml:id="Varios_040">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Varios_040">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>EL CANTOR DE LAS HERMOSAS. TROVAS DE AMOR DEDICADAS
-                     AL BELLO SEXO POR UNOS AFICIONADOS.</title>
+        <title>EL CANTOR DE LAS HERMOSAS</title>
         <respStmt>
           <name/>
           <resp>Codificación TEI</resp>
-          <note type="propiedad">–F. T.–</note>
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <authority role="rightsHolder">Bibliothèque Universitaire de
-                            Genève</authority>
+        <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
         <availability status="restricted">
           <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
         </availability>
@@ -22,25 +19,26 @@
       <sourceDesc>
         <biblFull>
           <titleStmt>
-            <title type="titulo_completo">EL CANTOR DE LAS HERMOSAS. TROVAS DE AMOR DEDICADAS
-                              AL BELLO SEXO POR UNOS AFICIONADOS.</title>
-            <title type="titulo_breve">EL CANTOR DE LAS HERMOSAS</title>
+            <title type="titulo_completo">EL CANTOR DE LAS HERMOSAS. TROVAS DE AMOR DEDICADAS AL
+              BELLO SEXO POR UNOS AFICIONADOS.</title>
+            <title type="titulo_breve">EL CANTOR DE LAS HERMOSAS.</title>
           </titleStmt>
           <editionStmt>
             <p/>
           </editionStmt>
           <publicationStmt>
-            <publisher>N. Ramírez y Compañía</publisher>
+            <publisher>Narciso Ramírez</publisher>
             <pubPlace ref="https://www.geonames.org/3128760/barcelona.html">Barcelona</pubPlace>
-            <date>[s.a]</date>
+            <date cert="low" when="1800-01-01">[s.a.]</date>
           </publicationStmt>
         </biblFull>
         <msDesc>
           <msIdentifier>
             <country>Suisse</country>
             <settlement>Genève</settlement>
-            <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"/>
-                  </repository>
+            <repository>Bibliothèque Universitaire de Genève<ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"/>
+            </repository>
+            <collection>Colección Varios</collection>
             <idno type="cote"/>
             <idno type="DOI">10.5281/zenodo.6554344</idno>
             <altIdentifier>
@@ -48,10 +46,15 @@
             </altIdentifier>
           </msIdentifier>
           <msContents>
-            <summary/>
+            <summary>Dos canciones</summary>
             <msItem>
-              <locus/>
-              <title/>
+              <locus>1-3</locus>
+              <title>La estrella del dia.</title>
+              <author role="letrista">F. T.</author>
+            </msItem>
+            <msItem>
+              <locus>3-4</locus>
+              <title>Danza catalana.</title>
             </msItem>
           </msContents>
           <physDesc>
@@ -69,7 +72,7 @@
               </layoutDesc>
             </objectDesc>
             <decoDesc>
-              <summary n="1">Uno grabado (p.1) </summary>
+              <summary n="1">Un grabado (p.1) </summary>
               <decoNote type="lista_grabados">
                 <list>
                   <item corresp="grabado_v_040_1.xml">grabado_v_040_1</item>
@@ -83,7 +86,8 @@
               <p>Imprenta de N. Ramirez y Compañia, pasaje de Escudilers número 4.</p>
             </origin>
             <provenance>
-              <p>Se hallara de venta en casa Antonio Bosch, Bou de la Plaza Nueva, núm. 13 tienda.</p>
+              <p>Se hallara de venta en casa Antonio Bosch, Bou de la Plaza Nueva, núm. 13
+                tienda.</p>
             </provenance>
             <acquisition/>
           </history>
@@ -92,18 +96,17 @@
     </fileDesc>
     <encodingDesc>
       <projectDesc>
-        <p>Este archivo fue creado en el marco del proyecto Desenrollando el
-                            Cordel/Démêler le cordel/Untangling the cordel, dirigido por la
-                            profesora Constance Carta de la Universidad de Ginebra, con el apoyo de
-                            la Fundación filantrópica Famille Sandoz-Monique de Meuron.</p>
+        <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+          cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la Universidad
+          de Ginebra, con el apoyo de la Fundación filantrópica Famille Sandoz-Monique de
+          Meuron.</p>
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR non corregido</p>
+          <p>OCR no corregido</p>
         </correction>
         <normalization>
-          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto
-                                original.</p>
+          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
         </normalization>
         <punctuation>
           <p>Se conserva la puntuación original.</p>
@@ -125,10 +128,11 @@
     </profileDesc>
     <revisionDesc>
       <change when="2022-05-14" who="#PJ">Création du fichier TEI P5 et encodage du corps du
-                        texte</change>
+        texte</change>
+<change when="2024-01-09" who="#EL">Add the IIIF links</change>
     </revisionDesc>
   </teiHeader>
-  <sourceDoc xml:id="automaticTranscription">
+  <facsimile><graphic url="varios/Varios_040_1.jpg/full/200,/0/default.jpg"/></facsimile><sourceDoc xml:id="automaticTranscription">
     <surface xml:id="Varios_040_1" type="page" cert="silver">
       <graphic url="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_040_1/full/full/0/default.jpg"/>
       <zone xml:id="Varios_040_1_BT223_1" n="1" type="CustomZone" subtype="title" points="1153,193 1599,193 1705,297 1669,299 1696,341 1616,385 992,447 370,429 88,394 0,341 26,246 79,211 648,202 715,114 894,113 959,176 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_040_1/0,113,1705,334/full/0/default" corresp="CustomZone:title">
@@ -1083,7 +1087,8 @@
       <zone xml:id="Varios_040_4_BT228_6" n="6" type="MarginTextZone" subtype="colophon" points="126,2279 126,2371 1716,2371 1716,2279 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_040_4/126,2279,1590,92/full/0/default" corresp="MarginTextZone:colophon">
         <zone xml:id="Varios_040_4_BT228_6_LT83_1" type="DefaultLine" subtype="none" points="144,2352 140,2313 256,2311 258,2311 258,2311 261,2311 261,2311 261,2311 304,2326 539,2322 583,2306 583,2306 585,2306 585,2306 585,2306 587,2306 590,2306 710,2315 719,2304 721,2304 721,2304 721,2302 721,2302 723,2302 723,2302 723,2302 726,2302 726,2302 728,2302 809,2302 1035,2306 1048,2300 1063,2289 1065,2289 1065,2289 1065,2289 1068,2289 1068,2289 1070,2289 1070,2289 1070,2289 1072,2289 1072,2289 1096,2298 1107,2304 1114,2298 1123,2291 1123,2289 1123,2289 1125,2289 1125,2289 1127,2289 1127,2289 1127,2289 1129,2289 1129,2289 1129,2289 1131,2289 1160,2298 1175,2302 1201,2298 1248,2289 1248,2289 1248,2289 1250,2289 1327,2295 1355,2298 1359,2295 1370,2285 1370,2282 1370,2282 1373,2282 1373,2282 1373,2282 1375,2282 1375,2282 1377,2282 1377,2282 1377,2282 1436,2293 1447,2295 1460,2293 1546,2276 1546,2276 1546,2276 1548,2276 1548,2276 1609,2287 1627,2274 1629,2274 1629,2274 1629,2274 1631,2274 1631,2274 1631,2274 1634,2274 1634,2274 1636,2274 1636,2274 1684,2291 1686,2331 1684,2337 307,2385 304,2385 142,2377 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_040_4/140,2274,1546,111/full/0/default" corresp="DefaultLine">
           <path xml:id="Varios_040_4_BT228_6_LT83_1_1" points="146,2355 251,2358 295,2370 513,2366 1687,2333 "/>
-          <line>Se hallara de venta en casa Antonio Bosch, Bou de la Plaza Nueva, núm. 13 tienda.</line>
+          <line>Se hallara de venta en casa Antonio Bosch, Bou de la Plaza Nueva, núm. 13
+            tienda.</line>
         </zone>
       </zone>
       <zone xml:id="Varios_040_4_BT228_7" n="7" type="MarginTextZone" subtype="colophon" points="168,2392 168,2488 1614,2427 1626,2358 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_040_4/168,2358,1458,130/full/0/default" corresp="MarginTextZone:colophon">
@@ -1099,280 +1104,314 @@
     <body>
       <div>
         <div>
-          <pb n="1" source="Varios_040_1.jpg" facs="fedora_Varios_040_1/full/full/0/default.jpg"/>
+          <pb n="1" source="Varios_040_1.jpg" facs="varios/Varios_040_1.jpg/"/>
+
           <fw type="impresorNum">Número 48.</fw>
-          <head type="primer_titulo" rend="negrita"><lb/>EL<lb/>CANTOR DE LAS HERMOSAS.</head>
-          <head type="subtitulo_parte"><lb/>TROVAS DE AMOR DEDICADAS AL BELLO SEXO<lb/>POR UNOS
-                        AFICIONADOS.</head>
-          <div>
+
+          <head type="primer_titulo"><lb/><hi rend="negrita">EL</hi><lb/>CANTOR DE LAS
+            HERMOSAS.</head>
+          <head type="titulo_parte"><lb/>TROVAS DE AMOR DEDICADAS AL BELLO SEXO<lb/>POR UNOS
+            AFICIONADOS.</head>
+
+          <div n="1">
             <head type="titulo_cancion"><lb/>LA ESTRELLA DEL DIA.<lb/>CANCION A DUO.</head>
-            <lg>
-              <l>1.ª</l>
-              <l>Eres la luz de mis ojos,</l>
+
+            <lg n="1">
+              <head type="titulo_estrofa">1.ª</head>
+              <l rend="indent">Eres la luz de mis ojos,</l>
               <l>hermosa Estrella del dia,</l>
               <l>eres mi norte y mi guia</l>
               <l>mi delicia y mi placer;</l>
-              <l>¡Ay! estasiado me tienes</l>
+              <l rend="indent">¡Ay! estasiado me tienes</l>
               <l>con tu mirada de fuego...</l>
               <l>¡Amor mio! yo te ruego</l>
               <l>me dés tu fino querer.</l>
             </lg>
-            <lg>
-              <l>2.ª</l>
-              <l>Apenas nace en Oriente</l>
+
+            <lg n="2">
+              <head type="titulo_estrofa">2.ª</head>
+              <l rend="indent">Apenas nace en Oriente</l>
               <l>luz pura de la mañana,</l>
               <l>tu faz hermosa y galana</l>
               <l>me recuerda al dispertar;</l>
-              <l>Con tus dorados cabellos</l>
+              <l rend="indent">Con tus dorados cabellos</l>
               <l>y tus mejillas de rosa...</l>
               <l>¡Ay! me impulsa, niña hermosa,</l>
               <l>la tu imágen recordar.</l>
             </lg>
-            <pb n="2" source="Varios_040_2.jpg" facs="fedora_Varios_040_2/full/full/0/default.jpg"/>
-            <lg>
-              <l>3.ª</l>
-              <l>Cuando Morfeo su venda</l>
+
+            <pb n="2" source="Varios_040_2.jpg" facs="varios/Varios_040_2.jpg/"/>
+
+            <lg n="3">
+              <head type="titulo_estrofa">3.ª</head>
+              <l rend="indent">Cuando Morfeo su venda</l>
               <l>extiende sobre mis ojos,</l>
               <l>mi pecho suspira enojos</l>
               <l>no poderte contemplar;</l>
-              <l>Mas el Dios de los amores</l>
+              <l rend="indent">Mas el Dios de los amores</l>
               <l>con su poder bondadoso,</l>
               <l>me dá un sueño dulce, hermoso,</l>
               <l>y una delicia sin par.</l>
             </lg>
-            <lg>
-              <l>4.ª</l>
-              <l>¡Estrella! ¡dulce consuelo!</l>
+
+            <lg n="4">
+              <head type="titulo_estrofa">4.ª</head>
+              <l rend="indent">¡Estrella! ¡dulce consuelo!</l>
               <l>tus reflejos son tan bellos,</l>
               <l>pues que vivir yo sin ellos</l>
               <l>seria mi perecer.</l>
-              <l>Asi dirige tus rayos</l>
+              <l rend="indent">Asi dirige tus rayos</l>
               <l>que penetren en mi pecho,</l>
               <l>y de puro amor desecho</l>
               <l>rebosaré de placer.</l>
             </lg>
-            <lg>
-              <l>5.ª</l>
-              <l>En bosque frondoso echado</l>
+
+            <lg n="5">
+              <head type="titulo_estrofa">5.ª</head>
+              <l rend="indent">En bosque frondoso echado</l>
               <l>sobre de la verde alfombra,</l>
               <l>dó no se alcanza una sombra</l>
               <l>alli te veo lucir;</l>
-              <l>Tus rayos vienen á herirme</l>
+              <l rend="indent">Tus rayos vienen á herirme</l>
               <l>dándome dulce alegría...</l>
               <l>¡Hermosa Estrella del dia!</l>
               <l>tu reflejo es mi existir.</l>
             </lg>
-            <lg>
-              <l>6.ª</l>
-              <l>Yo te busco noche y dia</l>
+
+            <lg n="6">
+              <head type="titulo_estrofa">6.ª</head>
+              <l rend="indent">Yo te busco noche y dia</l>
               <l>anhelante y sin sosiego;</l>
               <l>¡divina Estrella! te ruego</l>
               <l>que tú mi guia has de ser;</l>
-              <l>Yo respiraré tranquilo</l>
+              <l rend="indent">Yo respiraré tranquilo</l>
               <l>guiado por tus fulgores,...</l>
               <l>de estos dulces resplandores</l>
               <l>que dan inmenso placer.</l>
             </lg>
-            <lg>
-              <l>7.ª</l>
+
+            <lg n="7">
+              <head type="titulo_estrofa">7.ª</head>
+              <l rend="indent">Cuando asoma en Oriente</l>
               <l>su caris de hermosa grana</l>
-              <l>Cuando asoma en Oriente</l>
               <l>la deliciosa mañana,</l>
               <l>vienes mi mente á ocupar;</l>
-              <l>Con voz dolorida exclamo</l>
+              <l rend="indent">Con voz dolorida exclamo</l>
               <l>¡hermosa Estrella del dia!</l>
               <l>¡ídolo del alma mia,</l>
               <l>ven mi alma á consolar!</l>
             </lg>
-            <lg>
-              <l>8.ª</l>
-              <l>Despues que de oscura noche</l>
+
+            <lg n="8">
+              <head type="titulo_estrofa">8.ª</head>
+              <l rend="indent">Despues que de oscura noche</l>
               <l>da la purpurina aurora</l>
               <l>sus reflejos bienechora</l>
               <l>efectos del Creador;</l>
-              <l>La luz de mi blanca Estrella</l>
+              <l rend="indent">La luz de mi blanca Estrella</l>
               <l>no aparece ya á mis ojos,</l>
               <l>y postrado yo de hinojos</l>
               <l>lloro triste su rigor.</l>
             </lg>
-            <lg>
-              <l>9.ª</l>
-              <l>El canto de hermosas aves</l>
+
+            <lg n="9">
+              <head type="titulo_estrofa">9.ª</head>
+              <l rend="indent">El canto de hermosas aves</l>
               <l>que van anunciando el dia,</l>
               <l>no hieren el alma mia</l>
               <l>con su canto seductor;</l>
-              <l>Solo el corazon me hiere</l>
+              <l rend="indent">Solo el corazon me hiere</l>
               <l>la oscuridad de mi Estrella,</l>
               <l>pues que vivir yo sin ella</l>
               <l>será vivir con dolor.</l>
             </lg>
-            <lg>
-              <l>10.</l>
-              <l>Ya las flores no me brindan</l>
+
+            <lg n="10">
+              <head type="titulo_estrofa">10.</head>
+              <l rend="indent">Ya las flores no me brindan</l>
               <l>ni su grato aroma aspiro,</l>
               <l>¡Ay! ¡no más hondo suspiro</l>
               <l>que arranca mi corazon!</l>
-              <l>Ni de la tierna paloma</l>
+              <l rend="indent">Ni de la tierna paloma</l>
               <l>me alegra su dulce arrullo;</l>
               <l>ni del arroyo el murmullo.</l>
               <l>puede aclarar mi razon.</l>
             </lg>
-            <pb n="3" source="Varios_040_3.jpg" facs="fedora_Varios_040_3/full/full/0/default.jpg"/>
-            <lg>
-              <l>11.</l>
-              <l>El sol con su hermoso rayo</l>
+
+            <pb n="3" source="Varios_040_3.jpg" facs="varios/Varios_040_3.jpg/"/>
+
+            <lg n="11">
+              <head type="titulo_estrofa">11.</head>
+              <l rend="indent">El sol con su hermoso rayo</l>
               <l>ya no me presta alegria,</l>
               <l>¡Ay! solo tú, Estrella mia,</l>
               <l>puedes calmar tanto mal;</l>
-              <l>Sal pronto, dueño querido,</l>
+              <l rend="indent">Sal pronto, dueño querido,</l>
               <l>y alumbra mi pecho amante,</l>
               <l>que yo te seré constante</l>
               <l>con cariño sin igual.</l>
             </lg>
-            <lg>
-              <l>12.</l>
-              <l>Despreciado de mi Estrella</l>
+
+            <lg n="12">
+              <head type="titulo_estrofa">12.</head>
+              <l rend="indent">Despreciado de mi Estrella</l>
               <l>nada me resta en el mundo,</l>
               <l>¡No más un dolor profundo</l>
               <l>que acabará mi existir!</l>
-              <l>¡Oh muerte!... ven y no tardes,</l>
+              <l rend="indent">¡Oh muerte!... ven y no tardes,</l>
               <l>corta el camino á mi vida!</l>
               <l>¿Qué es vivir sin mi querida?</l>
               <l>¡Es un eterno sufrir!</l>
             </lg>
             <p><lb/>F. T.</p>
           </div>
-          <div>
-            <head type="titulo_cancion"><lb/><hi rend="negrita">DANZA CATALANA.</hi><lb/>DEDICADA Á LAS NOYAS DE CATALUNYA.</head>
-            <lg>
-              <l>I.</l>
-              <l>Las noyas de Catalunya</l>
+
+          <div n="2">
+            <head type="titulo_cancion" rend="negrita">DANZA CATALANA.</head>
+            <head type="subtitulo_cancion">DEDICADA Á LAS NOYAS DE CATALUNYA.</head>
+
+            <lg n="1">
+              <head type="titulo_estrofa">I.</head>
+              <l rend="indent">Las noyas de Catalunya</l>
               <l>¿quí es lo que duptará,</l>
               <l>que son las flors més hermosas</l>
               <l>que en lo milló Eden hi ha?</l>
-              <l>Deixeuvos de americanas,</l>
+              <l rend="indent">Deixeuvos de americanas,</l>
               <l>de cansons en castellá,</l>
               <l>y en nostre llenguatje propi</l>
               <l>sas gracias hem de cantá;</l>
-              <l>Joyas hermosas</l>
+              <l rend="indent">Joyas hermosas</l>
               <l>de gran valor,</l>
               <l>á vostras gracias</l>
               <l>rendim amor.</l>
             </lg>
-            <lg>
-              <l>II.</l>
-              <l>No os fixeu solament jóves</l>
+
+            <lg n="2">
+              <head type="titulo_estrofa">II.</head>
+              <l rend="indent">No os fixeu solament jóves</l>
               <l>ab las noyas de ciutat,</l>
               <l>que en lo plá de Barcelona</l>
               <l>hi ha lo més resalat;</l>
-              <l>Veureu allí pajeseta</l>
+              <l rend="indent">Veureu allí pajeseta</l>
               <l>ab un vestí tan bufó,...</l>
               <l>y unas dolsas miradetas</l>
               <l>que os encantan de debó;</l>
-              <l>Si aquestas gracias</l>
+              <l rend="indent">Si aquestas gracias</l>
               <l>no hos roba al cor,</l>
               <l>vos aseguro</l>
               <l>que no hi ha amor.</l>
             </lg>
-            <lg>
-              <l>III.</l>
-              <l>Sia al plá ó á la montanya,</l>
+
+            <lg n="3">
+              <head type="titulo_estrofa">III.</head>
+              <l rend="indent">Sia al plá ó á la montanya,</l>
               <l>sia al camp ó al Ampurdá,</l>
               <l>per tot hi ha noyas macas</l>
               <l>que estasía son mirar;</l>
-              <l>Aquells trajes tan hermosos,</l>
+              <l rend="indent">Aquells trajes tan hermosos,</l>
               <l>aquellas dents de marfil,</l>
               <l>y sos llavis rosats semblan</l>
               <l>hermosas rosas de Abril;</l>
-              <l>Tanta hermosura</l>
+              <l rend="indent">Tanta hermosura</l>
               <l>no 's pot trobá,</l>
               <l>sino en la terra</l>
               <l>del Catalá.</l>
             </lg>
-            <lg>
-              <l>IV.</l>
-              <l>No dupteu minyons del dia</l>
+
+            <lg n="4">
+              <head type="titulo_estrofa">IV.</head>
+              <l rend="indent">No dupteu minyons del dia</l>
               <l>que Catalunya es la fló</l>
               <l>de totas las cosas bonas...</l>
               <l>y per noyas, la milló;</l>
-              <l>No hi ha estranjé quant arriba</l>
+              <l rend="indent">No hi ha estranjé quant arriba</l>
               <l>que no quedi tot parat,</l>
               <l>al veurer tanta hermosura</l>
-              <l>y un perfl tan delicat;</l>
-              <l>No ho dupteu noyas...</l>
+              <l>y un perfil tan delicat;</l>
+              <l rend="indent">No ho dupteu noyas...</l>
               <l>de peus al front,</l>
               <l>sou las més macas</l>
               <l>de tot lo mon.</l>
             </lg>
-            <pb n="4" source="Varios_040_4.jpg" facs="fedora_Varios_040_4/full/full/0/default.jpg"/>
-            <lg>
-              <l>V.</l>
-              <l>Quant de amor ferit se troba</l>
+
+            <pb n="4" source="Varios_040_4.jpg" facs="varios/Varios_040_4.jpg/"/>
+
+            <lg n="5">
+              <head type="titulo_estrofa">V.</head>
+              <l rend="indent">Quant de amor ferit se troba</l>
               <l>un galan enamorat,</l>
               <l>la més dolsa recompensa</l>
               <l>troba en lo vostre costat;</l>
-              <l>Perque, com la vostra cara</l>
+              <l rend="indent">Perque, com la vostra cara</l>
               <l>teniu també hermós lo cor,</l>
               <l>y sabeu cullir las penas,</l>
               <l>dant consol al aymador;</l>
-              <l>Tal recompensa</l>
+              <l rend="indent">Tal recompensa</l>
               <l>y semblant sort,</l>
               <l>la més gran dicha</l>
               <l>dona en lo cor.</l>
             </lg>
-            <lg>
-              <l>VI.</l>
-              <l>Canteulos de amor mil trovas</l>
+
+            <lg n="6">
+              <head type="titulo_estrofa">VI.</head>
+              <l rend="indent">Canteulos de amor mil trovas</l>
               <l>jovenets enamorats,</l>
               <l>que son serafins hermosos</l>
               <l>per lo Crendó enviats;</l>
-              <l>Mereixen vostres obsequis</l>
+              <l rend="indent">Mereixen vostres obsequis</l>
               <l>semblants prendas de valor,</l>
               <l>perque los seus cors no abrigan</l>
               <l>més que dulzura y amor.</l>
-              <l>No dupteu jóves</l>
+              <l rend="indent">No dupteu jóves</l>
               <l>lo que os dich jo,</l>
               <l>que á Catalunya</l>
               <l>hi ha lo millor.</l>
             </lg>
-            <lg>
-              <l>VII.</l>
-              <l>Teixiolos bellas guirnaldas</l>
+
+            <lg n="7">
+              <head type="titulo_estrofa">VII.</head>
+              <l rend="indent">Teixiolos bellas guirnaldas</l>
               <l>per adorná s' aspecte hermós,</l>
               <l>de clavells, rosas, violas,</l>
               <l>llassamins y ricas flors;</l>
-              <l>Tributeulos tot quant siga</l>
+              <l rend="indent">Tributeulos tot quant siga</l>
               <l>que será ben acullit,</l>
               <l>perque com las catalanas</l>
-              <l>Ni á Italia, Fransa,</l>
+              <l rend="indent">Ni á Italia, Fransa,</l>
               <l>ni en cap estat,</l>
               <l>tanta hermosura</l>
               <l>Déu ha posat.</l>
             </lg>
-            <lg>
-              <l>No olvideu la vostra patria</l>
+
+            <lg n="8">
+              <head type="titulo_estrofa">VIII.</head>
+              <l rend="indent">No olvideu la vostra patria</l>
               <l>com al principi os dich ya,</l>
               <l>deixeuvos de americanas</l>
               <l>y cansons en castellá.</l>
-              <l>Teniu una terra de ánjels</l>
+              <l rend="indent">Teniu una terra de ánjels</l>
               <l>per darvos inspiració,</l>
               <l>y os repetesch... Catalunya</l>
               <l>per noyas... la nata y flor.</l>
-              <l>Joyas preciosas</l>
+              <l rend="indent">Joyas preciosas</l>
               <l>de gran valor,</l>
               <l>á vostras gracias</l>
               <l>rendim amor.</l>
             </lg>
-            <p><lb/>(Es propiedad.)</p>
+            <p rend="cursiva"><lb/>(Es propiedad.)</p>
             <trailer>FIN.</trailer>
           </div>
-          <div type="colofon_vendedor">
-            <p><lb/>Se hallara de venta en casa Antonio Bosch, Bou de la Plaza Nueva, núm. 13 tienda.</p>
-          </div>
-          <div type="colofon_impresora">
-            <p><lb/>Imprenta de N. Ramirez y Compañia, pasaje de Escudilers número 4.</p>
-          </div>
         </div>
+
+        <div type="colofon_vendedor">
+          <p rend="cursiva"><lb/>Se hallara de venta en casa Antonio Bosch, Bou de la Plaza Nueva,
+            núm. 13 tienda.</p>
+        </div>
+
+        <div type="colofon_impresor">
+          <p><lb/>Imprenta de N. Ramirez y Compañia, pasaje de Escudilers número 4.</p>
+        </div>
+
       </div>
     </body>
   </text>

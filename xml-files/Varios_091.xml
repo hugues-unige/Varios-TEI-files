@@ -1,19 +1,17 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../Schema/oddPliego_varios.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:alto="http://www.loc.gov/standards/alto/ns-v4#" xml:id="Varios_091">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Varios_091">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>SIT, SIT, SIT. Nueva polka del célebre y popular maestro D. Enrique
-                              Marti.</title>
+        <title>SIT, SIT, SIT</title>
         <respStmt>
           <name/>
           <resp>Codificación TEI</resp>
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <authority role="rightsHolder">Bibliothèque Universitaire de
-                              Genève</authority>
+        <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
         <availability status="restricted">
           <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
         </availability>
@@ -21,17 +19,17 @@
       <sourceDesc>
         <biblFull>
           <titleStmt>
-            <title type="titulo_completo">SIT, SIT, SIT. Nueva polka del
-                                          célebre y popular maestro D. Enrique Marti.</title>
+            <title type="titulo_completo">SIT, SIT, SIT. Nueva polka del célebre y popular maestro
+              D. Enrique Marti.</title>
             <title type="titulo_breve">SIT, SIT, SIT.</title>
           </titleStmt>
           <editionStmt>
             <p/>
           </editionStmt>
           <publicationStmt>
-            <publisher>[s.n]</publisher>
-            <pubPlace/>
-            <date>[s.a]</date>
+            <publisher>[s.n.]</publisher>
+            <pubPlace>[s.l.]</pubPlace>
+            <date cert="low" when="1800-01-01">[s.a.]</date>
           </publicationStmt>
         </biblFull>
         <msDesc>
@@ -39,7 +37,8 @@
             <country>Suisse</country>
             <settlement>Genève</settlement>
             <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"/>
-                                    </repository>
+            </repository>
+            <collection>Colección Varios</collection>
             <idno type="cote"/>
             <idno type="DOI">10.5281/zenodo.6575896</idno>
             <altIdentifier>
@@ -47,10 +46,15 @@
             </altIdentifier>
           </msIdentifier>
           <msContents>
-            <summary/>
+            <summary>Dos canciones</summary>
             <msItem>
-              <locus/>
-              <title/>
+              <locus>1-4</locus>
+              <title>Sit, Sit, Sit. Nueva polka del célebre y popular maestro
+                D. Enrique Marti.</title>
+            </msItem>
+            <msItem>
+              <locus>4</locus>
+              <title>Peteneras no cantadas ni oidas.</title>
             </msItem>
           </msContents>
           <physDesc>
@@ -68,7 +72,7 @@
               </layoutDesc>
             </objectDesc>
             <decoDesc>
-              <summary n="2">Uno grabado (p.1) </summary>
+              <summary n="2">Un grabado (p.1) </summary>
               <decoNote type="lista_grabados">
                 <list>
                   <item corresp="grabado_v_091_1.xml">grabado_v_091_1</item>
@@ -87,18 +91,17 @@
     </fileDesc>
     <encodingDesc>
       <projectDesc>
-        <p>Este archivo fue creado en el marco del proyecto Desenrollando el
-                              Cordel/Démêler le cordel/Untangling the cordel, dirigido por la
-                              profesora Constance Carta de la Universidad de Ginebra, con el apoyo
-                              de la Fundación filantrópica Famille Sandoz-Monique de Meuron.</p>
+        <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+          cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la Universidad
+          de Ginebra, con el apoyo de la Fundación filantrópica Famille Sandoz-Monique de
+          Meuron.</p>
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR non corregido</p>
+          <p>OCR no corregido</p>
         </correction>
         <normalization>
-          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto
-                                    original.</p>
+          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
         </normalization>
         <punctuation>
           <p>Se conserva la puntuación original.</p>
@@ -119,10 +122,14 @@
       </textClass>
     </profileDesc>
     <revisionDesc>
-      <change when="2022-07-27" who="#PJ">Création du fichier TEI P5 et encodage du
-                        corps du texte</change>
+      <change when="2022-07-27" who="#PJ">Création du fichier TEI P5 et encodage du corps du
+        texte</change>
+      <change when="2024-01-09" who="#EL">Add the IIIF links</change>
     </revisionDesc>
   </teiHeader>
+  <facsimile>
+    <graphic url="varios/Varios_091_1.jpg/full/200,/0/default.jpg"/>
+  </facsimile>
   <sourceDoc xml:id="automaticTranscription">
     <surface xml:id="Varios_091_1" type="page" cert="silver">
       <graphic url="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_091_1/full/full/0/default.jpg"/>
@@ -133,8 +140,7 @@
         </zone>
         <zone xml:id="Varios_091_1_BT223_1_LT84_2" type="HeadingLine" subtype="none" points="195,1739 188,1665 225,1651 228,1651 228,1651 228,1651 230,1651 230,1651 232,1651 232,1651 232,1651 234,1651 234,1651 234,1654 245,1662 256,1673 359,1673 372,1658 381,1651 381,1649 381,1649 383,1649 383,1649 383,1649 386,1649 386,1649 386,1649 436,1647 438,1647 438,1647 438,1647 440,1647 440,1647 443,1647 458,1656 478,1667 489,1656 497,1649 497,1647 497,1647 500,1647 500,1647 500,1647 502,1647 502,1647 502,1647 504,1647 590,1654 609,1654 622,1651 675,1643 675,1643 675,1643 677,1643 677,1643 679,1643 679,1643 679,1643 682,1643 682,1643 682,1645 688,1651 704,1667 774,1667 851,1662 879,1645 890,1638 892,1638 892,1638 894,1638 894,1638 894,1638 897,1638 897,1638 899,1638 899,1638 899,1638 901,1638 910,1645 934,1662 1008,1662 1057,1643 1057,1643 1059,1643 1059,1643 1061,1643 1061,1643 1061,1643 1063,1643 1107,1658 1138,1638 1142,1634 1144,1634 1144,1634 1144,1634 1147,1634 1147,1634 1149,1634 1149,1634 1149,1634 1151,1634 1151,1634 1160,1638 1186,1649 1232,1636 1239,1634 1241,1634 1241,1634 1241,1634 1243,1634 1243,1634 1245,1634 1245,1634 1245,1634 1248,1634 1248,1634 1248,1636 1272,1656 1344,1656 1364,1632 1366,1632 1366,1632 1366,1629 1366,1629 1368,1629 1368,1629 1368,1629 1370,1629 1370,1629 1373,1629 1373,1629 1373,1629 1375,1629 1381,1632 1430,1647 1471,1629 1480,1715 1484,1739 1445,1763 1443,1763 1443,1763 1443,1763 1441,1763 1441,1763 1438,1763 1228,1759 1127,1770 1127,1772 1076,1772 1074,1770 1074,1770 1072,1770 1072,1770 1072,1770 1070,1770 1070,1770 1070,1768 1048,1748 877,1754 855,1772 855,1772 853,1772 853,1772 851,1772 851,1772 851,1772 848,1772 848,1772 846,1772 846,1772 846,1772 844,1772 818,1754 739,1772 739,1772 739,1772 736,1772 736,1772 734,1772 734,1772 734,1772 732,1772 732,1772 732,1770 715,1754 686,1754 660,1774 660,1774 658,1774 658,1774 655,1774 655,1774 655,1774 653,1774 653,1774 600,1768 585,1778 585,1778 583,1778 583,1778 581,1778 581,1778 581,1778 579,1778 579,1778 471,1761 394,1761 375,1776 375,1776 372,1776 372,1776 372,1776 370,1776 370,1776 368,1776 368,1776 368,1776 366,1776 313,1761 313,1761 195,1761 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_091_1/188,1629,1296,149/full/0/default" corresp="HeadingLine">
           <path xml:id="Varios_091_1_BT223_1_LT84_2_1" points="197,1740 1482,1717 "/>
-          <line>Nueva polka del célebre y popular maestro D. Enrique
-                                    Marti.</line>
+          <line>Nueva polka del célebre y popular maestro D. Enrique Marti.</line>
         </zone>
       </zone>
       <zone xml:id="Varios_091_1_BT227_2" n="2" type="MainZone" subtype="columns" points="664,2182 629,2252 638,2381 184,2407 166,2041 383,1989 403,1926 462,1925 464,1980 603,2024 611,2118 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_091_1/166,1925,498,482/full/0/default" corresp="MainZone:columns">
@@ -1480,13 +1486,15 @@
   <text>
     <body>
       <div>
-        <pb n="1" source="Varios_091_1.jpg" facs="fedora_Varios_091_1/full/full/0/default.jpg"/>
-        <div type="cancion" n="1">
-          <head type="titulo_cancion"><lb/>SIT, SIT, SIT.</head>
-          <head type="primer_titulo"><lb/>Nueva polka del célebre y popular
-                                    maestro D. Enrique Marti.</head>
-          <p><lb/>I.</p>
-          <lg>
+        <pb n="1" source="Varios_091_1.jpg" facs="varios/Varios_091_1.jpg/"/>
+        
+        <div n="1">
+          <head type="primer_titulo"><lb/>SIT, SIT, SIT.</head>
+          <head type="subtitulo"><lb/>Nueva polka del célebre y popular maestro D. Enrique
+            Marti.</head>
+          
+          <lg n="1">
+            <head type="titulo_estrofa"><lb/>I.</head>
             <l>Sit, Sit, sit,</l>
             <l>Querida mia dulce bien</l>
             <l>La seña así</l>
@@ -1497,8 +1505,6 @@
             <l>Porque al fin</l>
             <l>Me encuentro sin</l>
             <l>Tener hoy que manducar.</l>
-          </lg>
-          <lg>
             <l>Sit, sit, sit,</l>
             <l>Oh! calma, calma tu furor</l>
             <l>No me llames mas.</l>
@@ -1511,9 +1517,9 @@
             <l>Hacer andar á mie pies.</l>
             <l>Cállate, sit, sit cállate, sit, sit,</l>
             <l>Si te doy sit, sit si te doy.....</l>
-          </lg>
-          <pb n="2" source="Varios_091_2.jpg" facs="fedora_Varios_091_2/full/full/0/default.jpg"/>
-          <lg>
+          
+          <pb n="2" source="Varios_091_2.jpg" facs="varios/Varios_091_2.jpg/"/>
+          
             <l>Mas alegre he de quedar</l>
             <l>Sin que quierá yo con ti,</l>
             <l>Callate sit, sit: cállate, sit, sit,</l>
@@ -1537,8 +1543,9 @@
             <l>Tanto que ya no puedo</l>
             <l>Vivir sin ti.</l>
           </lg>
-          <p><lb/>II.</p>
-          <lg>
+          
+          <lg n="2">
+            <head type="titulo_estrofa"><lb/>II.</head>
             <l>Sit, sit, sit</l>
             <l>«Por la calle escucharas</l>
             <l>Y de un balcon</l>
@@ -1546,105 +1553,108 @@
             <l>Fus miradas apartarás,</l>
             <l>Sit, sit, sit</l>
             <l>De ella huye con temor</l>
-            <l>Que en techo allí</l>
-            <l>De alguna huré</l>
+            <l>Que en <hi rend="cursiva">techo alli</hi>́</l>
+            <l>De alguna <hi rend="cursiva">huri</hi>́</l>
             <l>tendrás infernal ardor</l>
             <l>Sit, sit, sit,</l>
             <l>Pero es muy facil que despues</l>
             <l>Del suspirar</l>
             <l>Venga el llorar</l>
-            <l>Ssin poder mover los piés,</l>
-            <l>bit, sit, sit</l>
-            <l>Que estos mates y otros mil</l>
+            <l>Sin poder mover los piés,</l>
+            <l>Sit, sit, sit</l>
+            <l>Que estos <hi rend="cursiva">males</hi> y otros mil</l>
             <l>Esconde amor</l>
             <l>Tras seductor</l>
             <l>Rostro bello y juvenil...</l>
             <l>Creeme, sit. sit; créeme, sit, sit,</l>
-            <l>¡ejalo, sit sit, dejalo...</l>
-            <l>¿ue la carne es flaco y tú</l>
-            <l>Aun mas liaco has de quedar</l>
+            <l>Dejalo, sit sit, dejalo...</l>
+            <l>Que la carne es <hi rend="cursiva">flaca</hi> y tú</l>
+            <l>Aun mas <hi rend="cursiva">flaco</hi> has de quedar</l>
             <l>Créeme, sit, sit, déjalo...</l>
             <l>Y huye del bú...</l>
             <l>si es que quieres salud gozar.</l>
             <l>Oh! basta, basta de pasion</l>
             <l>Que es muy mal</l>
             <l>En hospital</l>
-            <l>ea fecurso de la Uncion</l>
+            <l>ea fecurso de la <hi rend="cursiva">Uncion</hi></l>
             <l>Reniega pues de tal placer....</l>
             <l>Sit sit sit</l>
             <l>Que te obliga á luchar y..... perder.</l>
-            <l>soy muy chalan!</l>
-            <l>Le dices tú á la Flavia</l>
-            <l>Soy escamon!</l>
+            <l>Soy muy <hi rend="cursiva">chalan</hi>!</l>
+            <l>Soy <hi rend="cursiva">escamon</hi>!</l>
+            <l>Le dices tú á la <hi rend="cursiva">Flavia</hi></l>
             <l>Y repite así:</l>
-            <l>Señor chalan!</l>
-            <l>Señor Simplon!?</l>
-            <l>Si no hay dinero, vaya</l>
+            <l>Señor <hi rend="cursiva">Chalan</hi>!</l>
+            <l>Señor <hi rend="cursiva">Simplon</hi>!</l>
+            <l>Si no hay <hi rend="cursiva">dinero</hi>, vaya</l>
             <l>Léjos de mi!</l>
           </lg>
-          <p><lb/>III.</p>
-          <lg>
+          
+          <lg n="3">
+            <head type="titulo_estrofa"><lb/>III.</head>
             <l>Sit, sit, sit,</l>
-            <l>A cierto pollo que pasó,</l>
-            <l>Una vestal</l>
-            <l>Angelical</l>
+            <l>A cierto <hi rend="cursiva">pollo</hi> que <hi rend="cursiva">paso</hi>́,</l>
+            <l>Una <hi rend="cursiva">vestal</hi></l>
+            <l><hi rend="cursiva">Angelical</hi></l>
             <l>Le hizo un dia, qué sé yo,</l>
             <l>Sit, sit, sit,</l>
             <l>A esta seña el pollo allá</l>
             <l>Solo y a pié,</l>
-            <l>lgnotando á dónde vá.</l>
             <l>Lijero fué,</l>
-            <l>Los escalones con afan</l>
+            <l>Ignorando á dónde vá.</l>
             <l>Sit, sit, sit,</l>
+            <l>Los <hi rend="cursiva">escalones</hi> con afan</l>
             <l>De dos, en dos,</l>
-            <l>El mancebo y fiel galan</l>
             <l>Sube y sin tos</l>
-            <l>Sube, sube, que en tu ardor</l>
+            <l>El <hi rend="cursiva">mancebo</hi> y fiel galan</l>
             <l>Sit, sit, sit,</l>
+            <l>Sube, sube, que en tu <hi rend="cursiva">ardor</hi></l>
             <l>No has de pensar</l>
-            <l>Pildoritas algun doctor,</l>
             <l>Te hará tragar</l>
+            <l><hi rend="cursiva">Pildoritas</hi> algun <hi rend="cursiva">doctor</hi>,</l>
             <l>Tipico sit, sit, tipico, sit sit,</l>
             <l>Riete, sit, sit, riete</l>
-            <l>Le decia Ella á El,</l>
-            <l>y El reía con afan,</l>
+            <l>Le decia <hi rend="cursiva">Ella</hi> á <hi rend="cursiva">El</hi>,</l>
+            <l>y <hi rend="cursiva">El</hi> reía con afan,</l>
             <l>Pálido, sit, sit, pátido sit, sit,</l>
             <l>Pónese, sit. sit, ponese...</l>
             <l>Y riendo allí...</l>
-            <l>Tontitos y alegres están...</l>
+            <l><hi rend="cursiva">Tontitos</hi> y <hi rend="cursiva">alegres</hi> están...</l>
             <l>Sit, sit, sit</l>
             <l>¡Oh! dame otro doblon</l>
             <l>Que la mujer</l>
             <l>Si dá placer</l>
-            <l>Es solo por tal cuestion.</l>
+            <l>Es solo por tal <hi rend="cursiva">cuestion</hi>.</l>
             <l>Sit, sit, sit.</l>
-            <l>—Que caro cuesta placer tal</l>
+            <l>—Que <hi rend="cursiva">caro</hi> cuesta placer tal</l>
             <l>Que me fuerza á quedar sin un real.</l>
-            <l>—Adios iman!</l>
+            <l>—Adios <hi rend="cursiva">iman</hi>!</l>
             <l>—Adios Simplon</l>
             <l>Se dicen mutuamente</l>
             <l>Al salir de allí...</l>
-            <l>—Adios iman</l>
+            <l>—Adios <hi rend="cursiva">iman</hi></l>
             <l>Y el baja y tristemente</l>
             <l>Dice así....</l>
           </lg>
-          <pb n="3" source="Varios_091_3.jpg" facs="fedora_Varios_091_3/full/full/0/default.jpg"/>
-          <p><lb/>IV.</p>
-          <lg>
+          
+          <pb n="3" source="Varios_091_3.jpg" facs="varios/Varios_091_3.jpg/"/>
+          
+          <lg n="4">
+            <head type="titulo_estrofa"><lb/>IV.</head>
             <l>»Sit, sit, sit,</l>
             <l>»Con esta seña me engañe</l>
             <l>»Y al fin subi</l>
             <l>»Y me perdi</l>
             <l>Sit, sit, sit,</l>
             <l>Oeupaditas ví otras mil</l>
-            <l>Con una flor</l>
-            <l>Y era aquello el mes de Abril</l>
-            <l>De rica olor</l>
-            <l>Como la brisa en un bagel</l>
+            <l>Con una <hi rend="cursiva">flor</hi></l>
+            <l>De rica <hi rend="cursiva">olor</hi></l>
+            <l>Y era aquello el mes de <hi rend="cursiva">Abril</hi></l>
             <l>Sit, sit sit,</l>
-            <l>Que corre mar,</l>
-            <l>Era siempre, y con aquel!...</l>
-            <l>El cicear</l>
+            <l>Como la brisa en un <hi rend="cursiva">bagel</hi></l>
+            <l>Que corre <hi rend="cursiva">mar</hi>,</l>
+            <l>El <hi rend="cursiva">cicear</hi></l>
+            <l>Era siempre, y con <hi rend="cursiva">aquel</hi>!...</l>
             <l>Sit, sit sit,</l>
             <l>En mi memoria fijo está</l>
             <l>Lo que miré,</l>
@@ -1653,74 +1663,75 @@
             <l>Trémulo sit, sit, trémulo sit, sit,</l>
             <l>Mirálo, sit, sit, miralo....</l>
             <l>y ya se siente desmayar</l>
-            <l>Harto el pobre de alcuzcuz</l>
+            <l>Harto el <hi rend="cursiva">pobre</hi> de <hi rend="cursiva">alcuzcuz</hi></l>
             <l>Pálido sit, sit, pálido sit, sit.</l>
             <l>Miralo sit, sit miralo...</l>
             <l>La vida se le vá.</l>
             <l>Pues el dia le roba la luz,</l>
             <l>Sit, sit sit,</l>
             <l>Que tiene? que es? que pasa aqui?</l>
-            <l>—Un pisoton!</l>
-            <l>—Un sofocon!</l>
-            <l>Y es un pollo? un pollo, sí.</l>
+            <l>—Un <hi rend="cursiva">pisoton</hi>!</l>
+            <l>—Un <hi rend="cursiva">sofocon</hi>!</l>
+            <l>Y es un <hi rend="cursiva">pollo</hi>? un <hi rend="cursiva">pollo</hi>, sí.</l>
             <l>Sit, sit, sit.</l>
             <l>Servido el pobre; con afan</l>
-            <l>Tila y agua dementa le dan.</l>
-            <l>—Venga un doctor!</l>
+            <l rend="cursiva">Tila y agua dementa le dan.</l>
+            <l>—Venga un <hi rend="cursiva">doctor</hi>!</l>
             <l>Y un capellan!</l>
             <l>Dicen al ver que muere</l>
-            <l>El pollo infeliz!</l>
-            <l>Venga un doctor</l>
-            <l>Y un capellan</l>
+            <l>El <hi rend="cursiva">pollo</hi> infeliz!</l>
+            <l>Venga un <hi rend="cursiva">doctor</hi></l>
+            <l>Y un <hi rend="cursiva">capellan</hi></l>
             <l>Por si el contesar quiere</l>
             <l>Y algun desliz ..</l>
           </lg>
-          <p><lb/>V.</p>
-          <lg>
+          
+          <lg n="5">
+            <head type="titulo_estrofa"><lb/>V.</head>
             <l>Sit, sit. sit,</l>
-            <l>Hay hace el pollo y con pesar,</l>
+            <l>Hay hace el <hi rend="cursiva">pollo</hi> y con pesar,</l>
             <l>Y bien se vé</l>
-            <l>Que por su pié</l>
-            <l>Ya no puede el pobre andar</l>
+            <l>Que por <hi rend="cursiva">su pie</hi>́</l>
+            <l>Ya no puede el pobre <hi rend="cursiva">andar</hi></l>
             <l>Sit, sit, sit,</l>
-            <l>Son dos muletas su sosten</l>
-            <l>Que aquel galan</l>
+            <l>Son dos <hi rend="cursiva">muletas</hi> su sosten</l>
+            <l>Que aquel <hi rend="cursiva">galan</hi></l>
             <l>De tanto afan,</l>
-            <l>Cagó en medio del vaiven,</l>
+            <l><hi rend="cursiva">Cayo</hi>́ en medio del vaiven,</l>
             <l>Sit, sit, sit,</l>
-            <l>Sufciendo el triste tal rigor,</l>
-            <l>Sin peregil</l>
-            <l>Muchachas mil</l>
-            <l>Aun le brindan con su amor</l>
+            <l>Sufriendo el triste tal rigor,</l>
+            <l>Sin <hi rend="cursiva">peregil</hi></l>
+            <l><hi rend="cursiva">Muchachas</hi> mil</l>
+            <l>Aun le brindan con su <hi rend="cursiva">amor</hi></l>
             <l>Sit, sit, sit,</l>
-            <l>Mas El que escamadito está</l>
+            <l>Mas <hi rend="cursiva">El</hi> que <hi rend="cursiva">escamadito</hi> está</l>
             <l>Las dice asi:</l>
             <l>Lejos de mi!</l>
-            <l>Con mi cuerpo ya nada vá...</l>
+            <l>Con mi <hi rend="cursiva">cuerpo</hi> ya nada vá...</l>
             <l>Duélete sit, sit, duélete sit, sit,</l>
             <l>Curaló sit, sit curaló...</l>
             <l>Y El no cesa de beber</l>
-            <l>Flor de malva y alquitran.</l>
+            <l>Flor de <hi rend="cursiva">malva</hi> y <hi rend="cursiva">alquitran</hi>.</l>
             <l>Duélete sit, sit, duélete sit, sit, sit,</l>
             <l>Curaló sit, sit. curaló...</l>
             <l>No ceses de beber</l>
-            <l>O si no doblará el sacristan!</l>
+            <l>O si no <hi rend="cursiva">doblara</hi>́ el sacristan!</l>
             <l>Sit, sit, sit,</l>
-            <l>Que los tropiezos estos son</l>
-            <l>De algun doncel</l>
-            <l>Que busca miel</l>
-            <l>Donde hay solo vermellon!</l>
+            <l>Que los <hi rend="cursiva">tropiezos</hi> estos son</l>
+            <l>De algun <hi rend="cursiva">doncel</hi></l>
+            <l>Que busca <hi rend="cursiva">miel</hi></l>
+            <l>Donde hay solo <hi rend="cursiva">cermellon!</hi></l>
             <l>Sit, sit, sit,</l>
             <l>Conque pollitos aprended</l>
             <l>Que los dulces aumentan la sed.</l>
             <l>Si alguna vez</l>
             <l>Os engañais,</l>
-            <l>Tened por bien seguro</l>
-            <l>Que el mar de amar</l>
-            <l>Terrible es,</l>
+            <l>Tened por bien <hi rend="cursiva">seguro</hi></l>
+            <l>Que el mar de <hi rend="cursiva">amar</hi></l>
+            <l><hi rend="cursiva">Terrible</hi> es,</l>
             <l>Si no lograis</l>
-            <l>Dejar el cuerpo puro</l>
-            <l>De su rigor.</l>
+            <l>Dejar el cuerpo <hi rend="cursiva">puro</hi></l>
+            <l>De su <hi rend="cursiva">rigor</hi>.</l>
             <l>Sit, sit, sit.</l>
             <l>Querida mia, adios! adios!</l>
             <l>No mas así,</l>
@@ -1730,21 +1741,23 @@
             <l>Oh cese, cese tu llamar</l>
             <l>Porque al rin</l>
             <l>Me encuentro sin</l>
-            <l>Dinero que regalar.</l>
+            <l><hi rend="cursiva">Dinero</hi> que <hi rend="cursiva">regalar</hi>.</l>
             <l>Sit, sit, sit,</l>
             <l>Oh, calma, calma tu furor</l>
             <l>No llames más</l>
             <l>Que no podrás</l>
-            <l>Darme gusto ni dolor</l>
+            <l>Darme <hi rend="cursiva">gusto</hi> ni <hi rend="cursiva">dolor</hi></l>
             <l>Sit, sit, sit,</l>
             <l>Oh basta, basta, inútil es.</l>
-            <l>Sin alma estoy.</l>
+            <l>Sin <hi rend="cursiva">alma</hi> estoy.</l>
             <l>No puedo hoy</l>
-            <l>Darte.. alma ni interés</l>
+            <l>Darte.. <hi rend="cursiva">alma</hi> ni <hi rend="cursiva">interés</hi></l>
             <l>Márchate sit, sit. Márchate sit, sit,</l>
-            <pb n="4" source="Varios_091_4.jpg" facs="fedora_Varios_091_4/full/full/0/default.jpg"/>
+            
+            <pb n="4" source="Varios_091_4.jpg" facs="varios/Varios_091_4.jpg/"/>
+            
             <l>Si doy, sit, sit si te doy</l>
-            <l>Mas flaco me he de quedar</l>
+            <l>Mas <hi rend="cursiva">flaco</hi> me he de quedar</l>
             <l>Sin que puede yo con ti</l>
             <l>Marchate sit. sit, marchate sit sit.</l>
             <l>Si te doy sit, sit, si te doy...</l>
@@ -1753,98 +1766,107 @@
             <l>Le haces tu, á todo galan,</l>
             <l>Que es la mujer</l>
             <l>El Lucifer</l>
-            <l>Que perdió el padre Adan</l>
-          </lg>
-          <lg>
+            <l>Que perdió el padre <hi rend="cursiva">Adan</hi></l>
             <l>Sit, sit sit</l>
             <l>Con esta pena y tu... pudor</l>
             <l>Los dejas pobres y enfermos de amor</l>
-            <l>Es un volcan!</l>
-            <l>Mi corazon!</l>
-            <l>Mas ay! yo tengo miedo</l>
+            <l>Es un <hi rend="cursiva">volcan</hi>!</l>
+            <l>Mi <hi rend="cursiva">corazon</hi>!</l>
+            <l>Mas ay! yo tengo <hi rend="cursiva">miedo</hi></l>
             <l>Y te digo así:</l>
-            <l>Vete Satán!</l>
-            <l>Vete escorpion</l>
+            <l>Vete <hi rend="cursiva">Satán</hi>!</l>
+            <l>Vete <hi rend="cursiva">escorpion</hi></l>
             <l>Vete, contínuo enredo</l>
             <l>Lejos de mí!</l>
           </lg>
         </div>
+        
         <div type="cancion" n="2">
           <head type="titulo_cancion"><lb/>PETENERAS NO CANTADAS NI OIDAS.</head>
-          <p><lb/>1.</p>
+          
           <lg>
-            <l>Dios ha puesto dos estrellas</l>
-            <l>En tu carita de cielo</l>
-            <l>Para que alumbre al pobre</l>
+            <head type="titulo_estrofa"><lb/>1.</head>
+            <l>Dios ha puesto dos <hi rend="cursiva">estrellas</hi></l>
+            <l>En tu <hi rend="cursiva">carita</hi> de <hi rend="cursiva">cielo</hi></l>
+            <l>Para que alumbre al <hi rend="cursiva">pobre</hi></l>
             <l>Que se pierde en este suelo.</l>
             <l>Niña de mi corazon!</l>
           </lg>
-          <p><lb/>2.</p>
+          
           <lg>
+            <head type="titulo_estrofa"><lb/>2.</head>
             <l>Es una dor la pureza</l>
             <l>De tan preciado valor,</l>
             <l>Que raras veces se encuentra</l>
             <l>Soleá y más soleá</l>
             <l>En el mundo engañador.</l>
           </lg>
-          <p><lb/>3.</p>
+          
           <lg>
+            <head type="titulo_estrofa"><lb/>3.</head>
             <l>Con tus ojitos pequeños</l>
             <l>Me tienes niña en el alme,</l>
             <l>Que harian si fuesen grandes</l>
             <l>Ay churripanchita pancha</l>
             <l>De seguro me mataras.</l>
           </lg>
-          <p><lb/>4.</p>
+          
           <lg>
+            <head type="titulo_estrofa"><lb/>4.</head>
             <l>La señora Cascarrubias</l>
             <l>Ayer se vistió de azul,</l>
             <l>Y al verla todos decian</l>
             <l>churripanchita pancha</l>
             <l>A parta que viene él Bú.</l>
           </lg>
-          <p><lb/>5.</p>
+          
           <lg>
+            <head type="titulo_estrofa"><lb/>5.</head>
             <l>Te llaman doña virtudes</l>
             <l>Y sin duda no sabrán</l>
             <l>Que las virtudes que tienes</l>
             <l>Nina de mi corazon</l>
             <l>En tu propio nombre están.</l>
           </lg>
-          <p><lb/>6.</p>
+          
           <lg>
+            <head type="titulo_estrofa"><lb/>6.</head>
             <l>Aquella flor que llevabas</l>
             <l>En tu cabello prendida</l>
             <l>La perdiste y al perderla</l>
             <l>Soledá y más soledá</l>
             <l>Perdiste tambien la vida.</l>
           </lg>
-          <p><lb/>7.</p>
+          
           <lg>
+            <head type="titulo_estrofa"><lb/>7.</head>
             <l>Murió la pobre Canuta,</l>
             <l>Cansada de andar con majos</l>
             <l>Y le pusieron corona</l>
             <l>Niña de mi corazon</l>
             <l>Una corona de ajos!</l>
           </lg>
-          <p><lb/>8.</p>
+          
           <lg>
+            <head type="titulo_estrofa"><lb/>8.</head>
             <l>A la tia Cuómar</l>
             <l>Le cortaron el cabello</l>
             <l>Y un gitano lo compró</l>
             <l>Niña de mi corazon</l>
             <l>Para ventarse en Guero.</l>
           </lg>
-          <p><lb/>9.</p>
+          
           <lg>
+            <head type="titulo_estrofa"><lb/>9.</head>
             <l>No sé que tienen tns ojos</l>
             <l>Que siempre que á mí me miran</l>
             <l>Si están abiertos me matan</l>
             <l>Niña de mi corazon</l>
             <l>Y si cerrados suspiran</l>
           </lg>
-          <p><lb/>10.</p>
+          
           <lg>
+            <head type="titulo_estrofa"><lb/>10.</head>
             <l>Al mirar el cielo oscuro</l>
             <l>Y sin nubes me extraño;</l>
             <l>Y es que el cielo estaba triste</l>

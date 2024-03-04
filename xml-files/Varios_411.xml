@@ -4,8 +4,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>TROBOS NUEVOS Y DIVERTIDOS, esplicando los amores de un galan á su querida Dama,
-               como lo verá el curioso Lector.</title>
+        <title>TROBOS NUEVOS Y DIVERTIDOS</title>
         <respStmt>
           <name xml:id="PJ">Pauline Jacsont</name>
           <resp>Codificación TEI</resp>
@@ -28,9 +27,9 @@
             <p/>
           </editionStmt>
           <publicationStmt>
-            <publisher>Imprenta y librería de Juan B. Vidal</publisher>
+            <publisher>Juan Bautista Vidal</publisher>
             <pubPlace ref="https://www.geonames.org/3111933/reus.html">Reus</pubPlace>
-            <date cert="high">[s.a]</date>
+            <date cert="low" when="1800-01-01">[s.a.]</date>
           </publicationStmt>
         </biblFull>
         <msDesc>
@@ -39,6 +38,7 @@
             <settlement>Genève</settlement>
             <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"/>
                   </repository>
+            <collection>Colección Varios</collection>
             <idno type="cote"/>
             <idno type="DOI">10.5281/zenodo.6787733</idno>
             <altIdentifier>
@@ -96,7 +96,7 @@
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR non corregido</p>
+          <p>OCR no corregido</p>
         </correction>
         <normalization>
           <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
@@ -124,9 +124,10 @@
     <revisionDesc>
       <change when="2023-12-25" who="#PJ">Création du fichier TEI P5 et encodage du corps du
             texte</change>
+<change when="2024-01-09" who="#EL">Add the IIIF links</change>
     </revisionDesc>
   </teiHeader>
-  <sourceDoc xml:id="automaticTranscription">
+  <facsimile><graphic url="varios/Varios_411_1.jpg/full/200,/0/default.jpg"/></facsimile><sourceDoc xml:id="automaticTranscription">
     <surface xml:id="Varios_411_1" type="page" cert="silver">
       <graphic url="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_411_1/full/full/0/default.jpg"/>
       <zone xml:id="Varios_411_1_BT221_1" n="1" type="CustomZone" subtype="impresorNum" points="1491,166 1491,251 1257,251 1257,166 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_411_1/1257.0,166.0,234.0,85.0/full/0/default" corresp="CustomZone:impresorNum">
@@ -903,7 +904,7 @@
           <line>TROBO 8.° Dama.</line>
         </zone>
         <zone xml:id="Varios_411_4_BT227_3_LT84_3" type="DefaultLine" subtype="none" points="1070,565 1145,581 1298,582 1300,582 1301,582 1338,573 1344,572 1354,573 1421,585 1423,585 1424,585 1452,576 1458,575 1503,575 1509,578 1529,588 1531,588 1532,588 1582,579 1583,563 1582,511 1515,518 1500,508 1485,498 1484,498 1483,498 1481,498 1433,506 1388,515 1371,505 1360,498 1358,498 1357,498 1355,498 1354,498 1329,505 1296,514 1266,505 1265,505 1263,505 1262,505 1239,512 1217,502 1196,492 1195,492 1193,492 1072,498 1072,553 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_411_4/1070.0,492.0,513.0,96.0/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_411_4_BT227_3_LT84_3_1" points="1072,553 1583,563 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
+          <path xml:id="Varios_411_4_BT227_3_LT84_3_1" points="1072,553 1583,563 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
           <line>Si llego á ser tu esposa,</line>
         </zone>
       </zone>
@@ -1024,7 +1025,7 @@
   <text>
     <body>
       <div>
-        <pb n="1" source="Varios_411_1.jpg" facs="fedora_Varios_411_1/full/full/0/default.jpg"/>
+        <pb n="1" source="Varios_411_1.jpg" facs="varios/Varios_411_1.jpg/"/>
         <fw type="impresorNum">(Núm. 6.)</fw>
         <div type="parte" n="1">
           <head type="primer_titulo"><lb/>TROBOS NUEVOS Y DIVERTIDOS,</head>
@@ -1065,7 +1066,7 @@
             <l>Seré tu amado esposo,</l>
             <l>Si acaso es de tu agrado.</l>
           </lg>
-          <pb n="2" source="Varios_411_2.jpg" facs="fedora_Varios_411_2/full/full/0/default.jpg"/>
+          <pb n="2" source="Varios_411_2.jpg" facs="varios/Varios_411_2.jpg/"/>
           <lg rend="cursiva">
             <head type="titulo_estrofa"><lb/>TROBO 2.° Dama.</head>
             <l>Con el mas fino amor</l>
@@ -1150,7 +1151,7 @@
             <l>Si fueres mi dueño amado :</l>
             <l>Por dichosa me tuviera.</l>
           </lg>
-          <pb n="3" source="Varios_411_3.jpg" facs="fedora_Varios_411_3/full/full/0/default.jpg"/>
+          <pb n="3" source="Varios_411_3.jpg" facs="varios/Varios_411_3.jpg/"/>
           <lg>
             <l>Nunca te pude hablar</l>
             <l>Cuando tu hermosura ví ;</l>
@@ -1235,7 +1236,7 @@
             <l>Y me asomo á tu laurel,</l>
             <l>Porque dices que me quieres.</l>
           </lg>
-          <pb n="4" source="Varios_411_4.jpg" facs="fedora_Varios_411_4/full/full/0/default.jpg"/>
+          <pb n="4" source="Varios_411_4.jpg" facs="varios/Varios_411_4.jpg/"/>
           <lg>
             <l>Nunca te haré traicion,</l>
             <l>Ni te pondré en olvido,</l>

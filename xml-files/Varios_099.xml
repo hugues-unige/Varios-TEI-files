@@ -1,18 +1,17 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../Schema/oddPliego_varios.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:alto="http://www.loc.gov/standards/alto/ns-v4#" xml:id="Varios_099">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Varios_099">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Bonito y chistoso tango dedicado al ministerio de las mujeres</title>
+        <title>Bonito y chistoso tango</title>
         <respStmt>
           <name/>
           <resp>Codificación TEI</resp>
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <authority role="rightsHolder">Bibliothèque Universitaire de
-                            Genève</authority>
+        <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
         <availability status="restricted">
           <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
         </availability>
@@ -20,7 +19,8 @@
       <sourceDesc>
         <biblFull>
           <titleStmt>
-            <title type="titulo_completo">Bonito y chistoso tango dedicado al ministerio de las mujeres</title>
+            <title type="titulo_completo">Bonito y chistoso tango dedicado al ministerio de las
+              mujeres. Primera parte</title>
             <title type="titulo_breve">Bonito y chistoso tango</title>
           </titleStmt>
           <editionStmt>
@@ -29,7 +29,7 @@
           <publicationStmt>
             <publisher>Alsina y Clós</publisher>
             <pubPlace ref="https://www.geonames.org/3128760/barcelona.html">Barcelona</pubPlace>
-            <date>[s.a]</date>
+            <date cert="low" when="1800-01-01">[s.a.]</date>
           </publicationStmt>
         </biblFull>
         <msDesc>
@@ -37,7 +37,8 @@
             <country>Suisse</country>
             <settlement>Genève</settlement>
             <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"/>
-                  </repository>
+            </repository>
+            <collection>Colección Varios</collection>
             <idno type="cote"/>
             <idno type="DOI">10.5281/zenodo.6575978</idno>
             <altIdentifier>
@@ -45,10 +46,19 @@
             </altIdentifier>
           </msIdentifier>
           <msContents>
-            <summary/>
+            <summary>Tres canciones</summary>
             <msItem>
-              <locus/>
-              <title/>
+              <locus>1-2</locus>
+              <title>Bonito y chistoso tango dedicado al ministerio de las mujeres. Primera
+                parte</title>
+            </msItem>
+            <msItem>
+              <locus>2-4</locus>
+              <title>Los Amores de Paco. Bonita Mazurka. Primera parte</title>
+            </msItem>
+            <msItem>
+              <locus>4</locus>
+              <title>Bonito tango Sevillano</title>
             </msItem>
           </msContents>
           <physDesc>
@@ -87,18 +97,17 @@
     </fileDesc>
     <encodingDesc>
       <projectDesc>
-        <p>Este archivo fue creado en el marco del proyecto Desenrollando el
-                            Cordel/Démêler le cordel/Untangling the cordel, dirigido por la
-                            profesora Constance Carta de la Universidad de Ginebra, con el apoyo de
-                            la Fundación filantrópica Famille Sandoz-Monique de Meuron.</p>
+        <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+          cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la Universidad
+          de Ginebra, con el apoyo de la Fundación filantrópica Famille Sandoz-Monique de
+          Meuron.</p>
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR non corregido</p>
+          <p>OCR no corregido</p>
         </correction>
         <normalization>
-          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto
-                                original.</p>
+          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
         </normalization>
         <punctuation>
           <p>Se conserva la puntuación original.</p>
@@ -121,9 +130,13 @@
     </profileDesc>
     <revisionDesc>
       <change when="2022-07-27" who="#PJ">Création du fichier TEI P5 et encodage du corps du
-                        texte</change>
+        texte</change>
+      <change when="2024-01-09" who="#EL">Add the IIIF links</change>
     </revisionDesc>
   </teiHeader>
+  <facsimile>
+    <graphic url="varios/Varios_099_1.jpg/full/200,/0/default.jpg"/>
+  </facsimile>
   <sourceDoc xml:id="automaticTranscription">
     <surface xml:id="Varios_099_1" type="page" cert="silver">
       <graphic url="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_099_1/full/full/0/default.jpg"/>
@@ -1156,294 +1169,315 @@
   <text>
     <body>
       <div>
-        <pb n="1" source="Varios_099_1.jpg" facs="fedora_Varios_099_1/full/full/0/default.jpg"/>
-        <div type="cancion" n="1">
-          <head type="primer_titulo"><lb/>Bonito y chistoso tango<lb/>dedicado al ministerio de las mujeres</head>
-          <head type="titulo_parte"><lb/>PRIMERA PARTE</head>
-          <p><lb/>1</p>
-          <lg>
-            <l>A nuestras valientes veteranas,</l>
-            <l>las mejores de la capital,</l>
-            <l>las pondremos para los resguardos</l>
-            <l>que hagan el servicio</l>
-            <l>guardas de portal.</l>
-            <l>Han de registrar severamente</l>
-            <l>teniendo siempre la precaución</l>
-            <l>no dejarles pasar á ninguno</l>
-            <l>contrabando en la población.</l>
-            <l>Todo el hombre que se les resista</l>
-            <l>y no las quisiera respetar</l>
-            <l>les daremos unas lavativas</l>
-            <l>de pimiento y ajo</l>
-            <l>con vinagre y sal.</l>
-          </lg>
-          <p><lb/>2</p>
-          <lg>
-            <l>En la tropa de línea pondremos</l>
-            <l>mujeres de duro corazòn</l>
-            <l>sobre todo bien uniformadas</l>
-            <l>y su tipo y talla</l>
-            <l>sea de lo mejor.</l>
-            <l>Una banda cubriendo sus pechos</l>
-            <pb n="2" source="Varios_099_2.jpg" facs="fedora_Varios_099_2/full/full/0/default.jpg"/>
-            <l>y de terciopelo el cintnrón.</l>
-            <l>Sus vestidos de raso franela,</l>
-            <l>zapatos de rusel y charol;</l>
-            <l>en las espaldas una correa</l>
-            <l>y una coraza por delantal</l>
-            <l>para cuando las toquen ataque</l>
-            <l>que la bayoneta</l>
-            <l>no les pueda entrar.</l>
-          </lg>
-          <p><lb/>3</p>
-          <lg>
-            <l>Las aduanas y tambien juzgados</l>
-            <l>de seguro que se ha de poner</l>
-            <l>una mujer de grande carácter</l>
-            <l>que haga las veces</l>
-            <l>de un justo juez.</l>
-            <l>Y tambien por investigadoras</l>
-            <l>todas las lavanderas serán,</l>
-            <l>cumpliendo muy bien con sus deberes</l>
-            <l>y los hombres vayan á lavar.</l>
-            <l>Decia Chata la tomatera</l>
-            <l>que es mujer de gran disposición,</l>
-            <l>ha dispuesto que todos los hombres</l>
-            <l>manden en la escoba</l>
-            <l>y en la espuerta del carbón.</l>
-          </lg>
-          <p><lb/>4</p>
-          <lg>
-            <l>De serenas y de vigilantas</l>
-            <l>todas las costureras serán</l>
-            <l>maquinistas y guarnecedoras</l>
-            <l>serán las que nagan</l>
-            <l>la guardia real.</l>
-            <l>Guardas de jardines y arboledas</l>
-            <l>criadas de servicio serán</l>
-            <l>y pondremos las amas de cría</l>
-            <l>de la tropa la oficialidad</l>
-            <l>y pondremos de carabineras</l>
-            <l>las que salen de noche á rondar.</l>
-            <l>Esas que pegan grandes carreras</l>
-            <l>cuando ven que viene</l>
-            <l>el municipal.</l>
-          </lg>
-          <p><lb/>5</p>
-          <lg>
-            <l>En estas próximas elecciones</l>
-            <l>disponemos que se han de poner,</l>
-            <l>en España todas las mujeres</l>
-            <l>se entregan ahora</l>
-            <l>del mando y poder.</l>
-            <l>Porque estamos ya mas que cansadas</l>
-            <l>de ver á los hombres presidir</l>
-            <l>X con sus chanchullos y revanchas</l>
-            <l>no podemos del charco salir.</l>
-            <l>Ya vereis como ahora nosotras</l>
-            <l>nos podemos del mando entregar,</l>
-            <l>y tendremos lauros y riquezas,</l>
-            <l>gloria y alegría</l>
-            <l>y tranquilidad.</l>
-          </lg>
-          <p><lb/>6</p>
-          <lg>
-            <l>De quince años en adelante</l>
-            <l>vengan á la sala electoral</l>
-            <l>que se admiten los votos de todas</l>
-            <l>por mas de que muchas</l>
-            <l>no sepan firmar.</l>
-            <l>Que hace falta el dejar notado</l>
-            <l>las que mas instruidas estén,</l>
-            <l>para poderlas hacerles el cargo</l>
-            <l>el dia que tomen el poder.</l>
-            <l>Las morenas, altas y garbosas</l>
-            <l>y las rubias de bello andar,</l>
-            <l>todas estas serán admitidas;</l>
-            <l>las chatas y feas</l>
-            <l>no pueden votar.</l>
-          </lg>
+        <div>
+          <pb n="1" source="Varios_099_1.jpg" facs="varios/Varios_099_1.jpg/"/>
+
+          <div n="1">
+            <head type="primer_titulo"><lb/>Bonito y chistoso tango<lb/>dedicado al ministerio de
+              las mujeres</head>
+            <head type="titulo_parte"><lb/>PRIMERA PARTE</head>
+
+            <lg>
+              <head type="titulo_estrofa"><lb/>1</head>
+              <l rend="indent">A nuestras valientes veteranas,</l>
+              <l>las mejores de la capital,</l>
+              <l>las pondremos para los resguardos</l>
+              <l>que hagan el servicio</l>
+              <l>guardas de portal.</l>
+              <l>Han de registrar severamente</l>
+              <l>teniendo siempre la precaución</l>
+              <l>no dejarles pasar á ninguno</l>
+              <l>contrabando en la población.</l>
+              <l>Todo el hombre que se les resista</l>
+              <l>y no las quisiera respetar</l>
+              <l>les daremos unas lavativas</l>
+              <l>de pimiento y ajo</l>
+              <l>con vinagre y sal.</l>
+            </lg>
+
+            <lg>
+              <head type="titulo_estrofa"><lb/>2</head>
+              <l rend="indent">En la tropa de línea pondremos</l>
+              <l>mujeres de duro corazòn</l>
+              <l>sobre todo bien uniformadas</l>
+              <l>y su tipo y talla</l>
+              <l>sea de lo mejor.</l>
+              <l>Una banda cubriendo sus pechos</l>
+
+              <pb n="2" source="Varios_099_2.jpg" facs="varios/Varios_099_2.jpg/"/>
+
+              <l>y de terciopelo el cintnrón.</l>
+              <l>Sus vestidos de raso franela,</l>
+              <l>zapatos de rusel y charol;</l>
+              <l>en las espaldas una correa</l>
+              <l>y una coraza por delantal</l>
+              <l>para cuando las toquen ataque</l>
+              <l>que la bayoneta</l>
+              <l>no les pueda entrar.</l>
+            </lg>
+
+            <lg>
+              <head type="titulo_estrofa"><lb/>3</head>
+              <l rend="indent">Las aduanas y tambien juzgados</l>
+              <l>de seguro que se ha de poner</l>
+              <l>una mujer de grande carácter</l>
+              <l>que haga las veces</l>
+              <l>de un justo juez.</l>
+              <l rend="indent">Y tambien por investigadoras</l>
+              <l>todas las lavanderas serán,</l>
+              <l>cumpliendo muy bien con sus deberes</l>
+              <l>y los hombres vayan á lavar.</l>
+              <l rend="indent">Decia Chata la tomatera</l>
+              <l>que es mujer de gran disposición,</l>
+              <l>ha dispuesto que todos los hombres</l>
+              <l>manden en la escoba</l>
+              <l>y en la espuerta del carbón.</l>
+            </lg>
+
+            <lg>
+              <head type="titulo_estrofa"><lb/>4</head>
+              <l rend="indent">De serenas y de vigilantas</l>
+              <l>todas las costureras serán</l>
+              <l>maquinistas y guarnecedoras</l>
+              <l>serán las que nagan</l>
+              <l>la guardia real.</l>
+              <l>Guardas de jardines y arboledas</l>
+              <l>criadas de servicio serán</l>
+              <l>y pondremos las amas de cría</l>
+              <l>de la tropa la oficialidad</l>
+              <l>y pondremos de carabineras</l>
+              <l>las que salen de noche á rondar.</l>
+              <l>Esas que pegan grandes carreras</l>
+              <l>cuando ven que viene</l>
+              <l>el municipal.</l>
+            </lg>
+
+            <lg>
+              <head type="titulo_estrofa"><lb/>5</head>
+              <l rend="indent">En estas próximas elecciones</l>
+              <l>disponemos que se han de poner,</l>
+              <l>en España todas las mujeres</l>
+              <l>se entregan ahora</l>
+              <l>del mando y poder.</l>
+              <l rend="indent">Porque estamos ya mas que cansadas</l>
+              <l>de ver á los hombres presidir</l>
+              <l>x con sus chanchullos y revanchas</l>
+              <l>no podemos del charco salir.</l>
+              <l rend="indent">Ya vereis como ahora nosotras</l>
+              <l>nos podemos del mando entregar,</l>
+              <l>y tendremos lauros y riquezas,</l>
+              <l>gloria y alegría</l>
+              <l>y tranquilidad.</l>
+            </lg>
+
+            <lg>
+              <head type="titulo_estrofa"><lb/>6</head>
+              <l rend="indent">De quince años en adelante</l>
+              <l>vengan á la sala electoral</l>
+              <l>que se admiten los votos de todas</l>
+              <l>por mas de que muchas</l>
+              <l>no sepan firmar.</l>
+              <l rend="indent">Que hace falta el dejar notado</l>
+              <l>las que mas instruidas estén,</l>
+              <l>para poderlas hacerles el cargo</l>
+              <l>el dia que tomen el poder.</l>
+              <l rend="indent">Las morenas, altas y garbosas</l>
+              <l>y las rubias de bello andar,</l>
+              <l>todas estas serán admitidas;</l>
+              <l>las chatas y feas</l>
+              <l>no pueden votar.</l>
+            </lg>
+          </div>
+
+          <div n="2">
+            <head type="titulo_cancion"><lb/><hi rend="negrita">Los Amores de Paco</hi><lb/>BONITA
+              MAZURKA</head>
+            <head type="subtitulo"><lb/>PRIMERA PARTE</head>
+
+            <lg>
+              <l rend="indent">Los amores de Paco</l>
+              <l>me traen loca.</l>
+              <l>Yo me muero por Paco</l>
+              <l>Paco por otra.</l>
+              <l>Yo por Paco daría</l>
+              <l>toda mi vida</l>
+              <l>por mirarle en mis brazos</l>
+              <l>de noche y día.</l>
+
+              <pb n="3" source="Varios_099_3.jpg" facs="varios/Varios_099_3.jpg/"/>
+
+              <l>Ay, mi Paquito</l>
+              <l>no pienses en la otra</l>
+              <l>piensa conmigo.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Un tocador de flauta</l>
+              <l>de los mejores</l>
+              <l>se marchó un dia al barrio</l>
+              <l>de Pescadores.</l>
+              <l>Le dijo muy resuelto</l>
+              <l>á la María:</l>
+              <l>¿quieres tú que te toque,</l>
+              <l>la sinfonfa?</l>
+              <l>No sería torpe</l>
+              <l>que le rompió la flanta</l>
+              <l>al primer sople.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Hay cerca Barcelona</l>
+              <l>lla Cruz Cubierta:</l>
+              <l>nunca si has de creerme</l>
+              <l>pases por ella.</l>
+              <l>Porque aunque cruz la llamen</l>
+              <l>hay el peligro</l>
+              <l>que te busquen matute</l>
+              <l>los del registro.</l>
+              <l>Pues ya es probado</l>
+              <l>que siempretras las cruces</l>
+              <l>se halla el diablo.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Esos sombroros mónstruos</l>
+              <l>que son de moda</l>
+              <l>que las señoras llevan</l>
+              <l>cual si tal cosa,</l>
+              <l>á los pobres maridos</l>
+              <l>es ya probado</l>
+              <l>les ponen en un trance</l>
+              <l>desesperado</l>
+              <l>Pues valen treinta</l>
+              <l>y ellos ganan de sueldo</l>
+              <l>tan solo veinte.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Conozco una señora</l>
+              <l>tan de su casa</l>
+              <l>que dice el vecindario</l>
+              <l>que es muy honrada.</l>
+              <l>No sale ni un momento</l>
+              <l>del domicilio</l>
+              <l>el cual es el encanto</l>
+              <l>de su marido.</l>
+              <l>Y está seguro</l>
+              <l>que solo la visita</l>
+              <l>un primo suyo.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Ay, Paco de mi vida,</l>
+              <l>dice una chica,</l>
+              <l>si quieres darme gusto</l>
+              <l>con tu palica.</l>
+              <l>es preciso que seas</l>
+              <l>mas expresivo,</l>
+              <l>que yo quiero los hombres</l>
+              <l>mas á lo vivo.</l>
+              <l>Que sean duchos</l>
+              <l>y se atrevan á todo</l>
+              <l>con disimulo.</l>
+            </lg>
+            <lg>
+              <l rend="indent">La vida es un tablero</l>
+              <l>donde los hombres</l>
+              <l>corriendo como locos</l>
+              <l>son los peones.</l>
+              <l>Se enredan en el juego</l>
+              <l>por darse gusto</l>
+              <l>Y el uno al otro embiste</l>
+              <l>con disimulo.</l>
+              <l>Y en la batalla</l>
+              <l>al que menos lo piensa</l>
+              <l>soplan la dama.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Las niñas pequeñitas</l>
+              <l>y hasta las grandes</l>
+              <l>por divertirse todas</l>
+              <l>aea s mn</l>
+              <l>Lo que es un tasatiempo</l>
+              <l>ya de muchachas,</l>
+              <l>tambien las entretieno</l>
+              <l>siendo casadas.</l>
+              <l>En todo tiempo</l>
+              <l>de burlas ó de veras</l>
+              <l>quieren muñecos.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Rosalía servía</l>
+              <l>á un señorito</l>
+              <l>y siempre se entretenía</l>
+              <l>con el lorito.</l>
+
+              <pb n="4" source="Varios_099_4.jpg" facs="varios/Varios_099_4.jpg/"/>
+
+              <l>El señorito dijo</l>
+              <l>muy enfadado:</l>
+              <l>no juegues con el loro</l>
+              <l>porque es muy malo.</l>
+              <l>No le hizo caso</l>
+              <l>y se le hinchó la cara</l>
+              <l>de un picotazo.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Una niña en el baile</l>
+              <l>se la miraba</l>
+              <l>la punta del zapato</l>
+              <l>que le apretaba.</l>
+              <l>Como el zapato era</l>
+              <l>muy estrechito,</l>
+              <l>decía á cada vuelta</l>
+              <l>¡Jesús Dios mio!</l>
+              <l>Qué sería?</l>
+              <l>que el bailador, bailando</l>
+              <l>la pisaría.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Ayer dió Paco á Rosa</l>
+              <l>besos mas de once</l>
+              <l>y aun hoy en las mejillas</l>
+              <l>se le conocen.</l>
+              <l>Pues eran tan ardientes</l>
+              <l>estos besitos</l>
+              <l>que mas que besos eran</l>
+              <l>dulces mordiscos.</l>
+              <l>Que muchas veces</l>
+              <l>segun sean los besos</l>
+              <l>algunos muerden.</l>
+            </lg>
+          </div>
+
+          <div n="3">
+            <head type="titulo_cancion" rend="negrita"><lb/>Bonito tango Sevillano</head>
+            <lg>
+              <l rend="indent">Currita la Pacadora</l>
+              <l>dijo á un cabo gastador:</l>
+              <l>«Tu vas buscando el pan tierno</l>
+              <l>y tienes un hambre atroz.</l>
+              <l>Ya sabrs que el buen pescado</l>
+              <l>los dedos cuesta mojar,</l>
+              <l>y si tu no te los quemas</l>
+              <l>pan tierno no comerás;</l>
+              <l>conque, chico, aplica el cuento,</l>
+              <l>que basta para lección,</l>
+              <l>buque anclado no hace guerra;</l>
+              <l>hay que emprñar el iimón.»</l>
+            </lg>
+            <lg rend="indent">
+              <l>Paca comió de la fruta</l>
+              <l>prohibida al padre Adán,</l>
+              <l>y como es tan indigesta,</l>
+              <l>la pobre se siente mal.</l>
+              <l>Los médicos la visitan</l>
+              <l>Y no saben acertar</l>
+              <l>por que crece por delante</l>
+              <l>y disminuye de atrás.</l>
+              <l>—La viene el vestido corto</l>
+              <l>—dijo ayer un socarrón.</l>
+              <l>—No fué por falta de tela</l>
+              <l>pues toda la pieza entrò.</l>
+            </lg>
+          </div>
         </div>
-        <div type="cancion" n="2">
-          <head type="titulo_cancion"><lb/><hi rend="cursiva">Los Amores de Paco</hi><lb/>BONITA MAZURKA</head>
-          <head type="titulo_parte"><lb/>PRIMERA PARTE</head>
-          <lg>
-            <l>Los amores de Paco</l>
-            <l>me traen loca.</l>
-            <l>Yo me muero por Paco</l>
-            <l>Paco por otra.</l>
-            <l>Yo por Paco daría</l>
-            <l>toda mi vida</l>
-            <l>por mirarle en mis brazos</l>
-            <l>de noche y día.</l>
-            <pb n="3" source="Varios_099_3.jpg" facs="fedora_Varios_099_3/full/full/0/default.jpg"/>
-            <l>Ay, mi Paquito</l>
-            <l>no pienses en la otra</l>
-            <l>piensa conmigo.</l>
-          </lg>
-          <lg>
-            <l>Un tocador de flauta</l>
-            <l>de los mejores</l>
-            <l>se marchó un dia al barrio</l>
-            <l>de Pescadores.</l>
-            <l>Le dijo muy resuelto</l>
-            <l>á la María:</l>
-            <l>¿quieres tú que te toque,</l>
-            <l>la sinfonfa?</l>
-            <l>No sería torpe</l>
-            <l>que le rompió la flanta</l>
-            <l>al primer sople.</l>
-          </lg>
-          <lg>
-            <l>Hay cerca Barcelona</l>
-            <l>lla Cruz Cubierta:</l>
-            <l>nunca si has de creerme</l>
-            <l>pases por ella.</l>
-            <l>Porque aunque cruz la llamen</l>
-            <l>hay el peligro</l>
-            <l>que te busquen matute</l>
-            <l>los del registro.</l>
-            <l>Pues ya es probado</l>
-            <l>que siempretras las cruces</l>
-            <l>se halla el diablo.</l>
-          </lg>
-          <lg>
-            <l>Esos sombroros mónstruos</l>
-            <l>que son de moda</l>
-            <l>que las señoras llevan</l>
-            <l>cual si tal cosa,</l>
-            <l>á los pobres maridos</l>
-            <l>es ya probado</l>
-            <l>les ponen en un trance</l>
-            <l>desesperado</l>
-            <l>Pues valen treinta</l>
-            <l>y ellos ganan de sueldo</l>
-            <l>tan solo veinte.</l>
-          </lg>
-          <lg>
-            <l>Conozco una señora</l>
-            <l>tan de su casa</l>
-            <l>que dice el vecindario</l>
-            <l>que es muy honrada.</l>
-            <l>No sale ni un momento</l>
-            <l>del domicilio</l>
-            <l>el cual es el encanto</l>
-            <l>de su marido.</l>
-            <l>Y está seguro</l>
-            <l>que solo la visita</l>
-            <l>un primo suyo.</l>
-          </lg>
-          <lg>
-            <l>Ay, Paco de mi vida,</l>
-            <l>dice una chica,</l>
-            <l>si quieres darme gusto</l>
-            <l>con tu palica.</l>
-            <l>es preciso que seas</l>
-            <l>mas expresivo,</l>
-            <l>que yo quiero los hombres</l>
-            <l>mas á lo vivo.</l>
-            <l>Que sean duchos</l>
-            <l>y se atrevan á todo</l>
-            <l>con disimulo.</l>
-          </lg>
-          <lg>
-            <l>La vida es un tablero</l>
-            <l>donde los hombres</l>
-            <l>corriendo como locos</l>
-            <l>son los peones.</l>
-            <l>Se enredan en el juego</l>
-            <l>por darse gusto</l>
-            <l>Y el uno al otro embiste</l>
-            <l>con disimulo.</l>
-            <l>Y en la batalla</l>
-            <l>al que menos lo piensa</l>
-            <l>soplan la dama.</l>
-          </lg>
-          <lg>
-            <l>Las niñas pequeñitas</l>
-            <l>y hasta las grandes</l>
-            <l>por divertirse todas</l>
-            <l>aea s mn</l>
-            <l>Lo que es un tasatiempo</l>
-            <l>ya de muchachas,</l>
-            <l>tambien las entretieno</l>
-            <l>siendo casadas.</l>
-            <l>En todo tiempo</l>
-            <l>de burlas ó de veras</l>
-            <l>quieren muñecos.</l>
-          </lg>
-          <lg>
-            <l>Rosalía servía</l>
-            <l>á un señorito</l>
-            <l>y siempre se entretenía</l>
-            <l>con el lorito.</l>
-            <pb n="4" source="Varios_099_4.jpg" facs="fedora_Varios_099_4/full/full/0/default.jpg"/>
-            <l>El señorito dijo</l>
-            <l>muy enfadado:</l>
-            <l>no juegues con el loro</l>
-            <l>porque es muy malo.</l>
-            <l>No le hizo caso</l>
-            <l>y se le hinchó la cara</l>
-            <l>de un picotazo.</l>
-          </lg>
-          <lg>
-            <l>Una niña en el baile</l>
-            <l>se la miraba</l>
-            <l>la punta del zapato</l>
-            <l>que le apretaba.</l>
-            <l>Como el zapato era</l>
-            <l>muy estrechito,</l>
-            <l>decía á cada vuelta</l>
-            <l>¡Jesús Dios mio!</l>
-            <l>Qué sería?</l>
-            <l>que el bailador, bailando</l>
-            <l>la pisaría.</l>
-          </lg>
-          <lg>
-            <l>Ayer dió Paco á Rosa</l>
-            <l>besos mas de once</l>
-            <l>y aun hoy en las mejillas</l>
-            <l>se le conocen.</l>
-            <l>Pues eran tan ardientes</l>
-            <l>estos besitos</l>
-            <l>que mas que besos eran</l>
-            <l>dulces mordiscos.</l>
-            <l>Que muchas veces</l>
-            <l>segun sean los besos</l>
-            <l>algunos muerden.</l>
-          </lg>
-        </div>
-        <div type="cancion" n="3">
-          <head type="titulo_cancion"><lb/>Bonito tango Sevillano</head>
-          <lg>
-            <l>Currita la Pacadora</l>
-            <l>dijo á un cabo gastador:</l>
-            <l>«Tu vas buscando el pan tierno</l>
-            <l>y tienes un hambre atroz.</l>
-            <l>Ya sabrs que el buen pescado</l>
-            <l>los dedos cuesta mojar,</l>
-            <l>y si tu no te los quemas</l>
-            <l>pan tierno no comerás;</l>
-            <l>conque, chico, aplica el cuento,</l>
-            <l>que basta para lección,</l>
-            <l>buque anclado no hace guerra;</l>
-            <l>hay que emprñar el iimón.»</l>
-          </lg>
-          <lg>
-            <l>Paca comió de la fruta</l>
-            <l>prohibida al padre Adán,</l>
-            <l>y como es tan indigesta,</l>
-            <l>la pobre se siente mal.</l>
-            <l>Los médicos la visitan</l>
-            <l>Y no saben acertar</l>
-            <l>por que crece por delante</l>
-            <l>y disminuye de atrás.</l>
-            <l>—La viene el vestido corto</l>
-            <l>—dijo ayer un socarrón.</l>
-            <l>—No fué por falta de tela</l>
-            <l>pues toda la pieza entrò.</l>
-          </lg>
-        </div>
+        
         <div type="colofon">
           <p><lb/>Imp. Alsina y Clós, Muntaner, 10.</p>
         </div>

@@ -1,19 +1,17 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../Schema/oddPliego_varios.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:alto="http://www.loc.gov/standards/alto/ns-v4#" xml:id="Varios_134">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Varios_134">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>RELACION JOCOSA DE LA CALABAZA Y EL VINO, compuesta por un ingenio
-                              que se meneaba.</title>
+        <title>RELACION JOCOSA DE LA CALABAZA Y EL VINO</title>
         <respStmt>
           <name/>
           <resp>Codificación TEI</resp>
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <authority role="rightsHolder">Bibliothèque Universitaire de
-                              Genève</authority>
+        <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
         <availability status="restricted">
           <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
         </availability>
@@ -21,18 +19,17 @@
       <sourceDesc>
         <biblFull>
           <titleStmt>
-            <title type="titulo_completo">RELACION JOCOSA DE LA CALABAZA Y
-                                          EL VINO, compuesta por un ingenio que se meneaba.</title>
-            <title type="titulo_breve">RELACION JOCOSA DE LA CALABAZA Y EL
-                                          VINO</title>
+            <title type="titulo_completo">RELACION JOCOSA DE LA CALABAZA Y EL VINO, compuesta por un
+              ingenio que se meneaba.</title>
+            <title type="titulo_breve">RELACION JOCOSA DE LA CALABAZA Y EL VINO</title>
           </titleStmt>
           <editionStmt>
             <p/>
           </editionStmt>
           <publicationStmt>
-            <publisher>[s.n]</publisher>
+            <publisher>[s.n.]</publisher>
             <pubPlace ref="https://www.geonames.org/3117735/madrid.html">Madrid</pubPlace>
-            <date>[s.a]</date>
+            <date cert="low" when="1800-01-01">[s.a.]</date>
           </publicationStmt>
         </biblFull>
         <msDesc>
@@ -40,7 +37,8 @@
             <country>Suisse</country>
             <settlement>Genève</settlement>
             <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"/>
-                                    </repository>
+            </repository>
+            <collection>Colección Varios</collection>
             <idno type="cote"/>
             <idno type="DOI">10.5281/zenodo.6586382</idno>
             <altIdentifier>
@@ -69,7 +67,7 @@
               </layoutDesc>
             </objectDesc>
             <decoDesc>
-              <summary n="1">Uno grabado (p.1) </summary>
+              <summary n="1">Un grabado (p.1)</summary>
               <decoNote type="lista_grabados">
                 <list>
                   <item corresp="grabado_v_134_1.xml">grabado_v_134_1</item>
@@ -94,18 +92,17 @@
     </fileDesc>
     <encodingDesc>
       <projectDesc>
-        <p>Este archivo fue creado en el marco del proyecto Desenrollando el
-                              Cordel/Démêler le cordel/Untangling the cordel, dirigido por la
-                              profesora Constance Carta de la Universidad de Ginebra, con el apoyo
-                              de la Fundación filantrópica Famille Sandoz-Monique de Meuron.</p>
+        <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+          cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la Universidad
+          de Ginebra, con el apoyo de la Fundación filantrópica Famille Sandoz-Monique de
+          Meuron.</p>
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR non corregido</p>
+          <p>OCR no corregido</p>
         </correction>
         <normalization>
-          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto
-                                    original.</p>
+          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
         </normalization>
         <punctuation>
           <p>Se conserva la puntuación original.</p>
@@ -126,10 +123,14 @@
       </textClass>
     </profileDesc>
     <revisionDesc>
-      <change when="2022-09-14" who="#PJ">Création du fichier TEI P5 et encodage du
-                        corps du texte</change>
+      <change when="2022-09-14" who="#PJ">Création du fichier TEI P5 et encodage du corps du
+        texte</change>
+      <change when="2024-01-09" who="#EL">Add the IIIF links</change>
     </revisionDesc>
   </teiHeader>
+  <facsimile>
+    <graphic url="varios/Varios_134_1.jpg/full/200,/0/default.jpg"/>
+  </facsimile>
   <sourceDoc xml:id="automaticTranscription">
     <surface xml:id="Varios_134_1" type="page" cert="silver">
       <graphic url="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_134_1/full/full/0/default.jpg"/>
@@ -1160,280 +1161,271 @@
     <body>
       <div>
         <div>
-          <pb n="1" source="Varios_134_1.jpg" facs="fedora_Varios_134_1/full/full/0/default.jpg"/>
+          <pb n="1" source="Varios_134_1.jpg" facs="varios/Varios_134_1.jpg/"/>
+
           <fw type="numeroPliego">(Núm. 59.)</fw>
+
           <head type="primer_titulo"><lb/>RELACION JOCOSA<lb/>DE LA CALABAZA Y EL VINO,</head>
-          <head type="subtitulo_parte">
-            <lb/>
-            <hi rend="negrita">compuesta por un
-                                          ingenio que se meneaba.</hi>
-          </head>
-          <lg>
-            <l>Silencio, atencion, soniche.</l>
-            <l>atendite, camarada,</l>
-            <l>que voy á contar un caso</l>
-            <l>que me sucedió en Granada;</l>
-            <l>pero para que lo cuente,</l>
-            <l>se han de estar manicruzadas,</l>
-            <l>con silencio y atencion,</l>
-            <l>sin menear las pestañas,</l>
-            <l>sin toser, sin escupir,</l>
-            <l>sin golpear con la caja,</l>
-            <l>sin sonarse las narices,</l>
-            <l>y no hay que pelar la pava,</l>
-            <l>pues me volveré á sentar</l>
-            <l>y quedarán con la gana</l>
-            <l>de saber lo que pasó,</l>
-          </lg>
-          <lg>
-            <l>que es una cosa estremada,</l>
-            <l>Una tarde, la otra tarde;</l>
-            <l>no, antes de ayer; no, mañana,</l>
-            <l>esta tarde; no, ayer tarde,</l>
-            <l>¿si seria esta mañana?</l>
-            <l>al fin de mes, ó al principio,</l>
-            <l>que no es alquiler de casa,</l>
-            <l>que es preciso despedirla</l>
-            <l>cuando media ó cuando acaba.</l>
-            <l>Un domingo por la tarde,</l>
-            <l>no, el primer dia de Páscna</l>
-            <l>que está despues de Cuaresmá,</l>
-            <l>yo me salí de mi casa</l>
-            <l>con el intento tan solo</l>
-            <l>de ir á pasear la capa,</l>
-          </lg>
-          <pb n="2" source="Varios_134_2.jpg" facs="fedora_Varios_134_2/full/full/0/default.jpg"/>
-          <lg>
-            <l>muy estirado de medias,</l>
-            <l>echando piernas y plantas,</l>
-            <l>sacando el pié á la francesa</l>
-            <l>como maestro de danza.</l>
-            <l>El corbatin apretado,</l>
-            <l>la laltriquera sin blanca,</l>
-            <l>con el espadin á cuestas,</l>
-            <l>que parecia un Carranza,</l>
-            <l>comiéndome con los ojos</l>
-            <l>las puertas y las ventanas,</l>
-            <l>que de puro enamorado</l>
-            <l>me iban ya saliendo canas.</l>
-            <l>Muchos compañeros tengo</l>
-            <l>y algunos aquí en la sala,</l>
-            <l>hácia la mano derecha,</l>
-            <l>á la izquierda no me faltan,</l>
-            <l>por delante algunos veo,</l>
-            <l>por detrás no digo nada,</l>
-            <l>pero volvamos al caso.</l>
-            <l>Yo salí, señores, hecho</l>
-            <l>un bachiller de Trapaza,</l>
-            <l>un catalan Serrallonga,</l>
-            <l>un picarillo en España,</l>
-            <l>un capitan Belisario,</l>
-            <l>una Inés cuello de garza,</l>
-            <l>un mágico de Salerno,</l>
-            <l>una dama capitana,</l>
-            <l>un Médicis de Florencia,</l>
-            <l>una sierva de Tinacria,</l>
-            <l>un perro del hortelano,</l>
-            <l>un áspid de Cleopatra,</l>
-            <l>un Coello undon Quijote,</l>
-            <l>un señor majo que maja,</l>
-            <l>de estos de majar esparto</l>
-            <l>para todos cuantos andan</l>
-            <l>hechos unos pisaverdes</l>
-            <l>solo derramando babas;</l>
-            <l>¡qué carraca! ¡qué presidio!</l>
-            <l>Por lo menos seis campañas</l>
-            <l>fueran á servir al rey</l>
-            <l>dn los navíos de España,</l>
-            <l>conde el pan de municion</l>
-            <l>la sangre los retrescara,</l>
-          </lg>
-          <lg>
-            <l>y afirmándoles fos nuesos;</l>
-            <l>al trabajo se aplicaran</l>
-            <l>en contínua centinela</l>
-            <l>y manejo de las armas.</l>
-            <l>No hablo con los caballeros,</l>
-            <l>que estos señores se salvan</l>
-            <l>si guardan la ley de Dios</l>
-            <l>y despues mueren en gracia;</l>
-            <l>esto habla con Juan Pobre</l>
-            <l>que es el que todo lopaga.</l>
-            <l>Pero volvamos al caso,</l>
-            <l>que es una cosa estremada.</l>
-            <l>Yo me salí de mi casa....</l>
-            <l>con esta van tres salidas</l>
-            <l>sin decir lo que me pasa</l>
-            <l>ni haberlo ustedes sabido.</l>
-            <l>Yo me salí de mi casa</l>
-            <l>otra salida va ya,</l>
-            <l>¿si será este el entre y salgat</l>
-            <l>y encaminé mi paseo</l>
-            <l>á la cuesta de la Alhambra;</l>
-            <l>embosquéme en el sotillo,</l>
-            <l>tendí en el prado la capa,</l>
-            <l>hinqué la rodilla en tierra,</l>
-            <l>la humanidad acomodada,</l>
-            <l>y porque teniahambre,</l>
-            <l>desembolsé unapitanza</l>
-            <l>que traia prevenida,</l>
-            <l>cocida y salpimentada,</l>
-            <l>un panecillo muy blanco,</l>
-            <l>VINO en una CALABAZA,</l>
-            <l>dos ó tres rajas de queso</l>
-            <l>que abren de comer las ganas,</l>
-            <l>con que estaba entretenido</l>
-            <l>meneando las quijadas,</l>
-            <l>haciéndome la razon</l>
-            <l>con razon mi CALABAZA;</l>
-            <l>hasta que los dos quedamos</l>
-            <l>como Dios quiere las almas;</l>
-            <l>ella CALABAZA pura</l>
-            <l>y yo pura CALABAZA.</l>
-            <l>Del estómago á la frente</l>
-            <l>me subian y bajaban</l>
-          </lg>
-          <pb n="3" source="Varios_134_3.jpg" facs="fedora_Varios_134_3/full/full/0/default.jpg"/>
-          <lg>
-            <l>unos humos, que en los ojos,</l>
-            <l>me ponian telarañas.</l>
-            <l>Mas viendo que no estoy bueno,</l>
-            <l>antes que mas me apretara</l>
-            <l>determiné levantarme</l>
-            <l>para volverme á mi casa,</l>
-            <l>y recogiendo fragmentos</l>
-            <l>de la expresada vianda,</l>
-            <l>al natural movimiento</l>
-            <l>de ir á sacudir la capa,</l>
-            <l>sentí á mi lado ruido;</l>
-            <l>volví al ruido la cara;</l>
-            <l>y ví, yo no sé que ví,</l>
-            <l>porque en verdad no ví nada.</l>
-            <l>pero aunque yo nada ví,</l>
-            <l>ello, en fin, se mencaba.</l>
-            <l>Paréme, y dije: ¡Jesús</l>
-            <l>en este lance me valga!</l>
-            <l>¿Qué será? ¡qué no será?</l>
-            <l>ello, en fin, se meneaba.</l>
-            <l>¿si será algun pajarillo</l>
-            <l>que andará haciendo la cama?</l>
-            <l>¿Si será algun elefante</l>
-            <l>criado en estas montañas?</l>
-            <l>¿i será acaso algun rano</l>
-            <l>que andará tras de la rana!</l>
-            <l>¿Si será acaso la angosta,</l>
-            <l>ó acaso será la ancha?</l>
-            <l>¿Si será acaso el zancon?</l>
-            <l>ello, en fin, se meneaba.</l>
-            <l>Mas viendo que estoy perdido,</l>
-            <l>térciome al brazo la capa,</l>
-            <l>v la conjuro diciendo:</l>
-            <l>De parte de la Tarasca</l>
-            <l>y los siete gigantones,</l>
-            <l>los diablos y las beatas,</l>
-            <l>la escuadra de los armados</l>
-            <l>que sale en semana santa,</l>
-            <l>quique cumque, que me digas</l>
-            <l>si eres cuerpo ó eres alma,</l>
-            <l>ó si eres la contra-ronda</l>
-            <l>que siempre á deshoras anda!</l>
-            <l>y aunque dije todo esto.</l>
-          </lg>
-          <lg>
-            <l>ello, en fin, se meneaba.</l>
-            <l>Tres veces ¡ay! pronuncié,</l>
-            <l>y todo con prisa tanta,</l>
-            <l>que ya la paparrosolla</l>
-            <l>entendí que me tragaba;</l>
-            <l>y el diablo del avechucho</l>
-            <l>con los ojos como trancas</l>
-            <l>y la cola de cometa,</l>
-            <l>y las manos dé navajas,</l>
-            <l>enseñándome los dientes</l>
-            <l>entendí que me tragaba;</l>
-            <l>porque él era tan grande...</l>
-            <l>y aunque en verdad no ví nada,</l>
-            <l>puedo asegurar á ustedes</l>
-            <l>que ello, en fin, se meneaba.</l>
-            <l>Cuando Dios, y enhorabuena</l>
-            <l>y mucho de enhoramala,</l>
-            <l>era ¡Jesús qué disparate!</l>
-            <l>que el diablo de la alimaña,</l>
-            <l>era ¡quién tal ha pensado!</l>
-            <l>era ¡quién lo imaginara!</l>
-            <l>era ¡vergüenza es decirlo!</l>
-            <l>era ¡locura estremada!</l>
-            <l>era jel diablo es el miedo!</l>
-            <l>era ¡ya no me admiraba!</l>
-            <l>era ¡qué sé yo que era!</l>
-            <l>ello, en fin, se mencaba.</l>
-            <l>El sol ya se iba poniendo,</l>
-            <l>la luna poco alumbraba;</l>
-            <l>los árboles eran sombras,</l>
-            <l>las sombras eran fantasmas.</l>
-            <l>Con las narices olia,</l>
-            <l>con el paladar gustaba,</l>
-            <l>en las manos tenia el tacto</l>
-            <l>y con los ojos miraba;</l>
-            <l>del hombro cuelgan les brazos.</l>
-            <l>de la cintura las nalgas,</l>
-            <l>toda la color del rostro</l>
-            <l>se quedó como se estaba:</l>
-            <l>con toda esta mutacion</l>
-            <l>ello en fin, se meneaba.</l>
-            <l>Si me estoy quieto, limones;</l>
-            <l>si me meneo naranjas;</l>
-          </lg>
-          <pb n="4" source="Varios_134_4.jpg" facs="fedora_Varios_134_4/full/full/0/default.jpg"/>
-          <lg>
-            <l>si quiero correr, tomates;</l>
-            <l>si no corro, calabazas;</l>
-            <l>primero dije, já qué oreja?</l>
-            <l>y despues dije, ¡caramba!</l>
-            <l>y aunque dije todo esto</l>
-            <l>ello, en fin, se meneaba.</l>
-            <l>Mas viendo que estoy perdido</l>
-            <l>y que nada aprovechaba,</l>
-            <l>le dije á mi corpezuelo;</l>
-            <l>¿cuál es la mejor hazaña?</l>
-            <l>Me dijo: saber correr</l>
-            <l>cuando se encuentra ventaja.</l>
-            <l>Cobro valor, suelto el miedo</l>
-            <l>átome muy bien las bragas.</l>
-            <l>emboco el Orates fratres,</l>
-            <l>las tres potencias del alma:</l>
-            <l>y aunque hice todo esto.</l>
-            <l>ello, en fin, se meneaba</l>
-            <l>Echéme á correr cual gar</l>
-            <l>hasta llegar á mi casa.</l>
-          </lg>
-          <lg>
-            <l>encontré la puerta abierta,</l>
-            <l>y con la prisa que llevaba</l>
-            <l>hasta la casa tambien</l>
-            <l>pensé que se meneaba.</l>
-            <l>Me metí entro ron cozenenen</l>
-            <l>me tapé muy bien la cara,</l>
-            <l>dormi como un descosido,</l>
-            <l>desperté por la mañana,</l>
-            <l>almorcé fuera de susto,</l>
-            <l>comí con muy buena gana,</l>
-            <l>y me vine á esta funcion</l>
-            <l>solo con la confianza</l>
-            <l>de que mé digan ustedes</l>
-            <l>si mi historia les agrada.</l>
-            <l>¿Qué seria aquella cosa</l>
-            <l>que tanto se meneaba?</l>
-            <l>Pues, segun he discurrido,</l>
-            <l>hablando fuera de chanza,</l>
-            <l>digo que seria el VINO</l>
-            <l>ene llevé en la CÁLADAT</l>
-          </lg>
+
+          <head type="subtitulo" rend="negrita">
+            <lb/>compuesta por un ingenio que se meneaba.</head>
+
+          <l rend="indent">Silencio, atencion, soniche.</l>
+          <l>atendite, camarada,</l>
+          <l>que voy á contar un caso</l>
+          <l>que me sucedió en Granada;</l>
+          <l>pero para que lo cuente,</l>
+          <l>se han de estar manicruzadas,</l>
+          <l>con silencio y atencion,</l>
+          <l>sin menear las pestañas,</l>
+          <l>sin toser, sin escupir,</l>
+          <l>sin golpear con la caja,</l>
+          <l>sin sonarse las narices,</l>
+          <l>y no hay que pelar la pava,</l>
+          <l>pues me volveré á sentar</l>
+          <l>y quedarán con la gana</l>
+          <l>de saber lo que pasó,</l>
+          <l>que es una cosa estremada,</l>
+          <l>Una tarde, la otra tarde;</l>
+          <l>no, antes de ayer; no, mañana,</l>
+          <l>esta tarde; no, ayer tarde,</l>
+          <l>¿si seria esta mañana?</l>
+          <l>al fin de mes, ó al principio,</l>
+          <l>que no es alquiler de casa,</l>
+          <l>que es preciso despedirla</l>
+          <l>cuando media ó cuando acaba.</l>
+          <l>Un domingo por la tarde,</l>
+          <l>no, el primer dia de Páscna</l>
+          <l>que está despues de Cuaresmá,</l>
+          <l>yo me salí de mi casa</l>
+          <l>con el intento tan solo</l>
+          <l>de ir á pasear la capa,</l>
+
+          <pb n="2" source="Varios_134_2.jpg" facs="varios/Varios_134_2.jpg/"/>
+
+          <l>muy estirado de medias,</l>
+          <l>echando piernas y plantas,</l>
+          <l>sacando el pié á la francesa</l>
+          <l>como maestro de danza.</l>
+          <l>El corbatin apretado,</l>
+          <l>la laltriquera sin blanca,</l>
+          <l>con el espadin á cuestas,</l>
+          <l>que parecia un Carranza,</l>
+          <l>comiéndome con los ojos</l>
+          <l>las puertas y las ventanas,</l>
+          <l>que de puro enamorado</l>
+          <l>me iban ya saliendo canas.</l>
+          <l>Muchos compañeros tengo</l>
+          <l>y algunos aquí en la sala,</l>
+          <l>hácia la mano derecha,</l>
+          <l>á la izquierda no me faltan,</l>
+          <l>por delante algunos veo,</l>
+          <l>por detrás no digo nada,</l>
+          <l>pero volvamos al caso.</l>
+          <l>Yo salí, señores, hecho</l>
+          <l>un bachiller de Trapaza,</l>
+          <l>un catalan Serrallonga,</l>
+          <l>un picarillo en España,</l>
+          <l>un capitan Belisario,</l>
+          <l>una Inés cuello de garza,</l>
+          <l>un mágico de Salerno,</l>
+          <l>una dama capitana,</l>
+          <l>un Médicis de Florencia,</l>
+          <l>una sierva de Tinacria,</l>
+          <l>un perro del hortelano,</l>
+          <l>un áspid de Cleopatra,</l>
+          <l>un Coello undon Quijote,</l>
+          <l>un señor majo que maja,</l>
+          <l>de estos de majar esparto</l>
+          <l>para todos cuantos andan</l>
+          <l>hechos unos pisaverdes</l>
+          <l>solo derramando babas;</l>
+          <l>¡qué carraca! ¡qué presidio!</l>
+          <l>Por lo menos seis campañas</l>
+          <l>fueran á servir al rey</l>
+          <l>dn los navíos de España,</l>
+          <l>conde el pan de municion</l>
+          <l>la sangre los retrescara,</l>
+          <l>y afirmándoles fos nuesos;</l>
+          <l>al trabajo se aplicaran</l>
+          <l>en contínua centinela</l>
+          <l>y manejo de las armas.</l>
+          <l>No hablo con los caballeros,</l>
+          <l>que estos señores se salvan</l>
+          <l>si guardan la ley de Dios</l>
+          <l>y despues mueren en gracia;</l>
+          <l>esto habla con Juan Pobre</l>
+          <l>que es el que todo lopaga.</l>
+          <l>Pero volvamos al caso,</l>
+          <l>que es una cosa estremada.</l>
+          <l>Yo me salí de mi casa....</l>
+          <l>con esta van tres salidas</l>
+          <l>sin decir lo que me pasa</l>
+          <l>ni haberlo ustedes sabido.</l>
+          <l>Yo me salí de mi casa</l>
+          <l>otra salida va ya,</l>
+          <l>¿si será este el entre y salgat</l>
+          <l>y encaminé mi paseo</l>
+          <l>á la cuesta de la Alhambra;</l>
+          <l>embosquéme en el sotillo,</l>
+          <l>tendí en el prado la capa,</l>
+          <l>hinqué la rodilla en tierra,</l>
+          <l>la humanidad acomodada,</l>
+          <l>y porque teniahambre,</l>
+          <l>desembolsé unapitanza</l>
+          <l>que traia prevenida,</l>
+          <l>cocida y salpimentada,</l>
+          <l>un panecillo muy blanco,</l>
+          <l>VINO en una CALABAZA,</l>
+          <l>dos ó tres rajas de queso</l>
+          <l>que abren de comer las ganas,</l>
+          <l>con que estaba entretenido</l>
+          <l>meneando las quijadas,</l>
+          <l>haciéndome la razon</l>
+          <l>con razon mi CALABAZA;</l>
+          <l>hasta que los dos quedamos</l>
+          <l>como Dios quiere las almas;</l>
+          <l>ella CALABAZA pura</l>
+          <l>y yo pura CALABAZA.</l>
+          <l>Del estómago á la frente</l>
+          <l>me subian y bajaban</l>
+
+          <pb n="3" source="Varios_134_3.jpg" facs="varios/Varios_134_3.jpg/"/>
+
+          <l>unos humos, que en los ojos,</l>
+          <l>me ponian telarañas.</l>
+          <l>Mas viendo que no estoy bueno,</l>
+          <l>antes que mas me apretara</l>
+          <l>determiné levantarme</l>
+          <l>para volverme á mi casa,</l>
+          <l>y recogiendo fragmentos</l>
+          <l>de la expresada vianda,</l>
+          <l>al natural movimiento</l>
+          <l>de ir á sacudir la capa,</l>
+          <l>sentí á mi lado ruido;</l>
+          <l>volví al ruido la cara;</l>
+          <l>y ví, yo no sé que ví,</l>
+          <l>porque en verdad no ví nada.</l>
+          <l>pero aunque yo nada ví,</l>
+          <l rend="cursiva">ello, en fin, se meneaba.</l>
+          <l>Paréme, y dije: ¡Jesús</l>
+          <l>en este lance me valga!</l>
+          <l>¿Qué será? ¡qué no será?</l>
+          <l>ello, en fin, se meneaba.</l>
+          <l>¿si será algun pajarillo</l>
+          <l>que andará haciendo la cama?</l>
+          <l>¿Si será algun elefante</l>
+          <l>criado en estas montañas?</l>
+          <l>¿i será acaso algun rano</l>
+          <l>que andará tras de la rana!</l>
+          <l>¿Si será acaso la angosta,</l>
+          <l>ó acaso será la ancha?</l>
+          <l>¿Si será acaso el zancon?</l>
+          <l rend="cursiva">ello, en fin, se meneaba.</l>
+          <l>Mas viendo que estoy perdido,</l>
+          <l>térciome al brazo la capa,</l>
+          <l>v la conjuro diciendo:</l>
+          <l>De parte de la Tarasca</l>
+          <l>y los siete gigantones,</l>
+          <l>los diablos y las beatas,</l>
+          <l>la escuadra de los armados</l>
+          <l>que sale en semana santa,</l>
+          <l><hi rend="cursiva">quique cumque</hi>, que me digas</l>
+          <l>si eres cuerpo ó eres alma,</l>
+          <l>ó si eres la contra-ronda</l>
+          <l>que siempre á deshoras anda!</l>
+          <l>y aunque dije todo esto.</l>
+          <l rend="cursiva">ello, en fin, se meneaba.</l>
+          <l>Tres veces ¡ay! pronuncié,</l>
+          <l>y todo con prisa tanta,</l>
+          <l>que ya la paparrosolla</l>
+          <l>entendí que me tragaba;</l>
+          <l>y el diablo del avechucho</l>
+          <l>con los ojos como trancas</l>
+          <l>y la cola de cometa,</l>
+          <l>y las manos dé navajas,</l>
+          <l>enseñándome los dientes</l>
+          <l>entendí que me tragaba;</l>
+          <l>porque él era tan grande...</l>
+          <l>y aunque en verdad no ví nada,</l>
+          <l>puedo asegurar á ustedes</l>
+          <l rend="cursiva">que ello, en fin, se meneaba.</l>
+          <l>Cuando Dios, y enhorabuena</l>
+          <l>y mucho de enhoramala,</l>
+          <l>era ¡Jesús qué disparate!</l>
+          <l>que el diablo de la alimaña,</l>
+          <l>era ¡quién tal ha pensado!</l>
+          <l>era ¡quién lo imaginara!</l>
+          <l>era ¡vergüenza es decirlo!</l>
+          <l>era ¡locura estremada!</l>
+          <l>era jel diablo es el miedo!</l>
+          <l>era ¡ya no me admiraba!</l>
+          <l>era ¡qué sé yo que era!</l>
+          <l rend="cursiva">ello, en fin, se meneaba.</l>
+          <l>El sol ya se iba poniendo,</l>
+          <l>la luna poco alumbraba;</l>
+          <l>los árboles eran sombras,</l>
+          <l>las sombras eran fantasmas.</l>
+          <l>Con las narices olia,</l>
+          <l>con el paladar gustaba,</l>
+          <l>en las manos tenia el tacto</l>
+          <l>y con los ojos miraba;</l>
+          <l>del hombro cuelgan les brazos.</l>
+          <l>de la cintura las nalgas,</l>
+          <l>toda la color del rostro</l>
+          <l>se quedó como se estaba:</l>
+          <l>con toda esta mutacion</l>
+          <l rend="cursiva">ello en fin, se meneaba.</l>
+          <l>Si me estoy quieto, limones;</l>
+          <l>si me meneo naranjas;</l>
+
+          <pb n="4" source="Varios_134_4.jpg" facs="varios/Varios_134_4.jpg/"/>
+
+          <l>si quiero correr, tomates;</l>
+          <l>si no corro, calabazas;</l>
+          <l>primero dije, já qué oreja?</l>
+          <l>y despues dije, ¡caramba!</l>
+          <l>y aunque dije todo esto</l>
+          <l rend="cursiva">ello, en fin, se meneaba.</l>
+          <l>Mas viendo que estoy perdido</l>
+          <l>y que nada aprovechaba,</l>
+          <l>le dije á mi corpezuelo;</l>
+          <l>¿cuál es la mejor hazaña?</l>
+          <l>Me dijo: saber correr</l>
+          <l>cuando se encuentra ventaja.</l>
+          <l>Cobro valor, suelto el miedo</l>
+          <l>átome muy bien las bragas.</l>
+          <l>emboco el <hi rend="cursiva">Orates fratres</hi>,</l>
+          <l>las tres potencias del alma:</l>
+          <l>y aunque hice todo esto.</l>
+          <l rend="cursiva">ello, en fin, se meneaba</l>
+          <l>Echéme á correr cual gar</l>
+          <l>hasta llegar á mi casa.</l>
+          <l>encontré la puerta abierta,</l>
+          <l>y con la prisa que llevaba</l>
+          <l>hasta la casa tambien</l>
+          <l>pensé que se <hi rend="cursiva">meneaba</hi>.</l>
+          <l>Me metí entro ron cozenenen</l>
+          <l>me tapé muy bien la cara,</l>
+          <l>dormi como un descosido,</l>
+          <l>desperté por la mañana,</l>
+          <l>almorcé fuera de susto,</l>
+          <l>comí con muy buena gana,</l>
+          <l>y me vine á esta funcion</l>
+          <l>solo con la confianza</l>
+          <l>de que mé digan ustedes</l>
+          <l>si mi historia les agrada.</l>
+          <l>¿Qué seria aquella cosa</l>
+          <l>que tanto se meneaba?</l>
+          <l>Pues, segun he discurrido,</l>
+          <l>hablando fuera de chanza,</l>
+          <l>digo que seria el VINO</l>
+          <l>ene llevé en la CÁLADAT</l>
+
           <trailer>FIN</trailer>
         </div>
         <div type="colofon">
-          <p><lb/>MADRID. — Despacho: Libreria y Casa Editorial Hernando (S.
-                                    A.), Arenal, 11.</p>
+          <p><lb/>MADRID. — Despacho: Libreria y Casa Editorial Hernando (S. A.), Arenal, 11.</p>
         </div>
       </div>
     </body>

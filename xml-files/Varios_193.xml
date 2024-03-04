@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../Schema/oddPliego_varios.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:alto="http://www.loc.gov/standards/alto/ns-v4#" xml:id="Varios_193">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Varios_193">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -11,8 +11,7 @@
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <authority role="rightsHolder">Bibliothèque Universitaire de
-                              Genève</authority>
+        <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
         <availability status="restricted">
           <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
         </availability>
@@ -20,8 +19,7 @@
       <sourceDesc>
         <biblFull>
           <titleStmt>
-            <title type="titulo_completo">José Maria 'EL
-                                          TEMPRANILLO'</title>
+            <title type="titulo_completo">José Maria 'EL TEMPRANILLO'</title>
             <title type="titulo_breve"/>
           </titleStmt>
           <editionStmt>
@@ -30,7 +28,7 @@
           <publicationStmt>
             <publisher>Imprenta Inglesa</publisher>
             <pubPlace ref="https://www.geonames.org/3123798/dou.html">Dou </pubPlace>
-            <date cert="high">[s.a]</date>
+            <date cert="low" when="1800-01-01">[s.a.]</date>
           </publicationStmt>
         </biblFull>
         <msDesc>
@@ -38,7 +36,8 @@
             <country>Suisse</country>
             <settlement>Genève</settlement>
             <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"/>
-                                    </repository>
+            </repository>
+            <collection>Colección Varios</collection>
             <idno type="cote"/>
             <idno type="DOI">10.5281/zenodo.6597459</idno>
             <altIdentifier>
@@ -57,9 +56,7 @@
               <supportDesc>
                 <support>
                   <dim>in-4</dim>
-                  <material>*À COMPLETER*: Pour indiquer la couleur
-                                                  du papier @subtype : verde, amarillo, azul,
-                                                  naranja, rosa</material>
+                  <material/>
                 </support>
                 <extent><measure unit="página" quantity="1"/>1 p.</extent>
                 <condition>Bueno</condition>
@@ -87,18 +84,17 @@
     </fileDesc>
     <encodingDesc>
       <projectDesc>
-        <p>Este archivo fue creado en el marco del proyecto Desenrollando el
-                              Cordel/Démêler le cordel/Untangling the cordel, dirigido por la
-                              profesora Constance Carta de la Universidad de Ginebra, con el apoyo
-                              de la Fundación filantrópica Famille Sandoz-Monique de Meuron.</p>
+        <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+          cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la Universidad
+          de Ginebra, con el apoyo de la Fundación filantrópica Famille Sandoz-Monique de
+          Meuron.</p>
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR non corregido</p>
+          <p>OCR no corregido</p>
         </correction>
         <normalization>
-          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto
-                                    original.</p>
+          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
         </normalization>
         <punctuation>
           <p>Se conserva la puntuación original.</p>
@@ -119,10 +115,14 @@
       </textClass>
     </profileDesc>
     <revisionDesc>
-      <change when="2023-08-07" who="#PJ">Création du fichier TEI P5 et encodage du
-                        corps du texte</change>
+      <change when="2023-08-07" who="#PJ">Création du fichier TEI P5 et encodage du corps du
+        texte</change>
+      <change when="2024-01-09" who="#EL">Add the IIIF links</change>
     </revisionDesc>
   </teiHeader>
+  <facsimile>
+    <graphic url="varios/Varios_193_1.jpg/full/200,/0/default.jpg"/>
+  </facsimile>
   <sourceDoc xml:id="automaticTranscription">
     <surface xml:id="Varios_193_1" type="page" cert="silver">
       <graphic url="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_193_1/full/full/0/default.jpg"/>
@@ -600,31 +600,42 @@
   <text>
     <body>
       <div>
-        <pb n="1" source="Varios_193_1.jpg" facs="fedora_Varios_193_1/full/full/0/default.jpg"/>
+        <pb n="1" source="Varios_193_1.jpg" facs="varios/Varios_193_1.jpg/"/>
         <div>
           <head type="primer_titulo"><lb/>José Maria 'EL TEMPRANILLO'</head>
+
           <lg>
-            <l>De allá de Sierra Morena</l>
+            <l rend="indent">De allá de Sierra Morena</l>
             <l>venimos a saludar</l>
             <l>al Señor Gobernador</l>
             <l>de esta hermosa Capital.</l>
-            <l>Saludamos al Alcalde</l>
+          </lg>
+          <lg>
+            <l rend="indent">Saludamos al Alcalde</l>
             <l>todos quedamos contentos</l>
             <l>y también al Inspector</l>
             <l>y a todo el Ayuntamiento.</l>
-            <l>Venimos de Sierra Morena</l>
+          </lg>
+          <lg>
+            <l rend="indent">Venimos de Sierra Morena</l>
             <l>con las mantas jerezanas</l>
             <l>a hacerle la cortesia</l>
             <l>a estas bellas catalanas.</l>
-            <l>Nosotros somos bondidos</l>
+          </lg>
+          <lg>
+            <l rend="indent">Nosotros somos bondidos</l>
             <l>honrados y muy decenten</l>
             <l>por donde quiera que vamos</l>
             <l>nos hace paso la gente</l>
-            <l>Con el permiso de ustedes</l>
+          </lg>
+          <lg>
+            <l rend="indent">Con el permiso de ustedes</l>
             <l>cantemos con alegría</l>
             <l>las coplas que van escritas</l>
             <l>del señor José María.</l>
-            <l>El primer robo fué</l>
+          </lg>
+          <lg>
+            <l rend="indent">El primer robo fué</l>
             <l>a la entrada de Andalucia</l>
             <l>vimos venir al Marqués</l>
             <l>que dentro del coche venía</l>
@@ -636,7 +647,9 @@
             <l>venid todos al momento</l>
             <l>que los trabucos alumbren</l>
             <l>la luna y el firmamento.</l>
-            <l>Señor José María</l>
+          </lg>
+          <lg>
+            <l rend="indent">Señor José María</l>
             <l>capitán de mala fama</l>
             <l>con su valiente partida</l>
             <l>se presenta esta mañana</l>
@@ -644,41 +657,45 @@
             <l>dispuestos a saquenr</l>
             <l>las carteras y bolsillos</l>
             <l>que hay en la capital.</l>
-            <l>Si alguno se resiste</l>
+            <l rend="indent">Si alguno se resiste</l>
             <l>en soltar la calderilla</l>
             <l>que los trabucos parezcan</l>
             <l>los canones de Melilla.</l>
-            <l>Soy un celebre bandido</l>
+          </lg>
+          <lg>
+            <l rend="indent">Soy un celebre bandido</l>
             <l>criado en una cueva</l>
             <l>capitán de una partida</l>
             <l>que hay en Sie ra Morena</l>
-            <l>Y vengo de las montañas</l>
+            <l rend="indent">Y vengo de las montañas</l>
             <l>audando sin descansar</l>
             <l>por ver las bellas muchachas</l>
             <l>que hay en la capital.</l>
-            <l>Y si alguna chica quiere</l>
+            <l rend="indent">Y si alguna chica quiere</l>
             <l>en la partida ingresar</l>
             <l>con esta buena partida</l>
             <l>nada le puede faltar</l>
-            <l>El señor José María</l>
           </lg>
           <lg>
+            <l rend="indent">El señor José María</l>
             <l>a un caballero que iba</l>
             <l>del brazo con su señora</l>
             <l>le pidió el alto enseguida.</l>
-            <l>Aquel hombre contestó</l>
+            <l rend="indent">Aquel hombre contestó</l>
             <l>que se ofrece caballero</l>
             <l>nuestro capitán dijo</l>
             <l>que me diera usted el dinero</l>
-            <l>No hay momento que tardar</l>
+            <l rend="indent">No hay momento que tardar</l>
             <l>en arriarme la guita</l>
             <l>hecho mano a mi trabuco</l>
             <l>y le gasto una bromita.</l>
-            <l>Esta célebre partida</l>
+          </lg>
+          <lg>
+            <l rend="indent">Esta célebre partida</l>
             <l>que llega a esta capital</l>
             <l>si el público me permite</l>
             <l>un caso le voy a contar.</l>
-            <l>Al señor de Macandito</l>
+            <l rend="indent">Al señor de Macandito</l>
             <l>en el Paseo de Gracia</l>
             <l>lo quisieron detener</l>
             <l>metió mano a su hocacha</l>
@@ -686,7 +703,9 @@
             <l>trece con el capitán</l>
             <l>y el que menos de ellos puede</l>
             <l>pon medio mundo acabar.</l>
-            <l>Como decente y atento</l>
+          </lg>
+          <lg>
+            <l rend="indent">Como decente y atento</l>
             <l>con mucha serenidad</l>
             <l>venimos todos contentos</l>
             <l>a todo el mundo obsequiar</l>
@@ -698,7 +717,9 @@
             <l>que robo para alimentar</l>
             <l>al anciano que yo veo</l>
             <l>que no lo puede ganar.</l>
-            <l>Al público que me escucha</l>
+          </lg>
+          <lg>
+            <l rend="indent">Al público que me escucha</l>
             <l>con grande silencio espero</l>
             <l>para explicarle los nombres</l>
             <l>de estos doce bandoleros</l>
@@ -710,7 +731,9 @@
             <l>el Limpio y el Sepulturero</l>
             <l>que son los más infelices</l>
             <l>que van de los bandoleros.</l>
-            <l>Estando un día descansando</l>
+          </lg>
+          <lg>
+            <l rend="indent">Estando un día descansando</l>
             <l>como costumbre en la cueva</l>
             <l>treinta hombres a caballo</l>
             <l>vió venir el centinela</l>
@@ -718,7 +741,9 @@
             <l>fué a avisar al Capitán</l>
             <l>para hacerle de saber</l>
             <l>esta mala novedad.</l>
-            <l>Nuostro capitán dijo</l>
+          </lg>
+          <lg>
+            <l rend="indent">Nuestro capitán dijo</l>
             <l>ojo con la punteria</l>
             <l>no deshonréis la partida</l>
             <l>del señor José María.</l>

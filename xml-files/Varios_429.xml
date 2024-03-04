@@ -4,8 +4,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>HISTORIA DE LA REVOLUCION FRANCESA (EPISODIOS DE 1793 Á
-                              1804)</title>
+        <title>HISTORIA DE LA REVOLUCION FRANCESA</title>
         <respStmt>
           <name xml:id="PJ">Pauline Jacsont</name>
           <resp>Codificación TEI</resp>
@@ -31,7 +30,7 @@
           <publicationStmt>
             <publisher>Imprenta Peninsular</publisher>
             <pubPlace ref="https://www.geonames.org/3128760/barcelona.html">Barcelona</pubPlace>
-            <date atLeast="1804"/>
+            <date cert="low" notBefore="1805" when="1805-01-01"></date>
           </publicationStmt>
         </biblFull>
         <msDesc>
@@ -40,6 +39,7 @@
             <settlement>Genève</settlement>
             <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"/>
                                     </repository>
+            <collection>Colección Varios</collection>
             <idno type="cote"/>
             <idno type="DOI">10.5281/zenodo.6795078</idno>
             <altIdentifier>
@@ -107,7 +107,7 @@
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR non corregido</p>
+          <p>OCR no corregido</p>
         </correction>
         <normalization>
           <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto
@@ -132,9 +132,10 @@
     <revisionDesc>
       <change when="2023-12-29" who="#PJ">Création du fichier TEI P5 et encodage du
                         corps du texte</change>
+<change when="2024-01-09" who="#EL">Add the IIIF links</change>
     </revisionDesc>
   </teiHeader>
-  <sourceDoc xml:id="automaticTranscription">
+  <facsimile><graphic url="varios/Varios_429_1.jpg/full/200,/0/default.jpg"/></facsimile><sourceDoc xml:id="automaticTranscription">
     <surface xml:id="Varios_429_1" type="page" cert="silver">
       <graphic url="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_429_1/full/full/0/default.jpg"/>
       <zone xml:id="Varios_429_1_BT223_1" n="1" type="CustomZone" subtype="title" points="1422,102 1422,723 240,723 240,102 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_429_1/240.0,102.0,1182.0,621.0/full/0/default" corresp="CustomZone:title">
@@ -4427,7 +4428,7 @@
   <text>
     <body>
       <div>
-        <pb n="1" source="Varios_429_1.jpg" facs="fedora_Varios_429_1/full/full/0/default.jpg"/>
+        <pb n="1" source="Varios_429_1.jpg" facs="varios/Varios_429_1.jpg/"/>
         <head type="primer_titulo"><lb/>HISTORIA<lb/>DE LA<lb/>REVOLUCION FRANCESA</head>
         <head type="subtitulo_parte"><lb/>(EPISODIOS DE 1793 Á 1804)</head>
         <p><lb/>POR<lb/>B. M.</p>
@@ -4436,12 +4437,12 @@
                                     Bosch,<lb/>Calle del Bou de la Plaza Nueva, núm. 13.</p>
         </div>
         <div>
-          <pb n="2" source="Varios_429_2.jpg" facs="fedora_Varios_429_2/full/full/0/default.jpg"/>
+          <pb n="2" source="Varios_429_2.jpg" facs="varios/Varios_429_2.jpg/"/>
           <div type="colofon_impresora">
             <p><lb/>Imprenta Peninsular, calle del Conde del Asalto,
                                           núm. 69.</p>
           </div>
-          <pb n="3" source="Varios_429_3.jpg" facs="fedora_Varios_429_3/full/full/0/default.jpg"/>
+          <pb n="3" source="Varios_429_3.jpg" facs="varios/Varios_429_3.jpg/"/>
           <div type="parte" n="1">
             <head type="primer_titulo"><lb/>HISTORIA<lb/>DE LA<lb/>REVOLUCION FRANCESA.</head>
             <p><lb/>La revolucion francesa ha sido la más grande que
@@ -4466,7 +4467,7 @@
                                           desde los primeros<lb/>momentos. Mil lazos se armaron al
                                           estado llano; pero todos<lb/>inútilmente. La energía y
                                           la elocuencia de Mirabeau y la fir-</p>
-            <pb n="4" source="Varios_429_4.jpg" facs="fedora_Varios_429_4/full/full/0/default.jpg"/>
+            <pb n="4" source="Varios_429_4.jpg" facs="varios/Varios_429_4.jpg/"/>
             <fw type="paginaNum">— 4—</fw>
             <p><lb/>meza de todos los diputados del pueblo, burlaron
                                           todas las<lb/>medidas de los enemigos del partido
@@ -4509,7 +4510,7 @@
                                           embargaron el local del juego de pelota; pero los
                                           Comu-<lb/>nes se reunieron en la iglesia de San Luis,
                                           uniéndose á ellos<lb/>el arzobispo de Viena á la cabeza
-                                          de ciento cuarenta indivi- <pb n="5" source="Varios_429_5.jpg" facs="fedora_Varios_429_5/full/full/0/default.jpg"/>
+                                          de ciento cuarenta indivi- <pb n="5" source="Varios_429_5.jpg" facs="varios/Varios_429_5.jpg/"/>
                                           <fw type="paginaNum">—5—</fw>
                                           <lb/>duos del clero, con cuyo acto acabó de alejarse el
                                           pueblo de la<lb/>corona y de la nobleza.</p>
@@ -4551,7 +4552,7 @@
                                           actitud de la aristo-<lb/>cracia, habia ofrecido mandar
                                           cuarenta mil hombres á Versa-<lb/>les á proteger á sus
                                           diputados. </p>
-            <pb n="6" source="Varios_429_6.jpg" facs="fedora_Varios_429_6/full/full/0/default.jpg"/>
+            <pb n="6" source="Varios_429_6.jpg" facs="varios/Varios_429_6.jpg/"/>
             <fw type="paginaNum">— 6—</fw>
             <p><lb/>Despues de la sesion régia era preciso hacerse
                                           obedecer ó<lb/>declararse vencido; pero la córte tuvo
@@ -4595,7 +4596,7 @@
                                           casas consistoriales,<lb/>la cual gobernó desde entonces
                                           á París, poniéndose en corres-<lb/>pondencia con la
                                           Asamblea nacional.</p>
-            <pb n="7" source="Varios_429_7.jpg" facs="fedora_Varios_429_7/full/full/0/default.jpg"/>
+            <pb n="7" source="Varios_429_7.jpg" facs="varios/Varios_429_7.jpg/"/>
             <fw type="paginaNum">—7—</fw>
             <p><lb/>En el famoso <hi rend="cursiva">Club del Palacio
                                                 Real</hi>, las ideas republicanas<lb/>fermentaban y
@@ -4612,7 +4613,7 @@
                                           por órden del rey, se sublevó el pueblo en el
                                           Palacio,<lb/>Real á la voz de Camilo Desmoulins, paseando
                                           por las calles el<lb/>retrato de Neker.</p>
-            <pb n="8" source="Varios_429_8.jpg" facs="fedora_Varios_429_8/full/full/0/default.jpg"/>
+            <pb n="8" source="Varios_429_8.jpg" facs="varios/Varios_429_8.jpg/"/>
             <fw type="paginaNum">—8—</fw>
             <p><lb/>El dia 12 era el pueblo dueño de todo París,
                                           retirándose las<lb/>tropas impotentes para luchar contra
@@ -4655,7 +4656,7 @@
                                           formidable oleada que lo invadió todo. El ódio del
                                           pue-<lb/>blo contra los nobles, que habian abandonado al
                                           rey despues</p>
-            <pb n="9" source="Varios_429_9.jpg" facs="fedora_Varios_429_9/full/full/0/default.jpg"/>
+            <pb n="9" source="Varios_429_9.jpg" facs="varios/Varios_429_9.jpg/"/>
             <fw type="paginaNum">—9—</fw>
             <p><lb/>de haberle mal aconsejado, era inmenso. El movimiento de
                                           <lb/>París se comunicó á todas las provincias,
@@ -4680,7 +4681,7 @@
                                           coaligadas, el<lb/>rey prefirió fugarse de París en la
                                           noche del 21 de Julio; pero<lb/>detenido el 22 en
                                           Varennes, el 25 volvia á entrar cautivo en<lb/>las
-                                          Tullerías. <pb n="10" source="Varios_429_10.jpg" facs="fedora_Varios_429_10/full/full/0/default.jpg"/>
+                                          Tullerías. <pb n="10" source="Varios_429_10.jpg" facs="varios/Varios_429_10.jpg/"/>
                                           <fw type="paginaNum">— 10—</fw>
                                           <lb/>La Asamblea se apoderó del poder ejecutivo y
                                           suspendió<lb/>al rey; de hecho, el gobierno se convirtió
@@ -4723,7 +4724,7 @@
                                           pérfido; nos habeis engañado siempre;<lb/>nos engañais
                                           todavía; pero tened cuidado, la medida está
                                           col-<lb/>mada, y el pueblo cansado de ser vuestro juguete.
-                                                <pb n="11" source="Varios_429_11.jpg" facs="fedora_Varios_429_11/full/full/0/default.jpg"/>
+                                                <pb n="11" source="Varios_429_11.jpg" facs="varios/Varios_429_11.jpg/"/>
                                           <fw type="paginaNum">—11—</fw>
                                           <lb/>El rey llegó en aquel dia hasta ponerse el gorro
                                           colorado<lb/>de uno de los asistentes; pero á pesar de
@@ -4765,7 +4766,7 @@
                                           ocupó en<lb/>crear un ejército capaz de defender las
                                           fronteras, al mismo<lb/>tiempo que el duque de Brunswich,
                                           publicaba el manifiesto de<lb/>los reyes extranjeros, que
-                                          Luis XVI llamaba á Francia en so-<lb/>corro. <pb n="12" source="Varios_429_12.jpg" facs="fedora_Varios_429_12/full/full/0/default.jpg"/>
+                                          Luis XVI llamaba á Francia en so-<lb/>corro. <pb n="12" source="Varios_429_12.jpg" facs="varios/Varios_429_12.jpg/"/>
                                           <fw type="paginaNum">— 12—</fw>
                                           <lb/>No hubo entonces más que una sola voz para pedir el
                                           des-<lb/>tronamiento del rey, distinguiéndose los
@@ -4810,7 +4811,7 @@
                                           diciendo,<lb/>que considerando la Asamblea que los males
                                           de la patria ha-<lb/>bian llegado á su colmo, proponia el
                                           destronamiento del rey y<lb/>la formacion de una
-                                          Convencion nacional. <pb n="13" source="Varios_429_13.jpg" facs="fedora_Varios_429_13/full/full/0/default.jpg"/>
+                                          Convencion nacional. <pb n="13" source="Varios_429_13.jpg" facs="varios/Varios_429_13.jpg/"/>
                                           <fw type="paginaNum">— 13—</fw>
                                           <lb/>Admitida la proposicion se nombró un nuevo
                                           ministerio en<lb/>el que entró Danton. Los jacobinos
@@ -4851,7 +4852,7 @@
                                           munici-<lb/>pal, y en particular la junta de vigilancia,
                                           bajo la presidencia<lb/>de Marat, más revolucionario que
                                           todos sus individuos y aun<lb/>que el mismo Danton,
-                                          comprendieron todo lo que podia temer- <pb n="14" source="Varios_429_14.jpg" facs="fedora_Varios_429_14/full/full/0/default.jpg"/>
+                                          comprendieron todo lo que podia temer- <pb n="14" source="Varios_429_14.jpg" facs="varios/Varios_429_14.jpg/"/>
                                           <fw type="paginaNum">—14—</fw>
                                           <lb/>se de la venganza del pueblo, porque abandonado a sí
                                           mismo,<lb/>podia entrar á la ventura en las cosas, é
@@ -4893,7 +4894,7 @@
                                           Por lo demás, fué un acto de fanatís-<lb/>mo más que
                                           de pura maldad, pues se vió en los degolladores<lb/>de
                                           Setiembre degollar á uno de ellos mismos por haber roba-
-                                                <pb n="15" source="Varios_429_15.jpg" facs="fedora_Varios_429_15/full/full/0/default.jpg"/>
+                                                <pb n="15" source="Varios_429_15.jpg" facs="varios/Varios_429_15.jpg/"/>
                                           <fw type="paginaNum">—15—</fw>
                                           <lb/>do durante las matanzas. Aquel terrible
                                           acontecimiento esta-<lb/>ba en la fuerza de las cosas y en
@@ -4935,7 +4936,7 @@
                                           El 2 de Setiembre destruyó su partido. Mas de<lb/>18.000
                                           voluntarios armados y equipados partieron desde el
                                           3<lb/>al 15 de Setiembre para presentarse en la frontera.
-                                          En un mes<lb/>se improvisó allí un ejército. <pb n="16" source="Varios_429_16.jpg" facs="fedora_Varios_429_16/full/full/0/default.jpg"/>
+                                          En un mes<lb/>se improvisó allí un ejército. <pb n="16" source="Varios_429_16.jpg" facs="varios/Varios_429_16.jpg/"/>
                                           <fw type="paginaNum">— 16́—</fw>
                                           <lb/>En medio de esto, la Junta de vigilancia ó de Salud
                                           públi-<lb/>ca, como se llamaba algunas veces, no dejaba la
@@ -4978,7 +4979,7 @@
                                           propio territorio,<lb/>tomando á Treveris, Epiro y
                                           Maguncia, é invadiendo la Bélgi-<lb/>ca, Saboya y Niza. </p>
             <p><lb/>El ejército republicano seguia salvando la república,
-                                          cuya <pb n="17" source="Varios_429_17.jpg" facs="fedora_Varios_429_17/full/full/0/default.jpg"/>
+                                          cuya <pb n="17" source="Varios_429_17.jpg" facs="varios/Varios_429_17.jpg/"/>
                                           <fw type="paginaNum">—17—</fw>
                                           <lb/>existencia comprometian los partidos con sus luchas
                                           intes-<lb/>tinas.</p>
@@ -5022,7 +5023,7 @@
                                           manos, y la de que los girondinos, habiendo sido<lb/>los
                                           primeros en dar la señal del ataque, no podian dejar de
                                           ser<lb/>las primeras víctimas.<lb/>El partido de la
-                                          Montaña, mas hábil de lo que se creía, <pb n="18" source="Varios_429_18.jpg" facs="fedora_Varios_429_18/full/full/0/default.jpg"/>
+                                          Montaña, mas hábil de lo que se creía, <pb n="18" source="Varios_429_18.jpg" facs="varios/Varios_429_18.jpg/"/>
                                           <fw type="paginaNum">—18—</fw>
                                           <lb/>para desprestigiar y anonadar de una vez al de la
                                           Gironda,<lb/>intentó el proceso de Luis XVI, forzándolo
@@ -5067,7 +5068,7 @@
                                           de defensa no po-<lb/>dia menos de serle funesto; nadie
                                           podia atinar por qué no tenia<lb/>valor para confesar sus
                                           propias acciones.<lb/>El 26 fué el rey conducido otra vez
-                                          á la barra, y sus defen- <pb n="19" source="Varios_429_19.jpg" facs="fedora_Varios_429_19/full/full/0/default.jpg"/>
+                                          á la barra, y sus defen- <pb n="19" source="Varios_429_19.jpg" facs="varios/Varios_429_19.jpg/"/>
                                           <fw type="paginaNum">—19—</fw>
                                           <lb/>sores Malesherbes, Bouchet y Desere presentaron sus
                                           defensas.<lb/>Estas duraron hasta el 14 de Enero, siendo
@@ -5109,7 +5110,7 @@
                                           pena pronunciada por la Asamblea contra Luis, era
                                           la<lb/>de muerte.<lb/>Los defensores del desgraciado
                                           monarca, pidieron una pró-<lb/>roga; pero fué desechada
-                                          la peticion por 380, votos contra 310. <pb n="20" source="Varios_429_20.jpg" facs="fedora_Varios_429_20/full/full/0/default.jpg"/>
+                                          la peticion por 380, votos contra 310. <pb n="20" source="Varios_429_20.jpg" facs="varios/Varios_429_20.jpg/"/>
                                           <fw type="paginaNum">—20—</fw>
                                           <lb/>Por fin el 21 de Enero de 1793 Luis fué
                                           guillotinado. Desde<lb/>el cadalso quiso dirigir la
@@ -5150,7 +5151,7 @@
                                           detencion.<lb/>Al saberse la detencion de los Girondinos,
                                           sus parciales se<lb/>sublevaron en provincias, triunfando
                                           de los Jacobinos en Lyon<lb/>y guillotinándolos todos.
-                                          Lyon era el centro de la insurreccion <pb n="21" source="Varios_429_21.jpg" facs="fedora_Varios_429_21/full/full/0/default.jpg"/>
+                                          Lyon era el centro de la insurreccion <pb n="21" source="Varios_429_21.jpg" facs="varios/Varios_429_21.jpg/"/>
                                           <fw type="paginaNum">—21—</fw>
                                           <lb/>en el Mediodía y Caen en el Norte. De Caen salió
                                           más tarde<lb/>Carlota Corday, que asesinó á Marat,
@@ -5188,7 +5189,7 @@
             <p><lb/>Los delegados de la Convencion de los departamentos
                                           co-<lb/>metian toda clase de atrocidades, con el pretexto
                                           de salvar la<lb/>república. Algunos de estos delegados
-                                          parecian verdaderos <pb n="22" source="Varios_429_22.jpg" facs="fedora_Varios_429_22/full/full/0/default.jpg"/>
+                                          parecian verdaderos <pb n="22" source="Varios_429_22.jpg" facs="varios/Varios_429_22.jpg/"/>
                                           <fw type="paginaNum">—22—</fw>
                                           <lb/>foragidos, pues sus actos mejor podian reputarse de
                                           crímenes<lb/>que de justicieros. La guillotina no paraba
@@ -5229,7 +5230,7 @@
                                           objeto, pues dado el maquiavelismo de Robespierre,
                                           que<lb/>se valia de todos los medios para deshacerse de
                                           todos los hom-<lb/>bres que le hacian sombra, pues quería
-                                          reinar solo, rodeado <pb n="23" source="Varios_429_23.jpg" facs="fedora_Varios_429_23/full/full/0/default.jpg"/>
+                                          reinar solo, rodeado <pb n="23" source="Varios_429_23.jpg" facs="varios/Varios_429_23.jpg/"/>
                                           <fw type="paginaNum">—23—</fw>
                                           <lb/>de nulidades, Marat, lo mismo que sus amigos Danton y
                                           Des-<lb/>moulins. y demás patriotas de alguna talla,
@@ -5269,7 +5270,7 @@
                                           conservó su firmeza hasta el últi-<lb/>mo momento, y
                                           cayó bajo la cuchilla, sin haber hecho la más<lb/>leve
                                           demostracion de espanto.<lb/>Al ser conducido al cadalso
-                                          Robespierre, pasó el fúnebre <pb n="24" source="Varios_429_24.jpg" facs="fedora_Varios_429_24/full/full/0/default.jpg"/>
+                                          Robespierre, pasó el fúnebre <pb n="24" source="Varios_429_24.jpg" facs="varios/Varios_429_24.jpg/"/>
                                           <fw type="paginaNum">— 24—</fw>
                                           <lb/>cortejo por delante de su casa deteniéndose la
                                           carreta un ins-<lb/>tante al frente de aquella. La turba
@@ -5314,8 +5315,8 @@
                                           XVII. La<lb/>restauracion fué, como siempre, el fin de la
                                           revolucion.</p>
           </div>
-          <pb n="25" source="Varios_429_25.jpg" facs="fedora_Varios_429_25/full/full/0/default.jpg"/>
-          <pb n="26" source="Varios_429_26.jpg" facs="fedora_Varios_429_26/full/full/0/default.jpg"/>
+          <pb n="25" source="Varios_429_25.jpg" facs="varios/Varios_429_25.jpg/"/>
+          <pb n="26" source="Varios_429_26.jpg" facs="varios/Varios_429_26.jpg/"/>
           <div type="productos_a_la_venta">
             <head type="titulo_parte"><lb/>HISTORIAS QUE SE HALLAN EN EL MISMO DESPACHO.</head>
             <listBibl>

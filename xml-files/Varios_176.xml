@@ -1,11 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../Schema/oddPliego_varios.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:alto="http://www.loc.gov/standards/alto/ns-v4#" xml:id="Varios_176">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Varios_176">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>El Cantor de las Hermosas, Trovas de amor dedicadas al bello sexo por unos
-               aficionados.</title>
+        <title>El Cantor de las Hermosas</title>
         <respStmt>
           <name/>
           <resp>Codificación TEI</resp>
@@ -20,8 +19,8 @@
       <sourceDesc>
         <biblFull>
           <titleStmt>
-            <title type="titulo_completo">El Cantor de las Hermosas, Trovas de amor dedicadas
-                     al bello sexo por unos aficionados.</title>
+            <title type="titulo_completo">El Cantor de las Hermosas, Trovas de amor dedicadas al
+              bello sexo por unos aficionados.</title>
             <title type="titulo_breve">El Cantor de las Hermosas</title>
           </titleStmt>
           <editionStmt>
@@ -30,7 +29,7 @@
           <publicationStmt>
             <publisher>Tipografía Española</publisher>
             <pubPlace ref="https://www.geonames.org/3128760/barcelona.html">Barcelona</pubPlace>
-            <date cert="high">[s.a]</date>
+            <date cert="low" when="1800-01-01">[s.a.]</date>
           </publicationStmt>
         </biblFull>
         <msDesc>
@@ -38,7 +37,8 @@
             <country>Suisse</country>
             <settlement>Genève</settlement>
             <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"/>
-                  </repository>
+            </repository>
+            <collection>Colección Varios</collection>
             <idno type="cote"/>
             <idno type="DOI">10.5281/zenodo.6594927</idno>
             <altIdentifier>
@@ -46,10 +46,21 @@
             </altIdentifier>
           </msIdentifier>
           <msContents>
-            <summary/>
+            <summary>Tres canciones</summary>
             <msItem>
-              <locus/>
-              <title/>
+              <locus>1-2</locus>
+              <title>La muerte</title>
+              <author role="letrista">J. A. C.</author>
+            </msItem>
+            <msItem>
+              <locus>2-3</locus>
+              <title>La Ausencia Poesía</title>
+              <author role="letrista">J. A. C.</author>
+            </msItem>
+            <msItem>
+              <locus>4</locus>
+              <title>La despedida de un trovador</title>
+              <author role="letrista">I. D.</author>
             </msItem>
           </msContents>
           <physDesc>
@@ -67,7 +78,7 @@
               </layoutDesc>
             </objectDesc>
             <decoDesc>
-              <summary n="1">Uno grabado (p.1) </summary>
+              <summary n="1">Un grabado (p.1) </summary>
               <decoNote type="lista_grabados">
                 <list>
                   <item corresp="grabado_v_176_1.xml">grabado_v_176_1</item>
@@ -93,13 +104,13 @@
     <encodingDesc>
       <projectDesc>
         <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
-               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
-               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
-               Sandoz-Monique de Meuron.</p>
+          cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la Universidad
+          de Ginebra, con el apoyo de la Fundación filantrópica Famille Sandoz-Monique de
+          Meuron.</p>
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR non corregido</p>
+          <p>OCR no corregido</p>
         </correction>
         <normalization>
           <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
@@ -124,9 +135,13 @@
     </profileDesc>
     <revisionDesc>
       <change when="2023-04-18" who="#PJ">Création du fichier TEI P5 et encodage du corps du
-            texte</change>
+        texte</change>
+      <change when="2024-01-09" who="#EL">Add the IIIF links</change>
     </revisionDesc>
   </teiHeader>
+  <facsimile>
+    <graphic url="varios/Varios_176_1.jpg/full/200,/0/default.jpg"/>
+  </facsimile>
   <sourceDoc xml:id="automaticTranscription">
     <surface xml:id="Varios_176_1" type="page" cert="silver">
       <graphic url="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_176_1/full/full/0/default.jpg"/>
@@ -791,8 +806,8 @@
       <zone xml:id="Varios_176_4_BT221_8" n="8" type="MarginTextZone" subtype="colophon" points="1489,2269 1673,2265 1638,2347 1555,2350 1454,2346 1489,2363 1340,2407 421,2407 357,2355 166,2355 155,2260 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_176_4/155.0,2260.0,1518.0,147.0/full/0/default" corresp="MarginTextZone:colophon">
         <zone xml:id="Varios_176_4_BT221_8_LT182_1" type="DefaultLine" subtype="none" points="1423,2267 1410,2267 1327,2276 1226,2267 1204,2267 1182,2267 1160,2267 1138,2265 1116,2265 1094,2265 1087,2265 837,2271 813,2271 802,2263 787,2263 765,2263 743,2263 721,2263 719,2263 706,2269 699,2263 677,2263 662,2263 640,2269 638,2269 627,2263 611,2263 590,2263 570,2269 565,2269 563,2269 550,2263 546,2263 524,2263 502,2263 495,2260 478,2267 473,2267 469,2267 429,2260 414,2260 392,2260 390,2260 379,2267 372,2260 370,2260 348,2260 346,2260 337,2265 320,2260 304,2260 282,2260 261,2260 239,2260 230,2260 195,2263 195,2304 193,2315 1640,2333 1645,2322 1642,2282 1585,2269 1583,2269 1581,2269 1579,2269 1566,2280 1563,2282 1467,2282 1462,2280 1438,2267 1423,2267 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_176_4/193.0,2260.0,1452.0,73.0/full/0/default" corresp="DefaultLine">
           <path xml:id="Varios_176_4_BT221_8_LT182_1_1" points="197,2306 1647,2324 "/>
-          <line>Se hallará de venta en casa los sucesores de Antonio Bosch, Bou de la Plaza
-                  Nueva, 13.</line>
+          <line>Se hallará de venta en casa los sucesores de Antonio Bosch, Bou de la Plaza Nueva,
+            13.</line>
         </zone>
         <zone xml:id="Varios_176_4_BT221_8_LT182_2" type="DefaultLine" subtype="none" points="1210,2317 1188,2317 1166,2317 1160,2315 1019,2315 1013,2315 991,2315 969,2315 947,2315 925,2315 912,2313 826,2313 815,2313 794,2313 772,2313 750,2313 728,2313 706,2313 684,2313 664,2311 633,2311 618,2311 596,2311 574,2311 552,2311 530,2311 508,2311 486,2311 464,2311 443,2311 443,2372 440,2407 625,2392 649,2407 655,2412 658,2412 660,2412 811,2414 813,2414 815,2414 818,2414 818,2412 826,2405 835,2396 892,2396 910,2403 934,2414 936,2414 938,2414 940,2414 943,2414 958,2403 973,2394 1017,2394 1037,2401 1059,2409 1061,2409 1230,2416 1232,2416 1234,2416 1278,2396 1283,2396 1405,2396 1408,2379 1405,2320 1212,2317 1210,2317 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_176_4/440.0,2311.0,968.0,105.0/full/0/default" corresp="DefaultLine">
           <path xml:id="Varios_176_4_BT221_8_LT182_2_1" points="443,2372 1408,2379 "/>
@@ -805,31 +820,36 @@
     <body>
       <div>
         <div>
-          <pb n="1" source="Varios_176_1.jpg" facs="fedora_Varios_176_1/full/full/0/default.jpg"/>
-          <fw type="numeroPliego"><lb/>Núm. 8.</fw>
-          <head type="primer_titulo"><lb/>EL<lb/>CANTOR DE LAS HERMOSAS</head>
-          <head type="subtitulo_parte"><lb/>TROVAS DE AMOR DEDICADAS AL BELLO SEXO<lb/>POR UNOS
-                  AFICIONADOS.</head>
-          <div n="1" type="cancion">
+          <pb n="1" source="Varios_176_1.jpg" facs="varios/Varios_176_1.jpg/"/>
+
+          <fw type="impresorNum"><lb/>Núm. 8.</fw>
+
+          <head type="primer_titulo" rend="negrita"><lb/>EL<lb/>CANTOR DE LAS HERMOSAS</head>
+          <head type="subtitulo"><lb/>TROVAS DE AMOR DEDICADAS AL BELLO SEXO<lb/>POR UNOS
+            AFICIONADOS.</head>
+
+          <div n="1">
             <head type="titulo_cancion"><lb/>22 LA MUERTE</head>
+
             <lg>
               <head type="titulo_estrofa">I.</head>
-              <l>¡Llega, Muerte irrevocable,</l>
+              <l rend="indent">¡Llega, Muerte irrevocable,</l>
               <l>A acabar mis desventuras!</l>
               <l>¿Por qué el paso no apresuras?</l>
               <l>¿Por qué, dí, me haces sufrir...?</l>
-            </lg>
-            <lg>
               <l>¿Qué me importa ya este mundo</l>
               <l>Si fatal fué en él mi estrella?</l>
               <l>Muerta ya mi Laura bella,</l>
               <l>Solo anhelo, ¡ay! ¡el morir!</l>
             </lg>
-            <pb n="2" source="Varios_176_2.jpg" facs="fedora_Varios_176_2/full/full/0/default.jpg"/>
+
+            <pb n="2" source="Varios_176_2.jpg" facs="varios/Varios_176_2.jpg/"/>
+
             <fw type="paginaNum">—30—</fw>
+
             <lg>
               <head type="titulo_estrofa">II.</head>
-              <l>Muestra ya tu imágen fea</l>
+              <l rend="indent">Muestra ya tu imágen fea</l>
               <l>Esa frente encapotada,</l>
               <l>Que de adelfas coronada</l>
               <l>Causa al hombre gran terror.</l>
@@ -838,9 +858,10 @@
               <l>Ven ¡oh Parca inexorable!</l>
               <l>Calma pronto mi dolor.</l>
             </lg>
+
             <lg>
               <head type="titulo_estrofa">III.</head>
-              <l>Ven ¡oh! Muerte, y sin tardanza</l>
+              <l rend="indent">Ven ¡oh! Muerte, y sin tardanza</l>
               <l>Tu hoz sangrienta prevenida</l>
               <l>Corte el hilo de mi vida,</l>
               <l>Que el vivir en mí es penar:</l>
@@ -851,102 +872,101 @@
             </lg>
             <p><lb/>—J. A. C.—</p>
           </div>
-          <div n="2" type="cancion">
+
+          <div n="2">
             <head type="titulo_cancion"><lb/>23 LA AUSENCIA</head>
-            <head type="subtitulo_parte"><lb/>POESÍA</head>
-            <lg>
-              <l>¡Ya partió! ¡ya partió! su frente pura</l>
-              <l>¡no miro estastado! Aquella frente</l>
-              <l>Que yo juré adorar eternamente</l>
-              <l>Y al alba competir vi en hermosura.</l>
-              <l>¡Angélica criatura!</l>
-              <l>¿Por qué de mí te alejas? ¡Ah, tù ignoras</l>
-              <l>Cuán tristes trascurrir veo las horas</l>
-              <l>De tus plantas ausente!...</l>
-              <l>Grabada para siempre está en mi mente</l>
-              <l>De tu faz peregrina</l>
-              <l>La imágen que mi espíritu fascina.</l>
-              <l>Tu talle encantador... ese pié breve...</l>
-              <l>Esas manos marmóreas que la nieve,</l>
-            </lg>
-            <lg>
-              <l>Celosa, envidia tiene... esas mejillas</l>
-              <l>De rosas y jazmines</l>
-              <l>Esparcen sin cesar los serafines...</l>
-              <l>Tu cuello alabastrino...</l>
-              <l>Tus dientes de coral... tus lábios rojos...</l>
-              <l>La luz querida de tus bellos ojos...</l>
-              <l>Y esa voz... ese acento que, divino,</l>
-              <l>Al corazon que te ama,</l>
-              <l>Consolador un bálsamo derrama.</l>
-              <l>Todo... todo, mi Elvira, está presente</l>
-              <l>A mi imaginacion, y dulcemente</l>
-              <l>En mi delirio loco</l>
-              <l>Lo miro, acato, reverencio y toco!</l>
-            </lg>
-            <pb n="3" source="Varios_176_3.jpg" facs="fedora_Varios_176_3/full/full/0/default.jpg"/>
+            <head type="subtitulo_cancion"><lb/>POESÍA</head>
+
+            <l>¡Ya partió! ¡ya partió! su frente pura</l>
+            <l>¡no miro estastado! Aquella frente</l>
+            <l>Que yo juré adorar eternamente</l>
+            <l>Y al alba competir vi en hermosura.</l>
+            <l>¡Angélica criatura!</l>
+            <l>¿Por qué de mí te alejas? ¡Ah, tù ignoras</l>
+            <l>Cuán tristes trascurrir veo las horas</l>
+            <l>De tus plantas ausente!...</l>
+            <l>Grabada para siempre está en mi mente</l>
+            <l>De tu faz peregrina</l>
+            <l>La imágen que mi espíritu fascina.</l>
+            <l rend="indent">Tu talle encantador... ese pié breve...</l>
+            <l>Esas manos marmóreas que la nieve,</l>
+            <l>Celosa, envidia tiene... esas mejillas</l>
+            <l>De rosas y jazmines</l>
+            <l>Esparcen sin cesar los serafines...</l>
+            <l>Tu cuello alabastrino...</l>
+            <l>Tus dientes de coral... tus lábios rojos...</l>
+            <l>La luz querida de tus bellos ojos...</l>
+            <l>Y esa voz... ese acento que, divino,</l>
+            <l>Al corazon que te ama,</l>
+            <l>Consolador un bálsamo derrama.</l>
+            <l>Todo... todo, mi Elvira, está presente</l>
+            <l>A mi imaginacion, y dulcemente</l>
+            <l>En mi delirio loco</l>
+            <l>Lo miro, acato, reverencio y toco!</l>
+
+            <pb n="3" source="Varios_176_3.jpg" facs="varios/Varios_176_3.jpg/"/>
             <fw type="paginaNum">—31—</fw>
-            <lg>
-              <l>Mas ¡ay! son ilusiones pasajeras,</l>
-              <l>Cual trémulo vapor que el Océano</l>
-              <l>Rápido cruza y en sus hondas fieras</l>
-              <l>Leve surco dejó, que oculta mano</l>
-              <l>Al instante borrara poderosa:</l>
-              <l>Así se desvanecen</l>
-              <l>De mi débil cerebro esos ensueños</l>
-              <l>Que la dicha me ofrecen</l>
-              <l>Y la llama voraz del pecho acrecen...</l>
-              <l>Y súbito y horrible en un momento</l>
-              <l>Preséntase á mis ojos</l>
-              <l>Un porvenir de espinas y de abrojos:</l>
-              <l>En tan duro tormento</l>
-              <l>Vuelo á tus piés y tu sonrisa amable,</l>
-              <l>Penetrando en mi alma,</l>
-              <l>Vuelve á mi pecho la perdida calma.</l>
-              <l>. . . . . . . . . . . . . .</l>
-              <l>Pero... ya esa sonrisa... la he perdido!</l>
-              <l>Te marchaste, ingrata,</l>
-              <l>Y esta ausencia cruel ¡ay Dios! ¡me mata!</l>
-              <l>¿Cómo á mi corazon, dí, dolorido,</l>
-              <l>Darás dulce consuelo,</l>
-              <l>Si tras de esos ensueños con auhelo</l>
-              <l>En tu sonrisa busco una esperanza?</l>
-              <l>. . . . . . . . . . . . . . . .</l>
-              <l>¡No mas! ¡no mas! mi mente ya no alcanza.</l>
-            </lg>
-            <lg>
-              <l>(Pues me lo niega el cielo)</l>
-              <l>Un medio que mitigue mis pesares:</l>
-              <l>Uno me dió él en tí, su causa propia:</l>
-              <l>Más hoy con esta ausencia dura y fiera</l>
-              <l>En mi pecho pesares mas acopla,</l>
-              <l>Negándome el alivio que me diera!</l>
-            </lg>
-            <lg>
-              <l>¡Oh! en ese fatal día</l>
-              <l>Que abandonaste, ingrata, el fértil suelo</l>
-              <l>Do te juraba amor é idolatría,</l>
-              <l>Al sumirme en amargo desconsuelo</l>
-              <l>Dime, ¿tu corazon nada sentía?</l>
-              <l>Dí ¿no exhaló tu pecho acongojado</l>
-              <l>En tan triste momento</l>
-              <l>Un suspiro de amor, que robó el viento?</l>
-              <l>¡Ah mi querida Elvira! si anegado</l>
-              <l>En llanto por tu ausencia así me vieras,</l>
-              <l>En verdad de mi mal te condolieras.</l>
-              <l>. . . . . . . .. . . . . . .</l>
-              <l>Vuelve por compasion, mi cara Elvira.</l>
-              <l>Y á tus plantas postrado</l>
-              <l>Do solo el corazon libre respira,</l>
-              <l>Te cantaré de amor enajenado:</l>
-              <l>—¡La muerte es separarme de tu lado!</l>
-            </lg>
+
+            <l>Mas ¡ay! son ilusiones pasajeras,</l>
+            <l>Cual trémulo vapor que el Océano</l>
+            <l>Rápido cruza y en sus hondas fieras</l>
+            <l>Leve surco dejó, que oculta mano</l>
+            <l>Al instante borrara poderosa:</l>
+            <l>Así se desvanecen</l>
+            <l>De mi débil cerebro esos ensueños</l>
+            <l>Que la dicha me ofrecen</l>
+            <l>Y la llama voraz del pecho acrecen...</l>
+            <l>Y súbito y horrible en un momento</l>
+            <l>Preséntase á mis ojos</l>
+            <l>Un porvenir de espinas y de abrojos:</l>
+            <l>En tan duro tormento</l>
+            <l>Vuelo á tus piés y tu sonrisa amable,</l>
+            <l>Penetrando en mi alma,</l>
+            <l>Vuelve á mi pecho la perdida calma.</l>
+            <l>. . . . . . . . . . . . . .</l>
+            <l>Pero... ya esa sonrisa... la he perdido!</l>
+            <l>Te marchaste, ingrata,</l>
+            <l>Y esta ausencia cruel ¡ay Dios! ¡me mata!</l>
+            <l>¿Cómo á mi corazon, dí, dolorido,</l>
+            <l>Darás dulce consuelo,</l>
+            <l>Si tras de esos ensueños con auhelo</l>
+            <l>En tu sonrisa busco una esperanza?</l>
+            <l>. . . . . . . . . . . . . . . .</l>
+            <l>¡No mas! ¡no mas! mi mente ya no alcanza.</l>
+            <l>(Pues me lo niega el cielo)</l>
+            <l>Un medio que mitigue mis pesares:</l>
+            <l>Uno me dió él en tí, su causa propia:</l>
+            <l>Más hoy con esta ausencia dura y fiera</l>
+            <l>En mi pecho pesares mas acopla,</l>
+            <l>Negándome el alivio que me diera!</l>
+            <l rend="indent">¡Oh! en ese fatal día</l>
+            <l>Que abandonaste, ingrata, el fértil suelo</l>
+            <l>Do te juraba amor é idolatría,</l>
+            <l>Al sumirme en amargo desconsuelo</l>
+            <l>Dime, ¿tu corazon nada sentía?</l>
+            <l>Dí ¿no exhaló tu pecho acongojado</l>
+            <l>En tan triste momento</l>
+            <l>Un suspiro de amor, que robó el viento?</l>
+            <l>¡Ah mi querida Elvira! si anegado</l>
+            <l>En llanto por tu ausencia así me vieras,</l>
+            <l>En verdad de mi mal te condolieras.</l>
+            <l>. . . . . . . .. . . . . . .</l>
+            <l rend="indent">Vuelve por compasion, mi cara Elvira.</l>
+            <l>Y á tus plantas postrado</l>
+            <l>Do solo el corazon libre respira,</l>
+            <l>Te cantaré de amor enajenado:</l>
+            <l rend="cursiva">—¡La muerte es separarme de tu lado!</l>
+
             <p><lb/>—J. A. C.—</p>
           </div>
-          <pb n="4" source="Varios_176_4.jpg" facs="fedora_Varios_176_4/full/full/0/default.jpg"/>
-          <fw type="paginaNum">—32</fw>
-          <div n="3" type="cancion">
+
+          <div n="3">
+            <pb n="4" source="Varios_176_4.jpg" facs="varios/Varios_176_4.jpg/"/>
+            
+            <fw type="paginaNum">—32</fw>
+            
             <head type="titulo_cancion"><lb/>24 LA DESPEDIDA<lb/>DE UN TROVADOR</head>
+            
             <lg>
               <head type="titulo_estrofa">I.</head>
               <l>Al acercarse ¡ay! el cruel momento</l>
@@ -994,11 +1014,13 @@
             <p><lb/>I. D.</p>
           </div>
         </div>
-        <div type="colofón_vendedor">
-          <p><lb/>Se hallará de venta en casa los sucesores de Antonio Bosch, Bou de la Plaza
-                  Nueva, 13.</p>
+        
+        <div type="colofon_vendedor">
+          <p><lb/><hi rend="cursiva">Se hallará de venta en casa los sucesores de Antonio Bosch, Bou de la Plaza
+            Nueva,</hi> 13.</p>
         </div>
-        <div type="colofon_impresora">
+        
+        <div type="colofon_impresor">
           <p><lb/>Barcelona.—Tipografía Española, calle del Hospital, núm. 87.</p>
         </div>
       </div>

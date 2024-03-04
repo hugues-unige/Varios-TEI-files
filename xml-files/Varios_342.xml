@@ -28,9 +28,9 @@
             <p/>
           </editionStmt>
           <publicationStmt>
-            <publisher>Impta. de D. J. Marés</publisher>
+            <publisher>José María Marés</publisher>
             <pubPlace ref="https://www.geonames.org/3117735/madrid.html">Madrid</pubPlace>
-            <date cert="high">1851</date>
+            <date cert="high" when="1851-01-01">1851</date>
           </publicationStmt>
         </biblFull>
         <msDesc>
@@ -39,6 +39,7 @@
             <settlement>Genève</settlement>
             <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"/>
                                     </repository>
+            <collection>Colección Varios</collection>
             <idno type="cote"/>
             <idno type="DOI">10.5281/zenodo.6772827</idno>
             <altIdentifier>
@@ -67,7 +68,7 @@
               </layoutDesc>
             </objectDesc>
             <decoDesc>
-              <summary n="1">Uno grabado (p.1) </summary>
+              <summary n="1">Un grabado (p.1) </summary>
               <decoNote type="lista_grabados">
                 <list>
                   <item corresp="grabado_v_342_1.xml">grabado_v_342_1</item>
@@ -95,7 +96,7 @@
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR non corregido</p>
+          <p>OCR no corregido</p>
         </correction>
         <normalization>
           <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto
@@ -123,9 +124,10 @@
     <revisionDesc>
       <change when="2023-11-21" who="#PJ">Création du fichier TEI P5 et encodage du
                         corps du texte</change>
+<change when="2024-01-09" who="#EL">Add the IIIF links</change>
     </revisionDesc>
   </teiHeader>
-  <sourceDoc xml:id="automaticTranscription">
+  <facsimile><graphic url="varios/Varios_342_1.jpg/full/200,/0/default.jpg"/></facsimile><sourceDoc xml:id="automaticTranscription">
     <surface xml:id="Varios_342_1" type="page" cert="silver">
       <graphic url="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_342_1/full/full/0/default.jpg"/>
       <zone xml:id="Varios_342_1_BT223_1" n="1" type="CustomZone" subtype="title" points="1412,1092 1412,1331 256,1331 256,1092 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_342_1/256,1092,1156,239/full/0/default" corresp="CustomZone:title">
@@ -893,7 +895,7 @@
       </zone>
       <zone xml:id="Varios_342_3_BT227_5" n="5" type="MainZone" subtype="columns" points="77,1475 661,1475 661,2367 77,2367 77,1475 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_342_3/77,1475,584,892/full/0/default" corresp="MainZone:columns">
         <zone xml:id="Varios_342_3_BT227_5__1" type="DefaultLine" subtype="none" points="607,1475 587,1475 566,1475 545,1475 525,1475 504,1475 483,1475 463,1475 442,1475 421,1475 401,1475 380,1475 359,1475 339,1475 318,1475 297,1475 277,1475 256,1475 235,1475 214,1475 194,1475 173,1475 152,1475 152,1510 152,1531 616,1531 616,1510 616,1475 607,1475 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_342_3/152,1475,464,56/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_342_3_BT227_5__1_1" points="155,1512 617,1512 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
+          <path xml:id="Varios_342_3_BT227_5__1_1" points="155,1512 617,1512 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
           <line>Beben los mas principales</line>
         </zone>
         <zone xml:id="Varios_342_3_BT227_5_LT83_2" type="DefaultLine" subtype="none" points="104,1541 104,1507 137,1507 139,1508 152,1519 221,1519 235,1510 238,1507 243,1507 265,1518 300,1518 311,1510 314,1507 319,1507 329,1510 352,1518 384,1511 402,1507 406,1507 412,1511 425,1519 491,1519 491,1565 457,1565 456,1563 454,1563 425,1555 413,1563 409,1563 323,1556 226,1563 224,1563 151,1555 129,1563 125,1563 103,1552 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_342_3/103,1507,388,58/full/0/default" corresp="DefaultLine">
@@ -1382,7 +1384,7 @@
   <text>
     <body>
       <div>
-        <pb n="1" source="Varios_342_1.jpg" facs="fedora_Varios_342_1/full/full/0/default.jpg"/>
+        <pb n="1" source="Varios_342_1.jpg" facs="varios/Varios_342_1.jpg/"/>
         <div type="parte" n="1">
           <head type="primer_titulo"><lb/>GLOSAS CHISTOSAS</head>
           <head type="subtitulo_parte"><lb/>PARA DIVERTIRSE LOS MOZOS CON
@@ -1441,7 +1443,7 @@
             <l>y luego para acostarme</l>
             <l rend="cursiva">hago de vino un colchon.</l>
           </lg>
-          <pb n="2" source="Varios_342_2.jpg" facs="fedora_Varios_342_2/full/full/0/default.jpg"/>
+          <pb n="2" source="Varios_342_2.jpg" facs="varios/Varios_342_2.jpg/"/>
           <lg rend="cursiva">
             <l>La brisca de tu fineza</l>
             <l>contigo quiero jugar,</l>
@@ -1550,7 +1552,7 @@
             <l>quién és quien preso me tiene</l>
             <l rend="cursiva">en lo mejor de mi edad?</l>
           </lg>
-          <pb n="3" source="Varios_342_3.jpg" facs="fedora_Varios_342_3/full/full/0/default.jpg"/>
+          <pb n="3" source="Varios_342_3.jpg" facs="varios/Varios_342_3.jpg/"/>
           <lg rend="cursiva">
             <l>Las mozuelas de hoy en dia,</l>
             <l>me dicen que soy tunante,</l>
@@ -1656,7 +1658,7 @@
             <l rend="cursiva">lo beben los mas decentes.</l>
           </lg>
         </div>
-        <pb n="4" source="Varios_342_4.jpg" facs="fedora_Varios_342_4/full/full/0/default.jpg"/>
+        <pb n="4" source="Varios_342_4.jpg" facs="varios/Varios_342_4.jpg/"/>
         <div type="parte" n="2">
           <head type="titulo_parte"><lb/>TROVOS NUEVOS,</head>
           <head type="subtitulo_parte"><lb/>ALEGRES Y DIVERTIDOS PARA CANTAR LOS AFICIONADOS.</head>

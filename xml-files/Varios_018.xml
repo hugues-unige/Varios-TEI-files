@@ -1,18 +1,17 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../Schema/oddPliego_varios.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:alto="http://www.loc.gov/standards/alto/ns-v4#" xml:id="Varios_018">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Varios_018">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>LA MITJA</title>
+        <title>La mitja</title>
         <respStmt>
           <name/>
           <resp>Codificación TEI</resp>
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <authority role="rightsHolder">Bibliothèque Universitaire de
-                              Genève</authority>
+        <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
         <availability status="restricted">
           <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
         </availability>
@@ -20,7 +19,7 @@
       <sourceDesc>
         <biblFull>
           <titleStmt>
-            <title type="titulo_completo">LA MITJA</title>
+            <title type="titulo_completo">La mitja</title>
             <title type="titulo_breve"/>
           </titleStmt>
           <editionStmt>
@@ -29,7 +28,7 @@
           <publicationStmt>
             <publisher>El Abanico</publisher>
             <pubPlace ref="https://www.geonames.org/3128760/barcelona.html">Barcelona</pubPlace>
-            <date>[s.a]</date>
+            <date cert="low" when="1800-01-01">[s.a.]</date>
           </publicationStmt>
         </biblFull>
         <msDesc>
@@ -37,7 +36,8 @@
             <country>Suisse</country>
             <settlement>Genève</settlement>
             <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"/>
-                                    </repository>
+            </repository>
+            <collection>Colección Varios</collection>
             <idno type="cote"/>
             <idno type="DOI">10.5281/zenodo.6536256</idno>
             <altIdentifier>
@@ -45,10 +45,22 @@
             </altIdentifier>
           </msIdentifier>
           <msContents>
-            <summary/>
+            <summary>Cuatro canciones</summary>
             <msItem>
-              <locus/>
-              <title/>
+              <locus>1-2</locus>
+              <title>La Mitja</title>
+            </msItem>
+            <msItem>
+              <locus>2</locus>
+              <title>Americana Boulanger</title>
+            </msItem>
+            <msItem>
+              <locus>3</locus>
+              <title>La Marcha de Cádiz. Gavota de los Patos.</title>
+            </msItem>
+            <msItem>
+              <locus>4</locus>
+              <title>La nit de San Joan</title>
             </msItem>
           </msContents>
           <physDesc>
@@ -88,18 +100,17 @@
     </fileDesc>
     <encodingDesc>
       <projectDesc>
-        <p>Este archivo fue creado en el marco del proyecto Desenrollando el
-                              Cordel/Démêler le cordel/Untangling the cordel, dirigido por la
-                              profesora Constance Carta de la Universidad de Ginebra, con el apoyo
-                              de la Fundación filantrópica Famille Sandoz-Monique de Meuron.</p>
+        <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+          cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la Universidad
+          de Ginebra, con el apoyo de la Fundación filantrópica Famille Sandoz-Monique de
+          Meuron.</p>
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR non corregido</p>
+          <p>OCR corregido</p>
         </correction>
         <normalization>
-          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto
-                                    original.</p>
+          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
         </normalization>
         <punctuation>
           <p>Se conserva la puntuación original.</p>
@@ -109,6 +120,7 @@
     <profileDesc>
       <langUsage>
         <language ident="es">Español</language>
+        <language ident="ca">Catalán</language>
       </langUsage>
       <textClass>
         <keywords xml:base="http://datos.bne.es/tema/">
@@ -120,11 +132,12 @@
       </textClass>
     </profileDesc>
     <revisionDesc>
-      <change when="2022-05-04" who="#PJ">Création du fichier TEI P5 et encodage du
-                        corps du texte</change>
+      <change when="2022-05-04" who="#PJ">Création du fichier TEI P5 et encodage du corps du
+        texte</change>
+<change when="2024-01-09" who="#EL">Add the IIIF links</change>
     </revisionDesc>
   </teiHeader>
-  <sourceDoc xml:id="automaticTranscription">
+  <facsimile><graphic url="varios/Varios_018_1.jpg/full/200,/0/default.jpg"/></facsimile><sourceDoc xml:id="automaticTranscription">
     <surface xml:id="Varios_018_1" type="page" cert="silver">
       <graphic url="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_018_1/full/full/0/default.jpg"/>
       <zone xml:id="Varios_018_1_BT223_1" n="1" type="CustomZone" subtype="title" points="1585,1060 1638,1207 1550,1277 1454,1286 394,1294 280,1277 201,1215 228,1086 333,1042 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_018_1/201,1042,1437,252/full/0/default" corresp="CustomZone:title">
@@ -1158,120 +1171,198 @@
   <text>
     <body>
       <div>
-        <div n="1" type="parte">
-          <pb n="1" source="Varios_018_1.jpg" facs="fedora_Varios_018_1/full/full/0/default.jpg"/>
+        <div n="1">
+          <pb n="1" source="Varios_018_1.jpg" facs="varios/Varios_018_1.jpg/"/>
+
           <head type="primer_titulo"><lb/>LA MITJA</head>
-          <lg>
-            <l>I</l>
-            <l>De las prendas mes hermosas</l>
-            <l>y que al mon agradin mes</l>
-            <l>no ni ha cap com la mitja</l>
-            <l>que tingui tants trapasés.</l>
-            <l>La noya que sap portarla</l>
-            <l>sense arrugas ni forats</l>
-            <l>no cal di que al seu darrera</l>
-            <l>hi van mols espatarrats.</l>
-            <l>La mi ja sempre</l>
-            <l>diu sense embuts</l>
-            <l>si 'ls que la duhen</l>
-            <l>son nets ó bruts.</l>
-            <l>Y fins la nena</l>
-            <l>que desmereix</l>
-            <l>també la mitja</l>
-            <l>la descubreix.</l>
-            <l>Ella tapa tous de carn</l>
-            <l>canyetas y flaviols,</l>
-            <l>disimula moltas faltas</l>
-            <l>y encaparra mols musols.</l>
-            <l>Per mes que 'n sigui la cama</l>
-            <l>blanca com un glop de llet,</l>
-            <l>si la mitja no la tapa</l>
-            <l>es lo trasto mes mal fet.</l>
-            <l>La pobra noyeta</l>
-            <l>que 's lletja de baix</l>
-            <l>si va sense mitjas</l>
-            <l>may fará calaix.</l>
-            <l>Y si per desgracia</l>
-            <l>y la porta á garró</l>
-            <l>á fe de Calisto</l>
-            <l>tampoch fá senyó</l>
+
+          <lg n="1">
+            <head type="titulo_estrofa">I</head>
+
+            <lg>
+              <l rend="indent">De las prendas mes hermosas</l>
+              <l>y que al mon agradin mes</l>
+              <l>no ni ha cap com la mitja</l>
+              <l>que tingui tants trapasés.</l>
+            </lg>
+
+            <lg>
+              <l rend="indent">La noya que sap portarla</l>
+              <l>sense arrugas ni forats</l>
+              <l>no cal di que al seu darrera</l>
+              <l>hi van mols espatarrats.</l>
+            </lg>
+
+            <lg>
+              <l rend="indent">La mi ja sempre</l>
+              <l>diu sense embuts</l>
+              <l>si 'ls que la duhen</l>
+              <l>son nets ó bruts.</l>
+            </lg>
+
+            <lg>
+              <l rend="indent">Y fins la nena</l>
+              <l>que desmereix</l>
+              <l>també la mitja</l>
+              <l>la descubreix.</l>
+            </lg>
+
+            <lg>
+              <l rend="indent">Ella tapa tous de carn</l>
+              <l>canyetas y flaviols,</l>
+              <l>disimula moltas faltas</l>
+              <l>y encaparra mols musols.</l>
+            </lg>
+
+            <lg>
+              <l rend="indent">Per mes que 'n sigui la cama</l>
+              <l>blanca com un glop de llet,</l>
+              <l>si la mitja no la tapa</l>
+              <l>es lo trasto mes mal fet.</l>
+            </lg>
+
+            <lg>
+              <l rend="indent">La pobra noyeta</l>
+              <l>que 's lletja de baix</l>
+              <l>si va sense mitjas</l>
+              <l>may fará calaix.</l>
+            </lg>
+
+            <lg>
+              <l rend="indent">Y si per desgracia</l>
+              <l>y la porta á garró</l>
+              <l>á fe de Calisto</l>
+              <l>tampoch fá senyó</l>
+            </lg>
           </lg>
-          <lg>
-            <l>II</l>
-            <l>Tothom sap que de la mitja</l>
-            <l>ha sortit 'l gran estil</l>
-            <l>de portarla moltas noyas</l>
-            <l>que 'ls cubreix el pernil.</l>
-            <l>Per fe goig ó aná á la moda</l>
-            <l>' hi fan tapá algún junoll</l>
-            <l>y potsé fins hi ha dena</l>
-            <l>que la du lligada 'l coll.</l>
-            <pb n="2" source="Varios_018_2.jpg" facs="fedora_Varios_018_2/full/full/0/default.jpg"/>
-            <l>Fent aquest moble</l>
-            <l>tant de servey</l>
-            <l>n' hi ha abundancia</l>
-            <l>de tota lley,</l>
-            <l>Qui la du blanca</l>
-            <l>qui de coló</l>
-            <l>de llana ó seda</l>
-            <l>fil ó cotó.</l>
-            <l>Lluhint avuy las pantorrillas</l>
-            <l>qualsevol noya ho pot fe,</l>
-            <l>fins portarne de postissas</l>
-            <l>la pobreta que no 'n té.</l>
-            <l>Y ab tan goig que fan las camas</l>
-            <l>que tapan aquets drapets,</l>
-            <l>potsé cria alguna d' ellas</l>
-            <l>coll, petxinas ó barretets.</l>
-            <l>Per aixó la mitja</l>
-            <l>te mérits tants,</l>
-            <l>perque ella tanca</l>
-            <l>secrets molt grans.</l>
-            <l>Sigui 'l qu' atrapa</l>
-            <l>pelut ó roig</l>
-            <l>ab la mitjeta</l>
-            <l>sempre fá goig.</l>
+
+          <lg n="2">
+            <head type="titulo_estrofa">II</head>
+
+            <lg>
+              <l rend="indent">Tothom sap que de la mitja</l>
+              <l>ha sortit 'l gran estil</l>
+              <l>de portarla moltas noyas</l>
+              <l>que 'ls cubreix el pernil.</l>
+            </lg>
+
+            <lg>
+              <l rend="indent">Per fe goig ó aná á la moda</l>
+              <l>' hi fan tapá algún junoll</l>
+              <l>y potsé fins hi ha dena</l>
+              <l>que la du lligada 'l coll.</l>
+            </lg>
+
+            <pb n="2" source="Varios_018_2.jpg" facs="varios/Varios_018_2.jpg/"/>
+
+            <lg>
+              <l rend="indent">Fent aquest moble</l>
+              <l>tant de servey</l>
+              <l>n' hi ha abundancia</l>
+              <l>de tota lley,</l>
+            </lg>
+
+            <lg>
+              <l rend="indent">Qui la du blanca</l>
+              <l>qui de coló</l>
+              <l>de llana ó seda</l>
+              <l>fil ó cotó.</l>
+            </lg>
+
+            <lg>
+              <l rend="indent">Lluhint avuy las pantorrillas</l>
+              <l>qualsevol noya ho pot fe,</l>
+              <l>fins portarne de postissas</l>
+              <l>la pobreta que no 'n té.</l>
+            </lg>
+
+            <lg>
+              <l rend="indent">Y ab tan goig que fan las camas</l>
+              <l>que tapan aquets drapets,</l>
+              <l>potsé cria alguna d' ellas</l>
+              <l>coll, petxinas ó barretets.</l>
+            </lg>
+
+            <lg>
+              <l rend="indent">Per aixó la mitja</l>
+              <l>te mérits tants,</l>
+              <l>perque ella tanca</l>
+              <l>secrets molt grans.</l>
+            </lg>
+
+            <lg>
+              <l rend="indent">Sigui 'l qu' atrapa</l>
+              <l>pelut ó roig</l>
+              <l>ab la mitjeta</l>
+              <l>sempre fá goig.</l>
+            </lg>
           </lg>
-          <lg>
-            <l>III</l>
-            <l>Quan se veuhen de la mitja</l>
-            <l>y los efectes qu' ella fá</l>
-            <l>es quan plou, perque las noyas</l>
-            <l>lo vestit se 'n de aixecá.</l>
-            <l>Per fer veure la mitjeta</l>
-            <l>ni ha moltas qu' ab excés,</l>
-            <l>ensenyan las pantorrillas</l>
-            <l>y á vegadas quel com més.</l>
-            <l>Y si alguna</l>
-            <l>hi du garrons</l>
-            <l>tothom per porca</l>
-            <l>Y hi mou rahons:</l>
-            <l>Y la qu' es neta</l>
-            <l>y te bon tou</l>
-            <l>reb mil requiebros</l>
-            <l> sempre que plou.</l>
-            <l>Hi ha dona tant deixada</l>
-            <l>que la mitja ja li diu)</l>
-            <l>si está blanca palpisos</l>
-            <l>é las pusas li fan niu.</l>
-            <l>Y la que 's neta de mena</l>
-            <l>á la cama ho porta escrit,</l>
-            <l>du la mitja curiosa</l>
-            <l>sense cap taca ni surgit.</l>
-            <l>Tots aquets defectes</l>
-            <l>y grans cualitats,</l>
-            <l>son de las mimbadas,</l>
-            <l>punts plans y girats.</l>
-            <l>Y ans qu' alguna nena</l>
-            <l>ns mogui rahons,</l>
-            <l>acabém la mitja</l>
-            <l>y estiguin tots bons.</l>
+
+          <lg n="3">
+            <head type="titulo_estrofa">III</head>
+
+            <lg>
+              <l rend="indent">Quan se veuhen de la mitja</l>
+              <l>y los efectes qu' ella fá</l>
+              <l>es quan plou, perque las noyas</l>
+              <l>lo vestit se 'n de aixecá.</l>
+            </lg>
+
+            <lg>
+              <l rend="indent">Per fer veure la mitjeta</l>
+              <l>ni ha moltas qu' ab excés,</l>
+              <l>ensenyan las pantorrillas</l>
+              <l>y á vegadas quel com més.</l>
+            </lg>
+
+            <lg>
+              <l rend="indent">Y si alguna</l>
+              <l>hi du garrons</l>
+              <l>tothom per porca</l>
+              <l>Y hi mou rahons:</l>
+            </lg>
+
+            <lg>
+              <l rend="indent">Y la qu' es neta</l>
+              <l>y te bon tou</l>
+              <l>reb mil requiebros</l>
+              <l> sempre que plou.</l>
+            </lg>
+
+            <lg>
+              <l rend="indent">Hi ha dona tant deixada</l>
+              <l>que la mitja ja li diu)</l>
+              <l>si está blanca palpisos</l>
+              <l>é las pusas li fan niu.</l>
+            </lg>
+
+            <lg>
+              <l rend="indent">Y la que 's neta de mena</l>
+              <l>á la cama ho porta escrit,</l>
+              <l>du la mitja curiosa</l>
+              <l>sense cap taca ni surgit.</l>
+            </lg>
+
+            <lg>
+              <l rend="indent">Tots aquets defectes</l>
+              <l>y grans cualitats,</l>
+              <l>son de las mimbadas,</l>
+              <l>punts plans y girats.</l>
+            </lg>
+
+            <lg>
+              <l rend="indent">Y ans qu' alguna nena</l>
+              <l>ns mogui rahons,</l>
+              <l>acabém la mitja</l>
+              <l>y estiguin tots bons.</l>
+            </lg>
           </lg>
         </div>
-        <div n="2" type="parte">
-          <head type="titulo_parte"><lb/>Americana Boulanger</head>
-          <lg>
-            <l>Para adorar mi amor</l>
+
+        <div n="2">
+          <head type="primer_titulo" rend="negrita"><lb/>Americana Boulanger</head>
+          
+            <l rend="indent">Para adorar mi amor</l>
             <l>me metí en un cementerio</l>
             <l>y al llegar en el medio</l>
             <l>el silencio me respondía,</l>
@@ -1284,8 +1375,6 @@
             <l>que al mirarla me causaba furor,</l>
             <l>bien salía la luna</l>
             <l>sin dar claror á la tumba</l>
-          </lg>
-          <lg>
             <l>se oyó una voz profunda</l>
             <l>debajo al pie de la Cruz.</l>
             <l>Por segunda vez me metí</l>
@@ -1298,12 +1387,13 @@
             <l>yo de paso en paso me acerqué</l>
             <l>diciendo: amor mío, quiero morir,</l>
             <l>soy tu amante Boulanger.</l>
-          </lg>
         </div>
-        <div n="3" type="parte">
-          <pb n="3" source="Varios_018_3.jpg" facs="fedora_Varios_018_3/full/full/0/default.jpg"/>
-          <head type="titulo_parte"><lb/>LA MARCHA DE CÁDIZ<lb/>GAVOTA DE LOS PATOS</head>
-          <lg>
+        
+        <div n="3">
+          <pb n="3" source="Varios_018_3.jpg" facs="varios/Varios_018_3.jpg/"/>
+          
+          <head type="primer_titulo" rend="negrita"><lb/>LA MARCHA DE CÁDIZ<lb/>GAVOTA DE LOS PATOS</head>
+          
             <l>— Yo soy el pato — Yo soy la pata</l>
             <l>que en el estanque suelen nadar.</l>
             <l>— Ven acá ingrato! — Ven acá ingrata!</l>
@@ -1317,9 +1407,8 @@
             <l>mira que te quiero no ahueques el alal</l>
             <l>—No quiero mirarte, dejame ya sola</l>
             <l>porque ningún pato se arrima á mi cola.</l>
-            <l>— Reina del estanque voy á hacer</l>
+            <l>— Reina del estanque voy á hacer <add place="debajo">(que seas.</add></l>
             <l>—Es usted un bicho con malas ideas.</l>
-            <l>(que seas.</l>
             <l>—Si me quieres, haces mi felicidad.</l>
             <l>—Ya me va cargando tu patosidad.</l>
             <l>— Yo soy el pato— Yo soy la pata</l>
@@ -1337,9 +1426,8 @@
             <l>«Yo me pongo mala, yo me voy de aquí.</l>
             <l>— Al mirar tu garbo y gentileza</l>
             <l>ya toda la sangre tengo en la cabeza.</l>
-            <l>— Yo soy muy dichosa siempre que</l>
+            <l>— Yo soy muy dichosa siempre que <add place="debajo">(te veo</add></l>
             <l>no me aprietes tanto que me mareo.</l>
-            <l>qe veo</l>
             <l>— Siempre te miro como eres divina</l>
             <l>ay! que se me pone carne de gallinal</l>
             <l>— No me digas eso no seas pillín</l>
@@ -1348,23 +1436,22 @@
             <l>« Mueve mueve el cuerpecito,</l>
             <l>porque me haces muy feliz,</l>
             <l>Ca-ra-cua-cua-cua, ca ra-cua-cua-cua.</l>
-            <l>—Déjame mi Teodorico que esto va</l>
+            <l>—Déjame mi Teodorico que esto va <add place="debajo">(á ser un desliz.</add></l>
             <l>Ca ra cua cua cua, ca ra cua cua cua.</l>
-            <l>(á ser un desliz.</l>
-            <l>e Déjame mi Teodorico que esto va</l>
+            <l>e Déjame mi Teodorico que esto va <add place="debajo">(á ser un desliz.</add></l>
             <l>— Muéveme, muéveme el cuerpecito</l>
-            <l>(á ser un desliz.</l>
             <l>porque me haces muy feliz.</l>
-            <l>— Ay! — ¿Qué te pasa? — Que mi</l>
-            <l>(padre va á venir.</l>
-          </lg>
+            <l>— Ay! — ¿Qué te pasa? — Que mi <add place="debajo">(padre va á venir.</add></l>
         </div>
-        <div n="4" type="parte">
-          <pb n="4" source="Varios_018_4.jpg" facs="fedora_Varios_018_4/full/full/0/default.jpg"/>
-          <head type="titulo_parte"><lb/>La nit de Sant Joan</head>
+        
+        <div n="4">
+          <pb n="4" source="Varios_018_4.jpg" facs="varios/Varios_018_4.jpg/"/>
+          
+          <head type="primer_titulo"><lb/>La nit de Sant Joan</head>
+          
           <lg>
-            <l>I</l>
-            <l>Vuit dias avans de s. Joan</l>
+            <head type="titulo_estrofa">I</head>
+            <l rend="indent">Vuit dias avans de s. Joan</l>
             <l>van pels pisos la canalla,</l>
             <l>recullint trastos podrits,</l>
             <l>cañas y brasats de palla</l>
@@ -1373,9 +1460,10 @@
             <l>que aburrits de tantas chinchas</l>
             <l>fan cremar los traspontins.</l>
           </lg>
+          
           <lg>
-            <l>2</l>
-            <l>Arriban fins al ters pis</l>
+            <head type="titulo_estrofa">2</head>
+            <l rend="indent">Arriban fins al ters pis</l>
             <l>los fochs que fan al ensanche</l>
             <l>y el que vol surtir al balcó</l>
             <l>li sucarriman la pancha;</l>
@@ -1384,9 +1472,10 @@
             <l>de perfums, olors y aromas</l>
             <l>a' escarbats ab aiguardent.</l>
           </lg>
+          
           <lg>
-            <l>3</l>
-            <l>Los xicots de un á un</l>
+            <head type="titulo_estrofa">3</head>
+            <l rend="indent">Los xicots de un á un</l>
             <l>los fochs saltan com granotas</l>
             <l>y veuréu de tant en tant.</l>
             <l>com al mitj cauhen de potas;</l>
@@ -1395,9 +1484,10 @@
             <l>al pobre que l'arreplega</l>
             <l>li fa un ull de vellut.</l>
           </lg>
+          
           <lg>
-            <l>4</l>
-            <l>Quan los fochs son apagats</l>
+            <head type="titulo_estrofa">4</head>
+            <l rend="indent">Quan los fochs son apagats</l>
             <l>las doncellas més mesuras</l>
             <l>al punt de la mitja nit</l>
             <l>fan trenta mil probaturas;</l>
@@ -1406,9 +1496,10 @@
             <l>y veuhen l' home en camisa</l>
             <l>que ha de ser lo seu marit.</l>
           </lg>
+          
           <lg>
-            <l>5</l>
-            <l>Els pares qu' entre 'ls seus fills</l>
+            <head type="titulo_estrofa">5</head>
+            <l rend="indent">Els pares qu' entre 'ls seus fills</l>
             <l>un ne tenen de trencat</l>
             <l>per curarlo desseguida</l>
             <l>buscan un roure esbarlat,</l>
@@ -1417,9 +1508,10 @@
             <l>lo passan per dins lo roure</l>
             <l>y mort d' un encostipat</l>
           </lg>
+          
           <lg>
-            <l>6</l>
-            <l>Ni han que tiran tres fabas</l>
+            <head type="titulo_estrofa">6</head>
+            <l rend="indent">Ni han que tiran tres fabas</l>
             <l>á las foscas sota 'l llit</l>
             <l>y luego en cullan una</l>
             <l>á las dotse de la nit;:</l>
@@ -1428,9 +1520,10 @@
             <l>més si per cás es peluda,</l>
             <l>seréu més rich que 'n Xifré.</l>
           </lg>
+          
           <lg>
-            <l>7</l>
-            <l>Sol portar mals resultats,</l>
+            <head type="titulo_estrofa">7</head>
+            <l rend="indent">Sol portar mals resultats,</l>
             <l>la desdichada verbena</l>
             <l>si una dona per mal cap</l>
             <l>l' home li toca l' esquena;</l>
@@ -1440,6 +1533,7 @@
             <l>las hortas de Sant Bertrán.</l>
           </lg>
         </div>
+        
         <div type="colofon">
           <p><lb/>Imps. Hospital, 19 «El Abanico».</p>
         </div>

@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../Schema/oddPliego_varios.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:alto="http://www.loc.gov/standards/alto/ns-v4#" xml:id="Varios_181">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Varios_181">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -11,8 +11,7 @@
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <authority role="rightsHolder">Bibliothèque Universitaire de
-                              Genève</authority>
+        <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
         <availability status="restricted">
           <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
         </availability>
@@ -20,18 +19,17 @@
       <sourceDesc>
         <biblFull>
           <titleStmt>
-            <title type="titulo_completo">Carmencita</title>
-            <title type="titulo_breve">Carmencita. Brutal crimen y
-                                          Violación de una niña de 9 años, en<lb/>S. Vicente
-                                          pueblo de la provincia de Alicante</title>
+            <title type="titulo_breve">Carmencita</title>
+            <title type="titulo_completo">Carmencita. Brutal crimen y Violación de una niña de 9
+              años, en S. Vicente pueblo de la provincia de Alicante</title>
           </titleStmt>
           <editionStmt>
             <p/>
           </editionStmt>
           <publicationStmt>
-            <publisher/>
+            <publisher>Talleres Gráficos</publisher>
             <pubPlace ref="https://www.geonames.org/3128760/barcelona.html">Barcelona</pubPlace>
-            <date cert="high">[s.a]</date>
+            <date cert="low" when="1800-01-01">[s.a.]</date>
           </publicationStmt>
         </biblFull>
         <msDesc>
@@ -39,7 +37,8 @@
             <country>Suisse</country>
             <settlement>Genève</settlement>
             <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"/>
-                                    </repository>
+            </repository>
+            <collection>Colección Varios</collection>
             <idno type="cote"/>
             <idno type="DOI">10.5281/zenodo.6594971</idno>
             <altIdentifier>
@@ -47,10 +46,15 @@
             </altIdentifier>
           </msIdentifier>
           <msContents>
-            <summary/>
+            <summary>Romance y canción</summary>
             <msItem>
-              <locus/>
-              <title/>
+              <locus>1-3</locus>
+              <title>Carmencita. Brutal crimen y Violación de una niña de 9 años, en S. Vicente
+                pueblo de la provincia de Alicante</title>
+            </msItem>
+            <msItem>
+              <locus>4</locus>
+              <title>Las mujeres que se quedan para vestir santos</title>
             </msItem>
           </msContents>
           <physDesc>
@@ -68,7 +72,7 @@
               </layoutDesc>
             </objectDesc>
             <decoDesc>
-              <summary n="1">Uno grabado (p.1) </summary>
+              <summary n="1">Un grabado (p.1) </summary>
               <decoNote type="lista_grabados">
                 <list>
                   <item corresp="grabado_v_181_1.xml">grabado_v_181_1</item>
@@ -89,18 +93,17 @@
     </fileDesc>
     <encodingDesc>
       <projectDesc>
-        <p>Este archivo fue creado en el marco del proyecto Desenrollando el
-                              Cordel/Démêler le cordel/Untangling the cordel, dirigido por la
-                              profesora Constance Carta de la Universidad de Ginebra, con el apoyo
-                              de la Fundación filantrópica Famille Sandoz-Monique de Meuron.</p>
+        <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+          cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la Universidad
+          de Ginebra, con el apoyo de la Fundación filantrópica Famille Sandoz-Monique de
+          Meuron.</p>
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR non corregido</p>
+          <p>OCR no corregido</p>
         </correction>
         <normalization>
-          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto
-                                    original.</p>
+          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
         </normalization>
         <punctuation>
           <p>Se conserva la puntuación original.</p>
@@ -122,10 +125,14 @@
       </textClass>
     </profileDesc>
     <revisionDesc>
-      <change when="2023-04-26" who="#PJ">Création du fichier TEI P5 et encodage du
-                        corps du texte</change>
+      <change when="2023-04-26" who="#PJ">Création du fichier TEI P5 et encodage du corps du
+        texte</change>
+      <change when="2024-01-09" who="#EL">Add the IIIF links</change>
     </revisionDesc>
   </teiHeader>
+  <facsimile>
+    <graphic url="varios/Varios_181_1.jpg/full/200,/0/default.jpg"/>
+  </facsimile>
   <sourceDoc xml:id="automaticTranscription">
     <surface xml:id="Varios_181_1" type="page" cert="silver">
       <graphic url="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_181_1/full/full/0/default.jpg"/>
@@ -1226,213 +1233,217 @@
   <text>
     <body>
       <div>
-        <pb n="1" source="Varios_181_1.jpg" facs="fedora_Varios_181_1/full/full/0/default.jpg"/>
-        <div type="parte" n="1">
-          <head type="primer_titulo"><lb/>CARMENCITA</head>
-          <head type="subtitulo_parte"><lb/>Brutal crimen y Violación de una niña de 9 años,
-                                    en<lb/>S. Vicente pueblo de la provincia de Alicante</head>
-          <pb n="2" source="Varios_181_2.jpg" facs="fedora_Varios_181_2/full/full/0/default.jpg"/>
-          <lg>
-            <l>En el pueblo San Vicente</l>
+        <div n="1">
+          <div>
+            <pb n="1" source="Varios_181_1.jpg" facs="varios/Varios_181_1.jpg/"/>
+
+            <head type="primer_titulo" rend="negrita"><lb/>CARMENCITA</head>
+            <head type="subtitulo" rend="negrita"><lb/>Brutal crimen y Violación de una niña de 9
+              años, en<lb/>S. Vicente pueblo de la provincia de Alicante</head>
+
+            <pb n="2" source="Varios_181_2.jpg" facs="varios/Varios_181_2.jpg/"/>
+
+            <l rend="indent">En el pueblo San Vicente</l>
             <l>que es provincia de Alicante</l>
             <l>ha ocurrido este crimen</l>
             <l>monstruoso y repugnante.</l>
-            <l>Habitaba una familia</l>
+            <l rend="indent">Habitaba una familia</l>
             <l>de antecedentes muy malos</l>
             <l>y con ella una niña</l>
             <l>que contaba nueve años.</l>
-            <l>Carmencita Mendibil</l>
+            <l rend="indent">Carmencita Mendibil</l>
             <l>esta niña se llamaba</l>
             <l>por esta cruel familia</l>
             <l>ha sido asesinada.</l>
-            <l>E dia siete de Octubre</l>
+            <l rend="indent">E dia siete de Octubre</l>
             <l>de el año veinte y cuatro</l>
             <l>fué cometido este crimen</l>
             <l>que pena dá recordarlo.</l>
-            <l>Componian la familia</l>
+            <l rend="indent">Componian la familia</l>
             <l>tres hombres y tres mujeres</l>
             <l>que para la pobre niña</l>
             <l>todos eran muy crueles.</l>
-            <l>Esta niña era sobrina</l>
+            <l rend="indent">Esta niña era sobrina</l>
             <l>de la Francisca Jovés</l>
             <l>pues se la mandó su hermano</l>
             <l>pa que la hiciera mujer.</l>
-            <l>Como era pequeñita</l>
+            <l rend="indent">Como era pequeñita</l>
             <l>su padre con gran dolor</l>
             <l>tenia que separarse</l>
             <l>de la que era su ilusión.</l>
-            <l>Por tener que marchar a Francia</l>
+            <l rend="indent">Por tener que marchar a Francia</l>
             <l>a su hija confiaba</l>
             <l>a su hermana Francisca</l>
             <l>para que bien la tratara.</l>
-            <l>Lo primero que encargó</l>
+            <l rend="indent">Lo primero que encargó</l>
             <l>este padre a su hermana</l>
             <l>hazlo bien con Carmencita</l>
             <l>y que no le falte nada.</l>
-            <l>Vete, hermano, tranquilo</l>
+            <l rend="indent">Vete, hermano, tranquilo</l>
             <l>le dijo esta mujer mala</l>
             <l>no pases pena por ella</l>
             <l>ten confianza en tu hermana</l>
-            <l>Esta mujer tan perversa</l>
+            <l rend="indent">Esta mujer tan perversa</l>
             <l>a su hermano odiaba</l>
             <l>por asuntos de una herencia</l>
             <l>que el pobre ignoraba</l>
-            <l>Cuando marchó su hermano</l>
+            <l rend="indent">Cuando marchó su hermano</l>
             <l>dijo ahora es la mia</l>
             <l>no puedo vengarme contigo</l>
             <l>me vengaré con tu hija</l>
-            <l>En busca fué de trabajo</l>
+            <l rend="indent">En busca fué de trabajo</l>
             <l>mirando al mundo con calma</l>
             <l>creyendo nada faltaria</l>
             <l>a la híja de su alma</l>
-            <l>Entonces principiò el calvario</l>
+            <l rend="indent">Entonces principiò el calvario</l>
             <l>de esta niña infella</l>
             <l>que ha muerto sacríficada</l>
             <l>por esta familia vil.</l>
-          </lg>
-          <lg>
-            <l>Le mandan una sobrina</l>
+            <l rend="indent">Le mandan una sobrina</l>
             <l>con amor y alegria</l>
             <l>y la tia le pegaba</l>
             <l>a cada hora del dia.</l>
-            <l>La fiera la castigaba</l>
+            <l rend="indent">La fiera la castigaba</l>
             <l>sin tenerla compasión</l>
             <l>mas los vecinos un dia</l>
             <l>le llamaron la atención.</l>
-            <l>Al ver que no hizo caso</l>
+            <l rend="indent">Al ver que no hizo caso</l>
             <l>los vecinos indulgentes</l>
             <l>dan parte a un alguacil</l>
             <l>que acude inmediatamente</l>
-            <l>La tia hecha una fiera</l>
+            <l rend="indent">La tia hecha una fiera</l>
             <l>cuando fué interrogada</l>
             <l>contestó a la autoridad</l>
             <l>que la niña era muy mala</l>
-            <l>La autoridad piadosa</l>
+            <l rend="indent">La autoridad piadosa</l>
             <l>le di o sin inmutarse</l>
             <l>no maltrate V. a la niña</l>
             <l>que la llevaré a la cárcel.</l>
-            <l>Viene el momento del crimen</l>
+            <l rend="indent">Viene el momento del crimen</l>
             <l>fijarse lo que hicieron</l>
             <l>con la infeliz criatura</l>
             <l>con su dolorido cuerpo.</l>
-            <l>Con la familia vivia</l>
+            <l rend="indent">Con la familia vivia</l>
             <l>un hombre medío tullido</l>
             <l>al mismo tiempo ídiota</l>
             <l>y con muy malos instintos.</l>
-            <l>Siempre a la criatura</l>
+            <l rend="indent">Siempre a la criatura</l>
             <l>con dulces la alagaba</l>
             <l>que la niña inocente</l>
             <l>de este monstruo tomaba.</l>
-            <l>Le daba las golosinas</l>
+            <l rend="indent">Le daba las golosinas</l>
             <l>con la mala intención</l>
             <l>de abusar de la niña</l>
             <l>aquel ser sin corazón.</l>
-            <l>La niña aunque los dulces</l>
+            <l rend="indent">La niña aunque los dulces</l>
             <l>de aquel malvado tomaba</l>
             <l>adivinó sus deseos</l>
             <l>y siempre le despraciaba.</l>
-            <l>Viendo el sàtiro que nada</l>
+            <l rend="indent">Viendo el sàtiro que nada</l>
             <l>de la niña él lograba</l>
             <l>optó por la violencia</l>
             <l>para poder deshonrarla.</l>
-            <l>Para lograr su intento</l>
+            <l rend="indent">Para lograr su intento</l>
             <l>se valió el muy cruel</l>
             <l>de su esposa Benita</l>
             <l>y de Francisca Jovés</l>
-            <l>Dijo que su enfarmedad</l>
+            <l rend="indent">Dijo que su enfarmedad</l>
             <l>pronto seria curada</l>
             <l>si la niña consentia</l>
             <l>que su cuerpo el besara</l>
-            <l>Cedieron las dos mujeres</l>
+            <l rend="indent">Cedieron las dos mujeres</l>
             <l>a darle gusto a esta fiera</l>
             <l>sujetándo a la niña</l>
             <l>por los brazos y las piernas.</l>
-          </lg>
-          <pb n="3" source="Varios_181_3.jpg" facs="fedora_Varios_181_3/full/full/0/default.jpg"/>
-          <lg>
-            <l>La infeliz criatura</l>
+
+            <pb n="3" source="Varios_181_3.jpg" facs="varios/Varios_181_3.jpg/"/>
+
+            <l rend="indent">La infeliz criatura</l>
             <l>no cesaba de gritar</l>
             <l>por Dios tia de mi alma</l>
             <l>no consientas, ten piedad.</l>
-            <l>Cállate, no grites tanto</l>
+            <l rend="indent">Cállate, no grites tanto</l>
             <l>no temas no te hará daño</l>
             <l>a mi tambien me lo hicieron</l>
             <l>cuundo tenia tus años.</l>
-            <l>Y la niña a su tia</l>
+            <l rend="indent">Y la niña a su tia</l>
             <l>al momento respondió</l>
             <l>antes prefiero la muerte</l>
             <l>tener de mi compasión.</l>
-            <l>Ni las súplicas ni el llanto</l>
+            <l rend="indent">Ni las súplicas ni el llanto</l>
             <l>de la pobre infeliz</l>
             <l>le valieron para nada</l>
             <l>deshojada quedó alli</l>
-            <l>La infeliz del dolor</l>
+            <l rend="indent">La infeliz del dolor</l>
             <l>perdió el conocimiento</l>
             <l>quedándo su cuerpo en tierra</l>
             <l>como si estuviera muerto.</l>
-            <l>Del beso aquel infame</l>
+            <l rend="indent">Del beso aquel infame</l>
             <l>pasó á saciar su apetito</l>
             <l>destrozando a aquella niña</l>
             <l>su humilde cuerpecito</l>
-            <l>Bartolomé se llamaba</l>
+            <l rend="indent">Bartolomé se llamaba</l>
             <l>hasta nombrarlo indigna</l>
             <l>el que abusó de la honra</l>
             <l>de aquella infeliz niña.</l>
-            <l>Cuando llegó el momento</l>
+            <l rend="indent">Cuando llegó el momento</l>
             <l>de gozar de sus placeres</l>
             <l>entonces logró su intento</l>
             <l>con ayuda de las mujeres.</l>
-            <l>Como lobo encarnizado</l>
+            <l rend="indent">Como lobo encarnizado</l>
             <l>ellos no se dieron cuenta</l>
             <l>quedó tendida en tierra</l>
             <l>como si estuviera muerta.</l>
-          </lg>
-          <lg>
-            <l>Con un sílencio apacible</l>
+            <l rend="indent">Con un sílencio apacible</l>
             <l>como si allí nadie viviese</l>
             <l>creyendo a la niña muerta</l>
             <l>la tiran dentro un algibe.</l>
-            <l>Cuando vino del trabajo</l>
+            <l rend="indent">Cuando vino del trabajo</l>
             <l>el marido de Benita</l>
             <l>notó en seguida la falta</l>
             <l>de la pobre Carmencita.</l>
-            <l>Se lavaba èl la cara</l>
+            <l rend="indent">Se lavaba èl la cara</l>
             <l>al concluir la faena</l>
             <l>al ir él a sacar agua</l>
             <l>notó un bulto en la cisterna</l>
-            <l>Con el pozal tropezaba</l>
+            <l rend="indent">Con el pozal tropezaba</l>
             <l>y se retiró diciendo</l>
             <l>voy a dar parte enseguida</l>
             <l>en la cisterna hay un muerto</l>
-            <l>Las mujeres lo cogieron</l>
+            <l rend="indent">Las mujeres lo cogieron</l>
             <l>Andrés no vayas por Dios</l>
             <l>es que lavando la Carmen</l>
             <l>cayó al pozo y se ahogó</l>
-            <l>Sin hacer caso de nada</l>
+            <l rend="indent">Sin hacer caso de nada</l>
             <l>marchó corriendo el Andrés</l>
             <l>y lo sncedido cuenta</l>
             <l>a los civiles y al juez.</l>
-            <l>Se presentan en la casa</l>
+            <l rend="indent">Se presentan en la casa</l>
             <l>y sacan a la infeliz</l>
             <l>aquella mártir chiquilla</l>
             <l>Carmencita Mendibil</l>
-            <l>Quedan todos detenidos</l>
+            <l rend="indent">Quedan todos detenidos</l>
             <l>y a la cárcel son llevados</l>
             <l>y todo el pueblo en peso</l>
             <l>piden que vayan al palo</l>
-            <l>Madres que tengais hijos</l>
+            <l rend="indent">Madres que tengais hijos</l>
             <l>no confiarlos a nadie</l>
             <l>que para cuidar de ellos</l>
             <l>no hay nadie como los padres.</l>
-          </lg>
-          <trailer>F<damage agent="pagina_cortada"><supplied>I</supplied></damage>N</trailer>
+
+            <trailer>F<damage><supplied>I</supplied></damage>N</trailer>
+          </div>
+          
+          <div type="colofon">
+            <p><lb/>Talleres Gráficos; Aldana, 12.-BARCELONA.</p>
+          </div>
         </div>
-        <div type="colofon">
-          <p><lb/>Talleres Gráficos; Aldana, 12.-BARCELONA.</p>
-        </div>
-        <pb n="4" source="Varios_181_4.jpg" facs="fedora_Varios_181_4/full/full/0/default.jpg"/>
-        <div type="parte" n="2">
-          <head type="titulo_parte"><lb/>Las mujeres que se quedan paa vestir santos</head>
+
+        <div n="2">
+          <pb n="4" source="Varios_181_4.jpg" facs="varios/Varios_181_4.jpg/"/>
+          
+          <head type="primer_titulo" rend="negrita"><lb/>Las mujeres que se quedan paa vestir santos</head>
+          
           <lg>
             <l rend="indent">Yo no sé cómo pedirle</l>
             <l>al bendito San Antonio</l>
@@ -1442,34 +1453,30 @@
             <l>según se ponen las cosas,</l>
             <l>que ya mi media naranja</l>
             <l>se la ha llevado una ansiosa.</l>
-          </lg>
-          <lg type="ESTRIBILLO" rend="indent">
-            <head type="titulo_estrofa">ESTRIBILLO</head>
             <l>San Atonio, conmigo</l>
             <l>eres ingrato ;</l>
             <l>sin embrago, hay algunas</l>
             <l>que tienen cuatro.</l>
+            <l>ESTRIBILLO</l>
           </lg>
           <lg>
             <l rend="indent">Y yo me muero de tedio,</l>
             <l>siempre espera que te espera,</l>
             <l>sin encontrar el remedio</l>
             <l>para que un hombre me quiera.</l>
-            <l>Si es que también en el cielo</l>
+            <l rend="indent">Si es que también en el cielo</l>
             <l>sirven recomendaciones,</l>
             <l>yo haré que el Santo bendito</l>
             <l>le haga un ruego a Romanones.</l>
-            <l>Pues yo comprendo que el Santo</l>
+            <l rend="indent">Pues yo comprendo que el Santo</l>
             <l>se verá comprometido</l>
             <l>para conformar a tantas</l>
             <l>de las que piden marido.</l>
-          </lg>
-          <lg type="ESTRIBILLO" rend="indent">
-            <head type="titulo_estrofa">ESTRIBILLO</head>
             <l>Sin embargo, conozco</l>
             <l>cierta viudita,</l>
             <l>que va con el tercero,</l>
             <l>la pobrecita.</l>
+            <l>ESTRIBILLO</l>
           </lg>
           <lg>
             <l rend="indent">A San Antonio le digo</l>
@@ -1480,16 +1487,14 @@
             <l>feo si no lo hay bonito ;</l>
             <l>ya sé que no están los tiempos</l>
             <l>para pedir caprichitos.</l>
-          </lg>
-          <lg type="ESTRIBILLO" rend="indent">
-            <head type="titulo_estrofa">ESTRIBILLO</head>
             <l>Pues con todo y con eso</l>
             <l>no lo consigo.</l>
             <l>San Antonio no quiere</l>
             <l>nada conmigo.</l>
+            <l>ESTRIBILLO</l>
           </lg>
           <lg>
-            <l>A San Antonio le ruego</l>
+            <l rend="indent">A San Antonio le ruego</l>
             <l>que lo que él hace no es justo,</l>
             <l>que unas gocen de alegría</l>
             <l>y otras mueren de disgusto,</l>
@@ -1497,13 +1502,11 @@
             <l>cuatro o cinco al retortero</l>
             <l>y yo no encuentro ninguno</l>
             <l>aunque les eche el anzuelo.</l>
-          </lg>
-          <lg type="ESTRIBILLO" rend="indent">
-            <head type="titulo_estrofa">ESTRIBILLO</head>
             <l>San Antonio glorioso</l>
             <l>ten compasión,</l>
             <l>porque sino me muero</l>
             <l>de desazón.</l>
+            <l>ESTRIBILLO</l>
           </lg>
           <lg>
             <l rend="indent">Y de rodill :as te pido,</l>

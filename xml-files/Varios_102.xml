@@ -1,20 +1,17 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../Schema/oddPliego_varios.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:alto="http://www.loc.gov/standards/alto/ns-v4#" xml:id="Varios_102">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Varios_102">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>NUEVA DESPEDIDA que dirige un gracioso Quinto á sus Padres, á su
-                              casa, á su pueblo y á su querida, arregladaen décimas
-                              glosadas.</title>
+        <title>NUEVA DESPEDIDA</title>
         <respStmt>
           <name/>
           <resp>Codificación TEI</resp>
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <authority role="rightsHolder">Bibliothèque Universitaire de
-                              Genève</authority>
+        <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
         <availability status="restricted">
           <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
         </availability>
@@ -22,9 +19,9 @@
       <sourceDesc>
         <biblFull>
           <titleStmt>
-            <title type="titulo_completo">NUEVA DESPEDIDA que dirige un
-                                          gracioso Quinto á sus Padres, á su casa, á su pueblo y
-                                          á su querida, arregladaen décimas glosadas.</title>
+            <title type="titulo_completo">NUEVA DESPEDIDA que dirige un gracioso Quinto á sus
+              Padres, á su casa, á su pueblo y á su querida, arregladaen décimas
+              glosadas.</title>
             <title type="titulo_breve">NUEVA DESPEDIDA</title>
           </titleStmt>
           <editionStmt>
@@ -33,7 +30,7 @@
           <publicationStmt>
             <publisher>Juan Bautista Vidal</publisher>
             <pubPlace ref="https://www.geonames.org/3111933/reus.html">Reus</pubPlace>
-            <date>[s.a]</date>
+            <date cert="low" when="1800-01-01">[s.a.]</date>
           </publicationStmt>
         </biblFull>
         <msDesc>
@@ -41,7 +38,8 @@
             <country>Suisse</country>
             <settlement>Genève</settlement>
             <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"/>
-                                    </repository>
+            </repository>
+            <collection>Colección Varios</collection>
             <idno type="cote"/>
             <idno type="DOI">10.5281/zenodo.6576091</idno>
             <altIdentifier>
@@ -49,10 +47,15 @@
             </altIdentifier>
           </msIdentifier>
           <msContents>
-            <summary/>
+            <summary>Dos despedidas</summary>
             <msItem>
-              <locus/>
-              <title/>
+              <locus>1-3</locus>
+              <title>NUEVA DESPEDIDA que dirige un gracioso Quinto á sus Padres, á su casa, á su
+                pueblo y á su querida, arregladaen décimas glosadas.</title>
+            </msItem>
+            <msItem>
+              <locus>4</locus>
+              <title>Otra despedida á su querida</title>
             </msItem>
           </msContents>
           <physDesc>
@@ -85,12 +88,9 @@
               </decoNote>
             </decoDesc>
             <additions>
-              <stamp>Palma. Tienda de M Borrás. Cuesta del
-                                                Teatro</stamp>
-              <stamp>SE HALLA VENTA A. BORRAS CUESTA
-                                                DEL TEATRO PALMA</stamp>
-              <stamp>COL LECCIÓ MANUEL
-                                                MASSÓ</stamp>
+              <stamp>Palma. Tienda de M Borrás. Cuesta del Teatro</stamp>
+              <stamp>SE HALLA VENTA A. BORRAS CUESTA DEL TEATRO PALMA</stamp>
+              <stamp>COL LECCIÓ MANUEL MASSÓ</stamp>
             </additions>
           </physDesc>
           <history>
@@ -98,8 +98,7 @@
               <p>Imprenta y librería de Juan Bautista Vidal</p>
             </origin>
             <provenance>
-              <stamp>SE HALLA VENTA A. BORRAS CUESTA DEL TEATRO
-                                                PALMA</stamp>
+              <stamp>SE HALLA VENTA A. BORRAS CUESTA DEL TEATRO PALMA</stamp>
             </provenance>
             <acquisition>
               <stamp>COL LECCIÓ MANUEL MASSÓ</stamp>
@@ -111,18 +110,17 @@
     </fileDesc>
     <encodingDesc>
       <projectDesc>
-        <p>Este archivo fue creado en el marco del proyecto Desenrollando el
-                              Cordel/Démêler le cordel/Untangling the cordel, dirigido por la
-                              profesora Constance Carta de la Universidad de Ginebra, con el apoyo
-                              de la Fundación filantrópica Famille Sandoz-Monique de Meuron.</p>
+        <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+          cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la Universidad
+          de Ginebra, con el apoyo de la Fundación filantrópica Famille Sandoz-Monique de
+          Meuron.</p>
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR non corregido</p>
+          <p>OCR no corregido</p>
         </correction>
         <normalization>
-          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto
-                                    original.</p>
+          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
         </normalization>
         <punctuation>
           <p>Se conserva la puntuación original.</p>
@@ -136,17 +134,21 @@
       <textClass>
         <keywords xml:base="http://datos.bne.es/tema/">
           <term target="XX5501105.html" type="tipo_texto">Coplas</term>
-          <term target="XX5501105.html" type="tipo_estrofa">Coplas</term>
+          <term target="XX546895.html" type="tipo_estrofa">Décimas</term>
           <term type="verso_prosa">Verso</term>
           <term type="sagrado_profano">Profano</term>
         </keywords>
       </textClass>
     </profileDesc>
     <revisionDesc>
-      <change when="2022-07-27" who="#PJ">Création du fichier TEI P5 et encodage du
-                        corps du texte</change>
+      <change when="2022-07-27" who="#PJ">Création du fichier TEI P5 et encodage du corps du
+        texte</change>
+      <change when="2024-01-09" who="#EL">Add the IIIF links</change>
     </revisionDesc>
   </teiHeader>
+  <facsimile>
+    <graphic url="varios/Varios_102_1.jpg/full/200,/0/default.jpg"/>
+  </facsimile>
   <sourceDoc xml:id="automaticTranscription">
     <surface xml:id="Varios_102_1" type="page" cert="silver">
       <graphic url="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_102_1/full/full/0/default.jpg"/>
@@ -1152,13 +1154,12 @@
       <zone xml:id="Varios_102_4_BT226_10" n="10" type="MainZone" subtype="none" points="447,2255 447,2411 1931,2411 1931,2255 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_102_4/447,2255,1484,156/full/0/default" corresp="MainZone">
         <zone xml:id="_BT226_10_LT83_1" type="DefaultLine" subtype="none" points="513,2290 513,2250 1905,2267 1912,2300 1907,2305 511,2298 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_102_4/,,,/full/0/default" corresp="DefaultLine">
           <path xml:id="Varios_102_4_BT226_10_LT83_1_1" points="516,2292 1915,2302 " corresp="DefaultLine"/>
-          <line>En la misma se halla un buen surtido de trovos, relaciones,
-                                    romances, cancio¬</line>
+          <line>En la misma se halla un buen surtido de trovos, relaciones, romances, cancio¬</line>
         </zone>
         <zone xml:id="_BT226_10_LT83_2" type="DefaultLine" subtype="none" points="485,2326 493,2292 1905,2303 1910,2333 1905,2346 480,2338 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_102_4/,,,/full/0/default" corresp="DefaultLine">
           <path xml:id="Varios_102_4_BT226_10_LT83_2_1" points="488,2328 1911,2336 " corresp="DefaultLine"/>
-          <line>nes, historias, aleluyas, soldados, una buena coleccion de
-                                    sainetes y diferentes libritos</line>
+          <line>nes, historias, aleluyas, soldados, una buena coleccion de sainetes y diferentes
+            libritos</line>
         </zone>
         <zone xml:id="_BT226_10_LT83_3" type="DefaultLine" subtype="none" points="483,2363 483,2326 655,2328 655,2363 655,2381 483,2396 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_102_4/483,2326,172,70/full/0/default" corresp="DefaultLine">
           <path xml:id="Varios_102_4_BT226_10_LT83_3_1" points="484,2365 656,2365 " corresp="DefaultLine"/>
@@ -1170,12 +1171,15 @@
   <text>
     <body>
       <div>
-        <pb n="1" source="Varios_102_1.jpg" facs="fedora_Varios_102_1/full/full/0/default.jpg"/>
+        <pb n="1" source="Varios_102_1.jpg" facs="varios/Varios_102_1.jpg/"/>
+
         <fw type="impresorNum">(Núm 24.)</fw>
-        <div type="cancion" n="1">
-          <head type="primer_titulo"><lb/>NUEVA DESPEDIDA<lb/>que dirige un gracioso Quinto á sus
-                                    Padres,<lb/>á su casa, á su pueblo y á su querida,
-                                    arreglada<lb/>en décimas glosadas.</head>
+
+        <div n="1">
+          <head type="primer_titulo" rend="negrita"><lb/>NUEVA DESPEDIDA</head>
+          <head type="subtitulo"><lb/>que dirige un gracioso Quinto á sus Padres,<lb/>á su casa,
+            á su pueblo y á su querida, arreglada<lb/>en décimas glosadas.</head>
+
           <lg rend="cursiva">
             <l>Padre y madre de mí vida,</l>
             <l>padre de mi corazon,</l>
@@ -1183,7 +1187,7 @@
             <l>madre triste y afigida.</l>
           </lg>
           <lg>
-            <l>A vuestros pies padre mio</l>
+            <l rend="indent">A vuestros pies padre mio</l>
             <l>postrado pido perdon</l>
             <l>échame la bendicion</l>
             <l>que rendidamente os pido</l>
@@ -1195,7 +1199,7 @@
             <l rend="cursiva">padre y madre de mi vida.</l>
           </lg>
           <lg>
-            <l>Madre os da la despedida</l>
+            <l rend="indent">Madre os da la despedida</l>
             <l>el hijo de sus entrañas</l>
             <l>pues marchamos á campaña</l>
             <l>con toda la compañia</l>
@@ -1206,9 +1210,11 @@
             <l>aste es el dolor mas fuerte</l>
             <l rend="cursiva">padre de mi corazon.</l>
           </lg>
-          <pb n="2" source="Varios_102_2.jpg" facs="fedora_Varios_102_2/full/full/0/default.jpg"/>
+
+          <pb n="2" source="Varios_102_2.jpg" facs="varios/Varios_102_2.jpg/"/>
+
           <lg>
-            <l>Yo me criaba en sus brazos</l>
+            <l rend="indent">Yo me criaba en sus brazos</l>
             <l>con cariño y ternura</l>
             <l>y ahora mi desventura</l>
             <l>me lleva á pasar trabajos</l>
@@ -1220,7 +1226,7 @@
             <l rend="cursiva">madre de consolacion.</l>
           </lg>
           <lg>
-            <l>Cuando la nueva os llevaren</l>
+            <l rend="indent">Cuando la nueva os llevaren</l>
             <l>considerad la amargura</l>
             <l>que al pié de una sepultura</l>
             <l>está mi cuerpo cadáver</l>
@@ -1232,13 +1238,13 @@
             <l rend="cursiva">madre triste y afligida.</l>
           </lg>
           <lg rend="cursiva">
-            <l>Adios casa de tu padre</l>
+            <l rend="indent">Adios casa de tu padre</l>
             <l>en donde me recreaba</l>
             <l>que tanto gusto me daba</l>
             <l>cariño mio el hablarte</l>
           </lg>
           <lg>
-            <l>Allí las noches pasaba</l>
+            <l rend="indent">Allí las noches pasaba</l>
             <l>sin que me rindiera el sueño</l>
             <l>dulce adorado dueño</l>
             <l>á tu lado me sentaba</l>
@@ -1248,7 +1254,9 @@
             <l>y yo mas gustosa que ella</l>
             <l>pues se ha trocado mi estrella,</l>
             <l rend="cursiva">adios casa de tu padre.</l>
-            <l>O suerte funesta mia</l>
+          </lg>
+          <lg>
+            <l rend="indent">O suerte funesta mia</l>
             <l>en que estado pasaré</l>
             <l>quiza ya no le veré</l>
             <l>ni de noche ni de dia</l>
@@ -1260,7 +1268,7 @@
             <l rend="cursiva">en donde me recreaba</l>
           </lg>
           <lg>
-            <l>Como podré cumplir</l>
+            <l rend="indent">Como podré cumplir</l>
             <l>estando ausente de tí</l>
             <l>alegría no habrá en mí</l>
             <l>creo que habré de sufrir</l>
@@ -1270,7 +1278,9 @@
             <l>ya quizás no la veré</l>
             <l>la prenda que mas amé,</l>
             <l rend="cursiva">que tanto gusto me daba</l>
-            <l>Adios dueño inolvidable</l>
+          </lg>
+          <lg>
+            <l rend="indent">Adios dueño inolvidable</l>
             <l>que me voy al regimiento</l>
             <l>donde el cabo y el sargento</l>
             <l>no dejarán de insultarme</l>
@@ -1282,28 +1292,28 @@
             <l rend="cursiva">cariño mio el hablarte.</l>
           </lg>
           <lg rend="cursiva">
-            <l>Adios casa en que nací</l>
+            <l rend="indent">Adios casa en que nací</l>
             <l>adios centro de mi cuna</l>
             <l>mi desgracia ó mi fortuna</l>
             <l>solo ha de pasar por mi.</l>
           </lg>
           <lg>
-            <l>Es preciso el ausentarme</l>
+            <l rend="indent">Es preciso el ausentarme</l>
             <l>y á todos pido perdon</l>
             <l>aun que con tanta afliccion</l>
             <l>por no poder mas estarme</l>
             <l>pero antes de marcharme</l>
-          </lg>
-          <lg>
             <l>he de despedirme así</l>
             <l>si algun agravio hay en mi</l>
             <l>me lo pueden perdonar</l>
             <l>porque es preciso marchar,</l>
             <l rend="cursiva">adios casa en que nací.</l>
           </lg>
-          <pb n="3" source="Varios_102_3.jpg" facs="fedora_Varios_102_3/full/full/0/default.jpg"/>
+
+          <pb n="3" source="Varios_102_3.jpg" facs="varios/Varios_102_3.jpg/"/>
+
           <lg>
-            <l>Me perdonareis hermanos</l>
+            <l rend="indent">Me perdonareis hermanos</l>
             <l>de las faltas cometidas</l>
             <l>en las demás niñerías</l>
             <l>y de todos los agravios</l>
@@ -1313,19 +1323,21 @@
             <l>preciso será seguir</l>
             <l>y me habré de despedir</l>
             <l rend="cursiva">adios centro de mi cuna.</l>
-            <l>Hermanas de mis entrañas.</l>
+          </lg>
+          <lg>
+            <l rend="indent">Hermanas de mis entrañas.</l>
             <l>mis agravios perdonad</l>
             <l>y á la Virgen suplicad</l>
             <l>que me ayude en las campañas</l>
             <l>porque á tierras estrañas</l>
-          </lg>
-          <lg>
             <l>nos marchamos de columna</l>
             <l>porque la suerte importuna</l>
             <l>así ha querido salir</l>
             <l>y en fin habré de seguir,</l>
             <l rend="cursiva">mi desgracia ó mi fortuna</l>
-            <l>Adios mis primas queridas</l>
+          </lg>
+          <lg>
+            <l rend="indent">Adios mis primas queridas</l>
             <l>y mis estimados primos</l>
             <l>adios todas mis amigas</l>
             <l>adios todos mis amigos</l>
@@ -1336,14 +1348,15 @@
             <l>y la suerte del soldado,</l>
             <l rend="cursiva">solo ha de pasar por mí.</l>
           </lg>
+
           <lg rend="cursiva">
-            <l>Adios mi patria estimada</l>
+            <l rend="indent">Adios mi patria estimada</l>
             <l>centro de mi nacimiento</l>
             <l>el ilustre Ayuntamiento</l>
             <l>y la Custodia sagrada.</l>
           </lg>
           <lg>
-            <l>Adios árboles floridos</l>
+            <l rend="indent">Adios árboles floridos</l>
             <l>adios sabrosos frutos</l>
             <l>adios matices robustos</l>
             <l>adios campos divertidos</l>
@@ -1353,7 +1366,9 @@
             <l>adios lecho maternal</l>
             <l>adios villa y arrabal,</l>
             <l rend="cursiva">adios mi patria estimada.</l>
-            <l>Adios plaza del mercado</l>
+          </lg>
+          <lg>
+            <l rend="indent">Adios plaza del mercado</l>
             <l>adios maestro de niños</l>
             <l>adios amigos y amigas</l>
             <l>adios lugar del pescado</l>
@@ -1365,7 +1380,7 @@
             <l rend="cursiva">centro de mi nacimiento.</l>
           </lg>
           <lg>
-            <l>Adios bellos edificios</l>
+            <l rend="indent">Adios bellos edificios</l>
             <l>adios hermosas fachadas</l>
             <l>adios calles alineadas</l>
             <l>adios juegos de mis vicios</l>
@@ -1375,7 +1390,9 @@
             <l>señor Alcalde mayor</l>
             <l>rija usted con grande honor,</l>
             <l rend="cursiva">el ilustre Ayuntamiento.</l>
-            <l>Adios iglesia mayor</l>
+          </lg>
+          <lg>
+            <l rend="indent">Adios iglesia mayor</l>
             <l>con sus sagrados altares</l>
             <l>adios venerables padres</l>
             <l>y curas de grande honor</l>
@@ -1386,65 +1403,76 @@
             <l>altar de la comunion</l>
             <l rend="cursiva">y la custodia sagrada.</l>
           </lg>
-          <pb n="4" source="Varios_102_4.jpg" facs="fedora_Varios_102_4/full/full/0/default.jpg"/>
         </div>
-        <div type="cancion" n="2">
-          <head type="titulo_cancion"><lb/>OTRA DESPEDIDA Á SU QUERIDA</head>
+
+        <div n="2">
+          <pb n="4" source="Varios_102_4.jpg" facs="varios/Varios_102_4.jpg/"/>
+
+          <head type="primer_titulo" rend="negrita"><lb/>OTRA DESPEDIDA Á SU QUERIDA</head>
+
           <lg rend="cursiva">
-            <l>La despedida te doy</l>
+            <l rend="indent">La despedida te doy</l>
             <l>hermoso sol de los soles</l>
             <l>dios hermosa doncella</l>
             <l>adios mi jardin de flores.</l>
           </lg>
           <lg>
-            <l>Por bien empleado doy</l>
+            <l rend="indent">Por bien empleado doy</l>
             <l>todo el tiempo que perdí,</l>
             <l>agradecido estoy</l>
             <l>porque me has dado el si,</l>
             <l rend="cursiva">la despedida te doy.</l>
-            <l>Contento y sin dolores</l>
+          </lg>
+          <lg>
+            <l rend="indent">Contento y sin dolores</l>
             <l>estaré de tí ausente;</l>
             <l>porque hastan tres clamores.</l>
             <l>para tener presente,</l>
             <l rend="cursiva">hermoso sol de los soles.</l>
           </lg>
           <lg>
-            <l>Por ser tan hermosa y bella</l>
+            <l rend="indent">Por ser tan hermosa y bella</l>
             <l>por tí perderé mi vida:</l>
             <l>eres reluciente estrella,</l>
             <l>eres tú mi luz y guia</l>
             <l rend="cursiva">adios hermosa doncella.</l>
-            <l>Con caricias y loores</l>
+          </lg>
+          <lg>
+            <l rend="indent">Con caricias y loores</l>
             <l>de tu presencia me aparta:</l>
             <l>adios todos mis amores</l>
             <l>adios hermoso retrato</l>
             <l rend="cursiva">adios mi jardin de flores.</l>
           </lg>
           <lg rend="cursiva">
-            <l>Ados beldad infinita</l>
+            <l rend="indent">Adios beldad infinita</l>
             <l>adios rosa de mi amor,</l>
             <l>adios sol del medio dia</l>
             <l>adios adorada flor.</l>
           </lg>
           <lg>
-            <l>Adios hermosa Rosita</l>
+            <l rend="indent">Adios hermosa Rosita</l>
             <l>que ya te tengo de dejar</l>
             <l>porque la hora bendita</l>
             <l>ya no me viene á atormentar,</l>
             <l rend="cursiva">adios beldad infinita</l>
-            <l>Adios niña de primor;</l>
+          </lg>
+          <lg>
+            <l rend="indent">Adios niña de primor;</l>
             <l>que mas no puedo esperar</l>
             <l>y ya me siento el dolor</l>
             <l>por haberme de separar,</l>
             <l rend="cursiva">adios rosa de mi amor.</l>
           </lg>
           <lg>
-            <l>Adios alma de alegría</l>
+            <l rend="indent">Adios alma de alegría</l>
             <l>adios amable pintura</l>
             <l>que eres mi luz y guia,</l>
             <l>conservarás la hermosura</l>
             <l rend="cursiva">adios sol del medio dia.</l>
-            <l>Bien sabes que por tu amor</l>
+          </lg>
+          <lg>
+            <l rend="indent">Bien sabes que por tu amor</l>
             <l>estoy preso y atado</l>
             <l>no me olvides mi amor,</l>
             <l>que me marcho confiado</l>
@@ -1452,15 +1480,16 @@
           </lg>
           <trailer>FIN.</trailer>
         </div>
+        
         <div type="colofon">
-          <p><lb/>PALMA. Tienda de M. Borrás. Cuesta del Teatro. REUS:
-                                    Libreria de Vidal, arrabal alto de Jesus, núm. 5</p>
+          <p><lb/>PALMA. Tienda de M. Borrás. Cuesta del Teatro. REUS: Libreria de Vidal, arrabal
+            alto de Jesus, núm. 5</p>
         </div>
-        <div type="productos_a_la_venta ">
-          <p><lb/>En la misma se halla un buen surtido de trovos, relaciones,
-                                    romances, cancio¬<lb/>nes, historias, aleluyas, soldados, una
-                                    buena coleccion de sainetes y diferentes
-                                    libritos<lb/>chistosos.</p>
+        
+        <div type="productos_a_la_venta">
+          <p><lb/>En la misma se halla un buen surtido de trovos, relaciones, romances,
+            cancio¬<lb/>nes, historias, aleluyas, soldados, una buena coleccion de sainetes y
+            diferentes libritos<lb/>chistosos.</p>
         </div>
       </div>
     </body>

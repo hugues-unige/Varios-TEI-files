@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../Schema/oddPliego_varios.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:alto="http://www.loc.gov/standards/alto/ns-v4#" xml:id="Varios_085">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Varios_085">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -11,8 +11,7 @@
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <authority role="rightsHolder">Bibliothèque Universitaire de
-                              Genève</authority>
+        <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
         <availability status="restricted">
           <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
         </availability>
@@ -20,18 +19,16 @@
       <sourceDesc>
         <biblFull>
           <titleStmt>
-            <title type="titulo_completo">COLECCION DE CANCIONES MODERNAS.
-                                          BUENAS NOCHES, SEÑOR DON SIMON.</title>
-            <title type="titulo_breve">COLECCION DE CANCIONES
-                                          MODERNAS.</title>
+            <title type="titulo_completo">COLECCION DE CANCIONES MODERNAS.</title>
+            <title type="titulo_breve"/>
           </titleStmt>
           <editionStmt>
             <p/>
           </editionStmt>
           <publicationStmt>
-            <publisher>José M. Marés</publisher>
+            <publisher>José María Marés</publisher>
             <pubPlace ref="https://www.geonames.org/3117735/madrid.html">Madrid</pubPlace>
-            <date>[s.a]</date>
+            <date cert="high" when="1854-01-01">1854</date>
           </publicationStmt>
         </biblFull>
         <msDesc>
@@ -39,7 +36,8 @@
             <country>Suisse</country>
             <settlement>Genève</settlement>
             <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"/>
-                                    </repository>
+            </repository>
+            <collection>Colección Varios</collection>
             <idno type="cote"/>
             <idno type="DOI">10.5281/zenodo.6566031</idno>
             <altIdentifier>
@@ -47,10 +45,22 @@
             </altIdentifier>
           </msIdentifier>
           <msContents>
-            <summary/>
+            <summary>Cuatro canciones</summary>
             <msItem>
-              <locus/>
-              <title/>
+              <locus>1</locus>
+              <title>Buenas noches, señor Don Simon.</title>
+            </msItem>
+            <msItem>
+              <locus>2</locus>
+              <title>La buñolera.</title>
+            </msItem>
+            <msItem>
+              <locus>3</locus>
+              <title>El gallego enamorado, á sua marusiña.</title>
+            </msItem>
+            <msItem>
+              <locus>4</locus>
+              <title>Graciosa cancion de la jitana ó la buena ventura.</title>
             </msItem>
           </msContents>
           <physDesc>
@@ -68,7 +78,7 @@
               </layoutDesc>
             </objectDesc>
             <decoDesc>
-              <summary n="7">Seis grabados (p.1 + 2 + 3 + 4) </summary>
+              <summary n="7">Seis grabados (p.1, 2, 3, 4) </summary>
               <decoNote type="lista_grabados">
                 <list>
                   <item corresp="grabado_v_085_1.xml">grabado_v_085_1</item>
@@ -88,7 +98,7 @@
             </origin>
             <provenance/>
             <acquisition>
-              <stamp>COL LECCIÓ MANUEL MASSÓ</stamp>
+              <stamp>COLLECCIÓ MANUEL MASSÓ</stamp>
             </acquisition>
           </history>
         </msDesc>
@@ -96,18 +106,17 @@
     </fileDesc>
     <encodingDesc>
       <projectDesc>
-        <p>Este archivo fue creado en el marco del proyecto Desenrollando el
-                              Cordel/Démêler le cordel/Untangling the cordel, dirigido por la
-                              profesora Constance Carta de la Universidad de Ginebra, con el apoyo
-                              de la Fundación filantrópica Famille Sandoz-Monique de Meuron.</p>
+        <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+          cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la Universidad
+          de Ginebra, con el apoyo de la Fundación filantrópica Famille Sandoz-Monique de
+          Meuron.</p>
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR non corregido</p>
+          <p>OCR no corregido</p>
         </correction>
         <normalization>
-          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto
-                                    original.</p>
+          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
         </normalization>
         <punctuation>
           <p>Se conserva la puntuación original.</p>
@@ -128,10 +137,14 @@
       </textClass>
     </profileDesc>
     <revisionDesc>
-      <change when="2022-07-26" who="#PJ">Création du fichier TEI P5 et encodage du
-                        corps du texte</change>
+      <change when="2022-07-26" who="#PJ">Création du fichier TEI P5 et encodage du corps du
+        texte</change>
+      <change when="2024-01-09" who="#EL">Add the IIIF links</change>
     </revisionDesc>
   </teiHeader>
+  <facsimile>
+    <graphic url="varios/Varios_085_1.jpg/full/200,/0/default.jpg"/>
+  </facsimile>
   <sourceDoc xml:id="automaticTranscription">
     <surface xml:id="Varios_085_1" type="page" cert="silver">
       <graphic url="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_085_1/full/full/0/default.jpg"/>
@@ -868,234 +881,264 @@
   <text>
     <body>
       <div>
-        <pb n="1" source="Varios_085_1.jpg" facs="fedora_Varios_085_1/full/full/0/default.jpg"/>
-        <fw type="impresorNum">(Núm. 234.)</fw>
-        <head type="primer_titulo"><lb/>COLECCION DE CANCIONES MODERNAS.</head>
-        <div type="cancion" n="1">
-          <head type="titulo_cancion" rend="negrita"><lb/>BUENAS NOCHES, SEÑOR DON SIMON.</head>
-          <lg>
-            <l>Señor don Simon,</l>
-            <l>no lleve usted á mal,</l>
-            <l>si lecho y mantel</l>
-            <l>no encuentea al llegar.</l>
-            <l>Yo le pido mil veces perdon,</l>
-            <l>y pues algo cansado estará,</l>
-            <l>aunque falte la rena y colchon,</l>
-            <l>buenas noches, señor D. Simon,</l>
-            <l>buenas noches, buenas noches,</l>
-            <l>buenas noches, señor D. Simon.</l>
-          </lg>
-          <lg>
-            <l>Señor don Simón,</l>
-            <l>si acaso al dormir</l>
-            <l>rumor oye usted</l>
-            <l>muy cerea de aqui;</l>
-            <l>si de pasos escucha V. el son,</l>
-            <l>si las puertas sintiera crugir,</l>
-            <l>no se alarme, será el aquilon ;</l>
-            <l>buenas noches, Sr. D. Simon, etc.</l>
-          </lg>
-          <lg>
-            <l>Señor don Simon,</l>
-            <l>la vida es fugaz,</l>
-            <l>ninguno previó</l>
-            <l>su trance fatal ;</l>
-            <l>este suele venir de rondon,</l>
-            <l>no perdona ni sexo ni edad;</l>
-            <l>y pues ya sabe V. mi opinion,</l>
-            <l>buenas noches, S. D. Simon, etc</l>
-          </lg>
-          <lg>
-            <l>Señor don Simon,</l>
-            <l>la cosa va mal,</l>
-            <l>porque el aquilon</l>
-            <l>sopla por demás ;</l>
-            <l>oh! qué recio y cruel turbion;</l>
-            <l>pues que á todos nos bará rondar</l>
-            <l>si el sereno oye nuestro son,</l>
-            <l>buenas noches, Sr. D. Simon, etc.</l>
-          </lg>
-          <lg>
-            <l>Señor don Simon,</l>
-            <l>ya que no hay de qué,</l>
-            <l>manta ni jergon,</l>
-            <l>disimule usted;</l>
-            <l>descausar puede en este sillon,</l>
-            <l>este paso declarado es,</l>
-            <l>ahi se queda en este salon,</l>
-            <l>buenás noches, Sr. D. Simon, etc.</l>
-          </lg>
-          <lg>
-            <l>Señor don Simon,</l>
-            <l>un paso hay que dar,</l>
-            <l>y de la prision</l>
-            <l>poderse librar;</l>
-            <l>si conprenden nuestra confusion</l>
-            <l>el sereno ó la ronda al pasar,</l>
-            <l>será triste nuestra situacion;</l>
-            <l>buenas noches, Sr. D. Simon, etc.</l>
-          </lg>
-          <pb n="2" source="Varios_085_2.jpg" facs="fedora_Varios_085_2/full/full/0/default.jpg"/>
+        <div>
+          <pb n="1" source="Varios_085_1.jpg" facs="varios/Varios_085_1.jpg/"/>
+
+          <fw type="impresorNum">(Núm. 234.)</fw>
+
+          <head type="primer_titulo"><lb/>COLECCION DE CANCIONES MODERNAS.</head>
+
+          <div n="1">
+            <head type="titulo_cancion" rend="negrita"><lb/>BUENAS NOCHES, SEÑOR DON SIMON.</head>
+            <lg>
+              <l rend="indent">Señor don Simon,</l>
+              <l>no lleve usted á mal,</l>
+              <l>si lecho y mantel</l>
+              <l>no encuentea al llegar.</l>
+              <l>Yo le pido mil veces perdon,</l>
+              <l>y pues algo cansado estará,</l>
+              <l>aunque falte la rena y colchon,</l>
+              <l>buenas noches, señor D. Simon,</l>
+              <l>buenas noches, buenas noches,</l>
+              <l>buenas noches, señor D. Simon.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Señor don Simón,</l>
+              <l>si acaso al dormir</l>
+              <l>rumor oye usted</l>
+              <l>muy cerea de aqui;</l>
+              <l>si de pasos escucha V. el son,</l>
+              <l>si las puertas sintiera crugir,</l>
+              <l>no se alarme, será el aquilon ;</l>
+              <l>buenas noches, Sr. D. Simon, etc.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Señor don Simon,</l>
+              <l>la vida es fugaz,</l>
+              <l>ninguno previó</l>
+              <l>su trance fatal ;</l>
+              <l>este suele venir de rondon,</l>
+              <l>no perdona ni sexo ni edad;</l>
+              <l>y pues ya sabe V. mi opinion,</l>
+              <l>buenas noches, S. D. Simon, etc</l>
+            </lg>
+            <lg>
+              <l rend="indent">Señor don Simon,</l>
+              <l>la cosa va mal,</l>
+              <l>porque el aquilon</l>
+              <l>sopla por demás ;</l>
+              <l>oh! qué recio y cruel turbion;</l>
+              <l>pues que á todos nos bará rondar</l>
+              <l>si el sereno oye nuestro son,</l>
+              <l>buenas noches, Sr. D. Simon, etc.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Señor don Simon,</l>
+              <l>ya que no hay de qué,</l>
+              <l>manta ni jergon,</l>
+              <l>disimule usted;</l>
+              <l>descausar puede en este sillon,</l>
+              <l>este paso declarado es,</l>
+              <l>ahi se queda en este salon,</l>
+              <l>buenás noches, Sr. D. Simon, etc.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Señor don Simon,</l>
+              <l>un paso hay que dar,</l>
+              <l>y de la prision</l>
+              <l>poderse librar;</l>
+              <l>si conprenden nuestra confusion</l>
+              <l>el sereno ó la ronda al pasar,</l>
+              <l>será triste nuestra situacion;</l>
+              <l>buenas noches, Sr. D. Simon, etc.</l>
+            </lg>
+            <pb n="2" source="Varios_085_2.jpg" facs="varios/Varios_085_2.jpg/"/>
+          </div>
+
+          <div n="2">
+            <head type="titulo_cancion" rend="negrita"><lb/>LA BUÑOLERA.</head>
+
+            <lg>
+              <l rend="indent">Con mi lebriyo de masa,</l>
+              <l>mi jorniyita ensendia,</l>
+              <l>y la sarten hecha brasa,</l>
+              <l>paso alegre toa mi via.</l>
+            </lg>
+
+            <lg>
+              <l rend="indent">Pa tomar el aguardiente</l>
+              <l>estos sí que son canela;</l>
+              <l>quién los quiere, quién los yeva,</l>
+              <l>que han salio calentitos,</l>
+              <l>estos si que son canela;</l>
+              <l>quién los quiere, quién los yeva,</l>
+              <l>quién, quién, quién los yeva!</l>
+            </lg>
+
+            <lg>
+              <l rend="indent">Aunque con aceite ando</l>
+              <l>soy mas relimpia que el sol,</l>
+              <l>ahi siempre estoy meneando</l>
+              <l>la sarten, que es un primor.</l>
+              <l>Pa tomar, etc.</l>
+            </lg>
+
+            <lg>
+              <l rend="indent">Cuando me pongo en mi choza</l>
+              <l>y se me acerca un señó,</l>
+              <l>me compra toa la bacienda</l>
+              <l>por lo bien que espacho yo.</l>
+              <l>Pa tomar, etc.</l>
+            </lg>
+
+            <lg>
+              <l rend="indent">Todos vienen á mi puesto</l>
+              <l>porque les gusta probá</l>
+              <l>los guñuelos que yo hago,</l>
+              <l>porque son de caliá.</l>
+              <l>Pa tomar, etc.</l>
+            </lg>
+
+            <lg>
+              <l rend="indent">Vienen gente de copete</l>
+              <l>y curros de caliá,</l>
+              <l>á mí nenguno se atreve,</l>
+              <l>porque me conocan ya.</l>
+              <l>Pa tomar, etc.</l>
+            </lg>
+
+            <lg>
+              <l rend="indent">No sirve el mejor recreo,</l>
+              <l>ni nenguna maraviya,</l>
+              <l>pa la tienda de guñuelos</l>
+              <l>que tiene esta curra en Seviya.</l>
+              <l>Pa tomar, etc.</l>
+            </lg>
+
+            <pb n="3" source="Varios_085_3.jpg" facs="varios/Varios_085_3.jpg/"/>
+          </div>
+
+          <div n="3">
+            <head type="titulo_cancion" rend="negrita"><lb/><hi rend="negrita">EL GALEGO
+                ENAMORADO,</hi><lb/>À SUA<lb/>MARUSIÑA.</head>
+            <lg>
+              <l rend="indent">Marusiña, tu refaijo,</l>
+              <l>por vida de Juan Piliño,</l>
+              <l>non lo botes amarelo,</l>
+              <l>bótalo arrebanadiño.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Al amor del pampilimplin</l>
+              <l>pimpilimplin,</l>
+              <l>perdium perdium,</l>
+              <l>pampilin pimpilin,</l>
+              <l>á la moisa, moisa, moisa,</l>
+              <l>mi marusiña non vale coisa.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Si te vas á Santiajo</l>
+              <l>còmprame un Santiajiño,</l>
+              <l>non me lu compres muy grande,</l>
+              <l>que le quieru chiquitiño.</l>
+              <l rend="indent">Al amor, etc.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Al camino de Santiajo</l>
+              <l>una espiña me picó,</l>
+              <l>la feridiña fue mala,</l>
+              <l>aluego se me enconó.</l>
+              <l rend="indent">Al amor, etc.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Una veya me engañó</l>
+              <l>por debaiso de una porta,</l>
+              <l>nunca lo creyera yo,</l>
+              <l>era veya, coisa e torta.</l>
+              <l rend="indent">Al amor, etc.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Farruquiño e Marusiña</l>
+              <l>bailaban una muñeira,</l>
+              <l>á lo mejor el farruco</l>
+              <l>marchose á ver sus figueiras.</l>
+              <l rend="indent">Al amor, etc.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Si te vas á los Madriles</l>
+              <l>ten cuidado con lus jatos,</l>
+              <l>mira que cojen la carne</l>
+              <l>antes de echarla en lus platos.</l>
+              <l rend="indent">Al amor del pampilimplin</l>
+              <l>pimpilimplin, etc.</l>
+            </lg>
+          </div>
+
+          <div n="4">
+            <pb n="4" source="Varios_085_4.jpg" facs="varios/Varios_085_4.jpg/"/>
+
+            <head type="titulo_cancion" rend="negrita"><lb/>GRACIOSA CANCION DE LA JITANA<lb/>Ó LA
+              BUENA VENTURA.</head>
+
+            <p><lb/>Ave María Purísima. !! —Sin pecao concebia.!!</p>
+
+            <lg>
+              <l rend="indent">Aqui está la bailaora,</l>
+              <l>la que encubre en su guaria</l>
+              <l>los misterios de la via</l>
+              <l>por recónditos que estén.</l>
+              <l>Sin guiñar á naide el ojo</l>
+              <l>arrepara bien, moreno,</l>
+              <l>que si tú eres macareno</l>
+              <l>macarena soy tambien.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Yo soy la Jitana,</l>
+              <l>la jembra que va</l>
+              <l>sin hoy ni mañana</l>
+              <l>de aqui para allá ;</l>
+              <l>y erramo consuelos...</l>
+              <l>y entono primores...</l>
+              <l>y vendo pañuelos,</l>
+              <l>y galas y flores;</l>
+              <l>tambíen hago curas</l>
+              <l>por poco parné :</l>
+              <l>la guena ventura</l>
+              <l>¿quién la quie sabé ?</l>
+            </lg>
+            <lg>
+              <l rend="indent">Naide, naide toque audana,</l>
+              <l>too lo dica la Jitana,</l>
+              <l>chachipé !</l>
+              <l>venga el unto y el parné.</l>
+            </lg>
+            <lg>
+              <l rend="indent">La de los ojitos bajos</l>
+              <l>que la dan los hombres mico,</l>
+              <l>clariá y menes rodeo,</l>
+              <l>que á mi no me engaña usté.</l>
+              <l>Si están pregonando, niña,</l>
+              <l>las rayitas de esa mano,</l>
+              <l>que caerá mas de un cristiano</l>
+              <l>prisionero en esa red.</l>
+              <l>Yo soy la Jitana, etc.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Saque usté, salero, Pepe,</l>
+              <l>esa mano soberana,</l>
+              <l>que ahora mismo la Jitana</l>
+              <l>con usté se va á enrear;</l>
+              <l>la fortuna que hace luna...</l>
+              <l>jui qué mano, santo Cielo!</l>
+              <l>no echará usté muy guen pelo</l>
+              <l>mientras esté por acá.</l>
+              <l>Yo soy la Jitana.</l>
+            </lg>
+          </div>
+
         </div>
-        <div type="cancion" n="2">
-          <head type="titulo_cancion" rend="negrita"><lb/>LA BUÑOLERA.</head>
-          <lg>
-            <l>Con mi lebriyo de masa,</l>
-            <l>mi jorniyita ensendia,</l>
-            <l>y la sarten hecha brasa,</l>
-            <l>paso alegre toa mi via.</l>
-            <l>Pa tomar el aguardiente</l>
-            <l>estos sí que son canela;</l>
-            <l>quién los quiere, quién los yeva,</l>
-            <l>que han salio calentitos,</l>
-            <l>estos si que son canela;</l>
-            <l>quién los quiere, quién los yeva,</l>
-            <l>quién, quién, quién los yeva!</l>
-            <l>Aunque con aceite ando</l>
-            <l>soy mas relimpia que el sol,</l>
-            <l>ahi siempre estoy meneando</l>
-            <l>la sarten, que es un primor.</l>
-            <l>Pa tomar, etc.</l>
-            <l>Cuando me pongo en mi choza</l>
-            <l>y se me acerca un señó,</l>
-          </lg>
-          <lg>
-            <l>me compra toa la bacienda</l>
-            <l>por lo bien que espacho yo.</l>
-            <l>Pa tomar, etc.</l>
-            <l>Todos vienen á mi puesto</l>
-            <l>porque les gusta probá</l>
-            <l>los guñuelos que yo hago,</l>
-            <l>porque son de caliá.</l>
-            <l>Pa tomar, etc.</l>
-            <l>Vienen gente de copete</l>
-            <l>y curros de caliá,</l>
-            <l>á mí nenguno se atreve,</l>
-            <l>porque me conocan ya.</l>
-            <l>Pa tomar, etc.</l>
-            <l>No sirve el mejor recreo,</l>
-            <l>ni nenguna maraviya,</l>
-            <l>pa la tienda de guñuelos</l>
-            <l>que tiene esta curra en Seviya.</l>
-            <l>Pa tomar, etc.</l>
-          </lg>
-          <pb n="3" source="Varios_085_3.jpg" facs="fedora_Varios_085_3/full/full/0/default.jpg"/>
-        </div>
-        <div type="cancion" n="3">
-          <head type="titulo_cancion" rend="negrita"><lb/><hi rend="negrita">EL GALEGO ENAMORADO,</hi><lb/>À
-                                    SUA<lb/>MARUSIÑA.</head>
-          <lg>
-            <l>Marusiña, tu refaijo,</l>
-            <l>por vida de Juan Piliño,</l>
-            <l>non lo botes amarelo,</l>
-            <l>bótalo arrebanadiño.</l>
-          </lg>
-          <lg>
-            <l>Al amor del pampilimplin</l>
-            <l>pimpilimplin,</l>
-            <l>perdium perdium,</l>
-            <l>pampilin pimpilin,</l>
-            <l>á la moisa, moisa, moisa,</l>
-            <l>mi marusiña non vale coisa.</l>
-          </lg>
-          <lg>
-            <l>Si te vas á Santiajo</l>
-            <l>còmprame un Santiajiño,</l>
-            <l>non me lu compres muy grande,</l>
-            <l>que le quieru chiquitiño.</l>
-            <l>Al amor, etc.</l>
-          </lg>
-          <lg>
-            <l>Al camino de Santiajo</l>
-            <l>una espiña me picó,</l>
-            <l>la feridiña fue mala,</l>
-            <l>aluego se me enconó.</l>
-            <l>Al amor, etc.</l>
-          </lg>
-          <lg>
-            <l>Una veya me engañó</l>
-            <l>por debaiso de una porta,</l>
-            <l>nunca lo creyera yo,</l>
-            <l>era veya, coisa e torta.</l>
-            <l>Al amor, etc.</l>
-          </lg>
-          <lg>
-            <l>Farruquiño e Marusiña</l>
-            <l>bailaban una muñeira,</l>
-            <l>á lo mejor el farruco</l>
-            <l>marchose á ver sus figueiras.</l>
-            <l>Al amor, etc.</l>
-          </lg>
-          <lg>
-            <l>Si te vas á los Madriles</l>
-            <l>ten cuidado con lus jatos,</l>
-            <l>mira que cojen la carne</l>
-            <l>antes de echarla en lus platos.</l>
-            <l>Al amor del pampilimplin</l>
-            <l>pimpilimplin, etc.</l>
-          </lg>
-          <pb n="4" source="Varios_085_4.jpg" facs="fedora_Varios_085_4/full/full/0/default.jpg"/>
-        </div>
-        <div type="cancion" n="4">
-          <head type="titulo_cancion" rend="negrita"><lb/>GRACIOSA CANCION DE LA JITANA<lb/>Ó LA BUENA
-                                    VENTURA.</head>
-          <p><lb/>Ave María Purísima. !! —Sin pecao concebia.!!</p>
-          <lg>
-            <l>Aqui está la bailaora,</l>
-            <l>la que encubre en su guaria</l>
-            <l>los misterios de la via</l>
-            <l>por recónditos que estén.</l>
-            <l>Sin guiñar á naide el ojo</l>
-            <l>arrepara bien, moreno,</l>
-            <l>que si tú eres macareno</l>
-            <l>macarena soy tambien.</l>
-          </lg>
-          <lg>
-            <l>Yo soy la Jitana,</l>
-            <l>la jembra que va</l>
-            <l>sin hoy ni mañana</l>
-            <l>de aqui para allá ;</l>
-            <l>y erramo consuelos...</l>
-            <l>y entono primores...</l>
-            <l>y vendo pañuelos,</l>
-            <l>y galas y flores;</l>
-            <l>tambíen hago curas</l>
-            <l>por poco parné :</l>
-            <l>la guena ventura</l>
-            <l>¿quién la quie sabé ?</l>
-            <l>Naide, naide toque audana,</l>
-          </lg>
-          <lg>
-            <l>too lo dica la Jitana,</l>
-            <l>chachipé !</l>
-            <l>venga el unto y el parné.</l>
-          </lg>
-          <lg>
-            <l>La de los ojitos bajos</l>
-            <l>que la dan los hombres mico,</l>
-            <l>clariá y menes rodeo,</l>
-            <l>que á mi no me engaña usté.</l>
-            <l>Si están pregonando, niña,</l>
-            <l>las rayitas de esa mano,</l>
-            <l>que caerá mas de un cristiano</l>
-            <l>prisionero en esa red.</l>
-            <l>Yo soy la Jitana, etc.</l>
-          </lg>
-          <lg>
-            <l>Saque usté, salero, Pepe,</l>
-            <l>esa mano soberana,</l>
-            <l>que ahora mismo la Jitana</l>
-            <l>con usté se va á enrear;</l>
-            <l>la fortuna que hace luna...</l>
-            <l>jui qué mano, santo Cielo!</l>
-            <l>no echará usté muy guen pelo</l>
-            <l>mientras esté por acá.</l>
-            <l>Yo soy la Jitana</l>
-          </lg>
-        </div>
+        
         <div type="colofon">
-          <p><lb/>MADRID:=1854.<lb/>Se hallará en la plazuela de la Cebada num.
-                                    96.</p>
+          <p><lb/>MADRID:=1854.<lb/>Se hallará en la plazuela de la Cebada num. 96.</p>
         </div>
       </div>
     </body>

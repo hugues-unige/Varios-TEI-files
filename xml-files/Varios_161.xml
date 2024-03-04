@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../Schema/oddPliego_varios.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:alto="http://www.loc.gov/standards/alto/ns-v4#" xml:id="Varios_161">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Varios_161">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -11,8 +11,7 @@
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <authority role="rightsHolder">Bibliothèque Universitaire de
-                            Genève</authority>
+        <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
         <availability status="restricted">
           <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
         </availability>
@@ -20,16 +19,18 @@
       <sourceDesc>
         <biblFull>
           <titleStmt>
-            <title type="titulo_completo">Nuevo y curioso papel en el que se da cuenta y declara el horrible asesinato que han ejecutado en el pueblo de Berzocana, provincia de Cáceres en la madrugada del 26 de octubre del presento año</title>
+            <title type="titulo_completo">Nuevo y curioso papel en el que se da cuenta y declara el
+              horrible asesinato que han ejecutado en el pueblo de Berzocana, provincia de Cáceres
+              en la madrugada del 26 de octubre del presento año</title>
             <title type="titulo_breve">Nuevo y curioso papel</title>
           </titleStmt>
           <editionStmt>
             <p/>
           </editionStmt>
           <publicationStmt>
-            <publisher>Imprenta García</publisher>
+            <publisher>García</publisher>
             <pubPlace ref="https://www.geonames.org/3128760/barcelona.html">Barcelona</pubPlace>
-            <date cert="high">[s.a]</date>
+            <date cert="low" when="1800-01-01">[s.a.]</date>
           </publicationStmt>
         </biblFull>
         <msDesc>
@@ -37,7 +38,8 @@
             <country>Suisse</country>
             <settlement>Genève</settlement>
             <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"/>
-                  </repository>
+            </repository>
+            <collection>Colección Varios</collection>
             <idno type="cote"/>
             <idno type="DOI">10.5281/zenodo.6587180</idno>
             <altIdentifier>
@@ -45,10 +47,14 @@
             </altIdentifier>
           </msIdentifier>
           <msContents>
-            <summary/>
+            <summary>Dos partes</summary>
             <msItem>
-              <locus/>
-              <title/>
+              <locus>1-2</locus>
+              <title>Primera parte</title>
+            </msItem>
+            <msItem>
+              <locus>3-4</locus>
+              <title>Segunda parte</title>
             </msItem>
           </msContents>
           <physDesc>
@@ -66,14 +72,13 @@
               </layoutDesc>
             </objectDesc>
             <decoDesc>
-              <summary n="4">Cuatro cinco seis grabados
-                                        (p.1, p.3) </summary>
+              <summary n="4">Cuatro cinco seis grabados (p.1, p.3) </summary>
               <decoNote type="lista_grabados">
                 <list>
                   <item corresp="grabado_v_161_1.xml">grabado_v_161_1</item>
                   <item corresp="grabado_v_161_2.xml">grabado_v_161_2</item>
-                  <item corresp="grabado_v_161_1.xml">grabado_v_161_1</item>
-                  <item corresp="grabado_v_161_2.xml">grabado_v_161_2</item>
+                  <item corresp="grabado_v_161_3.xml">grabado_v_161_3</item>
+                  <item corresp="grabado_v_161_4.xml">grabado_v_161_4</item>
                 </list>
               </decoNote>
             </decoDesc>
@@ -91,18 +96,17 @@
     </fileDesc>
     <encodingDesc>
       <projectDesc>
-        <p>Este archivo fue creado en el marco del proyecto Desenrollando el
-                            Cordel/Démêler le cordel/Untangling the cordel, dirigido por la
-                            profesora Constance Carta de la Universidad de Ginebra, con el apoyo de
-                            la Fundación filantrópica Famille Sandoz-Monique de Meuron.</p>
+        <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+          cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la Universidad
+          de Ginebra, con el apoyo de la Fundación filantrópica Famille Sandoz-Monique de
+          Meuron.</p>
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR non corregido</p>
+          <p>OCR no corregido</p>
         </correction>
         <normalization>
-          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto
-                                original.</p>
+          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
         </normalization>
         <punctuation>
           <p>Se conserva la puntuación original.</p>
@@ -124,9 +128,13 @@
     </profileDesc>
     <revisionDesc>
       <change when="2023-03-12" who="#PJ">Création du fichier TEI P5 et encodage du corps du
-                        texte</change>
+        texte</change>
+      <change when="2024-01-09" who="#EL">Add the IIIF links</change>
     </revisionDesc>
   </teiHeader>
+  <facsimile>
+    <graphic url="varios/Varios_161_1.jpg/full/200,/0/default.jpg"/>
+  </facsimile>
   <sourceDoc xml:id="automaticTranscription">
     <surface xml:id="Varios_161_1" type="page" cert="silver">
       <graphic url="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_161_1/full/full/0/default.jpg"/>
@@ -1100,12 +1108,17 @@
   <text>
     <body>
       <div>
-        <pb n="1" source="Varios_161_1.jpg" facs="fedora_Varios_161_1/full/full/0/default.jpg"/>
         <div>
-          <head type="primer_titulo"><lb/>Nuevo y curioso papel<lb/>en el que se da cuenta y declara el horrible asesinato que<lb/>han ejecutado en el pueblo de Berzocana,<lb/>provincia de Cáceres<lb/>en la madrugada del 26 de octubre del presento año</head>
-          <head type="titulo_parte"><lb/>PRIMIERA PARTE</head>
-          <lg>
-            <l>A la bellísíma aurora,</l>
+          <pb n="1" source="Varios_161_1.jpg" facs="varios/Varios_161_1.jpg/"/>
+          <head type="primer_titulo"><lb/><hi rend="negrita">Nuevo y curioso papel</hi><lb/>en el
+            que se da cuenta y declara el horrible asesinato que<lb/>han ejecutado en el pueblo de
+            Berzocana,<lb/>provincia de Cáceres<lb/>en la madrugada del 26 de octubre del presento
+            año</head>
+
+          <div n="1" type="parte">
+            <head type="titulo_parte"><lb/>PRIMIERA PARTE</head>
+
+            <l rend="indent">A la bellísíma aurora,</l>
             <l>Madre del divino Verbo,</l>
             <l>le pido me dé su gracia</l>
             <l>porque sin ella no puedo</l>
@@ -1113,9 +1126,7 @@
             <l>ni á mis labios movimiento,</l>
             <l>para poder explicar</l>
             <l>el caso más estupendo.</l>
-          </lg>
-          <lg>
-            <l>En la provincia de Cáceres</l>
+            <l rend="indent">En la provincia de Cáceres</l>
             <l>en la sierra de Guadalupe,</l>
             <l>que por españa es nombrada,</l>
             <l>se encuentra nn famoso pueblo</l>
@@ -1123,11 +1134,11 @@
             <l>habitaba un caballero</l>
             <l>que don Fulgencio se llama,</l>
             <l>casado con doña Dolores</l>
-          </lg>
-          <pb n="2" source="Varios_161_2.jpg" facs="fedora_Varios_161_2/full/full/0/default.jpg"/>
-          <lg>
+
+            <pb n="2" source="Varios_161_2.jpg" facs="varios/Varios_161_2.jpg/"/>
+
             <l>Flores, que así se llamaba.</l>
-            <l>Estos tenían tres hijas</l>
+            <l rend="indent">Estos tenían tres hijas</l>
             <l>y un hijo sólo en la casa,</l>
             <l>y un criado que tenian</l>
             <l>y tambiénona eriada,</l>
@@ -1137,15 +1148,15 @@
             <l>diezy ocho años que está en casa,</l>
             <l>tenía su mayeral</l>
             <l>y dos hijos que le ecompaña.</l>
-            <l>Y un zagal de los cochinos,</l>
+            <l rend="indent">Y un zagal de los cochinos,</l>
             <l>hasta cinco se juntaban</l>
             <l>los mozos que aquí tenía</l>
             <l>el tal don Fulgencio en casa.</l>
-            <l>El veintiseis de Octubre</l>
+            <l rend="indent">El veintiseis de Octubre</l>
             <l>ha ocurrido esta desgracia</l>
             <l>que ahora se refiere</l>
             <l>en esta famosa plana.</l>
-            <l>A las once de la noche</l>
+            <l rend="indent">A las once de la noche</l>
             <l>un criado de la casa,</l>
             <l>el tal llamado José,</l>
             <l>un poco aceite le untaba</l>
@@ -1157,7 +1168,7 @@
             <l>el encargado de la casa,</l>
             <l>con el zagal de los cochinos</l>
             <l>y todos cuatro en compañía.</l>
-            <l>Serian las once y media</l>
+            <l rend="indent">Serian las once y media</l>
             <l>entran los cuatro en la casa,</l>
             <l>y le entregaron la luz</l>
             <l>al mozo que en casa estaba,</l>
@@ -1165,7 +1176,7 @@
             <l>hacia donde su amo estaba</l>
             <l>acostado con su esposa...</l>
             <l>aquí la pluma se para.</l>
-            <l>Aquí se turba el sentido</l>
+            <l rend="indent">Aquí se turba el sentido</l>
             <l>al ver tan grande desgracia</l>
             <l>con su amo y con su ama</l>
             <l>que ejecutaron los cinco,</l>
@@ -1173,17 +1184,15 @@
             <l>y también con la criada,</l>
             <l>y á un niño de nueve años</l>
             <l>que dormía en su compañía.</l>
-            <l>A su amo desgraciado</l>
+            <l rend="indent">A su amo desgraciado</l>
             <l>leasesinan con un hacha,</l>
-          </lg>
-          <lg>
             <l>y á su desgraciada esposa</l>
             <l>que también laa sesinaban</l>
             <l>con aquella hacha cortante</l>
             <l>que en la sien derecha daba,</l>
             <l>una puñalada en el vientre</l>
             <l>á la señora la daban.</l>
-            <l>Sin tener temor de Dios</l>
+            <l rend="indent">Sin tener temor de Dios</l>
             <l>ejecutan tal infamia,</l>
             <l>pasararon á la primera</l>
             <l>alcaba en la misma sala</l>
@@ -1191,32 +1200,32 @@
             <l>¡qué lástima y que desgracia!</l>
             <l>una de diez y siete años</l>
             <l>y otra á quince no llegaba.</l>
-            <l>¡Y qué muerte tan cruel</l>
+            <l rend="indent">¡Y qué muerte tan cruel</l>
             <l>sufrieron las desgraciadas!</l>
             <l>Pasaron á la segunda</l>
             <l>alcoba en la misma sala</l>
             <l>donde está la hija mayor</l>
             <l>que Providencia se llama.</l>
-            <l>Eran sus ojos dos luceros</l>
+            <l rend="indent">Eran sus ojos dos luceros</l>
             <l>y una azucena su cara,</l>
             <l>¡y qué muerte tan cruel</l>
             <l>rncibió la desgraciada!</l>
             <l>de edad de diez y nueve años</l>
             <l>la vida se la quitaban.</l>
-            <l>Pasaron á la habitación</l>
+            <l rend="indent">Pasaron á la habitación</l>
             <l>donde dormía la criada</l>
             <l>en compañía del hijo menor de la casa</l>
             <l>que para hacer compañía</l>
             <l>dormía junto á su cama;</l>
             <l>también la muerte les dieron</l>
             <l>al chico y la criada.</l>
-            <l>Ella lucha con los cinco</l>
+            <l rend="indent">Ella lucha con los cinco</l>
             <l>más las fuerzas le faltaqan</l>
             <l>y en el costado izquierdo</l>
             <l>la dan una puñalada</l>
             <l>que le atravesó el corazón</l>
             <l>quedó su vida finada.</l>
-            <l>El chico llorando á gritos</l>
+            <l rend="indent">El chico llorando á gritos</l>
             <l>á sus padres los llamaba</l>
             <l>más lo ponen de rodillas</l>
             <l>y lo hacen volver de espaldas</l>
@@ -1226,23 +1235,24 @@
             <l>abandonon la matanza</l>
             <l>y se dedican al robo</l>
             <l>de cuanto había en la casa.</l>
-          </lg>
-        </div>
-        <div type="colofon">
-          <p>Tip. M. Garcia; Miláns, 4.=Barcelona</p>
-        </div>
-        <pb n="3" source="Varios_161_3.jpg" facs="fedora_Varios_161_3/full/full/0/default.jpg"/>
-        <div>
-          <head type="titulo_parte"><lb/>SEGUNDA PARTE</head>
-          <lg>
-            <l>Abren cómodas y cofres</l>
+
+            <div type="colofon">
+              <p>Tip. M. Garcia; Miláns, 4.=Barcelona</p>
+            </div>
+          </div>
+
+          <div n="2" type="parte">
+            <pb n="3" source="Varios_161_3.jpg" facs="varios/Varios_161_3.jpg/"/>
+            <head type="titulo_parte"><lb/>SEGUNDA PARTE</head>
+
+            <l rend="indent">Abren cómodas y cofres</l>
             <l>y las aroas que encontraban</l>
             <l>buscando todo el dinero,</l>
             <l>que lo que ellos procuraban</l>
             <l>era robar á su amo.</l>
             <l>y por eso asesinaron</l>
             <l>á la familia de casa.</l>
-            <l>A la calle se marcharon</l>
+            <l rend="indent">A la calle se marcharon</l>
             <l>todos cinco en compañia</l>
             <l>el mayoral y sus dos hijos</l>
             <l>el encargado de la casa</l>
@@ -1250,9 +1260,7 @@
             <l>y todos juntos se marchan</l>
             <l>en casa del mayoral</l>
             <l>y allí el robo disfrutaban.</l>
-          </lg>
-          <lg>
-            <l>En el veintiseis de Gctubre</l>
+            <l rend="indent">En el veintiseis de Gctubre</l>
             <l>los cinco, de madrugada</l>
             <l>en casa del mayoral</l>
             <l>la discusión empezaba</l>
@@ -1267,9 +1275,9 @@
             <l>pues hemos sido los cuatro</l>
             <l>autores de la matanza.</l>
             <l>y tú, sólo alumbrabas;</l>
-          </lg>
-          <pb n="4" source="Varios_161_4.jpg" facs="fedora_Varios_161_4/full/full/0/default.jpg"/>
-          <lg>
+
+            <pb n="4" source="Varios_161_4.jpg" facs="varios/Varios_161_4.jpg/"/>
+
             <l>por eso mismo sabrás,</l>
             <l>que casi no te toca nada,</l>
             <l>—Yo quiero la misma parte,</l>
@@ -1291,7 +1299,7 @@
             <l>á dar parte se marchaba</l>
             <l>de todo lo ejecutado</l>
             <l>por aquellas fieras malvadas.</l>
-            <l>Más los cuatro en compañía</l>
+            <l rend="indent">Más los cuatro en compañía</l>
             <l>á la montaña se echaban</l>
             <l>pero con tan poca suerte</l>
             <l>á ellos les cobijaba</l>
@@ -1308,8 +1316,6 @@
             <l>Prendieron los otros dos,</l>
             <l>á la cárcel los llevaban</l>
             <l>y en compañía de Frasquito</l>
-          </lg>
-          <lg>
             <l>el crimen lo declaraban</l>
             <l>dando parte al señor Juez</l>
             <l>y al Teniente de la Guardia;</l>
@@ -1323,7 +1329,7 @@
             <l>el Teniente de la Guardia</l>
             <l>metió á todos en la cárcel,</l>
             <l>declaración les tomaban.</l>
-            <l>Y todos han declarado</l>
+            <l rend="indent">Y todos han declarado</l>
             <l>sin equivocarse nada;</l>
             <l>los conducen á la cárcel</l>
             <l>de Cáceres que se llama,</l>
@@ -1334,24 +1340,27 @@
             <l>los dos pagaron sus faltas,</l>
             <l>y á Frasquito con seis años</l>
             <l>su participación paga.</l>
-            <l>Padres los qne tenéis hijos</l>
+            <l rend="indent">Padres los qne tenéis hijos</l>
             <l>mirad á cuantas desgracias</l>
             <l>acarrean la avaricla</l>
             <l>del dinero y otras galas.</l>
-            <l>Darles buena educación,</l>
+            <l rend="indent">Darles buena educación,</l>
             <l>no abandonarlos en nada,</l>
             <l>que los malos pensamientos</l>
             <l>se arraigan en sus entrañas.</l>
-            <l>Dios en la gloria los tenga,</l>
+            <l rend="indent">Dios en la gloria los tenga,</l>
             <l>Dios nos libre y nos defienda</l>
             <l>de pensar acciones malas,</l>
             <l>y dospués de buena muerte</l>
             <l>nos premie en la gloria santa.</l>
-          </lg>
-          <trailer>FIN</trailer>
+
+            <trailer>FIN</trailer>
+          </div>
         </div>
+
         <div type="colofon">
-          <p><lb/>IMPRENTA GARCÍA <lb/>LA MÁS ECONÓMICA <lb/>ILANS, 4, (ezquina Gignáts) BARCELONA</p>
+          <p><lb/>IMPRENTA GARCÍA <lb/>LA MÁS ECONÓMICA <lb/>ILANS, 4, (<hi rend="cursiva">ezquina Gignáts</hi>)
+            BARCELONA</p>
         </div>
       </div>
     </body>

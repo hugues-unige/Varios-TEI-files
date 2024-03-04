@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../Schema/oddPliego_varios.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:alto="http://www.loc.gov/standards/alto/ns-v4#" xml:id="Varios_130">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Varios_130">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -11,8 +11,7 @@
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <authority role="rightsHolder">Bibliothèque Universitaire de
-                              Genève</authority>
+        <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
         <availability status="restricted">
           <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
         </availability>
@@ -20,8 +19,7 @@
       <sourceDesc>
         <biblFull>
           <titleStmt>
-            <title type="titulo_completo"><hi rend="negrita">EL MUNDO</hi>
-                                          EN REVOLUCION.</title>
+            <title type="titulo_completo">EL MUNDO EN REVOLUCION.</title>
             <title type="titulo_breve"/>
           </titleStmt>
           <editionStmt>
@@ -30,7 +28,7 @@
           <publicationStmt>
             <publisher>Juan Bautista Vidal</publisher>
             <pubPlace ref="https://www.geonames.org/3111933/reus.html">Reus</pubPlace>
-            <date cert="high">1852</date>
+            <date cert="high" when="1852-01-01">1852</date>
           </publicationStmt>
         </biblFull>
         <msDesc>
@@ -38,7 +36,8 @@
             <country>Suisse</country>
             <settlement>Genève</settlement>
             <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"/>
-                                    </repository>
+            </repository>
+            <collection>Colección Varios</collection>
             <idno type="cote"/>
             <idno type="DOI">10.5281/zenodo.6577486</idno>
             <altIdentifier>
@@ -67,7 +66,7 @@
               </layoutDesc>
             </objectDesc>
             <decoDesc>
-              <summary n="1">Uno grabado (p.1) </summary>
+              <summary n="1">Un grabado (p.1)</summary>
               <decoNote type="lista_grabados">
                 <list>
                   <item corresp="grabado_v_130_1.xml">grabado_v_130_1</item>
@@ -92,18 +91,17 @@
     </fileDesc>
     <encodingDesc>
       <projectDesc>
-        <p>Este archivo fue creado en el marco del proyecto Desenrollando el
-                              Cordel/Démêler le cordel/Untangling the cordel, dirigido por la
-                              profesora Constance Carta de la Universidad de Ginebra, con el apoyo
-                              de la Fundación filantrópica Famille Sandoz-Monique de Meuron.</p>
+        <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+          cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la Universidad
+          de Ginebra, con el apoyo de la Fundación filantrópica Famille Sandoz-Monique de
+          Meuron.</p>
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR non corregido</p>
+          <p>OCR no corregido</p>
         </correction>
         <normalization>
-          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto
-                                    original.</p>
+          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
         </normalization>
         <punctuation>
           <p>Se conserva la puntuación original.</p>
@@ -116,6 +114,7 @@
       </langUsage>
       <textClass>
         <keywords xml:base="http://datos.bne.es/tema/">
+          <term target="XX527614.html" type="tipo_texto">Romances</term>
           <term target="XX527614.html" type="tipo_estrofa">Romances</term>
           <term type="verso_prosa">Verso</term>
           <term type="sagrado_profano">Profano</term>
@@ -123,10 +122,14 @@
       </textClass>
     </profileDesc>
     <revisionDesc>
-      <change when="2022-09-04" who="#PJ">Création du fichier TEI P5 et encodage du
-                        corps du texte</change>
+      <change when="2022-09-04" who="#PJ">Création du fichier TEI P5 et encodage du corps du
+        texte</change>
+      <change when="2024-01-09" who="#EL">Add the IIIF links</change>
     </revisionDesc>
   </teiHeader>
+  <facsimile>
+    <graphic url="varios/Varios_130_1.jpg/full/200,/0/default.jpg"/>
+  </facsimile>
   <sourceDoc xml:id="automaticTranscription">
     <surface xml:id="Varios_130_1" type="page" cert="silver">
       <graphic url="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_130_1/full/full/0/default.jpg"/>
@@ -1234,8 +1237,7 @@
       <zone xml:id="Varios_130_4_BT228_4" n="4" type="MarginTextZone" subtype="colophon" points="1556,2221 1585,2344 247,2336 238,2308 238,2300 312,2242 719,2243 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_130_4/238,2221,1347,123/full/0/default" corresp="MarginTextZone:colophon">
         <zone xml:id="Varios_130_4_BT228_4_LT83_1" type="DefaultLine" subtype="none" points="289,2302 289,2223 333,2223 333,2223 333,2223 335,2223 335,2223 335,2223 337,2223 337,2223 337,2223 337,2225 348,2234 366,2225 368,2223 370,2223 370,2223 372,2223 372,2223 375,2223 456,2223 456,2223 456,2223 458,2223 458,2223 458,2223 460,2223 460,2223 460,2225 464,2228 495,2260 543,2263 616,2263 629,2249 629,2247 629,2247 631,2247 631,2247 631,2247 633,2247 633,2247 636,2247 636,2247 636,2247 688,2258 717,2245 717,2245 717,2245 719,2245 719,2245 721,2245 721,2245 721,2245 723,2245 776,2263 890,2263 910,2245 927,2230 927,2228 927,2228 929,2228 929,2228 929,2228 932,2228 932,2228 934,2228 934,2228 934,2228 936,2228 936,2228 936,2228 938,2228 967,2247 971,2252 978,2247 1004,2228 1006,2228 1006,2228 1006,2228 1008,2228 1008,2228 1011,2228 1055,2228 1055,2228 1055,2228 1120,2239 1138,2230 1138,2230 1138,2230 1140,2230 1140,2230 1140,2230 1142,2230 1142,2230 1144,2230 1144,2230 1144,2230 1147,2230 1177,2249 1230,2230 1230,2230 1232,2230 1232,2230 1234,2230 1234,2230 1291,2236 1291,2236 1294,2236 1294,2236 1294,2236 1296,2236 1329,2260 1340,2269 1460,2269 1465,2265 1511,2236 1513,2236 1513,2236 1513,2236 1515,2236 1515,2236 1517,2236 1517,2236 1517,2236 1520,2236 1520,2236 1520,2236 1577,2269 1574,2313 1570,2363 1469,2342 1397,2346 1377,2363 1373,2368 1373,2368 1370,2368 1370,2368 1370,2368 1368,2368 1368,2368 1368,2368 1366,2368 1322,2366 1322,2366 1322,2366 1320,2366 1320,2366 1318,2366 1318,2366 1318,2363 1318,2363 1316,2363 1302,2348 1280,2363 1280,2363 1278,2363 1278,2363 1278,2363 1276,2363 1276,2363 1276,2363 1061,2366 1059,2366 1059,2366 1057,2366 1039,2361 978,2346 960,2361 960,2361 958,2361 958,2361 958,2361 958,2361 956,2361 956,2361 954,2361 954,2361 954,2361 951,2361 951,2361 951,2361 949,2361 949,2361 919,2337 872,2350 870,2350 870,2350 870,2350 868,2350 868,2350 866,2350 866,2350 866,2350 864,2350 864,2350 864,2348 851,2335 802,2335 747,2359 747,2359 745,2359 745,2359 745,2359 743,2359 743,2359 743,2359 741,2359 741,2359 741,2359 739,2359 739,2359 710,2333 546,2333 486,2348 484,2348 484,2348 482,2348 482,2348 482,2348 480,2348 480,2348 480,2348 456,2335 423,2359 423,2359 421,2359 421,2359 421,2359 418,2359 418,2359 416,2359 285,2357 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_130_4/285,2223,1292,145/full/0/default" corresp="DefaultLine">
           <path xml:id="Varios_130_4_BT228_4_LT83_1_1" points="289,2302 1574,2313 "/>
-          <line>Reus: Imprenta de Juan Bautista Vidal, calle Mayor. —
-                                    1852.</line>
+          <line>Reus: Imprenta de Juan Bautista Vidal, calle Mayor. — 1852.</line>
         </zone>
       </zone>
       <zone xml:id="Varios_130_4_BT231_5" n="5" type="NumberingZone" subtype="page" points="224,158 224,234 289,234 289,158 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_130_4/224,158,65,76/full/0/default" corresp="NumberingZone:page"/>
@@ -1244,12 +1246,15 @@
   <text>
     <body>
       <div>
-        <pb n="1" source="Varios_130_1.jpg" facs="fedora_Varios_130_1/full/full/0/default.jpg"/>
-        <fw type="numeroPliego">Núm. 33.</fw>
         <div>
+          <pb n="1" source="Varios_130_1.jpg" facs="varios/Varios_130_1.jpg/"/>
+        
+          <fw type="numeroPliego">Núm. 33.</fw>
+        
           <head type="primer_titulo"><lb/>EL MUNDO<lb/>EN REVOLUCION.</head>
+
           <lg>
-            <l>La catedral de Sevilla</l>
+            <l rend="indent">La catedral de Sevilla</l>
             <l>se quejó del Vaticano,</l>
             <l>y la fragua de Vulcano</l>
             <l>dió queja contra Castilla:</l>
@@ -1260,8 +1265,9 @@
             <l>de que el gran Napoleon</l>
             <l>deslumbraba el orizonte.</l>
           </lg>
+
           <lg>
-            <l>Pero el vapor de Igualada</l>
+            <l rend="indent">Pero el vapor de Igualada</l>
             <l>para Lóndres se marchó,</l>
             <l>Puerto-Rico se enfadó.</l>
             <l>y se vino á Perellada:</l>
@@ -1272,10 +1278,13 @@
             <l>que el pueblo de la Figuera</l>
             <l>le llamaba impertinente.</l>
           </lg>
-          <pb n="2" source="Varios_130_2.jpg" facs="fedora_Varios_130_2/full/full/0/default.jpg"/>
+
+          <pb n="2" source="Varios_130_2.jpg" facs="varios/Varios_130_2.jpg/"/>
+
           <fw type="paginaNum">2</fw>
+
           <lg>
-            <l>Java se marchó al Brasil,</l>
+            <l rend="indent">Java se marchó al Brasil,</l>
             <l>Anger mudó su destino,</l>
             <l>Venecia se fué al Casino</l>
             <l>y Madrid á Guayaquil:</l>
@@ -1285,7 +1294,10 @@
             <l>allá en Valls, á las cienfuentes,</l>
             <l>llegaron los insurgentes</l>
             <l>y todas las derribaron.</l>
-            <l>Súpolo el gran Alejandro,</l>
+          </lg>
+
+          <lg>
+            <l rend="indent">Súpolo el gran Alejandro,</l>
             <l>y ordena á Napoleon,</l>
             <l>fuera á verse con Pluton</l>
             <l>para prender á Lizandro:</l>
@@ -1295,7 +1307,10 @@
             <l>en queja de Catilina,</l>
             <l>á tiempo que Procerpina</l>
             <l>daba baño á Faraon.</l>
-            <l>Pilatos tuvo noticia</l>
+          </lg>
+
+          <lg>
+            <l rend="indent">Pilatos tuvo noticia</l>
             <l>y manda un recado á Delo;</l>
             <l>pero el valenciano Nelo</l>
             <l>los burla y marcha á Galicia:</l>
@@ -1305,7 +1320,10 @@
             <l>y despues pasando el Nilo,</l>
             <l>que salga para Pamfilo</l>
             <l>en busca de Mustafá.</l>
-            <l>Alburquerque, el portugués,</l>
+          </lg>
+
+          <lg>
+            <l rend="indent">Alburquerque, el portugués,</l>
             <l>manda un recado al Sultan,</l>
             <l>y la burra de Balan</l>
             <l>hizo caer á un frances:</l>
@@ -1315,10 +1333,11 @@
             <l>se queria emancipar</l>
             <l>del Océano; y Gibraltar</l>
             <l>le buscó veinte mil pelos.</l>
-            <l>El canal de Mosan-Vique</l>
-            <l>á Tenerife riñó,</l>
           </lg>
+
           <lg>
+            <l rend="indent">El canal de Mosan-Vique</l>
+            <l>á Tenerife riñó,</l>
             <l>y Java se separó</l>
             <l>por temor de ir á pique:</l>
             <l>el puerto de D. Fradrique</l>
@@ -1327,7 +1346,10 @@
             <l>que el Mogol y Conchinchina,</l>
             <l>con la Tartaria y la China,</l>
             <l>se emancipaban del mar.</l>
-            <l>El puerto de Guadarrama</l>
+          </lg>
+
+          <lg>
+            <l rend="indent">El puerto de Guadarrama</l>
             <l>escribe á Valladolid,</l>
             <l>porque Valencia del Cid</l>
             <l>se fué al canal de Bahama:</l>
@@ -1337,7 +1359,10 @@
             <l>ayo que fue del Delfin,</l>
             <l>le dió órden á Hibraim</l>
             <l>saliera para London.</l>
-            <l>Lo supo Jerusalen</l>
+          </lg>
+
+          <lg>
+            <l rend="indent">Lo supo Jerusalen</l>
             <l>y reclama al Indostán,</l>
             <l>porque supo que el Sultan</l>
             <l>se apoderó de Beleu:</l>
@@ -1347,7 +1372,10 @@
             <l>al tribunal de la Rota,</l>
             <l>porque, diz, perdió su flota</l>
             <l>en las playas de Sajonia.</l>
-            <l>¿Quién no visto á Robespier</l>
+          </lg>
+
+          <lg>
+            <l rend="indent">¿Quién no visto á Robespier</l>
             <l>presidir un tribunal ?</l>
             <l>de Paris la catedral,</l>
             <l>de rabia se pasó al Ger:</l>
@@ -1357,21 +1385,29 @@
             <l>que fábulas compusiera,</l>
             <l>y á Ganganeli que diera</l>
             <l>á Francia la bendicion.</l>
-            <l>Lo saben los de Loyola</l>
+          </lg>
+
+          <lg>
+            <l rend="indent">Lo saben los de Loyola</l>
             <l>y procuran impedirlo:</l>
             <l>la Prusia sin permitirlo,</l>
             <l>en Europa queda sola:</l>
-          </lg>
-          <pb n="3" source="Varios_130_3.jpg" facs="fedora_Varios_130_3/full/full/0/default.jpg"/>
-          <fw type="paginaNum">3</fw>
-          <lg>
+
+            <pb n="3" source="Varios_130_3.jpg" facs="varios/Varios_130_3.jpg/"/>
+
+            <fw type="paginaNum">3</fw>
+
+
             <l>Volter rodaba la bola,</l>
             <l>Rosó, versos componia,</l>
             <l>y la capital de Ungría</l>
             <l>levantaba la cruzada,</l>
             <l>á tiempo que arruinada</l>
             <l>quedaba la Romanía.</l>
-            <l>Tal fué la consternacion</l>
+          </lg>
+
+          <lg>
+            <l rend="indent">Tal fué la consternacion</l>
             <l>que reinó en el Universo,</l>
             <l>que hasta reinó el viento Cierzo</l>
             <l>que arruinaba el Panteon:</l>
@@ -1381,7 +1417,10 @@
             <l>y con tono magistral,</l>
             <l>dijo: esto está fatal.....</l>
             <l>el mundo se vá á perder.</l>
-            <l>Minos que vió tal desastre,</l>
+          </lg>
+
+          <lg>
+            <l rend="indent">Minos que vió tal desastre,</l>
             <l>lloró como Jeremías,</l>
             <l>y mandó á las siete harpías</l>
             <l>fueran al monte Bonastre:</l>
@@ -1391,7 +1430,10 @@
             <l>manda á la hija de Urias</l>
             <l>que deje sus tonterías,</l>
             <l>y se una con Morfeo.</l>
-            <l>Caifás se dió por sentido,</l>
+          </lg>
+
+          <lg>
+            <l rend="indent">Caifás se dió por sentido,</l>
             <l>llama al punto á Belial</l>
             <l>le envia á Puerto-Real</l>
             <l>á la fuente del olvido:</l>
@@ -1401,19 +1443,23 @@
             <l>salia de la Pamparga,</l>
             <l>cargado para Sambuarga</l>
             <l>con cien quintales de hollin.</l>
-            <l>Tuvo noticia Manila,</l>
+          </lg>
+
+          <lg>
+            <l rend="indent">Tuvo noticia Manila,</l>
             <l>y manda un propio á Malate,</l>
             <l>pero lo supo un Abate</l>
             <l>que al momento avisó á Atila:</l>
             <l>Pedro el Cruel llamó á Sila,</l>
             <l>que vivia allá en Sevilla,</l>
-          </lg>
-          <lg>
             <l>á tiempo que una cuchilla</l>
             <l>un Canónigo mató,</l>
             <l>cuya muerte alborotó</l>
             <l>en Madrid toda la villa.</l>
-            <l>Mas luego Bernat Tonell,</l>
+          </lg>
+
+          <lg>
+            <l rend="indent">Mas luego Bernat Tonell,</l>
             <l>se marchó para Besós,</l>
             <l>cuando Simon el Leprós</l>
             <l>desembarcaba al Vendrell:</l>
@@ -1423,7 +1469,10 @@
             <l>dá con Elias y Enoch</l>
             <l>que bajaban de Vell-lloch</l>
             <l>acompañados de Sausa.</l>
-            <l>Llegó luego el Anti-Cristo,</l>
+          </lg>
+
+          <lg>
+            <l rend="indent">Llegó luego el Anti-Cristo,</l>
             <l>para el Juicio final,</l>
             <l>y la tiara Papal</l>
             <l>la llevaba Pio Sisto:</l>
@@ -1433,7 +1482,10 @@
             <l>un pleito estaba arreglando,</l>
             <l>cuando vió que alborotando</l>
             <l>estaba el sastre Servat.</l>
-            <l>El profeta Daniel</l>
+          </lg>
+
+          <lg>
+            <l rend="indent">El profeta Daniel</l>
             <l>quedó quejoso en estremo,</l>
             <l>y el gigante Colifemo</l>
             <l>compró un dogo y un lebrel:</l>
@@ -1443,7 +1495,10 @@
             <l>se desploma todo el Mundo,</l>
             <l>y Napoleon segundo</l>
             <l>hace dos mil invenciones.</l>
-            <l>Gaeta se resintió</l>
+          </lg>
+
+          <lg>
+            <l rend="indent">Gaeta se resintió</l>
             <l>partió para Castilla,</l>
             <l>Cromwel rompe con la Silla,</l>
             <l>y el Ingles lo continuó:</l>
@@ -1451,13 +1506,17 @@
             <l>en Mascalbó S. Bernardo</l>
             <l>escondido dentro un fardo</l>
             <l>tan espantada quedó,</l>
-          </lg>
-          <pb n="4" source="Varios_130_4.jpg" facs="fedora_Varios_130_4/full/full/0/default.jpg"/>
-          <l>4</l>
-          <lg>
+
+            <pb n="4" source="Varios_130_4.jpg" facs="varios/Varios_130_4.jpg/"/>
+
+            <fw type="paginaNum">4</fw>
+
             <l>que sin pensar se meó</l>
             <l>encima de un leopardo.</l>
-            <l>Salou atónito y triste,</l>
+          </lg>
+
+          <lg>
+            <l rend="indent">Salou atónito y triste,</l>
             <l>no sé como ni porque,</l>
             <l>promulga un auto de Fé</l>
             <l>y Villaseca lo embiste:</l>
@@ -1467,7 +1526,10 @@
             <l>á Ramon Perez criado,</l>
             <l>por saber hubo estafado</l>
             <l>mil doscientas y una dobla.</l>
-            <l>Garibaldi atolondrado</l>
+          </lg>
+
+          <lg>
+            <l rend="indent">Garibaldi atolondrado</l>
             <l>al ver tanta destruccion,</l>
             <l>á la isla de Mahon</l>
             <l>manda que se una al Prado:</l>
@@ -1477,7 +1539,10 @@
             <l>mientras Kab-al-cader</l>
             <l>le fiaba la muger</l>
             <l>á Padre Sevenarola.</l>
-            <l>Miguel Angelo el pintor,</l>
+          </lg>
+
+          <lg>
+            <l rend="indent">Miguel Angelo el pintor,</l>
             <l>y Nicolao de Lapi,</l>
             <l>Maquiavelo y Ura-sapi</l>
             <l>impusieron el terror:</l>
@@ -1487,19 +1552,23 @@
             <l>al ver entrar á Leopoldo,</l>
             <l>no se acordó de Bertoldo</l>
             <l>que en casa dejó en camisa.</l>
-            <l>Noticioso Sancho-Panza</l>
+          </lg>
+
+          <lg>
+            <l rend="indent">Noticioso Sancho-Panza</l>
             <l>le dió queja á D. Quijote</l>
             <l>á tiempo que Bernardote</l>
             <l>se comia la pitanza:</l>
-          </lg>
-          <lg>
             <l>llegó un Maestro de danza</l>
             <l>preguntando por Rossini</l>
             <l>cuando el Triumviro Mazzini</l>
             <l>para Lóndres se embarcó,</l>
             <l>y su mision acabó</l>
             <l>el gran Conde de Villini.</l>
-            <l>Venecia toda azorada,</l>
+          </lg>
+
+          <lg>
+            <l rend="indent">Venecia toda azorada,</l>
             <l>acude á quien no cumplió</l>
             <l>la palabra que empeñó</l>
             <l>en la última asonada:</l>
@@ -1509,7 +1578,10 @@
             <l>con su sueño tan atroz,</l>
             <l>permitió se diera coz</l>
             <l>al pobre é infeliz plebeyo.</l>
-            <l>El Conde de Duribó,</l>
+          </lg>
+
+          <lg>
+            <l rend="indent">El Conde de Duribó,</l>
             <l>hace desprecio á Banbonetre</l>
             <l>mientras, en Madrid un coche</l>
             <l>pisotea á Torrembó:</l>
@@ -1519,7 +1591,10 @@
             <l>hace que salgan á luz</l>
             <l>á tiempo que un Andaluz</l>
             <l>redactaba los anales.</l>
-            <l>Todo es desorden en fin,</l>
+          </lg>
+
+          <lg>
+            <l rend="indent">Todo es desorden en fin,</l>
             <l>y para poder oir</l>
             <l>es necesario decir :</l>
             <l>tambien soy espadachin:</l>
@@ -1530,11 +1605,12 @@
             <l>mientras que todos no obremos</l>
             <l>como el Músico de Tracia.</l>
           </lg>
-          <p><lb/>Es propiedad.</p>
+
+          <p rend="cursiva"><lb/>Es propiedad.</p>
         </div>
+        
         <div type="colofon">
-          <p><lb/>Reus: Imprenta de Juan Bautista Vidal, calle Mayor. —
-                                    1852.</p>
+          <p><lb/><hi rend="cursiva">Reus</hi>: Imprenta de Juan Bautista Vidal, calle Mayor. — 1852.</p>
         </div>
       </div>
     </body>

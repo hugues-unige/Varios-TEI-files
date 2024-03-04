@@ -1,19 +1,17 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../Schema/oddPliego_varios.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:alto="http://www.loc.gov/standards/alto/ns-v4#" xml:id="Varios_172">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Varios_172">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Última voluntad y llegitim testament, del molt honrat carnestoltas,
-                              en lo cual disposa lo seu enterro.</title>
+        <title>Última voluntad y llegitim testament, del molt honrat carnestoltas, en lo cual disposa lo seu enterro.</title>
         <respStmt>
           <name/>
           <resp>Codificación TEI</resp>
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <authority role="rightsHolder">Bibliothèque Universitaire de
-                              Genève</authority>
+        <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
         <availability status="restricted">
           <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
         </availability>
@@ -21,11 +19,9 @@
       <sourceDesc>
         <biblFull>
           <titleStmt>
-            <title type="titulo_completo">Última voluntad y llegitim
-                                          testament, del molt honrat carnestoltas, en lo cual
-                                          disposa lo seu enterro.</title>
-            <title type="titulo_breve">Última voluntad y llegitim
-                                          testament</title>
+            <title type="titulo_completo">Última voluntad y llegitim testament, del molt honrat
+              carnestoltas, en lo cual disposa lo seu enterro.</title>
+            <title type="titulo_breve"/>
           </titleStmt>
           <editionStmt>
             <p/>
@@ -33,7 +29,7 @@
           <publicationStmt>
             <publisher>Joseph Tauló</publisher>
             <pubPlace ref="https://www.geonames.org/3128760/barcelona.html">Barcelona</pubPlace>
-            <date cert="high">1861</date>
+            <date cert="high" when="1861-01-01">1861</date>
           </publicationStmt>
         </biblFull>
         <msDesc>
@@ -41,7 +37,8 @@
             <country>Suisse</country>
             <settlement>Genève</settlement>
             <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"/>
-                                    </repository>
+            </repository>
+            <collection>Colección Varios</collection>
             <idno type="cote"/>
             <idno type="DOI">10.5281/zenodo.6594856</idno>
             <altIdentifier>
@@ -70,7 +67,7 @@
               </layoutDesc>
             </objectDesc>
             <decoDesc>
-              <summary n="1">Uno grabado (p.1) </summary>
+              <summary n="1">Un grabado (p.1) </summary>
               <decoNote type="lista_grabados">
                 <list>
                   <item corresp="grabado_v_172_1.xml">grabado_v_172_1</item>
@@ -97,18 +94,17 @@
     </fileDesc>
     <encodingDesc>
       <projectDesc>
-        <p>Este archivo fue creado en el marco del proyecto Desenrollando el
-                              Cordel/Démêler le cordel/Untangling the cordel, dirigido por la
-                              profesora Constance Carta de la Universidad de Ginebra, con el apoyo
-                              de la Fundación filantrópica Famille Sandoz-Monique de Meuron.</p>
+        <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+          cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la Universidad
+          de Ginebra, con el apoyo de la Fundación filantrópica Famille Sandoz-Monique de
+          Meuron.</p>
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR non corregido</p>
+          <p>OCR no corregido</p>
         </correction>
         <normalization>
-          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto
-                                    original.</p>
+          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
         </normalization>
         <punctuation>
           <p>Se conserva la puntuación original.</p>
@@ -117,24 +113,26 @@
     </encodingDesc>
     <profileDesc>
       <langUsage>
-        <language ident="es">Español</language>
+        <language ident="ca">Catalán</language>
       </langUsage>
       <textClass>
         <keywords xml:base="http://datos.bne.es/tema/">
           <term target="XX524876.html" type="tipo_texto">Testamentos</term>
-          <term target="XX4358606.html" type="tipo_texto">Codicilos</term>
           <term target="XX527614.html" type="tipo_texto">Romances</term>
-          <term target="XX527614.html" type="tipo_estrofa">Romances</term>
           <term type="verso_prosa">Verso</term>
           <term type="sagrado_profano">Sagrado</term>
         </keywords>
       </textClass>
     </profileDesc>
     <revisionDesc>
-      <change when="2023-04-12" who="#PJ">Création du fichier TEI P5 et encodage du
-                        corps du texte</change>
+      <change when="2023-04-12" who="#PJ">Création du fichier TEI P5 et encodage du corps du
+        texte</change>
+      <change when="2024-01-09" who="#EL">Add the IIIF links</change>
     </revisionDesc>
   </teiHeader>
+  <facsimile>
+    <graphic url="varios/Varios_172_1.jpg/full/200,/0/default.jpg"/>
+  </facsimile>
   <sourceDoc xml:id="automaticTranscription">
     <surface xml:id="Varios_172_1" type="page" cert="silver">
       <graphic url="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_172_1/full/full/0/default.jpg"/>
@@ -1161,8 +1159,7 @@
         </zone>
         <zone xml:id="Varios_172_4_BT221_4_LT182_2" type="DefaultLine" subtype="none" points="1561,2438 787,2427 785,2427 293,2436 280,2455 280,2480 278,2497 357,2499 375,2517 375,2519 377,2519 379,2519 381,2521 462,2521 462,2519 465,2519 506,2501 508,2501 522,2515 524,2515 526,2515 528,2515 633,2506 653,2504 660,2506 699,2519 701,2519 704,2519 761,2508 783,2504 824,2508 925,2521 927,2521 1015,2512 1094,2504 1114,2515 1125,2519 1127,2519 1129,2519 1182,2515 1311,2504 1348,2519 1357,2521 1359,2521 1362,2521 1364,2521 1366,2521 1368,2519 1379,2510 1449,2519 1465,2521 1467,2521 1469,2521 1471,2521 1471,2519 1484,2508 1566,2521 1570,2484 1568,2442 1561,2438 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_172_4/278.0,2427.0,1292.0,94.0/full/0/default" corresp="CustomZone">
           <path xml:id="Varios_172_4_BT221_4_LT182_2_1" points="282,2481 1572,2485 "/>
-          <line>Barcelona : en casa Joan Llorens , carré de la Palma de Santa
-                                    Catarina</line>
+          <line>Barcelona : en casa Joan Llorens , carré de la Palma de Santa Catarina</line>
         </zone>
       </zone>
     </surface>
@@ -1170,275 +1167,272 @@
   <text>
     <body>
       <div>
-        <pb n="1" source="Varios_172_1.jpg" facs="fedora_Varios_172_1/full/full/0/default.jpg"/>
         <div>
-          <head type="primer_titulo"><lb/>ÚLTIMA VOLUNTAD Y LLEGITIM<lb/>TESTAMENT,<lb/>DEL MOLT
-                                    HONRAT<lb/>CARNESTOLTAS,<lb/>en lo cual disposa lo seu
-                                    enterro.</head>
-          <pb n="2" source="Varios_172_2.jpg" facs="fedora_Varios_172_2/full/full/0/default.jpg"/>
+          <pb n="1" source="Varios_172_1.jpg" facs="varios/Varios_172_1.jpg/"/>
+
+          <head type="primer_titulo"><lb/>ÚLTIMA VOLUNTAD Y LLEGITIM<lb/><hi rend="negrita">TESTAMENT,</hi><lb/>DEL MOLT HONRAT<lb/>CARNESTOLTAS,<lb/>en lo cual disposa lo seu
+            enterro.</head>
+
+          <pb n="2" source="Varios_172_2.jpg" facs="varios/Varios_172_2.jpg/"/>
+
           <head type="titulo_parte"><lb/>TESTAMENT DEN CARNESTOLTAS.</head>
-          <lg>
-            <l rend="indent">Ja ha arribat lo instan per fí</l>
-            <l>anomenat tantas voltas,</l>
-            <l>que 'l pobre den Carnestoltas</l>
-            <l>ja s' acaba de morí.</l>
-            <l rend="indent">Ja estarán contens aquells</l>
-            <l>enemichs meus declaráts ,</l>
-            <l>que diuen vos torno orats ,</l>
-            <l>y que 'us giro los servells.</l>
-            <l rend="indent">Jó , que no 'm ficu ab ningú</l>
-            <l>sia rich ó menestral</l>
-            <l>y tan si viu vaig com dal ,</l>
-            <l>á tothom tracto de tú.</l>
-            <l>Jó , que de aquet mon men rich</l>
-            <l>y vagi ve , ó vagia mal ,</l>
-            <l>mentres jó vagia tal cual</l>
-            <l>no tinch pena ni fatich.</l>
-            <l rend="indent">Estranyo , y sens jó , molts més ,</l>
-            <l>que hi hagia quim bulguia mal ,</l>
-            <l>sen com só del tot formal</l>
-            <l>y honrát tan com los demés.</l>
-            <l rend="indent">Mes en lo mon envejós</l>
-            <l>la envidia medrá no deixa ,</l>
-            <l>y molts pera podé creixa</l>
-            <l>tot lo dia están fen l' os.</l>
-            <l rend="indent">Pero ja 'm toca olvidá</l>
-            <l>á tots los meus atversaris ,</l>
-            <l>dexanme de comentaris</l>
-            <l>y anarmen tan sols al grá.</l>
-            <l rend="indent">Desde que aquí so arribát</l>
-            <l>que me ha plegát de plé á plé</l>
-            <l>un aire , y podria sé</l>
-            <l>quem trobia un poch costipat.</l>
-            <l rend="indent">Y com so sentit á dí ,</l>
-            <l>que mols per ser descuidats</l>
-            <l>luego se han vist atrapáts ,</l>
-            <l>casi tinch pó de morí.</l>
-            <l rend="indent">Y com la meva honradés</l>
-            <l>á sigut sempre com cal ,</l>
-            <l>no vuy diguian , CARNAVAL</l>
-            <l>á dexat de sé , qui és.</l>
-          </lg>
-          <lg>
-            <l rend="indent">Y mentres goso salut</l>
-            <l>vuy fer lo meu testament ,</l>
-            <l>no vuy que diguia la gent</l>
-            <l>qui gemega , ja ha rebut.</l>
-            <l rend="indent">Per lo tant, qui primé y sia</l>
-            <l>vagi 'l notari á buscá ,</l>
-            <l>y no esperém á demá</l>
-            <l>que temps potsé no y auria.</l>
-            <l rend="indent">Quem sento un patrip patrap ,</l>
-            <l>desde que el doctó ha vingut ,</l>
-            <l>que tinch pó de un estornut</l>
-            <l>no am trobi 'l servell girát.</l>
-            <l rend="indent">Sempre me han fet pó 'ls doctós</l>
-            <l>que reseptan ab llatí ,</l>
-            <l>may donan cap got de ví</l>
-            <l>per fernos pasá la tós.</l>
-            <l rend="indent">No pensan mes que ab dietas,</l>
-            <l>sangoneras y sangrías ;</l>
-            <l>y at deixan díntre pochs dias</l>
-            <l>difuns á cops de llansetas.</l>
-            <l rend="indent">Y antes no arribi aquet cas</l>
-            <l>ja que 'l notari á arribat ,</l>
-            <l>fem testament ordenát</l>
-            <l>y surtim promte del pás.</l>
-            <l rend="indent">Deixo , lo tros que mes val ,</l>
-            <l>que es deixá tot lo meu cos ,</l>
-            <l>an al públich bulliciós</l>
-            <l>de aquesta ciutat condal.</l>
-            <l rend="indent">Y no obstant no só usuré</l>
-            <l>com no tinch anima , crech,</l>
-            <l>que fen 'l últim esbufech</l>
-            <l>no quedará 'n al cós ré.</l>
-            <l rend="indent">Mes perxó ningú se espanti</l>
-            <l>que ánima no tinguia un hom</l>
-            <l>¡ ni ha tans mils per lo mon</l>
-            <l>que sols la tenen de canti !</l>
-            <l rend="indent">Com tot lo meu patrimoni</l>
-            <l>se ha gastát ab diversions ,</l>
-            <l>so quedát sense cordons</l>
-            <l>al mes trampas que 'l dimoni.</l>
-          </lg>
-          <pb n="3" source="Varios_172_3.jpg" facs="fedora_Varios_172_3/full/full/0/default.jpg"/>
-          <lg>
-            <l rend="indent">Tindrán mols acreedors</l>
-            <l>lo meu hareu y mullé</l>
-            <l>¡ pobrets ! mes valdria que</l>
-            <l>aguesin pasat per borts.</l>
-            <l rend="indent">Feume una caixa no obstan</l>
-            <l>de fusta blanca ó pintada ,</l>
-            <l>que trobareu gent honrada</l>
-            <l>y tonta , que us fiarán.</l>
-            <l rend="indent">No obstant que sense dinés</l>
-            <l>me hagi atrapat la mort ,</l>
-            <l>ja vos deixaré un recort</l>
-            <l>fen testament del demés.</l>
-            <l rend="indent">Deixo 'l mon embolicat</l>
-            <l>mes que tela de tranyina,</l>
-            <l>y desde Europa á la Xina</l>
-            <l>un atrós viscalabat.</l>
-            <l rend="indent">Deixo la Espanya contenta</l>
-            <l>com aquell que ha ben dinat,</l>
-            <l>y tenin ja net lo plat</l>
-            <l>se pasa la ma pel ventra.</l>
-            <l rend="indent">Y vos deixo á Barcelona</l>
-            <l>ab ganas de sé mol gran ,</l>
-            <l>mes los que aixó veurán</l>
-            <l>tindrán de viure una estona.</l>
-            <l rend="indent">Deixo lo ensanche del port</l>
-            <l>y al seu corresponent moll ,</l>
-            <l>per cuan torni á parlá 'l poll,</l>
-            <l>la pusa y al burinot.</l>
-            <l rend="indent">Deixo un plan per no pujá</l>
-            <l>lo llogué 'ls amos de casa ,</l>
-            <l>ancara y aurá algun assa</l>
-            <l>que 's pensa que 's logrará.</l>
-            <l rend="indent">Deixo la cuestió del gás</l>
-            <l>enredada ab tal manera ,</l>
-            <l>que si no tens llumanera</l>
-            <l>mol poch lector y veurás.</l>
-            <l rend="indent">Deixo vellas vanitosas ,</l>
-            <l>que pensan amagá 'ls anys</l>
-            <l>ab mil putingas y enganys ,</l>
-            <l>y sempre son llaganyosas.</l>
-            <l rend="indent">Pues pensa la vella rara</l>
-            <l>que ab los ungüens de Paris ,</l>
-            <l>as tapará si es presis</l>
-            <l>las arrugas de la cara.</l>
-          </lg>
-          <lg>
-            <l rend="indent">Y la que no du parruca</l>
-            <l>se pinta los blanchs cabells ,</l>
-            <l>que luego tornan vermells</l>
-            <l>á copia del such ques súca.</l>
-            <l rend="indent">Deixo jovas presumidas</l>
-            <l>ab molt luxo y vanitat ,</l>
-            <l>y desota 'l mirinyach</l>
-            <l>an semblan pollas farsidas.</l>
-            <l rend="indent">Altras que per uns vestits</l>
-            <l>an fan deu mil disbarats ,</l>
-            <l>y fan aná carregats</l>
-            <l>als infelisos marits.</l>
-            <l rend="indent">Deixo marits mol prudens</l>
-            <l>que sabén lo de la dona ,</l>
-            <l>an diuen poch se men dona ;</l>
-            <l>an al mon tots som parens.</l>
-            <l rend="indent">Deixo á tots los potecaris</l>
-            <l>inventán á dret y á tort ,</l>
-            <l>remeis per curarne un mort</l>
-            <l>y als malals fen comentaris.</l>
-            <l rend="indent">Ab oli de bacallá</l>
-            <l>y babas de caragol ,</l>
-            <l>al que estigui bó si vol ,</l>
-            <l>al deixan sens respirá.</l>
-            <l rend="indent">Unturas per mal de cap ,</l>
-            <l>putingas per la migranya ,</l>
-            <l>enganyan per tota Espanya</l>
-            <l>aquell que dells se ha fiat.</l>
-            <l rend="indent">Deixo tot l' any dú careta</l>
-            <l>als coneguts y als amichs ,</l>
-            <l>pues que tothom fa embolichs</l>
-            <l>per pillarte una peseta.</l>
-            <l rend="indent">Deixo 'l mon sens bona fé,</l>
-            <l>deixo á la trampa oberta ,</l>
-            <l>deixo als que han de está alerta</l>
-            <l>dormin ó prenen café.</l>
-            <l rend="indent">Deixo mol poca virtud ,</l>
-            <l>deixo poca caritat ,</l>
-            <l>deixo á tothom trampejat ,</l>
-            <l>deixo la lley del embut.</l>
-            <l rend="indent">Deixo la prostitució</l>
-            <l>pasejanse descarada</l>
-            <l>y una casa nomenada</l>
-            <l>casa de correcció.</l>
-          </lg>
-          <pb n="4" source="Varios_172_4.jpg" facs="fedora_Varios_172_4/full/full/0/default.jpg"/>
-          <lg>
-            <l rend="indent">Deixo richs, per vicis pobras ;</l>
-            <l>pobras que volan se richs</l>
-            <l>deixo al mon ple de embolichs</l>
-            <l>que sempre ni agut de sobras.</l>
-            <l rend="indent">Deixo lo any comensat</l>
-            <l>desitxan 'l anima mia ,</l>
-            <l>que ab contento y alegria</l>
-            <l>lo pugau veura acabát.</l>
-            <l rend="indent">Deixo que 'l enterro meu</l>
-            <l>as fasia ab solemnitat ,</l>
-            <l>recorrent per la ciutat</l>
-            <l>tota la gent que bulgueu.</l>
-            <l rend="indent">Ananti si vos agrada ,</l>
-            <l>tots los que varen bení</l>
-            <l>cuan vas arribar aquí ,</l>
-            <l>á solemnisá ma entrada.</l>
-            <l rend="indent">Deixo ordenat quels gegans</l>
-            <l>y vagian vestits de dol ,</l>
-            <l>pues estarán sens consol</l>
-            <l>tan altisims ciutadans.</l>
-            <l rend="indent">Y ab los ulls com una esponja</l>
-            <l>de tan plorá y de singlot ,</l>
-            <l>encomano sobre tot</l>
-            <l>que no y faltia lo Canonje.</l>
-            <l rend="indent">Per ser mon mes gran amich</l>
-            <l>y sabenna ma arribada ,</l>
-            <l>va bení de una tirada</l>
-            <l>per rebrem, desde Madrit.</l>
-            <l rend="indent">Y ancara que caiguin gotas</l>
-            <l>plogui, nevi , ó fasia vent ,</l>
-            <l>no hi faltian per lluimént</l>
-            <l>tots los seus llimpiabotas.</l>
-            <l rend="indent">Que y vagian tots los coristas</l>
-            <l>no vuy di de catedrals ,</l>
-            <l>si no de honráts menestrals</l>
-            <l>ab trompatés y flautistas.</l>
-          </lg>
-          <lg>
-            <l rend="indent">Tots los timbals destrempats</l>
-            <l>sobra tot que hi vagian tots ,</l>
-            <l>y que toquin fins quels morts</l>
-            <l>se axequin tots espantats.</l>
-            <l rend="indent">Als xiulets y trompetetas</l>
-            <l>que vinguian á fe amohino ,</l>
-            <l>que no y falti al tamborino</l>
-            <l>y trenta mil campanetas.</l>
-            <l>als coros del Orfeon ,</l>
-            <l rend="indent">La música dels andiots ,</l>
-            <l>y als valadrés del mon</l>
-            <l>també feulos vení tots.</l>
-            <l>las mes lletxas y arrugadas ,</l>
-            <l rend="indent">Llogueu á totas las yellas</l>
-            <l>ab un bano de arengadas</l>
-            <l>y als osus de las costellas.</l>
-            <l rend="indent">Que vagian al meu deván</l>
-            <l>ploran lo temps que han perdut ,</l>
-            <l>á la seva juventud ,</l>
-            <l>y may mes recobrarán.</l>
-            <l rend="indent">Als burrus de las tarrairas</l>
-            <l>féulosi aná que combé,</l>
-            <l>que son ciutadans també</l>
-            <l>y com ells no ni ha gaires.</l>
-            <l rend="indent">Encomenambos á tots</l>
-            <l>que os divertiu ab plaer</l>
-            <l>pero sens donar que fér</l>
-            <l>ni promouren alvorots.</l>
-            <l rend="indent">Que desde aqui á la Bordeta</l>
-            <l>y asta 'l altra part del mon</l>
-            <l>sapian quels catalans son</l>
-            <l>honrats sota una careta.</l>
-            <l rend="indent">Y si ó feu tots axi ,</l>
-            <l>Deu vos donguia un bon repós</l>
-            <l>per enterrá lo meu cós</l>
-            <l>ab pa blanch, llomillo y vi.</l>
-          </lg>
-          <trailer><lb/>FI.</trailer>
+
+          <l rend="indent">Ja ha arribat lo instan per fí</l>
+          <l>anomenat tantas voltas,</l>
+          <l>que 'l pobre den Carnestoltas</l>
+          <l>ja s' acaba de morí.</l>
+          <l rend="indent">Ja estarán contens aquells</l>
+          <l>enemichs meus declaráts ,</l>
+          <l>que diuen vos torno orats ,</l>
+          <l>y que 'us giro los servells.</l>
+          <l rend="indent">Jó , que no 'm ficu ab ningú</l>
+          <l>sia rich ó menestral</l>
+          <l>y tan si viu vaig com dal ,</l>
+          <l>á tothom tracto de tú.</l>
+          <l rend="indent">Jó , que de aquet mon men rich</l>
+          <l>y vagi ve , ó vagia mal ,</l>
+          <l>mentres jó vagia tal cual</l>
+          <l>no tinch pena ni fatich.</l>
+          <l rend="indent">Estranyo , y sens jó , molts més ,</l>
+          <l>que hi hagia quim bulguia mal ,</l>
+          <l>sen com só del tot formal</l>
+          <l>y honrát tan com los demés.</l>
+          <l rend="indent">Mes en lo mon envejós</l>
+          <l>la envidia medrá no deixa ,</l>
+          <l>y molts pera podé creixa</l>
+          <l>tot lo dia están fen l' os.</l>
+          <l rend="indent">Pero ja 'm toca olvidá</l>
+          <l>á tots los meus atversaris ,</l>
+          <l>dexanme de comentaris</l>
+          <l>y anarmen tan sols al grá.</l>
+          <l rend="indent">Desde que aquí so arribát</l>
+          <l>que me ha plegát de plé á plé</l>
+          <l>un aire , y podria sé</l>
+          <l>quem trobia un poch costipat.</l>
+          <l rend="indent">Y com so sentit á dí ,</l>
+          <l>que mols per ser descuidats</l>
+          <l>luego se han vist atrapáts ,</l>
+          <l>casi tinch pó de morí.</l>
+          <l rend="indent">Y com la meva honradés</l>
+          <l>á sigut sempre com cal ,</l>
+          <l>no vuy diguian , CARNAVAL</l>
+          <l>á dexat de sé , qui és.</l>
+          <l rend="indent">Y mentres goso salut</l>
+          <l>vuy fer lo meu testament ,</l>
+          <l>no vuy que diguia la gent</l>
+          <l>qui gemega , ja ha rebut.</l>
+          <l rend="indent">Per lo tant, qui primé y sia</l>
+          <l>vagi 'l notari á buscá ,</l>
+          <l>y no esperém á demá</l>
+          <l>que temps potsé no y auria.</l>
+          <l rend="indent">Quem sento un patrip patrap ,</l>
+          <l>desde que el doctó ha vingut ,</l>
+          <l>que tinch pó de un estornut</l>
+          <l>no am trobi 'l servell girát.</l>
+          <l rend="indent">Sempre me han fet pó 'ls doctós</l>
+          <l>que reseptan ab llatí ,</l>
+          <l>may donan cap got de ví</l>
+          <l>per fernos pasá la tós.</l>
+          <l rend="indent">No pensan mes que ab dietas,</l>
+          <l>sangoneras y sangrías ;</l>
+          <l>y at deixan díntre pochs dias</l>
+          <l>difuns á cops de llansetas.</l>
+          <l rend="indent">Y antes no arribi aquet cas</l>
+          <l>ja que 'l notari á arribat ,</l>
+          <l>fem testament ordenát</l>
+          <l>y surtim promte del pás.</l>
+          <l rend="indent">Deixo , lo tros que mes val ,</l>
+          <l>que es deixá tot lo meu cos ,</l>
+          <l>an al públich bulliciós</l>
+          <l>de aquesta ciutat condal.</l>
+          <l rend="indent">Y no obstant no só usuré</l>
+          <l>com no tinch anima , crech,</l>
+          <l>que fen 'l últim esbufech</l>
+          <l>no quedará 'n al cós ré.</l>
+          <l rend="indent">Mes perxó ningú se espanti</l>
+          <l>que ánima no tinguia un hom</l>
+          <l>¡ ni ha tans mils per lo mon</l>
+          <l>que sols la tenen de canti !</l>
+          <l rend="indent">Com tot lo meu patrimoni</l>
+          <l>se ha gastát ab diversions ,</l>
+          <l>so quedát sense cordons</l>
+          <l>al mes trampas que 'l dimoni.</l>
+
+          <pb n="3" source="Varios_172_3.jpg" facs="varios/Varios_172_3.jpg/"/>
+
+          <l rend="indent">Tindrán mols acreedors</l>
+          <l>lo meu hareu y mullé</l>
+          <l>¡ pobrets ! mes valdria que</l>
+          <l>aguesin pasat per borts.</l>
+          <l rend="indent">Feume una caixa no obstan</l>
+          <l>de fusta blanca ó pintada ,</l>
+          <l>que trobareu gent honrada</l>
+          <l>y tonta , que us fiarán.</l>
+          <l rend="indent">No obstant que sense dinés</l>
+          <l>me hagi atrapat la mort ,</l>
+          <l>ja vos deixaré un recort</l>
+          <l>fen testament del demés.</l>
+          <l rend="indent">Deixo 'l mon embolicat</l>
+          <l>mes que tela de tranyina,</l>
+          <l>y desde Europa á la Xina</l>
+          <l>un atrós viscalabat.</l>
+          <l rend="indent">Deixo la Espanya contenta</l>
+          <l>com aquell que ha ben dinat,</l>
+          <l>y tenin ja net lo plat</l>
+          <l>se pasa la ma pel ventra.</l>
+          <l rend="indent">Y vos deixo á Barcelona</l>
+          <l>ab ganas de sé mol gran ,</l>
+          <l>mes los que aixó veurán</l>
+          <l>tindrán de viure una estona.</l>
+          <l rend="indent">Deixo lo ensanche del port</l>
+          <l>y al seu corresponent moll ,</l>
+          <l>per cuan torni á parlá 'l poll,</l>
+          <l>la pusa y al burinot.</l>
+          <l rend="indent">Deixo un plan per no pujá</l>
+          <l>lo llogué 'ls amos de casa ,</l>
+          <l>ancara y aurá algun assa</l>
+          <l>que 's pensa que 's logrará.</l>
+          <l rend="indent">Deixo la cuestió del gás</l>
+          <l>enredada ab tal manera ,</l>
+          <l>que si no tens llumanera</l>
+          <l>mol poch lector y veurás.</l>
+          <l rend="indent">Deixo vellas vanitosas ,</l>
+          <l>que pensan amagá 'ls anys</l>
+          <l>ab mil putingas y enganys ,</l>
+          <l>y sempre son llaganyosas.</l>
+          <l rend="indent">Pues pensa la vella rara</l>
+          <l>que ab los ungüens de Paris ,</l>
+          <l>as tapará si es presis</l>
+          <l>las arrugas de la cara.</l>
+          <l rend="indent">Y la que no du parruca</l>
+          <l>se pinta los blanchs cabells ,</l>
+          <l>que luego tornan vermells</l>
+          <l>á copia del such ques súca.</l>
+          <l rend="indent">Deixo jovas presumidas</l>
+          <l>ab molt luxo y vanitat ,</l>
+          <l>y desota 'l mirinyach</l>
+          <l>an semblan pollas farsidas.</l>
+          <l rend="indent">Altras que per uns vestits</l>
+          <l>an fan deu mil disbarats ,</l>
+          <l>y fan aná carregats</l>
+          <l>als infelisos marits.</l>
+          <l rend="indent">Deixo marits mol prudens</l>
+          <l>que sabén lo de la dona ,</l>
+          <l>an diuen poch se men dona ;</l>
+          <l>an al mon tots som parens.</l>
+          <l rend="indent">Deixo á tots los potecaris</l>
+          <l>inventán á dret y á tort ,</l>
+          <l>remeis per curarne un mort</l>
+          <l>y als malals fen comentaris.</l>
+          <l rend="indent">Ab oli de bacallá</l>
+          <l>y babas de caragol ,</l>
+          <l>al que estigui bó si vol ,</l>
+          <l>al deixan sens respirá.</l>
+          <l rend="indent">Unturas per mal de cap ,</l>
+          <l>putingas per la migranya ,</l>
+          <l>enganyan per tota Espanya</l>
+          <l>aquell que dells se ha fiat.</l>
+          <l rend="indent">Deixo tot l' any dú careta</l>
+          <l>als coneguts y als amichs ,</l>
+          <l>pues que tothom fa embolichs</l>
+          <l>per pillarte una peseta.</l>
+          <l rend="indent">Deixo 'l mon sens bona fé,</l>
+          <l>deixo á la trampa oberta ,</l>
+          <l>deixo als que han de está alerta</l>
+          <l>dormin ó prenen café.</l>
+          <l rend="indent">Deixo mol poca virtud ,</l>
+          <l>deixo poca caritat ,</l>
+          <l>deixo á tothom trampejat ,</l>
+          <l>deixo la lley del embut.</l>
+          <l rend="indent">Deixo la prostitució</l>
+          <l>pasejanse descarada</l>
+          <l>y una casa nomenada</l>
+          <l>casa de correcció.</l>
+
+          <pb n="4" source="Varios_172_4.jpg" facs="varios/Varios_172_4.jpg/"/>
+
+          <l rend="indent">Deixo richs, per vicis pobras ;</l>
+          <l>pobras que volan se richs</l>
+          <l>deixo al mon ple de embolichs</l>
+          <l>que sempre ni agut de sobras.</l>
+          <l rend="indent">Deixo lo any comensat</l>
+          <l>desitxan 'l anima mia ,</l>
+          <l>que ab contento y alegria</l>
+          <l>lo pugau veura acabát.</l>
+          <l rend="indent">Deixo que 'l enterro meu</l>
+          <l>as fasia ab solemnitat ,</l>
+          <l>recorrent per la ciutat</l>
+          <l>tota la gent que bulgueu.</l>
+          <l rend="indent">Ananti si vos agrada ,</l>
+          <l>tots los que varen bení</l>
+          <l>cuan vas arribar aquí ,</l>
+          <l>á solemnisá ma entrada.</l>
+          <l rend="indent">Deixo ordenat quels gegans</l>
+          <l>y vagian vestits de dol ,</l>
+          <l>pues estarán sens consol</l>
+          <l>tan altisims ciutadans.</l>
+          <l rend="indent">Y ab los ulls com una esponja</l>
+          <l>de tan plorá y de singlot ,</l>
+          <l>encomano sobre tot</l>
+          <l>que no y faltia lo Canonje.</l>
+          <l rend="indent">Per ser mon mes gran amich</l>
+          <l>y sabenna ma arribada ,</l>
+          <l>va bení de una tirada</l>
+          <l>per rebrem, desde Madrit.</l>
+          <l rend="indent">Y ancara que caiguin gotas</l>
+          <l>plogui, nevi , ó fasia vent ,</l>
+          <l>no hi faltian per lluimént</l>
+          <l>tots los seus llimpiabotas.</l>
+          <l rend="indent">Que y vagian tots los coristas</l>
+          <l>no vuy di de catedrals ,</l>
+          <l>si no de honráts menestrals</l>
+          <l>ab trompatés y flautistas.</l>
+          <l rend="indent">Tots los timbals destrempats</l>
+          <l>sobra tot que hi vagian tots ,</l>
+          <l>y que toquin fins quels morts</l>
+          <l>se axequin tots espantats.</l>
+          <l rend="indent">Als xiulets y trompetetas</l>
+          <l>que vinguian á fe amohino ,</l>
+          <l>que no y falti al tamborino</l>
+          <l>y trenta mil campanetas.</l>
+          <l>als coros del Orfeon ,</l>
+          <l rend="indent">La música dels andiots ,</l>
+          <l>y als valadrés del mon</l>
+          <l>també feulos vení tots.</l>
+          <l>las mes lletxas y arrugadas ,</l>
+          <l rend="indent">Llogueu á totas las yellas</l>
+          <l>ab un bano de arengadas</l>
+          <l>y als osus de las costellas.</l>
+          <l rend="indent">Que vagian al meu deván</l>
+          <l>ploran lo temps que han perdut ,</l>
+          <l>á la seva juventud ,</l>
+          <l>y may mes recobrarán.</l>
+          <l rend="indent">Als burrus de las tarrairas</l>
+          <l>féulosi aná que combé,</l>
+          <l>que son ciutadans també</l>
+          <l>y com ells no ni ha gaires.</l>
+          <l rend="indent">Encomenambos á tots</l>
+          <l>que os divertiu ab plaer</l>
+          <l>pero sens donar que fér</l>
+          <l>ni promouren alvorots.</l>
+          <l rend="indent">Que desde aqui á la Bordeta</l>
+          <l>y asta 'l altra part del mon</l>
+          <l>sapian quels catalans son</l>
+          <l>honrats sota una careta.</l>
+          <l rend="indent">Y si ó feu tots axi ,</l>
+          <l>Deu vos donguia un bon repós</l>
+          <l>per enterrá lo meu cós</l>
+          <l>ab pa blanch, llomillo y vi.</l>
+
+          <trailer rend="negrita"><lb/>FI.</trailer>
         </div>
-        <div type="colofon_impresora">
+        
+        <div type="colofon_impresor">
           <p><lb/>Imp. de Joseph Tauló, Cirés n.° 5.—1861.</p>
         </div>
-        <div type="colofón_vendedor">
-          <p><lb/>Barcelona : en casa Joan Llorens , carré de la Palma de Santa
-                                    Catarina</p>
+        
+        <div type="colofon_vendedor">
+          <p><lb/>Barcelona : en casa Joan Llorens , carré de la Palma de Santa Catarina</p>
         </div>
       </div>
     </body>

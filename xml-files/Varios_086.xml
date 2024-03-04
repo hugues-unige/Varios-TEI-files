@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../Schema/oddPliego_varios.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:alto="http://www.loc.gov/standards/alto/ns-v4#" xml:id="Varios_086">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Varios_086">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -11,8 +11,7 @@
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <authority role="rightsHolder">Bibliothèque Universitaire de
-                              Genève</authority>
+        <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
         <availability status="restricted">
           <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
         </availability>
@@ -20,10 +19,9 @@
       <sourceDesc>
         <biblFull>
           <titleStmt>
-            <title type="titulo_completo">LOS AMANTES DE TERUEL Nueva
-                                          relación histórica y compendiada de los amoros y
-                                          trágico suceso de dichos amantes Don Diego de Marcilla y
-                                          Doña Isabel de Segura</title>
+            <title type="titulo_completo">LOS AMANTES DE TERUEL Nueva relación histórica y
+              compendiada de los amoros y trágico suceso de dichos amantes Don Diego de Marcilla y
+              Doña Isabel de Segura. Segunda parte.</title>
             <title type="titulo_breve">LOS AMANTES DE TERUEL</title>
           </titleStmt>
           <editionStmt>
@@ -32,7 +30,7 @@
           <publicationStmt>
             <publisher>El Abanico</publisher>
             <pubPlace ref="https://www.geonames.org/3128760/barcelona.html">Barcelona</pubPlace>
-            <date>[s.a]</date>
+            <date cert="low" when="1800-01-01">[s.a.]</date>
           </publicationStmt>
         </biblFull>
         <msDesc>
@@ -40,7 +38,8 @@
             <country>Suisse</country>
             <settlement>Genève</settlement>
             <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"/>
-                                    </repository>
+            </repository>
+            <collection>Colección Varios</collection>
             <idno type="cote"/>
             <idno type="DOI">10.5281/zenodo.6566041</idno>
             <altIdentifier>
@@ -59,9 +58,7 @@
               <supportDesc>
                 <support>
                   <dim>in-4</dim>
-                  <material>*À COMPLETER*: Pour indiquer la couleur
-                                                  du papier @subtype : verde, amarillo, azul,
-                                                  naranja, rosa</material>
+                  <material subtype="amarillo"/>
                 </support>
                 <extent><measure unit="página" quantity="4"/>4 p.</extent>
                 <condition>Bueno</condition>
@@ -71,7 +68,7 @@
               </layoutDesc>
             </objectDesc>
             <decoDesc>
-              <summary n="1">Uno grabado (p.1) </summary>
+              <summary n="1">Un grabado (p.1) </summary>
               <decoNote type="lista_grabados">
                 <list>
                   <item corresp="grabado_v_086_1.xml">grabado_v_086_1</item>
@@ -79,8 +76,7 @@
               </decoNote>
             </decoDesc>
             <additions>
-              <stamp>SANTIAGO PONS BUENAVISTA, 11, . LIBRERÍA
-                                                BARCELONA (ESPAÑA)</stamp>
+              <stamp>SANTIAGO PONS BUENAVISTA, 11, . LIBRERÍA BARCELONA (ESPAÑA)</stamp>
             </additions>
           </physDesc>
           <history>
@@ -89,8 +85,7 @@
             </origin>
             <provenance/>
             <acquisition>
-              <stamp>SANTIAGO PONS BUENAVISTA, 11, . LIBRERÍA BARCELONA
-                                                (ESPAÑA)</stamp>
+              <stamp>SANTIAGO PONS BUENAVISTA, 11, . LIBRERÍA BARCELONA (ESPAÑA)</stamp>
             </acquisition>
           </history>
         </msDesc>
@@ -98,18 +93,17 @@
     </fileDesc>
     <encodingDesc>
       <projectDesc>
-        <p>Este archivo fue creado en el marco del proyecto Desenrollando el
-                              Cordel/Démêler le cordel/Untangling the cordel, dirigido por la
-                              profesora Constance Carta de la Universidad de Ginebra, con el apoyo
-                              de la Fundación filantrópica Famille Sandoz-Monique de Meuron.</p>
+        <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+          cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la Universidad
+          de Ginebra, con el apoyo de la Fundación filantrópica Famille Sandoz-Monique de
+          Meuron.</p>
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR non corregido</p>
+          <p>OCR no corregido</p>
         </correction>
         <normalization>
-          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto
-                                    original.</p>
+          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
         </normalization>
         <punctuation>
           <p>Se conserva la puntuación original.</p>
@@ -124,18 +118,20 @@
         <keywords xml:base="http://datos.bne.es/tema/">
           <term target="XX527614.html" type="tipo_texto">Romances</term>
           <term target="XX527614.html" type="tipo_estrofa">Romances</term>
-          <term target="XX5501105.html" type="tipo_texto">Coplas</term>
-          <term target="XX5501105.html" type="tipo_estrofa">Coplas</term>
           <term type="verso_prosa">Verso</term>
           <term type="sagrado_profano">Profano</term>
         </keywords>
       </textClass>
     </profileDesc>
     <revisionDesc>
-      <change when="2022-07-26" who="#PJ">Création du fichier TEI P5 et encodage du
-                        corps du texte</change>
+      <change when="2022-07-26" who="#PJ">Création du fichier TEI P5 et encodage du corps du
+        texte</change>
+      <change when="2024-01-09" who="#EL">Add the IIIF links</change>
     </revisionDesc>
   </teiHeader>
+  <facsimile>
+    <graphic url="varios/Varios_086_1.jpg/full/200,/0/default.jpg"/>
+  </facsimile>
   <sourceDoc xml:id="automaticTranscription">
     <surface xml:id="Varios_086_1" type="page" cert="silver">
       <graphic url="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_086_1/full/full/0/default.jpg"/>
@@ -1473,30 +1469,32 @@
   <text>
     <body>
       <div>
-        <pb n="1" source="Varios_086_1.jpg" facs="fedora_Varios_086_1/full/full/0/default.jpg"/>
-        <fw type="impresorNum">Núm. 2</fw>
-        <div type="parte" n="1">
-          <head type="primer_titulo"><lb/>LOS AMANTES DE TERUEL</head>
-          <head type="subtitulo_parte"><lb/>Nueva relación histórica y compendiada<lb/>de los amoros
-                                    y trágico suceso de dichos amantes<lb/>Don Diego de Marcilla y
-                                    Doña Isabel de Segura</head>
-          <head type="titulo_parte"><lb/>SEGUNDA PARTE</head>
-          <lg>
-            <l>En un soberbio alazano</l>
+        <div>
+          <pb n="1" source="Varios_086_1.jpg" facs="varios/Varios_086_1.jpg/"/>
+
+          <fw type="impresorNum">Núm. 2</fw>
+
+          <head type="primer_titulo" rend="negrita"><lb/>LOS AMANTES DE TERUEL</head>
+          <head type="subtitulo_parte"><lb/>Nueva relación histórica y compendiada<lb/>de los
+            amoros y trágico suceso de dichos amantes<lb/>Don Diego de Marcilla y Doña Isabel de
+            Segura</head>
+
+          <div>
+            <head type="titulo_parte" rend="negrita"><lb/>SEGUNDA PARTE</head>
+
+            <l rend="indent">En un soberbio alazano</l>
             <l>que el huracán desafía,</l>
             <l>cabalga con bizarría</l>
             <l>un guerrero castellano.</l>
             <l>No se detiene un momento</l>
-          </lg>
-          <lg>
             <l>en su impetuosa carrera</l>
             <l>que el caballero quisiera</l>
             <l>volar con el pensamiento.</l>
             <l>A Castilla se encamina</l>
             <l>donde una hueste aguerrida</l>
-          </lg>
-          <pb n="2" source="Varios_086_2.jpg" facs="fedora_Varios_086_2/full/full/0/default.jpg"/>
-          <lg>
+
+            <pb n="2" source="Varios_086_2.jpg" facs="varios/Varios_086_2.jpg/"/>
+
             <l>por el rey mismo escogida</l>
             <l>está á formarse vecina.</l>
             <l>Pronto á regar el laurel</l>
@@ -1550,8 +1548,6 @@
             <l>de su valor hace alarde,</l>
             <l>renueva el vigor perdido</l>
             <l>y deja roto y vencido</l>
-          </lg>
-          <lg>
             <l>al cerraceno cobarde,</l>
             <l>y convierten sus valientes</l>
             <l>el belicoso escuadrón</l>
@@ -1605,9 +1601,9 @@
             <l>y ella en lágrimas deshecha</l>
             <l>no se atreve á la sospecha</l>
             <l>de que en Diego quepa engaño,</l>
-          </lg>
-          <pb n="3" source="Varios_086_3.jpg" facs="fedora_Varios_086_3/full/full/0/default.jpg"/>
-          <lg>
+
+            <pb n="3" source="Varios_086_3.jpg" facs="varios/Varios_086_3.jpg/"/>
+
             <l>pero tal incertidumbre</l>
             <l>en duda su amor atiza,</l>
             <l>y una cruel pesadumbre</l>
@@ -1661,8 +1657,6 @@
             <l>aguardando otra ocasión</l>
             <l>de poder lograr su intento.</l>
             <l>Entre tanto el pobre amante</l>
-          </lg>
-          <lg>
             <l>por Isabel peleaba,</l>
             <l>por Isabel alcanzaba</l>
             <l>el renombre de valiente.</l>
@@ -1716,9 +1710,9 @@
             <l>esta noche á la oración</l>
             <l>para que mi corazón</l>
             <l>venga Dios á confortar.»</l>
-          </lg>
-          <pb n="4" source="Varios_086_4.jpg" facs="fedora_Varios_086_4/full/full/0/default.jpg"/>
-          <lg>
+
+            <pb n="4" source="Varios_086_4.jpg" facs="varios/Varios_086_4.jpg/"/>
+
             <l>Azagra condescendió,</l>
             <l>é Isabel se tué á orar</l>
             <l>á la virgen, y á llorar,</l>
@@ -1765,8 +1759,6 @@
             <l>á do amor le condujera.</l>
             <l>En un cuarto donde brilla</l>
             <l>trémula luz de una vela,</l>
-          </lg>
-          <lg>
             <l>de puntilla y con cautela</l>
             <l>se introduce el de Marcilla.</l>
             <l>Azagra estaba dormido,</l>
@@ -1813,10 +1805,12 @@
             <l>descrita por plama fiel;</l>
             <l>tenga Dios en santa gloria</l>
             <l>los AMANTES DE TERUEL.</l>
-          </lg>
-          <note type="propiedad">( Es propiedad)</note>
-          <trailer>FIN</trailer>
+
+            <p rend="cursiva">(Es propiedad)</p>
+            <trailer>FIN</trailer>
+          </div>
         </div>
+
         <div type="colofon">
           <p><lb/>Imps. Hospital, 19 «El Abanico»</p>
         </div>

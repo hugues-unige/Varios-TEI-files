@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../Schema/oddPliego_varios.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:alto="http://www.loc.gov/standards/alto/ns-v4#" xml:id="Varios_190">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Varios_190">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -11,8 +11,7 @@
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <authority role="rightsHolder">Bibliothèque Universitaire de
-                              Genève</authority>
+        <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
         <availability status="restricted">
           <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
         </availability>
@@ -20,18 +19,17 @@
       <sourceDesc>
         <biblFull>
           <titleStmt>
-            <title type="titulo_completo">Los nombres costumbres y
-                                          propriedad de las señoras mugeres. </title>
-            <title type="titulo_breve">Los nombres costumbres y
-                                          propriedad</title>
+            <title type="titulo_completo">Los nombres costumbres y propriedad de las señoras
+              mugeres. </title>
+            <title type="titulo_breve"/>
           </titleStmt>
           <editionStmt>
             <p/>
           </editionStmt>
           <publicationStmt>
-            <publisher>Imprenta de F. Vallés</publisher>
+            <publisher>Francisco Vallés</publisher>
             <pubPlace ref="https://www.geonames.org/3128760/barcelona.html">Barcelona</pubPlace>
-            <date cert="high">1848</date>
+            <date cert="high" when="1848-01-01">1848</date>
           </publicationStmt>
         </biblFull>
         <msDesc>
@@ -39,7 +37,8 @@
             <country>Suisse</country>
             <settlement>Genève</settlement>
             <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"/>
-                                    </repository>
+            </repository>
+            <collection>Colección Varios</collection>
             <idno type="cote"/>
             <idno type="DOI">10.5281/zenodo.6595044</idno>
             <altIdentifier>
@@ -96,18 +95,17 @@
     </fileDesc>
     <encodingDesc>
       <projectDesc>
-        <p>Este archivo fue creado en el marco del proyecto Desenrollando el
-                              Cordel/Démêler le cordel/Untangling the cordel, dirigido por la
-                              profesora Constance Carta de la Universidad de Ginebra, con el apoyo
-                              de la Fundación filantrópica Famille Sandoz-Monique de Meuron.</p>
+        <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+          cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la Universidad
+          de Ginebra, con el apoyo de la Fundación filantrópica Famille Sandoz-Monique de
+          Meuron.</p>
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR non corregido</p>
+          <p>OCR no corregido</p>
         </correction>
         <normalization>
-          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto
-                                    original.</p>
+          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
         </normalization>
         <punctuation>
           <p>Se conserva la puntuación original.</p>
@@ -128,10 +126,14 @@
       </textClass>
     </profileDesc>
     <revisionDesc>
-      <change when="2023-08-05" who="#PJ">Création du fichier TEI P5 et encodage du
-                        corps du texte</change>
+      <change when="2023-08-05" who="#PJ">Création du fichier TEI P5 et encodage du corps du
+        texte</change>
+      <change when="2024-01-09" who="#EL">Add the IIIF links</change>
     </revisionDesc>
   </teiHeader>
+  <facsimile>
+    <graphic url="varios/Varios_190_1.jpg/full/200,/0/default.jpg"/>
+  </facsimile>
   <sourceDoc xml:id="automaticTranscription">
     <surface xml:id="Varios_190_1" type="page" cert="silver">
       <graphic url="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_190_1/full/full/0/default.jpg"/>
@@ -1389,180 +1391,175 @@
   <text>
     <body>
       <div>
-        <pb n="1" source="Varios_190_1.jpg" facs="fedora_Varios_190_1/full/full/0/default.jpg"/>
+        <pb n="1" source="Varios_190_1.jpg" facs="varios/Varios_190_1.jpg/"/>
+        
         <div>
           <head type="primer_titulo"><lb/><hi rend="negrita">LOS NOMBRES</hi><lb/>COSTUMBRES Y
-                                          PROPIEDADES<lb/><hi rend="cursiva">de las señoras
-                                          mugeres.</hi></head>
-          <lg>
-            <l>Toma asiento y la vihuela</l>
-            <l>despues de estar bien templada,</l>
-            <l>luego á cantar empieza,</l>
-            <l>y empiezan ellas su parla.</l>
-            <l>Dice la una: Jesus,</l>
-            <l>que voz tan desentonada,</l>
-            <l>parece que está oseando</l>
-            <l>con su voz apastorada.</l>
-            <l>El cuerpo cual lo menea,</l>
-            <l>parece á don Zirrandajas;</l>
-            <l>poquito presumo el canto</l>
-            <l>por mi vida que se engaña</l>
-            <l>porque él abre tanta boca</l>
-            <l>como la puerta monaica;</l>
-            <l>él canta á ojos cerrados,</l>
-            <l>no se le entiende palabra,</l>
-            <l>ya le ha dado carraspera</l>
-            <l>y es de beber carraspada:</l>
-            <l>el pobre se està ahogando</l>
-            <l>porque aquella tos es mala.</l>
-          </lg>
-          <lg>
-            <l>Traigamosle un par de huevos</l>
-            <l>por sí aclara la garganta,</l>
-            <l>ó démosle pan y queso,</l>
-            <l>por ver si con eso calla:</l>
-            <l>luego dejan esa tema,</l>
-            <l>y unas con otras ensartan</l>
-            <l>distintas conversaciones</l>
-            <l>allá á su modo estremadas.</l>
-            <l>Dice la una: ¿no sabes</l>
-            <l>como se casa fulana</l>
-            <l>con fulano? y plegue á Dios</l>
-            <l>que si con ella se casa</l>
-            <l>no me ponga en carcabuey,</l>
-            <l>que es lugar que muchos pasan.</l>
-            <l>Otra dice: mi vecina,</l>
-            <l>quien no ve á la santularia</l>
-            <l>papar santos en la Iglesia,</l>
-            <l>y con industria y con maña</l>
-            <l>le hace al marido que coma</l>
-            <l>pimientos de cornicabra.</l>
-          </lg>
-          <pb n="2" source="Varios_190_2.jpg" facs="fedora_Varios_190_2/full/full/0/default.jpg"/>
-          <lg>
-            <l>Pues la otra mosquita muerta</l>
-            <l>aunque el marido es bainazas,</l>
-            <l>en los cuernos de la luna</l>
-            <l>lo ha puesto la muy taimada.</l>
-            <l>Pues el otro boquirrubio,</l>
-            <l>que triunfa pasea y gasta</l>
-            <l>á costa de la muger,</l>
-            <l>porque lo sufre y lo aguanta.</l>
-            <l>Y otra dice: pues no sabes,</l>
-            <l>como un casamiento tratan,</l>
-            <l>à Domingo el zapatero;</l>
-            <l>y lo que à mí mas me espanta,</l>
-            <l>que siendo un perafustran,</l>
-            <l>le entregan una muchacha,</l>
-            <l>que es discreta, hermosa y rica,</l>
-            <l>la verdad está averiguada,</l>
-            <l>y á él lo hacen raton,</l>
-            <l>pues aperciben la trampa.</l>
-            <l>Otra dice amigas mias,</l>
-            <l>yo no me espanto de nada;</l>
-            <l>porque todas nos mojamos</l>
-            <l>cuando llueve recia el agua...</l>
-            <l>Otra responde, yo tengo</l>
-            <l>al sacristan de Churiana,</l>
-            <l>y la cera que recoge</l>
-            <l>entre el domingo y semana,</l>
-            <l>la vende y me da el dinero,</l>
-            <l>entra y sale, y santas pascuas.</l>
-            <l>Pues yo tengo un aceitero,</l>
-            <l>que me requiere y me regala.</l>
-            <l>y entre en achaque de aceite....</l>
-            <l>ya tú me entiendes Mariana.</l>
-            <l>Otra dice, amigas mias,</l>
-            <l>yo tengo un cabo de escuadra</l>
-            <l>que va conmigo á la parte,</l>
-            <l>porque es mozo de importancia,</l>
-            <l>y el que no quiere pagarme</l>
-            <l>con buen modo y con palabras</l>
-            <l>le bace que me pague doble</l>
-            <l>como parte interesada....</l>
-            <l>Otra: dice suspirando,</l>
-            <l>yo soy la mas desgraciada,</l>
-            <l>porque tengo un estudiante:</l>
-            <l>de condicion tan estraña,</l>
-          </lg>
-          <lg>
-            <l>que siempre me tiene ahita</l>
-            <l>de hambre y otras circunstancias;</l>
-            <l>si le digo alguna cosa,</l>
-            <l>me da con una sotana.</l>
-            <l>Otra dice: compañera,</l>
-            <l>tenemos mala cartada:</l>
-            <l>que yo tengo un peluquero</l>
-            <l>que ya me tiene enfadada,</l>
-            <l>pues nunca le ha merecido</l>
-            <l>media libra de azofaifas,</l>
-            <l>y cuando viene de noche,</l>
-            <l>despues de no darme nada,</l>
-            <l>me hace mas preguntas</l>
-            <l>que tiene un misal de pascua,</l>
-            <l>y me trae entretenida,</l>
-            <l>con que de hoy á mañana</l>
-            <l>dice aguarda conveniencia</l>
-            <l>y que seré bien premiada,</l>
-            <l>y nunca llega este dia,</l>
-            <l>y asi no se lo que me haga.</l>
-            <l>Y las demas la responden</l>
-            <l>esa es valiente bobada,</l>
-            <l>que mas quiera el muy taimado</l>
-            <l>si cuanto desea halla!</l>
-            <l>Eso lo mismo hiciera</l>
-            <l>el borrico de la noria;</l>
-            <l>y pues que no es de provecho</l>
-            <l>darle con las calabasas</l>
-            <l>que no es razon que tu estés</l>
-            <l>sacandoles las entrañas</l>
-            <l>á otras por darle á èl,</l>
-            <l>esa es doctrina muy mala</l>
-            <l>tan solo hemos de querer</l>
-            <l>y adorar dentro del alma,</l>
-            <l>no aquel que nos diga dame,</l>
-            <l>sino aquel que digamos dace.</l>
-            <l>Como pueda dar buen manto</l>
-            <l>el que tiene mala capa?</l>
-            <l>Y todos de esta manera</l>
-            <l>pareceis unas urracas,</l>
-            <l>refiriendo cuentos viejos</l>
-            <l>sonrisa y con algazara,</l>
-            <l>con chanza y con alboroto,</l>
-            <l>no atendeis á lo que cantan,</l>
-          </lg>
-          <pb n="3" source="Varios_190_3.jpg" facs="fedora_Varios_190_3/full/full/0/default.jpg"/>
-          <lg>
-            <l>à la relacion ó historia,</l>
-            <l>Solamente estais atentas,</l>
-            <l>si aplican bien las palabras,</l>
-            <l>si no tienen melodía,</l>
-            <l>si el tocador tiene gracia,</l>
-            <l>si el bailador baila bien,</l>
-            <l>murmurando tan sin tasa</l>
-            <l>si se casa fulanilla,</l>
-            <l>si fulana es desastrada,</l>
-            <l>si fulano es buen muchacho,</l>
-            <l>y si el otro es mal trabaja.</l>
-            <l>Y todas de esta manera</l>
-            <l>estais poniendo mil faltas,</l>
-            <l>y no os mirais á vosotras</l>
-            <l>que teneis si se repara,</l>
-            <l>mas faltas que una pelota</l>
-            <l>y una tuerta remilgada.</l>
-            <l>Yo sé que estais ahora</l>
-            <l>con la tijera amolada,</l>
-            <l>y la tela apercibida</l>
-            <l>para cortarme unas mangas,</l>
-            <l>y solicito el desquite,</l>
-            <l>y asi con breves palabras</l>
-            <l>a cada cual por su nombre</l>
-            <l>la he de ir poniendo sus faltas.</l>
-          </lg>
-        </div>
-        <div>
-          <head type="titulo_parte"><lb/>NOMBRES.</head>
-          <lg>
+              PROPIEDADES<lb/><hi rend="cursiva">de las señoras mugeres.</hi></head>
+
+          <l rend="indent">Toma asiento y la vihuela</l>
+          <l>despues de estar bien templada,</l>
+          <l>luego á cantar empieza,</l>
+          <l>y empiezan ellas su parla.</l>
+          <l>Dice la una: Jesus,</l>
+          <l>que voz tan desentonada,</l>
+          <l>parece que está oseando</l>
+          <l>con su voz apastorada.</l>
+          <l>El cuerpo cual lo menea,</l>
+          <l>parece á don Zirrandajas;</l>
+          <l>poquito presumo el canto</l>
+          <l>por mi vida que se engaña</l>
+          <l>porque él abre tanta boca</l>
+          <l>como la puerta monaica;</l>
+          <l>él canta á ojos cerrados,</l>
+          <l>no se le entiende palabra,</l>
+          <l>ya le ha dado carraspera</l>
+          <l>y es de beber carraspada:</l>
+          <l>el pobre se està ahogando</l>
+          <l>porque aquella tos es mala.</l>
+          <l>Traigamosle un par de huevos</l>
+          <l>por sí aclara la garganta,</l>
+          <l>ó démosle pan y queso,</l>
+          <l>por ver si con eso calla:</l>
+          <l>luego dejan esa tema,</l>
+          <l>y unas con otras ensartan</l>
+          <l>distintas conversaciones</l>
+          <l>allá á su modo estremadas.</l>
+          <l>Dice la una: ¿no sabes</l>
+          <l>como se casa fulana</l>
+          <l>con fulano? y plegue á Dios</l>
+          <l>que si con ella se casa</l>
+          <l>no me ponga en carcabuey,</l>
+          <l>que es lugar que muchos pasan.</l>
+          <l>Otra dice: mi vecina,</l>
+          <l>quien no ve á la santularia</l>
+          <l>papar santos en la Iglesia,</l>
+          <l>y con industria y con maña</l>
+          <l>le hace al marido que coma</l>
+          <l>pimientos de cornicabra.</l>
+
+          <pb n="2" source="Varios_190_2.jpg" facs="varios/Varios_190_2.jpg/"/>
+
+          <l>Pues la otra mosquita muerta</l>
+          <l>aunque el marido es bainazas,</l>
+          <l>en los cuernos de la luna</l>
+          <l>lo ha puesto la muy taimada.</l>
+          <l>Pues el otro boquirrubio,</l>
+          <l>que triunfa pasea y gasta</l>
+          <l>á costa de la muger,</l>
+          <l>porque lo sufre y lo aguanta.</l>
+          <l>Y otra dice: pues no sabes,</l>
+          <l>como un casamiento tratan,</l>
+          <l>à Domingo el zapatero;</l>
+          <l>y lo que à mí mas me espanta,</l>
+          <l>que siendo un perafustran,</l>
+          <l>le entregan una muchacha,</l>
+          <l>que es discreta, hermosa y rica,</l>
+          <l>la verdad está averiguada,</l>
+          <l>y á él lo hacen raton,</l>
+          <l>pues aperciben la trampa.</l>
+          <l>Otra dice amigas mias,</l>
+          <l>yo no me espanto de nada;</l>
+          <l>porque todas nos mojamos</l>
+          <l>cuando llueve recia el agua...</l>
+          <l>Otra responde, yo tengo</l>
+          <l>al sacristan de Churiana,</l>
+          <l>y la cera que recoge</l>
+          <l>entre el domingo y semana,</l>
+          <l>la vende y me da el dinero,</l>
+          <l>entra y sale, y santas pascuas.</l>
+          <l>Pues yo tengo un aceitero,</l>
+          <l>que me requiere y me regala.</l>
+          <l>y entre en achaque de aceite....</l>
+          <l>ya tú me entiendes Mariana.</l>
+          <l>Otra dice, amigas mias,</l>
+          <l>yo tengo un cabo de escuadra</l>
+          <l>que va conmigo á la parte,</l>
+          <l>porque es mozo de importancia,</l>
+          <l>y el que no quiere pagarme</l>
+          <l>con buen modo y con palabras</l>
+          <l>le bace que me pague doble</l>
+          <l>como parte interesada....</l>
+          <l>Otra: dice suspirando,</l>
+          <l>yo soy la mas desgraciada,</l>
+          <l>porque tengo un estudiante:</l>
+          <l>de condicion tan estraña,</l>
+          <l>que siempre me tiene ahita</l>
+          <l>de hambre y otras circunstancias;</l>
+          <l>si le digo alguna cosa,</l>
+          <l>me da con una sotana.</l>
+          <l>Otra dice: compañera,</l>
+          <l>tenemos mala cartada:</l>
+          <l>que yo tengo un peluquero</l>
+          <l>que ya me tiene enfadada,</l>
+          <l>pues nunca le ha merecido</l>
+          <l>media libra de azofaifas,</l>
+          <l>y cuando viene de noche,</l>
+          <l>despues de no darme nada,</l>
+          <l>me hace mas preguntas</l>
+          <l>que tiene un misal de pascua,</l>
+          <l>y me trae entretenida,</l>
+          <l>con que de hoy á mañana</l>
+          <l>dice aguarda conveniencia</l>
+          <l>y que seré bien premiada,</l>
+          <l>y nunca llega este dia,</l>
+          <l>y asi no se lo que me haga.</l>
+          <l>Y las demas la responden</l>
+          <l>esa es valiente bobada,</l>
+          <l>que mas quiera el muy taimado</l>
+          <l>si cuanto desea halla!</l>
+          <l>Eso lo mismo hiciera</l>
+          <l>el borrico de la noria;</l>
+          <l>y pues que no es de provecho</l>
+          <l>darle con las calabasas</l>
+          <l>que no es razon que tu estés</l>
+          <l>sacandoles las entrañas</l>
+          <l>á otras por darle á èl,</l>
+          <l>esa es doctrina muy mala</l>
+          <l>tan solo hemos de querer</l>
+          <l>y adorar dentro del alma,</l>
+          <l>no aquel que nos diga dame,</l>
+          <l>sino aquel que digamos dace.</l>
+          <l>Como pueda dar buen manto</l>
+          <l>el que tiene mala capa?</l>
+          <l>Y todos de esta manera</l>
+          <l>pareceis unas urracas,</l>
+          <l>refiriendo cuentos viejos</l>
+          <l>sonrisa y con algazara,</l>
+          <l>con chanza y con alboroto,</l>
+          <l>no atendeis á lo que cantan,</l>
+
+          <pb n="3" source="Varios_190_3.jpg" facs="varios/Varios_190_3.jpg/"/>
+
+          <l>à la relacion ó historia,</l>
+          <l>Solamente estais atentas,</l>
+          <l>si aplican bien las palabras,</l>
+          <l>si no tienen melodía,</l>
+          <l>si el tocador tiene gracia,</l>
+          <l>si el bailador baila bien,</l>
+          <l>murmurando tan sin tasa</l>
+          <l>si se casa fulanilla,</l>
+          <l>si fulana es desastrada,</l>
+          <l>si fulano es buen muchacho,</l>
+          <l>y si el otro es mal trabaja.</l>
+          <l>Y todas de esta manera</l>
+          <l>estais poniendo mil faltas,</l>
+          <l>y no os mirais á vosotras</l>
+          <l>que teneis si se repara,</l>
+          <l>mas faltas que una pelota</l>
+          <l>y una tuerta remilgada.</l>
+          <l>Yo sé que estais ahora</l>
+          <l>con la tijera amolada,</l>
+          <l>y la tela apercibida</l>
+          <l>para cortarme unas mangas,</l>
+          <l>y solicito el desquite,</l>
+          <l>y asi con breves palabras</l>
+          <l>a cada cual por su nombre</l>
+          <l>la he de ir poniendo sus faltas.</l>
+
+          <div>
+            <head type="titulo_parte"><lb/>NOMBRES.</head>
+
             <l>Las Marías son muy frias,</l>
             <l>y de puro celos rabian;</l>
             <l>las Franciscas vocingleras;</l>
@@ -1578,8 +1575,6 @@
             <l>las hermitas del dios Baco</l>
             <l>con gran devocion y ansia,</l>
             <l>los liceres las destruyen</l>
-          </lg>
-          <lg>
             <l>que hay en estas santas casas;</l>
             <l>amigas de que las quieran</l>
             <l>son siempre las Damianas;</l>
@@ -1624,9 +1619,9 @@
             <l>amigas de visitar</l>
             <l>las Marcelas y las Claras,</l>
             <l>las Bernardas y Ritas</l>
-          </lg>
-          <pb n="4" source="Varios_190_4.jpg" facs="fedora_Varios_190_4/full/full/0/default.jpg"/>
-          <lg>
+
+            <pb n="4" source="Varios_190_4.jpg" facs="varios/Varios_190_4.jpg/"/>
+
             <l>tienen las uñas muy largas,</l>
             <l>las Lauras son hociconas,</l>
             <l>las Eugenias descuidadas,</l>
@@ -1670,8 +1665,6 @@
             <l>soflamomas las Genaras,</l>
             <l>las Brunas y Raimundas,</l>
             <l>amigas de andar descalzas,</l>
-          </lg>
-          <lg>
             <l>las Cármenes comilonas,</l>
             <l>las Calistas y Libradas holgazanas,</l>
             <l>las Wenceslas son satíricas,</l>
@@ -1715,8 +1708,8 @@
             <l>ni por abajo con nada:</l>
             <l>y ahora pide el poeta</l>
             <l>que le perdonen sus faltas.</l>
-          </lg>
-          <trailer>FIN.</trailer>
+            <trailer>FIN.</trailer>
+          </div>
         </div>
         <div>
           <p>BARCELONA. —1848. Imprenta de F. Vallés, calle del Pino.</p>

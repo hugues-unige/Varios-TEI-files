@@ -4,8 +4,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>EL CANTOR DE LAS HERMOSAS. TROVAS DE AMOR DEDICADAS AL BELLO SEXO POR UNOS
-               AFICIONADOS</title>
+        <title>EL CANTOR DE LAS HERMOSAS</title>
         <respStmt>
           <name xml:id="PJ">Pauline Jacsont</name>
           <resp>Codificación TEI</resp>
@@ -30,7 +29,7 @@
           <publicationStmt>
             <publisher>Tipografía Española</publisher>
             <pubPlace ref="https://www.geonames.org/3128760/barcelona.html">Barcelona</pubPlace>
-            <date cert="high">1879</date>
+            <date cert="high" when="1879-01-01">1879</date>
           </publicationStmt>
         </biblFull>
         <msDesc>
@@ -39,6 +38,7 @@
             <settlement>Genève</settlement>
             <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"/>
                   </repository>
+            <collection>Colección Varios</collection>
             <idno type="cote"/>
             <idno type="DOI">10.5281/zenodo.6787795</idno>
             <altIdentifier>
@@ -67,7 +67,7 @@
               </layoutDesc>
             </objectDesc>
             <decoDesc>
-              <summary n="1">Uno grabado (p.1)</summary>
+              <summary n="1">Un grabado (p.1)</summary>
               <decoNote type="lista_grabados">
                 <list>
                   <item corresp="grabado_v_418_1.xml">grabado_v_418_1</item>
@@ -104,7 +104,7 @@
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR non corregido</p>
+          <p>OCR no corregido</p>
         </correction>
         <normalization>
           <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
@@ -130,9 +130,10 @@
     <revisionDesc>
       <change when="2023-12-25" who="#PJ">Création du fichier TEI P5 et encodage du corps du
             texte</change>
+<change when="2024-01-09" who="#EL">Add the IIIF links</change>
     </revisionDesc>
   </teiHeader>
-  <sourceDoc xml:id="automaticTranscription">
+  <facsimile><graphic url="varios/Varios_418_1.jpg/full/200,/0/default.jpg"/></facsimile><sourceDoc xml:id="automaticTranscription">
     <surface xml:id="Varios_418_1" type="page" cert="silver">
       <graphic url="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_418_1/full/full/0/default.jpg"/>
       <zone xml:id="Varios_418_1_BT223_1" n="1" type="CustomZone" subtype="title" points="1611,756 42,756 42,440 693,440 693,288 958,288 958,458 1611,458 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_418_1/42.0,288.0,1569.0,468.0/full/0/default" corresp="CustomZone:title">
@@ -920,7 +921,7 @@
   <text>
     <body>
       <div>
-        <pb n="1" source="Varios_418_1.jpg" facs="fedora_Varios_418_1/full/full/0/default.jpg"/>
+        <pb n="1" source="Varios_418_1.jpg" facs="varios/Varios_418_1.jpg/"/>
         <head type="primer_titulo"><lb/>EL<lb/>CANTOR DE LAS HERMOSAS<lb/>TROVAS DE AMOR DEDICADAS AL BELLO SEXO POR
                UNOS<lb/>AFICIONADOS.</head>
         <div type="parte" n="1">
@@ -937,7 +938,7 @@
             <l>Y su obstinado empeño</l>
             <l>Propónese burlar.</l>
           </lg>
-          <pb n="2" source="Varios_418_2.jpg" facs="fedora_Varios_418_2/full/full/0/default.jpg"/>
+          <pb n="2" source="Varios_418_2.jpg" facs="varios/Varios_418_2.jpg/"/>
           <fw type="paginaNum">186</fw>
           <lg>
             <l>A la siguiente noche</l>
@@ -1024,7 +1025,7 @@
             <l>Dispierta que tu querido</l>
             <l>Hoy viene coronado de laurel.</l>
           </lg>
-          <pb n="3" source="Varios_418_3.jpg" facs="fedora_Varios_418_3/full/full/0/default.jpg"/>
+          <pb n="3" source="Varios_418_3.jpg" facs="varios/Varios_418_3.jpg/"/>
           <fw type="paginaNum">187</fw>
           <lg>
             <l>Dispierta, que soy Ricardo,</l>
@@ -1108,7 +1109,7 @@
             <l>No con rigores</l>
             <l>Pagues mi amor.</l>
           </lg>
-          <pb n="4" source="Varios_418_4.jpg" facs="fedora_Varios_418_4/full/full/0/default.jpg"/>
+          <pb n="4" source="Varios_418_4.jpg" facs="varios/Varios_418_4.jpg/"/>
           <fw type="paginaNum">188</fw>
           <lg>
             <head type="titulo_estrofa">II.</head>

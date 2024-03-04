@@ -1,18 +1,17 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../Schema/oddPliego_varios.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:alto="http://www.loc.gov/standards/alto/ns-v4#" xml:id="Varios_058">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Varios_058">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>LAS QUEIXAS DE LAS MESTRESSAS.</title>
+        <title>LAS QUEIXAS DE LAS MESTRESSAS</title>
         <respStmt>
           <name/>
           <resp>Codificación TEI</resp>
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <authority role="rightsHolder">Bibliothèque Universitaire de
-                              Genève</authority>
+        <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
         <availability status="restricted">
           <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
         </availability>
@@ -20,17 +19,17 @@
       <sourceDesc>
         <biblFull>
           <titleStmt>
-            <title type="titulo_completo">LAS QUEIXAS DE LAS MESTRESSAS.
-                                          SEGONA PART DE LA CONVERSACIÓ DE LAS SIS CRIADAS.</title>
-            <title type="titulo_breve"/>
+            <title type="titulo_completo">LAS QUEIXAS DE LAS MESTRESSAS. SEGONA PART DE LA
+              CONVERSACIÓ DE LAS SIS CRIADAS.</title>
+            <title type="titulo_breve">LAS QUEIXAS DE LAS MESTRESSAS.</title>
           </titleStmt>
           <editionStmt>
             <p/>
           </editionStmt>
           <publicationStmt>
-            <publisher>Hereus de la V. Pla</publisher>
+            <publisher>Herederos de la Viuda Pla</publisher>
             <pubPlace ref="https://www.geonames.org/3128760/barcelona.html">Barcelona</pubPlace>
-            <date>[s.a]</date>
+            <date cert="low" when="1800-01-01">[s.a.]</date>
           </publicationStmt>
         </biblFull>
         <msDesc>
@@ -38,7 +37,8 @@
             <country>Suisse</country>
             <settlement>Genève</settlement>
             <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"/>
-                                    </repository>
+            </repository>
+            <collection>Colección Varios</collection>
             <idno type="cote"/>
             <idno type="DOI">10.5281/zenodo.6557738</idno>
             <altIdentifier>
@@ -67,7 +67,7 @@
               </layoutDesc>
             </objectDesc>
             <decoDesc>
-              <summary n="1">Uno grabado (p.1) </summary>
+              <summary n="1">Un grabado (p.1) </summary>
               <decoNote type="lista_grabados">
                 <list>
                   <item corresp="grabado_v_058_1.xml">grabado_v_058_1</item>
@@ -80,8 +80,7 @@
           </physDesc>
           <history>
             <origin>
-              <p>Estampa dels Hereus da la V. Pla, carrer de la
-                                                Princesa.</p>
+              <p>Estampa dels Hereus da la V. Pla, carrer de la Princesa.</p>
             </origin>
             <provenance/>
             <acquisition>
@@ -93,18 +92,17 @@
     </fileDesc>
     <encodingDesc>
       <projectDesc>
-        <p>Este archivo fue creado en el marco del proyecto Desenrollando el
-                              Cordel/Démêler le cordel/Untangling the cordel, dirigido por la
-                              profesora Constance Carta de la Universidad de Ginebra, con el apoyo
-                              de la Fundación filantrópica Famille Sandoz-Monique de Meuron.</p>
+        <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+          cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la Universidad
+          de Ginebra, con el apoyo de la Fundación filantrópica Famille Sandoz-Monique de
+          Meuron.</p>
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR non corregido</p>
+          <p>OCR no corregido</p>
         </correction>
         <normalization>
-          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto
-                                    original.</p>
+          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
         </normalization>
         <punctuation>
           <p>Se conserva la puntuación original.</p>
@@ -113,7 +111,7 @@
     </encodingDesc>
     <profileDesc>
       <langUsage>
-        <language ident="es">Español</language>
+        <language ident="ca">Catalán</language>
       </langUsage>
       <textClass>
         <keywords xml:base="http://datos.bne.es/tema/">
@@ -125,10 +123,14 @@
       </textClass>
     </profileDesc>
     <revisionDesc>
-      <change when="2022-06-14" who="#PJ">Création du fichier TEI P5 et encodage du
-                        corps du texte</change>
+      <change when="2022-06-14" who="#PJ">Création du fichier TEI P5 et encodage du corps du
+        texte</change>
+      <change when="2024-01-09" who="#EL">Add the IIIF links</change>
     </revisionDesc>
   </teiHeader>
+  <facsimile>
+    <graphic url="varios/Varios_058_1.jpg/full/200,/0/default.jpg"/>
+  </facsimile>
   <sourceDoc xml:id="automaticTranscription">
     <surface xml:id="Varios_058_1" type="page" cert="silver">
       <graphic url="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_058_1/full/full/0/default.jpg"/>
@@ -1223,8 +1225,7 @@
         </zone>
         <zone xml:id="Varios_058_4_BT227_1_LT83_46" type="DefaultLine" subtype="none" points="480,2480 478,2412 673,2416 686,2414 730,2405 730,2405 730,2405 732,2405 732,2405 734,2405 734,2405 734,2405 736,2405 736,2405 736,2407 745,2416 750,2418 809,2416 886,2414 888,2414 888,2414 888,2414 912,2418 958,2427 1083,2420 1158,2418 1160,2418 1276,2423 1276,2423 1276,2423 1278,2423 1278,2423 1280,2423 1283,2425 1305,2438 1327,2425 1329,2425 1329,2425 1329,2425 1331,2425 1331,2425 1333,2425 1469,2429 1469,2504 1469,2534 1421,2547 1419,2547 1419,2547 1416,2547 1416,2547 1416,2547 1414,2547 1414,2547 1414,2547 1412,2547 1412,2547 1399,2534 1397,2534 1320,2534 1320,2534 1267,2552 1267,2552 1265,2552 1265,2552 1263,2552 1263,2552 1263,2552 1160,2532 1127,2526 1109,2532 1090,2539 1090,2539 1087,2539 1087,2539 1087,2539 925,2541 923,2541 756,2534 756,2534 756,2534 754,2534 754,2534 752,2534 741,2528 715,2512 699,2521 699,2521 699,2521 697,2521 697,2521 695,2521 695,2521 695,2521 633,2510 598,2526 598,2526 598,2526 596,2526 596,2526 596,2526 594,2526 594,2526 592,2526 592,2526 592,2526 592,2526 557,2508 524,2526 522,2526 522,2526 522,2526 519,2526 519,2526 517,2526 475,2523 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_058_4/475,2405,994,147/full/0/default" corresp="DefaultLine">
           <path xml:id="Varios_058_4_BT227_1_LT83_46_1" points="482,2482 638,2477 1470,2506 " corresp="DefaultLine"/>
-          <line>Barcelona: Estampa dels Hereus da la V. Pla, carrer de la
-                                    Princesa.</line>
+          <line>Barcelona: Estampa dels Hereus da la V. Pla, carrer de la Princesa.</line>
         </zone>
       </zone>
       <zone xml:id="Varios_058_4_BT227_2" n="2" type="MainZone" subtype="columns" points="1131,2339 1035,2337 1017,2285 1044,245 1454,227 1515,271 1517,341 1602,382 1602,454 1508,454 1508,570 1602,570 1602,701 1506,788 1620,937 1612,1005 1568,1016 1585,1101 1533,1198 1596,1270 1664,1279 1673,1323 1669,1424 1587,1424 1587,1584 1589,1584 1550,1603 1575,1609 1575,1774 1524,1814 1535,1857 1548,1859 1548,1860 1480,1860 1480,1951 1548,1951 1548,2282 1603,2282 1603,2351 1545,2351 1545,2333 1299,2333 1299,2341 1127,2341 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_058_4/1017,227,656,2124/full/0/default" corresp="MainZone:columns">
@@ -1413,51 +1414,50 @@
   <text>
     <body>
       <div>
-        <pb n="1" source="Varios_058_1.jpg" facs="fedora_Varios_058_1/full/full/0/default.jpg"/>
-        <head type="primer_titulo"><lb/>LAS QUEIXAS DE LAS MESTRESSAS.</head>
-        <div type="parte" n="1">
-          <head type="titulo_parte"><lb/>SEGONA PART<lb/>DE LA CONVERSACIÓ DE
-                                    LAS SIS CRIADAS.</head>
-          <lg>
-            <l>Diguí en la primera part</l>
-            <l>que un dia estant amagat,</l>
-            <l>desde dalt de una finestra</l>
-            <l>escoltí una gran palestra</l>
-            <l>que tenian sis criadas,</l>
-            <l>de las que se n' diu taymadas.</l>
-            <l>Cada qual ab molta fressa</l>
-            <l>deya mal de sa mestressa.</l>
-            <l>Vaig proposar jo aquell dia,</l>
-            <l>que de un any no pararia</l>
-            <l>fins saber ab claredat</l>
-            <l>si acás era veritat</l>
-            <l>lo que aquellas noyas deyan,</l>
-            <l>y que tan á venal treyan.</l>
-            <l>De á las horas endavant</l>
-            <l>anava sempre buscant</l>
-            <l>per trobar la ocasió.</l>
-          </lg>
-          <lg>
-            <l>de conéixer si rahó</l>
-            <l>tenian las sis criadas</l>
-            <l>per estar axí enfadadas.</l>
-            <l>Un dia que vaig anar</l>
-            <l>á casa donya Pilar,</l>
-            <l>y estava allí de visita,</l>
-            <l>se presentá donya Rita,</l>
-            <l>donya Agnés, donya Ramona,</l>
-            <l>y també donya Coloma.</l>
-            <l>Y entre cosas variadas</l>
-            <l>parláren de las criadas,</l>
-            <l>dihent axí donya Rlamona:</l>
-            <l>la mia es molt bojarrona :</l>
-            <l>avuy al fer l' esmorsar</l>
-            <l>tot me l' ha deixat cremar.</l>
-            <l>Y no era poch, sis costellas</l>
-            <l>que rustia á las graellas.</l>
-          </lg>
-          <pb n="2" source="Varios_058_2.jpg" facs="fedora_Varios_058_2/full/full/0/default.jpg"/>
-          <lg>
+        <div>
+          <pb n="1" source="Varios_058_1.jpg" facs="varios/Varios_058_1.jpg/"/>
+
+          <head type="primer_titulo"><lb/>LAS QUEIXAS DE LAS MESTRESSAS.</head>
+          <head type="subtitulo"><lb/><hi rend="negrita">SEGONA PART</hi><lb/>DE LA CONVERSACIÓ DE
+            LAS SIS CRIADAS.</head>
+
+          <l><hi rend="negrita">D</hi>iguí en la primera part</l>
+          <l>que un dia estant amagat,</l>
+          <l>desde dalt de una finestra</l>
+          <l>escoltí una gran palestra</l>
+          <l>que tenian sis criadas,</l>
+          <l>de las que se n' diu taymadas.</l>
+          <l>Cada qual ab molta fressa</l>
+          <l>deya mal de sa mestressa.</l>
+          <l>Vaig proposar jo aquell dia,</l>
+          <l>que de un any no pararia</l>
+          <l>fins saber ab claredat</l>
+          <l>si acás era veritat</l>
+          <l>lo que aquellas noyas deyan,</l>
+          <l>y que tan á venal treyan.</l>
+          <l>De á las horas endavant</l>
+          <l>anava sempre buscant</l>
+          <l>per trobar la ocasió.</l>
+          <l>de conéixer si rahó</l>
+          <l>tenian las sis criadas</l>
+          <l>per estar axí enfadadas.</l>
+          <l>Un dia que vaig anar</l>
+          <l>á casa donya Pilar,</l>
+          <l>y estava allí de visita,</l>
+          <l>se presentá donya Rita,</l>
+          <l>donya Agnés, donya Ramona,</l>
+          <l>y també donya Coloma.</l>
+          <l>Y entre cosas variadas</l>
+          <l>parláren de las criadas,</l>
+          <l>dihent axí donya Rlamona:</l>
+          <l>la mia es molt bojarrona :</l>
+          <l>avuy al fer l' esmorsar</l>
+          <l>tot me l' ha deixat cremar.</l>
+          <l>Y no era poch, sis costellas</l>
+          <l>que rustia á las graellas.</l>
+
+          <pb n="2" source="Varios_058_2.jpg" facs="varios/Varios_058_2.jpg/"/>
+          
             <l>Es una d' aquellas criadas</l>
             <l>que s' pot dir mes descuydadas.</l>
             <l>Mentres que lo diná s cou,</l>
@@ -1504,8 +1504,7 @@
             <l>de flaca semblant pateix;</l>
             <l>y mes, perque las rahons</l>
             <l>las emplea ab los minyons.</l>
-          </lg>
-          <lg>
+          
             <l>Si la envio á alguna part</l>
             <l>ja li puch dir : vina aviat,</l>
             <l>que encara no es al carrer,</l>
@@ -1552,9 +1551,9 @@
             <l>y avans no s' posa á vestí,</l>
             <l>me ſa alsar la casa á crits,</l>
             <l>y ab los ulls mitg adormits</l>
-          </lg>
-          <pb n="3" source="Varios_058_3.jpg" facs="fedora_Varios_058_3/full/full/0/default.jpg"/>
-          <lg>
+          
+          <pb n="3" source="Varios_058_3.jpg" facs="varios/Varios_058_3.jpg/"/>
+          
             <l>surt del quarto al cap de una hora,</l>
             <l>y m' ve: ¿qué mana, senyora?</l>
             <l>—Qué t' mano? Si que estem bé:</l>
@@ -1601,8 +1600,7 @@
             <l>la veuréu que s' va aclucant,</l>
             <l>baixant lo cap ensupida,</l>
             <l>y al moment queda dormida.</l>
-          </lg>
-          <lg>
+          
             <l>Esgranant pésols ó favas;</l>
             <l>veuréu li cauhen las babas,</l>
             <l>regalantli cara avall,</l>
@@ -1649,9 +1647,9 @@
             <l>y si pot llaminejar,</l>
             <l>¡ ay Deu meu ! com s' hi adoba.</l>
             <l>Totas las viandas prova,</l>
-          </lg>
-          <pb n="4" source="Varios_058_4.jpg" facs="fedora_Varios_058_4/full/full/0/default.jpg"/>
-          <lg>
+          
+          <pb n="4" source="Varios_058_4.jpg" facs="varios/Varios_058_4.jpg/"/>
+          
             <l>y ab la excusa del probar</l>
             <l>¿saben que fa ? llaminejar.</l>
             <l>No surt un plat ni platet</l>
@@ -1697,8 +1695,7 @@
             <l>Igual que faré ab la meva.</l>
             <l>que es una semblant ab la seya</l>
             <l>perque m' pren tot lo que pol</l>
-          </lg>
-          <lg>
+          
             <l>per regalarho al xicot.</l>
             <l>Ahir la vaig atrapar,</l>
             <l>que mentres treya l' dinar,</l>
@@ -1742,12 +1739,11 @@
             <l>de oscríuror encontinent</l>
             <l>tot lo que ellas havian dit,</l>
             <l>que es lo que ara haven llegit.</l>
-          </lg>
+          
           <trailer>FI.</trailer>
         </div>
         <div type="colofon">
-          <p>Barcelona: Estampa dels Hereus da la V. Pla, carrer de la
-                                    Princesa.</p>
+          <p><hi rend="cursiva">Barcelona</hi>: Estampa dels Hereus da la V. Pla, carrer de la Princesa.</p>
         </div>
       </div>
     </body>

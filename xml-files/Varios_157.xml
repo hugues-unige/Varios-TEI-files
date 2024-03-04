@@ -1,20 +1,17 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../Schema/oddPliego_varios.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:alto="http://www.loc.gov/standards/alto/ns-v4#" xml:id="Varios_157">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Varios_157">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>GUZMAN EL BUENO. Relacion histórica del trágico fin de su hijo don
-                              Pedro, asesinado por los moros al pié de los muros de Tarifa con el
-                              puñal</title>
+        <title>GUZMAN EL BUENO</title>
         <respStmt>
           <name/>
           <resp>Codificación TEI</resp>
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <authority role="rightsHolder">Bibliothèque Universitaire de
-                              Genève</authority>
+        <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
         <availability status="restricted">
           <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
         </availability>
@@ -22,19 +19,18 @@
       <sourceDesc>
         <biblFull>
           <titleStmt>
-            <title type="titulo_completo">GUZMAN EL BUENO. Relacion
-                                          histórica del trágico fin de su hijo don Pedro,
-                                          asesinado por los moros al pié de los muros de Tarifa con
-                                          el puñal</title>
+            <title type="titulo_completo">GUZMAN EL BUENO. Relacion histórica del trágico fin de
+              su hijo don Pedro, asesinado por los moros al pié de los muros de Tarifa con el
+              puñal</title>
             <title type="titulo_breve">GUZMAN EL BUENO.</title>
           </titleStmt>
           <editionStmt>
             <p/>
           </editionStmt>
           <publicationStmt>
-            <publisher>Imp. de Llorens</publisher>
+            <publisher>Llorens</publisher>
             <pubPlace ref="https://www.geonames.org/3128760/barcelona.html">Barcelona</pubPlace>
-            <date>[s.a]</date>
+            <date cert="low" when="1800-01-01">[s.a.]</date>
           </publicationStmt>
         </biblFull>
         <msDesc>
@@ -42,7 +38,8 @@
             <country>Suisse</country>
             <settlement>Genève</settlement>
             <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"/>
-                                    </repository>
+            </repository>
+            <collection>Colección Varios</collection>
             <idno type="cote"/>
             <idno type="DOI">10.5281/zenodo.6587110</idno>
             <altIdentifier>
@@ -71,7 +68,7 @@
               </layoutDesc>
             </objectDesc>
             <decoDesc>
-              <summary n="1">Uno grabado (p.1) </summary>
+              <summary n="1">Un grabado (p.1) </summary>
               <decoNote type="lista_grabados">
                 <list>
                   <item corresp="grabado_v_157_1.xml">grabado_v_157_1</item>
@@ -92,18 +89,17 @@
     </fileDesc>
     <encodingDesc>
       <projectDesc>
-        <p>Este archivo fue creado en el marco del proyecto Desenrollando el
-                              Cordel/Démêler le cordel/Untangling the cordel, dirigido por la
-                              profesora Constance Carta de la Universidad de Ginebra, con el apoyo
-                              de la Fundación filantrópica Famille Sandoz-Monique de Meuron.</p>
+        <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+          cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la Universidad
+          de Ginebra, con el apoyo de la Fundación filantrópica Famille Sandoz-Monique de
+          Meuron.</p>
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR non corregido</p>
+          <p>OCR no corregido</p>
         </correction>
         <normalization>
-          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto
-                                    original.</p>
+          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
         </normalization>
         <punctuation>
           <p>Se conserva la puntuación original.</p>
@@ -124,10 +120,14 @@
       </textClass>
     </profileDesc>
     <revisionDesc>
-      <change when="2022-09-19" who="#PJ">Création du fichier TEI P5 et encodage du
-                        corps du texte</change>
+      <change when="2022-09-19" who="#PJ">Création du fichier TEI P5 et encodage du corps du
+        texte</change>
+      <change when="2024-01-09" who="#EL">Add the IIIF links</change>
     </revisionDesc>
   </teiHeader>
+  <facsimile>
+    <graphic url="varios/Varios_157_1.jpg/full/200,/0/default.jpg"/>
+  </facsimile>
   <sourceDoc xml:id="automaticTranscription">
     <surface xml:id="Varios_157_1" type="page" cert="silver">
       <graphic url="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_157_1/full/full/0/default.jpg"/>
@@ -138,8 +138,7 @@
         </zone>
         <zone xml:id="Varios_157_1_BT223_1_LT84_2" type="HeadingLine" subtype="none" points="245,1800 241,1739 361,1741 364,1741 366,1741 366,1743 379,1754 421,1741 423,1741 425,1741 427,1741 429,1741 445,1754 462,1741 464,1741 467,1741 469,1741 541,1754 655,1741 658,1741 660,1741 662,1741 677,1752 693,1741 693,1739 695,1739 697,1739 699,1739 800,1743 802,1743 804,1743 804,1746 815,1754 960,1741 962,1741 965,1741 1004,1754 1052,1741 1055,1741 1057,1741 1118,1754 1149,1739 1151,1739 1153,1739 1234,1739 1237,1739 1239,1739 1261,1754 1394,1741 1397,1741 1520,1754 1570,1737 1579,1798 1579,1831 1412,1833 1410,1833 1408,1833 1401,1831 1375,1820 1285,1829 1241,1833 1239,1833 1237,1833 1234,1833 1230,1829 1221,1820 1201,1829 1195,1831 1193,1831 1191,1831 1144,1829 1026,1818 1002,1827 982,1833 980,1833 978,1833 976,1833 960,1827 940,1816 824,1816 796,1824 783,1829 780,1829 778,1829 732,1824 668,1816 660,1822 651,1829 651,1831 649,1831 647,1831 644,1831 642,1831 625,1822 618,1820 611,1822 583,1833 581,1833 579,1833 576,1833 574,1833 574,1831 563,1822 557,1816 528,1816 454,1820 298,1833 296,1833 293,1833 291,1833 291,1831 276,1820 274,1818 245,1818 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_157_1/241,1737,1338,96/full/0/default" corresp="HeadingLine">
           <path xml:id="Varios_157_1_BT223_1_LT84_2_1" points="238,1800 1579,1798 "/>
-          <line>Relacion histórica del trágico fin de su hijo don Pedro,
-                                    asesinado por los</line>
+          <line>Relacion histórica del trágico fin de su hijo don Pedro, asesinado por los</line>
         </zone>
         <zone xml:id="Varios_157_1_BT223_1_LT84_3" type="HeadingLine" subtype="none" points="454,1864 454,1899 539,1897 541,1897 543,1897 543,1895 554,1886 563,1895 563,1897 565,1897 568,1897 570,1897 572,1897 574,1897 596,1884 620,1895 622,1895 625,1895 627,1895 629,1895 629,1892 640,1884 756,1884 776,1897 778,1897 780,1897 783,1899 783,1897 785,1897 787,1897 804,1884 875,1897 877,1897 879,1897 923,1884 1033,1897 1035,1897 1195,1884 1259,1897 1261,1897 1263,1897 1289,1884 1342,1897 1348,1862 1344,1816 451,1811 454,1864 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_157_1/451,1811,897,88/full/0/default" corresp="HeadingLine">
           <path xml:id="Varios_157_1_BT223_1_LT84_3_1" points="455,1866 1351,1864 "/>
@@ -1218,292 +1217,284 @@
     <body>
       <div>
         <div>
-          <pb n="1" source="Varios_157_1.jpg" facs="fedora_Varios_157_1/full/full/0/default.jpg"/>
+          <pb n="1" source="Varios_157_1.jpg" facs="varios/Varios_157_1.jpg/"/>
+
           <head type="primer_titulo" rend="negrita"><lb/>GUZMAN EL BUENO.</head>
-          <head type="subtitulo_parte" rend="cursiva"><lb/>Relacion histórica
-                                    del trágico fin de su hijo don Pedro, asesinado por
-                                    los<lb/>moros al pié de los muros de Tarifa con el
-                                    puñal<lb/>que su mismo padre les tiró.</head>
-          <lg>
-            <l>De una hazaña sin ejemplo</l>
-            <l>voy á contaros la historia,</l>
-            <l>que casi nadie creyera</l>
-            <l>si no fuera tan notoria.</l>
-            <l>Allá por el siglo trece</l>
-            <l>los moros y los cristianos</l>
-            <l>ya pacíficos vivian,</l>
-            <l>ya llegaban á las manos.</l>
-          </lg>
-          <lg>
-            <l>A la España subyugaron</l>
-            <l>los árabes por traicion,</l>
-            <l>mas costóles mucha sangre</l>
-            <l>su larga dominacion.</l>
-            <l>Entre mil que resistieron,</l>
-            <l>citaré á Guzman el Bueno,</l>
-            <l>á quien no logró abatir</l>
-            <l>todo el poder agareno.</l>
-          </lg>
-          <pb n="2" source="Varios_157_2.jpg" facs="fedora_Varios_157_2/full/full/0/default.jpg"/>
-          <lg>
-            <l>Gobernador de Tarifa</l>
-            <l>era tan bravo español ;</l>
-            <l>de seguro no habia otro</l>
-            <l>mas digno debajo el sol.</l>
-            <l>En las fiestas nunca el último,</l>
-            <l>y en lides siempre el primero,</l>
-            <l>á Pedro, su hijo menor,</l>
-            <l>ordenó armar caballero.</l>
-            <l>Doña Sol, hija querida</l>
-            <l>del vil Infante don Juan,</l>
-            <l>fué la que cinó la espada</l>
-            <l>á don Pedro de Guzman.</l>
-            <l>Para correr unas cañas</l>
-            <l>se aprestaban los donceles,</l>
-            <l>que en presencia de las damas</l>
-            <l>todos ansían laureles.</l>
-            <l>Enamoróse el mancebo,</l>
-            <l>de doña Sol aquel dia,</l>
-            <l>y mientras ella le hablaba,</l>
-            <l>él en su amor se encendia.</l>
-            <l>Por fin al galan doncel,</l>
-            <l>sumamente conmovida,</l>
-            <l>dió doña Sol una banda</l>
-            <l>al llegar la despedida.</l>
-            <l>Su intimidad amorosa</l>
-            <l>notó don Juan al entrar,</l>
-            <l>mas saludó muy cortés</l>
-            <l>y supo disimular.</l>
-            <l>Siendo muy ambicioso</l>
-            <l>el Infante de Castilla,</l>
-            <l>que soñara en ser traidor</l>
-            <l>en nada me maravilla.</l>
-            <l>Llevado de la codicia</l>
-            <l>se propuso en breve plazo</l>
-            <l>hacer trozos de su patria</l>
-            <l>para obtener un pedazo.</l>
-            <l>Debia vender Tarifa,</l>
-            <l>y en pago de su traicion</l>
-            <l>dominaria en los reinos</l>
-            <l>de Castilla y de Leon.</l>
-            <l>Concertóse la perfidia</l>
-            <l>con Aben-Said, sin rubor,</l>
-            <l>pues los labios del Infante,</l>
-            <l>juraron su deshonor.</l>
-          </lg>
-          <lg>
-            <l>De süs infames proyectos</l>
-            <l>á Guzman pronto avisaron</l>
-            <l>doña María y don Nuño,</l>
-            <l>que de aquél siempre dudaron.</l>
-            <l>sus sospechas le descubre;</l>
-            <l>Habla con él don Alfonso;</l>
-            <l>mas don Juan se muestra hipócrita,</l>
-            <l>y su felonía encubre.</l>
-            <l>En un muy vivo altercado</l>
-            <l>mal su grado vió don Juan</l>
-            <l>que en Tarifa no mandaba</l>
-            <l>nadie mas que el de Guzman.</l>
-            <l>Bien pronto cundió la voz</l>
-            <l>que el enemigo venia</l>
-            <l>á caer sobre la plaza</l>
-            <l>antes de finir el dia.</l>
-            <l>Al saber la traicion</l>
-            <l>el pueblo se amotinó,</l>
-            <l>y acabar con el Infante</l>
-            <l>en el palacio intentó.</l>
-            <l>Los de Guzman, padre é hijo,</l>
-            <l>allí salvaron su vida,</l>
-            <l>permitiéndole sin riesgo</l>
-            <l>de la plaza la salida.</l>
-            <l>En tanto aguerridas huestes</l>
-            <l>africanas se acercaron,</l>
-            <l>y frustrada una sorpresa,</l>
-            <l>el sitio formalizaron.</l>
-            <l>Los españoles indómitos</l>
-            <l>se aprestaron á batirse,</l>
-            <l>y juraron defenderse</l>
-            <l>hasta morir ; no rendirse.</l>
-            <l>Fuera del muro aquel dia</l>
-            <l>trabose un combate fiero,</l>
-            <l>y allí el hijo de Guzman</l>
-            <l>quedó hecho prisionero.</l>
-            <l>Con furor todos lucharon</l>
-            <l>en la reñida batalla;</l>
-            <l>no perdió empero sus brios</l>
-            <l>la mauritana canalla.</l>
-            <l>A sus padres contristados</l>
-            <l>vino el hijo el mismo dia;</l>
-            <l>mas cumplido su mensaje,</l>
-            <l>volver al real debia;</l>
-          </lg>
-          <pb n="3" source="Varios_157_3.jpg" facs="fedora_Varios_157_3/full/full/0/default.jpg"/>
-          <lg>
-            <l>Aben-Comat del rescate</l>
-            <l>trató tambien con Guzman ;</l>
-            <l>y ya entonces con los moros</l>
-            <l>estaba el traidor don Juan.</l>
-            <l>Si rescatarse pudiera</l>
-            <l>con joyas y plata y oro,</l>
-            <l>sus padres les rescataran</l>
-            <l>dando todo su tesoro.</l>
-            <l>Mas el precio de don Fedro</l>
-            <l>era indigno de su raza,</l>
-            <l>pues por librarle querian</l>
-            <l>la rendicion de la plaza.</l>
-            <l>Guzman rechazó indignado</l>
-            <l>propuesta tan humillante,</l>
-            <l>contestando dignamente</l>
-            <l>y atento, pero arrogante;</l>
-            <l>«Solo hollando mi cadáver</l>
-            <l>en esta plaza entrareis :</l>
-            <l>ni busqueis otro camino</l>
-            <l>pues tampoco le hallaréis.»</l>
-            <l>En sacrificio se ofrece</l>
-            <l>don Pedro muy generoso;</l>
-            <l>no quiere deber la vida</l>
-            <l>á un convenio deshonroso</l>
-            <l>Trató de impedir la madre</l>
-            <l>que el hijo al moro volviera,</l>
-            <l>pero tampoco queria</l>
-            <l>que Tarifa se perdiera.</l>
-            <l>Mas el llanto de María</l>
-            <l>no movió su corazon</l>
-            <l>á que su vida manchara</l>
-            <l>con una cobarde accion.</l>
-            <l>Y de aquel pecho tan noble</l>
-            <l>nada alcanzando María,</l>
-            <l>probóse si doña Sol</l>
-            <l>mas fácil le vencería.</l>
-            <l>Mas esta digna señora,</l>
-            <l>tan distinta de su padre,</l>
-            <l>si bien ya le idolatraba,</l>
-            <l>mas nunca como una madre.</l>
-            <l>Valerosa le aconseja</l>
-            <l>que no cometa bajeza,</l>
-            <l>y primero que el honor</l>
-            <l>debe perder la cabeza.</l>
-          </lg>
-          <lg>
-            <l>Y entre arrebatos de amor,</l>
-            <l>y de afeccion la mas pura,</l>
-            <l>le promete. si él sucumbe,</l>
-            <l>seguirle á la sepultura.</l>
-            <l>y se enardece su amor,</l>
-            <l>El la escucha extasiado,</l>
-            <l>mas si bien siente el dejarla,</l>
-            <l>prefiere á todo el honor.</l>
-            <l>de amor sincero en el mundo ;</l>
-            <l>Jamás faltarán ejemplos</l>
-            <l>pero el cariño de madre</l>
-            <l>siempre será el mas profundo.</l>
-            <l>El amor de doña Sol</l>
-            <l>hácia don Pedro era fuerte;</l>
-            <l>mas por temor de la infamia</l>
-            <l>le aconsejaba la muerte.</l>
-            <l>Mas ¿ Quién dirá los recursos,</l>
-            <l>los ardides y las mañas</l>
-            <l>de una madre por salvar</l>
-            <l>al hijo de sus entrañas?</l>
-            <l>A tantos medios María</l>
-            <l>infatigable apeló,</l>
-            <l>á tantos ruegos y súplicas,</l>
-            <l>y tanto lo que lloró,</l>
-            <l>Que aquel mozo tan bizarro,</l>
-            <l>cual si fuera débil niño,</l>
-            <l>olvidando el juramento</l>
-            <l>cedió al maternal cariño.</l>
-            <l>Que en toda lucha prolija</l>
-            <l>sobre el amor y el deber</l>
-            <l>entre una madre y un hijo,</l>
-            <l>siempre vence la mujer.</l>
-            <l>Pero Alfonso de Guzman,</l>
-            <l>de carácter indomable,</l>
-            <l>supo convertir en frágil</l>
-            <l>lo que ya se creyó estable.</l>
-            <l>Ni se crea no estuviera</l>
-            <l>su alma de amor lacerada ;</l>
-            <l>mas primero que la vida</l>
-            <l>es para él palabra dada.</l>
-            <l>Del esposo á las razones</l>
-            <l>no daba fuerza María ;</l>
-            <l>que á la libertad del hijo</l>
-            <l>ella tan sólo atendia.</l>
-          </lg>
-          <pb n="4" source="Varios_157_4.jpg" facs="fedora_Varios_157_4/full/full/0/default.jpg"/>
-          <lg>
-            <l>El padre increpó á don Pedro</l>
-            <l>su cobardía y desdoro,</l>
-            <l>y determinó entregarse</l>
-            <l>en su lugar él al moro.</l>
-            <l>¡ Con don Alfonso abrazóse</l>
-            <l>la madre tan afligida !...</l>
-            <l>Entonces Pedro animoso</l>
-            <l>buscó pronto la salida.</l>
-            <l>Quedó María un instante</l>
-            <l>cual estátua, muda, yerta ;</l>
-            <l>mas luego dando un gran grito</l>
-            <l>cayó en tierra como muerta.</l>
-            <l>¡ Despues terribles visiones</l>
-            <l>en sueños Guzman sufria !...</l>
-            <l>soñaba que degollaban</l>
-            <l>al hijo que mas queria.</l>
-            <l>Vuelve en tanto el fiel don Nuño</l>
-            <l>que marchara al campo moro</l>
-            <l>por rescatar á don Pedro</l>
-            <l>ofreciendo montes de oro.</l>
-            <l>Mas de don Juan que allí manda,</l>
-            <l>trae un insolente escrito,</l>
-            <l>sólo Tarifa en rescate</l>
-            <l>admitiendo aquel maldito.</l>
-            <l>Y á don Pedro ( al tercer toque</l>
-            <l>del clarin, si con presteza</l>
-            <l>la plaza no es entregada )</l>
-            <l>le cortarán la cabeza.</l>
-            <l>El honor y amor al hijo</l>
-            <l>otra vez luchando están...</l>
-            <l>¡ La pobre madre vencida</l>
-            <l>fué por el grande Guzman.</l>
-          </lg>
-          <lg>
-            <l>Quien subió al segundo toque</l>
-            <l>al muro como un leon,</l>
-            <l>y así dijo á los de afuera</l>
-            <l>rechazando un tal baldon :</l>
-            <l>«No aceptaré yo jamás</l>
-            <l>esa propuesta, inhumanos,</l>
-            <l>por mas que en mi caro hijo</l>
-            <l>ensangrenteis vuestras manos.</l>
-            <l>«Sacrificadle, cobardes,</l>
-            <l>si lo habeis determinado</l>
-            <l>que mas quiero honra sin hijo,</l>
-            <l>que hijo con mi honor manchado.</l>
-            <l>de buen puñal careceis</l>
-            <l>«¡ Y si para degollarle</l>
-            <l>podreis serviros del mio,</l>
-            <l>y mi fama aumentareis !»</l>
-            <l>Y arrojó el cuchillo lejos,</l>
-            <l>el corazon desgarrado,</l>
-            <l>y en pos de tan gran esfuerzo</l>
-            <l>cayó al suelo desmayado.</l>
-            <l>Al instante el tercer toque</l>
-            <l>del fatal clarin sonó,</l>
-            <l>¡ y aquella jóven cabeza</l>
-            <l>cual flor tronchada cayó !</l>
-            <l>Apoderóse de todos</l>
-            <l>el mas hondo sentimiento,</l>
-            <l>y de tomar cruel venganza</l>
-            <l>hicieron el juramento.</l>
-            <l>Y á Tarifa defendieron</l>
-            <l>con tal teson y constancia,</l>
-            <l>que en aquel cerco abatióse</l>
-            <l>de los moros la arrogancia.</l>
-          </lg>
+          <head type="subtitulo" rend="cursiva"><lb/>Relacion histórica del trágico fin de su hijo
+            don Pedro, asesinado por los<lb/>moros al pié de los muros de Tarifa con el
+            puñal<lb/>que su mismo padre les tiró.</head>
+
+          <l rend="indent">De una hazaña sin ejemplo</l>
+          <l>voy á contaros la historia,</l>
+          <l>que casi nadie creyera</l>
+          <l>si no fuera tan notoria.</l>
+          <l rend="indent">Allá por el siglo trece</l>
+          <l>los moros y los cristianos</l>
+          <l>ya pacíficos vivian,</l>
+          <l>ya llegaban á las manos.</l>
+          <l rend="indent">A la España subyugaron</l>
+          <l>los árabes por traicion,</l>
+          <l>mas costóles mucha sangre</l>
+          <l>su larga dominacion.</l>
+          <l rend="indent">Entre mil que resistieron,</l>
+          <l>citaré á Guzman el Bueno,</l>
+          <l>á quien no logró abatir</l>
+          <l>todo el poder agareno.</l>
+
+          <pb n="2" source="Varios_157_2.jpg" facs="varios/Varios_157_2.jpg/"/>
+
+          <l rend="indent">Gobernador de Tarifa</l>
+          <l>era tan bravo español ;</l>
+          <l>de seguro no habia otro</l>
+          <l>mas digno debajo el sol.</l>
+          <l rend="indent">En las fiestas nunca el último,</l>
+          <l>y en lides siempre el primero,</l>
+          <l>á Pedro, su hijo menor,</l>
+          <l>ordenó armar caballero.</l>
+          <l rend="indent">Doña Sol, hija querida</l>
+          <l>del vil Infante don Juan,</l>
+          <l>fué la que cinó la espada</l>
+          <l>á don Pedro de Guzman.</l>
+          <l rend="indent">Para correr unas cañas</l>
+          <l>se aprestaban los donceles,</l>
+          <l>que en presencia de las damas</l>
+          <l>todos ansían laureles.</l>
+          <l rend="indent">Enamoróse el mancebo,</l>
+          <l>de doña Sol aquel dia,</l>
+          <l>y mientras ella le hablaba,</l>
+          <l>él en su amor se encendia.</l>
+          <l rend="indent">Por fin al galan doncel,</l>
+          <l>sumamente conmovida,</l>
+          <l>dió doña Sol una banda</l>
+          <l>al llegar la despedida.</l>
+          <l rend="indent">Su intimidad amorosa</l>
+          <l>notó don Juan al entrar,</l>
+          <l>mas saludó muy cortés</l>
+          <l>y supo disimular.</l>
+          <l rend="indent">Siendo muy ambicioso</l>
+          <l>el Infante de Castilla,</l>
+          <l>que soñara en ser traidor</l>
+          <l>en nada me maravilla.</l>
+          <l rend="indent">Llevado de la codicia</l>
+          <l>se propuso en breve plazo</l>
+          <l>hacer trozos de su patria</l>
+          <l>para obtener un pedazo.</l>
+          <l rend="indent">Debia vender Tarifa,</l>
+          <l>y en pago de su traicion</l>
+          <l>dominaria en los reinos</l>
+          <l>de Castilla y de Leon.</l>
+          <l rend="indent">Concertóse la perfidia</l>
+          <l>con Aben-Said, sin rubor,</l>
+          <l>pues los labios del Infante,</l>
+          <l>juraron su deshonor.</l>
+          <l rend="indent">De süs infames proyectos</l>
+          <l>á Guzman pronto avisaron</l>
+          <l>doña María y don Nuño,</l>
+          <l>que de aquél siempre dudaron.</l>
+          <l rend="indent">sus sospechas le descubre;</l>
+          <l>Habla con él don Alfonso;</l>
+          <l>mas don Juan se muestra hipócrita,</l>
+          <l>y su felonía encubre.</l>
+          <l rend="indent">En un muy vivo altercado</l>
+          <l>mal su grado vió don Juan</l>
+          <l>que en Tarifa no mandaba</l>
+          <l>nadie mas que el de Guzman.</l>
+          <l rend="indent">Bien pronto cundió la voz</l>
+          <l>que el enemigo venia</l>
+          <l>á caer sobre la plaza</l>
+          <l>antes de finir el dia.</l>
+          <l rend="indent">Al saber la traicion</l>
+          <l>el pueblo se amotinó,</l>
+          <l>y acabar con el Infante</l>
+          <l>en el palacio intentó.</l>
+          <l rend="indent">Los de Guzman, padre é hijo,</l>
+          <l>allí salvaron su vida,</l>
+          <l>permitiéndole sin riesgo</l>
+          <l>de la plaza la salida.</l>
+          <l rend="indent">En tanto aguerridas huestes</l>
+          <l>africanas se acercaron,</l>
+          <l>y frustrada una sorpresa,</l>
+          <l>el sitio formalizaron.</l>
+          <l rend="indent">Los españoles indómitos</l>
+          <l>se aprestaron á batirse,</l>
+          <l>y juraron defenderse</l>
+          <l>hasta morir ; no rendirse.</l>
+          <l rend="indent">Fuera del muro aquel dia</l>
+          <l>trabose un combate fiero,</l>
+          <l>y allí el hijo de Guzman</l>
+          <l>quedó hecho prisionero.</l>
+          <l rend="indent">Con furor todos lucharon</l>
+          <l>en la reñida batalla;</l>
+          <l>no perdió empero sus brios</l>
+          <l>la mauritana canalla.</l>
+          <l rend="indent">A sus padres contristados</l>
+          <l>vino el hijo el mismo dia;</l>
+          <l>mas cumplido su mensaje,</l>
+          <l>volver al real debia;</l>
+
+          <pb n="3" source="Varios_157_3.jpg" facs="varios/Varios_157_3.jpg/"/>
+
+          <l rend="indent">Aben-Comat del rescate</l>
+          <l>trató tambien con Guzman ;</l>
+          <l>y ya entonces con los moros</l>
+          <l>estaba el traidor don Juan.</l>
+          <l rend="indent">Si rescatarse pudiera</l>
+          <l>con joyas y plata y oro,</l>
+          <l>sus padres les rescataran</l>
+          <l>dando todo su tesoro.</l>
+          <l rend="indent">Mas el precio de don Fedro</l>
+          <l>era indigno de su raza,</l>
+          <l>pues por librarle querian</l>
+          <l>la rendicion de la plaza.</l>
+          <l rend="indent">Guzman rechazó indignado</l>
+          <l>propuesta tan humillante,</l>
+          <l>contestando dignamente</l>
+          <l>y atento, pero arrogante;</l>
+          <l rend="indent">«Solo hollando mi cadáver</l>
+          <l>en esta plaza entrareis :</l>
+          <l>ni busqueis otro camino</l>
+          <l>pues tampoco le hallaréis.»</l>
+          <l rend="indent">En sacrificio se ofrece</l>
+          <l>don Pedro muy generoso;</l>
+          <l>no quiere deber la vida</l>
+          <l>á un convenio deshonroso</l>
+          <l rend="indent">Trató de impedir la madre</l>
+          <l>que el hijo al moro volviera,</l>
+          <l>pero tampoco queria</l>
+          <l>que Tarifa se perdiera.</l>
+          <l rend="indent">Mas el llanto de María</l>
+          <l>no movió su corazon</l>
+          <l>á que su vida manchara</l>
+          <l>con una cobarde accion.</l>
+          <l rend="indent">Y de aquel pecho tan noble</l>
+          <l>nada alcanzando María,</l>
+          <l>probóse si doña Sol</l>
+          <l>mas fácil le vencería.</l>
+          <l rend="indent">Mas esta digna señora,</l>
+          <l>tan distinta de su padre,</l>
+          <l>si bien ya le idolatraba,</l>
+          <l>mas nunca como una madre.</l>
+          <l rend="indent">Valerosa le aconseja</l>
+          <l>que no cometa bajeza,</l>
+          <l>y primero que el honor</l>
+          <l>debe perder la cabeza.</l>
+          <l rend="indent">Y entre arrebatos de amor,</l>
+          <l>y de afeccion la mas pura,</l>
+          <l>le promete. si él sucumbe,</l>
+          <l>seguirle á la sepultura.</l>
+          <l rend="indent">y se enardece su amor,</l>
+          <l>El la escucha extasiado,</l>
+          <l>mas si bien siente el dejarla,</l>
+          <l>prefiere á todo el honor.</l>
+          <l rend="indent">de amor sincero en el mundo ;</l>
+          <l>Jamás faltarán ejemplos</l>
+          <l>pero el cariño de madre</l>
+          <l>siempre será el mas profundo.</l>
+          <l rend="indent">El amor de doña Sol</l>
+          <l>hácia don Pedro era fuerte;</l>
+          <l>mas por temor de la infamia</l>
+          <l>le aconsejaba la muerte.</l>
+          <l rend="indent">Mas ¿ Quién dirá los recursos,</l>
+          <l>los ardides y las mañas</l>
+          <l>de una madre por salvar</l>
+          <l>al hijo de sus entrañas?</l>
+          <l rend="indent">A tantos medios María</l>
+          <l>infatigable apeló,</l>
+          <l>á tantos ruegos y súplicas,</l>
+          <l>y tanto lo que lloró,</l>
+          <l rend="indent">Que aquel mozo tan bizarro,</l>
+          <l>cual si fuera débil niño,</l>
+          <l>olvidando el juramento</l>
+          <l>cedió al maternal cariño.</l>
+          <l rend="indent">Que en toda lucha prolija</l>
+          <l>sobre el amor y el deber</l>
+          <l>entre una madre y un hijo,</l>
+          <l>siempre vence la mujer.</l>
+          <l rend="indent">Pero Alfonso de Guzman,</l>
+          <l>de carácter indomable,</l>
+          <l>supo convertir en frágil</l>
+          <l>lo que ya se creyó estable.</l>
+          <l rend="indent">Ni se crea no estuviera</l>
+          <l>su alma de amor lacerada ;</l>
+          <l>mas primero que la vida</l>
+          <l>es para él palabra dada.</l>
+          <l rend="indent">Del esposo á las razones</l>
+          <l>no daba fuerza María ;</l>
+          <l>que á la libertad del hijo</l>
+          <l>ella tan sólo atendia.</l>
+
+          <pb n="4" source="Varios_157_4.jpg" facs="varios/Varios_157_4.jpg/"/>
+
+          <l rend="indent">El padre increpó á don Pedro</l>
+          <l>su cobardía y desdoro,</l>
+          <l>y determinó entregarse</l>
+          <l>en su lugar él al moro.</l>
+          <l rend="indent">¡ Con don Alfonso abrazóse</l>
+          <l>la madre tan afligida !...</l>
+          <l>Entonces Pedro animoso</l>
+          <l>buscó pronto la salida.</l>
+          <l rend="indent">Quedó María un instante</l>
+          <l>cual estátua, muda, yerta ;</l>
+          <l>mas luego dando un gran grito</l>
+          <l>cayó en tierra como muerta.</l>
+          <l rend="indent">¡ Despues terribles visiones</l>
+          <l>en sueños Guzman sufria !...</l>
+          <l>soñaba que degollaban</l>
+          <l>al hijo que mas queria.</l>
+          <l rend="indent">Vuelve en tanto el fiel don Nuño</l>
+          <l>que marchara al campo moro</l>
+          <l>por rescatar á don Pedro</l>
+          <l>ofreciendo montes de oro.</l>
+          <l rend="indent">Mas de don Juan que allí manda,</l>
+          <l>trae un insolente escrito,</l>
+          <l>sólo Tarifa en rescate</l>
+          <l>admitiendo aquel maldito.</l>
+          <l rend="indent">Y á don Pedro ( al tercer toque</l>
+          <l>del clarin, si con presteza</l>
+          <l>la plaza no es entregada )</l>
+          <l>le cortarán la cabeza.</l>
+          <l rend="indent">El honor y amor al hijo</l>
+          <l>otra vez luchando están...</l>
+          <l>¡ La pobre madre vencida</l>
+          <l>fué por el grande Guzman.</l>
+          <l rend="indent">Quien subió al segundo toque</l>
+          <l>al muro como un leon,</l>
+          <l>y así dijo á los de afuera</l>
+          <l>rechazando un tal baldon :</l>
+          <l rend="indent">«No aceptaré yo jamás</l>
+          <l>esa propuesta, inhumanos,</l>
+          <l>por mas que en mi caro hijo</l>
+          <l>ensangrenteis vuestras manos.</l>
+          <l rend="indent">«Sacrificadle, cobardes,</l>
+          <l>si lo habeis determinado</l>
+          <l>que mas quiero honra sin hijo,</l>
+          <l>que hijo con mi honor manchado.</l>
+          <l rend="indent">de buen puñal careceis</l>
+          <l>«¡ Y si para degollarle</l>
+          <l>podreis serviros del mio,</l>
+          <l>y mi fama aumentareis !»</l>
+          <l rend="indent">Y arrojó el cuchillo lejos,</l>
+          <l>el corazon desgarrado,</l>
+          <l>y en pos de tan gran esfuerzo</l>
+          <l>cayó al suelo desmayado.</l>
+          <l rend="indent">Al instante el tercer toque</l>
+          <l>del fatal clarin sonó,</l>
+          <l>¡ y aquella jóven cabeza</l>
+          <l>cual flor tronchada cayó !</l>
+          <l rend="indent">Apoderóse de todos</l>
+          <l>el mas hondo sentimiento,</l>
+          <l>y de tomar cruel venganza</l>
+          <l>hicieron el juramento.</l>
+          <l rend="indent">Y á Tarifa defendieron</l>
+          <l>con tal teson y constancia,</l>
+          <l>que en aquel cerco abatióse</l>
+          <l>de los moros la arrogancia.</l>
+
           <trailer>FIN</trailer>
         </div>
+        
         <div type="colofon">
-          <p><lb/>Barcelona : Imp. de Llorens, Palma de Sla Catalina,
-                                    n.°6.</p>
+          <p><lb/>Barcelona : Imp. de Llorens, Palma de Sla Catalina, n.°6.</p>
         </div>
       </div>
     </body>

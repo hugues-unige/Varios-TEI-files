@@ -27,9 +27,9 @@
             <p/>
           </editionStmt>
           <publicationStmt>
-            <publisher>Despacho de Marés y Compañía</publisher>
+            <publisher>José María Marés</publisher>
             <pubPlace ref="https://www.geonames.org/3117735/madrid.html">Madrid</pubPlace>
-            <date cert="high">[s.a]</date>
+            <date cert="low" when="1800-01-01">[s.a.]</date>
           </publicationStmt>
         </biblFull>
         <msDesc>
@@ -38,6 +38,7 @@
             <settlement>Genève</settlement>
             <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"/>
                   </repository>
+            <collection>Colección Varios</collection>
             <idno type="cote"/>
             <idno type="DOI">10.5281/zenodo.6787679</idno>
             <altIdentifier>
@@ -100,7 +101,7 @@
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR non corregido</p>
+          <p>OCR no corregido</p>
         </correction>
         <normalization>
           <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto
@@ -127,9 +128,10 @@
     <revisionDesc>
       <change when="2023-12-20" who="#PJ">Création du fichier TEI P5 et encodage du corps du
                         texte</change>
+<change when="2024-01-09" who="#EL">Add the IIIF links</change>
     </revisionDesc>
   </teiHeader>
-  <sourceDoc xml:id="automaticTranscription">
+  <facsimile><graphic url="varios/Varios_407_1.jpg/full/200,/0/default.jpg"/></facsimile><sourceDoc xml:id="automaticTranscription">
     <surface xml:id="Varios_407_1" type="page" cert="silver">
       <graphic url="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_407_1/full/full/0/default.jpg"/>
       <zone xml:id="Varios_407_1_BT221_1" n="1" type="CustomZone" subtype="impresorNum" points="1397,151 1397,236 1155,236 1155,151 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_407_1/1155.0,151.0,242.0,85.0/full/0/default" corresp="CustomZone:impresorNum">
@@ -1172,7 +1174,7 @@
   <text>
     <body>
       <div>
-        <pb n="1" source="Varios_407_1.jpg" facs="fedora_Varios_407_1/full/full/0/default.jpg"/>
+        <pb n="1" source="Varios_407_1.jpg" facs="varios/Varios_407_1.jpg/"/>
         <fw type="impresorNum">(Núm. 29.).</fw>
         <div type="parte" n="1">
           <head type="primer_titulo"><lb/><hi rend="negrita">SATIRA GRACIOSA</hi><lb/>DE<lb/>LA DAMA DE LOS QUINCE NOVIOS,</head>
@@ -1193,7 +1195,7 @@
             <l>tras de los usías</l>
             <l>se les van los ojos:</l>
           </lg>
-          <pb n="2" source="Varios_407_2.jpg" facs="fedora_Varios_407_2/full/full/0/default.jpg"/>
+          <pb n="2" source="Varios_407_2.jpg" facs="varios/Varios_407_2.jpg/"/>
           <lg>
             <l>y verán las ansias</l>
             <l>de muchos camuesos</l>
@@ -1282,7 +1284,7 @@
             <l>y el cuadro las miden</l>
             <l>con los tirapieses.</l>
           </lg>
-          <pb n="3" source="Varios_407_3.jpg" facs="fedora_Varios_407_3/full/full/0/default.jpg"/>
+          <pb n="3" source="Varios_407_3.jpg" facs="varios/Varios_407_3.jpg/"/>
           <lg>
             <l>-Hija, tras de tu palmito</l>
             <l>anda tambien un tendero.</l>
@@ -1371,7 +1373,7 @@
             <l>—Ay padre, usía le quiero [...]</l>
             <l>mas que no tenga un real:</l>
           </lg>
-          <pb n="4" source="Varios_407_4.jpg" facs="fedora_Varios_407_4/full/full/0/default.jpg"/>
+          <pb n="4" source="Varios_407_4.jpg" facs="varios/Varios_407_4.jpg/"/>
           <lg>
             <l>todas sus mujeres</l>
             <l>con airoso esmero,</l>

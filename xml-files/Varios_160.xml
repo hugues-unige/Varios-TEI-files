@@ -1,21 +1,17 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../Schema/oddPliego_varios.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:alto="http://www.loc.gov/standards/alto/ns-v4#" xml:id="Varios_160">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Varios_160">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>NUEVO Y CURIOSO PAPEL en el que se cuenta y declara las grandes
-                              desgracias ocurridas el dia 5 de Enero de 1909, á causa de una
-                              borrasca envuelta en grandes tormentas en las costas de
-                              Canarias.</title>
+        <title>NUEVO Y CURIOSO PAPEL</title>
         <respStmt>
           <name/>
           <resp>Codificación TEI</resp>
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <authority role="rightsHolder">Bibliothèque Universitaire de
-                              Genève</authority>
+        <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
         <availability status="restricted">
           <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
         </availability>
@@ -23,19 +19,18 @@
       <sourceDesc>
         <biblFull>
           <titleStmt>
-            <title type="titulo_completo">NUEVO Y CURIOSO PAPEL en el que se
-                                          cuenta y declara las grandes desgracias ocurridas el dia 5
-                                          de Enero de 1909, á causa de una borrasca envuelta en
-                                          grandes tormentas en las costas de Canarias.</title>
+            <title type="titulo_completo">NUEVO Y CURIOSO PAPEL en el que se cuenta y declara las
+              grandes desgracias ocurridas el dia 5 de Enero de 1909, á causa de una borrasca
+              envuelta en grandes tormentas en las costas de Canarias.</title>
             <title type="titulo_breve">NUEVO Y CURIOSO PAPEL</title>
           </titleStmt>
           <editionStmt>
             <p/>
           </editionStmt>
           <publicationStmt>
-            <publisher>E. Pamies.</publisher>
-            <pubPlace ref="https://www.geonames.org/3108288/tarragona.html">tarragona</pubPlace>
-            <date>[s.a]</date>
+            <publisher>E. Pamies</publisher>
+            <pubPlace ref="https://www.geonames.org/3108288/tarragona.html">Tarragona</pubPlace>
+            <date cert="low" when="1909-01-01" notBefore="1909-01-06">[s.a.]</date>
           </publicationStmt>
         </biblFull>
         <msDesc>
@@ -43,7 +38,8 @@
             <country>Suisse</country>
             <settlement>Genève</settlement>
             <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"/>
-                                    </repository>
+            </repository>
+            <collection>Colección Varios</collection>
             <idno type="cote"/>
             <idno type="DOI">10.5281/zenodo.6587128</idno>
             <altIdentifier>
@@ -51,10 +47,14 @@
             </altIdentifier>
           </msIdentifier>
           <msContents>
-            <summary/>
+            <summary>Dos partes</summary>
             <msItem>
-              <locus/>
-              <title/>
+              <locus>1-2</locus>
+              <title>[Primera parte]</title>
+            </msItem>
+            <msItem>
+              <locus>3-4</locus>
+              <title>Segunda parte</title>
             </msItem>
           </msContents>
           <physDesc>
@@ -76,8 +76,8 @@
               <decoNote type="lista_grabados">
                 <list>
                   <item corresp="grabado_v_160_1.xml">grabado_v_160_1</item>
-                  <item corresp="grabado_v_160_1.xml">grabado_v_160_2</item>
-                  <item corresp="grabado_v_160_2.xml">grabado_v_160_3</item>
+                  <item corresp="grabado_v_160_2.xml">grabado_v_160_2</item>
+                  <item corresp="grabado_v_160_3.xml">grabado_v_160_3</item>
                 </list>
               </decoNote>
             </decoDesc>
@@ -95,18 +95,17 @@
     </fileDesc>
     <encodingDesc>
       <projectDesc>
-        <p>Este archivo fue creado en el marco del proyecto Desenrollando el
-                              Cordel/Démêler le cordel/Untangling the cordel, dirigido por la
-                              profesora Constance Carta de la Universidad de Ginebra, con el apoyo
-                              de la Fundación filantrópica Famille Sandoz-Monique de Meuron.</p>
+        <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+          cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la Universidad
+          de Ginebra, con el apoyo de la Fundación filantrópica Famille Sandoz-Monique de
+          Meuron.</p>
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR non corregido</p>
+          <p>OCR no corregido</p>
         </correction>
         <normalization>
-          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto
-                                    original.</p>
+          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
         </normalization>
         <punctuation>
           <p>Se conserva la puntuación original.</p>
@@ -127,10 +126,14 @@
       </textClass>
     </profileDesc>
     <revisionDesc>
-      <change when="2022-09-19" who="#PJ">Création du fichier TEI P5 et encodage du
-                        corps du texte</change>
+      <change when="2022-09-19" who="#PJ">Création du fichier TEI P5 et encodage du corps du
+        texte</change>
+      <change when="2024-01-09" who="#EL">Add the IIIF links</change>
     </revisionDesc>
   </teiHeader>
+  <facsimile>
+    <graphic url="varios/Varios_160_1.jpg/full/200,/0/default.jpg"/>
+  </facsimile>
   <sourceDoc xml:id="automaticTranscription">
     <surface xml:id="Varios_160_1" type="page" cert="silver">
       <graphic url="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_160_1/full/full/0/default.jpg"/>
@@ -145,8 +148,7 @@
         </zone>
         <zone xml:id="Varios_160_1_BT223_1_LT84_3" type="HeadingLine" subtype="none" points="151,1461 146,1421 315,1406 318,1406 318,1406 318,1406 320,1406 320,1406 320,1406 322,1406 322,1406 335,1419 337,1421 390,1421 394,1419 423,1395 423,1395 425,1395 425,1395 425,1395 427,1395 427,1395 427,1395 517,1393 519,1393 875,1393 875,1393 875,1393 877,1393 925,1406 971,1391 973,1391 973,1391 973,1391 976,1391 976,1391 976,1391 978,1391 978,1391 980,1391 980,1391 980,1393 1006,1415 1006,1417 1011,1415 1044,1404 1046,1404 1046,1404 1046,1404 1048,1404 1048,1404 1050,1404 1050,1404 1050,1404 1052,1404 1052,1404 1065,1415 1070,1417 1631,1413 1638,1452 1638,1474 151,1483 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_160_1/146,1391,1492,92/full/0/default" corresp="HeadingLine">
           <path xml:id="Varios_160_1_BT223_1_LT84_3_1" points="151,1461 1638,1452 "/>
-          <line>ocurridas el dia 5 de Enero de 1909, á causa de una
-                                    borrasca</line>
+          <line>ocurridas el dia 5 de Enero de 1909, á causa de una borrasca</line>
         </zone>
         <zone xml:id="Varios_160_1_BT223_1_LT84_4" type="HeadingLine" subtype="none" points="239,1533 234,1487 326,1485 346,1465 346,1463 346,1463 348,1463 348,1463 348,1463 350,1463 350,1463 353,1463 410,1463 410,1463 410,1463 412,1463 412,1463 412,1463 414,1463 414,1463 414,1465 434,1483 436,1485 526,1485 539,1478 590,1463 592,1463 592,1463 592,1463 837,1461 840,1461 840,1461 842,1461 842,1461 842,1461 866,1472 886,1483 1105,1483 1142,1467 1162,1459 1162,1459 1164,1459 1164,1459 1166,1459 1434,1459 1434,1459 1434,1459 1436,1459 1436,1459 1436,1459 1438,1459 1438,1459 1438,1461 1452,1470 1544,1459 1550,1527 1550,1588 1074,1592 1072,1592 1072,1592 1070,1592 1070,1592 1070,1592 1037,1577 997,1579 997,1579 995,1579 995,1579 993,1579 993,1579 993,1579 991,1579 991,1579 991,1577 987,1575 965,1553 824,1557 804,1568 789,1577 789,1577 789,1577 787,1577 787,1577 787,1577 785,1577 785,1577 785,1577 783,1577 783,1577 780,1577 780,1577 780,1577 772,1568 765,1562 236,1553 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_160_1/234,1459,1316,133/full/0/default" corresp="HeadingLine">
           <path xml:id="Varios_160_1_BT223_1_LT84_4_1" points="239,1533 1550,1527 "/>
@@ -1163,15 +1165,16 @@
   <text>
     <body>
       <div>
-        <pb n="1" source="Varios_160_1.jpg" facs="fedora_Varios_160_1/full/full/0/default.jpg"/>
-        <div type="parte" n="1">
+        <div>
+          <pb n="1" source="Varios_160_1.jpg" facs="varios/Varios_160_1.jpg/"/>
+
           <head type="primer_titulo" rend="negrita"><lb/>NUEVO Y CURIOSO PAPEL</head>
-          <head type="subtitulo_parte" rend="cursiva"><lb/>en el que se cuenta y
-                                    declara las grandes desgracias<lb/>ocurridas el dia 5 de Enero
-                                    de 1909, á causa de una borrasca<lb/>envuelta en grandes
-                                    tormentas en las costas de Canarias.</head>
-          <lg>
-            <l>A la Sagrada María</l>
+          <head type="subtitulo_parte" rend="cursiva"><lb/>en el que se cuenta y declara las grandes
+            desgracias<lb/>ocurridas el dia 5 de Enero de 1909, á causa de una
+            borrasca<lb/>envuelta en grandes tormentas en las costas de Canarias.</head>
+
+          <div type="parte" n="1">
+            <l rend="indent">A la Sagrada María</l>
             <l>por todo el orbe nombrada</l>
             <l>hermosa Virgen del Cielo</l>
             <l>luna sin menguante clara</l>
@@ -1189,9 +1192,7 @@
             <l>pobres y desamparadas</l>
             <l>sujetas á las miserias</l>
             <l>que es un dolor anunciarras.</l>
-          </lg>
-          <lg>
-            <l>Pero antes de dar principio</l>
+            <l rend="indent">Pero antes de dar principio</l>
             <l>ni pasar á la sustancia,</l>
             <l>será preciso acudir</l>
             <l>á la majestad sagrada</l>
@@ -1209,9 +1210,9 @@
             <l>esa hermosa maquinaria</l>
             <l>y los demás elementos,</l>
             <l>tierra. fuego, viento y agua.</l>
-          </lg>
-          <pb n="2" source="Varios_160_2.jpg" facs="fedora_Varios_160_2/full/full/0/default.jpg"/>
-          <lg>
+
+            <pb n="2" source="Varios_160_2.jpg" facs="varios/Varios_160_2.jpg/"/>
+
             <l>todo lo que sostiene</l>
             <l>la Naturaleza humana</l>
             <l>y está bajo del poder</l>
@@ -1222,7 +1223,7 @@
             <l>á la muerte y á sus garras,</l>
             <l>ninguno hemos de escapar,</l>
             <l>esta verdad es bien clara.</l>
-            <l>Vamos pués á referir</l>
+            <l rend="indent">Vamos pués á referir</l>
             <l>lo que el público aguarda,</l>
             <l>es enterarse por fin</l>
             <l>de las siniestras desgracias</l>
@@ -1232,7 +1233,7 @@
             <l>ni otro amparo que les valga</l>
             <l>que á la fuerza sucumbir</l>
             <l>sufriendo una muerte amarga.</l>
-            <l>Que la muerte del ahogado</l>
+            <l rend="indent">Que la muerte del ahogado</l>
             <l>es tríste y desesperada:</l>
             <l>que si bien se considera</l>
             <l>lo que se sufre y se pasa</l>
@@ -1245,35 +1246,33 @@
             <l>el cuerpo del moribundo,</l>
             <l>luego es cuando baja al fondo</l>
             <l>y á Dios entrega su alma.</l>
-            <l>Dejemos esto señores.</l>
+            <l rend="indent">Dejemos esto señores.</l>
             <l>y sigamos sin tardanza</l>
             <l>si hemos de aclarar la historía</l>
             <l>con todas sus circunstancias.</l>
-          </lg>
-          <lg>
-            <l>Es necesario tener</l>
+            <l rend="indent">Es necesario tener</l>
             <l>una fuerza sobrehumana</l>
             <l>y valor irrísistible,</l>
             <l>porque eso y más hace falta.</l>
-            <l>El día 5 de Enero</l>
+            <l rend="indent">El día 5 de Enero</l>
             <l>amaneció la mañana</l>
             <l>alegre primaveral,</l>
             <l>hermosa, serena y clara.</l>
-            <l>El aspecto del mar</l>
+            <l rend="indent">El aspecto del mar</l>
             <l>no pronosticaba nada</l>
             <l>pues daba gusto y placer</l>
             <l>el mirar sus claras aguas.</l>
-            <l>Así es que toda la costa</l>
+            <l rend="indent">Así es que toda la costa</l>
             <l>de Puerto rico y Canarias</l>
             <l>parecía en aquel día</l>
             <l>hermosa taza de plata.</l>
-            <l>Salieron los marineros</l>
+            <l rend="indent">Salieron los marineros</l>
             <l>con sus barcos y sus lanchas</l>
             <l>muy alegres y contentos</l>
             <l>sin acordarse de nada</l>
             <l>despidiéndose de todos:</l>
             <l>andar con Dios, contestaban.</l>
-            <l>Se juntaron en el puerto</l>
+            <l rend="indent">Se juntaron en el puerto</l>
             <l>unos veinticuatro buques</l>
             <l>además una goleta</l>
             <l>y unas siete ú ocho barcas</l>
@@ -1287,13 +1286,14 @@
             <l>y á las diez de la mañana</l>
             <l>se levantó un Sur</l>
             <l>y que no perjudicaba.</l>
-          </lg>
-        </div>
-        <pb n="3" source="Varios_160_3.jpg" facs="fedora_Varios_160_3/full/full/0/default.jpg"/>
-        <div type="parte" n="2">
-          <head type="titulo_parte"><lb/>SEGUNDA PARTE</head>
-          <lg>
-            <l>Asi pasaron dos horas</l>
+          </div>
+
+          <div type="parte" n="2">
+            <pb n="3" source="Varios_160_3.jpg" facs="varios/Varios_160_3.jpg/"/>
+
+            <head type="titulo_parte"><lb/>SEGUNDA PARTE</head>
+
+            <l rend="indent">Asi pasaron dos horas</l>
             <l>sin que sucediese nada:</l>
             <l>serian las doce en punto</l>
             <l>y de pronto se levanta</l>
@@ -1301,7 +1301,7 @@
             <l>de una forma tan extraña</l>
             <l>y terrible movimiento</l>
             <l>que atemorizaba.</l>
-            <l>Cuando empezó de repente</l>
+            <l rend="indent">Cuando empezó de repente</l>
             <l>á volver barcos y lanchas</l>
             <l>viéndose los infelices</l>
             <l>en situacion tan amarga,</l>
@@ -1329,23 +1329,21 @@
             <l>y hora era llegada.</l>
             <l>la salvación paro ellos</l>
             <l>era imposible encontrarla</l>
-          </lg>
-          <lg>
             <l>viendose en un gran apuro</l>
             <l>con la muerte tan cercana.</l>
-            <l>Entre angustias y suspiros</l>
+            <l rend="indent">Entre angustias y suspiros</l>
             <l>decian entre voces muy altas</l>
             <l>¿Donde están esos vapores,</l>
             <l>donde están esas fragatas</l>
             <l>para nosotros no hay</l>
             <l>quien nos ampare y nos valga?</l>
-            <l>Hijos de mi corazón;</l>
+            <l rend="indent">Hijos de mi corazón;</l>
             <l>objetos de mis entrañas</l>
             <l>hoy sin padre osquedais</l>
             <l>en este momento acaba</l>
             <l>con estos tristes lamentos</l>
             <l>que el corazón desgarraba</l>
-            <l>Concluian con sus vidas</l>
+            <l rend="indent">Concluian con sus vidas</l>
             <l>y á Dios entregaban sus almas</l>
             <l>y ahora quien despues de oir</l>
             <l>ni explicarlo de palabra</l>
@@ -1356,20 +1354,20 @@
             <l>y otros muchos pueblecitos.</l>
             <l>Una decia ¡hay Dios mio!</l>
             <l>¿que es esto que á mi me pasa?</l>
-            <l>He perdido á mi marido</l>
+            <l rend="indent">He perdido á mi marido</l>
             <l>y tres hijos que llevaba</l>
             <l>tambien en su compañia</l>
             <l>¡oh que muerte tan amarga</l>
             <l>habeis llevado hijos miós;</l>
             <l>aqui la pena me acaba.</l>
-            <l>Esposo del corazón</l>
+            <l rend="indent">Esposo del corazón</l>
             <l>ya no respondes ni hablas:</l>
             <l>ya quedo sola en el mundo</l>
             <l>pobre y desesperada.</l>
-            <l>Habian otros que decian</l>
-          </lg>
-          <pb n="4" source="Varios_160_4.jpg" facs="fedora_Varios_160_4/full/full/0/default.jpg"/>
-          <lg>
+            <l rend="indent">Habian otros que decian</l>
+
+            <pb n="4" source="Varios_160_4.jpg" facs="varios/Varios_160_4.jpg/"/>
+
             <l>estas siguientes palabras:</l>
             <l>tres hijos que ha tenido</l>
             <l>por mi suerte ó mi desgracia</l>
@@ -1381,18 +1379,18 @@
             <l>la cual perdiendo el sentido</l>
             <l>una congoja ledaba</l>
             <l>y preciso fué aliviarla.</l>
-            <l>Otras por el mismo estilo</l>
+            <l rend="indent">Otras por el mismo estilo</l>
             <l>amargamente lloraban.</l>
             <l>la pérdida de sus hijos</l>
             <l>en ese piélago de agua,</l>
             <l>que era la quién las consolaba.</l>
-            <l>Después algunas familias</l>
+            <l rend="indent">Después algunas familias</l>
             <l>que á diez años no llegaba</l>
             <l>preguntaban por sus padres</l>
             <l>á las madres que lloraban</l>
             <l>con dolor sin igual</l>
             <l>que rasgaba las entrañas.</l>
-            <l>Aquéllas tristes mujeres</l>
+            <l rend="indent">Aquéllas tristes mujeres</l>
             <l>á sus hijos contestaban,</l>
             <l>yá no le verémos más</l>
             <l>que se han ahogado en el mar,</l>
@@ -1400,40 +1398,39 @@
             <l>aqui mi boca enmudece</l>
             <l>y no sierto hablar palabra:</l>
             <l>el número de esas victimas</l>
-          </lg>
-          <lg>
             <l>de trescientos pasan</l>
             <l>por noticias recibidas</l>
             <l>en partes que lo declaran.</l>
-            <l>Todavia habrá personas</l>
+            <l rend="indent">Todavia habrá personas</l>
             <l>que hay lenguas desgraciadas</l>
             <l>que dirán eso es mentira;</l>
             <l>es un embuste una farsa:</l>
             <l>porque en el mundo hay de todo</l>
             <l>no hay que extrañar de nada.</l>
-            <l>Temamos todos á Diós.</l>
+            <l rend="indent">Temamos todos á Diós.</l>
             <l>á su justicia irritada.</l>
             <l>nos libre de tempestades</l>
             <l>de tormentas y borrascas</l>
             <l>y de otros muchos peligros</l>
             <l>que nos cercan y amenazan.</l>
-            <l>Treinta hombres se salvaron</l>
+            <l rend="indent">Treinta hombres se salvaron</l>
             <l>agarrados á las tablas</l>
             <l>porque estaria del Señor,</l>
             <l>no se ahogaron en el agua.</l>
-            <l>Cuando en tierra se hallaron</l>
+            <l rend="indent">Cuando en tierra se hallaron</l>
             <l>decian estas palabras:</l>
             <l>pedimos con devoción</l>
             <l>á la Virgen soberana</l>
             <l>que le suplique á su hijo</l>
             <l>nos libre de esta desgracia.</l>
-            <l>Y el capitán del barco,</l>
+            <l rend="indent">Y el capitán del barco,</l>
             <l>hizo promesa formal</l>
             <l>de repartir este papel</l>
             <l>al buen creyente fiel</l>
             <l>dejándo el pago á su voluntad.</l>
-          </lg>
+          </div>
         </div>
+        
         <div type="colofon">
           <p><lb/>Imp. de E. Pamies.—Unión 54</p>
         </div>

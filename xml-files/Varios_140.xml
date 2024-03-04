@@ -1,18 +1,17 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../Schema/oddPliego_varios.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:alto="http://www.loc.gov/standards/alto/ns-v4#" xml:id="Varios_140">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Varios_140">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>XACARA NUEVA, EN QUE SE REFIERE, Y DA CUENTA de VEINTE MUERTES QUE UNA DONZELLA</title>
+        <title>XACARA NUEVA</title>
         <respStmt>
           <name/>
           <resp>Codificación TEI</resp>
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <authority role="rightsHolder">Bibliothèque Universitaire de
-                            Genève</authority>
+        <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
         <availability status="restricted">
           <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
         </availability>
@@ -20,8 +19,13 @@
       <sourceDesc>
         <biblFull>
           <titleStmt>
-            <title type="titulo_completo">XACARA NUEVA, EN QUE SE REFIERE, Y DA cuenta de veinte muertes que una Donzella, llamada Doña Tereſa de Llanos, natural de la Cindad de Sevilla, ſiendo las primeras á dos hermanos ſuyos, por averle eſ¬ torvado el caſarſe. Y tambien fe declara como ſe viſtió de hombre, y fue preſa, y ſentenciada à muerte, y ſe vió libre, por averſe deſcubierto que era muger, y el dichoſo fin que tuyo.</title>
-            <title type="titulo_breve"/>
+            <title type="titulo_completo">XACARA NUEVA, EN QUE SE REFIERE, Y DA cuenta de veinte
+              muertes que una Donzella, llamada Doña Tereſa de Llanos, natural de la Cindad de
+              Sevilla, ſiendo las primeras á dos hermanos ſuyos, por averle eſ¬ torvado el caſarſe.
+              Y tambien fe declara como ſe viſtió de hombre, y fue preſa, y ſentenciada à muerte,
+              y ſe vió libre, por averſe deſcubierto que era muger, y el dichoſo fin que
+              tuyo.</title>
+            <title type="titulo_breve">XACARA NUEVA</title>
           </titleStmt>
           <editionStmt>
             <p/>
@@ -29,7 +33,7 @@
           <publicationStmt>
             <publisher>Juan Jolis</publisher>
             <pubPlace ref="https://www.geonames.org/3128760/barcelona.html">Barcelona</pubPlace>
-            <date>[s.a]</date>
+            <date cert="low" when="1800-01-01">[s.a.]</date>
           </publicationStmt>
         </biblFull>
         <msDesc>
@@ -37,7 +41,8 @@
             <country>Suisse</country>
             <settlement>Genève</settlement>
             <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"/>
-                  </repository>
+            </repository>
+            <collection>Colección Varios</collection>
             <idno type="cote"/>
             <idno type="DOI">10.5281/zenodo.6586480</idno>
             <altIdentifier>
@@ -66,7 +71,7 @@
               </layoutDesc>
             </objectDesc>
             <decoDesc>
-              <summary n="1">Uno grabado  (p.1) </summary>
+              <summary n="1">Un grabado (p.1)</summary>
               <decoNote type="lista_grabados">
                 <list>
                   <item corresp="grabado_v_140_1.xml">grabado_v_140_1</item>
@@ -87,18 +92,17 @@
     </fileDesc>
     <encodingDesc>
       <projectDesc>
-        <p>Este archivo fue creado en el marco del proyecto Desenrollando el
-                            Cordel/Démêler le cordel/Untangling the cordel, dirigido por la
-                            profesora Constance Carta de la Universidad de Ginebra, con el apoyo de
-                            la Fundación filantrópica Famille Sandoz-Monique de Meuron.</p>
+        <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+          cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la Universidad
+          de Ginebra, con el apoyo de la Fundación filantrópica Famille Sandoz-Monique de
+          Meuron.</p>
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR non corregido</p>
+          <p>OCR no corregido</p>
         </correction>
         <normalization>
-          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto
-                                original.</p>
+          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
         </normalization>
         <punctuation>
           <p>Se conserva la puntuación original.</p>
@@ -111,7 +115,7 @@
       </langUsage>
       <textClass>
         <keywords xml:base="http://datos.bne.es/tema/">
-          <term target="XX5499740.html" type="tipo_texto">Sátiras</term>
+          <term target="XX5382203.html" type="tipo_texto">Jácaras</term>
           <term type="tipo_estrofa"/>
           <term type="verso_prosa">Verso</term>
           <term type="sagrado_profano">Profano</term>
@@ -120,9 +124,13 @@
     </profileDesc>
     <revisionDesc>
       <change when="2022-09-15" who="#PJ">Création du fichier TEI P5 et encodage du corps du
-                        texte</change>
+        texte</change>
+      <change when="2024-01-09" who="#EL">Add the IIIF links</change>
     </revisionDesc>
   </teiHeader>
+  <facsimile>
+    <graphic url="varios/Varios_140_1.jpg/full/200,/0/default.jpg"/>
+  </facsimile>
   <sourceDoc xml:id="automaticTranscription">
     <surface xml:id="Varios_140_1" type="page" cert="silver">
       <graphic url="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_140_1/full/full/0/default.jpg"/>
@@ -624,7 +632,7 @@
           <line>Conque ambos à dos fueron</line>
         </zone>
         <zone xml:id="Varios_140_2_BT227_2__39" type="DefaultLine" subtype="none" points="874,2128 872,2141 1335,2157 1339,2139 1339,2099 874,2081 874,2128 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_140_2/872,2081,467,76/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_140_2_BT227_2__39_1" points="876,2129 1341,2139 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
+          <path xml:id="Varios_140_2_BT227_2__39_1" points="876,2129 1341,2139 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
           <line>à cenar al otro barrio.</line>
         </zone>
         <zone xml:id="Varios_140_2_BT227_2_LT83_40" type="DefaultLine" subtype="none" points="874,2178 872,2201 1015,2196 1039,2209 1041,2209 1043,2209 1046,2209 1048,2209 1050,2209 1091,2198 1105,2211 1108,2211 1110,2211 1112,2211 1120,2211 1180,2201 1401,2217 1405,2194 1405,2145 874,2130 874,2178 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_140_2/872,2130,533,87/full/0/default" corresp="DefaultLine">
@@ -1255,294 +1263,295 @@
   <text>
     <body>
       <div>
-        <pb n="1" source="Varios_140_1.jpg" facs="fedora_Varios_140_1/full/full/0/default.jpg"/>
+        <pb n="1" source="Varios_140_1.jpg" facs="varios/Varios_140_1.jpg/"/>
+        
         <div>
-          <head type="primer_titulo"><lb/>XACARA NUEVA, EN QUE SE REFIERE, Y DA<lb/>cuenta de veinte muertes que una Donzella, llamada<lb/>Doña Tereſa de Llanos, natural de la Cindad de Sevilla,<lb/>ſiendo las primeras á dos hermanos ſuyos, por averle eſ¬<lb/>torvado el caſarſe. Y tambien fe declara como ſe viſtió de<lb/>hombre, y fue preſa, y ſentenciada à muerte, y ſe vió<lb/>libre, por averſe deſcubierto que era muger,<lb/>y el dichoſo fin que tuyo.</head>
-          <lg>
-            <l>PReſtame ſilencio el mundo,</l>
-            <l>mientras que voy explicando</l>
-            <l>de una muger los arrojos,</l>
-            <l>valentias, y deſgarros.</l>
-            <l>En la Ciudad de Sevilla,</l>
-            <l>cuyo circulo, y eſpacio</l>
-            <l>adorna Febo con luzes</l>
-            <l>de ſus eminentes rayos.</l>
-            <l>Naciò de muy nobles Padres</l>
-            <l>Doña Tereſa de Llanos,</l>
-            <l>tan virtuoſa, y afable.</l>
-            <l>como honeſta en ſu recato.</l>
-            <l>La infandió, ſu corazon</l>
-            <l>el valor mas arraſtr do,</l>
-            <l>que ſe ha viſto en criatura,</l>
-            <l>ni han oído los humanos.</l>
-            <l>Murió ſu Padre, y ſu Madre,</l>
-          </lg>
-          <lg>
-            <l>y en poder de dos Hermanos</l>
-            <l>quedó, y viendoſe muger,</l>
-            <l>de edad de unos veinte años;</l>
-            <l>Por no ſujetarſe à nadie,</l>
-            <l>procura tomar eſtado,</l>
-            <l>con un moco bien nacido,</l>
-            <l>Mas al fin ſe lo eſtorvaron</l>
-            <l>ſus Hermanos, y le dizen</l>
-            <l>con baſtantes amenazas,</l>
-            <l>que ſi ſe caſa con èl,</l>
-            <l>Han de procurar matarlo,</l>
-            <l>porque no es à guſto de ellos;</l>
-            <l>mas al fin lo executaron:</l>
-            <l>la moça des que lo ſupo,</l>
-            <l>Toma el Cielo con las manos,</l>
-            <l>procura tomar venganga</l>
-            <l>ella de ſus dos Hermanos:</l>
-          </lg>
-          <pb n="2" source="Varios_140_2.jpg" facs="fedora_Varios_140_2/full/full/0/default.jpg"/>
-          <lg>
-            <l>al fin una cierta noche,</l>
-            <l>Con un amigo gallardo,</l>
-            <l>à la hora que el filencio,</l>
-            <l>eſtá en ſu golfo enfroſcado,</l>
-            <l>ſe puſo calçon de ante,</l>
-            <l>Jubon, y coleto largo,</l>
-            <l>media blanca, y alpargata,</l>
-            <l>ſu capa, y ſombrero blanco;</l>
-            <l>tomando broquel, y eſpada.</l>
-            <l>Fuè al parage acoſtumbrado,</l>
-            <l>donde ſabia que eſtavan;</l>
-            <l>llegó, y aſſi les ha hablado:</l>
-            <l>picaros, viles traydores,</l>
-            <l>Que vilmente aveis obrado,</l>
-            <l>en darle muerte aquel moço,</l>
-            <l>mas yo à la vengança ſalgo,</l>
-            <l>y vengo porque me toca:</l>
-            <l>Aora, vereis villanos,</l>
-            <l>ſi aqui la razon me vale,</l>
-            <l>la vereis en eſte braço;</l>
-            <l>echando mano à ſu azero,</l>
-            <l>Ellos tambien arrancaron</l>
-            <l>ſus eſpadas ; mas à pocos</l>
-            <l>movimientos ( caſo raro!)</l>
-            <l>dió al mayor una eſtocada,</l>
-            <l>Que el corazon le ha paſſado;</l>
-            <l>y otro por la garganta</l>
-            <l>le dió en forma, que quedaron</l>
-            <l>difuntos ambos à dos,</l>
-            <l>Y èlla fué paſſo entre paſſo</l>
-            <l>á ſu fortuna principio</l>
-            <l>lo de más valor, y dando</l>
-            <l>à ſu caſa, y recogió</l>
-            <l>A Cramona caminando,</l>
-            <l>à las cinco de la tarde</l>
-            <l>llegó, y eſtavan jugando</l>
-            <l>en la calle à la pelota</l>
-            <l>Quatro guapos alentados,</l>
-            <l>pafsó, no quitandoſe el ſombrero,</l>
-            <l>y uno dellos reparando,</l>
-            <l>le dixo ſer deſcortés,</l>
-          </lg>
-          <lg>
-            <l>Y todos ſe alborotaron,</l>
-            <l>metiendo mano à ſu eſpada</l>
-            <l>le dió que hacer un buen rato,</l>
-            <l>donde al fin mató un Alcalde,</l>
-            <l>Un Cochero, y un Lacayo:</l>
-            <l>quatro quedaron heridos,</l>
-            <l>y por ſer tantos contrarios</l>
-            <l>ſe eſcapó como èlla pudo,</l>
-            <l>mas fuè à uña de cavallo.</l>
-            <l>Albergóſe aquella noche</l>
-            <l>en una caſa de campo,</l>
-            <l>caminando à toda priſſa</l>
-            <l>con muchiſſimo cuydado.</l>
-            <l>Entró en Cuenca una mañana,</l>
-            <l>donde poſada buſcando,</l>
-            <l>allí eſtuvo quatro dias</l>
-            <l>donde una noche cenando,</l>
-            <l>Llegaron dos Portugueſes</l>
-            <l>junto à èlla ſe aſentaron,</l>
-            <l>y al inſtante conoció</l>
-            <l>que eran valientes lagartos,</l>
-            <l>Les dixo : ſi eran fervidos</l>
-            <l>de cenar, con que afetaron;</l>
-            <l>comieron de lo que avia,</l>
-            <l>y uno fuè deſvergonçado</l>
-            <l>Con la Hueſpeda de caſa,</l>
-            <l>con que les dixo: Payſanos,</l>
-            <l>poco, á poco en el hablar,</l>
-            <l>porque aunque no eſtè el amo,</l>
-            <l>Baſtará que eſtè yo aqui,</l>
-            <l>para que ſe haga mas caſo:</l>
-            <l>Uno de éllos reſpondió,</l>
-            <l>con muy grande deſacato;</l>
-            <l>Cogió el plato de la meſa,</l>
-            <l>y ſe lo metió en los caſcos:</l>
-            <l>Al otro con una daga</l>
-            <l>tres puñaladas le hdado;</l>
-            <l>Conque ambos à dos fueron</l>
-            <l>à cenar al otro barrio.</l>
-            <l>De allí paſsó á Zaragoça,</l>
-            <l>andandoſe paſſeando</l>
-          </lg>
+          <head type="primer_titulo"><lb/>XACARA NUEVA, EN QUE SE REFIERE, Y DA<lb/>cuenta de veinte
+            muertes que una Donzella, llamada<lb/>Doña Tereſa de Llanos, natural de la Cindad de
+            Sevilla,<lb/>ſiendo las primeras á dos hermanos ſuyos, por averle eſ¬<lb/>torvado el
+            caſarſe. Y tambien fe declara como ſe viſtió de<lb/>hombre, y fue preſa, y ſentenciada
+            à muerte, y ſe vió<lb/>libre, por averſe deſcubierto que era muger,<lb/>y el dichoſo
+            fin que tuyo.</head>
+
+          <l rend="indent"><hi rend="negrita">P</hi>Reſtame ſilencio el mundo,</l>
+          <l>mientras que voy explicando</l>
+          <l>de una muger los arrojos,</l>
+          <l>valentias, y deſgarros.</l>
+          <l rend="indent">En la Ciudad de Sevilla,</l>
+          <l>cuyo circulo, y eſpacio</l>
+          <l>adorna Febo con luzes</l>
+          <l>de ſus eminentes rayos.</l>
+          <l rend="indent">Naciò de muy nobles Padres</l>
+          <l>Doña Tereſa de Llanos,</l>
+          <l>tan virtuoſa, y afable.</l>
+          <l>como honeſta en ſu recato.</l>
+          <l rend="indent">La infandió, ſu corazon</l>
+          <l>el valor mas arraſtr do,</l>
+          <l>que ſe ha viſto en criatura,</l>
+          <l>ni han oído los humanos.</l>
+          <l rend="indent">Murió ſu Padre, y ſu Madre,</l>
+          <l>y en poder de dos Hermanos</l>
+          <l>quedó, y viendoſe muger,</l>
+          <l>de edad de unos veinte años;</l>
+          <l rend="indent">Por no ſujetarſe à nadie,</l>
+          <l>procura tomar eſtado,</l>
+          <l>con un moco bien nacido,</l>
+          <l>Mas al fin ſe lo eſtorvaron</l>
+          <l rend="indent">ſus Hermanos, y le dizen</l>
+          <l>con baſtantes amenazas,</l>
+          <l>que ſi ſe caſa con èl,</l>
+          <l rend="indent">Han de procurar matarlo,</l>
+          <l>porque no es à guſto de ellos;</l>
+          <l>mas al fin lo executaron:</l>
+          <l>la moça des que lo ſupo,</l>
+          <l rend="indent">Toma el Cielo con las manos,</l>
+          <l>procura tomar venganga</l>
+          <l>ella de ſus dos Hermanos:</l>
+
+          <pb n="2" source="Varios_140_2.jpg" facs="varios/Varios_140_2.jpg/"/>
+
+          <l>al fin una cierta noche,</l>
+          <l rend="indent">Con un amigo gallardo,</l>
+          <l>à la hora que el filencio,</l>
+          <l>eſtá en ſu golfo enfroſcado,</l>
+          <l>ſe puſo calçon de ante,</l>
+          <l rend="indent">Jubon, y coleto largo,</l>
+          <l>media blanca, y alpargata,</l>
+          <l>ſu capa, y ſombrero blanco;</l>
+          <l>tomando broquel, y eſpada.</l>
+          <l rend="indent">Fuè al parage acoſtumbrado,</l>
+          <l>donde ſabia que eſtavan;</l>
+          <l>llegó, y aſſi les ha hablado:</l>
+          <l>picaros, viles traydores,</l>
+          <l rend="indent">Que vilmente aveis obrado,</l>
+          <l>en darle muerte aquel moço,</l>
+          <l>mas yo à la vengança ſalgo,</l>
+          <l>y vengo porque me toca:</l>
+          <l rend="indent">Aora, vereis villanos,</l>
+          <l>ſi aqui la razon me vale,</l>
+          <l>la vereis en eſte braço;</l>
+          <l>echando mano à ſu azero,</l>
+          <l rend="indent">Ellos tambien arrancaron</l>
+          <l>ſus eſpadas ; mas à pocos</l>
+          <l>movimientos ( caſo raro!)</l>
+          <l>dió al mayor una eſtocada,</l>
+          <l rend="indent">Que el corazon le ha paſſado;</l>
+          <l>y otro por la garganta</l>
+          <l>le dió en forma, que quedaron</l>
+          <l>difuntos ambos à dos,</l>
+          <l rend="indent">Y èlla fué paſſo entre paſſo</l>
+          <l>á ſu fortuna principio</l>
+          <l>lo de más valor, y dando</l>
+          <l>à ſu caſa, y recogió</l>
+          <l rend="indent">A Cramona caminando,</l>
+          <l>à las cinco de la tarde</l>
+          <l>llegó, y eſtavan jugando</l>
+          <l>en la calle à la pelota</l>
+          <l rend="indent">Quatro guapos alentados,</l>
+          <l>pafsó, no quitandoſe el ſombrero,</l>
+          <l>y uno dellos reparando,</l>
+          <l>le dixo ſer deſcortés,</l>
+          <l rend="indent">Y todos ſe alborotaron,</l>
+          <l>metiendo mano à ſu eſpada</l>
+          <l>le dió que hacer un buen rato,</l>
+          <l>donde al fin mató un Alcalde,</l>
+          <l rend="indent">Un Cochero, y un Lacayo:</l>
+          <l>quatro quedaron heridos,</l>
+          <l>y por ſer tantos contrarios</l>
+          <l>ſe eſcapó como èlla pudo,</l>
+          <l>mas fuè à uña de cavallo.</l>
+          <l rend="indent">Albergóſe aquella noche</l>
+          <l>en una caſa de campo,</l>
+          <l>caminando à toda priſſa</l>
+          <l>con muchiſſimo cuydado.</l>
+          <l rend="indent">Entró en Cuenca una mañana,</l>
+          <l>donde poſada buſcando,</l>
+          <l>allí eſtuvo quatro dias</l>
+          <l>donde una noche cenando,</l>
+          <l rend="indent">Llegaron dos Portugueſes</l>
+          <l>junto à èlla ſe aſentaron,</l>
+          <l>y al inſtante conoció</l>
+          <l>que eran valientes lagartos,</l>
+          <l rend="indent">Les dixo : ſi eran fervidos</l>
+          <l>de cenar, con que afetaron;</l>
+          <l>comieron de lo que avia,</l>
+          <l>y uno fuè deſvergonçado</l>
+          <l rend="indent">Con la Hueſpeda de caſa,</l>
+          <l>con que les dixo: Payſanos,</l>
+          <l>poco, á poco en el hablar,</l>
+          <l>porque aunque no eſtè el amo,</l>
+          <l rend="indent">Baſtará que eſtè yo aqui,</l>
+          <l>para que ſe haga mas caſo:</l>
+          <l>Uno de éllos reſpondió,</l>
+          <l>con muy grande deſacato;</l>
+          <l rend="indent">Cogió el plato de la meſa,</l>
+          <l>y ſe lo metió en los caſcos:</l>
+          <l>Al otro con una daga</l>
+          <l>tres puñaladas le hdado;</l>
+          <l rend="indent">Conque ambos à dos fueron</l>
+          <l>à cenar al otro barrio.</l>
+          <l>De allí paſsó á Zaragoça,</l>
+          <l>andandoſe paſſeando</l>
+
           <fw type="reclamo">Por</fw>
-          <pb n="3" source="Varios_140_3.jpg" facs="fedora_Varios_140_3/full/full/0/default.jpg"/>
-          <lg>
-            <l>Por la Cruz del Corſo un dia,</l>
-            <l>eſtava allí un Napolitano</l>
-            <l>hablando con una Dama,</l>
-            <l>paſsó con el ſombrero quitado,</l>
-            <l>Haziendo la corteſia;</l>
-            <l>ſe picó èl, y agraviado,</l>
-            <l>ſe deſpidió de la Dama,</l>
-            <l>y fué ſiguiendo ſus paſſos.</l>
-            <l>Alcançóla, y dixo: mire,</l>
-            <l>veo que es un desbarbado,</l>
-            <l>que fino ; de bofetadas</l>
-            <l>rato ha le huviera dado.</l>
-            <l>Apenas lo pronunció,</l>
-            <l>quando le dió un cintarazo,</l>
-            <l>con eſpada, y vayna todo,</l>
-            <l>que le hizo andar rodando.</l>
-            <l>Se metió en la Madalena,</l>
-            <l>valiendoſe del Sagrado;</l>
-            <l>dos dias eſtuvo allí,</l>
-            <l>y Don Geronymo Pardo</l>
-            <l>La facó deſte peligro,</l>
-            <l>son que la puſo en ſalvo,</l>
-            <l>viniendo haſta Barcelona,</l>
-            <l>ſirviendole de criado.</l>
-            <l>De Genova dos Galeras</l>
-            <l>en eſte Puerto llegaron,</l>
-            <l>ſe embarcó, y fueſſe a Gibraltar,</l>
-            <l>alli mato un Eſcrivano,</l>
-            <l>Porque le hizo un teſtimonio,</l>
-            <l>pero ſe lo hizo falſo.</l>
-            <l>Azia Cadiz dió la buelta,</l>
-            <l>y eſtando un dia jugando</l>
-            <l>En la Puerta de la Mar</l>
-            <l>en la meſa de los dados;</l>
-            <l>ſobre jugar una ſuerte</l>
-            <l>à un valiente Sevillano,</l>
-            <l>Se bolvieron contra élla</l>
-            <l>catorze, ó quinze Soldados;</l>
-            <l>tres eran en ſu favor,</l>
-            <l>las eſpadas arrancando</l>
-            <l>Con animo, y valentia,</l>
-          </lg>
-          <lg>
-            <l>mataron cinco contrarios;</l>
-            <l>tambien èlla falió herida</l>
-            <l>de una eſtocada en un braço.</l>
-            <l>En caſa del Señor Obiſpo</l>
-            <l>un mes ſe eſtuvo curando;</l>
-            <l>fanó, y fe vino à Xerez,</l>
-            <l>à donde con Pedro Manſo,</l>
-            <l>El Guapo de aquella tierra,</l>
-            <l>con el tuvo un cierto enfado,</l>
-            <l>y para defenfadarſe,</l>
-            <l>ſe ſalió con él al campo,</l>
-            <l>Sin ofenderſe uno à otro</l>
-            <l>hora, y media peleando;</l>
-            <l>con mucho guſto, y agrado.</l>
-            <l>Ella caminó à Jaen;</l>
-            <l>donde un día en el mercado</l>
-            <l>à un primo de Serafin,</l>
-            <l>el que eſtuvo apriſionado</l>
-            <l>En la Corte de Madrid,</l>
-            <l>quiſo á un Labrador honrado</l>
-            <l>engañarle en un doblon,</l>
-            <l>y ella lo eſtava mirando,</l>
-            <l>Y porque vido la infamia</l>
-            <l>de aquel falſo , y vil engaño,</l>
-            <l>ſe trabaron de palabras,</l>
-            <l>y èl arrancando un terciado</l>
-            <l>Para tirarle , mas èlla</l>
-            <l>no le dió lugar á tanto,</l>
-            <l>porque una quarta de azero</l>
-            <l>le echó à fuera los livianos.</l>
-            <l>Tres Torreros Andaluzes</l>
-            <l>deſdeallí la acompañaron,</l>
-            <l>hasta la Ciudad de Andujar,</l>
-            <l>Sierra Morena paſſando.</l>
-            <l>En el camino encontró</l>
-            <l>un hombre que iva llorando;</l>
-            <l>preguntóle ſu afliccion,</l>
-            <l>y èl le dixo: me han robado,</l>
-            <l>Muy poco trecho de aqui,</l>
-            <l>ciento y cinquenta ducados,</l>
-          </lg>
+
+          <pb n="3" source="Varios_140_3.jpg" facs="varios/Varios_140_3.jpg/"/>
+
+          <l rend="indent">Por la Cruz del Corſo un dia,</l>
+          <l>eſtava allí un Napolitano</l>
+          <l>hablando con una Dama,</l>
+          <l>paſsó con el ſombrero quitado,</l>
+          <l rend="indent">Haziendo la corteſia;</l>
+          <l>ſe picó èl, y agraviado,</l>
+          <l>ſe deſpidió de la Dama,</l>
+          <l>y fué ſiguiendo ſus paſſos.</l>
+          <l rend="indent">Alcançóla, y dixo: mire,</l>
+          <l>veo que es un desbarbado,</l>
+          <l>que fino ; de bofetadas</l>
+          <l>rato ha le huviera dado.</l>
+          <l rend="indent">Apenas lo pronunció,</l>
+          <l>quando le dió un cintarazo,</l>
+          <l>con eſpada, y vayna todo,</l>
+          <l>que le hizo andar rodando.</l>
+          <l rend="indent">Se metió en la Madalena,</l>
+          <l>valiendoſe del Sagrado;</l>
+          <l>dos dias eſtuvo allí,</l>
+          <l>y Don Geronymo Pardo</l>
+          <l rend="indent">La facó deſte peligro,</l>
+          <l>son que la puſo en ſalvo,</l>
+          <l>viniendo haſta Barcelona,</l>
+          <l>ſirviendole de criado.</l>
+          <l rend="indent">De Genova dos Galeras</l>
+          <l>en eſte Puerto llegaron,</l>
+          <l>ſe embarcó, y fueſſe a Gibraltar,</l>
+          <l>alli mato un Eſcrivano,</l>
+          <l rend="indent">Porque le hizo un teſtimonio,</l>
+          <l>pero ſe lo hizo falſo.</l>
+          <l>Azia Cadiz dió la buelta,</l>
+          <l>y eſtando un dia jugando</l>
+          <l rend="indent">En la Puerta de la Mar</l>
+          <l>en la meſa de los dados;</l>
+          <l>ſobre jugar una ſuerte</l>
+          <l>à un valiente Sevillano,</l>
+          <l rend="indent">Se bolvieron contra élla</l>
+          <l>catorze, ó quinze Soldados;</l>
+          <l>tres eran en ſu favor,</l>
+          <l>las eſpadas arrancando</l>
+          <l rend="indent">Con animo, y valentia,</l>
+          <l>mataron cinco contrarios;</l>
+          <l>tambien èlla falió herida</l>
+          <l>de una eſtocada en un braço.</l>
+          <l rend="indent">En caſa del Señor Obiſpo</l>
+          <l>un mes ſe eſtuvo curando;</l>
+          <l>fanó, y fe vino à Xerez,</l>
+          <l>à donde con Pedro Manſo,</l>
+          <l rend="indent">El Guapo de aquella tierra,</l>
+          <l>con el tuvo un cierto enfado,</l>
+          <l>y para defenfadarſe,</l>
+          <l>ſe ſalió con él al campo,</l>
+          <l rend="indent">Sin ofenderſe uno à otro</l>
+          <l>hora, y media peleando;</l>
+          <l>hicieron las amiſtades</l>
+          <l>con mucho guſto, y agrado.</l>
+          <l rend="indent">Ella caminó à Jaen;</l>
+          <l>donde un día en el mercado</l>
+          <l>à un primo de Serafin,</l>
+          <l>el que eſtuvo apriſionado</l>
+          <l rend="indent">En la Corte de Madrid,</l>
+          <l>quiſo á un Labrador honrado</l>
+          <l>engañarle en un doblon,</l>
+          <l>y ella lo eſtava mirando,</l>
+          <l rend="indent">Y porque vido la infamia</l>
+          <l>de aquel falſo , y vil engaño,</l>
+          <l>ſe trabaron de palabras,</l>
+          <l>y èl arrancando un terciado</l>
+          <l rend="indent">Para tirarle , mas èlla</l>
+          <l>no le dió lugar á tanto,</l>
+          <l>porque una quarta de azero</l>
+          <l>le echó à fuera los livianos.</l>
+          <l rend="indent">Tres Torreros Andaluzes</l>
+          <l>deſdeallí la acompañaron,</l>
+          <l>hasta la Ciudad de Andujar,</l>
+          <l>Sierra Morena paſſando.</l>
+          <l rend="indent">En el camino encontró</l>
+          <l>un hombre que iva llorando;</l>
+          <l>preguntóle ſu afliccion,</l>
+          <l>y èl le dixo: me han robado,</l>
+          <l rend="indent">Muy poco trecho de aqui,</l>
+          <l>ciento y cinquenta ducados,</l>
+
           <fw type="reclamo">lo</fw>
-          <pb n="4" source="Varios_140_4.jpg" facs="fedora_Varios_140_4/full/full/0/default.jpg"/>
-          <lg>
-            <l>lo que ſiento no ſon mios,</l>
-            <l>y tambien me han deſnudado.</l>
-            <l>Ella preguntó : eran muchos,</l>
-            <l>eſſos que te han ultrajado?</l>
-            <l>Reſpondió, Señor, ſon tres,</l>
-            <l>y al parecer Gitanos.</l>
-            <l>Ella le dixo : pues vé</l>
-            <l>à eſte Lugar mas cercano,</l>
-            <l>y aguardame allí dos dias,</l>
-            <l>y le dió un real de quatro</l>
-            <l>para que ſe ſuſtentaſſe,</l>
-            <l>Y èlla por unos barrancos,</l>
-            <l>por entre peñas, y jaras</l>
-            <l>adonde los ha encontrado,</l>
-            <l>y les dize : Amigos mios,</l>
-            <l>Por cierto que me he alegrado</l>
-            <l>de que he hallado compañia,</l>
-            <l>y vengo muy fatigado,</l>
-            <l>porque tres amigos mios</l>
-            <l>han preſo, y yo me he eſcapado.</l>
-            <l>Un Cavallero ha ſalido,</l>
-            <l>tan ſolo conſu criado,</l>
-            <l>y trahe mas de mil doblones,</l>
-            <l>porque lo ſupe en Almagro.</l>
-            <l>Lo que conviene, eſta noche</l>
-            <l>es, que eſtèmos deſviados</l>
-            <l>unos de otros, que aſſi</l>
-            <l>podemos mas bien cercarlos.</l>
-            <l>Conque al fin fe dividieron,</l>
-            <l>los tres con algo diſtantes,</l>
-            <l>y élla con induſtria, y valor</l>
-            <l>à los dos ha degollado,</l>
-          </lg>
-          <lg>
-            <l>Y al tercero le dió la muerte</l>
-            <l>con un fuerte carabinaço;</l>
-            <l>quitóles la cantidad,</l>
-            <l>que al otro avian robado.</l>
-            <l>A Villa Manrique fué</l>
-            <l>donde el dinero ha entregado</l>
-            <l>al tal ſujeto, y quedó</l>
-            <l>agradecido del caſo.</l>
-            <l>Y bolviendoſe à Xerès,</l>
-            <l>donde mató un Eſcrivano</l>
-            <l>por cuya muerte fuè preſa,</l>
-            <l>y al punto la ſentenciaron</l>
-            <l>A que muera en una horca,</l>
-            <l>y viendo el pleyto mal parado,</l>
-            <l>confeſsó que era muger,</l>
-            <l>y al Virrey cuenta le han dado.</l>
-            <l>Embiò quatro mugeres,</l>
-            <l>à donde la regiſtraron,</l>
-            <l>y viendo que era verdad,</l>
-            <l>al punto la han perdonado;</l>
-            <l>Porque muchos Cavalleros,</l>
-            <l>y Señores de grande fama,</l>
-            <l>por empeño lo tomaron,</l>
-            <l>librandola de tal eſtrago,</l>
-            <l>En la glorioſa Santa Ana</l>
-            <l>luego el Habito le han dado</l>
-            <l>donde ſirviendo à Dios</l>
-            <l>eſtá con muchos aplauſos,</l>
-            <l>Eſta es la vida, Señores,</l>
-            <l>de Doña Tereſa de Llanos,</l>
-            <l>la que hizo tantas muertes,</l>
-            <l>ſu honor continuo guardando.</l>
-          </lg>
+
+          <pb n="4" source="Varios_140_4.jpg" facs="varios/Varios_140_4.jpg/"/>
+
+          <l>lo que ſiento no ſon mios,</l>
+          <l>y tambien me han deſnudado.</l>
+          <l rend="indent">Ella preguntó : eran muchos,</l>
+          <l>eſſos que te han ultrajado?</l>
+          <l>Reſpondió, Señor, ſon tres,</l>
+          <l>y al parecer Gitanos.</l>
+          <l rend="indent">Ella le dixo : pues vé</l>
+          <l>à eſte Lugar mas cercano,</l>
+          <l>y aguardame allí dos dias,</l>
+          <l>y le dió un real de quatro</l>
+          <l>para que ſe ſuſtentaſſe,</l>
+          <l rend="indent">Y èlla por unos barrancos,</l>
+          <l>por entre peñas, y jaras</l>
+          <l>adonde los ha encontrado,</l>
+          <l>y les dize : Amigos mios,</l>
+          <l rend="indent">Por cierto que me he alegrado</l>
+          <l>de que he hallado compañia,</l>
+          <l>y vengo muy fatigado,</l>
+          <l>porque tres amigos mios</l>
+          <l>han preſo, y yo me he eſcapado.</l>
+          <l rend="indent">Un Cavallero ha ſalido,</l>
+          <l>tan ſolo conſu criado,</l>
+          <l>y trahe mas de mil doblones,</l>
+          <l>porque lo ſupe en Almagro.</l>
+          <l rend="indent">Lo que conviene, eſta noche</l>
+          <l>es, que eſtèmos deſviados</l>
+          <l>unos de otros, que aſſi</l>
+          <l>podemos mas bien cercarlos.</l>
+          <l rend="indent">Conque al fin fe dividieron,</l>
+          <l>los tres con algo diſtantes,</l>
+          <l>y élla con induſtria, y valor</l>
+          <l>à los dos ha degollado,</l>
+          <l rend="indent">Y al tercero le dió la muerte</l>
+          <l>con un fuerte carabinaço;</l>
+          <l>quitóles la cantidad,</l>
+          <l>que al otro avian robado.</l>
+          <l rend="indent">A Villa Manrique fué</l>
+          <l>donde el dinero ha entregado</l>
+          <l>al tal ſujeto, y quedó</l>
+          <l>agradecido del caſo.</l>
+          <l rend="indent">Y bolviendoſe à Xerès,</l>
+          <l>donde mató un Eſcrivano</l>
+          <l>por cuya muerte fuè preſa,</l>
+          <l>y al punto la ſentenciaron</l>
+          <l rend="indent">A que muera en una horca,</l>
+          <l>y viendo el pleyto mal parado,</l>
+          <l>confeſsó que era muger,</l>
+          <l>y al Virrey cuenta le han dado.</l>
+          <l rend="indent">Embiò quatro mugeres,</l>
+          <l>à donde la regiſtraron,</l>
+          <l>y viendo que era verdad,</l>
+          <l>al punto la han perdonado;</l>
+          <l rend="indent">Porque muchos Cavalleros,</l>
+          <l>y Señores de grande fama,</l>
+          <l>por empeño lo tomaron,</l>
+          <l>librandola de tal eſtrago,</l>
+          <l rend="indent">En la glorioſa Santa Ana</l>
+          <l>luego el Habito le han dado</l>
+          <l>donde ſirviendo à Dios</l>
+          <l>eſtá con muchos aplauſos,</l>
+          <l rend="indent">Eſta es la vida, Señores,</l>
+          <l>de Doña Tereſa de Llanos,</l>
+          <l>la que hizo tantas muertes,</l>
+          <l>ſu honor continuo guardando.</l>
         </div>
+        
         <div type="colofon">
-          <p><lb/>Barcelona: Por JUAN JOLAS Impreſſor, à los Algodoneros.</p>
+          <p><lb/><hi rend="cursiva">Barcelona</hi>: Por JUAN JOLAS Impreſſor, à los Algodoneros.</p>
         </div>
       </div>
     </body>

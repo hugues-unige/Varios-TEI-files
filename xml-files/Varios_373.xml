@@ -29,7 +29,7 @@
           <publicationStmt>
             <publisher>Tipografía Española</publisher>
             <pubPlace ref="https://www.geonames.org/3128760/barcelona.html">Barcelona</pubPlace>
-            <date cert="high">[s.a]</date>
+            <date cert="low" when="1800-01-01">[s.a.]</date>
           </publicationStmt>
         </biblFull>
         <msDesc>
@@ -38,6 +38,7 @@
             <settlement>Genève</settlement>
             <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"/>
                                     </repository>
+            <collection>Colección Varios</collection>
             <idno type="cote"/>
             <idno type="DOI">10.5281/zenodo.6783497</idno>
             <altIdentifier>
@@ -105,7 +106,7 @@
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR non corregido</p>
+          <p>OCR no corregido</p>
         </correction>
         <normalization>
           <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto
@@ -132,9 +133,10 @@
     <revisionDesc>
       <change when="2023-12-08" who="#PJ">Création du fichier TEI P5 et encodage du
                         corps du texte</change>
+<change when="2024-01-09" who="#EL">Add the IIIF links</change>
     </revisionDesc>
   </teiHeader>
-  <sourceDoc xml:id="automaticTranscription">
+  <facsimile><graphic url="varios/Varios_373_1.jpg/full/200,/0/default.jpg"/></facsimile><sourceDoc xml:id="automaticTranscription">
     <surface xml:id="Varios_373_1" type="page" cert="silver">
       <graphic url="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_373_1/full/full/0/default.jpg"/>
       <zone xml:id="Varios_373_1_BT221_1" n="1" type="CustomZone" subtype="impresorNum" points="1609,189 1609,256 1404,256 1404,189 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_373_1/1404,189,205,67/full/0/default" corresp="CustomZone:impresorNum">
@@ -1069,7 +1071,7 @@
   <text>
     <body>
       <div>
-        <pb n="1" source="Varios_373_1.jpg" facs="fedora_Varios_373_1/full/full/0/default.jpg"/>
+        <pb n="1" source="Varios_373_1.jpg" facs="varios/Varios_373_1.jpg/"/>
         <fw type="impresorNum">Núto. 51.</fw>
         <div type="parte" n="1">
           <head type="primer_titulo"><lb/>JUANITA.<lb/>AMERICANA A DUO.</head>
@@ -1104,7 +1106,7 @@
               <l>tan solo á mí,</l>
               <l>angel hermoso, me adorarás.</l>
             </lg>
-            <pb n="2" source="Varios_373_2.jpg" facs="fedora_Varios_373_2/full/full/0/default.jpg"/>
+            <pb n="2" source="Varios_373_2.jpg" facs="varios/Varios_373_2.jpg/"/>
             <fw type="paginaNum">— 2 —</fw>
           </lg>
           <lg>
@@ -1240,7 +1242,7 @@
             <l>al estilo catalan.</l>
             <l>¡Qué americana! etc.</l>
           </lg>
-          <pb n="3" source="Varios_373_3.jpg" facs="fedora_Varios_373_3/full/full/0/default.jpg"/>
+          <pb n="3" source="Varios_373_3.jpg" facs="varios/Varios_373_3.jpg/"/>
         </div>
         <div type="parte" n="2">
           <head type="titulo_parte"><lb/>LAS ROBINSONAS.</head>
@@ -1277,7 +1279,7 @@
             <l>las Robinsonas,</l>
             <l>són com jo dich.</l>
             <l>Tu, tu, ru, tut</l>
-            <pb n="4" source="Varios_373_4.jpg" facs="fedora_Varios_373_4/full/full/0/default.jpg"/>
+            <pb n="4" source="Varios_373_4.jpg" facs="varios/Varios_373_4.jpg/"/>
             <l>Buscan enamorarse,</l>
             <l>tambe casarse</l>
             <l>ab un senyó rich.</l>

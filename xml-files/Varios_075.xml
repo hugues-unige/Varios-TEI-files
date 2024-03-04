@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../Schema/oddPliego_varios.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:alto="http://www.loc.gov/standards/alto/ns-v4#" xml:id="Varios_075">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Varios_075">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -11,8 +11,7 @@
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <authority role="rightsHolder">Bibliothèque Universitaire de
-                              Genève</authority>
+        <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
         <availability status="restricted">
           <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
         </availability>
@@ -20,10 +19,8 @@
       <sourceDesc>
         <biblFull>
           <titleStmt>
-            <title type="titulo_completo">NUEVA CANCION DEL CORREGIDOR Y LA
-                                          MOLINERA</title>
-            <title type="titulo_breve">NUEVA CANCION DEL CORREGIDOR Y LA
-                                          MOLINERA</title>
+            <title type="titulo_completo">NUEVA CANCION DEL CORREGIDOR Y LA MOLINERA</title>
+            <title type="titulo_breve"/>
           </titleStmt>
           <editionStmt>
             <p/>
@@ -31,7 +28,7 @@
           <publicationStmt>
             <publisher>El Abanico</publisher>
             <pubPlace ref="https://www.geonames.org/3128760/barcelona.html">Barcelona</pubPlace>
-            <date>[s.a]</date>
+            <date cert="low" when="1800-01-01">[s.a.]</date>
           </publicationStmt>
         </biblFull>
         <msDesc>
@@ -39,7 +36,8 @@
             <country>Suisse</country>
             <settlement>Genève</settlement>
             <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"/>
-                                    </repository>
+            </repository>
+            <collection>Colección Varios</collection>
             <idno type="cote"/>
             <idno type="DOI">10.5281/zenodo.6565886</idno>
             <altIdentifier>
@@ -47,10 +45,14 @@
             </altIdentifier>
           </msIdentifier>
           <msContents>
-            <summary/>
+            <summary>Un canción y un trovo</summary>
             <msItem>
-              <locus/>
-              <title/>
+              <locus>1-4</locus>
+              <title>Nueva cancion del corregidor y la molinera</title>
+            </msItem>
+            <msItem>
+              <locus>4</locus>
+              <title>Trovo discreto y divertido</title>
             </msItem>
           </msContents>
           <physDesc>
@@ -68,7 +70,7 @@
               </layoutDesc>
             </objectDesc>
             <decoDesc>
-              <summary n="1">Uno grabados (p.1) </summary>
+              <summary n="1">Un grabados (p.1) </summary>
               <decoNote type="lista_grabados">
                 <list>
                   <item corresp="grabado_v_075_1.xml">grabado_v_075_1</item>
@@ -76,8 +78,7 @@
               </decoNote>
             </decoDesc>
             <additions>
-              <stamp>SANTIAGO PONS BUENAVISTA, 11, . LIBRERÍA
-                                                BARCELONA (ESPAÑA)</stamp>
+              <stamp>SANTIAGO PONS BUENAVISTA, 11, . LIBRERÍA BARCELONA (ESPAÑA)</stamp>
             </additions>
           </physDesc>
           <history>
@@ -86,8 +87,7 @@
             </origin>
             <provenance>
               <p>
-                <stamp>SANTIAGO PONS BUENAVISTA, 11, . LIBRERÍA
-                                                  BARCELONA (ESPAÑA)</stamp>
+                <stamp>SANTIAGO PONS BUENAVISTA, 11, . LIBRERÍA BARCELONA (ESPAÑA)</stamp>
               </p>
             </provenance>
             <acquisition/>
@@ -97,18 +97,17 @@
     </fileDesc>
     <encodingDesc>
       <projectDesc>
-        <p>Este archivo fue creado en el marco del proyecto Desenrollando el
-                              Cordel/Démêler le cordel/Untangling the cordel, dirigido por la
-                              profesora Constance Carta de la Universidad de Ginebra, con el apoyo
-                              de la Fundación filantrópica Famille Sandoz-Monique de Meuron.</p>
+        <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+          cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la Universidad
+          de Ginebra, con el apoyo de la Fundación filantrópica Famille Sandoz-Monique de
+          Meuron.</p>
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR non corregido</p>
+          <p>OCR no corregido</p>
         </correction>
         <normalization>
-          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto
-                                    original.</p>
+          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
         </normalization>
         <punctuation>
           <p>Se conserva la puntuación original.</p>
@@ -129,10 +128,14 @@
       </textClass>
     </profileDesc>
     <revisionDesc>
-      <change when="2022-06-17" who="#PJ">Création du fichier TEI P5 et encodage du
-                        corps du texte</change>
+      <change when="2022-06-17" who="#PJ">Création du fichier TEI P5 et encodage du corps du
+        texte</change>
+      <change when="2024-01-09" who="#EL">Add the IIIF links</change>
     </revisionDesc>
   </teiHeader>
+  <facsimile>
+    <graphic url="varios/Varios_075_1.jpg/full/200,/0/default.jpg"/>
+  </facsimile>
   <sourceDoc xml:id="automaticTranscription">
     <surface xml:id="Varios_075_1" type="page" cert="silver">
       <graphic url="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_075_1/full/full/0/default.jpg"/>
@@ -1009,7 +1012,7 @@
       </zone>
       <zone xml:id="Varios_075_4_BT226_4" n="4" type="MainZone" subtype="none" points="1656,937 1664,1031 1305,1058 201,1040 210,928 342,920 1550,920 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_075_4/201,920,1463,138/full/0/default" corresp="MainZone">
         <zone xml:id="Varios_075_4_BT226_4_LT84_1" type="DefaultLine" subtype="none" points="208,1027 203,926 287,898 289,898 291,898 539,898 541,898 543,898 543,900 559,915 594,898 596,898 598,898 688,909 844,898 846,898 848,898 851,898 883,926 883,928 1149,931 1169,926 1221,915 1223,915 1226,915 1256,926 1327,907 1329,907 1331,907 1423,911 1425,911 1427,911 1447,926 1454,931 1647,928 1649,1027 1647,1066 1577,1066 1574,1066 1559,1080 1559,1082 1557,1082 1555,1082 1555,1084 1228,1084 1226,1082 1223,1082 1221,1082 1204,1066 1186,1053 862,1053 833,1066 798,1082 796,1082 794,1082 418,1069 392,1082 390,1082 388,1082 386,1082 383,1082 366,1066 350,1053 208,1064 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_075_4/203,898,1446,186/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_075_4_BT226_4_LT84_1_1" points="208,1027 1649,1027 " corresp=" &#10;                                                  DefaultLine"/>
+          <path xml:id="Varios_075_4_BT226_4_LT84_1_1" points="208,1027 1649,1027 " corresp=" &#xA;                                                  DefaultLine"/>
           <line>TROVO DISCRETO Y DIVERTIDO</line>
         </zone>
       </zone>
@@ -1136,12 +1139,15 @@
   <text>
     <body>
       <div>
-        <pb n="1" source="Varios_075_1.jpg" facs="fedora_Varios_075_1/full/full/0/default.jpg"/>
-        <fw type="impresorNum"/>
-        <div type="parte" n="1">
-          <head type="primer_titulo"><lb/>NUEVA CANCION<lb/>DEL<lb/>CORREGIDOR Y LA MOLINERA</head>
-          <lg>
-            <l>En cierto lugar de España</l>
+        <div>
+          <pb n="1" source="Varios_075_1.jpg" facs="varios/Varios_075_1.jpg/"/>
+          <fw type="impresorNum">Núm 75.</fw>
+
+          <div n="1">
+            <head type="primer_titulo"><lb/><hi rend="negrita">NUEVA
+              CANCION</hi><lb/>DEL<lb/>CORREGIDOR Y LA MOLINERA</head>
+
+            <l rend="indent">En cierto lugar de España</l>
             <l>había un Molinero honrado</l>
             <l>que ganaba su sustento</l>
             <l>en un molino arrendado:</l>
@@ -1153,11 +1159,9 @@
             <l>se prendó de ella;</l>
             <l>la visitaba y festejaba</l>
             <l>hasta que un día</l>
-          </lg>
-          <lg>
             <l>le declaró el asunto</l>
             <l>que pretendía.</l>
-            <l>Respondió la Molinera:</l>
+            <l rend="indent">Respondió la Molinera:</l>
             <l>vuestros favores admito,</l>
             <l>pero temo que mi esposo</l>
             <l>nos atrape en el garlito;</l>
@@ -1167,16 +1171,16 @@
             <l>cuando es su gusto,</l>
             <l>y si viene y nos coge,</l>
             <l>tendré gran susto,</l>
-          </lg>
-          <pb n="2" source="Varios_075_2.jpg" facs="fedora_Varios_075_2/full/full/0/default.jpg"/>
-          <lg>
+
+            <pb n="2" source="Varios_075_2.jpg" facs="varios/Varios_075_2.jpg/"/>
+
             <l>por es un hombre,</l>
             <l>muy vengativo,</l>
             <l>cruel y activo,</l>
             <l>y como le agravien,</l>
             <l>no se la hará ninguno,</l>
             <l>que no se la pague.</l>
-            <l>Respondió el Corregidor:</l>
+            <l rend="indent">Respondió el Corregidor:</l>
             <l>yo puedo hacer que no venga,</l>
             <l>enviándole al molino</l>
             <l>cosa que á él le entretenga:</l>
@@ -1191,7 +1195,7 @@
             <l>de doce duros;</l>
             <l>y con esto prodremos</l>
             <l>estar seguros.</l>
-            <l>Consintió la Molinera,</l>
+            <l rend="indent">Consintió la Molinera,</l>
             <l>y luego sin más porfía,</l>
             <l>el Corregidor dispuso.</l>
             <l>todo lo que dicho había;</l>
@@ -1203,16 +1207,14 @@
             <l>de Molinero;</l>
             <l>viendo la orden,</l>
             <l>le dijo airoso:</l>
-            <l>Si usted está ansioso</l>
+            <l rend="indent">Si usted está ansioso</l>
             <l>para irse, amigo,</l>
             <l>váyase que sin falta</l>
             <l>moleré el trigo.</l>
-            <l>Le agradeció el Molinero</l>
+            <l rend="indent">Le agradeció el Molinero</l>
             <l>y arrancó como un cohete:</l>
             <l>á las doce de la noche</l>
             <l>llega á su casa y se mete</l>
-          </lg>
-          <lg>
             <l>en su retrete;</l>
             <l>cuando en su cama</l>
             <l>vió á la Dama</l>
@@ -1226,7 +1228,7 @@
             <l>sin faltar nada,</l>
             <l>reloj, capa, sombrero,</l>
             <l>bastón y espada.</l>
-            <l>El Molinero se puso,</l>
+            <l rend="indent">El Molinero se puso,</l>
             <l>con contento y alegría,</l>
             <l>del Corregidor el traje,</l>
             <l>y dejó el que traía:</l>
@@ -1242,7 +1244,7 @@
             <l>se entró en la camá</l>
             <l>con la Corregidora</l>
             <l>que es linda damav</l>
-            <l>A la que por desquite</l>
+            <l rend="indent">A la que por desquite</l>
             <l>y porque le agradaba,</l>
             <l>era tanto lo que hacía</l>
             <l>que un punto no la dejaba:</l>
@@ -1254,14 +1256,14 @@
             <l>¿Qué novedad es esta,</l>
             <l>esposo mío,</l>
             <l>que en otras noches</l>
-          </lg>
-          <pb n="3" source="Varios_075_3.jpg" facs="fedora_Varios_075_3/full/full/0/default.jpg"/>
-          <lg>
+
+            <pb n="3" source="Varios_075_3.jpg" facs="varios/Varios_075_3.jpg/"/>
+
             <l>no anduvo el coche</l>
             <l>con tal violencia?</l>
             <l>y la respondió :</l>
             <l>Hija, ten paciencia.</l>
-            <l>Despertó el Corregidor,</l>
+            <l rend="indent">Despertó el Corregidor,</l>
             <l>y ver la hora procura,</l>
             <l>pero al buscar el reloj</l>
             <l>estraña la vestidura:</l>
@@ -1269,7 +1271,7 @@
             <l>la Molinera</l>
             <l>toda se altera,</l>
             <l>y ha respondido:</l>
-            <l>¡Ay, señor,</l>
+            <l rend="indent">¡Ay, señor,</l>
             <l>que es la ropa</l>
             <l>de mi marido:</l>
             <l>y no sé ahora</l>
@@ -1278,7 +1280,7 @@
             <l>que él no lo entienda,</l>
             <l>yo me voy con Usía</l>
             <l>que me defienda.</l>
-            <l>El Corregidor temblando,</l>
+            <l rend="indent">El Corregidor temblando,</l>
             <l>que el miedo le acobarda,</l>
             <l>en vestirse no se tarda</l>
             <l>para volver a su casa</l>
@@ -1294,15 +1296,13 @@
             <l>y una montera</l>
             <l>se fué á su casa,</l>
             <l>y síguele la Molinera.</l>
-            <l>Llegó llamando á la puerta</l>
+            <l rend="indent">Llegó llamando á la puerta</l>
             <l>y nadie le respondía,</l>
             <l>tanto llamó que de adentro</l>
             <l>preguntan qué se ofrecía:</l>
-          </lg>
-          <lg>
             <l>y él les decia</l>
             <l>á grandes voces:</l>
-            <l>No me conoces,</l>
+            <l rend="indent">No me conoces,</l>
             <l>que soy tu amo,</l>
             <l>cómo no abres la puerta</l>
             <l>cuando te llamo?</l>
@@ -1313,7 +1313,7 @@
             <l>ea, calle, porque mi amo</l>
             <l>está durmiendo</l>
             <l>ahora en su camas</l>
-            <l>Se estuvieron á la puerta</l>
+            <l rend="indent">Se estuvieron á la puerta</l>
             <l>de buena ó de mala gana,</l>
             <l>hasta las siete del día</l>
             <l>los dos toda la mañana:</l>
@@ -1329,7 +1329,7 @@
             <l>donde encubrirse,</l>
             <l>hasta que el Molinero</l>
             <l>quiso vestirse.</l>
-            <l>Viendo la Corregidora</l>
+            <l rend="indent">Viendo la Corregidora</l>
             <l>que aquel no era su marido,</l>
             <l>se arrojó de la cama</l>
             <l>cual león enfurecido:</l>
@@ -1341,20 +1341,18 @@
             <l>de mi marido?</l>
             <l>que me has perdido.</l>
             <l>Y con gran modo</l>
-          </lg>
-          <pb n="4" source="Varios_075_4.jpg" facs="fedora_Varios_075_4/full/full/0/default.jpg"/>
-          <lg>
+
+            <pb n="4" source="Varios_075_4.jpg" facs="varios/Varios_075_4.jpg/"/>
+
             <l>la respondió:</l>
             <l>Allá fuera</l>
             <l>lo sabrás todo.</l>
-            <l>Se salieron á la calle,</l>
+            <l rend="indent">Se salieron á la calle,</l>
             <l>y cuando todos se vieron,</l>
             <l>porque nadie los notase</l>
             <l>en la casa se metieron:</l>
             <l>y dispusieron</l>
             <l>como hombres sabios</l>
-          </lg>
-          <lg>
             <l>que sin agravios</l>
             <l>por el desquite,</l>
             <l>se celebre el suceso</l>
@@ -1363,47 +1361,51 @@
             <l>con el dinero,</l>
             <l>hay más Corregidores</l>
             <l>que Molineros.</l>
-          </lg>
-          <trailer>FIN</trailer>
+
+            <trailer>FIN</trailer>
+          </div>
+
+          <div n="2">
+            <head type="titulo_cancion" rend="negrita"><lb/>TROVO DISCRETO Y DIVERTIDO</head>
+            
+            <lg rend="cursiva">
+              <l rend="indent">Es de vidrio la mujer</l>
+              <l>y no se ha de probar</l>
+              <l>si se puede ó no quebrar,</l>
+              <l>que fácil podría ser.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Delicada viene á ser</l>
+              <l>la niña joven y hermosa:</l>
+              <l>si cae, puede romper;</l>
+              <l>por eso dice la glosa,</l>
+              <l rend="cursiva">que es de vidrio la mujer.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Del fuego se ha de apartar</l>
+              <l>que siendo frágil, no vea</l>
+              <l>su hermosura allí quebrar,</l>
+              <l>y una vez quebrada es fea,</l>
+              <l rend="cursiva">y no se la de probar.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Es dificil de soldar,</l>
+              <l>si acaso llega á romperse</l>
+              <l>la mujer: pues no probar</l>
+              <l>(porque tal no sucediesey</l>
+              <l rend="cursiva">si se puede ó no quebrar.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Un cristal es la mujer,</l>
+              <l>que si llega á ser quebrado.</l>
+              <l>soldarlo no espereis ver,</l>
+              <l>y así pues id con cuidado,</l>
+              <l rend="cursiva">que fácil podría ser.</l>
+            </lg>
+            <trailer>FIN</trailer>
+          </div>
         </div>
-        <div type="parte" n="1">
-          <head type="titulo_cancion" rend="negrita"><lb/>TROVO DISCRETO Y DIVERTIDO</head>
-          <lg rend="cursiva">
-            <l>Es de vidrio la mujer</l>
-            <l>y no se ha de probar</l>
-            <l>si se puede ó no quebrar,</l>
-            <l>que fácil podría ser.</l>
-          </lg>
-          <lg>
-            <l>Delicada viene á ser</l>
-            <l>la niña joven y hermosa:</l>
-            <l>si cae, puede romper;</l>
-            <l>por eso dice la glosa,</l>
-            <l rend="cursiva">que es de vidrio la mujer.</l>
-          </lg>
-          <lg>
-            <l>Del fuego se ha de apartar</l>
-            <l>que siendo frágil, no vea</l>
-            <l>su hermosura allí quebrar,</l>
-            <l>y una vez quebrada es fea,</l>
-            <l rend="cursiva">y no se la de probar.</l>
-          </lg>
-          <lg>
-            <l>Es dificil de soldar,</l>
-            <l>si acaso llega á romperse</l>
-            <l>la mujer: pues no probar</l>
-            <l>(porque tal no sucediesey</l>
-            <l rend="cursiva">si se puede ó no quebrar.</l>
-          </lg>
-          <lg>
-            <l>Un cristal es la mujer,</l>
-            <l>que si llega á ser quebrado.</l>
-            <l>soldarlo no espereis ver,</l>
-            <l>y así pues id con cuidado,</l>
-            <l rend="cursiva">que fácil podría ser.</l>
-          </lg>
-          <trailer>FIN</trailer>
-        </div>
+
         <div type="colofon">
           <p><lb/>Imps. Hospital, 19 «El Abanico»</p>
         </div>

@@ -1,20 +1,17 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../Schema/oddPliego_varios.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:alto="http://www.loc.gov/standards/alto/ns-v4#" xml:id="Varios_024">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Varios_024">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>EL CANTOR DE LAS HERMOSAS. TROVAS DE AMOR DEDICADAS AL BELLO SENO POR UNOS AFICIONADOS</title>
+        <title>El cantor de las hermosas</title>
         <respStmt>
           <name/>
           <resp>Codificación TEI</resp>
-          <note type="propriedad">A. M.</note>
-          <note type="propriedad">J. A. C.</note>
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <authority role="rightsHolder">Bibliothèque Universitaire de
-                            Genève</authority>
+        <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
         <availability status="restricted">
           <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
         </availability>
@@ -22,16 +19,17 @@
       <sourceDesc>
         <biblFull>
           <titleStmt>
-            <title type="titulo_completo">EL CANTOR DE LAS HERMOSAS. TROVAS DE AMOR DEDICADAS AL BELLO SENO POR UNOS AFICIONADOS</title>
-            <title type="titulo_breve">EL CANTOR DE LAS HERMOSAS</title>
+            <title type="titulo_completo">El cantor de las hermosas. Trovas de amor dedicadas al
+              bello seno por unos aficionados</title>
+            <title type="titulo_breve">El cantor de las hermosas</title>
           </titleStmt>
           <editionStmt>
             <p/>
           </editionStmt>
           <publicationStmt>
-            <publisher>Imp. Peninsular</publisher>
+            <publisher>Imprenta Peninsular</publisher>
             <pubPlace ref="https://www.geonames.org/3128760/barcelona.html">Barcelona</pubPlace>
-            <date>[s.a]</date>
+            <date cert="low" when="1800-01-01">[s.a.]</date>
           </publicationStmt>
         </biblFull>
         <msDesc>
@@ -39,7 +37,8 @@
             <country>Suisse</country>
             <settlement>Genève</settlement>
             <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"/>
-                  </repository>
+            </repository>
+            <collection>Colección Varios</collection>
             <idno type="cote"/>
             <idno type="DOI">10.5281/zenodo.6546837</idno>
             <altIdentifier>
@@ -47,10 +46,20 @@
             </altIdentifier>
           </msIdentifier>
           <msContents>
-            <summary/>
+            <summary>Tres canciones</summary>
             <msItem>
-              <locus/>
-              <title/>
+              <locus>1-2</locus>
+              <title>El Punal.</title>
+              <author role="letrista">A. M.</author>
+            </msItem>
+            <msItem>
+              <locus>2</locus>
+              <title>La inconstancia</title>
+            </msItem>
+            <msItem>
+              <locus>3-4</locus>
+              <title>Infelidad. Á Delio.</title>
+              <author role="letrista">J. A. C.</author>
             </msItem>
           </msContents>
           <physDesc>
@@ -68,7 +77,7 @@
               </layoutDesc>
             </objectDesc>
             <decoDesc>
-              <summary n="1">Uno grabado (p.1) </summary>
+              <summary n="1">Un grabado (p.1)</summary>
               <decoNote type="lista_grabados">
                 <list>
                   <item corresp="grabado_v_024_1.xml">grabado_v_024_1</item>
@@ -82,7 +91,8 @@
               <p>Barcelona.—IMP. Peninsular, Calle del Conde del Asalto, núm 69.</p>
             </origin>
             <provenance>
-              <p>Se halla de venta en casa los sucesores de Antonio Bosch, calle del Ben de la Plaza Nueva,  núm. 13</p>
+              <p>Se halla de venta en casa los sucesores de Antonio Bosch, calle del Ben de la Plaza
+                Nueva, núm. 13</p>
             </provenance>
             <acquisition/>
           </history>
@@ -91,18 +101,17 @@
     </fileDesc>
     <encodingDesc>
       <projectDesc>
-        <p>Este archivo fue creado en el marco del proyecto Desenrollando el
-                            Cordel/Démêler le cordel/Untangling the cordel, dirigido por la
-                            profesora Constance Carta de la Universidad de Ginebra, con el apoyo de
-                            la Fundación filantrópica Famille Sandoz-Monique de Meuron.</p>
+        <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+          cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la Universidad
+          de Ginebra, con el apoyo de la Fundación filantrópica Famille Sandoz-Monique de
+          Meuron.</p>
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR non corregido</p>
+          <p>OCR no corregido</p>
         </correction>
         <normalization>
-          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto
-                                original.</p>
+          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
         </normalization>
         <punctuation>
           <p>Se conserva la puntuación original.</p>
@@ -124,10 +133,11 @@
     </profileDesc>
     <revisionDesc>
       <change when="2022-05-06" who="#PJ">Création du fichier TEI P5 et encodage du corps du
-                        texte</change>
+        texte</change>
+<change when="2024-01-09" who="#EL">Add the IIIF links</change>
     </revisionDesc>
   </teiHeader>
-  <sourceDoc xml:id="automaticTranscription">
+  <facsimile><graphic url="varios/Varios_024_1.jpg/full/200,/0/default.jpg"/></facsimile><sourceDoc xml:id="automaticTranscription">
     <surface xml:id="Varios_024_1" type="page" cert="silver">
       <graphic url="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_024_1/full/full/0/default.jpg"/>
       <zone xml:id="Varios_024_1_BT223_1" n="1" type="CustomZone" subtype="title" points="184,192 223,159 931,159 931,82 1165,82 1152,175 1746,159 1791,199 1835,293 1826,394 1720,394 1720,531 286,523 286,346 184,346 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_024_1/184,82,1651,449/full/0/default" corresp="CustomZone:title">
@@ -167,7 +177,7 @@
         </zone>
         <zone xml:id="Varios_024_1_BT227_4_LT83_2" type="DefaultLine" subtype="none" points="271,1952 269,1908 467,1912 486,1910 568,1897 570,1897 572,1897 607,1912 611,1912 616,1912 653,1901 655,1901 658,1901 660,1901 704,1912 706,1912 774,1897 776,1897 892,1916 892,1962 888,1976 267,1967 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_024_1/267,1897,625,79/full/0/default" corresp="DefaultLine">
           <path xml:id="Varios_024_1_BT227_4_LT83_2_1" points="274,1954 667,1962 694,1965 794,1960 778,1960 894,1965 " corresp="DefaultLine"/>
-          <line>Cuando escucho tu  voz seductora,</line>
+          <line>Cuando escucho tu voz seductora,</line>
         </zone>
         <zone xml:id="Varios_024_1_BT227_4_LT83_3" type="DefaultLine" subtype="none" points="239,1995 239,1952 491,1962 522,1960 587,1954 587,1954 590,1954 590,1954 592,1954 592,1954 592,1954 594,1954 607,1962 609,1965 622,1965 686,1956 686,1956 688,1956 688,1956 815,1971 815,2008 811,2026 234,2013 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_024_1/234,1952,581,74/full/0/default" corresp="DefaultLine">
           <path xml:id="Varios_024_1_BT227_4_LT83_3_1" points="240,1998 283,2002 304,2000 816,2011 " corresp="DefaultLine"/>
@@ -970,7 +980,8 @@
       <zone xml:id="Varios_024_4_BT226_4" n="4" type="MainZone" subtype="none" points="270,2130 270,2369 1557,2367 1557,2130 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_024_4/270,2130,1287,239/full/0/default" corresp="MainZone">
         <zone xml:id="_BT226_4_LT83_1" type="DefaultLine" subtype="none" points="282,2188 280,2127 383,2118 386,2118 388,2118 390,2118 390,2120 399,2127 412,2144 605,2144 618,2131 625,2127 625,2125 627,2125 629,2125 631,2125 668,2125 671,2125 673,2125 684,2133 710,2147 741,2133 761,2125 763,2125 765,2125 767,2125 769,2125 769,2127 778,2133 785,2140 796,2133 804,2127 807,2127 809,2127 811,2127 813,2127 833,2136 870,2151 940,2151 1004,2138 1008,2138 1011,2138 1013,2138 1015,2138 1057,2151 1070,2138 1079,2131 1081,2131 1083,2131 1085,2131 1131,2140 1210,2155 1261,2142 1291,2133 1294,2133 1296,2133 1495,2147 1495,2208 1491,2230 278,2206 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_024_4/278,2118,1217,112/full/0/default" corresp="DefaultLine">
           <path xml:id="Varios_024_4_BT226_4_LT83_1_1" points="285,2190 1498,2210 " corresp="DefaultLine"/>
-          <line>Se halla de venta en casa los sucesores de Antonio Bosch, calle del Ben de la Plaza Nueva,  núm. 13</line>
+          <line>Se halla de venta en casa los sucesores de Antonio Bosch, calle del Ben de la Plaza
+            Nueva, núm. 13</line>
         </zone>
         <zone xml:id="_BT226_4_LT83_2" type="DefaultLine" subtype="none" points="318,2282 318,2241 1456,2254 1458,2295 1454,2300 315,2289 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_024_4/,,,/full/0/default" corresp="DefaultLine">
           <path xml:id="Varios_024_4_BT226_4_LT83_2_1" points="319,2283 1460,2298 " corresp="DefaultLine"/>
@@ -988,259 +999,291 @@
   <text>
     <body>
       <div>
-        <pb n="1" source="Varios_024_1.jpg" facs="fedora_Varios_024_1/full/full/0/default.jpg"/>
-        <head type="primer_titulo"><lb/>EL<lb/>CANTOR DE LAS HERMOSAS.<lb/>TROVAS DE AMOR<lb/>DEDICADAS AL BELLO SENO POR UNOS AFICIONADOS</head>
-        <fw type="impresorNum">Núm. 12</fw>
-        <div n="1" type="parte">
-          <head type="titulo_cancion"><lb/>35 EL PUNAL.</head>
-          <lg>
-            <l>I.</l>
-            <l>Cuando escucho tu  voz seductora,</l>
-            <l>En mi pecho no reina la calma;</l>
-            <l>Se conmueve de un modo mi alma,</l>
-            <l>Que es muy fácil de gozo espirar</l>
-            <l>Si pretendes quitarme la vida</l>
-            <l>No prefieras el arma de acero</l>
-            <l>Pues tu canto divino, hechicero,</l>
-            <l>Se introduce mes bien que un puñal.</l>
-          </lg>
-          <lg>
-            <l>II.</l>
-            <l>Su espresión ha llenado mi ment</l>
-            <l>Como el Eler ocupa el espacio;</l>
-            <l>py escucarie, mi bien, no me sacio</l>
-            <l>A despecho de mi hado fatal.</l>
-            <l>Al oirte se abrasa mi alma...</l>
-            <l>Fu celeste cantar me asesina:</l>
-            <l>Pues tu voz virgina! y divina</l>
-            <l>Se introduce mas bien que un punal.</l>
-          </lg>
-          <pb n="2" source="Varios_024_2.jpg" facs="fedora_Varios_024_2/full/full/0/default.jpg"/>
-          <lg>
-            <l>III.</l>
-            <l>Embriagado de gozo, bien mio,</l>
-            <l>De tu voz escuché la dulzura</l>
-            <l>Y una llama de amor la mas pura</l>
-            <l>En mi alma encendió tu cantar.</l>
-            <l>Desde entonces, mujer, te idolatro</l>
-            <l>De mi sino fatal á despecho,</l>
-            <l>Pues tu acento divino en el pecho</l>
-            <l>Se introduce mas bien que un puñal.</l>
-          </lg>
-          <lg>
-            <l>IV.</l>
-            <l>Por do quiera me sigue tu imágen</l>
-            <l>Fascinando de amor mis sentidos;</l>
-            <l>De tu canto los dulces sonidos</l>
-            <l>Por do quiera yo escucho vibrar.</l>
-            <l>Si deseas que baje á la tumba</l>
-            <l>¡Ah! no cese de oir ese acento ..</l>
-            <l>Me verás perecer al momento</l>
-            <l>Cual si hiriera mi pecho un puñal.</l>
-          </lg>
-          <p><lb/>—A. M.—</p>
+        <div>
+          <pb n="1" source="Varios_024_1.jpg" facs="varios/Varios_024_1.jpg/"/>
+
+          <fw type="impresorNum">Núm. 12</fw>
+
+          <head type="primer_titulo"><lb/>EL<lb/>CANTOR DE LAS HERMOSAS.</head>
+
+          <head type="subtitulo"><lb/>TROVAS DE AMOR<lb/>DEDICADAS AL BELLO SENO POR UNOS
+            AFICIONADOS</head>
+
+          <div n="1">
+            <head type="titulo_cancion"><lb/>35 EL PUNAL.</head>
+
+            <lg n="1">
+              <head type="titulo_estrofa">I.</head>
+              <l rend="indent">Cuando escucho tu voz seductora,</l>
+              <l>En mi pecho no reina la calma;</l>
+              <l>Se conmueve de un modo mi alma,</l>
+              <l>Que es muy fácil de gozo espirar</l>
+              <l>Si pretendes quitarme la vida</l>
+              <l>No prefieras el arma de acero</l>
+              <l>Pues tu canto divino, hechicero,</l>
+              <l>Se introduce mes bien que un <hi rend="cursiva">puñal</hi>.</l>
+            </lg>
+
+            <lg n="2">
+              <head type="titulo_estrofa">II.</head>
+              <l rend="indent">Su espresión ha llenado mi ment</l>
+              <l>Como el Eler ocupa el espacio;</l>
+              <l>py escucarie, mi bien, no me sacio</l>
+              <l>A despecho de mi hado fatal.</l>
+              <l>Al oirte se abrasa mi alma...</l>
+              <l>Fu celeste cantar me asesina:</l>
+              <l>Pues tu voz virgina! y divina</l>
+              <l>Se introduce mas bien que un <hi rend="cursiva">puñal</hi>.</l>
+            </lg>
+
+            <pb n="2" source="Varios_024_2.jpg" facs="varios/Varios_024_2.jpg/"/>
+
+            <lg n="3">
+              <head type="titulo_estrofa">III.</head>
+              <l rend="indent">Embriagado de gozo, bien mio,</l>
+              <l>De tu voz escuché la dulzura</l>
+              <l>Y una llama de amor la mas pura</l>
+              <l>En mi alma encendió tu cantar.</l>
+              <l>Desde entonces, mujer, te idolatro</l>
+              <l>De mi sino fatal á despecho,</l>
+              <l>Pues tu acento divino en el pecho</l>
+              <l>Se introduce mas bien que un <hi rend="cursiva">puñal</hi>.</l>
+            </lg>
+
+            <lg n="4">
+              <head type="titulo_estrofa">IV.</head>
+              <l rend="indent">Por do quiera me sigue tu imágen</l>
+              <l>Fascinando de amor mis sentidos;</l>
+              <l>De tu canto los dulces sonidos</l>
+              <l>Por do quiera yo escucho vibrar.</l>
+              <l>Si deseas que baje á la tumba</l>
+              <l>¡Ah! no cese de oir ese acento ..</l>
+              <l>Me verás perecer al momento</l>
+              <l>Cual si hiriera mi pecho un <hi rend="cursiva">puñal</hi>.</l>
+            </lg>
+            <p><lb/>—A. M.—</p>
+          </div>
+
+          <div n="2">
+            <head type="titulo_cancion"><lb/>36 La INCONSTANCIA</head>
+
+            <lg n="1">
+              <head type="titulo_estrofa">I.</head>
+              <l rend="indent">Te vi un tiempo hermosa y pura,</l>
+              <l>Cual la rosa mas galana</l>
+              <l>Que al labor de la mañana</l>
+              <l>Se meció en rico verjel:</l>
+              <l>Y al amarte con delirio,</l>
+              <l>Oividaba que la rosa</l>
+              <l>Una espina venenosa</l>
+              <l>En su tallo oculta cruel.</l>
+            </lg>
+
+            <lg n="2">
+              <head type="titulo_estrofa">II</head>
+              <l rend="indent">Del ovario de esa rosa,</l>
+              <l>Tras los juegos de la infancia,</l>
+              <l>Aspiraba la fragancia</l>
+              <l>Embebido en mi ilusión.</l>
+              <l>Y al besar mi lábio osado</l>
+              <l>Su corona purpurina,</l>
+              <l>La ponzoña de su espina</l>
+              <l>Desgarró mi corazon,</l>
+            </lg>
+
+            <lg n="3">
+              <head type="titulo_estrofa">III.</head>
+              <l rend="indent">Al cariño agradecide,</l>
+              <l>Que tu lábio me jurara,</l>
+              <l>Te erigí en mi pecho un ara...</l>
+              <l>Culto en ella te rendí.</l>
+              <l>Mas en breve mi desprecio</l>
+              <l>Sucedió á la idolatría,</l>
+              <l>Porque oculta falsía</l>
+              <l>En tu halago conocí.</l>
+
+            </lg>
+
+            <lg n="4">
+              <head type="titulo_estrofa">IV.</head>
+              <l rend="indent">Con tu amor sufrió mi pecho</l>
+              <l>Tan cruentos desengaños,</l>
+              <l>Que en mis juveniles años,</l>
+              <l>La amargura holló el placer.</l>
+              <l>Así pues por tu inconstancia</l>
+              <l>Deja que mi labio diga,</l>
+              <l>Que tu pecho solo abriga</l>
+              <l>Imposturas, ¡oh! ¡mujer!</l>
+            </lg>
+          </div>
+
+          <div n="3">
+            <pb n="3" source="Varios_024_3.jpg" facs="varios/Varios_024_3.jpg/"/>
+
+            <fw type="paginaNum">47</fw>
+
+            <head type="titulo_cancion"><lb/>37 INFIDELIDAD.<lb/>Ä DELIO.</head>
+
+            <lg n="1">
+              <head type="titulo_estrofa">I.</head>
+              <l rend="indent">Era un dia felico que tus ojos</l>
+              <l>Fijaste en una virgen, y azás tierno</l>
+              <l>Tu lábio la jurara amor eterno</l>
+              <l>Ante su faz postrándote de hinojos.</l>
+              <l rend="indent">¡Era un dia feliz!! ¡Cuál deliraba</l>
+              <l>Tu mente al contemplarla en el momento</l>
+              <l>Que seductor tu apasionado acento,</l>
+              <l>Un suspiro de amor la demandabal!</l>
+              <l rend="indent">Y piedad implorabas por tu suerte</l>
+              <l>Llamándola <hi rend="cursiva">¡tu bien!.. ¡tu luz querida!</hi></l>
+              <l>Jurando por su amor te diera vida</l>
+              <l>Cual su desden te diera horrible muerte.</l>
+              <l rend="indent">Y la llamaste <hi rend="cursiva">¡cruel!</hi>... ¡cusado inocante</l>
+              <l>Su corazon en lágrimas les! ho,</l>
+              <l>Se condolia de tu amante pecho</l>
+              <l>Que abrasaba de amor flego inclemente!</l>
+              <l rend="indent">De la infeliz enardeciste el alma</l>
+              <l>Que abrigaba tambien en secreto fuego,</l>
+              <l>Quiso á la tuya devolver la calma.</l>
+              <l>Y conmovida por tu amante ruego</l>
+              <l rend="indent">Su silencio temió te diera agravios...</l>
+              <l>Y una ilusion fijóse en la su mente,</l>
+              <l>Que arrancara de su pecho inocente</l>
+              <l>Un <hi rend="cursiva">¡si de amor</hi>, que fencció en sus lábios</l>
+            </lg>
+
+            <lg n="2">
+              <head type="titulo_estrofa"/>
+              <lg>
+                <l rend="indent">De entonces mil veces</l>
+                <l rend="indent">El tuyo jurara</l>
+                <l>A tanta hermosura, constante pasion,</l>
+                <l rend="indent">Rindiéndola preces</l>
+                <l rend="indent">De amor en el ara,</l>
+                <l>Que un dia erigiste en tu corazon.</l>
+              </lg>
+              <lg>
+                <l rend="indent">De noche la brisa</l>
+                <l rend="indent">Con plácidos giros,</l>
+                <l>Meciendo las flores del prado gentil,</l>
+                <l rend="indent">Ligera y sumisa,</l>
+                <l rend="indent">Tus tiernos suspiros</l>
+                <l>Condujo á su lecho, mil veces y mil.</l>
+              </lg>
+              <lg>
+                <l rend="indent">Y entonces oyera</l>
+                <l rend="indent">La jóven querida</l>
+                <l>Tu lábio decirla con tierno cantar:</l>
+                <l rend="indent">«¡Cuán grato me fuera,</l>
+                <l rend="indent">«¡Oh, luz de mi vida,</l>
+                <l>«¡ Vivir á tu lado... tu aliento aspirar!</l>
+              </lg>
+              <lg>
+                <l rend="indent">»Cuán dulce en el valle</l>
+                <l rend="indent">»De un sauce á la sombra,</l>
+                <l>»Oir los gorjeos de algua ruiseñor,</l>
+                <l rend="indent">»Ciñendo tu talle...</l>
+                <l rend="indent">»Y en la verde alfombra</l>
+                <l>»Sentados cantarie mil trovas de amor.</l>
+              </lg>
+              <lg>
+                <l rend="indent">»Y oir el murmundo,</l>
+                <l rend="indent">»De un cerro en la loma,</l>
+                <l>»De fuente que baña pensil saductor.</l>
+                <l rend="indent">»Y el plácido ar.</l>
+                <l rend="indent">»De blanca paloma,</l>
+                <l>¿ Y el eco de fauta del ruido pastor.</l>
+              </lg>
+              <lg>
+                <l rend="indent">»Mas temo, mi bella,</l>
+                <l rend="indent">»Mi bien !.. mi tesoro!</l>
+                <l>»Que un dia intelice tu amor perderé</l>
+                <l rend="indent">—Y díjote ella:</l>
+                <l rend="indent">»¡No temas... te adoro!</l>
+                <l>»Tu vida es mi vida!.. tu amor es mi fé.»</l>
+              </lg>
+            </lg>
+
+            <pb n="4" source="Varios_024_4.jpg" facs="varios/Varios_024_4.jpg/"/>
+
+            <lg n="3">
+              <head type="titulo_estrofa">III.</head>
+              <lg>
+                <l>¡Mas ay! los dios pasaron</l>
+                <l>Y las protestas menguaron</l>
+                <l>¡Y á la faz de la doncella,</l>
+                <l rend="indent">De tu amor;</l>
+                <l>Agostó pronto la huella</l>
+                <l rend="indent">Del dolor!</l>
+              </lg>
+              <lg>
+                <l>Si la amabas cual decias,</l>
+                <l>¡Por qué de su lado huias</l>
+                <l rend="indent">Sin pensar</l>
+                <l>En su inconsolable llanto,</l>
+                <l>Su zozobra.... su quebranto...</l>
+                <l rend="indent">Su pesar!</l>
+              </lg>
+              <lg>
+                <l>¡No comprendes que es horrible.</l>
+                <l>El desgarrar su sensible</l>
+                <l rend="indent">Corazon,</l>
+                <l>Cuando en tí cifró su anhelo,</l>
+                <l>Su porvenir, su consuelo,</l>
+                <l rend="indent">Su ilusion!...</l>
+              </lg>
+              <lg>
+                <l>¡Oh! ¡cuán inconstante fuiste</l>
+                <l>Cuando de su lado huiste,</l>
+                <l rend="indent">Sin pensar</l>
+                <l>Que la faz de esa doncella,</l>
+                <l>Marchitaria la huella,</l>
+                <l rend="indent">Del pesar!</l>
+              </lg>
+              <lg>
+                <l>¡Ah! ¡su gemir compadece!</l>
+                <l>¡Vé que su dolor acrece</l>
+                <l rend="indent">Por tí, infiel !</l>
+                <l>¡Y su corazon desgarra</l>
+                <l>Ya del maricio la garra,</l>
+                <l rend="indent">Harto cruel?</l>
+              </lg>
+              <lg>
+                <l>¡Vé que hácia el sepulcro avanza</l>
+                <l>Sin un rayo de esperanza...</l>
+                <l rend="indent">Sin amor!</l>
+                <l>Pues los dias que pasaron,</l>
+                <l>Un recuerdo la legaron</l>
+                <l rend="indent">De dolor.</l>
+              </lg>
+              <lg>
+                <l>Si la amabas .. en tu seno</l>
+                <l>Vuela á estrecharla sereno</l>
+                <l rend="indent">Con afan;</l>
+                <l>¡Por piedad! ¡no sea tarde!</l>
+                <l>Porque ya en el suyo arde</l>
+                <l rend="indent">Cruel volcan;</l>
+              </lg>
+              <lg>
+                <l>¡Y en vez de besar amante</l>
+                <l>De ternura radiante</l>
+                <l rend="indent">La su faz:</l>
+                <l>De un cadáver yerto y frio,</l>
+                <l>Solo el sepulcro sombrío</l>
+                <l rend="indent">Besarás!!</l>
+              </lg>
+            </lg>
+            <p><lb/>—J. A. C.—</p>
+            <p rend="cursiva"><lb/>(Es propiedad.)</p>
+          </div>
         </div>
-        <div n="2" type="parte">
-          <head type="titulo_cancion"><lb/>36 La INCONSTANCIA</head>
-          <lg>
-            <l>I.</l>
-            <l>Te vi un tiempo hermosa y pura,</l>
-            <l>Cual la rosa mas galana</l>
-            <l>Que al labor de la mañana</l>
-            <l>Se meció en rico verjel:</l>
-            <l>Y al amarte con delirio,</l>
-            <l>Oividaba que la rosa</l>
-            <l>Una espina venenosa</l>
-            <l>En su tallo oculta cruel.</l>
-          </lg>
-          <lg>
-            <l>II</l>
-            <l>Del ovario de esa rosa,</l>
-            <l>Tras los juegos de la infancia,</l>
-            <l>Aspiraba la fragancia</l>
-            <l>Embebido en mi ilusión.</l>
-            <l>Y al besar mi lábio osado</l>
-            <l>Su corona purpurina,</l>
-            <l>La ponzoña de su espina</l>
-            <l>Desgarró mi corazon,</l>
-          </lg>
-          <lg>
-            <l>III.</l>
-            <l>Al cariño agradecide,</l>
-            <l>Que tu lábio me jurara,</l>
-            <l>Te erigí en mi pecho un ara...</l>
-            <l>Culto en ella te rendí.</l>
-            <l>Mas en breve mi desprecio</l>
-            <l>Sucedió á la idolatría,</l>
-            <l>Porque oculta falsía</l>
-            <l>En tu halago conocí.</l>
-          </lg>
-          <lg>
-            <l>IV.</l>
-            <l>Con tu amor sufrió mi pecho</l>
-            <l>Tan cruentos desengaños,</l>
-            <l>Que en mis juveniles años,</l>
-            <l>La amargura holló el placer.</l>
-            <l>Así pues por tu inconstancia</l>
-            <l>Deja que mi labio diga,</l>
-            <l>Que tu pecho solo abriga</l>
-            <l>Imposturas, ¡oh! ¡mujer!</l>
-          </lg>
+
+        <div type="colofon_vendedor">
+          <l>Se halla de venta en casa los sucesores de Antonio Bosch, calle del Ben de la Plaza
+            Nueva, núm. 13</l>
         </div>
-        <div n="3" type="parte">
-          <pb n="3" source="Varios_024_3.jpg" facs="fedora_Varios_024_3/full/full/0/default.jpg"/>
-          <fw type="paginaNum"/>
-          <head type="titulo_cancion"><lb/>37 INFIDELIDAD.<lb/>Ä DELIO.</head>
-          <p><lb/>I.</p>
-          <lg>
-            <l>Era un dia felico que tus ojos</l>
-            <l>Fijaste en una virgen, y azás tierno</l>
-            <l>Tu lábio la jurara amor eterno</l>
-            <l>Ante su faz postrándote de hinojos.</l>
-            <l>¡Era un dia feliz!! ¡Cuál deliraba</l>
-            <l>Tu mente al contemplarla en el momento</l>
-            <l>Que seductor tu apasionado acento,</l>
-            <l>Un suspiro de amor la demandabal!</l>
-            <l>Y piedad implorabas por tu suerte</l>
-            <l>Llamándola ¡tu bien!.. ¡tu luz querida!</l>
-            <l>Jurando por su amor te diera vida</l>
-            <l>Cual su desden te diera horrible muerte.</l>
-          </lg>
-          <lg>
-            <l>Y la Ilamaste ¡cruel! .. ¡cusado inocante</l>
-            <l>Su corazon en lágrimas les! ho,</l>
-            <l>Se condolia de tu amante pecho</l>
-            <l>Que abrasaba de amor flego inclemente!</l>
-            <l>De la infeliz enardeciste el alma</l>
-            <l>Que abrigaba tambien en secreto fuego,</l>
-            <l>Quiso á la tuya devolver la calma.</l>
-            <l>Y conmovida por tu amante ruego</l>
-            <l>Su silencio temió te diera agravios...</l>
-            <l>Y una ilusion fijóse en la su mente,</l>
-            <l>Que arrancara de su pecho inocente</l>
-            <l>U n ¡si de amor, que fen. ció en sus lábios</l>
-          </lg>
-          <p><lb/>II.</p>
-          <lg>
-            <l>De entonces mil veces</l>
-            <l>El tuyo jurara</l>
-            <l>A tanta hermosura, constante pasion,</l>
-            <l>Rindiéndola preces</l>
-            <l>De amor en el ara,</l>
-            <l>Que un dia erigiste en tu corazon.</l>
-          </lg>
-          <lg>
-            <l>De noche la brisa</l>
-            <l>Con plácidos giros,</l>
-            <l>Meciendo las flores del prado gentil,</l>
-            <l>Ligera y sumisa,</l>
-            <l>Tus tiernos suspiros</l>
-            <l>Condujo á su lecho, mil veces y mil.</l>
-          </lg>
-          <lg>
-            <l>Y entonces oyera</l>
-            <l>La jóven querida</l>
-            <l>Tu lábio decirla con tierno cantar:</l>
-            <l>«¡Cuán grato me fuera,</l>
-            <l>«¡Oh, luz de mi vida,</l>
-            <l>«¡ Vivir á tu lado... tu aliento aspirar!</l>
-          </lg>
-          <lg>
-            <l>»Cuán dulce en el valle</l>
-            <l>»De un sauce á la sombra,</l>
-            <l>» Oir los gorjeos de algua ruiseñor,</l>
-            <l>xCiñendo tu talle...</l>
-            <l>»Y en la verde alfombra</l>
-            <l>»Sentados cantarie mil trovas de amor.</l>
-          </lg>
-          <lg>
-            <l>»Y oir el murmundo,</l>
-            <l>»De un cerro en la loma,</l>
-            <l> »De fuente que baña pensil saductor.</l>
-            <l>»Y el plácido ar.</l>
-            <l>»De blanca paloma,</l>
-            <l>¿ Y el eco de fauta del ruido pastor.</l>
-          </lg>
-          <lg>
-            <l>»Mas temo, mi bella,</l>
-            <l>»Mi bien !.. mi tesoro!</l>
-            <l>»Que un dia intelice tu amor perderé</l>
-            <l>—Y díjote ella:</l>
-            <l>»¡No temas... te adoro!</l>
-            <l>»Tu vida es mi vida!.. tu amor es mi fé.»</l>
-          </lg>
-          <pb n="4" source="Varios_024_4.jpg" facs="fedora_Varios_024_4/full/full/0/default.jpg"/>
-          <lg>
-            <l>¡Mas ay! los dios pasaron</l>
-            <l>Y las protestas menguaron</l>
-            <l>¡Y á la faz de la doncella,</l>
-            <l>De tu amor;</l>
-            <l>Agostó pronto la huella</l>
-            <l>Del dolor!</l>
-          </lg>
-          <lg>
-            <l>Si la amabas cual decias,</l>
-            <l>¡Por qué de su lado huias</l>
-            <l>Sin pensar</l>
-            <l>En su inconsolable llanto,</l>
-            <l>Su zozobra.... su quebranto...</l>
-            <l>Su pesar!</l>
-          </lg>
-          <lg>
-            <l>¡No comprendes que es horrible.</l>
-            <l>El desgarrar su sensible</l>
-            <l>Corazon,</l>
-            <l>Cuando en tí cifró su anhelo,</l>
-            <l>Su porvenir, su consuelo,</l>
-            <l>Su ilusion!...</l>
-          </lg>
-          <lg>
-            <l>¡Oh! ¡cuán inconstante fuiste</l>
-            <l>Cuando de su lado huiste,</l>
-            <l>Sin pensar</l>
-            <l>Que la faz de esa doncella,</l>
-            <l>Marchitaria la huella,</l>
-            <l>Del pesar!</l>
-          </lg>
-          <lg>
-            <l>¡Ah! ¡su gemir compadece!</l>
-            <l>¡Vé que su dolor acrece</l>
-            <l>Por tí, infiel !</l>
-            <l>¡Y su corazon desgarra</l>
-            <l>Ya del maricio la garra,</l>
-            <l>Harto cruel?</l>
-          </lg>
-          <lg>
-            <l>¡Vé que hácia el sepulcro avanza</l>
-            <l>Sin un rayo de esperanza...</l>
-            <l>Sin amor!</l>
-            <l>Pues los dias que pasaron,</l>
-            <l>Un recuerdo la legaron</l>
-            <l>De dolor.</l>
-          </lg>
-          <lg>
-            <l>Si la amabas .. en tu seno</l>
-            <l>Vuela á estrecharla sereno</l>
-            <l>Con afan;</l>
-            <l>¡Por piedad! ¡no sea tarde!</l>
-            <l>Porque ya en el suyo arde</l>
-            <l>Cruel volcan;</l>
-          </lg>
-          <lg>
-            <l>¡Y en vez de besar amante</l>
-            <l>De ternura radiante</l>
-            <l>La su faz:</l>
-            <l>De un cadáver yerto y frio,</l>
-            <l>Solo el sepulcro sombrío</l>
-            <l>Besarás!!</l>
-          </lg>
-          <p><lb/>—J. A. C.—</p>
-          <p><lb/>(Es propiedad.)</p>
-        </div>
-        <div type="colofón_vendedor">
-          <l>Se halla de venta en casa los sucesores de Antonio Bosch, calle del Ben de la Plaza Nueva,  núm. 13</l>
-        </div>
-        <div type="colofón_impresora">
+
+        <div type="colofon_impresora">
           <l>Barcelona.—IMP. Peninsular, Calle del Conde del Asalto, núm 69.</l>
         </div>
       </div>

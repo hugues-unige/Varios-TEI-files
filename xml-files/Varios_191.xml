@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../Schema/oddPliego_varios.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:alto="http://www.loc.gov/standards/alto/ns-v4#" xml:id="Varios_191">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Varios_191">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -11,8 +11,7 @@
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <authority role="rightsHolder">Bibliothèque Universitaire de
-                              Genève</authority>
+        <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
         <availability status="restricted">
           <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
         </availability>
@@ -20,17 +19,17 @@
       <sourceDesc>
         <biblFull>
           <titleStmt>
-            <title type="titulo_completo">La divina huri. Americana dedicada
-                                          á las lindas mejicanas.</title>
+            <title type="titulo_completo">La divina huri. Americana dedicada á las lindas
+              mejicanas.</title>
             <title type="titulo_breve">La divina huri.</title>
           </titleStmt>
           <editionStmt>
             <p/>
           </editionStmt>
           <publicationStmt>
-            <publisher>Imprenta de Cristóbal Miró</publisher>
+            <publisher>Cristóbal Miró</publisher>
             <pubPlace ref="https://www.geonames.org/3128760/barcelona.html">Barcelona</pubPlace>
-            <date cert="1863"/>
+            <date when="1863-01-01" cert="high">1863</date>
           </publicationStmt>
         </biblFull>
         <msDesc>
@@ -38,7 +37,8 @@
             <country>Suisse</country>
             <settlement>Genève</settlement>
             <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"/>
-                                    </repository>
+            </repository>
+            <collection>Colección Varios</collection>
             <idno type="cote"/>
             <idno type="DOI">10.5281/zenodo.6597439</idno>
             <altIdentifier>
@@ -46,10 +46,14 @@
             </altIdentifier>
           </msIdentifier>
           <msContents>
-            <summary/>
+            <summary>Dos canciones</summary>
             <msItem>
-              <locus/>
-              <title/>
+              <locus>1-2</locus>
+              <title>La divina Huri. Americana dedicada á las lindas Mejicanas.</title>
+            </msItem>
+            <msItem>
+              <locus>3-4</locus>
+              <title>La linda ramilletera.</title>
             </msItem>
           </msContents>
           <physDesc>
@@ -67,7 +71,7 @@
               </layoutDesc>
             </objectDesc>
             <decoDesc>
-              <summary n="1">Uno grabado (p.1) </summary>
+              <summary n="1">Un grabado (p.1) </summary>
               <decoNote type="lista_grabados">
                 <list>
                   <item corresp="grabado_v_191_1.xml">grabado_v_191_1</item>
@@ -78,14 +82,13 @@
           </physDesc>
           <history>
             <origin>
-              <p>*À COMPLETER*:nom de l’imprimeur </p>
+              <p/>
             </origin>
             <provenance>
-              <p>*À COMPLETER*: nom du vendeur ( si plusieurs vendeurs
-                                                le premier supposé)</p>
+              <p/>
             </provenance>
             <acquisition>
-              <p>*À COMPLETER* autres propriétaires</p>
+              <p/>
               <stamp/>
             </acquisition>
           </history>
@@ -94,18 +97,17 @@
     </fileDesc>
     <encodingDesc>
       <projectDesc>
-        <p>Este archivo fue creado en el marco del proyecto Desenrollando el
-                              Cordel/Démêler le cordel/Untangling the cordel, dirigido por la
-                              profesora Constance Carta de la Universidad de Ginebra, con el apoyo
-                              de la Fundación filantrópica Famille Sandoz-Monique de Meuron.</p>
+        <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+          cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la Universidad
+          de Ginebra, con el apoyo de la Fundación filantrópica Famille Sandoz-Monique de
+          Meuron.</p>
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR non corregido</p>
+          <p>OCR no corregido</p>
         </correction>
         <normalization>
-          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto
-                                    original.</p>
+          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
         </normalization>
         <punctuation>
           <p>Se conserva la puntuación original.</p>
@@ -126,10 +128,14 @@
       </textClass>
     </profileDesc>
     <revisionDesc>
-      <change when="2023-08-05" who="#PJ">Création du fichier TEI P5 et encodage du
-                        corps du texte</change>
+      <change when="2023-08-05" who="#PJ">Création du fichier TEI P5 et encodage du corps du
+        texte</change>
+      <change when="2024-01-09" who="#EL">Add the IIIF links</change>
     </revisionDesc>
   </teiHeader>
+  <facsimile>
+    <graphic url="varios/Varios_191_1.jpg/full/200,/0/default.jpg"/>
+  </facsimile>
   <sourceDoc xml:id="automaticTranscription">
     <surface xml:id="Varios_191_1" type="page" cert="silver">
       <graphic url="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_191_1/full/full/0/default.jpg"/>
@@ -1091,8 +1097,7 @@
       <zone xml:id="Varios_191_4_BT221_4" n="4" type="MarginTextZone" subtype="colophon" points="314,2533 314,2599 1611,2599 1611,2533 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_191_4/314.0,2533.0,1297.0,66.0/full/0/default" corresp="MarginTextZone:colophon">
         <zone xml:id="Varios_191_4_BT221_4_LT182_1" type="DefaultLine" subtype="none" points="1530,2534 1509,2534 1487,2534 1465,2534 1443,2534 1421,2534 1399,2534 1377,2534 1355,2534 1333,2534 1311,2534 1289,2534 1267,2534 1245,2534 1223,2534 1201,2534 1180,2534 1158,2534 1136,2534 1114,2534 1092,2534 1070,2534 1048,2534 1026,2534 1004,2534 982,2534 960,2534 938,2534 916,2534 894,2534 872,2534 851,2534 829,2534 807,2534 785,2534 763,2534 741,2534 719,2534 697,2534 675,2534 653,2534 631,2534 609,2534 587,2534 565,2534 543,2534 522,2534 500,2534 478,2534 456,2534 434,2534 412,2534 390,2534 368,2534 346,2534 348,2580 348,2600 467,2598 471,2600 500,2615 502,2615 504,2615 506,2615 537,2598 550,2591 559,2598 579,2613 581,2613 583,2613 585,2615 666,2615 666,2613 668,2613 699,2596 710,2589 721,2596 741,2609 743,2609 745,2609 747,2609 750,2609 785,2596 802,2589 811,2596 831,2611 833,2611 835,2611 837,2611 1028,2609 1030,2609 1033,2609 1052,2591 1057,2589 1065,2591 1087,2600 1090,2600 1092,2600 1144,2591 1182,2585 1191,2591 1210,2604 1212,2604 1215,2604 1217,2604 1219,2604 1221,2604 1241,2589 1252,2582 1287,2582 1344,2582 1351,2589 1373,2604 1375,2604 1377,2604 1379,2604 1381,2604 1421,2587 1438,2580 1550,2585 1555,2565 1548,2534 1530,2534 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_191_4/346.0,2534.0,1209.0,81.0/full/0/default" corresp="DefaultLine">
           <path xml:id="Varios_191_4_BT221_4_LT182_1_1" points="350,2582 1557,2567 "/>
-          <line>Barcelona : Imprenta de Cristóbal Miró, c. de Arrepentidas n.°
-                                    5. —1863.</line>
+          <line>Barcelona : Imprenta de Cristóbal Miró, c. de Arrepentidas n.° 5. —1863.</line>
         </zone>
       </zone>
       <zone xml:id="Varios_191_4_BT227_5" n="5" type="MainZone" subtype="columns" points="796,1989 892,2232 831,2269 783,2375 427,2375 427,2407 236,2407 219,2381 228,1980 304,1968 472,1968 472,1981 776,1981 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_191_4/219.0,1968.0,673.0,439.0/full/0/default" corresp="MainZone:columns"/>
@@ -1118,297 +1123,310 @@
     <body>
       <div>
         <div>
-          <pb n="1" source="Varios_191_1.jpg" facs="fedora_Varios_191_1/full/full/0/default.jpg"/>
+          <pb n="1" source="Varios_191_1.jpg" facs="varios/Varios_191_1.jpg/"/>
           <head type="primer_titulo"><lb/>LA DIVINA HURI.</head>
-          <head type="subtitulo_parte" rend="negrita"><lb/>AMERICANA DEDICADA Á LAS LINDAS MEJICANAS.</head>
+          <head type="subtitulo" rend="negrita"><lb/>AMERICANA DEDICADA Á LAS LINDAS
+            MEJICANAS.</head>
+
           <head type="titulo_estrofa" rend="negrita"><lb/>CORO.</head>
           <lg rend="cursiva">
-            <l>Mí Mejicana</l>
+            <l rend="indent">Mí Mejicana</l>
             <l>! Divina hurí !</l>
             <l>Ven piadosa</l>
             <l>Ven hacia mí.</l>
           </lg>
           <lg rend="cursiva">
-            <l>Eres la imagen</l>
+            <l rend="indent">Eres la imagen</l>
             <l>De mí pasion .</l>
             <l>¡ Ay ! consuela hermosa</l>
             <l>Mí corazon.</l>
           </lg>
           <lg>
-            <l>Cuando te vieron mis ojos</l>
+            <l rend="indent">Cuando te vieron mis ojos</l>
             <l>lindo pensil,</l>
             <l>te encontraron mas hermosa</l>
             <l>que flor de Abril.</l>
-            <l>Entonces pichona mia</l>
+            <l rend="indent">Entonces pichona mia</l>
             <l>fuera de mí,</l>
             <l>no descanso noche y dia</l>
             <l>pensando en tí.</l>
           </lg>
-          <p><lb/>Coro.</p>
+          <p rend="cursiva"><lb/>Coro.</p>
           <lg>
-            <l>Eres linda mejicana</l>
+            <l rend="indent">Eres linda mejicana</l>
             <l>divina flor.</l>
             <l>por quien suspira mi pecho</l>
             <l>lleno de amor.</l>
-            <l>Eres la luz de mis ojos</l>
+            <l rend="indent">Eres la luz de mis ojos</l>
             <l>mi lindo sol.</l>
             <l>tus ojos llevan al alma</l>
             <l>dulce arrebol.</l>
           </lg>
-          <p><lb/>Coro.</p>
-          <pb n="2" source="Varios_191_2.jpg" facs="fedora_Varios_191_2/full/full/0/default.jpg"/>
+          <p rend="cursiva"><lb/>Coro.</p>
+
+          <pb n="2" source="Varios_191_2.jpg" facs="varios/Varios_191_2.jpg/"/>
+
           <fw type="paginaNum">– 2 –</fw>
+
           <lg>
-            <l>Son tus divinos labios</l>
+            <l rend="indent">Son tus divinos labios</l>
             <l>puro carmin,</l>
             <l>mas dulces que el almirar</l>
             <l>mi serafin.</l>
-            <l>En tu carita de rosa</l>
+            <l rend="indent">En tu carita de rosa</l>
             <l>puso el Amor</l>
             <l>todas las maravillas</l>
             <l>del Criador.</l>
           </lg>
-          <p><lb/>Coro.</p>
+          <p rend="cursiva"><lb/>Coro.</p>
           <lg>
-            <l>Son tus dulces miradas</l>
+            <l rend="indent">Son tus dulces miradas</l>
             <l>et fiero arpon,</l>
             <l>que amorosas traspasan</l>
             <l>mi corazon.</l>
-            <l>Si de tus labios sale</l>
+            <l rend="indent">Si de tus labios sale</l>
             <l>dulce ambr osia,</l>
             <l>deja que yo la beba</l>
             <l>pichona mia.</l>
           </lg>
-          <p><lb/>Coro.</p>
+          <p rend="cursiva"><lb/>Coro.</p>
           <lg>
-            <l>Llevame mi Chumbita</l>
+            <l rend="indent">Llevame mi Chumbita</l>
             <l>llevame á Puebla,</l>
             <l>verás si yo te defiendo</l>
             <l>á toda prueba,</l>
-            <l>Si á Méjico te marchas</l>
+            <l rend="indent">Si á Méjico te marchas</l>
             <l>me voy contigo,</l>
             <l>que quiero defenderte</l>
             <l>del enemigo.</l>
           </lg>
-          <p><lb/>Coro.</p>
+          <p rend="cursiva"><lb/>Coro.</p>
           <lg>
-            <l>Si un gachiquin te quiere</l>
+            <l rend="indent">Si un gachiquin te quiere</l>
             <l>dile que nones.</l>
             <l>que para un mejicano</l>
             <l>son tus amores.</l>
-            <l>Si un franchute te adora</l>
+            <l rend="indent">Si un franchute te adora</l>
             <l>dile no muelas,</l>
             <l>vete a molar cuchillos</l>
             <l>y las tigeras.</l>
           </lg>
-          <p><lb/>Coro.</p>
+          <p rend="cursiva"><lb/>Coro.</p>
           <lg>
-            <l>Que eres paloma blanca</l>
+            <l rend="indent">Que eres paloma blanca</l>
             <l>como el armiño</l>
             <l>y gozozo descanso</l>
             <l>en tu cariño.</l>
-            <l>Que eres luz de mi vida</l>
+            <l rend="indent">Que eres luz de mi vida</l>
             <l>¡divina hurí !..</l>
             <l>la que crió el Eterno</l>
             <l>solo por mí,</l>
           </lg>
-          <p><lb/>Coro.</p>
+          <p rend="cursiva"><lb/>Coro.</p>
           <lg>
-            <l>Yo por tí pasaría</l>
+            <l rend="indent">Yo por tí pasaría</l>
             <l>el negro ponte,</l>
             <l>me embarcara en la barea</l>
             <l>de Aqueronte.</l>
-            <l>Que si juras amarme</l>
+            <l rend="indent">Que si juras amarme</l>
             <l>cual, yo a tí,</l>
             <l>seré de todo el mundo</l>
             <l>el mas feliz.</l>
           </lg>
-          <p><lb/>Coro.</p>
+          <p rend="cursiva"><lb/>Coro.</p>
           <lg>
-            <l>Y sino eres la reyna</l>
+            <l rend="indent">Y sino eres la reyna</l>
             <l>del Universo,</l>
             <l>de amor una corona</l>
             <l>guarda mi pecho.</l>
-            <l>Y eternamente unidos</l>
+            <l rend="indent">Y eternamente unidos</l>
             <l>mi dulce bien,</l>
             <l>gozaremos mil glorias</l>
             <l>en el Eden.</l>
           </lg>
           <trailer>FIN.</trailer>
         </div>
-        <pb n="3" source="Varios_191_3.jpg" facs="fedora_Varios_191_3/full/full/0/default.jpg"/>
-        <fw type="paginaNum">— 3 —</fw>
+
         <div>
+          <pb n="3" source="Varios_191_3.jpg" facs="varios/Varios_191_3.jpg/"/>
+          
+          <fw type="paginaNum">— 3 —</fw>
+
           <head type="titulo_parte"><lb/>LA LINDA RAMILLETERA.</head>
-          <lg>
-            <head type="titulo_estrofa" rend="negrita">CORO.</head>
-            <l rend="cursiva">Entre rosas y claveles</l>
-            <l rend="cursiva">Está mí ramilletera ,</l>
-            <l rend="cursiva">Mas ella es la flor mas linda</l>
-            <l rend="cursiva">Que creó la primavera.</l>
+          
+          <head type="titulo_estrofa" rend="negrita">CORO.</head>
+          <lg rend="cursiva">
+            <l rend="indent">Entre rosas y claveles</l>
+            <l>Está mí ramilletera ,</l>
+            <l>Mas ella es la flor mas linda</l>
+            <l>Que creó la primavera.</l>
           </lg>
           <lg>
-            <l>Fui el campo una mañana</l>
+            <l rend="indent">Fui el campo una mañana</l>
             <l>para escoger una flor</l>
             <l>acompañado de Venus</l>
             <l>y de su hijo el amor,</l>
-            <l>Y entre el Cl avel y la Rosa</l>
+            <l rend="indent">Y entre el Cl avel y la Rosa</l>
             <l>la Azucena y Aleli,</l>
             <l>no pude escoger ninguna</l>
             <l>porque te queria á tí.</l>
           </lg>
           <p>CORO.</p>
           <lg>
-            <l>Contemplaba el Tornasol</l>
+            <l rend="indent">Contemplaba el Tornasol</l>
             <l>y tambien la Francesilla</l>
             <l>la dalia y el tulipan</l>
             <l>Anemora y Campanilla.</l>
-            <l>Y aunque eran tan hermosas</l>
+            <l rend="indent">Y aunque eran tan hermosas</l>
             <l>ninguna me gustó amí</l>
             <l>porque entre todas las flores</l>
             <l>te queria solo á tí.</l>
           </lg>
           <p>CORO.</p>
           <lg>
-            <l>La Violeta encarnada</l>
+            <l rend="indent">La Violeta encarnada</l>
             <l>la blanca y la amarilla,</l>
             <l>me brindaban con su aroma</l>
             <l>y tambien la Geringuilla.</l>
-            <l>Sus perfumes olorosos</l>
+            <l rend="indent">Sus perfumes olorosos</l>
             <l>no me embalsaman á mi</l>
             <l>que el aroma de tus labios</l>
             <l>es lo que quiero de tí.</l>
           </lg>
           <p>CORO.</p>
           <lg>
-            <l>Los Nardos y los Narcisos,</l>
+            <l rend="indent">Los Nardos y los Narcisos,</l>
             <l>y el enredador Jazmin,</l>
             <l>me brindaban que escogiera</l>
             <l>una flor de su jardin.</l>
-            <l>Entre tan divinas flores</l>
+            <l rend="indent">Entre tan divinas flores</l>
             <l>Ramilletera te vi,</l>
             <l>y en vez de prendarme de ellas</l>
             <l>me prendé solo de ti.</l>
           </lg>
           <p>CORO.</p>
           <lg>
-            <l>La Escuela de caballero</l>
+            <l rend="indent">La Escuela de caballero</l>
             <l>siempre viva y flor de Lís,</l>
             <l>la perpetua, y Maravilla,</l>
             <l>me pusieron en un tris.</l>
-            <l>Ansioso iba á cogerlas</l>
+            <l rend="indent">Ansioso iba á cogerlas</l>
             <l>pero exalé un ¡ay de mi!</l>
             <l>estas flores no las quiero.</l>
             <l>porque que yo te quiero á ti.</l>
           </lg>
           <p>CORO.</p>
           <lg>
-            <l>Las Peonia y amarantos,</l>
+            <l rend="indent">Las Peonia y amarantos,</l>
             <l>la Balsamilla y Clavel,</l>
             <l>Margaritas, Pasionarias,</l>
             <l>me salian en tropel.</l>
-            <l>Estático las miraba.</l>
+            <l rend="indent">Estático las miraba.</l>
             <l>mas puedo decir de si</l>
             <l>que entre tan hermosas flores</l>
             <l>tan solo te vide á ti.</l>
           </lg>
           <p>CORO.</p>
-          <pb n="4" source="Varios_191_4.jpg" facs="fedora_Varios_191_4/full/full/0/default.jpg"/>
+          
+          <pb n="4" source="Varios_191_4.jpg" facs="varios/Varios_191_4.jpg/"/>
+          
           <fw type="paginaNum">— 4 —</fw>
+          
           <lg>
-            <l>Llegarán los Pensamientos</l>
+            <l rend="indent">Llegarán los Pensamientos</l>
             <l>Junto con la Camamilla</l>
             <l>el Laurel, la Madre selva</l>
             <l>y tambien la Granadilla.</l>
-            <l>Me enamoró el pensamiento,</l>
+            <l rend="indent">Me enamoró el pensamiento,</l>
             <l>desde el punto que le ví</l>
             <l>mas mi pensamiento hermosa</l>
             <l>tan solo pensaba en tí,</l>
           </lg>
           <p>CORO.</p>
           <lg>
-            <l>La retama y Mirabeles</l>
+            <l rend="indent">La retama y Mirabeles</l>
             <l>y las varas de José</l>
             <l>Albacas y Coronados</l>
             <l>estasiado contemplé.</l>
-            <l>Si me estasiaron las flores</l>
+            <l rend="indent">Si me estasiaron las flores</l>
             <l>al momento que las vi</l>
             <l>considera mi alegria</l>
             <l>cuando te contemplo á ti.</l>
           </lg>
           <p>CORO.</p>
           <lg>
-            <l>El Lirio y la Valeriana.</l>
+            <l rend="indent">El Lirio y la Valeriana.</l>
             <l>con el Gisante de olor,</l>
             <l>las Lilas y las Camelias</l>
             <l>me mostraron su primor</l>
-            <l>Mas el primor de primores</l>
+            <l rend="indent">Mas el primor de primores</l>
             <l>¡Ramilletera! le vi</l>
             <l>aquel dia ventoroso</l>
             <l>que me enamoré de tí.</l>
           </lg>
           <p>CORO.</p>
           <lg>
-            <l>La divina Valeriana</l>
+            <l rend="indent">La divina Valeriana</l>
             <l>la Alhimira y Laureola,</l>
             <l>despedian mil perfumes</l>
             <l>de su dorada corola.</l>
-            <l>Mas las perfumes de Oriente</l>
+            <l rend="indent">Mas las perfumes de Oriente</l>
             <l>ni cuanta flor hay alli,</l>
             <l>me hace sentir el aroma</l>
             <l>que siento junto de ti.</l>
           </lg>
           <p>CORO.</p>
           <lg>
-            <l>Contemplé la Damasquina</l>
+            <l rend="indent">Contemplé la Damasquina</l>
             <l>contemple el Perfecto amor</l>
             <l>peró conte mplé que el mio</l>
             <l>hacia ti era mayor.</l>
-            <l>Si las flores me enamoran</l>
+            <l rend="indent">Si las flores me enamoran</l>
             <l>no sé que pasa por mi,</l>
             <l>cuando tu flor de mi vida</l>
             <l>me dirás yo soy por tí.</l>
           </lg>
           <p>CORO.</p>
           <lg>
-            <l>El Azucejio, el Camedrio.</l>
+            <l rend="indent">El Azucejio, el Camedrio.</l>
             <l>Dietario y Toronjil</l>
             <l>el Durillo y la Verónica</l>
             <l>y otras flores mil y mil.</l>
-            <l>Con su aroma me brindaban</l>
+            <l rend="indent">Con su aroma me brindaban</l>
             <l>al momento que las vi,</l>
             <l>mas mi vida por aromas,</l>
             <l>tan sola te quiero á tí.</l>
           </lg>
           <p>CORO.</p>
           <lg>
-            <l>Viendo que eran tan hermosas</l>
+            <l rend="indent">Viendo que eran tan hermosas</l>
             <l>me dijo Venus y Amor,</l>
             <l>¡como es posible desprecies</l>
             <l>el caliz de tanta flor!..</l>
-            <l>Al momento presuroso</l>
+            <l rend="indent">Al momento presuroso</l>
             <l>una tras otra cogí.</l>
             <l>y forme de ellas un ramo</l>
             <l>para regalarte a tí.</l>
           </lg>
           <p>CORO.</p>
           <lg>
-            <l>Hermosa Ramillatera</l>
+            <l rend="indent">Hermosa Ramillatera</l>
             <l>sea este ramo de flor,</l>
             <l>el emblema siempre puro</l>
             <l>de mí acendrado amor.</l>
-            <l>Mas cuando tengas las flores</l>
+            <l rend="indent">Mas cuando tengas las flores</l>
             <l>niña hermosa junto á tí</l>
             <l>ten presente al que te adora</l>
             <l>ay no te olvides de mí.</l>
           </lg>
           <p>CORO.</p>
+          
           <p><lb/>(Es propiedad.)</p>
-          <trailer>Fin.</trailer>
+          <trailer rend="negrita">FIN.</trailer>
         </div>
+        
         <div type="colofon">
-          <p>Barcelona : Imprenta de Cristóbal Miró, c. de Arrepentidas n.°
-                              5. —1863.</p>
+          <p>Barcelona : Imprenta de Cristóbal Miró, c. de Arrepentidas n.° 5. —1863.</p>
         </div>
       </div>
     </body>

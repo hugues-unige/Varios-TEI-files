@@ -27,9 +27,9 @@
             <p/>
           </editionStmt>
           <publicationStmt>
-            <publisher>Imp. De Llorens</publisher>
+            <publisher>Llorens</publisher>
             <pubPlace ref="https://www.geonames.org/3128760/barcelona.html">Barcelona</pubPlace>
-            <date cert="high">[s.a]</date>
+            <date cert="low" when="1800-01-01">[s.a.]</date>
           </publicationStmt>
         </biblFull>
         <msDesc>
@@ -38,6 +38,7 @@
             <settlement>Genève</settlement>
             <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"/>
                                     </repository>
+            <collection>Colección Varios</collection>
             <idno type="cote"/>
             <idno type="DOI">10.5281/zenodo.6787688</idno>
             <altIdentifier>
@@ -96,7 +97,7 @@
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR non corregido</p>
+          <p>OCR no corregido</p>
         </correction>
         <normalization>
           <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto
@@ -125,9 +126,10 @@
     <revisionDesc>
       <change when="2023-12-22" who="#PJ">Création du fichier TEI P5 et encodage du
                         corps du texte</change>
+<change when="2024-01-09" who="#EL">Add the IIIF links</change>
     </revisionDesc>
   </teiHeader>
-  <sourceDoc xml:id="automaticTranscription">
+  <facsimile><graphic url="varios/Varios_408_1.jpg/full/200,/0/default.jpg"/></facsimile><sourceDoc xml:id="automaticTranscription">
     <surface xml:id="Varios_408_1" type="page" cert="silver">
       <graphic url="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_408_1/full/full/0/default.jpg"/>
       <zone xml:id="Varios_408_1_BT223_1" n="1" type="CustomZone" subtype="title" points="1558,1385 1558,1760 75,1760 75,1385 531,1385 606,1340 946,1339 954,1342 1060,1385 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_408_1/75.0,1339.0,1483.0,421.0/full/0/default" corresp="CustomZone:title">
@@ -1457,7 +1459,7 @@
   <text>
     <body>
       <div>
-        <pb n="1" source="Varios_408_1.jpg" facs="fedora_Varios_408_1/full/full/0/default.jpg"/>
+        <pb n="1" source="Varios_408_1.jpg" facs="varios/Varios_408_1.jpg/"/>
         <div type="parte" n="1">
           <head type="primer_titulo"><lb/>CANCION<lb/>DEL PAJARITO.</head>
           <head type="subtitulo_parte" rend="cursiva"><lb/>Compuesta de una
@@ -1509,7 +1511,7 @@
             <l>Si muestra su indignacion</l>
             <l>porque con otra deidad</l>
           </lg>
-          <pb n="2" source="Varios_408_2.jpg" facs="fedora_Varios_408_2/full/full/0/default.jpg"/>
+          <pb n="2" source="Varios_408_2.jpg" facs="varios/Varios_408_2.jpg/"/>
           <lg>
             <l>me encontró en conversacion,</l>
             <l>di que fué casualidad ;</l>
@@ -1643,7 +1645,7 @@
             <l>aun antes de que te vea .</l>
           </lg>
         </div>
-        <pb n="3" source="Varios_408_3.jpg" facs="fedora_Varios_408_3/full/full/0/default.jpg"/>
+        <pb n="3" source="Varios_408_3.jpg" facs="varios/Varios_408_3.jpg/"/>
         <div type="parte" n="2">
           <head type="titulo_parte"><lb/>RESPUESTA Á LA ANTERIOR CARTA AMOROSA.</head>
           <lg>
@@ -1706,7 +1708,7 @@
             <l>con que fué casualidad.</l>
             <l>Él que con toda maldad</l>
           </lg>
-          <pb n="4" source="Varios_408_4.jpg" facs="fedora_Varios_408_4/full/full/0/default.jpg"/>
+          <pb n="4" source="Varios_408_4.jpg" facs="varios/Varios_408_4.jpg/"/>
           <lg>
             <l>ha estado entrando y saliendo</l>
             <l>en casa de una deidad</l>

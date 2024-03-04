@@ -29,7 +29,7 @@
           <publicationStmt>
             <publisher/>
             <pubPlace ref="https://www.geonames.org/3128760/barcelona.html">Barcelona</pubPlace>
-            <date cert="high">[s.a]</date>
+            <date cert="low" when="1800-01-01">[s.a.]</date>
           </publicationStmt>
         </biblFull>
         <msDesc>
@@ -38,6 +38,7 @@
             <settlement>Genève</settlement>
             <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"/>
                   </repository>
+            <collection>Colección Varios</collection>
             <idno type="cote"/>
             <idno type="DOI">10.5281/zenodo.6783877</idno>
             <altIdentifier>
@@ -97,7 +98,7 @@
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR non corregido</p>
+          <p>OCR no corregido</p>
         </correction>
         <normalization>
           <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto
@@ -124,9 +125,10 @@
     <revisionDesc>
       <change when="2023-12-17" who="#PJ">Création du fichier TEI P5 et encodage du corps du
                         texte</change>
+<change when="2024-01-09" who="#EL">Add the IIIF links</change>
     </revisionDesc>
   </teiHeader>
-  <sourceDoc xml:id="automaticTranscription">
+  <facsimile><graphic url="varios/Varios_392_1.jpg/full/200,/0/default.jpg"/></facsimile><sourceDoc xml:id="automaticTranscription">
     <surface xml:id="Varios_392_1" type="page" cert="silver">
       <graphic url="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_392_1/full/full/0/default.jpg"/>
       <zone xml:id="Varios_392_1_BT223_1" n="1" type="CustomZone" subtype="title" points="1403,1380 1403,1822 248,1822 248,1380 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_392_1/248,1380,1155,442/full/0/default" corresp="CustomZone:title">
@@ -1108,7 +1110,7 @@
   <text>
     <body>
       <div>
-        <pb n="1" source="Varios_392_1.jpg" facs="fedora_Varios_392_1/full/full/0/default.jpg"/>
+        <pb n="1" source="Varios_392_1.jpg" facs="varios/Varios_392_1.jpg/"/>
         <div type="parte" n="1">
           <head type="primer_titulo"><lb/>CANCION NUEVA<lb/>A MI<lb/><hi rend="negrita">HERMOSA ELVIRA.</hi></head>
           <head type="subtitulo_parte"><lb/>PARA CANTARSE CON GUITARRA.</head>
@@ -1142,7 +1144,7 @@
             <l>de la aurora</l>
             <l>el arrebol.</l>
           </lg>
-          <pb n="2" source="Varios_392_2.jpg" facs="fedora_Varios_392_2/full/full/0/default.jpg"/>
+          <pb n="2" source="Varios_392_2.jpg" facs="varios/Varios_392_2.jpg/"/>
           <lg>
             <head type="titulo_estrofa">3.ª</head>
             <l>Esos brazos dame, hermosa,</l>
@@ -1234,7 +1236,7 @@
             <l>sin pesar.</l>
           </lg>
         </div>
-        <pb n="3" source="Varios_392_3.jpg" facs="fedora_Varios_392_3/full/full/0/default.jpg"/>
+        <pb n="3" source="Varios_392_3.jpg" facs="varios/Varios_392_3.jpg/"/>
         <div>
           <head type="titulo_parte" n="2" rend="negrita"><lb/>VIDA DE LAS DONCELLAS.</head>
           <lg>
@@ -1279,7 +1281,7 @@
             <l>Se están en la cama</l>
             <l>muy bien reclocadas,</l>
           </lg>
-          <pb n="4" source="Varios_392_4.jpg" facs="fedora_Varios_392_4/full/full/0/default.jpg"/>
+          <pb n="4" source="Varios_392_4.jpg" facs="varios/Varios_392_4.jpg/"/>
           <lg>
             <l>hasta que su madre</l>
             <l>mil veces las llama.</l>

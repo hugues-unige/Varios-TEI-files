@@ -4,8 +4,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>HISTORIA VERDADERA DE CARLO-MAGNO Y DE LOS DOCE PARES DE
-                              FRANCIA</title>
+        <title>HISTORIA VERDADERA DE CARLO-MAGNO Y DE LOS DOCE PARES DE FRANCIA</title>
         <respStmt>
           <name xml:id="PJ">Pauline Jacsont</name>
           <resp>Codificación TEI</resp>
@@ -29,10 +28,9 @@
             <p/>
           </editionStmt>
           <publicationStmt>
-            <publisher>Despacho: Librería y Casa Editorial Hernando
-                                          (S.A.)</publisher>
+            <publisher>Hernando</publisher>
             <pubPlace ref="https://www.geonames.org/3117735/madrid.html">Madrid</pubPlace>
-            <date cert="high">[s.a]</date>
+            <date cert="low" when="1800-01-01">[s.a.]</date>
           </publicationStmt>
         </biblFull>
         <msDesc>
@@ -41,6 +39,7 @@
             <settlement>Genève</settlement>
             <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"/>
                                     </repository>
+            <collection>Colección Varios</collection>
             <idno type="cote"/>
             <idno type="DOI">10.5281/zenodo.6795064</idno>
             <altIdentifier>
@@ -69,7 +68,7 @@
               </layoutDesc>
             </objectDesc>
             <decoDesc>
-              <summary n="1">Uno grabado (p.1) </summary>
+              <summary n="1">Un grabado (p.1) </summary>
               <decoNote type="lista_grabados">
                 <list>
                   <item corresp="grabado_v_427_1.xml">grabado_v_427_1</item>
@@ -97,7 +96,7 @@
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR non corregido</p>
+          <p>OCR no corregido</p>
         </correction>
         <normalization>
           <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto
@@ -122,9 +121,10 @@
     <revisionDesc>
       <change when="2023-12-28" who="#PJ">Création du fichier TEI P5 et encodage du
                         corps du texte</change>
+<change when="2024-01-09" who="#EL">Add the IIIF links</change>
     </revisionDesc>
   </teiHeader>
-  <sourceDoc xml:id="automaticTranscription">
+  <facsimile><graphic url="varios/Varios_427_1.jpg/full/200,/0/default.jpg"/></facsimile><sourceDoc xml:id="automaticTranscription">
     <surface xml:id="Varios_427_1" type="page" cert="silver">
       <graphic url="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_427_1/full/full/0/default.jpg"/>
       <zone xml:id="Varios_427_1_BT222_1" n="1" type="CustomZone" subtype="numero_pliego" points="1250,233 1250,308 944,306 944,233 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_427_1/944.0,233.0,306.0,75.0/full/0/default" corresp="CustomZone:numero_pliego">
@@ -10432,7 +10432,7 @@
   <text>
     <body>
       <div>
-        <pb n="1" source="Varios_427_1.jpg" facs="fedora_Varios_427_1/full/full/0/default.jpg"/>
+        <pb n="1" source="Varios_427_1.jpg" facs="varios/Varios_427_1.jpg/"/>
         <fw type="numeroPliego">CUATRO PLIEGOS</fw>
         <head type="primer_titulo"><lb/>HISTORIA<lb/>DE<lb/><hi rend="negrita">CARLO—MAGNO</hi><lb/>Y
                               DE<lb/>LOS DOCE PARES DE PRANCIA</head>
@@ -10446,11 +10446,11 @@
             <p><lb/>MADRID Despacho : Librería y Casa Editorial Hernando
                                           (S. A.). Calle del Arenal, núm. 11.</p>
           </div>
-          <pb n="2" source="Varios_427_2.jpg" facs="fedora_Varios_427_2/full/full/0/default.jpg"/>
+          <pb n="2" source="Varios_427_2.jpg" facs="varios/Varios_427_2.jpg/"/>
           <div type="propiedad">
             <p><lb/>ES PROPIEDAD</p>
           </div>
-          <pb n="3" source="Varios_427_3.jpg" facs="fedora_Varios_427_3/full/full/0/default.jpg"/>
+          <pb n="3" source="Varios_427_3.jpg" facs="varios/Varios_427_3.jpg/"/>
           <div type="parte" n="1">
             <head type="primer_titulo"><lb/>HISTORIA VERDADERA<lb/>DE<lb/>CARLONA GNO<lb/>Y DE
                                           LOS DOCE PARES DE FRANCIA</head>
@@ -10507,7 +10507,7 @@
               <l>le dió el Señor doce hombres</l>
               <l>para su acompañamiento,</l>
             </lg>
-            <pb n="4" source="Varios_427_4.jpg" facs="fedora_Varios_427_4/full/full/0/default.jpg"/>
+            <pb n="4" source="Varios_427_4.jpg" facs="varios/Varios_427_4.jpg/"/>
             <fw type="paginaNum">— 4 —</fw>
             <lg>
               <l>llamados los doce Pares,</l>
@@ -10600,7 +10600,7 @@
               <l>Y Roldán dijo: «Señor,</l>
               <l>ni yo ni mis compañeros</l>
             </lg>
-            <pb n="5" source="Varios_427_5.jpg" facs="fedora_Varios_427_5/full/full/0/default.jpg"/>
+            <pb n="5" source="Varios_427_5.jpg" facs="varios/Varios_427_5.jpg/"/>
             <fw type="paginaNum">–5–</fw>
             <lg>
               <l>no hemos de salir ninguno,</l>
@@ -10692,7 +10692,7 @@
               <l>a mantener en batalla</l>
               <l>todo cuanto estás diciendo,</l>
             </lg>
-            <pb n="6" source="Varios_427_6.jpg" facs="fedora_Varios_427_6/full/full/0/default.jpg"/>
+            <pb n="6" source="Varios_427_6.jpg" facs="varios/Varios_427_6.jpg/"/>
             <fw type="paginaNum">— 6 —</fw>
             <lg>
               <l>y que no serán tus obras</l>
@@ -10784,7 +10784,7 @@
               <l>Fierabrás le pidió treguas,</l>
               <l>estas palabras diciendo:</l>
             </lg>
-            <pb n="7" source="Varios_427_7.jpg" facs="fedora_Varios_427_7/full/full/0/default.jpg"/>
+            <pb n="7" source="Varios_427_7.jpg" facs="varios/Varios_427_7.jpg/"/>
             <fw type="paginaNum">— 7 —</fw>
             <lg>
               <l>«Paremos a descansar,</l>
@@ -10877,7 +10877,7 @@
               <l>por sacar unos licores,</l>
               <l>y tomando un sorbo de ellos,</l>
             </lg>
-            <pb n="8" source="Varios_427_8.jpg" facs="fedora_Varios_427_8/full/full/0/default.jpg"/>
+            <pb n="8" source="Varios_427_8.jpg" facs="varios/Varios_427_8.jpg/"/>
             <fw type="paginaNum">— 8 —</fw>
             <lg>
               <l>al instante se halló sano;</l>
@@ -10969,7 +10969,7 @@
               <l>del caballo, le dió muerte;</l>
               <l>con que quedó a pie Oliveros,</l>
             </lg>
-            <pb n="9" source="Varios_427_9.jpg" facs="fedora_Varios_427_9/full/full/0/default.jpg"/>
+            <pb n="9" source="Varios_427_9.jpg" facs="varios/Varios_427_9.jpg/"/>
             <fw type="paginaNum">— 9 —</fw>
             <lg>
               <l>diciendo : «Mira, africano,</l>
@@ -11062,7 +11062,7 @@
               <l>que ahora curarte quiero</l>
             </lg>
             <fw type="signaturas">CARLO–MAGNO. 2</fw>
-            <pb n="10" source="Varios_427_10.jpg" facs="fedora_Varios_427_10/full/full/0/default.jpg"/>
+            <pb n="10" source="Varios_427_10.jpg" facs="varios/Varios_427_10.jpg/"/>
             <fw type="paginaNum">— 1O —</fw>
             <lg>
               <l>Ias dos mortales heridas,</l>
@@ -11154,7 +11154,7 @@
               <l>dieron cuenta al Arzobispo,</l>
               <l>y en la iglesia de San Pedro</l>
             </lg>
-            <pb n="11" source="Varios_427_11.jpg" facs="fedora_Varios_427_11/full/full/0/default.jpg"/>
+            <pb n="11" source="Varios_427_11.jpg" facs="varios/Varios_427_11.jpg/"/>
             <fw type="paginaNum">— 11 —</fw>
             <lg>
               <l>bautizan a Fierabrás;</l>
@@ -11245,7 +11245,7 @@
               <l>tú también irás conmigo,</l>
               <l>y escucharás lo que hablemos.»</l>
             </lg>
-            <pb n="12" source="Varios_427_12.jpg" facs="fedora_Varios_427_12/full/full/0/default.jpg"/>
+            <pb n="12" source="Varios_427_12.jpg" facs="varios/Varios_427_12.jpg/"/>
             <fw type="paginaNum">— 12 —</fw>
             <lg>
               <l>Al fin cedió, y a la noche,</l>
@@ -11337,7 +11337,7 @@
               <l>y desde entonces quedé</l>
               <l>que no duermo ni sosiego</l>
             </lg>
-            <pb n="13" source="Varios_427_13.jpg" facs="fedora_Varios_427_13/full/full/0/default.jpg"/>
+            <pb n="13" source="Varios_427_13.jpg" facs="varios/Varios_427_13.jpg/"/>
             <fw type="paginaNum">— 13 —</fw>
             <lg>
               <l>en pensar en su persona,</l>
@@ -11429,7 +11429,7 @@
               <l>Salen de una parte y otra</l>
               <l>las embajadas a un tiempo</l>
             </lg>
-            <pb n="14" source="Varios_427_14.jpg" facs="fedora_Varios_427_14/full/full/0/default.jpg"/>
+            <pb n="14" source="Varios_427_14.jpg" facs="varios/Varios_427_14.jpg/"/>
             <fw type="paginaNum">— 14 —</fw>
             <lg>
               <l>y en la mitad del camino</l>
@@ -11520,7 +11520,7 @@
               <l>en la mitad del camino</l>
               <l>nos salieron al encuentro;</l>
             </lg>
-            <pb n="15" source="Varios_427_15.jpg" facs="fedora_Varios_427_15/full/full/0/default.jpg"/>
+            <pb n="15" source="Varios_427_15.jpg" facs="varios/Varios_427_15.jpg/"/>
             <fw type="paginaNum">— 15 —</fw>
             <lg>
               <l>y fueron tan valerosos,</l>
@@ -11612,7 +11612,7 @@
               <l>y si acaso nos matasen</l>
               <l>caro os costaría el duelo.»</l>
             </lg>
-            <pb n="16" source="Varios_427_16.jpg" facs="fedora_Varios_427_16/full/full/0/default.jpg"/>
+            <pb n="16" source="Varios_427_16.jpg" facs="varios/Varios_427_16.jpg/"/>
             <fw type="paginaNum">— 16 —</fw>
             <lg>
               <l>Floripes que está escuchando</l>
@@ -11704,7 +11704,7 @@
               <l>por defender su persona</l>
               <l>y sacarla de este reino.»</l>
             </lg>
-            <pb n="17" source="Varios_427_17.jpg" facs="fedora_Varios_427_17/full/full/0/default.jpg"/>
+            <pb n="17" source="Varios_427_17.jpg" facs="varios/Varios_427_17.jpg/"/>
             <fw type="paginaNum">— 17 —</fw>
             <lg>
               <l>Floripes avergonzada,</l>
@@ -11797,7 +11797,7 @@
               <l>tal desastre, exclama fiero:</l>
             </lg>
             <fw type="signaturas">CARLO MAGNO. 3</fw>
-            <pb n="18" source="Varios_427_18.jpg" facs="fedora_Varios_427_18/full/full/0/default.jpg"/>
+            <pb n="18" source="Varios_427_18.jpg" facs="varios/Varios_427_18.jpg/"/>
             <fw type="paginaNum">— 18 —</fw>
             <lg>
               <l>«¡Maldición contra mi hija,</l>
@@ -11888,7 +11888,7 @@
               <l>cargados de pan y vino</l>
               <l>más de catorce cogieron.</l>
             </lg>
-            <pb n="19" source="Varios_427_19.jpg" facs="fedora_Varios_427_19/full/full/0/default.jpg"/>
+            <pb n="19" source="Varios_427_19.jpg" facs="varios/Varios_427_19.jpg/"/>
             <fw type="paginaNum">— 19 —</fw>
             <lg>
               <l>Llevándolos a la torre,</l>
@@ -11980,7 +11980,7 @@
               <l>lo derribó de la silla,</l>
               <l>y así que lo vió en el suelo</l>
             </lg>
-            <pb n="20" source="Varios_427_20.jpg" facs="fedora_Varios_427_20/full/full/0/default.jpg"/>
+            <pb n="20" source="Varios_427_20.jpg" facs="varios/Varios_427_20.jpg/"/>
             <fw type="paginaNum">—20 —</fw>
             <lg>
               <l>la cabeza le cortó,</l>
@@ -12072,7 +12072,7 @@
               <l>con una recia estocada</l>
               <l>le hizo medir el suelo.</l>
             </lg>
-            <pb n="21" source="Varios_427_21.jpg" facs="fedora_Varios_427_21/full/full/0/default.jpg"/>
+            <pb n="21" source="Varios_427_21.jpg" facs="varios/Varios_427_21.jpg/"/>
             <fw type="paginaNum">—21—</fw>
             <lg>
               <l>Carlo-Magno que ya estaba</l>
@@ -12164,7 +12164,7 @@
               <l>Volvamos al Almirante,</l>
               <l>que cuando supo de cierto</l>
             </lg>
-            <pb n="22" source="Varios_427_22.jpg" facs="fedora_Varios_427_22/full/full/0/default.jpg"/>
+            <pb n="22" source="Varios_427_22.jpg" facs="varios/Varios_427_22.jpg/"/>
             <fw type="paginaNum">— 22 —</fw>
             <lg>
               <l>que habían ganado el puente</l>
@@ -12256,7 +12256,7 @@
               <l>cuál se lleva la victoria.»</l>
               <l>Y Carlo-Magno a este tiempo</l>
             </lg>
-            <pb n="23" source="Varios_427_23.jpg" facs="fedora_Varios_427_23/full/full/0/default.jpg"/>
+            <pb n="23" source="Varios_427_23.jpg" facs="varios/Varios_427_23.jpg/"/>
             <fw type="paginaNum">— 23 —</fw>
             <lg>
               <l>tomó la espada y la lanza,</l>
@@ -12348,7 +12348,7 @@
               <l>pero en lugar de escucharlo</l>
               <l>levantó el brazo soberbio,</l>
             </lg>
-            <pb n="24" source="Varios_427_24.jpg" facs="fedora_Varios_427_24/full/full/0/default.jpg"/>
+            <pb n="24" source="Varios_427_24.jpg" facs="varios/Varios_427_24.jpg/"/>
             <fw type="paginaNum">— 24 —</fw>
             <lg>
               <l>se abalanzó al Arzobispo,</l>
@@ -12441,7 +12441,7 @@
               <l>y se puso en oración,</l>
               <l>alzó los ojos al Cielo</l>
             </lg>
-            <pb n="25" source="Varios_427_25.jpg" facs="fedora_Varios_427_25/full/full/0/default.jpg"/>
+            <pb n="25" source="Varios_427_25.jpg" facs="varios/Varios_427_25.jpg/"/>
             <fw type="paginaNum">— 25 —</fw>
             <lg>
               <l>pidiéndole a Dios quisiese</l>
@@ -12535,7 +12535,7 @@
               <l>y amenazaban sus reinos,</l>
             </lg>
             <fw type="signaturas">CARLO–MAGNO. 4</fw>
-            <pb n="26" source="Varios_427_26.jpg" facs="fedora_Varios_427_26/full/full/0/default.jpg"/>
+            <pb n="26" source="Varios_427_26.jpg" facs="varios/Varios_427_26.jpg/"/>
             <fw type="paginaNum">— 26 —</fw>
             <lg>
               <l>llamó luego a Ferraguz,</l>
@@ -12627,7 +12627,7 @@
               <l>echan mano a las espadas,</l>
               <l>dándose golpes muy recios;</l>
             </lg>
-            <pb n="27" source="Varios_427_27.jpg" facs="fedora_Varios_427_27/full/full/0/default.jpg"/>
+            <pb n="27" source="Varios_427_27.jpg" facs="varios/Varios_427_27.jpg/"/>
             <fw type="paginaNum">—— 27 ——</fw>
             <lg>
               <l>pelean toda la tarde</l>
@@ -12719,7 +12719,7 @@
               <l>le preguntó si queria,</l>
               <l>con cariñosos afectos,</l>
             </lg>
-            <pb n="28" source="Varios_427_28.jpg" facs="fedora_Varios_427_28/full/full/0/default.jpg"/>
+            <pb n="28" source="Varios_427_28.jpg" facs="varios/Varios_427_28.jpg/"/>
             <fw type="paginaNum">— 28 —</fw>
             <lg>
               <l>ser cristiano, porque goce</l>
@@ -12810,7 +12810,7 @@
               <l>fué donde están los virreyes,</l>
               <l>y corteses lo recibieron.</l>
             </lg>
-            <pb n="29" source="Varios_427_29.jpg" facs="fedora_Varios_427_29/full/full/0/default.jpg"/>
+            <pb n="29" source="Varios_427_29.jpg" facs="varios/Varios_427_29.jpg/"/>
             <fw type="paginaNum">—29 —</fw>
             <lg>
               <l>Les propuso la embajada,</l>
@@ -12902,7 +12902,7 @@
               <l>Sólo Roldán mal herido</l>
               <l>cogió a un turco por el cuello,</l>
             </lg>
-            <pb n="30" source="Varios_427_30.jpg" facs="fedora_Varios_427_30/full/full/0/default.jpg"/>
+            <pb n="30" source="Varios_427_30.jpg" facs="varios/Varios_427_30.jpg/"/>
             <fw type="paginaNum">— 30 —</fw>
             <lg>
               <l>y espada en mano le dijo:</l>
@@ -12994,7 +12994,7 @@
               <l>Confesó generalmente,</l>
               <l>y alzó los ojos al cielo,</l>
             </lg>
-            <pb n="31" source="Varios_427_31.jpg" facs="fedora_Varios_427_31/full/full/0/default.jpg"/>
+            <pb n="31" source="Varios_427_31.jpg" facs="varios/Varios_427_31.jpg/"/>
             <fw type="paginaNum">— 31 —</fw>
             <lg>
               <l>dijo : «En tus manos, Señor,</l>
@@ -13085,7 +13085,7 @@
             </lg>
             <trailer rend="negrita">FIN DE LAS OCHO PARTESFIN</trailer>
           </div>
-          <pb n="32" source="Varios_427_32.jpg" facs="fedora_Varios_427_32/full/full/0/default.jpg"/>
+          <pb n="32" source="Varios_427_32.jpg" facs="varios/Varios_427_32.jpg/"/>
           <div type="parte" n="9">
             <head type="titulo_parte"><lb/>NOTICIAS BIOGRÁFICAS DE CARLO-MAGNO<lb/>SACADAS DE UN
                                           DOCUMENTO AUTÉNTICO</head>

@@ -1,16 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../Schema/oddPliego_varios.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:alto="http://www.loc.gov/standards/alto/ns-v4#" xml:id="Varios_030">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Varios_030">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>EL CANTOR DE LAS HERMOSAS. TROVAS DE AMOR DEDICADAS AL BELLO SECSO POR UNOS
-               AFICIONADOS.</title>
+        <title>EL CANTOR DE LAS HERMOSAS</title>
         <respStmt>
           <name/>
           <resp>Codificación TEI</resp>
-          <note type="propiedad">– B. C.–</note>
-          <note type="propiedad">– J. A. C.–</note>
         </respStmt>
       </titleStmt>
       <publicationStmt>
@@ -22,17 +19,17 @@
       <sourceDesc>
         <biblFull>
           <titleStmt>
-            <title type="titulo_completo">EL CANTOR DE LAS HERMOSAS. TROVAS DE AMOR DEDICADAS
-                     AL BELLO SECSO POR UNOS AFICIONADOS.</title>
-            <title type="titulo_breve">EL CANTOR DE LAS HERMOSAS</title>
+            <title type="titulo_completo">EL CANTOR DE LAS HERMOSAS. TROVAS DE AMOR DEDICADAS AL
+              BELLO SECSO POR UNOS AFICIONADOS.</title>
+            <title type="titulo_breve">EL CANTOR DE LAS HERMOSAS.</title>
           </titleStmt>
           <editionStmt>
             <p/>
           </editionStmt>
           <publicationStmt>
-            <publisher>Narciso Ramirez</publisher>
+            <publisher>Narciso Ramírez</publisher>
             <pubPlace ref="https://www.geonames.org/3128760/barcelona.html">Barcelona</pubPlace>
-            <date cert="high">1864</date>
+            <date cert="high" when="1864-01-01">1864</date>
           </publicationStmt>
         </biblFull>
         <msDesc>
@@ -40,7 +37,8 @@
             <country>Suisse</country>
             <settlement>Genève</settlement>
             <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"/>
-                  </repository>
+            </repository>
+            <collection>Colección Varios</collection>
             <idno type="cote"/>
             <idno type="DOI">10.5281/zenodo.6546920</idno>
             <altIdentifier>
@@ -48,10 +46,21 @@
             </altIdentifier>
           </msIdentifier>
           <msContents>
-            <summary/>
+            <summary>Tres canciones</summary>
             <msItem>
-              <locus/>
-              <title/>
+              <locus>1-2</locus>
+              <title>El falso halago</title>
+              <author role="letrista">J. A. C.</author>
+            </msItem>
+            <msItem>
+              <locus>2-3</locus>
+              <title>La tempestad</title>
+              <author role="letrista">B. C.</author>
+            </msItem>
+            <msItem>
+              <locus>3-4</locus>
+              <title>Recuerdos de mi infancia</title>
+              <author>B. C.</author>
             </msItem>
           </msContents>
           <physDesc>
@@ -69,7 +78,7 @@
               </layoutDesc>
             </objectDesc>
             <decoDesc>
-              <summary n="1">Uno grabado (p.1) </summary>
+              <summary n="1">Un grabado (p.1)</summary>
               <decoNote type="lista_grabados">
                 <list>
                   <item corresp="grabado_v_030_1.xml">grabado_v_030_1</item>
@@ -82,8 +91,7 @@
               </decoNote>
             </decoDesc>
             <additions>
-              <stamp>Se Halla de venta A. Borras Cuesta del Teatro
-                        Palma</stamp>
+              <stamp>Se Halla de venta A. Borras Cuesta del Teatro Palma</stamp>
               <stamp>Palma Se vende tienda de M Borrás</stamp>
             </additions>
           </physDesc>
@@ -92,8 +100,8 @@
               <p>Imp. de Narciso Ramirez, pasaje de Escudillers, núm. 4.</p>
             </origin>
             <provenance>
-              <p>Se halla de venta en casa Antonio Bosch, calle del Bou de la Plaza Nueva,
-                        núm. 3.</p>
+              <p>Se halla de venta en casa Antonio Bosch, calle del Bou de la Plaza Nueva, núm.
+                3.</p>
             </provenance>
             <acquisition>
               <stamp>Se Halla de venta A. Borras Cuesta del Teatro Palma</stamp>
@@ -105,13 +113,13 @@
     <encodingDesc>
       <projectDesc>
         <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
-               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
-               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
-               Sandoz-Monique de Meuron.</p>
+          cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la Universidad
+          de Ginebra, con el apoyo de la Fundación filantrópica Famille Sandoz-Monique de
+          Meuron.</p>
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR non corregido</p>
+          <p>OCR no corregido</p>
         </correction>
         <normalization>
           <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
@@ -136,10 +144,11 @@
     </profileDesc>
     <revisionDesc>
       <change when="2022-05-11" who="#PJ">Création du fichier TEI P5 et encodage du corps du
-            texte</change>
+        texte</change>
+<change when="2024-01-09" who="#EL">Add the IIIF links</change>
     </revisionDesc>
   </teiHeader>
-  <sourceDoc xml:id="automaticTranscription">
+  <facsimile><graphic url="varios/Varios_030_1.jpg/full/200,/0/default.jpg"/></facsimile><sourceDoc xml:id="automaticTranscription">
     <surface xml:id="Varios_030_1" type="page" cert="silver">
       <graphic url="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_030_1/full/full/0/default.jpg"/>
       <zone xml:id="Varios_030_1_BT221_1" n="1" type="CustomZone" subtype="impresorNum" points="1385,222 1385,351 1594,351 1594,222 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_030_1/1385,222,209,129/full/0/default" corresp="CustomZone:impresorNum">
@@ -813,14 +822,13 @@
         <zone xml:id="Varios_030_4_BT228_5_LT83_1" type="DefaultLine" subtype="none" points="225,2278 219,2223 350,2208 350,2208 353,2208 353,2208 355,2208 355,2208 355,2208 357,2208 357,2208 357,2208 370,2221 372,2221 375,2221 429,2210 429,2210 432,2210 432,2210 432,2210 478,2219 495,2223 504,2219 530,2206 530,2206 530,2206 532,2206 532,2206 532,2206 535,2206 535,2206 537,2206 537,2206 537,2206 539,2206 559,2219 585,2206 585,2206 585,2206 587,2206 587,2206 590,2206 590,2206 590,2206 592,2206 592,2206 592,2206 616,2219 622,2223 629,2219 642,2208 642,2208 644,2208 644,2208 647,2208 647,2208 647,2208 649,2208 649,2208 651,2208 651,2208 651,2208 653,2208 653,2208 666,2219 668,2221 682,2219 719,2208 721,2208 721,2208 723,2208 723,2208 811,2217 855,2221 879,2217 978,2193 978,2193 978,2193 980,2193 980,2193 980,2193 982,2193 982,2193 982,2193 984,2193 1015,2214 1055,2188 1057,2188 1057,2188 1057,2188 1059,2188 1059,2188 1061,2188 1061,2188 1158,2199 1180,2186 1182,2186 1182,2186 1184,2186 1184,2186 1184,2186 1346,2184 1348,2184 1405,2184 1405,2184 1405,2184 1408,2184 1408,2184 1408,2184 1410,2184 1410,2184 1443,2210 1445,2212 1680,2210 1686,2258 1684,2278 1390,2280 1388,2280 1388,2280 1386,2280 1386,2280 1386,2280 1384,2280 1384,2280 1368,2271 1359,2280 1357,2280 1357,2282 1357,2282 1355,2282 1355,2282 1355,2282 1353,2282 1353,2282 1353,2282 1351,2282 1313,2280 1199,2271 1164,2280 1149,2285 1147,2285 1147,2285 1144,2285 581,2282 410,2282 399,2282 302,2295 302,2295 300,2295 300,2295 223,2282 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_030_4/219,2184,1467,111/full/0/default" corresp="DefaultLine">
           <path xml:id="Varios_030_4_BT228_5_LT83_1_1" points="226,2279 1688,2259 "/>
           <line>Se halla de venta en casa Antonio Bosch, calle del Bou de la Plaza Nueva, núm.
-                  3.</line>
+            3.</line>
         </zone>
       </zone>
       <zone xml:id="Varios_030_4_BT228_6" n="6" type="MarginTextZone" subtype="colophon" points="587,2392 1489,2392 1524,2451 1501,2483 541,2489 500,2442 500,2409 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_030_4/500,2392,1024,97/full/0/default" corresp="MarginTextZone:colophon">
         <zone xml:id="Varios_030_4_BT228_6_LT83_1" type="DefaultLine" subtype="none" points="515,2455 511,2403 1473,2394 1480,2444 1480,2488 1370,2490 1368,2490 1368,2490 1366,2490 1366,2490 1366,2490 1357,2486 1324,2469 1050,2466 1002,2477 1000,2477 1000,2477 997,2477 997,2477 995,2477 995,2477 995,2477 993,2477 993,2477 976,2464 919,2464 868,2477 840,2484 837,2484 837,2484 835,2484 835,2484 835,2484 833,2484 807,2475 785,2469 772,2475 756,2482 756,2482 756,2482 754,2482 754,2482 752,2482 513,2469 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_030_4/511,2394,969,96/full/0/default" corresp="DefaultLine">
           <path xml:id="Varios_030_4_BT228_6_LT83_1_1" points="517,2458 1482,2447 "/>
-          <line>Barcelona. —Imp. de Narciso Ramirez, pasaje de Escudillers, núm. 4.
-                  —1864.</line>
+          <line>Barcelona. —Imp. de Narciso Ramirez, pasaje de Escudillers, núm. 4. —1864.</line>
         </zone>
       </zone>
       <zone xml:id="Varios_030_4_BT225_7" n="7" type="GraphicZone" subtype="ornamentation" points="745,1547 694,1488 942,1457 1110,1454 1205,1513 1121,1547 961,1546 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_030_4/694,1454,511,93/full/0/default" corresp="GraphicZone:ornamentation"/>
@@ -830,53 +838,60 @@
     <body>
       <div>
         <div>
-          <pb n="1" source="Varios_030_1.jpg" facs="fedora_Varios_030_1/full/full/0/default.jpg"/>
-          <fw type="impresorNum"/>
+          <pb n="1" source="Varios_030_1.jpg" facs="varios/Varios_030_1.jpg/"/>
+
+          <fw type="impresorNum">Núm. 6</fw>
+
           <head type="primer_titulo" rend="negrita"><lb/>EL<lb/>CANTOR DE LAS HERMOSAS.</head>
-          <head type="subtitulo_parte"><lb/>TROVAS DE AMOR DEDICADAS AL BELLO SECSO POR
-                  UNOS<lb/>AFICIONADOS.</head>
-          <div n="1" type="parte">
+          <head type="subtitulo"><lb/>TROVAS DE AMOR DEDICADAS AL BELLO SECSO POR
+            UNOS<lb/>AFICIONADOS.</head>
+
+          <div n="1">
             <head type="titulo_cancion" rend="negrita"><lb/>15. EL FALSO HALAGO.</head>
-            <p><lb/>I.</p>
-            <lg>
-              <l>Espinoso erial del negro mundo</l>
+
+            <lg n="1">
+              <head type="titulo_estrofa">I.</head>
+              <l rend="indent">Espinoso erial del negro mundo</l>
               <l>Errante peregrino atravesé,</l>
               <l>Para infeliz ante mis ojos verte</l>
               <l>Cual ángel del Emplreo aparecer.</l>
-            </lg>
-            <lg>
-              <l>Y te adoré... creyendo ver ceñida</l>
+              <l rend="indent">Y te adoré... creyendo ver ceñida</l>
               <l>De aureola celeste la tu sien,</l>
               <l>Sin advertir tras tu sonrisa de ángel,</l>
               <l>Los mentidos halagos de mujer !</l>
             </lg>
-            <pb n="2" source="Varios_030_2.jpg" facs="fedora_Varios_030_2/full/full/0/default.jpg"/>
+
+            <pb n="2" source="Varios_030_2.jpg" facs="varios/Varios_030_2.jpg/"/>
+
             <fw type="paginaNum">22</fw>
-            <p><lb/>II.</p>
-            <lg>
-              <l>En aras de mi pecho ante tu imágen</l>
+
+            <lg n="2">
+              <head type="titulo_estrofa">II.</head>
+              <l rend="indent">En aras de mi pecho ante tu imágen</l>
               <l>Culto rindióte idólatra mi fe,</l>
               <l>Que tu labio engañoso alimentára</l>
               <l>Para gozarte en mi penar despues.</l>
-              <l>¿A qué jurarme amor é idolatría,</l>
+              <l rend="indent">¿A qué jurarme amor é idolatría,</l>
               <l>Y á mi pasion corresponder infiel?...</l>
               <l>¡Ah! no advertí tras tu sonrisa de ángel</l>
               <l>Los mentidos halagos de mujer!</l>
             </lg>
-            <p><lb/>III.</p>
-            <lg>
-              <l>Cuando el premio alcanzar mi amor creyera</l>
+
+            <lg n="3">
+              <head type="titulo_estrofa">III.</head>
+              <l rend="indent">Cuando el premio alcanzar mi amor creyera</l>
               <l>Tú le distes á apurar toda la hiel,</l>
               <l>Que del horde á las heces ¡ay! encierra</l>
               <l>La fementida copa del desden.</l>
-              <l>¡Oh! ¡maldicion! á aquel fonesto dia</l>
+              <l rend="indent">¡Oh! ¡maldicion! á aquel fonesto dia</l>
               <l>Que á un falso amor mi vida consagré,</l>
               <l>Sin advertir tras tu sonrisa de ángel</l>
               <l>Los mentidos halagos de mujer.</l>
             </lg>
-            <p><lb/>IV.</p>
-            <lg>
-              <l>Queda en paz ¡oh mujer! y si algun dia</l>
+
+            <lg n="4">
+              <head type="titulo_estrofa"><lb/>IV.</head>
+              <l rend="indent">Queda en paz ¡oh mujer! y si algun dia</l>
               <l>Tu sueño turba un desengaño cruel,</l>
               <l>Que el mundo te depare en justo agravio</l>
               <l>Para abatir tu orgullo y altivez;</l>
@@ -885,56 +900,62 @@
               <l>De amargura apurando hasta las heces</l>
               <l>La fementida copa del desden!</l>
             </lg>
-            <p><lb/>—J. A. C. —</p>
+
+            <p><lb/>—J. A. C.—</p>
           </div>
-          <div n="2" type="parte">
+
+          <div n="2">
             <head type="titulo_cancion" rend="negrita"><lb/>16. LA TEMPESTAD.</head>
-            <p><lb/>I.</p>
-            <lg>
-              <l>Encapotado el cielo</l>
+
+            <lg n="1">
+              <head type="titulo_estrofa"><lb/>I.</head>
+              <l rend="indent">Encapotado el cielo</l>
               <l>Arroja fulgor pálido,</l>
               <l>Y el horizonte alumbran</l>
               <l>Cruzando los relámpagos</l>
               <l>Y el rayo destructor.</l>
-            </lg>
-            <lg>
-              <l>Y al tétrico estallido</l>
+              <l rend="indent">Y al tétrico estallido</l>
               <l>Del huracan indómito,</l>
               <l>Las nubes desgarrando,</l>
               <l>Suena con furor hórrido</l>
               <l>El trueno aterrador.</l>
             </lg>
-            <pb n="3" source="Varios_030_3.jpg" facs="fedora_Varios_030_3/full/full/0/default.jpg"/>
+
+            <pb n="3" source="Varios_030_3.jpg" facs="varios/Varios_030_3.jpg/"/>
+
             <fw type="paginaNum">23</fw>
-            <p><lb/>II.</p>
-            <lg>
-              <l>El mar embravecido</l>
+
+            <lg n="2">
+              <head type="titulo_estrofa"><lb/>II.</head>
+              <l rend="indent">El mar embravecido</l>
               <l>Mugiendo ronco y lúgubre,</l>
               <l>Con infernal resuello,</l>
               <l>Azola hasta la cúspide</l>
               <l>Del infeliz bajel.</l>
-              <l>Y las tremendas olas</l>
+              <l rend="indent">Y las tremendas olas</l>
               <l>En ecos ¡ay! fatídicos,</l>
               <l>Anuncian con espanto</l>
               <l>Al pasajero mísero</l>
               <l>Su suerte asaz cruel !</l>
             </lg>
-            <p><lb/>III.</p>
-            <lg>
-              <l>El triste marinero,</l>
+
+            <lg n="3">
+              <head type="titulo_estrofa">III.</head>
+              <l rend="indent">El triste marinero,</l>
               <l>Previendo su fin trágico,</l>
               <l>Callado... taciturno...</l>
               <l>Y cual centella, rápido,</l>
               <l>No cesa en trabajar!...</l>
-              <l>Mas vano es ya su esfuerzo,</l>
+              <l rend="indent">Mas vano es ya su esfuerzo,</l>
               <l>Que el buque poco sólido,</l>
               <l>A merced de las olas,</l>
               <l>Espera el golpe próximo</l>
               <l>Que le hundirá en el mar!!!</l>
             </lg>
-            <p><lb/>IV.</p>
-            <lg>
-              <l>En tanto brama fiera</l>
+
+            <lg n="4">
+              <head type="titulo_estrofa"><lb/>IV.</head>
+              <l rend="indent">En tanto brama fiera</l>
               <l>La tempestad indómita:</l>
               <l>Y férvidas plegarias</l>
               <l>Las infelices víctimas</l>
@@ -945,13 +966,15 @@
               <l>Que eleva jóven cándida</l>
               <l>Al supremo Hacedor!!!</l>
             </lg>
-            <p><lb/>—B. C. —</p>
+            <p><lb/>—B. C.—</p>
           </div>
-          <div n="3" type="parte">
+
+          <div n="3">
             <head type="titulo_cancion"><lb/>17. RECUERDOS DE MI INFANCIA.</head>
-            <p><lb/>I.</p>
-            <lg>
-              <l>Mi corazon gozaba tranquilmente</l>
+
+            <lg n="1">
+              <head type="titulo_estrofa">I.</head>
+              <l rend="indent">Mi corazon gozaba tranquilmente</l>
               <l>De la dorada edad de la inocencia,</l>
               <l>Los juegos que endulzáran la existencia</l>
               <l>Si rápida no huyera aquella edad.</l>
@@ -960,9 +983,10 @@
               <l>La ilusion desaparece de la infancia,</l>
               <l>Dejando, en cambio, amarga realidad!</l>
             </lg>
-            <p><lb/>II.</p>
-            <lg>
-              <l>Acaso porfié en el desvario</l>
+
+            <lg n="2">
+              <head type="titulo_estrofa">II.</head>
+              <l rend="indent">Acaso porfié en el desvario</l>
               <l>Que afectaba mi alma candorosa,</l>
               <l>Jamás rendir ofrendas á una hermosa...</l>
               <l>Jamás victima ser de una pasion!</l>
@@ -971,11 +995,14 @@
               <l>Y no veia el dardo que inclemente</l>
               <l>De contínuo amagaba al corazon.</l>
             </lg>
-            <pb n="4" source="Varios_030_4.jpg" facs="fedora_Varios_030_4/full/full/0/default.jpg"/>
+
+            <pb n="4" source="Varios_030_4.jpg" facs="varios/Varios_030_4.jpg/"/>
+
             <fw type="paginaNum">24</fw>
-            <p><lb/>III.</p>
-            <lg>
-              <l>Dichoso ¡ay! conocí siendo muy niño</l>
+
+            <lg n="3">
+              <head type="titulo_estrofa">III.</head>
+              <l rend="indent">Dichoso ¡ay! conocí siendo muy niño</l>
               <l>Una jóven de angélica hermosura!</l>
               <l>Una inocente y cándida criatura</l>
               <l>Que obra perfecta cra del Creador.</l>
@@ -984,9 +1011,10 @@
               <l>Yo la adoré! mas con amor de hermano,</l>
               <l>Que era á mis ojos el mas puro amor!</l>
             </lg>
-            <p><lb/>IV.</p>
-            <lg>
-              <l>Cien veces al jardin de su morada</l>
+
+            <lg n="4">
+              <head type="titulo_estrofa">IV.</head>
+              <l rend="indent">Cien veces al jardin de su morada</l>
               <l>Al despuntar la aurora yo la via,</l>
               <l>De flores mil, tejer con alegría,</l>
               <l>Guirnaldas con que adornar su rica sien.</l>
@@ -995,9 +1023,10 @@
               <l>Escuché con placer cien ruiseñores</l>
               <l>Con sus trinos rendirle el parabien.</l>
             </lg>
-            <p><lb/>V.</p>
-            <lg>
-              <l>Oras veces la via presurosa</l>
+
+            <lg n="5">
+              <head type="titulo_estrofa">V.</head>
+              <l rend="indent">Oras veces la via presurosa</l>
               <l>Al asomarse el sol en el Oriente,</l>
               <l>De sudor inundada su alba frente,</l>
               <l>Yerbas herir con sus aéreos piés,</l>
@@ -1006,9 +1035,10 @@
               <l>Y que al mirar vencida su arrogancia,</l>
               <l>Cruel se marchita... y muerese despues.</l>
             </lg>
-            <p><lb/>VI.</p>
-            <lg>
-              <l>Así sumido siempre en la ignorancia,</l>
+
+            <lg n="6">
+              <head type="titulo_estrofa">VI.</head>
+              <l rend="indent">Así sumido siempre en la ignorancia,</l>
               <l>E inocente vagando entre pensiles,</l>
               <l>Pasaron de la vida quince abriles</l>
               <l>Y el recuerdo de aquella no pasó!</l>
@@ -1017,17 +1047,19 @@
               <l>¡Ay! de Elisa en mi pecho el grato nombre</l>
               <l>Para eterno recuerdo se grabó.</l>
             </lg>
+
             <p><lb/>—J.A. C.—</p>
             <p><lb/>(Es propiedad.)</p>
           </div>
-          <div type="colofon_vendedor">
-            <p><lb/>Se halla de venta en casa Antonio Bosch, calle del Bou de la Plaza Nueva,
-                     núm. 3.</p>
-          </div>
-          <div type="colofon_impresora">
-            <p><lb/>Barcelona. —Imp. de Narciso Ramirez, pasaje de Escudillers, núm.
-                     4. —1864.</p>
-          </div>
+        </div>
+
+        <div type="colofon_vendedor">
+          <p rend="cursiva"><lb/>Se halla de venta en casa Antonio Bosch, calle del Bou de la Plaza
+            Nueva, núm. 3.</p>
+        </div>
+        
+        <div type="colofon_impresor">
+          <p><lb/>Barcelona. —Imp. de Narciso Ramirez, pasaje de Escudillers, núm. 4.—1864.</p>
         </div>
       </div>
     </body>

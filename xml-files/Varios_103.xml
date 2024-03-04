@@ -1,18 +1,17 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../Schema/oddPliego_varios.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:alto="http://www.loc.gov/standards/alto/ns-v4#" xml:id="Varios_103">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Varios_103">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>DOCTOR DON TIXERAS. RECEPTA NOVA</title>
+        <title>DOCTOR DON TIXERAS</title>
         <respStmt>
           <name/>
           <resp>Codificación TEI</resp>
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <authority role="rightsHolder">Bibliothèque Universitaire de
-                              Genève</authority>
+        <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
         <availability status="restricted">
           <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
         </availability>
@@ -20,9 +19,8 @@
       <sourceDesc>
         <biblFull>
           <titleStmt>
-            <title type="titulo_completo">DOCTOR DON TIXERAS. RECEPTA NOVA
-                                          Pera curar de mal de Mare, de Orina, de Migranya, de
-                                          Poagre, de Orella y altres diferents.</title>
+            <title type="titulo_completo">DOCTOR DON TIXERAS. RECEPTA NOVA Pera curar de mal de
+              Mare, de Orina, de Migranya, de Poagre, de Orella y altres diferents.</title>
             <title type="titulo_breve">DOCTOR DON TIXERAS.</title>
           </titleStmt>
           <editionStmt>
@@ -31,7 +29,7 @@
           <publicationStmt>
             <publisher>Tipografía española</publisher>
             <pubPlace ref="https://www.geonames.org/3128760/barcelona.html">Barcelona</pubPlace>
-            <date cert="high">1886</date>
+            <date cert="high" when="1886-01-01">1886</date>
           </publicationStmt>
         </biblFull>
         <msDesc>
@@ -39,7 +37,8 @@
             <country>Suisse</country>
             <settlement>Genève</settlement>
             <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"/>
-                                    </repository>
+            </repository>
+            <collection>Colección Varios</collection>
             <idno type="cote"/>
             <idno type="DOI">10.5281/zenodo.6576105</idno>
             <altIdentifier>
@@ -47,10 +46,20 @@
             </altIdentifier>
           </msIdentifier>
           <msContents>
-            <summary/>
+            <summary>Tres receptas</summary>
             <msItem>
-              <locus/>
-              <title/>
+              <locus>1-2</locus>
+              <title>DOCTOR DON TIXERAS. RECEPTA NOVA Pera curar de mal de Mare, de Orina, de
+                Migranya, de Poagre, de Orella y altres diferents.</title>
+            </msItem>
+            <msItem>
+              <locus>3</locus>
+              <title>Recepta pera curar de tots mals, y preservativa de totas enfermetats, viurer
+                alegre', y allargar la vida fins á la mort.</title>
+            </msItem>
+            <msItem>
+              <locus>4</locus>
+              <title>Licencia para ventosear.</title>
             </msItem>
           </msContents>
           <physDesc>
@@ -99,18 +108,17 @@
     </fileDesc>
     <encodingDesc>
       <projectDesc>
-        <p>Este archivo fue creado en el marco del proyecto Desenrollando el
-                              Cordel/Démêler le cordel/Untangling the cordel, dirigido por la
-                              profesora Constance Carta de la Universidad de Ginebra, con el apoyo
-                              de la Fundación filantrópica Famille Sandoz-Monique de Meuron.</p>
+        <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+          cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la Universidad
+          de Ginebra, con el apoyo de la Fundación filantrópica Famille Sandoz-Monique de
+          Meuron.</p>
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR non corregido</p>
+          <p>OCR no corregido</p>
         </correction>
         <normalization>
-          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto
-                                    original.</p>
+          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
         </normalization>
         <punctuation>
           <p>Se conserva la puntuación original.</p>
@@ -119,23 +127,26 @@
     </encodingDesc>
     <profileDesc>
       <langUsage>
-        <language ident="es">Español</language>
+        <language ident="ca">Catalán</language>
       </langUsage>
       <textClass>
         <keywords xml:base="http://datos.bne.es/tema/">
-          <term target="XX5418613.html" type="tipo_texto">Chistes</term>
+          <term target="XX4344384.html" type="tipo_texto">Recetas</term>
           <term type="tipo_estrofa"/>
-          <term type="verso_prosa">Verso</term>
-          <term type="verso_prosa">Prosa</term>
+          <term type="verso_prosa">Verso y prosa</term>
           <term type="sagrado_profano">Profano</term>
         </keywords>
       </textClass>
     </profileDesc>
     <revisionDesc>
-      <change when="2022-07-27" who="#PJ">Création du fichier TEI P5 et encodage du
-                        corps du texte</change>
+      <change when="2022-07-27" who="#PJ">Création du fichier TEI P5 et encodage du corps du
+        texte</change>
+      <change when="2024-01-09" who="#EL">Add the IIIF links</change>
     </revisionDesc>
   </teiHeader>
+  <facsimile>
+    <graphic url="varios/Varios_103_1.jpg/full/200,/0/default.jpg"/>
+  </facsimile>
   <sourceDoc xml:id="automaticTranscription">
     <surface xml:id="Varios_103_1" type="page" cert="silver">
       <graphic url="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_103_1/full/full/0/default.jpg"/>
@@ -160,13 +171,12 @@
       <zone xml:id="Varios_103_1_BT227_2" n="2" type="MainZone" subtype="columns" points="320,1925 320,2082 1938,2082 1938,1933 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_103_1/320,1925,1618,157/full/0/default" corresp="MainZone:columns">
         <zone xml:id="Varios_103_1_BT227_2_LT83_1" type="DefaultLine" subtype="none" points="364,1967 366,1901 419,1916 576,1903 594,1903 597,1903 597,1903 597,1903 599,1903 599,1903 604,1903 637,1916 842,1908 936,1906 938,1906 938,1906 938,1906 966,1911 1006,1919 1123,1913 1244,1908 1247,1908 1247,1908 1247,1908 1285,1916 1320,1924 1437,1919 1578,1913 1581,1913 1765,1926 1798,1926 1801,1926 1834,1913 1834,1913 1836,1913 1836,1913 1839,1913 1839,1913 1839,1913 1910,1929 1912,1979 1907,2010 1760,1997 1662,2007 1621,2010 1621,2010 1619,2010 1619,2010 1616,2010 1616,2010 1616,2010 1614,2010 1614,2010 1614,2007 1611,2004 1598,1994 1568,2004 1558,2007 1555,2007 1555,2007 1555,2007 1553,2007 1553,2007 1525,2004 1452,1994 1376,2002 1310,2007 1310,2007 1308,2007 1308,2007 1305,2007 1280,1999 1254,1992 1244,1999 1237,2004 1234,2004 1234,2004 1234,2004 1232,2004 1232,2004 1229,2004 807,1992 796,1992 796,1992 771,2002 771,2002 769,2002 769,2002 769,2002 766,2002 766,2002 766,2002 764,2002 764,2002 761,2002 743,1989 741,1989 721,1989 541,1999 538,1999 538,1999 359,1982 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_103_1/359,1901,1553,109/full/0/default" corresp="DefaultLine">
           <path xml:id="Varios_103_1_BT227_2_LT83_1_1" points="364,1967 1912,1979 " corresp="DefaultLine"/>
-          <line>Vá á continuació la de D. Cristófol, que es prespectiva de
-                                    totas las enfer¬</line>
+          <line>Vá á continuació la de D. Cristófol, que es prespectiva de totas las
+            enfer¬</line>
         </zone>
         <zone xml:id="Varios_103_1_BT227_2_LT83_2" type="DefaultLine" subtype="none" points="404,2030 404,1984 1862,1999 1864,2045 1857,2075 1811,2063 1768,2075 1735,2083 1733,2083 1733,2083 1730,2083 1730,2083 1730,2083 1728,2083 1728,2083 1728,2083 1725,2083 1725,2083 1725,2080 1715,2073 1705,2063 1674,2063 1662,2073 1652,2080 1652,2083 1652,2083 1649,2083 1649,2083 1649,2083 1647,2083 1647,2083 1644,2083 1492,2080 1492,2080 1492,2080 1406,2068 1368,2060 1361,2065 1351,2075 1351,2075 1348,2075 1348,2075 1348,2075 1345,2075 1345,2075 1345,2075 1252,2078 1249,2078 1249,2078 1247,2078 1247,2078 1247,2078 1244,2078 1224,2065 1211,2075 1211,2078 1211,2078 1209,2078 1209,2078 1209,2078 1206,2078 1206,2078 1206,2080 1143,2080 1141,2078 1085,2075 1085,2075 1085,2075 1082,2075 1082,2075 1080,2075 1080,2075 1060,2060 1052,2055 961,2058 753,2063 751,2063 751,2063 657,2050 645,2050 574,2050 490,2050 450,2070 450,2070 450,2070 447,2070 447,2070 447,2070 445,2070 445,2070 442,2070 442,2070 442,2070 397,2045 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_103_1/397,1984,1467,99/full/0/default" corresp="DefaultLine">
           <path xml:id="Varios_103_1_BT227_2_LT83_2_1" points="404,2030 1864,2045 " corresp="DefaultLine"/>
-          <line>metats, y método pera viurer alegre y allargar la vida fins á
-                                    la mort.</line>
+          <line>metats, y método pera viurer alegre y allargar la vida fins á la mort.</line>
         </zone>
       </zone>
       <zone xml:id="Varios_103_1_BT227_3" n="3" type="MainZone" subtype="columns" points="315,2121 315,2525 1082,2525 1082,2121 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_103_1/315,2121,767,404/full/0/default" corresp="MainZone:columns">
@@ -597,8 +607,7 @@
         </zone>
         <zone xml:id="Varios_103_3_BT223_1_LT84_2" type="HeadingLine" subtype="none" points="263,1251 258,1198 1869,1178 1877,1226 1874,1241 263,1269 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_103_3/258,1178,1619,91/full/0/default" corresp="HeadingLine">
           <path xml:id="Varios_103_3_BT223_1_LT84_2_1" points="263,1251 1092,1231 1877,1226 "/>
-          <line>pera curar de tots mals, y preservativa de totas
-                                    enfermetats,</line>
+          <line>pera curar de tots mals, y preservativa de totas enfermetats,</line>
         </zone>
         <zone xml:id="Varios_103_3_BT223_1_LT84_3" type="HeadingLine" subtype="none" points="442,1286 437,1241 1687,1228 1695,1266 1695,1294 442,1309 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_103_3/437,1228,1258,81/full/0/default" corresp="HeadingLine">
           <path xml:id="Varios_103_3_BT223_1_LT84_3_1" points="442,1286 1695,1266 "/>
@@ -1047,8 +1056,8 @@
       <zone xml:id="Varios_103_4_BT228_6" n="6" type="MarginTextZone" subtype="colophon" points="390,2294 380,2507 1906,2507 1910,2319 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_103_4/380,2294,1530,213/full/0/default" corresp="MarginTextZone:colophon">
         <zone xml:id="Varios_103_4_BT228_6_LT83_1" type="DefaultLine" subtype="none" points="425,2346 425,2283 1867,2308 1867,2363 1864,2389 1808,2389 1806,2389 1763,2417 1760,2417 1760,2417 1760,2417 1758,2417 1758,2417 1755,2417 1502,2412 1502,2412 1502,2412 1500,2412 1500,2412 1497,2412 1464,2391 1449,2381 1216,2381 1201,2391 1201,2394 1201,2394 1199,2394 1199,2394 1199,2394 1196,2394 1196,2394 1194,2394 1194,2394 1194,2394 1181,2391 1128,2381 1113,2394 1103,2401 1103,2404 1103,2404 1100,2404 1100,2404 1098,2404 1098,2404 1098,2404 1037,2406 1037,2409 847,2409 845,2406 845,2406 842,2406 842,2406 812,2394 799,2391 779,2396 733,2404 733,2404 733,2404 731,2404 637,2396 554,2389 541,2396 536,2401 536,2401 533,2401 533,2401 531,2401 531,2401 531,2401 528,2401 419,2396 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_103_4/419,2283,1448,134/full/0/default" corresp="DefaultLine">
           <path xml:id="Varios_103_4_BT228_6_LT83_1_1" points="425,2346 1867,2363 "/>
-          <line>Se hallará de venta en casa de los sucesores de Antonio Bosch,
-                                    calle del Bou de la Plaza Nueva, núm. 13. tienda.</line>
+          <line>Se hallará de venta en casa de los sucesores de Antonio Bosch, calle del Bou de la
+            Plaza Nueva, núm. 13. tienda.</line>
         </zone>
         <zone xml:id="Varios_103_4_BT228_6_LT83_2" type="DefaultLine" subtype="none" points="713,2462 713,2381 1566,2396 1566,2477 1563,2523 1469,2523 1467,2523 1426,2551 1424,2551 1424,2551 1424,2551 1421,2551 1421,2551 1421,2553 1345,2553 1343,2551 1343,2551 1340,2551 1340,2551 1340,2551 1295,2528 1275,2518 1176,2530 1062,2543 1062,2543 1060,2543 1060,2543 1057,2543 1057,2543 1057,2543 1034,2533 994,2513 948,2535 928,2543 928,2543 925,2543 925,2543 925,2543 923,2543 819,2540 819,2540 819,2540 817,2540 817,2540 817,2540 814,2540 812,2538 794,2525 710,2538 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_103_4/710,2381,856,172/full/0/default" corresp="DefaultLine">
           <path xml:id="Varios_103_4_BT228_6_LT83_2_1" points="713,2462 1566,2477 "/>
@@ -1060,24 +1069,24 @@
   <text>
     <body>
       <div>
-        <pb n="1" source="Varios_103_1.jpg" facs="fedora_Varios_103_1/full/full/0/default.jpg"/>
-        <div type="parte" n="1">
-          <head type="primer_titulo"><lb/>DOCTOR DON TIXERAS.<lb/>RECEPTA NOVA</head>
-          <head type="subtitulo_parte"><lb/>Pera curar de mal de Mare, de Orina,
-                                    de Migranya, de<lb/>Poagre, de Orella y altres
-                                    diferents.<lb/>Vá á continuació la de D. Cristófol, que es
-                                    prespectiva de totas las enfer¬<lb/>metats, y método pera
-                                    viurer alegre y allargar la vida fins á la mort.</head>
-          <lg>
-            <l>Primerament pendrás las set Cabretas,</l>
+        <div>
+          <pb n="1" source="Varios_103_1.jpg" facs="varios/Varios_103_1.jpg/"/>
+
+          <div type="parte" n="1">
+            <head type="primer_titulo"><lb/><hi rend="negrita">DOCTOR DON TIXERAS.</hi><lb/>RECEPTA
+              NOVA</head>
+            <head type="subtitulo_parte"><lb/>Pera curar de mal de Mare, de Orina, de Migranya,
+              de<lb/>Poagre, de Orella y altres diferents.<lb/>Vá á continuació la de D.
+              Cristófol, que es prespectiva de totas las enfer¬<lb/>metats, y método pera viurer
+              alegre y allargar la vida fins á la mort.</head>
+
+            <l rend="indent">Primerament pendrás las set Cabretas,</l>
             <l>peladas, esmocadas y ben netas:</l>
             <l>Del gran carro del Sol quatre freixuras</l>
             <l>y de tretse mosquits las ferraduras,</l>
             <l>de atropos la Parca las estisoras,</l>
             <l>de un rellotje de Sol un parell de horas,</l>
             <l>de una xinxa torrada las orellas</l>
-          </lg>
-          <lg>
             <l>y de una pussa roja las costellas;</l>
             <l>Quatre dents y vuit unglas de una araña,</l>
             <l>y de mestre Llibori la gran manya,</l>
@@ -1085,10 +1094,11 @@
             <l>vingudas de las islas Filipinas:</l>
             <l>Despullada una mosca tota núa,</l>
             <l>arréncali lo raba de la cúa;</l>
-          </lg>
-          <pb n="2" source="Varios_103_2.jpg" facs="fedora_Varios_103_2/full/full/0/default.jpg"/>
-          <fw type="paginaNum">—2—</fw>
-          <lg>
+
+            <pb n="2" source="Varios_103_2.jpg" facs="varios/Varios_103_2.jpg/"/>
+
+            <fw type="paginaNum">—2—</fw>
+
             <l>y ab set dracmas de llet de lloca blanca,</l>
             <l>y del arbre de Adam un tros de branca,</l>
             <l>ho posarás tot dins una caldera,</l>
@@ -1106,7 +1116,7 @@
             <l>De vent fresch de Llevant una bufada,</l>
             <l>y del pare den Salvi la tonada:</l>
             <l>De frare convidat catorse passos,</l>
-            <l>y de mi, sol, la, re, dotse passos:</l>
+            <l>y de <hi rend="cursiva">mi, sol, la, re</hi>, dotse passos:</l>
             <l>Ens de rahó fregits á la paella,</l>
             <l>y tres anys de la faixa de una vella:</l>
             <l>La cota de Pilat polverisada,</l>
@@ -1131,8 +1141,6 @@
             <l>y de una olla quant se cou pren la escuma;</l>
             <l>Den Ramis la calor, y lo seu vano,</l>
             <l>vint valentías del gran Campuzano;</l>
-          </lg>
-          <lg>
             <l>la millor fior jugada de donsella,</l>
             <l>y del forn de Vulcano una centella:</l>
             <l>Un estarnut de Judas dins de una olla,</l>
@@ -1175,133 +1183,99 @@
             <l>aplícau en lo tercer de Desembre,</l>
             <l>ahont ton cos tindrá major dolencia,</l>
             <l>y veurás del remey la esperiencia.</l>
-          </lg>
-          <note type="propiedad"><lb/>Es propietat.</note>
-          <pb n="3" source="Varios_103_3.jpg" facs="fedora_Varios_103_3/full/full/0/default.jpg"/>
+
+            <p rend="cursiva"><lb/>Es propietat.</p>
+          </div>
+
+          <div type="parte" n="2">
+            <pb n="3" source="Varios_103_3.jpg" facs="varios/Varios_103_3.jpg/"/>
+
+            <head type="primer_titulo"><lb/>RECEPTA</head>
+            <head type="subtitulo"><lb/>pera curar de tots mals, y preservativa de totas
+              enfermetats,<lb/>viurer alegre', y allargar la vida fns á la mort.</head>
+
+            <p rend="indent">
+              <lb/>Pendrás un gros manat de arrels de <lb/>Alegría; dos lliuras de Poch se m' en
+              <lb/>dóna; dos dotzenas de fullas de Bé li <lb/>vaga; un sou de Bella basca em fá;
+              <lb/>mitja mitadella de Qui no li agrada <lb/>que ho deixia, dos culleradas de la
+              <lb/>celebrada conserva qui vol viurer, de <lb/>tot se ha de ríurer; una porcioneta
+              de <lb/>Poca vergonya; setze onsas de Bon <lb/>fetje: aixó es, vuit de Fetje de llus,
+              y <lb/>vuit de Fetje de raijada; una poca de <lb/>escorsa de Qué 'm fa á mí; tres
+              brotets <lb/>de qui ha fet avuy fará demá; quatre <lb/>punyats de Canteu, canteu;
+              onze es¬ <lb/>crúpols de Tarragona manxan: catorze <lb/>dracmas de Si tens pa sech
+              feste sopas.</p>
+
+            <p rend="indent"><lb/>Tot aixó ho escalfarás rient, y ho <lb/>posarás en una olla á
+              bullir sota lo cap¬ <lb/>sal del llit, y te ajeurás, posantni lo cap <lb/>y lo
+              endemá ho treurás, y quant conei <lb/>xerás que han bullitlosdits ingredients
+              <lb/>de síngular y esperimentada virtut, hi <lb/>mesclarás cosa de una pesetade la
+              Figa <lb/>t' hi fau gardela, y ho colocarás ab un <lb/>drap de Festa faxá, ab un
+              brot de Es¬ <lb/>pérat un poch; colat que sia, hi posa¬ <lb/>rás tres grans de
+              esperit de Vesten á la <lb/>pífia, altres tres grans de aixarop de <lb/>Qui no li
+              agradia que 's passegia, ab <lb/>mitja pesseta de confecció de lo que no <lb/>es cou
+              per tú que 's cremia; tot barrei¬ <lb/>jat, ab dos mitadellas de Dexaume está <lb/>y
+              dos diners de Déixau correr.</p>
+
+            <p rend="indent"><lb/>Després passeijat ab gent de bon <lb/>humor, menja bé, y beu
+              millor, y tot <lb/>aixó en qualsevol hora te gustia, y <lb/>quant estigas cansat, per
+              no estar <lb/>ociós, cálat á jáurer; de esta medicina <lb/>ne pendrás á lo menos
+              tres vegadas <lb/>al dia.</p>
+
+            <p rend="indent"><lb/>Advertinte, que si algú te vé á bus¬ <lb/>car algun enredo ó
+              pesar, antes de es¬ <lb/>plicarse, dígali que estás ab remeys, <lb/>y sens acabarlo
+              de escoltar, despát¬ <lb/>xal á la fresca, altrament dita Recep¬ <lb/>ta no fará
+              efecte.</p>
+          </div>
+
+          <div type="parte" n="3">
+            <pb n="4" source="Varios_103_4.jpg" facs="varios/Varios_103_4.jpg/"/>
+
+            <fw type="paginaNum">—4—</fw>
+
+            <head type="titulo_parte"><lb/>LICENCIA PARA VENTOSEAR.</head>
+
+            <p><lb/>Nos el Dr. D. Canuto de Montan¬ <lb/>chez, Catedrático de medicina en la
+              <lb/>Universidad de Bésamelanca, y Pro¬ <lb/>tomédico de estos Reinos, á todos los
+              <lb/>que la presente vieren, salud y sarna <lb/>para rascar, etc., sabed: Que ante Nos
+              <lb/>pareció la parte de <lb/>diciendo que padece humores flatulen¬ <lb/>tos,
+              morbosidades y epilépticas supu¬ <lb/>raciones, por lo cual le es de conocido
+              <lb/>perjuicio detenerlas VENTOSIDADES <lb/>segun aquello de nuestro Hipócritas:
+              <lb/>Ventósita, sin etenetur, qui retienen <lb/>morietur, de ideo espellatur. Y
+              habien¬ <lb/>do sido remitido á Nos la siguiente <lb/>peticion y habernos, además
+              hecho re¬ <lb/>lacion de sus achaques, y ser esta su <lb/>demanda: Por tanto y por lo
+              que á Nos <lb/>toca, damos y concedemos licencia á <lb/>para que delante ó detrás
+              <lb/>de cualquier persona, de cualquier gé¬ <lb/>nero ó estado y condición que
+              fuere, <lb/>pueda, sin contravenir álas leyes de la <lb/>cortesía, espeler sus
+              VENTOSIDADES <lb/>con calidad y condicion que sea con <lb/>ESTREPITO, dejándo su
+              derecho salvo <lb/>á los circunstantes, para quedigan: con <lb/>perdon para ustedes;
+              para la parra de <lb/>Blas, que echa cuernos por uvas, sór¬ <lb/>bete ese huevo y
+              echa las cáscaras al <lb/>perro: cornadade buey castellano, que <lb/>entra de
+              invierno y sale de verano; la <lb/>maza de Fraga, que saca polvo debajo <lb/>del agua;
+              aguja de espartero, azote de <lb/>cochero, cerote de zapatero, con lo de <lb/>por ahi
+              comas carne por la boca mier¬ <lb/>da, y Papa te vea la madre que te pa¬ <lb/>rió; en
+              las sopas te lo halles; con esa <lb/>música te entierren; por donde salió el
+              <lb/>pedo meta el diablo el dedo, la vibora <lb/>el pico, el puerco el hocico, el toro
+              el <lb/>cuerno, el leon la mano, el cimborio <lb/>del Escorial, la Giralda de Sevilla,
+              el <lb/>Miguelete de Valencia, la torre nueva <lb/>de Zaragoza, sal y vinagre y el
+              reme¬ <lb/>dio del fraile con todas las demás <lb/>cláusulas del caso.</p>
+
+            <p><lb/>Dada en la secreta sala de nuestro <lb/>Palacio, firmada de nuestro nombre.
+              <lb/>sellada con el sello de nuestro Oficio, <lb/>y refrendada de nuestro infrascrito
+              <lb/>Secretario á 3l del mes de los Nabos <lb/>del corriente año.</p>
+
+            <p><lb/>Dr. D. <hi rend="cursiva">Canuto de Montanchez.</hi><lb/>Por mandato de Lic.
+              Sóplame acá, <lb/><hi rend="cursiva">Toribio Chupeta</hi>.</p>
+
+            <trailer>FIN.</trailer>
+          </div>
         </div>
-        <div type="parte" n="2">
-          <head type="titulo_parte"><lb/>RECEPTA<lb/>pera curar de tots mals, y preservativa de
-                                    totas enfermetats,<lb/>viurer alegre', y allargar la vida fns á
-                                    la mort.</head>
-          <lg>
-            <l>Pendrás un gros manat de arrels de</l>
-            <l>Alegría; dos lliuras de Poch se m' en</l>
-            <l>dóna; dos dotzenas de fullas de Bé li</l>
-            <l>vaga; un sou de Bella basca em fá;</l>
-            <l>mitja mitadella de Qui no li agrada</l>
-            <l>que ho deixia, dos culleradas de la</l>
-            <l>celebrada conserva qui vol viurer, de</l>
-            <l>tot se ha de ríurer; una porcioneta de</l>
-            <l>Poca vergonya; setze onsas de Bon</l>
-            <l>fetje: aixó es, vuit de Fetje de llus, y</l>
-            <l>vuit de Fetje de raijada; una poca de</l>
-            <l>escorsa de Qué 'm fa á mí; tres brotets</l>
-            <l>de qui ha fet avuy fará demá; quatre</l>
-            <l>punyats de Canteu, canteu; onze es¬</l>
-            <l>crúpols de Tarragona manxan: catorze</l>
-            <l>dracmas de Si tens pa sech feste sopas.</l>
-            <l>Tot aixó ho escalfarás rient, y ho</l>
-            <l>posarás en una olla á bullir sota lo cap¬</l>
-            <l>sal del llit, y te ajeurás, posantni lo cap</l>
-            <l>y lo endemá ho treurás, y quant conei</l>
-            <l>xerás que han bullitlosdits ingredients</l>
-            <l>de síngular y esperimentada virtut, hi</l>
-            <l>mesclarás cosa de una pesetade la Figa</l>
-          </lg>
-          <lg>
-            <l>t' hi fau gardela, y ho colocarás ab un</l>
-            <l>drap de Festa faxá, ab un brot de Es¬</l>
-            <l>pérat un poch; colat que sia, hi posa¬</l>
-            <l>rás tres grans de esperit de Vesten á la</l>
-            <l>pífia, altres tres grans de aixarop de</l>
-            <l>Qui no li agradia que 's passegia, ab</l>
-            <l>mitja pesseta de confecció de lo que no</l>
-            <l>es cou per tú que 's cremia; tot barrei¬</l>
-            <l>jat, ab dos mitadellas de Dexaume está</l>
-            <l>y dos diners de Déixau correr.</l>
-            <l>Després passeijat ab gent de bon</l>
-            <l>humor, menja bé, y beu millor, y tot</l>
-            <l>aixó en qualsevol hora te gustia, y</l>
-            <l>quant estigas cansat, per no estar</l>
-            <l>ociós, cálat á jáurer; de esta medicina</l>
-            <l>ne pendrás á lo menos tres vegadas</l>
-            <l>al dia.</l>
-            <l>Advertinte, que si algú te vé á bus¬</l>
-            <l>car algun enredo ó pesar, antes de es¬</l>
-            <l>plicarse, dígali que estás ab remeys,</l>
-            <l>y sens acabarlo de escoltar, despát¬</l>
-            <l>xal á la fresca, altrament dita Recep¬</l>
-            <l>ta no fará efecte.</l>
-          </lg>
-          <pb n="4" source="Varios_103_4.jpg" facs="fedora_Varios_103_4/full/full/0/default.jpg"/>
-          <fw type="paginaNum">—4—</fw>
-        </div>
-        <div type="parte" n="3">
-          <head type="titulo_parte"><lb/>LICENCIA PARA VENTOSEAR.</head>
-          <p><lb/>Nos el Dr. D. Canuto de Montan¬
-                                    <lb/>chez, Catedrático de medicina en la
-                                    <lb/>Universidad de Bésamelanca, y Pro¬
-                                    <lb/>tomédico de estos Reinos, á todos los
-                                    <lb/>que la presente vieren, salud y sarna
-                                    <lb/>para rascar, etc., sabed: Que ante Nos
-                                    <lb/>pareció la parte de
-                                    <lb/>diciendo que padece humores flatulen¬
-                                    <lb/>tos, morbosidades y epilépticas supu¬
-                                    <lb/>raciones, por lo cual le es de conocido
-                                    <lb/>perjuicio detenerlas VENTOSIDADES
-                                    <lb/>segun aquello de nuestro Hipócritas:
-                                    <lb/>Ventósita, sin etenetur, qui retienen
-                                    <lb/>morietur, de ideo espellatur. Y habien¬
-                                    <lb/>do sido remitido á Nos la siguiente
-                                    <lb/>peticion y habernos, además hecho re¬
-                                    <lb/>lacion de sus achaques, y ser esta su
-                                    <lb/>demanda: Por tanto y por lo que á Nos
-                                    <lb/>toca, damos y concedemos licencia á
-                                    <lb/>para que delante ó detrás
-                                    <lb/>de cualquier persona, de cualquier gé¬
-                                    <lb/>nero ó estado y condición que fuere,
-                                    <lb/>pueda, sin contravenir álas leyes de la
-                                    <lb/>cortesía, espeler sus VENTOSIDADES
-                                    <lb/>con calidad y condicion que sea con
-                                    <lb/>ESTREPITO, dejándo su derecho salvo
-                                    <lb/>á los circunstantes, para quedigan: con
-                                    <lb/>perdon para ustedes; para la parra de
-                                    <lb/>Blas, que echa cuernos por uvas, sór¬
-</p>
-          <p><lb/>bete ese huevo y echa las cáscaras al
-                                    <lb/>perro: cornadade buey castellano, que
-                                    <lb/>entra de invierno y sale de verano; la
-                                    <lb/>maza de Fraga, que saca polvo debajo
-                                    <lb/>del agua; aguja de espartero, azote de
-                                    <lb/>cochero, cerote de zapatero, con lo de
-                                    <lb/>por ahi comas carne por la boca mier¬
-                                    <lb/>da, y Papa te vea la madre que te pa¬
-                                    <lb/>rió; en las sopas te lo halles; con esa
-                                    <lb/>música te entierren; por donde salió el
-                                    <lb/>pedo meta el diablo el dedo, la vibora
-                                    <lb/>el pico, el puerco el hocico, el toro el
-                                    <lb/>cuerno, el leon la mano, el cimborio
-                                    <lb/>del Escorial, la Giralda de Sevilla, el
-                                    <lb/>Miguelete de Valencia, la torre nueva
-                                    <lb/>de Zaragoza, sal y vinagre y el reme¬
-                                    <lb/>dio del fraile con todas las demás
-                                    <lb/>cláusulas del caso.
-                                    <lb/>Dada en la secreta sala de nuestro
-                                    <lb/>Palacio, firmada de nuestro nombre.
-                                    <lb/>sellada con el sello de nuestro Oficio,
-                                    <lb/>y refrendada de nuestro infrascrito
-                                    <lb/>Secretario á 3l del mes de los Nabos
-                                    <lb/>del corriente año.
-</p>
-          <p><lb/>Dr. D. <hi rend="cursiva">Canuto de Montanchez.</hi><lb/>Por mandato de Lic. Sóplame acá, <lb/>Toribio
-                                    Chupeta.</p>
-          <trailer>FIN.</trailer>
-        </div>
+        
         <div type="colofón_vendedor">
-          <p><lb/>Se hallará de venta en casa de los sucesores de Antonio Bosch,
-                                    calle del Bou de la Plaza Nueva, núm. 13. tienda.</p>
+          <p><lb/>Se hallará de venta en casa de los sucesores de Antonio Bosch, calle del Bou de la
+            Plaza Nueva, núm. 13. tienda.</p>
         </div>
-        <div type="colofon_impresora" n="2">
+
+        <div type="colofon_impresor">
           <p><lb/>Barcelona.— Tipografía Española, Hospital, 87. —1886.</p>
         </div>
       </div>

@@ -1,18 +1,17 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../Schema/oddPliego_varios.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:alto="http://www.loc.gov/standards/alto/ns-v4#" xml:id="Varios_047">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Varios_047">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>D. JACINTO DEL CASTILLO Y DONA LEONOR DE LA ROSA Relación de la horrorosa muerte que sufrieron estos dos fieles amantes en Argelia, por ser firmes en sus promesas de amor y en la fé de Jesucristo.</title>
+        <title>D. JACINTO DEL CASTILLO Y DONA LEONOR DE LA ROSA</title>
         <respStmt>
           <name/>
           <resp>Codificación TEI</resp>
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <authority role="rightsHolder">Bibliothèque Universitaire de
-                            Genève</authority>
+        <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
         <availability status="restricted">
           <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
         </availability>
@@ -20,16 +19,18 @@
       <sourceDesc>
         <biblFull>
           <titleStmt>
-            <title type="titulo_completo">D. JACINTO DEL CASTILLO Y DONA LEONOR DE LA ROSA</title>
-            <title type="titulo_breve">D. JACINTO DEL CASTILLO Y DONA LEONOR DE LA ROSA Relación de la horrorosa muerte que sufrieron estos dos fieles amantes en Argelia, por ser firmes en sus promesas de amor y en la fé de Jesucristo.</title>
+            <title type="titulo_breve">D. JACINTO DEL CASTILLO Y DONA LEONOR DE LA ROSA</title>
+            <title type="titulo_completo">D. JACINTO DEL CASTILLO Y DONA LEONOR DE LA ROSA Relación de
+              la horrorosa muerte que sufrieron estos dos fieles amantes en Argelia, por ser firmes
+              en sus promesas de amor y en la fé de Jesucristo.</title>
           </titleStmt>
           <editionStmt>
             <p/>
           </editionStmt>
           <publicationStmt>
             <publisher>El Abanico</publisher>
-            <pubPlace ref="https://www.geonames.org/3128760/barcelona.html">Barcelona, Hospital, 19</pubPlace>
-            <date>[s.a]</date>
+            <pubPlace ref="https://www.geonames.org/3128760/barcelona.html">Barcelona</pubPlace>
+            <date cert="low" when="1800-01-01">[s.a.]</date>
           </publicationStmt>
         </biblFull>
         <msDesc>
@@ -37,7 +38,8 @@
             <country>Suisse</country>
             <settlement>Genève</settlement>
             <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"/>
-                  </repository>
+            </repository>
+            <collection>Colección Varios</collection>
             <idno type="cote"/>
             <idno type="DOI">10.5281/zenodo.6556184</idno>
             <altIdentifier>
@@ -66,7 +68,7 @@
               </layoutDesc>
             </objectDesc>
             <decoDesc>
-              <summary n="1">Uno grabado (p.1) </summary>
+              <summary n="1">Un grabado (p.1) </summary>
               <decoNote type="lista_grabados">
                 <list>
                   <item corresp="grabado_v_047_1.xml">grabado_v_047_1</item>
@@ -87,18 +89,17 @@
     </fileDesc>
     <encodingDesc>
       <projectDesc>
-        <p>Este archivo fue creado en el marco del proyecto Desenrollando el
-                            Cordel/Démêler le cordel/Untangling the cordel, dirigido por la
-                            profesora Constance Carta de la Universidad de Ginebra, con el apoyo de
-                            la Fundación filantrópica Famille Sandoz-Monique de Meuron.</p>
+        <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+          cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la Universidad
+          de Ginebra, con el apoyo de la Fundación filantrópica Famille Sandoz-Monique de
+          Meuron.</p>
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR non corregido</p>
+          <p>OCR no corregido</p>
         </correction>
         <normalization>
-          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto
-                                original.</p>
+          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
         </normalization>
         <punctuation>
           <p>Se conserva la puntuación original.</p>
@@ -120,10 +121,11 @@
     </profileDesc>
     <revisionDesc>
       <change when="2022-05-15" who="#PJ">Création du fichier TEI P5 et encodage du corps du
-                        texte</change>
+        texte</change>
+<change when="2024-01-09" who="#EL">Add the IIIF links</change>
     </revisionDesc>
   </teiHeader>
-  <sourceDoc xml:id="automaticTranscription">
+  <facsimile><graphic url="varios/Varios_047_1.jpg/full/200,/0/default.jpg"/></facsimile><sourceDoc xml:id="automaticTranscription">
     <surface xml:id="Varios_047_1" type="page" cert="silver">
       <graphic url="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_047_1/full/full/0/default.jpg"/>
       <zone xml:id="Varios_047_1_BT223_1" n="1" type="CustomZone" subtype="title" points="1603,1393 1647,1482 1623,1484 1623,1483 1310,1483 1310,1536 1343,1536 1343,1550 1631,1550 1612,1568 1594,1654 1549,1660 1154,1660 1154,1706 1178,1706 1103,1715 614,1715 567,1708 576,1708 576,1653 132,1653 126,1592 125,1595 123,1554 422,1554 422,1480 120,1480 114,1470 149,1384 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_047_1/114,1384,1533,331/full/0/default" corresp="CustomZone:title">
@@ -1576,11 +1578,15 @@
     <body>
       <div>
         <div>
-          <pb n="1" source="Varios_047_1.jpg" facs="fedora_Varios_047_1/full/full/0/default.jpg"/>
-          <head type="primer_titulo"><lb/><hi rend="negrita">D. JACINTO DEL CASTILLO</hi><lb/>Y DONA LEONOR DE LA ROSA</head>
-          <head type="subtitulo_parte" rend="negrita"><lb/>Relación de la horrorosa muerte que sufrieron estos dos fieles amantes en<lb/>Argelia, por ser firmes en sus promesas de amor y en la fé de Jesucristo.<lb/>SEGUNDA PARTE</head>
-          <lg>
-            <l>Ya dije en la primera parte,</l>
+          <pb n="1" source="Varios_047_1.jpg" facs="varios/Varios_047_1.jpg/"/>
+          
+          <head type="primer_titulo"><lb/><hi rend="negrita">D. JACINTO DEL CASTILLO</hi><lb/>Y DONA
+            LEONOR DE LA ROSA</head>
+          <head type="subtitulo" rend="negrita"><lb/>Relación de la horrorosa muerte que
+            sufrieron estos dos fieles amantes en<lb/>Argelia, por ser firmes en sus promesas de
+            amor y en la fé de Jesucristo.<lb/>SEGUNDA PARTE</head>
+          
+            <l rend="indent">Ya dije en la primera parte,</l>
             <l>como van por el camino</l>
             <l>don Jacinto con Leonor,</l>
             <l>ambos del amor rendidos.</l>
@@ -1596,8 +1602,7 @@
             <l>hasta que el cielo divino</l>
             <l>les eche su bendición,</l>
             <l>esto, Señor, os suplico;</l>
-          </lg>
-          <lg>
+          
             <l>porque quiero que me goces</l>
             <l>no galán sino marido.</l>
             <l>Y como hombre discreto:</l>
@@ -1614,9 +1619,9 @@
             <l>con que ajustó don Jacinto</l>
             <l>el viaje y se embarcaron</l>
             <l>con contento y regocijo</l>
-          </lg>
-          <pb n="2" source="Varios_047_2.jpg" facs="fedora_Varios_047_2/full/full/0/default.jpg"/>
-          <lg>
+          
+          <pb n="2" source="Varios_047_2.jpg" facs="varios/Varios_047_2.jpg/"/>
+
             <l>haciéndose á toda vela;</l>
             <l>mas los trajo la desgracia,</l>
             <l>dos navios argelinos;</l>
@@ -1670,8 +1675,7 @@
             <l>pues lo tengo merecido.</l>
             <l>Zaida que escuchando estaba</l>
             <l>los lamentos de Jacinto,</l>
-          </lg>
-          <lg>
+          
             <l>entró con semblante alegre</l>
             <l>diciendo: Cristiano mío,</l>
             <l>qué tienes que así te quejas</l>
@@ -1725,9 +1729,9 @@
             <l>y replicó don Jacinto:</l>
             <l>No dejaré yo mi ley,</l>
             <l>que eso fuera un barbarismo,</l>
-          </lg>
-          <pb n="3" source="Varios_047_3.jpg" facs="fedora_Varios_047_3/full/full/0/default.jpg"/>
-          <lg>
+          
+          <pb n="3" source="Varios_047_3.jpg" facs="varios/Varios_047_3.jpg/"/>
+
             <l>aunque mil vidas tuviera</l>
             <l>que rendir en sacrificio,</l>
             <l>la ley de Dios resplandezca,</l>
@@ -1781,8 +1785,7 @@
             <l>pues siendo tu amante un rey.</l>
             <l>todo estará á tu servicio,</l>
             <l>y pues te tengo en paraje,</l>
-          </lg>
-          <lg>
+          
             <l>que por imposible miro</l>
             <l>de mí te puedas librar,</l>
             <l>he de hacer el gusto mío,</l>
@@ -1836,9 +1839,9 @@
             <l>y con su sangre teñido:</l>
             <l>prendiéronla, y la llevaron</l>
             <l>adonde está don Jacinto.</l>
-          </lg>
-          <pb n="4" source="Varios_047_4.jpg" facs="fedora_Varios_047_4/full/full/0/default.jpg"/>
-          <lg>
+          
+          <pb n="4" source="Varios_047_4.jpg" facs="varios/Varios_047_4.jpg/"/>
+
             <l>De que se vieron los dos,</l>
             <l>ambos lloran hilo á hilo;</l>
             <l>Jacinto siente á Leonor</l>
@@ -1890,8 +1893,7 @@
             <l>Encima de un carromato</l>
             <l>traían apercibidos</l>
             <l>con dos palos hecho un aspa</l>
-          </lg>
-          <lg>
+          
             <l>y luego entre cuatro ó cinco</l>
             <l>á Leonor la desnudaron,</l>
             <l>deshonestos y atrevidos</l>
@@ -1943,9 +1945,10 @@
             <l>de algún interés movidos,</l>
             <l>para que tengan con esto</l>
             <l>esta historia fin cumplido.</l>
-          </lg>
-          <trailer>FIN</trailer>
+          
+          <trailer rend="negrita">FIN</trailer>
         </div>
+        
         <div type="colofon">
           <p><lb/>Imps. Hospital, 19 «El Abanico»</p>
         </div>

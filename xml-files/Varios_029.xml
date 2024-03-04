@@ -1,16 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../Schema/oddPliego_varios.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:alto="http://www.loc.gov/standards/alto/ns-v4#" xml:id="Varios_029">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Varios_029">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>EL CANTOR DE LAS HERMOSAS. TROBAS DE AMOR DEDICADAS AL DELLO SECSO POR UNOS
-               AFICIONADOS.</title>
+        <title>EL CANTOR DE LAS HERMOSAS.</title>
         <respStmt>
           <name/>
           <resp>Codificación TEI</resp>
-          <note type="propiedad">– B. C.–</note>
-          <note type="propiedad">– J. A. C.–</note>
         </respStmt>
       </titleStmt>
       <publicationStmt>
@@ -22,17 +19,17 @@
       <sourceDesc>
         <biblFull>
           <titleStmt>
-            <title type="titulo_completo">EL CANTOR DE LAS HERMOSAS. TROBAS DE AMOR DEDICADAS
-                     AL DELLO SECSO POR UNOS AFICIONADOS.</title>
+            <title type="titulo_completo">EL CANTOR DE LAS HERMOSAS. TROBAS DE AMOR DEDICADAS AL
+              DELLO SECSO POR UNOS AFICIONADOS.</title>
             <title type="titulo_breve">EL CANTOR DE LAS HERMOSAS</title>
           </titleStmt>
           <editionStmt>
             <p/>
           </editionStmt>
           <publicationStmt>
-            <publisher>A. Bosch</publisher>
+            <publisher>Antonio Bosch</publisher>
             <pubPlace ref="https://www.geonames.org/3128760/barcelona.html">Barcelona</pubPlace>
-            <date>[s.a]</date>
+            <date cert="low" when="1800-01-01">[s.a.]</date>
           </publicationStmt>
         </biblFull>
         <msDesc>
@@ -40,7 +37,8 @@
             <country>Suisse</country>
             <settlement>Genève</settlement>
             <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"/>
-                  </repository>
+            </repository>
+            <collection>Colección Varios</collection>
             <idno type="cote"/>
             <idno type="DOI">10.5281/zenodo.6546910</idno>
             <altIdentifier>
@@ -48,10 +46,17 @@
             </altIdentifier>
           </msIdentifier>
           <msContents>
-            <summary/>
+            <summary>Dos canciones</summary>
             <msItem>
-              <locus/>
-              <title/>
+              <locus>1-2</locus>
+              <title>El chufero</title>
+              <author role="letrista">B. C.</author>
+              <author role="compositor">J. A. C.</author>
+            </msItem>
+            <msItem>
+              <locus>2-4</locus>
+              <title>El cantor de Elisa.</title>
+              <author role="letrista">J. A. C.</author>
             </msItem>
           </msContents>
           <physDesc>
@@ -69,7 +74,7 @@
               </layoutDesc>
             </objectDesc>
             <decoDesc>
-              <summary n="1">Dos grabados (p.1) </summary>
+              <summary n="1">Un grabado (p.1)</summary>
               <decoNote type="lista_grabados">
                 <list>
                   <item corresp="grabado_v_029_1.xml">grabado_v_029_1</item>
@@ -83,7 +88,7 @@
               <p>Imprenta de A. Bosch, calle den Coch, n. 1</p>
             </origin>
             <provenance>Los números de esta coleccion se hellan de venta en la misma
-                     imprenta.</provenance>
+              imprenta.</provenance>
             <acquisition/>
           </history>
         </msDesc>
@@ -92,13 +97,13 @@
     <encodingDesc>
       <projectDesc>
         <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
-               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
-               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
-               Sandoz-Monique de Meuron.</p>
+          cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la Universidad
+          de Ginebra, con el apoyo de la Fundación filantrópica Famille Sandoz-Monique de
+          Meuron.</p>
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR non corregido</p>
+          <p>OCR no corregido</p>
         </correction>
         <normalization>
           <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
@@ -123,10 +128,11 @@
     </profileDesc>
     <revisionDesc>
       <change when="2022-05-10" who="#PJ">Création du fichier TEI P5 et encodage du corps du
-            texte</change>
+        texte</change>
+<change when="2024-01-09" who="#EL">Add the IIIF links</change>
     </revisionDesc>
   </teiHeader>
-  <sourceDoc xml:id="automaticTranscription">
+  <facsimile><graphic url="varios/Varios_029_1.jpg/full/200,/0/default.jpg"/></facsimile><sourceDoc xml:id="automaticTranscription">
     <surface xml:id="Varios_029_1" type="page" cert="silver">
       <graphic url="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_029_1/full/full/0/default.jpg"/>
       <zone xml:id="Varios_029_1_BT221_1" n="1" type="CustomZone" subtype="impresorNum" points="699,67 699,105 803,105 803,67 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_029_1/699,67,104,38/full/0/default" corresp="CustomZone:impresorNum">
@@ -1042,16 +1048,20 @@
     <body>
       <div>
         <div>
-          <pb n="1" source="Varios_029_1.jpg" facs="fedora_Varios_029_1/full/full/0/default.jpg"/>
+          <pb n="1" source="Varios_029_1.jpg" facs="varios/Varios_029_1.jpg/"/>
+
           <fw type="impresorNum">Núm. 10.</fw>
-          <head type="primer_titulo" rend="negrita"><lb/>EL<lb/>CANTOR DE LAS HERMOSAS.<lb/>TROBAS DE AMOR DEDICADAS AL DELLO SECSO
-                  POR UNOS<lb/>AFICIONADOS.</head>
-          <div n="1" type="parte">
-            <head type="titulo_cancion" rend="negrita"><lb/>29. EL CHUFERO.<lb/>(CANCION VALENCIANA.)</head>
-            <lg>
-              <l>I.</l>
-            </lg>
-            <lg>
+
+          <head type="primer_titulo" rend="negrita"><lb/>EL<lb/>CANTOR DE LAS HERMOSAS.</head>
+          <head type="subtitulo"><lb/>TROBAS DE AMOR DEDICADAS AL DELLO SECSO POR
+            UNOS<lb/>AFICIONADOS.</head>
+
+          <div n="1">
+            <head type="titulo_cancion" rend="negrita"><lb/>29. EL CHUFERO.</head>
+            <head type="subtitulo_cancion"><lb/>(CANCION VALENCIANA.)</head>
+
+            <lg n="1">
+              <head type="titulo_estrofa">I.</head>
               <l>Aun que batje en lo cabás</l>
               <l>Pera guañar la pitansa,</l>
               <l>Portant chufes y balansa</l>
@@ -1059,8 +1069,6 @@
               <l>Visch millor que cualsevol;</l>
               <l>Y venent mercaeria,</l>
               <l>Pase alegrement el dia</l>
-            </lg>
-            <lg>
               <l>Y plegue cuan pont lo sol.</l>
               <l>Pero á tot hora</l>
               <l>Tinch que cridar</l>
@@ -1069,10 +1077,13 @@
               <l>—«El chufero !»</l>
               <l>«Cacabuero ! — boñolero!»</l>
             </lg>
-            <pb n="2" source="Varios_029_2.jpg" facs="fedora_Varios_029_2/full/full/0/default.jpg"/>
+
+            <pb n="2" source="Varios_029_2.jpg" facs="varios/Varios_029_2.jpg/"/>
+
             <fw type="paginaNum">38</fw>
-            <lg>
-              <l>II.</l>
+
+            <lg n="2">
+              <head type="titulo_estrofa">II.</head>
               <l>Nengú em guaña en llibertad;</l>
               <l>A nengú la vida embetje:</l>
               <l>En cap chica yo festeije,</l>
@@ -1088,8 +1099,9 @@
               <l>— «Chufes dols !»</l>
               <l>« Cacahuets! y bons buñols !»</l>
             </lg>
-            <lg>
-              <l>III.</l>
+
+            <lg n="3">
+              <head type="titulo_estrofa">III.</head>
               <l>Cuant rodant per los carrés</l>
               <l>Trobe una chica templae</l>
               <l>— «Prenme chufes. dic, salae!»</l>
@@ -1105,183 +1117,187 @@
               <l>—«El chufero!»</l>
               <l>« Cacahuero!—Buñolero !»</l>
             </lg>
+
             <p><lb/>—B. C.—</p>
-            <p><lb/>(Musica de J. A. C.)</p>
+            <p rend="cursiva"><lb/>(Musica de J. A. C.)</p>
           </div>
-          <div n="2" type="parte">
+
+          <div n="2">
             <head type="titulo_cancion" rend="negrita"><lb/>30. EL CANTOR DE ELISA.</head>
-            <div>
+
+            <lg n="1">
               <head type="titulo_estrofa"><lb/>1.</head>
               <lg>
                 <l>Era una hermosa noche... en lecho blando</l>
                 <l>Se entrega ELISA bella, al dulce sueño,</l>
                 <l>Sobre su pura frente derramando</l>
                 <l>Copioso Morfeo su beleño.</l>
-                <l>Nada el silencio turba : al dar la una</l>
+                <l rend="indent">Nada el silencio turba : al dar la una</l>
                 <l>Dibújase una sonibra allá á lo lejos,</l>
                 <l>Lestamente avanzando, que la Luna</l>
                 <l>Alumbra con sus pálidos reflejos.</l>
-                <l>Cesó el ronco vibrar de la campana</l>
+                <l rend="indent">Cesó el ronco vibrar de la campana</l>
                 <l>Que anunció la hora. y sin recelo,</l>
                 <l>La sombra al pié paró de una ventana...</l>
                 <l>Su vista fijó en ella con anhelo.</l>
-                <l>A la luz del callado astro que brilla</l>
-              </lg>
-              <lg>
+                <l rend="indent">A la luz del callado astro que brilla</l>
                 <l>Se ve un jóven Cantor de adusta frente</l>
                 <l>Apoyar vacilante en su rodilla</l>
                 <l>Una lira que besa dulcemente.</l>
-                <l>lba á pulsar sus cuerdas satisfecho...</l>
+                <l rend="indent">Iba á pulsar sus cuerdas satisfecho...</l>
                 <l>Mas ay! de su valor necio se espanta!</l>
                 <l>Tiembla su mano... oprímescle el pecho...</l>
                 <l>Y para retirarse se levanta!...</l>
                 <l>. . . . . . . . . . . .</l>
                 <l>. . . . . . . . . . . .</l>
+              </lg>
+
+              <lg>
                 <l>——« Estraña tinidéz, que al alma huella,</l>
                 <l>(Dice con melancólica sonrisa:)</l>
                 <l>«Por qué no he de cantar para mi bella!</l>
                 <l>«Por que no he de cantar para mi ELISA?</l>
-              </lg>
-              <pb n="3" source="Varios_029_3.jpg" facs="fedora_Varios_029_3/full/full/0/default.jpg"/>
-              <fw type="paginaNum">39</fw>
-              <lg>
-                <l>« Celebre ya mi lira esa hermosura:</l>
+
+                <pb n="3" source="Varios_029_3.jpg" facs="varios/Varios_029_3.jpg/"/>
+
+                <fw type="paginaNum">39</fw>
+
+                <l rend="indent">« Celebre ya mi lira esa hermosura:</l>
                 <l>« Celebre de bondad ese tesoro:</l>
                 <l>« Mas nunca, ay! apesar de mi amargura</l>
                 <l>« Mis trobas la revelen que la adoro !»</l>
                 <l>. . . . . . . . . . . .</l>
-              </lg>
-              <lg>
                 <l>. . . . . . . . . . . .</l>
+              </lg>
+
+              <lg>
                 <l>Asi dijo frenético el amante</l>
                 <l>Y un arpejio se oyó de su instrumento</l>
                 <l>Al que nuicra despues de un corto instante</l>
                 <l>El joven Trovador su ronco acento.</l>
               </lg>
-            </div>
-            <div>
+            </lg>
+
+            <lg n="2">
               <head type="titulo_estrofa"><lb/>II.<lb/>(CANCION.)</head>
               <lg>
                 <l>—« Niña hermosa que duermes tranquila</l>
                 <l>«Ay! dispierta un momento y atiende</l>
                 <l>«A la voz del mortal que pretende,</l>
                 <l>« Que le admitas por tu Trovador.</l>
-                <l>«No desoigas mi súplica humilde;</l>
+                <l rend="indent">«No desoigas mi súplica humilde;</l>
                 <l>¿Que aunque el pecho no libre respira,</l>
                 <l>«Solo anhelo cantar con mi lira</l>
                 <l>«Tu hermosura, virtud y candor.</l>
-                <l>«En buenhora ambicionen serviles</l>
+              </lg>
+
+              <lg>
+                <l rend="indent">«En buenhora ambicionen serviles</l>
                 <l>«El favor obtener de un magnate:</l>
                 <l>«Yo tan solo, demócrata vate</l>
                 <l>«Ambiciono á una bella cantar.</l>
-              </lg>
-              <lg>
                 <l>«Y dó an Pueblo hay que impávido luche</l>
                 <l>«Con las hordas del vil despotismo,</l>
                 <l>«Yo ambiciono cantar asi mismo,</l>
                 <l>«A ese Pueblo y á su Libertad!</l>
-                <l>«Largo tiempo hermosisima ELISA</l>
+              </lg>
+
+              <lg>
+                <l rend="indent">«Largo tiempo hermosisima ELISA</l>
                 <l>«A los dos la amistad nos hermana:</l>
                 <l>« De mi afecto pues solo dimana</l>
                 <l>« Que pretenda cantar para tí :</l>
-                <l>« Ali! no, hermosa ¡la gloria me niegues</l>
+                <l rend="indent">« Ah! no, hermosa ¡la gloria me niegues</l>
                 <l>«Eu tu loor de entonar mis canciones:</l>
                 <l>«Goce el alma en dulces emociones</l>
                 <l>«Escuchando de ti, un dulce SÍ!»</l>
               </lg>
-            </div>
-            <div>
+            </lg>
+
+            <lg n="3">
               <head type="titulo_estrofa"><lb/>III.</head>
-              <lg>
-                <l>— Aquí exhalando un suspiro</l>
-                <l>Cesaron del Trovador,</l>
-                <l>Los arpejios de su lira</l>
-                <l>Y el sonido de su voz:</l>
-                <l>Del eco fiel repetido</l>
-                <l>Un dulce SÍ ! se escuchó</l>
-                <l>Que entre los pliegues del aura</l>
-                <l>Rápido azás se estinguió!</l>
-                <l>. . . . . . . . . . .</l>
-                <l>En la ventana elevada</l>
-                <l>Fija su vista el Cantor,</l>
-                <l>Y en el jirar de sus ojos</l>
-                <l>Nótase el tormento atroz</l>
-                <l>De la duda y el deseo</l>
-              </lg>
-              <lg>
-                <l>Que abriga su corazon;</l>
-                <l>Cuando en ella con sorpresa</l>
-                <l>ELISA se presentó,</l>
-                <l>En blanco cendal envuelta</l>
-                <l>Cual celeste aparicion :</l>
-                <l>Mas hermosa es que la Luna</l>
-                <l>Pues eclipsan su fulgor</l>
-                <l>Los hechizos de su rostro</l>
-                <l>Que imájen viva es del Sol.</l>
-                <l>Al salir entre el silencio</l>
-                <l>Su dulce voz resonó...</l>
-                <l>Esa voz grata y sublime</l>
-                <l>Que embriaga el corazon !</l>
-              </lg>
-            </div>
-            <div>
+              <l>— Aquí exhalando un suspiro</l>
+              <l>Cesaron del Trovador,</l>
+              <l>Los arpejios de su lira</l>
+              <l>Y el sonido de su voz:</l>
+              <l>Del eco fiel repetido</l>
+              <l>Un dulce SÍ ! se escuchó</l>
+              <l>Que entre los pliegues del aura</l>
+              <l>Rápido azás se estinguió!</l>
+              <l>. . . . . . . . . . .</l>
+              <l rend="indent">En la ventana elevada</l>
+              <l>Fija su vista el Cantor,</l>
+              <l>Y en el jirar de sus ojos</l>
+              <l>Nótase el tormento atroz</l>
+              <l>De la duda y el deseo</l>
+              <l>Que abriga su corazon;</l>
+              <l>Cuando en ella con sorpresa</l>
+              <l>ELISA se presentó,</l>
+              <l>En blanco cendal envuelta</l>
+              <l>Cual celeste aparicion :</l>
+              <l rend="indent">Mas hermosa es que la Luna</l>
+              <l>Pues eclipsan su fulgor</l>
+              <l>Los hechizos de su rostro</l>
+              <l>Que imájen viva es del Sol.</l>
+              <l rend="indent">Al salir entre el silencio</l>
+              <l>Su dulce voz resonó...</l>
+              <l>Esa voz grata y sublime</l>
+              <l>Que embriaga el corazon !</l>
+            </lg>
+
+            <lg n="4">
               <head type="titulo_estrofa"><lb/>(CANTO.)</head>
-              <lg>
-                <l>—«Porque ajitado asi, Cantor, tu pecho</l>
-                <l>«De mi cariño duda y cruel suspira,</l>
-                <l>«Sabiendo que me place de tu lira</l>
-                <l>«Escuchar el armónico rumer?</l>
-              </lg>
-              <lg>
-                <l>«Calma ..calma ese afan, que el blando lecho</l>
-                <l>«Yo dejaré gozosa en un momento,</l>
-                <l>«Al oir de tu voz el gralo acento,</l>
-                <l>«Que es digno de un sublime Trovador!»</l>
-              </lg>
-              <pb n="4" source="Varios_029_4.jpg" facs="fedora_Varios_029_4/full/full/0/default.jpg"/>
-            </div>
-            <div>
+              <l>—«Porque ajitado asi, Cantor, tu pecho</l>
+              <l>«De mi cariño duda y cruel suspira,</l>
+              <l>«Sabiendo que me place de tu lira</l>
+              <l>«Escuchar el armónico rumer?</l>
+              <l>«Calma ..calma ese afan, que el blando lecho</l>
+              <l>«Yo dejaré gozosa en un momento,</l>
+              <l>«Al oir de tu voz el gralo acento,</l>
+              <l>«Que es digno de un sublime Trovador!»</l>
+            </lg>
+
+            <pb n="4" source="Varios_029_4.jpg" facs="varios/Varios_029_4.jpg/"/>
+
+            <fw type="paginaNum">40</fw>
+
+            <lg n="5">
               <head type="titulo_estrofa"><lb/>IV.</head>
-              <fw type="paginaNum">40</fw>
-              <lg>
-                <l>Asi cantó la hechicera</l>
-                <l>Y el poeta la escuchó</l>
-                <l>Con reverente silencio;</l>
-                <l>Que el sonido de su voz</l>
-                <l>Penetraba en lo profundo</l>
-                <l>De su opreso corazón.</l>
-                <l>. . . . . . . . .</l>
-                <l>. . . . . . . . .</l>
-              </lg>
-              <lg>
-                <l>Ya su pecho suspirando</l>
-                <l>Libro de la lucha atroz</l>
-                <l>Que entre dudas y deseos</l>
-                <l>Por tanto tiempo ocultó,</l>
-                <l>A templar tornó su lira,</l>
-                <l>Y con sosegada voz,</l>
-                <l>Aunque un tanto conmovída</l>
-                <l>De este modo se espresó:</l>
-              </lg>
-            </div>
-            <div>
+              <l>Asi cantó la hechicera</l>
+              <l>Y el poeta la escuchó</l>
+              <l>Con reverente silencio;</l>
+              <l>Que el sonido de su voz</l>
+              <l>Penetraba en lo profundo</l>
+              <l>De su opreso corazón.</l>
+              <l>. . . . . . . . .</l>
+              <l>. . . . . . . . .</l>
+              <l>Ya su pecho suspirando</l>
+              <l>Libro de la lucha atroz</l>
+              <l>Que entre dudas y deseos</l>
+              <l>Por tanto tiempo ocultó,</l>
+              <l>A templar tornó su lira,</l>
+              <l>Y con sosegada voz,</l>
+              <l>Aunque un tanto conmovída</l>
+              <l>De este modo se espresó:</l>
+            </lg>
+
+            <lg n="6">
               <head type="titulo_estrofa"><lb/>(CANCION.)</head>
               <lg>
                 <l>—« Felix mil veces yo mi bella hermana</l>
-                <l>«Que al pié de tu ventana</l>
+                <l rend="indent">«Que al pié de tu ventana</l>
                 <l>«Podré ya tu hellesa celebrar!</l>
                 <l>«Y de la noche en silenciosa hora,</l>
-                <l>«Hasta el salir la aurora,</l>
+                <l rend="indent">«Basta el salir la aurora,</l>
                 <l>«En tu loor mis cantos eutonar!</l>
-              </lg>
-              <lg>
                 <l>«Angel encantador! yo te bendigo</l>
-                <l>«Porque de un fiel amigo</l>
+                <l rend="indent">«Porque de un fiel amigo</l>
                 <l>« Las súplicas acojes con amor:</l>
                 <l>« Que siendo á mis cantares con ternura</l>
-                <l>«Escudo tu hermosura</l>
+                <l rend="indent">«Escudo tu hermosura</l>
                 <l>« Nadie osarà ultrajar á tu Cantor! »</l>
               </lg>
+
               <lg>
                 <l>. . . . . . . . .</l>
                 <l>. . . . . . . . . . . .</l>
@@ -1290,30 +1306,28 @@
                 <l>Cuando á la espalda su lira</l>
                 <l>Retirábase el cantor</l>
                 <l>Rotratado en su semblante</l>
-              </lg>
-              <lg>
                 <l>El placer del corazon.</l>
+              </lg>
+
+              <lg>
                 <l>. . . . . . . . . . . .</l>
                 <l>Feliz noche! tu recuerdo</l>
                 <l>En mi mente se grabó,</l>
                 <l>Porque yo adoraba à ELISA...</l>
                 <l>Y era yo aquel Trovador !</l>
               </lg>
-              <p><lb/>—J. A. C.—</p>
-              <p>
-                <lb/>
-                <hi rend="negrita">Es propiedad.</hi>
-              </p>
-              <div type="colofon_impresora">
-                <p><lb/>Los números de esta coleccion se hellan de venta en la misma
-                           imprenta.</p>
-              </div>
-              <div type="colofon_vendedor">
-                <p><lb/>Barcelona, Imprenta de A. Bosch, calle den Coch, n. 1 piso 1.</p>
-              </div>
-            </div>
+            </lg>
+
+            <p><lb/>—J. A. C.—</p>
+            <p rend="negrita"><lb/>Es propiedad.</p>
           </div>
         </div>
+
+        <div type="colofon_impresor">
+          <p rend="cursiva"><lb/>Los números de esta coleccion se hellan de venta en la misma imprenta.</p>
+          <p><lb/>Barcelona, Imprenta de A. Bosch, calle den Coch, n. 1 piso 1.</p>
+        </div>
+
       </div>
     </body>
   </text>

@@ -28,9 +28,9 @@
             <p/>
           </editionStmt>
           <publicationStmt>
-            <publisher>Despacho: Sucesores de Hernando</publisher>
+            <publisher>Sucesores de Hernando</publisher>
             <pubPlace ref="https://www.geonames.org/3117735/madrid.html">Madrid</pubPlace>
-            <date cert="high">[s.a]</date>
+            <date cert="low" when="1800-01-01">[s.a.]</date>
           </publicationStmt>
         </biblFull>
         <msDesc>
@@ -39,6 +39,7 @@
             <settlement>Genève</settlement>
             <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"/>
                                     </repository>
+            <collection>Colección Varios</collection>
             <idno type="cote"/>
             <idno type="DOI">10.5281/zenodo.6772895</idno>
             <altIdentifier>
@@ -101,7 +102,7 @@
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR non corregido</p>
+          <p>OCR no corregido</p>
         </correction>
         <normalization>
           <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto
@@ -128,9 +129,10 @@
     <revisionDesc>
       <change when="2023-11-22" who="#PJ">Création du fichier TEI P5 et encodage du
                         corps du texte</change>
+<change when="2024-01-09" who="#EL">Add the IIIF links</change>
     </revisionDesc>
   </teiHeader>
-  <sourceDoc xml:id="automaticTranscription">
+  <facsimile><graphic url="varios/Varios_349_1.jpg/full/200,/0/default.jpg"/></facsimile><sourceDoc xml:id="automaticTranscription">
     <surface xml:id="Varios_349_1" type="page" cert="silver">
       <graphic url="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_349_1/full/full/0/default.jpg"/>
       <zone xml:id="Varios_349_1_BT223_1" n="1" type="CustomZone" subtype="title" points="1470,1190 1467,1629 387,1632 375,1190 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_349_1/375,1190,1095,442/full/0/default" corresp="CustomZone:title">
@@ -1092,7 +1094,7 @@
   <text>
     <body>
       <div>
-        <pb n="1" source="Varios_349_1.jpg" facs="fedora_Varios_349_1/full/full/0/default.jpg"/>
+        <pb n="1" source="Varios_349_1.jpg" facs="varios/Varios_349_1.jpg/"/>
         <div type="parte" n="1">
           <head type="primer_titulo"><lb/>PASILLO<lb/>DEL<lb/>TIO CAMACHO Y EL TIO MATEO.</head>
           <p><lb/>Salen haciéndose el orracho</p>
@@ -1120,7 +1122,7 @@
             <l>podrá ser... ¿pero qué veo?</l>
             <l>¿un hombre con esas barbas</l>
             <l>se me pone á hacer pucheros?</l>
-            <pb n="2" source="Varios_349_2.jpg" facs="fedora_Varios_349_2/full/full/0/default.jpg"/>
+            <pb n="2" source="Varios_349_2.jpg" facs="varios/Varios_349_2.jpg/"/>
             <l>¿qué ha sucedido, qué hay?</l>
           </sp>
           <sp>
@@ -1255,7 +1257,7 @@
             <l>(callaré que está en adobo)</l>
             <l>con un burro que ha muerto.</l>
           </sp>
-          <pb n="3" source="Varios_349_3.jpg" facs="fedora_Varios_349_3/full/full/0/default.jpg"/>
+          <pb n="3" source="Varios_349_3.jpg" facs="varios/Varios_349_3.jpg/"/>
           <sp>
             <speaker rend="cursiva">Mat.</speaker>
             <l>Si V. quiere que concurra?</l>
@@ -1353,7 +1355,7 @@
             <l>para mas seguridad;</l>
             <l>por último, entre dos luces,</l>
             <l>robé en San Antonio el Vie</l>
-            <pb n="4" source="Varios_349_4.jpg" facs="fedora_Varios_349_4/full/full/0/default.jpg"/>
+            <pb n="4" source="Varios_349_4.jpg" facs="varios/Varios_349_4.jpg/"/>
             <l>las rendijas de las cruces</l>
             <l>que ya se estaban cayendo...</l>
           </sp>

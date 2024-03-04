@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../Schema/oddPliego_varios.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:alto="http://www.loc.gov/standards/alto/ns-v4#" xml:id="Varios_053">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Varios_053">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -20,7 +20,7 @@
         <biblFull>
           <titleStmt>
             <title type="titulo_completo">Lo que hizo una madre para robar la herencio de su
-                     hijo</title>
+              hijo</title>
             <title type="titulo_breve"/>
           </titleStmt>
           <editionStmt>
@@ -29,7 +29,7 @@
           <publicationStmt>
             <publisher>Industrias gráficas Olympia</publisher>
             <pubPlace ref="https://www.geonames.org/3128760/barcelona.html">Barcelona</pubPlace>
-            <date>[s.a]</date>
+            <date cert="low" when="1800-01-01">[s.a.]</date>
           </publicationStmt>
         </biblFull>
         <msDesc>
@@ -37,7 +37,8 @@
             <country>Suisse</country>
             <settlement>Genève</settlement>
             <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"/>
-                  </repository>
+            </repository>
+            <collection>Colección Varios</collection>
             <idno type="cote"/>
             <idno type="DOI">10.5281/zenodo.6557678</idno>
             <altIdentifier>
@@ -45,10 +46,14 @@
             </altIdentifier>
           </msIdentifier>
           <msContents>
-            <summary/>
+            <summary>Dos relaciones</summary>
             <msItem>
-              <locus/>
-              <title/>
+              <locus>1-2</locus>
+              <title>Lo que hizo una madre para robar la herencio de su hijo</title>
+            </msItem>
+            <msItem>
+              <locus>3-4</locus>
+              <title>Crimen espantoso. Una mujer apuñala por su amante en Miramar. (Montjuicht) Barcelona.</title>
             </msItem>
           </msContents>
           <physDesc>
@@ -66,7 +71,7 @@
               </layoutDesc>
             </objectDesc>
             <decoDesc>
-              <summary n="2">Dos grabados (p.1 + p.3) </summary>
+              <summary n="2">Dos grabados (p.1, 3)</summary>
               <decoNote type="lista_grabados">
                 <list>
                   <item corresp="grabado_v_053_1.xml">grabado_v_053_1</item>
@@ -89,13 +94,13 @@
     <encodingDesc>
       <projectDesc>
         <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
-               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
-               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
-               Sandoz-Monique de Meuron.</p>
+          cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la Universidad
+          de Ginebra, con el apoyo de la Fundación filantrópica Famille Sandoz-Monique de
+          Meuron.</p>
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR non corregido</p>
+          <p>OCR no corregido</p>
         </correction>
         <normalization>
           <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
@@ -113,16 +118,20 @@
         <keywords xml:base="http://datos.bne.es/tema/">
           <term target="XX4857424.html" type="tipo_texto">Relaciones de sucesos</term>
           <term target="XX527614.html" type="tipo_estrofa">Romances</term>
-          <term type="verso_prosa">Verso</term>
+          <term type="verso_prosa">Verso y prosa</term>
           <term type="sagrado_profano">Profano</term>
         </keywords>
       </textClass>
     </profileDesc>
     <revisionDesc>
       <change when="2022-07-20" who="#PJ">Création du fichier TEI P5 et encodage du corps du
-            texte</change>
+        texte</change>
+      <change when="2024-01-09" who="#EL">Add the IIIF links</change>
     </revisionDesc>
   </teiHeader>
+  <facsimile>
+    <graphic url="varios/Varios_053_1.jpg/full/200,/0/default.jpg"/>
+  </facsimile>
   <sourceDoc xml:id="automaticTranscription">
     <surface xml:id="Varios_053_1" type="page" cert="silver">
       <graphic url="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_053_1/full/full/0/default.jpg"/>
@@ -832,197 +841,238 @@
   <text>
     <body>
       <div>
-        <pb n="1" source="Varios_053_1.jpg" facs="fedora_Varios_053_1/full/full/0/default.jpg"/>
-        <div n="1" type="parte">
-          <head type="primer_titulo"><lb/><hi rend="escritura_vertical">Lo que hizo una madre para</hi><lb/><hi rend="escritura_vertical">robar la herencio de su hijo</hi><lb/>Pozo donde
-                  fué encontrado el niño.</head>
-          <p><lb/>I</p>
-          <lg>
-            <l>Si escuchan un momento</l>
-            <l>les vamos a relatar</l>
-            <l>lo que ocurrió en Gracia</l>
-            <l>a la calle de Malgrát.</l>
-            <l>Se trata de una madre</l>
-            <l>que no tiene sangre humana</l>
-            <l>quedó viuda con un hijo</l>
-            <l>que cinco años contaba.</l>
-          </lg>
-          <p><lb/>II</p>
-          <lg>
-            <l>Así que se quedó viuda</l>
-            <l>ya se puso amistanzada</l>
-            <l>con un joven que vivia</l>
-            <l>realquilado en su casa.</l>
-            <l>Desde el día que se unieron.</l>
-            <l>ella nunca le callaba</l>
-            <l>que habian de casarse</l>
-            <l>porque la gente no hablará,</l>
-          </lg>
-          <pb n="2" source="Varios_053_2.jpg" facs="fedora_Varios_053_2/full/full/0/default.jpg"/>
-          <p><lb/>III</p>
-          <lg>
-            <l>El siempre le contestaba</l>
-            <l>cansado estoy de decirlo</l>
-            <l>que nio vea un porvenir</l>
-            <l>no me casaré contigo.</l>
-            <l>Has lo que más te convenga</l>
-            <l>no queda otro remedio</l>
-            <l>que separarme de tí</l>
-            <l>hasta que muera tu bijo.</l>
-          </lg>
-          <p><lb/>IV</p>
-          <lg>
-            <l>Y te juro desde hoy</l>
-            <l>que no volveré a entrar</l>
-            <l>nunca más en esta casa</l>
-            <l>mientras tu hijo vivirá.</l>
-            <l>Cuando el llegué a adquirir</l>
-            <l>la herencia de su padre</l>
-            <l>nos echaria de casa</l>
-            <l>al momento a la calle.</l>
-          </lg>
-          <p><lb/>V</p>
-          <lg>
-            <l>De cuando ella tenia</l>
-            <l>decia en el testamento</l>
-            <l>que a los veinticinco</l>
-            <l>su hijo quedaba heredero.</l>
-            <l>Ya por esto el criminal</l>
-            <l>a la madre aconcejaba</l>
-            <l>que una vez muerto su hijo</l>
-            <l>que ella todo lo heredaba.</l>
-          </lg>
-          <p><lb/>VI</p>
-          <lg>
-            <l>Se necesita valor</l>
-            <l>para matar a un hijo</l>
-            <l>una madre a sangre fria</l>
-            <l>sin darle ningun motivo.</l>
-            <l>Por un pedazo de hombre</l>
-            <l>empezó a castigar</l>
-            <l>al hijo de sus entrañas</l>
-            <l>sin compasión ni piedad.</l>
-          </lg>
-          <p><lb/>VII</p>
-          <lg>
-            <l>Sin ningun remordimiento</l>
-            <l>para dar fin a su vida</l>
-            <l>la madre le echo veneno</l>
-            <l>dentro de la comida.</l>
-            <l>Sufriendo amargos lores</l>
-            <l>murio el angel de Dios</l>
-            <l>quedando el pobrecito</l>
-            <l>más negro que un carbon.</l>
-          </lg>
-          <p><lb/>VIII</p>
-          <lg>
-            <l>Eutre los dos lo echaron.</l>
-            <l>enseguida en un pozo</l>
-            <l>y salieron al balcon</l>
-            <l>dando gritos de socorro.</l>
-            <l>los criminales pensaron</l>
-            <l>Asiendose de esta forma</l>
-            <l>que asi nadie pensaria</l>
-            <l>que lo habian envenenado</l>
-            <l>del pozo inmediatamente</l>
-            <l>El cadaver fué sacgdo</l>
-            <l>que horrrizaba de ver</l>
-            <l>aquel pobre inocente.</l>
-            <l>el papel de comedianta</l>
-            <l>Ahora veran ustedes</l>
-          </lg>
-          <p><lb/>IV</p>
-          <lg>
-            <l>que supo hacer la madre</l>
-            <l>para que mal no pensaran.</l>
-            <l>como una desesperada</l>
-            <l>No hacia más que llorar</l>
-            <l>y delante de su hijo</l>
-            <l>cayo alli desmayada.</l>
-          </lg>
-          <p><lb/>X</p>
-          <lg>
-            <l>nadie hubiera creido</l>
-            <l>Con los papeles que hacia</l>
-            <l>que ella fuese la causante</l>
-            <l>de la muerte de su hijo.</l>
-            <l>El niño fué trasladado</l>
-            <l>en la clinica en seguid</l>
-            <l>por hacerle la auptosia</l>
-            <l>por orden de la justicia</l>
-            <l>Dijo el medico al verle</l>
-          </lg>
-          <p><lb/>XI</p>
-          <lg>
-            <l>que ya lo habian muerto</l>
-            <l>antes de echarle en el pozo</l>
-            <l>de un veneno que le dieron.</l>
-            <l>Al verse ya claramente</l>
-            <l>que el niño fué envenenado</l>
-            <l>a su madre y el querido</l>
-            <l>pronto les echaron mano</l>
-            <l>En aquel mismo momento</l>
-          </lg>
-          <p><lb/>XII</p>
-          <lg>
-            <l>ambos fueron conducidos</l>
-            <l>al Palacio de Justicia</l>
-            <l>quedando alli detenidos</l>
-            <l>Acto seguido el Juez</l>
-            <l>despues de haber declarado</l>
-            <l>los mando al calabozo</l>
-            <l>quedando incomunicado</l>
-            <l>Al otro dia siguiente</l>
-            <l>a la una de la tarde</l>
-            <l>en el coche celudar</l>
-            <l>los llevaron a la carcel.</l>
-          </lg>
-          <pb n="3" source="Varios_053_3.jpg" facs="fedora_Varios_053_3/full/full/0/default.jpg"/>
-        </div>
-        <div n="2" type="parte">
-          <head type="titulo_parte"><lb/>Crímen espantoso<lb/>Una mujer apuñalada por su amante<lb/>en Miramar.
-                  (Montjuicht)Barcelona.</head>
-          <p><lb/>El hecho causó gran emoción entre los vecinos de la barriada de
-                  Casa<lb/>Antúnez.<lb/>La mujer representaba una edad de veintitrés años, siendo su
-                  aspecto<lb/>de una mujer de vida alegre.<lb/>Al principio el suceso apareció
-                  rodeado de misterio<lb/>Según circuló la vercíón del crimen acudieron al lugar
-                  donde yacía,<lb/>la infeliz mujer buen número de coriosos.</p>
-          <pb n="4" source="Varios_053_4.jpg" facs="fedora_Varios_053_4/full/full/0/default.jpg"/>
-          <p><lb/>Varios de éstos reconocieron en la muerta a una ramera, muy popular<lb/>por
-                  el remoquete de «La Chata»,<lb/>En seguida se dió cuenta del hecho a la policia
-                  quien a su vez avisó al<lb/>Juzgado de guardia.<lb/>Practicadas las primeras
-                  diligencias, se ordenó el levantamiento del<lb/>cadáver, que fue conducido al
-                  Hospital Clínieo.<lb/>Por referencias de algunasamigas de la interfacta, se vino
-                  én sos-<lb/>pecha de que en el crimen pudiera hallarse complicado un sujeto de
-                  malos<lb/>antecedentes, conocido por Luis «El Francés. </p>
-          <div>
-            <head type="subtitulo_parte"><lb/>¿El verdadero autor?</head>
-            <p><lb/>Ayer mañana el Juzgado de guardia entrego las diligencias del<lb/>crimen
-                     al Juzgado del Sur, continuando las indagaciones con gran acti-<lb/>vidad para
-                     der con el verdadero culpable del heoho de autos.<lb/>El crimen podia
-                     clasificarse entre las hazañas de la gente del hampa,<lb/>Luis, «El Francés»
-                     era el amante de «La Chata», a quien explotaba<lb/>a cambio de relaciones
-                     amorosas.<lb/>Por lo visto, antenoche Luis arreció en sus peticiones de dinero,
-                     sien-<lb/>do desoido, por su amante quien se negó terminantemente a seguir
-                     satis-<lb/>faciendo los caprichos y peticiones de aquel.<lb/>Los dos
-                     protogonistas debieron disputar con alguna violencia, hasta<lb/>que «El
-                     Francés» exacerbado por la actitud de «La Chata», infirió a ésta<lb/>las
-                     distintas heridas que le ocasionaron su muerte.<lb/>Pocas horas después el
-                     asesino se presentó a una compañera de la víc-<lb/>tima, pidiendole dos pesetas
-                     y diciendole:<lb/>—Ahora le acabo de cortar la cara a la «La
-                     Chata»,<lb/>Enterada de este incidente la policia, procedió a la busca y
-                     captura<lb/>del delincuente.</p>
+        <div>
+          <div n="1">
+            <pb n="1" source="Varios_053_1.jpg" facs="varios/Varios_053_1.jpg/"/>
+            <head type="primer_titulo"><lb/><hi rend="negrita">Lo que hizo una madre
+                para</hi><lb/><hi rend="negrita">robar la herencio de su hijo</hi></head>
+
+            <p><lb/>Pozo donde fué encontrado el niño.</p>
+            <lg n="1">
+              <head type="titulo_estrofa">I</head>
+              <l rend="indent">Si escuchan un momento</l>
+              <l>les vamos a relatar</l>
+              <l>lo que ocurrió en Gracia</l>
+              <l>a la calle de Malgrát.</l>
+              <l rend="indent">Se trata de una madre</l>
+              <l>que no tiene sangre humana</l>
+              <l>quedó viuda con un hijo</l>
+              <l>que cinco años contaba.</l>
+            </lg>
+
+            <lg n="2">
+              <head type="titulo_estrofa">II</head>
+              <l rend="indent">Así que se quedó viuda</l>
+              <l>ya se puso amistanzada</l>
+              <l>con un joven que vivia</l>
+              <l>realquilado en su casa.</l>
+              <l rend="indent">Desde el día que se unieron.</l>
+              <l>ella nunca le callaba</l>
+              <l>que habian de casarse</l>
+              <l>porque la gente no hablará,</l>
+            </lg>
+
+            <pb n="2" source="Varios_053_2.jpg" facs="varios/Varios_053_2.jpg/"/>
+
+            <lg n="3">
+              <head type="titulo_estrofa">III</head>
+              <l rend="indent">El siempre le contestaba</l>
+              <l>cansado estoy de decirlo</l>
+              <l>que nio vea un porvenir</l>
+              <l>no me casaré contigo.</l>
+              <l rend="indent">Has lo que más te convenga</l>
+              <l>no queda otro remedio</l>
+              <l>que separarme de tí</l>
+              <l>hasta que muera tu bijo.</l>
+            </lg>
+
+            <lg n="4">
+              <head type="titulo_estrofa">IV</head>
+              <l rend="indent">Y te juro desde hoy</l>
+              <l>que no volveré a entrar</l>
+              <l>nunca más en esta casa</l>
+              <l>mientras tu hijo vivirá.</l>
+              <l rend="indent">Cuando el llegué a adquirir</l>
+              <l>la herencia de su padre</l>
+              <l>nos echaria de casa</l>
+              <l>al momento a la calle.</l>
+            </lg>
+
+            <lg n="5">
+              <head type="titulo_estrofa">V</head>
+              <l rend="indent">De cuando ella tenia</l>
+              <l>decia en el testamento</l>
+              <l>que a los veinticinco</l>
+              <l>su hijo quedaba heredero.</l>
+              <l rend="indent">Ya por esto el criminal</l>
+              <l>a la madre aconcejaba</l>
+              <l>que una vez muerto su hijo</l>
+              <l>que ella todo lo heredaba.</l>
+            </lg>
+
+            <lg n="6">
+              <head type="titulo_estrofa">VI</head>
+              <l rend="indent">Se necesita valor</l>
+              <l>para matar a un hijo</l>
+              <l>una madre a sangre fria</l>
+              <l>sin darle ningun motivo.</l>
+              <l rend="indent">Por un pedazo de hombre</l>
+              <l>empezó a castigar</l>
+              <l>al hijo de sus entrañas</l>
+              <l>sin compasión ni piedad.</l>
+            </lg>
+
+            <lg n="7">
+              <head type="titulo_estrofa">VII</head>
+              <l rend="indent">Sin ningun remordimiento</l>
+              <l>para dar fin a su vida</l>
+              <l>la madre le echo veneno</l>
+              <l>dentro de la comida.</l>
+              <l rend="indent">Sufriendo amargos lores</l>
+              <l>murio el angel de Dios</l>
+              <l>quedando el pobrecito</l>
+              <l>más negro que un carbon.</l>
+            </lg>
+
+            <lg n="8">
+              <head type="titulo_estrofa">VIII</head>
+              <l rend="indent">Entre los dos lo echaron</l>
+              <l>enseguida en un pozo</l>
+              <l>y salieron al balcon</l>
+              <l>dando gritos de socorro.</l>
+              <l rend="indent">Asiendose de esta forma</l>
+              <l>los criminales pensaron</l>
+              <l>que asi nadie pensaria</l>
+              <l>que lo habian envenenado</l>
+              <l rend="indent">El cadaver fué sacado</l>
+              <l>del pozo inmediatamente</l>
+              <l>que horrrizaba de ver</l>
+              <l>aquel pobre inocente.</l>
+            </lg>
+
+            <lg n="9">
+              <head type="titulo_estrofa">IV</head>
+              <l rend="indent">Ahora veran ustedes</l>
+              <l>el papel de comedianta</l>
+              <l>que supo hacer la madre</l>
+              <l>para que mal no pensaran.</l>
+              <l rend="indent">No hacia más que llorar</l>
+              <l>como una desesperada</l>
+              <l>y delante de su hijo</l>
+              <l>cayo alli desmayada.</l>
+            </lg>
+
+            <lg n="10">
+              <head type="titulo_estrofa"><lb/>X</head>
+              <l rend="indent">Con los papeles que hacia</l>
+              <l>nadie hubiera creido</l>
+              <l>que ella fuese la causante</l>
+              <l>de la muerte de su hijo.</l>
+              <l rend="indent">El niño fué trasladado</l>
+              <l>en la clinica en seguid</l>
+              <l>por hacerle la auptosia</l>
+              <l>por orden de la justicia</l>
+            </lg>
+
+            <lg n="11">
+              <head type="titulo_estrofa"><lb/>XI</head>
+              <l rend="indent">Dijo el medico al verle</l>
+              <l>que ya lo habian muerto</l>
+              <l>antes de echarle en el pozo</l>
+              <l>de un veneno que le dieron.</l>
+              <l rend="indent">Al verse ya claramente</l>
+              <l>que el niño fué envenenado</l>
+              <l>a su madre y el querido</l>
+              <l>pronto les echaron mano</l>
+            </lg>
+
+            <lg n="12">
+              <head type="titulo_estrofa">XII</head>
+              <l rend="indent">En aquel mismo momento</l>
+              <l>ambos fueron conducidos</l>
+              <l>al Palacio de Justicia</l>
+              <l>quedando alli detenidos</l>
+              <l rend="indent">Acto seguido el Juez</l>
+              <l>despues de haber declarado</l>
+              <l>los mando al calabozo</l>
+              <l>quedando incomunicado</l>
+              <l rend="indent">Al otro dia siguiente</l>
+              <l>a la una de la tarde</l>
+              <l>en el coche celudar</l>
+              <l>los llevaron a la carcel.</l>
+            </lg>
           </div>
-          <div>
-            <head type="subtitulo_parte"><lb/>Detención del criminal</head>
-            <p><lb/>En Badalona junto con dos bandidos más prendieron al crimial al mo
-                     <lb/>mento de haber hecho un robo, comvicto y confeso del crimen que hizo
-                     <lb/>el Sr. Juez de Badalona con se especial avilidad supo hacerle cantar de
-                     <lb/>plano toda la relación del crimen y desde luego confesarse autor del
-                     <lb/>crimen siendo esta persona de malos antecedentes, tiene 25 años,
-                     <lb/>habiendo ingresado en la carcel inmediatamente hasta esperar la pena que
-                     <lb/>le pertenece. </p>
+
+          <div n="2">
+            <pb n="3" source="Varios_053_3.jpg" facs="varios/Varios_053_3.jpg/"/>
+
+            <head type="primer_titulo" rend="negrita"><lb/>Crímen espantoso<lb/>Una mujer apuñalada
+              por su amante<lb/>en Miramar. (Montjuicht)Barcelona.</head>
+
+            <p rend="indent"><lb/>El hecho causó gran emoción entre los vecinos de la barriada de
+              Casa<lb/>Antúnez.</p>
+
+            <p rend="indent"><lb/>La mujer representaba una edad de veintitrés años, siendo su aspecto<lb/>de una
+              mujer de vida alegre.</p>
+
+            <p rend="indent"><lb/>Al principio el suceso apareció rodeado de misterio</p>
+
+            <p rend="indent"><lb/>Según circuló la vercíón del crimen acudieron al lugar donde yacía,<lb/>la
+              infeliz mujer buen número de coriosos.</p>
+
+            <pb n="4" source="Varios_053_4.jpg" facs="varios/Varios_053_4.jpg/"/>
+
+            <p rend="indent"><lb/>Varios de éstos reconocieron en la muerta a una ramera, muy popular<lb/>por el
+              remoquete de «La Chata».</p>
+
+            <p rend="indent"><lb/>En seguida se dió cuenta del hecho a la policia quien a su vez avisó
+              al<lb/>Juzgado de guardia.</p>
+
+            <p rend="indent"><lb/>Practicadas las primeras diligencias, se ordenó el levantamiento
+              del<lb/>cadáver, que fue conducido al Hospital Clínieo.</p>
+
+            <p rend="indent"><lb/>Por referencias de algunasamigas de la interfacta, se vino én sos-<lb/>pecha de
+              que en el crimen pudiera hallarse complicado un sujeto de malos<lb/>antecedentes,
+              conocido por Luis «El Francés.</p>
+
+            <div>
+              <head type="subtitulo_parte" rend="negrita"><lb/>¿El verdadero autor?</head>
+
+              <p rend="indent"><lb/>Ayer mañana el Juzgado de guardia entrego las diligencias del<lb/>crimen al
+                Juzgado del Sur, continuando las indagaciones con gran acti-<lb/>vidad para der con
+                el verdadero culpable del heoho de antos. <lb/>El crimen podia clasificarse entre
+                las hazañas de la gente del hampa.</p>
+
+              <p rend="indent"><lb/>Luis, «El Francés» era el amante de «La Chata», a quien explotaba<lb/>a cambio
+                de relaciones amorosas.</p>
+
+              <p rend="indent"><lb/>Por lo visto, antenoche Luis arreció en sus peticiones de dinero, sien-<lb/>do
+                desoido, por su amante quien se negó terminantemente a seguir satis-<lb/>faciendo
+                los caprichos y peticiones de aquel.</p>
+
+              <p rend="indent"><lb/>Los dos protogonistas debieron disputar con alguna violencia, hasta<lb/>que
+                «El Francés» exacerbado por la actitud de «La Chata», infirió a ésta<lb/>las
+                distintas heridas que le ocasionaron su muerte.</p>
+
+              <p rend="indent"><lb/>Pocas horas después el asesino se presentó a una compañera de la
+                víc-<lb/>tima, pidiendole dos pesetas y diciendole:<lb/>—Ahora le acabo de cortar la
+                cara a la «La Chata».</p>
+
+              <p rend="indent"><lb/>Enterada de este incidente la policia, procedió a la busca y captura<lb/>del
+                delincuente.</p>
+            </div>
+
+            <div>
+              <head type="subtitulo_parte" rend="negrita"><lb/>Detención del criminal</head>
+              <p rend="indent"><lb/>En Badalona junto con dos bandidos más prendieron al crimial al mo <lb/>mento
+                de haber hecho un robo, comvicto y confeso del crimen que hizo <lb/>el Sr. Juez de
+                Badalona con se especial avilidad supo hacerle cantar de <lb/>plano toda la relación
+                del crimen y desde luego confesarse autor del <lb/>crimen siendo esta persona de
+                malos antecedentes, tiene 25 años, <lb/>habiendo ingresado en la carcel
+                inmediatamente hasta esperar la pena que <lb/>le pertenece. </p>
+            </div>
           </div>
+
           <div type="colofon">
             <p><lb/>Imp. Aldaua, 12 — BARCELONA</p>
           </div>

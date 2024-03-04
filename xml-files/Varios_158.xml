@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../Schema/oddPliego_varios.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:alto="http://www.loc.gov/standards/alto/ns-v4#" xml:id="Varios_158">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Varios_158">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -11,8 +11,7 @@
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <authority role="rightsHolder">Bibliothèque Universitaire de
-                              Genève</authority>
+        <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
         <availability status="restricted">
           <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
         </availability>
@@ -29,7 +28,7 @@
           <publicationStmt>
             <publisher>Narciso Ramírez y Compañía</publisher>
             <pubPlace ref="https://www.geonames.org/3128760/barcelona.html">Barcelona</pubPlace>
-            <date>[s.a]</date>
+            <date cert="low" when="1800-01-01">[s.a.]</date>
           </publicationStmt>
         </biblFull>
         <msDesc>
@@ -37,7 +36,8 @@
             <country>Suisse</country>
             <settlement>Genève</settlement>
             <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"/>
-                                    </repository>
+            </repository>
+            <collection>Colección Varios</collection>
             <idno type="cote"/>
             <idno type="DOI">10.5281/zenodo.6587116</idno>
             <altIdentifier>
@@ -45,10 +45,14 @@
             </altIdentifier>
           </msIdentifier>
           <msContents>
-            <summary/>
+            <summary>Dos canciones</summary>
             <msItem>
-              <locus/>
-              <title/>
+              <locus>1-3</locus>
+              <title>Americana cubana.</title>
+            </msItem>
+            <msItem>
+              <locus>4</locus>
+              <title>El nuevo rataplam.</title>
             </msItem>
           </msContents>
           <physDesc>
@@ -56,9 +60,8 @@
               <supportDesc>
                 <support>
                   <dim>in-4</dim>
-                  <material>*À COMPLETER*: Pour indiquer la couleur
-                                                  du papier @subtype : verde, amarillo, azul,
-                                                  naranja, rosa</material>
+                  <material>*À COMPLETER*: Pour indiquer la couleur du papier @subtype : verde,
+                    amarillo, azul, naranja, rosa</material>
                 </support>
                 <extent><measure unit="página" quantity="4"/>4 p.</extent>
                 <condition>Bueno</condition>
@@ -68,11 +71,11 @@
               </layoutDesc>
             </objectDesc>
             <decoDesc>
-              <summary n="2">Dos grabados (p.1 + 4) </summary>
+              <summary n="2">Dos grabados (p.1 + 4)</summary>
               <decoNote type="lista_grabados">
                 <list>
                   <item corresp="grabado_v_158_1.xml">grabado_v_158_1</item>
-                  <item corresp="grabado_v_158_1.xml">grabado_v_158_1</item>
+                  <item corresp="grabado_v_158_2.xml">grabado_v_158_2</item>
                 </list>
               </decoNote>
               <decoNote type="lista_ornamentos">
@@ -90,8 +93,8 @@
               <p>Imp. de Narciso Ramírez y Compañía</p>
             </origin>
             <provenance>
-              <p>Se halla de venta en casa de los sucesores Antonio
-                                                Bosch, Bou de la Plaza nueva, núm. 13</p>
+              <p>Se halla de venta en casa de los sucesores Antonio Bosch, Bou de la Plaza nueva,
+                núm. 13</p>
             </provenance>
             <acquisition>
               <stamp>COL LECCIÓ MANUEL MASSÓ</stamp>
@@ -102,18 +105,17 @@
     </fileDesc>
     <encodingDesc>
       <projectDesc>
-        <p>Este archivo fue creado en el marco del proyecto Desenrollando el
-                              Cordel/Démêler le cordel/Untangling the cordel, dirigido por la
-                              profesora Constance Carta de la Universidad de Ginebra, con el apoyo
-                              de la Fundación filantrópica Famille Sandoz-Monique de Meuron.</p>
+        <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+          cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la Universidad
+          de Ginebra, con el apoyo de la Fundación filantrópica Famille Sandoz-Monique de
+          Meuron.</p>
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR non corregido</p>
+          <p>OCR no corregido</p>
         </correction>
         <normalization>
-          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto
-                                    original.</p>
+          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
         </normalization>
         <punctuation>
           <p>Se conserva la puntuación original.</p>
@@ -134,10 +136,14 @@
       </textClass>
     </profileDesc>
     <revisionDesc>
-      <change when="2022-09-19" who="#PJ">Création du fichier TEI P5 et encodage du
-                        corps du texte</change>
+      <change when="2022-09-19" who="#PJ">Création du fichier TEI P5 et encodage du corps du
+        texte</change>
+      <change when="2024-01-09" who="#EL">Add the IIIF links</change>
     </revisionDesc>
   </teiHeader>
+  <facsimile>
+    <graphic url="varios/Varios_158_1.jpg/full/200,/0/default.jpg"/>
+  </facsimile>
   <sourceDoc xml:id="automaticTranscription">
     <surface xml:id="Varios_158_1" type="page" cert="silver">
       <graphic url="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_158_1/full/full/0/default.jpg"/>
@@ -664,232 +670,239 @@
     <body>
       <div>
         <div>
-          <pb n="1" source="Varios_158_1.jpg" facs="fedora_Varios_158_1/full/full/0/default.jpg"/>
-          <head type="primer_titulo"><lb/>AMERICANA CUBANA.</head>
-          <lg>
-            <l>Cuando yo sali de Cuba</l>
-            <l rend="indent">vválgame Dios!</l>
-            <l>Nadie supo mi salida</l>
-            <l rend="indent">sino tu y yo</l>
-            <l>Y una hermosa americana</l>
-            <l rend="indent">como una flór</l>
-            <l>Que quiso acompañarme</l>
-            <l rend="indent">donde fui yo.</l>
-            <l>Si á tu ventana llega</l>
-            <l rend="indent">una paloma,</l>
-          </lg>
+          <div>
+            <pb n="1" source="Varios_158_1.jpg" facs="varios/Varios_158_1.jpg/"/>
+            <head type="primer_titulo"><lb/>AMERICANA CUBANA.</head>
+
+            <div n="1" type="parte">
+              <lg>
+                <l>Cuando yo sali de Cuba</l>
+                <l rend="indent">vválgame Dios!</l>
+                <l>Nadie supo mi salida</l>
+                <l rend="indent">sino tu y yo</l>
+                <l>Y una hermosa americana</l>
+                <l rend="indent">como una flór</l>
+                <l>Que quiso acompañarme</l>
+                <l rend="indent">donde fui yo.</l>
+                <l>Si á tu ventana llega</l>
+                <l rend="indent">una paloma,</l>
+
+                <pb n="2" source="Varios_158_2.jpg" facs="varios/Varios_158_2.jpg/"/>
+
+                <l>Trátala con cariño,</l>
+                <l rend="indent">que es mi persona,</l>
+                <l>Cuéntale tus amores,</l>
+                <l rend="indent">bien de mi vida.</l>
+                <l>Corónala de flores,</l>
+                <l rend="indent">que es cosa mia.</l>
+                <l>¡A y! Chinita que sí</l>
+                <l rend="indent">¡ay! dame tu amor,</l>
+                <l>¡Ay! que vente conmigo, Chinita,</l>
+                <l rend="indent">á donde vivo yo.</l>
+                <l>¡Ay! Chinita que sí</l>
+                <l rend="indent">¡ay! dame tu amor,</l>
+                <l>¡Ay! que vente conmigo, Chinita,</l>
+                <l rend="indent">á donde vivo yo.</l>
+              </lg>
+              <lg>
+                <l>El dia que nos casemos,</l>
+                <l rend="indent">¡válgame Dios!</l>
+                <l>En la semana que ha ir</l>
+                <l rend="indent">me hace reir.</l>
+                <l>Desde la iglesia juntitos</l>
+                <l rend="indent">que sí, señor,</l>
+                <l>Nos iremos á dormir,</l>
+                <l rend="indent">allá voy yo.</l>
+                <l>Si á tu ventana, etc.</l>
+              </lg>
+              <lg>
+                <l>Si el padre cura nos echa</l>
+                <l rend="indent">su bendicion,</l>
+                <l>Te entregaré yo las llaves</l>
+                <l rend="indent">del corazon.</l>
+                <l>Tú me darás tu manita,</l>
+                <l rend="indent">mi dulce amor,</l>
+                <l>Y nos bendicirá el cura,</l>
+                <l rend="indent">pues sí, señor.</l>
+                <l>Si á tu ventana, etc,</l>
+              </lg>
+              <lg>
+                <l>Cuando haya pasado tiempo</l>
+                <l rend="indent">¡válgame Dios!</l>
+                <l>De que estemos casaditos,</l>
+                <l rend="indent">que sí, señor.</l>
+                <l>Lo menos tendremos siete</l>
+                <l rend="indent">¡y qué furor</l>
+                <l>O quince guachinanguitos,</l>
+                <l rend="indent">allá voy yo.</l>
+                <l> Si á tu ventana, etc.</l>
+              </lg>
+            </div>
+
+            <div type="parte" n="2">
+              <pb n="3" source="Varios_158_3.jpg" facs="varios/Varios_158_3.jpg/"/>
+
+              <head type="titulo_parte"><lb/>SEGUNDA PARTE.</head>
+              <lg>
+                <l>¡Ay! dame, linda cubana,</l>
+                <l rend="indent">dame tu amor,</l>
+                <l>Que quiero yo entregarte</l>
+                <l rend="indent">mi corazon.</l>
+                <l>Y tú dentro del conuco,</l>
+                <l rend="indent">cocina arroz,</l>
+                <l>Y atizarás la candela</l>
+                <l rend="indent">para los dos,</l>
+                <l>Si á tu ventana, etc.</l>
+              </lg>
+              <lg>
+                <l>Y luego para los postres,</l>
+                <l rend="indent">niña, tendrás</l>
+                <l>Plátanos y marañones</l>
+                <l rend="indent">piña ademá</l>
+                <l>Y marcharé yo al monte</l>
+                <l rend="indent">para llevar</l>
+                <l>Un poco de caña dulce</l>
+                <l rend="indent">por refrescar.</l>
+                <l>Si á tu ventana, etc.</l>
+              </lg>
+              <lg>
+                <l>Y cuando la noche llegue</l>
+                <l rend="indent">mi corazon,</l>
+                <l>Descansaremos dentro</l>
+                <l rend="indent">que hace calor,</l>
+                <l>Y en apacible sueño</l>
+                <l rend="indent">descansarás,</l>
+                <l>Hasta que yo te diga</l>
+                <l rend="indent">á levantar.</l>
+                <l>Si á tu ventana, etc.</l>
+              </lg>
+              <lg>
+                <l>Y tomaremos entonces</l>
+                <l rend="indent">leche y café,</l>
+                <l>Y pan con mantequilla</l>
+                <l rend="indent">si quiere usté,</l>
+                <l>Y entonces un dia y otro</l>
+                <l rend="indent">¡huy, puñalá!</l>
+                <l>¡Ay! gozarás mil delicias</l>
+                <l rend="indent">sin descansar.</l>
+                <l>Si á tu ventana, etc.</l>
+              </lg>
+              <lg>
+                <l>Y cuando, americana,</l>
+                <l rend="indent">libre serás,</l>
+                <l>Delicias mil y placeres</l>
+                <l rend="indent">disfrutarás,</l>
+                <l>Tendrás un calesero,</l>
+                <l rend="indent">con su quitrin,</l>
+                <l>Si quieres ir á paseo</l>
+                <l rend="indent">mi querubin.</l>
+                <l>Si á tu ventana, etc.</l>
+              </lg>
+              <lg>
+                <l>De rica plata y oro!</l>
+                <l rend="indent">te adornaré</l>
+                <l>Con un lema que diga</l>
+                <l rend="indent">amor y fé.</l>
+                <l>Y llevarás en tu cuello</l>
+                <l rend="indent">mi dulce amor,</l>
+                <l>Ricas y lindas perlas</l>
+                <l rend="indent">de gran primor.</l>
+                <l>Si á tu ventana, etc.</l>
+              </lg>
+              <lg>
+                <l>Y viéndote tan hermosa</l>
+                <l rend="indent">todos dirán:</l>
+                <l>Aquí pasa la perla</l>
+                <l rend="indent">del Abisgran,</l>
+                <l>La que en sus ojos tiene</l>
+                <l rend="indent">fLechas de amor,</l>
+                <l>La que robado tiene</l>
+                <l rend="indent">mi corazon.</l>
+                <l>Si á tu ventana, etc.</l>
+              </lg>
+              <lg>
+                <l>Entonces yo en tus brazos</l>
+                <l rend="indent">me rendiré</l>
+                <l>Y amor eternó y puro</l>
+                <l rend="indent">te juraré.</l>
+                <l>Y cual amantes tiernos</l>
+                <l rend="indent">me verás, sí.</l>
+                <l>Y así estaremos juntos</l>
+                <l rend="indent">hasta morir.</l>
+                <l>Si á tu ventana, etc.</l>
+              </lg>
+            </div>
+          </div>
+
+          <div>
+            <pb n="4" source="Varios_158_4.jpg" facs="varios/Varios_158_4.jpg/"/>
+
+            <head type="titulo_parte"><lb/>EL NUEVO RATAPLAM.</head>
+
+            <lg n="1">
+              <head type="titulo_estrofa">1.ª</head>
+              <l rend="indent">Acudid, soldados,</l>
+              <l>al toque del clarin,</l>
+              <l>corred que os llaman</l>
+              <l>glorias sín fin.</l>
+              <l rend="indent">Al campo de batalla</l>
+              <l>vuestros pasos guiad,</l>
+              <l>y con la canalla</l>
+              <l>pronto acabad.</l>
+              <l rend="indent">Que nadie nunca pueda</l>
+              <l>tachar vuestra conducta</l>
+              <l>desde el jefe al recluta</l>
+              <l>vuestro honor es la verdad.</l>
+              <l>Presenten...</l>
+              <l>Preparen...</l>
+              <l>Apun... fuego</l>
+              <l>Pum, pim, pam.</l>
+              <l>Terraplam, plam, plam,</l>
+              <l>Tarrataplam, plam, plam.</l>
+            </lg>
+            <lg n="2">
+              <head type="titulo_estrofa">2.ª</head>
+              <l rend="indent">Cuando la victoria</l>
+              <l>ganada habreis;</l>
+              <l>oh, qué regocijo</l>
+              <l>entonces tendreis</l>
+              <l rend="indent">Vereis al alojaros</l>
+              <l>contentas las patronas,</l>
+              <l>las niñas, las jamonas</l>
+              <l>tras del soldado van.</l>
+              <l rend="indent">Y si algo les falta</l>
+              <l>pronto se lo darán,</l>
+              <l>que pidan de la casa</l>
+              <l>nada les negarán.</l>
+              <l rend="indent">Preparen. etc.</l>
+            </lg>
+            <lg n="3">
+              <head type="titulo_estrofa">3.</head>
+              <l rend="indent">Ya tocan llamada,</l>
+              <l>soldados, á marchar</l>
+              <l>todos á la plaza</l>
+              <l>no hagamos esperar.</l>
+              <l rend="indent">Que aunque sea atractivo</l>
+              <l>el buen trato que os dan,</l>
+              <l>es deber cuando llaman</l>
+              <l>acudir el militar.</l>
+              <l rend="indent">Que nadie nunca pueda</l>
+              <l>tachar vuestra conducta,</l>
+              <l>desde jefe al recluta</l>
+              <l>su honor es la verdad.</l>
+              <l>Preparen... etc.</l>
+            </lg>
+            <p>(Es Propiedad.)</p>
+          </div>
         </div>
-      </div>
-      <div>
-        <div>
-          <pb n="2" source="Varios_158_2.jpg" facs="fedora_Varios_158_2/full/full/0/default.jpg"/>
-          <lg>
-            <l>Trátala con cariño,</l>
-            <l rend="indent">que es mi persona,</l>
-            <l>Cuéntale tus amores,</l>
-            <l rend="indent">bien de mi vida.</l>
-            <l>Corónala de flores,</l>
-            <l rend="indent">que es cosa mia.</l>
-            <l>¡A y! Chinita que sí</l>
-            <l rend="indent">¡ay! dame tu amor,</l>
-            <l>¡Ay! que vente conmigo, Chinita,</l>
-            <l rend="indent">á donde vivo yo.</l>
-            <l>¡Ay! Chinita que sí</l>
-            <l rend="indent">¡ay! dame tu amor,</l>
-            <l>¡Ay! que vente conmigo, Chinita,</l>
-            <l rend="indent">á donde vivo yo.</l>
-          </lg>
-          <lg>
-            <l>El dia que nos casemos,</l>
-            <l rend="indent">¡válgame Dios!</l>
-            <l>En la semana que ha ir</l>
-            <l rend="indent">me hace reir.</l>
-            <l>Desde la iglesia juntitos</l>
-            <l rend="indent">que sí, señor,</l>
-            <l>Nos iremos á dormir,</l>
-            <l rend="indent">allá voy yo.</l>
-            <l>Si á tu ventana, etc.</l>
-          </lg>
-          <lg>
-            <l>Si el padre cura nos echa</l>
-            <l rend="indent">su bendicion,</l>
-            <l>Te entregaré yo las llaves</l>
-            <l rend="indent">del corazon.</l>
-            <l>Tú me darás tu manita,</l>
-            <l rend="indent">mi dulce amor,</l>
-            <l>Y nos bendicirá el cura,</l>
-            <l rend="indent">pues sí, señor.</l>
-            <l>Si á tu ventana, etc,</l>
-          </lg>
-          <lg>
-            <l>Cuando haya pasado tiempo</l>
-            <l rend="indent">¡válgame Dios!</l>
-            <l>De que estemos casaditos,</l>
-            <l rend="indent">que sí, señor.</l>
-            <l>Lo menos tendremos siete</l>
-            <l rend="indent">¡y qué furor</l>
-            <l>O quince guachinanguitos,</l>
-            <l rend="indent">allá voy yo.</l>
-            <l> Si á tu ventana, etc.</l>
-          </lg>
-        </div>
-        <pb n="3" source="Varios_158_3.jpg" facs="fedora_Varios_158_3/full/full/0/default.jpg"/>
-        <div type="parte" n="2">
-          <head type="titulo_parte"><lb/>SEGUNDA PARTE.</head>
-          <lg>
-            <l>¡Ay! dame, linda cubana,</l>
-            <l rend="indent">dame tu amor,</l>
-            <l>Que quiero yo entregarte</l>
-            <l rend="indent">mi corazon.</l>
-            <l>Y tú dentro del conuco,</l>
-            <l rend="indent">cocina arroz,</l>
-            <l>Y atizarás la candela</l>
-            <l rend="indent">para los dos,</l>
-            <l>Si á tu ventana, etc.</l>
-          </lg>
-          <lg>
-            <l>Y luego para los postres,</l>
-            <l rend="indent">niña, tendrás</l>
-            <l>Plátanos y marañones</l>
-            <l rend="indent">piña ademá</l>
-            <l>Y marcharé yo al monte</l>
-            <l rend="indent">para llevar</l>
-            <l>Un poco de caña dulce</l>
-            <l rend="indent">por refrescar.</l>
-            <l>Si á tu ventana, etc.</l>
-          </lg>
-          <lg>
-            <l>Y cuando la noche llegue</l>
-            <l rend="indent">mi corazon,</l>
-            <l>Descansaremos dentro</l>
-            <l rend="indent">que hace calor,</l>
-            <l>Y en apacible sueño</l>
-            <l rend="indent">descansarás,</l>
-            <l>Hasta que yo te diga</l>
-            <l rend="indent">á levantar.</l>
-            <l>Si á tu ventana, etc.</l>
-          </lg>
-          <lg>
-            <l>Y tomaremos entonces</l>
-            <l rend="indent">leche y café,</l>
-            <l>Y pan con mantequilla</l>
-            <l rend="indent">si quiere usté,</l>
-            <l>Y entonces un dia y otro</l>
-            <l rend="indent">¡huy, puñalá!</l>
-            <l>¡Ay! gozarás mil delicias</l>
-            <l rend="indent">sin descansar.</l>
-            <l>Si á tu ventana, etc.</l>
-          </lg>
-          <lg>
-            <l>Y cuando, americana,</l>
-            <l rend="indent">libre serás,</l>
-            <l>Delicias mil y placeres</l>
-            <l rend="indent">disfrutarás,</l>
-            <l>Tendrás un calesero,</l>
-            <l rend="indent">con su quitrin,</l>
-            <l>Si quieres ir á paseo</l>
-            <l rend="indent">mi querubin.</l>
-            <l>Si á tu ventana, etc.</l>
-          </lg>
-          <lg>
-            <l>De rica plata y oro!</l>
-            <l rend="indent">te adornaré</l>
-            <l>Con un lema que diga</l>
-            <l rend="indent">amor y fé.</l>
-            <l>Y llevarás en tu cuello</l>
-            <l rend="indent">mi dulce amor,</l>
-            <l>Ricas y lindas perlas</l>
-            <l rend="indent">de gran primor.</l>
-            <l>Si á tu ventana, etc.</l>
-          </lg>
-          <lg>
-            <l>Y viéndote tan hermosa</l>
-            <l rend="indent">todos dirán:</l>
-            <l>Aquí pasa la perla</l>
-            <l rend="indent">del Abisgran,</l>
-            <l>La que en sus ojos tiene</l>
-            <l rend="indent">fLechas de amor,</l>
-            <l>La que robado tiene</l>
-            <l rend="indent">mi corazon.</l>
-            <l>Si á tu ventana, etc.</l>
-          </lg>
-          <lg>
-            <l>Entonces yo en tus brazos</l>
-            <l rend="indent">me rendiré</l>
-            <l>Y amor eternó y puro</l>
-            <l rend="indent">te juraré.</l>
-            <l>Y cual amantes tiernos</l>
-            <l rend="indent">me verás, sí.</l>
-            <l>Y así estaremos juntos</l>
-            <l rend="indent">hasta morir.</l>
-            <l>Si á tu ventana, etc.</l>
-          </lg>
-        </div>
-        <pb n="4" source="Varios_158_4.jpg" facs="fedora_Varios_158_4/full/full/0/default.jpg"/>
-        <div>
-          <head type="titulo_parte"><lb/>EL NUEVO RATAPLAM.</head>
-          <lg>
-            <l>1.ª</l>
-            <l>Acudid, soldados,</l>
-            <l>al toque del clarin,</l>
-            <l>corred que os llaman</l>
-            <l>glorias sín fin.</l>
-            <l>Al campo de batalla</l>
-            <l>vuestros pasos guiad,</l>
-            <l>y con la canalla</l>
-            <l>pronto acabad.</l>
-            <l>Que nadie nunca pueda</l>
-            <l>tachar vuestra conducta</l>
-            <l>desde el jefe al recluta</l>
-            <l>vuestro honor es la verdad.</l>
-            <l>Presenten...</l>
-            <l>Preparen...</l>
-            <l>Apun... fuego</l>
-            <l>Pum, pim, pam.</l>
-            <l>Terraplam, plam, plam,</l>
-            <l>Tarrataplam, plam, plam.</l>
-          </lg>
-          <lg>
-            <l>2.ª</l>
-            <l>Cuando la victoria</l>
-            <l>ganada habreis;</l>
-            <l>oh, qué regocijo</l>
-            <l>entonces tendreis</l>
-            <l>Vereis al alojaros</l>
-            <l>contentas las patronas,</l>
-            <l>las niñas, las jamonas</l>
-            <l>tras del soldado van.</l>
-            <l>Y si algo les falta</l>
-            <l>pronto se lo darán,</l>
-            <l>que pidan de la casa</l>
-            <l>nada les negarán.</l>
-            <l>Preparen. etc.</l>
-          </lg>
-          <lg>
-            <l>3.</l>
-            <l>Ya tocan llamada,</l>
-            <l>soldados, á marchar</l>
-            <l>todos á la plaza</l>
-            <l>no hagamos esperar.</l>
-            <l>Que aunque sea atractivo</l>
-            <l>el buen trato que os dan,</l>
-            <l>es deber cuando llaman</l>
-            <l>acudir el militar.</l>
-            <l>Que nadie nunca pueda</l>
-            <l>tachar vuestra conducta,</l>
-            <l>desde jefe al recluta</l>
-            <l>su honor es la verdad.</l>
-            <l>Preparen... etc.</l>
-          </lg>
-        </div>
+        
         <div type="colofón_vendedor">
-          <p><lb/>(Es Propiedad.)<lb/>Se halla de venta en casa de los sucesores
-                                    Antonio Bosch, Bou de la Plaza nueva, núm. 13.</p>
+          <p rend="cursiva"><lb/>Se halla de venta en casa de los sucesores Antonio Bosch, Bou de la Plaza nueva,
+            núm. 13.</p>
         </div>
-        <div type="colofon_impresora">
-          <p><lb/>Barcelona. —
-                                    Imp. de Narciso Ramirez y Com.ª,—Pasaje de Escudillers, núm.
-                                    4.</p>
+        
+        <div type="colofon_impresor">
+          <p><lb/>Barcelona. — Imp. de Narciso Ramirez y Com.ª,—Pasaje de Escudillers, núm. 4.</p>
         </div>
       </div>
     </body>

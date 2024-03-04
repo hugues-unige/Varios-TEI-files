@@ -1,19 +1,17 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../Schema/oddPliego_varios.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:alto="http://www.loc.gov/standards/alto/ns-v4#" xml:id="Varios_054">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Varios_054">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>EL SEPULCRO Ó LO QUE PUEDE EL AMOR LEANDRO Y EL SEPULTURERO.</title>
+        <title>EL SEPULCRO</title>
         <respStmt>
           <name/>
           <resp>Codificación TEI</resp>
-          <note type="propiedad">José Lluch,</note>
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <authority role="rightsHolder">Bibliothèque Universitaire de
-                            Genève</authority>
+        <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
         <availability status="restricted">
           <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
         </availability>
@@ -21,8 +19,9 @@
       <sourceDesc>
         <biblFull>
           <titleStmt>
-            <title type="titulo_completo">EL SEPULCRO Ó LO QUE PUEDE EL AMOR LEANDRO Y EL SEPULTURERO.</title>
-            <title type="titulo_breve">EL SEPULCRO Ó LO QUE PUEDE EL AMOR LEANDRO Y EL SEPULTURERO.</title>
+            <title type="titulo_completo">EL SEPULCRO Ó LO QUE PUEDE EL AMOR LEANDRO Y EL
+              SEPULTURERO.</title>
+            <title type="titulo_breve">EL SEPULCRO</title>
           </titleStmt>
           <editionStmt>
             <p/>
@@ -30,7 +29,7 @@
           <publicationStmt>
             <publisher>José Lluch</publisher>
             <pubPlace ref="https://www.geonames.org/3128760/barcelona.html">Barcelona</pubPlace>
-            <date cert="high">1845</date>
+            <date cert="high" when="1845-01-01">1845</date>
           </publicationStmt>
         </biblFull>
         <msDesc>
@@ -38,7 +37,8 @@
             <country>Suisse</country>
             <settlement>Genève</settlement>
             <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"/>
-                  </repository>
+            </repository>
+            <collection>Colección Varios</collection>
             <idno type="cote"/>
             <idno type="DOI">10.5281/zenodo.6557686</idno>
             <altIdentifier>
@@ -63,11 +63,11 @@
                 <condition>Bueno</condition>
               </supportDesc>
               <layoutDesc>
-                <p>2 columnas</p>
+                <p>1 columna</p>
               </layoutDesc>
             </objectDesc>
             <decoDesc>
-              <summary n="1">Uno grabado (p.1) </summary>
+              <summary n="1">Un grabado (p.1) </summary>
               <decoNote type="lista_grabados">
                 <list>
                   <item corresp="grabado_v_054_1.xml">grabado_v_054_1</item>
@@ -93,18 +93,17 @@
     </fileDesc>
     <encodingDesc>
       <projectDesc>
-        <p>Este archivo fue creado en el marco del proyecto Desenrollando el
-                            Cordel/Démêler le cordel/Untangling the cordel, dirigido por la
-                            profesora Constance Carta de la Universidad de Ginebra, con el apoyo de
-                            la Fundación filantrópica Famille Sandoz-Monique de Meuron.</p>
+        <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+          cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la Universidad
+          de Ginebra, con el apoyo de la Fundación filantrópica Famille Sandoz-Monique de
+          Meuron.</p>
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR non corregido</p>
+          <p>OCR no corregido</p>
         </correction>
         <normalization>
-          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto
-                                original.</p>
+          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
         </normalization>
         <punctuation>
           <p>Se conserva la puntuación original.</p>
@@ -119,16 +118,20 @@
         <keywords xml:base="http://datos.bne.es/tema/">
           <term target="XX4876797.html" type="tipo_texto">Sainetes</term>
           <term type="tipo_estrofa"/>
-          <term type="verso_prosa">Verso</term>
+          <term type="verso_prosa">Verso y prosa</term>
           <term type="sagrado_profano">Profano</term>
         </keywords>
       </textClass>
     </profileDesc>
     <revisionDesc>
       <change when="2022-06-01" who="#PJ">Création du fichier TEI P5 et encodage du corps du
-                        texte</change>
+        texte</change>
+      <change when="2024-01-09" who="#EL">Add the IIIF links</change>
     </revisionDesc>
   </teiHeader>
+  <facsimile>
+    <graphic url="varios/Varios_054_1.jpg/full/200,/0/default.jpg"/>
+  </facsimile>
   <sourceDoc xml:id="automaticTranscription">
     <surface xml:id="Varios_054_1" type="page" cert="silver">
       <graphic url="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_054_1/full/full/0/default.jpg"/>
@@ -290,7 +293,7 @@
         </zone>
         <zone xml:id="_BT226_1_LT83_23" type="DefaultLine" subtype="none" points="303,1229 297,1194 339,1180 341,1180 341,1180 341,1180 343,1180 343,1180 452,1190 613,1175 616,1175 616,1175 733,1186 930,1171 932,1171 932,1171 932,1171 934,1171 977,1182 1091,1169 1091,1169 1093,1169 1281,1178 1306,1167 1306,1167 1308,1167 1308,1167 1308,1167 1310,1167 1310,1167 1376,1180 1380,1215 1376,1237 1227,1229 1184,1240 1184,1240 1182,1240 1182,1240 1180,1240 1180,1240 1176,1240 1097,1231 1037,1242 1029,1242 1029,1242 1027,1242 1027,1242 1027,1242 1025,1242 1025,1242 1025,1242 1023,1242 1008,1233 938,1242 917,1244 917,1244 915,1244 886,1242 795,1235 737,1244 717,1246 717,1246 717,1248 303,1248 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_054_2/297,1167,1083,81/full/0/default" corresp="DefaultLine">
           <path xml:id="Varios_054_2_BT226_1_LT83_23_1" points="303,1229 1380,1215 " corresp="DefaultLine"/>
-          <line>mirada, su amabilidad, su sonrisa encantadora su....  ¡Mas</line>
+          <line>mirada, su amabilidad, su sonrisa encantadora su.... ¡Mas</line>
         </zone>
         <zone xml:id="_BT226_1_LT83_24" type="DefaultLine" subtype="none" points="303,1277 299,1246 607,1229 609,1229 1378,1231 1382,1262 1382,1271 303,1285 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_054_2/,,,/full/0/default" corresp="DefaultLine">
           <path xml:id="Varios_054_2_BT226_1_LT83_24_1" points="305,1279 1384,1264 " corresp="DefaultLine"/>
@@ -668,7 +671,7 @@
         </zone>
         <zone xml:id="_BT226_2_LT83_20" type="DefaultLine" subtype="none" points="278,1145 276,1101 414,1099 416,1099 416,1099 418,1099 418,1099 418,1099 425,1101 447,1112 473,1104 486,1099 489,1099 489,1099 491,1099 546,1099 546,1099 546,1099 548,1099 548,1099 548,1099 550,1099 550,1099 557,1104 568,1112 642,1106 695,1101 695,1101 697,1101 697,1101 697,1101 723,1106 758,1115 868,1108 1008,1101 1011,1101 1011,1101 1087,1112 1123,1117 1133,1112 1155,1104 1155,1104 1158,1104 1158,1104 1158,1104 1160,1104 1160,1104 1162,1104 1162,1104 1162,1104 1182,1112 1191,1119 1366,1119 1368,1117 1384,1104 1384,1104 1386,1104 1386,1104 1386,1104 1388,1104 1388,1104 1390,1104 1390,1104 1495,1119 1498,1152 1493,1178 1405,1172 1388,1178 1348,1194 1348,1194 1346,1194 1346,1194 1344,1194 1344,1194 1228,1183 1092,1194 1090,1194 1022,1191 1022,1191 1022,1191 1019,1191 1019,1191 1019,1191 1017,1191 995,1174 989,1169 886,1169 879,1174 859,1191 859,1191 857,1191 857,1191 857,1191 855,1191 855,1191 855,1194 809,1194 807,1191 807,1191 804,1191 741,1172 736,1172 736,1172 723,1185 723,1185 723,1185 721,1185 721,1185 719,1185 719,1185 719,1185 717,1185 717,1185 717,1185 715,1185 715,1185 712,1185 712,1185 697,1172 693,1169 686,1172 636,1189 633,1189 633,1189 633,1189 631,1189 631,1189 629,1189 629,1189 629,1189 592,1172 583,1167 445,1167 440,1169 434,1176 434,1178 434,1178 432,1178 432,1178 432,1178 429,1178 429,1178 429,1178 427,1178 427,1178 425,1178 425,1178 425,1178 423,1178 423,1178 412,1169 407,1167 276,1167 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_054_4/276,1099,1222,95/full/0/default" corresp="DefaultLine">
           <path xml:id="Varios_054_4_BT226_2_LT83_20_1" points="278,1145 1498,1152 " corresp="DefaultLine"/>
-          <line>Leandro.  Asi lo espero de vos, por la bella que reposa en tan dóbre¬</line>
+          <line>Leandro. Asi lo espero de vos, por la bella que reposa en tan dóbre¬</line>
         </zone>
         <zone xml:id="_BT226_2_LT83_21" type="DefaultLine" subtype="none" points="421,1202 418,1165 585,1152 587,1152 587,1152 587,1152 590,1152 590,1152 622,1167 627,1167 633,1167 688,1154 688,1154 688,1154 690,1154 690,1154 690,1154 693,1154 693,1154 693,1154 695,1154 712,1167 728,1154 730,1154 730,1154 730,1154 732,1154 732,1154 732,1154 734,1154 734,1154 826,1169 829,1207 826,1240 684,1240 671,1250 649,1268 649,1270 649,1270 647,1270 647,1270 644,1270 644,1270 644,1270 642,1270 642,1270 642,1270 640,1270 640,1270 640,1270 638,1270 622,1257 605,1270 603,1270 603,1270 603,1270 600,1270 600,1270 598,1270 598,1270 598,1270 546,1259 530,1257 524,1261 511,1270 508,1270 508,1270 508,1270 506,1270 506,1270 504,1270 416,1268 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_054_4/416,1152,413,118/full/0/default" corresp="DefaultLine">
           <path xml:id="Varios_054_4_BT226_2_LT83_21_1" points="421,1202 829,1207 " corresp="DefaultLine"/>
@@ -702,177 +705,192 @@
     <body>
       <div>
         <div>
-          <pb n="1" source="Varios_054_1.jpg" facs="fedora_Varios_054_1/full/full/0/default.jpg"/>
-          <head type="primer_titulo"><lb/>EL SEPULCRO <lb/>ó <lb/>LO QUE PUEDE EL AMOR<lb/>LEANDRO Y EL SEPULTURERO.</head>
-          <head type="subtitulo_parte">Sepult. Señor, mirad, este es el sepulcro, leed su inscripcion.<lb/>EPITAFIO.</head>
-          <castList>
-            <castItem>EMILIA JÓVEN Y HERMOSA</castItem>
-            <castItem>CUAL LA MAS LOZANA FLOR</castItem>
-            <castItem>DE LA MUERTE EL CRUEL RIGOR,</castItem>
-            <castItem>SEPULTO BAJO ESTA LOSA;</castItem>
-            <castItem>SOLO DESEA AMBICIOSA</castItem>
-            <castItem>DEL OBJETO DE SU AMOR</castItem>
-            <castItem>UN SUSPIRO DE DOLOR</castItem>
-            <castItem>PARA PODER SER DICHOSA</castItem>
-          </castList>
-          <pb n="2" source="Varios_054_2.jpg" facs="fedora_Varios_054_2/full/full/0/default.jpg"/>
+          <pb n="1" source="Varios_054_1.jpg" facs="varios/Varios_054_1.jpg/"/>
+
+          <head type="primer_titulo"><lb/>EL SEPULCRO <lb/>ó <hi rend="negrita"><lb/>LO QUE PUEDE EL
+              AMOR<lb/>LEANDRO Y EL SEPULTURERO.</hi></head>
+
+          <sp>
+            <speaker rend="cursiva">Sepult.</speaker>
+            <p>Señor, mirad, este es el sepulcro, leed su inscripcion.</p>
+            <lg>
+              <head type="titulo_estrofa">EPITAFIO.</head>
+              <l rend="indent">EMILIA JÓVEN Y HERMOSA</l>
+              <l>CUAL LA MAS LOZANA FLOR</l>
+              <l>DE LA MUERTE EL CRUEL RIGOR,</l>
+              <l>SEPULTO BAJO ESTA LOSA;</l>
+              <l>SOLO DESEA AMBICIOSA</l>
+              <l>DEL OBJETO DE SU AMOR</l>
+              <l>UN SUSPIRO DE DOLOR</l>
+              <l>PARA PODER SER DICHOSA</l>
+            </lg>
+          </sp>
+
+          <pb n="2" source="Varios_054_2.jpg" facs="varios/Varios_054_2.jpg/"/>
+
           <fw type="paginaNum">2</fw>
+
           <sp>
-            <speaker>Leandro.</speaker>
-            <l>Por fin hemos llegado al lugar de mis deseos y de mis</l>
-            <l>pesares. Si, amigo: esta es la tumba de mi querida Emilia,</l>
-            <l>esta segun lo manifiestan los dorados caracteres que sobresa¬</l>
-            <l>len de entre los jaspeados mármoles de su losa sepulcral.</l>
-            <l>An! mi corazon palpita de contento al reconocerlo, al</l>
-            <l>paso que se cubre del mas profundo dolor. Amigo: haced--</l>
-            <l>me el favor de dejarme solo, separaos por algunos instan¬</l>
-            <l>tes, no os lo pide un caballero sino un ámante desgra-¬</l>
-            <l>ciado.</l>
+            <speaker rend="cursiva">Leandro.</speaker>
+            <p rend="indent"><lb/>Por fin hemos llegado al lugar de mis deseos y de mis
+              <lb/>pesares. Si, amigo: esta es la tumba de mi querida Emilia, <lb/>esta segun lo
+              manifiestan los dorados caracteres que sobresa¬ <lb/>len de entre los jaspeados
+              mármoles de su losa sepulcral. <lb/>An! mi corazon palpita de contento al
+              reconocerlo, al <lb/>paso que se cubre del mas profundo dolor. Amigo: haced-- <lb/>me
+              el favor de dejarme solo, separaos por algunos instan¬ <lb/>tes, no os lo pide un
+              caballero sino un ámante desgra-¬ <lb/>ciado.</p>
           </sp>
           <sp>
-            <speaker>Sepult...</speaker>
-            <l>Conozco vuestra afliccion y os compadezco: voy á sepa¬</l>
-            <l>rarme al momento, desahogad vuestros pesares antes la no¬</l>
-            <l>che no obligue á retiraros de tan lúgubre morada.</l>
+            <speaker rend="cursiva">Sepult...</speaker>
+            <p rend="indent"><lb/>Conozco vuestra afliccion y os compadezco: voy á sepa¬ <lb/>rarme
+              al momento, desahogad vuestros pesares antes la no¬ <lb/>che no obligue á retiraros
+              de tan lúgubre morada.</p>
           </sp>
           <sp>
-            <speaker>Leandro.</speaker>
-            <l>Emilia! Emilia donde estás::: que te has hecho... por</l>
-            <l>que no me respondes.... acaso está sofocada aquella sono¬</l>
-            <l>ra voz que tantas veces mitigó mis enojos haciendo mas</l>
-            <l>soportables los reveces de una suerte caprichosa ? Ah Emi¬</l>
-            <l>lia no ecsiste.... la aurora vital que animaba los pálidos</l>
-            <l>restos depositados bajo esta losa fria se apagó, cesó de ec¬</l>
-            <l>sistir; solo mi imaginacion tétrica y pesarosa puede reco¬</l>
-            <l>nocer en medio de mi ardiente pasion su hermoso y agra¬</l>
-            <l>ciado cuerpo su blanco rostro, y su pencorunee y veudevora</l>
-            <l>mirada, su amabilidad, su sonrisa encantadora su....  ¡Mas</l>
-            <l>ay ! ¿ Porque audaz profano sus gracias y sus virtudes en es¬</l>
-            <l>ta mancion sagrada de los mortales ? ¿ Porque no la dejo</l>
-            <l>en paz gozando del apacible sueño de la muerte ? No es</l>
-            <l>posible. Mi corazon agitado busca un consuelo en las amar¬</l>
-            <l>guras, y solo regando con mis lágrimas este sepulcro al</l>
-            <l>cual consagro mis cánticos y mis suspiros; podràn estos en¬</l>
-            <l>contrar algun consuelo, si es que consuelo haya para un</l>
-            <l>inlelz abandonado del unico objeto de sus cariños y de sus</l>
-            <l>cuidados.</l>
+            <speaker rend="cursiva">Leandro.</speaker>
+            <p rend="indent"><lb/>Emilia! Emilia donde estás::: que te has hecho... por <lb/>que no
+              me respondes.... acaso está sofocada aquella sono¬ <lb/>ra voz que tantas veces
+              mitigó mis enojos haciendo mas <lb/>soportables los reveces de una suerte caprichosa
+              ? Ah Emi¬ <lb/>lia no ecsiste.... la aurora vital que animaba los pálidos <lb/>restos
+              depositados bajo esta losa fria se apagó, cesó de ec¬ <lb/>sistir; solo mi
+              imaginacion tétrica y pesarosa puede reco¬ <lb/>nocer en medio de mi ardiente pasion
+              su hermoso y agra¬ <lb/>ciado cuerpo su blanco rostro, y su pencorunee y veudevora
+              <lb/>mirada, su amabilidad, su sonrisa encantadora su.... ¡Mas <lb/>ay ! ¿ Porque
+              audaz profano sus gracias y sus virtudes en es¬ <lb/>ta mancion sagrada de los
+              mortales ? ¿ Porque no la dejo <lb/>en paz gozando del apacible sueño de la muerte ?
+              No es <lb/>posible. Mi corazon agitado busca un consuelo en las amar¬ <lb/>guras, y
+              solo regando con mis lágrimas este sepulcro al <lb/>cual consagro mis cánticos y mis
+              suspiros; podràn estos en¬ <lb/>contrar algun consuelo, si es que consuelo haya para
+              un <lb/>inlelz abandonado del unico objeto de sus cariños y de sus <lb/>cuidados.</p>
           </sp>
-        </div>
-        <pb n="3" source="Varios_054_3.jpg" facs="fedora_Varios_054_3/full/full/0/default.jpg"/>
-        <fw type="paginaNum">3</fw>
-        <div>
-          <head type="titulo_cancion"><lb/>EL SEPULCRO.<lb/>CANCION AMOROSA Y TIERNA.</head>
+
+          <pb n="3" source="Varios_054_3.jpg" facs="varios/Varios_054_3.jpg/"/>
+          <fw type="paginaNum">3</fw>
+
           <lg>
-            <l>Ay donde fueron</l>
-            <l>Los dulces dias</l>
-            <l>Que de alegrias</l>
-            <l>Colmaba amor.</l>
-            <l>Solo un sepulcro</l>
-            <l>Me dejó el hado</l>
-            <l>Templo adorado</l>
-            <l>De mi dolor.</l>
+            <head type="titulo_cancion" rend="negrita"><lb/>EL SEPULCRO.<lb/>CANCION AMOROSA Y
+                TIERNA.</head>
+            <lg>
+              <l rend="indent">Ay donde fueron</l>
+              <l>Los dulces dias</l>
+              <l>Que de alegrias</l>
+              <l>Colmaba amor.</l>
+              <l rend="indent">Solo un sepulcro</l>
+              <l>Me dejó el hado</l>
+              <l>Templo adorado</l>
+              <l>De mi dolor.</l>
+            </lg>
+            <lg>
+              <l rend="indent">La muerte fiera</l>
+              <l>Dulce bien mio</l>
+              <l>Con brazo impio</l>
+              <l>Te arrebató;</l>
+              <l rend="indent">Robó á mi pecho</l>
+              <l>Todas las glorias</l>
+              <l>Tristes memorias</l>
+              <l>Solo dejó</l>
+            </lg>
+            <lg>
+              <l rend="indent">A tú adorada</l>
+              <l>Ceniza fria</l>
+              <l>El alma mia</l>
+              <l>Buscando va,</l>
+              <l rend="indent">Solo abrazando</l>
+              <l>Tu sombra pura</l>
+              <l>Hoy mi amargura</l>
+              <l>Calmar podrá.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Por tí gimiendo</l>
+              <l>Sombra querida</l>
+              <l>Mi edad florida</l>
+              <l>Consumiré;</l>
+              <l rend="indent">Ni en la pradera</l>
+              <l>Cantaré amores</l>
+              <l>Ni entre las flores</l>
+              <l>Me adormiré</l>
+            </lg>
+            <lg>
+              <l rend="indent">Ante esta tumba</l>
+              <l>Genios queridos</l>
+              <l>Amarse unidos</l>
+              <l>Se jurarán:</l>
+              <l rend="indent">Mil ecos sordos</l>
+              <l>De entre esta losa</l>
+              <l>Su fin dichoso</l>
+              <l>Bendecirán</l>
+            </lg>
+            <lg>
+              <l rend="indent">La suerte impia</l>
+              <l>Te ha separado</l>
+              <l>Mas á tu ládo</l>
+              <l>Yo volveré;</l>
+              <l rend="indent">Habre esa tumba</l>
+              <l>Dame de abrazos</l>
+              <l>Y entre tus brazos</l>
+              <l>Espiraré.</l>
+            </lg>
           </lg>
-          <lg>
-            <l>La muerte fiera</l>
-            <l>Dulce bien mio</l>
-            <l>Con brazo impio</l>
-            <l>Te arrebató;</l>
-            <l>Robó á mi pecho</l>
-            <l>Todas las glorias</l>
-            <l>Tristes memorias</l>
-            <l>Solo dejó</l>
-          </lg>
-          <lg>
-            <l>A tú adorada</l>
-            <l>Ceniza fria</l>
-            <l>El alma mia</l>
-            <l>Buscando va,</l>
-            <l>Solo abrazando</l>
-            <l>Tu sombra pura</l>
-            <l>Hoy mi amargura</l>
-            <l>Calmar podrá.</l>
-          </lg>
-          <lg>
-            <l>Por tí gimiendo</l>
-            <l>Sombra querida</l>
-            <l>Mi edad florida</l>
-            <l>Consumiré;</l>
-            <l>Ni en la pradera</l>
-            <l>Cantaré amores</l>
-            <l>Ni entre las flores</l>
-            <l>Me adormiré</l>
-          </lg>
-          <lg>
-            <l>Ante esta tumba</l>
-            <l>Genios queridos</l>
-            <l>Amarse unidos</l>
-            <l>Se jurarán:</l>
-            <l>Mil ecos sordos</l>
-            <l>De entre esta losa</l>
-            <l>Su fin dichoso</l>
-            <l>Bendecirán</l>
-          </lg>
-          <lg>
-            <l>La suerte impia</l>
-            <l>Te ha separado</l>
-            <l>Mas á tu ládo</l>
-            <l>Yo volveré;</l>
-            <l>Habre esa tumba</l>
-            <l>Dame de abrazos</l>
-            <l>Y entre tus brazos</l>
-            <l>Espiraré.</l>
-          </lg>
+
           <sp>
-            <speaker>Sepult...</speaker>
-            <l>La noche parece va estendiendo sus sombras por los án¬</l>
-            <l>gulos de esta soledad. Es preciso salgais de aqui, yendoos</l>
-            <l>á vuestro domicilio antes no os coja la tempestad que aso¬</l>
-            <l>ma por el orizonte segun lo presagian las negras y espesas</l>
-            <l>nubes que lo van cubriendo, y el ruido que se percibe de</l>
-            <l>los lejanos truenos¬</l>
+            <speaker rend="cursiva">Sepult...</speaker>
+            <p rend="indent"><lb/>La noche parece va estendiendo sus sombras por los án¬
+            <lb/>gulos de esta soledad. Es preciso salgais de aqui, yendoos
+            <lb/>á vuestro domicilio antes no os coja la tempestad que aso¬
+            <lb/>ma por el orizonte segun lo presagian las negras y espesas
+            <lb/>nubes que lo van cubriendo, y el ruido que se percibe de
+            <lb/>los lejanos truenos¬</p>
           </sp>
-          <pb n="4" source="Varios_054_4.jpg" facs="fedora_Varios_054_4/full/full/0/default.jpg"/>
+          
+          <pb n="4" source="Varios_054_4.jpg" facs="varios/Varios_054_4.jpg/"/>
+          
           <fw type="paginaNum">4</fw>
+          
           <sp>
-            <speaker>Leandro.</speaker>
-            <l>Ojalá el fantasma de la noche entre sus tinieblas me en¬</l>
-            <l>volviera, y el rayo sofocando mi espirítu vivificador ; á la</l>
-            <l>muerte me entregara ! La cesistencia me será un martirio,</l>
-            <l>hasta que pagando el tributo á la naturaleza, descanse al</l>
-            <l>lado de mi adorada Emilia bajo el peso de estos mármoles</l>
+            <speaker rend="cursiva">Leandro.</speaker>
+            <p rend="indent"><lb/>Ojalá el fantasma de la noche entre sus tinieblas me en¬
+            <lb/>volviera, y el rayo sofocando mi espirítu vivificador ; á la
+            <lb/>muerte me entregara ! La cesistencia me será un martirio,
+            <lb/>hasta que pagando el tributo á la naturaleza, descanse al
+            <lb/>lado de mi adorada Emilia bajo el peso de estos mármoles
+            <lb/>entre el silencio de la misteriosa nada.</p>
           </sp>
+          
           <sp>
-            <speaker>Sepult...</speaker>
-            <l>No descad Señor que vuestra ecsistencia concluya en lo</l>
-            <l>entre el silencio de la misteriosa nada.</l>
-            <l>mas florido de vuestros dias; sois joven, podeis ser feliz, y</l>
-            <l>hacerlo á otros de vuestros sem ejantes. Si concluyereis tan</l>
-            <l>pronto la carrera de vuestra vida, de poco en el mundo hu¬</l>
-            <l>biereis servido ; pues que para quejaros y sufrir, bastaba el</l>
+            <speaker rend="cursiva">Sepult...</speaker>
+            <p rend="indent"><lb/>No descad Señor que vuestra ecsistencia concluya en lo
+            <lb/>mas florido de vuestros dias; sois joven, podeis ser feliz, y
+            <lb/>hacerlo á otros de vuestros sem ejantes. Si concluyereis tan
+            <lb/>pronto la carrera de vuestra vida, de poco en el mundo hu¬
+            <lb/>biereis servido ; pues que para quejaros y sufrir, bastaba el
+            <lb/>concluir allá en la cuna.</p>
           </sp>
+          
           <sp>
-            <speaker>Leandro.</speaker>
-            <l>Vuestros consejos me conmueven, mas por ahora no me</l>
-            <l>concluir allá en la cuna.</l>
-            <l>convencen. Me retiraré de esta soledad respetable por tantos</l>
-            <l>motivos único objeto de mis deseos y de mis esperanzas. Otro</l>
-            <l>dia, recompensando vuestra amistad, espero me facilitais tan</l>
-            <l>dichosa ocasion, el secreto queda á mi cargo, soy honrado</l>
-            <l>y esto basta.</l>
+            <speaker rend="cursiva">Leandro.</speaker>
+            <p rend="indent"><lb/>Vuestros consejos me conmueven, mas por ahora no me
+            <lb/>convencen. Me retiraré de esta soledad respetable por tantos
+            <lb/>motivos único objeto de mis deseos y de mis esperanzas. Otro
+            <lb/>dia, recompensando vuestra amistad, espero me facilitais tan
+            <lb/>dichosa ocasion, el secreto queda á mi cargo, soy honrado
+            <lb/>y esto basta.</p>
           </sp>
+          
           <sp>
-            <speaker>Sepult...</speaker>
-            <l>Servido quedareis Señor.</l>
+            <speaker rend="cursiva">Sepult...</speaker>
+            <p rend="indent"><lb/>Servido quedareis Señor.</p>
           </sp>
+          
           <sp>
-            <speaker>Leandro.</speaker>
-            <l>Asi lo espero de vos, por la bella que reposa en tan dóbre¬</l>
-            <l>go recinto. — A Dios.</l>
+            <speaker rend="cursiva">Leandro.</speaker>
+            <p rend="indent"><lb/>Asi lo espero de vos, por la bella que reposa en tan dóbre¬
+            <lb/>go recinto. — A Dios.</p>
           </sp>
-          <p><lb/>Es.. propiedad de José Lluch,</p>
+          
+          <p rend="cursiva"><lb/>Es propiedad de José Lluch.</p>
         </div>
         <div type="colofon">
-          <p><lb/>BARCELONA. Vendese en la librería de José Lluch, calle de la Libretería. 1845.</p>
+          <p><lb/>BARCELONA. <hi rend="cursiva">Véndese en la librería de</hi> José Lluch, <hi rend="cursiva">calle de la Libretería</hi>. 1845.</p>
         </div>
       </div>
     </body>

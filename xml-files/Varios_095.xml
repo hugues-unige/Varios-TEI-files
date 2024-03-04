@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../Schema/oddPliego_varios.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:alto="http://www.loc.gov/standards/alto/ns-v4#" xml:id="Varios_095">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Varios_095">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -11,8 +11,7 @@
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <authority role="rightsHolder">Bibliothèque Universitaire de
-                              Genève</authority>
+        <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
         <availability status="restricted">
           <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
         </availability>
@@ -20,17 +19,16 @@
       <sourceDesc>
         <biblFull>
           <titleStmt>
-            <title type="titulo_completo">DECIMAS GLOSADAS PARA CANTAR LOS
-                                          AFICIONADOS.</title>
+            <title type="titulo_completo">DECIMAS GLOSADAS PARA CANTAR LOS AFICIONADOS.</title>
             <title type="titulo_breve"/>
           </titleStmt>
           <editionStmt>
             <p/>
           </editionStmt>
           <publicationStmt>
-            <publisher>J. M. Marés y c.ª</publisher>
+            <publisher>José María Marés</publisher>
             <pubPlace ref="https://www.geonames.org/3117735/madrid.html">Madrid</pubPlace>
-            <date>[s.a]</date>
+            <date cert="low" when="1800-01-01">[s.a.]</date>
           </publicationStmt>
         </biblFull>
         <msDesc>
@@ -38,18 +36,31 @@
             <country>Suisse</country>
             <settlement>Genève</settlement>
             <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"/>
-                                    </repository>
+            </repository>
+            <collection>Colección Varios</collection>
             <idno type="cote"/>
             <idno type="DOI">10.5281/zenodo.6575932</idno>
             <altIdentifier>
-              <idno type="num_impresor">(Núm. 84. )</idno>
+              <idno type="num_impresor">(Núm. 84.)</idno>
             </altIdentifier>
           </msIdentifier>
           <msContents>
-            <summary/>
+            <summary>Cuatro canciones</summary>
             <msItem>
-              <locus/>
-              <title/>
+              <locus>1-3</locus>
+              <title>Décimas glosadas para cantar los aficionados.</title>
+            </msItem>
+            <msItem>
+              <locus>Coplas para cantar los mozos con la guitarra.</locus>
+              <title>3</title>
+            </msItem>
+            <msItem>
+              <locus>4</locus>
+              <title>Trovo.</title>
+            </msItem>
+            <msItem>
+              <locus>4</locus>
+              <title>Cancion de la semana mal empleada.</title>
             </msItem>
           </msContents>
           <physDesc>
@@ -81,8 +92,7 @@
           </physDesc>
           <history>
             <origin>
-              <p>Imprenta de J. M. Marés y c.ª , plazuela de la Cebada,
-                                                núm. 13</p>
+              <p>Imprenta de J. M. Marés y c.ª , plazuela de la Cebada, núm. 13</p>
             </origin>
             <provenance/>
             <acquisition>
@@ -94,18 +104,17 @@
     </fileDesc>
     <encodingDesc>
       <projectDesc>
-        <p>Este archivo fue creado en el marco del proyecto Desenrollando el
-                              Cordel/Démêler le cordel/Untangling the cordel, dirigido por la
-                              profesora Constance Carta de la Universidad de Ginebra, con el apoyo
-                              de la Fundación filantrópica Famille Sandoz-Monique de Meuron.</p>
+        <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+          cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la Universidad
+          de Ginebra, con el apoyo de la Fundación filantrópica Famille Sandoz-Monique de
+          Meuron.</p>
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR non corregido</p>
+          <p>OCR no corregido</p>
         </correction>
         <normalization>
-          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto
-                                    original.</p>
+          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
         </normalization>
         <punctuation>
           <p>Se conserva la puntuación original.</p>
@@ -126,10 +135,14 @@
       </textClass>
     </profileDesc>
     <revisionDesc>
-      <change when="2022-07-27" who="#PJ">Création du fichier TEI P5 et encodage du
-                        corps du texte</change>
+      <change when="2022-07-27" who="#PJ">Création du fichier TEI P5 et encodage du corps du
+        texte</change>
+      <change when="2024-01-09" who="#EL">Add the IIIF links</change>
     </revisionDesc>
   </teiHeader>
+  <facsimile>
+    <graphic url="varios/Varios_095_1.jpg/full/200,/0/default.jpg"/>
+  </facsimile>
   <sourceDoc xml:id="automaticTranscription">
     <surface xml:id="Varios_095_1" type="page" cert="silver">
       <graphic url="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_095_1/full/full/0/default.jpg"/>
@@ -1406,8 +1419,7 @@
       <zone xml:id="Varios_095_4_BT228_6" n="6" type="MarginTextZone" subtype="colophon" points="332,2423 332,2536 1688,2536 1688,2423 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_095_4/332,2423,1356,113/full/0/default" corresp="MarginTextZone:colophon">
         <zone xml:id="Varios_095_4_BT228_6_LT83_1" type="DefaultLine" subtype="none" points="344,2486 342,2442 416,2429 418,2429 421,2429 423,2429 423,2431 434,2440 480,2431 482,2431 484,2431 486,2431 500,2440 511,2447 530,2440 535,2438 537,2438 539,2438 600,2438 980,2449 1037,2434 1057,2429 1059,2429 1061,2429 1063,2429 1065,2429 1070,2434 1092,2449 1204,2438 1206,2438 1208,2438 1210,2438 1223,2449 1353,2438 1355,2438 1495,2449 1522,2429 1524,2429 1526,2429 1528,2429 1656,2429 1658,2488 1653,2512 1502,2508 1498,2512 1476,2532 1476,2534 1473,2534 1471,2534 1471,2536 1245,2536 1243,2534 1241,2534 1239,2534 1239,2532 1215,2510 1212,2510 1204,2510 1041,2534 1039,2534 1037,2534 1035,2534 1035,2532 1011,2510 930,2526 927,2526 925,2526 923,2526 905,2512 883,2532 883,2534 881,2534 879,2534 879,2536 846,2536 844,2534 842,2534 840,2534 840,2532 815,2508 813,2508 807,2508 712,2523 710,2523 708,2523 706,2523 706,2521 693,2508 666,2508 642,2508 640,2508 568,2534 565,2534 563,2534 561,2534 559,2534 515,2508 489,2508 473,2508 449,2523 447,2523 445,2523 443,2523 440,2523 392,2508 357,2523 355,2523 353,2523 350,2523 348,2523 348,2521 346,2521 333,2506 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_095_4/333,2429,1325,107/full/0/default" corresp="DefaultLine">
           <path xml:id="Varios_095_4_BT228_6_LT83_1_1" points="346,2488 1660,2489 "/>
-          <line>MADRID. Imprenta de J. M. Marés y c.ª , plazuela de la Cebada,
-                                    núm. 13.</line>
+          <line>MADRID. Imprenta de J. M. Marés y c.ª , plazuela de la Cebada, núm. 13.</line>
         </zone>
       </zone>
       <zone xml:id="Varios_095_4_BT223_7" n="7" type="CustomZone" subtype="title" points="542,1018 542,1098 1478,1098 1478,1018 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_095_4/542,1018,936,80/full/0/default" corresp="CustomZone:title"/>
@@ -1416,372 +1428,428 @@
   <text>
     <body>
       <div>
-        <pb n="1" source="Varios_095_1.jpg" facs="fedora_Varios_095_1/full/full/0/default.jpg"/>
-        <fw type="impresorNum">(Núm. 84. )</fw>
-        <div type="cancion" n="2">
-          <head type="primer_titulo"><lb/>DÉCIMAS GLOSADAS<lb/>PARA CANTAR LOS AFICIONADOS.</head>
-          <lg rend="cursiva">
-            <l>Me casé con una beata</l>
-            <l>por tener algo de Dios:</l>
-            <l>con ella cargò el diablo</l>
-            <l>y á mí poco me faltó.</l>
-          </lg>
-          <lg>
-            <l>Cansado ya de correr,</l>
-            <l>enfadado de enredar,</l>
-            <l>me puse á considerar</l>
-            <l>què es lo que debia hacer;</l>
-            <l>yo bien me harté de saber</l>
-            <l>bastante el salto de mata,</l>
-            <l>siempre andando en zaragata,</l>
-            <l>no pudiendo mas sufrir,</l>
-            <l>y para mejor vivir</l>
-            <l rend="cursiva">me casé con una beata.</l>
-            <l>Dentro de mi pensamiento</l>
-            <l>todo era maquinar;</l>
-            <l>feliz lo voy á pasar</l>
-            <l>con mi nuevo casamiento;</l>
-            <l>lo pasaré sin tormento,</l>
-            <l>porque, para entre los dos</l>
-            <l>me hablaba á media voz,</l>
-            <l>por ser tan sauta mujer,</l>
-            <l>y esto me hizo cuer,</l>
-            <l rend="cursiva">por tener algo de Dios.</l>
-          </lg>
-          <lg>
-            <l>Al revés me sucedió,</l>
-            <l>que de maula cojeaba,</l>
-            <l>de cabeza me cargaba,</l>
-            <l>sin que lo supiera yo;</l>
-            <l>pero al fin se descubrió.</l>
-            <l>Rezando estaba con Pablo</l>
-            <l>recostada en un retablo;</l>
-            <l>no me gustó aquel rezar,</l>
-            <l>y empezándola á pegar</l>
-            <l rend="cursiva">con ella cargó el diablo,</l>
-            <l>De verme tan mal parado</l>
-            <l>estaba que me moria,</l>
-            <l>todo el mundo se reia</l>
-            <l>al verme tan engañado,</l>
-            <l>de una beata, y burlado.</l>
-            <l>¿Qué es lo que debia hacer yo?</l>
-            <l>pero al fin se descubrió;</l>
-            <l>se acabaron mis enredos,</l>
-            <l>ella marchó á los infiernos.</l>
-            <l rend="cursiva">y á mí poco me faltò.</l>
-          </lg>
-          <pb n="2" source="Varios_095_2.jpg" facs="fedora_Varios_095_2/full/full/0/default.jpg"/>
-          <lg rend="cursiva">
-            <l>Aunque me cause enojos,</l>
-            <l>ese ceño, hermosa mia,</l>
-            <l>me enagena la alegria</l>
-            <l>cuando me miran tus ojos.</l>
-          </lg>
-          <lg>
-            <l>Ese tu dulce mirar</l>
-            <l>siempre ha sido mi elemento,</l>
-            <l>tornando mi sentimiento</l>
-            <l>en un grato suspirar.</l>
-            <l>¿Quién no rinde á su pesar,</l>
-            <l>al ver tus hermosos ojos,</l>
-            <l>su corazon por despojos?</l>
-            <l>Yo de mi decir podré</l>
-            <l>que nunca te olvidaré.</l>
-            <l rend="cursiva">aunque me cause enojos.</l>
-            <l>Lejos me hallaba de tí,</l>
-            <l>y eras tú mi bien, mi gloria,</l>
-            <l>yo jamás á tu memoria</l>
-            <l>ingrato un instante fui.</l>
-            <l>Aunque en sueños, ¡ay demi!</l>
-            <l>tu ausencia me entrisecia;</l>
-            <l>suspirando por el dia.</l>
-            <l>en que tuviera el placer,</l>
-            <l>que me enagena, de ver</l>
-            <l rend="cursiva">ese ceño, hermosa mia.</l>
-          </lg>
-          <lg>
-            <l>¡Dichoso en aquel instante</l>
-            <l>que tanto, mi bien, deseo,</l>
-            <l>en que transforme himeneo;</l>
-            <l>en fino esposo al amante !</l>
-            <l>¡Cuán gozoso y delirante</l>
-            <l>te contemplaré aquel dia</l>
-            <l>al considerarte mia!</l>
-            <l>Facil es adivinarlo,</l>
-            <l>cuando solo de pensarlo</l>
-            <l rend="cursiva">me enagena la alegría.</l>
-            <l>Pues que en tí está mi ventura,</l>
-            <l>y sin tí yo moriré,</l>
-            <l>que sea tanta tu fe,</l>
-            <l>como es mucha tu hermosura;</l>
-            <l>considera la locura</l>
-            <l>que causarán tus enojos</l>
-            <l>á quien rindió por despojos</l>
-            <l>de su amor su corazon:</l>
-            <l>y que encienden mi pasion</l>
-            <l rend="cursiva">cuando me miran tus ojos.</l>
-          </lg>
-          <lg rend="cursiva">
-            <l>¿Qué hara el dueño de mi vida,</l>
-            <l>si de mi se acordara,</l>
-            <l>si me tendrá en la memoria</l>
-            <l>ò me habrá olvidado ya?</l>
-          </lg>
-          <lg>
-            <l>Dime, loco pensamiento,</l>
-            <l>que me afliges sin cesar.</l>
-            <l>¿hasta cuándo ha de durar</l>
-            <l>mi padecer y tormento?</l>
-            <l>mira ya que el sufrimiento</l>
-            <l>ha sofocado la herida,</l>
-            <l>no quieras ser mi homicida,</l>
-            <l>deja que descanse el alma.</l>
-            <l>cotemplando en dulce calma:</l>
-            <l rend="cursiva">¡qué hard el dueño de mi pida?</l>
-            <l>Dichas gozaba algun dia</l>
-            <l>ufano de vana gloria;</l>
-            <l>con esta cruel memoria</l>
-            <l>crece hoy la pena mia:</l>
-            <l>¿cuando llegará aquel dia</l>
-            <l>que á mis brazos volverá</l>
-            <l>y en ellos descansará</l>
-            <l>la prenda que mas adoro,</l>
-            <l>por quien de continuo lloro,</l>
-            <l rend="cursiva">si de mí se acordará?</l>
-          </lg>
-          <lg>
-            <l>Por esta fatal pasion</l>
-            <l>estoy loco, sin sentido,</l>
-            <l>pues me tiene sumergido,</l>
-            <l>el dolor y confusion :</l>
-            <l>una terrible ilusion</l>
-            <l>ha trastornado mi gloria;</l>
-            <l>mi dicha será notoria</l>
-            <l>con la gracia de mi dueño,</l>
-            <l>porque de continuo sueño,</l>
-            <l rend="cursiva">si me tendrá en la memoria.</l>
-            <l>Hoy me atormentan recelos</l>
-            <l>y me anima la confianza,</l>
-            <l>me alimenta la esperanza</l>
-            <l>pero me matan los celos;</l>
-            <l>me entristecen los desvelos</l>
-            <l>por mi dueño cuánto há,</l>
-            <l>por ver el tiempo que va,</l>
-            <l>de continuado tormento,</l>
-            <l>¿si me tendrá ya por muerto,</l>
-            <l rend="cursiva">ó me habrá olvidado ya?</l>
-          </lg>
-          <pb n="3" source="Varios_095_3.jpg" facs="fedora_Varios_095_3/full/full/0/default.jpg"/>
-          <lg rend="cursiva">
-            <l>¿Para qué me acariciabas</l>
-            <l>y me dabas tantas glorias,</l>
-            <l>si me habias de olvidar,</l>
-            <l>ingrata, de tu memoria?</l>
-          </lg>
-          <lg>
-            <l>Triste y confuso, á morir</l>
-            <l>voy en brazos de mi suerte,</l>
-            <l>dias pasaré sin verte</l>
-            <l>en continuado gemir :</l>
-            <l>corto será mi sufrir</l>
-            <l>al considerar me amabas</l>
-            <l>y por otro me dejabas</l>
-            <l>oly dándote de mí;</l>
-            <l>y supuesto que es así,</l>
-            <l rend="cursiva">¿para qué me acariciabas?</l>
-            <l>¿Qué se hicieron las ternezas</l>
-            <l>que recibt de tu pecho?</l>
-            <l>¿dónde fueron? ¿qué se han hecho</l>
-            <l>tantas colmadas finezas?</l>
-            <l>se cambiaron en tibiezas,</l>
-            <l>siendo mi dicho ilusoria,</l>
-            <l>pues toda fue transitoria</l>
-            <l>de aquel tiempo ya pasado</l>
-            <l>que de tí me ví estimado,</l>
-            <l rend="cursiva">y me dabas tantas glorias.</l>
-          </lg>
-          <lg>
-            <l>Con tu proceder estraño</l>
-            <l>me llenaste de amargura,</l>
-            <l>de dolor y pena dura</l>
-            <l>al reconocer tu engaño;</l>
-            <l>para mayor desengaño</l>
-            <l>de mi tormento y pesar,</l>
-            <l>te quisiera preguntar</l>
-            <l>en medio de mi quebranto;</l>
-            <l>¿para qué me amabas tanto</l>
-            <l rend="cursiva">si me habias de olvidar?</l>
-            <l>Mis suspiros lleve el viento,</l>
-            <l>el lvido á mi dolor</l>
-            <l>y mis lágrimas de amor</l>
-            <l>sepulte mi sentimiento</l>
-            <l>ya me faltó el sufrimiento</l>
-            <l>al verte con vanagloria</l>
-            <l>de conseguir la victoria;</l>
-            <l>pues me acuerdo me has amado</l>
-            <l>y despues me has olvidado,</l>
-            <l rend="cursiva">ingrata, de tu memoria?</l>
-          </lg>
+        <div>
+          <pb n="1" source="Varios_095_1.jpg" facs="varios/Varios_095_1.jpg/"/>
+
+          <fw type="impresorNum">(Núm. 84.)</fw>
+
+          <div n="1">
+            <head type="primer_titulo"><lb/><hi rend="negrita">DÉCIMAS GLOSADAS</hi><lb/>PARA CANTAR
+              LOS AFICIONADOS.</head>
+
+            <lg rend="cursiva">
+              <l rend="indent">Me casé con una beata</l>
+              <l>por tener algo de Dios:</l>
+              <l>con ella cargò el diablo</l>
+              <l>y á mí poco me faltó.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Cansado ya de correr,</l>
+              <l>enfadado de enredar,</l>
+              <l>me puse á considerar</l>
+              <l>què es lo que debia hacer;</l>
+              <l>yo bien me harté de saber</l>
+              <l>bastante el salto de mata,</l>
+              <l>siempre andando en zaragata,</l>
+              <l>no pudiendo mas sufrir,</l>
+              <l>y para mejor vivir</l>
+              <l rend="cursiva">me casé con una beata.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Dentro de mi pensamiento</l>
+              <l>todo era maquinar;</l>
+              <l>feliz lo voy á pasar</l>
+              <l>con mi nuevo casamiento;</l>
+              <l>lo pasaré sin tormento,</l>
+              <l>porque, para entre los dos</l>
+              <l>me hablaba á media voz,</l>
+              <l>por ser tan sauta mujer,</l>
+              <l>y esto me hizo cuer,</l>
+              <l rend="cursiva">por tener algo de Dios.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Al revés me sucedió,</l>
+              <l>que de maula cojeaba,</l>
+              <l>de cabeza me cargaba,</l>
+              <l>sin que lo supiera yo;</l>
+              <l>pero al fin se descubrió.</l>
+              <l>Rezando estaba con Pablo</l>
+              <l>recostada en un retablo;</l>
+              <l>no me gustó aquel rezar,</l>
+              <l>y empezándola á pegar</l>
+              <l rend="cursiva">con ella cargó el diablo.</l>
+            </lg>
+            <lg>
+              <l rend="indent">De verme tan mal parado</l>
+              <l>estaba que me moria,</l>
+              <l>todo el mundo se reia</l>
+              <l>al verme tan engañado,</l>
+              <l>de una beata, y burlado.</l>
+              <l>¿Qué es lo que debia hacer yo?</l>
+              <l>pero al fin se descubrió;</l>
+              <l>se acabaron mis enredos,</l>
+              <l>ella marchó á los infiernos.</l>
+              <l rend="cursiva">y á mí poco me faltó.</l>
+            </lg>
+
+            <pb n="2" source="Varios_095_2.jpg" facs="varios/Varios_095_2.jpg/"/>
+
+            <lg rend="cursiva">
+              <l rend="indent">Aunque me cause enojos,</l>
+              <l>ese ceño, hermosa mia,</l>
+              <l>me enagena la alegria</l>
+              <l>cuando me miran tus ojos.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Ese tu dulce mirar</l>
+              <l>siempre ha sido mi elemento,</l>
+              <l>tornando mi sentimiento</l>
+              <l>en un grato suspirar.</l>
+              <l>¿Quién no rinde á su pesar,</l>
+              <l>al ver tus hermosos ojos,</l>
+              <l>su corazon por despojos?</l>
+              <l>Yo de mi decir podré</l>
+              <l>que nunca te olvidaré.</l>
+              <l rend="cursiva">aunque me cause enojos.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Lejos me hallaba de tí,</l>
+              <l>y eras tú mi bien, mi gloria,</l>
+              <l>yo jamás á tu memoria</l>
+              <l>ingrato un instante fui.</l>
+              <l>Aunque en sueños, ¡ay demi!</l>
+              <l>tu ausencia me entrisecia;</l>
+              <l>suspirando por el dia.</l>
+              <l>en que tuviera el placer,</l>
+              <l>que me enagena, de ver</l>
+              <l rend="cursiva">ese ceño, hermosa mia.</l>
+            </lg>
+
+            <lg>
+              <l rend="indent">¡Dichoso en aquel instante</l>
+              <l>que tanto, mi bien, deseo,</l>
+              <l>en que transforme himeneo;</l>
+              <l>en fino esposo al amante !</l>
+              <l>¡Cuán gozoso y delirante</l>
+              <l>te contemplaré aquel dia</l>
+              <l>al considerarte mia!</l>
+              <l>Facil es adivinarlo,</l>
+              <l>cuando solo de pensarlo</l>
+              <l rend="cursiva">me enagena la alegría.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Pues que en tí está mi ventura,</l>
+              <l>y sin tí yo moriré,</l>
+              <l>que sea tanta tu fe,</l>
+              <l>como es mucha tu hermosura;</l>
+              <l>considera la locura</l>
+              <l>que causarán tus enojos</l>
+              <l>á quien rindió por despojos</l>
+              <l>de su amor su corazon:</l>
+              <l>y que encienden mi pasion</l>
+              <l rend="cursiva">cuando me miran tus ojos.</l>
+            </lg>
+            <lg rend="cursiva">
+              <l rend="indent">¿Qué hara el dueño de mi vida,</l>
+              <l>si de mi se acordara,</l>
+              <l>si me tendrá en la memoria</l>
+              <l>ò me habrá olvidado ya?</l>
+            </lg>
+            <lg>
+              <l rend="indent">Dime, loco pensamiento,</l>
+              <l>que me afliges sin cesar.</l>
+              <l>¿hasta cuándo ha de durar</l>
+              <l>mi padecer y tormento?</l>
+              <l>mira ya que el sufrimiento</l>
+              <l>ha sofocado la herida,</l>
+              <l>no quieras ser mi homicida,</l>
+              <l>deja que descanse el alma.</l>
+              <l>cotemplando en dulce calma:</l>
+              <l rend="cursiva">¡qué hard el dueño de mi pida?</l>
+            </lg>
+            <lg>
+              <l rend="indent">Dichas gozaba algun dia</l>
+              <l>ufano de vana gloria;</l>
+              <l>con esta cruel memoria</l>
+              <l>crece hoy la pena mia:</l>
+              <l>¿cuando llegará aquel dia</l>
+              <l>que á mis brazos volverá</l>
+              <l>y en ellos descansará</l>
+              <l>la prenda que mas adoro,</l>
+              <l>por quien de continuo lloro,</l>
+              <l rend="cursiva">si de mí se acordará?</l>
+            </lg>
+            <lg>
+              <l rend="indent">Por esta fatal pasion</l>
+              <l>estoy loco, sin sentido,</l>
+              <l>pues me tiene sumergido,</l>
+              <l>el dolor y confusion :</l>
+              <l>una terrible ilusion</l>
+              <l>ha trastornado mi gloria;</l>
+              <l>mi dicha será notoria</l>
+              <l>con la gracia de mi dueño,</l>
+              <l>porque de continuo sueño,</l>
+              <l rend="cursiva">si me tendrá en la memoria.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Hoy me atormentan recelos</l>
+              <l>y me anima la confianza,</l>
+              <l>me alimenta la esperanza</l>
+              <l>pero me matan los celos;</l>
+              <l>me entristecen los desvelos</l>
+              <l>por mi dueño cuánto há,</l>
+              <l>por ver el tiempo que va,</l>
+              <l>de continuado tormento,</l>
+              <l>¿si me tendrá ya por muerto,</l>
+              <l rend="cursiva">ó me habrá olvidado ya?</l>
+            </lg>
+
+            <pb n="3" source="Varios_095_3.jpg" facs="varios/Varios_095_3.jpg/"/>
+            <lg rend="cursiva">
+              <l>¿Para qué me acariciabas</l>
+              <l>y me dabas tantas glorias,</l>
+              <l>si me habias de olvidar,</l>
+              <l>ingrata, de tu memoria?</l>
+            </lg>
+            <lg>
+              <l rend="indent">Triste y confuso, á morir</l>
+              <l>voy en brazos de mi suerte,</l>
+              <l>dias pasaré sin verte</l>
+              <l>en continuado gemir :</l>
+              <l>corto será mi sufrir</l>
+              <l>al considerar me amabas</l>
+              <l>y por otro me dejabas</l>
+              <l>oly dándote de mí;</l>
+              <l>y supuesto que es así,</l>
+              <l rend="cursiva">¿para qué me acariciabas?</l>
+            </lg>
+            <lg>
+              <l rend="indent">¿Qué se hicieron las ternezas</l>
+              <l>que recibt de tu pecho?</l>
+              <l>¿dónde fueron? ¿qué se han hecho</l>
+              <l>tantas colmadas finezas?</l>
+              <l>se cambiaron en tibiezas,</l>
+              <l>siendo mi dicho ilusoria,</l>
+              <l>pues toda fue transitoria</l>
+              <l>de aquel tiempo ya pasado</l>
+              <l>que de tí me ví estimado,</l>
+              <l rend="cursiva">y me dabas tantas glorias.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Con tu proceder estraño</l>
+              <l>me llenaste de amargura,</l>
+              <l>de dolor y pena dura</l>
+              <l>al reconocer tu engaño;</l>
+              <l>para mayor desengaño</l>
+              <l>de mi tormento y pesar,</l>
+              <l>te quisiera preguntar</l>
+              <l>en medio de mi quebranto;</l>
+              <l>¿para qué me amabas tanto</l>
+              <l rend="cursiva">si me habias de olvidar?</l>
+            </lg>
+            <lg>
+              <l rend="indent">Mis suspiros lleve el viento,</l>
+              <l>el lvido á mi dolor</l>
+              <l>y mis lágrimas de amor</l>
+              <l>sepulte mi sentimiento</l>
+              <l>ya me faltó el sufrimiento</l>
+              <l>al verte con vanagloria</l>
+              <l>de conseguir la victoria;</l>
+              <l>pues me acuerdo me has amado</l>
+              <l>y despues me has olvidado,</l>
+              <l rend="cursiva">ingrata, de tu memoria?</l>
+            </lg>
+          </div>
+
+          <div n="2">
+            <head type="titulo_cancion"><lb/>COPLAS PARA CANTAR LOS MOZOS CON LA GUITARRA.</head>
+            <lg rend="cursiva">
+              <l rend="indent">Casarme yo me casara</l>
+              <l>como hacen los demas,</l>
+              <l>si una mujer á mi gusto</l>
+              <l>fuera facil encontrar.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Si cariñosa es celosa</l>
+              <l>y si esquiva celos da,</l>
+              <l>si constante dura poco,</l>
+              <l>si seria, suele cansar,</l>
+              <l>si alegre, con sus locuras</l>
+              <l>se da muy poco á estimar,</l>
+              <l>y si grave, tiene siempre,</l>
+              <l>de ceño, una cuarta y mas.</l>
+              <l rend="cursiva">Casarme, etc.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Si pobre, todo es miseria,</l>
+              <l>y si rica vanidad,</l>
+              <l>si discreta, ha de engañarme,</l>
+              <l>si tonta la han de engañar,</l>
+              <l>si es muchacha de edad tierna,</l>
+              <l>es un potro sin domar,</l>
+              <l>y si vieja, una guitarra</l>
+              <l>que está siempre por templar.</l>
+              <l rend="cursiva">Casarme, etc.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Si fea no está aun segura,</l>
+              <l>si hermosa, se hace rogar,</l>
+              <l>si delgada es una flanta,</l>
+              <l>y si gorda es un costal,</l>
+              <l>si pequeña es un juguete</l>
+              <l>que no se vé dónde está,</l>
+              <l>y si alta, una fantasma</l>
+              <l>que asusta por donde va.</l>
+              <l rend="cursiva">Casarme, etc.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Con la cruz del matrimonio</l>
+              <l>yo no me atrevo á cargar,</l>
+              <l>en caso de cirineo</l>
+              <l>quiero una plaza buscar :</l>
+              <l>perdónenme las mujeres</l>
+              <l>si no he sabido esplicar</l>
+              <l>sus faltas, porque son tantas</l>
+              <l>que no las puedo contar.</l>
+              <l rend="cursiva">Casarme, etc.</l>
+            </lg>
+            <lg rend="cursiva">
+              <l rend="indent">Mejor me será, señores,</l>
+              <l>el quedarme sin casar,</l>
+              <l>que cargar con una maula</l>
+              <l>por toda ana eternidad.</l>
+            </lg>
+          </div>
+
+          <pb n="4" source="Varios_095_4.jpg" facs="varios/Varios_095_4.jpg/"/>
+
+          <div n="3">
+            <head type="titulo_trovo" rend="negrita"><lb/>TROVO.</head>
+
+            <lg rend="cursiva">
+              <l rend="indent">El fuego á ninguno quema,</l>
+              <l>el agua á ninguno moja,</l>
+              <l>et vino á nadie emborracha,</l>
+              <l>ninguna navaja corta.</l>
+            </lg>
+
+            <lg>
+              <l rend="indent">Ninguno vaya á la guerra</l>
+              <l>sin mandarlo el coronel,</l>
+              <l>y siga bien el sistema.</l>
+              <l>que no aproximándose á él,</l>
+              <l rend="cursiva">el fuego á ninguno quema.</l>
+            </lg>
+
+            <lg>
+              <l rend="indent">Cuando llueve se acongoja</l>
+              <l>si le pilla en un desierto;</l>
+              <l>no penseis que esto es lisonja.</l>
+              <l>estando bien á cubierto,</l>
+              <l rend="cursiva">el agua á ninguno moja.</l>
+            </lg>
+
+            <lg>
+              <l rend="indent">Vicios que al hombre achacan,</l>
+              <l>y otros de verle se alegran;</l>
+              <l>pues que poniéndole tacha</l>
+              <l>y bebiéndolo con regla,</l>
+              <l rend="cursiva">el vinó á nadie emborracha.</l>
+            </lg>
+
+            <lg>
+              <l rend="indent">y menos de que se enfade;</l>
+              <l>Que un hombre grite no importá,</l>
+              <l>hagan la defensa pronta,</l>
+              <l>que en la mano de un cobarde</l>
+              <l rend="cursiva">ninguna nabaja corta.</l>
+            </lg>
+          </div>
+
+          <div n="4">
+            <head type="titulo_cancion"><lb/>CANCION DE LA SEMANA MAL EMPLEADA.</head>
+
+            <lg>
+              <l rend="indent">El lunes de una semana</l>
+              <l>salió á paseo la Inés:</l>
+              <l>me encontré con la inhumana,</l>
+              <l>dije postrado á sus pies:</l>
+              <l>señora, si lo admitis,</l>
+              <l>el corazon os daré,</l>
+              <l>y me respondió enfadada:</l>
+              <l>mañana al anochecer.</l>
+            </lg>
+
+            <lg>
+              <l rend="indent">El martes, lleno de gozo,</l>
+              <l>en su calle me paré,</l>
+              <l>la ví salir tan hermosa,</l>
+              <l>mas bien ángel que mujer,</l>
+              <l>alargué el paso y la dije,</l>
+              <l>mi señora, lo de ayer;</l>
+              <l>caballero, me responde,</l>
+              <l>mañana al anochecer.</l>
+            </lg>
+
+            <lg>
+              <l rend="indent">Vino el miércoles y lleno</l>
+              <l>mi corazon de placer,</l>
+              <l>la vi con su madre al lado,</l>
+              <l>¡ay de mí, si la hablaré!</l>
+              <l>la dije medio entre labios :</l>
+              <l>mi señora doña Inés,</l>
+              <l>me respondió con sonrisa;</l>
+              <l>mañana al anochecer.</l>
+            </lg>
+
+            <lg>
+              <l rend="indent">El jueves con alegría</l>
+              <l>disperté al amanecer,</l>
+              <l>me marché á su casa al punto,</l>
+              <l>y cerrada la encontré;</l>
+              <l>volví á la tarde, y al verme,</l>
+              <l>medio huyendo díjome:</l>
+              <l>caballero, estoy de marcha,</l>
+              <l>mañana al anochecer.</l>
+            </lg>
+
+            <lg>
+              <l rend="indent">Viérnes, medio consentido,</l>
+              <l>fui á hablarla con rapidez,</l>
+              <l>la saludé placentero,</l>
+              <l>y me contestó cortés;</l>
+              <l>mas al llegar á pedirle</l>
+              <l>el favor de no se qué,</l>
+              <l>me respondió con agrado</l>
+              <l>mañana al anochecer.</l>
+            </lg>
+
+            <lg>
+              <l rend="indent">Vino el sábado que un siglo</l>
+              <l>me llegó á mí á parecer,</l>
+              <l>y con fino amor, la dije:</l>
+              <l>señorita, ¿me ama usted?</l>
+              <l>pues si me ama, yo la amo,</l>
+              <l>no me hagas mas padecer,</l>
+              <l>consuélese, dijo entonces,</l>
+              <l>mañana al anochecer.</l>
+            </lg>
+
+            <lg>
+              <l rend="indent">Vino, por fin, el domingo,</l>
+              <l>y alegre la fui á abrazar,</l>
+              <l>y me respondió la Inés</l>
+              <l>con enfado singular:</l>
+              <l>toda la semana entera</l>
+              <l>bien se puede trabajar;</l>
+              <l>pero en la Iglesia Romana,</l>
+              <l>domingo no es regular.</l>
+            </lg>
+          </div>
         </div>
-        <div type="cancion" n="2">
-          <head type="titulo_cancion"><lb/>COPLAS PARA CANTAR LOS MOZOS CON LA GUITARRA.</head>
-          <lg rend="cursiva">
-            <l>Casarme yo me casara</l>
-            <l>como hacen los demas,</l>
-            <l>si una mujer á mi gusto</l>
-            <l>fuera facil encontrar.</l>
-          </lg>
-          <lg>
-            <l>Si cariñosa es celosa</l>
-            <l>y si esquiva celos da,</l>
-            <l>si constante dura poco,</l>
-            <l>si seria, suele cansar,</l>
-            <l>si alegre, con sus locuras</l>
-            <l>se da muy poco á estimar,</l>
-            <l>y si grave, tiene siempre,</l>
-            <l>de ceño, una cuarta y mas.</l>
-            <l rend="cursiva">Casarme, etc.</l>
-          </lg>
-          <lg>
-            <l>Si pobre, todo es miseria,</l>
-            <l>y si rica vanidad,</l>
-            <l>si discreta, ha de engañarme,</l>
-            <l>si tonta la han de engañar,</l>
-            <l>si es muchacha de edad tierna,</l>
-            <l>es un potro sin domar,</l>
-            <l>y si vieja, una guitarra</l>
-            <l>que está siempre por templar.</l>
-            <l rend="cursiva">Casarme, etc.</l>
-          </lg>
-          <lg>
-            <l>Si fea no está aun segura,</l>
-            <l>si hermosa, se hace rogar,</l>
-            <l>si delgada es una flanta,</l>
-            <l>y si gorda es un costal,</l>
-            <l>si pequeña es un juguete</l>
-            <l>que no se vé dónde está,</l>
-            <l>y si alta, una fantasma</l>
-            <l>que asusta por donde va.</l>
-            <l rend="cursiva">Casarme, etc.</l>
-          </lg>
-          <lg>
-            <l>Con la cruz del matrimonio</l>
-            <l>yo no me atrevo á cargar,</l>
-            <l>en caso de cirineo</l>
-            <l>quiero una plaza buscar :</l>
-            <l>perdónenme las mujeres</l>
-            <l>si no he sabido esplicar</l>
-            <l>sus faltas, porque son tantas</l>
-            <l>que no las puedo contar.</l>
-            <l rend="cursiva">Casarme, etc.</l>
-          </lg>
-          <lg rend="cursiva">
-            <l>Mejor me será, señores,</l>
-            <l>el quedarme sin casar,</l>
-            <l>que cargar con una maula</l>
-            <l>por toda ana eternidad.</l>
-          </lg>
-          <pb n="4" source="Varios_095_4.jpg" facs="fedora_Varios_095_4/full/full/0/default.jpg"/>
-        </div>
-        <div type="trovo" n="1">
-          <head type="titulo_trovo"><lb/>TROVO.</head>
-          <lg rend="cursiva">
-            <l>El fuego á ninguno quema,</l>
-            <l>el agua á ninguno moja,</l>
-            <l>et vino á nadie emborracha,</l>
-            <l>ninguna navaja corta.</l>
-          </lg>
-          <lg>
-            <l>Ninguno vaya á la guerra</l>
-            <l>sin mandarlo el coronel,</l>
-            <l>y siga bien el sistema.</l>
-            <l>que no aproximándose á él,</l>
-            <l rend="cursiva">el fuego á ninguno quema.</l>
-            <l>Cuando llueve se acongoja</l>
-            <l>si le pilla en un desierto;</l>
-            <l>no penseis que esto es lisonja.</l>
-          </lg>
-          <lg>
-            <l>estando bien á cubierto,</l>
-            <l rend="cursiva">el agua á ninguno moja.</l>
-            <l>Vicios que al hombre achacan,</l>
-            <l>y otros de verle se alegran;</l>
-            <l>pues que poniéndole tacha</l>
-            <l>y bebiéndolo con regla,</l>
-            <l rend="cursiva">el vinó á nadie emborracha.</l>
-            <l>y menos de que se enfade;</l>
-            <l>Que un hombre grite no importá,</l>
-            <l>hagan la defensa pronta,</l>
-            <l>que en la mano de un cobarde</l>
-            <l rend="cursiva">ninguna nabaja corta.</l>
-          </lg>
-        </div>
-        <div type="cancion" n="3">
-          <head type="titulo_cancion"><lb/>CANCION DE LA SEMANA MAL EMPLEADA.</head>
-          <lg>
-            <l>El lunes de una semana</l>
-            <l>salió á paseo la Inés:</l>
-            <l>me encontré con la inhumana,</l>
-            <l>dije postrado á sus pies:</l>
-            <l>señora, si lo admitis,</l>
-            <l>el corazon os daré,</l>
-            <l>y me respondió enfadada:</l>
-            <l>mañana al anochecer.</l>
-            <l>El martes, lleno de gozo,</l>
-            <l>en su calle me paré,</l>
-            <l>la ví salir tan hermosa,</l>
-            <l>mas bien ángel que mujer,</l>
-            <l>alargué el paso y la dije,</l>
-            <l>mi señora, lo de ayer;</l>
-            <l>caballero, me responde,</l>
-            <l>mañana al anochecer.</l>
-            <l>Vino el miércoles y lleno</l>
-            <l>mi corazon de placer,</l>
-            <l>la vi con su madre al lado,</l>
-            <l>¡ay de mí, si la hablaré!</l>
-            <l>la dije medio entre labios :</l>
-            <l>mi señora doña Inés,</l>
-            <l>me respondió con sonrisa;</l>
-            <l>mañana al anochecer.</l>
-            <l>El jueves con alegría</l>
-            <l>disperté al amanecer,</l>
-            <l>me marché á su casa al punto,</l>
-            <l>y cerrada la encontré;</l>
-          </lg>
-          <lg>
-            <l>volví á la tarde, y al verme,</l>
-            <l>medio huyendo díjome:</l>
-            <l>caballero, estoy de marcha,</l>
-            <l>mañana al anochecer.</l>
-            <l>Viérnes, medio consentido,</l>
-            <l>fui á hablarla con rapidez,</l>
-            <l>la saludé placentero,</l>
-            <l>y me contestó cortés;</l>
-            <l>mas al llegar á pedirle</l>
-            <l>el favor de no se qué,</l>
-            <l>me respondió con agrado</l>
-            <l>mañana al anochecer.</l>
-            <l>Vino el sábado que un siglo</l>
-            <l>me llegó á mí á parecer,</l>
-            <l>y con fino amor, la dije:</l>
-            <l>señorita, ¿me ama usted?</l>
-            <l>pues si me ama, yo la amo,</l>
-            <l>no me hagas mas padecer,</l>
-            <l>consuélese, dijo entonces,</l>
-            <l>mañana al anochecer.</l>
-            <l>Vino, por fin, el domingo,</l>
-            <l>y alegre la fui á abrazar,</l>
-            <l>y me respondió la Inés</l>
-            <l>con enfado singular:</l>
-            <l>toda la semana entera</l>
-            <l>bien se puede trabajar;</l>
-            <l>pero en la Iglesia Romana,</l>
-            <l>domingo no es regular.</l>
-          </lg>
-        </div>
+        
         <div type="colofon">
-          <p><lb/>MADRID. Imprenta de J. M. Marés y c.ª , plazuela de la
-                                    Cebada, núm. 13.</p>
+          <p><lb/>MADRID. Imprenta de J. M. Marés y c.ª , plazuela de la Cebada, núm. 13.</p>
         </div>
       </div>
     </body>

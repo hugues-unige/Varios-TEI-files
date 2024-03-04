@@ -1,19 +1,17 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../Schema/oddPliego_varios.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:alto="http://www.loc.gov/standards/alto/ns-v4#" xml:id="Varios_045">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Varios_045">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>CANCION PATRIOTICA. cantada por el tono de libertad, con variedad de
-                              coplas, dedicada cada una á su fin particular.</title>
+        <title>CANCION PATRIOTICA</title>
         <respStmt>
           <name/>
           <resp>Codificación TEI</resp>
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <authority role="rightsHolder">Bibliothèque Universitaire de
-                              Genève</authority>
+        <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
         <availability status="restricted">
           <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
         </availability>
@@ -21,18 +19,17 @@
       <sourceDesc>
         <biblFull>
           <titleStmt>
-            <title type="titulo_completo">CANCION PATRIOTICA. cantada por el
-                                          tono de libertad, con variedad de coplas, dedicada cada
-                                          una á su fin particular.</title>
-            <title type="titulo_breve">CANCION PATRIOTICA.</title>
+            <title type="titulo_completo">CANCION PATRIOTICA cantada por el tono de libertad, con
+              variedad de coplas, dedicada cada una á su fin particular.</title>
+            <title type="titulo_breve">CANCION PATRIOTICA</title>
           </titleStmt>
           <editionStmt>
             <p/>
           </editionStmt>
           <publicationStmt>
-            <publisher>Doña María del Carmen Padrino</publisher>
+            <publisher>María del Carmen Padrino</publisher>
             <pubPlace ref="https://www.geonames.org/2510911/sevilla.html">Sevilla</pubPlace>
-            <date cert="high">1822</date>
+            <date cert="high" when="1822-01-01">1822</date>
           </publicationStmt>
         </biblFull>
         <msDesc>
@@ -40,7 +37,8 @@
             <country>Suisse</country>
             <settlement>Genève</settlement>
             <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"/>
-                                    </repository>
+            </repository>
+            <collection>Colección Varios</collection>
             <idno type="cote"/>
             <idno type="DOI">10.5281/zenodo.6556089</idno>
             <altIdentifier>
@@ -48,10 +46,15 @@
             </altIdentifier>
           </msIdentifier>
           <msContents>
-            <summary/>
+            <summary>Canción y trovos</summary>
             <msItem>
-              <locus/>
-              <title/>
+              <locus>1-2</locus>
+              <title>Cancion patriotica cantada por el tono de libertad, con
+                variedad de coplas, dedicada cada una á su fin particular.</title>
+            </msItem>
+            <msItem>
+              <locus>2</locus>
+              <title>Trobos y coplas nuevas cantadas por el tono de rondeñas</title>
             </msItem>
           </msContents>
           <physDesc>
@@ -85,18 +88,17 @@
     </fileDesc>
     <encodingDesc>
       <projectDesc>
-        <p>Este archivo fue creado en el marco del proyecto Desenrollando el
-                              Cordel/Démêler le cordel/Untangling the cordel, dirigido por la
-                              profesora Constance Carta de la Universidad de Ginebra, con el apoyo
-                              de la Fundación filantrópica Famille Sandoz-Monique de Meuron.</p>
+        <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+          cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la Universidad
+          de Ginebra, con el apoyo de la Fundación filantrópica Famille Sandoz-Monique de
+          Meuron.</p>
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR non corregido</p>
+          <p>OCR no corregido</p>
         </correction>
         <normalization>
-          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto
-                                    original.</p>
+          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
         </normalization>
         <punctuation>
           <p>Se conserva la puntuación original.</p>
@@ -117,11 +119,12 @@
       </textClass>
     </profileDesc>
     <revisionDesc>
-      <change when="2022-05-15" who="#PJ">Création du fichier TEI P5 et encodage du
-                        corps du texte</change>
+      <change when="2022-05-15" who="#PJ">Création du fichier TEI P5 et encodage du corps du
+        texte</change>
+<change when="2024-01-09" who="#EL">Add the IIIF links</change>
     </revisionDesc>
   </teiHeader>
-  <sourceDoc xml:id="automaticTranscription">
+  <facsimile><graphic url="varios/Varios_045_1.jpg/full/200,/0/default.jpg"/></facsimile><sourceDoc xml:id="automaticTranscription">
     <surface xml:id="Varios_045_1" type="page" cert="silver">
       <graphic url="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_045_1/full/full/0/default.jpg"/>
       <zone xml:id="Varios_045_1_BT223_1" n="1" type="CustomZone" subtype="title" points="63,173 63,390 600,397 668,472 1045,472 1101,386 1676,404 1676,173 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_045_1/63,173,1613,299/full/0/default" corresp="CustomZone:title">
@@ -131,8 +134,7 @@
         </zone>
         <zone xml:id="Varios_045_1_BT223_1_LT84_2" type="HeadingLine" subtype="none" points="107,381 100,337 149,317 151,317 265,313 267,313 320,313 322,313 324,313 346,330 432,311 434,311 579,311 649,328 653,328 660,328 693,317 695,317 697,317 699,317 701,317 715,326 719,328 730,326 774,317 776,317 851,324 875,326 879,324 888,315 890,315 892,315 894,315 897,315 912,324 916,326 919,324 925,317 925,315 927,315 929,315 932,315 1035,322 1090,324 1096,319 1118,308 1120,308 1123,308 1186,319 1208,322 1223,317 1276,302 1278,302 1280,302 1340,315 1346,317 1348,315 1362,304 1364,304 1366,304 1368,304 1370,304 1401,315 1416,319 1432,315 1452,308 1454,308 1456,308 1590,313 1594,361 1594,376 1333,392 1331,392 1329,392 1294,381 1287,379 1155,379 1144,381 1098,396 1096,396 1094,396 984,383 976,383 787,385 671,385 642,398 640,398 638,398 583,387 548,403 546,403 543,403 443,387 434,387 423,387 269,407 267,407 105,389 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_045_1/100,302,1494,105/full/0/default" corresp="HeadingLine">
           <path xml:id="Varios_045_1_BT223_1_LT84_2_1" points="107,381 1594,361 "/>
-          <line>cantada por el tono de libertad, con variedad de coplas,
-                                    dedicada cada una</line>
+          <line>cantada por el tono de libertad, con variedad de coplas, dedicada cada una</line>
         </zone>
         <zone xml:id="Varios_045_1_BT223_1_LT84_3" type="HeadingLine" subtype="none" points="673,420 668,383 789,365 791,365 794,365 820,376 844,365 846,365 848,365 901,376 910,365 912,365 912,363 914,363 916,363 919,363 1035,376 1039,414 1037,440 673,440 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_045_1/668,363,371,77/full/0/default" corresp="HeadingLine">
           <path xml:id="Varios_045_1_BT223_1_LT84_3_1" points="673,420 1039,414 "/>
@@ -759,8 +761,7 @@
       <zone xml:id="Varios_045_2_BT228_6" n="6" type="MarginTextZone" subtype="colophon" points="206,2294 206,2410 1672,2410 1672,2294 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_045_2/206,2294,1466,116/full/0/default" corresp="MarginTextZone:colophon">
         <zone xml:id="Varios_045_2_BT228_6_LT83_1" type="DefaultLine" subtype="none" points="234,2339 232,2289 357,2278 359,2278 440,2280 440,2280 440,2280 443,2280 443,2280 443,2280 445,2280 445,2280 445,2282 456,2291 460,2298 690,2300 701,2298 726,2289 728,2289 728,2289 728,2289 730,2289 730,2289 818,2300 848,2302 862,2300 923,2287 923,2287 923,2287 925,2287 925,2287 927,2287 927,2287 967,2302 976,2304 1026,2302 1219,2295 1221,2295 1221,2295 1221,2295 1223,2295 1223,2295 1252,2306 1254,2309 1256,2306 1274,2293 1274,2293 1276,2293 1276,2293 1276,2293 1278,2293 1278,2293 1280,2293 1476,2295 1476,2295 1612,2315 1612,2361 1614,2379 1581,2398 1579,2398 1579,2398 1579,2398 1577,2398 1577,2398 1574,2398 1574,2398 1574,2398 1572,2398 1572,2398 1546,2388 1513,2403 1513,2403 1513,2403 1511,2403 1511,2403 1509,2403 1458,2401 1458,2401 1458,2401 1456,2401 1456,2401 1454,2401 1454,2401 1427,2381 1311,2385 1309,2385 1309,2385 1309,2385 1307,2385 1307,2385 1307,2385 1305,2385 1305,2385 1298,2379 1294,2374 1285,2379 1250,2398 1250,2398 1250,2398 1248,2398 1248,2398 1248,2398 1245,2398 1206,2396 1206,2396 1206,2396 1204,2396 1204,2396 1201,2396 1201,2396 1201,2394 1201,2394 1188,2381 1166,2394 1164,2394 1164,2394 1162,2394 1162,2394 1162,2394 1094,2396 1092,2396 1092,2396 1092,2396 1090,2396 1090,2396 1087,2396 1061,2381 1041,2370 934,2370 919,2381 919,2381 919,2381 916,2381 916,2381 914,2381 914,2381 914,2381 912,2381 912,2381 910,2381 910,2381 908,2381 870,2368 833,2381 798,2392 796,2392 796,2392 796,2392 794,2392 794,2392 794,2392 791,2392 791,2392 791,2392 769,2381 754,2372 704,2381 651,2390 651,2390 649,2390 574,2388 574,2388 574,2388 572,2388 572,2388 570,2388 570,2388 570,2385 563,2381 552,2370 528,2381 517,2385 517,2385 515,2385 515,2385 515,2385 513,2385 513,2385 511,2385 511,2385 511,2385 508,2385 508,2385 504,2381 484,2363 460,2377 460,2377 460,2377 458,2377 458,2377 458,2377 456,2377 456,2377 329,2359 296,2381 296,2383 296,2383 293,2383 293,2383 293,2383 291,2383 291,2383 289,2383 230,2381 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_045_2/230,2278,1384,125/full/0/default" corresp="DefaultLine">
           <path xml:id="Varios_045_2_BT228_6_LT83_1_1" points="234,2339 1612,2361 "/>
-          <line>Sevilla: Imprenta de Doña María del Carmen Padrino. Año de
-                                    1822.</line>
+          <line>Sevilla: Imprenta de Doña María del Carmen Padrino. Año de 1822.</line>
         </zone>
       </zone>
     </surface>
@@ -769,180 +770,238 @@
     <body>
       <div>
         <div>
-          <pb n="1" source="Varios_045_1.jpg" facs="fedora_Varios_045_1/full/full/0/default.jpg"/>
-          <head type="primer_titulo"><lb/>CANCION PATRIOTICA</head>
-          <head type="subtitulo_parte"><lb/>cantada por el tono de libertad, con
-                                    variedad de coplas, dedicada cada una<lb/>á su fin
-                                    particular.<lb/>CORO.</head>
-          <head type="titulo_estrofa"><lb/>CORO.</head>
-          <lg>
-            <l>Voluntarios valientes al arma,</l>
-            <l>el acéro con fuerza empañar</l>
-            <l>el derecho nataral nos llama.</l>
-            <l>defendamos nuestra libertad.</l>
-            <l>No hai remedio el castigo es preciso</l>
-            <l>los serviles se van ensimando.</l>
-            <l>los facciosos saquean los pueblos</l>
-            <l>con las voces de viva Fernando.</l>
-            <l>Voluntarios &amp;c.</l>
-            <l>Ellos dicen que son de la fé</l>
-            <l>y que mueren por la religion,</l>
-            <l>y en entrando en un pueblo saquean:</l>
-            <l>y exigen su contribucion.</l>
-            <l>Voluntarios &amp;c.</l>
-            <l>Poseidos de un gran despotismo</l>
-            <l>y sumidos en su segedad,</l>
-            <l>se despeñan en el grande abismo</l>
-            <l>de miseria, error y maldad.</l>
-            <l>Voluntarios &amp;c.</l>
-            <l>Que porfien y sigan su impulso</l>
-            <l>de una fuerte cadena arrastrar,</l>
-            <l>que nosotros sabios no queremos</l>
-            <l>esa dura prision aguantar.</l>
-            <l>Voluntarios &amp;c.</l>
-            <l>No es posible que vencernos pueda</l>
-            <l>con los sabios de sus argumentos,</l>
-            <l>pues sujetos á la ley tenemos</l>
-            <l>á los hombres de mayor talento.</l>
-            <l>Voluntarios &amp;c.</l>
-            <l>Ciudadanos vivamos alegres</l>
-            <l>aliviados de todos los males,</l>
-            <l>y sigamos el camino recto</l>
-            <l>por las sendas constirucionales.</l>
-            <l>Voluntarios &amp;c.</l>
-            <l>Conservemos el Codigo sabio</l>
-            <l>de las leyes constirucionales,</l>
-            <l>perdonemos la injuria y agravie,</l>
-          </lg>
-          <lg>
-            <l>y seremos amigos parciales.</l>
-            <l>Voluntarios &amp;c.</l>
-            <l>Si sembramos los granos de union</l>
-            <l>cojeremos la gloria de paz,</l>
-            <l>si sembramos venganza y rencor</l>
-            <l>cojeremos malicia y maldad.</l>
-            <l>Voluntarios &amp;c.</l>
-            <l>No podemos pedir otra cosa</l>
-            <l>ni debemos apetecer mas,</l>
-            <l>que en estando sujeto á la ley</l>
-            <l>todo hombre goza de igualdad.</l>
-            <l>Voluntarios &amp;c.</l>
-            <l>Un derecho que Dios nos concede</l>
-            <l>y los hombre tenian guardado,</l>
-            <l>que en pegando un señor un bufido</l>
-            <l>todo pobre quedaba callado.</l>
-            <l>Voluntarios &amp;c.</l>
-            <l>Ahora entramos con gran desahogo</l>
-            <l>ante jueces en los tribunales,</l>
-            <l>y en llevando el derecho y la ley</l>
-            <l>ya no sirve interes pecuniales.</l>
-            <l>Voluntarios &amp;c.</l>
-            <l>Cuando sale un diario embustero</l>
-            <l>anunciando que hay muchos facciosos,</l>
-            <l>los serviles se ponen contentos</l>
-            <l>que en el mundo no caben de gozo.</l>
-            <l>Voluntarios &amp;c.</l>
-            <l>Y al contrario si el diario dice</l>
-            <l>las cuadrillas que se han derrotado.</l>
-            <l>en corrinchos se juntan y dicen</l>
-            <l>imposible que asi halla pasado.</l>
-            <l>Voluntarios &amp;c.</l>
-            <l>Pobrecitos que engañados viven</l>
-            <l>impacientes de tanto esperar,</l>
-            <l>y no saben que a fuerza de sangre</l>
-            <l>el sistema ha de prosperar.</l>
-            <l>Voluntarios &amp;c.</l>
-          </lg>
-          <pb n="2" source="Varios_045_2.jpg" facs="fedora_Varios_045_2/full/full/0/default.jpg"/>
-          <lg>
-            <l>Todo el hombre que quiera ser libre</l>
-            <l>del tirano y de la opresion,</l>
-            <l>que conserve las leyes gustoso</l>
-            <l>observando la Constitucion.</l>
-            <l>Voluntarios &amp;c.</l>
-            <l>Pues las leyes sabias que nos rigen</l>
-            <l>en España con todo esplendor,</l>
-            <l>fueron puestas por hombres sublimes,</l>
-            <l>por libramos de toda opresion.</l>
-            <l>Voluntarios &amp;c.</l>
-            <l>Los locales valientes son hombres</l>
-            <l>para siempre guardar la nacion,</l>
-          </lg>
-          <lg>
-            <l>con las armas harán que se callea</l>
-            <l>en España a todo traidor.</l>
-            <l>Voluntarios &amp;c.</l>
-            <l>Ellos solos puestos en campaña</l>
-            <l>en su línea con todo primor,</l>
-            <l>los serviles tendran que temerles</l>
-            <l>y observar á la Constitucion.</l>
-            <l>Voluntarios valientes al arma</l>
-            <l>el acero con fuerza empuñar,</l>
-            <l>el derecho natural nos llama</l>
-            <l>defendamos nuestra libertad.</l>
-          </lg>
           <div>
-            <head type="titulo_trovo"><lb/>TROBOS Y COPLAS NUEVAS CANTADAS POR EL TONO
-                                          DE<lb/>Rondeñas</head>
-            <div n="1">
+            <pb n="1" source="Varios_045_1.jpg" facs="varios/Varios_045_1.jpg/"/>
+            <head type="primer_titulo"><lb/>CANCION PATRIOTICA</head>
+
+            <head type="subtitulo"><lb/>cantada por el tono de libertad, con variedad de coplas,
+              dedicada cada una<lb/>á su fin particular.</head>
+
+            <lg>
+              <head type="titulo_estrofa"><lb/>CORO.</head>
+              <l rend="cursiva">Voluntarios valientes al arma,</l>
+              <l rend="cursiva">el acéro con fuerza empañar</l>
+              <l rend="cursiva">el derecho nataral nos llama.</l>
+              <l rend="cursiva">defendamos nuestra libertad.</l>
+            </lg>
+
+            <lg>
+              <l rend="indent">No hai remedio el castigo es preciso</l>
+              <l>los serviles se van ensimando.</l>
+              <l>los facciosos saquean los pueblos</l>
+              <l>con las voces de viva Fernando.</l>
+              <l rend="cursiva">Voluntarios &amp;c.</l>
+            </lg>
+
+            <lg>
+              <l rend="indent">Ellos dicen que son de la fé</l>
+              <l>y que mueren por la religion,</l>
+              <l>y en entrando en un pueblo saquean:</l>
+              <l>y exigen su contribucion.</l>
+              <l rend="cursiva">Voluntarios &amp;c.</l>
+            </lg>
+
+            <lg>
+              <l rend="indent">Poseidos de un gran despotismo</l>
+              <l>y sumidos en su segedad,</l>
+              <l>se despeñan en el grande abismo</l>
+              <l>de miseria, error y maldad.</l>
+              <l rend="cursiva">Voluntarios &amp;c.</l>
+            </lg>
+
+            <lg>
+              <l rend="indent">Que porfien y sigan su impulso</l>
+              <l>de una fuerte cadena arrastrar,</l>
+              <l>que nosotros sabios no queremos</l>
+              <l>esa dura prision aguantar.</l>
+              <l rend="cursiva">Voluntarios &amp;c.</l>
+            </lg>
+
+            <lg>
+              <l rend="indent">No es posible que vencernos pueda</l>
+              <l>con los sabios de sus argumentos,</l>
+              <l>pues sujetos á la ley tenemos</l>
+              <l>á los hombres de mayor talento.</l>
+              <l rend="cursiva">Voluntarios &amp;c.</l>
+            </lg>
+
+            <lg>
+              <l rend="indent">Ciudadanos vivamos alegres</l>
+              <l>aliviados de todos los males,</l>
+              <l>y sigamos el camino recto</l>
+              <l>por las sendas constirucionales.</l>
+              <l rend="cursiva">Voluntarios &amp;c.</l>
+            </lg>
+
+            <lg>
+              <l rend="indent">Conservemos el Codigo sabio</l>
+              <l>de las leyes constirucionales,</l>
+              <l>perdonemos la injuria y agravie,</l>
+              <l>y seremos amigos parciales.</l>
+              <l rend="cursiva">Voluntarios &amp;c.</l>
+            </lg>
+
+            <lg>
+              <l rend="indent">Si sembramos los granos de union</l>
+              <l>cojeremos la gloria de paz,</l>
+              <l>si sembramos venganza y rencor</l>
+              <l>cojeremos malicia y maldad.</l>
+              <l rend="cursiva">Voluntarios &amp;c.</l>
+            </lg>
+
+            <lg>
+              <l rend="indent">No podemos pedir otra cosa</l>
+              <l>ni debemos apetecer mas,</l>
+              <l>que en estando sujeto á la ley</l>
+              <l>todo hombre goza de igualdad.</l>
+              <l rend="cursiva">Voluntarios &amp;c.</l>
+            </lg>
+
+            <lg>
+              <l rend="indent">Un derecho que Dios nos concede</l>
+              <l>y los hombre tenian guardado,</l>
+              <l>que en pegando un señor un bufido</l>
+              <l>todo pobre quedaba callado.</l>
+              <l rend="cursiva">Voluntarios &amp;c.</l>
+            </lg>
+
+            <lg>
+              <l rend="indent">Ahora entramos con gran desahogo</l>
+              <l>ante jueces en los tribunales,</l>
+              <l>y en llevando el derecho y la ley</l>
+              <l>ya no sirve interes pecuniales.</l>
+              <l rend="cursiva">Voluntarios &amp;c.</l>
+            </lg>
+
+            <lg>
+              <l rend="indent">Cuando sale un diario embustero</l>
+              <l>anunciando que hay muchos facciosos,</l>
+              <l>los serviles se ponen contentos</l>
+              <l>que en el mundo no caben de gozo.</l>
+              <l rend="cursiva">Voluntarios &amp;c.</l>
+            </lg>
+
+            <lg>
+              <l rend="indent">Y al contrario si el diario dice</l>
+              <l>las cuadrillas que se han derrotado.</l>
+              <l>en corrinchos se juntan y dicen</l>
+              <l>imposible que asi halla pasado.</l>
+              <l rend="cursiva">Voluntarios &amp;c.</l>
+            </lg>
+
+            <lg>
+              <l rend="indent">Pobrecitos que engañados viven</l>
+              <l>impacientes de tanto esperar,</l>
+              <l>y no saben que a fuerza de sangre</l>
+              <l>el sistema ha de prosperar.</l>
+              <l rend="cursiva">Voluntarios &amp;c.</l>
+            </lg>
+
+            <pb n="2" source="Varios_045_2.jpg" facs="varios/Varios_045_2.jpg/"/>
+
+            <lg>
+              <l rend="indent">Todo el hombre que quiera ser libre</l>
+              <l>del tirano y de la opresion,</l>
+              <l>que conserve las leyes gustoso</l>
+              <l>observando la Constitucion.</l>
+              <l rend="cursiva">Voluntarios &amp;c.</l>
+            </lg>
+
+            <lg>
+              <l rend="indent">Pues las leyes sabias que nos rigen</l>
+              <l>en España con todo esplendor,</l>
+              <l>fueron puestas por hombres sublimes,</l>
+              <l>por libramos de toda opresion.</l>
+              <l rend="cursiva">Voluntarios &amp;c.</l>
+            </lg>
+
+            <lg>
+              <l rend="indent">Los locales valientes son hombres</l>
+              <l>para siempre guardar la nacion,</l>
+              <l>con las armas harán que se callea</l>
+              <l>en España a todo traidor.</l>
+              <l rend="cursiva">Voluntarios &amp;c.</l>
+            </lg>
+
+            <lg>
+              <l rend="indent">Ellos solos puestos en campaña</l>
+              <l>en su línea con todo primor,</l>
+              <l>los serviles tendran que temerles</l>
+              <l>y observar á la Constitucion.</l>
+            </lg>
+
+            <lg rend="cursiva">
+              <l rend="indent">Voluntarios valientes al arma</l>
+              <l>el acero con fuerza empuñar,</l>
+              <l>el derecho natural nos llama</l>
+              <l>defendamos nuestra libertad.</l>
+            </lg>
+          </div>
+
+          <div>
+            <head type="primer_titulo"><lb/>TROBOS Y COPLAS NUEVAS CANTADAS POR EL TONO
+              DE<lb/>Rondeñas</head>
+
+            <lg n="1">
               <head type="titulo_estrofa">TROBO PRIMERO.</head>
-              <l>El que con viles intentos</l>
+              <l rend="indent">El que con viles intentos</l>
               <l>tramare conspiracion,</l>
               <l>ha de sufrir el tormento</l>
               <l>sin tenerle compasion.</l>
-              <l>Habrá varios escarmientos</l>
+              <l rend="indent">Habrá varios escarmientos</l>
               <l>que causen admiracion,</l>
               <l>y se le dará al monento</l>
               <l>la muerte sin detencion</l>
               <l>al que con viles intentos.</l>
-              <l>Ha vista de la nacion</l>
+              <l rend="indent">Ha vista de la nacion</l>
               <l>se dará castigo fiero,</l>
               <l>al que con mala intencion</l>
               <l>con palabras ó dinero</l>
               <l>tramare conspiracion.</l>
-              <l>Solo son nuestros intentos</l>
+              <l rend="indent">Solo son nuestros intentos</l>
               <l>la paz y tranquilidad,</l>
               <l>que todos vivan contentos</l>
               <l>y el que lo quiera estorbar</l>
               <l>ha de sufrir el tormento.</l>
-              <l>Es caso de obligacion</l>
+              <l rend="indent">Es caso de obligacion</l>
               <l>perseguir al enemigo,</l>
               <l>estar con espectacion</l>
               <l>y que se le de el castigo</l>
               <l>sin renerle compasion.</l>
-            </div>
-            <div n="2">
+            </lg>
+
+            <lg n="2">
               <head type="titulo_estrofa">TROBO SEGUNDO.</head>
-              <l>Viva el gobierno de España</l>
+              <l rend="indent">Viva el gobierno de España</l>
               <l>y el Rey constitucional,</l>
               <l>viva nuestra religion</l>
               <l>y viva la libertad.</l>
-              <l>A mi espiritu acompaña</l>
+              <l rend="indent">A mi espiritu acompaña</l>
               <l>la esperanza mas feliz,</l>
               <l>de unas gloriosas hazañas</l>
               <l>y asi me empeño en decir</l>
               <l>viva el gobierno de España.</l>
-              <l>Aunque el poder infernar</l>
+              <l rend="indent">Aunque el poder infernar</l>
               <l>se opusiera á nuestro intento,</l>
               <l>no nos podran apartar</l>
               <l>pues todos somos contentos</l>
               <l>y el Rey constitucional.</l>
-              <l>Entre la dulce cancion</l>
+              <l rend="indent">Entre la dulce cancion</l>
               <l>que en el ámbito ressena,</l>
               <l>con una sana intencion</l>
               <l>decimos con voz serena</l>
               <l>viva nuestra religion.</l>
-              <l>Todo mi gusto es cantar</l>
+              <l rend="indent">Todo mi gusto es cantar</l>
               <l>para elogiar la nacion,</l>
               <l>y pues la ley es igual</l>
               <l>viva la Constitucion</l>
               <l>y viva la libertad.</l>
-            </div>
+            </lg>
           </div>
-          <div type="colofon">
-            <p><lb/>Sevilla: Imprenta de Doña María del Carmen Padrino.
-                                          Año de 1822.</p>
-          </div>
+        </div>
+        
+        <div type="colofon">
+          <p rend="cursiva"><lb/>Sevilla: Imprenta de Doña María del Carmen Padrino. Año de 1822.</p>
         </div>
       </div>
     </body>

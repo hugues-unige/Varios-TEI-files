@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../Schema/oddPliego_varios.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:alto="http://www.loc.gov/standards/alto/ns-v4#" xml:id="Varios_052">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Varios_052">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -11,8 +11,7 @@
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <authority role="rightsHolder">Bibliothèque Universitaire de
-                            Genève</authority>
+        <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
         <availability status="restricted">
           <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
         </availability>
@@ -20,16 +19,19 @@
       <sourceDesc>
         <biblFull>
           <titleStmt>
-            <title type="titulo_completo">RAHONAMENT Y COLOQUI NOU DE NELO EL TRIPERO. En el que es referix els grans casos que li pasaren; chic molt hábil pera el estudio de la uña; natural de Valensia, fill del carrer de Cañete, en lo demés que vorá el curiós lector.</title>
+            <title type="titulo_completo">RAHONAMENT Y COLOQUI NOU DE NELO EL TRIPERO. En el que es
+              referix els grans casos que li pasaren; chic molt hábil pera el estudio de la uña;
+              natural de Valensia, fill del carrer de Cañete, en lo demés que vorá el curiós
+              lector.</title>
             <title type="titulo_breve">RAHONAMENT Y COLOQUI NOU DE NELO EL TRIPERO.</title>
           </titleStmt>
           <editionStmt>
             <p/>
           </editionStmt>
           <publicationStmt>
-            <publisher>José Marti</publisher>
+            <publisher>José Martí</publisher>
             <pubPlace ref="https://www.geonames.org/2522098/alcoy.html">Alcoy</pubPlace>
-            <date cert="1867"/>
+            <date when="1867-01-01" cert="high">1867</date>
           </publicationStmt>
         </biblFull>
         <msDesc>
@@ -37,7 +39,8 @@
             <country>Suisse</country>
             <settlement>Genève</settlement>
             <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"/>
-                  </repository>
+            </repository>
+            <collection>Colección Varios</collection>
             <idno type="cote"/>
             <idno type="DOI">10.5281/zenodo.6557666</idno>
             <altIdentifier>
@@ -45,10 +48,15 @@
             </altIdentifier>
           </msIdentifier>
           <msContents>
-            <summary/>
+            <summary>Dos partes</summary>
             <msItem>
-              <locus/>
-              <title/>
+              <locus>1-4</locus>
+              <title>Primera part.</title>
+            </msItem>
+            <msItem>
+              <locus>5-8</locus>
+              <title>Segona part del rahoñament y coloqui nou del Nelo el Tripero. En el que acaba
+                de relatar quines forén totes le escóles de la sehua carrera.</title>
             </msItem>
           </msContents>
           <physDesc>
@@ -66,7 +74,7 @@
               </layoutDesc>
             </objectDesc>
             <decoDesc>
-              <summary n="1">Uno grabado (p.1) </summary>
+              <summary n="1">Un grabado (p.1) </summary>
               <decoNote type="lista_grabados">
                 <list>
                   <item corresp="grabado_v_052_1.xml">grabado_v_052_1</item>
@@ -87,18 +95,17 @@
     </fileDesc>
     <encodingDesc>
       <projectDesc>
-        <p>Este archivo fue creado en el marco del proyecto Desenrollando el
-                            Cordel/Démêler le cordel/Untangling the cordel, dirigido por la
-                            profesora Constance Carta de la Universidad de Ginebra, con el apoyo de
-                            la Fundación filantrópica Famille Sandoz-Monique de Meuron.</p>
+        <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+          cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la Universidad
+          de Ginebra, con el apoyo de la Fundación filantrópica Famille Sandoz-Monique de
+          Meuron.</p>
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR non corregido</p>
+          <p>OCR no corregido</p>
         </correction>
         <normalization>
-          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto
-                                original.</p>
+          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
         </normalization>
         <punctuation>
           <p>Se conserva la puntuación original.</p>
@@ -107,7 +114,7 @@
     </encodingDesc>
     <profileDesc>
       <langUsage>
-        <language ident="es">Español</language>
+        <language ident="ca">Catalán</language>
       </langUsage>
       <textClass>
         <keywords xml:base="http://datos.bne.es/tema/">
@@ -120,10 +127,11 @@
     </profileDesc>
     <revisionDesc>
       <change when="2022-06-01" who="#PJ">Création du fichier TEI P5 et encodage du corps du
-                        texte</change>
+        texte</change>
+<change when="2024-01-09" who="#EL">Add the IIIF links</change>
     </revisionDesc>
   </teiHeader>
-  <sourceDoc xml:id="automaticTranscription">
+  <facsimile><graphic url="varios/Varios_052_1.jpg/full/200,/0/default.jpg"/></facsimile><sourceDoc xml:id="automaticTranscription">
     <surface xml:id="Varios_052_1" type="page" cert="silver">
       <graphic url="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_052_1/full/full/0/default.jpg"/>
       <zone xml:id="Varios_052_1_BT223_1" n="1" type="CustomZone" subtype="title" points="206,1250 1249,1250 1252,1288 1261,1356 1147,1399 342,1417 196,1412 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_052_1/196,1250,1065,167/full/0/default" corresp="CustomZone:title">
@@ -2117,12 +2125,18 @@
   <text>
     <body>
       <div>
-        <pb n="1" source="Varios_052_1.jpg" facs="fedora_Varios_052_1/full/full/0/default.jpg"/>
-        <head type="primer_titulo" rend="negrita"><lb/>RAHONAMENT Y COLOQUI NOU <lb/>DE NELO EL TRIPERO.</head>
-        <head type="subtitulo_parte"><lb/>En el que es referix els grans casos que li pasaren; chic molt<lb/>hábil pera el estudio de la uña; natural de Valensia, fill del<lb/>carrer de Cañete, en lo demés que vorá el curiós lector.</head>
-        <div n="1" type="parte">
-          <head type="titulo_parte"><lb/>PRIMERA PART.</head>
-          <lg>
+        <div>
+          <pb n="1" source="Varios_052_1.jpg" facs="varios/Varios_052_1.jpg/"/>
+
+          <head type="primer_titulo" rend="negrita"><lb/>RAHONAMENT Y COLOQUI NOU <lb/>DE NELO EL
+            TRIPERO.</head>
+          <head type="subtitulo"><lb/>En el que es referix els grans casos que li pasaren; chic
+            molt<lb/>hábil pera el estudio de la uña; natural de Valensia, fill del<lb/>carrer de
+            Cañete, en lo demés que vorá el curiós lector.</head>
+
+          <div n="1" type="parte">
+            <head type="titulo_parte"><lb/>PRIMERA PART.</head>
+
             <l>En esta bola redona,</l>
             <l>Asó no es palla, familia,</l>
             <l>cuant se escarrama el compás,</l>
@@ -2131,10 +2145,11 @@
             <l>tots los fosars están plens</l>
             <l>y tots sen van garrechant,</l>
             <l>en uns erans enracholats :</l>
-          </lg>
-          <pb n="2" source="Varios_052_2.jpg" facs="fedora_Varios_052_2/full/full/0/default.jpg"/>
-          <fw type="paginaNum">2</fw>
-          <lg>
+
+            <pb n="2" source="Varios_052_2.jpg" facs="varios/Varios_052_2.jpg/"/>
+
+            <fw type="paginaNum">2</fw>
+
             <l rend="cursiva">aqui yace Don Fulano,</l>
             <l>murió de un dolor de cap,</l>
             <l>y si no mes fora que estos;</l>
@@ -2178,8 +2193,6 @@
             <l>á les chiques del mercat.</l>
             <l>Asi escomensí carrera</l>
             <l>y ixqui un chóro tan probat.</l>
-          </lg>
-          <lg>
             <l>quem féren entre atres pillos</l>
             <l>primer falcó del ramat.</l>
             <l>Correches, agulles, pintetes,</l>
@@ -2223,10 +2236,11 @@
             <l>me buscaben els pellers</l>
             <l>pera ferlt al gran Sultan</l>
             <l>el grande salamelé,</l>
-          </lg>
-          <pb n="3" source="Varios_052_3.jpg" facs="fedora_Varios_052_3/full/full/0/default.jpg"/>
-          <fw type="paginaNum">3</fw>
-          <lg>
+
+            <pb n="3" source="Varios_052_3.jpg" facs="varios/Varios_052_3.jpg/"/>
+
+            <fw type="paginaNum">3</fw>
+
             <l>ragudes selles y cap,</l>
             <l>en lo plomallet al tós.</l>
             <l>Cuant habia bóus reals,</l>
@@ -2270,8 +2284,6 @@
             <l>cuant els bous sólen matar</l>
             <l>sempre me daben la bufa,</l>
             <l>carrera de un hóme gran.</l>
-          </lg>
-          <lg>
             <l>Sense tíndre ningun fí,</l>
             <l>per ahon anaba pasant</l>
             <l>tots dien guardeuse de eixe.</l>
@@ -2315,10 +2327,11 @@
             <l>arribi á ser entre tots</l>
             <l>el chocho del capatás.</l>
             <l>Arreglí yo ma llisensia,</l>
-          </lg>
-          <pb n="4" source="Varios_052_4.jpg" facs="fedora_Varios_052_4/full/full/0/default.jpg"/>
-          <fw type="paginaNum">4</fw>
-          <lg>
+
+            <pb n="4" source="Varios_052_4.jpg" facs="varios/Varios_052_4.jpg/"/>
+
+            <fw type="paginaNum">4</fw>
+
             <l>y á Valensia vach tornar,</l>
             <l>y me ampará un palleter,</l>
             <l>y feu una acsió lleal.</l>
@@ -2330,8 +2343,6 @@
             <l>perque em volia casar</l>
             <l>en sa filla que parlaba</l>
             <l>baix del pónt en los soldats.</l>
-          </lg>
-          <lg>
             <l>Me ixqué una atra conveniensia</l>
             <l>en la plasa dels bóus reals,</l>
             <l>anar tapant en arena</l>
@@ -2343,16 +2354,21 @@
             <l>algun poc de soliman,</l>
             <l>pera acabar el coloqui</l>
             <l>en la atra segona part.</l>
-          </lg>
-          <trailer>FI DE LA PRIMERA PART.</trailer>
-        </div>
-        <pb n="5" source="Varios_052_5.jpg" facs="fedora_Varios_052_5/full/full/0/default.jpg"/>
-        <fw type="paginaNum">3</fw>
-        <div>
-          <head type="titulo_parte"><lb/>SEGONA PART</head>
-          <head type="subtitulo_parte"><lb/>DEL RAHOÑAMENT Y COLOOUI NOU<lb/>DE NELO EL TRIPERO.En el que acaba de relatar quines fóren totes le escóles de la<lb/>sehua carrera.</head>
-          <lg>
-            <l>Yo sé que alguns de este rógle</l>
+
+            <trailer>FI DE LA PRIMERA PART.</trailer>
+          </div>
+
+          <div n="2">
+            <pb n="5" source="Varios_052_5.jpg" facs="varios/Varios_052_5.jpg/"/>
+
+            <fw type="paginaNum">3</fw>
+
+            <head type="titulo_parte"><lb/><hi rend="negrita">SEGONA PART</hi><lb/>DEL RAHOÑAMENT Y
+              COLOOUI NOU<lb/>DE NELO EL TRIPERO.</head>
+            <head type="subtitulo_parte">En el que acaba de relatar quines fóren totes le escóles
+              de la<lb/>sehua carrera.</head>
+
+            <l rend="indent">Yo sé que alguns de este rógle</l>
             <l>un gran amic del corral,</l>
             <l>estarán ya desichant</l>
             <l>estant els dos en conversa</l>
@@ -2382,9 +2398,9 @@
             <l>venent chicharrons als cocheros</l>
             <l>com yo estaba mal conten,</l>
             <l>dels que solia delmar.</l>
-          </lg>
-          <pb n="6" source="Varios_052_6.jpg" facs="fedora_Varios_052_6/full/full/0/default.jpg"/>
-          <lg>
+
+            <pb n="6" source="Varios_052_6.jpg" facs="varios/Varios_052_6.jpg/"/>
+
             <l>Y en punt de les deu del dia</l>
             <l>váren sercar el corral,</l>
             <l>y per escaparme pronte</l>
@@ -2428,8 +2444,6 @@
             <l>els róllos en all y óli,</l>
             <l>sardines, pebreres y alls,</l>
             <l>tocaben unes en átres.</l>
-          </lg>
-          <lg>
             <l>y la funsió es selebrá.</l>
             <l>Mes com sempre la fortuna</l>
             <l>la he tenguda tan á má,</l>
@@ -2473,10 +2487,11 @@
             <l>y de asó em puc alabar;</l>
             <l rend="cursivo">si no hubiera pechos nobles</l>
             <l>del meu modo de pensar,</l>
-          </lg>
-          <pb n="7" source="Varios_052_7.jpg" facs="fedora_Varios_052_7/full/full/0/default.jpg"/>
-          <fw type="paginaNum">7</fw>
-          <lg>
+
+            <pb n="7" source="Varios_052_7.jpg" facs="varios/Varios_052_7.jpg/"/>
+
+            <fw type="paginaNum">7</fw>
+
             <l rend="cursiva">en las reales galeras</l>
             <l>qui tenia de remar?</l>
             <l rend="cursiva">arriba al palo mayor</l>
@@ -2520,53 +2535,54 @@
             <l>El terne que ha de ser terne</l>
             <l>ha de tragelar el pá</l>
             <l rend="cursiva">por otro estilo irrisiuo,</l>
-          </lg>
-          <l>y en ser que hacha lograt</l>
-          <l>lo que yo ( eu bon hora ho diga)</l>
-          <l>ya es pót tindre per pintat.</l>
-          <l>Vostés dirán les asañes</l>
-          <l>de este gandul ahon están?</l>
-          <l>sense gastar molta flema</l>
-          <l>les aniré relatant.</l>
-          <l>Com son tan anomenades</l>
-          <l>les diré en la cara en alt.</l>
-          <l>Yo soc la embecha del mon,</l>
-          <l>el playante consumat</l>
-          <l>que se encontra en <hi rend="cursiva">estos tiempos</hi>,</l>
-          <l>y lo que tinc ho he guañat</l>
-          <l>con mis queridos didales;</l>
-          <l>ixca un átre mascarát</l>
-          <l>que se hacha menchat el férro</l>
-          <l>en lo calabós tancat,</l>
-          <l>com yo me menchí els grillons,</l>
-          <l>no mes tenia huit añs,</l>
-          <l rend="cursiva">á los quince mal cumplidos</l>
-          <l>ya me encontri rechentant</l>
-          <l>la vara de la comuna,</l>
-          <l>gobernador consumat,</l>
-          <l>cuant ma chalala retundis</l>
-          <l>sempre ma vist amarrat</l>
-          <l>á la primera parella</l>
-          <l>en ma bandereta en má.</l>
-          <l>La sombra de la cruera</l>
-          <l rend="cursiva">es lugar que se reserva</l>
-          <l rend="cursiva">para la gente morena.</l>
-          <l>Per ahon anaba pasant</l>
-          <l>ningú em miraba la cara,</l>
-          <l>tots miraben á les mans,</l>
-          <l>si he aplegat al cuartelillo</l>
-          <l>he segut tan estimat</l>
-          <l>que á tots els deixaben solts,</l>
-          <l>y á mí em tenien ferrat.</l>
-          <l>Séuta,Melilla, el Peñó,</l>
-          <l>Cartagena, el Arsenal,</l>
-          <l>Málaga, en les Filipines,</l>
-          <l>latre Peñó y en Orá,</l>
-          <l>Gurumete y pagesillo,</l>
-          <l>le que dihnen gat de nan,</l>
-          <pb n="8" source="Varios_052_8.jpg" facs="fedora_Varios_052_8/full/full/0/default.jpg"/>
-          <fw type="paginaNum">8</fw>
-          <lg>
+            <l>y en ser que hacha lograt</l>
+            <l>lo que yo ( eu bon hora ho diga)</l>
+            <l>ya es pót tindre per pintat.</l>
+            <l>Vostés dirán les asañes</l>
+            <l>de este gandul ahon están?</l>
+            <l>sense gastar molta flema</l>
+            <l>les aniré relatant.</l>
+            <l>Com son tan anomenades</l>
+            <l>les diré en la cara en alt.</l>
+            <l>Yo soc la embecha del mon,</l>
+            <l>el playante consumat</l>
+            <l>que se encontra en <hi rend="cursiva">estos tiempos</hi>,</l>
+            <l>y lo que tinc ho he guañat</l>
+            <l>con mis queridos didales;</l>
+            <l>ixca un átre mascarát</l>
+            <l>que se hacha menchat el férro</l>
+            <l>en lo calabós tancat,</l>
+            <l>com yo me menchí els grillons,</l>
+            <l>no mes tenia huit añs,</l>
+            <l rend="cursiva">á los quince mal cumplidos</l>
+            <l>ya me encontri rechentant</l>
+            <l>la vara de la comuna,</l>
+            <l>gobernador consumat,</l>
+            <l>cuant ma chalala retundis</l>
+            <l>sempre ma vist amarrat</l>
+            <l>á la primera parella</l>
+            <l>en ma bandereta en má.</l>
+            <l>La sombra de la cruera</l>
+            <l rend="cursiva">es lugar que se reserva</l>
+            <l rend="cursiva">para la gente morena.</l>
+            <l>Per ahon anaba pasant</l>
+            <l>ningú em miraba la cara,</l>
+            <l>tots miraben á les mans,</l>
+            <l>si he aplegat al cuartelillo</l>
+            <l>he segut tan estimat</l>
+            <l>que á tots els deixaben solts,</l>
+            <l>y á mí em tenien ferrat.</l>
+            <l>Séuta,Melilla, el Peñó,</l>
+            <l>Cartagena, el Arsenal,</l>
+            <l>Málaga, en les Filipines,</l>
+            <l>latre Peñó y en Orá,</l>
+            <l>Gurumete y pagesillo,</l>
+            <l>le que dihnen gat de nan,</l>
+
+            <pb n="8" source="Varios_052_8.jpg" facs="varios/Varios_052_8.jpg/"/>
+
+            <fw type="paginaNum">8</fw>
+
             <l>(escóles de ma carrera;</l>
             <l>y he eixit tan aprofitat</l>
             <l>que endivine desde fora</l>
@@ -2593,8 +2609,6 @@
             <l>ni el Vicari ma trobat,</l>
             <l>ni he pagat lloguer de casa,</l>
             <l>sempre ma quedat al rás,</l>
-          </lg>
-          <lg>
             <l>manco cuant ha estat en guaja,</l>
             <l>ó en lestaribel tancat.</l>
             <l>En la comedia del mon</l>
@@ -2621,9 +2635,11 @@
             <l>com yo me la estic pasant,</l>
             <l>asó es lo que os convé,</l>
             <l>si no ho voleu fer, abant.</l>
-          </lg>
-          <trailer>FI.</trailer>
+
+            <trailer>FI.</trailer>
+          </div>
         </div>
+
         <div type="colofon">
           <p><lb/>Alcoy, 1867: Imprenta de José Martí.</p>
         </div>

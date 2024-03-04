@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../Schema/oddPliego_varios.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:alto="http://www.loc.gov/standards/alto/ns-v4#" xml:id="Varios_184">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Varios_184">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -11,8 +11,7 @@
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <authority role="rightsHolder">Bibliothèque Universitaire de
-                              Genève</authority>
+        <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
         <availability status="restricted">
           <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
         </availability>
@@ -20,17 +19,16 @@
       <sourceDesc>
         <biblFull>
           <titleStmt>
-            <title type="titulo_completo">Resposta a la cansó capsanas y
-                                          viseras.</title>
+            <title type="titulo_completo">Resposta a la cansó capsanas y viseras.</title>
             <title type="titulo_breve"/>
           </titleStmt>
           <editionStmt>
             <p/>
           </editionStmt>
           <publicationStmt>
-            <publisher>Imprenta de Sanchez</publisher>
+            <publisher>Sánchez</publisher>
             <pubPlace ref="https://www.geonames.org/3128760/barcelona.html">Barcelona</pubPlace>
-            <date cert="high">[s.a]</date>
+            <date cert="low" when="1800-01-01">[s.a.]</date>
           </publicationStmt>
         </biblFull>
         <msDesc>
@@ -38,7 +36,8 @@
             <country>Suisse</country>
             <settlement>Genève</settlement>
             <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"/>
-                                    </repository>
+            </repository>
+            <collection>Colección Varios</collection>
             <idno type="cote"/>
             <idno type="DOI">10.5281/zenodo.6595006</idno>
             <altIdentifier>
@@ -46,10 +45,14 @@
             </altIdentifier>
           </msIdentifier>
           <msContents>
-            <summary/>
+            <summary>Dos canciones</summary>
             <msItem>
-              <locus/>
-              <title/>
+              <locus>1-2</locus>
+              <title>Resposta a la cansó Capsanas y viseras</title>
+            </msItem>
+            <msItem>
+              <locus>3-4</locus>
+              <title>El llanto triste. Primera parte.</title>
             </msItem>
           </msContents>
           <physDesc>
@@ -71,8 +74,8 @@
               <decoNote type="lista_grabados">
                 <list>
                   <item corresp="grabado_v_184_1.xml">grabado_v_184_1</item>
-                  <item corresp="grabado_v_184_1.xml">grabado_v_184_2</item>
-                  <item corresp="grabado_v_184_2.xml">grabado_v_184_3</item>
+                  <item corresp="grabado_v_184_2.xml">grabado_v_184_2</item>
+                  <item corresp="grabado_v_184_3.xml">grabado_v_184_3</item>
                 </list>
               </decoNote>
               <decoNote type="lista_ornamentos">
@@ -91,9 +94,8 @@
               <p>IMPRENTA DE SANCHEZ</p>
             </origin>
             <provenance>
-              <p>Se halla de venta en la plaza de Santa Ana, n.° 16,
-                                                piso 3.°, escalerilla del Sillero al lado de
-                                                Montesion,</p>
+              <p>Se halla de venta en la plaza de Santa Ana, n.° 16, piso 3.°, escalerilla del
+                Sillero al lado de Montesion,</p>
             </provenance>
             <acquisition>
               <stamp>COL-LECCIÓ MANUEL MASSÓ</stamp>
@@ -104,18 +106,17 @@
     </fileDesc>
     <encodingDesc>
       <projectDesc>
-        <p>Este archivo fue creado en el marco del proyecto Desenrollando el
-                              Cordel/Démêler le cordel/Untangling the cordel, dirigido por la
-                              profesora Constance Carta de la Universidad de Ginebra, con el apoyo
-                              de la Fundación filantrópica Famille Sandoz-Monique de Meuron.</p>
+        <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+          cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la Universidad
+          de Ginebra, con el apoyo de la Fundación filantrópica Famille Sandoz-Monique de
+          Meuron.</p>
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR non corregido</p>
+          <p>OCR no corregido</p>
         </correction>
         <normalization>
-          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto
-                                    original.</p>
+          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
         </normalization>
         <punctuation>
           <p>Se conserva la puntuación original.</p>
@@ -124,22 +125,26 @@
     </encodingDesc>
     <profileDesc>
       <langUsage>
-        <language ident="es">Español</language>
+        <language ident="ca">Catalán</language>
       </langUsage>
       <textClass>
         <keywords xml:base="http://datos.bne.es/tema/">
-          <term type="tipo_texto">Relaciones</term>
-          <term target="XX527614.html" type="tipo_estrofa">Romances</term>
+          <term target="XX525577.html" type="tipo_texto">Canciones</term>
+          <term target="XX525577.html" type="tipo_estrofa">Canciones</term>
           <term type="verso_prosa">Verso</term>
           <term type="sagrado_profano">Profano</term>
         </keywords>
       </textClass>
     </profileDesc>
     <revisionDesc>
-      <change when="2023-05-03" who="#PJ">Création du fichier TEI P5 et encodage du
-                        corps du texte</change>
+      <change when="2023-05-03" who="#PJ">Création du fichier TEI P5 et encodage du corps du
+        texte</change>
+      <change when="2024-01-09" who="#EL">Add the IIIF links</change>
     </revisionDesc>
   </teiHeader>
+  <facsimile>
+    <graphic url="varios/Varios_184_1.jpg/full/200,/0/default.jpg"/>
+  </facsimile>
   <sourceDoc xml:id="automaticTranscription">
     <surface xml:id="Varios_184_1" type="page" cert="silver">
       <graphic url="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_184_1/full/full/0/default.jpg"/>
@@ -1135,8 +1140,8 @@
       <zone xml:id="Varios_184_4_BT221_5" n="5" type="MarginTextZone" subtype="colophon" points="121,2314 115,2432 1775,2453 1775,2340 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_184_4/115.0,2314.0,1660.0,139.0/full/0/default" corresp="MarginTextZone:colophon">
         <zone xml:id="Varios_184_4_BT221_5_LT182_1" type="DefaultLine" subtype="none" points="796,2324 774,2324 767,2324 693,2331 649,2333 622,2328 595,2322 573,2322 551,2320 504,2324 450,2328 388,2328 379,2320 374,2317 372,2317 350,2317 327,2317 305,2317 283,2317 261,2315 238,2315 216,2315 194,2315 194,2364 191,2373 370,2393 372,2393 428,2384 446,2398 448,2398 450,2398 452,2398 455,2398 506,2384 508,2384 533,2407 535,2407 537,2407 671,2409 673,2409 676,2409 709,2393 745,2409 747,2409 749,2409 751,2409 754,2409 778,2395 834,2395 879,2415 881,2415 883,2415 1276,2409 1303,2409 1305,2409 1320,2424 1320,2427 1323,2427 1325,2427 1327,2427 1329,2427 1332,2427 1356,2411 1358,2409 1459,2409 1486,2415 1539,2429 1541,2429 1544,2429 1546,2429 1548,2429 1566,2418 1570,2415 1660,2418 1664,2420 1686,2436 1689,2436 1691,2436 1693,2436 1695,2436 1740,2422 1742,2404 1742,2364 1677,2362 1660,2346 1660,2344 1657,2344 1655,2344 1653,2344 1575,2357 1570,2357 1566,2357 1445,2340 1443,2340 1307,2349 1305,2349 1303,2349 1224,2335 1222,2335 1169,2344 1160,2346 1155,2344 1142,2333 1140,2333 1137,2333 1135,2333 1075,2342 1057,2344 1046,2342 1015,2331 1012,2331 1010,2331 876,2335 814,2337 809,2333 798,2324 796,2324 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_184_4/191.0,2315.0,1551.0,121.0/full/0/default" corresp="DefaultLine">
           <path xml:id="Varios_184_4_BT221_5_LT182_1_1" points="195,2366 1744,2406 "/>
-          <line>Se halla de venta en la plaza de Santa Ana, n.° 16, piso 3.°,
-                                    escalerilla del Sillero al lado de</line>
+          <line>Se halla de venta en la plaza de Santa Ana, n.° 16, piso 3.°, escalerilla del
+            Sillero al lado de</line>
         </zone>
         <zone xml:id="Varios_184_4_BT221_5_LT182_2" type="DefaultLine" subtype="none" points="312,2393 290,2366 267,2364 245,2364 223,2362 200,2362 198,2355 156,2353 156,2398 156,2458 327,2460 330,2398 327,2393 312,2393 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_184_4/156.0,2353.0,174.0,107.0/full/0/default" corresp="DefaultLine">
           <path xml:id="Varios_184_4_BT221_5_LT182_2_1" points="156,2398 330,2398 "/>
@@ -1154,9 +1159,12 @@
   <text>
     <body>
       <div>
-        <pb n="1" source="Varios_184_1.jpg" facs="fedora_Varios_184_1/full/full/0/default.jpg"/>
-        <div type="parte" n="1">
-          <head type="primer_titulo"><lb/>RESPOSTA A LA CANSÓ<lb/>CAPSANAS Y VISERAS.</head>
+        <div n="1">
+          <pb n="1" source="Varios_184_1.jpg" facs="varios/Varios_184_1.jpg/"/>
+
+          <head type="primer_titulo"><lb/>RESPOSTA A LA CANSÓ<lb/><hi rend="negrita">CAPSANAS Y
+              VISERAS.</hi></head>
+
           <lg>
             <head type="titulo_estrofa">1.ª</head>
             <l>El modo de criticá</l>
@@ -1165,7 +1173,7 @@
             <l>de ignorans y de pelons.</l>
             <l>Com no guanyan prou diné,</l>
             <l>van de modas andarrera,</l>
-            <l>no podan gastá <hi rend="cursvia"><hi rend="cursvia">Capsana</hi></hi> ,</l>
+            <l>no podan gastá <hi rend="cursvia"><hi rend="cursvia">Capsana</hi></hi>,</l>
             <l>ni tampoch comprá <hi rend="cursiva"><hi rend="cursiva">Visera</hi></hi>.</l>
             <l>Y així xarrairét</l>
             <l>vejas de callá,</l>
@@ -1178,7 +1186,7 @@
           </lg>
           <lg>
             <head type="titulo_estrofa">2.ª</head>
-            <l>El que <hi rend="cursiva">Visera</hi>s critica</l>
+            <l rend="indent">El que <hi rend="cursiva">Visera</hi>s critica</l>
             <l>es un sumalastrají,</l>
             <l>que set anys ha que estudía</l>
             <l>per tocá un mal curnatí.</l>
@@ -1188,7 +1196,9 @@
             <l>que nes un gran buñolé.</l>
             <l>No du <hi rend="cursvia">Capsana</hi></l>
             <l>ni tampoch <hi rend="cursiva">Visera</hi> ,</l>
-            <pb n="2" source="Varios_184_2.jpg" facs="fedora_Varios_184_2/full/full/0/default.jpg"/>
+
+            <pb n="2" source="Varios_184_2.jpg" facs="varios/Varios_184_2.jpg/"/>
+
             <l>que porta un quempis</l>
             <l>ab aspitlleras ,</l>
             <l>mireu si'l porta</l>
@@ -1198,17 +1208,17 @@
           </lg>
           <lg>
             <head type="titulo_estrofa">3.ª</head>
-            <l>«Marcal, que porta <hi rend="cursvia">Capsana</hi></l>
+            <l rend="indent">«<hi rend="cursiva">Marcal</hi>, que porta <hi rend="cursvia">Capsana</hi></l>
             <l>Marcal, que porta <hi rend="cursiva">Visera</hi>, »</l>
             <l>nos diu D. Curnatinet ;</l>
             <l>contestem de igual manera:</l>
             <l>Marcal, que no te diné</l>
             <l>per pagá al parruqué,</l>
             <l>y per <hi rend="cursiva">Visera</hi> comprarna</l>
-            <l>Marcal, que diné no té.</l>
+            <l><hi rend="cursiva">Marcal</hi>, que diné no té.</l>
             <l>Y axí xarrairét</l>
             <l>ta's de retirá,</l>
-            <l>si tu vols dí Marcal ,</l>
+            <l>si tu vols dí <hi rend="cursiva">Marcal</hi> ,</l>
             <l>algu't marcará,</l>
             <l>no te entretingas</l>
             <l>y fesho abiat ,</l>
@@ -1217,7 +1227,7 @@
           </lg>
           <lg>
             <head type="titulo_estrofa">4.ª</head>
-            <l>La <hi rend="cursvia">Capsana</hi> es una moda</l>
+            <l rend="indent">La <hi rend="cursvia">Capsana</hi> es una moda</l>
             <l>enfadosa y mal per ell,</l>
             <l>perque nesesita moma</l>
             <l>per fersa rissá el cabell :</l>
@@ -1240,13 +1250,13 @@
             <l>no vos espantin los burlons,</l>
             <l>vestiu sempre á vostra gust,</l>
             <l>que ells no poden per pelons ;</l>
-            <l>y si acas vos diuhen Marcal,</l>
+            <l>y si acas vos diuhen <hi rend="cursiva">Marcal</hi>,</l>
             <l>contesteu ab brevedat :</l>
             <l>l' assa que ara á mi 'm marca</l>
             <l>molt temps ha que está marcat.</l>
             <l>Y axí xarrairet</l>
             <l>deixat de burlá,</l>
-            <l>sino la Vissera</l>
+            <l>sino la <hi rend="cursiva">Vissera</hi></l>
             <l>ten privará.</l>
             <l>Bé diu lo refran</l>
             <l>y no ment un pel</l>
@@ -1260,7 +1270,7 @@
                 <corr>6.ª</corr>
               </choice>
             </head>
-            <l>Es cómoda la <hi rend="cursvia">Capsana</hi>,</l>
+            <l rend="indent">Es cómoda la <hi rend="cursvia">Capsana</hi>,</l>
             <l>la <hi rend="cursiva">Visera</hi> nes també ,</l>
             <l>axí pues seguim la moda</l>
             <l>que ella fá corre el diné;</l>
@@ -1270,163 +1280,164 @@
             <l>y fá rich al butigué.</l>
             <l>Vivan <hi rend="cursvia">Capsana</hi>s,</l>
             <l>Vivan <hi rend="cursiva">Visera</hi>s</l>
-            <l>morin los Quempis</l>
+            <l>morin los <hi rend="cursiva">Quempis</hi></l>
             <l>ab aspitlleras.</l>
             <l>Y axís unimnos,</l>
             <l>y emvisserats,</l>
             <l>vivan las modas</l>
             <l>dirém plegats.</l>
           </lg>
-          <p><lb/>Es propietat.</p>
+          <p rend="cursiva"><lb/>Es propietat.</p>
         </div>
-        <pb n="3" source="Varios_184_3.jpg" facs="fedora_Varios_184_3/full/full/0/default.jpg"/>
-        <div type="parte" n="2">
+
+        <div n="2">
+          <pb n="3" source="Varios_184_3.jpg" facs="varios/Varios_184_3.jpg/"/>
+
           <head type="titulo_parte"><lb/><hi rend="negrita">EL LLANTO TRISTE.</hi><lb/>PRIMERA
-                                    PARTE.</head>
-          <lg>
-            <l>Triste llanto no aflijas mi pecho,</l>
-            <l>Que encendido ya está de amor,</l>
-            <l>Y respira incansable y deshecho</l>
-            <l>Por amarte cual fiel amador.</l>
-            <l>Yo quisiera alejar al momento</l>
-            <l>Esa llama que mi pecho encendió ;</l>
-            <l>Pues padezco un duro tormento,</l>
-            <l>Y ese llanto me causa tu amor.</l>
-            <l>Cesa, cesa esa llama alevosa,</l>
-            <l>Cesa y calma en mi pecho el dolor ;</l>
-            <l>Pues te adoraba cual fiel mariposa,</l>
-            <l>Ni un solo suspiro oí de tu amor.</l>
-            <l>Si calmases tu sola mi llanto,</l>
-            <l>Ese llanto insensato de amor ,</l>
-            <l>De alegria volviera mi espanto</l>
-            <l>Y te amára cual fiel amador.</l>
-            <l>Llegó la hora fatal de mi llanto,</l>
-            <l>Y mi pecho un suspiro lanzó,</l>
-            <l>Y padezco dolor y quebranto</l>
-            <l>A quien amo, mi amor no escuchó.</l>
-          </lg>
-          <lg>
-            <l>Ni consuelo en el llanto encuentro,</l>
-            <l>Si suspiro es tan solo por tí,</l>
-            <l>Y padezco dolor y tormento,</l>
-            <l>Y mi dicha depende de tí.</l>
-            <l>Desahogo mi pecho cansado ,</l>
-            <l>Y mis ojos ya lloran por tí ;</l>
-            <l>Pues quien ama y de tí no es amado</l>
-            <l>Quien respira, suspira por tí.</l>
-            <l>Yo quisiera alejar al momento</l>
-            <l>Esa llama que mi pecho encendió ;</l>
-            <l>Pues padezco un duro tormento,</l>
-            <l>Y ese llanto me causa tu amor.</l>
-            <l>Cesa llanto, y calma mi pecho,</l>
-            <l>Que muy triste yace en el dolor,</l>
-            <l>Y el olvido en el es estrecho</l>
-            <l>Y te amára cual fiel amador.</l>
-            <l>Si calmases tu sola mi llanto,</l>
-            <l>Ese llanto insensato de amor,</l>
-            <l>De alegria volviera mi espanto,</l>
-            <l>Y te amára cual fiel amador.</l>
-          </lg>
-          <pb n="4" source="Varios_184_4.jpg" facs="fedora_Varios_184_4/full/full/0/default.jpg"/>
-          <lg>
-            <l>De tristeza me hallo abatido,</l>
-            <l>Carolina, tan solo por tí,</l>
-            <l>En memorias yo fuí tu querido,</l>
-            <l>En desprecios tu amor yo perdí.</l>
-            <l>Ni consuelo en el llanto yo encuentro</l>
-            <l>Si suspiro, es tan solo por tí,</l>
-            <l>Y padezco pesar y tormento</l>
-            <l>Y mi dicha depende de tí.</l>
-            <l>Aqui sentado enjugo mi llanto,</l>
-            <l>Este asilo es tan solo por mí;</l>
-            <l>Pues me causa tristeza y quebranto,</l>
-            <l>Pues mi amor aquí ya lo perdí.</l>
-            <l>Era un dia que feliz poseia</l>
-            <l>De tus ojos el puro candor,</l>
-            <l>Mas perdí ya mi dulce alegria</l>
-            <l>Y en mi pecho encerróse el dolor.</l>
-            <l>El que mire mi suerte anhelada,</l>
-            <l>Y ese llanto que vierto yo aquí,</l>
-            <l>Este asilo recuerda mi amada</l>
-            <l>Pues en este asilo mi amada perdí.</l>
-            <l>Yo quisiera alejar al momento,</l>
-            <l>Esa llama que mi pecho encendió</l>
-            <l>Pues padezco un duro tormento,</l>
-            <l>Y ese llanto me causa tu amor.</l>
-            <l>Si de dia, yo vierto ese llanto,</l>
-            <l>Ya de noche se aumenta el dolor,</l>
-            <l>Pues la tierra me causa un espanto</l>
-            <l>Y la muerte me fuera mejor.</l>
-            <l>Si calmases tu sola mi llanto,</l>
-            <l>Ese llanto insensato de amor,</l>
-            <l>De alegría volviera mi espanto</l>
-            <l>Y te amára cual fiel amador.</l>
-            <l>Yo te amaba, ó sombra dichosa,</l>
-            <l>Y poca dicha he hallado yo en tí,</l>
-            <l>Pues que al verte allí tan hermosa</l>
-            <l>Un suspiro he lanzado yo allí.</l>
-            <l>Ni consuelo en el llanto no encuentro</l>
-            <l>Si suspiro es tan solo por tí,</l>
-            <l>Pues padezco pesar y tormento</l>
-            <l>Y mi dicha depende de tí.</l>
-            <l>Aprended á adorar con firmeza</l>
-            <l>Que el que ama no puede olvidar ,</l>
-            <l>El amor tambien causa tristeza</l>
-            <l>Por amores me veis hoy llorar.</l>
-          </lg>
-          <lg>
-            <l>Yo quisiera alejar al momento</l>
-            <l>Esa llama que mi pecho encendió,</l>
-            <l>Pues padezco un duro tormento</l>
-            <l>Y ese llanto me causa tu amor.</l>
-            <l>Yo postrado á tus pies imploraba</l>
-            <l>Adorarte cual fino amador,</l>
-            <l>Mil suspiros mi pecho lanzaba,</l>
-            <l>Solo llanto me ha dado tu amor.</l>
-            <l>Era un dia que feliz poseía</l>
-            <l>De tus ojos tu puro candor,</l>
-            <l>Mas perdí mi dulce alegria</l>
-            <l>Y en mi pecho encerrose el dolor.</l>
-            <l>Mas no cesa mi llanto afligido</l>
-            <l>Ni consuelas mi duro dolor,</l>
-            <l>En la tierra me hallo abatido</l>
-            <l>Pues la muerte deseo mejor.</l>
-            <l>Ni consuelo en el llanto ya encuentro</l>
-            <l>Si suspiro es tan solo por tí,</l>
-            <l>Y padezco un duro tormento</l>
-            <l>Y mi dicha depende de tí.</l>
-            <l>Yo te amaba feliz y constante</l>
-            <l>Y sentado me hallas aquí,</l>
-            <l>Este asilo será de tu amante</l>
-            <l>En este asilo feliz yo finí.</l>
-            <l>Si calmases tu sola mi llanto,</l>
-            <l>Ese llanto insensato de amor;</l>
-            <l>De alegría volviera mi llanto,</l>
-            <l>Y te amára cual fiel amador.</l>
-            <l>Si algun dia te veo compasiva</l>
-            <l>Y consuelas mi triste dolor,</l>
-            <l>En este sitio me hallarás noche y dia</l>
-            <l>Vertiendo llanto tu triste amador.</l>
-            <l>Si calmases tu sola mi llanto,</l>
-            <l>Ese llanto insensato de amor;</l>
-            <l>De alegría volviera mi espanto,</l>
-            <l>Y te amára cual fiel amador.</l>
-            <l>Carolina, que seas dichosa,</l>
-            <l>Y al Cielo yo ruego por tí,</l>
-            <l>Tus memorias llevára á la losa</l>
-            <l>Y tu sombra guardára yo allí.</l>
-            <l>Yo quisiera alejar el momento,</l>
-            <l>Ese llanto tan triste y feroz;</l>
-            <l>Tus memorias yo guardo contento</l>
-            <l>Y en la tumba estarémos los dos.</l>
-          </lg>
-          <p><lb/>Es propriedad.</p>
+            PARTE.</head>
+
+          <l rend="indent">Triste llanto no aflijas mi pecho,</l>
+          <l>Que encendido ya está de amor,</l>
+          <l>Y respira incansable y deshecho</l>
+          <l>Por amarte cual fiel amador.</l>
+          <l>Yo quisiera alejar al momento</l>
+          <l>Esa llama que mi pecho encendió ;</l>
+          <l>Pues padezco un duro tormento,</l>
+          <l>Y ese llanto me causa tu amor.</l>
+          <l rend="indent">Cesa, cesa esa llama alevosa,</l>
+          <l>Cesa y calma en mi pecho el dolor ;</l>
+          <l>Pues te adoraba cual fiel mariposa,</l>
+          <l>Ni un solo suspiro oí de tu amor.</l>
+          <l>Si calmases tu sola mi llanto,</l>
+          <l>Ese llanto insensato de amor ,</l>
+          <l>De alegria volviera mi espanto</l>
+          <l>Y te amára cual fiel amador.</l>
+          <l rend="indent">Llegó la hora fatal de mi llanto,</l>
+          <l>Y mi pecho un suspiro lanzó,</l>
+          <l>Y padezco dolor y quebranto</l>
+          <l>A quien amo, mi amor no escuchó.</l>
+          <l>Ni consuelo en el llanto encuentro,</l>
+          <l>Si suspiro es tan solo por tí,</l>
+          <l>Y padezco dolor y tormento,</l>
+          <l>Y mi dicha depende de tí.</l>
+          <l rend="indent">Desahogo mi pecho cansado ,</l>
+          <l>Y mis ojos ya lloran por tí ;</l>
+          <l>Pues quien ama y de tí no es amado</l>
+          <l>Quien respira, suspira por tí.</l>
+          <l>Yo quisiera alejar al momento</l>
+          <l>Esa llama que mi pecho encendió ;</l>
+          <l>Pues padezco un duro tormento,</l>
+          <l>Y ese llanto me causa tu amor.</l>
+          <l rend="indent">Cesa llanto, y calma mi pecho,</l>
+          <l>Que muy triste yace en el dolor,</l>
+          <l>Y el olvido en el es estrecho</l>
+          <l>Y te amára cual fiel amador.</l>
+          <l>Si calmases tu sola mi llanto,</l>
+          <l>Ese llanto insensato de amor,</l>
+          <l>De alegria volviera mi espanto,</l>
+          <l>Y te amára cual fiel amador.</l>
+
+          <pb n="4" source="Varios_184_4.jpg" facs="varios/Varios_184_4.jpg/"/>
+
+          <l rend="indent">De tristeza me hallo abatido,</l>
+          <l>Carolina, tan solo por tí,</l>
+          <l>En memorias yo fuí tu querido,</l>
+          <l>En desprecios tu amor yo perdí.</l>
+          <l>Ni consuelo en el llanto yo encuentro</l>
+          <l>Si suspiro, es tan solo por tí,</l>
+          <l>Y padezco pesar y tormento</l>
+          <l>Y mi dicha depende de tí.</l>
+          <l rend="indent">Aqui sentado enjugo mi llanto,</l>
+          <l>Este asilo es tan solo por mí;</l>
+          <l>Pues me causa tristeza y quebranto,</l>
+          <l>Pues mi amor aquí ya lo perdí.</l>
+          <l>Era un dia que feliz poseia</l>
+          <l>De tus ojos el puro candor,</l>
+          <l>Mas perdí ya mi dulce alegria</l>
+          <l>Y en mi pecho encerróse el dolor.</l>
+          <l rend="indent">El que mire mi suerte anhelada,</l>
+          <l>Y ese llanto que vierto yo aquí,</l>
+          <l>Este asilo recuerda mi amada</l>
+          <l>Pues en este asilo mi amada perdí.</l>
+          <l>Yo quisiera alejar al momento,</l>
+          <l>Esa llama que mi pecho encendió</l>
+          <l>Pues padezco un duro tormento,</l>
+          <l>Y ese llanto me causa tu amor.</l>
+          <l rend="indent">Si de dia, yo vierto ese llanto,</l>
+          <l>Ya de noche se aumenta el dolor,</l>
+          <l>Pues la tierra me causa un espanto</l>
+          <l>Y la muerte me fuera mejor.</l>
+          <l>Si calmases tu sola mi llanto,</l>
+          <l>Ese llanto insensato de amor,</l>
+          <l>De alegría volviera mi espanto</l>
+          <l>Y te amára cual fiel amador.</l>
+          <l rend="indent">Yo te amaba, ó sombra dichosa,</l>
+          <l>Y poca dicha he hallado yo en tí,</l>
+          <l>Pues que al verte allí tan hermosa</l>
+          <l>Un suspiro he lanzado yo allí.</l>
+          <l>Ni consuelo en el llanto no encuentro</l>
+          <l>Si suspiro es tan solo por tí,</l>
+          <l>Pues padezco pesar y tormento</l>
+          <l>Y mi dicha depende de tí.</l>
+          <l rend="indent">Aprended á adorar con firmeza</l>
+          <l>Que el que ama no puede olvidar ,</l>
+          <l>El amor tambien causa tristeza</l>
+          <l>Por amores me veis hoy llorar.</l>
+          <l>Yo quisiera alejar al momento</l>
+          <l>Esa llama que mi pecho encendió,</l>
+          <l>Pues padezco un duro tormento</l>
+          <l>Y ese llanto me causa tu amor.</l>
+          <l rend="indent">Yo postrado á tus pies imploraba</l>
+          <l>Adorarte cual fino amador,</l>
+          <l>Mil suspiros mi pecho lanzaba,</l>
+          <l>Solo llanto me ha dado tu amor.</l>
+          <l>Era un dia que feliz poseía</l>
+          <l>De tus ojos tu puro candor,</l>
+          <l>Mas perdí mi dulce alegria</l>
+          <l>Y en mi pecho encerrose el dolor.</l>
+          <l rend="indent">Mas no cesa mi llanto afligido</l>
+          <l>Ni consuelas mi duro dolor,</l>
+          <l>En la tierra me hallo abatido</l>
+          <l>Pues la muerte deseo mejor.</l>
+          <l>Ni consuelo en el llanto ya encuentro</l>
+          <l>Si suspiro es tan solo por tí,</l>
+          <l>Y padezco un duro tormento</l>
+          <l>Y mi dicha depende de tí.</l>
+          <l rend="indent">Yo te amaba feliz y constante</l>
+          <l>Y sentado me hallas aquí,</l>
+          <l>Este asilo será de tu amante</l>
+          <l>En este asilo feliz yo finí.</l>
+          <l>Si calmases tu sola mi llanto,</l>
+          <l>Ese llanto insensato de amor;</l>
+          <l>De alegría volviera mi llanto,</l>
+          <l>Y te amára cual fiel amador.</l>
+          <l rend="indent">Si algun dia te veo compasiva</l>
+          <l>Y consuelas mi triste dolor,</l>
+          <l>En este sitio me hallarás noche y dia</l>
+          <l>Vertiendo llanto tu triste amador.</l>
+          <l>Si calmases tu sola mi llanto,</l>
+          <l>Ese llanto insensato de amor;</l>
+          <l>De alegría volviera mi espanto,</l>
+          <l>Y te amára cual fiel amador.</l>
+          <l rend="indent">Carolina, que seas dichosa,</l>
+          <l>Y al Cielo yo ruego por tí,</l>
+          <l>Tus memorias llevára á la losa</l>
+          <l>Y tu sombra guardára yo allí.</l>
+          <l>Yo quisiera alejar el momento,</l>
+          <l>Ese llanto tan triste y feroz;</l>
+          <l>Tus memorias yo guardo contento</l>
+          <l>Y en la tumba estarémos los dos.</l>
+
+          <p rend="cursiva"><lb/>Es propriedad.</p>
+          <trailer>FIN.</trailer>
         </div>
+
         <div type="colofón_vendedor">
-          <p><lb/>Se halla de venta en la plaza de Santa Ana, n.° 16, piso 3.°,
-                                    escalerilla del Sillero al lado de Montesion,</p>
+          <p><lb/>Se halla de venta en la plaza de Santa Ana, n.° 16, piso 3.°, escalerilla del
+            Sillero al lado de Montesion,</p>
         </div>
-        <div type="colofon_impresora">
+
+        <div type="colofon_impresor">
           <p><lb/>BARCELONA: IMPRENTA DE SANCHEZ.</p>
         </div>
       </div>

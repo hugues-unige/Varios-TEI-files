@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../Schema/oddPliego_varios.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:alto="http://www.loc.gov/standards/alto/ns-v4#" xml:id="Varios_042">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Varios_042">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -11,8 +11,7 @@
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <authority role="rightsHolder">Bibliothèque Universitaire de
-                              Genève</authority>
+        <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
         <availability status="restricted">
           <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
         </availability>
@@ -20,21 +19,18 @@
       <sourceDesc>
         <biblFull>
           <titleStmt>
-            <title type="titulo_completo">La Dama Casimira. Reflexiones que
-                                          hizo esta joven antes de tomar matrimonio, y hallando
-                                          inconveniente en aceptar hombre de oficio, y no
-                                          encontrando marido que le gustase prefirió ser monja que
-                                          casarse.</title>
+            <title type="titulo_completo">La Dama Casimira. Reflexiones que hizo esta joven antes de
+              tomar matrimonio, y hallando inconveniente en aceptar hombre de oficio, y no
+              encontrando marido que le gustase prefirió ser monja que casarse.</title>
             <title type="titulo_breve">La Dama Casimira.</title>
           </titleStmt>
           <editionStmt>
             <p/>
           </editionStmt>
           <publicationStmt>
-            <publisher>De Cristina Segura</publisher>
-            <pubPlace ref="https://www.geonames.org/3128760/barcelona.html">Barcelona, Vda. de A. Llorens. Palma de Santa Catalina,
-                                          núm. 6</pubPlace>
-            <date>[s.a]</date>
+            <publisher>Cristina Segura</publisher>
+            <pubPlace ref="https://www.geonames.org/3128760/barcelona.html">Barcelona</pubPlace>
+            <date cert="low" when="1800-01-01">[s.a.]</date>
           </publicationStmt>
         </biblFull>
         <msDesc>
@@ -42,7 +38,8 @@
             <country>Suisse</country>
             <settlement>Genève</settlement>
             <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"/>
-                                    </repository>
+            </repository>
+            <collection>Colección Varios</collection>
             <idno type="cote"/>
             <idno type="DOI">10.5281/zenodo.6556094</idno>
             <altIdentifier>
@@ -71,7 +68,7 @@
               </layoutDesc>
             </objectDesc>
             <decoDesc>
-              <summary n="1">Uno grabado (p.1) </summary>
+              <summary n="1">Un grabado (p.1) </summary>
               <decoNote type="lista_grabados">
                 <list>
                   <item corresp="grabado_v_042_1.xml">grabado_v_042_1</item>
@@ -82,8 +79,7 @@
           </physDesc>
           <history>
             <origin>
-              <p>Imps. De Cristina Segura Vda. de A. Llorens. Palma de
-                                                Santa Catalina, núm. 6</p>
+              <p>Imps. De Cristina Segura Vda. de A. Llorens. Palma de Santa Catalina, núm. 6</p>
             </origin>
             <provenance/>
             <acquisition/>
@@ -93,18 +89,17 @@
     </fileDesc>
     <encodingDesc>
       <projectDesc>
-        <p>Este archivo fue creado en el marco del proyecto Desenrollando el
-                              Cordel/Démêler le cordel/Untangling the cordel, dirigido por la
-                              profesora Constance Carta de la Universidad de Ginebra, con el apoyo
-                              de la Fundación filantrópica Famille Sandoz-Monique de Meuron.</p>
+        <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+          cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la Universidad
+          de Ginebra, con el apoyo de la Fundación filantrópica Famille Sandoz-Monique de
+          Meuron.</p>
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR non corregido</p>
+          <p>OCR no corregido</p>
         </correction>
         <normalization>
-          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto
-                                    original.</p>
+          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
         </normalization>
         <punctuation>
           <p>Se conserva la puntuación original.</p>
@@ -118,18 +113,19 @@
       <textClass>
         <keywords xml:base="http://datos.bne.es/tema/">
           <term type="tipo_texto">Relaciones</term>
-          <term type="tipo_estrofa"/>
+          <term type="tipo_estrofa" target="XX4843218.html">Romances</term>
           <term type="verso_prosa">Verso</term>
           <term type="sagrado_profano">Sagrado</term>
         </keywords>
       </textClass>
     </profileDesc>
     <revisionDesc>
-      <change when="2022-05-15" who="#PJ">Création du fichier TEI P5 et encodage du
-                        corps du texte</change>
+      <change when="2022-05-15" who="#PJ">Création du fichier TEI P5 et encodage du corps du
+        texte</change>
+<change when="2024-01-09" who="#EL">Add the IIIF links</change>
     </revisionDesc>
   </teiHeader>
-  <sourceDoc xml:id="automaticTranscription">
+  <facsimile><graphic url="varios/Varios_042_1.jpg/full/200,/0/default.jpg"/></facsimile><sourceDoc xml:id="automaticTranscription">
     <surface xml:id="Varios_042_1" type="page" cert="silver">
       <graphic url="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_042_1/full/full/0/default.jpg"/>
       <zone xml:id="Varios_042_1_BT228_1" n="1" type="MarginTextZone" subtype="colophon" points="1529,249 1570,354 1278,367 1266,255 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_042_1/1266,249,304,118/full/0/default" corresp="MarginTextZone:colophon">
@@ -149,13 +145,11 @@
         </zone>
         <zone xml:id="Varios_042_1_BT223_2_LT84_3" type="HeadingLine" subtype="none" points="57,1750 50,1693 129,1682 129,1682 131,1682 131,1682 131,1682 179,1691 208,1697 232,1691 265,1682 267,1682 267,1682 267,1682 269,1682 269,1682 271,1682 307,1691 333,1697 532,1697 559,1691 616,1680 616,1680 618,1680 618,1680 618,1680 620,1680 620,1680 644,1691 655,1695 660,1691 671,1680 671,1678 671,1678 673,1678 673,1678 673,1678 675,1678 675,1678 677,1678 780,1678 780,1678 780,1678 783,1678 783,1678 783,1678 785,1678 785,1678 798,1691 800,1693 892,1693 903,1691 927,1680 927,1680 929,1680 929,1680 932,1680 932,1680 932,1680 934,1680 967,1689 982,1693 997,1689 1044,1678 1046,1678 1046,1678 1048,1678 1048,1678 1048,1678 1050,1678 1050,1678 1079,1689 1101,1675 1103,1675 1103,1675 1105,1675 1105,1675 1105,1675 1107,1675 1107,1675 1109,1675 1109,1675 1109,1675 1112,1675 1131,1689 1133,1691 1140,1689 1171,1680 1173,1680 1173,1680 1173,1680 1175,1680 1175,1680 1245,1689 1263,1691 1267,1689 1276,1680 1276,1680 1278,1680 1278,1680 1278,1680 1280,1680 1280,1680 1283,1680 1283,1680 1362,1686 1379,1673 1379,1673 1381,1673 1381,1673 1381,1673 1384,1673 1384,1673 1386,1673 1557,1673 1557,1673 1557,1673 1559,1673 1614,1689 1616,1739 1616,1748 1199,1765 1197,1765 1197,1765 1120,1757 1090,1754 1057,1759 989,1768 989,1768 987,1768 833,1761 682,1757 447,1768 368,1772 368,1774 265,1774 263,1772 263,1772 261,1772 261,1772 261,1772 258,1772 258,1772 258,1772 247,1761 210,1772 210,1772 208,1772 208,1772 208,1772 206,1772 206,1772 203,1772 203,1772 203,1772 203,1772 182,1761 57,1774 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_042_1/50,1673,1566,101/full/0/default" corresp="HeadingLine">
           <path xml:id="Varios_042_1_BT223_2_LT84_3_1" points="57,1750 1616,1739 "/>
-          <line>que hizo esta joven antes de tomar matrimonio, y hallando
-                                    inconveniente</line>
+          <line>que hizo esta joven antes de tomar matrimonio, y hallando inconveniente</line>
         </zone>
         <zone xml:id="Varios_042_1_BT223_2_LT84_4" type="HeadingLine" subtype="none" points="166,1822 162,1778 302,1774 313,1763 313,1761 313,1761 315,1761 315,1761 315,1761 318,1761 318,1761 318,1761 320,1761 320,1761 322,1761 322,1761 322,1761 350,1774 397,1761 399,1761 399,1761 401,1761 401,1761 495,1772 504,1761 506,1761 506,1759 506,1759 508,1759 508,1759 508,1759 511,1759 511,1759 513,1759 513,1759 513,1759 515,1759 515,1759 517,1759 532,1768 541,1761 541,1759 541,1759 543,1759 543,1759 543,1759 546,1759 546,1759 548,1759 668,1759 668,1759 668,1759 671,1759 671,1759 671,1759 673,1759 693,1774 831,1774 943,1759 943,1759 945,1759 945,1759 1015,1770 1068,1757 1070,1757 1070,1757 1072,1757 1072,1757 1072,1757 1074,1757 1074,1757 1074,1757 1076,1757 1076,1757 1076,1759 1090,1772 1136,1772 1171,1754 1171,1754 1171,1754 1173,1754 1173,1754 1175,1754 1175,1754 1175,1754 1177,1754 1177,1754 1177,1754 1206,1770 1289,1770 1302,1757 1302,1757 1305,1757 1305,1757 1305,1757 1307,1757 1307,1757 1307,1757 1309,1757 1309,1757 1309,1757 1311,1757 1311,1757 1337,1770 1509,1770 1513,1814 1511,1835 1103,1844 1101,1844 1101,1844 1101,1844 1068,1838 1046,1833 1026,1838 991,1844 991,1844 991,1844 989,1844 989,1844 925,1838 881,1833 866,1838 840,1846 837,1846 837,1846 837,1846 835,1846 835,1846 776,1838 758,1835 756,1838 747,1844 747,1846 747,1846 745,1846 745,1846 745,1846 743,1846 743,1846 743,1849 666,1849 664,1846 664,1846 662,1846 662,1846 662,1846 660,1846 660,1846 660,1844 651,1838 649,1835 557,1835 543,1838 504,1849 502,1849 502,1849 500,1849 500,1849 500,1849 497,1849 497,1849 471,1838 469,1838 388,1838 386,1838 377,1846 377,1849 377,1849 375,1849 375,1849 375,1849 372,1849 372,1849 372,1849 370,1849 164,1838 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_042_1/162,1754,1351,95/full/0/default" corresp="HeadingLine">
           <path xml:id="Varios_042_1_BT223_2_LT84_4_1" points="166,1822 1513,1814 "/>
-          <line>en aceptar hombre de oficio, y no encontrando marido que le
-                                    gustase</line>
+          <line>en aceptar hombre de oficio, y no encontrando marido que le gustase</line>
         </zone>
         <zone xml:id="Varios_042_1_BT223_2_LT84_5" type="HeadingLine" subtype="none" points="541,1897 535,1853 574,1838 574,1838 576,1838 576,1838 579,1838 820,1849 842,1835 844,1835 844,1835 846,1835 846,1835 846,1835 848,1835 1140,1849 1144,1892 1140,1919 945,1912 923,1923 919,1925 919,1925 919,1925 916,1925 916,1925 914,1925 914,1925 914,1925 912,1925 905,1923 866,1912 717,1927 706,1927 706,1927 704,1927 704,1927 701,1927 699,1927 655,1914 627,1927 627,1927 627,1927 625,1927 625,1927 622,1927 622,1927 620,1927 620,1927 620,1927 618,1927 598,1914 543,1930 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_042_1/535,1835,609,95/full/0/default" corresp="HeadingLine">
           <path xml:id="Varios_042_1_BT223_2_LT84_5_1" points="541,1897 1144,1892 "/>
@@ -1368,8 +1362,8 @@
       <zone xml:id="Varios_042_4_BT228_4" n="4" type="MarginTextZone" subtype="colophon" points="271,2354 211,2298 218,2292 245,2269 329,2260 1004,2238 1647,2234 1691,2302 1603,2346 1094,2363 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_042_4/211,2234,1480,129/full/0/default" corresp="MarginTextZone:colophon">
         <zone xml:id="Varios_042_4_BT228_4_LT83_1" type="DefaultLine" subtype="none" points="258,2313 254,2225 335,2236 350,2225 350,2223 353,2223 355,2223 445,2221 447,2221 449,2221 458,2225 500,2247 616,2247 640,2225 642,2223 644,2223 647,2223 649,2223 651,2223 653,2223 655,2225 664,2232 673,2225 677,2221 679,2221 682,2221 684,2221 734,2223 736,2223 739,2223 743,2228 767,2243 1059,2243 1114,2228 1182,2212 1318,2210 1320,2210 1322,2210 1324,2210 1348,2230 1359,2236 1410,2234 1414,2230 1436,2210 1436,2208 1438,2208 1441,2208 1548,2206 1550,2206 1552,2206 1592,2225 1658,2208 1660,2208 1662,2208 1664,2208 1666,2208 1666,2210 1691,2232 1691,2293 1695,2313 1666,2331 1664,2331 1662,2331 1660,2331 1535,2324 1524,2333 1524,2335 1522,2335 1520,2335 1517,2335 1370,2320 1186,2322 1144,2339 1142,2339 1140,2339 1015,2326 1000,2339 1000,2342 997,2342 995,2342 995,2344 947,2344 945,2342 943,2342 894,2326 831,2344 829,2344 826,2344 736,2331 712,2346 710,2346 708,2346 706,2346 600,2337 563,2348 561,2348 559,2348 421,2333 405,2346 405,2348 403,2348 401,2348 335,2350 333,2350 331,2350 329,2350 307,2335 258,2335 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_042_4/254,2206,1441,144/full/0/default" corresp="DefaultLine">
           <path xml:id="Varios_042_4_BT228_4_LT83_1_1" points="258,2313 1691,2293 "/>
-          <line>Barcelona: Imps. De Cristina Segura Vda. de A. Llorens. Palma de
-                                    Santa Catalina, núm. 6</line>
+          <line>Barcelona: Imps. De Cristina Segura Vda. de A. Llorens. Palma de Santa Catalina,
+            núm. 6</line>
         </zone>
       </zone>
       <zone xml:id="Varios_042_4_BT223_5" n="5" type="CustomZone" subtype="title" points="532,0 532,6 131,6 131,2 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_042_4/131,0,401,6/full/0/default" corresp="CustomZone:title"/>
@@ -1379,329 +1373,323 @@
     <body>
       <div>
         <div>
-          <pb n="1" source="Varios_042_1.jpg" facs="fedora_Varios_042_1/full/full/0/default.jpg"/>
+          <pb n="1" source="Varios_042_1.jpg" facs="varios/Varios_042_1.jpg/"/>
           <fw type="numeroPliego">Núm. 14</fw>
-          <head type="primer_titulo"><lb/>La Dama Casimira</head>
-          <head type="subtitulo_parte"><lb/>REFLEXIONES<lb/>que hizo esta joven
-                                    antes de tomar matrimonio, y hallando inconveniente<lb/>en
-                                    aceptar hombre de oficio, y no encontrando marido que le
-                                    gustase<lb/>prefirió ser monja que casarse.</head>
-          <lg>
-            <l>Para monja no nací,</l>
+          
+          <head type="primer_titulo" rend="negrita"><lb/>La Dama Casimira</head>
+          
+          <head type="subtitulo"><lb/>REFLEXIONES<lb/>que hizo esta joven antes de tomar
+            matrimonio, y hallando inconveniente<lb/>en aceptar hombre de oficio, y no encontrando
+            marido que le gustase<lb/>prefirió ser monja que casarse.</head>
+          
+            <l rend="indent">Para monja no nací,</l>
             <l>que nací para casada,</l>
             <l>recorreré los oficios</l>
             <l>por ver si alguno me agrada.</l>
-            <l>Organista no le quiero</l>
+            <l rend="indent">Organista no le quiero</l>
             <l>porque puede, si se engolfa</l>
             <l>pensando que soy teclado</l>
             <l>sacudirme alguna solfa.</l>
-          </lg>
-          <lg>
-            <l>Al sacristán le aborrezco</l>
+            <l rend="indent">Al sacristán le aborrezco</l>
             <l>porque siempre anda deprisa,</l>
             <l>y enfadado puede darme</l>
             <l>con lo que tocan á misa.</l>
-            <l>Escribano no me agrada</l>
+            <l rend="indent">Escribano no me agrada</l>
             <l>porque miente muy barato,</l>
             <l>y porque el mundo no diga</l>
             <l>que me acuesto con un gato.</l>
-          </lg>
-          <pb n="2" source="Varios_042_2.jpg" facs="fedora_Varios_042_2/full/full/0/default.jpg"/>
-          <lg>
-            <l>Abogado no me cuadra,</l>
+          
+          <pb n="2" source="Varios_042_2.jpg" facs="varios/Varios_042_2.jpg/"/>
+          
+            <l rend="indent">Abogado no me cuadra,</l>
             <l>porque aun tiene letrillas</l>
             <l>enfadado puede echarme</l>
             <l>la ley por las costillas.</l>
-            <l>El médico no me gusta,</l>
+            <l rend="indent">El médico no me gusta,</l>
             <l>porque aunque gane pesetas</l>
             <l>cuando muere, deja sólo</l>
             <l>el bastón y las recetas.</l>
-            <l>Cirujano no me peta,</l>
+            <l rend="indent">Cirujano no me peta,</l>
             <l>porque puede ¡ay de mi!</l>
             <l>aunque yo herida no esté</l>
             <l>aplicarme el bisturí.</l>
-            <l>El boticario no me entra,</l>
+            <l rend="indent">El boticario no me entra,</l>
             <l>porque enfadado ¡quién sabe!</l>
             <l>si me daría veneno,</l>
             <l>en vez de darme jarabe!</l>
-            <l>Arquitecto le abomino,</l>
+            <l rend="indent">Arquitecto le abomino,</l>
             <l>porque me puede trazar</l>
             <l>upn á las costillas</l>
             <l>y echarme á la eternidad.</l>
-            <l>Un escultor me pretende</l>
+            <l rend="indent">Un escultor me pretende</l>
             <l>y la hecho con mil venablos,</l>
             <l>porque así como hace santos,</l>
             <l>puede también hacer diablos.</l>
-            <l>Un pintor á mi me ofrece</l>
+            <l rend="indent">Un pintor á mi me ofrece</l>
             <l>el retratarme de balde;</l>
             <l>porque aunque me dé dinero</l>
             <l>no me echará el albayalde.</l>
-            <l>Un dorador que me adora,</l>
+            <l rend="indent">Un dorador que me adora,</l>
             <l>se empeña en cubrirme de oro,</l>
             <l>más no quiero que me dore</l>
             <l>persona que yo no adoro.</l>
-            <l>Aunque sea millonario</l>
+            <l rend="indent">Aunque sea millonario</l>
             <l>no le quiero mercader,</l>
             <l>porque asi como me compra</l>
             <l>también me puede vender.</l>
-            <l>Del chocolatero huyo,</l>
+            <l rend="indent">Del chocolatero huyo,</l>
             <l>porque á la menor contienda</l>
             <l>puede ponerme en la piedra</l>
             <l>y convertirme en molienda.</l>
-            <l>Un confitero con dulces</l>
+            <l rend="indent">Un confitero con dulces</l>
             <l>también me quiere engañar,</l>
             <l>más no quiero su dulzura</l>
             <l>que también suele amargar.</l>
-            <l>El labrador no me tira,</l>
+            <l rend="indent">El labrador no me tira,</l>
             <l>que para un poco de grano,</l>
             <l>trabaja mucho en invierno</l>
             <l>y mucho más en verano.</l>
-            <l>Hortelano y labrador</l>
+            <l rend="indent">Hortelano y labrador</l>
             <l>la mano se suelen dar,</l>
-          </lg>
-          <lg>
             <l>por tanto las calabazas</l>
             <l>pueden al punto sembrar.</l>
-            <l>me declara sus amores,</l>
+            <l rend="indent">me declara sus amores,</l>
             <l>Un jardinero con rosas</l>
             <l>con desprecio lo despido</l>
             <l>que yo no como con flores.</l>
-            <l>pretendo tomar estado,</l>
+            <l rend="indent">pretendo tomar estado,</l>
             <l>Con carpintero tampoco</l>
             <l>porque aunque pega con regla</l>
             <l>da el golpe desarreglado.</l>
-            <l>por echarme la tijera;</l>
+            <l rend="indent">por echarme la tijera;</l>
             <l>Un sastre toma medidas</l>
             <l>pero no siendo en mi paño</l>
             <l>que corte por donde quiera.</l>
-            <l>porque éste, aunque yo no quiera,</l>
+            <l rend="indent">porque éste, aunque yo no quiera,</l>
             <l>El tejedor le aborrezco,</l>
             <l>quede urdirme alguna trama</l>
             <l>y echarme la lanzadera.</l>
-            <l>por tomar conmigo trato,</l>
+            <l rend="indent">por tomar conmigo trato,</l>
             <l>Un zapatero se mata</l>
             <l>pero no se calzará</l>
             <l>con horma de mi zapato.</l>
-            <l>Del molinero me fugo,</l>
+            <l rend="indent">Del molinero me fugo,</l>
             <l>porque si se atremolina</l>
             <l>puede encajarme en la piedra</l>
             <l>y convertirme en harina.</l>
-            <l>Al calderero le tiemblo</l>
+            <l rend="indent">Al calderero le tiemblo</l>
             <l>porque algún día quizás,</l>
             <l>puede echarme alguna chapa</l>
             <l>en la rotura de auras.</l>
-            <l>Herrero no me enamora,</l>
+            <l rend="indent">Herrero no me enamora,</l>
             <l>porque sin haber ataque,</l>
             <l>no se advierte más que chispas</l>
             <l>al compás del triqui traque.</l>
-            <l>Con mesonero casarme?</l>
+            <l rend="indent">Con mesonero casarme?</l>
             <l>no quiero, porque discurro</l>
             <l>que estoy muy espuesta á ser</l>
             <l>pesebre de todo burro.</l>
-            <l>Torta me da un panadero</l>
+            <l rend="indent">Torta me da un panadero</l>
             <l>y otra vez al horno vá;</l>
             <l>porque temo que algún día</l>
             <l>me cueste la torta un pan.</l>
-            <l>Un cerero me desea</l>
+            <l rend="indent">Un cerero me desea</l>
             <l>cuando me ve tan bonita:</l>
             <l>más no creo que por él</l>
             <l>mi corazón se derrita.</l>
-            <l>Un tintorero á mi vista</l>
+            <l rend="indent">Un tintorero á mi vista</l>
             <l>se muestra bastante franco,</l>
             <l>pero no apetezco oficio</l>
             <l>que vuelve negro lo blanco.</l>
-          </lg>
-          <pb n="3" source="Varios_042_3.jpg" facs="fedora_Varios_042_3/full/full/0/default.jpg"/>
-          <lg>
-            <l>Albañil que anda por alto</l>
+          
+          <pb n="3" source="Varios_042_3.jpg" facs="varios/Varios_042_3.jpg/"/>
+          
+            <l rend="indent">Albañil que anda por alto</l>
             <l>no quiero aunque sea majo,</l>
             <l>porque se puede caer</l>
             <l>y cojerme á mi debajo.</l>
-            <l>Al arrasca chimeneas</l>
+            <l rend="indent">Al arrasca chimeneas</l>
             <l>abomino por francés</l>
             <l>y porque puede arrascarme</l>
             <l>sin que esté puerca en el ves.</l>
-            <l>Del guarnicionero huyo</l>
+            <l rend="indent">Del guarnicionero huyo</l>
             <l>pues no quiero que me vea</l>
             <l>porque temo que me adorne</l>
             <l>las espaldas con correa.</l>
-            <l>Un basterillo me pide</l>
+            <l rend="indent">Un basterillo me pide</l>
             <l>cuando fabrica las bastas,</l>
             <l>yo le digo no te quiero</l>
             <l>porque eres bastero y basta.</l>
-            <l>Casarme con albardero?</l>
+            <l rend="indent">Casarme con albardero?</l>
             <l>no lo tienen que pensar,</l>
             <l>porque hará burla de mi</l>
             <l>si yo me dejo albardar.</l>
-            <l>Casarme con un jalmero</l>
+            <l rend="indent">Casarme con un jalmero</l>
             <l>sería una gran burrada,</l>
             <l>porque podría ponerme</l>
             <l>cincha, atarre y cabezada.</l>
-            <l>Me regala un peluquero,</l>
+            <l rend="indent">Me regala un peluquero,</l>
             <l>más no me engaña con cucas;</l>
             <l>porque después sin ser calva</l>
             <l>me pondrá algunas pelucas.</l>
-            <l>Un platero bien vestido,</l>
+            <l rend="indent">Un platero bien vestido,</l>
             <l>viene por casa y lo luce,</l>
             <l>pero veo que no es oro</l>
             <l>todo lo que en el reluce.</l>
-            <l>Un vidriero solicita</l>
+            <l rend="indent">Un vidriero solicita</l>
             <l>con empeño ser mi amante,</l>
             <l>vidrio soy, pero no piense</l>
             <l>emplear en mi su diamante.</l>
-            <l>Un pastelero pretende</l>
+            <l rend="indent">Un pastelero pretende</l>
             <l>que yo me case con él,</l>
             <l>más si yo gusto le diera</l>
             <l>si que haría buen pastel.</l>
-            <l>Un artillero me pide;</l>
+            <l rend="indent">Un artillero me pide;</l>
             <l>pero sepa ese sujeto</l>
             <l>que no admiten sus cañones</l>
             <l>el campo de mi secreto.</l>
-            <l>Un cantero cuando pica,</l>
+            <l rend="indent">Un cantero cuando pica,</l>
             <l>me pica por ver si pico;</l>
             <l>soy pícara, y aunque pique</l>
             <l>no me coje por el píco.</l>
-            <l>Con barbero no me caso</l>
+            <l rend="indent">Con barbero no me caso</l>
             <l>porque puede si se inquieta</l>
-          </lg>
-          <lg>
             <l>afeitarme sin jabón</l>
             <l>y sangrarme sin lanceta.</l>
-            <l>Un cordelero quería</l>
+            <l rend="indent">Un cordelero quería</l>
             <l>que me casara con él,</l>
             <l>y si yo le diera gusto</l>
             <l>bien merecía un cordel.</l>
-            <l>Me regala un peinetero</l>
+            <l rend="indent">Me regala un peinetero</l>
             <l>cuando me encuentra muy niño;</l>
             <l>más no logrará ponerme</l>
             <l>rodete á lo lechuguino.</l>
-            <l>Un cestero me acomete</l>
+            <l rend="indent">Un cestero me acomete</l>
             <l>y aunque lo hace por apuesta,</l>
             <l>no ha de lograr ese cesto</l>
             <l>el que yo lleve la cesta.</l>
-            <l>Librero no me entra bien</l>
+            <l rend="indent">Librero no me entra bien</l>
             <l>porque está enseñado á hojear,</l>
             <l>y á fuerza de pasar hojas</l>
             <l>me puede descuadernar.</l>
-            <l>Fuera, fuera el alfarero,</l>
+            <l rend="indent">Fuera, fuera el alfarero,</l>
             <l>que solo de barro goza,</l>
             <l>y por mucho que trabaje</l>
             <l>nunca encuentra más que loza.</l>
-            <l>Me pretende un relojero,</l>
+            <l rend="indent">Me pretende un relojero,</l>
             <l>y yo le respondo cuerda:</l>
             <l>más quiero estarme parada</l>
             <l>que no ambular por su cuerda.</l>
-            <l>Un tabernero vinoso</l>
+            <l rend="indent">Un tabernero vinoso</l>
             <l>á pedirme un día vino,</l>
             <l>dije que más no viniera,</l>
             <l>aunque envinado con vino.</l>
-            <l>A un cocinero de fama</l>
+            <l rend="indent">A un cocinero de fama</l>
             <l>le despedí cuanto antes,</l>
             <l>que aunque no tengo de sobra</l>
             <l>no apetezco los sobrantes.</l>
-            <l>Un sombrerero se arde</l>
+            <l rend="indent">Un sombrerero se arde</l>
             <l>por mi que soy como Enero;</l>
             <l>por lo que no me hace falta</l>
             <l>la sombra de su sombrero.</l>
-            <l>Un lavandero me lava</l>
+            <l rend="indent">Un lavandero me lava</l>
             <l>y me alaba, pero al cabo</l>
             <l>nada importa que me alabe</l>
             <l>si su alahanza no alabo.</l>
-            <l>Me toca un panderetero</l>
+            <l rend="indent">Me toca un panderetero</l>
             <l>de casorio por lo claro,</l>
             <l>pero por más que me toque</l>
             <l>no me mete por el aro.</l>
-            <l>A un escobero desprecio,</l>
+            <l rend="indent">A un escobero desprecio,</l>
             <l>porque si soy su mujer,</l>
             <l>me traerá por la costumbre</l>
             <l>como escoba de barrer.</l>
-          </lg>
-          <pb n="4" source="Varios_042_4.jpg" facs="fedora_Varios_042_4/full/full/0/default.jpg"/>
-          <lg>
-            <l>Papelero no lo escojo,</l>
+          
+          <pb n="4" source="Varios_042_4.jpg" facs="varios/Varios_042_4.jpg/"/>
+          
+            <l rend="indent">Papelero no lo escojo,</l>
             <l>porque si le salgo infiel</l>
             <l>me pondrá con las mazadas</l>
             <l>el cuerpo como un papel.</l>
-            <l>Con cohetero no me caso,</l>
+            <l rend="indent">Con cohetero no me caso,</l>
             <l>porque es fácil que se inquiete;</l>
             <l>y el día menos pensado</l>
             <l>me pongn al culo un cohete.</l>
-            <l>Un boterillo soplando,</l>
+            <l rend="indent">Un boterillo soplando,</l>
             <l>me sopla cierto consejo,</l>
             <l>pero por más que me sople</l>
             <l>no soplará mi pellejo.</l>
-            <l>Un pisonero me pisa</l>
+            <l rend="indent">Un pisonero me pisa</l>
             <l>siempre que voy al pisón</l>
             <l>pero por más que me pise</l>
             <l>no pisa mi habitación.</l>
-            <l>Me pide un alpargatero,</l>
+            <l rend="indent">Me pide un alpargatero,</l>
             <l>pero con él no me calzo,</l>
             <l>porque quien calza alpargatas</l>
             <l>claro está que anda descalzo.</l>
-            <l>Un ingeniero se ingenia</l>
+            <l rend="indent">Un ingeniero se ingenia</l>
             <l>por disfrutar de mi ingenio,</l>
             <l>pero por más que se ingenie</l>
             <l>nunca será de mi ingenio.</l>
-            <l>Sillero no me acomoda,</l>
+            <l rend="indent">Sillero no me acomoda,</l>
             <l>porque sogún lo que siento</l>
             <l>el día que más trabaja</l>
             <l>más tiempo se halla de asiento.</l>
-            <l>Un cordonero me sigue</l>
+            <l rend="indent">Un cordonero me sigue</l>
             <l>por todas las procesiones,</l>
             <l>más no siendo militara</l>
             <l>¿para que quiero cordones?</l>
-            <l>Un impresor me imprimió</l>
+            <l rend="indent">Un impresor me imprimió</l>
             <l>letras en mi corazón,</l>
             <l>¿qué importa que las imprima</l>
             <l>si no me hacen impresión?</l>
-            <l>A mi casa un cardador,</l>
+            <l rend="indent">A mi casa un cardador,</l>
             <l>se llegó cierta mañana,</l>
-          </lg>
-          <lg>
             <l>le dije: por bien que cardes</l>
             <l>no me cardarás la lana.</l>
-            <l>Un herrador pretendió</l>
+            <l rend="indent">Un herrador pretendió</l>
             <l>herrarme con gran ternura,</l>
             <l>pero por dar en el clavo</l>
             <l>dió en medio la herradura.</l>
-            <l>Un esquilador de fama</l>
+            <l rend="indent">Un esquilador de fama</l>
             <l>á mi casa un día fué</l>
             <l>con ánimo de esquilarme,</l>
             <l>y le dije: esquílate.</l>
-            <l>Un bordador me hace señas,</l>
+            <l rend="indent">Un bordador me hace señas,</l>
             <l>y le respondo con risa:</l>
             <l>no esperes bordar jamás</l>
             <l>el forro de mi camisa.</l>
-            <l>Zurrador me huele mal;</l>
+            <l rend="indent">Zurrador me huele mal;</l>
             <l>porque si á la pata llana</l>
             <l>no camino, será fácil</l>
             <l>que me zurre la badana.</l>
-            <l>Gaitero es oficio alegre,</l>
+            <l rend="indent">Gaitero es oficio alegre,</l>
             <l>más no lo quiero tampoco,</l>
             <l>que mientras él anda en fiestas</l>
             <l>la mujer se sopla el moco.</l>
-            <l>Otro número de oficios</l>
+            <l rend="indent">Otro número de oficios</l>
             <l>me dejo aún en el tintero,</l>
             <l>por no borrar más papel</l>
             <l>con personas que no quiero.</l>
-            <l>¿Pues con quién podré casarme</l>
+            <l rend="indent">¿Pues con quién podré casarme</l>
             <l>que á gusto pueda vivir?</l>
             <l>ya lo tengo bien pensado</l>
             <l>y lo voy á referir.</l>
-            <l>Que no nací para monja</l>
+            <l rend="indent">Que no nací para monja</l>
             <l>al principio confesé;</l>
             <l>pero ya desengañada</l>
             <l>monja á la fuerza he de ser.</l>
-            <l>En un convento tranquila</l>
+            <l rend="indent">En un convento tranquila</l>
             <l>podré mi vida pasar,</l>
             <l>orando continuamente</l>
             <l>y luego de Dios gozar.</l>
-          </lg>
+          
           <trailer>FIN</trailer>
         </div>
+        
         <div type="colofon">
-          <p><lb/>Barcelona: Imps. De Cristina Segura Vda. de A. Llorens. Palma
-                                    de Santa Catalina, núm. 6</p>
+          <p><lb/>Barcelona: Imps. De Cristina Segura Vda. de A. Llorens. Palma de Santa Catalina,
+            núm. 6</p>
         </div>
       </div>
     </body>

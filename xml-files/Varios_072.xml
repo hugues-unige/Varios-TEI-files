@@ -1,18 +1,17 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../Schema/oddPliego_varios.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:alto="http://www.loc.gov/standards/alto/ns-v4#" xml:id="Varios_072">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Varios_072">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>MARCOS DE CABRA.</title>
+        <title>Marcos de Cabra.</title>
         <respStmt>
           <name/>
           <resp>Codificación TEI</resp>
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <authority role="rightsHolder">Bibliothèque Universitaire de
-                              Genève</authority>
+        <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
         <availability status="restricted">
           <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
         </availability>
@@ -20,16 +19,21 @@
       <sourceDesc>
         <biblFull>
           <titleStmt>
-            <title type="titulo_completo">MARCOS DE CABRA</title>
-            <title type="titulo_breve"/>
+            <title type="titulo_completo">MARCOS DE CABRA. NUEVA RELACION Y DIVERTIDO ROMANCE, en
+              que se refiere el trágico casamiento de este pobre hombre, vecino de Guadarrama, que
+              despues de unas alegres bodas, esperimentó á pocos meses tanta multitud de partos en
+              su casa, que por asistir á ellos no pudo comer ni descansar en todo el dia. Dase
+              cuenta de su grande afliccion, y otras muchas circunstancias que verá el curioso
+              tector.</title>
+            <title type="titulo_breve">Marcos de Cabra.</title>
           </titleStmt>
           <editionStmt>
             <p/>
           </editionStmt>
           <publicationStmt>
-            <publisher>[s.n]</publisher>
+            <publisher>[s.n.]</publisher>
             <pubPlace ref="https://www.geonames.org/3117735/madrid.html">Madrid</pubPlace>
-            <date cert="high">1849</date>
+            <date cert="high" when="1849-01-01">1849</date>
           </publicationStmt>
         </biblFull>
         <msDesc>
@@ -37,7 +41,8 @@
             <country>Suisse</country>
             <settlement>Genève</settlement>
             <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"/>
-                                    </repository>
+            </repository>
+            <collection>Colección Varios</collection>
             <idno type="cote"/>
             <idno type="DOI">10.5281/zenodo.6565857</idno>
             <altIdentifier>
@@ -66,7 +71,7 @@
               </layoutDesc>
             </objectDesc>
             <decoDesc>
-              <summary n="2">Dos grabados (p.1) </summary>
+              <summary n="2">Dos grabados (p.1)</summary>
               <decoNote type="lista_grabados">
                 <list>
                   <item corresp="grabado_v_072_1.xml">grabado_v_072_1</item>
@@ -88,18 +93,17 @@
     </fileDesc>
     <encodingDesc>
       <projectDesc>
-        <p>Este archivo fue creado en el marco del proyecto Desenrollando el
-                              Cordel/Démêler le cordel/Untangling the cordel, dirigido por la
-                              profesora Constance Carta de la Universidad de Ginebra, con el apoyo
-                              de la Fundación filantrópica Famille Sandoz-Monique de Meuron.</p>
+        <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+          cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la Universidad
+          de Ginebra, con el apoyo de la Fundación filantrópica Famille Sandoz-Monique de
+          Meuron.</p>
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR non corregido</p>
+          <p>OCR no corregido</p>
         </correction>
         <normalization>
-          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto
-                                    original.</p>
+          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
         </normalization>
         <punctuation>
           <p>Se conserva la puntuación original.</p>
@@ -120,10 +124,14 @@
       </textClass>
     </profileDesc>
     <revisionDesc>
-      <change when="2022-06-16" who="#PJ">Création du fichier TEI P5 et encodage du
-                        corps du texte</change>
+      <change when="2022-06-16" who="#PJ">Création du fichier TEI P5 et encodage du corps du
+        texte</change>
+      <change when="2024-01-09" who="#EL">Add the IIIF links</change>
     </revisionDesc>
   </teiHeader>
+  <facsimile>
+    <graphic url="varios/Varios_072_1.jpg/full/200,/0/default.jpg"/>
+  </facsimile>
   <sourceDoc xml:id="automaticTranscription">
     <surface xml:id="Varios_072_1" type="page" cert="silver">
       <graphic url="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_072_1/full/full/0/default.jpg"/>
@@ -146,28 +154,23 @@
         </zone>
         <zone xml:id="Varios_072_1_BT223_3_LT83_2" type="HeadingLine" subtype="none" points="122,1183 120,1130 188,1130 188,1128 199,1119 199,1117 199,1117 201,1117 201,1117 201,1117 203,1117 203,1117 203,1117 206,1117 206,1117 208,1117 208,1117 236,1128 239,1128 239,1128 263,1110 265,1110 265,1110 265,1110 267,1110 267,1110 267,1110 269,1110 344,1115 344,1115 344,1115 346,1115 346,1115 348,1115 348,1115 348,1115 359,1126 364,1128 375,1126 464,1108 464,1108 467,1108 804,1117 822,1106 824,1106 824,1106 824,1106 826,1106 826,1106 826,1106 829,1106 829,1106 829,1106 831,1106 870,1119 883,1126 1035,1126 1050,1117 1070,1108 1070,1108 1072,1108 1072,1108 1072,1108 1074,1108 1074,1108 1076,1108 1109,1117 1129,1121 1138,1117 1151,1106 1153,1106 1153,1106 1153,1106 1155,1106 1155,1106 1158,1106 1158,1106 1158,1106 1160,1106 1160,1106 1182,1115 1191,1119 1517,1112 1524,1174 1522,1191 122,1196 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_072_1/120,1106,1404,90/full/0/default" corresp="HeadingLine">
           <path xml:id="Varios_072_1_BT223_3_LT83_2_1" points="122,1183 1524,1174 "/>
-          <line>en que se refiere el trágico casamiento de este pobre hombre,
-                                    vecino</line>
+          <line>en que se refiere el trágico casamiento de este pobre hombre, vecino</line>
         </zone>
         <zone xml:id="Varios_072_1_BT223_3_LT83_3" type="HeadingLine" subtype="none" points="122,1231 118,1185 1520,1176 1526,1222 1524,1233 122,1242 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_072_1/118,1176,1408,66/full/0/default" corresp="HeadingLine">
           <path xml:id="Varios_072_1_BT223_3_LT83_3_1" points="122,1231 1526,1222 "/>
-          <line>de Guadarrama, que despues de unas alegres bodas, esperimentó
-                                    á</line>
+          <line>de Guadarrama, que despues de unas alegres bodas, esperimentó á</line>
         </zone>
         <zone xml:id="Varios_072_1_BT223_3_LT83_4" type="HeadingLine" subtype="none" points="122,1277 118,1233 1517,1224 1524,1272 1522,1286 122,1294 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_072_1/118,1224,1406,70/full/0/default" corresp="HeadingLine">
           <path xml:id="Varios_072_1_BT223_3_LT83_4_1" points="122,1277 1524,1272 "/>
-          <line>pocos meses tanta multitud de partos en su casa, que por asistir
-                                    á</line>
+          <line>pocos meses tanta multitud de partos en su casa, que por asistir á</line>
         </zone>
         <zone xml:id="Varios_072_1_BT223_3_LT83_5" type="HeadingLine" subtype="none" points="122,1325 116,1290 146,1277 146,1277 149,1277 149,1277 151,1277 1522,1279 1526,1321 1530,1329 1509,1342 1506,1342 1506,1342 1504,1342 1504,1342 1504,1342 1502,1342 1243,1334 1210,1345 1210,1345 1208,1345 1208,1345 1206,1345 1206,1345 1206,1345 1204,1345 1204,1345 1177,1334 712,1347 710,1347 710,1347 611,1336 605,1336 605,1336 581,1347 581,1347 581,1347 579,1347 579,1347 576,1347 576,1347 489,1336 475,1336 471,1336 443,1347 443,1347 440,1347 440,1347 438,1347 438,1347 436,1347 436,1347 410,1338 403,1336 397,1338 364,1347 361,1347 361,1347 359,1347 120,1338 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_072_1/116,1277,1414,70/full/0/default" corresp="HeadingLine">
           <path xml:id="Varios_072_1_BT223_3_LT83_5_1" points="122,1325 1526,1321 "/>
-          <line>ellos no pudo comer ni descansar en todo el dia. Dase cuenta de
-                                    su</line>
+          <line>ellos no pudo comer ni descansar en todo el dia. Dase cuenta de su</line>
         </zone>
         <zone xml:id="Varios_072_1_BT223_3_LT83_6" type="HeadingLine" subtype="none" points="168,1378 162,1340 221,1325 223,1325 223,1325 225,1325 440,1336 480,1336 526,1334 647,1325 649,1325 649,1325 695,1332 719,1334 723,1329 730,1325 730,1323 730,1323 732,1323 732,1323 732,1323 734,1323 734,1323 734,1323 736,1323 736,1323 783,1329 813,1334 820,1329 826,1323 826,1321 826,1321 829,1321 829,1321 829,1321 831,1321 831,1321 833,1321 833,1321 892,1327 927,1332 936,1327 943,1321 943,1321 945,1321 945,1321 945,1321 947,1321 947,1321 949,1321 1081,1325 1245,1329 1261,1321 1263,1318 1265,1318 1265,1318 1265,1318 1267,1318 1267,1318 1269,1318 1269,1318 1269,1318 1287,1321 1333,1329 1384,1318 1392,1318 1392,1318 1392,1318 1394,1318 1394,1318 1397,1318 1401,1318 1436,1329 1469,1318 1478,1369 1476,1386 1430,1386 1427,1388 1381,1415 1379,1415 1379,1415 1377,1415 1377,1415 1377,1417 1212,1417 1210,1415 1210,1415 1208,1415 1208,1415 1208,1415 1155,1388 1153,1386 1149,1388 1098,1417 1098,1417 1098,1417 1096,1417 1096,1417 1096,1419 984,1419 982,1417 982,1417 980,1417 980,1417 980,1417 978,1417 978,1417 978,1415 951,1393 940,1399 938,1399 938,1399 938,1399 936,1399 936,1399 934,1399 934,1399 842,1388 824,1388 677,1388 677,1391 629,1413 629,1413 629,1413 627,1413 627,1413 625,1413 625,1413 625,1413 579,1404 548,1419 548,1419 548,1419 546,1419 546,1419 546,1419 543,1419 543,1419 486,1410 434,1421 434,1421 434,1421 432,1421 432,1421 432,1421 429,1421 429,1421 427,1421 427,1421 405,1404 372,1419 372,1419 370,1419 370,1419 370,1419 368,1419 368,1419 366,1419 366,1419 366,1419 364,1419 364,1419 364,1417 346,1402 287,1410 287,1410 285,1410 285,1410 285,1410 282,1410 282,1410 234,1393 168,1393 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_072_1/162,1318,1316,103/full/0/default" corresp="HeadingLine">
           <path xml:id="Varios_072_1_BT223_3_LT83_6_1" points="168,1378 1478,1369 "/>
-          <line>grande afliccion, y otras muchas circunstancias que verá
-                                    el</line>
+          <line>grande afliccion, y otras muchas circunstancias que verá el</line>
         </zone>
         <zone xml:id="Varios_072_1_BT223_3_LT83_7" type="HeadingLine" subtype="none" points="675,1424 673,1371 962,1380 967,1419 962,1439 842,1439 831,1448 831,1450 831,1450 829,1450 829,1450 829,1450 829,1450 826,1450 826,1450 675,1461 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_072_1/673,1371,294,90/full/0/default" corresp="HeadingLine">
           <path xml:id="Varios_072_1_BT223_3_LT83_7_1" points="675,1424 967,1419 "/>
@@ -1311,8 +1314,7 @@
       <zone xml:id="Varios_072_4_BT228_3" n="3" type="MarginTextZone" subtype="colophon" points="234,2193 870,2187 870,2192 904,2192 904,2187 1149,2182 1665,2179 1664,2260 1313,2258 213,2269 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_072_4/213,2179,1452,90/full/0/default" corresp="MarginTextZone:colophon">
         <zone xml:id="Varios_072_4_BT228_3_LT83_1" type="DefaultLine" subtype="none" points="236,2249 232,2190 423,2179 425,2179 425,2179 425,2179 427,2179 427,2179 427,2179 440,2186 458,2195 480,2186 480,2186 480,2186 482,2186 482,2186 482,2186 484,2186 484,2186 484,2186 489,2186 543,2199 572,2184 592,2175 592,2175 592,2175 594,2175 594,2175 596,2175 596,2175 596,2175 598,2175 625,2184 642,2190 660,2184 671,2179 671,2179 673,2179 673,2179 673,2179 675,2179 675,2179 704,2184 758,2190 785,2182 811,2173 813,2173 813,2173 813,2173 815,2173 815,2173 815,2173 818,2173 842,2182 864,2188 934,2188 949,2179 967,2171 967,2171 967,2171 969,2171 969,2171 971,2171 971,2171 971,2171 973,2171 973,2171 993,2179 1026,2193 1201,2193 1212,2182 1212,2179 1212,2179 1215,2179 1215,2179 1215,2179 1217,2179 1217,2179 1219,2179 1476,2188 1596,2188 1638,2171 1647,2232 1647,2285 1469,2287 1467,2287 1467,2287 1467,2287 1465,2287 1465,2287 1465,2287 1462,2287 1462,2287 1434,2265 1408,2280 1408,2280 1408,2280 1405,2280 1405,2280 1405,2280 1403,2280 1403,2280 1403,2280 1401,2280 1401,2280 1399,2280 1399,2280 1399,2280 1370,2256 1342,2278 1342,2278 1340,2278 1340,2278 1337,2278 1337,2278 1337,2278 1335,2278 1335,2278 1335,2278 1333,2278 1307,2269 1272,2287 1272,2287 1272,2287 1269,2287 1269,2287 1267,2287 1267,2287 1267,2287 1265,2287 1221,2274 1136,2289 1136,2289 1136,2289 1133,2289 1133,2289 1131,2289 1131,2289 1131,2289 1070,2258 1008,2258 978,2282 978,2282 976,2282 976,2282 976,2282 973,2282 973,2282 971,2282 971,2282 971,2282 969,2282 905,2260 881,2282 881,2285 881,2285 879,2285 879,2285 879,2285 877,2285 877,2285 833,2287 831,2287 831,2287 831,2287 829,2287 752,2263 579,2265 565,2278 565,2280 565,2280 563,2280 563,2280 563,2280 561,2280 561,2280 561,2280 559,2280 559,2280 557,2280 557,2280 515,2265 416,2265 348,2269 300,2300 298,2300 298,2300 298,2300 298,2300 296,2300 296,2300 296,2302 236,2302 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_072_4/232,2171,1415,131/full/0/default" corresp="DefaultLine">
           <path xml:id="Varios_072_4_BT228_3_LT83_1_1" points="236,2249 1647,2232 "/>
-          <line>Madríd. 1849.— Impta. de D.J. M. Marés, calle de Relatores
-                                    núm. 17.</line>
+          <line>Madríd. 1849.— Impta. de D.J. M. Marés, calle de Relatores núm. 17.</line>
         </zone>
       </zone>
     </surface>
@@ -1321,315 +1323,308 @@
     <body>
       <div>
         <div>
-          <pb n="1" source="Varios_072_1.jpg" facs="fedora_Varios_072_1/full/full/0/default.jpg"/>
-          <fw type="impresorNum"/>
-          <head type="primer_titulo"><lb/>MARCOS DE CABRA.</head>
-          <head type="subtitulo_parte"><lb/>NUEVA RELACION Y DIVERTIDO ROMANCE,<lb/>en que se refiere
-                                    el trágico casamiento de este pobre hombre, vecino<lb/>de
-                                    Guadarrama, que despues de unas alegres bodas, esperimentó
-                                    á<lb/>pocos meses tanta multitud de partos en su casa, que por
-                                    asistir á<lb/>ellos no pudo comer ni descansar en todo el dia.
-                                    Dase cuenta de su<lb/>grande afliccion, y otras muchas
-                                    circunstancias que verá el<lb/>curioso tector.</head>
-          <lg>
-            <l>En domingo se casó</l>
-            <l>Marcos el de Guadarrama,</l>
-            <l>digo, de carnestolendas</l>
-            <l>de la cuaresma pasada:</l>
-            <l>casó con Juana Chamorro,</l>
-            <l>hija de Pedro Miranda,</l>
-            <l>él es hijo de Juan Crespo</l>
-            <l>y de María la Larga,</l>
-            <l>nieto del tamborilero</l>
-            <l>que nació en Guadalajara.</l>
-            <l>Este tal tiene una tia</l>
-            <l>que es partera en Berlarga;</l>
-            <l>la cual viniendo á la boda,</l>
-            <l>la ofreció á su nuera Juana,</l>
-          </lg>
-          <lg>
-            <l>para empezar á vivir</l>
-            <l>una burra con su albarda,</l>
-            <l>y que no la carguen mucho,</l>
-            <l>que hace juicio está preñada.</l>
-            <l>Su tio el tamborilero</l>
-            <l>una perra y una gata,</l>
-            <l>que tambien están en cinta</l>
-            <l>como la burra de Juana.</l>
-            <l>Su padre le dió una yegua,</l>
-            <l>su suegro le dió una vaca,</l>
-            <l>otro una gallina clueca,</l>
-            <l>la cual estaba ya echada</l>
-            <l>con mas de catorce huevos</l>
-            <l>gordos como unas granadas;</l>
-          </lg>
-          <pb n="2" source="Varios_072_2.jpg" facs="fedora_Varios_072_2/full/full/0/default.jpg"/>
-          <lg>
-            <l>y un entre-hermano de Marcos</l>
-            <l>que es gran pescador de ranas,</l>
-            <l>á Juana la dió tambien</l>
-            <l>una cabra embarazada,</l>
-            <l>con un cencerro al pescuezo;</l>
-            <l>otro le dió una marrana,</l>
-            <l>con que el dia de la boda</l>
-            <l>quedó su casa sentada.</l>
-            <l>Ahora verán la fortuna</l>
-            <l>del buen Marcos y la Juana,</l>
-            <l>y la gran dicha que tuvo</l>
-            <l>con las bodas ya citadas.</l>
-            <l>Casáronse pues, al fin,</l>
-            <l>y hubo gran juego de cañas,</l>
-            <l>bailes de muchas maneras,</l>
-            <l>el canario y la pavana,</l>
-            <l>el villano y el romero,</l>
-            <l>seguidillas Jerezanas</l>
-            <l>y un fandango golpeado</l>
-            <l>que tocó la desposada.</l>
-            <l>Habo muy grandes comidas,</l>
-            <l>y todas diferenciadas :</l>
-            <l>primero pan y limon</l>
-            <l>porque les abra las ganas;</l>
-            <l>el vino todo es de Arenas,</l>
-            <l>de Esquibias y de la Alcarria,</l>
-            <l>y para los desposados</l>
-            <l>tienen vino de Peralta,</l>
-            <l>sopas manchegas, gigote,</l>
-            <l>conejos, liebres gisadas,</l>
-            <l>estofado y picadillo,</l>
-            <l>almondiguillas, chanfalna,</l>
-            <l>carnero, vaca, tocino,</l>
-            <l>alcuzcuz y cabra asada:</l>
-            <l>pavos con su pepitoria</l>
-            <l>y pollas emperdigadas,</l>
-            <l>empanadas de ternera,</l>
-            <l>las gallinas rellenadas,</l>
-            <l>cubiletes y pasteles,</l>
-            <l>arroz, conserva, avellanas,</l>
-            <l>higos, nueces, peras, guindas,</l>
-            <l>melocotones, castañas;</l>
-          </lg>
-          <lg>
-            <l>y el postrer plato salió.</l>
-            <l>de aceitunas sevillanas.</l>
-            <l>Salieron pues de comer,</l>
-            <l>y sus Juegos comenzaban</l>
-            <l>como referido queda,</l>
-            <l>con grandísima algazara;</l>
-            <l>y de alli á muy poco rato</l>
-            <l>conforme bailando andaban</l>
-            <l>dicen algunos que ven</l>
-            <l>mas de cien mil luminarias,</l>
-            <l>que el mundo se arde al redor</l>
-            <l>y que hay muchas fantasmas;</l>
-            <l>en fin, se llegó la noche,</l>
-            <l>y con fiesta celebrada,</l>
-            <l>el padrino y la madrina</l>
-            <l>dicen á Marcos y á Juana</l>
-            <l>que se vayan á acostar</l>
-            <l>y descansar en la cama,</l>
-            <l>diciéndoles que madrugen</l>
-            <l>á las diez de la mañana.</l>
-            <l>Ya se acabaron las bodas,</l>
-            <l>y los llevan á su casa:</l>
-            <l>trageron lo referido</l>
-            <l>que la ofrecieron á Juana:</l>
-            <l>y de alli á tres meses justos</l>
-            <l>fortuna tiene la dama;</l>
-            <l>pero es mayor la de Marcos</l>
-            <l>cincuenta veces doblada,</l>
-            <l>pues se vió por esperiencia</l>
-            <l>que á las seis de la mañana</l>
-            <l>dió en suspirar la señora,</l>
-            <l>advirtiéndole que vaya</l>
-            <l>á llamar á la comadre</l>
-            <l>que ya es la hora llegada</l>
-            <l>y Marcos como un cohete,</l>
-            <l>sin parar pie ni patada</l>
-            <l>trajo la comadre acuestas</l>
-            <l>para que no se enlodára,</l>
-            <l>donde con felicidad</l>
-            <l>parió la señora Juana:</l>
-            <l>corriendo trajo el fajero,</l>
-            <l>corriendo la echó en la cama,</l>
-          </lg>
-          <pb n="3" source="Varios_072_3.jpg" facs="fedora_Varios_072_3/full/full/0/default.jpg"/>
-          <lg>
-            <l>corriendo puso el caldero,</l>
-            <l>corriendo calentó el agua,</l>
-            <l>corriendo sudó al infante,</l>
-            <l>corriendo le remudaba,</l>
-            <l>corriendo trajo la miel,</l>
-            <l>corriendo la sarten saca,</l>
-            <l>corriendo hizo las torrijas,</l>
-            <l>corriendo se las dió á Juana.</l>
-            <l>Cuando pensó descansar</l>
-            <l>comenzó á bramar la vaca:</l>
-            <l>corriendo se va al corral</l>
-            <l>y vió que pariendo estaba,</l>
-            <l>asistióla al fin al parto</l>
-            <l>y la dejó asegurada.</l>
-            <l>A las ocho nada menos,</l>
-            <l>la yegua que relinchaba,</l>
-            <l>fue corriendo como un galgo</l>
-            <l>por ver en lo que paraba,</l>
-            <l>sin tener lugar siquiera</l>
-            <l>de rascarse las espaldas,</l>
-            <l>á donde tuvo tambien</l>
-            <l>que arremangarse las faldas,</l>
-            <l>la cual pariendo un mulo</l>
-            <l>la yegua echada en la cuadra.</l>
-            <l>la asistió tambien al parto</l>
-            <l>y la echó paja y cebada,</l>
-            <l>y por si tenia sed</l>
-            <l>la trajo un cubo de agua.</l>
-            <l>Cuando pensó descansar</l>
-            <l>que quiere volver á Juana</l>
-            <l>oyó en medio del portal</l>
-            <l>la burra que rebuznaba,</l>
-            <l>y metia mas ruido</l>
-            <l>que si un lobo la matára:</l>
-            <l>aqui Marcos comenzó</l>
-            <l>á decir estas palabras:</l>
-            <l>¿qué haya quien quiera casarse</l>
-            <l>para verse de esta traza?</l>
-            <l>á las nueve cuatro partos</l>
-            <l>he tenido yo en mi casa:</l>
-            <l>vive Dios, que esto va malo;</l>
-            <l>pasó aunque de mala gana</l>
-          </lg>
-          <lg>
-            <l>tambien á asistir á la burra</l>
-            <l>con gran prontitud y maña,</l>
-            <l>la cual le parió un pollino</l>
-            <l>que tiene una pata blanca.</l>
-            <l>En fin salió del establo,</l>
-            <l>y berreando la cabra,</l>
-            <l>ya la paciencia de Marcos</l>
-            <l>muy apurada se halla,</l>
-            <l>pues le fue fuerza tambien</l>
-            <l>ahijar el chivo á la cabra,</l>
-            <l>y sacarla los calostres</l>
-            <l>para que almorzára Juana:</l>
-            <l>metióla en el chivatero,</l>
-            <l>y gruñendo la marrana</l>
-            <l>fue corriendo á la pocilga</l>
-            <l>y vió que pariendo estaba</l>
-            <l>catorce ó quince marranos</l>
-            <l>todos en una camada,</l>
-            <l>pero tambien asegura</l>
-            <l>que como diez dias hagan</l>
-            <l>ha de comer la mitad</l>
-            <l>de los marranos que para,</l>
-            <l>y porque no se murieran,</l>
-            <l>parteó tambien la marrana.</l>
-            <l>En fin, cerró la pocilga,</l>
-            <l>y maullando la gata,</l>
-            <l>metia tanto ruido,</l>
-            <l>que parece la mataban;</l>
-            <l>y como sabia Marcos</l>
-            <l>que está la gata preñada,</l>
-            <l>dice: otro parto tenemos</l>
-            <l>con mil demonios, en casa,</l>
-            <l>y por salir de la duda</l>
-            <l>fué al sobrado y vió la gata</l>
-            <l>que en un esporton tenia</l>
-            <l>de gatos una manada;</l>
-            <l>contólos, vió que habia</l>
-            <l>seis gatos y una gata.</l>
-            <l>Al bajar la escalera</l>
-            <l>en el pajar de la casa,</l>
-            <l>oyó Marcos que tambien</l>
-            <l>la perra refunfuñaba:</l>
-          </lg>
-          <pb n="4" source="Varios_072_4.jpg" facs="fedora_Varios_072_4/full/full/0/default.jpg"/>
-          <lg>
-            <l>echando míl juramentos.</l>
-            <l>fué al pajar, y entre la paja</l>
-            <l>ha parido nueve perros,</l>
-            <l>seis podencos, tres de caza;</l>
-            <l>dijoles Marcos entonces,</l>
-            <l>con muy risueñas palabras:</l>
-            <l>yo asegaro á los perritos,</l>
-            <l>que á los que estén en mi casa</l>
-            <l>de podencos sean galgos</l>
-            <l>con felicidad sobrada;</l>
-            <l>pero en fin, ya es medio dia</l>
-            <l>y no ha almorzado Juana:</l>
-            <l>voy á darla de comer</l>
-            <l>y á tomar yo una sustancia,</l>
-            <l>que de asistir á paridas</l>
-            <l>ya puedo haber hecho gana.</l>
-            <l>Al bajar por la escalera</l>
-            <l>oyó que piando estaban</l>
-            <l>unos pollos en un cesto</l>
-            <l>que la gallina sacaba:</l>
-            <l>aqui se vió en confusion,</l>
-            <l>porque al ir á levantarla</l>
-            <l>le ha sacado la gallina</l>
-            <l>un ojo de una picada.</l>
-            <l>Echando mil juramentos</l>
-            <l>se fué corriendo á la cama:</l>
-            <l>esto me faltaba ahora</l>
-            <l>para completar la carga;</l>
-            <l>á la postre quedar tuerto</l>
-            <l>con ocho partos en casa,</l>
-            <l>dime, tú, ¿qué haré yo ahora,</l>
-            <l>esposa y querida Juana,</l>
-            <l>sin haber nadie que asista</l>
-            <l>á tanta mala canalla?</l>
-            <l>pues tú querrás chocolate,</l>
-            <l>pero algarrobas la vaca,</l>
-            <l>cebada querrá la yegua,</l>
-            <l>y centeno la marrana;</l>
-            <l>la burra querrá salvado,</l>
-            <l>y yerba querrá la cabra,</l>
-          </lg>
-          <lg>
-            <l>y la perra querrá pan,</l>
-            <l>y sopas querrá la gata;</l>
-            <l>la gallina querrá trigo,</l>
-            <l>y yo vino de Peralta.</l>
-            <l>Mas ¿comó será, Dios mio,</l>
-            <l>si todo esto nos falta?</l>
-            <l>y oigo que á este mismo tiempo,</l>
-            <l>estaba suspirando Juana,</l>
-            <l>y relinchando la yegua,</l>
-            <l>está bramando la vaca,</l>
-            <l>la burra está rebuznando,</l>
-            <l>y maullando la gata,</l>
-            <l>refunfuñando la perra,</l>
-            <l>y berreando la cabra,</l>
-            <l>cloqueando la gallina,</l>
-            <l>y gruñendo la marrana,</l>
-            <l>y yo en tanto que gruñen</l>
-            <l>estoy rabiando el alma,</l>
-            <l>pues son las tres de la tarde</l>
-            <l>y aun no he comido nada,</l>
-            <l>si no es andar como un tonto</l>
-            <l>de la muger á la vaca,</l>
-            <l>desde la yegua à la burra,</l>
-            <l>desde la cerda á la cabra,</l>
-            <l>de la gallina á los pollos,</l>
-            <l>desde la perra á la gata,</l>
-            <l>y las ganancias que tengo</l>
-            <l>al cabo de la jornada,</l>
-            <l>es queno veo los toros</l>
-            <l>mas que por una ventana;</l>
-            <l>y así amigos, si os casais</l>
-            <l>buscar muger que no para,</l>
-            <l>y no tendreis cosa alguna</l>
-            <l>mas que vosotros en casa,</l>
-            <l>y no tendrais la fortuna</l>
-            <l>que tuvo Marcos de Cabra,</l>
-            <l>que á tres meses de casado</l>
-            <l>tuvo ocho partos en casa.</l>
-            <l>Y aqui el humilde poeta</l>
-            <l>pide perdon de sus faltas,</l>
-          </lg>
+          <pb n="1" source="Varios_072_1.jpg" facs="varios/Varios_072_1.jpg/"/>
+
+          <fw type="impresorNum">(Núm. 117.)</fw>
+
+          <head type="primer_titulo" rend="negrita"><lb/>MARCOS DE CABRA.</head>
+          <head type="subtitulo"><lb/><hi rend="negrita">NUEVA RELACION Y DIVERTIDO
+              ROMANCE,</hi><lb/><hi rend="cursiva">en que se refiere el trágico casamiento de este
+              pobre hombre, vecino<lb/>de Guadarrama, que despues de unas alegres bodas,
+              esperimentó á<lb/>pocos meses tanta multitud de partos en su casa, que por asistir
+              á<lb/>ellos no pudo comer ni descansar en todo el dia. Dase cuenta de su<lb/>grande
+              afliccion, y otras muchas circunstancias que verá el<lb/>curioso lector.</hi></head>
+
+          <l rend="indent">En domingo se casó</l>
+          <l>Marcos el de Guadarrama,</l>
+          <l>digo, de carnestolendas</l>
+          <l>de la cuaresma pasada:</l>
+          <l>casó con Juana Chamorro,</l>
+          <l>hija de Pedro Miranda,</l>
+          <l>él es hijo de Juan Crespo</l>
+          <l>y de María la Larga,</l>
+          <l>nieto del tamborilero</l>
+          <l>que nació en Guadalajara.</l>
+          <l>Este tal tiene una tia</l>
+          <l>que es partera en Berlarga;</l>
+          <l>la cual viniendo á la boda,</l>
+          <l>la ofreció á su nuera Juana,</l>
+          <l>para empezar á vivir</l>
+          <l>una burra con su albarda,</l>
+          <l>y que no la carguen mucho,</l>
+          <l>que hace juicio está preñada.</l>
+          <l>Su tio el tamborilero</l>
+          <l>una perra y una gata,</l>
+          <l>que tambien están en cinta</l>
+          <l>como la burra de Juana.</l>
+          <l>Su padre le dió una yegua,</l>
+          <l>su suegro le dió una vaca,</l>
+          <l>otro una gallina clueca,</l>
+          <l>la cual estaba ya echada</l>
+          <l>con mas de catorce huevos</l>
+          <l>gordos como unas granadas;</l>
+
+          <pb n="2" source="Varios_072_2.jpg" facs="varios/Varios_072_2.jpg/"/>
+
+          <l>y un entre-hermano de Marcos</l>
+          <l>que es gran pescador de ranas,</l>
+          <l>á Juana la dió tambien</l>
+          <l>una cabra embarazada,</l>
+          <l>con un cencerro al pescuezo;</l>
+          <l>otro le dió una marrana,</l>
+          <l>con que el dia de la boda</l>
+          <l>quedó su casa sentada.</l>
+          <l>Ahora verán la fortuna</l>
+          <l>del buen Marcos y la Juana,</l>
+          <l>y la gran dicha que tuvo</l>
+          <l>con las bodas ya citadas.</l>
+          <l>Casáronse pues, al fin,</l>
+          <l>y hubo gran juego de cañas,</l>
+          <l>bailes de muchas maneras,</l>
+          <l>el canario y la pavana,</l>
+          <l>el villano y el romero,</l>
+          <l>seguidillas Jerezanas</l>
+          <l>y un fandango golpeado</l>
+          <l>que tocó la desposada.</l>
+          <l>Habo muy grandes comidas,</l>
+          <l>y todas diferenciadas :</l>
+          <l>primero pan y limon</l>
+          <l>porque les abra las ganas;</l>
+          <l>el vino todo es de Arenas,</l>
+          <l>de Esquibias y de la Alcarria,</l>
+          <l>y para los desposados</l>
+          <l>tienen vino de Peralta,</l>
+          <l>sopas manchegas, gigote,</l>
+          <l>conejos, liebres gisadas,</l>
+          <l>estofado y picadillo,</l>
+          <l>almondiguillas, chanfalna,</l>
+          <l>carnero, vaca, tocino,</l>
+          <l>alcuzcuz y cabra asada:</l>
+          <l>pavos con su pepitoria</l>
+          <l>y pollas emperdigadas,</l>
+          <l>empanadas de ternera,</l>
+          <l>las gallinas rellenadas,</l>
+          <l>cubiletes y pasteles,</l>
+          <l>arroz, conserva, avellanas,</l>
+          <l>higos, nueces, peras, guindas,</l>
+          <l>melocotones, castañas;</l>
+          <l>y el postrer plato salió.</l>
+          <l>de aceitunas sevillanas.</l>
+          <l>Salieron pues de comer,</l>
+          <l>y sus Juegos comenzaban</l>
+          <l>como referido queda,</l>
+          <l>con grandísima algazara;</l>
+          <l>y de alli á muy poco rato</l>
+          <l>conforme bailando andaban</l>
+          <l>dicen algunos que ven</l>
+          <l>mas de cien mil luminarias,</l>
+          <l>que el mundo se arde al redor</l>
+          <l>y que hay muchas fantasmas;</l>
+          <l>en fin, se llegó la noche,</l>
+          <l>y con fiesta celebrada,</l>
+          <l>el padrino y la madrina</l>
+          <l>dicen á Marcos y á Juana</l>
+          <l>que se vayan á acostar</l>
+          <l>y descansar en la cama,</l>
+          <l>diciéndoles que madrugen</l>
+          <l>á las diez de la mañana.</l>
+          <l>Ya se acabaron las bodas,</l>
+          <l>y los llevan á su casa:</l>
+          <l>trageron lo referido</l>
+          <l>que la ofrecieron á Juana:</l>
+          <l>y de alli á tres meses justos</l>
+          <l>fortuna tiene la dama;</l>
+          <l>pero es mayor la de Marcos</l>
+          <l>cincuenta veces doblada,</l>
+          <l>pues se vió por esperiencia</l>
+          <l>que á las seis de la mañana</l>
+          <l>dió en suspirar la señora,</l>
+          <l>advirtiéndole que vaya</l>
+          <l>á llamar á la comadre</l>
+          <l>que ya es la hora llegada</l>
+          <l>y Marcos como un cohete,</l>
+          <l>sin parar pie ni patada</l>
+          <l>trajo la comadre acuestas</l>
+          <l>para que no se enlodára,</l>
+          <l>donde con felicidad</l>
+          <l>parió la señora Juana:</l>
+          <l>corriendo trajo el fajero,</l>
+          <l>corriendo la echó en la cama,</l>
+
+          <pb n="3" source="Varios_072_3.jpg" facs="varios/Varios_072_3.jpg/"/>
+
+          <l>corriendo puso el caldero,</l>
+          <l>corriendo calentó el agua,</l>
+          <l>corriendo sudó al infante,</l>
+          <l>corriendo le remudaba,</l>
+          <l>corriendo trajo la miel,</l>
+          <l>corriendo la sarten saca,</l>
+          <l>corriendo hizo las torrijas,</l>
+          <l>corriendo se las dió á Juana.</l>
+          <l>Cuando pensó descansar</l>
+          <l>comenzó á bramar la vaca:</l>
+          <l>corriendo se va al corral</l>
+          <l>y vió que pariendo estaba,</l>
+          <l>asistióla al fin al parto</l>
+          <l>y la dejó asegurada.</l>
+          <l>A las ocho nada menos,</l>
+          <l>la yegua que relinchaba,</l>
+          <l>fue corriendo como un galgo</l>
+          <l>por ver en lo que paraba,</l>
+          <l>sin tener lugar siquiera</l>
+          <l>de rascarse las espaldas,</l>
+          <l>á donde tuvo tambien</l>
+          <l>que arremangarse las faldas,</l>
+          <l>la cual pariendo un mulo</l>
+          <l>la yegua echada en la cuadra.</l>
+          <l>la asistió tambien al parto</l>
+          <l>y la echó paja y cebada,</l>
+          <l>y por si tenia sed</l>
+          <l>la trajo un cubo de agua.</l>
+          <l>Cuando pensó descansar</l>
+          <l>que quiere volver á Juana</l>
+          <l>oyó en medio del portal</l>
+          <l>la burra que rebuznaba,</l>
+          <l>y metia mas ruido</l>
+          <l>que si un lobo la matára:</l>
+          <l>aqui Marcos comenzó</l>
+          <l>á decir estas palabras:</l>
+          <l>¿qué haya quien quiera casarse</l>
+          <l>para verse de esta traza?</l>
+          <l>á las nueve cuatro partos</l>
+          <l>he tenido yo en mi casa:</l>
+          <l>vive Dios, que esto va malo;</l>
+          <l>pasó aunque de mala gana</l>
+          <l>tambien á asistir á la burra</l>
+          <l>con gran prontitud y maña,</l>
+          <l>la cual le parió un pollino</l>
+          <l>que tiene una pata blanca.</l>
+          <l>En fin salió del establo,</l>
+          <l>y berreando la cabra,</l>
+          <l>ya la paciencia de Marcos</l>
+          <l>muy apurada se halla,</l>
+          <l>pues le fue fuerza tambien</l>
+          <l>ahijar el chivo á la cabra,</l>
+          <l>y sacarla los calostres</l>
+          <l>para que almorzára Juana:</l>
+          <l>metióla en el chivatero,</l>
+          <l>y gruñendo la marrana</l>
+          <l>fue corriendo á la pocilga</l>
+          <l>y vió que pariendo estaba</l>
+          <l>catorce ó quince marranos</l>
+          <l>todos en una camada,</l>
+          <l>pero tambien asegura</l>
+          <l>que como diez dias hagan</l>
+          <l>ha de comer la mitad</l>
+          <l>de los marranos que para,</l>
+          <l>y porque no se murieran,</l>
+          <l>parteó tambien la marrana.</l>
+          <l>En fin, cerró la pocilga,</l>
+          <l>y maullando la gata,</l>
+          <l>metia tanto ruido,</l>
+          <l>que parece la mataban;</l>
+          <l>y como sabia Marcos</l>
+          <l>que está la gata preñada,</l>
+          <l>dice: otro parto tenemos</l>
+          <l>con mil demonios, en casa,</l>
+          <l>y por salir de la duda</l>
+          <l>fué al sobrado y vió la gata</l>
+          <l>que en un esporton tenia</l>
+          <l>de gatos una manada;</l>
+          <l>contólos, vió que habia</l>
+          <l>seis gatos y una gata.</l>
+          <l>Al bajar la escalera</l>
+          <l>en el pajar de la casa,</l>
+          <l>oyó Marcos que tambien</l>
+          <l>la perra refunfuñaba:</l>
+
+          <pb n="4" source="Varios_072_4.jpg" facs="varios/Varios_072_4.jpg/"/>
+
+          <l>echando míl juramentos.</l>
+          <l>fué al pajar, y entre la paja</l>
+          <l>ha parido nueve perros,</l>
+          <l>seis podencos, tres de caza;</l>
+          <l>dijoles Marcos entonces,</l>
+          <l>con muy risueñas palabras:</l>
+          <l>yo asegaro á los perritos,</l>
+          <l>que á los que estén en mi casa</l>
+          <l>de podencos sean galgos</l>
+          <l>con felicidad sobrada;</l>
+          <l>pero en fin, ya es medio dia</l>
+          <l>y no ha almorzado Juana:</l>
+          <l>voy á darla de comer</l>
+          <l>y á tomar yo una sustancia,</l>
+          <l>que de asistir á paridas</l>
+          <l>ya puedo haber hecho gana.</l>
+          <l>Al bajar por la escalera</l>
+          <l>oyó que piando estaban</l>
+          <l>unos pollos en un cesto</l>
+          <l>que la gallina sacaba:</l>
+          <l>aqui se vió en confusion,</l>
+          <l>porque al ir á levantarla</l>
+          <l>le ha sacado la gallina</l>
+          <l>un ojo de una picada.</l>
+          <l>Echando mil juramentos</l>
+          <l>se fué corriendo á la cama:</l>
+          <l>esto me faltaba ahora</l>
+          <l>para completar la carga;</l>
+          <l>á la postre quedar tuerto</l>
+          <l>con ocho partos en casa,</l>
+          <l>dime, tú, ¿qué haré yo ahora,</l>
+          <l>esposa y querida Juana,</l>
+          <l>sin haber nadie que asista</l>
+          <l>á tanta mala canalla?</l>
+          <l>pues tú querrás chocolate,</l>
+          <l>pero algarrobas la vaca,</l>
+          <l>cebada querrá la yegua,</l>
+          <l>y centeno la marrana;</l>
+          <l>la burra querrá salvado,</l>
+          <l>y yerba querrá la cabra,</l>
+          <l>y la perra querrá pan,</l>
+          <l>y sopas querrá la gata;</l>
+          <l>la gallina querrá trigo,</l>
+          <l>y yo vino de Peralta.</l>
+          <l>Mas ¿comó será, Dios mio,</l>
+          <l>si todo esto nos falta?</l>
+          <l>y oigo que á este mismo tiempo,</l>
+          <l>estaba suspirando Juana,</l>
+          <l>y relinchando la yegua,</l>
+          <l>está bramando la vaca,</l>
+          <l>la burra está rebuznando,</l>
+          <l>y maullando la gata,</l>
+          <l>refunfuñando la perra,</l>
+          <l>y berreando la cabra,</l>
+          <l>cloqueando la gallina,</l>
+          <l>y gruñendo la marrana,</l>
+          <l>y yo en tanto que gruñen</l>
+          <l>estoy rabiando el alma,</l>
+          <l>pues son las tres de la tarde</l>
+          <l>y aun no he comido nada,</l>
+          <l>si no es andar como un tonto</l>
+          <l>de la muger á la vaca,</l>
+          <l>desde la yegua à la burra,</l>
+          <l>desde la cerda á la cabra,</l>
+          <l>de la gallina á los pollos,</l>
+          <l>desde la perra á la gata,</l>
+          <l>y las ganancias que tengo</l>
+          <l>al cabo de la jornada,</l>
+          <l>es queno veo los toros</l>
+          <l>mas que por una ventana;</l>
+          <l>y así amigos, si os casais</l>
+          <l>buscar muger que no para,</l>
+          <l>y no tendreis cosa alguna</l>
+          <l>mas que vosotros en casa,</l>
+          <l>y no tendrais la fortuna</l>
+          <l>que tuvo Marcos de Cabra,</l>
+          <l>que á tres meses de casado</l>
+          <l>tuvo ocho partos en casa.</l>
+          <l>Y aqui el humilde poeta</l>
+          <l>pide perdon de sus faltas,</l>
         </div>
+        
         <div type="colofon">
-          <p><lb/>Madríd. 1849.— Impta. de D.J. M. Marés, calle de
-                                    Relatores núm. 17.</p>
+          <p><lb/><hi rend="cursiva">Madrid:</hi> 1849.— <hi rend="cursiva">Impta. de D.J. M.
+              Marés, calle de Relatores núm.</hi> 17.</p>
         </div>
       </div>
     </body>

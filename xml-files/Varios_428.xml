@@ -4,8 +4,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>HISTORIA VERDADERA, Y SAGRADA DEL SANTO REY DAVID, SAGRADA FIELMENTE
-                              DE LA ESCRITURA, SANTOS PAdres, y Expositores.</title>
+        <title>HISTORIA VERDADERA, Y SAGRADA DEL SANTO REY DAVID</title>
         <respStmt>
           <name xml:id="PJ">Pauline Jacsont</name>
           <resp>Codificación TEI</resp>
@@ -31,10 +30,9 @@
             <p/>
           </editionStmt>
           <publicationStmt>
-            <publisher>Imprenta de la Viuda de Vázquez y
-                                          Compañía</publisher>
+            <publisher>Viuda de Vázquez y Compañía</publisher>
             <pubPlace ref="https://www.geonames.org/2510911/sevilla.html">Sevilla</pubPlace>
-            <date cert="high">1818</date>
+            <date cert="low" when="1818-01-01">1818</date>
           </publicationStmt>
         </biblFull>
         <msDesc>
@@ -43,6 +41,7 @@
             <settlement>Genève</settlement>
             <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"/>
                                     </repository>
+            <collection>Colección Varios</collection>
             <idno type="cote"/>
             <idno type="DOI">10.5281/zenodo.6795068</idno>
             <altIdentifier>
@@ -71,7 +70,7 @@
               </layoutDesc>
             </objectDesc>
             <decoDesc>
-              <summary n="1">Uno grabados (p.1) </summary>
+              <summary n="1">Un grabados (p.1) </summary>
               <decoNote type="lista_grabados">
                 <list>
                   <item corresp="grabado_v_428_1.xml">grabado_v_428_1</item>
@@ -99,7 +98,7 @@
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR non corregido</p>
+          <p>OCR no corregido</p>
         </correction>
         <normalization>
           <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto
@@ -124,9 +123,10 @@
     <revisionDesc>
       <change when="2023-12-28" who="#PJ">Création du fichier TEI P5 et encodage du
                         corps du texte</change>
+<change when="2024-01-09" who="#EL">Add the IIIF links</change>
     </revisionDesc>
   </teiHeader>
-  <sourceDoc xml:id="automaticTranscription">
+  <facsimile><graphic url="varios/Varios_428_1.jpg/full/200,/0/default.jpg"/></facsimile><sourceDoc xml:id="automaticTranscription">
     <surface xml:id="Varios_428_1" type="page" cert="silver">
       <graphic url="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_428_1/full/full/0/default.jpg"/>
       <zone xml:id="Varios_428_1_BT223_1" n="1" type="CustomZone" subtype="title" points="969,121 969,210 638,210 638,121 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_428_1/638.0,121.0,331.0,89.0/full/0/default" corresp="CustomZone:title">
@@ -15588,7 +15588,7 @@
   <text>
     <body>
       <div>
-        <pb n="1" source="Varios_428_1.jpg" facs="fedora_Varios_428_1/full/full/0/default.jpg"/>
+        <pb n="1" source="Varios_428_1.jpg" facs="varios/Varios_428_1.jpg/"/>
         <fw type="numeroPliego">Pliegos 6.</fw>
         <head type="primer_titulo"><lb/>HISTORIA<lb/>VERDADERA, Y SAGRADA<lb/>DEL SANTTO
                               REY<lb/>DAVID,<lb/>SACADA FIELMENTE DE LA ESCRITURA, SANTOS
@@ -15597,8 +15597,8 @@
           <p><lb/>Con licencia : En Sevilla, por la Viuda de Vazquez y
                                     Com-<lb/>pañia : Año de 1818</p>
         </div>
-        <pb n="2" source="Varios_428_2.jpg" facs="fedora_Varios_428_2/full/full/0/default.jpg"/>
-        <pb n="3" source="Varios_428_3.jpg" facs="fedora_Varios_428_3/full/full/0/default.jpg"/>
+        <pb n="2" source="Varios_428_2.jpg" facs="varios/Varios_428_2.jpg/"/>
+        <pb n="3" source="Varios_428_3.jpg" facs="varios/Varios_428_3.jpg/"/>
         <fw type="paginaNum">3</fw>
         <div>
           <head type="titulo_parte" rend="negrita"><lb/>ADVERTENCIA AL LECTOR.</head>
@@ -15645,7 +15645,7 @@
                                           Philisteos. Castigo que Dios obró, en vene-<lb/>racion
                                           del Arca. Castigo de Michol, por despreciar á
                                     David.</hi></p>
-          <pb n="4" source="Varios_428_4.jpg" facs="fedora_Varios_428_4/full/full/0/default.jpg"/>
+          <pb n="4" source="Varios_428_4.jpg" facs="varios/Varios_428_4.jpg/"/>
           <fw type="paginaNum">4</fw>
           <p><lb/>Batallas que tuvo David, en que hizo Tributarios á muchos
                                     <lb/>Reyes. Caso de Bersabé, y Urias. Profetiza Natan á David
@@ -15694,7 +15694,7 @@
                                     que si habia alguno otro,<lb/>no reusasen el traerselo: mas
                                     Isaí<lb/>dixo, que uno solo restaba, el<lb/>qual por ser el
                                     menor, y estar<lb/>dedicado á la guarda del ganado,</p>
-          <pb n="5" source="Varios_428_5.jpg" facs="fedora_Varios_428_5/full/full/0/default.jpg"/>
+          <pb n="5" source="Varios_428_5.jpg" facs="varios/Varios_428_5.jpg/"/>
           <fw type="paginaNum">5</fw>
           <p><lb/>no le habia mandado venir. Pero <lb/>el Profeta luego le
                                     insinuó, que <lb/>le trajese. Llegó David del cam- <lb/>po, y
@@ -15746,7 +15746,7 @@
                                     proponiendosele al Rey <lb/>por único en tocar una Harpa, y
                                     <lb/>diestro en cantar con su voz so- <lb/>nora. Saul dió luego
                                     órden para <lb/>que se le traxesen : llegó á la
-                                    <lb/>presencia del Rey, y con solo <pb n="6" source="Varios_428_6.jpg" facs="fedora_Varios_428_6/full/full/0/default.jpg"/>
+                                    <lb/>presencia del Rey, y con solo <pb n="6" source="Varios_428_6.jpg" facs="varios/Varios_428_6.jpg/"/>
                                     <fw type="paginaNum">6</fw>
                                     <lb/>verle sintió en la dolencia alivio; <lb/>y mucho mas quando
                                     el gracioso <lb/>Zagal le tocaba el Harpa, pues <lb/>al
@@ -15798,7 +15798,7 @@
                                     <lb/>"narte tanto contra mí? ¿Ha sido <lb/>"esto mas que hablar
                                     sin perjui- <lb/>"cio algunos?" Y sin decir mas <lb/>se ausentó
                                     de su hermano. No <lb/>hizo tan poco ruido el caso que
-                                    <lb/>dexase de llegar á los oidos de <pb n="7" source="Varios_428_7.jpg" facs="fedora_Varios_428_7/full/full/0/default.jpg"/>
+                                    <lb/>dexase de llegar á los oidos de <pb n="7" source="Varios_428_7.jpg" facs="varios/Varios_428_7.jpg/"/>
                                     <fw type="paginaNum">7</fw>
                                     <lb/>Saul, y al punto le mandó bus- <lb/>car, y que se le
                                     traxesen á su <lb/>presencia. Llegó David delante <lb/>del
@@ -15850,7 +15850,7 @@
                                     mismo le in- <lb/>formase. Preguntóle Saul con <lb/>mucho
                                     agrado, ¿quién era? ¿Qué <lb/>linage, y padre era el suyo? A
                                     <lb/>que respondió David: "Ya igno- <lb/>"ras, Señor, ya
-                                    desconoces, mi <pb n="8" source="Varios_428_8.jpg" facs="fedora_Varios_428_8/full/full/0/default.jpg"/>
+                                    desconoces, mi <pb n="8" source="Varios_428_8.jpg" facs="varios/Varios_428_8.jpg/"/>
                                     <fw type="paginaNum">8</fw>
                                     <lb/>"Rey, á tu siervo humilde que <lb/>"tantas veces al son de
                                     mi ins- <lb/>"trumento fuí alivio de tus fa- <lb/>"tigas, y
@@ -15906,7 +15906,7 @@
                                     contrario: <lb/>pues furioso Saul echando ma- <lb/>no de un
                                     venablo se le arrojó <lb/>que á no haber David huido el
                                     <lb/>cuerpo, le hubiera atravesado:</p>
-          <pb n="9" source="Varios_428_9.jpg" facs="fedora_Varios_428_9/full/full/0/default.jpg"/>
+          <pb n="9" source="Varios_428_9.jpg" facs="varios/Varios_428_9.jpg/"/>
           <fw type="paginaNum">9</fw>
           <p><lb/>Huyese David de Palacio, y <lb/>se fué á Belén su
                                     patria. Supo <lb/>Saul la ausencia de David, y re-
@@ -15959,7 +15959,7 @@
                                     recompensa le tra- <lb/>xese cien prepucios de los Philis-
                                     <lb/>teos, y luego le daria á Michol. <lb/>Tiraba el Rey á
                                     meter á David, <lb/>donde no saliese, y si salia, siem- <fw type="signaturas">B</fw>
-                                    <pb n="10" source="Varios_428_10.jpg" facs="fedora_Varios_428_10/full/full/0/default.jpg"/>
+                                    <pb n="10" source="Varios_428_10.jpg" facs="varios/Varios_428_10.jpg/"/>
                                     <fw type="paginaNum">10</fw>
                                     <lb/>pre los Philisteos procurarian <lb/>vengar la afrenta que
                                     les habia <lb/>hecho. </p>
@@ -16014,7 +16014,7 @@
                                     dixo: <lb/>huyete, mi amado, que por mi <lb/>cuenta corre ahora
                                     el que no <lb/>salgan en tu busca, hasta que es- <lb/>tés bien
                                     ausente. Todo esto ha- <lb/>bia pasado solo entre los dos, por-
-                                    <lb/>que Michol no se quiso fiar de <pb n="11" source="Varios_428_11.jpg" facs="fedora_Varios_428_11/full/full/0/default.jpg"/>
+                                    <lb/>que Michol no se quiso fiar de <pb n="11" source="Varios_428_11.jpg" facs="varios/Varios_428_11.jpg/"/>
                                     <fw type="paginaNum">11</fw>
                                     <lb/>criados por el peligro que corria. </p>
           <p><lb/>La astuta Michol llamó á al- <lb/>gunas de sus criadas, que
@@ -16067,7 +16067,7 @@
                                     <lb/>Corrieron las cortinas, y al lle- <lb/>gar al lecho, se
                                     hallaron atoni- <lb/>tos, y corridos con una esta- <lb/>tua, que
                                     fingia ser David. Die- <lb/>ron parte al Rey, que ciego de
-                                    <lb/>rabia, hizo llamar á Michol. Di- <pb n="12" source="Varios_428_12.jpg" facs="fedora_Varios_428_12/full/full/0/default.jpg"/>
+                                    <lb/>rabia, hizo llamar á Michol. Di- <pb n="12" source="Varios_428_12.jpg" facs="varios/Varios_428_12.jpg/"/>
                                     <fw type="paginaNum">12</fw>
                                     <lb/>xola: " ¿Cómo osada te atreves <lb/>"hacer tal engaño ? ¿
                                     Asi te <lb/>"burlas de la Magestad? ¿Cómo <lb/>"antepones á la
@@ -16118,7 +16118,7 @@
                                     <lb/>loso David, que podia suce- <lb/>der mal, no mirándole ya
                                     aquel <lb/>Principe con buenos ojos, se hizo <lb/>loco, haciendo
                                     estraños adema- <lb/>nes ; lo que fué causa para que
-                                    <lb/>Achis mandase echarle de Pa- <pb n="13" source="Varios_428_13.jpg" facs="fedora_Varios_428_13/full/full/0/default.jpg"/>
+                                    <lb/>Achis mandase echarle de Pa- <pb n="13" source="Varios_428_13.jpg" facs="varios/Varios_428_13.jpg/"/>
                                     <fw type="paginaNum">13</fw>
                                     <lb/>lacio : entonces David se volvió <lb/>para Israél, y se
                                     acogió en la <lb/>cueva de Odolla. Encontró en <lb/>Odolla.
@@ -16171,7 +16171,7 @@
                                     despicar su cole- <lb/>ra en los padres, mugeres, y deu-
                                     <lb/>dos, con todos sus hijos. Hizo- <lb/>los arrestar, y bien
                                     guardados, <lb/>para que no se le huyesen; man- <lb/>dó luego,
-                                    que á todos sin dexar <pb n="14" source="Varios_428_14.jpg" facs="fedora_Varios_428_14/full/full/0/default.jpg"/>
+                                    que á todos sin dexar <pb n="14" source="Varios_428_14.jpg" facs="varios/Varios_428_14.jpg/"/>
                                     <fw type="paginaNum">14</fw>
                                     <lb/>ninguno los degollasen, lo que <lb/>sin dilacion alguna se
                                     executó. <lb/>¡O crueldad barbara, é inhuma- <lb/>na! Este
@@ -16223,7 +16223,7 @@
                                     con sus muchos soldados, <lb/>para que no se le escapase la
                                     <lb/>presa. Vióse David tan apreta- <lb/>do, que casi vino á
                                     desesperar <lb/>en librarse : pero como siem- <lb/>pre confiaba
-                                    en su Dios, éste le <lb/>libertó por un modo raro. No <pb n="15" source="Varios_428_15.jpg" facs="fedora_Varios_428_15/full/full/0/default.jpg"/>
+                                    en su Dios, éste le <lb/>libertó por un modo raro. No <pb n="15" source="Varios_428_15.jpg" facs="varios/Varios_428_15.jpg/"/>
                                     <fw type="paginaNum">15</fw>
                                     <lb/>obstante el Santó Caudillo, aun- <lb/>que se vió en tanto
                                     estrecho, no <lb/>descubria flaqueza alguna, antes <lb/>animó
@@ -16274,7 +16274,7 @@
                                     he de <lb/>"poner manos en mi dueño <lb/>"porque es Cristo del
                                     Señor. <lb/>"Por tanto, Padre, y dueño <lb/>"mio, mira, y
                                     reconoce este <lb/>"giron de tu manto ; repara <lb/>"atento, si
-                                    quien tuvo lugar <pb n="16" source="Varios_428_16.jpg" facs="fedora_Varios_428_16/full/full/0/default.jpg"/>
+                                    quien tuvo lugar <pb n="16" source="Varios_428_16.jpg" facs="varios/Varios_428_16.jpg/"/>
                                     <fw type="paginaNum">16</fw>
                                     <lb/>"de cortar este pedazo de tu<lb/>"ropa, pudiera mas
                                     facilmente<lb/>"quitarte la vida? Advierte es-<lb/>"ta accion,
@@ -16324,7 +16324,7 @@
                                     cuidadoso á su<lb/>ama Abigail, muger de Nabal,<lb/>y la contó
                                     todo el caso, y aña-<lb/>dió: En verdad, Señora, que<lb/>no
                                     merece tal desayre David, y<lb/>su 'gente ; pues han
-                                    procedido<lb/>tan honrados con tus ganados <pb n="17" source="Varios_428_17.jpg" facs="fedora_Varios_428_17/full/full/0/default.jpg"/>
+                                    procedido<lb/>tan honrados con tus ganados <pb n="17" source="Varios_428_17.jpg" facs="varios/Varios_428_17.jpg/"/>
                                     <fw type="paginaNum">17</fw>
                                     <lb/>que todo el tiempo que han <lb/>habitado estos desiertos,
                                     no nos <lb/>han dado la menor molestia, <lb/>antes sirvieron de
@@ -16375,7 +16375,7 @@
                                     gente : que si como <lb/>"dixe al principio, ha de cargar
                                     <lb/>"tu venganza sobre mi cabeza, <lb/>"con que recibas este
                                     pequeño <lb/>"don, conoceré que esta libre <fw type="signaturas">C</fw>
-                                    <pb n="18" source="Varios_428_18.jpg" facs="fedora_Varios_428_18/full/full/0/default.jpg"/>
+                                    <pb n="18" source="Varios_428_18.jpg" facs="varios/Varios_428_18.jpg/"/>
                                     <fw type="paginaNum">18</fw>
                                     <lb/>"mi vida, Lo otro, porque de- <lb/>"bes desenojarte es,
                                     porque ha- <lb/>"ciendo lo que te suplico usa- <lb/>"rá contigo
@@ -16427,7 +16427,7 @@
                                     <lb/>grandeciendo la galantería, con <lb/>que habia andado
                                     David. Llegó <lb/>David. Llegó <lb/>al Carmelo, y encontró á
                                     su <lb/>marido muy alegre, y bien be- <lb/>bido, como
-                                    acostumbraba. Hi- <lb/>zole recoger como prudente, <pb n="19" source="Varios_428_19.jpg" facs="fedora_Varios_428_19/full/full/0/default.jpg"/>
+                                    acostumbraba. Hi- <lb/>zole recoger como prudente, <pb n="19" source="Varios_428_19.jpg" facs="varios/Varios_428_19.jpg/"/>
                                     <fw type="paginaNum">19</fw>
                                     <lb/>para no causar risa á los cria- <lb/>dos, y á la mañana,
                                     quando <lb/>ya estaba en su sano juicio, le <lb/>refirió los
@@ -16479,7 +16479,7 @@
                                     ( segun la <lb/>Interlin. in 2. Regum, capit. 3. <lb/>Historia
                                     Escol.) que viendose <lb/>amagada, y forzada Michol de <lb/>las
                                     razones, y amenazas de su <lb/>padre, dió el sí á Phaltiel:
-                                          <pb n="20" source="Varios_428_20.jpg" facs="fedora_Varios_428_20/full/full/0/default.jpg"/>
+                                          <pb n="20" source="Varios_428_20.jpg" facs="varios/Varios_428_20.jpg/"/>
                                     <fw type="paginaNum">20</fw>
                                     <lb/>mas desde entonces se dió toda á <lb/>la tristeza, á los
                                     suspiros, y á el <lb/>llanto. Supo David la novedad, <lb/>y lo
@@ -16531,7 +16531,7 @@
                                     propiedad la <lb/>ciudad de Sicelech, para que se <lb/>la
                                     defendiese : lo que hizo Da- <lb/>vid, y su gente tan bien, que
                                     <lb/>amaynó el orgullo de los demas <lb/>Paganos vecinos, que
-                                    no esta- <pb n="21" source="Varios_428_21.jpg" facs="fedora_Varios_428_21/full/full/0/default.jpg"/>
+                                    no esta- <pb n="21" source="Varios_428_21.jpg" facs="varios/Varios_428_21.jpg/"/>
                                     <fw type="paginaNum">21</fw>
                                     <lb/>ban sujetos al Rey Achis, co- <lb/>giéndoles muy ricos, y
                                     grandes <lb/>despojos, con que no solo lo pa- <lb/>saba David
@@ -16584,7 +16584,7 @@
                                     él <lb/>hicieron lo mismo : y á impor- <lb/>tunaciones de
                                     todos comió de <lb/>los manjares que sazonó el ali- <lb/>ño
                                     de la mala muger. Algo con- <lb/>fortado caminó toda la noche,
-                                          <pb n="22" source="Varios_428_22.jpg" facs="fedora_Varios_428_22/full/full/0/default.jpg"/>
+                                          <pb n="22" source="Varios_428_22.jpg" facs="varios/Varios_428_22.jpg/"/>
                                     <fw type="paginaNum">22</fw>
                                     <lb/>hasta llegar á los reales de su <lb/>campo: y pondera
                                     Nicolao de Ly- <lb/>ra, que se descubrió el animo, y
@@ -16636,7 +16636,7 @@
                                     <lb/>le en un Valle, donde estaba ce- <lb/>lebrando la victoria
                                     con esplen- <lb/>didos banquetes, y al punto <lb/>dieron contra
                                     ellos como Leo- <lb/>nes David, y los suyos con tan- <lb/>ta
-                                    furia, que hicieron en ellos <pb n="23" source="Varios_428_23.jpg" facs="fedora_Varios_428_23/full/full/0/default.jpg"/>
+                                    furia, que hicieron en ellos <pb n="23" source="Varios_428_23.jpg" facs="varios/Varios_428_23.jpg/"/>
                                     <fw type="paginaNum">23</fw>
                                     <lb/>la matanza mas sangrienta, que <lb/>lloró aquel Paganismo.
                                     Conclui- <lb/>do el estrago, dieronse muy des- <lb/>pacio á
@@ -16688,7 +16688,7 @@
                                     su Ciu- <lb/>dad de Sicelech, quando llegó <lb/>á él un
                                     hombre cubierto de san- <lb/>gre, y polvo, rasgado el vesti-
                                     <lb/>do. Preguntóle David ¿quién era, <lb/>y de donde venía?
-                                    A lo qual <pb n="24" source="Varios_428_24.jpg" facs="fedora_Varios_428_24/full/full/0/default.jpg"/>
+                                    A lo qual <pb n="24" source="Varios_428_24.jpg" facs="varios/Varios_428_24.jpg/"/>
                                     <fw type="paginaNum">24</fw>
                                     <lb/>respondió: Que habia escapado <lb/>huyendo de los Reales
                                     de Saul. <lb/>Refirióle todo lo acontecido en <lb/>la pérdida
@@ -16740,7 +16740,7 @@
                                     <lb/>Rey. Celebrada su corona- <lb/>cion con grande aplauso, y
                                     gran- <lb/>deza, lo primero que hizo Da- <lb/>vid siendo Rey
                                     fué enviar una <lb/>embaxada á los ciudadanos de <lb/>Jabes de
-                                    Galaad dandoles mil <pb n="25" source="Varios_428_25.jpg" facs="fedora_Varios_428_25/full/full/0/default.jpg"/>
+                                    Galaad dandoles mil <pb n="25" source="Varios_428_25.jpg" facs="varios/Varios_428_25.jpg/"/>
                                     <fw type="paginaNum">25</fw>
                                     <lb/>bendiciones, y muchos agradeci- <lb/>mientos por la piedad
                                     que habian <lb/>usado con el Rey Saul, en darle <lb/>sepultura.
@@ -16796,7 +16796,7 @@
                                     atreverse á quitarsela á <lb/>Phaltiel con mano poderosa, ó
                                     <lb/>ya no querer humillarse á pe- <lb/>dirsela á Isboset, le
                                     respondió <lb/>á David, que escribiese á Isbo- <fw type="signaturas">D</fw>
-                                    <pb n="26" source="Varios_428_26.jpg" facs="fedora_Varios_428_26/full/full/0/default.jpg"/>
+                                    <pb n="26" source="Varios_428_26.jpg" facs="varios/Varios_428_26.jpg/"/>
                                     <fw type="paginaNum">26</fw>
                                     <lb/>set en modo de demandarle lo <lb/>que era suyo; y que si lo
                                     resis- <lb/>tiese, él acudiria entonces á <lb/>cumplir con su
@@ -16850,7 +16850,7 @@
                                     copiosas lágrimas. <lb/>Indignóse notablemente contra
                                     <lb/>Joab, condenó su infamia delan- <lb/>te de todos, echóle
                                     su maldi- <lb/>cion con grandes execraciones, <lb/>mandóle
-                                    vestir de xerga como á <lb/>los demas, porque le fuese cas- <pb n="27" source="Varios_428_27.jpg" facs="fedora_Varios_428_27/full/full/0/default.jpg"/>
+                                    vestir de xerga como á <lb/>los demas, porque le fuese cas- <pb n="27" source="Varios_428_27.jpg" facs="varios/Varios_428_27.jpg/"/>
                                     <fw type="paginaNum">27</fw>
                                     <lb/>tigo asistir en las exequias del<lb/>que mató temerario, y
                                     dexando<lb/>para otro tiempo el castigo me-<lb/>recido. El mismo
@@ -16902,7 +16902,7 @@
                                           alevosamene á un<lb/>Rey inocente. Ola (dixo á su
                                           guar-<lb/>dia) llevadme de aqui á estos hom-<lb/>bres, y
                                           paguen con las vidas su</hi>
-                                    <pb n="28" source="Varios_428_28.jpg" facs="fedora_Varios_428_28/full/full/0/default.jpg"/>
+                                    <pb n="28" source="Varios_428_28.jpg" facs="varios/Varios_428_28.jpg/"/>
                                     <fw type="paginaNum">28</fw>
                                     <lb/><hi rend="cursiva">delito</hi>. Cortaronles las manos,
                                     <lb/>y los pies, colgándolos sobre la <lb/>Piscina de Hebron :
@@ -16957,7 +16957,7 @@
                                     <lb/>Mucho turbó esta victoria á <lb/>los Philisteos ; pero
                                     coligándose <lb/>todos, cubrieron de armas el <lb/>valle de
                                     Raphain. Salió David <lb/>Raphain. Salió David <lb/>al
-                                    encuentro ; pero conociendo <pb n="29" source="Varios_428_29.jpg" facs="fedora_Varios_428_29/full/full/0/default.jpg"/>
+                                    encuentro ; pero conociendo <pb n="29" source="Varios_428_29.jpg" facs="varios/Varios_428_29.jpg/"/>
                                     <fw type="paginaNum">29</fw>
                                     <lb/>la ventaja del enemigo, excusó <lb/>la batalla, hasta
                                     consultar con <lb/>Dios el medio que tomaria. Ani- <lb/>móle
@@ -17010,7 +17010,7 @@
                                     agradecido, procurando con- <lb/>ducir á Jerusalem la Arca
                                     Santa <lb/>del Señor, que estaba en Ga- <lb/>baa en casa de
                                     Aminadab. En- <lb/>Aminadab. En- <lb/>tonces Oza, y Ahio, hijos
-                                    de <lb/>aquel, la pusieron en un carro, <pb n="30" source="Varios_428_30.jpg" facs="fedora_Varios_428_30/full/full/0/default.jpg"/>
+                                    de <lb/>aquel, la pusieron en un carro, <pb n="30" source="Varios_428_30.jpg" facs="varios/Varios_428_30.jpg/"/>
                                     <fw type="paginaNum">30</fw>
                                     <lb/>acompañandola delante. En lle- <lb/>gando al campo de
                                     Nachor, ha- <lb/>ciendo la Arca ademanes de tor- <lb/>cerse,
@@ -17063,7 +17063,7 @@
                                     <lb/>demás Gentiles. A las orillas del <lb/>Gentiles. A las
                                     orillas del <lb/>Eufrates se dió la batalla de po- <lb/>der á
                                     poder : pero á la valentía <lb/>de David se postró su mayor
-                                          <pb n="31" source="Varios_428_31.jpg" facs="fedora_Varios_428_31/full/full/0/default.jpg"/>
+                                          <pb n="31" source="Varios_428_31.jpg" facs="varios/Varios_428_31.jpg/"/>
                                     <fw type="paginaNum">31</fw>
                                     <lb/>brio. Dexóle en las manos la vic- <lb/>toria, y él huyó
                                     á uña de ca- <lb/>ballo. Los despojos que aqui <lb/>ganó,
@@ -17116,7 +17116,7 @@
                                     Moabitas fue- <lb/>ra de las que quedan menciona- <lb/>das, sin
                                     que bastase á impedir- <lb/>las la ingratitud de los Syrios,
                                     <lb/>que al tanto agavillados, repi- <lb/>tieron sus enconos por
-                                    sacudir <pb n="32" source="Varios_428_32.jpg" facs="fedora_Varios_428_32/full/full/0/default.jpg"/>
+                                    sacudir <pb n="32" source="Varios_428_32.jpg" facs="varios/Varios_428_32.jpg/"/>
                                     <fw type="paginaNum"/>
                                     <lb/>la cerviz del dominio Judaico. <lb/>Mas á todos los
                                     volvió á domar, <lb/>y sujetar David.</p>
@@ -17171,7 +17171,7 @@
                                     se la dió <lb/>á Urías, y éste se la entregó á <lb/>Joab.
                                     Leyóla, pues, y puso en <lb/>practica lo que David le decía.
                                     <lb/>Dispuesto ya el dia del asalto, <lb/>puso Joab al inocente
-                                    Urías <lb/>en la parte que consideró mas <pb n="33" source="Varios_428_33.jpg" facs="fedora_Varios_428_33/full/full/0/default.jpg"/>
+                                    Urías <lb/>en la parte que consideró mas <pb n="33" source="Varios_428_33.jpg" facs="varios/Varios_428_33.jpg/"/>
                                     <fw type="paginaNum">33</fw>
                                     <lb/>peligrosa. Recibió Urías por <lb/>honra, lo que era traza
                                     para <lb/>su peligro. Comenzóse la fun- <lb/>cion, y denodado,
@@ -17226,7 +17226,7 @@
                                           <lb/>do está Dios contra vos, y dice, <lb/>como no han de
                                           faltar jamás en tu <lb/>casa muertes atroces, y quien
                                           de</hi>
-                                    <pb n="34" source="Varios_428_34.jpg" facs="fedora_Varios_428_34/full/full/0/default.jpg"/>
+                                    <pb n="34" source="Varios_428_34.jpg" facs="varios/Varios_428_34.jpg/"/>
                                     <fw type="paginaNum">34</fw>
                                     <lb/><hi rend="cursiva">tu misma sangre te dé muchas pe-
                                           <lb/>sadumbres. Aturdido quedó</hi> Da- <lb/>vid al fallo
@@ -17281,7 +17281,7 @@
                                           Que olui- <lb/>dase enojos, y disgustos; y que <lb/>si no
                                           los podia borrar de su me- <lb/>moria, mandase darle una
                                           muer-</hi>
-                                    <pb n="35" source="Varios_428_35.jpg" facs="fedora_Varios_428_35/full/full/0/default.jpg"/>
+                                    <pb n="35" source="Varios_428_35.jpg" facs="varios/Varios_428_35.jpg/"/>
                                     <fw type="paginaNum">35</fw>
                                     <lb/><hi rend="cursiva">le publica, ó un garrote secreto,
                                           <lb/>que le quitare la vida de una vez, <lb/>y no tan á
@@ -17335,7 +17335,7 @@
                                           <lb/>y vamonos á los Montes á buscar <lb/>sagrado, hasta
                                           que pase esta pri- <lb/>mera avenida de trabajos.
                                           <lb/>Todos respondieron, que es-</hi>
-                                    <pb n="36" source="Varios_428_36.jpg" facs="fedora_Varios_428_36/full/full/0/default.jpg"/>
+                                    <pb n="36" source="Varios_428_36.jpg" facs="varios/Varios_428_36.jpg/"/>
                                     <fw type="paginaNum">36</fw>
                                     <hi rend="cursiva"><lb/>taban prontos á hacer quanto or-
                                           <lb/>denase. Entonces David toman- <lb/>do consigo todos
@@ -17389,7 +17389,7 @@
           <p><lb/>Atento escuchaba el barbaro <lb/>las palabras de David, y
                                     al pa- <lb/>so que lastimado de oirlas, to- <lb/>mado mas de su
                                     honroso pun- <lb/>donor, respondió de esta suerte: <lb/>"Juro
-                                    por Dios del Cielo, y por <pb n="37" source="Varios_428_37.jpg" facs="fedora_Varios_428_37/full/full/0/default.jpg"/>
+                                    por Dios del Cielo, y por <pb n="37" source="Varios_428_37.jpg" facs="varios/Varios_428_37.jpg/"/>
                                     <fw type="paginaNum">37</fw>
                                     <lb/>"la vida de V. Magestad de no <lb/>V. Magestad de no
                                     <lb/>"apartarme de su lado en todo <lb/>"trance, y peligro, y de
@@ -17441,7 +17441,7 @@
                                     mas <lb/>"me pueden servir en Jerusalem; <lb/>"porque si tú con
                                     tu buen ar- <lb/>"did te puedes introducir con <lb/>"Absalon,
                                     podrás tener con él <lb/>"mano, y cabida, para destruir
-                                    <lb/>"con tu prudencia los consejos, <pb n="38" source="Varios_428_38.jpg" facs="fedora_Varios_428_38/full/full/0/default.jpg"/>
+                                    <lb/>"con tu prudencia los consejos, <pb n="38" source="Varios_428_38.jpg" facs="varios/Varios_428_38.jpg/"/>
                                     <lb/>"que diere contra mí el malva- <lb/>"do Achitophel, que
                                     aunque él <lb/>"es bien entendido, quizá le <lb/>"vencerá tu
                                     entendimiento, pues <lb/>"tú obras con justicia, y él o-
@@ -17495,7 +17495,7 @@
                                     el vencimien- <lb/>to, como le sucedió á David, <lb/>que lo
                                     consigue.</p>
           <p><lb/>Oponiase Chusai á todos los <lb/>consejos que el infame
-                                    Achito- <pb n="39" source="Varios_428_39.jpg" facs="fedora_Varios_428_39/full/full/0/default.jpg"/>
+                                    Achito- <pb n="39" source="Varios_428_39.jpg" facs="varios/Varios_428_39.jpg/"/>
                                     <fw type="paginaNum">39</fw>
                                     <lb/>phel daba en las juntas. Acertó á <lb/>dar uno, que fue no
                                     menos, que <lb/>dar pronto contra David, y to- <lb/>da su gente,
@@ -17546,7 +17546,7 @@
                                     le tuvo presente <lb/>hasta su muerte, como ya ve- <lb/>remos.
                                     Con semejantes socorros <lb/>se iba David rehaciendo, y co-
                                     <lb/>brando gente. Absalon no se des- <lb/>cuidaba, porque
-                                    tambien la re- <lb/>cogía, y congregó en Jerusalem <pb n="40" source="Varios_428_40.jpg" facs="fedora_Varios_428_40/full/full/0/default.jpg"/>
+                                    tambien la re- <lb/>cogía, y congregó en Jerusalem <pb n="40" source="Varios_428_40.jpg" facs="varios/Varios_428_40.jpg/"/>
                                     <fw type="paginaNum">40</fw>
                                     <lb/>un copioso exército de las doce <lb/>Tribus.</p>
           <p><lb/>Luego que David hubo junta- <lb/>do el mayor trozo de
@@ -17599,7 +17599,7 @@
           <p><lb/>Quando vió el infeliz Infante <lb/>desbaratado su campo,
                                     montó <lb/>en un bruto ligero, y echó á huir <lb/>por el
                                     monte con suma celeridad. <lb/>Llevaba esparcida, al aire la me-
-                                          <pb n="41" source="Varios_428_41.jpg" facs="fedora_Varios_428_41/full/full/0/default.jpg"/>
+                                          <pb n="41" source="Varios_428_41.jpg" facs="varios/Varios_428_41.jpg/"/>
                                     <fw type="paginaNum">41</fw>
                                     <lb/>lena hermosa de sus cabellos, y <lb/>enredándosele en las
                                     ramas de <lb/>una encina, y pasando el bruto <lb/>adelante
@@ -17653,7 +17653,7 @@
                                     que qui- <lb/>siese, propio de pechos nobles, <lb/>proceder con
                                     gratitudes con <lb/>aquellos que han sido liberales.
                                     <lb/>Díxole, que se fuese con él á <fw type="signaturas">F</fw>
-                                    <pb n="42" source="Varios_428_42.jpg" facs="fedora_Varios_428_42/full/full/0/default.jpg"/>
+                                    <pb n="42" source="Varios_428_42.jpg" facs="varios/Varios_428_42.jpg/"/>
                                     <fw type="paginaNum">42</fw>
                                     <lb/>Jerusalem á pasar gustoso lo que <lb/>le quedaba de vida;
                                     trocando en <lb/>cortesano lo rústico de la Aldéa, <lb/>y que
@@ -17706,7 +17706,7 @@
                                     <lb/>libertades, y osadías, y dadosele <lb/>á su primo Amasa.
                                     Tenia fragua- <lb/>Amasa. Tenia fragua- <lb/>da en su pecho la
                                     venganza; y <lb/>como si Amasa tuviera culpa en <lb/>admitir las
-                                    mercedes que el Rey <lb/>le hacia, le dió la muerte. Lle- <pb n="43" source="Varios_428_43.jpg" facs="fedora_Varios_428_43/full/full/0/default.jpg"/>
+                                    mercedes que el Rey <lb/>le hacia, le dió la muerte. Lle- <pb n="43" source="Varios_428_43.jpg" facs="varios/Varios_428_43.jpg/"/>
                                     <fw type="paginaNum">43</fw>
                                     <lb/>góse á él muy cariñoso á salu- <lb/>darle, y al tiempo
                                     de abrazarle, <lb/>sacando un puñal, se lo metió <lb/>por las
@@ -17757,7 +17757,7 @@
                                     culpa, pues mas la em- <lb/>"prendí de necio, que de ma-
                                     <lb/>"licioso." Ocurrió luego el Pro- <lb/>feta Gad, enviado de
                                     Dios, y <lb/>le dixo : El Señor me envia á <lb/>V. Magestad
-                                    para que le intime <lb/>que elija de tres cosase la que <pb n="44" source="Varios_428_44.jpg" facs="fedora_Varios_428_44/full/full/0/default.jpg"/>
+                                    para que le intime <lb/>que elija de tres cosase la que <pb n="44" source="Varios_428_44.jpg" facs="varios/Varios_428_44.jpg/"/>
                                     <fw type="paginaNum">44</fw>
                                     <lb/>mas le agrade, en pena de su <lb/>culpa : ó siete años de
                                     hambre <lb/>por todo su Reyno : ó tres meses <lb/>de guerra,
@@ -17809,7 +17809,7 @@
                                     y tal, que tuviese partes, <lb/>y calidades para el caso, como
                                     <lb/>merecedora de ser muger de un <lb/>Rey ( pues menos que con
                                     este <lb/>título, no habia de querer el san- <lb/>to viejo
-                                    meter mugeres consigo, <pb n="45" source="Varios_428_45.jpg" facs="fedora_Varios_428_45/full/full/0/default.jpg"/>
+                                    meter mugeres consigo, <pb n="45" source="Varios_428_45.jpg" facs="varios/Varios_428_45.jpg/"/>
                                     <fw type="paginaNum">45</fw>
                                     <lb/>ni gozar de sus brazos ) la qual <lb/>con juventud,
                                     honestidad, y <lb/>hermosura, sin indicios de ape- <lb/>tito,
@@ -17861,7 +17861,7 @@
                                     <lb/>este tiempo entró el Profeta Na- <lb/>tán, y lleno de
                                     admiracion, co- <lb/>menzó á extrañar la novedad de
                                     <lb/>llamarse Adonías Rey, contra la <lb/>voluntad del que
-                                    tenía aun el <lb/>mando. Aqui David, desechó el <pb n="46" source="Varios_428_46.jpg" facs="fedora_Varios_428_46/full/full/0/default.jpg"/>
+                                    tenía aun el <lb/>mando. Aqui David, desechó el <pb n="46" source="Varios_428_46.jpg" facs="varios/Varios_428_46.jpg/"/>
                                     <fw type="paginaNum">46</fw>
                                     <lb/>dolor, y el susto que le tenian <lb/>presa la voz, y dixo:
                                     Vive el Se- <lb/>ñor, que es quien me ha librado <lb/>de todas
@@ -17914,7 +17914,7 @@
                                           me ha dexado ver á un <lb/>hijo coronado, ocupando mi
                                           Trono <lb/>Real.</hi> Conociendo, pues, que se
                                     <lb/>llegaba su muerte, y que el alien- <lb/>to vital flaqueaba
-                                    cada dia mas, <lb/>trató de disponer sus cosas, antes <pb n="47" source="Varios_428_47.jpg" facs="fedora_Varios_428_47/full/full/0/default.jpg"/>
+                                    cada dia mas, <lb/>trató de disponer sus cosas, antes <pb n="47" source="Varios_428_47.jpg" facs="varios/Varios_428_47.jpg/"/>
                                     <fw type="paginaNum">47</fw>
                                     <lb/>que el entendimiento padeciese <lb/>algun desmayo ; y
                                     enternecido, <lb/>dixo á su hijo á parte en se- <lb/>creto :
@@ -17965,7 +17965,7 @@
                                     buscando lo <lb/>"seguro de las breñas, me sa- <lb/>"lieron
                                     estos nobles hijos con <lb/>"su venerable padre al encuen-
                                     <lb/>"tro, cargados de regalos con <lb/>"que socorrerme : accion
-                                    que la <lb/>"esculpí en el alma, y merece- <pb n="48" source="Varios_428_48.jpg" facs="fedora_Varios_428_48/full/full/0/default.jpg"/>
+                                    que la <lb/>"esculpí en el alma, y merece- <pb n="48" source="Varios_428_48.jpg" facs="varios/Varios_428_48.jpg/"/>
                                     <fw type="paginaNum">48</fw>
                                     <lb/>"dora siempre de favores, y re- <lb/>"cuerdos. Tenlos,
                                     pues, siempre <lb/>"en memoria, como yo los he

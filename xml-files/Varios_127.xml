@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../Schema/oddPliego_varios.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:alto="http://www.loc.gov/standards/alto/ns-v4#" xml:id="Varios_127">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Varios_127">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -11,8 +11,7 @@
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <authority role="rightsHolder">Bibliothèque Universitaire de
-                            Genève</authority>
+        <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
         <availability status="restricted">
           <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
         </availability>
@@ -20,8 +19,10 @@
       <sourceDesc>
         <biblFull>
           <titleStmt>
-            <title type="titulo_completo">LA QUINTA DE LAS MUJERES Donde se verá la espocición que piensan dirigir las solteras al Ministro para que les conceda el ir á la guerra, á ver si de este modo encuentran maridos.</title>
-            <title type="titulo_breve">LA QUINTA DE LAS MUJERES Donde</title>
+            <title type="titulo_completo">LA QUINTA DE LAS MUJERES Donde se verá la espocición que
+              piensan dirigir las solteras al Ministro para que les conceda el ir á la guerra, á
+              ver si de este modo encuentran maridos.</title>
+            <title type="titulo_breve">LA QUINTA DE LAS MUJERES</title>
           </titleStmt>
           <editionStmt>
             <p/>
@@ -29,7 +30,7 @@
           <publicationStmt>
             <publisher>Sucesores de Hernando</publisher>
             <pubPlace ref="https://www.geonames.org/3117735/madrid.html">Madrid</pubPlace>
-            <date>[s.a]</date>
+            <date cert="low" when="1800-01-01">[s.a.]</date>
           </publicationStmt>
         </biblFull>
         <msDesc>
@@ -37,7 +38,8 @@
             <country>Suisse</country>
             <settlement>Genève</settlement>
             <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"/>
-                  </repository>
+            </repository>
+            <collection>Colección Varios</collection>
             <idno type="cote"/>
             <idno type="DOI">10.5281/zenodo.6577453</idno>
             <altIdentifier>
@@ -66,7 +68,7 @@
               </layoutDesc>
             </objectDesc>
             <decoDesc>
-              <summary n="1">Uno grabado (p.1) </summary>
+              <summary n="1">Un grabado (p.1)</summary>
               <decoNote type="lista_grabados">
                 <list>
                   <item corresp="grabado_v_127_1.xml">grabado_v_127_1</item>
@@ -91,18 +93,17 @@
     </fileDesc>
     <encodingDesc>
       <projectDesc>
-        <p>Este archivo fue creado en el marco del proyecto Desenrollando el
-                            Cordel/Démêler le cordel/Untangling the cordel, dirigido por la
-                            profesora Constance Carta de la Universidad de Ginebra, con el apoyo de
-                            la Fundación filantrópica Famille Sandoz-Monique de Meuron.</p>
+        <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+          cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la Universidad
+          de Ginebra, con el apoyo de la Fundación filantrópica Famille Sandoz-Monique de
+          Meuron.</p>
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR non corregido</p>
+          <p>OCR no corregido</p>
         </correction>
         <normalization>
-          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto
-                                original.</p>
+          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
         </normalization>
         <punctuation>
           <p>Se conserva la puntuación original.</p>
@@ -124,9 +125,13 @@
     </profileDesc>
     <revisionDesc>
       <change when="2022-09-02" who="#PJ">Création du fichier TEI P5 et encodage du corps du
-                        texte</change>
+        texte</change>
+      <change when="2024-01-09" who="#EL">Add the IIIF links</change>
     </revisionDesc>
   </teiHeader>
+  <facsimile>
+    <graphic url="varios/Varios_127_1.jpg/full/200,/0/default.jpg"/>
+  </facsimile>
   <sourceDoc xml:id="automaticTranscription">
     <surface xml:id="Varios_127_1" type="page" cert="silver">
       <graphic url="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_127_1/full/full/0/default.jpg"/>
@@ -1080,7 +1085,7 @@
       </zone>
       <zone xml:id="Varios_127_4_BT227_3" n="3" type="MainZone" subtype="columns" points="1647,517 1577,1384 1629,1522 1524,1612 1550,1708 1524,1881 973,1899 951,1464 962,1464 962,1202 957,1202 957,838 939,838 939,762 966,762 966,427 966,316 1506,324 1533,471 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_127_4/939,316,708,1583/full/0/default" corresp="MainZone:columns">
         <zone xml:id="Varios_127_4_BT227_3__1" type="DefaultLine" subtype="none" points="1445,322 1423,322 1401,322 1379,322 1357,322 1335,322 1313,319 1291,319 1269,319 1248,319 1226,319 1204,319 1182,319 1160,319 1138,317 1116,317 1094,317 1072,317 1050,317 1028,317 1006,317 984,317 965,313 965,350 962,363 1465,368 1469,352 1465,322 1445,322 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_127_4/962,313,507,55/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_127_4_BT227_3__1_1" points="966,351 1471,354 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
+          <path xml:id="Varios_127_4_BT227_3__1_1" points="966,351 1471,354 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
           <line>se nos ofrecen las bellas</line>
         </zone>
         <zone xml:id="Varios_127_4_BT227_3_LT83_2" type="DefaultLine" subtype="none" points="971,396 969,361 1449,354 1452,396 1452,414 971,414 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_127_4/969,354,483,60/full/0/default" corresp="DefaultLine">
@@ -1231,230 +1236,227 @@
   <text>
     <body>
       <div>
-        <pb n="1" source="Varios_127_1.jpg" facs="fedora_Varios_127_1/full/full/0/default.jpg"/>
-        <fw type="numeroPliego">(Núm. 110.)</fw>
-        <div type="parte" n="1">
+        <div>
+          <pb n="1" source="Varios_127_1.jpg" facs="varios/Varios_127_1.jpg/"/>
+
+          <fw type="numeroPliego">(Núm. 110.)</fw>
+
           <head type="primer_titulo"><lb/>LA QUINTA DE LAS MUJERES</head>
-          <head type="titulo_parte"><lb/>Donde se verá la espocición que piensan dirigir las solteras al Ministro<lb/>para que les conceda el ir á la guerra, á ver si de este modo<lb/>encuentran maridos.</head>
-          <lg>
-            <l>Al ver que se van llevando</l>
-            <l>á la guerra con empeño</l>
-            <l>á toda la juventud</l>
-            <l>honra del hispano suelo,</l>
-            <l>las solteras (que son muchas)</l>
-            <l>una tarde decidieron</l>
-            <l>tener una reunión</l>
-            <l>y ver de común acuerdo</l>
-            <l>el modo más eficaz</l>
-            <l>de poner al mal remedio,</l>
-            <l>pues miran que el matrimonio</l>
-            <l>ha perdido todo el pleito;</l>
-          </lg>
-          <lg>
-            <l>suceso que á todas ellas</l>
-            <l>las ha afligido en extremo.</l>
-            <l>Allí reunidas todas</l>
-            <l>las que lograr no pudieron</l>
-            <l>que las alumbrara un dia</l>
-            <l>la antorcha del himeneo,</l>
-            <l>armaron tal algazara</l>
-            <l>y tan infernal estruendo,</l>
-            <l>que nada en limpio sacaron</l>
-            <l>de todo cuanto dijeron;</l>
-            <l>hasta que una morenita</l>
-            <l>de ojos rasgados y negros,</l>
-          </lg>
-          <pb n="2" source="Varios_127_2.jpg" facs="fedora_Varios_127_2/full/full/0/default.jpg"/>
+          <head type="subtitulo" rend="cursiva"><lb/>Donde se verá la espocición que piensan
+            dirigir las solteras al Ministro<lb/>para que les conceda el ir á la guerra, á ver si
+            de este modo<lb/>encuentran maridos.</head>
+
+          <l rend="indent">Al ver que se van llevando</l>
+          <l>á la guerra con empeño</l>
+          <l>á toda la juventud</l>
+          <l>honra del hispano suelo,</l>
+          <l>las solteras (que son muchas)</l>
+          <l>una tarde decidieron</l>
+          <l>tener una reunión</l>
+          <l>y ver de común acuerdo</l>
+          <l>el modo más eficaz</l>
+          <l>de poner al mal remedio,</l>
+          <l>pues miran que el matrimonio</l>
+          <l>ha perdido todo el pleito;</l>
+          <l>suceso que á todas ellas</l>
+          <l>las ha afligido en extremo.</l>
+          <l>Allí reunidas todas</l>
+          <l>las que lograr no pudieron</l>
+          <l>que las alumbrara un dia</l>
+          <l>la antorcha del himeneo,</l>
+          <l>armaron tal algazara</l>
+          <l>y tan infernal estruendo,</l>
+          <l>que nada en limpio sacaron</l>
+          <l>de todo cuanto dijeron;</l>
+          <l>hasta que una morenita</l>
+          <l>de ojos rasgados y negros,</l>
+
+          <pb n="2" source="Varios_127_2.jpg" facs="varios/Varios_127_2.jpg/"/>
+
           <fw type="paginaNum">— 2 —</fw>
-          <lg>
-            <l>de los que abrasan al alma</l>
-            <l>con sus miradas de fuego,</l>
-            <l>dominándolas á todas,</l>
-            <l>exclamó con firme acento:</l>
-            <l>«Amigas y compañeras:</l>
-            <l>yo la primera confieso</l>
-            <l>cuán justas son vuestras quejas,</l>
-            <l>y pues yo las mismas tengo,</l>
-            <l>permitidme que os exponga</l>
-            <l>mi humilde pensamiento;</l>
-            <l>y si todas lo aprobáis,</l>
-            <l>como supongo, os prometo</l>
-            <l>que hemos de encontrar marido</l>
-            <l>dentro de muy poco tiempo;</l>
-            <l>y no os quepa duda alguna,</l>
-            <l>que hasta eligirle podremos.»</l>
-            <l>Al oir estas palabras</l>
-            <l>todas guardaron silencio,</l>
-            <l>y la morena al notarlo,</l>
-            <l>continuó así diciendo:</l>
-            <l>«Ya habéis visto cuántas quintas</l>
-            <l>se sacan hace algún tiempo,</l>
-            <l>y cómo se van llevando</l>
-            <l>todos los mozos solteros,</l>
-            <l>sin que nos dejen aquí</l>
-            <l>ninguno para un remedio.</l>
-            <l>En un principio siquiera</l>
-            <l>libres de ellas estuvieron</l>
-            <l>los que inútiles se hallaban;</l>
-            <l>mas hoy los flacos y entecos,</l>
-            <l>los sordos y los tullidos,</l>
-            <l>y hasta los tontos y viejos,</l>
-            <l>los vemos entrar en filas</l>
-            <l>llenos de entusiasmo bélico,</l>
-            <l>y nosotras nos quedamos</l>
-            <l>viendo por dónde partieron</l>
-            <l>y dando tiernos suspiros</l>
-            <l>que no tienen ningún mérito,</l>
-            <l>porque ellos no nos devuelven</l>
-            <l>los novios que se nos fueron.</l>
-            <l>Y pues la guerra no acaba</l>
-            <l>y se va pasando el tiempo,</l>
-            <l>y tan sólo conseguimos</l>
-            <l>el irnos envejeciendo,</l>
-          </lg>
-          <lg>
-            <l>yo hallo lo más oportuno</l>
-            <l>solicitar del Gobierno</l>
-            <l>una quinta de mujeres</l>
-            <l>en la que todas entremos,</l>
-            <l>y dando pruebas al mundo</l>
-            <l>de nuestro valor inmenso,</l>
-            <l>aprendamos á batirnos,</l>
-            <l>sin que nos infundan miedo</l>
-            <l>ni el silbido de las balas,</l>
-            <l>ni el fulgor de los aceros;</l>
-            <l>y en medio de los combates</l>
-            <l>nuestro heroísmo mostremos,</l>
-            <l>dando al aire la bandera</l>
-            <l>de nuestro bendito pueblo,</l>
-            <l>y en ella escrita esta frase:</l>
-            <l>Amor se encierra en mi pecho.</l>
-            <l>No ganaremos acciones,</l>
-            <l>mas maridos sacaremos,</l>
-            <l>y cuando la guerra acabe</l>
-            <l>y á nuestro hogar regresemos</l>
-            <l>después de haber conquistado</l>
-            <l>lo que ansiamos con empeño,</l>
-            <l>podremos decir dichosas</l>
-            <l>que si maridos tenemos</l>
-            <l>nos les dió nuestro valor</l>
-            <l>y nuestro heroico esfuerzo.</l>
-            <l>Así,¡hurra, compañeras!</l>
-            <l>sin tardanza conquistemos</l>
-            <l>cada cual lo que desea,</l>
-            <l>y ese será nuestro premio.»</l>
-            <l>Después que con entusiasmo</l>
-            <l>todas el discurso oyeron,</l>
-            <l>se decidió que la súplica</l>
-            <l>que había de ir al Gobierno</l>
-            <l>la escribiese la morena</l>
-            <l>y la firmarían luego</l>
-            <l>todas las que allí presentes</l>
-            <l>había en aquel momento.</l>
-            <l>Mas aquélla, que sin duda</l>
-            <l>contó con aquel acuerdo,</l>
-            <l>sacando de su bolsillo</l>
-            <l>un papel de los del sello,</l>
-            <l>dijo: «Aquí está redactada</l>
-            <l>con tan eficaces términos,</l>
-          </lg>
-          <pb n="3" source="Varios_127_3.jpg" facs="fedora_Varios_127_3/full/full/0/default.jpg"/>
+
+          <l>de los que abrasan al alma</l>
+          <l>con sus miradas de fuego,</l>
+          <l>dominándolas á todas,</l>
+          <l>exclamó con firme acento:</l>
+          <l>«Amigas y compañeras:</l>
+          <l>yo la primera confieso</l>
+          <l>cuán justas son vuestras quejas,</l>
+          <l>y pues yo las mismas tengo,</l>
+          <l>permitidme que os exponga</l>
+          <l>mi humilde pensamiento;</l>
+          <l>y si todas lo aprobáis,</l>
+          <l>como supongo, os prometo</l>
+          <l>que hemos de encontrar marido</l>
+          <l>dentro de muy poco tiempo;</l>
+          <l>y no os quepa duda alguna,</l>
+          <l>que hasta eligirle podremos.»</l>
+          <l rend="indent">Al oir estas palabras</l>
+          <l>todas guardaron silencio,</l>
+          <l>y la morena al notarlo,</l>
+          <l>continuó así diciendo:</l>
+          <l>«Ya habéis visto cuántas quintas</l>
+          <l>se sacan hace algún tiempo,</l>
+          <l>y cómo se van llevando</l>
+          <l>todos los mozos solteros,</l>
+          <l>sin que nos dejen aquí</l>
+          <l>ninguno para un remedio.</l>
+          <l>En un principio siquiera</l>
+          <l>libres de ellas estuvieron</l>
+          <l>los que inútiles se hallaban;</l>
+          <l>mas hoy los flacos y entecos,</l>
+          <l>los sordos y los tullidos,</l>
+          <l>y hasta los tontos y viejos,</l>
+          <l>los vemos entrar en filas</l>
+          <l>llenos de entusiasmo bélico,</l>
+          <l>y nosotras nos quedamos</l>
+          <l>viendo por dónde partieron</l>
+          <l>y dando tiernos suspiros</l>
+          <l>que no tienen ningún mérito,</l>
+          <l>porque ellos no nos devuelven</l>
+          <l>los novios que se nos fueron.</l>
+          <l>Y pues la guerra no acaba</l>
+          <l>y se va pasando el tiempo,</l>
+          <l>y tan sólo conseguimos</l>
+          <l>el irnos envejeciendo,</l>
+          <l>yo hallo lo más oportuno</l>
+          <l>solicitar del Gobierno</l>
+          <l>una quinta de mujeres</l>
+          <l>en la que todas entremos,</l>
+          <l>y dando pruebas al mundo</l>
+          <l>de nuestro valor inmenso,</l>
+          <l>aprendamos á batirnos,</l>
+          <l>sin que nos infundan miedo</l>
+          <l>ni el silbido de las balas,</l>
+          <l>ni el fulgor de los aceros;</l>
+          <l>y en medio de los combates</l>
+          <l>nuestro heroísmo mostremos,</l>
+          <l>dando al aire la bandera</l>
+          <l>de nuestro bendito pueblo,</l>
+          <l>y en ella escrita esta frase:</l>
+          <l rend="cursiva">Amor se encierra en mi pecho.</l>
+          <l>No ganaremos acciones,</l>
+          <l>mas maridos sacaremos,</l>
+          <l>y cuando la guerra acabe</l>
+          <l>y á nuestro hogar regresemos</l>
+          <l>después de haber conquistado</l>
+          <l>lo que ansiamos con empeño,</l>
+          <l>podremos decir dichosas</l>
+          <l>que si maridos tenemos</l>
+          <l>nos les dió nuestro valor</l>
+          <l>y nuestro heroico esfuerzo.</l>
+          <l>Así,¡hurra, compañeras!</l>
+          <l>sin tardanza conquistemos</l>
+          <l>cada cual lo que desea,</l>
+          <l>y ese será nuestro premio.»</l>
+          <l rend="indent">Después que con entusiasmo</l>
+          <l>todas el discurso oyeron,</l>
+          <l>se decidió que la súplica</l>
+          <l>que había de ir al Gobierno</l>
+          <l>la escribiese la morena</l>
+          <l>y la firmarían luego</l>
+          <l>todas las que allí presentes</l>
+          <l>había en aquel momento.</l>
+          <l>Mas aquélla, que sin duda</l>
+          <l>contó con aquel acuerdo,</l>
+          <l>sacando de su bolsillo</l>
+          <l>un papel de los del sello,</l>
+          <l>dijo: «Aquí está redactada</l>
+          <l>con tan eficaces términos,</l>
+
+          <pb n="3" source="Varios_127_3.jpg" facs="varios/Varios_127_3.jpg/"/>
           <fw type="paginaNum">— 3 —</fw>
-          <lg>
-            <l>que no dudo nos concedan</l>
-            <l>al punto lo que queremos.</l>
-            <l>Mas por si acaso á vosotras</l>
-          </lg>
-          <lg>
-            <l>se os ocurriera algo nuevo,</l>
-            <l>escuchadme, la léeré</l>
-            <l>si todas guardáis silencio:</l>
-          </lg>
-        </div>
-        <div type="parte" n="2">
-          <head type="titulo_parte"><lb/>ENPOSICIÓN</head>
-          <lg>
-            <l>A Su Excelencia, señor,</l>
+
+          <l>que no dudo nos concedan</l>
+          <l>al punto lo que queremos.</l>
+          <l>Mas por si acaso á vosotras</l>
+          <l>se os ocurriera algo nuevo,</l>
+          <l>escuchadme, la léeré</l>
+          <l>si todas guardáis silencio:</l>
+
+
+          <div>
+            <head type="titulo_parte"><lb/>EXPOSICIÓN</head>
+
+            <l rend="indent">A Su Excelencia, señor,</l>
             <l>humildemente rogamos,</l>
             <l>cuantas solteras estamos,</l>
             <l>que nos conceda un favor.</l>
-            <l>No le pedimos marido</l>
+            <l rend="indent">No le pedimos marido</l>
             <l>que nos conduzca al altar,</l>
             <l>ni le vamas á rogar</l>
             <l>nos dé un novio decidido.</l>
-            <l>Sólo queremos pedir,</l>
+            <l rend="indent">Sólo queremos pedir,</l>
             <l>y esto á ninguna la aterra,</l>
             <l>que para acabar la guerra</l>
             <l>nos lleven á combatir.</l>
-            <l>Ya que quintas á porfía</l>
+            <l rend="indent">Ya que quintas á porfía</l>
             <l>sin cesar se están sacando</l>
             <l>y solas nos van dejando</l>
             <l>sin ninguna compañía,</l>
-            <l>Queremos sufrir la suerte</l>
+            <l rend="indent">Queremos sufrir la suerte</l>
             <l>que á ellos les pueda caber,</l>
             <l>pues bien puede una mujer</l>
             <l>ser como el hombre más fuerte.</l>
-            <l>Por eso á Vuestra Excelencia</l>
+            <l rend="indent">Por eso á Vuestra Excelencia</l>
             <l>humildes hoy recurrimos</l>
             <l>y una quinta le pedimos</l>
             <l>¡y con muchísima urgencia!</l>
-            <l>No le detenga, señor,</l>
+            <l rend="indent">No le detenga, señor,</l>
             <l>la poca ó la mucha edad,</l>
             <l>pues nuestra gran voluntad</l>
             <l>nos dará á todas valor.</l>
-            <l>Y cuando llenas de afán</l>
+            <l rend="indent">Y cuando llenas de afán</l>
             <l>al enemigo busquemos,</l>
             <l>al punto que le encontremos</l>
             <l>sus armas nos rendirán.</l>
-            <l>Pues más que puedan lograr</l>
+            <l rend="indent">Pues más que puedan lograr</l>
             <l>cien mil ametralladoras</l>
-          </lg>
-          <lg>
             <l>nuestras gracias seductoras</l>
             <l>de ellos podrán alcanzar.</l>
-            <l>¿A qué con encono y saña</l>
+            <l rend="indent">¿A qué con encono y saña</l>
             <l>¿A qué más sangre verter?</l>
             <l>se ha de dejar en España</l>
             <l>más tiempo la guerra arder?</l>
-            <l>á luchar en buenas lides;</l>
+            <l rend="indent">á luchar en buenas lides;</l>
             <l>Dejad, señor, que vayamos</l>
             <l>seremos los adalides</l>
             <l>que á España la paz traigamos.</l>
-            <l>Allí será nuestro lema</l>
+            <l rend="indent">Allí será nuestro lema</l>
             <l>el de triunfar ó morir,</l>
             <l>sin que ni una al combatir</l>
             <l>halle un peligro que tema.</l>
-            <l>Pues es tal el ardimiento</l>
+            <l rend="indent">Pues es tal el ardimiento</l>
             <l>que en nuestros pechos se abriga,</l>
             <l>que de la hueste enemiga</l>
             <l>triunfaremos al momento.</l>
-            <l>Así, pues, sin dilación</l>
+            <l rend="indent">Así, pues, sin dilación</l>
             <l>nuestra quinta decretad</l>
             <l>y podamos con verdad</l>
             <l>formar algún batallón.</l>
-            <l>Ningunas jefes serán,</l>
+            <l rend="indent">Ningunas jefes serán,</l>
             <l>todas de soldados vamos,</l>
             <l>mas doquiera que vayamos</l>
             <l>oficiales nos darán.</l>
-            <l>Y pues no es el ascender</l>
+            <l rend="indent">Y pues no es el ascender</l>
             <l>el móvil que allí nos guía,</l>
             <l>nuestro arrojo en este día</l>
             <l>debe mérito tener.</l>
-            <l>Así, señor, en Vuecencia</l>
+            <l rend="indent">Así, señor, en Vuecencia</l>
             <l>las firmantes confiamos</l>
             <l>y su decreto esperamos</l>
             <l>con la mayor impaciencia.</l>
-          </lg>
-          <pb n="4" source="Varios_127_4.jpg" facs="fedora_Varios_127_4/full/full/0/default.jpg"/>
-          <fw type="paginaNum">— 4 —</fw>
-          <lg>
-            <l>Es gracia que en el momento</l>
+
+            <pb n="4" source="Varios_127_4.jpg" facs="varios/Varios_127_4.jpg/"/>
+            <fw type="paginaNum">— 4 —</fw>
+
+            <l rend="indent">Es gracia que en el momento</l>
             <l>ansiamos ver conseguida,</l>
             <l>rogando á Dios que su vida</l>
             <l>guarde por años sin cuento.»</l>
             <l>. . . . . . . . . . . . . . . . . . . . . . . . . . . . .</l>
             <l>. . . . . . . . . . . . . . . . . . . . . . . . . . . . . .</l>
-            <l>Apenas á la lectura</l>
+            <l rend="indent">Apenas á la lectura</l>
             <l>término dió la morena,</l>
             <l>todas batiendo las palmas</l>
             <l>de noble entusiasmo llenas</l>
@@ -1483,8 +1485,6 @@
             <l>por su extremada bravura</l>
             <l>y por sus hechos de guerra.</l>
             <l>Hoy, que con tal entusiasmo</l>
-          </lg>
-          <lg>
             <l>se nos ofrecen las bellas</l>
             <l>aprestándose á la lucha</l>
             <l>como valientes guerreras</l>
@@ -1520,8 +1520,9 @@
             <l>y por justa recompensa</l>
             <l>en premio de su valor</l>
             <l>quitadlas de ser solteras.</l>
-          </lg>
+          </div>
         </div>
+        
         <div type="colofon">
           <p><lb/>Madrid. — Despacho: Arenal, 11, librería.</p>
         </div>

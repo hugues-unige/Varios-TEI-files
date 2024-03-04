@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../Schema/oddPliego_varios.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:alto="http://www.loc.gov/standards/alto/ns-v4#" xml:id="Varios_100">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Varios_100">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -11,8 +11,7 @@
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <authority role="rightsHolder">Bibliothèque Universitaire de
-                            Genève</authority>
+        <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
         <availability status="restricted">
           <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
         </availability>
@@ -20,16 +19,17 @@
       <sourceDesc>
         <biblFull>
           <titleStmt>
-            <title type="titulo_completo">RELACION HECHA POR UN MOZO SOLTERO, Manifestando los quarenta motivos para no casarsey treinta y seis para descasarse.</title>
+            <title type="titulo_completo">RELACION HECHA POR UN MOZO SOLTERO, Manifestando los
+              quarenta motivos para no casarsey treinta y seis para descasarse.</title>
             <title type="titulo_breve">RELACION HECHA POR UN MOZO SOLTERO</title>
           </titleStmt>
           <editionStmt>
             <p/>
           </editionStmt>
           <publicationStmt>
-            <publisher>D. Luis Ramos y Coria</publisher>
+            <publisher>Luis de Ramos y Coria</publisher>
             <pubPlace ref="https://www.geonames.org/2519240/cordoba.html">Córdoba</pubPlace>
-            <date>[s.a]</date>
+            <date cert="low" when="1800-01-01">[s.a.]</date>
           </publicationStmt>
         </biblFull>
         <msDesc>
@@ -37,7 +37,8 @@
             <country>Suisse</country>
             <settlement>Genève</settlement>
             <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"/>
-                  </repository>
+            </repository>
+            <collection>Colección Varios</collection>
             <idno type="cote"/>
             <idno type="DOI">10.5281/zenodo.6575992</idno>
             <altIdentifier>
@@ -66,7 +67,7 @@
               </layoutDesc>
             </objectDesc>
             <decoDesc>
-              <summary n="1">Uno grabado (p.1) </summary>
+              <summary n="1">Un grabado (p.1) </summary>
               <decoNote type="lista_grabados">
                 <list>
                   <item corresp="grabado_v_100_1.xml">grabado_v_100_1</item>
@@ -87,18 +88,17 @@
     </fileDesc>
     <encodingDesc>
       <projectDesc>
-        <p>Este archivo fue creado en el marco del proyecto Desenrollando el
-                            Cordel/Démêler le cordel/Untangling the cordel, dirigido por la
-                            profesora Constance Carta de la Universidad de Ginebra, con el apoyo de
-                            la Fundación filantrópica Famille Sandoz-Monique de Meuron.</p>
+        <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+          cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la Universidad
+          de Ginebra, con el apoyo de la Fundación filantrópica Famille Sandoz-Monique de
+          Meuron.</p>
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR non corregido</p>
+          <p>OCR no corregido</p>
         </correction>
         <normalization>
-          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto
-                                original.</p>
+          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
         </normalization>
         <punctuation>
           <p>Se conserva la puntuación original.</p>
@@ -120,9 +120,13 @@
     </profileDesc>
     <revisionDesc>
       <change when="2022-07-27" who="#PJ">Création du fichier TEI P5 et encodage du corps du
-                        texte</change>
+        texte</change>
+      <change when="2024-01-09" who="#EL">Add the IIIF links</change>
     </revisionDesc>
   </teiHeader>
+  <facsimile>
+    <graphic url="varios/Varios_100_1.jpg/full/200,/0/default.jpg"/>
+  </facsimile>
   <sourceDoc xml:id="automaticTranscription">
     <surface xml:id="Varios_100_1" type="page" cert="silver">
       <graphic url="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_100_1/full/full/0/default.jpg"/>
@@ -714,7 +718,7 @@
         </zone>
         <zone xml:id="Varios_100_3_BT227_1_LT83_19" type="DefaultLine" subtype="none" points="130,1037 130,994 769,994 769,1037 769,1051 130,1051 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_100_3/130,994,639,57/full/0/default" corresp="DefaultLine">
           <path xml:id="Varios_100_3_BT227_1_LT83_19_1" points="130,1037 769,1037 " corresp="DefaultLine"/>
-          <line>inclinada à  los correjos,</line>
+          <line>inclinada à los correjos,</line>
         </zone>
         <zone xml:id="Varios_100_3_BT227_1_LT83_20" type="DefaultLine" subtype="none" points="130,1091 126,1037 789,1035 795,1085 793,1099 130,1109 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_100_3/126,1035,669,74/full/0/default" corresp="DefaultLine">
           <path xml:id="Varios_100_3_BT227_1_LT83_20_1" points="132,1093 797,1086 " corresp="DefaultLine"/>
@@ -1155,273 +1159,269 @@
   <text>
     <body>
       <div>
-        <pb n="1" source="Varios_100_1.jpg" facs="fedora_Varios_100_1/full/full/0/default.jpg"/>
         <div>
-          <head type="primer_titulo"><lb/>RELACION<lb/>HECHA POR UN MOZO SOLTERO, MA¬</head>
-          <head type="subtitulo_parte"><lb/>nifestando los quarenta motivos para no casarse<lb/>y treinta y seis para descasarse.</head>
-          <lg>
-            <l>Pues me preguntan algunos</l>
-            <l>necios tontos mentecatos,</l>
-            <l>buenos simples, y sin juicio,</l>
-            <l>que porqué no me he casado?</l>
-            <l>como si el casarse fuera</l>
-            <l>poseer un mayorazgo,</l>
-            <l>cosa que solo executan</l>
-            <l>los tontos, y los muchachos;</l>
-            <l>porque el que atento lo mira</l>
-            <l>à la luz del desengaño,</l>
-            <l>q encuentra en el matrimonio</l>
-            <l>sino pesares, quebrantos,</l>
-            <l>desesperaciones, iras,</l>
-            <l>sustos, dispendios y gastos?</l>
-            <l>Todo esto experimenta</l>
-            <l>el que quiere ser casado:</l>
-            <l>desde el instante primero</l>
-            <l>en que llega à imaginarlo,</l>
-            <l>desde luego le acometan</l>
-            <l>mil pensamientos contrarios,</l>
-          </lg>
-          <lg>
-            <l>ya desmaya, ya se alienta,</l>
-            <l>ya le desvela el cuidado</l>
-            <l>de que sera en adelante;</l>
-            <l>hasta que determinado</l>
-            <l>dice: Dios hará la costa,</l>
-            <l>y à veces se la hace el diablo:</l>
-            <l>va à ponerlo por la obra,</l>
-            <l>y son los primeros pasos</l>
-            <l>el pretender en la Audiencia</l>
-            <l>que le libren los despachos</l>
-            <l>de la peticion, y luego</l>
-            <l>el proveido del Auto,</l>
-            <l>el hacer las diligencias,</l>
-            <l>los testigos del Sumario,</l>
-            <l>con otras muchas arengas,</l>
-            <l>que todas le son del caso,</l>
-            <l>y le ajustan una cuenta</l>
-            <l>que lo dexan tiritando,</l>
-            <l>y ha de dar lo que le piden,</l>
-            <l>que allí no hai tanto ni quanto:</l>
-          </lg>
-          <pb n="2" source="Varios_100_2.jpg" facs="fedora_Varios_100_2/full/full/0/default.jpg"/>
-          <lg>
-            <l>con que despues de traerlo</l>
-            <l>desde Herodes à Pilatos,</l>
-            <l>le vienen à hacer que salga</l>
-            <l>sin paciencia, y sin un quartos</l>
-            <l>luego se sigue la Iglesia,</l>
-            <l>al Cura por desposarlos</l>
-            <l>otro doblon por lo ménos</l>
-            <l>y de dulces un regalo,</l>
-            <l>en bebidas, chocolate,</l>
-            <l>y lo demas de agasajo,</l>
-            <l>sin darles aquella noche</l>
-            <l>mas de un refresco ordinario,</l>
-            <l>cincuenta reales de à ocho</l>
-            <l>se le van como un ochavo:</l>
-            <l>esto es pintar una boda</l>
-            <l>con un moderado gasto,</l>
-            <l>y es como fuera la mia</l>
-            <l>si yo me hubiera casado,</l>
-            <l>ni fuera de lo mejor,</l>
-            <l>ni muy baxo, ni muy alto:</l>
-            <l>ahora falta disponer</l>
-            <l>para la novia el regalo,</l>
-            <l>à lo ménos dos vestidos</l>
-            <l>y aquellos precisos gastos,</l>
-            <l>de aderezos, rascamoño,</l>
-            <l>delantares, buelos guapos,</l>
-            <l>desabille, dormilona,</l>
-            <l>abanico, piocha, lazos,</l>
-            <l>quee aunq todo esto se compre</l>
-            <l>al precio mas moderado,</l>
-            <l>mas de cincuenta doblones.</l>
-            <l>ha menester de contado.</l>
-            <l>Tambien se ha de prevenir</l>
-            <l>de todo los necesario,</l>
-            <l>y segun hoy se acostumbra,</l>
-            <l>casa con buen aparato,</l>
-            <l>y aun es preciso tener</l>
-            <l>el quarto bien adornado,</l>
-            <l>con cornicopias, espejos,</l>
-            <l>taburillos charolados,</l>
-          </lg>
-          <lg>
-            <l>arrimadillos, cortinas,</l>
-            <l>y una lámina de un Santo;</l>
-            <l>en el alcoba la cama</l>
-            <l>con correspondiente ornato,</l>
-            <l>un baul para la ropa,</l>
-            <l>un veloncito de mano,</l>
-            <l>un tocador, un tapete,</l>
-            <l>la silla para el casado,</l>
-            <l>un bacin, un orinal,</l>
-            <l>y para limpiarse un trapo,</l>
-            <l>tambien es preciso tenga</l>
-            <l>prevenidos otros tratos,</l>
-            <l>como son en la cocina</l>
-            <l>sillas, ollas, y los platos,</l>
-            <l>mesa, lebrillos, cazuelas,</l>
-            <l>xicaras, tazas, y cántaros,</l>
-            <l>cucharas, y tenedores,</l>
-            <l>cuchillos, salero, jarro,</l>
-            <l>almirez, chocolatera,</l>
-            <l>trevedes, cacillo, y rallo,</l>
-            <l>caldera, sarten, peroles,</l>
-            <l>espetera, garabatos</l>
-            <l>parrillas, badil, embudo,</l>
-            <l>paleta, piquete, cazo,</l>
-            <l>asadores, y tenazas,</l>
-            <l>morrillo para el asado,</l>
-            <l>cenachos, y cucharones,</l>
-            <l>y un tiesto en que bebael gato,</l>
-            <l>manteles, y servillas,</l>
-            <l>fuente, fino vidriado,</l>
-            <l>un velon, y palmatoria,</l>
-            <l>y dos buxias al lado,</l>
-            <l>cubiletes, cuajadera,</l>
-            <l>mandil, escoba, estropajo,</l>
-            <l>alcuza para el aceyte,</l>
-            <l>y para vinagre un jarro,</l>
-            <l>el cestillo de las yescas,</l>
-            <l>y un clavo para colgarlo,</l>
-            <l>y en el corredor dos mapasa,</l>
-            <l>almanaques, y diarios,</l>
-          </lg>
-          <pb n="3" source="Varios_100_3.jpg" facs="fedora_Varios_100_3/full/full/0/default.jpg"/>
-          <lg>
-            <l>un farrol en la escalera</l>
-            <l>que de noche esté alumbrado,</l>
-            <l>cordel en el picaporte,</l>
-            <l>dos paises en el patio,</l>
-            <l>un sillon ú escaño grande,</l>
-            <l>tendrá tambien preparado,</l>
-            <l>para que sentarse pueda</l>
-            <l>el que tenga que esperarlo.</l>
-            <l>Todo lo que he referido</l>
-            <l>le costará, y no me alargo,</l>
-            <l>si ha de hacerlo como he dicho</l>
-            <l>muy cerca de mil ducados :</l>
-            <l>¡ lo que cuesta una muger</l>
-            <l>despues de tantos cuidados !</l>
-            <l>y si ella sale traviesa</l>
-            <l>y de genio alborótado,</l>
-            <l>amiga de pelendengues</l>
-            <l>y visirar los estrados;</l>
-            <l>inclinada à  los correjos,</l>
-            <l>que es comun en estos años,</l>
-            <l>que Judas cargue con ella</l>
-            <l>con la honda de los diablos.</l>
-            <l>¡Que cueste tanto dinero</l>
-            <l>un enemigo diario,</l>
-            <l>que siempre tiene el castigo</l>
-            <l>para el marido en la mano !</l>
-            <l>Tambien se ha de prevenir</l>
-            <l>de todo lo necesario,</l>
-            <l>como el aceyte, carbon,</l>
-            <l>vinagre, especias, garbanzos,</l>
-            <l>y las demas zarandajas</l>
-            <l>para el consumo del año,</l>
-            <l>y sino diariamente</l>
-            <l>habrá de estar aguantando</l>
-            <l>el pobre los apellidos</l>
-            <l>que la muger le va dando;</l>
-            <l>y si acaso es Juan su nombre,</l>
-            <l>le dira con desenfado:</l>
-            <l>Juan carnero, Juan carbon,</l>
-            <l>Juan especias, Juan gerbanzos,</l>
-          </lg>
-          <lg>
-            <l>Juan aceyte, Juan vinagre,</l>
-            <l>Juan tomates, Juan esparragos,</l>
-            <l>Juan lechugas, Juan limones,</l>
-            <l>Juan huevos, y Juan pescado,</l>
-            <l>Juan acelgas, y espinacas,</l>
-            <l>Juan zanahorias, y ajos,</l>
-            <l>Juan cisco, en el Invierno,</l>
-            <l>Juan nieve en el Verano,</l>
-            <l>tambien es Juan chocolate,</l>
-            <l>es Juan dulce, y es Juan agrio;</l>
-            <l>hasta, que enfadado el pobre</l>
-            <l>dice: Juan cuerno me llamo.</l>
-            <l>Por S. Andres la matanza,</l>
-            <l>que es otro preciso gasto,</l>
-            <l>pues un cerdo de ocho arrobas,</l>
-            <l>que es un peso moderado,</l>
-            <l>le ha de venir à costar</l>
-            <l>quinientos reales cerrados,</l>
-            <l>y cincuenta para avios,</l>
-            <l>de matadores y hachos,</l>
-            <l>cabezas, especias, sal,</l>
-            <l>pimientos, cebollas, ajos;</l>
-            <l>mas no quiero poner nada</l>
-            <l>de vestido, y de calzado,</l>
-            <l>ni de alquileres de casa</l>
-            <l>en que ha de vivir, que es claro</l>
-            <l>que ha de costar por lo ménos</l>
-            <l>treinta ó quarenta ducados</l>
-            <l>ni tampoco del preciso</l>
-            <l>para la decencia, gasto,</l>
-            <l>que qualquiera considera</l>
-            <l>que no es muy fácil sumarlo;</l>
-            <l>ni tampoco lo demas,</l>
-            <l>como escobas, vidriado,</l>
-            <l>peynes, xabon, almidon,</l>
-            <l>agujas, seda, hilo blanco,</l>
-            <l>muchos moños, y alfileres,</l>
-            <l>cepillos, encaxes, lazos,</l>
-            <l>torcidas para el velon,</l>
-            <l>candiles de garabato,</l>
-          </lg>
-          <pb n="4" source="Varios_100_4.jpg" facs="fedora_Varios_100_4/full/full/0/default.jpg"/>
-          <lg>
-            <l>un calentador de azefar,</l>
-            <l>abanico de Verano,</l>
-            <l>el rizar a la Señera</l>
-            <l>en los dias celebrados,</l>
-            <l>que sin manteca, ni polvos,</l>
-            <l>se van treinta y quatro quartos.</l>
-            <l>A todo esto se sigue</l>
-            <l>los vomitos del preñado</l>
-            <l>de un hijo que sera suyo</l>
-            <l>tuerto coxo ó jorobado:</l>
-            <l>lo que en tal caso se ofrece</l>
-            <l>no se si sabré explicarlo,</l>
-            <l>atiéndame si es así,</l>
-            <l>el que lo hubiere pasado,</l>
-            <l>pues al punto le precisa</l>
-            <l>el prevenir de contado</l>
-            <l>el hatillo en que envolverlo,</l>
-            <l>el víno cos que labarlo,</l>
-            <l>jarave de peonís,</l>
-            <l>para quando liegue el parto</l>
-          </lg>
-          <lg>
-            <l>la Comadre, la bebida,</l>
-            <l>el Médico, el Cirujano,</l>
-            <l>los aceytes, los jaraves,</l>
-            <l>las mesas de los emplastos,</l>
-            <l>alhucema, escorzionera,</l>
-            <l>sin otras cosas de gastos,</l>
-            <l>el Ama que crie el Niño</l>
-            <l>porque tene un pecho malo,</l>
-            <l>y esta lleva cada mes</l>
-            <l>de tres à quatro ducados,</l>
-            <l>sin llenarle la barriga,</l>
-            <l>que esto suele ser mas caro:</l>
-            <l>si el Ama tiene Marido</l>
-            <l>son muchos mas los cuidados,</l>
-            <l>y quando ménos se piensa</l>
-            <l>sale con un embarazo;</l>
-            <l>mas à pocos mesas vemos</l>
-            <l>al infante encanijado:</l>
-            <l>y así amigo, si pudieres,</l>
-            <l>librate de este gran chasco.</l>
-          </lg>
+          <pb n="1" source="Varios_100_1.jpg" facs="varios/Varios_100_1.jpg/"/>
+
+          <head type="primer_titulo"><lb/>RELACION</head>
+          <head type="subtitulo" rend="cursiva"><lb/>HECHA POR UN MOZO SOLTERO, MA¬<lb/>nifestando
+            los quarenta motivos para no casarse<lb/>y treinta y seis para descasarse.</head>
+
+          <l><hi rend="negrita">P</hi>ues me preguntan algunos</l>
+          <l>necios tontos mentecatos,</l>
+          <l>buenos simples, y sin juicio,</l>
+          <l>que porqué no me he casado?</l>
+          <l>como si el casarse fuera</l>
+          <l>poseer un mayorazgo,</l>
+          <l>cosa que solo executan</l>
+          <l>los tontos, y los muchachos;</l>
+          <l>porque el que atento lo mira</l>
+          <l>à la luz del desengaño,</l>
+          <l>q encuentra en el matrimonio</l>
+          <l>sino pesares, quebrantos,</l>
+          <l>desesperaciones, iras,</l>
+          <l>sustos, dispendios y gastos?</l>
+          <l>Todo esto experimenta</l>
+          <l>el que quiere ser casado:</l>
+          <l>desde el instante primero</l>
+          <l>en que llega à imaginarlo,</l>
+          <l>desde luego le acometan</l>
+          <l>mil pensamientos contrarios,</l>
+          <l>ya desmaya, ya se alienta,</l>
+          <l>ya le desvela el cuidado</l>
+          <l>de que sera en adelante;</l>
+          <l>hasta que determinado</l>
+          <l>dice: Dios hará la costa,</l>
+          <l>y à veces se la hace el diablo:</l>
+          <l>va à ponerlo por la obra,</l>
+          <l>y son los primeros pasos</l>
+          <l>el pretender en la Audiencia</l>
+          <l>que le libren los despachos</l>
+          <l>de la peticion, y luego</l>
+          <l>el proveido del Auto,</l>
+          <l>el hacer las diligencias,</l>
+          <l>los testigos del Sumario,</l>
+          <l>con otras muchas arengas,</l>
+          <l>que todas le son del caso,</l>
+          <l>y le ajustan una cuenta</l>
+          <l>que lo dexan tiritando,</l>
+          <l>y ha de dar lo que le piden,</l>
+          <l>que allí no hai tanto ni quanto:</l>
+
+          <pb n="2" source="Varios_100_2.jpg" facs="varios/Varios_100_2.jpg/"/>
+
+          <l>con que despues de traerlo</l>
+          <l>desde Herodes à Pilatos,</l>
+          <l>le vienen à hacer que salga</l>
+          <l>sin paciencia, y sin un quartos</l>
+          <l>luego se sigue la Iglesia,</l>
+          <l>al Cura por desposarlos</l>
+          <l>otro doblon por lo ménos</l>
+          <l>y de dulces un regalo,</l>
+          <l>en bebidas, chocolate,</l>
+          <l>y lo demas de agasajo,</l>
+          <l>sin darles aquella noche</l>
+          <l>mas de un refresco ordinario,</l>
+          <l>cincuenta reales de à ocho</l>
+          <l>se le van como un ochavo:</l>
+          <l>esto es pintar una boda</l>
+          <l>con un moderado gasto,</l>
+          <l>y es como fuera la mia</l>
+          <l>si yo me hubiera casado,</l>
+          <l>ni fuera de lo mejor,</l>
+          <l>ni muy baxo, ni muy alto:</l>
+          <l>ahora falta disponer</l>
+          <l>para la novia el regalo,</l>
+          <l>à lo ménos dos vestidos</l>
+          <l>y aquellos precisos gastos,</l>
+          <l>de aderezos, rascamoño,</l>
+          <l>delantares, buelos guapos,</l>
+          <l>desabille, dormilona,</l>
+          <l>abanico, piocha, lazos,</l>
+          <l>quee aunq todo esto se compre</l>
+          <l>al precio mas moderado,</l>
+          <l>mas de cincuenta doblones.</l>
+          <l>ha menester de contado.</l>
+          <l>Tambien se ha de prevenir</l>
+          <l>de todo los necesario,</l>
+          <l>y segun hoy se acostumbra,</l>
+          <l>casa con buen aparato,</l>
+          <l>y aun es preciso tener</l>
+          <l>el quarto bien adornado,</l>
+          <l>con cornicopias, espejos,</l>
+          <l>taburillos charolados,</l>
+          <l>arrimadillos, cortinas,</l>
+          <l>y una lámina de un Santo;</l>
+          <l>en el alcoba la cama</l>
+          <l>con correspondiente ornato,</l>
+          <l>un baul para la ropa,</l>
+          <l>un veloncito de mano,</l>
+          <l>un tocador, un tapete,</l>
+          <l>la silla para el casado,</l>
+          <l>un bacin, un orinal,</l>
+          <l>y para limpiarse un trapo,</l>
+          <l>tambien es preciso tenga</l>
+          <l>prevenidos otros tratos,</l>
+          <l>como son en la cocina</l>
+          <l>sillas, ollas, y los platos,</l>
+          <l>mesa, lebrillos, cazuelas,</l>
+          <l>xicaras, tazas, y cántaros,</l>
+          <l>cucharas, y tenedores,</l>
+          <l>cuchillos, salero, jarro,</l>
+          <l>almirez, chocolatera,</l>
+          <l>trevedes, cacillo, y rallo,</l>
+          <l>caldera, sarten, peroles,</l>
+          <l>espetera, garabatos</l>
+          <l>parrillas, badil, embudo,</l>
+          <l>paleta, piquete, cazo,</l>
+          <l>asadores, y tenazas,</l>
+          <l>morrillo para el asado,</l>
+          <l>cenachos, y cucharones,</l>
+          <l>y un tiesto en que bebael gato,</l>
+          <l>manteles, y servillas,</l>
+          <l>fuente, fino vidriado,</l>
+          <l>un velon, y palmatoria,</l>
+          <l>y dos buxias al lado,</l>
+          <l>cubiletes, cuajadera,</l>
+          <l>mandil, escoba, estropajo,</l>
+          <l>alcuza para el aceyte,</l>
+          <l>y para vinagre un jarro,</l>
+          <l>el cestillo de las yescas,</l>
+          <l>y un clavo para colgarlo,</l>
+          <l>y en el corredor dos mapasa,</l>
+          <l>almanaques, y diarios,</l>
+
+          <pb n="3" source="Varios_100_3.jpg" facs="varios/Varios_100_3.jpg/"/>
+
+          <l>un farrol en la escalera</l>
+          <l>que de noche esté alumbrado,</l>
+          <l>cordel en el picaporte,</l>
+          <l>dos paises en el patio,</l>
+          <l>un sillon ú escaño grande,</l>
+          <l>tendrá tambien preparado,</l>
+          <l>para que sentarse pueda</l>
+          <l>el que tenga que esperarlo.</l>
+          <l>Todo lo que he referido</l>
+          <l>le costará, y no me alargo,</l>
+          <l>si ha de hacerlo como he dicho</l>
+          <l>muy cerca de mil ducados :</l>
+          <l>¡ lo que cuesta una muger</l>
+          <l>despues de tantos cuidados !</l>
+          <l>y si ella sale traviesa</l>
+          <l>y de genio alborótado,</l>
+          <l>amiga de pelendengues</l>
+          <l>y visirar los estrados;</l>
+          <l>inclinada à los correjos,</l>
+          <l>que es comun en estos años,</l>
+          <l>que Judas cargue con ella</l>
+          <l>con la honda de los diablos.</l>
+          <l>¡Que cueste tanto dinero</l>
+          <l>un enemigo diario,</l>
+          <l>que siempre tiene el castigo</l>
+          <l>para el marido en la mano !</l>
+          <l>Tambien se ha de prevenir</l>
+          <l>de todo lo necesario,</l>
+          <l>como el aceyte, carbon,</l>
+          <l>vinagre, especias, garbanzos,</l>
+          <l>y las demas zarandajas</l>
+          <l>para el consumo del año,</l>
+          <l>y sino diariamente</l>
+          <l>habrá de estar aguantando</l>
+          <l>el pobre los apellidos</l>
+          <l>que la muger le va dando;</l>
+          <l>y si acaso es Juan su nombre,</l>
+          <l>le dira con desenfado:</l>
+          <l>Juan carnero, Juan carbon,</l>
+          <l>Juan especias, Juan gerbanzos,</l>
+          <l>Juan aceyte, Juan vinagre,</l>
+          <l>Juan tomates, Juan esparragos,</l>
+          <l>Juan lechugas, Juan limones,</l>
+          <l>Juan huevos, y Juan pescado,</l>
+          <l>Juan acelgas, y espinacas,</l>
+          <l>Juan zanahorias, y ajos,</l>
+          <l>Juan cisco, en el Invierno,</l>
+          <l>Juan nieve en el Verano,</l>
+          <l>tambien es Juan chocolate,</l>
+          <l>es Juan dulce, y es Juan agrio;</l>
+          <l>hasta, que enfadado el pobre</l>
+          <l>dice: Juan cuerno me llamo.</l>
+          <l>Por S. Andres la matanza,</l>
+          <l>que es otro preciso gasto,</l>
+          <l>pues un cerdo de ocho arrobas,</l>
+          <l>que es un peso moderado,</l>
+          <l>le ha de venir à costar</l>
+          <l>quinientos reales cerrados,</l>
+          <l>y cincuenta para avios,</l>
+          <l>de matadores y hachos,</l>
+          <l>cabezas, especias, sal,</l>
+          <l>pimientos, cebollas, ajos;</l>
+          <l>mas no quiero poner nada</l>
+          <l>de vestido, y de calzado,</l>
+          <l>ni de alquileres de casa</l>
+          <l>en que ha de vivir, que es claro</l>
+          <l>que ha de costar por lo ménos</l>
+          <l>treinta ó quarenta ducados</l>
+          <l>ni tampoco del preciso</l>
+          <l>para la decencia, gasto,</l>
+          <l>que qualquiera considera</l>
+          <l>que no es muy fácil sumarlo;</l>
+          <l>ni tampoco lo demas,</l>
+          <l>como escobas, vidriado,</l>
+          <l>peynes, xabon, almidon,</l>
+          <l>agujas, seda, hilo blanco,</l>
+          <l>muchos moños, y alfileres,</l>
+          <l>cepillos, encaxes, lazos,</l>
+          <l>torcidas para el velon,</l>
+          <l>candiles de garabato,</l>
+
+          <pb n="4" source="Varios_100_4.jpg" facs="varios/Varios_100_4.jpg/"/>
+
+          <l>un calentador de azefar,</l>
+          <l>abanico de Verano,</l>
+          <l>el rizar a la Señera</l>
+          <l>en los dias celebrados,</l>
+          <l>que sin manteca, ni polvos,</l>
+          <l>se van treinta y quatro quartos.</l>
+          <l>A todo esto se sigue</l>
+          <l>los vomitos del preñado</l>
+          <l>de un hijo que sera suyo</l>
+          <l>tuerto coxo ó jorobado:</l>
+          <l>lo que en tal caso se ofrece</l>
+          <l>no se si sabré explicarlo,</l>
+          <l>atiéndame si es así,</l>
+          <l>el que lo hubiere pasado,</l>
+          <l>pues al punto le precisa</l>
+          <l>el prevenir de contado</l>
+          <l>el hatillo en que envolverlo,</l>
+          <l>el víno cos que labarlo,</l>
+          <l>jarave de peonís,</l>
+          <l>para quando liegue el parto</l>
+          <l>la Comadre, la bebida,</l>
+          <l>el Médico, el Cirujano,</l>
+          <l>los aceytes, los jaraves,</l>
+          <l>las mesas de los emplastos,</l>
+          <l>alhucema, escorzionera,</l>
+          <l>sin otras cosas de gastos,</l>
+          <l>el Ama que crie el Niño</l>
+          <l>porque tene un pecho malo,</l>
+          <l>y esta lleva cada mes</l>
+          <l>de tres à quatro ducados,</l>
+          <l>sin llenarle la barriga,</l>
+          <l>que esto suele ser mas caro:</l>
+          <l>si el Ama tiene Marido</l>
+          <l>son muchos mas los cuidados,</l>
+          <l>y quando ménos se piensa</l>
+          <l>sale con un embarazo;</l>
+          <l>mas à pocos mesas vemos</l>
+          <l>al infante encanijado:</l>
+          <l>y así amigo, si pudieres,</l>
+          <l>librate de este gran chasco.</l>
+
           <trailer>FIN.</trailer>
         </div>
-        <div type="colofon">
-          <p><lb/>Con licencia: En Córdoba, en la Oficina de D. Luìs Ramos <lb/>y Coria, Plazuela de las Cañas, donde se hallará todo <lb/>género de surtimiento y Estampas.</p>
+        
+        <div type="colofon" rend="cursiva">
+          <p><lb/>Con licencia: En Córdoba, en la Oficina de D. Luis Ramos <lb/>y Coria, Plazuela de
+            las Cañas, donde se hallará todo <lb/>género de surtimiento y Estampas.</p>
         </div>
       </div>
     </body>

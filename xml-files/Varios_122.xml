@@ -1,21 +1,17 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../Schema/oddPliego_varios.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:alto="http://www.loc.gov/standards/alto/ns-v4#" xml:id="Varios_122">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Varios_122">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>CARLÉTS, Y FELIPÓ. Conté la memoria del rudo que al esplicar
-                              assumptos fora de la sua esfera embucha á pel y á repél los termens
-                              que ha ohit, ab lo demés que divertirá al curiós, mes del que pot
-                              pensarse.</title>
+        <title>CARLÉTS, Y FELIPÓ</title>
         <respStmt>
           <name/>
           <resp>Codificación TEI</resp>
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <authority role="rightsHolder">Bibliothèque Universitaire de
-                              Genève</authority>
+        <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
         <availability status="restricted">
           <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
         </availability>
@@ -24,19 +20,17 @@
         <biblFull>
           <titleStmt>
             <title type="titulo_completo">CARLÉTS, Y FELIPÓ.</title>
-            <title type="titulo_breve">CARLÉTS, Y FELIPÓ. Conté la memoria
-                                          del rudo que al esplicar assumptos fora de la sua esfera
-                                          embucha á pel y á repél los termens que ha ohit, ab lo
-                                          demés que divertirá al curiós, mes del que pot
-                                          pensarse.</title>
+            <title type="titulo_breve">CARLÉTS, Y FELIPÓ. Conté la memoria del rudo que al esplicar
+              assumptos fora de la sua esfera embucha á pel y á repél los termens que ha ohit, ab
+              lo demés que divertirá al curiós, mes del que pot pensarse.</title>
           </titleStmt>
           <editionStmt>
             <p/>
           </editionStmt>
           <publicationStmt>
-            <publisher>libreria de P. Mimó</publisher>
+            <publisher>P. Mimó</publisher>
             <pubPlace ref="https://www.geonames.org/3128760/barcelona.html">Barcelona</pubPlace>
-            <date>[s.a]</date>
+            <date cert="low" when="1800-01-01">[s.a.]</date>
           </publicationStmt>
         </biblFull>
         <msDesc>
@@ -44,7 +38,8 @@
             <country>Suisse</country>
             <settlement>Genève</settlement>
             <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"/>
-                                    </repository>
+            </repository>
+            <collection>Colección Varios</collection>
             <idno type="cote"/>
             <idno type="DOI">10.5281/zenodo.6577370</idno>
             <altIdentifier>
@@ -95,18 +90,17 @@
     </fileDesc>
     <encodingDesc>
       <projectDesc>
-        <p>Este archivo fue creado en el marco del proyecto Desenrollando el
-                              Cordel/Démêler le cordel/Untangling the cordel, dirigido por la
-                              profesora Constance Carta de la Universidad de Ginebra, con el apoyo
-                              de la Fundación filantrópica Famille Sandoz-Monique de Meuron.</p>
+        <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+          cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la Universidad
+          de Ginebra, con el apoyo de la Fundación filantrópica Famille Sandoz-Monique de
+          Meuron.</p>
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR non corregido</p>
+          <p>OCR no corregido</p>
         </correction>
         <normalization>
-          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto
-                                    original.</p>
+          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
         </normalization>
         <punctuation>
           <p>Se conserva la puntuación original.</p>
@@ -115,7 +109,7 @@
     </encodingDesc>
     <profileDesc>
       <langUsage>
-        <language ident="es">Español</language>
+        <language ident="ca">Catalán</language>
       </langUsage>
       <textClass>
         <keywords xml:base="http://datos.bne.es/tema/">
@@ -127,10 +121,14 @@
       </textClass>
     </profileDesc>
     <revisionDesc>
-      <change when="2022-09-01" who="#PJ">Création du fichier TEI P5 et encodage du
-                        corps du texte</change>
+      <change when="2022-09-01" who="#PJ">Création du fichier TEI P5 et encodage du corps du
+        texte</change>
+      <change when="2024-01-09" who="#EL">Add the IIIF links</change>
     </revisionDesc>
   </teiHeader>
+  <facsimile>
+    <graphic url="varios/Varios_122_1.jpg/full/200,/0/default.jpg"/>
+  </facsimile>
   <sourceDoc xml:id="automaticTranscription">
     <surface xml:id="Varios_122_1" type="page" cert="silver">
       <graphic url="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_122_1/full/full/0/default.jpg"/>
@@ -141,25 +139,21 @@
         </zone>
         <zone xml:id="Varios_122_1_BT223_1_LT84_2" type="HeadingLine" subtype="none" points="206,1441 195,1395 208,1380 210,1380 210,1378 210,1378 212,1378 212,1378 212,1378 214,1378 214,1378 217,1378 348,1378 348,1378 348,1378 350,1378 350,1378 350,1378 353,1378 377,1395 390,1404 434,1395 469,1388 469,1388 471,1388 471,1388 535,1395 594,1402 611,1395 636,1386 636,1386 638,1386 638,1386 640,1386 640,1386 640,1386 642,1386 642,1386 662,1395 677,1404 776,1404 868,1402 877,1395 910,1380 910,1380 910,1380 912,1380 912,1380 914,1380 914,1380 914,1380 916,1380 916,1380 916,1380 919,1380 919,1380 936,1395 940,1397 943,1395 962,1380 962,1380 965,1380 965,1380 965,1380 967,1380 967,1380 969,1380 969,1380 969,1380 971,1380 997,1388 1028,1375 1028,1375 1030,1375 1030,1375 1030,1375 1033,1375 1033,1375 1035,1375 1035,1375 1092,1395 1096,1397 1098,1395 1112,1384 1112,1384 1114,1384 1114,1384 1116,1384 1116,1384 1116,1384 1118,1384 1118,1384 1195,1395 1195,1395 1195,1395 1276,1371 1278,1371 1278,1371 1278,1371 1390,1369 1392,1369 1392,1369 1395,1369 1395,1369 1395,1369 1445,1395 1447,1397 1495,1397 1506,1432 1504,1452 1331,1465 1329,1465 1131,1456 1083,1456 1055,1459 962,1467 962,1470 206,1470 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_122_1/,,,/full/0/default" corresp="HeadingLine">
           <path xml:id="Varios_122_1_BT223_1_LT84_2_1" points="208,1443 293,1441 342,1443 1509,1434 "/>
-          <line>Conté la memoria del rudo que al esplicar assumptos fora de
-                                    la</line>
+          <line>Conté la memoria del rudo que al esplicar assumptos fora de la</line>
         </zone>
         <zone xml:id="Varios_122_1_BT223_1_LT84_3" type="HeadingLine" subtype="none" points="252,1452 254,1489 254,1509 1511,1516 1513,1487 1511,1476 1504,1452 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_122_1/,,,/full/0/default" corresp="HeadingLine">
           <path xml:id="Varios_122_1_BT223_1_LT84_3_1" points="256,1491 313,1491 318,1491 1514,1489 "/>
-          <line>sua esfera embucha á pel y á repél los termens que ha
-                                    ohit,</line>
+          <line>sua esfera embucha á pel y á repél los termens que ha ohit,</line>
         </zone>
         <zone xml:id="Varios_122_1_BT223_1_LT84_4" type="HeadingLine" subtype="none" points="256,1542 252,1505 1465,1500 1471,1533 1469,1573 1379,1564 1364,1575 1364,1575 1362,1575 1362,1575 1362,1575 1359,1575 1359,1575 1359,1577 1169,1577 1166,1575 1166,1575 1164,1575 1164,1575 1164,1575 1164,1575 1138,1562 1112,1575 1112,1575 1112,1575 1112,1575 1109,1575 1109,1575 1107,1575 1107,1575 1107,1575 1103,1575 1044,1564 943,1575 923,1577 923,1577 921,1577 921,1577 919,1577 919,1577 919,1577 916,1577 916,1577 916,1575 916,1575 901,1562 800,1562 767,1577 765,1577 765,1577 763,1577 763,1577 763,1577 761,1577 761,1577 758,1577 758,1577 758,1577 756,1577 756,1577 756,1577 736,1562 642,1562 568,1562 550,1577 548,1579 548,1579 546,1579 546,1579 546,1579 543,1579 543,1579 541,1579 541,1579 541,1579 539,1579 539,1579 532,1577 502,1564 491,1575 491,1575 489,1575 489,1575 489,1575 486,1575 486,1575 484,1575 484,1575 370,1564 350,1577 350,1579 350,1579 348,1579 348,1579 348,1579 346,1579 346,1579 344,1579 254,1577 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_122_1/,,,/full/0/default" corresp="HeadingLine">
           <path xml:id="Varios_122_1_BT223_1_LT84_4_1" points="258,1544 300,1544 313,1542 1473,1535 "/>
-          <line>ab lo demés que divertirá al curiós, mes del que pot
-                                    pensarse.</line>
+          <line>ab lo demés que divertirá al curiós, mes del que pot pensarse.</line>
         </zone>
       </zone>
       <zone xml:id="Varios_122_1_BT226_2" n="2" type="MainZone" subtype="none" points="269,1628 269,1694 1468,1694 1468,1628 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_122_1/,,,/full/0/default" corresp="MainZone">
         <zone xml:id="_BT226_2_LT83_1" type="DefaultLine" subtype="none" points="293,1673 296,1612 353,1634 392,1616 392,1616 394,1616 394,1616 394,1616 397,1616 397,1616 397,1616 399,1616 399,1616 401,1616 432,1636 570,1636 594,1619 596,1619 596,1619 596,1619 598,1619 598,1619 598,1619 598,1619 600,1619 600,1619 603,1619 603,1619 603,1619 642,1634 660,1619 662,1616 662,1616 664,1616 664,1616 664,1616 666,1616 666,1616 666,1616 668,1616 668,1616 671,1616 671,1616 679,1619 721,1634 758,1621 772,1616 774,1616 774,1616 774,1616 776,1616 776,1616 778,1616 798,1621 829,1629 866,1623 908,1616 908,1616 910,1616 910,1616 910,1616 958,1625 993,1632 1013,1625 1055,1612 1057,1612 1057,1612 1057,1612 1059,1612 1059,1612 1061,1612 1116,1625 1147,1612 1147,1612 1149,1612 1149,1612 1151,1612 1351,1612 1351,1612 1351,1612 1353,1612 1353,1612 1353,1612 1355,1612 1355,1612 1379,1634 1443,1636 1443,1673 1443,1695 1256,1695 1252,1695 1193,1721 1193,1721 1191,1721 1191,1721 1191,1724 1048,1724 1046,1721 1046,1721 1044,1721 1044,1721 1044,1721 1041,1721 1015,1704 947,1719 947,1719 947,1719 945,1719 945,1719 943,1719 943,1719 943,1719 940,1719 912,1700 901,1695 855,1697 853,1702 833,1719 833,1721 833,1721 831,1721 831,1721 831,1721 829,1721 829,1721 826,1721 826,1721 734,1711 701,1721 701,1721 699,1721 699,1721 697,1721 697,1721 697,1721 695,1721 695,1721 693,1721 693,1721 682,1713 671,1721 671,1721 668,1721 668,1721 668,1721 666,1721 666,1721 666,1724 519,1724 517,1721 517,1721 515,1721 515,1721 515,1721 513,1721 513,1721 491,1704 482,1697 469,1706 440,1721 440,1721 440,1721 438,1721 438,1721 438,1724 405,1724 403,1721 403,1721 401,1721 401,1721 401,1721 399,1721 399,1721 399,1719 383,1706 372,1695 313,1695 298,1708 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_122_1/,,,/full/0/default" corresp="DefaultLine">
           <path xml:id="Varios_122_1_BT226_2_LT83_1_1" points="296,1675 1444,1675 " corresp="DefaultLine"/>
-          <line>La escena es en un carrer de Barcelona, entre un pagés y un
-                                    cursant.</line>
+          <line>La escena es en un carrer de Barcelona, entre un pagés y un cursant.</line>
         </zone>
       </zone>
       <zone xml:id="Varios_122_1_BT227_3" n="3" type="MainZone" subtype="columns" points="827,2293 201,2302 187,2215 233,2215 233,2105 170,2105 166,2083 172,2006 235,2006 235,1893 180,1893 193,1726 794,1715 794,1777 839,2125 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_122_1/,,,/full/0/default" corresp="MainZone:columns">
@@ -2453,7 +2447,7 @@
           <line>perque es tan chusca y tan mona.</line>
         </zone>
         <zone xml:id="Varios_122_8_BT227_3__31" type="DefaultLine" subtype="none" points="1015,1862 1011,1811 1065,1820 1076,1811 1076,1809 1076,1809 1076,1809 1079,1809 1079,1809 1079,1809 1081,1809 1081,1809 1081,1809 1083,1809 1098,1809 1177,1816 1186,1809 1191,1805 1191,1803 1191,1803 1193,1803 1193,1803 1193,1803 1195,1803 1195,1803 1195,1803 1197,1803 1197,1803 1199,1803 1199,1803 1199,1803 1201,1803 1210,1809 1221,1814 1432,1807 1438,1846 1438,1862 1015,1877 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_122_8/,,,/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_122_8_BT227_3__31_1" points="1017,1864 1441,1849 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
+          <path xml:id="Varios_122_8_BT227_3__31_1" points="1017,1864 1441,1849 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
           <line>F. De part teva li faré</line>
         </zone>
         <zone xml:id="Varios_122_8_BT227_3_LT83_32" type="DefaultLine" subtype="none" points="1055,1910 1050,1873 1487,1855 1493,1895 1493,1912 1055,1925 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_122_8/,,,/full/0/default" corresp="DefaultLine">
@@ -2478,8 +2472,7 @@
       <zone xml:id="Varios_122_8_BT228_5" n="5" type="MarginTextZone" subtype="colophon" points="1647,2208 1682,2249 1629,2293 1184,2337 1173,2363 447,2355 342,2311 386,2252 1070,2208 1377,2223 1342,2199 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_122_8/,,,/full/0/default" corresp="MarginTextZone:colophon">
         <zone xml:id="Varios_122_8_BT228_5_LT83_1" type="DefaultLine" subtype="none" points="355,2313 350,2282 1647,2210 1653,2254 1653,2298 1574,2282 1484,2304 1478,2306 1476,2306 1476,2306 1473,2306 1473,2306 1473,2306 1471,2306 1467,2306 1443,2298 1280,2313 1204,2320 1204,2320 1201,2320 1201,2320 1199,2320 1199,2320 1199,2320 1197,2320 1197,2320 1195,2315 1173,2298 1120,2298 809,2311 787,2333 783,2335 783,2337 783,2337 780,2337 780,2337 780,2337 778,2337 778,2337 736,2342 734,2342 734,2342 686,2335 627,2328 605,2339 581,2350 581,2350 581,2350 579,2350 579,2350 576,2350 576,2350 576,2350 574,2350 574,2350 574,2350 557,2342 537,2331 511,2344 497,2348 497,2348 495,2348 495,2348 495,2348 493,2348 493,2348 467,2344 401,2333 357,2348 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_122_8/,,,/full/0/default" corresp="DefaultLine">
           <path xml:id="Varios_122_8_BT228_5_LT83_1_1" points="357,2315 802,2302 1656,2256 "/>
-          <line>Se ven, en Barcelona : En la Ilibreria de P. Maimó, Caerer dela
-                                    Mercaders,</line>
+          <line>Se ven, en Barcelona : En la Ilibreria de P. Maimó, Caerer dela Mercaders,</line>
         </zone>
         <zone xml:id="Varios_122_8_BT228_5_LT83_2" type="DefaultLine" subtype="none" points="879,2335 875,2298 971,2282 971,2282 973,2282 1087,2287 1109,2274 1112,2274 1112,2274 1112,2274 1114,2274 1114,2274 1116,2274 1116,2274 1116,2274 1118,2274 1162,2287 1164,2322 1164,2363 1107,2368 1105,2368 1105,2368 1105,2368 1103,2368 1103,2368 1103,2368 1101,2368 1101,2368 1098,2363 1079,2348 1055,2363 1050,2368 1048,2368 1048,2368 1048,2368 1046,2368 1046,2368 1044,2368 1044,2368 1044,2368 1041,2368 1041,2368 1041,2368 1039,2368 1035,2363 1013,2350 879,2363 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_122_8/,,,/full/0/default" corresp="DefaultLine">
           <path xml:id="Varios_122_8_BT228_5_LT83_2_1" points="879,2335 1164,2322 "/>
@@ -2491,21 +2484,22 @@
   <text>
     <body>
       <div>
-        <pb n="1" source="Varios_122_1.jpg" facs="fedora_Varios_122_1/full/full/0/default.jpg"/>
+        <pb n="1" source="Varios_122_1.jpg" facs="varios/Varios_122_1.jpg/"/>
         <div type="parte" n="1">
-          <head type="primer_titulo"><lb/>CARLÉTS, Y FELIPÓ.<lb/>Conté la memoria del rudo que al
-                                    esplicar assumptos fora de la<lb/>sua esfera embucha á pel y á
-                                    repél los termens que ha ohit,<lb/>ab lo demés que divertirá
-                                    al curiós, mes del que pot pensarse.</head>
-          <stage>La escena es en un carrer de Barcelona, entre un pagés y un
-                                    cursant.</stage>
+          <head type="primer_titulo"><lb/>CARLÉTS, Y FELIPÓ.</head>
+          <head type="subtitulo"><lb/>Conté la memoria del rudo que al esplicar assumptos fora de
+            la<lb/>sua esfera embucha á pel y á repél los termens que ha ohit,<lb/>ab lo demés
+            que divertirá al curiós, mes del que pot pensarse.</head>
+
+          <stage rend="cursiva">La escena es en un carrer de Barcelona, entre un pagés y un cursant.</stage>
+          
           <sp>
-            <speaker>Carlets</speaker>
+            <speaker rend="cursiva">Carlets</speaker>
             <l> ¿Vos per aquí, Felipó ?</l>
             <l>¿com diastre es estát axó ?</l>
           </sp>
           <sp>
-            <speaker>Felipó</speaker>
+            <speaker rend="cursiva">Felipó</speaker>
             <l>¿Com? una casualitát</l>
             <l>y una determinació</l>
             <l>que so fet tot de repente</l>
@@ -2532,8 +2526,11 @@
             <l>ara tot es culrasát.</l>
             <l>Y aixó ó debém à uns seños</l>
             <l>que segons ells varen dí</l>
-            <pb n="2" source="Varios_122_2.jpg" facs="fedora_Varios_122_2/full/full/0/default.jpg"/>
+            
+            <pb n="2" source="Varios_122_2.jpg" facs="varios/Varios_122_2.jpg/"/>
+            
             <fw type="paginaNum">2</fw>
+            
             <l>van veni à pendrer las aiguas,</l>
             <l>y an al meu carcul, lo ví</l>
             <l>era l' que mes se estimaban,</l>
@@ -2556,7 +2553,7 @@
             <l>¡ Dèu apareixe un prodigi !</l>
           </sp>
           <sp>
-            <speaker>F.</speaker>
+            <speaker rend="cursiva">F.</speaker>
             <l>Si, y en efectivament.</l>
             <l>Ara, cuan men vas aná</l>
             <l>daba un veurer deliciós</l>
@@ -2579,7 +2576,7 @@
             <l>se está alegre y res espanta.</l>
           </sp>
           <sp>
-            <speaker>F.</speaker>
+            <speaker rend="cursiva">F.</speaker>
             <l>Si, si, gracias al Señó,</l>
             <l>res de tot lo que tindrém</l>
             <l>aquest any no 'ns faltará</l>
@@ -2603,7 +2600,7 @@
             <l>y totas aquelias que .....</l>
           </sp>
           <sp>
-            <speaker>F.</speaker>
+            <speaker rend="cursiva">F.</speaker>
             <l>Mira Carléts, desde en sa</l>
             <l>de la broma que hi va habé</l>
             <l>y va succehí la masega</l>
@@ -2642,8 +2639,11 @@
             <l>y à la Quiteria del Gran,</l>
             <l>sense tirals trona aball</l>
             <l>de amagát los casarán</l>
-            <pb n="3" source="Varios_122_3.jpg" facs="fedora_Varios_122_3/full/full/0/default.jpg"/>
+            
+            <pb n="3" source="Varios_122_3.jpg" facs="varios/Varios_122_3.jpg/"/>
+            
             <fw type="paginaNum">3</fw>
+            
             <l>perque ningú puga entendre</l>
             <l>lo que tothom te observát.</l>
             <l>Lo altre dia s' van casá</l>
@@ -2689,7 +2689,7 @@
             <l>¿Com estéu de fe saraus?</l>
           </sp>
           <sp>
-            <speaker>F.</speaker>
+            <speaker rend="cursiva">F.</speaker>
             <l>¿Que vols quet diga? ara 'ls joves</l>
             <l>diuhen que no son babaus.</l>
             <l>Los xibaléts de abuy dia</l>
@@ -2746,8 +2746,11 @@
             <l>perque m' vage recordant;</l>
             <l>peró lo que es la Farmacia</l>
             <l>lo terce añ vas comensá.</l>
-            <pb n="4" source="Varios_122_4.jpg" facs="fedora_Varios_122_4/full/full/0/default.jpg"/>
+            
+            <pb n="4" source="Varios_122_4.jpg" facs="varios/Varios_122_4.jpg/"/>
+            
             <fw type="paginaNum">4</fw>
+            
             <l>Yi' vostre noy gran: ¿que pensa?</l>
             <l>¿ quina lin feu estudiá ?</l>
           </sp>
@@ -2761,11 +2764,10 @@
             <l>y enteniment enllustrát,</l>
             <l>surtirá un fill del dimoni</l>
             <l>de alló mes clarificát.</l>
-            <l>rient</l>
           </sp>
           <sp>
             <speaker>C.</speaker>
-            <l>Ah, ah, ah.</l>
+            <l>Ah, ah, ah. <stage rend="cursiva">rient.</stage></l>
           </sp>
           <sp>
             <speaker>F.</speaker>
@@ -2866,8 +2868,11 @@
             <l>una especia de pernils;</l>
             <l>¡ quels hi feyan fe uns griñols !..</l>
             <l>Un altre ab un xinlét llarch</l>
-            <pb n="5" source="Varios_122_5.jpg" facs="fedora_Varios_122_5/full/full/0/default.jpg"/>
+            
+            <pb n="5" source="Varios_122_5.jpg" facs="varios/Varios_122_5.jpg/"/>
+            
             <fw type="paginaNum">7</fw>
+            
             <l>mascle de cal Barragám</l>
             <l>ni lo ruch de cal Camós !</l>
             <l>Si de á cas lo vostre fill</l>
@@ -2945,7 +2950,7 @@
             <l>que tenian al devánt ?</l>
           </sp>
           <sp>
-            <speaker>F.</speaker>
+            <speaker rend="cursiva">F.</speaker>
             <l>¿ Alló era ? Prou la vas veure,</l>
             <l>que cada hu estaba miránt.</l>
           </sp>
@@ -2959,7 +2964,7 @@
             <l>que de una ópera es exida.</l>
           </sp>
           <sp>
-            <speaker>F.</speaker>
+            <speaker rend="cursiva">F.</speaker>
             <l>Jo m' pensaba quí sap que era,</l>
             <l>no ho hauria dit en ma vida,</l>
             <l>¿ Vet aquí perque ha dit éll</l>
@@ -2977,10 +2982,13 @@
             <l>Óperas, óperas son</l>
             <l>lo que vos deu habé dit.</l>
           </sp>
-          <pb n="6" source="Varios_122_6.jpg" facs="fedora_Varios_122_6/full/full/0/default.jpg"/>
+          
+          <pb n="6" source="Varios_122_6.jpg" facs="varios/Varios_122_6.jpg/"/>
+          
           <fw type="paginaNum">8</fw>
+          
           <sp>
-            <speaker>F.</speaker>
+            <speaker rend="cursiva">F.</speaker>
             <l>No ho ha dit, com hi ha mon.</l>
             <l>mes que una vegada sola,</l>
           </sp>
@@ -2999,7 +3007,7 @@
             <l>la podreu mes ben passá.</l>
           </sp>
           <sp>
-            <speaker>F.</speaker>
+            <speaker rend="cursiva">F.</speaker>
             <l>Al menos, segons va di</l>
             <l>lo mestre, l' te judicát (Ros,</l>
             <l>que pedrá aná á cantá encuero</l>
@@ -3011,7 +3019,7 @@
             <l>no pas cueros, que os errén.</l>
           </sp>
           <sp>
-            <speaker>F.</speaker>
+            <speaker rend="cursiva">F.</speaker>
             <l>Sempre te me estás sumbant.</l>
           </sp>
           <sp>
@@ -3023,7 +3031,7 @@
             <l>entenent lo que y perque.</l>
           </sp>
           <sp>
-            <speaker>F.</speaker>
+            <speaker rend="cursiva">F.</speaker>
             <l>Jo presumo que se mes</l>
             <l>quel desplomatich mes fi,</l>
             <l>lo mateix que los mes burros</l>
@@ -3053,7 +3061,7 @@
             <l>de aquell boig de que heu parlát?</l>
           </sp>
           <sp>
-            <speaker>F.</speaker>
+            <speaker rend="cursiva">F.</speaker>
             <l>¿Quet pensas que 'ls que parlém</l>
             <l>com quí diu, giriflocánt,</l>
             <l>anem tan à la flimfloscas</l>
@@ -3069,7 +3077,7 @@
             <l>de la que puch tení jó!</l>
           </sp>
           <sp>
-            <speaker>F.</speaker>
+            <speaker rend="cursiva">F.</speaker>
             <l>¿Que t'pensas que si ve l' cas</l>
             <l>no tinch un discorre bo ?</l>
           </sp>
@@ -3081,7 +3089,7 @@
             <l>ab la que hi menjém mes pa ?</l>
           </sp>
           <sp>
-            <speaker>F.</speaker>
+            <speaker rend="cursiva">F.</speaker>
             <l>Un buig va di que, ab la sõpa.</l>
             <l>perque es un pa ab suc sucát.</l>
           </sp>
@@ -3104,8 +3112,11 @@
             <l>mes jove, perque podriau,</l>
             <l>segons lo que os espliqueu,</l>
             <l>apendrer molts arts y cienclas</l>
-            <pb n="7" source="Varios_122_7.jpg" facs="fedora_Varios_122_7/full/full/0/default.jpg"/>
+            
+            <pb n="7" source="Varios_122_7.jpg" facs="varios/Varios_122_7.jpg/"/>
+            
             <fw type="paginaNum">9</fw>
+            
             <l>y podrian morí rich.</l>
           </sp>
           <sp>
@@ -3136,7 +3147,7 @@
             <speaker>F.</speaker>
             <l>¿Com vols que t' óvfassa entendre ?</l>
             <l>Per ecsemple : cuant escrius.</l>
-            <l>¿no fasunas lletras negras C.riu.</l>
+            <l>¿no fasunas lletras negras C. <stage rend="cursiva">riu.</stage></l>
             <l>sobre un papé blanc? ¿Que rius?</l>
           </sp>
           <sp>
@@ -3217,8 +3228,11 @@
             <l>altres regles de arrestá,</l>
             <l>malduplicá y repartí</l>
             <l>devisendos, divisoris,</l>
-            <pb n="8" source="Varios_122_8.jpg" facs="fedora_Varios_122_8/full/full/0/default.jpg"/>
+            
+            <pb n="8" source="Varios_122_8.jpg" facs="varios/Varios_122_8.jpg/"/>
+            
             <fw type="paginaNum">10</fw>
+            
             <l>ab nems y catrais sens fi ;</l>
             <l>que ni se com sels patollan</l>
             <l>ni de ahont sels han empescát</l>
@@ -3233,7 +3247,7 @@
             <l>guaña be ab poch treballá.</l>
           </sp>
           <sp>
-            <speaker>F.</speaker>
+            <speaker rend="cursiva">F.</speaker>
             <l>Tambe feyan uns señals</l>
             <l>que de uns ne deyan trencáts</l>
             <l>sense posarlos bragués,</l>
@@ -3295,7 +3309,7 @@
             <l>ben frasch y ben regalát.</l>
           </sp>
           <sp>
-            <speaker>F.</speaker>
+            <speaker rend="cursiva">F.</speaker>
             <l>Procura à pasarho be</l>
             <l>alegrament y xalát</l>
             <l>fes tanta broma com pugas,</l>
@@ -3319,20 +3333,21 @@
             <l>perque es tan chusca y tan mona.</l>
           </sp>
           <sp>
-            <speaker>F.</speaker>
+            <speaker rend="cursiva">F.</speaker>
             <l>De part teva li faré</l>
             <l>si élla vol condescendí.</l>
           </sp>
           <sp>
-            <speaker>Los dos.</speaker>
+            <speaker rend="cursiva">Los dos.</speaker>
             <l>Doném à la idea fi</l>
             <l>y aplandiula si os cau be.</l>
           </sp>
           <trailer>FIN.</trailer>
         </div>
+        
         <div type="colofon">
-          <p><lb/>Se ven, en Barcelona : En la Ilibreria de P. Maimó, Caerer
-                                    dela Mercaders, prop de la Boria.</p>
+          <p><lb/>Se ven, en Barcelona : En la llibreria de P. Maimó, Caerer dela Mercaders, prop
+            de la Boria.</p>
         </div>
       </div>
     </body>

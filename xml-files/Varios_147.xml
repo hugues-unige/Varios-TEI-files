@@ -1,18 +1,17 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../Schema/oddPliego_varios.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:alto="http://www.loc.gov/standards/alto/ns-v4#" xml:id="Varios_147">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Varios_147">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>JUAN EL AFORTUNADO. Divertido y curioso romance en formá de cancion con estrivillo, para entretenmiento de los jóvenes aficionados á la broma y guitarra.</title>
+        <title>JUAN EL AFORTUNADO</title>
         <respStmt>
           <name/>
           <resp>Codificación TEI</resp>
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <authority role="rightsHolder">Bibliothèque Universitaire de
-                            Genève</authority>
+        <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
         <availability status="restricted">
           <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
         </availability>
@@ -20,7 +19,9 @@
       <sourceDesc>
         <biblFull>
           <titleStmt>
-            <title type="titulo_completo">JUAN EL AFORTUNADO. Divertido y curioso romance en formá de cancion con estrivillo, para entretenmiento de los jóvenes aficionados á la broma y guitarra.</title>
+            <title type="titulo_completo">JUAN EL AFORTUNADO. Divertido y curioso romance en formá
+              de cancion con estrivillo, para entretenmiento de los jóvenes aficionados á la broma
+              y guitarra.</title>
             <title type="titulo_breve">JUAN EL AFORTUNADO.</title>
           </titleStmt>
           <editionStmt>
@@ -29,7 +30,7 @@
           <publicationStmt>
             <publisher>Narciso Roca</publisher>
             <pubPlace ref="https://www.geonames.org/3111933/reus.html">Reus</pubPlace>
-            <date cert="high">1868</date>
+            <date cert="high" when="1868-01-01">1868</date>
           </publicationStmt>
         </biblFull>
         <msDesc>
@@ -37,7 +38,8 @@
             <country>Suisse</country>
             <settlement>Genève</settlement>
             <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"/>
-                  </repository>
+            </repository>
+            <collection>Colección Varios</collection>
             <idno type="cote"/>
             <idno type="DOI">10.5281/zenodo.6586649</idno>
             <altIdentifier>
@@ -66,7 +68,7 @@
               </layoutDesc>
             </objectDesc>
             <decoDesc>
-              <summary n="1">Uno (p.1) </summary>
+              <summary n="1">Un grabado (p.1)</summary>
               <decoNote type="lista_grabados">
                 <list>
                   <item corresp="grabado_v_147_1.xml">grabado_v_147_1</item>
@@ -93,18 +95,17 @@
     </fileDesc>
     <encodingDesc>
       <projectDesc>
-        <p>Este archivo fue creado en el marco del proyecto Desenrollando el
-                            Cordel/Démêler le cordel/Untangling the cordel, dirigido por la
-                            profesora Constance Carta de la Universidad de Ginebra, con el apoyo de
-                            la Fundación filantrópica Famille Sandoz-Monique de Meuron.</p>
+        <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+          cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la Universidad
+          de Ginebra, con el apoyo de la Fundación filantrópica Famille Sandoz-Monique de
+          Meuron.</p>
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR non corregido</p>
+          <p>OCR no corregido</p>
         </correction>
         <normalization>
-          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto
-                                original.</p>
+          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
         </normalization>
         <punctuation>
           <p>Se conserva la puntuación original.</p>
@@ -117,8 +118,8 @@
       </langUsage>
       <textClass>
         <keywords xml:base="http://datos.bne.es/tema/">
-          <term target="XX525577.html" type="tipo_texto">Canciones</term>
-          <term target="XX527614.html" type="tipo_estrofa">Romances</term>
+          <term target="XX527614.html" type="tipo_texto">Romances</term>
+          <term target="XX4843218.html" type="tipo_estrofa">Romances</term>
           <term type="verso_prosa">Verso</term>
           <term type="sagrado_profano">Profano</term>
         </keywords>
@@ -126,9 +127,13 @@
     </profileDesc>
     <revisionDesc>
       <change when="2022-09-17" who="#PJ">Création du fichier TEI P5 et encodage du corps du
-                        texte</change>
+        texte</change>
+      <change when="2024-01-09" who="#EL">Add the IIIF links</change>
     </revisionDesc>
   </teiHeader>
+  <facsimile>
+    <graphic url="varios/Varios_147_1.jpg/full/200,/0/default.jpg"/>
+  </facsimile>
   <sourceDoc xml:id="automaticTranscription">
     <surface xml:id="Varios_147_1" type="page" cert="silver">
       <graphic url="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_147_1/full/full/0/default.jpg"/>
@@ -1303,314 +1308,314 @@
   <text>
     <body>
       <div>
-        <pb n="1" source="Varios_147_1.jpg" facs="fedora_Varios_147_1/full/full/0/default.jpg"/>
-        <div type="parte" n="1">
+        <div>
+          <pb n="1" source="Varios_147_1.jpg" facs="varios/Varios_147_1.jpg/"/>
+
           <head type="primer_titulo" rend="negrita"><lb/>JUAN EL AFORTUNADO.</head>
-          <head type="subtitulo_parte"><lb/>Divertido y curioso romance en formá de cancion con estrivillo, para<lb/>entretenmiento de los jóvenes aficionados á la broma y guitarra.</head>
-          <lg>
-            <l>Atencion Señores mios</l>
-            <l>si es que quieren escuchar,</l>
-            <l>mi amor, mi vida y mi suerte</l>
-            <l>que todos la han de envidiar.</l>
-            <l>Pero lo primero</l>
-            <l>tengo que advertir,</l>
-            <l>que esteis satisfechos</l>
-            <l>que no se mentir ;</l>
-            <l>porque no es feliz</l>
-            <l>el hombre embustero,</l>
-            <l>yo no se porque</l>
-            <l>soy un pordiosero.</l>
-          </lg>
-          <lg>
-            <l>Contaré mi nacimiento</l>
-            <l>esplicaré mi niñez,</l>
-            <l>seguirá mi mocedad</l>
-            <l>concluirá mi vejez.</l>
-            <l>Soy nacido en Roma</l>
-            <l>bautizado en Francia,</l>
-            <l>donde yo pasé</l>
-            <l>alegre mi infancia ;</l>
-            <l>y luego en España</l>
-            <l>mi mocedad hermosa,</l>
-            <l>donde concluirá</l>
-            <l>mi vejez dichosa.</l>
-          </lg>
-          <pb n="2" source="Varios_147_2.jpg" facs="fedora_Varios_147_2/full/full/0/default.jpg"/>
+          <head type="subtitulo" rend="cursiva"><lb/>Divertido y curioso romance en formá de
+            cancion con estrivillo, para<lb/>entretenmiento de los jóvenes aficionados á la broma
+            y guitarra.</head>
+
+          <l><hi rend="negrita">A</hi>tencion Señores mios</l>
+          <l>si es que quieren escuchar,</l>
+          <l>mi amor, mi vida y mi suerte</l>
+          <l>que todos la han de envidiar.</l>
+          <l rend="indent">Pero lo primero</l>
+          <l>tengo que advertir,</l>
+          <l>que esteis satisfechos</l>
+          <l>que no se mentir ;</l>
+          <l>porque no es feliz</l>
+          <l>el hombre embustero,</l>
+          <l>yo no se porque</l>
+          <l>soy un pordiosero.</l>
+          <l>Contaré mi nacimiento</l>
+          <l>esplicaré mi niñez,</l>
+          <l>seguirá mi mocedad</l>
+          <l>concluirá mi vejez.</l>
+          <l rend="indent">Soy nacido en Roma</l>
+          <l>bautizado en Francia,</l>
+          <l>donde yo pasé</l>
+          <l>alegre mi infancia ;</l>
+          <l>y luego en España</l>
+          <l>mi mocedad hermosa,</l>
+          <l>donde concluirá</l>
+          <l>mi vejez dichosa.</l>
+
+          <pb n="2" source="Varios_147_2.jpg" facs="varios/Varios_147_2.jpg/"/>
+
           <fw type="paginaNum">2</fw>
-          <lg>
-            <l>Nací el año no se cuantos</l>
-            <l>creo que era en el estío,</l>
-            <l>cayó tan fuerte nevada</l>
-            <l>que nos abrasaba el frio.</l>
-            <l>Nací en un rincon</l>
-            <l>y una mala estera,</l>
-            <l>tuve por colchon</l>
-            <l>y por cabecera ;</l>
-            <l>fueron mis pañales</l>
-            <l>de tan fina tela,</l>
-            <l>de la que jamás</l>
-            <l>se plancha ni cuela.</l>
-            <l>Eran las doce del dia</l>
-            <l>y luego se obscureció,</l>
-            <l>el sol por no verme á mi</l>
-            <l>de vergüenza se escondió.</l>
-            <l>Tal fué mi hermosura</l>
-            <l>y mi robustez,</l>
-            <l>que nací mas blanco</l>
-            <l>que la misma pez ;</l>
-            <l>pero al mismo tiempo</l>
-            <l>salí tan medrado,</l>
-            <l>que aun es mi estatura</l>
-            <l>la de un raton sentado.</l>
-            <l>Lleváronme á bautizar</l>
-            <l>en seguida de nacer,</l>
-            <l>y el cura cuando me vió</l>
-            <l>de miedo escapó á correr.</l>
-            <l>Eran de lechuza</l>
-            <l>mis ojos y cejas ;</l>
-            <l>pero de asno grande</l>
-            <l>tambien las orejas ;</l>
-            <l>además de ser feo</l>
-            <l>y tan orejudo,</l>
-            <l>aun fui catorce años</l>
-            <l>ciego, sordo y mudo.</l>
-            <l>Me pusieron Juan Fortuna</l>
-            <l>y de mi está desterrada,</l>
-            <l>soy hijo de Pedro el roto</l>
-            <l>y de Antonia la estropeada.</l>
-            <l>Yo soy muy dichoso</l>
-            <l>desde que nací,</l>
-            <l>en todas las partes</l>
-            <l>me envidian á mí;</l>
-            <l>mi suerte tan grande</l>
-            <l>dará á todos risa,</l>
-          </lg>
-          <lg>
-            <l>que si nací en cueros</l>
-            <l>aun voy sin camisa.</l>
-            <l>Dicen que mi padre era</l>
-            <l>señor de baston y faja,</l>
-            <l>cubierto ante cuatro reyes</l>
-            <l>y son los de la baraja.</l>
-            <l>Soy de una familia</l>
-            <l>toda muy honrada,</l>
-            <l>grandes comerciantes</l>
-            <l>de puerta cerrada;</l>
-            <l>señores visibles</l>
-            <l>en la Capital,</l>
-            <l>con cruz de lanceta</l>
-            <l>del santo hospital.</l>
-            <l>Cuando mi padre murió</l>
-            <l>me dejó á mí por tutores,</l>
-            <l>dos caballeros de Francia</l>
-            <l>que fueron merecedores.</l>
-            <l>Por su gran discurso</l>
-            <l>de órden distinguida,</l>
-            <l>son los dos señores</l>
-            <l>de llave torcida ;</l>
-            <l>con muy grandes premios</l>
-            <l>y eran sus honores,</l>
-            <l>esa cruz que llevan</l>
-            <l>los amoladores.</l>
-            <l>Me buscaron tres nodrizas</l>
-            <l>éstas no eran cualquier cosa</l>
-            <l>una vaca y una cabra</l>
-            <l>y una burra muy guiñosa.</l>
-            <l>Me cornó la boca</l>
-            <l>y me sacó un ojo,</l>
-            <l>me tozó la cabra</l>
-            <l>tambien me hizo cojo;</l>
-            <l>y una coz tan fuerte</l>
-            <l>la burra me dió</l>
-            <l>que el brazo derecho</l>
-            <l>me lo fracturó.</l>
-            <l>Me escapé de mis nodrizas</l>
-            <l>viéndome tan mal tratado,</l>
-            <l>era un mártes de ceniza</l>
-            <l>de este carnabal pasado.</l>
-            <l>Pero mis tutores</l>
-            <l>de mi se acordaron,</l>
-            <l>y en una grande casa</l>
-            <l>luego me hospedaron;</l>
-          </lg>
-          <pb n="3" source="Varios_147_3.jpg" facs="fedora_Varios_147_3/full/full/0/default.jpg"/>
+
+          <l>Nací el año no se cuantos</l>
+          <l>creo que era en el estío,</l>
+          <l>cayó tan fuerte nevada</l>
+          <l>que nos abrasaba el frio.</l>
+          <l rend="indent">Nací en un rincon</l>
+          <l>y una mala estera,</l>
+          <l>tuve por colchon</l>
+          <l>y por cabecera ;</l>
+          <l>fueron mis pañales</l>
+          <l>de tan fina tela,</l>
+          <l>de la que jamás</l>
+          <l>se plancha ni cuela.</l>
+          <l>Eran las doce del dia</l>
+          <l>y luego se obscureció,</l>
+          <l>el sol por no verme á mi</l>
+          <l>de vergüenza se escondió.</l>
+          <l rend="indent">Tal fué mi hermosura</l>
+          <l>y mi robustez,</l>
+          <l>que nací mas blanco</l>
+          <l>que la misma pez ;</l>
+          <l>pero al mismo tiempo</l>
+          <l>salí tan medrado,</l>
+          <l>que aun es mi estatura</l>
+          <l>la de un raton sentado.</l>
+          <l>Lleváronme á bautizar</l>
+          <l>en seguida de nacer,</l>
+          <l>y el cura cuando me vió</l>
+          <l>de miedo escapó á correr.</l>
+          <l rend="indent">Eran de lechuza</l>
+          <l>mis ojos y cejas ;</l>
+          <l>pero de asno grande</l>
+          <l>tambien las orejas ;</l>
+          <l>además de ser feo</l>
+          <l>y tan orejudo,</l>
+          <l>aun fui catorce años</l>
+          <l>ciego, sordo y mudo.</l>
+          <l>Me pusieron Juan Fortuna</l>
+          <l>y de mi está desterrada,</l>
+          <l>soy hijo de Pedro el roto</l>
+          <l>y de Antonia la estropeada.</l>
+          <l rend="indent">Yo soy muy dichoso</l>
+          <l>desde que nací,</l>
+          <l>en todas las partes</l>
+          <l>me envidian á mí;</l>
+          <l>mi suerte tan grande</l>
+          <l>dará á todos risa,</l>
+          <l>que si nací en cueros</l>
+          <l>aun voy sin camisa.</l>
+          <l>Dicen que mi padre era</l>
+          <l>señor de baston y faja,</l>
+          <l>cubierto ante cuatro reyes</l>
+          <l>y son los de la baraja.</l>
+          <l rend="indent">Soy de una familia</l>
+          <l>toda muy honrada,</l>
+          <l>grandes comerciantes</l>
+          <l>de puerta cerrada;</l>
+          <l>señores visibles</l>
+          <l>en la Capital,</l>
+          <l>con cruz de lanceta</l>
+          <l>del santo hospital.</l>
+          <l>Cuando mi padre murió</l>
+          <l>me dejó á mí por tutores,</l>
+          <l>dos caballeros de Francia</l>
+          <l>que fueron merecedores.</l>
+          <l rend="indent">Por su gran discurso</l>
+          <l>de órden distinguida,</l>
+          <l>son los dos señores</l>
+          <l>de llave torcida ;</l>
+          <l>con muy grandes premios</l>
+          <l>y eran sus honores,</l>
+          <l>esa cruz que llevan</l>
+          <l>los amoladores.</l>
+          <l>Me buscaron tres nodrizas</l>
+          <l>éstas no eran cualquier cosa</l>
+          <l>una vaca y una cabra</l>
+          <l>y una burra muy guiñosa.</l>
+          <l rend="indent">Me cornó la boca</l>
+          <l>y me sacó un ojo,</l>
+          <l>me tozó la cabra</l>
+          <l>tambien me hizo cojo;</l>
+          <l>y una coz tan fuerte</l>
+          <l>la burra me dió</l>
+          <l>que el brazo derecho</l>
+          <l>me lo fracturó.</l>
+          <l>Me escapé de mis nodrizas</l>
+          <l>viéndome tan mal tratado,</l>
+          <l>era un mártes de ceniza</l>
+          <l>de este carnabal pasado.</l>
+          <l rend="indent">Pero mis tutores</l>
+          <l>de mi se acordaron,</l>
+          <l>y en una grande casa</l>
+          <l>luego me hospedaron;</l>
+
+          <pb n="3" source="Varios_147_3.jpg" facs="varios/Varios_147_3.jpg/"/>
+
           <fw type="paginaNum">3</fw>
-          <lg>
-            <l>con hambre y sin pan</l>
-            <l>con frio y sin ropa,</l>
-            <l>y un rico gaban</l>
-            <l>Trataron de darme oficio</l>
-            <l>me hicieron de estopa.</l>
-            <l>me metieron á un taller,</l>
-            <l>pero allí solo me daban</l>
-            <l>silencio y luz de comer.</l>
-            <l>Y para cenar</l>
-            <l>cuatro frioleras,</l>
-            <l>solo me enseñaban</l>
-            <l>á amolar tijeras;</l>
-            <l>y el maestro me dijo</l>
-            <l>hablando en gabacho,</l>
-            <l>este es grande empleo</l>
-            <l>para este muchacho.</l>
-            <l>Yo no padecí dolencias</l>
-            <l>en toda mi juventud,</l>
-            <l>porque siempre disfruté</l>
-            <l>una completa salud.</l>
-            <l>Solo sarampion</l>
-            <l>tuve en mi niñez</l>
-            <l>tiña, sarna y lepra</l>
-            <l>todo esto á la vez;</l>
-            <l>unas calenturas</l>
-            <l>tambien tabardillo,</l>
-            <l>viruelas tres veces</l>
-            <l>y mal de amarillo.</l>
-            <l>De la Francia me escapé</l>
-            <l>hechándole mil venablos,</l>
-            <l>á ella y su idoma maldito</l>
-            <l>que no lo entienden los diablos.</l>
-            <l>Me metí en España</l>
-            <l>nacion muy hermosa,</l>
-            <l>que come el que tiene</l>
-            <l>dinero en la bolsa;</l>
-            <l>y como en la mia</l>
-            <l>jamás hay alguno,</l>
-            <l>en todas las partes</l>
-            <l>como yo de ayuno.</l>
-            <l>Siendo tuerto, manco y cojo</l>
-            <l>yo me traté de casar</l>
-            <l>con la niña mas bonita</l>
-            <l>que al sol pudiera igualar.</l>
-            <l>Su hermoso retrato</l>
-            <l>¿quién podrá esplicar,</l>
-          </lg>
-          <lg>
-            <l>si ningun artista</l>
-            <l>lo pudo pintar ?</l>
-            <l>su cara mostrenca</l>
-            <l>los ojos de gato,</l>
-            <l>y el andar garbosa</l>
-            <l>como un viejo pato.</l>
-            <l>Sus narices divididas</l>
-            <l>como un perro perdiguero</l>
-            <l>no quiero esplicar mas gracias</l>
-            <l>de este hermoso y real salero.</l>
-            <l>Tres años lo menos</l>
-            <l>tuve yo que andar</l>
-            <l>tras de la muchacha</l>
-            <l>sin poderla hablar;</l>
-            <l>y como los niños</l>
-            <l>jugando al cu, cu,</l>
-            <l>pude presentarle</l>
-            <l>mi solicitud.</l>
-            <l>Me dió por contestacion</l>
-            <l>sabes lo que yo te quiero</l>
-            <l>aun mas que la gata al galo</l>
-            <l>cuando llega al mes de enero.</l>
-            <l>¡ Jesus que placer!</l>
-            <l>¡ qué grande alegría</l>
-            <l>dijo que su madre</l>
-            <l>tambien me queria!</l>
-            <l>y tambien su padre</l>
-            <l>estaba gustoso,</l>
-            <l>de que fuera yo</l>
-            <l>de su hija esposo.</l>
-            <l>Se estaba un dia peinando</l>
-            <l>y yo la tiré de la trenza,</l>
-            <l>y en seguida se quedó</l>
-            <l>con la calva á la vergüenza.</l>
-            <l>Y como yo he sido</l>
-            <l>siempre jugueton,</l>
-            <l>le toqué la cara</l>
-            <l>como de obligacion;</l>
-            <l>nos mira su padre</l>
-            <l>no me fué muy mal</l>
-            <l>que de una paliza</l>
-            <l>me echó al hospital.</l>
-            <l>Catorce meses estuve</l>
-            <l>de una postura en la cama,</l>
-            <l>sin hacer otro delito</l>
-            <l>que fué hablar con mi dama.</l>
-          </lg>
-          <pb n="4" source="Varios_147_4.jpg" facs="fedora_Varios_147_4/full/full/0/default.jpg"/>
+
+          <l>con hambre y sin pan</l>
+          <l>con frio y sin ropa,</l>
+          <l>y un rico gaban</l>
+          <l>Trataron de darme oficio</l>
+          <l>me hicieron de estopa.</l>
+          <l>me metieron á un taller,</l>
+          <l>pero allí solo me daban</l>
+          <l>silencio y luz de comer.</l>
+          <l rend="indent">Y para cenar</l>
+          <l>cuatro frioleras,</l>
+          <l>solo me enseñaban</l>
+          <l>á amolar tijeras;</l>
+          <l>y el maestro me dijo</l>
+          <l>hablando en gabacho,</l>
+          <l>este es grande empleo</l>
+          <l>para este muchacho.</l>
+          <l>Yo no padecí dolencias</l>
+          <l>en toda mi juventud,</l>
+          <l>porque siempre disfruté</l>
+          <l>una completa salud.</l>
+          <l rend="indent">Solo sarampion</l>
+          <l>tuve en mi niñez</l>
+          <l>tiña, sarna y lepra</l>
+          <l>todo esto á la vez;</l>
+          <l>unas calenturas</l>
+          <l>tambien tabardillo,</l>
+          <l>viruelas tres veces</l>
+          <l>y mal de amarillo.</l>
+          <l>De la Francia me escapé</l>
+          <l>hechándole mil venablos,</l>
+          <l>á ella y su idoma maldito</l>
+          <l>que no lo entienden los diablos.</l>
+          <l rend="indent">Me metí en España</l>
+          <l>nacion muy hermosa,</l>
+          <l>que come el que tiene</l>
+          <l>dinero en la bolsa;</l>
+          <l>y como en la mia</l>
+          <l>jamás hay alguno,</l>
+          <l>en todas las partes</l>
+          <l>como yo de ayuno.</l>
+          <l>Siendo tuerto, manco y cojo</l>
+          <l>yo me traté de casar</l>
+          <l>con la niña mas bonita</l>
+          <l>que al sol pudiera igualar.</l>
+          <l rend="indent">Su hermoso retrato</l>
+          <l>¿quién podrá esplicar,</l>
+          <l>si ningun artista</l>
+          <l>lo pudo pintar ?</l>
+          <l>su cara mostrenca</l>
+          <l>los ojos de gato,</l>
+          <l>y el andar garbosa</l>
+          <l>como un viejo pato.</l>
+          <l>Sus narices divididas</l>
+          <l>como un perro perdiguero</l>
+          <l>no quiero esplicar mas gracias</l>
+          <l>de este hermoso y real salero.</l>
+          <l rend="indent">Tres años lo menos</l>
+          <l>tuve yo que andar</l>
+          <l>tras de la muchacha</l>
+          <l>sin poderla hablar;</l>
+          <l>y como los niños</l>
+          <l>jugando al cu, cu,</l>
+          <l>pude presentarle</l>
+          <l>mi solicitud.</l>
+          <l>Me dió por contestacion</l>
+          <l>sabes lo que yo te quiero</l>
+          <l>aun mas que la gata al galo</l>
+          <l>cuando llega al mes de enero.</l>
+          <l rend="indent">¡ Jesus que placer!</l>
+          <l>¡ qué grande alegría</l>
+          <l>dijo que su madre</l>
+          <l>tambien me queria!</l>
+          <l>y tambien su padre</l>
+          <l>estaba gustoso,</l>
+          <l>de que fuera yo</l>
+          <l>de su hija esposo.</l>
+          <l>Se estaba un dia peinando</l>
+          <l>y yo la tiré de la trenza,</l>
+          <l>y en seguida se quedó</l>
+          <l>con la calva á la vergüenza.</l>
+          <l rend="indent">Y como yo he sido</l>
+          <l>siempre jugueton,</l>
+          <l>le toqué la cara</l>
+          <l>como de obligacion;</l>
+          <l>nos mira su padre</l>
+          <l>no me fué muy mal</l>
+          <l>que de una paliza</l>
+          <l>me echó al hospital.</l>
+          <l>Catorce meses estuve</l>
+          <l>de una postura en la cama,</l>
+          <l>sin hacer otro delito</l>
+          <l>que fué hablar con mi dama.</l>
+
+          <pb n="4" source="Varios_147_4.jpg" facs="varios/Varios_147_4.jpg/"/>
+
           <fw type="paginaNum">4</fw>
-          <lg>
-            <l>Y un año en muletas</l>
-            <l>tuvo yo que andar,</l>
-            <l>no vuelvo en mi vida</l>
-            <l>mas á festejar;</l>
-            <l>si por esta vez</l>
-            <l>me he quedado sano,</l>
-            <l>gracias á la ciencia</l>
-            <l>de un buen cirujano.</l>
-            <l>Solo por sus cualidades</l>
-            <l>me hizo duelo la muchacha</l>
-            <l>era chandra y laminera</l>
-            <l>puerca, tonta y borracha.</l>
-            <l>Y en su casa entraban</l>
-            <l>trompetas, tambores,</l>
-            <l>tambien granaderos</l>
-            <l>y los cazadores;</l>
-            <l>lambien artilleros</l>
-            <l>y caballería,</l>
-            <l>por la guardia civil</l>
-            <l>ella se moria.</l>
-            <l>En nacer fuí yo dichoso</l>
-            <l>en amar afortunado,</l>
-            <l>y ahora ya en mi vejez</l>
-            <l>vivo yo muy descansado.</l>
-            <l>Hombre como yo</l>
-            <l>no se halla en el dia,</l>
-            <l>no debo á ninguno</l>
-            <l>que en mí nadie fia;</l>
-            <l>si acaso es salud</l>
-            <l>el poco comer,</l>
-            <l>eterno en el mundo</l>
-            <l>debo yo de ser.</l>
-            <l>Soy presidente del hambre</l>
-            <l>príncipe de los trabajos,</l>
-          </lg>
-          <lg>
-            <l>soy conde de la miseria</l>
-            <l>y marques de los andrajos</l>
-            <l>tengo otro alimento,</l>
-            <l>En toda la vida</l>
-            <l>que el rancho que sobra</l>
-            <l>de algun regimiento;</l>
-            <l>yo gasto lebita</l>
-            <l>y tambien sotana,</l>
-            <l>que es ropa bonita</l>
-            <l>Hasta mi casa es dichosa</l>
-            <l>y de plingue lozana.</l>
-            <l>habito cerca del cielo,</l>
-            <l>es mi casa un sexto piso</l>
-            <l>sin contar el entresuelo.</l>
-            <l>Allí habito siempre</l>
-            <l>libre de polilla,</l>
-            <l>tengo por balcon</l>
-            <l>una gran guardilla;</l>
-            <l>allí se celebran</l>
-            <l>muy grandes sesiones,</l>
-            <l>entre grandes ratas</l>
-            <l>Aquí concluye la historia</l>
-            <l>y fieros ratones.</l>
-            <l>de Juan el afortunado,</l>
-            <l>todo el mundo se contente</l>
-            <l>con lo que Dios le haya dado.</l>
-            <l>No querais lo ageno</l>
-            <l>ni tengais codicia,</l>
-            <l>porque es castigada</l>
-            <l>de Dios la avaricia ;</l>
-            <l>tambien pide á todos</l>
-            <l>humilde el autor,</l>
-            <l>sus faltas y yerros,</l>
-            <l>perdone el lector.</l>
-          </lg>
+
+          <l rend="indent">Y un año en muletas</l>
+          <l>tuvo yo que andar,</l>
+          <l>no vuelvo en mi vida</l>
+          <l>mas á festejar;</l>
+          <l>si por esta vez</l>
+          <l>me he quedado sano,</l>
+          <l>gracias á la ciencia</l>
+          <l>de un buen cirujano.</l>
+          <l>Solo por sus cualidades</l>
+          <l>me hizo duelo la muchacha</l>
+          <l>era chandra y laminera</l>
+          <l>puerca, tonta y borracha.</l>
+          <l rend="indent">Y en su casa entraban</l>
+          <l>trompetas, tambores,</l>
+          <l>tambien granaderos</l>
+          <l>y los cazadores;</l>
+          <l>lambien artilleros</l>
+          <l>y caballería,</l>
+          <l>por la guardia civil</l>
+          <l>ella se moria.</l>
+          <l>En nacer fuí yo dichoso</l>
+          <l>en amar afortunado,</l>
+          <l>y ahora ya en mi vejez</l>
+          <l>vivo yo muy descansado.</l>
+          <l rend="indent">Hombre como yo</l>
+          <l>no se halla en el dia,</l>
+          <l>no debo á ninguno</l>
+          <l>que en mí nadie fia;</l>
+          <l>si acaso es salud</l>
+          <l>el poco comer,</l>
+          <l>eterno en el mundo</l>
+          <l>debo yo de ser.</l>
+          <l>Soy presidente del hambre</l>
+          <l>príncipe de los trabajos,</l>
+          <l>soy conde de la miseria</l>
+          <l>y marques de los andrajos</l>
+          <l>tengo otro alimento,</l>
+          <l rend="indent">En toda la vida</l>
+          <l>que el rancho que sobra</l>
+          <l>de algun regimiento;</l>
+          <l>yo gasto lebita</l>
+          <l>y tambien sotana,</l>
+          <l>que es ropa bonita</l>
+          <l>Hasta mi casa es dichosa</l>
+          <l>y de plingue lozana.</l>
+          <l>habito cerca del cielo,</l>
+          <l>es mi casa un sexto piso</l>
+          <l>sin contar el entresuelo.</l>
+          <l>Allí habito siempre</l>
+          <l>libre de polilla,</l>
+          <l>tengo por balcon</l>
+          <l>una gran guardilla;</l>
+          <l>allí se celebran</l>
+          <l>muy grandes sesiones,</l>
+          <l>entre grandes ratas</l>
+          <l>Aquí concluye la historia</l>
+          <l>y fieros ratones.</l>
+          <l>de Juan el afortunado,</l>
+          <l>todo el mundo se contente</l>
+          <l>con lo que Dios le haya dado.</l>
+          <l rend="indent">No querais lo ageno</l>
+          <l>ni tengais codicia,</l>
+          <l>porque es castigada</l>
+          <l>de Dios la avaricia ;</l>
+          <l>tambien pide á todos</l>
+          <l>humilde el autor,</l>
+          <l>sus faltas y yerros,</l>
+          <l>perdone el lector.</l>
         </div>
-        <div type="colofon_impresora">
+        
+        <div type="colofon_impresor">
           <p><lb/>REUS:<lb/>Imp. y lib. de Narciso Roca. —1868.</p>
-          <div type="colofón_vendedor">
-            <p><lb/>En casa Juan Grau hay gran surtido de romances, historias, sainetes y libros de<lb/>lance y se dan á precios muy cómodos.</p>
-          </div>
+        </div>
+        
+        <div type="colofon_vendedor">
+          <p><lb/>En casa Juan Grau hay gran surtido de romances, historias, sainetes y libros
+            de<lb/>lance y se dan á precios muy cómodos.</p>
         </div>
       </div>
     </body>

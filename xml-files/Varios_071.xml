@@ -1,18 +1,17 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../Schema/oddPliego_varios.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:alto="http://www.loc.gov/standards/alto/ns-v4#" xml:id="Varios_071">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Varios_071">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>GLOSAS CHISTOSAS PARA DIVERTIRSE LOS MOZOS CON INSTRUMENTOS.</title>
+        <title>GLOSAS CHISTOSAS PARA DIVERTIRSE LOS MOZOS CON INSTRUMENTOS</title>
         <respStmt>
           <name/>
           <resp>Codificación TEI</resp>
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <authority role="rightsHolder">Bibliothèque Universitaire de
-                            Genève</authority>
+        <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
         <availability status="restricted">
           <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
         </availability>
@@ -20,16 +19,17 @@
       <sourceDesc>
         <biblFull>
           <titleStmt>
-            <title type="titulo_completo">GLOSAS CHISTOSAS PARA DIVERTIRSE LOS MOZOS CON INSTRUMENTOS.</title>
+            <title type="titulo_completo">GLOSAS CHISTOSAS PARA DIVERTIRSE LOS MOZOS CON
+              INSTRUMENTOS.</title>
             <title type="titulo_breve"/>
           </titleStmt>
           <editionStmt>
             <p/>
           </editionStmt>
           <publicationStmt>
-            <publisher>Jose Maria Marés</publisher>
+            <publisher>José María Marés</publisher>
             <pubPlace ref="https://www.geonames.org/3117735/madrid.html">Madrid</pubPlace>
-            <date>1850</date>
+            <date cert="high" when="1850-01-01">1850</date>
           </publicationStmt>
         </biblFull>
         <msDesc>
@@ -37,7 +37,8 @@
             <country>Suisse</country>
             <settlement>Genève</settlement>
             <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"/>
-                  </repository>
+            </repository>
+            <collection>Colección Varios</collection>
             <idno type="cote"/>
             <idno type="DOI">10.5281/zenodo.6565852</idno>
             <altIdentifier>
@@ -45,10 +46,14 @@
             </altIdentifier>
           </msIdentifier>
           <msContents>
-            <summary/>
+            <summary>Glosas + Trovos</summary>
             <msItem>
-              <locus/>
-              <title/>
+              <locus>1-3</locus>
+              <title>Glosas chistosas para divertirse los mozos con instrumentos.</title>
+            </msItem>
+            <msItem>
+              <locus>4</locus>
+              <title>Trovos nuevos, alegres y divertidos par cantar los aficionados.</title>
             </msItem>
           </msContents>
           <physDesc>
@@ -66,8 +71,7 @@
               </layoutDesc>
             </objectDesc>
             <decoDesc>
-              <summary n="1">Uno dos tres cuatro cinco seis grabados
-                                        (p.1) </summary>
+              <summary n="1">Un grabado (p.1)</summary>
               <decoNote type="lista_grabados">
                 <list>
                   <item corresp="grabado_v_071_1.xml">grabado_v_071_1</item>
@@ -92,18 +96,17 @@
     </fileDesc>
     <encodingDesc>
       <projectDesc>
-        <p>Este archivo fue creado en el marco del proyecto Desenrollando el
-                            Cordel/Démêler le cordel/Untangling the cordel, dirigido por la
-                            profesora Constance Carta de la Universidad de Ginebra, con el apoyo de
-                            la Fundación filantrópica Famille Sandoz-Monique de Meuron.</p>
+        <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+          cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la Universidad
+          de Ginebra, con el apoyo de la Fundación filantrópica Famille Sandoz-Monique de
+          Meuron.</p>
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR non corregido</p>
+          <p>OCR no corregido</p>
         </correction>
         <normalization>
-          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto
-                                original.</p>
+          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
         </normalization>
         <punctuation>
           <p>Se conserva la puntuación original.</p>
@@ -125,9 +128,13 @@
     </profileDesc>
     <revisionDesc>
       <change when="2022-06-16" who="#PJ">Création du fichier TEI P5 et encodage du corps du
-                        texte</change>
+        texte</change>
+      <change when="2024-01-09" who="#EL">Add the IIIF links</change>
     </revisionDesc>
   </teiHeader>
+  <facsimile>
+    <graphic url="varios/Varios_071_1.jpg/full/200,/0/default.jpg"/>
+  </facsimile>
   <sourceDoc xml:id="automaticTranscription">
     <surface xml:id="Varios_071_1" type="page" cert="silver">
       <graphic url="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_071_1/full/full/0/default.jpg"/>
@@ -1395,18 +1402,21 @@
   <text>
     <body>
       <div>
-        <pb n="1" source="Varios_071_1.jpg" facs="fedora_Varios_071_1/full/full/0/default.jpg"/>
+        <pb n="1" source="Varios_071_1.jpg" facs="varios/Varios_071_1.jpg/"/>
+
         <fw type="numeroPliego">(Núm. 169.)</fw>
+
         <div>
-          <head type="primer_titulo"><lb/>GLOSAS CHISTOSAS<lb/>PARA DIVERTIRSE LOS MOZOS CON INSTRUMENTOS.</head>
+          <head type="primer_titulo"><lb/>GLOSAS CHISTOSAS<lb/>PARA DIVERTIRSE LOS MOZOS CON
+            INSTRUMENTOS.</head>
           <lg rend="cursiva">
-            <l>A la orillita del muelle</l>
+            <l rend="cursiva">A la orillita del muelle</l>
             <l>tengo yo mi diversion,</l>
             <l>gano para mantenerme,</l>
             <l>y hago de vino un colchon.</l>
           </lg>
           <lg>
-            <l>En la cámara de popa</l>
+            <l rend="indent">En la cámara de popa</l>
             <l>tengo todos mis tesoros,</l>
             <l>tengo el caballo de oros</l>
             <l>con la malilla de copas,</l>
@@ -1416,7 +1426,9 @@
             <l>para cuando salto en tierra</l>
             <l>formo mi campo de guerra</l>
             <l rend="cursiva">á la orillita del muolle.</l>
-            <l>Vienen soldados al juego,</l>
+          </lg>
+          <lg>
+            <l rend="indent">Vienen soldados al juego,</l>
             <l>marineros y grumetes,</l>
             <l>unos sacan y otros meten,</l>
             <l>todos se dejan dinero,</l>
@@ -1428,7 +1440,7 @@
             <l rend="cursiva">tengo yo mi diversion.</l>
           </lg>
           <lg>
-            <l>Hago canés y barajo;</l>
+            <l rend="indent">Hago canés y barajo;</l>
             <l>echa carta, dijo el moro,</l>
             <l>medio duro al as de oros,</l>
             <l>sin la que viene debajo,</l>
@@ -1438,7 +1450,9 @@
             <l>que yo con mis canecillos</l>
             <l>arrecojo mis cuartillos</l>
             <l rend="cursiva">y gano para mantenerme.</l>
-            <l>En cuanto el sol me calienta</l>
+          </lg>
+          <lg>
+            <l rend="indent">En cuanto el sol me calienta</l>
             <l>voy en busca de los pillos,</l>
             <l>armo yo mis canecillos</l>
             <l>y ajusto muy bien las cúertas</l>
@@ -1449,15 +1463,17 @@
             <l>y luego para acostarme</l>
             <l rend="cursiva">hago de vino un colchon.</l>
           </lg>
-          <pb n="2" source="Varios_071_2.jpg" facs="fedora_Varios_071_2/full/full/0/default.jpg"/>
+
+          <pb n="2" source="Varios_071_2.jpg" facs="varios/Varios_071_2.jpg/"/>
+
           <lg rend="cursiva">
-            <l>La brisca de tu fineza</l>
+            <l rend="cursiva">La brisca de tu fineza</l>
             <l>contigo quiero jugar</l>
             <l>por ver si puedo robar</l>
             <l>el triunfo de ta belleza.</l>
           </lg>
           <lg>
-            <l>En el naipe de mi amor</l>
+            <l rend="indent">En el naipe de mi amor</l>
             <l>quiero copiar tu retrato,</l>
             <l>de oro, copa, espada y basto</l>
             <l>para aliviar mi dolor;</l>
@@ -1467,7 +1483,9 @@
             <l>está diestra en el jugar;</l>
             <l>que en tí confio el ganar</l>
             <l rend="cursiva">la brisca de ta fineza.</l>
-            <l>Empezemos el partido</l>
+          </lg>
+          <lg>
+            <l rend="indent">Empezemos el partido</l>
             <l>y si gustas yo alzaré,</l>
             <l>que si gano te daré</l>
             <l>mi corazon afligido,</l>
@@ -1479,7 +1497,7 @@
             <l rend="cursiva">contigo quiero jugar.</l>
           </lg>
           <lg>
-            <l>Ya tienes en tu presencia</l>
+            <l rend="indent">Ya tienes en tu presencia</l>
             <l>mi mala informada nota,</l>
             <l>pero el rey, caballo y sota</l>
             <l>y el siete es mi resistencia;</l>
@@ -1489,7 +1507,9 @@
             <l>la carta de tu desden:</l>
             <l>esta baza haré tambien</l>
             <l rend="cursiva">por ver si puedo robar.</l>
-            <l>Con el cuatro y con el tres</l>
+          </lg>
+          <lg>
+            <l rend="indent">Con el cuatro y con el tres</l>
             <l>de tu amorosa inconstancia,</l>
             <l>me alegro de la ganancia</l>
             <l>y por último las diez;</l>
@@ -1500,14 +1520,15 @@
             <l>fué que á el alzar me ganastes.</l>
             <l rend="cursiva">el triunfo de ta belleza.</l>
           </lg>
+
           <lg rend="cursiva">
-            <l>En azuesta soledad</l>
+            <l rend="cursiva">En azuesta soledad</l>
             <l>lloro un bien que no posco,</l>
             <l>pues sin libertad me seo</l>
             <l>en lo meor de mi edad.</l>
           </lg>
           <lg>
-            <l>El sol, estrellas y luna,</l>
+            <l rend="indent">El sol, estrellas y luna,</l>
             <l>signos y demas planetas,</l>
             <l>vistanse negras bayetas</l>
             <l>al ver mi mala fortuna:</l>
@@ -1517,7 +1538,9 @@
             <l>de estos acentos que espreso,</l>
             <l>pues estoy á mas de preso</l>
             <l rend="cursiva">en aquesta soledad.</l>
-            <l>Los hombres, peces y aves,</l>
+          </lg>
+          <lg>
+            <l rend="indent">Los hombres, peces y aves,</l>
             <l>el aire, tierra y el fuego,</l>
             <l>al ver mi gran desconsuelo,</l>
             <l>pidan creces á los mares:</l>
@@ -1529,7 +1552,7 @@
             <l rend="cursiva">lloro un bíen que no poseo.</l>
           </lg>
           <lg>
-            <l>Las rosas y demas flores,</l>
+            <l rend="indent">Las rosas y demas flores,</l>
             <l>aunque en su abril divertidas,</l>
             <l>de fino crlor vestidas</l>
             <l>publiquen mis siusabores:</l>
@@ -1539,7 +1562,9 @@
             <l>que me ayuden á llorar;</l>
             <l>lloren, lloren sin cesar,</l>
             <l rend="cursiva">pues sin libertad me veo.</l>
-            <l>Hasta las mas duras rocas,</l>
+          </lg>
+          <lg>
+            <l rend="indent">Hasta las mas duras rocas,</l>
             <l>que incapaces son de hablar,</l>
             <l>para sentir mi penar,</l>
             <l>abran de su centro bocas;</l>
@@ -1550,7 +1575,9 @@
             <l>quien és quien preso me tiene:</l>
             <l rend="cursiva">en lo mejor de me edad?</l>
           </lg>
-          <pb n="3" source="Varios_071_3.jpg" facs="fedora_Varios_071_3/full/full/0/default.jpg"/>
+
+          <pb n="3" source="Varios_071_3.jpg" facs="varios/Varios_071_3.jpg/"/>
+
           <lg rend="cursiva">
             <l>Lar mozaelas de hoy en dia;</l>
             <l>me dicen que soy tunante,</l>
@@ -1558,7 +1585,7 @@
             <l>las embebo á cada instante.</l>
           </lg>
           <lg>
-            <l>Despues de muchas fiuezas</l>
+            <l rend="indent">Despues de muchas fiuezas</l>
             <l>me regala Pepa y Ana,</l>
             <l>tambien me dice Mariana,</l>
             <l>anda, que eres buena pieza:</l>
@@ -1568,7 +1595,9 @@
             <l>y Maria de la Luz,</l>
             <l>por eso me hacen la cruz</l>
             <l rend="cursiva">las mozuelas de hoy en dia.</l>
-            <l>Si voy á ver á Frasquita</l>
+          </lg>
+          <lg>
+            <l rend="indent">Si voy á ver á Frasquita</l>
             <l>que es vecina de mi casa,</l>
             <l>la llevo á Margarita</l>
             <l>memorias de Feliciana:</l>
@@ -1580,7 +1609,7 @@
             <l rend="cursiva">me dicen que soy tunante.</l>
           </lg>
           <lg>
-            <l>A Joaquina voy á ver</l>
+            <l rend="indent">A Joaquina voy á ver</l>
             <l>y Antonia, la pobrecita:</l>
             <l>me acuerdo de Carmelita</l>
             <l>que es mi deseo el saber;</l>
@@ -1590,7 +1619,9 @@
             <l>madre de los deseados,</l>
             <l>y con esto las engaño,</l>
             <l rend="cursiva">por que con et habla mia.....</l>
-            <l>Pur no faltar á Ramona,</l>
+          </lg>
+          <lg>
+            <l rend="indent">Pur no faltar á Ramona,</l>
             <l>me dice la Geromita</l>
             <l>de que me deje á Conchita</l>
             <l>y que de bien con Simona;</l>
@@ -1608,7 +1639,7 @@
             <l>lo beben los mas decentes.</l>
           </lg>
           <lg>
-            <l>Beben los mas principales</l>
+            <l rend="indent">Beben los mas principales</l>
             <l>de este bendito licor,</l>
             <l>lo bebe el gran señor</l>
             <l>que vive en comodidades,</l>
@@ -1618,7 +1649,9 @@
             <l>las Juanas y las Marías;</l>
             <l>y yo porque lo bebia</l>
             <l rend="cursiva">me echaron á los bageles.</l>
-            <l>En estos tiempos fatales</l>
+          </lg>
+          <lg>
+            <l rend="indent">En estos tiempos fatales</l>
             <l>no hay uno que no tropiece,</l>
             <l>y por remedio le ofrece</l>
             <l>este licor á sus males;</l>
@@ -1630,7 +1663,7 @@
             <l rend="cursiva">porque bebo el aguardiente.</l>
           </lg>
           <lg>
-            <l>Los que son mas melindrosos</l>
+            <l rend="indent">Los que son mas melindrosos</l>
             <l>lo beben á cada instante:</l>
             <l>lo beben los comediantes</l>
             <l>y los mas decentes mozos:</l>
@@ -1640,7 +1673,9 @@
             <l>y así agraviarse no pueden,</l>
             <l>porque al fin todos lo beben</l>
             <l rend="cursiva">hoy en el dia, señores.</l>
-            <l>Todos se toman el frasco,</l>
+          </lg>
+          <lg>
+            <l rend="indent">Todos se toman el frasco,</l>
             <l>el tañedor, el danzante,</l>
             <l>el médico, el estudiante,</l>
             <l>el viejo, mozo y muchacho:</l>
@@ -1651,94 +1686,121 @@
             <l>y por verse celebrados,</l>
             <l rend="cursiva">lo beben los mas decentes.</l>
           </lg>
-          <pb n="4" source="Varios_071_4.jpg" facs="fedora_Varios_071_4/full/full/0/default.jpg"/>
         </div>
+
         <div>
-          <head type="titulo_trovo"><lb/>TROVOS NUEVOS,<lb/>ALEGRES Y DIVERTIDOS PARA CANTAR LOS AFICIONADOS.</head>
+          <pb n="4" source="Varios_071_4.jpg" facs="varios/Varios_071_4.jpg/"/>
+          <head type="titulo_trovo"><lb/>TROVOS NUEVOS,<lb/>ALEGRES Y DIVERTIDOS PARA CANTAR LOS
+            AFICIONADOS.</head>
+
+          <lg rend="cursiva">
+            <l rend="indent">Si un hombre calla, es un tonto,</l>
+            <l>si habla, es un hablador,</l>
+            <l>si bele vino, un borracho,</l>
+            <l>y si vá á misa un santurron.</l>
+          </lg>
           <lg>
-            <l rend="cursiva">Si un homtre calla, es un tonto,</l>
-            <l rend="cursiva">si habla, es un hablador,</l>
-            <l rend="cursiva">si bele vino, un borracho,</l>
-            <l rend="cursiva">y si vá á misa un santurron.</l>
-            <l>Si fuere de genio pronto,</l>
+            <l rend="indent">Si fuere de genio pronto,</l>
             <l>ó calla por conveniencia,</l>
             <l>lo tiene el vulgo por loco,</l>
             <l>y dicen con imprudencia</l>
             <l rend="cursiva">si un hombre calla, es un tonto.</l>
-            <l>Bien puede ser orador,</l>
+          </lg>
+          <lg>
+            <l rend="indent">Bien puede ser orador,</l>
             <l>ó famoso literato,</l>
             <l>sus obras aprueba el censor</l>
             <l>y critica el insensato;</l>
             <l rend="cursiva">si habla, es un hablador.</l>
-            <l>Porque juega ya, es muchacho,</l>
+          </lg>
+          <lg>
+            <l rend="indent">Porque juega ya, es muchacho,</l>
             <l>si se está quieto, muy macho,</l>
             <l>y si rie, dicen que es</l>
             <l>tonto al derecho y al revés:</l>
             <l rend="cursiva">si bebe vino un borracho.</l>
-            <l>Los hombres demonios son,</l>
+          </lg>
+          <lg>
+            <l rend="indent">Los hombres demonios son,</l>
             <l>y sus genios diferentes;</l>
             <l>bien puede ser un Neron,</l>
             <l>que en el decin de las gentes,</l>
             <l rend="cursiva">si vá á misa, un santurron.</l>
           </lg>
+          <lg rend="cursiva">
+            <l rend="indent">Las doncellas van rabiando</l>
+            <l>porque no encuentran galan;</l>
+            <l>las viaditas van diciendo,</l>
+            <l>asperges nos dejarán.</l>
+          </lg>
           <lg>
-            <l rend="cursiva">Las doncellas van rabiando</l>
-            <l rend="cursiva">porque no encuentran galan;</l>
-            <l rend="cursiva">las viaditas van diciendo,</l>
-            <l rend="cursiva">asperges nos dejarán.</l>
-            <l>Muy compuestas y con garbo</l>
+            <l rend="indent">Muy compuestas y con garbo</l>
             <l>las presumidas mociras,</l>
             <l>á los novios van buscando,</l>
             <l>pues por verse casaditas</l>
             <l rend="cursiva">las doncellas van rabiando.</l>
-            <l>Unas tras los novios van,</l>
-            <l>otras los andan buscando</l>
-            <l>con tanto anhelo y afan,</l>
           </lg>
           <lg>
+            <l rend="indent">Unas tras los novios van,</l>
+            <l>otras los andan buscando</l>
+            <l>con tanto anhelo y afan,</l>
             <l>que siempre viven penando</l>
             <l rend="cursiva">porque'no encuentran galan.</l>
-            <l>Como todas van creciendo</l>
+          </lg>
+          <lg>
+            <l rend="indent">Como todas van creciendo</l>
             <l>y hay abundancia de mozas,</l>
             <l>con el deseo y gimiendo</l>
             <l>nos quedaremos nosotras;</l>
             <l rend="cursiva">las vinditas van diciendo.</l>
-            <l>Las doncellas no hallarán</l>
+          </lg>
+          <lg>
+            <l rend="indent">Las doncellas no hallarán</l>
             <l>los galanes suficientes,</l>
             <l>luego si algun sacristan</l>
             <l>no pillamos por gran suerte,</l>
             <l rend="cursiva">asperges nos dejarán.</l>
           </lg>
+          <lg rend="cursiva">
+            <l rend="indent">En cierta ciudad de España</l>
+            <l>pusieron preso á un gitano</l>
+            <l>porque se encontró una capa</l>
+            <l>antes de perderla el amo.</l>
+          </lg>
           <lg>
-            <l rend="cursiva">En cierta ciudad de España</l>
-            <l rend="cursiva">pusieron preso á un gitano</l>
-            <l rend="cursiva">porque se encontró una capa</l>
-            <l rend="cursiva">antes de perderla el amo.</l>
-            <l>Señorita resalada,</l>
+            <l rend="indent">Señorita resalada,</l>
             <l>tu amor me tiene postrado,</l>
             <l>hermosisima Diana,</l>
             <l>tus ojos me cautivaron,</l>
             <l rend="cursiva">en cierta cindad de España.</l>
-            <l>Salada, dame la mano</l>
+          </lg>
+          <lg>
+            <l rend="indent">Salada, dame la mano</l>
             <l>que te daré el corazon,</l>
             <l>y despues diré cantando:</l>
             <l>con razon ó sin razon</l>
             <l rend="cursiva">pusieron preso á an gitano.</l>
-            <l>El gitano puesto en mareha</l>
+          </lg>
+          <lg>
+            <l rend="indent">El gitano puesto en mareha</l>
             <l>seguia su caminillo:</l>
             <l>sin tencr ninguna causa</l>
             <l>lo llevaron á presidio</l>
             <l rend="cursiva">porque se encontró una capa.</l>
-            <l>Era capa de un serrano,</l>
+          </lg>
+          <lg>
+            <l rend="indent">Era capa de un serrano,</l>
             <l>la capa no se perdió,</l>
             <l>como era tuno el gitano</l>
             <l>la capa se la encontró,</l>
             <l rend="cursiva">antes de perderla el amo.</l>
           </lg>
-          <trailer>FIN.</trailer>
+
+          <trailer rend="negrita">FIN.</trailer>
         </div>
+        
         <div type="colofon">
-          <p><lb/>Madrid: 1850. Imprenta de D. Jose Maria Marés, Calle de Relatores, núm. 17.</p>
+          <p><lb/><hi rend="negrita">Madrid: 1850.</hi> <lb/><hi rend="cursiva">Imprenta de D. Jose Maria Marés, Calle de Relatores, núm. 17.</hi></p>
         </div>
       </div>
     </body>

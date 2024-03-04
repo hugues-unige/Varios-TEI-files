@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../Schema/oddPliego_varios.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:alto="http://www.loc.gov/standards/alto/ns-v4#" xml:id="Varios_107">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Varios_107">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -11,8 +11,7 @@
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <authority role="rightsHolder">Bibliothèque Universitaire de
-                              Genève</authority>
+        <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
         <availability status="restricted">
           <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
         </availability>
@@ -20,16 +19,16 @@
       <sourceDesc>
         <biblFull>
           <titleStmt>
-            <title type="titulo_completo">LA RADIO</title>
-            <title type="titulo_breve"/>
+            <title type="titulo_completo">LA RADIO. Primera parte.</title>
+            <title type="titulo_breve">LA RADIO.</title>
           </titleStmt>
           <editionStmt>
             <p/>
           </editionStmt>
           <publicationStmt>
-            <publisher>[s.n]</publisher>
-            <pubPlace/>
-            <date>[s.a]</date>
+            <publisher>[s.n.]</publisher>
+            <pubPlace>[s.l.]</pubPlace>
+            <date cert="low" when="1800-01-01">[s.a.]</date>
           </publicationStmt>
         </biblFull>
         <msDesc>
@@ -37,7 +36,8 @@
             <country>Suisse</country>
             <settlement>Genève</settlement>
             <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"/>
-                                    </repository>
+            </repository>
+            <collection>Colección Varios</collection>
             <idno type="cote"/>
             <idno type="DOI">10.5281/zenodo.6576162</idno>
             <altIdentifier>
@@ -45,10 +45,26 @@
             </altIdentifier>
           </msIdentifier>
           <msContents>
-            <summary/>
+            <summary>Cuatro canciones</summary>
             <msItem>
-              <locus/>
-              <title/>
+              <locus>1</locus>
+              <title>La Radio. Primera parte.</title>
+            </msItem>
+            <msItem>
+              <locus>2</locus>
+              <title>Segunda partede La Radio</title>
+            </msItem>
+            <msItem>
+              <locus>3</locus>
+              <title>La Gaviota</title>
+              <author role="letrista">Amichatis</author>
+              <author role="letrista">A. Oliveros</author>
+              <author role="compositor">Rafael Millan</author>
+            </msItem>
+            <msItem>
+              <locus>4</locus>
+              <title>La Rosario. Marcha.</title>
+              <author role="letrista">Luis Santed</author>
             </msItem>
           </msContents>
           <physDesc>
@@ -70,8 +86,8 @@
               <decoNote type="lista_grabados">
                 <list>
                   <item corresp="grabado_v_107_1.xml">grabado_v_107_1</item>
-                  <item corresp="grabado_v_107_1.xml">grabado_v_107_1</item>
-                  <item corresp="grabado_v_107_1.xml">grabado_v_107_1</item>
+                  <item corresp="grabado_v_107_2.xml">grabado_v_107_2</item>
+                  <item corresp="grabado_v_107_3.xml">grabado_v_107_3</item>
                 </list>
               </decoNote>
             </decoDesc>
@@ -83,18 +99,17 @@
     </fileDesc>
     <encodingDesc>
       <projectDesc>
-        <p>Este archivo fue creado en el marco del proyecto Desenrollando el
-                              Cordel/Démêler le cordel/Untangling the cordel, dirigido por la
-                              profesora Constance Carta de la Universidad de Ginebra, con el apoyo
-                              de la Fundación filantrópica Famille Sandoz-Monique de Meuron.</p>
+        <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+          cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la Universidad
+          de Ginebra, con el apoyo de la Fundación filantrópica Famille Sandoz-Monique de
+          Meuron.</p>
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR non corregido</p>
+          <p>OCR no corregido</p>
         </correction>
         <normalization>
-          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto
-                                    original.</p>
+          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
         </normalization>
         <punctuation>
           <p>Se conserva la puntuación original.</p>
@@ -104,6 +119,7 @@
     <profileDesc>
       <langUsage>
         <language ident="es">Español</language>
+        <language ident="ca">Catalán</language>
       </langUsage>
       <textClass>
         <keywords xml:base="http://datos.bne.es/tema/">
@@ -115,10 +131,14 @@
       </textClass>
     </profileDesc>
     <revisionDesc>
-      <change when="2022-08-31" who="#PJ">Création du fichier TEI P5 et encodage du
-                        corps du texte</change>
+      <change when="2022-08-31" who="#PJ">Création du fichier TEI P5 et encodage du corps du
+        texte</change>
+      <change when="2024-01-09" who="#EL">Add the IIIF links</change>
     </revisionDesc>
   </teiHeader>
+  <facsimile>
+    <graphic url="varios/Varios_107_1.jpg/full/200,/0/default.jpg"/>
+  </facsimile>
   <sourceDoc xml:id="automaticTranscription">
     <surface xml:id="Varios_107_1" type="page" cert="silver">
       <graphic url="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_107_1/full/full/0/default.jpg"/>
@@ -258,7 +278,7 @@
           <line>Una noia moreneta</line>
         </zone>
         <zone xml:id="Varios_107_1_BT227_4__10" type="DefaultLine" subtype="none" points="1490,1906 1490,1855 1535,1855 1535,1906 1535,1921 1490,1921 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_107_1/1490,1855,45,66/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_107_1_BT227_4__10_1" points="1490,1906 1535,1906 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
+          <path xml:id="Varios_107_1_BT227_4__10_1" points="1490,1906 1535,1906 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
           <line>III</line>
         </zone>
         <zone xml:id="Varios_107_1_BT227_4_LT83_11" type="DefaultLine" subtype="none" points="1151,1992 1148,1949 1629,1946 1631,1992 1631,2015 1151,2015 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_107_1/1148,1946,483,69/full/0/default" corresp="DefaultLine">
@@ -595,8 +615,7 @@
         </zone>
         <zone xml:id="Varios_107_3_BT223_2_LT84_2" type="HeadingLine" subtype="none" points="402,1595 402,1524 500,1529 500,1529 503,1529 503,1529 503,1529 506,1529 506,1529 506,1532 508,1532 516,1542 731,1537 796,1537 799,1537 799,1537 834,1542 915,1554 946,1547 963,1542 966,1542 966,1542 969,1542 969,1542 969,1542 1012,1549 1065,1559 1090,1552 1113,1547 1115,1547 1115,1547 1115,1547 1118,1547 1118,1547 1176,1557 1227,1565 1277,1562 1363,1554 1363,1554 1366,1554 1682,1580 1682,1635 1679,1686 1604,1686 1601,1683 1601,1683 1598,1683 1598,1683 1598,1683 1596,1683 1596,1683 1593,1681 1568,1658 1520,1658 1487,1673 1487,1673 1487,1673 1485,1673 1485,1673 1482,1673 1482,1673 1482,1673 1480,1673 1416,1656 1391,1673 1386,1676 1383,1676 1383,1676 1383,1676 1381,1676 1381,1676 1381,1676 1378,1676 1267,1666 1161,1658 1148,1661 1128,1668 1125,1668 1125,1668 1125,1668 1123,1668 1123,1668 1120,1668 1120,1668 1120,1668 1103,1661 1080,1648 1070,1658 1067,1661 1067,1661 1065,1661 1065,1661 1065,1661 1062,1661 1062,1661 1062,1661 1060,1661 984,1656 880,1645 857,1648 804,1658 804,1658 804,1658 802,1658 751,1656 751,1656 751,1656 748,1656 748,1656 746,1656 746,1656 731,1643 716,1630 556,1628 533,1635 503,1645 503,1645 500,1645 500,1645 498,1645 498,1645 498,1645 495,1645 495,1645 495,1645 493,1645 493,1645 493,1643 480,1633 478,1630 399,1630 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_107_3/399,1524,1283,162/full/0/default" corresp="HeadingLine">
           <path xml:id="Varios_107_3_BT223_2_LT84_2_1" points="402,1595 1682,1635 "/>
-          <line>Música del eminente y popular maestro compositor Rafael
-                                    Millan.</line>
+          <line>Música del eminente y popular maestro compositor Rafael Millan.</line>
         </zone>
       </zone>
       <zone xml:id="Varios_107_3_BT227_3" n="3" type="MainZone" subtype="columns" points="285,1647 239,2384 1042,2419 1082,1690 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_107_3/239,1647,843,772/full/0/default" corresp="MainZone:columns">
@@ -873,218 +892,235 @@
   <text>
     <body>
       <div>
-        <pb n="1" source="Varios_107_1.jpg" facs="fedora_Varios_107_1/full/full/0/default.jpg"/>
-        <div type="parte" n="1">
-          <head type="titulo_parte">
-            <lb/>
-            <hi rend="escritura_vertical">PRIMERA PARTE</hi>
-          </head>
-          <head type="primer_titulo"><lb/>LA RADIO</head>
-          <p><lb/>I</p>
-          <lg>
-            <l>Es la radio un aparato</l>
-            <l>que fa poch qu' ha sortit nou</l>
-            <l>es bonich i mol baratu</l>
-            <l>i d'aqui a poch ratu</l>
-            <l>respón á Moscou.</l>
-            <l>Tan sols posá una antena</l>
-            <l>un filferro i uns cordons</l>
-            <l>sentiran a boca plena.</l>
-            <l>com d'una galena</l>
-            <l>surten las cançons..</l>
-            <l>Ojo moreneta si escoltas la radio</l>
-          </lg>
-          <lg>
-            <l>(Tornada</l>
-            <l>no estiguis soleta quan vingui l'Arcadio</l>
-            <l>per que aquell fulano te cops amagats</l>
-            <l>itoca' l piano pels quatre costats</l>
-            <l>Un dia la Filomena</l>
-          </lg>
-          <p><lb/>II</p>
-          <lg>
-            <l>li va dí han el seu promés</l>
-            <l>pue li pusés una antena</l>
-            <l>i un altra galena</l>
-            <l>que se senti més</l>
-            <l>Yo no sé com la pusaba</l>
-            <l>ni tampoc queva pasá</l>
-            <l>el cás es que ella plorava</l>
-            <l>de tan qu'ellpicaba</l>
-            <l>sobre'l colomá.</l>
-          </lg>
-          <lg>
-            <l>(Tornada)</l>
-            <l>Ojo moreneta, etc., etc.</l>
-          </lg>
-          <p><lb/>III</p>
-          <lg>
-            <l>Una noia moreneta</l>
-            <l>per favor m'ha demanat</l>
-            <l>que li posi una anteneta</l>
-            <l>ben arrambadeta</l>
-            <l>amb el seu terrat.</l>
-            <l>Comqu'hi te alguna gotera</l>
-            <l>y també molta humitat</l>
-            <l>al toca'l fil del radera</l>
-            <l>per no teni espera</l>
-            <l>tot se l'ha trencat.</l>
-          </lg>
-          <lg>
-            <l>Tornada</l>
-            <l>Ojo moreneta, etc., etc.</l>
-          </lg>
+        <div n="1">
+          <pb n="1" source="Varios_107_1.jpg" facs="varios/Varios_107_1.jpg/"/>
+
+          <head type="primer_titulo" rend="negrita"><lb/>LA RADIO</head>
+
+          <div type="parte" n="1">
+            <head type="titulo_parte" rend="negrita"><lb/>PRIMERA PARTE</head>
+
+            <lg>
+              <head type="titulo_estrofa"><lb/>I</head>
+              <l rend="indent">Es la radio un aparato</l>
+              <l>que fa poch qu' ha sortit nou</l>
+              <l>es bonich i mol baratu</l>
+              <l>i d'aqui a poch ratu</l>
+              <l>respón á Moscou.</l>
+              <l>Tan sols posá una antena</l>
+              <l>un filferro i uns cordons</l>
+              <l>sentiran a boca plena.</l>
+              <l>com d'una galena</l>
+              <l>surten las cançons..</l>
+            </lg>
+            <lg>
+              <head type="titulo_estrofa">(Tornada</head>
+              <l>Ojo moreneta si escoltas la radio</l>
+              <l>no estiguis soleta quan vingui l'Arcadio</l>
+              <l>per que aquell fulano te cops amagats</l>
+              <l>itoca' l piano pels quatre costats</l>
+            </lg>
+            <lg>
+              <head type="titulo_estrofa"><lb/>II</head>
+              <l>Un dia la Filomena</l>
+              <l>li va dí han el seu promés</l>
+              <l>pue li pusés una antena</l>
+              <l>i un altra galena</l>
+              <l>que se senti més</l>
+              <l>Yo no sé com la pusaba</l>
+              <l>ni tampoc queva pasá</l>
+              <l>el cás es que ella plorava</l>
+              <l>de tan qu'ellpicaba</l>
+              <l>sobre'l colomá.</l>
+            </lg>
+            <lg>
+              <l>(Tornada)</l>
+              <l>Ojo moreneta, etc., etc.</l>
+            </lg>
+            <lg>
+              <head type="titulo_estrofa"><lb/>III</head>
+              <l>Una noia moreneta</l>
+              <l>per favor m'ha demanat</l>
+              <l>que li posi una anteneta</l>
+              <l>ben arrambadeta</l>
+              <l>amb el seu terrat.</l>
+              <l>Comqu'hi te alguna gotera</l>
+              <l>y també molta humitat</l>
+              <l>al toca'l fil del radera</l>
+              <l>per no teni espera</l>
+              <l>tot se l'ha trencat.</l>
+            </lg>
+            <lg>
+              <l>Tornada</l>
+              <l>Ojo moreneta, etc., etc.</l>
+            </lg>
+          </div>
+
+          <div type="parte" n="2">
+            <pb n="2" source="Varios_107_2.jpg" facs="varios/Varios_107_2.jpg/"/>
+
+            <head type="titulo_parte" rend="negrita"><lb/>Segunda partede La RADIO</head>
+
+            <lg>
+              <head type="titulo_estrofa"><lb/>IV</head>
+              <l>L'altre dia a la Clareta</l>
+              <l>lel xicot l'i ha regalat</l>
+              <l>una Radio de trompeta</l>
+              <l>a més boniqueta</l>
+              <l>que s'ha registrat.</l>
+              <l>Com qu'ell es petit dé mena</l>
+              <l>y ella molt grossa de pit</l>
+              <l>vna nit de lluna plena</l>
+              <l>nan clava l'antena</l>
+              <l>per damunt del llit.</l>
+            </lg>
+            <lg>
+              <head type="titulo_estrofa">Tornada</head>
+              <l>Ojo moreneta, etc., etc.</l>
+            </lg>
+            <lg>
+              <head type="titulo_estrofa"><lb/>V</head>
+              <l>Jo tinch una cosineta</l>
+              <l>que la Radio li fa pó</l>
+              <l>y cuan ja sent la trompera</l>
+              <l>la veureu pobreta</l>
+              <l>morta en un reco.</l>
+              <l>Diu qu'els que fan la cantádá</l>
+              <l>son dimonis que hi ha allí: </l>
+              <l>i perxó alguna vegada</l>
+              <l>I'han vist abrasada</l>
+              <l>amb el seu tosi</l>
+            </lg>
+            <lg>
+              <head type="titulo_estrofa">Tornada</head>
+              <l>Ojo moreneta, etc., etc.</l>
+            </lg>
+            <lg>
+              <head type="titulo_estrofa"><lb/>VI</head>
+              <l>Perque pugui passa el rato</l>
+              <l>un marit a regalat</l>
+              <l>a la dona un aparato</l>
+              <l>bonich i barato</l>
+              <l>í molt estimat.</l>
+              <l>El mari que s'diu Arcadio</l>
+              <l>mitj plorant ara m'ha dit</l>
+              <l>q'uella está mes per la Radio</l>
+              <l>si mes per la Radio.</l>
+              <l>que nel seu marit</l>
+            </lg>
+            <lg>
+              <head type="titulo_estrofa">Tornada</head>
+              <l>Ojo moreneta, etc., etc.</l>
+            </lg>
+            <lg>
+              <head type="titulo_estrofa"><lb/>VII</head>
+              <l>Desde que hi han tantes antenes</l>
+              <l>pels terats y pels balcons</l>
+              <l>ja no's veuen tantes nenes</l>
+              <l>que busquen galenes</l>
+              <l>per alguns carrerons.</l>
+              <l>Com que moltes Radios tenen</l>
+              <l>unes en trompa y altres no</l>
+              <l>les que no, ja s'entretenen</l>
+              <l>ei es que no ho enteren</l>
+              <l>amb l'escaltador.</l>
+            </lg>
+            <lg>
+              <head type="titulo_estrofa">Tornada</head>
+              <l>Ojo moreneta, etc., etc.</l>
+            </lg>
+            <lg>
+              <head type="titulo_estrofa"><lb/>VIII</head>
+              <l>Una señora en gran pompa</l>
+              <l>una Radio n'ha comprat</l>
+              <l>es d'aquelles que tenen tromps</l>
+              <l>i a tots a bonu</l>
+              <l>ella ha convidat.</l>
+              <l>Y ara la señora veyent.</l>
+              <l>que'ls espera a tots a dins</l>
+              <l>no vol que la trompa toqui</l>
+              <l>ni la gent s'hen vagi</l>
+              <l>si no son veins.</l>
+              <l>Ojo moreneta etc., etc.</l>
+            </lg>
+            <trailer>F I N</trailer>
+          </div>
         </div>
-        <pb n="2" source="Varios_107_2.jpg" facs="fedora_Varios_107_2/full/full/0/default.jpg"/>
-        <div type="parte" n="2">
-          <head type="titulo_parte"><lb/>Segunda partede La Ra Dio</head>
-          <p><lb/>IV</p>
-          <lg>
-            <l>L'altre dia a la Clareta</l>
-            <l>lel xicot l'i ha regalat</l>
-            <l>una Radio de trompeta</l>
-            <l>a més boniqueta</l>
-            <l>que s'ha registrat.</l>
-            <l>Com qu'ell es petit dé mena</l>
-            <l>y ella molt grossa de pit</l>
-            <l>vna nit de lluna plena</l>
-            <l>nan clava l'antena</l>
-            <l>per damunt del llit.</l>
-          </lg>
-          <lg>
-            <l>Tornada</l>
-            <l>Ojo moreneta, etc., etc.</l>
-          </lg>
-          <p><lb/>V</p>
-          <lg>
-            <l>Jo tinch una cosineta</l>
-            <l>que la Radio li fa pó</l>
-            <l>y cuan ja sent la trompera</l>
-            <l>la veureu pobreta</l>
-            <l>morta en un reco.</l>
-            <l>Diu qu'els que fan la cantádá</l>
-            <l>son dimonis que hi ha allí: </l>
-            <l>i perxó alguna vegada</l>
-            <l>I'han vist abrasada</l>
-            <l>amb el seu tosi</l>
-          </lg>
-          <lg>
-            <l>Tornada</l>
-            <l>Ojo moreneta, etc., etc.</l>
-          </lg>
-          <p><lb/>VI</p>
-          <lg>
-            <l>Perque pugui passa el rato</l>
-            <l>un marit a regalat</l>
-            <l>a la dona un aparato</l>
-            <l>bonich i barato</l>
-            <l>í molt estimat.</l>
-            <l>El mari que s'diu Arcadio</l>
-            <l>mitj plorant ara m'ha dit</l>
-            <l>q'uella está mes per la Radio</l>
-            <l>si mes per la Radio.</l>
-            <l>que nel seu marit</l>
-          </lg>
-          <lg>
-            <l>Tornada</l>
-            <l>Ojo moreneta, etc., etc.</l>
-          </lg>
-          <p><lb/>VII</p>
-          <lg>
-            <l>Desde que hi han tantes antenes</l>
-            <l>pels terats y pels balcons</l>
-            <l>ja no's veuen tantes nenes</l>
-            <l>que busquen galenes</l>
-            <l>per alguns carrerons.</l>
-            <l>Com que moltes Radios tenen</l>
-            <l>unes en trompa y altres no</l>
-            <l>les que no, ja s'entretenen</l>
-            <l>ei es que no ho enteren</l>
-            <l>amb l'escaltador.</l>
-          </lg>
-          <lg>
-            <l>Tornada</l>
-            <l>Ojo moreneta, etc., etc.</l>
-          </lg>
-          <p><lb/>VIII</p>
-          <lg>
-            <l>Una señora en gran pompa</l>
-            <l>una Radio n'ha comprat</l>
-            <l>es d'aquelles que tenen tromps</l>
-            <l>i a tots a bonu</l>
-            <l>ella ha convidat.</l>
-            <l>Y ara la señora veyent.</l>
-            <l>que'ls espera a tots a dins</l>
-            <l>no vol que la trompa toqui</l>
-            <l>ni la gent s'hen vagi</l>
-            <l>si no son veins.</l>
-            <l>Ojo moreneta etc., etc.</l>
-          </lg>
-          <trailer>F I N</trailer>
-        </div>
-        <pb n="3" source="Varios_107_3.jpg" facs="fedora_Varios_107_3/full/full/0/default.jpg"/>
-        <div type="parte" n="3">
-          <head type="primer_titulo"><lb/>La Gaviota</head>
+
+        <div n="2">
+          <pb n="3" source="Varios_107_3.jpg" facs="varios/Varios_107_3.jpg/"/>
+
+          <head type="primer_titulo" rend="negrita"><lb/>La Gaviota</head>
           <head type="titulo_parte"><lb/>Zarzuela en dos actos letra de «Amichatis» y A.
-                                    Oliveros<lb/>Música del eminente y popular maestro compositor
-                                    Rafael Millan.</head>
-          <lg>
-            <l>Felices hijos de esta tierra</l>
-            <l>hermanos míos del alma,</l>
-            <l>yo siempre fui hombre de guerra,</l>
-            <l>pero hoy anhelo la calma.</l>
-            <l>La calma evocadora de recuerdos</l>
-            <l>hoy mi alma llena de emociones.</l>
-            <l>¡que triste es el rumor de vuestras risas</l>
-            <l>en la agonia de mis amores!</l>
-            <l>l que ti...</l>
-            <l>el que tira pedretes,</l>
-            <l>es que ti...</l>
-            <l>es que tira amoretes.</l>
-            <l>Els enamorats</l>
-            <l>com que están encegats</l>
-            <l>van a les palpentes</l>
-            <l>l sempre acostats</l>
-          </lg>
-          <lg>
-            <l>busquen la fosca</l>
-            <l>esemblantse amb els gats</l>
-            <l>que trapelies son</l>
-            <l>¡enamorats!</l>
-            <l>Ese bello cantar</l>
-            <l>me embelesa.</l>
-            <l>y otro tiempo feliz</l>
-            <l>me recuerda.</l>
-            <l>Els enamorats</l>
-            <l>com que están encegats</l>
-            <l>van a les palpentes</l>
-            <l>y sempre acostats</l>
-            <l>bbusquen la fosea</l>
-            <l>¡que trapelles son</l>
-            <l>¡epamorats!</l>
-          </lg>
+            Oliveros<lb/>Música del eminente y popular maestro compositor Rafael Millan.</head>
+
+          <l>Felices hijos de esta tierra</l>
+          <l>hermanos míos del alma,</l>
+          <l>yo siempre fui hombre de guerra,</l>
+          <l>pero hoy anhelo la calma.</l>
+          <l>La calma evocadora de recuerdos</l>
+          <l>hoy mi alma llena de emociones.</l>
+          <l>¡que triste es el rumor de vuestras risas</l>
+          <l>en la agonia de mis amores!</l>
+          <l>l que ti...</l>
+          <l>el que tira pedretes,</l>
+          <l>es que ti...</l>
+          <l>es que tira amoretes.</l>
+          <l>Els enamorats</l>
+          <l>com que están encegats</l>
+          <l>van a les palpentes</l>
+          <l>l sempre acostats</l>
+          <l>busquen la fosca</l>
+          <l>esemblantse amb els gats</l>
+          <l>que trapelies son</l>
+          <l>¡enamorats!</l>
+          <l>Ese bello cantar</l>
+          <l>me embelesa.</l>
+          <l>y otro tiempo feliz</l>
+          <l>me recuerda.</l>
+          <l>Els enamorats</l>
+          <l>com que están encegats</l>
+          <l>van a les palpentes</l>
+          <l>y sempre acostats</l>
+          <l>bbusquen la fosea</l>
+          <l>¡que trapelles son</l>
+          <l>¡epamorats!</l>
         </div>
-        <pb n="4" source="Varios_107_4.jpg" facs="fedora_Varios_107_4/full/full/0/default.jpg"/>
-        <div>
-          <head type="titulo_parte"><lb/>La Rosario<lb/>MARCHA</head>
-          <head type="subtitulo_parte">Letra de Luis Santed<lb/>Con la música
-                                    de<lb/>La Bien Amada</head>
-          <p><lb/>Rosario<lb/>Se murmura por el barrio, de que tienes la
-                                    mania<lb/>Rosario<lb/>de escuchar con el Macario, la Radio
-                                    telefonia.<lb/>Rosario<lb/>ya se hace comentario por toda la
-                                    vecindad,<lb/>Rosario<lb/>Ss susurra que el Macario, pierde la
-                                    serenidad.<lb/>Se dice Rosario<lb/>que el auricular<lb/>antes de
-                                    empezar...<lb/>le intriga a Macario<lb/>Por eso procura Rosario,
-                                    aprovecharse...<lb/>aguzar al oído la Radio, y
-                                    declamar:<lb/>¿Macario?<lb/>Oye bien, que ahora la Radio anuncia
-                                    el «Petróleo Gals»<lb/>ahora toca el Relicario la Banda
-                                    municipal...<lb/>Macario<lb/>Macario;<lb/>No te duermas en la
-                                    Radio, por que me voy a enfadar.<lb/>Macario,<lb/>dame un besito
-                                    en los labios, y ponte el auricular.<lb/>La ingenua
-                                    Rosario<lb/>perdió su candor...<lb/> y entrega sus
-                                    labios<lb/>henchida de amor.<lb/>Por eso dice el vecindario ¡Es,
-                                    un primor...<lb/>el oír un concierto, en el barrio, sin
-                                    transmisor!</p>
+
+        <div n="3">
+          <pb n="4" source="Varios_107_4.jpg" facs="varios/Varios_107_4.jpg/"/>
+
+          <head type="primer_titulo" rend="negrita"><lb/>La Rosario<lb/>MARCHA</head>
+          <head type="subtitulo_parte">Letra de Luis Santed<lb/>Con la música de<lb/><hi rend="negrita">La Bien Amada</hi></head>
+
+          <l>Rosario</l>
+          <l>Se murmura por el barrio, de que tienes la mania</l>
+          <l>Rosario</l>
+          <l>de escuchar con el Macario, la Radio telefonia.</l>
+          <l>Rosario</l>
+          <l>ya se hace comentario por toda la vecindad,</l>
+          <l>Rosario</l>
+          <l>Ss susurra que el Macario, pierde la serenidad.</l>
+          <l>Se dice Rosario</l>
+          <l>que el auricular</l>
+          <l>antes de empezar...</l>
+          <l>le intriga a Macario</l>
+          <l>Por eso procura Rosario, aprovecharse...</l>
+          <l>aguzar al oído la Radio, y declamar:</l>
+          <l>:Macario?</l>
+          <l>Oye bien, que ahora la Radio anuncia el «Petróleo Gals»</l>
+          <l>Macario</l>
+          <l>ahora toca el Relicario la Banda municipal...</l>
+          <l>Macario;</l>
+          <l>No te duermas en la Radio, por que me voy a enfadar.</l>
+          <l>Macario,</l>
+          <l>dame un besito en los labios, y ponte el auricular.</l>
+          <l>La ingenua Rosario</l>
+          <l>perdió su candor...</l>
+          <l> y entrega sus labios</l>
+          <l>henchida de amor.</l>
+          <l>Por eso dice el vecindario ¡Es, un primor...</l>
+          <l>el oír un concierto, en el barrio, sin transmisor!</l>
         </div>
       </div>
     </body>

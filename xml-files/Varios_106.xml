@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../Schema/oddPliego_varios.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:alto="http://www.loc.gov/standards/alto/ns-v4#" xml:id="Varios_106">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Varios_106">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -11,8 +11,7 @@
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <authority role="rightsHolder">Bibliothèque Universitaire de
-                            Genève</authority>
+        <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
         <availability status="restricted">
           <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
         </availability>
@@ -29,7 +28,7 @@
           <publicationStmt>
             <publisher>Llorens</publisher>
             <pubPlace ref="https://www.geonames.org/3128760/barcelona.html">Barcelona</pubPlace>
-            <date>[s.a]</date>
+            <date cert="low" when="1800-01-01">[s.a.]</date>
           </publicationStmt>
         </biblFull>
         <msDesc>
@@ -37,7 +36,8 @@
             <country>Suisse</country>
             <settlement>Genève</settlement>
             <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"/>
-                  </repository>
+            </repository>
+            <collection>Colección Varios</collection>
             <idno type="cote"/>
             <idno type="DOI">10.5281/zenodo.6576139</idno>
             <altIdentifier>
@@ -45,10 +45,14 @@
             </altIdentifier>
           </msIdentifier>
           <msContents>
-            <summary/>
+            <summary>Dos partes</summary>
             <msItem>
-              <locus/>
-              <title/>
+              <locus>1</locus>
+              <title>Adelaida en claustro.</title>
+            </msItem>
+            <msItem>
+              <locus>2</locus>
+              <title>Efectos de una buena educacion.</title>
             </msItem>
           </msContents>
           <physDesc>
@@ -66,8 +70,7 @@
               </layoutDesc>
             </objectDesc>
             <decoDesc>
-              <summary n="5">Dos grabados
-                                        (p.1) </summary>
+              <summary n="5">Dos grabados (p.1) </summary>
               <decoNote type="lista_grabados">
                 <list>
                   <item corresp="grabado_v_106_1.xml">grabado_v_106_1</item>
@@ -89,18 +92,17 @@
     </fileDesc>
     <encodingDesc>
       <projectDesc>
-        <p>Este archivo fue creado en el marco del proyecto Desenrollando el
-                            Cordel/Démêler le cordel/Untangling the cordel, dirigido por la
-                            profesora Constance Carta de la Universidad de Ginebra, con el apoyo de
-                            la Fundación filantrópica Famille Sandoz-Monique de Meuron.</p>
+        <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+          cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la Universidad
+          de Ginebra, con el apoyo de la Fundación filantrópica Famille Sandoz-Monique de
+          Meuron.</p>
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR non corregido</p>
+          <p>OCR no corregido</p>
         </correction>
         <normalization>
-          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto
-                                original.</p>
+          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
         </normalization>
         <punctuation>
           <p>Se conserva la puntuación original.</p>
@@ -122,9 +124,13 @@
     </profileDesc>
     <revisionDesc>
       <change when="2022-08-02" who="#PJ">Création du fichier TEI P5 et encodage du corps du
-                        texte</change>
+        texte</change>
+      <change when="2024-01-09" who="#EL">Add the IIIF links</change>
     </revisionDesc>
   </teiHeader>
+  <facsimile>
+    <graphic url="varios/Varios_106_1.jpg/full/200,/0/default.jpg"/>
+  </facsimile>
   <sourceDoc xml:id="automaticTranscription">
     <surface xml:id="Varios_106_1" type="page" cert="silver">
       <graphic url="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_106_1/full/full/0/default.jpg"/>
@@ -344,68 +350,66 @@
   <text>
     <body>
       <div>
-        <pb n="1" source="Varios_106_1.jpg" facs="fedora_Varios_106_1/full/full/0/default.jpg"/>
+        <pb n="1" source="Varios_106_1.jpg" facs="varios/Varios_106_1.jpg/"/>
+        
         <div type="parte" n="1">
-          <head type="primer_titulo"><lb/>ADELAIDA EN CLAUSTRO.</head>
-          <lg>
-            <l>Hoy en esta soledad</l>
+          <head type="primer_titulo" rend="negrita"><lb/>ADELAIDA EN CLAUSTRO.</head>
+          
+            <l rend="indent">Hoy en esta soledad</l>
             <l>Gozo de placer y calma,</l>
             <l>Y se estasía mi alma</l>
             <l>En Dios, que es suma bondad.</l>
-            <l>Aquí de tranquilidad</l>
+            <l rend="indent">Aquí de tranquilidad</l>
             <l>Goza el triste corazon,</l>
             <l>Aquí de grata emocion</l>
             <l>Goza mi pecho sensible,</l>
             <l>Con el bál samo infalible</l>
             <l>De la Santa Religíon!</l>
-          </lg>
-          <lg>
-            <l>¿Qué me importa á mi del mundo,</l>
+            <l rend="indent">¿Qué me importa á mi del mundo,</l>
             <l>Su lujo, su pompa vana,</l>
             <l>Si tales dijes mañana</l>
             <l>De nada me servirán ?</l>
-            <l>Tan solo sí, aumentarán,</l>
+            <l rend="indent">Tan solo sí, aumentarán,</l>
             <l>Mi torpeza y confusion,</l>
             <l>Llenándome de baldon</l>
             <l>Y pervirtiendo mi alma!</l>
-            <l>¡ Mas grata es la dulce calma</l>
+            <l>¡Mas grata es la dulce calma</l>
             <l>De la Santa Religion!</l>
-          </lg>
         </div>
+        
         <div type="colofon">
           <p><lb/>Barcelona: Imprenta de Llorens, Palma de Sta. Catalina, 6.</p>
         </div>
-        <pb n="2" source="Varios_106_2.jpg" facs="fedora_Varios_106_2/full/full/0/default.jpg"/>
+        
+        <pb n="2" source="Varios_106_2.jpg" facs="varios/Varios_106_2.jpg/"/>
+        
         <div type="parte" n="2">
-          <head type="titulo_parte"><lb/>EFECTOS DE UNA BUENA EDUCACION.</head>
-          <lg>
-            <l>Instruir la juventud</l>
+          <head type="titulo_parte" rend="negrita"><lb/>EFECTOS DE UNA BUENA EDUCACION.</head>
+          
+            <l rend="indent">Instruir la juventud</l>
             <l>En religion y moral,</l>
             <l>Es lo 'mas esencial</l>
             <l>Y digno de galardon.</l>
-            <l>Que sin moral no hay virtud,</l>
+            <l rend="indent">Que sin moral no hay virtud,</l>
             <l>Sin virtud, no hay honradez.</l>
             <l>Y esta la fuente es</l>
             <l>De una buena educacion.</l>
-            <l>Por eso el sábio Pastor,</l>
+            <l rend="indent">Por eso el sábio Pastor,</l>
             <l>El Prelado cariñoso,</l>
             <l>Se ocupa siempre gozoso</l>
             <l>Lleno de paz y de uncion:</l>
-          </lg>
-          <lg>
-            <l>En propagar la fé pura</l>
+            <l rend="indent">En propagar la fé pura</l>
             <l>Y creencia sacrosanta,</l>
             <l>De nuestra Religion Santa,</l>
             <l>Que es fuente de salvacion.</l>
-            <l>La juventud instruida</l>
+            <l rend="indent">La juventud instruida</l>
             <l>En la moral cristiana,</l>
             <l>Crecerá siempre lozana</l>
             <l>Y ópimos frutos dará.</l>
-            <l>Mas si esta se descuida,</l>
+            <l rend="indent">Mas si esta se descuida,</l>
             <l>Y en el mar de las pasiones</l>
             <l>Engolfais sus corazones,</l>
             <l>Abrojos producirá.</l>
-          </lg>
         </div>
       </div>
     </body>

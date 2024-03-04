@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../Schema/oddPliego_varios.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:alto="http://www.loc.gov/standards/alto/ns-v4#" xml:id="Varios_128">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Varios_128">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>LOS MISTERIOS.</title>
+        <title>LOS MISTERIOS</title>
         <respStmt>
           <name/>
           <resp>Codificación TEI</resp>
@@ -19,18 +19,17 @@
       <sourceDesc>
         <biblFull>
           <titleStmt>
-            <title type="titulo_completo">LOS MISTERIOS. DE LAS CRIADAS LEONOR Ó SEA DE
-                     CRIADA Á SEÑORA</title>
-            <title type="titulo_breve">LOS MISTERIOS. DE LAS CRIADAS LEONOR Ó SEA DE CRIADA Á
-                     SEÑORA</title>
+            <title type="titulo_completo">LOS MISTERIOS. DE LAS CRIADAS LEONOR Ó SEA DE CRIADA Á
+              SEÑORA</title>
+            <title type="titulo_breve">LOS MISTERIOS.</title>
           </titleStmt>
           <editionStmt>
             <p/>
           </editionStmt>
           <publicationStmt>
-            <publisher/>
+            <publisher>Miguel Borrás</publisher>
             <pubPlace ref="https://www.geonames.org/3128760/barcelona.html">Barcelona</pubPlace>
-            <date>[s.a]</date>
+            <date cert="low" when="1800-01-01">[s.a.]</date>
           </publicationStmt>
         </biblFull>
         <msDesc>
@@ -38,7 +37,8 @@
             <country>Suisse</country>
             <settlement>Genève</settlement>
             <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"/>
-                  </repository>
+            </repository>
+            <collection>Colección Varios</collection>
             <idno type="cote"/>
             <idno type="DOI">10.5281/zenodo.6577466</idno>
             <altIdentifier>
@@ -46,10 +46,14 @@
             </altIdentifier>
           </msIdentifier>
           <msContents>
-            <summary/>
+            <summary>Dos partes</summary>
             <msItem>
-              <locus/>
-              <title/>
+              <locus>1-2</locus>
+              <title>[Primera parte]</title>
+            </msItem>
+            <msItem>
+              <locus>3-4</locus>
+              <title>Segunda parte.</title>
             </msItem>
           </msContents>
           <physDesc>
@@ -63,11 +67,11 @@
                 <condition>Bueno</condition>
               </supportDesc>
               <layoutDesc>
-                <p>2 columnas</p>
+                <p>2 columnas y 1 columna</p>
               </layoutDesc>
             </objectDesc>
             <decoDesc>
-              <summary n="2">Uno grabado (p.1) </summary>
+              <summary n="2">Un grabado (p.1)</summary>
               <decoNote type="lista_grabados">
                 <list>
                   <item corresp="grabado_v_128_1.xml">grabado_v_128_1</item>
@@ -91,13 +95,13 @@
     <encodingDesc>
       <projectDesc>
         <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
-               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
-               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
-               Sandoz-Monique de Meuron.</p>
+          cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la Universidad
+          de Ginebra, con el apoyo de la Fundación filantrópica Famille Sandoz-Monique de
+          Meuron.</p>
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR non corregido</p>
+          <p>OCR no corregido</p>
         </correction>
         <normalization>
           <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
@@ -122,9 +126,13 @@
     </profileDesc>
     <revisionDesc>
       <change when="2022-09-03" who="#PJ">Création du fichier TEI P5 et encodage du corps du
-            texte</change>
+        texte</change>
+      <change when="2024-01-09" who="#EL">Add the IIIF links</change>
     </revisionDesc>
   </teiHeader>
+  <facsimile>
+    <graphic url="varios/Varios_128_1.jpg/full/200,/0/default.jpg"/>
+  </facsimile>
   <sourceDoc xml:id="automaticTranscription">
     <surface xml:id="Varios_128_1" type="page" cert="silver">
       <graphic url="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_128_1/full/full/0/default.jpg"/>
@@ -388,7 +396,7 @@
           <line>. . . . . . . . . .</line>
         </zone>
         <zone xml:id="Varios_128_2_BT227_5__15" type="DefaultLine" subtype="none" points="1287,1787 1267,1787 1256,1787 1234,1804 1232,1804 1229,1804 1198,1789 1196,1789 1194,1789 1192,1789 1190,1789 1174,1804 1170,1806 1161,1804 1087,1791 1085,1791 1083,1791 1079,1791 1062,1806 1023,1793 1021,1793 1019,1793 959,1808 961,1843 961,1866 1418,1849 1418,1833 1413,1800 1287,1787 1287,1787 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_128_2/959,1787,459,79/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_128_2_BT227_5__15_1" points="963,1845 1234,1835 1270,1838 1420,1835 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
+          <path xml:id="Varios_128_2_BT227_5__15_1" points="963,1845 1234,1835 1270,1838 1420,1835 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
           <line>. . . . . . . . . .</line>
         </zone>
         <zone xml:id="Varios_128_2_BT227_5_LT83_16" type="DefaultLine" subtype="none" points="961,1893 961,1860 1012,1860 1015,1857 1027,1845 1027,1845 1029,1845 1029,1845 1029,1845 1031,1845 1031,1845 1031,1845 1033,1845 1033,1845 1035,1845 1035,1845 1060,1855 1068,1857 1079,1855 1112,1845 1114,1845 1114,1845 1114,1845 1116,1845 1116,1845 1163,1851 1209,1857 1240,1849 1261,1843 1263,1843 1263,1843 1263,1843 1265,1843 1265,1843 1265,1843 1285,1847 1325,1857 1337,1845 1339,1845 1339,1843 1339,1843 1341,1843 1341,1843 1341,1843 1343,1843 1343,1843 1345,1843 1345,1843 1345,1843 1358,1845 1395,1853 1426,1843 1430,1893 1428,1963 1345,1961 1333,1963 1265,1984 1263,1984 1263,1984 1263,1986 1192,1986 1190,1984 1190,1984 1188,1984 1188,1984 1188,1984 1186,1984 1186,1984 1186,1981 1163,1963 1163,1961 1132,1961 1122,1963 1043,1984 1041,1984 1041,1984 1039,1984 1039,1984 1039,1984 1037,1984 957,1961 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_128_2/957,1843,473,143/full/0/default" corresp="DefaultLine">
@@ -526,138 +534,147 @@
     <body>
       <div>
         <div>
-          <pb n="1" source="Varios_128_1.jpg" facs="fedora_Varios_128_1/full/full/0/default.jpg"/>
-          <head type="primer_titulo"><lb/>LOS MISTERIOS.</head>
-          <head type="subtitulo_parte"><lb/>DE LAS CRIADAS LEONOR Ó SEA DE CRIADA Á
-                  SEÑORA</head>
-          <lg>
-            <l>Tres años ha que bajó</l>
-            <l>De la villa de Cardona</l>
-            <l>Á servir en Barcelona</l>
-            <l>La muchacha Leonor.</l>
-          </lg>
-          <lg>
-            <l>Aunque de montaña fuera</l>
-            <l>Tenia el rostro muy bella,</l>
-            <l>Rubia hermosa y hechicera</l>
-            <l>Á todos inspiró amor</l>
-          </lg>
-          <pb n="2" source="Varios_128_2.jpg" facs="fedora_Varios_128_2/full/full/0/default.jpg"/>
-          <lg>
-            <l>D. Pancracio se llamaba</l>
-            <l>El amo que ella tenia</l>
-            <l>Su muger Doña Maria</l>
-            <l>Y su hijo Don Jose,</l>
-            <l>Eran ricos hacendados</l>
-            <l>Y à Leonor tanto es imaban</l>
-            <l>Que cien mil gustos le daban</l>
-            <l>Que à referir pasare.</l>
-          </lg>
-          <lg>
-            <l>Por mas que lardase ella</l>
-            <l>En comparecer de la fuente</l>
-            <l>Diciendo que habia jente</l>
-            <l>No le replicaban mas.</l>
-            <l>Si alguna cosa rempia</l>
-            <l>Y su ama la regañaba</l>
-            <l>El chico la defendia</l>
-            <l>Y todo quedaba en paz.</l>
-          </lg>
-          <lg>
-            <l>Era tan interesante</l>
-            <l>Era tan guapa, tan bella</l>
-            <l>Que el muchacho, quien era ella</l>
-            <l>Un dia ya no se acordó</l>
-            <l>Olvidó que él fuese el amo</l>
-            <l>Y en tal grado la queria</l>
-            <l>Que no pudo mas; y un dia</l>
-            <l>Su afecto la declaró</l>
-          </lg>
-          <lg>
-            <l>La chica se hizo la esquiva</l>
-            <l>Al principio, mas despues</l>
-            <l>Viendo cual la cosa iba</l>
-            <l>Fué rindiendose à su amor.</l>
-          </lg>
-          <lg>
-            <l>De aqui vino su potente</l>
-            <l>Fortuna. . . ojos alerta</l>
-            <l>Muchachas. . . pues solamente</l>
-            <l>No ha de haber una Leonor.</l>
-          </lg>
-          <lg>
-            <l>Duraron los amoríos</l>
-            <l>Del muchacho y la criada</l>
-            <l>Tres meses, pues la cuitada</l>
-            <l>No pudo el . . . . esconder</l>
-            <l>Aqui fueron las blasfemias</l>
-            <l>Los llantos la algaravía,</l>
-            <l>De Pancracio y de Maria</l>
-            <l>Al llegarlo á conocer.</l>
-          </lg>
-          <lg>
-            <l>D.Pancracio maldecia,</l>
-            <l>La pobre Leonor lloraba,</l>
-            <l>Su ama hay gran pu. . . . decia</l>
-            <l>Vete al instante de aqui.</l>
-            <l>No se marchará mi bella</l>
-            <l>El muchacho replicaba,</l>
-            <l>Quiero casarme con ella,</l>
-            <l>Pues la palabra le dí.</l>
-          </lg>
-          <lg>
-            <l>Tristes padres no pudieron</l>
-            <l>Resistir tantos pesares.</l>
-            <l>Y tan violentos azares</l>
-            <l>Les privaron de vivir.</l>
-            <l>. . . . . . . . .</l>
-            <l>. . . . . . . . . .</l>
-            <l>. . . . . . . . . .</l>
-            <l>. . . . , . . . ,</l>
-          </lg>
-          <trailer>Fin de la primera parte.FIN</trailer>
+          <pb n="1" source="Varios_128_1.jpg" facs="varios/Varios_128_1.jpg/"/>
+          <head type="primer_titulo" rend="negrita"><lb/>LOS MISTERIOS.</head>
+          <head type="subtitulo_parte"><lb/>DE LAS CRIADAS LEONOR Ó SEA DE CRIADA Á SEÑORA</head>
+
+          <div n="1">
+            <lg>
+              <l rend="indent">Tres años ha que bajó</l>
+              <l>De la villa de Cardona</l>
+              <l>Á servir en Barcelona</l>
+              <l>La muchacha Leonor.</l>
+              <l rend="indent">Aunque de montaña fuera</l>
+              <l>Tenia el rostro muy bella,</l>
+              <l>Rubia hermosa y hechicera</l>
+              <l>Á todos inspiró amor</l>
+            </lg>
+
+            <pb n="2" source="Varios_128_2.jpg" facs="varios/Varios_128_2.jpg/"/>
+
+            <lg>
+              <l rend="indent">D. Pancracio se llamaba</l>
+              <l>El amo que ella tenia</l>
+              <l>Su muger Doña Maria</l>
+              <l>Y su hijo Don Jose,</l>
+              <l rend="indent">Eran ricos hacendados</l>
+              <l>Y à Leonor tanto es imaban</l>
+              <l>Que cien mil gustos le daban</l>
+              <l>Que à referir pasare.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Por mas que lardase ella</l>
+              <l>En comparecer de la fuente</l>
+              <l>Diciendo que habia jente</l>
+              <l>No le replicaban mas.</l>
+              <l rend="indent">Si alguna cosa rempia</l>
+              <l>Y su ama la regañaba</l>
+              <l>El chico la defendia</l>
+              <l>Y todo quedaba en paz.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Era tan interesante</l>
+              <l>Era tan guapa, tan bella</l>
+              <l>Que el muchacho, quien era ella</l>
+              <l>Un dia ya no se acordó</l>
+              <l rend="indent">Olvidó que él fuese el amo</l>
+              <l>Y en tal grado la queria</l>
+              <l>Que no pudo mas; y un dia</l>
+              <l>Su afecto la declaró</l>
+            </lg>
+            <lg>
+              <l rend="indent">La chica se hizo la esquiva</l>
+              <l>Al principio, mas despues</l>
+              <l>Viendo cual la cosa iba</l>
+              <l>Fué rindiendose à su amor.</l>
+              <l rend="indent">De aqui vino su potente</l>
+              <l>Fortuna. . . ojos alerta</l>
+              <l>Muchachas. . . pues solamente</l>
+              <l>No ha de haber una Leonor.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Duraron los amoríos</l>
+              <l>Del muchacho y la criada</l>
+              <l>Tres meses, pues la cuitada</l>
+              <l>No pudo el . . . . esconder</l>
+              <l rend="indent">Aqui fueron las blasfemias</l>
+              <l>Los llantos la algaravía,</l>
+              <l>De Pancracio y de Maria</l>
+              <l>Al llegarlo á conocer.</l>
+            </lg>
+            <lg>
+              <l rend="indent">D.Pancracio maldecia,</l>
+              <l>La pobre Leonor lloraba,</l>
+              <l>Su ama hay gran pu. . . . decia</l>
+              <l>Vete al instante de aqui.</l>
+              <l rend="indent">No se marchará mi bella</l>
+              <l>El muchacho replicaba,</l>
+              <l>Quiero casarme con ella,</l>
+              <l>Pues la palabra le dí.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Tristes padres no pudieron</l>
+              <l>Resistir tantos pesares.</l>
+              <l>Y tan violentos azares</l>
+              <l>Les privaron de vivir.</l>
+              <l rend="indent">. . . . . . . . .</l>
+              <l>. . . . . . . . . .</l>
+              <l>. . . . . . . . . .</l>
+              <l>. . . . , . . . ,</l>
+            </lg>
+
+            <trailer>Fin de la primera parte.</trailer>
+          </div>
+
+          <div n="2">
+            <pb n="3" source="Varios_128_3.jpg" facs="varios/Varios_128_3.jpg/"/>
+
+            <head type="titulo_parte"><lb/><hi rend="negrita">SEGUNDA</hi><lb/>PARTE.</head>
+
+            <lg>
+              <l rend="indent">Seis meses pasado habian</l>
+              <l>Que en la iglesia de S. Pedro,</l>
+              <l>Con pompa se celebraba</l>
+              <l>De Leonor el casamiento.</l>
+              <l>Lloró á sus padres Josè</l>
+              <l>Mas nunca borró del pecho</l>
+              <l>El amor que jurò un dia,</l>
+              <l>A una mujer, que habia hecho</l>
+              <l>Él infeliz, y que ahora</l>
+              <l>Le compensaba su yerro.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Tan solo señoras qutere por amigas,</l>
+              <l>Y hasta olvidar llega áquien ledió el ser,</l>
+              <l>Se cree una reina; se cree una diosa</l>
+              <l>Y solo á los ricos puede ella querer.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Al verse elevada de criada á señora</l>
+              <l>Se olvida la bella Leonor</l>
+              <l>De aquellas muchas que tanto le amaban</l>
+              <l>Que pruebas tantas le dieron de amor.</l>
+            </lg>
+
+            <pb n="4" source="Varios_128_4.jpg" facs="varios/Varios_128_4.jpg/"/>
+
+            <lg>
+              <l rend="indent">Quiza algun bajará el orgullo</l>
+              <l>Con el cual ahora su frote adrnó</l>
+              <l>Recnerde la joven que fué una criada,</l>
+              <l>Y nada hay eterno. . . . tan solo Dios.</l>
+            </lg>
+
+            <trailer rend="negrita">FIN</trailer>
+          </div>
+          
+          <div>
+            <p rend="cursiva"><lb/>(Es propiedad del AUTOR.)</p>
+          </div>
         </div>
-      </div>
-      <div>
-        <div>
-          <pb n="3" source="Varios_128_3.jpg" facs="fedora_Varios_128_3/full/full/0/default.jpg"/>
-          <head type="titulo_parte"><lb/><hi rend="negrita">SEGUNDA</hi><lb/>PARTE.</head>
-          <lg>
-            <l>Seis meses pasado habian</l>
-            <l>Que en la iglesia de S. Pedro,</l>
-            <l>Con pompa se celebraba</l>
-            <l>De Leonor el casamiento.</l>
-            <l>Lloró á sus padres Josè</l>
-            <l>Mas nunca borró del pecho</l>
-            <l>El amor que jurò un dia,</l>
-            <l>A una mujer, que habia hecho</l>
-            <l>Él infeliz, y que ahora</l>
-            <l>Le compensaba su yerro.</l>
-          </lg>
-          <lg>
-            <l>Tan solo señoras qutere por amigas,</l>
-            <l>Y hasta olvidar llega áquien ledió el ser,</l>
-            <l>Se cree una reina; se cree una diosa</l>
-            <l>Y solo á los ricos puede ella querer.</l>
-          </lg>
-          <lg>
-            <l>Al verse elevada de criada á señora</l>
-            <l>Se olvida la bella Leonor</l>
-            <l>De aquellas muchas que tanto le amaban</l>
-            <l>Que pruebas tantas le dieron de amor.</l>
-          </lg>
-          <pb n="4" source="Varios_128_4.jpg" facs="fedora_Varios_128_4/full/full/0/default.jpg"/>
-          <lg>
-            <l>Quiza algun bajará el orgullo</l>
-            <l>Con el cual ahora su frote adrnó</l>
-            <l>Recnerde la joven que fué una criada,</l>
-            <l>Y nada hay eterno.<lb/>. . tan solo Dios.</l>
-          </lg>
-          <p><lb/>(Es propiedad del AUTOR.)</p>
-          <trailer>FIN</trailer>
-        </div>
+        
         <div type="colofon">
-          <p><lb/>BARCELONA.—Imprenta do M. BORRÁS, calle del Carmen. n°. 1</p>
+          <p><lb/>BARCELONA.—Imprenta do M. BORRÁS, calle del <hi rend="cursiva">Carmen. n°.</hi> 1</p>
         </div>
       </div>
     </body>

@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../Schema/oddPliego_varios.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:alto="http://www.loc.gov/standards/alto/ns-v4#" xml:id="Varios_097">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Varios_097">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -11,8 +11,7 @@
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <authority role="rightsHolder">Bibliothèque Universitaire de
-                              Genève</authority>
+        <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
         <availability status="restricted">
           <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
         </availability>
@@ -20,9 +19,8 @@
       <sourceDesc>
         <biblFull>
           <titleStmt>
-            <title type="titulo_completo">CARTA AMOROSA Que escribió el
-                                          Memorielista a una joven, para remitir a su querido
-                                          amante</title>
+            <title type="titulo_completo">CARTA AMOROSA Que escribió el Memorielista a una joven,
+              para remitir a su querido amante</title>
             <title type="titulo_breve">CARTA AMOROSA</title>
           </titleStmt>
           <editionStmt>
@@ -31,7 +29,7 @@
           <publicationStmt>
             <publisher>El Abanico</publisher>
             <pubPlace ref="https://www.geonames.org/3128760/barcelona.html">Barcelona</pubPlace>
-            <date>[s.a]</date>
+            <date cert="low" when="1800-01-01">[s.a.]</date>
           </publicationStmt>
         </biblFull>
         <msDesc>
@@ -39,7 +37,8 @@
             <country>Suisse</country>
             <settlement>Genève</settlement>
             <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"/>
-                                    </repository>
+            </repository>
+            <collection>Colección Varios</collection>
             <idno type="cote"/>
             <idno type="DOI">10.5281/zenodo.6575957</idno>
             <altIdentifier>
@@ -47,10 +46,15 @@
             </altIdentifier>
           </msIdentifier>
           <msContents>
-            <summary/>
+            <summary>Dos canciones</summary>
             <msItem>
-              <locus/>
-              <title/>
+              <locus>1-2</locus>
+              <title>Carta amorosa que escribió el Memorielista a una joven, para remitir a su
+                querido amante</title>
+            </msItem>
+            <msItem>
+              <locus>3-4</locus>
+              <title>Contestación de su querido hallandose algo enfermo de amor. Décimas.</title>
             </msItem>
           </msContents>
           <physDesc>
@@ -72,7 +76,7 @@
               <decoNote type="lista_grabados">
                 <list>
                   <item corresp="grabado_v_097_1.xml">grabado_v_097_1</item>
-                  <item corresp="grabado_v_097_1.xml">grabado_v_097_1</item>
+                  <item corresp="grabado_v_097_2.xml">grabado_v_097_2</item>
                 </list>
               </decoNote>
             </decoDesc>
@@ -94,18 +98,17 @@
     </fileDesc>
     <encodingDesc>
       <projectDesc>
-        <p>Este archivo fue creado en el marco del proyecto Desenrollando el
-                              Cordel/Démêler le cordel/Untangling the cordel, dirigido por la
-                              profesora Constance Carta de la Universidad de Ginebra, con el apoyo
-                              de la Fundación filantrópica Famille Sandoz-Monique de Meuron.</p>
+        <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+          cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la Universidad
+          de Ginebra, con el apoyo de la Fundación filantrópica Famille Sandoz-Monique de
+          Meuron.</p>
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR non corregido</p>
+          <p>OCR no corregido</p>
         </correction>
         <normalization>
-          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto
-                                    original.</p>
+          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
         </normalization>
         <punctuation>
           <p>Se conserva la puntuación original.</p>
@@ -126,10 +129,14 @@
       </textClass>
     </profileDesc>
     <revisionDesc>
-      <change when="2022-07-27" who="#PJ">Création du fichier TEI P5 et encodage du
-                        corps du texte</change>
+      <change when="2022-07-27" who="#PJ">Création du fichier TEI P5 et encodage du corps du
+        texte</change>
+      <change when="2024-01-09" who="#EL">Add the IIIF links</change>
     </revisionDesc>
   </teiHeader>
+  <facsimile>
+    <graphic url="varios/Varios_097_1.jpg/full/200,/0/default.jpg"/>
+  </facsimile>
   <sourceDoc xml:id="automaticTranscription">
     <surface xml:id="Varios_097_1" type="page" cert="silver">
       <graphic url="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_097_1/full/full/0/default.jpg"/>
@@ -1052,92 +1059,97 @@
   <text>
     <body>
       <div>
-        <pb n="1" source="Varios_097_1.jpg" facs="fedora_Varios_097_1/full/full/0/default.jpg"/>
-        <div type="cancion" n="1">
-          <head type="primer_titulo"><lb/><hi rend="negrita">CARTA AMOROSA</hi><lb/>Que escribió el
-                                    Memorielista a una joven, para remitir<lb/>a su querido
-                                    amante</head>
+        <div n="1">
+          <pb n="1" source="Varios_097_1.jpg" facs="varios/Varios_097_1.jpg/"/>
+
+          <head type="primer_titulo" rend="negrita"><lb/>CARTA AMOROSA</head>
+
+          <head type="subtitulo"><lb/>Que escribió el Memorielista a una joven, para remitir<lb/>a
+            su querido amante</head>
+
           <lg>
-            <l>Mi hermosísimo amor</l>
+            <l rend="indent">Mi hermosísimo amor</l>
             <l>te escribo sin dilación,</l>
             <l>porque está mi corazón</l>
-            <l>Ileno de angustia y dolor.</l>
+            <l>lleno de angustia y dolor.</l>
           </lg>
           <lg>
-            <l>En tí está mi confianza</l>
+            <l rend="indent">En tí está mi confianza</l>
             <l>porque dice Dios divino,</l>
             <l>que por todos hay destino</l>
             <l>mientras viva la esperanza.</l>
           </lg>
           <lg>
-            <l>¿Te acuerdas, hermoso mío</l>
+            <l rend="indent">¿Te acuerdas, hermoso mío</l>
             <l>que te adoraba de hinojos?</l>
             <l>Y ahora mis pobres ojos</l>
             <l>te lloran con desvarío.</l>
           </lg>
           <lg>
-            <l>Mi corazón palpitando.</l>
+            <l rend="indent">Mi corazón palpitando.</l>
             <l>mi alma pena y suspira.</l>
             <l>mi pobre pecho delira</l>
             <l>porque ya se va inflamando.</l>
           </lg>
           <lg>
-            <l>Te amo con frenesí,</l>
+            <l rend="indent">Te amo con frenesí,</l>
             <l>mi mente siempre sin calmá,</l>
             <l>y mi candorosa alma</l>
             <l>siempre aguarda para tí.</l>
           </lg>
           <lg>
-            <l>Pues te saludo, bien mío</l>
+            <l rend="indent">Pues te saludo, bien mío</l>
             <l>en un día tan venturoso,</l>
             <l>porque no tengo reposo</l>
             <l>en mi sublime albedrío.</l>
           </lg>
           <lg>
-            <l>En mí tengo una ilusión.</l>
+            <l rend="indent">En mí tengo una ilusión.</l>
             <l>una fantasma querida,</l>
             <l>que espero dará la vida</l>
             <l>a mi triste corazón.</l>
           </lg>
-          <pb n="2" source="Varios_097_2.jpg" facs="fedora_Varios_097_2/full/full/0/default.jpg"/>
+
+          <pb n="2" source="Varios_097_2.jpg" facs="varios/Varios_097_2.jpg/"/>
+
           <lg>
-            <l>Me siento un vivo dolor</l>
+            <l rend="indent">Me siento un vivo dolor</l>
             <l>en mi álma angustiada,</l>
             <l>pensando con la mirada</l>
             <l>que tú me dabas de amor.</l>
           </lg>
           <lg>
-            <l>Un rayo de luz salió</l>
+            <l rend="indent">Un rayo de luz salió</l>
             <l>de este misterioso mundo,</l>
             <l>y un suspiro muy profundo</l>
             <l>en mi pecho resonó.</l>
           </lg>
           <lg>
-            <l>Mi corazón reventó</l>
+            <l rend="indent">Mi corazón reventó</l>
             <l>con lágrimas de ternura,</l>
             <l>mirando la virtud pura</l>
             <l>que mi vista descubrió.</l>
           </lg>
           <lg>
-            <l>Lloré sin consolación,</l>
+            <l rend="indent">Lloré sin consolación,</l>
             <l>mi virtud a esto alcanza,</l>
             <l>y guardo aquí la esperanza</l>
             <l>en mitad del corazón.</l>
           </lg>
           <lg>
-            <l>Te corono yo de amores,</l>
+            <l rend="indent">Te corono yo de amores,</l>
             <l>de delicias muy preciosas,</l>
             <l>y finalmente de rosas</l>
             <l>como guirnalda de flores.</l>
           </lg>
           <lg>
-            <l>No te enterneces, bien mío,</l>
+            <l rend="indent">No te enterneces, bien mío,</l>
             <l>con mis súplicas tan tristes,</l>
             <l>recordando que tú fuistes</l>
             <l>el sueño de mi a bedrío.</l>
           </lg>
           <lg>
-            <l>¿No te mueres al pensar</l>
+            <l rend="indent">¿No te mueres al pensar</l>
             <l>que tu aliento embalsamado,</l>
             <l>desvanecía a mi lado</l>
             <l>y yo sin dejar de amar ?</l>
@@ -1146,52 +1158,52 @@
             <l>sumergida en el dolor.</l>
           </lg>
           <lg>
-            <l>Es tanto mi amor de anhelo</l>
+            <l rend="indent">Es tanto mi amor de anhelo</l>
             <l>d rigido a su rernura,</l>
             <l>que voy hallando ventura</l>
             <l>más hermosa que en el cielo.</l>
           </lg>
           <lg>
-            <l>Un volcán abrasador</l>
+            <l rend="indent">Un volcán abrasador</l>
             <l>siento arder dentro mi seno</l>
             <l>cual si tuvera un veneno</l>
             <l>formado por el amor.</l>
           </lg>
           <lg>
-            <l>Nuestro amor angelica</l>
+            <l rend="indent">Nuestro amor angelica</l>
             <l>de ternura tan dlvina...</l>
             <l>y tu ausencia me asesina</l>
             <l>con la punta de un puñal.</l>
             <l>mi dulzura, mi consuelo,</l>
-            <l>Mi vida, mi bien, mi amor,</l>
+            <l rend="indent">Mi vida, mi bien, mi amor,</l>
             <l>te espero con tanto anhelo</l>
             <l>como al sol la triste flor.</l>
           </lg>
           <lg>
-            <l>Espero con alegría</l>
+            <l rend="indent">Espero con alegría</l>
             <l>que tú me tiendas los brazos,</l>
             <l>que el corazón a pedazos</l>
             <l>me arranca la pena mía.</l>
           </lg>
           <lg>
-            <l>Mis ojos ya sin cesar</l>
+            <l rend="indent">Mis ojos ya sin cesar</l>
             <l>derraman amargo llanto;</l>
             <l>yo que te amo tanto, tanto,</l>
             <l>ven mis lágrimas a enjugar.</l>
           </lg>
           <lg>
-            <l>Lágrimas son amorosas</l>
+            <l rend="indent">Lágrimas son amorosas</l>
             <l>recordando lo pasado,</l>
             <l>de cuando estaba a tu lado</l>
             <l>en noches tan delciosas.</l>
           </lg>
-          <p><lb/>DÉCIMA</p>
           <lg>
-            <l>Adiós, bien mío, mi amor</l>
+            <head type="titulo_estrofa">DÉCIMA</head>
+            <l rend="indent">Adiós, bien mío, mi amor</l>
             <l>mi consuelo, mi ternura,</l>
             <l>ay adiós, pobre criatura,</l>
             <l>ya desvanezco el dolor.</l>
-            <l>Mis palabras de candor</l>
+            <l rend="indent">Mis palabras de candor</l>
             <l>calmarán la agitación,</l>
             <l>y alegre mi corazón</l>
             <l>como los rayos del día,</l>
@@ -1199,13 +1211,16 @@
             <l>que me des contestación.</l>
           </lg>
           <trailer>ADIÓS.</trailer>
-          <pb n="3" source="Varios_097_3.jpg" facs="fedora_Varios_097_3/full/full/0/default.jpg"/>
         </div>
-        <div type="cancion" n="2">
-          <head type="titulo_cancion"><lb/>Contestación de su querido<lb/>HALLÁNDOSE ALGO ENFERMO DE
-                                    AMOR<lb/>DÉCIMAS</head>
+
+        <div n="2">
+          <pb n="3" source="Varios_097_3.jpg" facs="varios/Varios_097_3.jpg/"/>
+          <head type="primer_titulo"><lb/>Contestación de su querido<lb/>HALLÁNDOSE ALGO ENFERMO DE
+            AMOR</head>
+          <head type="subtitulo"><lb/>DÉCIMAS</head>
+
           <lg>
-            <l>Amor mío, mi consuelo</l>
+            <l rend="indent">Amor mío, mi consuelo</l>
             <l>mi bien, mi vida, mi amor;</l>
             <l>he sufrido un gran dolor</l>
             <l>sin más amparo que el cielo.</l>
@@ -1215,19 +1230,23 @@
             <l>que estoy sufriendo, bien mío,</l>
             <l>me temo que un desvarío</l>
             <l>me prepara el ataud.</l>
-            <l>Me siento vagos temores</l>
+          </lg>
+
+          <lg>
+            <l rend="indent">Me siento vagos temores</l>
             <l>en mi pecho acongojado,</l>
             <l>porque siempre te he soñado</l>
             <l>pensando en nuestros amores.</l>
             <l>Sueños tan consoladores,</l>
             <l>tan vivos a mi favor,</l>
-          </lg>
-          <lg>
             <l>que scñaba con ardor,</l>
             <l>con esta ilusión del mundo,</l>
             <l>y un suspiro muy profundo</l>
             <l>me desprtaba tu amor.</l>
-            <l>Pensando yo en los momentos</l>
+          </lg>
+
+          <lg>
+            <l rend="indent">Pensando yo en los momentos</l>
             <l>de amor que pensaba en tí,</l>
             <l>más de mil veces gerní</l>
             <l>con muy dulces pensamientos.</l>
@@ -1237,11 +1256,14 @@
             <l>con un suave dolor.</l>
             <l>y todo, porque en tu amor</l>
             <l>espero tener un derecho.</l>
-            <l>Cuantas noche de dormir</l>
-            <l>quitaba tu hermosura</l>
           </lg>
-          <pb n="4" source="Varios_097_4.jpg" facs="fedora_Varios_097_4/full/full/0/default.jpg"/>
+
           <lg>
+            <l rend="indent">Cuantas noche de dormir</l>
+            <l>quitaba tu hermosura</l>
+
+            <pb n="4" source="Varios_097_4.jpg" facs="varios/Varios_097_4.jpg/"/>
+
             <l>llena de amor y ternura</l>
             <l>que me hacía sonreir.</l>
             <l>Mi pecho siempre latir</l>
@@ -1250,7 +1272,10 @@
             <l>que sentía, suspirando</l>
             <l>estaba otra vez soñando...</l>
             <l>soñando en tí, vida mía.</l>
-            <l>Después sin poderte ver,</l>
+          </lg>
+
+          <lg>
+            <l rend="indent">Después sin poderte ver,</l>
             <l>con una ausencia tan larga,</l>
             <l>pasaba la vida amarga</l>
             <l>con mucho de padecer.</l>
@@ -1260,7 +1285,10 @@
             <l>me dais con mi tierno amor...</l>
             <l>Tened vos piedad, Señor,</l>
             <l>revocad vuestra sentencia.</l>
-            <l>Tuve días de llorar,</l>
+          </lg>
+
+          <lg>
+            <l rend="indent">Tuve días de llorar,</l>
             <l>de gemir noches enteras,</l>
             <l>dulces horas placenteras</l>
             <l>no las podía gozar.</l>
@@ -1270,7 +1298,10 @@
             <l>con lágrimas de ventura,</l>
             <l>tu belleza tan pura</l>
             <l>nunca de mí se apartaba.</l>
-            <l>Siempre has sido mi ilusión,</l>
+          </lg>
+
+          <lg>
+            <l rend="indent">Siempre has sido mi ilusión,</l>
             <l>mi pasión encantadora,</l>
             <l>mi corazón siempre llora...</l>
             <l>¡ llorar ! pobre corazón.</l>
@@ -1280,10 +1311,11 @@
             <l>cuando platea la luna,</l>
             <l>y mi pálida fortuna</l>
             <l>se exhala con un suspiro.</l>
-            <l>¿ No te acuerdas, dulce flor</l>
-            <l>de aquel tiempo ya pasado.</l>
           </lg>
+
           <lg>
+            <l rend="indent">¿ No te acuerdas, dulce flor</l>
+            <l>de aquel tiempo ya pasado.</l>
             <l>que cuando estaba a tu lado</l>
             <l>moría siempre de amor ?</l>
             <l>Entonaba el ruiseñor</l>
@@ -1292,7 +1324,10 @@
             <l>reías alegremente,</l>
             <l>después tocaba tu frente</l>
             <l>y tú besabas la mía.</l>
-            <l>Por fin, gracias al Señor</l>
+          </lg>
+
+          <lg>
+            <l rend="indent">Por fin, gracias al Señor</l>
             <l>le doy por hallarme bien</l>
             <l>y espeo que a tí también</l>
             <l>estará firme tu amor,</l>
@@ -1303,33 +1338,34 @@
             <l>y espero, querida Elena,</l>
             <l>que me tenderás los brazos.</l>
           </lg>
-        </div>
-        <div>
-          <head type="titulo_estrofa"><lb/>TUS CARICIAS DE AMOR</head>
-          <lg>
-            <l>Al silencio de la noche oscura</l>
-            <l>niña hermosa despiera un instante,</l>
-            <l>oirás exclamar a tu amante.</l>
-            <l>sin cesar del pecho el latir.</l>
-            <l>Ten piedad del volcán que me</l>
-            <l>[ abrasa,</l>
-            <l>dale hermosa un momento de</l>
-            <l>[calma;</l>
-            <l>te lo pido con toda mi alma...</l>
-            <l>no me dejes tan triste morir.</l>
-            <l>Si en la flor de tu edad placentera</l>
-            <l>no me da tu hermosura un consuelo,</l>
-            <l>dime, pues, donde tengo mi cielo</l>
-            <l>que me alumbra con tal resplandor.</l>
-            <l>Ay hermosa, mi cielo es tu imagen</l>
-            <l>y tu rostro la luz más hermosa.</l>
-            <l>aquí guardo la hora dichosa</l>
-            <l>que me des tus caricias de amor.</l>
-          </lg>
+          
+          <div>
+            <head type="titulo_estrofa"><lb/>TUS CARICIAS DE AMOR</head>
+            <lg>
+              <l rend="indent">Al silencio de la noche oscura</l>
+              <l>niña hermosa despiera un instante,</l>
+              <l>oirás exclamar a tu amante.</l>
+              <l>sin cesar del pecho el latir.</l>
+              <l>Ten piedad del volcán que me <add place="debajo">[abrasa,</add></l>
+              <l>dale hermosa un momento de <add place="debajo">[calma;</add></l>
+              <l>te lo pido con toda mi alma...</l>
+              <l>no me dejes tan triste morir.</l>
+              <l rend="indent">Si en la flor de tu edad placentera</l>
+              <l>no me da tu hermosura un consuelo,</l>
+              <l>dime, pues, donde tengo mi cielo</l>
+              <l>que me alumbra con tal resplandor.</l>
+              <l>Ay hermosa, mi cielo es tu imagen</l>
+              <l>y tu rostro la luz más hermosa.</l>
+              <l>aquí guardo la hora dichosa</l>
+              <l>que me des tus caricias de amor.</l>
+            </lg>
+          </div>
+          
           <trailer>FIN</trailer>
         </div>
+        
         <div type="colofon">
-          <p><lb/>Imps. Hospital, 18 «El Abanico»</p>
+          <p><lb/>Imps. Hospital, 19 «El Abanico»</p>
         </div>
       </div>
     </body>

@@ -27,9 +27,9 @@
             <p/>
           </editionStmt>
           <publicationStmt>
-            <publisher>Despacho: Sucesores de Hernando</publisher>
+            <publisher>Sucesores de Hernando</publisher>
             <pubPlace ref="https://www.geonames.org/3117735/madrid.html">Madrid</pubPlace>
-            <date cert="high">[s.a]</date>
+            <date cert="low" when="1800-01-01">[s.a.]</date>
           </publicationStmt>
         </biblFull>
         <msDesc>
@@ -38,6 +38,7 @@
             <settlement>Genève</settlement>
             <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"/>
                   </repository>
+            <collection>Colección Varios</collection>
             <idno type="cote"/>
             <idno type="DOI">10.5281/zenodo.6783407</idno>
             <altIdentifier>
@@ -66,7 +67,7 @@
               </layoutDesc>
             </objectDesc>
             <decoDesc>
-              <summary n="1">Uno grabado (p.1) </summary>
+              <summary n="1">Un grabado (p.1) </summary>
               <decoNote type="lista_grabados">
                 <list>
                   <item corresp="grabado_v_365_1.xml">grabado_v_365_1</item>
@@ -98,7 +99,7 @@
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR non corregido</p>
+          <p>OCR no corregido</p>
         </correction>
         <normalization>
           <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto
@@ -126,9 +127,10 @@
     <revisionDesc>
       <change when="2023-12-06" who="#PJ">Création du fichier TEI P5 et encodage du corps du
                         texte</change>
+<change when="2024-01-09" who="#EL">Add the IIIF links</change>
     </revisionDesc>
   </teiHeader>
-  <sourceDoc xml:id="automaticTranscription">
+  <facsimile><graphic url="varios/Varios_365_1.jpg/full/200,/0/default.jpg"/></facsimile><sourceDoc xml:id="automaticTranscription">
     <surface xml:id="Varios_365_1" type="page" cert="silver">
       <graphic url="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_365_1/full/full/0/default.jpg"/>
       <zone xml:id="Varios_365_1_BT221_1" n="1" type="CustomZone" subtype="impresorNum" points="1572,239 1572,324 1313,324 1313,239 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_365_1/1313,239,259,85/full/0/default" corresp="CustomZone:impresorNum">
@@ -1235,7 +1237,7 @@
   <text>
     <body>
       <div>
-        <pb n="1" source="Varios_365_1.jpg" facs="fedora_Varios_365_1/full/full/0/default.jpg"/>
+        <pb n="1" source="Varios_365_1.jpg" facs="varios/Varios_365_1.jpg/"/>
         <fw type="impresorNum">(Núm. 113.)</fw>
         <div type="parte" n="1">
           <head type="primer_titulo" rend="negrita"><lb/>LA GRAN LOTERIA.</head>
@@ -1287,7 +1289,7 @@
             <l>con el sacristan Alonso,</l>
             <l>que te cantará el responso.</l>
           </lg>
-          <pb n="2" source="Varios_365_2.jpg" facs="fedora_Varios_365_2/full/full/0/default.jpg"/>
+          <pb n="2" source="Varios_365_2.jpg" facs="varios/Varios_365_2.jpg/"/>
           <lg>
             <head type="titulo_estrofa"><lb/>N.° 3.</head>
             <l>Sirvo á don Miguel Moflete,</l>
@@ -1384,7 +1386,7 @@
             <l>y este loco rematado</l>
             <l>lo juzgo el mas adecuado.</l>
           </lg>
-          <pb n="3" source="Varios_365_3.jpg" facs="fedora_Varios_365_3/full/full/0/default.jpg"/>
+          <pb n="3" source="Varios_365_3.jpg" facs="varios/Varios_365_3.jpg/"/>
           <lg>
             <head type="titulo_estrofa"><lb/>N.° 13.</head>
             <l>No quiero gallo, porque un pollito</l>
@@ -1491,7 +1493,7 @@
             <l>hoy esta mosquita muerta,</l>
             <l>que es la horma de tu zapato.</l>
           </lg>
-          <pb n="4" source="Varios_365_4.jpg" facs="fedora_Varios_365_4/full/full/0/default.jpg"/>
+          <pb n="4" source="Varios_365_4.jpg" facs="varios/Varios_365_4.jpg/"/>
           <lg>
             <head type="titulo_estrofa"><lb/>N.° 25.</head>
             <l>Un hombre franco para mí no es</l>

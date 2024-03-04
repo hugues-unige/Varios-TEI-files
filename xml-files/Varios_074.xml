@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../Schema/oddPliego_varios.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:alto="http://www.loc.gov/standards/alto/ns-v4#" xml:id="Varios_074">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Varios_074">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -11,8 +11,7 @@
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <authority role="rightsHolder">Bibliothèque Universitaire de
-                              Genève</authority>
+        <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
         <availability status="restricted">
           <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
         </availability>
@@ -20,7 +19,10 @@
       <sourceDesc>
         <biblFull>
           <titleStmt>
-            <title type="titulo_completo">LAS FALTAS DE LOS HOMBRES</title>
+            <title type="titulo_completo">LAS FALTAS DE LOS HOMBRES. Sacadas a relucir por un
+              congreso de mujeres de experiencia a fin de que las muchachas casaderas sepan de que
+              defectos adolecen y como se han de conducir con ellos. VAN AL FIN UNOS TROVOS DE
+              AMOR</title>
             <title type="titulo_breve">LAS FALTAS DE LOS HOMBRES</title>
           </titleStmt>
           <editionStmt>
@@ -29,7 +31,7 @@
           <publicationStmt>
             <publisher>El Abanico</publisher>
             <pubPlace ref="https://www.geonames.org/3128760/barcelona.html">Barcelona</pubPlace>
-            <date>[s.a]</date>
+            <date cert="low" when="1800-01-01">[s.a.]</date>
           </publicationStmt>
         </biblFull>
         <msDesc>
@@ -37,7 +39,8 @@
             <country>Suisse</country>
             <settlement>Genève</settlement>
             <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"/>
-                                    </repository>
+            </repository>
+            <collection>Colección Varios</collection>
             <idno type="cote"/>
             <idno type="DOI">10.5281/zenodo.6565878</idno>
             <altIdentifier>
@@ -45,10 +48,14 @@
             </altIdentifier>
           </msIdentifier>
           <msContents>
-            <summary/>
+            <summary>Un canción + Un trovo</summary>
             <msItem>
-              <locus/>
-              <title/>
+              <locus>1-3</locus>
+              <title>Las faltas de los hombres</title>
+            </msItem>
+            <msItem>
+              <locus>4</locus>
+              <title>Trovos de amor</title>
             </msItem>
           </msContents>
           <physDesc>
@@ -66,7 +73,7 @@
               </layoutDesc>
             </objectDesc>
             <decoDesc>
-              <summary n="1">Uno grabado (p.1) </summary>
+              <summary n="1">Un grabado (p.1) </summary>
               <decoNote type="lista_grabados">
                 <list>
                   <item corresp="grabado_v_074_1.xml">grabado_v_074_1</item>
@@ -74,8 +81,7 @@
               </decoNote>
             </decoDesc>
             <additions>
-              <stamp>SANTIAGO PONS BUENAVISTA, 11, . LIBRERÍA
-                                                BARCELONA (ESPAÑA)</stamp>
+              <stamp>SANTIAGO PONS BUENAVISTA, 11, . LIBRERÍA BARCELONA (ESPAÑA)</stamp>
             </additions>
           </physDesc>
           <history>
@@ -84,8 +90,7 @@
             </origin>
             <provenance/>
             <acquisition>
-              <stamp>SANTIAGO PONS BUENAVISTA, 11, . LIBRERÍA BARCELONA
-                                                (ESPAÑA)</stamp>
+              <stamp>SANTIAGO PONS BUENAVISTA, 11, . LIBRERÍA BARCELONA (ESPAÑA)</stamp>
             </acquisition>
           </history>
         </msDesc>
@@ -93,18 +98,17 @@
     </fileDesc>
     <encodingDesc>
       <projectDesc>
-        <p>Este archivo fue creado en el marco del proyecto Desenrollando el
-                              Cordel/Démêler le cordel/Untangling the cordel, dirigido por la
-                              profesora Constance Carta de la Universidad de Ginebra, con el apoyo
-                              de la Fundación filantrópica Famille Sandoz-Monique de Meuron.</p>
+        <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+          cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la Universidad
+          de Ginebra, con el apoyo de la Fundación filantrópica Famille Sandoz-Monique de
+          Meuron.</p>
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR non corregido</p>
+          <p>OCR no corregido</p>
         </correction>
         <normalization>
-          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto
-                                    original.</p>
+          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
         </normalization>
         <punctuation>
           <p>Se conserva la puntuación original.</p>
@@ -126,10 +130,14 @@
       </textClass>
     </profileDesc>
     <revisionDesc>
-      <change when="2022-06-17" who="#PJ">Création du fichier TEI P5 et encodage du
-                        corps du texte</change>
+      <change when="2022-06-17" who="#PJ">Création du fichier TEI P5 et encodage du corps du
+        texte</change>
+      <change when="2024-01-09" who="#EL">Add the IIIF links</change>
     </revisionDesc>
   </teiHeader>
+  <facsimile>
+    <graphic url="varios/Varios_074_1.jpg/full/200,/0/default.jpg"/>
+  </facsimile>
   <sourceDoc xml:id="automaticTranscription">
     <surface xml:id="Varios_074_1" type="page" cert="silver">
       <graphic url="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_074_1/full/full/0/default.jpg"/>
@@ -140,13 +148,11 @@
         </zone>
         <zone xml:id="Varios_074_1_BT223_1_LT84_2" type="HeadingLine" subtype="none" points="149,1463 146,1421 282,1408 285,1408 285,1408 285,1408 287,1408 287,1408 318,1421 318,1424 416,1424 416,1421 454,1408 454,1408 456,1408 456,1408 458,1408 458,1408 458,1408 460,1408 460,1408 462,1408 462,1408 482,1424 482,1424 486,1424 548,1408 548,1408 548,1408 550,1408 723,1408 723,1408 723,1408 726,1408 726,1408 772,1426 774,1426 776,1426 804,1410 804,1410 804,1410 807,1410 807,1410 807,1410 809,1410 809,1410 811,1410 811,1410 811,1410 813,1410 813,1410 831,1426 833,1426 844,1426 1022,1410 1024,1410 1024,1410 1024,1410 1026,1410 1026,1410 1055,1421 1175,1417 1177,1417 1177,1417 1177,1417 1180,1417 1180,1417 1180,1417 1182,1417 1182,1417 1195,1428 1195,1428 1204,1428 1359,1419 1362,1419 1362,1419 1362,1419 1364,1419 1364,1419 1388,1430 1390,1432 1601,1432 1601,1474 1596,1496 144,1478 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_074_1/144,1408,1457,88/full/0/default" corresp="HeadingLine">
           <path xml:id="Varios_074_1_BT223_1_LT84_2_1" points="149,1463 1601,1474 "/>
-          <line>Sacadas a relucir por un congreso de mujeres de
-                                    experiencia.</line>
+          <line>Sacadas a relucir por un congreso de mujeres de experiencia.</line>
         </zone>
         <zone xml:id="Varios_074_1_BT223_1_LT84_3" type="HeadingLine" subtype="none" points="184,1513 184,1472 1568,1483 1570,1527 1568,1559 1430,1559 1427,1557 1427,1557 1412,1555 1337,1540 1234,1551 1197,1555 1197,1555 1195,1555 1195,1555 1193,1555 1193,1555 1193,1555 1182,1551 1153,1537 1011,1546 971,1548 969,1548 969,1548 943,1546 848,1531 756,1542 726,1544 726,1544 723,1544 723,1544 721,1544 721,1544 721,1544 719,1544 719,1544 715,1540 704,1531 688,1540 684,1542 684,1542 684,1542 682,1542 682,1542 679,1542 679,1542 679,1542 677,1542 677,1542 677,1542 675,1542 675,1542 673,1540 662,1531 500,1535 434,1537 432,1537 432,1537 429,1537 429,1537 429,1537 427,1537 423,1535 412,1527 353,1533 234,1546 234,1546 232,1546 232,1546 232,1546 230,1546 179,1529 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_074_1/179,1472,1391,87/full/0/default" corresp="HeadingLine">
           <path xml:id="Varios_074_1_BT223_1_LT84_3_1" points="184,1513 1570,1527 "/>
-          <line>a fin de que las muchachas casaderas sepan de que
-                                    defectos</line>
+          <line>a fin de que las muchachas casaderas sepan de que defectos</line>
         </zone>
         <zone xml:id="Varios_074_1_BT223_1_LT84_4" type="HeadingLine" subtype="none" points="320,1562 320,1516 1427,1533 1430,1573 1427,1608 1230,1608 1228,1605 1228,1605 1226,1605 1226,1605 1226,1605 1215,1601 1199,1592 1191,1601 1188,1603 1188,1603 1186,1603 1186,1603 1186,1603 1184,1603 1184,1603 1184,1603 1182,1603 1182,1603 1149,1599 1098,1592 971,1594 851,1597 848,1597 848,1597 811,1590 761,1581 618,1581 614,1586 607,1590 607,1592 607,1592 605,1592 605,1592 605,1592 603,1592 603,1592 600,1592 600,1592 528,1583 497,1579 493,1581 478,1594 478,1594 475,1594 475,1594 475,1594 473,1594 473,1594 471,1594 471,1594 471,1594 469,1594 429,1581 425,1579 425,1579 407,1594 407,1594 405,1594 405,1594 405,1594 403,1594 403,1594 403,1597 355,1597 353,1594 353,1594 350,1594 350,1594 313,1577 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_074_1/313,1516,1117,92/full/0/default" corresp="HeadingLine">
           <path xml:id="Varios_074_1_BT223_1_LT84_4_1" points="320,1562 1430,1573 "/>
@@ -1214,301 +1220,302 @@
   <text>
     <body>
       <div>
-        <pb n="1" source="Varios_074_1.jpg" facs="fedora_Varios_074_1/full/full/0/default.jpg"/>
-        <div type="parte" n="1">
-          <head type="primer_titulo"><lb/>LAS FALTAS DE LOS HOMBRES</head>
-          <head type="subtitulo_parte"><lb/>Sacadas a relucir por un congreso de
-                                    mujeres de experiencia.<lb/>a fin de que las muchachas casaderas
-                                    sepan de que defectos<lb/>adolecen y como se han de conducir con
-                                    ellos.<lb/>VAN AL FIN UNOS TROVOS DE AMOR</head>
-          <lg>
-            <l>Desde tiempo inmemorial,</l>
+        <div>
+          <pb n="1" source="Varios_074_1.jpg" facs="varios/Varios_074_1.jpg/"/>
+          
+          <div n="1">
+            <head type="primer_titulo" rend="negrita"><lb/>LAS FALTAS DE LOS HOMBRES</head>
+            <head type="subtitulo" rend="negrita"><lb/>Sacadas a relucir por un congreso de mujeres
+              de experiencia.<lb/>a fin de que las muchachas casaderas sepan de que
+              defectos<lb/>adolecen y como se han de conducir con ellos.<lb/>VAN AL FIN UNOS TROVOS
+              DE AMOR</head>
+
+            <l rend="indent">Desde tiempo inmemorial,</l>
             <l>los hombres a su placer.</l>
             <l>han dicho de la mujer</l>
             <l>cuanto han querido de mal.</l>
-            <l>Serpiente, arpía infernal</l>
+            <l rend="indent">Serpiente, arpía infernal</l>
             <l>la llaman y otros mil nombres,</l>
             <l>así es que hoy no te asombres</l>
             <l>noble auditorio al oir</l>
             <l>que saquemos a relucir</l>
             <l>los defectos de los hombres.</l>
-            <l>Ingratos, falsos, arteros,</l>
-            <l>Inconstantes, bailarines,</l>
+            <l rend="indent">Ingratos, falsos, arteros,</l>
+            <l>inconstantes, bailarines,</l>
             <l>son Danieles, Valentines,</l>
             <l>Viorianos y Valeros.</l>
-          </lg>
-          <lg>
-            <l>Los Juanes y Baldomeros,</l>
+            <l rend="indent">Los Juanes y Baldomeros,</l>
             <l>Andreses y Celestinos,</l>
             <l>son amigos de los vinos,</l>
             <l>aguardientes y licores;</l>
             <l>y también los Salvadores,</l>
             <l>los Modestos y Rufinos.</l>
-            <l>Para tiranos crueles</l>
+            <l rend="indent">Para tiranos crueles</l>
             <l>los Guillermos y Eduardos,</l>
             <l>y amigos de picos pardos</l>
             <l>Serafines y Manueles.</l>
-            <l>Los Donatos y Migueles,</l>
+            <l rend="indent">Los Donatos y Migueles,</l>
             <l>Benitos y Simeones,</l>
             <l>son fulleros, correntones,</l>
             <l>propensos a embriagarse</l>
-          </lg>
-          <pb n="2" source="Varios_074_2.jpg" facs="fedora_Varios_074_2/full/full/0/default.jpg"/>
-          <lg>
+
+            <pb n="2" source="Varios_074_2.jpg" facs="varios/Varios_074_2.jpg/"/>
+
             <l>y capaces de jugarse</l>
             <l>la calrisa y los Calzones.</l>
-            <l>Los Fe ipes son avaros,</l>
+            <l rend="indent">Los Fe ipes son avaros,</l>
             <l>hambrones los Bernardinos,</l>
             <l>los Emilios muy ladinos</l>
             <l>y los Atanasios raros.</l>
-            <l>Los Agapitos y Amaros</l>
+            <l rend="indent">Los Agapitos y Amaros</l>
             <l>son de maneras muy bruscas;</l>
             <l>y si buenas piezas buscas,</l>
             <l>hallarás que son los Blases,</l>
             <l>los Antonios y Tomases</l>
             <l>amigos de pelanduscas.</l>
-            <l>Son sucios los T'motecs,</l>
+            <l rend="indent">Son sucios los T'motecs,</l>
             <l>los Leonardos sisones,</l>
             <l>los Baudilios muy tragones</l>
             <l>y los Policarpos feos.</l>
-            <l>Remolones los Mateos</l>
+            <l rend="indent">Remolones los Mateos</l>
             <l>y si tu auditorio quieres</l>
             <l>hallarás si les siguieres,</l>
             <l>que sen los Jaiames muy malos</l>
             <l>y amigos de dar de palos</l>
             <l>a menudo a sus mujeres.</l>
-            <l>Tacaños y reñidores</l>
+            <l rend="indent">Tacaños y reñidores</l>
             <l>son los Giles y Tadeos,</l>
             <l>y amantes de los paseos</l>
             <l>los Arturos y Melchores.</l>
-            <l>Los Enriques bailadores,</l>
+            <l rend="indent">Los Enriques bailadores,</l>
             <l>los Gonzalos casquivanos,</l>
             <l>derrochones los Marianos,</l>
             <l>y los Pablos y Frasquitos</l>
             <l>en los ajenos bolsillos</l>
             <l>les gusta untarse las manos.</l>
-            <l>Los Justos y Peregrines,</l>
+            <l rend="indent">Los Justos y Peregrines,</l>
             <l>alumbrados cual linternas,</l>
             <l>siempre van por las tabernas,</l>
             <l>bodegas y cafetines.</l>
-            <l>Los Claudios y los Fermines</l>
+            <l rend="indent">Los Claudios y los Fermines</l>
             <l>viven gruf̃endo y rabiando</l>
             <l>y ya de estar pleiteando</l>
             <l>cuando cansados los bailes,</l>
             <l>los verás por las calles</l>
             <l>en busca de contrabando.</l>
-            <l>Son los Silvestres ariscos,</l>
-          </lg>
-          <lg>
+            <l rend="indent">Son los Silvestres ariscos,</l>
             <l>los Dionisios embusteros,</l>
             <l>los Lázaros callejeros,</l>
             <l>los Serapios basiliscos.</l>
-            <l>Los Florencios y Franciscos</l>
+            <l rend="indent">Los Florencios y Franciscos</l>
             <l>son todos muy santularios;</l>
             <l>los Teodoros, Olegarios</l>
             <l>y Eugenios son lamineros</l>
             <l>y van como perdigueros</l>
             <l>oliendo por los armarios.</l>
-            <l>Los Toribios son celosos,</l>
+            <l rend="indent">Los Toribios son celosos,</l>
             <l>los Inocentes muy tunos,</l>
             <l>y Angeles, Vicentes, Brunos</l>
             <l>y Pepes, unos rabiosos.</l>
-            <l>Martines y Fructuosos</l>
+            <l rend="indent">Martines y Fructuosos</l>
             <l>son de condición extraña;</l>
             <l>los Pedros tienen gran maña</l>
             <l>en la baraja y el taco,</l>
             <l>y se fuman más tabaco</l>
             <l>que fabricar puede España.</l>
-            <l>Los Bautistas son zamarros,</l>
+            <l rend="indent">Los Bautistas son zamarros,</l>
             <l>los Nicolases tunantes</l>
             <l>los Joaquines muy amantes</l>
             <l>de chicas, copas, cigarros;</l>
-            <l>Los Julios, los despilfarros</l>
+            <l rend="indent">Los Julios, los despilfarros</l>
             <l>anhelan y los placeres;</l>
             <l>y olvidando sus deberes,</l>
             <l>los Magines y Ramones,</l>
             <l>se la pegan los bribones</l>
             <l>a menudo a sus mujeres.</l>
-            <l>Los Mauricios son soberbios.</l>
+            <l rend="indent">Los Mauricios son soberbios.</l>
             <l>los Carlos avariciosos,</l>
             <l>los Crispines lujuriosos</l>
             <l>e iracundos los Eusebios</l>
-            <l>Son golosos los Silverios,</l>
+            <l rend="indent">Son golosos los Silverios,</l>
             <l>envidiosos los Pascuales,</l>
             <l>haraganes sin iguales</l>
             <l>los Cirilos y beodos;</l>
             <l>los Ignacios tienen todos</l>
             <l>los pecados capitales.</l>
-            <l>Gustan mucho los Severos,</l>
+            <l rend="indent">Gustan mucho los Severos,</l>
             <l>Zacarías y Marciales,</l>
             <l>de andar por los andurriales</l>
             <l>tras los cuerpos sandungueros.</l>
-          </lg>
-          <pb n="3" source="Varios_074_3.jpg" facs="fedora_Varios_074_3/full/full/0/default.jpg"/>
-          <lg>
-            <l>Los Cancios son majaderos</l>
+
+            <pb n="3" source="Varios_074_3.jpg" facs="varios/Varios_074_3.jpg/"/>
+
+            <l rend="indent">Los Cancios son majaderos</l>
             <l>y gastan pólvora en salva;</l>
             <l>los Roques se hacen la malva,</l>
             <l>pero así a la descomida,</l>
             <l>le juegan una partida</l>
             <l>hasta el lucero del alba.</l>
-            <l>Los Calixtos y Torcuatos,</l>
+            <l rend="indent">Los Calixtos y Torcuatos,</l>
             <l>los Lucas y los Julianes,</l>
             <l>los Gabrieles, los Damianes,</l>
             <l>Evaristos y Honoratos.</l>
-            <l>Se hacen los mogigatos,</l>
+            <l rend="indent">Se hacen los mogigatos,</l>
             <l>nada de ello se recela,</l>
             <l>pero sí alguno les cela</l>
             <l>al fin llega a comprender,</l>
             <l>que estos todos suelen ser</l>
             <l>pícaros de doble suela.</l>
-            <l>Los Bernardos y los Titos,</l>
+            <l rend="indent">Los Bernardos y los Titos,</l>
             <l>gustan de beaterías</l>
             <l>y de andar por cofradías</l>
             <l>con Fortunatos y Vitos.</l>
-            <l>Los Rufos son muy benditos,</l>
+            <l rend="indent">Los Rufos son muy benditos,</l>
             <l>pero los Espiridiones,</l>
             <l>Liberatos y Trifones,</l>
             <l>son (va de verdad) tan buenos,</l>
             <l>que de ellos siempre están Benos</l>
             <l>calabozos y prisiones.</l>
-            <l>Los Alejos, los Elías,</l>
+            <l rend="indent">Los Alejos, los Elías,</l>
             <l>Jerónimos y Nazarios,</l>
             <l>Felicianos y Macarios,</l>
             <l>tienen muchas picardías.</l>
-            <l>Los Anselmos y Matías</l>
+            <l rend="indent">Los Anselmos y Matías</l>
             <l>son ca averones tales,</l>
             <l>que nunca se han visto iguales</l>
             <l>en el mundo como ellos,</l>
             <l>y por estos atropellos</l>
             <l>mueren en los hospitales.</l>
-            <l>Los Víctores son infieles,</l>
+            <l rend="indent">Los Víctores son infieles,</l>
             <l>los Isidoros flautistas,</l>
             <l>los Carmelos camorristas,</l>
             <l>y los Marcos quita pieles.</l>
-            <l>Jorges y Albertos crueles,</l>
+            <l rend="indent">Jorges y Albertos crueles,</l>
             <l>Soteros y Cayos rudos,</l>
             <l>los Epifanios agudos,</l>
-          </lg>
-          <lg>
             <l>los Luises malos maridos,</l>
             <l>de hipocresía vestidos</l>
             <l>y de virtudes desnudos</l>
+            <l rend="indent">Los Domingos sin placeres</l>
             <l>viven siempre en los rincones;</l>
-            <l>Los Domingos sin placeres</l>
             <l>si se casan, los calzones</l>
             <l>llevan sólo sus mujeres.</l>
-            <l>Los Ricardos dan quehaceres,</l>
+            <l rend="indent">Los Ricardos dan quehaceres,</l>
             <l>(y la razón es muy obvia)</l>
             <l>pues ya su élegancia agobia,</l>
             <l>los Braulios muérense en breve,</l>
             <l>los Rosendos son de nieve</l>
             <l>y por eso no hallan novia.</l>
-            <l>Son amigos de pilladas</l>
+            <l rend="indent">Son amigos de pilladas</l>
             <l>Lorenzos y Cayetanos,</l>
             <l>y Agustines y Casianos</l>
             <l>siempre van tras las criadas.</l>
-            <l>Son personas mal miradas</l>
+            <l rend="indent">Son personas mal miradas</l>
             <l>Estévanes y Javieres,</l>
             <l>pues de todos sus placeres</l>
             <l>el más común y mayor</l>
             <l>es el de hacer el amor</l>
             <l>a amigas de sus mujeres.</l>
-            <l>Los Ambrosios son muy fríos,</l>
+            <l rend="indent">Los Ambrosios son muy fríos,</l>
             <l>los Eustaquios indolentes,</l>
             <l>los Máximos exigentes</l>
             <l>en materia de amoríos.</l>
-            <l>Los Estanislaos y Píos</l>
+            <l rend="indent">Los Estanislaos y Píos</l>
             <l>picapleitos y embusteros :</l>
             <l>los Cándidos papeleros</l>
             <l>amigos de los placeres</l>
             <l>y de andar con las mujeres,</l>
             <l>de amigos y compañeros.</l>
-            <l>Estas son, aunque os asombre,</l>
+            <l rend="indent">Estas son, aunque os asombre,</l>
             <l>niñas llenas de inocencia</l>
             <l>las faltas que la experiencia</l>
             <l>ha descubierto en el hombre.</l>
-            <l>Así os digo por mi nombre</l>
+            <l rend="indent">Así os digo por mi nombre</l>
             <l>a las que queráis casaros,</l>
             <l>de que no debéis fiaros</l>
             <l>al verlos de amor rendidos</l>
             <l>pues cuando ya son maridos</l>
             <l>se ven sus defectos claros.</l>
-          </lg>
-          <pb n="4" source="Varios_074_4.jpg" facs="fedora_Varios_074_4/full/full/0/default.jpg"/>
+          </div>
+
+          <div n="2">
+            <pb n="4" source="Varios_074_4.jpg" facs="varios/Varios_074_4.jpg/"/>
+
+            <head type="titulo_trovo" rend="negrita"><lb/>TROVOS DE AMOR</head>
+
+            <lg>
+              <l rend="indent">Mirábase Juana un día</l>
+              <l>de una fuente en el cristal.</l>
+              <l>y el agua la descubría</l>
+              <l>sus encantos sin igual.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Llena de amor y alegría</l>
+              <l>Juaña mi pasión oyó,</l>
+              <l>y tan feliz se creía</l>
+              <l>que en la dicha que soñó</l>
+              <l>Mirábase Juana un día.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Aquejada de otro mal</l>
+              <l>suspiros al viento dando,</l>
+              <l>vi a Juana tan celestial,</l>
+              <l>que se estaba contemplando</l>
+              <l>de una fuente en el cristal.</l>
+            </lg>
+            <lg>
+              <l rend="indent">La dije, prenda, alma mía,</l>
+              <l>¿ me quieres como yo a ti?</l>
+              <l>y cuando esto la decía</l>
+              <l>oyóse en la fuente un sí</l>
+              <l>y el agua la descubría.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Desde entonces sin igual</l>
+              <l>por verla un instante lloro</l>
+              <l>y es mi gloria terrenal</l>
+              <l>amarla, porque yo adoro</l>
+              <l>sus encantos sin igual.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Entré niña en tu jardín</l>
+              <l>pensando coger la flor,</l>
+              <l>otro se llevó el jazmín,</l>
+              <l>yo quedé con el olor.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Por ti, bello serafín,</l>
+              <l>mi pasión causa ternura,</l>
+              <l>porque te amaba sin fin,</l>
+              <l>por gozar de tu hermosura</l>
+              <l>entré, niña, en tu jardín ?</l>
+            </lg>
+            <lg>
+              <l rend="indent">Tú me mostraste amor,</l>
+              <l>y fingistes que me amabas,</l>
+              <l>firmemente y con ardor.</l>
+              <l>en las sospechas que estaba</l>
+              <l>pensando coger la flor.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Entré en un lugar, en fin,</l>
+              <l>por amar a cierta dama,</l>
+              <l>y como el mundo es ruin</l>
+              <l>yo me quedé con la rama</l>
+              <l>otro se llevó el jazmín.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Tengo muy grande dolor</l>
+              <l>de lo que en ti me ha pasado;</l>
+              <l>ahora lloro mi error,</l>
+              <l>otro la flor se ha llevado,</l>
+              <l>yo quedé con el olor.</l>
+            </lg>
+
+            <trailer rend="negrita">FIN</trailer>
+          </div>
         </div>
-        <div n="2">
-          <head type="titulo_trovo"><lb/>TROVOS DE AMOR</head>
-          <lg>
-            <l>Mirábase Juana un día</l>
-            <l>de una fuente en el cristal.</l>
-            <l>y el agua la descubría</l>
-            <l>sus encantos sin igual.</l>
-          </lg>
-          <lg>
-            <l>Llena de amor y alegría</l>
-            <l>Juaña mi pasión oyó,</l>
-            <l>y tan feliz se creía</l>
-            <l>que en la dicha que soñó</l>
-            <l>Mirábase Juana un día.</l>
-          </lg>
-          <lg>
-            <l>Aquejada de otro mal</l>
-            <l>suspiros al viento dando,</l>
-            <l>vi a Juana tan celestial,</l>
-            <l>que se estaba contemplando</l>
-            <l>de una fuente en el cristal.</l>
-          </lg>
-          <lg>
-            <l>La dije, prenda, alma mía,</l>
-            <l>¿ me quieres como yo a ti?</l>
-            <l>y cuando esto la decía</l>
-            <l>oyóse en la fuente un sí</l>
-            <l>y el agua la descubría.</l>
-          </lg>
-          <lg>
-            <l>Desde entonces sin igual</l>
-            <l>por verla un instante lloro</l>
-            <l>y es mi gloria terrenal</l>
-            <l>amarla, porque yo adoro</l>
-            <l>sus encantos sin igual.</l>
-          </lg>
-          <lg>
-            <l>Entré niña en tu jardín</l>
-            <l>pensando coger la flor,</l>
-            <l>otro se llevó el jazmín,</l>
-            <l>yo quedé con el olor.</l>
-          </lg>
-          <lg>
-            <l>Por ti, bello serafín,</l>
-            <l>mi pasión causa ternura,</l>
-            <l>porque te amaba sin fin,</l>
-            <l>por gozar de tu hermosura</l>
-            <l>entré, niña, en tu jardín ?</l>
-          </lg>
-          <lg>
-            <l>Tú me mostraste amor,</l>
-            <l>y fingistes que me amabas,</l>
-            <l>firmemente y con ardor.</l>
-            <l>en las sospechas que estaba</l>
-            <l>pensando coger la flor.</l>
-          </lg>
-          <lg>
-            <l>Entré en un lugar, en fin,</l>
-            <l>por amar a cierta dama,</l>
-            <l>y como el mundo es ruin</l>
-            <l>yo me quedé con la rama</l>
-            <l>otro se llevó el jazmín.</l>
-          </lg>
-          <lg>
-            <l>Tengo muy grande dolor</l>
-            <l>de lo que en ti me ha pasado;</l>
-            <l>ahora lloro mi error,</l>
-            <l>otro la flor se ha llevado,</l>
-            <l>yo quedé con el olor.</l>
-          </lg>
-          <trailer>FIN</trailer>
-        </div>
+        
         <div type="colofon">
           <p><lb/>Imps. Hospital, 19, «El Abanico»</p>
         </div>

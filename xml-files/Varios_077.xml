@@ -1,21 +1,17 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../Schema/oddPliego_varios.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:alto="http://www.loc.gov/standards/alto/ns-v4#" xml:id="Varios_077">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Varios_077">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Sátira compuesta de la semana mal
-                              empleada, que tuvo un Galan cortejando á una Dama, para
-                              que tomen ejemplo los mancebos y no se fien de
-                              faldillas.</title>
+        <title>Sátira compuesta de la semana mal empleada</title>
         <respStmt>
           <name/>
           <resp>Codificación TEI</resp>
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <authority role="rightsHolder">Bibliothèque Universitaire de
-                              Genève</authority>
+        <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
         <availability status="restricted">
           <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
         </availability>
@@ -23,19 +19,18 @@
       <sourceDesc>
         <biblFull>
           <titleStmt>
-            <title type="titulo_completo">Sátira compuesta de la semana mal
-                                          empleada, que tuvo un Galan cortejando á una Dama, para
-                                          que tomen ejemplo los mancebos y no se fien de
-                                          faldillas.</title>
-            <title type="titulo_breve"/>
+            <title type="titulo_completo">Sátira compuesta de la semana mal empleada, que tuvo un
+              Galan cortejando á una Dama, para que tomen ejemplo los mancebos y no se fien de
+              faldillas.</title>
+            <title type="titulo_breve">Sátira compuesta de la semana mal empleada</title>
           </titleStmt>
           <editionStmt>
             <p/>
           </editionStmt>
           <publicationStmt>
-            <publisher>Maria Aléu é hijos</publisher>
+            <publisher>Tipografía de Maria Aleu e hijos</publisher>
             <pubPlace ref="https://www.geonames.org/3111933/reus.html">Reus</pubPlace>
-            <date cert="high">1845</date>
+            <date cert="high" when="1845-01-01">1845</date>
           </publicationStmt>
         </biblFull>
         <msDesc>
@@ -43,7 +38,8 @@
             <country>Suisse</country>
             <settlement>Genève</settlement>
             <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"/>
-                                    </repository>
+            </repository>
+            <collection>Colección Varios</collection>
             <idno type="cote"/>
             <idno type="DOI">10.5281/zenodo.6565903</idno>
             <altIdentifier>
@@ -51,10 +47,15 @@
             </altIdentifier>
           </msIdentifier>
           <msContents>
-            <summary/>
+            <summary>Sátira y trovos</summary>
             <msItem>
-              <locus/>
-              <title/>
+              <locus>1-3</locus>
+              <title>Sátira compuesta de la semana mal empleada, que tuvo un Galan cortejando á una
+                Dama, para que tomen ejemplo los mancebos y no se fien de faldillas.</title>
+            </msItem>
+            <msItem>
+              <locus>4</locus>
+              <title>Trobos, que el Galan cantó en desprecio de la Dama.</title>
             </msItem>
           </msContents>
           <physDesc>
@@ -103,18 +104,17 @@
     </fileDesc>
     <encodingDesc>
       <projectDesc>
-        <p>Este archivo fue creado en el marco del proyecto Desenrollando el
-                              Cordel/Démêler le cordel/Untangling the cordel, dirigido por la
-                              profesora Constance Carta de la Universidad de Ginebra, con el apoyo
-                              de la Fundación filantrópica Famille Sandoz-Monique de Meuron.</p>
+        <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+          cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la Universidad
+          de Ginebra, con el apoyo de la Fundación filantrópica Famille Sandoz-Monique de
+          Meuron.</p>
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR non corregido</p>
+          <p>OCR no corregido</p>
         </correction>
         <normalization>
-          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto
-                                    original.</p>
+          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
         </normalization>
         <punctuation>
           <p>Se conserva la puntuación original.</p>
@@ -128,6 +128,7 @@
       <textClass>
         <keywords xml:base="http://datos.bne.es/tema/">
           <term target="XX5499740.html" type="tipo_texto">Sátiras</term>
+          <term type="tipo_texto">Trovos</term>
           <term type="tipo_estrofa"/>
           <term type="verso_prosa">Verso</term>
           <term type="sagrado_profano">Profano</term>
@@ -135,10 +136,14 @@
       </textClass>
     </profileDesc>
     <revisionDesc>
-      <change when="2022-06-22" who="#PJ">Création du fichier TEI P5 et encodage du
-                        corps du texte</change>
+      <change when="2022-06-22" who="#PJ">Création du fichier TEI P5 et encodage du corps du
+        texte</change>
+      <change when="2024-01-09" who="#EL">Add the IIIF links</change>
     </revisionDesc>
   </teiHeader>
+  <facsimile>
+    <graphic url="varios/Varios_077_1.jpg/full/200,/0/default.jpg"/>
+  </facsimile>
   <sourceDoc xml:id="automaticTranscription">
     <surface xml:id="Varios_077_1" type="page" cert="silver">
       <graphic url="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_077_1/full/full/0/default.jpg"/>
@@ -614,337 +619,337 @@
       <graphic url="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_077_3/full/full/0/default.jpg"/>
       <zone xml:id="Varios_077_3_BT226_1" n="1" type="MainZone" subtype="none" points="246,95 251,183 628,187 637,99 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_077_3/246,95,391,92/full/0/default" corresp="MainZone">
         <zone xml:id="Varios_077_3_BT226_1_LT84_1" type="DefaultLine" subtype="none" points="256,161 252,97 281,84 281,84 283,84 283,84 283,84 285,84 285,84 285,84 287,84 324,97 353,84 353,84 355,84 355,84 355,84 357,84 357,84 359,84 359,84 388,95 450,84 450,84 452,84 452,84 452,84 454,84 454,84 454,84 489,103 531,95 531,95 531,95 533,95 533,95 622,109 622,161 622,177 525,177 525,177 502,198 502,200 502,200 500,200 500,200 500,200 498,200 498,200 498,202 403,202 401,200 401,200 398,200 398,200 398,200 396,200 361,177 339,198 339,200 339,200 336,200 336,200 336,200 334,200 334,200 334,202 281,202 279,200 279,200 277,200 277,200 277,200 274,200 274,200 250,179 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_077_3/250,84,372,118/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_077_3_BT226_1_LT84_1_1" points="256,161 622,161 " corresp=" &#10;                                                  DefaultLine"/>
+          <path xml:id="Varios_077_3_BT226_1_LT84_1_1" points="256,161 622,161 " corresp=" &#xA;                                                  DefaultLine"/>
           <line>Quinta del Galan.</line>
         </zone>
       </zone>
       <zone xml:id="Varios_077_3_BT227_2" n="2" type="MainZone" subtype="columns" points="135,199 140,778 790,785 795,199 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_077_3/135,199,660,586/full/0/default" corresp="MainZone:columns">
         <zone xml:id="Varios_077_3_BT227_2_LT84_1" type="DefaultLine" subtype="none" points="179,239 181,177 217,188 266,179 274,179 274,179 277,179 277,179 277,179 279,179 279,179 283,181 308,192 423,186 477,183 479,183 779,200 779,250 775,274 657,262 620,270 611,272 609,272 609,272 607,272 607,272 607,272 589,270 537,260 456,266 411,268 409,268 175,256 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_077_3/175,177,604,97/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_077_3_BT227_2_LT84_1_1" points="179,239 779,250 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
+          <path xml:id="Varios_077_3_BT227_2_LT84_1_1" points="179,239 779,250 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
           <line>Llegó el viérnes é impaciente</line>
         </zone>
         <zone xml:id="Varios_077_3_BT227_2_LT84_2" type="DefaultLine" subtype="none" points="169,289 169,243 665,250 667,297 663,314 165,307 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_077_3/165,243,502,71/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_077_3_BT227_2_LT84_2_1" points="169,289 667,297 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
+          <path xml:id="Varios_077_3_BT227_2_LT84_2_1" points="169,289 667,297 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
           <line>sin tener ya compasion,</line>
         </zone>
         <zone xml:id="Varios_077_3_BT227_2_LT84_3" type="DefaultLine" subtype="none" points="173,336 173,285 671,303 671,347 667,361 169,347 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_077_3/169,285,502,76/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_077_3_BT227_2_LT84_3_1" points="173,336 671,347 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
+          <path xml:id="Varios_077_3_BT227_2_LT84_3_1" points="173,336 671,347 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
           <line>le declaré impertinente</line>
         </zone>
         <zone xml:id="Varios_077_3_BT227_2_LT84_4" type="DefaultLine" subtype="none" points="171,386 171,334 624,351 626,392 622,409 167,396 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_077_3/167,334,459,75/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_077_3_BT227_2_LT84_4_1" points="171,386 626,392 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
+          <path xml:id="Varios_077_3_BT227_2_LT84_4_1" points="171,386 626,392 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
           <line>el fuego de mi pasion.</line>
         </zone>
         <zone xml:id="Varios_077_3_BT227_2_LT84_5" type="DefaultLine" subtype="none" points="239,434 239,388 630,396 630,444 626,462 235,442 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_077_3/235,388,395,74/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_077_3_BT227_2_LT84_5_1" points="239,434 630,444 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
+          <path xml:id="Varios_077_3_BT227_2_LT84_5_1" points="239,434 630,444 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
           <line>Esto es demasiado,</line>
         </zone>
         <zone xml:id="Varios_077_3_BT227_2_LT84_6" type="DefaultLine" subtype="none" points="245,483 248,431 287,442 372,436 411,434 413,434 413,434 413,434 415,434 415,434 417,434 417,434 421,438 432,446 609,446 611,487 609,504 287,504 285,502 285,502 283,502 239,489 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_077_3/239,431,372,73/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_077_3_BT227_2_LT84_6_1" points="245,483 611,487 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
+          <path xml:id="Varios_077_3_BT227_2_LT84_6_1" points="245,483 611,487 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
           <line>V. ya me engaña:</line>
         </zone>
         <zone xml:id="Varios_077_3_BT227_2_LT84_7" type="DefaultLine" subtype="none" points="237,529 237,479 605,489 605,535 607,545 589,558 587,558 587,558 587,558 585,558 585,558 582,558 582,558 582,558 580,558 580,558 556,547 483,558 483,558 481,558 481,558 324,543 266,553 266,553 266,553 264,553 264,553 264,553 262,553 262,553 231,539 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_077_3/231,479,376,79/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_077_3_BT227_2_LT84_7_1" points="237,529 605,535 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
+          <path xml:id="Varios_077_3_BT227_2_LT84_7_1" points="237,529 605,535 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
           <line>de mi V. se burla</line>
         </zone>
         <zone xml:id="Varios_077_3_BT227_2_LT84_8" type="DefaultLine" subtype="none" points="239,578 237,541 297,531 297,531 299,531 299,531 299,531 301,531 339,543 343,543 345,543 388,529 390,529 390,529 390,529 392,529 392,529 394,529 394,529 394,529 425,545 425,545 432,545 529,535 529,535 531,535 531,535 533,535 578,549 580,549 580,549 597,535 597,533 599,533 599,533 599,533 601,533 601,533 603,533 642,533 642,533 642,533 644,533 719,553 717,591 713,620 582,617 582,617 582,617 580,617 580,617 578,617 566,609 539,593 469,593 458,601 454,605 454,607 454,607 452,607 452,607 452,607 450,607 450,607 450,609 448,607 448,607 446,607 446,607 446,607 444,607 444,607 444,605 438,601 429,593 398,597 357,603 357,603 355,603 355,603 235,584 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_077_3/235,529,484,91/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_077_3_BT227_2_LT84_8_1" points="239,578 717,591 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
+          <path xml:id="Varios_077_3_BT227_2_LT84_8_1" points="239,578 717,591 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
           <line>con arte y con maña,</line>
         </zone>
         <zone xml:id="Varios_077_3_BT227_2_LT84_9" type="DefaultLine" subtype="none" points="241,626 241,576 336,591 403,586 487,580 489,580 489,580 489,580 491,580 549,597 549,634 545,648 237,638 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_077_3/237,576,312,72/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_077_3_BT227_2_LT84_9_1" points="241,626 549,634 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
+          <path xml:id="Varios_077_3_BT227_2_LT84_9_1" points="241,626 549,634 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
           <line>vaya señorita,</line>
         </zone>
         <zone xml:id="Varios_077_3_BT227_2_LT84_10" type="DefaultLine" subtype="none" points="239,675 239,634 636,638 638,679 636,686 448,696 446,696 446,696 365,686 258,694 256,694 256,694 256,694 254,694 254,694 252,694 231,682 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_077_3/231,634,407,62/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_077_3_BT227_2_LT84_10_1" points="239,675 638,679 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
+          <path xml:id="Varios_077_3_BT227_2_LT84_10_1" points="239,675 638,679 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
           <line>que no puede ser?</line>
         </zone>
         <zone xml:id="Varios_077_3_BT227_2_LT84_11" type="DefaultLine" subtype="none" points="237,723 239,671 270,688 301,675 305,673 305,673 308,673 308,673 308,673 310,673 310,673 312,673 312,673 312,673 314,673 314,673 314,675 316,675 328,690 419,690 429,682 436,675 436,675 438,675 438,675 438,675 440,675 440,675 442,675 442,675 442,675 485,684 523,692 541,688 574,677 576,677 576,677 576,677 578,677 578,677 690,696 690,731 686,752 568,737 510,744 465,750 465,750 463,750 463,750 463,750 460,750 460,750 440,741 425,735 403,739 355,748 355,748 355,748 353,748 353,748 351,748 351,748 351,748 349,748 349,748 336,735 330,733 318,735 262,746 262,746 260,746 260,746 260,746 258,746 258,746 258,746 231,731 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_077_3/231,671,459,81/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_077_3_BT227_2_LT84_11_1" points="237,723 690,731 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
+          <path xml:id="Varios_077_3_BT227_2_LT84_11_1" points="237,723 690,731 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
           <line>hoy que esta solita....</line>
         </zone>
         <zone xml:id="Varios_077_3_BT227_2_LT84_12" type="DefaultLine" subtype="none" points="239,775 237,731 626,729 630,779 626,814 463,799 448,806 442,810 442,810 442,810 440,810 440,810 440,810 438,810 438,810 436,810 436,810 423,806 403,797 372,803 322,812 322,812 322,812 320,812 320,812 318,812 318,812 318,812 316,812 316,812 316,810 303,799 301,797 237,797 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_077_3/237,729,393,85/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_077_3_BT227_2_LT84_12_1" points="239,775 630,779 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
+          <path xml:id="Varios_077_3_BT227_2_LT84_12_1" points="239,775 630,779 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
           <line>que vamos hacer?</line>
         </zone>
       </zone>
       <zone xml:id="Varios_077_3_BT226_3" n="3" type="MainZone" subtype="none" points="228,834 228,898 651,898 654,836 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_077_3/228,834,426,64/full/0/default" corresp="MainZone">
         <zone xml:id="Varios_077_3_BT226_3_LT84_1" type="DefaultLine" subtype="none" points="239,865 237,816 372,797 372,797 374,797 374,797 374,797 376,797 376,797 376,797 378,797 394,810 465,797 465,797 467,797 467,797 467,797 469,797 469,797 469,797 500,814 512,820 580,814 582,872 580,880 469,892 469,892 467,892 235,878 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_077_3/235,797,347,95/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_077_3_BT226_3_LT84_1_1" points="239,865 582,872 " corresp=" &#10;                                                  DefaultLine"/>
+          <path xml:id="Varios_077_3_BT226_3_LT84_1_1" points="239,865 582,872 " corresp=" &#xA;                                                  DefaultLine"/>
           <line>Sesta del Galon.</line>
         </zone>
       </zone>
       <zone xml:id="Varios_077_3_BT227_4" n="4" type="MainZone" subtype="columns" points="140,914 128,1502 732,1503 732,914 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_077_3/128,914,604,589/full/0/default" corresp="MainZone:columns">
         <zone xml:id="Varios_077_3_BT227_4_LT84_1" type="DefaultLine" subtype="none" points="165,950 161,894 204,880 206,880 206,880 206,880 208,880 208,880 210,880 210,880 210,880 212,880 212,880 212,882 227,896 229,899 279,899 287,899 303,882 303,880 303,880 305,880 305,880 305,880 308,880 308,880 310,880 339,880 339,880 339,880 341,880 409,901 500,888 500,888 502,888 502,888 502,888 609,909 609,961 605,975 161,958 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_077_3/161,880,448,95/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_077_3_BT227_4_LT84_1_1" points="165,950 609,961 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
+          <path xml:id="Varios_077_3_BT227_4_LT84_1_1" points="165,950 609,961 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
           <line>En el sábado señores,</line>
         </zone>
         <zone xml:id="Varios_077_3_BT227_4_LT84_2" type="DefaultLine" subtype="none" points="165,1000 165,954 618,958 618,1008 613,1016 161,1006 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_077_3/161,954,457,62/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_077_3_BT227_4_LT84_2_1" points="165,1000 618,1008 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
+          <path xml:id="Varios_077_3_BT227_4_LT84_2_1" points="165,1000 618,1008 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
           <line>cansado ya de esperar</line>
         </zone>
         <zone xml:id="Varios_077_3_BT227_4_LT84_3" type="DefaultLine" subtype="none" points="163,1045 163,992 502,1008 558,1000 558,1000 560,1000 560,1000 560,1000 562,1000 562,1000 589,1010 667,1002 669,1058 665,1072 159,1054 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_077_3/159,992,510,80/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_077_3_BT227_4_LT84_3_1" points="163,1045 669,1058 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
+          <path xml:id="Varios_077_3_BT227_4_LT84_3_1" points="163,1045 669,1058 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
           <line>voy y con todo descaro.</line>
         </zone>
         <zone xml:id="Varios_077_3_BT227_4_LT84_4" type="DefaultLine" subtype="none" points="159,1091 159,1049 729,1051 729,1103 725,1138 607,1136 607,1136 607,1136 605,1136 605,1136 605,1136 605,1136 562,1113 463,1124 463,1124 460,1124 460,1124 458,1124 458,1124 458,1124 456,1124 456,1124 456,1122 446,1113 299,1116 297,1116 297,1116 295,1116 250,1105 157,1126 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_077_3/157,1049,572,89/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_077_3_BT227_4_LT84_4_1" points="159,1091 729,1103 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
+          <path xml:id="Varios_077_3_BT227_4_LT84_4_1" points="159,1091 729,1103 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
           <line>de este modo quise hablar.</line>
         </zone>
         <zone xml:id="Varios_077_3_BT227_4_LT84_5" type="DefaultLine" subtype="none" points="233,1140 233,1091 607,1107 609,1149 605,1159 229,1151 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_077_3/229,1091,380,68/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_077_3_BT227_4_LT84_5_1" points="233,1140 609,1149 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
+          <path xml:id="Varios_077_3_BT227_4_LT84_5_1" points="233,1140 609,1149 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
           <line>Toda una semana</line>
         </zone>
         <zone xml:id="Varios_077_3_BT227_4_LT84_6" type="DefaultLine" subtype="none" points="229,1188 229,1136 572,1157 574,1200 570,1217 326,1200 318,1200 289,1209 287,1209 287,1209 285,1209 285,1209 285,1209 225,1194 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_077_3/225,1136,349,81/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_077_3_BT227_4_LT84_6_1" points="229,1188 574,1200 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
+          <path xml:id="Varios_077_3_BT227_4_LT84_6_1" points="229,1188 574,1200 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
           <line>hoy hace cabal,</line>
         </zone>
         <zone xml:id="Varios_077_3_BT227_4_LT84_7" type="DefaultLine" subtype="none" points="229,1240 227,1194 450,1192 452,1192 562,1206 564,1248 560,1254 225,1246 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_077_3/225,1192,339,62/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_077_3_BT227_4_LT84_7_1" points="229,1240 564,1248 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
+          <path xml:id="Varios_077_3_BT227_4_LT84_7_1" points="229,1240 564,1248 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
           <line>que V. señorita</line>
         </zone>
         <zone xml:id="Varios_077_3_BT227_4_LT84_8" type="DefaultLine" subtype="none" points="227,1287 225,1246 562,1240 566,1291 564,1304 225,1304 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_077_3/225,1240,341,64/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_077_3_BT227_4_LT84_8_1" points="227,1287 566,1291 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
+          <path xml:id="Varios_077_3_BT227_4_LT84_8_1" points="227,1287 566,1291 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
           <line>me hace penar;</line>
         </zone>
         <zone xml:id="Varios_077_3_BT227_4_LT84_9" type="DefaultLine" subtype="none" points="227,1337 227,1289 543,1297 603,1285 605,1341 601,1357 223,1351 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_077_3/223,1285,382,72/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_077_3_BT227_4_LT84_9_1" points="227,1337 605,1341 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
+          <path xml:id="Varios_077_3_BT227_4_LT84_9_1" points="227,1337 605,1341 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
           <line>yo no sufro tanto</line>
         </zone>
         <zone xml:id="Varios_077_3_BT227_4_LT84_10" type="DefaultLine" subtype="none" points="225,1384 225,1337 582,1347 585,1392 582,1401 223,1401 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_077_3/223,1337,362,64/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_077_3_BT227_4_LT84_10_1" points="225,1384 585,1392 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
+          <path xml:id="Varios_077_3_BT227_4_LT84_10_1" points="225,1384 585,1392 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
           <line>ahora va formal,</line>
         </zone>
         <zone xml:id="Varios_077_3_BT227_4_LT84_11" type="DefaultLine" subtype="none" points="225,1436 223,1390 281,1380 281,1380 283,1380 568,1392 607,1382 609,1382 609,1382 611,1382 611,1382 611,1382 613,1382 613,1382 616,1382 636,1395 632,1440 628,1454 221,1450 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_077_3/221,1380,415,74/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_077_3_BT227_4_LT84_11_1" points="225,1436 632,1440 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
+          <path xml:id="Varios_077_3_BT227_4_LT84_11_1" points="225,1436 632,1440 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
           <line>pido un desengaño</line>
         </zone>
         <zone xml:id="Varios_077_3_BT227_4_LT84_12" type="DefaultLine" subtype="none" points="225,1479 225,1438 626,1448 628,1490 626,1510 469,1514 467,1514 221,1494 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_077_3/221,1438,407,76/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_077_3_BT227_4_LT84_12_1" points="225,1479 628,1490 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
+          <path xml:id="Varios_077_3_BT227_4_LT84_12_1" points="225,1479 628,1490 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
           <line>antes de marchar.</line>
         </zone>
       </zone>
       <zone xml:id="Varios_077_3_BT226_5" n="5" type="MainZone" subtype="none" points="207,1526 207,1609 649,1609 649,1526 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_077_3/207,1526,442,83/full/0/default" corresp="MainZone">
         <zone xml:id="Varios_077_3_BT226_5_LT84_1" type="DefaultLine" subtype="none" points="235,1574 235,1521 386,1523 390,1519 403,1508 403,1506 403,1506 405,1506 405,1506 405,1506 407,1506 407,1506 409,1506 465,1508 465,1508 465,1508 467,1508 467,1508 467,1508 469,1508 469,1508 469,1510 479,1519 479,1519 479,1519 489,1508 489,1508 491,1508 491,1508 491,1508 494,1508 494,1508 494,1508 496,1508 636,1519 636,1583 632,1591 231,1581 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_077_3/231,1506,405,85/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_077_3_BT226_5_LT84_1_1" points="235,1574 636,1583 " corresp=" &#10;                                                  DefaultLine"/>
+          <path xml:id="Varios_077_3_BT226_5_LT84_1_1" points="235,1574 636,1583 " corresp=" &#xA;                                                  DefaultLine"/>
           <line>Sétima del Galan.</line>
         </zone>
       </zone>
       <zone xml:id="Varios_077_3_BT227_6" n="6" type="MainZone" subtype="columns" points="126,1616 126,2246 688,2246 688,1616 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_077_3/126,1616,562,630/full/0/default" corresp="MainZone:columns">
         <zone xml:id="Varios_077_3_BT227_6_LT84_1" type="DefaultLine" subtype="none" points="148,1659 150,1595 202,1607 243,1599 258,1597 258,1597 258,1597 260,1597 260,1597 262,1597 262,1597 262,1597 268,1601 293,1614 324,1603 332,1601 334,1601 334,1601 334,1601 336,1601 336,1601 336,1601 339,1601 339,1601 339,1601 345,1603 365,1616 425,1607 454,1605 454,1605 456,1605 456,1605 458,1605 458,1605 458,1605 460,1605 460,1605 460,1607 465,1609 471,1616 483,1612 496,1607 498,1607 498,1607 498,1607 500,1607 671,1622 673,1669 669,1688 144,1669 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_077_3/144,1595,529,93/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_077_3_BT227_6_LT84_1_1" points="148,1659 673,1669 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
+          <path xml:id="Varios_077_3_BT227_6_LT84_1_1" points="148,1659 673,1669 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
           <line>El domingo á la mañana</line>
         </zone>
         <zone xml:id="Varios_077_3_BT227_6_LT84_2" type="DefaultLine" subtype="none" points="152,1705 152,1661 595,1676 595,1719 591,1731 148,1713 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_077_3/148,1661,447,70/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_077_3_BT227_6_LT84_2_1" points="152,1705 595,1719 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
+          <path xml:id="Varios_077_3_BT227_6_LT84_2_1" points="152,1705 595,1719 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
           <line>me afeité y me vestí,</line>
         </zone>
         <zone xml:id="Varios_077_3_BT227_6_LT84_3" type="DefaultLine" subtype="none" points="148,1756 148,1711 638,1721 638,1767 634,1783 144,1773 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_077_3/144,1711,494,72/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_077_3_BT227_6_LT84_3_1" points="148,1756 638,1767 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
+          <path xml:id="Varios_077_3_BT227_6_LT84_3_1" points="148,1756 638,1767 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
           <line>y á la casa de la dama</line>
         </zone>
         <zone xml:id="Varios_077_3_BT227_6_LT84_4" type="DefaultLine" subtype="none" points="155,1802 155,1760 644,1775 644,1816 640,1835 363,1820 345,1829 343,1831 343,1831 343,1831 341,1831 341,1831 341,1831 339,1831 339,1831 336,1831 336,1831 336,1831 334,1831 334,1829 318,1820 152,1824 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_077_3/152,1760,492,75/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_077_3_BT227_6_LT84_4_1" points="155,1802 644,1816 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
+          <path xml:id="Varios_077_3_BT227_6_LT84_4_1" points="155,1802 644,1816 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
           <line>muy presuroso me fui.</line>
         </zone>
         <zone xml:id="Varios_077_3_BT227_6_LT84_5" type="DefaultLine" subtype="none" points="219,1853 219,1810 562,1820 562,1864 558,1876 214,1864 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_077_3/214,1810,348,66/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_077_3_BT227_6_LT84_5_1" points="219,1853 562,1864 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
+          <path xml:id="Varios_077_3_BT227_6_LT84_5_1" points="219,1853 562,1864 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
           <line>Aquí, bien mio,</line>
         </zone>
         <zone xml:id="Varios_077_3_BT227_6_LT84_6" type="DefaultLine" subtype="none" points="217,1901 217,1857 541,1866 543,1909 539,1926 212,1911 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_077_3/212,1857,331,69/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_077_3_BT227_6_LT84_6_1" points="217,1901 543,1909 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
+          <path xml:id="Varios_077_3_BT227_6_LT84_6_1" points="217,1901 543,1909 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
           <line>ánjel hermoso:</line>
         </zone>
         <zone xml:id="Varios_077_3_BT227_6_LT84_7" type="DefaultLine" subtype="none" points="219,1948 219,1903 611,1917 611,1959 607,1965 214,1955 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_077_3/214,1903,397,62/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_077_3_BT227_6_LT84_7_1" points="219,1948 611,1959 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
+          <path xml:id="Varios_077_3_BT227_6_LT84_7_1" points="219,1948 611,1959 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
           <line>vengo á encontrar</line>
         </zone>
         <zone xml:id="Varios_077_3_BT227_6_LT84_8" type="DefaultLine" subtype="none" points="214,2000 214,1953 498,1953 498,2004 494,2023 210,2019 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_077_3/210,1953,288,70/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_077_3_BT227_6_LT84_8_1" points="214,2000 498,2004 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
+          <path xml:id="Varios_077_3_BT227_6_LT84_8_1" points="214,2000 498,2004 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
           <line>dulce reposo</line>
         </zone>
         <zone xml:id="Varios_077_3_BT227_6_LT84_9" type="DefaultLine" subtype="none" points="214,2050 214,2008 483,2012 483,2050 481,2064 212,2058 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_077_3/212,2008,271,56/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_077_3_BT227_6_LT84_9_1" points="214,2050 483,2050 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
+          <path xml:id="Varios_077_3_BT227_6_LT84_9_1" points="214,2050 483,2050 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
           <line>una semana</line>
         </zone>
         <zone xml:id="Varios_077_3_BT227_6_LT84_10" type="DefaultLine" subtype="none" points="217,2097 217,2050 345,2058 349,2056 357,2048 357,2048 359,2048 359,2048 359,2048 361,2048 361,2048 363,2048 456,2048 456,2048 456,2048 458,2048 458,2048 494,2062 491,2101 487,2110 212,2105 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_077_3/212,2048,282,62/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_077_3_BT227_6_LT84_10_1" points="217,2097 491,2101 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
+          <path xml:id="Varios_077_3_BT227_6_LT84_10_1" points="217,2097 491,2101 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
           <line>justa, cabal,</line>
         </zone>
         <zone xml:id="Varios_077_3_BT227_6_LT84_11" type="DefaultLine" subtype="none" points="221,2145 219,2105 287,2095 287,2095 289,2095 289,2095 289,2095 291,2095 291,2095 291,2095 293,2095 293,2095 299,2101 305,2105 341,2099 363,2097 363,2097 365,2097 365,2097 388,2099 500,2108 554,2093 558,2151 556,2157 219,2157 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_077_3/219,2093,339,64/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_077_3_BT227_6_LT84_11_1" points="221,2145 558,2151 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
+          <path xml:id="Varios_077_3_BT227_6_LT84_11_1" points="221,2145 558,2151 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
           <line>que vos señora</line>
         </zone>
         <zone xml:id="Varios_077_3_BT227_6_LT84_12" type="DefaultLine" subtype="none" points="214,2190 214,2149 589,2159 589,2201 589,2234 518,2258 516,2258 516,2258 516,2258 514,2258 427,2250 427,2250 425,2250 425,2250 425,2250 423,2250 423,2250 403,2234 403,2232 299,2229 291,2232 250,2250 250,2250 248,2250 248,2250 248,2250 245,2250 245,2250 243,2250 243,2250 243,2250 208,2232 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_077_3/208,2149,381,109/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_077_3_BT227_6_LT84_12_1" points="214,2190 589,2201 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
+          <path xml:id="Varios_077_3_BT227_6_LT84_12_1" points="214,2190 589,2201 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
           <line>me haceis penar.</line>
         </zone>
       </zone>
       <zone xml:id="Varios_077_3_BT226_7" n="7" type="MainZone" subtype="none" points="874,97 874,194 1392,194 1392,97 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_077_3/874,97,518,97/full/0/default" corresp="MainZone">
         <zone xml:id="Varios_077_3_BT226_7_LT84_1" type="DefaultLine" subtype="none" points="917,163 913,103 961,88 963,88 963,88 965,88 965,88 965,88 1054,105 1066,107 1068,105 1089,93 1091,93 1091,93 1091,93 1093,93 1093,93 1095,93 1095,93 1095,93 1097,93 1097,93 1099,93 1122,107 1128,111 1186,111 1190,109 1201,99 1201,97 1201,97 1203,97 1203,97 1203,97 1205,97 1205,97 1205,97 1273,95 1275,95 1275,95 1277,95 1277,95 1277,95 1279,95 1279,95 1279,97 1294,111 1298,113 1364,113 1366,173 1362,181 913,179 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_077_3/913,88,453,93/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_077_3_BT226_7_LT84_1_1" points="917,163 1366,173 " corresp=" &#10;                                                  DefaultLine"/>
+          <path xml:id="Varios_077_3_BT226_7_LT84_1_1" points="917,163 1366,173 " corresp=" &#xA;                                                  DefaultLine"/>
           <line>Respuesta de la Dama.</line>
         </zone>
       </zone>
       <zone xml:id="Varios_077_3_BT227_8" n="8" type="MainZone" subtype="columns" points="820,208 820,799 1488,801 1490,208 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_077_3/820,208,670,593/full/0/default" corresp="MainZone:columns">
         <zone xml:id="Varios_077_3_BT227_8_LT84_1" type="DefaultLine" subtype="none" points="847,254 847,165 1341,169 1343,258 1341,262 845,268 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_077_3/845,165,498,103/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_077_3_BT227_8_LT84_1_1" points="847,254 1343,258 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
+          <path xml:id="Varios_077_3_BT227_8_LT84_1_1" points="847,254 1343,258 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
           <line>¿No sabe V. caballero</line>
         </zone>
         <zone xml:id="Varios_077_3_BT227_8_LT84_2" type="DefaultLine" subtype="none" points="847,301 847,252 1455,262 1457,312 1453,324 843,316 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_077_3/843,252,614,72/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_077_3_BT227_8_LT84_2_1" points="847,301 1457,312 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
+          <path xml:id="Varios_077_3_BT227_8_LT84_2_1" points="847,301 1457,312 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
           <line>que los viérnes son aciagos,</line>
         </zone>
         <zone xml:id="Varios_077_3_BT227_8_LT84_3" type="DefaultLine" subtype="none" points="847,351 847,303 1455,314 1457,357 1453,376 1050,363 845,369 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_077_3/845,303,612,73/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_077_3_BT227_8_LT84_3_1" points="847,351 1457,357 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
+          <path xml:id="Varios_077_3_BT227_8_LT84_3_1" points="847,351 1457,357 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
           <line>y que ayunar nos comprende</line>
         </zone>
         <zone xml:id="Varios_077_3_BT227_8_LT84_4" type="DefaultLine" subtype="none" points="847,394 847,353 1358,361 1360,405 1356,425 1050,411 845,415 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_077_3/845,353,515,72/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_077_3_BT227_8_LT84_4_1" points="847,394 1360,405 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
+          <path xml:id="Varios_077_3_BT227_8_LT84_4_1" points="847,394 1360,405 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
           <line>comiendo solo pescado?</line>
         </zone>
         <zone xml:id="Varios_077_3_BT227_8_LT84_5" type="DefaultLine" subtype="none" points="915,444 915,396 1339,409 1341,450 1339,458 913,462 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_077_3/913,396,428,66/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_077_3_BT227_8_LT84_5_1" points="915,444 1341,450 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
+          <path xml:id="Varios_077_3_BT227_8_LT84_5_1" points="915,444 1341,450 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
           <line>Por hoy, hijo mio,</line>
         </zone>
         <zone xml:id="Varios_077_3_BT227_8_LT84_6" type="DefaultLine" subtype="none" points="915,493 915,448 1397,448 1399,498 1397,506 1182,516 1180,516 911,502 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_077_3/911,448,488,68/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_077_3_BT227_8_LT84_6_1" points="915,493 1399,498 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
+          <path xml:id="Varios_077_3_BT227_8_LT84_6_1" points="915,493 1399,498 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
           <line>me marcho y lo dejo</line>
         </zone>
         <zone xml:id="Varios_077_3_BT227_8_LT84_7" type="DefaultLine" subtype="none" points="917,541 917,489 1401,498 1401,547 1399,580 1310,580 1308,578 1308,578 1306,578 1306,578 1292,572 1252,555 1139,562 1068,566 1066,566 1066,566 1066,566 998,553 998,553 998,553 948,568 946,568 946,568 946,568 944,568 944,568 942,568 942,568 942,568 940,568 909,547 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_077_3/909,489,492,91/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_077_3_BT227_8_LT84_7_1" points="917,541 1401,547 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
+          <path xml:id="Varios_077_3_BT227_8_LT84_7_1" points="917,541 1401,547 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
           <line>que hoy solo se comen</line>
         </zone>
         <zone xml:id="Varios_077_3_BT227_8_LT84_8" type="DefaultLine" subtype="none" points="917,589 917,535 1302,543 1304,597 1300,613 913,599 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_077_3/913,535,391,78/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_077_3_BT227_8_LT84_8_1" points="917,589 1304,597 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
+          <path xml:id="Varios_077_3_BT227_8_LT84_8_1" points="917,589 1304,597 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
           <line>huevos y abadejo;</line>
         </zone>
         <zone xml:id="Varios_077_3_BT227_8_LT84_9" type="DefaultLine" subtype="none" points="917,638 917,593 1306,601 1306,644 1304,657 1052,665 1050,665 913,651 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_077_3/913,593,393,72/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_077_3_BT227_8_LT84_9_1" points="917,638 1306,644 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
+          <path xml:id="Varios_077_3_BT227_8_LT84_9_1" points="917,638 1306,644 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
           <line>vuelva V. mañana</line>
         </zone>
         <zone xml:id="Varios_077_3_BT227_8_LT84_10" type="DefaultLine" subtype="none" points="913,690 913,651 1188,651 1188,690 1188,700 913,702 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_077_3/913,651,275,51/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_077_3_BT227_8_LT84_10_1" points="913,690 1188,690 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
+          <path xml:id="Varios_077_3_BT227_8_LT84_10_1" points="913,690 1188,690 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
           <line>y créame V.</line>
         </zone>
         <zone xml:id="Varios_077_3_BT227_8_LT84_11" type="DefaultLine" subtype="none" points="911,735 911,694 938,694 940,692 952,682 952,679 952,679 955,679 955,679 955,679 957,679 957,679 959,679 959,679 959,679 961,679 961,679 963,679 963,679 963,682 975,692 979,696 1112,696 1312,684 1314,739 1310,746 907,744 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_077_3/907,679,407,67/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_077_3_BT227_8_LT84_11_1" points="911,735 1314,739 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
+          <path xml:id="Varios_077_3_BT227_8_LT84_11_1" points="911,735 1314,739 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
           <line>un poco mas tarde</line>
         </zone>
         <zone xml:id="Varios_077_3_BT227_8_LT84_12" type="DefaultLine" subtype="none" points="911,785 911,735 1246,737 1248,789 1244,806 1099,797 1091,806 1085,810 1085,812 1085,812 1083,812 1083,812 1083,812 1081,812 1081,812 1079,812 1025,810 1025,810 1025,810 1023,810 1023,810 1012,806 990,795 909,803 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_077_3/909,735,339,77/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_077_3_BT227_8_LT84_12_1" points="911,785 1248,789 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
+          <path xml:id="Varios_077_3_BT227_8_LT84_12_1" points="911,785 1248,789 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
           <line>del anochecer.</line>
         </zone>
       </zone>
       <zone xml:id="Varios_077_3_BT226_9" n="9" type="MainZone" subtype="none" points="867,831 874,907 1423,919 1418,836 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_077_3/867,831,556,88/full/0/default" corresp="MainZone">
         <zone xml:id="Varios_077_3_BT226_9_LT84_1" type="DefaultLine" subtype="none" points="907,876 907,824 1366,837 1366,884 1362,896 903,886 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_077_3/903,824,463,72/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_077_3_BT226_9_LT84_1_1" points="907,876 1366,884 " corresp=" &#10;                                                  DefaultLine"/>
+          <path xml:id="Varios_077_3_BT226_9_LT84_1_1" points="907,876 1366,884 " corresp=" &#xA;                                                  DefaultLine"/>
           <line>Respuesta de la Dama.</line>
         </zone>
       </zone>
       <zone xml:id="Varios_077_3_BT227_10" n="10" type="MainZone" subtype="columns" points="809,933 809,1514 1448,1514 1448,933 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_077_3/809,933,639,581/full/0/default" corresp="MainZone:columns">
         <zone xml:id="Varios_077_3_BT227_10_LT84_1" type="DefaultLine" subtype="none" points="835,963 835,894 899,894 899,894 899,894 901,894 901,894 901,894 903,894 903,894 903,896 907,899 924,913 996,907 996,907 996,907 998,907 998,907 1000,907 1000,907 1000,907 1039,921 1105,915 1182,907 1182,907 1184,907 1184,907 1186,907 1186,907 1186,907 1188,907 1213,923 1219,927 1285,930 1285,973 1281,983 831,981 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_077_3/831,894,454,89/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_077_3_BT227_10_LT84_1_1" points="835,963 1285,973 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
+          <path xml:id="Varios_077_3_BT227_10_LT84_1_1" points="835,963 1285,973 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
           <line>Es sábado caballero.</line>
         </zone>
         <zone xml:id="Varios_077_3_BT227_10_LT84_2" type="DefaultLine" subtype="none" points="837,1010 837,969 1391,975 1391,1025 1387,1041 833,1027 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_077_3/833,969,558,72/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_077_3_BT227_10_LT84_2_1" points="837,1010 1391,1025 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
+          <path xml:id="Varios_077_3_BT227_10_LT84_2_1" points="837,1010 1391,1025 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
           <line>y he de planchar y coser,</line>
         </zone>
         <zone xml:id="Varios_077_3_BT227_10_LT84_3" type="DefaultLine" subtype="none" points="839,1060 839,1016 1211,1023 1213,1066 1209,1076 835,1070 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_077_3/835,1016,378,60/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_077_3_BT227_10_LT84_3_1" points="839,1060 1213,1066 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
+          <path xml:id="Varios_077_3_BT227_10_LT84_3_1" points="839,1060 1213,1066 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
           <line>para salir á paséo</line>
         </zone>
         <zone xml:id="Varios_077_3_BT227_10_LT84_4" type="DefaultLine" subtype="none" points="841,1105 841,1058 1289,1072 1289,1116 1285,1136 837,1126 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_077_3/837,1058,452,78/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_077_3_BT227_10_LT84_4_1" points="841,1105 1289,1116 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
+          <path xml:id="Varios_077_3_BT227_10_LT84_4_1" points="841,1105 1289,1116 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
           <line>mañana al amanecer.</line>
         </zone>
         <zone xml:id="Varios_077_3_BT227_10_LT84_5" type="DefaultLine" subtype="none" points="915,1157 915,1113 1211,1120 1213,1163 1209,1175 911,1163 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_077_3/911,1113,302,62/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_077_3_BT227_10_LT84_5_1" points="915,1157 1213,1163 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
+          <path xml:id="Varios_077_3_BT227_10_LT84_5_1" points="915,1157 1213,1163 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
           <line>Si V. quisiera</line>
         </zone>
         <zone xml:id="Varios_077_3_BT227_10_LT84_6" type="DefaultLine" subtype="none" points="915,1206 915,1151 1234,1167 1234,1213 1229,1225 911,1215 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_077_3/911,1151,323,74/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_077_3_BT227_10_LT84_6_1" points="915,1206 1234,1213 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
+          <path xml:id="Varios_077_3_BT227_10_LT84_6_1" points="915,1206 1234,1213 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
           <line>venir conmigo</line>
         </zone>
         <zone xml:id="Varios_077_3_BT227_10_LT84_7" type="DefaultLine" subtype="none" points="917,1254 917,1211 1236,1221 1238,1260 1234,1268 913,1264 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_077_3/913,1211,325,57/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_077_3_BT227_10_LT84_7_1" points="917,1254 1238,1260 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
+          <path xml:id="Varios_077_3_BT227_10_LT84_7_1" points="917,1254 1238,1260 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
           <line>venga mañana</line>
         </zone>
         <zone xml:id="Varios_077_3_BT227_10_LT84_8" type="DefaultLine" subtype="none" points="915,1304 915,1250 979,1260 1029,1252 1033,1252 1033,1252 1035,1252 1035,1252 1035,1252 1037,1252 1037,1252 1037,1252 1037,1252 1039,1252 1039,1252 1039,1254 1041,1254 1048,1262 1201,1258 1203,1258 1203,1258 1203,1258 1205,1258 1205,1258 1205,1258 1207,1258 1207,1258 1219,1268 1269,1258 1271,1316 1267,1337 911,1316 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_077_3/911,1250,360,87/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_077_3_BT227_10_LT84_8_1" points="915,1304 1271,1316 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
+          <path xml:id="Varios_077_3_BT227_10_LT84_8_1" points="915,1304 1271,1316 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
           <line>bien lechuguino;</line>
         </zone>
         <zone xml:id="Varios_077_3_BT227_10_LT84_9" type="DefaultLine" subtype="none" points="917,1351 917,1299 1203,1318 1205,1359 1201,1378 913,1366 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_077_3/913,1299,292,79/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_077_3_BT227_10_LT84_9_1" points="917,1351 1205,1359 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
+          <path xml:id="Varios_077_3_BT227_10_LT84_9_1" points="917,1351 1205,1359 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
           <line>hoy hijo mio,</line>
         </zone>
         <zone xml:id="Varios_077_3_BT227_10_LT84_10" type="DefaultLine" subtype="none" points="917,1401 917,1351 1211,1361 1211,1409 1209,1419 915,1419 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_077_3/915,1351,296,68/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_077_3_BT227_10_LT84_10_1" points="917,1401 1211,1409 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
+          <path xml:id="Varios_077_3_BT227_10_LT84_10_1" points="917,1401 1211,1409 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
           <line>no puede ser</line>
         </zone>
         <zone xml:id="Varios_077_3_BT227_10_LT84_11" type="DefaultLine" subtype="none" points="921,1450 919,1409 1095,1403 1097,1403 1097,1403 1097,1403 1099,1403 1099,1403 1099,1403 1101,1403 1118,1415 1120,1417 1182,1417 1188,1417 1238,1407 1238,1407 1238,1407 1240,1407 1240,1407 1240,1407 1298,1421 1298,1463 1294,1469 917,1457 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_077_3/917,1403,381,66/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_077_3_BT227_10_LT84_11_1" points="921,1450 1298,1463 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
+          <path xml:id="Varios_077_3_BT227_10_LT84_11_1" points="921,1450 1298,1463 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
           <line>venga V. mañana</line>
         </zone>
         <zone xml:id="Varios_077_3_BT227_10_LT84_12" type="DefaultLine" subtype="none" points="919,1498 919,1444 1004,1461 1033,1452 1039,1450 1041,1450 1041,1450 1041,1450 1043,1450 1043,1450 1046,1450 1060,1454 1089,1463 1095,1457 1103,1450 1103,1450 1105,1450 1105,1450 1105,1450 1108,1450 1108,1450 1110,1450 1110,1450 1110,1450 1112,1450 1112,1450 1112,1450 1114,1450 1114,1450 1122,1459 1128,1465 1211,1467 1213,1506 1209,1527 915,1519 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_077_3/915,1444,298,83/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_077_3_BT227_10_LT84_12_1" points="919,1498 1213,1506 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
+          <path xml:id="Varios_077_3_BT227_10_LT84_12_1" points="919,1498 1213,1506 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
           <line>al amanecer.</line>
         </zone>
       </zone>
       <zone xml:id="Varios_077_3_BT226_11" n="11" type="MainZone" subtype="none" points="892,1551 892,1637 1376,1637 1376,1551 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_077_3/892,1551,484,86/full/0/default" corresp="MainZone">
         <zone xml:id="Varios_077_3_BT226_11_LT84_1" type="DefaultLine" subtype="none" points="911,1593 911,1535 1064,1552 1077,1543 1085,1537 1087,1537 1087,1537 1087,1537 1089,1537 1089,1537 1089,1537 1091,1537 1091,1537 1149,1547 1163,1550 1172,1550 1213,1539 1213,1539 1213,1539 1215,1539 1215,1539 1215,1539 1217,1539 1217,1539 1246,1554 1254,1558 1356,1560 1358,1605 1354,1614 907,1601 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_077_3/907,1535,451,79/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_077_3_BT226_11_LT84_1_1" points="911,1593 1358,1605 " corresp=" &#10;                                                  DefaultLine"/>
+          <path xml:id="Varios_077_3_BT226_11_LT84_1_1" points="911,1593 1358,1605 " corresp=" &#xA;                                                  DefaultLine"/>
           <line>Respuesta de la dama.</line>
         </zone>
       </zone>
       <zone xml:id="Varios_077_3_BT227_12" n="12" type="MainZone" subtype="columns" points="806,1632 806,2246 1450,2246 1450,1632 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_077_3/806,1632,644,614/full/0/default" corresp="MainZone:columns">
         <zone xml:id="Varios_077_3_BT227_12_LT84_1" type="DefaultLine" subtype="none" points="835,1676 833,1620 880,1614 880,1614 882,1614 882,1614 882,1614 884,1614 917,1624 932,1630 940,1626 1002,1597 1002,1597 1002,1597 1004,1597 1004,1597 1006,1597 1182,1601 1182,1601 1182,1601 1184,1601 1184,1601 1184,1601 1186,1601 1186,1601 1236,1647 1267,1651 1372,1690 1368,1709 831,1686 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_077_3/831,1597,541,112/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_077_3_BT227_12_LT84_1_1" points="835,1676 1372,1690 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
+          <path xml:id="Varios_077_3_BT227_12_LT84_1_1" points="835,1676 1372,1690 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
           <line>Es muy verdad caballero,</line>
         </zone>
         <zone xml:id="Varios_077_3_BT227_12_LT84_2" type="DefaultLine" subtype="none" points="835,1723 835,1680 1440,1696 1440,1742 1436,1762 831,1736 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_077_3/831,1680,609,82/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_077_3_BT227_12_LT84_2_1" points="835,1723 1440,1742 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
+          <path xml:id="Varios_077_3_BT227_12_LT84_2_1" points="835,1723 1440,1742 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
           <line>mas sepa que de los hombres</line>
         </zone>
         <zone xml:id="Varios_077_3_BT227_12_LT84_3" type="DefaultLine" subtype="none" points="835,1773 835,1729 1258,1742 1258,1785 1254,1802 831,1789 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_077_3/831,1729,427,73/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_077_3_BT227_12_LT84_3_1" points="835,1773 1258,1785 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
+          <path xml:id="Varios_077_3_BT227_12_LT84_3_1" points="835,1773 1258,1785 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
           <line>me fastidia su figura</line>
         </zone>
         <zone xml:id="Varios_077_3_BT227_12_LT84_4" type="DefaultLine" subtype="none" points="824,1812 824,1777 1442,1802 1444,1837 1440,1847 820,1831 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_077_3/,,,/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_077_3_BT227_12_LT84_4_1" points="825,1814 1445,1839 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
+          <path xml:id="Varios_077_3_BT227_12_LT84_4_1" points="825,1814 1445,1839 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
           <line>y aborrezco hasta sus nombre</line>
         </zone>
         <zone xml:id="Varios_077_3_BT227_12_LT84_5" type="DefaultLine" subtype="none" points="901,1872 901,1820 1277,1833 1279,1876 1277,1899 1091,1899 1089,1897 1089,1897 1087,1897 1087,1897 1087,1897 1085,1897 1074,1891 1068,1886 1033,1888 924,1895 921,1895 921,1895 921,1895 919,1895 919,1895 895,1882 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_077_3/895,1820,384,79/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_077_3_BT227_12_LT84_5_1" points="901,1872 1279,1876 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
+          <path xml:id="Varios_077_3_BT227_12_LT84_5_1" points="901,1872 1279,1876 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
           <line>Este es el motivo</line>
         </zone>
         <zone xml:id="Varios_077_3_BT227_12_LT84_6" type="DefaultLine" subtype="none" points="899,1922 899,1876 1401,1886 1401,1934 1397,1953 1292,1940 1256,1948 1246,1950 1244,1950 1244,1950 1242,1950 1242,1950 1215,1946 1147,1936 897,1936 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_077_3/897,1876,504,77/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_077_3_BT227_12_LT84_6_1" points="899,1922 1401,1934 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
+          <path xml:id="Varios_077_3_BT227_12_LT84_6_1" points="899,1922 1401,1934 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
           <line>por que me he burlado,</line>
         </zone>
         <zone xml:id="Varios_077_3_BT227_12_LT84_7" type="DefaultLine" subtype="none" points="899,1967 897,1926 975,1915 975,1915 977,1915 977,1915 979,1915 979,1915 979,1915 1002,1928 1004,1928 1006,1928 1046,1917 1048,1917 1048,1917 1050,1917 1050,1917 1050,1917 1052,1917 1052,1917 1081,1930 1083,1930 1089,1930 1157,1922 1157,1922 1159,1922 1159,1922 1219,1934 1221,1975 1219,1992 981,1992 979,1990 979,1990 895,1975 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_077_3/895,1915,326,77/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_077_3_BT227_12_LT84_7_1" points="899,1967 1221,1975 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
+          <path xml:id="Varios_077_3_BT227_12_LT84_7_1" points="899,1967 1221,1975 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
           <line>en V. de todos</line>
         </zone>
         <zone xml:id="Varios_077_3_BT227_12_LT84_8" type="DefaultLine" subtype="none" points="899,2019 899,1975 1271,1979 1271,2025 1267,2039 895,2031 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_077_3/895,1975,376,64/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_077_3_BT227_12_LT84_8_1" points="899,2019 1271,2025 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
+          <path xml:id="Varios_077_3_BT227_12_LT84_8_1" points="899,2019 1271,2025 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
           <line>y lo he alhagado:</line>
         </zone>
         <zone xml:id="Varios_077_3_BT227_12_LT84_9" type="DefaultLine" subtype="none" points="901,2072 901,2027 1292,2029 1292,2072 1292,2081 901,2089 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_077_3/901,2027,391,62/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_077_3_BT227_12_LT84_9_1" points="901,2072 1292,2072 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
+          <path xml:id="Varios_077_3_BT227_12_LT84_9_1" points="901,2072 1292,2072 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
           <line>y ya que acabado</line>
         </zone>
         <zone xml:id="Varios_077_3_BT227_12_LT84_10" type="DefaultLine" subtype="none" points="895,2114 895,2072 1310,2081 1310,2124 1306,2143 890,2132 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_077_3/890,2072,420,71/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_077_3_BT227_12_LT84_10_1" points="895,2114 1310,2124 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
+          <path xml:id="Varios_077_3_BT227_12_LT84_10_1" points="895,2114 1310,2124 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
           <line>está nuestro asunto,</line>
         </zone>
         <zone xml:id="Varios_077_3_BT227_12_LT84_11" type="DefaultLine" subtype="none" points="895,2163 895,2118 1252,2126 1254,2170 1250,2186 890,2172 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_077_3/890,2118,364,68/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_077_3_BT227_12_LT84_11_1" points="895,2163 1254,2170 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
+          <path xml:id="Varios_077_3_BT227_12_LT84_11_1" points="895,2163 1254,2170 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
           <line>salga V. de casa</line>
         </zone>
         <zone xml:id="Varios_077_3_BT227_12_LT84_12" type="DefaultLine" subtype="none" points="897,2209 897,2161 1310,2167 1310,2217 1308,2236 1188,2250 1188,2250 1186,2250 1186,2250 1184,2250 1134,2238 1108,2250 1108,2250 1108,2250 1105,2250 1105,2250 1103,2250 1103,2250 1103,2250 1101,2250 1101,2250 1099,2250 1099,2250 1099,2248 1087,2238 1074,2248 1074,2250 1074,2250 1072,2250 1072,2250 1072,2250 1070,2250 1070,2250 1070,2252 1012,2252 1010,2250 1010,2250 1008,2250 1008,2250 1008,2250 1006,2250 1006,2250 1006,2248 1004,2248 994,2236 994,2236 895,2236 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_077_3/895,2161,415,91/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_077_3_BT227_12_LT84_12_1" points="897,2209 1310,2217 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
+          <path xml:id="Varios_077_3_BT227_12_LT84_12_1" points="897,2209 1310,2217 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
           <line>márchese al punto.</line>
         </zone>
       </zone>
@@ -1222,341 +1227,339 @@
   <text>
     <body>
       <div>
-        <pb n="1" source="Varios_077_1.jpg" facs="fedora_Varios_077_1/full/full/0/default.jpg"/>
-        <head type="primer_titulo"><lb/>Sátira compuesta de la semana mal em- <lb/>pleada, que tuvo un
-                              Galan cortejando á <lb/>una Dama, para que tomen ejemplo los
-                              <lb/>mancebos y no se fien de faldillas.</head>
-        <div type="parte" n="1">
-          <head type="titulo_estrofa" rend="cursiva"><lb/>Primera del Galan.</head>
-          <lg>
-            <l>El lúnes desde la cama</l>
-            <l>al paséo me marché,</l>
-            <l>donde encontré una Dama</l>
-            <l>y le dije muy cortés.</l>
-            <l>Ola, señorita,</l>
-            <l>Dios la guarde á V.,</l>
-            <l>si quiere almorzar</l>
-            <l>la convidaré:</l>
-            <l>vamos á la fonda</l>
-            <l>donde le diré</l>
-            <l>cositas, muy lindas,</l>
-            <l>de mucho placer.</l>
-          </lg>
-        </div>
         <div>
-          <head type="titulo_estrofa" rend="cursiva"><lb/>Respuesta de la dama.</head>
-          <lg>
-            <l>Mucho aprecio caballero,</l>
-            <l>su fineza y cortesía:</l>
-            <l>yo iria de buena gana</l>
-            <l>si no fuera tan de dia.</l>
-            <l>Yo estimo mucho</l>
-            <l>tanta atencion,</l>
-            <l>porque conozco</l>
-            <l>su mucha aficion;</l>
-            <l>pero hijo mio,</l>
-            <l>hoy no puede ser;</l>
-            <l>vuelva V. mañana</l>
-            <l>al anochecer.</l>
-          </lg>
-          <pb n="2" source="Varios_077_2.jpg" facs="fedora_Varios_077_2/full/full/0/default.jpg"/>
-        </div>
-        <div>
-          <head type="titulo_estrofa" rend="cursiva"><lb/>Segunda del Galan</head>
-          <lg>
-            <l>El mártes muy animado</l>
-            <l>la oscuridad esperé;</l>
-            <l>me perfuméy bien planchado</l>
-            <l>al paseo me marché..</l>
-            <l>Allá se paseaba</l>
-            <l>con otra señora,</l>
-            <l>y con disimulo</l>
-            <l>la dije: ya eshora.</l>
-            <l>Yo soy señorita</l>
-            <l>el mismo de ayer,</l>
-            <l>que vengo á la cita</l>
-            <l>como dijo V.</l>
-          </lg>
-        </div>
-        <div>
-          <head type="titulo_estrofa" rend="cursiva"><lb/>Respuesta de la Dama.</head>
-          <lg>
-            <l>Tiene razon, caballero,</l>
-            <l>mas yo á chanza lo tomé:</l>
-            <l>toda vez que va de véras,</l>
-            <l>de véras yo le hablaré.</l>
-            <l>Haga V. una cosa</l>
-            <l>por bien parecer,</l>
-            <l>vuelva V. mañana</l>
-            <l>al anochecer:</l>
-            <l>no aqui, á mi casa,</l>
-            <l>donde sin ficcion,</l>
-            <l>le estaré esperando.</l>
-            <l>allá en el balcon.</l>
-          </lg>
-        </div>
-        <div>
-          <head type="titulo_estrofa" rend="cursiva"><lb/>Tercera det Galan.</head>
-          <lg>
-            <l>El miércoles, impaciente</l>
-            <l>hácia su calle me fuí,</l>
-            <l>en donde efectivamente</l>
-            <l>en su balcon yo la vi.</l>
-            <l>Ola, señorita,</l>
-            <l>Dios la guarde áV.</l>
-            <l>yo soy el de anoche</l>
-            <l>que la viene á ver:</l>
-            <l>vea yo esos ojos,</l>
-            <l>escuche su voz,</l>
-            <l>dísfrute un momento.</l>
-            <l>de su tierno amor.</l>
-          </lg>
-        </div>
-        <div>
-          <head type="titulo_estrofa" rend="cursiva"><lb/>Respuesta de la Dama.</head>
-          <lg>
-            <l>Es verdad, caballerito,</l>
-            <l>tiene V.razones mil;</l>
-            <l>mas hay un impedimento.</l>
-            <l>para que yo baje á abrir..</l>
-            <l>Porque mi madre</l>
-            <l>aun está dispierta,</l>
-            <l>me vijila mucho.</l>
-            <l>y siempre esta alerta:</l>
-            <l>una sola cosa</l>
-            <l>podria V. hacer,</l>
-            <l>que es volver mañana</l>
-            <l>al anochecer.</l>
-          </lg>
-        </div>
-        <div>
-          <head type="titulo_estrofa" rend="cursiva"><lb/>Cuarta del Galan.</head>
-          <lg>
-            <l>El juéves anochecido</l>
-            <l>hácia su casa marché</l>
-            <l>y encontré la puerta abierta</l>
-            <l>hácia arriba me colé.</l>
-            <l>Ay mi señorita,</l>
-            <l>ya llegó el dia</l>
-            <l>de entregarme á V.</l>
-            <l>con toda alegría:</l>
-            <l>esta es la ocasion.</l>
-            <l>de hacerme dichoso,</l>
-            <l>dando al corazon</l>
-            <l>un dulce reposo.</l>
-          </lg>
-        </div>
-        <div>
-          <head type="titulo_estrofa" rend="cursiva"><lb/>Respuesta de la Dama.</head>
-          <lg>
-            <l>Tate, tate, caballero,</l>
-            <l>no sea. tan descortes;</l>
-            <l>que mi padre esta en la sala.</l>
-            <l>y pudiera oir á Vm.</l>
-            <l>Esto es muy sensible</l>
-            <l>yo no se que hacer,</l>
-            <l>y le aprecio mucho</l>
-            <l>su aficion de V.</l>
-            <l>mas ya vé el apuro.</l>
-            <l>que no puede ser,</l>
-            <l>vuelva V. mañana</l>
-            <l>al anochecer.</l>
-          </lg>
-          <pb n="3" source="Varios_077_3.jpg" facs="fedora_Varios_077_3/full/full/0/default.jpg"/>
-        </div>
-        <div>
-          <head type="titulo_estrofa" rend="cursiva"><lb/>Quinta del Galan.</head>
-          <lg>
-            <l>Llegó el viérnes é impaciente</l>
-            <l>sin tener ya compasion,</l>
-            <l>le declaré impertinente</l>
-            <l>el fuego de mi pasion.</l>
-            <l>Esto es demasiado,</l>
-            <l>V. ya me engaña:</l>
-            <l>de mi V. se burla</l>
-            <l>con arte y con maña,</l>
-            <l>vaya señorita,</l>
-            <l>que no puede ser?</l>
-            <l>hoy que esta solita....</l>
-            <l>que vamos hacer?</l>
-          </lg>
-        </div>
-        <div>
-          <head type="titulo_estrofa" rend="cursiva"><lb/>Respuesta de la Dama.</head>
-          <lg>
-            <l>¿No sabe V. caballero</l>
-            <l>que los viérnes son aciagos,</l>
-            <l>y que ayunar nos comprende</l>
-            <l>comiendo solo pescado?</l>
-            <l>Por hoy, hijo mio,</l>
-            <l>me marcho y lo dejo</l>
-            <l>que hoy solo se comen</l>
-            <l>huevos y abadejo;</l>
-            <l>vuelva V. mañana</l>
-            <l>y créame V.</l>
-            <l>un poco mas tarde</l>
-            <l>del anochecer.</l>
-          </lg>
-        </div>
-        <div>
-          <head type="titulo_estrofa" rend="cursiva"><lb/>Sesta del Galon.</head>
-          <lg>
-            <l>En el sábado señores,</l>
-            <l>cansado ya de esperar</l>
-            <l>voy y con todo descaro.</l>
-            <l>de este modo quise hablar.</l>
-            <l>Toda una semana</l>
-            <l>hoy hace cabal,</l>
-            <l>que V. señorita</l>
-            <l>me hace penar;</l>
-            <l>yo no sufro tanto</l>
-            <l>ahora va formal,</l>
-            <l>pido un desengaño</l>
-            <l>antes de marchar.</l>
-          </lg>
-        </div>
-        <div>
-          <head type="titulo_estrofa" rend="cursiva"><lb/>Respuesta de la Dama.</head>
-          <lg>
-            <l>Es sábado caballero.</l>
-            <l>y he de planchar y coser,</l>
-            <l>para salir á paséo</l>
-            <l>mañana al amanecer.</l>
-            <l>Si V. quisiera</l>
-            <l>venir conmigo</l>
-            <l>venga mañana</l>
-            <l>bien lechuguino;</l>
-            <l>hoy hijo mio,</l>
-            <l>no puede ser</l>
-            <l>venga V. mañana</l>
-            <l>al amanecer.</l>
-          </lg>
-        </div>
-        <div>
-          <head type="titulo_estrofa" rend="cursiva"><lb/>Sétima del Galan.</head>
-          <lg>
-            <l>El domingo á la mañana</l>
-            <l>me afeité y me vestí,</l>
-            <l>y á la casa de la dama</l>
-            <l>muy presuroso me fui.</l>
-            <l>Aquí, bien mio,</l>
-            <l>ánjel hermoso:</l>
-            <l>vengo á encontrar</l>
-            <l>dulce reposo</l>
-            <l>una semana</l>
-            <l>justa, cabal,</l>
-            <l>que vos señora</l>
-            <l>me haceis penar.</l>
-          </lg>
-        </div>
-        <div>
-          <head type="titulo_estrofa" rend="cursiva"><lb/>Respuesta de la Dama.</head>
-          <lg>
-            <l>Es muy verdad caballero,</l>
-            <l>mas sepa que de los hombres</l>
-            <l>me fastidia su figura</l>
-            <l>y aborrezco hasta sus nombre</l>
-            <l>Este es el motivo</l>
-            <l>por que me he burlado,</l>
-            <l>en V. de todos</l>
-            <l>y lo he alhagado:</l>
-            <l>y ya que acabado</l>
-            <l>está nuestro asunto,</l>
-            <l>salga V. de casa</l>
-            <l>márchese al punto.</l>
-          </lg>
-          <pb n="4" source="Varios_077_4.jpg" facs="fedora_Varios_077_4/full/full/0/default.jpg"/>
-        </div>
-        <div type="parte" n="2">
-          <head type="titulo_parte"><lb/>TROBOS,<lb/>que el Galan cantó en desprecio<lb/>de la
-                                    Dama.</head>
+          <pb n="1" source="Varios_077_1.jpg" facs="varios/Varios_077_1.jpg/"/>
+
           <div>
-            <head type="titulo_trovo">TROBO 1°.</head>
+            <head type="primer_titulo"><lb/>Sátira compuesta de la semana mal em- <lb/>pleada, que
+              tuvo un Galan cortejando á <lb/>una Dama, para que tomen ejemplo los <lb/>mancebos y
+              no se fien de faldillas.</head>
+
             <lg>
-              <l>Al son de mi gran pandero,</l>
-              <l>A todo el mundo diré</l>
-              <l>Que eres la dama mas fiera</l>
-              <l>Retrato de Lucifer.</l>
+              <head type="titulo_estrofa" rend="cursiva"><lb/>Primera del Galan.</head>
+              <l>El <hi rend="cursiva">lúnes</hi> desde la cama</l>
+              <l>al paséo me marché,</l>
+              <l>donde encontré una Dama</l>
+              <l>y le dije muy cortés.</l>
+              <l>Ola, señorita,</l>
+              <l>Dios la guarde á V.,</l>
+              <l>si quiere almorzar</l>
+              <l>la convidaré:</l>
+              <l>vamos á la fonda</l>
+              <l>donde le diré</l>
+              <l>cositas, muy lindas,</l>
+              <l>de mucho placer.</l>
             </lg>
+
             <lg>
-              <l>1</l>
-              <l>Es tanto lo que te quiero</l>
-              <l>que voy á hacer un retablo,</l>
-              <l>donde a tu retrato fiero</l>
-              <l>voyá cantar con el diablo,</l>
-              <l>al son de mi gran pandero.</l>
+              <head type="titulo_estrofa" rend="cursiva"><lb/>Respuesta de la dama.</head>
+              <l>Mucho aprecio caballero,</l>
+              <l>su fineza y cortesía:</l>
+              <l>yo iria de buena gana</l>
+              <l>si no fuera tan de dia.</l>
+              <l>Yo estimo mucho</l>
+              <l>tanta atencion,</l>
+              <l>porque conozco</l>
+              <l>su mucha aficion;</l>
+              <l>pero hijo mio,</l>
+              <l>hoy no puede ser;</l>
+              <l>vuelva V. mañana</l>
+              <l>al anochecer.</l>
             </lg>
+
+            <pb n="2" source="Varios_077_2.jpg" facs="varios/Varios_077_2.jpg/"/>
+
             <lg>
-              <l>2</l>
-              <l>Tales cosas cantaré,</l>
-              <l>que haré reir á los hombres,</l>
-              <l>y todo lo que yo sé</l>
-              <l>de tí con sus propios nombres</l>
-              <l>á todo el mundo diré.</l>
+              <head type="titulo_estrofa" rend="cursiva"><lb/>Segunda del Galan</head>
+              <l>El <hi rend="cursiva">mártes</hi> muy animado</l>
+              <l>la oscuridad esperé;</l>
+              <l>me perfuméy bien planchado</l>
+              <l>al paseo me marché..</l>
+              <l>Allá se paseaba</l>
+              <l>con otra señora,</l>
+              <l>y con disimulo</l>
+              <l>la dije: ya eshora.</l>
+              <l>Yo soy señorita</l>
+              <l>el mismo de ayer,</l>
+              <l>que vengo á la cita</l>
+              <l>como dijo V.</l>
             </lg>
+
             <lg>
-              <l>3</l>
-              <l>Si algun hombre te quisiera,</l>
-              <l>sería por estar ciego;</l>
-              <l>pero cuando bien te viera</l>
-              <l>nos diria desde luego</l>
-              <l>que eres la mujer mas fiera.</l>
+              <head type="titulo_estrofa" rend="cursiva"><lb/>Respuesta de la Dama.</head>
+              <l>Tiene razon, caballero,</l>
+              <l>mas yo á chanza lo tomé:</l>
+              <l>toda vez que va de véras,</l>
+              <l>de véras yo le hablaré.</l>
+              <l>Haga V. una cosa</l>
+              <l>por bien parecer,</l>
+              <l>vuelva V. mañana</l>
+              <l>al anochecer:</l>
+              <l>no aqui, á mi casa,</l>
+              <l>donde sin ficcion,</l>
+              <l>le estaré esperando.</l>
+              <l>allá en el balcon.</l>
             </lg>
+
             <lg>
-              <l>4</l>
-              <l>Dime como puede ser</l>
-              <l>que te vea y no vomite,</l>
-              <l>cualquiera hombre ó mujer</l>
-              <l>y la pasion no le quite,</l>
-              <l>retrato de Lucifer.</l>
+              <head type="titulo_estrofa" rend="cursiva"><lb/>Tercera det Galan.</head>
+              <l>El <hi rend="cursiva">miércoles</hi>, impaciente</l>
+              <l>hácia su calle me fuí,</l>
+              <l>en donde efectivamente</l>
+              <l>en su balcon yo la vi.</l>
+              <l>Ola, señorita,</l>
+              <l>Dios la guarde áV.</l>
+              <l>yo soy el de anoche</l>
+              <l>que la viene á ver:</l>
+              <l>vea yo esos ojos,</l>
+              <l>escuche su voz,</l>
+              <l>dísfrute un momento.</l>
+              <l>de su tierno amor.</l>
+            </lg>
+
+            <lg>
+              <head type="titulo_estrofa" rend="cursiva"><lb/>Respuesta de la Dama.</head>
+              <l>Es verdad, caballerito,</l>
+              <l>tiene V.razones mil;</l>
+              <l>mas hay un impedimento.</l>
+              <l>para que yo baje á abrir..</l>
+              <l>Porque mi madre</l>
+              <l>aun está dispierta,</l>
+              <l>me vijila mucho.</l>
+              <l>y siempre esta alerta:</l>
+              <l>una sola cosa</l>
+              <l>podria V. hacer,</l>
+              <l>que es volver mañana</l>
+              <l>al anochecer.</l>
+            </lg>
+
+            <lg>
+              <head type="titulo_estrofa" rend="cursiva"><lb/>Cuarta del Galan.</head>
+              <l>El <hi rend="cursiva">juéves</hi> anochecido</l>
+              <l>hácia su casa marché</l>
+              <l>y encontré la puerta abierta</l>
+              <l>hácia arriba me colé.</l>
+              <l>Ay mi señorita,</l>
+              <l>ya llegó el dia</l>
+              <l>de entregarme á V.</l>
+              <l>con toda alegría:</l>
+              <l>esta es la ocasion.</l>
+              <l>de hacerme dichoso,</l>
+              <l>dando al corazon</l>
+              <l>un dulce reposo.</l>
+            </lg>
+
+            <lg>
+              <head type="titulo_estrofa" rend="cursiva"><lb/>Respuesta de la Dama.</head>
+              <l>Tate, tate, caballero,</l>
+              <l>no sea. tan descortes;</l>
+              <l>que mi padre esta en la sala.</l>
+              <l>y pudiera oir á Vm.</l>
+              <l>Esto es muy sensible</l>
+              <l>yo no se que hacer,</l>
+              <l>y le aprecio mucho</l>
+              <l>su aficion de V.</l>
+              <l>mas ya vé el apuro.</l>
+              <l>que no puede ser,</l>
+              <l>vuelva V. mañana</l>
+              <l>al anochecer.</l>
+            </lg>
+
+            <pb n="3" source="Varios_077_3.jpg" facs="varios/Varios_077_3.jpg/"/>
+
+            <lg>
+              <head type="titulo_estrofa" rend="cursiva"><lb/>Quinta del Galan.</head>
+              <l>Llegó el <hi rend="cursiva">viérnes</hi> é impaciente</l>
+              <l>sin tener ya compasion,</l>
+              <l>le declaré impertinente</l>
+              <l>el fuego de mi pasion.</l>
+              <l>Esto es demasiado,</l>
+              <l>V. ya me engaña:</l>
+              <l>de mi V. se burla</l>
+              <l>con arte y con maña,</l>
+              <l>vaya señorita,</l>
+              <l>que no puede ser?</l>
+              <l>hoy que esta solita....</l>
+              <l>que vamos hacer?</l>
+            </lg>
+
+            <lg>
+              <head type="titulo_estrofa" rend="cursiva"><lb/>Respuesta de la Dama.</head>
+              <l>¿No sabe V. caballero</l>
+              <l>que los viérnes son aciagos,</l>
+              <l>y que ayunar nos comprende</l>
+              <l>comiendo solo pescado?</l>
+              <l>Por hoy, hijo mio,</l>
+              <l>me marcho y lo dejo</l>
+              <l>que hoy solo se comen</l>
+              <l>huevos y abadejo;</l>
+              <l>vuelva V. mañana</l>
+              <l>y créame V.</l>
+              <l>un poco mas tarde</l>
+              <l>del anochecer.</l>
+            </lg>
+
+            <lg>
+              <head type="titulo_estrofa" rend="cursiva"><lb/>Sesta del Galon.</head>
+              <l>En el <hi rend="cursiva">sábado</hi> señores,</l>
+              <l>cansado ya de esperar</l>
+              <l>voy y con todo descaro.</l>
+              <l>de este modo quise hablar.</l>
+              <l>Toda una semana</l>
+              <l>hoy hace cabal,</l>
+              <l>que V. señorita</l>
+              <l>me hace penar;</l>
+              <l>yo no sufro tanto</l>
+              <l>ahora va formal,</l>
+              <l>pido un desengaño</l>
+              <l>antes de marchar.</l>
+            </lg>
+
+            <lg>
+              <head type="titulo_estrofa" rend="cursiva"><lb/>Respuesta de la Dama.</head>
+              <l>Es sábado caballero.</l>
+              <l>y he de planchar y coser,</l>
+              <l>para salir á paséo</l>
+              <l>mañana al amanecer.</l>
+              <l>Si V. quisiera</l>
+              <l>venir conmigo</l>
+              <l>venga mañana</l>
+              <l>bien lechuguino;</l>
+              <l>hoy hijo mio,</l>
+              <l>no puede ser</l>
+              <l>venga V. mañana</l>
+              <l>al amanecer.</l>
+            </lg>
+
+            <lg>
+              <head type="titulo_estrofa" rend="cursiva"><lb/>Sétima del Galan.</head>
+              <l>El <hi rend="cursiva">domingo</hi> á la mañana</l>
+              <l>me afeité y me vestí,</l>
+              <l>y á la casa de la dama</l>
+              <l>muy presuroso me fui.</l>
+              <l>Aquí, bien mio,</l>
+              <l>ánjel hermoso:</l>
+              <l>vengo á encontrar</l>
+              <l>dulce reposo</l>
+              <l>una semana</l>
+              <l>justa, cabal,</l>
+              <l>que vos señora</l>
+              <l>me haceis penar.</l>
+            </lg>
+
+            <lg>
+              <head type="titulo_estrofa" rend="cursiva"><lb/>Respuesta de la Dama.</head>
+              <l>Es muy verdad caballero,</l>
+              <l>mas sepa que de los hombres</l>
+              <l>me fastidia su figura</l>
+              <l>y aborrezco hasta sus nombre</l>
+              <l>Este es el motivo</l>
+              <l>por que me he burlado,</l>
+              <l>en V. de todos</l>
+              <l>y lo he alhagado:</l>
+              <l>y ya que acabado</l>
+              <l>está nuestro asunto,</l>
+              <l>salga V. de casa</l>
+              <l>márchese al punto.</l>
             </lg>
           </div>
-          <div>
-            <head type="titulo_trovo">TROBO 2°.</head>
-            <lg>
-              <l>Jóvenes estad alerta:</l>
-              <l>las mujeres despreciar;</l>
-              <l>no les fieis vuestro pecho</l>
-              <l>por que os querran engañar</l>
-            </lg>
-            <lg>
-              <l>1</l>
-              <l>En el balcon ó la puerta,</l>
-              <l>en la calle, en el paseo</l>
-              <l>es la mujer desenvuelta,</l>
-              <l>para engañar tu deseo</l>
-              <l>jóvenes estad alerta.</l>
-            </lg>
-            <lg>
-              <l>2</l>
-              <l>Nos manda la caridad</l>
-              <l>y la voluntad ordena,</l>
-              <l>que sin pasion ni piedad,</l>
-              <l>tanto si es mala ó buena,</l>
-              <l>las mujeres despreciar.</l>
-            </lg>
-            <lg>
-              <l>3</l>
-              <l>Y si sucede de hecho,</l>
-              <l>como puede suceder,</l>
-              <l>que se introduzca en el lecho</l>
-              <l>alguna hermosa mujer;</l>
-              <l>no le fieis vuestro pecho.</l>
-            </lg>
-            <lg>
-              <l>4</l>
-              <l>Al acabar de cantar,</l>
-              <l>con despecho y amargura,</l>
-              <l>mucho tengo de encargar</l>
-              <l>no os fieis de hermosuras</l>
-              <l>porque os querran engañar.</l>
-            </lg>
+
+          <div n="2">
+            <pb n="4" source="Varios_077_4.jpg" facs="varios/Varios_077_4.jpg/"/>
+            
+            <head type="titulo_parte"><lb/>TROBOS,<lb/>que el Galan cantó en desprecio<lb/>de la
+              Dama.</head>
+            
+            <div>
+              <head type="titulo_trovo">TROBO 1°.</head>
+              <lg>
+                <l>Al son de mi gran pandero,</l>
+                <l>A todo el mundo diré</l>
+                <l>Que eres la dama mas fiera</l>
+                <l>Retrato de Lucifer.</l>
+              </lg>
+              <lg>
+                <head type="titulo_estrofa">1</head>
+                <l>Es tanto lo que te quiero</l>
+                <l>que voy á hacer un retablo,</l>
+                <l>donde a tu retrato fiero</l>
+                <l>voyá cantar con el diablo,</l>
+                <l>al son de mi gran pandero.</l>
+              </lg>
+              <lg>
+                <head type="titulo_estrofa">2</head>
+                <l>Tales cosas cantaré,</l>
+                <l>que haré reir á los hombres,</l>
+                <l>y todo lo que yo sé</l>
+                <l>de tí con sus propios nombres</l>
+                <l>á todo el mundo diré.</l>
+              </lg>
+              <lg>
+                <head type="titulo_estrofa">3</head>
+                <l>Si algun hombre te quisiera,</l>
+                <l>sería por estar ciego;</l>
+                <l>pero cuando bien te viera</l>
+                <l>nos diria desde luego</l>
+                <l>que eres la mujer mas fiera.</l>
+              </lg>
+              <lg>
+                <head type="titulo_estrofa">4</head>
+                <l>Dime como puede ser</l>
+                <l>que te vea y no vomite,</l>
+                <l>cualquiera hombre ó mujer</l>
+                <l>y la pasion no le quite,</l>
+                <l>retrato de Lucifer.</l>
+              </lg>
+            </div>
+            
+            <div>
+              <head type="titulo_trovo">TROBO 2°.</head>
+              <lg>
+                <l>Jóvenes estad alerta:</l>
+                <l>las mujeres despreciar;</l>
+                <l>no les fieis vuestro pecho</l>
+                <l>por que os querran engañar</l>
+              </lg>
+              <lg>
+                <head type="titulo_estrofa">1</head>
+                <l>En el balcon ó la puerta,</l>
+                <l>en la calle, en el paseo</l>
+                <l>es la mujer desenvuelta,</l>
+                <l>para engañar tu deseo</l>
+                <l>jóvenes estad alerta.</l>
+              </lg>
+              <lg>
+                <head type="titulo_estrofa">2</head>
+                <l>Nos manda la caridad</l>
+                <l>y la voluntad ordena,</l>
+                <l>que sin pasion ni piedad,</l>
+                <l>tanto si es mala ó buena,</l>
+                <l>las mujeres despreciar.</l>
+              </lg>
+              <lg>
+                <head type="titulo_estrofa">3</head>
+                <l>Y si sucede de hecho,</l>
+                <l>como puede suceder,</l>
+                <l>que se introduzca en el lecho</l>
+                <l>alguna hermosa mujer;</l>
+                <l>no le fieis vuestro pecho.</l>
+              </lg>
+              <lg>
+                <head type="titulo_estrofa">4</head>
+                <l>Al acabar de cantar,</l>
+                <l>con despecho y amargura,</l>
+                <l>mucho tengo de encargar</l>
+                <l>no os fieis de hermosuras</l>
+                <l>porque os querran engañar.</l>
+              </lg>
+            </div>
+            
+            <trailer>FIN.</trailer>
           </div>
-          <trailer>FIN.</trailer>
         </div>
+        
         <div type="colofon">
-          <p><lb/>REUS: Tipografia de María Aléu é hijos. 1815. Es
-                                    propiedad.</p>
+          <p><lb/>REUS: <hi rend="cursiva">Tipografia de María Aléu é hijos</hi>. 1845. <hi rend="cursiva">Es propiedad</hi>.</p>
         </div>
       </div>
     </body>

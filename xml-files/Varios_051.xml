@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../Schema/oddPliego_varios.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:alto="http://www.loc.gov/standards/alto/ns-v4#" xml:id="Varios_051">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Varios_051">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -11,8 +11,7 @@
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <authority role="rightsHolder">Bibliothèque Universitaire de
-                            Genève</authority>
+        <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
         <availability status="restricted">
           <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
         </availability>
@@ -20,16 +19,18 @@
       <sourceDesc>
         <biblFull>
           <titleStmt>
-            <title type="titulo_completo">CANTARELLAS que's feren en lo en lo any 1709 en la magnifica cort de Porqueras ab ocasió del casament entre Botifiló y la Tia Cols, las queforen cantadas ab música y acompanyament obligat de figli.</title>
+            <title type="titulo_completo">CANTARELLAS que's feren en lo en lo any 1709 en la
+              magnifica cort de Porqueras ab ocasió del casament entre Botifiló y la Tia Cols, las
+              queforen cantadas ab música y acompanyament obligat de figli.</title>
             <title type="titulo_breve">CANTARELLAS</title>
           </titleStmt>
           <editionStmt>
             <p/>
           </editionStmt>
           <publicationStmt>
-            <publisher>[s.n]</publisher>
-            <pubPlace>[s.l]</pubPlace>
-            <date>[s.a]</date>
+            <publisher>[s.n.]</publisher>
+            <pubPlace>[s.l.]</pubPlace>
+            <date cert="low" when="1800-01-01">[s.a.]</date>
           </publicationStmt>
         </biblFull>
         <msDesc>
@@ -37,7 +38,8 @@
             <country>Suisse</country>
             <settlement>Genève</settlement>
             <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"/>
-                  </repository>
+            </repository>
+            <collection>Colección Varios</collection>
             <idno type="cote"/>
             <idno type="DOI">10.5281/zenodo.6557658</idno>
             <altIdentifier>
@@ -66,10 +68,12 @@
               </layoutDesc>
             </objectDesc>
             <decoDesc>
-              <summary n="1">Uno grabado (p.1) </summary>
+              <summary n="3">Tres grabados (p.1) </summary>
               <decoNote type="lista_grabados">
                 <list>
                   <item corresp="grabado_v_051_1.xml">grabado_v_051_1</item>
+                  <item corresp="grabado_v_051_2.xml">grabado_v_051_2</item>
+                  <item corresp="grabado_v_051_3.xml">grabado_v_051_3</item>
                 </list>
               </decoNote>
             </decoDesc>
@@ -85,18 +89,17 @@
     </fileDesc>
     <encodingDesc>
       <projectDesc>
-        <p>Este archivo fue creado en el marco del proyecto Desenrollando el
-                            Cordel/Démêler le cordel/Untangling the cordel, dirigido por la
-                            profesora Constance Carta de la Universidad de Ginebra, con el apoyo de
-                            la Fundación filantrópica Famille Sandoz-Monique de Meuron.</p>
+        <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+          cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la Universidad
+          de Ginebra, con el apoyo de la Fundación filantrópica Famille Sandoz-Monique de
+          Meuron.</p>
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR non corregido</p>
+          <p>OCR no corregido</p>
         </correction>
         <normalization>
-          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto
-                                original.</p>
+          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
         </normalization>
         <punctuation>
           <p>Se conserva la puntuación original.</p>
@@ -105,7 +108,7 @@
     </encodingDesc>
     <profileDesc>
       <langUsage>
-        <language ident="es">Español</language>
+        <language ident="ca">Catalán</language>
       </langUsage>
       <textClass>
         <keywords xml:base="http://datos.bne.es/tema/">
@@ -118,10 +121,11 @@
     </profileDesc>
     <revisionDesc>
       <change when="2022-06-01" who="#PJ">Création du fichier TEI P5 et encodage du corps du
-                        texte</change>
+        texte</change>
+<change when="2024-01-09" who="#EL">Add the IIIF links</change>
     </revisionDesc>
   </teiHeader>
-  <sourceDoc xml:id="automaticTranscription">
+  <facsimile><graphic url="varios/Varios_051_1.jpg/full/200,/0/default.jpg"/></facsimile><sourceDoc xml:id="automaticTranscription">
     <surface xml:id="Varios_051_1" type="page" cert="silver">
       <graphic url="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_051_1/full/full/0/default.jpg"/>
       <zone xml:id="Varios_051_1_BT223_1" n="1" type="CustomZone" subtype="title" points="1246,1528 605,1531 567,1525 581,1415 1232,1436 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_051_1/567,1415,679,116/full/0/default" corresp="CustomZone:title">
@@ -987,228 +991,230 @@
   <text>
     <body>
       <div>
-        <pb n="1" source="Varios_051_1.jpg" facs="fedora_Varios_051_1/full/full/0/default.jpg"/>
-        <head type="primer_titulo"><lb/>CANTARELLAS</head>
-        <head type="subtitulo_parte"><lb/>que 's feren en lo en lo any 1709 en la magnifica cort de Porque¬<lb/>ras ab ocasió del casament entre Botifiló y la Tia Cols, las que<lb/>foren cantadas ab música y acompanyament obligat de figli.</head>
-        <p><lb/>ARA NOVAMENT REIMPRESAS.</p>
-        <lg>
-          <l>Sent maçiças veritats</l>
+        <div>
+          <pb n="1" source="Varios_051_1.jpg" facs="varios/Varios_051_1.jpg/"/>
+          
+          <head type="primer_titulo"><lb/>CANTARELLAS</head>
+          <head type="subtitulo" rend="cursiva"><lb/>que 's feren en lo en lo any 1709 en la
+            magnifica cort de Porque¬<lb/>ras ab ocasió del casament entre Botifiló y la Tia Cols,
+            las que<lb/>foren cantadas ab música y acompanyament obligat de figli.</head>
+
+          <p><lb/>ARA NOVAMENT REIMPRESAS.</p>
+
+          <l rend="indent">Sent maçiças veritats</l>
           <l>Las bodas de 'n Botifló;</l>
-          <l>Ab desitj voldria jo</l>
+          <l rend="cursiva">Ab desitj voldria jo</l>
           <l>Serne un dels convidats.</l>
-          <l>Ha de haberhi gran convit</l>
+          <l rend="indent">Ha de haberhi gran convit</l>
           <l>Lo dia d' aquesta boda,</l>
           <l>Puig sortirá un plat de moda</l>
-        </lg>
-        <lg>
+
           <l>Ab cap y peus de mosquit:</l>
           <l>No hi faltarán escarbats</l>
           <l>D aquells que fan gran pudó.</l>
-          <l>De manxiulas de malalt</l>
+          <l rend="indent">De manxiulas de malalt</l>
           <l>Portarán las grossas bledas</l>
           <l>Las que servirán ben fredas</l>
           <l>A dins d' un tap de barral;</l>
-        </lg>
-        <pb n="2" source="Varios_051_2.jpg" facs="fedora_Varios_051_2/full/full/0/default.jpg"/>
-        <fw type="paginaNum">(2)</fw>
-        <lg>
+
+          <pb n="2" source="Varios_051_2.jpg" facs="varios/Varios_051_2.jpg/"/>
+          <fw type="paginaNum">(2)</fw>
+
           <l>Draps dels pels dels afeitats</l>
           <l>Servirán de toballó.</l>
-          <l>Trenta dos volquers ben bruts</l>
+          <l rend="indent">Trenta dos volquers ben bruts</l>
           <l>De criaturas cagonas</l>
           <l>Seràn estobanas bonas</l>
           <l>Per tenir 'ls morrus aixuts:</l>
           <l>Ja à la taula 'ls convidats</l>
           <l>Faràn pets à discreció.</l>
-          <l>En sopera de dos brochs,</l>
+          <l rend="indent">En sopera de dos brochs,</l>
           <l>Farán una sopa d' alls</l>
           <l>Composta d' alguns gargalls,</l>
           <l>Llaganyas, babas y mochs:</l>
           <l>Fideus que siguin jitats</l>
           <l>Per boca d' un borratxó.</l>
-          <l>Un platillo de patatas</l>
+          <l rend="indent">Un platillo de patatas</l>
           <l>Ab ungüen de contra-cas,</l>
           <l>Un poch de merda de nas,</l>
           <l>Tripas y potas de rata;</l>
           <l>Y dos gossos ben inflats</l>
           <l>Fets ab such de flicandó.</l>
-          <l>Munjetas ab tumors frets,</l>
+          <l rend="indent">Munjetas ab tumors frets,</l>
           <l>Munjetas ab llamparons,</l>
           <l>Grasoletas de sigrons</l>
           <l>Ab bruticia de blanqueix;</l>
           <l>Una truita d' ous cubats</l>
           <l>Feta ab talls de cagalló.</l>
-          <l>Ruda, malvas y morruts</l>
+          <l rend="indent">Ruda, malvas y morruts</l>
           <l>Cuits ab llágrimas de vells,</l>
           <l>Barrejadas ab cabells</l>
           <l>D' homes tinyosos y bruts:</l>
           <l>Pastanaga y naps rentats</l>
           <l>De peus bruts ab la suó.</l>
-          <l>Llimachs fregits ab arrós</l>
+          <l rend="indent">Llimachs fregits ab arrós</l>
           <l>Y un galapat escurxat</l>
           <l>Fet ab bolas d' escarbat</l>
           <l>Y ab algun rénech de gos;</l>
           <l>Ulls de poll ben estufats</l>
           <l>Cuits ab tela de moltó.</l>
-          <l>De connas de cansalada</l>
+          <l rend="indent">De connas de cansalada</l>
           <l>Pasarán las platas plenas,</l>
           <l>Fregadas per las morenas</l>
-        </lg>
-        <lg>
           <l>Y de sanch totas untadas;</l>
           <l>Dos floroncos reventats</l>
           <l>Y un bassí plé de mató.</l>
-          <l>L' escarola y l' enciám</l>
+          <l rend="indent">L' escarola y l' enciám</l>
           <l>S' amenirá ab xerigots,</l>
           <l>Y per conta de pabrots</l>
           <l>Ya tenen nafras de pam;</l>
           <l>Y bitxos ben mastagats</l>
           <l>Per boca d' un escorsó.</l>
-          <l>De moscas, pusas y polls</l>
+          <l rend="indent">De moscas, pusas y polls</l>
           <l>Faran una gelatina,</l>
           <l>Feta ab plomas de gallina,</l>
           <l>Llus pudrid, mocas de molls;</l>
           <l>Las xinxas per totas parts</l>
           <l>Farán la salsa milló.</l>
-          <l>No faltarán payelladas</l>
+          <l rend="indent">No faltarán payelladas</l>
           <l>De cuchs y de sangoneras</l>
           <l>Y ab oli de llumaneras</l>
           <l>S' amenirán las turradas;</l>
           <l>Ab los morrus ben untats</l>
           <l>Tothom se fará un pató.</l>
-          <l>Unglas per lo cul fregadas</l>
+          <l rend="indent">Unglas per lo cul fregadas</l>
           <l>Ab such de dintre la orella</l>
           <l>Y ab gotas de nas de vella</l>
           <l>Se 'n farán ensiamadas:</l>
           <l>Cuchs de bassa ben inflats</l>
           <l>Servirán de pastel bó.</l>
-          <l>De barbs un plat ben curull</l>
+          <l rend="indent">De barbs un plat ben curull</l>
           <l>Ab babayas de caball</l>
           <l>Juntas ab un vert gargall</l>
           <l>Farán á tots obrí l' ull:</l>
           <l>Dos pigas los invitats</l>
           <l>Lleparán ab afició.</l>
-          <l>Per ramillete farán</l>
+          <l rend="indent">Per ramillete farán</l>
           <l>De tifas una caldera</l>
           <l>Y ab una chocolatera</l>
           <l>Molta merda desfarán;</l>
           <l>Portarán després uns plats</l>
           <l>De bunyols de carreró.</l>
-          <l>Per postres presentarán</l>
+          <l rend="indent">Per postres presentarán</l>
           <l>Dragons pudrits sensa pell</l>
-        </lg>
-        <pb n="3" source="Varios_051_3.jpg" facs="fedora_Varios_051_3/full/full/0/default.jpg"/>
-        <fw type="paginaNum">(3)</fw>
-        <lg>
+
+          <pb n="3" source="Varios_051_3.jpg" facs="varios/Varios_051_3.jpg/"/>
+
+          <fw type="paginaNum">(3)</fw>
+
           <l>Ab una serp per turtell</l>
           <l>Y del canyet portarán</l>
           <l>Peus de matxo ben ferrats</l>
           <l>Ab picadas de pinyó.</l>
-          <l>Lo ví al darán aigualit,</l>
+          <l rend="indent">Lo ví al darán aigualit,</l>
           <l>Pero ni aurá en abundancia;</l>
           <l>Puig menjan tanta substancia</l>
           <l>Sé haurá de veurer seguit:</l>
           <l>Per aiguardent molts pixats</l>
           <l>Portarán ab un porró.</l>
-          <l>Perque res no fassi mal</l>
+          <l rend="indent">Perque res no fassi mal</l>
           <l>Portarán unas sardinas</l>
           <l>Guisadas ab cagarinas</l>
           <l>Dintre d' un gros orinal;</l>
           <l>Llargandaixos enllardats</l>
           <l>Ab boletas de sabó.</l>
-          <l>Allí tothom fumará;</l>
+          <l rend="indent">Allí tothom fumará;</l>
           <l>Mes á compte de cigarros</l>
           <l>Treurán caixons de cagarros;</l>
           <l>Y també s' ensumará</l>
           <l>Polvos de merda passats</l>
           <l>Que farán molt fina oló.</l>
-          <l>Magnifich será 'l café</l>
+          <l rend="indent">Magnifich será 'l café</l>
           <l>Que de Porqueras se ha dut;</l>
           <l>Puix se donará, lo engrut</l>
           <l>De un safreix de caca ple;</l>
           <l>¡Que n' estarán de estufats</l>
           <l>Al beurer tantapudó!</l>
-          <l>Dos ampollas de licors</l>
+          <l rend="indent">Dos ampollas de licors</l>
           <l>Al ultim se serviràn</l>
           <l>Las que compostas seràn</l>
           <l>De tripas de burros morts:</l>
           <l>Després ab lleviu dels plats</l>
           <l>Farán lo glopeix milló.</l>
-          <l>Los cuyners serán personas</l>
+          <l rend="indent">Los cuyners serán personas</l>
           <l>Plenas de ronya las mans,</l>
           <l>Tinya, llagas y brians</l>
           <l>Tots pelats com unas monas;</l>
           <l>Dos gitanos escaixats</l>
           <l>Ne farán de servidó.</l>
-          <l>Vestit de gran etiqueta</l>
-        </lg>
-        <lg>
+          <l rend="indent">Vestit de gran etiqueta</l>
           <l>Tothom se presentará,</l>
           <l>Ab bassina d' afeitá</l>
           <l>Y una grossa samarreta;</l>
           <l>Be Aurramueno ben calsats,</l>
           <l>Calsas curtas y mitjó.</l>
-          <l>Després farán gran sarau</l>
+          <l rend="indent">Després farán gran sarau</l>
           <l>Y tots los que ballarán</l>
           <l>Tantas baxinas farán</l>
           <l>Que 'l saló 's tornará blau;</l>
           <l>La quisca per totas parts</l>
           <l>Causará gran corrupció.</l>
-          <l>Las noyas estrenarán</l>
+          <l rend="indent">Las noyas estrenarán</l>
           <l>De forch d' alls una corona,</l>
           <l>Y una estora ben rodona</l>
           <l>Per fandillas portarán,</l>
           <l>Ab los cabells erisats</l>
           <l>Y un bucle á cada cantó.</l>
-          <l>De aranyas y de tranyinas</l>
+          <l rend="indent">De aranyas y de tranyinas</l>
           <l>Tot lo saló sera plé;</l>
           <l>Palmatorias de papé,</l>
           <l>Salamons de paperinas;</l>
           <l>Cuatre lluquets esbarlats</l>
           <l>Faran la illuminació.</l>
-          <l>La orquesta se compondrá</l>
+          <l rend="indent">La orquesta se compondrá</l>
           <l>D' un bombo y cuatre fautins,</l>
           <l>Y ab gibralletas d' orins</l>
           <l>La sala se regará;</l>
           <l>Padrissos endomascats</l>
           <l>Com los del escorxadó.</l>
-          <l>Borratxos que estarán tots</l>
+          <l rend="indent">Borratxos que estarán tots</l>
           <l>Tanta tabola farán</l>
           <l>Que la mitat gitarán</l>
           <l>En mitx de trenta mil rots,</l>
           <l>Així ben empastifats</l>
           <l>Dansarán un ball rodó.</l>
-          <l>Després de la chocolata</l>
+          <l rend="indent">Després de la chocolata</l>
           <l>Servirán una beguda</l>
           <l>Feta ab aigua de la puda</l>
           <l>Y de sola de sabata;</l>
           <l>Per sucre traurán uns plats</l>
           <l>Plens de trossus de carbó.</l>
-        </lg>
-        <pb n="4" source="Varios_051_4.jpg" facs="fedora_Varios_051_4/full/full/0/default.jpg"/>
-        <fw type="paginaNum">(4)</fw>
-        <lg>
-          <l>Portarán en lloch de nata</l>
+
+          <pb n="4" source="Varios_051_4.jpg" facs="varios/Varios_051_4.jpg/"/>
+
+          <fw type="paginaNum">(4)</fw>
+
+          <l rend="indent">Portarán en lloch de nata</l>
           <l>Una cagarada grassa,</l>
           <l>Demunt del tap de la bassa</l>
           <l>Que servirá de safata;</l>
           <l>Dos bits de bou ensucrats</l>
           <l>Ab such d' algun panalló.</l>
-          <l>Y finalment tots los bous</l>
+          <l rend="indent">Y finalment tots los bous</l>
           <l>Sen demá del casament</l>
-        </lg>
-        <lg>
           <l>Farán corrida de gent,</l>
           <l>L' entrada será á sis sous;</l>
           <l>Los novis ben embolats</l>
           <l>Lluirán bé la funció.</l>
-          <l>De merda condecorats</l>
+          <l rend="indent">De merda condecorats</l>
           <l>Portarán tots lo Toysó;</l>
-          <l>Ab molt gust volaria jo</l>
+          <l rend="cursiva">Ab molt gust volaria jo</l>
           <l>Serne un dels convidata.</l>
-        </lg>
+        </div>
+
         <div type="colofon">
-          <p><lb/>Islas Baconas: imprenta de la Tia Caga, viuda del onclu Piptí, carrer dels Llorus Muts, num. 100, cantonada.</p>
+          <p rend="cursiva"><lb/>Islas Baconas: imprenta de la Tia Caga, viuda del onclu Piptí,
+            carrer dels Llorus Muts, num. 100, cantonada.</p>
         </div>
       </div>
     </body>

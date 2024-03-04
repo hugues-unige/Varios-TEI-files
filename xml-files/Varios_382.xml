@@ -29,9 +29,9 @@
             <p/>
           </editionStmt>
           <publicationStmt>
-            <publisher>Imps. de Antonio Llorens</publisher>
+            <publisher>Antonio Llorens</publisher>
             <pubPlace ref="https://www.geonames.org/3111933/reus.html">Reus</pubPlace>
-            <date>[s.a]</date>
+            <date cert="low" when="1800-01-01">[s.a.]</date>
           </publicationStmt>
         </biblFull>
         <msDesc>
@@ -40,6 +40,7 @@
             <settlement>Genève</settlement>
             <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"/>
                                     </repository>
+            <collection>Colección Varios</collection>
             <idno type="cote"/>
             <idno type="DOI">10.5281/zenodo.6783743</idno>
             <altIdentifier>
@@ -68,7 +69,7 @@
               </layoutDesc>
             </objectDesc>
             <decoDesc>
-              <summary n="1">Uno grabado (p.1) </summary>
+              <summary n="1">Un grabado (p.1) </summary>
               <decoNote type="lista_grabados">
                 <list>
                   <item corresp="grabado_v_382_1.xml">grabado_v_382_1</item>
@@ -100,7 +101,7 @@
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR non corregido</p>
+          <p>OCR no corregido</p>
         </correction>
         <normalization>
           <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto
@@ -128,9 +129,10 @@
     <revisionDesc>
       <change when="2023-12-11" who="#PJ">Création du fichier TEI P5 et encodage du
                         corps du texte</change>
+<change when="2024-01-09" who="#EL">Add the IIIF links</change>
     </revisionDesc>
   </teiHeader>
-  <sourceDoc xml:id="automaticTranscription">
+  <facsimile><graphic url="varios/Varios_382_1.jpg/full/200,/0/default.jpg"/></facsimile><sourceDoc xml:id="automaticTranscription">
     <surface xml:id="Varios_382_1" type="page" cert="silver">
       <graphic url="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_382_1/full/full/0/default.jpg"/>
       <zone xml:id="Varios_382_1_BT223_1" n="1" type="CustomZone" subtype="title" points="1665,1468 1665,1796 113,1796 113,1468 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_382_1/113,1468,1552,328/full/0/default" corresp="CustomZone:title">
@@ -1446,7 +1448,7 @@
   <text>
     <body>
       <div>
-        <pb n="1" source="Varios_382_1.jpg" facs="fedora_Varios_382_1/full/full/0/default.jpg"/>
+        <pb n="1" source="Varios_382_1.jpg" facs="varios/Varios_382_1.jpg/"/>
         <div type="parte" n="1">
           <head type="primer_titulo"><lb/>JUAN PORTELA</head>
           <head type="subtitulo_parte" rend="negrita"><lb/>Relación puesta en
@@ -1487,7 +1489,7 @@
             <l>Cuya causa me llevó</l>
             <l rend="cursiva">A la gran Sierra-Morena.</l>
           </lg>
-          <pb n="2" source="Varios_382_2.jpg" facs="fedora_Varios_382_2/full/full/0/default.jpg"/>
+          <pb n="2" source="Varios_382_2.jpg" facs="varios/Varios_382_2.jpg/"/>
           <lg>
             <l>Lloraba de noche y dia</l>
             <l>Siempre por una mujer,</l>
@@ -1625,7 +1627,7 @@
             <l rend="cursiva">Y metiéndole la espuela.</l>
           </lg>
         </div>
-        <pb n="3" source="Varios_382_3.jpg" facs="fedora_Varios_382_3/full/full/0/default.jpg"/>
+        <pb n="3" source="Varios_382_3.jpg" facs="varios/Varios_382_3.jpg/"/>
         <div type="parte" n="2">
           <head type="titulo_parte" rend="negrita"><lb/>JUAN PORTELA</head>
           <head type="subtitulo_parte"><lb/>SEGUNDA PARTE EN DÉCIMAS
@@ -1744,7 +1746,7 @@
             <l>Las fuerzas me faltan ya</l>
             <l rend="cursiva">Del cielo baje el perdon.</l>
           </lg>
-          <pb n="4" source="Varios_382_4.jpg" facs="fedora_Varios_382_4/full/full/0/default.jpg"/>
+          <pb n="4" source="Varios_382_4.jpg" facs="varios/Varios_382_4.jpg/"/>
           <lg>
             <l>La sangre que derramaba</l>
             <l>Me cubria el corazón,</l>

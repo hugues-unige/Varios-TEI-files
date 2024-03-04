@@ -1,18 +1,17 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../Schema/oddPliego_varios.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:alto="http://www.loc.gov/standards/alto/ns-v4#" xml:id="Varios_050">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Varios_050">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>CANCIONES DE LA VUELTA AL MUNDO.</title>
+        <title>CANCIONES DE LA VUELTA AL MUNDO</title>
         <respStmt>
           <name/>
           <resp>Codificación TEI</resp>
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <authority role="rightsHolder">Bibliothèque Universitaire de
-                              Genève</authority>
+        <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
         <availability status="restricted">
           <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
         </availability>
@@ -20,17 +19,16 @@
       <sourceDesc>
         <biblFull>
           <titleStmt>
-            <title type="titulo_completo">CANCIONES DE LA VUELTA AL
-                                          MUNDO.</title>
+            <title type="titulo_completo">CANCIONES DE LA VUELTA AL MUNDO.</title>
             <title type="titulo_breve"/>
           </titleStmt>
           <editionStmt>
             <p/>
           </editionStmt>
           <publicationStmt>
-            <publisher>los sucesores de Antonio Bosch</publisher>
-            <pubPlace ref="https://www.geonames.org/3128760/barcelona.html">Barcelona, Bou de la Plaza Nueva, 13</pubPlace>
-            <date/>
+            <publisher>Sucesores de A. Bosch</publisher>
+            <pubPlace ref="https://www.geonames.org/3128760/barcelona.html">Barcelona</pubPlace>
+            <date when="1800-01-01" cert="low">[s.a.]</date>
           </publicationStmt>
         </biblFull>
         <msDesc>
@@ -38,7 +36,8 @@
             <country>Suisse</country>
             <settlement>Genève</settlement>
             <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"/>
-                                    </repository>
+            </repository>
+            <collection>Colección Varios</collection>
             <idno type="cote"/>
             <idno type="DOI">10.5281/zenodo.6556246</idno>
             <altIdentifier>
@@ -46,10 +45,26 @@
             </altIdentifier>
           </msIdentifier>
           <msContents>
-            <summary/>
+            <summary>Cinco canciones</summary>
             <msItem>
-              <locus/>
-              <title/>
+              <locus>1-2</locus>
+              <title>Canciones de la vuelta al mundo.</title>
+            </msItem>
+            <msItem>
+              <locus>3</locus>
+              <title>Seguidillas.</title>
+            </msItem>
+            <msItem>
+              <locus>3-4</locus>
+              <title>Canciones del inglés.</title>
+            </msItem>
+            <msItem>
+              <locus>4</locus>
+              <title>Tango de los negros. Del cuarto acto</title>
+            </msItem>
+            <msItem>
+              <locus>4</locus>
+              <title>Jota de la flor de Aragón</title>
             </msItem>
           </msContents>
           <physDesc>
@@ -67,7 +82,7 @@
               </layoutDesc>
             </objectDesc>
             <decoDesc>
-              <summary n="1">Uno grabado (p.1) </summary>
+              <summary n="1">Un grabado (p.1) </summary>
               <decoNote type="lista_grabados">
                 <list>
                   <item corresp="grabado_v_050_1.xml">grabado_v_050_1</item>
@@ -78,8 +93,7 @@
           </physDesc>
           <history>
             <origin>
-              <p>Los sucesores de Antonio Bosch, Bou de la Plaza Nueva,
-                                                13</p>
+              <p>Los sucesores de Antonio Bosch, Bou de la Plaza Nueva, 13</p>
             </origin>
             <provenance/>
             <acquisition/>
@@ -89,18 +103,17 @@
     </fileDesc>
     <encodingDesc>
       <projectDesc>
-        <p>Este archivo fue creado en el marco del proyecto Desenrollando el
-                              Cordel/Démêler le cordel/Untangling the cordel, dirigido por la
-                              profesora Constance Carta de la Universidad de Ginebra, con el apoyo
-                              de la Fundación filantrópica Famille Sandoz-Monique de Meuron.</p>
+        <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+          cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la Universidad
+          de Ginebra, con el apoyo de la Fundación filantrópica Famille Sandoz-Monique de
+          Meuron.</p>
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR non corregido</p>
+          <p>OCR no corregido</p>
         </correction>
         <normalization>
-          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto
-                                    original.</p>
+          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
         </normalization>
         <punctuation>
           <p>Se conserva la puntuación original.</p>
@@ -121,11 +134,12 @@
       </textClass>
     </profileDesc>
     <revisionDesc>
-      <change when="2022-05-15" who="#PJ">Création du fichier TEI P5 et encodage du
-                        corps du texte</change>
+      <change when="2022-05-15" who="#PJ">Création du fichier TEI P5 et encodage du corps du
+        texte</change>
+<change when="2024-01-09" who="#EL">Add the IIIF links</change>
     </revisionDesc>
   </teiHeader>
-  <sourceDoc xml:id="automaticTranscription">
+  <facsimile><graphic url="varios/Varios_050_1.jpg/full/200,/0/default.jpg"/></facsimile><sourceDoc xml:id="automaticTranscription">
     <surface xml:id="Varios_050_1" type="page" cert="silver">
       <graphic url="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_050_1/full/full/0/default.jpg"/>
       <zone xml:id="Varios_050_1_BT223_1" n="1" type="CustomZone" subtype="title" points="1419,1384 1498,1428 1533,1540 1436,1575 997,1601 210,1575 140,1496 131,1349 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_050_1/131,1349,1402,252/full/0/default" corresp="CustomZone:title">
@@ -1596,175 +1610,192 @@
   <text>
     <body>
       <div>
-        <pb n="1" source="Varios_050_1.jpg" facs="fedora_Varios_050_1/full/full/0/default.jpg"/>
-        <div n="1" type="parte">
-          <head type="primer_titulo"><lb/>CANCIONES DE LA VUELTA AL MUNDO.</head>
-          <lg>
-            <l>I.</l>
-            <l>Por correr tras la galera</l>
-            <l>donde viene un gran bribón</l>
-            <l>yó monté en la carretera</l>
-            <l>este burro matalón.</l>
-            <l>Una moza en otro burro</l>
-            <l>vino al lado por mi mal,</l>
-            <l>y de balde nos han dado</l>
-            <l>un concierto matinal.</l>
-            <l>Uno ejecutaba</l>
-            <l>todo el canto llano,</l>
-            <l>y otro el repertorio</l>
-            <l>Iírico italiano.</l>
-            <l>Miren que bonita</l>
-            <l>vocalización</l>
-            <l>i... ó... i... ó...</l>
-            <l>para dar concierto</l>
-            <l>en la exposición.</l>
-          </lg>
-          <lg>
-            <l>2.ª</l>
-            <l>Como soy de policía</l>
-            <l>y este burro es de un ladrón,</l>
-            <l>al mirar la cara mia</l>
-            <l>se ha escamado el muy bribón.</l>
-            <l>Si le toco, tira coces:</l>
-            <l>si le pego, echa á correr;</l>
-            <l>y ya traigo cien ampallas</l>
-            <l>en el sitio que yo sé.</l>
-            <l>Pero nada siento</l>
-            <l>como el canto indíno</l>
-            <l>de este malhadado</l>
-            <l>burro partiquino.</l>
-            <l>Miren que bonita</l>
-            <l>vocalización</l>
-            <l>i... ó... i... ó...</l>
-            <l>para dar conciertos</l>
-            <l>en la exposición.</l>
-          </lg>
-          <pb n="2" source="Varios_050_2.jpg" facs="fedora_Varios_050_2/full/full/0/default.jpg"/>
-          <fw type="paginaNum">-2-</fw>
-          <lg>
-            <l>3.ª</l>
-            <l>Hace ya bastantes noches</l>
-            <l>que este maldito animal</l>
-            <l>nos está engañando á todos</l>
-            <l>con intento criminal.</l>
-            <l>Yo observaba que al decirle</l>
-            <l>arre burro, con furor</l>
-            <l>meneaba las orejas</l>
-            <l>como diciendo que nó.</l>
-            <l>Cuando yo mas veces</l>
-            <l>burro le decía,</l>
-            <l>alzaba la cola</l>
-            <l>y se sonreia,</l>
-            <l>hasta que me dijo</l>
-            <l>uno de Jaen:</l>
-            <l>no es burro, que es burra,</l>
-            <l>mírelo usted bien.</l>
-          </lg>
-          <lg>
-            <l>4.ª</l>
-            <l>Esta noche mi jumento</l>
-            <l>me dió un susto colosal,</l>
-            <l>que por mas que lo buscaba</l>
-            <l>no lo podia encontrar.</l>
-            <l>Ya estaba decidido</l>
-            <l>á cantaros esto á pié:</l>
-            <l>cuando el traspunte ha venido</l>
-            <l>y me ha dicho lo encontré.</l>
-            <l>Y donde, señores.</l>
-            <l>pensar que estaría</l>
-            <l>este condenado,</l>
-            <l>nadie lo creería.</l>
-            <l>Pues lo han encontrado,</l>
-            <l>á fé de Bonell</l>
-            <l>jè... jé... jé... jé...</l>
-            <l>mirando la falla</l>
-            <l>de mosen Sorell.</l>
-          </lg>
-          <lg>
-            <l>5.ª</l>
-            <l>Esta noche mi borrico,</l>
-            <l>un poco antes de empezar,</l>
-            <l>como si quisiera hablarme</l>
-            <l>me miraba al rebuznar.</l>
-            <l>Como entiendo su lenguaje</l>
-            <l>al instante comprendí</l>
-            <l>que una cosa de importancia</l>
-            <l>me tenia que decir.</l>
-            <l>Apliqué el oido,</l>
-            <l>pero con cuidado,</l>
-            <l>por si me quería</l>
-            <l>tirar un bocado.</l>
-            <l>Hasta que me dijo</l>
-            <l>con rebuzno atroz,</l>
-            <l>i... ó... i... ó...</l>
-            <l>si usted fuera burro,</l>
-            <l>misté que rediós.</l>
-          </lg>
-          <lg>
-            <l>6.ª</l>
-            <l>Este pobre animalito</l>
-            <l>al pasar por los Porchets</l>
-            <l>ha llevado tan gran susto</l>
-            <l>que esplicaros no lo sé.</l>
-            <l>lba al paso muy tranquilo</l>
-            <l>y comienza á vocear,</l>
-            <l>y á pegar tantos relinchos</l>
-            <l>que me tuve que apear,</l>
-            <l>Que el albéitar viene</l>
-            <l>se encuentra convulso.</l>
-            <l>y le toma el pulso,</l>
-            <l>Le coje la mano</l>
-            <l>y al abrir la boca</l>
-            <l>un cochete salió</l>
-            <l>i...ó... i...ó...</l>
-            <l>figúrense ustedes</l>
-            <l>por donde le entró.</l>
-          </lg>
-          <lg>
-            <l>7.ª</l>
-            <l>Me decia este borrico</l>
-            <l>en el camino mire usted,</l>
-            <l>yo cabecilla carlista</l>
-            <l>es lo que quisiera ser.</l>
-            <l>Comen bien, beben buen vino,</l>
-            <l>cobran la contribución,</l>
-            <l>se embolsan luego los cuartos</l>
-            <l>y viva la religión.</l>
-            <l>Cuando yá son ricos</l>
-            <l>sueltan el fusil</l>
-            <l>y se van á Francia</l>
-            <l>en ferro-carril</l>
-            <l>Y dicen á Carlos</l>
-            <l>cuando allí se ven</l>
-            <l>i... ó... i... ó...</l>
-            <l>mande usted á otros</l>
-            <l>que yo ya chupé.</l>
-          </lg>
-          <lg>
-            <l>8.ª</l>
-            <l>Este burro, que allá en Lóndres</l>
-            <l>el comprí despues ahir,</l>
-            <l>es un burro de gran mérit</l>
-            <l>per lo atent y cumplit.</l>
-            <l>M' han contat que 'l altre día</l>
-            <l>s' encontraba en la estació</l>
-            <l>y que al vore que D. Carlos</l>
-            <l>baixaba de xaringló</l>
-            <l>adresá la orella,</l>
-            <l>alsá un poch lo rabo,</l>
-            <l>obrí un pam la boca,</l>
-            <l>y ab molt desperpajo</l>
-            <l>axina els honors: í, ó, í,</l>
-            <l>que entre compañeros</l>
-            <l>no es pot fer millor.</l>
-          </lg>
-          <pb n="3" source="Varios_050_3.jpg" facs="fedora_Varios_050_3/full/full/0/default.jpg"/>
-          <fw type="paginaNum">-3-</fw>
-          <div>
+        <div>
+          <pb n="1" source="Varios_050_1.jpg" facs="varios/Varios_050_1.jpg/"/>
+
+          <div n="1">
+            <head type="primer_titulo"><lb/>CANCIONES DE LA VUELTA AL MUNDO.</head>
+
+            <lg n="1">
+              <head type="titulo_estrofa">I.</head>
+              <l rend="indent">Por correr tras la galera</l>
+              <l>donde viene un gran bribón</l>
+              <l>yó monté en la carretera</l>
+              <l>este burro matalón.</l>
+              <l rend="indent">Una moza en otro burro</l>
+              <l>vino al lado por mi mal,</l>
+              <l>y de balde nos han dado</l>
+              <l>un concierto matinal.</l>
+              <l rend="indent">Uno ejecutaba</l>
+              <l>todo el canto llano,</l>
+              <l>y otro el repertorio</l>
+              <l>Iírico italiano.</l>
+              <l>Miren que bonita</l>
+              <l>vocalización</l>
+              <l>i... ó... i... ó...</l>
+              <l>para dar concierto</l>
+              <l>en la exposición.</l>
+            </lg>
+
+            <lg n="2">
+              <head type="titulo_estrofa">2.ª</head>
+              <l rend="indent">Como soy de policía</l>
+              <l>y este burro es de un ladrón,</l>
+              <l>al mirar la cara mia</l>
+              <l>se ha escamado el muy bribón.</l>
+              <l rend="indent">Si le toco, tira coces:</l>
+              <l>si le pego, echa á correr;</l>
+              <l>y ya traigo cien ampallas</l>
+              <l>en el sitio que yo sé.</l>
+              <l rend="indent">Pero nada siento</l>
+              <l>como el canto indíno</l>
+              <l>de este malhadado</l>
+              <l>burro partiquino.</l>
+              <l>Miren que bonita</l>
+              <l>vocalización</l>
+              <l>i... ó... i... ó...</l>
+              <l>para dar conciertos</l>
+              <l>en la exposición.</l>
+            </lg>
+
+            <pb n="2" source="Varios_050_2.jpg" facs="varios/Varios_050_2.jpg/"/>
+
+            <fw type="paginaNum">-2-</fw>
+
+            <lg n="3">
+              <head type="titulo_estrofa">3.ª</head>
+              <l rend="indent">Hace ya bastantes noches</l>
+              <l>que este maldito animal</l>
+              <l>nos está engañando á todos</l>
+              <l>con intento criminal.</l>
+              <l rend="indent">Yo observaba que al decirle</l>
+              <l>arre burro, con furor</l>
+              <l>meneaba las orejas</l>
+              <l>como diciendo que nó.</l>
+              <l rend="indent">Cuando yo mas veces</l>
+              <l>burro le decía,</l>
+              <l>alzaba la cola</l>
+              <l>y se sonreia,</l>
+              <l>hasta que me dijo</l>
+              <l>uno de Jaen:</l>
+              <l>no es burro, que es burra,</l>
+              <l>mírelo usted bien.</l>
+            </lg>
+
+            <lg n="4">
+              <head type="titulo_estrofa">4.ª</head>
+              <l rend="indent">Esta noche mi jumento</l>
+              <l>me dió un susto colosal,</l>
+              <l>que por mas que lo buscaba</l>
+              <l>no lo podia encontrar.</l>
+              <l rend="indent">Ya estaba decidido</l>
+              <l>á cantaros esto á pié:</l>
+              <l>cuando el traspunte ha venido</l>
+              <l>y me ha dicho lo encontré.</l>
+              <l rend="indent">Y donde, señores.</l>
+              <l>pensar que estaría</l>
+              <l>este condenado,</l>
+              <l>nadie lo creería.</l>
+              <l rend="indent">Pues lo han encontrado,</l>
+              <l>á fé de Bonell</l>
+              <l>jè... jé... jé... jé...</l>
+              <l>mirando la falla</l>
+              <l>de mosen Sorell.</l>
+            </lg>
+
+            <lg n="5">
+              <head type="titulo_estrofa">5.ª</head>
+              <l rend="indent">Esta noche mi borrico,</l>
+              <l>un poco antes de empezar,</l>
+              <l>como si quisiera hablarme</l>
+              <l>me miraba al rebuznar.</l>
+              <l rend="indent">Como entiendo su lenguaje</l>
+              <l>al instante comprendí</l>
+              <l>que una cosa de importancia</l>
+              <l>me tenia que decir.</l>
+              <l rend="indent">Apliqué el oido,</l>
+              <l>pero con cuidado,</l>
+              <l>por si me quería</l>
+              <l>tirar un bocado.</l>
+              <l rend="indent">Hasta que me dijo</l>
+              <l>con rebuzno atroz,</l>
+              <l>i... ó... i... ó...</l>
+              <l>si usted fuera burro,</l>
+              <l>misté que rediós.</l>
+            </lg>
+
+            <lg n="6">
+              <head type="titulo_estrofa">6.ª</head>
+              <l rend="indent">Este pobre animalito</l>
+              <l>al pasar por los Porchets</l>
+              <l>ha llevado tan gran susto</l>
+              <l>que esplicaros no lo sé.</l>
+              <l rend="indent">Iba al paso muy tranquilo</l>
+              <l>y comienza á vocear,</l>
+              <l>y á pegar tantos relinchos</l>
+              <l>que me tuve que apear,</l>
+              <l>Que el albéitar viene</l>
+              <l>se encuentra convulso.</l>
+              <l>y le toma el pulso,</l>
+              <l rend="indent">Le coje la mano</l>
+              <l>y al abrir la boca</l>
+              <l>un cochete salió</l>
+              <l>i...ó... i...ó...</l>
+              <l>figúrense ustedes</l>
+              <l>por donde le entró.</l>
+            </lg>
+
+            <lg n="7">
+              <head type="titulo_estrofa">7.ª</head>
+              <l rend="indent">Me decia este borrico</l>
+              <l>en el camino mire usted,</l>
+              <l>yo cabecilla carlista</l>
+              <l>es lo que quisiera ser.</l>
+              <l rend="indent">Comen bien, beben buen vino,</l>
+              <l>cobran la contribución,</l>
+              <l>se embolsan luego los cuartos</l>
+              <l>y viva la religión.</l>
+              <l rend="indent">Cuando yá son ricos</l>
+              <l>sueltan el fusil</l>
+              <l>y se van á Francia</l>
+              <l>en ferro-carril</l>
+              <l rend="indent">Y dicen á Carlos</l>
+              <l>cuando allí se ven</l>
+              <l>i... ó... i... ó...</l>
+              <l>mande usted á otros</l>
+              <l>que yo ya chupé.</l>
+            </lg>
+
+            <lg n="8">
+              <head type="titulo_estrofa">8.ª</head>
+              <l rend="indent">Este burro, que allá en Lóndres</l>
+              <l>el comprí despues ahir,</l>
+              <l>es un burro de gran mérit</l>
+              <l>per lo atent y cumplit.</l>
+              <l>M' han contat que 'l altre día</l>
+              <l>s' encontraba en la estació</l>
+              <l>y que al vore que D. Carlos</l>
+              <l>baixaba de xaringló</l>
+              <l>adresá la orella,</l>
+              <l>alsá un poch lo rabo,</l>
+              <l>obrí un pam la boca,</l>
+              <l>y ab molt desperpajo</l>
+              <l>axina els honors: í, ó, í,</l>
+              <l>que entre compañeros</l>
+              <l>no es pot fer millor.</l>
+            </lg>
+          </div>
+
+          <div n="2">
+            <pb n="3" source="Varios_050_3.jpg" facs="varios/Varios_050_3.jpg/"/>
+
+            <fw type="paginaNum">-3-</fw>
+
             <head type="titulo_estrofa">SEGUIDILLAS.</head>
-            <lg>
-              <l>I.ª</l>
-              <l>Al pescar un boquerón</l>
+
+            <lg n="1">
+              <head type="titulo_estrofa">I.ª</head>
+              <l rend="indent">Al pescar un boquerón</l>
               <l>con mi morena, ¡ay!</l>
               <l>me dan tentaciones</l>
               <l>por Noche-Buena.</l>
@@ -1780,9 +1811,10 @@
               <l>¡ay que manera</l>
               <l>de colear!</l>
             </lg>
-            <lg>
-              <l>2.ª</l>
-              <l>Cuando las cigarreras</l>
+
+            <lg n="2">
+              <head type="titulo_estrofa">2.ª</head>
+              <l rend="indent">Cuando las cigarreras</l>
               <l>van de paseo ¡ay!</l>
               <l>parecen por la espalda</l>
               <l>carabineros,</l>
@@ -1798,185 +1830,197 @@
               <l>¡ay que manera</l>
               <l>de estornudar!</l>
             </lg>
-            <div>
-              <head type="titulo_estrofa"><lb/>CANCIONES DEL INGLÉS</head>
-              <lg>
-                <l>En Nueva-York hay un tram-via</l>
-                <l>por cuatro cuartos nada mas.</l>
-                <l>y allà en Madrid fuera del coche,</l>
-                <l>cade diez pasos cuesta un real.</l>
-                <l>Allí el que gasta coche y lujo</l>
-                <l>paga una gran contribución,</l>
-                <l>y aquí paga el que no come</l>
-                <l>mas que pepinos y melón.</l>
-                <l>El que se queda alli cesante,</l>
-                <l>cobra su paga á fin de mes,</l>
-                <l>y aquí el que queda sin empleo</l>
-                <l>se come á Cristo por los piés,</l>
-                <l>¡Oh que patria rica!</l>
-                <l>¡oh que gran nación!</l>
-                <l>¡oh que magnífica</l>
-                <l>civilización!</l>
-                <l>Nace allí todo lo que siembras</l>
-                <l>desde el cacao hasta el añil</l>
-                <l>y aquí si siembras un tomate</l>
-                <l>sale un carlista con fusil.</l>
-                <l>Allí se hace una camisa</l>
-                <l>con cuatro palmos nada mas,</l>
-                <l>y aqui en un cuello gasta un polle</l>
-                <l>toda una pieza de percal.</l>
-                <l>Alli se peinan las mujeres</l>
-                <l>con su cabello natural</l>
-                <l>y aquí se ponen en la testa</l>
-                <l>cuatro colchones y un sofá,</l>
-                <l>¡oh que gran nación!</l>
-                <l>¡Oh que patria rica!</l>
-                <l>¡oh que maguifica</l>
-                <l>civilización!</l>
-              </lg>
-              <lg>
-                <l>Coro.</l>
-                <l>¡Oh que patria, etc.</l>
-              </lg>
-              <lg>
-                <l>3.ª</l>
-                <l>En Nueva-Yorck si bay elecciones</l>
-                <l>toda la gente va á votar</l>
-                <l>y aquí se marchan á los toros</l>
-                <l>en cuanto hay lucha electoral.</l>
-                <l>Tanto es así que yo conozce</l>
-                <l>á un candidato especial</l>
-                <l>que tan solo tuvo un voto</l>
-                <l>y este fué el de su papá.</l>
-                <l>Si ese hombre va á las Cortes</l>
-                <l>entonces puede publicar</l>
-                <l>que ha salido diputado</l>
-                <l>por sufragio universal.</l>
-                <l>¡Oh que patria rica!</l>
-                <l>¡oh que gran nación!</l>
-                <l>¡oh que magnifica</l>
-                <l>civilización!</l>
-              </lg>
-              <lg>
-                <l>Coro.</l>
-                <l>¡Oh que patria, etc.</l>
-              </lg>
-              <lg>
-                <l>4.ª</l>
-                <l>Allí se gasta el dinero</l>
-                <l>en cosa útil á mi ver</l>
-                <l>y aquí sels gasten en los traquos</l>
-                <l>y las festetas de carrer.</l>
-                <l>Allí todos se divierten</l>
-                <l>sin alborotar la vecindá</l>
-                <l>y aquí te trenquen una cama</l>
-                <l>en un cohet així de llarch.</l>
-                <l>El altre dia unu siñora,</l>
-                <l>que ha vengudo de Alberich</l>
-                <l>li varen cremar la roba</l>
-                <l>y altres cosas que no dich.</l>
-                <l>¡Oh que patria rica!</l>
-                <l>¡oh que gran nacioni</l>
-                <l>¡oh que magnífica</l>
-                <l>civilización!</l>
-              </lg>
-              <lg>
-                <l>Coro.</l>
-                <l>¡Oh que patria, etc.</l>
-              </lg>
-            </div>
           </div>
-          <pb n="4" source="Varios_050_4.jpg" facs="fedora_Varios_050_4/full/full/0/default.jpg"/>
-          <fw type="paginaNum">-4-</fw>
-          <div>
-            <head type="titulo_estrofa">FINAL</head>
-            <l>Manana mismo si Dios quiere</l>
-            <l>pienso venir aquí á cantar</l>
-            <l>el que conmigo se divierte</l>
-            <l>el apetito ha de comprar.</l>
-            <l>Acudid, señores,</l>
-            <l>y oireis cantar</l>
-            <l>à estos pobres ciegos</l>
-            <l>que habeis de amparar</l>
+
+          <div n="3">
+            <head type="titulo_estrofa"><lb/>CANCIONES DEL INGLÉS</head>
+
+            <lg>
+              <l rend="indent">En Nueva-York hay un tram-via</l>
+              <l>por cuatro cuartos nada mas.</l>
+              <l>y allà en Madrid fuera del coche,</l>
+              <l>cade diez pasos cuesta un real.</l>
+              <l>Allí el que gasta coche y lujo</l>
+              <l>paga una gran contribución,</l>
+              <l>y aquí paga el que no come</l>
+              <l>mas que pepinos y melón.</l>
+              <l>El que se queda alli cesante,</l>
+              <l>cobra su paga á fin de mes,</l>
+              <l>y aquí el que queda sin empleo</l>
+              <l>se come á Cristo por los piés,</l>
+              <l rend="indent">¡Oh que patria rica!</l>
+              <l>¡oh que gran nación!</l>
+              <l>¡oh que magnífica</l>
+              <l>civilización!</l>
+              <l rend="indent">Nace allí todo lo que siembras</l>
+              <l>desde el cacao hasta el añil</l>
+              <l>y aquí si siembras un tomate</l>
+              <l>sale un carlista con fusil.</l>
+              <l>Allí se hace una camisa</l>
+              <l>con cuatro palmos nada mas,</l>
+              <l>y aqui en un cuello gasta un polle</l>
+              <l>toda una pieza de percal.</l>
+              <l>Alli se peinan las mujeres</l>
+              <l>con su cabello natural</l>
+              <l>y aquí se ponen en la testa</l>
+              <l>cuatro colchones y un sofá,</l>
+              <l rend="indent">¡Oh que patria rica!</l>
+              <l>¡oh que gran nación!</l>
+              <l>¡oh que maguifica</l>
+              <l>civilización!</l>
+            </lg>
+
+            <lg>
+              <head rend="cursiva" type="titulo_estrofa">Coro.</head>
+              <l rend="indent">¡Oh que patria, etc.</l>
+            </lg>
+
+            <lg>
+              <head type="titulo_estrofa">3.ª</head>
+              <l rend="indent">En Nueva-Yorck si bay elecciones</l>
+              <l>toda la gente va á votar</l>
+              <l>y aquí se marchan á los toros</l>
+              <l>en cuanto hay lucha electoral.</l>
+              <l>Tanto es así que yo conozce</l>
+              <l>á un candidato especial</l>
+              <l>que tan solo tuvo un voto</l>
+              <l>y este fué el de su papá.</l>
+              <l>Si ese hombre va á las Cortes</l>
+              <l>entonces puede publicar</l>
+              <l>que ha salido diputado</l>
+              <l>por sufragio universal.</l>
+              <l rend="indent">¡Oh que patria rica!</l>
+              <l>¡oh que gran nación!</l>
+              <l>¡oh que magnifica</l>
+              <l>civilización!</l>
+            </lg>
+
+            <lg>
+              <head rend="cursiva" type="titulo_estrofa">Coro.</head>
+              <l rend="indent">¡Oh que patria, etc.</l>
+            </lg>
+
+            <lg>
+              <head type="titulo_estrofa">4.ª</head>
+              <l rend="indent">Allí se gasta el dinero</l>
+              <l>en cosa útil á mi ver</l>
+              <l>y aquí sels gasten en los traquos</l>
+              <l>y las festetas de carrer.</l>
+              <l>Allí todos se divierten</l>
+              <l>sin alborotar la vecindá</l>
+              <l>y aquí te trenquen una cama</l>
+              <l>en un cohet així de llarch.</l>
+              <l>El altre dia unu siñora,</l>
+              <l>que ha vengudo de Alberich</l>
+              <l>li varen cremar la roba</l>
+              <l>y altres cosas que no dich.</l>
+              <l>¡Oh que patria rica!</l>
+              <l>¡oh que gran nacioni</l>
+              <l>¡oh que magnífica</l>
+              <l>civilización!</l>
+            </lg>
+
+            <lg>
+              <head rend="cursiva" type="titulo_estrofa">Coro.</head>
+              <l rend="indent">¡Oh que patria, etc.</l>
+            </lg>
+
+            <pb n="4" source="Varios_050_4.jpg" facs="varios/Varios_050_4.jpg/"/>
+
+            <fw type="paginaNum">-4-</fw>
+
+            <lg>
+              <head type="titulo_estrofa">FINAL</head>
+              <l rend="indent">Manana mismo si Dios quiere</l>
+              <l>pienso venir aquí á cantar</l>
+              <l>el que conmigo se divierte</l>
+              <l>el apetito ha de comprar.</l>
+              <l rend="indent">Acudid, señores,</l>
+              <l>y oireis cantar</l>
+              <l>à estos pobres ciegos</l>
+              <l>que habeis de amparar</l>
+            </lg>
           </div>
-        </div>
-        <div n="2" type="parte">
-          <head type="titulo_estrofa"><lb/>TANGO DE LOS NEGROS.<lb/>DEL CUARTO
-                                    ACTO</head>
-          <lg>
-            <l>1.°</l>
-            <l>Una guajirata antigua</l>
-            <l>una guajirata antigua</l>
-            <l>siempre ayuda á trabajar</l>
-            <l>siempre ayuda á trabajar,</l>
-            <l>y si vas á la manigua</l>
-            <l>y si vas á la manigua</l>
-            <l>no me vengas á buscar</l>
-            <l>no me vengas à buscar.</l>
-            <l>¡Ay! mulatita</l>
-            <l>nacida en Sagua</l>
-            <l>eres mas dulce</l>
-            <l>que un coco de agua :</l>
-            <l>si pa quererte</l>
-            <l>busco neguito,</l>
-            <l>yo te prometo</l>
-            <l>caramelito.</l>
-            <l>A la chunga</l>
-            <l>changuita chunga</l>
-            <l>del Sabicú</l>
-            <l>no hay, chinita,</l>
-            <l>mujer ninguna</l>
-            <l>mejor que tú.</l>
-            <l>A la manga</l>
-            <l>manguita manga</l>
-            <l>de Pitiflor,</l>
-            <l>que querer</l>
-            <l>à neguito congo</l>
-            <l>a neguito congo</l>
-            <l>es lo mejor.</l>
-          </lg>
-          <lg>
-            <l>2.°</l>
-            <l>El que quiera una neguita</l>
-            <l>el que quiera á una neguita</l>
-            <l>ha de ser con precaución</l>
-            <l>ha de ser con precaución;</l>
-            <l>porque viene y se la quita</l>
-            <l>porque viene y se la quita</l>
-            <l>un negraso cimarrón</l>
-            <l>un negraso cimarrón.</l>
-            <l>¡Ay! que la niña</l>
-            <l>cubana neta</l>
-            <l>mas pronto cambia</l>
-            <l>que una veleta,</l>
-            <l>y con salidas</l>
-            <l>de pié de banco,</l>
-            <l>hoy quiere un nego</l>
-            <l>mañana à un blanco,</l>
-            <l>A la chunga</l>
-            <l>chunguita chunga</l>
-            <l>del Sabicú</l>
-            <l>no hay, chinita,</l>
-            <l>mujer ninguna</l>
-            <l>mejor que tú.</l>
-            <l>A la manga</l>
-            <l>manguita y manga</l>
-            <l>de Pítiflor,</l>
-            <l>que quererte</l>
-            <l>á neguito congo</l>
-            <l>a neguito congo</l>
-            <l>es lo mejor.</l>
-          </lg>
-        </div>
-        <div n="3" type="parte">
-          <head type="titulo_estrofa"><lb/>JOTA DE LA FLOR DE ARAGÓN.</head>
-          <lg>
-            <l>A regalarte venimos</l>
+
+          <div n="4">
+            <head type="titulo_cancion"><lb/>TANGO DE LOS NEGROS.<lb/>DEL CUARTO ACTO</head>
+
+            <lg n="1">
+              <head type="titulo_estrofa">1.°</head>
+              <l rend="indent">Una guajirata antigua</l>
+              <l>una guajirata antigua</l>
+              <l>siempre ayuda á trabajar</l>
+              <l>siempre ayuda á trabajar,</l>
+              <l>y si vas á la manigua</l>
+              <l>y si vas á la manigua</l>
+              <l>no me vengas á buscar</l>
+              <l>no me vengas à buscar.</l>
+              <l rend="indent">¡Ay! mulatita</l>
+              <l>nacida en Sagua</l>
+              <l>eres mas dulce</l>
+              <l>que un coco de agua :</l>
+              <l>si pa quererte</l>
+              <l>busco neguito,</l>
+              <l>yo te prometo</l>
+              <l>caramelito.</l>
+              <l rend="indent">A la chunga</l>
+              <l>changuita chunga</l>
+              <l>del Sabicú</l>
+              <l>no hay, chinita,</l>
+              <l>mujer ninguna</l>
+              <l>mejor que tú.</l>
+              <l rend="indent">A la manga</l>
+              <l>manguita manga</l>
+              <l>de Pitiflor,</l>
+              <l>que querer</l>
+              <l>à neguito congo</l>
+              <l>a neguito congo</l>
+              <l>es lo mejor.</l>
+            </lg>
+
+            <lg n="2">
+              <head type="titulo_estrofa">2.°</head>
+              <l rend="indent">El que quiera una neguita</l>
+              <l>el que quiera á una neguita</l>
+              <l>ha de ser con precaución</l>
+              <l>ha de ser con precaución;</l>
+              <l>porque viene y se la quita</l>
+              <l>porque viene y se la quita</l>
+              <l>un negraso cimarrón</l>
+              <l>un negraso cimarrón.</l>
+              <l rend="indent">¡Ay! que la niña</l>
+              <l>cubana neta</l>
+              <l>mas pronto cambia</l>
+              <l>que una veleta,</l>
+              <l>y con salidas</l>
+              <l>de pié de banco,</l>
+              <l>hoy quiere un nego</l>
+              <l>mañana à un blanco,</l>
+              <l rend="indent">A la chunga</l>
+              <l>chunguita chunga</l>
+              <l>del Sabicú</l>
+              <l>no hay, chinita,</l>
+              <l>mujer ninguna</l>
+              <l>mejor que tú.</l>
+              <l rend="indent">A la manga</l>
+              <l>manguita y manga</l>
+              <l>de Pítiflor,</l>
+              <l>que quererte</l>
+              <l>á neguito congo</l>
+              <l>a neguito congo</l>
+              <l>es lo mejor.</l>
+            </lg>
+          </div>
+
+          <div n="5">
+            <head type="titulo_cancion"><lb/>JOTA DE LA FLOR DE ARAGÓN.</head>
+
+            <l rend="indent">A regalarte venimos</l>
             <l>si venimos, si venimos,</l>
             <l>Maria luz de estos valles,</l>
             <l>las zagalas bellas flores</l>
             <l>y el corazón los zagales.</l>
-            <l>Siempre crece la alegría</l>
+            <l rend="indent">Siempre crece la alegría</l>
             <l>e los campos de Aragón</l>
             <l>con las sombras de la noche</l>
             <l>y con los rayos del sol.</l>
@@ -1986,12 +2030,12 @@
             <l>que es la vírgen del Pilar.</l>
             <l>Siempre crece la alegría, etc.</l>
             <l>Viva la flor de Aragón, etc.</l>
-            <l>Cuando alegre y placentera,</l>
+            <l rend="indent">Cuando alegre y placentera,</l>
             <l>placentera, placentera</l>
             <l>María bajas al valle,</l>
             <l>se llenan de regocijo</l>
             <l>las zagalas y zagales.</l>
-            <l>Pues eres la diosa del valle</l>
+            <l rend="indent">Pues eres la diosa del valle</l>
             <l>del mundo la admiración, admiración</l>
             <l>la reina de la hermosura</l>
             <l>y la rosa de Aragón.</l>
@@ -2001,13 +2045,15 @@
             <l>que aplauden con frenesí.</l>
             <l>Tú eres la diosa del valle, etc.</l>
             <l>Viva la flor de Aragón, etc,</l>
-          </lg>
+
+            <trailer>FIN.</trailer>
+          </div>
         </div>
-        <trailer>FIN.</trailer>
-      </div>
-      <div type="colofon">
-        <p><lb/>Se halla de venta en casa los sucesores de Antonio Bosch, Bou de
-                              la Plaza Nueva, 13</p>
+
+        <div type="colofon">
+          <p rend="cursiva"><lb/>Se halla de venta en casa los sucesores de Antonio Bosch, Bou de la
+            Plaza Nueva, 13</p>
+        </div>
       </div>
     </body>
   </text>

@@ -28,9 +28,9 @@
             <p/>
           </editionStmt>
           <publicationStmt>
-            <publisher>Imp. Y librería de Narciso Roca.</publisher>
+            <publisher>Narciso Roca</publisher>
             <pubPlace ref="https://www.geonames.org/3111933/reus.html">Reus</pubPlace>
-            <date cert="high">1864</date>
+            <date cert="high" when="1864-01-01">1864</date>
           </publicationStmt>
         </biblFull>
         <msDesc>
@@ -39,6 +39,7 @@
             <settlement>Genève</settlement>
             <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"/>
                                     </repository>
+            <collection>Colección Varios</collection>
             <idno type="cote"/>
             <idno type="DOI">10.5281/zenodo.6787661</idno>
             <altIdentifier>
@@ -101,7 +102,7 @@
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR non corregido</p>
+          <p>OCR no corregido</p>
         </correction>
         <normalization>
           <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto
@@ -130,9 +131,10 @@
     <revisionDesc>
       <change when="2023-12-20" who="#PJ">Création du fichier TEI P5 et encodage du
                         corps du texte</change>
+<change when="2024-01-09" who="#EL">Add the IIIF links</change>
     </revisionDesc>
   </teiHeader>
-  <sourceDoc xml:id="automaticTranscription">
+  <facsimile><graphic url="varios/Varios_406_1.jpg/full/200,/0/default.jpg"/></facsimile><sourceDoc xml:id="automaticTranscription">
     <surface xml:id="Varios_406_1" type="page" cert="silver">
       <graphic url="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_406_1/full/full/0/default.jpg"/>
       <zone xml:id="Varios_406_1_BT223_1" n="1" type="CustomZone" subtype="title" points="1597,1313 1597,1894 118,1894 118,1313 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_406_1/118.0,1313.0,1479.0,581.0/full/0/default" corresp="CustomZone:title">
@@ -1122,7 +1124,7 @@
   <text>
     <body>
       <div>
-        <pb n="1" source="Varios_406_1.jpg" facs="fedora_Varios_406_1/full/full/0/default.jpg"/>
+        <pb n="1" source="Varios_406_1.jpg" facs="varios/Varios_406_1.jpg/"/>
         <div type="parte" n="1">
           <head type="primer_titulo"><lb/>TROBOS NUEVOS<lb/>amorosos y elegantes, para cantar</head>
           <head type="titulo_cancion">
@@ -1161,7 +1163,7 @@
             <l>el consuelo de mi vida</l>
             <l rend="cursiva">yo no sé si encontraré.</l>
           </lg>
-          <pb n="2" source="Varios_406_2.jpg" facs="fedora_Varios_406_2/full/full/0/default.jpg"/>
+          <pb n="2" source="Varios_406_2.jpg" facs="varios/Varios_406_2.jpg/"/>
           <lg>
             <l>Solo me alumbra un lucero</l>
             <l>y el corazon derecho vá</l>
@@ -1271,7 +1273,7 @@
             <l>que tú eres medicina</l>
             <l rend="cursiva">que cura de todo mal.</l>
           </lg>
-          <pb n="3" source="Varios_406_3.jpg" facs="fedora_Varios_406_3/full/full/0/default.jpg"/>
+          <pb n="3" source="Varios_406_3.jpg" facs="varios/Varios_406_3.jpg/"/>
           <lg>
             <head type="titulo_estrofa">5.°</head>
             <l>¡ O cuán lindas sois mujeres !!</l>
@@ -1384,7 +1386,7 @@
             <l rend="cursiva">adios mi puro consuelo</l>
             <l rend="cursiva">y adios prenda florecida.</l>
           </lg>
-          <pb n="4" source="Varios_406_4.jpg" facs="fedora_Varios_406_4/full/full/0/default.jpg"/>
+          <pb n="4" source="Varios_406_4.jpg" facs="varios/Varios_406_4.jpg/"/>
           <lg>
             <l>Dios te guarde la firmeza</l>
             <l>hasta que te vuelva á ver</l>

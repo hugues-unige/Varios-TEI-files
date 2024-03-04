@@ -1,12 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../Schema/oddPliego_varios.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:alto="http://www.loc.gov/standards/alto/ns-v4#" xml:id="Varios_363">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Varios_363">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>ELOGIS DE DOS CASATS, lo un explica las gracias, virtuts y habilitats
-                              del altre, y per ella se vehuen las consecuencias de un matrimoni fet
-                              á la ventura.</title>
+        <title>ELOGIS DE DOS CASATS</title>
         <respStmt>
           <name xml:id="PJ">Pauline Jacsont</name>
           <resp>Codificación TEI</resp>
@@ -32,9 +30,9 @@
             <p/>
           </editionStmt>
           <publicationStmt>
-            <publisher>Establecimiento de Juan B. Vidal</publisher>
+            <publisher>Juan Bautista Vidal</publisher>
             <pubPlace ref="https://www.geonames.org/3111933/reus.html">Reus</pubPlace>
-            <date cert="high">[s.a]</date>
+            <date cert="low" when="1800-01-01">[s.a.]</date>
           </publicationStmt>
         </biblFull>
         <msDesc>
@@ -43,6 +41,7 @@
             <settlement>Genève</settlement>
             <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"/>
                                     </repository>
+            <collection>Colección Varios</collection>
             <idno type="cote"/>
             <idno type="DOI"/>
             <altIdentifier>
@@ -104,7 +103,7 @@
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR non corregido</p>
+          <p>OCR no corregido</p>
         </correction>
         <normalization>
           <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto
@@ -131,9 +130,10 @@
     <revisionDesc>
       <change when="2023-12-05" who="#PJ">Création du fichier TEI P5 et encodage du
                         corps du texte</change>
+<change when="2024-01-09" who="#EL">Add the IIIF links</change>
     </revisionDesc>
   </teiHeader>
-  <sourceDoc xml:id="automaticTranscription">
+  <facsimile><graphic url="varios/Varios_363_1.jpg/full/200,/0/default.jpg"/></facsimile><sourceDoc xml:id="automaticTranscription">
     <surface xml:id="Varios_363_1" type="page" cert="silver">
       <graphic url="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_363_1/full/full/0/default.jpg"/>
       <zone xml:id="Varios_363_1_BT221_1" n="1" type="CustomZone" subtype="impresorNum" points="1496,213 1496,286 1258,286 1258,213 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_363_1/1258,213,238,73/full/0/default" corresp="CustomZone:impresorNum">
@@ -1276,7 +1276,7 @@
   <text>
     <body>
       <div>
-        <pb n="1" source="Varios_363_1.jpg" facs="fedora_Varios_363_1/full/full/0/default.jpg"/>
+        <pb n="1" source="Varios_363_1.jpg" facs="varios/Varios_363_1.jpg/"/>
         <fw type="impresorNum">(Núm. 98.)</fw>
         <div type="parte" n="1">
           <head type="primer_titulo"><lb/><hi rend="negrita">ELOGIS DE DOS CASATS,</hi><lb/>lo un explica las gracias,
@@ -1307,7 +1307,7 @@
             <l>Ay pobre Silvestre</l>
             <l>que aixó es molt patí.</l>
           </sp>
-          <pb n="2" source="Varios_363_2.jpg" facs="fedora_Varios_363_2/full/full/0/default.jpg"/>
+          <pb n="2" source="Varios_363_2.jpg" facs="varios/Varios_363_2.jpg/"/>
           <sp>
             <speaker rend="cursiva">Mónica.</speaker>
             <l>Tinch un home raru</l>
@@ -1408,7 +1408,7 @@
             <l>tarde y dematí,</l>
             <l>Ay pobre Silvestre, etc.</l>
           </sp>
-          <pb n="3" source="Varios_363_3.jpg" facs="fedora_Varios_363_3/full/full/0/default.jpg"/>
+          <pb n="3" source="Varios_363_3.jpg" facs="varios/Varios_363_3.jpg/"/>
           <sp>
             <speaker rend="cursiva">Mónica.</speaker>
             <l>Tinch un oncle á fora</l>
@@ -1509,7 +1509,7 @@
             <l>que no pot servir.</l>
             <l>Ay pobre Silvestre, etc.</l>
           </sp>
-          <pb n="4" source="Varios_363_4.jpg" facs="fedora_Varios_363_4/full/full/0/default.jpg"/>
+          <pb n="4" source="Varios_363_4.jpg" facs="varios/Varios_363_4.jpg/"/>
           <sp>
             <speaker rend="cursiva">Mónica.</speaker>
             <l>Jo estaba ben grassa</l>

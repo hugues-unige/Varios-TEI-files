@@ -27,9 +27,9 @@
             <p/>
           </editionStmt>
           <publicationStmt>
-            <publisher>Imprenta de D. J. Marés</publisher>
+            <publisher>José María Marés</publisher>
             <pubPlace ref="https://www.geonames.org/3117735/madrid.html">Madrid</pubPlace>
-            <date cert="high">1850</date>
+            <date cert="high" when="1850-01-01">1850</date>
           </publicationStmt>
         </biblFull>
         <msDesc>
@@ -38,6 +38,7 @@
             <settlement>Genève</settlement>
             <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"/>
                   </repository>
+            <collection>Colección Varios</collection>
             <idno type="cote"/>
             <idno type="DOI">10.5281/zenodo.6783544</idno>
             <altIdentifier>
@@ -98,7 +99,7 @@
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR non corregido</p>
+          <p>OCR no corregido</p>
         </correction>
         <normalization>
           <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto
@@ -125,9 +126,10 @@
     <revisionDesc>
       <change when="2023-12-10" who="#PJ">Création du fichier TEI P5 et encodage du corps du
                         texte</change>
+<change when="2024-01-09" who="#EL">Add the IIIF links</change>
     </revisionDesc>
   </teiHeader>
-  <sourceDoc xml:id="automaticTranscription">
+  <facsimile><graphic url="varios/Varios_379_1.jpg/full/200,/0/default.jpg"/></facsimile><sourceDoc xml:id="automaticTranscription">
     <surface xml:id="Varios_379_1" type="page" cert="silver">
       <graphic url="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_379_1/full/full/0/default.jpg"/>
       <zone xml:id="Varios_379_1_BT221_1" n="1" type="CustomZone" subtype="impresorNum" points="1385,226 1385,319 1112,319 1112,226 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_379_1/1112,226,273,93/full/0/default" corresp="CustomZone:impresorNum">
@@ -784,7 +786,7 @@
           <line>y aunque quieras, á su tienda</line>
         </zone>
         <zone xml:id="Varios_379_3_BT227_3__20" type="DefaultLine" subtype="none" points="859,2242 857,2258 946,2260 948,2263 965,2279 965,2281 967,2281 969,2281 971,2283 1008,2283 1008,2281 1010,2281 1012,2281 1033,2267 1043,2263 1108,2265 1114,2271 1126,2281 1128,2281 1130,2281 1132,2281 1198,2275 1275,2267 1364,2281 1368,2244 1364,2203 859,2203 859,2242 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_379_3/857,2203,511,80/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_379_3_BT227_3__20_1" points="861,2243 1369,2245 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
+          <path xml:id="Varios_379_3_BT227_3__20_1" points="861,2243 1369,2245 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
           <line>no he de volver otra vez.</line>
         </zone>
       </zone>
@@ -1102,7 +1104,7 @@
   <text>
     <body>
       <div>
-        <pb n="1" source="Varios_379_1.jpg" facs="fedora_Varios_379_1/full/full/0/default.jpg"/>
+        <pb n="1" source="Varios_379_1.jpg" facs="varios/Varios_379_1.jpg/"/>
         <fw type="impresorNum">(Núm. 93.)</fw>
         <div type="parte" n="1">
           <head type="primer_titulo"><lb/>LAS BROMAS DE LAS MUGERES.</head>
@@ -1141,7 +1143,7 @@
             <l>Te lo diré si me escuchas,</l>
             <l>palabra sobre palabra.</l>
           </lg>
-          <pb n="2" source="Varios_379_2.jpg" facs="fedora_Varios_379_2/full/full/0/default.jpg"/>
+          <pb n="2" source="Varios_379_2.jpg" facs="varios/Varios_379_2.jpg/"/>
           <lg>
             <l>Sí, muger, dí cuanto quieras,</l>
             <l>que yo me alegraré mucho</l>
@@ -1231,7 +1233,7 @@
             <l>la daré finalizada.</l>
           </lg>
         </div>
-        <pb n="3" source="Varios_379_3.jpg" facs="fedora_Varios_379_3/full/full/0/default.jpg"/>
+        <pb n="3" source="Varios_379_3.jpg" facs="varios/Varios_379_3.jpg/"/>
         <div type="parte" n="2">
           <head type="titulo_parte"><lb/>SEGUNDA PARTE,<lb/>DE LAS BROMAS DE LAS MUGERES.</head>
           <lg>
@@ -1278,7 +1280,7 @@
             <l>y aunque quieras, á su tienda</l>
             <l>no he de volver otra vez.</l>
           </lg>
-          <pb n="4" source="Varios_379_4.jpg" facs="fedora_Varios_379_4/full/full/0/default.jpg"/>
+          <pb n="4" source="Varios_379_4.jpg" facs="varios/Varios_379_4.jpg/"/>
           <lg>
             <l>De manera, hombre, que estoy</l>
             <l>enteramente aburrida,</l>

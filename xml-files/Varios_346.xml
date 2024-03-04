@@ -30,7 +30,7 @@
           <publicationStmt>
             <publisher>Tipografía Española</publisher>
             <pubPlace ref="https://www.geonames.org/3128760/barcelona.html">Barcelona</pubPlace>
-            <date cert="high">[s.a]</date>
+            <date cert="low" when="1800-01-01">[s.a.]</date>
           </publicationStmt>
         </biblFull>
         <msDesc>
@@ -39,6 +39,7 @@
             <settlement>Genève</settlement>
             <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"/>
                                     </repository>
+            <collection>Colección Varios</collection>
             <idno type="cote"/>
             <idno type="DOI">10.5281/zenodo.6772873</idno>
             <altIdentifier>
@@ -103,7 +104,7 @@
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR non corregido</p>
+          <p>OCR no corregido</p>
         </correction>
         <normalization>
           <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto
@@ -130,9 +131,10 @@
     <revisionDesc>
       <change when="2023-11-22" who="#PJ">Création du fichier TEI P5 et encodage du
                         corps du texte</change>
+<change when="2024-01-09" who="#EL">Add the IIIF links</change>
     </revisionDesc>
   </teiHeader>
-  <sourceDoc xml:id="automaticTranscription">
+  <facsimile><graphic url="varios/Varios_346_1.jpg/full/200,/0/default.jpg"/></facsimile><sourceDoc xml:id="automaticTranscription">
     <surface xml:id="Varios_346_1" type="page" cert="silver">
       <graphic url="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_346_1/full/full/0/default.jpg"/>
       <zone xml:id="Varios_346_1_BT223_1" n="1" type="CustomZone" subtype="title" points="1472,1450 1472,1966 148,1966 148,1450 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_346_1/148,1450,1324,516/full/0/default" corresp="CustomZone:title">
@@ -825,7 +827,7 @@
   <text>
     <body>
       <div>
-        <pb n="1" source="Varios_346_1.jpg" facs="fedora_Varios_346_1/full/full/0/default.jpg"/>
+        <pb n="1" source="Varios_346_1.jpg" facs="varios/Varios_346_1.jpg/"/>
         <div type="parte" n="1">
           <head type="primer_titulo"><lb/>VALS DE LA ZARUELA<lb/>LAS<lb/>CAMPANAS DE CARRION</head>
           <lg>
@@ -840,7 +842,7 @@
             <l>libre á ti tornar</l>
             <l>Libre á ti tornar.</l>
           </lg>
-          <pb n="2" source="Varios_346_2.jpg" facs="fedora_Varios_346_2/full/full/0/default.jpg"/>
+          <pb n="2" source="Varios_346_2.jpg" facs="varios/Varios_346_2.jpg/"/>
           <fw type="paginaNum">— 2 —</fw>
           <lg>
             <l>De mi existencia</l>
@@ -896,7 +898,7 @@
             <l>Me matará.</l>
           </lg>
         </div>
-        <pb n="3" source="Varios_346_3.jpg" facs="fedora_Varios_346_3/full/full/0/default.jpg"/>
+        <pb n="3" source="Varios_346_3.jpg" facs="varios/Varios_346_3.jpg/"/>
         <div type="parte" n="2">
           <head type="titulo_parte"><lb/>LA TRICHINA<lb/>POLKA</head>
           <lg>
@@ -931,7 +933,7 @@
             <l>y para su dicha</l>
             <l>les demuestran grato afan.</l>
           </lg>
-          <pb n="4" source="Varios_346_4.jpg" facs="fedora_Varios_346_4/full/full/0/default.jpg"/>
+          <pb n="4" source="Varios_346_4.jpg" facs="varios/Varios_346_4.jpg/"/>
           <fw type="paginaNum">— 4 —</fw>
           <lg>
             <head type="titulo_estrofa">II.</head>

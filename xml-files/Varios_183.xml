@@ -1,18 +1,17 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../Schema/oddPliego_varios.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:alto="http://www.loc.gov/standards/alto/ns-v4#" xml:id="Varios_183">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Varios_183">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>RIÑAS SANGRIENTAS.</title>
+        <title>RIÑAS SANGRIENTAS</title>
         <respStmt>
           <name/>
           <resp>Codificación TEI</resp>
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <authority role="rightsHolder">Bibliothèque Universitaire de
-                              Genève</authority>
+        <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
         <availability status="restricted">
           <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
         </availability>
@@ -20,19 +19,18 @@
       <sourceDesc>
         <biblFull>
           <titleStmt>
-            <title type="titulo_completo">Riñas Sangrientas. Verídica y
-                                          agradable relacion de lo que hace poco pasó con un
-                                          mancebo de un horno y variostintoreros, en donde se
-                                          refiere todo lo que verá el curioso lector.</title>
+            <title type="titulo_completo">Riñas Sangrientas. Verídica y agradable relacion de lo
+              que hace poco pasó con un mancebo de un horno y variostintoreros, en donde se refiere
+              todo lo que verá el curioso lector.</title>
             <title type="titulo_breve">Riñas Sangrientas.</title>
           </titleStmt>
           <editionStmt>
             <p/>
           </editionStmt>
           <publicationStmt>
-            <publisher>F. Vallés</publisher>
+            <publisher>Francisco Vallés</publisher>
             <pubPlace ref="https://www.geonames.org/3128760/barcelona.html">Barcelona</pubPlace>
-            <date cert="high">[s.a]</date>
+            <date cert="low" when="1800-01-01">[s.a.]</date>
           </publicationStmt>
         </biblFull>
         <msDesc>
@@ -40,7 +38,8 @@
             <country>Suisse</country>
             <settlement>Genève</settlement>
             <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"/>
-                                    </repository>
+            </repository>
+            <collection>Colección Varios</collection>
             <idno type="cote"/>
             <idno type="DOI">10.5281/zenodo.6594996</idno>
             <altIdentifier>
@@ -69,7 +68,7 @@
               </layoutDesc>
             </objectDesc>
             <decoDesc>
-              <summary n="1">Uno grabado (p.1) </summary>
+              <summary n="1">Un grabado (p.1) </summary>
               <decoNote type="lista_grabados">
                 <list>
                   <item corresp="grabado_v_183_1.xml">grabado_v_183_1</item>
@@ -78,9 +77,9 @@
               <decoNote type="lista_ornamentos">
                 <list>
                   <item corresp="ornamento_v_183_1">ornamento_v_183_1</item>
-                  <item corresp="ornamento_v_183_1">ornamento_v_183_2</item>
-                  <item corresp="ornamento_v_183_1">ornamento_v_183_3</item>
-                  <item corresp="ornamento_v_183_1">ornamento_v_183_4</item>
+                  <item corresp="ornamento_v_183_2">ornamento_v_183_2</item>
+                  <item corresp="ornamento_v_183_3">ornamento_v_183_3</item>
+                  <item corresp="ornamento_v_183_4">ornamento_v_183_4</item>
                 </list>
               </decoNote>
             </decoDesc>
@@ -102,18 +101,17 @@
     </fileDesc>
     <encodingDesc>
       <projectDesc>
-        <p>Este archivo fue creado en el marco del proyecto Desenrollando el
-                              Cordel/Démêler le cordel/Untangling the cordel, dirigido por la
-                              profesora Constance Carta de la Universidad de Ginebra, con el apoyo
-                              de la Fundación filantrópica Famille Sandoz-Monique de Meuron.</p>
+        <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+          cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la Universidad
+          de Ginebra, con el apoyo de la Fundación filantrópica Famille Sandoz-Monique de
+          Meuron.</p>
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR non corregido</p>
+          <p>OCR no corregido</p>
         </correction>
         <normalization>
-          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto
-                                    original.</p>
+          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
         </normalization>
         <punctuation>
           <p>Se conserva la puntuación original.</p>
@@ -134,10 +132,14 @@
       </textClass>
     </profileDesc>
     <revisionDesc>
-      <change when="2023-05-03" who="#PJ">Création du fichier TEI P5 et encodage du
-                        corps du texte</change>
+      <change when="2023-05-03" who="#PJ">Création du fichier TEI P5 et encodage du corps du
+        texte</change>
+      <change when="2024-01-09" who="#EL">Add the IIIF links</change>
     </revisionDesc>
   </teiHeader>
+  <facsimile>
+    <graphic url="varios/Varios_183_1.jpg/full/200,/0/default.jpg"/>
+  </facsimile>
   <sourceDoc xml:id="automaticTranscription">
     <surface xml:id="Varios_183_1" type="page" cert="silver">
       <graphic url="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_183_1/full/full/0/default.jpg"/>
@@ -1151,283 +1153,275 @@
   <text>
     <body>
       <div>
-        <pb n="1" source="Varios_183_1.jpg" facs="fedora_Varios_183_1/full/full/0/default.jpg"/>
-        <div type="parte" n="1">
-          <head type="primer_titulo" rend="negrita"><lb/>RIÑAS SANGRIENTAS.</head>
-          <head type="subtitulo_parte" rend="cursiva"><lb/>Verídica y agradable
-                                    relacion de lo que hace po-<lb/>co pasó con un mancebo de un
-                                    horno y varios<lb/>tintoreros, en donde se refiere todo lo que
-                                    ve-<lb/>rá el curioso lector.</head>
-          <lg>
-            <l>En una de aquellas calles</l>
-            <l>Que rodean la muralla,</l>
-            <l>No ha mucho tiempo pasó</l>
-            <l>El mas gracioso lance.</l>
-            <l>Vivia en aquellos barrios</l>
-            <l>Un maestro panadero,</l>
-          </lg>
-          <lg>
-            <l>El cual tenia en su casa</l>
-            <l>A trabajar un mancebo.</l>
-            <l>Este jóven valenciano</l>
-            <l>Era muy aficionado</l>
-            <l>A puntear la viuela</l>
-            <l>Concluido su trabajo.</l>
-          </lg>
-          <pb n="2" source="Varios_183_2.jpg" facs="fedora_Varios_183_2/full/full/0/default.jpg"/>
-          <lg>
-            <l>Tenia un fecundo genio</l>
-            <l>Tanto que sin regla alguna</l>
-            <l>Hacia bonitos versos</l>
-            <l>Inspirados por su numen.</l>
-            <l>Y como la vecindad,</l>
-            <l>Por lo regular le oia</l>
-            <l>La fama de gran poeta</l>
-            <l>El buen mancebo tenia.</l>
-            <l>En estos alrededores</l>
-            <l>Vecino del panadero</l>
-            <l>Hay una fábrica grande</l>
-            <l>Que es propia de un tintorero.</l>
-            <l>Este á trabajar tenia</l>
-            <l>Algunos jóvenes mozos,</l>
-            <l>Algo alegrillos de cascos</l>
-            <l>Propio de mozos del dia.</l>
-            <l>Estos un dia se fueron</l>
-            <l>A ver á nuestro poeta</l>
-            <l>Con el fin de conseguir</l>
-            <l>Que les hiciera unos versos.</l>
-            <l>Queremos una poesia</l>
-            <l>Al buen mancebo dijeron,</l>
-            <l>Para una niña, que Carmen</l>
-            <l>Que se apellida sabemos.</l>
-            <l>Entonces hicieron tratos</l>
-            <l>El mozo y los tintoreros,</l>
-            <l>Y en fin quedaron acordes</l>
-            <l>Sobre la copla y el precio.</l>
-            <l>Convenidos se marcharon</l>
-            <l>Y el jóven hizo su letra,</l>
-            <l>Que por si hay curiosos</l>
-            <l>Aqui copio exactamente.</l>
-          </lg>
-        </div>
-        <div type="cancion">
-          <head type="titulo_cancion" rend="negrita"><lb/>CANCION.</head>
-          <lg rend="cursiva">
-            <l>«Con obsequios y alegria</l>
-            <l>Hemos llegado á tu puerta,</l>
-            <l>Buenas noches prenda amada</l>
-            <l>Me alegro que esteis dispierta.</l>
-          </lg>
-          <lg rend="cursiva">
-            <l>Bella Carmen de mi vida</l>
-            <l>Hermosa como las flores,</l>
-            <l>Te contará sus amores,</l>
-            <l>Este tu querido Juan;</l>
-          </lg>
-          <lg rend="cursiva">
-            <l>Indigno es este suelo</l>
-            <l>De tan inmensa riqueza,</l>
-            <l>E indigno de tu belleza</l>
-            <l>Un descendiente de Adán.</l>
-          </lg>
-          <lg rend="cursiva">
-            <l>Posesionarte quisiera</l>
-            <l>Por rendirte mi cuidado</l>
-            <l>Mas es pedir demasiado</l>
-            <l>Para un mísero mortal;</l>
-          </lg>
-          <lg rend="cursiva">
-            <l>Tu rostro al Sol se parece</l>
-            <l>Tu piel como la chinchilla,</l>
-            <l>Tus ojos son maravilla,</l>
-            <l>Tus lábios como el coral.</l>
-          </lg>
-          <lg rend="cursiva">
-            <l>La talla mas hechizera</l>
-            <l>La voz la mas seductora,</l>
-            <l>Rosada como la aurora,</l>
-            <l>Tu frente de querubin,</l>
-          </lg>
-          <lg rend="cursiva">
-            <l>Adios que debo ausentarme</l>
-            <l>Recibe mi despedida,</l>
-            <l>Prenda del alma querida</l>
-            <l>Mas bella que un Serafin.»</l>
-          </lg>
-        </div>
         <div>
+          <pb n="1" source="Varios_183_1.jpg" facs="varios/Varios_183_1.jpg/"/>
+
+          <head type="primer_titulo" rend="negrita"><lb/>RIÑAS SANGRIENTAS.</head>
+          <head type="subtitulo"><lb/>Verídica y agradable relacion de lo que hace po-<lb/>co pasó
+            con un mancebo de un horno y varios<lb/>tintoreros, en donde se refiere todo lo que
+            ve-<lb/>rá el curioso lector.</head>
+
+          <l rend="indent">En una de aquellas calles</l>
+          <l>Que rodean la muralla,</l>
+          <l>No ha mucho tiempo pasó</l>
+          <l>El mas gracioso lance.</l>
+          <l rend="indent">Vivia en aquellos barrios</l>
+          <l>Un maestro panadero,</l>
+          <l>El cual tenia en su casa</l>
+          <l>A trabajar un mancebo.</l>
+          <l rend="indent">Este jóven valenciano</l>
+          <l>Era muy aficionado</l>
+          <l>A puntear la viuela</l>
+          <l>Concluido su trabajo.</l>
+
+          <pb n="2" source="Varios_183_2.jpg" facs="varios/Varios_183_2.jpg/"/>
+
+          <l rend="indent">Tenia un fecundo genio</l>
+          <l>Tanto que sin regla alguna</l>
+          <l>Hacia bonitos versos</l>
+          <l>Inspirados por su numen.</l>
+          <l rend="indent">Y como la vecindad,</l>
+          <l>Por lo regular le oia</l>
+          <l>La fama de gran poeta</l>
+          <l>El buen mancebo tenia.</l>
+          <l rend="indent">En estos alrededores</l>
+          <l>Vecino del panadero</l>
+          <l>Hay una fábrica grande</l>
+          <l>Que es propia de un tintorero.</l>
+          <l rend="indent">Este á trabajar tenia</l>
+          <l>Algunos jóvenes mozos,</l>
+          <l>Algo alegrillos de cascos</l>
+          <l>Propio de mozos del dia.</l>
+          <l rend="indent">Estos un dia se fueron</l>
+          <l>A ver á nuestro poeta</l>
+          <l>Con el fin de conseguir</l>
+          <l>Que les hiciera unos versos.</l>
+          <l rend="indent">Queremos una poesia</l>
+          <l>Al buen mancebo dijeron,</l>
+          <l>Para una niña, que Carmen</l>
+          <l>Que se apellida sabemos.</l>
+          <l rend="indent">Entonces hicieron tratos</l>
+          <l>El mozo y los tintoreros,</l>
+          <l>Y en fin quedaron acordes</l>
+          <l>Sobre la copla y el precio.</l>
+          <l rend="indent">Convenidos se marcharon</l>
+          <l>Y el jóven hizo su letra,</l>
+          <l>Que por si hay curiosos</l>
+          <l>Aqui copio exactamente.</l>
+
           <lg>
-            <l>Esta fué por fin la letra</l>
-            <l>Como el mozo la acabó,</l>
-            <l>Y á la mañana siguiente</l>
-            <l>A sus vecinos la dió.</l>
-            <l>Alguno de estos obreros,</l>
-            <l>A encontrarle despues fué</l>
-            <l>Y le dijo en sus palabras</l>
-            <l>Lo que ha decir pasaré.</l>
-            <l>Mis amigos de trabajo</l>
-            <l>Tus versos copiarán</l>
-            <l>Y ya verás como luego</l>
-            <l>A qui te los volverán.</l>
+            <head type="titulo_cancion" rend="negrita"><lb/>CANCION.</head>
+            <lg rend="cursiva">
+              <l rend="indent">«Con obsequios y alegria</l>
+              <l>Hemos llegado á tu puerta,</l>
+              <l>Buenas noches prenda amada</l>
+              <l>Me alegro que esteis dispierta.</l>
+            </lg>
+            <lg rend="cursiva">
+              <l rend="indent">Bella Carmen de mi vida</l>
+              <l>Hermosa como las flores,</l>
+              <l>Te contará sus amores,</l>
+              <l>Este tu querido Juan;</l>
+            </lg>
+            <lg rend="cursiva">
+              <l rend="indent">Indigno es este suelo</l>
+              <l>De tan inmensa riqueza,</l>
+              <l>E indigno de tu belleza</l>
+              <l>Un descendiente de Adán.</l>
+            </lg>
+            <lg rend="cursiva">
+              <l rend="indent">Posesionarte quisiera</l>
+              <l>Por rendirte mi cuidado</l>
+              <l>Mas es pedir demasiado</l>
+              <l>Para un mísero mortal;</l>
+            </lg>
+            <lg rend="cursiva">
+              <l rend="indent">Tu rostro al Sol se parece</l>
+              <l>Tu piel como la chinchilla,</l>
+              <l>Tus ojos son maravilla,</l>
+              <l>Tus lábios como el coral.</l>
+            </lg>
+            <lg rend="cursiva">
+              <l rend="indent">La talla mas hechizera</l>
+              <l>La voz la mas seductora,</l>
+              <l>Rosada como la aurora,</l>
+              <l>Tu frente de querubin,</l>
+            </lg>
+            <lg rend="cursiva">
+              <l rend="indent">Adios que debo ausentarme</l>
+              <l>Recibe mi despedida,</l>
+              <l>Prenda del alma querida</l>
+              <l>Mas bella que un Serafin.»</l>
+            </lg>
           </lg>
-          <pb n="3" source="Varios_183_3.jpg" facs="fedora_Varios_183_3/full/full/0/default.jpg"/>
-          <lg>
-            <l>La escusa que darán ellos</l>
-            <l>Me parece la comprendo</l>
-            <l>Vendrán todos á encontrarte</l>
-            <l>Que son muy caros diciendo.</l>
-            <l>Esto dijo el tintorero</l>
-            <l>Y en seguida se marchó,</l>
-            <l>Y el bueno del panadero</l>
-            <l>Estático se quedó.</l>
-            <l>No podia comprender</l>
-            <l>De su amigo la salida,</l>
-            <l>Y estaba por no creer</l>
-            <l>Una tan mala partida.</l>
-            <l>Mas desengañose bien</l>
-            <l>De alli á bien pocos momentos,</l>
-            <l>Y pudo ver confirmadas</l>
-            <l>Las palabras del obrero.</l>
-            <l>Algunos trabajadores</l>
-            <l>Vió que hácia él caminaban</l>
-            <l>Y que él que á su frente iba</l>
-            <l>Un papelito llevaba.</l>
-            <l>Mas cual su sorpresa fué</l>
-            <l>Y cuanta su admiracion</l>
-            <l>Cuando vió que aquel papel</l>
-            <l>Era su propia cancion.</l>
-            <l>El que á la frente marchaba</l>
-            <l>Fuese hácia el de contado,</l>
-            <l>Y díjole estas palabras</l>
-            <l>En un tono algo elevado.</l>
-            <l>Tomad amigo tomad,</l>
-            <l>Tomad este papel raro,</l>
-            <l>Nosotros no le queremos</l>
-            <l>Porque le hallamos muy caro.</l>
-            <l>El mozo que estaba ya</l>
-            <l>Por el obrero advertido,</l>
-            <l>Contestóles de este modo</l>
-            <l>En tono muy desabrido.</l>
-            <l>Nada , nada, ayer pactamos</l>
-            <l>Los versos te quedarás,</l>
-            <l>Que una vez hecho un contrato</l>
-            <l>No puede volverse atrás.</l>
-            <l>Ni hacerlo podeis vosotros</l>
-          </lg>
-          <lg>
-            <l>Ni yo tampoco lo quioro,</l>
-            <l>Con que dejadme ya en paz</l>
-            <l>Y entregadme mi dinero.</l>
-            <l>No le querian pagar,</l>
-            <l>Mas los otros que sin duda</l>
-            <l>Encontrando mas barato</l>
-            <l>La letrilla copiar.</l>
-            <l>Los versos no deseamos,</l>
-            <l>Respondiéronle: nosotros</l>
-            <l>Y creemos somos libres</l>
-            <l>En volverlos ó aceptarlos.</l>
-            <l>De un modo tan sin razon,</l>
-            <l>Al verse el mozo burlado</l>
-            <l>Les dijo que ni una letra</l>
-            <l>Tomará de su cancion,</l>
-            <l>Entonces por ambas partes,</l>
-            <l>Las pasiones se ecsaltaron,</l>
-            <l>Y de palabras los bandos</l>
-            <l>Mutuamente se trabaron.</l>
-            <l>Comenzó una batahola,</l>
-            <l>Y una bulla y un gritar,</l>
-            <l>Que ninguno se cuidaba,</l>
-            <l>De mas que de alborotar.</l>
-            <l>Empezaron á salir</l>
-            <l>Personas por las ventanas,</l>
-            <l>Pronto los gritos llegaron,</l>
-            <l>Hasta el amo de la fàbrica.</l>
-            <l>De su casa esto salióse</l>
-            <l>Con el semblante enojado,</l>
-            <l>Y ganada la escalera</l>
-            <l>En la calle se ha plantado.</l>
-            <l>¿ Que es esto? grita enojado</l>
-            <l>A que fin tal griteria</l>
-            <l>Este tremendo alboroto,</l>
-            <l>Decid pronto que motiva?</l>
-            <l>Entonces sus dependientes</l>
-            <l>El motivo le contaron,</l>
-            <l>Y como son unos versos</l>
-            <l>De todo aquello la causa.</l>
-            <l>Presentaronles al amo</l>
-            <l>Y el está tan emfadado,</l>
-          </lg>
-          <pb n="4" source="Varios_183_4.jpg" facs="fedora_Varios_183_4/full/full/0/default.jpg"/>
-          <lg>
-            <l>Que montado por la rabia</l>
-            <l>Los arrebata y los rasga.</l>
-            <l>El mozo del panadero</l>
-            <l>Al ver el fin de su canto,</l>
-            <l>No puede ya contenerse</l>
-            <l>Que le domina el coraje.</l>
-            <l>Saca del cinto el cuchillo</l>
-            <l>Que usa para el trabajo ,</l>
-            <l>Y al amo de los peones</l>
-            <l>Le aserta una cuchillada.</l>
-            <l>El amo cayose al pronto</l>
-            <l>Mas sin herida ni nada,</l>
-            <l>Que el cuchillo como consta</l>
-            <l>Es un cuchillo embotado.</l>
-            <l>Mas el pobre figurose</l>
-            <l>Que habia muerto al contrario,</l>
-            <l>Y hecho á correr presuroso</l>
-            <l>Lleno de susto y espanto.</l>
-            <l>Los trabajadores mismos</l>
-            <l>Creyeron muerto á su amo,</l>
-            <l>Y le amenazan airados</l>
-            <l>Cuchillos, piedras y palos.</l>
-            <l>Tras él hechan á correr</l>
-            <l>Quien una piedra le alcanza,</l>
-            <l>Y quien le tiene tan cerca</l>
-            <l>Que le arrima un garrotazo.</l>
-            <l>Herido el pobre mancebo ,</l>
-            <l>Corriendo desatinado,</l>
-            <l>Llega por fin á una calle</l>
-            <l>Que termina en la muralla.</l>
-            <l>El centinela al mirar</l>
-            <l>Un honbre lleno de sangre,</l>
-            <l>Perseguido de otros hombres</l>
-          </lg>
-          <lg>
-            <l>A todos manda hacer alto.</l>
-            <l>Empieza por dar aviso</l>
-            <l>A su respectivo cabo,</l>
-            <l>El cual oyendo el negocio</l>
-            <l>A todos les ha arrestado.</l>
-            <l>Partieron todos juntos</l>
-            <l>De alli hasta el cuerpo de guardia</l>
-            <l>Y enterado el oficial</l>
-            <l>A la autoridad los manda.</l>
-            <l>Esta obrando cuerdamente</l>
-            <l>Me los remite á la carcel,</l>
-            <l>Y con toda actividad</l>
-            <l>Forma principio à la causa.</l>
-            <l>Pero viendo que la herida</l>
-            <l>Fué cosa de cuasi nada ,</l>
-            <l>Y en atencion á que el mozo</l>
-            <l>Fué por otros provocado.</l>
-            <l>A todos libres ha puesto</l>
-            <l>Cargando costas y cargos,</l>
-            <l>A aquellos que provocaron</l>
-            <l>Tan desagradable lance.</l>
-            <l>Sirvaos esto de escarmiento</l>
-            <l>Jóvenes arrebatados,</l>
-            <l>Que no siempre los cuchillos</l>
-            <l>Encontrareis embotados.</l>
-            <l>Este lance aqui pasó</l>
-            <l>No hace aun muchas semanas,</l>
-            <l>Y el mancebo panadero</l>
-            <l>Vicente Calduch se llama.</l>
-            <l>Este lance aqui pasó</l>
-            <l>En la culta Barcelona,</l>
-            <l>Y el ya citado Calduch</l>
-            <l>Es natural de Ulldecona.</l>
-          </lg>
+
+          <l rend="indent">Esta fué por fin la letra</l>
+          <l>Como el mozo la acabó,</l>
+          <l>Y á la mañana siguiente</l>
+          <l>A sus vecinos la dió.</l>
+          <l rend="indent">Alguno de estos obreros,</l>
+          <l>A encontrarle despues fué</l>
+          <l>Y le dijo en sus palabras</l>
+          <l>Lo que ha decir pasaré.</l>
+          <l rend="indent">Mis amigos de trabajo</l>
+          <l>Tus versos copiarán</l>
+          <l>Y ya verás como luego</l>
+          <l>A qui te los volverán.</l>
+
+          <pb n="3" source="Varios_183_3.jpg" facs="varios/Varios_183_3.jpg/"/>
+
+          <l rend="indent">La escusa que darán ellos</l>
+          <l>Me parece la comprendo</l>
+          <l>Vendrán todos á encontrarte</l>
+          <l>Que son muy caros diciendo.</l>
+          <l rend="indent">Esto dijo el tintorero</l>
+          <l>Y en seguida se marchó,</l>
+          <l>Y el bueno del panadero</l>
+          <l>Estático se quedó.</l>
+          <l rend="indent">No podia comprender</l>
+          <l>De su amigo la salida,</l>
+          <l>Y estaba por no creer</l>
+          <l>Una tan mala partida.</l>
+          <l rend="indent">Mas desengañose bien</l>
+          <l>De alli á bien pocos momentos,</l>
+          <l>Y pudo ver confirmadas</l>
+          <l>Las palabras del obrero.</l>
+          <l rend="indent">Algunos trabajadores</l>
+          <l>Vió que hácia él caminaban</l>
+          <l>Y que él que á su frente iba</l>
+          <l>Un papelito llevaba.</l>
+          <l rend="indent">Mas cual su sorpresa fué</l>
+          <l>Y cuanta su admiracion</l>
+          <l>Cuando vió que aquel papel</l>
+          <l>Era su propia cancion.</l>
+          <l rend="indent">El que á la frente marchaba</l>
+          <l>Fuese hácia el de contado,</l>
+          <l>Y díjole estas palabras</l>
+          <l>En un tono algo elevado.</l>
+          <l rend="indent">Tomad amigo tomad,</l>
+          <l>Tomad este papel raro,</l>
+          <l>Nosotros no le queremos</l>
+          <l>Porque le hallamos muy caro.</l>
+          <l rend="indent">El mozo que estaba ya</l>
+          <l>Por el obrero advertido,</l>
+          <l>Contestóles de este modo</l>
+          <l>En tono muy desabrido.</l>
+          <l rend="indent">Nada , nada, ayer pactamos</l>
+          <l>Los versos te quedarás,</l>
+          <l>Que una vez hecho un contrato</l>
+          <l>No puede volverse atrás.</l>
+          <l rend="indent">Ni hacerlo podeis vosotros</l>
+          <l>Ni yo tampoco lo quioro,</l>
+          <l>Con que dejadme ya en paz</l>
+          <l>Y entregadme mi dinero.</l>
+          <l rend="indent">No le querian pagar,</l>
+          <l>Mas los otros que sin duda</l>
+          <l>Encontrando mas barato</l>
+          <l>La letrilla copiar.</l>
+          <l rend="indent">Los versos no deseamos,</l>
+          <l>Respondiéronle: nosotros</l>
+          <l>Y creemos somos libres</l>
+          <l>En volverlos ó aceptarlos.</l>
+          <l rend="indent">De un modo tan sin razon,</l>
+          <l>Al verse el mozo burlado</l>
+          <l>Les dijo que ni una letra</l>
+          <l>Tomará de su cancion,</l>
+          <l rend="indent">Entonces por ambas partes,</l>
+          <l>Las pasiones se ecsaltaron,</l>
+          <l>Y de palabras los bandos</l>
+          <l>Mutuamente se trabaron.</l>
+          <l rend="indent">Comenzó una batahola,</l>
+          <l>Y una bulla y un gritar,</l>
+          <l>Que ninguno se cuidaba,</l>
+          <l>De mas que de alborotar.</l>
+          <l rend="indent">Empezaron á salir</l>
+          <l>Personas por las ventanas,</l>
+          <l>Pronto los gritos llegaron,</l>
+          <l>Hasta el amo de la fàbrica.</l>
+          <l rend="indent">De su casa esto salióse</l>
+          <l>Con el semblante enojado,</l>
+          <l>Y ganada la escalera</l>
+          <l>En la calle se ha plantado.</l>
+          <l rend="indent">¿ Que es esto? grita enojado</l>
+          <l>A que fin tal griteria</l>
+          <l>Este tremendo alboroto,</l>
+          <l>Decid pronto que motiva?</l>
+          <l rend="indent">Entonces sus dependientes</l>
+          <l>El motivo le contaron,</l>
+          <l>Y como son unos versos</l>
+          <l>De todo aquello la causa.</l>
+          <l rend="indent">Presentaronles al amo</l>
+          <l>Y el está tan emfadado,</l>
+
+          <pb n="4" source="Varios_183_4.jpg" facs="varios/Varios_183_4.jpg/"/>
+
+          <l>Que montado por la rabia</l>
+          <l>Los arrebata y los rasga.</l>
+          <l rend="indent">El mozo del panadero</l>
+          <l>Al ver el fin de su canto,</l>
+          <l>No puede ya contenerse</l>
+          <l>Que le domina el coraje.</l>
+          <l rend="indent">Saca del cinto el cuchillo</l>
+          <l>Que usa para el trabajo ,</l>
+          <l>Y al amo de los peones</l>
+          <l>Le aserta una cuchillada.</l>
+          <l rend="indent">El amo cayose al pronto</l>
+          <l>Mas sin herida ni nada,</l>
+          <l>Que el cuchillo como consta</l>
+          <l>Es un cuchillo embotado.</l>
+          <l rend="indent">Mas el pobre figurose</l>
+          <l>Que habia muerto al contrario,</l>
+          <l>Y hecho á correr presuroso</l>
+          <l>Lleno de susto y espanto.</l>
+          <l rend="indent">Los trabajadores mismos</l>
+          <l>Creyeron muerto á su amo,</l>
+          <l>Y le amenazan airados</l>
+          <l>Cuchillos, piedras y palos.</l>
+          <l rend="indent">Tras él hechan á correr</l>
+          <l>Quien una piedra le alcanza,</l>
+          <l>Y quien le tiene tan cerca</l>
+          <l>Que le arrima un garrotazo.</l>
+          <l rend="indent">Herido el pobre mancebo ,</l>
+          <l>Corriendo desatinado,</l>
+          <l>Llega por fin á una calle</l>
+          <l>Que termina en la muralla.</l>
+          <l rend="indent">El centinela al mirar</l>
+          <l>Un honbre lleno de sangre,</l>
+          <l>Perseguido de otros hombres</l>
+          <l>A todos manda hacer alto.</l>
+          <l rend="indent">Empieza por dar aviso</l>
+          <l>A su respectivo cabo,</l>
+          <l>El cual oyendo el negocio</l>
+          <l>A todos les ha arrestado.</l>
+          <l rend="indent">Partieron todos juntos</l>
+          <l>De alli hasta el cuerpo de guardia</l>
+          <l>Y enterado el oficial</l>
+          <l>A la autoridad los manda.</l>
+          <l rend="indent">Esta obrando cuerdamente</l>
+          <l>Me los remite á la carcel,</l>
+          <l>Y con toda actividad</l>
+          <l>Forma principio à la causa.</l>
+          <l rend="indent">Pero viendo que la herida</l>
+          <l>Fué cosa de cuasi nada ,</l>
+          <l>Y en atencion á que el mozo</l>
+          <l>Fué por otros provocado.</l>
+          <l rend="indent">A todos libres ha puesto</l>
+          <l>Cargando costas y cargos,</l>
+          <l>A aquellos que provocaron</l>
+          <l>Tan desagradable lance.</l>
+          <l rend="indent">Sirvaos esto de escarmiento</l>
+          <l>Jóvenes arrebatados,</l>
+          <l>Que no siempre los cuchillos</l>
+          <l>Encontrareis embotados.</l>
+          <l rend="indent">Este lance aqui pasó</l>
+          <l>No hace aun muchas semanas,</l>
+          <l>Y el mancebo panadero</l>
+          <l>Vicente Calduch se llama.</l>
+          <l rend="indent">Este lance aqui pasó</l>
+          <l>En la culta Barcelona,</l>
+          <l>Y el ya citado Calduch</l>
+          <l>Es natural de Ulldecona.</l>
+
           <trailer>FIN.</trailer>
         </div>
         <div type="colofon">

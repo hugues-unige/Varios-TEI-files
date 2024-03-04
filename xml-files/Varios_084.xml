@@ -1,18 +1,17 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../Schema/oddPliego_varios.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:alto="http://www.loc.gov/standards/alto/ns-v4#" xml:id="Varios_084">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Varios_084">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>CANSÓ NOVA DE LA VIDA Y COSTUMS DELS PACESOS</title>
+        <title>CANSÓ NOVA DE LA VIDA Y COSTUMS DELS PAGESOS</title>
         <respStmt>
           <name/>
           <resp>Codificación TEI</resp>
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <authority role="rightsHolder">Bibliothèque Universitaire de
-                              Genève</authority>
+        <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
         <availability status="restricted">
           <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
         </availability>
@@ -20,8 +19,7 @@
       <sourceDesc>
         <biblFull>
           <titleStmt>
-            <title type="titulo_completo">CANSÓ NOVA DE LA VIDA Y COSTUMS
-                                          DELS PACESOS</title>
+            <title type="titulo_completo">CANSÓ NOVA DE LA VIDA Y COSTUMS DELS PAGESOS</title>
             <title type="titulo_breve"/>
           </titleStmt>
           <editionStmt>
@@ -29,9 +27,8 @@
           </editionStmt>
           <publicationStmt>
             <publisher>Llorens</publisher>
-            <pubPlace ref="https://www.geonames.org/3128760/barcelona.html">Barcelona
-                                          :https://www.geonames.org/3128760/barcelona.html</pubPlace>
-            <date>[s.a]</date>
+            <pubPlace ref="https://www.geonames.org/3128760/barcelona.html">Barcelona</pubPlace>
+            <date cert="low" when="1800-01-01">[s.a.]</date>
           </publicationStmt>
         </biblFull>
         <msDesc>
@@ -39,7 +36,8 @@
             <country>Suisse</country>
             <settlement>Genève</settlement>
             <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"/>
-                                    </repository>
+            </repository>
+            <collection>Colección Varios</collection>
             <idno type="cote"/>
             <idno type="DOI">10.5281/zenodo.6566019</idno>
             <altIdentifier>
@@ -47,10 +45,14 @@
             </altIdentifier>
           </msIdentifier>
           <msContents>
-            <summary/>
+            <summary>Dos canciones</summary>
             <msItem>
-              <locus/>
-              <title/>
+              <locus>1-3</locus>
+              <title>Cansó nova de la vida y costums dels pagesos</title>
+            </msItem>
+            <msItem>
+              <locus>4</locus>
+              <title>Cansó de la pastora</title>
             </msItem>
           </msContents>
           <physDesc>
@@ -72,7 +74,7 @@
               <decoNote type="lista_grabados">
                 <list>
                   <item corresp="grabado_v_084_1.xml">grabado_v_084_1</item>
-                  <item corresp="grabado_v_084_1.xml">grabado_v_084_1</item>
+                  <item corresp="grabado_v_084_2.xml">grabado_v_084_2</item>
                 </list>
               </decoNote>
             </decoDesc>
@@ -94,18 +96,17 @@
     </fileDesc>
     <encodingDesc>
       <projectDesc>
-        <p>Este archivo fue creado en el marco del proyecto Desenrollando el
-                              Cordel/Démêler le cordel/Untangling the cordel, dirigido por la
-                              profesora Constance Carta de la Universidad de Ginebra, con el apoyo
-                              de la Fundación filantrópica Famille Sandoz-Monique de Meuron.</p>
+        <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+          cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la Universidad
+          de Ginebra, con el apoyo de la Fundación filantrópica Famille Sandoz-Monique de
+          Meuron.</p>
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR non corregido</p>
+          <p>OCR no corregido</p>
         </correction>
         <normalization>
-          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto
-                                    original.</p>
+          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
         </normalization>
         <punctuation>
           <p>Se conserva la puntuación original.</p>
@@ -114,7 +115,7 @@
     </encodingDesc>
     <profileDesc>
       <langUsage>
-        <language ident="es">Español</language>
+        <language ident="ca">Catalán</language>
       </langUsage>
       <textClass>
         <keywords xml:base="http://datos.bne.es/tema/">
@@ -126,10 +127,14 @@
       </textClass>
     </profileDesc>
     <revisionDesc>
-      <change when="2022-07-26" who="#PJ">Création du fichier TEI P5 et encodage du
-                        corps du texte</change>
+      <change when="2022-07-26" who="#PJ">Création du fichier TEI P5 et encodage du corps du
+        texte</change>
+      <change when="2024-01-09" who="#EL">Add the IIIF links</change>
     </revisionDesc>
   </teiHeader>
+  <facsimile>
+    <graphic url="varios/Varios_084_1.jpg/full/200,/0/default.jpg"/>
+  </facsimile>
   <sourceDoc xml:id="automaticTranscription">
     <surface xml:id="Varios_084_1" type="page" cert="silver">
       <graphic url="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_084_1/full/full/0/default.jpg"/>
@@ -1302,431 +1307,443 @@
   <text>
     <body>
       <div>
-        <pb n="1" source="Varios_084_1.jpg" facs="fedora_Varios_084_1/full/full/0/default.jpg"/>
-        <div type="parte" n="1">
-          <head type="primer_titulo"><lb/>CANSÓ NOVA<lb/>DE LA<lb/>VIDA Y COSTUMS DELS
-                                    PACESOS<lb/>Coro</head>
-          <p rend="negrita"><lb/>Coro</p>
-          <lg rend="cursiva">
-            <l>Lo pagés trevalla</l>
-            <l>de dia y de nit;</l>
-            <l>menja pa moreno</l>
-            <l>y beu ví aygalit.</l>
-          </lg>
-          <lg>
-            <l>Molts la vida dels pagesos</l>
-            <l>desitjarian sabé,</l>
-            <l>escolteu una miqueta</l>
-            <l>que jo vos la contaré.</l>
-          </lg>
-          <lg>
-            <l>Ells son los que mes treballan</l>
-            <l>y son los mes mal servits,</l>
-            <l>pel pobre se ha fet la palla</l>
-            <l>y 'l gra 's recull per los richs.</l>
-          </lg>
-          <lg>
-            <l>Quant tenen cinch ó sis anys</l>
-            <l>als entregan un cabás,</l>
-            <l>si no 'l portan ple de fems</l>
-            <l>no 'ls donan esmorsá pas.</l>
-          </lg>
-          <lg>
-            <l>En recorren tot lo poble,</l>
-            <l>la carretera també;</l>
-            <l>un bocí de pa moreno</l>
-            <l>ja 'l fan afanyá ben be.</l>
-          </lg>
-          <lg>
-            <l>Si volen brená á la tarde</l>
-            <l>antes que no sia fosch</l>
-            <l>tenen que empendre la marxa</l>
-            <l>y aná á buscá llenya al bosch.</l>
-          </lg>
-          <lg>
-            <l>En fan un feixet de brancas</l>
-            <l>tot fugint del guardiá,</l>
-            <l>perque si acás los atrapa</l>
-            <l>al vespre no hi há sopá.</l>
-          </lg>
-          <pb n="2" source="Varios_084_2.jpg" facs="fedora_Varios_084_2/full/full/0/default.jpg"/>
-          <lg>
-            <l>De aná á estudi no sen parla</l>
-            <l>perque lletrats no han de sé,</l>
-            <l>per cavá y fangá la terra</l>
-            <l>llibres no han de menesté.</l>
-          </lg>
-          <lg>
-            <l>Axís es qu' en veuréu tants</l>
-            <l>que s' en crian de llanuts,</l>
-            <l>y han de serví pels lletrats</l>
-            <l>tota sa vida de ruchs.</l>
-          </lg>
-          <lg>
-            <l>De aquells que van á jornal</l>
-            <l>la vida anem esplicant;</l>
-            <l>á punta de matinada</l>
-            <l>ja van marxant cap al camp.</l>
-          </lg>
-          <lg>
-            <l>Portan lo cávach al coll,</l>
-            <l>lo sarronet y 'l pitxell,</l>
-            <l>cada hu porta sas eynas,</l>
-            <l>sia jove ó sia veli.</l>
-          </lg>
-          <lg>
-            <l>Duas horas á lo menos</l>
-            <l>antes de que 'l sol no surt,</l>
-            <l>que ja están cavant la terra,</l>
-            <l>fangant ó fent algun surch.</l>
-          </lg>
-          <lg>
-            <l>Sia estiu ó sia ivern,</l>
-            <l>la obligació han de fé.</l>
-            <l>Ja podeu di que 'ls pagesos</l>
-            <l>als fan descarná 'l xangué.</l>
-          </lg>
-          <lg>
-            <l>Surtint lo sol fan beguda</l>
-            <l>fins á la hora de esmorsá,</l>
-            <l>que sempre 'l porta la jove,</l>
-            <l>lo baylet ó 'l rabadá.</l>
-          </lg>
-          <lg>
-            <l>Algun temps als davan ví</l>
-            <l>ara ab l' oidiun malehit,</l>
-            <l>en veuen un trago d' aygua,</l>
-            <l>y en acabat bon profit.</l>
-          </lg>
-          <lg>
-            <l>Tocant las dotze del dia,</l>
-            <l>se arriman tots á un rasé,</l>
-            <l>dinan un plat de escudella.</l>
-            <l>y de vi 'n veu sols qui 'n té.</l>
-          </lg>
-          <lg>
-            <l>Un tallet de cansalada,</l>
-            <l>perque la carn de moltó</l>
-            <l>no 'n solen menjá en tot l'́ any,</l>
-            <l>sino en la festa majó.</l>
-          </lg>
-          <lg>
-            <l>Del pa no cal que us ne parli,</l>
-            <l>perque ja tothom ho sap,</l>
-            <l>que de tots llegurs hi ha,</l>
-            <l>y lo que menos té es blat.</l>
-          </lg>
-          <lg>
-            <l>Lo fajol y blat de moro</l>
-            <l>axó casi de precis,</l>
-            <l>y encara n' hi ha molts d' altres</l>
-            <l>que 'l carregan de panís.</l>
-          </lg>
-          <lg>
-            <l>Per sopá un plat de monjetas,</l>
-            <l>de cols, patatas ó naps;</l>
-            <l>que junt ab lo calderó</l>
-            <l>dels porchs han sigut cuynats.</l>
-          </lg>
-          <lg>
-            <l>Resan despres la rosari,</l>
-            <l>y sen van á descansá</l>
-            <l>á dessobre un jas de palla,</l>
-            <l>y bona nit fins demá.</l>
-          </lg>
-          <lg>
-            <l>Ja han traballat tot lo dia,</l>
-            <l>y quatre rals han guanyat:</l>
-            <l>manteniune la familia,</l>
-            <l>compreulos vestit y calsat.</l>
-          </lg>
-          <lg>
-            <l>Pagueu metge y cirurgiá</l>
-            <l>si es que esteu aconductats,</l>
-            <l>¡Ay infelissos pagesos</l>
-            <l>Ja esteu, ja, ben arreglats!</l>
-          </lg>
-          <lg>
-            <l>Mentres que van á jornal</l>
-            <l>no descansan un moment,</l>
-            <l>per ells als té lo mateix</l>
-            <l>que plogui ó que fassi vent</l>
-          </lg>
-          <lg>
-            <l>Si plou en pelan panotxas,</l>
-            <l>si fa sech en fan parets;</l>
-            <l>ab quatre rals y la vida,</l>
-            <l>qué ho han de afanyá, pobrets!</l>
-          </lg>
-          <lg>
-            <l>Aquells comparets que tenen</l>
-            <l>una vinya y un tros d' hort</l>
-            <l>ó un petit camp per sembrá,</l>
-            <l>sembla tenen un tresor.</l>
-          </lg>
-          <lg>
-            <l>Cullen un poquet de vi</l>
-            <l>y un altre poquet de pa,</l>
-            <l>aixís van passant la vida</l>
-            <l>dient Deu ajudará.</l>
-          </lg>
-          <lg>
-            <l>Aqueixos solen passá</l>
-            <l>molt mes penas que 'ls brassers,</l>
-            <l>han de vendre la cullita</l>
-            <l>per arreplegá diners.</l>
-          </lg>
-          <lg>
-            <l>Per podé pagá el reyalme</l>
-            <l>y altras mil contribucions,</l>
-            <l>en quedan mes esquilats</l>
-            <l>que cap ramat de moltons.</l>
-          </lg>
-          <lg>
-            <l>Se li esboyran los ciurons,</l>
-            <l>las monjetas y el fajol;</l>
-            <l>li cau una pedregada</l>
-            <l>que 'l deixa sense consol.</l>
-            <l>Si fa sech, no pot sembrá;</l>
-          </lg>
-          <lg>
-            <l>si plon, se pudreix lo blat;</l>
-            <l>ab prou feynas pot menjarne</l>
-            <l>treballant desesperat.</l>
-          </lg>
-          <lg>
-            <l>Per podé torná á sembrá</l>
-            <l>té d' enmanllevá dinés,</l>
-            <l>á pagá per la cullita</l>
-            <l>per un duro 'n paga tres.</l>
-          </lg>
-          <lg>
-            <l>En lo mon no hi ha conciencia,</l>
-            <l>la usura 'l te corromput,</l>
-            <l>tothom afegeix al gep</l>
-            <l>del infelís geperut.</l>
-          </lg>
-          <lg>
-            <l>Tot ne surt del cul del frare,</l>
-            <l>deya un refrá molt antich,</l>
-            <l>pero de des que son fora</l>
-            <l>jo d' altra manera ho dich.</l>
-          </lg>
-          <pb n="3" source="Varios_084_3.jpg" facs="fedora_Varios_084_3/full/full/0/default.jpg"/>
-          <lg>
-            <l>Las contribucions y pagos,</l>
-            <l>delmes, gastos y demés;</l>
-            <l>esteune certs y segús</l>
-            <l>que surt del cul del pagés.</l>
-          </lg>
-          <lg>
-            <l>Quant passa tropa pel poble,</l>
-            <l>li té de da allotjament,</l>
-            <l>foch, aygua, sal y vinagre,</l>
-            <l>y altres cosetas se entén.</l>
-          </lg>
-          <lg>
-            <l>Ells pel seu compte recullen</l>
-            <l>si hi ha res mal endressat,</l>
-            <l>y gracias si no 'l carregan</l>
-            <l>ab la insignia de sant March.</l>
-          </lg>
-          <lg>
-            <l>Com tota la seva hisenda</l>
-            <l>la tenen posada al ras,</l>
-            <l>allí tothom espigola</l>
-            <l>tant sols estirant lo bras.</l>
-          </lg>
-          <lg>
-            <l>Los uns lí prenen las figas.</l>
-            <l>altres 'ls rabims y albercochs,</l>
-            <l>y hasta á voltas las carbassas</l>
-            <l>que guardava pels seus porchs.</l>
-          </lg>
-          <lg>
-            <l>Té de mantení 'ls aucells</l>
-            <l>ab totas llavors y blats,</l>
-            <l>y aquells ancells ab casaca</l>
-            <l>que corren per las ciutats.</l>
-          </lg>
-          <lg>
-            <l>Procuradors y notaris.</l>
-            <l>els curials y advocats</l>
-            <l>ab la esquena dels pagesos</l>
-            <l>en viuen ben regalats.</l>
-          </lg>
-          <lg>
-            <l>Per una regada d' aygua</l>
-            <l>ó per un tros de paret,</l>
-            <l>que hi ha de una vinya á l' altra</l>
-            <l>tot seguit arman un plet.</l>
-          </lg>
-          <lg>
-            <l>Van á buscá un advocat</l>
-            <l>que á tots dos dona rahó,</l>
-            <l>lo qu' ells volen son els quartos</l>
-            <l>y endevant la professó.</l>
-          </lg>
-          <lg>
-            <l>Quant los deixan sense quartos</l>
-            <l>y 's veuen regoneguts,</l>
-            <l>allavors es quant ue diuen</l>
-            <l>qui gemega ya ha rebut.</l>
-          </lg>
-          <lg>
-            <l>Aqueixa gent no treballan</l>
-            <l>si es que no veuen diners;</l>
-            <l>fan ferlos una avinensa</l>
-            <l>com si no hagués estat res.</l>
-          </lg>
-          <lg>
-            <l>Quant son al dia de festa</l>
-            <l>en pasan lo dematí</l>
-            <l>arreglant tot lo de casa</l>
-            <l>y 'n portan blat al molí.</l>
-          </lg>
-          <lg>
-            <l>A las deu van al ofici</l>
-            <l>que diu lo senyó Rectó:</l>
-            <l>y alli están fins á las onze</l>
-            <l>Si 'ls fa un poquet de sermó.</l>
-          </lg>
-          <lg>
-            <l>Quant son adintre la iglesia</l>
-            <l>se assentan en un racó,</l>
-            <l>ó be cerca de la porta</l>
-            <l>per podé surtí milló.</l>
-          </lg>
-          <lg>
-            <l>Parlan del burro y la burra</l>
-            <l>ab lo qui está al seu costat,</l>
-            <l>si las monjetas son fetas</l>
-            <l>y 'l blat de moro es granat.</l>
-          </lg>
-          <lg>
-            <l>casi ve 'ls veuréu á tots</l>
-            <l>Els que no troban conversa</l>
-            <l>que tan prompte con se assentan</l>
-            <l>ja están roncant com uns porchs.</l>
-          </lg>
-          <lg>
-            <l>No 'ls despertan 'ls que cantan</l>
-            <l>ni 'l soroll de repicá,</l>
-            <l>ni 'l rotllo de las campanas</l>
-            <l>quant ne van á reservá.</l>
-          </lg>
-          <lg>
-            <l>A la tarde hi ha balladas</l>
-            <l>á la plassa ja se enten,</l>
-            <l>allí veuréu acudirhi</l>
-            <l>las mares ab lo jovent.</l>
-          </lg>
-          <lg>
-            <l>Ab lo so del tamborino,</l>
-            <l>la gayta y lo fluviol,</l>
-            <l>en fan patá unas sardanas</l>
-            <l>que no las balla qui vol.</l>
-          </lg>
-          <lg>
-            <l>Al vespre cap á rosari,</l>
-            <l>á sopá y dejorn al llit;</l>
-            <l>aqueixa vida la fan</l>
-            <l>tant lo pobre com lo rich.</l>
-          </lg>
-          <lg>
-            <l>L' endemá han de aná á matinas</l>
-            <l>per podé guanyá 'l jornal,</l>
-            <l>que ab los amos no hi ha escusas,</l>
-            <l rend="cursiva">toma el pan y deixa 'l ral.</l>
-          </lg>
-          <lg>
-            <l>Aqueixa es la vida triste</l>
-            <l>del pagés menesterós.</l>
-            <l>dels que son richs no 'n parlém,</l>
-            <l>que aquells son com los senyós.</l>
-          </lg>
-          <lg>
-            <l>Puig que agafan la escopeta</l>
-            <l>y sen van cap á cassá,</l>
-            <l>y diuen qui ha fet avuy,</l>
-            <l>també deurá fé demá.</l>
-          </lg>
-          <lg>
-            <l>Si us agradan eixas coblas</l>
-            <l>compreulas per dos quartets;</l>
-            <l>per divertirvos un rato</l>
-            <l>no seréu pas mes pobrets.</l>
-          </lg>
-          <lg>
-            <l>Que per tan poca moneda</l>
-            <l>ab tan senzillas cansons.</l>
-            <l>estém certs que trobareu</l>
-            <l>algunas bonas llisons.</l>
-          </lg>
-          <trailer>FÍ.</trailer>
-          <pb n="4" source="Varios_084_4.jpg" facs="fedora_Varios_084_4/full/full/0/default.jpg"/>
+        <div>
+          <pb n="1" source="Varios_084_1.jpg" facs="varios/Varios_084_1.jpg/"/>
+
+          <div n="1">
+            <head type="primer_titulo"><lb/>CANSÓ NOVA<lb/>DE LA<lb/>VIDA Y COSTUMS DELS
+              PAGESOS</head>
+
+            <lg>
+              <head rend="negrita"><lb/>Coro</head>
+              <l rend="cursiva">Lo pagés trevalla</l>
+              <l rend="cursiva">de dia y de nit;</l>
+              <l rend="cursiva">menja pa moreno</l>
+              <l rend="cursiva">y beu ví aygalit.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Molts la vida dels pagesos</l>
+              <l>desitjarian sabé,</l>
+              <l>escolteu una miqueta</l>
+              <l>que jo vos la contaré.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Ells son los que mes treballan</l>
+              <l>y son los mes mal servits,</l>
+              <l>pel pobre se ha fet la palla</l>
+              <l>y 'l gra 's recull per los richs.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Quant tenen cinch ó sis anys</l>
+              <l>als entregan un cabás,</l>
+              <l>si no 'l portan ple de fems</l>
+              <l>no 'ls donan esmorsá pas.</l>
+            </lg>
+            <lg>
+              <l rend="indent">En recorren tot lo poble,</l>
+              <l>la carretera també;</l>
+              <l>un bocí de pa moreno</l>
+              <l>ja 'l fan afanyá ben be.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Si volen brená á la tarde</l>
+              <l>antes que no sia fosch</l>
+              <l>tenen que empendre la marxa</l>
+              <l>y aná á buscá llenya al bosch.</l>
+            </lg>
+            <lg>
+              <l rend="indent">En fan un feixet de brancas</l>
+              <l>tot fugint del guardiá,</l>
+              <l>perque si acás los atrapa</l>
+              <l>al vespre no hi há sopá.</l>
+            </lg>
+
+            <pb n="2" source="Varios_084_2.jpg" facs="varios/Varios_084_2.jpg/"/>
+
+            <lg>
+              <l rend="indent">De aná á estudi no sen parla</l>
+              <l>perque lletrats no han de sé,</l>
+              <l>per cavá y fangá la terra</l>
+              <l>llibres no han de menesté.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Axís es qu' en veuréu tants</l>
+              <l>que s' en crian de llanuts,</l>
+              <l>y han de serví pels lletrats</l>
+              <l>tota sa vida de ruchs.</l>
+            </lg>
+            <lg>
+              <l rend="indent">De aquells que van á jornal</l>
+              <l>la vida anem esplicant;</l>
+              <l>á punta de matinada</l>
+              <l>ja van marxant cap al camp.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Portan lo cávach al coll,</l>
+              <l>lo sarronet y 'l pitxell,</l>
+              <l>cada hu porta sas eynas,</l>
+              <l>sia jove ó sia veli.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Duas horas á lo menos</l>
+              <l>antes de que 'l sol no surt,</l>
+              <l>que ja están cavant la terra,</l>
+              <l>fangant ó fent algun surch.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Sia estiu ó sia ivern,</l>
+              <l>la obligació han de fé.</l>
+              <l>Ja podeu di que 'ls pagesos</l>
+              <l>als fan descarná 'l xangué.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Surtint lo sol fan beguda</l>
+              <l>fins á la hora de esmorsá,</l>
+              <l>que sempre 'l porta la jove,</l>
+              <l>lo baylet ó 'l rabadá.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Algun temps als davan ví</l>
+              <l>ara ab l' <hi rend="cursiva">oidium</hi> malehit,</l>
+              <l>en veuen un trago d' aygua,</l>
+              <l>y en acabat bon profit.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Tocant las dotze del dia,</l>
+              <l>se arriman tots á un rasé,</l>
+              <l>dinan un plat de escudella.</l>
+              <l>y de vi 'n veu sols qui 'n té.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Un tallet de cansalada,</l>
+              <l>perque la carn de moltó</l>
+              <l>no 'n solen menjá en tot l'́ any,</l>
+              <l>sino en la festa majó.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Del pa no cal que us ne parli,</l>
+              <l>perque ja tothom ho sap,</l>
+              <l>que de tots llegurs hi ha,</l>
+              <l>y lo que menos té es blat.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Lo fajol y blat de moro</l>
+              <l>axó casi de precis,</l>
+              <l>y encara n' hi ha molts d' altres</l>
+              <l>que 'l carregan de panís.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Per sopá un plat de monjetas,</l>
+              <l>de cols, patatas ó naps;</l>
+              <l>que junt ab lo calderó</l>
+              <l>dels porchs han sigut cuynats.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Resan despres la rosari,</l>
+              <l>y sen van á descansá</l>
+              <l>á dessobre un jas de palla,</l>
+              <l>y bona nit fins demá.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Ja han traballat tot lo dia,</l>
+              <l>y quatre rals han guanyat:</l>
+              <l>manteniune la familia,</l>
+              <l>compreulos vestit y calsat.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Pagueu metge y cirurgiá</l>
+              <l>si es que esteu aconductats,</l>
+              <l>¡Ay infelissos pagesos</l>
+              <l>Ja esteu, ja, ben arreglats!</l>
+            </lg>
+            <lg>
+              <l rend="indent">Mentres que van á jornal</l>
+              <l>no descansan un moment,</l>
+              <l>per ells als té lo mateix</l>
+              <l>que plogui ó que fassi vent</l>
+            </lg>
+            <lg>
+              <l rend="indent">Si plou en pelan panotxas,</l>
+              <l>si fa sech en fan parets;</l>
+              <l>ab quatre rals y la vida,</l>
+              <l>qué ho han de afanyá, pobrets!</l>
+            </lg>
+            <lg>
+              <l rend="indent">Aquells comparets que tenen</l>
+              <l>una vinya y un tros d' hort</l>
+              <l>ó un petit camp per sembrá,</l>
+              <l>sembla tenen un tresor.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Cullen un poquet de vi</l>
+              <l>y un altre poquet de pa,</l>
+              <l>aixís van passant la vida</l>
+              <l>dient Deu ajudará.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Aqueixos solen passá</l>
+              <l>molt mes penas que 'ls brassers,</l>
+              <l>han de vendre la cullita</l>
+              <l>per arreplegá diners.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Per podé pagá el reyalme</l>
+              <l>y altras mil contribucions,</l>
+              <l>en quedan mes esquilats</l>
+              <l>que cap ramat de moltons.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Se li esboyran los ciurons,</l>
+              <l>las monjetas y el fajol;</l>
+              <l>li cau una pedregada</l>
+              <l>que 'l deixa sense consol.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Si fa sech, no pot sembrá;</l>
+              <l>si plon, se pudreix lo blat;</l>
+              <l>ab prou feynas pot menjarne</l>
+              <l>treballant desesperat.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Per podé torná á sembrá</l>
+              <l>té d' enmanllevá dinés,</l>
+              <l>á pagá per la cullita</l>
+              <l>per un duro 'n paga tres.</l>
+            </lg>
+            <lg>
+              <l rend="indent">En lo mon no hi ha conciencia,</l>
+              <l>la usura 'l te corromput,</l>
+              <l>tothom afegeix al gep</l>
+              <l>del infelís geperut.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Tot ne surt del cul del frare,</l>
+              <l>deya un refrá molt antich,</l>
+              <l>pero de des que son fora</l>
+              <l>jo d' altra manera ho dich.</l>
+            </lg>
+
+            <pb n="3" source="Varios_084_3.jpg" facs="varios/Varios_084_3.jpg/"/>
+
+            <lg>
+              <l rend="indent">Las contribucions y pagos,</l>
+              <l>delmes, gastos y demés;</l>
+              <l>esteune certs y segús</l>
+              <l>que surt del cul del pagés.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Quant passa tropa pel poble,</l>
+              <l>li té de da allotjament,</l>
+              <l>foch, aygua, sal y vinagre,</l>
+              <l>y altres cosetas se entén.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Ells pel seu compte recullen</l>
+              <l>si hi ha res mal endressat,</l>
+              <l>y gracias si no 'l carregan</l>
+              <l>ab la insignia de sant March.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Com tota la seva hisenda</l>
+              <l>la tenen posada al ras,</l>
+              <l>allí tothom espigola</l>
+              <l>tant sols estirant lo bras.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Los uns lí prenen las figas.</l>
+              <l>altres 'ls rabims y albercochs,</l>
+              <l>y hasta á voltas las carbassas</l>
+              <l>que guardava pels seus porchs.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Té de mantení 'ls aucells</l>
+              <l>ab totas llavors y blats,</l>
+              <l>y aquells ancells ab casaca</l>
+              <l>que corren per las ciutats.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Procuradors y notaris.</l>
+              <l>els curials y advocats</l>
+              <l>ab la esquena dels pagesos</l>
+              <l>en viuen ben regalats.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Per una regada d' aygua</l>
+              <l>ó per un tros de paret,</l>
+              <l>que hi ha de una vinya á l' altra</l>
+              <l>tot seguit arman un plet.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Van á buscá un advocat</l>
+              <l>que á tots dos dona rahó,</l>
+              <l>lo qu' ells volen son els quartos</l>
+              <l>y endevant la professó.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Quant los deixan sense quartos</l>
+              <l>y 's veuen regoneguts,</l>
+              <l>allavors es quant ue diuen</l>
+              <l>qui gemega ya ha rebut.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Aqueixa gent no treballan</l>
+              <l>si es que no veuen diners;</l>
+              <l>fan ferlos una avinensa</l>
+              <l>com si no hagués estat res.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Quant son al dia de festa</l>
+              <l>en pasan lo dematí</l>
+              <l>arreglant tot lo de casa</l>
+              <l>y 'n portan blat al molí.</l>
+            </lg>
+            <lg>
+              <l rend="indent">A las deu van al ofici</l>
+              <l>que diu lo senyó Rectó:</l>
+              <l>y alli están fins á las onze</l>
+              <l>Si 'ls fa un poquet de sermó.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Quant son adintre la iglesia</l>
+              <l>se assentan en un racó,</l>
+              <l>ó be cerca de la porta</l>
+              <l>per podé surtí milló.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Parlan del burro y la burra</l>
+              <l>ab lo qui está al seu costat,</l>
+              <l>si las monjetas son fetas</l>
+              <l>y 'l blat de moro es granat.</l>
+            </lg>
+            <lg>
+              <l rend="indent">casi ve 'ls veuréu á tots</l>
+              <l>Els que no troban conversa</l>
+              <l>que tan prompte con se assentan</l>
+              <l>ja están roncant com uns porchs.</l>
+            </lg>
+            <lg>
+              <l rend="indent">No 'ls despertan 'ls que cantan</l>
+              <l>ni 'l soroll de repicá,</l>
+              <l>ni 'l rotllo de las campanas</l>
+              <l>quant ne van á reservá.</l>
+            </lg>
+            <lg>
+              <l rend="indent">A la tarde hi ha balladas</l>
+              <l>á la plassa ja se enten,</l>
+              <l>allí veuréu acudirhi</l>
+              <l>las mares ab lo jovent.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Ab lo so del tamborino,</l>
+              <l>la gayta y lo fluviol,</l>
+              <l>en fan patá unas sardanas</l>
+              <l>que no las balla qui vol.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Al vespre cap á rosari,</l>
+              <l>á sopá y dejorn al llit;</l>
+              <l>aqueixa vida la fan</l>
+              <l>tant lo pobre com lo rich.</l>
+            </lg>
+            <lg>
+              <l rend="indent">L' endemá han de aná á matinas</l>
+              <l>per podé guanyá 'l jornal,</l>
+              <l>que ab los amos no hi ha escusas,</l>
+              <l><hi rend="cursiva">toma el pan</hi> y deixa 'l ral.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Aqueixa es la vida triste</l>
+              <l>del pagés menesterós.</l>
+              <l>dels que son richs no 'n parlém,</l>
+              <l>que aquells son com los senyós.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Puig que agafan la escopeta</l>
+              <l>y sen van cap á cassá,</l>
+              <l>y diuen qui ha fet avuy,</l>
+              <l>també deurá fé demá.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Si us agradan eixas coblas</l>
+              <l>compreulas per dos quartets;</l>
+              <l>per divertirvos un rato</l>
+              <l>no seréu pas mes pobrets.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Que per tan poca moneda</l>
+              <l>ab tan senzillas cansons.</l>
+              <l>estém certs que trobareu</l>
+              <l>algunas bonas llisons.</l>
+            </lg>
+            <trailer>FÍ.</trailer>
+          </div>
+
+          <div n="2">
+            <pb n="4" source="Varios_084_4.jpg" facs="varios/Varios_084_4.jpg/"/>
+
+            <head type="titulo_cancion"><lb/>CANSÓ DE LA PASTORA</head>
+
+            <lg>
+              <l rend="indent">Mon pare m' ha casada,</l>
+              <l>m' ha dada á un pastó,</l>
+              <l>me 'n venta garrotadas,</l>
+              <l>Deu men guart de pitjós.</l>
+            </lg>
+            <lg rend="cursiva">
+              <head type="titulo_estrofa"><lb/>Coro.</head>
+              <l rend="indent">Jo que no l' aymo gayre,</l>
+              <l>jo que no l' aymo, no,</l>
+              <l>dich que no l' aymo gayre</l>
+              <l>la vida del pastó.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Ell se está en la montanya,</l>
+              <l>jo en lo poble de Muyó;</l>
+              <l>ell beu de la aygua fresca,</l>
+              <l>y jo ví del Rosselló.</l>
+            </lg>
+            <p rend="cursiva"><lb/>Coro.—Jo que no l' aymo gare, etc.</p>
+            <lg>
+              <l rend="indent">En derm ab la samarra,</l>
+              <l>jo ab llansols de cutó;</l>
+              <l>ell menja sopa ab oli,</l>
+              <l>jo ab caldo de moltó.</l>
+            </lg>
+            <p rend="cursiva"><lb/>Coro.—Jo que no l' aymo gare, etc.</p>
+            <lg>
+              <l rend="indent">Se pensa que estich sola,</l>
+              <l>sola non estich, no;</l>
+              <l>una estoneta ab lo Batlle,</l>
+              <l>y un altre ab lo Regidó.</l>
+            </lg>
+            <p rend="cursiva"><lb/>Coro.—Jo que no l' aymo gare, etc.</p>
+            <lg>
+              <l rend="indent">Pastoras de ma esfera</l>
+              <l>no vulgau cap pastó,</l>
+              <l>que encara que cumpliu</l>
+              <l>fan correr lo bastó.</l>
+            </lg>
+            <p rend="cursiva"><lb/>Coro.—Jo que no l' aymo gare, etc.</p>
+            <lg>
+              <l rend="indent">No poseu vostre amor</l>
+              <l>en rassa de pastó,</l>
+              <l>antes de fer tal cosa</l>
+              <l>quedau com era jo.</l>
+            </lg>
+            <lg rend="cursiva">
+              <head type="titulo_estrofa"><lb/>Coro.</head>
+              <l>Jo que no l' aymo gayre,</l>
+              <l>jo que no l' aymo, no,</l>
+              <l>dich que no l' aymo gayre</l>
+              <l>la vida del pastó.</l>
+            </lg>
+
+            <trailer rend="negrita">FÍ.</trailer>
+          </div>
         </div>
-        <div type="parte" n="2">
-          <head type="titulo_parte"><lb/>CANSÓ DE LA PASTORA</head>
-          <lg>
-            <l>Mon pare m' ha casada,</l>
-            <l>m' ha dada á un pastó,</l>
-            <l>me 'n venta garrotadas,</l>
-            <l>Deu men guart de pitjós.</l>
-          </lg>
-          <p><lb/>Coro.</p>
-          <lg rend="cursiva">
-            <l>Jo que no l' aymo gayre,</l>
-            <l>jo que no l' aymo, no,</l>
-            <l>dich que no l' aymo gayre</l>
-            <l>la vida del pastó.</l>
-          </lg>
-          <lg>
-            <l>Ell se está en la montanya,</l>
-            <l>jo en lo poble de Muyó;</l>
-            <l>ell beu de la aygua fresca,</l>
-            <l>y jo ví del Rosselló.</l>
-          </lg>
-          <p rend="cursiva"><lb/>Coro.—Jo que no l' aymo gare, etc.</p>
-          <lg>
-            <l>En derm ab la samarra,</l>
-            <l>jo ab llansols de cutó;</l>
-            <l>ell menja sopa ab oli,</l>
-            <l>jo ab caldo de moltó.</l>
-          </lg>
-          <p rend="cursiva"><lb/>Coro.—Jo que no l' aymo gare, etc.</p>
-          <lg>
-            <l>Se pensa que estich sola,</l>
-            <l>sola non estich, no;</l>
-            <l>una estoneta ab lo Batlle,</l>
-            <l>y un altre ab lo Regidó.</l>
-          </lg>
-          <p rend="cursiva"><lb/>Coro.—Jo que no l' aymo gare, etc.</p>
-          <lg>
-            <l>Pastoras de ma esfera</l>
-            <l>no vulgau cap pastó,</l>
-            <l>que encara que cumpliu</l>
-            <l>fan correr lo bastó.</l>
-          </lg>
-          <p rend="cursiva"><lb/>Coro.—Jo que no l' aymo gare, etc.</p>
-          <lg>
-            <l>No poseu vostre amor</l>
-            <l>en rassa de pastó,</l>
-            <l>antes de fer tal cosa</l>
-            <l>quedau com era jo.</l>
-          </lg>
-          <p><lb/>Coro.</p>
-          <lg rend="cursiva">
-            <l>Jo que no l' aymo gayre,</l>
-            <l>jo que no l' aymo, no,</l>
-            <l>dich que no l' aymo gayre</l>
-            <l>la vida del pastó.</l>
-          </lg>
-          <trailer>FÍ.</trailer>
-        </div>
+
         <div type="colofon">
-          <p><lb/>Barcelona.— Imps. de Llorens, Palma de Santa Catarina,
-                                    6,</p>
+          <p><lb/>Barcelona.— Imps. de Llorens, Palma de Santa Catarina, 6,</p>
         </div>
       </div>
     </body>

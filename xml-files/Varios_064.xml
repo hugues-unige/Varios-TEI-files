@@ -1,19 +1,17 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../Schema/oddPliego_varios.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:alto="http://www.loc.gov/standards/alto/ns-v4#" xml:id="Varios_064">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Varios_064">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>LA CANSÓ DEL POBRE. En la qual se declaran la infinitat de personas que
-                     lo pobre jornalé ha de manteni.</title>
+        <title>LA CANSÓ DEL POBRE</title>
         <respStmt>
           <name/>
           <resp>Codificación TEI</resp>
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <authority role="rightsHolder">Bibliothèque Universitaire de
-                            Genève</authority>
+        <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
         <availability status="restricted">
           <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
         </availability>
@@ -21,17 +19,17 @@
       <sourceDesc>
         <biblFull>
           <titleStmt>
-            <title type="titulo_completo">LA CANSÓ DEL POBRE. En la qual se declaran la infinitat de personas que
-                           lo pobre jornalé ha de manteni.</title>
-            <title type="titulo_breve">LA CANSÓ DEL POBRE</title>
+            <title type="titulo_completo">LA CANSÓ DEL POBRE. En la qual se declaran la infinitat de
+              personas que lo pobre jornalé ha de manteni.</title>
+            <title type="titulo_breve">LA CANSÓ DEL POBRE.</title>
           </titleStmt>
           <editionStmt>
             <p/>
           </editionStmt>
           <publicationStmt>
-            <publisher>[s.n]</publisher>
+            <publisher>[s.n.]</publisher>
             <pubPlace ref="https://www.geonames.org/3128760/barcelona.html">Barcelona</pubPlace>
-            <date/>
+            <date cert="low" when="1800-01-01">[s.a.]</date>
           </publicationStmt>
         </biblFull>
         <msDesc>
@@ -39,7 +37,8 @@
             <country>Suisse</country>
             <settlement>Genève</settlement>
             <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"/>
-                  </repository>
+            </repository>
+            <collection>Colección Varios</collection>
             <idno type="cote"/>
             <idno type="DOI">10.5281/zenodo.6562913</idno>
             <altIdentifier>
@@ -94,18 +93,17 @@
     </fileDesc>
     <encodingDesc>
       <projectDesc>
-        <p>Este archivo fue creado en el marco del proyecto Desenrollando el
-                            Cordel/Démêler le cordel/Untangling the cordel, dirigido por la
-                            profesora Constance Carta de la Universidad de Ginebra, con el apoyo de
-                            la Fundación filantrópica Famille Sandoz-Monique de Meuron.</p>
+        <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+          cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la Universidad
+          de Ginebra, con el apoyo de la Fundación filantrópica Famille Sandoz-Monique de
+          Meuron.</p>
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR non corregido</p>
+          <p>OCR no corregido</p>
         </correction>
         <normalization>
-          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto
-                                original.</p>
+          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
         </normalization>
         <punctuation>
           <p>Se conserva la puntuación original.</p>
@@ -114,7 +112,7 @@
     </encodingDesc>
     <profileDesc>
       <langUsage>
-        <language ident="es">Español</language>
+        <language ident="ca">Catalán</language>
       </langUsage>
       <textClass>
         <keywords xml:base="http://datos.bne.es/tema/">
@@ -127,9 +125,13 @@
     </profileDesc>
     <revisionDesc>
       <change when="2022-06-15" who="#PJ">Création du fichier TEI P5 et encodage du corps du
-                        texte</change>
+        texte</change>
+      <change when="2024-01-09" who="#EL">Add the IIIF links</change>
     </revisionDesc>
   </teiHeader>
+  <facsimile>
+    <graphic url="varios/Varios_064_1.jpg/full/200,/0/default.jpg"/>
+  </facsimile>
   <sourceDoc xml:id="automaticTranscription">
     <surface xml:id="Varios_064_1" type="page" cert="silver">
       <graphic url="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_064_1/full/full/0/default.jpg"/>
@@ -1214,7 +1216,7 @@
       <zone xml:id="Varios_064_4_BT228_7" n="7" type="MarginTextZone" subtype="colophon" points="1471,2374 1486,2422 348,2416 364,2339 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_064_4/348,2339,1138,83/full/0/default" corresp="MarginTextZone:colophon">
         <zone xml:id="Varios_064_4_BT228_7_LT83_1" type="DefaultLine" subtype="none" points="370,2388 370,2322 508,2331 517,2324 537,2306 537,2306 539,2306 539,2306 539,2306 541,2306 541,2306 543,2306 726,2306 726,2306 815,2309 815,2309 815,2309 818,2309 818,2309 818,2309 820,2309 820,2309 820,2311 831,2320 881,2311 881,2311 883,2311 883,2311 883,2311 886,2311 886,2311 886,2311 888,2311 888,2311 914,2333 914,2335 914,2333 936,2320 938,2320 938,2320 938,2320 940,2320 940,2320 943,2320 943,2320 943,2320 945,2320 945,2320 947,2320 947,2320 947,2322 962,2335 965,2337 1013,2337 1030,2337 1169,2320 1169,2320 1171,2320 1171,2320 1173,2320 1173,2320 1173,2320 1217,2339 1447,2333 1449,2333 1449,2333 1452,2333 1452,2333 1452,2333 1454,2333 1454,2333 1471,2346 1467,2401 1462,2425 1421,2418 1342,2425 1296,2427 1269,2451 1269,2451 1267,2451 1267,2451 1267,2451 1265,2451 1265,2451 1265,2453 1138,2453 1136,2451 1136,2451 1133,2451 1133,2451 1133,2451 1076,2420 1068,2416 1052,2420 1035,2425 1033,2425 1033,2425 1030,2425 1030,2425 973,2418 910,2412 901,2418 892,2425 892,2425 890,2425 890,2425 890,2425 888,2425 888,2425 886,2425 886,2425 883,2425 883,2425 883,2425 881,2425 881,2425 872,2418 864,2412 785,2412 774,2416 728,2444 726,2444 726,2444 723,2444 723,2444 723,2447 600,2447 598,2444 598,2444 596,2444 596,2444 596,2444 535,2412 532,2412 522,2412 423,2425 423,2425 421,2425 421,2425 418,2425 364,2409 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_064_4/364,2306,1107,147/full/0/default" corresp="DefaultLine">
           <path xml:id="Varios_064_4_BT228_7_LT83_1_1" points="370,2388 1467,2401 "/>
-          <line>Se ven as casa. Llorens, Palma de Sta. Catarina núm. 6.  — Barcelona</line>
+          <line>Se ven as casa. Llorens, Palma de Sta. Catarina núm. 6. — Barcelona</line>
         </zone>
       </zone>
       <zone xml:id="Varios_064_4_BT227_8" n="8" type="MainZone" subtype="columns" points="1524,473 1524,514 1454,517 1469,528 1375,528 1375,587 1445,587 1524,657 1515,777 1372,817 1034,817 1017,812 1017,508 1044,464 1099,453 1414,453 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_064_4/1017,453,507,364/full/0/default" corresp="MainZone:columns"/>
@@ -1225,328 +1227,334 @@
   <text>
     <body>
       <div>
-        <pb n="1" source="Varios_064_1.jpg" facs="fedora_Varios_064_1/full/full/0/default.jpg"/>
         <div>
-          <head type="primer_titulo"><lb/>LA CANSÓ DEL POBRE.</head>
-          <head type="subtitulo_parte"><lb/>En la qual se declaran la infinitat de personas que<lb/>lo pobre jornalé ha de manteni.</head>
-          <div n="1">
+          <pb n="1" source="Varios_064_1.jpg" facs="varios/Varios_064_1.jpg/"/>
+
+          <head type="primer_titulo" rend="negrita"><lb/>LA CANSÓ DEL POBRE.</head>
+          <head type="subtitulo" rend="negrita"><lb/>En la qual se declaran la infinitat de personas
+            que<lb/>lo pobre jornalé ha de manteni.</head>
+
+          <lg>
             <head type="titulo_estrofa">CORO.</head>
-            <lg>
-              <l>Ab molt de afany treballa</l>
-              <l>lo pobre, y may té un ral;</l>
-              <l>descansa al cementeri,</l>
-              <l>malalt, al hospital.</l>
-            </lg>
-            <lg>
-              <l>Lo llinatje dels pobres.</l>
-              <l>es molt trist y afligit,</l>
-              <l>té de passá la vida</l>
-              <l>ple de pena y fatich.</l>
-            </lg>
-            <lg>
-              <l>No té amparo dels homes,</l>
-              <l>tan sols lo té de Deu;</l>
-              <l>que 'ns diu que en lo seu regne</l>
-              <l>estará al costat seu.</l>
-            </lg>
-            <pb n="2" source="Varios_064_2.jpg" facs="fedora_Varios_064_2/full/full/0/default.jpg"/>
-            <lg>
-              <l>Si volen que vos contia</l>
-              <l>als que té de atipá</l>
-              <l>lo pobre ab sa suó,</l>
-              <l>vos fará esgarrifá.</l>
-              <l>Ara us sembla mentida,</l>
-              <l>y es pura veritat;</l>
-              <l>despres qué vos ho contia</l>
-              <l>direu si he acertat.</l>
-            </lg>
-            <lg>
-              <l>Ell manté be als notaris</l>
-              <l>ell manté als advocats,</l>
-              <l>manté jutjes, fiscals,</l>
-              <l>procuradós passats.</l>
-              <l>Ell manté als HOMES BONS</l>
-              <l>y á molts dolents també;</l>
-              <l>ell ne manté al sereno</l>
-              <l>y fins lo fanalé.</l>
-            </lg>
-            <lg>
-              <l>Ell manté als empleats</l>
-              <l>de tota la nació,</l>
-              <l>que ab la esquena del pobre</l>
-              <l>van vestits de senyó.</l>
-              <l>Quant han de despalxarli</l>
-              <l>un papé ó document,</l>
-              <l>acaba la paciencia</l>
-              <l>y per lo enteniment.</l>
-            </lg>
-            <lg>
-              <l>De l' una taula al altra</l>
-              <l>lo fan aná rodant;</l>
-              <l>un vol papé sellat,</l>
-              <l>y l'altre papé blanch.</l>
-              <l>Vinga fumá cigarros</l>
-              <l>y está ben assentats,</l>
-              <l>aixis ni ha á dotzenas</l>
-              <l>que 'ls diuen empleats.</l>
-            </lg>
-            <lg>
-              <l>Els qui tenen hisendas,</l>
-              <l>á n' pobre pagés</l>
-              <l>procuran de arrendarlas</l>
-              <l>per un gros interés.</l>
-              <l>Van allí á regalarse</l>
-              <l>al pich de la caló :</l>
-              <l>lo milló de la hisenda</l>
-              <l>ha de sé pe 'l senyó.</l>
-            </lg>
-            <lg>
-              <l>Que manté tot lo mon</l>
-              <l>lo pagés, es veritat;</l>
-              <l>aixó no cal que 's digui,</l>
-              <l>perque tothom ho sap.</l>
-              <l>Aixís ho havem trobat,</l>
-              <l>aixis veig que segueix,</l>
-              <l>lo pobre sempre es pobre</l>
-              <l>desde l'instant que neix.</l>
-            </lg>
-            <lg>
-              <l>De bon dematí 's lleva</l>
-              <l>per posarse á cavá,</l>
-              <l>per veure si la anyada</l>
-              <l>un poch be li anirá.</l>
-              <l>Com tot ho té en arriendo,</l>
-              <l>despres que 'n ha fet parts,</l>
-              <l>ell casi be dejuna</l>
-              <l>y atipa á quatre farts.</l>
-            </lg>
-            <lg>
-              <l>Los aucells se li menjan</l>
-              <l>lo gra que té sembrat,</l>
-              <l>las orugas las cols,</l>
-              <l>las formigas lo blat.</l>
-              <l>Los gossos los rahims</l>
-              <l>y los mosquits lo ví,</l>
-              <l>tot lo que m ha criat</l>
-              <l>ell té de mantení.</l>
-            </lg>
-            <lg>
-              <l>Molts ab los comestibles</l>
-              <l>lo seu nigoci fan;</l>
-              <l>quant ne arriba algun barco</l>
-              <l>á comprarlo ja van.</l>
-              <l>Fins arriba á podrirsels</l>
-              <l>lo blat als malgazems,</l>
-              <l>y lo pobre de gana</l>
-              <l>reganya un pam de dents.</l>
-            </lg>
-            <lg>
-              <l>Aquets avariciosos</l>
-              <l>no tenen pietat;</l>
-              <l>ells solament desitjan</l>
-              <l>enriquirse aviat.</l>
-              <l>Ab la suó dels pobres</l>
-              <l>viuen ivern y estiu ;</l>
-              <l>son unas sangoneras</l>
-              <l>que se l'empassan viu.</l>
-            </lg>
-            <lg>
-              <l>Lo fadrí espardanye</l>
-              <l>ne traballa sens consol,</l>
-              <l>un dia y altre dia</l>
-              <l>estirántne lo nyinvol.</l>
-              <l>Al cap de la semmana</l>
-              <l>cansat de treballá,</l>
-              <l>no li queda una peseta</l>
-              <l>per poderse regalá.</l>
-            </lg>
-            <pb n="3" source="Varios_064_3.jpg" facs="fedora_Varios_064_3/full/full/0/default.jpg"/>
-            <lg>
-              <l>Treballa 'l teixidó</l>
-              <l>com un desesperat,</l>
-              <l>per acabá la pessa</l>
-              <l>que fa un mes que ha plegat.</l>
-              <l>La trama es massa prima,</l>
-              <l>l' urdit no es massa bo;</l>
-              <l>jo crech que teixeix borra</l>
-              <l>per compte de cotó.</l>
-            </lg>
-            <lg>
-              <l>Pot donarne á Deu gracias</l>
-              <l>si per cas es sortós,</l>
-              <l>de podé tení un amo</l>
-              <l>que no sia ambicios.</l>
-              <l>Pues si allarga la pessa</l>
-              <l>ó li abaixa 'l jornal,</l>
-              <l>si abans guanyava un duro,</l>
-              <l>ara no guanya un ral.</l>
-            </lg>
-            <lg>
-              <l>Els qui han de fé de mossos</l>
-              <l>de algun rich fabricant,</l>
-              <l>ells lo puésto dels burros</l>
-              <l>sempre ocupant están.</l>
-              <l>Si n' están un poch grassos</l>
-              <l>ja abaixan la gruixó,</l>
-              <l>pues están tot lo dia</l>
-              <l>tirant de un carretó.</l>
-            </lg>
-            <lg>
-              <l>La Autoritat ordena</l>
-              <l>no hi possin massa pes;</l>
-              <l>mes ells com no 'l trajinan</l>
-              <l>li posan ab ecsés.</l>
-              <l>Aquell que la de burro</l>
-              <l>no pot enrahoná.</l>
-              <l>perque pobre 'l despatzan</l>
-              <l>y queda sense pa.</l>
-            </lg>
-            <lg>
-              <l>Jo veig que l' jornalé</l>
-              <l>treballa dia y nit;</l>
-              <l>y n' he vistos molt pochs</l>
-              <l>morí de cap enfit.</l>
-              <l>Quant ha pagat la casa,</l>
-              <l>lo menjá y lo vestí,</l>
-              <l>estich cert no li queda</l>
-              <l>per véuren dos de ví.</l>
-            </lg>
-            <lg>
-              <l>Els blanqués ne treballan</l>
-              <l>tan estiu com ivern,</l>
-              <l>desde que apunta l' dia</l>
-              <l>hasta que no s' hi veu.</l>
-              <l>Ficats dintre del aygua,</l>
-              <l>de peus y mans mullats,</l>
-              <l>son los que mes treballan</l>
-              <l>y los mes mal pagats.</l>
-            </lg>
-            <lg>
-              <l>La major part del dia</l>
-              <l>están remenant pells</l>
-              <l>y posantne 'ls alums</l>
-              <l>adintre dels cubells :</l>
-              <l>Que es la femta dels gossos</l>
-              <l>que fá una corrupció,</l>
-              <l>que á un' hora de distancia</l>
-              <l>ja sentiu la pudó.</l>
-            </lg>
-            <lg>
-              <l>Está l' mestre de casas</l>
-              <l>desde bon dematí</l>
-              <l>á dalt de una bastida</l>
-              <l>ab perill de morí.</l>
-              <l>Lo ivern de fret se pela</l>
-              <l>y al estiu de caló :</l>
-              <l>si guanya tres pessetas</l>
-              <l>ja pot dí Deu n' hi dó.</l>
-            </lg>
-            <lg>
-              <l>Lo infelís del manobra</l>
-              <l>remenant lo morté,</l>
-              <l>sempre va carregat</l>
-              <l>com burro traginé.</l>
-              <l>Guanya set ó vuyt rals</l>
-              <l>los dias que no plou,</l>
-              <l>que per calsá y vestí</l>
-              <l>encara no 'n té prou.</l>
-            </lg>
-            <lg>
-              <l>Molts fabricánts veuréu</l>
-              <l>prompte serne hisendats,</l>
-              <l>y entre lucso y boato</l>
-              <l>viuen molt regalats.</l>
-              <l>Sempre diuen no guanyan,</l>
-              <l>pero van prosperant :</l>
-              <l>pot sé la loteria</l>
-              <l>treuen de quant en quant.</l>
-            </lg>
-            <lg>
-              <l>Quans n' ha que mantenen</l>
-              <l>á casa gat y gos,</l>
-              <l>sense pensá ab lo pobre</l>
-              <l>si está necessitós :</l>
-              <l>Quant ab la seva esquena</l>
-              <l>tal volta ho han guanyat,</l>
-              <l>y al infelís li negan</l>
-              <l>fins una caritat.</l>
-            </lg>
-            <pb n="4" source="Varios_064_4.jpg" facs="fedora_Varios_064_4/full/full/0/default.jpg"/>
-            <lg>
-              <l>Si 'l pobre á tots atipa,</l>
-              <l>digueu cóm pot aná,</l>
-              <l>que atipant ells als altres</l>
-              <l>casi no pot menjá.</l>
-              <l>Es lo mes mal vestit,</l>
-              <l>es lo mes mal calsat,</l>
-              <l>perque tots tallan llenya</l>
-              <l>del arbre que es corcat.</l>
-            </lg>
-            <lg>
-              <l>A Deu podem dá gracias,</l>
-              <l>que encara hi ha alguns richs</l>
-              <l>que s desvetllan pe 'ls pobres</l>
-              <l>y 'ls treuen de fatichs</l>
-              <l>Sent malalts los socorren</l>
-              <l>en sas necessitats,</l>
-              <l>fent bon us de la hisenda</l>
-              <l>que Deu los ha donat.</l>
-            </lg>
-            <lg>
-              <l>També hi ha damas nobles,</l>
-              <l>que ab caritatiu cor,</l>
-              <l>tot lo dia 's desvetllan</l>
-              <l>per lo treballador :</l>
-              <l>Conduint á sos fills</l>
-              <l>mentres son al jornal,</l>
-              <l>llibertantlos del vici,</l>
-              <l>y de pendre cap mal.</l>
-            </lg>
-            <lg>
-              <l>Sense aquels bonfactors</l>
-              <l>foren molt desgraciats,</l>
-              <l>perque los que mes pican</l>
-              <l>son polls ressucitats.</l>
-              <l>No 's recordan quant eran</l>
-              <l>pobres com los demés;</l>
-              <l>es que 'ls té dominats</l>
-              <l>son infame interés.</l>
-            </lg>
-            <lg>
-              <l>Potsé de aquí en devant</l>
-              <l>si tenim llibertat,</l>
-              <l>será lo pobre atés,</l>
-              <l>será 'l jornalé honrat.</l>
-              <l>no mes mira per ell,</l>
-              <l>Puig que lo despotisme</l>
-              <l>y arrenca sempre al pobre</l>
-              <l>sens pietat la pell.</l>
-            </lg>
-            <lg>
-              <l>Totas aqueixas coblas</l>
-              <l>son fetas ab comú ;</l>
-              <l>parlant ab molta gent</l>
-              <l>sense parlá ab ningú.</l>
-              <l>si algú cofrare n'es;</l>
-              <l>En pot pendre candela</l>
-              <l>que per la gent honrada</l>
-              <l>no acostumo á dí res.</l>
-            </lg>
-            <lg>
-              <l>Dient los que manté,</l>
-              <l>m' havia descuidat</l>
-              <l>de dí manté los cegos</l>
-              <l>que la cansó han cantat.</l>
-              <l>Pues ab los dos cuartets</l>
-              <l>que deu per la cansó,</l>
-              <l>vesteix, fa bullí l'olla,</l>
-              <l>y fa corre 'l porró.</l>
-            </lg>
-            <trailer>FIN.</trailer>
-          </div>
-          <div type="colofon">
-            <p><lb/>Se ven as casa. Llorens, Palma de Sta. Catarina núm. 6.  — Barcelona</p>
-          </div>
+            <l rend="indent">Ab molt de afany treballa</l>
+            <l>lo pobre, y may té un ral;</l>
+            <l>descansa al cementeri,</l>
+            <l>malalt, al hospital.</l>
+          </lg>
+          <lg>
+            <l rend="indent">Lo llinatje dels pobres.</l>
+            <l>es molt trist y afligit,</l>
+            <l>té de passá la vida</l>
+            <l>ple de pena y fatich.</l>
+            <l rend="indent">No té amparo dels homes,</l>
+            <l>tan sols lo té de Deu;</l>
+            <l>que 'ns diu que en lo seu regne</l>
+            <l>estará al costat seu.</l>
+          </lg>
+          
+          <pb n="2" source="Varios_064_2.jpg" facs="varios/Varios_064_2.jpg/"/>
+          
+          <lg>
+            <l rend="indent">Si volen que vos contia</l>
+            <l>als que té de atipá</l>
+            <l>lo pobre ab sa suó,</l>
+            <l>vos fará esgarrifá.</l>
+            <l rend="indent">Ara us sembla mentida,</l>
+            <l>y es pura veritat;</l>
+            <l>despres qué vos ho contia</l>
+            <l>direu si he acertat.</l>
+          </lg>
+          <lg>
+            <l rend="indent">Ell manté be als notaris</l>
+            <l>ell manté als advocats,</l>
+            <l>manté jutjes, fiscals,</l>
+            <l>procuradós passats.</l>
+            <l rend="indent">Ell manté als HOMES BONS</l>
+            <l>y á molts dolents també;</l>
+            <l>ell ne manté al sereno</l>
+            <l>y fins lo fanalé.</l>
+          </lg>
+          <lg>
+            <l rend="indent">Ell manté als empleats</l>
+            <l>de tota la nació,</l>
+            <l>que ab la esquena del pobre</l>
+            <l>van vestits de senyó.</l>
+            <l rend="indent">Quant han de despalxarli</l>
+            <l>un papé ó document,</l>
+            <l>acaba la paciencia</l>
+            <l>y per lo enteniment.</l>
+          </lg>
+          <lg>
+            <l rend="indent">De l' una taula al altra</l>
+            <l>lo fan aná rodant;</l>
+            <l>un vol papé sellat,</l>
+            <l>y l'altre papé blanch.</l>
+            <l rend="indent">Vinga fumá cigarros</l>
+            <l>y está ben assentats,</l>
+            <l>aixis ni ha á dotzenas</l>
+            <l>que 'ls diuen empleats.</l>
+          </lg>
+          <lg>
+            <l rend="indent">Els qui tenen hisendas,</l>
+            <l>á n' pobre pagés</l>
+            <l>procuran de arrendarlas</l>
+            <l>per un gros interés.</l>
+            <l rend="indent">Van allí á regalarse</l>
+            <l>al pich de la caló :</l>
+            <l>lo milló de la hisenda</l>
+            <l>ha de sé pe 'l senyó.</l>
+          </lg>
+          <lg>
+            <l rend="indent">Que manté tot lo mon</l>
+            <l>lo pagés, es veritat;</l>
+            <l>aixó no cal que 's digui,</l>
+            <l>perque tothom ho sap.</l>
+            <l rend="indent">Aixís ho havem trobat,</l>
+            <l>aixis veig que segueix,</l>
+            <l>lo pobre sempre es pobre</l>
+            <l>desde l'instant que neix.</l>
+          </lg>
+          <lg>
+            <l rend="indent">De bon dematí 's lleva</l>
+            <l>per posarse á cavá,</l>
+            <l>per veure si la anyada</l>
+            <l>un poch be li anirá.</l>
+            <l rend="indent">Com tot ho té en arriendo,</l>
+            <l>despres que 'n ha fet parts,</l>
+            <l>ell casi be dejuna</l>
+            <l>y atipa á quatre farts.</l>
+          </lg>
+          <lg>
+            <l rend="indent">Los aucells se li menjan</l>
+            <l>lo gra que té sembrat,</l>
+            <l>las orugas las cols,</l>
+            <l>las formigas lo blat.</l>
+            <l rend="indent">Los gossos los rahims</l>
+            <l>y los mosquits lo ví,</l>
+            <l>tot lo que m ha criat</l>
+            <l>ell té de mantení.</l>
+          </lg>
+          <lg>
+            <l rend="indent">Molts ab los comestibles</l>
+            <l>lo seu nigoci fan;</l>
+            <l>quant ne arriba algun barco</l>
+            <l>á comprarlo ja van.</l>
+            <l rend="indent">Fins arriba á podrirsels</l>
+            <l>lo blat als malgazems,</l>
+            <l>y lo pobre de gana</l>
+            <l>reganya un pam de dents.</l>
+          </lg>
+          <lg>
+            <l rend="indent">Aquets avariciosos</l>
+            <l>no tenen pietat;</l>
+            <l>ells solament desitjan</l>
+            <l>enriquirse aviat.</l>
+            <l rend="indent">Ab la suó dels pobres</l>
+            <l>viuen ivern y estiu ;</l>
+            <l>son unas sangoneras</l>
+            <l>que se l'empassan viu.</l>
+          </lg>
+          <lg>
+            <l rend="indent">Lo fadrí espardanye</l>
+            <l>ne traballa sens consol,</l>
+            <l>un dia y altre dia</l>
+            <l>estirántne lo nyinvol.</l>
+            <l rend="indent">Al cap de la semmana</l>
+            <l>cansat de treballá,</l>
+            <l>no li queda una peseta</l>
+            <l>per poderse regalá.</l>
+          </lg>
+          
+          <pb n="3" source="Varios_064_3.jpg" facs="varios/Varios_064_3.jpg/"/>
+          
+          <lg>
+            <l rend="indent">Treballa 'l teixidó</l>
+            <l>com un desesperat,</l>
+            <l>per acabá la pessa</l>
+            <l>que fa un mes que ha plegat.</l>
+            <l rend="indent">La trama es massa prima,</l>
+            <l>l' urdit no es massa bo;</l>
+            <l>jo crech que teixeix borra</l>
+            <l>per compte de cotó.</l>
+          </lg>
+          <lg>
+            <l rend="indent">Pot donarne á Deu gracias</l>
+            <l>si per cas es sortós,</l>
+            <l>de podé tení un amo</l>
+            <l>que no sia ambicios.</l>
+            <l rend="indent">Pues si allarga la pessa</l>
+            <l>ó li abaixa 'l jornal,</l>
+            <l>si abans guanyava un duro,</l>
+            <l>ara no guanya un ral.</l>
+          </lg>
+          <lg>
+            <l rend="indent">Els qui han de fé de mossos</l>
+            <l>de algun rich fabricant,</l>
+            <l>ells lo puésto dels burros</l>
+            <l>sempre ocupant están.</l>
+            <l rend="indent">Si n' están un poch grassos</l>
+            <l>ja abaixan la gruixó,</l>
+            <l>pues están tot lo dia</l>
+            <l>tirant de un carretó.</l>
+          </lg>
+          <lg>
+            <l rend="indent">La Autoritat ordena</l>
+            <l>no hi possin massa pes;</l>
+            <l>mes ells com no 'l trajinan</l>
+            <l>li posan ab ecsés.</l>
+            <l rend="indent">Aquell que la de burro</l>
+            <l>no pot enrahoná.</l>
+            <l>perque pobre 'l despatzan</l>
+            <l>y queda sense pa.</l>
+          </lg>
+          <lg>
+            <l rend="indent">Jo veig que l' jornalé</l>
+            <l>treballa dia y nit;</l>
+            <l>y n' he vistos molt pochs</l>
+            <l>morí de cap enfit.</l>
+            <l rend="indent">Quant ha pagat la casa,</l>
+            <l>lo menjá y lo vestí,</l>
+            <l>estich cert no li queda</l>
+            <l>per véuren dos de ví.</l>
+          </lg>
+          <lg>
+            <l rend="indent">Els blanqués ne treballan</l>
+            <l>tan estiu com ivern,</l>
+            <l>desde que apunta l' dia</l>
+            <l>hasta que no s' hi veu.</l>
+            <l rend="indent">Ficats dintre del aygua,</l>
+            <l>de peus y mans mullats,</l>
+            <l>son los que mes treballan</l>
+            <l>y los mes mal pagats.</l>
+          </lg>
+          <lg>
+            <l rend="indent">La major part del dia</l>
+            <l>están remenant pells</l>
+            <l>y posantne 'ls alums</l>
+            <l>adintre dels cubells :</l>
+            <l rend="indent">Que es la femta dels gossos</l>
+            <l>que fá una corrupció,</l>
+            <l>que á un' hora de distancia</l>
+            <l>ja sentiu la pudó.</l>
+          </lg>
+          <lg>
+            <l rend="indent">Está l' mestre de casas</l>
+            <l>desde bon dematí</l>
+            <l>á dalt de una bastida</l>
+            <l>ab perill de morí.</l>
+            <l rend="indent">Lo ivern de fret se pela</l>
+            <l>y al estiu de caló :</l>
+            <l>si guanya tres pessetas</l>
+            <l>ja pot dí Deu n' hi dó.</l>
+          </lg>
+          <lg>
+            <l rend="indent">Lo infelís del manobra</l>
+            <l>remenant lo morté,</l>
+            <l>sempre va carregat</l>
+            <l>com burro traginé.</l>
+            <l rend="indent">Guanya set ó vuyt rals</l>
+            <l>los dias que no plou,</l>
+            <l>que per calsá y vestí</l>
+            <l>encara no 'n té prou.</l>
+          </lg>
+          <lg>
+            <l rend="indent">Molts fabricánts veuréu</l>
+            <l>prompte serne hisendats,</l>
+            <l>y entre lucso y boato</l>
+            <l>viuen molt regalats.</l>
+            <l rend="indent">Sempre diuen no guanyan,</l>
+            <l>pero van prosperant :</l>
+            <l>pot sé la loteria</l>
+            <l>treuen de quant en quant.</l>
+          </lg>
+          <lg>
+            <l rend="indent">Quans n' ha que mantenen</l>
+            <l>á casa gat y gos,</l>
+            <l>sense pensá ab lo pobre</l>
+            <l>si está necessitós :</l>
+            <l rend="indent">Quant ab la seva esquena</l>
+            <l>tal volta ho han guanyat,</l>
+            <l>y al infelís li negan</l>
+            <l>fins una caritat.</l>
+          </lg>
+          
+          <pb n="4" source="Varios_064_4.jpg" facs="varios/Varios_064_4.jpg/"/>
+          
+          <lg>
+            <l rend="indent">Si 'l pobre á tots atipa,</l>
+            <l>digueu cóm pot aná,</l>
+            <l>que atipant ells als altres</l>
+            <l>casi no pot menjá.</l>
+            <l rend="indent">Es lo mes mal vestit,</l>
+            <l>es lo mes mal calsat,</l>
+            <l>perque tots tallan llenya</l>
+            <l>del arbre que es corcat.</l>
+          </lg>
+          <lg>
+            <l rend="indent">A Deu podem dá gracias,</l>
+            <l>que encara hi ha alguns richs</l>
+            <l>que s desvetllan pe 'ls pobres</l>
+            <l>y 'ls treuen de fatichs</l>
+            <l rend="indent">Sent malalts los socorren</l>
+            <l>en sas necessitats,</l>
+            <l>fent bon us de la hisenda</l>
+            <l>que Deu los ha donat.</l>
+          </lg>
+          <lg>
+            <l rend="indent">També hi ha damas nobles,</l>
+            <l>que ab caritatiu cor,</l>
+            <l>tot lo dia 's desvetllan</l>
+            <l>per lo treballador :</l>
+            <l rend="indent">Conduint á sos fills</l>
+            <l>mentres son al jornal,</l>
+            <l>llibertantlos del vici,</l>
+            <l>y de pendre cap mal.</l>
+          </lg>
+          <lg>
+            <l rend="indent">Sense aquels bonfactors</l>
+            <l>foren molt desgraciats,</l>
+            <l>perque los que mes pican</l>
+            <l>son polls ressucitats.</l>
+            <l rend="indent">No 's recordan quant eran</l>
+            <l>pobres com los demés;</l>
+            <l>es que 'ls té dominats</l>
+            <l>son infame interés.</l>
+          </lg>
+          <lg>
+            <l rend="indent">Potsé de aquí en devant</l>
+            <l>si tenim llibertat,</l>
+            <l>será lo pobre atés,</l>
+            <l>será 'l jornalé honrat.</l>
+            <l rend="indent">Puig que lo despotisme</l>
+            <l>no mes mira per ell,</l>
+            <l>y arrenca sempre al pobre</l>
+            <l>sens pietat la pell.</l>
+          </lg>
+          <lg>
+            <l rend="indent">Totas aqueixas coblas</l>
+            <l>son fetas ab comú ;</l>
+            <l>parlant ab molta gent</l>
+            <l>sense parlá ab ningú.</l>
+            <l rend="indent">En pot pendre candela</l>
+            <l>si algú cofrare n'es;</l>
+            <l>que per la gent honrada</l>
+            <l>no acostumo á dí res.</l>
+          </lg>
+          <lg>
+            <l rend="indent">Dient los que manté,</l>
+            <l>m' havia descuidat</l>
+            <l>de dí manté los cegos</l>
+            <l>que la cansó han cantat.</l>
+            <l rend="indent">Pues ab los dos cuartets</l>
+            <l>que deu per la cansó,</l>
+            <l>vesteix, fa bullí l'olla,</l>
+            <l>y fa corre 'l porró.</l>
+          </lg>
+          <trailer>FIN.</trailer>
+        </div>
+        
+        <div type="colofon">
+          <p><lb/>Se ven as casa. Llorens, Palma de Sta. Catarina núm. 6. — Barcelona</p>
         </div>
       </div>
     </body>

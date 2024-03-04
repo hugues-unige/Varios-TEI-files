@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../Schema/oddPliego_varios.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:alto="http://www.loc.gov/standards/alto/ns-v4#" xml:id="Varios_088">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Varios_088">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -28,7 +28,7 @@
           <publicationStmt>
             <publisher>Juan Vidal y Angel Camí</publisher>
             <pubPlace ref="https://www.geonames.org/3111933/reus.html">Reus</pubPlace>
-            <date>[s.a]</date>
+            <date cert="low" when="1800-01-01">[s.a.]</date>
           </publicationStmt>
         </biblFull>
         <msDesc>
@@ -36,7 +36,8 @@
             <country>Suisse</country>
             <settlement>Genève</settlement>
             <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"/>
-                  </repository>
+            </repository>
+            <collection>Colección Varios</collection>
             <idno type="cote"/>
             <idno type="DOI">10.5281/zenodo.6566053</idno>
             <altIdentifier>
@@ -88,13 +89,13 @@
     <encodingDesc>
       <projectDesc>
         <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
-               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
-               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
-               Sandoz-Monique de Meuron.</p>
+          cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la Universidad
+          de Ginebra, con el apoyo de la Fundación filantrópica Famille Sandoz-Monique de
+          Meuron.</p>
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR non corregido</p>
+          <p>OCR no corregido</p>
         </correction>
         <normalization>
           <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
@@ -119,9 +120,13 @@
     </profileDesc>
     <revisionDesc>
       <change when="2022-07-26" who="#PJ">Création du fichier TEI P5 et encodage du corps du
-            texte</change>
+        texte</change>
+      <change when="2024-01-09" who="#EL">Add the IIIF links</change>
     </revisionDesc>
   </teiHeader>
+  <facsimile>
+    <graphic url="varios/Varios_088_1.jpg/full/200,/0/default.jpg"/>
+  </facsimile>
   <sourceDoc xml:id="automaticTranscription">
     <surface xml:id="Varios_088_1" type="page" cert="silver">
       <graphic url="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_088_1/full/full/0/default.jpg"/>
@@ -926,12 +931,16 @@
   <text>
     <body>
       <div>
-        <pb n="1" source="Varios_088_1.jpg" facs="fedora_Varios_088_1/full/full/0/default.jpg"/>
-        <fw type="impresorNum">Núm. 2.</fw>
-        <div type="parte" n="1">
-          <head type="primer_titulo"><lb/>DESPEDIDA <lb/>de los finos amantes</head>
+        <div>
+          <pb n="1" source="Varios_088_1.jpg" facs="varios/Varios_088_1.jpg/"/>
+
+          <fw type="impresorNum">Núm. 2.</fw>
+
+          <head type="primer_titulo"><lb/>DESPEDIDA <lb/><hi rend="cursiva">de los finos
+              amantes.</hi></head>
+
           <lg>
-            <l>En lo frondoso</l>
+            <l rend="indent"><hi rend="negrita">E</hi>n lo frondoso</l>
             <l>de un verde prado</l>
             <l>á un desdichado</l>
             <l>amante ví,</l>
@@ -940,8 +949,9 @@
             <l>llora su muerte</l>
             <l>y dice así:</l>
           </lg>
+
           <lg>
-            <l>Si yo lográra</l>
+            <l rend="indent">Si yo lográra</l>
             <l>de ser querido,</l>
             <l>siempre rendido</l>
             <l>fuera leal;</l>
@@ -950,9 +960,11 @@
             <l>aunque quedára</l>
             <l>sin libertad.</l>
           </lg>
-          <pb n="2" source="Varios_088_2.jpg" facs="fedora_Varios_088_2/full/full/0/default.jpg"/>
+
+          <pb n="2" source="Varios_088_2.jpg" facs="varios/Varios_088_2.jpg/"/>
+
           <lg>
-            <l>Sin ser querido</l>
+            <l rend="indent">Sin ser querido</l>
             <l>yo, si te quiero,</l>
             <l>yo por tí muero,</l>
             <l>y te amo sin fin;</l>
@@ -960,7 +972,10 @@
             <l>toda te adoro,</l>
             <l>y tú no quieres</l>
             <l>creerlo así.</l>
-            <l>Yo llegué á verte</l>
+          </lg>
+
+          <lg>
+            <l rend="indent">Yo llegué á verte</l>
             <l>en la ventana,</l>
             <l>hermosa dama,</l>
             <l>me enamoré</l>
@@ -968,7 +983,10 @@
             <l>de tu hermosura;</l>
             <l>bella pintura,</l>
             <l>yo te amaré.</l>
-            <l>Eres hermosa</l>
+          </lg>
+
+          <lg>
+            <l rend="indent">Eres hermosa</l>
             <l>como una rosa,</l>
             <l>y eres mas bella</l>
             <l>que el mismo sol:</l>
@@ -976,17 +994,21 @@
             <l>finos y hermosos</l>
             <l>son dos luceros</l>
             <l>llenos de amor.</l>
-            <l>Hermosa niña,</l>
+          </lg>
+
+          <lg>
+            <l rend="indent">Hermosa niña,</l>
             <l>madama bella,</l>
             <l>luciente estrella,</l>
             <l>claro esplendor,</l>
             <l>ruégote diosa,</l>
             <l>no seas ingrata</l>
             <l>á quien te trata</l>
-          </lg>
-          <lg>
             <l>con fino amor.</l>
-            <l>No ha de haber zelos</l>
+          </lg>
+
+          <lg>
+            <l rend="indent">No ha de haber zelos</l>
             <l>á cada instante,</l>
             <l>pues no hay aguante</l>
             <l>para sulrir</l>
@@ -994,7 +1016,10 @@
             <l>de una zelosa</l>
             <l>que á cualquier cosa</l>
             <l>quiere reñir.</l>
-            <l>Si he de quererte,</l>
+          </lg>
+
+          <lg>
+            <l rend="indent">Si he de quererte,</l>
             <l>si he de adorarte,</l>
             <l>no has de emplearte,</l>
             <l>con otro amor:</l>
@@ -1002,7 +1027,10 @@
             <l>y esto me oprime</l>
             <l>á que seas dueña</l>
             <l>de mi atencion.</l>
-            <l>Y tu al instante,</l>
+          </lg>
+
+          <lg>
+            <l rend="indent">Y tu al instante,</l>
             <l>infiel, ingrata,</l>
             <l>me despreciaste</l>
             <l>mi lealtad:</l>
@@ -1010,28 +1038,35 @@
             <l>mi pecho puede</l>
             <l>formar escesos</l>
             <l>de falsedad.</l>
-            <l>Si yo muriese</l>
+          </lg>
+
+          <lg>
+            <l rend="indent">Si yo muriese</l>
             <l>de tí apartado,</l>
             <l>tendrás cuidado</l>
             <l>de no llorar,</l>
             <l>porque tus llantos,</l>
             <l>no serán tantos</l>
-          </lg>
-          <pb n="3" source="Varios_088_3.jpg" facs="fedora_Varios_088_3/full/full/0/default.jpg"/>
-          <lg>
+
+            <pb n="3" source="Varios_088_3.jpg" facs="varios/Varios_088_3.jpg/"/>
+
             <l>que á mi me puedan</l>
             <l>resucitar.</l>
-            <l>Montes y prados,</l>
+          </lg>
+
+          <lg>
+            <l rend="indent">Montes y prados,</l>
             <l>rios y fuentes</l>
             <l>son los corriéntes</l>
             <l>de un fino amor,</l>
             <l>que por querente</l>
             <l>firme y constante,</l>
             <l>allá me tienes</l>
-          </lg>
-          <lg>
             <l>el corazon.</l>
-            <l>Tocan la marcha,</l>
+          </lg>
+
+          <lg>
+            <l rend="indent">Tocan la marcha,</l>
             <l>mi pecho llora,</l>
             <l>á dios señora,</l>
             <l>que me he de ir:</l>
@@ -1040,108 +1075,140 @@
             <l>que mi viage</l>
             <l>sea feliz.</l>
           </lg>
+
+          <div>
+            <head type="titulo_parte"><lb/>RESPUESTA DE LE DAMA.</head>
+
+            <lg>
+              <l rend="indent">Junto á la márgen</l>
+              <l>de un arroyuelo</l>
+              <l>mi desconsuelo</l>
+              <l>quise sentir;</l>
+              <l>y á breve rato</l>
+              <l>de mil tristeza</l>
+              <l>á una belleza</l>
+              <l>oí gemir.</l>
+            </lg>
+
+            <lg>
+              <l rend="indent">Estuve atenta:</l>
+              <l>á su quebranto</l>
+              <l>y entre su llanto</l>
+              <l>vine á decir:</l>
+              <l>ingrato dueño</l>
+              <l>de mi alvedrío;</l>
+              <l>el pecho mio.</l>
+              <l>muere por UI.</l>
+            </lg>
+
+            <lg>
+              <l rend="indent">¡Por qué lamentas</l>
+              <l>no ser querido,</l>
+              <l>si yo tes adoro</l>
+              <l>siendo infeliz!</l>
+              <l>firme y constante,</l>
+              <l>siempre rendida,</l>
+              <l>y tú no quieres</l>
+              <l>creerlo así.</l>
+            </lg>
+
+            <lg>
+              <l rend="indent">Desde el momento</l>
+              <l>que logré el verte,</l>
+              <l>mi fino pecho</l>
+              <l>te adora fiel:</l>
+              <l>y ahora fomentas</l>
+              <l>desoonfianzas,</l>
+              <l>y me atormentas</l>
+              <l>porque te amé.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Eres ingrato,</l>
+              <l>como querido</l>
+              <l>y no conoces</l>
+              <l>mi fino amor:</l>
+              <l>estos recelos</l>
+              <l>tan sin motivo</l>
+
+              <pb n="4" source="Varios_088_4.jpg" facs="varios/Varios_088_4.jpg/"/>
+
+              <l>son los agentes</l>
+              <l>de mi dolor</l>
+            </lg>
+
+            <lg>
+              <l rend="indent">¡Cómo es posible</l>
+              <l>no ser zelosa</l>
+              <l>si á cualquier cosa</l>
+              <l>temo el perder</l>
+              <l>mi dueño amado,</l>
+              <l>tan deseado,</l>
+              <l>á quien tan fina</l>
+              <l>llegué á querer!</l>
+            </lg>
+
+            <lg>
+              <l rend="indent">Siempre rendida,</l>
+              <l>siempre gustosa,</l>
+              <l>no haré otra cosa,</l>
+              <l>que amarte fiel:</l>
+              <l>y en mi memoria</l>
+              <l>tú siempre impreso,</l>
+              <l>á otro diverso</l>
+              <l>no admitiré.</l>
+            </lg>
+
+            <lg>
+              <l rend="indent">Por Dios te pido</l>
+              <l>te desengañes,</l>
+              <l>y que conozcas</l>
+              <l>mi lealtad:</l>
+              <l>porque en mi pecho.</l>
+              <l>jamas cupieron</l>
+              <l>viles escesos</l>
+              <l>de falsedad.</l>
+            </lg>
+
+            <lg>
+              <l rend="indent">Si á mi noticia</l>
+              <l>llega tu muerte,</l>
+              <l>es evidente</l>
+              <l>que he de espirar:</l>
+              <l>que no es posible</l>
+              <l>que en mi constancia</l>
+              <l>tan grande ansia</l>
+              <l>pueda aguantar.</l>
+            </lg>
+
+            <lg>
+              <l rend="indent">Montes y prados,</l>
+              <l>aves y flores</l>
+              <l>á mis amores</l>
+              <l>finos oid:</l>
+              <l>sed compañeros</l>
+              <l>en mi terneza,</l>
+              <l>y en mi tristeza</l>
+              <l>podreis decir.</l>
+            </lg>
+
+            <lg>
+              <l rend="indent">Oigo la marcha</l>
+              <l>con sentimiento,</l>
+              <l>y mi tormento</l>
+              <l>se aumenta mas </l>
+              <l>y será eterno</l>
+              <l>mi desconsuelo,</l>
+              <l>siendo mi alivio</l>
+              <l>solo el llorar.</l>
+            </lg>
+
+            <trailer rend="negrita">FIN.</trailer>
+          </div>
+
         </div>
-        <div type="parte" n="2">
-          <head type="titulo_parte"><lb/>RESPUESTA DE LE DAMA.</head>
-          <lg>
-            <l>Junto á la márgen</l>
-            <l>de un arroyuelo</l>
-            <l>mi desconsuelo</l>
-            <l>quise sentir;</l>
-            <l>y á breve rato</l>
-            <l>de mil tristeza</l>
-            <l>á una belleza</l>
-            <l>oí gemir.</l>
-            <l>Estuve atenta:</l>
-            <l>á su quebranto</l>
-            <l>y entre su llanto</l>
-            <l>vine á decir:</l>
-            <l>ingrato dueño</l>
-            <l>de mi alvedrío;</l>
-            <l>el pecho mio.</l>
-            <l>muere por UI.</l>
-            <l>¡Por qué lamentas</l>
-            <l>no ser querido,</l>
-            <l>si yo tes adoro</l>
-          </lg>
-          <lg>
-            <l>siendo infeliz!</l>
-            <l>firme y constante,</l>
-            <l>siempre rendida,</l>
-            <l>y tú no quieres</l>
-            <l>creerlo así.</l>
-            <l>Desde el momento</l>
-            <l>que logré el verte,</l>
-            <l>mi fino pecho</l>
-            <l>te adora fiel:</l>
-            <l>y ahora fomentas</l>
-            <l>desoonfianzas,</l>
-            <l>y me atormentas</l>
-            <l>porque te amé.</l>
-            <l>Eres ingrato,</l>
-            <l>como querido</l>
-            <l>y no conoces</l>
-            <l>mi fino amor:</l>
-            <l>estos recelos</l>
-            <l>tan sin motivo</l>
-          </lg>
-          <pb n="4" source="Varios_088_4.jpg" facs="fedora_Varios_088_4/full/full/0/default.jpg"/>
-          <lg>
-            <l>son los agentes</l>
-            <l>de mi dolor</l>
-            <l>¡Cómo es posible</l>
-            <l>no ser zelosa</l>
-            <l>si á cualquier cosa</l>
-            <l>temo el perder</l>
-            <l>mi dueño amado,</l>
-            <l>tan deseado,</l>
-            <l>á quien tan fina</l>
-            <l>llegué á querer!</l>
-            <l>Siempre rendida,</l>
-            <l>siempre gustosa,</l>
-            <l>no haré otra cosa,</l>
-            <l>que amarte fiel:</l>
-            <l>y en mi memoria</l>
-            <l>tú siempre impreso,</l>
-            <l>á otro diverso</l>
-            <l>no admitiré.</l>
-            <l>Por Dios te pido</l>
-            <l>te desengañes,</l>
-            <l>y que conozcas mi lealtad:</l>
-            <l>porque en mi pecho.</l>
-            <l>jamas cupieron</l>
-            <l>viles escesos</l>
-          </lg>
-          <lg>
-            <l>de falsedad.</l>
-            <l>Si á mi noticia</l>
-            <l>Ilega tu muerte,</l>
-            <l>es evidente</l>
-            <l>que he de espirar:</l>
-            <l>que no es posible</l>
-            <l>que en mi constancia</l>
-            <l>tan grande ansia</l>
-            <l>pueda aguantar.</l>
-            <l>Montes y prados,</l>
-            <l>aves y flores</l>
-            <l>á mis amores</l>
-            <l>finos oid:</l>
-            <l>sed compañeros</l>
-            <l>en mi terneza,</l>
-            <l>y en mi tristeza</l>
-            <l>podreis decir.</l>
-            <l>Oigo la marcha</l>
-            <l>con sentimiento,</l>
-            <l>y mi tormento</l>
-            <l>se aumenta mas; y será eterno</l>
-            <l>mi desconsuelo,</l>
-            <l>siendo mi alivio</l>
-            <l>solo el llorar.</l>
-          </lg>
-          <trailer>FIN.</trailer>
-        </div>
+        
         <div type="colofon">
-          <p><lb/>Reus: Imprenta y librería de Juan Vidal y Angel Camí.</p>
+          <p><lb/><hi rend="cursiva">Reus</hi>: Imprenta y librería de Juan Vidal y Angel Camí.</p>
         </div>
       </div>
     </body>

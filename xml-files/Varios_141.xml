@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../Schema/oddPliego_varios.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:alto="http://www.loc.gov/standards/alto/ns-v4#" xml:id="Varios_141">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Varios_141">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -26,9 +26,9 @@
             <p/>
           </editionStmt>
           <publicationStmt>
-            <publisher>Cristina Seguravda</publisher>
+            <publisher>Cristina Segura</publisher>
             <pubPlace ref="https://www.geonames.org/3128760/barcelona.html">Barcelona</pubPlace>
-            <date>[s.a]</date>
+            <date cert="low" when="1800-01-01">[s.a.]</date>
           </publicationStmt>
         </biblFull>
         <msDesc>
@@ -36,7 +36,8 @@
             <country>Suisse</country>
             <settlement>Genève</settlement>
             <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"/>
-                  </repository>
+            </repository>
+            <collection>Colección Varios</collection>
             <idno type="cote"/>
             <idno type="DOI">10.5281/zenodo.6586608</idno>
             <altIdentifier>
@@ -44,10 +45,14 @@
             </altIdentifier>
           </msIdentifier>
           <msContents>
-            <summary/>
+            <summary>Dos partes</summary>
             <msItem>
-              <locus/>
-              <title/>
+              <locus>1</locus>
+              <title>Arrojo de un amante</title>
+            </msItem>
+            <msItem>
+              <locus>2</locus>
+              <title>Robo de una hermosa</title>
             </msItem>
           </msContents>
           <physDesc>
@@ -65,11 +70,11 @@
               </layoutDesc>
             </objectDesc>
             <decoDesc>
-              <summary n="2">Uno grabado (p.1) </summary>
+              <summary n="2">Un grabado (p.1)</summary>
               <decoNote type="lista_grabados">
                 <list>
                   <item corresp="grabado_v_141_1.xml">grabado_v_141_1</item>
-                  <item corresp="grabado_v_141_1.xml">grabado_v_141_2</item>
+                  <item corresp="grabado_v_141_2.xml">grabado_v_141_2</item>
                 </list>
               </decoNote>
             </decoDesc>
@@ -88,13 +93,13 @@
     <encodingDesc>
       <projectDesc>
         <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
-               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
-               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
-               Sandoz-Monique de Meuron.</p>
+          cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la Universidad
+          de Ginebra, con el apoyo de la Fundación filantrópica Famille Sandoz-Monique de
+          Meuron.</p>
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR non corregido</p>
+          <p>OCR no corregido</p>
         </correction>
         <normalization>
           <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
@@ -119,9 +124,13 @@
     </profileDesc>
     <revisionDesc>
       <change when="2022-09-15" who="#PJ">Création du fichier TEI P5 et encodage du corps du
-            texte</change>
+        texte</change>
+      <change when="2024-01-09" who="#EL">Add the IIIF links</change>
     </revisionDesc>
   </teiHeader>
+  <facsimile>
+    <graphic url="varios/Varios_141_1.jpg/full/200,/0/default.jpg"/>
+  </facsimile>
   <sourceDoc xml:id="automaticTranscription">
     <surface xml:id="Varios_141_1" type="page" cert="silver">
       <graphic url="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_141_1/full/full/0/default.jpg"/>
@@ -218,57 +227,53 @@
   <text>
     <body>
       <div>
-        <pb n="1" source="Varios_141_1.jpg" facs="fedora_Varios_141_1/full/full/0/default.jpg"/>
-        <div type="parte" n="1">
-          <head type="primer_titulo"><lb/>ARROJO DE UN AMANTE</head>
-          <lg>
-            <l>Un antiguo castellano</l>
-            <l>tuvo una hija tan bella,</l>
-            <l>que mil se prendaron de ella</l>
-            <l>y pretendian su manó.</l>
-            <l>Un militar caballero</l>
-            <l>igualmente la pidió;</l>
-            <l>su padre se la negó,</l>
-            <l>y entonces dijo el guerrero:</l>
-          </lg>
-          <lg>
-            <l>No hay burlas con el amor,</l>
-            <l>echada está ya mi suerte,</l>
-            <l>y juro que hasta la muerte</l>
-            <l>no tendrá otro amador.</l>
-            <l>Dicho y hecho: la cogió,</l>
-            <l>un momento descuidada,</l>
-            <l>se la llevó desmayada</l>
-            <l>y con ella se casó.</l>
-          </lg>
+        <pb n="1" source="Varios_141_1.jpg" facs="varios/Varios_141_1.jpg/"/>
+        <div n="1">
+          <head type="primer_titulo" rend="negrita"><lb/>ARROJO DE UN AMANTE</head>
+
+          <l rend="indent">Un antiguo castellano</l>
+          <l>tuvo una hija tan bella,</l>
+          <l>que mil se prendaron de ella</l>
+          <l>y pretendian su manó.</l>
+          <l>Un militar caballero</l>
+          <l>igualmente la pidió;</l>
+          <l>su padre se la negó,</l>
+          <l>y entonces dijo el guerrero:</l>
+          <l rend="indent">No hay burlas con el amor,</l>
+          <l>echada está ya mi suerte,</l>
+          <l>y juro que hasta la muerte</l>
+          <l>no tendrá otro amador.</l>
+          <l>Dicho y hecho: la cogió,</l>
+          <l>un momento descuidada,</l>
+          <l>se la llevó desmayada</l>
+          <l>y con ella se casó.</l>
+
           <div type="colofon">
-            <p><lb/>Barcelona—Imps. de Cristina Segura, Vda. A. Llorens, Palma sta.
-                     Catalina,</p>
+            <p><lb/>Barcelona—Imps. de Cristina Segura, Vda. A. Llorens, Palma sta. Catalina,</p>
           </div>
         </div>
-        <pb n="2" source="Varios_141_2.jpg" facs="fedora_Varios_141_2/full/full/0/default.jpg"/>
-        <div type="parte" n="2">
-          <head type="titulo_parte"><lb/>ROBO DE UNA HERMOSA</head>
-          <lg>
-            <l>Un arrogante guerrero,</l>
-            <l>por demás enamorado,</l>
-            <l>una bella hija ha robado</l>
-            <l>de un princípal caballero.</l>
-            <l>La niña está desmayada,</l>
-            <l>y va el jinete aguerrido,</l>
-            <l>para no ser conocido,</l>
-            <l>con la visera calada.</l>
-          </lg>
-          <lg>
-            <l>El padre se desespera;</l>
-            <l>queda atado debatiéndose,</l>
-            <l>y de vista va perdiéndose</l>
-            <l>el caballo en su carrera;</l>
-            <l>Pues corre veloz cual viento,</l>
-            <l>parece no toca el suelo,</l>
-            <l>y el padre en su desconsuelo</l>
-            <l>fallece de sentimiento.</l>
-          </lg>
+
+        <div n="2">
+          <pb n="2" source="Varios_141_2.jpg" facs="varios/Varios_141_2.jpg/"/>
+          
+          <head type="primer_titulo" rend="negrita"><lb/>ROBO DE UNA HERMOSA</head>
+
+          <l rend="indent">Un arrogante guerrero,</l>
+          <l>por demás enamorado,</l>
+          <l>una bella hija ha robado</l>
+          <l>de un princípal caballero.</l>
+          <l rend="indent">La niña está desmayada,</l>
+          <l>y va el jinete aguerrido,</l>
+          <l>para no ser conocido,</l>
+          <l>con la visera calada.</l>
+          <l rend="indent">El padre se desespera;</l>
+          <l>queda atado debatiéndose,</l>
+          <l>y de vista va perdiéndose</l>
+          <l>el caballo en su carrera;</l>
+          <l rend="indent">Pues corre veloz cual viento,</l>
+          <l>parece no toca el suelo,</l>
+          <l>y el padre en su desconsuelo</l>
+          <l>fallece de sentimiento.</l>
         </div>
       </div>
     </body>

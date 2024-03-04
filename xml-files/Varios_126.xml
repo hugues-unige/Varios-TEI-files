@@ -1,18 +1,17 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../Schema/oddPliego_varios.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:alto="http://www.loc.gov/standards/alto/ns-v4#" xml:id="Varios_126">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Varios_126">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>SATIRA GRACIOSA. LOS 28 MOTIVOS PARA NO CASARSE.</title>
+        <title>SATIRA GRACIOSA. LOS 28 MOTIVOS PARA NO CASARSE</title>
         <respStmt>
           <name/>
           <resp>Codificación TEI</resp>
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <authority role="rightsHolder">Bibliothèque Universitaire de
-                              Genève</authority>
+        <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
         <availability status="restricted">
           <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
         </availability>
@@ -20,14 +19,10 @@
       <sourceDesc>
         <biblFull>
           <titleStmt>
-            <title type="titulo_completo">SATIRA GRACIOSA. LOS 28 MOTIVOS
-                                          PARA NO CASARSE. En que se avisa á todos los hombres los
-                                          motivos que hay para no casarse, y lo que se pasa con las
-                                          mugeres por los males que descubren.</title>
-            <title type="titulo_breve">SATIRA GRACIOSA. LOS 28 MOTIVOS PARA
-                                          NO CASARSE. En que se avisa á todos los hombres los
-                                          motivos que hay para no casarse, y lo que se pasa con las
-                                          mugeres por los males que descubren.</title>
+            <title type="titulo_completo">SATIRA GRACIOSA. LOS 28 MOTIVOS PARA NO CASARSE. En que se
+              avisa á todos los hombres los motivos que hay para no casarse, y lo que se pasa con
+              las mugeres por los males que descubren.</title>
+            <title type="titulo_breve">SATIRA GRACIOSA. LOS 28 MOTIVOS PARA NO CASARSE.</title>
           </titleStmt>
           <editionStmt>
             <p/>
@@ -35,7 +30,7 @@
           <publicationStmt>
             <publisher>Blas Bellver</publisher>
             <pubPlace ref="https://www.geonames.org/2516345/xativa.html">Xàtiva</pubPlace>
-            <date cert="high">1843</date>
+            <date cert="high" when="1843-01-01">1843</date>
           </publicationStmt>
         </biblFull>
         <msDesc>
@@ -43,7 +38,8 @@
             <country>Suisse</country>
             <settlement>Genève</settlement>
             <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"/>
-                                    </repository>
+            </repository>
+            <collection>Colección Varios</collection>
             <idno type="cote"/>
             <idno type="DOI">10.5281/zenodo.6577412</idno>
             <altIdentifier>
@@ -51,10 +47,15 @@
             </altIdentifier>
           </msIdentifier>
           <msContents>
-            <summary/>
+            <summary>Dos partes</summary>
             <msItem>
-              <locus/>
-              <title/>
+              <locus>1-2</locus>
+              <title>Primera parte</title>
+            </msItem>
+            <msItem>
+              <locus>3-4</locus>
+              <title>Segunda parte. En que se sigue el mismo asunto y los chistes de esta
+                Sátira.</title>
             </msItem>
           </msContents>
           <physDesc>
@@ -72,7 +73,7 @@
               </layoutDesc>
             </objectDesc>
             <decoDesc>
-              <summary n="2">Dos grabados (p.1) </summary>
+              <summary n="2">Dos grabados (p.1)</summary>
               <decoNote type="lista_grabados">
                 <list>
                   <item corresp="grabado_v_126_1.xml">grabado_v_126_1</item>
@@ -94,18 +95,17 @@
     </fileDesc>
     <encodingDesc>
       <projectDesc>
-        <p>Este archivo fue creado en el marco del proyecto Desenrollando el
-                              Cordel/Démêler le cordel/Untangling the cordel, dirigido por la
-                              profesora Constance Carta de la Universidad de Ginebra, con el apoyo
-                              de la Fundación filantrópica Famille Sandoz-Monique de Meuron.</p>
+        <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+          cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la Universidad
+          de Ginebra, con el apoyo de la Fundación filantrópica Famille Sandoz-Monique de
+          Meuron.</p>
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR non corregido</p>
+          <p>OCR no corregido</p>
         </correction>
         <normalization>
-          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto
-                                    original.</p>
+          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
         </normalization>
         <punctuation>
           <p>Se conserva la puntuación original.</p>
@@ -126,10 +126,14 @@
       </textClass>
     </profileDesc>
     <revisionDesc>
-      <change when="2022-09-02" who="#PJ">Création du fichier TEI P5 et encodage du
-                        corps du texte</change>
+      <change when="2022-09-02" who="#PJ">Création du fichier TEI P5 et encodage du corps du
+        texte</change>
+      <change when="2024-01-09" who="#EL">Add the IIIF links</change>
     </revisionDesc>
   </teiHeader>
+  <facsimile>
+    <graphic url="varios/Varios_126_1.jpg/full/200,/0/default.jpg"/>
+  </facsimile>
   <sourceDoc xml:id="automaticTranscription">
     <surface xml:id="Varios_126_1" type="page" cert="silver">
       <graphic url="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_126_1/full/full/0/default.jpg"/>
@@ -612,7 +616,7 @@
       </zone>
       <zone xml:id="Varios_126_3_BT227_3" n="3" type="MainZone" subtype="columns" points="1296,753 1334,767 1334,1067 1362,1067 1362,1166 1463,1166 1463,1162 1541,1218 1504,1368 1386,1368 1386,1929 1554,1929 1559,1936 1541,2136 894,2171 868,2136 861,1912 884,1912 884,1743 876,1743 876,1709 858,1709 858,1254 850,1254 850,1114 856,1114 856,753 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_126_3/850,753,709,1418/full/0/default" corresp="MainZone:columns">
         <zone xml:id="Varios_126_3_BT227_3__1" type="DefaultLine" subtype="none" points="848,812 846,839 1285,841 1289,817 1285,766 1098,771 1061,766 978,755 976,755 848,766 848,812 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_126_3/846,755,443,86/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_126_3_BT227_3__1_1" points="849,814 1291,819 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
+          <path xml:id="Varios_126_3_BT227_3__1_1" points="849,814 1291,819 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
           <line>¡Jesus, y que cosa !</line>
         </zone>
         <zone xml:id="Varios_126_3_BT227_3_LT83_2" type="DefaultLine" subtype="none" points="853,865 851,825 1276,823 1280,869 1276,889 848,878 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_126_3/848,823,432,66/full/0/default" corresp="DefaultLine">
@@ -957,26 +961,28 @@
   <text>
     <body>
       <div>
-        <pb n="1" source="Varios_126_1.jpg" facs="fedora_Varios_126_1/full/full/0/default.jpg"/>
-        <div type="parte" n="1">
-          <head type="primer_titulo"><lb/>SATIRA GRACIOSA.<lb/><hi rend="negrita">LOS 28 MOTIVOS PARA
-                                          NO CASARSE.</hi></head>
-          <head type="subtitulo_parte"><lb/>En que se avisa á todos los hombres los motivos que
-                                    hay<lb/>para no casarse, y lo que se pasa con las mugeres
-                                    por<lb/>los males que descubren.</head>
-          <head type="titulo_parte"><lb/>PRIMERA PARTE.</head>
-          <lg>
-            <l>Los que se queren casar</l>
+        <div>
+          <pb n="1" source="Varios_126_1.jpg" facs="varios/Varios_126_1.jpg/"/>
+
+          <head type="primer_titulo"><lb/>SATIRA GRACIOSA.<lb/><hi rend="negrita">LOS 28 MOTIVOS
+              PARA NO CASARSE.</hi></head>
+          <head type="subtitulo" rend="cursiva"><lb/>En que se avisa á todos los hombres los
+            motivos que hay<lb/>para no casarse, y lo que se pasa con las mugeres por<lb/>los males
+            que descubren.</head>
+
+          <div type="parte" n="1">
+
+            <head type="titulo_parte"><lb/>PRIMERA PARTE.</head>
+
+            <l><hi rend="negrita">L</hi>os que se queren casar</l>
             <l>piensan que van á la gloria,</l>
             <l>y no pasan dos semanas</l>
-          </lg>
-          <lg>
             <l>que no pueden ver la novia.</l>
             <l>Uno mala cara,</l>
             <l>el otro suspira,</l>
-          </lg>
-          <pb n="2" source="Varios_126_2.jpg" facs="fedora_Varios_126_2/full/full/0/default.jpg"/>
-          <lg>
+
+            <pb n="2" source="Varios_126_2.jpg" facs="varios/Varios_126_2.jpg/"/>
+
             <l>y eso especialmente</l>
             <l>si falta la harina.</l>
             <l>Ella le dice,</l>
@@ -987,7 +993,7 @@
             <l>el diablo le atiza,</l>
             <l>y á la pobrecilla</l>
             <l>le da una paliza.</l>
-            <l>Al burro del aceitero,</l>
+            <l rend="indent">Al burro del aceitero,</l>
             <l>señores, yo lo comparo,</l>
             <l>al hombre que en estos tiempos</l>
             <l>pretendiere ser casado.</l>
@@ -1012,8 +1018,6 @@
             <l>siempre andará sin un cuarto,</l>
             <l>sin camisa y sin calzones.</l>
             <l>Hay mugeres que</l>
-          </lg>
-          <lg>
             <l>son tan retrecheras,</l>
             <l>que ellas se regalan</l>
             <l>bien de todas veras:</l>
@@ -1029,7 +1033,7 @@
             <l>con poca limpieza,</l>
             <l>pues darlas á menudo</l>
             <l>jabon de Palencia.</l>
-            <l>Ya viene el marido á casa,</l>
+            <l rend="indent">Ya viene el marido á casa,</l>
             <l>y la dice á su muger:</l>
             <l>dime, ven acá muchacha,</l>
             <l>¿qué tenemos que comer?</l>
@@ -1049,16 +1053,18 @@
             <l>echarlos el lazo,</l>
             <l>y si en él cayeren,</l>
             <l>darlas garrotazo.</l>
-          </lg>
-          <trailer>FIN.</trailer>
-        </div>
-        <pb n="3" source="Varios_126_3.jpg" facs="fedora_Varios_126_3/full/full/0/default.jpg"/>
-        <div>
-          <head type="titulo_parte"><lb/>SEGUNDA PARTE.</head>
-          <head type="subtitulo_parte"><lb/>En que se sigue el mismo asunto y los chistes de
-                                    esta<lb/>Sátira.</head>
-          <lg>
-            <l>Siestas tienen madre ó padre</l>
+
+            <trailer rend="negrita">FIN.</trailer>
+          </div>
+
+          <div type="parte" n="2">
+            <pb n="3" source="Varios_126_3.jpg" facs="varios/Varios_126_3.jpg/"/>
+
+            <head type="titulo_parte"><lb/>SEGUNDA PARTE.</head>
+            <head type="subtitulo_parte" rend="cursiva"><lb/>En que se sigue el mismo asunto y los
+              chistes de esta<lb/>Sátira.</head>
+
+            <l><hi rend="negrita">S</hi>iestas tienen madre ó padre</l>
             <l>dentro del mismo lugar,</l>
             <l>si hay alguna quimerilla</l>
             <l>luego se van á llorar.</l>
@@ -1086,8 +1092,6 @@
             <l>di ¿como hacer eso ?</l>
             <l>le diré al alcalde</l>
             <l>que te meta preso.</l>
-          </lg>
-          <lg>
             <l>¡Jesus, y que cosa !</l>
             <l>el diablo se alegra;</l>
             <l>Endamente riñen</l>
@@ -1096,7 +1100,7 @@
             <l>quiérende arañar,</l>
             <l>y el pobre solo bace</l>
             <l>sufrir y callar.</l>
-            <l>Señores, el jornalero</l>
+            <l rend="indent">Señores, el jornalero</l>
             <l>cuando no hay que trabajar,</l>
             <l>en el tiempo del invierno,</l>
             <l>ya no tiene que jamar.</l>
@@ -1112,13 +1116,13 @@
             <l>ninguno lo note,</l>
             <l>empieza á dar vueltas</l>
             <l>el señor Garrote.</l>
-            <l>Hay hombres que se levantan</l>
+            <l rend="indent">Hay hombres que se levantan</l>
             <l>con una pasion muy tietna,</l>
             <l>y á las nueve de la mañana</l>
             <l>en meten en la taberna.</l>
-          </lg>
-          <pb n="4" source="Varios_126_4.jpg" facs="fedora_Varios_126_4/full/full/0/default.jpg"/>
-          <lg>
+
+            <pb n="4" source="Varios_126_4.jpg" facs="varios/Varios_126_4.jpg/"/>
+
             <l>Ya viene la noche,</l>
             <l>como es regular,</l>
             <l>y á la muger dice</l>
@@ -1145,8 +1149,6 @@
             <l>con hastantes hijos:</l>
             <l>uno le pide medias,</l>
             <l>el otro zapatos,</l>
-          </lg>
-          <lg>
             <l>y todo se vuelve</l>
             <l>dos mil malos ratos:</l>
             <l>la otra el pañaelo,</l>
@@ -1169,15 +1171,17 @@
             <l>con gran disimulo,</l>
             <l>fuera de mugeres,</l>
             <l>puntapie en el culo.</l>
-            <l>Mirad que las coplas</l>
+            <l rend="indent">Mirad que las coplas</l>
             <l>que aqui se han cantado,</l>
             <l>al pie de la letra</l>
             <l>todo está pasando.</l>
-          </lg>
-          <trailer>FIN.</trailer>
+
+            <trailer rend="negrita">FIN.</trailer>
+          </div>
         </div>
+        
         <div type="colofon">
-          <p><lb/>Játiva: Imprenta y libreria de Blas Bellver. Año 1843</p>
+          <p rend="cursiva"><lb/>Játiva: Imprenta y libreria de Blas Bellver. Año 1843</p>
         </div>
       </div>
     </body>

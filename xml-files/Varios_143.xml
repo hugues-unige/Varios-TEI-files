@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../Schema/oddPliego_varios.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:alto="http://www.loc.gov/standards/alto/ns-v4#" xml:id="Varios_143">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Varios_143">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -11,8 +11,7 @@
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <authority role="rightsHolder">Bibliothèque Universitaire de
-                            Genève</authority>
+        <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
         <availability status="restricted">
           <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
         </availability>
@@ -29,7 +28,7 @@
           <publicationStmt>
             <publisher>Cristina Segura</publisher>
             <pubPlace ref="https://www.geonames.org/3128760/barcelona.html">Barcelona</pubPlace>
-            <date>[s.a]</date>
+            <date cert="low" when="1800-01-01">[s.a.]</date>
           </publicationStmt>
         </biblFull>
         <msDesc>
@@ -37,7 +36,8 @@
             <country>Suisse</country>
             <settlement>Genève</settlement>
             <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"/>
-                  </repository>
+            </repository>
+            <collection>Colección Varios</collection>
             <idno type="cote"/>
             <idno type="DOI">10.5281/zenodo.6586625</idno>
             <altIdentifier>
@@ -45,10 +45,14 @@
             </altIdentifier>
           </msIdentifier>
           <msContents>
-            <summary/>
+            <summary>Dos partes</summary>
             <msItem>
-              <locus/>
-              <title/>
+              <locus>1</locus>
+              <title>Un marido como hay muchos</title>
+            </msItem>
+            <msItem>
+              <locus>2</locus>
+              <title>Requiebros entre un jove enamorat y una hermosa cigarrera</title>
             </msItem>
           </msContents>
           <physDesc>
@@ -66,8 +70,7 @@
               </layoutDesc>
             </objectDesc>
             <decoDesc>
-              <summary n="2">Dos grabados
-                                        (p.1 + 2) </summary>
+              <summary n="2">Dos grabados (p.1, 2)</summary>
               <decoNote type="lista_grabados">
                 <list>
                   <item corresp="grabado_v_143_1.xml">grabado_v_143_1</item>
@@ -89,18 +92,17 @@
     </fileDesc>
     <encodingDesc>
       <projectDesc>
-        <p>Este archivo fue creado en el marco del proyecto Desenrollando el
-                            Cordel/Démêler le cordel/Untangling the cordel, dirigido por la
-                            profesora Constance Carta de la Universidad de Ginebra, con el apoyo de
-                            la Fundación filantrópica Famille Sandoz-Monique de Meuron.</p>
+        <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+          cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la Universidad
+          de Ginebra, con el apoyo de la Fundación filantrópica Famille Sandoz-Monique de
+          Meuron.</p>
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR non corregido</p>
+          <p>OCR no corregido</p>
         </correction>
         <normalization>
-          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto
-                                original.</p>
+          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
         </normalization>
         <punctuation>
           <p>Se conserva la puntuación original.</p>
@@ -110,6 +112,7 @@
     <profileDesc>
       <langUsage>
         <language ident="es">Español</language>
+        <language ident="ca">Catalán</language>
       </langUsage>
       <textClass>
         <keywords xml:base="http://datos.bne.es/tema/">
@@ -122,9 +125,13 @@
     </profileDesc>
     <revisionDesc>
       <change when="2022-09-15" who="#PJ">Création du fichier TEI P5 et encodage du corps du
-                        texte</change>
+        texte</change>
+      <change when="2024-01-09" who="#EL">Add the IIIF links</change>
     </revisionDesc>
   </teiHeader>
+  <facsimile>
+    <graphic url="varios/Varios_143_1.jpg/full/200,/0/default.jpg"/>
+  </facsimile>
   <sourceDoc xml:id="automaticTranscription">
     <surface xml:id="Varios_143_1" type="page" cert="silver">
       <graphic url="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_143_1/full/full/0/default.jpg"/>
@@ -205,7 +212,8 @@
       <zone xml:id="Varios_143_1_BT228_4" n="4" type="MarginTextZone" subtype="colophon" points="140,2260 141,2359 1509,2372 1504,2284 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_143_1/140,2260,1369,112/full/0/default" corresp="MarginTextZone:colophon">
         <zone xml:id="Varios_143_1_BT228_4_LT83_1" type="DefaultLine" subtype="none" points="154,2329 166,2342 166,2344 169,2344 171,2344 173,2344 175,2344 217,2327 260,2327 331,2327 336,2327 363,2346 365,2346 367,2346 369,2346 371,2346 411,2331 429,2348 429,2350 432,2350 434,2350 436,2350 772,2340 903,2361 905,2363 1001,2363 1001,2361 1003,2361 1006,2361 1035,2344 1131,2344 1133,2346 1170,2365 1173,2365 1175,2365 1177,2365 1179,2365 1206,2348 1346,2363 1348,2363 1404,2350 1406,2338 1406,2286 1039,2265 1037,2265 901,2271 884,2271 156,2252 156,2309 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_143_1/154,2252,1252,113/full/0/default" corresp="DefaultLine">
           <path xml:id="Varios_143_1_BT228_4_LT83_1_1" points="158,2311 1407,2340 "/>
-          <line>Barcelona —Imps. de Cristina Segura. Vda. A. Llorens, Palma de Sta. Catalina,6</line>
+          <line>Barcelona —Imps. de Cristina Segura. Vda. A. Llorens, Palma de Sta.
+            Catalina,6</line>
         </zone>
       </zone>
       <zone xml:id="Varios_143_1_BT224_5" n="5" type="GraphicZone" subtype="illustration" points="2,444 0,444 0,442 2,442 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_143_1/0,442,2,2/full/0/default" corresp="GraphicZone:illustration"/>
@@ -315,11 +323,12 @@
   <text>
     <body>
       <div>
-        <div>
-          <pb n="1" source="Varios_143_1.jpg" facs="fedora_Varios_143_1/full/full/0/default.jpg"/>
-          <head type="primer_titulo"><lb/>Un marido como hay muchos</head>
-          <lg>
-            <l>Ay! que bien se te parece,</l>
+        <div n="1">
+          <div>
+            <pb n="1" source="Varios_143_1.jpg" facs="varios/Varios_143_1.jpg/"/>
+            <head type="primer_titulo" rend="negrita"><lb/>Un marido como hay muchos</head>
+
+            <l rend="indent">Ay! que bien se te parece,</l>
             <l>Ese niño, mi Fecundo</l>
             <l>No hay otro hijo en el Mundo</l>
             <l>A su padre mas igual;</l>
@@ -327,9 +336,7 @@
             <l>¿Como un hijo tan preciado</l>
             <l>No ha de dejar halagado</l>
             <l>El orgullo paternal?</l>
-          </lg>
-          <lg>
-            <l>Mira Calamanda, dudo,</l>
+            <l rend="indent">Mira Calamanda, dudo,</l>
             <l>Que se me parezca tanto,</l>
             <l>Y sino, pues, ¿por qué santo</l>
             <l>Tiene la cabeza así</l>
@@ -337,16 +344,22 @@
             <l>—Tú la memoria has perdido?</l>
             <l>Acaso no te ha crecido</l>
             <l>Despues de casado, dí?</l>
-          </lg>
+          </div>
+          
+          <div type="colofon">
+            <p><lb/>Barcelona —Imps. de Cristina Segura. Vda. A. Llorens, Palma de Sta.
+              Catalina,6</p>
+          </div>
         </div>
-        <div type="colofon">
-          <p><lb/>Barcelona —Imps. de Cristina Segura. Vda. A. Llorens, Palma de Sta. Catalina,6</p>
-        </div>
-        <pb n="2" source="Varios_143_2.jpg" facs="fedora_Varios_143_2/full/full/0/default.jpg"/>
-        <div>
-          <head type="titulo_parte"><lb/>Requiebros entre un jove enamorat<lb/>y una hermosa cigarrera</head>
+
+        <div n="2">
+          <pb n="2" source="Varios_143_2.jpg" facs="varios/Varios_143_2.jpg/"/>
+          
+          <head type="titulo_parte"><lb/>Requiebros entre un jove enamorat<lb/>y una hermosa
+            cigarrera</head>
+          
           <sp>
-            <speaker>Enam.</speaker>
+            <speaker rend="cursiva">Enam.</speaker>
             <l>Noya hermosa mes que el sol</l>
             <l>Mes maca que un serafi.</l>
             <l>Digas ¿te bols casá ab mí?</l>
@@ -360,8 +373,9 @@
             <l>Que te juro el cor me matan</l>
             <l>Y ab ells penso día y nit.</l>
           </sp>
+          
           <sp>
-            <speaker>Cigar.</speaker>
+            <speaker rend="cursiva">Cigar.</speaker>
             <l>Sembla bosté un puchinelli</l>
             <l>Nom bingui no amuiná,</l>
             <l>Qu'el meu cor nos donará,</l>

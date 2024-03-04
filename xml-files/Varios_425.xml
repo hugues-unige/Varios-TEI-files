@@ -4,8 +4,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>HISTORIA DEL MUY NOBLE Y ESFORZADO CABALLERO CONDE
-                              PARTINOPLES</title>
+        <title>HISTORIA DEL MUY NOBLE Y ESFORZADO CABALLERO CONDE PARTINOPLES</title>
         <respStmt>
           <name xml:id="PJ">Pauline Jacsont</name>
           <resp>Codificación TEI</resp>
@@ -31,9 +30,9 @@
             <p/>
           </editionStmt>
           <publicationStmt>
-            <publisher>Despacho: Sucesores de Hernando</publisher>
+            <publisher>Sucesores de Hernando</publisher>
             <pubPlace ref="https://www.geonames.org/3117735/madrid.html">Madrid</pubPlace>
-            <date cert="high">[s.a]</date>
+            <date cert="low" when="1800-01-01">[s.a.]</date>
           </publicationStmt>
         </biblFull>
         <msDesc>
@@ -42,6 +41,7 @@
             <settlement>Genève</settlement>
             <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"/>
                                     </repository>
+            <collection>Colección Varios</collection>
             <idno type="cote"/>
             <idno type="DOI">10.5281/zenodo.6787832</idno>
             <altIdentifier>
@@ -71,7 +71,7 @@
               </layoutDesc>
             </objectDesc>
             <decoDesc>
-              <summary n="1">Uno grabado (p.1) </summary>
+              <summary n="1">Un grabado (p.1) </summary>
               <decoNote type="lista_grabados">
                 <list>
                   <item corresp="grabado_v_425_1.xml">grabado_v_425_1</item>
@@ -109,7 +109,7 @@
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR non corregido</p>
+          <p>OCR no corregido</p>
         </correction>
         <normalization>
           <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto
@@ -134,9 +134,10 @@
     <revisionDesc>
       <change when="2023-12-27" who="#PJ">Création du fichier TEI P5 et encodage du
                         corps du texte</change>
+<change when="2024-01-09" who="#EL">Add the IIIF links</change>
     </revisionDesc>
   </teiHeader>
-  <sourceDoc xml:id="automaticTranscription">
+  <facsimile><graphic url="varios/Varios_425_1.jpg/full/200,/0/default.jpg"/></facsimile><sourceDoc xml:id="automaticTranscription">
     <surface xml:id="Varios_425_1" type="page" cert="silver">
       <graphic url="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_425_1/full/full/0/default.jpg"/>
       <zone xml:id="Varios_425_1_BT222_1" n="1" type="CustomZone" subtype="numero_pliego" points="1012,90 1012,198 1324,198 1324,90 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_425_1/1012.0,90.0,312.0,108.0/full/0/default" corresp="CustomZone:numero_pliego">
@@ -6284,7 +6285,7 @@
   <text>
     <body>
       <div>
-        <pb n="1" source="Varios_425_1.jpg" facs="fedora_Varios_425_1/full/full/0/default.jpg"/>
+        <pb n="1" source="Varios_425_1.jpg" facs="varios/Varios_425_1.jpg/"/>
         <fw type="numeroPliego"/>
         <head type="primer_titulo"><lb/>HISTORIA DEL MUY NOBLE<lb/>Y ESFORZADO CABALLERO<lb/>CONDE
                               PARTINOPLES</head>
@@ -6294,11 +6295,11 @@
         <div type="colofon">
           <p><lb/>MADRID Despacho: Sucesores de Hernando, Arenal, 11.</p>
         </div>
-        <pb n="2" source="Varios_425_2.jpg" facs="fedora_Varios_425_2/full/full/0/default.jpg"/>
+        <pb n="2" source="Varios_425_2.jpg" facs="varios/Varios_425_2.jpg/"/>
         <div type="propiedad">
           <p><lb/>ES PROPIEDAD</p>
         </div>
-        <pb n="3" source="Varios_425_3.jpg" facs="fedora_Varios_425_3/full/full/0/default.jpg"/>
+        <pb n="3" source="Varios_425_3.jpg" facs="varios/Varios_425_3.jpg/"/>
         <div type="parte" n="1">
           <head type="primer_titulo"><lb/>HISTORIA<lb/>DEL CONDE PARTINOPLES.</head>
           <div type="capitulo" n="1">
@@ -6327,7 +6328,7 @@
                                           correspondió á<lb/>su amor, de cuyas resultas tuvo una
                                           niña, que el emperador adoptó<lb/>por hija suya, con el
                                           nombre de Leonisa, mandando á todos los</p>
-            <pb n="4" source="Varios_425_4.jpg" facs="fedora_Varios_425_4/full/full/0/default.jpg"/>
+            <pb n="4" source="Varios_425_4.jpg" facs="varios/Varios_425_4.jpg/"/>
             <fw type="paginaNum">— 4 —</fw>
             <p><lb/>reyes y grandes del imperio la reconociesen por su
                                           legítima su-<lb/>cesora y heredera del imperio.<lb/>La
@@ -6381,7 +6382,7 @@
                                           ó<lb/>bien por la habilidad de su arte de
                                           encantamiento.</p>
           </div>
-          <pb n="5" source="Varios_425_5.jpg" facs="fedora_Varios_425_5/full/full/0/default.jpg"/>
+          <pb n="5" source="Varios_425_5.jpg" facs="varios/Varios_425_5.jpg/"/>
           <fw type="paginaNum">— 5—</fw>
           <div type="capitulo" n="2">
             <head type="titulo_parte"><lb/>CAPITULO II.</head>
@@ -6432,7 +6433,7 @@
                                           comenzó á afligirse encomendándose á Dios,
                                           rogándole<lb/>le hiciese la merced de manifestarle el
                                           misterio que encerraba</p>
-            <pb n="6" source="Varios_425_6.jpg" facs="fedora_Varios_425_6/full/full/0/default.jpg"/>
+            <pb n="6" source="Varios_425_6.jpg" facs="varios/Varios_425_6.jpg/"/>
             <fw type="paginaNum">— 6 —</fw>
             <p><lb/>aquello que observaba, ó si iba conducido por
                                           algunos genios in-<lb/>fernales.<lb/>Tres dias con sus
@@ -6486,7 +6487,7 @@
                                           apetecer, por lo que decía<lb/>entre sí: caso que yo
                                           muera en este palacio, daré por bien em-<lb/>pleada mi
                                           muerte. A la noche, observando de nuevo la mesa</p>
-            <pb n="7" source="Varios_425_7.jpg" facs="fedora_Varios_425_7/full/full/0/default.jpg"/>
+            <pb n="7" source="Varios_425_7.jpg" facs="varios/Varios_425_7.jpg/"/>
             <fw type="paginaNum">— 7—</fw>
             <p><lb/>puesta, se sentó a ella, y vió que con direccion á él
                                           venia una<lb/>copa de licor, de la que pendia un hermoso
@@ -6541,7 +6542,7 @@
                                           ¡Oh Dios mio! ¿quién está aquí conmigo? Ella
                                           con-<lb/>testándole, dijo: soy emperatriz, tengo siete
                                           reyes á mi mando,</p>
-            <pb n="8" source="Varios_425_8.jpg" facs="fedora_Varios_425_8/full/full/0/default.jpg"/>
+            <pb n="8" source="Varios_425_8.jpg" facs="varios/Varios_425_8.jpg/"/>
             <fw type="paginaNum">— 8 —</fw>
             <p><lb/>duques, condes y marqueses, sin ser nadie osado á
                                           entrar en este<lb/>mi palacio; más vos, quien quiera que
@@ -6596,7 +6597,7 @@
                                           desear más el mayor monarca del mun-<lb/>do. Despues de
                                           haber comido se levantó y fué á pasear por el
                                           alcázar.</p>
-            <pb n="9" source="Varios_425_9.jpg" facs="fedora_Varios_425_9/full/full/0/default.jpg"/>
+            <pb n="9" source="Varios_425_9.jpg" facs="varios/Varios_425_9.jpg/"/>
             <fw type="paginaNum">— 9 —</fw>
             <p><lb/>Por la noche, como por ensalmo, se vió rodeado de muchas
                                           ha- <lb/>chas encendidas, á las que siguió sin poder
@@ -6652,7 +6653,7 @@
                                           en su ejército dos jefes llamados Casion y Ausin, los
                                           que</p>
             <fw type="reclamo">PARTINOPLES. 2</fw>
-            <pb n="10" source="Varios_425_10.jpg" facs="fedora_Varios_425_10/full/full/0/default.jpg"/>
+            <pb n="10" source="Varios_425_10.jpg" facs="varios/Varios_425_10.jpg/"/>
             <fw type="paginaNum">— 10 —</fw>
             <p><lb/>tanto se internaron en el reino de Francia, que llegaron
                                           á poner<lb/>sitio á París. Todo cuanto allí pasaba lo
@@ -6700,7 +6701,7 @@
                                           hasta las costas de Francia se verificó<lb/>como se habia
                                           hecho antes, envuelto en una densa nube.</p>
           </div>
-          <pb n="11" source="Varios_425_11.jpg" facs="fedora_Varios_425_11/full/full/0/default.jpg"/>
+          <pb n="11" source="Varios_425_11.jpg" facs="varios/Varios_425_11.jpg/"/>
           <fw type="paginaNum">— 11 —</fw>
           <div type="capitulo" n="3">
             <head type="titulo_parte"><lb/>CAPITULO III.</head>
@@ -6750,7 +6751,7 @@
                                           tuvieron el placer de abrazarse. Toda la córte
                                           celebró<lb/>con regocijos públicos el socorro que les
                                           habia venido tan inopi-</p>
-            <pb n="12" source="Varios_425_12.jpg" facs="fedora_Varios_425_12/full/full/0/default.jpg"/>
+            <pb n="12" source="Varios_425_12.jpg" facs="varios/Varios_425_12.jpg/"/>
             <fw type="paginaNum">— 112 —</fw>
             <p><lb/>nadamente. El rey y el conde se retiraron á palacio,
                                           pasando la<lb/>mayor parte de la noche en referirse ambos
@@ -6798,7 +6799,7 @@
                                           todas las riquezas que la emperatriz su querida
                                           le<lb/>habia regalado en su despedida, mandando se
                                           distribuyesen entre</p>
-            <pb n="13" source="Varios_425_13.jpg" facs="fedora_Varios_425_13/full/full/0/default.jpg"/>
+            <pb n="13" source="Varios_425_13.jpg" facs="varios/Varios_425_13.jpg/"/>
             <fw type="paginaNum">—13 —</fw>
             <p><lb/>las familias más necesitadas de la capital: asi
                                           terminó su brillan-<lb/>te entrada.<lb/>Avergonzado el
@@ -6854,7 +6855,7 @@
                                           de tal mo-<lb/>do, que mi sensibilidad me hace presumir de
                                           que yo voy á per-<lb/>derte para siempre; pero por otra
                                           parte tu deshonra fuera para mí</p>
-            <pb n="14" source="Varios_425_14.jpg" facs="fedora_Varios_425_14/full/full/0/default.jpg"/>
+            <pb n="14" source="Varios_425_14.jpg" facs="varios/Varios_425_14.jpg/"/>
             <fw type="paginaNum">— 14—</fw>
             <p><lb/>aun más sensible que la misma muerte, en cuya
                                           inteligencia, ca-<lb/>ballero conde Partinoples, el rey de
@@ -6910,7 +6911,7 @@
                                           pues él no le tenia miedo Entonces el moro picó con
                                           las<lb/>espuelas á su caballo queriendo atropellar al
                                           conde; pero este, con</p>
-            <pb n="15" source="Varios_425_15.jpg" facs="fedora_Varios_425_15/full/full/0/default.jpg"/>
+            <pb n="15" source="Varios_425_15.jpg" facs="varios/Varios_425_15.jpg/"/>
             <fw type="paginaNum">— 15—</fw>
             <p><lb/>mucha agilidad, dió un salto al través, alzó el
                                           brazo cuanto pu-<lb/>do, y dió con la espada un gran
@@ -6966,7 +6967,7 @@
                                           parcial contienda, hizo que todos los que estaban allí
                                           con<lb/>él arrojaseu las capas con que tenian cubiertas
                                           las armas, ponien-</p>
-            <pb n="16" source="Varios_425_16.jpg" facs="fedora_Varios_425_16/full/full/0/default.jpg"/>
+            <pb n="16" source="Varios_425_16.jpg" facs="varios/Varios_425_16.jpg/"/>
             <fw type="paginaNum">— 16 —</fw>
             <p><lb/>do mano á las espadas y entraron al campo, lo que
                                           verificaron con<lb/>grandes alaridos, llevándose consigo
@@ -7022,7 +7023,7 @@
                                           á la persona de su monarca, y que si per-<lb/>manecia
                                           este más tiempo en cautividad con los franceses le
                                           su-</p>
-            <pb n="17" source="Varios_425_17.jpg" facs="fedora_Varios_425_17/full/full/0/default.jpg"/>
+            <pb n="17" source="Varios_425_17.jpg" facs="varios/Varios_425_17.jpg/"/>
             <fw type="paginaNum">—17—</fw>
             <p><lb/>cederia lo mismo al sobrino de su rey, sufriendo igual
                                           suerte<lb/>que el conde de Mars. Regresaron los mensajeros
@@ -7064,7 +7065,7 @@
                                           consecuencias.</p>
             <fw type="reclamo">PARTINOPLES. 3</fw>
           </div>
-          <pb n="18" source="Varios_425_18.jpg" facs="fedora_Varios_425_18/full/full/0/default.jpg"/>
+          <pb n="18" source="Varios_425_18.jpg" facs="varios/Varios_425_18.jpg/"/>
           <fw type="paginaNum">— 18—</fw>
           <div type="capitulo" n="5">
             <head type="titulo_parte"><lb/>CAPITULO V.</head>
@@ -7113,7 +7114,7 @@
                                           cual trataron de embriagarle con cierta<lb/>reparacion
                                           mezclada en el vino Así lo hicieron como lo<lb/>ensaron,
                                           y conseguido su objeto trajeron, á la doncella</p>
-            <pb n="19" source="Varios_425_19.jpg" facs="fedora_Varios_425_19/full/full/0/default.jpg"/>
+            <pb n="19" source="Varios_425_19.jpg" facs="varios/Varios_425_19.jpg/"/>
             <fw type="paginaNum">– 19 –</fw>
             <p><lb/>y los dejaron en un cuarto solos; pero nada se
                                           adelantó, pues<lb/>luego que el conde se halló
@@ -7171,7 +7172,7 @@
                                           emperatriz. Habiendo arribado el conde al puerto<lb/>de la
                                           isla, saltó en tierra con mucha precaucion, temeroso de
                                           ser</p>
-            <pb n="20" source="Varios_425_20.jpg" facs="fedora_Varios_425_20/full/full/0/default.jpg"/>
+            <pb n="20" source="Varios_425_20.jpg" facs="varios/Varios_425_20.jpg/"/>
             <fw type="paginaNum">— 20 —</fw>
             <p><lb/>descubierto, por ser la emperatriz muy perspicaz y
                                           advertida.<lb/>Llegada la noche se dirigió hácia el
@@ -7226,7 +7227,7 @@
                                           del palacio, abiertas por órden de la em-<lb/>peratriz,
                                           se hallaban perfectamente guardadas por muchos
                                           centine-</p>
-            <pb n="21" source="Varios_425_21.jpg" facs="fedora_Varios_425_21/full/full/0/default.jpg"/>
+            <pb n="21" source="Varios_425_21.jpg" facs="varios/Varios_425_21.jpg/"/>
             <fw type="paginaNum">— 21 —</fw>
             <p><lb/>las y los primeros rayos del dia prestaban suficiente
                                           luz para dis-<lb/>tinguir claramente los objetos. Despues
@@ -7281,7 +7282,7 @@
                                           espadas para decapitarlo; pero Oriana les dijo:
                                           deteneos,<lb/>señores, que no es este el caballero que la
                                           emperatriz manda ma-</p>
-            <pb n="22" source="Varios_425_22.jpg" facs="fedora_Varios_425_22/full/full/0/default.jpg"/>
+            <pb n="22" source="Varios_425_22.jpg" facs="varios/Varios_425_22.jpg/"/>
             <fw type="paginaNum">—22 —</fw>
             <p><lb/>tar; cuando salga el otro, matadle: pues este es un
                                           escudero que<lb/>se envía á una comision
@@ -7328,7 +7329,7 @@
                                           habia muerto: efec-<lb/>tivamente, así era; y en su
                                           consecuencia se habian reunido en su<lb/>palacio todos los
                                           grandes del imperio para concertar el matrimonio</p>
-            <pb n="23" source="Varios_425_23.jpg" facs="fedora_Varios_425_23/full/full/0/default.jpg"/>
+            <pb n="23" source="Varios_425_23.jpg" facs="varios/Varios_425_23.jpg/"/>
             <fw type="paginaNum">— 23—</fw>
             <p><lb/>Arrepentida ya la emperatriz de su mal comportamiento
                                           con el con-<lb/>de, quiso consultar con Oriana sobre el
@@ -7384,7 +7385,7 @@
                                           favorable, volviendo la empera-<lb/>triz á su palacio con
                                           toda su comitiva.<lb/>Con feliz viaje llegó el navío á
                                           la vista de la sierra de Ardeña:</p>
-            <pb n="24" source="Varios_425_24.jpg" facs="fedora_Varios_425_24/full/full/0/default.jpg"/>
+            <pb n="24" source="Varios_425_24.jpg" facs="varios/Varios_425_24.jpg/"/>
             <fw type="paginaNum">— 24 —</fw>
             <p><lb/>el buque se aproximó á tierra, y tanto qué se oyó
                                           relinchar un ca-<lb/>ballo. Preguntó Oriana al capitan,
@@ -7441,7 +7442,7 @@
                                           del<lb/>conde Partinoples. Al oir esto, exclamó: ¿dónde
                                           está esa mujer mag-<lb/>nánima, que quiero verla y
                                           pedirle perdon del agravio que la hice?</p>
-            <pb n="25" source="Varios_425_25.jpg" facs="fedora_Varios_425_25/full/full/0/default.jpg"/>
+            <pb n="25" source="Varios_425_25.jpg" facs="varios/Varios_425_25.jpg/"/>
             <fw type="paginaNum">— 25 —</fw>
             <p><lb/>y cayó desmayado en tierra: entonces se acabó de
                                           persuadir Oriana <lb/>de que era el mismo conde
@@ -7498,7 +7499,7 @@
                                           trono: los caballeros fueron <lb/>entrando á besar la
                                           mano, y en seguida se fueron colocando en sus</p>
             <fw type="reclamo">PARTINOPLES. 4</fw>
-            <pb n="26" source="Varios_425_26.jpg" facs="fedora_Varios_425_26/full/full/0/default.jpg"/>
+            <pb n="26" source="Varios_425_26.jpg" facs="varios/Varios_425_26.jpg/"/>
             <fw type="paginaNum">— 26 —</fw>
             <p><lb/>sitios teniendo cuidado de que el conde estuviese
                                           inmediato á la<lb/>puerta donde no le pudiese advertir la
@@ -7547,7 +7548,7 @@
                                           lo que satisfizo con manifestarle el compromiso en que
                                           se<lb/>veia, de no poder asistir al torneo que debia
                                           celebrarse dentro de</p>
-            <pb n="27" source="Varios_425_27.jpg" facs="fedora_Varios_425_27/full/full/0/default.jpg"/>
+            <pb n="27" source="Varios_425_27.jpg" facs="varios/Varios_425_27.jpg/"/>
             <fw type="paginaNum">— 27—</fw>
             <p><lb/>diez dias. La sultana, enamorada de su presencia
                                           gallarda, le dijo<lb/>no se afligiese, y que si le daba la
@@ -7602,7 +7603,7 @@
                                           acom-<lb/>pañada de Oriana, que manifestaba en su
                                           semblante algun pesar,<lb/>siendo, sin duda, el no saber
                                           el paradero del conde Partinoples ni</p>
-            <pb n="28" source="Varios_425_28.jpg" facs="fedora_Varios_425_28/full/full/0/default.jpg"/>
+            <pb n="28" source="Varios_425_28.jpg" facs="varios/Varios_425_28.jpg/"/>
             <fw type="paginaNum">— 28—</fw>
             <p><lb/>qué se pudo hacer de él; á su inmediacion se
                                           hallaban los reyes<lb/>que debian decidir de la suerte de
@@ -7657,7 +7658,7 @@
                                           puesto, y habiendo<lb/>sido armado de nuevo el conde con
                                           una gruesa lanza, salió al frente<lb/>otra vez para
                                           aguardar caballero que quisiese batirse; por lo cual</p>
-            <pb n="29" source="Varios_425_29.jpg" facs="fedora_Varios_425_29/full/full/0/default.jpg"/>
+            <pb n="29" source="Varios_425_29.jpg" facs="varios/Varios_425_29.jpg/"/>
             <fw type="paginaNum">—29—</fw>
             <p><lb/>dijo uno de los reyes á los demás: muy valiente y
                                           esforzado es<lb/>este caballero; pues aun no ha escapado
@@ -7713,7 +7714,7 @@
                                           nadie. En esto tocaron los clarines en señal
                                           de<lb/>concluido el torneo por aquel dia, retirándose
                                           despues los dos<lb/>compañeros amigos á su tienda.</p>
-            <pb n="30" source="Varios_425_30.jpg" facs="fedora_Varios_425_30/full/full/0/default.jpg"/>
+            <pb n="30" source="Varios_425_30.jpg" facs="varios/Varios_425_30.jpg/"/>
             <fw type="paginaNum">— 30 —</fw>
             <p><lb/>Prevenidos al dia siguiente los dos campeones,
                                           cabalgaron en<lb/>sus briosos caballos, con la diferencia
@@ -7768,7 +7769,7 @@
                                           los reyes, unos elogiando al conde y otros al soldan;
                                           pero<lb/>no faltaba quien dijese, era muy cierto que el
                                           caballero del penacho</p>
-            <pb n="31" source="Varios_425_31.jpg" facs="fedora_Varios_425_31/full/full/0/default.jpg"/>
+            <pb n="31" source="Varios_425_31.jpg" facs="varios/Varios_425_31.jpg/"/>
             <fw type="paginaNum">— 31—</fw>
             <p><lb/>negro era quien habia ganado el torneo; pero se
                                           ignoraba quién fue-<lb/>se, á lo que contestó el conde:
@@ -7822,7 +7823,7 @@
                                           instantes, les disipaba los pesares<lb/>pasados y que ya
                                           se les presentaba un dichoso porvenir.<lb/>El moro Guadin,
                                           compañero de armas del conde, pasados los</p>
-            <pb n="32" source="Varios_425_32.jpg" facs="fedora_Varios_425_32/full/full/0/default.jpg"/>
+            <pb n="32" source="Varios_425_32.jpg" facs="varios/Varios_425_32.jpg/"/>
             <p><lb/>— 32 —<lb/>festejos de la córte, pidió licencia
                                           para regresar á su patria con<lb/>sus criados: cuando el
                                           emperador lo oyó le causó gran pesar su<lb/>peticion, y

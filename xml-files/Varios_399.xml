@@ -4,8 +4,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>TROVOS NUEVOS Y DIVERTIDOS, PARA OBSEQUIAR UN FINO AMANTE A SU
-                              DAMA.</title>
+        <title>TROVOS NUEVOS Y DIVERTIDOS</title>
         <respStmt>
           <name xml:id="PJ">Pauline Jacsont</name>
           <resp>Codificación TEI</resp>
@@ -29,9 +28,9 @@
             <p/>
           </editionStmt>
           <publicationStmt>
-            <publisher>Despacho de Marés y Compañía</publisher>
+            <publisher>José María Marés</publisher>
             <pubPlace ref="https://www.geonames.org/3117735/madrid.html">Madrid</pubPlace>
-            <date cert="high">1870</date>
+            <date cert="high" when="1870-01-01">1870</date>
           </publicationStmt>
         </biblFull>
         <msDesc>
@@ -40,6 +39,7 @@
             <settlement>Genève</settlement>
             <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"/>
                                     </repository>
+            <collection>Colección Varios</collection>
             <idno type="cote"/>
             <idno type="DOI">10.5281/zenodo.6783925</idno>
             <altIdentifier>
@@ -98,7 +98,7 @@
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR non corregido</p>
+          <p>OCR no corregido</p>
         </correction>
         <normalization>
           <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto
@@ -125,9 +125,10 @@
     <revisionDesc>
       <change when="2023-12-18" who="#PJ">Création du fichier TEI P5 et encodage du
                         corps du texte</change>
+<change when="2024-01-09" who="#EL">Add the IIIF links</change>
     </revisionDesc>
   </teiHeader>
-  <sourceDoc xml:id="automaticTranscription">
+  <facsimile><graphic url="varios/Varios_399_1.jpg/full/200,/0/default.jpg"/></facsimile><sourceDoc xml:id="automaticTranscription">
     <surface xml:id="Varios_399_1" type="page" cert="silver">
       <graphic url="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_399_1/full/full/0/default.jpg"/>
       <zone xml:id="Varios_399_1_BT221_1" n="1" type="CustomZone" subtype="impresorNum" points="1560,156 1560,232 1304,232 1304,156 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_399_1/1304,156,256,76/full/0/default" corresp="CustomZone:impresorNum">
@@ -1259,7 +1260,7 @@
   <text>
     <body>
       <div>
-        <pb n="1" source="Varios_399_1.jpg" facs="fedora_Varios_399_1/full/full/0/default.jpg"/>
+        <pb n="1" source="Varios_399_1.jpg" facs="varios/Varios_399_1.jpg/"/>
         <fw type="impresorNum">(Núm. 87.)</fw>
         <div>
           <head type="primer_titulo"><lb/><hi rend="negrita">TROVOS NUEVOS Y
@@ -1304,7 +1305,7 @@
             <l>no desmayes, que callando</l>
             <l>nuestro fin se ha de lograr</l>
           </lg>
-          <pb n="2" source="Varios_399_2.jpg" facs="fedora_Varios_399_2/full/full/0/default.jpg"/>
+          <pb n="2" source="Varios_399_2.jpg" facs="varios/Varios_399_2.jpg/"/>
           <lg>
             <l>"aun que nos vayan celando."</l>
             <l>Todo el de intenciones malas</l>
@@ -1401,7 +1402,7 @@
             <l>por tí ando congojoso,</l>
             <l>por tí me hallo sumergido</l>
           </lg>
-          <pb n="3" source="Varios_399_3.jpg" facs="fedora_Varios_399_3/full/full/0/default.jpg"/>
+          <pb n="3" source="Varios_399_3.jpg" facs="varios/Varios_399_3.jpg/"/>
           <lg>
             <l>mas tambien, clavel hermoso,</l>
             <l>"por tí me alegro y suspiro."</l>
@@ -1499,7 +1500,7 @@
             <l>¡tantos gestos!</l>
             <l>Y como ha estudiado</l>
           </lg>
-          <pb n="4" source="Varios_399_4.jpg" facs="fedora_Varios_399_4/full/full/0/default.jpg"/>
+          <pb n="4" source="Varios_399_4.jpg" facs="varios/Varios_399_4.jpg/"/>
           <lg>
             <l>los metamorfeos,</l>
             <l>me dice unas cosas</l>

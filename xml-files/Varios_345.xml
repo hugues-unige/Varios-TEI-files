@@ -27,9 +27,9 @@
             <p/>
           </editionStmt>
           <publicationStmt>
-            <publisher>Imp. de J. Tauló</publisher>
+            <publisher>José Tauló</publisher>
             <pubPlace ref="https://www.geonames.org/3128760/barcelona.html">Barcelona</pubPlace>
-            <date cert="high">1853</date>
+            <date cert="high" when="1853-01-01">1853</date>
           </publicationStmt>
         </biblFull>
         <msDesc>
@@ -38,6 +38,7 @@
             <settlement>Genève</settlement>
             <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"/>
                   </repository>
+            <collection>Colección Varios</collection>
             <idno type="cote"/>
             <idno type="DOI">10.5281/zenodo.6772863</idno>
             <altIdentifier>
@@ -66,7 +67,7 @@
               </layoutDesc>
             </objectDesc>
             <decoDesc>
-              <summary n="1">Uno grabados
+              <summary n="1">Un grabados
                                         (p.1) </summary>
               <decoNote type="lista_grabados">
                 <list>
@@ -102,7 +103,7 @@
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR non corregido</p>
+          <p>OCR no corregido</p>
         </correction>
         <normalization>
           <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto
@@ -131,9 +132,10 @@
     <revisionDesc>
       <change when="2023-11-21" who="#PJ">Création du fichier TEI P5 et encodage du corps du
                         texte</change>
+<change when="2024-01-09" who="#EL">Add the IIIF links</change>
     </revisionDesc>
   </teiHeader>
-  <sourceDoc xml:id="automaticTranscription">
+  <facsimile><graphic url="varios/Varios_345_1.jpg/full/200,/0/default.jpg"/></facsimile><sourceDoc xml:id="automaticTranscription">
     <surface xml:id="Varios_345_1" type="page" cert="silver">
       <graphic url="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_345_1/full/full/0/default.jpg"/>
       <zone xml:id="Varios_345_1_BT223_1" n="1" type="CustomZone" subtype="title" points="1556,1375 1556,1630 144,1630 144,1375 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_345_1/144,1375,1412,255/full/0/default" corresp="CustomZone:title">
@@ -985,7 +987,7 @@
           <line>Baylando por otro son:</line>
         </zone>
         <zone xml:id="Varios_345_4_BT227_3__9" type="DefaultLine" subtype="none" points="993,801 993,812 1557,819 1559,797 1555,762 991,755 993,801 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_345_4/991,755,568,64/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_345_4_BT227_3__9_1" points="994,803 1560,799 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
+          <path xml:id="Varios_345_4_BT227_3__9_1" points="994,803 1560,799 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
           <line>Y si hoy está alegre Anton;</line>
         </zone>
         <zone xml:id="Varios_345_4_BT227_3_LT83_10" type="DefaultLine" subtype="none" points="1146,847 1146,863 1177,863 1180,864 1198,876 1199,876 1201,876 1202,877 1202,876 1203,876 1205,876 1221,864 1224,863 1250,866 1338,876 1339,876 1468,871 1469,871 1471,871 1471,870 1472,870 1478,864 1488,870 1490,871 1491,871 1493,871 1494,871 1532,870 1534,845 1526,806 1513,816 1502,807 1499,804 1497,804 1496,804 1494,804 1459,809 1420,813 1415,810 1409,804 1408,804 1407,804 1367,804 1366,804 1364,804 1347,812 1336,816 1328,813 1304,804 1303,804 1301,804 1300,804 1298,804 1298,806 1288,814 1285,817 1214,817 1214,816 1202,806 1202,804 1201,804 1199,804 1176,804 1174,804 1173,804 1145,816 1146,847 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_345_4/1145,804,389,73/full/0/default" corresp="DefaultLine">
@@ -1138,7 +1140,7 @@
   <text>
     <body>
       <div>
-        <pb n="1" source="Varios_345_1.jpg" facs="fedora_Varios_345_1/full/full/0/default.jpg"/>
+        <pb n="1" source="Varios_345_1.jpg" facs="varios/Varios_345_1.jpg/"/>
         <div type="parte" n="1">
           <head type="primer_titulo" rend="negrita"><lb/>TROVOS NUEVOS Y DIVERTIDOS,<lb/>para cantar los aficionados con guitarra.</head>
           <lg rend="cursiva">
@@ -1175,7 +1177,7 @@
             <l>Podré algun dia esperar</l>
             <l rend="cursiva">Verte en mis brazos tirana.</l>
           </lg>
-          <pb n="2" source="Varios_345_2.jpg" facs="fedora_Varios_345_2/full/full/0/default.jpg"/>
+          <pb n="2" source="Varios_345_2.jpg" facs="varios/Varios_345_2.jpg/"/>
           <lg rend="cursiva">
             <l>Enseguida que nací</l>
             <l>Buen mozo, se me llamó</l>
@@ -1268,7 +1270,7 @@
             <l>O tu me vuelves á amar</l>
             <l rend="cursiva">O me despido de ti.</l>
           </lg>
-          <pb n="3" source="Varios_345_3.jpg" facs="fedora_Varios_345_3/full/full/0/default.jpg"/>
+          <pb n="3" source="Varios_345_3.jpg" facs="varios/Varios_345_3.jpg/"/>
           <lg rend="cursiva">
             <l>Con la flecha del amor</l>
             <l>Adoré yo á una mujer;</l>
@@ -1369,7 +1371,7 @@
             <l>O bien mata á ella el secreto,</l>
             <l rend="cursiva">o el secreto á la muger.</l>
           </lg>
-          <pb n="4" source="Varios_345_4.jpg" facs="fedora_Varios_345_4/full/full/0/default.jpg"/>
+          <pb n="4" source="Varios_345_4.jpg" facs="varios/Varios_345_4.jpg/"/>
           <lg rend="cursiva">
             <l>Este mundo es una bola</l>
             <l>Y es claro que ha de rodar;</l>

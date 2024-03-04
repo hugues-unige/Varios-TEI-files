@@ -1,18 +1,17 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../Schema/oddPliego_varios.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:alto="http://www.loc.gov/standards/alto/ns-v4#" xml:id="Varios_082">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Varios_082">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>EL MOZO SOLTERO. NUEVA RELACION  en que se manifiestan los inconvenientes y obligaciones que contrae y deben tener presentes todos los que traten de casarse.</title>
+        <title>EL MOZO SOLTERO</title>
         <respStmt>
           <name/>
           <resp>Codificación TEI</resp>
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <authority role="rightsHolder">Bibliothèque Universitaire de
-                            Genève</authority>
+        <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
         <availability status="restricted">
           <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
         </availability>
@@ -20,7 +19,9 @@
       <sourceDesc>
         <biblFull>
           <titleStmt>
-            <title type="titulo_completo">EL MOZO SOLTERO. NUEVA RELACION  en que se manifiestan los inconvenientes y obligaciones que contrae y deben tener presentes todos los que traten de casarse.</title>
+            <title type="titulo_completo">EL MOZO SOLTERO. NUEVA RELACION en que se manifiestan los
+              inconvenientes y obligaciones que contrae y deben tener presentes todos los que traten
+              de casarse.</title>
             <title type="titulo_breve">EL MOZO SOLTERO</title>
           </titleStmt>
           <editionStmt>
@@ -29,7 +30,7 @@
           <publicationStmt>
             <publisher>Sucesores de Hernando</publisher>
             <pubPlace ref="https://www.geonames.org/3117735/madrid.html">Madrid</pubPlace>
-            <date>[s.a]</date>
+            <date cert="low" when="1800-01-01">[s.a.]</date>
           </publicationStmt>
         </biblFull>
         <msDesc>
@@ -37,7 +38,8 @@
             <country>Suisse</country>
             <settlement>Genève</settlement>
             <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"/>
-                  </repository>
+            </repository>
+            <collection>Colección Varios</collection>
             <idno type="cote"/>
             <idno type="DOI">10.5281/zenodo.6566007</idno>
             <altIdentifier>
@@ -66,8 +68,7 @@
               </layoutDesc>
             </objectDesc>
             <decoDesc>
-              <summary n="1">Uno grabado
-                                        (p.1) </summary>
+              <summary n="1">Un grabado (p.1) </summary>
               <decoNote type="lista_grabados">
                 <list>
                   <item corresp="grabado_v_082_1.xml">grabado_v_082_1</item>
@@ -92,18 +93,17 @@
     </fileDesc>
     <encodingDesc>
       <projectDesc>
-        <p>Este archivo fue creado en el marco del proyecto Desenrollando el
-                            Cordel/Démêler le cordel/Untangling the cordel, dirigido por la
-                            profesora Constance Carta de la Universidad de Ginebra, con el apoyo de
-                            la Fundación filantrópica Famille Sandoz-Monique de Meuron.</p>
+        <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+          cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la Universidad
+          de Ginebra, con el apoyo de la Fundación filantrópica Famille Sandoz-Monique de
+          Meuron.</p>
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR non corregido</p>
+          <p>OCR no corregido</p>
         </correction>
         <normalization>
-          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto
-                                original.</p>
+          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
         </normalization>
         <punctuation>
           <p>Se conserva la puntuación original.</p>
@@ -125,9 +125,13 @@
     </profileDesc>
     <revisionDesc>
       <change when="2022-08-31" who="#PJ">Création du fichier TEI P5 et encodage du corps du
-                        texte</change>
+        texte</change>
+      <change when="2024-01-09" who="#EL">Add the IIIF links</change>
     </revisionDesc>
   </teiHeader>
+  <facsimile>
+    <graphic url="varios/Varios_082_1.jpg/full/200,/0/default.jpg"/>
+  </facsimile>
   <sourceDoc xml:id="automaticTranscription">
     <surface xml:id="Varios_082_1" type="page" cert="silver">
       <graphic url="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_082_1/full/full/0/default.jpg"/>
@@ -1282,14 +1286,17 @@
   <text>
     <body>
       <div>
-        <pb n="1" source="Varios_082_1.jpg" facs="fedora_Varios_082_1/full/full/0/default.jpg"/>
+        <pb n="1" source="Varios_082_1.jpg" facs="varios/Varios_082_1.jpg/"/>
+        
         <fw type="impresorNum">Núm. 28.</fw>
+        
         <div type="parte" n="1">
-          <head type="primer_titulo"/>
-          <head type="titulo_parte"><lb/>EL MOZO SOLTERO.
-                              <lb/>en que se manifiestan los inconvenientes y obligaciones que contrae<lb/>NUEVA RELACION<lb/>y deben tener presentes todos los que traten de casarse.</head>
-          <lg>
-            <l>Pues me preguntan algunos</l>
+          <head type="primer_titulo"><lb/>EL MOZO SOLTERO.</head>
+          <head type="subtitulo"><lb/>NUEVA RELACION <hi rend="cursiva"><lb/>en que se manifiestan los
+            inconvenientes y obligaciones que contrae <lb/>y deben tener presentes
+            todos los que traten de casarse.</hi></head>
+          
+            <l rend="indent">Pues me preguntan algunos</l>
             <l>necios, tontos, mentecatos,</l>
             <l>bobos, simples y sin juicio</l>
             <l>que ¿por qué no me he casado?</l>
@@ -1301,8 +1308,6 @@
             <l>conforme á lo que yo alcanzo.</l>
             <l>Creo será convincente</l>
             <l>la razon, si no me engaño.</l>
-          </lg>
-          <lg>
             <l>y cada cual dosde luego</l>
             <l>hará de su capa un sayo.</l>
             <l>Porque si atento se mira</l>
@@ -1315,9 +1320,9 @@
             <l>l que quiere ser casado.</l>
             <l>Desde el instante primero</l>
             <l>que se pone á imaginarlo,</l>
-          </lg>
-          <pb n="2" source="Varios_082_2.jpg" facs="fedora_Varios_082_2/full/full/0/default.jpg"/>
-          <lg>
+          
+          <pb n="2" source="Varios_082_2.jpg" facs="varios/Varios_082_2.jpg/"/>
+          
             <l>en seguida le acometen</l>
             <l>mil pensamientos contrarios,</l>
             <l>ya desmaya, ya se alienta.</l>
@@ -1362,8 +1367,6 @@
             <l>ni muy alto ni muy bajo.</l>
             <l>Ahora falta tratar</l>
             <l>para la novia el regalo:</l>
-          </lg>
-          <lg>
             <l>a lo menos dos vestidos</l>
             <l>y aquellos precisos gastos</l>
             <l>de aderezos, rasca-moños.</l>
@@ -1408,9 +1411,9 @@
             <l>cogedor, palela, cazo.</l>
             <l>embudo, tenazas, fuelle</l>
             <l>norrillo para el asado,</l>
-          </lg>
-          <pb n="3" source="Varios_082_3.jpg" facs="fedora_Varios_082_3/full/full/0/default.jpg"/>
-          <lg>
+          
+          <pb n="3" source="Varios_082_3.jpg" facs="varios/Varios_082_3.jpg/"/>
+          
             <l>espetera. cucharones,</l>
             <l>un tiesto en que beba el gato,</l>
             <l>manteles y servilletas,</l>
@@ -1455,8 +1458,6 @@
             <l>para el marido en la mano!</l>
             <l>Tambien se ha de proveer</l>
             <l>de todo lo necesario,</l>
-          </lg>
-          <lg>
             <l>como es, aceite, carbon,</l>
             <l>vinagre. especias, garbanzos,</l>
             <l>y las demás zarandajas</l>
@@ -1501,9 +1502,9 @@
             <l>de vestido y de calzado,</l>
             <l>ni el alquiler de la casa</l>
             <l>en que han de vivir, en claro,</l>
-          </lg>
-          <pb n="4" source="Varios_082_4.jpg" facs="fedora_Varios_082_4/full/full/0/default.jpg"/>
-          <lg>
+          
+          <pb n="4" source="Varios_082_4.jpg" facs="varios/Varios_082_4.jpg/"/>
+          
             <l>que costará por o menos</l>
             <l>treinta ó cuarenta ducados,</l>
             <l>ni tampoco lo preciso</l>
@@ -1543,8 +1544,6 @@
             <l>la comadre, la bebida,</l>
             <l>el médico, el cirujano.</l>
             <l>los accites, les enjuagues,</l>
-          </lg>
-          <lg>
             <l>la masa de los emplastes,</l>
             <l>alhucena, escorzonera,</l>
             <l>y otras mil cosas que callo</l>
@@ -1584,8 +1583,8 @@
             <l>que buey suelto bien se lamo;</l>
             <l>conque amigos, si ser puede,</l>
             <l>librarse de este gran cargo.</l>
-          </lg>
         </div>
+        
         <div type="colofon">
           <p><lb/>MADRID. — Despacho : Sucesores de Hernando, Arenal. 11.</p>
         </div>

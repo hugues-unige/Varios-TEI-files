@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../Schema/oddPliego_varios.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:alto="http://www.loc.gov/standards/alto/ns-v4#" xml:id="Varios_162">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Varios_162">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -11,8 +11,7 @@
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <authority role="rightsHolder">Bibliothèque Universitaire de
-                            Genève</authority>
+        <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
         <availability status="restricted">
           <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
         </availability>
@@ -20,16 +19,20 @@
       <sourceDesc>
         <biblFull>
           <titleStmt>
-            <title type="titulo_completo">Historia de un estraordinario suceso acontecido en la actual guerra entre la Turquia y la Rusia: en que se cuenta como dos finos amantes se vieron en mil peligros y aventuras antes no pudieron unirse con los lazos de himeneo.</title>
-            <title type="titulo_breve">Historia de un estraordinario suceso acontecido en la actual guerra entre la Turquia y la Rusia</title>
+            <title type="titulo_completo">Historia de un estraordinario suceso acontecido en la
+              actual guerra entre la Turquia y la Rusia: en que se cuenta como dos finos amantes se
+              vieron en mil peligros y aventuras antes no pudieron unirse con los lazos de
+              himeneo.</title>
+            <title type="titulo_breve">Historia de un estraordinario suceso acontecido en la actual
+              guerra entre la Turquia y la Rusia</title>
           </titleStmt>
           <editionStmt>
             <p/>
           </editionStmt>
           <publicationStmt>
-            <publisher>I. Estivill</publisher>
+            <publisher>Ignacio Estivill</publisher>
             <pubPlace ref="https://www.geonames.org/3128760/barcelona.html">Barcelona</pubPlace>
-            <date cert="high">[s.a]</date>
+            <date cert="low" when="1800-01-01">[s.a.]</date>
           </publicationStmt>
         </biblFull>
         <msDesc>
@@ -37,7 +40,8 @@
             <country>Suisse</country>
             <settlement>Genève</settlement>
             <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"/>
-                  </repository>
+            </repository>
+            <collection>Colección Varios</collection>
             <idno type="cote"/>
             <idno type="DOI">10.5281/zenodo.6587196</idno>
             <altIdentifier>
@@ -66,8 +70,7 @@
               </layoutDesc>
             </objectDesc>
             <decoDesc>
-              <summary n="1">Uno grabado
-                                        (p.1) </summary>
+              <summary n="1">Un grabado (p.1) </summary>
               <decoNote type="lista_grabados">
                 <list>
                   <item corresp="grabado_v_162_1.xml">grabado_v_162_1</item>
@@ -90,18 +93,17 @@
     </fileDesc>
     <encodingDesc>
       <projectDesc>
-        <p>Este archivo fue creado en el marco del proyecto Desenrollando el
-                            Cordel/Démêler le cordel/Untangling the cordel, dirigido por la
-                            profesora Constance Carta de la Universidad de Ginebra, con el apoyo de
-                            la Fundación filantrópica Famille Sandoz-Monique de Meuron.</p>
+        <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+          cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la Universidad
+          de Ginebra, con el apoyo de la Fundación filantrópica Famille Sandoz-Monique de
+          Meuron.</p>
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR non corregido</p>
+          <p>OCR no corregido</p>
         </correction>
         <normalization>
-          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto
-                                original.</p>
+          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
         </normalization>
         <punctuation>
           <p>Se conserva la puntuación original.</p>
@@ -114,7 +116,7 @@
       </langUsage>
       <textClass>
         <keywords xml:base="http://datos.bne.es/tema/">
-          <term type="tipo_texto">Relaciones de sucesos</term>
+          <term target="XX4857424.html" type="tipo_texto">Relaciones de sucesos</term>
           <term target="XX527614.html" type="tipo_estrofa">Romances</term>
           <term type="verso_prosa">Verso</term>
           <term type="sagrado_profano">Profano</term>
@@ -123,9 +125,13 @@
     </profileDesc>
     <revisionDesc>
       <change when="2023-03-13" who="#PJ">Création du fichier TEI P5 et encodage du corps du
-                        texte</change>
+        texte</change>
+      <change when="2024-01-09" who="#EL">Add the IIIF links</change>
     </revisionDesc>
   </teiHeader>
+  <facsimile>
+    <graphic url="varios/Varios_162_1.jpg/full/200,/0/default.jpg"/>
+  </facsimile>
   <sourceDoc xml:id="automaticTranscription">
     <surface xml:id="Varios_162_1" type="page" cert="silver">
       <graphic url="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_162_1/full/full/0/default.jpg"/>
@@ -1370,329 +1376,326 @@
   <text>
     <body>
       <div>
-        <pb n="1" source="Varios_162_1.jpg" facs="fedora_Varios_162_1/full/full/0/default.jpg"/>
+        <pb n="1" source="Varios_162_1.jpg" facs="varios/Varios_162_1.jpg/"/>
         <div>
-          <head type="primer_titulo"><lb/>Historia de un estraordinario suceso acontecido en la actual guerra entre la<lb/>Turquia y la Rusia: en que se cuenta como dos finos amantes se<lb/>vieron en mil peligros y aventuras antes no pudieron<lb/>unirse con los lazos de himeneo.</head>
-          <lg>
-            <l>Tranquila estaba la Europa</l>
-            <l>sin asomo de peligro,</l>
-            <l>desde las sangrientas guerras</l>
-            <l>que dió el Capitan del siglo.</l>
-            <l>La Rusia, cual todos saben,</l>
-            <l>ya hace tiempo tiene fijos</l>
-            <l>sobre Turquía los ojos,</l>
-            <l>que es bocado opetecido</l>
-            <l>Como nacion poderosa</l>
-            <l>y de genio entrometida,</l>
-            <l>siempre quiso que el sultan</l>
-            <l>á él estuviese sumiso.</l>
-            <l>Mas no contento con esto,</l>
-            <l>buscó pretextos y ruidos</l>
-            <l>para apelar á las armas</l>
-            <l>y ver al turco rendido.</l>
-            <l>De Moldavia y de Valachia,</l>
-            <l>pais del turco dominio,</l>
-            <l>el Ruso sin resistencia</l>
-            <l>se apodera de improviso.</l>
-            <l>Toda Europa se alborota;</l>
-            <l>mas lo cierto y positivo</l>
-            <l>es que, despúes de mil notas</l>
-          </lg>
-          <lg>
-            <l>nada queda decidido.</l>
-            <l>Se reunen allá en Viena</l>
-            <l>entre tratos infinitos,</l>
-            <l>de la Francia y la Inglaterra</l>
-            <l>los políticos mas finos.</l>
-            <l>De todos se burla el Ruso;</l>
-            <l>y en tono muy decidido,</l>
-            <l>contesta á los que desean</l>
-            <l>contener sus grandes brios.</l>
-            <l>Mientras que se está tratando</l>
-            <l>de paz y de paliativos,</l>
-            <l>él dispone inmensas fuerzas</l>
-            <l>que impongan al enemigo,</l>
-            <l>Los turcos tambien preparan</l>
-            <l>sus alfanges damasquinos:</l>
-            <l>son pocos, pero valientes,</l>
-            <l>y no temen compromisos.</l>
-            <l>Omer Pachá va á su frente,</l>
-            <l>militar diestro y activo,</l>
-            <l>quien en sus muchas empresas</l>
-            <l>favorable halló el destino.</l>
-            <l>Las naciones de Occidente,</l>
-            <l>cuyo comercio es sabido,</l>
-          </lg>
-          <pb n="2" source="Varios_162_2.jpg" facs="fedora_Varios_162_2/full/full/0/default.jpg"/>
-          <lg>
-            <l>por no estorbar sus negocios</l>
-            <l>halagan al enemigo.</l>
-            <l>Pero al fin desengañados</l>
-            <l>toman un papel mas digno</l>
-            <l>la Francia cual la Inglaterra ,</l>
-            <l>y de guerra suena el grito</l>
-            <l>Salen las grandes escuadras</l>
-            <l>de los dos Reinos , unidos</l>
-            <l>en la mas estrecha alianza</l>
-            <l>que nunca vieron los siglos.</l>
-            <l>Hasta el mar mismo se espanta</l>
-            <l>al mirar tantos navíos ,</l>
-            <l>tantos vapores y velas</l>
-            <l>como se hallan reunidos.</l>
-            <l>Andan los buques armados</l>
-            <l>con un número infinito</l>
-            <l>de cañones y cohetes ,</l>
-            <l>con otros medios mortíferos.</l>
-            <l>Mientras tanto Omer Pachá</l>
-            <l>no sabe estar indeciso :</l>
-            <l>dá algunas escaramuzas ,</l>
-            <l>y se muestra muy perito.</l>
-            <l>Pasa valiente el Danubio</l>
-            <l>con soldados aguerridos ,</l>
-            <l>y establece el campamento</l>
-            <l>en los principados mismos.</l>
-            <l>Alli ataca algunos fuertes ,</l>
-            <l>y da asaltos repetidos ,</l>
-            <l>en puntos de poca monta ,</l>
-            <l>mas los vé luego rendidos.</l>
-            <l>En uno de tales fuertes ,</l>
-            <l>cuyo nombre es conocido ,</l>
-            <l>y que Kalafat se llama</l>
-            <l>hubo un asalto reñido.</l>
-            <l>Tenian de guarnicion</l>
-            <l>los Rusos allí metidos ,</l>
-            <l>soldados ya veteranos</l>
-            <l>y tambien algunos quintos.</l>
-            <l>Entre estos habia un mozo</l>
-            <l>que aunque no del todo lindo ,</l>
-            <l>era un muchacho arrogante</l>
-            <l>de las niñas muy querido.</l>
-            <l>Cuando hubo de ir á la guerra</l>
-            <l>estaba ya prometido</l>
-          </lg>
-          <lg>
-            <l>con una niña muy bella</l>
-            <l>que le amaba con delirio.</l>
-            <l>Llegó en fin el duro instante ,</l>
-            <l>de ambos á dos tan temido ,</l>
-            <l>que habian de separarse</l>
-            <l>sus corazones unidos.</l>
-            <l>Y es de pensar, todo eran</l>
-            <l>llantos, lamentos, gemidos,</l>
-            <l>desesperacion, desmayos,</l>
-            <l>imprecaciones y gritos.</l>
-            <l>Llamábase pues Paulowna</l>
-            <l>segun de Rusia el estilo ,</l>
-            <l>la muchacha enamorada</l>
-            <l>cuyas proezas escribo.</l>
-            <l>Paulowna fué la primera</l>
-            <l>que rocobrando el sentido ,</l>
-            <l>habló , para proponer</l>
-            <l>un plan el mas peregrino.</l>
-            <l>Con él no se separaba</l>
-            <l>de su adorado Francisco ,</l>
-            <l>que asi se llamaba el jóven ,</l>
-            <l>y probaba su heroismo.</l>
-            <l>Propuso pues á su amado</l>
-            <l>de hombre tomar el vestido,</l>
-            <l>y entrar como voluntario</l>
-            <l>en su regimiento mismo.</l>
-            <l>Su amante la disuade</l>
-            <l>de este proyecto atrevido,</l>
-            <l>pero la moza no quiere</l>
-            <l>quedar lejos de su amigo.</l>
-            <l>Por fin en ejecutarlo</l>
-            <l>quedan ambos convenidos ,</l>
-            <l>y se dan d s mil abrazos</l>
-            <l>entrambos enternecidos.</l>
-            <l>Cuando llegó la ocasion</l>
-            <l>lo hicieron como fué dicho :</l>
-            <l>la muchacha sentó plaza</l>
-            <l>y practico el ejercicio.</l>
-            <l>Cuando marchó el regimiento ,</l>
-            <l>llenos de amor y de brios ,</l>
-            <l>partieron ambos amantes</l>
-            <l>con el mayor regocijo.</l>
-            <l>Al fuerte de Kalafat</l>
-            <l>al fin fueron conducidos,</l>
-          </lg>
-          <pb n="3" source="Varios_162_3.jpg" facs="fedora_Varios_162_3/full/full/0/default.jpg"/>
-          <lg>
-            <l>en el cual les aguardaba</l>
-            <l>el mas estraño destino.</l>
-            <l>Estábase descuidada</l>
-            <l>la guarnicion del Castillo,</l>
-            <l>sin pensar que algun ataque</l>
-            <l>les diese el turco atrevido.</l>
-            <l>De repente un tiroteo</l>
-            <l>en la avanzada da aviso</l>
-            <l>que el enemigo se acerca</l>
-            <l>con algun fatal designio.</l>
-            <l>Truena el cañon en el fuerte</l>
-            <l>y el turco no menos vivo</l>
-            <l>sostiene contra la plaza</l>
-            <l>un cañoneo seguido.</l>
-            <l>Bombas van y bombas vienen</l>
-            <l>que siembran el esterminio,</l>
-            <l>y se prepara el asalto</l>
-            <l>con denuedo nunca visto.</l>
-            <l>No hablarémos del valor,</l>
-            <l>de aquel arrojo inaudito</l>
-            <l>con que dieron el asalto</l>
-            <l>los musulmanes altivos.</l>
-            <l>Los rusos tambien defienden</l>
-            <l>el fuerte bien decididos</l>
-            <l>á morir mas no á ceder;</l>
-            <l>pues son pocos para el sitio.</l>
-            <l>Aproximan las escalas</l>
-            <l>los turcos, y otros avíos</l>
-            <l>para escalar la muralla,</l>
-            <l>siendo incesantes los tiros.</l>
-            <l>Tambien abren varias brechas,</l>
-            <l>penetran en el recinto</l>
-            <l>del fuerte, que en fiera lucha</l>
-            <l>al cabo se vé rendido.</l>
-            <l>Los muertos son numerosos</l>
-            <l>los heridos infinitos;</l>
-            <l>y quedaron prisioneros</l>
-            <l>todos cuantos se hallan vivos.</l>
-            <l>Entre estos se halla Paulowna</l>
-            <l>y tambien está Francisco,</l>
-            <l>porque estos finos amantes</l>
-            <l>siempre estuvieron unidos.</l>
-            <l>Paulowna llevó el valor</l>
-            <l>al grado del heroismo,</l>
-          </lg>
-          <lg>
-            <l>y aunque es jóven la muchacha</l>
-            <l>no teme nunca el peligro.</l>
-            <l>Tambien se mostró valiente</l>
-            <l>y denodado Francisco,</l>
-            <l>y á su amada procuró</l>
-            <l>cubrir con su cuerpo mismo.</l>
-            <l>Pero nada les valieron</l>
-            <l>de valor tales prodigios</l>
-            <l>puesto que á Constantinopla</l>
-            <l>los dos fueron conducidos.</l>
-            <l>Puesta está ya ante el Sultan</l>
-            <l>con todos los atavios</l>
-            <l>presentando su hermosura</l>
-            <l>de mujer siendo el vestido.</l>
-            <l>Allí con humilde tono</l>
-            <l>le cuenta lo sucedido;</l>
-            <l>descubriéndole del todo</l>
-            <l>sus constantes amorios.</l>
-            <l>Le dice que con su amante</l>
-            <l>eran felices y unidos</l>
-            <l>vivian en tierno afecto</l>
-            <l>y con amor muy rendido.</l>
-            <l>Pero viniendo la guerra</l>
-            <l>cayó la suerte á Francisco</l>
-            <l>de ser soldado, y al Czar</l>
-            <l>desde aquel punto maldijo.</l>
-            <l>Que ella quiso acompañarle</l>
-            <l>de hombre tomando el vestido,</l>
-            <l>y que luego sentó plaza,</l>
-            <l>con lo demas que se ha dicho.</l>
-            <l>El Sultan la está escuchando,</l>
-            <l>admirado y confundido</l>
-            <l>pues su cara le recuerda</l>
-            <l>á una hija que ha perdido.</l>
-            <l>A esta hija idolatraba</l>
-            <l>con un amor nunca visto;</l>
-            <l>pero la terrible Parca</l>
-            <l>cortó de su vida el hilo.</l>
-            <l>Esta casual semejanza</l>
-            <l>fue sin disputa el motivo</l>
-            <l>que al Sultan interesó,</l>
-            <l>y le hizo mostrar propicio.</l>
-            <l>Hizo repetir ancioso</l>
-            <l>lo que ya está referido</l>
-          </lg>
-          <pb n="4" source="Varios_162_4.jpg" facs="fedora_Varios_162_4/full/full/0/default.jpg"/>
-          <lg>
-            <l>y hasta en la voz cree oir</l>
-            <l>á la hija que ha perdido.</l>
-            <l>Quiere al fin que á su presencia</l>
-            <l>le conduzcan á Francisco,</l>
-            <l>y en secreto le interroga</l>
-            <l>por ver si dice lo mismo.</l>
-            <l>Viendo ya que estan conformes,</l>
-            <l>benévolo da el permíso</l>
-            <l>de que queden en palacio,</l>
-            <l>á su mas libre albedrío.</l>
-            <l>Mientras tanto se disponen</l>
-            <l>los medios mas conductivos,</l>
-            <l>para que vuelvan á Rusia</l>
-            <l>en libertad, sin peligro.</l>
-            <l>Mas ellos cuando lo oyeron</l>
-            <l>hondamente agradecidos</l>
-            <l>besan al Turco los pies</l>
-            <l>en ademan muy sumiso.</l>
-            <l>Mientras tanto el gran sultan</l>
-            <l>un órden ha dirigido</l>
-            <l>para que nuestros amantes</l>
-            <l>á un buque sean admitidos.</l>
-            <l>Aun les dió de regalo</l>
-            <l>para gasto y regocijos,</l>
-            <l>dos mil y trescientas piastras;</l>
-            <l>para que asi vivan ricos.</l>
-            <l>Ellos felices marcharon</l>
-            <l>en un bergantin bonito</l>
-            <l>que surca ligero el mar</l>
-            <l>empavesado y altivo.</l>
-            <l>Llegaron luego á las costas</l>
-            <l>de Alemania, y allí mismo</l>
-            <l>desembarcaron y entrambos</l>
-            <l>siguen por tierra el camino.</l>
-            <l>Ya vestidos de paisanos</l>
-            <l>y con sus nombres fingidos,</l>
-            <l>encamínanse á su tierra</l>
-          </lg>
-          <lg>
-            <l>para no ser conocidos.</l>
-            <l>Cuando á su patria llegaron</l>
-            <l>nuestra Paulowna y Francisco</l>
-            <l>fue de sus caras familias</l>
-            <l>indecible el regocijo.</l>
-            <l>Y los padres de Paulowna</l>
-            <l>que creian haber perdido</l>
-            <l>para siempre á su linda hija</l>
-            <l>se alegraron infiníto.</l>
-            <l>Le hacen repetir mil veces</l>
-            <l>la historia de lo ocurrido</l>
-            <l>y ven de la Providencia</l>
-            <l>inescrutables designios.</l>
-            <l>Numerosos son los besos</l>
-            <l>los abrazos infinitos,</l>
-            <l>las lágrimas de ternura</l>
-            <l>y los amantes suspiros.</l>
-            <l>Por fin queda el matrimonio</l>
-            <l>de Paulowna con Francisco</l>
-            <l>entre los padres de entrambos</l>
-            <l>para luego decidido.</l>
-            <l>Ya quieren que sea esplendido</l>
-            <l>cual otro nunca se ha visto,</l>
-            <l>que haya orquestas y banquetes</l>
-            <l>y festines repetidos.</l>
-            <l>Ya se prepara la novia</l>
-            <l>los mas brillantes vestidos</l>
-            <l>las alajas mas costosas</l>
-            <l>con las galas y atavios.</l>
-            <l>Francisco tambien alegre</l>
-            <l>y cual fuera de si mismo</l>
-            <l>convida á su matrimonio</l>
-            <l>á deudos y conocidos.</l>
-            <l>Dios bendijo aquesta union</l>
-            <l>y de Paulowna y Francisco</l>
-            <l>durará la tierna historia</l>
-            <l>por los siglos de los siglos.</l>
-          </lg>
-          <p><lb/>Es propiedad.</p>
+          <head type="primer_titulo" rend="cursiva"><lb/>Historia de un estraordinario suceso
+            acontecido en la actual guerra entre la<lb/>Turquia y la Rusia: en que se cuenta como
+            dos finos amantes se<lb/>vieron en mil peligros y aventuras antes no pudieron<lb/>unirse
+            con los lazos de himeneo.</head>
+
+          <l rend="indent">Tranquila estaba la Europa</l>
+          <l>sin asomo de peligro,</l>
+          <l>desde las sangrientas guerras</l>
+          <l>que dió el Capitan del siglo.</l>
+          <l rend="indent">La Rusia, cual todos saben,</l>
+          <l>ya hace tiempo tiene fijos</l>
+          <l>sobre Turquía los ojos,</l>
+          <l>que es bocado opetecido</l>
+          <l rend="indent">Como nacion poderosa</l>
+          <l>y de genio entrometida,</l>
+          <l>siempre quiso que el sultan</l>
+          <l>á él estuviese sumiso.</l>
+          <l rend="indent">Mas no contento con esto,</l>
+          <l>buscó pretextos y ruidos</l>
+          <l>para apelar á las armas</l>
+          <l>y ver al turco rendido.</l>
+          <l rend="indent">De Moldavia y de Valachia,</l>
+          <l>pais del turco dominio,</l>
+          <l>el Ruso sin resistencia</l>
+          <l>se apodera de improviso.</l>
+          <l rend="indent">Toda Europa se alborota;</l>
+          <l>mas lo cierto y positivo</l>
+          <l>es que, despúes de mil notas</l>
+          <l>nada queda decidido.</l>
+          <l rend="indent">Se reunen allá en Viena</l>
+          <l>entre tratos infinitos,</l>
+          <l>de la Francia y la Inglaterra</l>
+          <l>los políticos mas finos.</l>
+          <l rend="indent">De todos se burla el Ruso;</l>
+          <l>y en tono muy decidido,</l>
+          <l>contesta á los que desean</l>
+          <l>contener sus grandes brios.</l>
+          <l rend="indent">Mientras que se está tratando</l>
+          <l>de paz y de paliativos,</l>
+          <l>él dispone inmensas fuerzas</l>
+          <l>que impongan al enemigo,</l>
+          <l rend="indent">Los turcos tambien preparan</l>
+          <l>sus alfanges damasquinos:</l>
+          <l>son pocos, pero valientes,</l>
+          <l>y no temen compromisos.</l>
+          <l rend="indent">Omer Pachá va á su frente,</l>
+          <l>militar diestro y activo,</l>
+          <l>quien en sus muchas empresas</l>
+          <l>favorable halló el destino.</l>
+          <l rend="indent">Las naciones de Occidente,</l>
+          <l>cuyo comercio es sabido,</l>
+
+          <pb n="2" source="Varios_162_2.jpg" facs="varios/Varios_162_2.jpg/"/>
+
+          <l>por no estorbar sus negocios</l>
+          <l>halagan al enemigo.</l>
+          <l rend="indent">Pero al fin desengañados</l>
+          <l>toman un papel mas digno</l>
+          <l>la Francia cual la Inglaterra ,</l>
+          <l>y de guerra suena el grito</l>
+          <l rend="indent">Salen las grandes escuadras</l>
+          <l>de los dos Reinos , unidos</l>
+          <l>en la mas estrecha alianza</l>
+          <l>que nunca vieron los siglos.</l>
+          <l rend="indent">Hasta el mar mismo se espanta</l>
+          <l>al mirar tantos navíos ,</l>
+          <l>tantos vapores y velas</l>
+          <l>como se hallan reunidos.</l>
+          <l rend="indent">Andan los buques armados</l>
+          <l>con un número infinito</l>
+          <l>de cañones y cohetes ,</l>
+          <l>con otros medios mortíferos.</l>
+          <l rend="indent">Mientras tanto Omer Pachá</l>
+          <l>no sabe estar indeciso :</l>
+          <l>dá algunas escaramuzas ,</l>
+          <l>y se muestra muy perito.</l>
+          <l rend="indent">Pasa valiente el Danubio</l>
+          <l>con soldados aguerridos ,</l>
+          <l>y establece el campamento</l>
+          <l>en los principados mismos.</l>
+          <l rend="indent">Alli ataca algunos fuertes ,</l>
+          <l>y da asaltos repetidos ,</l>
+          <l>en puntos de poca monta ,</l>
+          <l>mas los vé luego rendidos.</l>
+          <l rend="indent">En uno de tales fuertes ,</l>
+          <l>cuyo nombre es conocido ,</l>
+          <l>y que Kalafat se llama</l>
+          <l>hubo un asalto reñido.</l>
+          <l rend="indent">Tenian de guarnicion</l>
+          <l>los Rusos allí metidos ,</l>
+          <l>soldados ya veteranos</l>
+          <l>y tambien algunos quintos.</l>
+          <l rend="indent">Entre estos habia un mozo</l>
+          <l>que aunque no del todo lindo ,</l>
+          <l>era un muchacho arrogante</l>
+          <l>de las niñas muy querido.</l>
+          <l rend="indent">Cuando hubo de ir á la guerra</l>
+          <l>estaba ya prometido</l>
+          <l>con una niña muy bella</l>
+          <l>que le amaba con delirio.</l>
+          <l rend="indent">Llegó en fin el duro instante ,</l>
+          <l>de ambos á dos tan temido ,</l>
+          <l>que habian de separarse</l>
+          <l>sus corazones unidos.</l>
+          <l rend="indent">Y es de pensar, todo eran</l>
+          <l>llantos, lamentos, gemidos,</l>
+          <l>desesperacion, desmayos,</l>
+          <l>imprecaciones y gritos.</l>
+          <l rend="indent">Llamábase pues Paulowna</l>
+          <l>segun de Rusia el estilo ,</l>
+          <l>la muchacha enamorada</l>
+          <l>cuyas proezas escribo.</l>
+          <l rend="indent">Paulowna fué la primera</l>
+          <l>que rocobrando el sentido ,</l>
+          <l>habló , para proponer</l>
+          <l>un plan el mas peregrino.</l>
+          <l rend="indent">Con él no se separaba</l>
+          <l>de su adorado Francisco ,</l>
+          <l>que asi se llamaba el jóven ,</l>
+          <l>y probaba su heroismo.</l>
+          <l rend="indent">Propuso pues á su amado</l>
+          <l>de hombre tomar el vestido,</l>
+          <l>y entrar como voluntario</l>
+          <l>en su regimiento mismo.</l>
+          <l rend="indent">Su amante la disuade</l>
+          <l>de este proyecto atrevido,</l>
+          <l>pero la moza no quiere</l>
+          <l>quedar lejos de su amigo.</l>
+          <l rend="indent">Por fin en ejecutarlo</l>
+          <l>quedan ambos convenidos ,</l>
+          <l>y se dan d s mil abrazos</l>
+          <l>entrambos enternecidos.</l>
+          <l rend="indent">Cuando llegó la ocasion</l>
+          <l>lo hicieron como fué dicho :</l>
+          <l>la muchacha sentó plaza</l>
+          <l>y practico el ejercicio.</l>
+          <l rend="indent">Cuando marchó el regimiento ,</l>
+          <l>llenos de amor y de brios ,</l>
+          <l>partieron ambos amantes</l>
+          <l>con el mayor regocijo.</l>
+          <l rend="indent">Al fuerte de Kalafat</l>
+          <l>al fin fueron conducidos,</l>
+
+          <pb n="3" source="Varios_162_3.jpg" facs="varios/Varios_162_3.jpg/"/>
+
+          <l>en el cual les aguardaba</l>
+          <l>el mas estraño destino.</l>
+          <l rend="indent">Estábase descuidada</l>
+          <l>la guarnicion del Castillo,</l>
+          <l>sin pensar que algun ataque</l>
+          <l>les diese el turco atrevido.</l>
+          <l rend="indent">De repente un tiroteo</l>
+          <l>en la avanzada da aviso</l>
+          <l>que el enemigo se acerca</l>
+          <l>con algun fatal designio.</l>
+          <l rend="indent">Truena el cañon en el fuerte</l>
+          <l>y el turco no menos vivo</l>
+          <l>sostiene contra la plaza</l>
+          <l>un cañoneo seguido.</l>
+          <l rend="indent">Bombas van y bombas vienen</l>
+          <l>que siembran el esterminio,</l>
+          <l>y se prepara el asalto</l>
+          <l>con denuedo nunca visto.</l>
+          <l rend="indent">No hablarémos del valor,</l>
+          <l>de aquel arrojo inaudito</l>
+          <l>con que dieron el asalto</l>
+          <l>los musulmanes altivos.</l>
+          <l rend="indent">Los rusos tambien defienden</l>
+          <l>el fuerte bien decididos</l>
+          <l>á morir mas no á ceder;</l>
+          <l>pues son pocos para el sitio.</l>
+          <l rend="indent">Aproximan las escalas</l>
+          <l>los turcos, y otros avíos</l>
+          <l>para escalar la muralla,</l>
+          <l>siendo incesantes los tiros.</l>
+          <l rend="indent">Tambien abren varias brechas,</l>
+          <l>penetran en el recinto</l>
+          <l>del fuerte, que en fiera lucha</l>
+          <l>al cabo se vé rendido.</l>
+          <l rend="indent">Los muertos son numerosos</l>
+          <l>los heridos infinitos;</l>
+          <l>y quedaron prisioneros</l>
+          <l>todos cuantos se hallan vivos.</l>
+          <l rend="indent">Entre estos se halla Paulowna</l>
+          <l>y tambien está Francisco,</l>
+          <l>porque estos finos amantes</l>
+          <l>siempre estuvieron unidos.</l>
+          <l rend="indent">Paulowna llevó el valor</l>
+          <l>al grado del heroismo,</l>
+          <l>y aunque es jóven la muchacha</l>
+          <l>no teme nunca el peligro.</l>
+          <l rend="indent">Tambien se mostró valiente</l>
+          <l>y denodado Francisco,</l>
+          <l>y á su amada procuró</l>
+          <l>cubrir con su cuerpo mismo.</l>
+          <l rend="indent">Pero nada les valieron</l>
+          <l>de valor tales prodigios</l>
+          <l>puesto que á Constantinopla</l>
+          <l>los dos fueron conducidos.</l>
+          <l rend="indent">Puesta está ya ante el Sultan</l>
+          <l>con todos los atavios</l>
+          <l>presentando su hermosura</l>
+          <l>de mujer siendo el vestido.</l>
+          <l rend="indent">Allí con humilde tono</l>
+          <l>le cuenta lo sucedido;</l>
+          <l>descubriéndole del todo</l>
+          <l>sus constantes amorios.</l>
+          <l rend="indent">Le dice que con su amante</l>
+          <l>eran felices y unidos</l>
+          <l>vivian en tierno afecto</l>
+          <l>y con amor muy rendido.</l>
+          <l rend="indent">Pero viniendo la guerra</l>
+          <l>cayó la suerte á Francisco</l>
+          <l>de ser soldado, y al Czar</l>
+          <l>desde aquel punto maldijo.</l>
+          <l rend="indent">Que ella quiso acompañarle</l>
+          <l>de hombre tomando el vestido,</l>
+          <l>y que luego sentó plaza,</l>
+          <l>con lo demas que se ha dicho.</l>
+          <l rend="indent">El Sultan la está escuchando,</l>
+          <l>admirado y confundido</l>
+          <l>pues su cara le recuerda</l>
+          <l>á una hija que ha perdido.</l>
+          <l rend="indent">A esta hija idolatraba</l>
+          <l>con un amor nunca visto;</l>
+          <l>pero la terrible Parca</l>
+          <l>cortó de su vida el hilo.</l>
+          <l rend="indent">Esta casual semejanza</l>
+          <l>fue sin disputa el motivo</l>
+          <l>que al Sultan interesó,</l>
+          <l>y le hizo mostrar propicio.</l>
+          <l rend="indent">Hizo repetir ancioso</l>
+          <l>lo que ya está referido</l>
+
+          <pb n="4" source="Varios_162_4.jpg" facs="varios/Varios_162_4.jpg/"/>
+
+          <l>y hasta en la voz cree oir</l>
+          <l>á la hija que ha perdido.</l>
+          <l rend="indent">Quiere al fin que á su presencia</l>
+          <l>le conduzcan á Francisco,</l>
+          <l>y en secreto le interroga</l>
+          <l>por ver si dice lo mismo.</l>
+          <l rend="indent">Viendo ya que estan conformes,</l>
+          <l>benévolo da el permíso</l>
+          <l>de que queden en palacio,</l>
+          <l>á su mas libre albedrío.</l>
+          <l rend="indent">Mientras tanto se disponen</l>
+          <l>los medios mas conductivos,</l>
+          <l>para que vuelvan á Rusia</l>
+          <l>en libertad, sin peligro.</l>
+          <l rend="indent">Mas ellos cuando lo oyeron</l>
+          <l>hondamente agradecidos</l>
+          <l>besan al Turco los pies</l>
+          <l>en ademan muy sumiso.</l>
+          <l rend="indent">Mientras tanto el gran sultan</l>
+          <l>un órden ha dirigido</l>
+          <l>para que nuestros amantes</l>
+          <l>á un buque sean admitidos.</l>
+          <l rend="indent">Aun les dió de regalo</l>
+          <l>para gasto y regocijos,</l>
+          <l>dos mil y trescientas piastras;</l>
+          <l>para que asi vivan ricos.</l>
+          <l rend="indent">Ellos felices marcharon</l>
+          <l>en un bergantin bonito</l>
+          <l>que surca ligero el mar</l>
+          <l>empavesado y altivo.</l>
+          <l rend="indent">Llegaron luego á las costas</l>
+          <l>de Alemania, y allí mismo</l>
+          <l>desembarcaron y entrambos</l>
+          <l>siguen por tierra el camino.</l>
+          <l rend="indent">Ya vestidos de paisanos</l>
+          <l>y con sus nombres fingidos,</l>
+          <l>encamínanse á su tierra</l>
+          <l>para no ser conocidos.</l>
+          <l rend="indent">Cuando á su patria llegaron</l>
+          <l>nuestra Paulowna y Francisco</l>
+          <l>fue de sus caras familias</l>
+          <l>indecible el regocijo.</l>
+          <l rend="indent">Y los padres de Paulowna</l>
+          <l>que creian haber perdido</l>
+          <l>para siempre á su linda hija</l>
+          <l>se alegraron infiníto.</l>
+          <l rend="indent">Le hacen repetir mil veces</l>
+          <l>la historia de lo ocurrido</l>
+          <l>y ven de la Providencia</l>
+          <l>inescrutables designios.</l>
+          <l rend="indent">Numerosos son los besos</l>
+          <l>los abrazos infinitos,</l>
+          <l>las lágrimas de ternura</l>
+          <l>y los amantes suspiros.</l>
+          <l rend="indent">Por fin queda el matrimonio</l>
+          <l>de Paulowna con Francisco</l>
+          <l>entre los padres de entrambos</l>
+          <l>para luego decidido.</l>
+          <l rend="indent">Ya quieren que sea esplendido</l>
+          <l>cual otro nunca se ha visto,</l>
+          <l>que haya orquestas y banquetes</l>
+          <l>y festines repetidos.</l>
+          <l rend="indent">Ya se prepara la novia</l>
+          <l>los mas brillantes vestidos</l>
+          <l>las alajas mas costosas</l>
+          <l>con las galas y atavios.</l>
+          <l rend="indent">Francisco tambien alegre</l>
+          <l>y cual fuera de si mismo</l>
+          <l>convida á su matrimonio</l>
+          <l>á deudos y conocidos.</l>
+          <l rend="indent">Dios bendijo aquesta union</l>
+          <l>y de Paulowna y Francisco</l>
+          <l>durará la tierna historia</l>
+          <l>por los siglos de los siglos.</l>
+
+          <p rend="cursiva"><lb/>Es propiedad.</p>
         </div>
-        <div type="colofon_impresora">
+
+        <div type="colofon_impresor">
           <p><lb/>Imprenta de I. Estivill, calle del Conde del Asalto, n.° 65.</p>
         </div>
+
         <div type="colofon_vendedor">
           <p><lb/>PALMA.—Tienda de M. Borrás, plaza del Call n. 10</p>
         </div>

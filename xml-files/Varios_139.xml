@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../Schema/oddPliego_varios.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:alto="http://www.loc.gov/standards/alto/ns-v4#" xml:id="Varios_139">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Varios_139">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -8,16 +8,10 @@
         <respStmt>
           <name/>
           <resp>Codificación TEI</resp>
-          <note type="propriedad">Francisco Rubert</note>
-          <note type="propriedad">Mía</note>
-          <note type="propriedad">F.B.</note>
-          <note type="propriedad">Reoyo</note>
-          <note type="propriedad">Luca de Tena</note>
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <authority role="rightsHolder">Bibliothèque Universitaire de
-                              Genève</authority>
+        <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
         <availability status="restricted">
           <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
         </availability>
@@ -26,15 +20,15 @@
         <biblFull>
           <titleStmt>
             <title type="titulo_completo">La fiebre del vicio</title>
-            <title type="titulo_breve">La fiebre del vicio</title>
+            <title type="titulo_breve"/>
           </titleStmt>
           <editionStmt>
             <p/>
           </editionStmt>
           <publicationStmt>
-            <publisher>Imprenta Inglensa</publisher>
+            <publisher>Imprenta Inglesa</publisher>
             <pubPlace ref="https://www.geonames.org/3128760/barcelona.html">Barcelona</pubPlace>
-            <date cert="high">[s.a]</date>
+            <date cert="low" when="1800-01-01">[s.a.]</date>
           </publicationStmt>
         </biblFull>
         <msDesc>
@@ -42,7 +36,8 @@
             <country>Suisse</country>
             <settlement>Genève</settlement>
             <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"/>
-                                    </repository>
+            </repository>
+            <collection>Colección Varios</collection>
             <idno type="cote"/>
             <idno type="DOI">10.5281/zenodo.6586451</idno>
             <altIdentifier>
@@ -50,10 +45,30 @@
             </altIdentifier>
           </msIdentifier>
           <msContents>
-            <summary/>
+            <summary>Cinco canciones</summary>
             <msItem>
-              <locus/>
-              <title/>
+              <locus>1</locus>
+              <title>La fiebre del vicio</title>
+              <author role="letrista">Francisco Rubert</author>
+            </msItem>
+            <msItem>
+              <locus>2</locus>
+              <title>El Reinado de las Suegras</title>
+              <author role="letrista">F. B.</author>
+            </msItem>
+            <msItem>
+              <locus>3</locus>
+              <title>Viejo rincon. Tango</title>
+            </msItem>
+            <msItem>
+              <locus>3</locus>
+              <title>A todos</title>
+            </msItem>
+            <msItem>
+              <locus>4</locus>
+              <title>El Huésped del Sevillano</title>
+              <author role="letrista">Reoyo y Luca de Tena</author>
+              <author role="compositor">Guerrero</author>
             </msItem>
           </msContents>
           <physDesc>
@@ -61,7 +76,7 @@
               <supportDesc>
                 <support>
                   <dim>in-4</dim>
-                  <material>amarillo</material>
+                  <material subtype="amarillo"/>
                 </support>
                 <extent><measure unit="página" quantity="4"/>4 p.</extent>
                 <condition>Bueno</condition>
@@ -71,8 +86,7 @@
               </layoutDesc>
             </objectDesc>
             <decoDesc>
-              <summary n="1">Uno grabado (p.1) + uno ornamento (p.
-                                                3)</summary>
+              <summary n="1">Un grabado (p.1)</summary>
               <decoNote type="lista_grabados">
                 <list>
                   <item corresp="grabado_v_139_1.xml">grabado_v_139_1</item>
@@ -98,18 +112,17 @@
     </fileDesc>
     <encodingDesc>
       <projectDesc>
-        <p>Este archivo fue creado en el marco del proyecto Desenrollando el
-                              Cordel/Démêler le cordel/Untangling the cordel, dirigido por la
-                              profesora Constance Carta de la Universidad de Ginebra, con el apoyo
-                              de la Fundación filantrópica Famille Sandoz-Monique de Meuron.</p>
+        <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+          cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la Universidad
+          de Ginebra, con el apoyo de la Fundación filantrópica Famille Sandoz-Monique de
+          Meuron.</p>
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR non corregido</p>
+          <p>OCR no corregido</p>
         </correction>
         <normalization>
-          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto
-                                    original.</p>
+          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
         </normalization>
         <punctuation>
           <p>Se conserva la puntuación original.</p>
@@ -130,10 +143,14 @@
       </textClass>
     </profileDesc>
     <revisionDesc>
-      <change when="2023-01-21" who="#PJ">Création du fichier TEI P5 et encodage du
-                        corps du texte</change>
+      <change when="2023-01-21" who="#PJ">Création du fichier TEI P5 et encodage du corps du
+        texte</change>
+      <change when="2024-01-09" who="#EL">Add the IIIF links</change>
     </revisionDesc>
   </teiHeader>
+  <facsimile>
+    <graphic url="varios/Varios_139_1.jpg/full/200,/0/default.jpg"/>
+  </facsimile>
   <sourceDoc xml:id="automaticTranscription">
     <surface xml:id="Varios_139_1" type="page" cert="silver">
       <graphic url="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_139_1/full/full/0/default.jpg"/>
@@ -1009,8 +1026,7 @@
         </zone>
         <zone xml:id="Varios_139_4_BT223_1_LT183_2" type="CustomZone" subtype="none" points="1373,488 1357,446 1305,420 1302,420 1300,420 1298,420 1296,420 1261,444 1259,446 1232,444 1210,420 1210,418 1208,418 1206,418 1204,418 1081,438 1059,440 1055,435 1037,414 1035,414 1035,411 1033,411 1030,411 818,405 815,405 701,420 653,427 644,418 638,414 638,411 636,411 633,411 631,411 592,416 535,422 519,411 504,403 502,403 500,403 497,403 495,403 469,409 440,418 438,416 432,444 410,451 386,455 370,409 322,405 322,455 320,479 1298,501 1305,503 1366,517 1368,517 1430,506 1432,492 1432,453 1403,451 1395,479 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_139_4/320.0,403.0,1112.0,114.0/full/0/default" corresp="DefaultLine">
           <path xml:id="Varios_139_4_BT223_1_LT183_2_1" points="324,457 1433,495 "/>
-          <line>Letra de los célebres autores señores Reoyo y Luca de
-                                    Tena</line>
+          <line>Letra de los célebres autores señores Reoyo y Luca de Tena</line>
         </zone>
         <zone xml:id="Varios_139_4_BT223_1_LT183_3" type="CustomZone" subtype="none" points="1307,538 1294,506 1208,506 1206,503 1173,488 1171,488 1169,488 1120,497 1105,486 1103,486 1101,486 1098,486 1041,497 971,497 956,481 954,481 951,481 949,481 947,481 905,495 903,495 879,479 877,479 875,479 872,479 870,479 840,492 837,492 791,477 789,477 787,477 785,477 754,490 752,490 750,490 715,477 712,477 710,477 708,477 666,488 660,488 649,486 579,475 576,475 489,477 475,506 454,517 432,488 432,523 429,541 951,563 954,563 1002,554 1008,554 1011,554 1035,565 1037,565 1039,565 1083,556 1087,556 1101,556 1250,571 1252,571 1322,560 1324,549 1324,508 1307,538 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_139_4/429.0,475.0,895.0,96.0/full/0/default" corresp="DefaultLine">
           <path xml:id="Varios_139_4_BT223_1_LT183_3_1" points="434,524 1327,552 "/>
@@ -1184,226 +1200,240 @@
   <text>
     <body>
       <div>
-        <pb n="1" source="Varios_139_1.jpg" facs="fedora_Varios_139_1/full/full/0/default.jpg"/>
         <div>
-          <head type="primer_titulo"><lb/>La fiebre del vicio<lb/>Letra de Francisco
-                                    Rubert<lb/>Música de «Mía»</head>
-          <lg>
-            <head type="titulo_estrofa">I</head>
-            <l>El destino</l>
-            <l>juega con mi vida</l>
-            <l>Su ironía</l>
-            <l>destroza mi alma</l>
-            <l>Mi alegria</l>
-            <l>por fin abatida</l>
-            <l>busca en el tango, la calma</l>
-            <l>Me domina</l>
-            <l>me ciega la orgia</l>
-            <l>ella me señala mi camino</l>
-            <l>y al hallarme</l>
-            <l>de nuevo a su sino</l>
-            <l>él se mofa de mi corazón.</l>
-          </lg>
-          <lg>
-            <head type="estribillo">Estribillo</head>
-            <l>Vicio que me matas</l>
-            <l>cual puñal envenenado</l>
-            <l>que te propones</l>
-            <l>hacer de mí un desgraciado.</l>
-            <l>Vete lejos tú de mi</l>
-            <l>no siempres más la perdición</l>
-            <l>que así lejos ya de ti</l>
-            <l>renacerá mi corazón.</l>
-          </lg>
-          <lg>
-            <head type="titulo_estrofa">II</head>
-            <l>La culpa</l>
-            <l>fué de aquella ingrata</l>
-            <l>de aquella</l>
-            <l>mujer libertina</l>
-            <l>Su recuerdo</l>
-            <l>en mi se ilumina</l>
-            <l>y poco a poco me mata.</l>
-            <l>Voy fingiendo</l>
-            <l>en la vida una farsa</l>
-            <l>olvidando</l>
-            <l>aquel cruel amor</l>
-            <l>En mi pena</l>
-            <l>la risa descansa</l>
-            <l>y no encuentra</l>
-            <l>alivio el dolor.</l>
-          </lg>
-          <lg>
-            <l>Estribillo.</l>
-          </lg>
-        </div>
-        <pb n="2" source="Varios_139_2.jpg" facs="fedora_Varios_139_2/full/full/0/default.jpg"/>
-        <div>
-          <head type="titulo_cancion"><lb/>El Reinado de las Suegras</head>
-          <head type="subtitulo_parte"><lb/>cMúsade «Por algo será»<lb/>Letra
-                                    de F. B.</head>
-          <lg>
-            <head type="titulo_estrofa">I</head>
-            <l>De las plagas que hay en el mundo</l>
-            <l>para el hombre es, para el hombre es,</l>
-            <l>una suegra con genio de fiera</l>
-            <l>y dé puntapiés, y dé puntapiés.</l>
-            <l>ES la casa donde haya un bicho</l>
-            <l>de tal condición, de tal condición,</l>
-            <l>es seguro que se arma a diario...</l>
-            <l>la revolución.</l>
-            <l>Ya pueden saber, ya pueden saber,</l>
-            <l>que una suegra con genio y furiosa...</l>
-            <l>¡les puede morder!</l>
-          </lg>
-          <lg>
-            <head type="titulo_estrofa">II</head>
-            <l>A una suegra cuando le conviene</l>
-            <l>¡y qué buena es, y qué buena es!</l>
-            <l>sobre todo si tiene una hija</l>
-            <l>para merecer, para merecer.</l>
-            <l>Y el pollo que cae en la trampa</l>
-            <l>con buena intención, con buena intención,</l>
-            <l>de contado ya pueden dar parte...</l>
-            <l>de su defunción.</l>
-            <l>Hay que adivinar, hay que adivinar,</l>
-            <l>de que un hombre casado y con suegra...</l>
-            <l>¡la puede diñar!</l>
-          </lg>
-          <lg>
-            <head type="titulo_estrofa">III</head>
-            <l>Una suegra en su casa es la reina</l>
-            <l>y hay que callar, y hay que callar,</l>
-            <l>y con mimos y zalamerias</l>
-            <l>tienes que tratar, tienes que tratar.</l>
-            <l>Y si el hombre es corto de genio</l>
-            <l>suele suceder, suele suceder,</l>
-            <l>que en tu casa hasta la comida...</l>
-            <l>te tienes que hacer.</l>
-            <l>Qué gracioso es, qué gracioso es,</l>
-            <l>ver a un pollo recién casadito...</l>
-            <l>¡la casa barrer!</l>
-          </lg>
-          <lg>
-            <head type="titulo_estrofa">IV</head>
-            <l>Si la vida en el mundo dichoso</l>
-            <l>quieres disfrutar, quieres disfrutar,</l>
-            <l>solterito y solo en tu casa</l>
-            <l>mejor estarás, mejor estarás.</l>
-            <l>Si una joven te gusta y te casas</l>
-            <l>como es natural, como es natural,</l>
-            <l>además de bonita, procura...</l>
-            <l>tenga un capital.</l>
-            <l>Pero has de saber, pero has de saber,</l>
-            <l>que si entra una suegra en tu casa...</l>
-            <l>¡tendrás que correr!</l>
-          </lg>
-          <lg>
-            <head type="titulo_estrofa">V</head>
-            <l>Si el que vive casado y con suegra</l>
-            <l>tiene educación, tiene educación,</l>
-            <l>va la suegra y dice que parece</l>
-            <l>un bobalicón, un bobalicón.</l>
-            <l>Si es adusto y con mal carácter</l>
-            <l>y viste muy mal, y viste muy mal,</l>
-            <l>al contrario de lo que era antes...</l>
-            <l>le dice ¡animal!</l>
-            <l>Qué felicidad, qué felicidad</l>
-            <l>el que puede vivir sin la suegra...</l>
-            <l>¡una eternidad!</l>
-          </lg>
-          <lg>
-            <head type="titulo_estrofa">VI</head>
-            <l>Si algún día te vas de paseo</l>
-            <l>o bien al café, o bien al café,</l>
-            <l>has de ir con la esposa a tu lado,</l>
-            <l>la suegra también, la suegra también.</l>
-            <l>Y se pone terrible y furiosa</l>
-            <l>si le haces andar, si le haces andar,</l>
-            <l>y la tienes que llevar en auto...</l>
-            <l>o en side-car.</l>
-            <l>Qué día será, qué día será,</l>
-            <l>aquel en que a la suegra «querida»</l>
-            <l>¡no vuelva a ver más!</l>
-          </lg>
-          <lg>
-            <head type="titulo_estrofa">VII</head>
-            <l>El que tenga la suegra muy buena</l>
-            <l>la puede guardar, la puede guardar,</l>
-            <l>y arreglarla de modo que valga</l>
-            <l>para confitar, para confitar.</l>
-            <l>Y a una suegra con mucha dulzura</l>
-            <l>se puede llamar, se puede llamar,</l>
-            <l>no «la suegra», pues hace ordinario...</l>
-            <l>sino mi mamá.</l>
-            <l>Milagro sérá, milagro será,</l>
-            <l>sí al pasar unos dias no diga</l>
-            <l>¡ni mama ni ná!</l>
-          </lg>
-          <trailer>FIN.</trailer>
-        </div>
-        <pb n="3" source="Varios_139_3.jpg" facs="fedora_Varios_139_3/full/full/0/default.jpg"/>
-        <div>
-          <head rend="negrita" type="titulo_cancion"><lb/>VIEJO RINCON</head>
-          <head type="subtitulo_parte"><lb/>TANGO</head>
-          <lg>
-            <head type="titulo_estrofa">I</head>
-            <l>Viejo riacón de mís primeros tangos</l>
-            <l>donde ella me batió que me quería,</l>
-            <l>guarida de cien noches de fandango</l>
-            <l>que en mi memoria vives todavía.</l>
-            <l>¡Oh! Callejón de turbias caferatas</l>
-            <l>que fueron taitas del «mandolión»,</l>
-            <l>donde estará mi garçonier de latas</l>
-            <l>testigo de mi amor y su traición.</l>
-          </lg>
-          <lg>
-            <l>Hoy vuelvo al barrio que dejé</l>
-            <l>y al campanearlo me da pena,</l>
-            <l>no tengo ya mi madrecita buena;</l>
-            <l>mi rancho es la ruina; ya todo se acabó.</l>
-            <l>Porque creí, loco de mí,</l>
-            <l>por ella di mi vida entera:</l>
-            <l>también mi fe se convirtió en tapera</l>
-            <l>y sóio siento ruinas latir dentro de mí.</l>
-          </lg>
-          <lg rend="indent">
-            <l>De un tango el vaivén</l>
-            <l>da vida a un amor;</l>
-            <l>de un tango el vaivén</l>
-            <l>nos hace traición.</l>
-          </lg>
-          <lg>
-            <head type="titulo_estrofa">II</head>
-            <l>Cuando te quiebras en una sentada</l>
-            <l>juntando tu carita con la mía,</l>
-            <l>yo siento que en la hoguera de algún tango</l>
-            <l>se va a quemar mi sangre el mejsr día.</l>
-            <l>Viejo rincón de turbias caferatas</l>
-            <l>que fueron taitas del «mandolión»</l>
-            <l>donde estará mi garçonier de lata,</l>
-            <l>bulín mistongo que fué mi perdición.</l>
-          </lg>
-          <lg>
-            <l>Del fuelle al son, suena un violín</l>
-            <l>en el tablao de una cantina</l>
-            <l>y en un bulín que está al doblar la esquina</l>
-            <l>los taitas aprovechan el tango tentador.</l>
-            <l>¿ Pa qué soñar? ¿pa qué volvi</l>
-            <l>al callejón de mis quereres,</l>
-            <l>a revivir el mal de esas mujeres,</l>
-            <l>sus risas, sus caricias, la farsa de su amor?</l>
-          </lg>
-          <lg rend="indent">
-            <l>De un tango al vaivén</l>
-            <l>da vida a un amor;</l>
-            <l>e un tango al vaivén</l>
-            <l>nos hace traición.</l>
-          </lg>
-        </div>
-        <div>
-          <head rend="negrita" type="titulo_cancion"><lb/>A TODOS</head>
-          <lg>
+          <pb n="1" source="Varios_139_1.jpg" facs="varios/Varios_139_1.jpg/"/>
+
+          <div n="1">
+            <head type="primer_titulo" rend="negrita"><lb/>La fiebre del vicio</head>
+            <head type="subtitulo"><lb/>Letra de Francisco Rubert Música de «Mía»</head>
+
+            <lg>
+              <head type="titulo_estrofa">I</head>
+              <l>El destino</l>
+              <l>juega con mi vida</l>
+              <l>Su ironía</l>
+              <l>destroza mi alma</l>
+              <l>Mi alegria</l>
+              <l>por fin abatida</l>
+              <l>busca en el tango, la calma</l>
+              <l>Me domina</l>
+              <l>me ciega la orgia</l>
+              <l>ella me señala mi camino</l>
+              <l>y al hallarme</l>
+              <l>de nuevo a su sino</l>
+              <l>él se mofa de mi corazón.</l>
+            </lg>
+            <lg>
+              <head type="estribillo">Estribillo</head>
+              <l>Vicio que me matas</l>
+              <l>cual puñal envenenado</l>
+              <l>que te propones</l>
+              <l>hacer de mí un desgraciado.</l>
+              <l>Vete lejos tú de mi</l>
+              <l>no siempres más la perdición</l>
+              <l>que así lejos ya de ti</l>
+              <l>renacerá mi corazón.</l>
+            </lg>
+            <lg>
+              <head type="titulo_estrofa">II</head>
+              <l>La culpa</l>
+              <l>fué de aquella ingrata</l>
+              <l>de aquella</l>
+              <l>mujer libertina</l>
+              <l>Su recuerdo</l>
+              <l>en mi se ilumina</l>
+              <l>y poco a poco me mata.</l>
+              <l>Voy fingiendo</l>
+              <l>en la vida una farsa</l>
+              <l>olvidando</l>
+              <l>aquel cruel amor</l>
+              <l>En mi pena</l>
+              <l>la risa descansa</l>
+              <l>y no encuentra</l>
+              <l>alivio el dolor.</l>
+            </lg>
+            <lg>
+              <l>Estribillo.</l>
+            </lg>
+          </div>
+
+          <div n="2">
+            <pb n="2" source="Varios_139_2.jpg" facs="varios/Varios_139_2.jpg/"/>
+
+            <head type="primer_titulo" rend="negrita"><lb/>El Reinado de las Suegras</head>
+            <head type="subtitulo"><lb/>cMúsade «Por algo será» Letra de F. B.</head>
+
+            <lg>
+              <head type="titulo_estrofa">I</head>
+              <l rend="indent">De las plagas que hay en el mundo</l>
+              <l>para el hombre es, para el hombre es,</l>
+              <l>una suegra con genio de fiera</l>
+              <l>y dé puntapiés, y dé puntapiés.</l>
+              <l rend="indent">ES la casa donde haya un bicho</l>
+              <l>de tal condición, de tal condición,</l>
+              <l>es seguro que se arma a diario...</l>
+              <l>la revolución.</l>
+              <l>Ya pueden saber, ya pueden saber,</l>
+              <l>que una suegra con genio y furiosa...</l>
+              <l>¡les puede morder!</l>
+            </lg>
+            <lg>
+              <head type="titulo_estrofa">II</head>
+              <l rend="indent">A una suegra cuando le conviene</l>
+              <l>¡y qué buena es, y qué buena es!</l>
+              <l>sobre todo si tiene una hija</l>
+              <l>para merecer, para merecer.</l>
+              <l rend="indent">Y el pollo que cae en la trampa</l>
+              <l>con buena intención, con buena intención,</l>
+              <l>de contado ya pueden dar parte...</l>
+              <l>de su defunción.</l>
+              <l>Hay que adivinar, hay que adivinar,</l>
+              <l>de que un hombre casado y con suegra...</l>
+              <l>¡la puede diñar!</l>
+            </lg>
+            <lg>
+              <head type="titulo_estrofa">III</head>
+              <l rend="indent">Una suegra en su casa es la reina</l>
+              <l>y hay que callar, y hay que callar,</l>
+              <l>y con mimos y zalamerias</l>
+              <l>tienes que tratar, tienes que tratar.</l>
+              <l rend="indent">Y si el hombre es corto de genio</l>
+              <l>suele suceder, suele suceder,</l>
+              <l>que en tu casa hasta la comida...</l>
+              <l>te tienes que hacer.</l>
+              <l>Qué gracioso es, qué gracioso es,</l>
+              <l>ver a un pollo recién casadito...</l>
+              <l>¡la casa barrer!</l>
+            </lg>
+            <lg>
+              <head type="titulo_estrofa">IV</head>
+              <l>Si la vida en el mundo dichoso</l>
+              <l>quieres disfrutar, quieres disfrutar,</l>
+              <l>solterito y solo en tu casa</l>
+              <l>mejor estarás, mejor estarás.</l>
+              <l rend="indent">Si una joven te gusta y te casas</l>
+              <l>como es natural, como es natural,</l>
+              <l>además de bonita, procura...</l>
+              <l>tenga un capital.</l>
+              <l>Pero has de saber, pero has de saber,</l>
+              <l>que si entra una suegra en tu casa...</l>
+              <l>¡tendrás que correr!</l>
+            </lg>
+            <lg>
+              <head type="titulo_estrofa">V</head>
+              <l rend="indent">Si el que vive casado y con suegra</l>
+              <l>tiene educación, tiene educación,</l>
+              <l>va la suegra y dice que parece</l>
+              <l>un bobalicón, un bobalicón.</l>
+              <l rend="indent">Si es adusto y con mal carácter</l>
+              <l>y viste muy mal, y viste muy mal,</l>
+              <l>al contrario de lo que era antes...</l>
+              <l>le dice ¡animal!</l>
+              <l>Qué felicidad, qué felicidad</l>
+              <l>el que puede vivir sin la suegra...</l>
+              <l>¡una eternidad!</l>
+            </lg>
+            <lg>
+              <head type="titulo_estrofa">VI</head>
+              <l rend="indent">Si algún día te vas de paseo</l>
+              <l>o bien al café, o bien al café,</l>
+              <l>has de ir con la esposa a tu lado,</l>
+              <l>la suegra también, la suegra también.</l>
+              <l rend="indent">Y se pone terrible y furiosa</l>
+              <l>si le haces andar, si le haces andar,</l>
+              <l>y la tienes que llevar en auto...</l>
+              <l>o en side-car.</l>
+              <l>Qué día será, qué día será,</l>
+              <l>aquel en que a la suegra «querida»</l>
+              <l>¡no vuelva a ver más!</l>
+            </lg>
+            <lg>
+              <head type="titulo_estrofa">VII</head>
+              <l rend="indent">El que tenga la suegra muy buena</l>
+              <l>la puede guardar, la puede guardar,</l>
+              <l>y arreglarla de modo que valga</l>
+              <l>para confitar, para confitar.</l>
+              <l rend="indent">Y a una suegra con mucha dulzura</l>
+              <l>se puede llamar, se puede llamar,</l>
+              <l>no «la suegra», pues hace ordinario...</l>
+              <l>sino mi mamá.</l>
+              <l>Milagro sérá, milagro será,</l>
+              <l>sí al pasar unos dias no diga</l>
+              <l>¡ni mama ni ná!</l>
+            </lg>
+            <trailer>FIN.</trailer>
+          </div>
+
+          <div n="3">
+            <pb n="3" source="Varios_139_3.jpg" facs="varios/Varios_139_3.jpg/"/>
+
+            <head rend="negrita" type="primer_titulo"><lb/>VIEJO RINCON</head>
+            <head type="subtitulo"><lb/>TANGO</head>
+
+            <lg>
+              <head type="titulo_estrofa">I</head>
+              <lg>
+                <l>Viejo riacón de mís primeros tangos</l>
+                <l>donde ella me batió que me quería,</l>
+                <l>guarida de cien noches de fandango</l>
+                <l>que en mi memoria vives todavía.</l>
+                <l>¡Oh! Callejón de turbias caferatas</l>
+                <l>que fueron taitas del «mandolión»,</l>
+                <l>donde estará mi garçonier de latas</l>
+                <l>testigo de mi amor y su traición.</l>
+              </lg>
+              <lg>
+                <l>Hoy vuelvo al barrio que dejé</l>
+                <l>y al campanearlo me da pena,</l>
+                <l>no tengo ya mi madrecita buena;</l>
+                <l>mi rancho es la ruina; ya todo se acabó.</l>
+                <l>Porque creí, loco de mí,</l>
+                <l>por ella di mi vida entera:</l>
+                <l>también mi fe se convirtió en tapera</l>
+                <l>y sóio siento ruinas latir dentro de mí.</l>
+              </lg>
+              <lg rend="indent">
+                <l>De un tango el vaivén</l>
+                <l>da vida a un amor;</l>
+                <l>de un tango el vaivén</l>
+                <l>nos hace traición.</l>
+              </lg>
+            </lg>
+
+            <lg>
+              <head type="titulo_estrofa">II</head>
+              <lg>
+                <l>Cuando te quiebras en una sentada</l>
+                <l>juntando tu carita con la mía,</l>
+                <l>yo siento que en la hoguera de algún tango</l>
+                <l>se va a quemar mi sangre el mejsr día.</l>
+                <l>Viejo rincón de turbias caferatas</l>
+                <l>que fueron taitas del «mandolión»</l>
+                <l>donde estará mi garçonier de lata,</l>
+                <l>bulín mistongo que fué mi perdición.</l>
+              </lg>
+              <lg>
+                <l>Del fuelle al son, suena un violín</l>
+                <l>en el tablao de una cantina</l>
+                <l>y en un bulín que está al doblar la esquina</l>
+                <l>los taitas aprovechan el tango tentador.</l>
+                <l>¿ Pa qué soñar? ¿pa qué volvi</l>
+                <l>al callejón de mis quereres,</l>
+                <l>a revivir el mal de esas mujeres,</l>
+                <l>sus risas, sus caricias, la farsa de su amor?</l>
+              </lg>
+              <lg rend="indent">
+                <l>De un tango al vaivén</l>
+                <l>da vida a un amor;</l>
+                <l>e un tango al vaivén</l>
+                <l>nos hace traición.</l>
+              </lg>
+            </lg>
+          </div>
+
+          <div n="4">
+            <head rend="negrita" type="titulo_cancion"><lb/>A TODOS</head>
+
             <l>Comerciantes, escuchad;</l>
             <l>industriales oid,</l>
             <l>y público en general</l>
@@ -1433,62 +1463,67 @@
             <l>Nuestra casa que es la vuestra</l>
             <l>os causará nna sorpresa</l>
             <l>Doctor Dou, uúmero cuatro,</l>
-          </lg>
+
+            <div type="colofon">
+              <p><lb/>Barcelona, <hi rend="cursiva">Imprenta Inglesa</hi></p>
+            </div>
+          </div>
+
+          <div n="5">
+            <pb n="4" source="Varios_139_4.jpg" facs="varios/Varios_139_4.jpg/"/>
+
+            <head type="primer_titulo"><lb/>El Huésped del Sevillano</head>
+            <head type="subtitulo"><lb/>Letra de los célebres autores señores Reoyo y Luca de
+              Tena<lb/>Música del eminente y popular maestro Guerrero</head>
+
+            <lg n="1">
+              <head type="titulo_estrofa">I</head>
+              <l rend="indent">Corred más</l>
+              <l>que antes que sea noche debemos llegar</l>
+              <l>y volver mañana para descansar</l>
+              <l>después de vendido lo que aquí traemos</l>
+              <l>para las mocicas que quieran casar</l>
+              <l rend="indent">Para las mocicas que quieran casar.</l>
+              <l>Toledana, traigo para ti</l>
+              <l>unas galas con las que serás</l>
+              <l>la mujer más feliz</l>
+              <l>a quien puedan amar</l>
+              <l>Toledana, traigo para ti.</l>
+              <l rend="indent">Lagarteranas somos</l>
+              <l>venimos todas de Lagartera</l>
+              <l>traemos mercancias</l>
+              <l>de Lagartera y de Talavera.</l>
+              <l rend="indent">Lagarteranas somos</l>
+              <l>nacimos todas en Lagartera</l>
+              <l>lindos encajes traigo</l>
+              <l>de Lagartera y de Talavera.</l>
+            </lg>
+
+            <lg n="2">
+              <head type="titulo_estrofa">II</head>
+              <l rend="indent">A bailar,</l>
+              <l>que por las escaleras baja el padre Juan</l>
+              <l>pidiendo limosna para predicar</l>
+              <l>y baja diciendo: «Agacháte Pedro</l>
+              <l>agacháte Pedro y agacháte Juan.»</l>
+              <l rend="indent">Ese es nuestro cantar popular,</l>
+              <l>con que expresa su dicha al bailar,</l>
+              <l>la mocita gentil, que en Toledo nació</l>
+              <l>Ese es nuestro cantar popular.</l>
+              <l rend="indent">Lagarteranas somos</l>
+              <l>venimos todas de Lagartera</l>
+              <l>traemos mercancias</l>
+              <l>de Lagartera y de Talavera.</l>
+              <l rend="indent">Lagarteranas somos</l>
+              <l>nacimos todas en Lagartera</l>
+              <l>lindos encajes traigo</l>
+              <l>de Lagartera y de Talavera</l>
+            </lg>
+          </div>
         </div>
+        
         <div type="colofon">
-          <p><lb/>Barcelona, <hi rend="cursiva">Imprenta Inglesa</hi></p>
-        </div>
-        <pb n="4" source="Varios_139_4.jpg" facs="fedora_Varios_139_4/full/full/0/default.jpg"/>
-        <div>
-          <head type="titulo_cancion"><lb/>El Huésped del Sevillano</head>
-          <head type="subtitulo_parte"><lb/>Letra de los célebres autores
-                                    señores Reoyo y Luca de Tena<lb/>Música del eminente y popular
-                                    maestro Guerrero</head>
-          <lg>
-            <head type="titulo_estrofa">I</head>
-            <l>Corred más</l>
-            <l>que antes que sea noche debemos llegar</l>
-            <l>y volver mañana para descansar</l>
-            <l>después de vendido lo que aquí traemos</l>
-            <l>para las mocicas que quieran casar</l>
-            <l>Para las mocicas que quieran casar.</l>
-            <l>Toledana, traigo para ti</l>
-            <l>unas galas con las que serás</l>
-            <l>la mujer más feliz</l>
-            <l>a quien puedan amar</l>
-            <l>Toledana, traigo para ti.</l>
-            <l>Lagarteranas somos</l>
-            <l>venimos todas de Lagartera</l>
-            <l>traemos mercancias</l>
-            <l>de Lagartera y de Talavera.</l>
-            <l>Lagarteranas somos</l>
-            <l>nacimos todas en Lagartera</l>
-            <l>lindos encajes traigo</l>
-            <l>de Lagartera y de Talavera.</l>
-          </lg>
-          <lg>
-            <head type="titulo_estrofa">II</head>
-            <l>A bailar,</l>
-            <l>que por las escaleras baja el padre Juan</l>
-            <l>pidiendo limosna para predicar</l>
-            <l>y baja diciendo: «Agacháte Pedro</l>
-            <l>agacháte Pedro y agacháte Juan.»</l>
-            <l>Ese es nuestro cantar popular,</l>
-            <l>con que expresa su dicha al bailar,</l>
-            <l>la mocita gentil, que en Toledo nació</l>
-            <l>Ese es nuestro cantar popular.</l>
-            <l>Lagarteranas somos</l>
-            <l>venimos todas de Lagartera</l>
-            <l>traemos mercancias</l>
-            <l>de Lagartera y de Talavera.</l>
-            <l>Lagarteranas somos</l>
-            <l>nacimos todas en Lagartera</l>
-            <l>lindos encajes traigo</l>
-            <l>de Lagartera y de Talavera</l>
-          </lg>
-        </div>
-        <div type="colofon">
-          <p><lb/>Barcelona, <hi rend="cursiva">Imprenta Inglesa</hi></p>
+          <p><lb/>Imprenta Inglesa – Dou, n°4</p>
         </div>
       </div>
     </body>

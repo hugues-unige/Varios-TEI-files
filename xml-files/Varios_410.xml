@@ -28,9 +28,9 @@
             <p/>
           </editionStmt>
           <publicationStmt>
-            <publisher>Impr. De Guasp</publisher>
+            <publisher>Guasp</publisher>
             <pubPlace ref="https://www.geonames.org/2512989/palma.html">Palma</pubPlace>
-            <date cert="high">[s.a]</date>
+            <date cert="low" when="1800-01-01">[s.a.]</date>
           </publicationStmt>
         </biblFull>
         <msDesc>
@@ -39,6 +39,7 @@
             <settlement>Genève</settlement>
             <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"/>
                                     </repository>
+            <collection>Colección Varios</collection>
             <idno type="cote"/>
             <idno type="DOI">10.5281/zenodo.6787721</idno>
             <altIdentifier>
@@ -98,7 +99,7 @@
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR non corregido</p>
+          <p>OCR no corregido</p>
         </correction>
         <normalization>
           <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto
@@ -125,9 +126,10 @@
     <revisionDesc>
       <change when="2023-12-25" who="#PJ">Création du fichier TEI P5 et encodage du
                         corps du texte</change>
+<change when="2024-01-09" who="#EL">Add the IIIF links</change>
     </revisionDesc>
   </teiHeader>
-  <sourceDoc xml:id="automaticTranscription">
+  <facsimile><graphic url="varios/Varios_410_1.jpg/full/200,/0/default.jpg"/></facsimile><sourceDoc xml:id="automaticTranscription">
     <surface xml:id="Varios_410_1" type="page" cert="silver">
       <graphic url="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_410_1/full/full/0/default.jpg"/>
       <zone xml:id="Varios_410_1_BT221_1" n="1" type="CustomZone" subtype="impresorNum" points="1337,255 1337,340 1041,340 1041,255 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_410_1/1041.0,255.0,296.0,85.0/full/0/default" corresp="CustomZone:impresorNum">
@@ -1265,7 +1267,7 @@
   <text>
     <body>
       <div>
-        <pb n="1" source="Varios_410_1.jpg" facs="fedora_Varios_410_1/full/full/0/default.jpg"/>
+        <pb n="1" source="Varios_410_1.jpg" facs="varios/Varios_410_1.jpg/"/>
         <fw type="impresorNum">(Núm. 129.)</fw>
         <div type="parte" n="1">
           <head type="primer_titulo"><lb/><hi rend="negrita">DECIMAS NUEVAS GLOSADAS,</hi><lb/>PARA
@@ -1302,7 +1304,7 @@
             <l>y me hallo de comision</l>
             <l rend="cursiva">en el muelle de la Habana.</l>
           </lg>
-          <pb n="2" source="Varios_410_2.jpg" facs="fedora_Varios_410_2/full/full/0/default.jpg"/>
+          <pb n="2" source="Varios_410_2.jpg" facs="varios/Varios_410_2.jpg/"/>
           <lg>
             <l>En Cuba fui pregonero,</l>
             <l>y chalan en Moreria,</l>
@@ -1411,7 +1413,7 @@
             <l>con gran fineza y amor</l>
             <l rend="cursiva">me alegraré que te halles.</l>
           </lg>
-          <pb n="3" source="Varios_410_3.jpg" facs="fedora_Varios_410_3/full/full/0/default.jpg"/>
+          <pb n="3" source="Varios_410_3.jpg" facs="varios/Varios_410_3.jpg/"/>
           <lg>
             <l>Aquí suspendo mi pluma</l>
             <l>por no mostrar mi dolor,</l>
@@ -1508,7 +1510,7 @@
           <lg>
             <l>Si una que 'n té trenta sèt</l>
             <l>viuda y rica, amb un nabot</l>
-            <pb n="4" source="Varios_410_4.jpg" facs="fedora_Varios_410_4/full/full/0/default.jpg"/>
+            <pb n="4" source="Varios_410_4.jpg" facs="varios/Varios_410_4.jpg/"/>
             <l>se casa y aqueix per tot</l>
             <l>encanta que l' han sostrèt</l>
             <l>y no ha fet per sa döt;</l>

@@ -1,18 +1,17 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../Schema/oddPliego_varios.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:alto="http://www.loc.gov/standards/alto/ns-v4#" xml:id="Varios_048">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Varios_048">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>EL TROBADOR.</title>
+        <title>EL TROBADOR</title>
         <respStmt>
           <name/>
           <resp>Codificación TEI</resp>
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <authority role="rightsHolder">Bibliothèque Universitaire de
-                              Genève</authority>
+        <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
         <availability status="restricted">
           <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
         </availability>
@@ -27,9 +26,9 @@
             <p/>
           </editionStmt>
           <publicationStmt>
-            <publisher>Imprenta de Longas y Ripa.</publisher>
+            <publisher>Longas y Ripa</publisher>
             <pubPlace ref="https://www.geonames.org/3114472/pamplona.html">Pamplona</pubPlace>
-            <date>[s.a]</date>
+            <date cert="low" when="1800-01-01">[s.a.]</date>
           </publicationStmt>
         </biblFull>
         <msDesc>
@@ -37,7 +36,8 @@
             <country>Suisse</country>
             <settlement>Genève</settlement>
             <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"/>
-                                    </repository>
+            </repository>
+            <collection>Colección Varios</collection>
             <idno type="cote"/>
             <idno type="DOI">10.5281/zenodo.6556214</idno>
             <altIdentifier>
@@ -45,10 +45,14 @@
             </altIdentifier>
           </msIdentifier>
           <msContents>
-            <summary/>
+            <summary>Dos partes</summary>
             <msItem>
-              <locus/>
-              <title/>
+              <locus>1-2</locus>
+              <title>Primera parte.</title>
+            </msItem>
+            <msItem>
+              <locus>3-4</locus>
+              <title>Segunda parte.</title>
             </msItem>
           </msContents>
           <physDesc>
@@ -66,11 +70,11 @@
               </layoutDesc>
             </objectDesc>
             <decoDesc>
-              <summary n="2">Dos (p.1) </summary>
+              <summary n="2">Dos grabados (p.1)</summary>
               <decoNote type="lista_grabados">
                 <list>
                   <item corresp="grabado_v_048_1.xml">grabado_v_048_1</item>
-                  <item corresp="grabado_v_048_1.xml">grabado_v_048_1</item>
+                  <item corresp="grabado_v_048_2.xml">grabado_v_048_2</item>
                 </list>
               </decoNote>
             </decoDesc>
@@ -78,7 +82,7 @@
           </physDesc>
           <history>
             <origin>
-              <p>Pumplona : Imprenta de Longas y Ripa.</p>
+              <p>Pamplona : Imprenta de Longas y Ripa.</p>
             </origin>
             <provenance/>
             <acquisition/>
@@ -88,18 +92,17 @@
     </fileDesc>
     <encodingDesc>
       <projectDesc>
-        <p>Este archivo fue creado en el marco del proyecto Desenrollando el
-                              Cordel/Démêler le cordel/Untangling the cordel, dirigido por la
-                              profesora Constance Carta de la Universidad de Ginebra, con el apoyo
-                              de la Fundación filantrópica Famille Sandoz-Monique de Meuron.</p>
+        <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+          cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la Universidad
+          de Ginebra, con el apoyo de la Fundación filantrópica Famille Sandoz-Monique de
+          Meuron.</p>
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR non corregido</p>
+          <p>OCR no corregido</p>
         </correction>
         <normalization>
-          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto
-                                    original.</p>
+          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
         </normalization>
         <punctuation>
           <p>Se conserva la puntuación original.</p>
@@ -113,17 +116,18 @@
       <textClass>
         <keywords xml:base="http://datos.bne.es/tema/">
           <term target="XX527614.html" type="tipo_texto">Romances</term>
-          <term type="verso_prosa">Prosa</term>
+          <term type="verso_prosa">Verso</term>
           <term type="sagrado_profano">Profano</term>
         </keywords>
       </textClass>
     </profileDesc>
     <revisionDesc>
-      <change when="2022-05-15" who="#PJ">Création du fichier TEI P5 et encodage du
-                        corps du texte</change>
+      <change when="2022-05-15" who="#PJ">Création du fichier TEI P5 et encodage du corps du
+        texte</change>
+<change when="2024-01-09" who="#EL">Add the IIIF links</change>
     </revisionDesc>
   </teiHeader>
-  <sourceDoc xml:id="automaticTranscription">
+  <facsimile><graphic url="varios/Varios_048_1.jpg/full/200,/0/default.jpg"/></facsimile><sourceDoc xml:id="automaticTranscription">
     <surface xml:id="Varios_048_1" type="page" cert="silver">
       <graphic url="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_048_1/full/full/0/default.jpg"/>
       <zone xml:id="Varios_048_1_BT223_1" n="1" type="CustomZone" subtype="title" points="1103,1095 1146,1139 1134,1166 1115,1187 911,1190 911,1225 1085,1225 1058,1233 1096,1302 561,1306 538,1255 564,1225 690,1225 690,1205 535,1202 478,1169 478,1133 505,1098 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_048_1/478,1095,668,211/full/0/default" corresp="CustomZone:title">
@@ -684,105 +688,196 @@
   <text>
     <body>
       <div>
-        <pb n="1" source="Varios_048_1.jpg" facs="fedora_Varios_048_1/full/full/0/default.jpg"/>
-        <div n="1" type="parte">
-          <head type="primer_titulo" rend="negrita"><lb/>EL TROBADOR.</head>
-          <head type="titulo_parte"><lb/>PRIMERA PARTE.</head>
-          <p><lb/>Un tiempo fué que en cítara sonora,<lb/>gloria y amor el
-                                    Trobadór cantó;<lb/>brilló en la lid su espada
-                                    vencedora,<lb/>y lauros mit á la beldad rindió.<lb/>Hora
-                                    infeliz, en llanto y desventura<lb/>trocó su bien un malhadado
-                                    amor....<lb/>tú que cruel causaste su amargura<lb/>ten ay!
-                                    piedad del triste Trobador.<lb/>No se oye ya la voz de su
-                                    dulzura<lb/>alzar de amor el hi nno en el festin,<lb/>ni el
-                                    canto audaz que iospira la bravura,<lb/>hace latir el pecho al
-                                    paladin:<lb/>Proscripto ya y en estranjero suelo<lb/>llora
-                                    infeliz su malhadado amor....<lb/>tú que cruel causaste su
-                                    deselo,<lb/>ten ay! piedad del triste Trobador.<lb/>El ronco son
-                                    de belicosa frompa<lb/>llamó tal vez á la sangrienta
-                                    lid,<lb/>y entre el rumor de la guerrera pompa<lb/>pronto
-                                    marchó y alegre, el ada id:<lb/>lanzase andaz y vana es su
-                                    esperanza<lb/>no encuentra fin su malhadado amor,<lb/>ansia
-                                    morir, y en la enemiga lanza<lb/>no halla piedad tampoco el
-                                    Trobador.</p>
-          <pb n="2" source="Varios_048_2.jpg" facs="fedora_Varios_048_2/full/full/0/default.jpg"/>
-          <p><lb/>La imájen hel de su adorada hermosa<lb/>mira brillar
-                                    ilusion falaz,<lb/>véla despues fugarse presurosa<lb/>sin
-                                    atender al ruego de piedad.<lb/>nunca jamas su desventura
-                                    impía<lb/>podrá calmar con su delicia, amor;<lb/>tan solo ya
-                                    bajo la losa fria<lb/>puede encontrar piedad el Trobador.<lb/>Si
-                                    hay una flor que cojas, ó enemiga,<lb/>para adornar mi fúnebre
-                                    ataud,<lb/>seré feliz el dia que consiga<lb/>dejar alli dormido
-                                    mi laud;<lb/>á ti, mi bien, los últimos quejidos<lb/>de su
-                                    laud dedica el Trobador,<lb/>y el corazon, suspensos sus
-                                    latidos,<lb/>quiere á tus pies agonizar de amor.<lb/>Yo de tu
-                                    voz la armónica dulzura<lb/>sentí feliz mi pecho
-                                    penetrar,<lb/>ha! yo te vi, romantica figura,<lb/>sin tu cendal
-                                    mis lagrimas horrar:<lb/>Y ahora por fin en mi afliccion me
-                                    dejas;<lb/>ha! compasion palia mi dolor!<lb/>ven Anjel, ven, que
-                                    al ecsalar mis quejas<lb/>quiero á tus pies agonizar de
-                                    amor.<lb/>Yo Trobador; yo pobre y sin fortuna,<lb/>esé mirar
-                                    las gracias de tu tez.....<lb/>ay! yo te vi mas bella que la
-                                    luna,<lb/>yo te adoré.... perdona mi altivez:<lb/>sin otro bien
-                                    que su laud inerte<lb/>que es para tí tan mísero
-                                    amador....?<lb/>piedad por Dios.... no quiero
-                                    merecerte<lb/>quiero á tus pies agonizar de amor.<lb/>Te ví
-                                    por fin....acércate Anjel mio,<lb/>á ti; mi bien, y solamente
-                                    á tí,<lb/>dirije mi cántico sombrio<lb/>que dictara mi acerbo
-                                    frenesí....<lb/>Llegaste ya.... ¡Señora tanta
-                                    suerte!<lb/>y.... mi rival .. no llegues ¡O furor!<lb/>su acero
-                                    atroz her ¡do me ha de muerte<lb/>tengo á tus pies á agonizar
-                                    de amor.</p>
-          <pb n="3" source="Varios_048_3.jpg" facs="fedora_Varios_048_3/full/full/0/default.jpg"/>
-        </div>
         <div>
-          <head type="titulo_parte"><lb/>SEGUNDA PARTE.</head>
-          <p><lb/>Cese el llorar, amante de amargura,<lb/>cese el jemir
-                                    querido trobador:<lb/>tu amante fiel se rinde á tu
-                                    ternura,<lb/>y lauros mil coronarán tu amor:<lb/>compensarán
-                                    los goces y las glorias<lb/>todo el rigor de mi anterior
-                                    desden,<lb/>y envidiaran los siglos y las historias<lb/>al
-                                    Trobador y a su querido bien.<lb/>Tu dulce voz, tu citara
-                                    sonora<lb/>ensalzaran la pompa del festin,<lb/>te brindara la
-                                    dama encantadora,<lb/>y brindaran todos el paladin;<lb/>ay!
-                                    Trobador, ven á mis tiernos brazos,<lb/>tu amante fiel te los
-                                    ofrece, ven;<lb/>y estrecharan indisolubles lazos<lb/>al
-                                    Trobador y á su querido bien.<lb/>Si el ronco son de belicos
-                                    clarines,<lb/>si el tambor llama tu pecho audaz,<lb/>lleva mi
-                                    amor del orbe á los confines,<lb/>y entre el luchar halle tu
-                                    alma paz:<lb/>con tu valor aterra al enemigo,<lb/>la patria en
-                                    ti contemtple su sosten;<lb/>y así despurs descansarás
-                                    comigo<lb/>tú Trobador! yo tu querido bien!</p>
-          <pb n="4" source="Varios_048_4.jpg" facs="fedora_Varios_048_4/full/full/0/default.jpg"/>
-          <p><lb/>Tu imájen fiel me ocupará do quiera<lb/>seré feliz al
-                                    meditar en ti,<lb/>ay! ojalá esperanza lisonjera,<lb/>no sea
-                                    falaz un dia para mí:<lb/>si de mi amor burlases la
-                                    esperanza,<lb/>ay! yo muriera en tan fatal vaiven:<lb/>antes
-                                    cruel has de clavar tu lanza<lb/>ó Trobador! en tu querido
-                                    bien.<lb/>Al asomar el sol en el oriente<lb/>oigo sonar tu voz y
-                                    tu laud,<lb/>y al declinar sus rayos á occidente.<lb/>vision
-                                    igual ocupa mi inquietud.<lb/>Léjos estés. ó junto á tu
-                                    querida,<lb/>ay! sin cesar mis ojos ya te ven,<lb/>¿qué podrá
-                                    haber desde hoy que ya divida<lb/>al Trobador y á su querido
-                                    bien?<lb/>Si te queda aun recelo tenebroso<lb/>que perturbar
-                                    pudiese el corazon,<lb/>oye el jurar de un pecho
-                                    candoroso,<lb/>que al mismo sol compite en duracion<lb/>antes
-                                    que ser á tu pasion perjura,<lb/>cólera atroz castigue mi
-                                    desden,<lb/>y aun conseguir no pueda sepultura.<lb/>o Trobador,
-                                    si yo no soy ta bien.<lb/>Déjame pues y al campo, á la
-                                    palestra<lb/>corra tu ardor, dirijate á la lid,<lb/>veas caer al
-                                    golpe de tu diestra<lb/>al mas feroz é intrépido
-                                    adalid:<lb/>Vuelve despues, de lauros coronada<lb/>gloriosamente
-                                    tu radiante sien;<lb/>mas tu blason sea tu enamorada,<lb/>o
-                                    Trobador, y tu querido bien.<lb/>No de un rival te aflija la
-                                    memoria,<lb/>en mi lealtad bien puedes descansar,<lb/>dechado
-                                    sé tú de valor y gloria,<lb/>yo de querer, yo de constante
-                                    amar.<lb/>Junto al jardin cual créeme pura<lb/>no mires tu las
-                                    hijas de Salen,<lb/>recuerda, sí, la cándida ternura<lb/>o
-                                    trobador, de tu querido bien.</p>
+          <pb n="1" source="Varios_048_1.jpg" facs="varios/Varios_048_1.jpg/"/>
+
+          <head type="primer_titulo" rend="negrita"><lb/>EL TROBADOR.</head>
+
+          <div n="1" type="parte">
+            <head type="titulo_parte"><lb/>PRIMERA PARTE.</head>
+
+            <l rend="indent">Un tiempo fué que en cítara sonora,</l>
+            <l>gloria y amor el Trobadór cantó;</l>
+            <l>brilló en la lid su espada vencedora,</l>
+            <l>y lauros mit á la beldad rindió.</l>
+            <l rend="indent">Hora infeliz, en llanto y desventura</l>
+            <l>trocó su bien un malhadado amor....</l>
+            <l>tú que cruel causaste su amargura</l>
+            <l>ten ay! piedad del triste Trobador.</l>
+            <l rend="indent">No se oye ya la voz de su dulzura</l>
+            <l>alzar de amor el hi nno en el festin,</l>
+            <l>ni el canto audaz que iospira la bravura,</l>
+            <l>hace latir el pecho al paladin:</l>
+            <l rend="indent">Proscripto ya y en estranjero suelo</l>
+            <l>llora infeliz su malhadado amor....</l>
+            <l>tú que cruel causaste su deselo,</l>
+            <l>ten ay! piedad del triste Trobador.</l>
+            <l rend="indent">El ronco son de belicosa frompa</l>
+            <l>llamó tal vez á la sangrienta lid,</l>
+            <l>y entre el rumor de la guerrera pompa</l>
+            <l>pronto marchó y alegre, el ada id:</l>
+            <l>lanzase andaz y vana es su esperanza</l>
+            <l>no encuentra fin su malhadado amor,</l>
+            <l>ansia morir, y en la enemiga lanza</l>
+            <l>no halla piedad tampoco el Trobador.</l>
+
+            <pb n="2" source="Varios_048_2.jpg" facs="varios/Varios_048_2.jpg/"/>
+
+            <lg>
+              <l rend="indent">La imájen hel de su adorada hermosa</l>
+              <l>mira brillar ilusion falaz,</l>
+              <l>véla despues fugarse presurosa</l>
+              <l>sin atender al ruego de piedad.</l>
+              <l>nunca jamas su desventura impía</l>
+              <l>podrá calmar con su delicia, amor;</l>
+              <l>tan solo ya bajo la losa fria</l>
+              <l>puede encontrar piedad el Trobador.</l>
+            </lg>
+
+            <lg>
+              <l rend="indent">Si hay una flor que cojas, ó enemiga,</l>
+              <l>para adornar mi fúnebre ataud,</l>
+              <l>seré feliz el dia que consiga</l>
+              <l>dejar alli dormido mi laud;</l>
+              <l>á ti, mi bien, los últimos quejidos</l>
+              <l>de su laud dedica el Trobador,</l>
+              <l>y el corazon, suspensos sus latidos,</l>
+              <l>quiere á tus pies agonizar de amor.</l>
+            </lg>
+
+            <lg>
+              <l rend="indent">Yo de tu voz la armónica dulzura</l>
+              <l>sentí feliz mi pecho penetrar,</l>
+              <l>ha! yo te vi, romantica figura,</l>
+              <l>sin tu cendal mis lagrimas horrar:</l>
+              <l>Y ahora por fin en mi afliccion me dejas;</l>
+              <l>ha! compasion palia mi dolor!</l>
+              <l>ven Anjel, ven, que al ecsalar mis quejas</l>
+              <l>quiero á tus pies agonizar de amor.</l>
+            </lg>
+
+            <lg>
+              <l>Yo Trobador; yo pobre y sin fortuna,</l>
+              <l>esé mirar las gracias de tu tez.....</l>
+              <l>ay! yo te vi mas bella que la luna,</l>
+              <l>yo te adoré.... perdona mi altivez:</l>
+              <l>sin otro bien que su laud inerte</l>
+              <l>que es para tí tan mísero amador....?</l>
+              <l>piedad por Dios.... no quiero merecerte</l>
+              <l>quiero á tus pies agonizar de amor.</l>
+            </lg>
+
+            <lg>
+              <l rend="indent">Te ví por fin....acércate Anjel mio,</l>
+              <l>á ti; mi bien, y solamente á tí,</l>
+              <l>dirije mi cántico sombrio</l>
+              <l>que dictara mi acerbo frenesí....</l>
+              <l>Llegaste ya.... ¡Señora tanta suerte!</l>
+              <l>y.... mi rival .. no llegues ¡O furor!</l>
+              <l>su acero atroz her ¡do me ha de muerte</l>
+              <l>tengo á tus pies á agonizar de amor.</l>
+            </lg>
+          </div>
+
+          <div n="2" type="parte">
+            <pb n="3" source="Varios_048_3.jpg" facs="varios/Varios_048_3.jpg/"/>
+
+            <head type="titulo_parte"><lb/>SEGUNDA PARTE.</head>
+
+            <lg>
+              <l rend="indent">Cese el llorar, amante de amargura,</l>
+              <l>cese el jemir querido trobador:</l>
+              <l>tu amante fiel se rinde á tu ternura,</l>
+              <l>y lauros mil coronarán tu amor:</l>
+              <l>compensarán los goces y las glorias</l>
+              <l>todo el rigor de mi anterior desden,</l>
+              <l>y envidiaran los siglos y las historias</l>
+              <l>al Trobador y a su querido bien.</l>
+            </lg>
+
+            <lg>
+              <l rend="indent">Tu dulce voz, tu citara sonora</l>
+              <l>ensalzaran la pompa del festin,</l>
+              <l>te brindara la dama encantadora,</l>
+              <l>y brindaran todos el paladin;</l>
+              <l>ay! Trobador, ven á mis tiernos brazos,</l>
+              <l>tu amante fiel te los ofrece, ven;</l>
+              <l>y estrecharan indisolubles lazos</l>
+              <l>al Trobador y á su querido bien.</l>
+            </lg>
+
+            <lg>
+              <l rend="indent">Si el ronco son de belicos clarines,</l>
+              <l>si el tambor llama tu pecho audaz,</l>
+              <l>lleva mi amor del orbe á los confines,</l>
+              <l>y entre el luchar halle tu alma paz:</l>
+              <l>con tu valor aterra al enemigo,</l>
+              <l>la patria en ti contemtple su sosten;</l>
+              <l>y así despurs descansarás comigo</l>
+              <l>tú Trobador! yo tu querido bien!</l>
+            </lg>
+
+            <pb n="4" source="Varios_048_4.jpg" facs="varios/Varios_048_4.jpg/"/>
+
+            <lg>
+              <l rend="indent">Tu imájen fiel me ocupará do quiera</l>
+              <l>seré feliz al meditar en ti,</l>
+              <l>ay! ojalá esperanza lisonjera,</l>
+              <l>no sea falaz un dia para mí:</l>
+              <l>si de mi amor burlases la esperanza,</l>
+              <l>ay! yo muriera en tan fatal vaiven:</l>
+              <l>antes cruel has de clavar tu lanza</l>
+              <l>ó Trobador! en tu querido bien.</l>
+            </lg>
+
+            <lg>
+              <l rend="indent">Al asomar el sol en el oriente</l>
+              <l>oigo sonar tu voz y tu laud,</l>
+              <l>y al declinar sus rayos á occidente.</l>
+              <l>vision igual ocupa mi inquietud.</l>
+              <l>Léjos estés. ó junto á tu querida,</l>
+              <l>ay! sin cesar mis ojos ya te ven,</l>
+              <l>¿qué podrá haber desde hoy que ya divida</l>
+              <l>al Trobador y á su querido bien?</l>
+            </lg>
+
+            <lg>
+              <l rend="indent">Si te queda aun recelo tenebroso</l>
+              <l>que perturbar pudiese el corazon,</l>
+              <l>oye el jurar de un pecho candoroso,</l>
+              <l>que al mismo sol compite en duracion</l>
+              <l>antes que ser á tu pasion perjura,</l>
+              <l>cólera atroz castigue mi desden,</l>
+              <l>y aun conseguir no pueda sepultura.</l>
+              <l>o Trobador, si yo no soy ta bien.</l>
+            </lg>
+
+            <lg>
+              <l rend="indent">Déjame pues y al campo, á la palestra</l>
+              <l>corra tu ardor, dirijate á la lid,</l>
+              <l>veas caer al golpe de tu diestra</l>
+              <l>al mas feroz é intrépido adalid:</l>
+              <l>Vuelve despues, de lauros coronada</l>
+              <l>gloriosamente tu radiante sien;</l>
+              <l>mas tu blason sea tu enamorada,</l>
+              <l>o Trobador, y tu querido bien.</l>
+            </lg>
+
+            <lg>
+              <l rend="indent">No de un rival te aflija la memoria,</l>
+              <l>en mi lealtad bien puedes descansar,</l>
+              <l>dechado sé tú de valor y gloria,</l>
+              <l>yo de querer, yo de constante amar.</l>
+              <l>Junto al jardin cual créeme pura</l>
+              <l>no mires tu las hijas de Salen,</l>
+              <l>recuerda, sí, la cándida ternura</l>
+              <l>o trobador, de tu querido bien.</l>
+            </lg>
+          </div>
         </div>
+
         <div type="colofon">
-          <p><lb/>Pumplona : Imprenta de Longas y Ripa.</p>
+          <p rend="cursiva"><lb/>Pamplona : Imprenta de Longas y Ripa.</p>
         </div>
       </div>
     </body>

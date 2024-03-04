@@ -1,15 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../Schema/oddPliego_varios.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:alto="http://www.loc.gov/standards/alto/ns-v4#" xml:id="Varios_026">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Varios_026">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>EL CANTOR DE LAS HERMOSAS. TROVAS DE AMOR DEDICADAS AL BELLO SEXO POR UNOS
-               AFICIONADOS.</title>
+        <title>EL CANTOR DE LAS HERMOSAS.</title>
         <respStmt>
           <name/>
           <resp>Codificación TEI</resp>
-          <note type="propiedad">L.ª Soler.</note>
         </respStmt>
       </titleStmt>
       <publicationStmt>
@@ -21,17 +19,17 @@
       <sourceDesc>
         <biblFull>
           <titleStmt>
-            <title type="titulo_completo">EL CANTOR DE LAS HERMOSAS. TROVAS DE AMOR DEDICADAS
-                     AL BELLO SEXO POR UNOS AFICIONADOS.</title>
+            <title type="titulo_completo">EL CANTOR DE LAS HERMOSAS. TROVAS DE AMOR DEDICADAS AL
+              BELLO SEXO POR UNOS AFICIONADOS.</title>
             <title type="titulo_breve">EL CANTOR DE LAS HERMOSAS.</title>
           </titleStmt>
           <editionStmt>
             <p/>
           </editionStmt>
           <publicationStmt>
-            <publisher>Imp. de Narciso Ramirez y Comp.ª</publisher>
-            <pubPlace ref="https://www.geonames.org/3128760/barcelona.html">Barcelona, pasaje de Escudillers, núm. 4.</pubPlace>
-            <date cert="high">1876</date>
+            <publisher>Narciso Ramírez</publisher>
+            <pubPlace ref="https://www.geonames.org/3128760/barcelona.html">Barcelona</pubPlace>
+            <date cert="high" when="1876-01-01">1876</date>
           </publicationStmt>
         </biblFull>
         <msDesc>
@@ -39,18 +37,33 @@
             <country>Suisse</country>
             <settlement>Genève</settlement>
             <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"/>
-                  </repository>
+            </repository>
+            <collection>Colección Varios</collection>
             <idno type="cote"/>
             <idno type="DOI">10.5281/zenodo.6546870</idno>
             <altIdentifier>
-              <idno type="num_impresor">Núm. 43.</idno>
+              <idno type="num_impresor">Núm. 43</idno>
             </altIdentifier>
           </msIdentifier>
           <msContents>
-            <summary/>
+            <summary>Tres canciones</summary>
             <msItem>
-              <locus/>
-              <title/>
+              <locus>1-2</locus>
+              <title>A mi amigo.... Cancion.</title>
+              <author role="letrista">L.a Soler</author>
+              <author role="compositor">F. de A. Altamira</author>
+            </msItem>
+            <msItem>
+              <locus>2-3</locus>
+              <title>La danza y el amor. Contradanza coreada.</title>
+              <author role="letrista">P. del C.</author>
+              <author role="compositor">F. de A. Altamira</author>
+            </msItem>
+            <msItem>
+              <locus>3-4</locus>
+              <title>El miriñaque. Walz coreado.</title>
+              <author role="letrista">P. del C.</author>
+              <author role="compositor">F. de A. Altamira</author>
             </msItem>
           </msContents>
           <physDesc>
@@ -68,7 +81,7 @@
               </layoutDesc>
             </objectDesc>
             <decoDesc>
-              <summary n="1">Uno grabado (p.1) </summary>
+              <summary n="1">Un grabado (p.1)</summary>
               <decoNote type="lista_grabados">
                 <list>
                   <item corresp="grabado_v_026_1.xml">grabado_v_026_1</item>
@@ -84,8 +97,8 @@
               <p>Imp. de Narciso Ramirez y Comp.ª, pasaje de Escudillers, núm. 4</p>
             </origin>
             <provenance>
-              <p>Se halla de venta en casa los sucesores de Antonio Bosch, calle del Bou de
-                        la Plaza Nueva, núm. 13</p>
+              <p>Se halla de venta en casa los sucesores de Antonio Bosch, calle del Bou de la Plaza
+                Nueva, núm. 13</p>
             </provenance>
             <acquisition>
               <stamp>Se halla de venta A. Borras cuesta del teatro Palma</stamp>
@@ -97,13 +110,13 @@
     <encodingDesc>
       <projectDesc>
         <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
-               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
-               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
-               Sandoz-Monique de Meuron.</p>
+          cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la Universidad
+          de Ginebra, con el apoyo de la Fundación filantrópica Famille Sandoz-Monique de
+          Meuron.</p>
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR non corregido</p>
+          <p>OCR no corregido</p>
         </correction>
         <normalization>
           <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
@@ -128,10 +141,11 @@
     </profileDesc>
     <revisionDesc>
       <change when="2022-05-07" who="#PJ">Création du fichier TEI P5 et encodage du corps du
-            texte</change>
+        texte</change>
+<change when="2024-01-09" who="#EL">Add the IIIF links</change>
     </revisionDesc>
   </teiHeader>
-  <sourceDoc xml:id="automaticTranscription">
+  <facsimile><graphic url="varios/Varios_026_1.jpg/full/200,/0/default.jpg"/></facsimile><sourceDoc xml:id="automaticTranscription">
     <surface xml:id="Varios_026_1" type="page" cert="silver">
       <graphic url="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_026_1/full/full/0/default.jpg"/>
       <zone xml:id="Varios_026_1_BT221_1" n="1" type="CustomZone" subtype="impresorNum" points="1335,174 1335,302 1555,302 1555,174 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_026_1/1335,174,220,128/full/0/default" corresp="CustomZone:impresorNum">
@@ -731,13 +745,13 @@
       <zone xml:id="Varios_026_4_BT228_6" n="6" type="MarginTextZone" subtype="colophon" points="205,2403 205,2553 1755,2553 1755,2403 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_026_4/205,2403,1550,150/full/0/default" corresp="MarginTextZone:colophon">
         <zone xml:id="Varios_026_4_BT228_6_LT83_1" type="DefaultLine" subtype="none" points="311,2466 307,2390 502,2401 1052,2377 1055,2377 1252,2385 1296,2385 1305,2372 1307,2372 1307,2370 1307,2370 1307,2370 1309,2370 1309,2370 1311,2370 1311,2370 1311,2370 1313,2370 1337,2370 1533,2381 1662,2366 1669,2440 1666,2449 311,2477 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_026_4/307,2366,1362,111/full/0/default" corresp="DefaultLine">
           <path xml:id="Varios_026_4_BT228_6_LT83_1_1" points="312,2469 1080,2452 1671,2442 "/>
-          <line>Se halla de venta en casa los sucesores de Antonio Bosch, calle del Bou de la
-                  Plaza Nueva, núm. 13.</line>
+          <line>Se halla de venta en casa los sucesores de Antonio Bosch, calle del Bou de la Plaza
+            Nueva, núm. 13.</line>
         </zone>
         <zone xml:id="Varios_026_4_BT228_6_LT83_2" type="DefaultLine" subtype="none" points="337,2521 333,2458 1645,2442 1651,2506 1651,2521 1471,2521 1465,2523 1449,2534 1447,2534 1447,2534 1447,2534 1445,2534 1445,2534 1445,2534 1443,2534 1340,2528 1280,2523 1269,2528 1243,2541 1243,2541 1243,2541 1241,2541 1241,2541 1241,2543 1201,2543 1199,2541 1199,2541 1197,2541 1197,2541 1197,2541 1195,2541 1195,2541 1195,2539 1186,2530 1180,2526 1142,2532 1068,2543 1068,2543 1065,2543 960,2539 960,2539 960,2539 958,2539 958,2539 958,2539 956,2539 956,2539 956,2536 954,2536 945,2528 912,2536 894,2541 892,2541 892,2541 662,2547 660,2547 660,2547 629,2543 596,2539 535,2545 493,2550 493,2550 491,2550 491,2550 489,2550 489,2550 480,2547 460,2539 399,2547 386,2550 386,2550 383,2550 383,2550 383,2550 381,2550 381,2550 379,2550 379,2550 361,2539 339,2550 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_026_4/333,2442,1318,108/full/0/default" corresp="DefaultLine">
           <path xml:id="Varios_026_4_BT228_6_LT83_2_1" points="339,2523 1652,2507 "/>
           <line>Barcelona.—Imp. de Narciso Ramirez y Comp.ª, pasaje de Escudillers, núm. 4.
-                  —1876.</line>
+            —1876.</line>
         </zone>
       </zone>
     </surface>
@@ -746,176 +760,267 @@
     <body>
       <div>
         <div>
-          <pb n="1" source="Varios_026_1.jpg" facs="fedora_Varios_026_1/full/full/0/default.jpg"/>
+          <pb n="1" source="Varios_026_1.jpg" facs="varios/Varios_026_1.jpg/"/>
+
           <fw type="impresorNum">Núm. 43</fw>
-          <head type="primer_titulo"><lb/>EL<lb/>CANTOR DE LAS HERMOSAS.<lb/>TROVAS DE AMOR DEDICADAS AL BELLO SEXO POR
-                  UNOS<lb/>AFICIONADOS.</head>
-          <div>
-            <head type="titulo_cancion"><lb/>141 <hi rend="negrita">A MI AMIGO...</hi><lb/>CANCION.</head>
+
+          <head type="primer_titulo" rend="negrita"><lb/>EL<lb/>CANTOR DE LAS HERMOSAS.</head>
+          <head type="subtitulo"><lb/>TROVAS DE AMOR DEDICADAS AL BELLO SEXO POR
+            UNOS<lb/>AFICIONADOS.</head>
+
+          <div n="1">
+            <head type="titulo_cancion"><lb/>141 <hi rend="negrita">A MI AMIGO.....</hi></head>
+            <head type="subtitulo_cancion"><lb/>CANCION.</head>
+
             <lg>
-              <l>¡A qué llorar si mi llanto.</l>
+              <l rend="indent">¡A qué llorar si mi llanto.</l>
               <l>No lo enjuga sino el viento?</l>
-            </lg>
-            <lg>
               <l>¿A qué llorar si mi acento</l>
               <l>Se pierde en la confusion?</l>
             </lg>
-            <pb n="2" source="Varios_026_2.jpg" facs="fedora_Varios_026_2/full/full/0/default.jpg"/>
-            <p><lb/>168</p>
+
+            <pb n="2" source="Varios_026_2.jpg" facs="varios/Varios_026_2.jpg/"/>
+
+            <fw type="paginaNum">168</fw>
+
             <lg>
-              <l>Y es mi dolor tan acerbo,</l>
+              <l rend="indent">Y es mi dolor tan acerbo,</l>
               <l>Y es tan grande mi tristura,</l>
               <l>Que no arranca la amargura</l>
               <l>Ni un quejido al corazon.</l>
-              <l>Yo bien quisiera mi amigo,</l>
+            </lg>
+
+            <lg>
+              <l rend="indent">Yo bien quisiera mi amigo,</l>
               <l>En tu seno verter llanto,</l>
               <l>Fuera menos mi quebranto,</l>
               <l>Fuera mi pena menor.</l>
-              <l>Mas ¿cómo llorar podria?</l>
-              <l>Seca del Manto la fuente</l>
             </lg>
+
             <lg>
+              <l rend="indent">Mas ¿cómo llorar podria?</l>
+              <l>Seca del Manto la fuente</l>
               <l>Mi corazon ya no siente</l>
               <l>Ni el encono, ni el amor.</l>
-              <l>Si aborrecer yo pudiera</l>
+            </lg>
+
+            <lg>
+              <l rend="indent">Si aborrecer yo pudiera</l>
               <l>En el ódio me gozara,</l>
               <l>Que el odiar me recordara</l>
               <l>Que aun existe el corazon.</l>
-              <l>Odio y amor en un tiempo</l>
+            </lg>
+
+            <lg>
+              <l rend="indent">Odio y amor en un tiempo</l>
               <l>En mi pecho se han secado,</l>
               <l>Tan sin fuerzas le ha dejado</l>
               <l>La maldita decepcion.</l>
             </lg>
-            <p><lb/>L.ª Soler.</p>
-            <p><lb/>MÚSICA DE F. DE A. ALTIMIRA.</p>
+
+            <p rend="cursiva"><lb/>L.ª Soler.</p>
+            <p rend="negrita"><lb/>MÚSICA DE F. DE A. ALTIMIRA.</p>
           </div>
-          <div>
-            <head type="titulo_cancion"><lb/>142 LA DANZA Y EL AMOR.<lb/>CONTRADANZA COREADA.</head>
-            <lg>
-              <l>1.ª</l>
-              <l>Bellas niñas, que á las flores</l>
-              <l>Superais en hermosura,</l>
-              <l>Desechad toda amargura,</l>
-              <l>Dad espacio al buen humor.</l>
-              <l>Oetentando los primores</l>
-              <l>Con que el cielo os ha dotado,</l>
-              <l>Acudid donde os ha dado</l>
-              <l>Grata cita el Dios de amor.</l>
+
+          <div n="2">
+            <head type="titulo_cancion">142 LA DANZA Y EL AMOR.</head>
+            <head type="subtitulo_cancion">CONTRADANZA COREADA.</head>
+
+            <lg n="1">
+              <head type="titulo_estrofa">1.ª</head>
+              <lg>
+                <l rend="indent">Bellas niñas, que á las flores</l>
+                <l>Superais en hermosura,</l>
+                <l>Desechad toda amargura,</l>
+                <l>Dad espacio al buen humor.</l>
+              </lg>
+
+              <lg>
+                <l>Ortentando los primores</l>
+                <l>Con que el cielo os ha dotado,</l>
+                <l>Acudid donde os ha dado</l>
+                <l>Grata cita el Dios de amor.</l>
+              </lg>
             </lg>
-            <lg>
-              <l>2.</l>
-              <l>El galante caballero</l>
-              <l>Sus obsequios os ofrece</l>
-              <l>Y es dichoso el que merece</l>
-              <l>—Conquistar vuestro favor.</l>
-              <l>Ceda ya el desden severo,</l>
-              <l>No hagais vana su esperanza</l>
-              <l>Y animad la alegre danza</l>
-              <l>Con que os brinda el Dios de amor.</l>
+
+            <lg n="2">
+              <head type="titulo_estrofa">2.</head>
+              <lg>
+                <l rend="indent">El galante caballero</l>
+                <l>Sus obsequios os ofrece</l>
+                <l>Y es dichoso el que merece</l>
+                <l>—Conquistar vuestro favor.</l>
+              </lg>
+
+              <lg>
+                <l rend="indent">Ceda ya el desden severo,</l>
+                <l>No hagais vana su esperanza</l>
+                <l>Y animad la alegre danza</l>
+                <l>Con que os brinda el Dios de amor.</l>
+              </lg>
             </lg>
-            <pb n="3" source="Varios_026_3.jpg" facs="fedora_Varios_026_3/full/full/0/default.jpg"/>
-            <p><lb/>169</p>
-            <lg>
-              <l>3.ª</l>
-              <l>La lozana primavera</l>
-              <l>De la vida es harto breve,</l>
-              <l>Se disipa cual la nieve</l>
-              <l>Bajo un sol abrasador.</l>
-              <l>Por lo mismo necio fuera</l>
-              <l>Quien la dicha renunciara,</l>
-              <l>¿Que aunque corta, nos prepara</l>
-              <l>Hoy la danza y el amor.</l>
+
+            <pb n="3" source="Varios_026_3.jpg" facs="varios/Varios_026_3.jpg/"/>
+
+            <fw type="paginaNum"><lb/>169</fw>
+
+            <lg n="3">
+              <head type="titulo_estrofa">3.ª</head>
+              <lg>
+                <l rend="indent">La lozana primavera</l>
+                <l>De la vida es harto breve,</l>
+                <l>Se disipa cual la nieve</l>
+                <l>Bajo un sol abrasador.</l>
+              </lg>
+
+              <lg>
+                <l rend="indent">Por lo mismo necio fuera</l>
+                <l>Quien la dicha renunciara,</l>
+                <l>¿Que aunque corta, nos prepara</l>
+                <l>Hoy la danza y el amor.</l>
+              </lg>
             </lg>
-            <p><lb/>P. del. C. </p>
-            <p><lb/>MÚSICA DE F. DE A. ALTIMIRA.</p>
+
+            <p rend="cursiva"><lb/>P. del. C. </p>
+            <p rend="negrita"><lb/>MÚSICA DE F. DE A. ALTIMIRA.</p>
           </div>
-          <div>
-            <head type="titulo_cancion"><lb/>143 <hi rend="negrita">EL MIRIÑAQUE</hi>.<lb/>WALS COREADO.</head>
-            <p><lb/>I.</p>
-            <lg>
-              <l>Si venis, niñas, al baile,</l>
-              <l>salís á pasear</l>
-              <l>El pomposó miriñaque</l>
-              <l>No debeis nunca olvidar.</l>
-              <l>Ya vistais soberbia seda</l>
-              <l>O humildisimo percal,</l>
-              <l>Con sus aros espaciosos</l>
-              <l>Mas los talles lucirán.</l>
-              <l>¿Qué parece aquella intrusa.</l>
-              <l>Que cin Miciñaque va ?</l>
+
+          <div n="3">
+            <head type="titulo_cancion">143 <hi rend="negrita">EL MIRIÑAQUE</hi>.</head>
+            <head type="subtitulo_cancion">WALS COREADO.</head>
+
+            <lg n="1">
+              <head type="titulo_estrofa">I.</head>
+              <lg>
+                <l rend="indent">Si venis, niñas, al baile,</l>
+                <l>salís á pasear</l>
+                <l>El pomposó miriñaque</l>
+                <l>No debeis nunca olvidar.</l>
+              </lg>
+
+              <lg>
+                <l rend="indent">Ya vistais soberbia seda</l>
+                <l>O humildisimo percal,</l>
+                <l>Con sus aros espaciosos</l>
+                <l>Mas los talles lucirán.</l>
+              </lg>
+
+              <lg>
+                <l rend="indent">¿Qué parece aquella intrusa.</l>
+                <l>Que sin Miriñaque va ?</l>
+                <l>Una lánguida fantasma,</l>
+                <l>Un espectro sepulcral.</l>
+              </lg>
+
+              <lg>
+                <l rend="indent">No escucheis de los censores,</l>
+                <l>El molesto murmurar,</l>
+                <l>Que conspiran envidiosos</l>
+                <l>Contra vuestra dignidad.</l>
+              </lg>
+
+              <lg>
+                <l rend="indent">Y aunque vierta importuna la sátira</l>
+                <l>Su ponzoña traidora y sutil,</l>
+                <l>Despreciad, bellas niñas, su crítica</l>
+                <l>Y el progreso en las modas seguid.</l>
+              </lg>
             </lg>
-            <lg>
-              <l>Una lánguida fantasma,</l>
-              <l>Un espectro sepulcral.</l>
-              <l>No escucheis de los censores,</l>
-              <l>El molesto murmurar,</l>
-              <l>Que conspiran envidiosos</l>
-              <l>Contra vuestra dignidad.</l>
-              <l>Y aunque vierta importuna la sátira</l>
-              <l>Su ponzoña traidora y sutil,</l>
-              <l>Despreciad, bellas niñas, su crítica</l>
-              <l>Y el progreso en las modas seguid.</l>
+
+            <pb n="4" source="Varios_026_4.jpg" facs="varios/Varios_026_4.jpg/"/>
+
+            <fw type="paginaNum">170</fw>
+
+            <lg n="2">
+              <head type="titulo_estrofa">II.</head>
+              <lg>
+                <l rend="indent">Es un simbolo esa moda</l>
+                <l>Que demuestra á no dudar</l>
+                <l>El lugar que el bello sexo</l>
+                <l>Se ha sabido conquistar.</l>
+              </lg>
+
+              <lg>
+                <l rend="indent">Si pretende mano impura</l>
+                <l>La virtud atropellar,</l>
+                <l>Es un muro el Miriñaque</l>
+                <l>Contra el pollo mas audaz.</l>
+              </lg>
+
+              <lg>
+                <l rend="indent">Para hacerse mas visible</l>
+                <l>Lidia el bravo militar</l>
+                <l>Y en la cieneia busca el sabio</l>
+                <l>Nombre, gloria y bienestar.</l>
+              </lg>
+
+              <lg>
+                <l rend="indent">Ni la espada ni los libros</l>
+                <l>Os permiten manejar,</l>
+                <l>Es muy justo que os dejemos</l>
+                <l>Vuestras armas emplear.</l>
+              </lg>
+
+              <lg>
+                <l rend="indent">Y conozcan los necios filósofos</l>
+                <l>Que si hablar no sabeis én latin,</l>
+                <l>Vuestras gracias y adornos angélicos,</l>
+                <l>No logró Salomon resistir.</l>
+              </lg>
             </lg>
-            <pb n="4" source="Varios_026_4.jpg" facs="fedora_Varios_026_4/full/full/0/default.jpg"/>
-            <p><lb/>170</p>
-            <lg>
-              <l>II.</l>
-              <l>Es un simbolo esa moda</l>
-              <l>Que demuestra á no dudar</l>
-              <l>El lugar que el bello sexo</l>
-              <l>Se ha sabido conquistar.</l>
-              <l>Si pretende mano impura</l>
-              <l>La virtud atropellar,</l>
-              <l>Es un muro el Miriñaque</l>
-              <l>Contra el pollo mas audaz.</l>
-              <l>Para hacerse mas visible</l>
-              <l>Lidia el bravo militar</l>
-              <l>Y en la cieneia busca el sabio</l>
-              <l>Nombre, gloria y bienestar.</l>
-              <l>Ni la espada ni los libros</l>
-              <l>Os permiten manejar,</l>
-              <l>Es muy justo que os dejemos</l>
-              <l>Vuestras armas emplear.</l>
-              <l>Y conozcan los necios filósofos</l>
-              <l>Que si hablar no sabeis én latin,</l>
-              <l>Vuestras gracias y adornos angélicos,</l>
-              <l>No logró Salomon resistir.</l>
+
+            <lg n="3">
+              <head type="titulo_estrofa">III.</head>
+              <lg>
+                <l rend="indent">De la moda caprichosa</l>
+                <l>Los recursos emplead</l>
+                <l>Y que el hombre os rinda culto</l>
+                <l>Como su única deidad.</l>
+              </lg>
+
+              <lg>
+                <l rend="indent">En dos leyes vuestro triunto,</l>
+                <l>Bellas niñas, apoyad</l>
+                <l>Reuniendo en los adornos</l>
+                <l>Atracción y gravedad.</l>
+              </lg>
+
+              <lg>
+                <l rend="indent">Por los anchos Miriñaques</l>
+                <l>Que llevais con gracia tal</l>
+                <l>El ensanche se ha logrado</l>
+                <l>De la gran Ciudad Condal.</l>
+              </lg>
+
+              <lg>
+                <l rend="indent">Pues si dicha tal se os debe,</l>
+                <l>Vuestro círculo ensanchad</l>
+                <l>Y haced ver que el Miriñaque</l>
+                <l>Da decoro y majestad.</l>
+              </lg>
+
+              <lg>
+                <l rend="indent">Veuid pues y entonadles un trágala</l>
+                <l>Al compás de la danza feliz,</l>
+                <l>Y aunque pese á sus necios antípodas,</l>
+                <l>Miriñaques eternos vivid!...</l>
+              </lg>
             </lg>
-            <lg>
-              <l>III.</l>
-              <l>De la moda caprichosa</l>
-              <l>Los recursos emplead</l>
-              <l>Y que el hombre os rinda culto</l>
-              <l>Como su única deidad.</l>
-              <l>En dos leyes vuestro triunto,</l>
-              <l>Bellas niñas, apoyad</l>
-              <l>Reuniendo en los adornos</l>
-              <l>Atracción y gravedad.</l>
-              <l>Por los anchos Miriñaques</l>
-              <l>Que llevais con gracia tal</l>
-              <l>El ensanche se ha logrado</l>
-              <l>De la gran Ciudad Condal.</l>
-              <l>Pues si dicha tal se os debe,</l>
-              <l>Vuestro círculo ensanchad</l>
-              <l>Y haced ver que el Miriñaque</l>
-              <l>Da decoro y majestad.</l>
-              <l>Veuid pues y entonadles un trágala</l>
-              <l>Al compás de la danza feliz,</l>
-              <l>Y aunque pese á sus necios antípodas,</l>
-              <l>Miriñaques eternos vivid!...</l>
-            </lg>
-            <p><lb/>P. del C.</p>
-            <p><lb/>MÚSICA De F. A. ALTIMIRA.</p>
-            <p><lb/>(Es propiedad.)</p>
+
+            <p rend="cursiva"><lb/>P. del C.</p>
+            <p rend="negrita"><lb/>MÚSICA De F. A. ALTIMIRA.</p>
+            <p rend="cursiva"><lb/>(Es propiedad.)</p>
           </div>
-          <div type="colofon_vendedor">
-            <p><lb/>Se halla de venta en casa los sucesores de Antonio Bosch, calle del Bou de
-                     la Plaza Nueva, núm. 13.</p>
-          </div>
-          <div type="colofon_impresora">
-            <p><lb/>Barcelona.—Imp. de Narciso Ramirez y Comp.ª, pasaje de Escudillers, núm.
-                     4. —1876.</p>
-          </div>
+        </div>
+        
+        <div type="colofon_vendedor">
+          <p><lb/>Se halla de venta en casa los sucesores de Antonio Bosch, calle del Bou de la
+            Plaza Nueva, núm. 13.</p>
+        </div>
+
+        <div type="colofon_impresor">
+          <p><lb/>Barcelona.—Imp. de Narciso Ramirez y Comp.ª, pasaje de Escudillers, núm. 4.
+            —1876.</p>
         </div>
       </div>
     </body>

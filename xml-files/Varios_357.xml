@@ -31,9 +31,9 @@
             <p/>
           </editionStmt>
           <publicationStmt>
-            <publisher>Despacho: Sucesores de Hernando</publisher>
+            <publisher>Sucesores de Hernando</publisher>
             <pubPlace ref="https://www.geonames.org/3117735/madrid.html">Madrid</pubPlace>
-            <date cert="high">[s.a]</date>
+            <date cert="low" when="1800-01-01">[s.a.]</date>
           </publicationStmt>
         </biblFull>
         <msDesc>
@@ -42,6 +42,7 @@
             <settlement>Genève</settlement>
             <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"/>
                                     </repository>
+            <collection>Colección Varios</collection>
             <idno type="cote"/>
             <idno type="DOI">10.5281/zenodo.6772980</idno>
             <altIdentifier>
@@ -70,7 +71,7 @@
               </layoutDesc>
             </objectDesc>
             <decoDesc>
-              <summary n="1">Uno grabados (p.1) </summary>
+              <summary n="1">Un grabados (p.1) </summary>
               <decoNote type="lista_grabados">
                 <list>
                   <item corresp="grabado_v_357_1.xml">grabado_v_357_1</item>
@@ -102,7 +103,7 @@
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR non corregido</p>
+          <p>OCR no corregido</p>
         </correction>
         <normalization>
           <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto
@@ -129,9 +130,10 @@
     <revisionDesc>
       <change when="2023-12-02" who="#PJ">Création du fichier TEI P5 et encodage du
                         corps du texte</change>
+<change when="2024-01-09" who="#EL">Add the IIIF links</change>
     </revisionDesc>
   </teiHeader>
-  <sourceDoc xml:id="automaticTranscription">
+  <facsimile><graphic url="varios/Varios_357_1.jpg/full/200,/0/default.jpg"/></facsimile><sourceDoc xml:id="automaticTranscription">
     <surface xml:id="Varios_357_1" type="page" cert="silver">
       <graphic url="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_357_1/full/full/0/default.jpg"/>
       <zone xml:id="Varios_357_1_BT223_1" n="1" type="CustomZone" subtype="title" points="1306,317 1300,382 326,382 332,302 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_357_1/326,302,980,80/full/0/default" corresp="CustomZone:title">
@@ -2656,7 +2658,7 @@
     <body>
       <div>
         <div>
-          <pb n="1" source="Varios_357_1.jpg" facs="fedora_Varios_357_1/full/full/0/default.jpg"/>
+          <pb n="1" source="Varios_357_1.jpg" facs="varios/Varios_357_1.jpg/"/>
           <fw type="impresorNum">(Núm. 9)</fw>
           <head type="primer_titulo" rend="negrita"><lb/>DON CLAUDIO Y DONA MARGARITA.</head>
           <head type="subtitulo_parte"><lb/><hi rend="negrita">ADMIRABLE Y CURIOSA RELACION</hi><lb/>en
@@ -2686,7 +2688,7 @@
               <l>por lograr su estrecho amor</l>
               <l>entrar en su mismo cuarto</l>
             </lg>
-            <pb n="2" source="Varios_357_2.jpg" facs="fedora_Varios_357_2/full/full/0/default.jpg"/>
+            <pb n="2" source="Varios_357_2.jpg" facs="varios/Varios_357_2.jpg/"/>
             <fw type="paginaNum">— 2 —</fw>
             <lg>
               <l>por las tapias del jardin,</l>
@@ -2780,7 +2782,7 @@
               <l>el honor á la señora,</l>
               <l>su respeto atropellando.</l>
             </lg>
-            <pb n="3" source="Varios_357_3.jpg" facs="fedora_Varios_357_3/full/full/0/default.jpg"/>
+            <pb n="3" source="Varios_357_3.jpg" facs="varios/Varios_357_3.jpg/"/>
             <fw type="paginaNum">— 3 —</fw>
             <lg>
               <l>Rompió el silencio una voz</l>
@@ -2874,7 +2876,7 @@
               <l>viendo que en su esposo obraban</l>
               <l>los efectos del agravio.</l>
             </lg>
-            <pb n="4" source="Varios_357_4.jpg" facs="fedora_Varios_357_4/full/full/0/default.jpg"/>
+            <pb n="4" source="Varios_357_4.jpg" facs="varios/Varios_357_4.jpg/"/>
             <fw type="paginaNum">— 4 —</fw>
             <lg>
               <l>No halla disculpa, ni halla</l>
@@ -2968,7 +2970,7 @@
               <l>te bautizo, Valentin,</l>
               <l>que es el nombre que le ha dado,</l>
             </lg>
-            <pb n="5" source="Varios_357_5.jpg" facs="fedora_Varios_357_5/full/full/0/default.jpg"/>
+            <pb n="5" source="Varios_357_5.jpg" facs="varios/Varios_357_5.jpg/"/>
             <fw type="paginaNum">— 5 —</fw>
             <lg>
               <l>Llevó á la triste señora</l>
@@ -3059,7 +3061,7 @@
               <l>hallarán mi pobre choza,</l>
               <l>donde penitencia hagan.</l>
             </lg>
-            <pb n="6" source="Varios_357_6.jpg" facs="fedora_Varios_357_6/full/full/0/default.jpg"/>
+            <pb n="6" source="Varios_357_6.jpg" facs="varios/Varios_357_6.jpg/"/>
             <fw type="paginaNum">— 6 —</fw>
             <lg>
               <l>Vino el pastor y dispuso</l>
@@ -3153,7 +3155,7 @@
               <l>Quedó don Claudio confuso</l>
               <l>de ver cosa tan estraña;</l>
             </lg>
-            <pb n="7" source="Varios_357_7.jpg" facs="fedora_Varios_357_7/full/full/0/default.jpg"/>
+            <pb n="7" source="Varios_357_7.jpg" facs="varios/Varios_357_7.jpg/"/>
             <fw type="paginaNum">— 7 —</fw>
             <lg>
               <l>y sin que sea sentido,</l>
@@ -3247,7 +3249,7 @@
               <l>y del gozo y sentimiento</l>
               <l>no aciertan á hablar palabra,</l>
             </lg>
-            <pb n="8" source="Varios_357_8.jpg" facs="fedora_Varios_357_8/full/full/0/default.jpg"/>
+            <pb n="8" source="Varios_357_8.jpg" facs="varios/Varios_357_8.jpg/"/>
             <fw type="paginaNum">— 8 —</fw>
             <lg>
               <l>y prorumpiendo don Claudio,</l>

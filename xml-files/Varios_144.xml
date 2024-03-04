@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../Schema/oddPliego_varios.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:alto="http://www.loc.gov/standards/alto/ns-v4#" xml:id="Varios_144">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Varios_144">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -11,8 +11,7 @@
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <authority role="rightsHolder">Bibliothèque Universitaire de
-                              Genève</authority>
+        <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
         <availability status="restricted">
           <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
         </availability>
@@ -27,9 +26,9 @@
             <p/>
           </editionStmt>
           <publicationStmt>
-            <publisher>D. José Marés</publisher>
+            <publisher>José María Marés</publisher>
             <pubPlace ref="https://www.geonames.org/3117735/madrid.html">Madrid</pubPlace>
-            <date cert="high">1854</date>
+            <date cert="high" when="1854-01-01">1854</date>
           </publicationStmt>
         </biblFull>
         <msDesc>
@@ -37,7 +36,8 @@
             <country>Suisse</country>
             <settlement>Genève</settlement>
             <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"/>
-                                    </repository>
+            </repository>
+            <collection>Colección Varios</collection>
             <idno type="cote"/>
             <idno type="DOI">10.5281/zenodo.6586633</idno>
             <altIdentifier>
@@ -45,10 +45,14 @@
             </altIdentifier>
           </msIdentifier>
           <msContents>
-            <summary/>
+            <summary>Dos partes</summary>
             <msItem>
-              <locus/>
-              <title/>
+              <locus>1-3</locus>
+              <title>La confesion de una niña</title>
+            </msItem>
+            <msItem>
+              <locus>4</locus>
+              <title>Cancion que se canta en el drama titulado La segunda dama duende.</title>
             </msItem>
           </msContents>
           <physDesc>
@@ -66,7 +70,7 @@
               </layoutDesc>
             </objectDesc>
             <decoDesc>
-              <summary n="1">Uno grabado (p.1) </summary>
+              <summary n="1">Un grabado (p.1)</summary>
               <decoNote type="lista_grabados">
                 <list>
                   <item corresp="grabado_v_144_1.xml">grabado_v_144_1</item>
@@ -89,18 +93,17 @@
     </fileDesc>
     <encodingDesc>
       <projectDesc>
-        <p>Este archivo fue creado en el marco del proyecto Desenrollando el
-                              Cordel/Démêler le cordel/Untangling the cordel, dirigido por la
-                              profesora Constance Carta de la Universidad de Ginebra, con el apoyo
-                              de la Fundación filantrópica Famille Sandoz-Monique de Meuron.</p>
+        <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+          cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la Universidad
+          de Ginebra, con el apoyo de la Fundación filantrópica Famille Sandoz-Monique de
+          Meuron.</p>
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR non corregido</p>
+          <p>OCR no corregido</p>
         </correction>
         <normalization>
-          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto
-                                    original.</p>
+          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
         </normalization>
         <punctuation>
           <p>Se conserva la puntuación original.</p>
@@ -113,7 +116,7 @@
       </langUsage>
       <textClass>
         <keywords xml:base="http://datos.bne.es/tema/">
-          <term target="XX4876797.html" type="tipo_texto">Sainetes</term>
+          <term target="XX5379362.html" type="tipo_texto">Diálogos</term>
           <term target="XX525577.html" type="tipo_texto">Canciones</term>
           <term target="XX525577.html" type="tipo_estrofa">Canciones</term>
           <term type="verso_prosa">Verso</term>
@@ -122,10 +125,14 @@
       </textClass>
     </profileDesc>
     <revisionDesc>
-      <change when="2023-03-08" who="#PJ">Création du fichier TEI P5 et encodage du
-                        corps du texte</change>
+      <change when="2023-03-08" who="#PJ">Création du fichier TEI P5 et encodage du corps du
+        texte</change>
+      <change when="2024-01-09" who="#EL">Add the IIIF links</change>
     </revisionDesc>
   </teiHeader>
+  <facsimile>
+    <graphic url="varios/Varios_144_1.jpg/full/200,/0/default.jpg"/>
+  </facsimile>
   <sourceDoc xml:id="automaticTranscription">
     <surface xml:id="Varios_144_1" type="page" cert="silver">
       <graphic url="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_144_1/full/full/0/default.jpg"/>
@@ -1412,8 +1419,7 @@
       <zone xml:id="Varios_144_4_BT221_4" n="4" type="MarginTextZone" subtype="colophon" points="280,2374 1348,2383 1577,2434 386,2469 254,2434 245,2392 280,2374 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_144_4/245.0,2374.0,1332.0,95.0/full/0/default" corresp="MarginTextZone:colophon">
         <zone xml:id="Varios_144_4_BT221_4_LT182_1" type="DefaultLine" subtype="none" points="239,2414 241,2357 280,2368 513,2363 515,2363 515,2363 515,2363 517,2363 517,2363 543,2374 600,2363 600,2363 600,2363 603,2363 603,2363 603,2363 658,2374 671,2363 671,2363 673,2363 673,2363 673,2363 673,2363 675,2363 675,2363 677,2363 677,2363 677,2363 679,2363 679,2363 679,2363 679,2363 682,2363 682,2363 682,2366 693,2374 708,2366 710,2366 710,2366 712,2366 712,2366 712,2366 715,2366 993,2383 1105,2383 1118,2370 1118,2370 1118,2370 1120,2370 1120,2370 1120,2370 1123,2370 1123,2370 1123,2370 1125,2370 1125,2370 1127,2370 1129,2370 1177,2383 1583,2379 1585,2434 1581,2488 1509,2473 1491,2486 1491,2488 1491,2488 1491,2488 1489,2488 1489,2488 1489,2488 1487,2488 1487,2488 1484,2488 1381,2486 1381,2486 1381,2486 1379,2486 1379,2486 1379,2486 1379,2486 1377,2486 1377,2486 1377,2484 1366,2475 1335,2486 1333,2486 1331,2486 1331,2486 1331,2486 1329,2486 1329,2486 1327,2486 1327,2486 1327,2486 1324,2486 1324,2486 1285,2458 1208,2484 1206,2484 1204,2484 1204,2484 1204,2484 1201,2484 1068,2482 1068,2482 1068,2482 1065,2482 1065,2482 1065,2482 1063,2482 1063,2482 1026,2455 881,2462 879,2462 879,2462 877,2462 835,2451 750,2477 747,2477 745,2477 745,2477 745,2477 743,2477 743,2477 741,2477 736,2477 671,2460 642,2475 642,2475 642,2475 642,2475 640,2475 640,2475 640,2477 585,2477 583,2475 583,2475 581,2475 579,2475 484,2447 416,2464 414,2464 414,2464 412,2464 412,2464 412,2464 410,2464 410,2464 407,2464 375,2444 318,2444 278,2471 278,2471 276,2471 276,2471 276,2471 274,2471 274,2471 274,2471 271,2471 234,2469 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_144_4/234.0,2357.0,1351.0,131.0/full/0/default" corresp="DefaultLine">
           <path xml:id="Varios_144_4_BT221_4_LT182_1_1" points="239,2414 1585,2434 "/>
-          <line>Madrid: 1854. Imprenta de D. José Marés, calle de Relatores,
-                                    núm. 17.</line>
+          <line>Madrid: 1854. Imprenta de D. José Marés, calle de Relatores, núm. 17.</line>
         </zone>
       </zone>
     </surface>
@@ -1422,11 +1428,14 @@
     <body>
       <div>
         <div>
-          <pb n="1" source="Varios_144_1.jpg" facs="fedora_Varios_144_1/full/full/0/default.jpg"/>
-          <fw type="impresorNum">(Núm. 195.)</fw>
-          <head type="primer_titulo"><lb/>LA CONFESION DE UNA NIÑA.</head>
-          <lg>
-            <l>Vivia una cierta niña</l>
+          <div n="1">
+            <pb n="1" source="Varios_144_1.jpg" facs="varios/Varios_144_1.jpg/"/>
+
+            <fw type="impresorNum">(Núm. 195.)</fw>
+
+            <head type="primer_titulo"><lb/>LA CONFESION DE UNA NIÑA.</head>
+
+            <l rend="indent">Vivia una cierta niña</l>
             <l>en perpétua reclusion,</l>
             <l>sufriendo el genio intratable</l>
             <l>de su mezquino tutor.</l>
@@ -1451,8 +1460,6 @@
             <l>«pudieron mas en su gusto</l>
             <l>«que solo inspirarla horror ,</l>
             <l>«y de atractivas lisonjas</l>
-          </lg>
-          <lg>
             <l>«nunca el acento escuchó ,</l>
             <l>«ni ellas jamás conmovieran</l>
             <l>«su inocente corazon.</l>
@@ -1478,336 +1485,342 @@
             <l>mal comprimiendo el furor,</l>
             <l>á la tal niña, in fraganti,</l>
             <l>bruscamente interpretó.</l>
-          </lg>
-          <pb n="2" source="Varios_144_2.jpg" facs="fedora_Varios_144_2/full/full/0/default.jpg"/>
-          <lg>
+
+            <pb n="2" source="Varios_144_2.jpg" facs="varios/Varios_144_2.jpg/"/>
+
             <l>Y ella, con verdadera</l>
             <l>ó finjida compuncion,</l>
             <l>tras un momento de pausa,</l>
             <l>su culpa asi confesó :</l>
-          </lg>
-          <sp>
-            <speaker>Niña.</speaker>
-            <l>Es inutil ocultaros</l>
-            <l>que tengo puesto mi amor</l>
-            <l>en un jóven muy gacioso,</l>
-            <l>militar de gran valor;</l>
-            <l>y tambien debo decíros</l>
-            <l>que otro jóven trovador</l>
-            <l>me quiere, segun él dice,</l>
-            <l>con inestinguible ardor.</l>
-          </sp>
-          <sp>
-            <speaker>Tutor.</speaker>
-            <l>Pero tú quieres al otro?</l>
-          </sp>
-          <sp>
-            <speaker>Niña.</speaker>
-            <l>Muchísimo, si señor.</l>
-          </sp>
-          <sp>
-            <speaker>Tutor.</speaker>
-            <l>Luego habrás desengañado</l>
-            <l>al segundo en su pasion.</l>
-          </sp>
-          <sp>
-            <speaker>Niña.</speaker>
-            <l>¿Cómo hacerlo si le quiero</l>
-            <l>con todo mi corazon?</l>
-          </sp>
-          <sp>
-            <speaker>Tutor.</speaker>
-            <l>Y ¿cómo haces, perversa,</l>
-            <l>para engañar á los dos?</l>
-          </sp>
-          <sp>
-            <speaker>Niña.</speaker>
-            <l>Es facil cosa por cierto ;</l>
-            <l>pues sabed los cito yó</l>
-            <l>á unas horas diferentes....</l>
-          </sp>
-          <sp>
-            <speaker>Tutor.</speaker>
-            <l>El talento ¡vive Dios!</l>
-            <l>para tal audacia envidio....</l>
-          </sp>
-          <sp>
-            <speaker>Niña.</speaker>
-            <l>Ciertamente que por poco</l>
-            <l>os asustais, mi señor,</l>
-            <l>aun antes de confesaros</l>
-            <l>que entretengo con mi amor</l>
-            <l>á mas de nueve galanes</l>
-            <l>tan hermosos cual la flor</l>
-            <l>que ostenta en la primavera</l>
-            <l>de sus hojas el verdor.</l>
-            <l>Y no debeis estrañarlo;</l>
-            <l>pues niñas de mucho honor,</l>
-            <l>dando citas á quinientos,</l>
-            <l>entretienen á un millon.</l>
-          </sp>
-          <sp>
-            <speaker>Tutor.</speaker>
-            <l>¡Oh, qué lengua, Vírgen santa!</l>
-            <l>Pero dime, por favor;</l>
-            <l>no te amedrentas pensando</l>
-            <l>si á haber llega un quid pro quo?</l>
-          </sp>
-          <sp>
-            <speaker>Niña.</speaker>
-            <l>Es muy raro ; y si sucede,</l>
-            <l>con mucha alma y sin temor,</l>
-            <l>á solas á cada cual</l>
-            <l>se le da satisfaccion ;</l>
-            <l>y al que soberbio no admita</l>
-            <l>semejante esplicacion,</l>
-            <l>dándole pronto de baja,</l>
-            <l>dejo el puesto á otro mejor.</l>
-          </sp>
-          <sp>
-            <speaker>Tutor.</speaker>
-            <l>Pérfida niña : el oirte</l>
-            <l>me ha llenado de estupor :</l>
-            <l>¡ tan jóven y tal saber!</l>
-          </sp>
-          <sp>
-            <speaker>Niña.</speaker>
-            <l>La presente relacion</l>
-            <l>que me habeis, señor, oido,</l>
-            <l>quizá conmigo nació;</l>
-            <l>que la muger siempre sabe</l>
-            <l>mas que el hombre en el amor ;</l>
-            <l>pero es necesario ser</l>
-            <l>tan franca y clara cual yo.</l>
-            <l>No siempre todas, por cierto,</l>
-            <l>hacen pura confesion</l>
-            <l>de los defectos que abrigan</l>
-            <l>bajo un modesto esterior ;</l>
-            <l>y asi, tened por seguro</l>
-            <l>que la muger es atroz</l>
-            <l>diciendo lo que no siente,</l>
-            <l>pintando sin fin amor ;</l>
-            <l>y en último, las mugeres ,</l>
-            <l>hablando en general, son</l>
-            <l>habladoras, zalameras,</l>
-            <l>amigas de adulacion,</l>
-            <l>envidiosas y orgullosas,</l>
-            <l>prontas á dar un sofion</l>
-            <l>si delante se les pone,</l>
-            <l>aunque sea al mismo sol ;</l>
-            <l>amigas de figurar</l>
-            <l>y de llamar la atencion;</l>
-            <l>de llevar lujo y alhajas ,</l>
-            <l>de pasear en landó ,</l>
-            <l>y aun el nombre de coquetas</l>
-            <l>las den en pública voz ,</l>
-            <l>se aguantan, sufren y callan,</l>
-            <l>sin decir aquí estoy yo.</l>
-            <l>Que salirnos, en un todo</l>
-            <l>con nuestro gusto, señor,</l>
-            <pb n="3" source="Varios_144_3.jpg" facs="fedora_Varios_144_3/full/full/0/default.jpg"/>
-            <l>es mas que lisongearnos</l>
-            <l>con la mas hermosa flor.</l>
-          </sp>
-          <sp>
-            <speaker>Tutor.</speaker>
-            <l>Y la que tiene talento,</l>
-            <l>si reconoce su error,</l>
-            <l>¿por qué no evita ese rumbo,</l>
-            <l>sendero de perdicion?</l>
-          </sp>
-          <sp>
-            <speaker>Niña.</speaker>
-            <l>Porque aquella que su planta</l>
-            <l>en tal sendero imprimió</l>
-            <l>es tan dificil su enmienda,</l>
-            <l>como tocar con el sol.</l>
-          </sp>
-          <sp>
-            <speaker>Tutor.</speaker>
-            <l>Es asi; porque no piensan</l>
-            <l>que ha de agostar su verdor</l>
-            <l>la inclemencia de los años</l>
-            <l>y que entonces con dolor,</l>
-            <l>al contemplar que son viejas,</l>
-            <l>solamente su afliccion</l>
-            <l>les recuerda lo que fueron</l>
-            <l>los halagos del amor.</l>
-          </sp>
-          <sp>
-            <speaker>Niña.</speaker>
-            <l>No puedo, señor, negaros</l>
-            <l>que en todo teneis razon;</l>
-            <l>mas la vanidad de un lado,</l>
-            <l>por otro la presuncion....</l>
-            <l>sostiene, como antes dije,</l>
-            <l>de la muger la ilusion.</l>
-          </sp>
-          <sp>
-            <speaker>Tutor.</speaker>
-            <l>Y no sabeis, hija mia,</l>
-            <l>que de la mnerte el furor</l>
-            <l>llega y siega en un instante</l>
-            <l>la mas peregrina flor?</l>
-            <l>No comprendeis por ventura,</l>
-            <l>que al gilguerillo cantor,</l>
-            <l>jugueton hiende el espacio</l>
-            <l>con muchísimo primor,</l>
-            <l>de la florida pradera,</l>
-            <l>ya girando al rededor,</l>
-            <l>ya moviendo con sus alas</l>
-            <l>las hojas del girasol?</l>
-            <l>Mas cuando el pobre se halla</l>
-            <l>en tan dulce diversion,</l>
-            <l>cae de pronto en las garras</l>
-            <l>de algun gavilan feroz....</l>
-            <l>y no bien entró en el mundo,</l>
-            <l>cuando de pronto murió?</l>
-          </sp>
-          <sp>
-            <speaker>Niña.</speaker>
-            <l>Que me confieso culpable</l>
-            <l>os he dicho ya, señor,</l>
-            <l>y si basta confesarlo,</l>
-            <l>imploro vuestro perdon.</l>
-          </sp>
-          <sp>
-            <speaker>Tutor.</speaker>
-            <l>No reuso concederle ;</l>
-            <l>pero solo á condicion</l>
-            <l>que arrepentida de todo,</l>
-            <l>en las aras del amor</l>
-            <l>no quemarás mas incienso</l>
-            <l>y abjurarás de tu error.</l>
-          </sp>
-          <sp>
-            <speaker>Niña.</speaker>
-            <l>Lo que me pedís, ofrezco</l>
-            <l>asi cumplir desde hoy,</l>
-            <l>para que públicamente</l>
-            <l>podais decir con razon :</l>
-            <l>«que siguió vuestra pupila</l>
-            <l>«los principios del pudor,</l>
-            <l>«y por huir los escollos</l>
-            <l>«del mundo y la tentacion,</l>
-            <l>«despidiendo é sus amantes</l>
-            <l>«con desusado rigor ,</l>
-            <l>«lava sus pasadas culpas</l>
-            <l>«la soledad y oracion.»</l>
-            <l>Con propósito tan firme</l>
-            <l>bien satisfecho el tutor</l>
-            <l>dió su perdon á la niña.</l>
-            <l>Ella cumplirlo pensò;</l>
-            <l>emprendiendo nueva vida</l>
-            <l>de acendrada devocion,</l>
-            <l>y de no acordarse mas</l>
-            <l>de cariño ni de amor ,</l>
-            <l>devaneos ni otras cosas.</l>
-            <l>Mas por la tarde al balcon</l>
-            <l>sin querer la inocentilla</l>
-            <l>y sin pensar se asomó;</l>
-            <l>y no bien al oficial</l>
-            <l>haciendo señas le vió.</l>
-            <l>cuando empezó á conmoverse</l>
-            <l>su sensible corazon.</l>
-            <l>Comenzaron los tonteos,</l>
-            <l>los billetitos de amor,</l>
-            <l>y de cuanto habia jurado</l>
-            <l>de otro tanto se olvidò.</l>
-            <l>Siempre la muger ha sido</l>
-            <l>(esto sin adulacion)</l>
-            <l>complaciente, buena amiga,</l>
-            <l>pero... de mala intencion.</l>
-          </sp>
-          <trailer>FIN.</trailer>
+
+            <sp>
+              <speaker rend="cursiva">Niña.</speaker>
+              <l rend="indent">Es inutil ocultaros</l>
+              <l>que tengo puesto mi amor</l>
+              <l>en un jóven muy gacioso,</l>
+              <l>militar de gran valor;</l>
+              <l>y tambien debo decíros</l>
+              <l>que otro jóven trovador</l>
+              <l>me quiere, segun él dice,</l>
+              <l>con inestinguible ardor.</l>
+            </sp>
+            <sp>
+              <speaker rend="cursiva">Tutor.</speaker>
+              <l rend="indent">Pero tú quieres al otro?</l>
+            </sp>
+            <sp>
+              <speaker rend="cursiva">Niña.</speaker>
+              <l rend="indent">Muchísimo, si señor.</l>
+            </sp>
+            <sp>
+              <speaker rend="cursiva">Tutor.</speaker>
+              <l rend="indent">Luego habrás desengañado</l>
+              <l>al segundo en su pasion.</l>
+            </sp>
+            <sp>
+              <speaker rend="cursiva">Niña.</speaker>
+              <l rend="indent">¿Cómo hacerlo si le quiero</l>
+              <l>con todo mi corazon?</l>
+            </sp>
+            <sp>
+              <speaker rend="cursiva">Tutor.</speaker>
+              <l rend="indent">Y ¿cómo haces, perversa,</l>
+              <l>para engañar á los dos?</l>
+            </sp>
+            <sp>
+              <speaker rend="cursiva">Niña.</speaker>
+              <l rend="indent">Es facil cosa por cierto ;</l>
+              <l>pues sabed los cito yó</l>
+              <l>á unas horas diferentes....</l>
+            </sp>
+            <sp>
+              <speaker rend="cursiva">Tutor.</speaker>
+              <l rend="indent">El talento ¡vive Dios!</l>
+              <l>para tal audacia envidio....</l>
+            </sp>
+            <sp>
+              <speaker rend="cursiva">Niña.</speaker>
+              <l rend="indent">Ciertamente que por poco</l>
+              <l>os asustais, mi señor,</l>
+              <l>aun antes de confesaros</l>
+              <l>que entretengo con mi amor</l>
+              <l>á mas de nueve galanes</l>
+              <l>tan hermosos cual la flor</l>
+              <l>que ostenta en la primavera</l>
+              <l>de sus hojas el verdor.</l>
+              <l>Y no debeis estrañarlo;</l>
+              <l>pues niñas de mucho honor,</l>
+              <l>dando citas á quinientos,</l>
+              <l>entretienen á un millon.</l>
+            </sp>
+            <sp>
+              <speaker rend="cursiva">Tutor.</speaker>
+              <l rend="indent">¡Oh, qué lengua, Vírgen santa!</l>
+              <l>Pero dime, por favor;</l>
+              <l>no te amedrentas pensando</l>
+              <l>si á haber llega un quid pro quo?</l>
+            </sp>
+            <sp>
+              <speaker rend="cursiva">Niña.</speaker>
+              <l rend="indent">Es muy raro ; y si sucede,</l>
+              <l>con mucha alma y sin temor,</l>
+              <l>á solas á cada cual</l>
+              <l>se le da satisfaccion ;</l>
+              <l>y al que soberbio no admita</l>
+              <l>semejante esplicacion,</l>
+              <l>dándole pronto de baja,</l>
+              <l>dejo el puesto á otro mejor.</l>
+            </sp>
+            <sp>
+              <speaker rend="cursiva">Tutor.</speaker>
+              <l rend="indent">Pérfida niña : el oirte</l>
+              <l>me ha llenado de estupor :</l>
+              <l>¡ tan jóven y tal saber!</l>
+            </sp>
+            <sp>
+              <speaker rend="cursiva">Niña.</speaker>
+              <l rend="indent">La presente relacion</l>
+              <l>que me habeis, señor, oido,</l>
+              <l>quizá conmigo nació;</l>
+              <l>que la muger siempre sabe</l>
+              <l>mas que el hombre en el amor ;</l>
+              <l>pero es necesario ser</l>
+              <l>tan franca y clara cual yo.</l>
+              <l>No siempre todas, por cierto,</l>
+              <l>hacen pura confesion</l>
+              <l>de los defectos que abrigan</l>
+              <l>bajo un modesto esterior ;</l>
+              <l>y asi, tened por seguro</l>
+              <l>que la muger es atroz</l>
+              <l>diciendo lo que no siente,</l>
+              <l>pintando sin fin amor ;</l>
+              <l>y en último, las mugeres ,</l>
+              <l>hablando en general, son</l>
+              <l>habladoras, zalameras,</l>
+              <l>amigas de adulacion,</l>
+              <l>envidiosas y orgullosas,</l>
+              <l>prontas á dar un sofion</l>
+              <l>si delante se les pone,</l>
+              <l>aunque sea al mismo sol ;</l>
+              <l>amigas de figurar</l>
+              <l>y de llamar la atencion;</l>
+              <l>de llevar lujo y alhajas ,</l>
+              <l>de pasear en landó ,</l>
+              <l>y aun el nombre de coquetas</l>
+              <l>las den en pública voz ,</l>
+              <l>se aguantan, sufren y callan,</l>
+              <l>sin decir aquí estoy yo.</l>
+              <l>Que salirnos, en un todo</l>
+              <l>con nuestro gusto, señor,</l>
+
+              <pb n="3" source="Varios_144_3.jpg" facs="varios/Varios_144_3.jpg/"/>
+
+              <l>es mas que lisongearnos</l>
+              <l>con la mas hermosa flor.</l>
+            </sp>
+            <sp>
+              <speaker rend="cursiva">Tutor.</speaker>
+              <l rend="indent">Y la que tiene talento,</l>
+              <l>si reconoce su error,</l>
+              <l>¿por qué no evita ese rumbo,</l>
+              <l>sendero de perdicion?</l>
+            </sp>
+            <sp>
+              <speaker rend="cursiva">Niña.</speaker>
+              <l rend="indent">Porque aquella que su planta</l>
+              <l>en tal sendero imprimió</l>
+              <l>es tan dificil su enmienda,</l>
+              <l>como tocar con el sol.</l>
+            </sp>
+            <sp>
+              <speaker rend="cursiva">Tutor.</speaker>
+              <l rend="indent">Es asi; porque no piensan</l>
+              <l>que ha de agostar su verdor</l>
+              <l>la inclemencia de los años</l>
+              <l>y que entonces con dolor,</l>
+              <l>al contemplar que son viejas,</l>
+              <l>solamente su afliccion</l>
+              <l>les recuerda lo que fueron</l>
+              <l>los halagos del amor.</l>
+            </sp>
+            <sp>
+              <speaker rend="cursiva">Niña.</speaker>
+              <l rend="indent">No puedo, señor, negaros</l>
+              <l>que en todo teneis razon;</l>
+              <l>mas la vanidad de un lado,</l>
+              <l>por otro la presuncion....</l>
+              <l>sostiene, como antes dije,</l>
+              <l>de la muger la ilusion.</l>
+            </sp>
+            <sp>
+              <speaker rend="cursiva">Tutor.</speaker>
+              <l rend="indent">Y no sabeis, hija mia,</l>
+              <l>que de la mnerte el furor</l>
+              <l>llega y siega en un instante</l>
+              <l>la mas peregrina flor?</l>
+              <l>No comprendeis por ventura,</l>
+              <l>que al gilguerillo cantor,</l>
+              <l>jugueton hiende el espacio</l>
+              <l>con muchísimo primor,</l>
+              <l>de la florida pradera,</l>
+              <l>ya girando al rededor,</l>
+              <l>ya moviendo con sus alas</l>
+              <l>las hojas del girasol?</l>
+              <l>Mas cuando el pobre se halla</l>
+              <l>en tan dulce diversion,</l>
+              <l>cae de pronto en las garras</l>
+              <l>de algun gavilan feroz....</l>
+              <l>y no bien entró en el mundo,</l>
+              <l>cuando de pronto murió?</l>
+            </sp>
+            <sp>
+              <speaker rend="cursiva">Niña.</speaker>
+              <l rend="indent">Que me confieso culpable</l>
+              <l>os he dicho ya, señor,</l>
+              <l>y si basta confesarlo,</l>
+              <l>imploro vuestro perdon.</l>
+            </sp>
+            <sp>
+              <speaker rend="cursiva">Tutor.</speaker>
+              <l rend="indent">No reuso concederle ;</l>
+              <l>pero solo á condicion</l>
+              <l>que arrepentida de todo,</l>
+              <l>en las aras del amor</l>
+              <l>no quemarás mas incienso</l>
+              <l>y abjurarás de tu error.</l>
+            </sp>
+            <sp>
+              <speaker rend="cursiva">Niña.</speaker>
+              <l rend="indent">Lo que me pedís, ofrezco</l>
+              <l>asi cumplir desde hoy,</l>
+              <l>para que públicamente</l>
+              <l>podais decir con razon :</l>
+              <l>«que siguió vuestra pupila</l>
+              <l>«los principios del pudor,</l>
+              <l>«y por huir los escollos</l>
+              <l>«del mundo y la tentacion,</l>
+              <l>«despidiendo é sus amantes</l>
+              <l>«con desusado rigor ,</l>
+              <l>«lava sus pasadas culpas</l>
+              <l>«la soledad y oracion.»</l>
+              <l>Con propósito tan firme</l>
+              <l>bien satisfecho el tutor</l>
+              <l>dió su perdon á la niña.</l>
+              <l>Ella cumplirlo pensò;</l>
+              <l>emprendiendo nueva vida</l>
+              <l>de acendrada devocion,</l>
+              <l>y de no acordarse mas</l>
+              <l>de cariño ni de amor ,</l>
+              <l>devaneos ni otras cosas.</l>
+              <l>Mas por la tarde al balcon</l>
+              <l>sin querer la inocentilla</l>
+              <l>y sin pensar se asomó;</l>
+              <l>y no bien al oficial</l>
+              <l>haciendo señas le vió.</l>
+              <l>cuando empezó á conmoverse</l>
+              <l>su sensible corazon.</l>
+              <l>Comenzaron los tonteos,</l>
+              <l>los billetitos de amor,</l>
+              <l>y de cuanto habia jurado</l>
+              <l>de otro tanto se olvidò.</l>
+              <l>Siempre la muger ha sido</l>
+              <l>(esto sin adulacion)</l>
+              <l>complaciente, buena amiga,</l>
+              <l>pero... de mala intencion.</l>
+            </sp>
+            <trailer>FIN.</trailer>
+          </div>
+
+          <div n="2">
+            <pb n="4" source="Varios_144_4.jpg" facs="varios/Varios_144_4.jpg/"/>
+
+            <head type="primer_titulo"><lb/>CANCION QUE SE CANTA EN EL DRAMA TITULADO<lb/><hi rend="negrita">LA SEGUNDA DAMA DUENDE.</hi></head>
+
+            <lg>
+              <l rend="indent">Han sonado tres palmadas</l>
+              <l>y es cerca de anochecer,</l>
+              <l>y te pones tan de prisa</l>
+              <l>la mantilla y guardapiés.</l>
+              <l rend="indent">¿ A dónde vas, niña?</l>
+              <l>Madre , no me riña,</l>
+              <l>que voy é rezar</l>
+              <l>á la Vírgen del Pilar.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Salió la niña corriendo</l>
+              <l>sin un instante esperar,</l>
+              <l>y la madre quedó en casa</l>
+              <l>disponiendo que cenar.</l>
+              <l rend="indent">¿ A dónde vas, niña?</l>
+              <l>Madre , no me riña,</l>
+              <l>que voy é rezar</l>
+              <l>á la Vírgen del Pilar.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Pasaron mas de tres horas,</l>
+              <l>cuando la niña volvió,</l>
+              <l>y halló á su madre que estaba</l>
+              <l>esperándola al balcon.</l>
+              <l rend="indent">¿ Dónde has ido, niña?</l>
+              <l>Madre, no me riña,</l>
+              <l>vengo de rezar</l>
+              <l>á la Vírgen del Pilar.</l>
+            </lg>
+            <lg>
+              <l rend="indent">¿ Cómo vuelves tan turbada</l>
+              <l>y perdida la color?</l>
+              <l>¡ siendo ya mas de las nueve</l>
+              <l>y saliste á la oracion...!</l>
+              <l rend="indent">Respóndeme, niña.</l>
+              <l>Madre, no me riña,</l>
+              <l>vengo de rezar</l>
+              <l>á la Vírgen del Pilar.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Mucho rezo son tres horas</l>
+              <l>para niña de tu edad;</l>
+              <l>á no ser las oraciones</l>
+              <l>para santo muy galan.</l>
+              <l rend="indent">Despídete, niña,</l>
+              <l>Madre, no me riña,</l>
+              <l>que yo he de rezar</l>
+              <l>á la Vírgen del Pilar.</l>
+            </lg>
+            <lg>
+              <l rend="indent">¡ Cuánto polvo has recogido!</l>
+              <l>¡ muy sucia la iglesia està !</l>
+              <l>si la limpias con la saya,</l>
+              <l>haces mas que el sacristan.</l>
+              <l rend="indent">Sacúdete, niña.</l>
+              <l>Madre, no me riña,</l>
+              <l>que esto es de rezar</l>
+              <l>á la Vírgen del Pilar.</l>
+            </lg>
+            <lg>
+              <l rend="indent">¡ Tambien polvo en la mantilla!</l>
+              <l>¡ el pañuelo sin atar!</l>
+              <l>sin duda que te has caido</l>
+              <l>y lo quieres ocultar.</l>
+              <l rend="indent">No me mientas, niña.</l>
+              <l>Madre, no me riña,</l>
+              <l>que estuve á rezar</l>
+              <l>á la Vírgen del Pilar.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Yo te juro que en tu vida</l>
+              <l>no saldrás sola jamás,</l>
+              <l>pues has venido tan tarde,</l>
+              <l>y llena de polvo á mas.</l>
+              <l rend="indent">Despidete, niña.</l>
+              <l>Madre, no me riña,</l>
+              <l>que quiero rezar</l>
+              <l>á la Virgen del Pilar.</l>
+            </lg>
+          </div>
         </div>
-        <pb n="4" source="Varios_144_4.jpg" facs="fedora_Varios_144_4/full/full/0/default.jpg"/>
-        <div>
-          <head type="titulo_parte"><lb/>CANCION QUE SE CANTA EN EL DRAMA TITULADO<lb/><hi rend="negrita">LA SEGUNDA DAMA DUENDE.</hi></head>
-          <lg>
-            <l>Han sonado tres palmadas</l>
-            <l>y es cerca de anochecer,</l>
-            <l>y te pones tan de prisa</l>
-            <l>la mantilla y guardapiés.</l>
-            <l rend="indent">¿ A dónde vas, niña?</l>
-            <l rend="indent">Madre , no me riña,</l>
-            <l rend="indent">que voy é rezar</l>
-            <l rend="indent">á la Vírgen del Pilar.</l>
-          </lg>
-          <lg>
-            <l>Salió la niña corriendo</l>
-            <l>sin un instante esperar,</l>
-            <l>y la madre quedó en casa</l>
-            <l>disponiendo que cenar.</l>
-            <l rend="indent">¿ A dónde vas, niña?</l>
-            <l rend="indent">Madre , no me riña,</l>
-            <l rend="indent">que voy é rezar</l>
-            <l rend="indent">á la Vírgen del Pilar.</l>
-          </lg>
-          <lg>
-            <l>Pasaron mas de tres horas,</l>
-            <l>cuando la niña volvió,</l>
-            <l>y halló á su madre que estaba</l>
-            <l>esperándola al balcon.</l>
-            <l rend="indent">¿ Dónde has ido, niña?</l>
-            <l rend="indent">Madre, no me riña,</l>
-            <l rend="indent">vengo de rezar</l>
-            <l rend="indent">á la Vírgen del Pilar.</l>
-          </lg>
-          <lg>
-            <l>¿ Cómo vuelves tan turbada</l>
-            <l>y perdida la color?</l>
-            <l>¡ siendo ya mas de las nueve</l>
-            <l>y saliste á la oracion...!</l>
-            <l rend="indent">Respóndeme, niña.</l>
-            <l rend="indent">Madre, no me riña,</l>
-            <l rend="indent">vengo de rezar</l>
-            <l rend="indent">á la Vírgen del Pilar.</l>
-          </lg>
-          <lg>
-            <l>Mucho rezo son tres horas</l>
-            <l>para niña de tu edad;</l>
-            <l>á no ser las oraciones</l>
-            <l>para santo muy galan.</l>
-            <l rend="indent">Despídete, niña,</l>
-            <l rend="indent">Madre, no me riña,</l>
-            <l rend="indent">que yo he de rezar</l>
-            <l rend="indent">á la Vírgen del Pilar.</l>
-          </lg>
-          <lg>
-            <l>¡ Cuánto polvo has recogido!</l>
-            <l>¡ muy sucia la iglesia està !</l>
-            <l>si la limpias con la saya,</l>
-            <l>haces mas que el sacristan.</l>
-            <l rend="indent">Sacúdete, niña.</l>
-            <l rend="indent">Madre, no me riña,</l>
-            <l rend="indent">que esto es de rezar</l>
-            <l rend="indent">á la Vírgen del Pilar.</l>
-          </lg>
-          <lg>
-            <l>¡ Tambien polvo en la mantilla!</l>
-            <l>¡ el pañuelo sin atar!</l>
-            <l>sin duda que te has caido</l>
-            <l>y lo quieres ocultar.</l>
-            <l rend="indent">No me mientas, niña.</l>
-            <l rend="indent">Madre, no me riña,</l>
-            <l rend="indent">que estuve á rezar</l>
-            <l rend="indent">á la Vírgen del Pilar.</l>
-          </lg>
-          <lg>
-            <l>Yo te juro que en tu vida</l>
-            <l>no saldrás sola jamás,</l>
-            <l>pues has venido tan tarde,</l>
-            <l>y llena de polvo á mas.</l>
-            <l rend="indent">Despidete, niña.</l>
-            <l rend="indent">Madre, no me riña,</l>
-            <l rend="indent">que quiero rezar</l>
-            <l rend="indent">á la Virgen del Pilar.</l>
-          </lg>
-        </div>
+        
         <div type="colofon">
-          <p><lb/>Madrid: 1854. Imprenta de D. José Marés, calle de Relatores,
-                                    núm. 17.</p>
+          <p><lb/>Madrid: 1854. Imprenta de D. José Marés, calle de Relatores, núm. 17.</p>
         </div>
       </div>
     </body>

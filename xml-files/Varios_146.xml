@@ -1,19 +1,17 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../Schema/oddPliego_varios.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:alto="http://www.loc.gov/standards/alto/ns-v4#" xml:id="Varios_146">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Varios_146">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>LAS TRES CANCIONES LA CASTAÑERA DE MADRID LOS TOROS DEL PUERTO EL
-                              NUEVO TANGO AMERICANO</title>
+        <title>LAS TRES CANCIONES</title>
         <respStmt>
           <name/>
           <resp>Codificación TEI</resp>
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <authority role="rightsHolder">Bibliothèque Universitaire de
-                              Genève</authority>
+        <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
         <availability status="restricted">
           <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
         </availability>
@@ -21,18 +19,17 @@
       <sourceDesc>
         <biblFull>
           <titleStmt>
-            <title type="titulo_completo">LAS TRES CANCIONES LA CASTAÑERA DE
-                                          MADRID LOS TOROS DEL PUERTO EL NUEVO TANGO
-                                          AMERICANO</title>
+            <title type="titulo_completo">LAS TRES CANCIONES LA CASTAÑERA DE MADRID LOS TOROS DEL
+              PUERTO EL NUEVO TANGO AMERICANO</title>
             <title type="titulo_breve">LAS TRES CANCIONES</title>
           </titleStmt>
           <editionStmt>
             <p/>
           </editionStmt>
           <publicationStmt>
-            <publisher>Imp. de Llorens</publisher>
+            <publisher>Llorens</publisher>
             <pubPlace ref="https://www.geonames.org/3128760/barcelona.html">Barcelona</pubPlace>
-            <date>[s.a]</date>
+            <date cert="low" when="1800-01-01">[s.a.]</date>
           </publicationStmt>
         </biblFull>
         <msDesc>
@@ -40,7 +37,8 @@
             <country>Suisse</country>
             <settlement>Genève</settlement>
             <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"/>
-                                    </repository>
+            </repository>
+            <collection>Colección Varios</collection>
             <idno type="cote"/>
             <idno type="DOI">10.5281/zenodo.6586641</idno>
             <altIdentifier>
@@ -48,10 +46,18 @@
             </altIdentifier>
           </msIdentifier>
           <msContents>
-            <summary/>
+            <summary>Tres canciones</summary>
             <msItem>
-              <locus/>
-              <title/>
+              <locus>1-2</locus>
+              <title>La castañera de Madrid</title>
+            </msItem>
+            <msItem>
+              <locus>2</locus>
+              <title>Los toros del puerto</title>
+            </msItem>
+            <msItem>
+              <locus>3-4</locus>
+              <title>El nuevo tango americano. Segunda parte</title>
             </msItem>
           </msContents>
           <physDesc>
@@ -69,12 +75,12 @@
               </layoutDesc>
             </objectDesc>
             <decoDesc>
-              <summary n="3">Tres grabados (p.1) </summary>
+              <summary n="3">Tres grabados (p.1)</summary>
               <decoNote type="lista_grabados">
                 <list>
                   <item corresp="grabado_v_146_1.xml">grabado_v_146_1</item>
                   <item corresp="grabado_v_146_2.xml">grabado_v_146_2</item>
-                  <item corresp="grabado_v_146_1.xml">grabado_v_146_3</item>
+                  <item corresp="grabado_v_146_3.xml">grabado_v_146_3</item>
                 </list>
               </decoNote>
             </decoDesc>
@@ -96,18 +102,17 @@
     </fileDesc>
     <encodingDesc>
       <projectDesc>
-        <p>Este archivo fue creado en el marco del proyecto Desenrollando el
-                              Cordel/Démêler le cordel/Untangling the cordel, dirigido por la
-                              profesora Constance Carta de la Universidad de Ginebra, con el apoyo
-                              de la Fundación filantrópica Famille Sandoz-Monique de Meuron.</p>
+        <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+          cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la Universidad
+          de Ginebra, con el apoyo de la Fundación filantrópica Famille Sandoz-Monique de
+          Meuron.</p>
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR non corregido</p>
+          <p>OCR no corregido</p>
         </correction>
         <normalization>
-          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto
-                                    original.</p>
+          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
         </normalization>
         <punctuation>
           <p>Se conserva la puntuación original.</p>
@@ -128,10 +133,14 @@
       </textClass>
     </profileDesc>
     <revisionDesc>
-      <change when="2022-09-16" who="#PJ">Création du fichier TEI P5 et encodage du
-                        corps du texte</change>
+      <change when="2022-09-16" who="#PJ">Création du fichier TEI P5 et encodage du corps du
+        texte</change>
+      <change when="2024-01-09" who="#EL">Add the IIIF links</change>
     </revisionDesc>
   </teiHeader>
+  <facsimile>
+    <graphic url="varios/Varios_146_1.jpg/full/200,/0/default.jpg"/>
+  </facsimile>
   <sourceDoc xml:id="automaticTranscription">
     <surface xml:id="Varios_146_1" type="page" cert="silver">
       <graphic url="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_146_1/full/full/0/default.jpg"/>
@@ -844,8 +853,7 @@
       <zone xml:id="Varios_146_4_BT228_4" n="4" type="MarginTextZone" subtype="colophon" points="1505,2346 1519,2416 1252,2442 611,2451 385,2464 386,2362 543,2348 1026,2331 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_146_4/385,2331,1134,133/full/0/default" corresp="MarginTextZone:colophon">
         <zone xml:id="Varios_146_4_BT228_4_LT83_1" type="DefaultLine" subtype="none" points="1458,2344 1436,2344 1414,2342 1392,2342 1370,2342 1348,2339 1327,2339 1305,2339 1283,2337 1261,2337 1239,2337 1223,2335 655,2342 647,2344 625,2344 603,2344 581,2346 559,2346 537,2348 515,2350 493,2352 471,2355 449,2357 427,2357 405,2359 407,2405 407,2427 526,2440 528,2440 530,2440 532,2440 550,2427 552,2425 559,2427 590,2438 592,2438 594,2438 688,2425 701,2425 708,2425 758,2438 761,2438 763,2438 930,2423 1000,2418 1050,2423 1118,2429 1120,2429 1123,2429 1149,2423 1173,2416 1199,2420 1245,2431 1248,2431 1250,2431 1252,2431 1252,2429 1261,2420 1265,2418 1267,2420 1274,2427 1276,2427 1278,2427 1280,2427 1283,2427 1296,2420 1309,2414 1329,2420 1342,2425 1344,2425 1346,2425 1375,2420 1408,2414 1414,2420 1423,2427 1423,2429 1425,2429 1427,2429 1430,2429 1480,2418 1482,2392 1476,2344 1458,2344 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_146_4/405,2335,1077,105/full/0/default" corresp="DefaultLine">
           <path xml:id="Varios_146_4_BT228_4_LT83_1_1" points="410,2407 1484,2394 "/>
-          <line>Barcelona: Imp. de Llorens, Palma de Sta. Catalina, núm.
-                                    6.</line>
+          <line>Barcelona: Imp. de Llorens, Palma de Sta. Catalina, núm. 6.</line>
         </zone>
       </zone>
       <zone xml:id="Varios_146_4_BT226_5" n="5" type="MainZone" subtype="none" points="1222,1816 1222,1737 1395,1737 1395,1816 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_146_4/1222,1737,173,79/full/0/default" corresp="MainZone"/>
@@ -872,20 +880,20 @@
   <text>
     <body>
       <div>
-        <pb n="1" source="Varios_146_1.jpg" facs="fedora_Varios_146_1/full/full/0/default.jpg"/>
-        <div type="parte" n="1">
-          <head type="primer_titulo"><lb/>LAS TRES CANCIONES<lb/>LA CASTAÑERA DE MADRID<lb/>LOS TOROS
-                                    DEL PUERTO<lb/>EL NUEVO TANGO AMERICANO</head>
-          <head type="subtitulo_parte"><lb/>LA CASTAÑERA DE MADRID<lb/>LOS TOROS DEL PUERTO<lb/>EL
-                                    NUEVO TANGO AMERICANO</head>
+        <pb n="1" source="Varios_146_1.jpg" facs="varios/Varios_146_1.jpg/"/>
+        
+        <head type="primer_titulo"><lb/>LAS TRES CANCIONES<hi rend="negrita"><lb/>LA CASTAÑERA DE MADRID<lb/>LOS
+            TOROS DEL PUERTO<lb/>EL NUEVO TANGO AMERICANO</hi></head>
+        
+        <div n="1">
           <lg>
-            <l>Aunque vendo castañas asaás</l>
+            <l rend="indent">Aunque vendo castañas asaás</l>
             <l>aguantando las lluvias y el frío</l>
             <l>con mi garbo y mis medias calaás</l>
             <l>soy la reina para mi querio.</l>
           </lg>
           <lg rend="cursiva">
-            <l>Calentitas yo las vendo</l>
+            <l rend="indent">Calentitas yo las vendo</l>
             <l>sin moneda se darán</l>
             <l>que á rumbesa no me ganan</l>
             <l>las Usias de gaban.</l>
@@ -894,68 +902,72 @@
             <l>las Usias de gaban.</l>
           </lg>
           <lg>
-            <l>Lo mas malo de todos los malos</l>
+            <l rend="indent">Lo mas malo de todos los malos</l>
             <l>es sufrir un desaire á la cara</l>
             <l>encontrar á mi paje ¡puñales!</l>
             <l>y con otra pelando la pava.</l>
           </lg>
           <lg rend="cursiva">
-            <l>Calentitas que ahora queman, etc.</l>
+            <l rend="indent">Calentitas que ahora queman, etc.</l>
           </lg>
           <lg>
-            <l>Lo que hay entre todos los hombros</l>
+            <l rend="indent">Lo que hay entre todos los hombros</l>
             <l>que entre todos ocultan sus mañas,</l>
             <l>quien pudiera cogerlos á ellos</l>
             <l>en hornillo como las castañas.</l>
           </lg>
           <lg rend="cursiva">
-            <l>Calentitas yo las vendo, etc.</l>
+            <l rend="indent">Calentitas yo las vendo, etc.</l>
           </lg>
-          <pb n="2" source="Varios_146_2.jpg" facs="fedora_Varios_146_2/full/full/0/default.jpg"/>
+          
+          <pb n="2" source="Varios_146_2.jpg" facs="varios/Varios_146_2.jpg/"/>
+          
           <lg>
-            <l>Soy la mapa de las castañeras</l>
+            <l rend="indent">Soy la mapa de las castañeras</l>
             <l>que pasean hoy día en el Prado,</l>
             <l>y no puedo sufrir mi amante</l>
             <l>que otra dama se esté requebrando.</l>
           </lg>
           <lg rend="cursiva">
-            <l>Calentitas que queman, etc.</l>
+            <l rend="indent">Calentitas que queman, etc.</l>
           </lg>
           <lg>
-            <l>Cuando salgo á la esquina rumbosa,</l>
+            <l rend="indent">Cuando salgo á la esquina rumbosa,</l>
             <l>y me encuentro con algún amigo</l>
             <l>le presento cuatro castañitas</l>
             <l>por la buena á cualquiera convido.</l>
           </lg>
           <lg rend="cursiva">
-            <l>Calentitas yo las vendo, etc.</l>
+            <l rend="indent">Calentitas yo las vendo, etc.</l>
           </lg>
           <lg>
             <l>mi salero, mi garbo y mi brío</l>
-            <l>Se piesentan los mozos al verme.</l>
+            <l rend="indent">Se piesentan los mozos al verme.</l>
             <l>y á las voces que salen calientes</l>
             <l>cae plata para mi bolsillo.</l>
           </lg>
           <lg rend="cursiva">
-            <l>Calentitas que ahora queman, etc.</l>
+            <l rend="indent">Calentitas que ahora queman, etc.</l>
           </lg>
           <lg>
             <l>anda el fuelle, el carbón y el hornillo</l>
-            <l>Dando el grito que son regordonas</l>
+            <l rend="indent">Dando el grito que son regordonas</l>
             <l>aunque vendan otras castañeras.</l>
             <l>á toditas yo las desalío.</l>
           </lg>
           <lg>
-            <l>Calentitas yo las vendo, etc.</l>
+            <l rend="indent">Calentitas yo las vendo, etc.</l>
           </lg>
           <trailer>FIN</trailer>
         </div>
-        <div type="parte" n="2">
+        
+        <div n="2">
           <head type="titulo_parte"><lb/>LOS TOROS DEL PUERTO</head>
+          
           <lg>
-            <l>Que vivan los cuerpos buenos</l>
+            <l rend="indent">Que vivan los cuerpos buenos</l>
             <l>Que viva la gente crua</l>
-            <l rend="indent">Avechucho,</l>
+            <l>Avechucho,</l>
           </lg>
           <lg>
             <l>Atrácame ese falucho,</l>
@@ -965,9 +977,9 @@
             <l>¿Quién se embarca para el puerto?</l>
           </lg>
           <lg>
-            <l>De bolina caballeros,</l>
+            <l rend="indent">De bolina caballeros,</l>
             <l>Viento fresco y á los toros</l>
-            <l rend="indent">Gloria mia,</l>
+            <l>Gloria mia,</l>
           </lg>
           <lg>
             <l>Mas dulce que la arropía</l>
@@ -977,9 +989,9 @@
             <l>¿Quién se embarca para el puerto?</l>
           </lg>
           <lg>
-            <l>¿Quién se embarca? ¿Quién se mete?</l>
+            <l rend="indent">¿Quién se embarca? ¿Quién se mete?</l>
             <l>Vira y jala Periquiyo</l>
-            <l rend="indent">Señorita,</l>
+            <l>Señorita,</l>
           </lg>
           <lg>
             <l>Levante uzté la patita</l>
@@ -989,9 +1001,9 @@
             <l>¿Quién se embarca para el puerto?</l>
           </lg>
           <lg>
-            <l>A divertirnos gustosos</l>
+            <l rend="indent">A divertirnos gustosos</l>
             <l>Toitos vamos de jarana.</l>
-            <l rend="indent">Caramba.</l>
+            <l>Caramba.</l>
           </lg>
           <lg>
             <l>Bailemos la Zarabanda</l>
@@ -1001,9 +1013,9 @@
             <l>¿Quién se embarca para el puerto?</l>
           </lg>
           <lg>
-            <l>Tio Garrucho buenos tragos</l>
+            <l rend="indent">Tio Garrucho buenos tragos</l>
             <l>Para amarar el pellejo.</l>
-            <l rend="indent">Pepino.</l>
+            <l>Pepino.</l>
           </lg>
           <lg>
             <l>Supuesto que ya no atino</l>
@@ -1013,9 +1025,9 @@
             <l>¿Quién se embarca para el puerto?</l>
           </lg>
           <lg>
-            <l>Cuando lleguemos al muelle</l>
+            <l rend="indent">Cuando lleguemos al muelle</l>
             <l>Asegure bien la pipa</l>
-            <l rend="indent">Carnero,</l>
+            <l>Carnero,</l>
           </lg>
           <lg>
             <l>No se vaya tan ligero</l>
@@ -1026,12 +1038,15 @@
           </lg>
           <trailer>FIN</trailer>
         </div>
-        <pb n="3" source="Varios_146_3.jpg" facs="fedora_Varios_146_3/full/full/0/default.jpg"/>
-        <div tyoe="parte" n="3">
-          <head type="titulo_parte"><lb/>EL NUEVO TANGO AMERICANO<lb/>SEGUNDA PARTE</head>
-          <head type="subtitulo_parte"><lb/>SEGUNDA PARTE</head>
+        
+        <div n="3">
+          <pb n="3" source="Varios_146_3.jpg" facs="varios/Varios_146_3.jpg/"/>
+          
+          <head type="primer_titulo" rend="negrita"><lb/>EL NUEVO TANGO AMERICANO<lb/>SEGUNDA PARTE</head>
+          <head type="subtitulo"><lb/>SEGUNDA PARTE</head>
+          
           <lg>
-            <l>Pobe Fansica se va casá</l>
+            <l rend="indent">Pobe Fansica se va casá</l>
             <l>Sin tener ropa ni tener naá</l>
             <l>Su amo branco le vá robá</l>
             <l>La lotería que vá sacá.</l>
@@ -1044,7 +1059,7 @@
             <l>Cuéstia! ¡ósfea! oyacua, ¡táu!</l>
           </lg>
           <lg>
-            <l>Fansica llora el neguito,</l>
+            <l rend="indent">Fansica llora el neguito,</l>
             <l>Guarapo chupe que duce etá,</l>
             <l>Y pide ma ñame-ñame</l>
             <l>Guarapo chupe que duce etá!</l>
@@ -1055,12 +1070,14 @@
             <l>Al guarapo bueno y duce guaná!</l>
             <l>Que mame mamey mamita</l>
           </lg>
-          <pb n="4" source="Varios_146_4.jpg" facs="fedora_Varios_146_4/full/full/0/default.jpg"/>
+          
+          <pb n="4" source="Varios_146_4.jpg" facs="varios/Varios_146_4.jpg/"/>
+          
           <lg>
-            <l>Guarapo chupe que duce etá</l>
+            <l rend="indent">Guarapo chupe que duce etá</l>
             <l>Que si chupa la tetilla</l>
             <l>Rechupa y chupa y no saca naa.</l>
-            <l>Dia de boda mi tiene jambre</l>
+            <l rend="indent">Dia de boda mi tiene jambre</l>
             <l>Con la Fansica can-can bailá,</l>
             <l>Compaire mio le mamey duce</l>
             <l>Con el cazabe muy bueno dá.</l>
@@ -1070,10 +1087,9 @@
             <l>Marimarigongo etc.</l>
           </lg>
           <lg>
-            <l>Mitá llautia á Mayorala</l>
+            <l rend="indent">Mitá llautia á Mayorala</l>
             <l>Pedazo solo pedir le vá,</l>
-            <l>Fum-fum me hace, fum fum me</l>
-            <l>hace</l>
+            <l>Fum-fum me hace, fum fum me <add place="debajo">hace</add></l>
             <l>Y la llautía no quiere dá.</l>
           </lg>
           <lg>
@@ -1081,7 +1097,7 @@
             <l>Marimarigongo etc.</l>
           </lg>
           <lg>
-            <l>José María, neguito bueno</l>
+            <l rend="indent">José María, neguito bueno</l>
             <l>Malo se pone á cafetá,</l>
             <l>Trabaja poco y su amo branco</l>
             <l>De un chaiperazo le va matá.</l>
@@ -1091,7 +1107,7 @@
             <l>Marimarigongo etc.</l>
           </lg>
           <lg>
-            <l>Pobe neguito, pobe neguito!</l>
+            <l rend="indent">Pobe neguito, pobe neguito!</l>
             <l>Trabaja mucho sin descansá,</l>
             <l>Pero de noche sobre la hamaca</l>
             <l>Con su Fansica siempre bailá.</l>
@@ -1101,7 +1117,7 @@
             <l>Marimarigongo etc.</l>
           </lg>
           <lg>
-            <l>A pobe nego gusta er guarapo</l>
+            <l rend="indent">A pobe nego gusta er guarapo</l>
             <l>Su amo branco mu poco dá</l>
             <l>De guapi-guapi da mucho duro</l>
             <l>De ñame-ñame da casi naa.</l>
@@ -1111,7 +1127,7 @@
             <l>Marimarigongo etc.</l>
           </lg>
           <lg>
-            <l>Hace Fansica neguitos chicos</l>
+            <l rend="indent">Hace Fansica neguitos chicos</l>
             <l>De cada vece piré ó sayá</l>
             <l>Mi estar contento de hacerle mu¬</l>
             <l>chos.</l>
@@ -1133,9 +1149,9 @@
           </lg>
           <trailer>FIN</trailer>
         </div>
+        
         <div type="colofon">
-          <p><lb/>Barcelona: Imp. de Llorens, Palma de Sta. Catalina, núm.
-                                    6.</p>
+          <p><lb/>Barcelona: Imp. de Llorens, Palma de Sta. Catalina, núm. 6.</p>
         </div>
       </div>
     </body>

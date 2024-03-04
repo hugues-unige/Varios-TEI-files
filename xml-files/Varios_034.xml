@@ -1,17 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../Schema/oddPliego_varios.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:alto="http://www.loc.gov/standards/alto/ns-v4#" xml:id="Varios_034">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Varios_034">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>EL CANTOR DE LAS HERMOSAS. TROVAS DE AMOR DEDICADAS AL BELLO SECSO POR UNOS
-               AFICIONADOS.</title>
+        <title>EL CANTOR DE LAS HERMOSAS.</title>
         <respStmt>
           <name/>
           <resp>Codificación TEI</resp>
-          <note type="propiedad">J. P.</note>
-          <note type="propiedad">P. G. R.</note>
-          <note type="propiedad">P. G. y R.</note>
         </respStmt>
       </titleStmt>
       <publicationStmt>
@@ -23,17 +19,17 @@
       <sourceDesc>
         <biblFull>
           <titleStmt>
-            <title type="titulo_completo">EL CANTOR DE LAS HERMOSAS. TROVAS DE AMOR DEDICADAS
-                     AL BELLO SECSO POR UNOS AFICIONADOS.</title>
-            <title type="titulo_breve">EL CANTOR DE LAS HERMOSAS</title>
+            <title type="titulo_completo">EL CANTOR DE LAS HERMOSAS. TROVAS DE AMOR DEDICADAS AL
+              BELLO SECSO POR UNOS AFICIONADOS.</title>
+            <title type="titulo_breve">EL CANTOR DE LAS HERMOSAS.</title>
           </titleStmt>
           <editionStmt>
             <p/>
           </editionStmt>
           <publicationStmt>
-            <publisher>Narciso Ramirez</publisher>
-            <pubPlace ref="https://www.geonames.org/3128760/barcelona.html ">Barcelona</pubPlace>
-            <date cert="high">186I</date>
+            <publisher>Narciso Ramírez</publisher>
+            <pubPlace ref="https://www.geonames.org/3128760/barcelona.html">Barcelona</pubPlace>
+            <date cert="high" when="1861-01-01">1861</date>
           </publicationStmt>
         </biblFull>
         <msDesc>
@@ -41,7 +37,8 @@
             <country>Suisse</country>
             <settlement>Genève</settlement>
             <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"/>
-                  </repository>
+            </repository>
+            <collection>Colección Varios</collection>
             <idno type="cote"/>
             <idno type="DOI">10.5281/zenodo.6554233</idno>
             <altIdentifier>
@@ -49,10 +46,26 @@
             </altIdentifier>
           </msIdentifier>
           <msContents>
-            <summary/>
+            <summary>Cuatro canciones</summary>
             <msItem>
-              <locus/>
-              <title/>
+              <locus>1-2</locus>
+              <title>El ultimo adios.</title>
+              <author role="letrista">J. P.</author>
+            </msItem>
+            <msItem>
+              <locus>2</locus>
+              <title>La nit de Pascua.</title>
+              <author role="letrista">P. G. R.</author>
+            </msItem>
+            <msItem>
+              <locus>3</locus>
+              <title>La resurrecció de Señor.</title>
+              <author role="letrista">P. G. y R.</author>
+            </msItem>
+            <msItem>
+              <locus>4</locus>
+              <title>Á mi amada.</title>
+              <author role="letrista">J. A. C.</author>
             </msItem>
           </msContents>
           <physDesc>
@@ -85,8 +98,8 @@
               <p>Imp. de Narciso Ramirez, calle de Escudillers, núm. 40, piso principal</p>
             </origin>
             <provenance>
-              <p>Se halla de venta en casa de Antonio Bosch, calle del Bou de la plaza Nueva,
-                        n.° 3</p>
+              <p>Se halla de venta en casa de Antonio Bosch, calle del Bou de la plaza Nueva, n.°
+                3</p>
             </provenance>
             <acquisition/>
           </history>
@@ -96,13 +109,13 @@
     <encodingDesc>
       <projectDesc>
         <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
-               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
-               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
-               Sandoz-Monique de Meuron.</p>
+          cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la Universidad
+          de Ginebra, con el apoyo de la Fundación filantrópica Famille Sandoz-Monique de
+          Meuron.</p>
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR non corregido</p>
+          <p>OCR no corregido</p>
         </correction>
         <normalization>
           <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
@@ -115,6 +128,7 @@
     <profileDesc>
       <langUsage>
         <language ident="es">Español</language>
+        <language ident="ca">Catalán</language>
       </langUsage>
       <textClass>
         <keywords xml:base="http://datos.bne.es/tema/">
@@ -127,10 +141,11 @@
     </profileDesc>
     <revisionDesc>
       <change when="2022-05-11" who="#PJ">Création du fichier TEI P5 et encodage du corps du
-            texte</change>
+        texte</change>
+<change when="2024-01-09" who="#EL">Add the IIIF links</change>
     </revisionDesc>
   </teiHeader>
-  <sourceDoc xml:id="automaticTranscription">
+  <facsimile><graphic url="varios/Varios_034_1.jpg/full/200,/0/default.jpg"/></facsimile><sourceDoc xml:id="automaticTranscription">
     <surface xml:id="Varios_034_1" type="page" cert="silver">
       <graphic url="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_034_1/full/full/0/default.jpg"/>
       <zone xml:id="Varios_034_1_BT221_1" n="1" type="CustomZone" subtype="impresorNum" points="1415,172 1415,264 1648,264 1648,172 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_034_1/1415,172,233,92/full/0/default" corresp="CustomZone:impresorNum">
@@ -954,15 +969,15 @@
       <zone xml:id="Varios_034_4_BT228_17" n="17" type="MarginTextZone" subtype="colophon" points="322,2372 331,2489 1824,2456 1806,2324 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_034_4/322,2324,1502,165/full/0/default" corresp="MarginTextZone:colophon">
         <zone xml:id="Varios_034_4_BT228_17_LT83_1" type="DefaultLine" subtype="none" points="339,2444 337,2379 383,2394 403,2381 405,2381 407,2381 410,2381 462,2392 513,2374 522,2370 524,2370 526,2370 528,2370 535,2372 554,2381 600,2370 618,2368 620,2368 622,2368 631,2370 677,2383 811,2381 835,2366 837,2366 840,2366 842,2366 844,2366 846,2366 859,2377 1046,2372 1127,2366 1136,2357 1142,2350 1144,2350 1147,2350 1149,2350 1151,2350 1166,2355 1188,2363 1230,2355 1283,2342 1285,2342 1287,2342 1309,2352 1316,2355 1335,2350 1399,2337 1401,2337 1469,2348 1506,2352 1528,2346 1572,2331 1574,2331 1577,2331 1634,2344 1651,2348 1684,2348 1691,2342 1708,2326 1710,2326 1713,2326 1715,2326 1796,2339 1800,2390 1800,2405 339,2460 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_034_4/337,2326,1463,134/full/0/default" corresp="DefaultLine">
           <path xml:id="Varios_034_4_BT228_17_LT83_1_1" points="342,2447 1801,2392 "/>
-          <line>Se halla de venta en casa de Antonio Bosch, calle del Bou de la plaza Nueva,
-                  n.° 3.</line>
+          <line>Se halla de venta en casa de Antonio Bosch, calle del Bou de la plaza Nueva, n.°
+            3.</line>
         </zone>
       </zone>
       <zone xml:id="Varios_034_4_BT228_18" n="18" type="MarginTextZone" subtype="colophon" points="304,2488 325,2587 1815,2572 1845,2447 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_034_4/304,2447,1541,140/full/0/default" corresp="MarginTextZone:colophon">
         <zone xml:id="Varios_034_4_BT228_18_LT83_1" type="DefaultLine" subtype="none" points="348,2536 348,2449 372,2464 449,2464 500,2447 502,2447 502,2447 502,2447 504,2447 671,2455 846,2438 846,2438 848,2438 951,2447 987,2431 993,2429 993,2429 995,2429 995,2429 995,2429 997,2429 997,2429 1013,2431 1092,2442 1109,2429 1109,2429 1112,2429 1112,2429 1112,2429 1114,2429 1114,2429 1116,2429 1116,2429 1118,2429 1164,2440 1215,2425 1223,2423 1226,2423 1226,2423 1226,2423 1228,2423 1254,2425 1375,2434 1539,2416 1585,2412 1585,2412 1811,2409 1820,2493 1822,2508 1800,2523 1798,2523 1798,2523 1798,2523 1796,2523 1796,2523 1796,2523 1794,2523 1794,2523 1792,2523 1792,2523 1759,2510 1748,2506 1695,2506 1688,2512 1675,2523 1675,2526 1675,2526 1673,2526 1673,2526 1671,2526 1671,2526 1671,2526 1669,2526 1669,2526 1666,2526 1627,2517 1605,2510 1572,2519 1552,2523 1550,2523 1550,2523 1548,2523 1548,2523 1548,2523 1546,2523 1546,2523 1546,2523 1537,2519 1524,2512 1337,2528 1283,2532 1283,2532 1280,2532 1280,2532 1278,2532 1272,2530 1230,2521 1151,2523 1136,2536 1133,2539 1133,2539 1131,2539 1131,2539 1131,2539 1129,2539 1129,2539 1129,2539 1127,2539 1127,2539 1116,2539 1057,2528 1026,2541 1008,2550 1008,2550 1006,2550 1006,2550 1006,2550 1004,2550 927,2545 800,2539 769,2552 765,2554 765,2554 765,2554 763,2554 763,2554 761,2554 761,2554 745,2554 653,2545 348,2569 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_034_4/348,2409,1474,160/full/0/default" corresp="DefaultLine">
           <path xml:id="Varios_034_4_BT228_18_LT83_1_1" points="350,2539 1821,2495 "/>
-          <line>Barcelona —Imp. de Narciso Ramirez, calle de Escudillers, núm. 40, piso
-                  principal. —186I.</line>
+          <line>Barcelona —Imp. de Narciso Ramirez, calle de Escudillers, núm. 40, piso principal.
+            —186I.</line>
         </zone>
       </zone>
     </surface>
@@ -971,16 +986,20 @@
     <body>
       <div>
         <div>
-          <pb n="1" source="Varios_034_1.jpg" facs="fedora_Varios_034_1/full/full/0/default.jpg"/>
+          <pb n="1" source="Varios_034_1.jpg" facs="varios/Varios_034_1.jpg/"/>
+
           <fw type="impresorNum">Núm. 14.</fw>
+
           <head type="primer_titulo" rend="negrita"><lb/>EL<lb/>CANTOR DE LAS HERMOSAS.</head>
-          <head type="subtitulo_parte"><lb/>TROVAS DE AMOR DEDICADAS AL BELLO SECSO POR UNOS
-                  <lb/>AFICIONADOS.</head>
-          <div n="1" type="parte">
-            <head type="titulo_cancion" rend="negrita"><lb/>41 EL ULTIMO ADIOS.</head>
-            <lg>
-              <l>I.</l>
-              <l>Adios, vírgen celestial</l>
+          <head type="subtitulo"><lb/>TROVAS DE AMOR DEDICADAS AL BELLO SECSO POR UNOS
+            <lb/>AFICIONADOS.</head>
+
+          <div n="1">
+            <head type="titulo_cancion"><lb/>41 <hi rend="negrita">EL ULTIMO ADIOS.</hi></head>
+
+            <lg n="1">
+              <head type="titulo_estrofa">I.</head>
+              <l rend="indent">Adios, vírgen celestial</l>
               <l>Que en el mundo peregrino</l>
               <l>Errado ya en mi camino</l>
               <l>Paso á otro mundo mejor.</l>
@@ -989,9 +1008,10 @@
               <l>Ah !... no maldigas mi lloro</l>
               <l>Que es el postrero de amor.</l>
             </lg>
-            <lg>
-              <l>II.</l>
-              <l>Tú fuiste el primer ensueño</l>
+
+            <lg n="2">
+              <head type="titulo_estrofa">II.</head>
+              <l rend="indent">Tú fuiste el primer ensueño</l>
               <l>De mi ardiente fantasia,</l>
               <l>Y tú serás, alma mia,</l>
               <l>Mi postrimero pensar;</l>
@@ -1000,11 +1020,14 @@
               <l>Ah ! qué amargo es, oh! querida,</l>
               <l>Sin ti á los cielos volar!</l>
             </lg>
-            <pb n="2" source="Varios_034_2.jpg" facs="fedora_Varios_034_2/full/full/0/default.jpg"/>
+
+            <pb n="2" source="Varios_034_2.jpg" facs="varios/Varios_034_2.jpg/"/>
+
             <fw type="paginaNum">54</fw>
-            <lg>
-              <l>II.</l>
-              <l>Adios ! oh ! mujer que adoro;</l>
+
+            <lg n="3">
+              <head type="titulo_estrofa">III.</head>
+              <l rend="indent">Adios ! oh ! mujer que adoro;</l>
               <l>El ángel vele tu sueño!</l>
               <l>Quédate en paz, ó mi dueño,</l>
               <l>En un mundo de dolor.</l>
@@ -1013,9 +1036,10 @@
               <l>Ay ! en tus horas doradas</l>
               <l>Ten compasion de mi amor.</l>
             </lg>
-            <lg>
-              <l>IV.</l>
-              <l>Ten compasion, y no olvides</l>
+
+            <lg n="4">
+              <head type="titulo_estrofa">IV.</head>
+              <l rend="indent">Ten compasion, y no olvides</l>
               <l>En tus ratos de ventura</l>
               <l>Que el néctar de la amargura</l>
               <l>Apuró mi corazon.</l>
@@ -1026,11 +1050,14 @@
             </lg>
             <p><lb/>—J. P.—</p>
           </div>
-          <div n="2" type="parte">
-            <head type="titulo_cancion"><lb/>LA NIT DE PASCUA<lb/>CANSÓ DE CARAMELLA.</head>
-            <lg>
-              <l>I.</l>
-              <l>Resurrexit aleluya !</l>
+
+          <div n="2">
+            <head type="titulo_cancion">LA NIT DE PASCUA.</head>
+            <head type="subtitulo_cancion">CANSÓ DE CARAMELLA.</head>
+
+            <lg n="1">
+              <head type="titulo_estrofa">I.</head>
+              <l rend="indent"><hi rend="cursiva">Resurrexit aleluya !</hi></l>
               <l>Cantan els ángels al cel,</l>
               <l>Y nosaltres en la terra</l>
               <l>Seguim els tons de sa veu!</l>
@@ -1039,9 +1066,10 @@
               <l>CORO. <hi rend="cursiva">Celebrarém que paseu</hi></l>
               <l rend="cursiva">Las Pascuas ab alegría.</l>
             </lg>
-            <lg>
-              <l>II.</l>
-              <l>Aquí teniu la sistella</l>
+
+            <lg n="2">
+              <head type="titulo_estrofa">II.</head>
+              <l rend="indent">Aquí teniu la sistella</l>
               <l>Guarnida ab llasets vermells,</l>
               <l>Que balla prop la finestra</l>
               <l>A nal so dels cascabells;</l>
@@ -1050,111 +1078,131 @@
               <l>CORO. <hi rend="cursiva">Celebrarém que paseu</hi></l>
               <l rend="cursiva">Las Pascuas ab alegría.</l>
             </lg>
-            <lg>
-              <l>III.</l>
-              <l>Volem fé unas cuantas truitas,</l>
+
+            <lg n="3">
+              <head type="titulo_estrofa">III.</head>
+              <l rend="indent">Volem fé unas cuantas truitas,</l>
               <l>Ya es anramull l' ansiam,</l>
-              <l>Puig dels ous de Vilafranca</l>
+              <l>Puig dels ous de <hi rend="cursiva">Vilafranca</hi></l>
               <l>De menjarne an tenim fam;</l>
               <l>Si hi corra alguna medalla</l>
               <l>Nons dará cap malaltía...</l>
-              <l>cono. Celebrarém que paseu</l>
-              <l>Las Pascuas ab alegria.</l>
+              <l>CORO. <hi rend="cursiva">Celebrarém que paseu</hi></l>
+              <l rend="cursiva">Las Pascuas ab alegria.</l>
             </lg>
-            <lg>
-              <l>IV.</l>
-              <l>Als que son aquí la porta</l>
+
+            <lg n="4">
+              <head type="titulo_estrofa">IV.</head>
+              <l rend="indent">Als que son aquí la porta</l>
               <l>Son uns fadrins mol honrats</l>
-              <l>Que de aqueixas Caramellas</l>
+              <l>Que de aqueixas <hi rend="cursiva">Caramellas</hi></l>
               <l>Molts ne surtirán casats;</l>
               <l>Si Deu ans guarda de guerras</l>
               <l>N'on quedará cap per tia...</l>
               <l>CORO. <hi rend="cursiva">Celebrarém que paseu</hi></l>
               <l rend="cursiva">Las Pascuas ab alegría.</l>
             </lg>
-            <l>V.</l>
-            <l>Adeu siau, miñonetas,</l>
-            <l>Nons pudem entretení;</l>
-            <l>Junt ab vostre para y mara,</l>
-            <l>Vostres jermans y el padrí,</l>
-            <l>Els mosus y las criadas</l>
-            <l>Y la demés compañía.</l>
-            <l>CORO. <hi rend="cursiva">Celebrarém que paseu</hi></l>
-            <l rend="cursiva">Las Pascuas ab alegría.</l>
+
+            <lg n="5">
+              <head type="titulo_estrofa">V.</head>
+              <l rend="indent">Adeu siau, miñonetas,</l>
+              <l>Nons pudem entretení;</l>
+              <l>Junt ab vostre para y mara,</l>
+              <l>Vostres jermans y el padrí,</l>
+              <l>Els mosus y las criadas</l>
+              <l>Y la demés compañía.</l>
+              <l>CORO. <hi rend="cursiva">Celebrarém que paseu</hi></l>
+              <l rend="cursiva">Las Pascuas ab alegría.</l>
+            </lg>
+
             <p><lb/>—P. G. R.—</p>
-            <pb n="3" source="Varios_034_3.jpg" facs="fedora_Varios_034_3/full/full/0/default.jpg"/>
-            <fw type="paginaNum">55</fw>
           </div>
-          <div n="3" type="parte">
-            <head type="titulo_cancion"><lb/>LA RESURRECCIÓ DEL SEÑOR.<lb/>ALTRES CARAMELLAS PER LA NIT DE
-                     PASCUA.</head>
-            <head type="titulo_estrofa">TORNADA.</head>
-            <lg>
+
+          <div n="3">
+            <pb n="3" source="Varios_034_3.jpg" facs="varios/Varios_034_3.jpg/"/>
+
+            <fw type="paginaNum">55</fw>
+
+            <head type="titulo_cancion" rend="negrita">LA RESURRECCIÓ DEL SEÑOR.</head>
+            <head type="subtitulo_cancion">ALTRES CARAMELLAS PER LA NIT DE PASCUA.</head>
+
+            <lg n="0">
+              <head type="titulo_estrofa">TORNADA.</head>
               <l>Celebreu la Pascua</l>
               <l>Ab tota alegría</l>
               <l>Que ha resucitat</l>
               <l>El fill de María.</l>
             </lg>
-            <lg>
-              <l>I.</l>
-              <l>Desperteu que es nit de broma :</l>
+
+            <lg n="1">
+              <head type="titulo_estrofa">I.</head>
+              <l rend="indent">Desperteu que es nit de broma :</l>
               <l>Ya descansareu demá,</l>
               <l>Puig que la voluntat nostra</l>
               <l>Aquí nos porta á cantá ;</l>
               <l>Dalt de la caña un sistell</l>
               <l>Es lo que portém per guia.</l>
-              <l>— Tornada.—</l>
+              <l rend="cursiva">—Tornada.—</l>
             </lg>
-            <lg>
-              <l>II.</l>
-              <l>Aqui teniu la sistella</l>
+
+            <lg n="2">
+              <head type="titulo_estrofa">II.</head>
+              <l rend="indent">Aqui teniu la sistella</l>
               <l>Guarnida ab llasos y flós,</l>
               <l>Que es per engrescá els arcanos</l>
               <l>De vostre cor preciós.</l>
               <l>Puséunoshi butifarras,</l>
               <l>Cansalada y ous del dia.</l>
-              <l>—Tornada.—</l>
+              <l rend="cursiva">—Tornada.—</l>
             </lg>
-            <lg>
-              <l>III.</l>
-              <l>Tú que ab tanta llaujaresa</l>
+
+            <lg n="3">
+              <head type="titulo_estrofa">III.</head>
+              <l rend="indent">Tú que ab tanta llaujaresa</l>
               <l>Fas ballá el sistell per alt,</l>
               <l>Cuidado á trencá algun vidre</l>
               <l>Que no venim per fé mal</l>
               <l>Sols venim per desterrá</l>
               <l>Dels cors la melancolía.</l>
-              <l>—Tornada.—</l>
+              <l rend="cursiva">—Tornada.—</l>
             </lg>
-            <lg>
-              <l>IV.</l>
-              <l>Noyas com las de aquet poble</l>
+
+            <lg n="4">
+              <head type="titulo_estrofa">IV.</head>
+              <l rend="indent">Noyas com las de aquet poble</l>
               <l>No ni há en tot aqueix plá,</l>
               <l>Estem certs que ya la música</l>
               <l>Als fá ganas de ballá</l>
               <l>Ab igual punt ans calsém...</l>
               <l>Demá será un altre dia.</l>
-              <l>—Tornada—</l>
+              <l rend="cursiva">—Tornada—</l>
             </lg>
-            <lg>
-              <l>V.</l>
-              <l>Fadrins y amos de la casa,</l>
+
+            <lg n="5">
+              <head type="titulo_estrofa">V.</head>
+              <l rend="indent">Fadrins y amos de la casa,</l>
               <l>Noyas y hasta l'aprenen,</l>
               <l>Ab mes salut y pesetas</l>
               <l>Ans veyém tots l'añ vinent.</l>
               <l>Y ara ab lo vostre permís</l>
               <l>Seguirém la nostra via.</l>
-              <l>—Tornada.—</l>
+              <l rend="cursiva">—Tornada.—</l>
             </lg>
             <p><lb/>—P. G. y R.—</p>
-            <pb n="4" source="Varios_034_4.jpg" facs="fedora_Varios_034_4/full/full/0/default.jpg"/>
-            <fw type="paginaNum">56</fw>
           </div>
-          <div>
-            <head type="titulo_cancion"><lb/>44 Á MI AMADA. <lb/>HIMNO COREADO.</head>
-            <div>
+
+          <div n="4">
+            <pb n="4" source="Varios_034_4.jpg" facs="varios/Varios_034_4.jpg/"/>
+
+            <fw type="paginaNum">56</fw>
+
+            <head type="titulo_cancion" rend="negrita">44 Á MI AMADA.</head>
+            <head type="subtitulo_cancion" rend="negrita">HIMNO COREADO.</head>
+
+            <lg n="1">
               <head type="titulo_estrofa"><lb/>CORO DE INTRODUCCION.</head>
               <lg>
-                <l>Salud, amable Elisa,</l>
+                <l rend="indent">Salud, amable Elisa,</l>
                 <l>Hermosa cual el sol !</l>
                 <l>Tu faz divina muestra</l>
                 <l>Que á miles eclipsó :</l>
@@ -1164,7 +1212,7 @@
                 <l>Que pulsa tu cantor.</l>
               </lg>
               <lg>
-                <l>Los sinceros acentos</l>
+                <l rend="indent">Los sinceros acentos</l>
                 <l>Que el aura á tí llevó,</l>
                 <l>Son eco fiel y puro</l>
                 <l>De amante corazon :</l>
@@ -1173,8 +1221,9 @@
                 <l>Cual preces que se elevan</l>
                 <l>Al trono del Señor.</l>
               </lg>
-            </div>
-            <div>
+            </lg>
+
+            <lg n="2">
               <head type="titulo_estrofa">ᑕORO GENERAL.</head>
               <lg>
                 <l>A sus plantas, ó ninfas hermosas,</l>
@@ -1184,11 +1233,12 @@
                 <l>Con coronas de mirto y de rosas</l>
                 <l>Que ceñir á su sien virginal.</l>
               </lg>
-            </div>
-            <div>
+            </lg>
+
+            <lg n="3">
               <head type="titulo_estrofa">(DUO.)</head>
               <lg>
-                <l>Hada amiga que en plácida noche</l>
+                <l><hi rend="cursiva">Hada</hi> amiga que en plácida noche</l>
                 <l>Só tus alas de gasa esmaltada,</l>
                 <l>En el seno d'e ELISA adorada</l>
                 <l>Depositas poética flor,</l>
@@ -1199,8 +1249,9 @@
                 <l>Y en la faz peregrina de ELISA</l>
                 <l>Sella un beso impregnado de amor</l>
               </lg>
-            </div>
-            <div>
+            </lg>
+
+            <lg n="4">
               <head type="titulo_estrofa">CORO FINAL.</head>
               <lg>
                 <l>A sus plantas, ó ninfas hermosas,</l>
@@ -1210,19 +1261,23 @@
                 <l>Con coronas de mirto y de rosas</l>
                 <l>Que ceñir á su sien virginal.</l>
               </lg>
-              <p><lb/>—J. A. C.—</p>
-              <p><lb/>(ES PROPIEDAD.)</p>
-            </div>
-          </div>
-          <div type="colofon_vendedor">
-            <p><lb/>Se halla de venta en casa de Antonio Bosch, calle del Bou de la plaza
-                     Nueva, n.° 3.</p>
-          </div>
-          <div type="colofon_impresora">
-            <p><lb/>Barcelona —Imp. de Narciso Ramirez, calle de Escudillers, núm. 40, piso
-                     principal. —186I.</p>
+            </lg>
+
+            <p><lb/>—J. A. C.—</p>
+            <p><lb/>(ES PROPIEDAD.)</p>
           </div>
         </div>
+        
+        <div type="colofon_vendedor">
+          <p rend="cursiva"><lb/>Se halla de venta en casa de Antonio Bosch, calle del Bou de la plaza Nueva, n.°
+            3.</p>
+        </div>
+
+        <div type="colofon_impresor">
+          <p><lb/>Barcelona —Imp. de Narciso Ramirez, calle de Escudillers, núm. 40, piso principal.
+            —1861.</p>
+        </div>
+
       </div>
     </body>
   </text>

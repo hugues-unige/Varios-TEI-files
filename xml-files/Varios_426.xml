@@ -4,8 +4,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>HISTORIA MARAVILLOSA DE ROBERPO EL DIABLO, HIJO DEL DUQUE DE
-                              NORMANDIA, EL CUAL DESPUES FUE LLAMADO HOMBRE DE DIOS.</title>
+        <title>HISTORIA MARAVILLOSA DE ROBERPO EL DIABLO</title>
         <respStmt>
           <name xml:id="PJ">Pauline Jacsont</name>
           <resp>Codificación TEI</resp>
@@ -31,9 +30,9 @@
             <p/>
           </editionStmt>
           <publicationStmt>
-            <publisher>Imprenta de Marés y Compañía</publisher>
+            <publisher>José María Marés</publisher>
             <pubPlace ref="https://www.geonames.org/3117735/madrid.html">Madrid</pubPlace>
-            <date cert="high">[s.a]</date>
+            <date cert="low" when="1800-01-01">[s.a.]</date>
           </publicationStmt>
         </biblFull>
         <msDesc>
@@ -42,6 +41,7 @@
             <settlement>Genève</settlement>
             <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"/>
                                     </repository>
+            <collection>Colección Varios</collection>
             <idno type="cote"/>
             <idno type="DOI">10.5281/zenodo.6795062</idno>
             <altIdentifier>
@@ -99,7 +99,7 @@
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR non corregido</p>
+          <p>OCR no corregido</p>
         </correction>
         <normalization>
           <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto
@@ -124,8 +124,10 @@
     <revisionDesc>
       <change when="2023-12-28" who="#PJ">Création du fichier TEI P5 et encodage du
                         corps du texte</change>
+<change when="2024-01-09" who="#EL">Add the IIIF links</change>
     </revisionDesc>
   </teiHeader>
+  <facsimile><graphic url="varios/Varios_426_1.jpg/full/200,/0/default.jpg"/></facsimile>
   <sourceDoc xml:id="automaticTranscription">
     <surface xml:id="Varios_426_1" type="page" cert="silver">
       <graphic url="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_426_1/full/full/0/default.jpg"/>
@@ -185,7 +187,7 @@
       <graphic url="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_426_2/full/full/0/default.jpg"/>
       <zone xml:id="Varios_426_2_BT226_1" n="1" type="MainZone" subtype="none" points="337,1041 1007,1041 1007,1166 337,1166 337,1041 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_426_2/337.0,1041.0,670.0,125.0/full/0/default" corresp="MainZone">
         <zone xml:id="Varios_426_2_BT226_1__1" type="DefaultLine" subtype="none" points="383,1113 383,1138 432,1128 462,1138 464,1138 465,1138 466,1139 528,1139 528,1138 529,1138 531,1138 531,1137 532,1137 542,1127 574,1127 652,1132 686,1135 688,1135 715,1131 744,1127 750,1130 764,1137 765,1137 767,1137 804,1135 805,1135 806,1135 806,1134 812,1128 816,1126 826,1128 851,1135 853,1135 854,1135 856,1135 883,1127 890,1126 959,1126 961,1109 958,1074 924,1070 922,1070 921,1070 920,1070 916,1074 907,1081 876,1081 854,1074 843,1070 842,1070 841,1070 823,1074 787,1081 775,1074 771,1070 770,1070 768,1070 767,1070 742,1074 685,1083 573,1083 550,1075 548,1075 547,1075 546,1075 520,1083 488,1074 487,1074 486,1074 484,1074 447,1083 431,1074 431,1072 430,1072 428,1072 427,1072 382,1072 383,1113 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_426_2/382.0,1070.0,579.0,69.0/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_426_2_BT226_1__1_1" points="383,1113 961,1109 " corresp=" &#10;                                                  DefaultLine"/>
+          <path xml:id="Varios_426_2_BT226_1__1_1" points="383,1113 961,1109 " corresp=" &#xA;                                                  DefaultLine"/>
           <line>Autorizada segun la ley vigente.</line>
         </zone>
       </zone>
@@ -6598,7 +6600,7 @@
   <text>
     <body>
       <div>
-        <pb n="1" source="Varios_426_1.jpg" facs="fedora_Varios_426_1/full/full/0/default.jpg"/>
+        <pb n="1" source="Varios_426_1.jpg" facs="varios/Varios_426_1.jpg/"/>
         <fw type="numeroPliego">(CUATRO PLIEGOS.)</fw>
         <head type="primer_titulo"><lb/><hi rend="negrita">HISTORIA MARAVILLOSA</hi><lb/><hi rend="negrita">DE</hi><lb/><hi rend="negrita">ROBERPO EL
                                     DIABLO</hi>,<lb/><hi rend="negrita">HIJO DEL DUQUE DE
@@ -6613,11 +6615,11 @@
           <p><lb/><hi rend="negrita">Madrid.</hi><lb/>Imprenta de Marés y
                                     compañía, calle de la Encomienda, núm.19.</p>
         </div>
-        <pb n="2" source="Varios_426_2.jpg" facs="fedora_Varios_426_2/full/full/0/default.jpg"/>
+        <pb n="2" source="Varios_426_2.jpg" facs="varios/Varios_426_2.jpg/"/>
         <div type="propiedad">
           <p><lb/>Autorizada segun la ley vigente.</p>
         </div>
-        <pb n="3" source="Varios_426_3.jpg" facs="fedora_Varios_426_3/full/full/0/default.jpg"/>
+        <pb n="3" source="Varios_426_3.jpg" facs="varios/Varios_426_3.jpg/"/>
         <div type="capitulo" n="1">
           <head type="primer_titulo"><lb/>HISTORIA MARAVILLOSA<lb/>DE<lb/>ROBERTO EL DIABLO.</head>
           <head type="titulo_parte"><lb/>CAPITULO PRIMERO.</head>
@@ -6643,7 +6645,7 @@
                                     casar que le fuese mas honroso y<lb/>de provecho para sus
                                     Estados, y que pues su contento era el de satisfacer<lb/>sus
                                     ruegos, les fijaba un término para reflexionar en ello.</p>
-          <pb n="4" source="Varios_426_4.jpg" facs="fedora_Varios_426_4/full/full/0/default.jpg"/>
+          <pb n="4" source="Varios_426_4.jpg" facs="varios/Varios_426_4.jpg/"/>
           <fw type="paginaNum">— 4 —</fw>
           <p><lb/>De allí á pocos dias se le presentaron unos comisionados,
                                     y le di-<lb/>jeron que el duque de Borgoña tenia una hija, muy
@@ -6696,7 +6698,7 @@
                                     caballeros y toda la demas gente,<lb/>quedando el duque solo,
                                     que muy poco se le daba por el ciervo, por-<lb/>que tenia el
                                     corazon muy turbado y envuelto en otros diversos pen-</p>
-          <pb n="5" source="Varios_426_5.jpg" facs="fedora_Varios_426_5/full/full/0/default.jpg"/>
+          <pb n="5" source="Varios_426_5.jpg" facs="varios/Varios_426_5.jpg/"/>
           <fw type="paginaNum">— 5 —</fw>
           <p><lb/>- 5 -<lb/>samientos, siendo tanto lo que sentia y oprimia
                                     su corazon que casi<lb/>cayó en una especie de abatimiento.
@@ -6745,7 +6747,7 @@
                                     que gran parte<lb/>de él se arruinó, y pensaron los que en él
                                     estaban perder las vidas;<lb/>mas por la gracia de Dios y la
                                     intercesion de nuestra Señora, cesó la</p>
-          <pb n="6" source="Varios_426_6.jpg" facs="fedora_Varios_426_6/full/full/0/default.jpg"/>
+          <pb n="6" source="Varios_426_6.jpg" facs="varios/Varios_426_6.jpg/"/>
           <fw type="paginaNum">— 6 —</fw>
           <p><lb/>tempestad. Fué llevado el niño á bautizar, y le pusieron
                                     por nom-<lb/>bre Roberto; las jentes acudian á verlo por
@@ -6799,7 +6801,7 @@
                                     padres al maes-<lb/>tro, y queriéndole este castigar, dió á
                                     su discipulo un bofeton, pero él<lb/>sacando su cuchillo, le
                                     dió tan fuerte estocada en el pecho que cayó</p>
-          <pb n="7" source="Varios_426_7.jpg" facs="fedora_Varios_426_7/full/full/0/default.jpg"/>
+          <pb n="7" source="Varios_426_7.jpg" facs="varios/Varios_426_7.jpg/"/>
           <fw type="paginaNum">— 7 —</fw>
           <p><lb/>tendido en el suelo; despues se marchó maldiciendo la
                                     ciencia y quien<lb/>se la enseñaba, diciendo que de allí en
@@ -6848,7 +6850,7 @@
                                     este<lb/>acto se requeria. De allí á algunos dias, el duque
                                     hizo publicar unas jus-<lb/>tas, á las que vinieron damas y
                                     caballeros de diversas partes; lle-</p>
-          <pb n="8" source="Varios_426_8.jpg" facs="fedora_Varios_426_8/full/full/0/default.jpg"/>
+          <pb n="8" source="Varios_426_8.jpg" facs="varios/Varios_426_8.jpg/"/>
           <fw type="paginaNum">— 8 —</fw>
           <p><lb/>gado el dia señalado, Roberto fue armado de muy lucidas
                                     armas, y<lb/>montando en un brioso caballo entró en las justas,
@@ -6902,7 +6904,7 @@
                                     camino que hasta<lb/>ahora ha llevado, y amenazándole que le
                                     castigareis posponiendo al<lb/>amor patemal todo el rigor de un
                                     padre irritado, por el primer yerro</p>
-          <pb n="9" source="Varios_426_9.jpg" facs="fedora_Varios_426_9/full/full/0/default.jpg"/>
+          <pb n="9" source="Varios_426_9.jpg" facs="varios/Varios_426_9.jpg/"/>
           <fw type="paginaNum">— 9 —</fw>
           <p><lb/>que en adelante cometiese; y tal vez el temor le desviará de
                                     lo que<lb/>vuestra lenidad ni ruegos de los vasallos pudiera
@@ -6955,7 +6957,7 @@
                                     desesperacion. lba por<lb/>el monte como leon rabioso dando
                                     gritos y bramidos, llamando á gran-</p>
           <fw type="signaturas">2</fw>
-          <pb n="10" source="Varios_426_10.jpg" facs="fedora_Varios_426_10/full/full/0/default.jpg"/>
+          <pb n="10" source="Varios_426_10.jpg" facs="varios/Varios_426_10.jpg/"/>
           <fw type="paginaNum">— 10 —</fw>
           <p><lb/>des voces los diablos, ofreciéndoles su cuerpo y alma; y á
                                     ellos sola-<lb/>mente pedia ayuda y favor, y con tales
@@ -7008,7 +7010,7 @@
                                     pri-<lb/>meras habitaciones comenzaron á decir á grandes
                                     voces: ¡que viene<lb/>Roberto el Diablo! y huyendo de él se
                                     encerraban en las cámaras,</p>
-          <pb n="11" source="Varios_426_11.jpg" facs="fedora_Varios_426_11/full/full/0/default.jpg"/>
+          <pb n="11" source="Varios_426_11.jpg" facs="varios/Varios_426_11.jpg/"/>
           <fw type="paginaNum">—11—</fw>
           <p><lb/>pero Roberto sin seguirles ni hacer demostracion de
                                     causarles mal alguno;<lb/>así anduvo Roberto por el castillo,
@@ -7062,7 +7064,7 @@
                                     duque su padre y le dijese que le pedia per-<lb/>don de sus
                                     yerros. Decidle, añadió, que parto á Roma para ponerme<lb/>á
                                     los pies del Padre Santo á confesar todos mis pecados.</p>
-          <pb n="12" source="Varios_426_12.jpg" facs="fedora_Varios_426_12/full/full/0/default.jpg"/>
+          <pb n="12" source="Varios_426_12.jpg" facs="varios/Varios_426_12.jpg/"/>
           <fw type="paginaNum">—12—</fw>
           <p><lb/>Así llorando y sollozando se salió del castillo y montó en
                                     su ca-<lb/>ballo, quedando la duquesa muy asombrada de lo que
@@ -7116,7 +7118,7 @@
                                     al sueño, fué y tomó<lb/>presto una hacha de armas, y empezó
                                     á dar hachazos y herir á dis-<lb/>
                               </p>
-          <pb n="13" source="Varios_426_13.jpg" facs="fedora_Varios_426_13/full/full/0/default.jpg"/>
+          <pb n="13" source="Varios_426_13.jpg" facs="varios/Varios_426_13.jpg/"/>
           <fw type="paginaNum">— 13—</fw>
           <p><lb/>crecion sin dar lugar á que dispertasen y se defendiesen,
                                     hasta que los der-<lb/>ribó á todos en el suelo; y cuando ya
@@ -7166,7 +7168,7 @@
                                     alegría; partió para el monte é hizo dar todos los bienes que
                                     halló<lb/>en la casa á sus respectivos dueños. Dejemos ahora
                                     al duque, y siga-<lb/>mos á Roberto en su peregrinacion.</p>
-          <pb n="14" source="Varios_426_14.jpg" facs="fedora_Varios_426_14/full/full/0/default.jpg"/>
+          <pb n="14" source="Varios_426_14.jpg" facs="varios/Varios_426_14.jpg/"/>
           <fw type="paginaNum">— 14 —</fw>
           <p><lb/>Después de muchas penalidades y cansancio llego á Roma
                                     Rober-<lb/>to el dia de Jueves Santo, en ocasion que el Padre
@@ -7220,7 +7222,7 @@
                                     interrogarle mas larga-<lb/>mente. Venida la noche, el ermitaño
                                     hizo una cama junto á la capilla<lb/>con un poco de heno para
                                     que durmiera Roberto, y él estuvo toda la</p>
-          <pb n="15" source="Varios_426_15.jpg" facs="fedora_Varios_426_15/full/full/0/default.jpg"/>
+          <pb n="15" source="Varios_426_15.jpg" facs="varios/Varios_426_15.jpg/"/>
           <fw type="paginaNum">— 15 —</fw>
           <p><lb/>noche en oracion rogando á Dios por alcanzar el perdon de
                                     su penitente.<lb/>Ya iba á amanecer cuando el santo ermitaño
@@ -7270,7 +7272,7 @@
                                     calles, y otros le apedreaban sin dejarle descansar, en fin,
                                     era<lb/>objeto de burla para todo el mundo; mas Roberto nunca
                                     les decia nada,</p>
-          <pb n="16" source="Varios_426_16.jpg" facs="fedora_Varios_426_16/full/full/0/default.jpg"/>
+          <pb n="16" source="Varios_426_16.jpg" facs="varios/Varios_426_16.jpg/"/>
           <fw type="paginaNum">— 16 —</fw>
           <p><lb/>ni jamás les mostraba mal semblante; y estando un dia
                                     delante del<lb/>palacio del emperador muy acosado del hambre;
@@ -7322,7 +7324,7 @@
                                     cama en que<lb/>durmiese, mas Roberto nunca quiso dejar aquel
                                     lugar por mas que le<lb/>rogasen.<lb/>Es ciertamente cosa
                                     admirable este hombre que desde su niñez se</p>
-          <pb n="17" source="Varios_426_17.jpg" facs="fedora_Varios_426_17/full/full/0/default.jpg"/>
+          <pb n="17" source="Varios_426_17.jpg" facs="varios/Varios_426_17.jpg/"/>
           <fw type="paginaNum">— 17—</fw>
           <p><lb/>habia criado en grandes vicios y deleites, durmiendo en
                                     camas mulli-<lb/>das, habitando en palacios, vestir ropas muy
@@ -7376,7 +7378,7 @@
                                     todo lo cual llegaba á noticia del emperador, dándole
                                     motivo<lb/>para reirse y causando diversion en los de su
                                     córte.<lb/>3</p>
-          <pb n="18" source="Varios_426_18.jpg" facs="fedora_Varios_426_18/full/full/0/default.jpg"/>
+          <pb n="18" source="Varios_426_18.jpg" facs="varios/Varios_426_18.jpg/"/>
           <fw type="paginaNum">— 18 —</fw>
         </div>
         <div type="capitulo" n="6">
@@ -7426,7 +7428,7 @@
                                     la<lb/>batalla, temiendo de que sus armas llevasen la peor
                                     parte, y tuvo por<lb/>mas oportuno fortificarse en el lugar,
                                     aguardando que le viniese so-</p>
-          <pb n="19" source="Varios_426_19.jpg" facs="fedora_Varios_426_19/full/full/0/default.jpg"/>
+          <pb n="19" source="Varios_426_19.jpg" facs="varios/Varios_426_19.jpg/"/>
           <fw type="paginaNum">— 19 —</fw>
           <p><lb/>corro de sus parciales; mas conociendo el almirante la
                                     crítica situacion<lb/>en que se hallaba su contrario, mandó
@@ -7481,7 +7483,7 @@
                                     escabulló de entre la gente, y secretamente se volvió á
                                     Roma,<lb/>se metió por la puerta del jardin que halló aun
                                     abierta, entró en él y</p>
-          <pb n="20" source="Varios_426_20.jpg" facs="fedora_Varios_426_20/full/full/0/default.jpg"/>
+          <pb n="20" source="Varios_426_20.jpg" facs="varios/Varios_426_20.jpg/"/>
           <fw type="paginaNum">—— 20 ——</fw>
           <p><lb/>desarmóse muy presto; puso las armas encima de la silla
                                     del caballo,<lb/>se metió en el palacio y el caballo
@@ -7532,7 +7534,7 @@
                                     mandó llamar unas entendidas señoras que tenian el<lb/>cargo
                                     de enseñarla y servirla, y las dijo, que observasen bien
                                     atentas</p>
-          <pb n="21" source="Varios_426_21.jpg" facs="fedora_Varios_426_21/full/full/0/default.jpg"/>
+          <pb n="21" source="Varios_426_21.jpg" facs="varios/Varios_426_21.jpg/"/>
           <fw type="paginaNum">—21—</fw>
           <p><lb/>todas las señas de su hija, y que viesen si entendian lo que
                                     queria<lb/>decir; á lo que las damas contestaron: señor, V. M.
@@ -7585,7 +7587,7 @@
                                     que la darian el mismo crédito que anteriormen-<lb/>te; y
                                     Roberto se entró en el palacio haciendo estravagancias
                                     como<lb/>siempre lo tenia que hacer, por precision.</p>
-          <pb n="22" source="Varios_426_22.jpg" facs="fedora_Varios_426_22/full/full/0/default.jpg"/>
+          <pb n="22" source="Varios_426_22.jpg" facs="varios/Varios_426_22.jpg/"/>
           <fw type="paginaNum">— 22—</fw>
           <p><lb/>Venido el emperador de la batalla conseguida la gran
                                     victoria,<lb/>mandó hacer una escrupulosa pesquisa en todos los
@@ -7639,7 +7641,7 @@
                                     persona<lb/>alguna, salvo de la princesa, que estaba siempre en
                                     acecho desde la<lb/>acostumbrada ventana. Cuando se hubo
                                     desarmado, desapareció el</p>
-          <pb n="23" source="Varios_426_23.jpg" facs="fedora_Varios_426_23/full/full/0/default.jpg"/>
+          <pb n="23" source="Varios_426_23.jpg" facs="varios/Varios_426_23.jpg/"/>
           <fw type="paginaNum">—23—</fw>
           <p>lb/&gt;caballo y las armas. Pensando que no le veia nadie, se arrimó
                                     á un<lb/>árbol para curar su herida, sacó el hierro que tenia
@@ -7672,7 +7674,7 @@
                                     imperio.</p>
           <p rend="negrita"><lb/>EL ALMIRANTE SE PRESENTA A LA CÓRTE FINGIENDO SER EL
                                     VENCEDOR.</p>
-          <pb n="24" source="Varios_426_24.jpg" facs="fedora_Varios_426_24/full/full/0/default.jpg"/>
+          <pb n="24" source="Varios_426_24.jpg" facs="varios/Varios_426_24.jpg/"/>
           <fw type="paginaNum">— 24 —</fw>
         </div>
         <div type="capitulo" n="9">
@@ -7720,7 +7722,7 @@
                                     entre los perros, y sentarlo al-<lb/>gun dia en la imperial
                                     silla, quiso que el que era menospreciado y es-<lb/>carnecido de
                                     todos, fuese por su gran humildad ensalzado, acatado y</p>
-          <pb n="25" source="Varios_426_25.jpg" facs="fedora_Varios_426_25/full/full/0/default.jpg"/>
+          <pb n="25" source="Varios_426_25.jpg" facs="varios/Varios_426_25.jpg/"/>
           <fw type="paginaNum">— 25 —</fw>
           <p><lb/>honrado de todos. Estando pues, el almirante continuando
                                     sus preten-<lb/>siones en la ciudad de Roma, como dijimos, el
@@ -7775,7 +7777,7 @@
                                     merece; y la princesa le contestó: Su San-<lb/>tidad verá en
                                     el palacio de mi padre atestiguada la verdad de todo
                                     lo<lb/>4</p>
-          <pb n="26" source="Varios_426_26.jpg" facs="fedora_Varios_426_26/full/full/0/default.jpg"/>
+          <pb n="26" source="Varios_426_26.jpg" facs="varios/Varios_426_26.jpg/"/>
           <fw type="paginaNum">— 26 —</fw>
           <p><lb/>que digo, y á mayor abundamiento verá el hierro de la lanza,
                                     como <lb/>asimismo el propio caballero que con su esfuerzo y
@@ -7828,7 +7830,7 @@
                                     complacida, con la esperanza de que aquel habia de ser <lb/>su
                                     marido; porque sus comportamientos y grandes hazañas le
                                     habian</p>
-          <pb n="27" source="Varios_426_27.jpg" facs="fedora_Varios_426_27/full/full/0/default.jpg"/>
+          <pb n="27" source="Varios_426_27.jpg" facs="varios/Varios_426_27.jpg/"/>
           <fw type="paginaNum">— 27 —</fw>
           <p><lb/>ya introducido algunas centellas de amoroso fuego en sus
                                     castas entra-<lb/>ñas, y su graciosa habla fué mayor motivo
@@ -7882,7 +7884,7 @@
                                     licen-<lb/>cia, y se partieron los dos esposos de Roma, con muy
                                     grandes preces<lb/>y dádivas, acompañados de una numerosa y
                                     lucida comitiva.</p>
-          <pb n="28" source="Varios_426_28.jpg" facs="fedora_Varios_426_28/full/full/0/default.jpg"/>
+          <pb n="28" source="Varios_426_28.jpg" facs="varios/Varios_426_28.jpg/"/>
           <fw type="paginaNum">—28 —</fw>
         </div>
         <div type="capitulo" n="10">
@@ -7931,7 +7933,7 @@
                                     ro-<lb/>manos con un numeroso ejército, abrasando villas y
                                     lugares, matando<lb/>las gentes indefensas, talando campos y
                                     cometiendo toda especie de</p>
-          <pb n="29" source="Varios_426_29.jpg" facs="fedora_Varios_426_29/full/full/0/default.jpg"/>
+          <pb n="29" source="Varios_426_29.jpg" facs="varios/Varios_426_29.jpg/"/>
           <fw type="paginaNum">— 29—</fw>
           <p><lb/>atrocidades; y como el emperador tuviese mayor confianza en
                                     el valor<lb/>y disposicion de su yerno el duque Roberto, que en
@@ -7984,7 +7986,7 @@
                                     caballero dirige la lanza sobre su contrario; el duque evita el
                                     golpe<lb/>y de un revés desguarreta al impetuoso animal. El
                                     guerrero cae. Ro-</p>
-          <pb n="30" source="Varios_426_30.jpg" facs="fedora_Varios_426_30/full/full/0/default.jpg"/>
+          <pb n="30" source="Varios_426_30.jpg" facs="varios/Varios_426_30.jpg/"/>
           <fw type="paginaNum">— 3O —</fw>
           <p><lb/>berto descarga el brazo sobre él y le hace morder la
                                     tierra hiriéndole<lb/>gravemente; luego mandó á los suyos que
@@ -8038,7 +8040,7 @@
                                     arrojan con ardor contra sus enemigos, los arrollan<lb/>por
                                     todas partes y los ponen en precipitada fuga, dejando la
                                     tierra<lb/>sembrada de muertos.</p>
-          <pb n="31" source="Varios_426_31.jpg" facs="fedora_Varios_426_31/full/full/0/default.jpg"/>
+          <pb n="31" source="Varios_426_31.jpg" facs="varios/Varios_426_31.jpg/"/>
           <fw type="paginaNum">— 31 —</fw>
           <p><lb/>Sus nobles escuadrones le victorearon, y en perfecta
                                     formacion to-<lb/>maron el camino de Roma, donde recibidos con
@@ -8089,7 +8091,7 @@
                                     de las virtudes proporciona en la tierra.</p>
           <trailer>FIN.</trailer>
         </div>
-        <pb n="32" source="Varios_426_32.jpg" facs="fedora_Varios_426_32/full/full/0/default.jpg"/>
+        <pb n="32" source="Varios_426_32.jpg" facs="varios/Varios_426_32.jpg/"/>
         <div type="productos_a_la_venta">
           <p><hi rend="negrita"><lb/>HISTORIAS<lb/>QUE SE HALLAN EN EL MISMO
                                           DESPACHO</hi>. <lb/>Pliegos. <lb/>Oliveros de Castilla y

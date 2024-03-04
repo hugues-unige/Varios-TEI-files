@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../Schema/oddPliego_varios.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:alto="http://www.loc.gov/standards/alto/ns-v4#" xml:id="Varios_175">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Varios_175">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -11,8 +11,7 @@
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <authority role="rightsHolder">Bibliothèque Universitaire de
-                              Genève</authority>
+        <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
         <availability status="restricted">
           <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
         </availability>
@@ -20,17 +19,17 @@
       <sourceDesc>
         <biblFull>
           <titleStmt>
-            <title type="titulo_completo">Nova contra-dansa Sobra mutius
-                                          dels Cascus y vestits Municipals</title>
+            <title type="titulo_completo">Nova contra-dansa Sobra mutius dels Cascus y vestits
+              Municipals</title>
             <title type="titulo_breve">Nova contra-dansa</title>
           </titleStmt>
           <editionStmt>
             <p/>
           </editionStmt>
           <publicationStmt>
-            <publisher>[s.n]</publisher>
-            <pubPlace/>
-            <date>[s.a]</date>
+            <publisher>[s.n.]</publisher>
+            <pubPlace>[s.l.]</pubPlace>
+            <date cert="low" when="1800-01-01">[s.a.]</date>
           </publicationStmt>
         </biblFull>
         <msDesc>
@@ -38,7 +37,8 @@
             <country>Suisse</country>
             <settlement>Genève</settlement>
             <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"/>
-                                    </repository>
+            </repository>
+            <collection>Colección Varios</collection>
             <idno type="cote"/>
             <idno type="DOI">10.5281/zenodo.6594922</idno>
             <altIdentifier>
@@ -46,10 +46,19 @@
             </altIdentifier>
           </msIdentifier>
           <msContents>
-            <summary/>
+            <summary>Tres canciones</summary>
             <msItem>
-              <locus/>
-              <title/>
+              <locus>1-2</locus>
+              <title>Nova contra-dansa Sobra mutius dels Cascus y vestits Municipals</title>
+            </msItem>
+            <msItem>
+              <locus>3-4</locus>
+              <title>Gran schotichs nous dels burots y los seus vestits trets per un cego
+                tranquil</title>
+            </msItem>
+            <msItem>
+              <locus>4</locus>
+              <title>Tango de toros de punta</title>
             </msItem>
           </msContents>
           <physDesc>
@@ -67,7 +76,7 @@
               </layoutDesc>
             </objectDesc>
             <decoDesc>
-              <summary n="1">Uno grabado (p.1) </summary>
+              <summary n="1">Un grabado (p.1)</summary>
               <decoNote type="lista_grabados">
                 <list>
                   <item corresp="grabado_v_175_1.xml">grabado_v_175_1</item>
@@ -90,18 +99,17 @@
     </fileDesc>
     <encodingDesc>
       <projectDesc>
-        <p>Este archivo fue creado en el marco del proyecto Desenrollando el
-                              Cordel/Démêler le cordel/Untangling the cordel, dirigido por la
-                              profesora Constance Carta de la Universidad de Ginebra, con el apoyo
-                              de la Fundación filantrópica Famille Sandoz-Monique de Meuron.</p>
+        <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+          cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la Universidad
+          de Ginebra, con el apoyo de la Fundación filantrópica Famille Sandoz-Monique de
+          Meuron.</p>
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR non corregido</p>
+          <p>OCR no corregido</p>
         </correction>
         <normalization>
-          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto
-                                    original.</p>
+          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
         </normalization>
         <punctuation>
           <p>Se conserva la puntuación original.</p>
@@ -111,6 +119,7 @@
     <profileDesc>
       <langUsage>
         <language ident="es">Español</language>
+        <language ident="ca">Catalán</language>
       </langUsage>
       <textClass>
         <keywords xml:base="http://datos.bne.es/tema/">
@@ -122,10 +131,14 @@
       </textClass>
     </profileDesc>
     <revisionDesc>
-      <change when="2023-04-13" who="#PJ">Création du fichier TEI P5 et encodage du
-                        corps du texte</change>
+      <change when="2023-04-13" who="#PJ">Création du fichier TEI P5 et encodage du corps du
+        texte</change>
+      <change when="2024-01-09" who="#EL">Add the IIIF links</change>
     </revisionDesc>
   </teiHeader>
+  <facsimile>
+    <graphic url="varios/Varios_175_1.jpg/full/200,/0/default.jpg"/>
+  </facsimile>
   <sourceDoc xml:id="automaticTranscription">
     <surface xml:id="Varios_175_1" type="page" cert="silver">
       <graphic url="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_175_1/full/full/0/default.jpg"/>
@@ -968,217 +981,258 @@
   <text>
     <body>
       <div>
-        <pb n="1" source="Varios_175_1.jpg" facs="fedora_Varios_175_1/full/full/0/default.jpg"/>
-        <div type="parte" n="1">
-          <head type="primer_titulo"><lb/>NOVA CONTRA-DANSA</head>
-          <head type="subtitulo_parte"><lb/>Sobra mutius dels Cascus y vestits
-                                    Municipals</head>
+        <pb n="1" source="Varios_175_1.jpg" facs="varios/Varios_175_1.jpg/"/>
+
+        <div n="1">
+          <head type="primer_titulo" rend="negrita"><lb/>NOVA CONTRA-DANSA</head>
+          <head type="subtitulo_parte"><lb/>Sobra mutius dels Cascus y vestits Municipals</head>
+
           <lg>
-            <l>La Ciutat de Barcelona</l>
-            <l>es la gran Ciutat Condal</l>
-            <l>que per festas y per bromas</l>
-            <l>sempre es la mes principal.</l>
+            <lg>
+              <head type="titulo_estrofa">1.</head>
+              <l>La Ciutat de Barcelona</l>
+              <l>es la gran Ciutat Condal</l>
+              <l>que per festas y per bromas</l>
+              <l>sempre es la mes principal.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Com que sempra ha estat així</l>
+              <l>pera serne mes cabal,</l>
+              <l>are ans á nant fet lluhí</l>
+              <l>la guardia municipal.</l>
+            </lg>
+
+
+            <pb n="2" source="Varios_175_2.jpg" facs="varios/Varios_175_2.jpg/"/>
+
+            <lg>
+              <l rend="indent">Tenim en Rius y Taulet</l>
+              <l>y també á na 'n Fontrodona</l>
+              <l>mereixent un premit sert</l>
+              <l>que sels posi una corona</l>
+              <l>son uns homes com no ni há</l>
+              <l>altres que hu fesin tan bé</l>
+              <l>ans han embiat á buscá</l>
+              <l>los cascus al estrangé.</l>
+            </lg>
           </lg>
           <lg>
-            <head type="titulo_estrofa">1.</head>
-            <l>Com que sempra ha estat així</l>
-            <l>pera serne mes cabal,</l>
-            <l>are ans á nant fet lluhí</l>
-            <l>la guardia municipal.</l>
-          </lg>
-          <pb n="2" source="Varios_175_2.jpg" facs="fedora_Varios_175_2/full/full/0/default.jpg"/>
-          <lg>
-            <l>Tenim en Rius y Taulet</l>
-            <l>y també á na 'n Fontrodona</l>
-            <l>mereixent un premit sert</l>
-            <l>que sels posi una corona</l>
-            <l>son uns homes com no ni há</l>
-            <l>altres que hu fesin tan bé</l>
-            <l>ans han embiat á buscá</l>
-            <l>los cascus al estrangé.</l>
-          </lg>
-          <lg>
-            <head type="titulo_estrofa">2.</head>
-            <l>Creyam qu' eran alemans</l>
-            <l>que 'ns habian arribat</l>
-            <l>y eran los municipals</l>
-            <l>ab lo cap ben encascat.</l>
-          </lg>
-          <lg>
-            <l>Ab aquell pitets blaus</l>
-            <l>ab dos rengles de butons</l>
-            <l>als seus corresponents traus</l>
-            <l>pera serne mes bufons.</l>
+            <lg>
+              <head type="titulo_estrofa">2.</head>
+              <l>Creyam qu' eran alemans</l>
+              <l>que 'ns habian arribat</l>
+              <l>y eran los municipals</l>
+              <l>ab lo cap ben encascat.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Ab aquell pitets blaus</l>
+              <l>ab dos rengles de butons</l>
+              <l>als seus corresponents traus</l>
+              <l>pera serne mes bufons.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Ni habia un borratchu</l>
+              <l>al carrer ben estirat</l>
+              <l>als municipals ab lo casco</l>
+              <l>que portaban dalt cap.</l>
+              <l>Los municipals la aconsolavan</l>
+              <l>y ell armava tals rahons</l>
+              <l>dihent que abans no portavan</l>
+              <l>ni franxa á ne 'ls pantalons.</l>
+            </lg>
           </lg>
           <lg>
-            <l>Ni habia un borratchu</l>
-            <l>al carrer ben estirat</l>
-            <l>als municipals ab lo casco</l>
-            <l>que portaban dalt cap.</l>
-            <l>Los municipals la aconsolavan</l>
-            <l>y ell armava tals rahons</l>
-            <l>dihent que abans no portavan</l>
-            <l>ni franxa á ne 'ls pantalons.</l>
+            <lg>
+              <head type="titulo_estrofa">3.</head>
+              <l>Los mnnicipals de la gran gala</l>
+              <l>serán de un altra divisió,</l>
+              <l>pues portan, diferent traje</l>
+              <l>per adorná la recepció.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Ab aquells plumeros blanchs</l>
+              <l>dels que s' en dihuen llorons</l>
+              <l>ab los pontalons culans</l>
+              <l>pulainas fins als junolls</l>
+            </lg>
+            <lg>
+              <l rend="indent">Son uns trajes curiosos</l>
+              <l>que donan gust de mirá</l>
+              <l>tant bunichs y tant hermosos</l>
+              <l>ya me 'ls podan ben guardá</l>
+              <l>per ana á les prufassons</l>
+              <l>també poden fer surtí</l>
+              <l>á cumpañá al Vall de bastons</l>
+              <l>y així no hi haurá que dí.</l>
+            </lg>
           </lg>
           <lg>
-            <head type="titulo_estrofa">3.</head>
-            <l>Los mnnicipals de la gran gala</l>
-            <l>serán de un altra divisió,</l>
-            <l>pues portan, diferent traje</l>
-            <l>per adorná la recepció.</l>
+            <lg>
+              <head type="titulo_estrofa">4.</head>
+              <l>Per acumpañá las trampas</l>
+              <l>ni pusarém sis ú set</l>
+              <l>ni farem aná un altres</l>
+              <l>acumpañá an Rius y Taulet.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Y perqué no hi haigi tabola</l>
+              <l>ni has mogui cap disbarat</l>
+              <l>també á n' en Fontrodona</l>
+              <l>ni farém aná un grapat.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Lo dia de la parada</l>
+              <l>també los poden fé surtí</l>
+              <l>vestits d' aquesta gran gala</l>
+              <l>pera férla lluhí</l>
+              <l>los furastés que aquí vindrán</l>
+              <l>á la ciutat de Barcelona</l>
+              <l>desseguida esclamarán</l>
+              <l>viva Rius y Fontrodona.</l>
+            </lg>
           </lg>
-          <lg>
-            <l>Ab aquells plumeros blanchs</l>
-            <l>dels que s' en dihuen llorons</l>
-            <l>ab los pontalons culans</l>
-            <l>pulainas fins als junolls</l>
-          </lg>
-          <lg>
-            <l>Son uns trajes curiosos</l>
-            <l>que donan gust de mirá</l>
-            <l>tant bunichs y tant hermosos</l>
-            <l>ya me 'ls podan ben guardá</l>
-            <l>per ana á les prufassons</l>
-            <l>també poden fer surtí</l>
-            <l>á cumpañá al Vall de bastons</l>
-            <l>y així no hi haurá que dí.</l>
-          </lg>
-          <lg>
-            <head type="titulo_estrofa">4.</head>
-            <l>Per acumpañá las trampas</l>
-            <l>ni pusarém sis ú set</l>
-            <l>ni farem aná un altres</l>
-            <l>acumpañá an Rius y Taulet.</l>
-          </lg>
-          <lg>
-            <l>Y perqué no hi haigi tabola</l>
-            <l>ni has mogui cap disbarat</l>
-            <l>també á n' en Fontrodona</l>
-            <l>ni farém aná un grapat.</l>
-          </lg>
-          <lg>
-            <l>Lo dia de la parada</l>
-            <l>també los poden fé surtí</l>
-            <l>vestits d' aquesta gran gala</l>
-            <l>pera férla lluhí</l>
-            <l>los furastés que aquí vindrán</l>
-            <l>á la ciutat de Barcelona</l>
-            <l>desseguida esclamarán</l>
-            <l>viva Rius y Fontrodona.</l>
-          </lg>
-          <pb n="3" source="Varios_175_3.jpg" facs="fedora_Varios_175_3/full/full/0/default.jpg"/>
         </div>
-        <div type="parte" n="2">
-          <head type="titulo_parte"><lb/>GRAN SCHOTICHS NOUS<lb/>DELS BUROTS Y LOS SEUS
-                                    VESTITS<lb/>TRETS PER UN CEGO TRANQUIL</head>
+
+        <div n="2">
+          <pb n="3" source="Varios_175_3.jpg" facs="varios/Varios_175_3.jpg/"/>
+
+          <head type="titulo_parte"><lb/><hi rend="cursiva">GRAN SCHOTICHS NOUS</hi><lb/>DELS BUROTS
+            Y LOS SEUS VESTITS<lb/><hi rend="cursiva">TRETS PER UN CEGO TRANQUIL</hi></head>
+
           <lg>
             <head type="titulo_estrofa">1.</head>
-            <l>Los burots ne van mudats</l>
-            <l>y fan un goitx d' alló més</l>
-            <l>y ne van quedarne parats</l>
-            <l>al veurels los furasters.</l>
+            <lg>
+              <l>Los burots ne van mudats</l>
+              <l>y fan un goitx d' alló més</l>
+              <l>y ne van quedarne parats</l>
+              <l>al veurels los furasters.</l>
+            </lg>
+            <lg>
+              <l>Yo hu hi sentit á dir</l>
+              <l>com sempre pasa lo mateix</l>
+              <l>que me 'ls mudan de vestí</l>
+              <l>per descuntals mes dinés.</l>
+            </lg>
           </lg>
-          <lg>
-            <l>Yo hu hi sentit á dir</l>
-            <l>com sempre pasa lo mateix</l>
-            <l>que me 'ls mudan de vestí</l>
-            <l>per descuntals mes dinés.</l>
-          </lg>
+
           <lg>
             <head type="titulo_estrofa">2.</head>
-            <l>Ne semblan de pulicía</l>
-            <l>y també carrabiners</l>
-            <l>pero mirats ab perfidia</l>
-            <l>burots vestits de francés.</l>
-          </lg>
-          <lg>
-            <l>La reina sels vá mirá</l>
-            <l>cuan los va veure tant bunichs</l>
-            <l>y devía esclamá</l>
-            <l>quins guardias mes aixerits.</l>
+            <lg>
+              <l>Ne semblan de pulicía</l>
+              <l>y també carrabiners</l>
+              <l>pero mirats ab perfidia</l>
+              <l>burots vestits de francés.</l>
+            </lg>
+            <lg>
+              <l>La reina sels vá mirá</l>
+              <l>cuan los va veure tant bunichs</l>
+              <l>y devía esclamá</l>
+              <l>quins guardias mes aixerits.</l>
+            </lg>
           </lg>
           <lg>
             <head type="titulo_estrofa">3.</head>
-            <l>Me 'ls fan aná ab butinas</l>
-            <l>y també ab colls planxats</l>
-            <l>si saguim dintre pochs dias</l>
-            <l>me 'ls farán aná enguantats.</l>
+            <lg>
+              <l>Me 'ls fan aná ab butinas</l>
+              <l>y també ab colls planxats</l>
+              <l>si saguim dintre pochs dias</l>
+              <l>me 'ls farán aná enguantats.</l>
+            </lg>
+            <lg>
+              <l>y van molt ben estirats</l>
+              <l>Y 'ls pobres en molt contentu</l>
+              <l>pero segueix lo descueuto</l>
+              <l>per advocat y aná mudats.</l>
+            </lg>
           </lg>
-          <lg>
-            <l>y van molt ben estirats</l>
-            <l>Y 'ls pobres en molt contentu</l>
-            <l>pero segueix lo descueuto</l>
-            <l>per advocat y aná mudats.</l>
-          </lg>
+
           <lg>
             <head type="titulo_estrofa">4.</head>
-            <l>Van carregats de banderas</l>
-            <l>per amunt y per avall</l>
-            <l>altres á las carreteras</l>
-            <l>fentne diferent travall.</l>
+            <lg>
+              <l>Van carregats de banderas</l>
+              <l>per amunt y per avall</l>
+              <l>altres á las carreteras</l>
+              <l>fentne diferent travall.</l>
+            </lg>
+            <lg>
+              <l>Enfilansa dalt dels carrus</l>
+              <l>per puderlus registrá</l>
+              <l>los pobres se posan guapus</l>
+              <l>que donan gust de mirá.</l>
+            </lg>
           </lg>
-          <lg>
-            <l>Enfilansa dalt dels carrus</l>
-            <l>per puderlus registrá</l>
-            <l>los pobres se posan guapus</l>
-            <l>que donan gust de mirá.</l>
-          </lg>
+
           <lg>
             <head type="titulo_estrofa">5.</head>
-            <l>La Comissió está separada</l>
-            <l>per cosas que no sé ni puch di</l>
-            <l>y aquesta es la causa are</l>
-            <l>que me 'ls mudan de vestí.</l>
+            <lg>
+              <l>La Comissió está separada</l>
+              <l>per cosas que no sé ni puch di</l>
+              <l>y aquesta es la causa are</l>
+              <l>que me 'ls mudan de vestí.</l>
+            </lg>
+            <lg>
+              <l>La criada sempre paga</l>
+              <l>cuan riñan los sañurots</l>
+              <l>y lo mateix los hi passa</l>
+              <l>á n' als pobres burots.</l>
+            </lg>
           </lg>
-          <lg>
-            <l>La criada sempre paga</l>
-            <l>cuan riñan los sañurots</l>
-            <l>y lo mateix los hi passa</l>
-            <l>á n' als pobres burots.</l>
-          </lg>
+
           <lg>
             <head type="titulo_estrofa">6.</head>
-            <l>Los van dá un impermeable</l>
-            <l>dihent que no hi habia miló,</l>
-            <pb n="4" source="Varios_175_4.jpg" facs="fedora_Varios_175_4/full/full/0/default.jpg"/>
-            <l>en cuatre gotas que van caure</l>
-            <l>ya van perdre lo culó.</l>
+            <lg>
+              <l>Los van dá un impermeable</l>
+              <l>dihent que no hi habia miló,</l>
+
+              <pb n="4" source="Varios_175_4.jpg" facs="varios/Varios_175_4.jpg/"/>
+
+              <l>en cuatre gotas que van caure</l>
+              <l>ya van perdre lo culó.</l>
+            </lg>
+            <lg>
+              <l>Y apesar de sé tan cars</l>
+              <l>y dirlos que eran tan bons</l>
+              <l>ne van surtirne mullats</l>
+              <l>desde 'l cap fins als talons.</l>
+            </lg>
           </lg>
-          <lg>
-            <l>Y apesar de sé tan cars</l>
-            <l>y dirlos que eran tan bons</l>
-            <l>ne van surtirne mullats</l>
-            <l>desde 'l cap fins als talons.</l>
-          </lg>
+
           <lg>
             <head type="titulo_estrofa">7.</head>
-            <l>Lo traje que s' han llevat</l>
-            <l>diu que no valia rés</l>
-            <l>en cuatre mesos fou espatllat</l>
-            <l>y 'ls custava 'ls seus dinés.</l>
+            <lg>
+              <l>Lo traje que s' han llevat</l>
+              <l>diu que no valia rés</l>
+              <l>en cuatre mesos fou espatllat</l>
+              <l>y 'ls custava 'ls seus dinés.</l>
+            </lg>
+            <lg>
+              <l>Ni cordons ni coll vermell</l>
+              <l>res podan aprufitá</l>
+              <l>aixís tot se 'n vá al burdell</l>
+              <l>y los pobres hu han de pagá.</l>
+            </lg>
           </lg>
-          <lg>
-            <l>Ni cordons ni coll vermell</l>
-            <l>res podan aprufitá</l>
-            <l>aixís tot se 'n vá al burdell</l>
-            <l>y los pobres hu han de pagá.</l>
-          </lg>
+
           <lg>
             <head type="titulo_estrofa">8.</head>
-            <l>Los posan alguna multa</l>
-            <l>per cosas insignificants</l>
-            <l>y no falta qui murmura</l>
-            <l>que aqui hi ha un gran joch de <add place="degajo">(mans</add></l>
-          </lg>
-          <lg>
-            <l>No 'ls donan compte de re</l>
-            <l>ni del que tenen descuntat</l>
-            <l>y aixis marcha tot molt vé</l>
-            <l>veus hu aqui tot esplicat.</l>
+            <lg>
+              <l>Los posan alguna multa</l>
+              <l>per cosas insignificants</l>
+              <l>y no falta qui murmura</l>
+              <l>que aqui hi ha un gran joch de <add place="degajo">(mans</add></l>
+            </lg>
+            <lg>
+              <l>No 'ls donan compte de re</l>
+              <l>ni del que tenen descuntat</l>
+              <l>y aixis marcha tot molt vé</l>
+              <l>veus hu aqui tot esplicat.</l>
+            </lg>
           </lg>
         </div>
-        <div type="parte" n="3">
+        
+        <div n="3">
           <head type="titulo_parte"><lb/>TANGO DE TOROS DE PUNTA</head>
+          
           <lg>
             <head type="titulo_estrofa">1.</head>
             <l>Una preciosa cubana</l>
@@ -1235,6 +1289,7 @@
             <l>me gustan á mí.</l>
             <l>sangá, sangá, me gustan á mí</l>
           </lg>
+          
           <p><lb/>TIMBRE IMPERIAL.</p>
           <p><lb/>Propiedad de José Soriano y Manuel Tallada </p>
         </div>

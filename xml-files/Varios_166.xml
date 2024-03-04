@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../Schema/oddPliego_varios.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:alto="http://www.loc.gov/standards/alto/ns-v4#" xml:id="Varios_166">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Varios_166">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -11,8 +11,7 @@
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <authority role="rightsHolder">Bibliothèque Universitaire de
-                            Genève</authority>
+        <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
         <availability status="restricted">
           <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
         </availability>
@@ -20,16 +19,17 @@
       <sourceDesc>
         <biblFull>
           <titleStmt>
-            <title type="titulo_completo">Coplas nuevas glosadas en decimas para cantar los aficionados.</title>
+            <title type="titulo_completo">Coplas nuevas glosadas en decimas para cantar los
+              aficionados.</title>
             <title type="titulo_breve"/>
           </titleStmt>
           <editionStmt>
             <p/>
           </editionStmt>
           <publicationStmt>
-            <publisher>Imprenta de la viuda e hijos de J. A. Ferreres</publisher>
+            <publisher>Viuda e hijos de J. A. Ferreres</publisher>
             <pubPlace ref="https://www.geonames.org/3107677/tortosa.html">Tortosa</pubPlace>
-            <date>[s.a]</date>
+            <date cert="low" when="1800-01-01">[s.a.]</date>
           </publicationStmt>
         </biblFull>
         <msDesc>
@@ -37,7 +37,8 @@
             <country>Suisse</country>
             <settlement>Genève</settlement>
             <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"/>
-                  </repository>
+            </repository>
+            <collection>Colección Varios</collection>
             <idno type="cote"/>
             <idno type="DOI">10.5281/zenodo.6587231</idno>
             <altIdentifier>
@@ -66,7 +67,7 @@
               </layoutDesc>
             </objectDesc>
             <decoDesc>
-              <summary n="1">Uno grabado (p.1) </summary>
+              <summary n="1">Un grabado (p.1)</summary>
               <decoNote type="lista_grabados">
                 <list>
                   <item corresp="grabado_v_166_1.xml">grabado_v_166_1</item>
@@ -87,18 +88,17 @@
     </fileDesc>
     <encodingDesc>
       <projectDesc>
-        <p>Este archivo fue creado en el marco del proyecto Desenrollando el
-                            Cordel/Démêler le cordel/Untangling the cordel, dirigido por la
-                            profesora Constance Carta de la Universidad de Ginebra, con el apoyo de
-                            la Fundación filantrópica Famille Sandoz-Monique de Meuron.</p>
+        <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+          cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la Universidad
+          de Ginebra, con el apoyo de la Fundación filantrópica Famille Sandoz-Monique de
+          Meuron.</p>
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR non corregido</p>
+          <p>OCR no corregido</p>
         </correction>
         <normalization>
-          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto
-                                original.</p>
+          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
         </normalization>
         <punctuation>
           <p>Se conserva la puntuación original.</p>
@@ -122,9 +122,13 @@
     </profileDesc>
     <revisionDesc>
       <change when="2023-04-12" who="#PJ">Création du fichier TEI P5 et encodage du corps du
-                        texte</change>
+        texte</change>
+      <change when="2024-01-09" who="#EL">Add the IIIF links</change>
     </revisionDesc>
   </teiHeader>
+  <facsimile>
+    <graphic url="varios/Varios_166_1.jpg/full/200,/0/default.jpg"/>
+  </facsimile>
   <sourceDoc xml:id="automaticTranscription">
     <surface xml:id="Varios_166_1" type="page" cert="silver">
       <graphic url="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_166_1/full/full/0/default.jpg"/>
@@ -451,17 +455,19 @@
   <text>
     <body>
       <div>
-        <pb n="1" source="Varios_166_1.jpg" facs="fedora_Varios_166_1/full/full/0/default.jpg"/>
+        <pb n="1" source="Varios_166_1.jpg" facs="varios/Varios_166_1.jpg/"/>
         <div>
-          <head type="primer_titulo"><lb/>COPLAS NUEVAS GLOSADAS EN DECIMIAS<lb/>PARA CANTAR LOS AFICIONADOS.</head>
-          <lg rend="centrado">
-            <l>Casarme yo me casara</l>
+          <head type="primer_titulo"><lb/><hi rend="negrita">COPLAS NUEVAS GLOSADAS EN DECIMIAS</hi><lb/>PARA CANTAR LOS
+            AFICIONADOS.</head>
+          
+          <lg>
+            <l rend="indent">Casarme yo me casara</l>
             <l>pero tengo mucho miedo</l>
             <l>que el ganado femenino</l>
             <l>hace volver á Marcos, Cornelio.</l>
           </lg>
           <lg>
-            <l>La bandera de S. Marcos,</l>
+            <l rend="indent">La bandera de S. Marcos,</l>
             <l>acompaña á muchos hombres</l>
             <l>sin distincion de los pobres</l>
             <l>ni á solteros ni casados</l>
@@ -473,7 +479,7 @@
             <l>casarme yo me casara.</l>
           </lg>
           <lg>
-            <l>Tambien á los caballeros</l>
+            <l rend="indent">Tambien á los caballeros</l>
             <l>les digo que listos vivan</l>
             <l>y' no consientan visitas</l>
             <l>mientras van á los empleos</l>
@@ -485,7 +491,7 @@
             <l>el ganado femenino.</l>
           </lg>
           <lg>
-            <l>El ser casado es verdad</l>
+            <l rend="indent">El ser casado es verdad</l>
             <l>que es un gusto y un placer,</l>
             <l>pero suele suceder</l>
             <l>con mucha facilidad</l>
@@ -497,7 +503,7 @@
             <l>pero tengo mucho miedo.</l>
           </lg>
           <lg>
-            <l>Ellas no reparan nada</l>
+            <l rend="indent">Ellas no reparan nada</l>
             <l>ni menos algunos hombres</l>
             <l>que en habiendo Ste. Thome</l>
             <l>toman oro y toman plata</l>
@@ -508,43 +514,46 @@
             <l>que á su marido mui pronto</l>
             <l>le hacen ser Marcos Cornelio.</l>
           </lg>
-          <pb n="2" source="Varios_166_2.jpg" facs="fedora_Varios_166_2/full/full/0/default.jpg"/>
-          <lg rend="centrado">
-            <l>El que de muger se fia</l>
+          
+          <pb n="2" source="Varios_166_2.jpg" facs="varios/Varios_166_2.jpg/"/>
+          
+          <lg>
+            <l rend="indent">El que de muger se fia</l>
             <l>mui poco del mundo sabe</l>
             <l>pues aunque es arca cerrada</l>
             <l>todos tenemos la llave.</l>
           </lg>
           <lg>
-            <l>No entienden el que es mania</l>
+            <l rend="indent">No entienden el que es mania</l>
             <l>ni el que quiere criticar</l>
             <l>que es un hecho sin porfia</l>
             <l>que al fin la suelo pagar</l>
             <l>el qne de muger se fia.</l>
           </lg>
           <lg>
-            <l>Nadie una mano se lave</l>
+            <l rend="indent">Nadie una mano se lave</l>
             <l>ni beba de una agua sola</l>
             <l>ni sea en amor suave</l>
             <l>que el uno corre la bola</l>
             <l>mui poco del mundo sabe.</l>
           </lg>
           <lg>
-            <l>Nunca adelantará nada</l>
+            <l rend="indent">Nunca adelantará nada</l>
             <l>el hombre con su locura</l>
             <l>la muger será obsequiada</l>
             <l>y estará poco segurá</l>
             <l>aunque sea arca cerrada.</l>
           </lg>
           <lg>
-            <l>No es facil guardar el ave</l>
+            <l rend="indent">No es facil guardar el ave</l>
             <l>con esa jaula ton baja</l>
             <l>y asi ninguno se alabe</l>
             <l>que de esa grande cerraja</l>
             <l>todos tenemos la llave.</l>
           </lg>
-          <trailer rend="cursiva">FIN</trailer>
+          <trailer rend="negrita">FIN</trailer>
         </div>
+        
         <div type="colofon">
           <p><lb/>TORTOSA : Imprenta de la Viuda é hijos. de J. A. Ferreres</p>
         </div>

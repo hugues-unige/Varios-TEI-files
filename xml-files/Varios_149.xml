@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../Schema/oddPliego_varios.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:alto="http://www.loc.gov/standards/alto/ns-v4#" xml:id="Varios_149">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Varios_149">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -12,8 +12,7 @@
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <authority role="rightsHolder">Bibliothèque Universitaire de
-                            Genève</authority>
+        <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
         <availability status="restricted">
           <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
         </availability>
@@ -28,10 +27,9 @@
             <p/>
           </editionStmt>
           <publicationStmt>
-            <publisher>[s.n]</publisher>
-            <pubPlace ref="https://www.geonames.org/2509954/valencia.html">Valencia
-                                    </pubPlace>
-            <date cert="high">1843</date>
+            <publisher>José Mateu Cervera</publisher>
+            <pubPlace ref="https://www.geonames.org/2509954/valencia.html">Valencia</pubPlace>
+            <date cert="high" when="1843-01-01">1843</date>
           </publicationStmt>
         </biblFull>
         <msDesc>
@@ -39,7 +37,8 @@
             <country>Suisse</country>
             <settlement>Genève</settlement>
             <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"/>
-                  </repository>
+            </repository>
+            <collection>Colección Varios</collection>
             <idno type="cote"/>
             <idno type="DOI">10.5281/zenodo.6586657</idno>
             <altIdentifier>
@@ -47,10 +46,14 @@
             </altIdentifier>
           </msIdentifier>
           <msContents>
-            <summary/>
+            <summary>Dos canciones</summary>
             <msItem>
-              <locus/>
-              <title/>
+              <locus>1-3</locus>
+              <title>Décimas nuevas para cantar los aficionados.</title>
+            </msItem>
+            <msItem>
+              <locus>4</locus>
+              <title>Trobos nuevos.</title>
             </msItem>
           </msContents>
           <physDesc>
@@ -68,7 +71,7 @@
               </layoutDesc>
             </objectDesc>
             <decoDesc>
-              <summary n="1">Uno grabado (p.1)</summary>
+              <summary n="1">Un grabado (p.1)</summary>
               <decoNote type="lista_grabados">
                 <list>
                   <item corresp="grabado_v_149_1.xml">grabado_v_149_1</item>
@@ -83,18 +86,17 @@
     </fileDesc>
     <encodingDesc>
       <projectDesc>
-        <p>Este archivo fue creado en el marco del proyecto Desenrollando el
-                            Cordel/Démêler le cordel/Untangling the cordel, dirigido por la
-                            profesora Constance Carta de la Universidad de Ginebra, con el apoyo de
-                            la Fundación filantrópica Famille Sandoz-Monique de Meuron.</p>
+        <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+          cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la Universidad
+          de Ginebra, con el apoyo de la Fundación filantrópica Famille Sandoz-Monique de
+          Meuron.</p>
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR non corregido</p>
+          <p>OCR no corregido</p>
         </correction>
         <normalization>
-          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto
-                                original.</p>
+          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
         </normalization>
         <punctuation>
           <p>Se conserva la puntuación original.</p>
@@ -107,7 +109,7 @@
       </langUsage>
       <textClass>
         <keywords xml:base="http://datos.bne.es/tema/">
-          <term type="tipo_texto">Décimas glosadas</term>
+          <term type="tipo_texto" target="XX546895.html">Décimas</term>
           <term target="XX546895.html" type="tipo_estrofa">Décimas</term>
           <term type="verso_prosa">Verso</term>
           <term type="sagrado_profano">Sagrado</term>
@@ -116,9 +118,13 @@
     </profileDesc>
     <revisionDesc>
       <change when="2022-09-17" who="#PJ">Création du fichier TEI P5 et encodage du corps du
-                        texte</change>
+        texte</change>
+      <change when="2024-01-09" who="#EL">Add the IIIF links</change>
     </revisionDesc>
   </teiHeader>
+  <facsimile>
+    <graphic url="varios/Varios_149_1.jpg/full/200,/0/default.jpg"/>
+  </facsimile>
   <sourceDoc xml:id="automaticTranscription">
     <surface xml:id="Varios_149_1" type="page" cert="silver">
       <graphic url="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_149_1/full/full/0/default.jpg"/>
@@ -1098,17 +1104,20 @@
   <text>
     <body>
       <div>
-        <pb n="1" source="Varios_149_1.jpg" facs="fedora_Varios_149_1/full/full/0/default.jpg"/>
-        <div type="parte" n="1">
-          <head type="primer_titulo" rend="negrita"><lb/>Décimas nuevas para cantar los aficionados.</head>
+        <pb n="1" source="Varios_149_1.jpg" facs="varios/Varios_149_1.jpg/"/>
+
+        <div n="1">
+          <head type="primer_titulo" rend="negrita"><lb/><hi rend="cursiva">Décimas nuevas para
+              cantar los aficionados.</hi></head>
+
           <lg>
-            <l>Esta noche con la luna</l>
+            <l rend="indent">Esta noche con la luna</l>
             <l>Y mañana con el sol,</l>
             <l>Cojeremos pajaritos</l>
             <l>Para la iglesia mayor.</l>
           </lg>
           <lg>
-            <l>Mi alma se alegra al verte,</l>
+            <l rend="indent">Mi alma se alegra al verte,</l>
             <l>Tu has de dar alguna traza</l>
             <l>Para que yo entre en tu casa,</l>
             <l>Esta noche un rato á verte.</l>
@@ -1120,7 +1129,7 @@
             <l>Esta noche con la luna.</l>
           </lg>
           <lg>
-            <l>Mi bien, por ser el primero,</l>
+            <l rend="indent">Mi bien, por ser el primero,</l>
             <l>Un fovor de te he de pedir,</l>
             <l>Esta noche has de salir</l>
             <l>Antes que salga el lucero.</l>
@@ -1132,7 +1141,7 @@
             <l>Y mañana con el sol.</l>
           </lg>
           <lg>
-            <l>Por dichoso me tendré</l>
+            <l rend="indent">Por dichoso me tendré</l>
             <l>Si te logro, criatura,</l>
             <l>Si gozo de tu hermosura</l>
             <l>Siempre constante seré.</l>
@@ -1144,7 +1153,7 @@
             <l>Cojeremos pajaritos.</l>
           </lg>
           <lg>
-            <l>Este deseo de verte</l>
+            <l rend="indent">Este deseo de verte</l>
             <l>No ha sido por otra cosa,</l>
             <l>Sino que seas mi esposa</l>
             <l>Si he llegado á merecerte,</l>
@@ -1155,15 +1164,17 @@
             <l>En llevándonos el cura</l>
             <l>Para la iglesia mayor,</l>
           </lg>
-          <pb n="2" source="Varios_149_2.jpg" facs="fedora_Varios_149_2/full/full/0/default.jpg"/>
+
+          <pb n="2" source="Varios_149_2.jpg" facs="varios/Varios_149_2.jpg/"/>
+
           <lg>
-            <l>Adios, tierra en que nací,</l>
+            <l rend="indent">Adios, tierra en que nací,</l>
             <l>Adios, gente generosa,</l>
             <l>Adios, amigos leales,</l>
             <l>Adios, familia y esposa.</l>
           </lg>
           <lg>
-            <l>Yo me hallaba divertido</l>
+            <l rend="indent">Yo me hallaba divertido</l>
             <l>Entre mi familia honrada,</l>
             <l>Y mi esposa venerada,</l>
             <l>Y de todos bien querido;</l>
@@ -1175,7 +1186,7 @@
             <l>Adios, tierra en que nací.</l>
           </lg>
           <lg>
-            <l>Cuando estaba en libertad,</l>
+            <l rend="indent">Cuando estaba en libertad,</l>
             <l>La gente mucho me amaba,</l>
             <l>Tanto que consideraba</l>
             <l>Sería una falsedad;</l>
@@ -1187,7 +1198,7 @@
             <l>Adios, gente generosa.</l>
           </lg>
           <lg>
-            <l>Adios, pátria mi amada,</l>
+            <l rend="indent">Adios, pátria mi amada,</l>
             <l>Adios que me voy atado,</l>
             <l>Abatido y afrentado</l>
             <l>Por una lengua malvada,</l>
@@ -1199,7 +1210,7 @@
             <l>Adios, amigos leales.</l>
           </lg>
           <lg>
-            <l>Adios, cárcel enemiga</l>
+            <l rend="indent">Adios, cárcel enemiga</l>
             <l>Donde tanto tiempo ha estado</l>
             <l>Mi cuerpo martirizado</l>
             <l>Por una lengua maldita,</l>
@@ -1211,13 +1222,13 @@
             <l>Adios familia y esposa.</l>
           </lg>
           <lg>
-            <l>La niña de doce á quince</l>
+            <l rend="indent">La niña de doce á quince</l>
             <l>Es la mas fragante rosa,</l>
             <l>En pasando de los treinta</l>
             <l>Una flor que se deshoja.</l>
           </lg>
           <lg>
-            <l>Gloria se puede llamar,</l>
+            <l rend="indent">Gloria se puede llamar,</l>
             <l>Sin la menor detencion,</l>
             <l>La tranquilidad y union,</l>
             <l>Y el gusto del bienestar;</l>
@@ -1229,7 +1240,7 @@
             <l>La niña de doce á quince.</l>
           </lg>
           <lg>
-            <l>Maravilla singular</l>
+            <l rend="indent">Maravilla singular</l>
             <l>En el mundo es la muger,</l>
             <l>Quien menos la puede ver</l>
             <l>Mas pronto la va á buscar:</l>
@@ -1240,9 +1251,9 @@
             <l>En fin, si no llega á los veinte</l>
             <l>Es la mas fragante rosa.</l>
           </lg>
-          <pb n="3" source="Varios_149_3.jpg" facs="fedora_Varios_149_3/full/full/0/default.jpg"/>
+          <pb n="3" source="Varios_149_3.jpg" facs="varios/Varios_149_3.jpg/"/>
           <lg>
-            <l>Han escrito los autores</l>
+            <l rend="indent">Han escrito los autores</l>
             <l>Sobre el amor femenino:</l>
             <l>Es borracho como el vino</l>
             <l>Y mas ardientes licores;</l>
@@ -1254,7 +1265,7 @@
             <l>En pasando de los treinta.</l>
           </lg>
           <lg>
-            <l>A la que mejor sentó</l>
+            <l rend="indent">A la que mejor sentó</l>
             <l>El estado maridable,</l>
             <l>Luego se ve despreciable</l>
             <l>Si muchos hijos parió:</l>
@@ -1266,13 +1277,13 @@
             <l>Una, flor que se deshoja.</l>
           </lg>
           <lg>
-            <l>Hui en dia no ya vergoña</l>
+            <l rend="indent">Hui en dia no ya vergoña</l>
             <l>Ni en les chovens ni en les velles,</l>
             <l>Que la mitad tenen rabo</l>
             <l>Lo mateix que les paelles.</l>
           </lg>
           <lg>
-            <l>Micha España he corregut,</l>
+            <l rend="indent">Micha España he corregut,</l>
             <l>He tratat en moltes dònes,</l>
             <l>Y dic que may serán bònes,</l>
             <l>La que no está agra, put:</l>
@@ -1284,7 +1295,7 @@
             <l>Hui en dia no ya vergoña.</l>
           </lg>
           <lg>
-            <l>A bora á Cádis ha estát,</l>
+            <l rend="indent">A bora á Cádis ha estát,</l>
             <l>Com vosatros be ho sabeu,</l>
             <l>La Isla propét se veu,</l>
             <l>La Carraca alli al costat,</l>
@@ -1296,7 +1307,7 @@
             <l>Ni en les chovens ni en les velles.</l>
           </lg>
           <lg>
-            <l>També he estat en Barselona</l>
+            <l rend="indent">També he estat en Barselona</l>
             <l>Entre mig dels portuguesos,</l>
             <l>Al cap de atres dos mesos</l>
             <l>Mem? pasí á Tarragona,</l>
@@ -1308,7 +1319,7 @@
             <l>Que la mitat tenen rabo.</l>
           </lg>
           <lg>
-            <l>A ramats solen anar,</l>
+            <l rend="indent">A ramats solen anar,</l>
             <l>Sempre buscant la ocasió,</l>
             <l>Y sinse tindre raó</l>
             <l>A tots volen maltratar;</l>
@@ -1320,83 +1331,89 @@
             <l>Lo mateix que les paelles.</l>
           </lg>
         </div>
-        <pb n="4" source="Varios_149_4.jpg" facs="fedora_Varios_149_4/full/full/0/default.jpg"/>
-        <div type="parte" n="2">
-          <head type="titulo_trovo"><lb/>TROBOS NUEVOS.</head>
+
+        <div n="2">
+          <pb n="4" source="Varios_149_4.jpg" facs="varios/Varios_149_4.jpg/"/>
+
+          <head type="titulo_trovo" rend="negrita"><lb/>TROBOS NUEVOS.</head>
+
           <lg rend="cursiva">
-            <l>Un fraile me dió un cantazo,</l>
+            <l rend="indent">Un fraile me dió un cantazo,</l>
             <l>Me pegó en la papelera,</l>
             <l>Si me pega mas abajo</l>
             <l>Me rompe la vidriera.</l>
           </lg>
+
           <lg>
-            <l>Al principio no hice caso,</l>
+            <l rend="indent">Al principio no hice caso,</l>
             <l>Mas al quererme estrechar,</l>
             <l>Se vino á darme un abrazo,</l>
             <l>Por que yo quise chillar</l>
             <l>Un fraile me dió un cantazo.</l>
           </lg>
           <lg>
-            <l>Como la defensa era</l>
+            <l rend="indent">Como la defensa era</l>
             <l>Tan precisa y natural,</l>
             <l>Luchaba como una fiera.</l>
             <l>Yo por guardar el cristal</l>
             <l>Me pegó en la papelera.</l>
           </lg>
           <lg>
-            <l>Alli sucede un trabajo</l>
+            <l rend="indent">Alli sucede un trabajo</l>
             <l>Si llega á manchar mi honor,</l>
             <l>Por la ventana lo encajo</l>
             <l>A la calle aquel traidor,</l>
             <l>Si me pega mas abajo.</l>
           </lg>
           <lg>
-            <l>Si mi pobre friolera</l>
+            <l rend="indent">Si mi pobre friolera</l>
             <l>No defiendo con teson,</l>
             <l>De mi cuerpo se apodera,</l>
             <l>El pícaro motilón;</l>
             <l>Me rompe la vidriera.</l>
           </lg>
           <lg rend="cursiva">
-            <l>Pero hay lujo é ignorancia,</l>
+            <l rend="indent">Pero hay lujo é ignorancia,</l>
             <l>En España no hay dinero,</l>
             <l>Y para fiestas y toros</l>
             <l>Pesetas con abundancia.</l>
           </lg>
           <lg>
-            <l>La plata, tambien el cobre,</l>
+            <l rend="indent">La plata, tambien el cobre,</l>
             <l>Atesora el husurero</l>
             <l>El solo triunfa grosero,</l>
             <l>Y para ausilio del pobre,</l>
             <l>En España no hay dinero.</l>
           </lg>
           <lg>
-            <l>Lo que hay es estravagancia,</l>
+            <l rend="indent">Lo que hay es estravagancia,</l>
             <l>Mucho mal y sin consuelo;</l>
             <l>Y yo confieso con ansia</l>
             <l>Que es muy fértil nuestro suelo</l>
             <l>Pero hay lujo é ignorancia.</l>
           </lg>
           <lg>
-            <l>Somos peor que los moros,</l>
+            <l rend="indent">Somos peor que los moros,</l>
             <l>Nos dice un padre agustino,</l>
             <l>Que guardamos los tesoros</l>
             <l>Para muchachas y vino,</l>
             <l>Y para fiestas y toros.</l>
           </lg>
           <lg>
-            <l>De virtudes sin constancia</l>
+            <l rend="indent">De virtudes sin constancia</l>
             <l>Tenemos muchos indicios,</l>
             <l>Y yo respondo con ansia,</l>
             <l>Que solo hay para vicios</l>
             <l>Pesetas con abundancia</l>
           </lg>
         </div>
-        <div type="propiedad">
-          <p><lb/>Es propiedad de Miguel Sebriá.</p>
+        
+        <div>
+          <p rend="cursiva"><lb/><hi rend="negrita">Es propiedad de Miguel Sebriá.</hi></p>
         </div>
+        
         <div type="colofon">
-          <p><lb/>VALENCIA: IMPRENTA DE DON JOSE MATEU CERVERA, á cargo de Ventura Lluch.—1843.</p>
+          <p><lb/>VALENCIA: <lb/>IMPRENTA DE DON JOSE MATEU CERVERA, <lb/><hi rend="cursiva">á cargo de Ventura Lluch</hi>.—1843.</p>
         </div>
       </div>
     </body>

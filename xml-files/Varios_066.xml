@@ -1,19 +1,17 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../Schema/oddPliego_varios.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:alto="http://www.loc.gov/standards/alto/ns-v4#" xml:id="Varios_066">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Varios_066">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>UN DRAMA RIDÍCULO DE AMOR Y CELOS
-                     entre un caballero y su sirvienta dos gatos y un mico</title>
+        <title>UN DRAMA RIDÍCULO DE AMOR Y CELOS</title>
         <respStmt>
           <name/>
           <resp>Codificación TEI</resp>
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <authority role="rightsHolder">Bibliothèque Universitaire de
-                            Genève</authority>
+        <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
         <availability status="restricted">
           <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
         </availability>
@@ -21,8 +19,8 @@
       <sourceDesc>
         <biblFull>
           <titleStmt>
-            <title type="titulo_completo">UN DRAMA RIDÍCULO DE AMOR Y CELOS
-                           entre un caballero y su sirvienta dos gatos y un mico</title>
+            <title type="titulo_completo">UN DRAMA RIDÍCULO DE AMOR Y CELOS entre un caballero y su
+              sirvienta dos gatos y un mico</title>
             <title type="titulo_breve">UN DRAMA RIDÍCULO DE AMOR Y CELOS</title>
           </titleStmt>
           <editionStmt>
@@ -31,7 +29,7 @@
           <publicationStmt>
             <publisher>Cristina Segura</publisher>
             <pubPlace ref="https://www.geonames.org/3128760/barcelona.html">Barcelona</pubPlace>
-            <date>[s.a]</date>
+            <date cert="low" when="1800-01-01">[s.a.]</date>
           </publicationStmt>
         </biblFull>
         <msDesc>
@@ -39,7 +37,8 @@
             <country>Suisse</country>
             <settlement>Genève</settlement>
             <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"/>
-                  </repository>
+            </repository>
+            <collection>Colección Varios</collection>
             <idno type="cote"/>
             <idno type="DOI">10.5281/zenodo.6562936</idno>
             <altIdentifier>
@@ -47,10 +46,19 @@
             </altIdentifier>
           </msIdentifier>
           <msContents>
-            <summary/>
+            <summary>Un relación + Dos canciones</summary>
             <msItem>
-              <locus/>
-              <title/>
+              <locus>1-2</locus>
+              <title>Un drama ridículo de amor y celos entre un caballero y su sivienta dos gatos y
+                un mico</title>
+            </msItem>
+            <msItem>
+              <locus>3</locus>
+              <title>Canción de la jalea y amores de una dama con un confitero</title>
+            </msItem>
+            <msItem>
+              <locus>4</locus>
+              <title>La hermosa Julia</title>
             </msItem>
           </msContents>
           <physDesc>
@@ -68,7 +76,7 @@
               </layoutDesc>
             </objectDesc>
             <decoDesc>
-              <summary n="1">Uno grabado (p.1) </summary>
+              <summary n="1">Un grabado (p.1)</summary>
               <decoNote type="lista_grabados">
                 <list>
                   <item corresp="grabado_v_066_1.xml">grabado_v_066_1</item>
@@ -96,18 +104,17 @@
     </fileDesc>
     <encodingDesc>
       <projectDesc>
-        <p>Este archivo fue creado en el marco del proyecto Desenrollando el
-                            Cordel/Démêler le cordel/Untangling the cordel, dirigido por la
-                            profesora Constance Carta de la Universidad de Ginebra, con el apoyo de
-                            la Fundación filantrópica Famille Sandoz-Monique de Meuron.</p>
+        <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+          cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la Universidad
+          de Ginebra, con el apoyo de la Fundación filantrópica Famille Sandoz-Monique de
+          Meuron.</p>
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR non corregido</p>
+          <p>OCR no corregido</p>
         </correction>
         <normalization>
-          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto
-                                original.</p>
+          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
         </normalization>
         <punctuation>
           <p>Se conserva la puntuación original.</p>
@@ -129,9 +136,13 @@
     </profileDesc>
     <revisionDesc>
       <change when="2022-06-15" who="#PJ">Création du fichier TEI P5 et encodage du corps du
-                        texte</change>
+        texte</change>
+      <change when="2024-01-09" who="#EL">Add the IIIF links</change>
     </revisionDesc>
   </teiHeader>
+  <facsimile>
+    <graphic url="varios/Varios_066_1.jpg/full/200,/0/default.jpg"/>
+  </facsimile>
   <sourceDoc xml:id="automaticTranscription">
     <surface xml:id="Varios_066_1" type="page" cert="silver">
       <graphic url="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_066_1/full/full/0/default.jpg"/>
@@ -1209,11 +1220,14 @@
   <text>
     <body>
       <div>
-        <pb n="1" source="Varios_066_1.jpg" facs="fedora_Varios_066_1/full/full/0/default.jpg"/>
         <div>
-          <head type="primer_titulo"><lb/>UN DRAMA RIDÍCULO DE AMOR Y CELOS<lb/>entre un caballero y su sirvienta dos gatos y un mico</head>
-          <lg>
-            <l>Una linda cocinera,</l>
+          <div>
+            <pb n="1" source="Varios_066_1.jpg" facs="varios/Varios_066_1.jpg/"/>
+
+            <head type="primer_titulo"><lb/>UN DRAMA RIDÍCULO DE AMOR Y CELOS<lb/>entre un caballero
+              y su sirvienta dos gatos y un mico</head>
+
+            <l rend="indent">Una linda cocinera,</l>
             <l>más alegre que unas Pascuas,</l>
             <l>y además de alegre, joven,</l>
             <l>y además de joven, guapa,</l>
@@ -1223,12 +1237,10 @@
             <l>y tener repleta el arca,</l>
             <l>y porque en aquella antilla</l>
             <l>el gran calor le ahogaba.</l>
-            <l>Puso casa en Barcelona</l>
+            <l rend="indent">Puso casa en Barcelona</l>
             <l>por darse al placer y holganza,</l>
             <l>que es ciudad do se disfruta</l>
             <l>si abunda el oro y la plata.</l>
-          </lg>
-          <lg>
             <l>Ella ganaba un buen sueldo,</l>
             <l>y en toda la barriada</l>
             <l>era la reina y señora</l>
@@ -1241,11 +1253,11 @@
             <l>del amo se separaba,</l>
             <l>fuera por el matrimonio,</l>
             <l>ó por la herencia cercana.</l>
-            <l>Pero como en este mundo</l>
+            <l rend="indent">Pero como en este mundo</l>
             <l>tenemos todos mil faltas,</l>
-          </lg>
-          <pb n="2" source="Varios_066_2.jpg" facs="fedora_Varios_066_2/full/full/0/default.jpg"/>
-          <lg>
+
+            <pb n="2" source="Varios_066_2.jpg" facs="varios/Varios_066_2.jpg/"/>
+
             <l>y si no amamos á Dios,</l>
             <l>amamos la carne flaca,</l>
             <l>resultó que la doncella</l>
@@ -1262,7 +1274,7 @@
             <l>postre, leche, vino y agua;</l>
             <l>del pescado las cabezas.</l>
             <l>y de las aves las alas.</l>
-            <l>De este modo la gatita,</l>
+            <l rend="indent">De este modo la gatita,</l>
             <l>tan atendida y cuidada,</l>
             <l>iba creciendo muy gorda,</l>
             <l>muy reluciente y lozana;</l>
@@ -1276,7 +1288,7 @@
             <l>á la gata cortejaba,</l>
             <l>y á la chica, por envidia,</l>
             <l>cada día la arañaba!</l>
-            <l>El señor se fué escamando</l>
+            <l rend="indent">El señor se fué escamando</l>
             <l>al ver como la criada</l>
             <l>á él ya poco le atendía,</l>
             <l>distraída con la gata;</l>
@@ -1288,9 +1300,7 @@
             <l>de ojos vivos, cola larga,</l>
             <l>enemigo de los gatos,</l>
             <l>y aun quizá más de las gatas.</l>
-          </lg>
-          <lg>
-            <l>Le enseñó que siempre fuera</l>
+            <l rend="indent">Le enseñó que siempre fuera</l>
             <l>tras el bicho y la muchacha</l>
             <l>sin descansar un momento</l>
             <l>á seguirlas y espiarlas,</l>
@@ -1306,7 +1316,7 @@
             <l>cafés con medias tostadas,</l>
             <l>y que en fin, por todos medios</l>
             <l>procurase fastidiarlas.</l>
-            <l>El mono, que era un prodigio</l>
+            <l rend="indent">El mono, que era un prodigio</l>
             <l>en eso de hacer monadas,</l>
             <l>cumplió cuanto le ordenaron</l>
             <l>con arte y con mucha gracia.</l>
@@ -1328,25 +1338,28 @@
             <l>la bestezuela taimada,</l>
             <l>bien chamuscados los pelos</l>
             <l>y estropeada la facha.</l>
-            <l>Esto enseña que no es bueno</l>
+            <l rend="indent">Esto enseña que no es bueno</l>
             <l>ser tercero en ciertas causas,</l>
             <l>y menos si son de amores</l>
             <l>de señores y criadas.</l>
-          </lg>
-          <pb n="3" source="Varios_066_3.jpg" facs="fedora_Varios_066_3/full/full/0/default.jpg"/>
-        </div>
-        <div>
-          <head type="titulo_cancion"><lb/>CANCIÓN DE LA JALEA<lb/>Y AMORES DE UNA DAMA CON UN CONFITERO</head>
-          <lg>
-            <l>Nadie se admire que yo</l>
-            <l>por un confitero muera:</l>
-            <l>que me da dulces muy finos</l>
-            <l>y también me da jalea.</l>
-          </lg>
+          </div>
+
           <div>
-            <head type="titulo_estrofa"><lb/>CORO</head>
+            <pb n="3" source="Varios_066_3.jpg" facs="varios/Varios_066_3.jpg/"/>
+
+            <head type="titulo_cancion"><lb/>CANCIÓN DE LA JALEA<lb/>Y AMORES DE UNA DAMA CON UN
+              CONFITERO</head>
+
+            <lg>
+              <l rend="indent">Nadie se admire que yo</l>
+              <l>por un confitero muera:</l>
+              <l>que me da dulces muy finos</l>
+              <l>y también me da jalea.</l>
+            </lg>
+
             <lg rend="cursiva">
-              <l>Tú me vuelves loco,</l>
+              <head type="titulo_estrofa"><lb/>CORO</head>
+              <l rend="indent">Tú me vuelves loco,</l>
               <l>tú me haces penar,</l>
               <l>y á veces de gusto</l>
               <l>me haces delirar;</l>
@@ -1358,14 +1371,14 @@
               <l>ay jalea, y que bien te remaneas!</l>
             </lg>
             <lg>
-              <l>Los hombres sou los demonios;</l>
+              <l rend="indent">Los hombres sou los demonios;</l>
               <l>según dicen las mujeres,</l>
               <l>cuántos habrá deseando</l>
               <l>que el demonio se las lleve.</l>
               <l rend="cursiva">Tú me vuelves loco, etc.</l>
             </lg>
             <lg>
-              <l>La dama que no se casa</l>
+              <l rend="indent">La dama que no se casa</l>
               <l>á los veinticinco años,</l>
               <l>al cielo pide venganza</l>
               <l>con un dolor tan extraño...</l>
@@ -1374,136 +1387,138 @@
               <l rend="cursiva">Tu me vuelves loco, etc.</l>
             </lg>
             <lg>
-              <l>Veintitrés abos cumplidos</l>
+              <l rend="indent">Veintitrés abos cumplidos</l>
               <l>tengo ya y no estoy casada:</l>
               <l>válgame Dios ¡qué suspiros</l>
               <l>me cuesta el hacer la cama</l>
-              <l>Mal haya sea mi madre</l>
+              <l rend="indent">Mal haya sea mi madre</l>
               <l>que no me quiso casar;</l>
               <l>pues á fe que con mi padre</l>
               <l>buenos ratos pasará.</l>
-              <l>Como la edad ve me pasa.</l>
-            </lg>
-            <lg>
+              <l rend="indent">Como la edad ve me pasa.</l>
               <l>me pongo flaca y morena:</l>
               <l>la dama que no se casa,</l>
               <l>no sabe lo que es canela.</l>
+              <l rend="indent">Dios cuide de mi querido</l>
               <l>don Alfonso el confitero,</l>
-              <l>Dios cuide de mi querido</l>
               <l>que si los dulces son finos,</l>
               <l>es mas fino su salero.</l>
-              <l>Ni mistela, ni café,</l>
+              <l rend="indent">Ni mistela, ni café,</l>
               <l>ni bizcocho amerengado</l>
               <l>es más dulce que tener</l>
               <l>un marido siempre al ládo.</l>
-              <l>El me da yemas nevadas</l>
+              <l rend="indent">El me da yemas nevadas</l>
               <l>que relucen como estrellas,</l>
               <l>acitrón, turrón de barra,</l>
               <l>y á todas horas jalea.</l>
-              <l>¡Qué cuerpo tan resalado!</l>
+              <l rend="indent">¡Qué cuerpo tan resalado!</l>
               <l>¡qué modito de mirar!</l>
               <l>cuando me habla, me desahogo</l>
               <l>como en el agua la sal.</l>
-              <l>Sin él no puedo vivir</l>
+              <l rend="indent">Sin él no puedo vivir</l>
               <l>una tan sola mañana;</l>
               <l>que el amor de un confitero</l>
               <l>sabe á ternera mechada.</l>
-              <l>Si se admiran las doncellas</l>
+              <l rend="indent">Si se admiran las doncellas</l>
               <l>que yo quiero á un confitero,</l>
               <l>es porque no saben ellas</l>
               <l>lo que vale su salero.</l>
-              <l>Una vez que le he probado</l>
+              <l rend="indent">Una vez que le he probado</l>
               <l>me supo muy exquisito;</l>
               <l>una jalea me hago</l>
               <l>en viendo su cuerpecito.</l>
-              <l>En fin, me voy á acostar,</l>
+              <l rend="indent">En fin, me voy á acostar,</l>
               <l>pues no tengo otro remedio;</l>
               <l>algún día llegará</l>
               <l>que me acueste con mi dueño.</l>
-              <l>Así decía una dama</l>
+              <l rend="indent">Así decía una dama</l>
               <l>amada do un confitero,</l>
               <l>que los dulces le gustaban,</l>
               <l>y mucho más su dinero.</l>
             </lg>
-            <pb n="4" source="Varios_066_4.jpg" facs="fedora_Varios_066_4/full/full/0/default.jpg"/>
+          </div>
+
+          <div>
+            <pb n="4" source="Varios_066_4.jpg" facs="varios/Varios_066_4.jpg/"/>
+
+            <head type="titulo_cancion"><lb/>LA HERMOSA JULIA</head>
+
+            <lg>
+              <l rend="indent">Si de amor la viva llama</l>
+              <l>en mi pecho ya devora;</l>
+              <l>tu belleza encantadora:</l>
+              <l>me ha robado elscorazón,</l>
+              <l>¡Oh! Julia hermosa</l>
+              <l>tus ojos bellos</l>
+              <l>opresa tienen</l>
+              <l>el alma mia</l>
+              <l>que en ti pienso noche y día</l>
+              <l>compadece compadece mi dolor.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Si mi amor fragante rosa</l>
+              <l>hoy se rinde á tu albedrio</l>
+              <l>es por verte dueño mio</l>
+              <l>más brillante querubí.</l>
+              <l>Pues que tú sola</l>
+              <l>Julia divina</l>
+              <l>hoy hacer puedes</l>
+              <l>la suerte mía</l>
+              <l>que en tí pienso noche y dia</l>
+              <l>compadece compadece mi dolor.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Si mi amor á tí se uniera</l>
+              <l>por dichoso me tendría</l>
+              <l>y á tu lado gozaría</l>
+              <l>la mayor felicidad.</l>
+              <l>Quisiera amarte</l>
+              <l>con esperanza</l>
+              <l>que así lo exige</l>
+              <l>la suerte mía</l>
+              <l>que en tí pienso noche y día</l>
+              <l>compadece compadece mi dolor.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Si yo del placer disfruto</l>
+              <l>de tenerte á mi lado</l>
+              <l>habré en el suelo gozado</l>
+              <l>de la gloria celestial</l>
+              <l>Pues que mi dicha</l>
+              <l>sólo consiste</l>
+              <l>en que yo pueda</l>
+              <l>llamarte mia.</l>
+              <l>que en ti pienso noce y dia</l>
+              <l>compadece compadece mi dolor.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Al ver tus labios rosados</l>
+              <l>y tus ojos de diamante.</l>
+              <l>siento el pecho palpitante</l>
+              <l>que hacia ti quiere marchar.</l>
+              <l>No seas iugrata</l>
+              <l>hermosa diosa</l>
+              <l>haz cariñosa</l>
+              <l>la dicha mía.</l>
+              <l>que en ti pienso noche y dia</l>
+              <l>compadece compadece mi dolor.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Si al mirarte cielo hermoso</l>
+              <l>no sé en mi pecho qué siento</l>
+              <l>lejos de tí un momento</l>
+              <l>di cómo podré estar,</l>
+              <l>Mi cruel suerte</l>
+              <l>pues compadece</l>
+              <l>Y haz que yo pueda</l>
+              <l>llamarte mía</l>
+              <l>que en tí pienso noche y día</l>
+              <l>compadece compadece mi dolor.</l>
+            </lg>
+            <trailer>FIN</trailer>
           </div>
         </div>
-        <div>
-          <head type="titulo_cancion"><lb/>LA HERMOSA JULIA</head>
-          <lg>
-            <l>Si de amor la viva llama</l>
-            <l>en mi pecho ya devora;</l>
-            <l>tu belleza encantadora:</l>
-            <l>me ha robado elscorazón,</l>
-            <l>¡Oh! Julia hermosa</l>
-            <l>tus ojos bellos</l>
-            <l>opresa tienen</l>
-            <l>el alma mia</l>
-            <l>que en ti pienso noche y día</l>
-            <l>compadece compadece mi dolor.</l>
-          </lg>
-          <lg>
-            <l>Si mi amor fragante rosa</l>
-            <l>hoy se rinde á tu albedrio</l>
-            <l>es por verte dueño mio</l>
-            <l>más brillante querubí.</l>
-            <l>Pues que tú sola</l>
-            <l>Julia divina</l>
-            <l>hoy hacer puedes</l>
-            <l>la suerte mía</l>
-            <l>que en tí pienso noche y dia</l>
-            <l>compadece compadece mi dolor.</l>
-          </lg>
-          <lg>
-            <l>Si mi amor á tí se uniera</l>
-            <l>por dichoso me tendría</l>
-            <l>y á tu lado gozaría</l>
-            <l>la mayor felicidad.</l>
-            <l>Quisiera amarte</l>
-            <l>con esperanza</l>
-            <l>que así lo exige</l>
-            <l>la suerte mía</l>
-            <l>que en tí pienso noche y día</l>
-            <l>compadece compadece mi dolor.</l>
-          </lg>
-          <lg>
-            <l>Si yo del placer disfruto</l>
-            <l>de tenerte á mi lado</l>
-            <l>habré en el suelo gozado</l>
-            <l>de la gloria celestial</l>
-            <l>Pues que mi dicha</l>
-            <l>sólo consiste</l>
-            <l>en que yo pueda</l>
-            <l>llamarte mia.</l>
-            <l>que en ti pienso noce y dia</l>
-            <l>compadece compadece mi dolor.</l>
-          </lg>
-          <lg>
-            <l>Al ver tus labios rosados</l>
-            <l>y tus ojos de diamante.</l>
-            <l>siento el pecho palpitante</l>
-            <l>que hacia ti quiere marchar.</l>
-            <l>No seas iugrata</l>
-            <l>hermosa diosa</l>
-            <l>haz cariñosa</l>
-            <l>la dicha mía.</l>
-            <l>que en ti pienso noche y dia</l>
-            <l>compadece compadece mi dolor.</l>
-          </lg>
-          <lg>
-            <l>Si al mirarte cielo hermoso</l>
-            <l>no sé en mi pecho qué siento</l>
-            <l>lejos de tí un momento</l>
-            <l>di cómo podré estar,</l>
-            <l>Mi cruel suerte</l>
-            <l>pues compadece</l>
-            <l>Y haz que yo pueda</l>
-            <l>llamarte mía</l>
-            <l>que en tí pienso noche y día</l>
-            <l>compadece compadece mi dolor.</l>
-          </lg>
-          <trailer>FIN</trailer>
-        </div>
+        
         <div type="colofon">
           <p><lb/>Barcelona : En casa Cristina Segura, calle de la Palma de Sta. Catalina.</p>
         </div>

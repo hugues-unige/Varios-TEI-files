@@ -30,7 +30,7 @@
           <publicationStmt>
             <publisher>Imprenta Universal</publisher>
             <pubPlace ref="https://www.geonames.org/3117735/madrid.html">Madrid</pubPlace>
-            <date cert="high">[s.a]</date>
+            <date cert="low" when="1800-01-01">[s.a.]</date>
           </publicationStmt>
         </biblFull>
         <msDesc>
@@ -39,6 +39,7 @@
             <settlement>Genève</settlement>
             <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"/>
                                     </repository>
+            <collection>Colección Varios</collection>
             <idno type="cote"/>
             <idno type="DOI">10.5281/zenodo.6787703</idno>
             <altIdentifier>
@@ -67,7 +68,7 @@
               </layoutDesc>
             </objectDesc>
             <decoDesc>
-              <summary n="1">Uno grabados (p.1) </summary>
+              <summary n="1">Un grabados (p.1) </summary>
               <decoNote type="lista_grabados">
                 <list>
                   <item corresp="grabado_v_409_1.xml">grabado_v_409_1</item>
@@ -95,7 +96,7 @@
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR non corregido</p>
+          <p>OCR no corregido</p>
         </correction>
         <normalization>
           <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto
@@ -122,9 +123,10 @@
     <revisionDesc>
       <change when="2023-12-25" who="#PJ">Création du fichier TEI P5 et encodage du
                         corps du texte</change>
+<change when="2024-01-09" who="#EL">Add the IIIF links</change>
     </revisionDesc>
   </teiHeader>
-  <sourceDoc xml:id="automaticTranscription">
+  <facsimile><graphic url="varios/Varios_409_1.jpg/full/200,/0/default.jpg"/></facsimile><sourceDoc xml:id="automaticTranscription">
     <surface xml:id="Varios_409_1" type="page" cert="silver">
       <graphic url="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_409_1/full/full/0/default.jpg"/>
       <zone xml:id="Varios_409_1_BT223_1" n="1" type="CustomZone" subtype="title" points="189,1788 1571,1788 1571,2213 189,2213 189,1788 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_409_1/189.0,1788.0,1382.0,425.0/full/0/default" corresp="CustomZone:title">
@@ -1240,7 +1242,7 @@
   <text>
     <body>
       <div>
-        <pb n="1" source="Varios_409_1.jpg" facs="fedora_Varios_409_1/full/full/0/default.jpg"/>
+        <pb n="1" source="Varios_409_1.jpg" facs="varios/Varios_409_1.jpg/"/>
         <div type="parte" n="1">
           <head type="primer_titulo"><lb/>LOS PROPIOS TANGOS<lb/>GADITANOS<lb/>CORO DE LOS
                                     ABANICOS</head>
@@ -1254,7 +1256,7 @@
             <l>el fuelle de un herrador,</l>
             <l>y esos cuellos tan subidos,</l>
           </lg>
-          <pb n="2" source="Varios_409_2.jpg" facs="fedora_Varios_409_2/full/full/0/default.jpg"/>
+          <pb n="2" source="Varios_409_2.jpg" facs="varios/Varios_409_2.jpg/"/>
           <lg>
             <l>que llevan en las capitas</l>
             <l>que tienen la misma forma</l>
@@ -1365,7 +1367,7 @@
             <l>A las maestras y amas de racho</l>
             <l>yo les daré</l>
             <l>á cada una nn pericón celeste fané</l>
-            <pb n="3" source="Varios_409_3.jpg" facs="fedora_Varios_409_3/full/full/0/default.jpg"/>
+            <pb n="3" source="Varios_409_3.jpg" facs="varios/Varios_409_3.jpg/"/>
             <l>y á las que trabajan en el taller</l>
             <l>del espalillao,</l>
             <l>que francamente yá se me habían</l>
@@ -1452,7 +1454,7 @@
             <l>la dice el pato con frenesí:</l>
             <l>Caracacuá, cuá, cuá.</l>
           </lg>
-          <pb n="4" source="Varios_409_4.jpg" facs="fedora_Varios_409_4/full/full/0/default.jpg"/>
+          <pb n="4" source="Varios_409_4.jpg" facs="varios/Varios_409_4.jpg/"/>
           <lg>
             <l>Caracacuá, cuá, cuá.</l>
             <l>Ven acá patita, no seas tan mala</l>

@@ -4,8 +4,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>ELEGANTES TROVOS DE AMOR PARA CANTAR UN AMANTE A LA PRENDA QUE MÁS
-                              ADORA</title>
+        <title>ELEGANTES TROVOS DE AMOR PARA CANTAR UN AMANTE A LA PRENDA QUE MÁS ADORA</title>
         <respStmt>
           <name xml:id="PJ">Pauline Jacsont</name>
           <resp>Codificación TEI</resp>
@@ -29,9 +28,9 @@
             <p/>
           </editionStmt>
           <publicationStmt>
-            <publisher>Imprenta y librería de Juan Grau</publisher>
+            <publisher>Juan Grau</publisher>
             <pubPlace ref="https://www.geonames.org/3111933/reus.html">Reus</pubPlace>
-            <date cert="high">[s.a]</date>
+            <date cert="low" when="1800-01-01">[s.a.]</date>
           </publicationStmt>
         </biblFull>
         <msDesc>
@@ -40,6 +39,7 @@
             <settlement>Genève</settlement>
             <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"/>
                                     </repository>
+            <collection>Colección Varios</collection>
             <idno type="cote"/>
             <idno type="DOI">10.5281/zenodo.6783900</idno>
             <altIdentifier>
@@ -102,7 +102,7 @@
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR non corregido</p>
+          <p>OCR no corregido</p>
         </correction>
         <normalization>
           <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto
@@ -129,9 +129,10 @@
     <revisionDesc>
       <change when="2023-12-17" who="#PJ">Création du fichier TEI P5 et encodage du
                         corps du texte</change>
+<change when="2024-01-09" who="#EL">Add the IIIF links</change>
     </revisionDesc>
   </teiHeader>
-  <sourceDoc xml:id="automaticTranscription">
+  <facsimile><graphic url="varios/Varios_396_1.jpg/full/200,/0/default.jpg"/></facsimile><sourceDoc xml:id="automaticTranscription">
     <surface xml:id="Varios_396_1" type="page" cert="silver">
       <graphic url="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_396_1/full/full/0/default.jpg"/>
       <zone xml:id="Varios_396_1_BT223_1" n="1" type="CustomZone" subtype="title" points="1657,1286 1657,1755 110,1755 110,1286 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_396_1/110,1286,1547,469/full/0/default" corresp="CustomZone:title">
@@ -1124,7 +1125,7 @@
   <text>
     <body>
       <div>
-        <pb n="1" source="Varios_396_1.jpg" facs="fedora_Varios_396_1/full/full/0/default.jpg"/>
+        <pb n="1" source="Varios_396_1.jpg" facs="varios/Varios_396_1.jpg/"/>
         <div type="parte" n="1">
           <head type="primer_titulo"><lb/>ELEGANTES TROVOS DE AMOR</head>
           <head type="titulo_parte"><lb/>PARA CANTAR UN AMANTE A LA
@@ -1159,7 +1160,7 @@
           </lg>
           <lg>
             <l>Confiando en tu bondad</l>
-            <pb n="2" source="Varios_396_2.jpg" facs="fedora_Varios_396_2/full/full/0/default.jpg"/>
+            <pb n="2" source="Varios_396_2.jpg" facs="varios/Varios_396_2.jpg/"/>
             <l>me atrevo á decir «te adoro»</l>
             <l>por tu pura castidad:</l>
             <l>aunque no cante sonoro</l>
@@ -1266,7 +1267,7 @@
           <lg>
             <l>Trabajo con agonía</l>
             <l>por ganar una friolera,</l>
-            <pb n="3" source="Varios_396_3.jpg" facs="fedora_Varios_396_3/full/full/0/default.jpg"/>
+            <pb n="3" source="Varios_396_3.jpg" facs="varios/Varios_396_3.jpg/"/>
             <l>y al instante le daría</l>
             <l>medío mundo que tuviera</l>
             <l>á la que quiero por mia.</l>
@@ -1374,7 +1375,7 @@
             <l>al que siempre fué constante;</l>
             <l>ya ves que un «si» mereció:</l>
             <l>quiérame que soy tu amante,</l>
-            <pb n="4" source="Varios_396_4.jpg" facs="fedora_Varios_396_4/full/full/0/default.jpg"/>
+            <pb n="4" source="Varios_396_4.jpg" facs="varios/Varios_396_4.jpg/"/>
             <l>hermosa, te quiero yo.</l>
           </lg>
           <lg>

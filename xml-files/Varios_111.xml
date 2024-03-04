@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../Schema/oddPliego_varios.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:alto="http://www.loc.gov/standards/alto/ns-v4#" xml:id="Varios_111">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Varios_111">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -11,8 +11,7 @@
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <authority role="rightsHolder">Bibliothèque Universitaire de
-                              Genève</authority>
+        <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
         <availability status="restricted">
           <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
         </availability>
@@ -29,7 +28,7 @@
           <publicationStmt>
             <publisher>José Clara</publisher>
             <pubPlace ref="https://www.geonames.org/3128760/barcelona.html">Barcelona</pubPlace>
-            <date>[s.a]</date>
+            <date cert="low" when="1800-01-01">[s.a.]</date>
           </publicationStmt>
         </biblFull>
         <msDesc>
@@ -37,7 +36,8 @@
             <country>Suisse</country>
             <settlement>Genève</settlement>
             <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"/>
-                                    </repository>
+            </repository>
+            <collection>Colección Varios</collection>
             <idno type="cote"/>
             <idno type="DOI">10.5281/zenodo.6577033</idno>
             <altIdentifier>
@@ -45,10 +45,14 @@
             </altIdentifier>
           </msIdentifier>
           <msContents>
-            <summary/>
+            <summary>Dos canciones</summary>
             <msItem>
-              <locus/>
-              <title/>
+              <locus>1-2</locus>
+              <title>Himno de la guerra de Cuba</title>
+            </msItem>
+            <msItem>
+              <locus>3-4</locus>
+              <title>Coplas flamencas</title>
             </msItem>
           </msContents>
           <physDesc>
@@ -66,7 +70,7 @@
               </layoutDesc>
             </objectDesc>
             <decoDesc>
-              <summary n="1">Uno grabado (p.1) </summary>
+              <summary n="1">Un grabado (p.1) </summary>
               <decoNote type="lista_grabados">
                 <list>
                   <item corresp="grabado_v_111_1.xml">grabado_v_111_1</item>
@@ -91,18 +95,17 @@
     </fileDesc>
     <encodingDesc>
       <projectDesc>
-        <p>Este archivo fue creado en el marco del proyecto Desenrollando el
-                              Cordel/Démêler le cordel/Untangling the cordel, dirigido por la
-                              profesora Constance Carta de la Universidad de Ginebra, con el apoyo
-                              de la Fundación filantrópica Famille Sandoz-Monique de Meuron.</p>
+        <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+          cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la Universidad
+          de Ginebra, con el apoyo de la Fundación filantrópica Famille Sandoz-Monique de
+          Meuron.</p>
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR non corregido</p>
+          <p>OCR no corregido</p>
         </correction>
         <normalization>
-          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto
-                                    original.</p>
+          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
         </normalization>
         <punctuation>
           <p>Se conserva la puntuación original.</p>
@@ -123,10 +126,14 @@
       </textClass>
     </profileDesc>
     <revisionDesc>
-      <change when="2022-08-02" who="#PJ">Création du fichier TEI P5 et encodage du
-                        corps du texte</change>
+      <change when="2022-08-02" who="#PJ">Création du fichier TEI P5 et encodage du corps du
+        texte</change>
+      <change when="2024-01-09" who="#EL">Add the IIIF links</change>
     </revisionDesc>
   </teiHeader>
+  <facsimile>
+    <graphic url="varios/Varios_111_1.jpg/full/200,/0/default.jpg"/>
+  </facsimile>
   <sourceDoc xml:id="automaticTranscription">
     <surface xml:id="Varios_111_1" type="page" cert="silver">
       <graphic url="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_111_1/full/full/0/default.jpg"/>
@@ -1105,9 +1112,10 @@
   <text>
     <body>
       <div>
-        <pb n="1" source="Varios_111_1.jpg" facs="fedora_Varios_111_1/full/full/0/default.jpg"/>
+        <pb n="1" source="Varios_111_1.jpg" facs="varios/Varios_111_1.jpg/"/>
         <fw type="impresorNum">Núm. 6.</fw>
-        <div type="parte" n="1">
+        
+        <div n="1">
           <head type="primer_titulo"><lb/>HIMNO DE LA GUERRA DE CUBA</head>
           <lg>
             <l>Al dejar las playas españolas,</l>
@@ -1141,7 +1149,9 @@
             <l>Para los hijos de España</l>
             <l>Que allí van á pelear.</l>
           </lg>
-          <pb n="2" source="Varios_111_2.jpg" facs="fedora_Varios_111_2/full/full/0/default.jpg"/>
+          
+          <pb n="2" source="Varios_111_2.jpg" facs="varios/Varios_111_2.jpg/"/>
+          
           <lg>
             <l>¡ Oh que Escuadra de fragatas tiene !</l>
             <l>¡ Oh que mozos tiene galardon !</l>
@@ -1238,13 +1248,16 @@
             <l>Cuba ha de ser Española</l>
             <l>O se pierde la nacion</l>
           </lg>
-          <pb n="3" source="Varios_111_3.jpg" facs="fedora_Varios_111_3/full/full/0/default.jpg"/>
         </div>
-        <div>
+        
+        <div n="2">
+          <pb n="3" source="Varios_111_3.jpg" facs="varios/Varios_111_3.jpg/"/>
+          
           <head type="titulo_cancion"><lb/>COPLAS FLAMENCAS</head>
-          <p><lb/>I.</p>
+          
           <lg>
-            <l>Las mocitas de hoy en dia,</l>
+            <head type="titulo_estrofa"><lb/>I.</head>
+            <l rend="indent">Las mocitas de hoy en dia,</l>
             <l>Tienen mucha gracia y sal,</l>
             <l>Son rumbosas, sandungueras</l>
             <l>De hermosura sin igual.</l>
@@ -1255,9 +1268,10 @@
             <l>Muy finas,</l>
             <l>Que son bellas y divinas.</l>
           </lg>
-          <p><lb/>II.</p>
+          
           <lg>
-            <l>Las criadas de servicio</l>
+            <head type="titulo_estrofa"><lb/>II.</head>
+            <l rend="indent">Las criadas de servicio</l>
             <l>Cuando por la Rambla van</l>
             <l>Solo miran con juicio</l>
             <l>Si algun pollo encontrarán.</l>
@@ -1268,9 +1282,10 @@
             <l>Y buscan un buen empeño</l>
             <l>Alegres y placenteras.</l>
           </lg>
-          <p><lb/>III.</p>
+          
           <lg>
-            <l>Una pollita modiste</l>
+            <head type="titulo_estrofa"><lb/>III.</head>
+            <l rend="indent">Una pollita modiste</l>
             <l>De un pollo se enamoró,</l>
             <l>Mas él la tiene á la lista</l>
             <l>Por cosas que me sé yo.</l>
@@ -1281,9 +1296,10 @@
             <l>Y la pobre está llorando</l>
             <l>Ba di tincon de su casa</l>
           </lg>
-          <p><lb/>IV.</p>
+          
           <lg>
-            <l>Una viudita me quiere</l>
+            <head type="titulo_estrofa"><lb/>IV.</head>
+            <l rend="indent">Una viudita me quiere</l>
             <l>Por que tengo buen pulmon</l>
             <l>En cantar á lo flamenco</l>
             <l>Con donaire y atencion.</l>
@@ -1294,9 +1310,10 @@
             <l>Y yo siempre la camelo</l>
             <l>Por ser hermosa y fresquita.</l>
           </lg>
-          <p><lb/>V.</p>
+          
           <lg>
-            <l>Una niña de quince años</l>
+            <head type="titulo_estrofa"><lb/>V.</head>
+            <l rend="indent">Una niña de quince años</l>
             <l>Como la flor del Abril,</l>
             <l>Me roba siempre la calma</l>
             <l>Y la sigo de perfil.</l>
@@ -1307,9 +1324,10 @@
             <l>Y si yo puedo pescarla,</l>
             <l>Será feliz nuestra Estrellas.</l>
           </lg>
-          <p><lb/>VI.</p>
+          
           <lg>
-            <l>«Eres el sol de los soles»</l>
+            <head type="titulo_estrofa"><lb/>VI.</head>
+            <l rend="indent">«Eres el sol de los soles»</l>
             <l>Un soldado dijo un dia</l>
             <l>A una muchacha, salero,</l>
             <l>De mucho que la queria.</l>
@@ -1320,10 +1338,12 @@
             <l>Por tí de amores me abraso</l>
             <l>Por ti yo pierdo la vida.</l>
           </lg>
-          <pb n="4" source="Varios_111_4.jpg" facs="fedora_Varios_111_4/full/full/0/default.jpg"/>
-          <p><lb/>VII.</p>
+          
+          <pb n="4" source="Varios_111_4.jpg" facs="varios/Varios_111_4.jpg/"/>
+          
           <lg>
-            <l>Madre mia de mi vida</l>
+            <head type="titulo_estrofa"><lb/>VII.</head>
+            <l rend="indent">Madre mia de mi vida</l>
             <l>Estoy muriendo de amor</l>
             <l>Y siento dentro del pecho</l>
             <l>Un acendrado escozor.</l>
@@ -1334,9 +1354,10 @@
             <l>Que me palpita ¡ ay ! el pecho</l>
             <l>Y me mata la ilusion.</l>
           </lg>
-          <p><lb/>VIII.</p>
+          
           <lg>
-            <l>Un viejo verde mamita</l>
+            <head type="titulo_estrofa"><lb/>VIII.</head>
+            <l rend="indent">Un viejo verde mamita</l>
             <l>Me persigue sin cesar,</l>
             <l>Con sus palabras me irrita</l>
             <l>Y no lo puedo tiznar,</l>
@@ -1347,9 +1368,10 @@
             <l>Mas yo le inspiro desprecio</l>
             <l>Pues no le quiero adorar.</l>
           </lg>
-          <p><lb/>IX.</p>
+          
           <lg>
-            <l>Una jamona me hace</l>
+            <head type="titulo_estrofa"><lb/>IX.</head>
+            <l rend="indent">Una jamona me hace</l>
             <l>Mil guinos con rumbo y sal,</l>
             <l>La pobre me satisface</l>
             <l>Si la pido algun real.</l>
@@ -1360,9 +1382,10 @@
             <l>Y á su reja con cariño</l>
             <l>Yo siempre le canto el DENGUE.</l>
           </lg>
-          <p><lb/>X.</p>
+          
           <lg>
-            <l>Una pollita hace dias</l>
+            <head type="titulo_estrofa"><lb/>X.</head>
+            <l rend="indent">Una pollita hace dias</l>
             <l>Que me busca con teson,</l>
             <l>Por calmar sus agonías</l>
             <l>Le daré mi corazon.</l>
@@ -1373,9 +1396,10 @@
             <l>Y si me caso con ella</l>
             <l>Seré el hombre más feliz.</l>
           </lg>
-          <p><lb/>XI.</p>
+          
           <lg>
-            <l>Un chulo con una chula</l>
+            <head type="titulo_estrofa"><lb/>XI.</head>
+            <l rend="indent">Un chulo con una chula</l>
             <l>En las calles de Madrid,</l>
             <l>Un puro amor se juraban</l>
             <l>Y ella le decia así...</l>
@@ -1386,9 +1410,10 @@
             <l>Y el chulo con mucha gracia</l>
             <l>Le regalaba un corpiño.</l>
           </lg>
-          <p><lb/>XII.</p>
+          
           <lg>
-            <l>Por cantar canto flamenco</l>
+            <head type="titulo_estrofa"><lb/>XII.</head>
+            <l rend="indent">Por cantar canto flamenco</l>
             <l>No hay como la Andalucía</l>
             <l>Saben templar la guitarra</l>
             <l>Postizas y pandería.</l>
@@ -1399,11 +1424,11 @@
             <l>Donde hay la cantaora</l>
             <l>Allí se goza reposo.</l>
           </lg>
-          <note type="propiedad">(Es propiedad)</note>
+          <p rend="cursiva">(Es propiedad)</p>
         </div>
+        
         <div type="colofon">
-          <p><lb/>Se halla de venta en casa JOSÉ CLARA, Bou de la Plaza
-                                    Nueva, 20.—Barcelona.</p>
+          <p><lb/><hi rend="cursiva">Se halla de venta en casa</hi> JOSÉ CLARA, <hi rend="cursiva">Bou de la Plaza Nueva</hi>, 20.—<hi rend="cursiva">Barcelona</hi>.</p>
         </div>
       </div>
     </body>

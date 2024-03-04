@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../Schema/oddPliego_varios.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:alto="http://www.loc.gov/standards/alto/ns-v4#" xml:id="Varios_104">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Varios_104">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -11,8 +11,7 @@
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <authority role="rightsHolder">Bibliothèque Universitaire de
-                              Genève</authority>
+        <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
         <availability status="restricted">
           <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
         </availability>
@@ -20,8 +19,7 @@
       <sourceDesc>
         <biblFull>
           <titleStmt>
-            <title type="titulo_completo">JUGUET CATALÁ TITULAT LA NIT DE
-                                          NADAL</title>
+            <title type="titulo_completo">JUGUET CATALÁ TITULAT LA NIT DE NADAL</title>
             <title type="titulo_breve">LA NIT DE NADAL</title>
           </titleStmt>
           <editionStmt>
@@ -30,7 +28,7 @@
           <publicationStmt>
             <publisher>Joan Grau</publisher>
             <pubPlace ref="https://www.geonames.org/3111933/reus.html">Reus</pubPlace>
-            <date>[s.a]</date>
+            <date cert="low" when="1800-01-01">[s.a.]</date>
           </publicationStmt>
         </biblFull>
         <msDesc>
@@ -38,7 +36,8 @@
             <country>Suisse</country>
             <settlement>Genève</settlement>
             <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"/>
-                                    </repository>
+            </repository>
+            <collection>Colección Varios</collection>
             <idno type="cote"/>
             <idno type="DOI">10.5281/zenodo.6576119</idno>
             <altIdentifier>
@@ -67,7 +66,7 @@
               </layoutDesc>
             </objectDesc>
             <decoDesc>
-              <summary n="1">Uno grabado (p.1) </summary>
+              <summary n="1">Un grabado (p.1) </summary>
               <decoNote type="lista_grabados">
                 <list>
                   <item corresp="grabado_v_104_1.xml">grabado_v_104_1</item>
@@ -97,18 +96,17 @@
     </fileDesc>
     <encodingDesc>
       <projectDesc>
-        <p>Este archivo fue creado en el marco del proyecto Desenrollando el
-                              Cordel/Démêler le cordel/Untangling the cordel, dirigido por la
-                              profesora Constance Carta de la Universidad de Ginebra, con el apoyo
-                              de la Fundación filantrópica Famille Sandoz-Monique de Meuron.</p>
+        <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+          cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la Universidad
+          de Ginebra, con el apoyo de la Fundación filantrópica Famille Sandoz-Monique de
+          Meuron.</p>
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR non corregido</p>
+          <p>OCR no corregido</p>
         </correction>
         <normalization>
-          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto
-                                    original.</p>
+          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
         </normalization>
         <punctuation>
           <p>Se conserva la puntuación original.</p>
@@ -117,22 +115,26 @@
     </encodingDesc>
     <profileDesc>
       <langUsage>
-        <language ident="es">Español</language>
+        <language ident="ca">Catalán</language>
       </langUsage>
       <textClass>
         <keywords xml:base="http://datos.bne.es/tema/">
-          <term target="XX525577.html" type="tipo_texto">Canciones</term>
-          <term target="XX5501105.html" type="tipo_estrofa">Coplas</term>
+          <term target="XX4876797.html" type="tipo_texto">Sainetes</term>
+          <term target="XX5501105.html" type="tipo_estrofa"/>
           <term type="verso_prosa">Verso</term>
           <term type="sagrado_profano">Profano</term>
         </keywords>
       </textClass>
     </profileDesc>
     <revisionDesc>
-      <change when="2022-07-29" who="#PJ">Création du fichier TEI P5 et encodage du
-                        corps du texte</change>
+      <change when="2022-07-29" who="#PJ">Création du fichier TEI P5 et encodage du corps du
+        texte</change>
+      <change when="2024-01-09" who="#EL">Add the IIIF links</change>
     </revisionDesc>
   </teiHeader>
+  <facsimile>
+    <graphic url="varios/Varios_104_1.jpg/full/200,/0/default.jpg"/>
+  </facsimile>
   <sourceDoc xml:id="automaticTranscription">
     <surface xml:id="Varios_104_1" type="page" cert="silver">
       <graphic url="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_104_1/full/full/0/default.jpg"/>
@@ -165,8 +167,7 @@
         </zone>
         <zone xml:id="Varios_104_1_BT227_2_LT83_4" type="DefaultLine" subtype="none" points="392,2075 389,2025 632,2012 635,2012 635,2012 635,2012 637,2012 637,2012 640,2012 662,2027 665,2027 665,2027 688,2015 688,2015 688,2015 690,2015 690,2015 693,2015 693,2015 693,2015 695,2015 695,2015 695,2015 698,2015 698,2015 710,2027 713,2027 718,2027 779,2015 779,2015 779,2015 781,2015 781,2015 784,2015 784,2015 784,2015 786,2015 786,2015 786,2017 799,2027 799,2027 802,2027 893,2015 893,2015 895,2015 895,2015 895,2015 898,2015 938,2030 943,2030 948,2030 989,2017 991,2017 991,2017 994,2017 994,2017 994,2017 996,2017 996,2017 999,2017 1019,2030 1022,2032 1224,2032 1252,2032 1449,2020 1452,2020 1710,2037 1710,2088 1707,2098 1520,2111 1518,2111 1518,2111 1518,2111 1459,2101 1442,2098 1437,2101 1416,2116 1414,2116 1414,2116 1414,2116 1411,2116 1411,2116 1411,2116 1409,2116 1409,2116 1323,2101 1313,2101 1305,2101 1257,2116 1254,2116 1254,2116 1254,2116 1252,2116 1252,2116 1168,2103 1166,2103 1151,2103 913,2111 910,2111 910,2111 908,2111 908,2111 908,2111 905,2111 895,2103 882,2095 860,2103 842,2111 842,2111 839,2111 839,2111 837,2111 837,2111 837,2111 807,2106 756,2093 695,2106 662,2111 662,2111 660,2111 660,2111 660,2111 632,2106 566,2090 526,2106 526,2106 526,2106 523,2106 523,2106 523,2108 389,2108 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_104_1/389,2012,1321,104/full/0/default" corresp="DefaultLine">
           <path xml:id="Varios_104_1_BT227_2_LT83_4_1" points="392,2075 1710,2088 " corresp="DefaultLine"/>
-          <line>La essena representa un carrér, Á la dreta la casa de Geroni.
-                                    (Es de nit)</line>
+          <line>La essena representa un carrér, Á la dreta la casa de Geroni. (Es de nit)</line>
         </zone>
       </zone>
       <zone xml:id="Varios_104_1_BT227_3" n="3" type="MainZone" subtype="columns" points="915,2434 445,2444 412,2437 404,2404 404,2326 313,2222 333,2144 414,2103 1017,2123 1057,2151 1027,2164 1037,2252 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_104_1/313,2103,744,341/full/0/default" corresp="MainZone:columns">
@@ -2419,28 +2420,28 @@
       <zone xml:id="Varios_104_8_BT228_5" n="5" type="MarginTextZone" subtype="colophon" points="400,2256 389,2471 1901,2436 1914,2263 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_104_8/389,2256,1525,215/full/0/default" corresp="MarginTextZone:colophon">
         <zone xml:id="Varios_104_8_BT228_5_LT83_1" type="DefaultLine" subtype="none" points="432,2308 430,2247 1863,2273 1867,2305 1864,2313 432,2318 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_104_8/,,,/full/0/default" corresp="DefaultLine">
           <path xml:id="Varios_104_8_BT228_5_LT83_1_1" points="434,2310 1869,2307 "/>
-          <line>REUS:—Se vent en la librerta de Joan Grau. carrer del Metje
-                                    Fortuny, núm 5. En la mateixa</line>
+          <line>REUS:—Se vent en la librerta de Joan Grau. carrer del Metje Fortuny, núm 5. En la
+            mateixa</line>
         </zone>
         <zone xml:id="Varios_104_8_BT228_5_LT83_2" type="DefaultLine" subtype="none" points="414,2336 416,2312 1870,2309 1867,2333 1864,2348 414,2348 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_104_8/,,,/full/0/default" corresp="DefaultLine">
           <path xml:id="Varios_104_8_BT228_5_LT83_2_1" points="417,2338 1869,2334 "/>
-          <line>casa se trova un gran surtit de romansus sainetes, llibrets,
-                                    historias, comedias, aleluyas de</line>
+          <line>casa se trova un gran surtit de romansus sainetes, llibrets, historias, comedias,
+            aleluyas de</line>
         </zone>
         <zone xml:id="Varios_104_8_BT228_5_LT83_3" type="DefaultLine" subtype="none" points="414,2361 414,2328 1867,2328 1867,2361 1864,2374 412,2369 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_104_8/412,2328,1455,46/full/0/default" corresp="DefaultLine">
           <path xml:id="Varios_104_8_BT228_5_LT83_3_1" points="416,2362 1868,2363 "/>
-          <line>sante y soldats pintats. Diposit de llibrets pera fumá y capsas
-                                    de místos, Papé pera escriuer,</line>
+          <line>sante y soldats pintats. Diposit de llibrets pera fumá y capsas de místos, Papé
+            pera escriuer,</line>
         </zone>
         <zone xml:id="Varios_104_8_BT228_5_LT83_4" type="DefaultLine" subtype="none" points="412,2386 412,2353 1867,2356 1867,2386 1875,2392 380,2381 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_104_8/,,,/full/0/default" corresp="DefaultLine">
           <path xml:id="Varios_104_8_BT228_5_LT83_4_1" points="413,2389 1869,2387 "/>
-          <line>sobres pera cartas, plomas, palillos, llapicers, etc., etc. Tot
-                                    á preus mol baratos Obras que el</line>
+          <line>sobres pera cartas, plomas, palillos, llapicers, etc., etc. Tot á preus mol baratos
+            Obras que el</line>
         </zone>
         <zone xml:id="Varios_104_8_BT228_5_LT83_5" type="DefaultLine" subtype="none" points="419,2414 417,2381 1859,2381 1864,2412 1862,2422 419,2424 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_104_8/,,,/full/0/default" corresp="DefaultLine">
           <path xml:id="Varios_104_8_BT228_5_LT83_5_1" points="420,2415 1866,2413 "/>
-          <line>venen ab gran rebaixa de preus. Revolución de Polonia ab grabats
-                                    30 rs. per 10. Artagnán el</line>
+          <line>venen ab gran rebaixa de preus. Revolución de Polonia ab grabats 30 rs. per 10.
+            Artagnán el</line>
         </zone>
         <zone xml:id="Varios_104_8_BT228_5_LT83_6" type="DefaultLine" subtype="none" points="414,2442 414,2404 966,2409 966,2442 966,2480 936,2480 933,2480 905,2508 905,2510 903,2510 900,2510 900,2513 855,2513 844,2525 850,2510 847,2510 847,2508 824,2487 819,2480 802,2487 791,2492 789,2492 786,2492 784,2492 776,2490 756,2480 746,2492 741,2495 741,2497 738,2497 736,2497 733,2497 708,2495 635,2480 622,2490 622,2492 619,2492 617,2492 614,2492 549,2485 528,2505 523,2508 523,2510 521,2510 518,2510 518,2513 414,2513 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_104_8/,,,/full/0/default" corresp="DefaultLine">
           <path xml:id="Varios_104_8_BT228_5_LT83_6_1" points="415,2444 967,2444 "/>
@@ -2453,20 +2454,23 @@
   <text>
     <body>
       <div>
-        <pb n="1" source="Varios_104_1.jpg" facs="fedora_Varios_104_1/full/full/0/default.jpg"/>
+        <pb n="1" source="Varios_104_1.jpg" facs="varios/Varios_104_1.jpg/"/>
         <div>
-          <head type="primer_titulo"><lb/>JUGUET CATALÁ TITULAT<lb/>LA NIT DE NADA
-                                    L<lb/>PERSONAS</head>
+          <head type="primer_titulo"><lb/>JUGUET CATALÁ TITULAT<lb/>LA NIT DE NADAL</head>
+
           <castList>
+            <head type="reparto_titulo">PERSONAS</head>
             <castItem>GERONI...... Jove mol divertit</castItem>
             <castItem>TON... .... Algu tontu</castItem>
             <castItem>PEDASSUS . . . . .Gitano</castItem>
           </castList>
-          <stage rend="cursiva">La essena representa un carrér, Á la dreta la
-                                    casa de Geroni. (Es de nit)</stage>
+
+          <stage rend="cursiva">La essena representa un carrér, Á la dreta la casa de Geroni. (Es
+            de nit)</stage>
           <stage>Apareix Geroni tot freganse las mans.</stage>
+
           <sp>
-            <speaker>Geroni.</speaker>
+            <speaker rend="cursiva">Geroni.</speaker>
             <l>Ya'm arribát Déu me valga</l>
             <l>á la gran nit de Nadal,</l>
             <l>avuy se fá molta broma</l>
@@ -2476,12 +2480,15 @@
             <l>mols ne van calens de aurellas</l>
             <l>á fen fret tenen caló.</l>
             <l>Los uns sen van á matinas</l>
-            <pb n="2" source="Varios_104_2.jpg" facs="fedora_Varios_104_2/full/full/0/default.jpg"/>
+
+            <pb n="2" source="Varios_104_2.jpg" facs="varios/Varios_104_2.jpg/"/>
+
             <fw type="paginaNum">— 2 —</fw>
+
             <l>ó be á la missa del gall,</l>
             <l>vinga gresca, vinga festa</l>
             <l>y que may no pari 'l ball.</l>
-            <stage>Canta.</stage>
+            <stage rend="cursiva">Canta.</stage>
             <l>Molta alegría</l>
             <l>pel poble yá,</l>
             <l>ab las guitarras</l>
@@ -2490,7 +2497,7 @@
             <l>y muscatéll,</l>
             <l>bastans agafan</l>
             <l>una gran péll.</l>
-            <stage>Parlán.</stage>
+            <stage rend="cursiva">Parlán.</stage>
             <l>Quin frét fá mes colosál;</l>
             <l>cuasi m' ay de bufá 'ls dits</l>
             <l>y cuan fredas son las nits</l>
@@ -2515,18 +2522,18 @@
             <l>després aniré á matinas,</l>
             <l>veuré las noyas fadrinas</l>
             <l>con fan petá las bufetas.</l>
-            <l>Surt Ton ab un sach al coll....</l>
           </sp>
+          <stage>Surt Ton ab un sach al coll....</stage>
           <sp>
-            <speaker>Ton.</speaker>
+            <speaker rend="cursiva">Ton.</speaker>
             <l>Ay que pesa san Antoni.</l>
           </sp>
           <sp>
-            <speaker>Ger.</speaker>
+            <speaker rend="cursiva">Ger.</speaker>
             <l>¿Ahont vás ab tan de pés?</l>
           </sp>
           <sp>
-            <speaker>Ton.</speaker>
+            <speaker rend="cursiva">Ton.</speaker>
             <l>Aquí traginu 'ls neulés</l>
             <l>descarrégam, an Geroni.</l>
             <l>Ya suhu de una tal mena</l>
@@ -2534,7 +2541,7 @@
             <l>quin rayu de pés que yá,</l>
           </sp>
           <sp>
-            <speaker>Ger.</speaker>
+            <speaker rend="cursiva">Ger.</speaker>
             <l>¡Pobre Ton!! Yá te 'n fomút;</l>
             <l>me á pelat tota l' esquená.</l>
             <l>¡Quin chascu!! Not dich pas rés.</l>
@@ -2543,7 +2550,7 @@
             <l>¿Dons com á sigút això?</l>
           </sp>
           <sp>
-            <speaker>Ton.</speaker>
+            <speaker rend="cursiva">Ton.</speaker>
             <l>Ara tu vull esplicá:</l>
             <l>es que á casa 'l men germá</l>
             <l>volan fé cagá 'l tihó.</l>
@@ -2557,7 +2564,7 @@
             <l>ay, no puch esbufegá.</l>
           </sp>
           <sp>
-            <speaker>Ger.</speaker>
+            <speaker rend="cursiva">Ger.</speaker>
             <l>Doncas Ton t' han enganyát:</l>
             <l>¿com dimontri 'ls as cregút?</l>
             <l>y cuánt se 'n aurán rigút</l>
@@ -2568,41 +2575,44 @@
             <l>que fessis cagá 'l tihó.</l>
           </sp>
           <sp>
-            <speaker>Ton.</speaker>
+            <speaker rend="cursiva">Ton.</speaker>
             <l>No hi vay y fora trebáll.</l>
           </sp>
           <sp>
-            <speaker>Ger.</speaker>
+            <speaker rend="cursiva">Ger.</speaker>
             <l>¿Vols vení ab mi á divertit?</l>
             <l>que á las dotse de la nit</l>
             <l>veurém la missa del gall?</l>
           </sp>
           <sp>
-            <speaker>Ton.</speaker>
+            <speaker rend="cursiva">Ton.</speaker>
             <l>Si vaija que vull vení,</l>
             <l>pero no me enganyis... éy?</l>
           </sp>
           <sp>
-            <speaker>Ger.</speaker>
+            <speaker rend="cursiva">Ger.</speaker>
             <l>Te aurás de vestí de rey.</l>
           </sp>
-          <pb n="3" source="Varios_104_3.jpg" facs="fedora_Varios_104_3/full/full/0/default.jpg"/>
+
+          <pb n="3" source="Varios_104_3.jpg" facs="varios/Varios_104_3.jpg/"/>
+
           <fw type="paginaNum">— 3 —</fw>
+
           <sp>
-            <speaker>Tan.</speaker>
+            <speaker rend="cursiva">Tan.</speaker>
             <l>¿De rey me auré de vestí?</l>
             <l>¿ Y com hu tinch de arreglá.</l>
           </sp>
           <sp>
-            <speaker>Ger.</speaker>
+            <speaker rend="cursiva">Ger.</speaker>
             <l>De aixó jó men cuidaré;</l>
             <l>es un vestit de papé</l>
             <l>que ara tel vay á buscá.</l>
           </sp>
-          <stage>Geroni pren lo sach y entra dins de casa seva, luego torna á
-                                    surtí ab un vestit de papé y una candela.</stage>
+          <stage><lb/>Geroni pren lo sach y entra dins de casa <lb/>seva, luego torna á surtí ab
+            un vestit de <lb/>papé y una candela.</stage>
           <sp>
-            <speaker>Ton.</speaker>
+            <speaker rend="cursiva">Ton.</speaker>
             <l>Que deuré aná ben bunich:</l>
             <l>macachu tínch una sèt....</l>
             <l>sols per ferme passá 'l frét</l>
@@ -2610,23 +2620,23 @@
           </sp>
           <stage>Surt Geroni.</stage>
           <sp>
-            <speaker>Ger.</speaker>
+            <speaker rend="cursiva">Ger.</speaker>
             <l>Aqui está, vestu pusán.</l>
           </sp>
           <sp>
-            <speaker>Ton.</speaker>
+            <speaker rend="cursiva">Ton.</speaker>
             <l>Pósamu tú que 'u enténs.</l>
             <l>¿No me 'n ganyis are, 'u sens?</l>
           </sp>
           <sp>
-            <speaker>Ger.</speaker>
+            <speaker rend="cursiva">Ger.</speaker>
             <l>Cá home, áu andeván.</l>
             <l>Veus, si 'squera aixó no pesa...</l>
             <l>la corona al cap. ajá:</l>
-            <stage>(li va posán)</stage>
+            <stage rend="cursiva">(li va posán)</stage>
             <l>ara tindrás á la má</l>
             <l>aquesta condela ensesa.</l>
-            <stage>(li ensen)</stage>
+            <stage rend="cursiva">(li ensen)</stage>
             <l>Ara tu esperam aquí</l>
             <l>que jó luego tornaré,</l>
             <l>entro á casa, y portaré</l>
@@ -2643,59 +2653,59 @@
           </sp>
           <stage>Surt Pedassus ab una xurriacas á la má.</stage>
           <sp>
-            <speaker>Pedassus.</speaker>
+            <speaker rend="cursiva">Pedassus.</speaker>
             <l>¿Y are, que fas nevót?</l>
             <l>qui te á vestit de papé?</l>
           </sp>
           <sp>
-            <speaker>Ton.</speaker>
+            <speaker rend="cursiva">Ton.</speaker>
             <l>¿Y vos á que neu de fé?</l>
           </sp>
           <sp>
-            <speaker>Ped.</speaker>
+            <speaker rend="cursiva">Ped.</speaker>
             <l>Llévat aixó burinot.</l>
           </sp>
           <sp>
-            <speaker>Ton.</speaker>
+            <speaker rend="cursiva">Ton.</speaker>
             <l>No que 'l Geroni no 'u vol;</l>
             <l>are aqui 'l tinch de espera</l>
             <l>ni que siga fins demá</l>
             <l>al hora que surti 'l sol.</l>
           </sp>
           <sp>
-            <speaker>Ped.</speaker>
+            <speaker rend="cursiva">Ped.</speaker>
             <l>¡Ay carrincló com te veus!!!</l>
             <l>no 't daré cap subardé.</l>
           </sp>
           <sp>
-            <speaker>Ton.</speaker>
+            <speaker rend="cursiva">Ton.</speaker>
             <l>Dons cantarè y ballaré</l>
             <l>y 'm passará 'l fret dels peus</l>
-            <stage>Canta y balla</stage>
+            <stage rend="cursiva">Canta y balla</stage>
             <l>A missa del gall</l>
             <l>sen tindrém de aná</l>
             <l>y allí las bufetas</l>
             <l>sentirém petá.</l>
-            <stage>(ab ta candela ell mateix) se ensen lo vestit.)</stage>
+            <stage rend="cursiva"><lb/>(ab ta candela ell mateix) <lb/>se ensen lo vestit.)</stage>
           </sp>
           <sp>
-            <speaker>Ped.</speaker>
+            <speaker rend="cursiva">Ped.</speaker>
             <l>Mira que 't cremas dimoni,</l>
             <l>no me 's volgut creura, fort:</l>
             <l>bes á casa mala sort.</l>
-            <stage>(apaganli lo vestít)</stage>
+            <stage rend="cursiva">(apaganli lo vestít)</stage>
           </sp>
           <sp>
-            <speaker>Ton.</speaker>
+            <speaker rend="cursiva">Ton.</speaker>
             <l>Malaitsiga 'l Geroni.</l>
             <l>Ara si que no 'l crech mes,</l>
             <l>men vay, no ya mes remey</l>
             <l>l' un menganya fénme rey</l>
             <l>l' altre fénme du 'ls neulés.</l>
-            <stage>(sen va carrér avall)</stage>
+            <stage rend="cursiva">(sen va carrér avall)</stage>
           </sp>
           <sp>
-            <speaker>Ped.</speaker>
+            <speaker rend="cursiva">Ped.</speaker>
             <l>Pobre Ton, no te judisi....</l>
             <l>ningú li dona calá;</l>
             <l>jó á casa me 'l vaix ficá</l>
@@ -2705,8 +2715,11 @@
             <l>lo fá marchá cada dia</l>
             <l>á fè erba pe 'ls ruquets.</l>
             <l>Cuan jó veig que la quitxalla</l>
-            <pb n="4" source="Varios_104_4.jpg" facs="fedora_Varios_104_4/full/full/0/default.jpg"/>
+            
+            <pb n="4" source="Varios_104_4.jpg" facs="varios/Varios_104_4.jpg/"/>
+            
             <fw type="paginaNum">— 4 —</fw>
+            
             <l>lo enquietan pe' ls carrés,</l>
             <l>vaija, jó no hi puch fé mes,</l>
             <l>als daría un cop de tralla,</l>
@@ -2733,23 +2746,23 @@
           </sp>
           <stage>Surt Geroni</stage>
           <sp>
-            <speaker>Ger.</speaker>
+            <speaker rend="cursiva">Ger.</speaker>
             <l>Ola Pedassus, que tál?</l>
             <l>te pugis veura á la pertxa.</l>
           </sp>
           <sp>
-            <speaker>Ped.</speaker>
+            <speaker rend="cursiva">Ped.</speaker>
             <l>¿Que no 'u saps? La mula guertxa</l>
             <l>me va pendre un poch de mal.</l>
           </sp>
           <sp>
-            <speaker>Ger.</speaker>
+            <speaker rend="cursiva">Ger.</speaker>
             <l>Tan de bó que se agués mort</l>
             <l>que al menos no patiría</l>
             <l>y ningú si enganyaría.</l>
           </sp>
           <sp>
-            <speaker>Ged.</speaker>
+            <speaker rend="cursiva">Ged.</speaker>
             <l>Baija, calla mala sort.</l>
             <l>Escóltam y fes mutxél:</l>
             <l>aquell tracte hem de arregla</l>
@@ -2761,21 +2774,21 @@
             <l>Com amich te vuy servi.</l>
           </sp>
           <sp>
-            <speaker>Ger.</speaker>
+            <speaker rend="cursiva">Ger.</speaker>
             <l>Home digas lo que 'n vols</l>
             <l>aixó valtrus ya 'u sabéu</l>
             <l>que qui te 'l asa fá 'l preu,</l>
             <l>pero no fasis bunylos....</l>
           </sp>
           <sp>
-            <speaker>Pad.</speaker>
+            <speaker rend="cursiva">Pad.</speaker>
             <l>¿Vols que 't diga la vritát?</l>
             <l>una paraula y no més,</l>
             <l>no vull catorce barès,</l>
             <l>no diguis res que aixó es dát.</l>
           </sp>
           <sp>
-            <speaker>Ger.</speaker>
+            <speaker rend="cursiva">Ger.</speaker>
             <l>¿Y ara xich que estás borratxo?</l>
             <l>¿Qué no tens temor á Déu?</l>
             <l>¿No veus que per aquet preu</l>
@@ -2786,7 +2799,7 @@
             <l>jó ten donaré tres naps.</l>
           </sp>
           <sp>
-            <speaker>Ped.</speaker>
+            <speaker rend="cursiva">Ped.</speaker>
             <l>Te puguin afusellá,</l>
             <l>lladròt, espia de ví,</l>
             <l>mata proves, fart, butxí,</l>
@@ -2800,9 +2813,9 @@
             <l>y al cap del... nas te aixiguisin</l>
             <l>cuatre mil esparbaránys.</l>
           </sp>
-          <stage>Rien Geroni</stage>
+          <stage rend="cursiva">Rien Geroni</stage>
           <sp>
-            <speaker>Ger.</speaker>
+            <speaker rend="cursiva">Ger.</speaker>
             <l>Ja, ja ja ja que 'm fas riure;</l>
             <l>Jesús com llensas las rosas;</l>
             <l>ya veig que per sentí cosas</l>
@@ -2812,27 +2825,30 @@
             <l>carám queaviat te enfadas;</l>
             <l>apenas me deixas di.</l>
             <l>Jó soch ben enralhonát:</l>
-            <pb n="5" source="Varios_104_5.jpg" facs="fedora_Varios_104_5/full/full/0/default.jpg"/>
+            
+            <pb n="5" source="Varios_104_5.jpg" facs="varios/Varios_104_5.jpg/"/>
+            
             <fw type="paginaNum">— 5 —</fw>
+            
             <l>me agrada cumpli 'l que 's pacta,</l>
             <l>jó may é rompít cap tracte,</l>
             <l>de ningú may me hi burlat.</l>
           </sp>
           <sp>
-            <speaker>Ped.</speaker>
+            <speaker rend="cursiva">Ped.</speaker>
             <l>L' guapo com com se puchsola</l>
             <l>ara aquí vols fé 'l formal.</l>
             <l>¿Y tú vols se federal?</l>
             <l>te puguín duná la bola.</l>
           </sp>
           <sp>
-            <speaker>Ger.</speaker>
+            <speaker rend="cursiva">Ger.</speaker>
             <l>Ya 'm posaré de rahó:</l>
             <l>non duros te 'n donaré</l>
             <l>vaija que no pots di ré.</l>
           </sp>
           <sp>
-            <speaker>Ped,</speaker>
+            <speaker rend="cursiva">Ped,</speaker>
             <l>Mala sort te dich que nó,</l>
             <l>Qui son los paisans sabem,</l>
             <l>no volen res de ningú:</l>
@@ -2846,37 +2862,37 @@
             <l>ni que siga ab cuatre pallas.</l>
           </sp>
           <sp>
-            <speaker>Ger.</speaker>
+            <speaker rend="cursiva">Ger.</speaker>
             <l>Me tens de dá las murrallas</l>
           </sp>
           <sp>
-            <speaker>Ped.</speaker>
+            <speaker rend="cursiva">Ped.</speaker>
             <l>Ni que vulguis lo bridó.</l>
           </sp>
           <sp>
-            <speaker>Ger.</speaker>
+            <speaker rend="cursiva">Ger.</speaker>
             <l>Donchs queda 'l tracte serrát</l>
             <l>del bridó y del animal</l>
             <l>y demá que som Nadal</l>
             <l>á casa estás convidat.</l>
           </sp>
           <sp>
-            <speaker>Pad.</speaker>
+            <speaker rend="cursiva">Pad.</speaker>
             <l>Bien noble, catxa la má,</l>
             <l>se 'n anirem á fe una copa:</l>
             <l>ets lo mes guapo de gropa,</l>
             <l>aqui está la caliáa.</l>
           </sp>
           <sp>
-            <speaker>Ger.</speaker>
+            <speaker rend="cursiva">Ger.</speaker>
             <l>Si 'lruch no es bó, noy te mato;</l>
             <l>que 'm fassi proba y res més,</l>
             <l>an aqui tens los calés,</l>
             <l>ya vens que no es gens barato,</l>
-            <stage>(li dona 'ls caartos)</stage>
+            <stage rend="cursiva">(li dona 'ls cuartos)</stage>
           </sp>
           <sp>
-            <speaker>Pad.</speaker>
+            <speaker rend="cursiva">Pad.</speaker>
             <l>Si jó te enganyo Geroni</l>
             <l>que Déu nom dongni salut,</l>
             <l>que 'm torni sort, guertxu y mut</l>
@@ -2890,61 +2906,63 @@
             <l>que ara 'm musegui un xuquél</l>
           </sp>
           <sp>
-            <speaker>Ger.</speaker>
+            <speaker rend="cursiva">Ger.</speaker>
             <l>Prou home, basta, yat créch,</l>
             <l>y em torni mánich de escombra.</l>
             <l>vaya un genihot que tens:</l>
             <l>no fasis mes juraménts</l>
           </sp>
           <sp>
-            <speaker>Ped.</speaker>
+            <speaker rend="cursiva">Ped.</speaker>
             <l>Donchs gresca y fora rahóns,</l>
             <l>¿que no 'u saps que ya 't conéch?</l>
             <l>deixam 'l ruch per demá:</l>
             <l>no 'm fasis mes enfadá</l>
           </sp>
           <sp>
-            <speaker>Ger.</speaker>
+            <speaker rend="cursiva">Ger.</speaker>
             <l>Tens rahó com hi á mon;</l>
             <l>que avuy estém per turróns.</l>
             <l>avuy se 'm de divertí:</l>
             <l>mira, ya torna á vení,</l>
             <l>ya tornem á tení 'l Ton.</l>
           </sp>
-          <stage>Sur lo Ton ab un bastó á la má y bufanse los dits del
-                                    altre</stage>
+          <stage>Sur lo Ton ab un bastó á la má y bufanse <lb/>los dits del altre</stage>
           <sp>
-            <speaker>Ped.</speaker>
+            <speaker rend="cursiva">Ped.</speaker>
             <l>Ay, que promte que 's gelat;</l>
             <l>¿Tunét ya 's fét pirandó?</l>
             <l>que estás vermell carrincló</l>
             <l>jay...¿De ahontvens desgraciat?</l>
           </sp>
           <sp>
-            <speaker>Ton.</speaker>
+            <speaker rend="cursiva">Ton.</speaker>
             <l>Oy. oy, quin mal que 'm fá 'l dit</l>
             <l>ya no hi vulia aná allí:</l>
             <l>oy, tothom y es pera mi</l>
             <l>aquesta trempada nit.</l>
           </sp>
           <sp>
-            <speaker>Ger.</speaker>
+            <speaker rend="cursiva">Ger.</speaker>
             <l>¿Ahónt vas ab aquét bastó</l>
             <l>que potsé que ya perill?</l>
             <l>¿ó potsé vas al cunill?</l>
           </sp>
           <sp>
-            <speaker>Ton.</speaker>
+            <speaker rend="cursiva">Ton.</speaker>
             <l>Vinch de fé cagá 'l tihó.</l>
           </sp>
           <sp>
-            <speaker>Ped.</speaker>
+            <speaker rend="cursiva">Ped.</speaker>
             <l>¿Te 'n enganyát? no pot sé,</l>
             <l>miréusel al mala sort,</l>
             <l>vaija esplicat cap de mórt.</l>
             <l>Ton Callen ya 'u esplicaré,</l>
-            <pb n="6" source="Varios_104_6.jpg" facs="fedora_Varios_104_6/full/full/0/default.jpg"/>
+            
+            <pb n="6" source="Varios_104_6.jpg" facs="varios/Varios_104_6.jpg/"/>
+            
             <fw type="paginaNum">— 6 —</fw>
+            
             <l>Cuánt á casa hi arribát</l>
             <l>feyan la bulla mes gran;</l>
             <l>ya podeu aná pensán</l>
@@ -2986,68 +3004,68 @@
             <l>y he trobat unas castanyas....</l>
             <l>oy que me he punxát los dits.</l>
           </sp>
-          <stage>Rien Padassus</stage>
+          <stage rend="cursiva">Rien Padassus</stage>
           <sp>
-            <speaker>Ped.</speaker>
+            <speaker rend="cursiva">Ped.</speaker>
             <l>Ay que de riure 'm rebentu.</l>
           </sp>
-          <stage>Rien Geroni</stage>
+          <stage rend="cursiva">Rien Geroni</stage>
           <sp>
-            <speaker>Ger.</speaker>
+            <speaker rend="cursiva">Ger.</speaker>
             <l>Jó de tan de riure ploru;</l>
             <l>si 'u allargas mes me moru.</l>
           </sp>
           <sp>
-            <speaker>Ped.</speaker>
+            <speaker rend="cursiva">Ped.</speaker>
             <l>Válgam san Blay y quin cuentu.</l>
           </sp>
           <sp>
-            <speaker>Ton.</speaker>
+            <speaker rend="cursiva">Ton.</speaker>
             <l>¿Aixó sen enriheu mol?</l>
             <l>dons jó estich ben enfadat,</l>
             <l>y en lo que jó me hi trobat</l>
             <l>si pot trobá cualsevol.</l>
           </sp>
           <sp>
-            <speaker>Ped.</speaker>
+            <speaker rend="cursiva">Ped.</speaker>
             <l>Dons jó 't faré espavilá</l>
             <l>ara que fa tanta fresca,</l>
             <l>ya que avuy estem de gresca</l>
             <l>la festa hem de aprufitá.</l>
           </sp>
           <sp>
-            <speaker>Ton,</speaker>
+            <speaker rend="cursiva">Ton,</speaker>
             <l>De Nadal á san Esteva</l>
             <l>dihuen que fa mol de fret.</l>
           </sp>
           <sp>
-            <speaker>Ger.</speaker>
+            <speaker rend="cursiva">Ger.</speaker>
             <l>Y no 'n ha de fé ximplét,</l>
             <l>repara, mira com neva.</l>
-            <stage>(se imitará á una nevada)</stage>
+            <stage rend="cursiva">(se imitará á una nevada)</stage>
           </sp>
           <sp>
-            <speaker>Ton.</speaker>
+            <speaker rend="cursiva">Ton.</speaker>
             <l>Quína blancó hi ha per terra</l>
             <l>casi sem gelen los nassus;</l>
             <l>¿no es vritat onclu Pedassus</l>
             <l>que fá un airét que se aferra?</l>
           </sp>
           <sp>
-            <speaker>Ped.</speaker>
+            <speaker rend="cursiva">Ped.</speaker>
             <l>Si que tens rahó fill meu;</l>
             <l>jó ya 'm poso á tremolá,</l>
             <l>aquest gel no pot aná</l>
             <l>mireu com bola la neu.</l>
           </sp>
           <sp>
-            <speaker>Ger.</speaker>
+            <speaker rend="cursiva">Ger.</speaker>
             <l>Us vull fe un joch á tots dos</l>
             <l>que potsé us vindrá de nou.</l>
             <l>¿Pedassus que tens un ou?</l>
           </sp>
           <sp>
-            <speaker>Ped.</speaker>
+            <speaker rend="cursiva">Ped.</speaker>
             <l>Me sembla que 'n portu dos.</l>
             <l>Ara me 'ls á regalat</l>
             <l>un crách que'm va cumprá un rúch</l>
@@ -3055,20 +3073,23 @@
             <l>pero 'l un está badát.</l>
           </sp>
           <sp>
-            <speaker>Ger.</speaker>
+            <speaker rend="cursiva">Ger.</speaker>
             <l>Dònaman un dons, corra, cuita</l>
             <l>que 'l chiste te agradará</l>
-            <stage>(li dona un ou)</stage>
+            <stage rend="cursiva">(li dona un ou)</stage>
           </sp>
-          <pb n="7" source="Varios_104_7.jpg" facs="fedora_Varios_104_7/full/full/0/default.jpg"/>
+          
+          <pb n="7" source="Varios_104_7.jpg" facs="varios/Varios_104_7.jpg/"/>
+          
           <fw type="paginaNum">— 7 —</fw>
+          
           <sp>
-            <speaker>Ped.</speaker>
+            <speaker rend="cursiva">Ped.</speaker>
             <l>Nom fa ré, demá esmorsá</l>
             <l>ya no 'm podré fe la truita.</l>
           </sp>
           <sp>
-            <speaker>Ger.</speaker>
+            <speaker rend="cursiva">Ger.</speaker>
             <l>Ara jó men vay de aquí,</l>
             <l>entro á casa, y al moment</l>
             <l>portaré un xich de aiguardent,</l>
@@ -3081,14 +3102,14 @@
             <l>á sobra del Ton, ¿me entens ?</l>
           </sp>
           <sp>
-            <speaker>Ton,</speaker>
+            <speaker rend="cursiva">Ton,</speaker>
             <l>¿me entens ?</l>
             <l>si no li trobu, ¿comprens?</l>
             <l>demá pagaré un sopá.</l>
-            <stage>(dona 'l ou al Pedasus y sen entre casa seva)</stage>
+            <stage rend="cursiva">(dona 'l ou al Pedasus y <lb/>sen entre casa seva)</stage>
           </sp>
           <sp>
-            <speaker>Ton.</speaker>
+            <speaker rend="cursiva">Ton.</speaker>
             <l>Ya está dit, ay com riuré</l>
             <l>áu, áu batúa 'l dimoni;</l>
             <l>que no guayti ara 'l Geroni:</l>
@@ -3096,114 +3117,118 @@
             <l>¿Ahon me 'l voleu ficá?</l>
           </sp>
           <sp>
-            <speaker>Ped.</speaker>
+            <speaker rend="cursiva">Ped.</speaker>
             <l>Fes muchel, ets ruch de mena:</l>
             <l>te, aquí al mitg de la esquena.</l>
-            <stage>(li amaga 'l ou á ta esquena)</stage>
+            <stage rend="cursiva">(li amaga 'l ou á ta esquena)</stage>
           </sp>
           <sp>
-            <speaker>Ton.</speaker>
+            <speaker rend="cursiva">Ton.</speaker>
             <l>Dons ya no m' el trobará.</l>
-            <l>Surt Geroni de casa seva ab una garrafa de</l>
-            <l>aiguarden, un bot de ví y un fanal ensés.</l>
           </sp>
+          <stage>
+            <lb/>Surt Geroni de casa seva ab una garrafa de
+            <lb/>aiguarden, un bot de ví y un fanal ensés.
+          </stage>
           <sp>
-            <speaker>Ger.</speaker>
+            <speaker rend="cursiva">Ger.</speaker>
             <l>Ya portu tot lo que ey dit,</l>
             <l>ya podeu beura á trompó,</l>
             <l>no se 'l acabareu nó</l>
             <l>xarricáu tota la nit.</l>
           </sp>
           <sp>
-            <speaker>Ton.</speaker>
+            <speaker rend="cursiva">Ton.</speaker>
             <l>Au Geroni, ves buscán,</l>
             <l>pots tocá totas las mollas</l>
             <l>oy, oy, que 'm fas passigollas....</l>
             <l>paupa, paupa ves paupán.</l>
           </sp>
           <sp>
-            <speaker>Ger.</speaker>
+            <speaker rend="cursiva">Ger.</speaker>
             <l>Be te 'l trobaré be prou</l>
             <l>á de se aquí, de segú.</l>
-            <stage>(li pega un cop de puny á la esquena y chafa l'
-                                          ou)</stage>
+            <stage rend="cursiva"><lb/>(li pega un cop de puny á la <lb/>esquena y chafa l' ou)</stage>
           </sp>
           <sp>
-            <speaker>Ton.</speaker>
+            <speaker rend="cursiva">Ton.</speaker>
             <l>Ay, que has fet batúa tú,</l>
             <l>veus ara me's xafát l'ou</l>
             <l>com me raija cul avall...</l>
             <l>ay mara meva que es fret.</l>
           </sp>
           <sp>
-            <speaker>Ger.</speaker>
+            <speaker rend="cursiva">Ger.</speaker>
             <l>Déixat de cuentos ximplét</l>
             <l>y anem á missa del gall.</l>
             <l>Té, beu que tot passará,</l>
-            <l>(lo Ton beu un trago)</l>
+            <stage rend="cursiva">(lo Ton beu un trago)</stage>
             <l>y després tot caminán</l>
             <l>ya se 't anirá ayxugán</l>
             <l>án, comensa á caminá.</l>
           </sp>
           <sp>
-            <speaker>Ton.</speaker>
+            <speaker rend="cursiva">Ton.</speaker>
             <l>Batúa que 's ben rebó</l>
             <l>mireu que ningú 'u diria</l>
             <l>jó may no me 'n dexaria...</l>
             <l>li fay un altre petó.</l>
-            <stage>(torna beura)</stage>
+            <stage rend="cursiva">(torna beura)</stage>
           </sp>
           <sp>
-            <speaker>Ger.</speaker>
+            <speaker rend="cursiva">Ger.</speaker>
             <l>Ya pots beura, ya pots fé</l>
             <l>no planyis res si tens sét</l>
             <l>y si te acabas aquet</l>
             <l>encara 'n tinch un sellé.</l>
           </sp>
           <sp>
-            <speaker>Ped.</speaker>
+            <speaker rend="cursiva">Ped.</speaker>
             <l>Agarrarás mentellina....</l>
             <l>ay... penjat te puguis veure;</l>
             <l>cuan acabarás de beure</l>
             <l>podrás cantá la patxina.</l>
           </sp>
           <sp>
-            <speaker>Ger.</speaker>
+            <speaker rend="cursiva">Ger.</speaker>
             <l>Vaiga, aquest xicot me ensisa</l>
             <l>casi 'm fá agafá singlot.</l>
           </sp>
           <sp>
-            <speaker>Ped.</speaker>
+            <speaker rend="cursiva">Ped.</speaker>
             <l>Prou dimoni, deix l' bot.</l>
             <l>Ton Me 's fet tacá la camisa</l>
-            <stage>(torcanse las barras)</stage>
+            <stage rend="cursiva">(torcanse las barras)</stage>
             <l>ara á casa 'm renyarán</l>
             <l>cuan me veurán brut de ví.</l>
           </sp>
           <sp>
-            <speaker>Ger.</speaker>
+            <speaker rend="cursiva">Ger.</speaker>
             <l>Ton si 'm vols creura á mi</l>
             <l>aurías de axecá un cán.</l>
           </sp>
           <sp>
-            <speaker>Ton.</speaker>
+            <speaker rend="cursiva">Ton.</speaker>
             <l>Aixó ray ya cantaré,</l>
             <l>de cantá tothom ne sap,</l>
             <l>Oy, oy, ara 'm roda 'l cap</l>
             <l>pero me 'l agüantaré.</l>
           </sp>
           <sp>
-            <speaker>Ger.</speaker>
+            <speaker rend="cursiva">Ger.</speaker>
             <l>Te 'l fanál, áu y á marxá.</l>
           </sp>
           <sp>
-            <speaker>Ton.</speaker>
+            <speaker rend="cursiva">Ton.</speaker>
             <l>Vinga que tan me refúm,</l>
             <l>caminen que ya fay llum</l>
             <l>pero primé vull cantá.</l>
-            <pb n="8" source="Varios_104_8.jpg" facs="fedora_Varios_104_8/full/full/0/default.jpg"/>
+            
+            <pb n="8" source="Varios_104_8.jpg" facs="varios/Varios_104_8.jpg/"/>
+            
             <fw type="paginaNum">— 8 —</fw>
-            <stage>Canta.</stage>
+            
+            <stage rend="cursiva">Canta.</stage>
             <l>Fay de sereno</l>
             <l>aquesta nit,</l>
             <l>noyas hermosas</l>
@@ -3220,30 +3245,30 @@
             <l>poden baixá</l>
             <l>cap á matinas</l>
             <l>tots hem de aná.</l>
-            <stage>Parlán Ton</stage>
+            <stage rend="cursiva">Parlán Ton</stage>
             <l>Aixó que canto, son pessas</l>
             <l>que vay senti en un café.</l>
           </sp>
           <sp>
-            <speaker>Ped.</speaker>
+            <speaker rend="cursiva">Ped.</speaker>
             <l>Payu Ton, tu no ves bé.</l>
             <l>ya comensas á fé esses.</l>
           </sp>
           <sp>
-            <speaker>Ton.</speaker>
+            <speaker rend="cursiva">Ton.</speaker>
             <l>Oy nó, que no se escriure</l>
             <l>ni fé una O ab una casola,</l>
             <l>batúa, 'l mon tot redola.</l>
-            <stage>(cau de cúl)</stage>
+            <stage rend="cursiva">(cau de cúl)</stage>
           </sp>
           <sp>
-            <speaker>Ger.</speaker>
+            <speaker rend="cursiva">Ger.</speaker>
             <l>Ara si que me 's fet riure,</l>
             <l>va Tonet dónam to brás,</l>
             <l>tú prenli l' altre Pedassus.</l>
           </sp>
           <sp>
-            <speaker>Ped.</speaker>
+            <speaker rend="cursiva">Ped.</speaker>
             <l>Lo que li xafaré 'ls nassos,</l>
             <l>mal viatje 'l burdegás,</l>
             <l>miren que va brut de fánch</l>
@@ -3252,30 +3277,30 @@
             <l>anemlo á tirá al barranch.</l>
           </sp>
           <sp>
-            <speaker>Ger,</speaker>
+            <speaker rend="cursiva">Ger,</speaker>
             <l>Nó que yá li passará:</l>
             <l>porta l' altre on, té Ton; beu.</l>
           </sp>
           <stage>Ton se beu l' on y diu;</stage>
           <sp>
-            <speaker>Ton.</speaker>
+            <speaker rend="cursiva">Ton.</speaker>
             <l>Ara'm sembla que si veu,</l>
             <l>¿Qué ya som al andemá?</l>
           </sp>
           <sp>
-            <speaker>Ger.</speaker>
+            <speaker rend="cursiva">Ger.</speaker>
             <l>No que som avuy mateix:</l>
             <l>vaija que sembla que 't passa,</l>
             <l>ton va bé: calma, caxassa</l>
             <l>que 'l gat ya disminueix.</l>
           </sp>
           <sp>
-            <speaker>Ped.</speaker>
+            <speaker rend="cursiva">Ped.</speaker>
             <l>Ay, xaburró ¿com caminas?</l>
             <l>miren que está espatarrát.</l>
           </sp>
           <sp>
-            <speaker>Ger.</speaker>
+            <speaker rend="cursiva">Ger.</speaker>
             <l>Vaija que estiga acabat</l>
             <l>y anemsen cap á matmas.</l>
             <l>Demá vingan llangonisas;</l>
@@ -3284,7 +3309,7 @@
             <l>que las logrin ben felisas.</l>
           </sp>
           <sp>
-            <speaker>Ton.</speaker>
+            <speaker rend="cursiva">Ton.</speaker>
             <l>Dons que ya ni ha prou</l>
             <l>y ya no 'm toco di ré....</l>
             <l>senyós, la que aurán de fé</l>
@@ -3296,19 +3321,16 @@
           </sp>
           <trailer>Fi</trailer>
         </div>
-        <div type="propiedad">
-          <p><lb/>Es propietat de Joan Grau.</p>
+        <div>
+          <p rend="cursiva"><lb/>Es propietat de Joan Grau.</p>
         </div>
         <div type="productos_a_la_venta">
-          <p><lb/>REUS:—Se vent en la librerta de Joan Grau. carrer del Metje
-                                    Fortuny, núm 5. En la mateixa casa se trova un gran surtit de
-                                    romansus sainetes, llibrets, historias, comedias, aleluyas de
-                                    sante y soldats pintats. Diposit de llibrets pera fumá y capsas
-                                    de místos, Papé pera escriuer, sobres pera cartas, plomas,
-                                    palillos, llapicers, etc., etc. Tot á preus mol baratos Obras
-                                    que el venen ab gran rebaixa de preus. Revolución de Polonia ab
-                                    grabats 30 rs. per 10. Artagnán el Mosquetero, ab grabats 17rs
-                                    per 8.</p>
+          <p><lb/>REUS:—Se vent en la librerta de Joan Grau. carrer del Metje Fortuny, núm 5. En la
+            mateixa casa se trova un gran surtit de romansus sainetes, llibrets, historias,
+            comedias, aleluyas de sante y soldats pintats. Diposit de llibrets pera fumá y capsas
+            de místos, Papé pera escriuer, sobres pera cartas, plomas, palillos, llapicers, etc.,
+            etc. Tot á preus mol baratos Obras que el venen ab gran rebaixa de preus. Revolución de
+            Polonia ab grabats 30 rs. per 10. Artagnán el Mosquetero, ab grabats 17rs per 8.</p>
         </div>
       </div>
     </body>

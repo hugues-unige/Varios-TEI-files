@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../Schema/oddPliego_varios.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:alto="http://www.loc.gov/standards/alto/ns-v4#" xml:id="Varios_174">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Varios_174">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -11,8 +11,7 @@
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <authority role="rightsHolder">Bibliothèque Universitaire de
-                            Genève</authority>
+        <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
         <availability status="restricted">
           <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
         </availability>
@@ -20,16 +19,19 @@
       <sourceDesc>
         <biblFull>
           <titleStmt>
-            <title type="titulo_completo">Tragico suceso acaecido en Barcelona en tiempo de los Condes y de los Sarracenos en España , en cuyo relato se verá que por conato de casamiento uno de los Mires con una hija de los Condes de Barcelona y no poderse verificar, sufrió toda especie de estragos y desmanes.</title>
+            <title type="titulo_completo">Tragico suceso acaecido en Barcelona en tiempo de los
+              Condes y de los Sarracenos en España , en cuyo relato se verá que por conato de
+              casamiento uno de los Mires con una hija de los Condes de Barcelona y no poderse
+              verificar, sufrió toda especie de estragos y desmanes.</title>
             <title type="titulo_breve">Tragico suceso</title>
           </titleStmt>
           <editionStmt>
             <p/>
           </editionStmt>
           <publicationStmt>
-            <publisher>J. Gorgas</publisher>
+            <publisher>José Gorgas</publisher>
             <pubPlace ref="https://www.geonames.org/3128760/barcelona.html">Barcelona</pubPlace>
-            <date cert="high">1853</date>
+            <date cert="high" when="1853-01-01">1853</date>
           </publicationStmt>
         </biblFull>
         <msDesc>
@@ -37,7 +39,8 @@
             <country>Suisse</country>
             <settlement>Genève</settlement>
             <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"/>
-                  </repository>
+            </repository>
+            <collection>Colección Varios</collection>
             <idno type="cote"/>
             <idno type="DOI">10.5281/zenodo.6594884</idno>
             <altIdentifier>
@@ -66,7 +69,7 @@
               </layoutDesc>
             </objectDesc>
             <decoDesc>
-              <summary n="1">Uno grabado (p.4) </summary>
+              <summary n="1">Un grabado (p.4) </summary>
               <decoNote type="lista_grabados">
                 <list>
                   <item corresp="grabado_v_174_1.xml">grabado_v_174_1</item>
@@ -75,9 +78,9 @@
               <decoNote type="lista_ornamentos">
                 <list>
                   <item corresp="ornamento_v_174_1">ornamento_v_174_1</item>
-                  <item corresp="ornamento_v_174_1">ornamento_v_174_2</item>
-                  <item corresp="ornamento_v_174_1">ornamento_v_174_3</item>
-                  <item corresp="ornamento_v_174_1">ornamento_v_174_4</item>
+                  <item corresp="ornamento_v_174_2">ornamento_v_174_2</item>
+                  <item corresp="ornamento_v_174_3">ornamento_v_174_3</item>
+                  <item corresp="ornamento_v_174_4">ornamento_v_174_4</item>
                 </list>
               </decoNote>
             </decoDesc>
@@ -99,18 +102,17 @@
     </fileDesc>
     <encodingDesc>
       <projectDesc>
-        <p>Este archivo fue creado en el marco del proyecto Desenrollando el
-                            Cordel/Démêler le cordel/Untangling the cordel, dirigido por la
-                            profesora Constance Carta de la Universidad de Ginebra, con el apoyo de
-                            la Fundación filantrópica Famille Sandoz-Monique de Meuron.</p>
+        <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+          cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la Universidad
+          de Ginebra, con el apoyo de la Fundación filantrópica Famille Sandoz-Monique de
+          Meuron.</p>
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR non corregido</p>
+          <p>OCR no corregido</p>
         </correction>
         <normalization>
-          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto
-                                original.</p>
+          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
         </normalization>
         <punctuation>
           <p>Se conserva la puntuación original.</p>
@@ -132,9 +134,13 @@
     </profileDesc>
     <revisionDesc>
       <change when="2023-04-13" who="#PJ">Création du fichier TEI P5 et encodage du corps du
-                        texte</change>
+        texte</change>
+      <change when="2024-01-09" who="#EL">Add the IIIF links</change>
     </revisionDesc>
   </teiHeader>
+  <facsimile>
+    <graphic url="varios/Varios_174_1.jpg/full/200,/0/default.jpg"/>
+  </facsimile>
   <sourceDoc xml:id="automaticTranscription">
     <surface xml:id="Varios_174_1" type="page" cert="silver">
       <graphic url="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_174_1/full/full/0/default.jpg"/>
@@ -1458,346 +1464,343 @@
   <text>
     <body>
       <div>
-        <pb n="1" source="Varios_174_1.jpg" facs="fedora_Varios_174_1/full/full/0/default.jpg"/>
         <div>
-          <head type="primer_titulo"><lb/>TRAGICO SUCESO</head>
-          <head type="subtitulo_parte"><lb/>acaecido en Barcelona en tiempo de los Condes y de los Sarracenos en<lb/>España , en cuyo relato se verá que por conato de casamiento uno de<lb/>los Mires con una hija de los Condes de Barcelona y no poderse ve-<lb/>rificar, sufrió toda especie de estragos y desmanes.</head>
-          <lg>
-            <l>La opulenta Barcelona,</l>
-            <l>testigo de tantos hechos,</l>
-            <l>hoy un caso nos refiere</l>
-            <l>de los muchos que, desechos</l>
-            <l>en llanto sus habitantes,</l>
-            <l>sufrieron sin mas consuelo</l>
-            <l>que mirarse unos á otros,</l>
-            <l>sin poderse dar remedio.</l>
-            <l>Por el siglo nono fue</l>
-            <l>sobre poco mas ó menos :</l>
-            <l>regian á Barcelona</l>
-            <l>los Condes, que en aquel tiempo</l>
-            <l>eran reyes y señores</l>
-            <l>y amaban mucho á sus pueblos.</l>
-            <l>Gobernaba por entonces</l>
-            <l>un Señor de los mas bellos,</l>
-            <l>hombre rígido , prudente</l>
-            <l>y en todas armas muy diestro.</l>
-            <l>Le rodeaba una familia</l>
-            <l>que halagaba sus deseos,</l>
-            <l>esposa , hija y dos hijos</l>
-            <l>escelentes caballeros.</l>
-            <l>La hija era en su clase</l>
-            <l>la única en estos reinos</l>
-            <l>blanca , rubia , pelo blondo</l>
-            <l>buena planta , talle esbelto,</l>
-            <l>rostro fino , y resaltaban</l>
-            <l>en él un par de gemelos</l>
-            <l>que se llevaban tras sí</l>
-            <l>á todo el que osaba verlos.</l>
-            <l>El hijo mayor casó</l>
-            <l>con una dama de fueros</l>
-            <l>que tenia en vasallage</l>
-            <l>muchos estados y buenos.</l>
-            <l>Hicieron para las bodas</l>
-            <l>toros , cañas y torneos ,</l>
-            <l>asistieron muchas gentes</l>
-          </lg>
-          <lg>
-            <l>é infinitos caballeros.</l>
-            <l>Entre ella vino un Mir moro ,</l>
-            <l>Señor de los cuatro reinos</l>
-            <l>de Andalucía , dó entonces</l>
-            <l>mandaban los Sarracenos,</l>
-            <l>Joven , gallárdo , buen mozo ,</l>
-            <l>orgulloso y muy dispuesto;</l>
-            <l>y asi que vió á la Señora</l>
-            <l>la de los blondos cabellos,</l>
-            <l>dijo para su capote :</l>
-            <l>esta dama me la llevo</l>
-            <l>aunque supiera perder</l>
-            <l>por ella mis cuatro reinos.</l>
-            <l>Animado de esta idea</l>
-            <l>se lució tanto en los juegos</l>
-            <l>de las armas , que , entre todos,</l>
-            <l>él se llevaba los premios</l>
-            <l>que ofrecia á la Señora</l>
-            <l>muy galante y caballero.</l>
-            <l>Solo el conde competia,</l>
-            <l>que era en las armas muy diestro.</l>
-            <l>Cuando acababan las fiestas</l>
-            <l>todos se iban á sus pueblos;</l>
-            <l>solo el moro se quedara</l>
-            <l>para lograr sus deseos.</l>
-            <l>Un dia le dijo al Conde</l>
-            <l>quiero que seas mi suegro</l>
-            <l>por que amó mucho á tu hija,</l>
-            <l>y ya sabes que poseo</l>
-            <l>cuatro reinos en mi tierra</l>
-            <l>que son estados muy bellos.</l>
-            <l>Es verdad , respondió el Conde ;</l>
-            <l>pero algo hay que ver en esto ;</l>
-            <l>por que eres mahometano</l>
-            <l>y yo soy cristiano viejo,</l>
-            <l>y no permiten las leyes</l>
-            <l>nuestros enlaces por eso.</l>
-          </lg>
-          <pb n="2" source="Varios_174_2.jpg" facs="fedora_Varios_174_2/full/full/0/default.jpg"/>
+          <pb n="1" source="Varios_174_1.jpg" facs="varios/Varios_174_1.jpg/"/>
+
+          <head type="primer_titulo" rend="negrita"><lb/>TRAGICO SUCESO</head>
+          <head type="subtitulo_parte"><lb/>acaecido en Barcelona en tiempo de los Condes y de los
+            Sarracenos en<lb/>España , en cuyo relato se verá que por conato de casamiento uno
+            de<lb/>los Mires con una hija de los Condes de Barcelona y no poderse ve-<lb/>rificar,
+            sufrió toda especie de estragos y desmanes.</head>
+
+          <l rend="indent">La opulenta Barcelona,</l>
+          <l>testigo de tantos hechos,</l>
+          <l>hoy un caso nos refiere</l>
+          <l>de los muchos que, desechos</l>
+          <l>en llanto sus habitantes,</l>
+          <l>sufrieron sin mas consuelo</l>
+          <l>que mirarse unos á otros,</l>
+          <l>sin poderse dar remedio.</l>
+          <l>Por el siglo nono fue</l>
+          <l>sobre poco mas ó menos :</l>
+          <l>regian á Barcelona</l>
+          <l>los Condes, que en aquel tiempo</l>
+          <l>eran reyes y señores</l>
+          <l>y amaban mucho á sus pueblos.</l>
+          <l>Gobernaba por entonces</l>
+          <l>un Señor de los mas bellos,</l>
+          <l>hombre rígido , prudente</l>
+          <l>y en todas armas muy diestro.</l>
+          <l>Le rodeaba una familia</l>
+          <l>que halagaba sus deseos,</l>
+          <l>esposa , hija y dos hijos</l>
+          <l>escelentes caballeros.</l>
+          <l>La hija era en su clase</l>
+          <l>la única en estos reinos</l>
+          <l>blanca , rubia , pelo blondo</l>
+          <l>buena planta , talle esbelto,</l>
+          <l>rostro fino , y resaltaban</l>
+          <l>en él un par de gemelos</l>
+          <l>que se llevaban tras sí</l>
+          <l>á todo el que osaba verlos.</l>
+          <l>El hijo mayor casó</l>
+          <l>con una dama de fueros</l>
+          <l>que tenia en vasallage</l>
+          <l>muchos estados y buenos.</l>
+          <l>Hicieron para las bodas</l>
+          <l>toros , cañas y torneos ,</l>
+          <l>asistieron muchas gentes</l>
+          <l>é infinitos caballeros.</l>
+          <l>Entre ella vino un Mir moro ,</l>
+          <l>Señor de los cuatro reinos</l>
+          <l>de Andalucía , dó entonces</l>
+          <l>mandaban los Sarracenos,</l>
+          <l>Joven , gallárdo , buen mozo ,</l>
+          <l>orgulloso y muy dispuesto;</l>
+          <l>y asi que vió á la Señora</l>
+          <l>la de los blondos cabellos,</l>
+          <l>dijo para su capote :</l>
+          <l>esta dama me la llevo</l>
+          <l>aunque supiera perder</l>
+          <l>por ella mis cuatro reinos.</l>
+          <l>Animado de esta idea</l>
+          <l>se lució tanto en los juegos</l>
+          <l>de las armas , que , entre todos,</l>
+          <l>él se llevaba los premios</l>
+          <l>que ofrecia á la Señora</l>
+          <l>muy galante y caballero.</l>
+          <l>Solo el conde competia,</l>
+          <l>que era en las armas muy diestro.</l>
+          <l>Cuando acababan las fiestas</l>
+          <l>todos se iban á sus pueblos;</l>
+          <l>solo el moro se quedara</l>
+          <l>para lograr sus deseos.</l>
+          <l>Un dia le dijo al Conde</l>
+          <l>quiero que seas mi suegro</l>
+          <l>por que amó mucho á tu hija,</l>
+          <l>y ya sabes que poseo</l>
+          <l>cuatro reinos en mi tierra</l>
+          <l>que son estados muy bellos.</l>
+          <l>Es verdad , respondió el Conde ;</l>
+          <l>pero algo hay que ver en esto ;</l>
+          <l>por que eres mahometano</l>
+          <l>y yo soy cristiano viejo,</l>
+          <l>y no permiten las leyes</l>
+          <l>nuestros enlaces por eso.</l>
+
+          <pb n="2" source="Varios_174_2.jpg" facs="varios/Varios_174_2.jpg/"/>
           <fw type="paginaNum">2</fw>
-          <lg>
-            <l>Este es poco inconveniente</l>
-            <l>respondió el Mir sonriendo,</l>
-            <l>tu hija se hará mora,</l>
-            <l>ó yo cristiano , es lo mesmo:</l>
-            <l>si tu te tornas cristiano</l>
-            <l>lo demás es chico pleito ;</l>
-            <l>pero ¡ mi hjia ser mora !</l>
-            <l>no quiero perder el cielo</l>
-            <l>por un puñado de pajas</l>
-            <l>que es todo lo de este suelo.</l>
-            <l>Pues yo me bautizaré</l>
-            <l>por eso no reñirémos.</l>
-            <l>Con que quedamos así ;</l>
-            <l>ahora voy á mi reino,</l>
-            <l>por que estas cosas en grande</l>
-            <l>se deben mirar con tiempo ;</l>
-            <l>con que á Dios , hasta la vuelta,</l>
-            <l>y ya nos escribirémos.</l>
-            <l>El Conde quedó en su casa,</l>
-            <l>muy alegre y satisfecho,</l>
-            <l>é hizo un viaje con su hijo</l>
-            <l>á ver los estados nuevos.</l>
-            <l>A su tiempo escribió el Mir</l>
-            <l>que ya tenia dispuesto</l>
-            <l>su viaje á Barcelona,</l>
-            <l>y que vendria muy presto.</l>
-            <l>El Conde se apercibia</l>
-            <l>para su recibimiento ;</l>
-            <l>cuando ya llegaba el Mir,</l>
-            <l>Cabildos y Ayuntamientos</l>
-            <l>salieron á recibirle,</l>
-            <l>corporaciones y el pueblo,</l>
-            <l>dando vivas y señales</l>
-            <l>de su alegría y contento.</l>
-            <l>No pasaron muchos dias</l>
-            <l>que algunos viejos del pueblo</l>
-            <l>empezaron á decir</l>
-            <l>si nos contarán un cuento</l>
-            <l>estos moros... no me gustan,</l>
-            <l>y en palacio al mismo tiempo</l>
-            <l>corria el mismo rum rum ;</l>
-            <l>pero ya un dia comiendo</l>
-            <l>preguntó el Mir á la novia</l>
-            <l>¿ qué dia nos casarémos ?</l>
-            <l>Mi padre responderá...</l>
-            <l>y el Conde respondió atento:</l>
-            <l>Eso el Mir lo ha de decir,</l>
-            <l>pero el bautismo es primero :</l>
-          </lg>
-          <lg>
-            <l>¿ cuando quieres bautizarte ?</l>
-            <l>Primero nos casarémos, dijo el Mir ;</l>
-            <l>por que el bautizo</l>
-            <l>tiene que ser en mi pueblo ;</l>
-            <l>por que se han de bautizar</l>
-            <l>mas de dos mil caballeros</l>
-            <l>el mismo dia que yo</l>
-            <l>y mucha gente del pueblo.</l>
-            <l>Vosotros sereis padrinos,</l>
-            <l>por que sabréis que yo quiero</l>
-            <l>que abracen el cristianismo</l>
-            <l>todos en mis cuatro reinos.</l>
-            <l>No se casará mi hija</l>
-            <l>si no es cristiano primero</l>
-            <l>el que haya de ser su esposo.</l>
-            <l>Pues yo así tengo dispuesto,</l>
-            <l>dijo el Mir amostazado,</l>
-            <l>y una mirada de fuego</l>
-            <l>el Conde le arrojó y dijo :</l>
-            <l>Es chasco , salir ahora con esto</l>
-            <l>despues de la campanada ;</l>
-            <l>y levantandose luego</l>
-            <l>los demas , incomodados,</l>
-            <l>todos le fueron siguiendo.</l>
-            <l>A otro dia de mañana</l>
-            <l>vióse atado un escudero</l>
-            <l>que le iban á matar</l>
-            <l>por haber sido algo lerdo</l>
-            <l>en el servicio de su amo,</l>
-            <l>y el Conde dijo : en mi reino</l>
-            <l>no se asesina á ninguno,</l>
-            <l>la ley castiga, y no quiero</l>
-            <l>semejantes demasías,</l>
-            <l>soltad á ese hombre al momento.</l>
-            <l>El moro dijo : soy Rey</l>
-            <l>y con mis vasallos puedo</l>
-            <l>hacer cuanto me dé gana,</l>
-            <l>sépaslo, cristiano viejo.</l>
-            <l>Vive Dios, que no será</l>
-            <l>mientras estés en mi reino.</l>
-            <l>Dijo el moro : He de vengar</l>
-            <l>esta injuria con mi acero.</l>
-            <l>Arrogante , moro , estás,</l>
-            <l>en el campo nos verémos,</l>
-            <l>que yo tambien tengo espada,</l>
-            <l>y tambien soy caballero.</l>
-            <l>Ya puedes apercibirte ;</l>
-            <l>y de alli á poco se vieron</l>
-          </lg>
-          <pb n="3" source="Varios_174_3.jpg" facs="fedora_Varios_174_3/full/full/0/default.jpg"/>
+
+          <l>Este es poco inconveniente</l>
+          <l>respondió el Mir sonriendo,</l>
+          <l>tu hija se hará mora,</l>
+          <l>ó yo cristiano , es lo mesmo:</l>
+          <l>si tu te tornas cristiano</l>
+          <l>lo demás es chico pleito ;</l>
+          <l>pero ¡ mi hjia ser mora !</l>
+          <l>no quiero perder el cielo</l>
+          <l>por un puñado de pajas</l>
+          <l>que es todo lo de este suelo.</l>
+          <l>Pues yo me bautizaré</l>
+          <l>por eso no reñirémos.</l>
+          <l>Con que quedamos así ;</l>
+          <l>ahora voy á mi reino,</l>
+          <l>por que estas cosas en grande</l>
+          <l>se deben mirar con tiempo ;</l>
+          <l>con que á Dios , hasta la vuelta,</l>
+          <l>y ya nos escribirémos.</l>
+          <l>El Conde quedó en su casa,</l>
+          <l>muy alegre y satisfecho,</l>
+          <l>é hizo un viaje con su hijo</l>
+          <l>á ver los estados nuevos.</l>
+          <l>A su tiempo escribió el Mir</l>
+          <l>que ya tenia dispuesto</l>
+          <l>su viaje á Barcelona,</l>
+          <l>y que vendria muy presto.</l>
+          <l>El Conde se apercibia</l>
+          <l>para su recibimiento ;</l>
+          <l>cuando ya llegaba el Mir,</l>
+          <l>Cabildos y Ayuntamientos</l>
+          <l>salieron á recibirle,</l>
+          <l>corporaciones y el pueblo,</l>
+          <l>dando vivas y señales</l>
+          <l>de su alegría y contento.</l>
+          <l>No pasaron muchos dias</l>
+          <l>que algunos viejos del pueblo</l>
+          <l>empezaron á decir</l>
+          <l>si nos contarán un cuento</l>
+          <l>estos moros... no me gustan,</l>
+          <l>y en palacio al mismo tiempo</l>
+          <l>corria el mismo rum rum ;</l>
+          <l>pero ya un dia comiendo</l>
+          <l>preguntó el Mir á la novia</l>
+          <l>¿ qué dia nos casarémos ?</l>
+          <l>Mi padre responderá...</l>
+          <l>y el Conde respondió atento:</l>
+          <l>Eso el Mir lo ha de decir,</l>
+          <l>pero el bautismo es primero :</l>
+          <l>¿ cuando quieres bautizarte ?</l>
+          <l>Primero nos casarémos, dijo el Mir ;</l>
+          <l>por que el bautizo</l>
+          <l>tiene que ser en mi pueblo ;</l>
+          <l>por que se han de bautizar</l>
+          <l>mas de dos mil caballeros</l>
+          <l>el mismo dia que yo</l>
+          <l>y mucha gente del pueblo.</l>
+          <l>Vosotros sereis padrinos,</l>
+          <l>por que sabréis que yo quiero</l>
+          <l>que abracen el cristianismo</l>
+          <l>todos en mis cuatro reinos.</l>
+          <l>No se casará mi hija</l>
+          <l>si no es cristiano primero</l>
+          <l>el que haya de ser su esposo.</l>
+          <l>Pues yo así tengo dispuesto,</l>
+          <l>dijo el Mir amostazado,</l>
+          <l>y una mirada de fuego</l>
+          <l>el Conde le arrojó y dijo :</l>
+          <l>Es chasco , salir ahora con esto</l>
+          <l>despues de la campanada ;</l>
+          <l>y levantandose luego</l>
+          <l>los demas , incomodados,</l>
+          <l>todos le fueron siguiendo.</l>
+          <l>A otro dia de mañana</l>
+          <l>vióse atado un escudero</l>
+          <l>que le iban á matar</l>
+          <l>por haber sido algo lerdo</l>
+          <l>en el servicio de su amo,</l>
+          <l>y el Conde dijo : en mi reino</l>
+          <l>no se asesina á ninguno,</l>
+          <l>la ley castiga, y no quiero</l>
+          <l>semejantes demasías,</l>
+          <l>soltad á ese hombre al momento.</l>
+          <l>El moro dijo : soy Rey</l>
+          <l>y con mis vasallos puedo</l>
+          <l>hacer cuanto me dé gana,</l>
+          <l>sépaslo, cristiano viejo.</l>
+          <l>Vive Dios, que no será</l>
+          <l>mientras estés en mi reino.</l>
+          <l>Dijo el moro : He de vengar</l>
+          <l>esta injuria con mi acero.</l>
+          <l>Arrogante , moro , estás,</l>
+          <l>en el campo nos verémos,</l>
+          <l>que yo tambien tengo espada,</l>
+          <l>y tambien soy caballero.</l>
+          <l>Ya puedes apercibirte ;</l>
+          <l>y de alli á poco se vieron</l>
+
+          <pb n="3" source="Varios_174_3.jpg" facs="varios/Varios_174_3.jpg/"/>
           <fw type="paginaNum">3</fw>
-          <lg>
-            <l>que señalaban la lid</l>
-            <l>donde ahora es el Liceo.</l>
-            <l>El Conde le dijo al Mir:</l>
-            <l>Los dos solos cuerpo á cuerpo</l>
-            <l>hemos de medir las armas,</l>
-            <l>retira tus caballeros,</l>
-            <l>que yo ya ves que los mios</l>
-            <l>bien retirados los tengo.</l>
-            <l>El moro dijo orgulloso,</l>
-            <l>á muerte ha de ser el duelo;</l>
-            <l>y tomando las distancias,</l>
-            <l>con valor se arremetieron.</l>
-            <l>Ya sus aceros blandian</l>
-            <l>con tal maestría y denuedo,</l>
-            <l>que era la admiracion</l>
-            <l>de los que lo estaban viendo.</l>
-            <l>Mas luego se arrojó el Conde</l>
-            <l>é hizo saltar el acero</l>
-            <l>de la mano , y quedó el moro</l>
-            <l>desarmado é indefenso.</l>
-            <l>El Conde le hizó una cruz</l>
-            <l>en el carrillo derecho :</l>
-            <l>la vida te la perdono</l>
-            <l>por que yo soy caballero.</l>
-            <l>Luego vinieron los suyos</l>
-            <l>y un vendage le pusieron</l>
-            <l>con un bálsamo , y marcharon</l>
-            <l>á Villafranca ligeros.</l>
-            <l>El Conde se fue á su casa</l>
-            <l>contando todo el suceso,</l>
-            <l>y se fue con su familia</l>
-            <l>á una quinta de recreo,</l>
-            <l>que hoy es el Laberinto,</l>
-            <l>y alli quedaron contentos.</l>
-            <l>Ahora volvamos al moro</l>
-            <l>que cauteloso y taimado</l>
-            <l>en Salou diez mil guerreros</l>
-            <l>habia desembarcado,</l>
-            <l>mientras él en Barcelona</l>
-            <l>sus designios ocultando,</l>
-            <l>que eran robar á la novia</l>
-            <l>dando un gran golpe de mano.</l>
-            <l>Apercibió sus guerreros</l>
-            <l>y á Barcelona cercando</l>
-            <l>peleaban como leones</l>
-            <l>y las puertas asaltando</l>
-            <l>corrian por esas calles</l>
-            <l>fieros hiriendo y matando</l>
-          </lg>
-          <lg>
-            <l>á hombres , mugeres y niños,</l>
-            <l>y las casas asaltando</l>
-            <l>saqueaban y maltrataban</l>
-            <l>y todo lo iban talando.</l>
-            <l>Luego á palacio se fueron,</l>
-            <l>y cuando vieron burlados</l>
-            <l>sus intentos, que los Condes</l>
-            <l>habianse ya marchado,</l>
-            <l>al Laberinto se fueron</l>
-            <l>furiosos , desesperados,</l>
-            <l>y viendo que alli no estaban,</l>
-            <l>su furor acrecentando</l>
-            <l>se arrancaban los bigotes;</l>
-            <l>y á Barcelona tornando</l>
-            <l>redoblaron sus desmanes.</l>
-            <l>Juntaron todos los carros,</l>
-            <l>los cargaron con el robo</l>
-            <l>de las casas y palacio.</l>
-            <l>Marcharon con dos mil hombres</l>
-            <l>que los iban custodiando</l>
-            <l>mientras los demas quedaban</l>
-            <l>haciendo muchos mas daños.</l>
-            <l>A luego llegó un oficio</l>
-            <l>de los que el botin llevaron</l>
-            <l>qne se veian perdidos</l>
-            <l>por que el Somaten del campo</l>
-            <l>les detenia la marcha,</l>
-            <l>y que fueran á ayudarlos.</l>
-            <l>Entonces el Mir dispuso</l>
-            <l>que por los cuatro costados</l>
-            <l>dieran fuego á Barcelona</l>
-            <l>y al punto lo ejecutaron.</l>
-            <l>Marchó el moro con sus tropas ;</l>
-            <l>pero á punto no llegaron,</l>
-            <l>por que ya los Urgelinos</l>
-            <l>sus somatenes alzando,</l>
-            <l>les quitaron el botin</l>
-            <l>unidos á los del campo.</l>
-            <l>Variaron su direccion</l>
-            <l>por que los iban cortando</l>
-            <l>los montañeses que , en grupos,</l>
-            <l>va se iban acercando.</l>
-            <l>Los del Ampurdan tambien</l>
-            <l>la retaguardia picando</l>
-            <l>les ponian un conflicto ;</l>
-            <l>pero el paso redoblando</l>
-            <l>llegar á Fraga pudieron,</l>
-            <l>pero ya muy mal parados.</l>
-          </lg>
-          <pb n="4" source="Varios_174_4.jpg" facs="fedora_Varios_174_4/full/full/0/default.jpg"/>
-          <lg>
-            <l>Trataron de descansar</l>
-            <l>y rehacerse algun tanto ;</l>
-            <l>pero ya los somatenes</l>
-            <l>en grandes masas se echaron</l>
-            <l>matando á diestra y siniestra</l>
-            <l>y á ninguno perdonando.</l>
-            <l>Alli era el ver correr</l>
-            <l>los moros y los cristianos:</l>
-            <l>uno alli cae en el rio,</l>
-            <l>el otro una cuesta abajo</l>
-            <l>y todos iban muriendo</l>
-            <l>sin escapar de sus manos.</l>
-            <l>Luego los aragoneses</l>
-            <l>salieron por sus hermanos</l>
-            <l>deteniendo á los dispersos</l>
-            <l>que se iban escapando.</l>
-            <l>El Conde, que vió á lo lejos</l>
-            <l>al Mir que se iba fugando,</l>
-            <l>le gritaba ; perro moro,</l>
-            <l>y su caballo picando</l>
-            <l>al momento le alcanzó ;</l>
-            <l>pero ya estaba cercado</l>
-          </lg>
-          <lg>
-            <l>de mas de cien catalanes</l>
-            <l>que su cuerpo mutilando,</l>
-            <l>le cortaron la cabeza,</l>
-            <l>que por trofeo en un palo</l>
-            <l>trajeron á Barcelona,</l>
-            <l>para escarmiento de malos.</l>
-            <l>Aquí acabó la jornada</l>
-            <l>y muy pocos escaparon ;</l>
-            <l>pues cuentan que fueron veinte</l>
-            <l>los que á su ticrra llegaron</l>
-            <l>para poderlo contar.</l>
-            <l>Los catalanes ufanos</l>
-            <l>volvieron á sus hogares,</l>
-            <l>y á sus vecinos contaron</l>
-            <l>las azañas de aquel dia,</l>
-            <l>y que dejaron vengados</l>
-            <l>los h agravios inferidos</l>
-            <l>en Barcelona y su llano.</l>
-            <l>Y aquí se acaba el romance,</l>
-            <l>perdonad si falta algo,</l>
-            <l>que como hace tanto tiempo,</l>
-            <l>que se olvide no es estraño.</l>
-          </lg>
-          <p><lb/>Es propiedad de A. V.</p>
+
+          <l>que señalaban la lid</l>
+          <l>donde ahora es el Liceo.</l>
+          <l>El Conde le dijo al Mir:</l>
+          <l>Los dos solos cuerpo á cuerpo</l>
+          <l>hemos de medir las armas,</l>
+          <l>retira tus caballeros,</l>
+          <l>que yo ya ves que los mios</l>
+          <l>bien retirados los tengo.</l>
+          <l>El moro dijo orgulloso,</l>
+          <l>á muerte ha de ser el duelo;</l>
+          <l>y tomando las distancias,</l>
+          <l>con valor se arremetieron.</l>
+          <l>Ya sus aceros blandian</l>
+          <l>con tal maestría y denuedo,</l>
+          <l>que era la admiracion</l>
+          <l>de los que lo estaban viendo.</l>
+          <l>Mas luego se arrojó el Conde</l>
+          <l>é hizo saltar el acero</l>
+          <l>de la mano , y quedó el moro</l>
+          <l>desarmado é indefenso.</l>
+          <l>El Conde le hizó una cruz</l>
+          <l>en el carrillo derecho :</l>
+          <l>la vida te la perdono</l>
+          <l>por que yo soy caballero.</l>
+          <l>Luego vinieron los suyos</l>
+          <l>y un vendage le pusieron</l>
+          <l>con un bálsamo , y marcharon</l>
+          <l>á Villafranca ligeros.</l>
+          <l>El Conde se fue á su casa</l>
+          <l>contando todo el suceso,</l>
+          <l>y se fue con su familia</l>
+          <l>á una quinta de recreo,</l>
+          <l>que hoy es el Laberinto,</l>
+          <l>y alli quedaron contentos.</l>
+          <l>Ahora volvamos al moro</l>
+          <l>que cauteloso y taimado</l>
+          <l>en Salou diez mil guerreros</l>
+          <l>habia desembarcado,</l>
+          <l>mientras él en Barcelona</l>
+          <l>sus designios ocultando,</l>
+          <l>que eran robar á la novia</l>
+          <l>dando un gran golpe de mano.</l>
+          <l>Apercibió sus guerreros</l>
+          <l>y á Barcelona cercando</l>
+          <l>peleaban como leones</l>
+          <l>y las puertas asaltando</l>
+          <l>corrian por esas calles</l>
+          <l>fieros hiriendo y matando</l>
+          <l>á hombres , mugeres y niños,</l>
+          <l>y las casas asaltando</l>
+          <l>saqueaban y maltrataban</l>
+          <l>y todo lo iban talando.</l>
+          <l>Luego á palacio se fueron,</l>
+          <l>y cuando vieron burlados</l>
+          <l>sus intentos, que los Condes</l>
+          <l>habianse ya marchado,</l>
+          <l>al Laberinto se fueron</l>
+          <l>furiosos , desesperados,</l>
+          <l>y viendo que alli no estaban,</l>
+          <l>su furor acrecentando</l>
+          <l>se arrancaban los bigotes;</l>
+          <l>y á Barcelona tornando</l>
+          <l>redoblaron sus desmanes.</l>
+          <l>Juntaron todos los carros,</l>
+          <l>los cargaron con el robo</l>
+          <l>de las casas y palacio.</l>
+          <l>Marcharon con dos mil hombres</l>
+          <l>que los iban custodiando</l>
+          <l>mientras los demas quedaban</l>
+          <l>haciendo muchos mas daños.</l>
+          <l>A luego llegó un oficio</l>
+          <l>de los que el botin llevaron</l>
+          <l>qne se veian perdidos</l>
+          <l>por que el Somaten del campo</l>
+          <l>les detenia la marcha,</l>
+          <l>y que fueran á ayudarlos.</l>
+          <l>Entonces el Mir dispuso</l>
+          <l>que por los cuatro costados</l>
+          <l>dieran fuego á Barcelona</l>
+          <l>y al punto lo ejecutaron.</l>
+          <l>Marchó el moro con sus tropas ;</l>
+          <l>pero á punto no llegaron,</l>
+          <l>por que ya los Urgelinos</l>
+          <l>sus somatenes alzando,</l>
+          <l>les quitaron el botin</l>
+          <l>unidos á los del campo.</l>
+          <l>Variaron su direccion</l>
+          <l>por que los iban cortando</l>
+          <l>los montañeses que , en grupos,</l>
+          <l>va se iban acercando.</l>
+          <l>Los del Ampurdan tambien</l>
+          <l>la retaguardia picando</l>
+          <l>les ponian un conflicto ;</l>
+          <l>pero el paso redoblando</l>
+          <l>llegar á Fraga pudieron,</l>
+          <l>pero ya muy mal parados.</l>
+
+          <pb n="4" source="Varios_174_4.jpg" facs="varios/Varios_174_4.jpg/"/>
+
+          <l>Trataron de descansar</l>
+          <l>y rehacerse algun tanto ;</l>
+          <l>pero ya los somatenes</l>
+          <l>en grandes masas se echaron</l>
+          <l>matando á diestra y siniestra</l>
+          <l>y á ninguno perdonando.</l>
+          <l>Alli era el ver correr</l>
+          <l>los moros y los cristianos:</l>
+          <l>uno alli cae en el rio,</l>
+          <l>el otro una cuesta abajo</l>
+          <l>y todos iban muriendo</l>
+          <l>sin escapar de sus manos.</l>
+          <l>Luego los aragoneses</l>
+          <l>salieron por sus hermanos</l>
+          <l>deteniendo á los dispersos</l>
+          <l>que se iban escapando.</l>
+          <l>El Conde, que vió á lo lejos</l>
+          <l>al Mir que se iba fugando,</l>
+          <l>le gritaba ; perro moro,</l>
+          <l>y su caballo picando</l>
+          <l>al momento le alcanzó ;</l>
+          <l>pero ya estaba cercado</l>
+          <l>de mas de cien catalanes</l>
+          <l>que su cuerpo mutilando,</l>
+          <l>le cortaron la cabeza,</l>
+          <l>que por trofeo en un palo</l>
+          <l>trajeron á Barcelona,</l>
+          <l>para escarmiento de malos.</l>
+          <l>Aquí acabó la jornada</l>
+          <l>y muy pocos escaparon ;</l>
+          <l>pues cuentan que fueron veinte</l>
+          <l>los que á su ticrra llegaron</l>
+          <l>para poderlo contar.</l>
+          <l>Los catalanes ufanos</l>
+          <l>volvieron á sus hogares,</l>
+          <l>y á sus vecinos contaron</l>
+          <l>las azañas de aquel dia,</l>
+          <l>y que dejaron vengados</l>
+          <l>los h agravios inferidos</l>
+          <l>en Barcelona y su llano.</l>
+          <l>Y aquí se acaba el romance,</l>
+          <l>perdonad si falta algo,</l>
+          <l>que como hace tanto tiempo,</l>
+          <l>que se olvide no es estraño.</l>
+
+          <p rend="cursiva"><lb/>Es propiedad de A. V.</p>
         </div>
+        
         <div type="colofon">
-          <p><lb/>BARCELONA : Imp. de Joseph Gaspar, carrer de Cervantes,
-                           cantonada al de Gegants.—1853.</p>
+          <p><lb/><hi rend="cursiva">Barcelona</hi> : Imp. de Joseph Gaspar, carrer de Cervantes,
+            cantonada al de Gegants.—1853.</p>
         </div>
       </div>
     </body>

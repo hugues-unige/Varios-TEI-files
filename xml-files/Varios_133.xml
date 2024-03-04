@@ -1,18 +1,17 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../Schema/oddPliego_varios.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:alto="http://www.loc.gov/standards/alto/ns-v4#" xml:id="Varios_133">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Varios_133">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>JUAN PORTELA. NUEVO ROMANCE</title>
+        <title>JUAN PORTELA</title>
         <respStmt>
           <name/>
           <resp>Codificación TEI</resp>
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <authority role="rightsHolder">Bibliothèque Universitaire de
-                            Genève</authority>
+        <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
         <availability status="restricted">
           <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
         </availability>
@@ -20,8 +19,10 @@
       <sourceDesc>
         <biblFull>
           <titleStmt>
-            <title type="titulo_completo">JUAN PORTELA. NUEVO ROMANCE en el que se declaran los robos y asesinatos que ha cometido el valeroso Portela en las inmediaciones de Córdoba.</title>
-            <title type="titulo_breve">JUAN PORTELA. NUEVO ROMANCE</title>
+            <title type="titulo_completo">JUAN PORTELA. NUEVO ROMANCE en el que se declaran los
+              robos y asesinatos que ha cometido el valeroso Portela en las inmediaciones de
+              Córdoba.</title>
+            <title type="titulo_breve">JUAN PORTELA.</title>
           </titleStmt>
           <editionStmt>
             <p/>
@@ -29,8 +30,7 @@
           <publicationStmt>
             <publisher>Sucesores de Hernando</publisher>
             <pubPlace ref="https://www.geonames.org/3117735/madrid.html">Madrid</pubPlace>
-            <date>[s.a]
-                     </date>
+            <date when="1800-01-01" cert="low">[s.a.]</date>
           </publicationStmt>
         </biblFull>
         <msDesc>
@@ -38,7 +38,8 @@
             <country>Suisse</country>
             <settlement>Genève</settlement>
             <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"/>
-                  </repository>
+            </repository>
+            <collection>Colección Varios</collection>
             <idno type="cote"/>
             <idno type="DOI">10.5281/zenodo.6586368</idno>
             <altIdentifier>
@@ -46,10 +47,14 @@
             </altIdentifier>
           </msIdentifier>
           <msContents>
-            <summary/>
+            <summary>Dos partes</summary>
             <msItem>
-              <locus/>
-              <title/>
+              <locus>1-2</locus>
+              <title>Primera parte.</title>
+            </msItem>
+            <msItem>
+              <locus>2-4</locus>
+              <title>Segunda parte.</title>
             </msItem>
           </msContents>
           <physDesc>
@@ -67,8 +72,7 @@
               </layoutDesc>
             </objectDesc>
             <decoDesc>
-              <summary n="1">Uno grabado
-                                        (p.1) </summary>
+              <summary n="1">Un grabado (p.1)</summary>
               <decoNote type="lista_grabados">
                 <list>
                   <item corresp="grabado_v_133_1.xml">grabado_v_133_1</item>
@@ -93,18 +97,17 @@
     </fileDesc>
     <encodingDesc>
       <projectDesc>
-        <p>Este archivo fue creado en el marco del proyecto Desenrollando el
-                            Cordel/Démêler le cordel/Untangling the cordel, dirigido por la
-                            profesora Constance Carta de la Universidad de Ginebra, con el apoyo de
-                            la Fundación filantrópica Famille Sandoz-Monique de Meuron.</p>
+        <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+          cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la Universidad
+          de Ginebra, con el apoyo de la Fundación filantrópica Famille Sandoz-Monique de
+          Meuron.</p>
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR non corregido</p>
+          <p>OCR no corregido</p>
         </correction>
         <normalization>
-          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto
-                                original.</p>
+          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
         </normalization>
         <punctuation>
           <p>Se conserva la puntuación original.</p>
@@ -118,7 +121,7 @@
       <textClass>
         <keywords xml:base="http://datos.bne.es/tema/">
           <term target="XX527614.html" type="tipo_texto">Romances</term>
-          <term target="XX527614.html" type="tipo_estrofa">Romances</term>
+          <term target="XX4843218.html" type="tipo_estrofa">Romances</term>
           <term type="verso_prosa">Verso</term>
           <term type="sagrado_profano">Profano</term>
         </keywords>
@@ -126,9 +129,13 @@
     </profileDesc>
     <revisionDesc>
       <change when="2023-01-21" who="#PJ">Création du fichier TEI P5 et encodage du corps du
-                        texte</change>
+        texte</change>
+      <change when="2024-01-09" who="#EL">Add the IIIF links</change>
     </revisionDesc>
   </teiHeader>
+  <facsimile>
+    <graphic url="varios/Varios_133_1.jpg/full/200,/0/default.jpg"/>
+  </facsimile>
   <sourceDoc xml:id="automaticTranscription">
     <surface xml:id="Varios_133_1" type="page" cert="silver">
       <graphic url="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_133_1/full/full/0/default.jpg"/>
@@ -1362,11 +1369,18 @@
     <body>
       <div>
         <div>
-          <pb n="1" source="Varios_133_1.jpg" facs="fedora_Varios_133_1/full/full/0/default.jpg"/>
-          <head type="primer_titulo"><lb/>JUAN PORTELA.<lb/>NUEVO ROMANCE<lb/>en el que se declaran los robos y asesinatos que ha cometido el valeroso<lb/>Portela en las inmediaciones de Córdoba.</head>
-          <head type="titulo_parte"><lb/>PRIMERA PARTE.</head>
-          <lg>
-            <l>Escuchen, señores mios,</l>
+          <pb n="1" source="Varios_133_1.jpg" facs="varios/Varios_133_1.jpg/"/>
+
+          <fw type="paginaNum">(Núm. 112.)</fw>
+
+          <head type="primer_titulo"><lb/>JUAN PORTELA.</head>
+          <head type="subtitulo"><lb/>NUEVO ROMANCE<lb/>en el que se declaran los robos y asesinatos
+            que ha cometido el valeroso<lb/>Portela en las inmediaciones de Córdoba.</head>
+
+          <div type="parte" n="1">
+            <head type="titulo_parte"><lb/>PRIMERA PARTE.</head>
+
+            <l rend="indent">Escuchen, señores mios,</l>
             <l>les diré de Juan Portela,</l>
             <l>el ladron más afamado</l>
             <l>de la gran Sierra-Morena.</l>
@@ -1384,8 +1398,6 @@
             <l>que en Córdoba trabajaba</l>
             <l>á una hacienda retirado;</l>
             <l>y por querer á una dama,</l>
-          </lg>
-          <lg>
             <l>fuí el ladron mas afamado.</l>
             <l>Sin tener de mí una queja</l>
             <l>esta jóven se casó</l>
@@ -1404,9 +1416,9 @@
             <l>Sus quejas llegué á entender</l>
             <l>de una pícara traidora,</l>
             <l>que tan falsa vino á ser:</l>
-          </lg>
-          <pb n="2" source="Varios_133_2.jpg" facs="fedora_Varios_133_2/full/full/0/default.jpg"/>
-          <lg>
+
+            <pb n="2" source="Varios_133_2.jpg" facs="varios/Varios_133_2.jpg/"/>
+
             <l>pensaba todas las horas</l>
             <l>siempre por una mujer.</l>
             <l>Pronto á perder mi vida,</l>
@@ -1444,8 +1456,6 @@
             <l>y ella mis pasos seguia,</l>
             <l>si acaso algun atrevido.</l>
             <l>Giré un poco mi cabeza</l>
-          </lg>
-          <lg>
             <l>con mi trabuco apuntando,</l>
             <l>que disparo á toda prisa,</l>
             <l>cuatro muertos he dejado.</l>
@@ -1483,24 +1493,22 @@
             <l>á un coche y una galera,</l>
             <l>seiscientos machos, chorré,</l>
             <l>van detrás de mí que vuelan</l>
-          </lg>
-        </div>
-        <div>
-          <head type="titulo_parte"><lb/>SEGUNDA PARTE.</head>
-          <lg>
-            <l>A dar pienso á mi caballo,</l>
+          </div>
+
+          <div n="2" type="parte">
+            <head type="titulo_parte"><lb/>SEGUNDA PARTE.</head>
+
+            <l rend="indent">A dar pienso á mi caballo,</l>
             <l>!ay de mi, que soy perdido!</l>
             <l>en una casa de campo</l>
             <l>veinte pasos del camino.</l>
-          </lg>
-          <lg>
             <l>A este punto destinado</l>
             <l>precipitado llegué.</l>
             <l>por el amo pregunté,</l>
             <l>quedaron todos turbados</l>
-          </lg>
-          <pb n="3" source="Varios_133_3.jpg" facs="fedora_Varios_133_3/full/full/0/default.jpg"/>
-          <lg>
+
+            <pb n="3" source="Varios_133_3.jpg" facs="varios/Varios_133_3.jpg/"/>
+
             <l>¿qué se ofrece, caballero?</l>
             <l>respondió luego un anciano:</l>
             <l>—Esta gente ¿qué hace aquí?</l>
@@ -1547,8 +1555,6 @@
             <l>porque á mi no me hace falta,</l>
             <l>y vivir todos tranquilos</l>
             <l>que á mi nada me acobarda.</l>
-          </lg>
-          <lg>
             <l>Bien montado en mi caballo</l>
             <l>de la casa me despido,</l>
             <l>me tiraron cinco tiros</l>
@@ -1595,9 +1601,9 @@
             <l>ya perdí mis esperanzas,</l>
             <l>quedarse todos con Dios.</l>
             <l>Con tal anhelo y cuidado</l>
-          </lg>
-          <pb n="4" source="Varios_133_4.jpg" facs="fedora_Varios_133_4/full/full/0/default.jpg"/>
-          <lg>
+
+            <pb n="4" source="Varios_133_4.jpg" facs="varios/Varios_133_4.jpg/"/>
+
             <l>con bayoneta calada,</l>
             <l>á pasos dobles marchaban.</l>
             <l>antesde ponerse el sol,</l>
@@ -1637,8 +1643,6 @@
             <l>con un Cristo Redentor;</l>
             <l>¡ay, padres y hermanitos!</l>
             <l>Aquí se amansa el valiente,</l>
-          </lg>
-          <lg>
             <l>aqu se pierde el valor,</l>
             <l>la honradez y el pundonor</l>
             <l>y se afrentan los parientes</l>
@@ -1678,11 +1682,13 @@
             <l>en un torno el cuello meten,</l>
             <l>y al decir su único Hijo</l>
             <l>á pelear voy con la muerte.</l>
-          </lg>
-          <trailer>FIN.</trailer>
-        </div>
-        <div type="colofon_vendedor">
-          <p> MADRID.-- Despacho: Sucesores de Hernando, Arenal, 11.</p>
+
+            <trailer>FIN.</trailer>
+          </div>
+          
+          <div type="colofon">
+            <p> MADRID.-- Despacho: Sucesores de Hernando, Arenal, 11.</p>
+          </div>
         </div>
       </div>
     </body>

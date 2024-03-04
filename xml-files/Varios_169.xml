@@ -1,19 +1,17 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../Schema/oddPliego_varios.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:alto="http://www.loc.gov/standards/alto/ns-v4#" xml:id="Varios_169">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Varios_169">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>DECIMAS NUEVAS, alegres y divertidas para pasar el rato despues de
-                              tener la panza llena, pero no de aire.</title>
+        <title>DECIMAS NUEVAS</title>
         <respStmt>
           <name/>
           <resp>Codificación TEI</resp>
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <authority role="rightsHolder">Bibliothèque Universitaire de
-                              Genève</authority>
+        <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
         <availability status="restricted">
           <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
         </availability>
@@ -21,18 +19,17 @@
       <sourceDesc>
         <biblFull>
           <titleStmt>
-            <title type="titulo_completo">DECIMAS NUEVAS, alegres y
-                                          divertidas para pasar el rato despues de tener la panza
-                                          llena, pero no de aire.</title>
-            <title type="titulo_breve"/>
+            <title type="titulo_completo">DECIMAS NUEVAS, alegres y divertidas para pasar el rato
+              despues de tener la panza llena, pero no de aire.</title>
+            <title type="titulo_breve">DECIMAS NUEVAS</title>
           </titleStmt>
           <editionStmt>
             <p/>
           </editionStmt>
           <publicationStmt>
-            <publisher>Librería de D. J. B. Campoy.</publisher>
+            <publisher>J. B. Campoy</publisher>
             <pubPlace ref="https://www.geonames.org/2514891/lorca.html">Lorca</pubPlace>
-            <date cert="high">[s.a]</date>
+            <date cert="low" when="1800-01-01">[s.a.]</date>
           </publicationStmt>
         </biblFull>
         <msDesc>
@@ -40,7 +37,8 @@
             <country>Suisse</country>
             <settlement>Genève</settlement>
             <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"/>
-                                    </repository>
+            </repository>
+            <collection>Colección Varios</collection>
             <idno type="cote"/>
             <idno type="DOI">10.5281/zenodo.6587254</idno>
             <altIdentifier>
@@ -89,32 +87,25 @@
             <origin>
               <p>Imp. y Librería de D. J. B. Campoy.</p>
             </origin>
-            <provenance>
-              <p>*À COMPLETER*: nom du vendeur ( si plusieurs vendeurs
-                                                le premier supposé)</p>
-            </provenance>
-            <acquisition>
-              <p>*À COMPLETER* autres propriétaires</p>
-              <stamp/>
-            </acquisition>
+            <provenance/>
+            <acquisition/>
           </history>
         </msDesc>
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
       <projectDesc>
-        <p>Este archivo fue creado en el marco del proyecto Desenrollando el
-                              Cordel/Démêler le cordel/Untangling the cordel, dirigido por la
-                              profesora Constance Carta de la Universidad de Ginebra, con el apoyo
-                              de la Fundación filantrópica Famille Sandoz-Monique de Meuron.</p>
+        <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+          cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la Universidad
+          de Ginebra, con el apoyo de la Fundación filantrópica Famille Sandoz-Monique de
+          Meuron.</p>
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR non corregido</p>
+          <p>OCR no corregido</p>
         </correction>
         <normalization>
-          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto
-                                    original.</p>
+          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
         </normalization>
         <punctuation>
           <p>Se conserva la puntuación original.</p>
@@ -127,7 +118,7 @@
       </langUsage>
       <textClass>
         <keywords xml:base="http://datos.bne.es/tema/">
-          <term type="tipo_texto">Chascos</term>
+          <term target="XX546895.html" type="tipo_texto">Décimas</term>
           <term target="XX546895.html" type="tipo_estrofa">Décimas</term>
           <term type="verso_prosa">Verso</term>
           <term type="sagrado_profano">Profano</term>
@@ -135,10 +126,14 @@
       </textClass>
     </profileDesc>
     <revisionDesc>
-      <change when="2023-04-12" who="#PJ">Création du fichier TEI P5 et encodage du
-                        corps du texte</change>
+      <change when="2023-04-12" who="#PJ">Création du fichier TEI P5 et encodage du corps du
+        texte</change>
+      <change when="2024-01-09" who="#EL">Add the IIIF links</change>
     </revisionDesc>
   </teiHeader>
+  <facsimile>
+    <graphic url="varios/Varios_169_1.jpg/full/200,/0/default.jpg"/>
+  </facsimile>
   <sourceDoc xml:id="automaticTranscription">
     <surface xml:id="Varios_169_1" type="page" cert="silver">
       <graphic url="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_169_1/full/full/0/default.jpg"/>
@@ -1152,11 +1147,12 @@
   <text>
     <body>
       <div>
-        <pb n="1" source="Varios_169_1.jpg" facs="fedora_Varios_169_1/full/full/0/default.jpg"/>
+        <pb n="1" source="Varios_169_1.jpg" facs="varios/Varios_169_1.jpg/"/>
         <div>
           <head type="primer_titulo"><lb/>DECIMAS NUEVAS,</head>
           <head type="subtitulo_parte"><lb/>alegres y divertidas para pasar el rato des-<lb/>pues de
-                                    tener la panza llena,<lb/>pero no de aire.</head>
+            tener la panza llena,<lb/>pero no de aire.</head>
+          
           <lg rend="cursiva">
             <l rend="indent">Cuando un pobre se emborracha</l>
             <l>le llaman el borrachon,</l>
@@ -1164,7 +1160,7 @@
             <l>qué alegre viene el señor.</l>
           </lg>
           <lg>
-            <l>El que no tiene pesetas</l>
+            <l rend="indent">El que no tiene pesetas</l>
             <l>de ninguno es conocido</l>
             <l>ni en audiencias atendido</l>
             <l>esto es claro y cosa cierta;</l>
@@ -1176,14 +1172,14 @@
             <l>cuando un pobre se emborracha.</l>
           </lg>
           <lg>
-            <l>Hombres, mugeres y niños</l>
+            <l rend="indent">Hombres, mugeres y niños</l>
             <l>se burlan de cualquier pobre;</l>
             <l>por que en no teniendo cobre</l>
             <l>de todos es abatido:</l>
             <l>no hay parentela ni amigos</l>
-          </lg>
-          <pb n="2" source="Varios_169_2.jpg" facs="fedora_Varios_169_2/full/full/0/default.jpg"/>
-          <lg>
+          
+          <pb n="2" source="Varios_169_2.jpg" facs="varios/Varios_169_2.jpg/"/>
+          
             <l>que conozcan la razon</l>
             <l>con mas dañada intencion</l>
             <l>le pretenden ultrajar,</l>
@@ -1191,7 +1187,7 @@
             <l>le llaman el borrachon.</l>
           </lg>
           <lg>
-            <l>Tambien hay quien gasta plata</l>
+            <l rend="indent">Tambien hay quien gasta plata</l>
             <l>entre ricos y señores,</l>
             <l>y aunque sean borrachones</l>
             <l>nadie descubre sus faltas</l>
@@ -1203,7 +1199,7 @@
             <l>cuando se emborracha un rico,</l>
           </lg>
           <lg>
-            <l>En las tertulias y fiestas</l>
+            <l rend="indent">En las tertulias y fiestas</l>
             <l>tambien tienen sus jaranas,</l>
             <l>y les brindan á las damas,</l>
             <l>con las copas y limetas</l>
@@ -1222,7 +1218,7 @@
             <l>cuando nos emborrachamos.</l>
           </lg>
           <lg>
-            <l>Nadie se debe admirar</l>
+            <l rend="indent">Nadie se debe admirar</l>
             <l>de ver á un hombre embriogado,</l>
             <l>pues cada cual en su estado</l>
             <l>tenemos por que callar:</l>
@@ -1234,7 +1230,7 @@
             <l rend="cursiva">el beber todos bebemos.</l>
           </lg>
           <lg>
-            <l>Afirman varios autores</l>
+            <l rend="indent">Afirman varios autores</l>
             <l>que el Criador solo fue puro,</l>
             <l>los demas hombres del mundo</l>
             <l>bebieron estos licores:</l>
@@ -1246,7 +1242,7 @@
             <l rend="cursiva">el pecar todos pecamos.</l>
           </lg>
           <lg>
-            <l>Asi que Noé salió</l>
+            <l rend="indent">Asi que Noé salió</l>
             <l>del arca de la reserva,</l>
             <l>plantó primero en la tierra</l>
             <l>el sarmiento y produció</l>
@@ -1258,7 +1254,7 @@
             <l rend="cursiva">cinco sentidos tenemos.</l>
           </lg>
           <lg>
-            <l>El hombre mas duro y fuerte</l>
+            <l rend="indent">El hombre mas duro y fuerte</l>
             <l>bebe andaya y bebe rom,</l>
             <l>bebe mistela y resol,</l>
             <l>bebe café y aguardiente,</l>
@@ -1269,15 +1265,15 @@
             <l>en llegando al vino tinto</l>
             <l rend="cursiva">todos los cinco perdemos.</l>
           </lg>
-          <pb n="3" source="Varios_169_3.jpg" facs="fedora_Varios_169_3/full/full/0/default.jpg"/>
+          
+          <pb n="3" source="Varios_169_3.jpg" facs="varios/Varios_169_3.jpg/"/>
+          
           <lg>
-            <l>Los hombres mas entendidos</l>
+            <l rend="indent">Los hombres mas entendidos</l>
             <l>emperadores y reyes,</l>
             <l>papas cardenales beben,</l>
             <l>estos licores y el vino</l>
             <l>es un regalo divino</l>
-          </lg>
-          <lg>
             <l>en bebiendo arreglado;</l>
             <l>pero en beber demasiado</l>
             <l>nos pone tan aturdidos</l>
@@ -1291,7 +1287,7 @@
             <l>con que obligacion quedé.</l>
           </lg>
           <lg>
-            <l>Sola fue la dicha mia</l>
+            <l rend="indent">Sola fue la dicha mia</l>
             <l>y asi debo de esplicar</l>
             <l>no falto en ningun lugar</l>
             <l>ni de noche ni de dia;</l>
@@ -1303,7 +1299,7 @@
             <l rend="cursiva">mi madre me parió á mí.</l>
           </lg>
           <lg>
-            <l>Agua es mi mantenimiento,</l>
+            <l rend="indent">Agua es mi mantenimiento,</l>
             <l>el sol tengo por comida</l>
             <l>seis meses tengo de vida</l>
             <l>y en ellos cobro el sustento</l>
@@ -1315,7 +1311,7 @@
             <l rend="cursiva">y yo á mi madre engendrè.</l>
           </lg>
           <lg>
-            <l>En el mundo entero habito</l>
+            <l rend="indent">En el mundo entero habito</l>
             <l>no tengo alma ni sentido,</l>
             <l>con el pobre nunca vivo,</l>
             <l>con el rico siempre exsisto</l>
@@ -1327,7 +1323,7 @@
             <l rend="cursiva">lo que me hizo le hize.</l>
           </lg>
           <lg>
-            <l>Mi madre á mí me parió</l>
+            <l rend="indent">Mi madre á mí me parió</l>
             <l>y ella de mi fue nacida,</l>
             <l>y por voluntad divina</l>
             <l>de mi mismo se formó:</l>
@@ -1345,22 +1341,22 @@
             <l>el ladron donde robar,</l>
           </lg>
           <lg>
-            <l>Busca el conejo la cueva</l>
+            <l rend="indent">Busca el conejo la cueva</l>
             <l>y el lobo al manso cordero,</l>
             <l>busca el iman el acero,</l>
             <l>y el rastrojo la culebra,</l>
             <l>busca el caracol la piedra</l>
-          </lg>
-          <lg>
             <l>por tener su gusto todo</l>
             <l>el leon por cierto modo</l>
             <l>es rey de los animales</l>
             <l>y asi con ansias mortales</l>
             <l rend="cursiva">busca el pobre su acomodo.</l>
           </lg>
-          <pb n="4" source="Varios_169_4.jpg" facs="fedora_Varios_169_4/full/full/0/default.jpg"/>
+          
+          <pb n="4" source="Varios_169_4.jpg" facs="varios/Varios_169_4.jpg/"/>
+          
           <lg>
-            <l>Tambien busca su reposo</l>
+            <l rend="indent">Tambien busca su reposo</l>
             <l>el tigre en las espesuras</l>
             <l>y con ansias muy corduras</l>
             <l>busca los valles el oso,</l>
@@ -1372,7 +1368,7 @@
             <l rend="cursiva">busca el borracho el cristal.</l>
           </lg>
           <lg>
-            <l>Busca el cuervo muy ufano</l>
+            <l rend="indent">Busca el cuervo muy ufano</l>
             <l>el arbol para dormir,</l>
             <l>la soledad el javali,</l>
             <l>y la hormiga busca el grano</l>
@@ -1384,7 +1380,7 @@
             <l rend="cursiva">el jugador el tesoro.</l>
           </lg>
           <lg>
-            <l>Al queso busca el raton</l>
+            <l rend="indent">Al queso busca el raton</l>
             <l>y el pajaro busca el nido,</l>
             <l>y por el propio motivo</l>
             <l>busca á el conejo el huron,</l>
@@ -1402,7 +1398,7 @@
             <l>y á nadie un cuarto le debo</l>
           </lg>
           <lg>
-            <l>Tengo en Mégico una hermana</l>
+            <l rend="indent">Tengo en Mégico una hermana</l>
             <l>que hace años que murió,</l>
             <l>y á mi solo me dejo</l>
             <l>diez coches y una tartana;</l>
@@ -1414,7 +1410,7 @@
             <l rend="cursiva">tengo sesenta navíos.</l>
           </lg>
           <lg>
-            <l>Tenga en Flandes cuatro tiendas</l>
+            <l rend="indent">Tenga en Flandes cuatro tiendas</l>
             <l>de valor y mucho precio,</l>
             <l>en Francia tengo un comercio</l>
             <l>de algodones y de sedas,</l>
@@ -1426,7 +1422,7 @@
             <l rend="cursiva">dos millones en dinero.</l>
           </lg>
           <lg>
-            <l>Tengo una tesorería</l>
+            <l rend="indent">Tengo una tesorería</l>
             <l>de sesenta y seis por ciento</l>
             <l>dos mil molinos de viento</l>
             <l>tengo en estas cercanías.</l>
@@ -1438,7 +1434,7 @@
             <l rend="cursiva">diez vapores por el mar.</l>
           </lg>
           <lg>
-            <l>Doscientas yeguas castañas</l>
+            <l rend="indent">Doscientas yeguas castañas</l>
             <l>tengo en estas cercanías,</l>
             <l>dos mil caballos tenia</l>
             <l>en los prados de mi hermana</l>
@@ -1447,7 +1443,7 @@
             <l>y en el invierno conservo</l>
             <l>un puerco de veinte arrobas,</l>
             <l>vengo vestido de moda</l>
-            <l>y á nadie un cuarto debo.</l>
+            <l rend="cursiva">y á nadie un cuarto debo.</l>
           </lg>
         </div>
         <div type="colofon">

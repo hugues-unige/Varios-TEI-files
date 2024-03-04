@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../Schema/oddPliego_varios.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:alto="http://www.loc.gov/standards/alto/ns-v4#" xml:id="Varios_113">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Varios_113">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -11,8 +11,7 @@
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <authority role="rightsHolder">Bibliothèque Universitaire de
-                            Genève</authority>
+        <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
         <availability status="restricted">
           <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
         </availability>
@@ -29,7 +28,7 @@
           <publicationStmt>
             <publisher>El Abanico</publisher>
             <pubPlace ref="https://www.geonames.org/3128760/barcelona.html">Barcelona</pubPlace>
-            <date>[s.a]</date>
+            <date cert="low" when="1800-01-01">[s.a.]</date>
           </publicationStmt>
         </biblFull>
         <msDesc>
@@ -37,7 +36,8 @@
             <country>Suisse</country>
             <settlement>Genève</settlement>
             <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"/>
-                  </repository>
+            </repository>
+            <collection>Colección Varios</collection>
             <idno type="cote"/>
             <idno type="DOI">10.5281/zenodo.6577054</idno>
             <altIdentifier>
@@ -45,10 +45,18 @@
             </altIdentifier>
           </msIdentifier>
           <msContents>
-            <summary/>
+            <summary>Tres canciones</summary>
             <msItem>
-              <locus/>
-              <title/>
+              <locus>La insurrección en Cuba</locus>
+              <title>1</title>
+            </msItem>
+            <msItem>
+              <locus>2-3</locus>
+              <title>Las Zapatillas</title>
+            </msItem>
+            <msItem>
+              <locus>4</locus>
+              <title>Jota de la dolores</title>
             </msItem>
           </msContents>
           <physDesc>
@@ -70,9 +78,9 @@
               <decoNote type="lista_grabados">
                 <list>
                   <item corresp="grabado_v_113_1.xml">grabado_v_113_1</item>
-                  <item corresp="grabado_v_113_1.xml">grabado_v_113_2</item>
-                  <item corresp="grabado_v_113_1.xml">grabado_v_113_3</item>
-                  <item corresp="grabado_v_113_2.xml">grabado_v_113_4</item>
+                  <item corresp="grabado_v_113_2.xml">grabado_v_113_2</item>
+                  <item corresp="grabado_v_113_3.xml">grabado_v_113_3</item>
+                  <item corresp="grabado_v_113_4.xml">grabado_v_113_4</item>
                 </list>
               </decoNote>
             </decoDesc>
@@ -94,18 +102,17 @@
     </fileDesc>
     <encodingDesc>
       <projectDesc>
-        <p>Este archivo fue creado en el marco del proyecto Desenrollando el
-                            Cordel/Démêler le cordel/Untangling the cordel, dirigido por la
-                            profesora Constance Carta de la Universidad de Ginebra, con el apoyo de
-                            la Fundación filantrópica Famille Sandoz-Monique de Meuron.</p>
+        <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+          cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la Universidad
+          de Ginebra, con el apoyo de la Fundación filantrópica Famille Sandoz-Monique de
+          Meuron.</p>
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR non corregido</p>
+          <p>OCR no corregido</p>
         </correction>
         <normalization>
-          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto
-                                original.</p>
+          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
         </normalization>
         <punctuation>
           <p>Se conserva la puntuación original.</p>
@@ -127,9 +134,13 @@
     </profileDesc>
     <revisionDesc>
       <change when="2022-08-02" who="#PJ">Création du fichier TEI P5 et encodage du corps du
-                        texte</change>
+        texte</change>
+      <change when="2024-01-09" who="#EL">Add the IIIF links</change>
     </revisionDesc>
   </teiHeader>
+  <facsimile>
+    <graphic url="varios/Varios_113_1.jpg/full/200,/0/default.jpg"/>
+  </facsimile>
   <sourceDoc xml:id="automaticTranscription">
     <surface xml:id="Varios_113_1" type="page" cert="silver">
       <graphic url="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_113_1/full/full/0/default.jpg"/>
@@ -1201,81 +1212,88 @@
   <text>
     <body>
       <div>
-        <pb n="1" source="Varios_113_1.jpg" facs="fedora_Varios_113_1/full/full/0/default.jpg"/>
-        <fw type="impresorNum">Núm. 84</fw>
-        <div type="parte" n="1">
-          <head type="primer_titulo"><lb/>LA INSURRECCIÓN EN CUBA</head>
-          <lg>
-            <l>Ya vuelve á tener España</l>
-            <l>en Cuba revolución</l>
-            <l>que embarcan por momentos</l>
-            <l>tropas á discreción.</l>
-            <l>Vamos á Cuba</l>
-            <l>sin más tardar</l>
-            <l>allá con los negros</l>
-            <l>á pelear.</l>
-            <l>Que los españoles somos así,</l>
-            <l>antes que cobardes primero morir.</l>
-          </lg>
-          <lg>
-            <l>Al surcar los grandes mares</l>
-            <l>con un hermoso vapor</l>
-            <l>sólo el deseo anhela</l>
-            <l>de ver á la insurrección.</l>
-            <l>Al saltar en tierra</l>
-            <l>con ansiedad</l>
-            <l>con el deseo de pelear</l>
-            <l>que es el honor del español,</l>
-            <l>de acabar pronto la insurrección.</l>
-          </lg>
-          <lg>
-            <l>Aunque digan que es valiente</l>
-            <l>el cabecilla Maceo</l>
-            <l>también tenemos españoles</l>
-            <l>que son más valientes que él.</l>
-            <l>A los insurrectos no temerles no</l>
-            <l>que son cobardes, lo digo yo,</l>
-            <l>que cara á cara no saben batir</l>
-            <l>porque le temen mucho al morir.</l>
-          </lg>
-          <lg>
-            <l>Al llegar á aquellos montes</l>
-            <l>de maniguas que hay allí</l>
-            <l>á sacar los insurrectos</l>
-            <l>hasta vencer ó morir.</l>
-            <l>Que viva España</l>
-            <l>y todo español,</l>
-            <l>que viva siempre nuestro pabellón</l>
-            <l>que los españoles somos así</l>
-            <l>antes que entregarnos primero morir.</l>
-          </lg>
-          <lg>
-            <l>Se han presentado en Buenos Aires,</l>
-            <l>Rio Janciro y Brasil,</l>
-            <l>más de dos mil españoles</l>
-            <l>voluntarios para ir á Cuba á batir.</l>
-            <l>Dos vapores</l>
-            <l>los irán á buscar</l>
-            <l>para ir á cuba á pelear,</l>
-            <l>que es el honor del buen español</l>
-            <l>el defender su pabellón.</l>
-          </lg>
-          <lg>
-            <l>Aquella isla es española</l>
-            <l>descubierta por Colón,</l>
-            <l>y por eso nuestros soldados</l>
-            <l>defienden su pabellón.</l>
-            <l>Viva España y todo español</l>
-            <l>que viva siempre nuestra nación,</l>
-            <l>que los españoles somos así</l>
-            <l>antes que entregarnos</l>
-            <l>primero morir.</l>
-          </lg>
-          <pb n="2" source="Varios_113_2.jpg" facs="fedora_Varios_113_2/full/full/0/default.jpg"/>
-        </div>
-        <div type="parte" n="2">
-          <head type="titulo_cancion"><lb/>LAS ZAPATILLAS<lb/>MAZURCA</head>
-          <lg>
+        <div>
+          <pb n="1" source="Varios_113_1.jpg" facs="varios/Varios_113_1.jpg/"/>
+
+          <fw type="impresorNum">Núm. 84</fw>
+
+          <div n="1">
+            <head type="primer_titulo" rend="negrita"><lb/>LA INSURRECCIÓN EN CUBA</head>
+
+            <lg>
+              <l rend="indent">Ya vuelve á tener España</l>
+              <l>en Cuba revolución</l>
+              <l>que embarcan por momentos</l>
+              <l>tropas á discreción.</l>
+              <l rend="indent">Vamos á Cuba</l>
+              <l>sin más tardar</l>
+              <l>allá con los negros</l>
+              <l>á pelear.</l>
+              <l>Que los españoles somos así,</l>
+              <l>antes que cobardes primero morir.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Al surcar los grandes mares</l>
+              <l>con un hermoso vapor</l>
+              <l>sólo el deseo anhela</l>
+              <l>de ver á la insurrección.</l>
+              <l rend="indent">Al saltar en tierra</l>
+              <l>con ansiedad</l>
+              <l>con el deseo de pelear</l>
+              <l>que es el honor del español,</l>
+              <l>de acabar pronto la insurrección.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Aunque digan que es valiente</l>
+              <l>el cabecilla Maceo</l>
+              <l>también tenemos españoles</l>
+              <l>que son más valientes que él.</l>
+              <l rend="indent">A los insurrectos no temerles no</l>
+              <l>que son cobardes, lo digo yo,</l>
+              <l>que cara á cara no saben batir</l>
+              <l>porque le temen mucho al morir.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Al llegar á aquellos montes</l>
+              <l>de maniguas que hay allí</l>
+              <l>á sacar los insurrectos</l>
+              <l>hasta vencer ó morir.</l>
+              <l rend="indent">Que viva España</l>
+              <l>y todo español,</l>
+              <l>que viva siempre nuestro pabellón</l>
+              <l>que los españoles somos así</l>
+              <l>antes que entregarnos primero morir.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Se han presentado en Buenos Aires,</l>
+              <l>Rio Janciro y Brasil,</l>
+              <l>más de dos mil españoles</l>
+              <l>voluntarios para ir á Cuba á batir.</l>
+              <l rend="indent">Dos vapores</l>
+              <l>los irán á buscar</l>
+              <l>para ir á cuba á pelear,</l>
+              <l>que es el honor del buen español</l>
+              <l>el defender su pabellón.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Aquella isla es española</l>
+              <l>descubierta por Colón,</l>
+              <l>y por eso nuestros soldados</l>
+              <l>defienden su pabellón.</l>
+              <l rend="indent">Viva España y todo español</l>
+              <l>que viva siempre nuestra nación,</l>
+              <l>que los españoles somos así</l>
+              <l>antes que entregarnos</l>
+              <l>primero morir.</l>
+            </lg>
+          </div>
+
+          <div n="2">
+            <pb n="2" source="Varios_113_2.jpg" facs="varios/Varios_113_2.jpg/"/>
+
+            <head type="titulo_cancion" rend="negrita"><lb/>LAS ZAPATILLAS</head>
+            <head type="subtitulo"><lb/>MAZURCA</head>
+
             <l>—Aquí están los convidados</l>
             <l>los tendremos que recibir,</l>
             <l>adelante caballeros.</l>
@@ -1303,8 +1321,6 @@
             <l>—Las niñas sin novio</l>
             <l>venimos á la reunión</l>
             <l>con faldas de las de candil</l>
-          </lg>
-          <lg>
             <l>y mangas de las de farol,</l>
             <l>sombreros con plumas de mirlo</l>
             <l>y de pavo real</l>
@@ -1332,9 +1348,9 @@
             <l>mil gracias múltiples son</l>
             <l>y yo aseguro el plan</l>
             <l>en la Diputación.</l>
-          </lg>
-          <pb n="3" source="Varios_113_3.jpg" facs="fedora_Varios_113_3/full/full/0/default.jpg"/>
-          <lg>
+
+            <pb n="3" source="Varios_113_3.jpg" facs="varios/Varios_113_3.jpg/"/>
+
             <l>Y mi beldad seráfica</l>
             <l>encontrará un cónyuge</l>
             <l>que una á la mía su alma</l>
@@ -1355,8 +1371,6 @@
             <l>se pondrá coqueta y muy pizpirreta</l>
             <l>y al mirarla así</l>
             <l>tengo para mí que se vaya</l>
-          </lg>
-          <lg>
             <l>por ferrocarril</l>
             <l>teniendo un apéndice</l>
             <l>de ilustración y táctica</l>
@@ -1377,96 +1391,99 @@
             <l>como yo delire</l>
             <l>le hago que delire</l>
             <l>loco por mí de amor.</l>
-          </lg>
-        </div>
-        <div type="parte" n="3">
-          <head type="titulo_cancion"><lb/>CORO Y JUANITO</head>
-          <lg>
-            <l>¡Juanito!</l>
-            <l>mira que el distrito</l>
-            <l>necesita de tu protección,</l>
-            <l>repara,</l>
-            <l>que haces falta para</l>
-            <l>que se salve la Diputación.</l>
-            <l>—Si te atreves</l>
-            <l>te encargo que lleves</l>
-            <l>un cepillo y un escobón.</l>
-          </lg>
-          <lg>
-            <l>—Eso es un compromiso,</l>
-            <l>yo no puedo aceptar,</l>
-            <l>porque va á ser preciso</l>
-            <l>barrer y fregar.</l>
-            <l>—Juan, no seas zopenco,</l>
-            <l>tú debes aceptar</l>
-            <l>tá serás Diputao</l>
-            <l>y yo Diputá.</l>
-          </lg>
-        </div>
-        <div type="parte" n="4">
-          <head type="titulo_cancion"><lb/>JOTA</head>
-          <lg>
-            <l>El abogao pa sus pleitos,</l>
-            <l>las mujeres pa el fogón,</l>
-            <l>el melitar pa la guerra</l>
-            <l>y pa el campo el labrador.</l>
-            <l>Arre, borriquito,</l>
-            <l>vamos á la cuadra</l>
-            <l>que hay que comer pienso</l>
-            <l>y hay que beber agua.</l>
-            <l>Todas las mañanas</l>
-            <l>rezo á San Antón</l>
-            <l>pa que te liberte</l>
-            <l>de una indigestión.</l>
-            <l>A ver si me encuentra un novio</l>
-            <l>en Logroño el señor Juan.</l>
-            <l>Tengo que hacerle el encargo</l>
-            <l>porque me quiero casar.</l>
-            <l>¡Arre, coronela,</l>
-            <l>bue va el diputao</l>
-          </lg>
-          <lg>
-            <l>y si él me lo busca</l>
-            <l>pronto está encontrao!</l>
-            <l>Por sus influencias</l>
-            <l>yo me he de casar</l>
-            <l>con un señorito</l>
-            <l>de la capital.</l>
-            <l>Subida á lomos de un asno</l>
-            <l>Julia una marcha emprendió</l>
-            <l>en compañía de Pedro</l>
-            <l>y enredando ella cayó.</l>
-            <l>Para animalito</l>
-            <l>que ha caido el ama</l>
-            <l>y sean levantado</l>
-            <l>sus sayas y enaguas.</l>
-            <l>Pero con un brinco</l>
-            <l>de pié se quedó</l>
-            <l>pareciendo á Pedro</l>
-            <l>se ocultaba el sol.</l>
-          </lg>
-          <pb n="4" source="Varios_113_4.jpg" facs="fedora_Varios_113_4/full/full/0/default.jpg"/>
-        </div>
-        <div>
-          <head type="titulo_cancion"><lb/>JOTA DE LA DOLORES</head>
-          <lg>
-            <l>Aragón la mas famosa</l>
-            <l>es de España y sus regiones,</l>
-            <l>porque aquí se halló la Virgen</l>
-            <l>y aquí se canta la Jota.</l>
-            <l>Por una moza del barrio</l>
-            <l>Patricio está si se muere,</l>
-            <l>no diré cual es su nombre</l>
-            <l>que ella lo dirá si quiere.</l>
-            <l>Grande como el mismo sol</l>
-            <l>es la Jota de esta tierra,</l>
-            <l>si en amor luce sus iris</l>
-            <l>lanza rayos en la guerra.</l>
-          </lg>
-          <div>
-            <head type="titulo_estrofa">RONDALLA</head>
+
+            <div>
+              <head type="titulo_cancion"><lb/>CORO Y JUANITO</head>
+
+              <l>¡Juanito!</l>
+              <l>mira que el distrito</l>
+              <l>necesita de tu protección,</l>
+              <l>repara,</l>
+              <l>que haces falta para</l>
+              <l>que se salve la Diputación.</l>
+              <l>—Si te atreves</l>
+              <l>te encargo que lleves</l>
+              <l>un cepillo y un escobón.</l>
+              <l>—Eso es un compromiso,</l>
+              <l>yo no puedo aceptar,</l>
+              <l>porque va á ser preciso</l>
+              <l>barrer y fregar.</l>
+              <l>—Juan, no seas zopenco,</l>
+              <l>tú debes aceptar</l>
+              <l>tá serás Diputao</l>
+              <l>y yo Diputá.</l>
+            </div>
+
+            <div>
+              <head type="titulo_cancion"><lb/>JOTA</head>
+              <l rend="indent">El abogao pa sus pleitos,</l>
+              <l>las mujeres pa el fogón,</l>
+              <l>el melitar pa la guerra</l>
+              <l>y pa el campo el labrador.</l>
+              <l rend="indent">Arre, borriquito,</l>
+              <l>vamos á la cuadra</l>
+              <l>que hay que comer pienso</l>
+              <l>y hay que beber agua.</l>
+              <l>Todas las mañanas</l>
+              <l>rezo á San Antón</l>
+              <l>pa que te liberte</l>
+              <l>de una indigestión.</l>
+              <l rend="indent">A ver si me encuentra un novio</l>
+              <l>en Logroño el señor Juan.</l>
+              <l>Tengo que hacerle el encargo</l>
+              <l>porque me quiero casar.</l>
+              <l rend="indent">¡Arre, coronela,</l>
+              <l>bue va el diputao</l>
+              <l>y si él me lo busca</l>
+              <l>pronto está encontrao!</l>
+              <l>Por sus influencias</l>
+              <l>yo me he de casar</l>
+              <l>con un señorito</l>
+              <l>de la capital.</l>
+              <l rend="indent">Subida á lomos de un asno</l>
+              <l>Julia una marcha emprendió</l>
+              <l>en compañía de Pedro</l>
+              <l>y enredando ella cayó.</l>
+              <l rend="indent">Para animalito</l>
+              <l>que ha caido el ama</l>
+              <l>y sean levantado</l>
+              <l>sus sayas y enaguas.</l>
+              <l rend="indent">Pero con un brinco</l>
+              <l>de pié se quedó</l>
+              <l>pareciendo á Pedro</l>
+              <l>se ocultaba el sol.</l>
+            </div>
+          </div>
+
+          <div n="3">
+            <pb n="4" source="Varios_113_4.jpg" facs="varios/Varios_113_4.jpg/"/>
+
+            <head type="titulo_cancion" rend="negrita"><lb/>JOTA DE LA DOLORES</head>
+
             <lg>
-              <l>Por eso cantamos</l>
+              <l rend="indent">Aragón la mas famosa</l>
+              <l>es de España y sus regiones,</l>
+              <l>porque aquí se halló la Virgen</l>
+              <l>y aquí se canta la Jota.</l>
+            </lg>
+
+            <lg>
+              <l rend="indent">Por una moza del barrio</l>
+              <l>Patricio está si se muere,</l>
+              <l>no diré cual es su nombre</l>
+              <l>que ella lo dirá si quiere.</l>
+            </lg>
+
+            <lg>
+              <l rend="indent">Grande como el mismo sol</l>
+              <l>es la Jota de esta tierra,</l>
+              <l>si en amor luce sus iris</l>
+              <l>lanza rayos en la guerra.</l>
+            </lg>
+
+            <lg>
+              <head type="titulo_estrofa">RONDALLA</head>
+              <l rend="indent">Por eso cantamos</l>
               <l>los de Aragón</l>
               <l>cuando enamoramos</l>
               <l>tan dulce son,</l>
@@ -1475,39 +1492,38 @@
               <l>que vencer debemos</l>
               <l>ó bien morir.</l>
             </lg>
-          </div>
-          <div>
-            <head type="titulo_estrofa">TODOS</head>
+
             <lg>
-              <l>Quiere decir, quiere decir,</l>
+              <head type="titulo_estrofa">TODOS</head>
+              <l rend="indent">Quiere decir, quiere decir,</l>
               <l>que en guerra</l>
               <l>vencer debemos</l>
               <l>ó bien morir.</l>
             </lg>
+
+            <lg>
+              <head type="titulo_estrofa">CANCIONES PARA LA JOTA</head>
+              <l rend="indent">Una suegra subió al cielo</l>
+              <l>porque el Señor lo mandó,</l>
+              <l>y San Pedro por no abrirla</l>
+              <l>la dimisión presentó.</l>
+              <l rend="indent">Patricio y el Sargento</l>
+              <l>á una muchacha enamoran,</l>
+              <l>tendremos por fin de fiesta</l>
+              <l>el rosario de la Aurora.</l>
+              <l rend="indent">Carín para Cataluña</l>
+              <l>Dolores para Aragón,</l>
+              <l>todos juntos admiramos</l>
+              <l>al eminente Bretón.</l>
+              <l rend="indent">El militar y Patricio</l>
+              <l>después de tanta insistencia,</l>
+              <l>se quedarán sin Dolores</l>
+              <l>y á la luna de Valencia.</l>
+              <l rend="indent">Grande como el mismo sol, etc.</l>
+            </lg>
           </div>
         </div>
-        <div n="JOTA">
-          <head type="titulo_estrofa">CANCIONES PARA LA JOTA</head>
-          <lg>
-            <l>Una suegra subió al cielo</l>
-            <l>porque el Señor lo mandó,</l>
-            <l>y San Pedro por no abrirla</l>
-            <l>la dimisión presentó.</l>
-            <l>Patricio y el Sargento</l>
-            <l>á una muchacha enamoran,</l>
-            <l>tendremos por fin de fiesta</l>
-            <l>el rosario de la Aurora.</l>
-            <l>Carín para Cataluña</l>
-            <l>Dolores para Aragón,</l>
-            <l>todos juntos admiramos</l>
-            <l>al eminente Bretón.</l>
-            <l>El militar y Patricio</l>
-            <l>después de tanta insistencia,</l>
-            <l>se quedarán sin Dolores</l>
-            <l>y á la luna de Valencia.</l>
-            <l>Crande como el mismo sol, etc.</l>
-          </lg>
-        </div>
+
         <div type="colofon">
           <p><lb/>Imps. Hospital, 19 «El Abanico»</p>
         </div>

@@ -1,18 +1,17 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../Schema/oddPliego_varios.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:alto="http://www.loc.gov/standards/alto/ns-v4#" xml:id="Varios_056">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Varios_056">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>CANCION GRACIOSA DE LA LINDA ZAGALA.</title>
+        <title>CANCION GRACIOSA DE LA LINDA ZAGALA</title>
         <respStmt>
           <name/>
           <resp>Codificación TEI</resp>
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <authority role="rightsHolder">Bibliothèque Universitaire de
-                            Genève</authority>
+        <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
         <availability status="restricted">
           <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
         </availability>
@@ -21,15 +20,15 @@
         <biblFull>
           <titleStmt>
             <title type="titulo_completo">CANCION GRACIOSA DE LA LINDA ZAGALA.</title>
-            <title type="titulo_breve">CANCION GRACIOSA DE LA LINDA ZAGALA.</title>
+            <title type="titulo_breve"/>
           </titleStmt>
           <editionStmt>
             <p/>
           </editionStmt>
           <publicationStmt>
-            <publisher>José M. Marés</publisher>
+            <publisher>José María Marés</publisher>
             <pubPlace ref="https://www.geonames.org/3117735/madrid.html">Madrid</pubPlace>
-            <date cert="high">1858</date>
+            <date cert="high" when="1858-01-01">1858</date>
           </publicationStmt>
         </biblFull>
         <msDesc>
@@ -37,7 +36,8 @@
             <country>Suisse</country>
             <settlement>Genève</settlement>
             <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"/>
-                  </repository>
+            </repository>
+            <collection>Colección Varios</collection>
             <idno type="cote"/>
             <idno type="DOI">10.5281/zenodo.6557719</idno>
             <altIdentifier>
@@ -66,10 +66,11 @@
               </layoutDesc>
             </objectDesc>
             <decoDesc>
-              <summary n="1">Dos grabados (p.1 + p.3) </summary>
+              <summary n="2">Dos grabados (p.1, 3) </summary>
               <decoNote type="lista_grabados">
                 <list>
                   <item corresp="grabado_v_056_1.xml">grabado_v_056_1</item>
+                  <item corresp="grabado_v_056_2.xml">grabado_v_056_2</item>
                 </list>
               </decoNote>
             </decoDesc>
@@ -87,18 +88,17 @@
     </fileDesc>
     <encodingDesc>
       <projectDesc>
-        <p>Este archivo fue creado en el marco del proyecto Desenrollando el
-                            Cordel/Démêler le cordel/Untangling the cordel, dirigido por la
-                            profesora Constance Carta de la Universidad de Ginebra, con el apoyo de
-                            la Fundación filantrópica Famille Sandoz-Monique de Meuron.</p>
+        <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+          cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la Universidad
+          de Ginebra, con el apoyo de la Fundación filantrópica Famille Sandoz-Monique de
+          Meuron.</p>
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR non corregido</p>
+          <p>OCR no corregido</p>
         </correction>
         <normalization>
-          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto
-                                original.</p>
+          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
         </normalization>
         <punctuation>
           <p>Se conserva la puntuación original.</p>
@@ -120,9 +120,13 @@
     </profileDesc>
     <revisionDesc>
       <change when="2022-06-02" who="#PJ">Création du fichier TEI P5 et encodage du corps du
-                        texte</change>
+        texte</change>
+      <change when="2024-01-09" who="#EL">Add the IIIF links</change>
     </revisionDesc>
   </teiHeader>
+  <facsimile>
+    <graphic url="varios/Varios_056_1.jpg/full/200,/0/default.jpg"/>
+  </facsimile>
   <sourceDoc xml:id="automaticTranscription">
     <surface xml:id="Varios_056_1" type="page" cert="silver">
       <graphic url="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_056_1/full/full/0/default.jpg"/>
@@ -1096,288 +1100,332 @@
     <body>
       <div>
         <div>
-          <pb n="1" source="Varios_056_1.jpg" facs="fedora_Varios_056_1/full/full/0/default.jpg"/>
-          <head type="primer_titulo"><lb/>CANCION GRACIOS<lb/>DE<lb/>LA LINDA ZAGALA.</head>
-          <fw type="impresorNum"/>
-          <lg>
-            <l>Junto á un arroyuelo</l>
-            <l>á una zagala ví</l>
-            <l>y al contemplar su gracia</l>
-            <l>todo me sorprendí.</l>
-          </lg>
-          <lg>
-            <l>y al verse sorprendida</l>
-            <l>la asusté, la asusté.</l>
-          </lg>
-          <lg>
-            <l>Al ruido que yo hice</l>
-            <l>al acercarme alli,</l>
-            <l>muy asustada dice:</l>
-            <l>¡ay de mí! ¡ay de mí!</l>
-          </lg>
-          <lg>
-            <l>Por fin me acerqué á ella,</l>
-            <l>de un brazo la cogí;</l>
-            <l>me mira y se sonrie</l>
-            <l>llena de gracias mil.</l>
-          </lg>
-          <lg>
-            <l>Al verla tan graciosa,</l>
-            <l>tan llena de beldad,</l>
-            <l>la dije yo: mi diosa,</l>
-            <l>¿ te has sosegado ya?</l>
-          </lg>
-          <lg>
-            <l>—Tú has de ser mi amada,</l>
-            <l>con un amor sin fin;</l>
-            <l>ella respondió entonces :</l>
-            <l>eso sí, eso sí.</l>
-          </lg>
-          <lg>
-            <l>Estaba entretenida</l>
-            <l>regando su vergel;</l>
-          </lg>
-          <lg>
-            <l>De una mano la tomo</l>
-            <l>y ella dice temblando:</l>
-            <l>tanto me aprieta usted,</l>
-            <l>que me hace mucho daño.</l>
-          </lg>
-          <pb n="2" source="Varios_056_2.jpg" facs="fedora_Varios_056_2/full/full/0/default.jpg"/>
-          <lg>
-            <l>La dije: pastorcita,</l>
-            <l>háblame sin temor,</l>
-            <l>¿me quieres ? y responde:</l>
-            <l>si señor, si señor.</l>
-          </lg>
-          <lg>
-            <l>Frente de mí sentada</l>
-            <l>risueña me miró,</l>
-            <l>y dice sosegada:</l>
-            <l>¡ ay amor! ¡ay amor!</l>
-          </lg>
-          <lg>
-            <l>Me puse á obsequiarla</l>
-            <l>con flores á escoger;</l>
-            <l>de rosas encarnadas</l>
-            <l>le parecieron bien.</l>
-          </lg>
-          <lg>
-            <l>En fin, agradecida</l>
-            <l>y llena de placer,</l>
-            <l>dice: tengo mi vida</l>
-            <l>para usted, para usted.</l>
-          </lg>
-          <lg>
-            <l>La hice un ramillete,</l>
-            <l>y al írselo á prender,</l>
-            <l>muy graciosa me dice:</l>
-            <l>prenda usted, prenda usted.</l>
-          </lg>
-          <lg>
-            <l>Preguntando la digo</l>
-            <l>con gran suavidad:</l>
-            <l>¿para quién has nacido,</l>
-            <l>bellísima deidad?</l>
-          </lg>
-          <lg>
-            <l>Dime, claro lucero,</l>
-            <l>gracioso alelí:</l>
-            <l>y ella respondió luego:</l>
-            <l>para tí, para tí.</l>
-          </lg>
-          <lg>
-            <l>Sin duda que turbado</l>
-            <l>no se lo prendí bien;</l>
-            <l>se le cayó en el suelo</l>
-            <l>y yo se lo alcancé.</l>
-          </lg>
-          <lg>
-            <l>Sobre la verde alfombra¬</l>
-            <l>se sienta, y con rubor,</l>
-            <l>cuanto mas la miraba</l>
-            <l>mejor me pareció.</l>
-          </lg>
-          <lg>
-            <l>Pero al verificarlo</l>
-            <l>la tropecé en el pie,</l>
-            <l>y sonrojada dice:</l>
-            <l>¡ay qué malo es usted!</l>
-          </lg>
-          <lg>
-            <l>Sus mejillas preciosas</l>
-            <l>exaltaban mi amor,</l>
-            <l>y yo entre mí decia:</l>
-            <l>¡ay pasion ! ¡ay pasion!</l>
-          </lg>
-          <lg>
-            <l>No te vayas, Dien mio,</l>
-            <l>no me abandones, no,</l>
-            <l>atiende á mis fatigas,</l>
-            <l>que por tí sufro yo.</l>
-            <l>Mira que mi alvedrío</l>
-            <l>á tí ya se rindió:</l>
-            <l>y ella luego me dice:</l>
-            <l>no te olvidaré, nee</l>
-          </lg>
-          <lg>
-            <l>La dije en este caso:</l>
-            <l>ha sido sin pensar ;</l>
-            <l>la convenzo, y se cree</l>
-            <l>que fué casualidad.</l>
-          </lg>
-          <lg>
-            <l>A un sitio retirado</l>
-            <l>que desde alli se vé,</l>
-            <l>la convido, y me dice:</l>
-            <l>epara qué? ¿para qué?</l>
-          </lg>
-          <lg>
-            <l>Adios, linda zagala,</l>
-            <l>que fiel te conocí,</l>
-            <l>triste y desconsolado</l>
-            <l>ya me ausento de tí.</l>
-          </lg>
-          <lg>
-            <l>Despues de convidarla</l>
-            <l>con fina voluntad,</l>
-            <l>dos mil gracias me daba</l>
-            <l>con afabilidad.</l>
-          </lg>
-          <lg>
-            <l>Los dos nos despedimos</l>
-            <l>dando muestras de amor,</l>
-            <l>y á una nos dijimos :</l>
-            <l>adios, adios, adios.</l>
-          </lg>
+          <div>
+            <pb n="1" source="Varios_056_1.jpg" facs="varios/Varios_056_1.jpg/"/>
+
+            <fw type="impresorNum">(Núm. 216)</fw>
+
+            <head type="primer_titulo"><hi rend="negrita"><lb/>CANCION GRACIOS</hi><lb/>DE<hi rend="negrita"><lb/>LA LINDA ZAGALA.</hi></head>
+
+            <lg>
+              <l rend="indent">Junto á un arroyuelo</l>
+              <l>á una zagala ví</l>
+              <l>y al contemplar su gracia</l>
+              <l>todo me sorprendí.</l>
+            </lg>
+
+            <lg>
+              <l rend="indent">Al ruido que yo hice</l>
+              <l>al acercarme alli,</l>
+              <l>muy asustada dice:</l>
+              <l>¡ay de mí! ¡ay de mí!</l>
+            </lg>
+
+            <lg>
+              <l rend="indent">Al verla tan graciosa,</l>
+              <l>tan llena de beldad,</l>
+              <l>la dije yo: mi diosa,</l>
+              <l>¿ te has sosegado ya?</l>
+            </lg>
+
+            <lg>
+              <l rend="indent">Estaba entretenida</l>
+              <l>regando su vergel;</l>
+              <l>y al verse sorprendida</l>
+              <l>la asusté, la asusté.</l>
+            </lg>
+
+            <lg>
+              <l rend="indent">Por fin me acerqué á ella,</l>
+              <l>de un brazo la cogí;</l>
+              <l>me mira y se sonrie</l>
+              <l>llena de gracias mil.</l>
+            </lg>
+
+            <lg>
+              <l rend="indent">—Tú has de ser mi amada,</l>
+              <l>con un amor sin fin;</l>
+              <l>ella respondió entonces :</l>
+              <l>eso sí, eso sí.</l>
+            </lg>
+
+            <lg>
+              <l rend="indent">De una mano la tomo</l>
+              <l>y ella dice temblando:</l>
+              <l>tanto me aprieta usted,</l>
+              <l>que me hace mucho daño.</l>
+            </lg>
+
+            <pb n="2" source="Varios_056_2.jpg" facs="varios/Varios_056_2.jpg/"/>
+
+            <lg>
+              <l rend="indent">La dije: pastorcita,</l>
+              <l>háblame sin temor,</l>
+              <l>¿me quieres ? y responde:</l>
+              <l>si señor, si señor.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Frente de mí sentada</l>
+              <l>risueña me miró,</l>
+              <l>y dice sosegada:</l>
+              <l>¡ ay amor! ¡ay amor!</l>
+            </lg>
+            <lg>
+              <l rend="indent">Me puse á obsequiarla</l>
+              <l>con flores á escoger;</l>
+              <l>de rosas encarnadas</l>
+              <l>le parecieron bien.</l>
+            </lg>
+            <lg>
+              <l rend="indent">En fin, agradecida</l>
+              <l>y llena de placer,</l>
+              <l>dice: tengo mi vida</l>
+              <l>para usted, para usted.</l>
+            </lg>
+            <lg>
+              <l rend="indent">La hice un ramillete,</l>
+              <l>y al írselo á prender,</l>
+              <l>muy graciosa me dice:</l>
+              <l>prenda usted, prenda usted.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Preguntando la digo</l>
+              <l>con gran suavidad:</l>
+              <l>¿para quién has nacido,</l>
+              <l>bellísima deidad?</l>
+            </lg>
+            <lg>
+              <l rend="indent">Dime, claro lucero,</l>
+              <l>gracioso alelí:</l>
+              <l>y ella respondió luego:</l>
+              <l>para tí, para tí.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Sin duda que turbado</l>
+              <l>no se lo prendí bien;</l>
+              <l>se le cayó en el suelo</l>
+              <l>y yo se lo alcancé.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Sobre la verde alfombra¬</l>
+              <l>se sienta, y con rubor,</l>
+              <l>cuanto mas la miraba</l>
+              <l>mejor me pareció.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Pero al verificarlo</l>
+              <l>la tropecé en el pie,</l>
+              <l>y sonrojada dice:</l>
+              <l>¡ay qué malo es usted!</l>
+            </lg>
+            <lg>
+              <l rend="indent">Sus mejillas preciosas</l>
+              <l>exaltaban mi amor,</l>
+              <l>y yo entre mí decia:</l>
+              <l>¡ay pasion ! ¡ay pasion!</l>
+            </lg>
+            <lg>
+              <l rend="indent">No te vayas, Dien mio,</l>
+              <l>no me abandones, no,</l>
+              <l>atiende á mis fatigas,</l>
+              <l>que por tí sufro yo.</l>
+              <l>Mira que mi alvedrío</l>
+              <l>á tí ya se rindió:</l>
+              <l>y ella luego me dice:</l>
+              <l>no te olvidaré, nee</l>
+            </lg>
+            <lg>
+              <l rend="indent">La dije en este caso:</l>
+              <l>ha sido sin pensar ;</l>
+              <l>la convenzo, y se cree</l>
+              <l>que fué casualidad.</l>
+            </lg>
+            <lg>
+              <l rend="indent">A un sitio retirado</l>
+              <l>que desde alli se vé,</l>
+              <l>la convido, y me dice:</l>
+              <l>epara qué? ¿para qué?</l>
+            </lg>
+            <lg>
+              <l rend="indent">Adios, linda zagala,</l>
+              <l>que fiel te conocí,</l>
+              <l>triste y desconsolado</l>
+              <l>ya me ausento de tí.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Despues de convidarla</l>
+              <l>con fina voluntad,</l>
+              <l>dos mil gracias me daba</l>
+              <l>con afabilidad.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Los dos nos despedimos</l>
+              <l>dando muestras de amor,</l>
+              <l>y á una nos dijimos :</l>
+              <l>adios, adios, adios.</l>
+            </lg>
+          </div>
+
+          <div>
+            <pb n="3" source="Varios_056_3.jpg" facs="varios/Varios_056_3.jpg/"/>
+
+            <head type="titulo_parte" rend="negrita"><lb/>CURIOSA RELACION</head>
+            <head type="subtitulo_parte"><hi rend="cursiva"><lb/>en que se da noticia del robo de un
+                santo Cristo de plata con peso de once<lb/>libras, estraido del cuarto de dos
+                escribanos, por un chulo que dejó escrias<lb/>sobre la mesa las
+              siguientes</hi><lb/>DÉCIMAS.</head>
+
+            <lg rend="cursiva">
+              <l rend="indent">Venid conmigo, mi Dios,</l>
+              <l>no estais bien, Señor, aqui;</l>
+              <l>si un escriba os puso asi,</l>
+              <l>¿cuál, mi Bien, os pondrán dos?</l>
+              <l>Por no dejaros á Vos</l>
+              <l>con esta gente metido,</l>
+              <l>mi discurso ha prevenido,</l>
+              <l>ser mejor, mi Dueño amado,</l>
+              <l>que esteis conmigo robado</l>
+              <l>que no con ellos vendido.</l>
+            </lg>
+
+            <lg>
+              <l rend="indent">Sin su Dios, qué puede el hombre?</l>
+              <l>humo, polvo, sombra, nada,</l>
+              <l>pues el alma desmayada</l>
+              <l>nada puede sin su Nombre:</l>
+              <l>siendo asi, nadie se asombre</l>
+              <l>que busque mi alivio en Vos;</l>
+              <l>y asi con paso veloz</l>
+              <l>me amparo de tu riqueza;</l>
+              <l>ven, Remedio de pobreza,</l>
+              <l rend="cursiva">venid conmigo, mi Dios.</l>
+            </lg>
+
+            <lg>
+              <l rend="indent">Entre el enredo y mentira,</l>
+              <l>entre textos fullagueros,</l>
+              <l>entre plumas y tinteros</l>
+              <l>donde la verdad espira,</l>
+              <l>triste mi pesar se admira,</l>
+              <l>y el sufrimiento perdi;</l>
+              <l>por eso digo entre mi:</l>
+              <l>burlaremos las maldades;</l>
+              <l>pues siendo Dios de verdades</l>
+              <l rend="cursiva">no estais bien, Señor, aqui.</l>
+            </lg>
+
+            <lg>
+              <l rend="indent">Siendo Vos la Santidad</l>
+              <l>de blasfemo os acusaron,</l>
+
+              <pb n="4" source="Varios_056_4.jpg" facs="varios/Varios_056_4.jpg/"/>
+
+              <l>de rey fingido trataron</l>
+              <l>tu divina Magestad;</l>
+              <l>y ¿de dónde tal maldad?</l>
+              <l>de un letrado baladí;</l>
+              <l>su furor, su frenesí</l>
+              <l>y sus discursos malvados.</l>
+              <l>Huid, Señor, de letrados,</l>
+              <l rend="cursiva">si un letrado os puso asi.</l>
+            </lg>
+
+            <lg>
+              <l rend="indent">Si de espinas coronado</l>
+              <l>os contemplo de tal modo,</l>
+              <l>con el pecho roto todo</l>
+              <l>y en la dura Cruz clavado,</l>
+              <l>siento tus penas, Amado,</l>
+              <l>mas yo miraré por Vos,</l>
+              <l>pues de gente tan atroz</l>
+              <l>es mi intento separaros;</l>
+              <l>si uno pudo ultrajaros,</l>
+              <l rend="cursiva">¿cuál, mi Bien, os pondrán dos?</l>
+            </lg>
+
+            <lg>
+              <l rend="indent">Mis afectos abrasados</l>
+              <l>contemplan tu imágen grata;</l>
+              <l>hermoso sois como plata,</l>
+              <l>regalo de enamorados;</l>
+              <l>guárdense pues los letrados,</l>
+              <l>que esta vez les pego coz,</l>
+              <l>pues yo solo contra dos</l>
+              <l>espero andar tan listo,</l>
+              <l>que los dejaré sin Cristo</l>
+              <l rend="cursiva">por no dejaros á Vos.</l>
+            </lg>
+
+            <lg>
+              <l rend="indent">Aunque tu humilde Grandeza</l>
+              <l>buscó los bajos empleos,</l>
+              <l>y trató con fariscos</l>
+              <l>por convencer su torpeza,</l>
+              <l>no permite mi fineza</l>
+              <l>verte aqui tan deslucido:</l>
+              <l>yo por Vos fuí redimido,</l>
+              <l>y tendré por desamor</l>
+              <l>dejaros aqui, Señor,</l>
+              <l rend="cursiva">con esta gente metido.</l>
+            </lg>
+
+            <lg>
+              <l rend="indent">El remedio está en la mano,</l>
+              <l>y Vos, Señor, lo enseñasteis:</l>
+              <l>hácia el Ejipto os pasasteis</l>
+              <l>huyendo de aquel tirano;</l>
+              <l>un ladron fue mas humano</l>
+              <l>que el letrado tan sabido;</l>
+              <l>el remedio es conocido,</l>
+              <l>y es que yo te salvaré,</l>
+              <l>pues este es el medio que</l>
+              <l rend="cursiva">mi discurso ha preuenido.</l>
+            </lg>
+
+            <lg>
+              <l rend="indent">¿Qué podeis Vos esperar</l>
+              <l>de los que buscan litigios,</l>
+              <l>sino maldades y vicios?</l>
+              <l>¿qué otra cosa pueden dar?</l>
+              <l>De estos quiérote vengar,</l>
+              <l>y te veré rescatado;</l>
+              <l>por no vivir con letrado</l>
+              <l>enseñaste en tu pasion,</l>
+              <l>perecer con un ladron</l>
+              <l rend="cursiva">ser mejor, mi Dios amado,</l>
+            </lg>
+
+            <lg>
+              <l rend="indent">Si tu voluntad abierta</l>
+              <l>muy encendida en amores,</l>
+              <l>á los tristes pecadores</l>
+              <l>les das siempre franca puerta,</l>
+              <l>que á Tí, Señor, me convierta,</l>
+              <l>de amores soy obligado;</l>
+              <l>y asi habiéndote hallado</l>
+              <l>en tal lugar de dolor,</l>
+              <l>tengo, Señor, por mejor</l>
+              <l rend="cursiva">que esteis conmigo robado.</l>
+            </lg>
+
+            <lg>
+              <l rend="indent">Eres Padre de consuelos</l>
+              <l>dulce amparo de aflijidos,</l>
+              <l>quien ampara á los caidos</l>
+              <l>y remedia nuestros duelos;</l>
+              <l>por tanto son mis desvelos,</l>
+              <l>y asi os suplico rendido,</l>
+              <l>que no os mostreis ofendidó,</l>
+              <l>pues siempre es mas acertado</l>
+              <l>ser de un platero comprado</l>
+              <l rend="cursiva">que no con ellos vendido.</l>
+            </lg>
+          </div>
         </div>
-        <pb n="3" source="Varios_056_3.jpg" facs="fedora_Varios_056_3/full/full/0/default.jpg"/>
-        <div>
-          <head type="subtitulo_parte"><lb/>CURIOSA RELACION</head>
-          <head type="subtitulo_parte" rend="cursiva"><lb/>en que se da noticia del robo de un santo Cristo de plata con peso de once<lb/>libras, estraido del cuarto de dos escribanos, por un chulo que dejó escrias<lb/>sobre la mesa las siguientes</head>
-          <head type="subtitulo_parte"><lb/>DÉCIMAS.</head>
-          <lg rend="cursiva">
-            <l>Venid conmigo, mi Dios,</l>
-            <l>no estais bien, Señor, aqui;</l>
-            <l>si un escriba os puso asi,</l>
-            <l>¿cuál, mi Bien, os pondrán dos?</l>
-            <l>Por no dejaros á Vos</l>
-            <l>con esta gente metido,</l>
-            <l>mi discurso ha prevenido,</l>
-            <l>ser mejor, mi Dueño amado,</l>
-            <l>que esteis conmigo robado</l>
-            <l>que no con ellos vendido.</l>
-            <l>Sin su Dios, qué puede el hombre?</l>
-            <l>humo, polvo, sombra, nada,</l>
-            <l>pues el alma desmayada</l>
-            <l>nada puede sin su Nombre:</l>
-            <l>siendo asi, nadie se asombre</l>
-            <l>que busque mi alivio en Vos;</l>
-          </lg>
-          <lg>
-            <l>y asi con paso veloz</l>
-            <l>me amparo de tu riqueza;</l>
-            <l>ven, Remedio de pobreza,</l>
-            <l rend="cursiva">venid conmigo, mi Dios.</l>
-            <l>Entre el enredo y mentira,</l>
-            <l>entre textos fullagueros,</l>
-            <l>entre plumas y tinteros</l>
-            <l>donde la verdad espira,</l>
-            <l>triste mi pesar se admira,</l>
-            <l>y el sufrimiento perdi;</l>
-            <l>por eso digo entre mi:</l>
-            <l>burlaremos las maldades;</l>
-            <l>pues siendo Dios de verdades</l>
-            <l rend="cursiva">no estais bien, Señor, aqui.</l>
-            <l>Siendo Vos la Santidad</l>
-            <l>de blasfemo os acusaron,</l>
-          </lg>
-          <pb n="4" source="Varios_056_4.jpg" facs="fedora_Varios_056_4/full/full/0/default.jpg"/>
-          <lg>
-            <l>de rey fingido trataron</l>
-            <l>tu divina Magestad;</l>
-            <l>y ¿de dónde tal maldad?</l>
-            <l>de un letrado baladí;</l>
-            <l>su furor, su frenesí</l>
-            <l>y sus discursos malvados.</l>
-            <l>Huid, Señor, de letrados,</l>
-            <l rend="cursiva">si un letrado os puso asi.</l>
-            <l>Si de espinas coronado</l>
-            <l>os contemplo de tal modo,</l>
-            <l>con el pecho roto todo</l>
-            <l>y en la dura Cruz clavado,</l>
-            <l>siento tus penas, Amado,</l>
-            <l>mas yo miraré por Vos,</l>
-            <l>pues de gente tan atroz</l>
-            <l>es mi intento separaros;</l>
-            <l>si uno pudo ultrajaros,</l>
-            <l rend="cursiva">¿cuál, mi Bien, os pondrán do?</l>
-            <l>Mis afectos abrasados</l>
-            <l>contemplan tu imágen grata;</l>
-            <l>hermoso sois como plata,</l>
-            <l>regalo de enamorados;</l>
-            <l>guárdense pues los letrados,</l>
-            <l>que esta vez les pego coz,</l>
-            <l>pues yo solo contra dos</l>
-            <l>espero andar tan listo,</l>
-            <l>que los dejaré sin Cristo</l>
-            <l rend="cursiva">por no dejaros á Vos,</l>
-            <l>Aunque tu humilde Grandeza</l>
-            <l>buscó los bajos empleos,</l>
-            <l>y trató con fariscos</l>
-            <l>por convencer su torpeza,</l>
-            <l>no permite mi fineza</l>
-            <l>verte aqui tan deslucido:</l>
-            <l>yo por Vos fuí redimido,</l>
-            <l>y tendré por desamor</l>
-            <l>dejaros aqui, Señor,</l>
-            <l rend="cursiva">con esta gente metido.</l>
-            <l>El remedio está en la mano,</l>
-          </lg>
-          <lg>
-            <l>y Vos, Señor, lo enseñasteis:</l>
-            <l>hácia el Ejipto os pasasteis</l>
-            <l>huyendo de aquel tirano;</l>
-            <l>un ladron fue mas humano</l>
-            <l>que el letrado tan sabido;</l>
-            <l>el remedio es conocido,</l>
-            <l>y es que yo te salvaré,</l>
-            <l>pues este es el medio que</l>
-            <l rend="cursiva">mi discurso ha preuenido.</l>
-            <l>¿Qué podeis Vos esperar</l>
-            <l>de los que buscan litigios,</l>
-            <l>sino maldades y vicios?</l>
-            <l>¿qué otra cosa pueden dar?</l>
-            <l>De estos quiérote vengar,</l>
-            <l>y te veré rescatado;</l>
-            <l>por no vivir con letrado</l>
-            <l>enseñaste en tu pasion,</l>
-            <l>perecer con un ladron</l>
-            <l rend="cursiva">ser mejor, mi Dios amado,</l>
-            <l>Si tu voluntad abierta</l>
-            <l>muy encendida en amores,</l>
-            <l>á los tristes pecadores</l>
-            <l>les das siempre franca puerta,</l>
-            <l>que á Tí, Señor, me convierta,</l>
-            <l>de amores soy obligado;</l>
-            <l>y asi habiéndote hallado</l>
-            <l>en tal lugar de dolor,</l>
-            <l>tengo, Señor, por mejor</l>
-            <l rend="cursiva">que esteis conmigo robado.</l>
-            <l>Eres Padre de consuelos</l>
-            <l>dulce amparo de aflijidos,</l>
-            <l>quien ampara á los caidos</l>
-            <l>y remedia nuestros duelos;</l>
-            <l>por tanto son mis desvelos,</l>
-            <l>y asi os suplico rendido,</l>
-            <l>que no os mostreis ofendidó,</l>
-            <l>pues siempre es mas acertado</l>
-            <l>ser de un platero comprado</l>
-            <l rend="cursiva">que no con ellos vendido.</l>
-          </lg>
-        </div>
+
         <div type="colofon">
-          <p><lb/>MADRID,—1858.<lb/>Imprenta á cargo de José M. Marés, plazuela de la Cebada n°.96.</p>
+          <p><lb/>MADRID,—1858.<lb/>Imprenta á cargo de José M. Marés, plazuela de la Cebada
+            n°.96.</p>
         </div>
       </div>
     </body>

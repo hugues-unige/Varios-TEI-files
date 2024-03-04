@@ -1,19 +1,17 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../Schema/oddPliego_varios.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:alto="http://www.loc.gov/standards/alto/ns-v4#" xml:id="Varios_142">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Varios_142">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>TROBOS DE AMOR, CATALANS PER CANTAR Á LAS NOVAS LOS FADRINS QUE LAS
-                              ESTIMAN.</title>
+        <title>TROBOS DE AMOR, CATALANS</title>
         <respStmt>
           <name/>
           <resp>Codificación TEI</resp>
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <authority role="rightsHolder">Bibliothèque Universitaire de
-                              Genève</authority>
+        <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
         <availability status="restricted">
           <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
         </availability>
@@ -21,17 +19,17 @@
       <sourceDesc>
         <biblFull>
           <titleStmt>
-            <title type="titulo_completo">TROBOS DE AMOR, CATALANS PER
-                                          CANTAR Á LAS NOVAS LOS FADRINS QUE LAS ESTIMAN.</title>
+            <title type="titulo_completo">TROBOS DE AMOR, CATALANS PER CANTAR Á LAS NOVAS LOS
+              FADRINS QUE LAS ESTIMAN.</title>
             <title type="titulo_breve">TROBOS DE AMOR, CATALANS</title>
           </titleStmt>
           <editionStmt>
             <p/>
           </editionStmt>
           <publicationStmt>
-            <publisher>Narcis Roca</publisher>
+            <publisher>Narciso Roca</publisher>
             <pubPlace ref="https://www.geonames.org/3111933/reus.html">Reus</pubPlace>
-            <date cert="high">1866</date>
+            <date cert="high" when="1866-01-01">1866</date>
           </publicationStmt>
         </biblFull>
         <msDesc>
@@ -39,7 +37,8 @@
             <country>Suisse</country>
             <settlement>Genève</settlement>
             <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"/>
-                                    </repository>
+            </repository>
+            <collection>Colección Varios</collection>
             <idno type="cote"/>
             <idno type="DOI">10.5281/zenodo.6586619</idno>
             <altIdentifier>
@@ -97,18 +96,17 @@
     </fileDesc>
     <encodingDesc>
       <projectDesc>
-        <p>Este archivo fue creado en el marco del proyecto Desenrollando el
-                              Cordel/Démêler le cordel/Untangling the cordel, dirigido por la
-                              profesora Constance Carta de la Universidad de Ginebra, con el apoyo
-                              de la Fundación filantrópica Famille Sandoz-Monique de Meuron.</p>
+        <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+          cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la Universidad
+          de Ginebra, con el apoyo de la Fundación filantrópica Famille Sandoz-Monique de
+          Meuron.</p>
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR non corregido</p>
+          <p>OCR no corregido</p>
         </correction>
         <normalization>
-          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto
-                                    original.</p>
+          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
         </normalization>
         <punctuation>
           <p>Se conserva la puntuación original.</p>
@@ -117,7 +115,7 @@
     </encodingDesc>
     <profileDesc>
       <langUsage>
-        <language ident="es">Español</language>
+        <language ident="ca">Catalán</language>
       </langUsage>
       <textClass>
         <keywords xml:base="http://datos.bne.es/tema/">
@@ -129,10 +127,14 @@
       </textClass>
     </profileDesc>
     <revisionDesc>
-      <change when="2022-09-15" who="#PJ">Création du fichier TEI P5 et encodage du
-                        corps du texte</change>
+      <change when="2022-09-15" who="#PJ">Création du fichier TEI P5 et encodage du corps du
+        texte</change>
+      <change when="2024-01-09" who="#EL">Add the IIIF links</change>
     </revisionDesc>
   </teiHeader>
+  <facsimile>
+    <graphic url="varios/Varios_142_1.jpg/full/200,/0/default.jpg"/>
+  </facsimile>
   <sourceDoc xml:id="automaticTranscription">
     <surface xml:id="Varios_142_1" type="page" cert="silver">
       <graphic url="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_142_1/full/full/0/default.jpg"/>
@@ -1102,8 +1104,7 @@
       <zone xml:id="Varios_142_4_BT226_5" n="5" type="MainZone" subtype="none" points="230,2093 230,2235 1720,2235 1720,2093 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_142_4/230,2093,1490,142/full/0/default" corresp="MainZone">
         <zone xml:id="_BT226_5_LT83_1" type="DefaultLine" subtype="none" points="1256,2094 1254,2094 1252,2094 1210,2105 1177,2096 1175,2096 1173,2096 1171,2096 1142,2109 1138,2111 1129,2109 1076,2094 1074,2094 1072,2094 1070,2094 1041,2107 1039,2109 1030,2107 967,2094 965,2094 894,2105 883,2107 877,2105 842,2094 833,2094 811,2094 798,2094 769,2105 765,2105 285,2098 285,2142 282,2153 337,2168 339,2168 565,2173 568,2173 982,2166 995,2177 995,2179 997,2179 1000,2179 1002,2179 1004,2179 1006,2179 1024,2168 1408,2186 1410,2186 1544,2175 1563,2188 1566,2188 1568,2188 1570,2188 1686,2175 1688,2164 1688,2116 1675,2103 1675,2101 1673,2101 1671,2101 1379,2096 1377,2096 1375,2096 1331,2111 1324,2114 1318,2111 1259,2094 1256,2094 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_142_4/282,2094,1406,94/full/0/default" corresp="DefaultLine">
           <path xml:id="Varios_142_4_BT226_5_LT83_1_1" points="287,2144 1689,2165 " corresp="DefaultLine"/>
-          <line>En casa Joan Grau hi ha gran assurtit de romanssos, sainetes,
-                                    historias</line>
+          <line>En casa Joan Grau hi ha gran assurtit de romanssos, sainetes, historias</line>
         </zone>
         <zone xml:id="_BT226_5_LT83_2" type="DefaultLine" subtype="none" points="342,2144 320,2144 298,2144 296,2142 254,2142 254,2190 254,2228 285,2212 423,2212 458,2230 473,2236 475,2236 478,2236 515,2230 546,2223 568,2230 583,2234 585,2234 587,2234 590,2234 592,2234 592,2232 596,2230 609,2219 647,2230 671,2236 673,2236 675,2236 677,2236 693,2230 717,2219 750,2230 780,2241 783,2241 785,2241 787,2241 809,2230 833,2219 862,2230 875,2236 877,2236 879,2236 916,2232 982,2221 995,2232 1008,2243 1011,2243 1013,2243 1015,2243 1278,2232 1280,2203 1278,2164 355,2144 342,2144 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_142_4/254,2142,1026,101/full/0/default" corresp="DefaultLine">
           <path xml:id="Varios_142_4_BT226_5_LT83_2_1" points="256,2193 1283,2205 " corresp="DefaultLine"/>
@@ -1122,331 +1123,374 @@
   <text>
     <body>
       <div>
-        <pb n="1" source="Varios_142_1.jpg" facs="fedora_Varios_142_1/full/full/0/default.jpg"/>
+        <pb n="1" source="Varios_142_1.jpg" facs="varios/Varios_142_1.jpg/"/>
         <div>
-          <head type="primer_titulo"><lb/>TROBOS DE AMOR, CATALANS</head>
-          <head type="subtitulo_parte"><lb/>PER CANTAR Á LAS NOVAS LOS FADRINS
-                                    QUE LAS ESTIMAN.</head>
-          <p><lb/>1.</p>
-          <lg rend="cursiva">
-            <l>Uns trobos te vull cantá</l>
-            <l>prénda hermosa del meu cort:</l>
-            <l>ab paraulas graciosas</l>
-            <l rend="cursiva">te vull esplicá lo amor.</l>
+          <head type="primer_titulo" rend="negrita"><lb/>TROBOS DE AMOR, CATALANS</head>
+          <head type="subtitulo" rend="negrita"><lb/>PER CANTAR Á LAS NOVAS LOS FADRINS QUE LAS
+            ESTIMAN.</head>
+
+          <lg n="1">
+            <head><lb/>1.</head>
+            <lg rend="cursiva">
+              <l rend="indent">Uns trobos te vull cantá</l>
+              <l>prénda hermosa del meu cort:</l>
+              <l>ab paraulas graciosas</l>
+              <l>te vull esplicá lo amor.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Com que yo soch Catalá</l>
+              <l>y formál com lo primé</l>
+              <l>no'm puch canssá de estimá,</l>
+              <l>y aquí al mitx de aquest carré</l>
+              <l rend="cursiva">uns trobos te vull cantá.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Ets tú lo milló tresort</l>
+              <l>que en la vida he conegut:</l>
+              <l>vals mes que la plata y ort,</l>
+              <l>y de amor me tens perdut</l>
+              <l rend="cursiva">prenda hermosa del meu cort.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Te voldria di unas cosas</l>
+              <l>mol mes dolssas que la mel,</l>
+              <l>frescas lo mateix que rosas:</l>
+              <l>te dich angelét del Cel</l>
+              <l rend="cursiva">ab parauletas graciosas.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Es tan gran lo meu amor,</l>
+              <l>que no'm pot güañá niugú</l>
+              <l>per mes que tingui 'l cort fort :</l>
+              <l>ya hu sens « maca » sols á tú</l>
+              <l rend="cursiva">te vull esplica lo amor.</l>
+            </lg>
           </lg>
-          <lg>
-            <l rend="indent">Com que yo soch Catalá</l>
-            <l>y formál com lo primé</l>
-            <l>no'm puch canssá de estimá,</l>
-            <l>y aquí al mitx de aquest carré</l>
-            <l rend="cursiva">uns trobos te vull cantá.</l>
+
+          <pb n="2" source="Varios_142_2.jpg" facs="varios/Varios_142_2.jpg/"/>
+
+          <lg n="2">
+            <head><lb/>2.</head>
+            <lg rend="cursiva">
+              <l rend="indent">Ab la guitarra á la ma</l>
+              <l>vinch á cantarte de nit,</l>
+              <l>te vull dir mil amoretas :</l>
+              <l>¡ ay cuan sufreix lo meu pit ! !...</l>
+            </lg>
+            <lg>
+              <l rend="indent">Tot lo que tú 'm fas pená</l>
+              <l>ab tota la fé tu juru</l>
+              <l>pero sènsse mes jurá</l>
+              <l>á casa teva am deturu</l>
+              <l rend="cursiva">ab la guitarra á la ma.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Dirás que soch atrevit</l>
+              <l>de trencarte la dormida;</l>
+              <l>pero com soch dessidit,</l>
+              <l>conssól de la meva vida</l>
+              <l rend="cursiva">vinch á cantarte de nit.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Tens las mans tan petitetas</l>
+              <l>que 'm van fè quedá encantát;</l>
+              <l>son bonicas y blanquetas,</l>
+              <l>y avuy ab formalitát</l>
+              <l rend="cursiva">te vull dir mil amoretas.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Vay perdre tot lo .sentit</l>
+              <l>cuan vay repará 'l teu cos,</l>
+              <l>que á mes de sè tan petit</l>
+              <l>es primét y mol graciós,</l>
+              <l rend="cursiva">¡ ay cuan sufreix lo meu pit! !...</l>
+            </lg>
           </lg>
-          <lg>
-            <l rend="indent">Ets tú lo milló tresort</l>
-            <l>que en la vida he conegut:</l>
-            <l>vals mes que la plata y ort,</l>
-            <l>y de amor me tens perdut</l>
-            <l rend="cursiva">prenda hermosa del meu cort.</l>
+
+          <lg n="3">
+            <head><lb/>3.</head>
+            <lg rend="cursiva">
+              <l rend="indent">Los teus cabells son de ort fi :</l>
+              <l>me encantá la teva veu</l>
+              <l>los teus ulls son dos miralls</l>
+              <l>que á dintre y vey lo cor meu.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Ets un hermos serafí</l>
+              <l>que al aire yo at vey bolá,</l>
+              <l>y sempre am míras á mí,</l>
+              <l>y al véuret tinch de esclamá ;</l>
+              <l rend="cursiva">los teus cabells son de ort fi.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Lo que 'm sabria mes greu</l>
+              <l>lo no sentirte sovin,</l>
+              <l>y sempre suplico á Dèu</l>
+              <l>que yo at puga aná sentin;</l>
+              <l rend="cursiva">me cncantá la teva veu.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Yo corro boscos y avalls</l>
+              <l>per veure la cara teva</l>
+              <l>que 'm fá passá mil treballs :</l>
+              <l>y per mí nineta meva,</l>
+              <l rend="cursiva">los teus ulls son dos miralls.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Mon cor dia y nit se creu</l>
+              <l>que tú 'ls meus suspirs reculls:</l>
+              <l>tu ets blanqueta com la neu:</l>
+              <l>cuan me miro yo 'ls teus ulls</l>
+              <l rend="cursiva">á dintre y vey lo cor meu.</l>
+            </lg>
           </lg>
-          <lg>
-            <l rend="indent">Te voldria di unas cosas</l>
-            <l>mol mes dolssas que la mel,</l>
-            <l>frescas lo mateix que rosas:</l>
-            <l>te dich angelét del Cel</l>
-            <l rend="cursiva">ab parauletas graciosas.</l>
+
+          <lg n="4">
+            <head><lb/>4.</head>
+            <lg rend="cursiva">
+              <l rend="indent">Yo ne estaré mol contén</l>
+              <l>si acás tú surts al balcó,</l>
+              <l>mol milló podrás sentí</l>
+              <l>com te cánto la canssó.</l>
+            </lg>
+            <lg>
+              <l rend="indent">No at mous del meu pensamen</l>
+              <l>y 'l que at dich es mol segú :</l>
+              <l>ara que no passa gent</l>
+              <l>sols pugui véuret á tú</l>
+              <l rend="cursiva">yo ne estaré mol conten.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Aquell « si » que espero yo</l>
+              <l>me aurias de contestá :</l>
+              <l>ara es mol bona ocasió</l>
+              <l>per poguerma aconssolá</l>
+              <l rend="cursiva">si acás tú surts al balcó.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Per Dèu, déixat de dormí,</l>
+              <l>escólta la meva veu,</l>
+              <l>no 'm fassis ya mes patí;</l>
+              <l>si agüaitas angelét mèu</l>
+              <l rend="cursiva">mol milló 'm podrás sentí.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Ets la llum de ma ilusió,</l>
+              <l>ets lo que vey mes aprop</l>
+              <l>y sento tanta dulssó</l>
+              <l>que la boca 's torna arror</l>
+              <l rend="cursiva">cuan te cánto la canssó.</l>
+            </lg>
           </lg>
-          <lg>
-            <l rend="indent">Es tan gran lo meu amor,</l>
-            <l>que no'm pot güañá niugú</l>
-            <l>per mes que tingui 'l cort fort :</l>
-            <l>ya hu sens « maca » sols á tú</l>
-            <l rend="cursiva">te vull esplica lo amor.</l>
+
+          <lg n="5">
+            <head><lb/>5.</head>
+            <lg rend="cursiva">
+              <l rend="indent">La nit és mol fresca y pura</l>
+              <l>solét te estich aguardán :</l>
+              <l>cuan me reparo la lluna</l>
+              <l>sembla que te estich mirán.</l>
+            </lg>
+
+            <pb n="3" source="Varios_142_3.jpg" facs="varios/Varios_142_3.jpg/"/>
+
+            <lg>
+              <l rend="indent">Me ha dit lo cort ab dolssura</l>
+              <l>que an aquet carré 'm delurés,</l>
+              <l>y observo sense locura</l>
+              <l>que 'ls estels brillan mol mes,</l>
+              <l rend="cursiva">la nit es mes fresca y pura.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Ya veus que vay estimán</l>
+              <l>hasta 'l carré que tú vius;</l>
+              <l>podrias aná agüaitán,</l>
+              <l>y per véure com sonrius</l>
+              <l rend="cursiva">solét te estich aguardán.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Soch home sense fortuna,</l>
+              <l>no me aconssola ningú ;</l>
+              <l>de cosa sols ne vull una:</l>
+              <l>¡ Ay si at pogues tindre á tú</l>
+              <l rend="cursiva">cuan me reparo la lluna.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Dihuen que 'l Sol es brillán</l>
+              <l>que ab lo Sol tot lo mon creix</l>
+              <l>y tambè mon amor gran,</l>
+              <l>y al mirá com resplandeix</l>
+              <l rend="cursiva">sembla que te estich mirán.</l>
+            </lg>
           </lg>
-          <pb n="2" source="Varios_142_2.jpg" facs="fedora_Varios_142_2/full/full/0/default.jpg"/>
-          <p><lb/>2.</p>
-          <lg rend="cursiva">
-            <l>Ab la guitarra á la ma</l>
-            <l>vinch á cantarte de nit,</l>
-            <l>te vull dir mil amoretas :</l>
-            <l>¡ ay cuan sufreix lo meu pit ! !...</l>
-            <l>Tot lo que tú 'm fas pená</l>
-            <l>ab tota la fé tu juru</l>
-            <l>pero sènsse mes jurá</l>
-            <l>á casa teva am deturu</l>
-            <l>ab la guitarra á la ma.</l>
-            <l>Dirás que soch atrevit</l>
-            <l>de trencarte la dormida;</l>
-            <l>pero com soch dessidit,</l>
-            <l>conssól de la meva vida</l>
-            <l>vinch á cantarte de nit.</l>
-            <l>Tens las mans tan petitetas</l>
-            <l>que 'm van fè quedá encantát;</l>
-            <l>son bonicas y blanquetas,</l>
-            <l>y avuy ab formalitát</l>
-            <l>te vull dir mil amoretas.</l>
-            <l>Vay perdre tot lo .sentit</l>
-            <l>cuan vay repará 'l teu cos,</l>
-            <l>que á mes de sè tan petit</l>
-            <l>es primét y mol graciós,</l>
-            <l rend="cursiva">¡ ay cuan sufreix lo meu pit! !...</l>
+
+          <lg n="6">
+            <head><lb/>6.</head>
+            <lg rend="cursiva">
+              <l rend="indent">Vay alguna matinada</l>
+              <l>al cam alegre y hermós:</l>
+              <l>am sembla que at vey, hermosa</l>
+              <l>entre mitx de tantas flós.</l>
+            </lg>
+            <lg>
+              <l rend="indent">La campiña mol me agrada,</l>
+              <l>y lo Sol veurer surtí</l>
+              <l>y com brilla la rosada ;</l>
+              <l>á veurer si at trobo allí</l>
+              <l rend="cursiva">vay alguna matinada.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Si ans podem uní los dos</l>
+              <l>com desitjo, desseguida,</l>
+              <l>ab un cariño amorós</l>
+              <l>passarém la nostre vida</l>
+              <l rend="cursiva">al cam alegre y hermós.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Com tú 'm semblas una rosa</l>
+              <l>sempra sento ton oló :</l>
+              <l>cuan mon cor dorm y reposa</l>
+              <l>ab los suspirs que fay yó,</l>
+              <l rend="cursiva">am sembla que at vey, hermosa.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Soch un amant virtuós,</l>
+              <l>y per tú tinch un jardi</l>
+              <l>mol balssamich y oloros </l>
+              <l>tú serás la reina allí,</l>
+              <l rend="cursiva">entre mitx de tantas flós.</l>
+            </lg>
           </lg>
-          <p><lb/>3.</p>
-          <lg rend="cursiva">
-            <l>Los teus cabells son de ort fi :</l>
-            <l>me encantá la teva veu</l>
-            <l>los teus ulls son dos miralls</l>
-            <l rend="cursiva">que á dintre y vey lo cor meu.</l>
+
+          <lg n="7">
+            <head><lb/>7.</head>
+            <lg rend="cursiva">
+              <l rend="indent">No sossego nit ni dia</l>
+              <l>no dormo ni un sol momen</l>
+              <l>te tinch sempre á totas horas</l>
+              <l>dintre del meu pensamen.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Yo busco sempre alegría</l>
+              <l>y no la trobo ab ningú</l>
+              <l>perque tinch una manía.</l>
+              <l>que si no 't puch véure á tú</l>
+              <l rend="cursiva">no sossego nit ni dia.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Tinch uns ratos de torment</l>
+              <l>cuan penso que ets tan bonica</l>
+              <l>y'que vals per mes de cent :</l>
+              <l>No sossego gens ni mica ;</l>
+              <l rend="cursiva">no dormo ni un sol moment.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Yo ploro y tú may no ploras</l>
+              <l>de tan fort que at duch lo amor;</l>
+              <l>tú potsé may no me enñoras,</l>
+              <l>y yo ficada al meu cort</l>
+              <l rend="cursiva">te tinch sempre á totas horas.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Per tú visch yo solamen;</l>
+              <l>tots som fills de Adan y Eva :</l>
+              <l>y mol alegre y contén</l>
+              <l>també at tinch yo filla meva</l>
+              <l rend="cursiva">dintre del meu pensament.</l>
+            </lg>
           </lg>
-          <lg>
-            <l rend="indent">Ets un hermos serafí</l>
-            <l>que al aire yo at vey bolá,</l>
-            <l>y sempre am míras á mí,</l>
-            <l>y al véuret tinch de esclamá ;</l>
-            <l rend="cursiva">los teus cabells son de ort fi.</l>
+
+          <lg n="8">
+            <head><lb/>8.</head>
+            <lg rend="cursiva">
+              <l rend="indent">Cuan dichós será aquell dia</l>
+              <l>que yo at donaré la má;</l>
+              <l>cuanta sor tindria yo</l>
+              <l>si aixó pogués se demá.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Pot sé ton cor no sabia</l>
+              <l>lo que « yo te estimi tan »;</l>
+              <l>estimarte mes voldria,</l>
+              <l>per aixó yo estich cantán</l>
+              <l rend="cursiva">« Cuan dichós será aquell dia.»</l>
+            </lg>
+
+            <pb n="4" source="Varios_142_4.jpg" facs="varios/Varios_142_4.jpg/"/>
+
+            <lg>
+              <l rend="indent">Mol me agrada lo estimá</l>
+              <l>pero es á tú solamen;</l>
+              <l>per aixó parlo tan clá :</l>
+              <l>ya voldria se al momen</l>
+              <l rend="cursiva">que yo at donaré la ma.</l>
+            </lg>
+            <lg>
+              <l rend="indent">No estrañis que digui aixó;</l>
+              <l>sols tu dich perque 'm convé,</l>
+              <l>si fay com á obligassió :</l>
+              <l>si ya fossis ma mullé</l>
+              <l rend="cursiva">cuanta sort tindria yo.</l>
+            </lg>
+            <lg>
+              <l rend="indent">¡Y cuán arriba á tardá</l>
+              <l>aquell momen delissiós ! !...</l>
+              <l>Yo ya no 'm puch agüantá,</l>
+              <l>Jesus, que fòra dichós</l>
+              <l rend="cursiva">si aixó pogués se demá.</l>
+            </lg>
           </lg>
-          <lg>
-            <l rend="indent">Lo que 'm sabria mes greu</l>
-            <l>lo no sentirte sovin,</l>
-            <l>y sempre suplico á Dèu</l>
-            <l>que yo at puga aná sentin;</l>
-            <l rend="cursiva">me cncantá la teva veu.</l>
+          
+          <lg n="9">
+            <head><lb/>9.</head>
+            <lg rend="cursiva">
+              <l rend="indent">Adeu prenda ressalada</l>
+              <l>angelét lo mes hermós,</l>
+              <l>me despedeixo de tú,</l>
+              <l>á Déu prego per tots dos.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Polsé que ya estás canssada</l>
+              <l>de escoltá los meus clamors;</l>
+              <l>conmoute aquesta vegada :</l>
+              <l>te dich ab suspirs y plors</l>
+              <l rend="cursiva">adeu prenda ressalada.</l>
+            </lg>
+            <lg>
+              <l>Confio se tan dichós</l>
+              <l>com qui mol ho puga sé;</l>
+              <l>yo soch dóssil y amorós ;</l>
+              <l>ya veus que sempre at diré</l>
+              <l rend="cursiva">« angélet lo mes hermós. »</l>
+            </lg>
+            <lg>
+              <l rend="indent">Com me conto un poch segú</l>
+              <l>que tú me estimas un poch,</l>
+              <l>ya no me espanta ningú ;</l>
+              <l>y ab lo cor com si fos foch</l>
+              <l rend="cursiva">me despedeixo de tú.</l>
+            </lg>
+            <lg>
+              <l rend="indent">« Déu del Cel, vos dich á vos</l>
+              <l>que am feu felís junt ab ella</l>
+              <l>que aixís yo viuré ab repós.»</l>
+              <l>Ya hu sens resplanden estrella</l>
+              <l rend="cursiva">á Déu prego per tots dos.</l>
+            </lg>
           </lg>
-          <lg>
-            <l rend="indent">Yo corro boscos y avalls</l>
-            <l>per veure la cara teva</l>
-            <l>que 'm fá passá mil treballs :</l>
-            <l>y per mí nineta meva,</l>
-            <l rend="cursiva">los teus ulls son dos miralls.</l>
-          </lg>
-          <lg>
-            <l rend="indent">Mon cor dia y nit se creu</l>
-            <l>que tú 'ls meus suspirs reculls:</l>
-            <l>tu ets blanqueta com la neu:</l>
-            <l>cuan me miro yo 'ls teus ulls</l>
-            <l rend="cursiva">á dintre y vey lo cor meu.</l>
-          </lg>
-          <p><lb/>4.</p>
-          <lg rend="cursiva">
-            <l>Yo ne estaré mol contén</l>
-            <l>si acás tú surts al balcó,</l>
-            <l>mol milló podrás sentí</l>
-            <l rend="cursiva">com te cánto la canssó.</l>
-          </lg>
-          <lg>
-            <l rend="indent">No at mous del meu pensamen</l>
-            <l>y 'l que at dich es mol segú :</l>
-            <l>ara que no passa gent</l>
-            <l>sols pugui véuret á tú</l>
-            <l rend="cursiva">yo ne estaré mol conten.</l>
-          </lg>
-          <lg>
-            <l rend="indent">Aquell « si » que espero yo</l>
-            <l>me aurias de contestá :</l>
-            <l>ara es mol bona ocasió</l>
-            <l>per poguerma aconssolá</l>
-            <l rend="cursiva">si acás tú surts al balcó.</l>
-          </lg>
-          <lg>
-            <l rend="indent">Per Dèu, déixat de dormí,</l>
-            <l>escólta la meva veu,</l>
-            <l>no 'm fassis ya mes patí;</l>
-            <l>si agüaitas angelét mèu</l>
-            <l rend="cursiva">mol milló 'm podrás sentí.</l>
-          </lg>
-          <lg>
-            <l rend="indent">Ets la llum de ma ilusió,</l>
-            <l>ets lo que vey mes aprop</l>
-            <l>y sento tanta dulssó</l>
-            <l>que la boca 's torna arror</l>
-            <l rend="cursiva">cuan te cánto la canssó.</l>
-          </lg>
-          <p><lb/>5.</p>
-          <lg rend="cursiva">
-            <l>La nit és mol fresca y pura</l>
-            <l>solét te estich aguardán :</l>
-            <l>cuan me reparo la lluna</l>
-            <l rend="cursiva">sembla que te estich mirán.</l>
-          </lg>
-          <pb n="3" source="Varios_142_3.jpg" facs="fedora_Varios_142_3/full/full/0/default.jpg"/>
-          <lg>
-            <l rend="indent">Me ha dit lo cort ab dolssura</l>
-            <l>que an aquet carré 'm delurés,</l>
-            <l>y observo sense locura</l>
-            <l>que 'ls estels brillan mol mes,</l>
-            <l rend="cursiva">la nit es mes fresca y pura.</l>
-          </lg>
-          <lg>
-            <l rend="indent">Ya veus que vay estimán</l>
-            <l>hasta 'l carré que tú vius;</l>
-            <l>podrias aná agüaitán,</l>
-            <l>y per véure com sonrius</l>
-            <l rend="cursiva">solét te estich aguardán.</l>
-          </lg>
-          <lg>
-            <l rend="indent">Soch home sense fortuna,</l>
-            <l>no me aconssola ningú ;</l>
-            <l>de cosa sols ne vull una:</l>
-            <l>¡ Ay si at pogues tindre á tú</l>
-            <l rend="cursiva">cuan me reparo la lluna.</l>
-          </lg>
-          <lg>
-            <l rend="indent">Dihuen que 'l Sol es brillán</l>
-            <l>que ab lo Sol tot lo mon creix</l>
-            <l>y tambè mon amor gran,</l>
-            <l>y al mirá com resplandeix</l>
-            <l rend="cursiva">sembla que te estich mirán.</l>
-          </lg>
-          <p><lb/>6.</p>
-          <lg rend="cursiva">
-            <l>Vay alguna matinada</l>
-            <l>al cam alegre y hermós:</l>
-            <l>am sembla que at vey, hermosa</l>
-            <l rend="cursiva">entre mitx de tantas flós.</l>
-          </lg>
-          <lg>
-            <l>La campiña mol me agrada,</l>
-            <l>y lo Sol veurer surtí</l>
-            <l>y com brilla la rosada ;</l>
-            <l>á veurer si at trobo allí</l>
-            <l rend="cursiva">vay alguna matinada.</l>
-          </lg>
-          <lg>
-            <l rend="indent">Si ans podem uní los dos</l>
-            <l>com desitjo, desseguida,</l>
-            <l>ab un cariño amorós</l>
-            <l>passarém la nostre vida</l>
-            <l rend="cursiva">al cam alegre y hermós.</l>
-          </lg>
-          <lg>
-            <l rend="indent">Com tú 'm semblas una rosa</l>
-            <l>sempra sento ton oló :</l>
-            <l>cuan mon cor dorm y reposa</l>
-            <l>ab los suspirs que fay yó,</l>
-            <l rend="cursiva">am sembla que at vey, hermosa.</l>
-          </lg>
-          <lg>
-            <l rend="indent">Soch un amant virtuós,</l>
-            <l>y per tú tinch un jardi</l>
-            <l>mol balssamich y oloros </l>
-            <l>tú serás la reina allí,</l>
-            <l rend="cursiva">entre mitx de tantas flós.</l>
-          </lg>
-          <p><lb/>7.</p>
-          <lg rend="cursiva">
-            <l>No sossego nit ni dia</l>
-            <l>no dormo ni un sol momen</l>
-            <l>te tinch sempre á totas horas</l>
-            <l rend="cursiva">dintre del meu pensamen.</l>
-          </lg>
-          <lg>
-            <l rend="indent">Yo busco sempre alegría</l>
-            <l>y no la trobo ab ningú</l>
-            <l>perque tinch una manía.</l>
-            <l>que si no 't puch véure á tú</l>
-            <l rend="cursiva">no sossego nit ni dia.</l>
-          </lg>
-          <lg>
-            <l rend="indent">Tinch uns ratos de torment</l>
-            <l>cuan penso que ets tan bonica</l>
-            <l>y'que vals per mes de cent :</l>
-            <l>No sossego gens ni mica ;</l>
-            <l rend="cursiva">no dormo ni un sol moment.</l>
-          </lg>
-          <lg>
-            <l rend="indent">Yo ploro y tú may no ploras</l>
-            <l>de tan fort que at duch lo amor;</l>
-            <l>tú potsé may no me enñoras,</l>
-            <l>y yo ficada al meu cort</l>
-            <l rend="cursiva">te tinch sempre á totas horas.</l>
-          </lg>
-          <lg>
-            <l rend="indent">Per tú visch yo solamen;</l>
-            <l>tots som fills de Adan y Eva :</l>
-            <l>y mol alegre y contén</l>
-            <l>també at tinch yo filla meva</l>
-            <l rend="cursiva">dintre del meu pensament.</l>
-          </lg>
-          <p><lb/>8.</p>
-          <lg rend="cursiva">
-            <l>Cuan dichós será aquell dia</l>
-            <l>que yo at donaré la má;</l>
-            <l>cuanta sor tindria yo</l>
-            <l rend="cursiva">si aixó pogués se demá.</l>
-          </lg>
-          <lg>
-            <l rend="indent">Pot sé ton cor no sabia</l>
-            <l>lo que « yo te estimi tan »;</l>
-            <l>estimarte mes voldria,</l>
-            <l>per aixó yo estich cantán</l>
-            <l rend="cursiva">« Cuan dichós será aquell dia.»</l>
-          </lg>
-          <pb n="4" source="Varios_142_4.jpg" facs="fedora_Varios_142_4/full/full/0/default.jpg"/>
-          <lg>
-            <l rend="indent">Mol me agrada lo estimá</l>
-            <l>pero es á tú solamen;</l>
-            <l>per aixó parlo tan clá :</l>
-            <l>ya voldria se al momen</l>
-            <l rend="cursiva">que yo at donaré la ma.</l>
-          </lg>
-          <lg>
-            <l rend="indent">No estrañis que digui aixó;</l>
-            <l>sols tu dich perque 'm convé,</l>
-            <l>si fay com á obligassió :</l>
-            <l>si ya fossis ma mullé</l>
-            <l rend="cursiva">cuanta sort tindria yo.</l>
-          </lg>
-          <lg>
-            <l rend="indent">¡Y cuán arriba á tardá</l>
-            <l>aquell momen delissiós ! !...</l>
-            <l>Yo ya no 'm puch agüantá,</l>
-            <l>Jesus, que fòra dichós</l>
-            <l rend="cursiva">si aixó pogués se demá.</l>
-          </lg>
-          <p><lb/>9.</p>
-          <lg rend="cursiva">
-            <l>Adeu prenda ressalada</l>
-            <l>angelét lo mes hermós,</l>
-            <l>me despedeixo de tú,</l>
-            <l rend="cursiva">á Déu prego per tots dos.</l>
-          </lg>
-          <lg>
-            <l rend="indent">Polsé que ya estás canssada</l>
-            <l>de escoltá los meus clamors;</l>
-            <l>conmoute aquesta vegada :</l>
-            <l>te dich ab suspirs y plors</l>
-            <l rend="cursiva">adeu prenda ressalada.</l>
-          </lg>
-          <lg>
-            <l>Confio se tan dichós</l>
-            <l>com qui mol ho puga sé;</l>
-            <l>yo soch dóssil y amorós ;</l>
-            <l>ya veus que sempre at diré</l>
-            <l rend="cursiva">« angélet lo mes hermós. »</l>
-          </lg>
-          <lg>
-            <l rend="indent">Com me conto un poch segú</l>
-            <l>que tú me estimas un poch,</l>
-            <l>ya no me espanta ningú ;</l>
-            <l>y ab lo cor com si fos foch</l>
-            <l rend="cursiva">me despedeixo de tú.</l>
-          </lg>
-          <lg>
-            <l rend="indent">« Déu del Cel, vos dich á vos</l>
-            <l>que am feu felís junt ab ella</l>
-            <l>que aixís yo viuré ab repós.»</l>
-            <l>Ya hu sens resplanden estrella</l>
-            <l rend="cursiva">á Déu prego per tots dos.</l>
-          </lg>
+          
           <trailer>FI.</trailer>
         </div>
-        <div type="propiedad">
-          <p><lb/>( Es propietat de Joan Grau.)</p>
+        
+        <div>
+          <p rend="cursiva"><lb/>( Es propietat de Joan Grau.)</p>
         </div>
+        
         <div type="productos_a_la_venta ">
-          <p><lb/>En casa Joan Grau hi ha gran assurtit de romanssos, sainetes,
-                                    historias<lb/>y llibres de lanse, y se donan á preus mol
-                                    cómodos.</p>
+          <p><lb/>En casa Joan Grau hi ha gran assurtit de romanssos, sainetes, historias<lb/>y
+            llibres de lanse, y se donan á preus mol cómodos.</p>
         </div>
+        
         <div type="colofon">
           <p><lb/>REUS : IMP. Y LIB. DE NARCIS ROCA.—1866.</p>
         </div>

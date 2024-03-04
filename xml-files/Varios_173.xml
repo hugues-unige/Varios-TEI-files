@@ -1,20 +1,17 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../Schema/oddPliego_varios.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:alto="http://www.loc.gov/standards/alto/ns-v4#" xml:id="Varios_173">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Varios_173">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Lo carrer del hospital de Barcelona ó Relació que ha fet an
-                              Carnestoltas del bullici, importancia y fets notables que s'observan
-                              en eix Carrer.</title>
+        <title>Lo carrer del hospital de Barcelona ó Relació que ha fet an Carnestoltas del bullici</title>
         <respStmt>
           <name/>
           <resp>Codificación TEI</resp>
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <authority role="rightsHolder">Bibliothèque Universitaire de
-                              Genève</authority>
+        <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
         <availability status="restricted">
           <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
         </availability>
@@ -22,20 +19,18 @@
       <sourceDesc>
         <biblFull>
           <titleStmt>
-            <title type="titulo_completo">Lo carrer del hospital de
-                                          Barcelona ó Relació que ha fet an Carnestoltas del
-                                          bullici, importancia y fets notables que s'observan en eix
-                                          Carrer.</title>
-            <title type="titulo_breve">Lo carrer del hospital de
-                                          Barcelona</title>
+            <title type="titulo_completo">Lo carrer del hospital de Barcelona ó Relació que ha fet
+              an Carnestoltas del bullici, importancia y fets notables que s'observan en eix
+              Carrer.</title>
+            <title type="titulo_breve">Lo carrer del hospital de Barcelona</title>
           </titleStmt>
           <editionStmt>
             <p/>
           </editionStmt>
           <publicationStmt>
-            <publisher>Imp. de Joseph Gaspar</publisher>
+            <publisher>Joseph Gaspar</publisher>
             <pubPlace ref="https://www.geonames.org/3128760/barcelona.html">Barcelona</pubPlace>
-            <date cert="high">1860</date>
+            <date cert="high" when="1860-01-01">1860</date>
           </publicationStmt>
         </biblFull>
         <msDesc>
@@ -43,7 +38,8 @@
             <country>Suisse</country>
             <settlement>Genève</settlement>
             <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"/>
-                                    </repository>
+            </repository>
+            <collection>Colección Varios</collection>
             <idno type="cote"/>
             <idno type="DOI">10.5281/zenodo.6594862</idno>
             <altIdentifier>
@@ -72,7 +68,7 @@
               </layoutDesc>
             </objectDesc>
             <decoDesc>
-              <summary n="1">Uno grabado (p.1) </summary>
+              <summary n="1">Un grabado (p.1) </summary>
               <decoNote type="lista_grabados">
                 <list>
                   <item corresp="grabado_v_173_1.xml">grabado_v_173_1</item>
@@ -85,12 +81,11 @@
           </physDesc>
           <history>
             <origin>
-              <p>BARCELONA : Imp. de Joseph Gaspar, carrer de Cervantes,
-                                                cantonada al de Gegants.—1860.</p>
+              <p>BARCELONA : Imp. de Joseph Gaspar, carrer de Cervantes, cantonada al de
+                Gegants.—1860.</p>
             </origin>
             <provenance>
-              <p>Se ven en casa D. Pere Rius, paperaire del carrer del
-                                                Hospital, n.° 26.</p>
+              <p>Se ven en casa D. Pere Rius, paperaire del carrer del Hospital, n.° 26.</p>
             </provenance>
             <acquisition>
               <p>
@@ -104,18 +99,17 @@
     </fileDesc>
     <encodingDesc>
       <projectDesc>
-        <p>Este archivo fue creado en el marco del proyecto Desenrollando el
-                              Cordel/Démêler le cordel/Untangling the cordel, dirigido por la
-                              profesora Constance Carta de la Universidad de Ginebra, con el apoyo
-                              de la Fundación filantrópica Famille Sandoz-Monique de Meuron.</p>
+        <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+          cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la Universidad
+          de Ginebra, con el apoyo de la Fundación filantrópica Famille Sandoz-Monique de
+          Meuron.</p>
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR non corregido</p>
+          <p>OCR no corregido</p>
         </correction>
         <normalization>
-          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto
-                                    original.</p>
+          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
         </normalization>
         <punctuation>
           <p>Se conserva la puntuación original.</p>
@@ -124,7 +118,7 @@
     </encodingDesc>
     <profileDesc>
       <langUsage>
-        <language ident="es">Español</language>
+        <language ident="ca">Catalán</language>
       </langUsage>
       <textClass>
         <keywords xml:base="http://datos.bne.es/tema/">
@@ -136,10 +130,14 @@
       </textClass>
     </profileDesc>
     <revisionDesc>
-      <change when="2023-04-12" who="#PJ">Création du fichier TEI P5 et encodage du
-                        corps du texte</change>
+      <change when="2023-04-12" who="#PJ">Création du fichier TEI P5 et encodage du corps du
+        texte</change>
+      <change when="2024-01-09" who="#EL">Add the IIIF links</change>
     </revisionDesc>
   </teiHeader>
+  <facsimile>
+    <graphic url="varios/Varios_173_1.jpg/full/200,/0/default.jpg"/>
+  </facsimile>
   <sourceDoc xml:id="automaticTranscription">
     <surface xml:id="Varios_173_1" type="page" cert="silver">
       <graphic url="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_173_1/full/full/0/default.jpg"/>
@@ -1272,13 +1270,12 @@
       <zone xml:id="Varios_173_4_BT221_5" n="5" type="MarginTextZone" subtype="colophon" points="1787,2419 1811,2524 1755,2580 1449,2586 261,2610 277,2472 381,2433 1326,2419 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_173_4/261.0,2419.0,1550.0,191.0/full/0/default" corresp="MarginTextZone:colophon">
         <zone xml:id="Varios_173_4_BT221_5_LT182_1" type="DefaultLine" subtype="none" points="325,2503 325,2517 1761,2492 1763,2479 1757,2419 1330,2425 1328,2425 1326,2425 1326,2428 1321,2430 1310,2443 1228,2443 1194,2434 1169,2428 1167,2428 1107,2428 1105,2428 1103,2428 1100,2428 1087,2436 1078,2443 1071,2439 1067,2434 1067,2432 1065,2432 1062,2432 1060,2432 1020,2439 989,2445 982,2441 973,2432 971,2432 969,2432 966,2432 964,2432 962,2432 948,2441 937,2450 806,2450 792,2445 756,2434 754,2434 752,2434 750,2434 747,2434 747,2436 736,2445 696,2436 694,2436 602,2452 580,2457 323,2459 325,2503 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_173_4/323.0,2419.0,1440.0,98.0/full/0/default" corresp="CustomZone">
           <path xml:id="Varios_173_4_BT221_5_LT182_1_1" points="328,2506 1764,2480 "/>
-          <line>Se ven en casa D. Pere Rius, paperaire del carrer del Hospital,
-                                    n.° 26.</line>
+          <line>Se ven en casa D. Pere Rius, paperaire del carrer del Hospital, n.° 26.</line>
         </zone>
         <zone xml:id="Varios_173_4_BT221_5_LT182_2" type="DefaultLine" subtype="none" points="281,2573 281,2599 386,2608 388,2608 390,2608 419,2597 439,2590 473,2597 522,2606 524,2606 783,2590 940,2582 969,2586 1009,2595 1011,2595 1013,2595 1033,2586 1049,2579 1132,2584 1248,2590 1250,2590 1252,2590 1281,2582 1301,2575 1317,2579 1344,2588 1346,2588 1348,2588 1350,2588 1370,2579 1386,2573 1520,2573 1525,2577 1533,2584 1536,2584 1538,2584 1540,2584 1542,2584 1560,2575 1571,2570 1752,2570 1754,2546 1748,2481 279,2517 281,2573 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_173_4/279.0,2481.0,1475.0,127.0/full/0/default" corresp="CustomZone">
           <path xml:id="Varios_173_4_BT221_5_LT182_2_1" points="283,2575 1757,2547 "/>
-          <line>BARCELONA : Imp. de Joseph Gaspar, carrer de Cervantes,
-                                    cantonada al de Gegants.—1860.</line>
+          <line>BARCELONA : Imp. de Joseph Gaspar, carrer de Cervantes, cantonada al de
+            Gegants.—1860.</line>
         </zone>
       </zone>
       <zone xml:id="Varios_173_4_BT226_6" n="6" type="MainZone" subtype="none" points="922,2069 922,2199 1055,2199 1055,2069 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_173_4/922.0,2069.0,133.0,130.0/full/0/default" corresp="MainZone"/>
@@ -1288,311 +1285,303 @@
   <text>
     <body>
       <div>
-        <pb n="1" source="Varios_173_1.jpg" facs="fedora_Varios_173_1/full/full/0/default.jpg"/>
         <div>
-          <head type="primer_titulo"><lb/>LO CARRER DEL HOSPITAL DE BARCELONA</head>
-          <head type="subtitulo_parte"><lb/>ó<lb/>Relació que ha fet an <hi rend="cursiva">Carnestoltas</hi> del bullici, impor-<lb/>tancia y fets
-                                    notables que s' observan en eix Carrer.</head>
-          <lg>
-            <l rend="cursiva">No creguias, lector amat,</l>
-            <l>Que al parlar de aquest carrer,</l>
-            <l>Pensia guanyar lo llorer</l>
-            <l>Que mereix un bon lletrat.</l>
-            <l>Puig no'm proposo res més</l>
-            <l>Y veurem si ho puch lograr,</l>
-            <l>Que d'ell sas glorias cantar</l>
-            <l>Son bullici, son progrés.</l>
-            <l rend="cursiva">Sempre 'l carrer d' Hospital</l>
-            <l>Ha sigut de gran renom,</l>
-            <l>Y per totas parts, tothom</l>
-            <l>La tingut per principal.</l>
-            <l>En cara que no es molt dret,</l>
-          </lg>
-          <lg>
-            <l>En cambi es ben empedrat,</l>
-            <l>Y ahont está milló arreglat</l>
-            <l>Es de cal Rius en lo indret.</l>
-            <l>No hi ha cap altre carrer</l>
-            <l>Dins de la ciutat condal</l>
-            <l>Que hi passia tant animal....</l>
-            <l>Ni tantíssim carreter.</l>
-            <l>Axi que plou un xiquet,</l>
-            <l>Se converteix en barranch</l>
-            <l>Plantantshi mitx pam de fanch</l>
-            <l>Que's tarda molt en fer net.</l>
-            <l>Si son clars los pantalons</l>
-            <l>Ab un instant son farcits,</l>
-          </lg>
-          <pb n="2" source="Varios_173_2.jpg" facs="fedora_Varios_173_2/full/full/0/default.jpg"/>
+          <pb n="1" source="Varios_173_1.jpg" facs="varios/Varios_173_1.jpg/"/>
+
+          <head type="primer_titulo" rend="negrita"><lb/>LO CARRER DEL HOSPITAL DE BARCELONA</head>
+          <head type="subtitulo"><lb/>ó<lb/>Relació que ha fet an <hi rend="cursiva">Carnestoltas</hi> del bullici, impor-<lb/>tancia y fets notables que s' observan en
+            eix Carrer.</head>
+
+          <l rend="indent">No creguias, lector amat,</l>
+          <l>Que al parlar de aquest carrer,</l>
+          <l>Pensia guanyar lo llorer</l>
+          <l>Que mereix un bon lletrat.</l>
+          <l>Puig no'm proposo res més</l>
+          <l>Y veurem si ho puch lograr,</l>
+          <l>Que d'ell sas glorias cantar</l>
+          <l>Son bullici, son progrés.</l>
+          <l rend="indent">Sempre 'l carrer d' Hospital</l>
+          <l>Ha sigut de gran renom,</l>
+          <l>Y per totas parts, tothom</l>
+          <l>La tingut per principal.</l>
+          <l>En cara que no es molt dret,</l>
+          <l>En cambi es ben empedrat,</l>
+          <l>Y ahont está milló arreglat</l>
+          <l>Es de cal Rius en lo indret.</l>
+          <l>No hi ha cap altre carrer</l>
+          <l>Dins de la ciutat condal</l>
+          <l>Que hi passia tant animal....</l>
+          <l>Ni tantíssim carreter.</l>
+          <l>Axi que plou un xiquet,</l>
+          <l>Se converteix en barranch</l>
+          <l>Plantantshi mitx pam de fanch</l>
+          <l>Que's tarda molt en fer net.</l>
+          <l>Si son clars los pantalons</l>
+          <l>Ab un instant son farcits,</l>
+
+          <pb n="2" source="Varios_173_2.jpg" facs="varios/Varios_173_2.jpg/"/>
           <fw type="paginaNum">–2–</fw>
-          <lg>
-            <l>Com de la dona 'ls vestits</l>
-            <l>Cuan porta pams de garrons.</l>
-            <l>Si no tens casa ahont anar,</l>
-            <l>Y algun dia caus malal,</l>
-            <l>Ficat al Sant Hospital</l>
-            <l>Qu' es molt fácil de trobar;</l>
-            <l>Allá se 't rebrá ben bé</l>
-            <l>Llit decent se 't donará,</l>
-            <l>Sens pagar se 't mantindrá</l>
-            <l>Y arraconarás diné.</l>
-            <l>De aputacaris ni ha un sach,</l>
-            <l>De metjes ni ha femers,</l>
-            <l>No hi fan falta 'ls sabaters,</l>
-            <l>Ni algun sastre qu' es molt flach.</l>
-            <l>Llevadoras ni ha á desdir,</l>
-            <l>També hi venen pells de martas,</l>
-            <l>Hi ha donas que fan las cartas</l>
-            <l>Y d' altres que fan dormir.</l>
-            <l>Y ab las cartas y dormint</l>
-            <l>Mes qu' estiguian ben despertas,</l>
-            <l>Endivinan las reyertas,</l>
-            <l>Si gosau, si esteu sufrint.</l>
-            <l>Si cuan vos sereu casat</l>
-            <l>Tindreu gaires criaturas,</l>
-            <l>Si sou home de aventuras,</l>
-            <l>Si esteu rich ó bé endeutat.</l>
-            <l>No cregueu que solament</l>
-            <l>De profetas tinguian fama,</l>
-            <l>També os curarán la cama</l>
-            <l>O quisvulla altre axident.</l>
-            <l>Tenen crit de curanderas,</l>
-            <l>Tembé entenan de herbolari</l>
-            <l>Y axi guanyan bon salari</l>
-            <l>Embaucant de mil maneras.</l>
-            <l>Axó, companys, no es estrany,</l>
-            <l>Com es lo temps de las llums,</l>
-            <l>Tothom creu tení alguns fums</l>
-            <l>De sabi, sent capsigrany.</l>
-            <l>S cap al tart hi passau</l>
-            <l>Altre cosa notareu</l>
-            <l>Que 'n cap altre lloch se veu,</l>
-            <l>Mes que ab ulleras mirau.</l>
-            <l>Uns cafetins hi veureu</l>
-            <l>Que podem dir ambulants,</l>
-          </lg>
-          <lg>
-            <l>Que si son petits, son grans</l>
-            <l>Perque ab poch calé bebeu.</l>
-            <l>Sobre carrets col-locats</l>
-            <l>Que son pintats de verdet,</l>
-            <l>Hi veureu un caixonet</l>
-            <l>Que té com tres apartats.</l>
-            <l>Y aquestos se reparteixen</l>
-            <l>En forats molt mes petits,</l>
-            <l>Ahont están ben distribuits</l>
-            <l>Los bons licors que os serveixen.</l>
-            <l>Allá hi trobareu café</l>
-            <l>De primera qualitat,</l>
-            <l>No del que Fransa ha enviat</l>
-            <l>Qué 'n diuen demi café.</l>
-            <l>Si voleu llet, llet tindren</l>
-            <l>Munyida ó bé per munyir,</l>
-            <l>Molt bon té per fer pahir</l>
-            <l>Y aiguardent que es de cal deu.</l>
-            <l>Hi ha borregos ben torrats,</l>
-            <l>De anis, hi ha paparinas,</l>
-            <l>Aiguas las mes cristallinas,</l>
-            <l>Vi ranci y fins granisats.</l>
-            <l>Y ¿qui 'os diria, amiguet,</l>
-            <l>Que per mitx sou solament</l>
-            <l>Pugau posá 'l pap calent</l>
-            <l>Ab un got de café y llet?</l>
-            <l>No penseu pas que es bombolla</l>
-            <l>Lo que ara hos estich dient</l>
-            <l>Puig es tan cert y evident</l>
-            <l>Com bufant fer una ampolla.</l>
-            <l>Tu, Joanet, alguna nit</l>
-            <l>Cuan no sabent lo que fer,</l>
-            <l>Donas toms p' algun carrer</l>
-            <l>Avans de anarten al llit;</l>
-            <l>Entra en est carrer de pau</l>
-            <l>Y cuan siguias cuasi al fí,</l>
-            <l>Fanalets veurás lluí</l>
-            <l>Ben pintats de vert y blau.</l>
-            <l>Y allá fins podrás tastar</l>
-            <l>Aquells suchs tan esquisits,</l>
-            <l>Tan baratos y escullits</l>
-            <l>Per lo millor paladar.</l>
-            <l>Si estás de mal humor gran,</l>
-            <l>Quel gat d' inglés diu esplin,</l>
-          </lg>
-          <pb n="3" source="Varios_173_3.jpg" facs="fedora_Varios_173_3/full/full/0/default.jpg"/>
+
+          <l>Com de la dona 'ls vestits</l>
+          <l>Cuan porta pams de garrons.</l>
+          <l>Si no tens casa ahont anar,</l>
+          <l>Y algun dia caus malal,</l>
+          <l>Ficat al Sant Hospital</l>
+          <l>Qu' es molt fácil de trobar;</l>
+          <l>Allá se 't rebrá ben bé</l>
+          <l>Llit decent se 't donará,</l>
+          <l>Sens pagar se 't mantindrá</l>
+          <l>Y arraconarás diné.</l>
+          <l>De aputacaris ni ha un sach,</l>
+          <l>De metjes ni ha femers,</l>
+          <l>No hi fan falta 'ls sabaters,</l>
+          <l>Ni algun sastre qu' es molt flach.</l>
+          <l>Llevadoras ni ha á desdir,</l>
+          <l>També hi venen pells de martas,</l>
+          <l>Hi ha donas que <hi rend="cursiva">fan las cartas</hi></l>
+          <l>Y d' altres que fan dormir.</l>
+          <l>Y ab las cartas y dormint</l>
+          <l>Mes qu' estiguian ben despertas,</l>
+          <l>Endivinan las reyertas,</l>
+          <l>Si gosau, si esteu sufrint.</l>
+          <l>Si cuan vos sereu casat</l>
+          <l>Tindreu gaires criaturas,</l>
+          <l>Si sou home de aventuras,</l>
+          <l>Si esteu rich ó bé endeutat.</l>
+          <l>No cregueu que solament</l>
+          <l>De profetas tinguian fama,</l>
+          <l>També os curarán la cama</l>
+          <l>O quisvulla altre axident.</l>
+          <l>Tenen crit de curanderas,</l>
+          <l>Tembé entenan de herbolari</l>
+          <l>Y axi guanyan bon salari</l>
+          <l>Embaucant de mil maneras.</l>
+          <l>Axó, companys, no es estrany,</l>
+          <l>Com es lo temps de las llums,</l>
+          <l>Tothom creu tení alguns fums</l>
+          <l>De sabi, sent capsigrany.</l>
+          <l>S cap al tart hi passau</l>
+          <l>Altre cosa notareu</l>
+          <l>Que 'n cap altre lloch se veu,</l>
+          <l>Mes que ab ulleras mirau.</l>
+          <l>Uns cafetins hi veureu</l>
+          <l>Que podem dir ambulants,</l>
+          <l>Que si son petits, son grans</l>
+          <l>Perque ab poch calé bebeu.</l>
+          <l>Sobre carrets col-locats</l>
+          <l>Que son pintats de verdet,</l>
+          <l>Hi veureu un caixonet</l>
+          <l>Que té com tres apartats.</l>
+          <l>Y aquestos se reparteixen</l>
+          <l>En forats molt mes petits,</l>
+          <l>Ahont están ben distribuits</l>
+          <l>Los bons licors que os serveixen.</l>
+          <l>Allá hi trobareu café</l>
+          <l>De primera qualitat,</l>
+          <l>No del que Fransa ha enviat</l>
+          <l>Qué 'n diuen <hi rend="cursiva">demi cafe</hi>́.</l>
+          <l>Si voleu llet, llet tindren</l>
+          <l>Munyida ó bé per munyir,</l>
+          <l>Molt bon té per fer pahir</l>
+          <l>Y aiguardent que es de cal deu.</l>
+          <l>Hi ha borregos ben torrats,</l>
+          <l>De anis, hi ha paparinas,</l>
+          <l>Aiguas las mes cristallinas,</l>
+          <l>Vi ranci y fins granisats.</l>
+          <l>Y ¿qui 'os diria, amiguet,</l>
+          <l>Que per mitx sou solament</l>
+          <l>Pugau posá 'l pap calent</l>
+          <l>Ab un got de café y llet?</l>
+          <l>No penseu pas que es bombolla</l>
+          <l>Lo que ara hos estich dient</l>
+          <l>Puig es tan cert y evident</l>
+          <l>Com bufant fer una ampolla.</l>
+          <l>Tu, Joanet, alguna nit</l>
+          <l>Cuan no sabent lo que fer,</l>
+          <l>Donas toms p' algun carrer</l>
+          <l>Avans de anarten al llit;</l>
+          <l>Entra en est carrer de pau</l>
+          <l>Y cuan siguias cuasi al fí,</l>
+          <l>Fanalets veurás lluí</l>
+          <l>Ben pintats de vert y blau.</l>
+          <l>Y allá fins podrás tastar</l>
+          <l>Aquells suchs tan esquisits,</l>
+          <l>Tan baratos y escullits</l>
+          <l>Per lo millor paladar.</l>
+          <l>Si estás de mal humor gran,</l>
+          <l>Quel gat d' inglés diu esplin,</l>
+
+          <pb n="3" source="Varios_173_3.jpg" facs="varios/Varios_173_3.jpg/"/>
           <fw type="paginaNum">–3–</fw>
-          <lg>
-            <l>Gasta en lo teatro 'l din</l>
-            <l>Y cregas tel curarán.</l>
-            <l>Y per só no cal quet mogas</l>
-            <l>De aqueix carrer tan famós,</l>
-            <l>Puig de teatros ni ha dos,</l>
-            <l><hi rend="cursiva">Cafés chantans</hi> y altres cosas.</l>
-            <l>Per los homes de bon cor</l>
-            <l>Y que sols gosan ab Deu,</l>
-            <l>També hi trobarán lo seu;</l>
-            <l>Hi ha iglesias de molt tresor.</l>
-            <l>De casas de <hi rend="cursiva">tentativa</hi>....</l>
-            <l>Pel públich, non vull parlar,</l>
-            <l>Perque comenso á notar</l>
-            <l>Que á raix fet cau ta saliva.</l>
-            <l>Me sembla que estich flairan</l>
-            <l>Posat sota de cal Brull</l>
-            <l>La perdiueta que vull,</l>
-            <l>La llebra que están guisant.</l>
-            <l>Las truitas ab butifarra,</l>
-            <l>De porch alguna costella,</l>
-            <l>De la Fonda de la Estrella,</l>
-            <l>De la Fonda de la Parra.</l>
-            <l>Tampoch puch passar per alt</l>
-            <l>Mes que hi perdeu la paciencia,</l>
-            <l>Lo tró de la dilligencia</l>
-            <l>Ni lo espetech del sagal.</l>
-            <l>Es cosa que cuan se sent</l>
-            <l>Mes que esteu voy adormit,</l>
-            <l>De goix se os dilata l' pit</l>
-            <l>Y un viatje os fa present.</l>
-            <l>Res vos diré de certs dias</l>
-            <l>Que te l' any molt senyalats,</l>
-            <l>Per ser grans festivitats,</l>
-            <l>Per ser tipo de alegrias.</l>
-            <l>Recordareu lo Totsans</l>
-            <l>La Pascua, també l' Nadal,</l>
-            <l>Quel cap posan com timbal</l>
-            <l>Lo que hi venen, xichs y grans.</l>
-            <l>Hi ha mil taulas, mil xicots,</l>
-            <l>Y á las taulas sis platets,</l>
-            <l>Plens de turró ó panallets</l>
-            <l>Y per Nadal, andiots.</l>
-            <l>Y com tot es per rifá</l>
-            <l>Y convé fero suvint,</l>
-          </lg>
-          <lg>
-            <l>Per la orella us bé brunsint</l>
-            <l>No mes <hi rend="cursiva">un</hi> ne falta já.</l>
-            <l>¡Sols un! vinga la moneda,</l>
-            <l>Vamos, senyors, que ja trech,</l>
-            <l>Y un noyet tot groch y sech</l>
-            <l>Diu molt content, per <hi rend="cursiva">mi queda.</hi></l>
-            <l>¿No has vist l' animació</l>
-            <l>Qu' hi ha l' diumenje al matí,</l>
-            <l>Que t' apretan lo sejí</l>
-            <l>Si no hi prens mort y passió?</l>
-            <l>De cal Capella al entorn</l>
-            <l>Fins prop de cal Cap de Creus,</l>
-            <l>No saps pas ahont posá 'ls peus</l>
-            <l>Ti ofegas com dins de un forn.</l>
-            <l>Allá si ques' pot dir be</l>
-            <l>Sens por de quedar hi mal,</l>
-            <l>Que tot l' <hi rend="cursiva">Estat social</hi></l>
-            <l>Representa son papé.</l>
-            <l>Allá hi veureu barratots,</l>
-            <l>Barratets y barratinas,</l>
-            <l>No hi faltan tampoch botinas,</l>
-            <l>Espardenyas, sabatots.</l>
-            <l>Tanta gresca com s' hi fá,</l>
-            <l>Tant rot d' all y de ví bó,</l>
-            <l>D' estufat, de fricandó,</l>
-            <l>Alló arriba á marejá.</l>
-            <l>Pajesos enfurismats .</l>
-            <l>Que tenint un poch d' arjan,</l>
-            <l>Sense saber lo ques' fan,</l>
-            <l>Están en mans d' advocats.</l>
-            <l>Altres que ab calsa al jenoll,</l>
-            <l>Mitja blava y barratina</l>
-            <l>Morada ó bé carmesina,</l>
-            <l>Semblan baixats de Ripoll.</l>
-            <l>Crech també aureu observat</l>
-            <l>Un grupo de jitanets,</l>
-            <l>Que per lo curros y nets</l>
-            <l>Moltas voltas he admirat;</l>
-            <l>Son pantalon llarch y estret,</l>
-            <l>Son cabell ben pentinat</l>
-            <l>Y un mocador virulat</l>
-            <l>Quels serveix com de casquet.</l>
-            <l>Apoyats ab llarga vara</l>
-            <l>Y afeitats bé de clatell,</l>
-          </lg>
-          <pb n="4" source="Varios_173_4.jpg" facs="fedora_Varios_173_4/full/full/0/default.jpg"/>
+
+          <l>Gasta en lo teatro 'l din</l>
+          <l>Y cregas tel curarán.</l>
+          <l>Y per só no cal quet mogas</l>
+          <l>De aqueix carrer tan famós,</l>
+          <l>Puig de teatros ni ha dos,</l>
+          <l><hi rend="cursiva">Cafés chantans</hi> y altres cosas.</l>
+          <l>Per los homes de bon cor</l>
+          <l>Y que sols gosan ab Deu,</l>
+          <l>També hi trobarán lo seu;</l>
+          <l>Hi ha iglesias de molt tresor.</l>
+          <l>De casas de <hi rend="cursiva">tentativa</hi>....</l>
+          <l>Pel públich, non vull parlar,</l>
+          <l>Perque comenso á notar</l>
+          <l>Que á raix fet cau ta saliva.</l>
+          <l>Me sembla que estich flairan</l>
+          <l>Posat sota de cal Brull</l>
+          <l>La perdiueta que vull,</l>
+          <l>La llebra que están guisant.</l>
+          <l>Las truitas ab butifarra,</l>
+          <l>De porch alguna costella,</l>
+          <l>De la Fonda de la Estrella,</l>
+          <l>De la Fonda de la Parra.</l>
+          <l>Tampoch puch passar per alt</l>
+          <l>Mes que hi perdeu la paciencia,</l>
+          <l>Lo tró de la dilligencia</l>
+          <l>Ni lo espetech del sagal.</l>
+          <l>Es cosa que cuan se sent</l>
+          <l>Mes que esteu voy adormit,</l>
+          <l>De goix se os dilata l' pit</l>
+          <l>Y un viatje os fa present.</l>
+          <l>Res vos diré de certs dias</l>
+          <l>Que te l' any molt senyalats,</l>
+          <l>Per ser grans festivitats,</l>
+          <l>Per ser tipo de alegrias.</l>
+          <l>Recordareu lo Totsans</l>
+          <l>La Pascua, també l' Nadal,</l>
+          <l>Quel cap posan com timbal</l>
+          <l>Lo que hi venen, xichs y grans.</l>
+          <l>Hi ha mil taulas, mil xicots,</l>
+          <l>Y á las taulas sis platets,</l>
+          <l>Plens de turró ó panallets</l>
+          <l>Y per Nadal, andiots.</l>
+          <l>Y com tot es per rifá</l>
+          <l>Y convé fero suvint,</l>
+          <l>Per la orella us bé brunsint</l>
+          <l>No mes <hi rend="cursiva">un</hi> ne falta já.</l>
+          <l>¡Sols un! vinga la moneda,</l>
+          <l>Vamos, senyors, que ja trech,</l>
+          <l>Y un noyet tot groch y sech</l>
+          <l>Diu molt content, per <hi rend="cursiva">mi queda.</hi></l>
+          <l>¿No has vist l' animació</l>
+          <l>Qu' hi ha l' diumenje al matí,</l>
+          <l>Que t' apretan lo sejí</l>
+          <l>Si no hi prens mort y passió?</l>
+          <l>De cal Capella al entorn</l>
+          <l>Fins prop de cal Cap de Creus,</l>
+          <l>No saps pas ahont posá 'ls peus</l>
+          <l>Ti ofegas com dins de un forn.</l>
+          <l>Allá si ques' pot dir be</l>
+          <l>Sens por de quedar hi mal,</l>
+          <l>Que tot l' <hi rend="cursiva">Estat social</hi></l>
+          <l>Representa son papé.</l>
+          <l>Allá hi veureu barratots,</l>
+          <l>Barratets y barratinas,</l>
+          <l>No hi faltan tampoch botinas,</l>
+          <l>Espardenyas, sabatots.</l>
+          <l>Tanta gresca com s' hi fá,</l>
+          <l>Tant rot d' all y de ví bó,</l>
+          <l>D' estufat, de fricandó,</l>
+          <l>Alló arriba á marejá.</l>
+          <l>Pajesos enfurismats .</l>
+          <l>Que tenint un poch d' arjan,</l>
+          <l>Sense saber lo ques' fan,</l>
+          <l>Están en mans d' advocats.</l>
+          <l>Altres que ab calsa al jenoll,</l>
+          <l>Mitja blava y barratina</l>
+          <l>Morada ó bé carmesina,</l>
+          <l>Semblan baixats de Ripoll.</l>
+          <l>Crech també aureu observat</l>
+          <l>Un grupo de jitanets,</l>
+          <l>Que per lo curros y nets</l>
+          <l>Moltas voltas he admirat;</l>
+          <l>Son pantalon llarch y estret,</l>
+          <l>Son cabell ben pentinat</l>
+          <l>Y un mocador virulat</l>
+          <l>Quels serveix com de casquet.</l>
+          <l>Apoyats ab llarga vara</l>
+          <l>Y afeitats bé de clatell,</l>
+
+          <pb n="4" source="Varios_173_4.jpg" facs="varios/Varios_173_4.jpg/"/>
           <fw type="paginaNum">— 4—</fw>
-          <lg>
-            <l>De la corbata lo anell</l>
-            <l>Llueixen, ques' cosa rara.</l>
-            <l>Altres rotllos hi ha que á fé</l>
-            <l>No podreu clasificá,</l>
-            <l>De mitx an avall son <hi rend="cursiva">fá</hi>,</l>
-            <l>De mitx an amunt son <hi rend="cursiva">ré</hi>.</l>
-            <l>Passan de setse ó divuit</l>
-            <l>Los carrets que hi ha aturats</l>
-            <l>Y convertits en mercats</l>
-            <l>De pomas ó d' altre fruit.</l>
-            <l>En los uns venen magranas,</l>
-            <l>En altres figas y nous ;....</l>
-            <l>¡ Prompte hi veureu veudre 'ls ous</l>
-            <l>Y gallinas africanas !....</l>
-            <l>Penso quel' dimars passat,</l>
-            <l>També entre mitx d'altres cosas,</l>
-            <l>Fins hi venian gasseosas</l>
-            <l>De lo Ansaldi propietat.</l>
-            <l>Moltas canas de cordill</l>
-            <l>Sens dupte aurán menester,</l>
-            <l>Per penjarhi tan paper</l>
-            <l>Y romansos del mal fill;</l>
-            <l>Per catxutxas, mocadors,</l>
-            <l>Draps de totas cualitats,</l>
-            <l>També hi penjan encerats</l>
-            <l>Y estampas de tots colors.</l>
-            <l>Entre 'ls ciegos que allí cantan,</l>
-            <l>Y 'ls minyons que hi limpian botas</l>
-            <l>Y 'ls xicots ques' fan ganyotas,</l>
-            <l>Y las avias que si encantan,</l>
-            <l>Y 'ls cochos que hi ha parats,</l>
-            <l>Y 'ls noys qu' hi sonan xiulets,</l>
-            <l>Y 'ls vells que hi venen bitllets</l>
-          </lg>
-          <lg>
-            <l>Del Hospital y Empedrats;</l>
-            <l>Cal que hi fassias l' ull rodó</l>
-            <l>Si no hi vols perdrer la pell,</l>
-            <l>O fer algun cap-jirell</l>
-            <l>Propet de algun carretó.</l>
-            <l>Per eixos ultims motius</l>
-            <l>Jo crech molt be, Nicolau,</l>
-            <l>Que lo carrer de San Pau</l>
-            <l>Es milló 'ls dias festius;</l>
-            <l>Y axi si prop del Padró</l>
-            <l>At' trovessias per acás,</l>
-            <l>Y has dirijis lo teu pas,</l>
-            <l>A cal Becu del Racó;</l>
-            <l>No ti pensias ni un instan,</l>
-            <l>Mes que siguia fer marrada,</l>
-            <l>Deixat de tanta apretada</l>
-            <l>Dona 'l tom per San Bertran.</l>
-            <l>Y si embesteixas tot dret</l>
-            <l>Creyent que l' camí es mes curt,</l>
-            <l>Mereixes per lo quets llurt</l>
-            <l>Quet' <hi rend="cursiva">atxafian</hi> lo barret.</l>
-          </lg>
-          <lg>
-            <l>Apesar de aixó, amich meu,</l>
-            <l>Penso habervos ben probat</l>
-            <l>Quen' lo ques' avuy Ciutat</l>
-            <l>Y que á mils carrers veyeu;</l>
-            <l>Cap altre non trovareu</l>
-            <l>Que com ell tinga de tot,</l>
-            <l>Y si un dia ell se conort</l>
-            <l>De viurer independent,</l>
-            <l>Ferhu pot molt certement</l>
-            <l>Puig que li sobra de tot.</l>
-          </lg>
-          <p><lb/>Es propietat.</p>
-          <trailer>Fi.</trailer>
+
+          <l>De la corbata lo anell</l>
+          <l>Llueixen, ques' cosa rara.</l>
+          <l>Altres rotllos hi ha que á fé</l>
+          <l>No podreu clasificá,</l>
+          <l>De mitx an avall son <hi rend="cursiva">fá</hi>,</l>
+          <l>De mitx an amunt son <hi rend="cursiva">ré</hi>.</l>
+          <l>Passan de setse ó divuit</l>
+          <l>Los carrets que hi ha aturats</l>
+          <l>Y convertits en mercats</l>
+          <l>De pomas ó d' altre fruit.</l>
+          <l>En los uns venen magranas,</l>
+          <l>En altres figas y nous ;....</l>
+          <l>¡ Prompte hi veureu veudre 'ls ous</l>
+          <l>Y gallinas africanas !....</l>
+          <l>Penso quel' dimars passat,</l>
+          <l>També entre mitx d'altres cosas,</l>
+          <l>Fins hi venian gasseosas</l>
+          <l>De lo Ansaldi propietat.</l>
+          <l>Moltas canas de cordill</l>
+          <l>Sens dupte aurán menester,</l>
+          <l>Per penjarhi tan paper</l>
+          <l>Y romansos del mal fill;</l>
+          <l>Per catxutxas, mocadors,</l>
+          <l>Draps de totas cualitats,</l>
+          <l>També hi penjan encerats</l>
+          <l>Y estampas de tots colors.</l>
+          <l>Entre 'ls ciegos que allí cantan,</l>
+          <l>Y 'ls minyons que hi limpian botas</l>
+          <l>Y 'ls xicots ques' fan ganyotas,</l>
+          <l>Y las avias que si encantan,</l>
+          <l>Y 'ls cochos que hi ha parats,</l>
+          <l>Y 'ls noys qu' hi sonan xiulets,</l>
+          <l>Y 'ls vells que hi venen bitllets</l>
+          <l>Del Hospital y Empedrats;</l>
+          <l>Cal que hi fassias l' ull rodó</l>
+          <l>Si no hi vols perdrer la pell,</l>
+          <l>O fer algun cap-jirell</l>
+          <l>Propet de algun carretó.</l>
+          <l>Per eixos ultims motius</l>
+          <l>Jo crech molt be, Nicolau,</l>
+          <l>Que lo carrer de San Pau</l>
+          <l>Es milló 'ls dias festius;</l>
+          <l>Y axi si prop del Padró</l>
+          <l>At' trovessias per acás,</l>
+          <l>Y has dirijis lo teu pas,</l>
+          <l>A cal Becu del Racó;</l>
+          <l>No ti pensias ni un instan,</l>
+          <l>Mes que siguia fer marrada,</l>
+          <l>Deixat de tanta apretada</l>
+          <l>Dona 'l tom per San Bertran.</l>
+          <l>Y si embesteixas tot dret</l>
+          <l>Creyent que l' camí es mes curt,</l>
+          <l>Mereixes per lo quets llurt</l>
+          <l>Quet' <hi rend="cursiva">atxafian</hi> lo barret.</l>
+          <l>Apesar de aixó, amich meu,</l>
+          <l>Penso habervos ben probat</l>
+          <l>Quen' lo ques' avuy Ciutat</l>
+          <l>Y que á mils carrers veyeu;</l>
+          <l>Cap altre non trovareu</l>
+          <l>Que com ell tinga de tot,</l>
+          <l>Y si un dia ell se conort</l>
+          <l>De viurer independent,</l>
+          <l>Ferhu pot molt certement</l>
+          <l>Puig que li sobra de tot.</l>
+
+          <p rend="cursiva"><lb/>Es propietat.</p>
+          <trailer rend="indent">Fi.</trailer>
         </div>
-        <div type="colofón_vendedor">
-          <p><lb/>Se ven en casa D. Pere Rius, paperaire del carrer del
-                                    Hospital, n.° 26. </p>
+        
+        <div type="colofon_vendedor">
+          <p><lb/>Se ven en casa D. Pere Rius, paperaire del carrer del Hospital, n.° 26. </p>
         </div>
-        <div type="colofon_impresora">
-          <p><lb/>BARCELONA : Imp. de Joseph Gaspar, carrer de Cervantes,
-                                    cantonada al de Gegants.—1860.</p>
+        
+        <div type="colofon_impresor">
+          <p><lb/>BARCELONA : Imp. de Joseph Gaspar, carrer de Cervantes, cantonada al de
+            Gegants.—1860.</p>
         </div>
       </div>
     </body>

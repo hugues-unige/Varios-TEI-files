@@ -1,19 +1,17 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../Schema/oddPliego_varios.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:alto="http://www.loc.gov/standards/alto/ns-v4#" xml:id="Varios_109">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Varios_109">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>NUEVO ROMANCE DE LA PASION DE NUESTRO SENOR JESUCRISTO, explicada por
-                              las piezas del ARADO.</title>
+        <title>NUEVO ROMANCE DE LA PASION DE NUESTRO SENOR JESUCRISTO, explicada por las piezas del ARADO.</title>
         <respStmt>
           <name/>
           <resp>Codificación TEI</resp>
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <authority role="rightsHolder">Bibliothèque Universitaire de
-                              Genève</authority>
+        <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
         <availability status="restricted">
           <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
         </availability>
@@ -21,11 +19,9 @@
       <sourceDesc>
         <biblFull>
           <titleStmt>
-            <title type="titulo_completo">NUEVO ROMANCE DE LA PASION DE
-                                          NUESTRO SENOR JESUCRISTO, explicada por las piezas del
-                                          ARADO.</title>
-            <title type="titulo_breve">LA PASION DE NUESTRO SENOR
-                                          JESUCRISTO</title>
+            <title type="titulo_completo">NUEVO ROMANCE DE LA PASION DE NUESTRO SENOR JESUCRISTO,
+              explicada por las piezas del ARADO.</title>
+            <title type="titulo_breve">LA PASION DE NUESTRO SENOR JESUCRISTO</title>
           </titleStmt>
           <editionStmt>
             <p/>
@@ -33,7 +29,7 @@
           <publicationStmt>
             <publisher>Sucesores de Hernando</publisher>
             <pubPlace ref="https://www.geonames.org/3117735/madrid.html">Madrid</pubPlace>
-            <date>[s.a]</date>
+            <date cert="low" when="1800-01-01">[s.a.]</date>
           </publicationStmt>
         </biblFull>
         <msDesc>
@@ -41,7 +37,8 @@
             <country>Suisse</country>
             <settlement>Genève</settlement>
             <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"/>
-                                    </repository>
+            </repository>
+            <collection>Colección Varios</collection>
             <idno type="cote"/>
             <idno type="DOI">10.5281/zenodo.6576179</idno>
             <altIdentifier>
@@ -49,10 +46,18 @@
             </altIdentifier>
           </msIdentifier>
           <msContents>
-            <summary/>
+            <summary>Tres canciones</summary>
             <msItem>
-              <locus/>
-              <title/>
+              <locus>1-2</locus>
+              <title>Nuevo romane de La Pasion de nuestro señor Jesucristo, explicada por las piezas del ARADO.</title>
+            </msItem>
+            <msItem>
+              <locus>3-4</locus>
+              <title>Cantares Místicos sobre los mandamientos de la ley de dios.</title>
+            </msItem>
+            <msItem>
+              <locus>4</locus>
+              <title>Coplas para cantar los santos sacramentos.</title>
             </msItem>
           </msContents>
           <physDesc>
@@ -94,18 +99,17 @@
     </fileDesc>
     <encodingDesc>
       <projectDesc>
-        <p>Este archivo fue creado en el marco del proyecto Desenrollando el
-                              Cordel/Démêler le cordel/Untangling the cordel, dirigido por la
-                              profesora Constance Carta de la Universidad de Ginebra, con el apoyo
-                              de la Fundación filantrópica Famille Sandoz-Monique de Meuron.</p>
+        <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+          cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la Universidad
+          de Ginebra, con el apoyo de la Fundación filantrópica Famille Sandoz-Monique de
+          Meuron.</p>
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR non corregido</p>
+          <p>OCR no corregido</p>
         </correction>
         <normalization>
-          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto
-                                    original.</p>
+          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
         </normalization>
         <punctuation>
           <p>Se conserva la puntuación original.</p>
@@ -119,17 +123,23 @@
       <textClass>
         <keywords xml:base="http://datos.bne.es/tema/">
           <term target="XX527614.html" type="tipo_texto">Romances</term>
+          <term target="XX5651276.html" type="tipo_texto">Cantos religiosos</term>
+          <term target="XX551260.html" type="tipo_texto">Coplas</term>
           <term target="XX527614.html" type="tipo_estrofa">Romances</term>
           <term type="verso_prosa">Verso</term>
-          <term type="sagrado_profano">Profano</term>
+          <term type="sagrado_profano">Sagrado</term>
         </keywords>
       </textClass>
     </profileDesc>
     <revisionDesc>
-      <change when="2022-09-01" who="#PJ">Création du fichier TEI P5 et encodage du
-                        corps du texte</change>
+      <change when="2022-09-01" who="#PJ">Création du fichier TEI P5 et encodage du corps du
+        texte</change>
+      <change when="2024-01-09" who="#EL">Add the IIIF links</change>
     </revisionDesc>
   </teiHeader>
+  <facsimile>
+    <graphic url="varios/Varios_109_1.jpg/full/200,/0/default.jpg"/>
+  </facsimile>
   <sourceDoc xml:id="automaticTranscription">
     <surface xml:id="Varios_109_1" type="page" cert="silver">
       <graphic url="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_109_1/full/full/0/default.jpg"/>
@@ -996,117 +1006,117 @@
       </zone>
       <zone xml:id="Varios_109_4_BT227_3" n="3" type="MainZone" subtype="columns" points="394,2090 435,1939 414,1517 485,1486 976,1506 986,2171 885,2222 435,2232 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_109_4/394,1486,592,746/full/0/default" corresp="MainZone:columns">
         <zone xml:id="Varios_109_4_BT227_3__1" type="DefaultLine" subtype="none" points="483,1539 480,1476 888,1468 893,1544 890,1570 511,1570 508,1567 508,1567 506,1567 506,1567 506,1567 475,1552 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_109_4/475,1468,418,102/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_109_4_BT227_3__1_1" points="483,1539 893,1544 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
+          <path xml:id="Varios_109_4_BT227_3__1_1" points="483,1539 893,1544 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
           <line>Bautismo es el primero</line>
         </zone>
         <zone xml:id="Varios_109_4_BT227_3__2" type="DefaultLine" subtype="none" points="447,1590 447,1547 834,1552 837,1595 832,1613 442,1608 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_109_4/442,1547,395,66/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_109_4_BT227_3__2_1" points="447,1590 837,1595 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
+          <path xml:id="Varios_109_4_BT227_3__2_1" points="447,1590 837,1595 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
           <line>que la criatura recibe,</line>
         </zone>
         <zone xml:id="Varios_109_4_BT227_3__3" type="DefaultLine" subtype="none" points="478,1640 478,1600 814,1600 898,1582 900,1640 898,1663 475,1656 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_109_4/475,1582,425,81/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_109_4_BT227_3__3_1" points="478,1640 900,1640 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
+          <path xml:id="Varios_109_4_BT227_3__3_1" points="478,1640 900,1640 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
           <line>por el cual siempre vive</line>
         </zone>
         <zone xml:id="Varios_109_4_BT227_3__4" type="DefaultLine" subtype="none" points="462,1688 457,1648 908,1645 915,1683 915,1706 462,1706 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_109_4/457,1645,458,61/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_109_4_BT227_3__4_1" points="462,1688 915,1683 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
+          <path xml:id="Varios_109_4_BT227_3__4_1" points="462,1688 915,1683 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
           <line>e la Iglesia en el sendero.</line>
         </zone>
         <zone xml:id="Varios_109_4_BT227_3__5" type="DefaultLine" subtype="none" points="480,1734 480,1683 936,1696 938,1739 933,1764 475,1749 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_109_4/475,1683,463,81/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_109_4_BT227_3__5_1" points="480,1734 938,1739 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
+          <path xml:id="Varios_109_4_BT227_3__5_1" points="480,1734 938,1739 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
           <line>Segundo es Confirmacion,</line>
         </zone>
         <zone xml:id="Varios_109_4_BT227_3__6" type="DefaultLine" subtype="none" points="473,1787 468,1744 847,1742 855,1782 852,1802 473,1805 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_109_4/468,1742,387,63/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_109_4_BT227_3__6_1" points="473,1787 855,1782 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
+          <path xml:id="Varios_109_4_BT227_3__6_1" points="473,1787 855,1782 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
           <line>scimpone con la mano;</line>
         </zone>
         <zone xml:id="Varios_109_4_BT227_3__7" type="DefaultLine" subtype="none" points="475,1835 475,1787 938,1790 938,1835 936,1853 473,1848 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_109_4/473,1787,465,66/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_109_4_BT227_3__7_1" points="475,1835 938,1835 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
+          <path xml:id="Varios_109_4_BT227_3__7_1" points="475,1835 938,1835 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
           <line>es del nombre del cristiano</line>
         </zone>
         <zone xml:id="Varios_109_4_BT227_3__8" type="DefaultLine" subtype="none" points="475,1883 473,1835 751,1833 753,1883 753,1898 475,1898 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_109_4/473,1833,280,65/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_109_4_BT227_3__8_1" points="475,1883 753,1883 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
+          <path xml:id="Varios_109_4_BT227_3__8_1" points="475,1883 753,1883 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
           <line>nta ratificacion.</line>
         </zone>
         <zone xml:id="Varios_109_4_BT227_3__9" type="DefaultLine" subtype="none" points="485,1931 483,1878 898,1881 903,1926 903,1941 485,1944 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_109_4/483,1878,420,66/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_109_4_BT227_3__9_1" points="485,1931 903,1926 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
+          <path xml:id="Varios_109_4_BT227_3__9_1" points="485,1931 903,1926 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
           <line>El tercero es Penitencia</line>
         </zone>
         <zone xml:id="Varios_109_4_BT227_3__10" type="DefaultLine" subtype="none" points="541,1977 536,1931 796,1929 804,1972 802,1994 541,1994 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_109_4/536,1929,268,65/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_109_4_BT227_3__10_1" points="541,1977 804,1972 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
+          <path xml:id="Varios_109_4_BT227_3__10_1" points="541,1977 804,1972 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
           <line>ella redimimos</line>
         </zone>
         <zone xml:id="Varios_109_4_BT227_3__11" type="DefaultLine" subtype="none" points="518,2025 516,1982 920,1969 923,2025 923,2040 518,2045 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_109_4/516,1969,407,76/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_109_4_BT227_3__11_1" points="518,2025 923,2025 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
+          <path xml:id="Varios_109_4_BT227_3__11_1" points="518,2025 923,2025 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
           <line>ulpas, cuando sufrimos</line>
         </zone>
         <zone xml:id="Varios_109_4_BT227_3__12" type="DefaultLine" subtype="none" points="435,2078 427,2027 946,2025 953,2073 951,2095 435,2095 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_109_4/427,2025,526,70/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_109_4_BT227_3__12_1" points="435,2078 953,2073 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
+          <path xml:id="Varios_109_4_BT227_3__12_1" points="435,2078 953,2073 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
           <line>nuestros males con paciencia.</line>
         </zone>
         <zone xml:id="Varios_109_4_BT227_3__13" type="DefaultLine" subtype="none" points="473,2121 473,2073 925,2078 928,2126 923,2159 695,2133 470,2136 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_109_4/470,2073,458,86/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_109_4_BT227_3__13_1" points="473,2121 928,2126 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
+          <path xml:id="Varios_109_4_BT227_3__13_1" points="473,2121 928,2126 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
           <line>El cuarto es la Comunion,</line>
         </zone>
         <zone xml:id="Varios_109_4_BT227_3__14" type="DefaultLine" subtype="none" points="432,2174 427,2123 842,2123 847,2171 847,2212 751,2232 751,2232 748,2232 748,2232 665,2224 592,2217 571,2229 561,2237 559,2237 559,2237 559,2237 556,2237 556,2237 556,2240 432,2240 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_109_4/427,2123,420,117/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_109_4_BT227_3__14_1" points="432,2174 847,2171 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
+          <path xml:id="Varios_109_4_BT227_3__14_1" points="432,2174 847,2171 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
           <line>Manjar divino del cielo.</line>
         </zone>
       </zone>
       <zone xml:id="Varios_109_4_BT227_4" n="4" type="MainZone" subtype="columns" points="1733,2181 1259,2222 1110,2192 1120,1496 1722,1517 1722,1656 1652,1797 1722,1921 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_109_4/1110,1496,623,726/full/0/default" corresp="MainZone:columns">
         <zone xml:id="Varios_109_4_BT227_4__1" type="DefaultLine" subtype="none" points="1138,1547 1133,1491 1244,1471 1244,1471 1247,1471 1247,1471 1373,1481 1383,1481 1388,1481 1434,1468 1437,1468 1437,1468 1439,1468 1439,1468 1439,1468 1442,1468 1442,1468 1442,1468 1444,1468 1444,1468 1444,1471 1454,1479 1457,1484 1472,1479 1505,1466 1505,1466 1507,1466 1507,1466 1510,1466 1510,1466 1512,1466 1512,1466 1512,1466 1533,1476 1545,1481 1692,1471 1700,1539 1697,1590 1490,1592 1487,1592 1487,1592 1485,1592 1485,1592 1485,1592 1482,1592 1482,1592 1482,1590 1469,1580 1452,1562 1406,1559 1138,1562 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_109_4/1133,1466,567,126/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_109_4_BT227_4__1_1" points="1138,1547 1700,1539 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
+          <path xml:id="Varios_109_4_BT227_4__1_1" points="1138,1547 1700,1539 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
           <line>que envia al hombre el consuelo</line>
         </zone>
         <zone xml:id="Varios_109_4_BT227_4__2" type="DefaultLine" subtype="none" points="1135,1595 1130,1552 1472,1547 1480,1590 1480,1608 1135,1610 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_109_4/1130,1547,350,63/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_109_4_BT227_4__2_1" points="1135,1595 1480,1590 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
+          <path xml:id="Varios_109_4_BT227_4__2_1" points="1135,1595 1480,1590 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
           <line>de poseer á su Dios.</line>
         </zone>
         <zone xml:id="Varios_109_4_BT227_4__3" type="DefaultLine" subtype="none" points="1178,1643 1173,1597 1679,1582 1687,1638 1685,1656 1178,1663 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_109_4/1173,1582,514,81/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_109_4_BT227_4__3_1" points="1178,1643 1687,1638 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
+          <path xml:id="Varios_109_4_BT227_4__3_1" points="1178,1643 1687,1638 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
           <line>El quinto es Extrema-Uncion</line>
         </zone>
         <zone xml:id="Varios_109_4_BT227_4__4" type="DefaultLine" subtype="none" points="1141,1688 1141,1638 1578,1645 1578,1688 1578,1711 1141,1711 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_109_4/1141,1638,437,73/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_109_4_BT227_4__4_1" points="1141,1688 1578,1688 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
+          <path xml:id="Varios_109_4_BT227_4__4_1" points="1141,1688 1578,1688 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
           <line>y es el último que el alma</line>
         </zone>
         <zone xml:id="Varios_109_4_BT227_4__5" type="DefaultLine" subtype="none" points="1138,1742 1130,1699 1543,1691 1550,1734 1550,1757 1138,1757 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_109_4/1130,1691,420,66/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_109_4_BT227_4__5_1" points="1138,1742 1550,1734 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
+          <path xml:id="Varios_109_4_BT227_4__5_1" points="1138,1742 1550,1734 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
           <line>recibe, cuando la palma</line>
         </zone>
         <zone xml:id="Varios_109_4_BT227_4__6" type="DefaultLine" subtype="none" points="1135,1792 1128,1742 1523,1736 1530,1785 1530,1805 1135,1805 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_109_4/1128,1736,402,69/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_109_4_BT227_4__6_1" points="1135,1792 1530,1785 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
+          <path xml:id="Varios_109_4_BT227_4__6_1" points="1135,1792 1530,1785 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
           <line>consigue de bendicion.</line>
         </zone>
         <zone xml:id="Varios_109_4_BT227_4__7" type="DefaultLine" subtype="none" points="1178,1835 1173,1795 1505,1782 1512,1830 1510,1850 1178,1853 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_109_4/1173,1782,339,71/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_109_4_BT227_4__7_1" points="1178,1835 1512,1830 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
+          <path xml:id="Varios_109_4_BT227_4__7_1" points="1178,1835 1512,1830 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
           <line>El sexto Sacerdotal</line>
         </zone>
         <zone xml:id="Varios_109_4_BT227_4__8" type="DefaultLine" subtype="none" points="1135,1886 1133,1838 1611,1838 1616,1878 1614,1898 1135,1901 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_109_4/1133,1838,483,63/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_109_4_BT227_4__8_1" points="1135,1886 1616,1878 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
+          <path xml:id="Varios_109_4_BT227_4__8_1" points="1135,1886 1616,1878 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
           <line>se llama, y por él el hombre</line>
         </zone>
         <zone xml:id="Varios_109_4_BT227_4__9" type="DefaultLine" subtype="none" points="1135,1936 1130,1888 1616,1886 1624,1931 1624,1949 1135,1949 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_109_4/1130,1886,494,63/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_109_4_BT227_4__9_1" points="1135,1936 1624,1931 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
+          <path xml:id="Varios_109_4_BT227_4__9_1" points="1135,1936 1624,1931 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
           <line>adquiere el sagrado nombre</line>
         </zone>
         <zone xml:id="Varios_109_4_BT227_4__10" type="DefaultLine" subtype="none" points="1133,1984 1133,1936 1505,1936 1505,1984 1505,1994 1133,2002 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_109_4/1133,1936,372,66/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_109_4_BT227_4__10_1" points="1133,1984 1505,1984 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
+          <path xml:id="Varios_109_4_BT227_4__10_1" points="1133,1984 1505,1984 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
           <line>de ministro del altar.</line>
         </zone>
         <zone xml:id="Varios_109_4_BT227_4__11" type="DefaultLine" subtype="none" points="1178,2027 1178,1982 1583,1982 1583,2027 1581,2047 1176,2042 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_109_4/1176,1982,407,65/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_109_4_BT227_4__11_1" points="1178,2027 1583,2027 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
+          <path xml:id="Varios_109_4_BT227_4__11_1" points="1178,2027 1583,2027 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
           <line>Y el último sacramento,</line>
         </zone>
         <zone xml:id="Varios_109_4_BT227_4__12" type="DefaultLine" subtype="none" points="1135,2075 1133,2027 1669,2022 1672,2075 1669,2095 1133,2093 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_109_4/1133,2022,539,73/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_109_4_BT227_4__12_1" points="1135,2075 1672,2075 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
+          <path xml:id="Varios_109_4_BT227_4__12_1" points="1135,2075 1672,2075 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
           <line>que es el Matrimonio, encierra</line>
         </zone>
         <zone xml:id="Varios_109_4_BT227_4__13" type="DefaultLine" subtype="none" points="1138,2126 1135,2078 1649,2080 1654,2123 1649,2144 1135,2141 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_109_4/1135,2078,519,66/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_109_4_BT227_4__13_1" points="1138,2126 1654,2123 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
+          <path xml:id="Varios_109_4_BT227_4__13_1" points="1138,2126 1654,2123 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
           <line>la dicha que aquí, en la tierra,</line>
         </zone>
         <zone xml:id="Varios_109_4_BT227_4__14" type="DefaultLine" subtype="none" points="1135,2176 1130,2126 1700,2118 1707,2171 1707,2255 1566,2255 1563,2252 1563,2252 1561,2252 1528,2242 1505,2235 1495,2240 1477,2247 1477,2247 1477,2247 1475,2247 1475,2247 1472,2247 1472,2247 1411,2240 1411,2240 1409,2240 1409,2240 1409,2240 1406,2240 1406,2240 1406,2237 1401,2232 1386,2219 1345,2229 1277,2245 1277,2245 1277,2245 1275,2245 1275,2245 1272,2245 1272,2245 1272,2245 1270,2245 1237,2222 1227,2217 1135,2217 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_109_4/1130,2118,577,137/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_109_4_BT227_4__14_1" points="1135,2176 1707,2171 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
+          <path xml:id="Varios_109_4_BT227_4__14_1" points="1135,2176 1707,2171 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
           <line>puede el hombre hallar contento.</line>
         </zone>
       </zone>
@@ -1142,330 +1152,352 @@
   <text>
     <body>
       <div>
-        <pb n="1" source="Varios_109_1.jpg" facs="fedora_Varios_109_1/full/full/0/default.jpg"/>
-        <fw type="impresorNum">(Núm. 137).</fw>
-        <div type="parte" n="1">
-          <head type="primer_titulo"><lb/>NUEVO ROMANCE<lb/>DE<lb/>LA PASION DE NUESTRO SENOR
-                                    JESUCRISTO,<lb/>explicada por las piezas del ARADO.</head>
-          <lg>
-            <l>El arado cantaré,</l>
-            <l>de piezas le iré formando,</l>
-            <l>y de la Pasion de Cristo</l>
-            <l>los pasos iré aplicando.</l>
-          </lg>
-          <lg>
-            <l>El dental es el cimiento</l>
-            <l>donde se forma el arado;</l>
-            <l>asi el cristiano contento</l>
-            <l>vive de su Dios al lado.</l>
-          </lg>
-          <lg>
-            <l>La cama será la cruz,</l>
-            <l>cruz que Dios glorificó;</l>
-            <l>feliz quien sigue la luz</l>
-            <l>que en el Calvario alumbró.</l>
-          </lg>
-          <lg>
-            <l>Por la cama y el dental</l>
-            <l>veo atravesado el trechero</l>
-            <l>cual clavo que hirió fatal</l>
-            <l>los piés del Santo Cordero.</l>
-          </lg>
-          <lg>
-            <l>La chaveta y la telera</l>
-            <l>hacen cruz ambas á dos;</l>
-            <l>consideremos siquiera</l>
-            <l>que en ella Jesús murió.</l>
-          </lg>
-          <lg>
-            <l>La mancera, puede ser,</l>
-            <l>el rosal de mil colores,</l>
-            <l>árbol místico de fé</l>
-            <l>que al alma eleva entre flores.</l>
-          </lg>
-          <lg>
-            <l>Lengua la reja será,</l>
-            <l>voz del apóstol profundo,</l>
-            <l>que de Dios la santidad</l>
-            <l>publicó por todo el mundo.</l>
-          </lg>
-          <pb n="2" source="Varios_109_2.jpg" facs="fedora_Varios_109_2/full/full/0/default.jpg"/>
-          <lg>
-            <l>El pescuña es lo que aprieta</l>
-            <l>todas estas trabazones;</l>
-            <l>dichoso aquel que no inquieta</l>
-            <l>recuerdo de maldiciones.</l>
-          </lg>
-          <lg>
-            <l>Los orejeros son dos,</l>
-            <l>abiertos como dos brazos;</l>
-            <l>figurémonos de Dios</l>
-            <l>los tiernisimos abrazos.</l>
-          </lg>
-          <lg>
-            <l>El timon que hace al arado</l>
-            <l>ir derecho cuando avanza,</l>
-            <l>te representa la lanza</l>
-            <l>que le atravesó el costado.</l>
-          </lg>
-          <lg>
-            <l>En las belortas verás,</l>
-            <l>pues son de hierro las dos,</l>
-            <l>la corona que á tu Dios</l>
-            <l>puso el malvado Caifás.</l>
-          </lg>
-          <lg>
-            <l>Los bueyes son los judios</l>
-            <l>que á Jesucristo llevaron</l>
-            <l>al Calvario, donde impios</l>
-            <l>crueles le crucificaron.</l>
-          </lg>
-          <lg>
-            <l>El yugo será el madero</l>
-            <l>donde á Jesus amarraron,</l>
-            <l>y las sogas, lo primero</l>
-            <l>con que sus manos ataron.</l>
-          </lg>
-          <lg>
-            <l>El barreno que traspasa</l>
-            <l>la clavija del timon,</l>
-            <l>es el que las manos pasa</l>
-            <l>y los pies del Salvador.</l>
-          </lg>
-          <lg>
-            <l>El barron es la saeta</l>
-            <l>que clavaron al costado,</l>
-            <l>que tambien hablaba de esta</l>
-            <l>todo lo profetizado.</l>
-          </lg>
-          <lg>
-            <l>Las fajas con los collares,</l>
-            <l>fajas con que le han atado.</l>
-            <l>y los cencerros los ayes</l>
-            <l>cuando le están enterrando.</l>
-          </lg>
-          <lg>
-            <l>La azuela que el gañan lleva</l>
-            <l>para componer su arado,</l>
-            <l>aquel martillo nos prueba</l>
-            <l>que remacharon los clavos.</l>
-          </lg>
-          <lg>
-            <l>La ahijada que habreis ya visto</l>
-            <l>dice muy bien á las claras,</l>
-            <l>que significa las varas</l>
-            <l>con que azotaron á Cristo.</l>
-          </lg>
-          <lg>
-            <l>El gañan, el cirineo</l>
-            <l>que á Cristo ayudó á llevar</l>
-            <l>la santa cruz al lugar</l>
-            <l>del suplicio, como reo.</l>
-          </lg>
-          <lg>
-            <l>El surco que el mozo indica</l>
-            <l>igual por todo el terreno,</l>
-            <l>el camino significa</l>
-            <l>de Jesus, el Nazareno.</l>
-          </lg>
-          <lg>
-            <l>Las toparras que aparecen</l>
-            <l>cuando va el gañan arando,</l>
-            <l>las caidas me parecen</l>
-            <l>que dió Jesus caminando.</l>
-          </lg>
-          <lg>
-            <l>La semilla que esparrama</l>
-            <l>el labrador por el suelo,</l>
-            <l>la sangre que se derrama</l>
-            <l>del Dios que bajó del cielo.</l>
-          </lg>
-          <lg>
-            <l>Padres, los que hijos teneis,</l>
-            <l>ya habeis oido el arado</l>
-            <l>esplicádselo, y vereis</l>
-            <l>como huyen del pecado.</l>
-          </lg>
-        </div>
-        <pb n="3" source="Varios_109_3.jpg" facs="fedora_Varios_109_3/full/full/0/default.jpg"/>
-        <div type="parte" n="2">
-          <head type="titulo_parte"><lb/>CANTARES MÍSTICOS<lb/>SOBRE LOS<lb/>MANDAMIENTOS DE LA LEY
-                                    DE DIOS.</head>
-          <lg>
-            <l>Alma, escucha y atiende</l>
-            <l>estos consejos,</l>
-            <l>y corregir pretende</l>
-            <l>pecados viejos;</l>
-            <l>Que si los oyes,</l>
-            <l>puede ser que tus culpas</l>
-            <l>humilde llores.</l>
-            <l>Observar ciertos preceptos</l>
-            <l>Dios ha mandado,</l>
-            <l>míralos con respetos</l>
-            <l>serás premiado.</l>
-            <l>Y si á ellos faltas</l>
-            <l>tendrás cuando fallezcas</l>
-            <l>penas muy altas.</l>
-          </lg>
-          <p><lb/>1.°</p>
-          <lg>
-            <l>Sobre todo en el mundo</l>
-            <l>has de quererle,</l>
-            <l>y con amor profundo</l>
-            <l>no has de ofenderle.</l>
-            <l>Que su mirada</l>
-            <l>todo lo ve y penetra</l>
-            <l>sin dejar nada.</l>
-          </lg>
-          <p><lb/>2.°</p>
-          <lg>
-            <l>Su santo nombre en vano</l>
-            <l>jurar no quieras.</l>
-            <l>que solo hacerlo es llano</l>
-            <l>si fé dijeras.</l>
-            <l>Mas así y todo</l>
-            <l>es muy feo pecado</l>
-            <l>de cualquier modo.</l>
-          </lg>
-          <p><lb/>3.°</p>
-          <lg>
-            <l>Santifica las fiestas</l>
-            <l>oyendo misa,</l>
-            <l>sin trabajar en estas</l>
-            <l>cosa precisa.</l>
-            <l>Que Dios es bueno,</l>
-            <l>y sirviéndole, nada</l>
-            <l>tendrás de menos.</l>
-          </lg>
-          <p><lb/>4.°</p>
-          <lg>
-            <l>Honrar á padre y madre</l>
-            <l>tambien previene,</l>
-            <l>y á quien así lo hace</l>
-            <l>respeto tiene.</l>
-            <l>Que al que es buen hijo,</l>
-            <l>Dios bendice, y dichoso</l>
-            <l>será de fijo.</l>
-          </lg>
-          <p><lb/>5.°</p>
-          <lg>
-            <l>Si deseas á alguno</l>
-            <l>males ó muerte,</l>
-            <l>Dios te dará uno a uno</l>
-            <l>la misma suerte.</l>
-            <l>Y así te advierto</l>
-            <l>que deseches y aportes</l>
-            <l>tal desacierto.</l>
-          </lg>
-          <p><lb/>6.°</p>
-          <lg>
-            <l>Que seas casto y puro</l>
-            <l>manda en el sexto,</l>
-            <l>porque es el horibre impio</l>
-            <l>un pozo infesto.</l>
-            <l>Y si lo observas</l>
-            <l>verás en la otra vida</l>
-            <l>qué premio llevas</l>
-          </lg>
-          <p>
-            <lb/>
-            <damage agent="borrada">
-              <supplied>7.°</supplied>
-            </damage>
-          </p>
-          <lg>
-            <l>A nadie qutes nada</l>
-            <l>que es gran pecado</l>
-            <l>y hacienda mal ganada</l>
-            <l>es bien menguado</l>
-            <pb n="4" source="Varios_109_4.jpg" facs="fedora_Varios_109_4/full/full/0/default.jpg"/>
-            <l>Que el que esto hace</l>
-            <l>como sal en el agua</l>
-            <l>se le deshace.</l>
-          </lg>
-          <p><lb/>8.°</p>
-          <lg>
-            <l>Al prójimo no insultes</l>
-            <l>cual torpe amigo,</l>
-            <l>ni la verdad ocultes</l>
-            <l>falso testigo.</l>
-            <l>Porque el infierno</l>
-            <l>de embusterosy falsos</l>
-            <l>se encuentra lleno.</l>
-            <l>El que mujer ajena</l>
-          </lg>
-          <p><lb/>9.°</p>
-          <lg>
-            <l>desea y ama,</l>
-            <l>vida le espera eterna</l>
-            <l>de eterna llama.</l>
-            <l>Que está mandado</l>
-            <l>que cada uno sea,</l>
-            <l>fiel á su estado.</l>
-          </lg>
-          <p><lb/>10.°</p>
-          <lg>
-            <l>e tu hermano los bienes</l>
-            <l>no le ambiciones,</l>
-            <l>pasa con los que tienes</l>
-            <l>sin tentaciones.</l>
-            <l>Que la codicia</l>
-            <l>es por Dios castigada,</l>
-            <l>y la avaricia.</l>
-            <l>Ten siempre los sentidos</l>
-            <l>muy vigilantes,</l>
-            <l>que cuando están dormidos</l>
-            <l>son insinuantes.</l>
-            <l>Y de esta suete</l>
-            <l>los tendras bien dispuestos</l>
-            <l>hasta la muerte.</l>
-            <l>Caridad, Fé, Esperanza,</l>
-            <l>son elementos</l>
-            <l>con los que el hombre alcanza</l>
-            <l>puros contentos.</l>
-            <l>Y en la otra vida</l>
-            <l>la gloria que á los buenos</l>
-            <l>hay prometida.</l>
-          </lg>
-        </div>
-        <div type="parte" n="2">
-          <head type="titulo_cancion"><lb/>COPLAS PARA CANTAR LOS SANTOS SACRAMENTOS.</head>
-          <lg>
-            <l>Bautismo es el primero</l>
+        <div>
+          <pb n="1" source="Varios_109_1.jpg" facs="varios/Varios_109_1.jpg/"/>
+
+          <fw type="impresorNum">(Núm. 137).</fw>
+
+          <div n="1">
+            <head type="primer_titulo"><lb/>NUEVO ROMANCE<lb/>DE<lb/><hi rend="negrita">LA PASION DE
+                NUESTRO SENOR JESUCRISTO,</hi><lb/>explicada por las piezas del ARADO.</head>
+
+            <lg>
+              <l rend="indent">El arado cantaré,</l>
+              <l>de piezas le iré formando,</l>
+              <l>y de la Pasion de Cristo</l>
+              <l>los pasos iré aplicando.</l>
+            </lg>
+            <lg>
+              <l rend="indent">El <hi rend="cursiva">dental</hi> es el cimiento</l>
+              <l>donde se forma el arado;</l>
+              <l>asi el cristiano contento</l>
+              <l>vive de su Dios al lado.</l>
+            </lg>
+            <lg>
+              <l rend="indent">La <hi rend="cursiva">cama</hi> será la cruz,</l>
+              <l>cruz que Dios glorificó;</l>
+              <l>feliz quien sigue la luz</l>
+              <l>que en el Calvario alumbró.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Por la cama y el dental</l>
+              <l>veo atravesado el <hi rend="cursiva">trechero</hi></l>
+              <l>cual clavo que hirió fatal</l>
+              <l>los piés del Santo Cordero.</l>
+            </lg>
+            <lg>
+              <l rend="indent">La <hi rend="cursiva">chaveta</hi> y la <hi rend="cursiva">telera</hi></l>
+              <l>hacen cruz ambas á dos;</l>
+              <l>consideremos siquiera</l>
+              <l>que en ella Jesús murió.</l>
+            </lg>
+            <lg>
+              <l rend="indent">La <hi rend="cursiva">mancera</hi>, puede ser,</l>
+              <l>el rosal de mil colores,</l>
+              <l>árbol místico de fé</l>
+              <l>que al alma eleva entre flores.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Lengua la <hi rend="cursiva">reja</hi> será,</l>
+              <l>voz del apóstol profundo,</l>
+              <l>que de Dios la santidad</l>
+              <l>publicó por todo el mundo.</l>
+            </lg>
+
+            <pb n="2" source="Varios_109_2.jpg" facs="varios/Varios_109_2.jpg/"/>
+
+            <lg>
+              <l rend="indent">El <hi rend="cursiva">pescuño</hi> es lo que aprieta</l>
+              <l>todas estas trabazones;</l>
+              <l>dichoso aquel que no inquieta</l>
+              <l>recuerdo de maldiciones.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Los <hi rend="cursiva">orejeros</hi> son dos,</l>
+              <l>abiertos como dos brazos;</l>
+              <l>figurémonos de Dios</l>
+              <l>los tiernisimos abrazos.</l>
+            </lg>
+            <lg>
+              <l rend="indent">El <hi rend="cursiva">timon</hi> que hace al arado</l>
+              <l>ir derecho cuando avanza,</l>
+              <l>te representa la lanza</l>
+              <l>que le atravesó el costado.</l>
+            </lg>
+            <lg>
+              <l rend="indent">En las <hi rend="cursiva">belortas</hi> verás,</l>
+              <l>pues son de hierro las dos,</l>
+              <l>la corona que á tu Dios</l>
+              <l>puso el malvado Caifás.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Los <hi rend="cursiva">bueyes</hi> son los judios</l>
+              <l>que á Jesucristo llevaron</l>
+              <l>al Calvario, donde impios</l>
+              <l>crueles le crucificaron.</l>
+            </lg>
+            <lg>
+              <l rend="indent">El <hi rend="cursiva">yugo</hi> será el madero</l>
+              <l>donde á Jesus amarraron,</l>
+              <l>y las <hi rend="cursiva">sogas</hi>, lo primero</l>
+              <l>con que sus manos ataron.</l>
+            </lg>
+            <lg>
+              <l rend="indent">El <hi rend="cursiva">barreno</hi> que traspasa</l>
+              <l>la <hi rend="cursiva">clavija</hi> del <hi rend="cursiva">timon</hi>,</l>
+              <l>es el que las manos pasa</l>
+              <l>y los pies del Salvador.</l>
+            </lg>
+            <lg>
+              <l rend="indent">El <hi rend="cursiva">barron</hi> es la saeta</l>
+              <l>que clavaron al costado,</l>
+              <l>que tambien hablaba de esta</l>
+              <l>todo lo profetizado.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Las fajas con los <hi rend="cursiva">collares</hi>,</l>
+              <l>fajas con que le han atado.</l>
+              <l>y los cencerros los ayes</l>
+              <l>cuando le están enterrando.</l>
+            </lg>
+            <lg>
+              <l rend="indent">La <hi rend="cursiva">azuela</hi> que el gañan lleva</l>
+              <l>para componer su arado,</l>
+              <l>aquel martillo nos prueba</l>
+              <l>que remacharon los clavos.</l>
+            </lg>
+            <lg>
+              <l rend="indent">La <hi rend="cursiva">ahijada</hi> que habreis ya visto</l>
+              <l>dice muy bien á las claras,</l>
+              <l>que significa las varas</l>
+              <l>con que azotaron á Cristo.</l>
+            </lg>
+            <lg>
+              <l rend="indent">El <hi rend="cursiva">gañan</hi>, el cirineo</l>
+              <l>que á Cristo ayudó á llevar</l>
+              <l>la santa cruz al lugar</l>
+              <l>del suplicio, como reo.</l>
+            </lg>
+            <lg>
+              <l rend="indent">El <hi rend="cursiva">surco</hi> que el mozo indica</l>
+              <l>igual por todo el terreno,</l>
+              <l>el camino significa</l>
+              <l>de Jesus, el Nazareno.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Las <hi rend="cursiva">toparras</hi> que aparecen</l>
+              <l>cuando va el gañan arando,</l>
+              <l>las caidas me parecen</l>
+              <l>que dió Jesus caminando.</l>
+            </lg>
+            <lg>
+              <l rend="indent">La <hi rend="cursiva">semilla</hi> que esparrama</l>
+              <l>el labrador por el suelo,</l>
+              <l>la sangre que se derrama</l>
+              <l>del Dios que bajó del cielo.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Padres, los que hijos teneis,</l>
+              <l>ya habeis oido el arado</l>
+              <l>esplicádselo, y vereis</l>
+              <l>como huyen del pecado.</l>
+            </lg>
+          </div>
+
+          <div n="2">
+            <pb n="3" source="Varios_109_3.jpg" facs="varios/Varios_109_3.jpg/"/>
+
+            <head type="titulo_parte"><lb/>CANTARES MÍSTICOS<lb/>SOBRE LOS<lb/>MANDAMIENTOS DE LA
+              LEY DE DIOS.</head>
+
+            <lg>
+              <l rend="indent">Alma, escucha y atiende</l>
+              <l>estos consejos,</l>
+              <l>y corregir pretende</l>
+              <l>pecados viejos;</l>
+              <l rend="indent">Que si los oyes,</l>
+              <l>puede ser que tus culpas</l>
+              <l>humilde llores.</l>
+              <l rend="indent">Observar ciertos preceptos</l>
+              <l>Dios ha mandado,</l>
+              <l>míralos con respetos</l>
+              <l>serás premiado.</l>
+              <l rend="indent">Y si á ellos faltas</l>
+              <l>tendrás cuando fallezcas</l>
+              <l>penas muy altas.</l>
+            </lg>
+
+            <lg>
+              <head><lb/>1.°</head>
+              <l rend="indent">Sobre todo en el mundo</l>
+              <l>has de quererle,</l>
+              <l>y con amor profundo</l>
+              <l>no has de ofenderle.</l>
+              <l rend="indent">Que su mirada</l>
+              <l>todo lo ve y penetra</l>
+              <l>sin dejar nada.</l>
+            </lg>
+
+            <lg>
+              <head><lb/>2.°</head>
+              <l rend="indent">Su santo nombre en vano</l>
+              <l>jurar no quieras.</l>
+              <l>que solo hacerlo es llano</l>
+              <l>si fé dijeras.</l>
+              <l rend="indent">Mas así y todo</l>
+              <l>es muy feo pecado</l>
+              <l>de cualquier modo.</l>
+            </lg>
+
+            <lg>
+              <head><lb/>3.°</head>
+              <l rend="indent">Santifica las fiestas</l>
+              <l>oyendo misa,</l>
+              <l>sin trabajar en estas</l>
+              <l>cosa precisa.</l>
+              <l rend="indent">Que Dios es bueno,</l>
+              <l>y sirviéndole, nada</l>
+              <l>tendrás de menos.</l>
+            </lg>
+
+            <lg>
+              <head><lb/>4.°</head>
+              <l rend="indent">Honrar á padre y madre</l>
+              <l>tambien previene,</l>
+              <l>y á quien así lo hace</l>
+              <l>respeto tiene.</l>
+              <l rend="indent">Que al que es buen hijo,</l>
+              <l>Dios bendice, y dichoso</l>
+              <l>será de fijo.</l>
+            </lg>
+
+            <lg>
+              <head><lb/>5.°</head>
+              <l rend="indent">Si deseas á alguno</l>
+              <l>males ó muerte,</l>
+              <l>Dios te dará uno a uno</l>
+              <l>la misma suerte.</l>
+              <l rend="indent">Y así te advierto</l>
+              <l>que deseches y aportes</l>
+              <l>tal desacierto.</l>
+            </lg>
+
+            <lg>
+              <head><lb/>6.°</head>
+              <l rend="indent">Que seas casto y puro</l>
+              <l>manda en el sexto,</l>
+              <l>porque es el horibre impio</l>
+              <l>un pozo infesto.</l>
+              <l rend="indent">Y si lo observas</l>
+              <l>verás en la otra vida</l>
+              <l>qué premio llevas</l>
+            </lg>
+
+            <lg>
+              <head>
+                <lb/>
+                <damage agent="borrada">
+                  <supplied>7.°</supplied>
+                </damage>
+              </head>
+              <l rend="indent">A nadie qutes nada</l>
+              <l>que es gran pecado</l>
+              <l>y hacienda mal ganada</l>
+              <l>es bien menguado</l>
+
+              <pb n="4" source="Varios_109_4.jpg" facs="varios/Varios_109_4.jpg/"/>
+
+              <l rend="indent">Que el que esto hace</l>
+              <l>como sal en el agua</l>
+              <l>se le deshace.</l>
+            </lg>
+
+            <lg>
+              <head><lb/>8.°</head>
+              <l rend="indent">Al prójimo no insultes</l>
+              <l>cual torpe amigo,</l>
+              <l>ni la verdad ocultes</l>
+              <l>falso testigo.</l>
+              <l rend="indent">Porque el infierno</l>
+              <l>de embusterosy falsos</l>
+              <l>se encuentra lleno.</l>
+            </lg>
+
+            <lg>
+              <head><lb/>9.°</head>
+              <l rend="indent">El que mujer ajena</l>
+              <l>desea y ama,</l>
+              <l>vida le espera eterna</l>
+              <l>de eterna llama.</l>
+              <l rend="indent">Que está mandado</l>
+              <l>que cada uno sea,</l>
+              <l>fiel á su estado.</l>
+            </lg>
+
+            <lg>
+              <head><lb/>10.°</head>
+              <l rend="indent">e tu hermano los bienes</l>
+              <l>no le ambiciones,</l>
+              <l>pasa con los que tienes</l>
+              <l>sin tentaciones.</l>
+              <l rend="indent">Que la codicia</l>
+              <l>es por Dios castigada,</l>
+              <l>y la avaricia.</l>
+              <l rend="indent">Ten siempre los sentidos</l>
+              <l>muy vigilantes,</l>
+              <l>que cuando están dormidos</l>
+              <l>son insinuantes.</l>
+              <l rend="indent">Y de esta suete</l>
+              <l>los tendras bien dispuestos</l>
+              <l>hasta la muerte.</l>
+              <l rend="indent">Caridad, Fé, Esperanza,</l>
+              <l>son elementos</l>
+              <l>con los que el hombre alcanza</l>
+              <l>puros contentos.</l>
+              <l rend="indent">Y en la otra vida</l>
+              <l>la gloria que á los buenos</l>
+              <l>hay prometida.</l>
+            </lg>
+          </div>
+
+          <div n="3">
+            <head type="titulo_cancion"><lb/>COPLAS PARA CANTAR LOS SANTOS SACRAMENTOS.</head>
+
+            <l rend="indent"><hi rend="cursiva">Bautismo</hi> es el primero</l>
             <l>que la criatura recibe,</l>
             <l>por el cual siempre vive</l>
             <l>e la Iglesia en el sendero.</l>
-            <l>Segundo es Confirmacion,</l>
+            <l rend="indent">Segundo es <hi rend="cursiva">Confirmacion</hi>,</l>
             <l>scimpone con la mano;</l>
             <l>es del nombre del cristiano</l>
             <l>nta ratificacion.</l>
-            <l>El tercero es Penitencia</l>
+            <l rend="indent">El tercero es <hi rend="cursiva">Penitencia</hi></l>
             <l>ella redimimos</l>
             <l>ulpas, cuando sufrimos</l>
             <l>nuestros males con paciencia.</l>
-            <l>El cuarto es la Comunion,</l>
+            <l rend="indent">El cuarto es la <hi rend="cursiva">Comunion</hi>,</l>
             <l>Manjar divino del cielo.</l>
-          </lg>
-          <lg>
             <l>que envia al hombre el consuelo</l>
             <l>de poseer á su Dios.</l>
-            <l>El quinto es Extrema-Uncion</l>
+            <l rend="indent">El quinto es <hi rend="cursiva">Extrema-Uncion</hi></l>
             <l>y es el último que el alma</l>
             <l>recibe, cuando la palma</l>
             <l>consigue de bendicion.</l>
-            <l>El sexto Sacerdotal</l>
+            <l rend="indent">El sexto <hi rend="cursiva">Sacerdotal</hi></l>
             <l>se llama, y por él el hombre</l>
             <l>adquiere el sagrado nombre</l>
             <l>de ministro del altar.</l>
-            <l>Y el último sacramento,</l>
+            <l rend="indent">Y el último <hi rend="cursiva">sacramento</hi>,</l>
             <l>que es el Matrimonio, encierra</l>
             <l>la dicha que aquí, en la tierra,</l>
             <l>puede el hombre hallar contento.</l>
-          </lg>
+
+          </div>
         </div>
+        
         <div type="colofon">
-          <p><lb/>MADRID.- Despacho: Sucesores de Hernando, Arenal,
-                                    IL<lb/>COL-LECCIÓ Manuel Massó</p>
+          <p><lb/>MADRID.- Despacho: Sucesores de Hernando, Arenal, IL<lb/>COL-LECCIÓ Manuel
+            Massó</p>
         </div>
       </div>
     </body>

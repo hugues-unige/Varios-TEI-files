@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../Schema/oddPliego_varios.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:alto="http://www.loc.gov/standards/alto/ns-v4#" xml:id="Varios_152">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Varios_152">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -11,8 +11,7 @@
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <authority role="rightsHolder">Bibliothèque Universitaire de
-                            Genève</authority>
+        <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
         <availability status="restricted">
           <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
         </availability>
@@ -20,8 +19,10 @@
       <sourceDesc>
         <biblFull>
           <titleStmt>
-            <title type="titulo_completo">Don Rodulfo de Pedrajas</title>
-            <title type="titulo_breve">Don Rodulfo de Pedrajas, nueva relacion, en que se da cuenta de los valerosos hechos y aventuras que le sucedieron á este caballero y cómo S. M. le premió por sus distinguidas hazañas.</title>
+            <title type="titulo_breve">Don Rodulfo de Pedrajas</title>
+            <title type="titulo_completo">Don Rodulfo de Pedrajas, nueva relacion, en que se da
+              cuenta de los valerosos hechos y aventuras que le sucedieron á este caballero y cómo
+              S. M. le premió por sus distinguidas hazañas. Primera parte.</title>
           </titleStmt>
           <editionStmt>
             <p/>
@@ -29,7 +30,7 @@
           <publicationStmt>
             <publisher>Sucesores de Hernando</publisher>
             <pubPlace ref="https://www.geonames.org/3117735/madrid.html">Madrid</pubPlace>
-            <date cert="high">[s.a]</date>
+            <date cert="low" when="1800-01-01">[s.a.]</date>
           </publicationStmt>
         </biblFull>
         <msDesc>
@@ -37,7 +38,8 @@
             <country>Suisse</country>
             <settlement>Genève</settlement>
             <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"/>
-                  </repository>
+            </repository>
+            <collection>Colección Varios</collection>
             <idno type="cote"/>
             <idno type="DOI">10.5281/zenodo.6587085</idno>
             <altIdentifier>
@@ -45,10 +47,14 @@
             </altIdentifier>
           </msIdentifier>
           <msContents>
-            <summary/>
+            <summary>Dos partes</summary>
             <msItem>
-              <locus/>
-              <title/>
+              <locus>1-3</locus>
+              <title>Primera parte</title>
+            </msItem>
+            <msItem>
+              <locus>3-4</locus>
+              <title>Segunda parte</title>
             </msItem>
           </msContents>
           <physDesc>
@@ -66,8 +72,7 @@
               </layoutDesc>
             </objectDesc>
             <decoDesc>
-              <summary n="1">Uno grabado
-                                        (p.1) </summary>
+              <summary n="1">Un grabado (p.1)</summary>
               <decoNote type="lista_grabados">
                 <list>
                   <item corresp="grabado_v_152_1.xml">grabado_v_152_1</item>
@@ -90,18 +95,17 @@
     </fileDesc>
     <encodingDesc>
       <projectDesc>
-        <p>Este archivo fue creado en el marco del proyecto Desenrollando el
-                            Cordel/Démêler le cordel/Untangling the cordel, dirigido por la
-                            profesora Constance Carta de la Universidad de Ginebra, con el apoyo de
-                            la Fundación filantrópica Famille Sandoz-Monique de Meuron.</p>
+        <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+          cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la Universidad
+          de Ginebra, con el apoyo de la Fundación filantrópica Famille Sandoz-Monique de
+          Meuron.</p>
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR non corregido</p>
+          <p>OCR no corregido</p>
         </correction>
         <normalization>
-          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto
-                                original.</p>
+          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
         </normalization>
         <punctuation>
           <p>Se conserva la puntuación original.</p>
@@ -114,8 +118,8 @@
       </langUsage>
       <textClass>
         <keywords xml:base="http://datos.bne.es/tema/">
-          <term target="XX4876797.html" type="tipo_texto">Sainetes</term>
-          <term type="tipo_estrofa"/>
+          <term type="tipo_texto">Relaciones</term>
+          <term target="XX4843218.html" type="tipo_estrofa">Romances</term>
           <term type="verso_prosa">Verso</term>
           <term type="sagrado_profano">Profano</term>
         </keywords>
@@ -123,9 +127,13 @@
     </profileDesc>
     <revisionDesc>
       <change when="2023-03-10" who="#PJ">Création du fichier TEI P5 et encodage du corps du
-                        texte</change>
+        texte</change>
+      <change when="2024-01-09" who="#EL">Add the IIIF links</change>
     </revisionDesc>
   </teiHeader>
+  <facsimile>
+    <graphic url="varios/Varios_152_1.jpg/full/200,/0/default.jpg"/>
+  </facsimile>
   <sourceDoc xml:id="automaticTranscription">
     <surface xml:id="Varios_152_1" type="page" cert="silver">
       <graphic url="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_152_1/full/full/0/default.jpg"/>
@@ -1556,14 +1564,18 @@
   <text>
     <body>
       <div>
-        <pb n="1" source="Varios_152_1.jpg" facs="fedora_Varios_152_1/full/full/0/default.jpg"/>
-        <fw type="numeroPliego">(Núm. 52.)</fw>
         <div>
+          <pb n="1" source="Varios_152_1.jpg" facs="varios/Varios_152_1.jpg/"/>
+          <fw type="impresorNum">(Núm. 52.)</fw>
+
           <head type="primer_titulo"><lb/>DON RODULFO DE PEDRAJAS.</head>
-          <head type="titulo_parte"><lb/>NUEVA RELACION,<lb/>en que se da cuenta de los valerosos hechos y aventuras que le sucedieron<lb/>á este caballero y cómo S. M. le premió por sus distinguidas hazañas.</head>
-          <head type="subtitulo_parte"><lb/>PRIMERA PARTE.</head>
-          <lg>
-            <l>Todo bandido se esconda,</l>
+          <head type="subtitulo"><lb/><hi rend="negrita">NUEVA RELACION,</hi><lb/><hi rend="cursiva">en que se da cuenta de los valerosos hechos y aventuras que le sucedieron<lb/>á este
+              caballero y cómo S. M. le premió por sus distinguidas hazañas.</hi></head>
+
+          <div n="1" type="parte">
+            <head type="titulo_parte"><lb/>PRIMERA PARTE.</head>
+
+            <l rend="indent">Todo bandido se esconda,</l>
             <l>no manifieste la charpa,</l>
             <l>á vista de mis arrojos</l>
             <l>tiemblen los guapos de España,</l>
@@ -1586,8 +1598,6 @@
             <l>que el astro de mi fortuna</l>
             <l>me señalo letrus y armas.</l>
             <l>Llegué á cumplir veinte años,</l>
-          </lg>
-          <lg>
             <l>compré un caballo y charpa,</l>
             <l>y cargado de tabaco</l>
             <l>á Zaragoza pasaba;</l>
@@ -1611,9 +1621,9 @@
             <l>y les maté á cinco guardas,</l>
             <l>los que quedaron, huyeron,</l>
             <l>que el miedo les acobarda;</l>
-          </lg>
-          <pb n="2" source="Varios_152_2.jpg" facs="fedora_Varios_152_2/full/full/0/default.jpg"/>
-          <lg>
+
+            <pb n="2" source="Varios_152_2.jpg" facs="varios/Varios_152_2.jpg/"/>
+
             <l>y despaché así á Pelagio,</l>
             <l>sin que nada le faltara.</l>
             <l>Y caminando á Morales,</l>
@@ -1665,8 +1675,6 @@
             <l>donde hice doce muertos,</l>
             <l>otros las piernas quebrada;</l>
             <l>meti al reo en San Francisco,</l>
-          </lg>
-          <lg>
             <l>sin que nadie lo estorbara.</l>
             <l>Y caminando á mi tierra,</l>
             <l>hallé mi casa cercada</l>
@@ -1718,9 +1726,9 @@
             <l>con escopeta cargadas,</l>
             <l>diciendo: ¿quién viene allá?</l>
             <l>Les di la respuesta en balas:</l>
-          </lg>
-          <pb n="3" source="Varios_152_3.jpg" facs="fedora_Varios_152_3/full/full/0/default.jpg"/>
-          <lg>
+
+            <pb n="3" source="Varios_152_3.jpg" facs="varios/Varios_152_3.jpg/"/>
+
             <l>de los ocho maté á cinco,</l>
             <l>y los otros tres con alas,</l>
             <l>fiados en sus caballos,</l>
@@ -1738,8 +1746,6 @@
             <l>de aquel susto casi muertas;</l>
             <l>¡oh vilipendiosa infamia!</l>
             <l>Me ofrecian muchos premios,</l>
-          </lg>
-          <lg>
             <l>y tambien doña Constanza,</l>
             <l>hija del propio Marqués,</l>
             <l>la que rogó que tomara</l>
@@ -1756,13 +1762,13 @@
             <l>Dejemos la primer parte</l>
             <l>del mayor guapo de España,</l>
             <l>y acabaré en la segunda</l>
-            <l>dc referir sus hazañas.</l>
-          </lg>
-        </div>
-        <div>
-          <head type="titulo_parte"><lb/>SEGUNDA PARTE.</head>
-          <lg>
-            <l>Dije en la primera parte,</l>
+            <l>de referir sus hazañas.</l>
+          </div>
+
+          <div n="2" type="parte">
+            <head type="titulo_parte" rend="negrita"><lb/>SEGUNDA PARTE.</head>
+
+            <l rend="indent">Dije en la primera parte,</l>
             <l>como libres se quedaban,</l>
             <l>y al marqués le supliqué</l>
             <l>que el testimonio firmara</l>
@@ -1793,8 +1799,6 @@
             <l>y el marqués y mis sobrinas,</l>
             <l>y que quisieron robarlas</l>
             <l>sin tener apelacion;</l>
-          </lg>
-          <lg>
             <l>y que debo darle gracias</l>
             <l>á un honrado caballero</l>
             <l>que por el sitio pasaba.</l>
@@ -1826,9 +1830,9 @@
             <l>por el suelo y por las matas,</l>
             <l>hasta llegar á la cueva</l>
             <l>en donde ellos habitaban,</l>
-          </lg>
-          <pb n="4" source="Varios_152_4.jpg" facs="fedora_Varios_152_4/full/full/0/default.jpg"/>
-          <lg>
+
+            <pb n="4" source="Varios_152_4.jpg" facs="varios/Varios_152_4.jpg/"/>
+
             <l>que estando en grande funcion</l>
             <l>con brindis se saludaban.</l>
             <l>Al aire disparé un tiro,</l>
@@ -1876,8 +1880,6 @@
             <l>hasta llegar á abordar;</l>
             <l>y saltando en lafragata</l>
             <l>cortando brazos y arneces,</l>
-          </lg>
-          <lg>
             <l>sus cabezas derribaba.</l>
             <l>Veinte moros les maté,</l>
             <l>sin que agravio me tocara;</l>
@@ -1925,8 +1927,9 @@
             <l>y asunto noble á la fama.</l>
             <l>Y aqui Juan Antonro Lopez,</l>
             <l>pide perdon de sus fallas.</l>
-          </lg>
+          </div>
         </div>
+        
         <div type="colofon">
           <p><lb/>MADRID.— Despacho: Sucesores de Hernando, Arenal, 11.</p>
         </div>

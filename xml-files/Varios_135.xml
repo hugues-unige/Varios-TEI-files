@@ -1,19 +1,17 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../Schema/oddPliego_varios.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:alto="http://www.loc.gov/standards/alto/ns-v4#" xml:id="Varios_135">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Varios_135">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>VILLANCICOS ALEGRES PARA CANTAR EN SEGUIDILLA en celebridad del
-                              Sagrado nacimiento de nuestro Redentor Jesús.</title>
+        <title>VILLANCICOS ALEGRES PARA CANTAR EN SEGUIDILLA</title>
         <respStmt>
           <name/>
           <resp>Codificación TEI</resp>
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <authority role="rightsHolder">Bibliothèque Universitaire de
-                              Genève</authority>
+        <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
         <availability status="restricted">
           <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
         </availability>
@@ -21,19 +19,17 @@
       <sourceDesc>
         <biblFull>
           <titleStmt>
-            <title type="titulo_completo">VILLANCICOS ALEGRES PARA CANTAR EN
-                                          SEGUIDILLA en celebridad del Sagrado nacimiento de nuestro
-                                          Redentor Jesús.</title>
-            <title type="titulo_breve">VILLANCICOS ALEGRES PARA CANTAR EN
-                                          SEGUIDILLA</title>
+            <title type="titulo_completo">VILLANCICOS ALEGRES PARA CANTAR EN SEGUIDILLA en
+              celebridad del Sagrado nacimiento de nuestro Redentor Jesús.</title>
+            <title type="titulo_breve">VILLANCICOS ALEGRES PARA CANTAR EN SEGUIDILLA</title>
           </titleStmt>
           <editionStmt>
             <p/>
           </editionStmt>
           <publicationStmt>
-            <publisher>Despacho: Hernando</publisher>
+            <publisher>Hernando</publisher>
             <pubPlace ref="https://www.geonames.org/3117735/madrid.html">Madrid</pubPlace>
-            <date>[s.a]</date>
+            <date cert="low" when="1800-01-01">[s.a.]</date>
           </publicationStmt>
         </biblFull>
         <msDesc>
@@ -41,7 +37,8 @@
             <country>Suisse</country>
             <settlement>Genève</settlement>
             <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"/>
-                                    </repository>
+            </repository>
+            <collection>Colección Varios</collection>
             <idno type="cote"/>
             <idno type="DOI">10.5281/zenodo.6586392</idno>
             <altIdentifier>
@@ -49,10 +46,15 @@
             </altIdentifier>
           </msIdentifier>
           <msContents>
-            <summary/>
+            <summary>Dos canciones</summary>
             <msItem>
-              <locus/>
-              <title/>
+              <locus>1-4</locus>
+              <title>VILLANCICOS ALEGRES PARA CANTAR EN SEGUIDILLA en celebridad del Sagrado
+                nacimiento de nuestro Redentor Jesús.</title>
+            </msItem>
+            <msItem>
+              <locus>4</locus>
+              <title>PASTORELA.</title>
             </msItem>
           </msContents>
           <physDesc>
@@ -70,7 +72,7 @@
               </layoutDesc>
             </objectDesc>
             <decoDesc>
-              <summary n="1">Uno (p.1) </summary>
+              <summary n="1">Un grabado (p.1)</summary>
               <decoNote type="lista_grabados">
                 <list>
                   <item corresp="grabado_v_135_1.xml">grabado_v_135_1</item>
@@ -95,18 +97,17 @@
     </fileDesc>
     <encodingDesc>
       <projectDesc>
-        <p>Este archivo fue creado en el marco del proyecto Desenrollando el
-                              Cordel/Démêler le cordel/Untangling the cordel, dirigido por la
-                              profesora Constance Carta de la Universidad de Ginebra, con el apoyo
-                              de la Fundación filantrópica Famille Sandoz-Monique de Meuron.</p>
+        <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+          cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la Universidad
+          de Ginebra, con el apoyo de la Fundación filantrópica Famille Sandoz-Monique de
+          Meuron.</p>
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR non corregido</p>
+          <p>OCR no corregido</p>
         </correction>
         <normalization>
-          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto
-                                    original.</p>
+          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
         </normalization>
         <punctuation>
           <p>Se conserva la puntuación original.</p>
@@ -127,10 +128,14 @@
       </textClass>
     </profileDesc>
     <revisionDesc>
-      <change when="2022-09-15" who="#PJ">Création du fichier TEI P5 et encodage du
-                        corps du texte</change>
+      <change when="2022-09-15" who="#PJ">Création du fichier TEI P5 et encodage du corps du
+        texte</change>
+      <change when="2024-01-09" who="#EL">Add the IIIF links</change>
     </revisionDesc>
   </teiHeader>
+  <facsimile>
+    <graphic url="varios/Varios_135_1.jpg/full/200,/0/default.jpg"/>
+  </facsimile>
   <sourceDoc xml:id="automaticTranscription">
     <surface xml:id="Varios_135_1" type="page" cert="silver">
       <graphic url="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_135_1/full/full/0/default.jpg"/>
@@ -145,8 +150,7 @@
         </zone>
         <zone xml:id="Varios_135_1_BT223_1_LT84_3" type="HeadingLine" subtype="none" points="1410,1371 1388,1371 1384,1371 1379,1373 1377,1371 1366,1371 1344,1371 1327,1371 1322,1373 1320,1373 1300,1373 1269,1371 1256,1371 1234,1371 1212,1371 1191,1371 1186,1364 1118,1360 1116,1360 1063,1367 1028,1371 489,1353 489,1360 467,1360 445,1360 423,1360 401,1360 379,1360 357,1360 335,1360 313,1360 291,1360 269,1360 247,1347 243,1347 225,1351 225,1399 223,1430 267,1430 271,1434 287,1448 287,1450 289,1450 291,1450 293,1452 293,1450 296,1450 298,1450 298,1448 311,1434 322,1434 397,1430 407,1437 432,1452 434,1452 436,1452 627,1459 629,1461 658,1461 658,1459 660,1459 662,1459 662,1456 682,1439 686,1434 899,1434 905,1441 916,1450 916,1452 919,1452 921,1452 1028,1463 1030,1465 1116,1465 1116,1463 1118,1463 1120,1463 1120,1461 1129,1454 1136,1461 1136,1463 1138,1463 1140,1463 1272,1465 1274,1465 1276,1465 1337,1448 1364,1441 1427,1448 1432,1413 1432,1371 1430,1371 1410,1371 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_135_1/223,1347,1209,118/full/0/default" corresp="HeadingLine">
           <path xml:id="Varios_135_1_BT223_1_LT84_3_1" points="228,1402 1433,1415 "/>
-          <line>en celebridad del Sagrado nacimiento de nuestro Redentor
-                                    Jesús.</line>
+          <line>en celebridad del Sagrado nacimiento de nuestro Redentor Jesús.</line>
         </zone>
       </zone>
       <zone xml:id="Varios_135_1_BT227_2" n="2" type="MainZone" subtype="columns" points="603,1726 682,1796 647,2076 682,2232 655,2258 454,2293 122,2276 131,1638 175,1559 655,1586 638,1697 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_135_1/122,1559,560,734/full/0/default" corresp="MainZone:columns">
@@ -1440,351 +1444,358 @@
     <body>
       <div>
         <div>
-          <pb n="1" source="Varios_135_1.jpg" facs="fedora_Varios_135_1/full/full/0/default.jpg"/>
-          <fw type="numeroPliego">(Núm. 153.)</fw>
-          <head type="primer_titulo"><lb/>VILLANCICOS ALEGRES</head>
-          <head type="titulo_parte"><lb/>PARA CANTAR EN SEGUIDILLAS<lb/><hi rend="cursiva">en
-                                    celebridad del Sagrado nacimiento de nuestro Redentor
-                                    Jesús.</hi></head>
-          <lg>
-            <l>Cuando por el Oriente</l>
+          <div>
+            <pb n="1" source="Varios_135_1.jpg" facs="varios/Varios_135_1.jpg/"/>
+
+            <fw type="numeroPliego">(Núm. 153.)</fw>
+
+            <head type="primer_titulo"><lb/>VILLANCICOS ALEGRES</head>
+            <head type="subtitulo"><lb/>PARA CANTAR EN SEGUIDILLAS<lb/><hi rend="cursiva">en
+                celebridad del Sagrado nacimiento de nuestro Redentor Jesús.</hi></head>
+
+            <l rend="indent">Cuando por el Oriente</l>
             <l>sale la aurora</l>
             <l>caminaba la Vírgen</l>
             <l>nuestra Señora.</l>
-            <l>Tan linda Reina</l>
+            <l rend="indent">Tan linda Reina</l>
             <l>que á los Cielos dá envidia;</l>
             <l>bendita sea.</l>
-            <l>En sus puras entrañas</l>
+            <l rend="indent">En sus puras entrañas</l>
             <l>con alegría</l>
             <l>lleva al Rey de la Gloria</l>
             <l>la Vírgen pía.</l>
-            <l>Fragante Rosa,</l>
+            <l rend="indent">Fragante Rosa,</l>
             <l>¡ay qué Madre tenemos</l>
             <l>tan amorosa!</l>
-            <l>Montes, prados y selvas,</l>
+            <l rend="indent">Montes, prados y selvas,</l>
             <l>plantas y flores</l>
-          </lg>
-          <lg>
             <l>á la Vírgen le cantan</l>
             <l>dulces favores.</l>
-            <l>¡Ay qué dulzura!</l>
+            <l rend="indent">¡Ay qué dulzura!</l>
             <l>ensalzar á María</l>
             <l>las criaturas.</l>
-            <l>San José que á la Vírgen</l>
+            <l rend="indent">San José que á la Vírgen</l>
             <l>va acompañando</l>
             <l>con amantes suspiros</l>
             <l>dice llorando:</l>
-            <l>Prenda adorada,</l>
+            <l rend="indent">Prenda adorada,</l>
             <l>¡ay lo que siento el veros</l>
             <l>tan fatigada!</l>
-            <l>¡Ay Paloma divina!</l>
+            <l rend="indent">¡Ay Paloma divina!</l>
             <l>¡ay mis amores!</l>
             <l>¡quién aliviar pudiera</l>
             <l>vuestros dolores!</l>
-          </lg>
-          <pb n="2" source="Varios_135_2.jpg" facs="fedora_Varios_135_2/full/full/0/default.jpg"/>
-          <lg>
+
+            <pb n="2" source="Varios_135_2.jpg" facs="varios/Varios_135_2.jpg/"/>
+
             <l>y¡A qué tormento!</l>
             <l>el alma se me anega</l>
             <l>del sentimiento.</l>
             <l>la pena siente,</l>
-            <l>La Vírgen que del santo</l>
+            <l rend="indent">La Vírgen que del santo</l>
             <l>lo consuela amorosa</l>
             <l>y tiernamente.</l>
-            <l>Y entre ternezas,</l>
+            <l rend="indent">Y entre ternezas,</l>
             <l>alivian los cuidados</l>
             <l>que les molestan.</l>
             <l>—Por Tí siento, María,</l>
             <l>mal tan molesto;</l>
             <l>pero para pasarlo</l>
-            <l>Dios dará esfuerzo.</l>
+            <l rend="indent">Dios dará esfuerzo.</l>
             <l>—Así confio;</l>
             <l>su voluntad se cumpla,</l>
-            <l>Esposo mio.</l>
-            <l>Ya sus doradas luces</l>
+            <l rend="indent">Esposo mio.</l>
+            <l rend="indent">Ya sus doradas luces</l>
             <l>elciel o niega,</l>
             <l>cuando la Vírgen pura</l>
             <l>á Belen llega.</l>
-            <l>Albergue no hallan,</l>
+            <l rend="indent">Albergue no hallan,</l>
             <l>y á la puerta llamaron</l>
             <l>de una posada.</l>
-            <l>El mesonero al punto</l>
+            <l rend="indent">El mesonero al punto</l>
             <l>de mala gana,</l>
             <l>asomó la cabeza</l>
             <l>por la ventana.</l>
             <l>¡Voto va el soto!</l>
             <l>¡á qué vienen metiendo</l>
             <l>tantoalboroto?</l>
-            <l>Venimos, dice el santo,</l>
+            <l rend="indent">Venimos, dice el santo,</l>
             <l>(no sin congojas)</l>
             <l>á suplicarte, amigo,</l>
             <l>que nos recojas.</l>
-            <l>Dame posada,</l>
+            <l rend="indent">Dame posada,</l>
             <l>y á esta hermosa doncella,</l>
             <l>que está preñada.</l>
             <l>—¡Preñadita y hermosa,</l>
             <l>niña y doncella!</l>
             <l>¿quién ha visto en su vida</l>
             <l>cosa como ella?</l>
-            <l>Esas son flores;</l>
+            <l rend="indent">Esas son flores;</l>
             <l>pues tontes en el mundo</l>
             <l>ya no hay, señores.</l>
-            <l>A quien trae dinero</l>
+            <l rend="indent">A quien trae dinero</l>
             <l>mi casa es lista,</l>
             <l>pero pues no le tienen</l>
-          </lg>
-          <lg>
-            <l>Dios les asista.</l>
+            <l rend="indent">Dios les asista.</l>
             <l>y en pacífica calma</l>
-            <l>De aquí se alejen,</l>
+            <l rend="indent">De aquí se alejen,</l>
             <l>mi casa dejen.</l>
             <l>se retiraron,</l>
-            <l>A un portal venturos o</l>
+            <l rend="indent">A un portal venturos o</l>
             <l>donde un buey y una mula</l>
             <l>los albergaron.</l>
+            <l rend="indent">Dos animales</l>
             <l>enseñanza á los hombres</l>
-            <l>Dos animales</l>
             <l>dan muy joviales.</l>
+            <l rend="indent">Allá á la media noche</l>
             <l>del mayor dia,</l>
-            <l>Allá á la media noche</l>
             <l>Dios nació de su madre</l>
             <l>Vírgen María.</l>
+            <l rend="indent">¡Ay qué delicia!</l>
             <l>albricias, serafines,</l>
-            <l>¡Ay qué delicia!</l>
             <l>Cielos, albricias.</l>
+            <l rend="indent">En vuélvele la Vírgen</l>
             <l>para adorarle,</l>
-            <l>En vuélvele la Vírgen</l>
             <l>y san José bendito</l>
             <l>quiere arrullarle.</l>
-            <l>A la ro... ro... ro,</l>
+            <l rend="indent">A la ro... ro... ro,</l>
             <l>que mi Niño se duerme,</l>
             <l>no le inquieten, no.</l>
-            <l>Los cielos adornaron</l>
+            <l rend="indent">Los cielos adornaron</l>
             <l>del alba el coche,</l>
             <l>viendo el Sol que nacía</l>
             <l>á media noche.</l>
-            <l>Los ecos suenan:</l>
+            <l rend="indent">Los ecos suenan:</l>
             <l>gloria á Dios en el Cielo,</l>
             <l>paz en la tierra.</l>
-            <l>Un ángel como un cielo</l>
+            <l rend="indent">Un ángel como un cielo</l>
             <l>de resplandores,</l>
             <l>les llevó la noticia</l>
             <l>á los pastores.</l>
-            <l>Desde el cortijo</l>
+            <l rend="indent">Desde el cortijo</l>
             <l>van á ver al Infante</l>
             <l>recien-nacido.</l>
-            <l>¡Há del monte, há del valla,</l>
+            <l rend="indent">¡Há del monte, há del valla,</l>
             <l>há de la selva!</l>
             <l>ya nació Jesucristo,</l>
             <l>el gozo vuelva.</l>
-            <l>Suenen las sonajas,</l>
+            <l rend="indent">Suenen las sonajas,</l>
             <l>flautas y tamboriles,</l>
             <l>y háganse rajas.</l>
-            <l>Toca el rabel, Domingo,</l>
+            <l rend="indent">Toca el rabel, Domingo,</l>
             <l>con mil juguetes,</l>
-          </lg>
-          <pb n="3" source="Varios_135_3.jpg" facs="fedora_Varios_135_3/full/full/0/default.jpg"/>
-          <lg>
+
+            <pb n="3" source="Varios_135_3.jpg" facs="varios/Varios_135_3.jpg/"/>
+
             <l>y Maríca y Tomasa</l>
             <l>los panderetes.</l>
-            <l>Gil la zampoña,</l>
+            <l rend="indent">Gil la zampoña,</l>
             <l>Bato las castañetas,</l>
             <l>Blas la zambomba.</l>
-            <l>A Belen presurosos</l>
+            <l rend="indent">A Belen presurosos</l>
             <l>fueron llegando,</l>
             <l>y al Niño Dios humildes</l>
             <l>vánle adorando.</l>
-            <l>¡Ay qué bonito!</l>
+            <l rend="indent">¡Ay qué bonito!</l>
             <l>¿no vés cómo rie</l>
             <l>Jesús bendito?</l>
-            <l>Su venerable Padre,</l>
+            <l rend="indent">Su venerable Padre,</l>
             <l>cómo tirita;</l>
             <l>pero su madre, ¡Cielos,</l>
             <l>qué preciosita!</l>
-            <l>Bella Serrana,</l>
+            <l rend="indent">Bella Serrana,</l>
             <l>bendito sea el Fruto</l>
             <l>de tus entrañas.</l>
-            <l>Unos le dan mantillas,</l>
+            <l rend="indent">Unos le dan mantillas,</l>
             <l>otros pañales,</l>
             <l>fajas y babadores</l>
             <l>muy especiales.</l>
-            <l>Dulces, jamones,</l>
+            <l rend="indent">Dulces, jamones,</l>
             <l>corderos, mantequillas</l>
             <l>y requesones.</l>
-            <l>Como alegres brincaban</l>
+            <l rend="indent">Como alegres brincaban</l>
             <l>la Noche-Buena,</l>
             <l>delante del Sol todos</l>
             <l>tienen la cena.</l>
-            <l>Sacan pan blanco,</l>
+            <l rend="indent">Sacan pan blanco,</l>
             <l>y una bota bien llena</l>
             <l>para echar tragos.</l>
-            <l>La longaniza cuela</l>
+            <l rend="indent">La longaniza cuela</l>
             <l>sin mas enredos,</l>
             <l>pero tras de las migas</l>
             <l>se van los dedos.</l>
-            <l>Y alegres comen</l>
+            <l rend="indent">Y alegres comen</l>
             <l>sin dejar cosa á vida</l>
             <l>en los zurrones.</l>
-            <l>En engullir parecen</l>
+            <l rend="indent">En engullir parecen</l>
             <l>lobos traviesos,</l>
             <l>pero se ve que roen</l>
             <l>poco los huesos.</l>
-            <l>Pues la cecina,</l>
+            <l rend="indent">Pues la cecina,</l>
             <l>á medio asar la tragan</l>
             <l>y con ceniza.</l>
-            <l>Oyes, Mingo, tú comes</l>
-          </lg>
-          <lg>
+            <l rend="indent">Oyes, Mingo, tú comes</l>
             <l>salchicha rancia,</l>
             <l>parece que te embobas</l>
             <l>con la ganancia.</l>
+            <l rend="indent">¡Cómo arrebañas!</l>
             <l>el que come torreznos</l>
-            <l>¡Cómo arrebañas!</l>
             <l>no asa castañas.</l>
+            <l rend="indent">Lleven aquesta presa</l>
             <l>á la parida,</l>
-            <l>Lleven aquesta presa</l>
             <l>que sea á nuestros valles</l>
             <l>muy bien venida.</l>
+            <l rend="indent">¡Ay qué tesoro!</l>
             <l>los Cielos la bendigan,</l>
-            <l>¡Ay qué tesoro!</l>
             <l>que es como un oro.</l>
+            <l rend="indent">Venga, dijo Perote,</l>
             <l>la bota amada,</l>
-            <l>Venga, dijo Perote,</l>
             <l>que las migas se pegan</l>
             <l>á la garganta.</l>
+            <l rend="indent">¡Ah picarillo!</l>
             <l>vaya tú, Calzorrazas,</l>
-            <l>¡Ah picarillo!</l>
             <l>echa un traguillo.</l>
+            <l rend="indent">No te descuides, Bato,</l>
             <l>come por puntos,</l>
-            <l>No te descuides, Bato,</l>
             <l>mira que el viejo tiene</l>
             <l>el diente agudo.</l>
-            <l>La bota ande,</l>
+            <l rend="indent">La bota ande,</l>
             <l>para que el viejecito</l>
             <l>no se atragante.</l>
-            <l>Anton cayó de hocicos</l>
+            <l rend="indent">Anton cayó de hocicos</l>
             <l>entre las pajas,</l>
             <l>y Perucho les dijo:</l>
             <l>subes, ó bajas.</l>
-            <l>Y al fin brindaron,</l>
+            <l rend="indent">Y al fin brindaron,</l>
             <l>que salud les dé el Cielo</l>
             <l>por muchos años.</l>
-            <l>Acabada la cena</l>
+            <l rend="indent">Acabada la cena</l>
             <l>tan escelente,</l>
             <l>ante el Niño bailaron</l>
             <l>alegremente.</l>
-            <l>Blas con Antonia,</l>
+            <l rend="indent">Blas con Antonia,</l>
             <l>Juan salió con Dominga,</l>
             <l>Gil con Ramona.</l>
-            <l>Luego se despidieron</l>
+            <l rend="indent">Luego se despidieron</l>
             <l>del tierno Infante,</l>
             <l>besándole las manos</l>
             <l>á cada instante.</l>
-            <l>La Vírgen santa,</l>
+            <l rend="indent">La Vírgen santa,</l>
             <l>de sus galanes dones</l>
             <l>les dió las gracias,</l>
-          </lg>
-          <pb n="4" source="Varios_135_4.jpg" facs="fedora_Varios_135_4/full/full/0/default.jpg"/>
-          <lg>
-            <l>Una estrella á tres Reyes</l>
+
+            <pb n="4" source="Varios_135_4.jpg" facs="varios/Varios_135_4.jpg/"/>
+
+            <l rend="indent">Una estrella á tres Reyes</l>
             <l>condujo ufana,</l>
             <l>adorar el Lucero</l>
             <l>de la mañana.</l>
+            <l rend="indent">Y reverentes</l>
             <l>de incienso, mirra y oro</l>
-            <l>Y reverentes</l>
             <l>le dan presentes.</l>
-            <l>Con los Reyes entraron</l>
+            <l rend="indent">Con los Reyes entraron</l>
             <l>sin ordenanza,</l>
             <l>estas cuatro figuras</l>
             <l>parauna danza:</l>
-            <l>Un asturiano,</l>
+            <l rend="indent">Un asturiano,</l>
             <l>un gallego, un negrito</l>
             <l>y un italiano.</l>
-            <l>El asturiano viene</l>
+            <l rend="indent">El asturiano viene</l>
             <l>muerto de risa,</l>
             <l>y en el Portal entona</l>
             <l>la danza prima.</l>
-            <l>Y alegre suena</l>
+            <l rend="indent">Y alegre suena</l>
             <l>del gallego la dulce</l>
             <l>gaita gallega.</l>
-          </lg>
-          <lg>
-            <l>Tocando las sonajas</l>
+            <l rend="indent">Tocando las sonajas</l>
             <l>llegó el negrito</l>
             <l>y á su modo le canta:</l>
             <l>ache, mi Niño.</l>
-            <l>Y el italiano</l>
+            <l rend="indent">Y el italiano</l>
             <l>dice: per nostro Dio</l>
             <l>tutti andiamo.</l>
-            <l>Bendito sea el Niño</l>
+            <l rend="indent">Bendito sea el Niño</l>
             <l>que hoy nos recrea,</l>
             <l>y su Madre preciosa</l>
             <l>bendita sea.</l>
-            <l>Flovida Palma,</l>
+            <l rend="indent">Flovida Palma,</l>
             <l>salud, vida y consuelo</l>
             <l>de nuestras almas.</l>
-            <l>¡Oh maravilla rara!</l>
+            <l rend="indent">¡Oh maravilla rara!</l>
             <l>nace Dios-Hombre,</l>
             <l>para ofrecer la vida</l>
             <l>por sus amores.</l>
-            <l>Con tal victoria,</l>
+            <l rend="indent">Con tal victoria,</l>
             <l>á todos nos ofrece</l>
             <l>la eterna gleria.</l>
-          </lg>
+          </div>
+
           <div>
-            <head type="estribillo"><lb/>PASTORELA.</head>
+            <head rend="titulo_parte"><lb/>PASTORELA.</head>
+
+            <lg rend="cursiva">
+              <l rend="indent">Cantemos, pastores,</l>
+              <l>al Dios de Israel,</l>
+              <l>que en humilde establo</l>
+              <l>se adora en Belen.</l>
+            </lg>
             <lg>
-              <l rend="cursiva">Cantemos, pastores,</l>
-              <l rend="cursiva">al Dios de Israel,</l>
-              <l rend="cursiva">que en humilde establo</l>
-              <l rend="cursiva">se adora en Belen.</l>
-              <l>Del cielo nos vino</l>
+              <l rend="indent">Del cielo nos vino</l>
               <l>tan lindo Zagal,</l>
               <l>y la paz del mundo</l>
               <l>viene á rescatar.</l>
               <l>¡Oh qué gran riqueza</l>
               <l>la tierra tendrá!</l>
               <l rend="cursiva">Cantemos, etc.</l>
-              <l>Humilde pesebre</l>
+            </lg>
+            <lg>
+              <l rend="indent">Humilde pesebre</l>
               <l>por cuna tomó;</l>
               <l>y pues tal ejemplo</l>
               <l>dá el Hijo de Dios</l>
               <l>que aunque ftey del Cielo</l>
               <l>ser pobre escojió.</l>
               <l rend="cursiva">Cantemos, etc.</l>
-              <l>Ya los corderillos</l>
+            </lg>
+            <lg>
+              <l rend="indent">Ya los corderillos</l>
               <l>tendrán un pastor</l>
               <l>tan lindo y hermoro</l>
               <l>como el mismo sol.</l>
               <l>Será su cavado</l>
+              <l>Cruz de redención!</l>
+              <l rend="cursiva">Cantemos, etc.</l>
             </lg>
             <lg>
-              <l>Cruz de redención!</l>
-              <l>Su Madre es mas bella</l>
-              <l rend="cursiva">Cantemos, etc.</l>
+              <l rend="indent">Su Madre es mas bella</l>
               <l>que aurora de Abril,</l>
               <l>y diz que desciende</l>
               <l>del santo David,</l>
               <l>sus ojos son soles,</l>
               <l>sus dientes marfil.</l>
-              <l>Reyes y pastores</l>
               <l rend="cursiva">Cantemos, etc.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Reyes y pastores</l>
               <l>llegan á la par...</l>
               <l>adoran al Niño</l>
               <l>que está en el Portal.</l>
               <l>¿l cetro y cayado</l>
               <l>ante El son igual!</l>
-              <l>Todo sea gozo,</l>
               <l rend="cursiva">Cantemos, etc.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Todo sea gozo,</l>
               <l>pastores, bailad,</l>
               <l>el Cielo se alegra</l>
               <l>con vuestro cantar.</l>
               <l>Seguid, que la Gloria</l>
               <l>el premio será.</l>
-              <l>Cantemos. etc</l>
+              <l rend="cursiva">Cantemos. etc</l>
             </lg>
           </div>
         </div>
+        
         <div type="colofon">
           <p><lb/>MADRID.—Despacho: Hernando, Arenal, 11</p>
         </div>

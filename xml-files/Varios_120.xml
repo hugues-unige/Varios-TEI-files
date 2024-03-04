@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../Schema/oddPliego_varios.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:alto="http://www.loc.gov/standards/alto/ns-v4#" xml:id="Varios_120">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Varios_120">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -11,8 +11,7 @@
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <authority role="rightsHolder">Bibliothèque Universitaire de
-                            Genève</authority>
+        <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
         <availability status="restricted">
           <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
         </availability>
@@ -20,16 +19,17 @@
       <sourceDesc>
         <biblFull>
           <titleStmt>
-            <title type="titulo_completo">LLETRILLAS AL NAIXEMENT DE NOSTRE SENYOR JESUCRIST.</title>
+            <title type="titulo_completo">LLETRILLAS AL NAIXEMENT DE NOSTRE SENYOR
+              JESUCRIST.</title>
             <title type="titulo_breve">LLETRILLAS</title>
           </titleStmt>
           <editionStmt>
             <p/>
           </editionStmt>
           <publicationStmt>
-            <publisher>Hereus de la Viuda de Pla</publisher>
+            <publisher>Herederos de la Viuda de Pla</publisher>
             <pubPlace ref="https://www.geonames.org/3128760/barcelona.html">Barcelona</pubPlace>
-            <date>[s.a]</date>
+            <date cert="low" when="1800-01-01">[s.a.]</date>
           </publicationStmt>
         </biblFull>
         <msDesc>
@@ -37,7 +37,8 @@
             <country>Suisse</country>
             <settlement>Genève</settlement>
             <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"/>
-                  </repository>
+            </repository>
+            <collection>Colección Varios</collection>
             <idno type="cote"/>
             <idno type="DOI">10.5281/zenodo.6577124</idno>
             <altIdentifier>
@@ -66,8 +67,7 @@
               </layoutDesc>
             </objectDesc>
             <decoDesc>
-              <summary n="1">Uno grabados
-                                        (p.1) </summary>
+              <summary n="1">Un grabado (p.1)</summary>
               <decoNote type="lista_grabados">
                 <list>
                   <item corresp="grabado_v_120_1.xml">grabado_v_120_1</item>
@@ -94,18 +94,17 @@
     </fileDesc>
     <encodingDesc>
       <projectDesc>
-        <p>Este archivo fue creado en el marco del proyecto Desenrollando el
-                            Cordel/Démêler le cordel/Untangling the cordel, dirigido por la
-                            profesora Constance Carta de la Universidad de Ginebra, con el apoyo de
-                            la Fundación filantrópica Famille Sandoz-Monique de Meuron.</p>
+        <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+          cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la Universidad
+          de Ginebra, con el apoyo de la Fundación filantrópica Famille Sandoz-Monique de
+          Meuron.</p>
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR non corregido</p>
+          <p>OCR no corregido</p>
         </correction>
         <normalization>
-          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto
-                                original.</p>
+          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
         </normalization>
         <punctuation>
           <p>Se conserva la puntuación original.</p>
@@ -114,7 +113,7 @@
     </encodingDesc>
     <profileDesc>
       <langUsage>
-        <language ident="es">Español</language>
+        <language ident="ca">Catalán</language>
       </langUsage>
       <textClass>
         <keywords xml:base="http://datos.bne.es/tema/">
@@ -127,9 +126,13 @@
     </profileDesc>
     <revisionDesc>
       <change when="2022-08-03" who="#PJ">Création du fichier TEI P5 et encodage du corps du
-                        texte</change>
+        texte</change>
+      <change when="2024-01-09" who="#EL">Add the IIIF links</change>
     </revisionDesc>
   </teiHeader>
+  <facsimile>
+    <graphic url="varios/Varios_120_1.jpg/full/200,/0/default.jpg"/>
+  </facsimile>
   <sourceDoc xml:id="automaticTranscription">
     <surface xml:id="Varios_120_1" type="page" cert="silver">
       <graphic url="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_120_1/full/full/0/default.jpg"/>
@@ -944,7 +947,7 @@
         </zone>
         <zone xml:id="_BT226_3_LT81_3" type="CustomLine" subtype="propriedad" points="1239,2015 1239,1972 1874,1979 1877,2022 1872,2032 1234,2027 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_120_4/1234,1972,643,60/full/0/default" corresp="CustomLine:propriedad">
           <path xml:id="Varios_120_4_BT226_3_LT81_3_1" points="1239,2015 1877,2022 " corresp="CustomLine:propriedad"/>
-          <line>Barceloha concedeix  40 dias de In¬</line>
+          <line>Barceloha concedeix 40 dias de In¬</line>
         </zone>
         <zone xml:id="_BT226_3_LT81_4" type="CustomLine" subtype="propriedad" points="1239,2060 1239,2012 1879,2015 1882,2065 1877,2080 1234,2073 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_120_4/1234,2012,648,68/full/0/default" corresp="CustomLine:propriedad">
           <path xml:id="Varios_120_4_BT226_3_LT81_4_1" points="1239,2060 1882,2065 " corresp="CustomLine:propriedad"/>
@@ -979,38 +982,43 @@
   <text>
     <body>
       <div>
-        <pb n="1" source="Varios_120_1.jpg" facs="fedora_Varios_120_1/full/full/0/default.jpg"/>
+        <pb n="1" source="Varios_120_1.jpg" facs="varios/Varios_120_1.jpg/"/>
         <div>
-          <head type="primer_titulo"><lb/>LLETRILLAS<lb/>AL NAIXEMENT DE NOSTRE SENYOR JESUCRIST.</head>
-          <p><lb/>1.</p>
+          <head type="primer_titulo"><lb/>LLETRILLAS<lb/>AL NAIXEMENT DE NOSTRE SENYOR
+            JESUCRIST.</head>
+          
           <lg>
-            <l>Augusto dominant,</l>
+            <head><lb/>1.</head>
+            <l><hi rend="negrita">A</hi>ugusto dominant,</l>
             <l>Naix lo mes bell Infant,</l>
             <l>Noy admirable,</l>
             <l>Fill de Deu infinit :</l>
             <l>Un Deu, y noy petit,</l>
             <l>Cosa inefable.</l>
           </lg>
-          <p><lb/>2</p>
+          
           <lg>
-            <l>En la nit apareix,</l>
+            <head><lb/>2</head>
+            <l rend="indent">En la nit apareix,</l>
             <l>La nit se converteix</l>
             <l>En un clar dia.</l>
             <l>Los cels derraman mel,</l>
             <l>Indican sens recel</l>
             <l>Gran alegría.</l>
           </lg>
-          <p><lb/>3.</p>
+          
           <lg>
-            <l>Sant Joseph mol ditxós,</l>
+            <head><lb/>3.</head>
+            <l rend="indent">Sant Joseph mol ditxós,</l>
             <l>Véu nat al Noy hermós,</l>
             <l>¡O qué portento !</l>
             <l>En amor inflamat,</l>
             <l>Se li rendeix postrat,</l>
             <l>Ple de contento.</l>
           </lg>
-          <p><lb/>4.</p>
+          
           <lg>
+            <head><lb/>4.</head>
             <l>Ja resonan clarins,</l>
             <l>Cantan los Serafins</l>
             <l>Ab melodía :</l>
@@ -1018,155 +1026,173 @@
             <l>Fan la cort al Infant</l>
             <l>Y á María.</l>
           </lg>
-          <pb n="2" source="Varios_120_2.jpg" facs="fedora_Varios_120_2/full/full/0/default.jpg"/>
-          <p><lb/>5.</p>
+          <pb n="2" source="Varios_120_2.jpg" facs="varios/Varios_120_2.jpg/"/>
+          
           <lg>
-            <l>Fan saber als Pastors</l>
+            <head><lb/>5.</head>
+            <l rend="indent">Fan saber als Pastors</l>
             <l>Angels embaixadors</l>
             <l>La maravella :</l>
             <l>Gran goig avuy tindréu;</l>
             <l>Ha nat lo Fill de Deu</l>
             <l>De una donsella.</l>
           </lg>
-          <p><lb/>6.</p>
+          
           <lg>
-            <l>A Bethlem prest corréu,</l>
+            <head><lb/>6.</head>
+            <l rend="indent">A Bethlem prest corréu,</l>
             <l>Al Infant trobaréu,</l>
             <l>Cosa molt nova,</l>
             <l>Entre dos animals</l>
             <l>Ans de entrar als portals</l>
             <l>Allí en la cova.</l>
           </lg>
-          <p><lb/>7.</p>
+          
           <lg>
-            <l>Emprénen lo camí,</l>
+            <head><lb/>7.</head>
+            <l rend="indent">Emprénen lo camí,</l>
             <l>Al arribar allí</l>
             <l>(¡Gracia divina!)</l>
             <l>Se abrasa lo seu cor,</l>
             <l>Un llum superior</l>
             <l>Los il-lumina.</l>
           </lg>
-          <p><lb/>8.</p>
+          
           <lg>
-            <l>Se postran al instant,</l>
+            <head><lb/>8.</head>
+            <l rend="indent">Se postran al instant,</l>
             <l>Adoran al Infant,</l>
             <l>¡O qué ternura!</l>
             <l>¡Qué elevats pensaments!</l>
             <l>¡Qué goigs, qué sentiments!</l>
             <l>¡O qué dolsura!</l>
           </lg>
-          <p><lb/>9.</p>
+          
           <lg>
-            <l>Siau ben arribat</l>
+            <head><lb/>9.</head>
+            <l rend="indent">Siau ben arribat</l>
             <l>Rey de gran Magestat,</l>
             <l>En aquest dia:</l>
             <l>Puig veniu per amor,</l>
             <l>Vos entrego mon cor,</l>
             <l>O vida mia.</l>
           </lg>
-          <p><lb/>10.</p>
+          
           <lg>
-            <l>Mes, ó Deu verdader,</l>
+            <head><lb/>10.</head>
+            <l rend="indent">Mes, ó Deu verdader,</l>
             <l>¿Ahont es lo poder?</l>
             <l>¿ Vostra riquesa?</l>
             <l>¿ Ahont la inmensitat?</l>
             <l>¿ Ahont la magestat</l>
             <l>Y la grandesa?</l>
           </lg>
-          <p><lb/>11.</p>
+          
           <lg>
-            <l>Haveu donat lo ser,</l>
+            <head><lb/>11.</head>
+            <l rend="indent">Haveu donat lo ser,</l>
             <l>Y al punt podeu desfer</l>
             <l>Totas las cosas:</l>
             <l>Y si després voleu,</l>
             <l>Al instant las faréu</l>
             <l>Molt mes hermosas.</l>
           </lg>
-          <p><lb/>12.</p>
+          
           <lg>
-            <l>Al sonar vostre Nom,</l>
+            <head><lb/>12.</head>
+            <l rend="indent">Al sonar vostre Nom,</l>
             <l>Presta obsequi tochom,</l>
             <l>Rendits se mostran</l>
             <l>Los Chors angelicals:</l>
             <l>Las furias infernals</l>
             <l>Rabiant se postran.</l>
           </lg>
-          <pb n="3" source="Varios_120_3.jpg" facs="fedora_Varios_120_3/full/full/0/default.jpg"/>
-          <p><lb/>13.</p>
+          <pb n="3" source="Varios_120_3.jpg" facs="varios/Varios_120_3.jpg/"/>
+          
           <lg>
-            <l>—No es lloch suficient</l>
+            <head><lb/>13.</head>
+            <l rend="indent">—No es lloch suficient</l>
             <l>Per Vos lo firmament;</l>
             <l>Per tal grandesa</l>
             <l>No hi ha competent lloch,</l>
             <l>Tot lo criat es poch,</l>
             <l>Tot es vilesa.</l>
           </lg>
-          <p><lb/>14.</p>
+          
           <lg>
-            <l>De tots modos sou gran,</l>
+            <head><lb/>14.</head>
+            <l rend="indent">De tots modos sou gran,</l>
             <l>Ni res en Vos tindrán</l>
             <l>Límits ni rallas:</l>
             <l>Aquí vos veig petit,</l>
             <l>En vil lloch reduhit,</l>
             <l>Y entre pallas.</l>
           </lg>
-          <p><lb/>15.</p>
+          
           <lg>
-            <l>Vostre manto real</l>
+            <head><lb/>15.</head>
+            <l rend="indent">Vostre manto real</l>
             <l>Es un pobre sayal;</l>
             <l>Sòn las cortinas</l>
             <l>Telaranyas y pols;</l>
             <l>Aquí no veig llansols</l>
             <l>Ni telas finas.</l>
           </lg>
-          <p><lb/>16.</p>
+          
           <lg>
-            <l>Un bolquer y fasset.</l>
+            <head><lb/>16.</head>
+            <l rend="indent">Un bolquer y fasset.</l>
             <l>Sòn vostre guardafret</l>
             <l>Y vestidura :</l>
             <l>Per descans de la nit</l>
             <l>Teniu per blando llit.</l>
             <l>La terra dura.</l>
           </lg>
-          <p><lb/>17.</p>
+          
           <lg>
-            <l>¡O quin excés de amor!</l>
+            <head><lb/>17.</head>
+            <l rend="indent">¡O quin excés de amor!</l>
             <l>Divino Redemptor,</l>
             <l>¡Quina finesa!</l>
             <l>Per tráurens del pecat</l>
             <l>Cubriu tal Magestat</l>
             <l>Ab tal pobresa.</l>
           </lg>
-          <p><lb/>18.</p>
+          
           <lg>
-            <l>Reyna celestial,</l>
+            <head><lb/>18.</head>
+            <l rend="indent">Reyna celestial,</l>
             <l>Mare y Verge Real,</l>
             <l>Brillant aurora,</l>
             <l>Ab que contento estáu:</l>
             <l>¡Que ditxas no lográu</l>
             <l>En aquest' hora!</l>
           </lg>
-          <p><lb/>19.</p>
+          
           <lg>
-            <l>Pariu sense perill</l>
+            <head><lb/>19.</head>
+            <l rend="indent">Pariu sense perill</l>
             <l>Al unigénit Fill</l>
             <l>Del Etern Pare:</l>
             <l>¡Excelsa dignitat!</l>
             <l>De Deu Fill encarnat</l>
             <l>Sou digna Mare.</l>
           </lg>
-          <p><lb/>20.</p>
+          
           <lg>
-            <l>Vostra llet virginal,</l>
+            <head><lb/>20.</head>
+            <l rend="indent">Vostra llet virginal,</l>
             <l>Néctar celestial,</l>
             <l>Sola alimenta</l>
             <l>Al Fill, que ab son saber.</l>
             <l>É infinit poder</l>
             <l>Tot ho sustenta.</l>
           </lg>
-          <pb n="4" source="Varios_120_4.jpg" facs="fedora_Varios_120_4/full/full/0/default.jpg"/>
+          
+          <pb n="4" source="Varios_120_4.jpg" facs="varios/Varios_120_4.jpg/"/>
+          
           <lg>
-            <l>21.</l>
+            <head rend="indent">21.</head>
             <l>Sempre l Noy meditáu,</l>
             <l>Y lo acariciáu</l>
             <l>En vostres brassos :</l>
@@ -1174,64 +1200,74 @@
             <l>¡O quant dolsos vos sòn</l>
             <l>Los seus abrassos!</l>
           </lg>
-          <p><lb/>22.</p>
+          
           <lg>
-            <l>Quins incendis de amór</l>
+            <head><lb/>22.</head>
+            <l rend="indent">Quins incendis de amór</l>
             <l>Sentiu en vostre cor,</l>
             <l>Quina alegría :</l>
             <l>¡O dols y etern consol!</l>
             <l>Per Vos nos pon lo sol,</l>
             <l>Sempre es de dia.</l>
           </lg>
-          <p><lb/>23.</p>
+          
           <lg>
-            <l>Ab júbilo pasmats</l>
+            <head><lb/>23.</head>
+            <l rend="indent">Ab júbilo pasmats</l>
             <l>De tals felicitats,</l>
             <l>Real Matrona,</l>
             <l>Vostras ditxas cantam,</l>
             <l>Y de cor vos donam</l>
             <l>La enhorabona.</l>
           </lg>
-          <p><lb/>24.</p>
+          
           <lg>
-            <l>Estrella resplandent</l>
+            <head><lb/>24.</head>
+            <l rend="indent">Estrella resplandent</l>
             <l>Com la del Orient,</l>
             <l>O gran Maria,</l>
             <l>Guiaunos sens perill</l>
             <l>Per trobar vostre Fill</l>
             <l>En la establía.</l>
           </lg>
-          <p><lb/>25.</p>
+          
           <lg>
-            <l>No som Reys, ni Pastórs,</l>
+            <head><lb/>25.</head>
+            <l rend="indent">No som Reys, ni Pastórs,</l>
             <l>Sì pobres pecadors,</l>
             <l>Que per desgracia</l>
             <l>Del primer pare Adam.</l>
             <l>En lo mon gemegam,</l>
             <l>Buscant la gracia.</l>
           </lg>
-          <p><lb/>26.</p>
+          
           <lg>
-            <l>Ea Mare decamor,</l>
+            <head><lb/>26.</head>
+            <l rend="indent">Ea Mare decamor,</l>
             <l>Mostraunos al Senyor</l>
             <l>Unich Fill vostre:</l>
             <l>Puix que del cel baixat</l>
             <l>A vos s' es entregat</l>
             <l>Per amor nostre.</l>
           </lg>
-          <p><lb/>27.</p>
+          
           <lg>
-            <l>Tots de Vos confiam,</l>
+            <head><lb/>27.</head>
+            <l rend="indent">Tots de Vos confiam,</l>
             <l>Vostre Fill adorám</l>
             <l>Ab alegría :</l>
             <l>Feu que pugam lograr</l>
             <l>Per sempre sens parar</l>
             <l>Sa companyía. Amem.</l>
           </lg>
-          <p><lb/>Lo Illustríssim y Reverendíssim<lb/>Senyor Don Pau de Sichar Bisbe de<lb/>Barceloha concedeix  40 dias de In¬<lb/>dulgencia á tols los que cantarán, ́ ó<lb/>resurán ab devoció las presents, Lle¬<lb/>trillas.</p>
+          
+          <p rend="cursiva"><lb/>Lo Illustríssim y Reverendíssim<lb/>Senyor Don Pau de Sichar Bisbe
+            de<lb/>Barceloha concedeix 40 dias de In¬<lb/>dulgencia á tols los que cantarán, ́
+            ó<lb/>resurán ab devoció las presents, Lle¬<lb/>trillas.</p>
         </div>
+        
         <div type="colofon">
-          <p><lb/>Barcelona: imprenta dels Hereus de la Viuda Pla, carrer dels Cotoners.</p>
+          <p><lb/><hi rend="cursiva">Barcelona</hi>: imprenta dels Hereus de la Viuda Pla, carrer dels Cotoners.</p>
         </div>
       </div>
     </body>

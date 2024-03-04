@@ -1,19 +1,17 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../Schema/oddPliego_varios.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:alto="http://www.loc.gov/standards/alto/ns-v4#" xml:id="Varios_188">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Varios_188">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>QUEIXAS DE LAS MINYONAS CONTRA LAS MASTRESSAS, DIALOGO ENTRE LA
-                              FRANCISCA Y LA MARIA.</title>
+        <title>QUEIXAS DE LAS MINYONAS CONTRA LAS MASTRESSAS, DIALOGO ENTRE LA FRANCISCA Y LA MARIA.</title>
         <respStmt>
           <name/>
           <resp>Codificación TEI</resp>
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <authority role="rightsHolder">Bibliothèque Universitaire de
-                              Genève</authority>
+        <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
         <availability status="restricted">
           <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
         </availability>
@@ -21,18 +19,17 @@
       <sourceDesc>
         <biblFull>
           <titleStmt>
-            <title type="titulo_completo">Queixas de las minyonas contra las
-                                          mastressas, dialogo entre la Francisca y la Maria.</title>
-            <title type="titulo_breve">Queixas de las minyonas contra las
-                                          mastressas</title>
+            <title type="titulo_completo">Queixas de las minyonas contra las mastressas, dialogo
+              entre la Francisca y la Maria.</title>
+            <title type="titulo_breve">Queixas de las minyonas contra las mastressas</title>
           </titleStmt>
           <editionStmt>
             <p/>
           </editionStmt>
           <publicationStmt>
-            <publisher>imprenta de Ignasi Estivill</publisher>
+            <publisher>Ignacio Estivill</publisher>
             <pubPlace ref="https://www.geonames.org/3128760/barcelona.html">Barcelona</pubPlace>
-            <date cert="high">1854</date>
+            <date cert="high" when="1851-01-01">1851</date>
           </publicationStmt>
         </biblFull>
         <msDesc>
@@ -40,7 +37,8 @@
             <country>Suisse</country>
             <settlement>Genève</settlement>
             <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"/>
-                                    </repository>
+            </repository>
+            <collection>Colección Varios</collection>
             <idno type="cote"/>
             <idno type="DOI">10.5281/zenodo.6595032</idno>
             <altIdentifier>
@@ -69,7 +67,7 @@
               </layoutDesc>
             </objectDesc>
             <decoDesc>
-              <summary n="1">Uno grabado (p.1) </summary>
+              <summary n="1">Un grabado (p.1) </summary>
               <decoNote type="lista_grabados">
                 <list>
                   <item corresp="grabado_v_188_1.xml">grabado_v_188_1</item>
@@ -94,18 +92,17 @@
     </fileDesc>
     <encodingDesc>
       <projectDesc>
-        <p>Este archivo fue creado en el marco del proyecto Desenrollando el
-                              Cordel/Démêler le cordel/Untangling the cordel, dirigido por la
-                              profesora Constance Carta de la Universidad de Ginebra, con el apoyo
-                              de la Fundación filantrópica Famille Sandoz-Monique de Meuron.</p>
+        <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+          cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la Universidad
+          de Ginebra, con el apoyo de la Fundación filantrópica Famille Sandoz-Monique de
+          Meuron.</p>
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR non corregido</p>
+          <p>OCR no corregido</p>
         </correction>
         <normalization>
-          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto
-                                    original.</p>
+          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
         </normalization>
         <punctuation>
           <p>Se conserva la puntuación original.</p>
@@ -114,7 +111,7 @@
     </encodingDesc>
     <profileDesc>
       <langUsage>
-        <language ident="es">Español</language>
+        <language ident="ca">Catalán</language>
       </langUsage>
       <textClass>
         <keywords xml:base="http://datos.bne.es/tema/">
@@ -126,10 +123,14 @@
       </textClass>
     </profileDesc>
     <revisionDesc>
-      <change when="2023-08-05" who="#PJ">Création du fichier TEI P5 et encodage du
-                        corps du texte</change>
+      <change when="2023-08-05" who="#PJ">Création du fichier TEI P5 et encodage du corps du
+        texte</change>
+      <change when="2024-01-09" who="#EL">Add the IIIF links</change>
     </revisionDesc>
   </teiHeader>
+  <facsimile>
+    <graphic url="varios/Varios_188_1.jpg/full/200,/0/default.jpg"/>
+  </facsimile>
   <sourceDoc xml:id="automaticTranscription">
     <surface xml:id="Varios_188_1" type="page" cert="silver">
       <graphic url="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_188_1/full/full/0/default.jpg"/>
@@ -1332,10 +1333,12 @@
   <text>
     <body>
       <div>
-        <pb n="1" source="Varios_188_1.jpg" facs="fedora_Varios_188_1/full/full/0/default.jpg"/>
         <div>
+          <pb n="1" source="Varios_188_1.jpg" facs="varios/Varios_188_1.jpg/"/>
+
           <head type="primer_titulo"><lb/>QUEIXAS DE LAS MINYONAS CONTRA LAS<lb/>MASTRESSAS, DIALOGO
-                                    ENTRE LA<lb/>FRANCISCA Y LA MARIA.</head>
+            ENTRE LA<lb/>FRANCISCA Y LA MARIA.</head>
+
           <sp>
             <speaker>Fran.</speaker>
             <l>Molt tems ha que te esperaba</l>
@@ -1387,8 +1390,11 @@
             <l>cuan moco els llums , en un pot</l>
             <l>que te alli sobra la taula</l>
             <l>vol que tiri la barjaula</l>
-            <pb n="2" source="Varios_188_2.jpg" facs="fedora_Varios_188_2/full/full/0/default.jpg"/>
+            
+            <pb n="2" source="Varios_188_2.jpg" facs="varios/Varios_188_2.jpg/"/>
+            
             <fw type="paginaNum">2</fw>
+            
             <l>cada dia el cramallót.</l>
             <l>La pica mol de curiosa</l>
             <l>y renta ls' orinalets</l>
@@ -1427,7 +1433,7 @@
             <l>y cuan ella está ben tipa</l>
             <l>pensa que tothom ho está ,</l>
             <l>y fins me tanca lo pa.</l>
-            <l>Ahí va ser convidada</l>
+            <l rend="indent">Ahí va ser convidada</l>
             <l>en serta casa á diná ,</l>
             <l>y cuan li vaig preguntá</l>
             <l>que fariam á la nit ,</l>
@@ -1515,11 +1521,14 @@
             <l>á mi n' sembla que grassona</l>
             <l>la vaig veurer lo altre dia</l>
             <l>y cuasibe no creuria</l>
-            <l>( riense ab malicia )</l>
+            <stage>( <hi rend="cursiva">riense ab malicia</hi> )</stage>
             <l>que estés tan mala con dius.</l>
           </sp>
-          <pb n="3" source="Varios_188_3.jpg" facs="fedora_Varios_188_3/full/full/0/default.jpg"/>
+          
+          <pb n="3" source="Varios_188_3.jpg" facs="varios/Varios_188_3.jpg/"/>
+          
           <fw type="paginaNum">3</fw>
+          
           <sp>
             <speaker>F.</speaker>
             <l>Está mala y tu ten rius ?</l>
@@ -1596,7 +1605,7 @@
             <l>y ella m' respon, si ets tan faba,</l>
             <l>vesten á la clavaguera</l>
             <l>que alli ningu se espera.</l>
-            <l>Cuan tardo á vení de plassa</l>
+            <l rend="indent">Cuan tardo á vení de plassa</l>
             <l>me diu, vaya una cachassa</l>
             <l>com tens per aná á comprá ;</l>
             <l>jo dich que he hagut de rodá</l>
@@ -1635,8 +1644,11 @@
             <l>tocant al meu interés ;</l>
             <l>sempre penso qne val mes</l>
             <l>allo que mes me acomoda:</l>
-            <pb n="4" source="Varios_188_4.jpg" facs="fedora_Varios_188_4/full/full/0/default.jpg"/>
+            
+            <pb n="4" source="Varios_188_4.jpg" facs="varios/Varios_188_4.jpg/"/>
+            
             <fw type="paginaNum">4</fw>
+            
             <l>à mes de aixó ja es de moda;</l>
             <l>cada hu fe l' que li plau</l>
             <l>los diumenges à sarau</l>
@@ -1702,7 +1714,7 @@
             <l>y li penja el moch del nas ;</l>
             <l>¿qui será lo bordegás</l>
             <l>que ab ella se empleará ?</l>
-            <l>Un cop li vaig preguntá,</l>
+            <l rend="indent">Un cop li vaig preguntá,</l>
             <l>y m' va respondre enfadát</l>
             <l>¿ que m' tens per tan desditxat</l>
             <l>que ab ella jo me empleés ?</l>
@@ -1717,11 +1729,11 @@
             <l>no m' vingas ab porquerias ;</l>
             <l>Francisca , te estimo á tú</l>
             <l>y no m' parlis de ningú.</l>
-            <l>Maria ja es masa tart</l>
+            <l rend="indent">Maria ja es masa tart</l>
             <l>y com lo amo no está fart</l>
             <l>que encara te de esmorsá</l>
             <l>me trobaria á faltá.</l>
-            <l>Si vols vení , en ben dinát</l>
+            <l rend="indent">Si vols vení , en ben dinát</l>
             <l>fes seña des del tarrát</l>
             <l>que abuy vaig à la esplanada</l>
             <l>que demá tenim bugada.</l>

@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../Schema/oddPliego_varios.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:alto="http://www.loc.gov/standards/alto/ns-v4#" xml:id="Varios_115">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Varios_115">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -11,8 +11,7 @@
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <authority role="rightsHolder">Bibliothèque Universitaire de
-                              Genève</authority>
+        <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
         <availability status="restricted">
           <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
         </availability>
@@ -20,17 +19,16 @@
       <sourceDesc>
         <biblFull>
           <titleStmt>
-            <title type="titulo_completo">BOCCACCIO SERENATA DEL PRIMER
-                                          ACTO.</title>
-            <title type="titulo_breve">BOCCACCIO</title>
+            <title type="titulo_completo">BOCCACCIO SERENATA DEL PRIMER ACTO.</title>
+            <title type="titulo_breve"/>
           </titleStmt>
           <editionStmt>
             <p/>
           </editionStmt>
           <publicationStmt>
-            <publisher>Depósito de José Clara</publisher>
+            <publisher>José Clara</publisher>
             <pubPlace ref="https://www.geonames.org/3128760/barcelona.html">Barcelona</pubPlace>
-            <date/>
+            <date cert="low" when="1800-01-01">[s.a.]</date>
           </publicationStmt>
         </biblFull>
         <msDesc>
@@ -38,7 +36,8 @@
             <country>Suisse</country>
             <settlement>Genève</settlement>
             <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"/>
-                                    </repository>
+            </repository>
+            <collection>Colección Varios</collection>
             <idno type="cote"/>
             <idno type="DOI">10.5281/zenodo.6577068</idno>
             <altIdentifier>
@@ -46,10 +45,14 @@
             </altIdentifier>
           </msIdentifier>
           <msContents>
-            <summary/>
+            <summary>Un sainete + Un canción</summary>
             <msItem>
-              <locus/>
-              <title/>
+              <locus>1-3</locus>
+              <title>Boccaccio</title>
+            </msItem>
+            <msItem>
+              <locus>3-4</locus>
+              <title>Canciones de los polvos</title>
             </msItem>
           </msContents>
           <physDesc>
@@ -67,7 +70,7 @@
               </layoutDesc>
             </objectDesc>
             <decoDesc>
-              <summary n="1">Uno grabados (p.1) </summary>
+              <summary n="1">Un grabado (p.1)</summary>
               <decoNote type="lista_grabados">
                 <list>
                   <item corresp="grabado_v_115_1.xml">grabado_v_115_1</item>
@@ -92,18 +95,17 @@
     </fileDesc>
     <encodingDesc>
       <projectDesc>
-        <p>Este archivo fue creado en el marco del proyecto Desenrollando el
-                              Cordel/Démêler le cordel/Untangling the cordel, dirigido por la
-                              profesora Constance Carta de la Universidad de Ginebra, con el apoyo
-                              de la Fundación filantrópica Famille Sandoz-Monique de Meuron.</p>
+        <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+          cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la Universidad
+          de Ginebra, con el apoyo de la Fundación filantrópica Famille Sandoz-Monique de
+          Meuron.</p>
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR non corregido</p>
+          <p>OCR no corregido</p>
         </correction>
         <normalization>
-          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto
-                                    original.</p>
+          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
         </normalization>
         <punctuation>
           <p>Se conserva la puntuación original.</p>
@@ -125,10 +127,14 @@
       </textClass>
     </profileDesc>
     <revisionDesc>
-      <change when="2022-08-02" who="#PJ">Création du fichier TEI P5 et encodage du
-                        corps du texte</change>
+      <change when="2022-08-02" who="#PJ">Création du fichier TEI P5 et encodage du corps du
+        texte</change>
+      <change when="2024-01-09" who="#EL">Add the IIIF links</change>
     </revisionDesc>
   </teiHeader>
+  <facsimile>
+    <graphic url="varios/Varios_115_1.jpg/full/200,/0/default.jpg"/>
+  </facsimile>
   <sourceDoc xml:id="automaticTranscription">
     <surface xml:id="Varios_115_1" type="page" cert="silver">
       <graphic url="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_115_1/full/full/0/default.jpg"/>
@@ -1120,8 +1126,7 @@
       <zone xml:id="Varios_115_4_BT228_7" n="7" type="MarginTextZone" subtype="colophon" points="465,2206 431,2296 1901,2296 1901,2192 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_115_4/431,2192,1470,104/full/0/default" corresp="MarginTextZone:colophon">
         <zone xml:id="Varios_115_4_BT228_7_LT83_1" type="DefaultLine" subtype="none" points="483,2265 475,2207 594,2204 660,2179 662,2179 665,2179 667,2179 708,2199 776,2179 779,2179 781,2179 847,2192 903,2176 905,2176 908,2176 994,2197 1014,2176 1014,2174 1017,2174 1019,2174 1022,2174 1158,2174 1161,2174 1163,2174 1163,2176 1178,2189 1194,2174 1194,2171 1196,2171 1199,2171 1201,2171 1297,2192 1414,2192 1469,2171 1472,2171 1475,2171 1477,2171 1518,2189 1581,2189 1690,2189 1740,2169 1743,2169 1745,2169 1854,2187 1859,2245 1857,2295 1563,2283 1545,2298 1538,2303 1538,2305 1535,2305 1533,2305 1452,2310 1449,2310 1447,2310 1444,2310 1444,2308 1432,2298 1416,2285 1371,2285 1358,2298 1345,2310 1345,2313 1343,2313 1340,2313 1338,2313 1216,2298 1194,2295 1186,2298 1143,2315 1141,2315 1141,2318 1060,2318 1057,2315 1055,2315 1017,2298 963,2318 961,2318 958,2318 956,2318 880,2298 860,2293 855,2298 829,2321 827,2321 824,2321 822,2321 703,2315 700,2315 698,2315 698,2313 688,2303 635,2323 632,2323 629,2323 538,2321 536,2321 478,2298 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_115_4/475,2169,1384,154/full/0/default" corresp="DefaultLine">
           <path xml:id="Varios_115_4_BT228_7_LT83_1_1" points="483,2265 1859,2245 "/>
-          <line>Barcelona. — Depòsito de JOSÉ CLARA, Bou de la Plaza Nueva. núm.
-                                    20.</line>
+          <line>Barcelona. — Depòsito de JOSÉ CLARA, Bou de la Plaza Nueva. núm. 20.</line>
         </zone>
       </zone>
     </surface>
@@ -1129,340 +1134,358 @@
   <text>
     <body>
       <div>
-        <pb n="1" source="Varios_115_1.jpg" facs="fedora_Varios_115_1/full/full/0/default.jpg"/>
-        <fw type="impresorNum">Núm. 10.</fw>
         <div>
-          <head type="primer_titulo"><lb/>BOCCACCIO</head>
-          <div type="parte" n="1">
-            <head type="subtitulo_parte"><lb/>SERENATA DEL PRIMER
-                                          ACTO.</head>
-            <sp>
-              <speaker>Scalza.</speaker>
-              <l>¡Mujercita,</l>
-              <l>fiel y bonita,</l>
-              <l>tu barbero te necesita!</l>
-            </sp>
-            <sp>
-              <speaker>Loter.</speaker>
-              <l>Y te espera</l>
-              <l>de tal manera,</l>
-              <l>que te canta desde la acera.</l>
-              <l>Sal aquí...</l>
-              <l>firulirulí</l>
-              <l>firulirulerá.</l>
-            </sp>
-            <sp>
-              <speaker>Scalza.</speaker>
-              <l>Ven acá—</l>
-              <l>firulirulí</l>
-              <l>firulirulerá!...</l>
-            </sp>
-            <sp>
-              <speaker>Loter.</speaker>
-              <l>Sal aquí...</l>
-              <l>firulirulí—</l>
-              <l>Ven acá,</l>
-              <l>firulirulá!...</l>
-            </sp>
-            <sp>
-              <speaker>Los tres.</speaker>
-              <l>Que tu esposo esperándote está!</l>
-            </sp>
-            <sp>
-              <speaker>Scalza.</speaker>
-              <l>Sin reposo</l>
-              <l>llega tu esposo,</l>
-              <l>muy ageno de hacer el oso.</l>
-            </sp>
-            <sp>
-              <speaker>Loter.</speaker>
-              <l>Mas si acaso</l>
-              <l>sufre un fracaso...</l>
-            </sp>
-            <sp>
-              <speaker>Lamb.</speaker>
-              <l>Con paciencia saldrá del paso...</l>
-            </sp>
-            <sp>
-              <speaker>Loter.</speaker>
-              <l>Sal aquí,</l>
-              <l>ven acá, etc.</l>
-            </sp>
-            <sp>
-              <speaker>Lamb.</speaker>
-              <l>Si el demonio</l>
-              <l>le hace á un bolonio</l>
-              <l>desdichado en su matrimo- nio...</l>
-            </sp>
-            <sp>
-              <speaker>Loter.</speaker>
-              <l>No vé gota...</l>
-            </sp>
-            <sp>
-              <speaker>Scalza.</speaker>
-              <l>Porque el idiota</l>
-            </sp>
-            <sp>
-              <speaker>Los tres.</speaker>
-              <l>Es el último que lo nota!...</l>
-            </sp>
-            <sp>
-              <speaker>Lamb.</speaker>
-              <l>Sal aquí, etc.</l>
-            </sp>
-            <pb n="2" source="Varios_115_2.jpg" facs="fedora_Varios_115_2/full/full/0/default.jpg"/>
+          <pb n="1" source="Varios_115_1.jpg" facs="varios/Varios_115_1.jpg/"/>
+
+          <fw type="impresorNum">Núm. 10.</fw>
+
+          <div n="1">
+            <head type="primer_titulo"><lb/>BOCCACCIO</head>
+
+            <div type="parte" n="1">
+              <head type="subtitulo_parte"><lb/>SERENATA DEL PRIMER ACTO.</head>
+
+              <sp>
+                <speaker rend="cursiva">Scalza.</speaker>
+                <l>¡Mujercita,</l>
+                <l>fiel y bonita,</l>
+                <l>tu barbero te necesita!</l>
+              </sp>
+              <sp>
+                <speaker rend="cursiva">Loter.</speaker>
+                <l>Y te espera</l>
+                <l>de tal manera,</l>
+                <l>que te canta desde la acera.</l>
+                <l>Sal aquí...</l>
+                <l>firulirulí</l>
+                <l>firulirulerá.</l>
+              </sp>
+              <sp>
+                <speaker rend="cursiva">Scalza.</speaker>
+                <l>Ven acá—</l>
+                <l>firulirulí</l>
+                <l>firulirulerá!...</l>
+              </sp>
+              <sp>
+                <speaker rend="cursiva">Loter.</speaker>
+                <l>Sal aquí...</l>
+                <l>firulirulí—</l>
+                <l>Ven acá,</l>
+                <l>firulirulá!...</l>
+              </sp>
+              <sp>
+                <speaker rend="cursiva">Los tres.</speaker>
+                <l>Que tu esposo esperándote <add place="debajo">está!</add></l>
+              </sp>
+              <sp>
+                <speaker rend="cursiva">Scalza.</speaker>
+                <l>Sin reposo</l>
+                <l>llega tu esposo,</l>
+                <l>muy ageno de hacer el oso.</l>
+              </sp>
+              <sp>
+                <speaker rend="cursiva">Loter.</speaker>
+                <l>Mas si acaso</l>
+                <l>sufre un fracaso...</l>
+              </sp>
+              <sp>
+                <speaker rend="cursiva">Lamb.</speaker>
+                <l>Con paciencia saldrá del <add place="debajo">paso...</add></l>
+              </sp>
+              <sp>
+                <speaker rend="cursiva">Loter.</speaker>
+                <l>Sal aquí,</l>
+                <l>ven acá, etc.</l>
+              </sp>
+              <sp>
+                <speaker rend="cursiva">Lamb.</speaker>
+                <l>Si el demonio</l>
+                <l>le hace á un bolonio</l>
+                <l>desdichado en su matrimo- <add place="debajo">nio...</add></l>
+              </sp>
+              <sp>
+                <speaker rend="cursiva">Loter.</speaker>
+                <l>No vé gota...</l>
+              </sp>
+              <sp>
+                <speaker rend="cursiva">Scalza.</speaker>
+                <l>Porque el idiota</l>
+              </sp>
+              <sp>
+                <speaker rend="cursiva">Los tres.</speaker>
+                <l>Es el último que lo nota!...</l>
+              </sp>
+              <sp>
+                <speaker rend="cursiva">Lamb.</speaker>
+                <l>Sal aquí, etc.</l>
+              </sp>
+            </div>
+
+            <div type="parte" n="2">
+              <pb n="2" source="Varios_115_2.jpg" facs="varios/Varios_115_2.jpg/"/>
+
+              <head type="titulo_cancion"><lb/>COPLAS DE BOCCACCIO EN EL PRIMER ACTO.</head>
+
+              <lg>
+                <l rend="indent">Si acaso en desafio muere alguno</l>
+                <l>ya dicen todos en rigor:</l>
+                <l>«<hi rend="cursiva">Boccaccio</hi> ha sido el importuno</l>
+                <l>que le mató.»</l>
+                <l rend="indent">Si una muchacha se ha escapado,</l>
+                <l>para seguir á su galan,</l>
+                <l>ya es que <hi rend="cursiva">Boccaccio</hi> la ha robado</l>
+                <l>porque es un truhán.</l>
+                <l rend="indent">Si murió una jovencita</l>
+                <l>dicen que por mí murió;</l>
+                <l>si han robado una pollita,</l>
+                <l>se murmura que fuí yo.</l>
+                <l rend="indent">Si el dinero ha malgastado</l>
+                <l>en el juego un caballero,</l>
+                <l>dicen que lo ha ganado</l>
+                <l>es <hi rend="cursiva">Boccaccio</hi>, el pendenciero.</l>
+                <l rend="indent">Yo no sé como arreglarme</l>
+                <l>ni sé como disculparme,</l>
+                <l>que, aunque bueno el pán,</l>
+              </lg>
+
+              <lg>
+                <head type="titulo_estrofa"><lb/>Coro.</head>
+                <l rend="indent">Esto es, si, etc. etc.</l>
+                <l>siempre dirán</l>
+                <l>al rededor</l>
+                <l>que soy un tuno de marca mayor.</l>
+                <l rend="indent">Y si vivo inquieto:</l>
+                <l>¡pasado mañana</l>
+                <l>á fraile me meto!</l>
+                <l rend="indent">Mas ya sé lo que haré:</l>
+                <l>mujer elegiré</l>
+                <l>y si me quiere bien</l>
+                <l>me caso en un <hi rend="cursiva">amen</hi>;</l>
+                <l>y vóime con razon</l>
+                <l>á Flandes ó al Japon;</l>
+                <l>y ya no se murmurará</l>
+                <l>ni se dirá!</l>
+                <l rend="indent">Esto es, si,</l>
+                <l>lo que más me conviene á mí:</l>
+                <l>pues sin casarme, ya se vé</l>
+                <l>que desgraciado yo seré.</l>
+              </lg>
+            </div>
+
+            <div type="parte" n="3">
+              <head type="titulo_cancion"><lb/>DUO DEL TERCER ACTO.</head>
+              <sp>
+                <speaker rend="cursiva">Boc.</speaker>
+                <l>La niña Florentina</l>
+                <l>oculta su dolor</l>
+                <l>en su alma se adivina</l>
+                <l>la llama de amor.</l>
+                <l>Temblando está su acento;</l>
+                <l>su voz es un lamento</l>
+                <l>que, envuelto en puras lágri-</l>
+                <l>mas.</l>
+                <l>ignora donde va.</l>
+                <l>no llores, no,</l>
+                <l>que te oigo yo,</l>
+              </sp>
+              <sp>
+                <l>y con amante súplica,</l>
+                <l>con ilusion ardiente,</l>
+                <l>pendiente de esas lágrimas</l>
+                <l>mi corazon está.</l>
+              </sp>
+              <sp>
+                <speaker rend="cursiva">Fiam.</speaker>
+                <l>Así mi voz cantaba</l>
+                <l>la tarde que te vi.</l>
+              </sp>
+              <sp>
+                <speaker rend="cursiva">Boc.</speaker>
+                <l>Oh, sí!</l>
+                <l>Jamás me figuraba</l>
+                <l>hallar amor en tí.</l>
+
+                <pb n="3" source="Varios_115_3.jpg" facs="varios/Varios_115_3.jpg/"/>
+
+                <l>En vano el alma mia</l>
+                <l>oirte no quería;</l>
+                <l>tu voz sentida y mágica</l>
+                <l>mi pecho conmovió.</l>
+              </sp>
+              <sp>
+                <speaker rend="cursiva">Fiam.</speaker>
+                <l>Así te amo yo.</l>
+              </sp>
+              <sp>
+                <speaker rend="cursiva">Boc.</speaker>
+                <l>Feliz seré</l>
+                <l>la llama ardiente y fúlgida</l>
+                <l>si de tu fé</l>
+                <l>tu pecho no mintió.</l>
+              </sp>
+              <sp>
+                <speaker rend="cursiva">Fiam.</speaker>
+                <l>Así la niña florentina,</l>
+                <l>ya contenta, ya llorosa,</l>
+                <l>del amor que la fascina,</l>
+                <l>laràn, laràn,</l>
+                <l>vé el dardo sin cesar.</l>
+              </sp>
+              <sp>
+                <speaker rend="cursiva">Boc.</speaker>
+                <l>Así es, niña florentina,</l>
+                <l>como ves tu alma, y dichosa;</l>
+                <l>sin sufrir ni morir,</l>
+                <l>y al hacerte mi esposa;</l>
+                <l>larán, larán,</l>
+                <l>sabrás lo que es amar.</l>
+              </sp>
+              <sp>
+                <speaker rend="cursiva">Boc.</speaker>
+                <l>Así,Fiametta mia,</l>
+                <l>mi dicha serás.</l>
+              </sp>
+              <sp>
+                <speaker rend="cursiva">Fiam.</speaker>
+                <l>Tu amor y tu alegría</l>
+                <l>en mi encontrarás.</l>
+              </sp>
+              <sp>
+                <speaker rend="cursiva">Boc.</speaker>
+                <l>Bendita mi ventura,</l>
+                <l>que adora tu hermosura!</l>
+              </sp>
+              <sp>
+                <speaker rend="cursiva">Fiam.</speaker>
+                <l>Tu acento siempre mágico</l>
+                <l>será mi solo amor.</l>
+                <l>Feliz seré!</l>
+              </sp>
+              <sp>
+                <speaker rend="cursiva">Boc.</speaker>
+                <l>Tendrás mi fé.</l>
+              </sp>
+              <sp>
+                <speaker rend="cursiva">Los dos.</speaker>
+                <l>Así vivirá el ánima</l>
+                <l>Tendrás mi fé.</l>
+                <l>sin pena y sin dolor.</l>
+                <l>La niña florentina, etc.</l>
+              </sp>
+            </div>
           </div>
-          <div type="parte" n="2">
-            <head type="titulo_cancion"><lb/>COPLAS DE BOCCACCIO EN EL PRIMER ACTO.</head>
-            <lg>
-              <l>Si acaso en desafio muere alguno</l>
-              <l>ya dicen todos en rigor:</l>
-              <l>«Boccaccio ha sido el importuno</l>
-              <l>que le mató.»</l>
-              <l>Si una muchacha se ha escapado,</l>
-              <l>para seguir á su galan,</l>
-              <l>ya es que Boccaccio la ha robado</l>
-              <l>porque es un truhán.</l>
-              <l>Si murió una jovencita</l>
-              <l>dicen que por mí murió;</l>
-              <l>si han robado una pollita,</l>
-              <l>se murmura que fuí yo.</l>
-              <l>Si el dinero ha malgastado</l>
-              <l>en el juego un caballero,</l>
-              <l>dicen que lo ha ganado</l>
-              <l>es Boccaccio, el pendenciero.</l>
-              <l>Yo no sé como arreglarme</l>
-              <l>ni sé como disculparme,</l>
-              <l>que, aunque bueno el pán,</l>
-            </lg>
-            <p><lb/>Coro.</p>
-            <lg>
-              <l>Esto es, si, etc. etc.</l>
-              <l>siempre dirán</l>
-              <l>al rededor</l>
-              <l>que soy un tuno de marca mayor.</l>
-              <l>Y si vivo inquieto:</l>
-              <l>¡pasado mañana</l>
-              <l>á fraile me meto!</l>
-              <l>Mas ya sé lo que haré:</l>
-              <l>mujer elegiré</l>
-              <l>y si me quiere bien</l>
-              <l>me caso en un amen;</l>
-              <l>y vóime con razon</l>
-              <l>á Flandes ó al Japon;</l>
-              <l>y ya no se murmurará</l>
-              <l>ni se dirá!</l>
-              <l>Esto es, si,</l>
-              <l>lo que más me conviene á mí:</l>
-              <l>pues sin casarme, ya se vé</l>
-              <l>que desgraciado yo seré.</l>
-            </lg>
-          </div>
-          <div type="parte" n="3">
-            <head type="titulo_cancion"><lb/>DUO DEL TERCER ACTO.</head>
-            <sp>
-              <speaker>Boc.</speaker>
-              <l>La niña Florentina</l>
-              <l>oculta su dolor</l>
-              <l>en su alma se adivina</l>
-              <l>la llama de amor.</l>
-              <l>Temblando está su acento;</l>
-              <l>su voz es un lamento</l>
-              <l>que, envuelto en puras lágri-</l>
-              <l>mas.</l>
-              <l>ignora donde va.</l>
-              <l>no llores, no,</l>
-              <l>que te oigo yo,</l>
-            </sp>
-            <sp>
-              <l>y con amante súplica,</l>
-              <l>con ilusion ardiente,</l>
-              <l>pendiente de esas lágrimas</l>
-              <l>mi corazon está.</l>
-            </sp>
-            <sp>
-              <speaker>Fiam.</speaker>
-              <l>Así mi voz cantaba</l>
-              <l>la tarde que te vi.</l>
-            </sp>
-            <sp>
-              <speaker>Boc.</speaker>
-              <l>Oh, sí!</l>
-              <l>Jamás me figuraba</l>
-              <l>hallar amor en tí.</l>
-            </sp>
-            <sp>
-              <pb n="3" source="Varios_115_3.jpg" facs="fedora_Varios_115_3/full/full/0/default.jpg"/>
-              <l>En vano el alma mia</l>
-              <l>oirte no quería;</l>
-              <l>tu voz sentida y mágica</l>
-              <l>mi pecho conmovió.</l>
-            </sp>
-            <sp>
-              <speaker>Fiam.</speaker>
-              <l>Así te amo yo.</l>
-            </sp>
-            <sp>
-              <speaker>Boc.</speaker>
-              <l>Feliz seré</l>
-              <l>la llama ardiente y fúlgida</l>
-              <l>si de tu fé</l>
-              <l>tu pecho no mintió.</l>
-            </sp>
-            <sp>
-              <speaker>Fiam.</speaker>
-              <l>Así la niña florentina,</l>
-              <l>ya contenta, ya llorosa,</l>
-              <l>del amor que la fascina,</l>
-              <l>laràn, laràn,</l>
-              <l>vé el dardo sin cesar.</l>
-            </sp>
-            <sp>
-              <speaker>Boc.</speaker>
-              <l>Así es, niña florentina,</l>
-              <l>como ves tu alma, y dichosa;</l>
-              <l>sin sufrir ni morir,</l>
-              <l>y al hacerte mi esposa;</l>
-              <l>larán, larán,</l>
-              <l>sabrás lo que es amar.</l>
-            </sp>
-            <sp>
-              <speaker>Boc.</speaker>
-              <l>Así,Fiametta mia,</l>
-              <l>mi dicha serás.</l>
-            </sp>
-            <sp>
-              <speaker>Fiam.</speaker>
-              <l>Tu amor y tu alegría</l>
-              <l>en mi encontrarás.</l>
-            </sp>
-            <sp>
-              <speaker>Boc.</speaker>
-              <l>Bendita mi ventura,</l>
-              <l>que adora tu hermosura!</l>
-            </sp>
-            <sp>
-              <speaker>Fiam.</speaker>
-              <l>Tu acento siempre mágico</l>
-              <l>será mi solo amor.</l>
-              <l>Feliz seré!</l>
-            </sp>
-            <sp>
-              <speaker>Boc.</speaker>
-              <l>Tendrás mi fé.</l>
-            </sp>
-            <sp>
-              <speaker>Los dos.</speaker>
-              <l>Así vivirá el ánima</l>
-              <l>Tendrás mi fé.</l>
-              <l>sin pena y sin dolor.</l>
-              <l>La niña florentina, etc.</l>
-            </sp>
-          </div>
-          <div type="parte" n="4">
+
+          <div n="2">
             <head type="titulo_cancion"><lb/>CANCIONES DE LOS POLVOS.</head>
+
             <lg>
-              <l>Com son estranyas</l>
+              <l rend="indent">Com son estranyas</l>
               <l>are las modas.</l>
               <l>ván com fantasmas</l>
               <l>totas las donas.</l>
-              <l>Mare vinga, mare vinga,</l>
+              <l rend="indent">Mare vinga, mare vinga,</l>
               <l>mare vinga y ho veurá,</l>
               <l>so paseijan per la Rambla</l>
               <l>y per tot ván criticant.</l>
-              <l>Plena de polvos</l>
+            </lg>
+            <lg>
+              <l rend="indent">Plena de polvos</l>
               <l>duhen la cara,</l>
               <l>de Juan Tenorio</l>
               <l>com las estátuas.</l>
-              <l>Mare vinga, mare vinga,</l>
+              <l rend="indent">Mare vinga, mare vinga,</l>
               <l>mare vinga al embalat,</l>
               <l>y á las noyas veurá totas</l>
               <l>el los polvos cara avall.</l>
             </lg>
             <lg>
-              <l>Los polvos deixan</l>
+              <l rend="indent">Los polvos deixan</l>
               <l>la séva cara</l>
               <l>que semblan luego</l>
               <l>vellas pasadas.</l>
-              <l>Mare vinga, mare vinga,</l>
+              <l rend="indent">Mare vinga, mare vinga,</l>
               <l>mare vinga á doná un vol,</l>
               <l>y veurá á n' ellas que semblan</l>
               <l>una capsa de colors.</l>
-              <l>Las lletjas volen</l>
+            </lg>
+            <lg>
+              <l rend="indent">Las lletjas volen</l>
               <l>semblar ben guapas,</l>
               <l>y ab las potingas</l>
               <l>homes enganyan.</l>
-              <l>Mare vinga, mare vinga,</l>
+              <l rend="indent">Mare vinga, mare vinga,</l>
               <l>mare vinga pel carrer</l>
               <l>y veurá caras que semblan</l>
               <l>las mostras d' un tintorer.</l>
             </lg>
-            <pb n="4" source="Varios_115_4.jpg" facs="fedora_Varios_115_4/full/full/0/default.jpg"/>
+
+            <pb n="4" source="Varios_115_4.jpg" facs="varios/Varios_115_4.jpg/"/>
+
             <lg>
-              <l>Jo 'n sé que 's pintan</l>
+              <l rend="indent">Jo 'n sé que 's pintan</l>
               <l>hasta las seyas</l>
               <l>y potser cosa</l>
               <l>que no 's pot veura.</l>
-              <l>Mare vinga, mare vinga,</l>
+              <l rend="indent">Mare vinga, mare vinga,</l>
               <l>mare vinga á lo Padró,</l>
               <l>y veurá fins carnisseras</l>
               <l>que podrian vendre arrós.</l>
             </lg>
             <lg>
-              <l>Crech qu' are es moda</l>
+              <l rend="indent">Crech qu' are es moda</l>
               <l>portá en cert punt,</l>
               <l>un feix de roba</l>
-              <l>que se 'n diu Puf.</l>
-              <l>Mare vinga, mare vinga,</l>
+              <l>que se 'n diu <hi rend="cursiva">Puf</hi>.</l>
+              <l rend="indent">Mare vinga, mare vinga,</l>
               <l>mare vinga cap á munt</l>
               <l>y veurá noyas que sembla</l>
               <l>que al darrera n' hi vá un.</l>
             </lg>
             <lg>
-              <l>Las sabateras</l>
+              <l rend="indent">Las sabateras</l>
               <l>per pescar bobos,</l>
               <l>també 'ls agrada</l>
               <l>posarse polvos.</l>
-              <l>Mare vinga, mare vinga,</l>
+              <l rend="indent">Mare vinga, mare vinga,</l>
               <l>mare vinga vingui ab mi</l>
               <l>y veurá noyas que sembla</l>
               <l>que las hajin de fregir.</l>
             </lg>
             <lg>
-              <l>Las texidoras</l>
+              <l rend="indent">Las texidoras</l>
               <l>y las metxeras</l>
               <l>també s' ho pintan</l>
               <l>com las marquesas.</l>
-              <l>Mare vinga, mare vinga,</l>
+              <l rend="indent">Mare vinga, mare vinga,</l>
               <l>mare vinga á 'ls Atmetllons,</l>
               <l>y veurá plegar las xinxas</l>
               <l>que 'ls agradan polvos bons.</l>
             </lg>
             <lg>
-              <l>L' apotecari</l>
+              <l rend="indent">L' apotecari</l>
               <l>va dirme un dia:</l>
               <l>—Noya, de polvos</l>
               <l>jo te 'n daría.—</l>
-              <l>Mare vinga, mare vinga,</l>
+              <l rend="indent">Mare vinga, mare vinga,</l>
               <l>mare vinga y sentirá</l>
               <l>com dich al apotecari</l>
               <l>que marquesa no ho soch pás.</l>
             </lg>
             <lg>
-              <l>Polvo á las galtas,</l>
+              <l rend="indent">Polvo á las galtas,</l>
               <l>polvos al nás,</l>
               <l>polvos á 'ls brassos,</l>
               <l>y al coll y mans.</l>
-              <l>Mare vinga, mare vinga,</l>
+              <l rend="indent">Mare vinga, mare vinga,</l>
               <l>mare vinga y veurá com</l>
               <l>á las donas los agradan</l>
               <l>los polvos per tots cantons.</l>
             </lg>
           </div>
-          <div type="colofon">
-            <p><lb/>Barcelona. — Depòsito de JOSÉ CLARA, Bou de la Plaza
-                                          Nueva. núm. 20.</p>
-          </div>
+        </div>
+        
+        <div type="colofon">
+          <p><lb/><hi rend="cursiva">Barcelona. — Depòsito de</hi> JOSÉ CLARA, <hi rend="cursiva">Bou de la Plaza Nueva. núm.</hi> 20.</p>
         </div>
       </div>
     </body>

@@ -28,9 +28,9 @@
             <p/>
           </editionStmt>
           <publicationStmt>
-            <publisher>Casa de Juan Grau</publisher>
+            <publisher>Juan Grau</publisher>
             <pubPlace ref="https://www.geonames.org/3111933/reus.html">Reus</pubPlace>
-            <date cert="high">[s.a]</date>
+            <date cert="low" when="1800-01-01">[s.a.]</date>
           </publicationStmt>
         </biblFull>
         <msDesc>
@@ -39,6 +39,7 @@
             <settlement>Genève</settlement>
             <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"/>
                                     </repository>
+            <collection>Colección Varios</collection>
             <idno type="cote"/>
             <idno type="DOI">10.5281/zenodo.6783463</idno>
             <altIdentifier>
@@ -100,7 +101,7 @@
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR non corregido</p>
+          <p>OCR no corregido</p>
         </correction>
         <normalization>
           <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto
@@ -127,9 +128,10 @@
     <revisionDesc>
       <change when="2023-12-06" who="#PJ">Création du fichier TEI P5 et encodage du
                         corps du texte</change>
+<change when="2024-01-09" who="#EL">Add the IIIF links</change>
     </revisionDesc>
   </teiHeader>
-  <sourceDoc xml:id="automaticTranscription">
+  <facsimile><graphic url="varios/Varios_370_1.jpg/full/200,/0/default.jpg"/></facsimile><sourceDoc xml:id="automaticTranscription">
     <surface xml:id="Varios_370_1" type="page" cert="silver">
       <graphic url="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_370_1/full/full/0/default.jpg"/>
       <zone xml:id="Varios_370_1_BT223_1" n="1" type="CustomZone" subtype="title" points="1689,1157 1689,1459 170,1459 170,1157 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_370_1/170,1157,1519,302/full/0/default" corresp="CustomZone:title">
@@ -1073,7 +1075,7 @@
   <text>
     <body>
       <div>
-        <pb n="1" source="Varios_370_1.jpg" facs="fedora_Varios_370_1/full/full/0/default.jpg"/>
+        <pb n="1" source="Varios_370_1.jpg" facs="varios/Varios_370_1.jpg/"/>
         <div type="parte" n="1">
           <head type="primer_titulo"><lb/>CANCIONES DE LOS COMEDIANTES DE ANTAÑO</head>
           <head type="subtitulo_parte"><lb/>SEGUIDAS DE LAS DE LA GITANILLA
@@ -1123,7 +1125,7 @@
             <l>Por Jesucristo que nos la lean</l>
             <l>mañana mismo para almorzar.</l>
           </lg>
-          <pb n="2" source="Varios_370_2.jpg" facs="fedora_Varios_370_2/full/full/0/default.jpg"/>
+          <pb n="2" source="Varios_370_2.jpg" facs="varios/Varios_370_2.jpg/"/>
           <lg>
             <l>Niña de rostro de cielo,</l>
             <l>muestra pesar por mi llanto,</l>
@@ -1238,7 +1240,7 @@
             <l>No se que pasa en mi corazon.</l>
           </lg>
         </div>
-        <pb n="3" source="Varios_370_3.jpg" facs="fedora_Varios_370_3/full/full/0/default.jpg"/>
+        <pb n="3" source="Varios_370_3.jpg" facs="varios/Varios_370_3.jpg/"/>
         <div type="parte" n="4">
           <head type="titulo_parte"><lb/>LA GITANILLA</head>
           <lg>
@@ -1286,7 +1288,7 @@
           <p><lb/>Se halla de venta en casa Juan Grau, calle del Metje
                                     Fortuny, núm. 5. REUS.</p>
         </div>
-        <pb n="4" source="Varios_370_4.jpg" facs="fedora_Varios_370_4/full/full/0/default.jpg"/>
+        <pb n="4" source="Varios_370_4.jpg" facs="varios/Varios_370_4.jpg/"/>
         <div type="parte" n="5">
           <head type="titulo_parte"><lb/>EL NEGUITO<lb/>AMERICANA</head>
           <head type="subtitulo_parte"><lb/>AMERICANA</head>

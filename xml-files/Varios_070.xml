@@ -1,21 +1,17 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../Schema/oddPliego_varios.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:alto="http://www.loc.gov/standards/alto/ns-v4#" xml:id="Varios_070">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Varios_070">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>EL CANTOR DE LAS HERMOSAS. TROBAS DE AMOR DEDICADAS AI BELLO SECSO POR UNOS
-               AFICIONADOS.</title>
+        <title>EL CANTOR DE LAS HERMOSAS</title>
         <respStmt>
           <name/>
           <resp>Codificación TEI</resp>
-          <note type="propiedad">A. M.</note>
-          <note type="propiedad">J. A. C.</note>
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <authority role="rightsHolder">Bibliothèque Universitaire de
-                            Genève</authority>
+        <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
         <availability status="restricted">
           <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
         </availability>
@@ -23,17 +19,17 @@
       <sourceDesc>
         <biblFull>
           <titleStmt>
-            <title type="titulo_completo">EL CANTOR DE LAS HERMOSAS. TROBAS DE AMOR DEDICADAS AI BELLO SECSO POR UNOS
-                     AFICIONADOS.</title>
-            <title type="titulo_breve"/>
+            <title type="titulo_completo">EL CANTOR DE LAS HERMOSAS. TROBAS DE AMOR DEDICADAS AI
+              BELLO SECSO POR UNOS AFICIONADOS.</title>
+            <title type="titulo_breve">EL CANTOR DE LAS HERMOSAS.</title>
           </titleStmt>
           <editionStmt>
             <p/>
           </editionStmt>
           <publicationStmt>
-            <publisher>Imprenta de A. Bosch,</publisher>
+            <publisher>Antonio Bosch</publisher>
             <pubPlace ref="https://www.geonames.org/3128760/barcelona.html">Barcelona</pubPlace>
-            <date>[s.a]</date>
+            <date cert="low" when="1800-01-01">[s.a.]</date>
           </publicationStmt>
         </biblFull>
         <msDesc>
@@ -41,7 +37,8 @@
             <country>Suisse</country>
             <settlement>Genève</settlement>
             <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"/>
-                  </repository>
+            </repository>
+            <collection>Colección Varios</collection>
             <idno type="cote"/>
             <idno type="DOI">10.5281/zenodo.6562963</idno>
             <altIdentifier>
@@ -49,10 +46,21 @@
             </altIdentifier>
           </msIdentifier>
           <msContents>
-            <summary/>
+            <summary>Tres partes</summary>
             <msItem>
-              <locus/>
-              <title/>
+              <locus>1-2</locus>
+              <title>Mi querella.</title>
+              <author role="letrista">A. M.</author>
+            </msItem>
+            <msItem>
+              <locus>2-3</locus>
+              <title>Delirio</title>
+              <author role="letrista">J. A. C.</author>
+            </msItem>
+            <msItem>
+              <locus>3-4</locus>
+              <title>Inspiracion</title>
+              <author role="letrista">J. A. C.</author>
             </msItem>
           </msContents>
           <physDesc>
@@ -70,7 +78,7 @@
               </layoutDesc>
             </objectDesc>
             <decoDesc>
-              <summary n="1">Uno grabado (p.1) </summary>
+              <summary n="1">Un grabado (p.1)</summary>
               <decoNote type="lista_grabados">
                 <list>
                   <item corresp="grabado_v_070_1.xml">grabado_v_070_1</item>
@@ -81,7 +89,7 @@
           </physDesc>
           <history>
             <origin>
-              <p>Imprenta de A. Bosch, calle de le Cera, n.°  51.</p>
+              <p>Imprenta de A. Bosch, calle de le Cera, n.° 51.</p>
             </origin>
             <provenance/>
             <acquisition/>
@@ -91,18 +99,17 @@
     </fileDesc>
     <encodingDesc>
       <projectDesc>
-        <p>Este archivo fue creado en el marco del proyecto Desenrollando el
-                            Cordel/Démêler le cordel/Untangling the cordel, dirigido por la
-                            profesora Constance Carta de la Universidad de Ginebra, con el apoyo de
-                            la Fundación filantrópica Famille Sandoz-Monique de Meuron.</p>
+        <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+          cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la Universidad
+          de Ginebra, con el apoyo de la Fundación filantrópica Famille Sandoz-Monique de
+          Meuron.</p>
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR non corregido</p>
+          <p>OCR no corregido</p>
         </correction>
         <normalization>
-          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto
-                                original.</p>
+          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
         </normalization>
         <punctuation>
           <p>Se conserva la puntuación original.</p>
@@ -124,9 +131,13 @@
     </profileDesc>
     <revisionDesc>
       <change when="2022-06-16" who="#PJ">Création du fichier TEI P5 et encodage du corps du
-                        texte</change>
+        texte</change>
+      <change when="2024-01-09" who="#EL">Add the IIIF links</change>
     </revisionDesc>
   </teiHeader>
+  <facsimile>
+    <graphic url="varios/Varios_070_1.jpg/full/200,/0/default.jpg"/>
+  </facsimile>
   <sourceDoc xml:id="automaticTranscription">
     <surface xml:id="Varios_070_1" type="page" cert="silver">
       <graphic url="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_070_1/full/full/0/default.jpg"/>
@@ -805,7 +816,7 @@
       <zone xml:id="Varios_070_4_BT228_10" n="10" type="MarginTextZone" subtype="colophon" points="363,2553 380,2488 1344,2509 1352,2565 447,2547 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_070_4/363,2488,989,77/full/0/default" corresp="MarginTextZone:colophon">
         <zone xml:id="Varios_070_4_BT228_10_LT83_1" type="DefaultLine" subtype="none" points="379,2532 379,2442 473,2453 489,2444 502,2436 504,2436 504,2436 506,2436 506,2436 506,2436 508,2436 508,2436 511,2436 552,2447 568,2449 596,2447 686,2440 688,2440 688,2440 688,2440 690,2440 690,2440 717,2451 730,2455 741,2451 767,2440 767,2440 769,2440 769,2440 769,2440 772,2440 772,2440 772,2440 829,2453 855,2460 864,2455 879,2442 881,2442 881,2442 881,2442 883,2442 883,2442 886,2442 1015,2444 1015,2444 1015,2444 1017,2444 1017,2444 1057,2460 1070,2464 1090,2460 1160,2447 1160,2447 1160,2447 1162,2447 1162,2447 1162,2447 1164,2447 1217,2464 1226,2469 1342,2469 1342,2547 1340,2569 1087,2580 1085,2580 1085,2580 943,2561 914,2558 892,2561 794,2572 794,2572 791,2572 791,2572 789,2572 789,2572 752,2556 750,2556 750,2556 730,2574 730,2574 728,2574 728,2574 728,2574 726,2574 726,2574 726,2576 675,2576 673,2574 673,2574 671,2574 671,2574 671,2574 668,2574 668,2572 649,2554 611,2554 594,2554 594,2554 530,2572 528,2572 528,2572 526,2572 526,2572 526,2572 524,2572 524,2572 522,2572 522,2572 522,2569 502,2554 445,2569 443,2569 443,2569 440,2569 440,2569 440,2569 438,2569 372,2547 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_070_4/372,2436,970,144/full/0/default" corresp="DefaultLine">
           <path xml:id="Varios_070_4_BT228_10_LT83_1_1" points="379,2532 1342,2547 "/>
-          <line>Barcelona: Imprenta de A. Bosch, calle de le Cera, n.°  51.</line>
+          <line>Barcelona: Imprenta de A. Bosch, calle de le Cera, n.° 51.</line>
         </zone>
       </zone>
       <zone xml:id="Varios_070_4_BT227_11" n="11" type="MainZone" subtype="columns" points="815,1294 769,1250 684,1242 693,893 1322,911 1322,1005 1226,1069 1296,1121 1252,1174 1243,1290 1102,1290 1102,1294 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_070_4/684,893,638,401/full/0/default" corresp="MainZone:columns"/>
@@ -814,190 +825,220 @@
   <text>
     <body>
       <div>
-        <pb n="1" source="Varios_070_1.jpg" facs="fedora_Varios_070_1/full/full/0/default.jpg"/>
-        <fw type="impresorNum">Núm.12.</fw>
-        <head type="primer_titulo"><lb/>EL<lb/>CANTOR DE LAS HERMOSAS.<lb/>TROBAS DE AMOR DEDICADAS AL BELLO SECSO POR UNOS<lb/>AFICIONADOS.</head>
         <div>
-          <head type="titulo_cancion"><lb/>55. MI QUERELLA.</head>
-          <p><lb/>I.</p>
-          <lg>
-            <l>Si una vez en el mundo adoraste,</l>
-            <l>Si de amor en el cáliz bebiste,</l>
-            <l>Ah ! por qué compasion no tuviste</l>
-          </lg>
-          <lg>
-            <l>Es amargo mirarte, Pepita,</l>
-            <l>Siempre sorda á mi triste querella;</l>
-            <l>Ah! mitiga el rigo de mi estrella,</l>
-          </lg>
-          <pb n="2" source="Varios_070_2.jpg" facs="fedora_Varios_070_2/full/full/0/default.jpg"/>
-          <fw type="paginaNum">70</fw>
-          <p><lb/>II.</p>
-          <lg>
-            <l>Si me vieras de noche, bien mio,</l>
-            <l>Al mecer de fantástico ensueño,</l>
-            <l>Advirtieras euan dulce es mi sueño</l>
-            <l>Si te veo velar junto á mí.</l>
-            <l>Mas dispierto... te busco azorado...</l>
-            <l>No te encuentro... maldigo mi suerte !</l>
-            <l>Ah ! prefiero mil veces la muerte</l>
-            <l>A vivir apartado de tí !</l>
-          </lg>
-          <p><lb/>III.</p>
-          <lg>
-            <l>Mi existencia consume, oh ! Pepita,</l>
-            <l>De mí pecho un volcan tan terrible</l>
-            <l>Que ay! en breve tu alma insensible</l>
-            <l>Me verá á su rigor sucumbir.</l>
-            <l>Pues prefiero bajar al sepulcro,</l>
-            <l>Que en poder de un rival contemplarte!</l>
-            <l>Porque el alma que supo adorarte</l>
-            <l>Solo anhela tu amor ó morir.</l>
-          </lg>
-          <p><lb/>IV.</p>
-          <lg>
-            <l>Compasion! mi Pepita, ó lavida</l>
-            <l>Tu funesto desden me arrebata!</l>
-            <l>De una vez apiádate, ingrata,</l>
-            <l>Del sufrir de mi fiel corazon.</l>
-            <l>Ven, contempla mi llanto abundante:</l>
-            <l>Ven y escucha mi triste querella :</l>
-            <l>Y mi idólatra pecho, mi bella,</l>
-            <l>Ay! tal vez halle en tí compasion!</l>
-          </lg>
-          <p><lb/>-- A. M.--</p>
-        </div>
-        <div>
-          <head type="titulo_cancion"><lb/>56. DELIRIO.</head>
-          <p><lb/>I.</p>
-          <lg>
-            <l>No mas... no mas te goces, bella Anita,</l>
-            <l>En oprimir cruel mi pecho amante !</l>
-            <l>¿No ves cual la esperanza se marchita</l>
-            <l>Que concibiera un dia delirante ?...</l>
-            <l>¿No ves como mi mente debilita</l>
-            <l>De un volcan el impulso devorante...</l>
-            <l>Te un horrible volcan cuya inclemencia</l>
-            <l>Amaga de continuo mi existencia ?</l>
-          </lg>
-          <p><lb/>II.</p>
-          <lg>
-            <l>¿ A qué tanto rigor ?.. Borra ya, hermosa</l>
-            <l>Esas dudas que aumentan mi suplicio:</l>
-            <l>Una idea fatal do quier me acosa</l>
-            <l>Y trastorna esa idea mi juicio!</l>
-            <l>Quieres mi muerte ?... Cabaré una fosa</l>
-            <l>Y te haré de mi vida el sacrificio !...</l>
-            <l>Habla ! y verás mi tronco altivo y fuerte</l>
-            <l>En un cadáver convertirse inerte !!!</l>
-          </lg>
-          <pb n="3" source="Varios_070_3.jpg" facs="fedora_Varios_070_3/full/full/0/default.jpg"/>
-          <lg>
-            <l>Qué es ante tí mi vida ? Atomo leve</l>
-            <l>Que un soplo tuyo destruir logréra !...</l>
-            <l>Tronco robusto que Aquilon no mueve</l>
-            <l>Y só tus plantas tu voz le doblara !</l>
-            <l>Llama débil que ajita el tiempo breve</l>
-            <l>Y á tu capricho al punto se apagára!...</l>
-            <l>Esto es mi vida !! A tí ya censagrada</l>
-            <l>Lánzala en el abismo de la NADA.</l>
-            <l>. . . . . . . . . . . . .</l>
-            <l>. . . . . . . . . . . . .</l>
-          </lg>
-          <p><lb/>IV.</p>
-          <l>Quisiera poscer montes de oro</l>
-          <l>Para ofrecerle humilde á tu hermosura,</l>
-          <l>Porque con tal delirlo yo te adoro</l>
-          <l>Que solo en tí encontrar podré ventura :</l>
-          <l>Mas ah! es mi corazon solo el tesoro</l>
-          <l>Que podia ofrecer á tu ternura...</l>
-          <l>Te to entregué!... Eeliz juré adoratte</l>
-          <l>Y jamás á la te podré faltarte!</l>
-          <lg>
-            <l>Permita el justo cielo que si un dia</l>
-            <l>Oso olvidar la fe de un juramento,</l>
-            <l>Rayo de maldicion mi frente impía</l>
-            <l>Hunda en el polvo con furor violento.</l>
-            <l>Mas no será! que hasta la tumba fria...</l>
-            <l>Hasta exhalar mi postrimer aliento,</l>
-            <l>Luchando azás con mi destino duro</l>
-            <l>Podré ser infeliz mas no perjuro.</l>
-          </lg>
-          <p><lb/>--J. A. C.--</p>
-        </div>
-        <div>
-          <head type="titulo_cancion"><lb/>57. INSPIRACION.</head>
-          <fw type="paginaNum">71</fw>
-          <lg>
-            <l>Perdon mi duce LIRA si olvidada</l>
-            <l>Un tiempo te dejé: tus cuerdas de oro</l>
-            <l>No escucha en noche oscura y sosegada</l>
-            <l>Pulsar en su loor el bien que adoro.</l>
-            <l>Dejó de hendir el aura placentera</l>
-            <l>El eco de tus sones y armonías :</l>
-          </lg>
-          <lg>
-            <l>Perdon!... no te olvidé : la suerte fiera</l>
-            <l>El númen me vedó por muchos dias.</l>
-            <l>Mas hoy siento otra vez mi pobre mente</l>
-            <l>De inspiraciones llena: ¡ ó grato iustante !</l>
-            <l>Que entre el placer que absorto el pecho siente</l>
-            <l>Vuelvo á pulsarte, ó LIRA, delirante.</l>
-          </lg>
-          <p><lb/>I.</p>
-          <lg>
-            <l>De fria y negra noche entre el silencio</l>
-            <l>Al pié de la ventana de mi amada,</l>
-            <l>Te pulsaré otra vez LIRA adorada</l>
-            <l>Cantando mi dolor :</l>
-            <l>Y hesta que el dulce trino de las aves</l>
-            <l>Salude á la risueña y bella aurora,</l>
-            <l>Escuchará, mi bien, cuanto la adora</l>
-            <l>Su pobre Trovador.</l>
-          </lg>
-          <pb n="4" source="Varios_070_4.jpg" facs="fedora_Varios_070_4/full/full/0/default.jpg"/>
-          <fw type="paginaNum">72</fw>
-          <p><lb/>II.</p>
-          <lg>
-            <l>Mas ay! no en mi martirio daré al viento</l>
-            <l>Cantigas de placer como algun dia,</l>
-            <l>Que suple amargo llanto á mi alegría</l>
-            <l>Y es triste hoy mi trobar;</l>
-            <l>Pues ya mis ilusorias esperanzas</l>
-            <l>Lanzadas ví en el polvo del olvido,</l>
-            <l>Y al peso de mi suerte asi abatido.</l>
-            <l>Tan solo sé llorar.</l>
-          </lg>
-          <p><lb/>III.</p>
-          <lg>
-            <l>Soñaba con placer que á su fiel bardo</l>
-            <l>Consagraría AMELIA su hermosura,</l>
-            <l>Y un porvenir radiante de ventura</l>
-            <l>Creóse mi ilusion!</l>
-            <l>Y hoy sufro un desengaño mas funesto</l>
-            <l>Cuanto se presentoron mas risueños,</l>
-            <l>Fantásticos y bellos los ensueños</l>
-            <l>A mi imaginacion.</l>
-          </lg>
-          <p><lb/>IV.</p>
-          <lg>
-            <l>Yo para amar nací... mas nunca amado</l>
-            <l>De AMELIA puedo ser...! adverso sino !</l>
-            <l>Si ser despreciado es mi destino,</l>
-            <l>Llorar debo y sufrir,</l>
-            <l>Y en vez de inspiraciones de alegría</l>
-            <l>Mi bella escuchará lúgubre canto</l>
-            <l>Jurándola á pesar de mi quebranto</l>
-            <l>Amarla hasta el morir !!</l>
-          </lg>
-          <p><lb/>--J. A. C.--</p>
-          <p><lb/>Los númoros de esta coleccion se hallan de venta en la misma imprenta.</p>
-          <div type="propiedad">
-            <p><lb/>Es propiedad</p>
+          <pb n="1" source="Varios_070_1.jpg" facs="varios/Varios_070_1.jpg/"/>
+
+          <fw type="impresorNum">Núm.12.</fw>
+
+          <head type="primer_titulo" rend="negrita"><lb/>EL<lb/>CANTOR DE LAS HERMOSAS.</head>
+          <head type="subtitulo"><lb/>TROBAS DE AMOR DEDICADAS AL BELLO SECSO POR
+            UNOS<lb/>AFICIONADOS.</head>
+
+          <div n="1">
+            <head type="titulo_cancion"><lb/>55. MI QUERELLA.</head>
+
+            <lg n="1">
+              <head type="titulo_estrofa">I.</head>
+              <l rend="indent">Si una vez en el mundo adoraste,</l>
+              <l>Si de amor en el cáliz bebiste,</l>
+              <l>Ah ! por qué compasion no tuviste</l>
+              <l rend="indent">Es amargo mirarte, Pepita,</l>
+              <l>Siempre sorda á mi triste querella;</l>
+              <l>Ah! mitiga el rigo de mi estrella,</l>
+            </lg>
+
+            <pb n="2" source="Varios_070_2.jpg" facs="varios/Varios_070_2.jpg/"/>
+
+            <fw type="paginaNum">70</fw>
+
+            <lg n="2">
+              <head type="titulo_estrofa">II.</head>
+              <l rend="indent">Si me vieras de noche, bien mio,</l>
+              <l>Al mecer de fantástico ensueño,</l>
+              <l>Advirtieras euan dulce es mi sueño</l>
+              <l>Si te veo velar junto á mí.</l>
+              <l rend="indent">Mas dispierto... te busco azorado...</l>
+              <l>No te encuentro... maldigo mi suerte !</l>
+              <l>Ah ! prefiero mil veces la muerte</l>
+              <l>A vivir apartado de tí !</l>
+            </lg>
+
+            <lg n="3">
+              <head type="titulo_estrofa">III.</head>
+              <l rend="indent">Mi existencia consume, oh ! Pepita,</l>
+              <l>De mí pecho un volcan tan terrible</l>
+              <l>Que ay! en breve tu alma insensible</l>
+              <l>Me verá á su rigor sucumbir.</l>
+              <l rend="indent">Pues prefiero bajar al sepulcro,</l>
+              <l>Que en poder de un rival contemplarte!</l>
+              <l>Porque el alma que supo adorarte</l>
+              <l>Solo anhela tu amor ó morir.</l>
+            </lg>
+
+            <lg>
+              <head type="titulo_estrofa">IV.</head>
+              <l rend="indent">Compasion! mi Pepita, ó lavida</l>
+              <l>Tu funesto desden me arrebata!</l>
+              <l>De una vez apiádate, ingrata,</l>
+              <l>Del sufrir de mi fiel corazon.</l>
+              <l rend="indent">Ven, contempla mi llanto abundante:</l>
+              <l>Ven y escucha mi triste querella :</l>
+              <l>Y mi idólatra pecho, mi bella,</l>
+              <l>Ay! tal vez halle en tí compasion!</l>
+            </lg>
+            <p><lb/>-- A. M.--</p>
+          </div>
+
+          <div n="2">
+            <head type="titulo_cancion" rend="negrita"><lb/>56. DELIRIO.</head>
+
+            <lg n="1">
+              <head type="titulo_estrofa">I.</head>
+              <l rend="indent">No mas... no mas te goces, bella Anita,</l>
+              <l>En oprimir cruel mi pecho amante !</l>
+              <l>¿No ves cual la esperanza se marchita</l>
+              <l>Que concibiera un dia delirante ?...</l>
+              <l>¿No ves como mi mente debilita</l>
+              <l>De un volcan el impulso devorante...</l>
+              <l>Te un horrible volcan cuya inclemencia</l>
+              <l>Amaga de continuo mi existencia ?</l>
+            </lg>
+
+            <lg n="2">
+              <head type="titulo_estrofa">II.</head>
+              <l n="indent">¿ A qué tanto rigor ?.. Borra ya, hermosa</l>
+              <l>Esas dudas que aumentan mi suplicio:</l>
+              <l>Una idea fatal do quier me acosa</l>
+              <l>Y trastorna esa idea mi juicio!</l>
+              <l>Quieres mi muerte ?... Cabaré una fosa</l>
+              <l>Y te haré de mi vida el sacrificio !...</l>
+              <l>Habla ! y verás mi tronco altivo y fuerte</l>
+              <l>En un cadáver convertirse inerte !!!</l>
+            </lg>
+
+            <pb n="3" source="Varios_070_3.jpg" facs="varios/Varios_070_3.jpg/"/>
+
+            <fw type="paginaNum">71</fw>
+
+            <lg n="3">
+              <head type="titulo_estrofa">III.</head>
+              <l rend="indent">Qué es ante tí mi vida ? Atomo leve</l>
+              <l>Que un soplo tuyo destruir logréra !...</l>
+              <l>Tronco robusto que Aquilon no mueve</l>
+              <l>Y só tus plantas tu voz le doblara !</l>
+              <l>Llama débil que ajita el tiempo breve</l>
+              <l>Y á tu capricho al punto se apagára!...</l>
+              <l>Esto es mi vida !! A tí ya censagrada</l>
+              <l>Lánzala en el abismo de la NADA.</l>
+              <l>. . . . . . . . . . . . .</l>
+              <l>. . . . . . . . . . . . .</l>
+            </lg>
+
+            <lg n="4">
+              <head type="titulo_estrofa">IV.</head>
+              <l rend="indent">Quisiera poscer montes de oro</l>
+              <l>Para ofrecerle humilde á tu hermosura,</l>
+              <l>Porque con tal delirlo yo te adoro</l>
+              <l>Que solo en tí encontrar podré ventura :</l>
+              <l>Mas ah! es mi corazon solo el tesoro</l>
+              <l>Que podia ofrecer á tu ternura...</l>
+              <l>Te to entregué!... Eeliz juré adoratte</l>
+              <l>Y jamás á la te podré faltarte!</l>
+            </lg>
+
+            <lg n="5">
+              <head type="titulo_estrofa">V.</head>
+              <l rend="indent">Permita el justo cielo que si un dia</l>
+              <l>Oso olvidar la fe de un juramento,</l>
+              <l>Rayo de maldicion mi frente impía</l>
+              <l>Hunda en el polvo con furor violento.</l>
+              <l>Mas no será! que hasta la tumba fria...</l>
+              <l>Hasta exhalar mi postrimer aliento,</l>
+              <l>Luchando azás con mi destino duro</l>
+              <l>Podré ser infeliz mas no perjuro.</l>
+            </lg>
+            <p><lb/>--J. A. C.--</p>
+          </div>
+
+          <div n="3">
+            <head type="titulo_cancion" rend="negrita"><lb/>57. INSPIRACION.</head>
+
+            <lg>
+              <l rend="indent">Perdon mi duce LIRA si olvidada</l>
+              <l>Un tiempo te dejé: tus cuerdas de oro</l>
+              <l>No escucha en noche oscura y sosegada</l>
+              <l>Pulsar en su loor el bien que adoro.</l>
+              <l rend="indent">Dejó de hendir el aura placentera</l>
+              <l>El eco de tus sones y armonías :</l>
+              <l>Perdon!... no te olvidé : la suerte fiera</l>
+              <l>El númen me vedó por muchos dias.</l>
+              <l rend="indent">Mas hoy siento otra vez mi pobre mente</l>
+              <l>De inspiraciones llena: ¡ ó grato iustante !</l>
+              <l>Que entre el placer que absorto el pecho siente</l>
+              <l>Vuelvo á pulsarte, ó LIRA, delirante.</l>
+            </lg>
+
+            <lg n="1">
+              <head type="titulo_estrofa">I.</head>
+              <l>De fria y negra noche entre el silencio</l>
+              <l>Al pié de la ventana de mi amada,</l>
+              <l>Te pulsaré otra vez LIRA adorada</l>
+              <l rend="indent">Cantando mi dolor :</l>
+              <l>Y hesta que el dulce trino de las aves</l>
+              <l>Salude á la risueña y bella aurora,</l>
+              <l>Escuchará, mi bien, cuanto la adora</l>
+              <l rend="indent">Su pobre Trovador.</l>
+            </lg>
+
+            <pb n="4" source="Varios_070_4.jpg" facs="varios/Varios_070_4.jpg/"/>
+
+            <fw type="paginaNum">72</fw>
+
+            <lg n="2">
+              <head type="titulo_estrofa">II.</head>
+              <l>Mas ay! no en mi martirio daré al viento</l>
+              <l>Cantigas de placer como algun dia,</l>
+              <l>Que suple amargo llanto á mi alegría</l>
+              <l rend="indent">Y es triste hoy mi trobar;</l>
+              <l>Pues ya mis ilusorias esperanzas</l>
+              <l>Lanzadas ví en el polvo del olvido,</l>
+              <l>Y al peso de mi suerte asi abatido.</l>
+              <l rend="indent">Tan solo sé llorar.</l>
+            </lg>
+
+            <lg n="3">
+              <head type="titulo_estrofa">III.</head>
+              <l>Soñaba con placer que á su fiel bardo</l>
+              <l>Consagraría AMELIA su hermosura,</l>
+              <l>Y un porvenir radiante de ventura</l>
+              <l rend="indent">Creóse mi ilusion!</l>
+              <l>Y hoy sufro un desengaño mas funesto</l>
+              <l>Cuanto se presentoron mas risueños,</l>
+              <l>Fantásticos y bellos los ensueños</l>
+              <l rend="indent">A mi imaginacion.</l>
+            </lg>
+
+            <lg n="4">
+              <head type="titulo_estrofa">IV.</head>
+              <l>Yo para amar nací... mas nunca amado</l>
+              <l>De AMELIA puedo ser...! adverso sino !</l>
+              <l>Si ser despreciado es mi destino,</l>
+              <l rend="indent">Llorar debo y sufrir,</l>
+              <l>Y en vez de inspiraciones de alegría</l>
+              <l>Mi bella escuchará lúgubre canto</l>
+              <l>Jurándola á pesar de mi quebranto</l>
+              <l rend="indent">Amarla hasta el morir !!</l>
+            </lg>
+            
+            <p><lb/>--J. A. C.--</p>
+            <p rend="negrita"><lb/>Es propiedad</p>
+            <p rend="cursiva"><lb/>Los númoros de esta coleccion se hallan de venta en la misma
+              imprenta.</p>
           </div>
         </div>
+
         <div type="colofon">
-          <p><lb/>Barcelona: Imprenta de A. Bosch, calle de le Cera, n.°  51.</p>
+          <p><lb/>Barcelona: Imprenta de A. Bosch, calle de le Cera, n.° 51.</p>
         </div>
       </div>
     </body>

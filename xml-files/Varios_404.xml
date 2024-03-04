@@ -28,9 +28,9 @@
             <p/>
           </editionStmt>
           <publicationStmt>
-            <publisher>Imprenta de Ignacio Estivill</publisher>
+            <publisher>Ignacio Estivill</publisher>
             <pubPlace ref="https://www.geonames.org/3128760/barcelona.html">Barcelona</pubPlace>
-            <date cert="high">[s.a]</date>
+            <date cert="low" when="1800-01-01">[s.a.]</date>
           </publicationStmt>
         </biblFull>
         <msDesc>
@@ -39,6 +39,7 @@
             <settlement>Genève</settlement>
             <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"/>
                                     </repository>
+            <collection>Colección Varios</collection>
             <idno type="cote"/>
             <idno type="DOI">10.5281/zenodo.6787644</idno>
             <altIdentifier>
@@ -99,7 +100,7 @@
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR non corregido</p>
+          <p>OCR no corregido</p>
         </correction>
         <normalization>
           <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto
@@ -126,9 +127,10 @@
     <revisionDesc>
       <change when="2023-12-20" who="#PJ">Création du fichier TEI P5 et encodage du
                         corps du texte</change>
+<change when="2024-01-09" who="#EL">Add the IIIF links</change>
     </revisionDesc>
   </teiHeader>
-  <sourceDoc xml:id="automaticTranscription">
+  <facsimile><graphic url="varios/Varios_404_1.jpg/full/200,/0/default.jpg"/></facsimile><sourceDoc xml:id="automaticTranscription">
     <surface xml:id="Varios_404_1" type="page" cert="silver">
       <graphic url="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_404_1/full/full/0/default.jpg"/>
       <zone xml:id="Varios_404_1_BT223_1" n="1" type="CustomZone" subtype="title" points="1475,232 1475,604 215,604 215,232 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_404_1/215.0,232.0,1260.0,372.0/full/0/default" corresp="CustomZone:title">
@@ -3579,7 +3581,7 @@
   <text>
     <body>
       <div>
-        <pb n="1" source="Varios_404_1.jpg" facs="fedora_Varios_404_1/full/full/0/default.jpg"/>
+        <pb n="1" source="Varios_404_1.jpg" facs="varios/Varios_404_1.jpg/"/>
         <div>
           <head type="primer_titulo"><lb/>LO FULLETT.</head>
           <head type="titulo_parte"><lb/>ROMANSE NOU Y DIVERTIT.</head>
@@ -3653,7 +3655,7 @@
             <l>y asistí á la ceremonia</l>
             <l>de un Vi-cari batexar...</l>
           </lg>
-          <pb n="2" source="Varios_404_2.jpg" facs="fedora_Varios_404_2/full/full/0/default.jpg"/>
+          <pb n="2" source="Varios_404_2.jpg" facs="varios/Varios_404_2.jpg/"/>
           <fw type="paginaNum">2</fw>
           <lg>
             <l>Es adir y fera embuts :</l>
@@ -3755,7 +3757,7 @@
             <l>y aixis cuants diners volia</l>
             <l>ella li feia saltar,</l>
           </lg>
-          <pb n="3" source="Varios_404_3.jpg" facs="fedora_Varios_404_3/full/full/0/default.jpg"/>
+          <pb n="3" source="Varios_404_3.jpg" facs="varios/Varios_404_3.jpg/"/>
           <fw type="paginaNum">3</fw>
           <lg>
             <l>per lo tant aquestas maulas</l>
@@ -3857,7 +3859,7 @@
             <l>vegentlas com Magdalenas</l>
             <l>descabelladas y ab sanch ,</l>
           </lg>
-          <pb n="4" source="Varios_404_4.jpg" facs="fedora_Varios_404_4/full/full/0/default.jpg"/>
+          <pb n="4" source="Varios_404_4.jpg" facs="varios/Varios_404_4.jpg/"/>
           <fw type="paginaNum">4</fw>
           <lg>
             <l>los pregunta « ¿qué es eixó ?</l>
@@ -3959,7 +3961,7 @@
             <l>los enraonaba atent</l>
             <l>contantlos de tant en tant</l>
           </lg>
-          <pb n="5" source="Varios_404_5.jpg" facs="fedora_Varios_404_5/full/full/0/default.jpg"/>
+          <pb n="5" source="Varios_404_5.jpg" facs="varios/Varios_404_5.jpg/"/>
           <fw type="paginaNum">5</fw>
           <lg>
             <l>algunas de sas proesas</l>
@@ -4061,7 +4063,7 @@
             <l>cada escú anaba martxant</l>
             <l>á son cuarto destinat ;</l>
           </lg>
-          <pb n="6" source="Varios_404_6.jpg" facs="fedora_Varios_404_6/full/full/0/default.jpg"/>
+          <pb n="6" source="Varios_404_6.jpg" facs="varios/Varios_404_6.jpg/"/>
           <fw type="paginaNum">6</fw>
           <lg>
             <l>y dona duas pesetas</l>
@@ -4163,7 +4165,7 @@
             <l>lo caball de aquells señors ,</l>
             <l>cual pérdua los era estrany ;</l>
           </lg>
-          <pb n="7" source="Varios_404_7.jpg" facs="fedora_Varios_404_7/full/full/0/default.jpg"/>
+          <pb n="7" source="Varios_404_7.jpg" facs="varios/Varios_404_7.jpg/"/>
           <fw type="paginaNum">7</fw>
           <lg>
             <l>dos en fi arriban al bosch</l>
@@ -4315,7 +4317,7 @@
             <l>venia son cuarto á donar</l>
             <l>y lo campaná sobre ell</l>
           </lg>
-          <pb n="8" source="Varios_404_8.jpg" facs="fedora_Varios_404_8/full/full/0/default.jpg"/>
+          <pb n="8" source="Varios_404_8.jpg" facs="varios/Varios_404_8.jpg/"/>
           <fw type="paginaNum">8</fw>
           <lg>
             <l>hi está perpendicular ,</l>

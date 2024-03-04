@@ -4,9 +4,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>RELACION VERIDICA DE LA GRAN CATÁSTROFE POR LA INUNDACION DE LA
-                              CIUDAD DE BARCELONA, ocurrida en la mañana del dia 15 de setiembre de
-                              1862.</title>
+        <title>RELACION VERIDICA DE LA GRAN CATÁSTROFE POR LA INUNDACION DE LA CIUDAD DE BARCELONA</title>
         <respStmt>
           <name xml:id="PJ">Pauline Jacsont</name>
           <resp>Codificación TEI</resp>
@@ -34,9 +32,9 @@
             <p/>
           </editionStmt>
           <publicationStmt>
-            <publisher>Impr. de Narciso Ramírez</publisher>
+            <publisher>Narciso Ramírez</publisher>
             <pubPlace ref="https://www.geonames.org/3128760/barcelona.html">Barcelona</pubPlace>
-            <date cert="high">1862</date>
+            <date cert="high" when="1862-01-01">1862</date>
           </publicationStmt>
         </biblFull>
         <msDesc>
@@ -45,6 +43,7 @@
             <settlement>Genève</settlement>
             <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"/>
                                     </repository>
+            <collection>Colección Varios</collection>
             <idno type="cote"/>
             <idno type="DOI">10.5281/zenodo.6783778</idno>
             <altIdentifier>
@@ -112,7 +111,7 @@
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR non corregido</p>
+          <p>OCR no corregido</p>
         </correction>
         <normalization>
           <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto
@@ -139,9 +138,10 @@
     <revisionDesc>
       <change when="2023-12-12" who="#PJ">Création du fichier TEI P5 et encodage du
                         corps du texte</change>
+<change when="2024-01-09" who="#EL">Add the IIIF links</change>
     </revisionDesc>
   </teiHeader>
-  <sourceDoc xml:id="automaticTranscription">
+  <facsimile><graphic url="varios/Varios_385_1.jpg/full/200,/0/default.jpg"/></facsimile><sourceDoc xml:id="automaticTranscription">
     <surface xml:id="Varios_385_1" type="page" cert="silver">
       <graphic url="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_385_1/full/full/0/default.jpg"/>
       <zone xml:id="Varios_385_1_BT223_1" n="1" type="CustomZone" subtype="title" points="1824,1535 1824,2113 71,2113 71,1535 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_385_1/71,1535,1753,578/full/0/default" corresp="CustomZone:title">
@@ -1410,7 +1410,7 @@
   <text>
     <body>
       <div>
-        <pb n="1" source="Varios_385_1.jpg" facs="fedora_Varios_385_1/full/full/0/default.jpg"/>
+        <pb n="1" source="Varios_385_1.jpg" facs="varios/Varios_385_1.jpg/"/>
         <div>
           <head type="primer_titulo">
             <lb/>
@@ -1440,7 +1440,7 @@
             <l>Por lo tanto, mis lectores</l>
             <l>deben perdonar las faltas</l>
           </lg>
-          <pb n="2" source="Varios_385_2.jpg" facs="fedora_Varios_385_2/full/full/0/default.jpg"/>
+          <pb n="2" source="Varios_385_2.jpg" facs="varios/Varios_385_2.jpg/"/>
           <fw type="paginaNum">— 2 —</fw>
           <lg>
             <l>y omisiones en que incurra</l>
@@ -1560,7 +1560,7 @@
             <l>afluyen de todas partes,</l>
             <l>aguas, aguas y mis uguas</l>
           </lg>
-          <pb n="3" source="Varios_385_3.jpg" facs="fedora_Varios_385_3/full/full/0/default.jpg"/>
+          <pb n="3" source="Varios_385_3.jpg" facs="varios/Varios_385_3.jpg/"/>
           <fw type="paginaNum">— 3 —</fw>
           <lg>
             <l>y á medida que se juntan</l>
@@ -1686,7 +1686,7 @@
             <l>Puerta Nueva y demás calles</l>
             <l>que lindan con las nombradas.</l>
           </lg>
-          <pb n="4" source="Varios_385_4.jpg" facs="fedora_Varios_385_4/full/full/0/default.jpg"/>
+          <pb n="4" source="Varios_385_4.jpg" facs="varios/Varios_385_4.jpg/"/>
           <fw type="paginaNum">— 4 —</fw>
           <lg>
             <l>La calle de la Princesa,</l>

@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../Schema/oddPliego_varios.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:alto="http://www.loc.gov/standards/alto/ns-v4#" xml:id="Varios_185">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Varios_185">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -11,8 +11,7 @@
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <authority role="rightsHolder">Bibliothèque Universitaire de
-                              Genève</authority>
+        <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
         <availability status="restricted">
           <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
         </availability>
@@ -20,18 +19,17 @@
       <sourceDesc>
         <biblFull>
           <titleStmt>
-            <title type="titulo_completo">Villancicos Patrioticos</title>
-            <title type="titulo_breve">Villancicos Patrioticos que se cantan
-                                          este año por el nacimiento del Redentor del mundo,
-                                          esclavizado, y triunfo de la libertad.</title>
+            <title type="titulo_breve">Villancicos Patrioticos</title>
+            <title type="titulo_completo">Villancicos Patrioticos que se cantan este año por el
+              nacimiento del Redentor del mundo, esclavizado, y triunfo de la libertad.</title>
           </titleStmt>
           <editionStmt>
             <p/>
           </editionStmt>
           <publicationStmt>
-            <publisher/>
-            <pubPlace>[s. l.]</pubPlace>
-            <date cert="high">[s.a]</date>
+            <publisher>[s.n.]</publisher>
+            <pubPlace>[s.l.]</pubPlace>
+            <date cert="low" when="1800-01-01">[s.a.]</date>
           </publicationStmt>
         </biblFull>
         <msDesc>
@@ -39,7 +37,8 @@
             <country>Suisse</country>
             <settlement>Genève</settlement>
             <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"/>
-                                    </repository>
+            </repository>
+            <collection>Colección Varios</collection>
             <idno type="cote"/>
             <idno type="DOI">10.5281/zenodo.6595014</idno>
             <altIdentifier>
@@ -47,10 +46,22 @@
             </altIdentifier>
           </msIdentifier>
           <msContents>
-            <summary/>
+            <summary>Cuatro villancicos</summary>
             <msItem>
-              <locus/>
-              <title/>
+              <locus>1-2</locus>
+              <title>Viaje de la Vírgen y San Jose.</title>
+            </msItem>
+            <msItem>
+              <locus>2-3</locus>
+              <title>Los pastores en Belén.</title>
+            </msItem>
+            <msItem>
+              <locus>3-4</locus>
+              <title>Pastorela en seguidillas.</title>
+            </msItem>
+            <msItem>
+              <locus>4</locus>
+              <title>Adoracion De los Reyes magos</title>
             </msItem>
           </msContents>
           <physDesc>
@@ -68,7 +79,7 @@
               </layoutDesc>
             </objectDesc>
             <decoDesc>
-              <summary n="1">Uno grabado (p.1) </summary>
+              <summary n="1">Un grabado (p.1) </summary>
               <decoNote type="lista_grabados">
                 <list>
                   <item corresp="grabado_v_185_1.xml">grabado_v_185_1</item>
@@ -89,18 +100,17 @@
     </fileDesc>
     <encodingDesc>
       <projectDesc>
-        <p>Este archivo fue creado en el marco del proyecto Desenrollando el
-                              Cordel/Démêler le cordel/Untangling the cordel, dirigido por la
-                              profesora Constance Carta de la Universidad de Ginebra, con el apoyo
-                              de la Fundación filantrópica Famille Sandoz-Monique de Meuron.</p>
+        <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+          cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la Universidad
+          de Ginebra, con el apoyo de la Fundación filantrópica Famille Sandoz-Monique de
+          Meuron.</p>
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR non corregido</p>
+          <p>OCR no corregido</p>
         </correction>
         <normalization>
-          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto
-                                    original.</p>
+          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
         </normalization>
         <punctuation>
           <p>Se conserva la puntuación original.</p>
@@ -121,10 +131,14 @@
       </textClass>
     </profileDesc>
     <revisionDesc>
-      <change when="2023-05-03" who="#PJ">Création du fichier TEI P5 et encodage du
-                        corps du texte</change>
+      <change when="2023-05-03" who="#PJ">Création du fichier TEI P5 et encodage du corps du
+        texte</change>
+      <change when="2024-01-09" who="#EL">Add the IIIF links</change>
     </revisionDesc>
   </teiHeader>
+  <facsimile>
+    <graphic url="varios/Varios_185_1.jpg/full/200,/0/default.jpg"/>
+  </facsimile>
   <sourceDoc xml:id="automaticTranscription">
     <surface xml:id="Varios_185_1" type="page" cert="silver">
       <graphic url="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_185_1/full/full/0/default.jpg"/>
@@ -135,8 +149,7 @@
         </zone>
         <zone xml:id="Varios_185_1_BT223_1_LT183_2" type="CustomZone" subtype="none" points="250,1621 232,1629 228,1658 228,1693 269,1693 269,1691 271,1691 274,1691 291,1675 313,1691 315,1691 318,1691 320,1691 388,1678 405,1693 412,1697 412,1700 414,1700 416,1700 418,1702 550,1702 550,1700 552,1700 554,1700 561,1693 594,1673 708,1673 719,1682 719,1684 721,1684 723,1684 726,1684 728,1684 730,1684 750,1673 1164,1673 1188,1697 1191,1697 1191,1700 1193,1700 1195,1700 1197,1702 1462,1702 1462,1700 1465,1700 1467,1700 1511,1675 1557,1700 1563,1658 1561,1616 1471,1616 1458,1603 1458,1601 1456,1601 1454,1601 1452,1601 1449,1601 1421,1616 1370,1616 1357,1603 1357,1601 1355,1601 1353,1601 1351,1601 785,1614 772,1603 772,1601 769,1601 767,1601 679,1601 677,1601 675,1601 629,1614 522,1601 519,1601 517,1601 515,1601 500,1614 471,1601 469,1601 467,1601 465,1601 462,1601 438,1616 256,1616 250,1621 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_185_1/228.0,1601.0,1335.0,101.0/full/0/default" corresp="CustomZone">
           <path xml:id="Varios_185_1_BT223_1_LT183_2_1" points="229,1660 1565,1660 "/>
-          <line>que se cantan este año por el nacimiento del Redentor del
-                                    mundo, escla-</line>
+          <line>que se cantan este año por el nacimiento del Redentor del mundo, escla-</line>
         </zone>
         <zone xml:id="Varios_185_1_BT223_1_LT183_3" type="CustomZone" subtype="none" points="583,1697 587,1732 614,1713 688,1713 706,1728 708,1730 708,1732 710,1732 712,1732 715,1732 767,1728 855,1717 899,1724 930,1728 932,1728 934,1728 945,1721 962,1713 1013,1721 1087,1732 1090,1732 1092,1732 1118,1717 1125,1715 1184,1715 1186,1695 1180,1660 581,1660 583,1697 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_185_1/581.0,1660.0,605.0,72.0/full/0/default" corresp="CustomZone">
           <path xml:id="Varios_185_1_BT223_1_LT183_3_1" points="585,1699 1188,1697 "/>
@@ -1415,357 +1428,347 @@
   <text>
     <body>
       <div>
-        <pb n="1" source="Varios_185_1.jpg" facs="fedora_Varios_185_1/full/full/0/default.jpg"/>
-        <fw type="numeroPliego">(Núm. 156.)</fw>
         <div>
-          <head type="primer_titulo"><lb/><hi rend="negrita">VILLANCICOS PATRIOTICOS</hi><lb/>que se cantan este año por el
-                                    nacimiento del Redentor del mundo, escla-<lb/>vizado, y triunfo
-                                    de la libertad.<lb/>VIAJE DE LA VÍRGEN Y SAN JOSE.</head>
-          <head type="subtitulo_parte" rend="cursiva"><lb/>que se cantan este
-                                    año por el nacimiento del Redentor del mundo,
-                                    escla-<lb/>vizado, y triunfo de la libertad.</head>
+          <pb n="1" source="Varios_185_1.jpg" facs="varios/Varios_185_1.jpg/"/>
+
+          <fw type="numeroPliego">(Núm. 156.)</fw>
+
+          <head type="primer_titulo" rend="negrita"><lb/>VILLANCICOS PATRIOTICOS</head>
+          <head type="subtitulo" rend="cursiva"><lb/>que se cantan este año por el nacimiento del
+            Redentor del mundo, escla-<lb/>vizado, y triunfo de la libertad.</head>
+
           <div>
-            <head type="titulo_estrofa"><lb/>VIAJE DE LA VÍRGEN Y SAN
-                                          JOSE.</head>
-            <lg>
-              <l>Camina para Belén</l>
-              <l>una hermosa Peregrina,</l>
-              <l>en cuya preciosa sien,</l>
-              <l>puso la mano divina</l>
-              <l>la gran corona del bien.</l>
-              <l>La acompaña un Peregrino,</l>
-              <l>á quien llama tierno Esposo,</l>
-              <l>y su amor hace al camino</l>
-              <l>que sea menos penoso</l>
-              <l>y hasta hechicero y divino.</l>
-              <l>La jóven encantadora,</l>
-              <l>del Parto siente el dolor,</l>
-            </lg>
-            <lg>
-              <l>y es que se acerca la hora</l>
-              <l>de nacer el Redentor</l>
-              <l>antes que salga la aurora.</l>
-              <l>Hora que ya revelada</l>
-              <l>por el Angel San Gabriel,</l>
-              <l>es de María anhelada</l>
-              <l>y de su Esposo tambien</l>
-              <l>que con ánsia la esperaba.</l>
-              <l>Llegan, pues, á la Ciudad</l>
-              <l>que parece estar desierta,</l>
-              <l>y es tan grande su humildad,</l>
-              <l>que márchanse puerta en puerta</l>
-              <l>buscando hospitalidad.</l>
-              <l>Mas no hallan este consuelo,</l>
-            </lg>
-            <pb n="2" source="Varios_185_2.jpg" facs="fedora_Varios_185_2/full/full/0/default.jpg"/>
-            <lg>
-              <l>es nadie les quiso abrir</l>
-              <l>aquel ingrato suelo,</l>
-              <l>qe no quiere recibir</l>
-              <l>la Majestad del cielo.</l>
-              <l>A un establo van de horror</l>
-              <l>de muy poca caridad,</l>
-              <l>y allí el divino Señor</l>
-              <l>nace con toda humildad</l>
-              <l>á ser nuestro Redentor.</l>
-              <l>De un pesebre la pobreza</l>
-              <l>de cuna sirve al Mesías,</l>
-              <l>y del cielo la grandeza</l>
-              <l>contempla con alegría</l>
-              <l>tan rara delicadeza,</l>
-              <l>Allí está la Majestad</l>
-              <l>que impera en el mismo cielo,</l>
-              <l>y con ejemplo de humildad</l>
-              <l>principia á dar en el suelo</l>
-              <l>do falta la caridad.</l>
-            </lg>
+            <head type="titulo_cancion"><lb/>VIAJE DE LA VÍRGEN Y SAN JOSE.</head>
+
+            <l rend="indent">Camina para Belén</l>
+            <l>una hermosa Peregrina,</l>
+            <l>en cuya preciosa sien,</l>
+            <l>puso la mano divina</l>
+            <l>la gran corona del bien.</l>
+            <l rend="indent">La acompaña un Peregrino,</l>
+            <l>á quien llama tierno Esposo,</l>
+            <l>y su amor hace al camino</l>
+            <l>que sea menos penoso</l>
+            <l>y hasta hechicero y divino.</l>
+            <l rend="indent">La jóven encantadora,</l>
+            <l>del Parto siente el dolor,</l>
+            <l>y es que se acerca la hora</l>
+            <l>de nacer el Redentor</l>
+            <l>antes que salga la aurora.</l>
+            <l rend="indent">Hora que ya revelada</l>
+            <l>por el Angel San Gabriel,</l>
+            <l>es de María anhelada</l>
+            <l>y de su Esposo tambien</l>
+            <l>que con ánsia la esperaba.</l>
+            <l rend="indent">Llegan, pues, á la Ciudad</l>
+            <l>que parece estar desierta,</l>
+            <l>y es tan grande su humildad,</l>
+            <l>que márchanse puerta en puerta</l>
+            <l>buscando hospitalidad.</l>
+            <l rend="indent">Mas no hallan este consuelo,</l>
+
+            <pb n="2" source="Varios_185_2.jpg" facs="varios/Varios_185_2.jpg/"/>
+
+            <l>es nadie les quiso abrir</l>
+            <l>aquel ingrato suelo,</l>
+            <l>qe no quiere recibir</l>
+            <l>la Majestad del cielo.</l>
+            <l rend="indent">A un establo van de horror</l>
+            <l>de muy poca caridad,</l>
+            <l>y allí el divino Señor</l>
+            <l>nace con toda humildad</l>
+            <l>á ser nuestro Redentor.</l>
+            <l rend="indent">De un pesebre la pobreza</l>
+            <l>de cuna sirve al Mesías,</l>
+            <l>y del cielo la grandeza</l>
+            <l>contempla con alegría</l>
+            <l>tan rara delicadeza,</l>
+            <l rend="indent">Allí está la Majestad</l>
+            <l>que impera en el mismo cielo,</l>
+            <l>y con ejemplo de humildad</l>
+            <l>principia á dar en el suelo</l>
+            <l>do falta la caridad.</l>
           </div>
+
           <div>
-            <head type="titulo_estrofa"><lb/>LOS PASTORES EN BELÉN.
-                                          CORO.</head>
-            <lg>
-              <l>Coro. Sencillos Pastores</l>
-              <l>alegres llegad,</l>
-              <l>que al nacer el Niño</l>
-              <l>tendreis libertad,</l>
-              <l>Con el nacimiento</l>
-              <l>del Dios de bondad,</l>
-              <l>se ahuyenta el pecado,</l>
-              <l>se salva el mortal.</l>
-              <l>Aterra al tirano</l>
-              <l>y hace al mundo igual,</l>
-              <l>lo mismo al plebeyo</l>
-              <l>que al señor feudal.</l>
-              <l>Para dar ejemplo</l>
-              <l>de rara humildad,</l>
-              <l>en vez de un palacio</l>
-              <l>nace en un Portal.</l>
-              <l>A un Pesebre le hace</l>
-              <l>cuna Celestial,</l>
-              <l>y así el rey de Reyes</l>
-              <l>vino á ser mortal.</l>
-              <l>Lejos de la pompa</l>
-              <l>de un rey terrenal,</l>
-              <l>hace de un Establo</l>
-              <l>una Mansion real.</l>
-              <l>Y al nacer, desde ella</l>
-              <l>enseña al mortal</l>
-              <l>que todo viviente</l>
-            </lg>
-            <lg>
-              <l>debe ser igual.</l>
-              <l>Cien y cien Pastores</l>
-              <l>llegan á la par</l>
-              <l>y al recien nacido</l>
-              <l>preces mil le dan.</l>
-              <l>Y cantan y bailan</l>
-              <l>en aquel Portal</l>
-              <l>que de albergue sirve</l>
-              <l>al Dios inmortal.</l>
-              <l>Su divina Madre</l>
-              <l>el pecho le dá,</l>
-              <l>y José contempla</l>
-              <l>su hechicera faz.</l>
-              <l>Y exento de celos</l>
-              <l>que supo apartar,</l>
-              <l>con gracia Celeste</l>
-              <l>disfruta de paz.</l>
-              <l>Una mansa vaca</l>
-              <l>y una mula audaz</l>
-              <l>sirven de campaña</l>
-              <l>al tierno Rapaz.</l>
-              <l>Que en los dulces brazos</l>
-              <l>de amor maternal,</l>
-              <l>contempla gozoso</l>
-              <l>á tanto zagal.</l>
-              <l>El uno le ofrece</l>
-              <l>de miel un panal</l>
-              <l>el otro un cordero</l>
-              <l>bello sin igual.</l>
-              <l>Mil bellas pastoras</l>
-              <l>de aire angelical</l>
-              <l>sirven á la Vírgen</l>
-              <l>en aquel Portal.</l>
-              <l>Coronas de flores</l>
-              <l>la dan sin cesar;</l>
-              <l>nada allí hay fingido,</l>
-              <l>todo es natural.</l>
-              <l>Arrabel y flauta</l>
-              <l>déjanse escuchar,</l>
-              <l>y la castañuela</l>
-              <l>tañe á su compás.</l>
-              <l>En circos graciosos</l>
-              <l>se vé á mil bailar</l>
-              <l>y todos respiran</l>
-              <l>amor Celestial.</l>
-              <l>Todo allí es dulzura,</l>
-              <l>todo es lenltad,</l>
-              <l>union y pureza</l>
-            </lg>
-            <pb n="3" source="Varios_185_3.jpg" facs="fedora_Varios_185_3/full/full/0/default.jpg"/>
-            <lg>
-              <l>y fraternidad.</l>
-              <l>El lujo se ahuyenta</l>
-              <l>del tosco Portal,</l>
-              <l>pero en cambio tiene</l>
-              <l>gracias sin igual.</l>
-              <l>Gerárquicos timbres</l>
-              <l>privados están,</l>
-              <l>pues el niño quiere</l>
-              <l>todo el mundo igual.</l>
-              <l>Venid, pues, pastores,</l>
-              <l>venid y cantad</l>
-              <l>al recien nacido</l>
-              <l>que dá libertad.</l>
-              <l>La esclavitud antes</l>
-              <l>era universal,</l>
-              <l>mas la hundió del Niño</l>
-              <l>el carro triunfal.</l>
-              <l>En vano el tirano</l>
-              <l>con soberbio afan</l>
-              <l>humillar pretende</l>
-              <l>los hijos de Adan.</l>
-              <l>Puede al Agareno</l>
-              <l>rudo, esclavizar;</l>
-              <l>pero no al Cristiano</l>
-              <l>que ánsia libertad.</l>
-              <l>Libertad que el Cielo</l>
-              <l>quiso prodigar</l>
-              <l>y sin ella, el mundo</l>
-              <l>no puede marchar.</l>
-              <l>Odio á los tiranos</l>
-              <l>nos supo inspirar.</l>
-              <l>predicando siempre</l>
-              <l>la fraternidad.</l>
-              <l>Los ídolos, quiso</l>
-              <l>del templo ahuyentar;</l>
-              <l>¿por qué tener otros?</l>
-              <l>¿á qué es ese afan?</l>
-              <l>Cantad, pues , pastores,</l>
-              <l>y al Génio infernal</l>
-              <l>que hipócrita quiere</l>
-              <l>al globo mandar,</l>
-              <l>Decidle: el Mesías,</l>
-              <l>nos dió libertad,</l>
-              <l>y ella será el norte</l>
-              <l>de la cristiandad.</l>
-              <l>A esos tiranuelos</l>
-              <l>que orgullosos van</l>
-              <l>llenos de bordados</l>
-            </lg>
-            <lg>
-              <l>que alcanzó el azar,</l>
-              <l>Decid que contemplen</l>
-              <l>el tosco Portal</l>
-              <l>donde yace un niño</l>
-              <l>que es Rey Celestial.</l>
-              <l>Y con copa en mano,</l>
-              <l>alegres brindad,</l>
-              <l>por el tierno Niño</l>
-              <l>y la libertad.</l>
-              <l>Apurad las botas;</l>
-              <l>bebed y bailad</l>
-              <l>que el Niño os contempla</l>
-              <l>con un tierno afan.</l>
-              <l>¿No veis al hermoso</l>
-              <l>que contento está?</l>
-              <l>pues, cantad, pastores,</l>
-              <l>bebed y cantad.</l>
-              <l>La Vírgen sonrie</l>
-              <l>al veros bailar,</l>
-              <l>y al Cielo dirige</l>
-              <l>gracias, sin cesar.</l>
-              <l>Los régios salones</l>
-              <l>la veis desdeñar,</l>
-              <l>porque entre vosotros</l>
-              <l>solo quiere estar.</l>
-              <l>Ama á la pobreza</l>
-              <l>pues vé, á su pesar,</l>
-              <l>que en los ricos falta</l>
-              <l>amor y piedad.</l>
-              <l>La virtud, tan solo</l>
-              <l>con el pobre está;</l>
-              <l>conservadla, honrados,</l>
-              <l>con la libertad.</l>
-            </lg>
+            <head type="titulo_cancion"><lb/>LOS PASTORES EN BELÉN. CORO.</head>
+
+            <l>Coro. Sencillos Pastores</l>
+            <l>alegres llegad,</l>
+            <l>que al nacer el Niño</l>
+            <l>tendreis libertad,</l>
+            <l rend="indent">Con el nacimiento</l>
+            <l>del Dios de bondad,</l>
+            <l>se ahuyenta el pecado,</l>
+            <l>se salva el mortal.</l>
+            <l rend="indent">Aterra al tirano</l>
+            <l>y hace al mundo igual,</l>
+            <l>lo mismo al plebeyo</l>
+            <l>que al señor feudal.</l>
+            <l rend="indent">Para dar ejemplo</l>
+            <l>de rara humildad,</l>
+            <l>en vez de un palacio</l>
+            <l>nace en un Portal.</l>
+            <l rend="indent">A un Pesebre le hace</l>
+            <l>cuna Celestial,</l>
+            <l>y así el rey de Reyes</l>
+            <l>vino á ser mortal.</l>
+            <l rend="indent">Lejos de la pompa</l>
+            <l>de un rey terrenal,</l>
+            <l>hace de un Establo</l>
+            <l>una Mansion real.</l>
+            <l rend="indent">Y al nacer, desde ella</l>
+            <l>enseña al mortal</l>
+            <l>que todo viviente</l>
+            <l>debe ser igual.</l>
+            <l rend="indent">Cien y cien Pastores</l>
+            <l>llegan á la par</l>
+            <l>y al recien nacido</l>
+            <l>preces mil le dan.</l>
+            <l rend="indent">Y cantan y bailan</l>
+            <l>en aquel Portal</l>
+            <l>que de albergue sirve</l>
+            <l>al Dios inmortal.</l>
+            <l rend="indent">Su divina Madre</l>
+            <l>el pecho le dá,</l>
+            <l>y José contempla</l>
+            <l>su hechicera faz.</l>
+            <l rend="indent">Y exento de celos</l>
+            <l>que supo apartar,</l>
+            <l>con gracia Celeste</l>
+            <l>disfruta de paz.</l>
+            <l rend="indent">Una mansa vaca</l>
+            <l>y una mula audaz</l>
+            <l>sirven de campaña</l>
+            <l>al tierno Rapaz.</l>
+            <l rend="indent">Que en los dulces brazos</l>
+            <l>de amor maternal,</l>
+            <l>contempla gozoso</l>
+            <l>á tanto zagal.</l>
+            <l rend="indent">El uno le ofrece</l>
+            <l>de miel un panal</l>
+            <l>el otro un cordero</l>
+            <l>bello sin igual.</l>
+            <l rend="indent">Mil bellas pastoras</l>
+            <l>de aire angelical</l>
+            <l>sirven á la Vírgen</l>
+            <l>en aquel Portal.</l>
+            <l rend="indent">Coronas de flores</l>
+            <l>la dan sin cesar;</l>
+            <l>nada allí hay fingido,</l>
+            <l>todo es natural.</l>
+            <l rend="indent">Arrabel y flauta</l>
+            <l>déjanse escuchar,</l>
+            <l>y la castañuela</l>
+            <l>tañe á su compás.</l>
+            <l rend="indent">En circos graciosos</l>
+            <l>se vé á mil bailar</l>
+            <l>y todos respiran</l>
+            <l>amor Celestial.</l>
+            <l rend="indent">Todo allí es dulzura,</l>
+            <l>todo es lenltad,</l>
+            <l>union y pureza</l>
+
+            <pb n="3" source="Varios_185_3.jpg" facs="varios/Varios_185_3.jpg/"/>
+
+            <l>y fraternidad.</l>
+            <l rend="indent">El lujo se ahuyenta</l>
+            <l>del tosco Portal,</l>
+            <l>pero en cambio tiene</l>
+            <l>gracias sin igual.</l>
+            <l rend="indent">Gerárquicos timbres</l>
+            <l>privados están,</l>
+            <l>pues el niño quiere</l>
+            <l>todo el mundo igual.</l>
+            <l rend="indent">Venid, pues, pastores,</l>
+            <l>venid y cantad</l>
+            <l>al recien nacido</l>
+            <l>que dá libertad.</l>
+            <l rend="indent">La esclavitud antes</l>
+            <l>era universal,</l>
+            <l>mas la hundió del Niño</l>
+            <l>el carro triunfal.</l>
+            <l rend="indent">En vano el tirano</l>
+            <l>con soberbio afan</l>
+            <l>humillar pretende</l>
+            <l>los hijos de Adan.</l>
+            <l rend="indent">Puede al Agareno</l>
+            <l>rudo, esclavizar;</l>
+            <l>pero no al Cristiano</l>
+            <l>que ánsia libertad.</l>
+            <l rend="indent">Libertad que el Cielo</l>
+            <l>quiso prodigar</l>
+            <l>y sin ella, el mundo</l>
+            <l>no puede marchar.</l>
+            <l rend="indent">Odio á los tiranos</l>
+            <l>nos supo inspirar.</l>
+            <l>predicando siempre</l>
+            <l>la fraternidad.</l>
+            <l rend="indent">Los ídolos, quiso</l>
+            <l>del templo ahuyentar;</l>
+            <l>¿por qué tener otros?</l>
+            <l>¿á qué es ese afan?</l>
+            <l rend="indent">Cantad, pues , pastores,</l>
+            <l>y al Génio infernal</l>
+            <l>que hipócrita quiere</l>
+            <l>al globo mandar,</l>
+            <l rend="indent">Decidle: el Mesías,</l>
+            <l>nos dió libertad,</l>
+            <l>y ella será el norte</l>
+            <l>de la cristiandad.</l>
+            <l rend="indent">A esos tiranuelos</l>
+            <l>que orgullosos van</l>
+            <l>llenos de bordados</l>
+            <l>que alcanzó el azar,</l>
+            <l rend="indent">Decid que contemplen</l>
+            <l>el tosco Portal</l>
+            <l>donde yace un niño</l>
+            <l>que es Rey Celestial.</l>
+            <l rend="indent">Y con copa en mano,</l>
+            <l>alegres brindad,</l>
+            <l>por el tierno Niño</l>
+            <l>y la libertad.</l>
+            <l rend="indent">Apurad las botas;</l>
+            <l>bebed y bailad</l>
+            <l>que el Niño os contempla</l>
+            <l>con un tierno afan.</l>
+            <l rend="indent">¿No veis al hermoso</l>
+            <l>que contento está?</l>
+            <l>pues, cantad, pastores,</l>
+            <l>bebed y cantad.</l>
+            <l rend="indent">La Vírgen sonrie</l>
+            <l>al veros bailar,</l>
+            <l>y al Cielo dirige</l>
+            <l>gracias, sin cesar.</l>
+            <l rend="indent">Los régios salones</l>
+            <l>la veis desdeñar,</l>
+            <l>porque entre vosotros</l>
+            <l>solo quiere estar.</l>
+            <l rend="indent">Ama á la pobreza</l>
+            <l>pues vé, á su pesar,</l>
+            <l>que en los ricos falta</l>
+            <l>amor y piedad.</l>
+            <l rend="indent">La virtud, tan solo</l>
+            <l>con el pobre está;</l>
+            <l>conservadla, honrados,</l>
+            <l>con la libertad.</l>
           </div>
+
           <div>
             <head type="titulo_estrofa">PASTORELA EN SEGUIDILLAS.</head>
-            <lg>
-              <l>Hoy á la media noche</l>
-              <l>nace el Mesías,</l>
-              <l>para dar á los hombres</l>
-              <l>felices dias;</l>
-              <l>y á su llegada</l>
-              <l>no esté la tierra</l>
-              <l>esclavizada.</l>
-              <l>No quiere á los tiranos</l>
-              <l>porque altaneros</l>
-              <l>se creen superiores</l>
-              <l>al mundo entero:</l>
-              <l>y en su demencia</l>
-              <l>olvidan sus deberes</l>
-            </lg>
-            <pb n="4" source="Varios_185_4.jpg" facs="fedora_Varios_185_4/full/full/0/default.jpg"/>
-            <lg>
-              <l>con gran frecuencia.</l>
-              <l>A redimir el mundo</l>
-              <l>vino el Mesías,</l>
-              <l>y ante sus bellos ojos</l>
-              <l>no hay gerarquías:</l>
-              <l>pues, justiciero,</l>
-              <l>hizo igual al magnate</l>
-              <l>y al pordiosero.</l>
-              <l>Brindemos por el Niño</l>
-              <l>que hoy ha nacido,</l>
-              <l>y la igualdad perfecta</l>
-              <l>ha establecido,</l>
-              <l>quien no la entienda</l>
-              <l>le haremos que camine</l>
-              <l>por buena senda.</l>
-            </lg>
+
+            <l rend="indent">Hoy á la media noche</l>
+            <l>nace el Mesías,</l>
+            <l>para dar á los hombres</l>
+            <l>felices dias;</l>
+            <l>y á su llegada</l>
+            <l>no esté la tierra</l>
+            <l>esclavizada.</l>
+            <l rend="indent">No quiere á los tiranos</l>
+            <l>porque altaneros</l>
+            <l>se creen superiores</l>
+            <l>al mundo entero:</l>
+            <l>y en su demencia</l>
+            <l>olvidan sus deberes</l>
+
+            <pb n="4" source="Varios_185_4.jpg" facs="varios/Varios_185_4.jpg/"/>
+
+            <l>con gran frecuencia.</l>
+            <l rend="indent">A redimir el mundo</l>
+            <l>vino el Mesías,</l>
+            <l>y ante sus bellos ojos</l>
+            <l>no hay gerarquías:</l>
+            <l>pues, justiciero,</l>
+            <l>hizo igual al magnate</l>
+            <l>y al pordiosero.</l>
+            <l rend="indent">Brindemos por el Niño</l>
+            <l>que hoy ha nacido,</l>
+            <l>y la igualdad perfecta</l>
+            <l>ha establecido,</l>
+            <l>quien no la entienda</l>
+            <l>le haremos que camine</l>
+            <l>por buena senda.</l>
           </div>
-          <div n="3">
-            <head type="titulo_estrofa">ADORACION.</head>
-            <lg>
-              <l rend="cursiva">De los Reyes magos.</l>
-              <l>Tres Reyes de Oriente</l>
-              <l>de un astro guiados,</l>
-              <l>á Belen caminan</l>
-              <l>muy apresurados.</l>
-              <l>La estrella se para</l>
-              <l>frente de un Establo,</l>
-              <l>do yace María</l>
-              <l>con Jesus en brazos.</l>
-              <l>Apenas los Reyes</l>
-              <l>creen tal arcano,</l>
-              <l>y allí hallar no juzgan</l>
-              <l>al Dios Soberano;</l>
-              <l>Pues en tal albergue</l>
-              <l>les parece estraño</l>
-              <l>se hospede el que puede</l>
-              <l>disponer de tanto.</l>
-              <l>Mas fija la estrella,</l>
-              <l>sus rayos vibrando,</l>
-              <l>les indica el sitio,</l>
-              <l>do está el Soberano.</l>
-              <l>Los devotos Reyes</l>
-              <l>dejan sus caballos,</l>
-              <l>y en el Portal se entran</l>
-              <l>en todo asombrados.</l>
-              <l>Y, apenas distinguen</l>
-              <l>al Dios encarnado,</l>
-              <l>de hinojos se postran</l>
-              <l>su gracia implorando.</l>
-            </lg>
-            <lg>
-              <l>Dones mil le ofrecen,</l>
-              <l>y en justo holocausto,</l>
-              <l>de mirra é incienso</l>
-              <l>llenan el espacio.</l>
-              <l>Despues que al Mesías</l>
-              <l>han reverenciado,</l>
-              <l>se apartan, contritos,</l>
-              <l>del lugar Sagrado,</l>
-              <l>Llevando á sus tierras</l>
-              <l>en bronce, grabado</l>
-              <l>el humilde albergue</l>
-              <l>en que le han hallado.</l>
-              <l>Venid, pues, oh! Reyes!</l>
-              <l>venid al Establo,</l>
-              <l>do tiene María</l>
-              <l>á Jesús en brazos:</l>
-              <l>Y á tal maravilla,</l>
-              <l>á tan pobre estado</l>
-              <l>deponed los cetros,</l>
-              <l>desechad el fausto.</l>
-              <l>Y la tiranía</l>
-              <l>si la habeis usado,</l>
-              <l>sabed que es indigna</l>
-              <l>del buen soberano.</l>
-              <l>Volved á los pueblos</l>
-              <l>derechos sagrados,</l>
-              <l>que Dios les legara</l>
-              <l>entre vienes tantos.</l>
-              <l>Y tened presente</l>
-              <l>que cuantos humanos</l>
-              <l>en el mundo existen,</l>
-              <l>todos son hermanos.</l>
-              <l>Si la suerte pudo</l>
-              <l>un dia elevaros,</l>
-              <l>no olvideis al pobre,</l>
-              <l>enjugad su llanto.</l>
-              <l>Y mirad que humilde</l>
-              <l>Dios se ha demostrado:</l>
-              <l>regid, pues, al mundo,</l>
-              <l>no como tiranos,</l>
-              <l>pues que en él los hombres.</l>
-              <l>todos son hermanos.</l>
-              <l>Y si así lo hiciéreis,</l>
-              <l>sereis compensados</l>
-              <l>con paz en la tierra,</l>
-              <l>con gloria, en lo alto.</l>
-            </lg>
+
+          <div>
+            <head type="titulo_estrofa">ADORACION.<lb/><hi rend="cursiva">De los Reyes
+              magos.</hi></head>
+
+            <l rend="indent">Tres Reyes de Oriente</l>
+            <l>de un astro guiados,</l>
+            <l>á Belen caminan</l>
+            <l>muy apresurados.</l>
+            <l rend="indent">La estrella se para</l>
+            <l>frente de un Establo,</l>
+            <l>do yace María</l>
+            <l>con Jesus en brazos.</l>
+            <l rend="indent">Apenas los Reyes</l>
+            <l>creen tal arcano,</l>
+            <l>y allí hallar no juzgan</l>
+            <l>al Dios Soberano;</l>
+            <l rend="indent">Pues en tal albergue</l>
+            <l>les parece estraño</l>
+            <l>se hospede el que puede</l>
+            <l>disponer de tanto.</l>
+            <l rend="indent">Mas fija la estrella,</l>
+            <l>sus rayos vibrando,</l>
+            <l>les indica el sitio,</l>
+            <l>do está el Soberano.</l>
+            <l rend="indent">Los devotos Reyes</l>
+            <l>dejan sus caballos,</l>
+            <l>y en el Portal se entran</l>
+            <l>en todo asombrados.</l>
+            <l rend="indent">Y, apenas distinguen</l>
+            <l>al Dios encarnado,</l>
+            <l>de hinojos se postran</l>
+            <l>su gracia implorando.</l>
+            <l rend="indent">Dones mil le ofrecen,</l>
+            <l>y en justo holocausto,</l>
+            <l>de mirra é incienso</l>
+            <l>llenan el espacio.</l>
+            <l rend="indent">Despues que al Mesías</l>
+            <l>han reverenciado,</l>
+            <l>se apartan, contritos,</l>
+            <l>del lugar Sagrado,</l>
+            <l rend="indent">Llevando á sus tierras</l>
+            <l>en bronce, grabado</l>
+            <l>el humilde albergue</l>
+            <l>en que le han hallado.</l>
+            <l rend="indent">Venid, pues, oh! Reyes!</l>
+            <l>venid al Establo,</l>
+            <l>do tiene María</l>
+            <l>á Jesús en brazos:</l>
+            <l rend="indent">Y á tal maravilla,</l>
+            <l>á tan pobre estado</l>
+            <l>deponed los cetros,</l>
+            <l>desechad el fausto.</l>
+            <l rend="indent">Y la tiranía</l>
+            <l>si la habeis usado,</l>
+            <l>sabed que es indigna</l>
+            <l>del buen soberano.</l>
+            <l rend="indent">Volved á los pueblos</l>
+            <l>derechos sagrados,</l>
+            <l>que Dios les legara</l>
+            <l>entre vienes tantos.</l>
+            <l rend="indent">Y tened presente</l>
+            <l>que cuantos humanos</l>
+            <l>en el mundo existen,</l>
+            <l>todos son hermanos.</l>
+            <l rend="indent">Si la suerte pudo</l>
+            <l>un dia elevaros,</l>
+            <l>no olvideis al pobre,</l>
+            <l>enjugad su llanto.</l>
+            <l rend="indent">Y mirad que humilde</l>
+            <l>Dios se ha demostrado:</l>
+            <l>regid, pues, al mundo,</l>
+            <l>no como tiranos,</l>
+            <l>pues que en él los hombres.</l>
+            <l>todos son hermanos.</l>
+            <l rend="indent">Y si así lo hiciéreis,</l>
+            <l>sereis compensados</l>
+            <l>con paz en la tierra,</l>
+            <l>con gloria, en lo alto.</l>
+
           </div>
         </div>
       </div>

@@ -1,18 +1,17 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../Schema/oddPliego_varios.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:alto="http://www.loc.gov/standards/alto/ns-v4#" xml:id="Varios_180">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Varios_180">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>LA LLUNA EN UN COVA.</title>
+        <title>LA LLUNA EN UN COVA</title>
         <respStmt>
           <name/>
           <resp>Codificación TEI</resp>
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <authority role="rightsHolder">Bibliothèque Universitaire de
-                              Genève</authority>
+        <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
         <availability status="restricted">
           <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
         </availability>
@@ -29,7 +28,7 @@
           <publicationStmt>
             <publisher>Narciso Ramírez y Compañía</publisher>
             <pubPlace ref="https://www.geonames.org/3128760/barcelona.html">Barcelona</pubPlace>
-            <date cert="high">1877</date>
+            <date cert="high" when="1877-01-01">1877</date>
           </publicationStmt>
         </biblFull>
         <msDesc>
@@ -37,7 +36,8 @@
             <country>Suisse</country>
             <settlement>Genève</settlement>
             <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"/>
-                                    </repository>
+            </repository>
+            <collection>Colección Varios</collection>
             <idno type="cote"/>
             <idno type="DOI">10.5281/zenodo.6594958</idno>
             <altIdentifier>
@@ -45,10 +45,14 @@
             </altIdentifier>
           </msIdentifier>
           <msContents>
-            <summary/>
+            <summary>Dos canciones</summary>
             <msItem>
-              <locus/>
-              <title/>
+              <locus>1-3</locus>
+              <title>La lluna en un cova.</title>
+            </msItem>
+            <msItem>
+              <locus>3-4</locus>
+              <title>La confianza.</title>
             </msItem>
           </msContents>
           <physDesc>
@@ -90,9 +94,8 @@
               <p>Imp. de Narciso Ramírez y Compañía</p>
             </origin>
             <provenance>
-              <p>Se hallará de venta en casa los sucesores de Antonio
-                                                Bosoh, calle del Bou de la Plaza Nueva, núm- 13.
-                                                tienda.</p>
+              <p>Se hallará de venta en casa los sucesores de Antonio Bosoh, calle del Bou de la
+                Plaza Nueva, núm- 13. tienda.</p>
             </provenance>
             <acquisition>
               <p>
@@ -106,18 +109,17 @@
     </fileDesc>
     <encodingDesc>
       <projectDesc>
-        <p>Este archivo fue creado en el marco del proyecto Desenrollando el
-                              Cordel/Démêler le cordel/Untangling the cordel, dirigido por la
-                              profesora Constance Carta de la Universidad de Ginebra, con el apoyo
-                              de la Fundación filantrópica Famille Sandoz-Monique de Meuron.</p>
+        <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+          cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la Universidad
+          de Ginebra, con el apoyo de la Fundación filantrópica Famille Sandoz-Monique de
+          Meuron.</p>
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR non corregido</p>
+          <p>OCR no corregido</p>
         </correction>
         <normalization>
-          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto
-                                    original.</p>
+          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
         </normalization>
         <punctuation>
           <p>Se conserva la puntuación original.</p>
@@ -138,10 +140,14 @@
       </textClass>
     </profileDesc>
     <revisionDesc>
-      <change when="2023-04-25" who="#PJ">Création du fichier TEI P5 et encodage du
-                        corps du texte</change>
+      <change when="2023-04-25" who="#PJ">Création du fichier TEI P5 et encodage du corps du
+        texte</change>
+      <change when="2024-01-09" who="#EL">Add the IIIF links</change>
     </revisionDesc>
   </teiHeader>
+  <facsimile>
+    <graphic url="varios/Varios_180_1.jpg/full/200,/0/default.jpg"/>
+  </facsimile>
   <sourceDoc xml:id="automaticTranscription">
     <surface xml:id="Varios_180_1" type="page" cert="silver">
       <graphic url="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_180_1/full/full/0/default.jpg"/>
@@ -1224,13 +1230,13 @@
       <zone xml:id="Varios_180_4_BT221_5" n="5" type="MarginTextZone" subtype="colophon" points="1743,2278 1778,2337 1711,2360 1664,2416 1533,2425 350,2442 298,2407 307,2339 399,2319 616,2320 813,2315 1085,2304 1427,2293 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_180_4/298.0,2278.0,1480.0,164.0/full/0/default" corresp="MarginTextZone:colophon">
         <zone xml:id="Varios_180_4_BT221_5_LT182_1" type="DefaultLine" subtype="none" points="1752,2300 1732,2280 1724,2278 1708,2278 1702,2278 1666,2289 1594,2285 1577,2285 1555,2287 1533,2287 1513,2287 1467,2295 1462,2295 1458,2295 1377,2293 1357,2293 1335,2295 1313,2295 1291,2295 1269,2298 1248,2298 1226,2298 1204,2300 1182,2300 1160,2300 1138,2302 1123,2302 1109,2304 1085,2302 1072,2304 1050,2304 1028,2304 1006,2306 984,2306 962,2309 940,2309 919,2311 897,2311 875,2311 853,2313 831,2313 809,2315 787,2315 765,2315 743,2315 721,2315 699,2317 677,2317 655,2317 633,2317 611,2320 590,2320 568,2320 552,2320 546,2320 524,2320 502,2320 480,2320 458,2320 436,2320 414,2320 392,2320 370,2324 348,2328 326,2333 304,2342 307,2363 307,2372 1763,2346 1765,2328 1761,2317 1752,2300 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_180_4/304.0,2278.0,1461.0,94.0/full/0/default" corresp="CustomZone">
           <path xml:id="Varios_180_4_BT221_5_LT182_1_1" points="309,2364 1619,2330 1766,2329 "/>
-          <line>Se hallará de venta en casa los sucesores de Antonio Bosch,
-                                    calle del Bou de la Plaza Nueva, núm- 13. tienda.</line>
+          <line>Se hallará de venta en casa los sucesores de Antonio Bosch, calle del Bou de la
+            Plaza Nueva, núm- 13. tienda.</line>
         </zone>
         <zone xml:id="Varios_180_4_BT221_5_LT182_2" type="DefaultLine" subtype="none" points="1682,2337 1362,2344 1359,2344 1344,2348 1307,2366 366,2385 368,2416 368,2431 429,2442 432,2442 434,2442 436,2442 436,2440 447,2431 447,2429 526,2429 528,2429 548,2442 550,2442 552,2442 554,2442 557,2442 559,2442 559,2440 561,2440 570,2429 572,2427 600,2427 607,2429 644,2442 647,2442 649,2442 868,2425 945,2418 989,2423 1079,2431 1081,2431 1083,2431 1129,2420 1147,2416 1193,2418 1309,2427 1311,2427 1313,2427 1344,2416 1359,2412 1373,2416 1403,2425 1405,2425 1408,2425 1410,2425 1412,2425 1412,2423 1423,2414 1432,2407 1686,2409 1691,2385 1688,2383 1682,2337 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_180_4/366.0,2337.0,1325.0,105.0/full/0/default" corresp="CustomZone">
           <path xml:id="Varios_180_4_BT221_5_LT182_2_1" points="370,2417 1692,2386 "/>
-          <line>Barcelona.—Imp. de Narciso Ramirez y Comp.ª, pasaje de
-                                    Escudillers, núm. 4.—1877</line>
+          <line>Barcelona.—Imp. de Narciso Ramirez y Comp.ª, pasaje de Escudillers, núm.
+            4.—1877</line>
         </zone>
       </zone>
       <zone xml:id="Varios_180_4_BT227_6" n="6" type="MainZone" subtype="columns" points="1559,990 1524,1121 1533,1268 1504,1312 1026,1312 1026,981 1293,964 1293,976 1354,976 1354,900 1462,900 1462,982 1524,982 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_180_4/1026.0,900.0,533.0,412.0/full/0/default" corresp="MainZone:columns"/>
@@ -1244,12 +1250,14 @@
   <text>
     <body>
       <div>
-        <pb n="1" source="Varios_180_1.jpg" facs="fedora_Varios_180_1/full/full/0/default.jpg"/>
-        <fw type="impresorNum">Núm. 84</fw>
         <div>
+          <pb n="1" source="Varios_180_1.jpg" facs="varios/Varios_180_1.jpg/"/>
+
+          <fw type="impresorNum">Núm. 84</fw>
+
           <head type="primer_titulo" rend="negrita"><lb/>LA LLUNA EN UN COVA.</head>
           <lg>
-            <l>Es un ditxo mòlt vulgar</l>
+            <l rend="indent">Es un ditxo mòlt vulgar</l>
             <l>Buscá la lluna en un cova,</l>
             <l>Mes per mòlt vulgar que siga,</l>
             <l>Es una veritat grossa.</l>
@@ -1259,7 +1267,7 @@
             <l>Y de tots los que la trovan.</l>
           </lg>
           <lg>
-            <l>Mes encara que os molesti</l>
+            <l rend="indent">Mes encara que os molesti</l>
             <l>Ab ma relació enfadosa,</l>
             <l>Vos vull di cuatre paraulas</l>
             <l>Sobre cosa tan curiosa,</l>
@@ -1269,7 +1277,7 @@
             <l>Com á la que porta trona.</l>
           </lg>
           <lg>
-            <l>Comensem primerament</l>
+            <l rend="indent">Comensem primerament</l>
             <l>Per la gent de cotxe y gala,</l>
             <l>Pues que aquestos també buscan</l>
             <l>La lluna tan desitjada.</l>
@@ -1279,7 +1287,7 @@
             <l>Y la bossa ben pelada.</l>
           </lg>
           <lg>
-            <l>Sòn politichs, fan discursos,</l>
+            <l rend="indent">Sòn politichs, fan discursos,</l>
             <l>Sòn l' orgull dels grans salons:</l>
             <l>Tots ne volen salvá 'l poble</l>
             <l>Cuant ne venen eleccions,</l>
@@ -1288,10 +1296,13 @@
             <l>Y la buscan en un cova</l>
             <l>Seguintne tots los racons.</l>
           </lg>
-          <pb n="2" source="Varios_180_2.jpg" facs="fedora_Varios_180_2/full/full/0/default.jpg"/>
+          
+          <pb n="2" source="Varios_180_2.jpg" facs="varios/Varios_180_2.jpg/"/>
+          
           <fw type="paginaNum">—2—</fw>
+          
           <lg>
-            <l>Los uns buscantla la troban</l>
+            <l rend="indent">Los uns buscantla la troban</l>
             <l>Y 'n trehuen tot lo profit</l>
             <l>Anant á menjá costellas</l>
             <l>Y predicánt á Madrid.</l>
@@ -1301,7 +1312,7 @@
             <l>Y sent fosca..... bona nit.</l>
           </lg>
           <lg>
-            <l>Mireu cap á un' altra part</l>
+            <l rend="indent">Mireu cap á un' altra part</l>
             <l>Y veureu una xicota</l>
             <l>Que com que ja tè trenta anys,</l>
             <l>No li cau bé 'l nom de polla.</l>
@@ -1311,7 +1322,7 @@
             <l>Puig la troba dins de un cova.</l>
           </lg>
           <lg>
-            <l>Ella fa mil monerias</l>
+            <l rend="indent">Ella fa mil monerias</l>
             <l>Cuan veu un solté de pelas,</l>
             <l>Fa sospirs, ensenya 'l peu</l>
             <l>Y altres mil y mil cosetas,</l>
@@ -1321,7 +1332,7 @@
             <l>Y l' ilusió se 'n va á terra.</l>
           </lg>
           <lg>
-            <l>Allavórens ella diu</l>
+            <l rend="indent">Allavórens ella diu</l>
             <l>Ab veu trista y afligida,</l>
             <l>Fentne sospirs á la lluna,</l>
             <l>Jemegantne adolorida:</l>
@@ -1331,7 +1342,7 @@
             <l>Per mes qua fossis de vidra!</l>
           </lg>
           <lg>
-            <l>Altres mòlt distintament</l>
+            <l rend="indent">Altres mòlt distintament</l>
             <l>Castells al aire edifican</l>
             <l>Fentse deu mil il-lusions:</l>
             <l>Cuan per Nadal ve la rifa,</l>
@@ -1341,7 +1352,7 @@
             <l>Y altres deu mil tonterías.</l>
           </lg>
           <lg>
-            <l>Mes 'l endemá 's despertan,</l>
+            <l rend="indent">Mes 'l endemá 's despertan,</l>
             <l>La llista van á llegi</l>
             <l>Y en lloch de treure la grossa,</l>
             <l>Trehuen desenganys, no xichs.</l>
@@ -1351,7 +1362,7 @@
             <l>Se las han de fe adormits.</l>
           </lg>
           <lg>
-            <l>Altres als notaris fían</l>
+            <l rend="indent">Altres als notaris fían</l>
             <l>La felicitat ditxosa</l>
             <l>Y no vehuen que ungles llargas</l>
             <l>Tenen los aucells de ploma.</l>
@@ -1361,7 +1372,7 @@
             <l>Poch ó mòlt de pel ó borra.</l>
           </lg>
           <lg>
-            <l>De advocats no os ne dich res,</l>
+            <l rend="indent">De advocats no os ne dich res,</l>
             <l>Sòn de la mateixa casta,</l>
             <l>No diré pas que lladreguin,</l>
             <l>Mes també la saben llarga.</l>
@@ -1371,7 +1382,7 @@
             <l>Per ells en lluna daurada.</l>
           </lg>
           <lg>
-            <l>Vingan trons y llamps y pluija,</l>
+            <l rend="indent">Vingan trons y llamps y pluija,</l>
             <l>Vingui sorolls y rahons,</l>
             <l>Vingui disputas y gresca,</l>
             <l>Que 's baralli tot lo mòn.</l>
@@ -1381,7 +1392,7 @@
             <l>Que 'ls advocats per xo hi són.</l>
           </lg>
           <lg>
-            <l>Lo qui pensa que cold-crem</l>
+            <l rend="indent">Lo qui pensa que cold-crem</l>
             <l>L' apotecari li dòna</l>
             <l>Y que tot sòn medicinas,</l>
             <l>També la veu en un cova,</l>
@@ -1391,7 +1402,7 @@
             <l>Sino perque sembli bona.</l>
           </lg>
           <lg>
-            <l>Repareu que sempre pesan,</l>
+            <l rend="indent">Repareu que sempre pesan,</l>
             <l>Sempre ho donan gota á gota,</l>
             <l>Fentvos creure que vos donan</l>
             <l>Una cosa mòlt costosa;</l>
@@ -1401,7 +1412,7 @@
             <l>Roija ab polvos de raijola.</l>
           </lg>
           <lg>
-            <l>Y no m' hi vull cansá pas mes</l>
+            <l rend="indent">Y no m' hi vull cansá pas mes</l>
             <l>Fentvos veure 'ls que la troban</l>
             <l>Y 'ls que de tan que la buscan</l>
             <l>Al fi 's quedan á las foscas.</l>
@@ -1410,10 +1421,13 @@
             <l>L' han buscat, la buscarán</l>
             <l>Y la buscan en un cova.</l>
           </lg>
-          <pb n="3" source="Varios_180_3.jpg" facs="fedora_Varios_180_3/full/full/0/default.jpg"/>
+          
+          <pb n="3" source="Varios_180_3.jpg" facs="varios/Varios_180_3.jpg/"/>
+          
           <fw type="paginaNum">— 3 —</fw>
+          
           <lg>
-            <l>Sense fer cap escepció,</l>
+            <l rend="indent">Sense fer cap escepció,</l>
             <l>Desde 'l noble general</l>
             <l>Hasta 'l mes humil y pobre,</l>
             <l>Desde 'l sabi al ignorant,</l>
@@ -1423,7 +1437,7 @@
             <l>Ab cuidado y anhel gran.</l>
           </lg>
           <lg>
-            <l>Lo que hi ha es qu' uns la buscan</l>
+            <l rend="indent">Lo que hi ha es qu' uns la buscan</l>
             <l>Ab constancia tan manyosa,</l>
             <l>Que sembla que pell de serp</l>
             <l>Dintre las butxacas portan.</l>
@@ -1433,7 +1447,7 @@
             <l>Troban la llanterna fosca.</l>
           </lg>
           <lg>
-            <l>Perque 'l que ha nascut per xavo,</l>
+            <l rend="indent">Perque 'l que ha nascut per xavo,</l>
             <l>May á cuarto arrivará,</l>
             <l>Y si busca lluna groga,</l>
             <l>No la arribará agafá.</l>
@@ -1443,7 +1457,7 @@
             <l>Dins d' un cova 's ficará.</l>
           </lg>
           <lg>
-            <l>Y mentres que mòn hi haigi</l>
+            <l rend="indent">Y mentres que mòn hi haigi</l>
             <l>L' estarán buscant per tot,</l>
             <l>Puig buscarla dintre un cova</l>
             <l>Es humana condició.</l>
@@ -1453,73 +1467,78 @@
             <l>Potser mes la busco jo.</l>
           </lg>
         </div>
+        
         <div>
-          <head type="titulo_cancion" rend="negrita"><lb/>LA CONFIANZA.</head>
-          <head type="subtitulo_parte"><lb/>DUO.</head>
+          <head type="primer_titulo" rend="negrita"><lb/>LA CONFIANZA.</head>
+          <head type="subtitulo"><lb/>DUO.</head>
+          
           <lg>
             <head type="titulo_estrofa">I.</head>
-            <l>Si mis lábios, siempre fieles,</l>
+            <l rend="indent">Si mis lábios, siempre fieles,</l>
             <l>juran amarte dichosa</l>
             <l>confia en ellos, hermosa;</l>
             <l>que los mueve la razon.</l>
-            <l>Y el amor que ahora te ofrezco,</l>
+            <l rend="indent">Y el amor que ahora te ofrezco,</l>
             <l>hermosa niña, hechicera,</l>
             <l>sale con fé verdadera</l>
             <l>del centro del corazon.</l>
           </lg>
           <lg>
             <head type="titulo_estrofa">II.</head>
-            <l>Escucha con grata calma</l>
+            <l rend="indent">Escucha con grata calma</l>
             <l>mis leales juramentos,</l>
             <l>y harás dulces los momentos</l>
             <l>que junto á ti pasaré.</l>
-            <l>Porque, es la luz de tus ojos</l>
+            <l rend="indent">Porque, es la luz de tus ojos</l>
             <l>el amor que en mi reflejas,</l>
             <l>y si tú, niña, me dejas</l>
             <l>siempre á oscuras viviré.</l>
           </lg>
           <lg>
             <head type="titulo_estrofa">III.</head>
-            <l>Yo á tu lado me estasío,</l>
+            <l rend="indent">Yo á tu lado me estasío,</l>
             <l>pues tu aliento es aura pura</l>
             <l>con que arrulla mi ventura</l>
             <l>el dios ciego del amor.</l>
-            <l>Cual el céfiro del rio</l>
+            <l rend="indent">Cual el céfiro del rio</l>
             <l>la corriente cristalina,</l>
             <l>cual la brisa matutina</l>
             <l>la naciente y vírgen flor.</l>
           </lg>
-          <pb n="4" source="Varios_180_4.jpg" facs="fedora_Varios_180_4/full/full/0/default.jpg"/>
+          
+          <pb n="4" source="Varios_180_4.jpg" facs="varios/Varios_180_4.jpg/"/>
+          
           <fw type="paginaNum">— 4 —</fw>
+          
           <lg>
             <head type="titulo_estrofa">IV.</head>
-            <l>Es tu voz como del ave</l>
+            <l rend="indent">Es tu voz como del ave</l>
             <l>el trinar dulce, apacible;</l>
             <l>tu mirar irresistible</l>
             <l>como los rayos del sol.</l>
-            <l>Mas si tu amor en el mio</l>
+            <l rend="indent">Mas si tu amor en el mio</l>
             <l>sin recelo hoy confia</l>
             <l>resistiré, vida mia,</l>
             <l>tu purpúreo arrebol.</l>
           </lg>
           <lg>
             <head type="titulo_estrofa">V.</head>
-            <l>En mis sueños te contemplo</l>
+            <l rend="indent">En mis sueños te contemplo</l>
             <l>como una hada siempre bella;</l>
             <l>ó mas bien, como una estrella</l>
             <l>que augura felicidad.</l>
-            <l>En tu boca la pureza</l>
+            <l rend="indent">En tu boca la pureza</l>
             <l>reside con embeleso,</l>
             <l>sin mancharla nunca un beso</l>
             <l>de negra liviandad.</l>
           </lg>
           <lg>
             <head type="titulo_estrofa">VI.</head>
-            <l>Oye benigna mi ruego</l>
+            <l rend="indent">Oye benigna mi ruego</l>
             <l>y confia en mis amores,</l>
             <l>sin que sufras los rigores</l>
             <l>de un amante desleal.</l>
-            <l>Soy de tu amor el esclavo,</l>
+            <l rend="indent">Soy de tu amor el esclavo,</l>
             <l>y eso no me causa pena,</l>
             <l>pues romperá la cadena</l>
             <l>nuestro enlace nupcial.</l>
@@ -1537,46 +1556,48 @@
           </lg>
           <lg>
             <head type="titulo_estrofa">VIII.</head>
-            <l>Nuestra dicha venturosa</l>
+            <l rend="indent">Nuestra dicha venturosa</l>
             <l>con el tiempo corre y vuela</l>
             <l>y mi alma solo anhela</l>
             <l>ese dia de placer.</l>
-            <l>La sonrisa de tus lábios,</l>
+            <l rend="indent">La sonrisa de tus lábios,</l>
             <l>la mirada de tus ojos</l>
             <l>dejarán limpio de abrojos</l>
             <l>nuestro plácido querer.</l>
           </lg>
           <lg>
             <head type="titulo_estrofa">IX.</head>
-            <l>Quien se aleja de tu lado</l>
+            <l rend="indent">Quien se aleja de tu lado</l>
             <l>busca en vano la alegría,</l>
             <l>y la luz del claro dia</l>
             <l>se le vuelve oscuridad.</l>
-            <l>Eres el sol purpurino</l>
+            <l rend="indent">Eres el sol purpurino</l>
             <l>de diáfanos fulgores,</l>
             <l>y son, niña, tus amores</l>
             <l>mi eterna felicidad.</l>
           </lg>
           <lg>
             <head type="titulo_estrofa">X.</head>
-            <l>Tengo el corazon herido,</l>
+            <l rend="indent">Tengo el corazon herido,</l>
             <l>tengo el alma enamorada,</l>
             <l>hermosa niña, adorada</l>
             <l>con delirio y con fervor.</l>
-            <l>Haz que no pierda en mi ausencia</l>
+            <l rend="indent">Haz que no pierda en mi ausencia</l>
             <l>mi benéfica esperanza,</l>
             <l>ni tu pierdas la confianza</l>
             <l>de que soy tu amador.</l>
           </lg>
           <trailer>FIN.</trailer>
         </div>
-        <div type="colofon_impresora">
-          <p><lb/>Se hallará de venta en casa los sucesores de Antonio Bosch,
-                                    calle del Bou de la Plaza Nueva, núm- 13. tienda. </p>
+        
+        <div type="colofon_impresor">
+          <p><lb/>Se hallará de venta en casa los sucesores de Antonio Bosch, calle del Bou de la
+            Plaza Nueva, núm- 13. tienda. </p>
         </div>
-        <div type="colofón_vendedor">
-          <p><lb/>Barcelona.—Imp. de Narciso Ramirez y Comp.ª, pasaje de
-                                    Escudillers, núm. 4.—1877</p>
+        
+        <div type="colofon_vendedor">
+          <p><lb/>Barcelona.—Imp. de Narciso Ramirez y Comp.ª, pasaje de Escudillers, núm.
+            4.—1877</p>
         </div>
       </div>
     </body>

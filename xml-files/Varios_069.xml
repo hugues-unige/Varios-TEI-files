@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../Schema/oddPliego_varios.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:alto="http://www.loc.gov/standards/alto/ns-v4#" xml:id="Varios_069">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Varios_069">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -11,8 +11,7 @@
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <authority role="rightsHolder">Bibliothèque Universitaire de
-                            Genève</authority>
+        <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
         <availability status="restricted">
           <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
         </availability>
@@ -20,8 +19,9 @@
       <sourceDesc>
         <biblFull>
           <titleStmt>
-            <title type="titulo_completo">DON JACINTO DEL CASTILLO Y DONA LEONOR DE LA ROSA Relación de los crímenes que cometieron estos dos fieles amantes
-                           para conseguir sus promesas de amor</title>
+            <title type="titulo_completo">DON JACINTO DEL CASTILLO Y DONA LEONOR DE LA ROSA Relación
+              de los crímenes que cometieron estos dos fieles amantes para conseguir sus promesas de
+              amor</title>
             <title type="titulo_breve">DON JACINTO DEL CASTILLO Y DONA LEONOR DE LA ROSA</title>
           </titleStmt>
           <editionStmt>
@@ -30,7 +30,7 @@
           <publicationStmt>
             <publisher>El Abanico</publisher>
             <pubPlace ref="https://www.geonames.org/3128760/barcelona.html">Barcelona</pubPlace>
-            <date>[s.a]</date>
+            <date cert="low" when="1800-01-01">[s.a.]</date>
           </publicationStmt>
         </biblFull>
         <msDesc>
@@ -38,7 +38,8 @@
             <country>Suisse</country>
             <settlement>Genève</settlement>
             <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"/>
-                  </repository>
+            </repository>
+            <collection>Colección Varios</collection>
             <idno type="cote"/>
             <idno type="DOI">10.5281/zenodo.6562960</idno>
             <altIdentifier>
@@ -67,7 +68,7 @@
               </layoutDesc>
             </objectDesc>
             <decoDesc>
-              <summary n="1">Uno grabado (p.1)</summary>
+              <summary n="1">Un grabado (p.1)</summary>
               <decoNote type="lista_grabados">
                 <list>
                   <item corresp="grabado_v_069_1.xml">grabado_v_069_1</item>
@@ -78,7 +79,7 @@
           </physDesc>
           <history>
             <origin>
-              <p>El Abanico»</p>
+              <p>El Abanico</p>
             </origin>
             <provenance/>
             <acquisition/>
@@ -88,18 +89,17 @@
     </fileDesc>
     <encodingDesc>
       <projectDesc>
-        <p>Este archivo fue creado en el marco del proyecto Desenrollando el
-                            Cordel/Démêler le cordel/Untangling the cordel, dirigido por la
-                            profesora Constance Carta de la Universidad de Ginebra, con el apoyo de
-                            la Fundación filantrópica Famille Sandoz-Monique de Meuron.</p>
+        <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+          cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la Universidad
+          de Ginebra, con el apoyo de la Fundación filantrópica Famille Sandoz-Monique de
+          Meuron.</p>
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR non corregido</p>
+          <p>OCR no corregido</p>
         </correction>
         <normalization>
-          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto
-                                original.</p>
+          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
         </normalization>
         <punctuation>
           <p>Se conserva la puntuación original.</p>
@@ -112,7 +112,7 @@
       </langUsage>
       <textClass>
         <keywords xml:base="http://datos.bne.es/tema/">
-          <term target="XX527614.html" type="tipo_texto">Romances</term>
+          <term type="tipo_texto">Relaciones</term>
           <term target="XX527614.html" type="tipo_estrofa">Romances</term>
           <term type="verso_prosa">Verso</term>
           <term type="sagrado_profano">Profano</term>
@@ -121,9 +121,13 @@
     </profileDesc>
     <revisionDesc>
       <change when="2022-06-16" who="#PJ">Création du fichier TEI P5 et encodage du corps du
-                        texte</change>
+        texte</change>
+      <change when="2024-01-09" who="#EL">Add the IIIF links</change>
     </revisionDesc>
   </teiHeader>
+  <facsimile>
+    <graphic url="varios/Varios_069_1.jpg/full/200,/0/default.jpg"/>
+  </facsimile>
   <sourceDoc xml:id="automaticTranscription">
     <surface xml:id="Varios_069_1" type="page" cert="silver">
       <graphic url="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_069_1/full/full/0/default.jpg"/>
@@ -1537,13 +1541,18 @@
   <text>
     <body>
       <div>
-        <pb n="1" source="Varios_069_1.jpg" facs="fedora_Varios_069_1/full/full/0/default.jpg"/>
         <div>
-          <head type="primer_titulo"><lb/>DON JACINTO DEL CASTILLO</head>
-          <head type="subtitulo_parte"><lb/>Relación de los crímenes que cometieron estos dos fieles amantes<lb/>para conseguir sus promesas de amor</head>
-          <head type="titulo_parte"><lb/>PRIMERA PARTE</head>
-          <lg>
-            <l>Sagrada Virgen María,</l>
+          <pb n="1" source="Varios_069_1.jpg" facs="varios/Varios_069_1.jpg/"/>
+
+          <head type="primer_titulo" rend="negrita"><lb/>DON JACINTO DEL CASTILLO<lb/>Y<lb/>DONA
+            LEONOR DE LA ROSA</head>
+          <head type="subtitulo_parte"><lb/>Relación de los crímenes que cometieron estos dos
+            fieles amantes<lb/>para conseguir sus promesas de amor</head>
+
+          <div>
+            <head type="titulo_parte" rend="negrita"><lb/>PRIMERA PARTE</head>
+
+            <l rend="indent">Sagrada Virgen María,</l>
             <l>Antorcha del Cielo Empireo,</l>
             <l>Hija del Eterno Padre,</l>
             <l>Madre del Supremo Hijo</l>
@@ -1551,8 +1560,6 @@
             <l>pues con virtud, y dominio</l>
             <l>en tu vientre virginal</l>
             <l>concibió el Sér más benigno,</l>
-          </lg>
-          <lg>
             <l>y al cabo de nueve meses</l>
             <l>nació el Autor más divino</l>
             <l>para redención del hombre,</l>
@@ -1561,9 +1568,9 @@
             <l>casto, terso, puro y limpio.</l>
             <l>Sucedió en la gran Coruña,</l>
             <l>el mejor puerto lucido</l>
-          </lg>
-          <pb n="2" source="Varios_069_2.jpg" facs="fedora_Varios_069_2/full/full/0/default.jpg"/>
-          <lg>
+
+            <pb n="2" source="Varios_069_2.jpg" facs="varios/Varios_069_2.jpg/"/>
+
             <l>que tiene el mar en su margen,</l>
             <l>de mil alabanzas digno.</l>
             <l>En esta ilustre ciudad,</l>
@@ -1617,8 +1624,6 @@
             <l>répitiendo mil cariños.</l>
             <l>Dejemos en este estado</l>
             <l>á Leonor y á don Jacinto,</l>
-          </lg>
-          <lg>
             <l>gozando aquellos elogios</l>
             <l>que el amor tiene consigo,</l>
             <l>y paso pues á dar cuenta,</l>
@@ -1672,9 +1677,9 @@
             <l>fué á responder, y no pudo,</l>
             <l>que la tuerza de un delirio</l>
             <l>la traspuso en un desmayo,</l>
-          </lg>
-          <pb n="3" source="Varios_069_3.jpg" facs="fedora_Varios_069_3/full/full/0/default.jpg"/>
-          <lg>
+
+            <pb n="3" source="Varios_069_3.jpg" facs="varios/Varios_069_3.jpg/"/>
+
             <l>envuelta en un parasismo.</l>
             <l>Aquí eì coral de sus labios</l>
             <l>eran de jazmin los visos;</l>
@@ -1728,8 +1733,6 @@
             <l>por mandato de mi amor,</l>
             <l>en don Jacinto del Castillo:</l>
             <l>yo tengo esposo á mi gusto,</l>
-          </lg>
-          <lg>
             <l>pues como el alma lo estimo.</l>
             <l>furioso y ensoberbecido</l>
             <l>Viéndola el padre resuelta,</l>
@@ -1783,9 +1786,9 @@
             <l>mas volvióse basilisco,</l>
             <l>cual vívora, cual serpiente,</l>
             <l>que con su veneno mismo</l>
-          </lg>
-          <pb n="4" source="Varios_069_4.jpg" facs="fedora_Varios_069_4/full/full/0/default.jpg"/>
-          <lg>
+
+            <pb n="4" source="Varios_069_4.jpg" facs="varios/Varios_069_4.jpg/"/>
+
             <l>antepone su venganza,</l>
             <l>destruyendo á su enemigo.</l>
             <l>Tuvo lugar y escribió,</l>
@@ -1840,8 +1843,6 @@
             <l>y allí se quedó escondido,</l>
             <l>cual aspid emponzoñado,</l>
             <l>entre las flores metido:</l>
-          </lg>
-          <lg>
             <l>allí aguarda al inocente,</l>
             <l>para picarle atrevido.</l>
             <l>Llego en fin la media noche,</l>
@@ -1896,7 +1897,7 @@
             <l>y como fueron cautivos,</l>
             <l>y dice el fin que tuvieron</l>
             <l>doña Leonor y Jacinto.</l>
-          </lg>
+          </div>
         </div>
         <div type="colofon">
           <p><lb/>Imps. Hospital, 19, «El Abanico»</p>

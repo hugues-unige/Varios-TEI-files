@@ -1,11 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../Schema/oddPliego_varios.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:alto="http://www.loc.gov/standards/alto/ns-v4#" xml:id="Varios_167">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Varios_167">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Despedida que hace un quinto a la prenda querida de su
-                              corazón</title>
+        <title>Despedida que hace un quinto a la prenda querida de su corazón</title>
         <respStmt>
           <name/>
           <resp>Codificación TEI</resp>
@@ -13,8 +12,7 @@
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <authority role="rightsHolder">Bibliothèque Universitaire de
-                              Genève</authority>
+        <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
         <availability status="restricted">
           <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
         </availability>
@@ -22,21 +20,19 @@
       <sourceDesc>
         <biblFull>
           <titleStmt>
-            <title type="titulo_completo">Despedida que hace un quinto a la
-                                          prenda querida de su corazón Seguida de una despedida a
-                                          sus padres, y por último: canciones de la jota comparando
-                                          una mujer a una guitarra</title>
-            <title type="titulo_breve">Despedida que hace un quinto a la
-                                          prenda querida de su corazón</title>
+            <title type="titulo_completo">Despedida que hace un quinto a la prenda querida de su
+              corazón Seguida de una despedida a sus padres, y por último: canciones de la jota
+              comparando una mujer a una guitarra</title>
+            <title type="titulo_breve">Despedida que hace un quinto a la prenda querida de su
+              corazón</title>
           </titleStmt>
           <editionStmt>
             <p/>
           </editionStmt>
           <publicationStmt>
-            <publisher>Librería “La Fleca” de vda. Juan Grau
-                                          Gené</publisher>
+            <publisher>Viuda de Juan Grau</publisher>
             <pubPlace ref="https://www.geonames.org/3111933/reus.html">Reus</pubPlace>
-            <date>[s.a]</date>
+            <date cert="low" when="1800-01-01">[s.a.]</date>
           </publicationStmt>
         </biblFull>
         <msDesc>
@@ -44,7 +40,8 @@
             <country>Suisse</country>
             <settlement>Genève</settlement>
             <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"/>
-                                    </repository>
+            </repository>
+            <collection>Colección Varios</collection>
             <idno type="cote"/>
             <idno type="DOI">10.5281/zenodo.6587239</idno>
             <altIdentifier>
@@ -52,10 +49,20 @@
             </altIdentifier>
           </msIdentifier>
           <msContents>
-            <summary/>
+            <summary>Tres canciones</summary>
             <msItem>
-              <locus/>
-              <title/>
+              <locus>1-2</locus>
+              <title>Despedida a la querida</title>
+            </msItem>
+            <msItem>
+              <locus>3</locus>
+              <title>Despedida que hace un quinto a sus queridos padres</title>
+            </msItem>
+            <msItem>
+              <locus>4</locus>
+              <title>Canciones de la jota que canta un soldado al regreso del servicio militar a la
+                querida que dejó</title>
+              <author>José Ferré</author>
             </msItem>
           </msContents>
           <physDesc>
@@ -73,7 +80,7 @@
               </layoutDesc>
             </objectDesc>
             <decoDesc>
-              <summary n="2">Dos grabados(p.1) </summary>
+              <summary n="2">Dos grabados (p.1)</summary>
               <decoNote type="lista_grabados">
                 <list>
                   <item corresp="grabado_v_167_1.xml">grabado_v_167_1</item>
@@ -98,18 +105,17 @@
     </fileDesc>
     <encodingDesc>
       <projectDesc>
-        <p>Este archivo fue creado en el marco del proyecto Desenrollando el
-                              Cordel/Démêler le cordel/Untangling the cordel, dirigido por la
-                              profesora Constance Carta de la Universidad de Ginebra, con el apoyo
-                              de la Fundación filantrópica Famille Sandoz-Monique de Meuron.</p>
+        <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+          cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la Universidad
+          de Ginebra, con el apoyo de la Fundación filantrópica Famille Sandoz-Monique de
+          Meuron.</p>
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR non corregido</p>
+          <p>OCR no corregido</p>
         </correction>
         <normalization>
-          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto
-                                    original.</p>
+          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
         </normalization>
         <punctuation>
           <p>Se conserva la puntuación original.</p>
@@ -130,10 +136,14 @@
       </textClass>
     </profileDesc>
     <revisionDesc>
-      <change when="2023-04-12" who="#PJ">Création du fichier TEI P5 et encodage du
-                        corps du texte</change>
+      <change when="2023-04-12" who="#PJ">Création du fichier TEI P5 et encodage du corps du
+        texte</change>
+      <change when="2024-01-09" who="#EL">Add the IIIF links</change>
     </revisionDesc>
   </teiHeader>
+  <facsimile>
+    <graphic url="varios/Varios_167_1.jpg/full/200,/0/default.jpg"/>
+  </facsimile>
   <sourceDoc xml:id="automaticTranscription">
     <surface xml:id="Varios_167_1" type="page" cert="silver">
       <graphic url="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_167_1/full/full/0/default.jpg"/>
@@ -811,8 +821,7 @@
         </zone>
         <zone xml:id="Varios_167_4_BT223_1_LT183_2" type="CustomZone" subtype="none" points="1677,359 1656,343 1316,330 1313,330 1311,330 1261,346 1241,333 1239,333 1237,333 1234,333 1050,346 945,333 943,333 940,333 938,333 938,335 925,346 914,335 912,335 910,335 908,335 677,348 655,335 653,335 651,335 649,335 585,348 565,335 563,335 561,335 559,335 475,337 473,337 471,337 458,350 456,352 280,352 280,350 267,339 265,339 263,339 261,339 208,348 208,350 186,368 166,405 166,442 186,442 188,442 212,464 214,464 217,464 219,466 296,466 296,464 298,464 350,442 353,440 357,442 403,464 405,464 407,466 454,466 454,464 456,464 458,464 484,440 489,438 504,440 618,457 620,457 622,457 625,457 647,438 704,438 901,435 914,435 1083,453 1085,453 1087,453 1090,453 1112,433 1114,433 1144,433 1147,433 1184,457 1186,457 1188,457 1191,457 1265,442 1309,460 1311,460 1313,460 1469,457 1471,457 1473,457 1495,440 1699,427 1699,396 1695,346 1677,343 1677,359 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_167_4/166.0,330.0,1533.0,136.0/full/0/default" corresp="CustomZone">
           <path xml:id="Varios_167_4_BT223_1_LT183_2_1" points="167,407 1701,398 "/>
-          <line>que canta un soldado al regreso del servicio militar a la
-                                    querida que dejó</line>
+          <line>que canta un soldado al regreso del servicio militar a la querida que dejó</line>
         </zone>
       </zone>
       <zone xml:id="Varios_167_4_BT227_2" n="2" type="MainZone" subtype="columns" points="813,1147 796,1391 822,1487 769,1533 787,1838 752,1892 769,2039 734,2118 157,2118 149,595 175,543 717,543 761,569 699,690 743,762 726,909 769,946 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_167_4/149.0,543.0,673.0,1575.0/full/0/default" corresp="MainZone:columns">
@@ -1090,23 +1099,22 @@
       <zone xml:id="Varios_167_4_BT221_6" n="6" type="MarginTextZone" subtype="colophon" points="156,2291 156,2486 1711,2486 1711,2291 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_167_4/156.0,2291.0,1555.0,195.0/full/0/default" corresp="MarginTextZone:colophon">
         <zone xml:id="Varios_167_4_BT221_6_LT182_1" type="DefaultLine" subtype="none" points="1649,2315 1627,2311 1605,2311 1583,2309 1561,2309 1539,2309 1517,2306 1495,2306 1473,2304 1452,2304 1430,2302 1408,2302 1386,2302 1364,2300 1342,2300 1320,2298 1298,2298 1276,2295 1254,2295 1241,2293 947,2304 804,2293 802,2293 736,2306 715,2295 712,2295 526,2295 524,2295 522,2295 495,2302 486,2320 464,2331 443,2331 421,2331 399,2333 377,2333 355,2335 333,2335 311,2335 289,2337 267,2337 263,2311 223,2311 225,2346 225,2361 1673,2352 1675,2335 1658,2315 1649,2315 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_167_4/223.0,2293.0,1452.0,68.0/full/0/default" corresp="CustomZone">
           <path xml:id="Varios_167_4_BT221_6_LT182_1_1" points="225,2346 1675,2335 "/>
-          <line>REUS.—Véndese en la librería «La Fleca» de Vda Juan Grau Gené,
-                                    calle Aleus, 1. En la misma casa</line>
+          <line>REUS.—Véndese en la librería «La Fleca» de Vda Juan Grau Gené, calle Aleus, 1. En
+            la misma casa</line>
         </zone>
         <zone xml:id="Varios_167_4_BT221_6_LT182_2" type="DefaultLine" subtype="none" points="791,2344 769,2344 747,2344 726,2344 704,2344 682,2344 673,2344 519,2344 506,2346 484,2346 462,2346 440,2346 418,2346 397,2346 375,2346 353,2346 331,2346 309,2346 287,2346 265,2346 243,2346 241,2344 177,2344 179,2381 179,2396 1677,2390 1680,2370 1673,2339 796,2342 791,2344 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_167_4/177.0,2339.0,1503.0,57.0/full/0/default" corresp="CustomZone">
           <path xml:id="Varios_167_4_BT221_6_LT182_2_1" points="179,2381 1680,2370 "/>
-          <line>se halla un gran surtido de romances, sainetes, libritos,
-                                    historias, comedias, aleluyas de redolines,</line>
+          <line>se halla un gran surtido de romances, sainetes, libritos, historias, comedias,
+            aleluyas de redolines,</line>
         </zone>
         <zone xml:id="Varios_167_4_BT221_6_LT182_3" type="DefaultLine" subtype="none" points="1651,2401 1634,2379 309,2383 291,2414 269,2405 250,2383 182,2383 184,2418 184,2442 267,2434 824,2442 826,2442 829,2442 831,2442 833,2442 846,2431 1680,2442 1684,2412 1677,2379 1666,2379 1651,2401 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_167_4/182.0,2379.0,1502.0,63.0/full/0/default" corresp="CustomZone">
           <path xml:id="Varios_167_4_BT221_6_LT182_3_1" points="184,2418 1684,2412 "/>
-          <line>hojas de santos y soldados Depósito de libritos para fumar y
-                                    cajas de cerillas. Papel para escribir,</line>
+          <line>hojas de santos y soldados Depósito de libritos para fumar y cajas de cerillas.
+            Papel para escribir,</line>
         </zone>
         <zone xml:id="Varios_167_4_BT221_6_LT182_4" type="DefaultLine" subtype="none" points="1162,2416 1140,2416 1118,2416 1096,2416 1087,2416 344,2425 329,2458 307,2453 285,2453 263,2451 245,2427 175,2427 177,2460 177,2488 1248,2473 1248,2447 1241,2414 1173,2414 1162,2416 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_167_4/175.0,2414.0,1073.0,74.0/full/0/default" corresp="CustomZone">
           <path xml:id="Varios_167_4_BT221_6_LT182_4_1" points="177,2460 1248,2447 "/>
-          <line>sobres para cartas, plumas, palillos, etc., etc. Todo a precios
-                                    muy baratos.</line>
+          <line>sobres para cartas, plumas, palillos, etc., etc. Todo a precios muy baratos.</line>
         </zone>
       </zone>
     </surface>
@@ -1114,328 +1122,364 @@
   <text>
     <body>
       <div>
-        <pb n="1" source="Varios_167_1.jpg" facs="fedora_Varios_167_1/full/full/0/default.jpg"/>
+        <pb n="1" source="Varios_167_1.jpg" facs="varios/Varios_167_1.jpg/"/>
+
         <head type="primer_titulo"><lb/>Despedida que hace un quinto<lb/>A LA PRENDA QUERIDA DE SU
-                              CORAZÓN</head>
+          CORAZÓN</head>
         <head type="subtitulo_parte"><lb/>Seguida de una despedida a sus padres, y por
-                              último:<lb/>canciones de la jota<lb/>comparando una mujer a una
-                              guitarra<lb/>DESPEDIDA A LA QUERIDA</head>
+          último:<lb/>canciones de la jota<lb/>comparando una mujer a una guitarra<lb/>DESPEDIDA A
+          LA QUERIDA</head>
+
         <div n="1" type="cancion">
-          <head type="titulo_parte"><lb/>DESPEDIDA A LA QUERIDA</head>
+          <head type="titulo_parte" rend="negrita"><lb/>DESPEDIDA A LA QUERIDA</head>
           <lg>
-            <l>Con lágrimas en los ojos</l>
+            <l rend="indent">Con lágrimas en los ojos</l>
             <l>y el alma muy comprimida</l>
             <l>hermosa prenda querida</l>
             <l>a tí me postro de hinojos.</l>
           </lg>
           <lg>
-            <l>¡Ya ves si soy desgraciado!!</l>
+            <l rend="indent">¡Ya ves si soy desgraciado!!</l>
             <l>«porque yo temo perderte»</l>
             <l>pues me ha tocado la suerte</l>
             <l>de marchar, ya soy soldado.</l>
           </lg>
           <lg>
-            <l>¡¡Dejarte en este momento!!</l>
+            <l rend="indent">¡¡Dejarte en este momento!!</l>
             <l>¡ien este instante precioso;</l>
             <l>esto es lo más horroroso!!</l>
             <l>es un horrible tormentó.</l>
           </lg>
           <lg>
-            <l>Ahora que contemplaba</l>
+            <l rend="indent">Ahora que contemplaba</l>
             <l>tus encantos seductores</l>
             <l>y con tus dulces amores</l>
             <l>ratos hermosos pasaba.</l>
           </lg>
-          <pb n="2" source="Varios_167_2.jpg" facs="fedora_Varios_167_2/full/full/0/default.jpg"/>
+
+          <pb n="2" source="Varios_167_2.jpg" facs="varios/Varios_167_2.jpg/"/>
+
           <lg>
-            <l>Dejar las noches tan bellas</l>
+            <l rend="indent">Dejar las noches tan bellas</l>
             <l>que pasábamos hablando</l>
             <l>y del cielo contemplando</l>
             <l>sus refulgentes estrellas.</l>
           </lg>
           <lg>
-            <l>Y en tan solemne momento</l>
+            <l rend="indent">Y en tan solemne momento</l>
             <l>tu me decías «te quiero»</l>
             <l>respondiendo yo: «me muero</l>
             <l>de placer y de contento.»</l>
           </lg>
           <lg>
-            <l>Cuando abrazados los dos</l>
+            <l rend="indent">Cuando abrazados los dos</l>
             <l>en noches de gran fortuna</l>
             <l>nos daba su luz la luna</l>
             <l>y amor puro nuestro Dios.</l>
           </lg>
           <lg>
-            <l>Tu llorabas en mis brazos</l>
+            <l rend="indent">Tu llorabas en mis brazos</l>
             <l>al gozar tantos placeres</l>
             <l>y me decías: «si quieres</l>
             <l>nos romperemos estos lazos.»</l>
           </lg>
           <lg>
-            <l>Y entonces con gran ardor</l>
+            <l rend="indent">Y entonces con gran ardor</l>
             <l>te daba loco impaciente</l>
             <l>dulces besos en la frente</l>
             <l>y me moría de amor.</l>
           </lg>
           <lg>
-            <l>Ahora ya se acabó</l>
+            <l rend="indent">Ahora ya se acabó</l>
             <l>toda dicha y alegría</l>
             <l>porque la prenda mía</l>
             <l>tengo que ausentarme yo.</l>
           </lg>
           <lg>
-            <l>¡¡Soldado!! suerte maldita...</l>
+            <l rend="indent">¡¡Soldado!! suerte maldita...</l>
             <l>Dios mio, pierdo el juicio;</l>
             <l>tengo de ir al servicio,</l>
             <l>la suerte, mi bien te quita.</l>
           </lg>
           <lg>
-            <l>Con gente desconocida</l>
+            <l rend="indent">Con gente desconocida</l>
             <l>yo no haré sino llorar</l>
             <l>solamente al recordar</l>
             <l>el amor de mi querida.</l>
           </lg>
           <lg>
-            <l>Quizás voy a combatir</l>
+            <l rend="indent">Quizás voy a combatir</l>
             <l>contra las olas del mar</l>
             <l>y al momento de marchar</l>
             <l>ya deje yo de existir.</l>
           </lg>
           <lg>
-            <l>Me llevarán donde quieran</l>
+            <l rend="indent">Me llevarán donde quieran</l>
             <l>sea por mar o por tierra</l>
             <l>solamente hambre y guerra</l>
             <l>son las suertes que me esperan.</l>
           </lg>
           <lg>
-            <l>¡Ay! prenda del corazón...</l>
+            <l rend="indent">¡Ay! prenda del corazón...</l>
             <l>¿como haré por alejarme</l>
             <l>si en esto van a arrancarme</l>
             <l>las alas del corazón?</l>
           </lg>
           <lg>
-            <l>Pero bien, basta de llorar;</l>
+            <l rend="indent">Pero bien, basta de llorar;</l>
             <l>veo que es fuerza partir</l>
             <l>con tí yo vendré a vivir</l>
             <l>cuando volveré a llegar.</l>
           </lg>
           <lg>
-            <l>Guárdame puro tu amor,</l>
+            <l rend="indent">Guárdame puro tu amor,</l>
             <l>seas firme por mi fé,</l>
             <l>yo jamás te olvidaré</l>
             <l>cumpliré con noble honor.</l>
           </lg>
           <lg>
-            <l>Me voy con dolor agudo</l>
+            <l rend="indent">Me voy con dolor agudo</l>
             <l>y no temo en el morir,</l>
             <l>y si llego a combatir</l>
             <l>tu imagen será mi escudo.</l>
           </lg>
           <lg>
-            <l>Confía que volveré</l>
+            <l rend="indent">Confía que volveré</l>
             <l>con más loco amor que ahora</l>
             <l>y a tí prenda encantadora</l>
             <l>de gozo te abrazaré.</l>
           </lg>
           <lg>
-            <l>Adios, no olvides jamás</l>
+            <l rend="indent">Adios, no olvides jamás</l>
             <l>a tu amante verdadero,</l>
             <l>tienes mi amor prisionero</l>
             <l>dí de mí si quieres más.</l>
           </lg>
           <lg>
-            <l>Adios te vuelvo a decir</l>
+            <l rend="indent">Adios te vuelvo a decir</l>
             <l>por última despedida;</l>
             <l>adios mi prenda querida</l>
             <l>es la hora de partir.</l>
           </lg>
         </div>
-        <pb n="3" source="Varios_167_3.jpg" facs="fedora_Varios_167_3/full/full/0/default.jpg"/>
+
+        <pb n="3" source="Varios_167_3.jpg" facs="varios/Varios_167_3.jpg/"/>
+
         <div n="2" type="cancion">
-          <head type="titulo_parte"><lb/>Despedida que hace un quinlo<lb/>A SUS QUERIDOS
-                                    PADRES</head>
+          <head type="titulo_parte"><lb/><hi rend="negrita">Despedida que hace un quinto</hi><lb/>A
+            SUS QUERIDOS PADRES</head>
+
           <lg>
-            <l>Padres de mi corazón</l>
+            <l rend="indent">Padres de mi corazón</l>
             <l>mi desgracia ya la veis,</l>
             <l>conformaos, no lloreis,</l>
             <l>esta es mi separación.</l>
           </lg>
           <lg>
-            <l>Ha sido negra mi suerte</l>
+            <l rend="indent">Ha sido negra mi suerte</l>
             <l>y es suerte que Dios me ha dado,</l>
             <l>me ha tocado el ser soldado,</l>
             <l>vale más que no la muerte.</l>
           </lg>
           <lg>
-            <l>Nos hemos de conformar</l>
+            <l rend="indent">Nos hemos de conformar</l>
             <l>ya que Dios lo quiere así,</l>
             <l>quizás mi suerte es allí</l>
             <l>y no en mi paterno hogar.</l>
           </lg>
           <lg>
-            <l>Ya veis que tranquilo estoy,</l>
+            <l rend="indent">Ya veis que tranquilo estoy,</l>
             <l>tengo de tomar paciencia</l>
             <l>quizás lograré experiencia</l>
             <l>de cosas que no se hoy.</l>
           </lg>
           <lg>
-            <l>Quizás seré venturoso</l>
+            <l rend="indent">Quizás seré venturoso</l>
             <l>con las cosas que vendrán</l>
             <l>sabed que dice un refrán:</l>
             <l>«nadie en la patria es dichoso.»</l>
           </lg>
           <lg>
-            <l>Que me perdéis os pensais</l>
+            <l rend="indent">Que me perdéis os pensais</l>
             <l>y a fe que no me perdéis:</l>
             <l>quiero que os aconsoléis.</l>
             <l>¿Cómo es que tanto lloráis?</l>
           </lg>
           <lg>
-            <l>Ya véis que tengo valor</l>
+            <l rend="indent">Ya véis que tengo valor</l>
             <l>y asombrado no me quedo,</l>
             <l>las balas no me dan miedo,</l>
             <l>nada me causa pavor.</l>
           </lg>
           <lg>
-            <l>Venga el combate, la guerra</l>
+            <l rend="indent">Venga el combate, la guerra</l>
             <l>que venga lo que Dios quiera;</l>
             <l>de una o de otra manera</l>
             <l>hemos de estar en la tierra.</l>
           </lg>
           <lg>
-            <l>Soy limpio como el cristal</l>
+            <l rend="indent">Soy limpio como el cristal</l>
             <l>no tengo ningún mal vicio</l>
             <l>y el que es limpio en el servicio</l>
             <l>no suele pasarlo mal.</l>
           </lg>
           <lg>
-            <l>Soy bondadoso, soy fiel</l>
+            <l rend="indent">Soy bondadoso, soy fiel</l>
             <l>honrado como el primero,</l>
             <l>lo que ustedes quieren quiero,</l>
             <l>soy dulce como la miel.</l>
           </lg>
           <lg>
-            <l>Y el hombre con tal bondad</l>
+            <l rend="indent">Y el hombre con tal bondad</l>
             <l>sin cometer extravíos,</l>
             <l>ya comprendéis padres mios</l>
             <l>que vive con felicidad.</l>
           </lg>
           <lg>
-            <l>Harto dolor siento yo</l>
+            <l rend="indent">Harto dolor siento yo</l>
             <l>al tener hoy que dejaros:</l>
             <l>ya volveré a consolaros</l>
             <l>esto no lo dudéis, no.</l>
           </lg>
           <lg>
-            <l>Dadme vuestra bendición,</l>
+            <l rend="indent">Dadme vuestra bendición,</l>
             <l>apartad el sufrimiento:</l>
             <l>voy a partir al momento,</l>
             <l>es esta mi obligación.</l>
           </lg>
           <lg>
-            <l>Rogad al cielo por mi,</l>
+            <l rend="indent">Rogad al cielo por mi,</l>
             <l>porque así hallaréis consuelo,</l>
             <l>yo, confío en Dios del cielo</l>
             <l>que nos mira desde allí.</l>
           </lg>
           <lg>
-            <l>¡Oh! padres con Dios quedad</l>
+            <l rend="indent">¡Oh! padres con Dios quedad</l>
             <l>de vuestros brazos me alejo,</l>
             <l>mi corazón aquí os dejo,</l>
             <l>con vuestro hijo pensad.</l>
           </lg>
           <lg>
-            <l>Madre del alma querida</l>
+            <l rend="indent">Madre del alma querida</l>
             <l>ya me separo de vos,</l>
             <l>rogad con fervor a Dios</l>
             <l>que él amparará mi vida.</l>
           </lg>
         </div>
-        <pb n="4" source="Varios_167_4.jpg" facs="fedora_Varios_167_4/full/full/0/default.jpg"/>
+
+        <pb n="4" source="Varios_167_4.jpg" facs="varios/Varios_167_4.jpg/"/>
+
         <div n="3" type="cancion">
-          <head type="titulo_parte"><lb/>CANCIONES DE LA JOTTA<lb/>que canta un soldado al regreso
-                                    del servicio militar a la querida que dejó</head>
+          <head type="titulo_parte"><lb/><hi rend="negrita">CANCIONES DE LA JOTA</hi><lb/>que canta
+            un soldado al regreso del servicio militar a la querida que dejó</head>
+
           <lg>
-            <l>Cuando al servicio me fuí</l>
+            <l rend="indent">Cuando al servicio me fuí</l>
             <l>una guitarra dejé</l>
             <l>y en seguida que volví</l>
             <l>a la guitarra busqué.</l>
-            <l>Todas las cuerdas había</l>
+          </lg>
+          <lg>
+            <l rend="indent">Todas las cuerdas había</l>
             <l>sin faltar siquiera una:</l>
             <l>¡¡Jesús Virgen María!!</l>
             <l>mala ha sido su fortuna.</l>
-            <l>Tiene la prima rompida</l>
+          </lg>
+          <lg>
+            <l rend="indent">Tiene la prima rompida</l>
             <l>esto es desgracia y no suerte</l>
             <l>aquel que la habrá tañido</l>
             <l>debe tocar mucho y fuerte.</l>
-            <l>Las cuerdas que se han roto</l>
+          </lg>
+          <lg>
+            <l rend="indent">Las cuerdas que se han roto</l>
             <l>han perdido ya el sonido;</l>
             <l>¿quién será este malvado</l>
             <l>que tanto mal la ha querido?</l>
-            <l>Ya no puedes entonar</l>
+          </lg>
+          <lg>
+            <l rend="indent">Ya no puedes entonar</l>
             <l>tienes la voz de cigarra</l>
             <l>y no hay quien pueda comprar</l>
             <l>tan maltratada guitarra.</l>
-            <l>Al puentecillo tenía</l>
+          </lg>
+          <lg>
+            <l rend="indent">Al puentecillo tenía</l>
             <l>las cuerdas bien amarradas</l>
             <l>¿quién fué el que así tiraría</l>
             <l>que ahora están aflojadas?</l>
-            <l>Al servicio, la corneta</l>
+          </lg>
+          <lg>
+            <l rend="indent">Al servicio, la corneta</l>
             <l>bien me anuncian este baño,</l>
             <l>allí tocaban retreta</l>
             <l>y aquí tocaban el paño.</l>
-            <l>Resistirme yo no puedo,</l>
+          </lg>
+          <lg>
+            <l rend="indent">Resistirme yo no puedo,</l>
             <l>con furor mi rabia explota,</l>
             <l>quizás con un solo dedo,</l>
             <l>bien te tocaban la jota.</l>
           </lg>
           <lg>
-            <l>Estando bien confiado</l>
+            <l rend="indent">Estando bien confiado</l>
             <l>allá yo bailaba el tango,</l>
             <l>y aquí ya te habrá tocado</l>
             <l>paño la jota y fandango.</l>
-            <l>Amigos, jamás fiéis</l>
+          </lg>
+          <lg>
+            <l rend="indent">Amigos, jamás fiéis</l>
             <l>en dejar prendas amadas</l>
             <l>porque cuando volveréis</l>
             <l>estarán desbaratadas.</l>
-            <l>Porque vengar estas cosillas</l>
+          </lg>
+          <lg>
+            <l rend="indent">Porque vengar estas cosillas</l>
             <l>está ya arreglado luego</l>
             <l>haced de su casco astillas</l>
             <l>y echarlas prontito al fuego.</l>
-            <l>Ahora me pasa a mí</l>
+          </lg>
+          <lg>
+            <l rend="indent">Ahora me pasa a mí</l>
             <l>con la prenda que adoraba,</l>
             <l>que al momento que yo partí</l>
             <l>creí que pura quedaba.</l>
-            <l>Era una joven hermosa</l>
+          </lg>
+          <lg>
+            <l rend="indent">Era una joven hermosa</l>
             <l>y graciosa cual la flor,</l>
             <l>y el alma candorosa</l>
             <l>ha cubierto de dolor.</l>
-            <l>Ha perdido la virtud</l>
+          </lg>
+          <lg>
+            <l rend="indent">Ha perdido la virtud</l>
             <l>y aquel santo juramento,</l>
             <l>y ahora encuentro quietud</l>
             <l>y el más horrible tormento.</l>
-            <l>Amigos mios ya veis</l>
+          </lg>
+          <lg>
+            <l rend="indent">Amigos mios ya veis</l>
             <l>que en ellas no hay que fiar,</l>
             <l>cuando la espada volvéis</l>
             <l>ya han cambiado de pensar.</l>
-            <l>Si es preciso hacer ausencia</l>
+          </lg>
+          <lg>
+            <l rend="indent">Si es preciso hacer ausencia</l>
             <l>a las mujeres cantad;</l>
             <l>«que viva la independencia</l>
             <l>y también la libertad.»</l>
           </lg>
-          <p><lb/>José Ferré.</p>
+          
+          <p rend="cursiva"><lb/>(Es propiedad de Vda. de Juan Grau Gené.)</p>
+          <p rend="negrita"><lb/>José Ferré.</p>
         </div>
-        <div type="propiedad">
-          <p><lb/>(Es propiedad de Vda. de Juan Grau Gené.)</p>
-        </div>
+        
         <div type="colofon">
-          <p><lb/>REUS.—Véndese en la librería «La Fleca» de Vda Juan Grau Gené,
-                                    calle Aleus, 1. En la misma casa <lb/>se halla un gran surtido
-                                    de romances, sainetes, libritos, historias, comedias, aleluyas
-                                    de redolines, <lb/>hojas de santos y soldados Depósito de
-                                    libritos para fumar y cajas de cerillas. Papel para escribir,
-                                    <lb/>sobres para cartas, plumas, palillos, etc., etc. Todo a
-                                    precios muy baratos.</p>
+          <p><lb/>REUS.—Véndese en la librería «La Fleca» de Vda Juan Grau Gené, calle Aleus, 1. En
+            la misma casa <lb/>se halla un gran surtido de romances, sainetes, libritos, historias,
+            comedias, aleluyas de redolines, <lb/>hojas de santos y soldados Depósito de libritos
+            para fumar y cajas de cerillas. Papel para escribir, <lb/>sobres para cartas, plumas,
+            palillos, etc., etc. Todo a precios muy baratos.</p>
         </div>
       </div>
     </body>

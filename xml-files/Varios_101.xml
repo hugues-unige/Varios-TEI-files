@@ -1,18 +1,17 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../Schema/oddPliego_varios.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:alto="http://www.loc.gov/standards/alto/ns-v4#" xml:id="Varios_101">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Varios_101">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>TROBOS NUEVOS.</title>
+        <title>TROBOS NUEVOS</title>
         <respStmt>
           <name/>
           <resp>Codificación TEI</resp>
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <authority role="rightsHolder">Bibliothèque Universitaire de
-                              Genève</authority>
+        <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
         <availability status="restricted">
           <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
         </availability>
@@ -29,7 +28,7 @@
           <publicationStmt>
             <publisher>Juan Llorens</publisher>
             <pubPlace ref="https://www.geonames.org/3128760/barcelona.html">Barcelona</pubPlace>
-            <date>[s.a]</date>
+            <date cert="low" when="1800-01-01">[s.a.]</date>
           </publicationStmt>
         </biblFull>
         <msDesc>
@@ -37,7 +36,8 @@
             <country>Suisse</country>
             <settlement>Genève</settlement>
             <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"/>
-                                    </repository>
+            </repository>
+            <collection>Colección Varios</collection>
             <idno type="cote"/>
             <idno type="DOI">10.5281/zenodo.6576081</idno>
             <altIdentifier>
@@ -45,10 +45,14 @@
             </altIdentifier>
           </msIdentifier>
           <msContents>
-            <summary/>
+            <summary>Dos canciones</summary>
             <msItem>
-              <locus/>
-              <title/>
+              <locus>1-4</locus>
+              <title>Trobos nuevos</title>
+            </msItem>
+            <msItem>
+              <locus>4</locus>
+              <title>Mandamientos.</title>
             </msItem>
           </msContents>
           <physDesc>
@@ -89,18 +93,17 @@
     </fileDesc>
     <encodingDesc>
       <projectDesc>
-        <p>Este archivo fue creado en el marco del proyecto Desenrollando el
-                              Cordel/Démêler le cordel/Untangling the cordel, dirigido por la
-                              profesora Constance Carta de la Universidad de Ginebra, con el apoyo
-                              de la Fundación filantrópica Famille Sandoz-Monique de Meuron.</p>
+        <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+          cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la Universidad
+          de Ginebra, con el apoyo de la Fundación filantrópica Famille Sandoz-Monique de
+          Meuron.</p>
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR non corregido</p>
+          <p>OCR no corregido</p>
         </correction>
         <normalization>
-          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto
-                                    original.</p>
+          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
         </normalization>
         <punctuation>
           <p>Se conserva la puntuación original.</p>
@@ -121,10 +124,14 @@
       </textClass>
     </profileDesc>
     <revisionDesc>
-      <change when="2022-07-27" who="#PJ">Création du fichier TEI P5 et encodage du
-                        corps du texte</change>
+      <change when="2022-07-27" who="#PJ">Création du fichier TEI P5 et encodage du corps du
+        texte</change>
+      <change when="2024-01-09" who="#EL">Add the IIIF links</change>
     </revisionDesc>
   </teiHeader>
+  <facsimile>
+    <graphic url="varios/Varios_101_1.jpg/full/200,/0/default.jpg"/>
+  </facsimile>
   <sourceDoc xml:id="automaticTranscription">
     <surface xml:id="Varios_101_1" type="page" cert="silver">
       <graphic url="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_101_1/full/full/0/default.jpg"/>
@@ -1279,8 +1286,7 @@
       <zone xml:id="Varios_101_4_BT228_7" n="7" type="MarginTextZone" subtype="colophon" points="494,2456 492,2546 1955,2523 1966,2456 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_101_4/492,2456,1474,90/full/0/default" corresp="MarginTextZone:colophon">
         <zone xml:id="Varios_101_4_BT228_7_LT83_1" type="DefaultLine" subtype="none" points="528,2508 523,2455 1910,2447 1917,2503 1915,2712 1052,2702 1052,2702 1052,2702 981,2687 951,2682 936,2687 898,2700 898,2700 895,2700 895,2700 893,2700 893,2700 893,2700 890,2700 890,2700 890,2700 888,2700 888,2700 888,2697 875,2685 865,2677 528,2677 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_101_4/523,2447,1394,265/full/0/default" corresp="DefaultLine">
           <path xml:id="Varios_101_4_BT228_7_LT83_1_1" points="529,2510 1918,2505 "/>
-          <line>Barcelona: En casa Juan Llorens, calle de la Palma de sta.
-                                    Catali.ª</line>
+          <line>Barcelona: En casa Juan Llorens, calle de la Palma de sta. Catali.ª</line>
         </zone>
       </zone>
     </surface>
@@ -1288,332 +1294,352 @@
   <text>
     <body>
       <div>
-        <pb n="1" source="Varios_101_1.jpg" facs="fedora_Varios_101_1/full/full/0/default.jpg"/>
         <div>
-          <head type="primer_titulo"><lb/>TROBOS NUEVOS.</head>
-          <p><lb/>I.</p>
-          <lg>
-            <l>Adios luna de la noche;</l>
-            <l>adios sol de medio dia,</l>
-            <l>adios clavel encarnado</l>
-            <l>y clavellina florida.</l>
-            <l>¡De que me sirve decir</l>
-            <l>que te quiero prenda mia,</l>
-            <l>si otro tu puerta ronda</l>
-            <l>y va diciendo por la villa</l>
-            <l>adios luna de la noche.</l>
-            <l>Ya no hallarás en el mundo</l>
-            <l>quien de tí haga mas caso,</l>
-            <l>yo te quiero prenda mia</l>
-            <l>y seré tu enamorado,</l>
-            <l>adios sol de medio dia.</l>
-            <l>Aquí me tienes clavado;</l>
-            <l>aquí me tienes rendido,</l>
-            <l>aquí estoy spultado,</l>
-            <l>dulcísimo dueño mio</l>
-            <l>adios clavel encarnado.</l>
-            <l>Eres dama de las damas</l>
-            <l>y como el sol resplandeces,</l>
-            <l>eres un siempre viva</l>
-            <l>que suben por las paredes</l>
-            <l>y clavellina florida.</l>
-            <l>Dime, dime amante fino,</l>
-          </lg>
-          <p><lb/>II.</p>
-          <lg>
-            <l>por Dios dime si me quieres,</l>
-            <l>no me hagas penar mas,</l>
-            <l>salero aquí me tienes.</l>
-            <l>Cuando voy á mi retiro</l>
-            <l>te hago saber amante</l>
-            <l>por la ventana me miro</l>
-            <l>y quisiera preguntarle</l>
-            <l>dime, dime amante fino.</l>
-            <l>Yo escribo por las paredes</l>
-            <pb n="2" source="Varios_101_2.jpg" facs="fedora_Varios_101_2/full/full/0/default.jpg"/>
-            <l>tu retrato criatura</l>
-            <l>porque no hallo papeles</l>
-            <l>para escribir tu hermosura</l>
-            <l>por Dios díme si me quieres.</l>
-            <l>Ya me han dicho que tu vas</l>
-            <l>á cortejar otra dama</l>
-            <l>dímelo delante, no atrás</l>
-            <l>estaré desengañada</l>
-            <l>no me hagas penar mas.</l>
-            <l>Tengo una cara bonita</l>
-            <l>y un cuerpo sin arrugas,</l>
-            <l>y se rinde á tus quereres</l>
-            <l>y por prenda mas sugura</l>
-            <l>salero aquí me tienes.</l>
-            <l>Cuando va un amante fino;</l>
-            <l>á cortejar una dama,</l>
-            <l>de los pies á la cabeza,</l>
-            <l>lo primero es el mirarla.</l>
-          </lg>
-          <p><lb/>III.</p>
-          <lg>
-            <l>Sabes que jamás te olvido</l>
-            <l>prenda de mi córazon,</l>
-            <l>y siempre he de estar contigo</l>
-            <l>con muchísima razon</l>
-            <l>cuando va un amante fino.</l>
-            <l>A este mancebo en la plaza</l>
-            <l>yo le pregunté al momento,</l>
-            <l>¿ á dónde vas con tanta calma</l>
-            <l>y me respondió diciendo</l>
-            <l>á cortejar una dama.</l>
-            <l>Se le mira el andar</l>
-            <l>el cuerpo y su cintura</l>
-            <l>luego dice con presteza,</l>
-            <l>falta no hallo ninguna</l>
-            <l>de los pies á la cabeza.</l>
-            <l>Si te has de casar con ella</l>
-            <l>registra libros y leyes,</l>
-            <l>porque despues tú con rabia</l>
-            <l>te darás á las paredes,</l>
-            <l>lo primero es el mirarla.</l>
-          </lg>
-          <p><lb/>IV.</p>
-          <lg>
-            <l>Si te has de casar amante;</l>
-            <l>ha de ser sin mas tardar,</l>
-            <l>que los casamientos largos,</l>
-            <l>todos se suelen dejar,</l>
-            <l>Has de hacer que no sepa</l>
-            <l>hasta que el cura lo diga,</l>
-            <l>y otró no venga á hablarte:</l>
-            <l>mas no te crees mentiras</l>
-            <l>si te has de casar amante.</l>
-            <l>Estoy confusa rendida</l>
-            <l>yo de hacer tantos papeles,</l>
-            <l>yo me canso de aguardar</l>
-            <l>y si esa intencion tienes</l>
-            <l>ha de ser sin mas tardar.</l>
-            <l>Con licencia de la Virgen</l>
-            <l>y de aquel divino Dios,</l>
-            <l>que si pasamos trabajos</l>
-            <l>los pasaremos los dos</l>
-            <l>que los casamientos largos.</l>
-            <l>Esta es la verdad señores,</l>
-            <l>que estamos en todos tiempos,</l>
-            <l>la gente se pone á hablar</l>
-            <l>y á poner dos mil enredos</l>
-            <l>todos se suelen dejar.</l>
-          </lg>
-          <p><lb/>V.</p>
-          <lg>
-            <l>¡O cuando será aquel dia!</l>
-            <l>que juntaremos la ropa</l>
-            <l>toda la tuya y la mia</l>
-            <l>en una arca preciosa.</l>
-            <l>Ojalá Dios lo permita</l>
-            <l>y aquella Vírgen preciosa</l>
-            <l>que el padre cura me diga</l>
-            <l>si te quiero por esposa :</l>
-            <l>¡ó cuando será aquel dia!</l>
-            <l>Dia me parece ahora</l>
-            <l>de hacer este casamiento,</l>
-            <l>pues ya no quiero mas gloria</l>
-            <l>que lograr lo que deseo</l>
-            <l>que juntaremos la ropa.</l>
-            <l>Estoy esperando el dia</l>
-            <l>y lo pretendo alcanzar</l>
-            <l>yo lo pretendo juntar,</l>
-            <l>toda la tuya y la mia.</l>
-            <l>Eres muger generosa</l>
-            <l>yo soy un hombre igual</l>
-            <l>no quiero clavel ni rosa</l>
-            <l>sin poderlo igualar</l>
-            <l>en una arca preciosa.</l>
-          </lg>
-          <pb n="3" source="Varios_101_3.jpg" facs="fedora_Varios_101_3/full/full/0/default.jpg"/>
-          <p><lb/>VI.</p>
-          <lg>
-            <l>Mozo si has de cortejar,</l>
-            <l>has de ser guapo y valiente</l>
-            <l>y cortejar una dama,</l>
-            <l>que diga á el sol detente.</l>
-            <l>Te has de saber gobernar</l>
-            <l>y no lo espliques á nadie</l>
-            <l>sino te la quitarán</l>
-            <l>en el medio de la calle;</l>
-            <l>mozo si has de cortejar.</l>
-            <l>Siempre te has de hallar presente</l>
-            <l>y has de estar con vigilancia,</l>
-            <l>y luego severamente</l>
-            <l>á la puerta de la dama</l>
-            <l>has de ser guapo y valiente.</l>
-            <l>Siempre has de andar con calma</l>
-            <l>siempre los ojos arriba</l>
-            <l>si la ves en la ventana,</l>
-            <l>¿qué haces ay! señorita?</l>
-            <l>y cortejar una dama.</l>
-            <l>Tiene la cara bonita</l>
-            <l>esta hermosa señora,</l>
-            <l>y una estrella en su frente</l>
-            <l>al vuelo de esta paloma</l>
-            <l>que dice á el sol, detente.</l>
-          </lg>
-          <p><lb/>VII.</p>
-          <lg>
-            <l>Déjate estar de mugeres;</l>
-            <l>mas te vale ser soldado</l>
-            <l>comer pan de municion,</l>
-            <l>que no casarte este año.</l>
-            <l>He visto varios papeles,</l>
-            <l>los he oido leer,</l>
-            <l>ni lo dudes, ni lo niegues,</l>
-            <l>y si me quieres creer,</l>
-            <l>déjate estar de mugeres.</l>
-            <l>No pretendes ser casado</l>
-            <l>ni por cuanto vale un siglo,</l>
-            <l>porque te verás turbado,</l>
-            <l>y para no mantener hijos</l>
-            <l>mas te vale ser soldado.</l>
-            <l>Para esplicar la cancion</l>
-            <l>silencio pido este rato,</l>
-            <l>y me sobre la razon</l>
-            <l>si el pan blanco va caro,</l>
-            <l>comer pan de municion.</l>
-            <l>Mas te valdria comer</l>
-            <l>pan de mijo y de cebada,</l>
-            <l>ir arrastrando por el campo</l>
-            <l>y á beber agua de balsa</l>
-            <l>que no casarte este año.</l>
-          </lg>
-          <p><lb/>VIII.</p>
-          <lg>
-            <l>El que encuentra suegro ó suegra</l>
-            <l>cuando herederá una casa,</l>
-            <l>siempre de noche ó de dia</l>
-            <l>armarán su zaragata.</l>
-            <l>Por la mañana á la huerta</l>
-            <l>trabajará con cuidado,</l>
-            <l>y á la noche por la cena</l>
-            <l>le prevendrán con un palo</l>
-            <l>el que encuentra suegro ó suegra.</l>
-            <l>Todo el dia con la ajada</l>
-            <l>este pobre pasa frio,</l>
-            <l>y en el verano se asa</l>
-            <l>de calor el pobrecillo</l>
-            <l>cuando heredará una casa.</l>
-            <l>Cuando este muchacho iba</l>
-            <l>á cortejar esta dama,</l>
-            <l>su suegra como es fingida</l>
-            <l>con palabras la engañaba</l>
-            <l>siempre de noche ó de dia.</l>
-            <l>La comida le dan mala</l>
-            <l>y este pobre que trabaje,</l>
-            <l>y un plato de calabaza</l>
-            <l>y sin beber por la tarde</l>
-            <l>armarán su zaragata.</l>
-          </lg>
-          <p><lb/>IX.</p>
-          <lg>
-            <l>Amante fino seré,</l>
-            <l>seré tu amor verdadero:</l>
-            <l>primero me moriré</l>
-            <l>que olvidarte ángel bello.</l>
-            <l>Dama no te dejaré</l>
-            <l>si tu palabra me das,</l>
-            <l>á mi pecho advertiré</l>
-            <l>para que no vuelva atrás,</l>
-            <l>amante fino seré.</l>
-            <l>Olvidarte nunca puedo</l>
-            <l>aunque yo me vaya á Roma,</l>
-            <l>sabes que yo te venero</l>
-            <pb n="4" source="Varios_101_4.jpg" facs="fedora_Varios_101_4/full/full/0/default.jpg"/>
-            <l>ojos de blanca paloma</l>
-            <l>seré tu amor verdadero.</l>
-            <l>A lejanas tierras me iré</l>
-            <l>si tú quieres venir niña,</l>
-            <l>padre y madre dejaré</l>
-            <l>pero no á tí prenda mia,</l>
-            <l>primero me moriré.</l>
-            <l>Tu eres el sol que venero</l>
-            <l>prenda del alma querida</l>
-            <l>aunque me corten el cuello</l>
-            <l>mas quiero perder la vida</l>
-            <l>que olvidarte ángel bello.</l>
-          </lg>
+          <div n="1">
+            <pb n="1" source="Varios_101_1.jpg" facs="varios/Varios_101_1.jpg/"/>
+
+            <head type="primer_titulo" rend="negrita"><lb/>TROBOS NUEVOS.</head>
+
+            <lg>
+              <head type="titulo_estrofa"><lb/>I.</head>
+              <l rend="indent">Adios luna de la noche;</l>
+              <l>adios sol de medio dia,</l>
+              <l>adios clavel encarnado</l>
+              <l>y clavellina florida.</l>
+              <l>¡De que me sirve decir</l>
+              <l>que te quiero prenda mia,</l>
+              <l>si otro tu puerta ronda</l>
+              <l>y va diciendo por la villa</l>
+              <l>adios luna de la noche.</l>
+              <l rend="indent">Ya no hallarás en el mundo</l>
+              <l>quien de tí haga mas caso,</l>
+              <l>yo te quiero prenda mia</l>
+              <l>y seré tu enamorado,</l>
+              <l>adios sol de medio dia.</l>
+              <l rend="indent">Aquí me tienes clavado;</l>
+              <l>aquí me tienes rendido,</l>
+              <l>aquí estoy spultado,</l>
+              <l>dulcísimo dueño mio</l>
+              <l>adios clavel encarnado.</l>
+              <l rend="indent">Eres dama de las damas</l>
+              <l>y como el sol resplandeces,</l>
+              <l>eres un siempre viva</l>
+              <l>que suben por las paredes</l>
+              <l>y clavellina florida.</l>
+            </lg>
+
+            <lg>
+              <head type="titulo_estrofa"><lb/>II.</head>
+              <l rend="indent">Dime, dime amante fino,</l>
+              <l>por Dios dime si me quieres,</l>
+              <l>no me hagas penar mas,</l>
+              <l>salero aquí me tienes.</l>
+              <l rend="indent">Cuando voy á mi retiro</l>
+              <l>te hago saber amante</l>
+              <l>por la ventana me miro</l>
+              <l>y quisiera preguntarle</l>
+              <l>dime, dime amante fino.</l>
+              <l rend="indent">Yo escribo por las paredes</l>
+
+              <pb n="2" source="Varios_101_2.jpg" facs="varios/Varios_101_2.jpg/"/>
+
+              <l>tu retrato criatura</l>
+              <l>porque no hallo papeles</l>
+              <l>para escribir tu hermosura</l>
+              <l>por Dios díme si me quieres.</l>
+              <l rend="indent">Ya me han dicho que tu vas</l>
+              <l>á cortejar otra dama</l>
+              <l>dímelo delante, no atrás</l>
+              <l>estaré desengañada</l>
+              <l>no me hagas penar mas.</l>
+              <l rend="indent">Tengo una cara bonita</l>
+              <l>y un cuerpo sin arrugas,</l>
+              <l>y se rinde á tus quereres</l>
+              <l>y por prenda mas sugura</l>
+              <l>salero aquí me tienes.</l>
+              <l rend="indent">Cuando va un amante fino;</l>
+              <l>á cortejar una dama,</l>
+              <l>de los pies á la cabeza,</l>
+              <l>lo primero es el mirarla.</l>
+            </lg>
+
+            <lg>
+              <head type="titulo_estrofa"><lb/>III.</head>
+              <l rend="indent">Sabes que jamás te olvido</l>
+              <l>prenda de mi córazon,</l>
+              <l>y siempre he de estar contigo</l>
+              <l>con muchísima razon</l>
+              <l>cuando va un amante fino.</l>
+              <l rend="indent">A este mancebo en la plaza</l>
+              <l>yo le pregunté al momento,</l>
+              <l>¿ á dónde vas con tanta calma</l>
+              <l>y me respondió diciendo</l>
+              <l>á cortejar una dama.</l>
+              <l rend="indent">Se le mira el andar</l>
+              <l>el cuerpo y su cintura</l>
+              <l>luego dice con presteza,</l>
+              <l>falta no hallo ninguna</l>
+              <l>de los pies á la cabeza.</l>
+              <l rend="indent">Si te has de casar con ella</l>
+              <l>registra libros y leyes,</l>
+              <l>porque despues tú con rabia</l>
+              <l>te darás á las paredes,</l>
+              <l>lo primero es el mirarla.</l>
+            </lg>
+
+            <lg>
+              <head type="titulo_estrofa"><lb/>IV.</head>
+              <l rend="indent">Si te has de casar amante;</l>
+              <l>ha de ser sin mas tardar,</l>
+              <l>que los casamientos largos,</l>
+              <l>todos se suelen dejar,</l>
+              <l rend="indent">Has de hacer que no sepa</l>
+              <l>hasta que el cura lo diga,</l>
+              <l>y otró no venga á hablarte:</l>
+              <l>mas no te crees mentiras</l>
+              <l>si te has de casar amante.</l>
+              <l rend="indent">Estoy confusa rendida</l>
+              <l>yo de hacer tantos papeles,</l>
+              <l>yo me canso de aguardar</l>
+              <l>y si esa intencion tienes</l>
+              <l>ha de ser sin mas tardar.</l>
+              <l rend="indent">Con licencia de la Virgen</l>
+              <l>y de aquel divino Dios,</l>
+              <l>que si pasamos trabajos</l>
+              <l>los pasaremos los dos</l>
+              <l>que los casamientos largos.</l>
+              <l rend="indent">Esta es la verdad señores,</l>
+              <l>que estamos en todos tiempos,</l>
+              <l>la gente se pone á hablar</l>
+              <l>y á poner dos mil enredos</l>
+              <l>todos se suelen dejar.</l>
+            </lg>
+
+            <lg>
+              <head type="titulo_estrofa"><lb/>V.</head>
+              <l rend="indent">¡O cuando será aquel dia!</l>
+              <l>que juntaremos la ropa</l>
+              <l>toda la tuya y la mia</l>
+              <l>en una arca preciosa.</l>
+              <l rend="indent">Ojalá Dios lo permita</l>
+              <l>y aquella Vírgen preciosa</l>
+              <l>que el padre cura me diga</l>
+              <l>si te quiero por esposa :</l>
+              <l>¡ó cuando será aquel dia!</l>
+              <l rend="indent">Dia me parece ahora</l>
+              <l>de hacer este casamiento,</l>
+              <l>pues ya no quiero mas gloria</l>
+              <l>que lograr lo que deseo</l>
+              <l>que juntaremos la ropa.</l>
+              <l rend="indent">Estoy esperando el dia</l>
+              <l>y lo pretendo alcanzar</l>
+              <l>yo lo pretendo juntar,</l>
+              <l>toda la tuya y la mia.</l>
+              <l rend="indent">Eres muger generosa</l>
+              <l>yo soy un hombre igual</l>
+              <l>no quiero clavel ni rosa</l>
+              <l>sin poderlo igualar</l>
+              <l>en una arca preciosa.</l>
+            </lg>
+
+            <pb n="3" source="Varios_101_3.jpg" facs="varios/Varios_101_3.jpg/"/>
+
+            <lg>
+              <head type="titulo_estrofa"><lb/>VI.</head>
+              <l rend="indent">Mozo si has de cortejar,</l>
+              <l>has de ser guapo y valiente</l>
+              <l>y cortejar una dama,</l>
+              <l>que diga á el sol detente.</l>
+              <l rend="indent">Te has de saber gobernar</l>
+              <l>y no lo espliques á nadie</l>
+              <l>sino te la quitarán</l>
+              <l>en el medio de la calle;</l>
+              <l>mozo si has de cortejar.</l>
+              <l rend="indent">Siempre te has de hallar presente</l>
+              <l>y has de estar con vigilancia,</l>
+              <l>y luego severamente</l>
+              <l>á la puerta de la dama</l>
+              <l>has de ser guapo y valiente.</l>
+              <l rend="indent">Siempre has de andar con calma</l>
+              <l>siempre los ojos arriba</l>
+              <l>si la ves en la ventana,</l>
+              <l>¿qué haces ay! señorita?</l>
+              <l>y cortejar una dama.</l>
+              <l rend="indent">Tiene la cara bonita</l>
+              <l>esta hermosa señora,</l>
+              <l>y una estrella en su frente</l>
+              <l>al vuelo de esta paloma</l>
+              <l>que dice á el sol, detente.</l>
+            </lg>
+
+            <lg>
+              <head type="titulo_estrofa"><lb/>VII.</head>
+              <l rend="indent">Déjate estar de mugeres;</l>
+              <l>mas te vale ser soldado</l>
+              <l>comer pan de municion,</l>
+              <l>que no casarte este año.</l>
+              <l rend="indent">He visto varios papeles,</l>
+              <l>los he oido leer,</l>
+              <l>ni lo dudes, ni lo niegues,</l>
+              <l>y si me quieres creer,</l>
+              <l>déjate estar de mugeres.</l>
+              <l rend="indent">No pretendes ser casado</l>
+              <l>ni por cuanto vale un siglo,</l>
+              <l>porque te verás turbado,</l>
+              <l>y para no mantener hijos</l>
+              <l>mas te vale ser soldado.</l>
+              <l rend="indent">Para esplicar la cancion</l>
+              <l>silencio pido este rato,</l>
+              <l>y me sobre la razon</l>
+              <l>si el pan blanco va caro,</l>
+              <l>comer pan de municion.</l>
+              <l rend="indent">Mas te valdria comer</l>
+              <l>pan de mijo y de cebada,</l>
+              <l>ir arrastrando por el campo</l>
+              <l>y á beber agua de balsa</l>
+              <l>que no casarte este año.</l>
+            </lg>
+
+            <lg>
+              <head type="titulo_estrofa"><lb/>VIII.</head>
+              <l rend="indent">El que encuentra suegro ó suegra</l>
+              <l>cuando herederá una casa,</l>
+              <l>siempre de noche ó de dia</l>
+              <l>armarán su zaragata.</l>
+              <l rend="indent">Por la mañana á la huerta</l>
+              <l>trabajará con cuidado,</l>
+              <l>y á la noche por la cena</l>
+              <l>le prevendrán con un palo</l>
+              <l>el que encuentra suegro ó suegra.</l>
+              <l rend="indent">Todo el dia con la ajada</l>
+              <l>este pobre pasa frio,</l>
+              <l>y en el verano se asa</l>
+              <l>de calor el pobrecillo</l>
+              <l>cuando heredará una casa.</l>
+              <l rend="indent">Cuando este muchacho iba</l>
+              <l>á cortejar esta dama,</l>
+              <l>su suegra como es fingida</l>
+              <l>con palabras la engañaba</l>
+              <l>siempre de noche ó de dia.</l>
+              <l rend="indent">La comida le dan mala</l>
+              <l>y este pobre que trabaje,</l>
+              <l>y un plato de calabaza</l>
+              <l>y sin beber por la tarde</l>
+              <l>armarán su zaragata.</l>
+            </lg>
+
+            <lg>
+              <head type="titulo_estrofa"><lb/>IX.</head>
+              <l rend="indent">Amante fino seré,</l>
+              <l>seré tu amor verdadero:</l>
+              <l>primero me moriré</l>
+              <l>que olvidarte ángel bello.</l>
+              <l rend="indent">Dama no te dejaré</l>
+              <l>si tu palabra me das,</l>
+              <l>á mi pecho advertiré</l>
+              <l>para que no vuelva atrás,</l>
+              <l>amante fino seré.</l>
+              <l rend="indent">Olvidarte nunca puedo</l>
+              <l>aunque yo me vaya á Roma,</l>
+              <l>sabes que yo te venero</l>
+
+              <pb n="4" source="Varios_101_4.jpg" facs="varios/Varios_101_4.jpg/"/>
+
+              <l>ojos de blanca paloma</l>
+              <l>seré tu amor verdadero.</l>
+              <l rend="indent">A lejanas tierras me iré</l>
+              <l>si tú quieres venir niña,</l>
+              <l>padre y madre dejaré</l>
+              <l>pero no á tí prenda mia,</l>
+              <l>primero me moriré.</l>
+              <l rend="indent">Tu eres el sol que venero</l>
+              <l>prenda del alma querida</l>
+              <l>aunque me corten el cuello</l>
+              <l>mas quiero perder la vida</l>
+              <l>que olvidarte ángel bello.</l>
+            </lg>
+          </div>
+
+          <div n="2">
+            <head type="titulo_cancion" rend="negrita"><lb/>MANDAMIENTOS.</head>
+
+            <lg>
+              <l rend="indent">Señora los mandamientos</l>
+              <l>aquí los voy á cantar</l>
+              <l>si los quieres aprender</l>
+              <l>bien me puedes escuchar.</l>
+            </lg>
+            <lg>
+              <l rend="indent">1°. En el primero es amar</l>
+              <l>un solo Dios verdadero</l>
+              <l>mas que á mi vida te quiero,</l>
+              <l>y en eso no hay que dudar.</l>
+            </lg>
+            <lg>
+              <l rend="indent">2°. En el segundo he jurado</l>
+              <l>tuyo ser y no mas,</l>
+              <l>ynó volveré atrás</l>
+              <l>hasta que duerme á tu lado.</l>
+            </lg>
+            <lg>
+              <l rend="indent">3°. El tercero en la Misa</l>
+              <l>nunca estoy con atencion</l>
+              <l>siempre estoy pensando en tí</l>
+              <l>prenda de mi corazon.</l>
+            </lg>
+            <lg>
+              <l rend="indent">4°. En el cuarto he perdido</l>
+              <l>á mis padres el respeto</l>
+              <l>solo por hablarte á tí</l>
+              <l>en público y en secreto.</l>
+            </lg>
+            <lg>
+              <l rend="indent">5.° En el quinto no he muerto</l>
+              <l>á ninguno vida mia</l>
+              <l>si otro galan te gozára</l>
+              <l>yo no se lo que haría.</l>
+            </lg>
+            <lg>
+              <l rend="indent">6°. El secsto no he gozado</l>
+              <l>mujer en toda mi vida,</l>
+              <l>viviré con castedad</l>
+              <l>hasta que tú serás mia.</l>
+            </lg>
+            <lg>
+              <l rend="indent">7°. El séptimo que es hurtar</l>
+              <l>no he hurtado nada á nadie</l>
+              <l>solo por venirte á ver</l>
+              <l>alguna vez á mis padres.</l>
+            </lg>
+            <lg>
+              <l rend="indent">8°. El octavo no he quitado</l>
+              <l>falso testigo á ninguno</l>
+              <l>como mé quitan á mí</l>
+              <l>por ponerme mal contigo.</l>
+            </lg>
+            <lg>
+              <l rend="indent">9°. En el nono no he deseado</l>
+              <l>muger en toda mi vida</l>
+              <l>solo te deseo á tí,</l>
+              <l>dueña del alma querida.</l>
+            </lg>
+            <lg>
+              <l rend="indent">10.° El décimo no he deseado</l>
+              <l>á ninguno yo los bienes</l>
+              <l>no hay bienes en el mundo</l>
+              <l>mejores que los que tienes.</l>
+              <l rend="indent">Señora esos mandamientos</l>
+              <l>son compuestos por amar</l>
+              <l>aunque me cueste la vida</l>
+              <l>contigo me he de casar.</l>
+            </lg>
+
+            <trailer>FIN.</trailer>
+          </div>
         </div>
-        <div type="cancion" n="2">
-          <head type="titulo_cancion"><lb/>MANDAMIENTOS.</head>
-          <lg>
-            <l>Señora los mandamientos</l>
-            <l>aquí los voy á cantar</l>
-            <l>si los quieres aprender</l>
-            <l>bien me puedes escuchar.</l>
-          </lg>
-          <lg>
-            <l>1°. En el primero es amar</l>
-            <l>un solo Dios verdadero</l>
-            <l>mas que á mi vida te quiero,</l>
-            <l>y en eso no hay que dudar.</l>
-          </lg>
-          <lg>
-            <l>2°. En el segundo he jurado</l>
-            <l>tuyo ser y no mas,</l>
-            <l>ynó volveré atrás</l>
-            <l>hasta que duerme á tu lado.</l>
-          </lg>
-          <lg>
-            <l>3°. El tercero en la Misa</l>
-            <l>nunca estoy con atencion</l>
-            <l>siempre estoy pensando en tí</l>
-            <l>prenda de mi corazon.</l>
-          </lg>
-          <lg>
-            <l>4°. En el cuarto he perdido</l>
-            <l>á mis padres el respeto</l>
-            <l>solo por hablarte á tí</l>
-            <l>en público y en secreto.</l>
-          </lg>
-          <lg>
-            <l>5.° En el quinto no he muerto</l>
-            <l>á ninguno vida mia</l>
-            <l>si otro galan te gozára</l>
-            <l>yo no se lo que haría.</l>
-          </lg>
-          <lg>
-            <l>6°. El secsto no he gozado</l>
-            <l>mujer en toda mi vida,</l>
-            <l>viviré con castedad</l>
-            <l>hasta que tú serás mia.</l>
-          </lg>
-          <lg>
-            <l>7°. El séptimo que es hurtar</l>
-            <l>no he hurtado nada á nadie</l>
-            <l>solo por venirte á ver</l>
-            <l>alguna vez á mis padres.</l>
-          </lg>
-          <lg>
-            <l>8°. El octavo no he quitado</l>
-            <l>falso testigo á ninguno</l>
-            <l>como mé quitan á mí</l>
-            <l>por ponerme mal contigo.</l>
-          </lg>
-          <lg>
-            <l>9°. En el nono no he deseado</l>
-            <l>muger en toda mi vida</l>
-            <l>solo te deseo á tí,</l>
-            <l>dueña del alma querida.</l>
-          </lg>
-          <lg>
-            <l>10.° El décimo no he deseado</l>
-            <l>á ninguno yo los bienes</l>
-            <l>no hay bienes en el mundo</l>
-            <l>mejores que los que tienes.</l>
-            <l>Señora esos mandamientos</l>
-            <l>son compuestos por amar</l>
-            <l>aunque me cueste la vida</l>
-            <l>contigo me he de casar.</l>
-          </lg>
-          <trailer>FIN.</trailer>
-        </div>
+        
         <div type="colofon">
-          <p><lb/>Barcelona: En casa Juan Llorens, calle de la Palma de sta.
-                                    Catali.ª</p>
+          <p><lb/>Barcelona: En casa Juan Llorens, calle de la Palma de sta. Catali.ª</p>
         </div>
       </div>
     </body>

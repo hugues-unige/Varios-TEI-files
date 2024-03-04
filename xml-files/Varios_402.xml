@@ -27,9 +27,9 @@
             <p/>
           </editionStmt>
           <publicationStmt>
-            <publisher>Imprenta y librería de Juan Grau</publisher>
+            <publisher>Juan Grau</publisher>
             <pubPlace ref="https://www.geonames.org/3111933/reus.html">Reus</pubPlace>
-            <date cert="high">[s.a]</date>
+            <date cert="low" when="1800-01-01">[s.a.]</date>
           </publicationStmt>
         </biblFull>
         <msDesc>
@@ -38,6 +38,7 @@
             <settlement>Genève</settlement>
             <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"/>
                   </repository>
+            <collection>Colección Varios</collection>
             <idno type="cote"/>
             <idno type="DOI">10.5281/zenodo.6787622</idno>
             <altIdentifier>
@@ -66,7 +67,7 @@
               </layoutDesc>
             </objectDesc>
             <decoDesc>
-              <summary n="1">Uno grabado (p.1)</summary>
+              <summary n="1">Un grabado (p.1)</summary>
               <decoNote type="lista_grabados">
                 <list>
                   <item corresp="grabado_v_402_1.xml">grabado_v_402_1</item>
@@ -98,7 +99,7 @@
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR non corregido</p>
+          <p>OCR no corregido</p>
         </correction>
         <normalization>
           <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto
@@ -125,9 +126,10 @@
     <revisionDesc>
       <change when="2023-12-20" who="#PJ">Création du fichier TEI P5 et encodage du corps du
                         texte</change>
+<change when="2024-01-09" who="#EL">Add the IIIF links</change>
     </revisionDesc>
   </teiHeader>
-  <sourceDoc xml:id="automaticTranscription">
+  <facsimile><graphic url="varios/Varios_402_1.jpg/full/200,/0/default.jpg"/></facsimile><sourceDoc xml:id="automaticTranscription">
     <surface xml:id="Varios_402_1" type="page" cert="silver">
       <graphic url="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_402_1/full/full/0/default.jpg"/>
       <zone xml:id="Varios_402_1_BT223_1" n="1" type="CustomZone" subtype="title" points="1676,1436 1676,1990 82,1990 82,1436 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_402_1/82.0,1436.0,1594.0,554.0/full/0/default" corresp="CustomZone:title">
@@ -1415,7 +1417,7 @@
   <text>
     <body>
       <div>
-        <pb n="1" source="Varios_402_1.jpg" facs="fedora_Varios_402_1/full/full/0/default.jpg"/>
+        <pb n="1" source="Varios_402_1.jpg" facs="varios/Varios_402_1.jpg/"/>
         <div type="parte" n="1">
           <head type="primer_titulo"><lb/>HISTORIA INTERESÁN<lb/>DE UN<lb/>GRANDIÓS ELEFÁN</head>
           <head type="subtitulo_parte"><lb/>AB TOTAS LAS ASSANVAS QUE VA PASSÁ<lb/>DESDE SON NAIEMENT HASTA «L PRESENT ANY</head>
@@ -1441,7 +1443,7 @@
             <l>Las aurellas... que 't diré:</l>
             <l>es dir, las de 'ls elefans</l>
           </lg>
-          <pb n="2" source="Varios_402_2.jpg" facs="fedora_Varios_402_2/full/full/0/default.jpg"/>
+          <pb n="2" source="Varios_402_2.jpg" facs="varios/Varios_402_2.jpg/"/>
           <lg>
             <l>no son de bon tros tan grans</l>
             <l>las ventallas de un barbé.</l>
@@ -1544,7 +1546,7 @@
             <l>allì aurian vist rahons,</l>
             <l>y tot cristo contre de ell.</l>
           </lg>
-          <pb n="3" source="Varios_402_3.jpg" facs="fedora_Varios_402_3/full/full/0/default.jpg"/>
+          <pb n="3" source="Varios_402_3.jpg" facs="varios/Varios_402_3.jpg/"/>
           <lg>
             <l>Ell ab la trompa arbolada</l>
             <l>ya me 'ls comensa é empaitá,</l>
@@ -1647,7 +1649,7 @@
             <l>Pero estava un poch borratxo</l>
             <l>perque 'l grandissim ninot</l>
           </lg>
-          <pb n="4" source="Varios_402_4.jpg" facs="fedora_Varios_402_4/full/full/0/default.jpg"/>
+          <pb n="4" source="Varios_402_4.jpg" facs="varios/Varios_402_4.jpg/"/>
           <lg>
             <l>veyentlo ab la trompa y tót</l>
             <l>se va pensá que era un matxo.</l>

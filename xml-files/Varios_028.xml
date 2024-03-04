@@ -1,16 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../Schema/oddPliego_varios.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:alto="http://www.loc.gov/standards/alto/ns-v4#" xml:id="Varios_028">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Varios_028">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>EL CANTOR DE LAS HERMOSAS. TROVAS DE AMOR DEDICADAS AL BELLO SEXO POR UNOS
-               AFICIONADOS.</title>
+        <title>EL CANTOR DE LAS HERMOSAS</title>
         <respStmt>
           <name/>
           <resp>Codificación TEI</resp>
-          <note type="propiedad">J. A. C.</note>
-          <note type="propiedad">M. Z.</note>
         </respStmt>
       </titleStmt>
       <publicationStmt>
@@ -22,17 +19,17 @@
       <sourceDesc>
         <biblFull>
           <titleStmt>
-            <title type="titulo_completo">EL CANTOR DE LAS HERMOSAS. TROVAS DE AMOR DEDICADAS
-                     AL BELLO SEXO POR UNOS AFICIONADOS.</title>
+            <title type="titulo_completo">EL CANTOR DE LAS HERMOSAS. TROVAS DE AMOR DEDICADAS AL
+              BELLO SEXO POR UNOS AFICIONADOS.</title>
             <title type="titulo_breve">EL CANTOR DE LAS HERMOSAS.</title>
           </titleStmt>
           <editionStmt>
             <p/>
           </editionStmt>
           <publicationStmt>
-            <publisher>Imp. de Narciso Ramirez y Comp.ª</publisher>
-            <pubPlace ref="https://www.geonames.org/3128760/barcelona.html">https://www.geonames.org/3128760/barcelona.html</pubPlace>
-            <date cert="high">1876</date>
+            <publisher>Narciso Ramírez</publisher>
+            <pubPlace ref="https://www.geonames.org/3128760/barcelona.html">Barcelona</pubPlace>
+            <date cert="high" when="1876-01-01">1876</date>
           </publicationStmt>
         </biblFull>
         <msDesc>
@@ -40,7 +37,8 @@
             <country>Suisse</country>
             <settlement>Genève</settlement>
             <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"/>
-                  </repository>
+            </repository>
+            <collection>Colección Varios</collection>
             <idno type="cote"/>
             <idno type="DOI">10.5281/zenodo.6546899</idno>
             <altIdentifier>
@@ -48,10 +46,20 @@
             </altIdentifier>
           </msIdentifier>
           <msContents>
-            <summary/>
+            <summary>Tres canciones</summary>
             <msItem>
-              <locus/>
-              <title/>
+              <locus>1-2</locus>
+              <title>La estrella matutina.</title>
+              <author role="letrista">J. A. C.</author>
+            </msItem>
+            <msItem>
+              <locus>3</locus>
+              <title>El pescador.</title>
+            </msItem>
+            <msItem>
+              <locus>4</locus>
+              <title>El lele.</title>
+              <author role="letrista">M. Z.</author>
             </msItem>
           </msContents>
           <physDesc>
@@ -69,7 +77,7 @@
               </layoutDesc>
             </objectDesc>
             <decoDesc>
-              <summary n="1">Uno grabado (p.1) </summary>
+              <summary n="1">Un grabado (p.1) </summary>
               <decoNote type="lista_grabados">
                 <list>
                   <item corresp="grabado_v_028_1.xml">grabado_v_028_1</item>
@@ -80,12 +88,11 @@
           </physDesc>
           <history>
             <origin>
-              <p>Barcelona.—Imp. de Narciso Ramirez y Comp.ª, pasaje de Escudillers, núm.
-                        4.</p>
+              <p>Barcelona.—Imp. de Narciso Ramirez y Comp.ª, pasaje de Escudillers, núm. 4.</p>
             </origin>
             <provenance>
-              <p>Se halla de venta en casa los sucesores de Antonio Bosch, calle del Bou de
-                        la Plaza Nueva, núm. 13.</p>
+              <p>Se halla de venta en casa los sucesores de Antonio Bosch, calle del Bou de la Plaza
+                Nueva, núm. 13.</p>
             </provenance>
             <acquisition/>
           </history>
@@ -95,13 +102,13 @@
     <encodingDesc>
       <projectDesc>
         <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
-               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
-               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
-               Sandoz-Monique de Meuron.</p>
+          cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la Universidad
+          de Ginebra, con el apoyo de la Fundación filantrópica Famille Sandoz-Monique de
+          Meuron.</p>
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR non corregido</p>
+          <p>OCR no corregido</p>
         </correction>
         <normalization>
           <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
@@ -126,10 +133,11 @@
     </profileDesc>
     <revisionDesc>
       <change when="2022-05-07" who="#PJ">Création du fichier TEI P5 et encodage du corps du
-            texte</change>
+        texte</change>
+<change when="2024-01-09" who="#EL">Add the IIIF links</change>
     </revisionDesc>
   </teiHeader>
-  <sourceDoc xml:id="automaticTranscription">
+  <facsimile><graphic url="varios/Varios_028_1.jpg/full/200,/0/default.jpg"/></facsimile><sourceDoc xml:id="automaticTranscription">
     <surface xml:id="Varios_028_1" type="page" cert="silver">
       <graphic url="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_028_1/full/full/0/default.jpg"/>
       <zone xml:id="Varios_028_1_BT223_1" n="1" type="CustomZone" subtype="title" points="178,214 795,219 795,153 791,153 802,82 957,72 1035,74 1056,233 1591,203 1694,259 1694,377 1502,377 1502,431 1129,431 1129,459 1080,459 1080,511 783,514 783,462 358,462 358,403 168,403 167,402 167,281 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_028_1/167,72,1527,442/full/0/default" corresp="CustomZone:title">
@@ -765,13 +773,13 @@
       <zone xml:id="Varios_028_4_BT228_6" n="6" type="MarginTextZone" subtype="colophon" points="342,2325 352,2462 1711,2462 1711,2320 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_028_4/342,2320,1369,142/full/0/default" corresp="MarginTextZone:colophon">
         <zone xml:id="Varios_028_4_BT228_6_LT83_1" type="DefaultLine" subtype="none" points="348,2377 346,2304 418,2324 440,2309 443,2309 445,2309 447,2309 449,2309 508,2331 660,2331 677,2317 679,2317 682,2317 684,2317 862,2326 879,2313 879,2311 881,2311 883,2311 886,2311 951,2324 995,2311 1035,2298 1037,2298 1039,2298 1041,2298 1044,2298 1063,2311 1079,2322 1131,2324 1147,2313 1160,2302 1162,2302 1164,2302 1166,2302 1169,2302 1208,2313 1217,2315 1221,2313 1254,2293 1256,2293 1259,2293 1386,2291 1388,2291 1498,2291 1500,2291 1502,2291 1530,2317 1535,2320 1697,2320 1702,2361 1699,2390 1375,2394 1373,2394 1370,2394 1368,2394 1366,2392 1348,2377 1234,2372 1171,2383 1169,2383 1019,2374 348,2394 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_028_4/346,2291,1356,103/full/0/default" corresp="DefaultLine">
           <path xml:id="Varios_028_4_BT228_6_LT83_1_1" points="350,2379 993,2361 1703,2363 "/>
-          <line>Se halla de venta en casa los sucesores de Antonio Bosch, calle del Bou de la
-                  Plaza Nueva, núm. 13.</line>
+          <line>Se halla de venta en casa los sucesores de Antonio Bosch, calle del Bou de la Plaza
+            Nueva, núm. 13.</line>
         </zone>
         <zone xml:id="Varios_028_4_BT228_6_LT83_2" type="DefaultLine" subtype="none" points="361,2440 357,2409 1684,2385 1691,2416 1693,2440 1669,2451 1666,2451 1664,2451 1618,2442 1574,2434 1526,2444 1487,2453 1484,2453 1482,2453 1458,2447 1427,2438 1397,2449 1375,2455 1373,2455 1370,2455 1368,2455 1351,2449 1327,2440 1291,2451 1265,2458 1263,2458 1083,2462 1081,2462 1024,2460 1022,2460 1019,2460 1017,2458 997,2444 864,2460 862,2460 811,2449 789,2462 785,2466 783,2466 780,2466 780,2469 750,2469 747,2466 745,2466 743,2466 743,2464 741,2464 728,2449 708,2460 706,2460 704,2460 620,2451 605,2462 603,2462 600,2462 598,2462 484,2458 471,2471 469,2471 469,2473 467,2473 464,2473 462,2473 460,2473 456,2471 414,2455 364,2473 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_028_4/357,2385,1336,88/full/0/default" corresp="DefaultLine">
           <path xml:id="Varios_028_4_BT228_6_LT83_2_1" points="361,2440 1691,2416 "/>
           <line>Barcelona.—Imp. de Narciso Ramirez y Comp.ª, pasaje de Escudillers, núm.
-                  4.—1876.</line>
+            4.—1876.</line>
         </zone>
       </zone>
     </surface>
@@ -780,206 +788,246 @@
     <body>
       <div>
         <div>
-          <pb n="1" source="Varios_028_1.jpg" facs="fedora_Varios_028_1/full/full/0/default.jpg"/>
+          <pb n="1" source="Varios_028_1.jpg" facs="varios/Varios_028_1.jpg/"/>
+
           <head type="primer_titulo" rend="negrita"><lb/>EL<lb/>CANTOR DE LAS HERMOSAS.</head>
-          <head type="subtitulo_parte"><lb/>TROVAS DE AMOR DEDICADAS AL BELLO SEXO POR
-                  UNOS<lb/>AFICIONADOS.</head>
-        </div>
-        <div>
-          <head type="titulo_cancion"><lb/>67 LA ESTRELLA MATUTINA.<lb/>ᑕORO PASTORIL.</head>
-          <p><lb/>I.</p>
-          <lg>
-            <l>Cuando en noche serena y tranquila</l>
-            <l>Puebla el aire de imágenes bellas.</l>
-            <l>El rielar de brillantes estrellas</l>
-            <l>Que coronan la bóveda azul;</l>
-          </lg>
-          <pb n="2" source="Varios_028_2.jpg" facs="fedora_Varios_028_2/full/full/0/default.jpg"/>
-          <p><lb/>86</p>
-          <lg>
-            <l>Puro disco de plata en Oriente</l>
-            <l>Una ostenta, mas bella y luciente,</l>
-            <l>Con que eclipsa á millares el brillo</l>
-            <l>Derramando torrentes de luz.</l>
-          </lg>
-          <lg>
-            <l>En tanto al valle acuden</l>
-            <l>Vistiendo ricas galas,</l>
-            <l>Donosas mil zagalas</l>
-            <l>Rebosando candor;</l>
-            <l>Y á la luz precursora</l>
-            <l>De la risueña aurora,</l>
-            <l>Entonan dulces cánticos</l>
-            <l>Del caramillo al son.</l>
-          </lg>
-          <lg>
-            <l>Y allí,BELISA, irradia</l>
-            <l>Fu majestad entre ellas,</l>
-            <l>Cual entre las estrellas</l>
-            <l>El astro matinal;</l>
-            <l>Porque es, ángel del cielo,</l>
-            <l>Tu frente peregrina,</l>
-            <l>La ESTRELLA MATUTINA</l>
-            <l>De mágico rielar.</l>
-          </lg>
-          <lg>
-            <l>II.</l>
-            <l>Al verter desde el limpido Oriente</l>
-            <l>Aquel astro sus puros fulgores,</l>
-            <l>El rocio salpica á las flores</l>
-            <l>De sus perlas que vida les dan:</l>
-            <l>Y entre el fértil ramaje mil aves</l>
-            <l>Le tributan con trinos suaves,</l>
-            <l>Al halago apacible del céfiro,</l>
-            <l>Culto fiel á su luz virginal.</l>
-          </lg>
-          <lg>
-            <l>Y á su esplendor, BELISA,</l>
-            <l>Se miran bulliciosas,</l>
-            <l>Las silfides hermosas</l>
-            <l>De Flora en el vergel,</l>
-            <l>Tejer bellas guirnaldas</l>
-            <l>De rosas y esmeraldas,</l>
-            <l>Con que al nuevo crepúsculo</l>
-            <l>Ornar tu rica sien.</l>
-          </lg>
-          <lg>
-            <l>Yante la faz divina</l>
-            <l>Se humillan todas ellas,</l>
-            <l>Cual fúlgidas estrellas</l>
-            <l>Al astro matinat:</l>
-            <l>Porque es, ángel del cielo</l>
-            <l>Tu frente peregrina,</l>
-            <l>LÁ ESTRELLA MATURINA</l>
-            <l>De mágico rielar.</l>
-          </lg>
-          <p><lb/>J. A. C.</p>
-          <pb n="3" source="Varios_028_3.jpg" facs="fedora_Varios_028_3/full/full/0/default.jpg"/>
-        </div>
-        <div>
-          <head type="titulo_trovo" rend="negrita"><lb/>EL PESCADOR <lb/>TROVAS MARÍTIMAS.</head>
-          <lg>
-            <l>I.</l>
-            <l>Surcando sedal y redes</l>
-            <l>En el veleidoso mar,</l>
-            <l>Entono mis cantinelas</l>
-            <l>De los remos al compás.</l>
-            <l>Vuela, vuela, barca mia,</l>
-            <l>Sin tener ningun revés:</l>
-            <l>Navega mientras el bote</l>
-            <l>Vuela del viento á merced.</l>
-          </lg>
-          <lg>
-            <l>II.</l>
-            <l>El sosiego de los peces</l>
-            <l>Turba mi ronco cantar;</l>
-            <l>Y las mallas de mis redes</l>
-            <l>Les roban la libertad.</l>
-          </lg>
-          <lg>
-            <l>III.</l>
-            <l>Al amanecer la aurora</l>
-            <l>En el húmedo arenal,</l>
-            <l> Vendo el sudor de mi rostro</l>
-            <l>Con el truto de mi atan.</l>
-          </lg>
-          <lg>
-            <l>IV.</l>
-            <l>Mi regreso allá en la playa</l>
-            <l>Viene mi niña á guardar;</l>
-            <l>Y en mis brazos amorosa</l>
-            <l>Besa mi tostada faz.</l>
-            <l>Vuela, etc.</l>
-          </lg>
-          <lg>
-            <l>V.</l>
-            <l>Morenilla de ojos negros</l>
-            <l>Y recogido sayal,</l>
-            <l>Mas hermosa es que el lucero</l>
-            <l>Que vé el alba al despuntar,</l>
-            <l>Vuela etc.</l>
-          </lg>
-          <lg>
-            <l>VI.</l>
-            <l>Por mi amor, salvando escollos,</l>
-            <l>Peligrosos á cual mas,</l>
-            <l>Desafío de las olas</l>
-            <l>El horrisono bramar.</l>
-            <l>Vuela, etc.</l>
-          </lg>
-          <div/>
-          <div>
-            <pb n="4" source="Varios_028_4.jpg" facs="fedora_Varios_028_4/full/full/0/default.jpg"/>
-            <head type="titulo_trovo"><lb/>69. <hi rend="negrita">EL LELE.</hi><lb/>PLAYERAS DE ANDALUᑕIA.</head>
-            <lg>
-              <l>I.</l>
-              <l>Tú eres la paloma blanca,</l>
-              <l>(Para mi toitico... ico!)</l>
-              <l>Yo soy el pichon azul;</l>
-              <l>Juntaremos los piquitos</l>
-              <l>(Para mí toitico... ico!)</l>
-              <l>Y haremos cucurru... cu.</l>
+          <head type="subtitulo"><lb/>TROVAS DE AMOR DEDICADAS AL BELLO SEXO POR
+            UNOS<lb/>AFICIONADOS.</head>
+
+          <div n="1">
+            <head type="titulo_cancion"><lb/>67 LA ESTRELLA MATUTINA.</head>
+            <head type="subtitulo_cancion">CORO PASTORIL.</head>
+
+            <lg n="1">
+              <head type="titulo_estrofa"><lb/>I.</head>
+              <lg>
+                <l rend="indent">Cuando en noche serena y tranquila</l>
+                <l>Puebla el aire de imágenes bellas.</l>
+                <l>El rielar de brillantes estrellas</l>
+                <l>Que coronan la bóveda azul;</l>
+
+                <pb n="2" source="Varios_028_2.jpg" facs="varios/Varios_028_2.jpg/"/>
+
+                <fw type="paginaNum"><lb/>86</fw>
+
+                <l rend="indent">Puro disco de plata en Oriente</l>
+                <l>Una ostenta, mas bella y luciente,</l>
+                <l>Con que eclipsa á millares el brillo</l>
+                <l>Derramando torrentes de luz.</l>
+              </lg>
+
+              <lg>
+                <l rend="indent">En tanto al valle acuden</l>
+                <l>Vistiendo ricas galas,</l>
+                <l>Donosas mil zagalas</l>
+                <l>Rebosando candor;</l>
+                <l>Y á la luz precursora</l>
+                <l>De la risueña aurora,</l>
+                <l>Entonan dulces cánticos</l>
+                <l>Del caramillo al son.</l>
+              </lg>
+
+              <lg>
+                <l rend="indent">Y allí,BELISA, irradia</l>
+                <l>Fu majestad entre ellas,</l>
+                <l>Cual entre las estrellas</l>
+                <l>El astro matinal;</l>
+                <l>Porque es, ángel del cielo,</l>
+                <l>Tu frente peregrina,</l>
+                <l>La ESTRELLA MATUTINA</l>
+                <l>De mágico rielar.</l>
+              </lg>
             </lg>
-            <lg>
-              <l>A la zungarabandunga</l>
-              <l>Pandungandanga,</l>
-              <l>A la zungarabandursa.</l>
-              <l>É la mojigangal</l>
-              <l>A la zungarabandunga</l>
-              <l>É los callejones,</l>
-              <l>A la zugarabandunga</l>
-              <l>É los barracones.</l>
-              <l>Ay lelé!.... ay lelé !....</l>
-              <l>Ay lelé, andar y andar</l>
-              <l>Para mí toitico... ico:</l>
-              <l>Ay lelé! ay! ay!.. ay! ayl..</l>
+
+            <lg n="2">
+              <head type="titulo_estrofa">II.</head>
+              <lg>
+                <l rend="indent">Al verter desde el limpido Oriente</l>
+                <l>Aquel astro sus puros fulgores,</l>
+                <l>El rocio salpica á las flores</l>
+                <l>De sus perlas que vida les dan:</l>
+                <l rend="indent">Y entre el fértil ramaje mil aves</l>
+                <l>Le tributan con trinos suaves,</l>
+                <l>Al halago apacible del céfiro,</l>
+                <l>Culto fiel á su luz virginal.</l>
+              </lg>
+
+              <lg>
+                <l rend="indent">Y á su esplendor, BELISA,</l>
+                <l>Se miran bulliciosas,</l>
+                <l>Las silfides hermosas</l>
+                <l>De Flora en el vergel,</l>
+                <l>Tejer bellas guirnaldas</l>
+                <l>De rosas y esmeraldas,</l>
+                <l>Con que al nuevo crepúsculo</l>
+                <l>Ornar tu rica sien.</l>
+              </lg>
+
+              <lg>
+                <l rend="indent">Y ante la faz divina</l>
+                <l>Se humillan todas ellas,</l>
+                <l>Cual fúlgidas estrellas</l>
+                <l>Al astro matinat:</l>
+                <l>Porque es, ángel del cielo</l>
+                <l>Tu frente peregrina,</l>
+                <l>LA ESTRELLA MATURINA</l>
+                <l>De mágico rielar.</l>
+              </lg>
             </lg>
-            <lg>
-              <l>II.</l>
-              <l>Cuando te veo en la calfe</l>
+
+            <p><lb/>J. A. C.</p>
+          </div>
+
+          <div n="2">
+            <pb n="3" source="Varios_028_3.jpg" facs="varios/Varios_028_3.jpg/"/>
+
+            <head type="titulo_cancion" rend="negrita">68 EL PESCADOR.</head>
+            <head type="subtitulo_cancion">TROVAS MARÍTIMAS.</head>
+
+            <lg n="1">
+              <head type="titulo_estrofa">I.</head>
+              <l rend="indent">Surcando sedal y redes</l>
+              <l>En el veleidoso mar,</l>
+              <l>Entono mis cantinelas</l>
+              <l>De los remos al compás.</l>
+              <l rend="indent">Vuela, vuela, barca mia,</l>
+              <l>Sin tener ningun revés:</l>
+              <l>Navega mientras el bote</l>
+              <l>Vuela del viento á merced.</l>
+            </lg>
+
+            <lg n="2">
+              <head type="titulo_estrofa">II.</head>
+              <l rend="indent">El sosiego de los peces</l>
+              <l>Turba mi ronco cantar;</l>
+              <l>Y las mallas de mis redes</l>
+              <l>Les roban la libertad.</l>
+              <l rend="indent">Vuela, etc.</l>
+            </lg>
+
+            <lg n="3">
+              <head type="titulo_estrofa">III.</head>
+              <l rend="indent">Al amanecer la aurora</l>
+              <l>En el húmedo arenal,</l>
+              <l> Vendo el sudor de mi rostro</l>
+              <l>Con el truto de mi atan.</l>
+              <l rend="indent">Vuela, etc.</l>
+            </lg>
+
+            <lg n="4">
+              <head type="titulo_estrofa">IV.</head>
+              <l rend="indent">Mi regreso allá en la playa</l>
+              <l>Viene mi niña á guardar;</l>
+              <l>Y en mis brazos amorosa</l>
+              <l>Besa mi tostada faz.</l>
+              <l rend="indent">Vuela, etc.</l>
+            </lg>
+
+            <lg n="5">
+              <head type="titulo_estrofa">V.</head>
+              <l rend="indent">Morenilla de ojos negros</l>
+              <l>Y recogido sayal,</l>
+              <l>Mas hermosa es que el lucero</l>
+              <l>Que vé el alba al despuntar,</l>
+              <l rend="indent">Vuela etc.</l>
+            </lg>
+
+            <lg n="6">
+              <head type="titulo_estrofa">VI.</head>
+              <l rend="indent">Por mi amor, salvando escollos,</l>
+              <l>Peligrosos á cual mas,</l>
+              <l>Desafío de las olas</l>
+              <l>El horrisono bramar.</l>
+              <l rend="indent">Vuela, etc.</l>
+            </lg>
+          </div>
+
+          <div n="3">
+            <pb n="4" source="Varios_028_4.jpg" facs="varios/Varios_028_4.jpg/"/>
+
+            <head type="titulo_cancion">69. <hi rend="negrita">EL LELE.</hi></head>
+            <head rend="subtitulo_cancion">PLAYERAS DE ANDALUᑕIA.</head>
+
+            <lg n="1">
+              <head type="titulo_estrofa">I.</head>
+              <lg>
+                <l>Tú eres la paloma blanca,</l>
+                <l rend="indent">(Para mi toitico... ico!)</l>
+                <l>Yo soy el pichon azul;</l>
+                <l>Juntaremos los piquitos</l>
+                <l rend="indent">(Para mí toitico... ico!)</l>
+                <l>Y haremos cucurru... cu.</l>
+              </lg>
+
+              <lg>
+                <l>A la zungarabandunga</l>
+                <l rend="indent">Pandungandanga,</l>
+                <l>A la zungarabandursa.</l>
+                <l rend="indent">É la mojigangal</l>
+                <l>A la zungarabandunga</l>
+                <l rend="indent">É los callejones,</l>
+                <l>A la zugarabandunga</l>
+                <l rend="indent">É los barracones.</l>
+                <l>Ay lelé!.... ay lelé !....</l>
+                <l>Ay lelé, andar y andar</l>
+                <l rend="indent">Para mí toitico... ico:</l>
+                <l>Ay lelé! ay! ay!.. ay! ayl..</l>
+              </lg>
+            </lg>
+            
+            <lg n="2">
+              <head type="titulo_estrofa">II.</head>
+              <l rend="indent">Cuando te veo en la calfe</l>
               <l>Tras tus peazos me muero,</l>
               <l>Porque siempre ma gustao</l>
               <l>Tu cuerpo zaragatero</l>
             </lg>
-            <lg>
-              <l>III.</l>
+            
+            <lg n="3">
+              <head type="titulo_estrofa">III.</head>
               <l>Que derrame mas aquel</l>
               <l>No hay una moza en España</l>
               <l>Que mi morena pulia</l>
               <l>Si en la calle sienta el pié.</l>
             </lg>
-            <lg>
-              <l>IV.</l>
-              <l>Me gustan las Valencianas,</l>
+            
+            <lg n="4">
+              <head type="titulo_estrofa">IV.</head>
+              <l rend="indent">Me gustan las Valencianas,</l>
               <l>Las de Aragon y de Múrcia,</l>
               <l>Me gustan las Catalanas,</l>
               <l>Pero mas las Andaluzas.</l>
             </lg>
-            <lg>
-              <l>V.</l>
-              <l>Las de Italia tienen fama,</l>
+            
+            <lg n="5">
+              <head type="titulo_estrofa">V.</head>
+              <l rend="indent">Las de Italia tienen fama,</l>
               <l>Por constantes en amar;</l>
               <l>Las de Francia por sus besos;</l>
               <l>Las de España por su sal.</l>
             </lg>
-            <lg>
-              <l>VI.</l>
-              <l>Las gitanas Andaluzas</l>
+            
+            <lg n="6">
+              <head type="titulo_estrofa">VI.</head>
+              <l rend="indent">Las gitanas Andaluzas</l>
               <l>Por la gracia é su popa,</l>
               <l>Son los buques mas veletos</l>
               <l>De las escuadras de Europa.</l>
             </lg>
+            
             <p><lb/>—M. Z.—</p>
-            <p><lb/>(Es propiedad.)</p>
+            <p rend="cursiva"><lb/>(Es propiedad.)</p>
           </div>
-          <div type="colofon_impresora">
-            <p><lb/>Se halla de venta en casa los sucesores de Antonio Bosch, calle del Bou de
-                     la Plaza Nueva, núm. 13.</p>
-          </div>
-          <div type="colofon_vendedor">
-            <p><lb/>Barcelona.—Imp. de Narciso Ramirez y Comp.ª, pasaje
-                        de Escudillers, núm. 4.—1876.</p>
-          </div>
+        </div>
+        
+        <div type="colofon_vendedor">
+          <p><lb/>Se halla de venta en casa los sucesores de Antonio Bosch, calle del Bou de la
+            Plaza Nueva, núm. 13.</p>
+        </div>
+        
+        <div type="colofon_impresor">
+          <p><lb/>Barcelona.—Imp. de Narciso Ramirez y Comp.ª, pasaje de Escudillers, núm.
+            4.—1876.</p>
         </div>
       </div>
     </body>

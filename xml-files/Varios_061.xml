@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../Schema/oddPliego_varios.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:alto="http://www.loc.gov/standards/alto/ns-v4#" xml:id="Varios_061">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Varios_061">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -19,8 +19,8 @@
       <sourceDesc>
         <biblFull>
           <titleStmt>
-            <title type="titulo_completo">CANCION DEL CURRO MARINERO SEGUNDA PARTE DESPEDIDA
-                     DE LOS DOS AMANTES</title>
+            <title type="titulo_completo">CANCION DEL CURRO MARINERO SEGUNDA PARTE DESPEDIDA DE LOS
+              DOS AMANTES</title>
             <title type="titulo_breve">CANCION DEL CURRO MARINERO</title>
           </titleStmt>
           <editionStmt>
@@ -29,7 +29,7 @@
           <publicationStmt>
             <publisher>El Abanico</publisher>
             <pubPlace ref="https://www.geonames.org/3128760/barcelona.html">Barcelona</pubPlace>
-            <date>[s.a]</date>
+            <date cert="low" when="1800-01-01">[s.a.]</date>
           </publicationStmt>
         </biblFull>
         <msDesc>
@@ -37,7 +37,8 @@
             <country>Suisse</country>
             <settlement>Genève</settlement>
             <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"/>
-                  </repository>
+            </repository>
+            <collection>Colección Varios</collection>
             <idno type="cote"/>
             <idno type="DOI">10.5281/zenodo.6562897</idno>
             <altIdentifier>
@@ -66,17 +67,16 @@
               </layoutDesc>
             </objectDesc>
             <decoDesc>
-              <summary n="2">Dos grabados(p.1 + 3) </summary>
+              <summary n="2">Dos grabados(p.1, 3)</summary>
               <decoNote type="lista_grabados">
                 <list>
                   <item corresp="grabado_v_061_1.xml">grabado_v_061_1</item>
-                  <item corresp="grabado_v_061_1.xml">grabado_v_061_1</item>
+                  <item corresp="grabado_v_061_2.xml">grabado_v_061_2</item>
                 </list>
               </decoNote>
             </decoDesc>
             <additions>
-              <stamp>SANTIAGO PONS BUENAVISTA, 11, . LIBRERÍA BARCELONA
-                        (ESPAÑA)</stamp>
+              <stamp>SANTIAGO PONS BUENAVISTA, 11, . LIBRERÍA BARCELONA (ESPAÑA)</stamp>
             </additions>
           </physDesc>
           <history>
@@ -85,8 +85,7 @@
             </origin>
             <provenance/>
             <acquisition>
-              <stamp>SANTIAGO PONS BUENAVISTA, 11, . LIBRERÍA BARCELONA
-                        (ESPAÑA)</stamp>
+              <stamp>SANTIAGO PONS BUENAVISTA, 11, . LIBRERÍA BARCELONA (ESPAÑA)</stamp>
             </acquisition>
           </history>
         </msDesc>
@@ -95,13 +94,13 @@
     <encodingDesc>
       <projectDesc>
         <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
-               cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la
-               Universidad de Ginebra, con el apoyo de la Fundación filantrópica Famille
-               Sandoz-Monique de Meuron.</p>
+          cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la Universidad
+          de Ginebra, con el apoyo de la Fundación filantrópica Famille Sandoz-Monique de
+          Meuron.</p>
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR non corregido</p>
+          <p>OCR no corregido</p>
         </correction>
         <normalization>
           <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
@@ -126,9 +125,13 @@
     </profileDesc>
     <revisionDesc>
       <change when="2022-06-15" who="#PJ">Création du fichier TEI P5 et encodage du corps du
-            texte</change>
+        texte</change>
+      <change when="2024-01-09" who="#EL">Add the IIIF links</change>
     </revisionDesc>
   </teiHeader>
+  <facsimile>
+    <graphic url="varios/Varios_061_1.jpg/full/200,/0/default.jpg"/>
+  </facsimile>
   <sourceDoc xml:id="automaticTranscription">
     <surface xml:id="Varios_061_1" type="page" cert="silver">
       <graphic url="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_061_1/full/full/0/default.jpg"/>
@@ -1136,321 +1139,327 @@
   <text>
     <body>
       <div>
-        <pb n="1" source="Varios_061_1.jpg" facs="fedora_Varios_061_1/full/full/0/default.jpg"/>
         <div>
-          <head type="primer_titulo"><lb/>CANCION<lb/>DEL<lb/>CURRO MARINERO</head>
-          <head type="titulo_parte"><lb/>SEGUNDA PARTE<lb/>DESPEDIDA DE LOS DOS AMANTES</head>
-          <div n="1">
-            <head type="titulo_cancion"><lb/>CORO</head>
-            <lg>
-              <l>Adios, mi currilla, adios,</l>
-              <l>que lejos marcho de aquí</l>
-              <l>a... a... a... ay, a... a... a... ay, a...a... a... ay,</l>
-              <l>no receles por tu vida,</l>
-              <l>aunque esté ausente de ti,</l>
-              <l>que yo pueda olvidar nunsa</l>
-              <l>la fé que te prometí.</l>
-            </lg>
-            <lg>
-              <l>Ya resonó el cañonazo,</l>
-              <l>que es señal para salir,</l>
-              <l>y está levantada el áncora</l>
-              <l>al fin es fuerza el partir.</l>
-              <l>Adios mi etc.</l>
-            </lg>
-            <lg>
-              <l>Hincha las velas el viento,</l>
-              <l>rueda con fuerza el timón,</l>
-              <l>y ya se aleja del puerto</l>
-              <l>la velera embarcación.</l>
-              <l>Adios mi etc.</l>
-            </lg>
-            <pb n="2" source="Varios_061_2.jpg" facs="fedora_Varios_061_2/full/full/0/default.jpg"/>
-            <lg>
-              <l>Ya no más, currilla mia,</l>
-              <l>de dulce brisa á favor</l>
-              <l>bogaremos en mi barca</l>
-              <l>celebrando nuestro amor.</l>
-              <l>Adios mi etc.</l>
-            </lg>
-            <lg>
-              <l>Ya no más sobre los mares</l>
-              <l>nuestra sombra correrá,</l>
-              <l>y al eco de tus cantares</l>
-              <l>el mío responderá.</l>
-              <l>Adios mi etc.</l>
-            </lg>
-            <lg>
-              <l>Ya no más soltaré el remo,</l>
-              <l>en medio del mar en calma,</l>
-              <l>para darte entre mil besos</l>
-              <l>enamorada mi alma.</l>
-              <l>Adios mi etc.</l>
-            </lg>
-            <lg>
-              <l>Que hoy nos separa el destino,</l>
-              <l>y mientras yo lejos voy</l>
-              <l>tu debes quedar en tierra</l>
-              <l>sin estar donde yo estoy.</l>
-              <l>Adios mi etc.</l>
-            </lg>
-            <lg>
-              <l>Con el cuerpo estaré lejos</l>
-              <l>pero con el alma no,</l>
-              <l>que en ti todos los instantes</l>
-              <l>estaré pensando yo.</l>
-              <l>Adios mi etc.</l>
-            </lg>
-            <lg>
-              <l>Enjuga ese tierno llanto,</l>
-              <l>que perlas viertes en él,</l>
-              <l>no receles que yo pueda</l>
-              <l>llegar nunca á serte infiel.</l>
-              <l>Adios mi etc.</l>
-            </lg>
-            <lg>
-              <l>Yo á las más bellas mujeres</l>
-              <l>miraré sin interés</l>
-              <l>esclamando al comtemplarlas:</l>
-              <l>«́más curra mi curra es ».</l>
-              <l>Adios mi etc.</l>
-            </lg>
-            <lg>
-              <l>Que es mayor la sal que encierra</l>
-              <l>su basquiña y su jubón</l>
-              <l>que toda la Audalucía</l>
-              <l>y Valencia y Aragón.</l>
-              <l>Adios mi etc.</l>
-            </lg>
-            <lg>
-              <l>Cuando anclare nuestro buque</l>
-              <l>y yo en tierra ponga el pié,</l>
-              <l>no hayas miedo curra mia</l>
-              <l>que jamás te olvidaré.</l>
-              <l>Adios mi etc.</l>
-            </lg>
-            <lg>
-              <l>Será en vano que en las tierras</l>
-              <l>donde llegue yo á aportar</l>
-              <l>haya mozas sandungueras,</l>
-              <l>que me quieran conquistar.</l>
-              <l>Adios mi etc.</l>
-            </lg>
-            <lg>
-              <l>Que no puedo disponer</l>
-              <l>ya más de mi corazón,</l>
-              <l>pues de él á mi currilla</l>
-              <l>le he dado posesión.</l>
-              <l>Adios mi etc.</l>
-            </lg>
-            <lg>
-              <l>Cuando en medio de los mares</l>
-              <l>me encontraré yo sin ti,</l>
-              <l>tu memoria ni un instante</l>
-              <l>apartar podré de mí.</l>
-              <l>Adios mi etc.</l>
-            </lg>
-            <lg>
-              <l>Y en la noche silenciosa,</l>
-              <l>en la popa recostado,</l>
-              <l>pensaré en las que contigo</l>
-              <l>en mi barquilla he pasado.</l>
-              <l>Adios mi etc.</l>
-            </lg>
-            <lg>
-              <l>Pensaré en que si me hallaba</l>
-              <l>la tormenta en alta mar,</l>
-              <l>con tus fuerzas y tu ejemplo,</l>
-              <l>me ayudabas á bogar.</l>
-              <l>Adios mi etc.</l>
-            </lg>
-            <lg>
-              <l>Y al brillar después la luna</l>
-              <l>con su bella claridad,</l>
-              <l>en tus brazos olvidaba</l>
-              <l>la pasada tempestad.</l>
-              <l>Adios mi etc.</l>
-            </lg>
-            <lg>
-              <l>Ya pasaron esos tiempos</l>
-              <l>que recuerdo con afán,</l>
-              <l>mas tal vez currilla mía,</l>
-              <l>con el tiempo volverán.</l>
-              <l>Adios mi etc.</l>
-            </lg>
-            <lg>
-              <l>Yo entre tanto por los mares</l>
-              <l>tu memoria llevaré</l>
-              <l>y en los brindis y festines</l>
-              <l>á tu nombre brindaré.</l>
-              <l>Adios mi etc.</l>
-            </lg>
-            <lg>
-              <l>Ya del puerto se halla lejos</l>
-              <l>la velera embarcación,</l>
-              <l>ay ! adios dulce currilla,</l>
-              <l>ahí te dejo el corazón.</l>
-              <l>Adios mí etc.</l>
-            </lg>
-            <pb n="3" source="Varios_061_3.jpg" facs="fedora_Varios_061_3/full/full/0/default.jpg"/>
-          </div>
-          <div n="2">
-            <head type="titulo_cancion"><lb/>CORO</head>
-            <lg>
-              <l>Adios, curro de mi vida</l>
-              <l>ay adios mi dulce bien,</l>
-              <l>a... a... a... ay, a... a... a... ay, a... a... a... ay,</l>
-              <l>yo contigo deseara</l>
-              <l>esta vez venir también</l>
-              <l>mas tú, ingrato, no me dices</l>
-              <l>ven, currilla mía, ven.</l>
-            </lg>
-            <lg>
-              <l>Qué destino despiadado</l>
-              <l>hoy nos llega á separar?</l>
-              <l>quién me obliga á estar en tierra</l>
-              <l>si mi curro está en el mar.</l>
-              <l>Adios curro etc.</l>
-            </lg>
-            <lg>
-              <l>Tú me dices que vas lejos,</l>
-              <l>yo á cualquiera parte iré</l>
-              <l>y estaré siempre gozosa</l>
-              <l>en donde mi curro esté.</l>
-              <l>Adios curro etc.</l>
-            </lg>
-            <lg>
-              <l>No me asustan las borrascas,</l>
-              <l>ni del viento el rebramar,</l>
-              <l>que á tu lado desafió</l>
-              <l>cielo, tierra, viento y mar.</l>
-              <l>Adios curro etc.</l>
-            </lg>
-            <lg>
-              <l>Tú lo sabes cuantas veces</l>
-              <l>la tormenta nos halló,</l>
-              <l>y abrazados entre el sueño</l>
-              <l>sin piedad nos dispertó.</l>
-              <l>Adios curro etc.</l>
-            </lg>
-            <lg>
-              <l>Y dejando en el momento</l>
-              <l>nuestra bella posición,</l>
-              <l>tú corrías á la vela</l>
-              <l>y yo corría al timón.</l>
-              <l>Adios curro etc.</l>
-            </lg>
-            <lg>
-              <l>Y á favor de nuestro esfuerzo</l>
-              <l>vencida la tempestad,</l>
-              <l>un abrazo nos pagaba</l>
-              <l>tu desvelo y ansiedad.</l>
-              <l>Adios curro etc.</l>
-            </lg>
-            <pb n="4" source="Varios_061_4.jpg" facs="fedora_Varios_061_4/full/full/0/default.jpg"/>
-            <lg>
-              <l>Si el relámpago brillaba</l>
-              <l>en el cielo por azar,</l>
-              <l>la sonrisa en nuestros labios</l>
-              <l>alumbraba sin cesar.</l>
-              <l>Adios curro etc.</l>
-            </lg>
-            <lg>
-              <l>Y en los mares nuestra vida</l>
-              <l>se pasaba sin dolor,</l>
-              <l>siempre alegres, siempre unidos,</l>
-              <l>con ventura, con amor.</l>
-              <l>Adios curro etc.</l>
-            </lg>
-            <lg>
-              <l>Cuan en breve se escaparon</l>
-              <l>los instantes de placer,</l>
-              <l>y cuan pronto nuestra dicha</l>
-              <l>vínose á desvanecer.</l>
-              <l>Adios curro etc.</l>
-            </lg>
-            <lg>
-              <l>Como vuela la paloma,</l>
-              <l>que del nido se escapó,</l>
-              <l>y se aleja presurosa</l>
-              <l>nuestra dicha así voló.</l>
-              <l>Adios curro etc.</l>
-            </lg>
-            <lg>
-              <l>Que el corazón de un marino</l>
-              <l>tal como la arena es,</l>
-              <l>que cuanto en ella se pinta</l>
-              <l>se borra luego después.</l>
-              <l>Adios curro etc.</l>
-            </lg>
-            <lg>
-              <l>Tú me dices, curra mía,</l>
-              <l>«yo jamás te olvidaré»</l>
-              <l>es muy fácil el jurarlo</l>
-              <l>el cumplirlo no lo sé.</l>
-              <l>Adios curro etc.</l>
-            </lg>
-            <lg>
-              <l>Has trocado la barquilla</l>
-              <l>por un buque que es mayor;</l>
-              <l>en la barca eres tú el dueño,</l>
-              <l>en el buque un servidor.</l>
-              <l>Adios curro etc.</l>
-            </lg>
-            <lg>
-              <l>Ora triste y solitaria</l>
-              <l>en mi curro pensaré,</l>
-              <l>y si canto mis amores</l>
-              <l>con mis cantos lloraré.</l>
-              <l>Adios curro etc.</l>
-            </lg>
-            <lg>
-              <l>Dices tú que de las tierras</l>
-              <l>á las cuales ahora vas,</l>
-              <l>muy en breve con riquezas</l>
-              <l>excesivas volverás.</l>
-              <l>Adios curro etc.</l>
-            </lg>
-            <lg>
-              <l>Y mi curro mientras tanto</l>
-              <l>más de mí se alejará,</l>
-              <l>y quien sabe si algún día</l>
-              <l>á su curra olvidará.</l>
-              <l>Adios curro etc.</l>
-            </lg>
-            <lg>
-              <l>Qué me importa que me traigas</l>
-              <l>los tesoros del Perú</l>
-              <l>si tal vez en sus arenas</l>
-              <l>dejarás el alma tú ?</l>
-              <l>Adios curro etc.</l>
-            </lg>
-            <lg>
-              <l>Y mujeres más hermosas,</l>
-              <l>pero más amantes no,</l>
-              <l>robáranme el corazón</l>
-              <l>que no merecen cual yo.</l>
-              <l>Adios curro etc.</l>
-            </lg>
-            <lg>
-              <l>Si tanto importa el marcharte</l>
-              <l>contigo quiero venir:</l>
-              <l>mas si puedes evitarlo</l>
-              <l>curro deja de partir.</l>
-              <l>Adios curro etc.</l>
-            </lg>
-            <lg>
-              <l>Nada alcanzo con mis quejas,</l>
-              <l>es inútil mi aflicción</l>
-              <l>ingrato, ya que me dejas</l>
-              <l>llévate mi corazón.</l>
-              <l>Adios curro etc.</l>
-            </lg>
-            <trailer><lb/>FIN</trailer>
-          </div>
-          <div type="colofon">
-            <p><lb/>Imps. Hospital, 19 «El Abanico»</p>
-          </div>
+          <pb n="1" source="Varios_061_1.jpg" facs="varios/Varios_061_1.jpg/"/>
+          
+          <head type="primer_titulo"><lb/><hi rend="negrita">CANCION</hi><lb/>DEL<lb/><hi rend="negrita">CURRO MARINERO</hi></head>
+          <head type="subtitulo"><lb/>SEGUNDA PARTE<lb/><hi rend="negrita">DESPEDIDA DE LOS DOS
+              AMANTES</hi></head>
+
+          <lg>
+            <head type="titulo_estrofa"><lb/>CORO</head>
+            <l rend="indent"><hi rend="cursiva">Adios, mi currilla, adios,</hi></l>
+            <l rend="cursiva">que lejos marcho de aquí</l>
+            <l rend="cursiva">a... a... a... ay, a... a... a... ay, a...a... a... ay,</l>
+            <l rend="cursiva">no receles por tu vida,</l>
+            <l rend="cursiva">aunque esté ausente de ti,</l>
+            <l rend="cursiva">que yo pueda olvidar nunsa</l>
+            <l rend="cursiva">la fé que te prometí.</l>
+          </lg>
+          <lg>
+            <l rend="indent">Ya resonó el cañonazo,</l>
+            <l>que es señal para salir,</l>
+            <l>y está levantada el áncora</l>
+            <l>al fin es fuerza el partir.</l>
+            <l rend="cursiva">Adios mi etc.</l>
+          </lg>
+          <lg>
+            <l rend="indent">Hincha las velas el viento,</l>
+            <l>rueda con fuerza el timón,</l>
+            <l>y ya se aleja del puerto</l>
+            <l>la velera embarcación.</l>
+            <l rend="cursiva">Adios mi etc.</l>
+          </lg>
+
+          <pb n="2" source="Varios_061_2.jpg" facs="varios/Varios_061_2.jpg/"/>
+
+          <lg>
+            <l rend="indent">Ya no más, currilla mia,</l>
+            <l>de dulce brisa á favor</l>
+            <l>bogaremos en mi barca</l>
+            <l>celebrando nuestro amor.</l>
+            <l rend="cursiva">Adios mi etc.</l>
+          </lg>
+          <lg>
+            <l rend="indent">Ya no más sobre los mares</l>
+            <l>nuestra sombra correrá,</l>
+            <l>y al eco de tus cantares</l>
+            <l>el mío responderá.</l>
+            <l rend="cursiva">Adios mi etc.</l>
+          </lg>
+          <lg>
+            <l rend="indent">Ya no más soltaré el remo,</l>
+            <l>en medio del mar en calma,</l>
+            <l>para darte entre mil besos</l>
+            <l>enamorada mi alma.</l>
+            <l rend="cursiva">Adios mi etc.</l>
+          </lg>
+          <lg>
+            <l rend="indent">Que hoy nos separa el destino,</l>
+            <l>y mientras yo lejos voy</l>
+            <l>tu debes quedar en tierra</l>
+            <l>sin estar donde yo estoy.</l>
+            <l rend="cursiva">Adios mi etc.</l>
+          </lg>
+          <lg>
+            <l rend="indent">Con el cuerpo estaré lejos</l>
+            <l>pero con el alma no,</l>
+            <l>que en ti todos los instantes</l>
+            <l>estaré pensando yo.</l>
+            <l rend="cursiva">Adios mi etc.</l>
+          </lg>
+          <lg>
+            <l rend="indent">Enjuga ese tierno llanto,</l>
+            <l>que perlas viertes en él,</l>
+            <l>no receles que yo pueda</l>
+            <l>llegar nunca á serte infiel.</l>
+            <l rend="cursiva">Adios mi etc.</l>
+          </lg>
+          <lg>
+            <l rend="indent">Yo á las más bellas mujeres</l>
+            <l>miraré sin interés</l>
+            <l>esclamando al comtemplarlas:</l>
+            <l>«́más curra mi curra es ».</l>
+            <l rend="cursiva">Adios mi etc.</l>
+          </lg>
+          <lg>
+            <l rend="indent">Que es mayor la sal que encierra</l>
+            <l>su basquiña y su jubón</l>
+            <l>que toda la Audalucía</l>
+            <l>y Valencia y Aragón.</l>
+            <l rend="cursiva">Adios mi etc.</l>
+          </lg>
+          <lg>
+            <l rend="indent">Cuando anclare nuestro buque</l>
+            <l>y yo en tierra ponga el pié,</l>
+            <l>no hayas miedo curra mia</l>
+            <l>que jamás te olvidaré.</l>
+            <l rend="cursiva">Adios mi etc.</l>
+          </lg>
+          <lg>
+            <l rend="indent">Será en vano que en las tierras</l>
+            <l>donde llegue yo á aportar</l>
+            <l>haya mozas sandungueras,</l>
+            <l>que me quieran conquistar.</l>
+            <l rend="cursiva">Adios mi etc.</l>
+          </lg>
+          <lg>
+            <l rend="indent">Que no puedo disponer</l>
+            <l>ya más de mi corazón,</l>
+            <l>pues de él á mi currilla</l>
+            <l>le he dado posesión.</l>
+            <l rend="cursiva">Adios mi etc.</l>
+          </lg>
+          <lg>
+            <l rend="indent">Cuando en medio de los mares</l>
+            <l>me encontraré yo sin ti,</l>
+            <l>tu memoria ni un instante</l>
+            <l>apartar podré de mí.</l>
+            <l rend="cursiva">Adios mi etc.</l>
+          </lg>
+          <lg>
+            <l rend="indent">Y en la noche silenciosa,</l>
+            <l>en la popa recostado,</l>
+            <l>pensaré en las que contigo</l>
+            <l>en mi barquilla he pasado.</l>
+            <l rend="cursiva">Adios mi etc.</l>
+          </lg>
+          <lg>
+            <l rend="indent">Pensaré en que si me hallaba</l>
+            <l>la tormenta en alta mar,</l>
+            <l>con tus fuerzas y tu ejemplo,</l>
+            <l>me ayudabas á bogar.</l>
+            <l rend="cursiva">Adios mi etc.</l>
+          </lg>
+          <lg>
+            <l rend="indent">Y al brillar después la luna</l>
+            <l>con su bella claridad,</l>
+            <l>en tus brazos olvidaba</l>
+            <l>la pasada tempestad.</l>
+            <l rend="cursiva">Adios mi etc.</l>
+          </lg>
+          <lg>
+            <l rend="indent">Ya pasaron esos tiempos</l>
+            <l>que recuerdo con afán,</l>
+            <l>mas tal vez currilla mía,</l>
+            <l>con el tiempo volverán.</l>
+            <l rend="cursiva">Adios mi etc.</l>
+          </lg>
+          <lg>
+            <l rend="indent">Yo entre tanto por los mares</l>
+            <l>tu memoria llevaré</l>
+            <l>y en los brindis y festines</l>
+            <l>á tu nombre brindaré.</l>
+            <l rend="cursiva">Adios mi etc.</l>
+          </lg>
+          <lg>
+            <l rend="indent">Ya del puerto se halla lejos</l>
+            <l>la velera embarcación,</l>
+            <l>ay ! adios dulce currilla,</l>
+            <l>ahí te dejo el corazón.</l>
+            <l rend="cursiva">Adios mí etc.</l>
+          </lg>
+
+          <pb n="3" source="Varios_061_3.jpg" facs="varios/Varios_061_3.jpg/"/>
+
+          <lg>
+            <head type="titulo_estrofa"><lb/>CORO</head>
+            <l rend="indent"><hi rend="cursiva">Adios, curro de mi vida</hi></l>
+            <l rend="cursiva">ay adios mi dulce bien,</l>
+            <l rend="cursiva">a... a... a... ay, a... a... a... ay, a... a... a... ay,</l>
+            <l rend="cursiva">yo contigo deseara</l>
+            <l rend="cursiva">esta vez venir también</l>
+            <l rend="cursiva">mas tú, ingrato, no me dices</l>
+            <l rend="cursiva">ven, currilla mía, ven.</l>
+          </lg>
+          <lg>
+            <l rend="indent">Qué destino despiadado</l>
+            <l>hoy nos llega á separar?</l>
+            <l>quién me obliga á estar en tierra</l>
+            <l>si mi curro está en el mar.</l>
+            <l rend="cursiva">Adios curro etc.</l>
+          </lg>
+          <lg>
+            <l rend="indent">Tú me dices que vas lejos,</l>
+            <l>yo á cualquiera parte iré</l>
+            <l>y estaré siempre gozosa</l>
+            <l>en donde mi curro esté.</l>
+            <l rend="cursiva">Adios curro etc.</l>
+          </lg>
+          <lg>
+            <l rend="indent">No me asustan las borrascas,</l>
+            <l>ni del viento el rebramar,</l>
+            <l>que á tu lado desafió</l>
+            <l>cielo, tierra, viento y mar.</l>
+            <l rend="cursiva">Adios curro etc.</l>
+          </lg>
+          <lg>
+            <l rend="indent">Tú lo sabes cuantas veces</l>
+            <l>la tormenta nos halló,</l>
+            <l>y abrazados entre el sueño</l>
+            <l>sin piedad nos dispertó.</l>
+            <l rend="cursiva">Adios curro etc.</l>
+          </lg>
+          <lg>
+            <l rend="indent">Y dejando en el momento</l>
+            <l>nuestra bella posición,</l>
+            <l>tú corrías á la vela</l>
+            <l>y yo corría al timón.</l>
+            <l rend="cursiva">Adios curro etc.</l>
+          </lg>
+          <lg>
+            <l rend="indent">Y á favor de nuestro esfuerzo</l>
+            <l>vencida la tempestad,</l>
+            <l>un abrazo nos pagaba</l>
+            <l>tu desvelo y ansiedad.</l>
+            <l rend="cursiva">Adios curro etc.</l>
+          </lg>
+
+          <pb n="4" source="Varios_061_4.jpg" facs="varios/Varios_061_4.jpg/"/>
+
+          <lg>
+            <l rend="indent">Si el relámpago brillaba</l>
+            <l>en el cielo por azar,</l>
+            <l>la sonrisa en nuestros labios</l>
+            <l>alumbraba sin cesar.</l>
+            <l rend="cursiva">Adios curro etc.</l>
+          </lg>
+          <lg>
+            <l rend="indent">Y en los mares nuestra vida</l>
+            <l>se pasaba sin dolor,</l>
+            <l>siempre alegres, siempre unidos,</l>
+            <l>con ventura, con amor.</l>
+            <l rend="cursiva">Adios curro etc.</l>
+          </lg>
+          <lg>
+            <l rend="indent">Cuan en breve se escaparon</l>
+            <l>los instantes de placer,</l>
+            <l>y cuan pronto nuestra dicha</l>
+            <l>vínose á desvanecer.</l>
+            <l rend="cursiva">Adios curro etc.</l>
+          </lg>
+          <lg>
+            <l rend="indent">Como vuela la paloma,</l>
+            <l>que del nido se escapó,</l>
+            <l>y se aleja presurosa</l>
+            <l>nuestra dicha así voló.</l>
+            <l rend="cursiva">Adios curro etc.</l>
+          </lg>
+          <lg>
+            <l rend="indent">Que el corazón de un marino</l>
+            <l>tal como la arena es,</l>
+            <l>que cuanto en ella se pinta</l>
+            <l>se borra luego después.</l>
+            <l rend="cursiva">Adios curro etc.</l>
+          </lg>
+          <lg>
+            <l rend="indent">Tú me dices, curra mía,</l>
+            <l>«yo jamás te olvidaré»</l>
+            <l>es muy fácil el jurarlo</l>
+            <l>el cumplirlo no lo sé.</l>
+            <l rend="cursiva">Adios curro etc.</l>
+          </lg>
+          <lg>
+            <l rend="indent">Has trocado la barquilla</l>
+            <l>por un buque que es mayor;</l>
+            <l>en la barca eres tú el dueño,</l>
+            <l>en el buque un servidor.</l>
+            <l rend="cursiva">Adios curro etc.</l>
+          </lg>
+          <lg>
+            <l rend="indent">Ora triste y solitaria</l>
+            <l>en mi curro pensaré,</l>
+            <l>y si canto mis amores</l>
+            <l>con mis cantos lloraré.</l>
+            <l rend="cursiva">Adios curro etc.</l>
+          </lg>
+          <lg>
+            <l rend="indent">Dices tú que de las tierras</l>
+            <l>á las cuales ahora vas,</l>
+            <l>muy en breve con riquezas</l>
+            <l>excesivas volverás.</l>
+            <l rend="cursiva">Adios curro etc.</l>
+          </lg>
+          <lg>
+            <l rend="indent">Y mi curro mientras tanto</l>
+            <l>más de mí se alejará,</l>
+            <l>y quien sabe si algún día</l>
+            <l>á su curra olvidará.</l>
+            <l rend="cursiva">Adios curro etc.</l>
+          </lg>
+          <lg>
+            <l rend="indent">Qué me importa que me traigas</l>
+            <l>los tesoros del Perú</l>
+            <l>si tal vez en sus arenas</l>
+            <l>dejarás el alma tú ?</l>
+            <l rend="cursiva">Adios curro etc.</l>
+          </lg>
+          <lg>
+            <l rend="indent">Y mujeres más hermosas,</l>
+            <l>pero más amantes no,</l>
+            <l>robáranme el corazón</l>
+            <l>que no merecen cual yo.</l>
+            <l rend="cursiva">Adios curro etc.</l>
+          </lg>
+          <lg>
+            <l rend="indent">Si tanto importa el marcharte</l>
+            <l>contigo quiero venir:</l>
+            <l>mas si puedes evitarlo</l>
+            <l>curro deja de partir.</l>
+            <l rend="cursiva">Adios curro etc.</l>
+          </lg>
+          <lg>
+            <l rend="indent">Nada alcanzo con mis quejas,</l>
+            <l>es inútil mi aflicción</l>
+            <l>ingrato, ya que me dejas</l>
+            <l>llévate mi corazón.</l>
+            <l rend="cursiva">Adios curro etc.</l>
+          </lg>
+          <trailer><lb/>FIN</trailer>
+        </div>
+        
+        <div type="colofon">
+          <p><lb/>Imps. Hospital, 19 «El Abanico»</p>
         </div>
       </div>
     </body>

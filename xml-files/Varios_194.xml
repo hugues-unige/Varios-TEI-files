@@ -1,19 +1,17 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../Schema/oddPliego_varios.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:alto="http://www.loc.gov/standards/alto/ns-v4#" xml:id="Varios_194">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Varios_194">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>COPLAS NUEVAS Y DIVERTIDAS DEL QUE PASA VUY EN DIA PERA LO JOVEN
-                              seguida del Can-Can.</title>
+        <title>COPLAS NUEVAS Y DIVERTIDAS</title>
         <respStmt>
           <name/>
           <resp>Codificación TEI</resp>
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <authority role="rightsHolder">Bibliothèque Universitaire de
-                              Genève</authority>
+        <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
         <availability status="restricted">
           <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
         </availability>
@@ -21,17 +19,17 @@
       <sourceDesc>
         <biblFull>
           <titleStmt>
-            <title type="titulo_completo">Coplas nuevas y divertidas del que
-                                          pasa vuy en dia pera lo joven seguida del Can-Can.</title>
+            <title type="titulo_completo">Coplas nuevas y divertidas del que pasa vuy en dia pera lo
+              joven seguida del Can-Can.</title>
             <title type="titulo_breve">Coplas nuevas y divertidas</title>
           </titleStmt>
           <editionStmt>
             <p/>
           </editionStmt>
           <publicationStmt>
-            <publisher>Imp. de Tosquellas y Zamora</publisher>
+            <publisher>Tosquellas y Zamora</publisher>
             <pubPlace ref="https://www.geonames.org/3111933/reus.html">Reus</pubPlace>
-            <date cert="high">[s.a]</date>
+            <date cert="low" when="1800-01-01">[s.a.]</date>
           </publicationStmt>
         </biblFull>
         <msDesc>
@@ -39,7 +37,8 @@
             <country>Suisse</country>
             <settlement>Genève</settlement>
             <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"/>
-                                    </repository>
+            </repository>
+            <collection>Colección Varios</collection>
             <idno type="cote"/>
             <idno type="DOI">10.5281/zenodo.6597463</idno>
             <altIdentifier>
@@ -47,10 +46,14 @@
             </altIdentifier>
           </msIdentifier>
           <msContents>
-            <summary/>
+            <summary>Dos canciones</summary>
             <msItem>
-              <locus/>
-              <title/>
+              <locus>1-3</locus>
+              <title>Coplas nuevas y divertidas del que pasa vuy en dia pera lo joven seguida del Can-Can.</title>
+            </msItem>
+            <msItem>
+              <locus>4</locus>
+              <title>Cansons del Can-can.</title>
             </msItem>
           </msContents>
           <physDesc>
@@ -96,18 +99,17 @@
     </fileDesc>
     <encodingDesc>
       <projectDesc>
-        <p>Este archivo fue creado en el marco del proyecto Desenrollando el
-                              Cordel/Démêler le cordel/Untangling the cordel, dirigido por la
-                              profesora Constance Carta de la Universidad de Ginebra, con el apoyo
-                              de la Fundación filantrópica Famille Sandoz-Monique de Meuron.</p>
+        <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+          cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la Universidad
+          de Ginebra, con el apoyo de la Fundación filantrópica Famille Sandoz-Monique de
+          Meuron.</p>
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR non corregido</p>
+          <p>OCR no corregido</p>
         </correction>
         <normalization>
-          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto
-                                    original.</p>
+          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
         </normalization>
         <punctuation>
           <p>Se conserva la puntuación original.</p>
@@ -128,10 +130,14 @@
       </textClass>
     </profileDesc>
     <revisionDesc>
-      <change when="2023-08-07" who="#PJ">Création du fichier TEI P5 et encodage du
-                        corps du texte</change>
+      <change when="2023-08-07" who="#PJ">Création du fichier TEI P5 et encodage du corps du
+        texte</change>
+      <change when="2024-01-09" who="#EL">Add the IIIF links</change>
     </revisionDesc>
   </teiHeader>
+  <facsimile>
+    <graphic url="varios/Varios_194_1.jpg/full/200,/0/default.jpg"/>
+  </facsimile>
   <sourceDoc xml:id="automaticTranscription">
     <surface xml:id="Varios_194_1" type="page" cert="silver">
       <graphic url="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_194_1/full/full/0/default.jpg"/>
@@ -1054,13 +1060,16 @@
   <text>
     <body>
       <div>
-        <pb n="1" source="Varios_194_1.jpg" facs="fedora_Varios_194_1/full/full/0/default.jpg"/>
-        <div type="parte" n="1">
-          <head type="primer_titulo"><lb/>COPLAS NUEVAS Y DIVERTIDAS<lb/>DEL QUE PASA<lb/>VUY EN DIA
-                                    PERA LO JOVEN</head>
-          <head type="titulo_parte"><lb/><lb/>seguida del Can-Can.</head>
+        <pb n="1" source="Varios_194_1.jpg" facs="varios/Varios_194_1.jpg/"/>
+        
+        <div n="1">
+          
+          <head type="primer_titulo"><lb/><hi rend="negrita">COPLAS NUEVAS Y DIVERTIDAS</hi><lb/>DEL QUE PASA<lb/>VUY EN DIA
+            PERA LO JOVEN</head>
+          <head type="subtitulo_parte"><lb/><lb/>seguida del Can-Can.</head>
+          
           <lg>
-            <l>Unas coblas se han dictadas</l>
+            <l rend="indent">Unas coblas se han dictadas</l>
             <l>En lo any setanta tres</l>
             <l>A tots los pares y mares</l>
             <l>Se avisa sens interés;</l>
@@ -1070,7 +1079,7 @@
             <l>No las puscu á sertir.</l>
           </lg>
           <lg>
-            <l>Per pobles xichs y masías</l>
+            <l rend="indent">Per pobles xichs y masías</l>
             <l>Tan vilas grans com Ciutats,</l>
             <l>No sembran mes que sisanya</l>
             <l>Cometen mil disbarats;</l>
@@ -1078,9 +1087,11 @@
             <l>Los pares vull advertir:</l>
             <l>Ay mares, &amp;.</l>
           </lg>
-          <pb n="2" source="Varios_194_2.jpg" facs="fedora_Varios_194_2/full/full/0/default.jpg"/>
+          
+          <pb n="2" source="Varios_194_2.jpg" facs="varios/Varios_194_2.jpg/"/>
+          
           <lg>
-            <l>Segons ab quins amos donan</l>
+            <l rend="indent">Segons ab quins amos donan</l>
             <l>Tan los valdria ofegás,</l>
             <l>Pues algunas son tan fluixas</l>
             <l>Y cahuen sens pensar,</l>
@@ -1089,7 +1100,7 @@
             <l>Ay mares, &amp;.</l>
           </lg>
           <lg>
-            <l>Ellas piljer quel vidre,</l>
+            <l rend="indent">Ellas piljer quel vidre,</l>
             <l>Que mol prompte está trencat</l>
             <l>No las teniu prou seguras</l>
             <l>Si las teniu al costat;</l>
@@ -1098,7 +1109,7 @@
             <l>Ay mares, &amp;.</l>
           </lg>
           <lg>
-            <l>Uns ab sus dolsas paraulas</l>
+            <l rend="indent">Uns ab sus dolsas paraulas</l>
             <l>Las ho donan entenent;</l>
             <l>Altres cahuen perque los donan</l>
             <l>Paraula de casament</l>
@@ -1107,7 +1118,7 @@
             <l>Ay mares, &amp;.</l>
           </lg>
           <lg>
-            <l>La moneda també es causa</l>
+            <l rend="indent">La moneda també es causa</l>
             <l>Que algunas cahuen al Ram,</l>
             <l>Sols pugan aná bonicas</l>
             <l>Cualsevol cosa faràn;</l>
@@ -1116,7 +1127,7 @@
             <l>Ay mares, &amp;.</l>
           </lg>
           <lg>
-            <l>La que no la busca l' amo</l>
+            <l rend="indent">La que no la busca l' amo</l>
             <l>Que será home de bé,</l>
             <l>Si á la casa hi ha algun conco</l>
             <l>Criat moso ó cabalé;</l>
@@ -1125,7 +1136,7 @@
             <l>Ay mares, &amp;.</l>
           </lg>
           <lg>
-            <l>Cuantas ni ha que enrahonan</l>
+            <l rend="indent">Cuantas ni ha que enrahonan</l>
             <l>Ab soldats y asistens,</l>
             <l>Alguns fadrins de malicia</l>
             <l>Están quels cruixen las dents;</l>
@@ -1134,7 +1145,7 @@
             <l>Ay mares, &amp;.</l>
           </lg>
           <lg>
-            <l>Despues cuant tocan la marcha</l>
+            <l rend="indent">Despues cuant tocan la marcha</l>
             <l>Son suspirs llantos y plors,</l>
             <l>Nos recordan may mes de ellas</l>
             <l>Ni com si tal cosa fos;</l>
@@ -1143,7 +1154,7 @@
             <l>Ay mares, &amp;.</l>
           </lg>
           <lg>
-            <l>De aquellas que son criadas</l>
+            <l rend="indent">De aquellas que son criadas</l>
             <l>A algunas n' veureu,</l>
             <l>Que baixan de la montanya</l>
             <l>Sens roba conforme s' veu;</l>
@@ -1152,7 +1163,7 @@
             <l>Ay mares, &amp;.</l>
           </lg>
           <lg>
-            <l>Ab un mes guanyan un duro</l>
+            <l rend="indent">Ab un mes guanyan un duro</l>
             <l>Y s' compran roba per deu,</l>
             <l>Van pitjor que sas mestresas</l>
             <l>Com vuy en dia s' veu</l>
@@ -1161,7 +1172,7 @@
             <l>Ay mares, &amp;.</l>
           </lg>
           <lg>
-            <l>Cuant ni ha alguna de nova</l>
+            <l rend="indent">Cuant ni ha alguna de nova</l>
             <l>La convidan los fadrins,</l>
             <l>A sarau ó ha comedia</l>
             <l>Per sas ideas y fins;</l>
@@ -1170,7 +1181,7 @@
             <l>Ay mares, &amp;.</l>
           </lg>
           <lg>
-            <l>Encara que hi ya criadas</l>
+            <l rend="indent">Encara que hi ya criadas</l>
             <l>Quel parlar m' sap mol mal,</l>
             <l>Están com unas reliquias</l>
             <l>Dintre d' una Catedral;</l>
@@ -1179,17 +1190,19 @@
             <l>Ay mares, &amp;.</l>
           </lg>
           <lg>
-            <l>Ara se n' avesat moltas</l>
+            <l rend="indent">Ara se n' avesat moltas</l>
             <l>Per los carres á rodar,</l>
             <l>Sas mestresas dins de casa</l>
-            <pb n="3" source="Varios_194_3.jpg" facs="fedora_Varios_194_3/full/full/0/default.jpg"/>
+            
+            <pb n="3" source="Varios_194_3.jpg" facs="varios/Varios_194_3.jpg/"/>
+            
             <l>Ya las poden esperar;</l>
             <l>Han de fer la sua feina</l>
             <l>Fins baixar pá y traurer ví:</l>
             <l>Ay mares, &amp;.</l>
           </lg>
           <lg>
-            <l>Ara arribat quels' amos</l>
+            <l rend="indent">Ara arribat quels' amos</l>
             <l>No las gosan á renyar,</l>
             <l>Mestresa fasiam lo compte</l>
             <l>Tot seguit men vull anar;</l>
@@ -1198,7 +1211,7 @@
             <l>Ay mares, &amp;.</l>
           </lg>
           <lg>
-            <l>També vinch per advertirvos</l>
+            <l rend="indent">També vinch per advertirvos</l>
             <l>Las de Fábrica y Vapor,</l>
             <l>N' os escolteu à ningun plaga</l>
             <l>Sobre tot guardeu l' honor;</l>
@@ -1207,7 +1220,7 @@
             <l>Ay mares, &amp;.</l>
           </lg>
           <lg>
-            <l>Sabeu com os farán rihurer</l>
+            <l rend="indent">Sabeu com os farán rihurer</l>
             <l>Com las veureu al estiu,</l>
             <l>Ab las anaguas solas</l>
             <l>Que pena em' dono de dirho;</l>
@@ -1216,7 +1229,7 @@
             <l>Ay mares, &amp;.</l>
           </lg>
           <lg>
-            <l>Sols puguian ellas fer lo plaga</l>
+            <l rend="indent">Sols puguian ellas fer lo plaga</l>
             <l>Ab alguns traballadors.</l>
             <l>Vingen pesichs y espentas</l>
             <l>Altres lo parlar grixós;</l>
@@ -1225,7 +1238,7 @@
             <l>Ay mares, &amp;.</l>
           </lg>
           <lg>
-            <l>No' os fieu de moltas chinchas</l>
+            <l rend="indent">No' os fieu de moltas chinchas</l>
             <l>Ni paparras de Vapor,</l>
             <l>Que tenen molt mes quel's homens</l>
             <l>De descaro y de valor;</l>
@@ -1234,7 +1247,7 @@
             <l>Ay mares, &amp;.</l>
           </lg>
           <lg>
-            <l>Allá al hivern cuan surtan</l>
+            <l rend="indent">Allá al hivern cuan surtan</l>
             <l>Veureu la bulla que fan,</l>
             <l>La una sobre del altre,</l>
             <l>Com si fos per san Joan</l>
@@ -1243,7 +1256,7 @@
             <l>Ay mares, &amp;.</l>
           </lg>
           <lg>
-            <l>Lo poeta os avisa,</l>
+            <l rend="indent">Lo poeta os avisa,</l>
             <l>Quietas que sobre tot</l>
             <l>Cuan la hora será arribada,</l>
             <l>No os faltará un bon xicot;</l>
@@ -1252,7 +1265,7 @@
             <l>Ay mares, &amp;.</l>
           </lg>
           <lg>
-            <l>Las coblas las ha dictadas</l>
+            <l rend="indent">Las coblas las ha dictadas</l>
             <l>Un tal March fusté de Valls,</l>
             <l>Si á algú li cou la llaga,</l>
             <l>Que apretia ferm los caixals;</l>
@@ -1261,16 +1274,17 @@
             <l>Ay mares quen teniu fillas</l>
             <l>No las poseu á servir.</l>
           </lg>
+          
+          <p><lb/>(Es propiedad de J. G.)</p>
           <trailer>FI.</trailer>
         </div>
-        <div type="propriedad">
-          <p><lb/>(Es propiedad de J. G.)</p>
-        </div>
-        <pb n="4" source="Varios_194_4.jpg" facs="fedora_Varios_194_4/full/full/0/default.jpg"/>
-        <div type="parte" n="2">
-          <head type="titulo_parte"><lb/>Cansons del Can-can.</head>
+        
+        <div n="2">
+          <pb n="4" source="Varios_194_4.jpg" facs="varios/Varios_194_4.jpg/"/>
+          <head type="primer_titulo" rend="negrita"><lb/>Cansons del Can-can.</head>
+          
           <lg>
-            <l>Que pensi tot lo mon</l>
+            <l rend="indent">Que pensi tot lo mon</l>
             <l>que hi pensi bona estona</l>
             <l>si un barco que hi ha al port</l>
             <l>al port de Barcelona...</l>
@@ -1280,7 +1294,7 @@
             <l>O be, que 's un ponton.</l>
           </lg>
           <lg>
-            <l>Tot plé de presoners,</l>
+            <l rend="indent">Tot plé de presoners,</l>
             <l>de presoners de guerra,</l>
             <l>qui parla catalá</l>
             <l>y 'n diu ponton no s' erra.</l>
@@ -1290,7 +1304,7 @@
             <l>O 't tancan al ponton.</l>
           </lg>
           <lg>
-            <l>Segons diuhen la gen</l>
+            <l rend="indent">Segons diuhen la gen</l>
             <l>que dú barret de copa,</l>
             <l>lo barco aquell 's diu</l>
             <l>Vapor de guerra Europa,</l>
@@ -1300,7 +1314,7 @@
             <l>Es clar que no es punton.</l>
           </lg>
           <lg>
-            <l>La gent que está alli dins</l>
+            <l rend="indent">La gent que está alli dins</l>
             <l>está mol mal cuidada,</l>
             <l>no pot anarsen, no,</l>
             <l>perque está ben guardada,</l>
@@ -1310,7 +1324,7 @@
             <l>Lo barco es un pónton.</l>
           </lg>
           <lg>
-            <l>Pero sab tot lo mon</l>
+            <l rend="indent">Pero sab tot lo mon</l>
             <l>que un any y mitj arrera</l>
             <l>lo poble, del ponton</l>
             <l>'n feu una foguera.</l>
@@ -1320,7 +1334,7 @@
             <l>Es clar que es un ponton.</l>
           </lg>
           <lg>
-            <l>Pero, si fos ponton</l>
+            <l rend="indent">Pero, si fos ponton</l>
             <l>ni, per sa sort adversa,</l>
             <l>hi hauria mister Hume</l>
             <l>ni 'l que vén paper persa.</l>
@@ -1330,7 +1344,7 @@
             <l>No pot pas ser ponton.</l>
           </lg>
           <lg>
-            <l>Que pensi tot lo mon</l>
+            <l rend="indent">Que pensi tot lo mon</l>
             <l>que pensi bona estona</l>
             <l>si un barco que hi ha al port</l>
             <l>al port de Barcelona...</l>
@@ -1339,9 +1353,9 @@
             <l>Chiton! chiton!</l>
             <l>O be si es un ponton.</l>
           </lg>
-          <p><lb/>Tret de un que ho canta.<lb/>(Copiado de la Campana de
-                                    Gracia.)</p>
+          <p><lb/>Tret de un que ho canta.<lb/>(Copiado de la <hi rend="cursiva">Campana de Gracia</hi>.)</p>
         </div>
+        
         <div>
           <p><lb/>REUS: Imp. de Tosquellas y Zamora.</p>
         </div>

@@ -1,19 +1,17 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../Schema/oddPliego_varios.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:alto="http://www.loc.gov/standards/alto/ns-v4#" xml:id="Varios_148">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Varios_148">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>SÁTIRA GRACIOSA EN QUE SE DECLARAN LAS CONTINUAS DISPUTAS QUE OCURREN
-                              ENTRE SUEGRA Y NUERA.</title>
+        <title>SÁTIRA GRACIOSA</title>
         <respStmt>
           <name/>
           <resp>Codificación TEI</resp>
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <authority role="rightsHolder">Bibliothèque Universitaire de
-                              Genève</authority>
+        <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
         <availability status="restricted">
           <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
         </availability>
@@ -21,18 +19,17 @@
       <sourceDesc>
         <biblFull>
           <titleStmt>
-            <title type="titulo_completo">SÁTIRA GRACIOSA EN QUE SE DECLARAN
-                                          LAS CONTINUAS DISPUTAS QUE OCURREN ENTRE SUEGRA Y
-                                          NUERA.</title>
+            <title type="titulo_completo">SÁTIRA GRACIOSA EN QUE SE DECLARAN LAS CONTINUAS DISPUTAS
+              QUE OCURREN ENTRE SUEGRA Y NUERA.</title>
             <title type="titulo_breve">SÁTIRA GRACIOSA</title>
           </titleStmt>
           <editionStmt>
             <p/>
           </editionStmt>
           <publicationStmt>
-            <publisher>Despacho de Marés y Compañía</publisher>
+            <publisher>José María Marés</publisher>
             <pubPlace ref="https://www.geonames.org/3117735/madrid.html">Madrid</pubPlace>
-            <date cert="high">1873</date>
+            <date cert="high" when="1873-01-01">1873</date>
           </publicationStmt>
         </biblFull>
         <msDesc>
@@ -40,7 +37,8 @@
             <country>Suisse</country>
             <settlement>Genève</settlement>
             <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"/>
-                                    </repository>
+            </repository>
+            <collection>Colección Varios</collection>
             <idno type="cote"/>
             <idno type="DOI">10.5281/zenodo.6586655</idno>
             <altIdentifier>
@@ -87,8 +85,7 @@
               <p>Despacho de Marés y Compañía</p>
             </origin>
             <provenance>
-              <p>*À COMPLETER*: nom du vendeur ( si plusieurs vendeurs
-                                                le premier supposé)</p>
+              <p/>
             </provenance>
             <acquisition>
               <stamp>COL LECCIÓ MANUEL MASSÓ</stamp>
@@ -99,18 +96,17 @@
     </fileDesc>
     <encodingDesc>
       <projectDesc>
-        <p>Este archivo fue creado en el marco del proyecto Desenrollando el
-                              Cordel/Démêler le cordel/Untangling the cordel, dirigido por la
-                              profesora Constance Carta de la Universidad de Ginebra, con el apoyo
-                              de la Fundación filantrópica Famille Sandoz-Monique de Meuron.</p>
+        <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+          cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la Universidad
+          de Ginebra, con el apoyo de la Fundación filantrópica Famille Sandoz-Monique de
+          Meuron.</p>
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR non corregido</p>
+          <p>OCR no corregido</p>
         </correction>
         <normalization>
-          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto
-                                    original.</p>
+          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
         </normalization>
         <punctuation>
           <p>Se conserva la puntuación original.</p>
@@ -124,7 +120,6 @@
       <textClass>
         <keywords xml:base="http://datos.bne.es/tema/">
           <term target="XX5499740.html" type="tipo_texto">Sátiras</term>
-          <term target="XX5500147.html" type="tipo_texto">Letrillas</term>
           <term type="tipo_estrofa">Varias octavillas</term>
           <term type="verso_prosa">Verso</term>
           <term type="sagrado_profano">Profano</term>
@@ -132,10 +127,14 @@
       </textClass>
     </profileDesc>
     <revisionDesc>
-      <change when="2022-09-17" who="#PJ">Création du fichier TEI P5 et encodage du
-                        corps du texte</change>
+      <change when="2022-09-17" who="#PJ">Création du fichier TEI P5 et encodage du corps du
+        texte</change>
+      <change when="2024-01-09" who="#EL">Add the IIIF links</change>
     </revisionDesc>
   </teiHeader>
+  <facsimile>
+    <graphic url="varios/Varios_148_1.jpg/full/200,/0/default.jpg"/>
+  </facsimile>
   <sourceDoc xml:id="automaticTranscription">
     <surface xml:id="Varios_148_1" type="page" cert="silver">
       <graphic url="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_148_1/full/full/0/default.jpg"/>
@@ -1305,12 +1304,13 @@
     <body>
       <div>
         <div>
-          <pb n="1" source="Varios_148_1.jpg" facs="fedora_Varios_148_1/full/full/0/default.jpg"/>
-          <head type="primer_titulo"><lb/>SÁTIRA GRACIOSA</head>
-          <head type="subtitulo_parte"><lb/>EN QUE SE DECLARAN LAS CONTINUAS
-                                    DISPUTAS QUE<lb/>OCURREN ENTRE<lb/>SUEGRA Y NUERA.</head>
+          <pb n="1" source="Varios_148_1.jpg" facs="varios/Varios_148_1.jpg/"/>
+          
+          <head type="primer_titulo"><lb/><hi rend="negrita">SÁTIRA GRACIOSA</hi><lb/>EN QUE SE DECLARAN LAS CONTINUAS DISPUTAS
+            QUE<lb/>OCURREN ENTRE<lb/>SUEGRA Y NUERA.</head>
+
           <sp>
-            <speaker>Nuera.</speaker>
+            <speaker rend="cursiva">Nuera.</speaker>
             <l>Mal haya quien me casó</l>
             <l>para tanto litigar</l>
             <l>con una maldita suegra</l>
@@ -1325,7 +1325,7 @@
             <l>por mi vida, á fé!</l>
           </sp>
           <sp>
-            <speaker>Suegra.</speaker>
+            <speaker rend="cursiva">Suegra.</speaker>
             <l>Mal haya quien mo juntó</l>
             <l>con esa maldita nuera:</l>
             <l>desde que entró en mi casa</l>
@@ -1339,9 +1339,11 @@
             <l>y con los mocitos</l>
             <l>slempre la hallo hablando</l>
           </sp>
-          <pb n="2" source="Varios_148_2.jpg" facs="fedora_Varios_148_2/full/full/0/default.jpg"/>
+          
+          <pb n="2" source="Varios_148_2.jpg" facs="varios/Varios_148_2.jpg/"/>
+          
           <sp>
-            <speaker>N.</speaker>
+            <speaker rend="cursiva">N.</speaker>
             <l>Mi marido me engañó</l>
             <l>cuando me habló de casarse,</l>
             <l>¿por qué no me dió á entender</l>
@@ -1356,7 +1358,7 @@
             <l>mirándome fuera.</l>
           </sp>
           <sp>
-            <speaker>S.</speaker>
+            <speaker rend="cursiva">S.</speaker>
             <l>Tú, nuera, tú me engañaste,</l>
             <l>y al pobre de tu marido,</l>
             <l>diciendo trabajarias,</l>
@@ -1371,7 +1373,7 @@
             <l>palabra ni media.</l>
           </sp>
           <sp>
-            <speaker>N.</speaker>
+            <speaker rend="cursiva">N.</speaker>
             <l>No me vaya usted enfadando,</l>
             <l>que yo diré á mi marido</l>
             <l>que la saque de mi lado</l>
@@ -1386,7 +1388,7 @@
             <l>y me deje en calma.</l>
           </sp>
           <sp>
-            <speaker>S.</speaker>
+            <speaker rend="cursiva">S.</speaker>
             <l>Solo por ir acechando</l>
             <l>para vijilar tu vida,</l>
             <l>y ver cuáles son tus pasos,</l>
@@ -1401,7 +1403,7 @@
             <l>y no que se pierda.</l>
           </sp>
           <sp>
-            <speaker>N.</speaker>
+            <speaker rend="cursiva">N.</speaker>
             <l>¿Cómo, mala vieja,</l>
             <l>si la está desperdiciando</l>
             <l>hurtándome lo que puede,</l>
@@ -1416,7 +1418,7 @@
             <l>dárselo á entender.</l>
           </sp>
           <sp>
-            <speaker>S.</speaker>
+            <speaker rend="cursiva">S.</speaker>
             <l>Embustera sin sentido,</l>
             <l>¿qué saco yo de tu casa?</l>
             <l>á Dios pongo por testigo</l>
@@ -1431,7 +1433,7 @@
             <l>he de renegar.</l>
           </sp>
           <sp>
-            <speaker>N.</speaker>
+            <speaker rend="cursiva">N.</speaker>
             <l>Usted hace guisadillos</l>
             <l>diciendo que está colando;</l>
             <l>nunca le falta el jarrito,</l>
@@ -1446,12 +1448,14 @@
             <l>maldita fantasma.</l>
           </sp>
           <sp>
-            <speaker>S.</speaker>
+            <speaker rend="cursiva">S.</speaker>
             <l>Y tú que á mi hijo dices</l>
             <l>que estás siempre desganada,</l>
             <l>y cuando el pobre se va</l>
             <l>te comes buena empanada:</l>
-            <pb n="3" source="Varios_148_3.jpg" facs="fedora_Varios_148_3/full/full/0/default.jpg"/>
+            
+            <pb n="3" source="Varios_148_3.jpg" facs="varios/Varios_148_3.jpg/"/>
+            
             <l>¡oh que picardia;</l>
             <l>demonio de nuera,</l>
             <l>ruega que mi bijo</l>
@@ -1462,7 +1466,7 @@
             <l>pan de dos semanas.</l>
           </sp>
           <sp>
-            <speaker>N.</speaker>
+            <speaker rend="cursiva">N.</speaker>
             <l>Suegra, usted al vecindario</l>
             <l>se pasa todos los dias</l>
             <l>á tomar el chocolale,</l>
@@ -1477,7 +1481,7 @@
             <l>se lo contaré.</l>
           </sp>
           <sp>
-            <speaker>S.</speaker>
+            <speaker rend="cursiva">S.</speaker>
             <l>Y tú, nuera, el otro dia,</l>
             <l>le vendiste á mi vecino</l>
             <l>tres libras de chocolate,</l>
@@ -1492,7 +1496,7 @@
             <l>tales villanías?</l>
           </sp>
           <sp>
-            <speaker>N.</speaker>
+            <speaker rend="cursiva">N.</speaker>
             <l>Ay suegra. tu faltriquera</l>
             <l>llena está de chucherías,</l>
             <l>como azúcar en terron</l>
@@ -1519,7 +1523,7 @@
             <l>á mi hijo engañaste.</l>
           </sp>
           <sp>
-            <speaker>V.</speaker>
+            <speaker rend="cursiva">V.</speaker>
             <l>Y usted cuando se va á misa</l>
             <l>levantándose á las diez,</l>
             <l>y luego no vuelve á casa</l>
@@ -1534,7 +1538,7 @@
             <l>allí la comida.</l>
           </sp>
           <sp>
-            <speaker>S.</speaker>
+            <speaker rend="cursiva">S.</speaker>
             <l>Tú tienes la obligacion</l>
             <l>de servirme la comida,</l>
             <l>soy madre de tu marido,</l>
@@ -1549,7 +1553,7 @@
             <l>no chiste palabra.</l>
           </sp>
           <sp>
-            <speaker>N.</speaker>
+            <speaker rend="cursiva">N.</speaker>
             <l>A quién dice zancajosa,</l>
             <l>si siempre le cuelga el moco,</l>
             <l>porque su casta es mocosa</l>
@@ -1558,14 +1562,16 @@
             <l>por boca y narices,</l>
             <l>solo de tabaco</l>
             <l>cincuenta cahices.</l>
-            <pb n="4" source="Varios_148_4.jpg" facs="fedora_Varios_148_4/full/full/0/default.jpg"/>
+            
+            <pb n="4" source="Varios_148_4.jpg" facs="varios/Varios_148_4.jpg/"/>
+            
             <l>Enla es la cochina,</l>
             <l>pues los mocos echa,</l>
             <l>no es mucho, pues es</l>
             <l>su propia cosecha.</l>
           </sp>
           <sp>
-            <speaker>S.</speaker>
+            <speaker rend="cursiva">S.</speaker>
             <l>Eso tú, picara nuera.</l>
             <l>madre de la suciedad,</l>
             <l>pues juzgo si se perdiora</l>
@@ -1580,7 +1586,7 @@
             <l>de escalera abajo.</l>
           </sp>
           <sp>
-            <speaker>N.</speaker>
+            <speaker rend="cursiva">N.</speaker>
             <l>¿Qué dice la vieja chocha,</l>
             <l>sabe con quien está hablando?</l>
             <l>soy la mujer de su hijo</l>
@@ -1595,7 +1601,7 @@
             <l>en esa corcoba.</l>
           </sp>
           <sp>
-            <speaker>S.</speaker>
+            <speaker rend="cursiva">S.</speaker>
             <l>¡Ah, picara relamida!</l>
             <l>¿de este modo has de hablar</l>
             <l>á la honrada de tu suegra?</l>
@@ -1608,7 +1614,7 @@
             <l>vil desvergonzada,</l>
             <l>sirvate de enmienda</l>
             <l>esta bofetada.</l>
-            <l>Y empiezan á bofetones,</l>
+            <l rend="indent">Y empiezan á bofetones,</l>
             <l>la suegra veneno echando,</l>
             <l>con cuatro ó seis torniscones</l>
             <l>la cara le ha ensangreutado.</l>
@@ -1620,7 +1626,7 @@
             <l>se tiran las greñas,</l>
             <l>y anda una zaranda</l>
             <l>que es placor el verlas.</l>
-            <l>En esto vino el marido,</l>
+            <l rend="indent">En esto vino el marido,</l>
             <l>viendo herida á su mujer</l>
             <l>y á su madre ensangrentad:</l>
             <l>un palo cogió tambien,</l>
@@ -1632,7 +1638,7 @@
             <l>la mujer se cae,</l>
             <l>y con todo la suegra</l>
             <l>aun dale que dale.</l>
-            <l>Doncellas, no os cascis</l>
+            <l rend="indent">Doncellas, no os cascis</l>
             <l>con mozo que tenga madre</l>
             <l>porque las suegras y nucras</l>
             <l>es muy dificil que cuadren;</l>
@@ -1647,8 +1653,7 @@
           </sp>
         </div>
         <div type="colofon">
-          <p><lb/>MADRID.—1873. Despacho de Marés y Compañia, Juanelo,
-                                    19.</p>
+          <p><lb/>MADRID.—1873. <lb/>Despacho de Marés y Compañia, Juanelo, 19.</p>
         </div>
       </div>
     </body>

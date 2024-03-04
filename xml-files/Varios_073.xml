@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../Schema/oddPliego_varios.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:alto="http://www.loc.gov/standards/alto/ns-v4#" xml:id="Varios_073">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Varios_073">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -11,8 +11,7 @@
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <authority role="rightsHolder">Bibliothèque Universitaire de
-                            Genève</authority>
+        <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
         <availability status="restricted">
           <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
         </availability>
@@ -20,16 +19,17 @@
       <sourceDesc>
         <biblFull>
           <titleStmt>
-            <title type="titulo_completo">EL AS DE BASTOS Polka del popular maestro D. Enrique Martí.</title>
+            <title type="titulo_completo">EL AS DE BASTOS Polka del popular maestro D. Enrique
+              Martí.</title>
             <title type="titulo_breve">EL AS DE BASTOS</title>
           </titleStmt>
           <editionStmt>
             <p/>
           </editionStmt>
           <publicationStmt>
-            <publisher>Imp. Peninsular</publisher>
+            <publisher>Imprenta Peninsular</publisher>
             <pubPlace ref="https://www.geonames.org/3128760/barcelona.html">Barcelona</pubPlace>
-            <date>[s.a]</date>
+            <date cert="low" when="1800-01-01">[s.a.]</date>
           </publicationStmt>
         </biblFull>
         <msDesc>
@@ -37,7 +37,8 @@
             <country>Suisse</country>
             <settlement>Genève</settlement>
             <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"/>
-                  </repository>
+            </repository>
+            <collection>Colección Varios</collection>
             <idno type="cote"/>
             <idno type="DOI">10.5281/zenodo.6565868</idno>
             <altIdentifier>
@@ -45,10 +46,18 @@
             </altIdentifier>
           </msIdentifier>
           <msContents>
-            <summary/>
+            <summary>Tres canciones</summary>
             <msItem>
-              <locus/>
-              <title/>
+              <locus>1-2</locus>
+              <title>El As de Bastos</title>
+            </msItem>
+            <msItem>
+              <locus>2-3</locus>
+              <title>Las firas y festas.</title>
+            </msItem>
+            <msItem>
+              <locus>3-4</locus>
+              <title>St. St. St.</title>
             </msItem>
           </msContents>
           <physDesc>
@@ -66,7 +75,7 @@
               </layoutDesc>
             </objectDesc>
             <decoDesc>
-              <summary n="1">Uno grabado (p.1) </summary>
+              <summary n="1">Un grabado (p.1) </summary>
               <decoNote type="lista_grabados">
                 <list>
                   <item corresp="grabado_v_073_1.xml">grabado_v_073_1</item>
@@ -91,18 +100,17 @@
     </fileDesc>
     <encodingDesc>
       <projectDesc>
-        <p>Este archivo fue creado en el marco del proyecto Desenrollando el
-                            Cordel/Démêler le cordel/Untangling the cordel, dirigido por la
-                            profesora Constance Carta de la Universidad de Ginebra, con el apoyo de
-                            la Fundación filantrópica Famille Sandoz-Monique de Meuron.</p>
+        <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+          cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la Universidad
+          de Ginebra, con el apoyo de la Fundación filantrópica Famille Sandoz-Monique de
+          Meuron.</p>
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR non corregido</p>
+          <p>OCR no corregido</p>
         </correction>
         <normalization>
-          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto
-                                original.</p>
+          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
         </normalization>
         <punctuation>
           <p>Se conserva la puntuación original.</p>
@@ -124,9 +132,13 @@
     </profileDesc>
     <revisionDesc>
       <change when="2022-06-16" who="#PJ">Création du fichier TEI P5 et encodage du corps du
-                        texte</change>
+        texte</change>
+      <change when="2024-01-09" who="#EL">Add the IIIF links</change>
     </revisionDesc>
   </teiHeader>
+  <facsimile>
+    <graphic url="varios/Varios_073_1.jpg/full/200,/0/default.jpg"/>
+  </facsimile>
   <sourceDoc xml:id="automaticTranscription">
     <surface xml:id="Varios_073_1" type="page" cert="silver">
       <graphic url="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_073_1/full/full/0/default.jpg"/>
@@ -1295,390 +1307,391 @@
   <text>
     <body>
       <div>
-        <pb n="1" source="Varios_073_1.jpg" facs="fedora_Varios_073_1/full/full/0/default.jpg"/>
-        <div type="parte" n="1">
-          <head type="primer_titulo"><lb/>EL AS DE BASTOS</head>
-          <head type="subtitulo_parte"><lb/>Polka del popular maestro D. Enrique Martí.</head>
-          <lg>
-            <l>Es el aa de bastos, niña,</l>
-            <l>una carta singular,</l>
-            <l>para mostrarlo se guiña</l>
-            <l>el ojo, antes de jugar.</l>
-            <l>Dé este modo á los amantes</l>
-            <l>se hacen soñas de valor,</l>
-            <l>sl es que sabon ser constantes</l>
-            <l>en el Juego del amor.</l>
-            <l>Sin más ni más</l>
-            <l>No lo gasteis</l>
-          </lg>
-          <lg>
-            <l>más vale un as</l>
-            <l>que un cuatro ó diez.</l>
-            <l>Si le tirais</l>
-            <l>os va á faltar</l>
-            <l>cuando tengais</l>
-            <l>que lr á fallar.</l>
-            <l>¡Ay! que bonito siempre es el jugar</l>
-            <l>¡ay! cuando sabe que la han de querer;</l>
-            <l>¡ay! como se barajan sin cesar</l>
-            <l>las cartas entre el hombre y la mujer.</l>
-          </lg>
-          <pb n="2" source="Varios_073_2.jpg" facs="fedora_Varios_073_2/full/full/0/default.jpg"/>
-          <fw type="paginaNum">-2-</fw>
-          <lg>
-            <l>Por un beso, vida mía,</l>
-            <l>de tu boquita de miel,</l>
-            <l>todo un mundo te daria</l>
-            <l>que á tu dicha fuese fiel.</l>
-            <l>Y si alguno se atreviera</l>
-            <l>es de bastos tengo yo</l>
-            <l>con que paliza le diera</l>
-            <l>si me robase mi amor.</l>
-            <l>Por Dios mi bien</l>
-            <l>calma mi afán,</l>
-            <l>que yo soy quien</l>
-            <l>es tu galan.</l>
-            <l>Si me amas tu,</l>
-            <l>que dicha al fin,</l>
-            <l>al cielo azul</l>
-            <l>quiero partir.</l>
-            <l>¡Ay! que bonito siempre es el jugar, etc.</l>
-          </lg>
-          <lg>
-            <l>Con las cartas en la mano</l>
-            <l>yo el amor te esplicaré.</l>
-            <l>con ellas todo lo allano:</l>
-            <l>con ellas todo lo sé</l>
-            <l>Verás como te demestro</l>
-            <l>la ventura y el placer</l>
-            <l>verás como soy maestro</l>
-            <l>de la ciencia del querer.</l>
-            <l>Conmigo ven</l>
-            <l>te quiero dar</l>
-            <l>pare tu bien</l>
-            <l>leccion de amar.</l>
-            <l>A muchas di</l>
-            <l>cuanto se yo</l>
-            <l>dime tu si,</l>
-            <l>ya que otro no,</l>
-            <l>¡Ay! que bonito siempre es el jugar, etc.</l>
-          </lg>
-          <lg>
-            <l>Será mi cuarto la escuela</l>
-            <l>y yo seré el profesor,</l>
-            <l>tus ojos serán la vela</l>
-            <l>y el tibro tu corazon.</l>
-            <l>Del amar conjugaremos</l>
-            <l>todo el verbo y nada más;</l>
-            <l>de este modo estudiaremos</l>
-            <l>y tu á amarme aprenderas.</l>
-            <l>me quieres tú;</l>
-            <l>Te amo yo</l>
-            <l>conjugacion</l>
-            <l>del bien trasluz.</l>
-            <l>sin replicar</l>
-            <l>Vas á venir</l>
-            <l>te hare sentir</l>
-            <l>lo que es amar.</l>
-            <l>¡Ay! que bonito siempre es el jugar, etc.</l>
-          </lg>
-          <lg>
-            <l>Cuando juegues con tu amante</l>
-            <l>ten cuidado en el tirar,</l>
-            <l>que si tiene un as delante</l>
-            <l>con el otro va á fallar.</l>
-            <l>yo no sé quien podrá ser</l>
-            <l>Y el que gane le partida</l>
-            <l>que en este juego la vida</l>
-            <l>va del hombre á la mujer.</l>
-            <l>Serás feliz,</l>
-            <l>feliz serás</l>
-            <l>si sin deliz</l>
-            <l>guardas el as.</l>
-            <l>es lo mejor;</l>
-            <l>Que éste á su vez</l>
-            <l>la carta es</l>
-            <l>de más valor.</l>
-            <l>Ay! que bonito siempre es el jugar, etc.</l>
-          </lg>
-        </div>
-        <div type="parte" n="2">
-          <head type="titulo_cancion"><lb/>LAS FIRAS Y FESTAS.<lb/>Pera cantar ab la tonada de: En Zumalacarregui diu que vol venir.</head>
-          <lg>
-            <l>Ara venen festas</l>
-            <l>que bonas serán</l>
-            <l>músicas y orquestas</l>
-            <l>per tot anirán</l>
-            <l>per poguerho veure</l>
-            <l>forastera vindrán,</l>
-            <l>si ab la bossa plena</l>
-            <l>prou la buydarán</l>
-          </lg>
-          <lg>
-            <l>ay, ay, ay que riurém</l>
-            <l>ab las firas y festas</l>
-            <l>ay, ay, ay que riurém</l>
-            <l>ab tot lo que veurem.</l>
-            <l>Aquest any tres dias</l>
-            <l>no més ni aurán;</l>
-            <l>quinas alegrías</l>
-            <l>tan curtas sorón.</l>
-          </lg>
-          <pb n="3" source="Varios_073_3.jpg" facs="fedora_Varios_073_3/full/full/0/default.jpg"/>
-          <fw type="paginaNum">-3-</fw>
-          <lg>
-            <l>com no hi ha dinero</l>
-            <l>hi haurá pocn sarmega,</l>
-            <l>l' any que ve ja diuhen</l>
-            <l>que serán millors.</l>
-          </lg>
-          <lg>
-            <l>ay, ay, ay que riurém etc.</l>
-          </lg>
-          <lg>
-            <l>A la Rambla globos</l>
-            <l>jo no hi encendrán</l>
-            <l>dos ó tres domassos</l>
-            <l>no més posarán</l>
-            <l>á casa lá vila</l>
-            <l>ó de la ciutat,</l>
-            <l>que ja fa alguns dias</l>
-            <l>no 'ls Lan espolsat.</l>
-          </lg>
-          <lg>
-            <l>ay. ay, ay que riurém, etc.</l>
-          </lg>
-          <lg>
-            <l>No hi haura mulasea</l>
-            <l>ni tempoch gegants</l>
-            <l>diu que gastan massa</l>
-            <l>perque son tan grans;</l>
-            <l>ni de Vilaf anca</l>
-            <l>tampoch vindrá 'l drach,</l>
-            <l>ni res del que deyan</l>
-            <l>hi haura en lo Parch.</l>
-          </lg>
-          <lg>
-            <l>ay, ay, ay que riurém, etc.</l>
-          </lg>
-          <lg>
-            <l>Cuatre correcamas</l>
-            <l>un vespre encendran,</l>
-            <l>los de benas camas</l>
-            <l>mirarlos podrán;</l>
-            <l>que á les Hermanitas</l>
-            <l>diu que 'ls tirarám</l>
-            <l>á la plassa nova</l>
-            <l>que es de Tetuan</l>
-          </lg>
-          <lg>
-            <l>ay, ay, ay que riurem etc.</l>
-          </lg>
-          <lg>
-            <l>A las set, dissapte</l>
-            <l>sortirán soldats</l>
-            <l>com qui fa una capta</l>
-            <l>darán al vehinat</l>
-            <l>quatre tocs de bombo</l>
-            <l>que 'ns aixordarán.</l>
-            <l>com si tots los viudos</l>
-            <l>s' haguessin casat...</l>
-          </lg>
-          <lg>
-            <l>Ay, ay, ay, que riurém, etc.</l>
-          </lg>
-          <lg>
-            <l>Carretons dels gossos</l>
-            <l>també correrán</l>
-            <l>perque elguns de grossos</l>
-            <l>de fora 'n vindrán</l>
-            <l>d' equesta manera</l>
-            <l>molts n'agafarán</l>
-            <l>perque los de fora</l>
-            <l>n' están ignorants.</l>
-          </lg>
-          <lg>
-            <l>Ay. ay, ay, que riurém etc,</l>
-          </lg>
-          <lg>
-            <l>Pera fer més gresca</l>
-            <l>també correrán</l>
-            <l>lo que ara 'us engresca</l>
-            <l>y 'us agrada tan;</l>
-            <l>aquellas campanas</l>
-            <l>com d' un combregá;</l>
-            <l>que 'ls escombriaires</l>
-            <l>ara fan portá.</l>
-          </lg>
-          <lg>
-            <l>A. ay, ay, que riurém, ete!</l>
-          </lg>
-          <p><lb/>(Torna la primera estrofa</p>
-        </div>
         <div>
-          <head type="titulo_cancion"><lb/>St. St. St.<lb/>Polxa del popular maestro D. Enrique Martí.</head>
-          <lg>
-            <l>St. st. st</l>
-            <l>Hermana mia ven por Dios</l>
-            <l>á bailar alli,</l>
-            <l>que te espero á ti</l>
-            <l>para ventura de los dos.</l>
-            <l>St., st. st.</l>
-            <l>no te hagas sorda á mi placer</l>
-            <l>que es amor al fin</l>
-            <l>sávia del jardin</l>
-            <l>donde ha nacido la mujer.</l>
-            <l>St., st. st.</l>
-            <l>Hermosa míf yen por Dios</l>
-          </lg>
-          <lg>
-            <l>á bailar alli</l>
-            <l>que te espero á ti</l>
-            <l>para ventura de los dos.</l>
-            <l>St., st., st.,</l>
-            <l>no te hagas corda á mi placer</l>
-            <l>que eres tu sin par</l>
-            <l>la que incita á amar</l>
-            <l>Oyeme st., st.; óyeme st., st.,</l>
-            <l>si te vas st., st., si te vas st., st.,.</l>
-            <l>sin tu nostro póder ver</l>
-            <l>quedo yo en un cruel sufrir;</l>
-            <l>oyeme st., st., óyeme st., st.,</l>
-          </lg>
-          <pb n="4" source="Varios_073_4.jpg" facs="fedora_Varios_073_4/full/full/0/default.jpg"/>
-          <fw type="paginaNum">—4—</fw>
-          <lg>
-            <l>si ta vas st., st, si ta vas st., st.,</l>
-            <l>que es al cabo la mujer</l>
-            <l>la que amor hace sentir.</l>
-            <l>Soy tu galan</l>
-            <l>soy tu pasion,</l>
-            <l>eres tu iman</l>
-            <l>del corazon,</l>
-            <l>Siento bullir,</l>
-            <l>slento filtrar</l>
-            <l>lo que vivir</l>
-            <l>hace y gozar.</l>
-          </lg>
-          <lg>
-            <l>Ven aqui</l>
-            <l>sin tardar</l>
-            <l>que el placer</l>
-            <l>va á pasar.</l>
-          </lg>
-          <lg>
-            <l>Que despues</l>
-            <l>no se yo</l>
-            <l>si á volver</l>
-            <l>va el amor.</l>
-          </lg>
-          <lg>
-            <l>St. st. st.,</l>
-            <l>me gritan desde su balcon</l>
-            <l>hermosa mujer</l>
-            <l>que Incita á querer</l>
-            <l>y fuego pega al corázon.</l>
-            <l>St., st., st.</l>
-            <l>no quiero no su voz oir</l>
-            <l>que es falso amor</l>
-            <l>el que con ardor</l>
-            <l>se propene hacerme sentir.</l>
-            <l>St., st., st.</l>
-            <l>me grita desde su balcon</l>
-            <l>hermosa mujer</l>
-            <l>me incita á querer</l>
-            <l>y fuego pe a el corazon.</l>
-            <l>St., St., st.,</l>
-            <l>no qulero no su voz otr</l>
-            <l>que es falso amor</l>
-            <l>todo su calor.</l>
-            <l>Yo me voy st. st.; yo me voy st. st.</l>
-            <l>inútil es st., inútil es, st., st.</l>
-            <l>no me quiero detener</l>
-            <l>que es muy fácil resbular</l>
-            <l>Yo me voy st., st.; yo me voy st., st.</l>
-            <l>inútil es st., st.; inútil es st., st.,</l>
-            <l>no me llames no mujer</l>
-            <l>porque no te he de escuchar.</l>
-          </lg>
-          <lg>
-            <l>Es su mirar,</l>
-            <l>es su reir,</l>
-            <l>de su pasar</l>
-            <l>muestra sútil.</l>
-            <l>Todo su amor</l>
-          </lg>
-          <lg>
-            <l>falte es do fe</l>
-            <l>nunca valor</l>
-            <l>podrá tener.</l>
-          </lg>
-          <lg>
-            <l>Ve de aquí</l>
-            <l>sin tardar,</l>
-            <l>que placer</l>
-            <l>no he de hallar</l>
-          </lg>
-          <lg>
-            <l>Que con él</l>
-            <l>ya se yo</l>
-            <l>no vendra,</l>
-            <l>no, el amor.</l>
-          </lg>
-          <lg>
-            <l>St., st., st.,</l>
-            <l>sal moreníta á contemplar</l>
-            <l>hoy á tu galan</l>
-            <l>que con noble afan</l>
-            <l>va sus amores á explicar.</l>
-            <l>St, st, st.,</l>
-            <l>no me hagas no resistir</l>
-            <l>tu injusto desden</l>
-            <l>que yo soy tu bien</l>
-            <l>y á mí tu hoy me haces morir.</l>
-            <l>St., St., st.</l>
-            <l>Sal morenita á contemplar</l>
-            <l>hoy á tu galan</l>
-            <l>que con noble afan</l>
-            <l>va sus amores á explicar.</l>
-            <l>St, st. st.</l>
-            <l>no me hagas no resistir</l>
-            <l>tu injusto desden</l>
-            <l>que yo soy tu bien.</l>
-            <l>Mirame st., st., mirame st.,st.</l>
-            <l>á tus piés st., st., á tus piés, st., st.,</l>
-            <l>de amor lleno el corazon</l>
-            <l>sin consuelo á mi pesar.</l>
-            <l>Mirame st., st., mirame st., st.,</l>
-            <l>á tus piés st., st., á tus plés st., st.,</l>
-            <l>Juguete de esta ílusion</l>
-            <l>que nace de tanto amar.</l>
-          </lg>
-          <lg>
-            <l>Eres tu el sol</l>
-            <l>de mi pasion</l>
-            <l>cuyo arrebol</l>
-            <l>da la ilusion.</l>
-            <l>Quiero besar</l>
-            <l>tu faz de huri</l>
-            <l>quiero espirár</l>
-            <l>pensando en tí.</l>
-          </lg>
-          <lg>
-            <l>Oyeme</l>
-            <l>mi beldad</l>
-            <l>oye por</l>
-            <l>caridad.</l>
-          </lg>
-          <lg>
-            <l>Mi placer,</l>
-            <l>mi dolor,</l>
-            <l>todos van</l>
-            <l>con mi amor.</l>
-          </lg>
+          <pb n="1" source="Varios_073_1.jpg" facs="varios/Varios_073_1.jpg/"/>
+
+          <div n="1">
+            <head type="primer_titulo"><lb/>EL AS DE BASTOS</head>
+            <head type="subtitulo_parte"><lb/>Polka del popular maestro D. Enrique Martí.</head>
+
+            <lg>
+              <l rend="indent">Es el aa de bastos, niña,</l>
+              <l>una carta singular,</l>
+              <l>para mostrarlo se guiña</l>
+              <l>el ojo, antes de jugar.</l>
+              <l rend="indent">De este modo á los amantes</l>
+              <l>se hacen soñas de valor,</l>
+              <l>sl es que sabon ser constantes</l>
+              <l>en el Juego del amor.</l>
+              <l rend="indent">Sin más ni más</l>
+              <l>No lo gasteis</l>
+              <l>más vale un as</l>
+              <l>que un cuatro ó diez.</l>
+              <l rend="indent">Si le tirais</l>
+              <l>os va á faltar</l>
+              <l>cuando tengais</l>
+              <l>que lr á fallar.</l>
+              <l rend="indent">¡Ay! que bonito siempre es el jugar</l>
+              <l>¡ay! cuando sabe que la han de querer;</l>
+              <l>¡ay! como se barajan sin cesar</l>
+              <l>las cartas entre el hombre y la mujer.</l>
+
+              <pb n="2" source="Varios_073_2.jpg" facs="varios/Varios_073_2.jpg/"/>
+              <fw type="paginaNum">-2-</fw>
+
+              <l rend="indent">Por un beso, vida mía,</l>
+              <l>de tu boquita de miel,</l>
+              <l>todo un mundo te daria</l>
+              <l>que á tu dicha fuese fiel.</l>
+              <l rend="indent">Y si alguno se atreviera</l>
+              <l>es de bastos tengo yo</l>
+              <l>con que paliza le diera</l>
+              <l>si me robase mi amor.</l>
+              <l rend="indent">Por Dios mi bien</l>
+              <l>calma mi afán,</l>
+              <l>que yo soy quien</l>
+              <l>es tu galan.</l>
+              <l rend="indent">Si me amas tu,</l>
+              <l>que dicha al fin,</l>
+              <l>al cielo azul</l>
+              <l>quiero partir.</l>
+              <l rend="indent">¡Ay! que bonito siempre es el jugar, etc.</l>
+            </lg>
+
+            <lg>
+              <l rend="indent">Con las cartas en la mano</l>
+              <l>yo el amor te esplicaré.</l>
+              <l>con ellas todo lo allano:</l>
+              <l>con ellas todo lo sé</l>
+              <l rend="indent">Verás como te demestro</l>
+              <l>la ventura y el placer</l>
+              <l>verás como soy maestro</l>
+              <l>de la ciencia del querer.</l>
+              <l rend="indent">Conmigo ven</l>
+              <l>te quiero dar</l>
+              <l>pare tu bien</l>
+              <l>leccion de amar.</l>
+              <l rend="indent">A muchas di</l>
+              <l>cuanto se yo</l>
+              <l>dime tu si,</l>
+              <l>ya que otro no,</l>
+              <l rend="indent">¡Ay! que bonito siempre es el jugar, etc.</l>
+            </lg>
+
+            <lg>
+              <l rend="indent">Será mi cuarto la escuela</l>
+              <l>y yo seré el profesor,</l>
+              <l>tus ojos serán la vela</l>
+              <l>y el tibro tu corazon.</l>
+              <l rend="indent">Del amar conjugaremos</l>
+              <l>todo el verbo y nada más;</l>
+              <l>de este modo estudiaremos</l>
+              <l>y tu á amarme aprenderas.</l>
+              <l>me quieres tú;</l>
+              <l rend="indent">Te amo yo</l>
+              <l>conjugacion</l>
+              <l>del bien trasluz.</l>
+              <l>sin replicar</l>
+              <l rend="indent">Vas á venir</l>
+              <l>te hare sentir</l>
+              <l>lo que es amar.</l>
+              <l rend="indent">¡Ay! que bonito siempre es el jugar, etc.</l>
+            </lg>
+
+            <lg>
+              <l rend="indent">Cuando juegues con tu amante</l>
+              <l>ten cuidado en el tirar,</l>
+              <l>que si tiene un as delante</l>
+              <l>con el otro va á fallar.</l>
+              <l>yo no sé quien podrá ser</l>
+              <l rend="indent">Y el que gane le partida</l>
+              <l>que en este juego la vida</l>
+              <l>va del hombre á la mujer.</l>
+              <l rend="indent">Serás feliz,</l>
+              <l>feliz serás</l>
+              <l>si sin deliz</l>
+              <l>guardas el as.</l>
+              <l>es lo mejor;</l>
+              <l rend="indent">Que éste á su vez</l>
+              <l>la carta es</l>
+              <l>de más valor.</l>
+              <l rend="indent">¡Ay! que bonito siempre es el jugar, etc.</l>
+            </lg>
+          </div>
+
+          <div n="2">
+            <head type="titulo_cancion"><lb/>LAS FIRAS Y FESTAS.</head>
+            <head type="subtitulo_cancion"><lb/>Pera cantar ab la tonada de: En Zumalacarregui diu
+              que vol venir.</head>
+
+            <lg>
+              <l rend="indent">Ara venen festas</l>
+              <l>que bonas serán</l>
+              <l>músicas y orquestas</l>
+              <l>per tot anirán</l>
+              <l>per poguerho veure</l>
+              <l>forastera vindrán,</l>
+              <l>si ab la bossa plena</l>
+              <l>prou la buydarán</l>
+            </lg>
+
+            <lg>
+              <l>ay, ay, ay que riurém</l>
+              <l>ab las firas y festas</l>
+              <l>ay, ay, ay que riurém</l>
+              <l>ab tot lo que veurem.</l>
+            </lg>
+
+            <lg>
+              <l rend="indent">Aquest any tres dias</l>
+              <l>no més ni aurán;</l>
+              <l>quinas alegrías</l>
+              <l>tan curtas sorón.</l>
+
+              <pb n="3" source="Varios_073_3.jpg" facs="varios/Varios_073_3.jpg/"/>
+              <fw type="paginaNum">-3-</fw>
+
+              <l>com no hi ha <hi rend="cursiva">dinero</hi></l>
+              <l>hi haurá poch <hi rend="cursiva">sarmon</hi>,</l>
+              <l>l'any que ve ja diuhen</l>
+              <l>que serán millors.</l>
+            </lg>
+
+            <l>ay, ay, ay que riurém etc.</l>
+
+            <lg>
+              <l>A la Rambla globos</l>
+              <l>jo no hi encendrán</l>
+              <l>dos ó tres domassos</l>
+              <l>no més posarán</l>
+              <l>á casa lá vila</l>
+              <l>ó de la ciutat,</l>
+              <l>que ja fa alguns dias</l>
+              <l>no 'ls Lan espolsat.</l>
+            </lg>
+
+            <l>ay. ay, ay que riurém, etc.</l>
+
+            <lg>
+              <l rend="indent">No hi haura mulasea</l>
+              <l>ni tempoch gegants</l>
+              <l>diu que gastan massa</l>
+              <l>perque son tan grans;</l>
+              <l>ni de Vilaf anca</l>
+              <l>tampoch vindrá 'l drach,</l>
+              <l>ni res del que deyan</l>
+              <l>hi haura en lo Parch.</l>
+            </lg>
+
+            <l>ay, ay, ay que riurém, etc.</l>
+
+            <lg>
+              <l rend="indent">Cuatre correcamas</l>
+              <l>un vespre encendran,</l>
+              <l>los de benas camas</l>
+              <l>mirarlos podrán;</l>
+              <l>que á les Hermanitas</l>
+              <l>diu que 'ls tirarám</l>
+              <l>á la plassa nova</l>
+              <l>que es de Tetuan</l>
+            </lg>
+
+            <l>ay, ay, ay que riurem etc.</l>
+
+            <lg>
+              <l>A las set, dissapte</l>
+              <l>sortirán soldats</l>
+              <l>com qui fa una capta</l>
+              <l>darán al vehinat</l>
+              <l>quatre tocs de bombo</l>
+              <l>que 'ns aixordarán.</l>
+              <l>com si tots los viudos</l>
+              <l>s' haguessin casat...</l>
+            </lg>
+
+            <l>Ay, ay, ay, que riurém, etc.</l>
+
+            <lg>
+              <l rend="indent">Carretons dels gossos</l>
+              <l>també correrán</l>
+              <l>perque elguns de grossos</l>
+              <l>de fora 'n vindrán</l>
+              <l>d' equesta manera</l>
+              <l>molts n'agafarán</l>
+              <l>perque los de fora</l>
+              <l>n' están ignorants.</l>
+            </lg>
+
+            <l>Ay. ay, ay, que riurém etc,</l>
+
+            <lg>
+              <l rend="indent">Pera fer més gresca</l>
+              <l>també correrán</l>
+              <l>lo que ara 'us engresca</l>
+              <l>y 'us agrada tan;</l>
+              <l>aquellas campanas</l>
+              <l>com d' un combregá;</l>
+              <l>que 'ls escombriaires</l>
+              <l>ara fan portá.</l>
+            </lg>
+
+            <l>A. ay, ay, que riurém, ete!</l>
+
+            <p rend="cursiva"><lb/>(Torna la primera estrofa.)</p>
+          </div>
+
+          <div n="3">
+            <head type="titulo_cancion"><lb/><hi rend="negrita">St. St. St.</hi></head>
+            <head type="subtitulo_cancion"><lb/>Polxa del popular maestro D. Enrique Martí.</head>
+
+            <lg>
+              <l>St. st. st</l>
+              <l>Hermana mia ven por Dios</l>
+              <l>á bailar alli,</l>
+              <l>que te espero á ti</l>
+              <l>para ventura de los dos.</l>
+              <l>St., st. st.</l>
+              <l>no te hagas sorda á mi placer</l>
+              <l>que es amor al fin</l>
+              <l>sávia del jardin</l>
+              <l>donde ha nacido la mujer.</l>
+              <l>St., st. st.</l>
+              <l>Hermosa míf yen por Dios</l>
+              <l>á bailar alli</l>
+              <l>que te espero á ti</l>
+              <l>para ventura de los dos.</l>
+              <l>St., st., st.,</l>
+              <l>no te hagas corda á mi placer</l>
+              <l>que eres tu sin par</l>
+              <l>la que incita á amar</l>
+              <l rend="indent">Oyeme st., st.; óyeme st., st.,</l>
+              <l>si te vas st., st., si te vas st., st.,.</l>
+              <l>sin tu nostro póder ver</l>
+              <l>quedo yo en un cruel sufrir;</l>
+              <l>oyeme st., st., óyeme st., st.,</l>
+
+              <pb n="4" source="Varios_073_4.jpg" facs="varios/Varios_073_4.jpg/"/>
+
+              <fw type="paginaNum">—4—</fw>
+
+              <l>si ta vas st., st, si ta vas st., st.,</l>
+              <l>que es al cabo la mujer</l>
+              <l>la que amor hace sentir.</l>
+              <l>Soy tu galan</l>
+              <l rend="indent">soy tu pasion,</l>
+              <l>eres tu iman</l>
+              <l>del corazon,</l>
+              <l>Siento bullir,</l>
+              <l>slento filtrar</l>
+              <l>lo que vivir</l>
+              <l>hace y gozar.</l>
+              <l rend="indent">Ven aqui</l>
+              <l>sin tardar</l>
+              <l>que el placer</l>
+              <l>va á pasar.</l>
+              <l rend="indent">Que despues</l>
+              <l>no se yo</l>
+              <l>si á volver</l>
+              <l>va el amor.</l>
+            </lg>
+
+            <lg>
+              <l>St. st. st.,</l>
+              <l>me gritan desde su balcon</l>
+              <l>hermosa mujer</l>
+              <l>que Incita á querer</l>
+              <l>y fuego pega al corázon.</l>
+              <l>St., st., st.</l>
+              <l>no quiero no su voz oir</l>
+              <l>que es falso amor</l>
+              <l>el que con ardor</l>
+              <l>se propene hacerme sentir.</l>
+              <l>St., st., st.</l>
+              <l>me grita desde su balcon</l>
+              <l>hermosa mujer</l>
+              <l>me incita á querer</l>
+              <l>y fuego pe a el corazon.</l>
+              <l>St., St., st.,</l>
+              <l>no qulero no su voz otr</l>
+              <l>que es falso amor</l>
+              <l>todo su calor.</l>
+              <l rend="indent">Yo me voy st. st.; yo me voy st. st.</l>
+              <l>inútil es st., inútil es, st., st.</l>
+              <l>no me quiero detener</l>
+              <l>que es muy fácil resbular</l>
+              <l>Yo me voy st., st.; yo me voy st., st.</l>
+              <l>inútil es st., st.; inútil es st., st.,</l>
+              <l>no me llames no mujer</l>
+              <l>porque no te he de escuchar.</l>
+              <l rend="indent">Es su mirar,</l>
+              <l>es su reir,</l>
+              <l>de su pasar</l>
+              <l>muestra sútil.</l>
+              <l>Todo su amor</l>
+              <l>falte es do fe</l>
+              <l>nunca valor</l>
+              <l>podrá tener.</l>
+              <l rend="indent">Ve de aquí</l>
+              <l>sin tardar,</l>
+              <l>que placer</l>
+              <l>no he de hallar</l>
+              <l rend="indent">Que con él</l>
+              <l>ya se yo</l>
+              <l>no vendra,</l>
+              <l>no, el amor.</l>
+            </lg>
+
+            <lg>
+              <l>St., st., st.,</l>
+              <l>sal moreníta á contemplar</l>
+              <l>hoy á tu galan</l>
+              <l>que con noble afan</l>
+              <l>va sus amores á explicar.</l>
+              <l>St, st, st.,</l>
+              <l>no me hagas no resistir</l>
+              <l>tu injusto desden</l>
+              <l>que yo soy tu bien</l>
+              <l>y á mí tu hoy me haces morir.</l>
+              <l>St., St., st.</l>
+              <l>Sal morenita á contemplar</l>
+              <l>hoy á tu galan</l>
+              <l>que con noble afan</l>
+              <l>va sus amores á explicar.</l>
+              <l>St, st. st.</l>
+              <l>no me hagas no resistir</l>
+              <l>tu injusto desden</l>
+              <l>que yo soy tu bien.</l>
+              <l rend="indent">Mirame st., st., mirame st.,st.</l>
+              <l>á tus piés st., st., á tus piés, st., st.,</l>
+              <l>de amor lleno el corazon</l>
+              <l>sin consuelo á mi pesar.</l>
+              <l>Mirame st., st., mirame st., st.,</l>
+              <l>á tus piés st., st., á tus plés st., st.,</l>
+              <l>Juguete de esta ílusion</l>
+              <l>que nace de tanto amar.</l>
+              <l rend="indent">Eres tu el sol</l>
+              <l>de mi pasion</l>
+              <l>cuyo arrebol</l>
+              <l>da la ilusion.</l>
+              <l>Quiero besar</l>
+              <l>tu faz de huri</l>
+              <l>quiero espirár</l>
+              <l>pensando en tí.</l>
+              <l rend="indent">Oyeme</l>
+              <l>mi beldad</l>
+              <l>oye por</l>
+              <l>caridad.</l>
+              <l rend="indent">Mi placer,</l>
+              <l>mi dolor,</l>
+              <l>todos van</l>
+              <l>con mi amor.</l>
+            </lg>
+          </div>
         </div>
+        
         <div type="colofon">
-          <p><lb/>Barcelona: Imp. Peninsular, calle del Conde del Asalto, núm. 69.</p>
+          <p><lb/><hi rend="cursiva">Barcelona: Imp. Peninsular, calle del Conde del Asalto,
+              núm.</hi> 69.</p>
         </div>
       </div>
     </body>

@@ -1,19 +1,17 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../Schema/oddPliego_varios.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:alto="http://www.loc.gov/standards/alto/ns-v4#" xml:id="Varios_136">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Varios_136">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>JUAN PORTELA Relación puesta en trovos de los asesinatos y robos que
-                              cometió en las inmediaciones de Córdoba</title>
+        <title>JUAN PORTELA Relación puesta en trovos de los asesinatos y robos que cometió en las inmediaciones de Córdoba</title>
         <respStmt>
           <name/>
           <resp>Codificación TEI</resp>
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <authority role="rightsHolder">Bibliothèque Universitaire de
-                              Genève</authority>
+        <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
         <availability status="restricted">
           <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
         </availability>
@@ -21,9 +19,8 @@
       <sourceDesc>
         <biblFull>
           <titleStmt>
-            <title type="titulo_completo">JUAN PORTELA Relación puesta en
-                                          trovos de los asesinatos y robos que cometió en las
-                                          inmediaciones de Córdoba</title>
+            <title type="titulo_completo">JUAN PORTELA Relación puesta en trovos de los asesinatos
+              y robos que cometió en las inmediaciones de Córdoba</title>
             <title type="titulo_breve">JUAN PORTELA</title>
           </titleStmt>
           <editionStmt>
@@ -32,7 +29,7 @@
           <publicationStmt>
             <publisher>El Abanico</publisher>
             <pubPlace ref="https://www.geonames.org/3128760/barcelona.html">Barcelona</pubPlace>
-            <date>[s.a]</date>
+            <date cert="low" when="1800-01-01">[s.a.]</date>
           </publicationStmt>
         </biblFull>
         <msDesc>
@@ -40,7 +37,8 @@
             <country>Suisse</country>
             <settlement>Genève</settlement>
             <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"/>
-                                    </repository>
+            </repository>
+            <collection>Colección Varios</collection>
             <idno type="cote"/>
             <idno type="DOI">10.5281/zenodo.6586403</idno>
             <altIdentifier>
@@ -48,10 +46,14 @@
             </altIdentifier>
           </msIdentifier>
           <msContents>
-            <summary/>
+            <summary>Dos partes</summary>
             <msItem>
-              <locus/>
-              <title/>
+              <locus>1-2</locus>
+              <title>Primera parte</title>
+            </msItem>
+            <msItem>
+              <locus>3-4</locus>
+              <title>Juan Portela Segunda parte en décimas glosadas</title>
             </msItem>
           </msContents>
           <physDesc>
@@ -69,7 +71,7 @@
               </layoutDesc>
             </objectDesc>
             <decoDesc>
-              <summary n="1">Uno grabado (p.1) </summary>
+              <summary n="1">Un grabado (p.1)</summary>
               <decoNote type="lista_grabados">
                 <list>
                   <item corresp="grabado_v_136_1.xml">grabado_v_136_1</item>
@@ -90,18 +92,17 @@
     </fileDesc>
     <encodingDesc>
       <projectDesc>
-        <p>Este archivo fue creado en el marco del proyecto Desenrollando el
-                              Cordel/Démêler le cordel/Untangling the cordel, dirigido por la
-                              profesora Constance Carta de la Universidad de Ginebra, con el apoyo
-                              de la Fundación filantrópica Famille Sandoz-Monique de Meuron.</p>
+        <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+          cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la Universidad
+          de Ginebra, con el apoyo de la Fundación filantrópica Famille Sandoz-Monique de
+          Meuron.</p>
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR non corregido</p>
+          <p>OCR no corregido</p>
         </correction>
         <normalization>
-          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto
-                                    original.</p>
+          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
         </normalization>
         <punctuation>
           <p>Se conserva la puntuación original.</p>
@@ -114,18 +115,23 @@
       </langUsage>
       <textClass>
         <keywords xml:base="http://datos.bne.es/tema/">
-          <term target="XX525577.html" type="tipo_texto">Canciones</term>
-          <term target="XX527614.html" type="tipo_estrofa">Romances</term>
+          <term type="tipo_texto">Relaciones</term>
+          <term type="tipo_estrofa">Trovos</term>
+          <term target="XX546895.html" type="tipo_estrofa">Décimas</term>
           <term type="verso_prosa">Verso</term>
           <term type="sagrado_profano">Profano</term>
         </keywords>
       </textClass>
     </profileDesc>
     <revisionDesc>
-      <change when="2022-09-15" who="#PJ">Création du fichier TEI P5 et encodage du
-                        corps du texte</change>
+      <change when="2022-09-15" who="#PJ">Création du fichier TEI P5 et encodage du corps du
+        texte</change>
+      <change when="2024-01-09" who="#EL">Add the IIIF links</change>
     </revisionDesc>
   </teiHeader>
+  <facsimile>
+    <graphic url="varios/Varios_136_1.jpg/full/200,/0/default.jpg"/>
+  </facsimile>
   <sourceDoc xml:id="automaticTranscription">
     <surface xml:id="Varios_136_1" type="page" cert="silver">
       <graphic url="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_136_1/full/full/0/default.jpg"/>
@@ -1461,430 +1467,442 @@
   <text>
     <body>
       <div>
-        <pb n="1" source="Varios_136_1.jpg" facs="fedora_Varios_136_1/full/full/0/default.jpg"/>
-        <div type="parte" n="1">
-          <head type="primer_titulo"><lb/>JUAN PORTELA<lb/>Relación puesta en trovos de los
-                                    asesinatos y robos que<lb/>cometió en las inmediaciones de
-                                    Córdoba,</head>
-          <head type="titulo_parte"><lb/>PRIMERA PARTE</head>
-          <lg rend="cursiva">
-            <l>Escuchen señores míos,</l>
-            <l>les diré de Juan Portela,</l>
-            <l>el ladrón más afamado</l>
-            <l rend="cursiva">que en la gran Sierra-Morena</l>
-          </lg>
-          <lg>
-            <l rend="indent">De mis padres fui querido,</l>
-            <l>todos los gustos me daban,</l>
-            <l>más de verme yo perdido</l>
-            <l>una mujer fué la causa;</l>
-            <l rend="cursiva">escuchen señores míos.</l>
-          </lg>
-          <lg>
-            <l rend="indent">Nos dimos palabras ciertas</l>
-            <l>para casarnos los dos,</l>
-            <l>puse mi afición en ella</l>
-            <l>la que fué mi peridción:</l>
-            <l rend="cursiva">les diré de Juan Portela.</l>
-          </lg>
-          <lg>
-            <l rend="indent">Fuí un labrador honrado</l>
-            <l>que en Córdoba trabajaba,</l>
-            <l rend="cursiva">a una hacienda retirado</l>
-            <l rend="cursiva">y por querer a una dams.</l>
-            <l rend="cursiva">fuí el ladrón más afiamado.</l>
-          </lg>
-          <lg>
-            <l rend="indent">Sin tener de mí una queja</l>
-            <l>esta jóven se casó</l>
-            <l>con otro y amí me deja,</l>
-            <l>cuya causa me llevó</l>
-            <l rend="cursiva">a la gran Sierra-Moreno</l>
-          </lg>
-          <lg>
-            <l rend="indent">Lloraba de noche y dia</l>
-            <l>siempre por una mujer</l>
-            <l>más al ver su tiranto</l>
-            <l rend="cursiva">venganza determiné.</l>
-          </lg>
-          <lg>
-            <l rend="indent">Con el sol del medio día</l>
-            <l>y un puñal fui disputando,</l>
-            <l>mis amigos que dirf́an</l>
-            <l>cuando me vi despreciado</l>
-            <l rend="cursiva">Horaba de noche y día</l>
-          </lg>
-          <pb n="2" source="Varios_136_2.jpg" facs="fedora_Varios_136_2/full/full/0/default.jpg"/>
-          <lg>
-            <l rend="indent">Sus quejas llegué a entender</l>
-            <l>de una picara traidora</l>
-            <l>que tan falsa vino a ser</l>
-            <l>pensaba a todas las horas</l>
-            <l rend="cursiva">siempre por esta mujer.</l>
-          </lg>
-          <lg>
-            <l rend="indent">Pronto a perder mi vioa</l>
-            <l>mi fiero valor mostré,</l>
-            <l>y al lograr lo que quería</l>
-            <l>una noche me marché</l>
-            <l rend="cursiva">más al ver su tiranía.</l>
-          </lg>
-          <lg>
-            <l rend="indent">Con mi trabuco me entré</l>
-            <l>a la casa donde amaba</l>
-            <l>y su marido encontré</l>
-            <l>que los dos cenando esbaban</l>
-            <l rend="cursiva">cenganza determiné.</l>
-          </lg>
-          <lg rend="cursiva">
-            <l>Vengo a quitarte la vida</l>
-            <l>delante de tu marido,</l>
-            <l>y pagaré con la mía</l>
-            <l rend="cursiva">si acaso algún atrevido.</l>
-          </lg>
-          <lg>
-            <l rend="indent">Lloraba la peregrina</l>
-            <l>al sentir estas palabras.</l>
-            <l>detente traidor tu ira</l>
-            <l>le dí cinco puñaladas</l>
-            <l rend="cursiva">vengo a quitarte la vida.</l>
-          </lg>
-          <lg>
-            <l rend="indent">Su esposo quedó rendido</l>
-            <l>me miraba como fiera</l>
-            <l>sin color y sin sentidos,</l>
-            <l>cuando eella cayó muerta</l>
-            <l rend="cursiva">delante de su marido.</l>
-          </lg>
-          <lg>
-            <l rend="indent">Aqui acabó mi alegría</l>
-            <l>dije luego, soy perdido,</l>
-            <l>sin decir Ave María,</l>
-            <l>de un tiro maté al marido</l>
-            <l rend="cursiva">yo pagaré con la mía.</l>
-          </lg>
-          <lg>
-            <l rend="indent">Salí con mi trabuquillo</l>
-            <l>y un gran grupo que decía :</l>
-            <l>Alto y justicia la p d.»</l>
-            <l>y yo mis pasos seguia</l>
-            <l rend="cursiva">si acaso algún atrevido.</l>
-          </lg>
-          <lg rend="cursiva">
-            <l>Giré un poco mi cabeza</l>
-            <l>con mi trabuco apuntando</l>
-            <l>que dispará a toda prisa,</l>
-            <l rend="cursiva">cuatro muertos he dejaao.</l>
-          </lg>
-          <lg>
-            <l rend="indent">Me escapé por una puerta</l>
-            <l>aquella noche me buscaron,</l>
-            <l>en Córdoba Juan Portela</l>
-            <l>seis personas ha matado</l>
-            <l rend="cursiva">giré un poco mi cabeza.</l>
-          </lg>
-          <lg>
-            <l rend="indent">Caminaba con cuidado</l>
-            <l>y al romper su claro dia</l>
-            <l>junto a las Ventas del Carpio</l>
-            <l>un caballero venía</l>
-            <l rend="cursiva">con mi trabuco apuntando.</l>
-          </lg>
-          <lg>
-            <l rend="indent">Dije alto : si te meneas</l>
-            <l>tu caballo y tus dineros</l>
-            <l>entregarás a Portela,</l>
-            <l>y sino dirás el Credo</l>
-            <l rend="cursiva">que lo disparo deprisa.</l>
-          </lg>
-          <lg>
-            <l rend="indent">Se márchó el pobre petado</l>
-            <l>como s. fuera patena</l>
-            <l>yo piré con su caballo</l>
-            <l>porque en las puertas de Utrera</l>
-            <l rend="cursiva">cuatro muertos ha dejado.</l>
-          </lg>
-          <lg>
-            <l rend="indent">Las partidas me persiguea</l>
-            <l>van detrás de mi que vuela!.</l>
-            <l>pero tego o un caballo</l>
-            <l rend="cursiva">que en metiéndole la espuela.</l>
-          </lg>
-          <lg>
-            <l rend="indent">A mi trabuco le dije</l>
-            <l>iu te llamas boca negra,</l>
-            <l>que disparando ple firme</l>
-            <l>necesito una docena,</l>
-            <l rend="cursiva">las partidas me persiguen,</l>
-          </lg>
-          <lg>
-            <l rend="indent">En los montes de Antequera</l>
-            <l>una mañana robé</l>
-            <l>a un coche y a una galera</l>
-            <l>seiscientos machos choré</l>
-            <l rend="cursiva">van detrás de mí que vu lan</l>
-          </lg>
-          <lg>
-            <l rend="indent">He matado seis soldados,</l>
-            <l>de civiles una escuadra,</l>
-            <l>disparé seis trabacazos</l>
-            <l>y a Portela no le agarra</l>
-            <l rend="cursiva">porque tengo yo un caballo.</l>
-          </lg>
-          <lg>
-            <l rend="indent">Arriba jaca morena</l>
-            <l>que nos queda el comandante</l>
-            <l>vuelve cara boca negra</l>
-            <l>de un tiro cayó al instante</l>
-            <l rend="cursiva">y metiéndole la espueta.</l>
-          </lg>
-          <trailer>FIN DE LA PRIMERA PARTE</trailer>
+        <div>
+          <pb n="1" source="Varios_136_1.jpg" facs="varios/Varios_136_1.jpg/"/>
+
+          <head type="primer_titulo"><lb/>JUAN PORTELA</head>
+          <head type="subtitulo"><lb/>Relación puesta en trovos de los asesinatos y robos
+            que<lb/>cometió en las inmediaciones de Córdoba</head>
+
+          <div type="parte" n="1">
+            <head type="titulo_parte" rend="negrita"><lb/>PRIMERA PARTE</head>
+            <lg rend="cursiva">
+              <l rend="indent">Escuchen señores míos,</l>
+              <l>les diré de Juan Portela,</l>
+              <l>el ladrón más afamado</l>
+              <l rend="cursiva">que en la gran Sierra-Morena</l>
+            </lg>
+            <lg>
+              <l rend="indent">De mis padres fui querido,</l>
+              <l>todos los gustos me daban,</l>
+              <l>más de verme yo perdido</l>
+              <l>una mujer fué la causa;</l>
+              <l rend="cursiva">escuchen señores míos.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Nos dimos palabras ciertas</l>
+              <l>para casarnos los dos,</l>
+              <l>puse mi afición en ella</l>
+              <l>la que fué mi peridción:</l>
+              <l rend="cursiva">les diré de Juan Portela.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Fuí un labrador honrado</l>
+              <l>que en Córdoba trabajaba,</l>
+              <l>a una hacienda retirado</l>
+              <l>y por querer a una dams.</l>
+              <l rend="cursiva">fuí el ladrón más afiamado.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Sin tener de mí una queja</l>
+              <l>esta jóven se casó</l>
+              <l>con otro y amí me deja,</l>
+              <l>cuya causa me llevó</l>
+              <l rend="cursiva">a la gran Sierra-Moreno</l>
+            </lg>
+            <lg>
+              <l rend="indent">Lloraba de noche y dia</l>
+              <l>siempre por una mujer</l>
+              <l>más al ver su tiranto</l>
+              <l rend="cursiva">venganza determiné.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Con el sol del medio día</l>
+              <l>y un puñal fui disputando,</l>
+              <l>mis amigos que dirf́an</l>
+              <l>cuando me vi despreciado</l>
+              <l rend="cursiva">Horaba de noche y día</l>
+            </lg>
+
+            <pb n="2" source="Varios_136_2.jpg" facs="varios/Varios_136_2.jpg/"/>
+
+            <lg>
+              <l rend="indent">Sus quejas llegué a entender</l>
+              <l>de una picara traidora</l>
+              <l>que tan falsa vino a ser</l>
+              <l>pensaba a todas las horas</l>
+              <l rend="cursiva">siempre por esta mujer.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Pronto a perder mi vioa</l>
+              <l>mi fiero valor mostré,</l>
+              <l>y al lograr lo que quería</l>
+              <l>una noche me marché</l>
+              <l rend="cursiva">más al ver su tiranía.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Con mi trabuco me entré</l>
+              <l>a la casa donde amaba</l>
+              <l>y su marido encontré</l>
+              <l>que los dos cenando esbaban</l>
+              <l rend="cursiva">cenganza determiné.</l>
+            </lg>
+            <lg rend="cursiva">
+              <l rend="indent">Vengo a quitarte la vida</l>
+              <l>delante de tu marido,</l>
+              <l>y pagaré con la mía</l>
+              <l>si acaso algún atrevido.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Lloraba la peregrina</l>
+              <l>al sentir estas palabras.</l>
+              <l>detente traidor tu ira</l>
+              <l>le dí cinco puñaladas</l>
+              <l rend="cursiva">vengo a quitarte la vida.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Su esposo quedó rendido</l>
+              <l>me miraba como fiera</l>
+              <l>sin color y sin sentidos,</l>
+              <l>cuando eella cayó muerta</l>
+              <l rend="cursiva">delante de su marido.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Aqui acabó mi alegría</l>
+              <l>dije luego, soy perdido,</l>
+              <l>sin decir Ave María,</l>
+              <l>de un tiro maté al marido</l>
+              <l rend="cursiva">yo pagaré con la mía.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Salí con mi trabuquillo</l>
+              <l>y un gran grupo que decía :</l>
+              <l>Alto y justicia la p d.»</l>
+              <l>y yo mis pasos seguia</l>
+              <l rend="cursiva">si acaso algún atrevido.</l>
+            </lg>
+            <lg rend="cursiva">
+              <l rend="indent">Giré un poco mi cabeza</l>
+              <l>con mi trabuco apuntando</l>
+              <l>que dispará a toda prisa,</l>
+              <l>cuatro muertos he dejaao.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Me escapé por una puerta</l>
+              <l>aquella noche me buscaron,</l>
+              <l>en Córdoba Juan Portela</l>
+              <l>seis personas ha matado</l>
+              <l rend="cursiva">giré un poco mi cabeza.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Caminaba con cuidado</l>
+              <l>y al romper su claro dia</l>
+              <l>junto a las Ventas del Carpio</l>
+              <l>un caballero venía</l>
+              <l rend="cursiva">con mi trabuco apuntando.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Dije alto : si te meneas</l>
+              <l>tu caballo y tus dineros</l>
+              <l>entregarás a Portela,</l>
+              <l>y sino dirás el Credo</l>
+              <l rend="cursiva">que lo disparo deprisa.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Se márchó el pobre petado</l>
+              <l>como s. fuera patena</l>
+              <l>yo piré con su caballo</l>
+              <l>porque en las puertas de Utrera</l>
+              <l rend="cursiva">cuatro muertos ha dejado.</l>
+            </lg>
+            <lg rend="cursiva">
+              <l rend="indent">Las partidas me persiguea</l>
+              <l>van detrás de mi que vuela!.</l>
+              <l>pero tego o un caballo</l>
+              <l>que en metiéndole la espuela.</l>
+            </lg>
+            <lg>
+              <l rend="indent">A mi trabuco le dije</l>
+              <l>iu te llamas boca negra,</l>
+              <l>que disparando ple firme</l>
+              <l>necesito una docena,</l>
+              <l rend="cursiva">las partidas me persiguen,</l>
+            </lg>
+            <lg>
+              <l rend="indent">En los montes de Antequera</l>
+              <l>una mañana robé</l>
+              <l>a un coche y a una galera</l>
+              <l>seiscientos machos choré</l>
+              <l rend="cursiva">van detrás de mí que vu lan</l>
+            </lg>
+            <lg>
+              <l rend="indent">He matado seis soldados,</l>
+              <l>de civiles una escuadra,</l>
+              <l>disparé seis trabacazos</l>
+              <l>y a Portela no le agarra</l>
+              <l rend="cursiva">porque tengo yo un caballo.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Arriba jaca morena</l>
+              <l>que nos queda el comandante</l>
+              <l>vuelve cara boca negra</l>
+              <l>de un tiro cayó al instante</l>
+              <l rend="cursiva">y metiéndole la espueta.</l>
+            </lg>
+            <trailer rend="negrita">FIN DE LA PRIMERA PARTE</trailer>
+          </div>
+
+          <div type="parte" n="2">
+            <pb n="3" source="Varios_136_3.jpg" facs="varios/Varios_136_3.jpg/"/>
+
+            <head type="titulo_parte" rend="negrita"><lb/>JUAN PORTELA</head>
+            <head type="subtitulo_parte"><lb/>SEGUNDA PARTE EN DECIMAS GLOSADAS</head>
+
+            <lg rend="cursiva">
+              <l rend="indent">A dar pienso a mi caballo,</l>
+              <l>ay de mi! que soy perdido</l>
+              <l>en una casa de campo,</l>
+              <l>veinte pasos del camino.</l>
+            </lg>
+            <lg>
+              <l rend="indent">A este punto destinado</l>
+              <l>precipitado llegué,</l>
+              <l>por el amo pregunté</l>
+              <l>quedaron todos turbados.</l>
+              <l>—¿Qué se ofrece caballero?</l>
+              <l>respondió luego un anciaño.</l>
+              <l>—Esta gente que hace aquí?</l>
+              <l>—ret omnis gi siaruenaude</l>
+              <l>—Aquí teneis a Portela,</l>
+              <l rend="cursiva">darle un pienso a mi caballo.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Uno de ellos dió un suspiró</l>
+              <l>de los tales que cenanan</l>
+              <l>sus lágrimas derramaba</l>
+              <l>cuando a Portela le dijo:</l>
+              <l>Qué suerte tan desgraciada</l>
+              <l>dónde vas desconocido?</l>
+              <l>tu padre me dió esta carta,</l>
+              <l>advierte que soy tu amigo</l>
+              <l>a las manos de Portela:</l>
+              <l rend="cursiva">¡ay de mí que soy perdido!</l>
+            </lg>
+            <lg>
+              <l rend="indent">Y leyendo con cuidado</l>
+              <l>estas palabras decía</l>
+              <l>«Te van a quitar la vida</l>
+              <l>mhijo mío lo he pensado,</l>
+              <l>»que te marches de la España</l>
+              <l>»nio cometas más estragos</l>
+              <l>»que en Córdoba tu cabeza</l>
+              <l>nayer triste pregonaron».</l>
+              <l>¡Oh! qué noticia recibo</l>
+              <l rend="cursiva">en esta casa de campo.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Un año justo y seguido</l>
+              <l>del ladrón más afamado</l>
+              <l>mi vida ya he despreciado</l>
+              <l>que para nada la estimo;</l>
+              <l>capones y más gallinas</l>
+              <l>a cenar todos conmigo</l>
+              <l>y después venga fandango</l>
+              <l>y buenos tragos de vino</l>
+              <l>que este gasto yo lo pago</l>
+              <l rend="cursiva">velnte pasos del camino.</l>
+            </lg>
+            <lg rend="cursiva">
+              <l rend="indent">A mirada me acobarda.</l>
+              <l>me llaman el temerario,</l>
+              <l>lascineroso en mi planta</l>
+              <l>cuando el trabuco disparo.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Cuando llegó la mañana</l>
+              <l>le dije a mí compañero:</l>
+              <l>como amigo te lo entrego</l>
+              <l>cuando llegues a mi casa</l>
+              <l>a mi padre con secrelo</l>
+              <l>le entregarás esta carta,</l>
+              <l>los dineros y el bolsillo,</l>
+              <l>porque a mí no me hace falta</l>
+              <l>y vivir todos tranquilos</l>
+              <l rend="cursiva">que a mi nada me acobarda.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Bien montado en mi caballo</l>
+              <l>de la casa me despido</l>
+              <l>me tiraron cinco tiros</l>
+              <l>al subir por un barranco</l>
+              <l>aquí te quiero Perela;</l>
+              <l>y amparándome en un árbol</l>
+              <l>dos heridos van por tierra</l>
+              <l>de un tremendo trabucazo</l>
+              <l> quedó el león guerrero</l>
+              <l rend="cursiva">me llaman el temerario</l>
+            </lg>
+            <lg>
+              <l rend="indent">Una partida de capa</l>
+              <l>diez hombres muy bien armados.</l>
+              <l>del gobierno son pagados,</l>
+              <l>y a ngarrarme se adelantan,</l>
+              <l>todos somos andaluees</l>
+              <l>fanfarrones no me bastan,</l>
+              <l>y al salirme de unos pinos</l>
+              <l>me tiran otra descarga</l>
+              <l>me mafaron al caballo</l>
+              <l rend="cursiva">fascineroso en mi planta.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Cuando me vi desmontado</l>
+              <l>de sentimiento lloraba</l>
+              <l>a unas peñas retiraba</l>
+              <l>cuando todos me cercaron.</l>
+              <l>dáte, dáte, Juan Portela,</l>
+              <l>ocho tiros me arrojaron</l>
+              <l>los que hirieron al vuliente,</l>
+              <l>de la cabeza y un brazo</l>
+              <l>de sangre bañado estaba</l>
+              <l rend="cursiva">cuando el trabuco disparo.</l>
+            </lg>
+            <lg rend="cursiva">
+              <l rend="indent">Yo perdí las esperanzas,</l>
+              <l>de mis padres el honor</l>
+              <l>las fuerzas me faltan ya.</l>
+              <l>del cielo baje el perdon.</l>
+            </lg>
+            <lg>
+              <l rend="indent">La sangre que derramaba</l>
+              <l>me cubría el corazón,</l>
+              <l>no siento mi muerte, no.</l>
+              <l>van a pagar tus hazañas</l>
+              <l>me agarran entre dos</l>
+              <l>y con cordeles me amarran,</l>
+              <l>cuando llegó el comandante</l>
+              <l>todos ocho me acompañan.</l>
+              <l>y me llevan a un bagaje</l>
+              <l rend="cursiva">ya perdí las esperanzas</l>
+            </lg>
+
+            <pb n="4" source="Varios_136_4.jpg" facs="varios/Varios_136_4.jpg/"/>
+
+            <lg>
+              <l rend="indent">Con tal anhelo y culdado</l>
+              <l>a pasos dobles marchaban</l>
+              <l>con bayoneta calada,</l>
+              <l>antes de ponerse el sol</l>
+              <l>les pedí un poco de agua</l>
+              <l>y les dije en alta voz?</l>
+              <l>Por Dios quitadme la vida</l>
+              <l>que en Córdoba no entro yo</l>
+              <l>que está mi familia honrada;</l>
+              <l rend="cursiva">de mis padre el honor.</l>
+            </lg>
+            <lg>
+              <l rend="indent">No te puedo remediar</l>
+              <l>el comandante me dijo,</l>
+              <l>ya no tienes más recurso</l>
+              <l>es preciso caminar,</l>
+              <l>a. Córdoba te llevamos</l>
+              <l>por orden del tribunal</l>
+              <l>padre, madre y hermanito:</l>
+              <l>mis culpas voy a pagar,</l>
+              <l>un año que no me han visto</l>
+              <l rend="cursiva">las fuerzas me faltan ya.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Multiplicó mi dolor</l>
+              <l>al entrar en la ciudad,</l>
+              <l>padres, madres y familia</l>
+              <l>causé gran admiración;</l>
+              <l>todos me vienen detrás</l>
+              <l>ya cogieron al traidor,</l>
+              <l>otros lloran sin cesar;</l>
+              <l>me llevan a la prísión</l>
+              <l>me cargaron de cadenas</l>
+              <l rend="cursiva">del cielo baje el perdón.</l>
+            </lg>
+            <lg rend="cursiva">
+              <l rend="indent">Quédense todos con Dios,</l>
+              <l>perdón les pido a las gentes</l>
+              <l>que una mujer fué la causa</l>
+              <l>de pelear con la muerte.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Me toman declaracion</l>
+              <l>trece muertos; dos heridos,</l>
+              <l>de ladrón un año he sido</l>
+              <l>mi causa finalizó,</l>
+              <l>tiene pena de la vida</l>
+              <l>el tribunar afirmó,</l>
+              <l>ya me ponen en capilla</l>
+              <l>con un Crislo Redentor;</l>
+              <l>padre, madre y hermanitos</l>
+              <l rend="cursiva">quedarse todos con Dios.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Aquí se amansa el valiente,</l>
+              <l>la honradez y el pundonor</l>
+              <l>y se afrentan los parientes</l>
+              <l>Aquí tengo el confesor</l>
+              <l>ya Por'ela se arrepiente</l>
+              <l>ya el patíbulo me espera</l>
+              <l>para mañana a las once</l>
+              <l>de los males que he causado</l>
+              <l rend="cursiva">perdón les pido a las gentes</l>
+            </lg>
+            <lg>
+              <l rend="indent">Aquí se amansa el valiente.</l>
+              <l>aquí se pierde el valor,</l>
+              <l>la honradez y el pundonor</l>
+              <l>y se afrentan los valientes.</l>
+              <l>Aquí tengo el confesor,</l>
+              <l>ya Portela se arrepiente,</l>
+              <l>ya el patíbulo me espera</l>
+              <l>para mañana a las once</l>
+              <l>de los males que he causado</l>
+              <l rend="cursiva">perdón les pido a las gentes</l>
+            </lg>
+            <lg>
+              <l rend="indent">Calles. ventanas y casas</l>
+              <l>Córdoba y sus habitantes,</l>
+              <l>perdonadme en adelante</l>
+              <l>socorred mis dos hermanos</l>
+              <l>Ancianos, padres y niños</l>
+              <l>las peñas y las montanas.</l>
+              <l>las luentes y mis amigo</l>
+              <l>llorad, vuestra dulce calma</l>
+              <l>vuestra bendición confío,</l>
+              <l rend="cursiva">que una mujer fué la causa</l>
+            </lg>
+            <lg>
+              <l rend="indent">Ya salgo con un piquete</l>
+              <l>y una caja destenplada,</l>
+              <l>la caridad me acompaña.</l>
+              <l>me miran todas las gentes,</l>
+              <l>adios, adios compañeros,</l>
+              <l>adios, adios pera siempre</l>
+              <l>Veinticinco años de mundo</l>
+              <l>mirad todos mi suerte,</l>
+              <l>u Santo Cristo en mis manos</l>
+              <l rend="cursiva">le pido que no me deje.</l>
+            </lg>
+            <lg>
+              <l rend="indent">Ya subo por la escalera,</l>
+              <l>ya el verdugo me acomete</l>
+              <l>creo en Dios padre y en Dios hijo</l>
+              <l>aquí fué el dolor más fuerte,</l>
+              <l>ya me sientan en la silla,</l>
+              <l>mirando estoy a la gente,</l>
+              <l>me retiran la cabeza</l>
+              <l>un torno al cuello me meten</l>
+              <l>y al decir su único hijo</l>
+              <l rend="cursiva">de pelear con la muerte.</l>
+            </lg>
+          </div>
         </div>
-        <pb n="3" source="Varios_136_3.jpg" facs="fedora_Varios_136_3/full/full/0/default.jpg"/>
-        <div type="parte" n="2">
-          <head type="titulo_parte"><lb/><hi rend="negrita">JUAN PORTELA</hi><lb/>SEGUNDA PARTE EN
-                                    DECIMAS GLOSADAS</head>
-          <lg rend="cursiva">
-            <l>A dar pienso a mi caballo,</l>
-            <l>ay de mi! que soy perdido</l>
-            <l>en una casa de campo,</l>
-            <l rend="cursiva">veinte pasos del camino.</l>
-          </lg>
-          <lg>
-            <l rend="indent">A este punto destinado</l>
-            <l>precipitado llegué,</l>
-            <l>por el amo pregunté</l>
-            <l>quedaron todos turbados.</l>
-            <l>—¿Qué se ofrece caballero?</l>
-            <l>respondió luego un anciaño.</l>
-            <l>—Esta gente que hace aquí?</l>
-            <l>—ret omnis gi siaruenaude</l>
-            <l>—Aquí teneis a Portela,</l>
-            <l rend="cursiva">darle un pienso a mi caballo.</l>
-          </lg>
-          <lg>
-            <l rend="indent">Uno de ellos dió un suspiró</l>
-            <l>de los tales que cenanan</l>
-            <l>sus lágrimas derramaba</l>
-            <l>cuando a Portela le dijo:</l>
-            <l>Qué suerte tan desgraciada</l>
-            <l>dónde vas desconocido?</l>
-            <l>tu padre me dió esta carta,</l>
-            <l>advierte que soy tu amigo</l>
-            <l>a las manos de Portela:</l>
-            <l rend="cursiva">¡ay de mí que soy perdido!</l>
-          </lg>
-          <lg>
-            <l rend="indent">Y leyendo con cuidado</l>
-            <l>estas palabras decía</l>
-            <l>«Te van a quitar la vida</l>
-            <l>mhijo mío lo he pensado,</l>
-            <l>»que te marches de la España</l>
-            <l>»nio cometas más estragos</l>
-            <l>»que en Córdoba tu cabeza</l>
-            <l>nayer triste pregonaron».</l>
-            <l>¡Oh! qué noticia recibo</l>
-            <l rend="cursiva">en esta casa de campo.</l>
-          </lg>
-          <lg>
-            <l rend="indent">Un año justo y seguido</l>
-            <l>del ladrón más afamado</l>
-            <l>mi vida ya he despreciado</l>
-            <l>que para nada la estimo;</l>
-            <l>capones y más gallinas</l>
-            <l>a cenar todos conmigo</l>
-            <l>y después venga fandango</l>
-            <l>y buenos tragos de vino</l>
-            <l>que este gasto yo lo pago</l>
-            <l rend="cursiva">velnte pasos del camino.</l>
-          </lg>
-          <lg rend="cursiva">
-            <l>A mirada me acobarda.</l>
-            <l>me llaman el temerario,</l>
-            <l>lascineroso en mi planta</l>
-            <l rend="cursiva">cuando el trabuco disparo.</l>
-          </lg>
-          <lg>
-            <l rend="indent">Cuando llegó la mañana</l>
-            <l>le dije a mí compañero:</l>
-            <l>como amigo te lo entrego</l>
-            <l>cuando llegues a mi casa</l>
-            <l>a mi padre con secrelo</l>
-            <l>le entregarás esta carta,</l>
-            <l>los dineros y el bolsillo,</l>
-            <l>porque a mí no me hace falta</l>
-            <l>y vivir todos tranquilos</l>
-            <l rend="cursiva">que a mi nada me acobarda.</l>
-          </lg>
-          <lg>
-            <l rend="indent">Bien montado en mi caballo</l>
-            <l>de la casa me despido</l>
-            <l>me tiraron cinco tiros</l>
-            <l>al subir por un barranco</l>
-            <l>aquí te quiero Perela;</l>
-            <l>y amparándome en un árbol</l>
-            <l>dos heridos van por tierra</l>
-            <l>de un tremendo trabucazo</l>
-            <l> quedó el león guerrero</l>
-            <l rend="cursiva">me llaman el temerario</l>
-          </lg>
-          <lg>
-            <l rend="indent">Una partida de capa</l>
-            <l>diez hombres muy bien armados.</l>
-            <l>del gobierno son pagados,</l>
-            <l>y a ngarrarme se adelantan,</l>
-            <l>todos somos andaluees</l>
-            <l>fanfarrones no me bastan,</l>
-            <l>y al salirme de unos pinos</l>
-            <l>me tiran otra descarga</l>
-            <l>me mafaron al caballo</l>
-            <l rend="cursiva">fascineroso en mi planta.</l>
-          </lg>
-          <lg>
-            <l rend="indent">Cuando me vi desmontado</l>
-            <l>de sentimiento lloraba</l>
-            <l>a unas peñas retiraba</l>
-            <l>cuando todos me cercaron.</l>
-            <l>dáte, dáte, Juan Portela,</l>
-            <l>ocho tiros me arrojaron</l>
-            <l>los que hirieron al vuliente,</l>
-            <l>de la cabeza y un brazo</l>
-            <l>de sangre bañado estaba</l>
-            <l rend="cursiva">cuando el trabuco disparo.</l>
-          </lg>
-          <lg rend="cursiva">
-            <l>Yo perdí las esperanzas,</l>
-            <l>de mis padres el honor</l>
-            <l>las fuerzas me faltan ya.</l>
-            <l rend="cursiva">del cielo baje el perdon.</l>
-          </lg>
-          <lg>
-            <l rend="indent">La sangre que derramaba</l>
-            <l>me cubría el corazón,</l>
-            <l>no siento mi muerte, no.</l>
-            <l>van a pagar tus hazañas</l>
-            <l>me agarran entre dos</l>
-            <l>y con cordeles me amarran,</l>
-            <l>cuando llegó el comandante</l>
-            <l>todos ocho me acompañan.</l>
-            <l>y me llevan a un bagaje</l>
-            <l rend="cursiva">ya perdí las esperanzas</l>
-          </lg>
-          <pb n="4" source="Varios_136_4.jpg" facs="fedora_Varios_136_4/full/full/0/default.jpg"/>
-          <lg>
-            <l rend="indent">Con tal anhelo y culdado</l>
-            <l>a pasos dobles marchaban</l>
-            <l>con bayoneta calada,</l>
-            <l>antes de ponerse el sol</l>
-            <l>les pedí un poco de agua</l>
-            <l>y les dije en alta voz?</l>
-            <l>Por Dios quitadme la vida</l>
-            <l>que en Córdoba no entro yo</l>
-            <l>que está mi familia honrada;</l>
-            <l rend="cursiva">de mis padre el honor.</l>
-          </lg>
-          <lg>
-            <l rend="indent">No te puedo remediar</l>
-            <l>el comandante me dijo,</l>
-            <l>ya no tienes más recurso</l>
-            <l>es preciso caminar,</l>
-            <l>a. Córdoba te llevamos</l>
-            <l>por orden del tribunal</l>
-            <l>padre, madre y hermanito:</l>
-            <l>mis culpas voy a pagar,</l>
-            <l>un año que no me han visto</l>
-            <l rend="cursiva">las fuerzas me faltan ya.</l>
-          </lg>
-          <lg>
-            <l rend="indent">Multiplicó mi dolor</l>
-            <l>al entrar en la ciudad,</l>
-            <l>padres, madres y familia</l>
-            <l>causé gran admiración;</l>
-            <l>todos me vienen detrás</l>
-            <l>ya cogieron al traidor,</l>
-            <l>otros lloran sin cesar;</l>
-            <l>me llevan a la prísión</l>
-            <l>me cargaron de cadenas</l>
-            <l rend="cursiva">del cielo baje el perdón.</l>
-          </lg>
-          <lg rend="cursiva">
-            <l>Quédense todos con Dios,</l>
-            <l>perdón les pido a las gentes</l>
-            <l>que una mujer fué la causa</l>
-            <l rend="cursiva">de pelear con la muerte.</l>
-          </lg>
-          <lg>
-            <l rend="indent">Me toman declaracion</l>
-            <l>trece muertos; dos heridos,</l>
-            <l>de ladrón un año he sido</l>
-            <l>mi causa finalizó,</l>
-            <l>tiene pena de la vida</l>
-            <l>el tribunar afirmó,</l>
-            <l>ya me ponen en capilla</l>
-            <l>con un Crislo Redentor;</l>
-            <l>padre, madre y hermanitos</l>
-            <l rend="cursiva">quedarse todos con Dios.</l>
-          </lg>
-          <lg>
-            <l rend="indent">Aquí se amansa el valiente,</l>
-            <l>la honradez y el pundonor</l>
-            <l>y se afrentan los parientes</l>
-            <l>Aquí tengo el confesor</l>
-            <l>ya Por'ela se arrepiente</l>
-            <l>ya el patíbulo me espera</l>
-            <l>para mañana a las once</l>
-            <l>de los males que he causado</l>
-            <l rend="cursiva">perdón les pido a las gentes</l>
-          </lg>
-          <lg>
-            <l rend="indent">Aquí se amansa el valiente.</l>
-            <l>aquí se pierde el valor,</l>
-            <l>la honradez y el pundonor</l>
-            <l>y se afrentan los valientes.</l>
-            <l>Aquí tengo el confesor,</l>
-            <l>ya Portela se arrepiente,</l>
-            <l>ya el patíbulo me espera</l>
-            <l>para mañana a las once</l>
-            <l>de los males que he causado</l>
-            <l rend="cursiva">perdón les pido a las gentes</l>
-          </lg>
-          <lg>
-            <l rend="indent">Calles. ventanas y casas</l>
-            <l>Córdoba y sus habitantes,</l>
-            <l>perdonadme en adelante</l>
-            <l>socorred mis dos hermanos</l>
-            <l>Ancianos, padres y niños</l>
-            <l>las peñas y las montanas.</l>
-            <l>las luentes y mis amigo</l>
-            <l>llorad, vuestra dulce calma</l>
-            <l>vuestra bendición confío,</l>
-            <l rend="cursiva">que una mujer fué la causa</l>
-          </lg>
-          <lg>
-            <l rend="indent">Ya salgo con un piquete</l>
-            <l>y una caja destenplada,</l>
-            <l>la caridad me acompaña.</l>
-            <l>me miran todas las gentes,</l>
-            <l>adios, adios compañeros,</l>
-            <l>adios, adios pera siempre</l>
-            <l>Veinticinco años de mundo</l>
-            <l>mirad todos mi suerte,</l>
-            <l>u Santo Cristo en mis manos</l>
-            <l rend="cursiva">le pido que no me deje.</l>
-          </lg>
-          <lg>
-            <l rend="indent">Ya subo por la escalera,</l>
-            <l>ya el verdugo me acomete</l>
-            <l>creo en Dios padre y en Dios hijo</l>
-            <l>aquí fué el dolor más fuerte,</l>
-            <l>ya me sientan en la silla,</l>
-            <l>mirando estoy a la gente,</l>
-            <l>me retiran la cabeza</l>
-            <l>un torno al cuello me meten</l>
-            <l>y al decir su único hijo</l>
-            <l rend="cursiva">de pelear con la muerte.</l>
-          </lg>
-        </div>
+        
         <div type="colofon">
           <p><lb/>Imps. Hospital, 19. «El Abanico»</p>
         </div>

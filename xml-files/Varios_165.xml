@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../Schema/oddPliego_varios.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:alto="http://www.loc.gov/standards/alto/ns-v4#" xml:id="Varios_165">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Varios_165">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -11,8 +11,7 @@
         </respStmt>
       </titleStmt>
       <publicationStmt>
-        <authority role="rightsHolder">Bibliothèque Universitaire de
-                              Genève</authority>
+        <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
         <availability status="restricted">
           <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
         </availability>
@@ -20,9 +19,8 @@
       <sourceDesc>
         <biblFull>
           <titleStmt>
-            <title type="titulo_completo">El niño cupido cancíon de los
-                                          amores de Ramon y pepita; A las doce de la noche un joven
-                                          de robusto talle y hermosa planta ...</title>
+            <title type="titulo_completo">El niño cupido cancíon de los amores de Ramon y pepita; A
+              las doce de la noche un joven de robusto talle y hermosa planta ...</title>
             <title type="titulo_breve">El niño cupido</title>
           </titleStmt>
           <editionStmt>
@@ -31,7 +29,7 @@
           <publicationStmt>
             <publisher>El Abanico</publisher>
             <pubPlace ref="https://www.geonames.org/3128760/barcelona.html">Barcelona</pubPlace>
-            <date cert="high">[s.a]</date>
+            <date cert="low" when="1800-01-01">[s.a.]</date>
           </publicationStmt>
         </biblFull>
         <msDesc>
@@ -39,7 +37,8 @@
             <country>Suisse</country>
             <settlement>Genève</settlement>
             <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"/>
-                                    </repository>
+            </repository>
+            <collection>Colección Varios</collection>
             <idno type="cote"/>
             <idno type="DOI">10.5281/zenodo.6587223</idno>
             <altIdentifier>
@@ -68,7 +67,7 @@
               </layoutDesc>
             </objectDesc>
             <decoDesc>
-              <summary n="1">Uno grabado (p.1) </summary>
+              <summary n="1">Un grabado (p.1) </summary>
               <decoNote type="lista_grabados">
                 <list>
                   <item corresp="grabado_v_165_1.xml">grabado_v_165_1</item>
@@ -89,18 +88,17 @@
     </fileDesc>
     <encodingDesc>
       <projectDesc>
-        <p>Este archivo fue creado en el marco del proyecto Desenrollando el
-                              Cordel/Démêler le cordel/Untangling the cordel, dirigido por la
-                              profesora Constance Carta de la Universidad de Ginebra, con el apoyo
-                              de la Fundación filantrópica Famille Sandoz-Monique de Meuron.</p>
+        <p>Este archivo fue creado en el marco del proyecto Desenrollando el Cordel/Démêler le
+          cordel/Untangling the cordel, dirigido por la profesora Constance Carta de la Universidad
+          de Ginebra, con el apoyo de la Fundación filantrópica Famille Sandoz-Monique de
+          Meuron.</p>
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR non corregido</p>
+          <p>OCR no corregido</p>
         </correction>
         <normalization>
-          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto
-                                    original.</p>
+          <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
         </normalization>
         <punctuation>
           <p>Se conserva la puntuación original.</p>
@@ -121,10 +119,14 @@
       </textClass>
     </profileDesc>
     <revisionDesc>
-      <change when="2023-03-15" who="#PJ">Création du fichier TEI P5 et encodage du
-                        corps du texte</change>
+      <change when="2023-03-15" who="#PJ">Création du fichier TEI P5 et encodage du corps du
+        texte</change>
+      <change when="2024-01-09" who="#EL">Add the IIIF links</change>
     </revisionDesc>
   </teiHeader>
+  <facsimile>
+    <graphic url="varios/Varios_165_1.jpg/full/200,/0/default.jpg"/>
+  </facsimile>
   <sourceDoc xml:id="automaticTranscription">
     <surface xml:id="Varios_165_1" type="page" cert="silver">
       <graphic url="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_165_1/full/full/0/default.jpg"/>
@@ -147,18 +149,16 @@
         </zone>
         <zone xml:id="Varios_165_1_BT223_1_LT183_5" type="CustomZone" subtype="none" points="0,0 0,0 0,0 0,0" source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_165_1/216.0,3207.0,3074.0,11.0/full/0/default" corresp="DefaultLine">
           <path xml:id="Varios_165_1_BT223_1_LT183_5_1" points="216,3207 3290,3218 "/>
-          <line>A las doce de la noche un joven de robusto talle y hermosa
-                                    planta saltando por</line>
+          <line>A las doce de la noche un joven de robusto talle y hermosa planta saltando
+            por</line>
         </zone>
         <zone xml:id="Varios_165_1_BT223_1_LT183_6" type="CustomZone" subtype="none" points="0,0 0,0 0,0 0,0" source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_165_1/446.0,3327.0,2625.0,4.0/full/0/default" corresp="DefaultLine">
           <path xml:id="Varios_165_1_BT223_1_LT183_6_1" points="446,3331 3071,3327 "/>
-          <line>las paredes del jardín, por una ventana se introduce en el
-                                    dormitorio</line>
+          <line>las paredes del jardín, por una ventana se introduce en el dormitorio</line>
         </zone>
         <zone xml:id="Varios_165_1_BT223_1_LT183_7" type="CustomZone" subtype="none" points="0,0 0,0 0,0 0,0" source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_165_1/331.0,3436.0,2860.0,16.0/full/0/default" corresp="DefaultLine">
           <path xml:id="Varios_165_1_BT223_1_LT183_7_1" points="331,3436 3191,3452 "/>
-          <line>de su hermosa enamorada. Los dos eran jóvenes; los dos se
-                                    amaban...</line>
+          <line>de su hermosa enamorada. Los dos eran jóvenes; los dos se amaban...</line>
         </zone>
         <zone xml:id="Varios_165_1_BT223_1_LT183_8" type="CustomZone" subtype="none" points="0,0 0,0 0,0 0,0" source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_165_1/955.0,3551.0,1611.0,11.0/full/0/default" corresp="DefaultLine">
           <path xml:id="Varios_165_1_BT223_1_LT183_8_1" points="955,3551 2566,3562 "/>
@@ -1030,64 +1030,58 @@
       <zone xml:id="Varios_165_2_BT226_5" n="5" type="MainZone" subtype="none" points="120,3744 120,4656 3274,4656 3274,3744 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_165_2/120.0,3744.0,3154.0,912.0/full/0/default" corresp="MainZone">
         <zone xml:id="Varios_165_2_BT226_5_LT182_1" type="DefaultLine" subtype="none" points="0,0 0,0 0,0 0,0" source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_165_2/274.0,3876.0,2951.0,36.0/full/0/default" corresp="DefaultLine">
           <path xml:id="Varios_165_2_BT226_5_LT182_1_1" points="274,3876 3225,3912 " corresp="DefaultLine"/>
-          <line>NOTA: Se halla á más del gran surtido de romances una colección
-                                    de historias antiguas y modernas y varios sainetes</line>
+          <line>NOTA: Se halla á más del gran surtido de romances una colección de historias
+            antiguas y modernas y varios sainetes</line>
         </zone>
         <zone xml:id="Varios_165_2_BT226_5_LT182_2" type="DefaultLine" subtype="none" points="0,0 0,0 0,0 0,0" source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_165_2/170.0,3942.0,3055.0,40.0/full/0/default" corresp="DefaultLine">
           <path xml:id="Varios_165_2_BT226_5_LT182_2_1" points="170,3942 3225,3982 " corresp="DefaultLine"/>
-          <line>como también algunos libritos de pliego como son: El escribiente
-                                    de los enamorados, estilo de cartas de amor, adornado con</line>
+          <line>como también algunos libritos de pliego como son: El escribiente de los enamorados,
+            estilo de cartas de amor, adornado con</line>
         </zone>
         <zone xml:id="Varios_165_2_BT226_5_LT182_3" type="DefaultLine" subtype="none" points="0,0 0,0 0,0 0,0" source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_165_2/170.0,4012.0,3060.0,34.0/full/0/default" corresp="DefaultLine">
           <path xml:id="Varios_165_2_BT226_5_LT182_3_1" points="170,4012 3230,4046 " corresp="DefaultLine"/>
-          <line>los secretos para triunfar de las mujeres y aumentada esta
-                                    última edición con el lenguaje de las flores, útil á los amantes
-                                    para</line>
+          <line>los secretos para triunfar de las mujeres y aumentada esta última edición con el
+            lenguaje de las flores, útil á los amantes para</line>
         </zone>
         <zone xml:id="Varios_165_2_BT226_5_LT182_4" type="DefaultLine" subtype="none" points="0,0 0,0 0,0 0,0" source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_165_2/169.0,4087.0,3056.0,34.0/full/0/default" corresp="DefaultLine">
           <path xml:id="Varios_165_2_BT226_5_LT182_4_1" points="169,4087 3225,4121 " corresp="DefaultLine"/>
-          <line>manifestarse los secretos de amor sin necesidad de escribir.—
-                                    Secretos de utilidad y recreo, contiene á más de una
-                                    infinidad</line>
+          <line>manifestarse los secretos de amor sin necesidad de escribir.— Secretos de utilidad y
+            recreo, contiene á más de una infinidad</line>
         </zone>
         <zone xml:id="Varios_165_2_BT226_5_LT182_5" type="DefaultLine" subtype="none" points="0,0 0,0 0,0 0,0" source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_165_2/164.0,4153.0,3069.0,41.0/full/0/default" corresp="DefaultLine">
           <path xml:id="Varios_165_2_BT226_5_LT182_5_1" points="164,4153 3233,4194 " corresp="DefaultLine"/>
-          <line>de secretos, la instrucción para fabricar los principales
-                                    licores. — La cocinera moderna, arte de guisar con toda regla y
-                                    lim-</line>
+          <line>de secretos, la instrucción para fabricar los principales licores. — La cocinera
+            moderna, arte de guisar con toda regla y lim-</line>
         </zone>
         <zone xml:id="Varios_165_2_BT226_5_LT182_6" type="DefaultLine" subtype="none" points="0,0 0,0 0,0 0,0" source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_165_2/155.0,4222.0,3070.0,41.0/full/0/default" corresp="DefaultLine">
           <path xml:id="Varios_165_2_BT226_5_LT182_6_1" points="155,4222 3225,4263 " corresp="DefaultLine"/>
-          <line>pieza. — Fuegos de manos, libro de mucha diversión. — El mágico
-                                    adivino, para adivinar varios secretos. — Guía del ena-</line>
+          <line>pieza. — Fuegos de manos, libro de mucha diversión. — El mágico adivino, para
+            adivinar varios secretos. — Guía del ena-</line>
         </zone>
         <zone xml:id="Varios_165_2_BT226_5_LT182_7" type="DefaultLine" subtype="none" points="0,0 0,0 0,0 0,0" source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_165_2/159.0,4295.0,3054.0,37.0/full/0/default" corresp="DefaultLine">
           <path xml:id="Varios_165_2_BT226_5_LT182_7_1" points="159,4295 3213,4332 " corresp="DefaultLine"/>
-          <line>morats ó llíbre dels galanteos, útil á la juventud. — El médico
-                                    de los pobres, arte de curarse á si mismo de muchas
-                                    enfermeda-</line>
+          <line>morats ó llíbre dels galanteos, útil á la juventud. — El médico de los pobres, arte
+            de curarse á si mismo de muchas enfermeda-</line>
         </zone>
         <zone xml:id="Varios_165_2_BT226_5_LT182_8" type="DefaultLine" subtype="none" points="0,0 0,0 0,0 0,0" source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_165_2/164.0,4360.0,3061.0,41.0/full/0/default" corresp="DefaultLine">
           <path xml:id="Varios_165_2_BT226_5_LT182_8_1" points="164,4360 3225,4401 " corresp="DefaultLine"/>
-          <line>des sin necesidad de facultativo, contiene dos recetas para
-                                    hacer el agua sedativa, explicación de sus virtudes, para
-                                    hacer</line>
+          <line>des sin necesidad de facultativo, contiene dos recetas para hacer el agua sedativa,
+            explicación de sus virtudes, para hacer</line>
         </zone>
         <zone xml:id="Varios_165_2_BT226_5_LT182_9" type="DefaultLine" subtype="none" points="0,0 0,0 0,0 0,0" source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_165_2/155.0,4441.0,3070.0,29.0/full/0/default" corresp="DefaultLine">
           <path xml:id="Varios_165_2_BT226_5_LT182_9_1" points="155,4441 3225,4470 " corresp="DefaultLine"/>
-          <line>pomada, aceite y aguardiente alcanforado, su aplicación; y
-                                    últimamente para hacer la medicina de LE ROI (la Ruá),
-                                    con-</line>
+          <line>pomada, aceite y aguardiente alcanforado, su aplicación; y últimamente para hacer la
+            medicina de LE ROI (la Ruá), con-</line>
         </zone>
         <zone xml:id="Varios_165_2_BT226_5_LT182_10" type="DefaultLine" subtype="none" points="0,0 0,0 0,0 0,0" source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_165_2/155.0,4502.0,3070.0,41.0/full/0/default" corresp="DefaultLine">
           <path xml:id="Varios_165_2_BT226_5_LT182_10_1" points="155,4502 3225,4543 " corresp="DefaultLine"/>
-          <line>tiene el vomi-purgativo, el purgante hasta cuarto grado y dósis
-                                    que debe tomarse del vomi-purgativo o purgante — El se-</line>
+          <line>tiene el vomi-purgativo, el purgante hasta cuarto grado y dósis que debe tomarse del
+            vomi-purgativo o purgante — El se-</line>
         </zone>
         <zone xml:id="Varios_165_2_BT226_5_LT182_11" type="DefaultLine" subtype="none" points="0,0 0,0 0,0 0,0" source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_165_2/164.0,4583.0,2184.0,17.0/full/0/default" corresp="DefaultLine">
           <path xml:id="Varios_165_2_BT226_5_LT182_11_1" points="164,4583 2348,4600 " corresp="DefaultLine"/>
-          <line>cretario moderno, arte de escribir cartas y memoriales. — Nuevo
-                                    ramillete de felicitaciones.</line>
+          <line>cretario moderno, arte de escribir cartas y memoriales. — Nuevo ramillete de
+            felicitaciones.</line>
         </zone>
       </zone>
       <zone xml:id="Varios_165_2_BT221_6" n="6" type="MarginTextZone" subtype="colophon" points="1226,4671 1226,4815 2243,4815 2243,4671 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_165_2/1226.0,4671.0,1017.0,144.0/full/0/default" corresp="MarginTextZone:colophon">
@@ -1102,26 +1096,27 @@
     <body>
       <div>
         <div>
-          <pb n="1" source="Varios_165_1.jpg" facs="fedora_Varios_165_1/full/full/0/default.jpg"/>
-          <head type="primer_titulo"><lb/>EL NIÑO CUPIDO</head>
-          <head type="subtitulo_parte"><lb/>CANCIÓN DE LOS AMORES<lb/>DE<lb/>RAMON Y PEPITA<lb/>A las
-                                    doce de la noche un joven de robusto talle y hermosa planta
-                                    saltando por<lb/>las paredes del jardín, por una ventana se
-                                    introduce en el dormitorio<lb/>de su hermosa enamorada. Los dos
-                                    eran jóvenes; los dos se amaban...<lb/>Lo que pasó lo sabrá el
-                                    que lea este papel</head>
+          <pb n="1" source="Varios_165_1.jpg" facs="varios/Varios_165_1.jpg/"/>
+          
+          <head type="primer_titulo" rend="negrita"><lb/>EL NIÑO CUPIDO</head>
+          <head type="subtitulo" rend="negrita"><lb/>CANCIÓN DE LOS AMORES<lb/>DE<lb/>RAMON Y PEPITA<lb/>A
+            las doce de la noche un joven de robusto talle y hermosa planta saltando por<lb/>las
+            paredes del jardín, por una ventana se introduce en el dormitorio<lb/>de su hermosa
+            enamorada. Los dos eran jóvenes; los dos se amaban...<lb/>Lo que pasó lo sabrá el que
+            lea este papel</head>
+          
           <sp>
-            <speaker>Ramón.</speaker>
-            <l>Por fin ya me encuentro</l>
+            <speaker rend="cursiva">Ramón.</speaker>
+            <l rend="indent">Por fin ya me encuentro</l>
             <l>á tu lado hermosa,</l>
             <l>aquí cariñosa,</l>
             <l>doite el corazón.</l>
-            <l>Pues solos estamos;</l>
+            <l rend="indent">Pues solos estamos;</l>
             <l>el lugar convida:</l>
             <l>calmarás querida</l>
             <l>mi fuerte pasión?</l>
           </sp>
-          <lg>
+          <lg rend="cursiva">
             <head type="estribillo">CORO.</head>
             <l>Oh niño Cupido</l>
             <l>que triste rigor!</l>
@@ -1129,17 +1124,17 @@
             <l>gozar de mi amor.</l>
           </lg>
           <sp>
-            <speaker>Pepita.</speaker>
-            <l>No es de caballeros,</l>
+            <speaker rend="cursiva">Pepita.</speaker>
+            <l rend="indent">No es de caballeros,</l>
             <l>de ínclitos varones</l>
             <l>escalar balcones</l>
             <l>con siniestro fin.</l>
-            <l>Sálgase usted fuera,</l>
+            <l rend="indent">Sálgase usted fuera,</l>
             <l>buen mozo arrogante,</l>
             <l>márchese al instante.</l>
             <l>huya usted de aquí.</l>
           </sp>
-          <lg>
+          <lg rend="cursiva">
             <head type="estribillo">CORO.</head>
             <l>Oh niño Cupido,</l>
             <l>travieso señor!</l>
@@ -1147,265 +1142,263 @@
             <l>gozar de mi amor.</l>
           </lg>
           <sp>
-            <speaker>Ramón.</speaker>
-            <l>En vano, Pepita,</l>
+            <speaker rend="cursiva">Ramón.</speaker>
+            <l rend="indent">En vano, Pepita,</l>
             <l>ocultar pretendes,</l>
             <l>lo que ahora sientes</l>
             <l>en tu corazón.</l>
-            <l>Escucha querida</l>
+            <l rend="indent">Escucha querida</l>
             <l>ay cuán feliz fueras,</l>
             <l>si correspondieras</l>
             <l>á mi pasión!</l>
           </sp>
           <sp>
-            <speaker>Pepita.</speaker>
-            <l>A mi feliz me hacen</l>
+            <speaker rend="cursiva">Pepita.</speaker>
+            <l rend="indent">A mi feliz me hacen</l>
             <l>sueños infantiles:</l>
             <l>tengo quince abriles</l>
             <l>que me hacen gozar.</l>
-            <pb n="2" source="Varios_165_2.jpg" facs="fedora_Varios_165_2/full/full/0/default.jpg"/>
-            <l>Diga caballero,</l>
+            
+            <pb n="2" source="Varios_165_2.jpg" facs="varios/Varios_165_2.jpg/"/>
+            
+            <l rend="indent">Diga caballero,</l>
             <l>yo qué sacaría</l>
             <l>si desde este día</l>
             <l>empezase á amar.</l>
           </sp>
-          <p><lb/>Coro.</p>
+          <p rend="cursiva"><lb/>Coro.</p>
           <sp>
-            <speaker>Ramón.</speaker>
-            <l>Pepita, preguntas</l>
+            <speaker rend="cursiva">Ramón.</speaker>
+            <l rend="indent">Pepita, preguntas</l>
             <l>qué logras amando,</l>
             <l>el tiempo gozando</l>
             <l>se pasa mejor:</l>
-            <l>Nada fuera el mundo</l>
+            <l rend="indent">Nada fuera el mundo</l>
             <l>sin amar hermosa,</l>
             <l>la vida gozosa</l>
             <l>nos hace el amor.</l>
           </sp>
-          <p><lb/>Coro.</p>
+          <p rend="cursiva"><lb/>Coro.</p>
           <sp>
-            <speaker>Pepita.</speaker>
-            <l>El amor de penas</l>
+            <speaker rend="cursiva">Pepita.</speaker>
+            <l rend="indent">El amor de penas</l>
             <l>eternas, quebranto:</l>
             <l>en continuo llanto</l>
             <l>nos tiene el amor.</l>
-            <l>Y en vez de los goces</l>
+            <l rend="indent">Y en vez de los goces</l>
             <l>que tanto ponderan,</l>
             <l>nos da una cadena</l>
             <l>de fuerte dolor.</l>
           </sp>
-          <p><lb/>Coro.</p>
+          <p rend="cursiva"><lb/>Coro.</p>
           <sp>
-            <speaker>Ramón.</speaker>
-            <l>Qué dices hermosa?</l>
+            <speaker rend="cursiva">Ramón.</speaker>
+            <l rend="indent">Qué dices hermosa?</l>
             <l>Pepita querida!</l>
             <l>Sin amor la vida</l>
             <l>qué sería di?</l>
-            <l>Que dulce respuesta,</l>
+            <l rend="indent">Que dulce respuesta,</l>
             <l>querida me dieras</l>
             <l>si en ti tu sintieras</l>
             <l>lo que pasa en mí.</l>
-            <p><lb/>Coro.</p>
-            <l>Por qué joven bella,</l>
+            <p rend="cursiva"><lb/>Coro.</p>
+            <l rend="indent">Por qué joven bella,</l>
             <l>te muestras ingrata?</l>
             <l>no ves que me mata</l>
             <l>tu injusto rigor?</l>
-            <l>No ves que sin culpa</l>
+            <l rend="indent">No ves que sin culpa</l>
             <l>mi amoroso pecho</l>
             <l>está ya deshecho</l>
             <l>con tan fuerte amor?</l>
-            <p><lb/>Coro.</p>
-            <l>Aman de continuo</l>
+            <p rend="cursiva"><lb/>Coro.</p>
+            <l rend="indent">Aman de continuo</l>
             <l>los Santos del Cielo,</l>
             <l>los hombres del suelo</l>
             <l>y el mismo Criador.</l>
-            <l>Todo ser amado</l>
+            <l rend="indent">Todo ser amado</l>
             <l>está hasta la tumba</l>
             <l>y el eco retumba</l>
             <l>por doquier amor.</l>
           </sp>
-          <p><lb/>Coro.</p>
+          <p rend="cursiva"><lb/>Coro.</p>
           <sp>
-            <speaker>Pepita.</speaker>
-            <l>No tanto entusiasmo,</l>
+            <speaker rend="cursiva">Pepita.</speaker>
+            <l rend="indent">No tanto entusiasmo,</l>
             <l>señor libertino...</l>
             <l>guarde V. el buen tino</l>
             <l>en su corazón.</l>
-            <l>Estése V. quieto,</l>
+            <l rend="indent">Estése V. quieto,</l>
             <l>clámese le digo,</l>
             <l>si es V. mi amigo</l>
             <l>señor don Ramón.</l>
           </sp>
-          <p><lb/>Coro.</p>
+          <p rend="cursiva"><lb/>Coro.</p>
           <sp>
-            <speaker>Ramón.</speaker>
-            <l>Es posible hermosa</l>
+            <speaker rend="cursiva">Ramón.</speaker>
+            <l rend="indent">Es posible hermosa</l>
             <l>que en tales momentos</l>
             <l>desoigas acentos</l>
             <l>de tan fuerte amor?</l>
-            <l>Si yo en este instante</l>
+            <l rend="indent">Si yo en este instante</l>
             <l>no he de poseerte,</l>
             <l>causará mi muerte</l>
             <l>tu injusto rigor.</l>
-            <p><lb/>Coro.</p>
-            <l>Ya que en esta pieza</l>
+            <p rend="cursiva"><lb/>Coro.</p>
+            <l rend="indent">Ya que en esta pieza</l>
             <l>á solas estamos,</l>
             <l>di no aprovechamos</l>
             <l>tan buena acasión?</l>
-            <l>Si te has convencido;</l>
+            <l rend="indent">Si te has convencido;</l>
             <l>tu pecho palpita...</l>
             <l>ay bella Pepita</l>
             <l>calma mi pasión.</l>
-            <l>Oh niño Cupido</l>
-            <l>travieso señor!</l>
-            <l>yo puedo y ya quiero</l>
-            <l>gozar de mi amor.</l>
+            <l rend="cursiva">Oh niño Cupido</l>
+            <l rend="cursiva">travieso señor!</l>
+            <l rend="cursiva">yo puedo y ya quiero</l>
+            <l rend="cursiva">gozar de mi amor.</l>
           </sp>
           <sp>
-            <speaker>Pepita.</speaker>
-            <l>Vayamos despacio</l>
+            <speaker rend="cursiva">Pepita.</speaker>
+            <l rend="indent">Vayamos despacio</l>
             <l>la madre allí duerme</l>
             <l>y aqui sorprenderme</l>
             <l>podría muy bien.</l>
-            <l>Sed mas cauteloso;</l>
+            <l rend="indent">Sed mas cauteloso;</l>
             <l>íd pues con cuidado</l>
             <l>al cuarto del lado</l>
             <l>ay gente también.</l>
-            <l>Oh niño Cupido</l>
-            <l>travieso señor!</l>
-            <l>yo puedo y ya quiero</l>
-            <l>gozar de mi amor.</l>
-            <l>Todos los de casa</l>
+            <l rend="cursiva">Oh niño Cupido</l>
+            <l rend="cursiva">travieso señor!</l>
+            <l rend="cursiva">yo puedo y ya quiero</l>
+            <l rend="cursiva">gozar de mi amor.</l>
+            <l rend="indent">Todos los de casa</l>
             <l>hermanos, cuñados,</l>
             <l>ellos son casados,</l>
             <l>y felices son.</l>
-            <l>Más yo jovencita</l>
+            <l rend="indent">Más yo jovencita</l>
             <l>de nadie querida,</l>
             <l>paso triste vida</l>
             <l>sin santa unión.</l>
           </sp>
-          <p><lb/>CORO.</p>
+          <p rend="cursiva"><lb/>CORO.</p>
           <sp>
-            <speaker>Ramón.</speaker>
-            <l>Estoy yo ardiendo</l>
+            <speaker rend="cursiva">Ramón.</speaker>
+            <l rend="indent">Estoy yo ardiendo</l>
             <l>me estoy abrasando,</l>
             <l>y al cielo jurando</l>
             <l>amarte sin fin.</l>
-            <l>No tengas recelos,</l>
+            <l rend="indent">No tengas recelos,</l>
             <l>no haya temores,</l>
             <l>calma mis ardores</l>
             <l>con tus besos mil.</l>
           </sp>
           <sp>
-            <speaker>Pepita.</speaker>
-            <l>Pero, no conoces</l>
+            <speaker rend="cursiva">Pepita.</speaker>
+            <l rend="indent">Pero, no conoces</l>
             <l>qué dirá la gente</l>
             <l>si sabe imprudente</l>
             <l>nuestro loco amor?</l>
-            <l>Y si á tus caprichos</l>
+            <l rend="indent">Y si á tus caprichos</l>
             <l>cedo yo, querido,</l>
             <l>pronto habré perdido</l>
             <l>mi honra y mi honor.</l>
           </sp>
-          <p><lb/>Coro.</p>
+          <p rend="cursiva"><lb/>Coro.</p>
           <sp>
-            <speaker>Ramón.</speaker>
-            <l>Deja ya querida,</l>
+            <speaker rend="cursiva">Ramón.</speaker>
+            <l rend="indent">Deja ya querida,</l>
             <l>este miramiento,</l>
             <l>no ves que contento</l>
             <l>nos brinda el amor?</l>
-            <l>Quién resistir puede</l>
+            <l rend="indent">Quién resistir puede</l>
             <l>á tanto embeleso?</l>
             <l>de fuego es tu beso,</l>
             <l>el quita el dolor.</l>
           </sp>
-          <p><lb/>Coro.</p>
+          <p rend="cursiva"><lb/>Coro.</p>
           <sp>
-            <speaker>Pepita.</speaker>
-            <l>Querido á mi pecho</l>
+            <speaker rend="cursiva">Pepita.</speaker>
+            <l rend="indent">Querido á mi pecho</l>
             <l>tienes hechizado,</l>
             <l>por fin has logrado</l>
             <l>mi orgullo vencer.</l>
-            <l>Querido, conozco</l>
+            <l rend="indent">Querido, conozco</l>
             <l>que el niño Cupido</l>
             <l>es dios atrevido</l>
             <l>que nos da el placer.</l>
           </sp>
-          <p><lb/>Coro.</p>
+          <p rend="cursiva"><lb/>Coro.</p>
           <sp>
-            <speaker>Ramón.</speaker>
-            <l>No es verdad hermosa</l>
+            <speaker rend="cursiva">Ramón.</speaker>
+            <l rend="indent">No es verdad hermosa</l>
             <l>Pepita querida,</l>
             <l>que dulce es la vida</l>
             <l>si amamos así?</l>
-            <l>Felices seremos,</l>
+            <l rend="indent">Felices seremos,</l>
             <l>y en plena alegría</l>
             <l>será vida mía</l>
             <l>gozoso el vivir.</l>
           </sp>
-          <p><lb/>Coro.</p>
+          <p rend="cursiva"><lb/>Coro.</p>
           <sp>
-            <speaker>Pepita.</speaker>
-            <l>Ora ya conozco</l>
+            <speaker rend="cursiva">Pepita.</speaker>
+            <l rend="indent">Ora ya conozco</l>
             <l>cuan dulce es amando</l>
             <l>la vida pasando</l>
             <l>en goces de amor!</l>
-            <l>Ay, que quisicosa</l>
+            <l rend="indent">Ay, que quisicosa</l>
             <l>en mi pecho siento!</l>
             <l>completo contento</l>
             <l>me diste amador.</l>
           </sp>
-          <p><lb/>Coro.</p>
+          <p rend="cursiva"><lb/>Coro.</p>
           <sp>
-            <speaker>Ramón.</speaker>
-            <l>Oh jóvenes todos</l>
+            <speaker rend="cursiva">Ramón.</speaker>
+            <l rend="indent">Oh jóvenes todos</l>
             <l>que leeis esta historia,</l>
             <l>en vuestra memoria</l>
             <l>dulce el fin grabad.</l>
-            <l>No temáis reproches</l>
+            <l rend="indent">No temáis reproches</l>
             <l>de bellas mujeres,</l>
             <l>si quereis placeres</l>
             <l>con pecho avanzad.</l>
           </sp>
-          <p><lb/>Coro.</p>
+          <p rend="cursiva"><lb/>Coro.</p>
           <sp>
-            <speaker>Pepita.</speaker>
-            <l>Oh niñas amables</l>
+            <speaker rend="cursiva">Pepita.</speaker>
+            <l rend="indent">Oh niñas amables</l>
             <l>jóvenes hermosas</l>
             <l>que siempre orgullosas</l>
             <l>mostrais cruel rigor.</l>
-            <l>Os tendrá bien pronto</l>
+            <l rend="indent">Os tendrá bien pronto</l>
             <l>vuestro pecho herido,</l>
             <l>el bello Cupido</l>
             <l>que es dios del amor.</l>
           </sp>
-          <p><lb/>Coro.</p>
+          <p rend="cursiva"><lb/>Coro.</p>
           <trailer><lb/>FIN</trailer>
         </div>
+        
         <div type="productos_a_la_venta">
-          <p><lb/>NOTA: Se halla á más del gran surtido de romances una
-                                    colección de historias antiguas y modernas y varios
-                                    sainetes<lb/>como también algunos libritos de pliego como son:
-                                    El escribiente de los enamorados, estilo de cartas de amor,
-                                    adornado con<lb/>los secretos para triunfar de las mujeres y
-                                    aumentada esta última edición con el lenguaje de las flores,
-                                    útil á los amantes para<lb/>manifestarse los secretos de amor
-                                    sin necesidad de escribir.— Secretos de utilidad y recreo,
-                                    contiene á más de una infinidad<lb/>de secretos, la instrucción
-                                    para fabricar los principales licores. — La cocinera moderna,
-                                    arte de guisar con toda regla y lim-<lb/>pieza. — Fuegos de
-                                    manos, libro de mucha diversión. — El mágico adivino, para
-                                    adivinar varios secretos. — Guía del ena-<lb/>morats ó llíbre
-                                    dels galanteos, útil á la juventud. — El médico de los pobres,
-                                    arte de curarse á si mismo de muchas enfermeda-<lb/>des sin
-                                    necesidad de facultativo, contiene dos recetas para hacer el
-                                    agua sedativa, explicación de sus virtudes, para
-                                    hacer<lb/>pomada, aceite y aguardiente alcanforado, su
-                                    aplicación; y últimamente para hacer la medicina de LE ROI (la
-                                    Ruá), con-<lb/>tiene el vomi-purgativo, el purgante hasta cuarto
-                                    grado y dósis que debe tomarse del vomi-purgativo o purgante —
-                                    El se-<lb/>cretario moderno, arte de escribir cartas y
-                                    memoriales. — Nuevo ramillete de felicitaciones.</p>
+          <p><lb/>NOTA: Se halla á más del gran surtido de romances una colección de historias
+            antiguas y modernas y varios sainetes<lb/>como también algunos libritos de pliego como
+            son: <hi rend="cursiva">El escribiente de los enamorados</hi>, estilo de cartas de amor, adornado con<lb/>los
+            secretos para triunfar de las mujeres y aumentada esta última edición con el lenguaje de
+            las flores, útil á los amantes para<lb/>manifestarse los secretos de amor sin necesidad
+            de escribir.— <hi rend="cursiva">Secretos de utilidad y recreo</hi>, contiene á más de una infinidad<lb/>de
+            secretos, la instrucción para fabricar los principales licores. — <hi rend="cursiva">La cocinera moderna</hi>,
+            arte de guisar con toda regla y lim-<lb/>pieza. — <hi rend="cursiva">Juegos de manos</hi>, libro de mucha
+            diversión. — <hi rend="cursiva">El mágico adivino</hi>, para adivinar varios secretos. — <hi rend="cursiva">Guía del
+              ena-<lb/>morats ó llíbre dels galanteos</hi>, útil á la juventud. — <hi rend="cursiva">El médico de los pobres</hi>,
+            arte de curarse á si mismo de muchas enfermeda-<lb/>des sin necesidad de facultativo,
+            contiene dos recetas para hacer el agua sedativa, explicación de sus virtudes, para
+            hacer<lb/>pomada, aceite y aguardiente alcanforado, su aplicación; y últimamente para
+            hacer la medicina de LE ROI (la Ruá), con-<lb/>tiene el vomi-purgativo, el purgante
+            hasta cuarto grado y dósis que debe tomarse del vomi-purgativo o purgante — <hi rend="cursiva">El
+            se-<lb/>cretario moderno</hi>, arte de escribir cartas y memoriales. — <hi rend="cursiva">Nuevo ramillete de
+            felicitaciones</hi>.</p>
         </div>
+        
         <div type="colofon">
           <p><lb/>Imps. Hospital, 19, "El Abanico"</p>
         </div>
