@@ -1,6 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?xml-model href="../Schema/oddPliego_varios.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="BCN_013">
+<?xml-model href="Schema/oddPliego_varios.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="BCN_013">
       <teiHeader>
             <fileDesc>
                   <titleStmt>
@@ -14,8 +12,7 @@
                         <authority role="rightsHolder">Bibliothèque Universitaire de
                               Genève</authority>
                         <availability status="restricted">
-                              <licence n="cc by nc sa"
-                                    target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                              <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
                         </availability>
                   </publicationStmt>
                   <sourceDesc>
@@ -33,8 +30,7 @@
                               </editionStmt>
                               <publicationStmt>
                                     <publisher>Los herederos de Juan Jolis</publisher>
-                                    <pubPlace ref="https://www.geonames.org/3128760/barcelona.html"
-                                          >Barcelona</pubPlace>
+                                    <pubPlace ref="https://www.geonames.org/3128760/barcelona.html">Barcelona</pubPlace>
                                     <date cert="low" when="1800-01-01">[s.a.]</date>
                               </publicationStmt>
                         </biblFull>
@@ -42,9 +38,7 @@
                               <msIdentifier>
                                     <country>Suisse</country>
                                     <settlement>Genève</settlement>
-                                    <repository>Bibliothèque Universitaire de Genève <ref
-                                                target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"
-                                          />
+                                    <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"/>
                                     </repository>
                                     <collection>Colección Varios</collection>
                                     <idno type="cote"/>
@@ -79,12 +73,9 @@
                                           <summary n="3">Tres grabados (p.1)</summary>
                                           <decoNote type="lista_grabados">
                                                 <list>
-                                                  <item corresp="grabado_b_013_1.xml"
-                                                  >grabado_b_013_1</item>
-                                                  <item corresp="grabado_b_013_2.xml"
-                                                  >grabado_b_013_2</item>
-                                                  <item corresp="grabado_b_013_3.xml"
-                                                  >grabado_b_013_3</item>
+                                                      <item corresp="grabado_b_013_1.xml" facs="varios/BCN_013_1.jpg/1245,143,300,672/100,/0/default.jpg">grabado_b_013_1</item>
+                                                      <item corresp="grabado_b_013_2.xml" facs="varios/BCN_013_1.jpg/129,155,330,650/100,/0/default.jpg">grabado_b_013_2</item>
+                                                      <item corresp="grabado_b_013_3.xml" facs="varios/BCN_013_1.jpg/467,203,750,600/100,/0/default.jpg">grabado_b_013_3</item>
                                                 </list>
                                           </decoNote>
                                     </decoDesc>
@@ -415,7 +406,7 @@
                         <div type="colofon">
                               <p>
                                     <lb/><hi rend="cursiva">Barcelona</hi>: En la Imprenta de los
-                                    Herederos de Juan Jolis en <lb/>la calle de los Algodoneros.
+                                    Herederos de Juan Jolis <lb/>en la calle de los Algodoneros.
                               </p>
                         </div>
                   </div>

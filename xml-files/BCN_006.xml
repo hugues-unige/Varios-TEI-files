@@ -1,10 +1,8 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?xml-model href="../Schema/oddPliego_varios.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="BCN_006">
+<?xml-model href="Schema/oddPliego_varios.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="BCN_006">
       <teiHeader>
             <fileDesc>
                   <titleStmt>
-                        <title>Coplas al sagrado nacimiento</title>
+                        <title>Coplas al sagrado nacimiento del Niño Jesus en el Portal de Belén</title>
                         <respStmt xml:id="PJ">
                               <name>Pauline Jacsont</name>
                               <resp>Segmentación y transcripción</resp>
@@ -19,11 +17,9 @@
                         </respStmt>
                   </titleStmt>
                   <publicationStmt>
-                        <authority role="rightsHolder">Bibliothèque Universitaire de
-                              Genève</authority>
+                        <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
                         <availability status="restricted">
-                              <licence n="cc by nc sa"
-                                    target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                              <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
                         </availability>
                   </publicationStmt>
                   <sourceDesc>
@@ -31,15 +27,14 @@
                               <titleStmt>
                                     <title type="titulo_completo">Coplas al sagrado nacimiento del
                                           Niño Jesus en el Portal de Belén</title>
-                                    <title type="titulo_breve">Coplas al sagrado nacimiento</title>
+                                    <title type="titulo_breve"/>
                               </titleStmt>
                               <editionStmt>
                                     <p/>
                               </editionStmt>
                               <publicationStmt>
                                     <publisher>Juan Jolis</publisher>
-                                    <pubPlace ref="https://www.geonames.org/3128760/barcelona.html"
-                                          >Barcelona</pubPlace>
+                                    <pubPlace ref="https://www.geonames.org/3128760/barcelona.html">Barcelona</pubPlace>
                                     <date cert="low" when="1800-01-01">[s.a.]</date>
                               </publicationStmt>
                         </biblFull>
@@ -47,9 +42,7 @@
                               <msIdentifier>
                                     <country>Suisse</country>
                                     <settlement>Genève</settlement>
-                                    <repository>Bibliothèque Universitaire de Genève <ref
-                                                target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"
-                                          />
+                                    <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"/>
                                     </repository>
                                     <collection>Colección Varios</collection>
                                     <idno type="cote"/>
@@ -63,15 +56,11 @@
                                     <msItem>
                                           <locus>1-2</locus>
                                           <title>Coplas al sagrado nacimiento del Niño Jesus en el
-                                                Portal de Belén</title>
+                                                Portal de Belén.</title>
                                     </msItem>
                                     <msItem>
                                           <locus>3-4</locus>
                                           <title>Siguense otras coplas.</title>
-                                    </msItem>
-                                    <msItem>
-                                          <locus>4</locus>
-                                          <title>Otras</title>
                                     </msItem>
                               </msContents>
                               <physDesc>
@@ -93,12 +82,9 @@
                                           <summary n="3">Tres grabados(p.1) </summary>
                                           <decoNote type="lista_grabados">
                                                 <list>
-                                                  <item corresp="grabado_b_006_1.xml"
-                                                  >grabado_b_006_1</item>
-                                                  <item corresp="grabado_b_006_2.xml"
-                                                  >grabado_b_006_2</item>
-                                                  <item corresp="grabado_b_006_3.xml"
-                                                  >grabado_b_006_3</item>
+                                                      <item corresp="grabado_b_006_1.xml" facs="varios/BCN_006_1.jpg/173,464,380,250/100,/0/default.jpg">grabado_b_006_1</item>
+                                                      <item corresp="grabado_b_006_2.xml" facs="varios/BCN_006_1.jpg/1316,485,340,250/100,/0/default.jpg">grabado_b_006_2</item>
+                                                      <item corresp="grabado_b_006_3.xml" facs="varios/BCN_006_1.jpg/543,220,780,720/100,/0/default.jpg">grabado_b_006_3</item>
                                                 </list>
                                           </decoNote>
                                     </decoDesc>
@@ -421,8 +407,7 @@
 
                                           <fw type="reclamo">que</fw>
 
-                                          <pb n="4" source="BCN_006_4.jpg"
-                                                facs="varios/BCN_006_4.jpg/"/>
+                                          <pb n="4" source="BCN_006_4.jpg" facs="varios/BCN_006_4.jpg/"/>
 
                                           <l>que te verás espantado</l>
                                           <l>de lo que passar verás.</l>

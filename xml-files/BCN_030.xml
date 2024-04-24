@@ -1,6 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?xml-model href="../Schema/oddPliego_varios.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="BCN_030">
+<?xml-model href="Schema/oddPliego_varios.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="BCN_030">
       <teiHeader>
             <fileDesc>
                   <titleStmt>
@@ -22,8 +20,7 @@
                         <authority role="rightsHolder">Bibliothèque Universitaire de
                               Genève</authority>
                         <availability status="restricted">
-                              <licence n="cc by nc sa"
-                                    target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                              <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
                         </availability>
                   </publicationStmt>
                   <sourceDesc>
@@ -39,8 +36,7 @@
                               </editionStmt>
                               <publicationStmt>
                                     <publisher>Los herederos de la Viuda Pla</publisher>
-                                    <pubPlace ref="https://www.geonames.org/3128760/barcelona.html"
-                                          >Barcelona</pubPlace>
+                                    <pubPlace ref="https://www.geonames.org/3128760/barcelona.html">Barcelona</pubPlace>
                                     <date cert="low" when="1800-01-01">[s.a.]</date>
                               </publicationStmt>
                         </biblFull>
@@ -48,9 +44,7 @@
                               <msIdentifier>
                                     <country>Suisse</country>
                                     <settlement>Genève</settlement>
-                                    <repository>Bibliothèque Universitaire de Genève <ref
-                                                target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"
-                                          />
+                                    <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"/>
                                     </repository>
                                     <collection>Colección Varios</collection>
                                     <idno type="cote"/>
@@ -63,7 +57,7 @@
                                     <summary>Siete partes</summary>
                                     <msItem>
                                           <locus>1-2</locus>
-                                          <title>[Primera parte]</title>
+                                          <title>[Primer romance.]</title>
                                     </msItem>
                                     <msItem>
                                           <locus>2-3</locus>
@@ -110,12 +104,9 @@
                                           <summary n="3">Tres grabados (p.1)</summary>
                                           <decoNote type="lista_grabados">
                                                 <list>
-                                                  <item corresp="grabado_b_030_1.xml"
-                                                  >grabado_b_030_1</item>
-                                                  <item corresp="grabado_b_030_2.xml"
-                                                  >grabado_b_030_2</item>
-                                                  <item corresp="grabado_b_030_3.xml"
-                                                  >grabado_b_030_3</item>
+                                                      <item corresp="grabado_b_030_1.xml" facs="varios/BCN_030_1.jpg/129,25,480,710/100,/0/default.jpg">grabado_b_030_1</item>
+                                                      <item corresp="grabado_b_030_2.xml" facs="varios/BCN_030_1.jpg/652,48,450,690/100,/0/default.jpg">grabado_b_030_2</item>
+                                                      <item corresp="grabado_b_030_3.xml" facs="varios/BCN_030_1.jpg/1127,96,270,650/100,/0/default.jpg">grabado_b_030_3</item>
                                                 </list>
                                           </decoNote>
                                     </decoDesc>
@@ -175,9 +166,7 @@
                               <pb n="1 " source="BCN_030_1.jpg" facs="varios/BCN_030_1.jpg/"/>
 
                               <head type="primer_titulo">
-                                    <lb/>SIETE ROMANCES<lb/>DE LA MUERTE DE<lb/><hi rend="negrita"
-                                          >DON RODRIGO</hi><lb/><hi rend="negrita"
-                                    >CALDERON,</hi><lb/>MARQUES DE SIETE IGLESIAS. </head>
+                                    <lb/>SIETE ROMANCES<lb/>DE LA MUERTE DE<lb/><hi rend="negrita">DON RODRIGO</hi><lb/><hi rend="negrita">CALDERON,</hi><lb/>MARQUES DE SIETE IGLESIAS. </head>
 
                               <div type="parte" n="1">
                                     <l><hi rend="negrita">L</hi>a barba hasta la cintura,</l>
@@ -663,8 +652,7 @@
                               <div type="parte" n="7">
                                     <head type="titulo_parte">
                                           <lb/>PONDERA EL AUTOR<lb/>la buena muerte de
-                                          Rodrigo<lb/>Calderón, con este <lb/><hi rend="cursiva"
-                                                >Septimo Romance</hi>.</head>
+                                          Rodrigo<lb/>Calderón, con este <lb/><hi rend="cursiva">Septimo Romance</hi>.</head>
 
                                     <l><hi rend="negrita">D</hi>icen varios Religiosos</l>
                                     <l>de diferentes Conventos;</l>

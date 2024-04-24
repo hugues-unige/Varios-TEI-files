@@ -1,6 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?xml-model href="../Schema/oddPliego_varios.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="BCN_027">
+<?xml-model href="Schema/oddPliego_varios.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="BCN_027">
       <teiHeader>
             <fileDesc>
                   <titleStmt>
@@ -22,8 +20,7 @@
                         <authority role="rightsHolder">Bibliothèque Universitaire de
                               Genève</authority>
                         <availability status="restricted">
-                              <licence n="cc by nc sa"
-                                    target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                              <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
                         </availability>
                   </publicationStmt>
                   <sourceDesc>
@@ -34,13 +31,11 @@
                                     <title type="titulo_breve"/>
                               </titleStmt>
                               <editionStmt>
-                                    <p>Otra impresión (s.a.): <ref target="BCN_026.xml"
-                                                >BCN_026</ref></p>
+                                    <p>Otra impresión (s.a.): <ref target="BCN_026.xml">BCN_026</ref></p>
                               </editionStmt>
                               <publicationStmt>
                                     <publisher>Bernado Pla</publisher>
-                                    <pubPlace ref="https://www.geonames.org/3128760/barcelona.html"
-                                          >Barcelona</pubPlace>
+                                    <pubPlace ref="https://www.geonames.org/3128760/barcelona.html">Barcelona</pubPlace>
                                     <date cert="low" when="1800-01-01">[s.a.]</date>
                               </publicationStmt>
                         </biblFull>
@@ -48,9 +43,7 @@
                               <msIdentifier>
                                     <country>Suisse</country>
                                     <settlement>Genève</settlement>
-                                    <repository>Bibliothèque Universitaire de Genève <ref
-                                                target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"
-                                          />
+                                    <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"/>
                                     </repository>
                                     <collection>Colección Varios</collection>
                                     <idno type="cote"/>
@@ -90,12 +83,9 @@
                                           <summary n="3">Tres grabados (p.1)</summary>
                                           <decoNote type="lista_grabados">
                                                 <list>
-                                                  <item corresp="grabado_b_026_1.xml"
-                                                  >grabado_b_027_1</item>
-                                                  <item corresp="grabado_b_026_2.xml"
-                                                  >grabado_b_027_2</item>
-                                                  <item corresp="grabado_b_026_3.xml"
-                                                  >grabado_b_027_3</item>
+                                                      <item corresp="grabado_b_026_1.xml" facs="varios/BCN_026_1.jpg/1022,185,450,700/100,/0/default.jpg">grabado_b_027_1</item>
+                                                      <item corresp="grabado_b_026_2.xml" facs="varios/BCN_026_1.jpg/320,177,380,700/100,/0/default.jpg">grabado_b_027_2</item>
+                                                      <item corresp="grabado_b_026_3.xml" facs="varios/BCN_026_1.jpg/684,177,380,700/100,/0/default.jpg">grabado_b_027_3</item>
                                                 </list>
                                           </decoNote>
                                     </decoDesc>
@@ -519,7 +509,7 @@
                                           <l>que me la he reservado</l>
                                           <l>por no estar sin tí.</l>
                                     </lg>
-                                    <fw type="reclamo">OTRAS</fw>
+                                    <fw type="reclamo"><hi rend="cursiva">OTRAS</hi></fw>
                               </div>
 
                               <div>
@@ -966,7 +956,7 @@
 
                         <div type="colofon">
                               <p>
-                                    <lb/>Barcelona: En la Imprenta de Bernat Pla, calle de
+                                    <lb/><hi rend="cursiva">Barcelona</hi>: En la Imprenta de Bernat Pla, calle de
                                     Cotoners.</p>
                         </div>
                   </div>

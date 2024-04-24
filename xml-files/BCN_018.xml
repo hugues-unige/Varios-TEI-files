@@ -1,6 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?xml-model href="../Schema/oddPliego_varios.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="BCN_018">
+<?xml-model href="Schema/oddPliego_varios.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="BCN_018">
       <teiHeader>
             <fileDesc>
                   <titleStmt>
@@ -22,8 +20,7 @@
                         <authority role="rightsHolder">Bibliothèque Universitaire de
                               Genève</authority>
                         <availability status="restricted">
-                              <licence n="cc by nc sa"
-                                    target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                              <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
                         </availability>
                   </publicationStmt>
                   <sourceDesc>
@@ -40,8 +37,7 @@
                               </editionStmt>
                               <publicationStmt>
                                     <publisher>Los herederos de Juan Jolis</publisher>
-                                    <pubPlace ref="https://www.geonames.org/3128760/barcelona.html"
-                                          >Barcelona</pubPlace>
+                                    <pubPlace ref="https://www.geonames.org/3128760/barcelona.html">Barcelona</pubPlace>
                                     <date cert="low" when="1800-01-01">[s.a.]</date>
                               </publicationStmt>
                         </biblFull>
@@ -49,9 +45,7 @@
                               <msIdentifier>
                                     <country>Suisse</country>
                                     <settlement>Genève</settlement>
-                                    <repository>Bibliothèque Universitaire de Genève <ref
-                                                target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"
-                                          />
+                                    <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"/>
                                     </repository>
                                     <collection>Colección Varios</collection>
                                     <idno type="cote"/>
@@ -90,10 +84,8 @@
                                           <summary n="2">Dos grabados (p.1)</summary>
                                           <decoNote type="lista_grabados">
                                                 <list>
-                                                  <item corresp="grabado_b_018_1.xml"
-                                                  >grabado_b_018_1</item>
-                                                  <item corresp="grabado_b_018_2.xml"
-                                                  >grabado_b_018_2</item>
+                                                      <item corresp="grabado_b_018_1.xml" facs="varios/BCN_018_1.jpg/413,217,400,650/100,/0/default.jpg">grabado_b_018_1</item>
+                                                      <item corresp="grabado_b_018_2.xml" facs="varios/BCN_018_1.jpg/914,245,430,630/100,/0/default.jpg">grabado_b_018_2</item>
                                                 </list>
                                           </decoNote>
                                     </decoDesc>
@@ -153,8 +145,7 @@
                               <pb n="1" source="BCN_018_1.jpg" facs="varios/BCN_018_1.jpg/"/>
 
                               <head type="primer_titulo">
-                                    <lb/>ROMANCE<lb/>DE DOÑA ANTONIA<lb/>DE LISBOA.<lb/><hi
-                                          rend="cursiva">Y ahora nuevamente se ha añadido una Letra
+                                    <lb/>ROMANCE<lb/>DE DOÑA ANTONIA<lb/>DE LISBOA.<lb/><hi rend="cursiva">Y ahora nuevamente se ha añadido una Letra
                                           à la fin de gusto.</hi></head>
 
                               <div>
@@ -349,8 +340,7 @@
 
                                           <fw type="reclamo">por</fw>
 
-                                          <pb n="3" source="BCN_018_3.jpg"
-                                                facs="varios/BCN_018_3.jpg/"/>
+                                          <pb n="3" source="BCN_018_3.jpg" facs="varios/BCN_018_3.jpg/"/>
 
                                           <l>por hazer burla, y donayre</l>
                                           <l>fuesse à enamorar de otra.</l>
@@ -570,7 +560,7 @@
                         <div type="colofon">
                               <p>
                                     <lb/><hi rend="cursiva">Barcelona</hi>: En la Imprenta de los
-                                    Herederos de Juan Jolis, en la calle de los Algodoneros.</p>
+                                    Herederos de Juan Jolis, <lb/>en la calle de los Algodoneros.</p>
                         </div>
                   </div>
             </body>

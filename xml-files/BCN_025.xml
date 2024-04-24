@@ -1,6 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?xml-model href="../Schema/oddPliego_varios.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="BCN_025">
+<?xml-model href="Schema/oddPliego_varios.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="BCN_025">
       <teiHeader>
             <fileDesc>
                   <titleStmt>
@@ -22,8 +20,7 @@
                         <authority role="rightsHolder">Bibliothèque Universitaire de
                               Genève</authority>
                         <availability status="restricted">
-                              <licence n="cc by nc sa"
-                                    target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                              <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
                         </availability>
                   </publicationStmt>
                   <sourceDesc>
@@ -43,8 +40,7 @@
                               </editionStmt>
                               <publicationStmt>
                                     <publisher>Bernardo Pla</publisher>
-                                    <pubPlace ref="https://www.geonames.org/3128760/barcelona.html"
-                                          >Barcelona</pubPlace>
+                                    <pubPlace ref="https://www.geonames.org/3128760/barcelona.html">Barcelona</pubPlace>
                                     <date cert="low" when="1800-01-01">[s.a.]</date>
                               </publicationStmt>
                         </biblFull>
@@ -52,9 +48,7 @@
                               <msIdentifier>
                                     <country>Suisse</country>
                                     <settlement>Genève</settlement>
-                                    <repository>Bibliothèque Universitaire de Genève <ref
-                                                target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"
-                                          />
+                                    <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"/>
                                     </repository>
                                     <collection>Colección Varios</collection>
                                     <idno type="cote"/>
@@ -89,8 +83,7 @@
                                           <summary n="1">Un grabado (p.1)</summary>
                                           <decoNote type="lista_grabados">
                                                 <list>
-                                                  <item corresp="grabado_b_025_1.xml"
-                                                  >grabado_b_025_1</item>
+                                                      <item corresp="grabado_b_025_1.xml" facs="varios/BCN_025_1.jpg/381,184,940,580/100,/0/default.jpg">grabado_b_025_1</item>
                                                 </list>
                                           </decoNote>
                                     </decoDesc>
@@ -385,9 +378,9 @@
                               <l>vido estar sobre la mesa;</l>
                               <l>al instante de rodillas</l>
                               <l>se postro, y la tierra besa,</l>
-                              <fw rend="reclamo">di-</fw>
+                              <fw type="reclamo">di-</fw>
 
-                              <pb n="" source="BCN_025_4.jpg" facs="varios/BCN_025_4.jpg/"/>
+                              <pb n="4" source="BCN_025_4.jpg" facs="varios/BCN_025_4.jpg/"/>
 
                               <l>diciendo: Padre amoroso.</l>
                               <l>Soberana Providencia,</l>

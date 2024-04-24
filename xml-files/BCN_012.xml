@@ -1,6 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?xml-model href="../Schema/oddPliego_varios.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="BCN_012">
+<?xml-model href="Schema/oddPliego_varios.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="BCN_012">
       <teiHeader>
             <fileDesc>
                   <titleStmt>
@@ -22,28 +20,26 @@
                         <authority role="rightsHolder">Bibliothèque Universitaire de
                               Genève</authority>
                         <availability status="restricted">
-                              <licence n="cc by nc sa"
-                                    target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                              <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
                         </availability>
                   </publicationStmt>
                   <sourceDesc>
                         <biblFull>
                               <titleStmt>
-                                    <title type="titulo_completo">ROMANCE NUEVO Y CURIOSO, EN QUE SE
-                                          REFIEREN las Virtudes del Dia. Compuesto por Juan Bautista
-                                          Altimira y Vazquez , natural del Reyno de
+                                    <title type="titulo_completo">Romance nuevo y curioso, en que se refieren
+                                          las Virtudes del Dia. Compuesto por Juan Bautista
+                                          Altimira y Vazquez, natural del Reyno de
                                           Valencia.</title>
                                     <title type="titulo_breve">Romance nuevo y curioso, en que se
                                           refieren La Virtudes del Dia.</title>
-                                    <author>Juan Bautista Altimira</author>
+                                    <author>Juan Bautista Altimira y Vasquez</author>
                               </titleStmt>
                               <editionStmt>
                                     <p/>
                               </editionStmt>
                               <publicationStmt>
                                     <publisher>Los herederos de Juan Jolis</publisher>
-                                    <pubPlace ref="https://www.geonames.org/3128760/barcelona.html"
-                                          >Barcelona</pubPlace>
+                                    <pubPlace ref="https://www.geonames.org/3128760/barcelona.html">Barcelona</pubPlace>
                                     <date cert="low" when="1800-01-01">[s.a.]</date>
                               </publicationStmt>
                         </biblFull>
@@ -51,9 +47,7 @@
                               <msIdentifier>
                                     <country>Suisse</country>
                                     <settlement>Genève</settlement>
-                                    <repository>Bibliothèque Universitaire de Genève <ref
-                                                target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"
-                                          />
+                                    <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"/>
                                     </repository>
                                     <collection>Colección Varios</collection>
                                     <idno type="cote"/>
@@ -88,8 +82,7 @@
                                           <summary n="1">Un grabado (p.1)</summary>
                                           <decoNote type="lista_grabados">
                                                 <list>
-                                                  <item corresp="grabado_b_012_1.xml"
-                                                  >grabado_b_012_1</item>
+                                                      <item corresp="grabado_b_012_1.xml" facs="varios/BCN_012_1.jpg/575,787,600,600/100,/0/default.jpg">grabado_b_012_1</item>
                                                 </list>
                                           </decoNote>
                                     </decoDesc>
@@ -149,8 +142,8 @@
                               <pb n="1" source="BCN_012_1.jpg" facs="varios/BCN_012_1.jpg/"/>
 
                               <head type="primer_titulo">
-                                    <lb/>ROMANCE NUEVO<lb/>Y CURIOSO, EN QUE SE REFIEREN<lb/>las
-                                    Virtudes del Dia.<lb/>Compuesto por Juan Bautista Altimira y
+                                    <lb/><hi rend="negrita">ROMANCE NUEVO</hi><lb/><hi rend="cursiva">Y CURIOSO, EN QUE SE REFIEREN<lb/>las
+                                    Virtudes del Dia.</hi><lb/>Compuesto por Juan Bautista Altimira y
                                     Vazquez , natural del<lb/>Reyno de Valencia.</head>
 
                               <lg>
@@ -365,6 +358,8 @@
                                     <l>porque el Rio es caudaloso,</l>
                                     <l>y yá ves que yo no puedo.</l>
                               </lg>
+                              
+                              <fw type="reclamo">To-</fw>
 
                               <pb n="3" source="BCN_012_3.jpg" facs="varios/BCN_012_3.jpg/"/>
 

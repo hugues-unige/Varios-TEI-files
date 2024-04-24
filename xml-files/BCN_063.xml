@@ -1,6 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?xml-model href="../Schema/oddPliego_varios.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="BCN_063">
+<?xml-model href="Schema/oddPliego_varios.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="BCN_063">
       <teiHeader>
             <fileDesc>
                   <titleStmt>
@@ -22,8 +20,7 @@
                         <authority role="rightsHolder">Bibliothèque Universitaire de
                               Genève</authority>
                         <availability status="restricted">
-                              <licence n="cc by nc sa"
-                                    target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                              <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
                         </availability>
                   </publicationStmt>
                   <sourceDesc>
@@ -44,8 +41,7 @@
                               </editionStmt>
                               <publicationStmt>
                                     <publisher>Los herederos de la Viuda Pla</publisher>
-                                    <pubPlace ref="https://www.geonames.org/3128760/barcelona.html"
-                                          >Barcelona</pubPlace>
+                                    <pubPlace ref="https://www.geonames.org/3128760/barcelona.html">Barcelona</pubPlace>
                                     <date cert="low" when="1800-01-01">[s.a.]</date>
                               </publicationStmt>
                         </biblFull>
@@ -53,9 +49,7 @@
                               <msIdentifier>
                                     <country>Suisse</country>
                                     <settlement>Genève</settlement>
-                                    <repository>Bibliothèque Universitaire de Genève <ref
-                                                target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"
-                                          />
+                                    <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"/>
                                     </repository>
                                     <collection>Colección Varios</collection>
                                     <idno type="cote"/>
@@ -95,18 +89,12 @@
                                           <summary n="6">Seis grabados (p.1)</summary>
                                           <decoNote type="lista_grabados">
                                                 <list>
-                                                  <item corresp="grabado_b_063_1.xml"
-                                                  >grabado_b_063_1</item>
-                                                  <item corresp="grabado_b_063_2.xml"
-                                                  >grabado_b_063_2</item>
-                                                  <item corresp="grabado_b_063_3.xml"
-                                                  >grabado_b_063_3</item>
-                                                  <item corresp="grabado_b_063_4.xml"
-                                                  >grabado_b_063_4</item>
-                                                  <item corresp="grabado_b_063_5.xml"
-                                                  >grabado_b_063_5</item>
-                                                  <item corresp="grabado_b_063_6.xml"
-                                                  >grabado_b_063_6</item>
+                                                      <item corresp="grabado_b_063_1.xml" facs="varios/BCN_063_1.jpg/573,283,691,917/100,/0/default.jpg">grabado_b_063_1</item>
+                                                      <item corresp="grabado_b_063_2.xml" facs="varios/BCN_063_1.jpg/1270,426,394,623/100,/0/default.jpg">grabado_b_063_2</item>
+                                                      <item corresp="grabado_b_063_3.xml" facs="varios/BCN_063_1.jpg/173,298,405,728/100,/0/default.jpg">grabado_b_063_3</item>
+                                                      <item corresp="grabado_b_063_4.xml" facs="varios/BCN_063_5.jpg/197,208,439,730/100,/0/default.jpg">grabado_b_063_4</item>
+                                                      <item corresp="grabado_b_063_5.xml" facs="varios/BCN_063_5.jpg/645,265,555,670/100,/0/default.jpg">grabado_b_063_5</item>
+                                                      <item corresp="grabado_b_063_6.xml" facs="varios/BCN_063_5.jpg/1216,221,441,724/100,/0/default.jpg">grabado_b_063_6</item>
                                                 </list>
                                           </decoNote>
                                     </decoDesc>
@@ -173,7 +161,7 @@
 
                         <div type="parte" n="1">
                               <head type="titulo_parte">
-                                    <hi rend="cursiva"><lb/>PRIMERA PARTE<lb/>DE DOÑA FRANCISCA LA
+                                    <lb/>PRIMERA PARTE<lb/><hi rend="cursiva">DE DOÑA FRANCISCA LA
                                           CAUTIVA.</hi></head>
 
                               <l><hi rend="negrita">O</hi> gran Reyna de los Cielos,</l>
@@ -620,6 +608,8 @@
                               <l>hasta que pedazos la hagan,</l>
                               <l>y por si acaso no muere</l>
                               <l>que la maten á pedradas.</l>
+                              
+                              <fw type="reclamo">Obe-</fw>
 
                               <pb n="8" source="BCN_063_8.jpg" facs="varios/BCN_063_8.jpg/"/>
 

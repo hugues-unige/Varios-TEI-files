@@ -1,6 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?xml-model href="../Schema/oddPliego_varios.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Varios_140">
+<?xml-model href="Schema/oddPliego_varios.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Varios_140">
   <teiHeader>
     <fileDesc>
       <titleStmt>
@@ -28,7 +26,7 @@
             <title type="titulo_breve">XACARA NUEVA</title>
           </titleStmt>
           <editionStmt>
-            <p/>
+            <p>Otra impresión (s.a.): <ref target="BCN_002.xml">BCN_002</ref>.</p>
           </editionStmt>
           <publicationStmt>
             <publisher>Juan Jolis</publisher>
@@ -74,7 +72,7 @@
               <summary n="1">Un grabado (p.1)</summary>
               <decoNote type="lista_grabados">
                 <list>
-                  <item corresp="grabado_v_140_1.xml">grabado_v_140_1</item>
+                  <item corresp="grabado_v_140_1.xml" facs="varios/Varios_140_1.jpg/552,920,559,540/100,/0/default.jpg">grabado_v_140_1</item>
                 </list>
               </decoNote>
             </decoDesc>
@@ -116,7 +114,7 @@
       <textClass>
         <keywords xml:base="http://datos.bne.es/tema/">
           <term target="XX5382203.html" type="tipo_texto">Jácaras</term>
-          <term type="tipo_estrofa"/>
+          <term type="tipo_estrofa">Romance (en coplas)</term>
           <term type="verso_prosa">Verso</term>
           <term type="sagrado_profano">Profano</term>
         </keywords>

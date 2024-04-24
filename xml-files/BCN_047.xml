@@ -1,10 +1,8 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?xml-model href="../Schema/oddPliego_varios.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="BCN_047">
+<?xml-model href="Schema/oddPliego_varios.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="BCN_047">
       <teiHeader>
             <fileDesc>
                   <titleStmt>
-                        <title>Coplas de la jota</title>
+                        <title>Coplas de la jota, con estrivillos y cuartillas</title>
                         <respStmt xml:id="PJ">
                               <name>Pauline Jacsont</name>
                               <resp>Segmentación y transcripción</resp>
@@ -22,28 +20,27 @@
                         <authority role="rightsHolder">Bibliothèque Universitaire de
                               Genève</authority>
                         <availability status="restricted">
-                              <licence n="cc by nc sa"
-                                    target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
+                              <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
                         </availability>
                   </publicationStmt>
                   <sourceDesc>
                         <biblFull>
                               <titleStmt>
                                     <title type="titulo_completo">Coplas de la jota, con estrivillos
-                                          y cuartillas, coplas para casadas, viudas, doncellas.
+                                          y cuartillas; coplas para casadas, viudas, doncellas.
                                           Conpuestas nuevamente por el mismo Francisco Lecha, que
                                           compuso las del Aguila soy del amor, y la Guirnalda de las
                                           Coplas de los nombres de Mujeres, ahora nuevamente en este
                                           presente año.</title>
-                                    <title type="titulo_breve">Coplas de la jota</title>
+                                    <title type="titulo_breve">Coplas de la jota, con estrivillos y cuartillas</title>
+                                    <author role="letrista">Francisco Lecha</author>
                               </titleStmt>
                               <editionStmt>
                                     <p/>
                               </editionStmt>
                               <publicationStmt>
                                     <publisher>Los herederos de la Viuda Pla</publisher>
-                                    <pubPlace ref="https://www.geonames.org/3128760/barcelona.html"
-                                          >Barcelona</pubPlace>
+                                    <pubPlace ref="https://www.geonames.org/3128760/barcelona.html">Barcelona</pubPlace>
                                     <date cert="low" when="1800-01-01">[s.a.]</date>
                               </publicationStmt>
                         </biblFull>
@@ -51,9 +48,7 @@
                               <msIdentifier>
                                     <country>Suisse</country>
                                     <settlement>Genève</settlement>
-                                    <repository>Bibliothèque Universitaire de Genève <ref
-                                                target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"
-                                          />
+                                    <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"/>
                                     </repository>
                                     <collection>Colección Varios</collection>
                                     <idno type="cote"/>
@@ -126,12 +121,9 @@
                                           <summary n="3">Tres grabados (p.1)</summary>
                                           <decoNote type="lista_grabados">
                                                 <list>
-                                                  <item corresp="grabado_b_047_1.xml"
-                                                  >grabado_b_047_1</item>
-                                                  <item corresp="grabado_b_047_2.xml"
-                                                  >grabado_b_047_2</item>
-                                                  <item corresp="grabado_b_047_3.xml"
-                                                  >grabado_b_047_3</item>
+                                                      <item corresp="grabado_b_047_1.xml" facs="varios/BCN_047_1.jpg/353,344,450,720/100,/0/default.jpg">grabado_b_047_1</item>
+                                                      <item corresp="grabado_b_047_2.xml" facs="varios/BCN_047_1.jpg/875,338,500,750/100,/0/default.jpg">grabado_b_047_2</item>
+                                                      <item corresp="grabado_b_047_3.xml" facs="varios/BCN_047_1.jpg/1428,385,500,720/100,/0/default.jpg">grabado_b_047_3</item>
                                                 </list>
                                           </decoNote>
                                     </decoDesc>
@@ -207,7 +199,7 @@
                                     </lg>
 
                                     <lg>
-                                          <head rend="estribillo">Estrivillo.</head>
+                                          <head type="estribillo" rend="cursiva">Estrivillo.</head>
                                           <l>Corazon de diamante y acero,</l>
                                           <l>bien se conoce es tu amor verdadero.</l>
                                     </lg>
@@ -220,7 +212,7 @@
                                     </lg>
 
                                     <lg>
-                                          <head rend="estribillo">Estrivillo.</head>
+                                          <head type="estribillo" rend="cursiva">Estrivillo.</head>
                                           <l>Va mi dama adornada de flores,</l>
                                           <l>causándoles celos á algunos señores.</l>
                                     </lg>
@@ -233,7 +225,7 @@
                                     </lg>
 
                                     <lg>
-                                          <head rend="estribillo">Estrivillo.</head>
+                                          <head type="estribillo" rend="cursiva">Estrivillo.</head>
                                           <l>Solo te digo, y te doy á entender;</l>
                                           <l>que nadie del mundo lo ha de saber.</l>
                                     </lg>
@@ -246,7 +238,7 @@
                                     </lg>
 
                                     <lg>
-                                          <head rend="estribillo">Estrivillo.</head>
+                                          <head type="estribillo" rend="cursiva">Estrivillo.</head>
                                           <l>La dama responde, y dice á su amante:</l>
                                           <l>Lo propio te digo, y pasa adelante.</l>
                                     </lg>
@@ -261,7 +253,7 @@
                                     </lg>
 
                                     <lg>
-                                          <head type="estribillo">Estrivillo.</head>
+                                          <head type="estribillo" rend="cursiva">Estrivillo.</head>
                                           <l>Y esto lo haré para dar á entender,</l>
                                           <l>que nadie del mundo te ha de ofender.</l>
                                     </lg>
@@ -274,7 +266,7 @@
                                     </lg>
 
                                     <lg>
-                                          <head rend="estribillo">Estrivillo.</head>
+                                          <head type="estribillo" rend="cursiva">Estrivillo.</head>
                                           <l>Y si alguno lo quiere estorbar,</l>
                                           <l>yo le prometo que se ha de acordar.</l>
                                     </lg>
@@ -287,7 +279,7 @@
                                     </lg>
 
                                     <lg>
-                                          <head rend="estribillo">Estrivillo.</head>
+                                          <head type="estribillo" rend="cursiva">Estrivillo.</head>
                                           <l>Perla mia, no seas ingrata,</l>
                                           <l>que tus desdenes es lo que me mata.</l>
                                     </lg>
@@ -300,7 +292,7 @@
                                     </lg>
 
                                     <lg>
-                                          <head rend="estribillo">Estrivillo.</head>
+                                          <head type="estribillo" rend="cursiva">Estrivillo.</head>
                                           <l>Porque mi dama me dió calabaza,</l>
                                           <l>y esta es la pena que el corazon pasa.</l>
                                     </lg>
@@ -313,7 +305,7 @@
                                     </lg>
 
                                     <lg>
-                                          <head rend="estribillo">Estrivillo.</head>
+                                          <head type="estribillo" rend="cursiva">Estrivillo.</head>
                                           <l>Y esto lo entiende quien sabe de amor,</l>
                                           <l>que es cosa mas dulce que el mismo licor.</l>
                                     </lg>
@@ -326,7 +318,7 @@
                                     </lg>
 
                                     <lg>
-                                          <head rend="estribillo">Estrivillo.</head>
+                                          <head type="estribillo" rend="cursiva">Estrivillo.</head>
                                           <l>Y si los guian por otro camino,</l>
                                           <l>no hay en el mundo mayor enemigo.</l>
                                     </lg>
@@ -339,7 +331,7 @@
                                     </lg>
 
                                     <lg>
-                                          <head rend="estribillo">Estrivillo.</head>
+                                          <head type="estribillo" rend="cursiva">Estrivillo.</head>
                                           <l>Hallar vine lo que deseaba,</l>
                                           <l>que era la prenda que mas estimaba.</l>
                                     </lg>
@@ -352,7 +344,7 @@
                                     </lg>
 
                                     <lg>
-                                          <head rend="estribillo">Estrivillo.</head>
+                                          <head type="estribillo" rend="cursiva">Estrivillo.</head>
                                           <l>Tus mudanzas me tienen perdido,</l>
                                           <l>dime la causa si yo te he ofendido.</l>
                                     </lg>
@@ -365,7 +357,7 @@
                                     </lg>
 
                                     <lg>
-                                          <head rend="estribillo">Estrivillo.</head>
+                                          <head type="estribillo" rend="cursiva">Estrivillo.</head>
                                           <l>Porque el amante que está confiado,</l>
                                           <l>suele á los postres hallarse burlado.</l>
                                     </lg>
@@ -378,7 +370,7 @@
                                     </lg>
 
                                     <lg>
-                                          <head rend="estribillo">Estrivillo.</head>
+                                          <head type="estribillo" rend="cursiva">Estrivillo.</head>
                                           <l>Porque me tiene Cupido rendido,</l>
                                           <l>y yo muy gustoso de ser tu querido.</l>
                                     </lg>
@@ -393,7 +385,7 @@
                                     <pb n="3" source="BCN_047_3.jpg" facs="varios/BCN_047_3.jpg/"/>
 
                                     <lg>
-                                          <head rend="estribillo">Estrivillo.</head>
+                                          <head type="estribillo" rend="cursiva">Estrivillo.</head>
                                           <l>Si logro la dicha de ser tu marido,</l>
                                           <l>tendré mi deseo del todo cumplido.</l>
                                     </lg>
@@ -406,7 +398,7 @@
                                     </lg>
 
                                     <lg>
-                                          <head rend="estribillo">Estrivillo.</head>
+                                          <head type="estribillo" rend="cursiva">Estrivillo.</head>
                                           <l>La respuesta darás, prenda amada;</l>
                                           <l>pues eres del mundo la mas estimada.</l>
                                     </lg>
@@ -419,7 +411,7 @@
                                     </lg>
 
                                     <lg>
-                                          <head rend="estribillo">Estrivillo.</head>
+                                          <head type="estribillo" rend="cursiva">Estrivillo.</head>
                                           <l>Que si llegare algun pretendiente,</l>
                                           <l>sirva de aviso lo que está presente.</l>
                                     </lg>
@@ -432,7 +424,7 @@
                                     </lg>
 
                                     <lg>
-                                          <head rend="estribillo">Estrivillo.</head>
+                                          <head type="estribillo" rend="cursiva">Estrivillo.</head>
                                           <l>Que el amante que no es receloso,</l>
                                           <l>no es verdadero, sino fabuloso.</l>
                                     </lg>
@@ -445,7 +437,7 @@
                                     </lg>
 
                                     <lg>
-                                          <head rend="estribillo">Estrivillo.</head>
+                                          <head type="estribillo" rend="cursiva">Estrivillo.</head>
                                           <l>Nuncá fien de tales mujeres,</l>
                                           <l>que están cada dia de mil pareceres.</l>
                                     </lg>
@@ -458,7 +450,7 @@
                                     </lg>
 
                                     <lg>
-                                          <head rend="estribillo">Estrivillo.</head>
+                                          <head type="estribillo" rend="cursiva">Estrivillo.</head>
                                           <l>Mas vale ir solo, que no con amigos,</l>
                                           <l>porque en ocasiones le son enemigos.</l>
                                     </lg>
@@ -471,7 +463,7 @@
                                     </lg>
 
                                     <lg>
-                                          <head rend="estribillo">Estrivillo.</head>
+                                          <head type="estribillo" rend="cursiva">Estrivillo.</head>
                                           <l>Solo espero me dés la respuesta,</l>
                                           <l>que yo rondaré vigilante tu puerta.</l>
                                     </lg>
@@ -484,7 +476,7 @@
                                     </lg>
 
                                     <lg>
-                                          <head rend="estribillo">Estrivillo.</head>
+                                          <head type="estribillo" rend="cursiva">Estrivillo.</head>
                                           <l>Soy ramillete adornado de flores,</l>
                                           <l>y esplico á mi dama mi amor con colores.</l>
                                     </lg>
@@ -497,7 +489,7 @@
                                     </lg>
 
                                     <lg>
-                                          <head rend="estribillo">Estrivillo.</head>
+                                          <head type="estribillo" rend="cursiva">Estrivillo.</head>
                                           <l>La dama ha salido, y dice á su amante,</l>
                                           <l>que tenga paciencia que se irá al instante.</l>
                                     </lg>
@@ -510,7 +502,7 @@
                                     </lg>
 
                                     <lg>
-                                          <head rend="estribillo">Estrivillo.</head>
+                                          <head type="estribillo" rend="cursiva">Estrivillo.</head>
                                           <l>Porque quieres á quien no te quiere,</l>
                                           <l>eso á los hombres por muchos sucede.</l>
                                     </lg>
@@ -811,8 +803,7 @@
                                           <l rend="indent">Aquí dió fin el retrato</l>
                                           <l>de la mas curiosa dama,</l>
 
-                                          <pb n="6" source="BCN_047_6.jpg"
-                                                facs="varios/BCN_047_6.jpg/"/>
+                                          <pb n="6" source="BCN_047_6.jpg" facs="varios/BCN_047_6.jpg/"/>
 
                                           <l>que habrán visto los nacidos</l>
                                           <l>en los tiempos de la fama.</l>
@@ -958,8 +949,7 @@
                                     <lg>
                                           <l rend="indent">Aves, plantas, montes, fieras,</l>
 
-                                          <pb n="7" source="BCN_047_7.jpg"
-                                                facs="varios/BCN_047_7.jpg/"/>
+                                          <pb n="7" source="BCN_047_7.jpg" facs="varios/BCN_047_7.jpg/"/>
 
                                           <l>y todos los elementos,</l>
                                           <l>no es bastante á dar consuelo</l>
