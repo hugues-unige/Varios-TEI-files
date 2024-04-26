@@ -1,4 +1,4 @@
-<?xml-model href="../Schema/oddPliego_varios.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="BCN_055">
+<?xml-model href="Schema/oddPliego_varios.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="BCN_055">
       <teiHeader>
             <fileDesc>
                   <titleStmt>
@@ -33,10 +33,11 @@
                                     <title type="titulo_breve">Discursos de una donsella</title>
                               </titleStmt>
                               <editionStmt>
-                                    <p>Otra impresión (s.a.): <ref target="BCN_054.xml">BCN_054</ref></p>
+                                    <p>Otra impresión (s.a.): <ref target="BCN_054.xml">BCN_054</ref>
+                        </p>
                               </editionStmt>
                               <publicationStmt>
-                                    <publisher>Los herederos de la Viuda Pla</publisher>
+                                    <publisher>Herederos de la Viuda Pla</publisher>
                                     <pubPlace ref="https://www.geonames.org/3128760/barcelona.html">Barcelona</pubPlace>
                                     <date cert="low" when="1800-01-01">[s.a.]</date>
                               </publicationStmt>
@@ -112,7 +113,7 @@
             </encodingDesc>
             <profileDesc>
                   <langUsage>
-                        <language ident="ca">Cátalan</language>
+                        <language ident="ca">Catalán</language>
                   </langUsage>
                   <textClass>
                         <keywords xml:base="http://datos.bne.es/tema/">
@@ -143,7 +144,8 @@
                                     inconvenients<lb/>que troba en ser monja, en que-<lb/>darse
                                     minyona, y en ser casada,<lb/>y resol casarse.</head>
 
-                              <l><hi rend="negrita">U</hi>n dia estant jo en casa</l>
+                              <l>
+                        <hi rend="negrita">U</hi>n dia estant jo en casa</l>
                               <l>posada dins de la arcova,</l>
                               <l>olvidada del amor;</l>
                               <l>y trobantme tota sola,</l>
@@ -437,7 +439,8 @@
                         </div>
                         <div type="colofon">
                               <p>
-                                    <lb/><hi rend="cursiva">Barcelona</hi> : Estampa dels Hereus de
+                                    <lb/>
+                        <hi rend="cursiva">Barcelona</hi> : Estampa dels Hereus de
                                     la Viuda Pla, carrer dels Cotoners.</p>
                         </div>
                   </div>

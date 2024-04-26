@@ -1,13 +1,15 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<?xml-model href="../Schema/oddPliego_varios.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Varios_019">
+<?xml-model href="Schema/oddPliego_varios.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="Varios_019">
   <teiHeader>
     <fileDesc>
       <titleStmt>
         <title>Décimas trovadas</title>
-        <respStmt>
-          <name/>
-          <resp>Codificación TEI</resp>
+        <respStmt xml:id="PJ">
+          <name>Pauline Jacsont</name>
+          <resp>Transcripción y codificación TEI</resp>
+        </respStmt>
+        <respStmt xml:id="EL">
+          <name>Elina Leblanc</name>
+          <resp>Verificación de la codificación y carga</resp>
         </respStmt>
       </titleStmt>
       <publicationStmt>
@@ -24,14 +26,14 @@
             <title type="titulo_breve">Décimas trovadas</title>
           </titleStmt>
           <editionStmt>
-            <p/>
+            <p>Otras impresiónes: <ref target="Moreno_374.xml">Moreno_374</ref> y <ref target="Moreno_338.xml">Moreno_338</ref>
+                        </p>
           </editionStmt>
-          <publicationStmt>
-            <publisher>José María Moreno</publisher>
-            <pubPlace ref="https://www.geonames.org/2520118/carmona.html">Carmona
-              (Sevilla)</pubPlace>
-            <date cert="low" when="1800-01-01">[s.a.]</date>
-          </publicationStmt>
+            <publicationStmt>
+              <publisher>José María Moreno</publisher>
+              <pubPlace ref="https://www.geonames.org/2520118/carmona.html">Carmona (Sevilla)</pubPlace>
+              <date cert="low" when="1800-01-01">[s.a.]</date>
+            </publicationStmt>
         </biblFull>
         <msDesc>
           <msIdentifier>
@@ -68,7 +70,8 @@
                   <dim>in-4</dim>
                   <material/>
                 </support>
-                <extent><measure unit="página" quantity="4"/>4 p.</extent>
+                <extent>
+                                    <measure unit="página" quantity="4"/>4 p.</extent>
                 <condition>Bueno</condition>
               </supportDesc>
               <layoutDesc>
@@ -79,8 +82,8 @@
               <summary n="2">Dos grabados (p.1)</summary>
               <decoNote type="lista_grabados">
                 <list>
-                  <item corresp="grabado_v_019_1.xml">grabado_v_019_1</item>
-                  <item corresp="grabado_v_019_2.xml">grabado_v_019_2</item>
+                  <item corresp="grabado_v_019_1.xml" facs="varios/Varios_019_1.jpg/873,240,756,984/100,/0/default.jpg">grabado_v_019_1</item>
+                  <item corresp="grabado_v_019_2.xml" facs="varios/Varios_019_1.jpg/234,247,580,968/100,/0/default.jpg">grabado_v_019_2</item>
                 </list>
               </decoNote>
             </decoDesc>
@@ -134,7 +137,10 @@
 <change when="2024-01-09" who="#EL">Add the IIIF links</change>
     </revisionDesc>
   </teiHeader>
-  <facsimile><graphic url="varios/Varios_019_1.jpg/full/200,/0/default.jpg"/></facsimile><sourceDoc xml:id="automaticTranscription">
+  <facsimile>
+        <graphic url="varios/Varios_019_1.jpg/full/200,/0/default.jpg"/>
+    </facsimile>
+    <sourceDoc xml:id="automaticTranscription">
     <surface xml:id="Varios_019_1" type="page" cert="silver">
       <graphic url="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_019_1/full/full/0/default.jpg"/>
       <zone xml:id="Varios_019_1_BT221_1" n="1" type="CustomZone" subtype="impresorNum" points="1240,199 1228,252 1474,252 1468,196 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_019_1/1228,196,246,56/full/0/default" corresp="CustomZone:impresorNum">
@@ -946,7 +952,10 @@
         <fw type="impresorNum">Núm. 367</fw>
 
         <div n="1">
-          <head type="primer_titulo"><lb/><hi rend="negrita">DÉCIMAS TROVADAS,</hi><lb/>que cantan
+          <head type="primer_titulo">
+                        <lb/>
+                        <hi rend="negrita">DÉCIMAS TROVADAS,</hi>
+                        <lb/>que cantan
             al valiente ejército español vencedor<lb/>de la raza mahometana en Africa.</head>
 
           <lg rend="cursiva">
@@ -1016,7 +1025,8 @@
         </div>
 
         <div n="2">
-          <head type="primer_titulo"><lb/>Prim.</head>
+          <head type="primer_titulo">
+                        <lb/>Prim.</head>
 
           <lg rend="cursiva">
             <l>Por mis soldados valientes</l>
@@ -1147,7 +1157,8 @@
           
           <fw type="paginaNum">4</fw>
           
-          <head type="titulo_parte"><lb/>TOMA DE TETUAN.</head>
+          <head type="titulo_parte">
+                        <lb/>TOMA DE TETUAN.</head>
           
           <lg rend="cursiva">
             <l rend="indent">Viva la Reina Isabel,</l>
@@ -1212,7 +1223,8 @@
         </div>
         
         <div type="colofon">
-          <p><lb/>Carmona. —Imp. y lib, de don José M. Moreno, Madre de Dios, 1.</p>
+          <p>
+                        <lb/>Carmona. —Imp. y lib, de don José M. Moreno, Madre de Dios, 1.</p>
         </div>
       </div>
     </body>
