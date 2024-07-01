@@ -4,10 +4,19 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>CANCION PATRIOTICA</title>
-        <respStmt>
-          <name/>
+        <title>Cancion patriotica</title>
+        <respStmt xml:id="PJ">
+          <name>Pauline Jacsont</name>
+          <resp>Segmentación y transcripción</resp>
           <resp>Codificación TEI</resp>
+        </respStmt>
+        <respStmt xml:id="MB">
+          <name>Miguel Betti</name>
+          <resp>Corrección de la transcripción</resp>
+        </respStmt>
+        <respStmt xml:id="EL">
+          <name>Elina Leblanc</name>
+          <resp>Verificación de la codificación y carga en el sitio web</resp>
         </respStmt>
       </titleStmt>
       <publicationStmt>
@@ -19,9 +28,9 @@
       <sourceDesc>
         <biblFull>
           <titleStmt>
-            <title type="titulo_completo">CANCION PATRIOTICA cantada por el tono de libertad, con
+            <title type="titulo_completo">Cancion patriotica cantada por el tono de libertad, con
               variedad de coplas, dedicada cada una á su fin particular.</title>
-            <title type="titulo_breve">CANCION PATRIOTICA</title>
+            <title type="titulo_breve">Cancion patriotica</title>
           </titleStmt>
           <editionStmt>
             <p/>
@@ -95,7 +104,7 @@
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR no corregido</p>
+          <p>OCR corregido</p>
         </correction>
         <normalization>
           <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
@@ -121,10 +130,11 @@
     <revisionDesc>
       <change when="2022-05-15" who="#PJ">Création du fichier TEI P5 et encodage du corps du
         texte</change>
-<change when="2024-01-09" who="#EL">Add the IIIF links</change>
+      <change when="2024-01-09" who="#EL">Add the IIIF links</change>
     </revisionDesc>
   </teiHeader>
-  <facsimile><graphic url="varios/Varios_045_1.jpg/full/200,/0/default.jpg"/></facsimile><sourceDoc xml:id="automaticTranscription">
+  <facsimile><graphic url="varios/Varios_045_1.jpg/full/200,/0/default.jpg"/></facsimile>
+  <sourceDoc xml:id="automaticTranscription">
     <surface xml:id="Varios_045_1" type="page" cert="silver">
       <graphic url="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_045_1/full/full/0/default.jpg"/>
       <zone xml:id="Varios_045_1_BT223_1" n="1" type="CustomZone" subtype="title" points="63,173 63,390 600,397 668,472 1045,472 1101,386 1676,404 1676,173 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_045_1/63,173,1613,299/full/0/default" corresp="CustomZone:title">
@@ -771,7 +781,7 @@
       <div>
         <div>
           <div>
-            <pb n="1" source="Varios_045_1.jpg" facs="varios/Varios_045_1.jpg/"/>
+            <pb n="1" source="Varios_045_1.jpg" facs="varios/Varios_045_1.jpg"/>
             <head type="primer_titulo"><lb/>CANCION PATRIOTICA</head>
 
             <head type="subtitulo"><lb/>cantada por el tono de libertad, con variedad de coplas,
@@ -897,7 +907,7 @@
               <l rend="cursiva">Voluntarios &amp;c.</l>
             </lg>
 
-            <pb n="2" source="Varios_045_2.jpg" facs="varios/Varios_045_2.jpg/"/>
+            <pb n="2" source="Varios_045_2.jpg" facs="varios/Varios_045_2.jpg"/>
 
             <lg>
               <l rend="indent">Todo el hombre que quiera ser libre</l>
@@ -943,7 +953,7 @@
               DE<lb/>Rondeñas</head>
 
             <lg n="1">
-              <head type="titulo_estrofa">TROBO PRIMERO.</head>
+              <head type="titulo_estrofa" rend="cursiva">TROBO PRIMERO.</head>
               <l rend="indent">El que con viles intentos</l>
               <l>tramare conspiracion,</l>
               <l>ha de sufrir el tormento</l>
@@ -971,7 +981,7 @@
             </lg>
 
             <lg n="2">
-              <head type="titulo_estrofa">TROBO SEGUNDO.</head>
+              <head type="titulo_estrofa" rend="cursiva">TROBO SEGUNDO.</head>
               <l rend="indent">Viva el gobierno de España</l>
               <l>y el Rey constitucional,</l>
               <l>viva nuestra religion</l>
@@ -1001,7 +1011,7 @@
         </div>
         
         <div type="colofon">
-          <p rend="cursiva"><lb/>Sevilla: Imprenta de Doña María del Carmen Padrino. Año de 1822.</p>
+          <p><lb/><hi rend="cursiva">Sevilla: Imprenta de Doña María del Carmen Padrino. Año de</hi> 1822.</p>
         </div>
       </div>
     </body>

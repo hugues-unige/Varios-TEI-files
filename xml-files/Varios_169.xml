@@ -4,10 +4,19 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>DECIMAS NUEVAS</title>
-        <respStmt>
-          <name/>
+        <title>Decimas nuevas</title>
+        <respStmt xml:id="PJ">
+          <name>Pauline Jacsont</name>
+          <resp>Segmentación y transcripción</resp>
           <resp>Codificación TEI</resp>
+        </respStmt>
+        <respStmt xml:id="LF">
+          <name>Lorysmar Franco</name>
+          <resp>Corrección de la transcripción</resp>
+        </respStmt>
+        <respStmt xml:id="EL">
+          <name>Elina Leblanc</name>
+          <resp>Verificación de la codificación y carga en el sitio web</resp>
         </respStmt>
       </titleStmt>
       <publicationStmt>
@@ -19,9 +28,9 @@
       <sourceDesc>
         <biblFull>
           <titleStmt>
-            <title type="titulo_completo">DECIMAS NUEVAS, alegres y divertidas para pasar el rato
+            <title type="titulo_completo">Decimas nuevas, alegres y divertidas para pasar el rato
               despues de tener la panza llena, pero no de aire.</title>
-            <title type="titulo_breve">DECIMAS NUEVAS</title>
+            <title type="titulo_breve">Decimas nuevas</title>
           </titleStmt>
           <editionStmt>
             <p/>
@@ -67,17 +76,11 @@
               </layoutDesc>
             </objectDesc>
             <decoDesc>
-              <summary n="3">Dos grabados (p.1) </summary>
+              <summary n="2">Dos grabados (p.1)</summary>
               <decoNote type="lista_grabados">
                 <list>
-                  <item corresp="grabado_v_169_1.xml">grabado_v_169_1</item>
-                  <item corresp="grabado_v_169_2.xml">grabado_v_169_2</item>
-                  <item corresp="grabado_v_169_3.xml">grabado_v_169_3</item>
-                </list>
-              </decoNote>
-              <decoNote type="lista_ornamentos">
-                <list>
-                  <item corresp="ornamento_v_169_1">ornamento_v_169_1</item>
+                  <item corresp="grabado_v_169_1.xml" facs="varios/Varios_169_1.jpg/850,350,600,700/100,/0/default.jpg">grabado_v_169_1</item>
+                  <item corresp="grabado_v_169_2.xml" facs="varios/Varios_169_1.jpg/149,341,498,682/100,/0/default.jpg">grabado_v_169_2</item>
                 </list>
               </decoNote>
             </decoDesc>
@@ -1147,9 +1150,9 @@
   <text>
     <body>
       <div>
-        <pb n="1" source="Varios_169_1.jpg" facs="varios/Varios_169_1.jpg/"/>
+        <pb n="1" source="Varios_169_1.jpg" facs="varios/Varios_169_1.jpg"/>
         <div>
-          <head type="primer_titulo"><lb/>DECIMAS NUEVAS,</head>
+          <head type="primer_titulo" rend="negrita"><lb/><hi rend="cursiva">DECIMAS NUEVAS,</hi></head>
           <head type="subtitulo_parte"><lb/>alegres y divertidas para pasar el rato des-<lb/>pues de
             tener la panza llena,<lb/>pero no de aire.</head>
           
@@ -1178,7 +1181,7 @@
             <l>de todos es abatido:</l>
             <l>no hay parentela ni amigos</l>
           
-          <pb n="2" source="Varios_169_2.jpg" facs="varios/Varios_169_2.jpg/"/>
+          <pb n="2" source="Varios_169_2.jpg" facs="varios/Varios_169_2.jpg"/>
           
             <l>que conozcan la razon</l>
             <l>con mas dañada intencion</l>
@@ -1266,7 +1269,7 @@
             <l rend="cursiva">todos los cinco perdemos.</l>
           </lg>
           
-          <pb n="3" source="Varios_169_3.jpg" facs="varios/Varios_169_3.jpg/"/>
+          <pb n="3" source="Varios_169_3.jpg" facs="varios/Varios_169_3.jpg"/>
           
           <lg>
             <l rend="indent">Los hombres mas entendidos</l>
@@ -1353,7 +1356,7 @@
             <l rend="cursiva">busca el pobre su acomodo.</l>
           </lg>
           
-          <pb n="4" source="Varios_169_4.jpg" facs="varios/Varios_169_4.jpg/"/>
+          <pb n="4" source="Varios_169_4.jpg" facs="varios/Varios_169_4.jpg"/>
           
           <lg>
             <l rend="indent">Tambien busca su reposo</l>

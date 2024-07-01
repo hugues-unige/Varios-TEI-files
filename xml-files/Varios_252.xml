@@ -3,10 +3,19 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>VALS ALEGRE Y DIVERTIDO TITULADO LA BARQUILLERA</title>
-        <respStmt>
-          <name/>
+        <title>Vals alegre y divertido titulado la barquilera</title>
+        <respStmt xml:id="PJ">
+          <name>Pauline Jacsont</name>
+          <resp>Segmentación y transcripción</resp>
           <resp>Codificación TEI</resp>
+        </respStmt>
+        <respStmt xml:id="LF">
+          <name>Lorysmar Franco</name>
+          <resp>Corrección de la transcripción</resp>
+        </respStmt>
+        <respStmt xml:id="EL">
+          <name>Elina Leblanc</name>
+          <resp>Verificación de la codificación y carga en el sitio web</resp>
         </respStmt>
       </titleStmt>
       <publicationStmt>
@@ -35,8 +44,7 @@
             <country>Suisse</country>
             <settlement>Genève</settlement>
             <repository>Bibliothèque Universitaire de Genève <ref
-                target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"
-              />
+                target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"/>
             </repository>
             <collection>Colección Varios</collection>
             <idno type="cote"/>
@@ -90,9 +98,9 @@
               <summary n="3">Tres grabados (p.1 + 4)</summary>
               <decoNote type="lista_grabados">
                 <list>
-                  <item corresp="grabado_v_252_1.xml">grabado_v_252_1</item>
-                  <item corresp="grabado_v_252_2.xml">grabado_v_252_2</item>
-                  <item corresp="grabado_v_252_3.xml">grabado_v_252_3</item>
+                  <item corresp="grabado_v_252_1.xml" facs="varios/Varios_252_1.jpg/219,789,750,150/100,/0/default.jpg">grabado_v_252_1</item>
+                  <item corresp="grabado_v_252_2.xml" facs="varios/Varios_252_1.jpg/950,320,800,777/100,/0/default.jpg">grabado_v_252_2</item>
+                  <item corresp="grabado_v_252_3.xml" facs="varios/Varios_252_4.jpg/850,1590,200,377/100,/0/default.jpg">grabado_v_252_3</item>
                 </list>
               </decoNote>
             </decoDesc>
@@ -121,7 +129,7 @@
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR no corregido</p>
+          <p>OCR corregido</p>
         </correction>
         <normalization>
           <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
@@ -2124,7 +2132,7 @@
   <text>
     <body>
       <div>
-        <pb n="1" source="Varios_252_1.jpg" facs="varios/Varios_252_1.jpg/"/>
+        <pb n="1" source="Varios_252_1.jpg" facs="varios/Varios_252_1.jpg"/>
         
         <div n="1">
           <head type="primer_titulo"><lb/>VALS ALEGRE Y DIVERTIDO<lb/>TITULADO LA BARQUILLERA</head>
@@ -2177,7 +2185,7 @@
             <l>pero al fin los dos salimos á puerto de <add place="debajo">[salvación.</add></l>
           </lg>
           
-          <pb n="2" source="Varios_252_2.jpg" facs="varios/Varios_252_2.jpg/"/>
+          <pb n="2" source="Varios_252_2.jpg" facs="varios/Varios_252_2.jpg"/>
          
           <lg>
             <head type="titulo_estrofa">5</head>
@@ -2278,7 +2286,7 @@
         </div>
         
         <div n="4">
-          <pb n="3" source="Varios_252_3.jpg" facs="varios/Varios_252_3.jpg/"/>
+          <pb n="3" source="Varios_252_3.jpg" facs="varios/Varios_252_3.jpg"/>
           
           <head type="titulo_cancion" rend="negrita"><lb/>VALS</head>
           
@@ -2397,7 +2405,7 @@
         </div>
         
         <div n="6">
-          <pb n="4" source="Varios_252_4.jpg" facs="varios/Varios_252_4.jpg/"/>
+          <pb n="4" source="Varios_252_4.jpg" facs="varios/Varios_252_4.jpg"/>
           
           <head type="titulo_cancion" rend="negrita"><lb/>MAZURCA</head>
           

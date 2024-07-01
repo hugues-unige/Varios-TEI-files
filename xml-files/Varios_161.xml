@@ -5,9 +5,18 @@
     <fileDesc>
       <titleStmt>
         <title>Nuevo y curioso papel</title>
-        <respStmt>
-          <name/>
+        <respStmt xml:id="PJ">
+          <name>Pauline Jacsont</name>
+          <resp>Segmentación y transcripción</resp>
           <resp>Codificación TEI</resp>
+        </respStmt>
+        <respStmt xml:id="LF">
+          <name>Lorysmar Franco</name>
+          <resp>Corrección de la transcripción</resp>
+        </respStmt>
+        <respStmt xml:id="EL">
+          <name>Elina Leblanc</name>
+          <resp>Verificación de la codificación y carga en el sitio web</resp>
         </respStmt>
       </titleStmt>
       <publicationStmt>
@@ -25,7 +34,7 @@
             <title type="titulo_breve">Nuevo y curioso papel</title>
           </titleStmt>
           <editionStmt>
-            <p/>
+            <p>Otra impresión: <ref target="Varios_046.xml">Varios_046</ref></p>
           </editionStmt>
           <publicationStmt>
             <publisher>García</publisher>
@@ -41,7 +50,7 @@
             </repository>
             <collection>Colección Varios</collection>
             <idno type="cote"/>
-            <idno type="DOI">10.5281/zenodo.6587180</idno>
+            <idno type="DOI">10.5281/zenodo.11121453</idno>
             <altIdentifier>
               <idno type="num_impresor"/>
             </altIdentifier>
@@ -72,13 +81,13 @@
               </layoutDesc>
             </objectDesc>
             <decoDesc>
-              <summary n="4">Cuatro cinco seis grabados (p.1, p.3) </summary>
+              <summary n="4">Cuatro grabados (p.1 + 3)</summary>
               <decoNote type="lista_grabados">
                 <list>
-                  <item corresp="grabado_v_161_1.xml">grabado_v_161_1</item>
-                  <item corresp="grabado_v_161_2.xml">grabado_v_161_2</item>
-                  <item corresp="grabado_v_161_3.xml">grabado_v_161_3</item>
-                  <item corresp="grabado_v_161_4.xml">grabado_v_161_4</item>
+                  <item corresp="grabado_v_161_1.xml" facs="varios/Varios_161_1.jpg/280,455,507,813/100,/0/default.jpg">grabado_v_161_1</item>
+                  <item corresp="grabado_v_161_2.xml" facs="varios/Varios_161_1.jpg/1070,499,586,751/100,/0/default.jpg">grabado_v_161_2</item>
+                  <item corresp="grabado_v_161_3.xml" facs="varios/Varios_161_3.jpg/595,388,742,725/100,/0/default.jpg">grabado_v_161_3</item>
+                  <item corresp="grabado_v_161_4.xml" facs="varios/Varios_161_3.jpg/891,2326,262,105/100,/0/default.jpg">grabado_v_161_4</item>
                 </list>
               </decoNote>
             </decoDesc>
@@ -103,7 +112,7 @@
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR no corregido</p>
+          <p>OCR corregido</p>
         </correction>
         <normalization>
           <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
@@ -119,7 +128,7 @@
       </langUsage>
       <textClass>
         <keywords xml:base="http://datos.bne.es/tema/">
-          <term target="XX527614.html" type="tipo_texto">Romances</term>
+          <term type="tipo_texto">Relaciones</term>
           <term target="XX527614.html" type="tipo_estrofa">Romances</term>
           <term type="verso_prosa">Verso</term>
           <term type="sagrado_profano">Profano</term>
@@ -1109,14 +1118,14 @@
     <body>
       <div>
         <div>
-          <pb n="1" source="Varios_161_1.jpg" facs="varios/Varios_161_1.jpg/"/>
+          <pb n="1" source="Varios_161_1.jpg" facs="varios/Varios_161_1.jpg"/>
           <head type="primer_titulo"><lb/><hi rend="negrita">Nuevo y curioso papel</hi><lb/>en el
             que se da cuenta y declara el horrible asesinato que<lb/>han ejecutado en el pueblo de
             Berzocana,<lb/>provincia de Cáceres<lb/>en la madrugada del 26 de octubre del presento
             año</head>
 
           <div n="1" type="parte">
-            <head type="titulo_parte"><lb/>PRIMIERA PARTE</head>
+            <head type="titulo_parte"><lb/>PRIMERA PARTE</head>
 
             <l rend="indent">A la bellísíma aurora,</l>
             <l>Madre del divino Verbo,</l>
@@ -1135,7 +1144,7 @@
             <l>que don Fulgencio se llama,</l>
             <l>casado con doña Dolores</l>
 
-            <pb n="2" source="Varios_161_2.jpg" facs="varios/Varios_161_2.jpg/"/>
+            <pb n="2" source="Varios_161_2.jpg" facs="varios/Varios_161_2.jpg"/>
 
             <l>Flores, que así se llamaba.</l>
             <l rend="indent">Estos tenían tres hijas</l>
@@ -1242,7 +1251,7 @@
           </div>
 
           <div n="2" type="parte">
-            <pb n="3" source="Varios_161_3.jpg" facs="varios/Varios_161_3.jpg/"/>
+            <pb n="3" source="Varios_161_3.jpg" facs="varios/Varios_161_3.jpg"/>
             <head type="titulo_parte"><lb/>SEGUNDA PARTE</head>
 
             <l rend="indent">Abren cómodas y cofres</l>
@@ -1276,7 +1285,7 @@
             <l>autores de la matanza.</l>
             <l>y tú, sólo alumbrabas;</l>
 
-            <pb n="4" source="Varios_161_4.jpg" facs="varios/Varios_161_4.jpg/"/>
+            <pb n="4" source="Varios_161_4.jpg" facs="varios/Varios_161_4.jpg"/>
 
             <l>por eso mismo sabrás,</l>
             <l>que casi no te toca nada,</l>
@@ -1359,7 +1368,7 @@
         </div>
 
         <div type="colofon">
-          <p><lb/>IMPRENTA GARCÍA <lb/>LA MÁS ECONÓMICA <lb/>ILANS, 4, (<hi rend="cursiva">ezquina Gignáts</hi>)
+          <p><lb/>IMPRENTA GARCÍA <lb/>LA MÁS ECONÓMICA <lb/><choice><sic>ILANS</sic><corr>MILANS</corr></choice>, 4, (<hi rend="cursiva">ezquina Gignáts</hi>)
             BARCELONA</p>
         </div>
       </div>

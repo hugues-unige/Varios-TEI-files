@@ -3,10 +3,19 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>TROVOS NUEVOS DE DESPEDIDAS</title>
-        <respStmt>
-          <name/>
+        <title>Trovos nuevos de despedidas</title>
+        <respStmt xml:id="PJ">
+          <name>Pauline Jacsont</name>
+          <resp>Segmentación y transcripción</resp>
           <resp>Codificación TEI</resp>
+        </respStmt>
+        <respStmt xml:id="LF">
+          <name>Lorysmar Franco</name>
+          <resp>Corrección de la transcripción</resp>
+        </respStmt>
+        <respStmt xml:id="EL">
+          <name>Elina Leblanc</name>
+          <resp>Verificación de la codificación y carga en el sitio web</resp>
         </respStmt>
       </titleStmt>
       <publicationStmt>
@@ -36,8 +45,7 @@
             <country>Suisse</country>
             <settlement>Genève</settlement>
             <repository>Bibliothèque Universitaire de Genève <ref
-                target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"
-              />
+                target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"/>
             </repository>
             <collection>Colección Varios</collection>
             <idno type="cote"/>
@@ -73,12 +81,12 @@
               </layoutDesc>
             </objectDesc>
             <decoDesc>
-              <summary n="3">Tres grabados (p.1) </summary>
+              <summary n="3">Tres grabados (p.1)</summary>
               <decoNote type="lista_grabados">
                 <list>
-                  <item corresp="grabado_v_199_1.xml">grabado_v_199_1</item>
-                  <item corresp="grabado_v_199_2.xml">grabado_v_199_2</item>
-                  <item corresp="grabado_v_199_3.xml">grabado_v_199_3</item>
+                  <item corresp="grabado_v_199_1.xml" facs="varios/Varios_199_1.jpg/595,254,558,990/100,/0/default.jpg">grabado_v_199_1</item>
+                  <item corresp="grabado_v_199_2.xml" facs="varios/Varios_199_1.jpg/105,257,469,981/100,/0/default.jpg">grabado_v_199_2</item>
+                  <item corresp="grabado_v_199_3.xml" facs="varios/Varios_199_1.jpg/1169,289,460,961/100,/0/default.jpg">grabado_v_199_3</item>
                 </list>
               </decoNote>
             </decoDesc>
@@ -109,7 +117,7 @@
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR no corregido</p>
+          <p>OCR corregido</p>
         </correction>
         <normalization>
           <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
@@ -2225,7 +2233,7 @@
   <text>
     <body>
       <div>
-        <pb n="1" source="Varios_199_1.jpg" facs="varios/Varios_199_1.jpg/"/>
+        <pb n="1" source="Varios_199_1.jpg" facs="varios/Varios_199_1.jpg"/>
 
         <div n="1">
           <head type="primer_titulo" rend="negrita"><lb/>TROVOS NUEVOS DE DESPEDIDAS</head>
@@ -2269,7 +2277,7 @@
             </lg>
           </lg>
 
-          <pb n="2" source="Varios_199_2.jpg" facs="varios/Varios_199_2.jpg/"/>
+          <pb n="2" source="Varios_199_2.jpg" facs="varios/Varios_199_2.jpg"/>
 
           <lg>
             <lg rend="cursiva">
@@ -2407,7 +2415,7 @@
               <l rend="indent">Yo no sé porque perdido</l>
               <l>siempre me tengo de hallar,</l>
 
-              <pb n="3" source="Varios_199_3.jpg" facs="varios/Varios_199_3.jpg/"/>
+              <pb n="3" source="Varios_199_3.jpg" facs="varios/Varios_199_3.jpg"/>
 
               <l>lloro como un afligido</l>
               <l>los males de mi penar,</l>
@@ -2535,7 +2543,7 @@
         </div>
         
         <div n="2">
-          <pb n="4" source="Varios_199_4.jpg" facs="varios/Varios_199_4.jpg/"/>
+          <pb n="4" source="Varios_199_4.jpg" facs="varios/Varios_199_4.jpg"/>
           
           <head type="titulo_parte" rend="negrita">La americana a coro</head>
           

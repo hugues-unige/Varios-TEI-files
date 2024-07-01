@@ -4,10 +4,19 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>SATIRA GRACIOSA. LOS 28 MOTIVOS PARA NO CASARSE</title>
-        <respStmt>
-          <name/>
+        <title>Satira graciosa. Los 28 motivos para no casarse</title>
+        <respStmt xml:id="PJ">
+          <name>Pauline Jacsont</name>
+          <resp>Segmentación y transcripción</resp>
           <resp>Codificación TEI</resp>
+        </respStmt>
+        <respStmt xml:id="LF">
+          <name>Lorysmar Franco</name>
+          <resp>Corrección de la transcripción</resp>
+        </respStmt>
+        <respStmt xml:id="EL">
+          <name>Elina Leblanc</name>
+          <resp>Verificación de la codificación y carga en el sitio web</resp>
         </respStmt>
       </titleStmt>
       <publicationStmt>
@@ -19,10 +28,10 @@
       <sourceDesc>
         <biblFull>
           <titleStmt>
-            <title type="titulo_completo">SATIRA GRACIOSA. LOS 28 MOTIVOS PARA NO CASARSE. En que se
+            <title type="titulo_completo">Satira graciosa. Los 28 motivos para no casarse. En que se
               avisa á todos los hombres los motivos que hay para no casarse, y lo que se pasa con
               las mugeres por los males que descubren.</title>
-            <title type="titulo_breve">SATIRA GRACIOSA. LOS 28 MOTIVOS PARA NO CASARSE.</title>
+            <title type="titulo_breve">Satira graciosa. Los 28 motivos para no casarse.</title>
           </titleStmt>
           <editionStmt>
             <p/>
@@ -76,8 +85,8 @@
               <summary n="2">Dos grabados (p.1)</summary>
               <decoNote type="lista_grabados">
                 <list>
-                  <item corresp="grabado_v_126_1.xml">grabado_v_126_1</item>
-                  <item corresp="grabado_v_126_2.xml">grabado_v_126_2</item>
+                  <item corresp="grabado_v_126_1.xml" facs="varios/Varios_126_1.jpg/762,263,516,707/100,/0/default.jpg">grabado_v_126_1</item>
+                  <item corresp="grabado_v_126_2.xml" facs="varios/Varios_126_1.jpg/324,254,418,707/100,/0/default.jpg">grabado_v_126_2</item>
                 </list>
               </decoNote>
             </decoDesc>
@@ -102,7 +111,7 @@
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR no corregido</p>
+          <p>OCR corregido</p>
         </correction>
         <normalization>
           <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
@@ -962,7 +971,7 @@
     <body>
       <div>
         <div>
-          <pb n="1" source="Varios_126_1.jpg" facs="varios/Varios_126_1.jpg/"/>
+          <pb n="1" source="Varios_126_1.jpg" facs="varios/Varios_126_1.jpg"/>
 
           <head type="primer_titulo"><lb/>SATIRA GRACIOSA.<lb/><hi rend="negrita">LOS 28 MOTIVOS
               PARA NO CASARSE.</hi></head>
@@ -981,7 +990,7 @@
             <l>Uno mala cara,</l>
             <l>el otro suspira,</l>
 
-            <pb n="2" source="Varios_126_2.jpg" facs="varios/Varios_126_2.jpg/"/>
+            <pb n="2" source="Varios_126_2.jpg" facs="varios/Varios_126_2.jpg"/>
 
             <l>y eso especialmente</l>
             <l>si falta la harina.</l>
@@ -1058,7 +1067,7 @@
           </div>
 
           <div type="parte" n="2">
-            <pb n="3" source="Varios_126_3.jpg" facs="varios/Varios_126_3.jpg/"/>
+            <pb n="3" source="Varios_126_3.jpg" facs="varios/Varios_126_3.jpg"/>
 
             <head type="titulo_parte"><lb/>SEGUNDA PARTE.</head>
             <head type="subtitulo_parte" rend="cursiva"><lb/>En que se sigue el mismo asunto y los
@@ -1121,7 +1130,7 @@
             <l>y á las nueve de la mañana</l>
             <l>en meten en la taberna.</l>
 
-            <pb n="4" source="Varios_126_4.jpg" facs="varios/Varios_126_4.jpg/"/>
+            <pb n="4" source="Varios_126_4.jpg" facs="varios/Varios_126_4.jpg"/>
 
             <l>Ya viene la noche,</l>
             <l>como es regular,</l>
@@ -1181,7 +1190,7 @@
         </div>
         
         <div type="colofon">
-          <p rend="cursiva"><lb/>Játiva: Imprenta y libreria de Blas Bellver. Año 1843</p>
+          <p><lb/><hi rend="cursiva">Játiva: Imprenta y libreria de Blas Bellver. Año 1843</hi></p>
         </div>
       </div>
     </body>

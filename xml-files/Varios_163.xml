@@ -4,10 +4,19 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>UNA LECCION Á LA ESPAÑOLA.</title>
-        <respStmt>
-          <name/>
+        <title>Una leccion á la española</title>
+        <respStmt xml:id="PJ">
+          <name>Pauline Jacsont</name>
+          <resp>Segmentación y transcripción</resp>
           <resp>Codificación TEI</resp>
+        </respStmt>
+        <respStmt xml:id="LF">
+          <name>Lorysmar Franco</name>
+          <resp>Corrección de la transcripción</resp>
+        </respStmt>
+        <respStmt xml:id="EL">
+          <name>Elina Leblanc</name>
+          <resp>Verificación de la codificación y carga en el sitio web</resp>
         </respStmt>
       </titleStmt>
       <publicationStmt>
@@ -19,7 +28,7 @@
       <sourceDesc>
         <biblFull>
           <titleStmt>
-            <title type="titulo_completo">UNA LECCION Á LA ESPAÑOLA.</title>
+            <title type="titulo_completo">Una leccion á la española.</title>
             <title type="titulo_breve"/>
           </titleStmt>
           <editionStmt>
@@ -70,11 +79,11 @@
               </layoutDesc>
             </objectDesc>
             <decoDesc>
-              <summary n="1">Dos grabados (p.1 + p.2) </summary>
+              <summary n="1">Dos grabados (p.1 + 2) </summary>
               <decoNote type="lista_grabados">
                 <list>
-                  <item corresp="grabado_v_163_1.xml">grabado_v_163_1</item>
-                  <item corresp="grabado_v_163_2.xml">grabado_v_163_2</item>
+                  <item corresp="grabado_v_163_1.xml" facs="varios/Varios_163_1.jpg/0,192,1480,1164/100,/0/default.jpg">grabado_v_163_1</item>
+                  <item corresp="grabado_v_163_2.xml" facs="varios/Varios_163_2.jpg/300,192,1480,1164/100,/0/default.jpg">grabado_v_163_2</item>
                 </list>
               </decoNote>
             </decoDesc>
@@ -99,7 +108,7 @@
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR no corregido</p>
+          <p>OCR corregido</p>
         </correction>
         <normalization>
           <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
@@ -384,7 +393,7 @@
   <text>
     <body>
       <div>
-        <pb n="1" source="Varios_163_1.jpg" facs="varios/Varios_163_1.jpg/"/>
+        <pb n="1" source="Varios_163_1.jpg" facs="varios/Varios_163_1.jpg"/>
        
         <div>
           <head type="primer_titulo"><lb/>UNA LECCION Á LA ESPAÑOLA.</head>
@@ -415,7 +424,7 @@
           </div>
         </div>
 
-        <pb n="2" source="Varios_163_2.jpg" facs="varios/Varios_163_2.jpg/"/>
+        <pb n="2" source="Varios_163_2.jpg" facs="varios/Varios_163_2.jpg"/>
         
         <div>
           <head type="titulo_parte"><lb/>LOS VELOCÍPEDOS,<lb/>Ó UNA CONOUISTA Á GRAN

@@ -4,10 +4,19 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>RIÑAS SANGRIENTAS</title>
-        <respStmt>
-          <name/>
+        <title>Riñas Sangrientas</title>
+        <respStmt xml:id="PJ">
+          <name>Pauline Jacsont</name>
+          <resp>Segmentación y transcripción</resp>
           <resp>Codificación TEI</resp>
+        </respStmt>
+        <respStmt xml:id="LF">
+          <name>Lorysmar Franco</name>
+          <resp>Corrección de la transcripción</resp>
+        </respStmt>
+        <respStmt xml:id="EL">
+          <name>Elina Leblanc</name>
+          <resp>Verificación de la codificación y carga en el sitio web</resp>
         </respStmt>
       </titleStmt>
       <publicationStmt>
@@ -68,18 +77,10 @@
               </layoutDesc>
             </objectDesc>
             <decoDesc>
-              <summary n="1">Un grabado (p.1) </summary>
+              <summary n="1">Un grabado (p.1)</summary>
               <decoNote type="lista_grabados">
                 <list>
-                  <item corresp="grabado_v_183_1.xml">grabado_v_183_1</item>
-                </list>
-              </decoNote>
-              <decoNote type="lista_ornamentos">
-                <list>
-                  <item corresp="ornamento_v_183_1">ornamento_v_183_1</item>
-                  <item corresp="ornamento_v_183_2">ornamento_v_183_2</item>
-                  <item corresp="ornamento_v_183_3">ornamento_v_183_3</item>
-                  <item corresp="ornamento_v_183_4">ornamento_v_183_4</item>
+                  <item corresp="grabado_v_183_1.xml" facs="varios/Varios_183_1.jpg/72,323,1515,1092/100,/0/default.jpg">grabado_v_183_1</item>
                 </list>
               </decoNote>
             </decoDesc>
@@ -108,7 +109,7 @@
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR no corregido</p>
+          <p>OCR corregido</p>
         </correction>
         <normalization>
           <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
@@ -1154,7 +1155,7 @@
     <body>
       <div>
         <div>
-          <pb n="1" source="Varios_183_1.jpg" facs="varios/Varios_183_1.jpg/"/>
+          <pb n="1" source="Varios_183_1.jpg" facs="varios/Varios_183_1.jpg"/>
 
           <head type="primer_titulo" rend="negrita"><lb/>RIÑAS SANGRIENTAS.</head>
           <head type="subtitulo"><lb/>Verídica y agradable relacion de lo que hace po-<lb/>co pasó
@@ -1174,7 +1175,7 @@
           <l>A puntear la viuela</l>
           <l>Concluido su trabajo.</l>
 
-          <pb n="2" source="Varios_183_2.jpg" facs="varios/Varios_183_2.jpg/"/>
+          <pb n="2" source="Varios_183_2.jpg" facs="varios/Varios_183_2.jpg"/>
 
           <l rend="indent">Tenia un fecundo genio</l>
           <l>Tanto que sin regla alguna</l>
@@ -1268,7 +1269,7 @@
           <l>Y ya verás como luego</l>
           <l>A qui te los volverán.</l>
 
-          <pb n="3" source="Varios_183_3.jpg" facs="varios/Varios_183_3.jpg/"/>
+          <pb n="3" source="Varios_183_3.jpg" facs="varios/Varios_183_3.jpg"/>
 
           <l rend="indent">La escusa que darán ellos</l>
           <l>Me parece la comprendo</l>
@@ -1353,7 +1354,7 @@
           <l rend="indent">Presentaronles al amo</l>
           <l>Y el está tan emfadado,</l>
 
-          <pb n="4" source="Varios_183_4.jpg" facs="varios/Varios_183_4.jpg/"/>
+          <pb n="4" source="Varios_183_4.jpg" facs="varios/Varios_183_4.jpg"/>
 
           <l>Que montado por la rabia</l>
           <l>Los arrebata y los rasga.</l>
@@ -1425,7 +1426,7 @@
           <trailer>FIN.</trailer>
         </div>
         <div type="colofon">
-          <p><lb/>Imprenta de F. Vallés, calle del Pino. (Propiedad.)</p>
+          <p><lb/>BARCELONA.<lb/>Imprenta de F. Vallés, calle del Pino. (Propiedad.)</p>
         </div>
       </div>
     </body>

@@ -4,10 +4,19 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>TROVOS NUEVOS Y DIVERTIDOS</title>
-        <respStmt>
-          <name xml:id="PJ">Pauline Jacsont</name>
+        <title>Trovos nuevos y divertidos</title>
+        <respStmt xml:id="PJ">
+          <name>Pauline Jacsont</name>
+          <resp>Segmentación y transcripción</resp>
           <resp>Codificación TEI</resp>
+        </respStmt>
+        <respStmt xml:id="LF">
+          <name>Lorysmar Franco</name>
+          <resp>Corrección de la transcripción</resp>
+        </respStmt>
+        <respStmt xml:id="EL">
+          <name>Elina Leblanc</name>
+          <resp>Verificación de la codificación y carga en el sitio web</resp>
         </respStmt>
       </titleStmt>
       <publicationStmt>
@@ -24,7 +33,7 @@
             <title type="titulo_breve">Trovos nuevos y divertidos</title>
           </titleStmt>
           <editionStmt>
-            <p/>
+            <p>Otra impresión: <ref target="Varios_345.xml">Varios_345</ref></p>
           </editionStmt>
           <publicationStmt>
             <publisher>Juan Bautista Vidal</publisher>
@@ -69,10 +78,10 @@
               </layoutDesc>
             </objectDesc>
             <decoDesc>
-              <summary n="1">Un grabado (p.1) </summary>
+              <summary n="1">Un grabado (p.1)</summary>
               <decoNote type="lista_grabados">
                 <list>
-                  <item corresp="grabado_v_367_1.xml">grabado_v_367_1</item>
+                  <item corresp="grabado_v_367_1.xml" facs="varios/Varios_367_1.jpg/423,292,846,979/100,/0/default.jpg">grabado_v_367_1</item>
                 </list>
               </decoNote>
             </decoDesc>
@@ -101,7 +110,7 @@
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR no corregido</p>
+          <p>OCR corregido</p>
         </correction>
         <normalization>
           <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
@@ -2076,7 +2085,7 @@
   <text>
     <body>
       <div>
-        <pb n="1" source="Varios_367_1.jpg" facs="varios/Varios_367_1.jpg/"/>
+        <pb n="1" source="Varios_367_1.jpg" facs="varios/Varios_367_1.jpg"/>
 
         <fw type="impresorNum">(Núm. 54).</fw>
 
@@ -2125,7 +2134,7 @@
             <l>Enseñarme, de querer.</l>
           </lg>
 
-          <pb n="2" source="Varios_367_2.jpg" facs="varios/Varios_367_2.jpg/"/>
+          <pb n="2" source="Varios_367_2.jpg" facs="varios/Varios_367_2.jpg"/>
 
           <lg>
             <l rend="indent">Allá en la verde pradera</l>
@@ -2222,7 +2231,7 @@
             <l rend="cursiva">O el secreto á la mujer.</l>
           </lg>
 
-          <pb n="3" source="Varios_367_3.jpg" facs="varios/Varios_367_3.jpg/"/>
+          <pb n="3" source="Varios_367_3.jpg" facs="varios/Varios_367_3.jpg"/>
 
           <lg rend="cursiva">
             <l rend="indent">Enseguida que nací</l>
@@ -2317,7 +2326,7 @@
             <l rend="cursiva">O me despido de tí.</l>
           </lg>
 
-          <pb n="4" source="Varios_367_4.jpg" facs="varios/Varios_367_4.jpg/"/>
+          <pb n="4" source="Varios_367_4.jpg" facs="varios/Varios_367_4.jpg"/>
 
           <lg rend="cursiva">
             <l rend="indent">Este mundo es una bola</l>
@@ -2387,6 +2396,7 @@
             <l>Pues que al verte á mi amor sorda</l>
             <l rend="cursiva">La muerte Pepa prefiero.</l>
           </lg>
+          <trailer>FIN.</trailer>
         </div>
         
         <div type="colofon">

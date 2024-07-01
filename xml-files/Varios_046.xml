@@ -5,9 +5,18 @@
     <fileDesc>
       <titleStmt>
         <title>Nuevo y curioso papel en el que se da cuenta y declara el horrible asesinato que han ejecutado en el pueblo de Berzocana</title>
-        <respStmt>
-          <name/>
+        <respStmt xml:id="PJ">
+          <name>Pauline Jacsont</name>
+          <resp>Segmentación y transcripción</resp>
           <resp>Codificación TEI</resp>
+        </respStmt>
+        <respStmt xml:id="MB">
+          <name>Miguel Betti</name>
+          <resp>Corrección de la transcripción</resp>
+        </respStmt>
+        <respStmt xml:id="EL">
+          <name>Elina Leblanc</name>
+          <resp>Verificación de la codificación y carga en el sitio web</resp>
         </respStmt>
       </titleStmt>
       <publicationStmt>
@@ -26,7 +35,7 @@
               horrible asesinato que han ejecutado en el pueblo de Berzocana</title>
           </titleStmt>
           <editionStmt>
-            <p/>
+            <p>Otra impresión: <ref target="Varios_161.xml">Varios_161</ref></p>
           </editionStmt>
           <publicationStmt>
             <publisher>M. García</publisher>
@@ -69,13 +78,13 @@
               </layoutDesc>
             </objectDesc>
             <decoDesc>
-              <summary n="4">Cuatro grabados (p.1) </summary>
+              <summary n="4">Cuatro grabados (p.1)</summary>
               <decoNote type="lista_grabados">
                 <list>
-                  <item corresp="grabado_v_046_1.xml">grabado_v_046_1</item>
-                  <item corresp="grabado_v_046_2.xml">grabado_v_046_2</item>
-                  <item corresp="grabado_v_046_3.xml">grabado_v_046_3</item>
-                  <item corresp="grabado_v_046_4.xml">grabado_v_046_4</item>
+                  <item corresp="grabado_v_046_1.xml" facs="varios/Varios_046_1.jpg/1000,480,667,700/100,/0/default.jpg">grabado_v_046_1</item>
+                  <item corresp="grabado_v_046_2.xml" facs="varios/Varios_046_1.jpg/219,420,559,810/100,/0/default.jpg">grabado_v_046_2</item>
+                  <item corresp="grabado_v_046_3.xml" facs="varios/Varios_046_3.jpg/884,2274,315,129/100,/0/default.jpg">grabado_v_046_3</item>
+                  <item corresp="grabado_v_046_4.xml" facs="varios/Varios_046_3.jpg/649,375,700,714/100,/0/default.jpg">grabado_v_046_4</item>
                 </list>
               </decoNote>
             </decoDesc>
@@ -100,7 +109,7 @@
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR no corregido</p>
+          <p>OCR corregido</p>
         </correction>
         <normalization>
           <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
@@ -126,10 +135,11 @@
     <revisionDesc>
       <change when="2022-05-15" who="#PJ">Création du fichier TEI P5 et encodage du corps du
         texte</change>
-<change when="2024-01-09" who="#EL">Add the IIIF links</change>
+      <change when="2024-01-09" who="#EL">Add the IIIF links</change>
     </revisionDesc>
   </teiHeader>
-  <facsimile><graphic url="varios/Varios_046_1.jpg/full/200,/0/default.jpg"/></facsimile><sourceDoc xml:id="automaticTranscription">
+  <facsimile><graphic url="varios/Varios_046_1.jpg/full/200,/0/default.jpg"/></facsimile>
+  <sourceDoc xml:id="automaticTranscription">
     <surface xml:id="Varios_046_1" type="page" cert="silver">
       <graphic url="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_046_1/full/full/0/default.jpg"/>
       <zone xml:id="Varios_046_1_BT223_1" n="1" type="CustomZone" subtype="title" points="1594,1417 1743,1437 1770,1481 1776,1516 1591,1516 1591,1627 1771,1627 1752,1680 1625,1694 1574,1706 1503,1725 1480,1768 1272,1776 1120,1822 1357,1845 1357,1910 1331,1934 866,1978 631,1978 552,1934 579,1875 619,1862 738,1862 738,1776 164,1776 105,1744 114,1665 120,1640 277,1640 277,1572 126,1572 122,1477 211,1471 280,1434 274,1324 1594,1324 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_046_1/105,1324,1671,654/full/0/default" corresp="CustomZone:title">
@@ -1102,7 +1112,7 @@
     <body>
       <div>
         <div>
-          <pb n="1" source="Varios_046_1.jpg" facs="varios/Varios_046_1.jpg/"/>
+          <pb n="1" source="Varios_046_1.jpg" facs="varios/Varios_046_1.jpg"/>
 
           <head type="primer_titulo" rend="negrita"><lb/>Nuevo y curioso papel</head>
           <head type="subtitulo"><lb/>en el que se da cuenta y declara el horrible asesinato
@@ -1130,7 +1140,7 @@
             <l>que don Fulgencio se llama,</l>
             <l>casado con doña Dolores</l>
 
-            <pb n="2" source="Varios_046_2.jpg" facs="varios/Varios_046_2.jpg/"/>
+            <pb n="2" source="Varios_046_2.jpg" facs="varios/Varios_046_2.jpg"/>
 
             <l>Flores, que así se llamaba.</l>
             <l rend="indent">Estos tenían tres hijas</l>
@@ -1238,7 +1248,7 @@
           </div>
 
           <div n="2">
-            <pb n="3" source="Varios_046_3.jpg" facs="varios/Varios_046_3.jpg/"/>
+            <pb n="3" source="Varios_046_3.jpg" facs="varios/Varios_046_3.jpg"/>
 
             <head type="titulo_parte"><lb/>SEGUNDA PARTE</head>
 
@@ -1274,7 +1284,7 @@
             <l>autores de la matanza.</l>
             <l>y tú, sólo alumbrabas;</l>
 
-            <pb n="4" source="Varios_046_4.jpg" facs="varios/Varios_046_4.jpg/"/>
+            <pb n="4" source="Varios_046_4.jpg" facs="varios/Varios_046_4.jpg"/>
 
             <l>por eso mismo sabrás,</l>
             <l>que casi no te toca nada,</l>
@@ -1355,12 +1365,12 @@
 
             <trailer>FIN</trailer>
           </div>
-
         </div>
         
         <div type="colofon">
-          <p><lb/>Tip. M. Garcia; Milans, 4.=Barcelona<lb/>I MPRENTA GARCÍA LA MÁS ECONÓMICA MILANS,
-            4. (<hi rend="cursiva">esquina Gignáts</hi>) BARCELONA</p>
+          <p><lb/>IMPRENTA GARCÍA
+            <lb/>LA MÁS ECONÓMICA
+            <lb/>MILANS, 4. (<hi rend="cursiva">esquina Gignáts</hi>) BARCELONA</p>
         </div>
       </div>
     </body>

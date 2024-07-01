@@ -4,9 +4,18 @@
     <fileDesc>
       <titleStmt>
         <title>La Dama Casimira</title>
-        <respStmt>
-          <name xml:id="PJ">Pauline Jacsont</name>
+        <respStmt xml:id="PJ">
+          <name>Pauline Jacsont</name>
+          <resp>Segmentación y transcripción</resp>
           <resp>Codificación TEI</resp>
+        </respStmt>
+        <respStmt xml:id="LF">
+          <name>Lorysmar Franco</name>
+          <resp>Corrección de la transcripción</resp>
+        </respStmt>
+        <respStmt xml:id="EL">
+          <name>Elina Leblanc</name>
+          <resp>Verificación de la codificación y carga en el sitio web</resp>
         </respStmt>
       </titleStmt>
       <publicationStmt>
@@ -24,7 +33,7 @@
             <title type="titulo_breve">La Dama Casimira</title>
           </titleStmt>
           <editionStmt>
-            <p/>
+            <p>Otra impresión: <ref target="Varios_042.xml">Varios_042</ref></p>
           </editionStmt>
           <publicationStmt>
             <publisher>Cristina Segura</publisher>
@@ -37,8 +46,7 @@
             <country>Suisse</country>
             <settlement>Genève</settlement>
             <repository>Bibliothèque Universitaire de Genève <ref
-                target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"
-              />
+                target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"/>
             </repository>
             <collection>Colección Varios</collection>
             <idno type="cote"/>
@@ -69,10 +77,10 @@
               </layoutDesc>
             </objectDesc>
             <decoDesc>
-              <summary n="1">Un grabado (p.1) </summary>
+              <summary n="1">Un grabado (p.1)</summary>
               <decoNote type="lista_grabados">
                 <list>
-                  <item corresp="grabado_v_306_1.xml">grabado_v_306_1</item>
+                  <item corresp="grabado_v_306_1.xml" facs="varios/Varios_306_1.jpg/191,371,1266,1049/100,/0/default.jpg">grabado_v_306_1</item>
                 </list>
               </decoNote>
             </decoDesc>
@@ -101,7 +109,7 @@
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR no corregido</p>
+          <p>OCR corregido</p>
         </correction>
         <normalization>
           <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
@@ -117,7 +125,7 @@
       </langUsage>
       <textClass>
         <keywords xml:base="http://datos.bne.es/tema/">
-          <term target="XX527614.html" type="tipo_texto">Romances</term>
+          <term type="tipo_texto">Relaciones</term>
           <term target="XX527614.html" type="tipo_estrofa">Romances</term>
           <term type="verso_prosa">Verso</term>
           <term type="sagrado_profano">Profano</term>
@@ -2608,7 +2616,7 @@
   <text>
     <body>
       <div>
-        <pb n="1" source="Varios_306_1.jpg" facs="varios/Varios_306_1.jpg/"/>
+        <pb n="1" source="Varios_306_1.jpg" facs="varios/Varios_306_1.jpg"/>
         
         <fw type="impresorNum">Núm. 14</fw>
         
@@ -2636,7 +2644,7 @@
             <l>y porque el mundo no diga</l>
             <l>que me acuesto con un gato.</l>
           
-          <pb n="2" source="Varios_306_2.jpg" facs="varios/Varios_306_2.jpg/"/>
+          <pb n="2" source="Varios_306_2.jpg" facs="varios/Varios_306_2.jpg"/>
           
             <l rend="indent">Abogado no me cuadra,</l>
             <l>porque aun tiene letrillas</l>
@@ -2739,7 +2747,7 @@
             <l>pero no apetezco oficio</l>
             <l>que vuelve negro lo blanco.</l>
           
-          <pb n="3" source="Varios_306_3.jpg" facs="varios/Varios_306_3.jpg/"/>
+          <pb n="3" source="Varios_306_3.jpg" facs="varios/Varios_306_3.jpg"/>
           
             <l rend="indent">Albañil que anda por alto</l>
             <l>no quiero aunque sea majo,</l>
@@ -2842,7 +2850,7 @@
             <l>me traerá por la costumbre</l>
             <l>como escoba de barrer.</l>
           
-          <pb n="4" source="Varios_306_4.jpg" facs="varios/Varios_306_4.jpg/"/>
+          <pb n="4" source="Varios_306_4.jpg" facs="varios/Varios_306_4.jpg"/>
           
             <l rend="indent">Papelero no lo escojo,</l>
             <l>porque si le salgo infiel</l>

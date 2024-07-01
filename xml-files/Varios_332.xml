@@ -3,10 +3,19 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>EL NUEVO TANGO AMERICANO</title>
-        <respStmt>
-          <name xml:id="PJ">Pauline Jacsont</name>
+        <title>El nuevo tango americano</title>
+        <respStmt xml:id="PJ">
+          <name>Pauline Jacsont</name>
+          <resp>Segmentación y transcripción</resp>
           <resp>Codificación TEI</resp>
+        </respStmt>
+        <respStmt xml:id="LF">
+          <name>Lorysmar Franco</name>
+          <resp>Corrección de la transcripción</resp>
+        </respStmt>
+        <respStmt xml:id="EL">
+          <name>Elina Leblanc</name>
+          <resp>Verificación de la codificación y carga en el sitio web</resp>
         </respStmt>
       </titleStmt>
       <publicationStmt>
@@ -37,8 +46,7 @@
             <country>Suisse</country>
             <settlement>Genève</settlement>
             <repository>Bibliothèque Universitaire de Genève <ref
-                target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"
-              />
+                target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"/>
             </repository>
             <collection>Colección Varios</collection>
             <idno type="cote"/>
@@ -77,11 +85,11 @@
               </layoutDesc>
             </objectDesc>
             <decoDesc>
-              <summary n="2">Dos grabados (p.1) </summary>
+              <summary n="2">Dos grabados (p.1 + 3)</summary>
               <decoNote type="lista_grabados">
                 <list>
-                  <item corresp="grabado_v_332_1.xml">grabado_v_332_1</item>
-                  <item corresp="grabado_v_332_2.xml">grabado_v_332_2</item>
+                  <item corresp="grabado_v_332_1.xml" facs="varios/Varios_332_1.jpg/88,190,1505,1111/100,/0/default.jpg">grabado_v_332_1</item>
+                  <item corresp="grabado_v_332_2.xml" facs="varios/Varios_332_3.jpg/442,74,954,833/100,/0/default.jpg">grabado_v_332_2</item>
                 </list>
               </decoNote>
             </decoDesc>
@@ -108,7 +116,7 @@
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR no corregido</p>
+          <p>OCR corregido</p>
         </correction>
         <normalization>
           <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
@@ -1600,7 +1608,7 @@
   <text>
     <body>
       <div>
-        <pb n="1" source="Varios_332_1.jpg" facs="varios/Varios_332_1.jpg/"/>
+        <pb n="1" source="Varios_332_1.jpg" facs="varios/Varios_332_1.jpg"/>
 
         <div n="1">
           <head type="primer_titulo" rend="negrita"><lb/>EL NUEVO<lb/>TANGO AMERICANO.</head>
@@ -1626,7 +1634,7 @@
             <l>Y pide ma ñame-ñame</l>
           </lg>
 
-          <pb n="2" source="Varios_332_2.jpg" facs="varios/Varios_332_2.jpg/"/>
+          <pb n="2" source="Varios_332_2.jpg" facs="varios/Varios_332_2.jpg"/>
 
           <lg>
             <l rend="indent">Guarapo chupe que duce está!</l>
@@ -1708,10 +1716,13 @@
             <head type="titulo_estrofa">CORO.</head>
             <l>Marimarigongo etc.</l>
           </lg>
-          <trailer>FIN.</trailer>
+          <trailer>
+            <lb/>FIN.
+            <lb/><hi rend="cursiva">(Es propriedad).</hi>
+          </trailer>
         </div>
 
-        <pb n="3" source="Varios_332_3.jpg" facs="varios/Varios_332_3.jpg/"/>
+        <pb n="3" source="Varios_332_3.jpg" facs="varios/Varios_332_3.jpg"/>
 
         <div n="2">
           <head type="titulo_parte" rend="negrita"><lb/>LA CASTAÑERA<lb/>DE MADRID.</head>
@@ -1779,7 +1790,7 @@
           <trailer>FIN.</trailer>
         </div>
 
-        <pb n="4" source="Varios_332_4.jpg" facs="varios/Varios_332_4.jpg/"/>
+        <pb n="4" source="Varios_332_4.jpg" facs="varios/Varios_332_4.jpg"/>
 
         <div n="3">
           <head type="primer_titulo" rend="negrita"><lb/>LOS TOROS<lb/>DEL PUERTO.</head>

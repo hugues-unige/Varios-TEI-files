@@ -3,10 +3,19 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>ROSAURA LA DE TRUJILLO</title>
+        <title>Rosaura la de Trujillo</title>
         <respStmt>
-          <name/>
+          <name xml:id="PJ">Pauline Jacsont</name>
+          <resp>Segmentación y transcripción</resp>
           <resp>Codificación TEI</resp>
+        </respStmt>
+        <respStmt xml:id="LF">
+          <name>Lorysmar Franco</name>
+          <resp>Corrección de la transcripción</resp>
+        </respStmt>
+        <respStmt xml:id="EL">
+          <name>Elina Leblanc</name>
+          <resp>Verificación de la codificación y carga en el sitio web</resp>
         </respStmt>
       </titleStmt>
       <publicationStmt>
@@ -18,10 +27,10 @@
       <sourceDesc>
         <biblFull>
           <titleStmt>
-            <title type="titulo_completo">Rosaura la de trujillo, Relación de un caso lastimoso que
-              sucedió á una incauta donce- lla llamada Rosaura, natural de la ciudad de
+            <title type="titulo_completo">Rosaura la de Trujillo, Relación de un caso lastimoso que
+              sucedió á una incauta doncella llamada Rosaura, natural de la ciudad de
               Trujillo.</title>
-            <title type="titulo_breve">Rosaura la de trujillo</title>
+            <title type="titulo_breve">Rosaura la de Trujillo</title>
           </titleStmt>
           <editionStmt>
             <p/>
@@ -69,10 +78,10 @@
               </layoutDesc>
             </objectDesc>
             <decoDesc>
-              <summary n="1">Un grabado (p.1) </summary>
+              <summary n="1">Un grabado (p.1)</summary>
               <decoNote type="lista_grabados">
                 <list>
-                  <item corresp="grabado_v_285_1.xml">grabado_v_285_1</item>
+                  <item corresp="grabado_v_285_1.xml" facs="varios/Varios_285_1.jpg/58,371,1416,1039/100,/0/default.jpg">grabado_v_285_1</item>
                 </list>
               </decoNote>
             </decoDesc>
@@ -97,7 +106,7 @@
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR no corregido</p>
+          <p>OCR corregido</p>
         </correction>
         <normalization>
           <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
@@ -2462,7 +2471,7 @@
   <text>
     <body>
       <div>
-        <pb n="1" source="Varios_285_1.jpg" facs="varios/Varios_285_1.jpg/"/>
+        <pb n="1" source="Varios_285_1.jpg" facs="varios/Varios_285_1.jpg"/>
         
         <div>
           <head type="primer_titulo" rend="negrita">ROSAURA LA DE TRUJILLO</head>
@@ -2498,7 +2507,7 @@
             <l>á orillas de un arroyuelo,</l>
             <l>que con las breñas se enlaza.</l>
           
-          <pb n="2" source="Varios_285_2.jpg" facs="varios/Varios_285_2.jpg/"/>
+          <pb n="2" source="Varios_285_2.jpg" facs="varios/Varios_285_2.jpg"/>
           
             <l rend="indent">Estuve atento por ver</l>
             <l>si era de persona humana,</l>
@@ -2587,7 +2596,7 @@
             <l>mas el alevoso amante</l>
             <l>á un primo suyo le daba</l>
           
-          <pb n="3" source="Varios_285_3.jpg" facs="varios/Varios_285_3.jpg/"/>
+          <pb n="3" source="Varios_285_3.jpg" facs="varios/Varios_285_3.jpg"/>
           
             <l>cuenta, que traidor é infame</l>
             <l>fué causa de mi desgracia.</l>
@@ -2676,7 +2685,7 @@
             <l>y al punto la respondió:</l>
             <l>—Su merced está en la cama.</l>
           
-          <pb n="4" source="Varios_285_4.jpg" facs="varios/Varios_285_4.jpg/"/>
+          <pb n="4" source="Varios_285_4.jpg" facs="varios/Varios_285_4.jpg"/>
           
             <l rend="indent">Siu aguardar más razones</l>
             <l>hacia adentro se entraba,</l>
@@ -2763,7 +2772,7 @@
         </div>
         
         <div type="colofon">
-          <p rend="cursiva"><lb/>MADRID. Imp. Universal, Cabestreros, 5</p>
+          <p><lb/><hi rend="cursiva">MADRID. Imp. Universal, Cabestreros, 5</hi></p>
         </div>
       </div>
     </body>

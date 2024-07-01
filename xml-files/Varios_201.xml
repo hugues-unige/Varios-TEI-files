@@ -4,9 +4,18 @@
     <fileDesc>
       <titleStmt>
         <title>Monolech</title>
-        <respStmt>
-          <name/>
+        <respStmt xml:id="PJ">
+          <name>Pauline Jacsont</name>
+          <resp>Segmentación y transcripción</resp>
           <resp>Codificación TEI</resp>
+        </respStmt>
+        <respStmt xml:id="LF">
+          <name>Lorysmar Franco</name>
+          <resp>Corrección de la transcripción</resp>
+        </respStmt>
+        <respStmt xml:id="EL">
+          <name>Elina Leblanc</name>
+          <resp>Verificación de la codificación y carga en el sitio web</resp>
         </respStmt>
       </titleStmt>
       <publicationStmt>
@@ -27,7 +36,7 @@
             <p/>
           </editionStmt>
           <publicationStmt>
-            <publisher>Joan Grau</publisher>
+            <publisher>Juan Grau</publisher>
             <pubPlace ref="https://www.geonames.org/3111933/reus.html">Reus</pubPlace>
             <date cert="low" when="1800-01-01">[s.a.]</date>
           </publicationStmt>
@@ -37,8 +46,7 @@
             <country>Suisse</country>
             <settlement>Genève</settlement>
             <repository>Bibliothèque Universitaire de Genève <ref
-                target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"
-              />
+                target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"/>
             </repository>
             <collection>Colección Varios</collection>
             <idno type="cote"/>
@@ -66,15 +74,10 @@
               </layoutDesc>
             </objectDesc>
             <decoDesc>
-              <summary n="1">Un grabado (p.1) </summary>
+              <summary n="1">Un grabado (p.1)</summary>
               <decoNote type="lista_grabados">
                 <list>
-                  <item corresp="grabado_v_201_1.xml">grabado_v_201_1</item>
-                </list>
-              </decoNote>
-              <decoNote type="lista_ornamentos">
-                <list>
-                  <item corresp="ornamento_v_201_1">ornamento_v_201_1</item>
+                  <item corresp="grabado_v_201_1.xml" facs="varios/Varios_201_1.jpg/75,195,1569,1218/100,/0/default.jpg">grabado_v_201_1</item>
                 </list>
               </decoNote>
             </decoDesc>
@@ -103,7 +106,7 @@
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR no corregido</p>
+          <p>OCR corregido</p>
         </correction>
         <normalization>
           <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
@@ -2647,7 +2650,7 @@
     <body>
       <div>
         <div>
-          <pb n="1" source="Varios_201_1.jpg" facs="varios/Varios_201_1.jpg/"/>
+          <pb n="1" source="Varios_201_1.jpg" facs="varios/Varios_201_1.jpg"/>
 
           <head type="primer_titulo"><lb/>MONOLECH</head>
           <head type="titulo_parte"><lb/>HISTORIA DE UN CASSADÒ, EXPLICADA PER ELL MATEIX</head>
@@ -2677,7 +2680,7 @@
           <l rend="indent">Veyèu si vaig aná lluny,</l>
           <l>que buscant la dressereta</l>
 
-          <pb n="2" source="Varios_201_2.jpg" facs="varios/Varios_201_2.jpg/"/>
+          <pb n="2" source="Varios_201_2.jpg" facs="varios/Varios_201_2.jpg"/>
 
           <l>ab molt menos de una horeta</l>
           <l>vaig aná á vila Fortuny.</l>
@@ -2776,7 +2779,7 @@
           <l rend="indent">Jo que trobu la ríera</l>
           <l>plena fins dalt á vessá;</l>
 
-          <pb n="3" source="Varios_201_3.jpg" facs="varios/Varios_201_3.jpg/"/>
+          <pb n="3" source="Varios_201_3.jpg" facs="varios/Varios_201_3.jpg"/>
 
           <l>no vaig pogue pas passá,</l>
           <l>vaig avé de torná arrera.</l>
@@ -2875,7 +2878,7 @@
           <l rend="indent">Tot aixó ó vaig amagá</l>
           <l>à la cova ab lo demés;</l>
 
-          <pb n="4" source="Varios_201_4.jpg" facs="varios/Varios_201_4.jpg/"/>
+          <pb n="4" source="Varios_201_4.jpg" facs="varios/Varios_201_4.jpg"/>
 
           <l>y vaig dir:—Ja no 'n vull mes,</l>
           <l>ya hu vindré á buscá demá,</l>

@@ -4,10 +4,19 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-               <title>LA VENGANZA CATALANA ó LOS CATALANES EN ORIENTE.</title>
-            <respStmt>
-               <name xml:id="PJ">Pauline Jacsont</name>
+            <title>La Venganza ó Los Catalanes en Oriente</title>
+            <respStmt xml:id="PJ">
+               <name>Pauline Jacsont</name>
+               <resp>Segmentación y transcripción</resp>
                <resp>Codificación TEI</resp>
+            </respStmt>
+            <respStmt xml:id="LB">
+               <name>Luana Bermúdez</name>
+               <resp>Corrección de la transcripción</resp>
+            </respStmt>
+            <respStmt xml:id="EL">
+               <name>Elina Leblanc</name>
+               <resp>Verificación de la codificación y carga en el sitio web</resp>
             </respStmt>
          </titleStmt>
          <publicationStmt>
@@ -21,7 +30,7 @@
             <biblFull>
                <titleStmt>
                      <title type="titulo_completo">La Venganza ó Los Catalanes en Oriente.</title>
-                     <title type="titulo_breve">La Venganza</title>
+                     <title type="titulo_breve"/>
                </titleStmt>
                <editionStmt>
                   <p/>
@@ -70,10 +79,10 @@
                      </layoutDesc>
                   </objectDesc>
                   <decoDesc>
-                     <summary n="3">Uno grabado (p.1) </summary>
+                     <summary n="1">Un grabado (p.1)</summary>
                      <decoNote type="lista_grabados">
                         <list>
-                           <item corresp="grabado_v_450_1.xml">grabado_v_450_1</item>
+                           <item corresp="grabado_v_450_1.xml" facs="varios/Varios_450_1.jpg/19,209,980,777/100,/0/default.jpg">grabado_v_450_1</item>
                         </list>
                      </decoNote>
                   </decoDesc>
@@ -103,7 +112,7 @@
          </projectDesc>
          <editorialDecl corresp="#automaticTranscription">
             <correction>
-               <p>OCR non corregido</p>
+               <p>OCR corregido</p>
             </correction>
             <normalization>
                <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto
@@ -121,15 +130,16 @@
          <textClass>
                <keywords xml:base="http://datos.bne.es/tema/">
                      <term type="tipo_texto">Historias</term>
-                     <term type="sagrado_profano">Profano</term>
+                  <term type="sagrado_profano">Profano</term>
+                  <term type="verso_prosa">Prosa</term>
                </keywords>
          </textClass>
       </profileDesc>
       <revisionDesc>
-         <change when="2024-01-05" who="#PJ">Création du fichier TEI P5 et encodage du corps du
-                        texte</change>
+         <change when="2024-01-05" who="#PJ">Création du fichier TEI P5 et encodage du corps du texte</change>
       </revisionDesc>
    </teiHeader>
+   <facsimile><graphic url="varios/Varios_450_1.jpg/full/200,/0/default.jpg"/></facsimile>
    <sourceDoc xml:id="automaticTranscription">
       <surface xml:id="Varios_450_1" type="page" cert="silver">
          <graphic url="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_450_1/full/full/0/default.jpg"/>
@@ -2440,18 +2450,18 @@
    <text>
       <body>
          <div>
-               <pb n="1" source="Varios_450_1.jpg" facs="fedora_Varios_450_1/full/full/0/default.jpg"/>
+               <pb n="1" source="Varios_450_1.jpg" facs="varios/Varios_450_1.jpg"/>
                <head type="primer_titulo" rend="negrita">
-                  <lb/>LA VENGANZA GATALANA</head>
+                  <lb/>LA VENGANZA CATALANA</head>
                <head type="subtitulo_parte" rend="negrita">
                   <lb/>ó<lb/>LA ESPEDICION DE ORIENTE.</head>
                <p rend="negrita"><lb/>BIBLIOTECA POPULAR. HISTÓRICA Y NOVELESCA</p>
-            <div type="colofon_vendedor">
+            <div type="colofon">
                <p>
-                  <lb/>Se halla de venta en Palma TIENDA DE A. BORRAS y en la casita de madera, Cuesta del Teatro<lb/>Barcelona.—lmp. de J. Jepús Petritxol, 14.—1864.</p>
+                  <lb/>Se halla de venta en Palma TIENDA DE A. BORRAS y en la casita de madera, Cuesta del Teatro<lb/>Barcelona.—Imp. de J. Jepús Petritxol, 14.—1864.</p>
             </div>
         
-               <pb n="2" source="Varios_450_2.jpg" facs="fedora_Varios_450_2/full/full/0/default.jpg"/>
+               <pb n="2" source="Varios_450_2.jpg" facs="varios/Varios_450_2.jpg"/>
               <div type="propiedad"> <p>
                   <lb/>Es propiedad.</p></div>
             </div>
@@ -2460,7 +2470,7 @@
                   <lb/>Se halla de venta en Palma TIENDA DE A.[Mario] BORRAS y en la casita de madera, Cuesta del Teatro<lb/>Barcelona.—lmp. de J. Jepús Petritxol, 14.—1864.</p>
             </div>
        
-               <pb n="3" source="Varios_450_3.jpg" facs="fedora_Varios_450_3/full/full/0/default.jpg"/>
+               <pb n="3" source="Varios_450_3.jpg" facs="varios/Varios_450_3.jpg"/>
                <div type="parte" n="1"><head type="titulo_parte" rend="negrita">
                   <lb/>LA VENGANZA CATALANA<lb/>ó<lb/>LOS CATALANES EN ORIENTE.</head>
                <head><lb/>I.</head>
@@ -2480,7 +2490,7 @@
                <lb/>blo con escesivas contribuciones y colmaba de agasajos y honores á los
                <lb/>que solo le servian por el amor al interés y la sed de botin y rapiña.</p>
               
-               <pb n="4" source="Varios_450_4.jpg" facs="fedora_Varios_450_4/full/full/0/default.jpg"/>
+               <pb n="4" source="Varios_450_4.jpg" facs="varios/Varios_450_4.jpg"/>
                <fw type="paginaNum">–4–</fw>
                <p>
                   <lb/>Varias de sus provincias asiáticas habian caido en poder del Turco :el
@@ -2521,7 +2531,7 @@
                   <lb/>el carácter de los hijos de Cataluña ; dóciles se muestran á la mano
                   <lb/>que les acaricia, pero si esta se levanta para castigar.... guay, del</p>
              
-               <pb n="5" source="Varios_450_5.jpg" facs="fedora_Varios_450_5/full/full/0/default.jpg"/>
+               <pb n="5" source="Varios_450_5.jpg" facs="varios/Varios_450_5.jpg"/>
                <p>
                   
                   <lb/>que la ha levanado! Burlóse, pues, del almogavar el genovés y no se
@@ -2555,7 +2565,7 @@
                <lb/>á comenzar una cruda guerra contra su hermano el rey Jaime de
               <lb/>Aragon.Rojer de Flor acreditó otra vez su fama de gran capitan,
                
-               <pb n="6" source="Varios_450_6.jpg" facs="fedora_Varios_450_6/full/full/0/default.jpg"/>
+               <pb n="6" source="Varios_450_6.jpg" facs="varios/Varios_450_6.jpg"/>
                <fw type="paginaNum">—6—</fw>
                <lb/>vallente soldado y entendio militar: en aquella campaña obtuvo el
                <lb/>título de Vice-almirante. Concluyóse la guerra y no estando en muy
@@ -2595,7 +2605,7 @@
                <lb/>ta ferro y á la vista de los pendones de Catalaña y Sicilia; porque
                <lb/>los catalanes impusieron al emperador Andrónico entre otras muchas
           
-               <pb n="7" source="Varios_450_7.jpg" facs="fedora_Varios_450_7/full/full/0/default.jpg"/>
+               <pb n="7" source="Varios_450_7.jpg" facs="varios/Varios_450_7.jpg"/>
                <fw type="paginaNum">—7—</fw>
                <lb/>esta condicion: Nos guiarán al combate, además de la vuestra, las
                                              <lb/>enseñas que queramos y entre ellas las de Aragon.</p><p>
@@ -2629,7 +2639,7 @@
                                                                <lb/>donde le esperaba el <hi rend="cursiva">Sebastocrator</hi> (ó segundo del imperio) Miguel,
                                                                <lb/>hijo del emperador Andrónico. Grandes agasajos se le hicieron
            
-               <pb n="8" source="Varios_450_8.jpg" facs="fedora_Varios_450_8/full/full/0/default.jpg"/>
+               <pb n="8" source="Varios_450_8.jpg" facs="varios/Varios_450_8.jpg"/>
                <fw type="paginaNum">— 3—</fw>
                <lb/>E tauuillo calalan, y para celebrar su bucna suerte y para obsequiar
                <lb/>le mas y mas, se le ofreció un soberbio banquesos cual asistió
@@ -2666,7 +2676,7 @@
                <lb/>cion, y con él cayó la columna que habia sostenido hasta entonces
                <lb/>el trono de Grecia.</p></div>
           
-               <pb n="9" source="Varios_450_9.jpg" facs="fedora_Varios_450_9/full/full/0/default.jpg"/>
+               <pb n="9" source="Varios_450_9.jpg" facs="varios/Varios_450_9.jpg"/>
                <fw type="paginaNum">–9–</fw>
             <div type="parte" n="3">
                   <div type="parte" n="4"><head><lb/>IV.</head>
@@ -2700,7 +2710,7 @@
                   <lb/>del poder y de la lealtad catalana.
                   <lb/>No hubo ya freno que pusiese á raya, entónces, á los catalanes.
                   <lb/>Como un rio al salir de madre, se estendieron por toda la Grecia y
-               <pb n="10" source="Varios_450_10.jpg" facs="fedora_Varios_450_10/full/full/0/default.jpg"/>
+               <pb n="10" source="Varios_450_10.jpg" facs="varios/Varios_450_10.jpg"/>
                <fw type="paginaNum">— 10 —</fw>
                <lb/>Fué tan cumplida y tremenda la venganza, que por muchos años,
                <lb/>un rastro de sangre señaló su paso. Vida por vida, sexo por sexo,
@@ -2734,7 +2744,7 @@
                   <lb/>alanos, es decir, los que mas habian contribuido á la muerte de Ro¬
                   <lb/>jer de Flor, se volvian á sus tierras cansados de los trabajos y fa–
             
-               <pb n="11" source="Varios_450_11.jpg" facs="fedora_Varios_450_11/full/full/0/default.jpg"/>
+               <pb n="11" source="Varios_450_11.jpg" facs="varios/Varios_450_11.jpg"/>
                <fw type="paginaNum">— 11—</fw>
                <lb/>tigas de la guerra. Parecióles á los nuestros que no era bien que en
                <lb/>paz y tranquilidad se volviesen quienes tanta sangre de sus compa¬
@@ -2776,7 +2786,7 @@
                <lb/>escapar á los que le seguian, espoleaba con la punta de su alfange
                <lb/>el caballo de la mujer, animándole al propio tiempo con voces, pero
            
-               <pb n="12" source="Varios_450_12.jpg" facs="fedora_Varios_450_12/full/full/0/default.jpg"/>
+               <pb n="12" source="Varios_450_12.jpg" facs="varios/Varios_450_12.jpg"/>
                               <fw type="paginaNum">–12–</fw>
                <lb/>no tardaron el calor y la fatiga en rendir al pobre animal que se dejó
                <lb/>caer con su preciosa carga. Era ya imposible escapar. Bien hubiera
@@ -2810,7 +2820,7 @@
                   <lb/>Algun tanto relacionado con este asunto se ha representado en
                   <lb/>Madrid un drama cuyo argumento se dice histórico y que es como
                   <lb/>sigue.
-               <pb n="13" source="Varios_450_13.jpg" facs="fedora_Varios_450_13/full/full/0/default.jpg"/>
+               <pb n="13" source="Varios_450_13.jpg" facs="varios/Varios_450_13.jpg"/>
                <fw type="paginaNum">— 13—</fw>
                <lb/>Gircon ó George gefe, de los alanos, tiene un hijo legítimo (<hi rend="cursiva">Alejo</hi>)
                <lb/>que á despecho suyo partió de la casa paterna y cuyo paradero hace
@@ -2850,7 +2860,7 @@
                <lb/>ha dado para detener la sangre de la herida que él ha recibido al de¬
                <lb/>fenderla. Alejo suplica á la dama que se descubra, á lo cual se niega</p>
            
-               <pb n="14" source="Varios_450_14.jpg" facs="fedora_Varios_450_14/full/full/0/default.jpg"/>
+               <pb n="14" source="Varios_450_14.jpg" facs="varios/Varios_450_14.jpg"/>
                <fw type="paginaNum">–14–</fw>
                <p>
                <lb/>esta prometiéndole no obstante que dentro de poco la vera si velo en
@@ -2891,7 +2901,7 @@
                <lb/>pagar. Oh si <hi rend="cursiva">todos fuesen como ese</hi>, dice Berenguer señalando enton¬
                <lb/>ces á <hi rend="cursiva">Alejo</hi> que hace poco ha entrado, <hi rend="cursiva">ese no erige paga, ni botin</hi>, ese
           
-               <pb n="15" source="Varios_450_15.jpg" facs="fedora_Varios_450_15/full/full/0/default.jpg"/>
+               <pb n="15" source="Varios_450_15.jpg" facs="varios/Varios_450_15.jpg"/>
                <fw type="paginaNum">– 15 –</fw>
                <lb/><hi rend="cursiva">chico</hi> es un misterio! Alejo entonces se acerca, y pide á Rojer au–
                <lb/>diencia : le ruega, concedida aquella, que le libre del servicio, porqué
@@ -2925,7 +2935,7 @@
                   <lb/>Irene está enamorada de Rojer.
                         <note><lb/>Ya en el palacio de Andrinópolis, Rojer recibe vivas muestras de<lb/>descontento de nobles y soldados por el mal recibimiento que se les ha</note>
               
-               <pb n="16" source="Varios_450_16.jpg" facs="fedora_Varios_450_16/full/full/0/default.jpg"/>
+               <pb n="16" source="Varios_450_16.jpg" facs="varios/Varios_450_16.jpg"/>
                <fw type="paginaNum">— 16 —</fw>
                <lb/>hecho, obligando á permanecer á los últimos en las afueras de la ciu-
                <lb/>dad y por estaradendándoseles muchas pagas atrasadas. Rojer promete
@@ -2947,7 +2957,7 @@
                <p>
                   <lb/>Rojer y Circon que se encuentran en palacio y en presencia del semi-<lb/>emperador y de María se traban de palabras y Circon promete á Rojer<lb/>no olvidar el muy justo y profundo odio que le guarda. En esto Rou-<lb/>dor que ha averiguado quien era el catalan que habia salvado la vida<lb/>á Maria y sabe que es Alejo, llega en aquel momento y lo presenta á<lb/>Rojer de Flor el cual le ofrece no olvidar jamás su accion, y como<lb/>desee esplicar á su esposa el origen del odio que el gefe de los alanos<lb/>le tiene, dice á Alejo que vigile á fin de que nadie les interrumpa.<lb/>Cuenta entonces como el amó á una hija de Circon, siendo mancebo,<lb/>y como se casó con ella despues de haberla robado de la casa paterna.<lb/>Teniendo despues que abandonarla, descubrió al hallarse solo la in¬<lb/>feliz Margarita que el ermitaño que les habia unido ante Dios era un<lb/>criminal que con aquel disfraz evitaba la justicia humana. Creyén¬<lb/>dose burlada por el que de buena fé se habia hecho su esposo, se<lb/>presentó, abatida por el dolor, á su padre, pero este la echó de la<lb/>tribu, y ella fuera de si se arrojó al mar en donde murió ahogada.<lb/>Dice, que él no la olvidaba y que al regresar de la guerra donde le<lb/>llamó su destino corrió en busca de su amante y la encontró muerta.<lb/>Alejo que todo lo ha oido acude y se echa en brazos del César di¬<lb/>ciendo que el era el hermano de Margarita; y que habia andado seis</p>
            
-               <pb n="17" source="Varios_450_17.jpg" facs="fedora_Varios_450_17/full/full/0/default.jpg"/>
+               <pb n="17" source="Varios_450_17.jpg" facs="varios/Varios_450_17.jpg"/>
                <fw type="paginaNum">–17–</fw>
                <p>
                   <lb/>años errante por el mundo en busca del que creia puriador de su<lb/>hermana. Llega Circon y anuncia á Rojer que el campo catalan se<lb/>ha sublevado y dice aparte á su hijo que se prepare para la vengan¬<lb/>za, á lo que contesta Alejo diciendo que contra el matador de su<lb/>hermana no tiene fuerza su brazo.</p>
@@ -2970,7 +2980,7 @@
                <lb/>fué su esposo: le dice además que desconfie de todos y aun hasta, si
                <lb/>bien con gran rodeos, le hace sospechar de María. Pero la sola pre-
           
-               <pb n="18" source="Varios_450_18.jpg" facs="fedora_Varios_450_18/full/full/0/default.jpg"/>
+               <pb n="18" source="Varios_450_18.jpg" facs="varios/Varios_450_18.jpg"/>
                <fw type="paginaNum">— 18 —</fw>
                      <lb/>sencia de la princesa que lega en aquel momento basta á desvanecer
                      <lb/>el recelo del César. María le asegura que puede fiarse de Miguel que
@@ -3003,7 +3013,7 @@
                      <lb/>Anuncia el rencor de España!</p>
                      <p><lb/>Arden en na los catdianos y aragoncsco y capitancados por Be¬
                      <lb/>renguer de Roudor cercan el campamento alano. Se empeña la bata.
-               <pb n="19" source="Varios_450_19.jpg" facs="fedora_Varios_450_19/full/full/0/default.jpg"/>
+               <pb n="19" source="Varios_450_19.jpg" facs="varios/Varios_450_19.jpg"/>
                <fw type="paginaNum">— 19 —</fw>
                <lb/>lla y Circon muere á manos de Berenguer que ántes le habia retado
                   <lb/>á singular combate. Alejo desde la muralla presencia la lucha sin
@@ -3031,7 +3041,7 @@
              
                <trailer>FIN.</trailer>
           
-               <pb n="20" source="Varios_450_20.jpg" facs="fedora_Varios_450_20/full/full/0/default.jpg"/>
+               <pb n="20" source="Varios_450_20.jpg" facs="varios/Varios_450_20.jpg"/>
             </div>
          </div>
       </body>

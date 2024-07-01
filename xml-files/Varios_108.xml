@@ -4,10 +4,19 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>COPLAS NUEVAS GLOSADAS EN DECIMAS, PARA CANTAR LOS AFICIONADOS</title>
-        <respStmt>
-          <name/>
+        <title>Coplas nuevas glosadas en decimas, para cantar los aficionados</title>
+        <respStmt xml:id="PJ">
+          <name>Pauline Jacsont</name>
+          <resp>Segmentación y transcripción</resp>
           <resp>Codificación TEI</resp>
+        </respStmt>
+        <respStmt xml:id="MB">
+          <name>Miguel Betti</name>
+          <resp>Corrección de la transcripción</resp>
+        </respStmt>
+        <respStmt xml:id="EL">
+          <name>Elina Leblanc</name>
+          <resp>Verificación de la codificación y carga en el sitio web</resp>
         </respStmt>
       </titleStmt>
       <publicationStmt>
@@ -19,8 +28,7 @@
       <sourceDesc>
         <biblFull>
           <titleStmt>
-            <title type="titulo_completo">COPLAS NUEVAS GLOSADAS EN DECIMAS, PARA CANTAR LOS
-              AFICIONADOS.</title>
+            <title type="titulo_completo">Coplas nuevas glosadas en decimas, para cantar los aficionados.</title>
             <title type="titulo_breve"/>
           </titleStmt>
           <editionStmt>
@@ -67,12 +75,12 @@
               </layoutDesc>
             </objectDesc>
             <decoDesc>
-              <summary n="3">Tres grabados (p.1) </summary>
+              <summary n="3">Tres grabados (p.1)</summary>
               <decoNote type="lista_grabados">
                 <list>
-                  <item corresp="grabado_v_108_1.xml">grabado_v_108_1</item>
-                  <item corresp="grabado_v_108_2.xml">grabado_v_108_2</item>
-                  <item corresp="grabado_v_108_3.xml">grabado_v_108_3</item>
+                  <item corresp="grabado_v_108_1.xml" facs="varios/Varios_108_1.jpg/886,364,425,748/100,/0/default.jpg">grabado_v_108_1</item>
+                  <item corresp="grabado_v_108_2.xml" facs="varios/Varios_108_1.jpg/394,364,427,730/100,/0/default.jpg">grabado_v_108_2</item>
+                  <item corresp="grabado_v_108_3.xml" facs="varios/Varios_108_1.jpg/1343,364,406,771/100,/0/default.jpg">grabado_v_108_3</item>
                 </list>
               </decoNote>
             </decoDesc>
@@ -97,7 +105,7 @@
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR no corregido</p>
+          <p>OCR corregido</p>
         </correction>
         <normalization>
           <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
@@ -1447,9 +1455,9 @@
     <body>
       <div>
         <div>
-          <pb n="1" source="Varios_108_1.jpg" facs="varios/Varios_108_1.jpg/"/>
+          <pb n="1" source="Varios_108_1.jpg" facs="varios/Varios_108_1.jpg"/>
 
-          <head type="primer_titulo"><lb/>COPLAS NUEVAS<lb/>GLOSADAS EN DECIMAS,<lb/>PARA CANTAR LOS
+          <head type="primer_titulo"><lb/>COPLAS NUEVAS<lb/><hi rend="negrita">GLOSADAS EN DECIMAS,</hi><lb/>PARA CANTAR LOS
             AFICIONADOS.</head>
 
           <lg rend="cursiva">
@@ -1511,7 +1519,7 @@
             <l rend="cursiva">Mi propio aborrecimiento.</l>
           </lg>
 
-          <pb n="2" source="Varios_108_2.jpg" facs="varios/Varios_108_2.jpg/"/>
+          <pb n="2" source="Varios_108_2.jpg" facs="varios/Varios_108_2.jpg"/>
 
           <lg rend="cursiva">
             <l rend="indent">Tú me robastes el alma,</l>
@@ -1631,7 +1639,7 @@
             <l rend="cursiva">Que sin reparar lo admita.</l>
           </lg>
 
-          <pb n="3" source="Varios_108_3.jpg" facs="varios/Varios_108_3.jpg/"/>
+          <pb n="3" source="Varios_108_3.jpg" facs="varios/Varios_108_3.jpg"/>
 
           <lg>
             <l rend="indent">En aquesta soledad</l>
@@ -1751,7 +1759,7 @@
             <l rend="cursiva">Después de muerta se fue.</l>
           </lg>
 
-          <pb n="4" source="Varios_108_4.jpg" facs="varios/Varios_108_4.jpg/"/>
+          <pb n="4" source="Varios_108_4.jpg" facs="varios/Varios_108_4.jpg"/>
 
           <lg rend="cursiva">
             <l rend="indent">Una vieja me lo dio.</l>

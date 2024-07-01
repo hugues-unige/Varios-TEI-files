@@ -4,10 +4,19 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>DÉCIMAS</title>
-        <respStmt>
-          <name/>
+        <title>Décimas</title>
+        <respStmt xml:id="PJ">
+          <name>Pauline Jacsont</name>
+          <resp>Segmentación y transcripción</resp>
           <resp>Codificación TEI</resp>
+        </respStmt>
+        <respStmt xml:id="MB">
+          <name>Miguel Betti</name>
+          <resp>Corrección de la transcripción</resp>
+        </respStmt>
+        <respStmt xml:id="EL">
+          <name>Elina Leblanc</name>
+          <resp>Verificación de la codificación y carga en el sitio web</resp>
         </respStmt>
       </titleStmt>
       <publicationStmt>
@@ -19,12 +28,12 @@
       <sourceDesc>
         <biblFull>
           <titleStmt>
-            <title type="titulo_completo">DÉCIMAS compuestas por un reo estando en capilla en la
+            <title type="titulo_completo">Décimas compuestas por un reo estando en capilla en la
               ciudad de Sevilla, llamado Vicente Perez, corneta de la Habana.</title>
             <title type="titulo_breve">DÉCIMAS</title>
           </titleStmt>
           <editionStmt>
-            <p/>
+            <p>Otras impresiones: <ref target="Varios_265.xml">Varios_265</ref> y <ref target="Varios_350.xml">Varios_350</ref></p>
           </editionStmt>
           <publicationStmt>
             <publisher>José María Marés</publisher>
@@ -78,11 +87,11 @@
               </layoutDesc>
             </objectDesc>
             <decoDesc>
-              <summary n="2">Dos grabados (p.1) </summary>
+              <summary n="2">Dos grabados (p.1)</summary>
               <decoNote type="lista_grabados">
                 <list>
-                  <item corresp="grabado_v_096_1.xml">grabado_v_096_1</item>
-                  <item corresp="grabado_v_096_2.xml">grabado_v_096_2</item>
+                  <item corresp="grabado_v_096_1.xml" facs="varios/Varios_096_1.jpg/289,382,1051,860/100,/0/default.jpg">grabado_v_096_1</item>
+                  <item corresp="grabado_v_096_2.xml" facs="varios/Varios_096_4.jpg/535,587,901,558/100,/0/default.jpg">grabado_v_096_2</item>
                 </list>
               </decoNote>
             </decoDesc>
@@ -92,13 +101,8 @@
             <origin>
               <p>IMPRENTA de D. JOSE MARIA MARES</p>
             </origin>
-            <provenance>
-              <p>*À COMPLETER*: nom du vendeur ( si plusieurs vendeurs le premier supposé)</p>
-            </provenance>
-            <acquisition>
-              <p>*À COMPLETER* autres propriétaires</p>
-              <stamp/>
-            </acquisition>
+            <provenance/>
+            <acquisition/>
           </history>
         </msDesc>
       </sourceDesc>
@@ -112,7 +116,7 @@
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR no corregido</p>
+          <p>OCR corregido</p>
         </correction>
         <normalization>
           <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
@@ -1072,7 +1076,7 @@
     <body>
       <div>
         <div>
-          <pb n="1" source="Varios_096_1.jpg" facs="varios/Varios_096_1.jpg/"/>
+          <pb n="1" source="Varios_096_1.jpg" facs="varios/Varios_096_1.jpg"/>
 
           <fw type="impresorNum">(Núm. 235.) </fw>
 
@@ -1138,7 +1142,7 @@
               <l rend="cursiva">en lo mejor de mi edad.</l>
             </lg>
 
-            <pb n="2" source="Varios_096_2.jpg" facs="varios/Varios_096_2.jpg/"/>
+            <pb n="2" source="Varios_096_2.jpg" facs="varios/Varios_096_2.jpg"/>
 
             <lg rend="cursiva">
               <l rend="indent">Amparar á un afligido</l>
@@ -1251,7 +1255,7 @@
           </div>
 
           <div n="2">
-            <pb n="3" source="Varios_096_3.jpg" facs="varios/Varios_096_3.jpg/"/>
+            <pb n="3" source="Varios_096_3.jpg" facs="varios/Varios_096_3.jpg"/>
 
             <head type="titulo_cancion" rend="negrita"><lb/>OTRAS DECIMAS SIN GLOSAR.</head>
 
@@ -1361,7 +1365,7 @@
           </div>
 
           <div n="3">
-            <pb n="4" source="Varios_096_4.jpg" facs="varios/Varios_096_4.jpg/"/>
+            <pb n="4" source="Varios_096_4.jpg" facs="varios/Varios_096_4.jpg"/>
 
             <head type="primer_titulo"><lb/>SUPLICIO DEL CORNETA PEREZ.</head>
 

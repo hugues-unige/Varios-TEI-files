@@ -5,9 +5,15 @@
             <fileDesc>
                   <titleStmt>
                         <title>D. Juan de Serrallonga</title>
-                        <respStmt>
-                              <name/>
+                        <respStmt xml:id="PJ">
+                              <name>Pauline Jacsont</name>
+                              <resp>Segmentación y transcripción</resp>
                               <resp>Codificación TEI</resp>
+                              <resp>Corrección de la transcripción</resp>
+                        </respStmt>
+                        <respStmt xml:id="EL">
+                              <name>Elina Leblanc</name>
+                              <resp>Verificación de la codificación y carga en el sitio web</resp>
                         </respStmt>
                   </titleStmt>
                   <publicationStmt>
@@ -25,7 +31,7 @@
                                     <title type="titulo_breve">D. Juan de Serrallonga</title>
                               </titleStmt>
                               <editionStmt>
-                                    <p/>
+                                    <p>Otras impresiones: <ref target="Varios_270.xml">Varios_270</ref> y <ref target="Varios_465.xml">Varios_465</ref></p>
                               </editionStmt>
                               <publicationStmt>
                                     <publisher>El Abanico</publisher>
@@ -72,7 +78,7 @@
                                           <summary n="1">Un grabado (p.1)</summary>
                                           <decoNote type="lista_grabados">
                                                 <list>
-                                                  <item corresp="grabado_v_012_1.xml">grabado_v_012_1</item>
+                                                      <item corresp="grabado_v_012_1.xml" facs="varios/Varios_012_1.jpg/193,232,1482,1069/100,/0/default.jpg">grabado_v_012_1</item>
                                                 </list>
                                           </decoNote>
                                     </decoDesc>
@@ -124,10 +130,11 @@
             <revisionDesc>
                   <change when="2022-04-27" who="#PJ">Création du fichier TEI P5 et encodage du
                         corps du texte</change>
-<change when="2024-01-09" who="#EL">Add the IIIF links</change>
+                  <change when="2024-01-09" who="#EL">Add the IIIF links</change>
             </revisionDesc>
       </teiHeader>
-      <facsimile><graphic url="varios/Varios_012_1.jpg/full/200,/0/default.jpg"/></facsimile><sourceDoc xml:id="automaticTranscription">
+      <facsimile><graphic url="varios/Varios_012_1.jpg/full/200,/0/default.jpg"/></facsimile>
+      <sourceDoc xml:id="automaticTranscription">
             <surface xml:id="Varios_012_1" type="page" cert="silver">
                   <graphic url="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_012_1/full/full/0/default.jpg"/>
                   <zone xml:id="Varios_012_1_BT223_1" n="1" type="CustomZone" subtype="title" points="1673,191 1682,269 1453,260 1443,191 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_012_1/,,,/full/0/default" corresp="CustomZone:title">
@@ -1347,7 +1354,7 @@
             <body>
                   <div>
                         <div>
-                              <pb n="1" source="Varios_012_1.jpg" facs="varios/Varios_012_1.jpg/"/>
+                              <pb n="1" source="Varios_012_1.jpg" facs="varios/Varios_012_1.jpg"/>
 
                               <fw type="impresorNum">Núm. 61</fw>
 
@@ -1405,7 +1412,7 @@
 
                               <lg><l>Su sangre que gota á gota,</l>
 
-                              <pb n="2" source="Varios_012_2.jpg" facs="varios/Varios_012_2.jpg/"/>
+                              <pb n="2" source="Varios_012_2.jpg" facs="varios/Varios_012_2.jpg"/>
                               
                                     <l>arde en su pecho valiente,</l>
                                     <l>si le insultan se alborota</l>
@@ -1558,7 +1565,7 @@
                                     <l>porque sea el capitán,</l>
                                     <l>de un pañado de valientes,</l>
                                     
-                                    <pb n="3" source="Varios_012_3.jpg" facs="varios/Varios_012_3.jpg/"/>
+                                    <pb n="3" source="Varios_012_3.jpg" facs="varios/Varios_012_3.jpg"/>
                                     
                                     <l>que á sus órdenes están.</l>
                               </lg>
@@ -1711,7 +1718,7 @@
                                     <l rend="cursiva">en un cuarte lo ha encerrado.</l>
                               </lg>
                               
-                              <pb n="4" source="Varios_012_4.jpg" facs="varios/Varios_012_4.jpg/"/>
+                              <pb n="4" source="Varios_012_4.jpg" facs="varios/Varios_012_4.jpg"/>
                               
                               <lg rend="cursiva">
                                     <l rend="indent">Juana y Fadrí lo libertan.</l>

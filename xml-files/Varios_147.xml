@@ -4,10 +4,19 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>JUAN EL AFORTUNADO</title>
-        <respStmt>
-          <name/>
+        <title>Juan el afortunado</title>
+        <respStmt xml:id="PJ">
+          <name>Pauline Jacsont</name>
+          <resp>Segmentación y transcripción</resp>
           <resp>Codificación TEI</resp>
+        </respStmt>
+        <respStmt xml:id="LF">
+          <name>Lorysmar Franco</name>
+          <resp>Corrección de la transcripción</resp>
+        </respStmt>
+        <respStmt xml:id="EL">
+          <name>Elina Leblanc</name>
+          <resp>Verificación de la codificación y carga en el sitio web</resp>
         </respStmt>
       </titleStmt>
       <publicationStmt>
@@ -19,13 +28,13 @@
       <sourceDesc>
         <biblFull>
           <titleStmt>
-            <title type="titulo_completo">JUAN EL AFORTUNADO. Divertido y curioso romance en formá
-              de cancion con estrivillo, para entretenmiento de los jóvenes aficionados á la broma
+            <title type="titulo_completo">Juan el afortunado. Divertido y curioso romance en formá
+              de cancion con estrivillo, para entretenimiento de los jóvenes aficionados á la broma
               y guitarra.</title>
-            <title type="titulo_breve">JUAN EL AFORTUNADO.</title>
+            <title type="titulo_breve">Juan el afortunado.</title>
           </titleStmt>
           <editionStmt>
-            <p/>
+            <p>Otra impresión: <ref target="Varios_280.xml">Varios_280</ref></p>
           </editionStmt>
           <publicationStmt>
             <publisher>Narciso Roca</publisher>
@@ -71,7 +80,7 @@
               <summary n="1">Un grabado (p.1)</summary>
               <decoNote type="lista_grabados">
                 <list>
-                  <item corresp="grabado_v_147_1.xml">grabado_v_147_1</item>
+                  <item corresp="grabado_v_147_1.xml" facs="varios/Varios_147_1.jpg/473,306,770,1164/100,/0/default.jpg">grabado_v_147_1</item>
                 </list>
               </decoNote>
             </decoDesc>
@@ -102,7 +111,7 @@
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR no corregido</p>
+          <p>OCR corregido</p>
         </correction>
         <normalization>
           <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
@@ -1309,11 +1318,11 @@
     <body>
       <div>
         <div>
-          <pb n="1" source="Varios_147_1.jpg" facs="varios/Varios_147_1.jpg/"/>
+          <pb n="1" source="Varios_147_1.jpg" facs="varios/Varios_147_1.jpg"/>
 
           <head type="primer_titulo" rend="negrita"><lb/>JUAN EL AFORTUNADO.</head>
           <head type="subtitulo" rend="cursiva"><lb/>Divertido y curioso romance en formá de
-            cancion con estrivillo, para<lb/>entretenmiento de los jóvenes aficionados á la broma
+            cancion con estrivillo, para<lb/>entretenimiento de los jóvenes aficionados á la broma
             y guitarra.</head>
 
           <l><hi rend="negrita">A</hi>tencion Señores mios</l>
@@ -1341,7 +1350,7 @@
           <l>donde concluirá</l>
           <l>mi vejez dichosa.</l>
 
-          <pb n="2" source="Varios_147_2.jpg" facs="varios/Varios_147_2.jpg/"/>
+          <pb n="2" source="Varios_147_2.jpg" facs="varios/Varios_147_2.jpg"/>
 
           <fw type="paginaNum">2</fw>
 
@@ -1438,7 +1447,7 @@
           <l>y en una grande casa</l>
           <l>luego me hospedaron;</l>
 
-          <pb n="3" source="Varios_147_3.jpg" facs="varios/Varios_147_3.jpg/"/>
+          <pb n="3" source="Varios_147_3.jpg" facs="varios/Varios_147_3.jpg"/>
 
           <fw type="paginaNum">3</fw>
 
@@ -1535,7 +1544,7 @@
           <l>sin hacer otro delito</l>
           <l>que fué hablar con mi dama.</l>
 
-          <pb n="4" source="Varios_147_4.jpg" facs="varios/Varios_147_4.jpg/"/>
+          <pb n="4" source="Varios_147_4.jpg" facs="varios/Varios_147_4.jpg"/>
 
           <fw type="paginaNum">4</fw>
 
@@ -1611,9 +1620,6 @@
         
         <div type="colofon_impresor">
           <p><lb/>REUS:<lb/>Imp. y lib. de Narciso Roca. —1868.</p>
-        </div>
-        
-        <div type="colofon_vendedor">
           <p><lb/>En casa Juan Grau hay gran surtido de romances, historias, sainetes y libros
             de<lb/>lance y se dan á precios muy cómodos.</p>
         </div>

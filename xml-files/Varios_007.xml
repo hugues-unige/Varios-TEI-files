@@ -4,15 +4,20 @@
       <teiHeader>
             <fileDesc>
                   <titleStmt>
-                        <title>FAMOSAS HAZAÑAS DE UN CONEJO Y UNA LANGOSTA RELATADAS POR ELLOS MISMOS</title>
-                        <respStmt>
-                              <name/>
+                        <title>Famosas hazañas de un conejo y una langosta relatadas por ellos mismos</title>
+                        <respStmt xml:id="PJ">
+                              <name>Pauline Jacsont</name>
+                              <resp>Segmentación y transcripción</resp>
+                              <resp>Corrección de la transcripción</resp>
                               <resp>Codificación TEI</resp>
+                        </respStmt>
+                        <respStmt xml:id="EL">
+                              <name>Elina Leblanc</name>
+                              <resp>Verificación de la codificación y carga en el sitio web</resp>
                         </respStmt>
                   </titleStmt>
                   <publicationStmt>
-                        <authority role="rightsHolder">Bibliothèque Universitaire de
-                              Genève</authority>
+                        <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
                         <availability status="restricted">
                               <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
                         </availability>
@@ -20,12 +25,11 @@
                   <sourceDesc>
                         <biblFull>
                               <titleStmt>
-                                    <title type="titulo_completo">FAMOSAS HAZAÑAS DE UN CONEJO Y UNA
-                                          LANGOSTA RELATADAS POR ELLOS MISMOS.</title>
+                                    <title type="titulo_completo">Famosas hazañas de un conejo y una langosta relatadas por ellos mismos.</title>
                                     <title type="titulo_breve"/>
                               </titleStmt>
                               <editionStmt>
-                                    <p>Otras impresiones: <ref target="Varios_240.xml">Varios_240</ref> (s.a.) y <ref target="Varios_468.xml">Varios_468</ref> (s.a.)</p>
+                                    <p>Otras impresiones: <ref target="Varios_240.xml">Varios_240</ref> y <ref target="Varios_468.xml">Varios_468</ref></p>
                               </editionStmt>
                               <publicationStmt>
                                     <publisher>El Abanico</publisher>
@@ -69,10 +73,10 @@
                                           </layoutDesc>
                                     </objectDesc>
                                     <decoDesc>
-                                          <summary n="1">Un grabado (p.1) </summary>
+                                          <summary n="1">Un grabado (p.1)</summary>
                                           <decoNote type="lista_grabados">
                                                 <list>
-                                                  <item corresp="grabado_v_007_1.xml">grabado_v_007_1</item>
+                                                      <item corresp="grabado_v_007_1.xml" facs="varios/Varios_007_1.jpg/55,206,1542,1100/100,/0/default.jpg">grabado_v_007_1</item>
                                                 </list>
                                           </decoNote>
                                     </decoDesc>
@@ -98,7 +102,7 @@
                   </projectDesc>
                   <editorialDecl corresp="#automaticTranscription">
                         <correction>
-                              <p>OCR no corregido</p>
+                              <p>OCR corregido</p>
                         </correction>
                         <normalization>
                               <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto
@@ -125,13 +129,13 @@
             <revisionDesc>
                   <change when="2022-04-12" who="#PJ">Création du fichier TEI P5 et encodage du
                         corps du texte</change>
-<change when="2024-01-09" who="#EL">Add the IIIF links</change>
                   <change when="2022-04-13" who="#PJ">Suppressions (xml:id), Correction
                         grabodos</change>
-<change when="2024-01-09" who="#EL">Add the IIIF links</change>
+                  <change when="2024-01-09" who="#EL">Add the IIIF links</change>
             </revisionDesc>
       </teiHeader>
-      <facsimile><graphic url="varios/Varios_007_1.jpg/full/200,/0/default.jpg"/></facsimile><sourceDoc xml:id="automaticTranscription">
+      <facsimile><graphic url="varios/Varios_007_1.jpg/full/200,/0/default.jpg"/></facsimile>
+      <sourceDoc xml:id="automaticTranscription">
             <surface xml:id="Varios_007_1" type="page" cert="silver">
                   <graphic url="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_007_1/full/full/0/default.jpg"/>
                   <zone xml:id="Varios_007_1_BT223_1" n="1" type="CustomZone" subtype="title" points="284,1804 80,1804 52,1673 78,1636 78,1615 224,1615 224,1595 682,1595 682,1535 224,1535 224,1350 1423,1365 1423,1515 1015,1515 1015,1600 1423,1600 1423,1605 1622,1605 1622,1769 1348,1769 1348,1855 1006,1855 1006,1916 645,1916 645,1876 284,1876 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_007_1/52,1350,1570,566/full/0/default" corresp="CustomZone:title">
@@ -1204,7 +1208,7 @@
             <body>
                   <div>
                         <div>
-                              <pb n="1" source="Varios_007_1.jpg" facs="varios/Varios_007_1.jpg/"/>
+                              <pb n="1" source="Varios_007_1.jpg" facs="varios/Varios_007_1.jpg"/>
 
                               <head type="primer_titulo">
                                     <hi rend="negrita"><lb/>FAMOSAS HAZAÑAS</hi><lb/>DE<hi rend="negrita"><lb/>UN CONEJO Y UNA LANGOSTA<lb/>RELATADAS
@@ -1238,7 +1242,7 @@
                                     <l>que á relatar voy el caso.</l>
                               </lg>
 
-                              <pb n="2" source="Varios_007_2.jpg" facs="varios/Varios_007_2.jpg/"/>
+                              <pb n="2" source="Varios_007_2.jpg" facs="varios/Varios_007_2.jpg"/>
 
                               <lg>
                                     <l rend="indent">Que era el Conejo.</l>
@@ -1395,7 +1399,7 @@
                                           <l rend="indent">Cansada ya de vivir</l>
                                           <l>entre rocas por la costa,</l>
 
-                                          <pb n="3" source="Varios_007_3.jpg" facs="varios/Varios_007_3.jpg/"/>
+                                          <pb n="3" source="Varios_007_3.jpg" facs="varios/Varios_007_3.jpg"/>
 
                                           <l>dije entre mí hora es ya</l>
                                           <l>que hablen de esta Langosta.</l>
@@ -1549,7 +1553,7 @@
                                           <l rend="indent">Corrí Andalucía</l>
                                           <l>y en una ocasión</l>
 
-                                          <pb n="4" source="Varios_007_4.jpg" facs="varios/Varios_007_4.jpg/"/>
+                                          <pb n="4" source="Varios_007_4.jpg" facs="varios/Varios_007_4.jpg"/>
 
                                           <l>destrocé á bocados</l>
                                           <l>quizás un millón.</l>

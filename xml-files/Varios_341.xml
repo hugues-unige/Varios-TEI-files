@@ -4,10 +4,19 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>LAS TRES CANCIONES</title>
-        <respStmt>
-          <name xml:id="PJ">Pauline Jacsont</name>
+        <title>Las tres canciones</title>
+        <respStmt xml:id="PJ">
+          <name>Pauline Jacsont</name>
+          <resp>Segmentación y transcripción</resp>
           <resp>Codificación TEI</resp>
+        </respStmt>
+        <respStmt xml:id="LF">
+          <name>Lorysmar Franco</name>
+          <resp>Corrección de la transcripción</resp>
+        </respStmt>
+        <respStmt xml:id="EL">
+          <name>Elina Leblanc</name>
+          <resp>Verificación de la codificación y carga en el sitio web</resp>
         </respStmt>
       </titleStmt>
       <publicationStmt>
@@ -20,11 +29,11 @@
         <biblFull>
           <titleStmt>
             <title type="titulo_completo">Las tres canciones. La Castańra de Madrid. Los Toros del
-              Puerto, y nuevo tango Americano</title>
-            <title type="titulo_breve">Las tres canciones.</title>
+              puerto, y nuevo tango Americano</title>
+            <title type="titulo_breve">Las tres canciones</title>
           </titleStmt>
           <editionStmt>
-            <p/>
+            <p>Otras impresiones: <ref target="Varios_146.xml">Varios_146</ref>, <ref target="Varios_263.xml">Varios_263</ref> y <ref target="Varios_456.xml">Varios_456</ref></p>
           </editionStmt>
           <publicationStmt>
             <publisher>Llorens</publisher>
@@ -37,8 +46,7 @@
             <country>Suisse</country>
             <settlement>Genève</settlement>
             <repository>Bibliothèque Universitaire de Genève <ref
-                target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"
-              />
+                target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"/>
             </repository>
             <collection>Colección Varios</collection>
             <idno type="cote"/>
@@ -77,12 +85,12 @@
               </layoutDesc>
             </objectDesc>
             <decoDesc>
-              <summary n="3">Tres grabados (p.1 + p.3) </summary>
+              <summary n="3">Tres grabados (p.1 + p.3)</summary>
               <decoNote type="lista_grabados">
                 <list>
-                  <item corresp="grabado_v_341_1.xml">grabado_v_341_1</item>
-                  <item corresp="grabado_v_341_2.xml">grabado_v_341_2</item>
-                  <item corresp="grabado_v_341_3.xml">grabado_v_341_3</item>
+                  <item corresp="grabado_v_341_1.xml" facs="varios/Varios_341_1.jpg/179,129,601,1047/100,/0/default.jpg">grabado_v_341_1</item>
+                  <item corresp="grabado_v_341_2.xml" facs="varios/Varios_341_1.jpg/806,326,882,832/100,/0/default.jpg">grabado_v_341_2</item>
+                  <item corresp="grabado_v_341_3.xml" facs="varios/Varios_341_3.jpg/45,105,1529,1099/100,/0/default.jpg">grabado_v_341_3</item>
                 </list>
               </decoNote>
             </decoDesc>
@@ -107,7 +115,7 @@
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR no corregido</p>
+          <p>OCR corregido</p>
         </correction>
         <normalization>
           <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
@@ -1635,7 +1643,7 @@
   <text>
     <body>
       <div>
-        <pb n="1" source="Varios_341_1.jpg" facs="varios/Varios_341_1.jpg/"/>
+        <pb n="1" source="Varios_341_1.jpg" facs="varios/Varios_341_1.jpg"/>
 
         <div n="1">
           <head type="primer_titulo" rend="negrita"><lb/>LAS TRES CANCIONES.</head>
@@ -1672,7 +1680,7 @@
             <l rend="cursiva">Calentitas yo las vendo etc.</l>
           </lg>
 
-          <pb n="2" source="Varios_341_2.jpg" facs="varios/Varios_341_2.jpg/"/>
+          <pb n="2" source="Varios_341_2.jpg" facs="varios/Varios_341_2.jpg"/>
 
           <lg>
             <l rend="indent">Soy la mapa de las castañeras</l>
@@ -1771,7 +1779,7 @@
           <trailer>FIN.</trailer>
         </div>
 
-        <pb n="3" source="Varios_341_3.jpg" facs="varios/Varios_341_3.jpg/"/>
+        <pb n="3" source="Varios_341_3.jpg" facs="varios/Varios_341_3.jpg"/>
 
         <div n="3">
           <head type="titulo_parte"><lb/>EL NUEVO TANGO AMERICANO.</head>
@@ -1802,7 +1810,7 @@
             <l>Al guarapo bueno y duce guaná!</l>
             <l>Que mame mamey mamita</l>
           
-          <pb n="4" source="Varios_341_4.jpg" facs="varios/Varios_341_4.jpg/"/>
+          <pb n="4" source="Varios_341_4.jpg" facs="varios/Varios_341_4.jpg"/>
           
             <l>Guarapo chupe que duce etá</l>
             <l>Que si chupa la tetilla</l>

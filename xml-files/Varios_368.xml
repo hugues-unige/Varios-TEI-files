@@ -4,10 +4,19 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>CARTA AMOROSA</title>
+        <title>Carta amorosa</title>
         <respStmt>
           <name xml:id="PJ">Pauline Jacsont</name>
+          <resp>Segmentación y transcripción</resp>
           <resp>Codificación TEI</resp>
+        </respStmt>
+        <respStmt xml:id="LF">
+          <name>Lorysmar Franco</name>
+          <resp>Corrección de la transcripción</resp>
+        </respStmt>
+        <respStmt xml:id="EL">
+          <name>Elina Leblanc</name>
+          <resp>Verificación de la codificación y carga en el sitio web</resp>
         </respStmt>
       </titleStmt>
       <publicationStmt>
@@ -21,10 +30,10 @@
           <titleStmt>
             <title type="titulo_completo">Carta amorosa, que escribió el Memorialista á una joven,
               para remitir á su querido amante</title>
-            <title type="titulo_breve">CARTA AMOROSA</title>
+            <title type="titulo_breve">Carta amorosa</title>
           </titleStmt>
           <editionStmt>
-            <p/>
+            <p>Otras impresiones: <ref target="Varios_097.xml">Varios_097</ref>, <ref target="Varios_256.xml">Varios_256</ref> y <ref target="Varios_334.xml">Varios_334</ref></p>
           </editionStmt>
           <publicationStmt>
             <publisher>Cristina Segura</publisher>
@@ -37,8 +46,7 @@
             <country>Suisse</country>
             <settlement>Genève</settlement>
             <repository>Bibliothèque Universitaire de Genève <ref
-                target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"
-              />
+                target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"/>
             </repository>
             <collection>Colección Varios</collection>
             <idno type="cote"/>
@@ -73,16 +81,11 @@
               </layoutDesc>
             </objectDesc>
             <decoDesc>
-              <summary n="3">Dos grabados (p.1 + 3) </summary>
+              <summary n="3">Dos grabados (p.1 + 3)</summary>
               <decoNote type="lista_grabados">
                 <list>
-                  <item corresp="grabado_v_368_1.xml">grabado_v_368_1</item>
-                  <item corresp="grabado_v_368_2.xml">grabado_v_368_2</item>
-                </list>
-              </decoNote>
-              <decoNote type="lista_ornamentos">
-                <list>
-                  <item corresp="ornamento_v_368_1">ornamento_v_368_1</item>
+                  <item corresp="grabado_v_368_1.xml" facs="varios/Varios_368_1.jpg/385,324,1009,958/100,/0/default.jpg">grabado_v_368_1</item>
+                  <item corresp="grabado_v_368_2.xml" facs="varios/Varios_368_3.jpg/529,108,774,684/100,/0/default.jpg">grabado_v_368_2</item>
                 </list>
               </decoNote>
             </decoDesc>
@@ -1941,7 +1944,7 @@
   <text>
     <body>
       <div>
-        <pb n="1" source="Varios_368_1.jpg" facs="varios/Varios_368_1.jpg/"/>
+        <pb n="1" source="Varios_368_1.jpg" facs="varios/Varios_368_1.jpg"/>
         
         <div n="1">
           <head type="primer_titulo" rend="negrita">CARTA AMOROSA</head>
@@ -1979,7 +1982,7 @@
             <l>siempre aguarda para tí.</l>
           </lg>
           
-          <pb n="2" source="Varios_368_2.jpg" facs="varios/Varios_368_2.jpg/"/>
+          <pb n="2" source="Varios_368_2.jpg" facs="varios/Varios_368_2.jpg"/>
           
           <lg>
             <l rend="indent">Pues te saludo bien mío</l>
@@ -2099,12 +2102,11 @@
           <trailer>ADIOS</trailer>
         </div>
         
-        <pb n="3" source="Varios_368_3.jpg" facs="varios/Varios_368_3.jpg/"/>
+        <pb n="3" source="Varios_368_3.jpg" facs="varios/Varios_368_3.jpg"/>
         
         <div n="2">
           <head type="titulo_cancion" rend="negrita"><lb/>Contestación de su querido<lb/>HALLÁNDOSE
-            ALGO ENFERMO DE AMOR</head>
-          <head type="subtitulo_cancion"><lb/>DÉCIMAS</head>
+            ALGO ENFERMO DE AMOR <lb/>DÉCIMAS</head>
           
           <lg>
             <l rend="indent">Amor mío; mi consuelo,</l>
@@ -2150,7 +2152,7 @@
             <l>Mi pecho siempre latir</l>
             <l>y latiendo se adormía</l>
             
-            <pb n="4" source="Varios_368_4.jpg" facs="varios/Varios_368_4.jpg/"/>
+            <pb n="4" source="Varios_368_4.jpg" facs="varios/Varios_368_4.jpg"/>
             
             <l>y aquella tierna alegría</l>
             <l>que sentía, suspirando</l>

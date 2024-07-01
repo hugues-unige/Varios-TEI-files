@@ -5,10 +5,18 @@
     <fileDesc>
       <titleStmt>
         <title>Despedida que hace un quinto a la prenda querida de su corazón</title>
-        <respStmt>
-          <name/>
+        <respStmt xml:id="PJ">
+          <name>Pauline Jacsont</name>
+          <resp>Segmentación y transcripción</resp>
           <resp>Codificación TEI</resp>
-          <note type="propiedad">José Ferré.</note>
+        </respStmt>
+        <respStmt xml:id="LF">
+          <name>Lorysmar Franco</name>
+          <resp>Corrección de la transcripción</resp>
+        </respStmt>
+        <respStmt xml:id="EL">
+          <name>Elina Leblanc</name>
+          <resp>Verificación de la codificación y carga en el sitio web</resp>
         </respStmt>
       </titleStmt>
       <publicationStmt>
@@ -62,7 +70,7 @@
               <locus>4</locus>
               <title>Canciones de la jota que canta un soldado al regreso del servicio militar a la
                 querida que dejó</title>
-              <author>José Ferré</author>
+              <author role="letrista">José Ferré</author>
             </msItem>
           </msContents>
           <physDesc>
@@ -83,8 +91,8 @@
               <summary n="2">Dos grabados (p.1)</summary>
               <decoNote type="lista_grabados">
                 <list>
-                  <item corresp="grabado_v_167_1.xml">grabado_v_167_1</item>
-                  <item corresp="grabado_v_167_2.xml">grabado_v_167_2</item>
+                  <item corresp="grabado_v_167_1.xml" facs="varios/Varios_167_1.jpg/157,280,611,997/100,/0/default.jpg">grabado_v_167_1</item>
+                  <item corresp="grabado_v_167_2.xml" facs="varios/Varios_167_1.jpg/921,227,515,1041/100,/0/default.jpg">grabado_v_167_2</item>
                 </list>
               </decoNote>
             </decoDesc>
@@ -112,7 +120,7 @@
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR no corregido</p>
+          <p>OCR corregido</p>
         </correction>
         <normalization>
           <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
@@ -1122,13 +1130,11 @@
   <text>
     <body>
       <div>
-        <pb n="1" source="Varios_167_1.jpg" facs="varios/Varios_167_1.jpg/"/>
+        <pb n="1" source="Varios_167_1.jpg" facs="varios/Varios_167_1.jpg"/>
 
-        <head type="primer_titulo"><lb/>Despedida que hace un quinto<lb/>A LA PRENDA QUERIDA DE SU
-          CORAZÓN</head>
+        <head type="primer_titulo"><lb/>Despedida que hace un quinto<lb/>A LA PRENDA QUERIDA DE SU CORAZÓN</head>
         <head type="subtitulo_parte"><lb/>Seguida de una despedida a sus padres, y por
-          último:<lb/>canciones de la jota<lb/>comparando una mujer a una guitarra<lb/>DESPEDIDA A
-          LA QUERIDA</head>
+          último:<lb/>canciones de la jota<lb/>comparando una mujer a una guitarra</head>
 
         <div n="1" type="cancion">
           <head type="titulo_parte" rend="negrita"><lb/>DESPEDIDA A LA QUERIDA</head>
@@ -1157,7 +1163,7 @@
             <l>ratos hermosos pasaba.</l>
           </lg>
 
-          <pb n="2" source="Varios_167_2.jpg" facs="varios/Varios_167_2.jpg/"/>
+          <pb n="2" source="Varios_167_2.jpg" facs="varios/Varios_167_2.jpg"/>
 
           <lg>
             <l rend="indent">Dejar las noches tan bellas</l>
@@ -1263,7 +1269,7 @@
           </lg>
         </div>
 
-        <pb n="3" source="Varios_167_3.jpg" facs="varios/Varios_167_3.jpg/"/>
+        <pb n="3" source="Varios_167_3.jpg" facs="varios/Varios_167_3.jpg"/>
 
         <div n="2" type="cancion">
           <head type="titulo_parte"><lb/><hi rend="negrita">Despedida que hace un quinto</hi><lb/>A
@@ -1367,7 +1373,7 @@
           </lg>
         </div>
 
-        <pb n="4" source="Varios_167_4.jpg" facs="varios/Varios_167_4.jpg/"/>
+        <pb n="4" source="Varios_167_4.jpg" facs="varios/Varios_167_4.jpg"/>
 
         <div n="3" type="cancion">
           <head type="titulo_parte"><lb/><hi rend="negrita">CANCIONES DE LA JOTA</hi><lb/>que canta

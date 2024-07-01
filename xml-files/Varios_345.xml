@@ -4,10 +4,19 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>TROVOS NUEVOS Y DIVERTIDOS</title>
-        <respStmt>
-          <name xml:id="PJ">Pauline Jacsont</name>
+        <title>Trovos nuevos y divertidos</title>
+        <respStmt xml:id="PJ">
+          <name>Pauline Jacsont</name>
+          <resp>Segmentación y transcripción</resp>
           <resp>Codificación TEI</resp>
+        </respStmt>
+        <respStmt xml:id="LF">
+          <name>Lorysmar Franco</name>
+          <resp>Corrección de la transcripción</resp>
+        </respStmt>
+        <respStmt xml:id="EL">
+          <name>Elina Leblanc</name>
+          <resp>Verificación de la codificación y carga en el sitio web</resp>
         </respStmt>
       </titleStmt>
       <publicationStmt>
@@ -24,7 +33,7 @@
             <title type="titulo_breve">Trovos nuevos y divertidos</title>
           </titleStmt>
           <editionStmt>
-            <p/>
+            <p>Otra impresión: <ref target="Varios_367.xml">Varios_367</ref></p>
           </editionStmt>
           <publicationStmt>
             <publisher>José Tauló</publisher>
@@ -69,15 +78,10 @@
               </layoutDesc>
             </objectDesc>
             <decoDesc>
-              <summary n="1">Un grabado (p.1) </summary>
+              <summary n="1">Un grabado (p.1)</summary>
               <decoNote type="lista_grabados">
                 <list>
-                  <item corresp="grabado_v_345_1.xml">grabado_v_345_1</item>
-                </list>
-              </decoNote>
-              <decoNote type="lista_ornamentos">
-                <list>
-                  <item corresp="ornamento_v_345_1">ornamento_v_345_1</item>
+                  <item corresp="grabado_v_345_1.xml" facs="varios/Varios_345_1.jpg/460,154,818,1194/100,/0/default.jpg">grabado_v_345_1</item>
                 </list>
               </decoNote>
             </decoDesc>
@@ -104,7 +108,7 @@
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR no corregido</p>
+          <p>OCR corregido</p>
         </correction>
         <normalization>
           <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
@@ -2156,7 +2160,7 @@
   <text>
     <body>
       <div>
-        <pb n="1" source="Varios_345_1.jpg" facs="varios/Varios_345_1.jpg/"/>
+        <pb n="1" source="Varios_345_1.jpg" facs="varios/Varios_345_1.jpg"/>
         
         <div>
           <head type="primer_titulo" rend="negrita"><lb/>TROVOS NUEVOS Y DIVERTIDOS,<lb/>para cantar
@@ -2197,7 +2201,7 @@
             <l rend="cursiva">Verte en mis brazos tirana.</l>
           </lg>
           
-          <pb n="2" source="Varios_345_2.jpg" facs="varios/Varios_345_2.jpg/"/>
+          <pb n="2" source="Varios_345_2.jpg" facs="varios/Varios_345_2.jpg"/>
           
           <lg rend="cursiva">
             <l rend="indent">Enseguida que nací</l>
@@ -2292,7 +2296,7 @@
             <l rend="cursiva">O me despido de ti.</l>
           </lg>
           
-          <pb n="3" source="Varios_345_3.jpg" facs="varios/Varios_345_3.jpg/"/>
+          <pb n="3" source="Varios_345_3.jpg" facs="varios/Varios_345_3.jpg"/>
           
           <lg rend="cursiva">
             <l rend="indent">Con la flecha del amor</l>
@@ -2395,7 +2399,7 @@
             <l rend="cursiva">o el secreto á la muger.</l>
           </lg>
           
-          <pb n="4" source="Varios_345_4.jpg" facs="varios/Varios_345_4.jpg/"/>
+          <pb n="4" source="Varios_345_4.jpg" facs="varios/Varios_345_4.jpg"/>
           
           <lg rend="cursiva">
             <l rend="indent">Este mundo es una bola</l>

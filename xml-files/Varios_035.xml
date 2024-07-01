@@ -4,10 +4,16 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>EL CANTOR DE LAS HERMOSAS</title>
-        <respStmt>
-          <name/>
+        <title>El cantor de las hermosas</title>
+        <respStmt xml:id="PJ">
+          <name>Pauline Jacsont</name>
+          <resp>Segmentación y transcripción</resp>
           <resp>Codificación TEI</resp>
+          <resp>Corrección de la transcripción</resp>
+        </respStmt>
+        <respStmt xml:id="EL">
+          <name>Elina Leblanc</name>
+          <resp>Verificación de la codificación y carga en el sitio web</resp>
         </respStmt>
       </titleStmt>
       <publicationStmt>
@@ -19,12 +25,12 @@
       <sourceDesc>
         <biblFull>
           <titleStmt>
-            <title type="titulo_completo">EL CANTOR DE LAS HERMOSAS. TROVAS DE AMOR DEDICADAS AL
-              BELLO SECSO POR UNOS AFICIONADOS.</title>
-            <title type="titulo_breve">EL CANTOR DE LAS HERMOSAS.</title>
+            <title type="titulo_completo">El cantor de las hermosas. Trobas de amor dedicadas al
+              bello secso por unos aficionados.</title>
+            <title type="titulo_breve">El cantor de las hermosas.</title>
           </titleStmt>
           <editionStmt>
-            <p/>
+            <p>Otra impresión: <ref target="Varios_034.xml">Varios_034</ref></p>
           </editionStmt>
           <publicationStmt>
             <publisher>Narciso Ramírez</publisher>
@@ -86,13 +92,8 @@
               <summary n="2">Dos grabados (p.1)</summary>
               <decoNote type="lista_grabados">
                 <list>
-                  <item corresp="grabado_v_035_1.xml">grabado_v_035_1</item>
-                  <item corresp="grabado_v_035_2.xml">grabado_v_035_2</item>
-                </list>
-              </decoNote>
-              <decoNote type="lista_ornamentos">
-                <list>
-                  <item corresp="ornamento_v_035_1">ornamento_v_035_1</item>
+                  <item corresp="grabado_v_035_1.xml" facs="varios/Varios_035_1.jpg/52,580,879,1152/100,/0/default.jpg">grabado_v_035_1</item>
+                  <item corresp="grabado_v_035_2.xml" facs="varios/Varios_035_1.jpg/937,578,736,1153/100,/0/default.jpg">grabado_v_035_2</item>
                 </list>
               </decoNote>
             </decoDesc>
@@ -107,8 +108,7 @@
               <p>Imp. de Narciso Ramirez y C.ª Pasaje de Escudillers</p>
             </origin>
             <provenance>
-              <p>Se hallará de venta en casa Antonio Bosch, calle del Bou de la Plasa Nueva, n.
-                °3.</p>
+              <p>Se hallará de venta en casa Antonio Bosch, calle del Bou de la Plasa Nueva, n.°3.</p>
             </provenance>
             <acquisition>
               <stamp>PALMA.= Tienda de M. Borrás, plaza de Call n. 10</stamp>
@@ -126,7 +126,7 @@
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR no corregido</p>
+          <p>OCR corregido</p>
         </correction>
         <normalization>
           <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
@@ -153,10 +153,11 @@
     <revisionDesc>
       <change when="2022-05-12" who="#PJ">Création du fichier TEI P5 et encodage du corps du
         texte</change>
-<change when="2024-01-09" who="#EL">Add the IIIF links</change>
+      <change when="2024-01-09" who="#EL">Add the IIIF links</change>
     </revisionDesc>
   </teiHeader>
-  <facsimile><graphic url="varios/Varios_035_1.jpg/full/200,/0/default.jpg"/></facsimile><sourceDoc xml:id="automaticTranscription">
+  <facsimile><graphic url="varios/Varios_035_1.jpg/full/200,/0/default.jpg"/></facsimile>
+  <sourceDoc xml:id="automaticTranscription">
     <surface xml:id="Varios_035_1" type="page" cert="silver">
       <graphic url="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_035_1/full/full/0/default.jpg"/>
       <zone xml:id="Varios_035_1_BT221_1" n="1" type="CustomZone" subtype="impresorNum" points="1454,160 1448,273 1663,273 1663,145 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_035_1/1448,145,215,128/full/0/default" corresp="CustomZone:impresorNum">
@@ -1005,7 +1006,7 @@
     <body>
       <div>
         <div>
-          <pb n="1" source="Varios_035_1.jpg" facs="varios/Varios_035_1.jpg/"/>
+          <pb n="1" source="Varios_035_1.jpg" facs="varios/Varios_035_1.jpg"/>
 
           <fw type="impresorNum">Núm .14</fw>
 
@@ -1040,7 +1041,7 @@
               <l>Sin tí á los cielos volar.</l>
             </lg>
 
-            <pb n="2" source="Varios_035_2.jpg" facs="varios/Varios_035_2.jpg/"/>
+            <pb n="2" source="Varios_035_2.jpg" facs="varios/Varios_035_2.jpg"/>
 
             <fw type="paginaNum">54</fw>
 
@@ -1137,7 +1138,7 @@
           </div>
 
           <div n="3">
-            <pb n="3" source="Varios_035_3.jpg" facs="varios/Varios_035_3.jpg/"/>
+            <pb n="3" source="Varios_035_3.jpg" facs="varios/Varios_035_3.jpg"/>
 
             <fw type="paginaNum">55</fw>
 
@@ -1210,7 +1211,7 @@
           </div>
 
           <div n="4">
-            <pb n="4" source="Varios_035_4.jpg" facs="varios/Varios_035_4.jpg/"/>
+            <pb n="4" source="Varios_035_4.jpg" facs="varios/Varios_035_4.jpg"/>
 
             <fw type="paginaNum">56</fw>
 
@@ -1287,12 +1288,9 @@
           </div>
         </div>
         
-        <div type="colofon_vendedor">
+        <div type="colofon">
           <p rend="cursiva"><lb/>Se hallará de venta en casa Antonio Bosch, calle del Bou de la Plasa Nueva, n.
             °3.</p>
-        </div>
-        
-        <div type="colofon_impresor">
           <p><lb/>Barcelona. = Imp. de Narciso Ramirez y C.ª Pasaje de Escudillers, núm. 4.
             —1866.</p>
         </div>

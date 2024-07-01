@@ -4,10 +4,19 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>CONVERSA DE DOS INDIVIDUOS</title>
-        <respStmt>
-          <name xml:id="PJ">Pauline Jacsont</name>
+        <title>Conversa de dos individuos</title>
+        <respStmt xml:id="PJ">
+          <name>Pauline Jacsont</name>
+          <resp>Segmentación y transcripción</resp>
           <resp>Codificación TEI</resp>
+        </respStmt>
+        <respStmt xml:id="LF">
+          <name>Lorysmar Franco</name>
+          <resp>Corrección de la transcripción</resp>
+        </respStmt>
+        <respStmt xml:id="EL">
+          <name>Elina Leblanc</name>
+          <resp>Verificación de la codificación y carga en el sitio web</resp>
         </respStmt>
       </titleStmt>
       <publicationStmt>
@@ -37,8 +46,7 @@
             <country>Suisse</country>
             <settlement>Genève</settlement>
             <repository>Bibliothèque Universitaire de Genève <ref
-                target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"
-              />
+                target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"/>
             </repository>
             <collection>Colección Varios</collection>
             <idno type="cote"/>
@@ -77,8 +85,8 @@
               <summary n="2">Dos grabados (p.1) </summary>
               <decoNote type="lista_grabados">
                 <list>
-                  <item corresp="grabado_v_352_1.xml">grabado_v_352_1</item>
-                  <item corresp="grabado_v_352_2.xml">grabado_v_352_2</item>
+                  <item corresp="grabado_v_352_1.xml" facs="varios/Varios_352_1.jpg/307,251,575,1012/100,/0/default.jpg">grabado_v_352_1</item>
+                  <item corresp="grabado_v_352_2.xml" facs="varios/Varios_352_1.jpg/877,314,477,966/100,/0/default.jpg">grabado_v_352_2</item>
                 </list>
               </decoNote>
             </decoDesc>
@@ -107,7 +115,7 @@
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR no corregido</p>
+          <p>OCR corregido</p>
         </correction>
         <normalization>
           <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
@@ -2668,7 +2676,7 @@
   <text>
     <body>
       <div>
-        <pb n="1" source="Varios_352_1.jpg" facs="varios/Varios_352_1.jpg/"/>
+        <pb n="1" source="Varios_352_1.jpg" facs="varios/Varios_352_1.jpg"/>
         
         <div n="1">
           <head type="primer_titulo"><lb/>CONVERSA DE DOS INDIVIDUOS<lb/>de una aristocrasia mol
@@ -2708,7 +2716,7 @@
             <l>pero 'l que no menja re</l>
             <l>vinticuatre y sis catorsa.</l>
             
-            <pb n="2" source="Varios_352_2.jpg" facs="varios/Varios_352_2.jpg/"/>
+            <pb n="2" source="Varios_352_2.jpg" facs="varios/Varios_352_2.jpg"/>
             
             <l>Ya que ningu ans aconsola</l>
             <l>y en cap puesto ya repós</l>
@@ -2826,7 +2834,7 @@
             <l>y á que fa, am posa aprenen.</l>
           </sp>
           
-          <pb n="3" source="Varios_352_3.jpg" facs="varios/Varios_352_3.jpg/"/>
+          <pb n="3" source="Varios_352_3.jpg" facs="varios/Varios_352_3.jpg"/>
           
           <sp>
             <speaker rend="cursiva">Batista.</speaker>
@@ -2963,7 +2971,7 @@
           <p rend="cursiva"><lb/>(Es propietat de Juan Grau.)</p>
         </div>
         
-        <pb n="4" source="Varios_352_4.jpg" facs="varios/Varios_352_4.jpg/"/>
+        <pb n="4" source="Varios_352_4.jpg" facs="varios/Varios_352_4.jpg"/>
         
         <div n="2">
           <head type="titulo_cancion" rend="negrita"><lb/>AMERICANA COREADA<lb/>LA FLOR.</head>

@@ -4,10 +4,19 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>LAS TRES CANCIONES</title>
-        <respStmt>
-          <name/>
+        <title>Las tres canciones</title>
+        <respStmt xml:id="PJ">
+          <name>Pauline Jacsont</name>
+          <resp>Segmentación y transcripción</resp>
           <resp>Codificación TEI</resp>
+        </respStmt>
+        <respStmt xml:id="LF">
+          <name>Lorysmar Franco</name>
+          <resp>Corrección de la transcripción</resp>
+        </respStmt>
+        <respStmt xml:id="EL">
+          <name>Elina Leblanc</name>
+          <resp>Verificación de la codificación y carga en el sitio web</resp>
         </respStmt>
       </titleStmt>
       <publicationStmt>
@@ -19,12 +28,12 @@
       <sourceDesc>
         <biblFull>
           <titleStmt>
-            <title type="titulo_completo">LAS TRES CANCIONES LA CASTAÑERA DE MADRID LOS TOROS DEL
-              PUERTO EL NUEVO TANGO AMERICANO</title>
-            <title type="titulo_breve">LAS TRES CANCIONES</title>
+            <title type="titulo_completo">Las tres canciones La castañera de Madrid Los toros del
+              puerto y el nuevo tango americano</title>
+            <title type="titulo_breve">Las tres canciones</title>
           </titleStmt>
           <editionStmt>
-            <p/>
+            <p>Otras impresiones: <ref target="Varios_263.xml">Varios_263</ref>, <ref target="Varios_341.xml">Varios_341</ref> y <ref target="Varios_456.xml">Varios_456</ref></p>
           </editionStmt>
           <publicationStmt>
             <publisher>Llorens</publisher>
@@ -78,9 +87,9 @@
               <summary n="3">Tres grabados (p.1)</summary>
               <decoNote type="lista_grabados">
                 <list>
-                  <item corresp="grabado_v_146_1.xml">grabado_v_146_1</item>
-                  <item corresp="grabado_v_146_2.xml">grabado_v_146_2</item>
-                  <item corresp="grabado_v_146_3.xml">grabado_v_146_3</item>
+                  <item corresp="grabado_v_146_1.xml" facs="varios/Varios_146_1.jpg/131,306,564,1019/100,/0/default.jpg">grabado_v_146_1</item>
+                  <item corresp="grabado_v_146_2.xml" facs="varios/Varios_146_1.jpg/701,517,884,812/100,/0/default.jpg">grabado_v_146_2</item>
+                  <item corresp="grabado_v_146_3.xml" facs="varios/Varios_146_3.jpg/140,82,1503,1089/100,/0/default.jpg">grabado_v_146_3</item>
                 </list>
               </decoNote>
             </decoDesc>
@@ -109,7 +118,7 @@
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR no corregido</p>
+          <p>OCR corregido</p>
         </correction>
         <normalization>
           <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
@@ -880,10 +889,10 @@
   <text>
     <body>
       <div>
-        <pb n="1" source="Varios_146_1.jpg" facs="varios/Varios_146_1.jpg/"/>
+        <pb n="1" source="Varios_146_1.jpg" facs="varios/Varios_146_1.jpg"/>
         
         <head type="primer_titulo"><lb/>LAS TRES CANCIONES<hi rend="negrita"><lb/>LA CASTAÑERA DE MADRID<lb/>LOS
-            TOROS DEL PUERTO<lb/>EL NUEVO TANGO AMERICANO</hi></head>
+            TOROS DEL PUERTO<lb/>Y<lb/>EL NUEVO TANGO AMERICANO</hi></head>
         
         <div n="1">
           <lg>
@@ -920,7 +929,7 @@
             <l rend="indent">Calentitas yo las vendo, etc.</l>
           </lg>
           
-          <pb n="2" source="Varios_146_2.jpg" facs="varios/Varios_146_2.jpg/"/>
+          <pb n="2" source="Varios_146_2.jpg" facs="varios/Varios_146_2.jpg"/>
           
           <lg>
             <l rend="indent">Soy la mapa de las castañeras</l>
@@ -1040,10 +1049,10 @@
         </div>
         
         <div n="3">
-          <pb n="3" source="Varios_146_3.jpg" facs="varios/Varios_146_3.jpg/"/>
+          <pb n="3" source="Varios_146_3.jpg" facs="varios/Varios_146_3.jpg"/>
           
-          <head type="primer_titulo" rend="negrita"><lb/>EL NUEVO TANGO AMERICANO<lb/>SEGUNDA PARTE</head>
-          <head type="subtitulo"><lb/>SEGUNDA PARTE</head>
+          <head type="primer_titulo" rend="negrita"><lb/>EL NUEVO TANGO AMERICANO</head>
+          <head type="subtitulo" rend="negrita"><lb/>SEGUNDA PARTE</head>
           
           <lg>
             <l rend="indent">Pobe Fansica se va casá</l>
@@ -1071,7 +1080,7 @@
             <l>Que mame mamey mamita</l>
           </lg>
           
-          <pb n="4" source="Varios_146_4.jpg" facs="varios/Varios_146_4.jpg/"/>
+          <pb n="4" source="Varios_146_4.jpg" facs="varios/Varios_146_4.jpg"/>
           
           <lg>
             <l rend="indent">Guarapo chupe que duce etá</l>

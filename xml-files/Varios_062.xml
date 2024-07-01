@@ -4,10 +4,19 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>EL HAMBRIENTO BURLADO</title>
-        <respStmt>
-          <name/>
+        <title>El hambriento burlado</title>
+        <respStmt xml:id="PJ">
+          <name>Pauline Jacsont</name>
+          <resp>Segmentación y transcripción</resp>
           <resp>Codificación TEI</resp>
+        </respStmt>
+        <respStmt xml:id="MB">
+          <name>Miguel Betti</name>
+          <resp>Corrección de la transcripción</resp>
+        </respStmt>
+        <respStmt xml:id="EL">
+          <name>Elina Leblanc</name>
+          <resp>Verificación de la codificación y carga en el sitio web</resp>
         </respStmt>
       </titleStmt>
       <publicationStmt>
@@ -19,15 +28,15 @@
       <sourceDesc>
         <biblFull>
           <titleStmt>
-            <title type="titulo_completo">EL HAMBRIENTO BURLADO. Primera parte.</title>
-            <title type="titulo_breve">EL HAMBRIENTO BURLADO.</title>
+            <title type="titulo_completo">El hambriento burlado. Primera parte.</title>
+            <title type="titulo_breve">El hambriento burlado.</title>
           </titleStmt>
           <editionStmt>
-            <p/>
+            <p>Otra impresión: <ref target="Varios_353.xml">Varios_353</ref></p>
           </editionStmt>
           <publicationStmt>
             <publisher>[s.n.]</publisher>
-            <pubPlace ref="https://www.geonames.org/3128760/barcelona.html">Barcelona</pubPlace>
+            <pubPlace>[s.l.]</pubPlace>
             <date cert="low" when="1800-01-01">[s.a.]</date>
           </publicationStmt>
         </biblFull>
@@ -69,8 +78,8 @@
               <summary n="2">Dos grabados (p.1)</summary>
               <decoNote type="lista_grabados">
                 <list>
-                  <item corresp="grabado_v_062_1.xml">grabado_v_062_1</item>
-                  <item corresp="grabado_v_062_2.xml">grabado_v_062_2</item>
+                  <item corresp="grabado_v_062_1.xml" facs="varios/Varios_062_1.jpg/41,164,873,1144/100,/0/default.jpg">grabado_v_062_1</item>
+                  <item corresp="grabado_v_062_2.xml" facs="varios/Varios_062_1.jpg/845,390,622,960/100,/0/default.jpg">grabado_v_062_2</item>
                 </list>
               </decoNote>
             </decoDesc>
@@ -98,7 +107,7 @@
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR no corregido</p>
+          <p>OCR corregido</p>
         </correction>
         <normalization>
           <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
@@ -1920,7 +1929,7 @@
   <text>
     <body>
       <div>
-        <pb n="1" source="Varios_062_1.jpg" facs="varios/Varios_062_1.jpg/"/>
+        <pb n="1" source="Varios_062_1.jpg" facs="varios/Varios_062_1.jpg"/>
         <div>
           <head type="primer_titulo"><lb/>EL HAMBRIENTO BURLADO.</head>
           <head type="subtitulo"><lb/>PRIMERA PARTE.</head>
@@ -1973,7 +1982,7 @@
             <l>estas dos sillas aqui,</l>
             <l>que figuren los cañones;</l>
             
-            <pb n="2" source="Varios_062_2.jpg" facs="varios/Varios_062_2.jpg/"/>
+            <pb n="2" source="Varios_062_2.jpg" facs="varios/Varios_062_2.jpg"/>
             
             <fw type="paginaNum">2</fw>
             
@@ -2109,7 +2118,7 @@
             <l>Vamos, pichona, aquí ven;</l>
             <stage rend="cursiva">(A la botella.)</stage>
             
-            <pb n="3" source="Varios_062_3.jpg" facs="varios/Varios_062_3.jpg/"/>
+            <pb n="3" source="Varios_062_3.jpg" facs="varios/Varios_062_3.jpg"/>
             
             <fw type="paginaNum">3</fw>
             
@@ -2277,7 +2286,7 @@
             <l>¡por Satanás! pesi á mí,</l>
             <l>que sin mas le descuartizo.</l>
             
-            <pb n="4" source="Varios_062_4.jpg" facs="varios/Varios_062_4.jpg/"/>
+            <pb n="4" source="Varios_062_4.jpg" facs="varios/Varios_062_4.jpg"/>
             
             <fw type="paginaNum">4</fw>
             

@@ -4,10 +4,19 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>CANCIONES DE LA VUELTA AL MUNDO</title>
-        <respStmt>
-          <name/>
+        <title>Canciones de la vuelta al mundo</title>
+        <respStmt xml:id="PJ">
+          <name>Pauline Jacsont</name>
+          <resp>Segmentación y transcripción</resp>
           <resp>Codificación TEI</resp>
+        </respStmt>
+        <respStmt xml:id="MB">
+          <name>Miguel Betti</name>
+          <resp>Corrección de la transcripción</resp>
+        </respStmt>
+        <respStmt xml:id="EL">
+          <name>Elina Leblanc</name>
+          <resp>Verificación de la codificación y carga en el sitio web</resp>
         </respStmt>
       </titleStmt>
       <publicationStmt>
@@ -19,11 +28,11 @@
       <sourceDesc>
         <biblFull>
           <titleStmt>
-            <title type="titulo_completo">CANCIONES DE LA VUELTA AL MUNDO.</title>
+            <title type="titulo_completo">Canciones de la vuelta al mundo.</title>
             <title type="titulo_breve"/>
           </titleStmt>
           <editionStmt>
-            <p/>
+            <p>Otra impresión: <ref target="Varios_266.xml">Varios_266</ref></p>
           </editionStmt>
           <publicationStmt>
             <publisher>Sucesores de A. Bosch</publisher>
@@ -85,7 +94,7 @@
               <summary n="1">Un grabado (p.1) </summary>
               <decoNote type="lista_grabados">
                 <list>
-                  <item corresp="grabado_v_050_1.xml">grabado_v_050_1</item>
+                  <item corresp="grabado_v_050_1.xml" facs="varios/Varios_050_1.jpg/87,175,1525,1172/100,/0/default.jpg">grabado_v_050_1</item>
                 </list>
               </decoNote>
             </decoDesc>
@@ -110,7 +119,7 @@
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR no corregido</p>
+          <p>OCR corregido</p>
         </correction>
         <normalization>
           <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
@@ -136,10 +145,11 @@
     <revisionDesc>
       <change when="2022-05-15" who="#PJ">Création du fichier TEI P5 et encodage du corps du
         texte</change>
-<change when="2024-01-09" who="#EL">Add the IIIF links</change>
+      <change when="2024-01-09" who="#EL">Add the IIIF links</change>
     </revisionDesc>
   </teiHeader>
-  <facsimile><graphic url="varios/Varios_050_1.jpg/full/200,/0/default.jpg"/></facsimile><sourceDoc xml:id="automaticTranscription">
+  <facsimile><graphic url="varios/Varios_050_1.jpg/full/200,/0/default.jpg"/></facsimile>
+  <sourceDoc xml:id="automaticTranscription">
     <surface xml:id="Varios_050_1" type="page" cert="silver">
       <graphic url="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_050_1/full/full/0/default.jpg"/>
       <zone xml:id="Varios_050_1_BT223_1" n="1" type="CustomZone" subtype="title" points="1419,1384 1498,1428 1533,1540 1436,1575 997,1601 210,1575 140,1496 131,1349 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_050_1/131,1349,1402,252/full/0/default" corresp="CustomZone:title">
@@ -1611,7 +1621,7 @@
     <body>
       <div>
         <div>
-          <pb n="1" source="Varios_050_1.jpg" facs="varios/Varios_050_1.jpg/"/>
+          <pb n="1" source="Varios_050_1.jpg" facs="varios/Varios_050_1.jpg"/>
 
           <div n="1">
             <head type="primer_titulo"><lb/>CANCIONES DE LA VUELTA AL MUNDO.</head>
@@ -1658,7 +1668,7 @@
               <l>en la exposición.</l>
             </lg>
 
-            <pb n="2" source="Varios_050_2.jpg" facs="varios/Varios_050_2.jpg/"/>
+            <pb n="2" source="Varios_050_2.jpg" facs="varios/Varios_050_2.jpg"/>
 
             <fw type="paginaNum">-2-</fw>
 
@@ -1787,7 +1797,7 @@
           </div>
 
           <div n="2">
-            <pb n="3" source="Varios_050_3.jpg" facs="varios/Varios_050_3.jpg/"/>
+            <pb n="3" source="Varios_050_3.jpg" facs="varios/Varios_050_3.jpg"/>
 
             <fw type="paginaNum">-3-</fw>
 
@@ -1925,7 +1935,7 @@
               <l rend="indent">¡Oh que patria, etc.</l>
             </lg>
 
-            <pb n="4" source="Varios_050_4.jpg" facs="varios/Varios_050_4.jpg/"/>
+            <pb n="4" source="Varios_050_4.jpg" facs="varios/Varios_050_4.jpg"/>
 
             <fw type="paginaNum">-4-</fw>
 
@@ -2051,8 +2061,8 @@
         </div>
 
         <div type="colofon">
-          <p rend="cursiva"><lb/>Se halla de venta en casa los sucesores de Antonio Bosch, Bou de la
-            Plaza Nueva, 13</p>
+          <p><lb/><hi rend="cursiva">Se halla de venta en casa los sucesores de Antonio Bosch, Bou de la
+            Plaza Nueva,</hi> 13</p>
         </div>
       </div>
     </body>

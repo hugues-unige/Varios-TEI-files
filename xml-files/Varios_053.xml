@@ -5,9 +5,18 @@
     <fileDesc>
       <titleStmt>
         <title>Lo que hizo una madre para robar la herencio de su hijo</title>
-        <respStmt>
-          <name/>
+        <respStmt xml:id="PJ">
+          <name>Pauline Jacsont</name>
+          <resp>Segmentación y transcripción</resp>
           <resp>Codificación TEI</resp>
+        </respStmt>
+        <respStmt xml:id="MB">
+          <name>Miguel Betti</name>
+          <resp>Corrección de la transcripción</resp>
+        </respStmt>
+        <respStmt xml:id="EL">
+          <name>Elina Leblanc</name>
+          <resp>Verificación de la codificación y carga en el sitio web</resp>
         </respStmt>
       </titleStmt>
       <publicationStmt>
@@ -19,8 +28,7 @@
       <sourceDesc>
         <biblFull>
           <titleStmt>
-            <title type="titulo_completo">Lo que hizo una madre para robar la herencio de su
-              hijo</title>
+            <title type="titulo_completo">Lo que hizo una madre para robar la herencio de su hijo</title>
             <title type="titulo_breve"/>
           </titleStmt>
           <editionStmt>
@@ -71,11 +79,11 @@
               </layoutDesc>
             </objectDesc>
             <decoDesc>
-              <summary n="2">Dos grabados (p.1, 3)</summary>
+              <summary n="2">Dos grabados (p.1 + 3)</summary>
               <decoNote type="lista_grabados">
                 <list>
-                  <item corresp="grabado_v_053_1.xml">grabado_v_053_1</item>
-                  <item corresp="grabado_v_053_2.xml">grabado_v_053_2</item>
+                  <item corresp="grabado_v_053_1.xml" facs="varios/Varios_053_1.jpg/137,179,1278,1697/100,/0/default.jpg">grabado_v_053_1</item>
+                  <item corresp="grabado_v_053_2.xml" facs="varios/Varios_053_3.jpg/207,93,1469,1424/100,/0/default.jpg">grabado_v_053_2</item>
                 </list>
               </decoNote>
             </decoDesc>
@@ -100,7 +108,7 @@
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR no corregido</p>
+          <p>OCR corregido</p>
         </correction>
         <normalization>
           <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
@@ -116,7 +124,7 @@
       </langUsage>
       <textClass>
         <keywords xml:base="http://datos.bne.es/tema/">
-          <term target="XX4857424.html" type="tipo_texto">Relaciones de sucesos</term>
+          <term type="tipo_texto">Relaciones de sucesos</term>
           <term target="XX527614.html" type="tipo_estrofa">Romances</term>
           <term type="verso_prosa">Verso y prosa</term>
           <term type="sagrado_profano">Profano</term>
@@ -843,7 +851,7 @@
       <div>
         <div>
           <div n="1">
-            <pb n="1" source="Varios_053_1.jpg" facs="varios/Varios_053_1.jpg/"/>
+            <pb n="1" source="Varios_053_1.jpg" facs="varios/Varios_053_1.jpg"/>
             <head type="primer_titulo"><lb/><hi rend="negrita">Lo que hizo una madre
                 para</hi><lb/><hi rend="negrita">robar la herencio de su hijo</hi></head>
 
@@ -872,7 +880,7 @@
               <l>porque la gente no hablará,</l>
             </lg>
 
-            <pb n="2" source="Varios_053_2.jpg" facs="varios/Varios_053_2.jpg/"/>
+            <pb n="2" source="Varios_053_2.jpg" facs="varios/Varios_053_2.jpg"/>
 
             <lg n="3">
               <head type="titulo_estrofa">III</head>
@@ -1004,7 +1012,7 @@
           </div>
 
           <div n="2">
-            <pb n="3" source="Varios_053_3.jpg" facs="varios/Varios_053_3.jpg/"/>
+            <pb n="3" source="Varios_053_3.jpg" facs="varios/Varios_053_3.jpg"/>
 
             <head type="primer_titulo" rend="negrita"><lb/>Crímen espantoso<lb/>Una mujer apuñalada
               por su amante<lb/>en Miramar. (Montjuicht)Barcelona.</head>
@@ -1020,7 +1028,7 @@
             <p rend="indent"><lb/>Según circuló la vercíón del crimen acudieron al lugar donde yacía,<lb/>la
               infeliz mujer buen número de coriosos.</p>
 
-            <pb n="4" source="Varios_053_4.jpg" facs="varios/Varios_053_4.jpg/"/>
+            <pb n="4" source="Varios_053_4.jpg" facs="varios/Varios_053_4.jpg"/>
 
             <p rend="indent"><lb/>Varios de éstos reconocieron en la muerta a una ramera, muy popular<lb/>por el
               remoquete de «La Chata».</p>

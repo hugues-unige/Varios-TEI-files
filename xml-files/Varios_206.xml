@@ -4,9 +4,18 @@
     <fileDesc>
       <titleStmt>
         <title>Relació xistosa</title>
-        <respStmt>
-          <name/>
+        <respStmt xml:id="PJ">
+          <name>Pauline Jacsont</name>
+          <resp>Segmentación y transcripción</resp>
           <resp>Codificación TEI</resp>
+        </respStmt>
+        <respStmt xml:id="LF">
+          <name>Lorysmar Franco</name>
+          <resp>Corrección de la transcripción</resp>
+        </respStmt>
+        <respStmt xml:id="EL">
+          <name>Elina Leblanc</name>
+          <resp>Verificación de la codificación y carga en el sitio web</resp>
         </respStmt>
       </titleStmt>
       <publicationStmt>
@@ -23,7 +32,7 @@
             <title type="titulo_breve">Relació xistosa</title>
           </titleStmt>
           <editionStmt>
-            <p/>
+            <p>Otras impresiones: <ref target="Varios_242.xml">Varios_242</ref> y <ref target="Varios_460.xml">Varios_460</ref></p>
           </editionStmt>
           <publicationStmt>
             <publisher>Llorens</publisher>
@@ -36,8 +45,7 @@
             <country>Suisse</country>
             <settlement>Genève</settlement>
             <repository>Bibliothèque Universitaire de Genève <ref
-                target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"
-              />
+                target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"/>
             </repository>
             <collection>Colección Varios</collection>
             <idno type="cote"/>
@@ -71,9 +79,9 @@
               <summary n="3">Tres grabados (p.1) </summary>
               <decoNote type="lista_grabados">
                 <list>
-                  <item corresp="grabado_v_206_1.xml">grabado_v_206_1</item>
-                  <item corresp="grabado_v_206_2.xml">grabado_v_206_2</item>
-                  <item corresp="grabado_v_206_3.xml">grabado_v_206_3</item>
+                  <item corresp="grabado_v_206_1.xml" facs="varios/Varios_206_1.jpg/1135,200,494,860/100,/0/default.jpg">grabado_v_206_1</item>
+                  <item corresp="grabado_v_206_2.xml" facs="varios/Varios_206_1.jpg/61,184,537,853/100,/0/default.jpg">grabado_v_206_2</item>
+                  <item corresp="grabado_v_206_3.xml" facs="varios/Varios_206_1.jpg/579,188,556,860/100,/0/default.jpg">grabado_v_206_3</item>
                 </list>
               </decoNote>
             </decoDesc>
@@ -98,7 +106,7 @@
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR no corregido</p>
+          <p>OCR corregido</p>
         </correction>
         <normalization>
           <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
@@ -2874,7 +2882,7 @@
   <text>
     <body>
       <div>
-        <pb n="1" source="Varios_206_1.jpg" facs="varios/Varios_206_1.jpg/"/>
+        <pb n="1" source="Varios_206_1.jpg" facs="varios/Varios_206_1.jpg"/>
 
         <div>
           <head type="primer_titulo"><lb/>RELACIÓ XISTOSA</head>
@@ -2914,7 +2922,7 @@
           <l>tinch de fé una carambola</l>
           <l>que sen parli en tot Valencia.</l>
 
-          <pb n="2" source="Varios_206_2.jpg" facs="varios/Varios_206_2.jpg/"/>
+          <pb n="2" source="Varios_206_2.jpg" facs="varios/Varios_206_2.jpg"/>
 
           <l rend="indent">Vull dir que anirás bonich,</l>
           <l>ni 'ns faltarán quatre duros;</l>
@@ -3025,7 +3033,7 @@
           <l>y tot li fa portá á casa.</l>
           <l>ab dos parells de botinas.</l>
 
-          <pb n="3" source="Varios_206_3.jpg" facs="varios/Varios_206_3.jpg/"/>
+          <pb n="3" source="Varios_206_3.jpg" facs="varios/Varios_206_3.jpg"/>
 
           <l rend="indent">Se despedexen y al ximple</l>
           <l>Teresa cita li dona,</l>
@@ -3136,7 +3144,7 @@
           <l>y prenentla per la ma:</l>
           <l>Tú ets, li diu, la prenda mia.</l>
 
-          <pb n="4" source="Varios_206_4.jpg" facs="varios/Varios_206_4.jpg/"/>
+          <pb n="4" source="Varios_206_4.jpg" facs="varios/Varios_206_4.jpg"/>
 
           <l rend="indent">Li anava á dá una abrassada,</l>
           <l>quant senten ruido á fora,</l>

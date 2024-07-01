@@ -5,14 +5,19 @@
             <fileDesc>
                   <titleStmt>
                         <title>Colección de canciones</title>
-                        <respStmt>
-                              <name/>
+                        <respStmt xml:id="PJ">
+                              <name>Pauline Jacsont</name>
+                              <resp>Segmentación y transcripción</resp>
+                              <resp>Corrección de la transcripción</resp>
                               <resp>Codificación TEI</resp>
+                        </respStmt>
+                        <respStmt xml:id="EL">
+                              <name>Elina Leblanc</name>
+                              <resp>Verificación de la codificación y carga en el sitio web</resp>
                         </respStmt>
                   </titleStmt>
                   <publicationStmt>
-                        <authority role="rightsHolder">Bibliothèque Universitaire de
-                              Genève</authority>
+                        <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
                         <availability status="restricted">
                               <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
                         </availability>
@@ -27,7 +32,7 @@
                                     <p/>
                               </editionStmt>
                               <publicationStmt>
-                                    <publisher>[s.n.]</publisher>
+                                    <publisher>Sucesores de Hernando</publisher>
                                     <pubPlace ref="https://www.geonames.org/3117735/madrid.html">Madrid</pubPlace>
                                     <date cert="low" when="1800-01-01">[s.a.]</date>
                               </publicationStmt>
@@ -91,7 +96,7 @@
                                           <summary n="1">Un grabado (p.1) </summary>
                                           <decoNote type="lista_grabados">
                                                 <list>
-                                                  <item corresp="grabado_v_009_1.xml">grabado_v_009_1</item>
+                                                      <item corresp="grabado_v_009_1.xml" facs="varios/Varios_009_1.jpg/232,275,1201,1168/100,/0/default.jpg">grabado_v_009_1</item>
                                                 </list>
                                           </decoNote>
                                     </decoDesc>
@@ -118,7 +123,7 @@
                   </projectDesc>
                   <editorialDecl corresp="#automaticTranscription">
                         <correction>
-                              <p>OCR no corregido</p>
+                              <p>OCR corregido</p>
                         </correction>
                         <normalization>
                               <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto
@@ -145,13 +150,12 @@
             <revisionDesc>
                   <change when="2022-04-12" who="#PJ">Création du fichier TEI P5 et encodage du
                         corps du texte</change>
-<change when="2024-01-09" who="#EL">Add the IIIF links</change>
-                  <change when="2022-04-13" who="#PJ">Suppressions (xml:id), Correction
-                        grabodos</change>
-<change when="2024-01-09" who="#EL">Add the IIIF links</change>
+                  <change when="2022-04-13" who="#PJ">Suppressions (xml:id), Correction grabodos</change>
+                  <change when="2024-01-09" who="#EL">Add the IIIF links</change>
             </revisionDesc>
       </teiHeader>
-      <facsimile><graphic url="varios/Varios_009_1.jpg/full/200,/0/default.jpg"/></facsimile><sourceDoc xml:id="automaticTranscription">
+      <facsimile><graphic url="varios/Varios_009_1.jpg/full/200,/0/default.jpg"/></facsimile>
+      <sourceDoc xml:id="automaticTranscription">
             <surface xml:id="Varios_009_1" type="page" cert="silver">
                   <graphic url="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_009_1/full/full/0/default.jpg"/>
                   <zone xml:id="Varios_009_1_BT221_1" n="1" type="CustomZone" subtype="impresorNum" points="1147,196 1129,278 1321,280 1371,281 1359,196 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_009_1/1129,196,242,85/full/0/default" corresp="CustomZone:impresorNum">
@@ -1256,7 +1260,7 @@
             <body>
                   <div>
                         <div>
-                              <pb n="1" source="Varios_009_1.jpg" facs="varios/Varios_009_1.jpg/"/>
+                              <pb n="1" source="Varios_009_1.jpg" facs="varios/Varios_009_1.jpg"/>
 
                               <fw type="impresorNum">Núm. 73</fw>
 
@@ -1300,7 +1304,7 @@
                                           <l>con amabilidad.</l>
                                     </lg>
 
-                                    <pb n="2" source="Varios_009_2.jpg" facs="varios/Varios_009_2.jpg/"/>
+                                    <pb n="2" source="Varios_009_2.jpg" facs="varios/Varios_009_2.jpg"/>
 
                                     <lg>
                                           <l rend="indent">Sobre la verde alfombra</l>
@@ -1413,7 +1417,7 @@
 
                               <div n="3">
                                     <head type="titulo_cancion">
-                                          <lb/>EL ESTIDIANTE DE TUNA</head>
+                                          <lb/>EL ESTUDIANTE DE TUNA</head>
 
                                     <lg>
                                           <l rend="indent">Con un manteo raido</l>
@@ -1428,7 +1432,7 @@
                                           <l>peores que Barrabás :</l>
                                     </lg>
 
-                                    <pb n="3" source="Varios_009_3.jpg" facs="varios/Varios_009_3.jpg/"/>
+                                    <pb n="3" source="Varios_009_3.jpg" facs="varios/Varios_009_3.jpg"/>
 
                                     <lg>
                                           <l rend="indent">¡Viva la gresca!</l>
@@ -1554,7 +1558,7 @@
                                           <l>¡ay de mi, ay de mí!</l>
                                     </lg>
 
-                                    <pb n="4" source="Varios_009_4.jpg" facs="varios/Varios_009_4.jpg/"/>
+                                    <pb n="4" source="Varios_009_4.jpg" facs="varios/Varios_009_4.jpg"/>
 
                                     <lg>
                                           <l rend="indent">Acaba é salí, malhaya;</l>

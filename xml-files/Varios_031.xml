@@ -4,10 +4,16 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>EL CANTOR DE LAS HERMOSAS</title>
-        <respStmt>
-          <name/>
+        <title>El cantor de las hermosas</title>
+        <respStmt xml:id="PJ">
+          <name>Pauline Jacsont</name>
+          <resp>Segmentación y transcripción</resp>
           <resp>Codificación TEI</resp>
+          <resp>Corrección de la transcripción</resp>
+        </respStmt>
+        <respStmt xml:id="EL">
+          <name>Elina Leblanc</name>
+          <resp>Verificación de la codificación y carga en el sitio web</resp>
         </respStmt>
       </titleStmt>
       <publicationStmt>
@@ -19,12 +25,12 @@
       <sourceDesc>
         <biblFull>
           <titleStmt>
-            <title type="titulo_completo">EL CANTOR DE LAS HERMOSAS. TROVAS DE AMOR DEDICADAS AL
-              BELLO SECSO POR UNOS AFICIONADOS.</title>
-            <title type="titulo_breve">EL CANTOR DE LAS HERMOSAS.</title>
+            <title type="titulo_completo">El cantor de las hermosas. trovas de amor dedicadas al
+              bello secso por unos aficionados.</title>
+            <title type="titulo_breve">El cantor de las hermosas.</title>
           </titleStmt>
           <editionStmt>
-            <p/>
+            <p>Otra impresión: <ref target="Varios_305.xml">Varios_305</ref></p>
           </editionStmt>
           <publicationStmt>
             <publisher>Narciso Ramírez</publisher>
@@ -78,16 +84,11 @@
               </layoutDesc>
             </objectDesc>
             <decoDesc>
-              <summary n="2">Dos grabados (p.1, 3) </summary>
+              <summary n="2">Dos grabados (p.1 + 3)</summary>
               <decoNote type="lista_grabados">
                 <list>
-                  <item corresp="grabado_v_031_1.xml">grabado_v_031_1</item>
-                  <item corresp="grabado_v_031_1.xml">grabado_v_031_1</item>
-                </list>
-              </decoNote>
-              <decoNote type="lista_ornamentos">
-                <list>
-                  <item corresp="ornamento_v_031_1">ornamento_v_031_1</item>
+                  <item corresp="grabado_v_031_1.xml" facs="varios/Varios_031_1.jpg/0,324,816,605/100,/0/default.jpg">grabado_v_031_1</item>
+                  <item corresp="grabado_v_031_2.xml" facs="varios/Varios_031_3.jpg/264,57,400,549/100,/0/default.jpg">grabado_v_031_2</item>
                 </list>
               </decoNote>
             </decoDesc>
@@ -114,7 +115,7 @@
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR no corregido</p>
+          <p>OCR corregido</p>
         </correction>
         <normalization>
           <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
@@ -140,10 +141,11 @@
     <revisionDesc>
       <change when="2022-05-11" who="#PJ">Création du fichier TEI P5 et encodage du corps du
         texte</change>
-<change when="2024-01-09" who="#EL">Add the IIIF links</change>
+      <change when="2024-01-09" who="#EL">Add the IIIF links</change>
     </revisionDesc>
   </teiHeader>
-  <facsimile><graphic url="varios/Varios_031_1.jpg/full/200,/0/default.jpg"/></facsimile><sourceDoc xml:id="automaticTranscription">
+  <facsimile><graphic url="varios/Varios_031_1.jpg/full/200,/0/default.jpg"/></facsimile>
+  <sourceDoc xml:id="automaticTranscription">
     <surface xml:id="Varios_031_1" type="page" cert="silver">
       <graphic url="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_031_1/full/full/0/default.jpg"/>
       <zone xml:id="Varios_031_1_BT222_1" n="1" type="CustomZone" subtype="numero_pliego" points="677,111 677,150 769,150 769,111 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_031_1/677,111,92,39/full/0/default" corresp="CustomZone:numero_pliego">
@@ -804,7 +806,7 @@
     <body>
       <div>
         <div>
-          <pb n="1" source="Varios_031_1.jpg" facs="varios/Varios_031_1.jpg/"/>
+          <pb n="1" source="Varios_031_1.jpg" facs="varios/Varios_031_1.jpg"/>
 
           <fw type="numeroPliego">Núm. 23</fw>
 
@@ -828,7 +830,7 @@
               <l rend="indent">Las rosas de abril.</l>
             </lg>
 
-            <pb n="2" source="Varios_031_2.jpg" facs="varios/Varios_031_2.jpg/"/>
+            <pb n="2" source="Varios_031_2.jpg" facs="varios/Varios_031_2.jpg"/>
 
             <fw type="paginaNum">90</fw>
 
@@ -907,7 +909,7 @@
           </div>
 
           <div n="2">
-            <pb n="3" source="Varios_031_3.jpg" facs="varios/Varios_031_3.jpg/"/>
+            <pb n="3" source="Varios_031_3.jpg" facs="varios/Varios_031_3.jpg"/>
 
             <fw type="paginaNum">91</fw>
 
@@ -952,7 +954,7 @@
           </div>
 
           <div n="3">
-            <pb n="4" source="Varios_031_4.jpg" facs="varios/Varios_031_4.jpg/"/>
+            <pb n="4" source="Varios_031_4.jpg" facs="varios/Varios_031_4.jpg"/>
 
             <fw type="paginaNum">92</fw>
 
@@ -1007,16 +1009,13 @@
             </lg>
             
             <p><lb/>—J.P.—</p>
-            <p><lb/>Es propiedad.</p>
+            <p rend="negrita"><lb/>Es propiedad.</p>
           </div>
         </div>
 
-        <div type="colofon_vendedor">
+        <div type="colofon">
           <p rend="cursiva"><lb/>Se hallará en casa de Antonio Bosch, calle baja de S. Pedro núm.
             71.</p>
-        </div>
-
-        <div type="colofon_impresor">
           <p><lb/>Barcelona : Imp. de N. Ramirez , Calle de Escudillers, num. 40.</p>
         </div>
 

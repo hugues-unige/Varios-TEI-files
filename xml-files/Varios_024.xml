@@ -5,9 +5,15 @@
     <fileDesc>
       <titleStmt>
         <title>El cantor de las hermosas</title>
-        <respStmt>
-          <name/>
+        <respStmt xml:id="PJ">
+          <name>Pauline Jacsont</name>
+          <resp>Segmentación y transcripción</resp>
           <resp>Codificación TEI</resp>
+          <resp>Corrección de la transcripción</resp>
+        </respStmt>
+        <respStmt xml:id="EL">
+          <name>Elina Leblanc</name>
+          <resp>Verificación de la codificación y carga en el sitio web</resp>
         </respStmt>
       </titleStmt>
       <publicationStmt>
@@ -20,11 +26,11 @@
         <biblFull>
           <titleStmt>
             <title type="titulo_completo">El cantor de las hermosas. Trovas de amor dedicadas al
-              bello seno por unos aficionados</title>
+              bello sexo por unos aficionados</title>
             <title type="titulo_breve">El cantor de las hermosas</title>
           </titleStmt>
           <editionStmt>
-            <p/>
+            <p>Otra impresión: <ref target="Varios_037.xml">Varios_037</ref></p>
           </editionStmt>
           <publicationStmt>
             <publisher>Imprenta Peninsular</publisher>
@@ -80,7 +86,7 @@
               <summary n="1">Un grabado (p.1)</summary>
               <decoNote type="lista_grabados">
                 <list>
-                  <item corresp="grabado_v_024_1.xml">grabado_v_024_1</item>
+                  <item corresp="grabado_v_024_1.xml" facs="varios/Varios_024_1.jpg/201,543,1624,1135/100,/0/default.jpg">grabado_v_024_1</item>
                 </list>
               </decoNote>
             </decoDesc>
@@ -108,7 +114,7 @@
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR no corregido</p>
+          <p>OCR corregido</p>
         </correction>
         <normalization>
           <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
@@ -134,10 +140,11 @@
     <revisionDesc>
       <change when="2022-05-06" who="#PJ">Création du fichier TEI P5 et encodage du corps du
         texte</change>
-<change when="2024-01-09" who="#EL">Add the IIIF links</change>
+      <change when="2024-01-09" who="#EL">Add the IIIF links</change>
     </revisionDesc>
   </teiHeader>
-  <facsimile><graphic url="varios/Varios_024_1.jpg/full/200,/0/default.jpg"/></facsimile><sourceDoc xml:id="automaticTranscription">
+  <facsimile><graphic url="varios/Varios_024_1.jpg/full/200,/0/default.jpg"/></facsimile>
+  <sourceDoc xml:id="automaticTranscription">
     <surface xml:id="Varios_024_1" type="page" cert="silver">
       <graphic url="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_024_1/full/full/0/default.jpg"/>
       <zone xml:id="Varios_024_1_BT223_1" n="1" type="CustomZone" subtype="title" points="184,192 223,159 931,159 931,82 1165,82 1152,175 1746,159 1791,199 1835,293 1826,394 1720,394 1720,531 286,523 286,346 184,346 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_024_1/184,82,1651,449/full/0/default" corresp="CustomZone:title">
@@ -1000,13 +1007,13 @@
     <body>
       <div>
         <div>
-          <pb n="1" source="Varios_024_1.jpg" facs="varios/Varios_024_1.jpg/"/>
+          <pb n="1" source="Varios_024_1.jpg" facs="varios/Varios_024_1.jpg"/>
 
           <fw type="impresorNum">Núm. 12</fw>
 
           <head type="primer_titulo"><lb/>EL<lb/>CANTOR DE LAS HERMOSAS.</head>
 
-          <head type="subtitulo"><lb/>TROVAS DE AMOR<lb/>DEDICADAS AL BELLO SENO POR UNOS
+          <head type="subtitulo"><lb/>TROVAS DE AMOR<lb/>DEDICADAS AL BELLO SEXO POR UNOS
             AFICIONADOS</head>
 
           <div n="1">
@@ -1036,7 +1043,7 @@
               <l>Se introduce mas bien que un <hi rend="cursiva">puñal</hi>.</l>
             </lg>
 
-            <pb n="2" source="Varios_024_2.jpg" facs="varios/Varios_024_2.jpg/"/>
+            <pb n="2" source="Varios_024_2.jpg" facs="varios/Varios_024_2.jpg"/>
 
             <lg n="3">
               <head type="titulo_estrofa">III.</head>
@@ -1118,7 +1125,7 @@
           </div>
 
           <div n="3">
-            <pb n="3" source="Varios_024_3.jpg" facs="varios/Varios_024_3.jpg/"/>
+            <pb n="3" source="Varios_024_3.jpg" facs="varios/Varios_024_3.jpg"/>
 
             <fw type="paginaNum">47</fw>
 
@@ -1153,7 +1160,7 @@
             </lg>
 
             <lg n="2">
-              <head type="titulo_estrofa"/>
+              <head type="titulo_estrofa">II.</head>
               <lg>
                 <l rend="indent">De entonces mil veces</l>
                 <l rend="indent">El tuyo jurara</l>
@@ -1204,7 +1211,7 @@
               </lg>
             </lg>
 
-            <pb n="4" source="Varios_024_4.jpg" facs="varios/Varios_024_4.jpg/"/>
+            <pb n="4" source="Varios_024_4.jpg" facs="varios/Varios_024_4.jpg"/>
 
             <lg n="3">
               <head type="titulo_estrofa">III.</head>
@@ -1278,13 +1285,9 @@
           </div>
         </div>
 
-        <div type="colofon_vendedor">
-          <l>Se halla de venta en casa los sucesores de Antonio Bosch, calle del Ben de la Plaza
-            Nueva, núm. 13</l>
-        </div>
-
-        <div type="colofon_impresora">
-          <l>Barcelona.—IMP. Peninsular, Calle del Conde del Asalto, núm 69.</l>
+        <div type="colofon">
+          <p>Se halla de venta en casa los sucesores de Antonio Bosch, calle del Ben de la Plaza Nueva, núm. 13</p>
+          <p>Barcelona.—Imp. Peninsular, Calle del Conde del Asalto, núm 69.</p>
         </div>
       </div>
     </body>

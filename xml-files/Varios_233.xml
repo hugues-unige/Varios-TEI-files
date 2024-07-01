@@ -4,9 +4,18 @@
     <fileDesc>
       <titleStmt>
         <title>La gran-via</title>
-        <respStmt>
-          <name/>
+        <respStmt xml:id="PJ">
+          <name>Pauline Jacsont</name>
+          <resp>Segmentación y transcripción</resp>
           <resp>Codificación TEI</resp>
+        </respStmt>
+        <respStmt xml:id="LF">
+          <name>Lorysmar Franco</name>
+          <resp>Corrección de la transcripción</resp>
+        </respStmt>
+        <respStmt xml:id="EL">
+          <name>Elina Leblanc</name>
+          <resp>Verificación de la codificación y carga en el sitio web</resp>
         </respStmt>
       </titleStmt>
       <publicationStmt>
@@ -35,8 +44,7 @@
             <country>Suisse</country>
             <settlement>Genève</settlement>
             <repository>Bibliothèque Universitaire de Genève <ref
-                target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"
-              />
+                target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"/>
             </repository>
             <collection>Colección Varios</collection>
             <idno type="cote"/>
@@ -82,8 +90,8 @@
               <summary n="2">Dos grabados (p.1)</summary>
               <decoNote type="lista_grabados">
                 <list>
-                  <item corresp="grabado_v_233_1.xml">grabado_v_233_1</item>
-                  <item corresp="grabado_v_233_2.xml">grabado_v_233_2</item>
+                  <item corresp="grabado_v_233_1.xml" facs="varios/Varios_233_1.jpg/304,157,524,663/100,/0/default.jpg">grabado_v_233_1</item>
+                  <item corresp="grabado_v_233_2.xml" facs="varios/Varios_233_1.jpg/917,157,525,650/100,/0/default.jpg">grabado_v_233_2</item>
                 </list>
               </decoNote>
             </decoDesc>
@@ -108,7 +116,7 @@
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR no corregido</p>
+          <p>OCR corregido</p>
         </correction>
         <normalization>
           <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
@@ -2980,7 +2988,7 @@
     <body>
       <div>
         <div n="1">
-          <pb n="1" source="Varios_233_1.jpg" facs="varios/Varios_233_1.jpg/"/>
+          <pb n="1" source="Varios_233_1.jpg" facs="varios/Varios_233_1.jpg"/>
 
           <head type="primer_titulo" rend="negrita"><lb/>LA GRAN-VIA.</head>
           <head type="subtitulo"><lb/>AMERICANA</head>
@@ -3061,7 +3069,7 @@
             <l>y calavera el señor</l>
             <l>se arma la de Dios es Cristo</l>
 
-            <pb n="2" source="Varios_233_2.jpg" facs="varios/Varios_233_2.jpg/"/>
+            <pb n="2" source="Varios_233_2.jpg" facs="varios/Varios_233_2.jpg"/>
 
             <fw type="paginaNum">— 2 —</fw>
 
@@ -3181,7 +3189,7 @@
             <l>y la dije en la escalera</l>
             <l>cuando ya se iba á marchar:</l>
 
-            <pb n="3" source="Varios_233_3.jpg" facs="varios/Varios_233_3.jpg/"/>
+            <pb n="3" source="Varios_233_3.jpg" facs="varios/Varios_233_3.jpg"/>
 
             <fw type="paginaNum">— 3 —</fw>
 
@@ -3286,7 +3294,7 @@
           <l rend="indent">Ay que gracia tiene, etc.</l>
         </div>
 
-        <pb n="4" source="Varios_233_4.jpg" facs="varios/Varios_233_4.jpg/"/>
+        <pb n="4" source="Varios_233_4.jpg" facs="varios/Varios_233_4.jpg"/>
 
         <fw type="paginaNum">— 4 —</fw>
 

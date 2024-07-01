@@ -3,10 +3,19 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>EL CANTOR DE LOS AMORES</title>
-        <respStmt>
-          <name/>
+        <title>El cantor de los amores</title>
+        <respStmt xml:id="PJ">
+          <name>Pauline Jacsont</name>
+          <resp>Segmentación y transcripción</resp>
           <resp>Codificación TEI</resp>
+        </respStmt>
+        <respStmt xml:id="LF">
+          <name>Lorysmar Franco</name>
+          <resp>Corrección de la transcripción</resp>
+        </respStmt>
+        <respStmt xml:id="EL">
+          <name>Elina Leblanc</name>
+          <resp>Verificación de la codificación y carga en el sitio web</resp>
         </respStmt>
       </titleStmt>
       <publicationStmt>
@@ -23,7 +32,7 @@
             <title type="titulo_breve">El cantor de los amores</title>
           </titleStmt>
           <editionStmt>
-            <p/>
+            <p>Otra impresión: <ref target="Varios_459.xml">Varios_459</ref></p>
           </editionStmt>
           <publicationStmt>
             <publisher>Antonio Llorens</publisher>
@@ -36,8 +45,7 @@
             <country>Suisse</country>
             <settlement>Genève</settlement>
             <repository>Bibliothèque Universitaire de Genève <ref
-                target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"
-              />
+                target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"/>
             </repository>
             <collection>Colección Varios</collection>
             <idno type="cote"/>
@@ -73,10 +81,10 @@
               </layoutDesc>
             </objectDesc>
             <decoDesc>
-              <summary n="1">Un grabado (p.1) </summary>
+              <summary n="1">Un grabado (p.1)</summary>
               <decoNote type="lista_grabados">
                 <list>
-                  <item corresp="grabado_v_243_1.xml">grabado_v_243_1</item>
+                  <item corresp="grabado_v_243_1.xml" facs="varios/Varios_243_1.jpg/213,619,1381,1203/100,/0/default.jpg">grabado_v_243_1</item>
                 </list>
               </decoNote>
               <decoNote>
@@ -106,7 +114,7 @@
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR no corregido</p>
+          <p>OCR corregido</p>
         </correction>
         <normalization>
           <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
@@ -1408,7 +1416,7 @@
   <text>
     <body>
       <div>
-        <pb n="1" source="Varios_243_1.jpg" facs="varios/Varios_243_1.jpg/"/>
+        <pb n="1" source="Varios_243_1.jpg" facs="varios/Varios_243_1.jpg"/>
 
         <head type="primer_titulo"><lb/>EL<lb/>CANTOR DE LOS AMORES</head>
         <head type="subtitulo_parte"><lb/>COLECCION DE CANCIONES DE AMOR, DEDICADAS<lb/><hi
@@ -1418,7 +1426,7 @@
           <head type="titulo_cancion"><lb/>PENAS DE AMOR</head>
           <notatedMusic type="partitura"/>
 
-          <pb n="2" source="Varios_243_2.jpg" facs="varios/Varios_243_2.jpg/"/>
+          <pb n="2" source="Varios_243_2.jpg" facs="varios/Varios_243_2.jpg"/>
           <notatedMusic type="partitura"/>
 
           <lg>
@@ -1442,7 +1450,7 @@
             <l>Se desespera,</l>
             <l>Quiere morir.</l>
 
-            <pb n="3" source="Varios_243_3.jpg" facs="varios/Varios_243_3.jpg/"/>
+            <pb n="3" source="Varios_243_3.jpg" facs="varios/Varios_243_3.jpg"/>
 
             <l rend="indent">Sed, sensibles, niñas bellas,</l>
             <l>No le hagais ya mas sufrir.</l>
@@ -1503,8 +1511,8 @@
         </div>
 
         <div n="2">
-          <pb n="4" source="Varios_243_4.jpg" facs="varios/Varios_243_4.jpg/"/>
-          <head type="titulo_cancion"><lb/>AMORES DE ALFREDO Y ELVIRA<lb/>¡OH, QUE BELLA!</head>
+          <pb n="4" source="Varios_243_4.jpg" facs="varios/Varios_243_4.jpg"/>
+          <head type="titulo_cancion"><lb/><hi rend="negrita">AMORES DE ALFREDO Y ELVIRA</hi><lb/>¡OH, QUE BELLA!</head>
 
           <lg>
             <l rend="indent">Tal un jóven</l>
@@ -1597,7 +1605,7 @@
             <l>Se querella.</l>
           </lg>
           <p><lb/>A.C.</p>
-          <p>(Es propiedad).</p>
+          <p>(<hi rend="cursiva">Es propiedad</hi>).</p>
         </div>
         
         <div type="colofon">

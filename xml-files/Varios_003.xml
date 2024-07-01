@@ -4,10 +4,16 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-            <title>ORACIÓN á Nuestra Señora del Cármen</title>
-            <respStmt>
-               <name/>
+            <title>Oración á Nuestra Señora del Cármen</title>
+            <respStmt xml:id="PJ">
+               <name>Pauline Jacsont</name>
+               <resp>Segmentación y transcripción</resp>
+               <resp>Corrección de la transcripción</resp>
                <resp>Codificación TEI</resp>
+            </respStmt>
+            <respStmt xml:id="EL">
+               <name>Elina Leblanc</name>
+               <resp>Verificación de la codificación y carga en el sitio web</resp>
             </respStmt>
          </titleStmt>
          <publicationStmt>
@@ -19,7 +25,7 @@
          <sourceDesc>
             <biblFull>
                <titleStmt>
-                  <title type="titulo_completo">ORACIÓN á Nuestra Señora del Cármen</title>
+                  <title type="titulo_completo">Oración á Nuestra Señora del Cármen</title>
                   <title type="titulo_breve"/>
                </titleStmt>
                <editionStmt>
@@ -62,7 +68,6 @@
                            <measure unit="página" quantity="2"/>2 p.</extent>
                         <condition>Bueno</condition>
                      </supportDesc>
-
                      <layoutDesc>
                         <p>1 columna</p>
                      </layoutDesc>
@@ -71,13 +76,7 @@
                      <summary n="1">Un grabado (p.1) </summary>
                      <decoNote type="lista_grabados">
                         <list>
-                           <item corresp="grabado_v_003_1.xml">grabado_v_003_1</item>
-                        </list>
-                     </decoNote>
-                     <decoNote type="lista_ornamentos">
-                        <list>
-                           <item corresp="ornamento_v_003_1">ornamento_v_003_1</item>
-                           <item corresp="ornamento_v_003_2">ornamento_v_003_2</item>
+                           <item corresp="grabado_v_003_1.xml" facs="varios/Varios_003_1.jpg/705,211,638,901/100,/0/default.jpg">grabado_v_003_1</item>
                         </list>
                      </decoNote>
                   </decoDesc>
@@ -120,7 +119,7 @@
             <keywords xml:base="http://datos.bne.es/tema/">
                <term target="XX4885496.html" type="tipo_texto">Oraciones</term>
                <term type="tipo_estrofa">Trovos</term>
-               <term type="verso_prosa">Verso</term>
+               <term type="verso_prosa">Verso y prosa</term>
                <term type="sagrado_profano">Sagrado</term>
             </keywords>
          </textClass>
@@ -128,12 +127,12 @@
       <revisionDesc>
          <change when="2022-04-06" who="#PJ">Création du fichier TEI P5 et encodage du corps du
             texte</change>
-<change when="2024-01-09" who="#EL">Add the IIIF links</change>
          <change when="2022-04-13" who="#PJ">Suppressions (xml:id), Correction grabodos </change>
-<change when="2024-01-09" who="#EL">Add the IIIF links</change>
+         <change when="2024-01-09" who="#EL">Add the IIIF links</change>
       </revisionDesc>
    </teiHeader>
-   <facsimile><graphic url="varios/Varios_003_1.jpg/full/200,/0/default.jpg"/></facsimile><sourceDoc xml:id="automaticTranscription">
+   <facsimile><graphic url="varios/Varios_003_1.jpg/full/200,/0/default.jpg"/></facsimile>
+   <sourceDoc xml:id="automaticTranscription">
       <surface xml:id="Varios_003_1" type="page" cert="silver">
          <graphic url="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_003_1/full/full/0/default.jpg"/>
          <zone xml:id="Varios_003_1_BT223_1" n="1" type="CustomZone" subtype="title" points="653,1352 576,1352 376,1355 376,1252 618,1252 612,1162 678,1148 912,1156 1403,1165 1400,1279 1654,1279 1654,1347 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_003_1/376,1148,1278,207/full/0/default" corresp="CustomZone:title">
@@ -431,7 +430,7 @@
       <body>
          <div>
             <div>
-               <pb n="1" source="Varios_003_1.jpg" facs="varios/Varios_003_1.jpg/"/>
+               <pb n="1" source="Varios_003_1.jpg" facs="varios/Varios_003_1.jpg"/>
                
                <head type="titulo_parte">
                   <lb/>ORACIÓN<lb/>á Nuestra Señora del Cármen</head>
@@ -457,7 +456,7 @@
                   está la enferma? preguntan los dos. Se acercaron los dos á la <lb/>enferma, y le
                   dicen que ponga su esperanza en Dios. A la enfer¬ 
                   
-                  <pb n="2" source="Varios_003_2.jpg" facs="varios/Varios_003_2.jpg/"/>
+                  <pb n="2" source="Varios_003_2.jpg" facs="varios/Varios_003_2.jpg"/>
                   
                   <lb/>ma le dió una bebida, medio niño muerto de su vientre echó, y<lb/>luego
                   parió un engendro como una culebra; por lo que la enfer¬<lb/>ma'sana quedó.</p>

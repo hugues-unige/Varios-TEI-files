@@ -4,9 +4,18 @@
     <fileDesc>
       <titleStmt>
         <title>Coleccion de canciones nuevas</title>
-        <respStmt>
-          <name/>
+        <respStmt xml:id="PJ">
+          <name>Pauline Jacsont</name>
+          <resp>Segmentación y transcripción</resp>
           <resp>Codificación TEI</resp>
+        </respStmt>
+        <respStmt xml:id="LF">
+          <name>Lorysmar Franco</name>
+          <resp>Corrección de la transcripción</resp>
+        </respStmt>
+        <respStmt xml:id="EL">
+          <name>Elina Leblanc</name>
+          <resp>Verificación de la codificación y carga en el sitio web</resp>
         </respStmt>
       </titleStmt>
       <publicationStmt>
@@ -35,8 +44,7 @@
             <country>Suisse</country>
             <settlement>Genève</settlement>
             <repository>Bibliothèque Universitaire de Genève <ref
-                target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"
-              />
+                target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"/>
             </repository>
             <collection>Colección Varios</collection>
             <idno type="cote"/>
@@ -79,12 +87,12 @@
               </layoutDesc>
             </objectDesc>
             <decoDesc>
-              <summary n="4">Tres grabados (p.1 + 4) </summary>
+              <summary n="4">Tres grabados (p.1 + 4)</summary>
               <decoNote type="lista_grabados">
                 <list>
-                  <item corresp="grabado_v_204_1.xml">grabado_v_204_1</item>
-                  <item corresp="grabado_v_204_2.xml">grabado_v_204_2</item>
-                  <item corresp="grabado_v_204_3.xml">grabado_v_204_3</item>
+                  <item corresp="grabado_v_204_1.xml" facs="varios/Varios_204_1.jpg/236,148,1244,743/100,/0/default.jpg">grabado_v_204_1</item>
+                  <item corresp="grabado_v_204_2.xml" facs="varios/Varios_204_4.jpg/1036,394,391,764/100,/0/default.jpg">grabado_v_204_2</item>
+                  <item corresp="grabado_v_204_3.xml" facs="varios/Varios_204_4.jpg/640,376,394,787/100,/0/default.jpg">grabado_v_204_3</item>
                 </list>
               </decoNote>
             </decoDesc>
@@ -113,7 +121,7 @@
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR no corregido</p>
+          <p>OCR corregido</p>
         </correction>
         <normalization>
           <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
@@ -2039,7 +2047,7 @@
   <text>
     <body>
       <div>
-        <pb n="1" source="Varios_204_1.jpg" facs="varios/Varios_204_1.jpg/"/>
+        <pb n="1" source="Varios_204_1.jpg" facs="varios/Varios_204_1.jpg"/>
 
         <head type="primer_titulo" rend="negrita"><lb/>COLECCION DE CANCIONES NUEVAS.</head>
         
@@ -2092,7 +2100,7 @@
             <l>la bolsa espicha.</l>
         </div>
         
-        <pb n="2" source="Varios_204_2.jpg" facs="varios/Varios_204_2.jpg/"/>
+        <pb n="2" source="Varios_204_2.jpg" facs="varios/Varios_204_2.jpg"/>
         
         <div n="2">
           <head type="titulo_cancion"><lb/>COPLAS DIRIGIDAS AL TIO PININI,<lb/><hi rend="negrita"
@@ -2166,7 +2174,7 @@
             <l>—Lo voy á decir.</l>
           </lg>
           
-          <pb n="3" source="Varios_204_3.jpg" facs="varios/Varios_204_3.jpg/"/>
+          <pb n="3" source="Varios_204_3.jpg" facs="varios/Varios_204_3.jpg"/>
           
           <lg>
             <head type="titulo_estrofa">JARDINERA.</head>
@@ -2261,7 +2269,7 @@
           </lg>
         </div>
         
-        <pb n="4" source="Varios_204_4.jpg" facs="varios/Varios_204_4.jpg/"/>
+        <pb n="4" source="Varios_204_4.jpg" facs="varios/Varios_204_4.jpg"/>
         
         <div n="4">
           <head type="titulo_cancion" rend="negrita"><lb/>LA CARACOLERA.</head>

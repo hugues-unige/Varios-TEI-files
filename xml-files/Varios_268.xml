@@ -4,9 +4,18 @@
     <fileDesc>
       <titleStmt>
         <title>Las tres canciones nuevas</title>
-        <respStmt>
-          <name/>
+        <respStmt xml:id="PJ">
+          <name>Pauline Jacsont</name>
+          <resp>Segmentación y transcripción</resp>
           <resp>Codificación TEI</resp>
+        </respStmt>
+        <respStmt xml:id="LF">
+          <name>Lorysmar Franco</name>
+          <resp>Corrección de la transcripción</resp>
+        </respStmt>
+        <respStmt xml:id="EL">
+          <name>Elina Leblanc</name>
+          <resp>Verificación de la codificación y carga en el sitio web</resp>
         </respStmt>
       </titleStmt>
       <publicationStmt>
@@ -23,7 +32,7 @@
             <title type="titulo_breve">Las tres canciones nuevas.</title>
           </titleStmt>
           <editionStmt>
-            <p/>
+            <p>Otra impresión: <ref target="Varios_076.xml">Varios_076</ref></p>
           </editionStmt>
           <publicationStmt>
             <publisher>Hijos de Domenech</publisher>
@@ -36,8 +45,7 @@
             <country>Suisse</country>
             <settlement>Genève</settlement>
             <repository>Bibliothèque Universitaire de Genève <ref
-                target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"
-              />
+                target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"/>
             </repository>
             <collection>Colección Varios</collection>
             <idno type="cote"/>
@@ -76,16 +84,15 @@
               </layoutDesc>
             </objectDesc>
             <decoDesc>
-              <summary n="2">Dos grabados (p.1)</summary>
+              <summary n="2">Dos grabados (p.1 + 3)</summary>
               <decoNote type="lista_grabados">
                 <list>
-                  <item corresp="grabado_v_268_1.xml">grabado_v_268_1</item>
-                  <item corresp="grabado_v_268_2.xml">grabado_v_268_2</item>
+                  <item corresp="grabado_v_268_1.xml" facs="varios/Varios_268_1.jpg/342,254,945,699/100,/0/default.jpg">grabado_v_268_1</item>
+                  <item corresp="grabado_v_268_2.xml" facs="varios/Varios_268_3.jpg/297,57,1156,1131/100,/0/default.jpg">grabado_v_268_2</item>
                 </list>
               </decoNote>
             </decoDesc>
-            <additions>Se halla de venta en casa Antonio Bosch, Bou de la Plaza Nueva, n.
-              13.</additions>
+            <additions>Se halla de venta en casa Antonio Bosch, Bou de la Plaza Nueva, n. 13.</additions>
           </physDesc>
           <history>
             <origin>
@@ -108,7 +115,7 @@
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR no corregido</p>
+          <p>OCR corregido</p>
         </correction>
         <normalization>
           <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
@@ -2172,7 +2179,7 @@
   <text>
     <body>
       <div>
-        <pb n="1" source="Varios_268_1.jpg" facs="varios/Varios_268_1.jpg/"/>
+        <pb n="1" source="Varios_268_1.jpg" facs="varios/Varios_268_1.jpg"/>
 
         <head type="primer_titulo"><lb/>LAS TRES CANCIONES NUEVAS.</head>
         <head type="subtitulo"><lb/>El Contrabandista, el Prisionero triste y solo y<lb/>el nuevo
@@ -2218,7 +2225,7 @@
             <l>Soberanos proclamar...</l>
           </lg>
 
-          <pb n="2" source="Varios_268_2.jpg" facs="varios/Varios_268_2.jpg/"/>
+          <pb n="2" source="Varios_268_2.jpg" facs="varios/Varios_268_2.jpg"/>
 
           <lg>
             <head type="titulo_estrofa">III.</head>
@@ -2330,7 +2337,7 @@
           </lg>
         </div>
 
-        <pb n="3" source="Varios_268_3.jpg" facs="varios/Varios_268_3.jpg/"/>
+        <pb n="3" source="Varios_268_3.jpg" facs="varios/Varios_268_3.jpg"/>
 
         <div n="2">
           <head type="titulo_cancion" rend="negrita"><lb/>EL PRISIONERO TRISTE Y SOLO.</head>
@@ -2388,7 +2395,7 @@
             <l rend="cursiva">Coro: ¡Ay tirana suerte mia! etc.</l>
           </lg>
           
-          <pb n="4" source="Varios_268_4.jpg" facs="varios/Varios_268_4.jpg/"/>
+          <pb n="4" source="Varios_268_4.jpg" facs="varios/Varios_268_4.jpg"/>
           
           <lg>
             <head type="titulo_estrofa">VII.</head>

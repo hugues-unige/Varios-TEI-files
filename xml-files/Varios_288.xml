@@ -3,10 +3,19 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>CANCIÓN CON LOS MILAGROS QUE OBRÓ EL SANTO ANGEL DE LA GUARDA</title>
+        <title>Canción con los milagros que obró el Santo Angel de la Guarda</title>
         <respStmt>
-          <name/>
+          <name xml:id="PJ">Pauline Jacsont</name>
+          <resp>Segmentación y transcripción</resp>
           <resp>Codificación TEI</resp>
+        </respStmt>
+        <respStmt xml:id="LF">
+          <name>Lorysmar Franco</name>
+          <resp>Corrección de la transcripción</resp>
+        </respStmt>
+        <respStmt xml:id="EL">
+          <name>Elina Leblanc</name>
+          <resp>Verificación de la codificación y carga en el sitio web</resp>
         </respStmt>
       </titleStmt>
       <publicationStmt>
@@ -76,11 +85,11 @@
               </layoutDesc>
             </objectDesc>
             <decoDesc>
-              <summary n="2">Dos grabados (p.1 + 2) </summary>
+              <summary n="2">Dos grabados (p.1 + 2)</summary>
               <decoNote type="lista_grabados">
                 <list>
-                  <item corresp="grabado_v_288_1.xml">grabado_v_288_1</item>
-                  <item corresp="grabado_v_288_2.xml">grabado_v_288_2</item>
+                  <item corresp="grabado_v_288_1.xml" facs="varios/Varios_288_1.jpg/552,175,682,874/100,/0/default.jpg">grabado_v_288_1</item>
+                  <item corresp="grabado_v_288_2.xml" facs="varios/Varios_288_2.jpg/611,1066,453,536/100,/0/default.jpg">grabado_v_288_2</item>
                 </list>
               </decoNote>
             </decoDesc>
@@ -105,7 +114,7 @@
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR no corregido</p>
+          <p>OCR corregido</p>
         </correction>
         <normalization>
           <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
@@ -2480,7 +2489,7 @@
   <text>
     <body>
       <div>
-        <pb n="1" source="Varios_288_1.jpg" facs="varios/Varios_288_1.jpg/"/>
+        <pb n="1" source="Varios_288_1.jpg" facs="varios/Varios_288_1.jpg"/>
 
         <div n="1">
           <head type="primer_titulo" rend="negrita"><lb/>CANCIÓN CON LOS MILAGROS QUE OBRO <lb/>EL
@@ -2547,7 +2556,7 @@
             <l rend="indent">Un anciano venía del monte</l>
             <l>con un fajo de leña sin poder andar</l>
 
-            <pb n="2" source="Varios_288_2.jpg" facs="varios/Varios_288_2.jpg/"/>
+            <pb n="2" source="Varios_288_2.jpg" facs="varios/Varios_288_2.jpg"/>
 
             <l>suspirando decía el pobre hombre</l>
             <l>Angel de mi Guarda</l>
@@ -2628,7 +2637,7 @@
             <l>le dicen al reo:</l>
             <l>usted ha de morir</l>
 
-            <pb n="3" source="Varios_288_3.jpg" facs="varios/Varios_288_3.jpg/"/>
+            <pb n="3" source="Varios_288_3.jpg" facs="varios/Varios_288_3.jpg"/>
 
             <l>pueso en una tafrenta</l>
             <l>por su mal vivir.</l>
@@ -2746,7 +2755,7 @@
           <trailer>AMÉN</trailer>
         </div>
 
-        <pb n="4" source="Varios_288_4.jpg" facs="varios/Varios_288_4.jpg/"/>
+        <pb n="4" source="Varios_288_4.jpg" facs="varios/Varios_288_4.jpg"/>
 
         <div n="3">
           <head type="subtitulo"><lb/>ORACIÓN Y MILAGROS <lb/>De la Virgen de las Nieves</head>
@@ -2839,6 +2848,7 @@
             <l>y vivamos todos</l>
             <l>en gracia de Dios.</l>
           </lg>
+          <trailer>AMÉN</trailer>
         </div>
         
         <div type="colofon">

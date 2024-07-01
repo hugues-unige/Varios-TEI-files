@@ -3,10 +3,19 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>ROSAURA LA DE TRUJILLO</title>
-        <respStmt>
-          <name xml:id="PJ">Pauline Jacsont</name>
+        <title>Rosaura la de Trujillo</title>
+        <respStmt xml:id="PJ">
+          <name>Pauline Jacsont</name>
+          <resp>Segmentación y transcripción</resp>
           <resp>Codificación TEI</resp>
+        </respStmt>
+        <respStmt xml:id="LF">
+          <name>Lorysmar Franco</name>
+          <resp>Corrección de la transcripción</resp>
+        </respStmt>
+        <respStmt xml:id="EL">
+          <name>Elina Leblanc</name>
+          <resp>Verificación de la codificación y carga en el sitio web</resp>
         </respStmt>
       </titleStmt>
       <publicationStmt>
@@ -69,11 +78,11 @@
               </layoutDesc>
             </objectDesc>
             <decoDesc>
-              <summary n="2">Dos grabados (p.1) </summary>
+              <summary n="2">Dos grabados (p.1)</summary>
               <decoNote type="lista_grabados">
                 <list>
-                  <item corresp="grabado_v_311_1.xml">grabado_v_311_1</item>
-                  <item corresp="grabado_v_311_2.xml">grabado_v_311_2</item>
+                  <item corresp="grabado_v_311_1.xml" facs="varios/Varios_311_1.jpg/182,300,648,991/100,/0/default.jpg">grabado_v_311_1</item>
+                  <item corresp="grabado_v_311_2.xml" facs="varios/Varios_311_1.jpg/815,309,618,952/100,/0/default.jpg">grabado_v_311_2</item>
                 </list>
               </decoNote>
             </decoDesc>
@@ -100,7 +109,7 @@
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR no corregido</p>
+          <p>OCR corregido</p>
         </correction>
         <normalization>
           <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
@@ -2590,7 +2599,7 @@
   <text>
     <body>
       <div>
-        <pb n="1" source="Varios_311_1.jpg" facs="varios/Varios_311_1.jpg/"/>
+        <pb n="1" source="Varios_311_1.jpg" facs="varios/Varios_311_1.jpg"/>
 
         <fw type="impresorNum">(Núm. 25.)</fw>
 
@@ -2633,7 +2642,7 @@
           <l>y percibí que decia</l>
           <l>estas sentidas palabras</l>
 
-          <pb n="2" source="Varios_311_2.jpg" facs="varios/Varios_311_2.jpg/"/>
+          <pb n="2" source="Varios_311_2.jpg" facs="varios/Varios_311_2.jpg"/>
 
           <l>«Tirano amor, pues tú has sido</l>
           <l>la causa de mi desgracia,</l>
@@ -2726,7 +2735,7 @@
           <l>como ahí presente veis,</l>
           <l>que ellas mismas lo declaran.</l>
 
-          <pb n="3" source="Varios_311_3.jpg" facs="varios/Varios_311_3.jpg/"/>
+          <pb n="3" source="Varios_311_3.jpg" facs="varios/Varios_311_3.jpg"/>
 
           <l>Cinco dias caminamos</l>
           <l>marchando á largas jornadas,</l>
@@ -2819,7 +2828,7 @@
           <l>pues fuí la mujer mas frágil</l>
           <l>que se ha visto en toda España.</l>
 
-          <pb n="4" source="Varios_311_4.jpg" facs="varios/Varios_311_4.jpg/"/>
+          <pb n="4" source="Varios_311_4.jpg" facs="varios/Varios_311_4.jpg"/>
 
           <l>Por ñarme del amor</l>
           <l>perdido mi honor se halla:</l>

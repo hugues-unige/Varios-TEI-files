@@ -3,10 +3,19 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>COLECCION DE CANCIONES.</title>
-        <respStmt>
-          <name/>
+        <title>Coleccion de canciones</title>
+        <respStmt xml:id="PJ">
+          <name>Pauline Jacsont</name>
+          <resp>Segmentación y transcripción</resp>
           <resp>Codificación TEI</resp>
+        </respStmt>
+        <respStmt xml:id="LF">
+          <name>Lorysmar Franco</name>
+          <resp>Corrección de la transcripción</resp>
+        </respStmt>
+        <respStmt xml:id="EL">
+          <name>Elina Leblanc</name>
+          <resp>Verificación de la codificación y carga en el sitio web</resp>
         </respStmt>
       </titleStmt>
       <publicationStmt>
@@ -18,7 +27,7 @@
       <sourceDesc>
         <biblFull>
           <titleStmt>
-            <title type="titulo_completo">COLECCION DE CANCIONES.</title>
+            <title type="titulo_completo">Coleccion de canciones.</title>
             <title type="titulo_breve"/>
           </titleStmt>
           <editionStmt>
@@ -35,8 +44,7 @@
             <country>Suisse</country>
             <settlement>Genève</settlement>
             <repository>Bibliothèque Universitaire de Genève <ref
-                target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"
-              />
+                target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"/>
             </repository>
             <collection>Colección Varios</collection>
             <idno type="cote"/>
@@ -79,12 +87,12 @@
               </layoutDesc>
             </objectDesc>
             <decoDesc>
-              <summary n="3">Tres grabados (p.1 + 2 + 3) </summary>
+              <summary n="3">Tres grabados (p.1 + 2 + 3)</summary>
               <decoNote type="lista_grabados">
                 <list>
-                  <item corresp="grabado_v_229_1.xml">grabado_v_229_1</item>
-                  <item corresp="grabado_v_229_2.xml">grabado_v_229_2</item>
-                  <item corresp="grabado_v_229_3.xml">grabado_v_229_3</item>
+                  <item corresp="grabado_v_229_1.xml" facs="varios/Varios_229_1.jpg/473,329,715,647/100,/0/default.jpg">grabado_v_229_1</item>
+                  <item corresp="grabado_v_229_2.xml" facs="varios/Varios_229_2.jpg/366,105,821,344/100,/0/default.jpg">grabado_v_229_2</item>
+                  <item corresp="grabado_v_229_3.xml" facs="varios/Varios_229_3.jpg/596,138,376,791/100,/0/default.jpg">grabado_v_229_3</item>
                 </list>
               </decoNote>
             </decoDesc>
@@ -113,7 +121,7 @@
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR no corregido</p>
+          <p>OCR corregido</p>
         </correction>
         <normalization>
           <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
@@ -1670,7 +1678,7 @@
   <text>
     <body>
       <div>
-        <pb n="1" source="Varios_229_1.jpg" facs="varios/Varios_229_1.jpg/"/>
+        <pb n="1" source="Varios_229_1.jpg" facs="varios/Varios_229_1.jpg"/>
         <fw type="impresorNum">(Núm. 75)</fw>
         
         <head type="primer_titulo" rend="negrita"><lb/>COLECCION DE CANCIONES.</head>
@@ -1709,7 +1717,7 @@
             <l>que ahora han salido calientes.</l>
         </div>
         
-        <pb n="2" source="Varios_229_2.jpg" facs="varios/Varios_229_2.jpg/"/>
+        <pb n="2" source="Varios_229_2.jpg" facs="varios/Varios_229_2.jpg"/>
         
         <div n="2">
           <head type="titulo_cancion"><lb/>LA JARDINERA,</head>
@@ -1788,7 +1796,7 @@
           </sp>
         </div>
         
-        <pb n="3" source="Varios_229_3.jpg" facs="varios/Varios_229_3.jpg/"/>
+        <pb n="3" source="Varios_229_3.jpg" facs="varios/Varios_229_3.jpg"/>
         
         <div type="cancion" n="3">
           <head type="titulo_cancion"><lb/>LA AVELLANERA.</head>
@@ -1840,7 +1848,7 @@
           
         </div>
         
-        <pb n="4" source="Varios_229_4.jpg" facs="varios/Varios_229_4.jpg/"/>
+        <pb n="4" source="Varios_229_4.jpg" facs="varios/Varios_229_4.jpg"/>
         
         <div type="cancion" n="4">
           <head type="titulo_cancion">LA BUÑOLERA.</head>

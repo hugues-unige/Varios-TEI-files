@@ -3,10 +3,19 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>TROVOS Y GLOSAS DISCRETAS</title>
-        <respStmt>
-          <name/>
+        <title>Trovos y glosas discretas</title>
+        <respStmt xml:id="PJ">
+          <name>Pauline Jacsont</name>
+          <resp>Segmentación y transcripción</resp>
           <resp>Codificación TEI</resp>
+        </respStmt>
+        <respStmt xml:id="LF">
+          <name>Lorysmar Franco</name>
+          <resp>Corrección de la transcripción</resp>
+        </respStmt>
+        <respStmt xml:id="EL">
+          <name>Elina Leblanc</name>
+          <resp>Verificación de la codificación y carga en el sitio web</resp>
         </respStmt>
       </titleStmt>
       <publicationStmt>
@@ -22,9 +31,10 @@
               cantaba un amante despreciado, cuando se divertia con sus amigos ; compuestos por D.
               Zeferino Zepol, natural de Audujar.</title>
             <title type="titulo_breve">Trovos y glosas discretas</title>
+            <author role="letrista">Zeferino Zepol</author>
           </titleStmt>
           <editionStmt>
-            <p/>
+            <p>Otras impresiones: <ref target="Varios_138.xml">Varios_138</ref> y <ref target="Varios_458.xml">Varios_458</ref></p>
           </editionStmt>
           <publicationStmt>
             <publisher>[s.n.]</publisher>
@@ -37,8 +47,7 @@
             <country>Suisse</country>
             <settlement>Genève</settlement>
             <repository>Bibliothèque Universitaire de Genève <ref
-                target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"
-              />
+                target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"/>
             </repository>
             <collection>Colección Varios</collection>
             <idno type="cote"/>
@@ -69,11 +78,11 @@
               </layoutDesc>
             </objectDesc>
             <decoDesc>
-              <summary n="2">Dos grabados (p.1 + 4)</summary>
+              <summary n="2">Dos grabados (p.1 + 3)</summary>
               <decoNote type="lista_grabados">
                 <list>
-                  <item corresp="grabado_v_289_1.xml">grabado_v_289_1</item>
-                  <item corresp="grabado_v_289_2.xml">grabado_v_289_2</item>
+                  <item corresp="grabado_v_289_1.xml" facs="varios/Varios_289_1.jpg/640,113,551,542/100,/0/default.jpg">grabado_v_289_1</item>
+                  <item corresp="grabado_v_289_2.xml" facs="varios/Varios_289_4.jpg/772,219,322,479/100,/0/default.jpg">grabado_v_289_2</item>
                 </list>
               </decoNote>
             </decoDesc>
@@ -96,7 +105,7 @@
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR no corregido</p>
+          <p>OCR corregido</p>
         </correction>
         <normalization>
           <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
@@ -2562,7 +2571,7 @@
   <text>
     <body>
       <div>
-        <pb n="1" source="Varios_289_1.jpg" facs="varios/Varios_289_1.jpg/"/>
+        <pb n="1" source="Varios_289_1.jpg" facs="varios/Varios_289_1.jpg"/>
         
         <div n="1">
           <head type="primer_titulo"><lb/>TROVOS Y GLOSAS DISCRETAS, QUE PARA EXPLICAR</head>
@@ -2634,7 +2643,7 @@
             <l>te estimo en tanta manera</l>
             <l>como certifico aquí,</l>
 
-            <pb n="2" source="Varios_289_2.jpg" facs="varios/Varios_289_2.jpg/"/>
+            <pb n="2" source="Varios_289_2.jpg" facs="varios/Varios_289_2.jpg"/>
 
             <l>¡ó quien de amor no supiera!</l>
             <l rend="indent">De mi dolor te doy parte,</l>
@@ -2736,7 +2745,7 @@
           </lg>
         </div>
 
-        <pb n="3" source="Varios_289_4.jpg" facs="varios/Varios_289_3.jpg/"/>
+        <pb n="3" source="Varios_289_4.jpg" facs="varios/Varios_289_3.jpg"/>
 
         <div n="2">
           <head type="titulo_parte"><lb/>TROVOS Y GLOSAS DISCRETAS, QUE PARA EXPLICAR</head>
@@ -2809,7 +2818,7 @@
             <l>te estimo en tanta manera</l>
             <l>como certifico aquí,</l>
 
-            <pb n="4" source="Varios_289_3.jpg" facs="varios/Varios_289_3.jpg/"/>
+            <pb n="4" source="Varios_289_3.jpg" facs="varios/Varios_289_3.jpg"/>
 
             <l>¡ó quién de amor no supiera!</l>
             <l rend="indent">De mi dolor te doy parte,</l>

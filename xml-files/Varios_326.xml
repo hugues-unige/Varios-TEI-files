@@ -3,10 +3,19 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>HERMOSA CANCIÓN DEL PASTOR Y LA ZAGALA</title>
-        <respStmt>
-          <name xml:id="PJ">Pauline Jacsont</name>
+        <title>Hermosa canción del pastor y la Zagala</title>
+        <respStmt xml:id="PJ">
+          <name>Pauline Jacsont</name>
+          <resp>Segmentación y transcripción</resp>
           <resp>Codificación TEI</resp>
+        </respStmt>
+        <respStmt xml:id="LF">
+          <name>Lorysmar Franco</name>
+          <resp>Corrección de la transcripción</resp>
+        </respStmt>
+        <respStmt xml:id="EL">
+          <name>Elina Leblanc</name>
+          <resp>Verificación de la codificación y carga en el sitio web</resp>
         </respStmt>
       </titleStmt>
       <publicationStmt>
@@ -75,12 +84,12 @@
               </layoutDesc>
             </objectDesc>
             <decoDesc>
-              <summary n="3">Tres grabados (p.1 + p.3) </summary>
+              <summary n="3">Tres grabados (p.1 + p.3)</summary>
               <decoNote type="lista_grabados">
                 <list>
-                  <item corresp="grabado_v_326_1.xml">grabado_v_326_1</item>
-                  <item corresp="grabado_v_326_2.xml">grabado_v_326_2</item>
-                  <item corresp="grabado_v_326_3.xml">grabado_v_326_3</item>
+                  <item corresp="grabado_v_326_1.xml" facs="varios/Varios_326_1.jpg/252,197,1145,1296/100,/0/default.jpg">grabado_v_326_1</item>
+                  <item corresp="grabado_v_326_2.xml" facs="varios/Varios_326_3.jpg/332,145,580,1056/100,/0/default.jpg">grabado_v_326_2</item>
+                  <item corresp="grabado_v_326_3.xml" facs="varios/Varios_326_3.jpg/928,125,636,1075/100,/0/default.jpg">grabado_v_326_3</item>
                 </list>
               </decoNote>
             </decoDesc>
@@ -105,7 +114,7 @@
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR no corregido</p>
+          <p>OCR corregido</p>
         </correction>
         <normalization>
           <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
@@ -122,7 +131,7 @@
       <textClass>
         <keywords xml:base="http://datos.bne.es/tema/">
           <term target="XX525577.html" type="tipo_texto">Canciones</term>
-          <term type="tipo_estrofa"/>
+          <term target="XX525577.html" type="tipo_estrofa">Canciones</term>
           <term type="verso_prosa">Verso</term>
           <term type="sagrado_profano">Sagrado</term>
         </keywords>
@@ -1642,7 +1651,7 @@
   <text>
     <body>
       <div>
-        <pb n="1" source="Varios_326_1.jpg" facs="varios/Varios_326_1.jpg/"/>
+        <pb n="1" source="Varios_326_1.jpg" facs="varios/Varios_326_1.jpg"/>
 
         <div n="1">
           <head type="primer_titulo" rend="negrita"><lb/>HERMOSA CANCIÓN<lb/>DEL PASTOR Y LA
@@ -1668,7 +1677,7 @@
             <l>ay que malo es el amor.</l>
           </lg>
 
-          <pb n="2" source="Varios_326_2.jpg" facs="varios/Varios_326_2.jpg/"/>
+          <pb n="2" source="Varios_326_2.jpg" facs="varios/Varios_326_2.jpg"/>
 
           <lg>
             <l rend="indent">Las niñas lo quieren mucho</l>
@@ -1785,7 +1794,7 @@
           </lg>
         </div>
 
-        <pb n="3" source="Varios_326_3.jpg" facs="varios/Varios_326_3.jpg/"/>
+        <pb n="3" source="Varios_326_3.jpg" facs="varios/Varios_326_3.jpg"/>
 
         <div n="2">
           <head type="primer_titulo"><lb/>CANCIÓN<lb/><hi rend="negrita">DEL TURCO Y SU
@@ -1826,7 +1835,7 @@
             <l>mas no te podré olvidar.</l>
           </lg>
 
-          <pb n="4" source="Varios_326_4.jpg" facs="varios/Varios_326_4.jpg/"/>
+          <pb n="4" source="Varios_326_4.jpg" facs="varios/Varios_326_4.jpg"/>
 
           <lg>
             <head type="titulo_estrofa">4.ª</head>

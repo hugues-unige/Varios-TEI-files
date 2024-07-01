@@ -4,7 +4,7 @@
       <teiHeader>
             <fileDesc>
                   <titleStmt>
-                        <title>Famosas Hazañas de un conejo y una Langosta</title>
+                        <title>Famosas hazañas de un conejo y una langosta relatadas por ellos mismos</title>
                         <respStmt xml:id="PJ">
                               <name>Pauline Jacsont</name>
                               <resp>Segmentación y transcripción</resp>
@@ -15,7 +15,7 @@
                         </respStmt>
                         <respStmt xml:id="EL">
                               <name>Elina Leblanc</name>
-                              <resp>Codificación TEI</resp>
+                              <resp>Codificación TEI y carga en el sitio web</resp>
                         </respStmt>
                   </titleStmt>
                   <publicationStmt>
@@ -29,11 +29,10 @@
                               <titleStmt>
                                     <title type="titulo_completo">Famosas Hazañas de un conejo y una
                                           Langosta, relatadas por ellos mismos</title>
-                                    <title type="titulo_breve">Famosas Hazañas de un conejo y una
-                                          Langosta</title>
+                                    <title type="titulo_breve"/>
                               </titleStmt>
                               <editionStmt>
-                                    <p>Otras impresiones: <ref target="Varios_007.xml">Varios_007</ref> (s.a.) y <ref target="Varios_240.xml">Varios_240</ref> (s.a.)</p>
+                                    <p>Otras impresiones: <ref target="Varios_007.xml">Varios_007</ref> y <ref target="Varios_240.xml">Varios_240</ref></p>
                               </editionStmt>
                               <publicationStmt>
                                     <publisher>El Abanico</publisher>
@@ -80,7 +79,7 @@
                                           <summary n="1">Un grabado (p.1) </summary>
                                           <decoNote type="lista_grabados">
                                                 <list>
-                                                  <item corresp="grabado_v_468_1.xml">grabado_v_468_1</item>
+                                                      <item corresp="grabado_v_468_1.xml" facs="varios/Varios_468_1.jpg/45,231,1550,1164/100,/0/default.jpg">grabado_v_468_1</item>
                                                 </list>
                                           </decoNote>
                                     </decoDesc>
@@ -116,7 +115,7 @@
                   </langUsage>
                   <textClass>
                         <keywords xml:base="http://datos.bne.es/tema/">
-                              <term type="tipo_texto"/>
+                              <term target="XX5499740.html" type="tipo_texto">Sátiras</term>
                               <term type="tipo_estrofa"/>
                               <term type="verso_prosa">Verso</term>
                               <term type="sagrado_profano">Profano</term>
@@ -126,18 +125,19 @@
             <revisionDesc>
                   <change when="2023-12-08" who="#EL">Création du fichier TEI P5 et encodage du
                         corps du texte</change>
-<change when="2024-01-09" who="#EL">Add the IIIF links</change>
+                  <change when="2024-01-09" who="#EL">Add the IIIF links</change>
             </revisionDesc>
       </teiHeader>
-      
-      <facsimile><graphic url="varios/Varios_468_1.jpg/full/200,/0/default.jpg"/></facsimile><text>
+      <facsimile><graphic url="varios/Varios_468_1.jpg/full/200,/0/default.jpg"/></facsimile>
+      <text>
             <body>
                   <div>
                         <div>
-                              <pb n="1" source="Varios_468_1.jpg" facs="varios/Varios_468_1.jpg/"/>
-                              <head type="primer_titulo" rend="negrita">
-                                    <lb/>FAMOSAS HAZANAS<lb/>DE<lb/>UN CONEJO Y UNA
-                                    LANGOSTA<lb/>RERATADAS POR ELnOS mISmOS</head>
+                              <pb n="1" source="Varios_468_1.jpg" facs="varios/Varios_468_1.jpg"/>
+                              
+                              <head type="primer_titulo"><lb/><hi rend="negrita">FAMOSAS HAZAÑAS</hi><lb/>DE<lb/><hi
+                                    rend="negrita">UN CONEJO Y UNA LANGOSTA</hi></head>
+                              <head type="subtitulo" rend="negrita"><lb/>RELATADAS POR ELLOS MISMOS</head>
 
                               <lg>
                                     <l rend="indent">Hazañas de una Langosta</l>
@@ -167,7 +167,7 @@
                                     <l>que á relatar voy el caso.</l>
                               </lg>
 
-                              <pb n="2" source="Varios_468_2.jpg" facs="varios/Varios_468_2.jpg/"/>
+                              <pb n="2" source="Varios_468_2.jpg" facs="varios/Varios_468_2.jpg"/>
 
                               <lg>
                                     <l rend="indent">Que era el Conejo</l>
@@ -325,7 +325,7 @@
                                           <l rend="indent">Cansada ya de vivir</l>
                                           <l>entre rocas por la costa,</l>
 
-                                          <pb n="3" source="Varios_468_3.jpg" facs="varios/Varios_468_3.jpg/"/>
+                                          <pb n="3" source="Varios_468_3.jpg" facs="varios/Varios_468_3.jpg"/>
 
                                           <l>dije entre mí hora es ya</l>
                                           <l>que hablen de esta Langosta.</l>
@@ -481,7 +481,7 @@
                                           <l rend="indent">Corrí Andalucía</l>
                                           <l>y en una ocasión</l>
 
-                                          <pb n="4" source="Varios_468_4.jpg" facs="varios/Varios_468_4.jpg/"/>
+                                          <pb n="4" source="Varios_468_4.jpg" facs="varios/Varios_468_4.jpg"/>
 
                                           <l>destrocé á bocados</l>
                                           <l>quizás un millón.</l>

@@ -4,10 +4,19 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>CALENDARIO NUEVO Y CURIOSO, PARA EL PRESENTE AÑO Y TODOS LOS VENIDEROS.</title>
-        <respStmt>
-          <name/>
+        <title>Calendario nuevo y curioso</title>
+        <respStmt xml:id="PJ">
+          <name>Pauline Jacsont</name>
+          <resp>Segmentación y transcripción</resp>
           <resp>Codificación TEI</resp>
+        </respStmt>
+        <respStmt xml:id="LF">
+          <name>Lorysmar Franco</name>
+          <resp>Corrección de la transcripción</resp>
+        </respStmt>
+        <respStmt xml:id="EL">
+          <name>Elina Leblanc</name>
+          <resp>Verificación de la codificación y carga en el sitio web</resp>
         </respStmt>
       </titleStmt>
       <publicationStmt>
@@ -19,12 +28,11 @@
       <sourceDesc>
         <biblFull>
           <titleStmt>
-            <title type="titulo_completo">CALENDARIO NUEVO Y CURIOSO, PARA EL PRESENTE AÑO Y TODOS
-              LOS VENIDEROS.</title>
-            <title type="titulo_breve">CALENDARIO NUEVO Y CURIOSO</title>
+            <title type="titulo_completo">Calendario nuevo y curioso, para el presente año y todos los venideros.</title>
+            <title type="titulo_breve">Calendario nuevo y curioso</title>
           </titleStmt>
           <editionStmt>
-            <p/>
+            <p>Otra impresión: <ref target="Varios_323.xml">Varios_323</ref></p>
           </editionStmt>
           <publicationStmt>
             <publisher>José María Marés</publisher>
@@ -67,10 +75,11 @@
               </layoutDesc>
             </objectDesc>
             <decoDesc>
-              <summary n="1">Dos grabados (p.1) </summary>
+              <summary n="2">Dos grabados (p.1)</summary>
               <decoNote type="lista_grabados">
                 <list>
-                  <item corresp="grabado_v_159_1.xml">grabado_v_159_1</item>
+                  <item corresp="grabado_v_159_1.xml" facs="varios/Varios_159_1.jpg/700,346,630,838/100,/0/default.jpg">grabado_v_159_1</item>
+                  <item corresp="grabado_v_159_2.xml" facs="varios/Varios_159_1.jpg/300,346,410,838/100,/0/default.jpg">grabado_v_159_2</item>
                 </list>
               </decoNote>
             </decoDesc>
@@ -99,7 +108,7 @@
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR no corregido</p>
+          <p>OCR corregido</p>
         </correction>
         <normalization>
           <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
@@ -1198,7 +1207,7 @@
     <body>
       <div>
         <div>
-          <pb n="1" source="Varios_159_1.jpg" facs="varios/Varios_159_1.jpg/"/>
+          <pb n="1" source="Varios_159_1.jpg" facs="varios/Varios_159_1.jpg"/>
 
           <fw type="impresorNum">(Núm. 189.)</fw>
 
@@ -1227,7 +1236,7 @@
           <l>tomar para matrimonio.</l>
           <l>Atencion que ya comienza</l>
 
-          <pb n="2" source="Varios_159_2.jpg" facs="varios/Varios_159_2.jpg/"/>
+          <pb n="2" source="Varios_159_2.jpg" facs="varios/Varios_159_2.jpg"/>
 
           <l>lo que en el caso presente</l>
           <l>debe servirle de regla.</l>
@@ -1312,7 +1321,7 @@
           <l>Antonia,Isabel, Jacoba,</l>
           <l>Liberata,Ana y Elena,</l>
 
-          <pb n="3" source="Varios_159_3.jpg" facs="varios/Varios_159_3.jpg/"/>
+          <pb n="3" source="Varios_159_3.jpg" facs="varios/Varios_159_3.jpg"/>
 
           <l>si casualmente nacieren</l>
           <l>bajo la preciosa estrella</l>
@@ -1398,7 +1407,7 @@
           <l>pero las defiende Marte</l>
           <l>con su espada y su rodela.</l>
 
-          <pb n="4" source="Varios_159_4.jpg" facs="varios/Varios_159_4.jpg/"/>
+          <pb n="4" source="Varios_159_4.jpg" facs="varios/Varios_159_4.jpg"/>
 
           <l>En continua oposicion</l>
           <l>el viejo Saturno queda</l>
@@ -1474,7 +1483,7 @@
         </div>
         
         <div type="colofon">
-          <p><lb/>Madrid: 1854. Imprenta de D. José Marés, Belatores núm. 17.</p>
+          <p><lb/>Madrid: 1854. Imprenta de D. José Marés, Relatores núm. 17.</p>
         </div>
       </div>
     </body>

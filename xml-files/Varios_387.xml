@@ -4,10 +4,19 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>LA CANCION DEL SOLDADO</title>
-        <respStmt>
-          <name xml:id="PJ">Pauline Jacsont</name>
+        <title>La cancion del soldado</title>
+        <respStmt xml:id="PJ">
+          <name>Pauline Jacsont</name>
+          <resp>Segmentación y transcripción</resp>
           <resp>Codificación TEI</resp>
+        </respStmt>
+        <respStmt xml:id="LF">
+          <name>Lorysmar Franco</name>
+          <resp>Corrección de la transcripción</resp>
+        </respStmt>
+        <respStmt xml:id="EL">
+          <name>Elina Leblanc</name>
+          <resp>Verificación de la codificación y carga en el sitio web</resp>
         </respStmt>
       </titleStmt>
       <publicationStmt>
@@ -76,17 +85,10 @@
               </layoutDesc>
             </objectDesc>
             <decoDesc>
-              <summary n="1">Un grabado (p.1) </summary>
+              <summary n="1">Un grabado (p.1)</summary>
               <decoNote type="lista_grabados">
                 <list>
-                  <item corresp="grabado_v_387_1.xml">grabado_v_387_1</item>
-                </list>
-              </decoNote>
-              <decoNote type="lista_ornamentos">
-                <list>
-                  <item corresp="ornamento_v_387_1">ornamento_v_387_1</item>
-                  <item corresp="ornamento_v_387_2">ornamento_v_387_2</item>
-                  <item corresp="ornamento_v_387_3">ornamento_v_387_3</item>
+                  <item corresp="grabado_v_387_1.xml" facs="varios/Varios_387_1.jpg/242,640,1170,1427/100,/0/default.jpg">grabado_v_387_1</item>
                 </list>
               </decoNote>
             </decoDesc>
@@ -111,7 +113,7 @@
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR no corregido</p>
+          <p>OCR corregido</p>
         </correction>
         <normalization>
           <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
@@ -1792,7 +1794,7 @@
   <text>
     <body>
       <div>
-        <pb n="1" source="Varios_387_1.jpg" facs="varios/Varios_387_1.jpg/"/>
+        <pb n="1" source="Varios_387_1.jpg" facs="varios/Varios_387_1.jpg"/>
 
         <head type="subtitulo_parte" rend="negrita"><lb/>PREMIADO POR S. M. EL REY D. ALFONSO
           XIII</head>
@@ -1803,7 +1805,7 @@
           <p><lb/>Imp. Aldana, 12.—BARCELONA.</p>
         </div>
 
-        <pb n="2" source="Varios_387_2.jpg" facs="varios/Varios_387_2.jpg/"/>
+        <pb n="2" source="Varios_387_2.jpg" facs="varios/Varios_387_2.jpg"/>
 
         <div n="1">
           <div n="1" type="parte">
@@ -1928,7 +1930,7 @@
           </div>
         </div>
 
-        <pb n="3" source="Varios_387_3.jpg" facs="varios/Varios_387_3.jpg/"/>
+        <pb n="3" source="Varios_387_3.jpg" facs="varios/Varios_387_3.jpg"/>
 
         <div n="2">
           <head type="titulo_parte" rend="negrita"><lb/>QUE la MaR ES MUY TRAIDORA</head>
@@ -1968,7 +1970,7 @@
           </lg>
         </div>
 
-        <pb n="4" source="Varios_387_4.jpg" facs="varios/Varios_387_4.jpg/"/>
+        <pb n="4" source="Varios_387_4.jpg" facs="varios/Varios_387_4.jpg"/>
 
         <div n="3">
           <head type="titulo_parte" rend="negrita"><lb/>Que la mar es muy traidora</head>

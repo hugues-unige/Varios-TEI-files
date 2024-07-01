@@ -4,10 +4,19 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>TROVOS NUEVOS</title>
-        <respStmt>
-          <name xml:id="PJ">Pauline Jacsont</name>
+        <title>Trovos nuevos</title>
+        <respStmt xml:id="PJ">
+          <name>Pauline Jacsont</name>
+          <resp>Segmentación y transcripción</resp>
           <resp>Codificación TEI</resp>
+        </respStmt>
+        <respStmt xml:id="BP">
+          <name>Belinda Palacios</name>
+          <resp>Corrección de la transcripción</resp>
+        </respStmt>
+        <respStmt xml:id="EL">
+          <name>Elina Leblanc</name>
+          <resp>Verificación de la codificación y carga en el sitio web</resp>
         </respStmt>
       </titleStmt>
       <publicationStmt>
@@ -69,12 +78,12 @@
               </layoutDesc>
             </objectDesc>
             <decoDesc>
-              <summary n="3">Tres grabados (p.1) </summary>
+              <summary n="3">Tres grabados (p.1)</summary>
               <decoNote type="lista_grabados">
                 <list>
-                  <item corresp="grabado_v_401_1.xml">grabado_v_401_1</item>
-                  <item corresp="grabado_v_401_2.xml">grabado_v_401_2</item>
-                  <item corresp="grabado_v_401_3.xml">grabado_v_401_3</item>
+                  <item corresp="grabado_v_401_1.xml" facs="varios/Varios_401_1.jpg/140,230,483,988/100,/0/default.jpg">grabado_v_401_1</item>
+                  <item corresp="grabado_v_401_2.xml" facs="varios/Varios_401_1.jpg/620,230,533,988/100,/0/default.jpg">grabado_v_401_2</item>
+                  <item corresp="grabado_v_401_3.xml" facs="varios/Varios_401_1.jpg/1140,230,533,988/100,/0/default.jpg">grabado_v_401_3</item>
                 </list>
               </decoNote>
             </decoDesc>
@@ -101,7 +110,7 @@
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR no corregido</p>
+          <p>OCR corregido</p>
         </correction>
         <normalization>
           <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
@@ -2319,7 +2328,7 @@
   <text>
     <body>
       <div>
-        <pb n="1" source="Varios_401_1.jpg" facs="varios/Varios_401_1.jpg/"/>
+        <pb n="1" source="Varios_401_1.jpg" facs="varios/Varios_401_1.jpg"/>
         
         <div n="1">
           <head type="primer_titulo"><lb/>TROVOS NUEVOS<lb/><hi rend="negrita">y amorosos para
@@ -2367,7 +2376,7 @@
             <l>ME ESTOY MURIENDO DE AMOR.</l>
           </lg>
           
-          <pb n="2" source="Varios_401_2.jpg" facs="varios/Varios_401_2.jpg/"/>
+          <pb n="2" source="Varios_401_2.jpg" facs="varios/Varios_401_2.jpg"/>
           
           <lg>
             <l rend="indent">Aurora del nuevo dia,</l>
@@ -2466,7 +2475,7 @@
             <l>fuera de amores perdido.</l>
           </lg>
           
-          <pb n="3" source="Varios_401_3.jpg" facs="varios/Varios_401_3.jpg/"/>
+          <pb n="3" source="Varios_401_3.jpg" facs="varios/Varios_401_3.jpg"/>
           
           <lg>
             <l rend="indent">TENDRIA DE AMORES DESMAYO</l>
@@ -2571,7 +2580,7 @@
             <l>sola en el mundo me queda.</l>
           </lg>
           
-          <pb n="4" source="Varios_401_4.jpg" facs="varios/Varios_401_4.jpg/"/>
+          <pb n="4" source="Varios_401_4.jpg" facs="varios/Varios_401_4.jpg"/>
           
           <lg>
             <l rend="indent">DISIMULA ABIGAIL</l>

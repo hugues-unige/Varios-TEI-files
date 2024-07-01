@@ -5,9 +5,15 @@
     <fileDesc>
       <titleStmt>
         <title>La Dama Casimira</title>
-        <respStmt>
-          <name/>
+        <respStmt xml:id="PJ">
+          <name>Pauline Jacsont</name>
+          <resp>Segmentación y transcripción</resp>
           <resp>Codificación TEI</resp>
+          <resp>Corrección de la transcripción</resp>
+        </respStmt>
+        <respStmt xml:id="EL">
+          <name>Elina Leblanc</name>
+          <resp>Verificación de la codificación y carga en el sitio web</resp>
         </respStmt>
       </titleStmt>
       <publicationStmt>
@@ -25,7 +31,7 @@
             <title type="titulo_breve">La Dama Casimira.</title>
           </titleStmt>
           <editionStmt>
-            <p/>
+            <p>Otra impresión: <ref target="Varios_306.xml">Varios_306</ref></p>
           </editionStmt>
           <publicationStmt>
             <publisher>Cristina Segura</publisher>
@@ -68,10 +74,10 @@
               </layoutDesc>
             </objectDesc>
             <decoDesc>
-              <summary n="1">Un grabado (p.1) </summary>
+              <summary n="1">Un grabado (p.1)</summary>
               <decoNote type="lista_grabados">
                 <list>
-                  <item corresp="grabado_v_042_1.xml">grabado_v_042_1</item>
+                  <item corresp="grabado_v_042_1.xml" facs="varios/Varios_042_1.jpg/149,315,1331,1084/100,/0/default.jpg">grabado_v_042_1</item>
                 </list>
               </decoNote>
             </decoDesc>
@@ -96,7 +102,7 @@
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR no corregido</p>
+          <p>OCR corregido</p>
         </correction>
         <normalization>
           <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
@@ -122,10 +128,11 @@
     <revisionDesc>
       <change when="2022-05-15" who="#PJ">Création du fichier TEI P5 et encodage du corps du
         texte</change>
-<change when="2024-01-09" who="#EL">Add the IIIF links</change>
+      <change when="2024-01-09" who="#EL">Add the IIIF links</change>
     </revisionDesc>
   </teiHeader>
-  <facsimile><graphic url="varios/Varios_042_1.jpg/full/200,/0/default.jpg"/></facsimile><sourceDoc xml:id="automaticTranscription">
+  <facsimile><graphic url="varios/Varios_042_1.jpg/full/200,/0/default.jpg"/></facsimile>
+  <sourceDoc xml:id="automaticTranscription">
     <surface xml:id="Varios_042_1" type="page" cert="silver">
       <graphic url="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_042_1/full/full/0/default.jpg"/>
       <zone xml:id="Varios_042_1_BT228_1" n="1" type="MarginTextZone" subtype="colophon" points="1529,249 1570,354 1278,367 1266,255 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_042_1/1266,249,304,118/full/0/default" corresp="MarginTextZone:colophon">
@@ -1373,7 +1380,7 @@
     <body>
       <div>
         <div>
-          <pb n="1" source="Varios_042_1.jpg" facs="varios/Varios_042_1.jpg/"/>
+          <pb n="1" source="Varios_042_1.jpg" facs="varios/Varios_042_1.jpg"/>
           <fw type="numeroPliego">Núm. 14</fw>
           
           <head type="primer_titulo" rend="negrita"><lb/>La Dama Casimira</head>
@@ -1399,7 +1406,7 @@
             <l>y porque el mundo no diga</l>
             <l>que me acuesto con un gato.</l>
           
-          <pb n="2" source="Varios_042_2.jpg" facs="varios/Varios_042_2.jpg/"/>
+          <pb n="2" source="Varios_042_2.jpg" facs="varios/Varios_042_2.jpg"/>
           
             <l rend="indent">Abogado no me cuadra,</l>
             <l>porque aun tiene letrillas</l>
@@ -1502,7 +1509,7 @@
             <l>pero no apetezco oficio</l>
             <l>que vuelve negro lo blanco.</l>
           
-          <pb n="3" source="Varios_042_3.jpg" facs="varios/Varios_042_3.jpg/"/>
+          <pb n="3" source="Varios_042_3.jpg" facs="varios/Varios_042_3.jpg"/>
           
             <l rend="indent">Albañil que anda por alto</l>
             <l>no quiero aunque sea majo,</l>
@@ -1605,7 +1612,7 @@
             <l>me traerá por la costumbre</l>
             <l>como escoba de barrer.</l>
           
-          <pb n="4" source="Varios_042_4.jpg" facs="varios/Varios_042_4.jpg/"/>
+          <pb n="4" source="Varios_042_4.jpg" facs="varios/Varios_042_4.jpg"/>
           
             <l rend="indent">Papelero no lo escojo,</l>
             <l>porque si le salgo infiel</l>

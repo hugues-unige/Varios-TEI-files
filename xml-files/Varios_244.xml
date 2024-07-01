@@ -3,10 +3,19 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>HIMNO PATRIÓTICO</title>
-        <respStmt>
-          <name/>
+        <title>Himno patriótico</title>
+        <respStmt xml:id="PJ">
+          <name>Pauline Jacsont</name>
+          <resp>Segmentación y transcripción</resp>
           <resp>Codificación TEI</resp>
+        </respStmt>
+        <respStmt xml:id="LF">
+          <name>Lorysmar Franco</name>
+          <resp>Corrección de la transcripción</resp>
+        </respStmt>
+        <respStmt xml:id="EL">
+          <name>Elina Leblanc</name>
+          <resp>Verificación de la codificación y carga en el sitio web</resp>
         </respStmt>
       </titleStmt>
       <publicationStmt>
@@ -36,8 +45,7 @@
             <country>Suisse</country>
             <settlement>Genève</settlement>
             <repository>Bibliothèque Universitaire de Genève <ref
-                target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"
-              />
+                target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"/>
             </repository>
             <collection>Colección Varios</collection>
             <idno type="cote"/>
@@ -97,7 +105,7 @@
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR no corregido</p>
+          <p>OCR corregido</p>
         </correction>
         <normalization>
           <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
@@ -113,8 +121,8 @@
       </langUsage>
       <textClass>
         <keywords xml:base="http://datos.bne.es/tema/">
-          <term type="tipo_texto"/>
-          <term type="tipo_estrofa"/>
+          <term type="tipo_texto" target="XX525577.html">Canciones</term>
+          <term type="tipo_estrofa" target="XX525577.html">Canciones</term>
           <term type="verso_prosa">Verso</term>
           <term type="sagrado_profano">Profano</term>
         </keywords>
@@ -1319,16 +1327,16 @@
   <text>
     <body>
       <div>
-        <pb n="1" source="Varios_244_1.jpg" facs="varios/Varios_244_1.jpg/"/>
+        <pb n="1" source="Varios_244_1.jpg" facs="varios/Varios_244_1.jpg"/>
 
         <div n="1">
           <head type="primer_titulo"><lb/>HIMNO PATRIOTICO</head>
-          <head type="subtitulo_parte"><lb/>CANTADO EN EL TEATRO DE BADAJOZ POR LOS aficionados
+          <head type="subtitulo_parte"><lb/>CANTADO EN EL TEATRO DE BADAJOZ POR LOS <lb/>aficionados
             Voluntarios Nacionales.</head>
 
           <lg>
             <head type="titulo_estrofa">CORO.</head>
-            <l rend="cursiva">Nuestro juramento,</l>
+            <l rend="indent"><hi rend="cursiva">Nuestro juramento,</hi></l>
             <l rend="cursiva">nuestra voluntad,</l>
             <l rend="cursiva">es el morir todos</l>
             <l rend="cursiva">por la Libertad.</l>
@@ -1399,7 +1407,7 @@
           <l>míseros reptiles</l>
           <l>sin patria ni hogar.</l>
 
-          <pb n="2" source="Varios_244_2.jpg" facs="varios/Varios_244_2.jpg/"/>
+          <pb n="2" source="Varios_244_2.jpg" facs="varios/Varios_244_2.jpg"/>
 
           <l rend="indent">En tonad valientes</l>
           <l>en tonad guerreros,</l>
@@ -1480,8 +1488,8 @@
         </div>
 
         <div type="colofon">
-          <p rend="cursiva"><lb/>Sevilla : Imprenta de Doña María del Carmen Padrino. <lb/>Año
-            1822.</p>
+          <p><lb/><hi rend="cursiva">Sevilla : Imprenta de Doña María del Carmen Padrino. <lb/>Año
+            1822.</hi></p>
         </div>
       </div>
     </body>

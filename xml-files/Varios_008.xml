@@ -5,14 +5,19 @@
             <fileDesc>
                   <titleStmt>
                         <title>Romance mistico de la enamorada de Cristo, Maria Jesus de Gracia</title>
-                        <respStmt>
-                              <name/>
+                        <respStmt xml:id="PJ">
+                              <name>Pauline Jacsont</name>
+                              <resp>Segmentación y transcripción</resp>
+                              <resp>Corrección de la transcripción</resp>
                               <resp>Codificación TEI</resp>
+                        </respStmt>
+                        <respStmt xml:id="EL">
+                              <name>Elina Leblanc</name>
+                              <resp>Verificación de la codificación y carga en el sitio web</resp>
                         </respStmt>
                   </titleStmt>
                   <publicationStmt>
-                        <authority role="rightsHolder">Bibliothèque Universitaire de
-                              Genève</authority>
+                        <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
                         <availability status="restricted">
                               <licence n="cc by nc sa" target="https://creativecommons.org/licenses/by-nc-sa/4.0/"/>
                         </availability>
@@ -71,7 +76,7 @@
                                           <summary n="1">Un grabado (p.1)</summary>
                                           <decoNote type="lista_grabados">
                                                 <list>
-                                                  <item corresp="grabado_v_008_1.xml">grabado_v_008_1</item>
+                                                      <item corresp="grabado_v_008_1.xml" facs="varios/Varios_008_1.jpg/644,272,426,649/100,/0/default.jpg">grabado_v_008_1</item>
                                                 </list>
                                           </decoNote>
                                     </decoDesc>
@@ -122,15 +127,13 @@
                   </textClass>
             </profileDesc>
             <revisionDesc>
-                  <change when="2022-04-12" who="#PJ">Création du fichier TEI P5 et encodage du
-                        corps du texte</change>
-<change when="2024-01-09" who="#EL">Add the IIIF links</change>
-                  <change when="2022-04-13" who="#PJ">Suppressions (xml:id), Correction grabodos
-                  </change>
-<change when="2024-01-09" who="#EL">Add the IIIF links</change>
+                  <change when="2022-04-12" who="#PJ">Création du fichier TEI P5 et encodage du corps du texte</change>
+                  <change when="2022-04-13" who="#PJ">Suppressions (xml:id), Correction grabodos</change>
+                  <change when="2024-01-09" who="#EL">Add the IIIF links</change>
             </revisionDesc>
       </teiHeader>
-      <facsimile><graphic url="varios/Varios_008_1.jpg/full/200,/0/default.jpg"/></facsimile><sourceDoc xml:id="automaticTranscription">
+      <facsimile><graphic url="varios/Varios_008_1.jpg/full/200,/0/default.jpg"/></facsimile>
+      <sourceDoc xml:id="automaticTranscription">
             <surface xml:id="Varios_008_1" type="page" cert="silver">
                   <graphic url="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_008_1/full/full/0/default.jpg"/>
                   <zone xml:id="Varios_008_1_BT223_1" n="1" type="CustomZone" subtype="title" points="1079,1461 1085,1487 983,1531 815,1542 684,1523 684,1451 431,1451 431,1339 330,1339 219,1312 210,1191 234,1187 549,1187 549,1186 730,1186 730,1098 549,1098 549,996 1168,996 1168,1098 957,1098 957,1190 1168,1190 1168,1192 1531,1192 1531,1363 1329,1363 1329,1407 1291,1407 1291,1453 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_008_1/210,996,1321,546/full/0/default" corresp="CustomZone:title">
@@ -1539,7 +1542,8 @@
             <body>
                   <div>
                         <div>
-                              <pb n="1" source="Varios_008_1.jpg" facs="varios/Varios_008_1.jpg/"/>
+                              <pb n="1" source="Varios_008_1.jpg" facs="varios/Varios_008_1.jpg"/>
+                              
                               <head type="primer_titulo">
                                     <lb/>ROMANCE MISTICO<lb/>DE LA<hi rend="negrita"><lb/>ENAMORADA
                                           DE CRISTO,</hi><lb/>MARIA JESUS DE GRACIA.</head>
@@ -1587,7 +1591,7 @@
                                     <l>es bella, quiero llamarla.</l>
                                     <l>Ven acá, Niña, le dice:</l>
                               
-                              <pb n="2" source="Varios_008_2.jpg" facs="varios/Varios_008_2.jpg/"/>
+                              <pb n="2" source="Varios_008_2.jpg" facs="varios/Varios_008_2.jpg"/>
                               
                                     <l>yiene luego que la llaman.</l>
                                     <l>Aquí tiene Usía, señor,</l>
@@ -1698,7 +1702,7 @@
                                     <l>que todo un Dios se humillara</l>
                                     <l>para que encarnase su Hijo</l>
                               
-                              <pb n="3" source="Varios_008_3.jpg" facs="varios/Varios_008_3.jpg/"/>
+                              <pb n="3" source="Varios_008_3.jpg" facs="varios/Varios_008_3.jpg"/>
                               
                                     <l>en sus virgenes entrañas,</l>
                                     <l>para redimir al hombre,</l>
@@ -1809,7 +1813,7 @@
                                     <l>de nuestra naturaleza,</l>
                                     <l>venida tan deseada,</l>
                               
-                              <pb n="4" source="Varios_008_4.jpg" facs="varios/Varios_008_4.jpg/"/>
+                              <pb n="4" source="Varios_008_4.jpg" facs="varios/Varios_008_4.jpg"/>
                               
                                     <l>una muger dió su vientre</l>
                                     <l>para que Dios encarnara;</l>

@@ -5,9 +5,18 @@
     <fileDesc>
       <titleStmt>
         <title>Lo carrer del hospital de Barcelona ó Relació que ha fet an Carnestoltas del bullici</title>
-        <respStmt>
-          <name/>
+        <respStmt xml:id="PJ">
+          <name>Pauline Jacsont</name>
+          <resp>Segmentación y transcripción</resp>
           <resp>Codificación TEI</resp>
+        </respStmt>
+        <respStmt xml:id="LF">
+          <name>Lorysmar Franco</name>
+          <resp>Corrección de la transcripción</resp>
+        </respStmt>
+        <respStmt xml:id="EL">
+          <name>Elina Leblanc</name>
+          <resp>Verificación de la codificación y carga en el sitio web</resp>
         </respStmt>
       </titleStmt>
       <publicationStmt>
@@ -68,10 +77,10 @@
               </layoutDesc>
             </objectDesc>
             <decoDesc>
-              <summary n="1">Un grabado (p.1) </summary>
+              <summary n="1">Un grabado (p.1)</summary>
               <decoNote type="lista_grabados">
                 <list>
-                  <item corresp="grabado_v_173_1.xml">grabado_v_173_1</item>
+                  <item corresp="grabado_v_173_1.xml" facs="varios/Varios_173_1.jpg/0,204,1594,1208/100,/0/default.jpg">grabado_v_173_1</item>
                 </list>
               </decoNote>
             </decoDesc>
@@ -106,7 +115,7 @@
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR no corregido</p>
+          <p>OCR corregido</p>
         </correction>
         <normalization>
           <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
@@ -1286,7 +1295,7 @@
     <body>
       <div>
         <div>
-          <pb n="1" source="Varios_173_1.jpg" facs="varios/Varios_173_1.jpg/"/>
+          <pb n="1" source="Varios_173_1.jpg" facs="varios/Varios_173_1.jpg"/>
 
           <head type="primer_titulo" rend="negrita"><lb/>LO CARRER DEL HOSPITAL DE BARCELONA</head>
           <head type="subtitulo"><lb/>ó<lb/>Relació que ha fet an <hi rend="cursiva">Carnestoltas</hi> del bullici, impor-<lb/>tancia y fets notables que s' observan en
@@ -1319,7 +1328,7 @@
           <l>Si son clars los pantalons</l>
           <l>Ab un instant son farcits,</l>
 
-          <pb n="2" source="Varios_173_2.jpg" facs="varios/Varios_173_2.jpg/"/>
+          <pb n="2" source="Varios_173_2.jpg" facs="varios/Varios_173_2.jpg"/>
           <fw type="paginaNum">–2–</fw>
 
           <l>Com de la dona 'ls vestits</l>
@@ -1411,7 +1420,7 @@
           <l>Si estás de mal humor gran,</l>
           <l>Quel gat d' inglés diu esplin,</l>
 
-          <pb n="3" source="Varios_173_3.jpg" facs="varios/Varios_173_3.jpg/"/>
+          <pb n="3" source="Varios_173_3.jpg" facs="varios/Varios_173_3.jpg"/>
           <fw type="paginaNum">–3–</fw>
 
           <l>Gasta en lo teatro 'l din</l>
@@ -1503,7 +1512,7 @@
           <l>Apoyats ab llarga vara</l>
           <l>Y afeitats bé de clatell,</l>
 
-          <pb n="4" source="Varios_173_4.jpg" facs="varios/Varios_173_4.jpg/"/>
+          <pb n="4" source="Varios_173_4.jpg" facs="varios/Varios_173_4.jpg"/>
           <fw type="paginaNum">— 4—</fw>
 
           <l>De la corbata lo anell</l>
@@ -1572,14 +1581,11 @@
           <l>Puig que li sobra de tot.</l>
 
           <p rend="cursiva"><lb/>Es propietat.</p>
-          <trailer rend="indent">Fi.</trailer>
+          <trailer>Fi.</trailer>
         </div>
         
-        <div type="colofon_vendedor">
+        <div type="colofon">
           <p><lb/>Se ven en casa D. Pere Rius, paperaire del carrer del Hospital, n.° 26. </p>
-        </div>
-        
-        <div type="colofon_impresor">
           <p><lb/>BARCELONA : Imp. de Joseph Gaspar, carrer de Cervantes, cantonada al de
             Gegants.—1860.</p>
         </div>

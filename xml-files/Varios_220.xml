@@ -3,10 +3,19 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Sainete nou lo casament den Saldoni y la Margarida.</title>
-        <respStmt>
-          <name/>
+        <title>Sainete nou lo casament den Saldoni y la Margarida</title>
+        <respStmt xml:id="PJ">
+          <name>Pauline Jacsont</name>
+          <resp>Segmentación y transcripción</resp>
           <resp>Codificación TEI</resp>
+        </respStmt>
+        <respStmt xml:id="LF">
+          <name>Lorysmar Franco</name>
+          <resp>Corrección de la transcripción</resp>
+        </respStmt>
+        <respStmt xml:id="EL">
+          <name>Elina Leblanc</name>
+          <resp>Verificación de la codificación y carga en el sitio web</resp>
         </respStmt>
       </titleStmt>
       <publicationStmt>
@@ -18,8 +27,7 @@
       <sourceDesc>
         <biblFull>
           <titleStmt>
-            <title type="titulo_completo">Sainete nou lo casament den Saldoni y la
-              Margarida.</title>
+            <title type="titulo_completo">Sainete nou lo casament den Saldoni y la Margarida.</title>
             <title type="titulo_breve"/>
           </titleStmt>
           <editionStmt>
@@ -36,8 +44,7 @@
             <country>Suisse</country>
             <settlement>Genève</settlement>
             <repository>Bibliothèque Universitaire de Genève <ref
-                target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"
-              />
+                target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"/>
             </repository>
             <collection>Colección Varios</collection>
             <idno type="cote"/>
@@ -68,10 +75,10 @@
               </layoutDesc>
             </objectDesc>
             <decoDesc>
-              <summary n="1">Un grabado (p.1) </summary>
+              <summary n="1">Un grabado (p.1)</summary>
               <decoNote type="lista_grabados">
                 <list>
-                  <item corresp="grabado_v_220_1.xml">grabado_v_220_1</item>
+                  <item corresp="grabado_v_220_1.xml" facs="varios/Varios_220_1.jpg/17,266,1492,1061/100,/0/default.jpg">grabado_v_220_1</item>
                 </list>
               </decoNote>
             </decoDesc>
@@ -96,7 +103,7 @@
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR no corregido</p>
+          <p>OCR corregido</p>
         </correction>
         <normalization>
           <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
@@ -4730,11 +4737,11 @@
   <text>
     <body>
       <div>
-        <pb n="1" source="Varios_220_1.jpg" facs="varios/Varios_220_1.jpg/"/>
+        <pb n="1" source="Varios_220_1.jpg" facs="varios/Varios_220_1.jpg"/>
 
         <fw type="impresorNum">N° 6</fw>
 
-        <fw type="numeroPliego">Preu 6 cuartos.</fw>
+        <fw type="numeroPliego"><hi rend="cursiva">Preu 6 cuartos.</hi></fw>
 
         <head type="primer_titulo"><lb/><hi rend="negrita">SAINETE NOU</hi><lb/>LO CASAMENT<lb/><hi
             rend="negrita">DEN SALDONI Y LA MARGARIDA.</hi></head>
@@ -4762,7 +4769,7 @@
             <lb/>He dit la misa, dos combregás, tres
             <lb/>enterros, cinch batejs, y dos es-
             
-            <pb n="2" source="Varios_220_2.jpg" facs="varios/Varios_220_2.jpg/"/>
+            <pb n="2" source="Varios_220_2.jpg" facs="varios/Varios_220_2.jpg"/>
             
             <fw type="paginaNum">2</fw>
             
@@ -4889,7 +4896,7 @@
             <lb/>que cuan ell li diu alguna cosa la
             <lb/>noya sel escolta, y sen riu, sobre
             
-              <pb n="3" source="Varios_220_3.jpg" facs="varios/Varios_220_3.jpg/"/>
+              <pb n="3" source="Varios_220_3.jpg" facs="varios/Varios_220_3.jpg"/>
             
               <fw type="paginaNum">3</fw>
             
@@ -5048,7 +5055,7 @@
             <l>devant. Entreu.</l>
           </sp>
           
-          <pb n="4" source="Varios_220_4.jpg" facs="varios/Varios_220_4.jpg/"/>
+          <pb n="4" source="Varios_220_4.jpg" facs="varios/Varios_220_4.jpg"/>
           
           <fw type="paginaNum">4</fw>
           
@@ -5216,7 +5223,7 @@
             <lb/>ho se.</p>
           </sp>
           
-          <pb n="5" source="Varios_220_5.jpg" facs="varios/Varios_220_5.jpg/"/>
+          <pb n="5" source="Varios_220_5.jpg" facs="varios/Varios_220_5.jpg"/>
           
           <fw type="paginaNum">5</fw>
           
@@ -5420,7 +5427,7 @@
             <lb/>ningú an sab dar rahó.</p>
           </sp>
           
-          <pb n="6" source="Varios_220_6.jpg" facs="varios/Varios_220_6.jpg/"/>
+          <pb n="6" source="Varios_220_6.jpg" facs="varios/Varios_220_6.jpg"/>
           
           <fw type="paginaNum">6</fw>
           
@@ -5585,7 +5592,7 @@
             <p><lb/>Per ara, encara no.</p>
           </sp>
           
-          <pb n="7" source="Varios_220_7.jpg" facs="varios/Varios_220_7.jpg/"/>
+          <pb n="7" source="Varios_220_7.jpg" facs="varios/Varios_220_7.jpg"/>
           
           <fw type="paginaNum">7</fw>
           
@@ -5749,7 +5756,7 @@
             <speaker rend="cursiva">Sald.</speaker>
             <p><lb/>Si no am deixa dir, me en-
             
-            <pb n="8" source="Varios_220_8.jpg" facs="varios/Varios_220_8.jpg/"/>
+            <pb n="8" source="Varios_220_8.jpg" facs="varios/Varios_220_8.jpg"/>
             
             <fw type="paginaNum">8</fw>
             
@@ -5811,7 +5818,7 @@
 
         <div type="colofon">
           <p><lb/>BARCELONA. <lb/>Reimpres per F. Vallés, carrer del Pi. <lb/><hi rend="cursiva">En la mateixa llibreria se
-            trobará una gran co- lecció de Sainetes antichs y moderns.</hi></p>
+            trobará una gran co-<lb/> lecció de Sainetes antichs y moderns.</hi></p>
         </div>
       </div>
     </body>

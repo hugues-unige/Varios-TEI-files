@@ -3,10 +3,19 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>NUEVA CANCIÓN DEL CORREGIDOR Y LA MOLINERA</title>
-        <respStmt>
-          <name/>
+        <title>Nueva canción del corregidor y la molinera</title>
+        <respStmt xml:id="PJ">
+          <name>Pauline Jacsont</name>
+          <resp>Segmentación y transcripción</resp>
           <resp>Codificación TEI</resp>
+        </respStmt>
+        <respStmt xml:id="LF">
+          <name>Lorysmar Franco</name>
+          <resp>Corrección de la transcripción</resp>
+        </respStmt>
+        <respStmt xml:id="EL">
+          <name>Elina Leblanc</name>
+          <resp>Verificación de la codificación y carga en el sitio web</resp>
         </respStmt>
       </titleStmt>
       <publicationStmt>
@@ -22,7 +31,7 @@
             <title type="titulo_breve"/>
           </titleStmt>
           <editionStmt>
-            <p/>
+            <p>Otra impresión: <ref target="Varios_075.xml">Varios_075</ref></p>
           </editionStmt>
           <publicationStmt>
             <publisher>Juan Grau</publisher>
@@ -35,8 +44,7 @@
             <country>Suisse</country>
             <settlement>Genève</settlement>
             <repository>Bibliothèque Universitaire de Genève <ref
-                target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"
-              />
+                target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"/>
             </repository>
             <collection>Colección Varios</collection>
             <idno type="cote"/>
@@ -71,10 +79,10 @@
               </layoutDesc>
             </objectDesc>
             <decoDesc>
-              <summary n="1">Un grabado (p.1) </summary>
+              <summary n="1">Un grabado (p.1)</summary>
               <decoNote type="lista_grabados">
                 <list>
-                  <item corresp="grabado_v_237_1.xml">grabado_v_237_1</item>
+                  <item corresp="grabado_v_237_1.xml" facs="varios/Varios_237_1.jpg/63,279,1501,1200/100,/0/default.jpg">grabado_v_237_1</item>
                 </list>
               </decoNote>
             </decoDesc>
@@ -103,7 +111,7 @@
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR no corregido</p>
+          <p>OCR corregido</p>
         </correction>
         <normalization>
           <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
@@ -2115,10 +2123,10 @@
   <text>
     <body>
       <div>
-        <pb n="1" source="Varios_237_1.jpg" facs="varios/Varios_237_1.jpg/"/>
+        <pb n="1" source="Varios_237_1.jpg" facs="varios/Varios_237_1.jpg"/>
 
         <div n="1">
-          <head type="primer_titulo"><lb/>NUEVA CANCIÓN<lb/>DEL<lb/>CORREGIDOR Y LA MOLINERA</head>
+          <head type="primer_titulo"><lb/><hi rend="negrita">NUEVA CANCIÓN</hi><lb/>DEL<lb/>CORREGIDOR Y LA MOLINERA</head>
 
           <lg>
             <l rend="indent">En cierto lugar de España</l>
@@ -2139,7 +2147,7 @@
           <lg>
             <l rend="indent">Respondió la Molinera</l>
 
-            <pb n="2" source="Varios_237_2.jpg" facs="varios/Varios_237_2.jpg/"/>
+            <pb n="2" source="Varios_237_2.jpg" facs="varios/Varios_237_2.jpg"/>
 
             <l>vuestros favores admito</l>
             <l>pero temo que mi esposo</l>
@@ -2244,7 +2252,7 @@
             <l rend="indent">que en otras noches</l>
             <l rend="indent">no anduvo el coche.</l>
 
-            <pb n="3" source="Varios_237_3.jpg" facs="varios/Varios_237_3.jpg/"/>
+            <pb n="3" source="Varios_237_3.jpg" facs="varios/Varios_237_3.jpg"/>
 
             <l rend="indent">con tal violencia,</l>
             <l rend="indent">y la respondió:</l>
@@ -2347,7 +2355,7 @@
             <l>porque nadie les notase</l>
             <l>en la casa se metieron:</l>
 
-            <pb n="4" source="Varios_237_4.jpg" facs="varios/Varios_237_4.jpg/"/>
+            <pb n="4" source="Varios_237_4.jpg" facs="varios/Varios_237_4.jpg"/>
 
             <l rend="indent">y dispusieron</l>
             <l rend="indent">como hombres sábios</l>

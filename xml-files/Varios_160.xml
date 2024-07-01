@@ -4,10 +4,19 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>NUEVO Y CURIOSO PAPEL</title>
-        <respStmt>
-          <name/>
+        <title>Nuevo y curioso papel</title>
+        <respStmt xml:id="PJ">
+          <name>Pauline Jacsont</name>
+          <resp>Segmentación y transcripción</resp>
           <resp>Codificación TEI</resp>
+        </respStmt>
+        <respStmt xml:id="LF">
+          <name>Lorysmar Franco</name>
+          <resp>Corrección de la transcripción</resp>
+        </respStmt>
+        <respStmt xml:id="EL">
+          <name>Elina Leblanc</name>
+          <resp>Verificación de la codificación y carga en el sitio web</resp>
         </respStmt>
       </titleStmt>
       <publicationStmt>
@@ -19,10 +28,10 @@
       <sourceDesc>
         <biblFull>
           <titleStmt>
-            <title type="titulo_completo">NUEVO Y CURIOSO PAPEL en el que se cuenta y declara las
+            <title type="titulo_completo">Nuevo y curioso papel en el que se cuenta y declara las
               grandes desgracias ocurridas el dia 5 de Enero de 1909, á causa de una borrasca
               envuelta en grandes tormentas en las costas de Canarias.</title>
-            <title type="titulo_breve">NUEVO Y CURIOSO PAPEL</title>
+            <title type="titulo_breve">Nuevo y curioso papel</title>
           </titleStmt>
           <editionStmt>
             <p/>
@@ -72,12 +81,12 @@
               </layoutDesc>
             </objectDesc>
             <decoDesc>
-              <summary n="3">Tres grabados (p.1 + 2 + 3) </summary>
+              <summary n="3">Tres grabados (p.1 + 2 + 3)</summary>
               <decoNote type="lista_grabados">
                 <list>
-                  <item corresp="grabado_v_160_1.xml">grabado_v_160_1</item>
-                  <item corresp="grabado_v_160_2.xml">grabado_v_160_2</item>
-                  <item corresp="grabado_v_160_3.xml">grabado_v_160_3</item>
+                  <item corresp="grabado_v_160_1.xml" facs="varios/Varios_160_1.jpg/552,222,630,941/100,/0/default.jpg">grabado_v_160_1</item>
+                  <item corresp="grabado_v_160_2.xml" facs="varios/Varios_160_2.jpg/487,1629,632,285/100,/0/default.jpg">grabado_v_160_2</item>
+                  <item corresp="grabado_v_160_3.xml" facs="varios/Varios_160_3.jpg/487,89,862,405/100,/0/default.jpg">grabado_v_160_3</item>
                 </list>
               </decoNote>
             </decoDesc>
@@ -102,7 +111,7 @@
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR no corregido</p>
+          <p>OCR corregido</p>
         </correction>
         <normalization>
           <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
@@ -1166,7 +1175,7 @@
     <body>
       <div>
         <div>
-          <pb n="1" source="Varios_160_1.jpg" facs="varios/Varios_160_1.jpg/"/>
+          <pb n="1" source="Varios_160_1.jpg" facs="varios/Varios_160_1.jpg"/>
 
           <head type="primer_titulo" rend="negrita"><lb/>NUEVO Y CURIOSO PAPEL</head>
           <head type="subtitulo_parte" rend="cursiva"><lb/>en el que se cuenta y declara las grandes
@@ -1211,7 +1220,7 @@
             <l>y los demás elementos,</l>
             <l>tierra. fuego, viento y agua.</l>
 
-            <pb n="2" source="Varios_160_2.jpg" facs="varios/Varios_160_2.jpg/"/>
+            <pb n="2" source="Varios_160_2.jpg" facs="varios/Varios_160_2.jpg"/>
 
             <l>todo lo que sostiene</l>
             <l>la Naturaleza humana</l>
@@ -1289,7 +1298,7 @@
           </div>
 
           <div type="parte" n="2">
-            <pb n="3" source="Varios_160_3.jpg" facs="varios/Varios_160_3.jpg/"/>
+            <pb n="3" source="Varios_160_3.jpg" facs="varios/Varios_160_3.jpg"/>
 
             <head type="titulo_parte"><lb/>SEGUNDA PARTE</head>
 
@@ -1366,7 +1375,7 @@
             <l>pobre y desesperada.</l>
             <l rend="indent">Habian otros que decian</l>
 
-            <pb n="4" source="Varios_160_4.jpg" facs="varios/Varios_160_4.jpg/"/>
+            <pb n="4" source="Varios_160_4.jpg" facs="varios/Varios_160_4.jpg"/>
 
             <l>estas siguientes palabras:</l>
             <l>tres hijos que ha tenido</l>

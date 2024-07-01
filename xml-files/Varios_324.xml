@@ -3,10 +3,19 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>TESTAMENTO DE UN ASNO.</title>
-        <respStmt>
-          <name xml:id="PJ">Pauline Jacsont</name>
+        <title>Testamento de un asno</title>
+        <respStmt xml:id="PJ">
+          <name>Pauline Jacsont</name>
+          <resp>Segmentación y transcripción</resp>
           <resp>Codificación TEI</resp>
+        </respStmt>
+        <respStmt xml:id="LF">
+          <name>Lorysmar Franco</name>
+          <resp>Corrección de la transcripción</resp>
+        </respStmt>
+        <respStmt xml:id="EL">
+          <name>Elina Leblanc</name>
+          <resp>Verificación de la codificación y carga en el sitio web</resp>
         </respStmt>
       </titleStmt>
       <publicationStmt>
@@ -18,7 +27,7 @@
       <sourceDesc>
         <biblFull>
           <titleStmt>
-            <title type="titulo_completo">TESTAMENTO DE UN ASNO.</title>
+            <title type="titulo_completo">Testamento de un asno.</title>
             <title type="titulo_breve"/>
           </titleStmt>
           <editionStmt>
@@ -67,11 +76,11 @@
               </layoutDesc>
             </objectDesc>
             <decoDesc>
-              <summary n="2">Dos grabados (p.1) </summary>
+              <summary n="2">Dos grabados (p.1)</summary>
               <decoNote type="lista_grabados">
                 <list>
-                  <item corresp="grabado_v_324_1.xml">grabado_v_324_1</item>
-                  <item corresp="grabado_v_324_2.xml">grabado_v_324_2</item>
+                  <item corresp="grabado_v_324_1.xml" facs="varios/Varios_324_1.jpg/541,215,416,831/100,/0/default.jpg">grabado_v_324_1</item>
+                  <item corresp="grabado_v_324_2.xml" facs="varios/Varios_324_1.jpg/953,288,686,802/100,/0/default.jpg">grabado_v_324_2</item>
                 </list>
               </decoNote>
             </decoDesc>
@@ -100,7 +109,7 @@
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR no corregido</p>
+          <p>OCR corregido</p>
         </correction>
         <normalization>
           <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
@@ -2774,7 +2783,7 @@
   <text>
     <body>
       <div>
-        <pb n="1" source="Varios_324_1.jpg" facs="varios/Varios_324_1.jpg/"/>
+        <pb n="1" source="Varios_324_1.jpg" facs="varios/Varios_324_1.jpg"/>
 
         <fw type="numeroPliego">(Núm. 33.)</fw>
 
@@ -2828,7 +2837,7 @@
           <l>á lástima me ha movido</l>
           <l>que esteis, padre, tan enfermo;</l>
 
-          <pb n="2" source="Varios_324_2.jpg" facs="varios/Varios_324_2.jpg/"/>
+          <pb n="2" source="Varios_324_2.jpg" facs="varios/Varios_324_2.jpg"/>
 
           <l>favoreceros es justo,</l>
           <l>y como hijo obedezco;</l>
@@ -2925,7 +2934,7 @@
           <l>porque los piojos y polvo</l>
           <l>son causa de fatigarle:</l>
 
-          <pb n="3" source="Varios_324_3.jpg" facs="varios/Varios_324_3.jpg/"/>
+          <pb n="3" source="Varios_324_3.jpg" facs="varios/Varios_324_3.jpg"/>
 
           <l> tengan con él gran cuidado,</l>
           <l>y por mañana y por tarde</l>
@@ -3022,7 +3031,7 @@
           <l>Mando hacer de mi pellejo</l>
           <l>una criva que sea ancha,</l>
 
-          <pb n="4" source="Varios_324_4.jpg" facs="varios/Varios_324_4.jpg/"/>
+          <pb n="4" source="Varios_324_4.jpg" facs="varios/Varios_324_4.jpg"/>
 
           <l>porque coman mis parientes</l>
           <l>bien sacudida la paja.</l>
@@ -3111,7 +3120,7 @@
         </div>
         
         <div type="colofon">
-          <p><lb/>MADRID: Imprenta á cargo de José M. Marés, plaza dela Cebada núm. 96.</p>
+          <p><lb/>MADRID: Imprenta á cargo de José M. Marés, plaza de la Cebada núm. 96.</p>
         </div>
       </div>
     </body>

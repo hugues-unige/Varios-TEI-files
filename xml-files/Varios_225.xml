@@ -3,10 +3,19 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>NUEVAS Y HERMOSAS CANCIONES DE LA JOTA VALENCIANA</title>
-        <respStmt>
-          <name/>
+        <title>Nuevas y hermosas canciones de la jota valenciana</title>
+        <respStmt xml:id="PJ">
+          <name>Pauline Jacsont</name>
+          <resp>Segmentación y transcripción</resp>
           <resp>Codificación TEI</resp>
+        </respStmt>
+        <respStmt xml:id="LF">
+          <name>Lorysmar Franco</name>
+          <resp>Corrección de la transcripción</resp>
+        </respStmt>
+        <respStmt xml:id="EL">
+          <name>Elina Leblanc</name>
+          <resp>Verificación de la codificación y carga en el sitio web</resp>
         </respStmt>
       </titleStmt>
       <publicationStmt>
@@ -36,8 +45,7 @@
             <country>Suisse</country>
             <settlement>Genève</settlement>
             <repository>Bibliothèque Universitaire de Genève <ref
-                target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"
-              />
+                target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"/>
             </repository>
             <collection>Colección Varios</collection>
             <idno type="cote"/>
@@ -51,7 +59,7 @@
             <msItem>
               <locus>1-4</locus>
               <title>Nueva y hermosas canciones de la jota valenciana</title>
-              <author>J. F. (a) Queri</author>
+              <author role="letrista">J. F. (a) Queri</author>
             </msItem>
             <msItem>
               <locus>4</locus>
@@ -73,12 +81,12 @@
               </layoutDesc>
             </objectDesc>
             <decoDesc>
-              <summary n="3">Tres cuatro cinco seis grabados (p.1) </summary>
+              <summary n="3">Tres grabados (p.1)</summary>
               <decoNote type="lista_grabados">
                 <list>
-                  <item corresp="grabado_v_225_1.xml">grabado_v_225_1</item>
-                  <item corresp="grabado_v_225_2.xml">grabado_v_225_2</item>
-                  <item corresp="grabado_v_225_3.xml">grabado_v_225_3</item>
+                  <item corresp="grabado_v_225_1.xml" facs="varios/Varios_225_1.jpg/113,369,487,853/100,/0/default.jpg">grabado_v_225_1</item>
+                  <item corresp="grabado_v_225_2.xml" facs="varios/Varios_225_1.jpg/585,204,493,1021/100,/0/default.jpg">grabado_v_225_2</item>
+                  <item corresp="grabado_v_225_3.xml" facs="varios/Varios_225_1.jpg/1072,422,552,809/100,/0/default.jpg">grabado_v_225_3</item>
                 </list>
               </decoNote>
             </decoDesc>
@@ -109,7 +117,7 @@
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR no corregido</p>
+          <p>OCR corregido</p>
         </correction>
         <normalization>
           <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
@@ -2704,7 +2712,7 @@
     <body>
       <div>
 
-        <pb n="1" source="Varios_225_1.jpg" facs="varios/Varios_225_1.jpg/"/>
+        <pb n="1" source="Varios_225_1.jpg" facs="varios/Varios_225_1.jpg"/>
 
         <div>
           <head type="primer_titulo"><lb/><hi rend="negrita">NUEVAS Y HERMOSAS CANCIONES</hi><lb/>DE
@@ -2751,7 +2759,7 @@
             <l>en su pila bautismal</l>
             <l>allí pusieron mi nombre.</l>
 
-            <pb n="2" source="Varios_225_2.jpg" facs="varios/Varios_225_2.jpg/"/>
+            <pb n="2" source="Varios_225_2.jpg" facs="varios/Varios_225_2.jpg"/>
 
             <l rend="indent">Hay muchas valencianitas</l>
             <l>que van muy cortas de faldas,</l>
@@ -2850,7 +2858,7 @@
             <l>es ir con los valencianos</l>
             <l>para hacer la gran paella.</l>
 
-            <pb n="3" source="Varios_225_3.jpg" facs="varios/Varios_225_3.jpg/"/>
+            <pb n="3" source="Varios_225_3.jpg" facs="varios/Varios_225_3.jpg"/>
 
             <l rend="indent">La paella es el mejor</l>
             <l>según llegan a contar</l>
@@ -2949,7 +2957,7 @@
             <l>y allí cuando uno es criatura,</l>
             <l>ya aprende cualquier canción.</l>
 
-            <pb n="4" source="Varios_225_4.jpg" facs="varios/Varios_225_4.jpg/"/>
+            <pb n="4" source="Varios_225_4.jpg" facs="varios/Varios_225_4.jpg"/>
 
             <l rend="indent">Valencia la fama tiene,</l>
             <l>de tener buenos cantores,</l>

@@ -4,10 +4,19 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>HISTORIA DE LOS AMORES de Matilde y Malek-Adhel, ó MEMORIAS SACADAS DE LA HISTORIA DE LAS CRUZADAS.</title>
-        <respStmt>
-          <name xml:id="PJ">Pauline Jacsont</name>
+        <title>Historia de los amores de Matilde y Malek-Adhel</title>
+        <respStmt xml:id="PJ">
+          <name>Pauline Jacsont</name>
+          <resp>Segmentación y transcripción</resp>
           <resp>Codificación TEI</resp>
+        </respStmt>
+        <respStmt xml:id="LB">
+          <name>Luana Bermúdez</name>
+          <resp>Corrección de la transcripción</resp>
+        </respStmt>
+        <respStmt xml:id="EL">
+          <name>Elina Leblanc</name>
+          <resp>Verificación de la codificación y carga en el sitio web</resp>
         </respStmt>
       </titleStmt>
       <publicationStmt>
@@ -69,18 +78,11 @@
               </layoutDesc>
             </objectDesc>
             <decoDesc>
-              <summary n="3">Tres grabados (p.1) </summary>
+              <summary n="2">Dos grabados (p.1)</summary>
               <decoNote type="lista_grabados">
                 <list>
-                  <item corresp="grabado_v_432_1.xml">grabado_v_432_1</item>
-                  <item corresp="grabado_v_432_2.xml">grabado_v_432_2</item>
-                  <item corresp="grabado_v_432_3.xml">grabado_v_432_3</item>
-                </list>
-              </decoNote>
-              <decoNote type="lista_ornamentos">
-                <list>
-                  <item corresp="ornamento_v_432_1">ornamento_v_432_1</item>
-                  <item corresp="ornamento_v_432_2">ornamento_v_432_2</item>
+                  <item corresp="grabado_v_432_1.xml" facs="varios/Varios_432_1.jpg/119,265,1197,834/100,/0/default.jpg">grabado_v_432_1</item>
+                  <item corresp="grabado_v_432_2.xml" facs="varios/Varios_432_12.jpg/169,504,1148,916/100,/0/default.jpg">grabado_v_432_2</item>
                 </list>
               </decoNote>
             </decoDesc>
@@ -112,7 +114,7 @@
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR no corregido</p>
+          <p>OCR corregido</p>
         </correction>
         <normalization>
           <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
@@ -7660,7 +7662,7 @@
   <text>
     <body>
       <div>
-        <pb n="1" source="Varios_432_1.jpg" facs="varios/Varios_432_1.jpg/"/>
+        <pb n="1" source="Varios_432_1.jpg" facs="varios/Varios_432_1.jpg"/>
         
         <fw type="numeroPliego">(TRES PLIEGOS.)</fw>
         
@@ -7669,21 +7671,18 @@
         <head type="subtitulo_parte"><lb/>ó<lb/>MEMORIAS SACADAS DE LA HISTORIA DE LAS
           CRUZADAS.</head>
         
-        <div type="colofón_vendedor">
+        <div type="colofon">
           <p><lb/>PALMA. Se ven en la tenda de M. de Borrás, Calle del Call, 40.</p>
+          <p><lb/><hi rend="negrita">Imprenta de Marés y Compañía, plaza de la Cebada, núm. 13.</hi></p>
         </div>
         
-        <div type="colofon_impresora">
-          <p rend="negrita"><lb/>Imprenta de Marés y Compañía, plaza de la Cebada, núm. 13.</p>
-        </div>
-        
-        <pb n="2" source="Varios_432_2.jpg" facs="varios/Varios_432_2.jpg/"/>
+        <pb n="2" source="Varios_432_2.jpg" facs="varios/Varios_432_2.jpg"/>
         
         <div>
           <p><lb/>(Autorizada segun la ley vigente.)</p>
         </div>
         
-        <pb n="3" source="Varios_432_3.jpg" facs="varios/Varios_432_3.jpg/"/>
+        <pb n="3" source="Varios_432_3.jpg" facs="varios/Varios_432_3.jpg"/>
         
         <div type="capitulo" n="1">
           <head type="primer_titulo"><lb/>HISTORIA<lb/>DE LOS AMORES DE<lb/><hi rend="negrita"
@@ -7714,7 +7713,7 @@
             presente á la <lb/>toma de hábito de la jóven novicia. Hallábase en este estado la
             be- <lb/>lla princesa, y daba gracias á Dios continuamente porque la hu-
           
-            <pb n="4" source="Varios_432_4.jpg" facs="varios/Varios_432_4.jpg/"/>
+            <pb n="4" source="Varios_432_4.jpg" facs="varios/Varios_432_4.jpg"/>
           
             <fw type="paginaNum">— 4—</fw>
           
@@ -7757,7 +7756,7 @@
             dejándola<lb/>anegada en lágrimas.</p>
           <p rend="indent"><lb/>No obstante, dejó Ricardo fletado un buque para trasportar
           
-          <pb n="5" source="Varios_432_5.jpg" facs="varios/Varios_432_5.jpg/"/>
+          <pb n="5" source="Varios_432_5.jpg" facs="varios/Varios_432_5.jpg"/>
           
           <fw type="paginaNum">—5—</fw>
           
@@ -7802,7 +7801,7 @@
             magnolias tan puras y tan bri-<lb/>llantes. A la hora que el sol decaia en su ocaso, y
             á la hora en que<lb/>las plantas abren sus cálices para despedir las emanaciones de su
               
-              <pb n="6" source="Varios_432_6.jpg" facs="varios/Varios_432_6.jpg/"/>
+              <pb n="6" source="Varios_432_6.jpg" facs="varios/Varios_432_6.jpg"/>
               
               <fw type="paginaNum">— 6 —</fw>
             
@@ -7844,7 +7843,7 @@
             secreta <lb/>y cubierta con el espeso ramaje al paraje donde se paseaban las
             <lb/>princesas.</p>
           
-          <pb n="7" source="Varios_432_7.jpg" facs="varios/Varios_432_7.jpg/"/>
+          <pb n="7" source="Varios_432_7.jpg" facs="varios/Varios_432_7.jpg"/>
           
           <fw type="paginaNum">—7—</fw>
           
@@ -7886,7 +7885,7 @@
             su amor, porque al fin amaba á un sarrraceno.</p>
         </div>
         
-        <pb n="8" source="Varios_432_8.jpg" facs="varios/Varios_432_8.jpg/"/>
+        <pb n="8" source="Varios_432_8.jpg" facs="varios/Varios_432_8.jpg"/>
         
         <fw type="paginaNum">— 8—</fw>
         
@@ -7916,7 +7915,7 @@
             á<lb/>amar.<lb/>—Estoy destinada á ser una esposa de Jesucristo. A Inglaterra<lb/>es
             donde me llaman mis votos.
           
-              <pb n="9" source="Varios_432_9.jpg" facs="varios/Varios_432_9.jpg/"/>
+              <pb n="9" source="Varios_432_9.jpg" facs="varios/Varios_432_9.jpg"/>
           
               <fw type="paginaNum">—9—</fw>
           
@@ -7958,7 +7957,7 @@
             sigulente dia.
             <fw type="signaturas">2</fw>
           
-              <pb n="10" source="Varios_432_10.jpg" facs="varios/Varios_432_10.jpg/"/>
+              <pb n="10" source="Varios_432_10.jpg" facs="varios/Varios_432_10.jpg"/>
           
               <fw type="paginaNum">— 10 —</fw>
           
@@ -8004,7 +8003,7 @@
             voz hu-<lb/>mana. Adelantóse la princesa, y postrándose á sus pies, esclama:<lb/>¡Oh,
             venerable anciano amparadme! El solitario, asombrado, se
               
-            <pb n="11" source="Varios_432_11.jpg" facs="varios/Varios_432_11.jpg/"/>
+            <pb n="11" source="Varios_432_11.jpg" facs="varios/Varios_432_11.jpg"/>
             
             <fw type="paginaNum">— 11—</fw>
           
@@ -8049,7 +8048,7 @@
               <p><lb/>(1)  Véase el grabado que va al frente de esta historia.</p>
             </note>
           
-            <pb n="12" source="Varios_432_12.jpg" facs="varios/Varios_432_12.jpg/"/>
+            <pb n="12" source="Varios_432_12.jpg" facs="varios/Varios_432_12.jpg"/>
           
             <fw type="paginaNum">— 12—</fw>
           
@@ -8072,7 +8071,7 @@
             donde todos los<lb/>objetos que nos rodean nos sirven de testigos, os juro que no
             seré<lb/>jamás de otro sino de Dios ó de tí. Dios ha recibido este juramento 
             
-            <pb n="13" source="Varios_432_13.jpg" facs="varios/Varios_432_13.jpg/"/>
+            <pb n="13" source="Varios_432_13.jpg" facs="varios/Varios_432_13.jpg"/>
             
             <fw type="paginaNum">— 13 —</fw>
             
@@ -8117,7 +8116,7 @@
             cris-<lb/>tianos, como ya sabeis, el ilustre Ricardo y demas soberanos se<lb/>preparaban
             para el asalto de Tolemaida, que á su parecer debia 
             
-            <pb n="14" source="Varios_432_14.jpg" facs="varios/Varios_432_14.jpg/"/>
+            <pb n="14" source="Varios_432_14.jpg" facs="varios/Varios_432_14.jpg"/>
             
             <fw type="paginaNum">— 14—</fw>
             
@@ -8159,7 +8158,7 @@
             permanecer en el Cairo la princesa sin grave esposicion de<lb/>su vida por el encono que
             la profesaban sus habitantes, se resuel- 
             
-              <pb n="15" source="Varios_432_15.jpg" facs="varios/Varios_432_15.jpg/"/>
+              <pb n="15" source="Varios_432_15.jpg" facs="varios/Varios_432_15.jpg"/>
             
               <fw type="paginaNum">— 15—</fw>
             
@@ -8200,7 +8199,7 @@
             principe, vencido por el<lb/>dolor de separarse de Matilde, iba ya á acceder, cuando el
             árabe<lb/>Kaled que estaba á su lado se inclinó al oido del príncipe, y le di- 
           
-              <pb n="16" source="Varios_432_16.jpg" facs="varios/Varios_432_16.jpg/"/>
+              <pb n="16" source="Varios_432_16.jpg" facs="varios/Varios_432_16.jpg"/>
             
               <fw type="paginaNum">— 16 —</fw>
             
@@ -8241,7 +8240,7 @@
             que su adversario <lb/>esclamaba: sepulta, Montmorency, tu espada en el seno de <lb/>una
             mujer. A este nombre el héroe se detiene, le corta las 
             
-            <pb n="17" source="Varios_432_17.jpg" facs="varios/Varios_432_17.jpg/"/>
+            <pb n="17" source="Varios_432_17.jpg" facs="varios/Varios_432_17.jpg"/>
             
             <fw type="paginaNum">— 17—</fw>
             
@@ -8284,7 +8283,7 @@
             conducen al balcon de <lb/>Matilde, pone una rodilla en tierra se inclina, besa el
             ribete de su <fw type="signaturas">3</fw>
             
-            <pb n="18" source="Varios_432_18.jpg" facs="varios/Varios_432_18.jpg/"/>
+            <pb n="18" source="Varios_432_18.jpg" facs="varios/Varios_432_18.jpg"/>
             
             <fw type="paginaNum">— 18—</fw>
             
@@ -8324,7 +8323,7 @@
             acompañado única- <lb/>mente de su valor. Agradecido Saladino con esta muestra de
             urba- <lb/>nidad, le tomó afectuosamente la mano, y le dijo: 
             
-            <pb n="19" source="Varios_432_19.jpg" facs="varios/Varios_432_19.jpg/"/>
+            <pb n="19" source="Varios_432_19.jpg" facs="varios/Varios_432_19.jpg"/>
             
             <fw type="paginaNum">— 19—</fw>
             
@@ -8364,7 +8363,7 @@
             lid, mientras que ellos admirados <lb/>de hallar tanta resistencia en su contrario,
             redoblaban la violencia 
             
-            <pb n="20" source="Varios_432_20.jpg" facs="varios/Varios_432_20.jpg/"/>
+            <pb n="20" source="Varios_432_20.jpg" facs="varios/Varios_432_20.jpg"/>
             
             <fw type="paginaNum">— 20—</fw>
             
@@ -8404,7 +8403,7 @@
             deseada conquista de los <lb/>Santos Lugares.</p>
         </div>
         
-        <pb n="21" source="Varios_432_21.jpg" facs="varios/Varios_432_21.jpg/"/>
+        <pb n="21" source="Varios_432_21.jpg" facs="varios/Varios_432_21.jpg"/>
         
         <fw type="paginaNum">— 21—</fw>
         
@@ -8442,7 +8441,7 @@
             ejército, y Kaled la linea derecha, se puso él como un rayo al <lb/>lado de la linea
             izquierda que se desalentaba acosada por Ricardo 
             
-              <pb n="22" source="Varios_432_22.jpg" facs="varios/Varios_432_22.jpg/"/>
+              <pb n="22" source="Varios_432_22.jpg" facs="varios/Varios_432_22.jpg"/>
             
               <fw type="paginaNum">— 22—</fw>
             
@@ -8484,7 +8483,7 @@
             sombra de Malek-Adhel; desea alejarse de <lb/>aquel sitio espantoso, pero quiere
             llevarse el cuerpo de su amo, y 
             
-            <pb n="23" source="Varios_432_23.jpg" facs="varios/Varios_432_23.jpg/"/>
+            <pb n="23" source="Varios_432_23.jpg" facs="varios/Varios_432_23.jpg"/>
             
             <fw type="paginaNum">— 23 ——</fw>
             
@@ -8526,7 +8525,7 @@
             de <lb/>los remordimientos, caminaba tambien ligero, deseoso de reparar, <lb/>en cuanto
             le fuese posible, el mal que habia causado. Llegaron por 
             
-            <pb n="24" source="Varios_432_24.jpg" facs="varios/Varios_432_24.jpg/"/>
+            <pb n="24" source="Varios_432_24.jpg" facs="varios/Varios_432_24.jpg"/>
             
             <fw type="paginaNum">— 24—</fw>
             

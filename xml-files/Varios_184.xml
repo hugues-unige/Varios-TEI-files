@@ -4,10 +4,19 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>RESPOSTA A LA CANSÓ CAPSANAS Y VISERAS.</title>
-        <respStmt>
-          <name/>
+        <title>Resposta a la cansó capsanas y viseras</title>
+        <respStmt xml:id="PJ">
+          <name>Pauline Jacsont</name>
+          <resp>Segmentación y transcripción</resp>
           <resp>Codificación TEI</resp>
+        </respStmt>
+        <respStmt xml:id="LF">
+          <name>Lorysmar Franco</name>
+          <resp>Corrección de la transcripción</resp>
+        </respStmt>
+        <respStmt xml:id="EL">
+          <name>Elina Leblanc</name>
+          <resp>Verificación de la codificación y carga en el sitio web</resp>
         </respStmt>
       </titleStmt>
       <publicationStmt>
@@ -70,18 +79,12 @@
               </layoutDesc>
             </objectDesc>
             <decoDesc>
-              <summary n="3">Tres grabados (p.1) </summary>
+              <summary n="3">Tres grabados (p.1 + 3)</summary>
               <decoNote type="lista_grabados">
                 <list>
-                  <item corresp="grabado_v_184_1.xml">grabado_v_184_1</item>
-                  <item corresp="grabado_v_184_2.xml">grabado_v_184_2</item>
-                  <item corresp="grabado_v_184_3.xml">grabado_v_184_3</item>
-                </list>
-              </decoNote>
-              <decoNote type="lista_ornamentos">
-                <list>
-                  <item corresp="ornamento_v_183_1">ornamento_v_183_1</item>
-                  <item corresp="ornamento_v_183_1">ornamento_v_183_2</item>
+                  <item corresp="grabado_v_184_1.xml" facs="varios/Varios_184_1.jpg/280,157,1437,988/100,/0/default.jpg">grabado_v_184_1</item>
+                  <item corresp="grabado_v_184_2.xml" facs="varios/Varios_184_3.jpg/324,192,480,936/100,/0/default.jpg">grabado_v_184_2</item>
+                  <item corresp="grabado_v_184_3.xml" facs="varios/Varios_184_3.jpg/956,42,577,1077/100,/0/default.jpg">grabado_v_184_3</item>
                 </list>
               </decoNote>
             </decoDesc>
@@ -113,7 +116,7 @@
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR no corregido</p>
+          <p>OCR corregido</p>
         </correction>
         <normalization>
           <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
@@ -1160,7 +1163,7 @@
     <body>
       <div>
         <div n="1">
-          <pb n="1" source="Varios_184_1.jpg" facs="varios/Varios_184_1.jpg/"/>
+          <pb n="1" source="Varios_184_1.jpg" facs="varios/Varios_184_1.jpg"/>
 
           <head type="primer_titulo"><lb/>RESPOSTA A LA CANSÓ<lb/><hi rend="negrita">CAPSANAS Y
               VISERAS.</hi></head>
@@ -1197,7 +1200,7 @@
             <l>No du <hi rend="cursvia">Capsana</hi></l>
             <l>ni tampoch <hi rend="cursiva">Visera</hi> ,</l>
 
-            <pb n="2" source="Varios_184_2.jpg" facs="varios/Varios_184_2.jpg/"/>
+            <pb n="2" source="Varios_184_2.jpg" facs="varios/Varios_184_2.jpg"/>
 
             <l>que porta un quempis</l>
             <l>ab aspitlleras ,</l>
@@ -1227,13 +1230,13 @@
           </lg>
           <lg>
             <head type="titulo_estrofa">4.ª</head>
-            <l rend="indent">La <hi rend="cursvia">Capsana</hi> es una moda</l>
+            <l rend="indent">La <hi rend="cursiva">Capsana</hi> es una moda</l>
             <l>enfadosa y mal per ell,</l>
             <l>perque nesesita moma</l>
             <l>per fersa rissá el cabell :</l>
             <l>per está libre de abonos</l>
             <l>cosa que may ha pagat,</l>
-            <l>ne detesta la <hi rend="cursvia">Capsana</hi></l>
+            <l>ne detesta la <hi rend="cursiva">Capsana</hi></l>
             <l>porta el cap á lo Soldat.</l>
             <l>Y així buldria</l>
             <l>que no's portés,</l>
@@ -1270,7 +1273,7 @@
                 <corr>6.ª</corr>
               </choice>
             </head>
-            <l rend="indent">Es cómoda la <hi rend="cursvia">Capsana</hi>,</l>
+            <l rend="indent">Es cómoda la <hi rend="cursiva">Capsana</hi>,</l>
             <l>la <hi rend="cursiva">Visera</hi> nes també ,</l>
             <l>axí pues seguim la moda</l>
             <l>que ella fá corre el diné;</l>
@@ -1278,7 +1281,7 @@
             <l>ella es la que manté</l>
             <l>als sastres y á las modistas,</l>
             <l>y fá rich al butigué.</l>
-            <l>Vivan <hi rend="cursvia">Capsana</hi>s,</l>
+            <l>Vivan <hi rend="cursiva">Capsana</hi>s,</l>
             <l>Vivan <hi rend="cursiva">Visera</hi>s</l>
             <l>morin los <hi rend="cursiva">Quempis</hi></l>
             <l>ab aspitlleras.</l>
@@ -1291,7 +1294,7 @@
         </div>
 
         <div n="2">
-          <pb n="3" source="Varios_184_3.jpg" facs="varios/Varios_184_3.jpg/"/>
+          <pb n="3" source="Varios_184_3.jpg" facs="varios/Varios_184_3.jpg"/>
 
           <head type="titulo_parte"><lb/><hi rend="negrita">EL LLANTO TRISTE.</hi><lb/>PRIMERA
             PARTE.</head>
@@ -1337,7 +1340,7 @@
           <l>De alegria volviera mi espanto,</l>
           <l>Y te amára cual fiel amador.</l>
 
-          <pb n="4" source="Varios_184_4.jpg" facs="varios/Varios_184_4.jpg/"/>
+          <pb n="4" source="Varios_184_4.jpg" facs="varios/Varios_184_4.jpg"/>
 
           <l rend="indent">De tristeza me hallo abatido,</l>
           <l>Carolina, tan solo por tí,</l>
@@ -1432,12 +1435,9 @@
           <trailer>FIN.</trailer>
         </div>
 
-        <div type="colofón_vendedor">
+        <div type="colofon">
           <p><lb/>Se halla de venta en la plaza de Santa Ana, n.° 16, piso 3.°, escalerilla del
             Sillero al lado de Montesion,</p>
-        </div>
-
-        <div type="colofon_impresor">
           <p><lb/>BARCELONA: IMPRENTA DE SANCHEZ.</p>
         </div>
       </div>

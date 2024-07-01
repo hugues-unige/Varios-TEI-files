@@ -4,10 +4,19 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>HISTORIA INTERESÁN DE UN GRANDIÓS ELEFÁN</title>
-        <respStmt>
-          <name xml:id="PJ">Pauline Jacsont</name>
+        <title>Historia interesán de un grandiós elefán</title>
+        <respStmt xml:id="PJ">
+          <name>Pauline Jacsont</name>
+          <resp>Segmentación y transcripción</resp>
           <resp>Codificación TEI</resp>
+        </respStmt>
+        <respStmt xml:id="BP">
+          <name>Belinda Palacios</name>
+          <resp>Corrección de la transcripción</resp>
+        </respStmt>
+        <respStmt xml:id="EL">
+          <name>Elina Leblanc</name>
+          <resp>Verificación de la codificación y carga en el sitio web</resp>
         </respStmt>
       </titleStmt>
       <publicationStmt>
@@ -72,7 +81,7 @@
               <summary n="1">Un grabado (p.1)</summary>
               <decoNote type="lista_grabados">
                 <list>
-                  <item corresp="grabado_v_402_1.xml">grabado_v_402_1</item>
+                  <item corresp="grabado_v_402_1.xml" facs="varios/Varios_402_1.jpg/75,216,1513,979/100,/0/default.jpg">grabado_v_402_1</item>
                 </list>
               </decoNote>
             </decoDesc>
@@ -101,7 +110,7 @@
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR no corregido</p>
+          <p>OCR corregido</p>
         </correction>
         <normalization>
           <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
@@ -113,7 +122,7 @@
     </encodingDesc>
     <profileDesc>
       <langUsage>
-        <language ident="es">Español</language>
+        <language ident="ca">Catalán</language>
       </langUsage>
       <textClass>
         <keywords xml:base="http://datos.bne.es/tema/">
@@ -2702,13 +2711,13 @@
   <text>
     <body>
       <div>
-        <pb n="1" source="Varios_402_1.jpg" facs="varios/Varios_402_1.jpg/"/>
+        <pb n="1" source="Varios_402_1.jpg" facs="varios/Varios_402_1.jpg"/>
 
         <div>
           <head type="primer_titulo"><lb/><hi rend="negrita">HISTORIA INTERESÁN</hi><lb/>DE
               UN<lb/><hi rend="negrita">GRANDIÓS ELEFÁN</hi></head>
           <head type="subtitulo"><lb/>AB TOTAS LAS ASSANVAS QUE VA PASSÁ<lb/>DESDE SON NAIEMENT
-            HASTA «L PRESENT ANY</head>
+            HASTA 'L PRESENT ANY</head>
 
           <l rend="indent">Lector, si acás viatjavas,</l>
           <l>veurías cosas mol grans:</l>
@@ -2729,7 +2738,7 @@
           <l rend="indent">Las aurellas... que 't diré:</l>
           <l>es dir, las de 'ls elefans</l>
 
-          <pb n="2" source="Varios_402_2.jpg" facs="varios/Varios_402_2.jpg/"/>
+          <pb n="2" source="Varios_402_2.jpg" facs="varios/Varios_402_2.jpg"/>
 
           <l>no son de bon tros tan grans</l>
           <l>las ventallas de un barbé.</l>
@@ -2830,7 +2839,7 @@
           <l>allì aurian vist rahons,</l>
           <l>y tot cristo contre de ell.</l>
 
-          <pb n="3" source="Varios_402_3.jpg" facs="varios/Varios_402_3.jpg/"/>
+          <pb n="3" source="Varios_402_3.jpg" facs="varios/Varios_402_3.jpg"/>
 
           <l rend="indent">Ell ab la trompa arbolada</l>
           <l>ya me 'ls comensa é empaitá,</l>
@@ -2931,7 +2940,7 @@
           <l rend="indent">Pero estava un poch borratxo</l>
           <l>perque 'l grandissim ninot</l>
 
-          <pb n="4" source="Varios_402_4.jpg" facs="varios/Varios_402_4.jpg/"/>
+          <pb n="4" source="Varios_402_4.jpg" facs="varios/Varios_402_4.jpg"/>
 
           <l>veyentlo ab la trompa y tót</l>
           <l>se va pensá que era un matxo.</l>
@@ -3023,7 +3032,7 @@
             <l>y acabat, amen Jesús.</l>
           </lg>
           
-          <trailer rend="negrita">– FI —</trailer>
+          <trailer><hi rend="negrita">– FI —</hi></trailer>
         </div>
         
         <div type="propiedad">

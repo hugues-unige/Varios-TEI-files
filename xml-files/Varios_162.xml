@@ -5,9 +5,18 @@
     <fileDesc>
       <titleStmt>
         <title>Historia de un estraordinario suceso acontecido en la actual guerra entre la Turquia y la Rusia</title>
-        <respStmt>
-          <name/>
+        <respStmt xml:id="PJ">
+          <name>Pauline Jacsont</name>
+          <resp>Segmentación y transcripción</resp>
           <resp>Codificación TEI</resp>
+        </respStmt>
+        <respStmt xml:id="LF">
+          <name>Lorysmar Franco</name>
+          <resp>Corrección de la transcripción</resp>
+        </respStmt>
+        <respStmt xml:id="EL">
+          <name>Elina Leblanc</name>
+          <resp>Verificación de la codificación y carga en el sitio web</resp>
         </respStmt>
       </titleStmt>
       <publicationStmt>
@@ -70,10 +79,10 @@
               </layoutDesc>
             </objectDesc>
             <decoDesc>
-              <summary n="1">Un grabado (p.1) </summary>
+              <summary n="1">Un grabado (p.1)</summary>
               <decoNote type="lista_grabados">
                 <list>
-                  <item corresp="grabado_v_162_1.xml">grabado_v_162_1</item>
+                  <item corresp="grabado_v_162_1.xml" facs="varios/Varios_162_1.jpg/189,178,1379,861/100,/0/default.jpg">grabado_v_162_1</item>
                 </list>
               </decoNote>
             </decoDesc>
@@ -100,7 +109,7 @@
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR no corregido</p>
+          <p>OCR corregido</p>
         </correction>
         <normalization>
           <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
@@ -1376,7 +1385,7 @@
   <text>
     <body>
       <div>
-        <pb n="1" source="Varios_162_1.jpg" facs="varios/Varios_162_1.jpg/"/>
+        <pb n="1" source="Varios_162_1.jpg" facs="varios/Varios_162_1.jpg"/>
         <div>
           <head type="primer_titulo" rend="cursiva"><lb/>Historia de un estraordinario suceso
             acontecido en la actual guerra entre la<lb/>Turquia y la Rusia: en que se cuenta como
@@ -1430,7 +1439,7 @@
           <l rend="indent">Las naciones de Occidente,</l>
           <l>cuyo comercio es sabido,</l>
 
-          <pb n="2" source="Varios_162_2.jpg" facs="varios/Varios_162_2.jpg/"/>
+          <pb n="2" source="Varios_162_2.jpg" facs="varios/Varios_162_2.jpg"/>
 
           <l>por no estorbar sus negocios</l>
           <l>halagan al enemigo.</l>
@@ -1521,7 +1530,7 @@
           <l rend="indent">Al fuerte de Kalafat</l>
           <l>al fin fueron conducidos,</l>
 
-          <pb n="3" source="Varios_162_3.jpg" facs="varios/Varios_162_3.jpg/"/>
+          <pb n="3" source="Varios_162_3.jpg" facs="varios/Varios_162_3.jpg"/>
 
           <l>en el cual les aguardaba</l>
           <l>el mas estraño destino.</l>
@@ -1612,7 +1621,7 @@
           <l rend="indent">Hizo repetir ancioso</l>
           <l>lo que ya está referido</l>
 
-          <pb n="4" source="Varios_162_4.jpg" facs="varios/Varios_162_4.jpg/"/>
+          <pb n="4" source="Varios_162_4.jpg" facs="varios/Varios_162_4.jpg"/>
 
           <l>y hasta en la voz cree oir</l>
           <l>á la hija que ha perdido.</l>
@@ -1692,11 +1701,8 @@
           <p rend="cursiva"><lb/>Es propiedad.</p>
         </div>
 
-        <div type="colofon_impresor">
+        <div type="colofon">
           <p><lb/>Imprenta de I. Estivill, calle del Conde del Asalto, n.° 65.</p>
-        </div>
-
-        <div type="colofon_vendedor">
           <p><lb/>PALMA.—Tienda de M. Borrás, plaza del Call n. 10</p>
         </div>
       </div>

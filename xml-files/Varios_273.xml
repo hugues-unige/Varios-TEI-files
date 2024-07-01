@@ -4,9 +4,18 @@
     <fileDesc>
       <titleStmt>
         <title>Trovos del pájaro</title>
-        <respStmt>
-          <name/>
+        <respStmt xml:id="PJ">
+          <name>Pauline Jacsont</name>
+          <resp>Segmentación y transcripción</resp>
           <resp>Codificación TEI</resp>
+        </respStmt>
+        <respStmt xml:id="LF">
+          <name>Lorysmar Franco</name>
+          <resp>Corrección de la transcripción</resp>
+        </respStmt>
+        <respStmt xml:id="EL">
+          <name>Elina Leblanc</name>
+          <resp>Verificación de la codificación y carga en el sitio web</resp>
         </respStmt>
       </titleStmt>
       <publicationStmt>
@@ -18,8 +27,7 @@
       <sourceDesc>
         <biblFull>
           <titleStmt>
-            <title type="titulo_completo">Trovos del pájaro que cantan los queridos á sus
-              damas</title>
+            <title type="titulo_completo">Trovos del pájaro que cantan los queridos á sus damas</title>
             <title type="titulo_breve">Trovos del pájaro</title>
           </titleStmt>
           <editionStmt>
@@ -36,8 +44,7 @@
             <country>Suisse</country>
             <settlement>Genève</settlement>
             <repository>Bibliothèque Universitaire de Genève <ref
-                target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"
-              />
+                target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"/>
             </repository>
             <collection>Colección Varios</collection>
             <idno type="cote"/>
@@ -68,12 +75,12 @@
               </layoutDesc>
             </objectDesc>
             <decoDesc>
-              <summary n="3">Tres grabados (p.1) </summary>
+              <summary n="3">Tres grabados (p.1)</summary>
               <decoNote type="lista_grabados">
                 <list>
-                  <item corresp="grabado_v_273_1.xml">grabado_v_273_1</item>
-                  <item corresp="grabado_v_273_2.xml">grabado_v_273_2</item>
-                  <item corresp="grabado_v_273_3.xml">grabado_v_273_3</item>
+                  <item corresp="grabado_v_273_1.xml" facs="varios/Varios_273_1.jpg/77,205,581,1021/100,/0/default.jpg">grabado_v_273_1</item>
+                  <item corresp="grabado_v_273_2.xml" facs="varios/Varios_273_1.jpg/635,218,623,492/100,/0/default.jpg">grabado_v_273_2</item>
+                  <item corresp="grabado_v_273_3.xml" facs="varios/Varios_273_1.jpg/1248,231,494,982/100,/0/default.jpg">grabado_v_273_3</item>
                 </list>
               </decoNote>
             </decoDesc>
@@ -104,7 +111,7 @@
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR no corregido</p>
+          <p>OCR corregido</p>
         </correction>
         <normalization>
           <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
@@ -2079,7 +2086,7 @@
   <text>
     <body>
       <div>
-        <pb n="1" source="Varios_273_1.jpg" facs="varios/Varios_273_1.jpg/"/>
+        <pb n="1" source="Varios_273_1.jpg" facs="varios/Varios_273_1.jpg"/>
 
         <div>
           <head type="primer_titulo"><hi rend="negrita">TROVOS</hi> DEL <hi rend="negrita"
@@ -2124,7 +2131,7 @@
             </lg>
           </lg>
 
-          <pb n="2" source="Varios_273_2.jpg" facs="varios/Varios_273_2.jpg/"/>
+          <pb n="2" source="Varios_273_2.jpg" facs="varios/Varios_273_2.jpg"/>
 
           <lg>
             <head type="titulo_estrofa">2.°</head>
@@ -2238,7 +2245,7 @@
             </lg>
           </lg>
 
-          <pb n="3" source="Varios_273_3.jpg" facs="varios/Varios_273_3.jpg/"/>
+          <pb n="3" source="Varios_273_3.jpg" facs="varios/Varios_273_3.jpg"/>
 
           <lg>
             <head type="titulo_estrofa">5.°</head>
@@ -2352,7 +2359,7 @@
             </lg>
           </lg>
           
-          <pb n="4" source="Varios_273_4.jpg" facs="varios/Varios_273_4.jpg/"/>
+          <pb n="4" source="Varios_273_4.jpg" facs="varios/Varios_273_4.jpg"/>
           
           <lg>
             <head type="titulo_estrofa">8.°</head>

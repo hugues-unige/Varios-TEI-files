@@ -3,10 +3,19 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>CANCION DEL TROVADOR</title>
+        <title>Cancion del Trovador</title>
         <respStmt>
-          <name/>
+          <name xml:id="PJ">Pauline Jacsont</name>
+          <resp>Segmentación y transcripción</resp>
           <resp>Codificación TEI</resp>
+        </respStmt>
+        <respStmt xml:id="LF">
+          <name>Lorysmar Franco</name>
+          <resp>Corrección de la transcripción</resp>
+        </respStmt>
+        <respStmt xml:id="EL">
+          <name>Elina Leblanc</name>
+          <resp>Verificación de la codificación y carga en el sitio web</resp>
         </respStmt>
       </titleStmt>
       <publicationStmt>
@@ -75,11 +84,11 @@
               </layoutDesc>
             </objectDesc>
             <decoDesc>
-              <summary n="2">Dos grabados (p.1) </summary>
+              <summary n="2">Dos grabados (p.1)</summary>
               <decoNote type="lista_grabados">
                 <list>
-                  <item corresp="grabado_v_292_1.xml">grabado_v_292_1</item>
-                  <item corresp="grabado_v_292_2.xml">grabado_v_292_2</item>
+                  <item corresp="grabado_v_292_1.xml" facs="varios/Varios_292_1.jpg/342,166,998,900/100,/0/default.jpg">grabado_v_292_1</item>
+                  <item corresp="grabado_v_292_2.xml" facs="varios/Varios_292_3.jpg/570,727,643,709/100,/0/default.jpg">grabado_v_292_2</item>
                 </list>
               </decoNote>
             </decoDesc>
@@ -111,7 +120,7 @@
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR no corregido</p>
+          <p>OCR corregido</p>
         </correction>
         <normalization>
           <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
@@ -1413,7 +1422,7 @@
   <text>
     <body>
       <div>
-        <pb n="1" source="Varios_292_1.jpg" facs="varios/Varios_292_1.jpg/"/>
+        <pb n="1" source="Varios_292_1.jpg" facs="varios/Varios_292_1.jpg"/>
 
         <div n="1">
           <head type="primer_titulo" rend="negrita"><lb/>CANCION<lb/>DEL TROVADOR.</head>
@@ -1439,7 +1448,7 @@
             <l>Tén ¡ ay ! piedad del triste Trovador.</l>
           </lg>
 
-          <pb n="2" source="Varios_292_2.jpg" facs="varios/Varios_292_2.jpg/"/>
+          <pb n="2" source="Varios_292_2.jpg" facs="varios/Varios_292_2.jpg"/>
 
           <lg>
             <l rend="indent">El ronco son de belicosa trompa</l>
@@ -1492,7 +1501,7 @@
             <l>Quiero á tus piés agonizar, de amor.</l>
           </lg>
 
-          <pb n="3" source="Varios_292_3.jpg" facs="varios/Varios_292_3.jpg/"/>
+          <pb n="3" source="Varios_292_3.jpg" facs="varios/Varios_292_3.jpg"/>
 
           <lg>
             <l rend="indent">Te ví por fin... acércate ángel mio,</l>
@@ -1550,7 +1559,7 @@
             <l>Oh Trovador ! en tu querido bien.</l>
           </lg>
 
-          <pb n="4" source="Varios_292_4.jpg" facs="varios/Varios_292_4.jpg/"/>
+          <pb n="4" source="Varios_292_4.jpg" facs="varios/Varios_292_4.jpg"/>
 
           <lg>
             <l rend="indent">Al asomar el sol en el Oriente</l>

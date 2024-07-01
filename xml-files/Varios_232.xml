@@ -3,10 +3,19 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>GRAN HISTORIA DE UN POLLÍ</title>
-        <respStmt>
-          <name/>
+        <title>Gran historia de un pollí</title>
+        <respStmt xml:id="PJ">
+          <name>Pauline Jacsont</name>
+          <resp>Segmentación y transcripción</resp>
           <resp>Codificación TEI</resp>
+        </respStmt>
+        <respStmt xml:id="LF">
+          <name>Lorysmar Franco</name>
+          <resp>Corrección de la transcripción</resp>
+        </respStmt>
+        <respStmt xml:id="EL">
+          <name>Elina Leblanc</name>
+          <resp>Verificación de la codificación y carga en el sitio web</resp>
         </respStmt>
       </titleStmt>
       <publicationStmt>
@@ -23,7 +32,7 @@
             <title type="titulo_breve">Gran Historia de un pollí</title>
           </titleStmt>
           <editionStmt>
-            <p/>
+            <p>Otras impresiones: <ref target="Varios_078.xml">Varios_078</ref> y <ref target="Varios_461.xml">Varios_461</ref></p>
           </editionStmt>
           <publicationStmt>
             <publisher>El Abanico</publisher>
@@ -36,8 +45,7 @@
             <country>Suisse</country>
             <settlement>Genève</settlement>
             <repository>Bibliothèque Universitaire de Genève <ref
-                target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"
-              />
+                target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"/>
             </repository>
             <collection>Colección Varios</collection>
             <idno type="cote"/>
@@ -68,10 +76,10 @@
               </layoutDesc>
             </objectDesc>
             <decoDesc>
-              <summary n="1">Un grabado (p.1) </summary>
+              <summary n="1">Un grabado (p.1)</summary>
               <decoNote type="lista_grabados">
                 <list>
-                  <item corresp="grabado_v_232_1.xml">grabado_v_232_1</item>
+                  <item corresp="grabado_v_232_1.xml" facs="varios/Varios_232_1.jpg/176,225,1559,1138/100,/0/default.jpg">grabado_v_232_1</item>
                 </list>
               </decoNote>
             </decoDesc>
@@ -96,7 +104,7 @@
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR no corregido</p>
+          <p>OCR corregido</p>
         </correction>
         <normalization>
           <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
@@ -112,8 +120,8 @@
       </langUsage>
       <textClass>
         <keywords xml:base="http://datos.bne.es/tema/">
-          <term type="tipo_texto"/>
-          <term type="tipo_estrofa"/>
+          <term type="tipo_texto">Historias</term>
+          <term target="XX527614.html" type="tipo_estrofa">Romances</term>
           <term type="verso_prosa">Verso</term>
           <term type="sagrado_profano">Profano</term>
         </keywords>
@@ -2484,10 +2492,10 @@
   <text>
     <body>
       <div>
-        <pb n="1" source="Varios_232_1.jpg" facs="varios/Varios_232_1.jpg/"/>
+        <pb n="1" source="Varios_232_1.jpg" facs="varios/Varios_232_1.jpg"/>
 
         <div>
-          <head type="primer_titulo"><lb/>GRAN HISTORIA DE UN POLLÍ<lb/>burro, ase, bestia y
+          <head type="primer_titulo" rend="negrita"><lb/>GRAN HISTORIA DE UN POLLÍ<lb/>burro, ase, bestia y
             animal;<lb/>y molt desgraciat per una petita ilusió</head>
 
           <l rend="indent">Un any per la primavera</l>
@@ -2515,7 +2523,7 @@
           <l>li comprá sarria nova,</l>
           <l>es di, molt ben arriat.</l>
 
-          <pb n="2" source="Varios_232_2.jpg" facs="varios/Varios_232_2.jpg/"/>
+          <pb n="2" source="Varios_232_2.jpg" facs="varios/Varios_232_2.jpg"/>
 
           <l rend="indent">Pero 'l feya treballá</l>
           <l>donantli una vida amarga,</l>
@@ -2614,7 +2622,7 @@
           <l>y sempre ensumán per terra</l>
           <l>y hasta reya d' alegría.</l>
 
-          <pb n="3" source="Varios_232_3.jpg" facs="varios/Varios_232_3.jpg/"/>
+          <pb n="3" source="Varios_232_3.jpg" facs="varios/Varios_232_3.jpg"/>
 
           <l rend="indent">Al poble van arribá</l>
           <l>y del firal á la plassa</l>
@@ -2714,7 +2722,7 @@
           <note place="pie_de_página"><lb/>(1) Quért: vol dir burro. (2) Gelén: fugí. (3) Can-
             <lb/>tipén: pudó. (4) Gelát: fugit. (5) Marél : cops <lb/>(6) Gelén: fuigim.</note>
 
-          <pb n="4" source="Varios_232_4.jpg" facs="varios/Varios_232_4.jpg/"/>
+          <pb n="4" source="Varios_232_4.jpg" facs="varios/Varios_232_4.jpg"/>
 
           <l>y al firal, qui mes qui menos</l>
           <l>tothom desitja comprá.</l>

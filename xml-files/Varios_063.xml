@@ -4,10 +4,19 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>LA ESTISORA</title>
-        <respStmt>
-          <name/>
+        <title>La estisora</title>
+        <respStmt xml:id="PJ">
+          <name>Pauline Jacsont</name>
+          <resp>Segmentación y transcripción</resp>
           <resp>Codificación TEI</resp>
+        </respStmt>
+        <respStmt xml:id="MB">
+          <name>Miguel Betti</name>
+          <resp>Corrección de la transcripción</resp>
+        </respStmt>
+        <respStmt xml:id="EL">
+          <name>Elina Leblanc</name>
+          <resp>Verificación de la codificación y carga en el sitio web</resp>
         </respStmt>
       </titleStmt>
       <publicationStmt>
@@ -19,11 +28,11 @@
       <sourceDesc>
         <biblFull>
           <titleStmt>
-            <title type="titulo_completo">LA ESTISORA. Sermó sense ser furiós, pero pica y punxa:
+            <title type="titulo_completo">La estisora. Sermó sense ser furiós, pero pica y punxa:
               reparteix alguns clatallots y surras Está carregat de mentidas vestidas de alguns
               trossas de veritat Está escrit per un mes embustero que un gos de dos nassos y mes
               dormilega que una marmota, y en prova d'aixó ALLÁ VA BOLA</title>
-            <title type="titulo_breve">LA ESTISORA.</title>
+            <title type="titulo_breve">La estisora.</title>
           </titleStmt>
           <editionStmt>
             <p/>
@@ -69,10 +78,10 @@
               </layoutDesc>
             </objectDesc>
             <decoDesc>
-              <summary n="1">Un grabado (p.1) </summary>
+              <summary n="1">Un grabado (p.1)</summary>
               <decoNote type="lista_grabados">
                 <list>
-                  <item corresp="grabado_v_063_1.xml">grabado_v_063_1</item>
+                  <item corresp="grabado_v_063_1.xml" facs="varios/Varios_063_1.jpg/168,238,1429,1225/100,/0/default.jpg">grabado_v_063_1</item>
                 </list>
               </decoNote>
             </decoDesc>
@@ -97,7 +106,7 @@
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR no corregido</p>
+          <p>OCR corregido</p>
         </correction>
         <normalization>
           <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
@@ -114,7 +123,7 @@
       <textClass>
         <keywords xml:base="http://datos.bne.es/tema/">
           <term type="tipo_texto">Relaciones</term>
-          <term type="tipo_estrofa"/>
+          <term type="tipo_estrofa" target="XX4843218.html">Romances</term>
           <term type="verso_prosa">Verso</term>
           <term type="sagrado_profano">Profano</term>
         </keywords>
@@ -1430,7 +1439,7 @@
     <body>
       <div>
         <div>
-          <pb n="1" source="Varios_063_1.jpg" facs="varios/Varios_063_1.jpg/"/>
+          <pb n="1" source="Varios_063_1.jpg" facs="varios/Varios_063_1.jpg"/>
 
           <head type="primer_titulo" rend="negrita"><lb/>LA ESTISORA</head>
           <head type="subtitulo"><lb/>Sermó sense ser furiós, pero pica y punxa: reparteix alguns
@@ -1452,7 +1461,7 @@
           <l rend="indent">Perque jo al que diu mentida</l>
           <l>ja sabeu que 'l dono a dida,</l>
 
-          <pb n="2" source="Varios_063_2.jpg" facs="varios/Varios_063_2.jpg/"/>
+          <pb n="2" source="Varios_063_2.jpg" facs="varios/Varios_063_2.jpg"/>
 
           <l>y aquel que mourá soroll</l>
           <l>dos creus li faré du al coll;</l>
@@ -1573,7 +1582,7 @@
           <l>y avans no hagi un embull</l>
           <l>valdrá mes girém de full.</l>
 
-          <pb n="3" source="Varios_063_3.jpg" facs="varios/Varios_063_3.jpg/"/>
+          <pb n="3" source="Varios_063_3.jpg" facs="varios/Varios_063_3.jpg"/>
 
           <l>¡Qui pogués parlá ben clá,</l>
           <l>de las cosas que ara hi ha!!</l>
@@ -1695,7 +1704,7 @@
           <l rend="indent">Ditxosos, Deu los mantingui</l>
           <l>que cap desgracia no 'ls vingui</l>
 
-          <pb n="4" source="Varios_063_4.jpg" facs="varios/Varios_063_4.jpg/"/>
+          <pb n="4" source="Varios_063_4.jpg" facs="varios/Varios_063_4.jpg"/>
 
           <l>Pero 'i tot en genera!</l>
           <l>sl tinch de parlar formal,</l>

@@ -4,10 +4,19 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>LOS MISTERIOS</title>
-        <respStmt>
-          <name/>
+        <title>Los misterios</title>
+        <respStmt xml:id="PJ">
+          <name>Pauline Jacsont</name>
+          <resp>Segmentación y transcripción</resp>
           <resp>Codificación TEI</resp>
+        </respStmt>
+        <respStmt xml:id="LF">
+          <name>Lorysmar Franco</name>
+          <resp>Corrección de la transcripción</resp>
+        </respStmt>
+        <respStmt xml:id="EL">
+          <name>Elina Leblanc</name>
+          <resp>Verificación de la codificación y carga en el sitio web</resp>
         </respStmt>
       </titleStmt>
       <publicationStmt>
@@ -19,9 +28,8 @@
       <sourceDesc>
         <biblFull>
           <titleStmt>
-            <title type="titulo_completo">LOS MISTERIOS. DE LAS CRIADAS LEONOR Ó SEA DE CRIADA Á
-              SEÑORA</title>
-            <title type="titulo_breve">LOS MISTERIOS.</title>
+            <title type="titulo_completo">Los misterios. De las criadas Leonor ó sea de criada á señora</title>
+            <title type="titulo_breve">Los misterios.</title>
           </titleStmt>
           <editionStmt>
             <p/>
@@ -74,7 +82,7 @@
               <summary n="2">Un grabado (p.1)</summary>
               <decoNote type="lista_grabados">
                 <list>
-                  <item corresp="grabado_v_128_1.xml">grabado_v_128_1</item>
+                  <item corresp="grabado_v_128_1.xml" facs="varios/Varios_128_1.jpg/0,220,1679,1498/100,/0/default.jpg">grabado_v_128_1</item>
                 </list>
               </decoNote>
             </decoDesc>
@@ -101,7 +109,7 @@
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR no corregido</p>
+          <p>OCR corregido</p>
         </correction>
         <normalization>
           <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
@@ -534,7 +542,7 @@
     <body>
       <div>
         <div>
-          <pb n="1" source="Varios_128_1.jpg" facs="varios/Varios_128_1.jpg/"/>
+          <pb n="1" source="Varios_128_1.jpg" facs="varios/Varios_128_1.jpg"/>
           <head type="primer_titulo" rend="negrita"><lb/>LOS MISTERIOS.</head>
           <head type="subtitulo_parte"><lb/>DE LAS CRIADAS LEONOR Ó SEA DE CRIADA Á SEÑORA</head>
 
@@ -550,7 +558,7 @@
               <l>Á todos inspiró amor</l>
             </lg>
 
-            <pb n="2" source="Varios_128_2.jpg" facs="varios/Varios_128_2.jpg/"/>
+            <pb n="2" source="Varios_128_2.jpg" facs="varios/Varios_128_2.jpg"/>
 
             <lg>
               <l rend="indent">D. Pancracio se llamaba</l>
@@ -627,7 +635,7 @@
           </div>
 
           <div n="2">
-            <pb n="3" source="Varios_128_3.jpg" facs="varios/Varios_128_3.jpg/"/>
+            <pb n="3" source="Varios_128_3.jpg" facs="varios/Varios_128_3.jpg"/>
 
             <head type="titulo_parte"><lb/><hi rend="negrita">SEGUNDA</hi><lb/>PARTE.</head>
 
@@ -656,7 +664,7 @@
               <l>Que pruebas tantas le dieron de amor.</l>
             </lg>
 
-            <pb n="4" source="Varios_128_4.jpg" facs="varios/Varios_128_4.jpg/"/>
+            <pb n="4" source="Varios_128_4.jpg" facs="varios/Varios_128_4.jpg"/>
 
             <lg>
               <l rend="indent">Quiza algun bajará el orgullo</l>

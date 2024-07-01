@@ -4,10 +4,19 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>EL AS DE BASTOS</title>
-        <respStmt>
-          <name/>
+        <title>El as de bastos</title>
+        <respStmt xml:id="PJ">
+          <name>Pauline Jacsont</name>
+          <resp>Segmentación y transcripción</resp>
           <resp>Codificación TEI</resp>
+        </respStmt>
+        <respStmt xml:id="MB">
+          <name>Miguel Betti</name>
+          <resp>Corrección de la transcripción</resp>
+        </respStmt>
+        <respStmt xml:id="EL">
+          <name>Elina Leblanc</name>
+          <resp>Verificación de la codificación y carga en el sitio web</resp>
         </respStmt>
       </titleStmt>
       <publicationStmt>
@@ -19,9 +28,8 @@
       <sourceDesc>
         <biblFull>
           <titleStmt>
-            <title type="titulo_completo">EL AS DE BASTOS Polka del popular maestro D. Enrique
-              Martí.</title>
-            <title type="titulo_breve">EL AS DE BASTOS</title>
+            <title type="titulo_completo">El as de bastos Polka del popular maestro D. Enrique Martí.</title>
+            <title type="titulo_breve">El as de bastos</title>
           </titleStmt>
           <editionStmt>
             <p/>
@@ -50,6 +58,7 @@
             <msItem>
               <locus>1-2</locus>
               <title>El As de Bastos</title>
+              <author role="letrista">D. Enrique Martí</author>
             </msItem>
             <msItem>
               <locus>2-3</locus>
@@ -58,6 +67,7 @@
             <msItem>
               <locus>3-4</locus>
               <title>St. St. St.</title>
+              <author role="letrista">D. Enrique Martí</author>
             </msItem>
           </msContents>
           <physDesc>
@@ -75,10 +85,10 @@
               </layoutDesc>
             </objectDesc>
             <decoDesc>
-              <summary n="1">Un grabado (p.1) </summary>
+              <summary n="1">Un grabado (p.1)</summary>
               <decoNote type="lista_grabados">
                 <list>
-                  <item corresp="grabado_v_073_1.xml">grabado_v_073_1</item>
+                  <item corresp="grabado_v_073_1.xml" facs="varios/Varios_073_1.jpg/195,93,1383,1515/100,/0/default.jpg">grabado_v_073_1</item>
                 </list>
               </decoNote>
             </decoDesc>
@@ -107,7 +117,7 @@
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR no corregido</p>
+          <p>OCR corregido</p>
         </correction>
         <normalization>
           <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
@@ -1308,7 +1318,7 @@
     <body>
       <div>
         <div>
-          <pb n="1" source="Varios_073_1.jpg" facs="varios/Varios_073_1.jpg/"/>
+          <pb n="1" source="Varios_073_1.jpg" facs="varios/Varios_073_1.jpg"/>
 
           <div n="1">
             <head type="primer_titulo"><lb/>EL AS DE BASTOS</head>
@@ -1336,7 +1346,7 @@
               <l>¡ay! como se barajan sin cesar</l>
               <l>las cartas entre el hombre y la mujer.</l>
 
-              <pb n="2" source="Varios_073_2.jpg" facs="varios/Varios_073_2.jpg/"/>
+              <pb n="2" source="Varios_073_2.jpg" facs="varios/Varios_073_2.jpg"/>
               <fw type="paginaNum">-2-</fw>
 
               <l rend="indent">Por un beso, vida mía,</l>
@@ -1420,7 +1430,7 @@
           </div>
 
           <div n="2">
-            <head type="titulo_cancion"><lb/>LAS FIRAS Y FESTAS.</head>
+            <head type="titulo_cancion" rend="negrita"><lb/>LAS FIRAS Y FESTAS.</head>
             <head type="subtitulo_cancion"><lb/>Pera cantar ab la tonada de: En Zumalacarregui diu
               que vol venir.</head>
 
@@ -1448,7 +1458,7 @@
               <l>quinas alegrías</l>
               <l>tan curtas sorón.</l>
 
-              <pb n="3" source="Varios_073_3.jpg" facs="varios/Varios_073_3.jpg/"/>
+              <pb n="3" source="Varios_073_3.jpg" facs="varios/Varios_073_3.jpg"/>
               <fw type="paginaNum">-3-</fw>
 
               <l>com no hi ha <hi rend="cursiva">dinero</hi></l>
@@ -1541,8 +1551,8 @@
           </div>
 
           <div n="3">
-            <head type="titulo_cancion"><lb/><hi rend="negrita">St. St. St.</hi></head>
-            <head type="subtitulo_cancion"><lb/>Polxa del popular maestro D. Enrique Martí.</head>
+            <head type="titulo_cancion" rend="negrita"><lb/>St. St. St.</head>
+            <head type="subtitulo_cancion"><lb/>Polka del popular maestro D. Enrique Martí.</head>
 
             <lg>
               <l>St. st. st</l>
@@ -1570,7 +1580,7 @@
               <l>quedo yo en un cruel sufrir;</l>
               <l>oyeme st., st., óyeme st., st.,</l>
 
-              <pb n="4" source="Varios_073_4.jpg" facs="varios/Varios_073_4.jpg/"/>
+              <pb n="4" source="Varios_073_4.jpg" facs="varios/Varios_073_4.jpg"/>
 
               <fw type="paginaNum">—4—</fw>
 

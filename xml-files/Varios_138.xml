@@ -4,10 +4,19 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>TROVOS Y GLOSAS DISCRETAS</title>
-        <respStmt>
-          <name/>
+        <title>Trovos y glosas discretas</title>
+        <respStmt xml:id="PJ">
+          <name>Pauline Jacsont</name>
+          <resp>Segmentación y transcripción</resp>
           <resp>Codificación TEI</resp>
+        </respStmt>
+        <respStmt xml:id="LF">
+          <name>Lorysmar Franco</name>
+          <resp>Corrección de la transcripción</resp>
+        </respStmt>
+        <respStmt xml:id="EL">
+          <name>Elina Leblanc</name>
+          <resp>Verificación de la codificación y carga en el sitio web</resp>
         </respStmt>
       </titleStmt>
       <publicationStmt>
@@ -19,13 +28,14 @@
       <sourceDesc>
         <biblFull>
           <titleStmt>
-            <title type="titulo_completo">TROVOS Y GLOSAS DISCRETAS, QUE PARA EXPLICAR sus penas
+            <title type="titulo_completo">Trovos y glosas discretas, que para explicar sus penas
               cantaba un amante despreciado, cuando se divertia con sus amigos ; compuestos por D.
               Zeferino Zepol, natural de Audujar.</title>
-            <title type="titulo_breve">TROVOS Y GLOSAS DISCRETAS, QUE PARA EXPLICAR</title>
+            <title type="titulo_breve">Trovos y glosas discretas</title>
+            <author role="letrista">Zeferino Zepol</author>
           </titleStmt>
           <editionStmt>
-            <p/>
+            <p>Otras impresiones: <ref target="Varios_289.xml">Varios_289</ref> y <ref target="Varios_458.xml">Varios_458</ref></p>
           </editionStmt>
           <publicationStmt>
             <publisher>[s.n.]</publisher>
@@ -69,11 +79,11 @@
               </layoutDesc>
             </objectDesc>
             <decoDesc>
-              <summary n="2">Dos grabados (p.1 + 4)</summary>
+              <summary n="2">Dos grabados (p.1 + 3)</summary>
               <decoNote type="lista_grabados">
                 <list>
-                  <item corresp="grabado_v_138_1.xml">grabado_v_138_1</item>
-                  <item corresp="grabado_v_138_2.xml">grabado_v_138_2</item>
+                  <item corresp="grabado_v_138_1.xml" facs="varios/Varios_138_1.jpg/605,81,559,600/100,/0/default.jpg">grabado_v_138_1</item>
+                  <item corresp="grabado_v_138_2.xml" facs="varios/Varios_138_4.jpg/772,183,331,524/100,/0/default.jpg">grabado_v_138_2</item>
                 </list>
               </decoNote>
             </decoDesc>
@@ -92,7 +102,7 @@
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR no corregido</p>
+          <p>OCR corregido</p>
         </correction>
         <normalization>
           <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
@@ -1348,7 +1358,7 @@
   <text>
     <body>
       <div>
-        <pb n="1" source="Varios_138_1.jpg" facs="varios/Varios_138_1.jpg/"/>
+        <pb n="1" source="Varios_138_1.jpg" facs="varios/Varios_138_1.jpg"/>
 
         <div n="1">
           <head type="primer_titulo"><lb/>TROVOS Y GLOSAS DISCRETAS, QUE PARA EXPLICAR<lb/>sus penas
@@ -1454,7 +1464,7 @@
               <l>te estimo en tarra manera</l>
               <l>como certifico aqui,</l>
 
-              <pb n="2" source="Varios_138_2.jpg" facs="varios/Varios_138_2.jpg/"/>
+              <pb n="2" source="Varios_138_2.jpg" facs="varios/Varios_138_2.jpg"/>
 
               <l>¡ó quién de amor no supiera!</l>
             </lg>
@@ -1612,7 +1622,7 @@
         </div>
 
         <div n="2">
-          <pb n="4" source="Varios_138_4.jpg" facs="varios/Varios_138_4.jpg/"/>
+          <pb n="4" source="Varios_138_4.jpg" facs="varios/Varios_138_4.jpg"/>
 
           <head type="primer_titulo"><lb/>TROVOS Y GLOSAS DISCRETAS, QUE PARA EXPLICAR<lb/>sus penas
             cantaba un amante despreciado, cuando se divertia<lb/>con sus amigos; compuestos por D.
@@ -1717,7 +1727,7 @@
               <l>te estimo en tanta manera</l>
               <l>como certifico aquí,</l>
 
-              <pb n="3" source="Varios_138_3.jpg" facs="varios/Varios_138_3.jpg/"/>
+              <pb n="3" source="Varios_138_3.jpg" facs="varios/Varios_138_3.jpg"/>
 
               <l>ó quién de amor no supiera!</l>
             </lg>

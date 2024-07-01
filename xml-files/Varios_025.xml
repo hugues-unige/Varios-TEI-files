@@ -5,9 +5,15 @@
     <fileDesc>
       <titleStmt>
         <title>Juana la Valerosa</title>
-        <respStmt>
-          <name/>
+        <respStmt xml:id="PJ">
+          <name>Pauline Jacsont</name>
+          <resp>Segmentación y transcripción</resp>
           <resp>Codificación TEI</resp>
+          <resp>Corrección de la transcripción</resp>
+        </respStmt>
+        <respStmt xml:id="EL">
+          <name>Elina Leblanc</name>
+          <resp>Verificación de la codificación y carga en el sitio web</resp>
         </respStmt>
       </titleStmt>
       <publicationStmt>
@@ -24,7 +30,7 @@
             <title type="titulo_breve">Juana la Valerosa</title>
           </titleStmt>
           <editionStmt>
-            <p/>
+            <p>Otra impresión: <ref target="Varios_302.xml">Varios_302</ref></p>
           </editionStmt>
           <publicationStmt>
             <publisher>El Abanico</publisher>
@@ -67,10 +73,10 @@
               </layoutDesc>
             </objectDesc>
             <decoDesc>
-              <summary n="2">Un grabado (p.1) </summary>
+              <summary n="2">Un grabado (p.1)</summary>
               <decoNote type="lista_grabados">
                 <list>
-                  <item corresp="grabado_v_025_1.xml">grabado_v_025_1</item>
+                  <item corresp="grabado_v_025_1.xml" facs="varios/Varios_025_1.jpg/44,186,1658,1223/100,/0/default.jpg">grabado_v_025_1</item>
                 </list>
               </decoNote>
             </decoDesc>
@@ -99,7 +105,7 @@
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR no corregido</p>
+          <p>OCR corregido</p>
         </correction>
         <normalization>
           <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
@@ -125,10 +131,11 @@
     <revisionDesc>
       <change when="2022-05-07" who="#PJ">Création du fichier TEI P5 et encodage du corps du
         texte</change>
-<change when="2024-01-09" who="#EL">Add the IIIF links</change>
+    <change when="2024-01-09" who="#EL">Add the IIIF links</change>
     </revisionDesc>
   </teiHeader>
-  <facsimile><graphic url="varios/Varios_025_1.jpg/full/200,/0/default.jpg"/></facsimile><sourceDoc xml:id="automaticTranscription">
+  <facsimile><graphic url="varios/Varios_025_1.jpg/full/200,/0/default.jpg"/></facsimile>
+  <sourceDoc xml:id="automaticTranscription">
     <surface xml:id="Varios_025_1" type="page" cert="silver">
       <graphic url="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_025_1/full/full/0/default.jpg"/>
       <zone xml:id="Varios_025_1_BT223_1" n="1" type="CustomZone" subtype="title" points="1631,1453 1631,1856 1395,1856 1395,2021 315,2021 315,1840 108,1840 108,1453 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_025_1/108,1453,1523,568/full/0/default" corresp="CustomZone:title">
@@ -1406,7 +1413,7 @@
     <body>
       <div>
         <div>
-          <pb n="1" source="Varios_025_1.jpg" facs="varios/Varios_025_1.jpg/"/>
+          <pb n="1" source="Varios_025_1.jpg" facs="varios/Varios_025_1.jpg"/>
 
           <head type="primer_titulo" rend="negrita"><lb/>JUANA LA VALEROSA</head>
           <head type="subtitulo_parte"><lb/>Hechos memorables y atrocidades que cometio esta
@@ -1425,7 +1432,7 @@
           <l>y en ánimo varonil</l>
           <l>que le dió naturaleza.</l>
 
-          <pb n="2" source="Varios_025_2.jpg" facs="varios/Varios_025_2.jpg/"/>
+          <pb n="2" source="Varios_025_2.jpg" facs="varios/Varios_025_2.jpg"/>
 
           <l rend="indent">Desde su primera edad</l>
           <l>tuvo afición á la caza</l>
@@ -1534,7 +1541,7 @@
           <l>» que sepa que una mujer</l>
           <l>»les dió muerte y no alevosa</l>
 
-          <pb n="3" source="Varios_025_3.jpg" facs="varios/Varios_025_3.jpg/"/>
+          <pb n="3" source="Varios_025_3.jpg" facs="varios/Varios_025_3.jpg"/>
 
           <l>»más diestra en armas que ellos</l>
           <l>»fué, Juana la Valerosa».</l>
@@ -1643,7 +1650,7 @@
           <l>y de la muerte de aquel</l>
           <l>de antemano hace el letrero.</l>
 
-          <pb n="4" source="Varios_025_4.jpg" facs="varios/Varios_025_4.jpg/"/>
+          <pb n="4" source="Varios_025_4.jpg" facs="varios/Varios_025_4.jpg"/>
 
           <l rend="indent">Vuélvese luego á la plaza</l>
           <l>el jaque aún blasonaba,</l>

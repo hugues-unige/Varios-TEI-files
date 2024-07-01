@@ -4,10 +4,19 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>LA LLUNA EN UN COVA</title>
-        <respStmt>
-          <name/>
+        <title>La lluna en un cova</title>
+        <respStmt xml:id="PJ">
+          <name>Pauline Jacsont</name>
+          <resp>Segmentación y transcripción</resp>
           <resp>Codificación TEI</resp>
+        </respStmt>
+        <respStmt xml:id="LF">
+          <name>Lorysmar Franco</name>
+          <resp>Corrección de la transcripción</resp>
+        </respStmt>
+        <respStmt xml:id="EL">
+          <name>Elina Leblanc</name>
+          <resp>Verificación de la codificación y carga en el sitio web</resp>
         </respStmt>
       </titleStmt>
       <publicationStmt>
@@ -19,7 +28,7 @@
       <sourceDesc>
         <biblFull>
           <titleStmt>
-            <title type="titulo_completo">LA LLUNA EN UN COVA.</title>
+            <title type="titulo_completo">La lluna en un cova.</title>
             <title type="titulo_breve"/>
           </titleStmt>
           <editionStmt>
@@ -70,13 +79,13 @@
               </layoutDesc>
             </objectDesc>
             <decoDesc>
-              <summary n="4">Cuatro grabados (p.1) </summary>
+              <summary n="4">Cuatro grabados (p.1)</summary>
               <decoNote type="lista_grabados">
                 <list>
-                  <item corresp="grabado_v_180_1.xml">grabado_v_180_1</item>
-                  <item corresp="grabado_v_180_2.xml">grabado_v_180_2</item>
-                  <item corresp="grabado_v_180_3.xml">grabado_v_180_3</item>
-                  <item corresp="grabado_v_180_4.xml">grabado_v_180_4</item>
+                  <item corresp="grabado_v_180_1.xml" facs="varios/Varios_180_1.jpg/1186,354,468,1027/100,/0/default.jpg">grabado_v_180_1</item>
+                  <item corresp="grabado_v_180_2.xml" facs="varios/Varios_180_1.jpg/1089,272,121,104/100,/0/default.jpg">grabado_v_180_2</item>
+                  <item corresp="grabado_v_180_3.xml" facs="varios/Varios_180_1.jpg/1018,1046,279,289/100,/0/default.jpg">grabado_v_180_3</item>
+                  <item corresp="grabado_v_180_4.xml" facs="varios/Varios_180_1.jpg/331,258,778,1127/100,/0/default.jpg">grabado_v_180_4</item>
                 </list>
               </decoNote>
               <decoNote type="lista_ornamentos">
@@ -116,7 +125,7 @@
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR no corregido</p>
+          <p>OCR corregido</p>
         </correction>
         <normalization>
           <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
@@ -128,6 +137,7 @@
     </encodingDesc>
     <profileDesc>
       <langUsage>
+        <language ident="ca">Catalán</language>
         <language ident="es">Español</language>
       </langUsage>
       <textClass>
@@ -1251,7 +1261,7 @@
     <body>
       <div>
         <div>
-          <pb n="1" source="Varios_180_1.jpg" facs="varios/Varios_180_1.jpg/"/>
+          <pb n="1" source="Varios_180_1.jpg" facs="varios/Varios_180_1.jpg"/>
 
           <fw type="impresorNum">Núm. 84</fw>
 
@@ -1297,7 +1307,7 @@
             <l>Seguintne tots los racons.</l>
           </lg>
           
-          <pb n="2" source="Varios_180_2.jpg" facs="varios/Varios_180_2.jpg/"/>
+          <pb n="2" source="Varios_180_2.jpg" facs="varios/Varios_180_2.jpg"/>
           
           <fw type="paginaNum">—2—</fw>
           
@@ -1422,7 +1432,7 @@
             <l>Y la buscan en un cova.</l>
           </lg>
           
-          <pb n="3" source="Varios_180_3.jpg" facs="varios/Varios_180_3.jpg/"/>
+          <pb n="3" source="Varios_180_3.jpg" facs="varios/Varios_180_3.jpg"/>
           
           <fw type="paginaNum">— 3 —</fw>
           
@@ -1506,7 +1516,7 @@
             <l>la naciente y vírgen flor.</l>
           </lg>
           
-          <pb n="4" source="Varios_180_4.jpg" facs="varios/Varios_180_4.jpg/"/>
+          <pb n="4" source="Varios_180_4.jpg" facs="varios/Varios_180_4.jpg"/>
           
           <fw type="paginaNum">— 4 —</fw>
           
@@ -1590,12 +1600,9 @@
           <trailer>FIN.</trailer>
         </div>
         
-        <div type="colofon_impresor">
+        <div type="colofon">
           <p><lb/>Se hallará de venta en casa los sucesores de Antonio Bosch, calle del Bou de la
             Plaza Nueva, núm- 13. tienda. </p>
-        </div>
-        
-        <div type="colofon_vendedor">
           <p><lb/>Barcelona.—Imp. de Narciso Ramirez y Comp.ª, pasaje de Escudillers, núm.
             4.—1877</p>
         </div>

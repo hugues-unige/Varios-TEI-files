@@ -5,9 +5,18 @@
     <fileDesc>
       <titleStmt>
         <title>Decimas glosadas</title>
-        <respStmt>
-          <name/>
+        <respStmt xml:id="PJ">
+          <name>Pauline Jacsont</name>
+          <resp>Segmentación y transcripción</resp>
           <resp>Codificación TEI</resp>
+        </respStmt>
+        <respStmt xml:id="LF">
+          <name>Lorysmar Franco</name>
+          <resp>Corrección de la transcripción</resp>
+        </respStmt>
+        <respStmt xml:id="EL">
+          <name>Elina Leblanc</name>
+          <resp>Verificación de la codificación y carga en el sitio web</resp>
         </respStmt>
       </titleStmt>
       <publicationStmt>
@@ -73,8 +82,8 @@
               <summary n="2">Dos grabados (p.1)</summary>
               <decoNote type="lista_grabados">
                 <list>
-                  <item corresp="grabado_v_150_1.xml">grabado_v_150_1</item>
-                  <item corresp="grabado_v_150_2.xml">grabado_v_150_2</item>
+                  <item corresp="grabado_v_150_1.xml" facs="varios/Varios_150_1.jpg/298,184,439,751/100,/0/default.jpg">grabado_v_150_1</item>
+                  <item corresp="grabado_v_150_2.xml" facs="varios/Varios_150_1.jpg/797,280,560,663/100,/0/default.jpg">grabado_v_150_2</item>
                 </list>
               </decoNote>
             </decoDesc>
@@ -99,7 +108,7 @@
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR no corregido</p>
+          <p>OCR corregido</p>
         </correction>
         <normalization>
           <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
@@ -1186,7 +1195,7 @@
     <body>
       <div>
         <div>
-          <pb n="1" source="Varios_150_1.jpg" facs="varios/Varios_150_1.jpg/"/>
+          <pb n="1" source="Varios_150_1.jpg" facs="varios/Varios_150_1.jpg"/>
           <div>
             <head type="primer_titulo"><lb/>DECIMAS GLOSADAS.</head>
             <lg rend="cursiva">
@@ -1244,7 +1253,7 @@
               <l rend="cursiva">de que otro amante la goza.</l>
             </lg>
 
-            <pb n="2" source="Varios_150_2.jpg" facs="varios/Varios_150_2.jpg/"/>
+            <pb n="2" source="Varios_150_2.jpg" facs="varios/Varios_150_2.jpg"/>
 
             <lg rend="cursiva">
               <l rend="indent">Flor, 'serafin ó deidad,</l>
@@ -1331,7 +1340,7 @@
               <l rend="cursiva">ya me puedes conocer.</l>
             </lg>
 
-            <pb n="3" source="Varios_150_3.jpg" facs="varios/Varios_150_3.jpg/"/>
+            <pb n="3" source="Varios_150_3.jpg" facs="varios/Varios_150_3.jpg"/>
 
             <lg>
               <l rend="indent">Si el pueblo te se acabó</l>
@@ -1418,7 +1427,7 @@
               <l>nacido de tus entrañas.</l>
             </lg>
 
-            <pb n="4" source="Varios_150_4.jpg" facs="varios/Varios_150_4.jpg/"/>
+            <pb n="4" source="Varios_150_4.jpg" facs="varios/Varios_150_4.jpg"/>
 
             <lg>
               <l rend="indent">Ya me despido, señora,</l>

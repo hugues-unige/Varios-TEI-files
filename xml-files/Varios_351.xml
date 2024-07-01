@@ -4,10 +4,19 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>MARGARITA DE BORGOÑA</title>
-        <respStmt>
-          <name xml:id="PJ">Pauline Jacsont</name>
+        <title>Margarita de Borgoña</title>
+        <respStmt xml:id="PJ">
+          <name>Pauline Jacsont</name>
+          <resp>Segmentación y transcripción</resp>
           <resp>Codificación TEI</resp>
+        </respStmt>
+        <respStmt xml:id="LF">
+          <name>Lorysmar Franco</name>
+          <resp>Corrección de la transcripción</resp>
+        </respStmt>
+        <respStmt xml:id="EL">
+          <name>Elina Leblanc</name>
+          <resp>Verificación de la codificación y carga en el sitio web</resp>
         </respStmt>
       </titleStmt>
       <publicationStmt>
@@ -70,10 +79,10 @@
               </layoutDesc>
             </objectDesc>
             <decoDesc>
-              <summary n="1">Un grabado (p.1) </summary>
+              <summary n="1">Un grabado (p.1)</summary>
               <decoNote type="lista_grabados">
                 <list>
-                  <item corresp="grabado_v_351_1.xml">grabado_v_351_1</item>
+                  <item corresp="grabado_v_351_1.xml" facs="varios/Varios_351_1.jpg/151,164,1481,1263/100,/0/default.jpg">grabado_v_351_1</item>
                 </list>
               </decoNote>
             </decoDesc>
@@ -102,7 +111,7 @@
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR no corregido</p>
+          <p>OCR corregido</p>
         </correction>
         <normalization>
           <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
@@ -2180,7 +2189,7 @@
   <text>
     <body>
       <div>
-        <pb n="1" source="Varios_351_1.jpg" facs="varios/Varios_351_1.jpg/"/>
+        <pb n="1" source="Varios_351_1.jpg" facs="varios/Varios_351_1.jpg"/>
 
         <div n="1">
           <head type="primer_titulo"><lb/><hi rend="negrita">MARGARITA DE BORGOÑA</hi><lb/>REINA DE
@@ -2198,7 +2207,7 @@
           <l>Margarita de Borgoña;</l>
           <l>la loca, la caprichosa.</l>
 
-          <pb n="2" source="Varios_351_2.jpg" facs="varios/Varios_351_2.jpg/"/>
+          <pb n="2" source="Varios_351_2.jpg" facs="varios/Varios_351_2.jpg"/>
 
           <l rend="indent">Desde sus mas tiernos años</l>
           <l>allá en Borgoña vivia</l>
@@ -2281,7 +2290,7 @@
           <l>á algún galán forastero</l>
           <l>ó á algún gallardo mancebo.</l>
 
-          <pb n="3" source="Varios_351_3.jpg" facs="varios/Varios_351_3.jpg/"/>
+          <pb n="3" source="Varios_351_3.jpg" facs="varios/Varios_351_3.jpg"/>
 
           <l rend="indent">Una máscara llevaba</l>
           <l>su hermosa fisonomía</l>
@@ -2364,7 +2373,7 @@
           <l>de la muerte de su hermano</l>
           <l>le da aviso formalmente.</l>
 
-          <pb n="4" source="Varios_351_4.jpg" facs="varios/Varios_351_4.jpg/"/>
+          <pb n="4" source="Varios_351_4.jpg" facs="varios/Varios_351_4.jpg"/>
 
           <l rend="indent">Que es quien huyó de la torre</l>
           <l>dice al fin á Margarita</l>

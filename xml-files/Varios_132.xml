@@ -4,11 +4,19 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>LO JAYU DE REUS</title>
-        <respStmt>
-          <name/>
+        <title>Lo jayu de Reus</title>
+        <respStmt xml:id="PJ">
+          <name>Pauline Jacsont</name>
+          <resp>Segmentación y transcripción</resp>
           <resp>Codificación TEI</resp>
-          <note type="propiedad">JOSEP FERRÉ (A) OUERI</note>
+        </respStmt>
+        <respStmt xml:id="LF">
+          <name>Lorysmar Franco</name>
+          <resp>Corrección de la transcripción</resp>
+        </respStmt>
+        <respStmt xml:id="EL">
+          <name>Elina Leblanc</name>
+          <resp>Verificación de la codificación y carga en el sitio web</resp>
         </respStmt>
       </titleStmt>
       <publicationStmt>
@@ -20,8 +28,9 @@
       <sourceDesc>
         <biblFull>
           <titleStmt>
-            <title type="titulo_completo">LO JAYU DE REUS (HISTÓRICH) PESSA AB DOS CUADROS</title>
-            <title type="titulo_breve">LO JAYU DE REUS</title>
+            <title type="titulo_completo">Lo jayu de Reus (Histórich) Pessa ab dos cuadros. Escrita en vers per Josep Ferrè (a) Queri</title>
+            <title type="titulo_breve">Lo jayu de Reus</title>
+            <author role="letrista">Joseph Ferré (a) Queri</author>
           </titleStmt>
           <editionStmt>
             <p/>
@@ -70,7 +79,7 @@
               <summary n="1">Un grabado (p.1)</summary>
               <decoNote type="lista_grabados">
                 <list>
-                  <item corresp="grabado_v_132_1.xml">grabado_v_132_1</item>
+                  <item corresp="grabado_v_132_1.xml" facs="varios/Varios_132_1.jpg/141,132,1603,1082/100,/0/default.jpg">grabado_v_132_1</item>
                 </list>
               </decoNote>
             </decoDesc>
@@ -99,7 +108,7 @@
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR no corregido</p>
+          <p>OCR corregido</p>
         </correction>
         <normalization>
           <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
@@ -3020,474 +3029,478 @@
   <text>
     <body>
       <div>
-        <pb n="1" source="Varios_132_1.jpg" facs="varios/Varios_132_1.jpg/"/>
+        <pb n="1" source="Varios_132_1.jpg" facs="varios/Varios_132_1.jpg"/>
 
         <div>
           <head type="primer_titulo" rend="negrita"><lb/>LO JAYU DE REUS</head>
           <head type="subtitulo"><lb/>(HISTÓRICH)<lb/>PESSA AB DOS CUADROS. ESCRITA EN VERS PER
               <lb/><hi rend="negrita">JOSEP FERRÈ (A) QUERI</hi></head>
 
-          <castList>
+          <div>
             <head type="reparto_titulo" rend="negrita"><lb/>PERSONAS</head>
-            <castItem rend="negrita">Lo Jayu. Crospu.</castItem>
-            <castItem rend="negrita">Baltasá. Dos mossos que no parlan.</castItem>
-            <castItem rend="negrita">Quicu. Comparsa de homens y do¬</castItem>
-            <castItem rend="negrita">Benét. nas y musichs.</castItem>
-          </castList>
+              <castList>
+                <castItem rend="negrita">Lo Jayu. Crospu.</castItem>
+                <castItem rend="negrita">Baltasá. Dos mossos que no parlan.</castItem>
+                <castItem rend="negrita">Quicu. Comparsa de homens y do¬</castItem>
+                <castItem rend="negrita">Benét. nas y musichs.</castItem>
+            </castList>
+          </div>
 
-          <pb n="2" source="Varios_132_2.jpg" facs="varios/Varios_132_2.jpg/"/>
+          <div>
+            <pb n="2" source="Varios_132_2.jpg" facs="varios/Varios_132_2.jpg"/>
 
-          <stage rend="cursiva">
-            <lb/>La escena representa un carrè curt. A <lb/>la dreta una porta que es la casa del
-            Jayu. <lb/>Surt Baltasá. </stage>
-          <sp>
-            <speaker>BALTASÁ.</speaker>
-            <l>Váija, da un ras mes no puch.</l>
-            <l>¡Válgam Deu que estich cansát!</l>
-            <l>Dos cops tot Reus ey boltát</l>
-            <l>y en cap puestu trobu un rúch.</l>
-            <l>Veyám si 'l Jayu te 'l seu. . .</l>
-            <l>pero no crech que me 'l deixi.</l>
-            <l>Li llogaré; que no 's quéixi;</l>
-            <l>no renyirém pas pí el preu.</l>
-            <l>Jayu.. ¿si hi será? <stage rend="cursiva">(cridán)</stage></l>
-            <l>Jayu... ha, ya ve.</l>
-          </sp>
-          <sp>
-            <speaker>SURT LO JAYU.</speaker>
-            <l>A que cridas baladré...</l>
-            <l>Hola; ¿que ya Baltasá?</l>
-          </sp>
-          <sp>
-            <speaker>BALT.</speaker>
-            <l>Necesitu, pero llogat;</l>
-            <l>lo rúch vostru, desseguida.</l>
-          </sp>
-          <sp>
-            <speaker>JAYU.</speaker>
-            <l>Be: li posaré la brida</l>
-            <l>y enseguida está arreglát.</l>
-          </sp>
-          <sp>
-            <speaker>BALT.</speaker>
-            <l>No mes lo vull per un ratu</l>
-            <l>per treijinà una caixeta.</l>
-          </sp>
-          <sp>
-            <speaker>JAYU.</speaker>
-            <l>Be xich... dem una pesseta;</l>
-            <l>yó sempre 'l llogu barato.</l>
-          </sp>
-          <sp>
-            <speaker>BALT.</speaker>
-            <l>Teníu: vos teníu costúm</l>
-            <l>de cobrá per endevan.</l>
-          </sp>
-          <sp>
-            <speaker>JAYU.</speaker>
-            <l>Aixís no m' enganyarán</l>
-            <l>que 'ls dinés son com lo fúm.</l>
-          </sp>
-          <sp>
-            <speaker>BALT.</speaker>
-            <l>Ara, me eu de fe un favort</l>
-            <l>que molt be me 'l podéu fe.</l>
-          </sp>
-          <sp>
-            <speaker>JAYU.</speaker>
-            <l>Ja saps que als homens de be</l>
-            <l>may del mon los fay lo sort.</l>
-          </sp>
-          <sp>
-            <speaker>BALT.</speaker>
-            <l>Uns cuans jovens, «gén de páu»</l>
-            <l>«no per fer cap cosa malar.</l>
-            <l>Que al vespre, els deixéu la sala</l>
-            <l>per fe un puquét de saráu.</l>
-          </sp>
-          <sp>
-            <speaker>JAYU</speaker>
-            <l>Buenu: tot ab orde si:</l>
-            <l>ya saps que yó vay molt dret.</l>
-            <l>Al ser fosch, allà á las set</l>
-            <l>tot cristu fora de allí.</l>
-          </sp>
-          <sp>
-            <speaker>BALT.</speaker>
-            <l>Be; ha vegadas hi ha desitg</l>
-            <l>de ballà algún ballet mes,</l>
-            <l>perque algú 'l te comprumés...</l>
-          </sp>
-          <sp>
-            <speaker>JAYU.</speaker>
-            <l>Cá, no no; ni un cuart, ni mitg.</l>
-          </sp>
-          <sp>
-            <speaker>BALT.</speaker>
-            <l>Bueno donchs, quedém així...</l>
-            <l>en fi, tot se arreglará.</l>
-            <l>Lo rúch podeu arreglá</l>
-            <l>que yo luegu torno ha se aquí. <stage rend="cursiva">(Sen va)</stage></l>
-          </sp>
-          <sp>
-            <speaker>JAYU.</speaker>
-            <l>Re, son cosas de companys;</l>
-            <l>diverticións de las sevas.</l>
-            <l>També feya de las mevas</l>
-            <l>cuan yo tenía vint anys.</l>
-            <l>Ara soch assossegat:</l>
-            <l>lo qui no 'm conéix, deu dí:</l>
-            <l>Aquet dayu que está aqui,</l>
-            <l>may, may <hi rend="cursiva">ha trencat</hi> cap plat</l>
-          </sp>
-          <stage rend="cursiva">(Surt lo Quien y diu):</stage>
-          <sp>
-            <speaker>QUICU.</speaker>
-            <l>Ep Jayu, ¡Que 'm veniu be!</l>
-          </sp>
-          <sp>
-            <speaker>JAYU.</speaker>
-            <l>Dech se un jech ho un pantalón</l>
-          </sp>
-          <sp>
-            <speaker>QUICU.</speaker>
-            <l>No home: am caso lu mon...</l>
-          </sp>
-          <sp>
-            <speaker>JAYU.</speaker>
-            <l>Ya tindrás bona mullé.</l>
-          </sp>
-          <sp>
-            <speaker>QUICU.</speaker>
-            <l>Si no 'm deixéu dir ni un mot.</l>
-          </sp>
-          <sp>
-            <speaker>JAYU.</speaker>
-            <l>Lo que no sabrás callà.</l>
-          </sp>
-          <sp>
-            <speaker>QUICU.</speaker>
-            <l>¿Mireu que m' entorno aná?</l>
-          </sp>
-          <sp>
-            <speaker>JAYU.</speaker>
-            <l>Ya no foras bo per bot.</l>
-          </sp>
-          <sp>
-            <speaker>QUICU.</speaker>
-            <l>Buenu, prou, ya está acabat,</l>
-            <l>vay depressa, y me interessa...</l>
-          </sp>
-          <sp>
-            <speaker>JAYU.</speaker>
-            <l>Si que vas ben adepressa,</l>
-            <l>si mes camina un <hi rend="cursiva">armat</hi>.</l>
-          </sp>
-          <sp>
-            <speaker>QUICU.</speaker>
-            <l>Be, ¿que 'm voleu despedí?</l>
-          </sp>
-          <sp>
-            <speaker>JAYU.</speaker>
-            <l>Va digas, veyám, que ya.</l>
-          </sp>
-          <sp>
-            <speaker>QUICU.</speaker>
-            <l>Si 'm voléu lo rúch llogá</l>
-            <l>si ha acas lo teníu aquí.</l>
-          </sp>
-          <sp>
-            <speaker>JAYU.</speaker>
-            <l>A dintre l' estable 'l tinch.</l>
-            <l>¿que 's per molt temps?</l>
-          </sp>
-          <sp>
-            <speaker>QUICU.</speaker>
-            <l>Per mitja hora;</l>
-            <l>sols per dur dos sachs á fora.</l>
-          </sp>
-          <sp>
-            <speaker>JAYU.</speaker>
-            <l>Au, paga; vinga 'l pistrinch.</l>
-          </sp>
-          <sp>
-            <speaker>QUICU.</speaker>
-            <l>De paga ya m' aconortu</l>
-            <l>cuan turnaré 'l ruch aquí.</l>
-            <l>¡Ay! ¿Que no 's fiéu de mi?</l>
-          </sp>
-          <sp>
-            <speaker>JAYU.</speaker>
-            <l>Ni á la camisa que portu.</l>
-          </sp>
-          <sp>
-            <speaker>QUICU.</speaker>
-            <l>Au donchs, arregléumel be</l>
-            <l>¿cuan es aixó?</l>
-          </sp>
-          <sp>
-            <speaker>JAYU.</speaker>
-            <l>Son sich rals.</l>
-          </sp>
-          <sp>
-            <speaker>QUICU.</speaker>
-            <l>Teniu, justos y cabals.</l>
-            <stage rend="cursiva">(los hi dona)</stage>
-            <l>De aquí á un ratu tornaré.</l>
-            <stage rend="cursiva">(sen va)</stage>
-          </sp>
-          <sp>
-            <speaker>JAYU.</speaker>
-            <l>Ya ey fet nou ralets, hoy da.</l>
-            <l>Es precís que un se bellugui.</l>
-            <l>Lu ruquet, que se l' endugui</l>
-            <l>qui primé 'l vindrá á buscá.</l>
-            <l>Estich que era al any passat,</l>
-            <l>que ma filla y ma mullé</l>
-            <l>per forsa varen vulgué</l>
-            <l>Las portés á Montserrat.</l>
-            <l>Lo ruquet vay arrelá:</l>
-            <l>y sense gaire treball</l>
-            <l>puijo las dos á cavall,</l>
-            <l>butifarras y vi y pá.</l>
-
-            <pb n="3" source="Varios_132_3.jpg" facs="varios/Varios_132_3.jpg/"/>
-
-            <fw type="paginaNum">— 3 —</fw>
-
-            <l>La dona 'm va dir: ¿Martxém?</l>
-            <l>Yo vay di: Apa, enseguida:</l>
-            <l>ella aguantava la brida</l>
-            <l>y la expedició empreném.</l>
-            <l>Vinga bolta p' els carrés;</l>
-            <l>lo ruch ya estava cansat:</l>
-            <l>y al carré de Montserrat</l>
-            <l>vay fer que allí se aturés.</l>
-            <l>Com que allí hi ha una capella,</l>
-            <l>després de dona 'l gran tom</l>
-            <l>vay dí: alto que ya hi som,</l>
-            <l>y baixan la noya y ella.</l>
-            <l>La dona 's posá á plorá</l>
-            <l>perque la havia enganyat.</l>
-            <l>Li vay dí: á Montserrat</l>
-            <l>vas di que haviam de aná,</l>
-            <l>«Ya hi som, menjeu y beven,</l>
-            <l>divertiuse hi feu gatsara;</l>
-            <l>y es clá; encara ploran ara</l>
-            <l>de 'l estrany acudit méu.</l>
-            <l>Las vay torná á muntá al asa</l>
-            <l>totas plenas de tristó,</l>
-            <l>y sense mes compessió</l>
-            <l>Las vay torná á portá á casa.</l>
-            <l>¿Y que ha suchsuit després</l>
-            <l>de haverlas fet tal partida?</l>
-            <l>Que may en la seva vida</l>
-            <l>no me han demanat res mes.</l>
-            <l>Ves ahont volían aná;</l>
-            <l>aurían semblat dos monas,</l>
-            <l>ya ho diu be 'l que crida <hi rend="cursiva">«donas</hi></l>
-            <l rend="cursiva">cadiras per adobá».</l>
-          </sp>
-          <stage rend="cursiva">(Surt lo Benèt tot depressa)</stage>
-          <sp>
-            <speaker>BENÉT.</speaker>
-            <l>¿Jayu?</l>
-          </sp>
-          <sp>
-            <speaker>JAYU.</speaker>
-            <l>Ola palatreca.</l>
-            <l>¿De ahont surts ara cap de truch?</l>
-          </sp>
-          <sp>
-            <speaker>BENÉT.</speaker>
-            <l>Vinch perque 'm lluguéu lo ruch</l>
-            <l>que tinch de aná á Vilaseca.</l>
-          </sp>
-          <sp>
-            <speaker>JAYU.</speaker>
-            <l>Be: te 'n farás cuatre rals.</l>
-          </sp>
-          <sp>
-            <speaker>BEN.</speaker>
-            <l>Teniu. Ara'lruch esperu<stage rend="cursiva">(los y dona)</stage></l>
-            <l>tinch de veure à un curanderu</l>
-            <l>que 'm curi 'l mal de caixals.</l>
-          </sp>
-          <sp>
-            <speaker>JAYU.</speaker>
-            <l>Calla que ara te 'l treuré:</l>
-            <l>pero fes vía, enllesteix:</l>
-            <l>tens de torná avuy mateix. . .</l>
-          </sp>
-          <sp>
-            <speaker>BEN.</speaker>
-            <l>Be home, ya 'l tornaré.</l>
-          </sp>
-          <stage rend="cursiva">(Entra lo Jayu dintre de casa...)</stage>
-          <sp>
-            <speaker>BEN.</speaker>
-            <l>Lo que de aixó mes po 'm fa</l>
-            <l>im donará mes treball,</l>
-            <l>es que si caich de cavall</l>
-            <l>que després no 'm podré alsá.</l>
-            <l>Ho, y no 'm recorda 'l camí.</l>
-            <l>Ya me ho dirá la Coloma,</l>
-            <l>que preguntán se va á Roma</l>
-            <l>segóns ey sentit á dí</l>
-          </sp>
-          <stage rend="cursiva">Surt lo Juyu ab lo burru ab la aubarda<lb/> posada.</stage>
-          <sp>
-            <speaker>JATU.</speaker>
-            <l>Apa Benét, aquí está;</l>
-            <l>los estréps ya hi son tots dos.</l>
-          </sp>
-          <sp>
-            <speaker>BEN.</speaker>
-            <l>Ho, mi eu de muntá vos</l>
-            <l>que yo no hi sabré puyja.</l>
-          </sp>
-          <sp>
-            <speaker>JAYU.</speaker>
-            <l>Mira, posa 'l peu aquí:</l>
-            <stage rend="cursiva">(munta ha cavall)</stage>
-            <l>enxarràncat deseguida;</l>
-            <l>ara agafa bé la brida,</l>
-            <l>estrény las camas, Així.</l>
-          </sp>
-          <sp>
-            <speaker>BEN.</speaker>
-            <l>¿Ya pueh mar xà?</l>
-          </sp>
-          <sp>
-            <speaker>JAYU.</speaker>
-            <l>Al momén.</l>
-          </sp>
-          <stage rend="cursiva">(Surt lo Baltasá y diu)</stage>
-          <sp>
-            <speaker>BALT.</speaker>
-            <l>Jayu; ¿Y 'l ruch?</l>
-          </sp>
-          <sp>
-            <speaker>JAYU.</speaker>
-            <l>Aquet lo güarda.</l>
-          </sp>
-          <sp>
-            <speaker>BALT.</speaker>
-            <l>¿Ya li en lligàt be la aubarda?</l>
-          </sp>
-          <sp>
-            <speaker>JAYU.</speaker>
-            <l>Si home, ya está corrén.</l>
-          </sp>
-          <stage rend="cursiva">(Lo Jayu se està á la porta de casa seva)</stage>
-          <sp>
-            <speaker>BALT.</speaker>
-            <l>Agüanta be 'l ruch Benét,</l>
-            <l>que no 'l déixis escapá.</l>
-            <l>vaurás: antes de martxà</l>
-            <l>sempre es bo fe un cigarrét.</l>
-            <l>Te fuma.</l>
-          </sp>
-          <sp>
-            <speaker>BEN.</speaker>
-            <l>Si no 'l se fe.</l>
-          </sp>
-          <sp>
-            <speaker>BALT.</speaker>
-            <l>Ya 'l faré yo, aixó ray;</l>
-            <l>en mi no 't espantis may....</l>
-            <l>Calla que t' el encendré.</l>
-          </sp>
-          <stage rend="cursiva">(encenen lu cigarru)</stage>
-          <stage rend="cursiva">(Surt lu Quicu y crida al Jayu apart)</stage>
-          <sp>
-            <speaker>QUICU.</speaker>
-            <l>Jayu, veniu, escoltéu.</l>
-            <l>¿Que 's lo ruquét vostru aquéll,</l>
-            <l>que tenen aquéll paréll?</l>
-          </sp>
-          <sp>
-            <speaker>JAYU.</speaker>
-            <l>Pero llogat ara es téu.</l>
-            <l>Prenlo ves, ya pots aná</l>
-            <l>que yó men vay dins, duch pressa:</l>
-            <l>men vay ha dí ha la mestressa</l>
-            <l>que arregli luegu 'l sopá.</l>
-            <stage rend="cursiva">(Sen vá lo Jayu dintre ha casa seva)</stage>
-          </sp>
-          <sp>
-            <speaker>QUICU.</speaker>
-            <l>Deixéu lo ruch desseguida.</l>
-          </sp>
-          <sp>
-            <speaker>BEN.</speaker>
-            <l>Es meu que yó l'ey llogát.</l>
-          </sp>
-          <sp>
-            <speaker>BERT.</speaker>
-            <l>Ca home, si yó l' tinch pagat;</l>
-            <l>baixa hi déix aná la brida.</l>
-          </sp>
-
-          <pb n="4" source="Varios_132_4.jpg" facs="varios/Varios_132_4.jpg/"/>
-
-          <sp>
-            <speaker>QUICU.</speaker>
-            <l>Yo 'l vull sinó... hi aurá guerra.</l>
-          </sp>
-          <sp>
-            <speaker>BEN.</speaker>
-            <l>No báixo hi no baixaré.</l>
-          </sp>
-          <sp>
-            <speaker>BERT.</speaker>
-            <l>Si no báixas patarré...</l>
-            <l>ten vas de nassus per terra.</l>
-          </sp>
-          <sp>
-            <speaker>QUICU.</speaker>
-            <l>Yo 'l pendré hi fora rahóns.</l>
-          </sp>
-          <sp>
-            <speaker>BEN.</speaker>
-            <l>Arri.... que prime soch yó.</l>
-            <stage rend="cursiva">(fen caminá 'l ruch)</stage>
-          </sp>
-          <sp>
-            <speaker>BERT.</speaker>
-            <l>Atúrat; xó burro xó....</l>
-            <l>báixa, ho vas de tambolls</l>
-          </sp>
-          <sp>
-            <speaker>QUICU.</speaker>
-            <l>Te dich donchs que yó 'l pendré.</l>
-          </sp>
-          <sp>
-            <speaker>BEN.</speaker>
-            <l>Arri... Yó no vull baixá..</l>
-          </sp>
-          <sp>
-            <speaker>BERT.</speaker>
-            <l>¿No? Donchs bueno, ha terra vá.</l>
-            <stage rend="cursiva">(Lo fa caure del ruch y li pega)</stage>
-            <l>per poca vergonya te....</l>
-          </sp>
-          <sp>
-            <speaker>BEN.</speaker>
-            <l>¡Hoy mara meva!! Lladrót..</l>
-          </sp>
-          <sp>
-            <speaker>BERT.</speaker>
-            <l>¿En qui pegas? Allá và.</l>
-            <stage rend="cursiva">(Tots trés se pegan y tots volen puija al <lb/>ruch.)</stage>
-          </sp>
-          <sp>
-            <speaker>QUICU.</speaker>
-            <l>Ya que no 'l voleu deixà</l>
-            <l>vas ha carregá tú hi tot.</l>
-          </sp>
-          <stage rend="cursiva">Tots cridan, se pegan, volen pujá al ruch, y <lb/>martxan de la
-            escena, movent gran escándol.</stage>
+            <stage rend="cursiva">
+              <lb/>La escena representa un carrè curt. A <lb/>la dreta una porta que es la casa del
+              Jayu. <lb/>Surt Baltasá. </stage>
+            <sp>
+              <speaker>BALTASÁ.</speaker>
+              <l>Váija, da un ras mes no puch.</l>
+              <l>¡Válgam Deu que estich cansát!</l>
+              <l>Dos cops tot Reus ey boltát</l>
+              <l>y en cap puestu trobu un rúch.</l>
+              <l>Veyám si 'l Jayu te 'l seu. . .</l>
+              <l>pero no crech que me 'l deixi.</l>
+              <l>Li llogaré; que no 's quéixi;</l>
+              <l>no renyirém pas pí el preu.</l>
+              <l>Jayu.. ¿si hi será? <stage rend="cursiva">(cridán)</stage></l>
+              <l>Jayu... ha, ya ve.</l>
+            </sp>
+            <sp>
+              <speaker>SURT LO JAYU.</speaker>
+              <l>A que cridas baladré...</l>
+              <l>Hola; ¿que ya Baltasá?</l>
+            </sp>
+            <sp>
+              <speaker>BALT.</speaker>
+              <l>Necesitu, pero llogat;</l>
+              <l>lo rúch vostru, desseguida.</l>
+            </sp>
+            <sp>
+              <speaker>JAYU.</speaker>
+              <l>Be: li posaré la brida</l>
+              <l>y enseguida está arreglát.</l>
+            </sp>
+            <sp>
+              <speaker>BALT.</speaker>
+              <l>No mes lo vull per un ratu</l>
+              <l>per treijinà una caixeta.</l>
+            </sp>
+            <sp>
+              <speaker>JAYU.</speaker>
+              <l>Be xich... dem una pesseta;</l>
+              <l>yó sempre 'l llogu barato.</l>
+            </sp>
+            <sp>
+              <speaker>BALT.</speaker>
+              <l>Teníu: vos teníu costúm</l>
+              <l>de cobrá per endevan.</l>
+            </sp>
+            <sp>
+              <speaker>JAYU.</speaker>
+              <l>Aixís no m' enganyarán</l>
+              <l>que 'ls dinés son com lo fúm.</l>
+            </sp>
+            <sp>
+              <speaker>BALT.</speaker>
+              <l>Ara, me eu de fe un favort</l>
+              <l>que molt be me 'l podéu fe.</l>
+            </sp>
+            <sp>
+              <speaker>JAYU.</speaker>
+              <l>Ja saps que als homens de be</l>
+              <l>may del mon los fay lo sort.</l>
+            </sp>
+            <sp>
+              <speaker>BALT.</speaker>
+              <l>Uns cuans jovens, «gén de páu»</l>
+              <l>«no per fer cap cosa malar.</l>
+              <l>Que al vespre, els deixéu la sala</l>
+              <l>per fe un puquét de saráu.</l>
+            </sp>
+            <sp>
+              <speaker>JAYU</speaker>
+              <l>Buenu: tot ab orde si:</l>
+              <l>ya saps que yó vay molt dret.</l>
+              <l>Al ser fosch, allà á las set</l>
+              <l>tot cristu fora de allí.</l>
+            </sp>
+            <sp>
+              <speaker>BALT.</speaker>
+              <l>Be; ha vegadas hi ha desitg</l>
+              <l>de ballà algún ballet mes,</l>
+              <l>perque algú 'l te comprumés...</l>
+            </sp>
+            <sp>
+              <speaker>JAYU.</speaker>
+              <l>Cá, no no; ni un cuart, ni mitg.</l>
+            </sp>
+            <sp>
+              <speaker>BALT.</speaker>
+              <l>Bueno donchs, quedém així...</l>
+              <l>en fi, tot se arreglará.</l>
+              <l>Lo rúch podeu arreglá</l>
+              <l>que yo luegu torno ha se aquí. <stage rend="cursiva">(Sen va)</stage></l>
+            </sp>
+            <sp>
+              <speaker>JAYU.</speaker>
+              <l>Re, son cosas de companys;</l>
+              <l>diverticións de las sevas.</l>
+              <l>També feya de las mevas</l>
+              <l>cuan yo tenía vint anys.</l>
+              <l>Ara soch assossegat:</l>
+              <l>lo qui no 'm conéix, deu dí:</l>
+              <l>Aquet dayu que está aqui,</l>
+              <l>may, may <hi rend="cursiva">ha trencat</hi> cap plat</l>
+            </sp>
+            <stage rend="cursiva">(Surt lo Quien y diu):</stage>
+            <sp>
+              <speaker>QUICU.</speaker>
+              <l>Ep Jayu, ¡Que 'm veniu be!</l>
+            </sp>
+            <sp>
+              <speaker>JAYU.</speaker>
+              <l>Dech se un jech ho un pantalón</l>
+            </sp>
+            <sp>
+              <speaker>QUICU.</speaker>
+              <l>No home: am caso lu mon...</l>
+            </sp>
+            <sp>
+              <speaker>JAYU.</speaker>
+              <l>Ya tindrás bona mullé.</l>
+            </sp>
+            <sp>
+              <speaker>QUICU.</speaker>
+              <l>Si no 'm deixéu dir ni un mot.</l>
+            </sp>
+            <sp>
+              <speaker>JAYU.</speaker>
+              <l>Lo que no sabrás callà.</l>
+            </sp>
+            <sp>
+              <speaker>QUICU.</speaker>
+              <l>¿Mireu que m' entorno aná?</l>
+            </sp>
+            <sp>
+              <speaker>JAYU.</speaker>
+              <l>Ya no foras bo per bot.</l>
+            </sp>
+            <sp>
+              <speaker>QUICU.</speaker>
+              <l>Buenu, prou, ya está acabat,</l>
+              <l>vay depressa, y me interessa...</l>
+            </sp>
+            <sp>
+              <speaker>JAYU.</speaker>
+              <l>Si que vas ben adepressa,</l>
+              <l>si mes camina un <hi rend="cursiva">armat</hi>.</l>
+            </sp>
+            <sp>
+              <speaker>QUICU.</speaker>
+              <l>Be, ¿que 'm voleu despedí?</l>
+            </sp>
+            <sp>
+              <speaker>JAYU.</speaker>
+              <l>Va digas, veyám, que ya.</l>
+            </sp>
+            <sp>
+              <speaker>QUICU.</speaker>
+              <l>Si 'm voléu lo rúch llogá</l>
+              <l>si ha acas lo teníu aquí.</l>
+            </sp>
+            <sp>
+              <speaker>JAYU.</speaker>
+              <l>A dintre l' estable 'l tinch.</l>
+              <l>¿que 's per molt temps?</l>
+            </sp>
+            <sp>
+              <speaker>QUICU.</speaker>
+              <l>Per mitja hora;</l>
+              <l>sols per dur dos sachs á fora.</l>
+            </sp>
+            <sp>
+              <speaker>JAYU.</speaker>
+              <l>Au, paga; vinga 'l pistrinch.</l>
+            </sp>
+            <sp>
+              <speaker>QUICU.</speaker>
+              <l>De paga ya m' aconortu</l>
+              <l>cuan turnaré 'l ruch aquí.</l>
+              <l>¡Ay! ¿Que no 's fiéu de mi?</l>
+            </sp>
+            <sp>
+              <speaker>JAYU.</speaker>
+              <l>Ni á la camisa que portu.</l>
+            </sp>
+            <sp>
+              <speaker>QUICU.</speaker>
+              <l>Au donchs, arregléumel be</l>
+              <l>¿cuan es aixó?</l>
+            </sp>
+            <sp>
+              <speaker>JAYU.</speaker>
+              <l>Son sich rals.</l>
+            </sp>
+            <sp>
+              <speaker>QUICU.</speaker>
+              <l>Teniu, justos y cabals.</l>
+              <stage rend="cursiva">(los hi dona)</stage>
+              <l>De aquí á un ratu tornaré.</l>
+              <stage rend="cursiva">(sen va)</stage>
+            </sp>
+            <sp>
+              <speaker>JAYU.</speaker>
+              <l>Ya ey fet nou ralets, hoy da.</l>
+              <l>Es precís que un se bellugui.</l>
+              <l>Lu ruquet, que se l' endugui</l>
+              <l>qui primé 'l vindrá á buscá.</l>
+              <l>Estich que era al any passat,</l>
+              <l>que ma filla y ma mullé</l>
+              <l>per forsa varen vulgué</l>
+              <l>Las portés á Montserrat.</l>
+              <l>Lo ruquet vay arrelá:</l>
+              <l>y sense gaire treball</l>
+              <l>puijo las dos á cavall,</l>
+              <l>butifarras y vi y pá.</l>
+  
+              <pb n="3" source="Varios_132_3.jpg" facs="varios/Varios_132_3.jpg"/>
+  
+              <fw type="paginaNum">— 3 —</fw>
+  
+              <l>La dona 'm va dir: ¿Martxém?</l>
+              <l>Yo vay di: Apa, enseguida:</l>
+              <l>ella aguantava la brida</l>
+              <l>y la expedició empreném.</l>
+              <l>Vinga bolta p' els carrés;</l>
+              <l>lo ruch ya estava cansat:</l>
+              <l>y al carré de Montserrat</l>
+              <l>vay fer que allí se aturés.</l>
+              <l>Com que allí hi ha una capella,</l>
+              <l>després de dona 'l gran tom</l>
+              <l>vay dí: alto que ya hi som,</l>
+              <l>y baixan la noya y ella.</l>
+              <l>La dona 's posá á plorá</l>
+              <l>perque la havia enganyat.</l>
+              <l>Li vay dí: á Montserrat</l>
+              <l>vas di que haviam de aná,</l>
+              <l>«Ya hi som, menjeu y beven,</l>
+              <l>divertiuse hi feu gatsara;</l>
+              <l>y es clá; encara ploran ara</l>
+              <l>de 'l estrany acudit méu.</l>
+              <l>Las vay torná á muntá al asa</l>
+              <l>totas plenas de tristó,</l>
+              <l>y sense mes compessió</l>
+              <l>Las vay torná á portá á casa.</l>
+              <l>¿Y que ha suchsuit després</l>
+              <l>de haverlas fet tal partida?</l>
+              <l>Que may en la seva vida</l>
+              <l>no me han demanat res mes.</l>
+              <l>Ves ahont volían aná;</l>
+              <l>aurían semblat dos monas,</l>
+              <l>ya ho diu be 'l que crida <hi rend="cursiva">«donas</hi></l>
+              <l rend="cursiva">cadiras per adobá».</l>
+            </sp>
+            <stage rend="cursiva">(Surt lo Benèt tot depressa)</stage>
+            <sp>
+              <speaker>BENÉT.</speaker>
+              <l>¿Jayu?</l>
+            </sp>
+            <sp>
+              <speaker>JAYU.</speaker>
+              <l>Ola palatreca.</l>
+              <l>¿De ahont surts ara cap de truch?</l>
+            </sp>
+            <sp>
+              <speaker>BENÉT.</speaker>
+              <l>Vinch perque 'm lluguéu lo ruch</l>
+              <l>que tinch de aná á Vilaseca.</l>
+            </sp>
+            <sp>
+              <speaker>JAYU.</speaker>
+              <l>Be: te 'n farás cuatre rals.</l>
+            </sp>
+            <sp>
+              <speaker>BEN.</speaker>
+              <l>Teniu. Ara'lruch esperu<stage rend="cursiva">(los y dona)</stage></l>
+              <l>tinch de veure à un curanderu</l>
+              <l>que 'm curi 'l mal de caixals.</l>
+            </sp>
+            <sp>
+              <speaker>JAYU.</speaker>
+              <l>Calla que ara te 'l treuré:</l>
+              <l>pero fes vía, enllesteix:</l>
+              <l>tens de torná avuy mateix. . .</l>
+            </sp>
+            <sp>
+              <speaker>BEN.</speaker>
+              <l>Be home, ya 'l tornaré.</l>
+            </sp>
+            <stage rend="cursiva">(Entra lo Jayu dintre de casa...)</stage>
+            <sp>
+              <speaker>BEN.</speaker>
+              <l>Lo que de aixó mes po 'm fa</l>
+              <l>im donará mes treball,</l>
+              <l>es que si caich de cavall</l>
+              <l>que després no 'm podré alsá.</l>
+              <l>Ho, y no 'm recorda 'l camí.</l>
+              <l>Ya me ho dirá la Coloma,</l>
+              <l>que preguntán se va á Roma</l>
+              <l>segóns ey sentit á dí</l>
+            </sp>
+            <stage rend="cursiva">Surt lo Juyu ab lo burru ab la aubarda<lb/> posada.</stage>
+            <sp>
+              <speaker>JATU.</speaker>
+              <l>Apa Benét, aquí está;</l>
+              <l>los estréps ya hi son tots dos.</l>
+            </sp>
+            <sp>
+              <speaker>BEN.</speaker>
+              <l>Ho, mi eu de muntá vos</l>
+              <l>que yo no hi sabré puyja.</l>
+            </sp>
+            <sp>
+              <speaker>JAYU.</speaker>
+              <l>Mira, posa 'l peu aquí:</l>
+              <stage rend="cursiva">(munta ha cavall)</stage>
+              <l>enxarràncat deseguida;</l>
+              <l>ara agafa bé la brida,</l>
+              <l>estrény las camas, Així.</l>
+            </sp>
+            <sp>
+              <speaker>BEN.</speaker>
+              <l>¿Ya pueh mar xà?</l>
+            </sp>
+            <sp>
+              <speaker>JAYU.</speaker>
+              <l>Al momén.</l>
+            </sp>
+            <stage rend="cursiva">(Surt lo Baltasá y diu)</stage>
+            <sp>
+              <speaker>BALT.</speaker>
+              <l>Jayu; ¿Y 'l ruch?</l>
+            </sp>
+            <sp>
+              <speaker>JAYU.</speaker>
+              <l>Aquet lo güarda.</l>
+            </sp>
+            <sp>
+              <speaker>BALT.</speaker>
+              <l>¿Ya li en lligàt be la aubarda?</l>
+            </sp>
+            <sp>
+              <speaker>JAYU.</speaker>
+              <l>Si home, ya está corrén.</l>
+            </sp>
+            <stage rend="cursiva">(Lo Jayu se està á la porta de casa seva)</stage>
+            <sp>
+              <speaker>BALT.</speaker>
+              <l>Agüanta be 'l ruch Benét,</l>
+              <l>que no 'l déixis escapá.</l>
+              <l>vaurás: antes de martxà</l>
+              <l>sempre es bo fe un cigarrét.</l>
+              <l>Te fuma.</l>
+            </sp>
+            <sp>
+              <speaker>BEN.</speaker>
+              <l>Si no 'l se fe.</l>
+            </sp>
+            <sp>
+              <speaker>BALT.</speaker>
+              <l>Ya 'l faré yo, aixó ray;</l>
+              <l>en mi no 't espantis may....</l>
+              <l>Calla que t' el encendré.</l>
+            </sp>
+            <stage rend="cursiva">(encenen lu cigarru)</stage>
+            <stage rend="cursiva">(Surt lu Quicu y crida al Jayu apart)</stage>
+            <sp>
+              <speaker>QUICU.</speaker>
+              <l>Jayu, veniu, escoltéu.</l>
+              <l>¿Que 's lo ruquét vostru aquéll,</l>
+              <l>que tenen aquéll paréll?</l>
+            </sp>
+            <sp>
+              <speaker>JAYU.</speaker>
+              <l>Pero llogat ara es téu.</l>
+              <l>Prenlo ves, ya pots aná</l>
+              <l>que yó men vay dins, duch pressa:</l>
+              <l>men vay ha dí ha la mestressa</l>
+              <l>que arregli luegu 'l sopá.</l>
+              <stage rend="cursiva">(Sen vá lo Jayu dintre ha casa seva)</stage>
+            </sp>
+            <sp>
+              <speaker>QUICU.</speaker>
+              <l>Deixéu lo ruch desseguida.</l>
+            </sp>
+            <sp>
+              <speaker>BEN.</speaker>
+              <l>Es meu que yó l'ey llogát.</l>
+            </sp>
+            <sp>
+              <speaker>BERT.</speaker>
+              <l>Ca home, si yó l' tinch pagat;</l>
+              <l>baixa hi déix aná la brida.</l>
+            </sp>
+  
+            <pb n="4" source="Varios_132_4.jpg" facs="varios/Varios_132_4.jpg"/>
+  
+            <sp>
+              <speaker>QUICU.</speaker>
+              <l>Yo 'l vull sinó... hi aurá guerra.</l>
+            </sp>
+            <sp>
+              <speaker>BEN.</speaker>
+              <l>No báixo hi no baixaré.</l>
+            </sp>
+            <sp>
+              <speaker>BERT.</speaker>
+              <l>Si no báixas patarré...</l>
+              <l>ten vas de nassus per terra.</l>
+            </sp>
+            <sp>
+              <speaker>QUICU.</speaker>
+              <l>Yo 'l pendré hi fora rahóns.</l>
+            </sp>
+            <sp>
+              <speaker>BEN.</speaker>
+              <l>Arri.... que prime soch yó.</l>
+              <stage rend="cursiva">(fen caminá 'l ruch)</stage>
+            </sp>
+            <sp>
+              <speaker>BERT.</speaker>
+              <l>Atúrat; xó burro xó....</l>
+              <l>báixa, ho vas de tambolls</l>
+            </sp>
+            <sp>
+              <speaker>QUICU.</speaker>
+              <l>Te dich donchs que yó 'l pendré.</l>
+            </sp>
+            <sp>
+              <speaker>BEN.</speaker>
+              <l>Arri... Yó no vull baixá..</l>
+            </sp>
+            <sp>
+              <speaker>BERT.</speaker>
+              <l>¿No? Donchs bueno, ha terra vá.</l>
+              <stage rend="cursiva">(Lo fa caure del ruch y li pega)</stage>
+              <l>per poca vergonya te....</l>
+            </sp>
+            <sp>
+              <speaker>BEN.</speaker>
+              <l>¡Hoy mara meva!! Lladrót..</l>
+            </sp>
+            <sp>
+              <speaker>BERT.</speaker>
+              <l>¿En qui pegas? Allá và.</l>
+              <stage rend="cursiva">(Tots trés se pegan y tots volen puija al <lb/>ruch.)</stage>
+            </sp>
+            <sp>
+              <speaker>QUICU.</speaker>
+              <l>Ya que no 'l voleu deixà</l>
+              <l>vas ha carregá tú hi tot.</l>
+            </sp>
+            <stage rend="cursiva">Tots cridan, se pegan, volen pujá al ruch, y <lb/>martxan de la
+              escena, movent gran escándol.</stage>
+          </div>
 
           <div>
             <head type="titulo_parte" rend="negrita">Cuadro segón</head>
@@ -3630,7 +3643,7 @@
               <l>hasta un regalu us faré.<stage rend="cursiva">(sen va)</stage></l>
             </sp>
             
-            <pb n="5" source="Varios_132_5.jpg" facs="varios/Varios_132_5.jpg/"/>
+            <pb n="5" source="Varios_132_5.jpg" facs="varios/Varios_132_5.jpg"/>
               
             <fw type="paginaNum">— 5 —</fw>
             
@@ -3806,7 +3819,7 @@
               <speaker>JAYU.</speaker>
               <l>Ha; ha, ha, ¡Quin fart de riure!..</l>
               
-              <pb n="6" source="Varios_132_6.jpg" facs="varios/Varios_132_6.jpg/"/>
+              <pb n="6" source="Varios_132_6.jpg" facs="varios/Varios_132_6.jpg"/>
               
               <fw type="paginaNum">— 6 —</fw>
               
@@ -3993,7 +4006,7 @@
               <l>¿Que no véns que te las matu?</l>
             </sp>
             
-            <pb n="7" source="Varios_132_7.jpg" facs="varios/Varios_132_7.jpg/"/>
+            <pb n="7" source="Varios_132_7.jpg" facs="varios/Varios_132_7.jpg"/>
               
             <fw type="paginaNum">— 7 —</fw>
             
@@ -4143,7 +4156,7 @@
               <speaker>JAYU.</speaker>
               <l>Be home, no se enfadéu:</l>
               
-              <pb n="8" source="Varios_132_8.jpg" facs="varios/Varios_132_8.jpg/"/>
+              <pb n="8" source="Varios_132_8.jpg" facs="varios/Varios_132_8.jpg"/>
               
               <fw type="paginaNum">— 8 —</fw>
               
@@ -4316,11 +4329,14 @@
               <l>ha veure 'l Jayu de Reus.</l>
             </sp>
           </div>
+          
           <trailer rend="negrita">SE HA ACABAT</trailer>
         </div>
+        
         <div type="propiedad">
           <p><lb/>ES PROPIETAT DE JOAN GRAU GENÉ.</p>
         </div>
+        
         <div type="colofon">
           <p><lb/>Reus. Libreria «La Fleca», carré de Aleus, núm. 1.</p>
         </div>

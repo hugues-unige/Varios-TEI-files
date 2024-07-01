@@ -5,9 +5,18 @@
     <fileDesc>
       <titleStmt>
         <title>EL CANTOR DE LAS HERMOSAS</title>
-        <respStmt>
-          <name xml:id="PJ">Pauline Jacsont</name>
+        <respStmt xml:id="PJ">
+          <name>Pauline Jacsont</name>
+          <resp>Segmentación y transcripción</resp>
           <resp>Codificación TEI</resp>
+        </respStmt>
+        <respStmt xml:id="BP">
+          <name>Belinda Palacios</name>
+          <resp>Corrección de la transcripción</resp>
+        </respStmt>
+        <respStmt xml:id="EL">
+          <name>Elina Leblanc</name>
+          <resp>Verificación de la codificación y carga en el sitio web</resp>
         </respStmt>
       </titleStmt>
       <publicationStmt>
@@ -24,7 +33,7 @@
             <title type="titulo_breve">El cantor de las Hermosas</title>
           </titleStmt>
           <editionStmt>
-            <p/>
+            <p>Otra impresión: <ref target="Varios_038.xml">Varios_038</ref></p>
           </editionStmt>
           <publicationStmt>
             <publisher>Narciso Ramírez</publisher>
@@ -37,8 +46,7 @@
             <country>Suisse</country>
             <settlement>Genève</settlement>
             <repository>Bibliothèque Universitaire de Genève <ref
-                target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"
-              />
+                target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"/>
             </repository>
             <collection>Colección Varios</collection>
             <idno type="cote"/>
@@ -85,16 +93,18 @@
               </layoutDesc>
             </objectDesc>
             <decoDesc>
-              <summary n="1">Un grabado (p.1)</summary>
+              <summary n="4">Cuatro grabados (p.1 + 3)</summary>
               <decoNote type="lista_grabados">
                 <list>
-                  <item corresp="grabado_v_419_1.xml">grabado_v_419_1</item>
+                  <item corresp="grabado_v_422_1.xml" facs="varios/Varios_422_1.jpg/0,644,421,998/100,/0/default.jpg">grabado_v_422_1</item>
+                  <item corresp="grabado_v_422_2.xml" facs="varios/Varios_422_1.jpg/422,680,776,1009/100,/0/default.jpg">grabado_v_422_2</item>
+                  <item corresp="grabado_v_422_3.xml" facs="varios/Varios_422_1.jpg/1185,730,443,999/100,/0/default.jpg">grabado_v_422_3</item>
+                  <item corresp="grabado_v_422_4.xml" facs="varios/Varios_422_3.jpg/331,28,1200,964/100,/0/default.jpg">grabado_v_422_4</item>
                 </list>
               </decoNote>
             </decoDesc>
             <additions>
-              <stamp>Se halla de venta en casa Antonio Bosch, calle del Bou de la Ploza Nueva,
-                n.°13.</stamp>
+              <stamp>Se halla de venta en casa Antonio Bosch, calle del Bou de la Ploza Nueva, n.°13.</stamp>
             </additions>
           </physDesc>
           <history>
@@ -102,8 +112,7 @@
               <p>Imprenta de Narciso Ramírez</p>
             </origin>
             <provenance>
-              <stamp>Se halla de venta en casa Antonio Bosch, calle del Bou de la Ploza Nueva, n.°
-                3.</stamp>
+              <stamp>Se halla de venta en casa Antonio Bosch, calle del Bou de la Ploza Nueva, n.° 3.</stamp>
               <stamp>Palma. Tienda de M Borrás. Cuesta del Teatro</stamp>
             </provenance>
             <acquisition>
@@ -122,7 +131,7 @@
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR no corregido</p>
+          <p>OCR corregido</p>
         </correction>
         <normalization>
           <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
@@ -135,6 +144,7 @@
     <profileDesc>
       <langUsage>
         <language ident="es">Español</language>
+        <language ident="ca">Catalán</language>
       </langUsage>
       <textClass>
         <keywords xml:base="http://datos.bne.es/tema/">
@@ -1851,7 +1861,7 @@
   <text>
     <body>
       <div>
-        <pb n="1" source="Varios_422_1.jpg" facs="varios/Varios_422_1.jpg/"/>
+        <pb n="1" source="Varios_422_1.jpg" facs="varios/Varios_422_1.jpg"/>
         
         <fw type="impresorNum">Núm. 11.</fw>
         
@@ -1885,7 +1895,7 @@
             <l>Que es el que vendo.</l>
           </lg>
           
-          <pb n="2" source="Varios_422_2.jpg" facs="varios/Varios_422_2.jpg/"/>
+          <pb n="2" source="Varios_422_2.jpg" facs="varios/Varios_422_2.jpg"/>
           
           <fw type="paginaNum">42</fw>
           
@@ -1966,7 +1976,7 @@
           <p><lb/>—B. C.—</p>
         </div>
         
-        <pb n="3" source="Varios_422_3.jpg" facs="varios/Varios_422_3.jpg/"/>
+        <pb n="3" source="Varios_422_3.jpg" facs="varios/Varios_422_3.jpg"/>
         
         <div n="3">
           <head type="titulo_cancion" rend="negrita"><lb/>33 LA NATIVIDAD DEL SEÑOR</head>
@@ -2021,7 +2031,7 @@
           <p><lb/>– J. A. C. –</p>
         </div>
         
-        <pb n="4" source="Varios_422_4.jpg" facs="varios/Varios_422_4.jpg/"/>
+        <pb n="4" source="Varios_422_4.jpg" facs="varios/Varios_422_4.jpg"/>
         
         <fw type="paginaNum">44</fw>
         

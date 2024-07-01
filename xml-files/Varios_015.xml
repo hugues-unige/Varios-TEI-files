@@ -4,10 +4,16 @@
       <teiHeader>
             <fileDesc>
                   <titleStmt>
-                        <title>BONITO TANGO DEDICADO AL DIFUNTO BRIGADIER VILLACAMPA</title>
-                        <respStmt>
-                              <name/>
+                        <title>Bonito tango dedicado al difunto Brigadier Villacampa</title>
+                        <respStmt xml:id="PJ">
+                              <name>Pauline Jacsont</name>
+                              <resp>Segmentación y transcripción</resp>
                               <resp>Codificación TEI</resp>
+                              <resp>Corrección de la transcripción</resp>
+                        </respStmt>
+                        <respStmt xml:id="EL">
+                              <name>Elina Leblanc</name>
+                              <resp>Verificación de la codificación y carga en el sitio web</resp>
                         </respStmt>
                   </titleStmt>
                   <publicationStmt>
@@ -20,12 +26,11 @@
                   <sourceDesc>
                         <biblFull>
                               <titleStmt>
-                                    <title type="titulo_completo">BONITO TANGO DEDICADO AL DIFUNTO
-                                          BRIGADIER VILLACAMPA</title>
-                                    <title type="titulo_breve">BONITO TANGO</title>
+                                    <title type="titulo_completo">Bonito tango dedicado al difunto Brigadier Villacampa</title>
+                                    <title type="titulo_breve"/>
                               </titleStmt>
                               <editionStmt>
-                                    <p/>
+                                    <p>Otra impresión: <ref target="Varios_307.xml">Varios_307</ref></p>
                               </editionStmt>
                               <publicationStmt>
                                     <publisher>El Abanico</publisher>
@@ -47,10 +52,14 @@
                                     </altIdentifier>
                               </msIdentifier>
                               <msContents>
-                                    <summary/>
+                                    <summary>Dos partes</summary>
                                     <msItem>
-                                          <locus/>
-                                          <title/>
+                                          <locus>1-3</locus>
+                                          <title>Primera parte</title>
+                                    </msItem>
+                                    <msItem>
+                                          <locus>4</locus>
+                                          <title>Segunda parte</title>
                                     </msItem>
                               </msContents>
                               <physDesc>
@@ -72,7 +81,7 @@
                                           <summary n="1">Un grabado (p.1)</summary>
                                           <decoNote type="lista_grabados">
                                                 <list>
-                                                  <item corresp="grabado_v_015_1.xml">grabado_v_015_1</item>
+                                                      <item corresp="grabado_v_015_1.xml" facs="varios/Varios_015_1.jpg/563,190,770,591/100,/0/default.jpg">grabado_v_015_1</item>
                                                 </list>
                                           </decoNote>
                                     </decoDesc>
@@ -97,7 +106,7 @@
                   </projectDesc>
                   <editorialDecl corresp="#automaticTranscription">
                         <correction>
-                              <p>OCR no corregido</p>
+                              <p>OCR corregido</p>
                         </correction>
                         <normalization>
                               <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto
@@ -124,10 +133,11 @@
             <revisionDesc>
                   <change when="2022-05-04" who="#PJ">Création du fichier TEI P5 et encodage du
                         corps du texte</change>
-<change when="2024-01-09" who="#EL">Add the IIIF links</change>
+                  <change when="2024-01-09" who="#EL">Add the IIIF links</change>
             </revisionDesc>
       </teiHeader>
-      <facsimile><graphic url="varios/Varios_015_1.jpg/full/200,/0/default.jpg"/></facsimile><sourceDoc xml:id="automaticTranscription">
+      <facsimile><graphic url="varios/Varios_015_1.jpg/full/200,/0/default.jpg"/></facsimile>
+      <sourceDoc xml:id="automaticTranscription">
             <surface xml:id="Varios_015_1" type="page" cert="silver">
                   <graphic url="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_015_1/full/full/0/default.jpg"/>
                   <zone xml:id="Varios_015_1_BT223_1" n="1" type="CustomZone" subtype="title" points="1621,875 1706,901 1749,1072 1662,1159 1256,1230 837,1250 650,1215 659,1202 648,1176 251,1176 251,1109 190,1064 208,971 312,910 483,884 450,840 494,797 667,788 1567,806 1645,849 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_015_1/190,788,1559,462/full/0/default" corresp="CustomZone:title">
@@ -1472,7 +1482,7 @@
             <body>
                   <div>
                         <div>
-                              <pb n="1" source="Varios_015_1.jpg" facs="varios/Varios_015_1.jpg/"/>
+                              <pb n="1" source="Varios_015_1.jpg" facs="varios/Varios_015_1.jpg"/>
 
                               <head type="primer_titulo" rend="negrita">
                                     <lb/>BONITO TANGO<lb/>DEDICADO AL DIFUNTO<lb/>BRIGADIER
@@ -1539,7 +1549,7 @@
                                           <l>y abate al trabajador.</l>
                                     </lg>
 
-                                    <pb n="2" source="Varios_015_2.jpg" facs="varios/Varios_015_2.jpg/"/>
+                                    <pb n="2" source="Varios_015_2.jpg" facs="varios/Varios_015_2.jpg"/>
 
                                     <lg>
                                           <l rend="indent">La hija de Villacampa</l>
@@ -1654,7 +1664,7 @@
                                           <l>lo que nos diera la gana.</l>
                                     </lg>
                                     
-                                    <pb n="3" source="Varios_015_3.jpg" facs="varios/Varios_015_3.jpg/"/>
+                                    <pb n="3" source="Varios_015_3.jpg" facs="varios/Varios_015_3.jpg"/>
                                     <lg>
                                           <l rend="indent">Tiene ganga tremenda</l>
                                           <l>hoy nuestra España</l>
@@ -1752,7 +1762,7 @@
                               </div>
 
                               <div type="parte" n="2">
-                                    <pb n="4" source="Varios_015_4.jpg" facs="varios/Varios_015_4.jpg/"/>
+                                    <pb n="4" source="Varios_015_4.jpg" facs="varios/Varios_015_4.jpg"/>
                                     
                                     <head type="titulo_parte" rend="negrita">
                                           <lb/>SEGUNDA PARTE</head>

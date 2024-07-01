@@ -3,10 +3,19 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>EL CANTOR DE LAS HERMOSAS</title>
+        <title>El cantor de las hermosas</title>
         <respStmt>
           <name xml:id="PJ">Pauline Jacsont</name>
+          <resp>Segmentación y transcripción</resp>
           <resp>Codificación TEI</resp>
+        </respStmt>
+        <respStmt xml:id="LF">
+          <name>Lorysmar Franco</name>
+          <resp>Corrección de la transcripción</resp>
+        </respStmt>
+        <respStmt xml:id="EL">
+          <name>Elina Leblanc</name>
+          <resp>Verificación de la codificación y carga en el sitio web</resp>
         </respStmt>
       </titleStmt>
       <publicationStmt>
@@ -18,9 +27,9 @@
       <sourceDesc>
         <biblFull>
           <titleStmt>
-            <title type="titulo_completo">El cantor de las Hermosas. Trovas de amor dedicadas al
+            <title type="titulo_completo">El cantor de las hermosas. Trovas de amor dedicadas al
               bello sexo por unos aficionados.</title>
-            <title type="titulo_breve">El cantor de las Hermosas.</title>
+            <title type="titulo_breve">El cantor de las hermosas.</title>
           </titleStmt>
           <editionStmt>
             <p/>
@@ -84,10 +93,10 @@
               </layoutDesc>
             </objectDesc>
             <decoDesc>
-              <summary n="1">Un grabado (p.1) </summary>
+              <summary n="1">Un grabado (p.1)</summary>
               <decoNote type="lista_grabados">
                 <list>
-                  <item corresp="grabado_v_300_1.xml">grabado_v_300_1</item>
+                  <item corresp="grabado_v_300_1.xml" facs="varios/Varios_300_1.jpg/0,607,1604,1481/100,/0/default.jpg">grabado_v_300_1</item>
                 </list>
               </decoNote>
             </decoDesc>
@@ -120,7 +129,7 @@
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR no corregido</p>
+          <p>OCR corregido</p>
         </correction>
         <normalization>
           <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
@@ -2372,7 +2381,7 @@
   <text>
     <body>
       <div>
-        <pb n="1" source="Varios_300_1.jpg" facs="varios/Varios_300_1.jpg/"/>
+        <pb n="1" source="Varios_300_1.jpg" facs="varios/Varios_300_1.jpg"/>
 
         <fw type="impresorNum">Núm. 44</fw>
 
@@ -2394,7 +2403,7 @@
             <l>Y que admetian bondadosas</l>
             <l>La espressió de nostre cor.</l>
 
-            <pb n="2" source="Varios_300_2.jpg" facs="varios/Varios_300_2.jpg/"/>
+            <pb n="2" source="Varios_300_2.jpg" facs="varios/Varios_300_2.jpg"/>
 
             <fw type="paginaNum">172</fw>
 
@@ -2509,7 +2518,7 @@
             <l>no 'l feu aguardá.</l>
           </lg>
 
-          <pb n="3" source="Varios_300_3.jpg" facs="varios/Varios_300_3.jpg/"/>
+          <pb n="3" source="Varios_300_3.jpg" facs="varios/Varios_300_3.jpg"/>
 
           <fw type="paginaNum">173</fw>
 
@@ -2610,7 +2619,7 @@
             <l rend="indent">Ya rellenan</l>
             <l>el cestillo</l>
 
-            <pb n="4" source="Varios_300_4.jpg" facs="varios/Varios_300_4.jpg/"/>
+            <pb n="4" source="Varios_300_4.jpg" facs="varios/Varios_300_4.jpg"/>
 
             <fw type="paginaNum">174</fw>
 
@@ -2698,8 +2707,8 @@
         </div>
 
         <div type="colofon">
-          <p rend="cursiva"><lb/>Se hallará de venta en casa los sucesores de Antonio Bosch, Bou de
-            la Plaza Nueva, 13.</p>
+          <p><lb/><hi rend="cursiva">Se hallará de venta en casa los sucesores de Antonio Bosch, Bou de
+            la Plaza Nueva, 13.</hi></p>
           <p><lb/>Imprenta de los Sucesores de N. Ramirez y C.ª, pasaje Escudillers, 4.—1878.</p>
         </div>
       </div>

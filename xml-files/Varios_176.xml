@@ -4,10 +4,19 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>El Cantor de las Hermosas</title>
-        <respStmt>
-          <name/>
+        <title>El cantor de las hermosas</title>
+        <respStmt xml:id="PJ">
+          <name>Pauline Jacsont</name>
+          <resp>Segmentación y transcripción</resp>
           <resp>Codificación TEI</resp>
+        </respStmt>
+        <respStmt xml:id="LF">
+          <name>Lorysmar Franco</name>
+          <resp>Corrección de la transcripción</resp>
+        </respStmt>
+        <respStmt xml:id="EL">
+          <name>Elina Leblanc</name>
+          <resp>Verificación de la codificación y carga en el sitio web</resp>
         </respStmt>
       </titleStmt>
       <publicationStmt>
@@ -19,12 +28,12 @@
       <sourceDesc>
         <biblFull>
           <titleStmt>
-            <title type="titulo_completo">El Cantor de las Hermosas, Trovas de amor dedicadas al
+            <title type="titulo_completo">El cantor de las hermosas, Trovas de amor dedicadas al
               bello sexo por unos aficionados.</title>
-            <title type="titulo_breve">El Cantor de las Hermosas</title>
+            <title type="titulo_breve">El cantor de las hermosas</title>
           </titleStmt>
           <editionStmt>
-            <p/>
+            <p>Otras impresiones: <ref target="Varios_041.xml">Varios_041</ref> y <ref target="Varios_297.xml">Varios_297</ref></p>
           </editionStmt>
           <publicationStmt>
             <publisher>Tipografía Española</publisher>
@@ -54,7 +63,7 @@
             </msItem>
             <msItem>
               <locus>2-3</locus>
-              <title>La Ausencia Poesía</title>
+              <title>La Ausencia</title>
               <author role="letrista">J. A. C.</author>
             </msItem>
             <msItem>
@@ -78,10 +87,10 @@
               </layoutDesc>
             </objectDesc>
             <decoDesc>
-              <summary n="1">Un grabado (p.1) </summary>
+              <summary n="1">Un grabado (p.1)</summary>
               <decoNote type="lista_grabados">
                 <list>
-                  <item corresp="grabado_v_176_1.xml">grabado_v_176_1</item>
+                  <item corresp="grabado_v_176_1.xml" facs="varios/Varios_176_1.jpg/52,666,1568,1172/100,/0/default.jpg">grabado_v_176_1</item>
                 </list>
               </decoNote>
             </decoDesc>
@@ -110,7 +119,7 @@
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR no corregido</p>
+          <p>OCR corregido</p>
         </correction>
         <normalization>
           <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
@@ -127,7 +136,7 @@
       <textClass>
         <keywords xml:base="http://datos.bne.es/tema/">
           <term target="XX525577.html" type="tipo_texto">Canciones</term>
-          <term target="XX525577.html" type="tipo_estrofa">Canciones</term>
+          <term type="tipo_estrofa">Trovos</term>
           <term type="verso_prosa">Verso</term>
           <term type="sagrado_profano">Profano</term>
         </keywords>
@@ -820,7 +829,7 @@
     <body>
       <div>
         <div>
-          <pb n="1" source="Varios_176_1.jpg" facs="varios/Varios_176_1.jpg/"/>
+          <pb n="1" source="Varios_176_1.jpg" facs="varios/Varios_176_1.jpg"/>
 
           <fw type="impresorNum"><lb/>Núm. 8.</fw>
 
@@ -843,7 +852,7 @@
               <l>Solo anhelo, ¡ay! ¡el morir!</l>
             </lg>
 
-            <pb n="2" source="Varios_176_2.jpg" facs="varios/Varios_176_2.jpg/"/>
+            <pb n="2" source="Varios_176_2.jpg" facs="varios/Varios_176_2.jpg"/>
 
             <fw type="paginaNum">—30—</fw>
 
@@ -874,7 +883,7 @@
           </div>
 
           <div n="2">
-            <head type="titulo_cancion"><lb/>23 LA AUSENCIA</head>
+            <head type="titulo_cancion" rend="negrita"><lb/>23 LA AUSENCIA</head>
             <head type="subtitulo_cancion"><lb/>POESÍA</head>
 
             <l>¡Ya partió! ¡ya partió! su frente pura</l>
@@ -904,7 +913,7 @@
             <l>En mi delirio loco</l>
             <l>Lo miro, acato, reverencio y toco!</l>
 
-            <pb n="3" source="Varios_176_3.jpg" facs="varios/Varios_176_3.jpg/"/>
+            <pb n="3" source="Varios_176_3.jpg" facs="varios/Varios_176_3.jpg"/>
             <fw type="paginaNum">—31—</fw>
 
             <l>Mas ¡ay! son ilusiones pasajeras,</l>
@@ -961,7 +970,7 @@
           </div>
 
           <div n="3">
-            <pb n="4" source="Varios_176_4.jpg" facs="varios/Varios_176_4.jpg/"/>
+            <pb n="4" source="Varios_176_4.jpg" facs="varios/Varios_176_4.jpg"/>
             
             <fw type="paginaNum">—32</fw>
             
@@ -1015,12 +1024,8 @@
           </div>
         </div>
         
-        <div type="colofon_vendedor">
-          <p><lb/><hi rend="cursiva">Se hallará de venta en casa los sucesores de Antonio Bosch, Bou de la Plaza
-            Nueva,</hi> 13.</p>
-        </div>
-        
-        <div type="colofon_impresor">
+        <div type="colofon">
+          <p><lb/><hi rend="cursiva">Se hallará de venta en casa los sucesores de Antonio Bosch, Bou de la Plaza Nueva,</hi> 13.</p>
           <p><lb/>Barcelona.—Tipografía Española, calle del Hospital, núm. 87.</p>
         </div>
       </div>

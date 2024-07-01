@@ -5,9 +5,18 @@
     <fileDesc>
       <titleStmt>
         <title>Sátira compuesta de la semana mal empleada</title>
-        <respStmt>
-          <name/>
+        <respStmt xml:id="PJ">
+          <name>Pauline Jacsont</name>
+          <resp>Segmentación y transcripción</resp>
           <resp>Codificación TEI</resp>
+        </respStmt>
+        <respStmt xml:id="MB">
+          <name>Miguel Betti</name>
+          <resp>Corrección de la transcripción</resp>
+        </respStmt>
+        <respStmt xml:id="EL">
+          <name>Elina Leblanc</name>
+          <resp>Verificación de la codificación y carga en el sitio web</resp>
         </respStmt>
       </titleStmt>
       <publicationStmt>
@@ -76,13 +85,8 @@
               <summary n="2">Dos grabados (p.1)</summary>
               <decoNote type="lista_grabados">
                 <list>
-                  <item corresp="grabado_v_077_1.xml">grabado_v_077_1</item>
-                  <item corresp="grabado_v_077_2.xml">grabado_v_077_2</item>
-                </list>
-              </decoNote>
-              <decoNote type="lista_ornamentos">
-                <list>
-                  <item corresp="ornamento_v_077_1">ornamento_v_077_1</item>
+                  <item corresp="grabado_v_077_1.xml" facs="varios/Varios_077_1.jpg/208,261,608,863/100,/0/default.jpg">grabado_v_077_1</item>
+                  <item corresp="grabado_v_077_2.xml" facs="varios/Varios_077_1.jpg/833,267,471,872/100,/0/default.jpg">grabado_v_077_2</item>
                 </list>
               </decoNote>
             </decoDesc>
@@ -111,7 +115,7 @@
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR no corregido</p>
+          <p>OCR corregido</p>
         </correction>
         <normalization>
           <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
@@ -1228,7 +1232,7 @@
     <body>
       <div>
         <div>
-          <pb n="1" source="Varios_077_1.jpg" facs="varios/Varios_077_1.jpg/"/>
+          <pb n="1" source="Varios_077_1.jpg" facs="varios/Varios_077_1.jpg"/>
 
           <div>
             <head type="primer_titulo"><lb/>Sátira compuesta de la semana mal em- <lb/>pleada, que
@@ -1267,7 +1271,7 @@
               <l>al anochecer.</l>
             </lg>
 
-            <pb n="2" source="Varios_077_2.jpg" facs="varios/Varios_077_2.jpg/"/>
+            <pb n="2" source="Varios_077_2.jpg" facs="varios/Varios_077_2.jpg"/>
 
             <lg>
               <head type="titulo_estrofa" rend="cursiva"><lb/>Segunda del Galan</head>
@@ -1365,7 +1369,7 @@
               <l>al anochecer.</l>
             </lg>
 
-            <pb n="3" source="Varios_077_3.jpg" facs="varios/Varios_077_3.jpg/"/>
+            <pb n="3" source="Varios_077_3.jpg" facs="varios/Varios_077_3.jpg"/>
 
             <lg>
               <head type="titulo_estrofa" rend="cursiva"><lb/>Quinta del Galan.</head>
@@ -1465,7 +1469,7 @@
           </div>
 
           <div n="2">
-            <pb n="4" source="Varios_077_4.jpg" facs="varios/Varios_077_4.jpg/"/>
+            <pb n="4" source="Varios_077_4.jpg" facs="varios/Varios_077_4.jpg"/>
             
             <head type="titulo_parte"><lb/>TROBOS,<lb/>que el Galan cantó en desprecio<lb/>de la
               Dama.</head>
@@ -1559,7 +1563,8 @@
         </div>
         
         <div type="colofon">
-          <p><lb/>REUS: <hi rend="cursiva">Tipografia de María Aléu é hijos</hi>. 1845. <hi rend="cursiva">Es propiedad</hi>.</p>
+          <p><lb/>REUS: <hi rend="cursiva">Tipografia de María Aléu é hijos</hi>. 1845.
+            <lb/><hi rend="cursiva">Es propiedad</hi>.</p>
         </div>
       </div>
     </body>

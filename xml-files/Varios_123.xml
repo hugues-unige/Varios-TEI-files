@@ -4,10 +4,19 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>RECEPTA DEL DOCTOR SABI PER CURAR LO MAL DE IMPACIENCIA.</title>
-        <respStmt>
-          <name/>
+        <title>Recepta del doctor Sabi per curar lo mal de impaciencia</title>
+        <respStmt xml:id="PJ">
+          <name>Pauline Jacsont</name>
+          <resp>Segmentación y transcripción</resp>
           <resp>Codificación TEI</resp>
+        </respStmt>
+        <respStmt xml:id="LF">
+          <name>Lorysmar Franco</name>
+          <resp>Corrección de la transcripción</resp>
+        </respStmt>
+        <respStmt xml:id="EL">
+          <name>Elina Leblanc</name>
+          <resp>Verificación de la codificación y carga en el sitio web</resp>
         </respStmt>
       </titleStmt>
       <publicationStmt>
@@ -19,8 +28,7 @@
       <sourceDesc>
         <biblFull>
           <titleStmt>
-            <title type="titulo_completo">RECEPTA DEL DOCTOR SABI PER CU-rar lo mal de
-              impaciencia.</title>
+            <title type="titulo_completo">Recepta del doctor Sabi per curar lo mal de impaciencia.</title>
             <title type="titulo_breve"/>
           </titleStmt>
           <editionStmt>
@@ -67,17 +75,11 @@
               </layoutDesc>
             </objectDesc>
             <decoDesc>
-              <summary n="6">Dos grabados (p.1, 2)</summary>
+              <summary n="2">Dos grabados (p.1 + 2)</summary>
               <decoNote type="lista_grabados">
                 <list>
-                  <item corresp="grabado_v_123_1.xml">grabado_v_123_1</item>
-                  <item corresp="grabado_v_123_2.xml">grabado_v_123_2</item>
-                </list>
-              </decoNote>
-              <decoNote type="lista_ornamentos">
-                <list>
-                  <item corresp="ornamento_v_123_1">ornamento_v_123_1</item>
-                  <item corresp="ornamento_v_123_2">ornamento_v_123_2</item>
+                  <item corresp="grabado_v_123_1.xml" facs="varios/Varios_123_1.jpg/280,402,931,738/100,/0/default.jpg">grabado_v_123_1</item>
+                  <item corresp="grabado_v_123_2.xml" facs="varios/Varios_123_2.jpg/398,318,1196,925/100,/0/default.jpg">grabado_v_123_2</item>
                 </list>
               </decoNote>
             </decoDesc>
@@ -102,7 +104,7 @@
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR no corregido</p>
+          <p>OCR corregido</p>
         </correction>
         <normalization>
           <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
@@ -403,10 +405,10 @@
     <body>
       <div>
         <div>
-          <pb n="1" source="Varios_123_1.jpg" facs="varios/Varios_123_1.jpg/"/>
+          <pb n="1" source="Varios_123_1.jpg" facs="varios/Varios_123_1.jpg"/>
           
           <div>
-            <head type="primer_titulo"><lb/>RECEPTA DEL DOCTOR SABI PER CU.<lb/>rar lo mal de
+            <head type="primer_titulo"><lb/>RECEPTA DEL DOCTOR SABI PER CU-<lb/>rar lo mal de
               impaciencia.</head>
 
             <l>Si acás vols tenir paciencia,</l>
@@ -437,7 +439,7 @@
         </div>
         
         <div>
-          <pb n="2" source="Varios_123_2.jpg" facs="varios/Varios_123_2.jpg/"/>
+          <pb n="2" source="Varios_123_2.jpg" facs="varios/Varios_123_2.jpg"/>
           
             <l rend="indent">So un generós Caball</l>
             <l>de tan bon pas,</l>

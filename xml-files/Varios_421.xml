@@ -4,10 +4,19 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>EL CANTOR DE LAS HERMOSAS</title>
-        <respStmt>
-          <name xml:id="PJ">Pauline Jacsont</name>
+        <title>El cantor de las hermosas</title>
+        <respStmt xml:id="PJ">
+          <name>Pauline Jacsont</name>
+          <resp>Segmentación y transcripción</resp>
           <resp>Codificación TEI</resp>
+        </respStmt>
+        <respStmt xml:id="BP">
+          <name>Belinda Palacios</name>
+          <resp>Corrección de la transcripción</resp>
+        </respStmt>
+        <respStmt xml:id="EL">
+          <name>Elina Leblanc</name>
+          <resp>Verificación de la codificación y carga en el sitio web</resp>
         </respStmt>
       </titleStmt>
       <publicationStmt>
@@ -19,9 +28,9 @@
       <sourceDesc>
         <biblFull>
           <titleStmt>
-            <title type="titulo_completo">El cantor de las Hermosas. Trovas de amor dedicadas al
+            <title type="titulo_completo">El cantor de las hermosas. Trovas de amor dedicadas al
               bello sexo por unos aficionados</title>
-            <title type="titulo_breve">El cantor de las Hermosas</title>
+            <title type="titulo_breve">El cantor de las hermosas</title>
           </titleStmt>
           <editionStmt>
             <p/>
@@ -79,10 +88,11 @@
               </layoutDesc>
             </objectDesc>
             <decoDesc>
-              <summary n="1">Un grabado (p.1)</summary>
+              <summary n="2">Un grabado (p.1 + 3)</summary>
               <decoNote type="lista_grabados">
                 <list>
-                  <item corresp="grabado_v_418_1.xml">grabado_v_418_1</item>
+                  <item corresp="grabado_v_421_1.xml" facs="varios/Varios_421_1.jpg/183,626,1420,1233/100,/0/default.jpg">grabado_v_421_1</item>
+                  <item corresp="grabado_v_421_2.xml" facs="varios/Varios_421_3.jpg/776,98,534,474/100,/0/default.jpg">grabado_v_421_2</item>
                 </list>
               </decoNote>
             </decoDesc>
@@ -107,7 +117,7 @@
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR no corregido</p>
+          <p>OCR corregido</p>
         </correction>
         <normalization>
           <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
@@ -1982,7 +1992,7 @@
   <text>
     <body>
       <div>
-        <pb n="1" source="Varios_421_1.jpg" facs="varios/Varios_421_1.jpg/"/>
+        <pb n="1" source="Varios_421_1.jpg" facs="varios/Varios_421_1.jpg"/>
 
         <fw type="impresorNum">Núm. 50.</fw>
 
@@ -2005,7 +2015,7 @@
             <l>A la cuidada que me dió el ser.</l>
           </lg>
           
-          <pb n="2" source="Varios_421_2.jpg" facs="varios/Varios_421_2.jpg/"/>
+          <pb n="2" source="Varios_421_2.jpg" facs="varios/Varios_421_2.jpg"/>
           
           <fw type="paginaNum">—2—</fw>
           
@@ -2111,7 +2121,7 @@
           <p><lb/>F. B.</p>
         </div>
         
-        <pb n="3" source="Varios_421_3.jpg" facs="varios/Varios_421_3.jpg/"/>
+        <pb n="3" source="Varios_421_3.jpg" facs="varios/Varios_421_3.jpg"/>
         
         <div n="2">
           <head type="titulo_cancion" rend="negrita"><lb/>ANYORAMENT</head>
@@ -2177,7 +2187,7 @@
           <p><lb/>J. C.</p>
         </div>
         
-        <pb n="4" source="Varios_421_4.jpg" facs="varios/Varios_421_4.jpg/"/>
+        <pb n="4" source="Varios_421_4.jpg" facs="varios/Varios_421_4.jpg"/>
         
         <div n="3">
           <head type="titulo_cancion" rend="negrita"><lb/>ARIA DE LA VIEJECITA</head>

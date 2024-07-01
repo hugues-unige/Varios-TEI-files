@@ -4,10 +4,19 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>LO FULLETT</title>
-        <respStmt>
-          <name xml:id="PJ">Pauline Jacsont</name>
+        <title>Lo Fullett</title>
+        <respStmt xml:id="PJ">
+          <name>Pauline Jacsont</name>
+          <resp>Segmentación y transcripción</resp>
           <resp>Codificación TEI</resp>
+        </respStmt>
+        <respStmt xml:id="BP">
+          <name>Belinda Palacios</name>
+          <resp>Corrección de la transcripción</resp>
+        </respStmt>
+        <respStmt xml:id="EL">
+          <name>Elina Leblanc</name>
+          <resp>Verificación de la codificación y carga en el sitio web</resp>
         </respStmt>
       </titleStmt>
       <publicationStmt>
@@ -69,11 +78,7 @@
             </objectDesc>
             <decoDesc>
               <summary n="0"/>
-              <decoNote type="lista_ornamentos">
-                <list>
-                  <item corresp="ornamento_v_404_1">ornamento_v_404_1</item>
-                </list>
-              </decoNote>
+              <decoNote type="lista_ornamentos"/>
             </decoDesc>
             <additions>
               <stamp>COL-LECCIÓ MANUEL MASSÓ</stamp>
@@ -100,7 +105,7 @@
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR no corregido</p>
+          <p>OCR corregido</p>
         </correction>
         <normalization>
           <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
@@ -112,7 +117,7 @@
     </encodingDesc>
     <profileDesc>
       <langUsage>
-        <language ident="es">Español</language>
+        <language ident="ca">Catalán</language>
       </langUsage>
       <textClass>
         <keywords xml:base="http://datos.bne.es/tema/">
@@ -7026,7 +7031,7 @@
   <text>
     <body>
       <div>
-        <pb n="1" source="Varios_404_1.jpg" facs="varios/Varios_404_1.jpg/"/>
+        <pb n="1" source="Varios_404_1.jpg" facs="varios/Varios_404_1.jpg"/>
 
         <div>
           <head type="primer_titulo" rend="negrita"><lb/>LO FULLETT.</head>
@@ -7099,7 +7104,7 @@
           <l>y asistí á la ceremonia</l>
           <l>de un Vi-cari batexar...</l>
 
-          <pb n="2" source="Varios_404_2.jpg" facs="varios/Varios_404_2.jpg/"/>
+          <pb n="2" source="Varios_404_2.jpg" facs="varios/Varios_404_2.jpg"/>
 
           <fw type="paginaNum">2</fw>
 
@@ -7200,7 +7205,7 @@
           <l>y aixis cuants diners volia</l>
           <l>ella li feia saltar,</l>
 
-          <pb n="3" source="Varios_404_3.jpg" facs="varios/Varios_404_3.jpg/"/>
+          <pb n="3" source="Varios_404_3.jpg" facs="varios/Varios_404_3.jpg"/>
 
           <fw type="paginaNum">3</fw>
 
@@ -7301,7 +7306,7 @@
           <l>vegentlas com Magdalenas</l>
           <l>descabelladas y ab sanch ,</l>
 
-          <pb n="4" source="Varios_404_4.jpg" facs="varios/Varios_404_4.jpg/"/>
+          <pb n="4" source="Varios_404_4.jpg" facs="varios/Varios_404_4.jpg"/>
 
           <fw type="paginaNum">4</fw>
 
@@ -7402,7 +7407,7 @@
           <l>los enraonaba atent</l>
           <l>contantlos de tant en tant</l>
 
-          <pb n="5" source="Varios_404_5.jpg" facs="varios/Varios_404_5.jpg/"/>
+          <pb n="5" source="Varios_404_5.jpg" facs="varios/Varios_404_5.jpg"/>
 
           <fw type="paginaNum">5</fw>
 
@@ -7503,7 +7508,7 @@
           <l>cada escú anaba martxant</l>
           <l>á son cuarto destinat ;</l>
 
-          <pb n="6" source="Varios_404_6.jpg" facs="varios/Varios_404_6.jpg/"/>
+          <pb n="6" source="Varios_404_6.jpg" facs="varios/Varios_404_6.jpg"/>
 
           <fw type="paginaNum">6</fw>
 
@@ -7604,7 +7609,7 @@
           <l>lo caball de aquells señors ,</l>
           <l>cual pérdua los era estrany ;</l>
 
-          <pb n="7" source="Varios_404_7.jpg" facs="varios/Varios_404_7.jpg/"/>
+          <pb n="7" source="Varios_404_7.jpg" facs="varios/Varios_404_7.jpg"/>
 
           <fw type="paginaNum">7</fw>
 
@@ -7753,7 +7758,7 @@
           <l>venia son cuarto á donar</l>
           <l>y lo campaná sobre ell</l>
 
-          <pb n="8" source="Varios_404_8.jpg" facs="varios/Varios_404_8.jpg/"/>
+          <pb n="8" source="Varios_404_8.jpg" facs="varios/Varios_404_8.jpg"/>
 
           <fw type="paginaNum">8</fw>
 
@@ -7902,7 +7907,7 @@
         </div>
 
         <div type="colofon">
-          <p rend="cursiva"><lb/>Barcelona : Imprenta de Ignacio Estivill.</p>
+          <p><lb/><hi rend="cursiva">Barcelona : Imprenta de Ignacio Estivill.</hi></p>
         </div>
       </div>
     </body>

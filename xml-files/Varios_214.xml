@@ -4,9 +4,18 @@
     <fileDesc>
       <titleStmt>
         <title>Coplas de la Zarzuela</title>
-        <respStmt>
-          <name/>
+        <respStmt xml:id="PJ">
+          <name>Pauline Jacsont</name>
+          <resp>Segmentación y transcripción</resp>
           <resp>Codificación TEI</resp>
+        </respStmt>
+        <respStmt xml:id="LF">
+          <name>Lorysmar Franco</name>
+          <resp>Corrección de la transcripción</resp>
+        </respStmt>
+        <respStmt xml:id="EL">
+          <name>Elina Leblanc</name>
+          <resp>Verificación de la codificación y carga en el sitio web</resp>
         </respStmt>
       </titleStmt>
       <publicationStmt>
@@ -35,8 +44,7 @@
             <country>Suisse</country>
             <settlement>Genève</settlement>
             <repository>Bibliothèque Universitaire de Genève <ref
-                target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"
-              />
+                target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"/>
             </repository>
             <collection>Colección Varios</collection>
             <idno type="cote"/>
@@ -71,10 +79,10 @@
               </layoutDesc>
             </objectDesc>
             <decoDesc>
-              <summary n="1">Un grabado (p.1) </summary>
+              <summary n="1">Un grabado (p.1)</summary>
               <decoNote type="lista_grabados">
                 <list>
-                  <item corresp="grabado_v_214_1.xml">grabado_v_214_1</item>
+                  <item corresp="grabado_v_214_1.xml" facs="varios/Varios_214_1.jpg/323,289,1084,1150/100,/0/default.jpg">grabado_v_214_1</item>
                 </list>
               </decoNote>
             </decoDesc>
@@ -99,7 +107,7 @@
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR no corregido</p>
+          <p>OCR corregido</p>
         </correction>
         <normalization>
           <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
@@ -2677,7 +2685,7 @@
   <text>
     <body>
       <div>
-        <pb n="1" source="Varios_214_1.jpg" facs="varios/Varios_214_1.jpg/"/>
+        <pb n="1" source="Varios_214_1.jpg" facs="varios/Varios_214_1.jpg"/>
 
         <head type="primer_titulo"><lb/>COPLAS<lb/>DE LA ZARZUELA</head>
 
@@ -2703,7 +2711,7 @@
           <l>¡Ay que truhán,</l>
           <l>qué malandrín!</l>
 
-          <pb n="2" source="Varios_214_2.jpg" facs="varios/Varios_214_2.jpg/"/>
+          <pb n="2" source="Varios_214_2.jpg" facs="varios/Varios_214_2.jpg"/>
 
           <l>¡Cómo se rie el pillín!</l>
           <l>No lo trates de ese modo,</l>
@@ -2812,7 +2820,7 @@
           <l>de ese cocinero</l>
           <l>tri pi trin.</l>
 
-          <pb n="3" source="Varios_214_3.jpg" facs="varios/Varios_214_3.jpg/"/>
+          <pb n="3" source="Varios_214_3.jpg" facs="varios/Varios_214_3.jpg"/>
 
           <l>Si alguno nos pregunta</l>
           <l>solemos contestar</l>
@@ -2922,7 +2930,7 @@
           <l>Está usté en todo.</l>
           <l>Claro que sí.</l>
 
-          <pb n="4" source="Varios_214_4.jpg" facs="varios/Varios_214_4.jpg/"/>
+          <pb n="4" source="Varios_214_4.jpg" facs="varios/Varios_214_4.jpg"/>
 
           <l>Marque usted, señora Sotera,</l>
           <l>que perdemos el compás,</l>

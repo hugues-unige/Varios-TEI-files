@@ -4,10 +4,19 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>LOS NOMBRES COSTUMBRES Y PROPIEDADES de las señoras mugeres.</title>
-        <respStmt>
-          <name/>
+        <title>Los nombres costumbres y propriedad de las señoras mugeres.</title>
+        <respStmt xml:id="PJ">
+          <name>Pauline Jacsont</name>
+          <resp>Segmentación y transcripción</resp>
           <resp>Codificación TEI</resp>
+        </respStmt>
+        <respStmt xml:id="LF">
+          <name>Lorysmar Franco</name>
+          <resp>Corrección de la transcripción</resp>
+        </respStmt>
+        <respStmt xml:id="EL">
+          <name>Elina Leblanc</name>
+          <resp>Verificación de la codificación y carga en el sitio web</resp>
         </respStmt>
       </titleStmt>
       <publicationStmt>
@@ -20,7 +29,7 @@
         <biblFull>
           <titleStmt>
             <title type="titulo_completo">Los nombres costumbres y propriedad de las señoras
-              mugeres. </title>
+              mugeres.</title>
             <title type="titulo_breve"/>
           </titleStmt>
           <editionStmt>
@@ -67,12 +76,12 @@
               </layoutDesc>
             </objectDesc>
             <decoDesc>
-              <summary n="3">Tres grabados (p.1) </summary>
+              <summary n="3">Tres grabados (p.1)</summary>
               <decoNote type="lista_grabados">
                 <list>
-                  <item corresp="grabado_v_190_1.xml">grabado_v_190_1</item>
-                  <item corresp="grabado_v_190_2.xml">grabado_v_190_2</item>
-                  <item corresp="grabado_v_190_3.xml">grabado_v_190_3</item>
+                  <item corresp="grabado_v_190_1.xml" facs="varios/Varios_190_1.jpg/1022,236,414,760/100,/0/default.jpg">grabado_v_190_1</item>
+                  <item corresp="grabado_v_190_2.xml" facs="varios/Varios_190_1.jpg/603,210,369,783/100,/0/default.jpg">grabado_v_190_2</item>
+                  <item corresp="grabado_v_190_3.xml" facs="varios/Varios_190_1.jpg/184,227,364,763/100,/0/default.jpg">grabado_v_190_3</item>
                 </list>
               </decoNote>
               <decoNote type="lista_ornamentos"/>
@@ -102,7 +111,7 @@
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR no corregido</p>
+          <p>OCR corregido</p>
         </correction>
         <normalization>
           <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
@@ -1391,7 +1400,7 @@
   <text>
     <body>
       <div>
-        <pb n="1" source="Varios_190_1.jpg" facs="varios/Varios_190_1.jpg/"/>
+        <pb n="1" source="Varios_190_1.jpg" facs="varios/Varios_190_1.jpg"/>
         
         <div>
           <head type="primer_titulo"><lb/><hi rend="negrita">LOS NOMBRES</hi><lb/>COSTUMBRES Y
@@ -1438,7 +1447,7 @@
           <l>le hace al marido que coma</l>
           <l>pimientos de cornicabra.</l>
 
-          <pb n="2" source="Varios_190_2.jpg" facs="varios/Varios_190_2.jpg/"/>
+          <pb n="2" source="Varios_190_2.jpg" facs="varios/Varios_190_2.jpg"/>
 
           <l>Pues la otra mosquita muerta</l>
           <l>aunque el marido es bainazas,</l>
@@ -1529,7 +1538,7 @@
           <l>con chanza y con alboroto,</l>
           <l>no atendeis á lo que cantan,</l>
 
-          <pb n="3" source="Varios_190_3.jpg" facs="varios/Varios_190_3.jpg/"/>
+          <pb n="3" source="Varios_190_3.jpg" facs="varios/Varios_190_3.jpg"/>
 
           <l>à la relacion ó historia,</l>
           <l>Solamente estais atentas,</l>
@@ -1620,7 +1629,7 @@
             <l>las Marcelas y las Claras,</l>
             <l>las Bernardas y Ritas</l>
 
-            <pb n="4" source="Varios_190_4.jpg" facs="varios/Varios_190_4.jpg/"/>
+            <pb n="4" source="Varios_190_4.jpg" facs="varios/Varios_190_4.jpg"/>
 
             <l>tienen las uñas muy largas,</l>
             <l>las Lauras son hociconas,</l>
@@ -1711,7 +1720,7 @@
             <trailer>FIN.</trailer>
           </div>
         </div>
-        <div>
+        <div type="colofon">
           <p>BARCELONA. —1848. Imprenta de F. Vallés, calle del Pino.</p>
         </div>
       </div>

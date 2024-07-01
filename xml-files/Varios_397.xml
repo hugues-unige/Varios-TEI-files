@@ -4,10 +4,19 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>MARCOS DE CABRA</title>
-        <respStmt>
-          <name xml:id="PJ">Pauline Jacsont</name>
+        <title>Marcos de Cabra</title>
+        <respStmt xml:id="PJ">
+          <name>Pauline Jacsont</name>
+          <resp>Segmentación y transcripción</resp>
           <resp>Codificación TEI</resp>
+        </respStmt>
+        <respStmt xml:id="LF">
+          <name>Lorysmar Franco</name>
+          <resp>Corrección de la transcripción</resp>
+        </respStmt>
+        <respStmt xml:id="EL">
+          <name>Elina Leblanc</name>
+          <resp>Verificación de la codificación y carga en el sitio web</resp>
         </respStmt>
       </titleStmt>
       <publicationStmt>
@@ -27,7 +36,7 @@
             <title type="titulo_breve">Marcos de Cabra.</title>
           </titleStmt>
           <editionStmt>
-            <p/>
+            <p>Otra impresión: <ref target="Varios_072.xml">Varios_072</ref></p>
           </editionStmt>
           <publicationStmt>
             <publisher>José María Marés</publisher>
@@ -40,8 +49,7 @@
             <country>Suisse</country>
             <settlement>Genève</settlement>
             <repository>Bibliothèque Universitaire de Genève <ref
-                target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"
-              />
+                target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"/>
             </repository>
             <collection>Colección Varios</collection>
             <idno type="cote"/>
@@ -72,11 +80,11 @@
               </layoutDesc>
             </objectDesc>
             <decoDesc>
-              <summary n="2">Dos grabados (p.1) </summary>
+              <summary n="2">Dos grabados (p.1)</summary>
               <decoNote type="lista_grabados">
                 <list>
-                  <item corresp="grabado_v_397_1.xml">grabado_v_397_1</item>
-                  <item corresp="grabado_v_397_2.xml">grabado_v_397_2</item>
+                  <item corresp="grabado_v_397_1.xml" facs="varios/Varios_397_1.jpg/1206,414,451,653/100,/0/default.jpg">grabado_v_397_1</item>
+                  <item corresp="grabado_v_397_2.xml" facs="varios/Varios_397_1.jpg/245,433,953,652/100,/0/default.jpg">grabado_v_397_2</item>
                 </list>
               </decoNote>
             </decoDesc>
@@ -101,7 +109,7 @@
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR no corregido</p>
+          <p>OCR corregido</p>
         </correction>
         <normalization>
           <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
@@ -2491,12 +2499,12 @@
   <text>
     <body>
       <div>
-        <pb n="1" source="Varios_397_1.jpg" facs="varios/Varios_397_1.jpg/"/>
+        <pb n="1" source="Varios_397_1.jpg" facs="varios/Varios_397_1.jpg"/>
 
         <fw type="impresorNum">(Núm. 35.)</fw>
 
         <div>
-          <head type="primer_titulo"><lb/>MARCOS DE CABRA.<lb/>NUEVA RELACION</head>
+          <head type="primer_titulo"><lb/>MARCOS DE CABRA.<lb/><hi rend="negrita">NUEVA RELACION</hi></head>
           <head type="subtitulo_parte" rend="cursiva"><lb/>en que se refiere el trágico casamiento
             de este pobre hombre, vecino<lb/>de Guadarrama, que despues de unas alegres bodas,
             esperimento<lb/>á pocos meses tanta multitud de partos en su casa, que por
@@ -2523,7 +2531,7 @@
           <l>y que no la carguen mucho,</l>
           <l>que hace juicio está preñada.</l>
 
-          <pb n="2" source="Varios_397_2.jpg" facs="varios/Varios_397_2.jpg/"/>
+          <pb n="2" source="Varios_397_2.jpg" facs="varios/Varios_397_2.jpg"/>
 
           <l>Su tio el tamborilero</l>
           <l>una perra y una gata,</l>
@@ -2620,7 +2628,7 @@
           <l>corriendo trajo el fajero,</l>
           <l>corriendo la echó en la cama,</l>
 
-          <pb n="3" source="Varios_397_3.jpg" facs="varios/Varios_397_3.jpg/"/>
+          <pb n="3" source="Varios_397_3.jpg" facs="varios/Varios_397_3.jpg"/>
 
           <l>corriendo puso el caldero,</l>
           <l>corriendo calentó el agua,</l>
@@ -2717,7 +2725,7 @@
           <l>de podences sean galgos</l>
           <l>con facilidad sobrada,</l>
 
-          <pb n="4" source="Varios_397_4.jpg" facs="varios/Varios_397_4.jpg/"/>
+          <pb n="4" source="Varios_397_4.jpg" facs="varios/Varios_397_4.jpg"/>
 
           <l>pero en fin, ya es medio dia</l>
           <l>y no ha almorzado Juana:</l>

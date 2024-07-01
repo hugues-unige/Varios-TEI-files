@@ -4,10 +4,19 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>SATIRA GRACIOSA DE LOS QUINCE NOVIOS</title>
-        <respStmt>
-          <name/>
+        <title>Satira graciosa de los quince novios</title>
+        <respStmt xml:id="PJ">
+          <name>Pauline Jacsont</name>
+          <resp>Segmentación y transcripción</resp>
           <resp>Codificación TEI</resp>
+        </respStmt>
+        <respStmt xml:id="MB">
+          <name>Miguel Betti</name>
+          <resp>Corrección de la transcripción</resp>
+        </respStmt>
+        <respStmt xml:id="EL">
+          <name>Elina Leblanc</name>
+          <resp>Verificación de la codificación y carga en el sitio web</resp>
         </respStmt>
       </titleStmt>
       <publicationStmt>
@@ -19,11 +28,11 @@
       <sourceDesc>
         <biblFull>
           <titleStmt>
-            <title type="titulo_completo">SATIRA GRACIOSA DE LOS QUINCE NOVIOS. En que se
+            <title type="titulo_completo">Satira graciosa de los quince novios. En que se
               manifiestan todos los dengues, modas y zalamerías que gastan las. señoritas doncellas
               cuando ven que tienen muchos nouios y se muéren por sus pedazos; como los demas que
               verá el curioso lector.</title>
-            <title type="titulo_breve">SATIRA GRACIOSA DE LOS QUINCE NOVIOS.</title>
+            <title type="titulo_breve">Satira graciosa de los quince novios.</title>
           </titleStmt>
           <editionStmt>
             <p/>
@@ -72,8 +81,8 @@
               <summary n="2">Dos grabados (p.1)</summary>
               <decoNote type="lista_grabados">
                 <list>
-                  <item corresp="grabado_v_079_1.xml">grabado_v_079_1</item>
-                  <item corresp="grabado_v_079_2.xml">grabado_v_079_2</item>
+                  <item corresp="grabado_v_079_1.xml" facs="varios/Varios_079_1.jpg/359,299,479,960/100,/0/default.jpg">grabado_v_079_1</item>
+                  <item corresp="grabado_v_079_2.xml" facs="varios/Varios_079_1.jpg/842,183,545,1083/100,/0/default.jpg">grabado_v_079_2</item>
                 </list>
               </decoNote>
             </decoDesc>
@@ -105,7 +114,7 @@
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR no corregido</p>
+          <p>OCR corregido</p>
         </correction>
         <normalization>
           <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
@@ -1184,7 +1193,7 @@
     <body>
       <div>
         <div>
-          <pb n="1" source="Varios_079_1.jpg" facs="varios/Varios_079_1.jpg/"/>
+          <pb n="1" source="Varios_079_1.jpg" facs="varios/Varios_079_1.jpg"/>
 
           <fw type="impresorNum">(Núm. 121.)</fw>
 
@@ -1208,7 +1217,7 @@
           <l>tras de los usías</l>
           <l>se las van los ojos;</l>
 
-          <pb n="2" source="Varios_079_2.jpg" facs="varios/Varios_079_2.jpg/"/>
+          <pb n="2" source="Varios_079_2.jpg" facs="varios/Varios_079_2.jpg"/>
 
           <l>y verán las ansias</l>
           <l>de muchos camuesos,</l>
@@ -1294,7 +1303,7 @@
           <l>dan á sus mugeres</l>
           <l>muy lindos reveses;</l>
 
-          <pb n="3" source="Varios_079_3.jpg" facs="varios/Varios_079_3.jpg/"/>
+          <pb n="3" source="Varios_079_3.jpg" facs="varios/Varios_079_3.jpg"/>
 
           <l>y el cuadro las tecan</l>
           <l>con los tirapieses</l>
@@ -1380,7 +1389,7 @@
           <l>usia le quiero, fJuo</l>
           <l>démele usted usía.</l>
 
-          <pb n="4" source="Varios_079_4.jpg" facs="varios/Varios_079_4.jpg/"/>
+          <pb n="4" source="Varios_079_4.jpg" facs="varios/Varios_079_4.jpg"/>
 
           <l rend="indent">—Pues hija mia; un usía</l>
           <l>tambien me ha llegado á hablar.</l>
@@ -1452,7 +1461,7 @@
         </div>
         
         <div type="colofon">
-          <p><lb/><hi rend="negrita">REUS:</hi> Imprenta y librería de Juan B. Vidal, calle Mayor 1853.</p>
+          <p><lb/><hi rend="negrita">REUS:</hi> <lb/>Imprenta y librería de Juan B. Vidal, calle Mayor. <lb/>1853.</p>
         </div>
       </div>
     </body>

@@ -3,10 +3,19 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>DIALOGO ENTRE GALAN Y DAMA</title>
-        <respStmt>
-          <name xml:id="PJ">Pauline Jacsont</name>
+        <title>Dialogo entre galan y dama</title>
+        <respStmt xml:id="PJ">
+          <name>Pauline Jacsont</name>
+          <resp>Segmentación y transcripción</resp>
           <resp>Codificación TEI</resp>
+        </respStmt>
+        <respStmt xml:id="LF">
+          <name>Lorysmar Franco</name>
+          <resp>Corrección de la transcripción</resp>
+        </respStmt>
+        <respStmt xml:id="EL">
+          <name>Elina Leblanc</name>
+          <resp>Verificación de la codificación y carga en el sitio web</resp>
         </respStmt>
       </titleStmt>
       <publicationStmt>
@@ -20,7 +29,7 @@
           <titleStmt>
             <title type="titulo_completo">Dialogo entre galan y dama, titulado: Cobrar la Fama es
               nobleza, y desempenar su agravio.</title>
-            <title type="titulo_breve">Cobrar la Fama es nobleza, y desempenar su agravio</title>
+            <title type="titulo_breve">Dialogo entre galan y dama</title>
           </titleStmt>
           <editionStmt>
             <p/>
@@ -55,7 +64,7 @@
             </msItem>
             <msItem>
               <locus>4</locus>
-              <title>coplas para cantar los enamorados</title>
+              <title>Coplas para cantar los enamorados</title>
             </msItem>
           </msContents>
           <physDesc>
@@ -73,10 +82,10 @@
               </layoutDesc>
             </objectDesc>
             <decoDesc>
-              <summary n="1">Un grabado (p.1) </summary>
+              <summary n="1">Un grabado (p.1)</summary>
               <decoNote type="lista_grabados">
                 <list>
-                  <item corresp="grabado_v_317_1.xml">grabado_v_317_1</item>
+                  <item corresp="grabado_v_317_1.xml" facs="varios/Varios_317_1.jpg/409,300,873,804/100,/0/default.jpg">grabado_v_317_1</item>
                 </list>
               </decoNote>
             </decoDesc>
@@ -105,7 +114,7 @@
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR no corregido</p>
+          <p>OCR corregido</p>
         </correction>
         <normalization>
           <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
@@ -2480,7 +2489,7 @@
   <text>
     <body>
       <div>
-        <pb n="1" source="Varios_317_1.jpg" facs="varios/Varios_317_1.jpg/"/>
+        <pb n="1" source="Varios_317_1.jpg" facs="varios/Varios_317_1.jpg"/>
 
         <fw type="impresorNum">(Núm. 8.)</fw>
 
@@ -2508,7 +2517,7 @@
             <l>puesto que me dió palabra</l>
             <l>de ser mi esposo y faltóme</l>
 
-            <pb n="2" source="Varios_317_2.jpg" facs="varios/Varios_317_2.jpg/"/>
+            <pb n="2" source="Varios_317_2.jpg" facs="varios/Varios_317_2.jpg"/>
 
             <l>á las leyes del amor,</l>
             <l>con mengua de su honor y nombre;</l>
@@ -2621,7 +2630,7 @@
             <l>mas fácil es perdonar</l>
             <l>que seguir ciegos errores.</l>
 
-            <pb n="3" source="Varios_317_3.jpg" facs="varios/Varios_317_3.jpg/"/>
+            <pb n="3" source="Varios_317_3.jpg" facs="varios/Varios_317_3.jpg"/>
 
             <l>Y supuesto que eres dichosa,</l>
             <l>deja vagas opiniones.</l>
@@ -2772,7 +2781,7 @@
           <trailer>FIN DEL DIALOGO.</trailer>
         </div>
 
-        <pb n="4" source="Varios_317_4.jpg" facs="varios/Varios_317_4.jpg/"/>
+        <pb n="4" source="Varios_317_4.jpg" facs="varios/Varios_317_4.jpg"/>
 
         <div n="2">
           <head type="titulo_parte"><lb/>COPLAS PARA CANTAR LOS ENAMORADOS.</head>
@@ -2860,7 +2869,7 @@
         </div>
         
         <div type="colofon">
-          <p rend="cursiva"><lb/>Baeza.—Imp. y lib. de la Comision gral. de Libros.</p>
+          <p><lb/><hi rend="cursiva">Baeza.—Imp. y lib. de la Comision gral. de Libros.</hi></p>
         </div>
       </div>
     </body>

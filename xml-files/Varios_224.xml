@@ -3,10 +3,19 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>COPLAS DE LA JÓTA POR LOS NOMBRES DE MUGER</title>
-        <respStmt>
-          <name/>
+        <title>Coplas de la jóta por los nombres de muger</title>
+        <respStmt xml:id="PJ">
+          <name>Pauline Jacsont</name>
+          <resp>Segmentación y transcripción</resp>
           <resp>Codificación TEI</resp>
+        </respStmt>
+        <respStmt xml:id="LF">
+          <name>Lorysmar Franco</name>
+          <resp>Corrección de la transcripción</resp>
+        </respStmt>
+        <respStmt xml:id="EL">
+          <name>Elina Leblanc</name>
+          <resp>Verificación de la codificación y carga en el sitio web</resp>
         </respStmt>
       </titleStmt>
       <publicationStmt>
@@ -18,8 +27,7 @@
       <sourceDesc>
         <biblFull>
           <titleStmt>
-            <title type="titulo_completo">Coplas de la jóta por los nombres de muger y siguidillas
-              nuevas.</title>
+            <title type="titulo_completo">Coplas de la jóta por los nombres de muger y siguidillas nuevas.</title>
             <title type="titulo_breve">Coplas de la jóta</title>
           </titleStmt>
           <editionStmt>
@@ -36,8 +44,7 @@
             <country>Suisse</country>
             <settlement>Genève</settlement>
             <repository>Bibliothèque Universitaire de Genève <ref
-                target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"
-              />
+                target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"/>
             </repository>
             <collection>Colección Varios</collection>
             <idno type="cote"/>
@@ -72,11 +79,11 @@
               </layoutDesc>
             </objectDesc>
             <decoDesc>
-              <summary n="2">Dos grabados (p.1) </summary>
+              <summary n="2">Dos grabados (p.1)</summary>
               <decoNote type="lista_grabados">
                 <list>
-                  <item corresp="grabado_v_224_1.xml">grabado_v_224_1</item>
-                  <item corresp="grabado_v_224_2.xml">grabado_v_224_2</item>
+                  <item corresp="grabado_v_224_1.xml" facs="varios/Varios_224_1.jpg/277,473,409,772/100,/0/default.jpg">grabado_v_224_1</item>
+                  <item corresp="grabado_v_224_2.xml" facs="varios/Varios_224_1.jpg/1059,430,416,839/100,/0/default.jpg">grabado_v_224_2</item>
                 </list>
               </decoNote>
             </decoDesc>
@@ -101,7 +108,7 @@
       </projectDesc>
       <editorialDecl corresp="#automaticTranscription">
         <correction>
-          <p>OCR no corregido</p>
+          <p>OCR corregido</p>
         </correction>
         <normalization>
           <p>Se conservan la ortografía, las mayúsculas y las cursivas del texto original.</p>
@@ -2305,7 +2312,7 @@
     <body>
       <div>
         <div>
-          <pb n="1" source="Varios_224_1.jpg" facs="varios/Varios_224_1.jpg/"/>
+          <pb n="1" source="Varios_224_1.jpg" facs="varios/Varios_224_1.jpg"/>
 
           <fw type="impresorNum">Num 7.</fw>
 
@@ -2336,7 +2343,7 @@
             <l rend="indent">Isabel salió de gala</l>
             <l>con arco, flecha y bandera,</l>
 
-            <pb n="2" source="Varios_224_2.jpg" facs="varios/Varios_224_2.jpg/"/>
+            <pb n="2" source="Varios_224_2.jpg" facs="varios/Varios_224_2.jpg"/>
 
             <fw type="paginaNum">2</fw>
 
@@ -2431,7 +2438,7 @@
             <l>perdonen las demás damas,</l>
             <l>que á ninguna ofender quiero.</l>
 
-            <pb n="3" source="Varios_224_3.jpg" facs="varios/Varios_224_3.jpg/"/>
+            <pb n="3" source="Varios_224_3.jpg" facs="varios/Varios_224_3.jpg"/>
 
             <fw type="paginaNum">3</fw>
 
@@ -2530,7 +2537,7 @@
               <l>recien nacidos.</l>
             </lg>
 
-            <pb n="4" source="Varios_224_4.jpg" facs="varios/Varios_224_4.jpg/"/>
+            <pb n="4" source="Varios_224_4.jpg" facs="varios/Varios_224_4.jpg"/>
 
             <fw type="paginaNum">4</fw>
 
