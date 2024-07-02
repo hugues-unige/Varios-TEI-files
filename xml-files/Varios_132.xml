@@ -19,6 +19,20 @@
           <resp>Verificación de la codificación y carga en el sitio web</resp>
         </respStmt>
       </titleStmt>
+      <editionStmt>
+        <edition n="2.0">
+          <title>Segunda versión de la edición, enriquecida con topónimos</title>
+          <date>2024</date>
+        </edition>
+        <respStmt>
+          <name>Elina Leblanc, Zoé Noël y Pauline Jacsont</name>
+          <resp>Creación del modelo de reconocimiento automático de topónimos y codificación TEI</resp>
+        </respStmt>
+        <respStmt>
+          <name>Belinda Palacios, Lorysmar Franco y Constance Carta</name>
+          <resp>Corrección de los resultados</resp>
+        </respStmt>
+      </editionStmt>
       <publicationStmt>
         <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
         <availability status="restricted">
@@ -68,7 +82,8 @@
                   <dim>in-4</dim>
                   <material/>
                 </support>
-                <extent><measure unit="página" quantity="8"/>8 p.</extent>
+                <extent>
+                  <measure unit="página" quantity="8"/>8 p.</extent>
                 <condition>Bueno</condition>
               </supportDesc>
               <layoutDesc>
@@ -97,6 +112,44 @@
             </acquisition>
           </history>
         </msDesc>
+        <listPlace xml:base="https://www.wikidata.org/wiki/">
+          <place n="3" corresp="Q604539">
+            <placeName key="Monserrat">Monserrat</placeName>
+            <location>
+              <geo>39.3578888888889 -0.603055555555555</geo>
+            </location>
+          </place>
+          <place n="1" corresp="Q508754">
+            <placeName key="Vilaseca">Vilaseca</placeName>
+            <location>
+              <geo>41.11098 1.144988</geo>
+            </location>
+          </place>
+          <place n="1" corresp="Q220">
+            <placeName key="Roma">Roma</placeName>
+            <location>
+              <geo>41.893055555556 12.482777777778</geo>
+            </location>
+          </place>
+          <place n="4" corresp="Q487096">
+            <placeName key="Reus">Reus</placeName>
+            <location>
+              <geo>41.15487 1.10871</geo>
+            </location>
+          </place>
+          <place n="1" corresp="Q548045">
+            <placeName key="Flix">Flix</placeName>
+            <location>
+              <geo>41.231043 0.550137</geo>
+            </location>
+          </place>
+          <place n="1" corresp="Q1230080">
+            <placeName key="Castellvell">Castellvell</placeName>
+            <location>
+              <geo>41.18005 1.0987</geo>
+            </location>
+          </place>
+        </listPlace>
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
@@ -132,8 +185,7 @@
       </textClass>
     </profileDesc>
     <revisionDesc>
-      <change when="2022-09-06" who="#PJ">Création du fichier TEI P5 et encodage du corps du
-        texte</change>
+      <change when="2022-09-06" who="#PJ">Création du fichier TEI P5 et encodage du corps du texte</change>
       <change when="2024-01-09" who="#EL">Add the IIIF links</change>
     </revisionDesc>
   </teiHeader>
@@ -938,7 +990,7 @@
           <line>(Surt lu Quicu y crida al Jayu apart)</line>
         </zone>
         <zone xml:id="Varios_132_3_BT227_3__37" type="DefaultLine" subtype="none" points="831,1903 829,1923 1395,1927 1399,1912 1397,1877 831,1866 831,1903 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_132_3/829,1866,570,61/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_132_3_BT227_3__37_1" points="833,1906 1401,1914 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
+          <path xml:id="Varios_132_3_BT227_3__37_1" points="833,1906 1401,1914 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
           <line>QUICU. Jayu, veniu, escoltéu.</line>
         </zone>
         <zone xml:id="Varios_132_3_BT227_3_LT83_38" type="DefaultLine" subtype="none" points="870,1956 870,1906 1204,1919 1469,1910 1473,1960 1469,1989 1232,1976 1215,1989 1215,1989 1215,1989 1212,1989 1212,1989 1212,1989 1210,1989 1210,1989 1208,1989 1208,1989 1208,1989 1206,1989 1206,1989 1204,1989 1169,1973 868,1984 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_132_3/868,1906,605,83/full/0/default" corresp="DefaultLine">
@@ -950,7 +1002,7 @@
           <line>que tenen aquéll paréll?</line>
         </zone>
         <zone xml:id="Varios_132_3_BT227_3__40" type="DefaultLine" subtype="none" points="831,2041 829,2052 1379,2061 1384,2048 1384,2015 831,2004 831,2041 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_132_3/829,2004,555,57/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_132_3_BT227_3__40_1" points="833,2042 1386,2050 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
+          <path xml:id="Varios_132_3_BT227_3__40_1" points="833,2042 1386,2050 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
           <line>JAYU. Pero llogat ara es téu.</line>
         </zone>
         <zone xml:id="Varios_132_3_BT227_3_LT83_41" type="DefaultLine" subtype="none" points="868,2087 868,2048 1320,2055 1322,2094 1318,2105 864,2098 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_132_3/864,2048,458,57/full/0/default" corresp="DefaultLine">
@@ -1593,7 +1645,7 @@
           <line>ivérn, istiu, y tot l' any.</line>
         </zone>
         <zone xml:id="Varios_132_5_BT227_2__44" type="DefaultLine" subtype="none" points="804,2092 783,2092 761,2092 758,2081 686,2081 684,2081 682,2081 679,2081 679,2083 664,2096 662,2101 594,2101 579,2096 526,2087 519,2087 497,2087 475,2087 458,2087 429,2096 403,2090 388,2090 366,2090 364,2090 355,2098 346,2098 265,2090 256,2092 234,2092 212,2092 190,2092 186,2092 103,2098 105,2138 105,2155 245,2144 280,2157 282,2157 285,2157 287,2160 517,2160 517,2157 528,2157 710,2144 728,2157 730,2157 732,2157 734,2160 820,2160 822,2131 820,2103 804,2092 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_132_5/103,2081,719,79/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_132_5_BT227_2__44_1" points="107,2140 605,2139 684,2129 824,2133 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
+          <path xml:id="Varios_132_5_BT227_2__44_1" points="107,2140 605,2139 684,2129 824,2133 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
           <line>Ara, l' aigüa hi vay tirán (ho fá)</line>
         </zone>
         <zone xml:id="Varios_132_5_BT227_2_LT83_45" type="DefaultLine" subtype="none" points="63,2182 61,2133 188,2144 230,2131 232,2131 234,2131 234,2131 234,2131 236,2131 236,2131 239,2131 239,2131 239,2131 239,2131 267,2144 710,2129 717,2175 715,2206 574,2195 339,2195 309,2201 282,2208 280,2208 280,2208 278,2208 61,2197 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_132_5/61,2129,656,79/full/0/default" corresp="DefaultLine">
@@ -1605,7 +1657,7 @@
           <line>JAYU. Ara 'l guix hi tiraré,</line>
         </zone>
         <zone xml:id="Varios_132_5_BT227_2__47" type="DefaultLine" subtype="none" points="809,2239 787,2239 765,2239 743,2239 721,2239 712,2214 622,2214 620,2214 618,2214 616,2214 616,2217 605,2225 596,2236 495,2236 482,2225 460,2225 438,2225 423,2225 339,2234 307,2225 296,2223 293,2223 291,2223 274,2225 232,2234 109,2228 109,2265 107,2285 820,2287 824,2260 818,2225 809,2225 809,2239 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_132_5/107,2214,717,73/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_132_5_BT227_2__47_1" points="111,2267 519,2271 655,2269 826,2263 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
+          <path xml:id="Varios_132_5_BT227_2__47_1" points="111,2267 519,2271 655,2269 826,2263 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
           <line>hi vos anéu pateiján. (ho fan)</line>
         </zone>
         <zone xml:id="Varios_132_5_BT227_2_LT83_48" type="DefaultLine" subtype="none" points="114,2315 111,2271 346,2278 416,2274 579,2265 581,2265 581,2265 581,2265 583,2265 620,2278 622,2311 620,2326 114,2333 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_132_5/111,2265,511,68/full/0/default" corresp="DefaultLine">
@@ -1667,7 +1719,7 @@
           <line>(beu hi para de pastà)</line>
         </zone>
         <zone xml:id="Varios_132_5_BT227_3__12" type="DefaultLine" subtype="none" points="829,742 829,753 1283,753 1283,736 1276,694 1182,701 1177,698 1153,674 1153,672 1151,672 1149,672 1147,672 1055,674 1028,676 1026,676 1024,676 1024,679 995,705 995,707 958,707 932,707 853,685 851,685 848,685 846,685 844,685 844,687 842,687 837,690 829,742 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_132_5/829,672,454,81/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_132_5_BT227_3__12_1" points="831,744 958,743 1026,748 1285,738 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
+          <path xml:id="Varios_132_5_BT227_3__12_1" points="831,744 958,743 1026,748 1285,738 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
           <line>JAYU. Ya es bon fl.</line>
         </zone>
         <zone xml:id="Varios_132_5_BT227_3_LT83_13" type="DefaultLine" subtype="none" points="870,784 866,751 1298,747 1305,779 1300,801 868,797 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_132_5/866,747,439,54/full/0/default" corresp="DefaultLine">
@@ -1803,7 +1855,7 @@
           <line>me la teniu de pagá;</line>
         </zone>
         <zone xml:id="Varios_132_5_BT227_3__46" type="DefaultLine" subtype="none" points="881,2219 879,2214 870,2208 868,2206 866,2206 864,2206 862,2206 837,2208 840,2258 840,2278 903,2271 945,2280 980,2287 982,2287 1035,2280 1070,2276 1079,2280 1092,2287 1094,2287 1096,2287 1098,2287 1114,2280 1140,2269 1230,2282 1274,2287 1276,2287 1278,2287 1280,2287 1287,2282 1305,2269 1403,2269 1421,2282 1423,2285 1425,2285 1427,2285 1430,2285 1432,2285 1438,2282 1473,2269 1489,2282 1489,2285 1491,2285 1493,2285 1495,2285 1594,2282 1594,2249 1588,2195 1324,2197 1322,2197 1316,2199 1276,2219 1272,2221 888,2221 883,2219 881,2219 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_132_5/837,2195,757,92/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_132_5_BT227_3__46_1" points="842,2259 857,2258 1596,2252 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
+          <path xml:id="Varios_132_5_BT227_3__46_1" points="842,2259 857,2258 1596,2252 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
           <line>Se 'l emportan y 'l Jayu se rebenta de riure.</line>
         </zone>
         <zone xml:id="Varios_132_5_BT227_3_LT83_47" type="DefaultLine" subtype="none" points="879,2309 870,2274 892,2260 894,2260 894,2260 897,2260 897,2260 897,2260 899,2260 1048,2267 1096,2269 1109,2265 1129,2258 1129,2258 1131,2258 1131,2258 1133,2258 1342,2258 1346,2304 1342,2326 877,2324 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_132_5/870,2258,476,68/full/0/default" corresp="DefaultLine">
@@ -1815,7 +1867,7 @@
           <line>mal me veigi afusellát.</line>
         </zone>
         <zone xml:id="Varios_132_5_BT227_3__49" type="DefaultLine" subtype="none" points="1322,2352 1309,2352 1300,2359 1182,2352 1169,2352 1147,2352 1125,2352 1116,2352 1079,2361 1070,2352 1068,2352 1059,2352 1057,2352 1055,2352 1046,2363 940,2363 925,2357 908,2352 905,2352 883,2352 862,2352 857,2352 840,2359 842,2401 842,2434 1013,2434 1017,2434 1037,2444 1039,2444 1041,2444 1090,2436 1112,2431 1118,2436 1144,2453 1147,2453 1149,2453 1151,2453 1596,2440 1596,2394 1592,2335 1491,2335 1489,2335 1487,2335 1484,2335 1482,2337 1473,2346 1465,2339 1462,2337 1462,2335 1460,2335 1458,2335 1342,2335 1340,2335 1337,2335 1335,2335 1327,2342 1322,2352 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_132_5/840,2335,756,118/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_132_5_BT227_3__49_1" points="844,2403 1598,2396 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
+          <path xml:id="Varios_132_5_BT227_3__49_1" points="844,2403 1598,2396 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
           <line>JAYU. Ha; ha, ha, ¡Quin fart de riure!..</line>
         </zone>
       </zone>
@@ -1986,11 +2038,11 @@
           <line>BERT. Ho, hi que portu uns cuans cra¬</line>
         </zone>
         <zone xml:id="Varios_132_6_BT227_2__40" type="DefaultLine" subtype="none" points="846,1971 723,1976 574,1982 570,1980 563,1973 563,1971 561,1971 559,1971 372,1971 370,1971 291,1982 212,1971 210,1971 208,1971 206,1971 206,1973 203,1973 199,1978 201,2017 201,2028 318,2046 320,2046 322,2046 366,2030 368,2030 375,2030 486,2044 489,2044 543,2030 568,2026 679,2026 688,2033 706,2048 708,2048 710,2048 712,2050 868,2050 868,2048 870,2048 930,2033 930,2019 921,1971 903,1982 859,1973 848,1971 846,1971 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_132_6/199,1971,731,79/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_132_6_BT227_2__40_1" points="203,2019 568,2015 778,2019 931,2021 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
+          <path xml:id="Varios_132_6_BT227_2__40_1" points="203,2019 568,2015 778,2019 931,2021 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
           <line>¿que ya molta gen? [melos.</line>
         </zone>
         <zone xml:id="Varios_132_6_BT227_2__41" type="DefaultLine" subtype="none" points="377,2017 355,2017 335,2017 271,2026 166,2015 160,2039 160,2059 160,2072 197,2087 199,2087 201,2087 203,2087 206,2087 206,2085 221,2072 221,2070 359,2070 364,2072 383,2085 386,2085 388,2085 390,2085 552,2083 554,2083 576,2070 576,2057 570,2015 421,2024 383,2015 377,2017 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_132_6/160,2015,416,72/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_132_6_BT227_2__41_1" points="162,2061 296,2061 353,2063 579,2059 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
+          <path xml:id="Varios_132_6_BT227_2__41_1" points="162,2061 296,2061 353,2063 579,2059 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
           <line>JAXU. No gaires:</line>
         </zone>
         <zone xml:id="Varios_132_6_BT227_2_LT83_42" type="DefaultLine" subtype="none" points="903,2074 881,2074 859,2074 846,2046 846,2046 572,2046 570,2046 568,2046 565,2046 565,2048 552,2057 552,2059 550,2059 546,2063 546,2065 375,2065 370,2063 361,2061 355,2061 353,2057 309,2046 307,2046 304,2046 302,2046 300,2046 293,2048 289,2061 276,2061 274,2063 269,2063 201,2063 201,2103 199,2116 250,2133 252,2133 254,2133 256,2133 287,2120 379,2133 381,2133 383,2133 405,2122 412,2120 436,2125 480,2131 482,2131 484,2131 495,2127 506,2120 914,2138 919,2107 919,2065 905,2061 903,2074 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_132_6/199,2046,720,92/full/0/default" corresp="DefaultLine">
@@ -2192,7 +2244,7 @@
           <line>que sens pará me atormentan.</line>
         </zone>
         <zone xml:id="Varios_132_6_BT227_3__42" type="DefaultLine" subtype="none" points="938,2107 936,2149 962,2151 965,2151 967,2151 969,2151 969,2149 971,2149 995,2127 1109,2138 1112,2138 1114,2138 1138,2127 1283,2127 1327,2142 1353,2151 1355,2151 1357,2153 1491,2153 1491,2151 1493,2151 1495,2151 1495,2149 1504,2142 1517,2151 1520,2151 1522,2151 1524,2153 1636,2153 1636,2151 1638,2151 1640,2151 1658,2136 1666,2129 1688,2133 1693,2109 1693,2072 1653,2059 1651,2059 1552,2059 1550,2059 1548,2059 1524,2072 1522,2072 938,2063 938,2107 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_132_6/936,2059,757,94/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_132_6_BT227_3__42_1" points="939,2108 1695,2111 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
+          <path xml:id="Varios_132_6_BT227_3__42_1" points="939,2108 1695,2111 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
           <line>Durán aquesta escena, tots dos se van</line>
         </zone>
         <zone xml:id="Varios_132_6_BT227_3_LT83_43" type="DefaultLine" subtype="none" points="978,2155 978,2116 1320,2116 1320,2155 1318,2175 976,2168 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_132_6/976,2116,344,59/full/0/default" corresp="DefaultLine">
@@ -2204,7 +2256,7 @@
           <line>JAYU. Mira quin una, ya es morta.</line>
         </zone>
         <zone xml:id="Varios_132_6_BT227_3__45" type="DefaultLine" subtype="none" points="1327,2201 1313,2201 1291,2201 1269,2201 1248,2199 1226,2199 1204,2199 1182,2199 1160,2199 1138,2199 1116,2199 1094,2199 1072,2199 1050,2199 1028,2199 1006,2199 984,2199 962,2199 940,2199 940,2241 938,2254 1522,2267 1526,2247 1522,2201 1335,2210 1329,2201 1327,2201 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_132_6/938,2199,588,68/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_132_6_BT227_3__45_1" points="943,2243 1528,2249 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
+          <path xml:id="Varios_132_6_BT227_3__45_1" points="943,2243 1528,2249 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
           <line>BEN. Mireu quin altre, xafada.</line>
         </zone>
         <zone xml:id="Varios_132_6_BT227_3_LT83_46" type="DefaultLine" subtype="none" points="978,2289 976,2247 1430,2245 1434,2291 1430,2304 973,2302 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_132_6/973,2245,461,59/full/0/default" corresp="DefaultLine">
@@ -2545,7 +2597,7 @@
           <line>Ep, mestre. ¿Ahont se ha ficát?</line>
         </zone>
         <zone xml:id="Varios_132_7_BT227_3__29" type="DefaultLine" subtype="none" points="1561,1408 1467,1410 1465,1410 1462,1410 1462,1413 1449,1426 851,1428 853,1465 853,1485 949,1485 980,1498 982,1498 984,1498 987,1498 989,1498 989,1496 1002,1483 1090,1483 1256,1481 1263,1481 1313,1491 1316,1491 1318,1491 1353,1481 1357,1478 1359,1481 1375,1494 1375,1496 1377,1496 1379,1496 1381,1498 1498,1498 1498,1496 1570,1478 1572,1459 1566,1417 1561,1408 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_132_7/851,1408,721,90/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_132_7_BT227_3__29_1" points="855,1467 1366,1463 1388,1465 1574,1461 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
+          <path xml:id="Varios_132_7_BT227_3__29_1" points="855,1467 1366,1463 1388,1465 1574,1461 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
           <line>Enganya béstias, soch yó. (cridán)</line>
         </zone>
         <zone xml:id="Varios_132_7_BT227_3_LT83_30" type="DefaultLine" subtype="none" points="851,1513 848,1470 1305,1474 1309,1507 1309,1529 851,1529 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_132_7/848,1470,461,59/full/0/default" corresp="DefaultLine">
@@ -2613,7 +2665,7 @@
           <line>Surt lu Crospu Ep, vos que'm eu en¬</line>
         </zone>
         <zone xml:id="Varios_132_7_BT227_3__46" type="DefaultLine" subtype="none" points="853,2228 853,2252 965,2247 978,2252 1000,2263 1002,2263 1004,2263 1057,2252 1096,2245 1127,2252 1147,2258 1149,2258 1151,2258 1206,2252 1318,2241 1379,2241 1395,2252 1397,2254 1397,2256 1399,2256 1401,2256 1403,2256 1566,2252 1568,2221 1563,2190 1416,2177 1414,2177 1412,2177 1410,2177 1388,2190 1379,2190 1259,2179 1256,2179 851,2193 853,2228 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_132_7/851,2177,717,86/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_132_7_BT227_3__46_1" points="855,2230 1327,2225 1397,2232 1570,2223 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
+          <path xml:id="Varios_132_7_BT227_3__46_1" points="855,2230 1327,2225 1397,2232 1570,2223 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
           <line>au, depressa. vull cobrá [ganyát:</line>
         </zone>
         <zone xml:id="Varios_132_7_BT227_3_LT83_47" type="DefaultLine" subtype="none" points="846,2274 842,2241 1375,2225 1381,2267 1377,2293 844,2291 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_132_7/842,2225,539,68/full/0/default" corresp="DefaultLine">
@@ -2834,7 +2886,7 @@
           <line>BEN. Ya hi vay, mi esteré un ratu.</line>
         </zone>
         <zone xml:id="Varios_132_8_BT227_3__4" type="DefaultLine" subtype="none" points="1675,357 1660,352 1596,365 1530,352 1528,352 1401,365 1384,365 1375,363 1342,354 1324,354 1302,354 1265,363 1259,363 1254,363 1206,354 1193,354 1171,354 1160,354 1140,361 969,361 951,396 949,420 1261,414 1285,425 1287,425 1289,425 1291,425 1320,425 1462,420 1469,425 1478,433 1480,433 1482,433 1484,433 1697,425 1699,400 1699,368 1680,357 1675,357 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_132_8/949,352,750,81/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_132_8_BT227_3__4_1" points="952,397 1702,403 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
+          <path xml:id="Varios_132_8_BT227_3__4_1" points="952,397 1702,403 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
           <line>JAYU. Ni cinch minúts, com hi ha Deu.</line>
         </zone>
         <zone xml:id="Varios_132_8_BT227_3_LT83_5" type="DefaultLine" subtype="none" points="984,446 980,411 1443,405 1449,440 1449,457 984,460 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_132_8/980,405,469,55/full/0/default" corresp="DefaultLine">
@@ -3029,24 +3081,29 @@
   <text>
     <body>
       <div>
+
         <pb n="1" source="Varios_132_1.jpg" facs="varios/Varios_132_1.jpg"/>
 
         <div>
-          <head type="primer_titulo" rend="negrita"><lb/>LO JAYU DE REUS</head>
-          <head type="subtitulo"><lb/>(HISTÓRICH)<lb/>PESSA AB DOS CUADROS. ESCRITA EN VERS PER
-              <lb/><hi rend="negrita">JOSEP FERRÈ (A) QUERI</hi></head>
-
+          <head type="primer_titulo" rend="negrita">
+            <lb/>LO JAYU DE REUS</head>
+          <head type="subtitulo">
+            <lb/>(HISTÓRICH)<lb/>PESSA AB DOS CUADROS. ESCRITA EN VERS PER
+              <lb/>
+            <hi rend="negrita">JOSEP FERRÈ (A) QUERI</hi>
+          </head>
           <div>
-            <head type="reparto_titulo" rend="negrita"><lb/>PERSONAS</head>
-              <castList>
-                <castItem rend="negrita">Lo Jayu. Crospu.</castItem>
-                <castItem rend="negrita">Baltasá. Dos mossos que no parlan.</castItem>
-                <castItem rend="negrita">Quicu. Comparsa de homens y do¬</castItem>
-                <castItem rend="negrita">Benét. nas y musichs.</castItem>
+            <head type="reparto_titulo" rend="negrita">
+              <lb/>PERSONAS</head>
+            <castList>
+              <castItem rend="negrita">Lo Jayu. Crospu.</castItem>
+              <castItem rend="negrita">Baltasá. Dos mossos que no parlan.</castItem>
+              <castItem rend="negrita">Quicu. Comparsa de homens y do¬</castItem>
+              <castItem rend="negrita">Benét. nas y musichs.</castItem>
             </castList>
           </div>
-
           <div>
+
             <pb n="2" source="Varios_132_2.jpg" facs="varios/Varios_132_2.jpg"/>
 
             <stage rend="cursiva">
@@ -3056,13 +3113,14 @@
               <speaker>BALTASÁ.</speaker>
               <l>Váija, da un ras mes no puch.</l>
               <l>¡Válgam Deu que estich cansát!</l>
-              <l>Dos cops tot Reus ey boltát</l>
+              <l>Dos cops tot <name>Reus</name> ey boltát</l>
               <l>y en cap puestu trobu un rúch.</l>
               <l>Veyám si 'l Jayu te 'l seu. . .</l>
               <l>pero no crech que me 'l deixi.</l>
               <l>Li llogaré; que no 's quéixi;</l>
               <l>no renyirém pas pí el preu.</l>
-              <l>Jayu.. ¿si hi será? <stage rend="cursiva">(cridán)</stage></l>
+              <l>Jayu.. ¿si hi será? <stage rend="cursiva">(cridán)</stage>
+              </l>
               <l>Jayu... ha, ya ve.</l>
             </sp>
             <sp>
@@ -3139,7 +3197,8 @@
               <l>Bueno donchs, quedém així...</l>
               <l>en fi, tot se arreglará.</l>
               <l>Lo rúch podeu arreglá</l>
-              <l>que yo luegu torno ha se aquí. <stage rend="cursiva">(Sen va)</stage></l>
+              <l>que yo luegu torno ha se aquí. <stage rend="cursiva">(Sen va)</stage>
+              </l>
             </sp>
             <sp>
               <speaker>JAYU.</speaker>
@@ -3257,23 +3316,22 @@
               <l>Estich que era al any passat,</l>
               <l>que ma filla y ma mullé</l>
               <l>per forsa varen vulgué</l>
-              <l>Las portés á Montserrat.</l>
+              <l>Las portés á <name>Montserrat</name>.</l>
               <l>Lo ruquet vay arrelá:</l>
               <l>y sense gaire treball</l>
               <l>puijo las dos á cavall,</l>
               <l>butifarras y vi y pá.</l>
-  
+
               <pb n="3" source="Varios_132_3.jpg" facs="varios/Varios_132_3.jpg"/>
-  
+
               <fw type="paginaNum">— 3 —</fw>
-  
               <l>La dona 'm va dir: ¿Martxém?</l>
               <l>Yo vay di: Apa, enseguida:</l>
               <l>ella aguantava la brida</l>
               <l>y la expedició empreném.</l>
               <l>Vinga bolta p' els carrés;</l>
               <l>lo ruch ya estava cansat:</l>
-              <l>y al carré de Montserrat</l>
+              <l>y al carré de <name>Montserrat</name></l>
               <l>vay fer que allí se aturés.</l>
               <l>Com que allí hi ha una capella,</l>
               <l>després de dona 'l gran tom</l>
@@ -3281,7 +3339,7 @@
               <l>y baixan la noya y ella.</l>
               <l>La dona 's posá á plorá</l>
               <l>perque la havia enganyat.</l>
-              <l>Li vay dí: á Montserrat</l>
+              <l>Li vay dí: á <name>Montserrat</name></l>
               <l>vas di que haviam de aná,</l>
               <l>«Ya hi som, menjeu y beven,</l>
               <l>divertiuse hi feu gatsara;</l>
@@ -3297,7 +3355,8 @@
               <l>no me han demanat res mes.</l>
               <l>Ves ahont volían aná;</l>
               <l>aurían semblat dos monas,</l>
-              <l>ya ho diu be 'l que crida <hi rend="cursiva">«donas</hi></l>
+              <l>ya ho diu be 'l que crida <hi rend="cursiva">«donas</hi>
+              </l>
               <l rend="cursiva">cadiras per adobá».</l>
             </sp>
             <stage rend="cursiva">(Surt lo Benèt tot depressa)</stage>
@@ -3313,7 +3372,7 @@
             <sp>
               <speaker>BENÉT.</speaker>
               <l>Vinch perque 'm lluguéu lo ruch</l>
-              <l>que tinch de aná á Vilaseca.</l>
+              <l>que tinch de aná á <name>Vilaseca</name>.</l>
             </sp>
             <sp>
               <speaker>JAYU.</speaker>
@@ -3321,7 +3380,8 @@
             </sp>
             <sp>
               <speaker>BEN.</speaker>
-              <l>Teniu. Ara'lruch esperu<stage rend="cursiva">(los y dona)</stage></l>
+              <l>Teniu. Ara'lruch esperu<stage rend="cursiva">(los y dona)</stage>
+              </l>
               <l>tinch de veure à un curanderu</l>
               <l>que 'm curi 'l mal de caixals.</l>
             </sp>
@@ -3344,7 +3404,7 @@
               <l>que després no 'm podré alsá.</l>
               <l>Ho, y no 'm recorda 'l camí.</l>
               <l>Ya me ho dirá la Coloma,</l>
-              <l>que preguntán se va á Roma</l>
+              <l>que preguntán se va á <name>Roma</name></l>
               <l>segóns ey sentit á dí</l>
             </sp>
             <stage rend="cursiva">Surt lo Juyu ab lo burru ab la aubarda<lb/> posada.</stage>
@@ -3440,9 +3500,9 @@
               <l>Ca home, si yó l' tinch pagat;</l>
               <l>baixa hi déix aná la brida.</l>
             </sp>
-  
+
             <pb n="4" source="Varios_132_4.jpg" facs="varios/Varios_132_4.jpg"/>
-  
+
             <sp>
               <speaker>QUICU.</speaker>
               <l>Yo 'l vull sinó... hi aurá guerra.</l>
@@ -3501,28 +3561,31 @@
             <stage rend="cursiva">Tots cridan, se pegan, volen pujá al ruch, y <lb/>martxan de la
               escena, movent gran escándol.</stage>
           </div>
-
           <div>
             <head type="titulo_parte" rend="negrita">Cuadro segón</head>
-
-            <stage rend="cursiva"><p><lb/>Cámbia la decoració. Lo teatro representa<lb/> un pis al
+            <stage rend="cursiva">
+              <p>
+                <lb/>Cámbia la decoració. Lo teatro representa<lb/> un pis al
                 pla terreno. Al foro hi aurá una es¬<lb/> cala de pochs esgrahóns. Al replá del
                 esgrahó<lb/> de dal hi aura una porta que dona ha una<lb/> sala que hi fan
                 saráu.</p>
-              <p><lb/> Se sen tocá música; de tan entan se veu<lb/> passá alguna pareja de home y
+              <p>
+                <lb/> Se sen tocá música; de tan entan se veu<lb/> passá alguna pareja de home y
                 dona que ba¬<lb/> llan. A la barana de la escala hi aurá un llum<lb/> de ganxu
                 penjàt hi ensés. Al pla de terre al<lb/> peu de la escala hi aurá un cup ple de
                 palla<lb/> tapát ab tres ho cuatre pots. Una porta ha la<lb/> dreta que 's la de la
                 cuina hi cuarto del Jayu:<lb/> y una ha la esquerra que 's va ha la estable.<lb/> hi
                 al carrè.</p>
-              <p><lb/> En un costát hi aurá dos semalés; una se¬<lb/> nalla plena de guix y una
+              <p>
+                <lb/> En un costát hi aurá dos semalés; una se¬<lb/> nalla plena de guix y una
                 ferrada de aigüa<lb/> y una portadora buida. Al altre costát una<lb/> tauleta, hi
                 ha sobre hi aurá un purró plé de<lb/> ví; un tupí ab mel; una capsana ho dráp
                 hi<lb/> una flaúta que cuan la bufan, de dintre surt<lb/> fum de estampa hi mascara
                 la cara de 'l qui<lb/> la bufa.</p>
-              <p><lb/> Entre Benét ab las mans ha las gallas, hi<lb/> picán de pens perque li fan
-                mal los caixàls.</p></stage>
-
+              <p>
+                <lb/> Entre Benét ab las mans ha las gallas, hi<lb/> picán de pens perque li fan
+                mal los caixàls.</p>
+            </stage>
             <sp>
               <speaker>BEN.</speaker>
               <l>¡Yó no puch assosega..!</l>
@@ -3568,7 +3631,8 @@
             </sp>
             <sp>
               <speaker>JAYU.</speaker>
-              <l>Be; Alabát siga Deu.<stage rend="cursiva">(rién)</stage></l>
+              <l>Be; Alabát siga Deu.<stage rend="cursiva">(rién)</stage>
+              </l>
             </sp>
             <sp>
               <speaker>BEN.</speaker>
@@ -3640,13 +3704,13 @@
             <sp>
               <speaker>BEN.</speaker>
               <l>Doncas bueno; si es axí</l>
-              <l>hasta un regalu us faré.<stage rend="cursiva">(sen va)</stage></l>
+              <l>hasta un regalu us faré.<stage rend="cursiva">(sen va)</stage>
+              </l>
             </sp>
-            
+
             <pb n="5" source="Varios_132_5.jpg" facs="varios/Varios_132_5.jpg"/>
-              
+
             <fw type="paginaNum">— 5 —</fw>
-            
             <sp>
               <speaker>JAYU.</speaker>
               <l>¡Ay Benét, ya estás ben frésch!</l>
@@ -3676,7 +3740,7 @@
             <sp>
               <speaker>CROS</speaker>
               <l>Me han dit uns conegúts meus</l>
-              <l>que está aquí 'l Jayu de Reus.</l>
+              <l>que está aquí 'l Jayu de <name>Reus</name>.</l>
               <l>Vinch per si 'm voléu llogà.</l>
             </sp>
             <sp>
@@ -3707,8 +3771,10 @@
             <sp>
               <speaker>JAYU.</speaker>
               <l>Al momén: tot desseguida.</l>
-              <l>Au, esperdenyas ha fora.<stage rend="cursiva">(se les lleva)</stage></l>
-              <l>Entiéu dins la portadora.<stage rend="cursiva">(hi entra)</stage></l>
+              <l>Au, esperdenyas ha fora.<stage rend="cursiva">(se les lleva)</stage>
+              </l>
+              <l>Entiéu dins la portadora.<stage rend="cursiva">(hi entra)</stage>
+              </l>
             </sp>
             <sp>
               <speaker>CROS.</speaker>
@@ -3718,9 +3784,10 @@
             </sp>
             <sp>
               <speaker>JAYU.</speaker>
-              <l>Així se acostuma ha Reus</l>
+              <l>Així se acostuma ha <name>Reus</name></l>
               <l>ivérn, istiu, y tot l' any.</l>
-              <l>Ara, l' aigüa hi vay tirán<stage rend="cursiva">(ho fá)</stage></l>
+              <l>Ara, l' aigüa hi vay tirán<stage rend="cursiva">(ho fá)</stage>
+              </l>
             </sp>
             <sp>
               <speaker>CROS.</speaker>
@@ -3729,10 +3796,13 @@
             <sp>
               <speaker>JAYU.</speaker>
               <l>Ara 'l guix hi tiraré,</l>
-              <l>hi vos anéu pateiján.<stage rend="cursiva">(ho fan)</stage></l>
+              <l>hi vos anéu pateiján.<stage rend="cursiva">(ho fan)</stage>
+              </l>
               <l>Depressa que ara ve 'l bo.</l>
-              <l><stage rend="cursiva">(apart)</stage> ¡Quida gen! ¡Que son tanocas!</l>
-              <l><stage rend="cursiva">(ha éll)</stage> Sembla ara que ballen cocas</l>
+              <l>
+                <stage rend="cursiva">(apart)</stage> ¡Quida gen! ¡Que son tanocas!</l>
+              <l>
+                <stage rend="cursiva">(ha éll)</stage> Sembla ara que ballen cocas</l>
               <l>allà ha la festa maijó.</l>
               <l>Cuan se canséu, reposéu;</l>
               <l>no anéu tan desesperat;</l>
@@ -3747,7 +3817,8 @@
             <sp>
               <speaker>JAYU.</speaker>
               <l>Reposéu un ratu mes;</l>
-              <l>teniu, aquí va 'l purró.<stage rend="cursiva">(li dona)</stage></l>
+              <l>teniu, aquí va 'l purró.<stage rend="cursiva">(li dona)</stage>
+              </l>
             </sp>
             <sp>
               <speaker>CROS,</speaker>
@@ -3796,7 +3867,8 @@
               <stage rend="cursiva">(cridán à la porta del carré)</stage>
               <stage rend="cursiva">(Surten dos homens)</stage>
               <l>acorréns feu lo cap víu:</l>
-              <l>agafeu los samalés.<stage rend="cursiva">(ho fan)</stage></l>
+              <l>agafeu los samalés.<stage rend="cursiva">(ho fan)</stage>
+              </l>
               <l>Agaféu la portadora</l>
               <l>hi portaréu aquét moble</l>
               <l>ha passeijarlo p' el poble</l>
@@ -3818,11 +3890,10 @@
             <sp>
               <speaker>JAYU.</speaker>
               <l>Ha; ha, ha, ¡Quin fart de riure!..</l>
-              
+
               <pb n="6" source="Varios_132_6.jpg" facs="varios/Varios_132_6.jpg"/>
-              
+
               <fw type="paginaNum">— 6 —</fw>
-              
               <l>valgam Den, casí 'm rebentu.</l>
               <l>Aixó si que 's un bon cuentu</l>
               <l>que casi be 's pot escriure,</l>
@@ -3904,12 +3975,14 @@
             <sp>
               <speaker>BERT.</speaker>
               <l>Ho, hi que portu uns cuans cra¬</l>
-              <l>¿que ya molta gen? <add place="debajo">[melos.</add></l>
+              <l>¿que ya molta gen? <add place="debajo">[melos.</add>
+              </l>
             </sp>
             <sp>
               <speaker>JAXU.</speaker>
               <l>No gaires:</l>
-              <l>deu dones, «once xerraires»<stage rend="cursiva">(apart)</stage></l>
+              <l>deu dones, «once xerraires»<stage rend="cursiva">(apart)</stage>
+              </l>
               <l>hi set ho vúit xixarétlus.</l>
               <l>Tambe ya cosinas teves.</l>
             </sp>
@@ -4005,11 +4078,10 @@
               <speaker>JAYU.</speaker>
               <l>¿Que no véns que te las matu?</l>
             </sp>
-            
+
             <pb n="7" source="Varios_132_7.jpg" facs="varios/Varios_132_7.jpg"/>
-              
+
             <fw type="paginaNum">— 7 —</fw>
-            
             <sp>
               <speaker>BEN.</speaker>
               <l>Si que las matéu baratu</l>
@@ -4065,7 +4137,7 @@
             <sp>
               <speaker>JAYU.</speaker>
               <l>Si home que ya ho sap éll.</l>
-              <l>Mira; tinch de Castellvell</l>
+              <l>Mira; tinch de <name>Castellvell</name></l>
               <l>un carratéll de granatxa.</l>
               <l>Demá las neulas farém</l>
               <l>y ab granatxa con te ey dit,</l>
@@ -4122,7 +4194,8 @@
               <l>de clavarme un vidre al peu;</l>
               <l>¡com que no portu esperdenyas!</l>
               <l>Mira, encara son aquí,</l>
-              <l>calsemse, no ho perdém tot: <stage rend="cursiva">(selas posa)</stage></l>
+              <l>calsemse, no ho perdém tot: <stage rend="cursiva">(selas posa)</stage>
+              </l>
               <l>Malahit siga 'l vellót</l>
               <l>hi la burra que 'l va parí.</l>
               <l>Ep, mestre. ¿Ahont se ha ficát?</l>
@@ -4138,28 +4211,31 @@
               <l>ni me an sentit ni 'm escoltan.</l>
               <l>¡Cristu de Deu, hi com boltan!!</l>
               <l>Pero ya 'ls arreglaré.</l>
-              <l><hi rend="cursiva">Heche uste</hi>́ balsa que balsa,</l>
+              <l>
+                <hi rend="cursiva">Heche uste</hi>́ balsa que balsa,</l>
               <l>hi anán seguin la brumete.</l>
-              <l><stage rend="cursiva">(mira á terra)</stage> ¿Aques aixó: ¿una pesseta?</l>
-              <l><stage rend="cursiva">(lo plega)</stage> una pela, pero es falsa.</l>
+              <l>
+                <stage rend="cursiva">(mira á terra)</stage> ¿Aques aixó: ¿una pesseta?</l>
+              <l>
+                <stage rend="cursiva">(lo plega)</stage> una pela, pero es falsa.</l>
               <l>Yó ya la faré passá.</l>
               <l>Aurá caygút del aréus</l>
-              <l>de la gran vila de Reus.</l>
+              <l>de la gran vila de <name>Reus</name>.</l>
               <l>Molta fatxenda hi poch pá.</l>
               <stage rend="cursiva">Surt lu Crospu</stage>
               <l>Ep, vos que'm eu en¬</l>
-              <l>au, depressa. vull cobrá <add place="debajo">[ganyát:</add></l>
+              <l>au, depressa. vull cobrá <add place="debajo">[ganyát:</add>
+              </l>
               <l>lo guix que me eu fet pastá</l>
               <l>sinó us fay quedá esgarrát.</l>
             </sp>
             <sp>
               <speaker>JAYU.</speaker>
               <l>Be home, no se enfadéu:</l>
-              
+
               <pb n="8" source="Varios_132_8.jpg" facs="varios/Varios_132_8.jpg"/>
-              
+
               <fw type="paginaNum">— 8 —</fw>
-              
               <l>Alló ha estát un pún y.... coma.</l>
               <l>¿No veyéu que ha estát per broma?</l>
               <l>Teniu, una pela cobréu.</l>
@@ -4216,7 +4292,8 @@
             </sp>
             <stage rend="cursiva">«Destapa las pots del cup; tréu un brassát<lb/> de palla, sen
               vá á la estable y torna ha surti<lb/> luego. Surt Benét ab un sach al coll ple
-              de<lb/> pedrasa».<lb/></stage>
+              de<lb/> pedrasa».<lb/>
+            </stage>
             <sp>
               <speaker>BEN.</speaker>
               <l>Hoy mare, estich rebentát;</l>
@@ -4306,7 +4383,8 @@
               <l>Carme, Joan.</l>
             </sp>
             <stage rend="cursiva"> Surt lo Jayu ab una llumanera ensesa hi<lb/> la posa sobre de la
-              tanla, hi tots van surtin<lb/> del cup dunanlos la ma Bertrán.<lb/></stage>
+              tanla, hi tots van surtin<lb/> del cup dunanlos la ma Bertrán.<lb/>
+            </stage>
             <sp>
               <speaker>BERT.</speaker>
               <l>Aixó es broma en massa estrem.</l>
@@ -4326,19 +4404,18 @@
               <l>Feu corre al poble las veus:</l>
               <l>que 'ls que 's vulguin divertí,</l>
               <l>que vinguin tots cap aquí</l>
-              <l>ha veure 'l Jayu de Reus.</l>
+              <l>ha veure 'l Jayu de <name>Reus</name>.</l>
             </sp>
           </div>
-          
           <trailer rend="negrita">SE HA ACABAT</trailer>
         </div>
-        
         <div type="propiedad">
-          <p><lb/>ES PROPIETAT DE JOAN GRAU GENÉ.</p>
+          <p>
+            <lb/>ES PROPIETAT DE JOAN GRAU GENÉ.</p>
         </div>
-        
         <div type="colofon">
-          <p><lb/>Reus. Libreria «La Fleca», carré de Aleus, núm. 1.</p>
+          <p>
+            <lb/>Reus. Libreria «La Fleca», carré de Aleus, núm. 1.</p>
         </div>
       </div>
     </body>

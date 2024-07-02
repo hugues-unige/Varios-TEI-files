@@ -19,6 +19,20 @@
           <resp>Verificación de la codificación y carga en el sitio web</resp>
         </respStmt>
       </titleStmt>
+      <editionStmt>
+        <edition n="2.0">
+          <title>Segunda versión de la edición, enriquecida con topónimos</title>
+          <date>2024</date>
+        </edition>
+        <respStmt>
+          <name>Elina Leblanc, Zoé Noël y Pauline Jacsont</name>
+          <resp>Creación del modelo de reconocimiento automático de topónimos y codificación TEI</resp>
+        </respStmt>
+        <respStmt>
+          <name>Belinda Palacios, Lorysmar Franco y Constance Carta</name>
+          <resp>Corrección de los resultados</resp>
+        </respStmt>
+      </editionStmt>
       <publicationStmt>
         <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
         <availability status="restricted">
@@ -67,7 +81,8 @@
                   <dim>in-4</dim>
                   <material/>
                 </support>
-                <extent><measure unit="página" quantity="4"/>4 p.</extent>
+                <extent>
+                  <measure unit="página" quantity="4"/>4 p.</extent>
                 <condition>Bueno</condition>
               </supportDesc>
               <layoutDesc>
@@ -128,8 +143,7 @@
       </textClass>
     </profileDesc>
     <revisionDesc>
-      <change when="2022-07-26" who="#PJ">Création du fichier TEI P5 et encodage du corps du
-        texte</change>
+      <change when="2022-07-26" who="#PJ">Création du fichier TEI P5 et encodage du corps du texte</change>
       <change when="2024-01-09" who="#EL">Add the IIIF links</change>
     </revisionDesc>
   </teiHeader>
@@ -941,15 +955,18 @@
     <body>
       <div>
         <div>
+
           <pb n="1" source="Varios_088_1.jpg" facs="varios/Varios_088_1.jpg"/>
 
           <fw type="impresorNum">Núm. 2.</fw>
-
-          <head type="primer_titulo"><lb/>DESPEDIDA <lb/><hi rend="cursiva">de los finos
-              amantes.</hi></head>
-
+          <head type="primer_titulo">
+            <lb/>DESPEDIDA <lb/>
+            <hi rend="cursiva">de los finos
+              amantes.</hi>
+          </head>
           <lg>
-            <l rend="indent"><hi rend="negrita">E</hi>n lo frondoso</l>
+            <l rend="indent">
+              <hi rend="negrita">E</hi>n lo frondoso</l>
             <l>de un verde prado</l>
             <l>á un desdichado</l>
             <l>amante ví,</l>
@@ -958,7 +975,6 @@
             <l>llora su muerte</l>
             <l>y dice así:</l>
           </lg>
-
           <lg>
             <l rend="indent">Si yo lográra</l>
             <l>de ser querido,</l>
@@ -982,7 +998,6 @@
             <l>y tú no quieres</l>
             <l>creerlo así.</l>
           </lg>
-
           <lg>
             <l rend="indent">Yo llegué á verte</l>
             <l>en la ventana,</l>
@@ -993,7 +1008,6 @@
             <l>bella pintura,</l>
             <l>yo te amaré.</l>
           </lg>
-
           <lg>
             <l rend="indent">Eres hermosa</l>
             <l>como una rosa,</l>
@@ -1004,7 +1018,6 @@
             <l>son dos luceros</l>
             <l>llenos de amor.</l>
           </lg>
-
           <lg>
             <l rend="indent">Hermosa niña,</l>
             <l>madama bella,</l>
@@ -1015,7 +1028,6 @@
             <l>á quien te trata</l>
             <l>con fino amor.</l>
           </lg>
-
           <lg>
             <l rend="indent">No ha de haber zelos</l>
             <l>á cada instante,</l>
@@ -1026,7 +1038,6 @@
             <l>que á cualquier cosa</l>
             <l>quiere reñir.</l>
           </lg>
-
           <lg>
             <l rend="indent">Si he de quererte,</l>
             <l>si he de adorarte,</l>
@@ -1037,7 +1048,6 @@
             <l>á que seas dueña</l>
             <l>de mi atencion.</l>
           </lg>
-
           <lg>
             <l rend="indent">Y tu al instante,</l>
             <l>infiel, ingrata,</l>
@@ -1048,7 +1058,6 @@
             <l>formar escesos</l>
             <l>de falsedad.</l>
           </lg>
-
           <lg>
             <l rend="indent">Si yo muriese</l>
             <l>de tí apartado,</l>
@@ -1062,7 +1071,6 @@
             <l>que á mi me puedan</l>
             <l>resucitar.</l>
           </lg>
-
           <lg>
             <l rend="indent">Montes y prados,</l>
             <l>rios y fuentes</l>
@@ -1073,7 +1081,6 @@
             <l>allá me tienes</l>
             <l>el corazon.</l>
           </lg>
-
           <lg>
             <l rend="indent">Tocan la marcha,</l>
             <l>mi pecho llora,</l>
@@ -1084,10 +1091,9 @@
             <l>que mi viage</l>
             <l>sea feliz.</l>
           </lg>
-
           <div>
-            <head type="titulo_parte"><lb/>RESPUESTA DE LE DAMA.</head>
-
+            <head type="titulo_parte">
+              <lb/>RESPUESTA DE LE DAMA.</head>
             <lg>
               <l rend="indent">Junto á la márgen</l>
               <l>de un arroyuelo</l>
@@ -1098,7 +1104,6 @@
               <l>á una belleza</l>
               <l>oí gemir.</l>
             </lg>
-
             <lg>
               <l rend="indent">Estuve atenta:</l>
               <l>á su quebranto</l>
@@ -1109,7 +1114,6 @@
               <l>el pecho mio.</l>
               <l>muere por UI.</l>
             </lg>
-
             <lg>
               <l rend="indent">¡Por qué lamentas</l>
               <l>no ser querido,</l>
@@ -1120,7 +1124,6 @@
               <l>y tú no quieres</l>
               <l>creerlo así.</l>
             </lg>
-
             <lg>
               <l rend="indent">Desde el momento</l>
               <l>que logré el verte,</l>
@@ -1144,7 +1147,6 @@
               <l>son los agentes</l>
               <l>de mi dolor</l>
             </lg>
-
             <lg>
               <l rend="indent">¡Cómo es posible</l>
               <l>no ser zelosa</l>
@@ -1155,7 +1157,6 @@
               <l>á quien tan fina</l>
               <l>llegué á querer!</l>
             </lg>
-
             <lg>
               <l rend="indent">Siempre rendida,</l>
               <l>siempre gustosa,</l>
@@ -1166,7 +1167,6 @@
               <l>á otro diverso</l>
               <l>no admitiré.</l>
             </lg>
-
             <lg>
               <l rend="indent">Por Dios te pido</l>
               <l>te desengañes,</l>
@@ -1177,7 +1177,6 @@
               <l>viles escesos</l>
               <l>de falsedad.</l>
             </lg>
-
             <lg>
               <l rend="indent">Si á mi noticia</l>
               <l>llega tu muerte,</l>
@@ -1188,7 +1187,6 @@
               <l>tan grande ansia</l>
               <l>pueda aguantar.</l>
             </lg>
-
             <lg>
               <l rend="indent">Montes y prados,</l>
               <l>aves y flores</l>
@@ -1199,7 +1197,6 @@
               <l>y en mi tristeza</l>
               <l>podreis decir.</l>
             </lg>
-
             <lg>
               <l rend="indent">Oigo la marcha</l>
               <l>con sentimiento,</l>
@@ -1210,13 +1207,13 @@
               <l>siendo mi alivio</l>
               <l>solo el llorar.</l>
             </lg>
-
             <trailer rend="negrita">FIN.</trailer>
           </div>
         </div>
-        
         <div type="colofon">
-          <p><lb/><hi rend="cursiva">Reus</hi>: Imprenta y librería de Juan Vidal y Angel Camí.</p>
+          <p>
+            <lb/>
+            <hi rend="cursiva">Reus</hi>: Imprenta y librería de Juan Vidal y Angel Camí.</p>
         </div>
       </div>
     </body>

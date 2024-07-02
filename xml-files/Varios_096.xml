@@ -19,6 +19,20 @@
           <resp>Verificación de la codificación y carga en el sitio web</resp>
         </respStmt>
       </titleStmt>
+      <editionStmt>
+        <edition n="2.0">
+          <title>Segunda versión de la edición, enriquecida con topónimos</title>
+          <date>2024</date>
+        </edition>
+        <respStmt>
+          <name>Elina Leblanc, Zoé Noël y Pauline Jacsont</name>
+          <resp>Creación del modelo de reconocimiento automático de topónimos y codificación TEI</resp>
+        </respStmt>
+        <respStmt>
+          <name>Belinda Palacios, Lorysmar Franco y Constance Carta</name>
+          <resp>Corrección de los resultados</resp>
+        </respStmt>
+      </editionStmt>
       <publicationStmt>
         <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
         <availability status="restricted">
@@ -33,7 +47,8 @@
             <title type="titulo_breve">DÉCIMAS</title>
           </titleStmt>
           <editionStmt>
-            <p>Otras impresiones: <ref target="Varios_265.xml">Varios_265</ref> y <ref target="Varios_350.xml">Varios_350</ref></p>
+            <p>Otras impresiones: <ref target="Varios_265.xml">Varios_265</ref> y <ref target="Varios_350.xml">Varios_350</ref>
+            </p>
           </editionStmt>
           <publicationStmt>
             <publisher>José María Marés</publisher>
@@ -79,7 +94,8 @@
                   <dim>in-4</dim>
                   <material/>
                 </support>
-                <extent><measure unit="página" quantity="4"/>4 p.</extent>
+                <extent>
+                  <measure unit="página" quantity="4"/>4 p.</extent>
                 <condition>Bueno</condition>
               </supportDesc>
               <layoutDesc>
@@ -105,6 +121,38 @@
             <acquisition/>
           </history>
         </msDesc>
+        <listPlace xml:base="https://www.wikidata.org/wiki/">
+          <place n="3" corresp="Q8717">
+            <placeName key="Sevilla">Sevilla</placeName>
+            <location>
+              <geo>37.383333333333 -5.9833333333333</geo>
+            </location>
+          </place>
+          <place n="2" corresp="Q1563">
+            <placeName key="La_Habana">La Habana</placeName>
+            <location>
+              <geo>23.136666666667 -82.358888888889</geo>
+            </location>
+          </place>
+          <place n="1" corresp="Q8818">
+            <placeName key="Valencia">Valencia</placeName>
+            <location>
+              <geo>39.47 -0.376388888888889</geo>
+            </location>
+          </place>
+          <place n="1" corresp="Q29">
+            <placeName key="España">España</placeName>
+            <location>
+              <geo>40.2 -3.5</geo>
+            </location>
+          </place>
+          <place n="1" corresp="Q1114855">
+            <placeName key="Cerezo_de_Río_Tirón">Cerezo De Río Tirón</placeName>
+            <location>
+              <geo>42.491111111111 -3.1355555555556</geo>
+            </location>
+          </place>
+        </listPlace>
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
@@ -140,8 +188,7 @@
       </textClass>
     </profileDesc>
     <revisionDesc>
-      <change when="2022-07-27" who="#PJ">Création du fichier TEI P5 et encodage du corps du
-        texte</change>
+      <change when="2022-07-27" who="#PJ">Création du fichier TEI P5 et encodage du corps du texte</change>
       <change when="2024-01-09" who="#EL">Add the IIIF links</change>
     </revisionDesc>
   </teiHeader>
@@ -967,7 +1014,7 @@
           <line>con acento claro y fuerte,</line>
         </zone>
         <zone xml:id="Varios_096_3_BT227_3__23" type="DefaultLine" subtype="none" points="756,1475 750,1430 864,1426 866,1426 866,1426 868,1426 878,1428 917,1438 959,1428 973,1423 975,1423 975,1423 977,1423 977,1423 977,1423 979,1423 979,1423 979,1423 986,1428 1002,1436 1015,1428 1015,1426 1015,1426 1017,1426 1017,1426 1017,1426 1019,1426 1019,1426 1021,1426 1285,1426 1289,1463 1289,1483 756,1488 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_096_3/,,,/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_096_3_BT227_3__23_1" points="757,1476 1292,1465 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
+          <path xml:id="Varios_096_3_BT227_3__23_1" points="757,1476 1292,1465 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
           <line>publiquen hasta la muerte</line>
         </zone>
         <zone xml:id="Varios_096_3_BT227_3_LT83_24" type="DefaultLine" subtype="none" points="756,1519 754,1483 1039,1483 1041,1481 1058,1471 1060,1471 1060,1471 1062,1471 1062,1471 1062,1471 1064,1471 1064,1471 1066,1471 1108,1481 1110,1481 1110,1481 1126,1469 1128,1469 1128,1469 1128,1469 1130,1469 1130,1469 1130,1469 1132,1469 1132,1469 1134,1469 1134,1469 1134,1469 1155,1479 1165,1469 1165,1469 1167,1469 1167,1469 1167,1469 1170,1469 1170,1469 1170,1469 1172,1469 1314,1481 1318,1512 1314,1539 754,1535 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_096_3/,,,/full/0/default" corresp="DefaultLine">
@@ -1076,17 +1123,16 @@
     <body>
       <div>
         <div>
+
           <pb n="1" source="Varios_096_1.jpg" facs="varios/Varios_096_1.jpg"/>
 
           <fw type="impresorNum">(Núm. 235.) </fw>
-
           <div n="1">
             <head type="primer_titulo" rend="negrita">
               <lb/>DÉCIMAS </head>
-
-            <head type="subtitulo" rend="cursiva"><lb/>compuestas por un reo estando en capilla en
+            <head type="subtitulo" rend="cursiva">
+              <lb/>compuestas por un reo estando en capilla en
               la ciudad de Sevilla, <lb/>llamado Vicente Perez, corneta de la Habana.</head>
-
             <lg rend="cursiva">
               <l rend="indent">En amarga oscuridad</l>
               <l>lloro un bien que no poseo,</l>
@@ -1253,16 +1299,16 @@
               <l rend="cursiva">antes de haberme muerto.</l>
             </lg>
           </div>
-
           <div n="2">
+
             <pb n="3" source="Varios_096_3.jpg" facs="varios/Varios_096_3.jpg"/>
 
-            <head type="titulo_cancion" rend="negrita"><lb/>OTRAS DECIMAS SIN GLOSAR.</head>
-
+            <head type="titulo_cancion" rend="negrita">
+              <lb/>OTRAS DECIMAS SIN GLOSAR.</head>
             <lg>
-              <l rend="indent">En la cárcel de Sevilla</l>
+              <l rend="indent">En la cárcel de <name>Sevilla</name></l>
               <l>á las seis de la mañana,</l>
-              <l>á un corneta de la Habana</l>
+              <l>á un corneta de la <name>Habana</name></l>
               <l>lo han metido en la capilla;</l>
               <l>ya irán con las campanillas</l>
               <l>pidiendo la Caridad,</l>
@@ -1271,23 +1317,21 @@
               <l>por el alma del corneta</l>
               <l>que pasa á la eternidad.</l>
             </lg>
-
             <lg>
-              <l rend="indent">En el reino de Valencia</l>
+              <l rend="indent">En el reino de <name>Valencia</name></l>
               <l>ha nacido el desgraciado</l>
               <l>que ha de ser hoy fusilado</l>
               <l>como espresa la sentencia;</l>
               <l>y espera de la clemencia</l>
-              <l>del sol que á Sevilla baña,</l>
+              <l>del sol que á <name>Sevilla</name> baña,</l>
               <l>que es la princesa de España</l>
               <l>hija de aquel gran monarca,</l>
               <l>que con su influjo, la parca</l>
               <l>suspenderá la guadaña.</l>
             </lg>
-
             <lg>
               <l rend="indent">Serenísima señora,</l>
-              <l>noble infanta de Castilla,</l>
+              <l>noble infanta de <name>Castilla</name>,</l>
               <l>de un jóven que está en capilla,</l>
               <l>os ruego seais protectora;</l>
               <l>sed, por Dios, mi intercesora,</l>
@@ -1297,7 +1341,6 @@
               <l>que es la mejor Soberana</l>
               <l>que ha tenido la nacion.</l>
             </lg>
-
             <lg>
               <l rend="indent">El mas grande sentimiento</l>
               <l>y el martirio mas profundo,</l>
@@ -1310,7 +1353,6 @@
               <l>negándome hasta el perdon</l>
               <l>que humilde le supliqué.</l>
             </lg>
-
             <lg>
               <l rend="indent">Pero dia llegará</l>
               <l>para los justos propício,</l>
@@ -1323,7 +1365,6 @@
               <l>por no querer perdonar</l>
               <l>en el mundo á un enemigo.</l>
             </lg>
-
             <lg>
               <l rend="indent">Quince años de servicio</l>
               <l>cumplí muy honradamente,</l>
@@ -1336,7 +1377,6 @@
               <l>estaré cadaver y erto</l>
               <l>en un fúnebre ataud.</l>
             </lg>
-
             <lg>
               <l rend="indent">Con trompas de oro la fama</l>
               <l>con acento claro y fuerte,</l>
@@ -1349,7 +1389,6 @@
               <l>que hasta quisiera contigo</l>
               <l>partir á la eternidad.</l>
             </lg>
-
             <lg>
               <l rend="indent">Con mucha serenidad</l>
               <l>hoy que es dia diez y siete,</l>
@@ -1363,16 +1402,20 @@
               <l>para darme sepultura.</l>
             </lg>
           </div>
-
           <div n="3">
+
             <pb n="4" source="Varios_096_4.jpg" facs="varios/Varios_096_4.jpg"/>
 
-            <head type="primer_titulo"><lb/>SUPLICIO DEL CORNETA PEREZ.</head>
-
-            <head type="subtitulo_parte" rend="cursiva"><lb/><hi rend="negrita">PALABRAS</hi><hi rend="cursiva"><lb/>que el referido Perez dirigió á el piquete, ofreciendo cuatro
+            <head type="primer_titulo">
+              <lb/>SUPLICIO DEL CORNETA PEREZ.</head>
+            <head type="subtitulo_parte" rend="cursiva">
+              <lb/>
+              <hi rend="negrita">PALABRAS</hi>
+              <hi rend="cursiva">
+                <lb/>que el referido Perez dirigió á el piquete, ofreciendo cuatro
                 duros<lb/>para los cuatro, que habtan de apuntar á su pecho el mortifero
-                plomo.</hi></head>
-
+                plomo.</hi>
+            </head>
             <l rend="indent">SOLDADOS: YA QUE MI SUERTE</l>
             <l>ME HA PUESTO EN ESTOS APUROS,</l>
             <l>OS REGALO CUATRO DUROS</l>
@@ -1385,9 +1428,9 @@
             <l>DOS AL CRANEO Y DOS AL PECHO.</l>
           </div>
         </div>
-        
         <div type="colofon">
-          <p><lb/>Madrid : 1831. IMPRENTA de D. JOSE MARIA MARES, calle de Relatores, número 17.</p>
+          <p>
+            <lb/>Madrid : 1831. IMPRENTA de D. JOSE MARIA MARES, calle de Relatores, número 17.</p>
         </div>
       </div>
     </body>

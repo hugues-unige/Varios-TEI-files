@@ -19,6 +19,20 @@
           <resp>Verificación de la codificación y carga en el sitio web</resp>
         </respStmt>
       </titleStmt>
+      <editionStmt>
+        <edition n="2.0">
+          <title>Segunda versión de la edición, enriquecida con topónimos</title>
+          <date>2024</date>
+        </edition>
+        <respStmt>
+          <name>Elina Leblanc, Zoé Noël y Pauline Jacsont</name>
+          <resp>Creación del modelo de reconocimiento automático de topónimos y codificación TEI</resp>
+        </respStmt>
+        <respStmt>
+          <name>Belinda Palacios, Lorysmar Franco y Constance Carta</name>
+          <resp>Corrección de los resultados</resp>
+        </respStmt>
+      </editionStmt>
       <publicationStmt>
         <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
         <availability status="restricted">
@@ -73,7 +87,8 @@
                   <dim>in-4</dim>
                   <material/>
                 </support>
-                <extent><measure unit="página" quantity="4"/>4 p.</extent>
+                <extent>
+                  <measure unit="página" quantity="4"/>4 p.</extent>
                 <condition>Bueno</condition>
               </supportDesc>
               <layoutDesc>
@@ -139,8 +154,7 @@
       </textClass>
     </profileDesc>
     <revisionDesc>
-      <change when="2022-06-22" who="#PJ">Création du fichier TEI P5 et encodage du corps du
-        texte</change>
+      <change when="2022-06-22" who="#PJ">Création du fichier TEI P5 et encodage du corps du texte</change>
       <change when="2024-01-09" who="#EL">Add the IIIF links</change>
     </revisionDesc>
   </teiHeader>
@@ -602,7 +616,7 @@
       <graphic url="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_080_3/full/full/0/default.jpg"/>
       <zone xml:id="Varios_080_3_BT226_1" n="1" type="MainZone" subtype="none" points="1015,270 347,288 380,229 395,212 1486,212 1494,237 1469,262 1097,275 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_080_3/347,212,1147,76/full/0/default" corresp="MainZone">
         <zone xml:id="Varios_080_3_BT226_1_LT84_1" type="DefaultLine" subtype="none" points="272,183 268,97 403,74 405,74 407,74 452,86 481,74 483,74 485,74 487,74 489,74 514,90 520,95 529,90 549,80 551,80 663,74 665,74 667,74 694,86 709,93 731,86 748,80 750,80 752,80 754,80 769,84 793,93 820,84 845,76 847,76 849,76 851,76 868,82 890,90 921,82 928,80 930,80 932,80 946,80 1056,90 1178,90 1192,76 1198,70 1198,68 1201,68 1203,68 1205,68 1207,68 1225,74 1261,86 1335,72 1372,66 1374,66 1492,66 1494,66 1496,66 1496,68 1498,68 1507,76 1517,68 1519,66 1521,66 1523,66 1525,66 1579,68 1583,173 1581,192 1325,183 1246,183 1236,194 1236,196 1234,196 1232,196 1229,196 1219,194 1172,186 1087,196 1056,198 1054,198 986,196 802,188 272,198 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_080_3/268,66,1315,132/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_080_3_BT226_1_LT84_1_1" points="272,183 1583,173 " corresp=" &#xA;                                                  DefaultLine"/>
+          <path xml:id="Varios_080_3_BT226_1_LT84_1_1" points="272,183 1583,173 " corresp=" &#10;                                                  DefaultLine"/>
           <line>PARÓDIA DEL DELIRI DE ESPRONCEDA,</line>
         </zone>
         <zone xml:id="_BT226_1_LT82_2" type="CustomLine" subtype="trailer" points="390,258 386,221 465,208 467,208 1463,210 1467,250 1467,264 1424,276 1422,276 1420,276 1370,266 1368,266 1248,266 1246,266 1238,274 1238,276 1236,276 1234,276 1232,276 1118,268 1116,268 1105,276 1105,279 1103,279 1101,279 1099,279 955,268 936,268 934,268 919,281 917,281 915,281 913,281 388,272 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_080_3/386,208,1081,73/full/0/default" corresp="CustomLine:trailer">
@@ -1289,12 +1303,13 @@
     <body>
       <div>
         <div>
+
           <pb n="1" source="Varios_080_1.jpg" facs="varios/Varios_080_1.jpg"/>
 
           <div n="1">
-            <head type="primer_titulo" rend="negrita"><lb/>DELIRIO DE ESPRONCEDA<lb/>Ó ÚLTIMOS
+            <head type="primer_titulo" rend="negrita">
+              <lb/>DELIRIO DE ESPRONCEDA<lb/>Ó ÚLTIMOS
               MOMENTOS DE ESTE CÉLEBRE POETA.</head>
-
             <lg>
               <l rend="indent">Me agrada ver un cielo</l>
               <l>Con negros nubarrones </l>
@@ -1430,14 +1445,15 @@
             </lg>
             <trailer>FIN.</trailer>
           </div>
-
           <div n="2">
+
             <pb n="3" source="Varios_080_3.jpg" facs="varios/Varios_080_3.jpg"/>
 
-            <head type="titulo_cancion"><lb/>PARÓDIA DEL DELIRI DE ESPRONCEDA,</head>
-            <head type="subtitulo_cancion" rend="cursiva"><lb/>escrit ab uns disbaráts que cantan
+            <head type="titulo_cancion">
+              <lb/>PARÓDIA DEL DELIRI DE ESPRONCEDA,</head>
+            <head type="subtitulo_cancion" rend="cursiva">
+              <lb/>escrit ab uns disbaráts que cantan
               lo credo per J. F. (a). Q.</head>
-
             <lg>
               <l rend="indent">Me agrada á la taverna</l>
               <l>estarmi allí un bon rato:</l>
@@ -1642,12 +1658,13 @@
               <l>ya no me agrada ré....</l>
             </lg>
             <p>YA ESTA ACABAT.</p>
-            <p rend="cursiva"><lb/>(Es propietat de Joan Grau.)</p>
+            <p rend="cursiva">
+              <lb/>(Es propietat de Joan Grau.)</p>
           </div>
         </div>
-
         <div type="colofon">
-          <p><lb/>REUS. –En la llibrería de Joan Grau, hi ha gran surtit de romansos, historias, llibrets, come¬<lb/>dias, sainetes, paper per
+          <p>
+            <lb/>REUS. –En la llibrería de Joan Grau, hi ha gran surtit de romansos, historias, llibrets, come¬<lb/>dias, sainetes, paper per
             escriure, capsas de cerillas y llibrets per fumar.</p>
         </div>
       </div>

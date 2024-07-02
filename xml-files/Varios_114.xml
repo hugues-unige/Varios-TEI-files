@@ -19,6 +19,20 @@
           <resp>Verificación de la codificación y carga en el sitio web</resp>
         </respStmt>
       </titleStmt>
+      <editionStmt>
+        <edition n="2.0">
+          <title>Segunda versión de la edición, enriquecida con topónimos</title>
+          <date>2024</date>
+        </edition>
+        <respStmt>
+          <name>Elina Leblanc, Zoé Noël y Pauline Jacsont</name>
+          <resp>Creación del modelo de reconocimiento automático de topónimos y codificación TEI</resp>
+        </respStmt>
+        <respStmt>
+          <name>Belinda Palacios, Lorysmar Franco y Constance Carta</name>
+          <resp>Corrección de los resultados</resp>
+        </respStmt>
+      </editionStmt>
       <publicationStmt>
         <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
         <availability status="restricted">
@@ -69,7 +83,8 @@
                   <dim>in-4</dim>
                   <material/>
                 </support>
-                <extent><measure unit="página" quantity="4"/>4 p.</extent>
+                <extent>
+                  <measure unit="página" quantity="4"/>4 p.</extent>
                 <condition>Bueno</condition>
               </supportDesc>
               <layoutDesc>
@@ -99,6 +114,56 @@
             </acquisition>
           </history>
         </msDesc>
+        <listPlace xml:base="https://www.wikidata.org/wiki/">
+          <place n="1" corresp="Q185156">
+            <placeName key="Guantánamo">Guantánamo</placeName>
+            <location>
+              <geo>20.138333 -75.206111</geo>
+            </location>
+          </place>
+          <place n="2" corresp="Q241">
+            <placeName key="Cuba">Cuba</placeName>
+            <location>
+              <geo>22 -79.5</geo>
+            </location>
+          </place>
+          <place n="3" corresp="Q5705">
+            <placeName key="Cataluña">Cataluña</placeName>
+            <location>
+              <geo>41.8375 1.53777777777778</geo>
+            </location>
+          </place>
+          <place n="1" corresp="Q4040">
+            <placeName key="Aragón">Aragón</placeName>
+            <location>
+              <geo>41 -1</geo>
+            </location>
+          </place>
+          <place n="1" corresp="Q496424">
+            <placeName key="Calatayud">Calatayud</placeName>
+            <location>
+              <geo>41.35 -1.633333</geo>
+            </location>
+          </place>
+          <place n="1" corresp="Q15088">
+            <placeName key="Tarragona">Tarragona</placeName>
+            <location>
+              <geo>41.1175 1.25277777777778</geo>
+            </location>
+          </place>
+          <place n="2" corresp="Q29">
+            <placeName key="España">España</placeName>
+            <location>
+              <geo>40.2 -3.5</geo>
+            </location>
+          </place>
+          <place n="1" corresp="Q913304">
+            <placeName key="Riudecañas">Riudecañas</placeName>
+            <location>
+              <geo>41.130174 0.960748</geo>
+            </location>
+          </place>
+        </listPlace>
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
@@ -134,8 +199,7 @@
       </textClass>
     </profileDesc>
     <revisionDesc>
-      <change when="2022-08-02" who="#PJ">Création du fichier TEI P5 et encodage du corps du
-        texte</change>
+      <change when="2022-08-02" who="#PJ">Création du fichier TEI P5 et encodage du corps du texte</change>
       <change when="2024-01-09" who="#EL">Add the IIIF links</change>
     </revisionDesc>
   </teiHeader>
@@ -277,397 +341,397 @@
       <graphic url="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_114_2/full/full/0/default.jpg"/>
       <zone xml:id="Varios_114_2_BT227_1" n="1" type="MainZone" subtype="columns" points="1130,2485 1124,2551 384,2515 384,2447 465,2434 485,303 1096,308 1096,546 974,546 974,620 1075,620 1075,636 1162,636 1162,744 1054,744 1054,831 1050,831 1050,856 967,856 967,934 1050,934 1050,1028 1133,1028 1133,1106 997,1106 997,1198 1100,1198 1100,1242 1160,1242 1160,1325 1107,1325 1107,1400 1054,1400 1054,1536 1002,1536 1002,1582 891,1582 891,1667 995,1667 995,1876 1098,1876 1098,2013 1025,2013 1025,2062 1061,2062 1061,2277 1029,2277 1029,2459 1135,2459 1135,2485 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_114_2/384,303,778,2248/full/0/default" corresp="MainZone:columns">
         <zone xml:id="Varios_114_2_BT227_1__1" type="DefaultLine" subtype="none" points="506,348 508,275 549,293 619,280 619,280 619,280 622,280 791,295 827,275 827,273 829,273 829,273 829,273 832,273 832,273 834,273 834,273 834,273 837,273 837,273 837,273 842,275 885,298 933,275 933,275 933,275 936,275 936,275 936,275 938,275 999,275 999,356 994,369 500,361 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_114_2/500,273,499,96/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_114_2_BT227_1__1_1" points="506,348 999,356 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
+          <path xml:id="Varios_114_2_BT227_1__1_1" points="506,348 999,356 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
           <line>Yo aqui ya y estat malal...</line>
         </zone>
         <zone xml:id="Varios_114_2_BT227_1__2" type="DefaultLine" subtype="none" points="506,396 506,356 1065,356 1065,396 1062,412 503,409 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_114_2/503,356,562,56/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_114_2_BT227_1__2_1" points="506,396 1065,396 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
+          <path xml:id="Varios_114_2_BT227_1__2_1" points="506,396 1065,396 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
           <line>pero alló sols va se un somni,</line>
         </zone>
         <zone xml:id="Varios_114_2_BT227_1__3" type="DefaultLine" subtype="none" points="506,439 506,396 1085,399 1085,439 1085,455 506,460 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_114_2/506,396,579,64/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_114_2_BT227_1__3_1" points="506,439 1085,439 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
+          <path xml:id="Varios_114_2_BT227_1__3_1" points="506,439 1085,439 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
           <line>pues per tení un poch lo vomit</line>
         </zone>
         <zone xml:id="Varios_114_2_BT227_1__4" type="DefaultLine" subtype="none" points="506,485 506,447 1039,447 1039,485 1039,498 506,500 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_114_2/506,447,533,53/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_114_2_BT227_1__4_1" points="506,485 1039,485 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
+          <path xml:id="Varios_114_2_BT227_1__4_1" points="506,485 1039,485 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
           <line>ya 'm van fe aná al hospital.</line>
         </zone>
         <zone xml:id="Varios_114_2_BT227_1__5" type="DefaultLine" subtype="none" points="506,525 506,485 1062,490 1065,530 1060,543 500,538 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_114_2/500,485,565,58/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_114_2_BT227_1__5_1" points="506,525 1065,530 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
+          <path xml:id="Varios_114_2_BT227_1__5_1" points="506,525 1065,530 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
           <line>Ya 'm van curá aquells jueus</line>
         </zone>
         <zone xml:id="Varios_114_2_BT227_1__6" type="DefaultLine" subtype="none" points="506,571 506,525 938,533 941,576 936,586 500,584 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_114_2/500,525,441,61/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_114_2_BT227_1__6_1" points="506,571 941,576 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
+          <path xml:id="Varios_114_2_BT227_1__6_1" points="506,571 941,576 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
           <line>ab medicinas antiguas.</line>
         </zone>
         <zone xml:id="Varios_114_2_BT227_1__7" type="DefaultLine" subtype="none" points="506,619 503,576 928,578 933,616 931,637 506,637 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_114_2/503,576,430,61/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_114_2_BT227_1__7_1" points="506,619 933,616 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
+          <path xml:id="Varios_114_2_BT227_1__7_1" points="506,619 933,616 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
           <line>Ara pateixo de niguas</line>
         </zone>
         <zone xml:id="Varios_114_2_BT227_1__8" type="DefaultLine" subtype="none" points="503,659 503,619 1090,624 1092,664 1087,677 498,672 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_114_2/498,619,594,58/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_114_2_BT227_1__8_1" points="503,659 1092,664 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
+          <path xml:id="Varios_114_2_BT227_1__8_1" points="503,659 1092,664 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
           <line>que se 'm van menján los peus.</line>
         </zone>
         <zone xml:id="Varios_114_2_BT227_1__9" type="DefaultLine" subtype="none" points="500,705 500,654 1143,667 1146,710 1141,723 495,718 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_114_2/495,654,651,69/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_114_2_BT227_1__9_1" points="500,705 1146,710 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
+          <path xml:id="Varios_114_2_BT227_1__9_1" points="500,705 1146,710 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
           <line>La sort de un company mol maco</line>
         </zone>
         <zone xml:id="Varios_114_2_BT227_1__10" type="DefaultLine" subtype="none" points="503,753 495,718 541,702 543,702 543,702 543,702 546,702 1012,715 1017,750 1012,773 500,768 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_114_2/495,702,522,71/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_114_2_BT227_1__10_1" points="503,753 1017,750 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
+          <path xml:id="Varios_114_2_BT227_1__10_1" points="503,753 1017,750 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
           <line>que matarlas me assegura;</line>
         </zone>
         <zone xml:id="Varios_114_2_BT227_1__11" type="DefaultLine" subtype="none" points="503,796 503,755 1037,761 1039,801 1034,811 498,809 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_114_2/498,755,541,56/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_114_2_BT227_1__11_1" points="503,796 1039,801 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
+          <path xml:id="Varios_114_2_BT227_1__11_1" points="503,796 1039,801 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
           <line>sab lo remey, y me las cura</line>
         </zone>
         <zone xml:id="Varios_114_2_BT227_1__12" type="DefaultLine" subtype="none" points="503,844 498,806 941,801 948,839 946,859 500,854 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_114_2/498,801,450,58/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_114_2_BT227_1__12_1" points="503,844 948,839 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
+          <path xml:id="Varios_114_2_BT227_1__12_1" points="503,844 948,839 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
           <line>ab la cendra de tabacu.</line>
         </zone>
         <zone xml:id="Varios_114_2_BT227_1__13" type="DefaultLine" subtype="none" points="503,882 503,836 928,849 931,889 925,910 498,897 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_114_2/498,836,433,74/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_114_2_BT227_1__13_1" points="503,882 931,889 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
+          <path xml:id="Varios_114_2_BT227_1__13_1" points="503,882 931,889 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
           <line>Pero ya estich aborrit</line>
         </zone>
         <zone xml:id="Varios_114_2_BT227_1__14" type="DefaultLine" subtype="none" points="503,932 503,892 903,892 903,932 903,955 503,955 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_114_2/503,892,400,63/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_114_2_BT227_1__14_1" points="503,932 903,932 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
+          <path xml:id="Varios_114_2_BT227_1__14_1" points="503,932 903,932 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
           <line>y voldria tocá 'l dós;</line>
         </zone>
         <zone xml:id="Varios_114_2_BT227_1__15" type="DefaultLine" subtype="none" points="503,975 503,935 1032,940 1032,980 1027,1001 498,998 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_114_2/498,935,534,66/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_114_2_BT227_1__15_1" points="503,975 1032,980 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
+          <path xml:id="Varios_114_2_BT227_1__15_1" points="503,975 1032,980 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
           <line>perque aquí, no tinch repós</line>
         </zone>
         <zone xml:id="Varios_114_2_BT227_1__16" type="DefaultLine" subtype="none" points="503,1018 500,978 855,975 860,1023 855,1034 498,1031 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_114_2/498,975,362,59/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_114_2_BT227_1__16_1" points="503,1018 860,1023 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
+          <path xml:id="Varios_114_2_BT227_1__16_1" points="503,1018 860,1023 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
           <line>ni de dia ni de nit.</line>
         </zone>
         <zone xml:id="Varios_114_2_BT227_1__17" type="DefaultLine" subtype="none" points="503,1061 503,1016 1125,1021 1125,1064 1120,1079 498,1077 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_114_2/498,1016,627,63/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_114_2_BT227_1__17_1" points="506,1064 1126,1066 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
+          <path xml:id="Varios_114_2_BT227_1__17_1" points="506,1064 1126,1066 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
           <line>Valgam que 'l beure acompanya</line>
         </zone>
         <zone xml:id="Varios_114_2_BT227_1__18" type="DefaultLine" subtype="none" points="498,1114 498,1072 936,1072 936,1114 936,1127 498,1130 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_114_2/498,1072,438,58/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_114_2_BT227_1__18_1" points="498,1114 936,1114 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
+          <path xml:id="Varios_114_2_BT227_1__18_1" points="498,1114 936,1114 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
           <line>á passá tan trista sort:</line>
         </zone>
         <zone xml:id="Varios_114_2_BT227_1__19" type="DefaultLine" subtype="none" points="500,1157 498,1120 948,1109 951,1157 951,1170 500,1170 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_114_2/498,1109,453,61/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_114_2_BT227_1__19_1" points="500,1157 951,1157 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
+          <path xml:id="Varios_114_2_BT227_1__19_1" points="500,1157 951,1157 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
           <line>que si no, ya fora mort</line>
         </zone>
         <zone xml:id="Varios_114_2_BT227_1__20" type="DefaultLine" subtype="none" points="498,1200 498,1157 971,1163 974,1206 969,1213 493,1211 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_114_2/493,1157,481,56/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_114_2_BT227_1__20_1" points="498,1200 974,1206 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
+          <path xml:id="Varios_114_2_BT227_1__20_1" points="498,1200 974,1206 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
           <line>sinó begués tanta canya.</line>
         </zone>
         <zone xml:id="Varios_114_2_BT227_1__21" type="DefaultLine" subtype="none" points="500,1243 500,1193 1077,1208 1077,1248 1072,1261 495,1256 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_114_2/495,1193,582,68/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_114_2_BT227_1__21_1" points="500,1243 1077,1248 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
+          <path xml:id="Varios_114_2_BT227_1__21_1" points="500,1243 1077,1248 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
           <line>Donch vinga Canya y am ells,</line>
         </zone>
         <zone xml:id="Varios_114_2_BT227_1__22" type="DefaultLine" subtype="none" points="500,1294 495,1254 1138,1246 1146,1289 1143,1312 500,1312 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_114_2/495,1246,651,66/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_114_2_BT227_1__22_1" points="500,1294 1146,1289 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
+          <path xml:id="Varios_114_2_BT227_1__22_1" points="500,1294 1146,1289 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
           <line>que 'ls espanyols, ya 's pot creure</line>
         </zone>
         <zone xml:id="Varios_114_2_BT227_1__23" type="DefaultLine" subtype="none" points="495,1337 495,1299 1042,1299 1042,1337 1042,1355 495,1355 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_114_2/495,1299,547,56/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_114_2_BT227_1__23_1" points="495,1337 1042,1337 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
+          <path xml:id="Varios_114_2_BT227_1__23_1" points="495,1337 1042,1337 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
           <line>si no'ns falta menjá y beure</line>
         </zone>
         <zone xml:id="Varios_114_2_BT227_1__24" type="DefaultLine" subtype="none" points="498,1380 498,1340 1087,1345 1090,1385 1085,1395 493,1390 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_114_2/493,1340,597,55/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_114_2_BT227_1__24_1" points="498,1380 1090,1385 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
+          <path xml:id="Varios_114_2_BT227_1__24_1" points="498,1380 1090,1385 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
           <line>tots som forts com ha Castells.</line>
         </zone>
         <zone xml:id="Varios_114_2_BT227_1__25" type="DefaultLine" subtype="none" points="495,1425 495,1388 1006,1390 1006,1425 1006,1441 495,1441 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_114_2/495,1388,511,53/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_114_2_BT227_1__25_1" points="495,1425 1006,1425 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
+          <path xml:id="Varios_114_2_BT227_1__25_1" points="495,1425 1006,1425 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
           <line>Pero vey que aqui la gana</line>
         </zone>
         <zone xml:id="Varios_114_2_BT227_1__26" type="DefaultLine" subtype="none" points="498,1468 498,1420 1004,1433 1006,1474 1001,1484 493,1481 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_114_2/493,1420,513,64/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_114_2_BT227_1__26_1" points="498,1468 1006,1474 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
+          <path xml:id="Varios_114_2_BT227_1__26_1" points="498,1468 1006,1474 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
           <line>sempre se ha fet respectá:</line>
         </zone>
         <zone xml:id="Varios_114_2_BT227_1__27" type="DefaultLine" subtype="none" points="495,1517 495,1474 946,1479 1055,1458 1057,1517 1055,1552 900,1529 761,1544 723,1547 723,1547 721,1547 721,1547 718,1547 700,1542 662,1532 495,1534 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_114_2/495,1458,562,94/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_114_2_BT227_1__27_1" points="495,1517 1057,1517 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
+          <path xml:id="Varios_114_2_BT227_1__27_1" points="495,1517 1057,1517 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
           <line>¡Cuans cops tenim de passá</line>
         </zone>
         <zone xml:id="Varios_114_2_BT227_1__28" type="DefaultLine" subtype="none" points="495,1554 495,1514 979,1517 981,1562 979,1580 493,1580 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_114_2/493,1514,488,66/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_114_2_BT227_1__28_1" points="495,1554 981,1562 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
+          <path xml:id="Varios_114_2_BT227_1__28_1" points="495,1554 981,1562 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
           <line>mitg dijúns una setmana!</line>
         </zone>
         <zone xml:id="Varios_114_2_BT227_1__29" type="DefaultLine" subtype="none" points="503,1600 503,1557 867,1567 870,1608 867,1623 500,1623 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_114_2/500,1557,370,66/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_114_2_BT227_1__29_1" points="503,1600 870,1608 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
+          <path xml:id="Varios_114_2_BT227_1__29_1" points="503,1600 870,1608 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
           <line>Y camina per aquí;</line>
         </zone>
         <zone xml:id="Varios_114_2_BT227_1__30" type="DefaultLine" subtype="none" points="495,1645 495,1608 860,1613 862,1651 857,1673 490,1668 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_114_2/490,1608,372,65/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_114_2_BT227_1__30_1" points="495,1645 862,1651 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
+          <path xml:id="Varios_114_2_BT227_1__30_1" points="495,1645 862,1651 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
           <line>ara corra per allá,</line>
         </zone>
         <zone xml:id="Varios_114_2_BT227_1__31" type="DefaultLine" subtype="none" points="495,1691 495,1648 807,1658 850,1638 852,1638 852,1638 852,1638 855,1638 855,1638 857,1638 928,1638 928,1696 923,1714 490,1704 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_114_2/490,1638,438,76/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_114_2_BT227_1__31_1" points="495,1691 928,1696 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
+          <path xml:id="Varios_114_2_BT227_1__31_1" points="495,1691 928,1696 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
           <line>sense deixáns reposá;</line>
         </zone>
         <zone xml:id="Varios_114_2_BT227_1__32" type="DefaultLine" subtype="none" points="495,1736 495,1691 931,1699 931,1742 928,1757 493,1757 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_114_2/493,1691,438,66/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_114_2_BT227_1__32_1" points="495,1736 931,1742 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
+          <path xml:id="Varios_114_2_BT227_1__32_1" points="495,1736 931,1742 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
           <line>ni un rato pera dormí.</line>
         </zone>
         <zone xml:id="Varios_114_2_BT227_1__33" type="DefaultLine" subtype="none" points="495,1782 495,1736 971,1739 971,1787 963,1812 910,1800 751,1805 551,1810 549,1810 549,1810 546,1810 488,1792 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_114_2/488,1736,483,76/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_114_2_BT227_1__33_1" points="495,1782 971,1787 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
+          <path xml:id="Varios_114_2_BT227_1__33_1" points="495,1782 971,1787 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
           <line>Carregat ab la motxilla;</line>
         </zone>
         <zone xml:id="Varios_114_2_BT227_1__34" type="DefaultLine" subtype="none" points="495,1830 495,1785 946,1792 946,1830 946,1853 495,1853 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_114_2/495,1785,451,68/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_114_2_BT227_1__34_1" points="495,1830 946,1830 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
+          <path xml:id="Varios_114_2_BT227_1__34_1" points="495,1830 946,1830 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
           <line>las municións, lo fusell,</line>
         </zone>
         <zone xml:id="Varios_114_2_BT227_1__35" type="DefaultLine" subtype="none" points="495,1876 495,1835 941,1835 941,1876 941,1886 495,1893 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_114_2/495,1835,446,58/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_114_2_BT227_1__35_1" points="495,1876 941,1876 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
+          <path xml:id="Varios_114_2_BT227_1__35_1" points="495,1876 941,1876 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
           <line>y la roba. Y de la pell,</line>
         </zone>
         <zone xml:id="Varios_114_2_BT227_1__36" type="DefaultLine" subtype="none" points="495,1916 493,1873 1082,1870 1087,1921 1082,1936 490,1929 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_114_2/490,1870,597,66/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_114_2_BT227_1__36_1" points="495,1916 1087,1921 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
+          <path xml:id="Varios_114_2_BT227_1__36_1" points="495,1916 1087,1921 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
           <line>anem mes bruts que una guilla.</line>
         </zone>
         <zone xml:id="Varios_114_2_BT227_1__37" type="DefaultLine" subtype="none" points="495,1959 495,1913 956,1924 958,1964 953,1984 490,1977 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_114_2/490,1913,468,71/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_114_2_BT227_1__37_1" points="495,1959 958,1964 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
+          <path xml:id="Varios_114_2_BT227_1__37_1" points="495,1959 958,1964 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
           <line>¡vaya unas delicias tens</line>
         </zone>
         <zone xml:id="Varios_114_2_BT227_1__38" type="DefaultLine" subtype="none" points="500,2002 500,1964 1062,1964 1065,2007 1060,2025 495,2017 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_114_2/495,1964,570,61/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_114_2_BT227_1__38_1" points="500,2002 1065,2007 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
+          <path xml:id="Varios_114_2_BT227_1__38_1" points="500,2002 1065,2007 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
           <line>en aquets terrenos de aquí!</line>
         </zone>
         <zone xml:id="Varios_114_2_BT227_1__39" type="DefaultLine" subtype="none" points="495,2050 495,2002 984,2012 986,2055 984,2063 493,2065 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_114_2/493,2002,493,63/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_114_2_BT227_1__39_1" points="495,2050 986,2055 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
+          <path xml:id="Varios_114_2_BT227_1__39_1" points="495,2050 986,2055 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
           <line>No podém may tastá 'l ví,</line>
         </zone>
         <zone xml:id="Varios_114_2_BT227_1__40" type="DefaultLine" subtype="none" points="495,2098 493,2053 1034,2053 1039,2093 1037,2111 495,2113 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_114_2/493,2053,546,60/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_114_2_BT227_1__40_1" points="495,2098 1039,2093 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
+          <path xml:id="Varios_114_2_BT227_1__40_1" points="495,2098 1039,2093 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
           <line>y sempre la mort á las dens.</line>
         </zone>
         <zone xml:id="Varios_114_2_BT227_1__41" type="DefaultLine" subtype="none" points="495,2144 493,2095 958,2095 963,2138 961,2154 495,2156 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_114_2/493,2095,470,61/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_114_2_BT227_1__41_1" points="495,2144 963,2138 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
+          <path xml:id="Varios_114_2_BT227_1__41_1" points="495,2144 963,2138 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
           <line>Nada nada, vinga foch</line>
         </zone>
         <zone xml:id="Varios_114_2_BT227_1__42" type="DefaultLine" subtype="none" points="495,2187 495,2146 1049,2146 1049,2187 1049,2212 495,2212 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_114_2/495,2146,554,66/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_114_2_BT227_1__42_1" points="495,2187 1049,2187 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
+          <path xml:id="Varios_114_2_BT227_1__42_1" points="495,2187 1049,2187 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
           <line>y aném seguin la Campanya;</line>
         </zone>
         <zone xml:id="Varios_114_2_BT227_1__43" type="DefaultLine" subtype="none" points="495,2232 493,2192 966,2189 969,2232 966,2250 493,2245 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_114_2/493,2189,476,61/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_114_2_BT227_1__43_1" points="495,2232 969,2232 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
+          <path xml:id="Varios_114_2_BT227_1__43_1" points="495,2232 969,2232 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
           <line>vinga tassajo y la canya,</line>
         </zone>
         <zone xml:id="Varios_114_2_BT227_1__44" type="DefaultLine" subtype="none" points="495,2278 495,2232 976,2237 976,2278 976,2290 495,2298 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_114_2/495,2232,481,66/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_114_2_BT227_1__44_1" points="495,2278 976,2278 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
+          <path xml:id="Varios_114_2_BT227_1__44_1" points="495,2278 976,2278 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
           <line>y aném aguantán lo joch.</line>
         </zone>
         <zone xml:id="Varios_114_2_BT227_1__45" type="DefaultLine" subtype="none" points="495,2323 493,2280 994,2275 996,2323 996,2336 495,2341 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_114_2/493,2275,503,66/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_114_2_BT227_1__45_1" points="495,2323 996,2323 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
+          <path xml:id="Varios_114_2_BT227_1__45_1" points="495,2323 996,2323 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
           <line>¿Qui es aquéll que ara ve?</line>
         </zone>
         <zone xml:id="Varios_114_2_BT227_1__46" type="DefaultLine" subtype="none" points="493,2363 493,2321 1009,2326 1009,2369 1004,2379 488,2374 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_114_2/488,2321,521,58/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_114_2_BT227_1__46_1" points="493,2363 1009,2369 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
+          <path xml:id="Varios_114_2_BT227_1__46_1" points="493,2363 1009,2369 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
           <line>Lo Toribio, aquell baturro.</line>
         </zone>
         <zone xml:id="Varios_114_2_BT227_1__47" type="DefaultLine" subtype="none" points="493,2412 490,2369 996,2366 999,2412 999,2429 493,2429 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_114_2/490,2366,509,63/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_114_2_BT227_1__47_1" points="493,2412 999,2412 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
+          <path xml:id="Varios_114_2_BT227_1__47_1" points="493,2412 999,2412 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
           <line>¡Quin aragonés mes burro,</line>
         </zone>
         <zone xml:id="Varios_114_2_BT227_1__48" type="DefaultLine" subtype="none" points="495,2452 495,2409 976,2409 979,2457 976,2472 493,2472 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_114_2/493,2409,486,63/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_114_2_BT227_1__48_1" points="495,2452 979,2457 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
+          <path xml:id="Varios_114_2_BT227_1__48_1" points="495,2452 979,2457 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
           <line>y tan viu que 's pensa se.</line>
         </zone>
         <zone xml:id="Varios_114_2_BT227_1__49" type="DefaultLine" subtype="none" points="384,2500 384,2444 695,2460 1128,2447 1130,2500 1130,2525 1077,2528 1044,2558 1044,2558 1042,2558 1042,2558 1042,2558 1039,2558 1039,2558 1039,2558 1037,2558 1037,2558 1037,2558 1034,2558 961,2533 941,2528 845,2528 829,2540 812,2556 812,2558 812,2558 809,2558 809,2558 809,2558 807,2558 807,2558 807,2561 766,2561 764,2558 764,2558 761,2558 761,2558 761,2558 759,2558 736,2543 710,2528 617,2528 584,2551 574,2558 571,2558 571,2558 571,2558 569,2558 569,2558 569,2561 384,2561 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_114_2/384,2444,746,117/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_114_2_BT227_1__49_1" points="384,2500 1130,2500 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
+          <path xml:id="Varios_114_2_BT227_1__49_1" points="384,2500 1130,2500 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
           <line>Surt Toribio. Ola chiquio, buenos dias.</line>
         </zone>
       </zone>
       <zone xml:id="Varios_114_2_BT227_2" n="2" type="MainZone" subtype="columns" points="1783,313 1864,364 1905,533 1824,725 1945,809 1884,1254 1945,1504 1864,1678 1925,1989 1854,2144 1894,2394 1824,2505 1340,2535 1243,2535 1243,2429 1222,2429 1222,2397 1137,2397 1137,2078 1153,2078 1153,1823 1137,1823 1137,1653 1144,1653 1144,1637 1243,1637 1243,1552 1144,1552 1144,1428 1199,1428 1199,1421 1247,1421 1247,1242 1252,1242 1252,1148 1151,1148 1151,1010 1149,1010 1149,852 1195,852 1195,813 1229,813 1229,636 1234,636 1234,562 1135,562 1135,308 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_114_2/1135,308,810,2227/full/0/default" corresp="MainZone:columns">
         <zone xml:id="Varios_114_2_BT227_2__1" type="DefaultLine" subtype="none" points="1158,353 1158,285 1325,300 1406,293 1497,283 1497,283 1500,283 1500,283 1502,283 1553,298 1568,303 1765,305 1765,353 1763,369 1156,366 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_114_2/1156,283,609,86/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_114_2_BT227_2__1_1" points="1158,353 1765,353 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
+          <path xml:id="Varios_114_2_BT227_2__1_1" points="1158,353 1765,353 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
           <line>Bertrán. Buenus dias y banora.</line>
         </zone>
         <zone xml:id="Varios_114_2_BT227_2__2" type="DefaultLine" subtype="none" points="1161,399 1158,353 1829,348 1831,399 1829,417 1158,412 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_114_2/1158,348,673,69/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_114_2_BT227_2__2_1" points="1161,399 1831,399 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
+          <path xml:id="Varios_114_2_BT227_2__2_1" points="1161,399 1831,399 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
           <line>Toribio. ¡Como aprovechas la hora!</line>
         </zone>
         <zone xml:id="Varios_114_2_BT227_2__3" type="DefaultLine" subtype="none" points="1161,439 1161,396 1806,399 1808,447 1803,457 1156,455 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_114_2/1156,396,652,61/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_114_2_BT227_2__3_1" points="1161,439 1808,447 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
+          <path xml:id="Varios_114_2_BT227_2__3_1" points="1161,439 1808,447 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
           <line>Bertrán. Ca, mato las penas mias.</line>
         </zone>
         <zone xml:id="Varios_114_2_BT227_2__4" type="DefaultLine" subtype="none" points="1163,482 1163,442 1801,442 1803,487 1798,503 1158,495 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_114_2/1158,442,645,61/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_114_2_BT227_2__4_1" points="1163,482 1803,487 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
+          <path xml:id="Varios_114_2_BT227_2__4_1" points="1163,482 1803,487 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
           <line>Toribio. ¿Y Como vamos Beltrán?</line>
         </zone>
         <zone xml:id="Varios_114_2_BT227_2__5" type="DefaultLine" subtype="none" points="1161,530 1161,480 1588,493 1869,480 1874,536 1869,553 1156,546 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_114_2/1156,480,718,73/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_114_2_BT227_2__5_1" points="1161,530 1874,536 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
+          <path xml:id="Varios_114_2_BT227_2__5_1" points="1161,530 1874,536 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
           <line>Bertrán. Ya lo puedes ver; comiendu</line>
         </zone>
         <zone xml:id="Varios_114_2_BT227_2__6" type="DefaultLine" subtype="none" points="1270,578 1270,538 1730,538 1730,578 1730,596 1270,599 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_114_2/1270,538,460,61/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_114_2_BT227_2__6_1" points="1270,578 1730,578 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
+          <path xml:id="Varios_114_2_BT227_2__6_1" points="1270,578 1730,578 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
           <line>y algún basitu baviendu</line>
         </zone>
         <zone xml:id="Varios_114_2_BT227_2__7" type="DefaultLine" subtype="none" points="1270,621 1265,584 1667,581 1674,619 1669,639 1267,637 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_114_2/1265,581,409,58/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_114_2_BT227_2__7_1" points="1270,621 1674,619 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
+          <path xml:id="Varios_114_2_BT227_2__7_1" points="1270,621 1674,619 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
           <line>y la llamada esperán.</line>
         </zone>
         <zone xml:id="Varios_114_2_BT227_2__8" type="DefaultLine" subtype="none" points="1270,670 1267,621 1695,621 1700,664 1697,687 1270,687 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_114_2/1267,621,433,66/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_114_2_BT227_2__8_1" points="1270,670 1700,664 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
+          <path xml:id="Varios_114_2_BT227_2__8_1" points="1270,670 1700,664 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
           <line>Asiégate hombra, seu,</line>
         </zone>
         <zone xml:id="Varios_114_2_BT227_2__9" type="DefaultLine" subtype="none" points="1270,712 1270,667 1758,672 1758,712 1755,733 1267,725 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_114_2/1267,667,491,66/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_114_2_BT227_2__9_1" points="1270,712 1758,712 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
+          <path xml:id="Varios_114_2_BT227_2__9_1" points="1270,712 1758,712 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
           <line>que farém junts un tragu.</line>
         </zone>
         <zone xml:id="Varios_114_2_BT227_2__10" type="DefaultLine" subtype="none" points="1267,753 1267,712 1745,718 1748,761 1743,773 1262,763 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_114_2/1262,712,486,61/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_114_2_BT227_2__10_1" points="1267,753 1748,761 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
+          <path xml:id="Varios_114_2_BT227_2__10_1" points="1267,753 1748,761 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
           <line>Beva, beva, que yo pagu,</line>
         </zone>
         <zone xml:id="Varios_114_2_BT227_2__11" type="DefaultLine" subtype="none" points="1270,804 1270,750 1750,750 1750,804 1750,816 1270,816 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_114_2/1270,750,480,66/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_114_2_BT227_2__11_1" points="1270,804 1750,804 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
+          <path xml:id="Varios_114_2_BT227_2__11_1" points="1270,804 1750,804 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
           <line>mañana ya 'n dará Deu..</line>
         </zone>
         <zone xml:id="Varios_114_2_BT227_2__12" type="DefaultLine" subtype="none" points="1467,844 1464,804 1920,798 1922,844 1920,869 1464,864 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_114_2/1464,798,458,71/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_114_2_BT227_2__12_1" points="1467,844 1922,844 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
+          <path xml:id="Varios_114_2_BT227_2__12_1" points="1467,844 1922,844 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
           <line>(Toribio se senta y beu)</line>
         </zone>
         <zone xml:id="Varios_114_2_BT227_2__13" type="DefaultLine" subtype="none" points="1161,887 1161,844 1864,844 1864,892 1859,905 1156,902 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_114_2/1156,844,708,61/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_114_2_BT227_2__13_1" points="1161,887 1864,892 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
+          <path xml:id="Varios_114_2_BT227_2__13_1" points="1161,887 1864,892 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
           <line>Toribio. Rediós, ¡que licor tan fuerte</line>
         </zone>
         <zone xml:id="Varios_114_2_BT227_2__14" type="DefaultLine" subtype="none" points="1270,935 1267,895 1758,892 1760,935 1760,950 1270,950 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_114_2/1267,892,493,58/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_114_2_BT227_2__14_1" points="1270,935 1760,935 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
+          <path xml:id="Varios_114_2_BT227_2__14_1" points="1270,935 1760,935 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
           <line>es la caña de esta tierra!!</line>
         </zone>
         <zone xml:id="Varios_114_2_BT227_2__15" type="DefaultLine" subtype="none" points="1158,978 1153,935 1189,920 1189,920 1191,920 1191,920 1191,920 1194,920 1194,920 1277,932 1300,938 1500,938 1507,930 1515,922 1515,922 1518,922 1518,922 1518,922 1520,922 1520,922 1523,922 1523,922 1523,922 1525,922 1525,922 1525,922 1528,922 1535,930 1550,938 1882,925 1887,983 1882,1001 1153,988 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_114_2/1153,920,734,81/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_114_2_BT227_2__15_1" points="1158,978 1887,983 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
+          <path xml:id="Varios_114_2_BT227_2__15_1" points="1158,978 1887,983 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
           <line>Bertrán. Mira lo que som á la guerra,</line>
         </zone>
         <zone xml:id="Varios_114_2_BT227_2__16" type="DefaultLine" subtype="none" points="1270,1026 1270,978 1814,988 1814,1026 1811,1044 1267,1041 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_114_2/1267,978,547,66/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_114_2_BT227_2__16_1" points="1270,1026 1814,1026 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
+          <path xml:id="Varios_114_2_BT227_2__16_1" points="1270,1026 1814,1026 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
           <line>la canya 'ns salva la muerte.</line>
         </zone>
         <zone xml:id="Varios_114_2_BT227_2__17" type="DefaultLine" subtype="none" points="1163,1066 1163,1023 1796,1029 1796,1066 1796,1087 1163,1087 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_114_2/1163,1023,633,64/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_114_2_BT227_2__17_1" points="1165,1067 1798,1069 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
+          <path xml:id="Varios_114_2_BT227_2__17_1" points="1165,1067 1798,1069 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
           <line>Toribio. ¿No bebes agua con ella?</line>
         </zone>
         <zone xml:id="Varios_114_2_BT227_2__18" type="DefaultLine" subtype="none" points="1161,1112 1158,1072 1882,1066 1887,1120 1884,1130 1191,1137 1189,1137 1189,1137 1186,1137 1186,1137 1186,1137 1153,1122 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_114_2/1153,1066,734,71/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_114_2_BT227_2__18_1" points="1161,1112 1887,1120 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
+          <path xml:id="Varios_114_2_BT227_2__18_1" points="1161,1112 1887,1120 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
           <line>Bertrán. Qui fa cas de aigua, barret!</line>
         </zone>
         <zone xml:id="Varios_114_2_BT227_2__19" type="DefaultLine" subtype="none" points="1270,1155 1270,1114 1793,1114 1796,1160 1791,1175 1265,1168 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_114_2/1265,1114,531,61/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_114_2_BT227_2__19_1" points="1270,1155 1796,1160 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
+          <path xml:id="Varios_114_2_BT227_2__19_1" points="1270,1155 1796,1160 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
           <line>La aigua es bona per la set;</line>
         </zone>
         <zone xml:id="Varios_114_2_BT227_2__20" type="DefaultLine" subtype="none" points="1270,1206 1270,1157 1700,1165 1700,1206 1700,1221 1270,1223 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_114_2/1270,1157,430,66/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_114_2_BT227_2__20_1" points="1270,1206 1700,1206 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
+          <path xml:id="Varios_114_2_BT227_2__20_1" points="1270,1206 1700,1206 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
           <line>ho be per la escudella.</line>
         </zone>
         <zone xml:id="Varios_114_2_BT227_2__21" type="DefaultLine" subtype="none" points="1270,1248 1267,1211 1760,1200 1763,1248 1763,1261 1270,1269 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_114_2/1267,1200,496,69/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_114_2_BT227_2__21_1" points="1270,1248 1763,1248 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
+          <path xml:id="Varios_114_2_BT227_2__21_1" points="1270,1248 1763,1248 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
           <line>Si cuandu entras en acció</line>
         </zone>
         <zone xml:id="Varios_114_2_BT227_2__22" type="DefaultLine" subtype="none" points="1270,1297 1265,1259 1733,1251 1740,1291 1735,1312 1267,1309 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_114_2/1265,1251,475,61/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_114_2_BT227_2__22_1" points="1270,1297 1740,1291 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
+          <path xml:id="Varios_114_2_BT227_2__22_1" points="1270,1297 1740,1291 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
           <line>ti metes medio borratxu,</line>
         </zone>
         <zone xml:id="Varios_114_2_BT227_2__23" type="DefaultLine" subtype="none" points="1267,1340 1267,1291 1857,1294 1857,1340 1857,1362 1267,1362 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_114_2/1267,1291,590,71/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_114_2_BT227_2__23_1" points="1267,1340 1857,1340 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
+          <path xml:id="Varios_114_2_BT227_2__23_1" points="1267,1340 1857,1340 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
           <line>serás mes valén que un matxu,</line>
         </zone>
         <zone xml:id="Varios_114_2_BT227_2__24" type="DefaultLine" subtype="none" points="1270,1385 1265,1347 1705,1342 1712,1380 1710,1398 1270,1405 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_114_2/1265,1342,447,63/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_114_2_BT227_2__24_1" points="1270,1385 1712,1380 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
+          <path xml:id="Varios_114_2_BT227_2__24_1" points="1270,1385 1712,1380 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
           <line>y mas fieru que un lleó.</line>
         </zone>
         <zone xml:id="Varios_114_2_BT227_2__25" type="DefaultLine" subtype="none" points="1270,1428 1265,1390 1743,1385 1750,1423 1748,1441 1270,1446 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_114_2/1265,1385,485,61/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_114_2_BT227_2__25_1" points="1270,1428 1750,1423 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
+          <path xml:id="Varios_114_2_BT227_2__25_1" points="1270,1428 1750,1423 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
           <line>¿De quin pueblu eres, dí?</line>
         </zone>
         <zone xml:id="Varios_114_2_BT227_2__26" type="DefaultLine" subtype="none" points="1158,1468 1158,1423 1781,1431 1900,1418 1900,1418 1902,1418 1902,1418 1902,1418 1905,1418 1905,1418 1905,1418 1907,1418 1907,1418 1925,1433 1920,1474 1915,1496 1153,1491 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_114_2/1153,1418,772,78/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_114_2_BT227_2__26_1" points="1158,1468 1920,1474 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
+          <path xml:id="Varios_114_2_BT227_2__26_1" points="1158,1468 1920,1474 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
           <line>Toribio. No es pueblo que es gran ciudad,</line>
         </zone>
         <zone xml:id="Varios_114_2_BT227_2__27" type="DefaultLine" subtype="none" points="1158,1522 1153,1484 1841,1468 1849,1514 1846,1544 1566,1542 1566,1542 1566,1542 1563,1542 1563,1542 1561,1542 1561,1542 1543,1529 1158,1539 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_114_2/1153,1468,696,76/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_114_2_BT227_2__27_1" points="1158,1522 1849,1514 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
+          <path xml:id="Varios_114_2_BT227_2__27_1" points="1158,1522 1849,1514 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
           <line>Bertrán. Vaiga; ya 'm hu ey pensat</line>
         </zone>
         <zone xml:id="Varios_114_2_BT227_2__28" type="DefaultLine" subtype="none" points="1267,1559 1267,1517 1687,1522 1687,1559 1687,1577 1267,1582 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_114_2/1267,1517,420,65/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_114_2_BT227_2__28_1" points="1267,1559 1687,1559 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
+          <path xml:id="Varios_114_2_BT227_2__28_1" points="1267,1559 1687,1559 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
           <line>que voldrias presumí.</line>
         </zone>
         <zone xml:id="Varios_114_2_BT227_2__29" type="DefaultLine" subtype="none" points="1265,1610 1259,1567 1824,1565 1831,1605 1826,1625 1262,1623 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_114_2/1259,1565,572,60/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_114_2_BT227_2__29_1" points="1265,1610 1831,1605 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
+          <path xml:id="Varios_114_2_BT227_2__29_1" points="1265,1610 1831,1605 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
           <line>Bien: ¿Quina es? batua 'l món</line>
         </zone>
         <zone xml:id="Varios_114_2_BT227_2__30" type="DefaultLine" subtype="none" points="1265,1653 1262,1608 1677,1608 1682,1648 1679,1661 1265,1666 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_114_2/1262,1608,420,58/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_114_2_BT227_2__30_1" points="1265,1653 1682,1648 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
+          <path xml:id="Varios_114_2_BT227_2__30_1" points="1265,1653 1682,1648 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
           <line>la ciutat tan colossal?</line>
         </zone>
         <zone xml:id="Varios_114_2_BT227_2__31" type="DefaultLine" subtype="none" points="1168,1688 1168,1630 1257,1630 1257,1630 1257,1630 1259,1630 1259,1630 1259,1630 1262,1630 1295,1651 1664,1651 1682,1633 1682,1630 1682,1630 1685,1630 1685,1630 1685,1630 1687,1630 1687,1630 1690,1630 1824,1630 1824,1688 1824,1706 1168,1716 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_114_2/1168,1630,656,86/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_114_2_BT227_2__31_1" points="1169,1691 1826,1691 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
+          <path xml:id="Varios_114_2_BT227_2__31_1" points="1169,1691 1826,1691 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
           <line>Toribio. Pus bien: yo soy natural</line>
         </zone>
         <zone xml:id="Varios_114_2_BT227_2__32" type="DefaultLine" subtype="none" points="1262,1742 1262,1693 1705,1693 1705,1742 1705,1754 1262,1762 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_114_2/1262,1693,443,69/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_114_2_BT227_2__32_1" points="1262,1742 1705,1742 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
+          <path xml:id="Varios_114_2_BT227_2__32_1" points="1262,1742 1705,1742 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
           <line>de la ciudá de Aragón.</line>
         </zone>
         <zone xml:id="Varios_114_2_BT227_2__33" type="DefaultLine" subtype="none" points="1156,1790 1151,1726 1254,1724 1257,1724 1257,1724 1259,1724 1259,1724 1267,1726 1320,1749 1353,1734 1353,1734 1353,1734 1356,1734 1356,1734 1356,1734 1358,1734 1358,1734 1361,1734 1361,1734 1404,1749 1525,1731 1530,1731 1530,1731 1533,1731 1533,1731 1533,1731 1535,1731 1535,1731 1581,1747 1808,1736 1816,1779 1814,1810 1323,1800 1156,1820 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_114_2/1151,1724,665,96/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_114_2_BT227_2__33_1" points="1156,1790 1816,1779 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
+          <path xml:id="Varios_114_2_BT227_2__33_1" points="1156,1790 1816,1779 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
           <line>Berírán. ¡La burra que 't va pari!</line>
         </zone>
         <zone xml:id="Varios_114_2_BT227_2__34" type="DefaultLine" subtype="none" points="1262,1833 1262,1792 1786,1792 1786,1833 1783,1850 1259,1848 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_114_2/1259,1792,527,58/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_114_2_BT227_2__34_1" points="1262,1833 1786,1833 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
+          <path xml:id="Varios_114_2_BT227_2__34_1" points="1262,1833 1786,1833 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
           <line>¿Pero ahont es aixó llanut?,</line>
         </zone>
         <zone xml:id="Varios_114_2_BT227_2__35" type="DefaultLine" subtype="none" points="1163,1868 1163,1820 1692,1835 1695,1870 1692,1893 1161,1893 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_114_2/1161,1820,534,73/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_114_2_BT227_2__35_1" points="1165,1869 1697,1873 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
+          <path xml:id="Varios_114_2_BT227_2__35_1" points="1165,1869 1697,1873 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
           <line>Toríbio. Cerca de Calatayut:</line>
         </zone>
         <zone xml:id="Varios_114_2_BT227_2__36" type="DefaultLine" subtype="none" points="1259,1921 1259,1873 1771,1881 1771,1921 1771,1934 1259,1936 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_114_2/1259,1873,512,63/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_114_2_BT227_2__36_1" points="1259,1921 1771,1921 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
+          <path xml:id="Varios_114_2_BT227_2__36_1" points="1259,1921 1771,1921 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
           <line>de una quinta que hay allí.</line>
         </zone>
         <zone xml:id="Varios_114_2_BT227_2__37" type="DefaultLine" subtype="none" points="1158,1964 1158,1924 1897,1924 1897,1964 1897,1984 1158,1984 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_114_2/1158,1924,739,60/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_114_2_BT227_2__37_1" points="1158,1964 1897,1964 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
+          <path xml:id="Varios_114_2_BT227_2__37_1" points="1158,1964 1897,1964 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
           <line>Bertrán. Be, ya hu entiengu; ya hu se.</line>
         </zone>
         <zone xml:id="Varios_114_2_BT227_2__38" type="DefaultLine" subtype="none" points="1265,2004 1265,1969 1839,1977 1841,2012 1836,2032 1259,2020 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_114_2/1259,1969,582,63/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_114_2_BT227_2__38_1" points="1265,2004 1841,2012 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
+          <path xml:id="Varios_114_2_BT227_2__38_1" points="1265,2004 1841,2012 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
           <line>Yo 'm creya que eres un gall.</line>
         </zone>
         <zone xml:id="Varios_114_2_BT227_2__39" type="DefaultLine" subtype="none" points="1262,2055 1259,2017 1808,2015 1811,2055 1811,2078 1262,2078 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_114_2/1259,2015,552,63/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_114_2_BT227_2__39_1" points="1262,2055 1811,2055 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
+          <path xml:id="Varios_114_2_BT227_2__39_1" points="1262,2055 1811,2055 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
           <line>y ara vey, que al cap de vall</line>
         </zone>
         <zone xml:id="Varios_114_2_BT227_2__40" type="DefaultLine" subtype="none" points="1259,2101 1254,2063 1682,2058 1690,2095 1687,2116 1259,2121 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_114_2/1254,2058,436,63/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_114_2_BT227_2__40_1" points="1259,2101 1690,2095 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
+          <path xml:id="Varios_114_2_BT227_2__40_1" points="1259,2101 1690,2095 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
           <line>ets hiju de un masuvé.</line>
         </zone>
         <zone xml:id="Varios_114_2_BT227_2__41" type="DefaultLine" subtype="none" points="1158,2146 1151,2106 1733,2090 1740,2138 1735,2161 1156,2159 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_114_2/1151,2090,589,71/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_114_2_BT227_2__41_1" points="1158,2146 1740,2138 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
+          <path xml:id="Varios_114_2_BT227_2__41_1" points="1158,2146 1740,2138 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
           <line>Toribio. ¿Pus no soy aragonés?</line>
         </zone>
         <zone xml:id="Varios_114_2_BT227_2__42" type="DefaultLine" subtype="none" points="1153,2189 1153,2149 1735,2149 1735,2189 1735,2204 1153,2204 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_114_2/1153,2149,582,55/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_114_2_BT227_2__42_1" points="1153,2189 1735,2189 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
+          <path xml:id="Varios_114_2_BT227_2__42_1" points="1153,2189 1735,2189 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
           <line>Bertràn. Tossút y dur depelá.</line>
         </zone>
         <zone xml:id="Varios_114_2_BT227_2__43" type="DefaultLine" subtype="none" points="1158,2235 1158,2194 1781,2194 1781,2235 1781,2250 1158,2252 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_114_2/1158,2194,623,58/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_114_2_BT227_2__43_1" points="1158,2235 1781,2235 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
+          <path xml:id="Varios_114_2_BT227_2__43_1" points="1158,2235 1781,2235 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
           <line>Toribio. Y valiente... hasta allá...</line>
         </zone>
         <zone xml:id="Varios_114_2_BT227_2__44" type="DefaultLine" subtype="none" points="1156,2280 1151,2240 1831,2235 1839,2275 1836,2295 1156,2298 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_114_2/1151,2235,688,63/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_114_2_BT227_2__44_1" points="1156,2280 1839,2275 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
+          <path xml:id="Varios_114_2_BT227_2__44_1" points="1156,2280 1839,2275 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
           <line>Bertrán. Si hombra, ya te ey entés,</line>
         </zone>
         <zone xml:id="Varios_114_2_BT227_2__45" type="DefaultLine" subtype="none" points="1156,2323 1153,2283 1854,2275 1857,2323 1857,2338 1156,2338 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_114_2/1153,2275,704,63/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_114_2_BT227_2__45_1" points="1156,2323 1857,2323 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
+          <path xml:id="Varios_114_2_BT227_2__45_1" points="1156,2323 1857,2323 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
           <line>Toribio. ¿Y tu patria, cual es? ¿Quién?</line>
         </zone>
         <zone xml:id="Varios_114_2_BT227_2__46" type="DefaultLine" subtype="none" points="1151,2371 1151,2318 1846,2328 1846,2371 1846,2396 1151,2396 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_114_2/1151,2318,695,78/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_114_2_BT227_2__46_1" points="1151,2371 1846,2371 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
+          <path xml:id="Varios_114_2_BT227_2__46_1" points="1151,2371 1846,2371 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
           <line>Bertrán. Yó soy de allá á Catalunya,</line>
         </zone>
         <zone xml:id="Varios_114_2_BT227_2__47" type="DefaultLine" subtype="none" points="1259,2412 1257,2369 1743,2369 1748,2406 1745,2427 1259,2429 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_114_2/1257,2369,491,60/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_114_2_BT227_2__47_1" points="1259,2412 1748,2406 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
+          <path xml:id="Varios_114_2_BT227_2__47_1" points="1259,2412 1748,2406 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
           <line>que con un golpe de unya</line>
         </zone>
         <zone xml:id="Varios_114_2_BT227_2__48" type="DefaultLine" subtype="none" points="1259,2460 1254,2414 1793,2412 1801,2452 1796,2475 1257,2472 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_114_2/1254,2412,547,63/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_114_2_BT227_2__48_1" points="1259,2460 1801,2452 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
+          <path xml:id="Varios_114_2_BT227_2__48_1" points="1259,2460 1801,2452 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
           <line>matamus los polls muy bién.</line>
         </zone>
         <zone xml:id="Varios_114_2_BT227_2__49" type="DefaultLine" subtype="none" points="1254,2503 1252,2455 1707,2460 1712,2497 1712,2523 1672,2540 1672,2540 1669,2540 1669,2540 1669,2540 1667,2540 1667,2540 1561,2525 1555,2525 1550,2525 1482,2543 1480,2543 1480,2543 1477,2543 1252,2528 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_114_2/1252,2455,460,88/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_114_2_BT227_2__49_1" points="1254,2503 1712,2497 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
+          <path xml:id="Varios_114_2_BT227_2__49_1" points="1254,2503 1712,2497 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
           <line>Es una tierra muy bona</line>
         </zone>
       </zone>
@@ -1463,13 +1527,16 @@
   <text>
     <body>
       <div>
+
         <pb n="1" source="Varios_114_1.jpg" facs="varios/Varios_114_1.jpg"/>
+
         <div type="parte" n="1">
-          <head type="primer_titulo" rend="negrita"><lb/>LA GUERRA</head>
-          <head type="subtitulo_parte"><lb/>Conversa entre dos soldats, un aragonés baturro y un
+          <head type="primer_titulo" rend="negrita">
+            <lb/>LA GUERRA</head>
+          <head type="subtitulo_parte">
+            <lb/>Conversa entre dos soldats, un aragonés baturro y un
             catalá de Riudecanyas<lb/>Lo cas pasa en lo mes de Mars del any 1898,<lb/>en una
             cantina de Guantánamo en la Isla de Cuba.</head>
-
           <div type="reparto">
             <castList>
               <head type="reparto_titulo">PERSONAS:</head>
@@ -1477,18 +1544,16 @@
               <castItem>TORIBIO-Aragonés.</castItem>
             </castList>
           </div>
-
           <div>
             <stage rend="cursiva">Apareix Bertrán assentat en un banch devánt d'una tauleta, en la cual y ha
               <lb/>un garrafó de aiguardént de canya y dos ó tres gots.</stage>
-
             <sp>
               <speaker rend="cursiva">Bertrán.</speaker>
               <l>Ya 't dich yó que com y ha Deu</l>
               <l>aixó ya no pot aná:</l>
               <l>mol poch dormí, poch menjá,</l>
               <l>y tiros per tot arreu.</l>
-              <l>¡Ay Cuba! De tu renegu,</l>
+              <l>¡Ay <name>Cuba</name>! De tu renegu,</l>
               <l>que ets mare de 'ls desconsols;</l>
               <l>perque 'ls soldats espanyols</l>
               <l>en lloch no hi trobém sossegu.</l>
@@ -1586,7 +1651,8 @@
               <l>Beva, beva, que yo pagu,</l>
               <l>mañana ya 'n dará Deu..</l>
             </sp>
-            <stage rend="cursiva"><lb/>(Toribio se senta y beu)</stage>
+            <stage rend="cursiva">
+              <lb/>(Toribio se senta y beu)</stage>
             <sp>
               <speaker rend="cursiva">Toribio.</speaker>
               <l>Rediós, ¡que licor tan fuerte</l>
@@ -1635,7 +1701,7 @@
             </sp>
             <sp>
               <speaker rend="cursiva">Toríbio.</speaker>
-              <l>Cerca de Calatayut:</l>
+              <l>Cerca de <name>Calatayut</name>:</l>
               <l>de una quinta que hay allí.</l>
             </sp>
             <sp>
@@ -1667,16 +1733,16 @@
             </sp>
             <sp>
               <speaker rend="cursiva">Bertrán.</speaker>
-              <l>Yó soy de allá á Catalunya,</l>
+              <l>Yó soy de allá á <name>Catalunya</name>,</l>
               <l>que con un golpe de unya</l>
               <l>matamus los polls muy bién.</l>
               <l>Es una tierra muy bona</l>
-              
+
               <pb n="3" source="Varios_114_3.jpg" facs="varios/Varios_114_3.jpg"/>
-              
+
               <l>que hay ruvalóns y castanyas.</l>
-              <l>Soy hiju de Riudecanyas</l>
-              <l>de 'l campu de Tarragona.</l>
+              <l>Soy hiju de <name>Riudecanyas</name></l>
+              <l>de 'l campu de <name>Tarragona</name>.</l>
             </sp>
             <sp>
               <speaker rend="cursiva">Toribio.</speaker>
@@ -1725,7 +1791,8 @@
               <speaker rend="cursiva">Bertrán.</speaker>
               <l>Si ¿Que te 'n rius?</l>
               <l>Hoy; bevém ya que som vius:</l>
-              <l>demá mórts. Encén encén. (Behu-<add place="debajo">en)</add></l>
+              <l>demá mórts. Encén encén. (Behu-<add place="debajo">en)</add>
+              </l>
             </sp>
             <sp>
               <speaker rend="cursiva">Toribio.</speaker>
@@ -1823,7 +1890,7 @@
               <l>llicencia no 'n darán cap:</l>
               <l>y ni tu ni nadie sap</l>
               <l>cuan surtirém de esta terra.</l>
-              <l>¿Que no saps que 'l mal de Espanya</l>
+              <l>¿Que no saps que 'l mal de <name>Espanya</name></l>
               <l>no te remedio ni cura?</l>
               <l>Y aixis, donem sepultura</l>
               <l>á las copetas de canya.</l>
@@ -1839,9 +1906,9 @@
             <sp>
               <speaker rend="cursiva">Bertrán.</speaker>
               <l>Y que an de ser, cap de par</l>
-              
+
               <pb n="4" source="Varios_114_4.jpg" facs="varios/Varios_114_4.jpg"/>
-              
+
               <l>si 'l hombra que sap xiulá</l>
               <l>no li fan miedu las balas.</l>
             </sp>
@@ -1965,7 +2032,8 @@
               <l>Un cañon de artilllería</l>
               <l>que les llamán de montaña;</l>
               <l>tan cierto como esto es caña.</l>
-              <stage rend="cursiva"><lb/>(senyalan lo got)</stage>
+              <stage rend="cursiva">
+                <lb/>(senyalan lo got)</stage>
               <l>Bertran Me 'ls darás un alte dia.</l>
               <l>Toribio Cuidao que lo que yo digo</l>
               <l>bien te lo puedo jurar</l>
@@ -2016,9 +2084,9 @@
             <p rend="cursiva">Es propietat de Joan Grau.</p>
           </div>
         </div>
-        
         <div type="colofon">
-          <p><lb/>REUS. En la llibrería de Joan Grau, carrer del metje Fortuny, 5, se venen
+          <p>
+            <lb/>REUS. En la llibrería de Joan Grau, carrer del metje Fortuny, 5, se venen
             co-<lb/>medias, zarzuelas, sainetes, llibrets, romansos, cartas, jochs de quinto y
             dóminos. </p>
         </div>

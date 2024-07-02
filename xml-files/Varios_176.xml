@@ -19,6 +19,20 @@
           <resp>Verificación de la codificación y carga en el sitio web</resp>
         </respStmt>
       </titleStmt>
+      <editionStmt>
+        <edition n="2.0">
+          <title>Segunda versión de la edición, enriquecida con topónimos</title>
+          <date>2024</date>
+        </edition>
+        <respStmt>
+          <name>Elina Leblanc, Zoé Noël y Pauline Jacsont</name>
+          <resp>Creación del modelo de reconocimiento automático de topónimos y codificación TEI</resp>
+        </respStmt>
+        <respStmt>
+          <name>Belinda Palacios, Lorysmar Franco y Constance Carta</name>
+          <resp>Corrección de los resultados</resp>
+        </respStmt>
+      </editionStmt>
       <publicationStmt>
         <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
         <availability status="restricted">
@@ -33,7 +47,8 @@
             <title type="titulo_breve">El cantor de las hermosas</title>
           </titleStmt>
           <editionStmt>
-            <p>Otras impresiones: <ref target="Varios_041.xml">Varios_041</ref> y <ref target="Varios_297.xml">Varios_297</ref></p>
+            <p>Otras impresiones: <ref target="Varios_041.xml">Varios_041</ref> y <ref target="Varios_297.xml">Varios_297</ref>
+            </p>
           </editionStmt>
           <publicationStmt>
             <publisher>Tipografía Española</publisher>
@@ -79,7 +94,8 @@
                   <dim>in-4</dim>
                   <material/>
                 </support>
-                <extent><measure unit="página" quantity="4"/>4 p.</extent>
+                <extent>
+                  <measure unit="página" quantity="4"/>4 p.</extent>
                 <condition>Bueno</condition>
               </supportDesc>
               <layoutDesc>
@@ -108,6 +124,7 @@
             </acquisition>
           </history>
         </msDesc>
+        
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
@@ -143,8 +160,7 @@
       </textClass>
     </profileDesc>
     <revisionDesc>
-      <change when="2023-04-18" who="#PJ">Création du fichier TEI P5 et encodage du corps du
-        texte</change>
+      <change when="2023-04-18" who="#PJ">Création du fichier TEI P5 et encodage du corps du texte</change>
       <change when="2024-01-09" who="#EL">Add the IIIF links</change>
     </revisionDesc>
   </teiHeader>
@@ -829,17 +845,19 @@
     <body>
       <div>
         <div>
+
           <pb n="1" source="Varios_176_1.jpg" facs="varios/Varios_176_1.jpg"/>
 
-          <fw type="impresorNum"><lb/>Núm. 8.</fw>
-
-          <head type="primer_titulo" rend="negrita"><lb/>EL<lb/>CANTOR DE LAS HERMOSAS</head>
-          <head type="subtitulo"><lb/>TROVAS DE AMOR DEDICADAS AL BELLO SEXO<lb/>POR UNOS
+          <fw type="impresorNum">
+            <lb/>Núm. 8.</fw>
+          <head type="primer_titulo" rend="negrita">
+            <lb/>EL<lb/>CANTOR DE LAS HERMOSAS</head>
+          <head type="subtitulo">
+            <lb/>TROVAS DE AMOR DEDICADAS AL BELLO SEXO<lb/>POR UNOS
             AFICIONADOS.</head>
-
           <div n="1">
-            <head type="titulo_cancion"><lb/>22 LA MUERTE</head>
-
+            <head type="titulo_cancion">
+              <lb/>22 LA MUERTE</head>
             <lg>
               <head type="titulo_estrofa">I.</head>
               <l rend="indent">¡Llega, Muerte irrevocable,</l>
@@ -855,7 +873,6 @@
             <pb n="2" source="Varios_176_2.jpg" facs="varios/Varios_176_2.jpg"/>
 
             <fw type="paginaNum">—30—</fw>
-
             <lg>
               <head type="titulo_estrofa">II.</head>
               <l rend="indent">Muestra ya tu imágen fea</l>
@@ -867,7 +884,6 @@
               <l>Ven ¡oh Parca inexorable!</l>
               <l>Calma pronto mi dolor.</l>
             </lg>
-
             <lg>
               <head type="titulo_estrofa">III.</head>
               <l rend="indent">Ven ¡oh! Muerte, y sin tardanza</l>
@@ -879,13 +895,14 @@
               <l>Llévame do esté postrada...</l>
               <l>Llévame alli sin tardar!</l>
             </lg>
-            <p><lb/>—J. A. C.—</p>
+            <p>
+              <lb/>—J. A. C.—</p>
           </div>
-
           <div n="2">
-            <head type="titulo_cancion" rend="negrita"><lb/>23 LA AUSENCIA</head>
-            <head type="subtitulo_cancion"><lb/>POESÍA</head>
-
+            <head type="titulo_cancion" rend="negrita">
+              <lb/>23 LA AUSENCIA</head>
+            <head type="subtitulo_cancion">
+              <lb/>POESÍA</head>
             <l>¡Ya partió! ¡ya partió! su frente pura</l>
             <l>¡no miro estastado! Aquella frente</l>
             <l>Que yo juré adorar eternamente</l>
@@ -914,8 +931,8 @@
             <l>Lo miro, acato, reverencio y toco!</l>
 
             <pb n="3" source="Varios_176_3.jpg" facs="varios/Varios_176_3.jpg"/>
-            <fw type="paginaNum">—31—</fw>
 
+            <fw type="paginaNum">—31—</fw>
             <l>Mas ¡ay! son ilusiones pasajeras,</l>
             <l>Cual trémulo vapor que el Océano</l>
             <l>Rápido cruza y en sus hondas fieras</l>
@@ -965,17 +982,16 @@
             <l>Do solo el corazon libre respira,</l>
             <l>Te cantaré de amor enajenado:</l>
             <l rend="cursiva">—¡La muerte es separarme de tu lado!</l>
-
-            <p><lb/>—J. A. C.—</p>
+            <p>
+              <lb/>—J. A. C.—</p>
           </div>
-
           <div n="3">
+
             <pb n="4" source="Varios_176_4.jpg" facs="varios/Varios_176_4.jpg"/>
-            
+
             <fw type="paginaNum">—32</fw>
-            
-            <head type="titulo_cancion"><lb/>24 LA DESPEDIDA<lb/>DE UN TROVADOR</head>
-            
+            <head type="titulo_cancion">
+              <lb/>24 LA DESPEDIDA<lb/>DE UN TROVADOR</head>
             <lg>
               <head type="titulo_estrofa">I.</head>
               <l>Al acercarse ¡ay! el cruel momento</l>
@@ -1020,13 +1036,16 @@
               <l>Oye, mi bien, oye el adios postrero</l>
               <l>Que te dedica amante trovador.</l>
             </lg>
-            <p><lb/>I. D.</p>
+            <p>
+              <lb/>I. D.</p>
           </div>
         </div>
-        
         <div type="colofon">
-          <p><lb/><hi rend="cursiva">Se hallará de venta en casa los sucesores de Antonio Bosch, Bou de la Plaza Nueva,</hi> 13.</p>
-          <p><lb/>Barcelona.—Tipografía Española, calle del Hospital, núm. 87.</p>
+          <p>
+            <lb/>
+            <hi rend="cursiva">Se hallará de venta en casa los sucesores de Antonio Bosch, Bou de la Plaza Nueva,</hi> 13.</p>
+          <p>
+            <lb/>Barcelona.—Tipografía Española, calle del Hospital, núm. 87.</p>
         </div>
       </div>
     </body>

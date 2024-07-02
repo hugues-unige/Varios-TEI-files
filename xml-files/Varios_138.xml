@@ -19,6 +19,20 @@
           <resp>Verificación de la codificación y carga en el sitio web</resp>
         </respStmt>
       </titleStmt>
+      <editionStmt>
+        <edition n="2.0">
+          <title>Segunda versión de la edición, enriquecida con topónimos</title>
+          <date>2024</date>
+        </edition>
+        <respStmt>
+          <name>Elina Leblanc, Zoé Noël y Pauline Jacsont</name>
+          <resp>Creación del modelo de reconocimiento automático de topónimos y codificación TEI</resp>
+        </respStmt>
+        <respStmt>
+          <name>Belinda Palacios, Lorysmar Franco y Constance Carta</name>
+          <resp>Corrección de los resultados</resp>
+        </respStmt>
+      </editionStmt>
       <publicationStmt>
         <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
         <availability status="restricted">
@@ -35,7 +49,8 @@
             <author role="letrista">Zeferino Zepol</author>
           </titleStmt>
           <editionStmt>
-            <p>Otras impresiones: <ref target="Varios_289.xml">Varios_289</ref> y <ref target="Varios_458.xml">Varios_458</ref></p>
+            <p>Otras impresiones: <ref target="Varios_289.xml">Varios_289</ref> y <ref target="Varios_458.xml">Varios_458</ref>
+            </p>
           </editionStmt>
           <publicationStmt>
             <publisher>[s.n.]</publisher>
@@ -71,7 +86,8 @@
                   <dim>in-4</dim>
                   <material rend="verde"/>
                 </support>
-                <extent><measure unit="página" quantity="4"/>4 p.</extent>
+                <extent>
+                  <measure unit="página" quantity="4"/>4 p.</extent>
                 <condition>Bueno</condition>
               </supportDesc>
               <layoutDesc>
@@ -91,6 +107,14 @@
           </physDesc>
           <history/>
         </msDesc>
+        <listPlace xml:base="https://www.wikidata.org/wiki/">
+          <place n="2" corresp="Q528530">
+            <placeName key="Andújar">Andújar</placeName>
+            <location>
+              <geo>38.0392362 -4.0505603</geo>
+            </location>
+          </place>
+        </listPlace>
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
@@ -127,8 +151,7 @@
       </textClass>
     </profileDesc>
     <revisionDesc>
-      <change when="2022-09-15" who="#PJ">Création du fichier TEI P5 et encodage du corps du
-        texte</change>
+      <change when="2022-09-15" who="#PJ">Création du fichier TEI P5 et encodage du corps du texte</change>
       <change when="2024-01-09" who="#EL">Add the IIIF links</change>
     </revisionDesc>
   </teiHeader>
@@ -1358,13 +1381,14 @@
   <text>
     <body>
       <div>
+
         <pb n="1" source="Varios_138_1.jpg" facs="varios/Varios_138_1.jpg"/>
 
         <div n="1">
-          <head type="primer_titulo"><lb/>TROVOS Y GLOSAS DISCRETAS, QUE PARA EXPLICAR<lb/>sus penas
+          <head type="primer_titulo">
+            <lb/>TROVOS Y GLOSAS DISCRETAS, QUE PARA EXPLICAR<lb/>sus penas
             cantaba un amante despreciado, cuando se divertia<lb/>con sus amigos ; compuestos por D.
             Zeferino Zepol,<lb/>natural de Audujar.</head>
-
           <lg n="1">
             <head type="titulo_estrofa">I.</head>
             <lg>
@@ -1373,7 +1397,6 @@
               <l>viendo que estás en el mundo</l>
               <l>y para mí ya te has muerto.</l>
             </lg>
-
             <lg>
               <l rend="indent">Todo mi intento fué amarte,</l>
               <l>nunca te pude vencer,</l>
@@ -1381,7 +1404,6 @@
               <l>al verte en otro poder</l>
               <l>el corazon se me parte.</l>
             </lg>
-
             <lg>
               <l rend="indent">Ya para mi no hay contento,</l>
               <l>yo no tendré ya alegria,</l>
@@ -1389,7 +1411,6 @@
               <l>penaré de noche y dia</l>
               <l>de dolor y sentimiento.</l>
             </lg>
-
             <lg>
               <l rend="indent">Siempre me veo iracundo,</l>
               <l>metido en triste penar.</l>
@@ -1397,7 +1418,6 @@
               <l>de no poderte gozar</l>
               <l>viendo que estás en el mundo.</l>
             </lg>
-
             <lg>
               <l rend="indent">Tengan el sepulero abierto,</l>
               <l>por todo el orbe se escriba,</l>
@@ -1406,7 +1426,6 @@
               <l>y para mi ya te has muerto.</l>
             </lg>
           </lg>
-
           <lg n="2">
             <head type="titulo_estrofa">II.</head>
             <lg>
@@ -1415,7 +1434,6 @@
               <l>me verás y te veré,</l>
               <l>pero no nos habloremos.</l>
             </lg>
-
             <lg>
               <l rend="indent">De otro te enamorás,</l>
               <l>dandome á mi que sentir,</l>
@@ -1423,7 +1441,6 @@
               <l>y viendome á mi afligir,</l>
               <l>cuantas veces llorarás.</l>
             </lg>
-
             <lg>
               <l rend="indent">Si mi amor te causa tedio</l>
               <l>prometo se ausentará,</l>
@@ -1431,7 +1448,6 @@
               <l>que yo te quiera y será</l>
               <l>cuando no tenga remedio.</l>
             </lg>
-
             <lg>
               <l rend="indent">Afligido viviré</l>
               <l>si me desprecia tu amor,</l>
@@ -1439,7 +1455,6 @@
               <l>y para mayor mayor dolor</l>
               <l>me verás y te veré.</l>
             </lg>
-
             <lg>
               <l rend="indent">Nuestros tratos perderemos</l>
               <l>cuando séas de otro esposa,</l>
@@ -1448,7 +1463,6 @@
               <l>pero no nos hablaremos.</l>
             </lg>
           </lg>
-
           <lg n="3">
             <head type="titulo_estrofa">III.</head>
             <lg>
@@ -1457,7 +1471,6 @@
               <l>porque sino ha de gozarte</l>
               <l>de que sirve que te quiera.</l>
             </lg>
-
             <lg>
               <l rend="indent">Jamas fino me rindiera</l>
               <l>á tu prendas ¡ay de mí!</l>
@@ -1468,7 +1481,6 @@
 
               <l>¡ó quién de amor no supiera!</l>
             </lg>
-
             <lg>
               <l rend="indent">De mi dolor te doy parte,</l>
               <l>pues me esplico enternecido,</l>
@@ -1476,7 +1488,6 @@
               <l>no te hubiera conocido!</l>
               <l>para no llegar á amarte.</l>
             </lg>
-
             <lg>
               <l rend="indent">Mi martirio ponderarte</l>
               <l>amada prenda no sé</l>
@@ -1484,7 +1495,6 @@
               <l>si me preguntas porqué</l>
               <l>porque sino he de gozarte.</l>
             </lg>
-
             <lg>
               <l rend="indent">En fin, mi fé solo espera</l>
               <l>de ti un intimo favor</l>
@@ -1493,7 +1503,6 @@
               <l>de que sirve que te quiera?</l>
             </lg>
           </lg>
-
           <lg n="4">
             <head type="titulo_estrofa">IV.</head>
             <lg>
@@ -1502,7 +1511,6 @@
               <l>ya me despido ¡qué muerte!</l>
               <l>lloremos juntos los dos.</l>
             </lg>
-
             <lg>
               <l rend="indent">Mi vida por no perderte,</l>
               <l>mas apreciara el morir,</l>
@@ -1510,7 +1518,6 @@
               <l>que no llegarte á decir</l>
               <l>llegó el dia ¡trance fuerte!</l>
             </lg>
-
             <lg>
               <l rend="indent">No hay dolor que á mi dolor</l>
               <l>le iguale, y asi te digo,</l>
@@ -1518,7 +1525,6 @@
               <l>y el cielo solo es testigo</l>
               <l>de mi ausencia ¡qué rigor!</l>
             </lg>
-
             <lg>
               <l rend="indent">Posible es que no he de verte,</l>
               <l>y he de ausentarme y dejarte,</l>
@@ -1526,7 +1532,6 @@
               <l>el corazon se me parte,</l>
               <l>ya me despido ¡que muerte !</l>
             </lg>
-
             <lg>
               <l rend="indent">Recíbe el último á Dlos,</l>
               <l>que no puedo imaginar,</l>
@@ -1535,7 +1540,6 @@
               <l>lloremos juntos los dos.</l>
             </lg>
           </lg>
-
           <lg n="5">
             <head type="titulo_estrofa">V.</head>
             <lg>
@@ -1544,7 +1548,6 @@
               <l>ni una vez sola dirás,</l>
               <l>Dios te haya perdonado.</l>
             </lg>
-
             <lg>
               <l rend="indent">De otro te enamorarás,</l>
               <l>y le dirás mil ternuras,</l>
@@ -1552,7 +1555,6 @@
               <l>y asi por mi sepultura</l>
               <l>cuantas veces pasarás.</l>
             </lg>
-
             <lg>
               <l rend="indent">De tí no seré llorado</l>
               <l>por ser tu pasion escasa,</l>
@@ -1560,7 +1562,6 @@
               <l>te reconvendrás si pasas</l>
               <l>por donde yo esté enterrado.</l>
             </lg>
-
             <lg>
               <l rend="indent">Mi cariño olvidarás,</l>
               <l>si otro en tí pusiere amor,</l>
@@ -1568,7 +1569,6 @@
               <l>y un requiescant con dolor,</l>
               <l>ni una vez sola dirás.</l>
             </lg>
-
             <lg>
               <l rend="indent">En fin no tendrás cuidado,</l>
               <l>que me salve ó me condene,</l>
@@ -1577,7 +1577,6 @@
               <l>Dios te haya perdonado.</l>
             </lg>
           </lg>
-
           <lg n="6">
             <head type="titulo_estrofa">VI.</head>
             <lg>
@@ -1586,7 +1585,6 @@
               <l>amor, no me quita el sueño,</l>
               <l>nunca he sido porfiado.</l>
             </lg>
-
             <lg>
               <l rend="indent">Como es el mundo redondo</l>
               <l>á nada le muestro aprecio ,</l>
@@ -1594,7 +1592,6 @@
               <l>si me desprecian, desprecio,</l>
               <l>si me quieren, correspondo.</l>
             </lg>
-
             <lg>
               <l rend="indent">Cuando de amor he tratado,</l>
               <l>con desconfianza vivo,</l>
@@ -1602,7 +1599,6 @@
               <l>si me lo dan, lo recibo,</l>
               <l>si no, no me dá cuidado.</l>
             </lg>
-
             <lg>
               <l rend="indent">De esto el mundo dá el diseño</l>
               <l>en las edades tempranas,</l>
@@ -1610,7 +1606,6 @@
               <l>yo como y bebo con ganas,</l>
               <l>y amor no me quita el sueño.</l>
             </lg>
-
             <lg>
               <l rend="indent">Nunca á nadie le he rogado,</l>
               <l>ni en tal espejo se vieran,</l>
@@ -1620,14 +1615,14 @@
             </lg>
           </lg>
         </div>
-
         <div n="2">
+
           <pb n="4" source="Varios_138_4.jpg" facs="varios/Varios_138_4.jpg"/>
 
-          <head type="primer_titulo"><lb/>TROVOS Y GLOSAS DISCRETAS, QUE PARA EXPLICAR<lb/>sus penas
+          <head type="primer_titulo">
+            <lb/>TROVOS Y GLOSAS DISCRETAS, QUE PARA EXPLICAR<lb/>sus penas
             cantaba un amante despreciado, cuando se divertia<lb/>con sus amigos; compuestos por D.
             Zeferino Zepol,<lb/>natural de Andujar.</head>
-
           <lg n="1">
             <head type="titulo_estrofa">I.</head>
             <lg>
@@ -1636,7 +1631,6 @@
               <l>viendo que estás en el mundo</l>
               <l>y para mí ya te has muerto.</l>
             </lg>
-
             <lg>
               <l rend="indent">Todo mi intento fué amarte,</l>
               <l>nunca te pude vencer,</l>
@@ -1644,7 +1638,6 @@
               <l>al verte en otro poder,</l>
               <l>el corazon se me parte.</l>
             </lg>
-
             <lg>
               <l rend="indent">Ya para mi no hay contento,</l>
               <l>yo no tendré ya alegria,</l>
@@ -1652,7 +1645,6 @@
               <l>penaré de noche y dia</l>
               <l>de dolor y sentimiento.</l>
             </lg>
-
             <lg>
               <l rend="indent">Siempre me veo iracundo,</l>
               <l>metido en triste penar,</l>
@@ -1660,7 +1652,6 @@
               <l>de no poderte gozar</l>
               <l>viendo que estás en el mundo.</l>
             </lg>
-
             <lg>
               <l rend="indent">Tengan el sepulcro abierto.</l>
               <l>por todo el orbe se escriba,</l>
@@ -1669,7 +1660,6 @@
               <l>y para mí ya te has muerto.</l>
             </lg>
           </lg>
-
           <lg n="2">
             <head type="titulo_estrofa">II.</head>
             <lg>
@@ -1678,7 +1668,6 @@
               <l>me verás y te veré,</l>
               <l>pero no nos hablaremos.</l>
             </lg>
-
             <lg>
               <l rend="indent">De otro te enamorarás,</l>
               <l>dandome á mi que sentir,</l>
@@ -1686,7 +1675,6 @@
               <l>y viendome á mi afligir,</l>
               <l>cuantas veces llorarás.</l>
             </lg>
-
             <lg>
               <l rend="indent">Si mi amor te cansa tedio</l>
               <l>prometo se ausentará</l>
@@ -1694,7 +1682,6 @@
               <l>que yo te quiera y será</l>
               <l>cuando no tenga remedio.</l>
             </lg>
-
             <lg>
               <l rend="indent">Afligido viviré</l>
               <l>si me desprecia tu amor,</l>
@@ -1702,7 +1689,6 @@
               <l>y para mayor dolor</l>
               <l>me verás y te veré.</l>
             </lg>
-
             <lg>
               <l rend="indent">Nuestros tratos perderemos</l>
               <l>cuando seas de otro esposa</l>
@@ -1711,7 +1697,6 @@
               <l>pero no nos hablaremos.</l>
             </lg>
           </lg>
-
           <lg n="3">
             <head type="titulo_estrofa">III.</head>
             <lg>
@@ -1720,7 +1705,6 @@
               <l>porque sino he de gozarte</l>
               <l>de que sirve que te quiera.</l>
             </lg>
-
             <lg>
               <l rend="indent">Jamas fino me rindiera</l>
               <l>á tus prendas ¡ay de mi !</l>
@@ -1731,7 +1715,6 @@
 
               <l>ó quién de amor no supiera!</l>
             </lg>
-
             <lg>
               <l rend="indent">De mi dolor te doy parte,</l>
               <l>pues me esplico enternecido,</l>
@@ -1739,7 +1722,6 @@
               <l>no te hubiera conocido!</l>
               <l>para no llegar á amarte.</l>
             </lg>
-
             <lg>
               <l rend="indent">Mi martirio ponderarte</l>
               <l>amada prenda no sé,</l>
@@ -1747,7 +1729,6 @@
               <l>si me preguntas porqué</l>
               <l>porque sino he de gozarte.</l>
             </lg>
-
             <lg>
               <l rend="indent">En fin, mi fué solo espera</l>
               <l>de tí un íntimo favor,</l>
@@ -1756,7 +1737,6 @@
               <l>de que sirve que te quiera?</l>
             </lg>
           </lg>
-
           <lg n="4">
             <head type="titulo_estrofa">IV.</head>
             <lg>
@@ -1765,7 +1745,6 @@
               <l>ya me despido ¡ qué muerte !</l>
               <l>lloremos juntos los dos.</l>
             </lg>
-
             <lg>
               <l rend="indent">Mi vida por no perderte,</l>
               <l>mas apreciara el morir,</l>
@@ -1773,7 +1752,6 @@
               <l>que no llegarte á decir</l>
               <l>llegó el dia ¡trance fuerte!</l>
             </lg>
-
             <lg>
               <l rend="indent">No hay dolor que á mi dolor</l>
               <l>le iguale, y asi te digo,</l>
@@ -1781,7 +1759,6 @@
               <l>y el cielo solo es testigo</l>
               <l>de mi ausencia ¡ qué rigor!</l>
             </lg>
-
             <lg>
               <l rend="indent">Posible es que no he de verte,</l>
               <l>y he de ausentarme y dejarte,</l>
@@ -1789,7 +1766,6 @@
               <l>el corazon se me parte,</l>
               <l>ya me despido ¡ qué muerte?</l>
             </lg>
-
             <lg>
               <l rend="indent">Recibe el último á Dios,</l>
               <l>que no puedo imaginar,</l>
@@ -1798,7 +1774,6 @@
               <l>lloremos juntos los dos.</l>
             </lg>
           </lg>
-
           <lg n="5">
             <head type="titulo_estrofa">V.</head>
             <lg>
@@ -1807,7 +1782,6 @@
               <l>ni una vez sola dirás,</l>
               <l>Dios te haya perdonado.</l>
             </lg>
-
             <lg>
               <l rend="indent">De otro te enamorarás,</l>
               <l>y le dirás mil ternuras,</l>
@@ -1815,7 +1789,6 @@
               <l>y asi por mi sepultura</l>
               <l>cuantas veces pasarás.</l>
             </lg>
-
             <lg>
               <l rend="indent">De tí no seré llorado</l>
               <l>pór ser tu pasion escasa,</l>
@@ -1823,7 +1796,6 @@
               <l>te reconvendrás si pasas</l>
               <l>por donde yo esté enterrado.</l>
             </lg>
-
             <lg>
               <l rend="indent">Mi cariño olvidarás,</l>
               <l>si otro en tí pusiere amor,</l>
@@ -1831,7 +1803,6 @@
               <l>y un requiescant con dolor,</l>
               <l>ni una vez sola dirás.</l>
             </lg>
-
             <lg>
               <l rend="indent">En fin no tendrás cuidado,</l>
               <l>que me salve ó me condene,</l>
@@ -1840,7 +1811,6 @@
               <l>Dios te haya perdonado.</l>
             </lg>
           </lg>
-
           <lg n="6">
             <head type="titulo_estrofa">VI.</head>
             <lg>
@@ -1849,7 +1819,6 @@
               <l>amor, no me quita el sueño,</l>
               <l>nunca he sido porfiado.</l>
             </lg>
-
             <lg>
               <l rend="indent">Como es el mundo redondo</l>
               <l>á nada le muestro aprecio,</l>
@@ -1857,7 +1826,6 @@
               <l>si me desprecian, desprecio,</l>
               <l>si me quieren, correspondo.</l>
             </lg>
-
             <lg>
               <l rend="indent">Cuando de amor he tratado,</l>
               <l>con desconfianza vivo,</l>
@@ -1865,7 +1833,6 @@
               <l>si me lo dan, lo récibo,</l>
               <l>si no, no me dá cuidado.</l>
             </lg>
-
             <lg>
               <l rend="indent">De esto el mundo dá el diseño</l>
               <l>en las edades tempranas.</l>
@@ -1873,7 +1840,6 @@
               <l>yo como y bebo con ganas,</l>
               <l>y amor no me quita le sueño,</l>
             </lg>
-
             <lg>
               <l rend="indent">Nunca á nadie le he rogado.</l>
               <l>ni en tal espejo se vieran,</l>
