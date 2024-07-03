@@ -19,6 +19,20 @@
           <resp>Verificación de la codificación y carga en el sitio web</resp>
         </respStmt>
       </titleStmt>
+      <editionStmt>
+        <edition n="2.0">
+          <title>Segunda versión de la edición, enriquecida con topónimos</title>
+          <date>2024</date>
+        </edition>
+        <respStmt>
+          <name>Elina Leblanc, Zoé Noël y Pauline Jacsont</name>
+          <resp>Creación del modelo de reconocimiento automático de topónimos y codificación TEI</resp>
+        </respStmt>
+        <respStmt>
+          <name>Belinda Palacios, Lorysmar Franco y Constance Carta</name>
+          <resp>Corrección de los resultados</resp>
+        </respStmt>
+      </editionStmt>
       <publicationStmt>
         <authority role="rightsHolder">Bibliothèque Universitaire de Genève</authority>
         <availability status="restricted">
@@ -45,7 +59,7 @@
             <country>Suisse</country>
             <settlement>Genève</settlement>
             <repository>Bibliothèque Universitaire de Genève <ref target="https://unige.swisscovery.slsp.ch/permalink/41SLSP_UGE/btt5ev/alma991008229029705502"/>
-                                    </repository>
+            </repository>
             <collection>Colección Varios</collection>
             <idno type="cote"/>
             <idno type="DOI">10.5281/zenodo.6798723</idno>
@@ -67,7 +81,8 @@
                   <dim>in-4</dim>
                   <material subtype="amarillo"/>
                 </support>
-                <extent><measure unit="página" quantity="16"/>16
+                <extent>
+                  <measure unit="página" quantity="16"/>16
                                                   p.</extent>
                 <condition>Bueno</condition>
               </supportDesc>
@@ -96,6 +111,38 @@
             </acquisition>
           </history>
         </msDesc>
+        <listPlace xml:base="https://www.wikidata.org/wiki/">
+          <place n="30" corresp="Q79">
+            <placeName key="Egipto">Egipto</placeName>
+            <location>
+              <geo>27 29</geo>
+            </location>
+          </place>
+          <place n="1" corresp="Q620864">
+            <placeName key="Cilicia">Cilicia</placeName>
+            <location>
+              <geo>36.985 35.12</geo>
+            </location>
+          </place>
+          <place n="5" corresp="Q163329">
+            <placeName key="Canaán">Canaán</placeName>
+            <location>
+              <geo>32.766667 35.333333</geo>
+            </location>
+          </place>
+          <place n="3" corresp="Q1261081">
+            <placeName key="Gosén">Gosén</placeName>
+            <location>
+              <geo>30.8722222222222 31.4775</geo>
+            </location>
+          </place>
+          <place n="1" corresp="Q191687">
+            <placeName key="Heliópolis">Heliópolis</placeName>
+            <location>
+              <geo>30.129527777778 31.288888888889</geo>
+            </location>
+          </place>
+        </listPlace>
       </sourceDesc>
     </fileDesc>
     <encodingDesc>
@@ -135,7 +182,9 @@
       <change when="2024-01-09" who="#EL">Add the IIIF links</change>
     </revisionDesc>
   </teiHeader>
-  <facsimile><graphic url="varios/Varios_435_1.jpg/full/200,/0/default.jpg"/></facsimile>
+  <facsimile>
+    <graphic url="varios/Varios_435_1.jpg/full/200,/0/default.jpg"/>
+  </facsimile>
   <sourceDoc xml:id="automaticTranscription">
     <surface xml:id="Varios_435_1" type="page" cert="silver">
       <graphic url="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_435_1/full/full/0/default.jpg"/>
@@ -2214,217 +2263,217 @@
       </zone>
       <zone xml:id="Varios_435_6_BT226_2" n="2" type="NumberingZone" subtype="page" points="288,186 1638,186 1638,2265 288,2265 288,186 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_435_6/288.0,186.0,1350.0,2079.0/full/0/default" corresp="MainZone">
         <zone xml:id="Varios_435_6_BT226_2__1" type="DefaultLine" subtype="none" points="334,235 334,248 653,254 655,254 780,246 796,246 799,246 815,253 816,253 817,253 859,246 864,246 872,246 949,253 950,253 951,253 972,246 973,246 981,246 1122,253 1123,253 1202,245 1211,245 1219,245 1272,252 1274,252 1275,252 1291,245 1292,245 1306,252 1307,252 1309,252 1463,245 1466,245 1467,245 1526,252 1527,252 1528,252 1558,244 1558,231 1556,197 1523,191 1522,191 1484,197 1465,200 1452,197 1430,191 1428,191 1343,191 1341,191 1314,197 1300,200 1200,197 1110,194 1109,194 1070,197 1014,201 1006,197 997,192 995,192 994,192 920,197 881,200 873,197 859,192 858,192 856,192 741,193 739,193 726,197 709,202 590,197 538,196 536,196 535,196 531,197 522,202 495,197 469,193 468,193 332,197 334,235 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_435_6/332.0,191.0,1226.0,63.0/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_435_6_BT226_2__1_1" points="334,235 1558,231 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
+          <path xml:id="Varios_435_6_BT226_2__1_1" points="334,235 1558,231 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
           <line>entrególe su señor tan del todo el gobierno de la casa, que ya
                                     él mis-</line>
         </zone>
         <zone xml:id="Varios_435_6_BT226_2__2" type="DefaultLine" subtype="none" points="334,280 334,298 393,292 1556,294 1558,278 1554,242 999,248 992,246 976,241 975,241 973,241 972,241 954,246 942,249 912,246 864,242 863,242 793,248 767,249 757,248 730,242 729,242 728,242 726,242 717,248 716,249 713,248 696,242 695,242 694,242 617,249 609,249 604,249 560,242 559,242 557,242 544,249 543,249 466,242 465,242 332,250 334,280 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_435_6/332.0,241.0,1226.0,57.0/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_435_6_BT226_2__2_1" points="334,280 1558,278 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
+          <path xml:id="Varios_435_6_BT226_2__2_1" points="334,280 1558,278 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
           <line>mo no sabia lo que tenia, contentándose con que lo supiera
                                     José: él</line>
         </zone>
         <zone xml:id="Varios_435_6_BT226_2__3" type="DefaultLine" subtype="none" points="334,323 334,340 1551,339 1552,320 1549,293 1483,285 1482,285 1480,285 1460,293 1259,293 1239,285 1237,285 1236,285 1180,292 1142,285 1141,285 1140,285 1115,292 1102,285 1101,285 1020,285 1019,285 956,292 946,285 945,285 943,285 942,285 854,293 673,287 672,287 600,293 549,287 548,287 517,293 482,287 481,287 479,287 452,293 414,287 413,287 332,294 334,323 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_435_6/332.0,285.0,1220.0,55.0/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_435_6_BT226_2__3_1" points="334,323 1552,320 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
+          <path xml:id="Varios_435_6_BT226_2__3_1" points="334,323 1552,320 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
           <line>que mandando en todos los criados, siendo él esclavo como
                                     ellos,</line>
         </zone>
         <zone xml:id="Varios_435_6_BT226_2__4" type="DefaultLine" subtype="none" points="334,366 334,384 1557,379 1557,366 1557,337 1526,330 1525,330 1523,330 1508,336 1462,330 1461,330 1413,336 1409,336 1400,336 1300,330 1188,330 1187,330 1185,330 1184,330 1176,335 1174,336 1168,335 1151,330 1150,330 1149,330 1116,335 1102,336 1081,335 1032,330 1031,330 995,333 976,336 963,333 942,330 941,330 906,333 880,336 867,333 854,330 852,330 851,330 824,333 798,336 777,332 757,330 756,330 755,330 743,332 728,336 702,332 682,330 681,330 666,332 646,336 334,331 334,366 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_435_6/334.0,330.0,1223.0,54.0/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_435_6_BT226_2__4_1" points="334,366 1557,366 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
+          <path xml:id="Varios_435_6_BT226_2__4_1" points="334,366 1557,366 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
           <line>consiguió ser querido de todos. Los bienes de Putifar en manos
                                     de</line>
         </zone>
         <zone xml:id="Varios_435_6_BT226_2__5" type="DefaultLine" subtype="none" points="332,410 332,423 1549,427 1552,408 1549,380 1489,372 1488,372 1487,372 1471,379 1415,372 1414,372 1413,372 1398,379 1384,372 1383,372 1382,372 1267,379 1258,380 1080,380 1079,379 1063,372 1062,372 1060,372 1059,372 1041,379 1038,379 1019,379 917,374 916,374 915,374 914,374 907,378 903,380 331,378 332,410 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_435_6/331.0,372.0,1221.0,55.0/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_435_6_BT226_2__5_1" points="332,410 1552,408 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
+          <path xml:id="Varios_435_6_BT226_2__5_1" points="332,410 1552,408 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
           <line>José cada día iban en aumento. El cielo bendecia al hijo de
                                     Jacob; y</line>
         </zone>
         <zone xml:id="Varios_435_6_BT226_2__6" type="DefaultLine" subtype="none" points="334,454 334,470 1552,470 1553,452 1549,421 1220,423 1211,422 1184,417 1183,417 1096,422 1076,423 1073,422 1059,417 1058,417 1057,417 1055,417 1041,423 1038,423 1029,423 966,417 964,417 963,417 941,423 934,424 903,423 789,418 787,418 657,424 652,424 647,424 549,418 548,418 488,424 434,418 432,418 403,424 379,418 378,418 377,418 332,426 334,454 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_435_6/332.0,417.0,1221.0,53.0/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_435_6_BT226_2__6_1" points="334,454 1553,452 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
+          <path xml:id="Varios_435_6_BT226_2__6_1" points="334,454 1553,452 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
           <line>todo cuanto éste emprendia en beneficio de su señor, el mas
                                     próspero</line>
         </zone>
         <zone xml:id="Varios_435_6_BT226_2__7" type="DefaultLine" subtype="none" points="332,498 332,511 846,509 847,496 845,470 761,470 747,462 746,462 744,462 743,462 729,470 626,470 590,461 588,461 587,461 562,467 518,462 517,462 516,462 514,462 505,470 470,462 469,462 468,462 452,469 436,462 435,462 434,462 378,469 361,463 360,463 358,463 357,463 331,471 332,498 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_435_6/331.0,461.0,516.0,50.0/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_435_6_BT226_2__7_1" points="332,498 847,496 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
+          <path xml:id="Varios_435_6_BT226_2__7_1" points="332,498 847,496 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
           <line>resultado pagaba sus afanes.</line>
         </zone>
         <zone xml:id="Varios_435_6_BT226_2__8" type="DefaultLine" subtype="none" points="399,543 399,557 1556,557 1556,543 1554,510 1142,514 1028,509 1003,508 1002,508 990,509 930,514 911,508 908,508 907,508 906,508 904,508 903,508 893,515 834,515 772,508 764,508 763,508 757,508 712,514 698,508 696,508 695,508 694,508 691,508 657,515 465,515 399,508 399,543 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_435_6/399.0,508.0,1157.0,49.0/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_435_6_BT226_2__8_1" points="399,543 1556,543 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
+          <path xml:id="Varios_435_6_BT226_2__8_1" points="399,543 1556,543 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
           <line>Mas como en este mundo nada es duradero, cuando menos
                                     podia</line>
         </zone>
         <zone xml:id="Varios_435_6_BT226_2__9" type="DefaultLine" subtype="none" points="331,587 331,606 1556,599 1557,584 1554,557 1232,557 1228,554 1211,548 1210,548 1209,548 1207,548 1184,554 1181,554 1166,554 1016,548 1015,548 949,553 899,557 886,553 875,549 873,549 872,549 871,549 862,553 851,557 707,557 698,552 692,549 691,549 690,549 676,552 647,557 330,550 331,587 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_435_6/330.0,548.0,1227.0,58.0/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_435_6_BT226_2__9_1" points="331,587 1557,584 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
+          <path xml:id="Varios_435_6_BT226_2__9_1" points="331,587 1557,584 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
           <line>imaginárselo, una desgracia, pues tal puede llamarse, hizo
                                     desapare-</line>
         </zone>
         <zone xml:id="Varios_435_6_BT226_2__10" type="DefaultLine" subtype="none" points="331,631 331,651 1556,645 1556,631 1556,601 1530,595 1528,595 1527,595 1526,595 1501,601 1379,595 1304,595 1302,595 1301,595 1300,595 1291,601 1276,595 1275,595 1274,595 1272,595 1252,601 1119,595 1118,595 1081,601 1068,595 1067,595 1066,595 1016,601 980,595 979,595 977,595 951,601 877,595 876,595 875,595 873,595 863,602 730,602 716,595 715,595 577,595 575,595 574,595 562,601 553,595 552,595 551,595 549,595 548,595 521,601 468,595 466,595 331,601 331,631 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_435_6/331.0,595.0,1225.0,56.0/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_435_6_BT226_2__10_1" points="331,631 1556,631 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
+          <path xml:id="Varios_435_6_BT226_2__10_1" points="331,631 1556,631 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
           <line>cer toda la felicidad de que gozaba, poniendo su virtud en el
                                     más</line>
         </zone>
         <zone xml:id="Varios_435_6_BT226_2__11" type="DefaultLine" subtype="none" points="332,675 332,687 388,695 390,695 391,695 403,688 413,696 414,696 416,696 417,696 470,690 471,690 504,696 505,696 507,696 508,696 508,695 514,690 516,688 538,690 613,696 614,697 655,697 655,696 656,696 657,696 664,691 669,688 711,692 747,695 748,695 750,695 751,695 754,692 757,690 760,692 764,695 764,696 765,696 767,696 768,696 799,692 832,690 917,693 919,675 916,640 898,648 889,640 888,640 886,640 885,640 884,640 882,640 856,648 835,641 833,640 832,640 830,640 829,640 825,641 803,649 731,649 720,643 715,640 713,640 712,640 711,640 700,643 681,648 668,643 660,640 659,640 657,640 656,640 646,643 633,648 626,644 621,640 620,640 618,640 617,640 616,640 603,644 588,648 570,644 549,640 548,640 547,640 529,645 516,648 507,645 492,640 491,640 490,640 488,640 475,645 469,649 384,649 380,647 370,640 369,640 367,640 366,640 332,647 332,675 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_435_6/332.0,640.0,587.0,57.0/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_435_6_BT226_2__11_1" points="332,675 919,675 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
+          <path xml:id="Varios_435_6_BT226_2__11_1" points="332,675 919,675 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
           <line>alto grado de esplendor y gloria.</line>
         </zone>
         <zone xml:id="Varios_435_6_BT226_2__12" type="DefaultLine" subtype="none" points="396,721 396,735 1557,734 1558,717 1556,688 395,686 396,721 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_435_6/395.0,686.0,1163.0,49.0/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_435_6_BT226_2__12_1" points="396,721 1558,717 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
+          <path xml:id="Varios_435_6_BT226_2__12_1" points="396,721 1558,717 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
           <line>La juventud y hermosura de José, fueron cautivando el
                                     corazon</line>
         </zone>
         <zone xml:id="Varios_435_6_BT226_2__13" type="DefaultLine" subtype="none" points="330,764 330,777 1560,774 1561,761 1558,734 1072,726 1071,726 1033,731 1010,734 984,731 945,726 943,726 942,726 933,730 923,735 898,730 881,727 880,727 850,730 803,735 761,730 739,727 738,727 737,727 729,730 709,735 689,730 679,727 678,727 677,727 676,727 670,730 657,735 625,728 612,727 611,727 609,727 603,728 585,736 399,736 328,728 330,764 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_435_6/328.0,726.0,1233.0,51.0/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_435_6_BT226_2__13_1" points="330,764 1561,761 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
+          <path xml:id="Varios_435_6_BT226_2__13_1" points="330,764 1561,761 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
           <line>de su ama, creciendo el amor hasta el extremo de convertirse en
                                     fu-</line>
         </zone>
         <zone xml:id="Varios_435_6_BT226_2__14" type="DefaultLine" subtype="none" points="331,809 331,827 1560,819 1561,806 1557,774 330,777 331,809 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_435_6/330.0,774.0,1231.0,53.0/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_435_6_BT226_2__14_1" points="331,809 1561,806 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
+          <path xml:id="Varios_435_6_BT226_2__14_1" points="331,809 1561,806 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
           <line>riosa pasion. En vez de combatirla daba ella misma pábulo á
                                     su</line>
         </zone>
         <zone xml:id="Varios_435_6_BT226_2__15" type="DefaultLine" subtype="none" points="331,853 331,870 1558,868 1560,851 1557,814 1452,814 1450,814 1449,814 1434,821 1328,814 1314,814 1313,814 1311,814 1310,814 1297,821 1284,814 1283,814 1281,814 1280,814 1263,814 1171,821 1010,816 980,816 979,816 973,816 942,822 884,817 869,816 868,816 860,817 828,822 798,817 787,816 786,816 777,817 752,822 685,817 655,816 653,816 652,816 646,817 629,822 330,819 331,853 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_435_6/330.0,814.0,1230.0,56.0/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_435_6_BT226_2__15_1" points="331,853 1560,851 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
+          <path xml:id="Varios_435_6_BT226_2__15_1" points="331,853 1560,851 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
           <line>adúltero intento y no perdonaba medio para tentar al incauto
                                     José.</line>
         </zone>
         <zone xml:id="Varios_435_6_BT226_2__16" type="DefaultLine" subtype="none" points="331,899 331,916 772,909 1076,916 1110,916 1111,916 1118,916 1187,908 1224,914 1226,916 1309,916 1309,914 1310,914 1311,914 1323,908 1557,914 1560,895 1557,868 1509,860 1508,860 1465,866 1463,866 1440,858 1439,858 1437,858 1436,858 1413,866 1411,866 1405,866 1306,858 1305,858 1304,858 1287,866 1284,868 1192,868 1187,865 1163,858 1162,858 1161,858 1159,858 1145,865 1138,868 1094,865 1029,861 1028,861 1027,861 1014,865 1003,868 994,865 980,860 979,860 977,860 976,860 964,865 956,868 942,865 925,861 924,861 904,864 884,868 872,864 859,860 858,860 741,860 739,860 738,860 737,860 733,864 726,868 691,864 669,861 668,861 666,861 661,864 650,869 330,862 331,899 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_435_6/330.0,858.0,1230.0,58.0/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_435_6_BT226_2__16_1" points="331,899 1560,895 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
+          <path xml:id="Varios_435_6_BT226_2__16_1" points="331,899 1560,895 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
           <line>Mas este con una virtud á toda prueba procuraba y apartaba los
                                     ojos</line>
         </zone>
         <zone xml:id="Varios_435_6_BT226_2__17" type="DefaultLine" subtype="none" points="330,942 330,956 1558,956 1560,939 1557,908 1528,903 1527,903 1526,903 1515,907 1508,910 1492,907 1471,903 1470,903 1469,903 1460,907 1452,910 1436,907 1414,903 1413,903 1411,903 1410,903 1404,907 1397,912 1244,912 1214,907 1185,903 1184,903 1151,907 1116,910 1107,907 1099,903 1098,903 1097,903 1096,903 1088,907 1079,912 1002,912 979,907 959,903 958,903 956,903 947,907 936,910 837,905 793,904 791,904 790,904 785,905 769,913 713,913 689,905 682,904 681,904 679,904 646,905 526,912 512,905 509,904 508,904 436,904 435,904 426,905 384,912 328,905 330,942 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_435_6/328.0,903.0,1232.0,53.0/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_435_6_BT226_2__17_1" points="330,942 1560,939 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
+          <path xml:id="Varios_435_6_BT226_2__17_1" points="330,942 1560,939 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
           <line>de su señora cuando esta fijaba lascivamente en él los suyos.
                                     Por más</line>
         </zone>
         <zone xml:id="Varios_435_6_BT226_2__18" type="DefaultLine" subtype="none" points="330,987 330,1007 380,1000 676,1005 677,1005 747,999 1136,1004 1137,1004 1138,1004 1155,997 1557,1003 1560,983 1557,957 1450,948 1449,948 1448,948 1447,948 1434,957 1215,957 1194,948 1193,948 1192,948 1150,957 1148,957 1146,957 1132,949 1131,949 1129,949 1128,949 1109,957 1107,957 1106,957 1084,949 1083,949 867,949 865,949 825,957 822,957 819,957 739,949 738,949 737,949 707,957 702,958 690,957 635,951 634,951 583,957 574,958 568,957 535,951 534,951 494,957 486,958 477,957 426,951 425,951 328,957 330,987 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_435_6/328.0,948.0,1232.0,59.0/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_435_6_BT226_2__18_1" points="330,987 1560,983 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
+          <path xml:id="Varios_435_6_BT226_2__18_1" points="330,987 1560,983 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
           <line>que buscaba ella ocasiones, José las huia, hasta que ya un dia
                                     no</line>
         </zone>
         <zone xml:id="Varios_435_6_BT226_2__19" type="DefaultLine" subtype="none" points="331,1030 331,1049 1558,1044 1558,1030 1557,996 331,999 331,1030 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_435_6/331.0,996.0,1227.0,53.0/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_435_6_BT226_2__19_1" points="331,1030 1558,1030 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
+          <path xml:id="Varios_435_6_BT226_2__19_1" points="331,1030 1558,1030 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
           <line>pudiendo contenerse, siendo su pasion mayor que todo su decoro
                                     y</line>
         </zone>
         <zone xml:id="Varios_435_6_BT226_2__20" type="DefaultLine" subtype="none" points="330,1073 328,1088 881,1095 882,1095 911,1088 915,1088 919,1088 943,1096 945,1096 946,1096 999,1090 1145,1096 1146,1096 1148,1096 1175,1090 1283,1090 1298,1096 1300,1096 1301,1096 1384,1090 1484,1096 1486,1096 1487,1096 1514,1090 1536,1096 1538,1096 1539,1096 1540,1096 1558,1088 1560,1075 1558,1047 1508,1038 1506,1038 1317,1046 1301,1046 1298,1046 1274,1039 1272,1039 1271,1039 1211,1046 1202,1046 1201,1046 1187,1039 1185,1039 1184,1039 1183,1039 1164,1046 1162,1046 1159,1046 1138,1038 1137,1038 1136,1038 1103,1044 1097,1046 1088,1044 1031,1038 1029,1038 958,1044 951,1044 940,1044 768,1036 767,1036 722,1043 716,1044 711,1043 683,1036 682,1036 681,1036 679,1036 655,1043 650,1046 494,1046 486,1043 461,1036 460,1036 458,1036 330,1042 330,1073 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_435_6/328.0,1036.0,1232.0,60.0/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_435_6_BT226_2__20_1" points="330,1073 1560,1075 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
+          <path xml:id="Varios_435_6_BT226_2__20_1" points="330,1073 1560,1075 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
           <line>dignidad, espuso sin rebozo y con toda claridad su intento al
                                     jóven</line>
         </zone>
         <zone xml:id="Varios_435_6_BT226_2__21" type="DefaultLine" subtype="none" points="330,1121 330,1129 360,1138 361,1138 362,1139 452,1139 452,1138 577,1126 577,1118 574,1095 516,1095 516,1094 494,1083 492,1083 491,1083 444,1085 443,1085 442,1085 429,1094 427,1095 416,1094 353,1085 352,1085 351,1085 328,1092 330,1121 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_435_6/328.0,1083.0,249.0,56.0/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_435_6_BT226_2__21_1" points="330,1121 577,1118 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
+          <path xml:id="Varios_435_6_BT226_2__21_1" points="330,1121 577,1118 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
           <line>mayordomo.</line>
         </zone>
         <zone xml:id="Varios_435_6_BT226_2__22" type="DefaultLine" subtype="none" points="395,1165 395,1185 1557,1178 1557,1165 1557,1135 1526,1127 1525,1127 1496,1133 1478,1125 1476,1125 1475,1125 1423,1135 1372,1135 1096,1135 1096,1134 1073,1125 1072,1125 1071,1125 1070,1125 1040,1134 1038,1135 923,1135 921,1134 904,1125 903,1125 644,1125 643,1125 611,1131 601,1125 600,1125 599,1125 530,1125 529,1125 482,1134 478,1134 473,1134 412,1126 410,1126 409,1126 395,1133 395,1165 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_435_6/395.0,1125.0,1162.0,60.0/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_435_6_BT226_2__22_1" points="395,1165 1557,1165 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
+          <path xml:id="Varios_435_6_BT226_2__22_1" points="395,1165 1557,1165 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
           <line>Resistióse José, afeándole al mismo tiempo su
                                     comportamiento;</line>
         </zone>
         <zone xml:id="Varios_435_6_BT226_2__23" type="DefaultLine" subtype="none" points="331,1211 331,1229 1560,1221 1561,1208 1558,1179 985,1172 984,1172 902,1179 888,1181 769,1181 767,1179 755,1173 754,1173 752,1173 330,1178 331,1211 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_435_6/330.0,1172.0,1231.0,57.0/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_435_6_BT226_2__23_1" points="331,1211 1561,1208 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
+          <path xml:id="Varios_435_6_BT226_2__23_1" points="331,1211 1561,1208 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
           <line>pero ni el desprecio, ni las razones, ni el deber de esposa
                                     encontraron</line>
         </zone>
         <zone xml:id="Varios_435_6_BT226_2__24" type="DefaultLine" subtype="none" points="330,1253 330,1270 1560,1268 1560,1253 1558,1218 1445,1226 1259,1226 1248,1220 1248,1218 1246,1218 1245,1218 1244,1218 1237,1220 1210,1225 1194,1220 1192,1218 1190,1218 1089,1218 1088,1218 1086,1218 1083,1220 1070,1225 1045,1220 1036,1218 1034,1218 980,1220 860,1225 330,1224 330,1253 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_435_6/330.0,1218.0,1230.0,52.0/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_435_6_BT226_2__24_1" points="330,1253 1560,1253 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
+          <path xml:id="Varios_435_6_BT226_2__24_1" points="330,1253 1560,1253 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
           <line>eco en ella. Vuestro esposo y mi señor, la decia José, que me
                                     compró</line>
         </zone>
         <zone xml:id="Varios_435_6_BT226_2__25" type="DefaultLine" subtype="none" points="331,1299 331,1316 1560,1313 1560,1299 1560,1270 331,1270 331,1299 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_435_6/331.0,1270.0,1229.0,46.0/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_435_6_BT226_2__25_1" points="331,1299 1560,1299 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
+          <path xml:id="Varios_435_6_BT226_2__25_1" points="331,1299 1560,1299 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
           <line>por muy poco dinero, satisfecho de mi conducta me ha confiado
                                     su</line>
         </zone>
         <zone xml:id="Varios_435_6_BT226_2__26" type="DefaultLine" subtype="none" points="331,1341 330,1352 353,1361 354,1361 356,1363 487,1363 487,1361 488,1361 501,1355 607,1361 608,1361 696,1355 698,1355 768,1361 769,1361 914,1355 934,1355 938,1355 964,1363 966,1363 967,1363 1025,1356 1027,1356 1028,1356 1066,1363 1067,1363 1558,1357 1560,1343 1558,1316 331,1313 331,1341 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_435_6/330.0,1313.0,1230.0,50.0/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_435_6_BT226_2__26_1" points="331,1341 1560,1343 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
+          <path xml:id="Varios_435_6_BT226_2__26_1" points="331,1341 1560,1343 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
           <line>casa y sus intereses todos, y yo seria un infame si no me
                                     portara</line>
         </zone>
         <zone xml:id="Varios_435_6_BT226_2__27" type="DefaultLine" subtype="none" points="328,1387 328,1403 1558,1403 1560,1385 1556,1356 327,1357 328,1387 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_435_6/327.0,1356.0,1233.0,47.0/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_435_6_BT226_2__27_1" points="328,1387 1560,1385 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
+          <path xml:id="Varios_435_6_BT226_2__27_1" points="328,1387 1560,1385 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
           <line>como él se merece. ¿De qué castigo no sería yo digno si
                                     mancillando</line>
         </zone>
         <zone xml:id="Varios_435_6_BT226_2__28" type="DefaultLine" subtype="none" points="328,1433 328,1452 361,1446 391,1452 392,1452 393,1452 395,1452 440,1446 486,1452 488,1452 490,1452 516,1452 894,1446 933,1451 941,1452 942,1452 953,1451 1016,1444 1556,1450 1558,1430 1557,1403 1527,1395 1526,1395 1525,1395 1136,1402 1124,1395 1123,1395 1122,1395 1021,1395 1020,1395 945,1403 941,1403 938,1403 898,1396 897,1396 712,1403 704,1403 702,1403 660,1396 659,1396 657,1396 637,1403 607,1396 605,1396 410,1403 386,1396 384,1396 383,1396 327,1403 328,1433 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_435_6/327.0,1395.0,1231.0,57.0/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_435_6_BT226_2__28_1" points="328,1433 1558,1430 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
+          <path xml:id="Varios_435_6_BT226_2__28_1" points="328,1433 1558,1430 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
           <line>su honra, pago los beneficios con agravios? Y aun cuando no me
                                     obli-</line>
         </zone>
         <zone xml:id="Varios_435_6_BT226_2__29" type="DefaultLine" subtype="none" points="330,1476 328,1493 1558,1495 1561,1478 1558,1443 1504,1450 1489,1443 1487,1442 1486,1442 1369,1442 1367,1442 1366,1442 1365,1443 1353,1448 1333,1443 1331,1442 1330,1442 1328,1442 1311,1443 1194,1451 1170,1443 1167,1442 1166,1442 1164,1442 1154,1443 1105,1448 1079,1443 1073,1442 1072,1442 1071,1442 1070,1443 1058,1448 998,1443 997,1443 949,1451 921,1443 915,1441 914,1441 912,1441 886,1443 834,1447 692,1443 655,1442 653,1442 652,1442 650,1443 635,1451 453,1451 439,1443 435,1441 434,1441 432,1441 418,1443 374,1450 330,1443 330,1476 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_435_6/328.0,1441.0,1233.0,54.0/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_435_6_BT226_2__29_1" points="330,1476 1561,1478 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
+          <path xml:id="Varios_435_6_BT226_2__29_1" points="330,1476 1561,1478 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
           <line>gara lo que á vuestro esposo debo, aun cuando no me obligara
                                     mi</line>
         </zone>
         <zone xml:id="Varios_435_6_BT226_2__30" type="DefaultLine" subtype="none" points="328,1522 328,1535 1557,1533 1558,1519 1554,1486 327,1490 328,1522 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_435_6/327.0,1486.0,1231.0,49.0/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_435_6_BT226_2__30_1" points="328,1522 1558,1519 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
+          <path xml:id="Varios_435_6_BT226_2__30_1" points="328,1522 1558,1519 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
           <line>honradez para ofender á un hombre, el ser ofensa de Dios fuera
                                     freno</line>
         </zone>
         <zone xml:id="Varios_435_6_BT226_2__31" type="DefaultLine" subtype="none" points="328,1568 328,1590 413,1581 456,1581 469,1589 470,1589 471,1589 473,1589 570,1581 940,1589 941,1589 990,1580 1111,1580 1124,1587 1125,1587 1127,1587 1128,1587 1184,1581 1318,1587 1319,1587 1320,1587 1341,1580 1398,1587 1400,1589 1553,1589 1554,1565 1551,1529 1089,1535 1063,1533 1033,1529 1032,1529 1031,1529 1023,1533 1016,1535 1002,1533 985,1530 984,1530 946,1533 907,1537 772,1535 482,1530 481,1530 327,1538 328,1568 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_435_6/327.0,1529.0,1227.0,61.0/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_435_6_BT226_2__31_1" points="328,1568 1554,1565 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
+          <path xml:id="Varios_435_6_BT226_2__31_1" points="328,1568 1554,1565 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
           <line>que corrigiera mis desmanes; «¿pues cómo puedo hacer maldad
                                     y</line>
         </zone>
         <zone xml:id="Varios_435_6_BT226_2__32" type="DefaultLine" subtype="none" points="331,1611 331,1632 425,1623 492,1628 533,1630 534,1630 535,1630 544,1626 555,1621 609,1624 692,1629 694,1629 738,1620 739,1608 735,1576 423,1582 416,1580 396,1574 395,1574 393,1574 330,1581 331,1611 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_435_6/330.0,1574.0,409.0,58.0/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_435_6_BT226_2__32_1" points="331,1611 739,1608 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
+          <path xml:id="Varios_435_6_BT226_2__32_1" points="331,1611 739,1608 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
           <line>pecar contra mi Dios?»</line>
         </zone>
         <zone xml:id="Varios_435_6_BT226_2__33" type="DefaultLine" subtype="none" points="393,1656 393,1668 1557,1672 1560,1654 1557,1620 1379,1615 1378,1615 1376,1615 1375,1615 1369,1619 1361,1624 1301,1624 1283,1619 1265,1615 1263,1615 1232,1619 1200,1623 1189,1619 1180,1615 1179,1615 1177,1615 1176,1615 1163,1619 1149,1623 1128,1619 1109,1615 1107,1615 1079,1619 1045,1623 1015,1619 992,1615 990,1615 989,1615 980,1619 964,1624 955,1617 953,1616 951,1616 950,1616 949,1616 936,1617 902,1624 798,1617 764,1616 763,1616 761,1616 757,1617 744,1625 540,1625 526,1617 523,1616 522,1616 521,1616 392,1616 393,1656 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_435_6/392.0,1615.0,1168.0,57.0/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_435_6_BT226_2__33_1" points="393,1656 1560,1654 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
+          <path xml:id="Varios_435_6_BT226_2__33_1" points="393,1656 1560,1654 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
           <line>Insistia su ama en su lascivo intento, y José en disuadirla;
                                     pero</line>
         </zone>
         <zone xml:id="Varios_435_6_BT226_2__34" type="DefaultLine" subtype="none" points="327,1698 327,1713 1558,1713 1560,1698 1558,1672 1142,1663 1141,1663 1011,1671 962,1663 960,1663 959,1663 941,1671 925,1663 924,1663 832,1663 830,1663 757,1671 729,1663 728,1663 726,1663 725,1663 708,1672 620,1672 556,1663 555,1663 475,1671 353,1663 352,1663 351,1663 327,1671 327,1698 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_435_6/327.0,1663.0,1233.0,50.0/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_435_6_BT226_2__34_1" points="327,1698 1560,1698 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
+          <path xml:id="Varios_435_6_BT226_2__34_1" points="327,1698 1560,1698 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
           <line>ella ciega y desesperada apeló á la fuerza, y hallándose en
                                     una oca-</line>
         </zone>
         <zone xml:id="Varios_435_6_BT226_2__35" type="DefaultLine" subtype="none" points="328,1745 328,1758 1556,1760 1558,1742 1556,1715 979,1707 977,1707 942,1715 940,1715 906,1715 399,1708 397,1708 396,1708 371,1715 354,1708 353,1708 352,1708 351,1708 327,1715 328,1745 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_435_6/327.0,1707.0,1231.0,53.0/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_435_6_BT226_2__35_1" points="328,1745 1558,1742 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
+          <path xml:id="Varios_435_6_BT226_2__35_1" points="328,1745 1558,1742 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
           <line>sion á solas con José, quiso conseguir á la violencia lo que
                                     con per-</line>
         </zone>
         <zone xml:id="Varios_435_6_BT226_2__36" type="DefaultLine" subtype="none" points="328,1788 328,1804 1558,1802 1558,1788 1557,1758 1359,1760 1348,1758 1327,1752 1326,1752 1324,1752 1323,1752 1307,1758 1300,1762 1197,1762 1175,1758 1123,1752 1122,1752 988,1759 949,1760 940,1759 906,1752 904,1752 903,1752 884,1759 881,1760 878,1759 868,1752 867,1752 865,1752 770,1752 769,1752 705,1760 696,1760 695,1760 685,1752 683,1752 682,1752 614,1752 613,1752 612,1752 596,1760 595,1760 594,1760 573,1754 572,1754 570,1754 569,1754 568,1754 559,1760 557,1762 434,1762 432,1760 406,1752 405,1752 404,1752 328,1760 328,1788 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_435_6/328.0,1752.0,1230.0,52.0/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_435_6_BT226_2__36_1" points="328,1788 1558,1788 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
+          <path xml:id="Varios_435_6_BT226_2__36_1" points="328,1788 1558,1788 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
           <line>suasiones no habia conseguido. En apuro tal el casto jóven, no
                                     vió</line>
         </zone>
         <zone xml:id="Varios_435_6_BT226_2__37" type="DefaultLine" subtype="none" points="330,1832 330,1845 419,1853 421,1854 533,1854 533,1853 534,1853 547,1846 549,1846 588,1853 590,1853 692,1846 709,1846 718,1846 763,1853 764,1853 1560,1849 1560,1832 1558,1797 1513,1803 1417,1797 1401,1797 1400,1797 1398,1797 1397,1797 1383,1804 1335,1798 1323,1797 1322,1797 1311,1798 1268,1804 1167,1799 1119,1797 1018,1797 1016,1797 1015,1797 1007,1801 1001,1803 992,1801 980,1797 979,1797 977,1797 959,1801 942,1804 925,1801 908,1797 907,1797 906,1797 904,1797 895,1801 888,1806 815,1806 780,1802 718,1797 717,1797 716,1797 702,1802 696,1804 638,1803 491,1798 490,1798 330,1804 330,1832 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_435_6/330.0,1797.0,1230.0,57.0/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_435_6_BT226_2__37_1" points="330,1832 1560,1832 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
+          <path xml:id="Varios_435_6_BT226_2__37_1" points="330,1832 1560,1832 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
           <line>otro camino más que la fuga; pero advirtiéndolo su señora, le
                                     agarró</line>
         </zone>
         <zone xml:id="Varios_435_6_BT226_2__38" type="DefaultLine" subtype="none" points="328,1876 328,1891 838,1898 839,1898 841,1898 854,1895 868,1891 885,1895 899,1898 901,1898 998,1895 1157,1891 1266,1897 1292,1898 1293,1898 1304,1897 1353,1891 1376,1898 1379,1898 1380,1898 1382,1899 1556,1899 1556,1876 1556,1850 1457,1842 1456,1842 1410,1849 1408,1849 1395,1841 1393,1841 1392,1841 1391,1841 1354,1847 1326,1841 1324,1841 1323,1841 1322,1841 1320,1841 1310,1849 1307,1850 1215,1850 1211,1847 1192,1841 1190,1841 1189,1841 1059,1847 1020,1850 777,1850 770,1846 760,1841 759,1841 698,1841 696,1841 695,1841 685,1846 677,1849 657,1846 630,1841 629,1841 627,1841 616,1845 607,1849 586,1845 559,1841 557,1841 518,1845 481,1849 328,1845 328,1876 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_435_6/328.0,1841.0,1228.0,58.0/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_435_6_BT226_2__38_1" points="328,1876 1556,1876 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
+          <path xml:id="Varios_435_6_BT226_2__38_1" points="328,1876 1556,1876 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
           <line>de la capa para detenerle, mas en vano: el virtuoso pudo
                                     disasirse y</line>
         </zone>
         <zone xml:id="Varios_435_6_BT226_2__39" type="DefaultLine" subtype="none" points="335,1923 335,1936 553,1942 555,1942 591,1938 618,1936 627,1938 638,1942 639,1942 640,1942 665,1940 691,1936 718,1940 739,1942 741,1942 760,1940 791,1936 813,1940 825,1942 826,1942 828,1942 833,1941 846,1936 860,1941 865,1942 867,1942 868,1942 869,1942 871,1942 872,1941 881,1936 910,1941 919,1942 920,1942 921,1942 923,1942 924,1941 933,1936 997,1942 1007,1942 1008,1942 1015,1942 1057,1936 1071,1942 1075,1921 1072,1895 1031,1885 934,1885 933,1885 932,1885 912,1894 910,1894 906,1893 869,1885 868,1885 813,1886 812,1886 811,1886 811,1888 806,1893 803,1894 783,1893 713,1885 712,1885 711,1885 696,1891 691,1895 621,1895 617,1890 612,1886 612,1885 611,1885 609,1885 608,1885 555,1890 514,1895 481,1895 473,1889 466,1885 465,1885 464,1885 462,1885 440,1889 417,1894 405,1889 403,1888 401,1888 400,1888 399,1888 397,1888 396,1889 387,1894 334,1889 335,1923 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_435_6/334.0,1885.0,741.0,57.0/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_435_6_BT226_2__39_1" points="335,1923 1075,1921 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
+          <path xml:id="Varios_435_6_BT226_2__39_1" points="335,1923 1075,1921 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
           <line>el manto quedó en manos de la adúltera.</line>
         </zone>
         <zone xml:id="Varios_435_6_BT226_2__40" type="DefaultLine" subtype="none" points="403,1966 403,1980 1558,1977 1560,1963 1558,1936 1528,1928 1527,1928 1526,1928 1467,1934 1456,1937 1388,1937 1384,1934 1365,1928 1363,1928 1362,1928 1270,1934 1241,1936 1235,1934 1214,1928 1213,1928 1211,1928 1210,1928 1190,1934 1184,1936 1180,1934 1171,1928 1170,1928 1168,1928 1076,1928 1075,1928 1018,1933 977,1937 914,1933 852,1929 851,1929 850,1929 837,1933 821,1938 695,1938 687,1932 683,1929 682,1929 681,1929 679,1929 640,1932 574,1937 401,1932 403,1966 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_435_6/401.0,1928.0,1159.0,52.0/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_435_6_BT226_2__40_1" points="403,1966 1560,1963 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
+          <path xml:id="Varios_435_6_BT226_2__40_1" points="403,1966 1560,1963 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
           <line>Viéndose de tal manera burlada, cambió de repente el amor
                                     en</line>
         </zone>
         <zone xml:id="Varios_435_6_BT226_2__41" type="DefaultLine" subtype="none" points="334,2011 334,2027 607,2033 608,2033 665,2027 676,2025 678,2027 691,2032 692,2032 694,2032 695,2032 709,2027 712,2025 734,2027 843,2032 845,2032 846,2032 858,2025 859,2025 901,2025 1201,2031 1202,2031 1556,2023 1557,2006 1554,1980 1512,1971 1510,1971 1452,1977 1305,1971 1304,1971 1259,1979 1249,1980 1244,1979 1229,1972 1228,1972 1227,1972 1226,1972 1213,1979 1209,1980 1153,1979 1005,1972 1003,1972 962,1977 932,1981 916,1977 902,1973 901,1973 899,1973 819,1977 725,1981 711,1976 702,1973 700,1973 699,1973 668,1976 609,1982 540,1976 521,1975 421,1975 419,1975 418,1975 417,1975 416,1976 405,1982 332,1976 334,2011 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_435_6/332.0,1971.0,1225.0,62.0/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_435_6_BT226_2__41_1" points="334,2011 1557,2006 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
+          <path xml:id="Varios_435_6_BT226_2__41_1" points="334,2011 1557,2006 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
           <line>ira, y juró vengarse de quien tan mal habia pagado sus lascivos
                                     de-</line>
         </zone>
         <zone xml:id="Varios_435_6_BT226_2__42" type="DefaultLine" subtype="none" points="334,2057 334,2070 704,2076 705,2076 768,2070 786,2068 794,2070 815,2075 816,2075 817,2075 1560,2068 1561,2053 1558,2025 1489,2016 1382,2016 1380,2016 1379,2016 1378,2016 1367,2023 1333,2016 1332,2016 1331,2016 1319,2023 1310,2016 1309,2016 1307,2016 1233,2016 1232,2016 1231,2016 1229,2016 1216,2025 1172,2025 1150,2025 1149,2025 1123,2018 1122,2018 1120,2018 902,2025 851,2018 850,2018 748,2027 741,2027 738,2027 713,2019 712,2019 711,2019 674,2027 672,2027 669,2027 629,2019 627,2019 574,2027 572,2027 565,2027 442,2020 440,2020 393,2027 380,2020 379,2020 378,2020 332,2027 334,2057 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_435_6/332.0,2016.0,1229.0,60.0/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_435_6_BT226_2__42_1" points="334,2057 1561,2053 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
+          <path xml:id="Varios_435_6_BT226_2__42_1" points="334,2057 1561,2053 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
           <line>seos. En cuanto llegó su marido se fué á él y presentándole
                                     la capa</line>
         </zone>
         <zone xml:id="Varios_435_6_BT226_2__43" type="DefaultLine" subtype="none" points="334,2099 334,2118 417,2114 436,2118 449,2120 451,2120 466,2118 487,2114 507,2118 523,2120 525,2120 526,2120 536,2118 549,2114 611,2116 677,2120 678,2120 679,2120 689,2116 696,2114 781,2116 930,2120 932,2120 1167,2114 1236,2112 1252,2114 1311,2119 1313,2119 1344,2112 1349,2112 1366,2112 1484,2119 1486,2119 1560,2111 1561,2097 1560,2071 1530,2062 1528,2062 1527,2062 1496,2068 1484,2060 1483,2060 1482,2060 1480,2060 1293,2068 1262,2070 1249,2068 1190,2060 1189,2060 1188,2060 1174,2068 1170,2071 1084,2071 1077,2067 1062,2062 1060,2062 1059,2062 1016,2067 1003,2068 998,2067 981,2060 980,2060 979,2060 977,2060 955,2067 938,2072 837,2072 822,2066 812,2062 811,2062 809,2062 711,2063 709,2063 708,2063 705,2064 695,2072 655,2072 638,2064 631,2062 630,2062 629,2062 616,2064 596,2068 546,2064 530,2063 529,2063 527,2063 523,2064 496,2071 466,2063 464,2063 462,2063 461,2063 460,2063 457,2063 427,2071 413,2063 410,2062 409,2062 408,2062 400,2063 369,2070 332,2063 334,2099 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_435_6/332.0,2060.0,1229.0,60.0/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_435_6_BT226_2__43_1" points="334,2099 1561,2097 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
+          <path xml:id="Varios_435_6_BT226_2__43_1" points="334,2099 1561,2097 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
           <line>de José, valiéndose de mil zalamerías, le contó como el
                                     jóven la</line>
         </zone>
         <zone xml:id="Varios_435_6_BT226_2__44" type="DefaultLine" subtype="none" points="335,2146 335,2162 1557,2163 1560,2142 1557,2114 1510,2106 1509,2106 1508,2106 1482,2112 1478,2114 1475,2112 1465,2107 1463,2107 1462,2107 1435,2112 1428,2114 1413,2112 1339,2106 1337,2106 1336,2106 1322,2112 1318,2115 1259,2115 1254,2112 1242,2106 1241,2106 1176,2106 1175,2106 955,2111 741,2116 685,2110 664,2108 663,2108 661,2108 653,2110 627,2116 573,2110 557,2108 556,2108 544,2110 503,2116 334,2110 335,2146 " source="https://iiif-dev.unige.ch/iiif/2/fedora_Varios_435_6/334.0,2106.0,1226.0,57.0/full/0/default" corresp="DefaultLine">
-          <path xml:id="Varios_435_6_BT226_2__44_1" points="335,2146 1560,2142 " corresp=" &#xA;                                                  DefaultLine &#xA;                                                  "/>
+          <path xml:id="Varios_435_6_BT226_2__44_1" points="335,2146 1560,2142 " corresp=" &#10;                                                  DefaultLine &#10;                                                  "/>
           <line>habia querido seducir; que no habiendo alcanzado nada con
                                     ha-</line>
         </zone>
@@ -3100,9 +3149,14 @@
   <text>
     <body>
       <div>
+
         <pb n="1" source="Varios_435_1.jpg" facs="varios/Varios_435_1.jpg"/>
+
         <fw type="numeroPliego">(DOS PLIEGOS)</fw>
-        <head type="primer_titulo"><lb/><hi rend="negrita">HISTORIA</hi><lb/>del redentor de los
+        <head type="primer_titulo">
+          <lb/>
+          <hi rend="negrita">HISTORIA</hi>
+          <lb/>del redentor de los
                               egipcios<lb/>EL PATRIARCA JOSÉ<lb/>LLAMADO EL CASTO POR SU GRAN
                               VIRTUD</head>
         <head type="subtitulo_parte">
@@ -3111,27 +3165,42 @@
                                     escrupulosamente de la Sagrada Escritura.</hi>
         </head>
         <div type="colofon">
-          <p><lb/>DESPACHOS:<lb/><hi rend="negrita">MADRID</hi><lb/>Hernando,
-                                    Arenal, 11.<lb/><hi rend="negrita">BARCELONA</hi><lb/>Bou de la
+          <p>
+            <lb/>DESPACHOS:<lb/>
+            <hi rend="negrita">MADRID</hi>
+            <lb/>Hernando,
+                                    Arenal, 11.<lb/>
+            <hi rend="negrita">BARCELONA</hi>
+            <lb/>Bou de la
                                     Plaza Nueva, 13.</p>
         </div>
+
         <pb n="2" source="Varios_435_2.jpg" facs="varios/Varios_435_2.jpg"/>
+
+
         <pb n="3" source="Varios_435_3.jpg" facs="varios/Varios_435_3.jpg"/>
+
         <div type="capitulo" n="1">
-          <head type="primer_titulo"><lb/>HISTORIA<lb/>DEL<lb/>PATRIARCA JOSÉ.<lb/></head>
-          <head type="titulo_parte"><lb/>CAPITULO PRIMERO.</head>
-          <head type="subtitulo_parte" rend="cursiva"><lb/>Envidia de los hijos
+          <head type="primer_titulo">
+            <lb/>HISTORIA<lb/>DEL<lb/>PATRIARCA JOSÉ.<lb/>
+          </head>
+          <head type="titulo_parte">
+            <lb/>CAPITULO PRIMERO.</head>
+          <head type="subtitulo_parte" rend="cursiva">
+            <lb/>Envidia de los hijos
                                     de Jacob contra José su hermano: ellos le venden á
                                     los<lb/>Madianitas y estos á Putifar en Egigto, á donde le
                                     conducen.</head>
-          <p><lb/>La vida del Patriarca José es una de las mas maravillosas y
+          <p>
+            <lb/>La vida del Patriarca José es una de las mas maravillosas y
                                     ejem- <lb/>plares que nos refiere el antiguo testamento. En ella
                                     hallará el lector <lb/>mucho que aprender, mucho que meditar, y
                                     verá como Dios con su <lb/>omnipotente poder eleva al más
                                     encumbrado puesto al que ayer era <lb/>un pobre esclavo
                                     sacrificado por la malevolencia de sus propios her-
                                     <lb/>manos.</p>
-          <p><lb/>Solo contaba diez y seis años José, cuando ya estaba
+          <p>
+            <lb/>Solo contaba diez y seis años José, cuando ya estaba
                                     apacentando, <lb/>junto con sus hermanos, los rebaños de su
                                     padre Jacob. Amábale este <lb/>con extremado cariño, no solo
                                     por sus buenas cualidades, sino porque <lb/>le habia tenido en
@@ -3153,16 +3222,20 @@
                                     Jacob no pudo <lb/>menos de reñir á su hijo diciéndole:
                                     «¿Qué quiere decir este sueño <lb/>que viste? ¿Acaso yo, tu
                                     madre y tus hermanos te adoraremos sobre <lb/>la tierra?»</p>
-          <p><lb/>Empero Jacob, considerando la virtud y sencillez de su
+          <p>
+            <lb/>Empero Jacob, considerando la virtud y sencillez de su
                                     hijo, <lb/>reconocia la voz de Dios en la de José, que le
                                     decia, que aquel niño <lb/>estaba destinado para cosas grandes
                                     y maravillosas, y meditaba sobre <lb/>la inteligencia de sus
-                                    sueños. Si le riñó fué tan solo para que fuese <pb n="4" source="Varios_435_4.jpg" facs="varios/Varios_435_4.jpg"/>
-                                    <fw type="paginaNum">— 4—</fw>
-                                    <lb/>mas mirado elante de sus hermanos; pues conoció que estos
+                                    sueños. Si le riñó fué tan solo para que fuese
+ <pb n="4" source="Varios_435_4.jpg" facs="varios/Varios_435_4.jpg"/>
+
+            <fw type="paginaNum">— 4—</fw>
+            <lb/>mas mirado elante de sus hermanos; pues conoció que estos
                                     no po-<lb/>drian menos de envidiarle y mirarle con malos ojos,
                                     como efectiva-<lb/>mente sucedia.</p>
-          <p><lb/>El deseo de vengarse del inocente José, era el único
+          <p>
+            <lb/>El deseo de vengarse del inocente José, era el único
                                     pensamiento<lb/>que dominaba en sus hermanos, y lo satisfacieron
                                     del modo siguien-<lb/>te. Un dia en que estaban apacentando los
                                     ganados, envió Jacob á<lb/>su hijo á que viese lo que estaban
@@ -3176,7 +3249,8 @@
                                     con sangre de un cordero le haremos creer que una<lb/>fiera le
                                     ha devorado, lo cual demostrará la túnica ensangrentada
                                     y<lb/>hecha pedazos.</p>
-          <p><lb/>Ruben, el mayor de los hermanos, hizo cuanto le fué
+          <p>
+            <lb/>Ruben, el mayor de los hermanos, hizo cuanto le fué
                                     posible<lb/>para que abandonasen tan perversa determinacion,
                                     diciéndoles que<lb/>no matasen á José, que se acordaran que
                                     eran hermanos suyos, que<lb/>tenian su misma sangre; que para
@@ -3185,13 +3259,15 @@
                                     dieran la muerte. Esto les decia con el único objeto de
                                     salir<lb/>del paso, pues él pensaba sacarle despues y
                                     conducirlo á su anciano<lb/>padre.</p>
-          <p><lb/>Conformáronse todos con el parecer de Ruben y así que llegó
+          <p>
+            <lb/>Conformáronse todos con el parecer de Ruben y así que llegó
                                     á<lb/>ellos el inocente José, en vez de corresponder á sus
                                     caricias, le co-<lb/>gieron entre todos y despues de haberle
                                     quitado la túnica, le ataron<lb/>una cuerda á la cintura y le
                                     bajaron á una cisterna, que estaba sin<lb/>agua, para que en
                                     esta acabara sus dias.</p>
-          <p><lb/>Sentáronse luego cerca de la cisterna, y con toda
+          <p>
+            <lb/>Sentáronse luego cerca de la cisterna, y con toda
                                     tranquilidad<lb/>pusiéronse á comer; pero como no podia menos
                                     de suceder, la con-<lb/>versacion recayó sobre la accion
                                     inícua que habian cometido. Sin<lb/>duda, y es muy natural,
@@ -3200,18 +3276,22 @@
                                     conociendo por fin que era una infamia obrar de tal modo<lb/>con
                                     un inocente, que á más era su propio hermano, mudaron
                                     todos<lb/>de parecer.</p>
-          <p><lb/>Estando en esto vieron pasar por aquel sitio á unos
-                                    Ismaelitas<lb/>que iban á Egipto á vender sus mercancías, y
+          <p>
+            <lb/>Estando en esto vieron pasar por aquel sitio á unos
+                                    Ismaelitas<lb/>que iban á <name>Egipto</name> á vender sus mercancías, y
                                     Judá dijo á sus her-<lb/>manos, que era de parecer que más
                                     valia que matar á José, venderle<lb/>á aquellos mercaderes,
                                     los que se lo llevarian á lugares donde no<lb/>sabrian más de
                                     él. Aprobaron todos tal pensamiento, y sacando de
                                     la<lb/>cisterna al jóven cautivo lo llevaron á los Ismaelitas
                                     para ofrecérselo<lb/>en venta. Aceptaron estos, y dando por él
-                                    veinte dineros, siguieron<lb/>su camino hácia Egipto.</p>
+                                    veinte dineros, siguieron<lb/>su camino hácia <name>Egipto</name>.</p>
+
           <pb n="5" source="Varios_435_5.jpg" facs="varios/Varios_435_5.jpg"/>
+
           <fw type="paginaNum">— 5—</fw>
-          <p><lb/>Ruben, que poco antes de hablar Juda, se habia separado de
+          <p>
+            <lb/>Ruben, que poco antes de hablar Juda, se habia separado de
                                     sus<lb/>hermanos para reflexionar á solas cómo sacaria á su
                                     hermano José<lb/>del pozo, llegó pocos momentos despues de la
                                     venta.<lb/>«Y vuelto Ruben á la cisterna, no halló al
@@ -3235,7 +3315,7 @@
                                     á mi hijo llorando hasta el sepulcro.»<lb/>Dejemos al pobre
                                     anciano entregado á su dolor y á sus hijos con<lb/>el
                                     remordimiento de su infame conducta, y sigamos á José en
-                                    su<lb/>viaje á Egipto.<lb/>Llegado que hubieron allá los
+                                    su<lb/>viaje á <name>Egipto</name>.<lb/>Llegado que hubieron allá los
                                     mercaderes le pusieron en venta<lb/>en el mercado público de
                                     esclavos, y prendándose de él Putifar, gran<lb/>señor de
                                     aquella nacion y confidente intimo del rey, lo compró
@@ -3244,23 +3324,29 @@
                                     sucesos.</p>
         </div>
         <div type="capitulo" n="2">
-          <head type="titulo_parte"><lb/>CAPITULO II.</head>
-          <head type="subtitulo_parte" rend="cursiva"><lb/>Putifar dá á José
+          <head type="titulo_parte">
+            <lb/>CAPITULO II.</head>
+          <head type="subtitulo_parte" rend="cursiva">
+            <lb/>Putifar dá á José
                                     la superintendencia de su casa.—Resiste á la violencia
                                     de<lb/>su señora, la que le calumnia, y es puesto en la
                                     cárcel, donde se gana la<lb/>confianza del alcaide.</head>
-          <p><lb/>Una vez llegado á casa de Putifar, despues de haber
+          <p>
+            <lb/>Una vez llegado á casa de Putifar, despues de haber
                                     presentado<lb/>el esclavo á su señora, encargóle algunas
                                     faenas que fueron desem-<lb/>peñadas por el jóven con gran
                                     celo é inteligencia; visto lo cual por<lb/>su señor, poco á
                                     poco le fué confiando distintos cargos, hasta
                                     que,<lb/>enteramente satisfecho de su conducta, le nombró su
                                     mayordomo, con<lb/>omnímodas facultades. Ya entonces el esclavo
-                                    se convirtió en dueño: <note><lb/>(1) Vestido de pelos de
+                                    se convirtió en dueño: <note>
+              <lb/>(1) Vestido de pelos de
                                           cabras de Cilicia.</note>
-                                    <pb n="6" source="Varios_435_6.jpg" facs="varios/Varios_435_6.jpg"/>
-                                    <fw type="paginaNum">— 6—</fw>
-                                    <lb/>entrególe su señor tan del todo el gobierno de la casa,
+
+            <pb n="6" source="Varios_435_6.jpg" facs="varios/Varios_435_6.jpg"/>
+
+            <fw type="paginaNum">— 6—</fw>
+            <lb/>entrególe su señor tan del todo el gobierno de la casa,
                                     que ya él mis-<lb/>mo no sabia lo que tenia, contentándose con
                                     que lo supiera José: él<lb/>que mandando en todos los criados,
                                     siendo él esclavo como ellos,<lb/>consiguió ser querido de
@@ -3283,7 +3369,8 @@
                                     no<lb/>pudiendo contenerse, siendo su pasion mayor que todo su
                                     decoro y<lb/>dignidad, espuso sin rebozo y con toda claridad su
                                     intento al jóven<lb/>mayordomo.</p>
-          <p><lb/>Resistióse José, afeándole al mismo tiempo su
+          <p>
+            <lb/>Resistióse José, afeándole al mismo tiempo su
                                     comportamiento;<lb/>pero ni el desprecio, ni las razones, ni el
                                     deber de esposa encontraron<lb/>eco en ella. Vuestro esposo y mi
                                     señor, la decia José, que me compró<lb/>por muy poco dinero,
@@ -3309,9 +3396,11 @@
                                     marido se fué á él y presentándole la capa<lb/>de José,
                                     valiéndose de mil zalamerías, le contó como el jóven
                                     la<lb/>habia querido seducir; que no habiendo alcanzado nada con
-                                    ha- <pb n="7" source="Varios_435_7.jpg" facs="varios/Varios_435_7.jpg"/>
-                                    <fw type="paginaNum">— 7 —</fw>
-                                    <lb/>lagos, habia echado mano de la fuerza, y que en la lucha se
+                                    ha-
+ <pb n="7" source="Varios_435_7.jpg" facs="varios/Varios_435_7.jpg"/>
+
+            <fw type="paginaNum">— 7 —</fw>
+            <lb/>lagos, habia echado mano de la fuerza, y que en la lucha se
                                     habia <lb/>quedado con la capa que le presentaba. Púsose
                                     furioso Putifar al oir <lb/>tal relato, y sin reflexionar ni
                                     inquirir la verdad mandó inmediata- <lb/>mente encerrar á
@@ -3338,11 +3427,14 @@
                                     posible los <lb/>trabajos de sus compañeros de infortunio.</p>
         </div>
         <div type="capitulo" n="3">
-          <head type="titulo_parte"><lb/>CAPITULO III.</head>
-          <head type="subtitulo_parte" rend="cursiva"><lb/>Estando en la cárcel
+          <head type="titulo_parte">
+            <lb/>CAPITULO III.</head>
+          <head type="subtitulo_parte" rend="cursiva">
+            <lb/>Estando en la cárcel
                                     dos criados de Faraon, les esplica é interprela José<lb/>unos
                                     sueños que tuvieron, y el suceso verifica la prediccion.</head>
-          <p><lb/>Inescrutable el cielo en sus obras, permitió las
+          <p>
+            <lb/>Inescrutable el cielo en sus obras, permitió las
                                     desgracias de José<lb/>para ensalzarle cada vez con mayor
                                     fortuna, y como no le abando-<lb/>naba en sus trabajos, una
                                     conformidad ciega hacia del desgraciado<lb/>un hombre feliz.
@@ -3361,9 +3453,11 @@
                                     copero habia soñado, que veia una vid con tres
                                     sarmientos,<lb/>que en un momento se habia cubierto de hojas,
                                     pámpanos y racimos<lb/>ya maduros; y que habiendo cogido su
-                                    fruto, lo habia esprimido en <pb n="8" source="Varios_435_8.jpg" facs="varios/Varios_435_8.jpg"/>
-                                    <fw type="paginaNum">—8—</fw>
-                                    <lb/>la copa de Faraon, que tenia en sus manos, y se lo habia
+                                    fruto, lo habia esprimido en
+ <pb n="8" source="Varios_435_8.jpg" facs="varios/Varios_435_8.jpg"/>
+
+            <fw type="paginaNum">—8—</fw>
+            <lb/>la copa de Faraon, que tenia en sus manos, y se lo habia
                                     servido.<lb/>—Soñó el panadero que llevaba tres cestas de
                                     harina en la cabeza y<lb/>le parecia que en la que estaba encima
                                     de todas, habia cosas muy deli-<lb/>cadas de su oficio, las que
@@ -3384,7 +3478,7 @@
                                     de Jacob sin esperanza de salir<lb/>de su encierro, cuando Dios
                                     que ya queria librar á su humilde siervo<lb/>de tantas
                                     penalidades, infundió á Faraon unos sueños tan llenos
-                                    de<lb/>misterio que ninguno de los adivinos de Egipto pudo darle
+                                    de<lb/>misterio que ninguno de los adivinos de <name>Egipto</name> pudo darle
                                     una ver-<lb/>dadera solucion. Recordó entonces el desagradecido
                                     copero lo que en<lb/>la cárcel le pasara, y habiéndoselo
                                     contado á Faraon, este se alegró<lb/>mucho de tal noticia y
@@ -3394,17 +3488,20 @@
                                     inquietudes.</p>
         </div>
         <div type="capitulo" n="4">
-          <head type="titulo_parte"><lb/>CAPITULO IV.</head>
-          <head type="subtitulo_parte"><lb/>José interpreta los sueños de
+          <head type="titulo_parte">
+            <lb/>CAPITULO IV.</head>
+          <head type="subtitulo_parte">
+            <lb/>José interpreta los sueños de
                                     Faraon, que le dá la superintendencia de
                                     todo<lb/>Egipto.</head>
-          <p><lb/>Sentado en su trono Faraon habló á José en estos
+          <p>
+            <lb/>Sentado en su trono Faraon habló á José en estos
                                     términos:<lb/>«Me parecia estar á la ribera del rio, y que
                                     subian del rio siete<lb/>vacas, hermosas en extremo, y de
                                     gruesas carnes: las cuales despun-<lb/>taban la yerba verde en
                                     el pasto de la laguna, y hé aquí que á estas<lb/>seguian
                                     otras siete vacas tan feas y flacas que nunca he visto
-                                    otras<lb/>tales en la tierra de Egipto: las cuales habiendo
+                                    otras<lb/>tales en la tierra de <name>Egipto</name>: las cuales habiendo
                                     devorado y consumi-<lb/>do á las primeras, ninguna muestra
                                     dieron de hartura, sino que esta-<lb/>ban entorpecidas con la
                                     flaqueza y saña de antes. Despertando, y<lb/>oprimido otra vez
@@ -3413,9 +3510,12 @@
                                     pica-<lb/>das de tizon salian tambien de una caña; las cuales
                                     se tragaron la<lb/>lozanía de las primeras. He contado á los
                                     adivinos el sueño y no hay<lb/>quien me lo declare.»</p>
+
           <pb n="9" source="Varios_435_9.jpg" facs="varios/Varios_435_9.jpg"/>
+
           <fw type="paginaNum">— 9—</fw>
-          <p><lb/>Respondió «José: el sueño del rey una misma cosa es: lo que
+          <p>
+            <lb/>Respondió «José: el sueño del rey una misma cosa es: lo que
                                     ha <lb/>de hacer Dios, lo ha mostrado á Faraon. Las siete vacas
                                     hermosas y <lb/>las espigas llenas, son siete años de
                                     abundancia, y comprende una <lb/>misma significacion del sueño.
@@ -3424,7 +3524,7 @@
                                     del viento abrasador, son siete años del hambre que ha de
                                     <lb/>venir. Los cuales se cumplirán con este órden: Hé aquí
                                     que vendrán <lb/>siete años de grande fertilidad en toda la
-                                    tierra de Egipto, á los cuáles <lb/>sucederán otros siete
+                                    tierra de <name>Egipto</name>, á los cuáles <lb/>sucederán otros siete
                                     años de una esterilidad tan grande, que será <lb/>echada en
                                     olvido toda la abundancia pasada; porque el hambre ha <lb/>de
                                     consumir toda la tierra, y la grandeza de la carestía ha de
@@ -3433,7 +3533,7 @@
                                     es un indicio de firmeza <lb/>por ser palabra de Dios y de que
                                     se cumplirá cuanto antes.» <lb/>Dicho esto aconsejó al rey que
                                     buscara un varon sábio é indus- <lb/>trioso y que le hiciera
-                                    gobernador de la tierra de Egipto; le aconsejó <lb/>que hiciera
+                                    gobernador de la tierra de <name>Egipto</name>; le aconsejó <lb/>que hiciera
                                     construir grandes graneros y almacenar en ellos todo el
                                     <lb/>trigo que fuera posible para echar mano de él en los años
                                     de hambre, <lb/>y á la par de estos le dió otros muchos
@@ -3449,17 +3549,19 @@
                                     de los principales pontífices de la ciudad de Heliópolis.
                                     Hízole <lb/>subir en un carro triunfal, en el que habia un
                                     pregonero puesto de <lb/>rodillas, y mandó que le pasearan por
-                                    toda la ciudad para que el <lb/>Egipto entero se postrara ante
+                                    toda la ciudad para que el <lb/><name>Egipto</name> entero se postrara ante
                                     él y le reconociese como su Soberano <lb/>Superintendente y que
                                     nada debia hacerse sin su órden, pues gozaba <lb/>de toda su
                                     real privanza.—Segun San Gerónimo el nombre que dió
                                     <lb/>Faraon á José era sinónimo de SALVADOR DEL MUNDO.</p>
-          <p><lb/>Como todo cuanto hacia José lo hacia tan solo por
+          <p>
+            <lb/>Como todo cuanto hacia José lo hacia tan solo por
                                     inspiracion <lb/>divina, todo cuanto emprendia le salia á
                                     medida de su deseo.—Fa- <lb/>raon cada vez más complacido del
                                     tino y fidelidad de José, no sabia <lb/>como remunerarle sus
                                     servicios.</p>
-          <p><lb/>Vamos á exponer de paso algunas consideraciones para
+          <p>
+            <lb/>Vamos á exponer de paso algunas consideraciones para
                                     mientras <lb/>dejamos á José haciendo el acopio de granos para
                                     los años de cares- <lb/>tía.—Ante todo es muy de alabar un
                                     jóven de su edad, pues solo <lb/>contaba 30 años, en medio de
@@ -3468,42 +3570,50 @@
                                     santos padres, sin alterar el servicio de su Dios con alguna
                                     <lb/>mancha de supersticion de los Egipcios. Modesto sin
                                     afectacion, se <fw type="signaturas">2</fw>
-                                    <pb n="10" source="Varios_435_10.jpg" facs="varios/Varios_435_10.jpg"/>
-                                    <fw type="paginaNum">— 10 —</fw>
-                                    <lb/>vió encumbrado con tantas honras, vitores y aclamaciones
+
+            <pb n="10" source="Varios_435_10.jpg" facs="varios/Varios_435_10.jpg"/>
+
+            <fw type="paginaNum">— 10 —</fw>
+            <lb/>vió encumbrado con tantas honras, vitores y aclamaciones
                                     que en al-<lb/>tas voces le llamaban EL SALVADOR DEL MUNDO, y
                                     con todos pro-<lb/>cedió tan humilde que no salió jamás de su
                                     boca una palabra siquiera<lb/>de vanidad, ni mostró
                                     complacencia alguna de las honras y pompas;<lb/>antes con todos
                                     se hizo muy tratable y humano y por esto le
                                     querian<lb/>entrañablemente.</p>
-          <p><lb/>Si bien sirvió la casa de Putifar, mejor sirvió el reino de
+          <p>
+            <lb/>Si bien sirvió la casa de Putifar, mejor sirvió el reino de
                                     Faraon,<lb/>Con suma prudencia, exquisita solicitud y fidelidad
                                     inviolable, fué<lb/>visitando él por si todas las provincias
-                                    de Egipto, y recogiendo granos<lb/>para que su pueblo no
+                                    de <name>Egipto</name>, y recogiendo granos<lb/>para que su pueblo no
                                     pereciese de hambre en los siete años de<lb/>esterilidad.</p>
-          <p><lb/>Llegaron estos, y entonces fué cuando el pueblo todo imploró
+          <p>
+            <lb/>Llegaron estos, y entonces fué cuando el pueblo todo imploró
                                     la<lb/>misericordia de su rey, quien le consolaba diciéndole:
                                     Sosegaos, hi-<lb/>jos; id á José que él os socorrerá. Y
                                     efectivamente José á todos<lb/>consolaba y socorria,
                                     volviéndose á sus casas alegres y contentos,<lb/>aplaudiendo
                                     la misericordia de su rey y el buen gobierno de su
                                     con-<lb/>sejero y ministro.</p>
-          <p><lb/>Jamás conoció el rencor; nada nos dice la Sagrada Escritura
+          <p>
+            <lb/>Jamás conoció el rencor; nada nos dice la Sagrada Escritura
                                     de<lb/>la mujer de Putifar; pero es seguro que José no se
                                     volvió á acordar de<lb/>ella, y lo prueba la bondad con que
                                     abrió sus brazos á los mismos<lb/>que habian querido
                                     matarle.</p>
         </div>
         <div type="capitulo" n="5">
-          <head type="titulo_parte"><lb/>CAPITULO V.</head>
-          <head type="subtitulo_parte" rend="cursiva"><lb/>Los hermanos de José
+          <head type="titulo_parte">
+            <lb/>CAPITULO V.</head>
+          <head type="subtitulo_parte" rend="cursiva">
+            <lb/>Los hermanos de José
                                     pasan á Egipto á comprar trigo.—El los conoce y<lb/>trata con
                                     aparente severidad y dureza.—Por úllimo, dejando á
                                     Simeon<lb/>en prision, les deja volver á la tierra de Canaan,
                                     con la condicion de<lb/>que le han de traer á Benjamin.</head>
-          <p><lb/>Bien pronto se resintió la tierra de Canaan de esta grande
-                                    esteri-<lb/>lidad, y sabiendo Jacob que en Egipto se vendia
+          <p>
+            <lb/>Bien pronto se resintió la tierra de <name>Canaan</name> de esta grande
+                                    esteri-<lb/>lidad, y sabiendo Jacob que en <name>Egipto</name> se vendia
                                     trigo, envió á sus<lb/>hijos para que compraran el necesario
                                     para la familia. José los reco-<lb/>noció al momento y tuvo
                                     que violentarse para no arrojarse en sus<lb/>brazos. Mas
@@ -3511,33 +3621,38 @@
                                     que<lb/>iban con la escusa del trigo, á reconocer las
                                     fortificaciones y puntos<lb/>más flacos de la ciudad para dar
                                     cuenta de ello á los amigos.</p>
-          <p><lb/>Para sincerarse los hermanos de José, le respondieron que
+          <p>
+            <lb/>Para sincerarse los hermanos de José, le respondieron que
                                     esta-<lb/>ban muy lejos de ser traidores; que su condicion era
                                     apacible, que<lb/>eran todos hijos de un mismo padre que se
-                                    habia quedado en Canaan<lb/>con el menor de los hermanos.—José
+                                    habia quedado en <name>Canaan</name><lb/>con el menor de los hermanos.—José
                                     les contestó finalmente que<lb/>para estar seguro de la verdad,
                                     uno de ellos que se quedara preso en<lb/>rehenes, mientras le
                                     traian y le presentaban el menor de los herma-<lb/>nos.—Tocó la
                                     suerte á Simeon, que fué encerrado al momento. Hecho<lb/>esto,
                                     les dió licencia para marchar con sus cargas de trigo; pero el
+
                                           <pb n="11" source="Varios_435_11.jpg" facs="varios/Varios_435_11.jpg"/>
-                                    <fw type="paginaNum">— 11 —</fw>
-                                    <lb/>dinero que por él habian dado se les puso secretamente en
+
+            <fw type="paginaNum">— 11 —</fw>
+            <lb/>dinero que por él habian dado se les puso secretamente en
                                     los costa- <lb/>les por órden de José. Cuando ellos lo
                                     advirtieron, estaban ya de- <lb/>masiado lejos para volver
                                     atrás.</p>
-          <p><lb/>Llegado que hubieron á su casa, dieron noticia á su padre
-                                    de <lb/>todo cuanto les habia pasado en Egipto, y el buen
+          <p>
+            <lb/>Llegado que hubieron á su casa, dieron noticia á su padre
+                                    de <lb/>todo cuanto les habia pasado en <name>Egipto</name>, y el buen
                                     anciano no pudo <lb/>contener las lágrimas al saber que querian
                                     quitarle á su hijo Benja- <lb/>min. Renovó este dolor el de la
                                     muerte de José, y todo el dia lo pa- <lb/>saba sumido en
                                     llanto.</p>
-          <p><lb/>Viendo sus hijos que era matar á su padre el tratar de la
+          <p>
+            <lb/>Viendo sus hijos que era matar á su padre el tratar de la
                                     partida <lb/>de Benjamin, dejaron pasar mucho tiempo sin
                                     hablarle una palabra <lb/>de ello; pero la suerte de Simeon les
                                     inquietaba sobre manera. <lb/>Cada dia iba siendo mayor la
                                     escasez del trigo, y Jacob propuso á <lb/>sus hijos que
-                                    hicieran otro viaje á Egipto. Contestáronle estos que <lb/>era
+                                    hicieran otro viaje á <name>Egipto</name>. Contestáronle estos que <lb/>era
                                     de todo punto inútil, si con ellos no iba Benjamin. Con tal
                                     res- <lb/>puesta se renovó el dolor del anciano.—Finalmente, á
                                     fuerza de rue- <lb/>gos y despues de haberle jurado Judá que
@@ -3558,12 +3673,15 @@
                                     nuevas de vosotros.</p>
         </div>
         <div type="capitulo" n="6">
-          <head type="titulo_parte"><lb/>CAPITULO VI.</head>
-          <head type="subtitulo_parte" rend="cursiva"><lb/>Los hermanos de José
+          <head type="titulo_parte">
+            <lb/>CAPITULO VI.</head>
+          <head type="subtitulo_parte" rend="cursiva">
+            <lb/>Los hermanos de José
                                     vuelven á Egipto con Benjamin, y con varios regalo<lb/>para
                                     José que los recibe con mucha afabilidad y les tiene un
                                     banquete.</head>
-          <p><lb/>Ocioso será decir cómo quedaría el buen Patriarca; pero
+          <p>
+            <lb/>Ocioso será decir cómo quedaría el buen Patriarca; pero
                                     pronto<lb/>su dolor será cambiado en el mayor contento que
                                     esperar podia,<lb/>Llegado que hubieron otra vez á la presencia
                                     de José, este los<lb/>recibió con muchísima afabilidad:
@@ -3573,9 +3691,11 @@
                                     vuelto con felicidad. Despues preguntó por la salud de su
                                     ancia-<lb/>no padre, y en fin, disimulando la grande
                                     satisfaccion que tenia de<lb/>ver á Benjamin, le dijo: «¿Es
-                                    este vuestro hermano pequeña de quien <pb n="12" source="Varios_435_12.jpg" facs="varios/Varios_435_12.jpg"/>
-                                    <fw type="paginaNum">— 12—</fw>
-                                    <lb/>me hablásteis? y dijo despues: Dios tenga misericordia de
+                                    este vuestro hermano pequeña de quien
+ <pb n="12" source="Varios_435_12.jpg" facs="varios/Varios_435_12.jpg"/>
+
+            <fw type="paginaNum">— 12—</fw>
+            <lb/>me hablásteis? y dijo despues: Dios tenga misericordia de
                                     tí hijo mio.»<lb/>Pero no pudiendo detener las lágrimas que le
                                     salian de gozo y de<lb/>ternura, se retiró á toda prisa de la
                                     vista de sus hermanos. Al cabo de<lb/>un rato volvió con rostro
@@ -3584,19 +3704,23 @@
                                     comiendo en su compañía.</p>
         </div>
         <div type="capitulo" n="7">
-          <head type="titulo_parte"><lb/>CAPITULO VII.</head>
-          <head type="subtitulo_parte" rend="cursiva"><lb/>José manda que
+          <head type="titulo_parte">
+            <lb/>CAPITULO VII.</head>
+          <head type="subtitulo_parte" rend="cursiva">
+            <lb/>José manda que
                                     escondan su copa en el saco de Benjamin, y les achaca
                                     este<lb/>hurto, queriendo que Benjamin quede por su esclavo.
                                     Judá se ofrece que-<lb/>dar en su lugar.</head>
-          <p><lb/>Refiere la Sagrada Escritura que una vez concluido el
+          <p>
+            <lb/>Refiere la Sagrada Escritura que una vez concluido el
                                     banquete,<lb/>los hijos de Jacob determinaron marchar á su
                                     tierra para sacar de<lb/>cuidado á su padre, lo que pusieron en
                                     obra al amanecer del dia<lb/>siguiente.—No quiso el tesorero
                                     recibirles el dinero de la otra vez,<lb/>diciéndoles, que él
                                     lo habia cobrado y que si lo habian hallado en<lb/>los costales
                                     diesen por ello gracias á Dios.</p>
-          <p><lb/>De órden de José volviéronles á llenar de trigo los
+          <p>
+            <lb/>De órden de José volviéronles á llenar de trigo los
                                     costales y en<lb/>el de Benjamin por su mandato, se escondió la
                                     copa en que bebió<lb/>durante la comida. Poco trecho habian
                                     andado, cuando vieron llegar<lb/>á ellos el mayordomo de
@@ -3604,7 +3728,8 @@
                                     obstante el buen acogimiento que les habia hecho su amo,<lb/>le
                                     hubiesen hurtado la copa que él usaba y en la que solia
                                     adivinar.</p>
-          <p><lb/>Escusáronse como mejor pudieron diciéndole que no eran
+          <p>
+            <lb/>Escusáronse como mejor pudieron diciéndole que no eran
                                     ellos<lb/>capaces de semejante accion; y consentian en que el
                                     delincuente fuese<lb/>castigado con todo rigor. Al momento
                                     ordenó el mayordomo regis-<lb/>trar todos los costales, y
@@ -3624,7 +3749,9 @@
                                     uterino ha<lb/>muerto, y á este solo tiene su madre, y su padre
                                     le ama tiernamente.<lb/>Y dijiste á tus siervos: traédmelo
                                     acá, y pondré mis ojos sobre él.</p>
+
           <pb n="13" source="Varios_435_13.jpg" facs="varios/Varios_435_13.jpg"/>
+
           <fw type="paginaNum">— 13—</fw>
           <p>Insinuamos á mi señor: no puede el muchacho dejar á su padre
                                     por-<lb/>que si le dejare morirá, y dijiste á tus siervos: Si
@@ -3636,74 +3763,88 @@
                                     más pequeño descendiere con nosotros iremos juntos:
                                     de<lb/>otra manera estando él ausente, no nos atrevemos á ver
                                     el rostro del<lb/>hombre.»</p>
-          <p><lb/>Y así le iba contando Judá á José todo cuanto habia pasado
+          <p>
+            <lb/>Y así le iba contando Judá á José todo cuanto habia pasado
                                     con<lb/>su padre para que dejara venir con ellos al pequeño
                                     Benjamin, y<lb/>finalmente le dijo que él se quedaría esclavo
                                     en vez de su hermano,<lb/>porque de la vuelta de este dependia
                                     la vida de su padre; que si este<lb/>llegaba á saber que su
                                     querido hije quedaba preso por ladron, moria<lb/>sin
                                     remedio.</p>
-          <p><lb/>No le contestó José ni una sola palabra, y dando órden para
+          <p>
+            <lb/>No le contestó José ni una sola palabra, y dando órden para
                                     que<lb/>todo el mundo despejara, se quedó solo con sus
                                     hermanos, lo que<lb/>estaban aguardando con una horrible
                                     ansiedad.</p>
         </div>
         <div type="capitulo" n="8">
-          <head type="titulo_parte"><lb/>CAPITULO VIII.</head>
-          <head type="subtitulo_parte" rend="cursiva"><lb/>José se descubre á sus hermanos á quienes abraza con la
+          <head type="titulo_parte">
+            <lb/>CAPITULO VIII.</head>
+          <head type="subtitulo_parte" rend="cursiva">
+            <lb/>José se descubre á sus hermanos á quienes abraza con la
                                     mayor ternura: en-<lb/>terado Faraon da órden para que venga
                                     Jacob á Egipto con toda su<lb/>familia. José llena de regalos
                                     á sus hermanos, y los despide para su padre.<lb/>Este admirado
                                     de lo que le dicen de su hijo, se dispone para partir á
                                     Egipto.</head>
-          <p><lb/>Despejado que hubieron los extraños, levantándose José
+          <p>
+            <lb/>Despejado que hubieron los extraños, levantándose José
                                     del trono <lb/>y con el rostro anegado en llanto, exclamó:
                                     Venid á mis brazos y <lb/>cesen vuestros temores; yo soy
                                     vuestro hermano José.</p>
-          <p><lb/>Atónitos quedaron todos con estas palabras y tan fuera de
+          <p>
+            <lb/>Atónitos quedaron todos con estas palabras y tan fuera de
                                     sí, que <lb/>no acertaron á hablar en largo rato. El virtuoso
                                     José cuanto más <lb/>asombrados los veia, los acariciaba más:
                                     y haciéndoles poner á todos <lb/>á su alrededor, les habló
                                     en estos tégminos:</p>
-          <p><lb/>Yo soy, queridos hermanos mios, yo soy José, el mismo que
-                                    ven- <lb/>dísteis á los Ismaelitas para ser traido á Egipto:
+          <p>
+            <lb/>Yo soy, queridos hermanos mios, yo soy José, el mismo que
+                                    ven- <lb/>dísteis á los Ismaelitas para ser traido á <name>Egipto</name>:
                                     no os turbeis, ama- <lb/>dos mios, no os acongojeis ni temais,
                                     que Dios lo permitió todo por <lb/>vuestro bien y por el mio.
                                     Dos años de hambre han pasado y aun</p>
-          <p><lb/>quedan cinco, y he venido yo enviado del cielo á Egipto
+          <p>
+            <lb/>quedan cinco, y he venido yo enviado del cielo á <name>Egipto</name>
                                     para susten- <lb/>taros y conservaros en este calamitoso tiempo.
                                     No sucedió por vues- <lb/>tros consejos mi venta, sino por
-                                    voluntad de Dios. Y veisme aquí <pb n="14" source="Varios_435_14.jpg" facs="varios/Varios_435_14.jpg"/>
-                                    <fw type="paginaNum">— 14 —</fw>
-                                    <lb/>ahora que soy como el Padre de Faraon superintendente de su
-                                    casa <lb/>y príncipe de Egipto. Id, pues, presto y traedme á
+                                    voluntad de Dios. Y veisme aquí
+ <pb n="14" source="Varios_435_14.jpg" facs="varios/Varios_435_14.jpg"/>
+
+            <fw type="paginaNum">— 14 —</fw>
+            <lb/>ahora que soy como el Padre de Faraon superintendente de su
+                                    casa <lb/>y príncipe de <name>Egipto</name>. Id, pues, presto y traedme á
                                     mi amado padre, <lb/>dadle las nuevas de mi vida y de mi
                                     dignidad. Contadle toda la glo- <lb/>ria y grandeza de que
                                     vosotros mismos sois testigos, y decidleque <lb/>le aguardo, y
                                     que es la voluntad de Dios que venga á descansar á la
-                                    <lb/>tierra de Gesen, donde tendrá todo lo que pueda desear
+                                    <lb/>tierra de <name>Gesen</name>, donde tendrá todo lo que pueda desear
                                     para sus <lb/>hiios y para sus ganados.</p>
-          <p><lb/>Al oir tales palabras los hermanos de José se le arrojaron
+          <p>
+            <lb/>Al oir tales palabras los hermanos de José se le arrojaron
                                     todos <lb/>al cuello y él les fué abrazando uno á uno,
                                     vertiendo abundantes <lb/>lágrimas de regocijo y de ternura.
                                     Pidiéronle perdon y el virtuoso <lb/>hebreo los volvió á
                                     abrazar de nuevo.</p>
-          <p><lb/>Este suceso pronto llegó á oidos de Faraon, quien lo
+          <p>
+            <lb/>Este suceso pronto llegó á oidos de Faraon, quien lo
                                     celebró mu- <lb/>chísimo y al punto envió á llamar á José.
                                     Este le contó cuanto le ha- <lb/>bia pasado y de tal relacion
-                                    asombrado le mandó que hiciese venir á <lb/>su padre á Egipto
+                                    asombrado le mandó que hiciese venir á <lb/>su padre á <name>Egipto</name>
                                     con sus hermanos y le dió muchos carros y cabal- <lb/>gaduras
                                     para que trajesen cuanto en su tierra tenian.</p>
-          <p><lb/>Llenos de gozo marcharon los hermanos de José, cargados
+          <p>
+            <lb/>Llenos de gozo marcharon los hermanos de José, cargados
                                     con <lb/>los regalos que este les habia hecho, y en cuanto
                                     llegaron á su casa <lb/>dieron cuenta á su anciano padre de
                                     cuanto les habia sucedido. Jacob <lb/>les esperaba impaciente
                                     con el deseo de volver á ver á su querido <lb/>Benjamin y al
                                     preso Simeon junto con todos los demás. Dijéronle <lb/>como
                                     José estaba vivo aun, que le habian visto, hablado y comido
-                                    <lb/>con él, y que era la segunda persona del reino de Egipto,
+                                    <lb/>con él, y que era la segunda persona del reino de <name>Egipto</name>,
                                     teniendo <lb/>á su cargo todo el gobierno.</p>
-          <p><lb/>Parecíale un sueño al buen anciano cuanto sus hijos le
+          <p>
+            <lb/>Parecíale un sueño al buen anciano cuanto sus hijos le
                                     decian; <lb/>hizo que volvieran á referirle con todos los
                                     pormenores cuanío habian <lb/>visto y cuanto les habia
                                     acontecido. La vista de los presentes que le <lb/>hacian su hijo
@@ -3715,36 +3856,44 @@
                                     lugar á los pocos dias.</p>
         </div>
         <div type="capitulo" n="9">
-          <head type="titulo_parte"><lb/>CAPITULO IX.</head>
-          <head type="subtitulo_parte" rend="cursiva"><lb/>Llega Jacob á Egipto
+          <head type="titulo_parte">
+            <lb/>CAPITULO IX.</head>
+          <head type="subtitulo_parte" rend="cursiva">
+            <lb/>Llega Jacob á Egipto
                                     y su hijo va á recibirle y le presenta á Faraon; este
                                     le<lb/>dá para él y sus descendientes la lierra de Gesen.
                                     Muerte de Jacob.</head>
-          <p><lb/>A los pocos dias de haber salido de su tierra llegó Jacob
-                                    á Egipto<lb/>con toda su familia, ganados, etc. En cuanto
+          <p>
+            <lb/>A los pocos dias de haber salido de su tierra llegó Jacob
+                                    á <name>Egipto</name><lb/>con toda su familia, ganados, etc. En cuanto
                                     llegó á noticia de José<lb/>la llegada de su padre fué
                                     corriendo á recibirle, y arroyándose á sus<lb/>brazos, no
-                                    sabian disasirse ni el uno ni el otro, mezclando juntos las <pb n="15" source="Varios_435_15.jpg" facs="varios/Varios_435_15.jpg"/>
-                                    <fw type="paginaNum">— 15—</fw>
-                                    <lb/>lágrimas que tan fausto suceso les hacia verter. Ya puedo
+                                    sabian disasirse ni el uno ni el otro, mezclando juntos las
+ <pb n="15" source="Varios_435_15.jpg" facs="varios/Varios_435_15.jpg"/>
+
+            <fw type="paginaNum">— 15—</fw>
+            <lb/>lágrimas que tan fausto suceso les hacia verter. Ya puedo
                                     morir, hijo <lb/>mio, le decia Jacob á José, ya puedo morir
                                     contento, pues que mi <lb/>Dios y Señor me ha hecho la merced
                                     de que te viera y te dejara vivo <lb/>despues de mis dias.</p>
-          <p><lb/>En cuanto estuvo repuesto algun tanto del viaje, fué
+          <p>
+            <lb/>En cuanto estuvo repuesto algun tanto del viaje, fué
                                     acompañado <lb/>de su hijo á ver á Faraon, quien le recibió
                                     con todo el agasajo ima- <lb/>ginable; hízole diferentes
                                     preguntas y le dijo que hacia donacion de <lb/>la tierra de
-                                    Gesen para él y para sus hijos y para los descendientes <lb/>de
+                                    <name>Gesen</name> para él y para sus hijos y para los descendientes <lb/>de
                                     estos. Agradecióselo Jacob y le dijo: que eran ya pasados por
                                     <lb/>él muchos años, y que no llegaria á la edad de sus
                                     padres, que su <lb/>muerte la consideraba cerca y antes de
                                     despedirse de él le daba la <lb/>bendicion.</p>
-          <p><lb/>Repitióle Faraon lo mucho que le apreciaba, y despues de
+          <p>
+            <lb/>Repitióle Faraon lo mucho que le apreciaba, y despues de
                                     despe- <lb/>dirse y agradecerie cuanto por él habia hecho, se
-                                    marchó Jacob con <lb/>sus hijos á la tierra de Gesen, en donde
+                                    marchó Jacob con <lb/>sus hijos á la tierra de <name>Gesen</name>, en donde
                                     cargado de años murió en el <lb/>Señor, rodeado de toda su
                                     numerosa familia.</p>
-          <p><lb/>Antes de morir anunció á sus hijos lo que les habia de
+          <p>
+            <lb/>Antes de morir anunció á sus hijos lo que les habia de
                                     acontecer <lb/>en los tiempos venideros. Bendíjoles asimismo y
                                     con especialidad á <lb/>Judá, profetizándole no faltaria el
                                     cetro de su tribu, hasta que viniese <lb/>el Redentor del mundo
@@ -3754,29 +3903,35 @@
                                     Manasés y <lb/>Efrain. Recibióles como suyos el moribundo, y
                                     bendiciéndoles profe- <lb/>tizó sobre ellos, y despidiéndose
                                     de todos les mandó que su cadáver <lb/>fuese conducido al
-                                    sepulcro de sus padres á la tierra de Canaan; y <lb/>dicho esto
+                                    sepulcro de sus padres á la tierra de <name>Canaan</name>; y <lb/>dicho esto
                                     entregó su alma al Señor.</p>
-          <p><lb/>Grande fué el desconsuelo de toda la familia; pero en
+          <p>
+            <lb/>Grande fué el desconsuelo de toda la familia; pero en
                                     particular <lb/>el de José, quien despues de haber cubierto de
                                     besos el cadáver, <lb/>mandó á sus médicos que le
                                     embalsamasen su cuerpo con ungüentos <lb/>aromáticos, y así
                                     arreglado lo tuvo expuesto al público por espacio <lb/>de
-                                    cuarenta dias, pasados los cuales lo condujo á Canaan con todo
+                                    cuarenta dias, pasados los cuales lo condujo á <name>Canaan</name> con todo
                                     <lb/>el lujo y pompa imaginables.</p>
         </div>
         <div type="capitulo" n="10">
-          <head type="titulo_parte"><lb/>CAPITULO X.</head>
-          <head type="subtitulo_parte" rend="cursiva"><lb/>Muerte de
+          <head type="titulo_parte">
+            <lb/>CAPITULO X.</head>
+          <head type="subtitulo_parte" rend="cursiva">
+            <lb/>Muerte de
                                     José.—Profetiza á los suyos la salida de Egipto para la tierra
                                     de<lb/>promision.—Mándales que lleven consigo sus huesos, y los
                                     sepulten en el<lb/>sepulcro de sus padres.</head>
-          <p><lb/>Sin duda creyendo los hermanos de José que este no se
+          <p>
+            <lb/>Sin duda creyendo los hermanos de José que este no se
                                     habia<lb/>vengado de ellos por respeto á su padre, con la
                                     muerte de este volvió<lb/>el miedo que tenian, y presentándose
                                     á sus hermanos se arrojaron á<lb/>sus plantas pidiéndole
-                                    perdon de lo pasado y que lo echase en olvido: <pb n="16" source="Varios_435_16.jpg" facs="varios/Varios_435_16.jpg"/>
-                                    <fw type="paginaNum">— 16—</fw>
-                                    <lb/>levantóles José con las lágrimas en los ojos, y
+                                    perdon de lo pasado y que lo echase en olvido:
+ <pb n="16" source="Varios_435_16.jpg" facs="varios/Varios_435_16.jpg"/>
+
+            <fw type="paginaNum">— 16—</fw>
+            <lb/>levantóles José con las lágrimas en los ojos, y
                                     prometióles que su ca- <lb/>riño fraternal no cambiaria nunca,
                                     añadiendo: no califiqueis, amados <lb/>hermanos mios, de
                                     crímen lo que conmigo hicisteis: Dios lo tenia de-
@@ -3785,7 +3940,8 @@
                                     José mostrase <lb/>preferencia por este ó por aquel, y sus
                                     hermanos y la familia toda <lb/>le idolatraban por su noble y
                                     generosa conducta.</p>
-          <p><lb/>Mas como en este mundo todo tiene fin, y como todo lo que
+          <p>
+            <lb/>Mas como en este mundo todo tiene fin, y como todo lo que
                                     nace <lb/>debe morir, sintiendo el Santo Patriarca que la muerte
                                     se acercaba, <lb/>llamó al derredor de la cama á todos los
                                     suyos y les dijo como iba á <lb/>abandonar este mundo dentro de
@@ -3797,20 +3953,23 @@
                                     saliesen llevasen consigo sus hue- <lb/>sos, para sepultarlos en
                                     el sepulcro de sus padres. Dichas estas pala- <lb/>bras, murió
                                     el Santo Patriarca á la edad de 110 años, habiendo man-
-                                    <lb/>dado 80 en Egipto, segun el parecer de algunos
+                                    <lb/>dado 80 en <name>Egipto</name>, segun el parecer de algunos
                                     escritores.</p>
-          <p><lb/>Fué embalsamado su cuerpo, y su muerte llorada por todo
-                                    Egipto. <lb/>Hiciéronsele magníficos funerales y el cadáver
+          <p>
+            <lb/>Fué embalsamado su cuerpo, y su muerte llorada por todo
+                                    <name>Egipto</name>. <lb/>Hiciéronsele magníficos funerales y el cadáver
                                     fué colocado con gran <lb/>pompa cerca de los reales
                                     sepulcros.</p>
-          <p><lb/>Algunos autores aseguran que fué José honrado como á un
+          <p>
+            <lb/>Algunos autores aseguran que fué José honrado como á un
                                     Dios <lb/>entre los Egipcios, bajo el nombre de Sérapis,
                                     fundándose en las di- <lb/>terentes etimologías de este
                                     nombre, que segun todos manifiesta el <lb/>bien que José habia
-                                    hecho en Egipto, por la fertilidad que le habia
+                                    hecho en <name>Egipto</name>, por la fertilidad que le habia
                                     <lb/>proporcionado, de la cual era el símbolo el buey llamado
                                     Apis.</p>
-          <p><lb/>Las profecías y los deseos de José fueron cumplidos.—Sus
+          <p>
+            <lb/>Las profecías y los deseos de José fueron cumplidos.—Sus
                                     huesos <lb/>descansaron en el sepulcro de sus padres, y los
                                     Ismaelitas habitaron <lb/>la tierra que Dios habia prometido á
                                     Abraham, á Isaac y á Jacob.</p>
